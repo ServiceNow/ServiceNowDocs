@@ -3,9 +3,9 @@ title: Microsoft SQL Server metadata collector
 description: Provides read-only access to metadata from a Microsoft SQL Server account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/microsoft-sql-server-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -135,10 +135,10 @@ Column-level lineage showing source columns for data sourcing, sorting, filterin
 
 The collector catalogs dependencies between tables, views, and stored procedures using `sys.sql_expression_dependencies`. Dependencies are created when one entity appears by name in a persisted SQL expression of another entity. See the [Microsoft SQL Server dependencies documentation](https://learn.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-sql-expression-dependencies-transact-sql?view=sql-server-ver16) for details.
 
--   **[Prepare to run the Microsoft SQL Server collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-microsoft-sql-server-collector.md)**  
+-   **[Prepare to run the Microsoft SQL Server collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-microsoft-sql-server-collector.md)**  
 Configure authentication and permissions before running the collector.
--   **[Create a Microsoft SQL Server metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-microsoft-sql-server-metadata-collector.md)**  
+-   **[Create a Microsoft SQL Server metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-microsoft-sql-server-metadata-collector.md)**  
 Create a collector to import metadata from Microsoft SQL Server.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

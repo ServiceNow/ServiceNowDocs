@@ -3,11 +3,11 @@ title: Import and receive assets in bulk at your stockroom in the Enterprise Ass
 description: Receive multiple enterprise and consumable assets at your stockroom by importing the asset records using an Excel template in the Enterprise Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/import-assets-for-receive-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -114,5 +114,5 @@ The asset data validation takes care of the following points:
     -   The **Stockroom** field on the asset form is automatically updated with the stockroom at which you received the assets.
     -   The receive task in the source workflow is automatically closed only if you provided the Source type and Source ticket details.
 
-**Parent Topic:**[Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-stockroom-receive-eam.md)
+**Parent Topic:**[Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/manage-stockroom-receive-eam.md)
 

@@ -3,11 +3,11 @@ title: Saved views
 description: The Saved views page displays all spend analytics views saved for your organization. Use this page to manage your customized views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/saved-views-ccm-ws.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Spend view, Cloud Cost Management Workspace, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---

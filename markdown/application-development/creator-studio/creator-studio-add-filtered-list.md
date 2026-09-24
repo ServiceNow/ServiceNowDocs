@@ -3,13 +3,13 @@ title: Add a filtered list to a workspace in Creator Studio
 description: Create custom filtered lists in the app submission workspace to view records that meet specific conditions. For example, if your app has multiple forms, you can create a list for each form by filtering on the record type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-add-filtered-list.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure workspace lists and records, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Configure workspace lists and records, Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # Add a filtered list to a workspace in Creator Studio
@@ -52,7 +52,7 @@ To add a list to a workspace configuration, you must be given permission to work
 
 7.  Select **Apply conditions** in the Filtered list details panel and use the condition builder to specify what types of records the list should contain, selecting **Apply** when you're done.
 
-    For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
+    For example, you can select **Urgency** as the field and **High** as the value to have the list show only urgent records. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
     For example, the following conditions specify open and closed requests:
 
@@ -73,5 +73,5 @@ To add a list to a workspace configuration, you must be given permission to work
 
 Your new list will appear in the Request App Workspace after your admin deploys it!
 
-**Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
+**Parent Topic:**[Configuring workspace lists and records for form submissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-form-submissions-workspace-about.md)
 

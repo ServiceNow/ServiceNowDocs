@@ -3,11 +3,11 @@ title: Guidelines for importing spreadsheet data
 description: Before you try to import the questionnaire data from a Microsoft Excel spreadsheet into Third-party Risk Management tables, you must verify that its format meets particular guidelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/excel-formatting-guidelines.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -31,7 +31,7 @@ You can specify the following property settings:
     Maximum file size in MB that can be imported.
 
 
-See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 ## Supported columns
 
@@ -90,12 +90,12 @@ Requirements:
 
 \[Omitted image "import-quest-template.png"\] Alt text: Helpful resources for preparing your spreadsheet. For the text description, refer to the note that preceded this.
 
-**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
 **Related topics**  
 
 
-[Import a questionnaire from a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/import-questions-from-excel.md)
+[Import a questionnaire from a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/import-questions-from-excel.md)
 
-[Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md)
+[Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md)
 

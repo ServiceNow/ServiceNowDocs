@@ -3,9 +3,9 @@ title: Extension points in Customer Service Management
 description: Use extension points to call custom scripts in the Customer Service Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/extension-points-customer-service.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ sn\_customerservice.CSMService
 
 </td><td>
 
-Defines the default value logic for case objects. Available with the Customer Service \(com.sn\_customerservice\) plugin.
+Defines the default value logic for case objects. Available with the Case Management Core \(com.sn\_customerservice\) plugin.
 
 </td></tr><tr><td>
 
@@ -43,7 +43,7 @@ sn\_customerservice.CSMCaseSync
 Use this extension point to customize the logic for parent-child case synchronization. This extension point can be used in one of two ways: -   Define the conditions for parent case records that can be considered for synchronization to child cases. The default functionality is based on the **sn\_customerservice.parent\_child\_ case\_sync** system property. Customers can add additional conditions using this extension point.
 -   Customize the logic for parent-child case synchronization based on the state of the child case. By default, if the child case is in the **Resolved**, **Closed**, or **Cancelled** state, there is no sync from the parent case.
 
- This extension point is used by the CSCaseSyncHelper script include and is available with the Customer Service \(com.sn\_customerservice\) plugin.
+ This extension point is used by the CSCaseSyncHelper script include and is available with the Case Management Core \(com.sn\_customerservice\) plugin.
 
 **Note:** In the base system, parent-child case synchronization is available only for the Case table \(sn\_customerservice\_case\). This feature must be configured for tables that extend the Case table.
 
@@ -101,7 +101,7 @@ global.CSMRelationshipServiceEP
 
 </td><td>
 
-Create CSM relationships with responsibilities.Available with the Customer Service \(com.sn\_customerservice\) plugin.
+Create CSM relationships with responsibilities.Available with the Case Management Core \(com.sn\_customerservice\) plugin.
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ global.CSMContentAccessEP
 
 </td><td>
 
-Creates the logic to implement ACLs for create, read, update, and delete \(CRUD\) operations.Available with the Customer Service \(com.sn\_customerservice\) plugin.
+Creates the logic to implement ACLs for create, read, update, and delete \(CRUD\) operations.Available with the Case Management Core \(com.sn\_customerservice\) plugin.
 
 </td></tr><tr><td>
 
@@ -123,11 +123,11 @@ Enables users to customize the reference qualifiers of the location field in the
 </table>**Related topics**  
 
 
-[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/extension-points.md)
 
-[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-extension-points.md)
+[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/scripted-extension-points.md)
 
-[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)
+[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/ui-extension-points.md)
 
-[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/client-extension-points.md)
+[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/client-extension-points.md)
 

@@ -3,29 +3,31 @@ title: Software discovery and normalization
 description: Identify all software installed within your organization's IT environment, including details such as publisher, product, and version. Then, standardize and validate this discovered data to ensure accuracy and consistency through software normalization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_SAMDiscovery.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software discovery and normalization
 
 Identify all software installed within your organization's IT environment, including details such as publisher, product, and version. Then, standardize and validate this discovered data to ensure accuracy and consistency through software normalization.
 
--   **[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-software-discovery.md)**  
+-   **[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-software-discovery.md)**  
 After you've imported your entitlements, use ServiceNow Discovery or Microsoft SCCM to discover software installations in your environment and transfer that data into the ServiceNow AI Platform.
--   **[Software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-normalization.md)**  
+-   **[Software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-normalization.md)**  
 Standardize discovered software model data within the Software Asset Management application through the process of software model normalization.
--   **[Normalization suggestions for discovery models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/normalization-suggestions.md)**  
+-   **[Normalization suggestions for discovery models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/normalization-suggestions.md)**  
 Normalization suggestions are created for all manually normalized discovery models. You can accept or reject these suggestions.
--   **[Normalization of discovery models using machine learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ml-learning-sam.md)**  
+-   **[Normalization of discovery models using machine learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/ml-learning-sam.md)**  
 Use machine learning to improve your normalization rates in real time by normalizing your unrecognized discovered software.
--   **[Duplicate software installations in the Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/deduplicating-software-installations-sam.md)**  
+-   **[Duplicate software installations in the Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/deduplicating-software-installations-sam.md)**  
 Duplicate software installation are created when you discover software installations with the same publisher, product, version, and edition through multiple discovery sources.
+-   **[Software install deduplication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/deduplication-rule.md)**  
+Software install deduplication consolidates redundant installation records for the same product on a single device, improving data accuracy and license compliance.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

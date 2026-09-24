@@ -3,9 +3,9 @@ title: Access Customer Central
 description: Access Customer Central to get a quick overview of key customer information. This information helps you learn more about a customer who contacts support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/access-customer-central.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Central for FSO, Explore, Financial Services Operations \(FSO\)]
 ---

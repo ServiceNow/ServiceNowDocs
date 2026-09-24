@@ -3,11 +3,11 @@ title: Reactivate escalation engine
 description: Escalation engine is replaced with 2011 SLA Engine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_ReactivateAnOldSLAEngine.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Level Agreement \(Legacy\) engines, Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -35,5 +35,5 @@ ServiceNow Express used the legacy Escalation Engine to process SLAs. If for any
     ServiceNow recommends using the 2011 SLA Engine.
 
 
-**Parent Topic:**[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_GetStartedWithSLAs.md)
+**Parent Topic:**[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_GetStartedWithSLAs.md)
 

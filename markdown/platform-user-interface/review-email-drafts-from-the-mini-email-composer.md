@@ -3,9 +3,9 @@ title: Review email drafts from the mini email composer
 description: View emails saved for later or create a new email while saving your current draft automatically from the full email composer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/review-email-drafts-from-the-mini-email-composer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mini email composer, Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

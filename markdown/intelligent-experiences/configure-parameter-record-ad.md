@@ -1,13 +1,13 @@
 ---
 title: Enable AI agents to securely access parameters in AI Desktop Actions
-description: Enable AI agents to securely access stored values, such as credentials and other input data, through Desktop Action Parameter records. Parameters protect sensitive values and provide dynamic inputs to desktop actions during agent execution.
+description: Enable AI agents to securely access stored values, such as credentials and other input data, through Desktop Action Parameter records. Parameters protect sensitive values and provide dynamic inputs to desktop actions during agent execution.Create a Desktop action parameter record to store a name that an AI agent references when accessing credentials or other values during desktop action execution.Create a Desktop action parameter value record to store the value that an AI agent retrieves during desktop action execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-parameter-record-ad.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-25"
-reading_time_minutes: 4
-breadcrumb: [Defined desktop actions for desktop, Configure, AI Desktop Actions, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Defined desktop actions, Configure, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Enable AI agents to securely access parameters in AI Desktop Actions
@@ -108,7 +108,119 @@ Verify that you use the exact names of the Parameter records. Parameter record n
 **Related topics**  
 
 
-[Create a Desktop action parameter record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuration-ssh-username-password-ad.md)
+[Create a Desktop action parameter record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-parameter-record-ad.md)
 
-[Create a parameter value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-parameter-value-record.md)
+[Create a parameter value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-parameter-record-ad.md)
+
+## Create a Desktop action parameter record
+
+Create a Desktop action parameter record to store a name that an AI agent references when accessing credentials or other values during desktop action execution.
+
+### Before you begin
+
+Perform this task in the ServiceNow instance.
+
+For SSH connector desktop actions, verify that you have an active SSH server.
+
+Role required: sn\_aia.admin
+
+### About this task
+
+Parameter records are supported for on-screen tasks and SSH background tasks. Use them to replace fixed values with configured ones for on-screen tasks and username and password for SSH.
+
+### Procedure
+
+1.  Navigate to **All** &gt; **AI Desktop Actions** &gt; **Desktop Action Parameters**.
+
+2.  Select **New**.
+
+3.  Fill in the following fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|Enter a unique name for the parameter. The AI agent references this name when retrieving the stored value. For example, `un_username_group` or `un_password_group`.|
+    |Description|Enter a description of what value this parameter stores.|
+    |Shared|Option to make this parameter available to all users. When selected, only one Desktop action parameter value record can be created under this parameter, and only a user with the sn\_aia.admin role can create it. During execution, the AI agent uses this single value regardless of which user triggered the agent.|
+    |Mark As Sensitive|Option to encrypt all associated Desktop action parameter value records. The agent decrypts the value at execution time.|
+
+    **Important:**
+
+    **Shared** and **Mark As Sensitive** can only be edited when there are no associated parameter value records.
+
+4.  Select **Submit**.
+
+
+### Result
+
+The Desktop action parameter record is created and appears in the Desktop Action Parameters list. You can now create Desktop action parameter value records under this parameter. For more information, see [Create a parameter value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-parameter-record-ad.md).
+
+## Create a parameter value record
+
+Create a Desktop action parameter value record to store the value that an AI agent retrieves during desktop action execution.
+
+### Before you begin
+
+Perform this task in the ServiceNow instance.
+
+At least one Desktop action parameter record must exist.
+
+Role required: sn\_aia.admin or now\_assist\_panel\_user
+
+**Note:**
+
+For shared parameters, only users with the sn\_aia.admin role can create Desktop action parameter value records.
+
+### Procedure
+
+1.  Navigate to **All** &gt; **AI Desktop Actions** &gt; **Desktop Action Parameters**.
+
+2.  Select the Parameter record for which you want to store a value.
+
+3.  In the Desktop action parameter values related list, select **New**.
+
+4.  Fill in the following fields.
+
+<table id="table_zht_ssg_jjc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Read-only. Inherited from the parent Desktop action parameter record.
+
+</td></tr><tr><td>
+
+User
+
+</td><td>
+
+The user this value record belongs to. Defaults to the user creating the record. Users with the sn\_aia.admin role can change this field to assign the value record to a different user. **Note:**
+
+This field is not shown for shared parameters.
+
+</td></tr><tr><td>
+
+Value
+
+</td><td>
+
+Enter the value the agent retrieves at execution time, such as a username, password, or other credential.**Note:**
+
+The **Value** field displays as plain text or encrypted text depending on the **Mark As Sensitive** setting on the parent parameter record.
+
+</td></tr></tbody>
+</table>5.  Select **Submit**.
+
+
+### Result
+
+The Desktop action parameter value record is created and appears in the Desktop action parameter values related list on the Parameter record.
 

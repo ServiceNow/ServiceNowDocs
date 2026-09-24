@@ -3,9 +3,9 @@ title: Edit font size
 description: Adjust font sizes at the theme or component category level to refine default or custom fonts and keep your brand consistent across all experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/edit-font-size.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Adjust font sizes at the theme or component category level to refine default or 
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 
@@ -54,7 +54,7 @@ Font sizing changes in Theme Builder also apply to web embeddables using your th
 
 5.  Edit global font sizes.
 
-<table id="choicetable_o4q_hfq_g3c"><tbody><tr><td id="d92048e179">
+<table id="choicetable_o4q_hfq_g3c"><tbody><tr><td id="d92196e179">
 
 **Edit global base font**
 
@@ -62,7 +62,7 @@ Font sizing changes in Theme Builder also apply to web embeddables using your th
 
 Under Global sizes, locate Base font size and enter a new size value.
 
-</td></tr><tr><td id="d92048e188">
+</td></tr><tr><td id="d92196e188">
 
 **Edit individual global font sizes**
 
@@ -94,7 +94,7 @@ Under Global sizes, expand Base font size. Locate the individual size that you w
 
 Theme Builder automatically saves your theme record.
 
-If your theme is published, your font sizing edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your font sizing edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)
+**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/working-with-global-styles.md)
 

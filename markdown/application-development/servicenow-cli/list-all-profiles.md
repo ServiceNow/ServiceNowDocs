@@ -3,13 +3,13 @@ title: View profiles
 description: View all connection profiles set in the configuration file, or view information about a specific profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/list-all-profiles.html
-release: australia
+release: brazil
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring and managing your ServiceNow CLI connection profiles, ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring and managing your ServiceNow CLI connection profiles, ServiceNow CLI, Developing your application, Building applications]
 ---
 
 # View profiles
@@ -59,5 +59,5 @@ For each profile, the CLI displays host information, version details, user name,
     ```
 
 
-**Parent Topic:**[Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/configure-profile.md)
+**Parent Topic:**[Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/configure-profile.md)
 

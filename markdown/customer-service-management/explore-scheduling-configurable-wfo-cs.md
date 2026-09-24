@@ -3,9 +3,9 @@ title: Scheduling in Workforce Optimization for Customer Service
 description: Learn how you can plan shifts that include break time for your agents to effectively manage their schedule in Workforce Optimization for Customer Service. Publish schedules to view the agent schedules on the team calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/explore-scheduling-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -57,8 +57,6 @@ As an agent, you can:
 
 ## Example
 
-Understand how you can set up and publish agent schedules and how your agents can manage their own schedule based on an example.
-
 A manager for a large Customer Service operation is responsible for 12 teams. Each team has from 8 through 15 agents. At any given point, the manager needs visibility into the teams' schedule. The manager must also be able to create shifts, and approve or reject shift-swap or time-off requests from the team.
 
 The manager can manage the teams' schedule using **Scheduling**. Team members can also manage their own schedules effectively by requesting shift-swaps or time off.
@@ -71,7 +69,7 @@ The manager can review schedules by performing the following steps from one cent
 4.  Publish the schedule.
 5.  Approve teams' requests.
 
-Agents make requests to change the schedule or take time off. For more information, refer to [Track and manage your team schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-manage-teams-schedule-configurable-wfo.md).
+Agents make requests to change the schedule or take time off. For more information, refer to [Track and manage your team schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-manage-teams-schedule-configurable-wfo.md).
 
 Get an overview of how to you can create shift plans and assign agents to the shifts using the schedule plan. For more information, refer to [Create Shift Plans](https://www.youtube.com/watch?v=lwnnKvaJiAY&t=139s) on YouTube.
 
@@ -79,14 +77,14 @@ Get an overview of how you can monitor shifts and schedule for your entire team 
 
 Get an overview of how agents use the workspace to manage their schedule. For more information, refer to [Agent Schedule](https://www.youtube.com/watch?v=H17cbdqTkpM) on YouTube.
 
-For detailed information on creating and managing schedules using Workforce Optimization for Customer Service, refer to [Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md).
+For detailed information on creating and managing schedules using Workforce Optimization for Customer Service, refer to [Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/scheduling-configurable-wfo-cs.md).
 
-**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Setting up Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-scheduling-configurable-wfo-cs.md)
+[Setting up Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-scheduling-configurable-wfo-cs.md)
 
-[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
+[Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)
 

@@ -3,11 +3,11 @@ title: Create processes for Legal Request playbook
 description: Use these steps to create processes for Legal Request playbook in the Process Automation Designer \(PAD\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-create-processes-legal-request.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbook for Legal Request, MSIM Playbooks, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

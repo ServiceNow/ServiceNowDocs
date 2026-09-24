@@ -3,11 +3,11 @@ title: Create pallet assets in the Enterprise Asset Workspace
 description: Create pallet assets to track and manage the pallets that can transport and store your enterprise, hardware, base, bundle, and consumable assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -238,12 +238,12 @@ Work notes related to the pallet.
 </table>4.  Select **Save**.
 
 
--   **[Add assets to a pallet in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-assets-pallet.md)**  
+-   **[Add assets to a pallet in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-assets-pallet.md)**  
 Add enterprise, hardware, base, bundle, or consumable assets to a pallet so that you can track and manage them as a group.
--   **[Remove assets from a pallet in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/remove-assets-pallet.md)**  
+-   **[Remove assets from a pallet in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/remove-assets-pallet.md)**  
 Remove any enterprise, hardware, base, bundle, or consumable assets that you no longer want to track and manage as part of a pallet.
--   **[Using pallet assets to manage your asset inventory in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/using-pallets-manage-inventory-eam.md)**  
+-   **[Using pallet assets to manage your asset inventory in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/using-pallets-manage-inventory-eam.md)**  
 You can manage your asset inventory by using pallets and the assets contained within those pallets in your transfer orders, disposal orders, resale orders, and various consumption workflows.
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

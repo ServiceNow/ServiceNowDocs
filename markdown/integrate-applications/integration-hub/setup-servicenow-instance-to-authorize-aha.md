@@ -3,7 +3,7 @@ title: Set up ServiceNow instance for Aha!
 description: Set up your ServiceNow instance to add the Aha! Client ID and Client Secret keys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-servicenow-instance-to-authorize-aha.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -36,7 +36,7 @@ Set up your ServiceNow instance to add the Aha! Client ID and Client Secret keys
 
         \[Omitted image "aha-spoke-tile.jpg"\] Alt text: Connection for the Aha! spoke
 
-    -   To manage more than one Aha! spoke connection records, you should create child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Aha! spoke connection records, you should create child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you're configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
 
     \[Omitted image "aha-spoke-configure.jpg"\] Alt text: Initial connection configuration

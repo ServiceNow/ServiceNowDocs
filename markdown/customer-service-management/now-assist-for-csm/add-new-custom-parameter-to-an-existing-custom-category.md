@@ -3,11 +3,11 @@ title: Add custom parameter to an existing custom category
 description: Create and save a custom parameter within a category that supports custom parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/add-new-custom-parameter-to-an-existing-custom-category.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Automated quality assurance, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -25,7 +25,7 @@ Role required: admin
 
 Use this procedure to add custom parameter to an existing custom category. All fields in the form must be completed before saving.
 
-**Note:** You can’t add custom parameters to the base system categories.
+**Note:** You can't add custom parameters to the base system categories.
 
 ## Procedure
 

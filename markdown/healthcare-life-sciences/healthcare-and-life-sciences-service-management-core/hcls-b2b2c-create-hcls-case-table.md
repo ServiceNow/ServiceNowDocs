@@ -3,11 +3,11 @@ title: Create a table for B2B2C in Healthcare and Life Sciences Service Manageme
 description: Create a table that extends the Healthcare case table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-hcls-case-table.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up B2B2C, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ Create a table that extends the Healthcare case table.
 
 ## Before you begin
 
-Assign the case viewer role for contacts. For more information, see [Assign the case viewer role for contacts in B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-grant-contact-case-creation.md).
+Assign the case viewer role for contacts. For more information, see [Assign the case viewer role for contacts in B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-grant-contact-case-creation.md).
 
 Role required: admin
 
@@ -45,5 +45,5 @@ A table is created that extends the Healthcare case table for use with B2B2C.
 
 ## What to do next
 
-Create a record producer for use with B2B2C. For more information, see [Create a record producer for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-record-producer.md).
+Create a record producer for use with B2B2C. For more information, see [Create a record producer for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-record-producer.md).
 

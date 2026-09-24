@@ -3,11 +3,11 @@ title: Cluster nodes in a Dependency Views map
 description: Dependency Views maps can display cluster group nodes alongside individual CI nodes, and the child nodes of these cluster groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/c\_CollapsedNodesInNGBSM.html
-release: australia
+release: brazil
 product: Dependency Views
 classification: dependency-views
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

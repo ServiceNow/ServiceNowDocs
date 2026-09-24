@@ -3,9 +3,9 @@ title: Create consumers
 description: A consumer is a customer in the business-to-consumer \(B2C\) business model. Use the Customer Service Management application to create consumer records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-create-csm-consumers.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure consumers, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -38,15 +38,15 @@ Consumers can have multiple addresses, one of which is the primary address.
 
 2.  Select **New** and fill in the fields on the Consumer form.
 
-3.  Enter the consumer information, such as the name, email address, and phone numbers.
+    For more information, see [Consumer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/consumer-form.md).
 
-4.  Fill in the fields on the Primary Address tab.
+3.  Fill in all the required fields on the Primary Address tab.
 
     A consumer can have multiple addresses but only one primary address. The primary address is stored in the Primary Address tab of the consumer form within the Addresses related list.
 
-5.  Set the desired fields on the Preferences tab.
+4.  Set the desired fields on the Preferences tab.
 
-6.  Select **Submit**.
+5.  Select **Submit**.
 
     The record is added to the Consumers table \(csm\_consumer\). The primary address is added to the **Addresses** related list and the **Primary** field is set to **true**.
 

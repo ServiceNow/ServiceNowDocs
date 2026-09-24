@@ -3,9 +3,9 @@ title: Dispatcher Workspace
 description: Dispatchers can efficiently manage field teams and customer experience to achieve positive outcomes for your organization through Dispatcher Workspace. Forecast potential problem areas before they arise and maximize operational efficiency for both field teams and customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/dispatcher-activities.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -20,27 +20,52 @@ Watch this short video to see how dispatchers use Dispatcher Workspace.
 
 Dispatcher Workspace is the main working space for dispatchers, bringing speed and efficiency to field service scheduling. It provides dispatchers and managers with a complete view of tasks, teams, locations, and status. Dispatcher Workspace has a configurable layout so dispatchers can create a personalized display with custom filters, advanced search, and sort options. Task and agent cards can be customized to display relevant information.
 
+## Example: Assign HVAC Technician
+
+A customer reports that their AC unit is not cooling. The system automatically assigns a qualified HVAC technician matched to the customer's location and service agreement, and the technician receives the job assignment with real-time status updates.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Dispatcher|Reviews the queue|
+|2|System|Evaluates technician fit|
+|3|Dispatcher|Assigns the job|
+|4|System|Notifies technician|
+|5|System|Updates work order status to Dispatched|
+
+## Example: Optimize Technician Daily Route
+
+A dispatcher assigns multiple work orders across different locations and needs to minimize technician travel time without manually reordering the schedule. Route Optimization evaluates all job locations, calculates the most efficient route, and reorders tasks automatically, reducing travel time and improving the number of jobs a technician can complete in a single shift.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Dispatcher|Assigns multiple jobs|
+|2|System|Evaluates job locations|
+|3|System|Calculates optimal route|
+|4|System|Reorders task schedule|
+|5|Technician|Follows optimized route|
+|6|System|Minimizes travel time|
+
 ## Key features
 
 With Dispatcher Workspace, you can manage work efficiently, simplify resource management, deliver on service level agreements, and maximize productivity. Key benefits of Dispatcher Workspace include:
 
 -   **Single workspace**
 
-    See everything in one configurable screen, from unassigned tasks to technician schedules and maps. For more information, see [Customize Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/dispatch-work-ui-builder.md) and [Dispatcher dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/dispatcher-dashboard.md).
+    See everything in one configurable screen, from unassigned tasks to technician schedules and maps. For more information, see [Customize Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/dispatch-work-ui-builder.md) and [Dispatcher dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/dispatcher-dashboard.md).
 
 -   **Automated work assignment**
 
     Schedule work orders based on technician skills, parts, distance, recommendations, and access hours.
 
-    -   Utilize dynamic scheduling to automatically assign work orders based on various factors, including skills, availability, and distance. For more information, see [Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/dynamic-scheduling.md).
-    -   Streamline work assignments for crews by automating the scheduling process. For more information, see [Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-crew-scheduling.md).
+    -   Utilize dynamic scheduling to automatically assign work orders based on various factors, including skills, availability, and distance. For more information, see [Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/dynamic-scheduling.md).
+    -   Streamline work assignments for crews by automating the scheduling process. For more information, see [Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-crew-scheduling.md).
 -   **Route optimization**
 
     Reduce travel time and costs by visualizing and improving multiple technician routes simultaneously.
 
 -   **Intelligent task recommendations**
 
-    Improve agent utilization through intelligent task recommendations. For more information, see [Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-task-recommendation.md).
+    Improve agent utilization through intelligent task recommendations. For more information, see [Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-task-recommendation.md).
 
 -   **Multiple time zones**
 
@@ -68,7 +93,7 @@ With Dispatcher Workspace, you can manage work efficiently, simplify resource ma
 **Related topics**  
 
 
-[Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-dispatcher-workspace.md)
+[Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/configuring-dispatcher-workspace.md)
 
-[Using Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/using-dispatcher-workspace.md)
+[Using Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/using-dispatcher-workspace.md)
 

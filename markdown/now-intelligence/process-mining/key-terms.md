@@ -3,11 +3,11 @@ title: Process Mining key terms
 description: Key terms used in Process Mining.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/key-terms.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Process Mining, Platform Analytics]
 ---
@@ -33,5 +33,5 @@ Key terms used in Process Mining.
 |Sliders|Activity and connection slider tools on the process map screen for showing process steps. Using the sliders can show sequential connections between them in a more or less detailed view.|
 |Transition|A change of activity state.|
 
-**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining-reference.md)
+**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining-reference.md)
 

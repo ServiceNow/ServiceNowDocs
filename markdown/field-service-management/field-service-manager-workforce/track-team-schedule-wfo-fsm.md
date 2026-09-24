@@ -3,11 +3,11 @@ title: Track and manage your team's schedule
 description: Create, update, or monitor your team's schedule from one location. You can approve or reject requests for swapping shifts or time off for agents within your assignment group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/track-team-schedule-wfo-fsm.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
@@ -44,7 +44,7 @@ Using the calendar, you can do the following:
 
     1.  In the **Team Calendar** tab, navigate and point to the shift for the agent that you want to modify the schedule for.
 
-        **Note:** Note: To avoid delays in loading events, as well as other processes that utilize a caching mechanism through an event queue, see [Custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/useful-server-side-scripts.md).
+        **Note:** Note: To avoid delays in loading events, as well as other processes that utilize a caching mechanism through an event queue, see [Custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/useful-server-side-scripts.md).
 
     2.  In the shift pop-up window, click the Edit icon \(\[Omitted image "EditWidgetButton.png"\] Alt text: Edit icon.\).
     3.  Modify the agent's shift time.
@@ -58,7 +58,7 @@ Using the calendar, you can do the following:
 
     **Note:**
 
-    You must approve a request two days before the time-off or shift-swap start date. Outside that time period, the approval will be auto-rejected. For more information, see the descriptions of **Setting the due date for time-off and shift-swap request approvals** in [Components installed with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
+    You must approve a request two days before the time-off or shift-swap start date. Outside that time period, the approval will be auto-rejected. For more information, see the descriptions of **Setting the due date for time-off and shift-swap request approvals** in [Components installed with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/components-installed-configurable-wfo-cs.md).
 
     Overlapping time-off requests by an agent will be rejected.
 

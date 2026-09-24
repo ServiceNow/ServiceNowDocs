@@ -3,13 +3,13 @@ title: Portal Case Cards widget
 description: The Portal Case Cards widget displays cards for cases that you define. By default, the displayed cases are those awaiting information or are resolved. You can choose to define different criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Portal Case Cards widget
@@ -20,5 +20,5 @@ The following illustration shows the default card view with cases that are curre
 
 \[Omitted image "portal-case-cards-widget.png"\] Alt text: Portal Case Cards widget displaying case cards.
 
-For more information about how to configure the instance options for the Portal Case Cards widget, see [Add and configure the Portal Case Cards widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget-inst-optns.md).
+For more information about how to configure the instance options for the Portal Case Cards widget, see [Add and configure the Portal Case Cards widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget-inst-optns.md).
 

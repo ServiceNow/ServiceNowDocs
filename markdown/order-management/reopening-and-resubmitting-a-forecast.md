@@ -3,7 +3,7 @@ title: Reopening and resubmitting a forecast
 description: Adjust the values of a submitted forecast by reopening it and resubmitting the updated forecast within the current submission window.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/reopening-and-resubmitting-a-forecast.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 1
@@ -20,7 +20,7 @@ Role required: sn\_sales\_forecast.submission\_writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -34,7 +34,7 @@ Role required: sn\_sales\_forecast.submission\_writer
 
 6.  On the Reopen Submission dialog box, select **Reopen**.
 
-    You can reopen the submitted forecast only if your forecast model allows resubmission of a submitted forecast. For more info, see [Configure Forecast Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-forecast-model.md).
+    You can reopen the submitted forecast only if your forecast model allows resubmission of a submitted forecast. For more info, see [Configure Forecast Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-forecast-model.md).
 
 7.  Update the values that you want to modify.
 
@@ -43,14 +43,14 @@ Role required: sn\_sales\_forecast.submission\_writer
     The forecast is resubmitted and the state changes back to Completed.
 
 
-**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 
 **Related topics**  
 
 
-[Submitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/submitting-a-forecast.md)
+[Submitting a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/submitting-a-forecast.md)
 
-[Configure Forecast Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-forecast-model.md)
+[Configure Forecast Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-forecast-model.md)
 
-[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 

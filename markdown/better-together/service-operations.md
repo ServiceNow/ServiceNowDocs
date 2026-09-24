@@ -3,9 +3,9 @@ title: Automating and optimizing your services and operations using Service Oper
 description: You can expand services while reducing costs, delivering high-quality customer and employee experiences, and driving operational resilience. Use a single cloud platform that integrates IT processes such as incident, problem, and change with IT operations such as discovery, business service definitions, service mapping, and event management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/better-together/service-operations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Solutions]
 ---
@@ -260,7 +260,7 @@ In this workflow:
     3.  Install Service Operations Workspace ITSM Applications from the ServiceNow® Store. For information about installing this application, see Install Service Operations Workspace ITSM Applications.
 2.  Ensure that the following conditions are met for Service Operations Workspace for ITOM.
     1.  Procure the ITOM Professional license or later for ServiceNow® IT Operations Management applications. Contact your ServiceNow account manager or sales representative.
-    2.  Install Service Operations Workspace ITOM Applications from the ServiceNow® Store. For information about installing this application, see [Install Service Operations Workspace for ITOM Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-sow-itom-apps.md).
+    2.  Install Service Operations Workspace ITOM Applications from the ServiceNow® Store. For information about installing this application, see [Install Service Operations Workspace for ITOM Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-sow-itom-apps.md).
 
 ## Get started with Service Operations Workspace for ITSM and ITOM
 
@@ -271,7 +271,7 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: admin.
 
-    2.  Set up Investigation Framework. See [Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/set-up-investigate.md).
+    2.  Set up Investigation Framework. See [Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/set-up-investigate.md).
 
         Role: admin.
 
@@ -284,7 +284,7 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: evt\_mgmt\_operator.
 
-    2.  Configure alert metrics. See [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-alert-metrics-itom.md).
+    2.  Configure alert metrics. See [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-alert-metrics-itom.md).
 
         Role: evt\_mgmt\_operator.
 
@@ -296,13 +296,13 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: evt\_mgmt\_admin.
 
-    5.  Customize Service Operations Workspace lists. See [Customize lists in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-list-sow.md).
+    5.  Customize Service Operations Workspace lists. See [Customize lists in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-list-sow.md).
 
         Role: itil.
 
 
--   **[Case Study: Enhancing Risk, Compliance, and Audit Management with ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/use-case-itom-risk-compliance-audit-mgmt.md)**  
+-   **[Case Study: Enhancing Risk, Compliance, and Audit Management with ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/better-together/use-case-itom-risk-compliance-audit-mgmt.md)**  
 The use case demonstrates how ITOM integration streamlined risk, compliance, and audit management for a financial institution by providing real-time operational visibility, automation, and enhanced risk assessments.
 
-**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/better-together/solutions-gallery.md)
 

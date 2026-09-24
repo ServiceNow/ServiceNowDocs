@@ -3,11 +3,11 @@ title: Set up the approval rules for due diligence requests
 description: Set up the rules at each approval level for your due diligence requests by selecting an approver type and the number of approvals that you require in the Third-party Risk Management application. You can also filter the table conditions that apply to each rule so that you can help ensure that the correct user or group is assigned as an approver.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-rules.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Approve or reject due diligence requests, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Set up the rules at each approval level for your due diligence requests by selec
 
 ## Before you begin
 
-Set up the approval levels. For more information, see [Set up the approval levels for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.md).
+Set up the approval levels. For more information, see [Set up the approval levels for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.md).
 
 Role required: admin or sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 
@@ -44,7 +44,7 @@ Each approval level can contain multiple approval rules. Each approval rule can 
 
 7.  Select the source for the request.
 
-    For descriptions of all these fields, see [Approval rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ar-form.md).
+    For descriptions of all these fields, see [Approval rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ar-form.md).
 
 8.  Select **Submit**.
 
@@ -52,5 +52,5 @@ Each approval level can contain multiple approval rules. Each approval rule can 
 **Related topics**  
 
 
-[Set up the approval levels for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.md)
+[Set up the approval levels for due diligence requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-set-request-approval-levels.md)
 

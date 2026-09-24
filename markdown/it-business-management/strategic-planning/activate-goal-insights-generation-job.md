@@ -3,11 +3,11 @@ title: Activate and configure the Goal insights generation job
 description: Activate the Goal insights generation scheduled job to automatically generate AI-driven insights for a predefined set of goals at a scheduled frequency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/activate-goal-insights-generation-job.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [goal insights, scheduled job, AI insights, goals, Strategy and Goals, Now Assist for SPM]
 breadcrumb: [Goal insights generation job, Configure, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
@@ -45,7 +45,7 @@ The Goal insights generation scheduled job is inactive by default. After activat
 
 5.  Select **Update** to save the configuration.
 
-    **Important:** The job runs only on goals that match the defined filter criteria. Goals outside the filter criteria are not processed by the job. To optimize system resources and prevent excessive token consumption, define the filter criteria as specifically as possible. For details, see [Configure the goals set for goal insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/configure-goals-set-goal-insights-generation.md).
+    **Important:** The job runs only on goals that match the defined filter criteria. Goals outside the filter criteria are not processed by the job. To optimize system resources and prevent excessive token consumption, define the filter criteria as specifically as possible. For details, see [Configure the goals set for goal insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/configure-goals-set-goal-insights-generation.md).
 
 6.  To run the job immediately outside the scheduled frequency, select **Execute Now**.
 
@@ -56,5 +56,5 @@ The Goal insights generation job is active and configured. The job automatically
 
 ## What to do next
 
-To generate insights for goals outside the filter criteria, users can manually select **Goal insights** on the Goals page for the required goal. For details, see [Generate insights for a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/generate-insights-for-goal-strategy.md).
+To generate insights for goals outside the filter criteria, users can manually select **Goal insights** on the Goals page for the required goal. For details, see [Generate insights for a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/generate-insights-for-goal-strategy.md).
 

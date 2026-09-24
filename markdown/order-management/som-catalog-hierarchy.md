@@ -3,9 +3,9 @@ title: Product catalog hierarchy visualization
 description: As a product catalog admin or manager, you can view the complete hierarchy of a product offering and any associated specifications \(product, service, and resource\). Use these views to verify that all entities have been defined and associated correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-catalog-hierarchy.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -25,7 +25,7 @@ The toggle legend identifies the product offering and specification icons displa
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

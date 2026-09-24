@@ -3,12 +3,12 @@ title: Review or create default template rules
 description: Assign a default value template to each AI system category and vendor so that newly onboarded AI systems are mapped automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-review-default-templates.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [default template rules, value template, AI Control Tower, vendor]
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Review or create default template rules

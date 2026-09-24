@@ -3,11 +3,11 @@ title: Define an LDAP server
 description: Create a new LDAP server record in the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_DefineAnLDAPServer.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [LDAP integration setup, LDAP integration, Authentication, Access Management]
 ---
@@ -158,7 +158,7 @@ Listener
 
 </td><td>
 
-Select this check box to enable the integration to periodically poll Microsoft Active Directory servers or LDAP servers that support persistent search request control. Additionally, if you selected a MID Server, the listener functionality is available for that MID Server. See [Enable an LDAP listener and set system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_EnableAListener.md) for more information.
+Select this check box to enable the integration to periodically poll Microsoft Active Directory servers or LDAP servers that support persistent search request control. Additionally, if you selected a MID Server, the listener functionality is available for that MID Server. See [Enable an LDAP listener and set system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/t_EnableAListener.md) for more information.
 
 </td></tr><tr><td>
 

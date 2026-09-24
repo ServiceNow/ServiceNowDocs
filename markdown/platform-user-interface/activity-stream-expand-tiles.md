@@ -3,9 +3,9 @@ title: Expand Activity stream tiles by default
 description: Expand Activity stream tiles by default across records and sessions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/activity-stream-expand-tiles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activity stream, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

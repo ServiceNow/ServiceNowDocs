@@ -3,11 +3,11 @@ title: ServiceNow Studio personas and roles
 description: Admins, delegated developers, and users with Guided Application Creator roles can access and develop in ServiceNow Studio. Each role has different capabilities and permissions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sn-studio-personas-roles.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing access to ServiceNow Studio, Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -20,7 +20,7 @@ Admins, delegated developers, and users with Guided Application Creator roles ca
 
 Admins and delegated developers have different capabilities in ServiceNow Studio. Admins can delegate users to work on specific apps and app files by assigning delegated\_developer permissions.
 
-For more information about roles and access to different app development tools, see [Roles and access in app development tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-roles-and-access.md).
+For more information about roles and access to different app development tools, see [Roles and access in app development tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-roles-and-access.md).
 
 <table id="table_clb_2w1_xcc"><thead><tr><th>
 
@@ -96,7 +96,7 @@ Granular admin role that enables the following actions:-   Manage all ServiceNow
 -   Manage roles and permissions specific to ServiceNow Studio.
 -   Configure the experience switcher roles across Creator Studio, ServiceNow Studio, and ServiceNow IDE.
 
-For more information about granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For more information about granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 </td></tr><tr><td>
 
@@ -127,5 +127,5 @@ Metadata-specific admin roles are existing roles on the ServiceNow AI Platform t
 -   Be configurable within the experience switcher.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)
+</table>**Parent Topic:**[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)
 

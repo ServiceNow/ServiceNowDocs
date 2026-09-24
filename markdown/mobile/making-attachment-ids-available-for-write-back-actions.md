@@ -3,11 +3,11 @@ title: Enable attachment IDs for write-back actions
 description: Enable write-back actions to use attachment IDs in your ServiceNow AI Lens launcher button.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/making-attachment-ids-available-for-write-back-actions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a Lens launcher button, Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
+breadcrumb: [Configure Lens launcher button, Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Enable attachment IDs for write-back actions
@@ -33,5 +33,5 @@ Role required: admin
 6.  Select **Submit** to save your progress.
 
 
-**Parent Topic:**[Configure a Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-lens-launcher-button.md)
+**Parent Topic:**[Configure Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-lens-launcher-button.md)
 

@@ -3,11 +3,11 @@ title: Load balancer fields and probes
 description: Discovery stores load balancer information in several tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_LoadBalancerFields.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Load balancers, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Load balancers, Network device discovery, Data collected by ITOM Vi
 
 Discovery stores load balancer information in several tables.
 
-The information in this topic pertains to discovery with probes and sensors only. If you are using patterns, such as to discover [F5 Big-IP load balancers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md), see the relevant topic for that type of load balancer.
+The information in this topic pertains to discovery with probes and sensors only. If you are using patterns, such as to discover [F5 Big-IP load balancers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md), see the relevant topic for that type of load balancer.
 
-**Note:** By default, the system uses the discovered IP address of a load balancer for the CI record. This can be the management IP created for the device that is used in the Discovery schedule. For instructions on how to force Discovery to use the IP address of the load balancer's NIC rather than that of a management IP, see [IP address selection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIIPAddressSelection.md).
+**Note:** By default, the system uses the discovered IP address of a load balancer for the CI record. This can be the management IP created for the device that is used in the Discovery schedule. For instructions on how to force Discovery to use the IP address of the load balancer's NIC rather than that of a management IP, see [IP address selection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_CIIPAddressSelection.md).
 
 |Field label and name|Probes that gather data|
 |--------------------|-----------------------|
@@ -346,7 +346,7 @@ Tag \[tag\]
 </td></tr></tbody>
 </table>## Apache web server data
 
-Discovery also collects data on Apache web serer load balancing modules using SSH. See [Apache mod\_jk and mod\_proxy discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoApacheWebServers.md) for more information on probes for Apache web server data. For information on the tables, fields, and data sources that discovery populates for Apache web servers, see [Apache web server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoApacheWebServers.md).
+Discovery also collects data on Apache web serer load balancing modules using SSH. See [Apache mod\_jk and mod\_proxy discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoApacheWebServers.md) for more information on probes for Apache web server data. For information on the tables, fields, and data sources that discovery populates for Apache web servers, see [Apache web server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoApacheWebServers.md).
 
-**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

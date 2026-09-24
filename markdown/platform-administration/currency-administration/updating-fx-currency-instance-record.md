@@ -3,11 +3,11 @@ title: Update a Currency Instance record
 description: Review and edit the details of a currency entry in an FX Currency field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/updating-fx-currency-instance-record.html
-release: australia
+release: brazil
 product: Currency Administration
 classification: currency-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,15 +24,15 @@ Role required: currency\_instance\_admin, with ACL access to the FX Currency fie
 
 1.  Access the Currency Instance record using one of the following methods.
 
-<table id="choicetable_wfb_pcw_5jb"><thead><tr><th align="left" id="d68931e73">
+<table id="choicetable_wfb_pcw_5jb"><thead><tr><th align="left" id="d68884e73">
 
 Access method
 
-</th><th align="left" id="d68931e76">
+</th><th align="left" id="d68884e76">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68931e82">
+</th></tr></thead><tbody><tr><td id="d68884e82">
 
 **Direct access from an FX Currency field**
 
@@ -40,7 +40,7 @@ Description
 
 Select the edit icon \(\[Omitted image "currency-edit.png"\] Alt text: Edit icon\) that appears next to the FX Currency field in a transaction record.
 
-</td></tr><tr><td id="d68931e101">
+</td></tr><tr><td id="d68884e101">
 
 **From the navigator bar**
 
@@ -83,7 +83,7 @@ Conversion Rate
 
 </td><td>
 
-Conversion rate used to calculate the reference currency value. It converts a session currency value, expressed in one currency, to another, and stores as a reference to a record in the Currency Conversion Rate \[fx\_conversion\_rate\] table. The conversation rate is based on the **Conversion Rate Table** and **Conversion Date Source** settings for the FX Currency field in the Rate tab of FX Currency Configuration. To learn more about these settings, see [Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
+Conversion rate used to calculate the reference currency value. It converts a session currency value, expressed in one currency, to another, and stores as a reference to a record in the Currency Conversion Rate \[fx\_conversion\_rate\] table. The conversation rate is based on the **Conversion Rate Table** and **Conversion Date Source** settings for the FX Currency field in the Rate tab of FX Currency Configuration. To learn more about these settings, see [Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
 
  You change or select the conversion rate as needed.
 
@@ -95,7 +95,7 @@ Reference Amount
 
 Calculated reference currency amount. The ServiceNow AI Platform converts the currency value entered into the **Amount** field into a common reference currency. It uses the settings in the **Reference Currency Source** and **Reference Currency** fields in **System Localization** &gt; **FX Currency Configuration** to do so. You can't change the calculated reference amount.
 
- **Note:** To learn more about reference currencies, see [Set the reference currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-set-reference.md).
+ **Note:** To learn more about reference currencies, see [Set the reference currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/fx-currency-set-reference.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Three-letter ISO code that identifies the reference currency, for example, USD, 
 3.  Select **Save**.
 
 
-**Parent Topic:**[Setting up defaults required for FX Currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/setting-up-defaults-fx-currency-use.md)
+**Parent Topic:**[Setting up defaults required for FX Currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/setting-up-defaults-fx-currency-use.md)
 
 **Related topics**  
 

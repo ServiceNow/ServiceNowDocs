@@ -3,9 +3,9 @@ title: Get approval history and status in an MCP client
 description: Retrieve the approval history and status for a quote approval by using natural language in a Model Context Protocol \(MCP\) client. You can use this information to review past approval decisions and check the progress of an in-progress approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/get-approval-history-mcp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MCP tools, approval history, quote approval, Advanced Approval Management AI]
 breadcrumb: [Advanced Approval Management AI, Configure, price, quote apps, Use, Sales Customer Relationship Management]
@@ -57,5 +57,5 @@ Enter a natural language request in your MCP client to run the tool.
 
 Depending on your role and the state of the quote, you can submit the quote for approval if you're a requester. If you're an approver, you can approve or reject an approval request for a quote.
 
-**Parent Topic:**[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-advanced-approval-mgmt-ai.md)
+**Parent Topic:**[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-advanced-approval-mgmt-ai.md)
 

@@ -3,11 +3,11 @@ title: AWS Systems Manager Parameter Store pattern-based discovery
 description: Discovery and Service Mapping Patterns finds AWS Systems Manager Parameter Store parameters on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-systems-manager-parameter-store.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AWS Systems Manager Parameter Store, AWS Systems Manager discovery, AWS patterns, Systems Manager Extended Inventory]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -83,5 +83,5 @@ The Amazon AWS - Systems Manager Parameter Store - Extended Inventory \(LP\) pat
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud Resource \[cmdb\_ci\_cmp\_resource\] table.|
 
-**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

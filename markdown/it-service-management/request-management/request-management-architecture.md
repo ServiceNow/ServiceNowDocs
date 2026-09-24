@@ -3,11 +3,11 @@ title: Request Management architecture
 description: Request Management defines the data model and processing flow for catalog item requests, from cart creation through record fulfillment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/request-management-architecture.html
-release: australia
+release: brazil
 product: Request Management
 classification: request-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Request Management, IT Service Management]
 ---
@@ -69,12 +69,12 @@ When a user submits a request for a catalog item, records are generated in the f
 
 **Note:** The base system workflow attached to the request is demo data.
 
-**Parent Topic:**[Exploring Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/exploring-request-management.md)
+**Parent Topic:**[Exploring Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-management/exploring-request-management.md)
 
 **Related topics**  
 
 
-[Create a catalog request in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/create-request-workspace.md)
+[Create a catalog request in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-management/create-request-workspace.md)
 
-[Create a request from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/create-request-from-ur.md)
+[Create a request from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-management/create-request-from-ur.md)
 

@@ -3,11 +3,11 @@ title: Set up notifications in workspace utility settings
 description: Set up the advanced notification and search settings in your workspace experience so that you can control how your users see notifications and search options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/workspace-utility-settings.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure UI Builder workspace experiences, Configure how users interact with your applications in UI Builder, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -28,7 +28,7 @@ Set up the advanced notification and search settings in your workspace experienc
 
 You can also control whether the search functionality is visible to the users of your workspace experience. If you choose to display a search option, you can define what search results are returned by choosing a source for the search.
 
-Before you can edit the experience settings, you must be in the correct application scope. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/security-roles.md).
+Before you can edit the experience settings, you must be in the correct application scope. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/security-roles.md).
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Before you can edit the experience settings, you must be in the correct applicat
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page in your workspace experience.
 
@@ -57,5 +57,5 @@ Before you can edit the experience settings, you must be in the correct applicat
     **Note:** If you have the Record component on a page, you can have a record open in the workspace experience when a notification is selected. Follow the instructions in [Record UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/washingtondc/now-components/record/uib-setup) on the ServiceNow developer site and define a featureRoutes page property.
 
 
-**Parent Topic:**[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-workspace-settings.md)
+**Parent Topic:**[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-workspace-settings.md)
 

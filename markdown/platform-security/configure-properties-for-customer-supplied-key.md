@@ -3,9 +3,9 @@ title: Configure properties for customer-supplied key
 description: Review the system properties for the ephemeral public wrapping key that your instance uses to unwrap customer-supplied keys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-properties-for-customer-supplied-key.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Customer-supplied keys for Field Encryption Enterprise, Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -77,14 +77,14 @@ Period for which the ephemeral key pair is valid.
 </td></tr></tbody>
 </table>## Procedure
 
-1.  Contact ServiceNow Support if you need to change any of these properties.
+1.  Contact ServiceNow Support to change any of these properties.
 
-    **Note:** These system properties are not visible to admins, and do not appear in the System properties \[sys\_properties\] list. Use the table above to see their default values.
+    **Note:** These system properties aren't visible to admins, and don't appear in the System properties \[sys\_properties\] list. Use the table above to see their default values.
 
 
 ## What to do next
 
-Once your properties are configured to your needs, proceed to [Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/wrap-your-customer-supplied-key.md).
+Once your properties are configured to your needs, proceed to [Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/wrap-your-customer-supplied-key.md).
 
-**Parent Topic:**[Configure Customer-supplied keys for Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/fe-config-customer-supplied-keys.md)
+**Parent Topic:**[Configure Customer-supplied keys for Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/fe-config-customer-supplied-keys.md)
 

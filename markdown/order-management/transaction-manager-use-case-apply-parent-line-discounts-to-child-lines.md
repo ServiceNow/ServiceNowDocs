@@ -3,7 +3,7 @@ title: ServiceNow Quote Experience use case: Apply parent line discounts to chil
 description: ServiceNow Quote Experience can help manage transactions whose configurable products have many child and grandchild transaction line items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-use-case-apply-parent-line-discounts-to-child-lines.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -26,5 +26,5 @@ When **Parent Line Discounting** is selected, a rule sets the descendant line’
 
 \[Omitted image "cpq-txn-mgr-use-case-apply-line-discounts-2.png"\] Alt text: Discounting at the transaction header
 
-**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-cases.md)
+**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/transaction-manager-use-cases.md)
 

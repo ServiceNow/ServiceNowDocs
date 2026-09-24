@@ -3,9 +3,9 @@ title: Survey designer elements
 description: The survey designer is accessible from Survey Survey Designer .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyDesignerElements.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Survey designer, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -70,7 +70,7 @@ Yes
 
 </td><td>
 
-List of predefined options. For more information, see the definition of the **Choices** field in [Create a question in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateQuestSurveyDesigr.md).**Note:** The Choice values can only be numeric, string values will not be saved.
+List of predefined options. For more information, see the definition of the **Choices** field in [Create a question in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateQuestSurveyDesigr.md).**Note:** The Choice values can only be numeric, string values will not be saved.
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ Yes
 
 </td><td>
 
-Choice list of templates that provide a predefined scale of options. For details, see [Quiz scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizScorecards.md).
+Choice list of templates that provide a predefined scale of options. For details, see [Quiz scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_QuizScorecards.md).
 
 </td></tr><tr><td>
 
@@ -230,7 +230,7 @@ This tab displays all metric categories added to the question bank for surveys. 
 The tabs on the header bar display views and a menu of functions. Click a tab to change the view on the canvas:
 
 -   **Design**: Add and configure the properties of categories and questions. This is the default view.
--   **Configuration**: Create introductions and end notes for surveys and select a [signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAnAssessmentSignature.md).
+-   **Configuration**: Create introductions and end notes for surveys and select a [signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAnAssessmentSignature.md).
 -   **Availability**: Select the recipients for each category in the survey.
 
 Point to the menu icon \(\[Omitted image "Menu.png"\] Alt text: Menu icon\) to select an option. The list of options depends on the currently open survey.
@@ -249,7 +249,7 @@ New surveys open in the canvas of the **Design** view. The survey **Name** field
 
 \[Omitted image "SurveyDesignerNewSurvey.png"\] Alt text: New survey question field
 
-**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDesigner.md)
 
 **Related topics**  
 

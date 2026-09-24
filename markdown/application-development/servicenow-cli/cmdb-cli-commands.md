@@ -3,13 +3,13 @@ title: Commands installed with CMDB Application CLI and API
 description: Commands and command groups available to the ServiceNow CLI when the app-cmdb-api-cli plugin is installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/cmdb-cli-commands.html
-release: australia
+release: brazil
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
-breadcrumb: [ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow CLI, Developing your application, Building applications]
 ---
 
 # Commands installed with CMDB Application CLI and API
@@ -30,7 +30,7 @@ CMDB Application CLI and API commands enable the following tasks:
 -   Populating an application service with a given population type
 -   Changing the state of an application service
 
-For the REST API solution, see [SG Services API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sg_services-api.md).
+For the REST API solution, see [SG Services API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sg_services-api.md).
 
 ## Convert Application Service
 
@@ -1459,5 +1459,5 @@ Sys\_id of the application service listed in the Service Instance \[cmdb\_ci\_se
     ```
 
 
-**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/servicenow-cli.md)
 

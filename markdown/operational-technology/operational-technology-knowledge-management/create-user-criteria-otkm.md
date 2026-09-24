@@ -3,11 +3,11 @@ title: Create the user criteria for an OT knowledge base
 description: Create a user criteria record to determine the users who can read or contribute to an Operational Technology \(OT\) knowledge base.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/create-user-criteria-otkm.html
-release: australia
+release: brazil
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -20,7 +20,7 @@ Create a user criteria record to determine the users who can read or contribute 
 
 Role required: user\_criteria\_admin
 
-**Note:** To create a user criteria record from the Knowledge module, you must have the user\_criteria\_admin role in addition to the knowledge role. For more information about access, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/user-access-knowledge.md).
+**Note:** To create a user criteria record from the Knowledge module, you must have the user\_criteria\_admin role in addition to the knowledge role. For more information about access, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/user-access-knowledge.md).
 
 ## About this task
 
@@ -156,7 +156,7 @@ With **Match All** selected, only the users who meet all of these conditions are
 
 ## What to do next
 
-Now you can assign the user criteria to an OT knowledge base. For more information, see [Assign the user criteria to an OT knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/assign-ot-user-criteria-otkm.md).
+Now you can assign the user criteria to an OT knowledge base. For more information, see [Assign the user criteria to an OT knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-knowledge-management/assign-ot-user-criteria-otkm.md).
 
-**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
+**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
 

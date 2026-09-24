@@ -3,9 +3,9 @@ title: Segment Management
 description: Group entities effectively based on value, performance, or relevance using the Segment Management application \(com.snc.segment\_mgmt\) to make sure that all customers or entities are treated equally.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/segment-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Explore, Sales Customer Relationship Management]
 ---
@@ -20,5 +20,5 @@ Create and manage various segments to enable structured customer groupings. You 
 
 ## What to explore next
 
-[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-segment-management.md)
+[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-segment-management.md)
 

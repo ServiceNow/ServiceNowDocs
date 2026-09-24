@@ -3,11 +3,11 @@ title: Quick start tests for Test Management 2.0
 description: Validate that Test Management 2.0 still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/quick-start-tests-test-management.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -34,5 +34,5 @@ Test Management 2.0 quick start tests require activating the Test Management 2.0
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

@@ -3,11 +3,11 @@ title: Manage tasks using the List view
 description: Track and manage all the tasks associated with a major security incident using the List view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manage-tasks-using-list-view.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage tasks in a Major Security Incident, Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -297,7 +297,7 @@ MSI Manager can delete a task in the List view using following steps:
 
 8.  Select **Delete**.
 
-**Parent Topic:**[Manage tasks in a Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tasks-tab.md)
+**Parent Topic:**[Manage tasks in a Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/tasks-tab.md)
 
 **Related topics**  
 

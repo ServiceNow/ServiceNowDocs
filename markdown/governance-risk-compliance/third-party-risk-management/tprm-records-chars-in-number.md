@@ -3,11 +3,11 @@ title: Unique ID numbers for TPRM records
 description: When you create \(or the system generates\) a new record \(for example, a request for due diligence or a task\), the system auto-assigns a unique ID number that helps to identify the type of data in the record. You can use the ID number to search for or filter the item you want to work on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-records-chars-in-number.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -27,10 +27,10 @@ When you create \(or the system generates\) a new record \(for example, a reques
 -   **IRQs**: For each IRQ process, the system auto-assigns a unique ID number that starts with the text INA.
 -   **Risk Intelligence Requests**: For each risk intelligence request, the system auto-assigns a unique ID number that starts with the text RIR.
 -   **Issues**: For each issue, the system auto-assigns a unique ID number that starts with the text VRI.
--   **Tasks**: For each task, the system auto-assigns a unique ID number that starts with the text VRT.
+-   **Tasks**: For each task, the system auto-assigns a unique ID number that starts with the text VRIT or VRT.
 -   **External assessments \(the external due diligence process where third-party contacts respond to requests for information\)**: For each external risk assessment, the system auto-assigns a unique ID number that starts with the text VRA.
 -   **Third-party risk scoring rule**: For each third-party risk scoring rule, the system auto-assigns a unique ID number that starts with the text VRS.
 -   **Risk tiering assessment**: For each risk tiering assessment, the system auto-assigns a unique ID number that starts with the text VTA.
 
-**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

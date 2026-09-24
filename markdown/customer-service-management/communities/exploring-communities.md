@@ -3,11 +3,11 @@ title: Exploring Communities
 description: Explore foundational concepts for Communities. For setup tasks, see Configuring communities. For end-user guidance, see Using communities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/exploring-communities.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Communities, Customer Service Management]
 ---
@@ -16,8 +16,12 @@ breadcrumb: [Communities, Customer Service Management]
 
 Explore foundational concepts for Communities. For setup tasks, see Configuring communities. For end-user guidance, see Using communities.
 
--   **[Domain separation and Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/domain-separation-communities.md)**  
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **[Domain separation and Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/domain-separation-communities.md)**  
 Domain separation is unsupported in Communities. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/servicenow-communities.md)
+**Parent Topic:**[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/servicenow-communities.md)
 

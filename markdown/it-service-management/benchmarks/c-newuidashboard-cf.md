@@ -3,11 +3,11 @@ title: New Benchmarks Dashboard
 description: The Benchmarks dashboard displays KPI data, performance trends, and indicator scorecards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c-newuidashboard-cf.html
-release: australia
+release: brazil
 product: Benchmarks
 classification: benchmarks
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Benchmarks, IT Service Management]
 ---

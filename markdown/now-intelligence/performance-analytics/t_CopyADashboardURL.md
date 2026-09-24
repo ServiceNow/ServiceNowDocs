@@ -3,18 +3,18 @@ title: Copy a responsive dashboard URL
 description: It is not possible to copy a dashboard URL from the browser. You can, however, create a URL that opens the current view of the dashboard, including tabs and breakdown elements. When the link is followed, the ServiceNow platform frame around the dashboard is not included.You can link to a Performance Analytics dashboard from your instance. Several URL parameters enable you to specify aspects of the dashboard when the link is followed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CopyADashboardURL.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Copy a responsive dashboard URL
 
-It is not possible to copy a dashboard URL from the browser. You can, however, create a URL that opens the current view of the dashboard, including tabs and [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). When the link is followed, the ServiceNow platform frame around the dashboard is not included.
+It is not possible to copy a dashboard URL from the browser. You can, however, create a URL that opens the current view of the dashboard, including tabs and [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). When the link is followed, the ServiceNow platform frame around the dashboard is not included.
 
 ## Before you begin
 
@@ -105,7 +105,7 @@ sysparm\_element=&lt;value&gt;
 
 </td><td>
 
-The sys\_id or value of the [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) to show. This parameter applies only if **sysparm\_breakdown\_source** also exists. Values are case-sensitive.
+The sys\_id or value of the [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) to show. This parameter applies only if **sysparm\_breakdown\_source** also exists. Values are case-sensitive.
 
 </td></tr><tr><td>
 

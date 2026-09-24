@@ -1,20 +1,20 @@
 ---
-title: Roles and responsibilities
+title: Roles
 description: After successful integration of Order Management, the following menu items and roles are added to the list view menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/personas-roles-and-tables-post-integration-qm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Roles and responsibilities
+# Roles
 
 After successful integration of Order Management, the following menu items and roles are added to the list view menu.
 
-## Description of roles and their responsibilities
+## Description of roles
 
 <table id="table_rnc_gcs_ffc"><tbody><tr><td>
 
@@ -97,5 +97,7 @@ Granular role for organization staff to ensure consistent sales quote experience
 None
 
 </td></tr></tbody>
-</table>**Note:** For more information on channel partners, see [ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md).
+</table>**Note:** For more information on channel partners see, [ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quoting-experiences-overview.md).
+
+If a business organization enables [Restricted Customer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md), the account and consumer visibility restriction also applies to sales personas such as B2B and B2C sales representatives. In other words, these personas can view only the accounts and consumers supported by their own business organization, and cannot view accounts and consumers supported by other business organizations. For upgrade customers, this restriction has no effect until an admin runs the **Remove Legacy Roles from Loc Mgr Contrib** scheduled job. For more information, see [Enable restricted customer access for Business Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/remove-legacy-contributor-roles-from-loc-mgr-contrib.md)
 

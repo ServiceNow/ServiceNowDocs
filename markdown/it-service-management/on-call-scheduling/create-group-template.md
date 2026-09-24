@@ -3,11 +3,11 @@ title: Create a group template to simplify configuring schedules
 description: Create templates to help your group create on-call schedules. For example, use the 24/7 template, which is available in the on-call demo data, to create on-call schedules for continuous service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/create-group-template.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
@@ -36,5 +36,5 @@ Role required: rota\_admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Defining On-Call Scheduling escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/defining-escalation-process-and-template.md)
+**Parent Topic:**[Defining On-Call Scheduling escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/defining-escalation-process-and-template.md)
 

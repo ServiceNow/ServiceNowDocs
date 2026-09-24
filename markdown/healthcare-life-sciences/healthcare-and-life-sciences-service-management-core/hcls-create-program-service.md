@@ -3,11 +3,11 @@ title: Configure a program service
 description: Add a program service for use within the programs associated with the Healthcare and Life Sciences Service Management applications.Create a specification characteristic so that you can define the program service offering in Healthcare and Life Sciences programs.Create a relationship between a program service and programs to make the service available within the program.Publish a program service for use within the Healthcare and Life Sciences Service Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure programs and program services, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -103,14 +103,14 @@ Summary of the program service.
 
 4.  Click **Submit**.
 
-5.  [Configure a specification characteristic for the program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
+5.  [Configure a specification characteristic for the program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
 
-6.  [Associate the program service with a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
+6.  [Associate the program service with a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
 
-7.  [Publish the program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
+7.  [Publish the program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program-service.md).
 
 
-**Parent Topic:**[Configure programs and program services for Healthcare and Life Sciences workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-setup.md)
+**Parent Topic:**[Configure programs and program services for Healthcare and Life Sciences workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-setup.md)
 
 ## Configure a specification characteristic for a program service
 
@@ -149,13 +149,13 @@ Create a relationship between a program service and programs to make the service
 
 ### Before you begin
 
-[Configure a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
+[Configure a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
 
 Role required: sn.hcls\_manager or admin
 
 ### About this task
 
-You can also associate a program service with a program by using the Program module. For more information, see [Associate a program with a program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
+You can also associate a program service with a program by using the Program module. For more information, see [Associate a program with a program service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
 
 ### Procedure
 

@@ -3,9 +3,9 @@ title: Add managers to a territory
 description: Managers get access to a territory to manage members of the assigned territory and its child territories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/add-managers-som.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resources, Sales Territory Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -97,7 +97,7 @@ The manager appears in the Territory Managers related list when you open the ter
 **Related topics**  
 
 
-[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-sales-territory-management.md)
 
-[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md)
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-sales-territory-management.md)
 

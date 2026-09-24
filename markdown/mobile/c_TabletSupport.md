@@ -3,9 +3,9 @@ title: Tablet interface
 description: Use a tablet to access your instance either app or from a browser.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/c\_TabletSupport.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Access instances on mobile web browser, Using the mobile apps, Mobile Platform]
 ---
@@ -39,5 +39,5 @@ Connect to an instance using the browser on your tablet for an experience simila
 -   Printer friendly view: This view, which shows the current screen in a pop-up window without frames and the application navigator, is not available from the tablet.
 -   Timeline sliders and the Timeline Metrics UI actions: Features that use timelines, such as the workflow timeline and the Gantt chart are not supported from the tablet.
 
-**Parent Topic:**[Accessing an instance on a mobile device web browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-access-options.md)
+**Parent Topic:**[Accessing an instance on a mobile device web browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-access-options.md)
 

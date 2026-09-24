@@ -3,11 +3,11 @@ title: Configure the Edge Encryption proxy database
 description: If using order-preserving encryption types or encryption patterns, you can optionally configure the Edge Encryption proxy database properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/configure-proxy-db.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install the Edge Encryption proxy server using the interactive installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -39,9 +39,9 @@ To use order-preserving encryption types or encryption patterns, a MySQL databas
 4.  Click **Next**.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Update SSL certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/update-ssl-certificate.md)
+**Previous topic:**[Update SSL certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/update-ssl-certificate.md)
 
-**Next topic:**[Launch the Edge Encryption proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/launch-proxy.md)
+**Next topic:**[Launch the Edge Encryption proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/launch-proxy.md)
 

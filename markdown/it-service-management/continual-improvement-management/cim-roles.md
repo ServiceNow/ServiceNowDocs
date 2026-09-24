@@ -3,11 +3,11 @@ title: Continual Improvement Management roles
 description: Roles are added with installation of Continual Improvement Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/cim-roles.html
-release: australia
+release: brazil
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Continual Improvement Management, IT Service Management]
 ---
@@ -249,5 +249,5 @@ Email notifications are sent when the state of the improvement request changes o
 |CIM task assigned|No|No|No|No|Yes|
 |CIM task closed|No|Yes|No|No|Yes|
 
-**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md)
+**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-reference.md)
 

@@ -3,9 +3,9 @@ title: Create a copy of the Service Operations Workspace for ITOM landing page
 description: Make visual styling changes to the sub-pages in the home page. This will enhance the overall user experience by providing a consistent and visually appealing interface, improving navigation, and ensuring that key information is easily accessible and engaging.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-copy-sow-landing-page-itom.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize the SOW for ITOM home page, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -47,5 +47,5 @@ A page is content that lives at a specific URL. When a user opens the URL, they 
 6.  To create a duplicate page content in the existing URL path, select **Duplicate** and follow the steps.
 
 
-**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/customize-sow-landing-page-itom.md)
+**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/customize-sow-landing-page-itom.md)
 

@@ -3,9 +3,9 @@ title: Install Quote Self-Service
 description: Quote Self-Service is automatically installed when you install the Quote Management application. If you install a different application, you must add the Quote Self-Service as a plugin dependency before installation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-self-service-quote\_generic.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote creation via Self-Service, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -29,7 +29,7 @@ The following items are installed with Self-service quote.
 -   Plugins
 -   Store applications
 
-For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Procedure
 
@@ -43,15 +43,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  Install demo data based on your entitlements.
 
-<table id="choicetable_tsz_f2h_jjc"><thead><tr><th align="left" id="d135869e148">
+<table id="choicetable_tsz_f2h_jjc"><thead><tr><th align="left" id="d137276e148">
 
 Demo data install task
 
-</th><th align="left" id="d135869e151">
+</th><th align="left" id="d137276e151">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d135869e157">
+</th></tr></thead><tbody><tr><td id="d137276e157">
 
 **If demo data is available and you want to install it**
 
@@ -61,7 +61,7 @@ Description
 2.  Select **Install**.
  **Warning:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d135869e184">
+</td></tr><tr><td id="d137276e184">
 
 **If the Load Demo Data option isn't available but you want demo data**
 

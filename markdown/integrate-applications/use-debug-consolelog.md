@@ -3,9 +3,9 @@ title: Use the ConsoleLog component
 description: Write a message to view the console log of RPA Desktop Design Studio by using the ConsoleLog component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-debug-consolelog.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Debug, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the ConsoleLog component. For more information about these properties, see [Properties of the Debug components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-debug-prop.md).
+You can configure the properties for the ConsoleLog component. For more information about these properties, see [Properties of the Debug components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/util-debug-prop.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the ConsoleLog component. For more informat
 
 2.  Drag the ConsoleLog component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the ConsoleLog component to the corresponding ports of the other components as described in the following table.
 
@@ -74,5 +74,5 @@ Open the console log to check the messages.
 
 \[Omitted image "console-log-debug-studio.png"\] Alt text: Console displaying messages provided in the ConsoleLog component.
 
-**Parent Topic:**[Debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/debug-utility.md)
+**Parent Topic:**[Debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/debug-utility.md)
 

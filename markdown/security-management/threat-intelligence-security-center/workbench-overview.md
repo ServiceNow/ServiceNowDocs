@@ -3,11 +3,11 @@ title: Workbench Overview
 description: The Workbench Overview page consists of the Case Tasks and Cases that are under Threat Analysts and their team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/workbench-overview.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -36,7 +36,7 @@ Using this page, the threat analysts and admins can view their work, teams work,
 
 You can also view cases and case tasks directly from the Workbench Overview that are assigned to you. By default, the case view is displayed, you can use the dropdown and select the case tasks if you want to view the case tasks by priority and status.
 
-**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 

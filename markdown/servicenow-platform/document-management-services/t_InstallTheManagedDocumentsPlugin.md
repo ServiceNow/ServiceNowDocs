@@ -3,11 +3,11 @@ title: Install the Managed Documents plugin
 description: The Managed Documents plugin is available for activation by users with the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_InstallTheManagedDocumentsPlugin.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plugin, Managed Documents, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,5 +35,5 @@ Role required: admin
 4.  Select **Activate**.
 
 
-**Parent Topic:**[Managed Documents plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_ManagedDocumentsPlugin.md)
+**Parent Topic:**[Managed Documents plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_ManagedDocumentsPlugin.md)
 

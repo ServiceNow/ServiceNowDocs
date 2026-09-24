@@ -3,13 +3,13 @@ title: Test a similarity solution prediction
 description: Once your machine-learning \(ML\) solutions are trained, you can call on the Predictive Intelligence API to make a solution prediction. In this example procedure, we use the REST API Explorer application to test a similarity solution prediction for resolved incident recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/test-similarity-solution-prediction.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Test a similarity solution prediction
@@ -117,12 +117,12 @@ This scenario illustrates a similarity solution prediction for a hypothetical ML
         \[Omitted image "predict-intel-simtest-soldef-recommendation.png"\] Alt text: Shows the user the Resolution notes in one of the Incident records.
 
 
-**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
 
 **Related topics**  
 
 
-[Predictive Intelligence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/agent-intelligence-api.md)
+[Predictive Intelligence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/agent-intelligence-api.md)
 
-[MLPredictor - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_MLPredictorAPI.md)
+[MLPredictor - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_MLPredictorAPI.md)
 

@@ -3,9 +3,9 @@ title: Create a recommendation with the decision tree as an action type
 description: Create a recommendation to select Troubleshoot credit card transaction failure decision tree as an action type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-create-recommendation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example: Troubleshoot a failed credit card transaction, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -48,7 +48,7 @@ New recommendations can only be created inside the rules.
 
     2.  In the **Document** field, select the Troubleshoot credit card transaction failure decision tree by clicking the lookup icon.
 
-        For more information about how to create this decision tree, see [Create Troubleshoot credit card transaction failure decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/preparation-for-creating-a-decision-tree.md).
+        For more information about how to create this decision tree, see [Create Troubleshoot credit card transaction failure decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/preparation-for-creating-a-decision-tree.md).
 
     3.  Select **OK**.
 

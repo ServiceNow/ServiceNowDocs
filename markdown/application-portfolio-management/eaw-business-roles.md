@@ -3,9 +3,9 @@ title: Exploring business roles
 description: A business role defines the responsibilities, rights, and duties that a business actor holds when performing specific business behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-business-roles.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business role, business actor, role hierarchy, Enterprise Architecture Workspace]
 breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -28,10 +28,10 @@ Using the Enterprise Architecture Workspace, you can perform the following:
 
 When you model a business role in a diagram, the default relationship between a business actor and a business role is **Assigned to :: Fulfilled by**.
 
-**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
+**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  
 
 
-[Manage business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-roles.md)
+[Manage business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-roles.md)
 

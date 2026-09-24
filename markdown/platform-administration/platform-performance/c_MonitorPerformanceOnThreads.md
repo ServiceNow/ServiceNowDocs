@@ -3,11 +3,11 @@ title: Thread performance monitoring
 description: The instance tracks the performance of individual threads, which administrators can view in the transaction log.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/c\_MonitorPerformanceOnThreads.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -18,5 +18,5 @@ The instance tracks the performance of individual threads, which administrators 
 
 The amount of time a thread waits for an available semaphore or session synchronization is included in the **Response Time** field in the transaction log. To view the transaction log, navigate to **All** &gt; **System Logs** &gt; **Transactions**.
 
-**Parent Topic:**[Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/monitoring-platform-performance.md)
+**Parent Topic:**[Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/monitoring-platform-performance.md)
 

@@ -3,11 +3,11 @@ title: Create Talent Development Outcome Types
 description: As an Talent admin you create outcome types that can be used in growth plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-admin-create-outocome-type.html
-release: australia
+release: brazil
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer and maintain the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -32,10 +32,12 @@ An **Outcome Type** is used to categorize activities into logical outcomes.
 
 3.  Complete the **Outcome Types** form.
 
-    Read details about the different fields in [Talent Outcome Types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-outcome-types-form.md)
+    Read details about the different fields in [Talent Outcome Types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/talent-development-core/egd-outcome-types-form.md)
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/talent-development-core/egd-administration.md)
+
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/talent-development-core/egd-administration.md)
 

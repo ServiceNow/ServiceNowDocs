@@ -3,11 +3,11 @@ title: Configure a text index group to search across multiple tables
 description: Update tables to the V4 indexing format and include them in a text index group to facilitate searching across multiple tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/index-multiple-tables.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Zing indexes words, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -49,7 +49,7 @@ To enable search across multiple tables, you:
 
     2.  Open the record for the table that you want to upgrade to the V4 index format.
 
-    3.  If **Format** isn't disabled, select **V4**, select **Submit**, and then skip to step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/index-multiple-tables.md).
+    3.  If **Format** isn't disabled, select **V4**, select **Submit**, and then skip to step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/index-multiple-tables.md).
 
         You can choose index formatting in this step because no index exists for the table.
 
@@ -86,7 +86,7 @@ To enable search across multiple tables, you:
 
     2.  Select **New**.
 
-        The Text Index configuration form displays. If you already have a text index group in the list, skip to step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/index-multiple-tables.md).
+        The Text Index configuration form displays. If you already have a text index group in the list, skip to step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/index-multiple-tables.md).
 
     3.  In **Applies to**, select **Index Group**.
 
@@ -108,11 +108,11 @@ To enable search across multiple tables, you:
 
     8.  In **Attribute name**, select the magnifying glass and select an attribute.
 
-        To see the list of attributes, enter `ts_configuration_attribute.list` in the application navigator. For attribute definitions, see [Zing index and search attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/index-attributes.md).
+        To see the list of attributes, enter `ts_configuration_attribute.list` in the application navigator. For attribute definitions, see [Zing index and search attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/index-attributes.md).
 
     9.  In **Value** enter a value and select **Submit**.
 
-        Valid values depend on the attribute. For information on valid values, see [Zing index and search attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/index-attributes.md).
+        Valid values depend on the attribute. For information on valid values, see [Zing index and search attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/index-attributes.md).
 
     10. Repeat this procedure to define additional search engine parameters for other tables in the text index group.
 
@@ -134,7 +134,7 @@ To enable search across multiple tables, you:
 
     5.  In **Attribute name**, select a search engine parameter, enter a value for that parameter in **Value**, and select **Submit**.
 
-        To see the list of attributes, enter `ts_configuration_attribute.list` in the application navigator. For attribute definitions, see [Zing index and search attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/index-attributes.md).
+        To see the list of attributes, enter `ts_configuration_attribute.list` in the application navigator. For attribute definitions, see [Zing index and search attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/index-attributes.md).
 
     6.  In **Column**, specify the name of the column in the selected table you want to apply the search attribute to.
 
@@ -160,7 +160,7 @@ To enable search across multiple tables, you:
 
     5.  In **Synonym dictionary**, select the dictionary to use.
 
-        To add a dictionary, select **New** and follow the procedure in [Create synonym dictionaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-synonym-dictionaries.md).
+        To add a dictionary, select **New** and follow the procedure in [Create synonym dictionaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-synonym-dictionaries.md).
 
     6.  Select **Submit**.
 
@@ -171,9 +171,9 @@ To enable search across multiple tables, you:
 
 ## What to do next
 
-You can query the tables in the text index group for string matches using the `GlideRecord.addQuery(name, value)` or `GlideRecord.addEncodedQuery(name, value)` methods with the `123TEXTINDEXGROUP321` reserved name. For more information about querying text index groups for string matches, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
+You can query the tables in the text index group for string matches using the `GlideRecord.addQuery(name, value)` or `GlideRecord.addEncodedQuery(name, value)` methods with the `123TEXTINDEXGROUP321` reserved name. For more information about querying text index groups for string matches, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md).
 
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

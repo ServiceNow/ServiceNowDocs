@@ -1,22 +1,22 @@
 ---
-title: Software Asset Management Foundation plugin migration
-description: Migrate from the Software Asset Management plugin to the Software Asset Management Foundation plugin to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
+title: Basic Software Asset Management migration
+description: Migrate from the Software Asset Management plugin to the Basic Software Asset Management to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/c\_SAMMigrationSAMF.html
-release: australia
+release: brazil
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management Foundation plugin Administration, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Software Asset Management Foundation plugin migration
+# Basic Software Asset Management migration
 
-Migrate from the Software Asset Management plugin to the Software Asset Management Foundation plugin to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
+Migrate from the Software Asset Management plugin to the Basic Software Asset Management to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
 
-After automatic changes are performed during plugin activation, successful migration from the Software Asset Management \(com.snc.software\_asset\_management\) plugin to the Software Asset Management Foundation \(com.snc.sams\) plugin requires a [Overwrite customizations for Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_MigrateSAMCustom.md) to be performed by the customer.
+After automatic changes are performed during plugin activation, successful migration from the Software Asset Management \(com.snc.software\_asset\_management\) plugin to the Software Asset Management Foundation \(com.snc.sams\) plugin requires a [Overwrite customizations for Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/t_MigrateSAMCustom.md) to be performed by the customer.
 
 Customizations to forms and lists may need to be manually overwritten by the customer after plugin activation. In addition, certain fields in software models, software entitlements, user/device allocations forms require manual configuration by the customer after plugin activation.
 
@@ -65,8 +65,8 @@ The Software Asset Management Foundation \(com.snc.sams\) plugin performs these 
     |Business rules|Legacy business rules applied to discovery models are disabled.|
 
 
--   **[Overwrite customizations for Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_MigrateSAMCustomSAMF.md)**  
-When migrating from the Software Asset Management plugin to the Software Asset Management Foundation plugin, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
+-   **[Overwrite customizations for Basic Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/t_MigrateSAMCustomSAMF.md)**  
+When migrating from the Software Asset Management plugin to the Basic Software Asset Management, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
 
-**Parent Topic:**[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
+**Parent Topic:**[Basic Software Asset Management Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
 

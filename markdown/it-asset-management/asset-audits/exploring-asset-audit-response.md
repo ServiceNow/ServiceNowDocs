@@ -3,11 +3,11 @@ title: Exploring Asset Audit Response
 description: Learn more about the Asset Audit Response application by reviewing the workflow and understanding the benefits that it can provide to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/exploring-asset-audit-response.html
-release: australia
+release: brazil
 product: Asset Audits
 classification: asset-audits
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Asset Audit Response, IT Asset Management, Asset Management]
 ---
@@ -50,19 +50,19 @@ The following section describes the steps that are involved in the Asset Audit R
 
 |Benefit|Feature|User|
 |-------|-------|----|
-|Create and manage financial regulatory audit engagements and corresponding evidence requests.|[Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/audit-workspace.md)|Audit managers|
-|Track and manage responses to evidence requests for your financial regulatory audits.|[Asset Governance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/asset-governance-workspace.md)|Asset managers|
-|Fulfill evidence requests for your financial regulatory audits.|[Asset Response Guided Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/fulfill-evidence-requests-guided-experience.md)|Asset managers|
+|Create and manage financial regulatory audit engagements and corresponding evidence requests.|[Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/audit-workspace.md)|Audit managers|
+|Track and manage responses to evidence requests for your financial regulatory audits.|[Asset Governance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/asset-governance-workspace.md)|Asset managers|
+|Fulfill evidence requests for your financial regulatory audits.|[Asset Response Guided Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/fulfill-evidence-requests-guided-experience.md)|Asset managers|
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## What to explore next
 
 To learn more about configuring and using Asset Audit Response, see:
 
--   [Configuring Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/configuring-asset-audit-response.md)
--   [Managing engagements for financial regulatory audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/managing-audit-engagements-asset-audit-response.md)
--   [Requesting evidence for financial regulatory audit engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/creating-evidence-requests-asset-audit-response.md)
--   [Fulfilling evidence requests for financial regulatory audit engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/fulfilling-evidence-requests-asset-audit-response.md)
--   [Asset Audit Response reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/asset-audit-response-references.md)
+-   [Configuring Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/configuring-asset-audit-response.md)
+-   [Managing engagements for financial regulatory audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/managing-audit-engagements-asset-audit-response.md)
+-   [Requesting evidence for financial regulatory audit engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/creating-evidence-requests-asset-audit-response.md)
+-   [Fulfilling evidence requests for financial regulatory audit engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/fulfilling-evidence-requests-asset-audit-response.md)
+-   [Asset Audit Response reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/asset-audit-response-references.md)
 

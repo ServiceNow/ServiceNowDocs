@@ -3,9 +3,9 @@ title: Limitations for exporting dashboards and visualizations
 description: The dashboard and visualization export skill supports only some dashboards for export. Requests for export are not always recognized or understood correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/limitations-exporting-db-dv.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export dashboards and visualizations, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -26,7 +26,7 @@ Some prompts are not recognized at all. Avoid the following phrases:
 -   Mail to me
 -   Mail with subject and body as Visualization/Dashboard name
 
-**Parent Topic:**[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 

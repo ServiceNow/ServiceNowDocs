@@ -3,9 +3,9 @@ title: Create a task for an order case line item
 description: Create a task for an order case line item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-order-ops-order-case-create-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating an order case, Order Operations Case Management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

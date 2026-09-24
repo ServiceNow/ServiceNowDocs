@@ -3,11 +3,11 @@ title: Create interaction wrap-up codes
 description: Wrap-up codes enable agents to quickly wrap up and close interactions. Agents can select wrap-up codes from the interaction wrap-up modeless dialog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/config-interaction-wrapup-codes.html
-release: australia
+release: brazil
 product: Interaction Management
 classification: interaction-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interaction wrap up, Configuring Interaction Management, Interaction Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,7 +44,7 @@ Role required: admin
 
 ## What to do next
 
-After creating wrap-up codes, system administrators can enable wrap-up codes in the interaction wrap-up configuration record and select the wrap-up codes that are available to agents. For more information, see [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md).
+After creating wrap-up codes, system administrators can enable wrap-up codes in the interaction wrap-up configuration record and select the wrap-up codes that are available to agents. For more information, see [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md).
 
-**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
+**Parent Topic:**[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
 

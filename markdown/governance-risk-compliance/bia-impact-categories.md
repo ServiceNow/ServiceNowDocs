@@ -3,9 +3,9 @@ title: Impact categories and ratings
 description: Impact categories are the types of an impact that you can assess during a business impact analysis. The BCM administrator of an organization is responsible for defining the impact categories and the timeframe during which an organization may experience a downtime. This information is used to determine the recovery time objective and recovery point objective of the assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bia-impact-categories.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ When a business service, process, or application experiences downtime due to a d
 
 ## Impact categories in BCM
 
-With the BCM administrator role, you can view impact categories installed with demo data and create categories in the **Impact categories** module. The example shows the impact categories that are installed with demo data in an instance.
+With the BCM administrator role, you can view the impact categories that are installed with demo data. You can also set up new impact categories in the **Impact categories** module. The example shows the impact categories that are installed with demo data in an instance.
 
 \[Omitted image "bia-impact-categories.png"\] Alt text: BIA impact categories that are installed with demo data.
 
@@ -67,7 +67,7 @@ The BCM administrators can configure the details of a new impact category:
 
 ## Impact category configuration by BCM administrators
 
-For more information on how to configure an impact category with the sn\_bcm.admin role, see [Configure impact category for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-impact-category-uib-ws.md).
+For more information on how to configure an impact category with the sn\_bcm.admin role, see [Configure impact category for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-impact-category-uib-ws.md).
 
 ## Impact ratings in BCM
 
@@ -110,7 +110,7 @@ The BCM administrators can configure details of an impact rating for the busines
 
 ## Impact rating configuration by the administrators
 
-For more information on how to configure an impact rating with the sn\_bcm.admin role, see [Configure impact ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-impact-rating-uib-ws.md).
+For more information on how to configure an impact rating with the sn\_bcm.admin role, see [Configure impact ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-impact-rating-uib-ws.md).
 
-**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

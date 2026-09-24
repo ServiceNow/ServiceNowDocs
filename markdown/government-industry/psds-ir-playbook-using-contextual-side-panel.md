@@ -1,16 +1,16 @@
 ---
-title: Using the contextual side panel in Information Request Playbook
+title: Using the contextual side panel in Information Request Administration
 description: The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbook-using-contextual-side-panel.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Information Request Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using the contextual side panel in Information Request Playbook
+# Using the contextual side panel in Information Request Administration
 
 The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 
@@ -18,7 +18,7 @@ The contextual side panel in the CRM Workspace gives you access to information t
 
 It includes a column of icons that you can select to access different types of information.
 
-The following table shows you the tabs that you should see on the contextual side panel in the Information Request Playbook.
+The following table shows you the tabs that you should see on the contextual side panel in the Information Request Administration.
 
 <table id="table_kxy_jxf_cvb"><thead><tr><th>
 
@@ -34,7 +34,7 @@ Record information icon \[Omitted image "contextual-side-panel-record-info.png"\
 
 </td><td>
 
-Relevant information about a record. In Service Request Playbook, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [Viewing the ribbon information in Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-ir-playbook-viewing-ribbon.md).
+Relevant information about a record. In Service Request Playbook, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [Viewing the ribbon information in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-ir-playbook-viewing-ribbon.md).
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Response template icon \(\[Omitted image "response-template-icon.png"\] Alt text
 
 </td><td>
 
-Reusable messages that you can copy and paste into the cases and case tasks. For more information on using and creating response templates, see [Use response templates in Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/use-response-templates-ir-psds.md).
+Reusable messages that you can copy and paste into the cases and case tasks. For more information on using and creating response templates, see [Use response templates in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/use-response-templates-ir-psds.md).
 
 </td></tr><tr><td>
 

@@ -3,11 +3,11 @@ title: Configure a work schedule
 description: After creating a work plan, it’s important to define specific criteria to determine when the plan should be executed. This includes defining the start date and end date for the plan's execution. To create a flexible work schedule for the plan, you can configure multiple work schedules for it and assign them accordingly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configure-work-plan.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -78,7 +78,7 @@ Timing condition that triggers the execution of the plan. -   **Duration:** work
 
 With the Duration or Meter trigger selected, the **Next run time** and **Next run value** fields are populated in the Planned Work Records related list on the Work Plan form.
 
-For more information on triggers and examples, see [Learn about triggers for work schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-trigger-types.md)
+For more information on triggers and examples, see [Learn about triggers for work schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-trigger-types.md)
 
 </td></tr><tr><td>
 
@@ -312,5 +312,5 @@ Determine how often the planned work is scheduled to be performed. For example, 
 
 The schedule is created for a work plan. The Schedule Occurrences related list is added to the schedule to track the occurrence of maintenance cycles for the schedule.
 
-The schedule occurrences are created automatically for duration-based schedules. However, if a different trigger option is selected for a schedule, the occurrence is created only when the specified condition or meter value is met. The creations of schedule occurrences depend on the effective end date. If no effective end date is specified, the application generates the next occurrence of the schedule. For more information, see [View schedule occurrences for a planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/view-schedule-occurrences-for-a-planned-work.md).
+The schedule occurrences are created automatically for duration-based schedules. However, if a different trigger option is selected for a schedule, the occurrence is created only when the specified condition or meter value is met. The creations of schedule occurrences depend on the effective end date. If no effective end date is specified, the application generates the next occurrence of the schedule. For more information, see [View schedule occurrences for a planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/view-schedule-occurrences-for-a-planned-work.md).
 

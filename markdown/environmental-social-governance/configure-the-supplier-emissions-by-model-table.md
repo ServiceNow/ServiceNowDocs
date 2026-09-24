@@ -3,9 +3,9 @@ title: Configure the supplier emissions by model table
 description: Configure your supplier emission data collection to capture emissions by specific models of assets to report and calculate Scope 3 emissions accurately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-the-supplier-emissions-by-model-table.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Scope 3 dashboard, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -84,5 +84,5 @@ Unit of measurement used to quantify the emissions per unit of activity, materia
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
+**Parent Topic:**[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
 

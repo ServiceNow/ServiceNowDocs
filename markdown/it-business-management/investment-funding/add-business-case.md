@@ -3,11 +3,11 @@ title: Add a business case for an investment
 description: Add a business case for an investment to define its business needs and goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/add-business-case.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an investment, Investment Funding, Strategic Portfolio Management]
 ---
@@ -90,5 +90,5 @@ Investment class category assigned to the investment:-   **Run**: Investment mad
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Create an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/create-investment.md)
+**Parent Topic:**[Create an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/create-investment.md)
 

@@ -3,9 +3,9 @@ title: Supporting information for Unified Security Exposure Management AI skills
 description: Get an overview of the important information that is related to the USEM application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/supporting-information-now-assist-vr.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Otto for Unified Security Exposure Management, Security Operations]
 ---

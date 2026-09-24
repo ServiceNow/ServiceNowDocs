@@ -3,11 +3,11 @@ title: Create breach factors
 description: Create breach factors to help privacy teams understand the characteristics of a breach and evaluate the related risks. Exercise your flexibility to either use the default breach factors or generate new ones. Additionally, link breach factors to specific regions or implement them universally across multiple regions or selected ones.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-breach-factor.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure privacy breach assessment, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -96,5 +96,5 @@ Brief description of the factor.
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-breach-assessment.md)
+**Parent Topic:**[Configuring privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-breach-assessment.md)
 

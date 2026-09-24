@@ -3,13 +3,13 @@ title: Perform AES configuration tasks
 description: As you work through the App Engine Studio \(AES\) guided setup, you must perform different configuration tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-config-tasks.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure AES, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configure AES, Configure, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Perform AES configuration tasks
@@ -18,7 +18,7 @@ As you work through the App Engine Studio \(AES\) guided setup, you must perform
 
 ## Setting up environments, tools, and user access
 
-The following table lists the tasks required for configuring App Engine Studio, including links to detailed instructions for completing the tasks.
+The tasks for configuring App Engine Studio are listed below, along with links to detailed instructions for completing them.
 
 <table id="table_lqq_1qt_rhb"><thead><tr><th>
 
@@ -38,7 +38,7 @@ You can install the App Engine Studio application \(com.snc.app-engine-studio\) 
 
  The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
- For detailed instructions, see [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/install-aes.md).
+ For detailed instructions, see [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/install-aes.md).
 
 </td></tr><tr><td>
 
@@ -46,9 +46,9 @@ Set up instance credentials.
 
 </td><td>
 
-For each instance that you're using, create a Connections and Credentials alias. Verify that the alias type is **Credential**, not **Connection and Credential**.
+For each instance that you're using, create a Connections and Credentials alias. Ensure that the alias type is **Credential**, not **Connection and Credential**.
 
- For detailed instructions, see [Set up instance credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+ For detailed instructions, see [Set up instance credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
 
 </td></tr><tr><td>
 
@@ -56,11 +56,11 @@ Activate Playbooks.
 
 </td><td>
 
-You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/activate-process-automation-designer.md).
+You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/activate-process-automation-designer.md).
 
 </td></tr><tr id="integrationhub-spokes"><td>
 
-Set up Integration Hub spokes.
+Set up IntegrationHub spokes.
 
 </td><td>
 
@@ -68,23 +68,23 @@ Activate spokes to enhance your Workflow Studio and App Engine Studio experience
 
  The following spokes are available for use with App Engine Studio.
 
--   [Gmail spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-gmail.md)
--   [Google Sheets spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-gsheets.md)
--   [Jira Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/jira-spoke-v3-0-2.md)
--   [Microsoft 365 Excel spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-office-365-excel.md)
--   [Microsoft Teams spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-teams-spoke.md)
--   [Slack spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-slack.md)
--   [Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-twilio.md)
--   [X Spoke \(formerly Twitter Spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/twitter-spoke-ol.md)
--   [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-zoom.md)
+-   [Gmail spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-gmail.md)
+-   [Google Sheets spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-gsheets.md)
+-   [Jira spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-jira-spk-opt2.md)
+-   [Microsoft 365 Excel spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-office-365-excel.md)
+-   [Microsoft Teams spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/microsoft-teams-spoke.md)
+-   [Slack spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-slack.md)
+-   [Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-twilio.md)
+-   [X Spoke \(formerly Twitter Spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/twitter-spoke-ol.md)
+-   [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-zoom.md)
 
 </td></tr><tr><td>
 
-Review access settings for Workflow Studio in your development instance.
+Review access settings for Flow Designer in your development instance.
 
 </td><td>
 
-Enable your developers to use the editing capabilities that best suit them. For detailed instructions, see [Review Flow Designer access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
+Enable your developers to use the editing capabilities that best suit them. For detailed instructions, see [Review Flow Designer access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/user-access-flow-designer.md).
 
 </td></tr><tr><td>
 
@@ -92,35 +92,35 @@ Review access settings for Catalog Builder.
 
 </td><td>
 
-Enable your developers to add items to the appropriate catalogs and categories.​For detailed instructions, see [Review Catalog Builder access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md).
+Enable your developers to add items to the appropriate catalogs and categories.​For detailed instructions, see [Review Catalog Builder access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/catalog-builder.md).
 
 </td></tr><tr><td>
 
-Set up an instance scan cadence.
+Set up an instance scan cadence in Health Center.
 
 </td><td>
 
-Schedule regular scans of your instance so that you can identify possible issues that arise from application development in App Engine Studio.For detailed instructions, see [Set up an instance scan cadence in Health Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-landing-page.md).
+Schedule regular scans of your instance so that you can identify possible issues that arise from application development in App Engine Studio.For detailed instructions, see [Set up an instance scan cadence in Health Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/hs-landing-page.md).
 
 </td></tr><tr><td>
 
-In your production instance, add users to the App Engine Studio admin group.
+In your production instance, add users to the App Engine Studio Admin group.
 
 </td><td>
 
 Add members to the group so they can review app- and deployment-related requests. Also, define a contact email address for the group.
 
- For detailed instructions, see [Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-users-to-admin-grp.md).
+ For detailed instructions, see [Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-users-to-admin-grp.md).
 
 </td></tr><tr><td>
 
-In your development instance, add developers to the App Engine Studio users group.
+In your development instance, add developers to the App Engine Studio Users group.
 
 </td><td>
 
 Enable developers in your organization to build applications in App Engine Studio.
 
- For detailed instructions, see [Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/grant-aes-access.md).
+ For detailed instructions, see [Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/grant-aes-access.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ In your development instance, add users to the App Engine Studio User Limited gr
 
 Enable developers in your organization to collaborate on applications that someone else created in App Engine Studio.
 
- For detailed instructions, see [Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/grant-aes-access.md).
+ For detailed instructions, see [Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/grant-aes-access.md).
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ Set up collaboration descriptors.
 
 Set up custom collaboration descriptors in the global scope for use in App Engine Studio.
 
- For detailed instructions, see [Set up custom collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/set-up-custom-collaboration-descriptors.md).
+ For detailed instructions, see [Set up custom collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/set-up-custom-collaboration-descriptors.md).
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ In your non-production instance, specify an app template admin.
 
 Grant the app\_template\_admin role to users who will manage template activation, deactivation, and sharing in App Engine Studio.
 
- For detailed instructions, see [Manage template access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/manage-template-access.md).
+ For detailed instructions, see [Manage template access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/manage-template-access.md).
 
 </td></tr></tbody>
 </table><table id="table_pdv_qb1_15b"><thead><tr><th>
@@ -167,7 +167,7 @@ ServiceNow provides several additional resources on configuring and administerin
 
 </td><td>
 
-\[Omitted image "bus-try-a-demo.svg"\] Alt text: [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-studio-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-studio-rn.md)
+\[Omitted image "bus-try-a-demo.svg"\] Alt text: [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/app-engine-studio-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/app-engine-studio-rn.md)
 
 </td></tr><tr><td>
 
@@ -178,14 +178,14 @@ ServiceNow provides several additional resources on configuring and administerin
 \[Omitted image "bus-webinar.svg"\] Alt text: [App Engine Studio video on adding security](https://www.youtube.com/watch?v=7qdHbzVcmoI&list=PLCOmiTb5WX3ptBi7tdjmAGwx8EhgcTp9o&index=7)
 
 </td></tr></tbody>
-</table>-   **[Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-users-to-admin-grp.md)**  
+</table>-   **[Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-users-to-admin-grp.md)**  
 Add users to the App Engine Admin group in your production instance to give them administrative rights to App Engine Studio \(AES\). You must also identify a contact email address for the group. After you configure the email address of the App Engine Admin group, members can receive notifications for app development-related requests, including app intake requests.
--   **[Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/grant-aes-access.md)**  
+-   **[Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/grant-aes-access.md)**  
 Control who has access to build applications in App Engine Studio \(AES\) by adding users to AES Users group or the AES User Limited group.
--   **[Manage template access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/manage-template-access.md)**  
+-   **[Manage template access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/manage-template-access.md)**  
 Control who has access to templates in App Engine Studio \(AES\) using the app\_template\_admin role. App template admins activate and deactivate templates and grant other users access to share their templates.
--   **[Set up custom collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/set-up-custom-collaboration-descriptors.md)**  
+-   **[Set up custom collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/set-up-custom-collaboration-descriptors.md)**  
 Customize the set of development collaborators you list in App Engine Studio \(AES\) using Guided Setup.
 
-**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/configure-aes.md)
+**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/configure-aes.md)
 

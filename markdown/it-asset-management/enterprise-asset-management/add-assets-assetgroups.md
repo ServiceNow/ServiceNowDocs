@@ -3,11 +3,11 @@ title: Add assets to an asset group or subgroup
 description: Add existing assets to an asset group or a subgroup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-assets-assetgroups.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an asset group in Enterprise Asset Management, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -38,7 +38,7 @@ Assets can be added to an asset group or subgroups in the Enterprise Asset Works
 
 4.  Select **Add** to open the Add asset dialog box.
 
-    For details on the type of assets that appear, see the section titled [Considerations for adding assets to asset groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-groups-eam.md).
+    For details on the type of assets that appear, see the section titled [Considerations for adding assets to asset groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/asset-groups-eam.md).
 
 5.  Select the assets that you want to add.
 
@@ -49,5 +49,5 @@ Assets can be added to an asset group or subgroups in the Enterprise Asset Works
     The selected assets are added to the asset group and are listed in the Assets related list.
 
 
-**Parent Topic:**[Create an asset group in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-groups-eam.md)
+**Parent Topic:**[Create an asset group in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-asset-groups-eam.md)
 

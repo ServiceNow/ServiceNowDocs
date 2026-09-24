@@ -3,11 +3,11 @@ title: Data filter form
 description: Learn about the fields of the Data filter form. Use this form to define which records need certification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-data-filter-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Data filter form
@@ -36,23 +36,23 @@ Filter conditions
 
 </td><td>
 
-Condition builder to specify the criteria that CIs from the specified table must meet to be included as target CIs for the policy.
+Use the condition builder to specify the criteria that CIs from the specified table must meet to be included as target CIs for the policy.
 
- Select **Add condition set** to add a condition to the filter.
+ Select **New condition set** to add a condition to the filter.
 
 </td></tr><tr><td>
 
-Related list conditions
+Related List Condition
 
 </td><td>
 
-Condition that is based on related lists that are associated with the target records for the policy.
+Add a condition that is based on related lists that are associated with the target records for the policy.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-policy.md)
+[Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-policy.md)
 

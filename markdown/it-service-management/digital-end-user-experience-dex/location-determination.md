@@ -3,11 +3,11 @@ title: Device location determination
 description: Identify and determine the number of impacted devices based on the location by defining a custom logic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/location-determination.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -65,5 +65,5 @@ When a device is marked as Remote, DEX uses GeoIP to determine the Region or Sta
 
 When `sn_dex.location_determination` is set to `geoIP_determined_location`, to make the Geomap work on the DEX dashboard, no manual configuration is required. DEX automatically populates the state, country, latitude, and longitude values.
 
-**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
+**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
 

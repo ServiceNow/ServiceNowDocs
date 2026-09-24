@@ -3,9 +3,9 @@ title: Use Recommended Actions to attach knowledge articles to chat
 description: As an agent, use chat in Recommended Actions to resolve issues of the customers by attaching knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-recommended-actions-to-attach-knowledge-articles-to-chat.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Recommended Actions application, Automate and optimize, Use, Customer Service Management]
 ---
@@ -56,5 +56,5 @@ Role required: sn\_nb\_action.next\_best\_action\_user
 **Related topics**  
 
 
-[Share KB in chat interactions guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-share-kb-chat.md)
+[Share KB in chat interactions guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-guidances-share-kb-chat.md)
 

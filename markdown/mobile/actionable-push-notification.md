@@ -3,9 +3,9 @@ title: Configure actionable push notifications
 description: Include actions with your push notifications. Users can perform push notification actions without opening the app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/actionable-push-notification.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -45,22 +45,22 @@ Create actionable push notifications using the following process:
 6.  Create a standard notification on your instance using the platform notifications.
 
 
--   **[Create an actionable push notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification-1.md)**  
+-   **[Create an actionable push notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/actionable-push-notification-1.md)**  
 Create a push notification your users will see on their mobile devices.
--   **[Actionable push notification script example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification-1a.md)**  
+-   **[Actionable push notification script example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/actionable-push-notification-1a.md)**  
 You can use this JSON script example to configure an actionable push notification for ServiceNow® mobile apps.
--   **[Add a push action category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification-2.md)**  
+-   **[Add a push action category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/actionable-push-notification-2.md)**  
 Select a push category to determine what actions your users can take in a notification. This category defines which actions your users can take when viewing a notification.
--   **[Create a push action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification-2-3.md)**  
+-   **[Create a push action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/actionable-push-notification-2-3.md)**  
 Create push actions to suit your needs, when the base system actions do not meet your requirements.
--   **[Create functions for each push action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification-3.md)**  
+-   **[Create functions for each push action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/actionable-push-notification-3.md)**  
 Create mobile function for each function in the selected action category. These actions perform tasks on your instance based on what the user selects in the notification.
--   **[Map functions with push actions on the actionable push notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification-4.md)**  
+-   **[Map functions with push actions on the actionable push notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/actionable-push-notification-4.md)**  
 Associate functions to the actions in your notification so the instance uses the correct function for each action.
--   **[Create push message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification-5.md)**  
+-   **[Create push message content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/actionable-push-notification-5.md)**  
 Create a record to determine what information the notification displays to your users.
--   **[Create a standard notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification-6.md)**  
+-   **[Create a standard notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/actionable-push-notification-6.md)**  
 Create a standard notification on your instance using the platform notifications.
 
-**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-push-notifications.md)
 

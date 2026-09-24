@@ -3,11 +3,11 @@ title: Configure Soft PIN
 description: Users are required to configure Soft PIN before it can be used for authentication with ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-soft-pin.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Soft PIN authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
@@ -23,7 +23,7 @@ Role required: none
 Perform the following:
 
 -   Administrator must enable Soft PIN on the instance before you can enroll.
--   Install Now Assist for Platform `sn_genai_platform` for activating AI voice agents and set `glide.auth_factors.softpin.enrollment.enabled` property to `true`. To know more, see [Availability in Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/softpin-authentication.md).
+-   Install Now Assist for Platform `sn_genai_platform` for activating AI voice agents and set `glide.auth_factors.softpin.enrollment.enabled` property to `true`. To know more, see [Availability in Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/softpin-authentication.md).
 -   The user record must exist in the `sys_user` table.
 
 ## Procedure
@@ -69,7 +69,7 @@ You can use the submitted Soft PIN to authenticate various ServiceNow system or 
 **Related topics**  
 
 
-[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/softpin-authentication.md)
+[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/softpin-authentication.md)
 
-[Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md)
+[Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/authentication-factors.md)
 

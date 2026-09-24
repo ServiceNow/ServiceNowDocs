@@ -3,11 +3,11 @@ title: Issue provisional credit to customer
 description: Provide a temporary provisional credit to the account holder while the ACH dispute is investigated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-provide-credit.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Processing an ACH dispute, Resolving ACH disputes, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -51,5 +51,5 @@ A temporary credit is provided to the account holder while the case is under inv
     **Note:** In cases where the agent does not provide provisional credit but keeps the task open, once file return communication is sent to the customer, this task is cancelled.
 
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
 

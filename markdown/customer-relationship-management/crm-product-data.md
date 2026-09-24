@@ -3,11 +3,11 @@ title: Product data
 description: Product data in the CRM portfolio gives agents, customers, and sales teams a shared view of what has been sold, how it has been deployed, and what service coverage applies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-product-data.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Data management, Customer Relationship Management]
+breadcrumb: [Data foundations, Customer Relationship Management]
 ---
 
 # Product data
@@ -53,13 +53,13 @@ Product data is a foundational layer of the CRM portfolio. It is the mechanism t
 **Related topics**  
 
 
-[Data models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-models.md)
+[Data models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/data-models.md)
 
-[Product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/product-models.md)
+[Product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/product-models.md)
 
-[Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-contracts.md)
+[Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-csm-service-contracts.md)
 
-[Configure entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-entitlements.md)
+[Configure entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-csm-entitlements.md)
 
-[Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-install-base.md)
+[Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-install-base.md)
 

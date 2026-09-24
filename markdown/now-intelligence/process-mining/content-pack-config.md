@@ -3,11 +3,11 @@ title: Creating process configurations using content pack templates
 description: Create a process configuration using content pack templates. Selecting content packs helps to use the default configuration to create your projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/content-pack-config.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
@@ -29,10 +29,10 @@ The page displays the following information:
 
 This section covers the following topics:
 
--   **[Install Process Mining content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/install-content-pack.md)**  
+-   **[Install Process Mining content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/install-content-pack.md)**  
 Install the content pack to copy the process configurations set for the content pack to your process configuration.
--   **[Create process configurations using content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-config-content-pack.md)**  
+-   **[Create process configurations using content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-config-content-pack.md)**  
 Create process configurations using content packs to use the configuration already created for the content packs.
 
-**Parent Topic:**[Creating process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/creating-process-config.md)
+**Parent Topic:**[Creating process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/creating-process-config.md)
 

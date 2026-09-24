@@ -3,11 +3,11 @@ title: Map a time card category with operational work types
 description: Map custom time card categories with operational work types so you can select only the operational resource plans that are associated with the user for a specific time card period and category while posting time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/map-time-card-category.html
-release: australia
+release: brazil
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Time cards, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -104,5 +104,5 @@ Displays the mapped operational resource plans.
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/c_TimeCards.md)
+**Parent Topic:**[Time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/time-card-management/c_TimeCards.md)
 

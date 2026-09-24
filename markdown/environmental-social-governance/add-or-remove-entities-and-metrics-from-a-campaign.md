@@ -3,7 +3,7 @@ title: Add or remove entities and metrics from a campaign
 description: Add or remove entities and metrics from a campaign to control which records are included in its data collection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/add-or-remove-entities-and-metrics-from-a-campaign.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 1
@@ -17,7 +17,7 @@ Add or remove entities and metrics from a campaign to control which records are 
 
 ## Before you begin
 
--   The campaign must exist. For more information, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-campaign.md).
+-   The campaign must exist. For more information, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-campaign.md).
 -   Role required: sn\_grc\_metric.manager
 
 ## About this task
@@ -40,15 +40,15 @@ Adding an entity to the campaign automatically adds metrics that match the campa
 
 6.  Add or remove records.
 
-<table id="choicetable_add-remove-campaign-records"><thead><tr><th align="left" id="d40197e152">
+<table id="choicetable_add-remove-campaign-records"><thead><tr><th align="left" id="d40107e152">
 
 Option
 
-</th><th align="left" id="d40197e155">
+</th><th align="left" id="d40107e155">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d40197e161">
+</th></tr></thead><tbody><tr><td id="d40107e161">
 
 **Add**
 
@@ -58,7 +58,7 @@ Select **Add**, select the records, and select **Add**.
 
  **Note:** An entity already in another campaign with the same group, frequency, and calendar is not available to select again.
 
-</td></tr><tr><td id="d40197e182">
+</td></tr><tr><td id="d40107e182">
 
 **Remove**
 
@@ -74,5 +74,5 @@ Select the check box next to each record, and select **Remove**.
 
 Data collection for the campaign includes only the entities and metrics currently added to it.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-grc-metrics.md)
 

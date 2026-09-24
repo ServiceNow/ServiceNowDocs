@@ -3,11 +3,11 @@ title: Complete the Prepare task for a moving enterprise asset
 description: Complete the Prepare task for an enterprise asset so that you can proceed with moving the asset between locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-prepare-task-moving-enterprise-asset.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Completing an enterprise asset move order, Managing enterprise asset move orders, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -136,9 +136,9 @@ If you set the **Move type** field to **Local Move**, the Enterprise Asset Manag
 
 ## What to do next
 
-If you set the **Move type** field to **Local Move**, proceed to [Complete the local move for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-local-move-enterprise-asset.md) to complete the move.
+If you set the **Move type** field to **Local Move**, proceed to [Complete the local move for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/complete-local-move-enterprise-asset.md) to complete the move.
 
-If you set the **Move type** field to **Ship**, proceed to [Complete the shipment for a moving enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-shipment-moving-enterprise-asset.md) to complete the shipment.
+If you set the **Move type** field to **Ship**, proceed to [Complete the shipment for a moving enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/complete-shipment-moving-enterprise-asset.md) to complete the shipment.
 
-**Parent Topic:**[Completing an enterprise asset move order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-enterprise-asset-move-order.md)
+**Parent Topic:**[Completing an enterprise asset move order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/completing-enterprise-asset-move-order.md)
 

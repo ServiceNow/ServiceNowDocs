@@ -3,9 +3,9 @@ title: Create an applicable success outcome
 description: Create the applicable success outcomes to support the primary success outcome.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-applicable-outcome.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace** &gt; **All** &gt; **All Initiatives**.
+1.  Navigate to **All** &gt; **CRM Workspace** &gt; **All** &gt; **All Initiatives**.
 
 2.  Open the success initiative for which you want to add success outcome.
 
@@ -41,5 +41,5 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

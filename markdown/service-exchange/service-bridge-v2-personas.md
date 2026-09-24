@@ -3,11 +3,11 @@ title: User roles for providers
 description: Learn about the roles, skills, and tasks for the different users in the Service Exchange for Providers application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-personas.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -118,5 +118,4 @@ Makes requests from the Remote Catalog
 sn\_sb.requestor
 
 </td></tr></tbody>
-</table>**Note:** Beginning with Service Exchange version 2.3. 18, some of the granular roles have changed. For more information, see the [Now Support KB article \(KB3065259\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3065259).
-
+</table>

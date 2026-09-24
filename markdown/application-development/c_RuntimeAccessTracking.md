@@ -3,9 +3,9 @@ title: Runtime access tracking
 description: Runtime access tracking allows administrators to manage script access to application resources by creating a list of script operations and targets that the system authorizes to run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_RuntimeAccessTracking.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application design and runtime settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -87,5 +87,5 @@ The system blocks the tracked operation from running until an Administrator manu
 </td></tr></tbody>
 </table>During development, application designers must run all of an application's script logic to ensure the system tracks and authorizes the access requests to other applications.
 
-**Parent Topic:**[Application design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_ApplicationDesignAndRuntimeSettings.md)
+**Parent Topic:**[Application design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/r_ApplicationDesignAndRuntimeSettings.md)
 

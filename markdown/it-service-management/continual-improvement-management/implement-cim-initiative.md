@@ -3,11 +3,11 @@ title: Prepare an improvement
 description: Create CIM phases and tasks to implement an approved improvement. The Improvement Coordinator works with the Improvement Manager to plan implementation and track progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/implement-cim-initiative.html
-release: australia
+release: brazil
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Managing improvements, Continual Improvement Management, IT Service Management]
 ---
@@ -58,7 +58,7 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
         -   When the planned end date for a CIM task is updated, the planned end date that the CIM initiative that the task is associated with also gets updated. When the state for a CIM task is moved to Work In Progress, the Actual Start Date field is automatically updated with the current date.
         -   When the task is assigned, the task assignee receives an email notification.
-4.  To create a separate application task for an [integrated application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-integration.md), select the related link for that application task.
+4.  To create a separate application task for an [integrated application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-integration.md), select the related link for that application task.
 
 5.  To monitor a KPI with the improvement, add a record to the Impacted KPIs tab.
 
@@ -504,12 +504,12 @@ Impacted KPI
 -   Average age open incidents
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
+</table>**Parent Topic:**[Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
 
 **Related topics**  
 
 
-[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
+[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
 
-[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-integration.md)
+[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-integration.md)
 

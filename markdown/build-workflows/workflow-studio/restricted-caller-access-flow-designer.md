@@ -3,11 +3,11 @@ title: Restricted caller access to Workflow Studio flows
 description: Track flows and actions that require access to cross-scope resources. Allow or deny flows and actions access to cross-scope resources.Allow instances upgraded from San Diego and earlier releases to generate restricted caller access privilege requests for flows and actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/restricted-caller-access-flow-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -41,7 +41,7 @@ If you enable application administration for the target application, only applic
 
 Role required: application admin or admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see Access control rules in application administration apps and Delegated development and deployment.
 
 ### About this task
 
@@ -51,7 +51,7 @@ In San Diego and earlier releases, the Restricted Caller Access Privileges table
 
 ### Procedure
 
-1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) .
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) .
 
     Create this property.
 
@@ -61,7 +61,7 @@ In San Diego and earlier releases, the Restricted Caller Access Privileges table
     |Type|**true\|false**|
     |Value|true|
 
-2.  [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/set-RCA-level.md) .
+2.  Define cross-scope access to an application resource .
 
     Enable Caller Restriction for the tables you want flows and actions to request access to.
 
@@ -75,7 +75,7 @@ In San Diego and earlier releases, the Restricted Caller Access Privileges table
 
     Cross-scope flows and actions generate access privilege requests to the tables set to caller restriction.
 
-5.  [Allow flows and actions to access your application resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-resource-access.md) .
+5.  Allow flows and actions to access your application resources .
 
     Identify access privilege requests with these source types.
 

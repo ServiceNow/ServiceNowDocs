@@ -3,11 +3,11 @@ title: Perform CRI tiering questionnaire
 description: Perform CRI tiering questionnaire on an entity to determine its tier, evaluation controls associated with the tier will be created or updated. Based on the response to the CRI questionnaire from the assessor, the compliance status of each mapped control to a question is determined and the overall compliance score of the entity is calculated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/perform-cri-tier-pc-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage control objectives and policies, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -29,8 +29,8 @@ The content is based on NIST CSF v2.0 functions such as identify, protect, detec
 ServiceNow base system provides this CRI Profile content to customers and they are:
 
 -   Authority documents for CRI Profile.
--   FFIEC CAT is part of CRI Accelerator. For more information, see [Cyber Risk Institute accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/cyber-risk-inst-accelerator.md).
--   NIST CSF content is part of CSF Accelerator. For more information, see [NIST CSF process overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/nist-csf-process.md).
+-   FFIEC CAT is part of CRI Accelerator. For more information, see [Cyber Risk Institute accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/cyber-risk-inst-accelerator.md).
+-   NIST CSF content is part of CSF Accelerator. For more information, see [NIST CSF process overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/nist-csf-process.md).
 
 The CRI assessment is done in two steps:
 
@@ -73,8 +73,8 @@ The CRI assessment is done in two steps:
 
     For more information, see
 
-    -   The Entity form in [Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-ws.md).
-    -   The Related lists in the [Entities section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.md).
+    -   The Entity form in [Create an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-ws.md).
+    -   The Related lists in the [Entities section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.md).
 11. Select the More icon and click the **Initiate CRI tiering questionnaire** option.
 
 12. Enter a message in the **Message** field and select the **Initiate tiering questionnaire** button in the CRI tiering questionnaire pop-up.
@@ -83,13 +83,13 @@ The CRI assessment is done in two steps:
 
     When a CRI tiering questionnaire is initiated, the assessment is generated using the latest published version of the template.
 
-    For more information, see [Assessment template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
+    For more information, see [Assessment template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
 
 13. Select the **CRI tiering questionnaire** related list and click the assessment instance link.
 
     You can also respond to the assessment from the **Tier assessments** list of the My pending tasks related list in the Tasks page and from the Employee Portal. Review the tiering assessment instructions and respond to the questions. Based on your response to each question, the tier level of the entity is determined.
 
-    To respond to an attestation, see [Respond to attestations from Tasks page of Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-task-page-ws.md) and [Responding to assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-respond-to-asmnt.md).
+    To respond to an attestation, see [Respond to attestations from Tasks page of Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-task-page-ws.md) and [Responding to assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-respond-to-asmnt.md).
 
 14. After you submit your assessment, open the entity record to view the tier value in the **Tier** field of the **Cybersecurity Risk Profile \(CRI\)** section.
 
@@ -97,6 +97,6 @@ The CRI assessment is done in two steps:
 
 15. To view the controls mapped to the tier value, select the **Downstream controls** related list.
 
-    After the tier is determined based on the tiering questionnaire, you can now [perform the CRI profile assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/perform-cri-assess-pc-ws.md).
+    After the tier is determined based on the tiering questionnaire, you can now [perform the CRI profile assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/perform-cri-assess-pc-ws.md).
 
 

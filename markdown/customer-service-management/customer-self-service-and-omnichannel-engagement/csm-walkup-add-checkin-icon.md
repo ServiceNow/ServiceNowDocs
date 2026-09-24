@@ -3,13 +3,13 @@ title: Add a Walk-up Experience online check-in link on the Service Portal home 
 description: Configure a Walk-up Experience link to enable guest users to check in online to a walk-up location via Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-add-checkin-icon.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [System properties for configuring Walk-up Experience for guest users, Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [System properties for configuring Walk-up Experience for guest users, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add a Walk-up Experience online check-in link on the Service Portal home page
@@ -38,5 +38,5 @@ Service Portal for Enterprise Service Management \(com.glide.service-portal.esm\
 **Related topics**  
 
 
-[System properties for configuring Walk-up Experience for guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-guest-configure.md)
+[System properties for configuring Walk-up Experience for guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-guest-configure.md)
 

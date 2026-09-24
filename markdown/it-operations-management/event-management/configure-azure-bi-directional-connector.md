@@ -3,11 +3,11 @@ title: Configure Azure Monitor Bi-directional connector
 description: The Azure Monitor Pull connector sends information from ServiceNow Event Management to the Azure Portal. The pull connector sends the alert state changes from the ServiceNow environment to the Azure Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-azure-bi-directional-connector.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ The Azure Monitor Pull connector sends information from ServiceNow Event Managem
 
 Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
 
-When an alert is triggered in the Azure Portal a Secure Webhook is created to send the alert notifications into ServiceNow. The [Azure Monitor Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-integration.md) will receive the alert notification as an event in the ServiceNow instance.
+When an alert is triggered in the Azure Portal a Secure Webhook is created to send the alert notifications into ServiceNow. The [Azure Monitor Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/azure-integration.md) will receive the alert notification as an event in the ServiceNow instance.
 
 The Azure Monitor Bi-directional connector is supported in the following ServiceNow AI Platform versions:
 
@@ -66,7 +66,7 @@ These scenarios describe the default bi-directional functionality for the Azure 
 
     -   Navigate to **All** &gt; **Event Management** &gt; **Integrations** &gt; **Connector Instances**.
     -   Select **New**.
-    -   In the **Name** field, enter the name of &lt;new\_connector\_instance\_name&gt; that you have mentioned in the URL for secure webhook at [Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-events-authentication.md).
+    -   In the **Name** field, enter the name of &lt;new\_connector\_instance\_name&gt; that you have mentioned in the URL for secure webhook at [Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/azure-events-authentication.md).
     -   In the Host IP, enter any dummy IP address such as 1.1.1.1.
     -   In the **Credential** field, add the Azure Service Principal credentials of that tenant that has authorization to perform actions.
     -   Select the **Bi-directional** check box.
@@ -86,7 +86,7 @@ Multiple alerts from the Azure Portal may be mapped to a single ServiceNow alert
         -   If the closed alert is re-opened after 7 days then it will not reopen the corresponding closed alerts from the Azure Portal.
     -   If the alert is in an open state, then it will retain the data for 30 days. . This duration can be customized by the sn\_em\_connector.eventdata\_openevent\_interval.
         -   To close or acknowledge an open ServiceNow alert within 30 days, you can close or acknowledge all corresponding Azure alerts on the Azure Portal.
-        -   To close or acknowledge an open ServiceNow alert after 30 days, close or acknowledge the alert in ServiceNow. You cannot close or acknowledge the corresponding Azure alerts on the Azure Portal.
+        -   If you want to close or acknowledge an open ServiceNow alert after 30 days, you cannot close or acknowledge the corresponding Azure alerts on the Azure Portal.
 
-**Parent Topic:**[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-integration.md)
+**Parent Topic:**[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/azure-integration.md)
 

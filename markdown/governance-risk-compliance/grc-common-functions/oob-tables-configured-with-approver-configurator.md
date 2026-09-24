@@ -3,11 +3,11 @@ title: Base system tables configured with GRC: Approver Configurator
 description: GRC: Approver Configurator enables you to configure approvals for any record that exists in specific tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/oob-tables-configured-with-approver-configurator.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Use Approver Configurator for setting up approvals for setting up approvals, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -53,6 +53,7 @@ Integrated Risk Management
 -   sn\_risk\_acceptance\_task
 -   sn\_risk\_avoidance\_task
 -   sn\_risk\_mitigation\_task
+-   sn\_risk\_advanced\_risk\_assessment\_instance
 -   sn\_risk\_transfer\_task
 
 </td></tr><tr><td>
@@ -73,5 +74,5 @@ Policy and Compliance
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/approval-configuration.md)
+</table>**Parent Topic:**[Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/approval-configuration.md)
 

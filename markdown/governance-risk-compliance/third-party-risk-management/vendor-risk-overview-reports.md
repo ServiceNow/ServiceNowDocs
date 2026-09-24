@@ -3,11 +3,11 @@ title: Vendor Risk Overview reports — Legacy view
 description: The Vendor Risk Overview page is replaced by the third-party risk reports on the Vendor Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/vendor-risk-overview-reports.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -62,5 +62,5 @@ To enable a seamless transition to TPRM, you have the option to duplicate existi
 
 **Important:** Starting with version 18.1.3 of Third-party Risk Management the Vendor Risk Overview dashboard is deprecated. If Third-party Risk Management was installed prior to 18.1.3 the Vendor Risk overview dashboard is still available for your use.
 
-**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

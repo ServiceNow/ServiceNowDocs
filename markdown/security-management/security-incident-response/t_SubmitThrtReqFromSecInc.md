@@ -3,11 +3,11 @@ title: Submit an IoC Lookup request from a security incident
 description: An IoC lookup automatically runs whenever observables are added to a security incident. Also, if your security incident has attachments, they can be easily found with the press of a button.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_SubmitThrtReqFromSecInc.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage lookups and scans, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_si.basic
 
 ## Procedure
 
-1.  [Create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md) or open an existing one if you intend to attach new files to it.
+1.  [Create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md) or open an existing one if you intend to attach new files to it.
 
 2.  Select the paperclip icon in the form header and attach one or more files.
 

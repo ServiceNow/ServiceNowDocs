@@ -1,20 +1,20 @@
 ---
 title: Convert RIDAC records for a project
-description: Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
+description: Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another to retain the record information and track the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/convert-ridac-for-project.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-08"
 reading_time_minutes: 2
 breadcrumb: [Adding RIDAC records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Convert RIDAC records for a project
 
-Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
+Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another to retain the record information and track the issue.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ When you convert a RIDAC record to another record, the values for the **Short de
 
 You can also specify to close the parent record on creation of the new record instead of manually closing the parent record.
 
-You can also view the consolidated list of all converted RIDAC records using the **View RIDAC** related link on the Project form and **View RIDAC** in the application navigator of the Project module.
+You can also view the consolidated list of all converted RIDAC records using the **View RIDAC** related link on the Project form. You can also access this list using **View RIDAC** in the application navigator of the Project module.
 
 ## Procedure
 
@@ -48,7 +48,7 @@ You can also view the consolidated list of all converted RIDAC records using the
 
 8.  If you want to close the parent RIDAC record on creation of the new record, select the close parent record option.
 
-    The label of the close parent record option changes depending on the parent record type. For example, if the parent record is Risk and you are converting it to an issue record, the close record option would appear as **Close Risk**.
+    The label of the close parent record option changes depending on the parent record type. For example, if the parent record is Risk and you're converting it to an issue record, the close record option would appear as **Close Risk**.
 
 9.  Select **OK**.
 
@@ -56,7 +56,7 @@ You can also view the consolidated list of all converted RIDAC records using the
 **Related topics**  
 
 
-[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md)
+[Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ridac-entries-for-project.md)
 
-[Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/reassociate-ridac-project.md)
+[Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/reassociate-ridac-project.md)
 

@@ -3,9 +3,9 @@ title: Host health performance metrics
 description: The metrics provide the host health performance snapshot within the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-host-health-perf-metrics.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -41,7 +41,7 @@ The metrics provide the host health performance snapshot within the ServiceNow A
     Used when the amount of physical memory \(RAM\) is full.
 
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

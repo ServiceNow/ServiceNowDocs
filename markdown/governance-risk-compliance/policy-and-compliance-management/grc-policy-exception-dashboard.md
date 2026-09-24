@@ -3,12 +3,12 @@ title: Policy Exception Overview Performance Analytics dashboard
 description: The Policy Exception Overview Performance Analytics dashboard provides views into the number, severity, and source of policy exceptions. It also shows exempted controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/grc-policy-exception-dashboard.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Analytics and Reporting solutions for GRC: Policy and Compliance Management, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
@@ -52,7 +52,7 @@ To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; *
 
 \[Omitted image "policy-exception-dashbrd.png"\] Alt text: Policy Exception Overview dashboard showing Active Policy Exceptions and Policy Exceptions by Policy
 
-**Note:** You can view this dashboard directly from the Compliance Workspace as well. For more information, see [View dashboards in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/view-dashboards-in-compliance-workspace.md)
+**Note:** You can view this dashboard directly from the Compliance Workspace as well.
 
-**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
+**Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

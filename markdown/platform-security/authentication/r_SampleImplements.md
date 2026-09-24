@@ -3,11 +3,11 @@ title: Sample digest token implementations
 description: Here are several samples of creating a digest token.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/r\_SampleImplements.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digest token authentication, Token based authentication \(User logins\), Authentication, Access Management]
 ---

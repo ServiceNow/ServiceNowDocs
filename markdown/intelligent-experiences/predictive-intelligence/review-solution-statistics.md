@@ -3,13 +3,13 @@ title: Review classification solution statistics
 description: The Solution Statistics dashboard in Predictive Intelligence has been deprecated in the Xanadu release. It provided precision and coverage statistics for each class in a classification solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/review-solution-statistics.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View solution training progress, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [View solution training progress, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Review classification solution statistics
@@ -22,11 +22,11 @@ The Solution Statistics dashboard in Predictive Intelligence has been deprecated
 
 ## About this task
 
-**Important:** With the Australia release, the Solution Statistics dashboard is deprecated. Upgrading customers can continue to use their existing Solutions Statistics dashboards from the application menu. For new customers onboarding with the Australia release, the Solutions Statistics dashboard is not available. The following information is provided for legacy context.
+**Important:** With the Brazil release, the Solution Statistics dashboard is deprecated. Upgrading customers can continue to use their existing Solutions Statistics dashboards from the application menu. For new customers onboarding with the Brazil release, the Solutions Statistics dashboard is not available. The following information is provided for legacy context.
 
 The Solution Statistics dashboard lists the precision, coverage, and distribution for each class of active solutions. The system uses the classes with the highest number of records when it builds a solution. The number of classes predicted may be less than 50, and may skip a class if there is not enough historical data to build a solution that can predict the class confidently.
 
-The Solution Statistics dashboard is different from the Solution Statistics tab in an ML Solution record. For more information, see [Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
+The Solution Statistics dashboard is different from the Solution Statistics tab in an ML Solution record. For more information, see [Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
 
 ## Procedure
 

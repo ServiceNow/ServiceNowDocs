@@ -3,11 +3,11 @@ title: Summarize the linked records using ServiceNow Otto for Telecommunications
 description: Generate a comprehensive summary of the service problem case records that you have linked on the Alternative Dispute Resolution \(ADR\) case. Quickly understand case details linked to a customer complaint using the comprehensive summary of linked records skill in the ServiceNow Otto for TMT application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-linked-record.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -24,11 +24,11 @@ Role required: sn\_telco\_adr\_mgmt.manager
 
 The comprehensive summary of linked records skill provides you with a summary of the service problem cases that are linked to the customer dispute. You can use this skill to generate the **Key findings** field information in the Investigate stage in the ADR case creation.
 
-The service problem case summarization skill is available in CSM/FSM Configurable Workspace. In CSM/FSM Configurable Workspace, you can use the ADR Complaint summary by ServiceNow Otto component to generate a summary. This component appears on the Analyze linked facts card in the Investigate stage of the ADR case record.
+The service problem case summarization skill is available in CRM Workspace. In CRM Workspace, you can use the ADR Complaint summary by ServiceNow Otto component to generate a summary. This component appears on the Analyze linked facts card in the Investigate stage of the ADR case record.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Alternative Dispute Resolution** &gt; **All**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Alternative Dispute Resolution** &gt; **All**.
 
 2.  Open the ADR case record that you’re working on.
 
@@ -42,15 +42,15 @@ The service problem case summarization skill is available in CSM/FSM Configurabl
 
 5.  After you're finished summarizing the key findings, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d27897e133">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d27896e133">
 
 Option
 
-</th><th align="left" id="d27897e136">
+</th><th align="left" id="d27896e136">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d27897e142">
+</th></tr></thead><tbody><tr><td id="d27896e142">
 
 **View more or less summary details**
 
@@ -60,7 +60,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d27897e172">
+</td></tr><tr><td id="d27896e172">
 
 **Provide feedback for the summary**
 
@@ -70,7 +70,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d27897e205">
+</td></tr><tr><td id="d27896e205">
 
 **Copy the case summary**
 
@@ -78,7 +78,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the comprehensive summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d27897e220">
+</td></tr><tr><td id="d27896e220">
 
 **View the information about the case summary**
 
@@ -94,7 +94,7 @@ To check some details about the summary, select the more info icon \(\[Omitted i
 
 ## What to do next
 
-Complete the remaining steps to execute the ADR case record. To learn more, see [Create a Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-adr-case-record.md).
+Complete the remaining steps to execute the ADR case record. To learn more, see [Create a Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-adr-case-record.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

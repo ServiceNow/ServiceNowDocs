@@ -3,11 +3,11 @@ title: Configure a data source
 description: Start importing data with Integration Hub by creating a data source. A data source specifies how and where to get the data you want to import.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-data-source.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integration Hub - Import, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,8 +18,8 @@ Start importing data with Integration Hub by creating a data source. A data sour
 
 ## Before you begin
 
--   Imports in Integration Hub require the ServiceNow IntegrationHub Action Template - Data Stream \[com.glide.hub.action\_type.datastream\] plugin. For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
--   A data source in Integration Hub uses an Excel file, a CSV file, or a Data Stream action. Data Stream actions have unique inputs, so if you plan to use one, make sure to familiarize yourself with it first. To learn more, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md). You can use Data Stream actions with dynamic outputs, but dynamic inputs aren't supported.
+-   Imports in Integration Hub require the ServiceNow IntegrationHub Action Template - Data Stream \[com.glide.hub.action\_type.datastream\] plugin. For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/request-ih-overview.md).
+-   A data source in Integration Hub uses an Excel file, a CSV file, or a Data Stream action. Data Stream actions have unique inputs, so if you plan to use one, make sure to familiarize yourself with it first. To learn more, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/data-stream-actions.md). You can use Data Stream actions with dynamic outputs, but dynamic inputs aren't supported.
 -   Role required: admin or ih\_import.
 
 ## About this task
@@ -49,7 +49,7 @@ Configuring a data source is the first step to importing data in Integration Hub
     3.  Use the **Source type** menu to select a data source type.
 
         -   To choose an Excel or CSV file, select **AD-HOC** &gt; **** &gt; **File**, then either **Excel** or **CSV**. In the File upload section, upload an XLSX, XLS, CSV, or ZIP file.
-        -   To choose a Data Stream action, select **Spokes**. Active Data Streams are organized by spoke and listed alphabetically. In the Connection section, select the connection alias. For Data Stream actions that use a connection alias, you can override the default connection alias with any of its children's aliases. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+        -   To choose a Data Stream action, select **Spokes**. Active Data Streams are organized by spoke and listed alphabetically. In the Connection section, select the connection alias. For Data Stream actions that use a connection alias, you can override the default connection alias with any of its children's aliases. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
     4.  Configure the data source.
 
         -   To configure an Excel spreadsheet, specify which sheet to use and which row number to use for the header. Only one sheet and one header can be specified.
@@ -64,7 +64,7 @@ The structure of the source data appears in the Source data structure preview pa
 
 ## What to do next
 
-Map your source data to target tables. See [Map source data to a target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/map-source-data-target.md).
+Map your source data to target tables. See [Map source data to a target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/map-source-data-target.md).
 
-**Parent Topic:**[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
+**Parent Topic:**[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
 

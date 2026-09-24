@@ -3,9 +3,9 @@ title: Configure the Platform Analytics Solution for Self-Service Analytics for 
 description: Run diagnostics, review and customize components, and start collecting data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ssa-solution-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Extend capabilities, Configure, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ A ServiceNow AI Platform administrator must have installed the content pack plug
 
 ## Procedure
 
-1.  Run all diagnostics on all records, as described in [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/self-diagnostics.md).
+1.  Run all diagnostics on all records, as described in [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/self-diagnostics.md).
 
     These diagnostics can catch mismatches between the configuration of your Platform Analytics Solutions and your tables.
 
@@ -70,7 +70,7 @@ A ServiceNow AI Platform administrator must have installed the content pack plug
 **Related topics**  
 
 
-[Platform Analytics Solutions for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-content-pack.md)
+[Platform Analytics Solutions for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-content-pack.md)
 
-[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service-analytics.md)
+[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/self-service-analytics.md)
 

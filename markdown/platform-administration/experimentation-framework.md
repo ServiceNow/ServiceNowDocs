@@ -3,9 +3,9 @@ title: Experimentation framework
 description: The experimentation framework enables ServiceNow to test and release new features using A/B testing in order to collect feedback to improve product experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/experimentation-framework.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -20,10 +20,10 @@ The framework captures only aggregated usage metrics \(such as feature usage, pe
 
 You have full transparency and control over your instance's use of the experimentation framework. You can view active experiments by navigating to **All** &gt; **Experimentation Framework** &gt; **All Experiments**. You can also choose to opt out of individual experiments or turn off the framework entirely.
 
--   **[Opt out of an individual experiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/opt-out-individual-experiment.md)**  
+-   **[Opt out of an individual experiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/opt-out-individual-experiment.md)**  
 Opt out of a specific experiment while remaining enrolled in others.
--   **[Turn off experimentation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Turn off experimentation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
 Turn off experimentation framework to opt out of all current and future experiments.
 
-**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/p_CoreConfigurationOverview.md)
 

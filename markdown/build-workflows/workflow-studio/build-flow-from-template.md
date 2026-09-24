@@ -3,11 +3,11 @@ title: Build a flow from a template in App Engine Studio
 description: Step through an example of how to build, test, and activate a flow using a flow template in App Engine Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/build-flow-from-template.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Getting started, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ Step through an example of how to build, test, and activate a flow using a flow 
 
 ## Before you begin
 
-Create an application in App Engine Studio. Once your application is built, you can use flow templates to create flows. For more information, see [Building applications in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-creation.md).
+Create an application in App Engine Studio. Once your application is built, you can use flow templates to create flows. For more information, see Building applications in App Engine Studio.
 
 Role required: admin, flow\_designer, or delegated\_developer
 
@@ -94,7 +94,7 @@ To help you get started with building a flow from a flow template, follow along 
 
 21. On the Execution Details page, see the values that populated for the trigger and each automated action in your flow.
 
-    For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+    For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-execution-details.md).
 
 22. Navigate back to your flow.
 
@@ -103,5 +103,5 @@ To help you get started with building a flow from a flow template, follow along 
 
 ## What to do next
 
-Your flow is now active and will run whenever it's triggered. Next, you can manage your flow every time it runs by viewing your flow's execution history. To view this history, click **Executions** in the main header. The resulting page shows you the state of completion for each flow execution as well as how long it took for each flow execution to run, or its runtime. To troubleshoot a flow execution for errors, select an execution from this list to open the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+Your flow is now active and will run whenever it's triggered. Next, you can manage your flow every time it runs by viewing your flow's execution history. To view this history, click **Executions** in the main header. The resulting page shows you the state of completion for each flow execution as well as how long it took for each flow execution to run, or its runtime. To troubleshoot a flow execution for errors, select an execution from this list to open the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-execution-details.md).
 

@@ -3,11 +3,11 @@ title: E-signatures on questionnaires or document requests
 description: Questionnaires or document requests might require electronic signatures of third-party contacts and/or reviewers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-approve-with-e-sig.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -50,4 +50,11 @@ After a questionnaire or document request has been submitted to the third party,
 ## Result
 
 The state of the assessment changes to **Response Received**, and risk scores are calculated.
+
+**Related topics**  
+
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+
+[Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md)
 

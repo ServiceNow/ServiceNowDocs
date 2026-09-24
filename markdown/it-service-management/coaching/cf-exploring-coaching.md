@@ -3,11 +3,11 @@ title: Exploring Coaching
 description: Review and assess the quality of your teams' completed interactions and tasks. Based on these assessments, you can assign course items for your teams. When they complete the training, the skills associated with it get added to their skills set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-exploring-coaching.html
-release: australia
+release: brazil
 product: Coaching
 classification: coaching
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Coaching, IT Service Management]
 ---
@@ -168,8 +168,8 @@ Coaching trainee
 
 To learn more about configuring and using Coaching, see:
 
--   [About Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-overview.md)
--   [Setting up Coaching and surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-setting-up-coaching.md)
--   [Managing your coaching assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-getting-coached.md)
--   [Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-reference.md)
+-   [About Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-coaching-overview.md)
+-   [Setting up Coaching and surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-setting-up-coaching.md)
+-   [Managing your coaching assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-getting-coached.md)
+-   [Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-coaching-reference.md)
 

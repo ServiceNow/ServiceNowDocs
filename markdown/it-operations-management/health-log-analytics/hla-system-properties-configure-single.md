@@ -3,11 +3,11 @@ title: Configure Health Log Analytics system properties for a single log source
 description: Configure system properties for a specific log source if you need to alter the default values, which should not usually be necessary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-system-properties-configure-single.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer HLA, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -45,13 +45,13 @@ For a complete description of all the Health Log Analytics system properties, se
 
 The new value overrides the previous setting for the selected log source.
 
--   **[Configure global Health Log Analytics system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure.md)**  
+-   **[Configure global Health Log Analytics system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure.md)**  
 Configure global Health Log Analytics system properties if you need to alter the default values, which typically should not be necessary.
 
-**Parent Topic:**[Administering Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-administer.md)
+**Parent Topic:**[Administering Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-administer.md)
 
 **Related topics**  
 
 
-[Configure global Health Log Analytics system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure.md)
+[Configure global Health Log Analytics system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure.md)
 

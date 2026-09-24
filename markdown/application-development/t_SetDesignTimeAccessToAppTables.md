@@ -3,9 +3,9 @@ title: Set design-time access to application tables
 description: Set these access permissions to protect application tables at design-time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/t\_SetDesignTimeAccessToAppTables.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Design-time access to application tables, Table design and runtime settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -28,7 +28,7 @@ To set runtime access permissions:
 
 2.  Click the button for the application type you want to edit.
 
-<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d299624e86">
+<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d290214e86">
 
 **__Developed__**
 
@@ -36,7 +36,7 @@ To set runtime access permissions:
 
 displays applications created on this instance.
 
-</td></tr><tr><td id="d299624e96">
+</td></tr><tr><td id="d290214e96">
 
 **__Downloaded__**
 
@@ -54,12 +54,12 @@ displays applications downloaded on this instance.
 6.  Click **Update**.
 
 
-**Parent Topic:**[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DesignTimeAccessToAppTables.md)
+**Parent Topic:**[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DesignTimeAccessToAppTables.md)
 
 **Related topics**  
 
 
-[Example denying all design access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ExampleDenyingAllDesignAccess.md)
+[Example denying all design access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ExampleDenyingAllDesignAccess.md)
 
-[Example allowing configuration records for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ExampleGrantingAccessToConfigRecs.md)
+[Example allowing configuration records for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ExampleGrantingAccessToConfigRecs.md)
 

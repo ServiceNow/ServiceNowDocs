@@ -3,9 +3,9 @@ title: Send an email response from a case activity stream
 description: Respond to cases using options within a customer email thread. You may not require using another email client which saves time and effort.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/respond-cases-reply-forward.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage email tasks, Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_agent
 
 ## About this task
 
-You can read and respond to large emails easily in a full screen which opens up in a new tab. Responding to a customer's email from within a case using the reply, reply all, or forward options, includes the content from previous conversation thread. These options are available by default. An admin can disable these options. For more information, see [Disable email responses from the case activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-email-response-from-case.md).
+You can read and respond to large emails easily in a full screen which opens up in a new tab. Responding to a customer's email from within a case using the reply, reply all, or forward options, includes the content from previous conversation thread. These options are available by default. An admin can disable these options. For more information, see [Disable email responses from the case activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-email-response-from-case.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ You can read and respond to large emails easily in a full screen which opens up 
 **Related topics**  
 
 
-[Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md)
+[Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ActivityFormatter.md)
 
-[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailProperties.md)
+[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailProperties.md)
 

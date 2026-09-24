@@ -3,9 +3,9 @@ title: Create and edit a synthetic monitor
 description: Create or edit a synthetic monitor to test the availability and performance of your HTTP endpoints before your users discover issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-synthetic-monitor.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -17,9 +17,9 @@ Create or edit a synthetic monitor to test the availability and performance of y
 ## Before you begin
 
 -   A configuration item \(CI\) for the endpoint you want to test.
--   If you're testing private endpoints or want to run the monitors from your environment, one or more locations must be created to host the monitor. To create a location, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
+-   If you're testing private endpoints or want to run the monitors from your environment, one or more locations must be created to host the monitor. To create a location, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
 
-**Note:** If you're monitoring an API discovered through API Insights or discovery patterns, see [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
+**Note:** If you're monitoring an API discovered through API Insights or discovery patterns, see [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
 
 **Note:** For information about how to bulk create synthetic monitors, see the .
 
@@ -70,7 +70,7 @@ Related service CI
 
 </td><td>
 
-Application service CI or CIs related to the HTTP endpoint. You can select one or more application services. Saving the monitor replaces the endpoint's application-service relationships with exactly what's selected here — deselecting a service removes its CI relationship.
+Application service CI or CIs related to the HTTP endpoint. You can select one or more application services. Saving the monitor replaces the endpoint's application-service relationships with exactly what's selected here — deselecting a service removes its CI relationship..
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Text that is used if the API expects a message body, such as a JSON snippet.
 
         Choose **Create new location** to create a location.
 
-        For more information on how to create a location, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
+        For more information on how to create a location, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
 
     4.  In the Assertion section, define a successful test by selecting one or more criteria, an operator, and a value.
 
@@ -139,13 +139,13 @@ Text that is used if the API expects a message body, such as a JSON snippet.
 
         -   In the Alert settings section, activate the toggle switch.
         -   Select an alert severity for a test failure.
-        -   Add tags to the alert. For more information about using tags in alerts, see [Tag cluster alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-tag-definitions-concept.md).
+        -   Add tags to the alert. For more information about using tags in alerts, see [Tag cluster alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-clustering-tag-definitions-concept.md).
 4.  Select **Save**.
 
 
 ## Result
 
-The Overview page for the synthetic monitor displays the results of the tests that the monitor runs. See [Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/identifying-system-issues.md) for more information.
+The Overview page for the synthetic monitor displays the results of the tests that the monitor runs. See [Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/identifying-system-issues.md) for more information.
 
-**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-synthetic-monitoring.md)
+**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configuring-synthetic-monitoring.md)
 

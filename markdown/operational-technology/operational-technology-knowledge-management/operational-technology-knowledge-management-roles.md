@@ -3,11 +3,11 @@ title: Operational Technology Knowledge Management roles
 description: You can assign Knowledge Management roles to your Operational Technology Knowledge Management users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-roles.html
-release: australia
+release: brazil
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -54,5 +54,5 @@ The knowledge administrator can perform all the administrative tasks that are as
 -   The knowledge role comes as a subordinate role.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Technology Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-reference-landing-page.md)
+</table>**Parent Topic:**[Operational Technology Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-reference-landing-page.md)
 

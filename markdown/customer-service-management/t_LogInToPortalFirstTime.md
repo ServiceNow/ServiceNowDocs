@@ -3,9 +3,9 @@ title: Log in to the Customer Service Portal for the first time
 description: After a registration request is approved, the customer contact receives an email with a user ID and temporary password. When logging in for the first time, the contact is asked to change the password.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_LogInToPortalFirstTime.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Self-register, Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -42,7 +42,7 @@ Role required: none
 **Related topics**  
 
 
-[Submit a self-registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SubmitPortalSelfRegRequest.md)
+[Submit a self-registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_SubmitPortalSelfRegRequest.md)
 
-[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_RequestPasswordReset.md)
+[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_RequestPasswordReset.md)
 

@@ -3,9 +3,9 @@ title: Exploring Financial Services Operations Integration with Guidewire
 description: With the Financial Services Operations Integration with Guidewire application, insurers can embed the Guidewire Cloud based APIs in the FSO workflows to handle the day to day business operations for policy services, claims services, and billing services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/exploring-fso-integration-with-guidewire.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Guidewire, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -51,8 +51,8 @@ Spoke Layer
 
 </td><td>
 
-Layer that includes the Guidewire spoke plugin. This layer provides the actions that use REST Web Services to interact with the Guidewire APIs. To view Guidewire spoke actions, see [Guidewire Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/guidewire-spoke.md) actions.
+Layer that includes the Guidewire spoke plugin. This layer provides the actions that use REST Web Services to interact with the Guidewire APIs. To view Guidewire spoke actions, see [Guidewire Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/guidewire-spoke.md) actions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Operations Integration with Guidewire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-guidewire-landing-page.md)
+</table>**Parent Topic:**[Financial Services Operations Integration with Guidewire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-integration-with-guidewire-landing-page.md)
 

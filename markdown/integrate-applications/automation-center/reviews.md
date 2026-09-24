@@ -3,11 +3,11 @@ title: Working with reviews
 description: Reviews enable you to evaluate automations that have been created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/reviews.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Automation Center, Workflow Data Fabric]
 ---
@@ -18,8 +18,8 @@ Reviews enable you to evaluate automations that have been created.
 
 Create a review request when you want the COE team to review an automation and analyze if the automation is required.
 
--   **[Creating a review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-review-request.md)**  
+-   **[Creating a review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/creating-review-request.md)**  
 Review request enable you to review the automations.
 
-**Parent Topic:**[Using Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-use.md)
+**Parent Topic:**[Using Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-use.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Assessment Metric Type Record form
-description: Use the Assessment Metric Type Record form to create an attestation template to create the attestations. Use the template form to create a record.
+description: Use the Assessment Metric Type New Record form to create an attestation template to create the attestations. Use the template form to create a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/attestation-template-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and edit the attestation template, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Assessment Metric Type Record form
 
-Use the Assessment Metric Type Record form to create an attestation template to create the attestations. Use the template form to create a record.
+Use the Assessment Metric Type New Record form to create an attestation template to create the attestations. Use the template form to create a record.
 
 ## Assessment Metric Type Record form
 
@@ -67,7 +67,7 @@ Metric categories
 
 </td><td>
 
-Category that represents a theme for evaluating assessable records in a given metric type. It displays the name of the template, description of the category, its weight, order, and so on. For information on Weight categories and metrics in the Assessments application, see [Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetricCategories.md).
+Category that represents a theme for evaluating assessable records in a given metric type. It displays the name of the template, description of the category, its weight, order, and so on. For information on Weight categories and metrics in the Assessments application, see [Assessment metric categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentMetricCategories.md).
 
 </td></tr></tbody>
 </table>

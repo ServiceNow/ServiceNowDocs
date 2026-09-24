@@ -3,11 +3,11 @@ title: Error messages in the Localization Framework
 description: Error messages are displayed when the appropriate settings are not configured for the translation and workflow preferences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/error-messages.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Localization Framework reference, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -269,5 +269,5 @@ When publishing translations or when sending translations for approval.
 |Your request for translations failed for the selected insights. Click here to see the list of insights for failed requests and reinitiate the request.|Lists the insights records for which it failed to request translations.|
 |Localization setting does not exist for the following table and language pair\(s\): \{pair of table name and language\}. Uncheck the record\(s\) of the mentioned pair\(s\) and resubmit.|Lists the language pair\(s\): \{pair of table name and language\} for which a settings record does not exist.|
 
-**Parent Topic:**[Localization Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/reference-localization-framework.md)
+**Parent Topic:**[Localization Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/reference-localization-framework.md)
 

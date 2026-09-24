@@ -3,9 +3,9 @@ title: Create specification relationships, quantity mapping, and decomposition r
 description: Create the specification relationships and optional decomposition rules that define the associations between the product, service, and resource specifications for a product that you offer. These relationships impact how an order is fulfilled for a customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-specification-relationships-somt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Defining attribute mapping, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -28,7 +28,7 @@ You can also select the characteristic options of the quantity characteristic fo
 
 Optionally, you can create decomposition rules for the selected source and target specification relationships. The specification relationships can have product, service, or resource specifications as the source specifications.
 
-**Note:** To learn more, see [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-order-decomposition.md).
+**Note:** To learn more, see [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-order-decomposition.md).
 
 ## Procedure
 

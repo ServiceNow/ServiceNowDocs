@@ -3,11 +3,11 @@ title: Validating and correcting configuration data
 description: For every change to an environment, there may be tens or hundreds of rules \(policies\) that need to be checked. CDM enables you to auto-validate configuration data to ensure that configuration changes are error-free and policy-compliant before the config data is consumed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-validating-cfg-data.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 
 For every change to an environment, there may be tens or hundreds of rules \(policies\) that need to be checked. CDM enables you to auto-validate configuration data to ensure that configuration changes are error-free and policy-compliant before the config data is consumed.
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 ## CDM automates much of the validation process
 
@@ -30,7 +30,7 @@ Here's the CDM process that auto-validates configuration data before it is consu
 2.  For dynamic mapping of policies to deployables, create a condition on the CDM Deployable \[sn\_cdm\_deployable\] table. Associate the condition with one or more policies. At runtime, these policies are executed to validate deployables that meet the defined conditions.
 3.  You map the policy to a deployable using static mapping or dynamic mapping to ensure that the policy executes against any snapshot of the deployable when requested \(manual or automated request\).
 
-    For more information on policy mappings, see [PaCE Static and Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-policy-mapping.md).
+    For more information on policy mappings, see [PaCE Static and Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-policy-mapping.md).
 
 4.  When you commit a changeset for the deployable, the system must validate the resulting snapshot. To auto-trigger execution of the mapped policies whenever a changeset is committed, select the **Validate** option when committing the changeset. You also have the option to validate the snapshot manually.
 
@@ -54,7 +54,7 @@ CDM includes policies that you can use as models for custom policies that meet s
 
 -   Do not manually validate snapshots that have already been validated and published.
 -   If you select the **Validate snapshots** or **Validate and publish snapshots** option when committing a changeset, then the system auto-validates each snapshot when it is first generated.
--   To view the current validation failures or warnings for a snapshot, open the snapshot and select the **Validation Results** tab. For details, see [View the results of snapshot validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-validation-results-view.md).
+-   To view the current validation failures or warnings for a snapshot, open the snapshot and select the **Validation Results** tab. For details, see [View the results of snapshot validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-validation-results-view.md).
 -   Use the Policy Test Playground feature to revalidate snapshots while you develop a policy. The resulting validation results are flagged as test results and do not affect operations.
 -   If there is a requirement to revalidate all snapshots for a deployable, revalidate only after you have tested and published the policies.
 
@@ -73,7 +73,7 @@ CDM includes policies that you can use as models for custom policies that meet s
 -   In progress: The validation flow is running and policies are currently executing.
 -   Passed: The snapshot has passed all policies.
 -   Failed: The snapshot has failed one or more policies.
--   Execution error: A policy failed to run to completiondue to an unexpected error, mostly when the [CdmPolicyUtil script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-about-cdmpolicyutil.md) is not used to provide warning and failure messages..
+-   Execution error: A policy failed to run to completiondue to an unexpected error, mostly when the [CdmPolicyUtil script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-about-cdmpolicyutil.md) is not used to provide warning and failure messages..
 
 ## Example flow
 
@@ -99,5 +99,5 @@ Deployment is executed.
 **Related topics**  
 
 
-[CdmQuery - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CdmQueryScopedAPI.md)
+[CdmQuery - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/CdmQueryScopedAPI.md)
 

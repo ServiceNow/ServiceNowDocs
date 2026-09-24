@@ -3,11 +3,11 @@ title: Dispute communication initiation
 description: Initiate customer communication after the final decision on ACH dispute resolution is completed. When the dispute communication AI agent is enabled, it can automatically select an email template, draft the message, and let you review it before sending.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-dispute-communication.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Processing an ACH dispute, Resolving ACH disputes, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -73,5 +73,5 @@ The dispute communication AI agent can select an appropriate email template base
 
 The email draft, whether AI-generated or manually composed, is sent to the relevant stakeholders, who can agree or disagree with the proposed resolution. Based on their response, the **Merchant response** or **Customer response** field is updated, the task closes, and the case proceeds to the next stage of dispute resolution.
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
 

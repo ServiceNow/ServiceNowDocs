@@ -3,7 +3,7 @@ title: Lenovo Spoke
 description: Get the warranty details of your hardware assets from Lenovo.Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/lenovo-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -48,11 +48,11 @@ The Lenovo spoke provides action to automate downloading asset warranty informat
 |------|-----------|
 |Download Asset Warranty|Connect to the Lenovo Warranty API to download asset warranty information.|
 
-**Note:** For more information on getting asset warranty details from Lenovo, see [Integration with Lenovo for asset warranty details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integration-with-lenovo-asset-warranty.md).
+**Note:** For more information on getting asset warranty details from Lenovo, see [Integration with Lenovo for asset warranty details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/integration-with-lenovo-asset-warranty.md).
 
 ## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-To use the actions in the Lenovo spoke, you must create a connection and credential record to authenticate and connect to Lenovo. For more information, see [Create a connection and credential for Lenovo spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-connection-cred-lenovo.md)
+To use the actions in the Lenovo spoke, you must create a connection and credential record to authenticate and connect to Lenovo. For more information, see [Create a connection and credential for Lenovo spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-connection-cred-lenovo.md)
 

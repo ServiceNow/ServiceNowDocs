@@ -3,9 +3,9 @@ title: Review an order orchestration plan
 description: Track the progress of an order in the fulfillment process by reviewing the orchestration plan for the order, its order line items, and domain product, service, or resource orders. By using the order orchestration UI, you can easily identify and resolve any delays or fallouts so that you can do the order fulfillment process more efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/review-order-fulfillment-orchestration-plan.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Order fulfillment, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -27,11 +27,11 @@ By using the order orchestration UI, you can perform the following actions:
 -   Determine the current state of the associated order line items, domain orders, and order tasks.
 -   Identify any order delays or fallouts in the order fulfillment process, and resolve them on time.
 
-To learn more, see [Using the order orchestration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/orchestration-plans-for-order-fulfillment.md).
+To learn more, see [Using the order orchestration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/orchestration-plans-for-order-fulfillment.md).
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -43,15 +43,15 @@ To learn more, see [Using the order orchestration UI](https://raw.githubusercont
 
 5.  Access the order orchestration UI for a selected order, order line item, or domain order by performing the respective task from the following table.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d51354e133">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d52044e134">
 
 Task
 
-</th><th align="left" id="d51354e136">
+</th><th align="left" id="d52044e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51354e142">
+</th></tr></thead><tbody><tr><td id="d52044e143">
 
 **Review the orchestration plan for an entire customer order**
 
@@ -59,7 +59,7 @@ Description
 
 In the Customer Order form, under Order breakdowns, select **View order orchestration**.
 
-</td></tr><tr><td id="d51354e154">
+</td></tr><tr><td id="d52044e155">
 
 **Review the orchestration plan for a customer order line item**
 
@@ -69,7 +69,7 @@ In the Customer Order form, under Order breakdowns, select **View order orchestr
 2.  Select the **Order Orchestration** tab.
 
 
-</td></tr><tr><td id="d51354e178">
+</td></tr><tr><td id="d52044e179">
 
 **Review the orchestration plan for a domain order associated with a customer order line item**
 
@@ -154,20 +154,20 @@ System-assigned domain product or order task number.
 
 Current state of the domain product or order task. To learn more, see:
 
-    -   [Customer order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-state-values.md)
-    -   [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/service-order-mgt-state-values.md)
+    -   [Customer order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-state-values.md)
+    -   [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/service-order-mgt-state-values.md)
 
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
-[Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-tasks.md)
+[Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-customer-order-tasks.md)
 
-**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
 
 **Related topics**  
 
 
-[View an order timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-order-timelines.md)
+[View an order timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-order-timelines.md)
 

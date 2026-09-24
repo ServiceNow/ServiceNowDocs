@@ -3,9 +3,9 @@ title: Create a synthetic monitor for a discovered API
 description: Create a synthetic monitor to test the availability of APIs discovered through API Insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-synthetic-monitor-for-discovered-api.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [synthetic monitoring, discovered API, API insights, HTTP endpoint]
 breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
@@ -18,9 +18,9 @@ Create a synthetic monitor to test the availability of APIs discovered through A
 ## Before you begin
 
 -   API Insights
--   CMDB CI Class Models. For more information, see [API extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-api.md).
+-   CMDB CI Class Models. For more information, see [API extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-api.md).
 -   An existing API component \(cmdb\_ci\_api\_component\) record in the CMDB for the API Insights to discover APIs.
--   One or more locations must be created to host the monitor to test private endpoints or run the monitors from your environment. To create a location, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
+-   One or more locations must be created to host the monitor to test private endpoints or run the monitors from your environment. To create a location, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
 
 Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.synthetics\_admin
 
@@ -28,7 +28,7 @@ Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.syn
 
 When API Insights discovers APIs through Service Graph Connectors, you can proactively monitor their availability and performance by creating synthetic monitors. Synthetic monitors identify issues before they impact users and verify continuous monitoring of critical API endpoints.
 
-For more information about how API discovery integrates with synthetic monitoring, see [API discovery and synthetic monitoring integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/api-discovery-integration.md).
+For more information about how API discovery integrates with synthetic monitoring, see [API discovery and synthetic monitoring integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/api-discovery-integration.md).
 
 ## Procedure
 
@@ -80,7 +80,7 @@ For more information about how API discovery integrates with synthetic monitorin
 
     **Note:** When running tests from your instance, only six tests can be run every minute for performance reasons.
 
-    To create a location, select **Create new location**. For more information, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
+    To create a location, select **Create new location**. For more information, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
 
 6.  In the Assertion section, define success criteria for the API tests.
 
@@ -101,17 +101,17 @@ For more information about how API discovery integrates with synthetic monitorin
 
     -   In the Alert settings section, activate the toggle switch.
     -   Select an alert severity for test failures.
-    -   Add tags to the alert to help with alert management and routing. For more information about using tags in alerts, see [Tag cluster alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-tag-definitions-concept.md).
+    -   Add tags to the alert to help with alert management and routing. For more information about using tags in alerts, see [Tag cluster alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-clustering-tag-definitions-concept.md).
 9.  Select **Save**.
 
 
 ## Result
 
-The synthetic monitor begins testing the discovered API endpoint at the specified frequency. The Overview page displays test results, including availability, response time, and assertion status. See [Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/identifying-system-issues.md) for more information about viewing and analyzing test results.
+The synthetic monitor begins testing the discovered API endpoint at the specified frequency. The Overview page displays test results, including availability, response time, and assertion status. See [Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/identifying-system-issues.md) for more information about viewing and analyzing test results.
 
 ## What to do next
 
 After creating the monitor, verify that tests run successfully and adjust assertions or frequency as needed based on the API's performance characteristics and business requirements.
 
-**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-synthetic-monitoring.md)
+**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configuring-synthetic-monitoring.md)
 

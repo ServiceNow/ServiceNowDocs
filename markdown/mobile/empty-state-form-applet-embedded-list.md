@@ -3,9 +3,9 @@ title: Configure an empty state for an embedded list in a record screen
 description: Configure an empty state to display on empty record screens to provide information to further direct users. The display of an empty state for an embedded list in a record screen takes priority over an empty state defined for a list screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/empty-state-form-applet-embedded-list.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Embedded lists, Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Configure an empty state to display on empty record screens to provide informati
 
 ## Before you begin
 
-You should already have an empty state configured for record screens that do not contain any data. For more information, see [Configure an empty state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/empty-state-default.md).
+You should already have an empty state configured for record screens that do not contain any data. For more information, see [Configure an empty state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/empty-state-default.md).
 
 Role required: admin
 

@@ -3,12 +3,12 @@ title: Outbound message transaction details tab fields
 description: The outbound message transaction details tab in Zero Copy Connector for ERP contains information about the transaction, including ID numbers, transaction time, and source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-transaction-details-tab-fields.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
 last_updated: "2026-08-06"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, outbound, message, transaction, detail]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -17,9 +17,9 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 The outbound message transaction details tab in Zero Copy Connector for ERP contains information about the transaction, including ID numbers, transaction time, and source.
 
-For process details, see [View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md).
+For process details, see [View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md).
 
-Explore the API for interacting with Zero Copy Connector for ERP models. For details and examples of using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+Explore the API for interacting with Zero Copy Connector for ERP models. For details and examples of using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 <table id="table_ist_gfb_ghc"><thead><tr><th>
 
@@ -190,4 +190,5 @@ IDOC create error
 Not currently used.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

@@ -1,12 +1,12 @@
 ---
 title: Components installed with Business Continuity Management
-description: Several types of components are installed with activation of the Business Continuity Management application.When you download the Business Continuity Management application, several script includes are added to your instance.Use this reference to integrate the shared Microsoft Excel import and export library into your ServiceNow application. It lists the library components, configuration class methods, artifacts that you must create, and example code for export, import, and combined integrations.
+description: Several types of components are installed with activation of the Business Continuity Management application.When you download the Business Continuity Management application, several scripts includes are added to your instance.Use this reference to integrate the shared Microsoft Excel import and export library into your ServiceNow application. It lists the library components, configuration class methods, artifacts that you must create, and example code for export, import, and combined integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/installed-with-bcm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 23
+last_updated: "2026-09-10"
+reading_time_minutes: 25
 keywords: [BCM, import, export, Excel, integration, extension point, Record Transform Engine]
 breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -67,7 +67,7 @@ The BCM admin contains the Approver Configurator admin role, but it doesn’t co
 
 For security reasons, the Approver Configurator admin has read access to the **Script** field on the Approval Rule form. If you have the Approver Configurator developer role in the GRC: Approver Configurator application, you’ve create and write access to the **Script** field on the Approval Rule form.
 
-For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
+For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
 
 
 </td><td>
@@ -242,7 +242,7 @@ Create, read, write, and delete access on all the plans.
 
 </td></tr><tr><td>
 
-BIA Manager \(sn\_bcp.plan\_manager\)
+BIA Manager \(sn\_bia.bia\_manager\)
 
 </td><td>
 
@@ -285,7 +285,7 @@ Create, read, write, and delete access to all approver configurator setup tables
 
 </td><td>
 
-**Note:** To approve an approval configuration record in the BCM application, you must have a BCM role. If you add a user with a non-BCM role to the approval process of an approval configuration record, the record may become inaccessible due to being in an inaccessible state.
+**Note:** To approve an approval configuration record in the BCM application, you must have a BCM role. If you add a user with a non- BCM role to the approval process of an approval configuration record, the record may become inaccessible due to being in an inaccessible state.
 
 </td><td>
 
@@ -392,7 +392,7 @@ Allows read access on all recovery events.
 </td></tr></tbody>
 </table>## BCM lite operator role
 
-For information on the BCM lite operator role, see [BCM lite operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-lite-operators.md).
+For information on the BCM lite operator role, see [BCM lite operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-lite-operators.md).
 
 ## Tables installed
 
@@ -666,7 +666,67 @@ Recovery Team\[sn\_bcp\_recovery\_team\]
 
 </td><td>
 
-Stores the users and groups assigned to the recovery team of a plan.
+Stores the users and groups assigned to the recovery team of a plan.Starting with release 12.x.x, recovery teams are created and managed globally in the Recovery Team \[sn\_bcm\_recovery\_team\] table instead. Existing per-plan recovery team records were migrated to the global table.
+
+</td><td>
+
+Business Continuity Management – Planning
+
+</td></tr><tr><td>
+
+Recovery Team\[sn\_bcm\_recovery\_team\]
+
+</td><td>
+
+Stores the name, description, location, and active status of a recovery team that you can reuse across multiple plans and events.
+
+</td><td>
+
+Business Continuity Management – Core
+
+</td></tr><tr><td>
+
+Recovery Team User \[sn\_bcm\_m2m\_recovery\_team\_user\]
+
+</td><td>
+
+Stores the users assigned to a recovery team.
+
+</td><td>
+
+Business Continuity Management – Core
+
+</td></tr><tr><td>
+
+Recovery Team Group \[sn\_bcm\_m2m\_recovery\_team\_group\]
+
+</td><td>
+
+Stores the groups assigned to a recovery team.
+
+</td><td>
+
+Business Continuity Management – Core
+
+</td></tr><tr><td>
+
+Recovery Team Hierarchy \[sn\_bcm\_m2m\_recovery\_team\_recovery\_team\]
+
+</td><td>
+
+Stores the parent-child relationships between recovery teams.
+
+</td><td>
+
+Business Continuity Management – Core
+
+</td></tr><tr><td>
+
+Plan Recovery Team \[sn\_bcp\_m2m\_plan\_recovery\_team\]
+
+</td><td>
+
+Stores the recovery teams linked to a plan.
 
 </td><td>
 
@@ -830,6 +890,18 @@ Business Continuity Management – Recovery Exercise Management
 
 </td></tr><tr><td>
 
+Collaboration Thread \[sn\_recovery\_event\_collaboration\_thread\]
+
+</td><td>
+
+Stores the recovery teams, impacted assets, and state of a collaboration thread on a crisis event.
+
+</td><td>
+
+Business Continuity Management – Recovery Exercise Management
+
+</td></tr><tr><td>
+
 Impacted Asset to Activated Plan \[sn\_recovery\_impacted\_asset\_to\_activated\_plan\]
 
 </td><td>
@@ -927,15 +999,15 @@ Business Continuity Management – Planning
 </td></tr></tbody>
 </table>## Properties installed
 
-For properties installed with the Business Continuity Management application, see [Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/properties-bcm.md).
+For properties installed with the Business Continuity Management application, see [Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/properties-bcm.md).
 
-**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-reference.md)
+**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-reference.md)
 
 ## Script includes in Business Continuity Management
 
-When you download the Business Continuity Management application, several script includes are added to your instance.
+When you download the Business Continuity Management application, several scripts includes are added to your instance.
 
-### Script includes updated for the Australia release
+### Script includes updated for the Brazil release
 
 |Script-includes|Description|
 |---------------|-----------|
@@ -971,6 +1043,10 @@ When you download the Business Continuity Management application, several script
 |PlanUtil|Contains the utility functions that are used in the BCP plan utility.|
 |PlanCommonUtils|Contains the utility functions that are used in the plan common utility.|
 |RecoveryTasksUtil|Contains the utility functions that are used in the BCP recovery tasks utility.|
+|CollabEmailUtilBase|Resolves recovery-team members and linked groups, including nested sub-groups, into a deduplicated recipient list for collaboration-thread emails.|
+|CollabEmailUtil|Script include to override collaboration-thread email functions in CollabEmailUtilBase.|
+|PlanRecoveryTeamUtilBase|Contains the utility functions used to manage the many-to-many relationship between a plan and its recovery teams.|
+|RecoveryTeamCandidateFilter|Filters the recovery-team picker on a plan and the recovery-team typeahead on a collaboration thread to active recovery teams only.|
 
 ### Scripts used for Nested events
 

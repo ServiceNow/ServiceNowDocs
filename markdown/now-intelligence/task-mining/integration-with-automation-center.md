@@ -3,11 +3,11 @@ title: Integration with Automation Center
 description: Create automation requests for your tasks directly from Task Mining. Capture both steps and desktop actions automation properties in a single recording session, instead of recording the same process twice. When a Task Mining analyst submits an automation request, the recording is delivered to the automation team with all UI properties needed to build desktop actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/integration-with-automation-center.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Task Mining, Explore, Task Mining, Platform Analytics]
 ---
@@ -16,17 +16,17 @@ breadcrumb: [Integrating Task Mining, Explore, Task Mining, Platform Analytics]
 
 Create automation requests for your tasks directly from Task Mining. Capture both steps and desktop actions automation properties in a single recording session, instead of recording the same process twice. When a Task Mining analyst submits an automation request, the recording is delivered to the automation team with all UI properties needed to build desktop actions.
 
-You must install and configure the Automation Center plugin before using the integration. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-automation-center.md).
+You must install and configure the Automation Center plugin before using the integration. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-automation-center.md).
 
 ## Building desktop automations
 
 Submitting an automation request from Task Mining is the entry point to building a complete desktop automation. Automatically convert desktop processes into executable AI agents: capture the task \(desktop processes\) in Task Mining, create desktop actions \(automation blocks\) and AI agent in Automation Center, and test and deploy the AI agent in AI Agent Studio.
 
-For more information, see [Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/creating-desktop-actions-tm-ac.md).
+For more information, see [Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/better-together/creating-desktop-actions-tm-ac.md).
 
 ## Initiate an automation request from the Task timeline analysis
 
-1.  As a Task Mining analyst, you create a Task Mining project with a Task timeline analysis as a Mining analysis goal. For more information, see [Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/create-task-mining-projects.md). You group user actions as a task to provide data for the analysis. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md).
+1.  As a Task Mining analyst, you create a Task Mining project with a Task timeline analysis as a Mining analysis goal. For more information, see [Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/create-task-mining-projects.md). You group user actions as a task to provide data for the analysis. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/mine-data.md).
 2.  Run a mining job on the Task Mining project to generate the Task timeline analysis of your project data.
 3.  Go to the project's Task timeline analysis, and select a task to see a detailed list of the steps of the task.
 4.  Create a copy that you use for automation without affecting the original. In the duplicate task, edit any of these steps if you want to change task details.
@@ -38,14 +38,14 @@ For more information, see [Building desktop automations from Task Mining data](h
 
 \[Omitted image "tm-automation-request-done.png"\] Alt text: Screenshot showing the completed New Automation Request form.
 
-**Parent Topic:**[Integrating Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integrations-for-task-mining.md)
+**Parent Topic:**[Integrating Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/integrations-for-task-mining.md)
 
 **Related topics**  
 
 
-[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
+[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
 
-[Identify task improvement actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/identify-improvement-opportunities.md)
+[Identify task improvement actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/identify-improvement-opportunities.md)
 
-[Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-agent.md)
+[Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-agent.md)
 

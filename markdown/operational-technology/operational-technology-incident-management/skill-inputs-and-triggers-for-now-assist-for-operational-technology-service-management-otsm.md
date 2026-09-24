@@ -3,11 +3,11 @@ title: Skill inputs and triggers for ServiceNow Otto for Operational Technology 
 description: Skill inputs and triggers for ServiceNow Otto for Operational Technology \(OT\) Service Management determine how and when each skill is used. Configure inputs to identify the data a skill uses, or configure triggers to initiate skill actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.html
-release: australia
+release: brazil
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure ServiceNow Otto for OT Service Management, Configure, Operational Technology Incident Management, Operational Technology]
 ---
@@ -24,7 +24,7 @@ Depending on the selected skill, you can configure the inputs or triggers. These
 
 The OT incident summarization skill includes the inputs that identify the table and fields that are used when an OT incident summary is generated.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The following table lists the inputs for the OT incident summarization skill.
 
@@ -127,7 +127,7 @@ OT incident task
 
 The OT resolution notes generation skill includes the inputs that identify the table and fields that are used when the resolution notes are generated for an OT incident.
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The following table lists the inputs for the resolution notes generation skill.
 
@@ -163,5 +163,5 @@ Input fields
 -   OT Device
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.md)
+</table>**Parent Topic:**[Configure ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.md)
 

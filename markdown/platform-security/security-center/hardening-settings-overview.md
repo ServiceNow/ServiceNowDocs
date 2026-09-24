@@ -3,11 +3,11 @@ title: Hardening settings details
 description: Analyze the details of a hardening setting by selecting its link within the Security Center app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/hardening-settings-overview.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [All settings, Security hardening, Security configuration console, Security Center, Platform Security]
 ---
@@ -20,7 +20,7 @@ Navigate to **Hardening** &gt; **All settings**, and then select a hardening set
 
 \[Omitted image "hardening-setting-overview.png"\] Alt text: hardening setting page in UI
 
-Use the **+Create task** button to create a Security Task to complete a Customer Action. For details, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+Use the **+Create task** button to create a Security Task to complete a Customer Action. For details, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md).
 
 <table id="table_opc_tcz_rxb"><thead><tr><th>
 
@@ -94,14 +94,6 @@ Setting configuration
 
 Details related to the compliance status of your hardening setting along with instructions on how to make them compliant.**Note:** Some hardening settings may require you to configure multiple properties and plugins to make them compliant.
 
-</td></tr><tr><td>
-
-Accept compliance risk
-
-</td><td>
-
-If you're unable to make a hardening setting compliant, but the risk is acceptable, you can accept the risk and document an explanation.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/all-settings.md)
+</table>**Parent Topic:**[All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/all-settings.md)
 

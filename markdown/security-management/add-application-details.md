@@ -3,9 +3,9 @@ title: Add application details
 description: Add application details for your integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/add-application-details.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add an integration, Use SIR Integration Builder, LLM-powered SIR integration builder, Security Operations]
 ---

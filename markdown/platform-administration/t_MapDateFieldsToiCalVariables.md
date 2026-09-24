@@ -3,9 +3,9 @@ title: Map date fields to iCalendar variables
 description: You can specify what fields provide the date information in calendar invitation notifications by changing the field mappings of the dtstart and dtend variables in the import export map for the iCalendar invitation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_MapDateFieldsToiCalVariables.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Calendar integration, Email templates, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -31,5 +31,5 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Calendar integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_CalendarIntegration.md)
+**Parent Topic:**[Calendar integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_CalendarIntegration.md)
 

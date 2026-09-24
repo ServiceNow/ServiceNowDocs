@@ -3,9 +3,9 @@ title: Tables installed with Digital resilience third-party registers
 description: Specific tables are installed with Digital resilience third-party registers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/tables-for-drtpr.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digital resilience third-party registers reference, Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -38,5 +38,5 @@ Specific tables are installed with Digital resilience third-party registers.
 |ICT third-party engagement service provider|\[sn\_dora\_accel\_third\_party\_engagement\]|Stores the ICT third-party engagement service provider records for DORA regulation requirement.|
 |Terminology definition|\[sn\_info\_reg\_terminology\_definition\]|Stores the terminology definition records used across DORA reporting sheets.|
 
-**Parent Topic:**[Digital resilience third-party registers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/digi-resi-ref.md)
+**Parent Topic:**[Digital resilience third-party registers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/digi-resi-ref.md)
 

@@ -3,7 +3,7 @@ title: Configure GOV.UK Developer Toolkit
 description: Plan and configure your use of the GOV.UK Developer Toolkit, a library of reusable portal widgets that follow GOV.UK design guidelines, enabling developers to build service portals for UK constituents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-toolkit.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-01"
 reading_time_minutes: 1
@@ -14,8 +14,8 @@ breadcrumb: [Set up self-service, Configure, Public Sector Digital Services \(PS
 
 Plan and configure your use of the GOV.UK Developer Toolkit, a library of reusable portal widgets that follow GOV.UK design guidelines, enabling developers to build service portals for UK constituents.
 
-1.  [Install the GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-install-gds-content-pack.md)  
+1.  [Install the GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-install-gds-content-pack.md)  
 Install the GOV.UK Developer Toolkit application \(sn\_gsm\_uk\_gds\_wdgt\) to deliver citizen-centered digital services and portals without rebuilding them from scratch. This application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 
-**Parent Topic:**[Set up constituent self-service in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-set-up-self-service.md)
+**Parent Topic:**[Set up constituent self-service in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-set-up-self-service.md)
 

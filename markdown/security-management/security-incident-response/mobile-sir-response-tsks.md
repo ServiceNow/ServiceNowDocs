@@ -3,11 +3,11 @@ title: View, edit, and assign open response tasks with the Security Incident Res
 description: View, edit, and assign open response tasks. Your changes are saved on the Security Incident Response Task of the parent security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mobile-sir-response-tsks.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ From the list of records, assign an open, unassigned response task to yourself o
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
 
 2.  With the Security Incidents landing screen displayed, tap **Open Response Tasks**.
 
@@ -34,23 +34,23 @@ From the list of records, assign an open, unassigned response task to yourself o
 
     The Open Response Tasks screen is displayed with a list of open tasks.
 
-3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-search.md) to search for tasks that match specific criteria.
+3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sir-search.md) to search for tasks that match specific criteria.
 
-    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon.\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
+    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon.\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 
 4.  With the list of open response tasks displayed, to assign or reassign directly from the list, swipe left on a record to open the menu.
 
 5.  Choose one to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d283131e150">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d282802e150">
 
 Option
 
-</th><th align="left" id="d283131e153">
+</th><th align="left" id="d282802e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d283131e159">
+</th></tr></thead><tbody><tr><td id="d282802e159">
 
 **Assign to Me**
 
@@ -58,7 +58,7 @@ Description
 
 Assign the response task to yourself. If the task is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d283131e168">
+</td></tr><tr><td id="d282802e168">
 
 **Reassign**
 
@@ -79,15 +79,15 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**
 
 7.  With the tabs on the response task record displayed, choose one in the following table to continue.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d283131e231">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d282802e231">
 
 Option
 
-</th><th align="left" id="d283131e234">
+</th><th align="left" id="d282802e234">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d283131e240">
+</th></tr></thead><tbody><tr><td id="d282802e240">
 
 **Details tab**
 
@@ -97,7 +97,7 @@ With the Details tab selected, review the fields on the response task. To edit f
 -   To reassign the task, tap **Reassign** or **Assign to Me**.
  After you complete your edits, tap **Submit** to save your changes and update the record. The Security Incident Response Task on the parent security incident in your ServiceNow AI Platform instance is updated.
 
-</td></tr><tr><td id="d283131e276">
+</td></tr><tr><td id="d282802e276">
 
 **Activity Stream tab**
 
@@ -109,7 +109,7 @@ With the Activity Stream tab selected, choose one to continue.
 -   Tap the menu icon to edit or reassign the task.
 
 
-</td></tr><tr><td id="d283131e297">
+</td></tr><tr><td id="d282802e297">
 
 **Screen icons at the bottom of the screen.**
 

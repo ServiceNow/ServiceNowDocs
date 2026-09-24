@@ -3,11 +3,11 @@ title: Financial Services Complaint Management reference
 description: Learn about the components, such as the roles, tables, plugins, and store applications, that are installed when you install the Financial Services Complaint Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/fso-complaint-mgmt-reference.html
-release: australia
+release: brazil
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---

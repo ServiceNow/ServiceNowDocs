@@ -1,18 +1,18 @@
 ---
-title: Add an MCP server with OAuth 2.1
-description: Add an MCP server with OAuth 2.1 in the AI Agent Studio.
+title: Add an MCP Server with OAuth 2.1
+description: Add an MCP Server with OAuth 2.1 in the AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-an-oauth-2-1-mcp-server.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client Legacy, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
-# Add an MCP server with OAuth 2.1
+# Add an MCP Server with OAuth 2.1
 
-Add an MCP server with OAuth 2.1 in the AI Agent Studio.
+Add an MCP Server with OAuth 2.1 in the AI Agent Studio.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_mcp\_client.admin
 
 ## About this task
 
-OAuth is the standard method to authenticate MCP servers. If your MCP server supports it, choose OAuth 2.1 as the authentication method.
+OAuth is the usual method to authenticate the MCP servers. If your MCP server supports it, choose OAuth 2.1 in the Authentication method.
 
 ## Procedure
 
@@ -28,21 +28,52 @@ OAuth is the standard method to authenticate MCP servers. If your MCP server sup
 
 2.  Navigate to **Manage MCP Servers** and select **New**.
 
-3.  On the Add MCP server form, enter a name and the web address for your MCP server.
+3.  On the form, fill in the fields.
 
-4.  In the **Authentication Type** field, select **OAuth 2.1**.
+<table id="table_jnr_n3g_xfc"><thead><tr><th>
 
-    \[Omitted image "mcp-server-oauth.png"\] Alt text: Screenshot that shows the Add MCP Server form and its fields.
+Field
 
-5.  Select **Next**.
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name for your MCP Server.
+
+</td></tr><tr><td>
+
+Authentication Type
+
+</td><td>
+
+The authentication type with which you want to add your MCP Server.Select **OAuth 2.1**.
+
+</td></tr><tr><td>
+
+MCP Server URL
+
+</td><td>
+
+The web address of your MCP Server.
+
+</td></tr></tbody>
+</table>    \[Omitted image "mcp-server-oauth.png"\] Alt text: Adding an MCP Server in AI Agent Studio with OAuth 2.1.
+
+4.  Select **Next**.
 
     The form extends with the registration details.
 
-6.  On the form, fill in the fields.
+5.  On the form, fill in the fields:
 
-    The Dynamic Client Registration form auto-populates the field data.
+    The dynamic client registration auto-populates the data in the form fields.
 
-    **Note:** If dynamic registration is supported by the MCP server, you're prompted to confirm the grant type and other inputs. If dynamic registration isn’t supported, you can continue to the Manual Registration method.
+    **Note:** If dynamic registration is supported by the MCP Server, you’ll be prompted to confirm the grant type and other inputs. If dynamic registration isn’t supported, you can continue with the Manual Registration method in Step 6.
 
 <table id="table_zcx_vq3_xfc"><thead><tr><th>
 
@@ -58,10 +89,10 @@ Grant Type
 
 </td><td>
 
-How you want to obtain an access token when accessing protected resources.The following options are available:
+The way you want to obtain an access token for accessing protected resources.One of the following two options is used here with auto-populated data.
 
--   **Authorization Code**: A system-generated code used for granting access to an application or resource.
--   **Client Credentials**: An access token provided by the administrator to access the application directly.
+-   **Authorization Code**: A system-generated code that is used for granting access to an application or resource.
+-   **Client Credentials**: Access token provided by the administrator to access the application directly.
 
 
 </td></tr><tr><td>
@@ -70,7 +101,7 @@ Token Authentication Method
 
 </td><td>
 
-Method using which the client credentials are sent when requesting tokens from the Authorization server.
+Unique token granted to access resources.Select the value from the drop-down list.
 
 </td></tr><tr><td>
 
@@ -78,7 +109,7 @@ Auth Scopes
 
 </td><td>
 
-Specific permissions for an application.**Note:** The Auth scopes must be comma-separated values.
+Define the specific permissions for an application.**Note:** The Auth scopes must be comma-separated values.
 
 </td></tr><tr><td>
 
@@ -86,7 +117,7 @@ Authentication Token for Client Registration
 
 </td><td>
 
-Authentication token used to verify the identity of the client and grant it permission to register with an authorization token.Provide the following values:
+Authentication token used to verify client's identity and grant it permission to register with an authorization token.Provide the following values:
 
 -   **Header**: Authorization header.
 -   **Value**: Authentication password.
@@ -114,19 +145,19 @@ Token Revocation URL
 
 </td><td>
 
-Web address to revoke the previously provided token in the Authentication Token for Client Registration field.
+Web address to revoke the previously provided token.
 
 </td></tr></tbody>
 </table>    \[Omitted image "aouth-dynamic-client-registration.png"\] Alt text: Dynamic client registration form with auto-populated data in the form fields.
 
-    The MCP server with dynamic client registration is added as a simple connection and credential alias.
+    The MCP Server with dynamic client registration is added as a simple connection and credential alias.
 
-7.  On the form, fill in the fields.
+6.  On the form, fill in the fields:
 
     **Note:**
 
-    -   If your MCP server doesn’t support dynamic client registration, then you can register the OAuth client for AI agents in your MCP server manually and update those client details in AI Agent Studio.
-    -   The manual registration doesn’t auto-populate the field data and must be manually provided.
+    -   If your MCP Server doesn’t support Dynamic Client Registration, then you can register the OAuth client for AI agents in your MCP Server manually and update those client details in AI Agent Studio.
+    -   The manual client registration doesn’t auto-populate the data in the form fields and must be manually provided.
 <table id="table_yds_tsh_xfc"><thead><tr><th>
 
 Field
@@ -141,10 +172,10 @@ Grant Type
 
 </td><td>
 
-How you want to obtain an access token when accessing protected resources.The following options are available:
+The way you want to obtain an access token for accessing protected resources.You can select one of the two options:
 
--   **Authorization Code**: A system-generated code used for granting access to an application or resource.
--   **Client Credentials**: An access token provided by the administrator to access the application directly.
+-   **Authorization Code**: A system-generated code that is used for grating access to an application or resource.
+-   **Client Credentials**: Access token provided by the administrator to access the application directly.
 
 
 </td></tr><tr><td>
@@ -153,7 +184,7 @@ Token Authentication Method
 
 </td><td>
 
-Method using which the client credentials are sent when requesting tokens from the Authorization server.
+Unique token granted to access resources.Select the value from the drop-down list.
 
 </td></tr><tr><td>
 
@@ -177,7 +208,7 @@ Auth Scopes
 
 </td><td>
 
-Specific permissions for an application.**Note:** The Auth scopes must be comma-separated values.
+Define the specific permissions for an application.**Note:** The Auth scopes must be comma-separated values.
 
 </td></tr><tr><td>
 
@@ -185,7 +216,7 @@ Authentication Token for Client Registration
 
 </td><td>
 
-Authentication token used to verify the identity of the client and grant it permission to register with an authorization token.Provide the following values:
+Authentication token used to verify client's identity and grant it permission to register with an authorization token.Provide the following values:
 
 -   **Header**: Authorization header.
 -   **Value**: Authentication password.
@@ -218,14 +249,14 @@ Web address to revoke the previously provided token.
 </td></tr></tbody>
 </table>    \[Omitted image "mcp-server-manual-registration.png"\] Alt text: Manual client registration for an OAuth MCP Server.
 
-8.  Select **Add**.
+7.  Select **Add**.
 
-    You're redirected to the MCP Server record to authenticate the MCP server for adding an MCP tool to an AI agent.
+    Selecting Add takes you to the MCP Server record where you must authenticate it for adding an MCP tool to an AI agent.
 
-9.  Select **Authenticate**.
+8.  Select **Authenticate**.
 
-10. In the third-party authorization page, select **Authorize**.
+    Selecting **Authenticate** takes you to the third-party authorization page where you must select a workspace and select **Authorize**.
 
-    **Note:** When OAuth access or refresh tokens aren’t available, you must authenticate the OAuth configuration on the MCP server record to add it as an AI agent tool.
+    **Note:** When the OAuth access or refresh tokens aren’t available, you must authenticate the OAuth configuration on the MCP Server record to add it as a tool to an AI agent.
 
 

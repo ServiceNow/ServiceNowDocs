@@ -3,11 +3,11 @@ title: Troubleshoot script issues with SAML
 description: Troubleshoot script issues with SAML. You might encounter script issues if SAML is already active at the time that you activate Multiple Single Sign-On and if you already customized the installation exits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_TroubleshootScriptIssuesWithSAML.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test IdP connections, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

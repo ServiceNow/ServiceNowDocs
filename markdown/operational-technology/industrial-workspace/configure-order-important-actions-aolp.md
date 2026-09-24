@@ -3,11 +3,11 @@ title: Configure the order of your important actions on the Operational Technolo
 description: Configure the order of your important actions on the Operational Technology \(OT\) Action-Oriented Landing Page to personalize how you view your tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-order-important-actions-aolp.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -37,5 +37,5 @@ Role required: cmdb\_ot\_viewer
 6.  In the **Order** field, select **Ascending** or **Descending**.
 
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

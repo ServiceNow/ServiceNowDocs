@@ -3,11 +3,11 @@ title: Report a community profile
 description: Report a community profile to alert community moderators that there is offensive or inaccurate information in the profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/report-user-profile.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use a community profile, Using communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Report a community profile to alert community moderators that there is offensive
 ## Before you begin
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -33,5 +37,5 @@ Role required: sn\_communities.community\_user
     -   A confirmation message indicating that the abuse report has been received and will be reviewed is displayed.
     -   A moderation task is created and assigned to a moderator for resolution.
 
-**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-profile.md)
+**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/community-profile.md)
 

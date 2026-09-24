@@ -3,11 +3,11 @@ title: Use the Change Approval Policy workflow activity
 description: Apply your Change Policy in your Change Request workflow to manage the approvals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/use-change-policy-wf-activity.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating change approval policies, Use, Change Management, IT Service Management]
 ---
@@ -41,5 +41,5 @@ Role required: admin
 7.  Click **Update**.
 
 
-**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-approval-policies-cf.md)
+**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/using-change-approval-policies-cf.md)
 

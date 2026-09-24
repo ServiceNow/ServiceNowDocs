@@ -3,9 +3,9 @@ title: Configuring Order Management
 description: Learn how to configure the features and components that you need for customer and service order processing, depending on whether you are a provider or an enterprise customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-configuring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
@@ -14,33 +14,33 @@ breadcrumb: [Configure, Sales Customer Relationship Management]
 
 Learn how to configure the features and components that you need for customer and service order processing, depending on whether you are a provider or an enterprise customer.
 
--   **[Install Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-install-providers.md)**  
+-   **[Install Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-install-providers.md)**  
 You can install the Order Management application \(sn\_ind\_tmt\_orm\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Configure order enrichment flows using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-enrichment.md)**  
+-   **[Configure order enrichment flows using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-order-enrichment.md)**  
 Associate enrichment subflows with the product or service specifications by using the Order Enrichment Flow Policy in Decision Tables.
--   **[Configure the customer order task policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-task-policy.md)**  
+-   **[Configure the customer order task policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-order-task-policy.md)**  
 Define conditions for automatic generation of order header tasks and top order line item tasks by adding rows to the Customer Order Task Policy in Decision Tables.
--   **[Configure product order fulfillment policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-product-order-fulfillment-policy.md)**  
+-   **[Configure product order fulfillment policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-product-order-fulfillment-policy.md)**  
 Associate fulfillment subflows with the product specifications by using the Product Order Fulfillment Policy in Decision Tables for move order.
--   **[Configure service order fulfillment policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-service-order-fulfillment-policy.md)**  
+-   **[Configure service order fulfillment policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-service-order-fulfillment-policy.md)**  
 Associate fulfillment subflows with the service specifications by using the Service Order Fulfillment Policy in Decision Tables for move order.
--   **[Configure resource order fulfillment policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-resource-order-fulfillment-policy.md)**  
+-   **[Configure resource order fulfillment policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-resource-order-fulfillment-policy.md)**  
 Associate fulfillment subflows with the resource specifications by using the Resource Order Fulfillment Policy in Decision Tables for move order.
--   **[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-fulfillment.md)**  
+-   **[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-order-fulfillment.md)**  
 Order fulfillment is the process for fulfilling customer orders by using Workflow Studio.
--   **[Configuring Fallout Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-fallout-management.md)**  
+-   **[Configuring Fallout Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-fallout-management.md)**  
 As a provider, you can use Fallout Management to identify, investigate, and resolve order processing issues so that orders can continue processing through to completion.
--   **[Configuring compatibility rules for horizontal relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-compatibility-management.md)**  
+-   **[Configuring compatibility rules for horizontal relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-compatibility-management.md)**  
 As a provider, you can use compatibility rules to establish horizontal relationships between the specifications of multiple products, services, or resources.
--   **[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/asynchronous-order-processing.md)**  
+-   **[Asynchronous order processing for large customer and consumer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/asynchronous-order-processing.md)**  
 Asynchronous order processing handles high-volume enterprise and consumer orders without waiting for immediate processing, improving system performance for communications service providers \(CSP\) using Order Management.
--   **[Customize an order summarization skill in ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customize-order-summarization-skill-now-assist-order-management.md)**  
-Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+-   **[Customize an order summarization skill in ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/customize-order-summarization-skill-now-assist-order-management.md)**  
+Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CRM Workspace and Business Portal.
 
-**Parent Topic:**[Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-configuring.md)
+**Parent Topic:**[Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-configuring.md)
 
 **Related topics**  
 
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

@@ -3,11 +3,11 @@ title: Configure Azure DevOps story integration
 description: Perform the following procedure to configure your Azure DevOps integration options.Script variables, field paths, and leading practices for writing field mapping scripts in the Azure DevOps story integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-azure-devops-integration-options.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [User story integration, Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [User story integration, Configure Scan Engine integrations, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure Azure DevOps story integration
@@ -45,9 +45,9 @@ Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\).
 
 ## What to do next
 
-See [Azure DevOps integration script leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-azure-devops-integration-options.md) for available script variables, common field paths, and guidance on writing field mapping scripts for Azure DevOps.
+See [Azure DevOps integration script leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-azure-devops-integration-options.md) for available script variables, common field paths, and guidance on writing field mapping scripts for Azure DevOps.
 
-**Parent Topic:**[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-story-integration-properties.md)
+**Parent Topic:**[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/user-story-integration-properties.md)
 
 ## Azure DevOps integration script leading practices
 

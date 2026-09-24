@@ -3,11 +3,11 @@ title: Create an Idea module
 description: An Idea module defines the ideas and categories that are displayed in the Idea Portal. Create an Idea module to store and group ideas, and define categories based on product, department, or business unit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/create-idea-module.html
-release: australia
+release: brazil
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Idea Portal administration, Manage Idea Portal, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,18 +30,18 @@ An Idea module defines the ideas and categories that are displayed in the Idea P
 
 2.  On the form, fill in the fields.
 
-    For more information on fields and description, see [Idea module form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-module-form.md).
+    For more information on fields and description, see [Idea module form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/idea-module-form.md).
 
 3.  Select **Submit**.
 
 
 ## What to do next
 
-Define new idea categories or use an existing table to derive the categories from specified columns and map it with your idea module. For more information, see [Configure idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/category-configuration-existing-table.md).
+Define new idea categories or use an existing table to derive the categories from specified columns and map it with your idea module. For more information, see [Configure idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/category-configuration-existing-table.md).
 
-**Parent Topic:**[Idea Portal administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-portal-administration.md)
+**Parent Topic:**[Idea Portal administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/idea-portal-administration.md)
 
-**Previous topic:**[Idea Portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-portal-navigation.md)
+**Previous topic:**[Idea Portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/idea-portal-navigation.md)
 
-**Next topic:**[Define idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/define-idea-categories.md)
+**Next topic:**[Define idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/define-idea-categories.md)
 

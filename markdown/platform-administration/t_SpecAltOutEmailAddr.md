@@ -3,9 +3,9 @@ title: Specify alternative outbound email addresses for notifications
 description: By default, the system sends all outbound email notifications from the default email address of the instance, but you can specify an alternative address.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SpecAltOutEmailAddr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -47,5 +47,5 @@ For organizations that need to send email messages from specific email addresses
 8.  Click **Update**.
 
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md)
 

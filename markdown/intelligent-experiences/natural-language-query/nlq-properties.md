@@ -3,13 +3,13 @@ title: NLQ properties
 description: The Natural Language Query \(NLQ\) properties control how and where NLQ operates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/nlq-properties.html
-release: australia
+release: brazil
 product: Natural Language Query
 classification: natural-language-query
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Natural Language Query References, Natural Language Query, Enable AI experiences]
+breadcrumb: [Natural Language Query References, Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # NLQ properties
@@ -94,7 +94,7 @@ glide.service\_portal.ais\_nlq\_enabled
 -   False: NLQ is not available in global search
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Natural Language Query References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/nlq-references.md)
+</table>**Parent Topic:**[Natural Language Query References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query/nlq-references.md)
 
 **Related topics**  
 

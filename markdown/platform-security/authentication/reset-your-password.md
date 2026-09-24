@@ -3,11 +3,11 @@ title: Configure password for a user
 description: Set your user's password for the instance based on the password policy that is configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/reset-your-password.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure your password policy, Password complexity requirements, Local authentication, Authentication, Access Management]
 ---
@@ -18,9 +18,9 @@ Set your user's password for the instance based on the password policy that is c
 
 ## Before you begin
 
-Users created for setting the password for their first login. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md).
+Users created for setting the password for their first login. For more information, see Create a user.
 
-To populate the **Password** field directly on the user form, enable the **Enable to show the password field on the sys\_user Form** \(glide.user.show.password.field\). To know more about the properties, see [Password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/password-policy-properties.md).
+To populate the **Password** field directly on the user form, enable the **Enable to show the password field on the sys\_user Form** \(glide.user.show.password.field\). To know more about the properties, see [Password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/password-policy-properties.md).
 
 Role required: password\_policy\_admin
 

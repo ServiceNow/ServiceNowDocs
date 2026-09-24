@@ -3,11 +3,11 @@ title: Create a work order using ServiceNow Otto for Field Service Management \(
 description: Use ServiceNow Otto for Field Service Management \(FSM\) to create a work order from a text description or an image of the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-work-order-now-assist-fsm.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create work order, AI agent, image]
 breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
@@ -27,9 +27,9 @@ Role required: wm\_qualifier or wm\_dispatcher or wm\_agent
 
 ## Procedure
 
-1.  Select the ServiceNow Otto panel icon \[Omitted image "now-assist-panel-icon.png"\] Alt text:.
+1.  Select the ServiceNow Otto® panel icon \[Omitted image "now-assist-panel-icon.png"\] Alt text:.
 
-2.  Select **Create work order**, or ask AI to create a work order.
+2.  Select **Create work order**, or ask ServiceNow Otto® to create a work order.
 
 3.  Provide a description of the issue for the work order.
 

@@ -3,11 +3,11 @@ title: Configure disambiguation
 description: Configure the disambiguation property that controls when the assistant asks clarifying questions before responding to a ServiceNow Otto for Virtual Agent or ServiceNow Otto panel user request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nava-configure-disambiguation-manually.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Now Assist Admin features, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure disambiguation
@@ -37,7 +37,7 @@ Disambiguation or clarification helps the assistant handle situations where the 
     -   ServiceNow Otto panel enhanced chat
     then use this configuration:
 
-<table id="table_qhd_z5b_gkc"><thead><tr><th>
+<table id="table_pkn_sn1_53c"><thead><tr><th>
 
 Property
 
@@ -113,5 +113,5 @@ off
 </table>4.  To view the disambiguation data, in the filter navigator field, enter `sys_generative_ai_log`.
 
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
 

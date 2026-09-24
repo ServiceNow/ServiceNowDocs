@@ -3,9 +3,9 @@ title: Use Group similar items
 description: Use AI to group similar records in a list based on their short descriptions and generate a group summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-group-similar-items.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ Use AI to group similar records in a list based on their short descriptions and 
 
 ## Before you begin
 
-**Important:** The Group similar items feature is available with ServiceNow® Pro Plus licensing. Discuss licensing with your ServiceNow® account representative for information specific to your contract.
+**Important:** Check your entitlements to determine whether you have access to the Group similar items feature. Discuss licensing with your ServiceNow® account representative for information specific to your contract.
 
 Role required: workspace\_user
 
@@ -43,15 +43,15 @@ Role required: workspace\_user
 
 1.  Navigate to a workspace list in your instance.
 
-2.  From the list header, select **Group similar items** \(\[Omitted image "image.list-group-similar-items"\] Alt text: Group similar items button\).
+2.  From the list header, select **Group similar items** \(\[Omitted image "list-group-similar-items.png"\] Alt text: Group similar items button\).
 
     AI-generated groups of similar records are created.
 
-3.  Select the More Actions icon \(\[Omitted image "image.list-group-similar-icon"\] Alt text:\) for a group and **Summarize group**.
+3.  Select the More Actions icon \(\[Omitted image "list-group-similar-icon.png"\] Alt text:\) for a group and **Summarize group**.
 
     An AI-generated summary based on record details opens.
 
-    \[Omitted image "image.list-group-similar-summary"\] Alt text: AI-generated group summary
+    \[Omitted image "list-group-similar-summary.png"\] Alt text: AI-generated group summary
 
 4.  Select **Refine** and select either **Elaborate** or **Shorten** to refine the summary to fit your preferences.
 
@@ -61,7 +61,7 @@ Role required: workspace\_user
 
         A Post to work notes dialog box opens.
 
-        \[Omitted image "image.list-group-similar-post"\] Alt text: Post to work notes dialog box
+        \[Omitted image "list-group-similar-post.png"\] Alt text: Post to work notes dialog box
 
     2.  Review the summary for accuracy and make any necessary edits.
 
@@ -71,6 +71,6 @@ Role required: workspace\_user
 
     5.  Select **Post**.
 
-6.  From the list header, select **Ungroup items** \(\[Omitted image "image.list-ungroup-items"\] Alt text: Ungroup items buttons\) to remove the AI-generated groups.
+6.  From the list header, select **Ungroup items** \(\[Omitted image "list-ungroup-items.png"\] Alt text: Ungroup items buttons\) to remove the AI-generated groups.
 
 

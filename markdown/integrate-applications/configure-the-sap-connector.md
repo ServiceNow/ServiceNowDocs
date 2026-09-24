@@ -3,9 +3,9 @@ title: Configure the SAP connector
 description: Capture one or more SAP application screens, UI elements on the screen, and then expose the methods at the application, screen, or element levels by configuring the SAP connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-the-sap-connector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SAP connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Capture one or more SAP application screens, UI elements on the screen, and then
 
 ## Before you begin
 
-Ensure that the SAP plugin on the RPA Desktop Design Studio is installed. For more information, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+Ensure that the SAP plugin on the RPA Desktop Design Studio is installed. For more information, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-plugins-rpa-studio.md).
 
 Ensure that at least one SAP application window is active or open on your machine.
 
@@ -34,7 +34,7 @@ Role required: none
 
 2.  Drag the SAP connector under the Global Objects in the Project Explorer pane.
 
-    To learn more about how to add the SAP connector, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector.md).
+    To learn more about how to add the SAP connector, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-connector.md).
 
     The SAP Application object is added under the Global Objects.
 
@@ -82,7 +82,7 @@ Role required: none
 
     5.  Use the Capture element dialog to capture one or more SAP application screen elements.
 
-        For more information about how to use the Capture element dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-context-dialog.md).
+        For more information about how to use the Capture element dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-context-dialog.md).
 
     6.  To expose the element-level methods, in the Project Explorer pane, expand the SAP Connector under Global Objects.
 

@@ -3,11 +3,11 @@ title: Update planning item details from Prioritization view
 description: Update the details of your planning items or delete them so that the Prioritization page in Portfolio Planning Workspace reflects the latest work pipeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/modify-planing-item-details-from-prioritization-portfolio-planning-workspace.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
@@ -33,15 +33,15 @@ Update the details of a planning item using the Prioritization and Hierarchy tab
 
 3.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d217051e113">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d217700e113">
 
 Choice
 
-</th><th align="left" id="d217051e116">
+</th><th align="left" id="d217700e116">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d217051e122">
+</th></tr></thead><tbody><tr><td id="d217700e122">
 
 **Update planning item details**
 
@@ -53,9 +53,9 @@ Edit using one of the following ways:
 -   Select the item name to open the full details page.
  The full details page shows the item's related lists such as Milestones, Dependencies, and others.
 
- For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-item-form.md).
+ For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d217051e159">
+</td></tr><tr><td id="d217700e159">
 
 **Attach files to planning item**
 
@@ -63,7 +63,7 @@ Edit using one of the following ways:
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d217051e174">
+</td></tr><tr><td id="d217700e174">
 
 **Delete planning item**
 

@@ -3,9 +3,9 @@ title: Use the GetFileDropList component
 description: Get a list of file names as a string array from the Windows clipboard by using the GetFileDropList component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-clipboard-getfiledroplist.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Clipboard, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Role required: none
 
 A file drop list is a collection of strings that contain the path information for files on the Windows clipboard.
 
-You can configure the properties for the GetFileDropList component. For more information about these properties, see [Properties of the Clipboard components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-clipboard-prop.md).
+You can configure the properties for the GetFileDropList component. For more information about these properties, see [Properties of the Clipboard components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/util-clipboard-prop.md).
 
 ## Procedure
 
@@ -84,5 +84,5 @@ No. Connecting the port is optional.
 </table>4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/clipboard.md)
+**Parent Topic:**[Clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/clipboard.md)
 

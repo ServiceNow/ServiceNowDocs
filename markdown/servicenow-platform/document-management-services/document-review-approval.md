@@ -3,11 +3,11 @@ title: Document approval and publish process
 description: A reviewer approves or rejects the document. A document can have multiple reviewers. During the approval process, the approver approves or rejects the document. A document goes through the approval process after the review process. A document is published after the review and approval process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/document-review-approval.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -59,20 +59,20 @@ After a document has been created and edited, the revision can be submitted for 
 
 If the approval and publishing process is repeated, the published revision is retired when the new revision is published. Any workflows running against previous revisions are canceled when the document is published.
 
--   **[Create a document approval revision rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-doc-approval-rev-rule.md)**  
+-   **[Create a document approval revision rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/create-doc-approval-rev-rule.md)**  
 Create a document approval revision rule for the document review and approval process.
--   **[Add a reviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/add-a-reviewer.md)**  
+-   **[Add a reviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/add-a-reviewer.md)**  
 Add a single or multiple reviewers to the document approval and review rule for document review.
--   **[Add an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/add-an-approver.md)**  
+-   **[Add an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/add-an-approver.md)**  
 Add a single or multiple approvers to the document approval and review rule for document approval.
--   **[Send a document version for review and approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/send-document-for-review.md)**  
+-   **[Send a document version for review and approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/send-document-for-review.md)**  
 Send a document version for review and approval before publishing the document.
--   **[Approve or reject a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/approve-document.md)**  
+-   **[Approve or reject a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/approve-document.md)**  
 Approve or reject a document version after the review process is complete.
--   **[Approve or reject a document version through email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/approve-reject-document-email.md)**  
+-   **[Approve or reject a document version through email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/approve-reject-document-email.md)**  
 Approve or reject a document version request directly from your email.
--   **[Publish a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/publish-a-document.md)**  
+-   **[Publish a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/publish-a-document.md)**  
 Publish a document revision that has been approved.
 
-**Parent Topic:**[Using Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/using-document-management.md)
+**Parent Topic:**[Using Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/using-document-management.md)
 

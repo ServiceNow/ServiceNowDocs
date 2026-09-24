@@ -3,11 +3,11 @@ title: Assign a team member to an account
 description: Assign a team member to an account by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application. When a team member has the Account Manager responsibility, they can view account details and perform actions on behalf of the account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_AssignTeamMemberToAccount.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Creating an account team, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Creating an account team member, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Assign a team member to an account
@@ -71,7 +71,7 @@ Type
 
 </td><td>
 
-Defines the label for the relationship with the selected user. You can select the type from the list of related party configurations.**Note:** Starting with the Yokohama release, the **Type** field is added to the Account Team Member form. For more information on how to populate the **Type** field for existing data, see [Populate the Type field in relationship tables using the fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migration-of-account-manager-responsibility-access.md).
+Defines the label for the relationship with the selected user. You can select the type from the list of related party configurations.**Note:** Starting with the Yokohama release, the **Type** field is added to the Account Team Member form. For more information on how to populate the **Type** field for existing data, see [Populate the Type field in relationship tables using the fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/migration-of-account-manager-responsibility-access.md).
 
 </td></tr><tr><td>
 
@@ -88,6 +88,32 @@ Order
 </td><td>
 
 Specifies the sequence in which records are displayed, organized according to business preferences.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Indicates whether this team membership is currently in effect. **Note:** The default value is set to **True**.
+
+If the active flag is **True**, access is granted through the relationship. However, if the active flag is **False**, no access is granted through the relationship.
+
+</td></tr><tr><td>
+
+Start date
+
+</td><td>
+
+Date when the relationship is set to active.
+
+</td></tr><tr><td>
+
+End date
+
+</td><td>
+
+Date when the relationship ends or is closed.**Note:** If both dates are set, the end date must be later than the start date.
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.

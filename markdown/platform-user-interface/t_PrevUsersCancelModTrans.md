@@ -3,9 +3,9 @@ title: Prevent users from canceling module transactions
 description: You can explicitly prevent users from canceling the activity of a module by updating the module definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_PrevUsersCancelModTrans.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Navigation action cancellation, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  In the **Modules** related list, click the module you want to prevent users from canceling.
 
-3.  [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) layout and add the field **Uncancelable by Other Modules**.
+3.  [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) layout and add the field **Uncancelable by Other Modules**.
 
 4.  Select the check box for **Uncancelable by Other Modules**.
 
@@ -33,7 +33,7 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Navigation action cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CancelingNavigationActions.md)
+**Parent Topic:**[Navigation action cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_CancelingNavigationActions.md)
 
 **Related topics**  
 

@@ -1,26 +1,28 @@
 ---
 title: Manual flow for certificate requests
-description: Certificate renewal requests and incidents are automatically created when certificates are about to expire or have expired. For added flexibility and control, you can also manually create requests using the Service Catalog.
+description: Certificate renewal requests and incidents are automatically created when certificates are about to expire or have expired. You can also manually create requests using the Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/manual-cert-requests.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Manual flow for certificate requests
 
-Certificate renewal requests and incidents are automatically created when certificates are about to expire or have expired. For added flexibility and control, you can also manually create requests using the Service Catalog.
+Certificate renewal requests and incidents are automatically created when certificates are about to expire or have expired. You can also manually create requests using the Service Catalog.
+
+In the manual flow, the request and its approval are recorded on the ServiceNow instance. However, the certificate itself is obtained outside the instance, directly with your certificate authority \(CA\). Use the manual flow when your CA is not covered in the automated flow. For the CAs that are supported, see [Automated certificate management for TLS certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/automated-cert-requests.md).
 
 A scheduled job examines the Unique Certificates \[cmdb\_ci\_certificate\] table on a daily basis and triggers renewal certificate tasks when a certificate is either expired or nearing expiration.
 
 Things to consider for renewal of certificates:
 
--   Tasks for certificate renewals are automatically generated 60 days prior to expiration. To modify the timeframe, update the [Discovery property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md): **glide.discovery.certs.days\_before\_expiration\_to\_create\_renewal\_task**.
+-   Tasks for certificate renewals are automatically generated 60 days prior to expiration. To modify the timeframe, update the [Discovery property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryProperties.md): **glide.discovery.certs.days\_before\_expiration\_to\_create\_renewal\_task**.
 
     **Note:** It's enough to configure the **glide.discovery.certs.days\_before\_expiration\_to\_create\_renewal\_task system property** for the automatic creation of manual certificate tasks. You don’t need to custom configure the **CertificateNotifier** or other prefilters.
 

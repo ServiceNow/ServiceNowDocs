@@ -1,0 +1,43 @@
+---
+title: \(Legacy\) Manage bot messages for Conversational IVR
+description: Edit your custom messages to ensure that your conversations are optimized for Conversational IVR.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/edit-va-ivr-messages.html
+release: brazil
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure Conversational IVR, Configure, Conversational IVR with Amazon Connect, Integrate VA for NLU with voice channels, Virtual Agent channel integrations, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+---
+
+# \(Legacy\) Manage bot messages for Conversational IVR
+
+Edit your custom messages to ensure that your conversations are optimized for Conversational IVR.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings** and select **Virtual Agent** from the Chat Settings tab.
+
+2.  On the Virtual Agent Settings page, navigate to the Configure your interactive voice response \(IVR\) section and click **Configure IVR** under Configure pre-built adapter.
+
+3.  On the Configure interactive voice response page, select **VA Amazon Connect Adapter Provider** from the Select IVR service provider drop-down.
+
+4.  Under Provider Channel Identities, select the identity provider that you want to edit the custom messages for.
+
+5.  Under Review and edit your virtual agent messages section, click **Review VA messages**.
+
+    Additionally, you can also select the **Manage** button in the VA Messages column against the identity provider.
+
+    \[Omitted image "manage-ivr-mesgs.png"\] Alt text: Select Manage to edit your custom messages for the provider Channel identity.
+
+6.  On the Custom virtual agent messages page, select the custom message that you want to update.
+
+7.  Edit the **Value** for the message and click **Update**.
+
+
+**Parent Topic:**[\(Legacy\) Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-va-ivr.md)
+

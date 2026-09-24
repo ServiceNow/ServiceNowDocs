@@ -3,11 +3,11 @@ title: Transfer a map segment into another application service
 description: You can remove a branch of a service and place it into another application service, either new or existing. Transfer map segments to split large services or when you want to organize services differently from the initial mapping result.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/add-segment-to-business-service-map.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Fine-tune application services to implement owner requests, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -78,7 +78,7 @@ If you use Event Management for service monitoring in your organization, depende
         |-----|-----------|
         |Name|Enter the service instance name. This name must be unique. Use self-explanatory names such as `mailing service` or `printing service`.|
         |Group|\(Optional\) Restrict access to a service instance by adding it to an service instance group. Users must then have the service group role to access the service instance.|
-        |Criticality|\(Optional\) Select the option that reflects how important this service instance is to your organization operation. For more information about service instance criticality, see [Define criticality for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/define-criticality-for-business-services.md).|
+        |Criticality|\(Optional\) Select the option that reflects how important this service instance is to your organization operation. For more information about service instance criticality, see [Define criticality for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/define-criticality-for-business-services.md).|
 
     3.  Click **Create**.
 
@@ -117,14 +117,14 @@ To revert this operation:
     The map is refreshed and displays the segment of the service instance.
 
 
-**Parent Topic:**[Fine-tune application services to implement owner requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/review-implement-business-service-maps.md)
+**Parent Topic:**[Fine-tune application services to implement owner requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/review-implement-business-service-maps.md)
 
 **Related topics**  
 
 
-[View dependent application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-linked-services.md)
+[View dependent application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/view-linked-services.md)
 
-[View contained application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-contained-services.md)
+[View contained application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/view-contained-services.md)
 
-[Control user access to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/control-user-access-to-business-services.md)
+[Control user access to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/control-user-access-to-business-services.md)
 

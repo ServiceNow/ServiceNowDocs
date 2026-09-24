@@ -3,9 +3,9 @@ title: Configure custom menus for Unified Navigation
 description: Create custom menus in the Next Experience Unified Navigation that contain just what the users need to increase productivity and efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-custom-menu.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [custom menu, unified navigation menu]
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -102,5 +102,5 @@ Order that the menu item appears in the menu list.
     The new menu is displayed. If it does not appear, ensure that active is marked and then refresh your instance.
 
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-ui-admin.md)
 

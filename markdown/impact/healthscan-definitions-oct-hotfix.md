@@ -3,9 +3,9 @@ title: HealthScan definitions updates: October 2024 hotfix
 description: Some HealthScan definitions are deprecated or updated between releases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/healthscan-definitions-oct-hotfix.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -84,5 +84,5 @@ User Experience
 -   Limited to a max of 1000 findings
 
 </td></tr></tbody>
-</table>**Parent Topic:**[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/healthscan-definitions.md)
+</table>**Parent Topic:**[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/healthscan-definitions.md)
 

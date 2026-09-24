@@ -3,13 +3,13 @@ title: Using AI Data Kit
 description: Use AI Data Kit to add datasets to a data catalog to create collections for use in ServiceNow SDK.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/using-now-assist-data-kit.html
-release: australia
+release: brazil
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Data Kit, Enable AI experiences]
+breadcrumb: [AI Data Kit, Managing data for AI, Enable AI Experiences]
 ---
 
 # Using AI Data Kit
@@ -18,15 +18,15 @@ Use AI Data Kit to add datasets to a data catalog to create collections for use 
 
 ## Overview of AI Data Kit
 
-\[Omitted image "na-data-kit-infographic.png"\] Alt text: Now Assist Data kit workflow
+\[Omitted image "na-data-kit-infographic.png"\] Alt text: AI Data Kit workflow
 
-1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
+1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 
-    Create a custom skill for Now Assist. Creating a custom skill enables you to have greater flexibility with the Now Assist generative AI capabilities.
+    Create a custom skill for ServiceNow Otto. Creating a custom skill enables you to have greater flexibility with the ServiceNow Otto generative AI capabilities.
 
-2.  [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
+2.  [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
 
     Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the administrator can find the skill in AI Admin Hub.
 
-3.  Navigate to **Now Assist Data Kit** to [Add a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/add-dataset.md).
+3.  Navigate to **AI Data Kit** to [Add a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/add-dataset.md).
 

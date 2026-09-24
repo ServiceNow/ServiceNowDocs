@@ -3,11 +3,11 @@ title: My incidents
 description: Use the My incidents applet to work on the incidents that are assigned to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/assigned-incidents-mobile.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
@@ -30,7 +30,7 @@ Resolve, reassign the incident, or add comments to an incident assigned to you. 
 
     The **Assigned Incidents** screen opens with a list of incidents.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Assigned incidents** screen with the list of incidents, swipe left on an incident to open the menu.
 
@@ -63,7 +63,7 @@ DETAILS tab
 </td><td>
 
 Choose one to continue. -   View the fields for details about the incident. The fields with an arrow have additional information.
--   At the top right of the screen, tap the menu icon \[Omitted image "mobile-top-menu.png"\] Alt text: mobile top menu to reassign, edit, or propose the incident as a major incident.
+-   At the top right of the screen, tap the menu icon \[Omitted image "mobile-top-menu.png"\] Alt text: mobile top menu icon to reassign, edit, or propose the incident as a major incident.
 -   Add any additional comments using the **Add comments** button.
 -   Resolve the incident after adding a resolution code and notes using the **Resolve** button.
 

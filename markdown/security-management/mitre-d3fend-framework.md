@@ -3,9 +3,9 @@ title: MITRE D3FEND framework
 description: MITRE D3FEND is a knowledge graph of cybersecurity countermeasure techniques that complements the MITRE-ATT&amp;CK framework by providing defensive techniques.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/mitre-d3fend-framework.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

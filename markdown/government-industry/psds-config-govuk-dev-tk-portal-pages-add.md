@@ -3,7 +3,7 @@ title: Add a page to the GOV.UK Design System Service Portal
 description: Add a page in the GDS Service Portal, to which you can add any combination of GDS-compliant portal widgets from the GOV.UK Developer Toolkit widget library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-pages-add.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-06-12"
 reading_time_minutes: 1
@@ -33,7 +33,7 @@ Role required: admin or sp\_admin
 
 ## Result
 
-The page is created in the Service Portal Designer and is added to the GDS Service Portal. It can be configured using any number of widgets or other components designed for use with this portal. For a list of widgets and other page components included with the GOV.UK Developer Toolkit and GDS Service Portal, see [GOV.UK Design System Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md).
+The page is created in the Service Portal Designer and is added to the GDS Service Portal. It can be configured using any number of widgets or other components designed for use with this portal. For a list of widgets and other page components included with the GOV.UK Developer Toolkit and GDS Service Portal, see [GOV.UK Design System Service Portal Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-widget-lib.md).
 
 This page can also be added to other portals using Service Portal Configuration.
 

@@ -3,11 +3,11 @@ title: Install and configure Microsoft Defender for EDR Integration
 description: Install and configure the Microsoft Defender for EDR integration from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-ms-defender-configure.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Microsoft Defender for EDR integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -29,7 +29,7 @@ Role required: sn\_sec\_tisc.admin
 
 2.  Using your instance, access **Threat Intelligence Security Center**.
 
-3.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+3.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md).
 
 4.  Select **Integrations** &gt; **Security Tools** &gt; **EDR**.
 
@@ -183,7 +183,7 @@ The expiry period in days that are applied for the Hash type of observable when 
 
 ## Result
 
-After the integration is configured, you can select any type of observable that supports Microsoft Defender EDR from Threat Intel Library, you can then send observables to EDR. For more information, see [Send observables to EDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ms-defend-edr.md).
+After the integration is configured, you can select any type of observable that supports Microsoft Defender EDR from Threat Intel Library, you can then send observables to EDR. For more information, see [Send observables to EDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-ms-defend-edr.md).
 
-**Parent Topic:**[Microsoft Defender for EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ms-defender-integration.md)
+**Parent Topic:**[Microsoft Defender for EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-ms-defender-integration.md)
 

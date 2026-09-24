@@ -3,9 +3,9 @@ title: Predictive Intelligence for defining work order solutions
 description: Use your instance records to build solutions to Field Service Management issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/predictive-intelligence-fsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Predictive Intelligence for Field Service Management, FSM reports and analytics, Configure, Field Service Management]
 ---
@@ -16,7 +16,7 @@ Use your instance records to build solutions to Field Service Management issues.
 
 ## Solution definitions
 
-Solution definitions are available as templates on instances where both Predictive Intelligence and Field Service Management are active. For more information about solution definitions and their types, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md). You can also create your own solution definition records.
+Solution definitions are available as templates on instances where both Predictive Intelligence and Field Service Management are active. For more information about solution definitions and their types, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence.md). You can also create your own solution definition records.
 
 |Solution Definition|Solution Type|Description|
 |-------------------|-------------|-----------|

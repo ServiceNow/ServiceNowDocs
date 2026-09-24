@@ -3,11 +3,11 @@ title: Dashboards
 description: Dashboards provide insights into the productivity gains, costs, and net returns of the AI systems within your enterprise. There are distinct dashboards for reporting on vendors and ServiceNow AI, ensuring that enterprise-wide metrics remain separate from those specific to ServiceNow AI systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/md-dashboards.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Dashboards

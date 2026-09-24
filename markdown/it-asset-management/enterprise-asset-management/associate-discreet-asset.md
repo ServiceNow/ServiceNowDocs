@@ -3,11 +3,11 @@ title: Associate a discrete asset to a linear asset
 description: Associate a discrete asset to a linear asset in order to query and find these assets from the linear asset at a later point of time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/associate-discreet-asset.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_ql4_db4_sxb"><thead><tr><th align="left" id="d333413e89">
+<table id="choicetable_ql4_db4_sxb"><thead><tr><th align="left" id="d337253e89">
 
 Field
 
-</th><th align="left" id="d333413e92">
+</th><th align="left" id="d337253e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d333413e98">
+</th></tr></thead><tbody><tr><td id="d337253e98">
 
 **Discrete asset**
 
@@ -48,7 +48,7 @@ Description
 
 Name of the discrete asset.
 
-</td></tr><tr><td id="d333413e107">
+</td></tr><tr><td id="d337253e107">
 
 **Linear asset**
 
@@ -56,7 +56,7 @@ Name of the discrete asset.
 
 Name of the linear asset that the discrete asset is associated to.
 
-</td></tr><tr><td id="d333413e116">
+</td></tr><tr><td id="d337253e116">
 
 **Marker**
 
@@ -64,7 +64,7 @@ Name of the linear asset that the discrete asset is associated to.
 
 Marker of the discrete asset. You can either select an existing marker or select the location picker to create a marker. Marker must be within the linear asset boundary, which is defined by the boundary width of the linear asset.
 
-</td></tr><tr><td id="d333413e127">
+</td></tr><tr><td id="d337253e127">
 
 **Description**
 
@@ -76,5 +76,5 @@ Description of the discrete asset.
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

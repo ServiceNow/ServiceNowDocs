@@ -3,11 +3,11 @@ title: Control objectives form
 description: Use the control objectives form to capture all the information that you need to associate a control objective with a question using the Third-party Risk Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-control-objective-form.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Add a control objective, TPRM with Policy and Compliance Management, Integrate, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -190,10 +190,10 @@ Functional domain
 Functional domain for the control objective.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md)
+</table>**Parent Topic:**[Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md)
 
 **Related topics**  
 
 
-[Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md)
+[Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md)
 

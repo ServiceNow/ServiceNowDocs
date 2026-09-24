@@ -3,11 +3,11 @@ title: Show or hide off shift agents from the calendar in Dispatcher Workspace
 description: Choose to show only agents that are on shift so it’s easier to view who’s available when you assign work order tasks. You can also choose to show all the agents to see everyone that's on and off shift.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/hide-off-shift-agents.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Choose to show only agents that are on shift so it’s easier to view who’s av
 
 ## About this task
 
-By default the hide off shift agents icon shows on the calendar in Dispatcher Workspace for up to seven days in the future. Contact your administrator to configure the hide off shift agents button to show for longer than seven days. For more information, see [Change the number of days that dispatchers can hide off shift agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/change-hide-off-shift.md).
+By default the hide off shift agents icon shows on the calendar in Dispatcher Workspace for up to seven days in the future. Contact your administrator to configure the hide off shift agents button to show for longer than seven days. For more information, see [Change the number of days that dispatchers can hide off shift agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/change-hide-off-shift.md).
 
 Contractors, crews, and equipment aren’t hidden with the hide off shift agents button.
 

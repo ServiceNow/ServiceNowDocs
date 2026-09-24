@@ -3,11 +3,11 @@ title: Navigation Assistant AI voice agent
 description: The Navigation Assistant AI voice agent provides employees with verbal, step-by-step guidance for HR self-service tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/navigation-assistant-ai-voice-agent.html
-release: australia
+release: brazil
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR AI voice agents, Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -35,7 +35,7 @@ To maintain accuracy, the Navigation Assistant utilizes Knowledge Base articles 
 For the Navigation Assistant to perform at an optimal level, content creators should follow these standards when drafting or updating HR Knowledge Base articles:
 
 -   **Explicit Step Sequencing:** All procedural content must be presented in a numbered list format. Bulleted lists are not supported for step-by-step guidance, as the agent relies on numerical sequencing to maintain the flow of the verbal interaction.
--   **Descriptive Titling:** Article titles must be highly descriptive and keyword-rich. This ensures the agent can accurately identify and retrieve the most relevant article in response to a specific employee query.
+-   **Descriptive Titling:** Article titles must be descriptive and keyword-rich to help the agent identify and retrieve the most relevant article for employee queries.
 -   **Plain Text:** Articles must avoid the use of special characters, including currency symbols \(e.g., use "USD" or "dollars" instead of "$"\). Special characters can lead to unpredictable verbalization by the AI voice engine.
--   **Verbatim Verbalization:** The agent provides a direct verbal read-out of the text. It will not perform summarization. Content creators must ensure that articles are concise and free of redundant or repetitive information, as the agent will verbalize every word as written.
+-   **Verbatim Verbalization:** The agent provides a direct verbal read-out of the text. It will not perform summarization. Content creators must verify that the articles are concise and free of redundant or repetitive information, as the agent will verbalize every word as written.
 

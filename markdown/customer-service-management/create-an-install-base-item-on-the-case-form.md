@@ -1,16 +1,16 @@
 ---
-title: Create a case for a new install base item
+title: Create a case for install base items
 description: Create a case for a new install base item by using the case form in the CSM Agent Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-an-install-base-item-on-the-case-form.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case form, Customer Service forms, Reference, Customer Service Management]
 ---
 
-# Create a case for a new install base item
+# Create a case for install base items
 
 Create a case for a new install base item by using the case form in the CSM Agent Workspace.
 
@@ -28,7 +28,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice.consumer\_agent
 
 4.  Perform one of the following actions before selecting an install base item on the Create Case form.
 
-    For a description of the field values, see [Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-task-form.md).
+    For a description of the field values, see [Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-task-form.md).
 
     |Field|Action|
     |-----|------|
@@ -36,7 +36,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice.consumer\_agent
     |**Consumer**|Select a consumer that has to be associated with the install base.|
     |**Install base**|Select an install base item to automatically fill in the relevant details from the install base form.|
 
-5.  Next to the **Install Base** field, select the search icon \[Omitted image "search\_icon.png"\] Alt text: Search icon., and then select the install bases from the pop-up window.
+5.  Next to the **Install Base** field, select the search icon \[Omitted image "search\_icon.png"\] Alt text: Search icon, and then select the install bases from the pop-up window.
 
     The pop-up window displays only the list of install base items that are related to the selected account or consumer.
 

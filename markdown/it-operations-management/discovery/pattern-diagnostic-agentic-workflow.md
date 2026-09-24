@@ -3,11 +3,11 @@ title: Pattern diagnostic agentic workflow
 description: The Pattern diagnostic agentic workflow helps Discovery administrators investigate missing CI attributes. It identifies the gap, parses discovery logs, identifies the root cause, and suggests remediation — without manually navigating log files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/pattern-diagnostic-agentic-workflow.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Discovery, agentic workflow, Now Assist, pattern diagnostic, missing attribute, CMDB, data quality]
 breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -21,7 +21,7 @@ When Discovery runs, it populates CI attributes in the CMDB using both probe-bas
 
 ## Requirements
 
-ServiceNow Otto for IT Operations Management \(ITOM\) must be installed on your instance. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+ServiceNow Otto for IT Operations Management \(ITOM\) must be installed on your instance. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-now-assist-itom.md).
 
 The Discovery and Service Mapping plugin \(com.snc.discovery\) must be active for this workflow to be available.
 
@@ -39,7 +39,7 @@ The workflow is available as a pill in the ServiceNow Otto panel in Discovery Ad
 
 The **glide.discovery.save\_pattern\_log** property controls whether pattern logs are saved after successful pattern execution. By default, this property is set to true, which saves all pattern logs.
 
-If this property is set to false, successful pattern logs are not saved. This can prevent the Pattern diagnostic agentic workflow from performing missing attribute analysis in cases where the attribute is not failing the pattern. Verify that this property is set to true to enable complete analysis. For information about configuring this property, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md).
+If this property is set to false, successful pattern logs are not saved. This can prevent the Pattern diagnostic agentic workflow from performing missing attribute analysis in cases where the attribute is not failing the pattern. Verify that this property is set to true to enable complete analysis. For information about configuring this property, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryProperties.md).
 
 ## Pattern diagnostic agentic workflow overview
 

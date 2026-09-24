@@ -3,11 +3,11 @@ title: Tables installed with Governance, Risk, and Compliance
 description: Tables are added with activation of GRC plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/tables-installed-with-grc.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [GRC reference, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -177,5 +177,5 @@ Indicator Supporting Data Statistics \[sn\_grc\_indicator\_supporting\_data\_sta
 Stores statistics of indicators for collecting supporting data, which is leveraged by the supporting data collection job.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-reference.md)
+</table>**Parent Topic:**[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-reference.md)
 

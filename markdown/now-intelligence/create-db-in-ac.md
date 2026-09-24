@@ -3,10 +3,10 @@ title: Create a dashboard with the in-line editor
 description: In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can create elements and add existing elements from the inline editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-db-in-ac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -28,29 +28,33 @@ Role required: Any user with an internal role can create dashboards with the inl
 
 2.  Select **Create new dashboard**.
 
-3.  Select the **inline editor** tile and give the dashboard a name and a description.
+3.  Select the **In-line editor** tile and give the dashboard a name and a description.
 
-    If you want to use scripting, data binding, and other advanced capabilities, select the **Technical editor** tile to continue in UI Builder. This editor is available only to users who can access UI Builder \(ui\_builder\_admin role\). If you do not have this role, go to step 6. For more information about the technical editor, see [Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md).
-
-4.  Select **Create new dashboard**.
+    If you want to use scripting, data binding, and other advanced capabilities, select the **Technical editor** tile to continue in UI Builder. This editor is available only to users who can access UI Builder \(ui\_builder\_admin role\). If you do not have this role, go to step 6. For more information about the technical editor, see [Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/technical-dashboards.md).
 
     \[Omitted image "create-new-inline-ed-db-modal.png"\] Alt text: Create new inline dashboard modal
 
-5.  Choose **inline editor**.
+4.  Select **Create new dashboard**.
 
-    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. Creating dashboards in UI Builder is recommended for developers. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)and [Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-tech-db-in-ac.md).
+    On migrated instances, you have the choice to create the dashboard in Next Experience or in Core UI if you require legacy features. See [Create or configure a responsive dashboard in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CreateADashboard.md).
+
+    \[Omitted image "create-core-ui-db-from-library.png"\] Alt text: Create new Core UI dashboard on migrated instance
+
+5.  Choose **In-line editor**.
+
+    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. Creating dashboards in UI Builder is recommended for developers. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md) and [Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-tech-db-in-ac.md).
 
 6.  Give the dashboard a meaningful name and description.
 
-7.  Select **Add new element** to add content to the dashboard.
+7.  In the Dashboard Designer, select **Add new element** to add content to the dashboard.
 
-    See [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ac-elements.md) for information about what you can add to a dashboard.
+    See [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ac-elements.md) for information about what you can add to a dashboard.
 
     When you add a data visualization, select **New data visualization** to create a visualization from scratch or **Saved data visualization** to choose one from the library. When you add a filter, select **New filter** to create the filter without preconfigured data or **Saved filter** to reuse an existing filter.
 
     \[Omitted image "add-dv-modal.png"\] Alt text: Add data visualization dialogue box with options to add a New data visualization or a Saved data visualization
 
-8.  Select the information icon \(\[Omitted image "icon-info.png"\] Alt text: information icon\) to open the Details panel and provide a name and description for your dashboard.
+8.  Select the information icon \[Omitted image "icon-info.png"\] Alt text: information icon to open the Details panel and provide a name and description for your dashboard.
 
 9.  Arrange the data on the canvas to make it useful.
 
@@ -65,13 +69,15 @@ Role required: Any user with an internal role can create dashboards with the inl
 
 ## What to do next
 
--   [Edit in-line Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-elements-in-ac.md)
--   [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-db-in-ac.md)
+-   [Edit in-line Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-elements-in-ac.md)
+-   [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/config-db-in-ac.md)
 
-**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

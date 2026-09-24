@@ -3,11 +3,11 @@ title: PostgreSQL metrics
 description: The following tables list and describe the metrics that are gathered as output from the specified PostgreSQL checks. Entries indicated as Featured metrics are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/postgresql-metrics.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [ACC-M default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -110,7 +110,7 @@ pgsql.statsbgwriter.buffers\_backend\_fsync
 
 </td><td>
 
-Provides metrics related to the number of times a backend executed its own fsync call. Normally the background writer handles these calls.
+Provides metrics related to the number of times a backend had to execute its own fsync call. Normally the background writer handles these calls, even when the backend performs its own write.
 
 </td></tr><tr><td>
 
@@ -400,5 +400,5 @@ Provides metrics related to the number of disk blocks read from this table's TOA
 |pgsql.statstable.seq\_scan|Provides metrics related to the number of sequential scans initiated on this table.|
 |pgsql.statstable.seq\_tup\_read|Provides metrics related to the number of live rows fetched by sequential scans.|
 
-**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
+**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

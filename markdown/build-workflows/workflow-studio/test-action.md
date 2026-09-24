@@ -3,11 +3,11 @@ title: Test an action
 description: Test an action before publishing it for other users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/test-action.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ Test an action before publishing it for other users.
 
 ## Before you begin
 
--   [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md) and save it.
+-   [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-action.md) and save it.
 -   Role required: flow\_designer, flow\_operator, action\_designer, or admin.
 
 ## About this task
@@ -48,9 +48,9 @@ A user with the flow\_designer role should always test actions on non-production
 
 ## What to do next
 
-Click `Action has been executed. To view the action, click here` to view the action execution details. See [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md) for information about the executions.
+Click `Action has been executed. To view the action, click here` to view the action execution details. See [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-execution-details.md) for information about the executions.
 
 **Note:** Users must have the flow\_operator or admin role to view the executions.
 
-**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md)
+**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-action.md)
 

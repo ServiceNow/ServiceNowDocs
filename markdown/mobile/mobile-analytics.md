@@ -3,9 +3,9 @@ title: Usage Insights for mobile applications
 description: Usage Insights helps you understand usage and adoption of your mobile applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-analytics.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Building mobile apps, Mobile Platform]
 ---
@@ -40,5 +40,5 @@ There are two mobile applications with the primary difference being the personas
 **Related topics**  
 
 
-[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)
+[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/user-exp-analytics-landing.md)
 

@@ -3,11 +3,11 @@ title: Configure custom AI-based Article Optimization scans
 description: The Out-of-Box \(OOB\) Knowledge Center settings provide default configurations for article optimization scans. However, you can customize scans for article optimization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/configure-custom-ai-based-AO-scans.html
-release: australia
+release: brazil
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,7 +47,7 @@ Configure Article Optimization scans for articles in the Knowledge Center. Two t
             **Note:** the scan must still be associated with a job in order to run but the job schedule will not control when this scan runs.
 
         -   **Always:**If you want the scan to run based on the schedule set up in the associated job.
-    2.  Set the **Execution type** to **AI skill**.
+    2.  Set the **Execution type** to **Now Assist skill**.
 
     3.  Select the **Look-up** icon and open the **List filter**.
 
@@ -61,7 +61,7 @@ Configure Article Optimization scans for articles in the Knowledge Center. Two t
 
     **Note:**
 
-    -   Using a copy of an existing scan can come in handy as this specific format has to be used for sending data to the LLM service and processing the results.
+    -   Using a copy of an existing scan can come in handy as this specific format has to be used for sending data to the Now LLM Service and processing the results.
     -   The last part of the **Process Outputs** script is used to define the finding record and what appears on the **Article Optimization** cards in the editor UI.
 5.  Select **Save**.
 
@@ -72,16 +72,16 @@ The Article Optimization scan is custom configured.
 
 ## What to do next
 
-To run the scan, you must add the configured scan to a job. For more information see, [Configure Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuring-article-optimization-jobs.md).
+To run the scan, you must add the configured scan to a job. For more information see, [Configure Article Optimization jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuring-article-optimization-jobs.md).
 
-**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 
 **Related topics**  
 
 
-[Configuring custom script based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Configuring custom script based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
-[Configure Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
+[Configure Article Optimization skill and prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.md)
 
-[Activate the Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
+[Activate the Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
 

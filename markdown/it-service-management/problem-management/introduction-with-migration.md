@@ -3,11 +3,11 @@ title: Introducing activities for migration
 description: The Introduction activity helps you to understand the purpose of the migration utility.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/introduction-with-migration.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration Utility, Configuring Problem Management, Problem Management, IT Service Management]
 ---

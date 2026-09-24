@@ -3,9 +3,9 @@ title: Creating multiple consumer profiles for a user
 description: The concept of consumer profiles refers to the idea that an individual can have multiple profiles associated with them. For example, a consumer might have a patient profile in Healthcare and Life Sciences and simultaneously have a constituent profile in Public Sector Digital Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/consumer-profiles-configuration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure consumers, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

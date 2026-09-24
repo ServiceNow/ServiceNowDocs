@@ -3,9 +3,9 @@ title: Properties of the Credentials components
 description: To set the properties of a Credentials component, double-click a component and enter the values in the Properties pane.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/credentials-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Credentials, RPA Hub, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -21,5 +21,5 @@ To set the properties of a Credentials component, double-click a component and e
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/credentials.md)
+**Parent Topic:**[Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/credentials.md)
 

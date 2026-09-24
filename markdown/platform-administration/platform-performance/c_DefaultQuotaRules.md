@@ -3,11 +3,11 @@ title: Default quota rules
 description: Various transaction quota rules are available in the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/c\_DefaultQuotaRules.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -67,7 +67,7 @@ Various transaction quota rules are available in the base system.
 
 ## Normal transaction activities
 
-Before setting transaction quotas, navigate to **User Administration** &gt; **Active Transactions** to review the normal transaction activities for your instance. You can [view and terminate long-running transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/t_ViewAndKillAnActiveTransaction.md) if necessary. Over time, you can determine the normal transaction load for your instance and set your quotas to match these norms.
+Before setting transaction quotas, navigate to **User Administration** &gt; **Active Transactions** to review the normal transaction activities for your instance. You can [view and terminate long-running transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/t_ViewAndKillAnActiveTransaction.md) if necessary. Over time, you can determine the normal transaction load for your instance and set your quotas to match these norms.
 
-**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
+**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/platform-performance-references.md)
 

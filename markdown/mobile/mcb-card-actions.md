@@ -3,9 +3,9 @@ title: Card actions in Mobile Card Builder
 description: Design and add actions to cards that you create within the Mobile Card Builder. You can use buttons to enable your users to perform actions directly within a card. For example, to accept or reject suggestions, call listed contacts, and to add items to a cart.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mcb-card-actions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile Card Builder, Building tools, Building mobile apps, Mobile Platform]
 ---

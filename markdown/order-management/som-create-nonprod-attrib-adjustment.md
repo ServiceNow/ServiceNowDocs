@@ -3,9 +3,9 @@ title: Create a non-product attribute pricing adjustment
 description: Create a pricing adjustment for a product offering based on non-product characteristics, such as billing state or shipping zip code. You use the Standard Price Adjustment Matrix to define the pricing adjustment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-nonprod-attrib-adjustment.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 Non-product attributes are represented as context variables, which identify non-product characteristics, such as billing state or shipping zip code. Pricing Management provides a set of default context variables for non-product attributes. You can view the list of context variables for non-product attributes in the **Context variables** field in the Standard Price Adjustment Rule Matrix. You can also review a list of system-defined context variables in the Context Variables \[sn\_csm\_ctxrul\_mgt\_context\_variable\] table.
 
-However, if you have a non-product attribute that is not available as a default context variable, such as sales channel, your system administrator can [create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-context-variable.md) for that attribute. You can then use the custom context variable as an input in the decision table for the Standard Price Adjustment Matrix.
+However, if you have a non-product attribute that is not available as a default context variable, such as sales channel, your system administrator can [create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-context-variable.md) for that attribute. You can then use the custom context variable as an input in the decision table for the Standard Price Adjustment Matrix.
 
 ## Procedure
 

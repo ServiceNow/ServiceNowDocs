@@ -3,9 +3,9 @@ title: Customize a guidance preview experience in the UI Builder
 description: Customize a preview of a Recommended Actions card that displays in the contextual side panel using UI Builder. The preview experience includes a hint, an icon, a message, and an action button.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-ra-preview-experience.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Creating guidance and field recommendation in Recommended Actions, Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -107,11 +107,11 @@ You begin by creating a UI page variant of a guidance preview experience. When y
 
 4.  Select **Edit preview in UI Builder**.
 
-    The UI page variant opens in UI Builder, where you can add and configure components to customize the look and feel of the preview experience. For more information, see [Working with components in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md).
+    The UI page variant opens in UI Builder, where you can add and configure components to customize the look and feel of the preview experience. For more information, see [Working with components in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-components.md).
 
 5.  Bind the preview experience properties to your preview UI.
 
-    Data bindings are in the **Config** tab of the configuration panel in UI Builder. For more information, see [Data resources in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/data-resources.md).
+    Data bindings are in the **Config** tab of the configuration panel in UI Builder. For more information, see [Data resources in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/data-resources.md).
 
 6.  Add and bind scripts to components in your preview UI to dispatch events by using an event handler to execute or skip a recommendation with a corresponding payload.
 
@@ -229,6 +229,6 @@ api.emit(LOG_SEARCH_RESULT_EVENT, {actionData: {actionName: actionId}})
 ```
 
 </td></tr></tbody>
-</table>    For more information, see [Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/define-client-scripts.md).
+</table>    For more information, see [Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/define-client-scripts.md).
 
 

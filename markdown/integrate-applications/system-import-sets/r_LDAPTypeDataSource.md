@@ -3,11 +3,11 @@ title: LDAP type data source
 description: An LDAP data source is automatically created when you configure your instance to integrate with LDAP.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_LDAPTypeDataSource.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -45,9 +45,9 @@ In this example, the LDAP server **Query field** is **preferredIdentity**. The i
 **Related topics**  
 
 
-[LDAP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_LDAPIntegration.md)
+[LDAP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_LDAPIntegration.md)
 
-[Specify LDAP attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_SpecifyLDAPAttributes.md)
+[Specify LDAP attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_SpecifyLDAPAttributes.md)
 
-[Define LDAP organizational units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_DefineLDAPOrganizationalUnits.md)
+[Define LDAP organizational units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_DefineLDAPOrganizationalUnits.md)
 

@@ -3,9 +3,9 @@ title: Account onboarding knowledge base
 description: Several knowledge base articles are provided for account onboarding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-knowledge-base.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Account onboarding, Use, Customer Success Management]
 ---
@@ -30,5 +30,5 @@ Navigate to **All** &gt; **Knowledge** &gt; **Administration** &gt; **Knowledge 
 
 **Note:** All customers can view these knowledge base articles. If you want to restrict, access to an article, navigate to the article and in the Cannot Read field, select the user role who won’t be able to access the article.
 
-**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use.md)
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use.md)
 

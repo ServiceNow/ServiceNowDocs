@@ -3,11 +3,11 @@ title: Configure LDAP connection monitoring
 description: Change or disable LDAP connection monitoring and notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_ConfigureLDAPConnectionMonitoring.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LDAP integration via MID Server, LDAP integration setup, LDAP integration, Authentication, Access Management]
 ---

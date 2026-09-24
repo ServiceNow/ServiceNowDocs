@@ -3,11 +3,11 @@ title: RMF steps 4, 5, and 6 - Assess, authorize, and monitor
 description: After you have implemented controls, you can assess internal and external controls, generate Plans of Action and Milestones \(POA&amp;M\), and manage change requests and vulnerable items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.html
-release: australia
+release: brazil
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -62,7 +62,7 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
 5.  Select the **Test plans** tab.
 
-    Test plans are automatically created for the control. For more information on test plans, see [Generate assessment procedure plans for a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-assess-controls-assess-obj.md).
+    Test plans are automatically created for the control. For more information on test plans, see [Generate assessment procedure plans for a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-assess-controls-assess-obj.md).
 
 6.  Select the **Control tests** tab to view the tasks for assessing the controls.
 
@@ -70,7 +70,7 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
     \[Omitted image "cam-control-tests.png"\] Alt text: Control tests tab.
 
-    For more information on test plans, see [Determine control effectiveness of a control test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-control-effectiveness-control-test.md).
+    For more information on test plans, see [Determine control effectiveness of a control test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-control-effectiveness-control-test.md).
 
     1.  Select a control test.
 
@@ -86,7 +86,7 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
 7.  In the Default view, select an audit task and perform the Design Test and Operation Test to judge the control's effectiveness.
 
-    For details on this process, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md).
+    For details on this process, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/c_Engagements.md).
 
     **Note:** Any issues that arise during the Assess phase appear in the **POA&amp;M** tab. Additionally, any open Change Requests or Vulnerable Items targeting the system elements in the package appear under those tabs.
 
@@ -94,7 +94,7 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
 9.  When the review is complete, select **Authorize**.
 
-    **Note:** In the Monitor state, continuous monitoring is achievable if you have indicators. If not, you can manually review the controls. For more information, see [Manage control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-indicators-policy-comp.md).
+    **Note:** In the Monitor state, continuous monitoring is achievable if you have indicators. If not, you can manually review the controls. For more information, see [Manage control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/manage-indicators-policy-comp.md).
 
     You can select **Generate Report\(s\)** to generate a FedRAMP System Security Plan \(SSP\) document for the authorization package in PDF format.
 

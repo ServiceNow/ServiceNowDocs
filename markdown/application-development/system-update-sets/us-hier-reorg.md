@@ -3,11 +3,11 @@ title: Reorganize a batch of update sets
 description: You can remove an individual update set from the batch or change its parent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/us-hier-reorg.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with batched update sets, System update sets, Deploying applications, Building applications]
 ---
@@ -35,5 +35,5 @@ Role required: admin
     The system returns to the list of updated sets. If the batch base column is visible, it shows the parent for the newly created child.
 
 
-**Parent Topic:**[Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/us-hier-overview.md)
+**Parent Topic:**[Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/us-hier-overview.md)
 

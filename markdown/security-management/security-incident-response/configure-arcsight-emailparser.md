@@ -3,11 +3,11 @@ title: Configure HPE Security ArcSight ESM - Email Parser integration
 description: HPE Security ArcSight ESM - Email Parser integration uses email notifications from ESM to drive enrichment, and response workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-arcsight-emailparser.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HPE Security ArcSight ESM - Email Parser integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -36,7 +36,7 @@ An HPE Security ArcSight ESM - Email Parser template is provided to use for the 
 
 4.  Select the **ArcSight ESM** link to edit the settings in the template email parser provided.
 
-    At a minimum, fill in the `Email is from` field. To create you own email parser, see [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/parsing-emails.md).
+    At a minimum, fill in the `Email is from` field. To create you own email parser, see [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/parsing-emails.md).
 
 5.  Check the **Active** box.
 

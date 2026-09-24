@@ -3,11 +3,11 @@ title: Edit a Git repository configuration in ServiceNow Studio
 description: Edit a Git repository configuration in ServiceNow Studio to update the network protocol, credentials, or other connection details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-edit-git-repo-configuration.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -88,7 +88,7 @@ Credential
 
 </td><td>
 
-The saved credentials to use for the source control connection. All application developers on the instance share a single set of credentials per repository. For more information about working with credentials, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).
+The saved credentials to use for the source control connection. All application developers on the instance share a single set of credentials per repository. For more information about working with credentials, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md).
 
 </td></tr></tbody>
 </table>    \[Omitted image "aes-app-properties-repo-purple.png"\] Alt text: View and edit application repository configurations.
@@ -98,5 +98,5 @@ The saved credentials to use for the source control connection. All application 
     The repository configuration is updated and the new settings apply to all future source control operations for this application.
 
 
-**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+**Parent Topic:**[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
 

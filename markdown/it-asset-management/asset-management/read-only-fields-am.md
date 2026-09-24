@@ -3,11 +3,11 @@ title: Read-only and client script modifiable fields in Asset Management tables
 description: Comprehensive reference of Asset Management table fields that are restricted from UI editing and those which can be modified using client scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/read-only-fields-am.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Read-only fields in Asset Management, Client script modifiable fields in Asset Management, Asset Management, Asset Management tables]
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
@@ -500,4 +500,5 @@ Purchase order line items
 Total cost \[total\_cost\]
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/references-asset-management.md)
+

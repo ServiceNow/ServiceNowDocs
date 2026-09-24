@@ -3,9 +3,9 @@ title: Expand or collapse a group shape
 description: The expand and collapse functionality for a group shape helps in simplifying visualization, improves focus, and supports hierarchical modeling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-expand-collapse-shape.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -37,5 +37,5 @@ Large diagrams can be cluttered. Collapsing groups hides internal details while 
     Expanding a shape helps in analyzing dependencies or editing details inside a group. Collapsing a group shape helps in presenting a high-level architecture view to stakeholders. It helps you to focus on other parts of the diagram. \[Omitted image "modeling-expand-collapse-group-shape.gif"\] Alt text: Expand or collapse a group shape
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 

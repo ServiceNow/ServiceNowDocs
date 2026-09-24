@@ -3,11 +3,11 @@ title: Managed Documents plugin
 description: This page describes the applications and modules, database table structure, scripts, and roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/r\_ManagedDocumentsPlugin.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managed Documents, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -68,8 +68,8 @@ This plugin introduces two new roles:
 
 **Note:** Each document has individual permissions, so even if a user is given the document\_management\_user role and has permissions to the application, the user can only view documents to which they have been given access.
 
--   **[Install the Managed Documents plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/t_InstallTheManagedDocumentsPlugin.md)**  
+-   **[Install the Managed Documents plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/t_InstallTheManagedDocumentsPlugin.md)**  
 The Managed Documents plugin is available for activation by users with the admin role.
 
-**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
+**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
 

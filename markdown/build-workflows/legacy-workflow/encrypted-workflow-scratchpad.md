@@ -3,11 +3,11 @@ title: Encrypted workflow scratchpad
 description: The Encrypted Workflow Scratchpad plugin \(com.snc.encrypted.scratchpad\) provides encrypted scratchpad support for workflow context and workflow executing activities.Request activation of the Encrypted Workflow Scratchpad plugin \(com.snc.encrypted.scratchpad\) from ServiceNow personnel
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/encrypted-workflow-scratchpad.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -24,7 +24,7 @@ Data in the workflow scratchpad is not encrypted by default. The Workflow engine
 
 The Encrypted Workflow Scratchpad plugin is incompatible with domain separation. Activating the Encrypted Workflow Scratchpad plugin on a domain separated instance can produce encryption errors when running some workflows. Consider using a Workflow Studio flow instead.
 
-**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
+**Parent Topic:**[Workflow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/c_WorkflowAdministration.md)
 
 ## Request encrypted workflow scratchpad activation
 
@@ -36,7 +36,7 @@ Role required: admin
 
 The Encrypted Workflow Scratchpad plugin must be activated via a Customer Service and Support request. You should activate and thoroughly test the plugin in a non-production instance. Only after you satisfied with the results should you request activation in a production instance.
 
-When requesting activation in a production instance, you should schedule a low transactional volume time to do so. Prior to its activation, first activate the Workflow Pause Utility \(com.glideapp.workflow.pause\), and then pause all active workflows. Refer to [Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-pause-utility.md). After activation of the Encrypted Workflow Scratchpad plugin, resume all paused workflows.
+When requesting activation in a production instance, you should schedule a low transactional volume time to do so. Prior to its activation, first activate the Workflow Pause Utility \(com.glideapp.workflow.pause\), and then pause all active workflows. Refer to [Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/workflow-pause-utility.md). After activation of the Encrypted Workflow Scratchpad plugin, resume all paused workflows.
 
 ### About this task
 
@@ -98,7 +98,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -118,10 +118,10 @@ Select the date and time to activate the plugin.
 
 ### What to do next
 
-After plugin activation, resume all paused workflows. Refer to [Pause and resume all or multiple workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/pause-resume-all-multiple-workflows.md).
+After plugin activation, resume all paused workflows. Refer to [Pause and resume all or multiple workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/pause-resume-all-multiple-workflows.md).
 
 **Related topics**  
 
 
-[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

@@ -3,11 +3,11 @@ title: Update or delete a service record
 description: Review, update, or delete a service record by using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/update\_or\_delete\_a\_service\_record.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage your network functions, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -64,5 +64,5 @@ This task enables you to review, update, or delete a record of any business, app
     The fields and the records list are updated.
 
 
-**Parent Topic:**[Manage your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/services.md)
+**Parent Topic:**[Manage your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/services.md)
 

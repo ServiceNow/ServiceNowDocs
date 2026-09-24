@@ -3,11 +3,11 @@ title: Migrate skills to the Task Skill table
 description: Migrate data from the Skills field to the Task Skills table to utilize mandatory skills support for executing tasks in a case or work order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/migrate-skills-m2m-table.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mandatory skills, Manage skills, Users, Set up workforce, Configure, Field Service Management]
 ---
@@ -30,17 +30,17 @@ In the Field Service Management application, the work order task assignments don
 
 ## Procedure
 
-1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following settings.
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following settings.
 
-<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d60718e84">
+<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d62903e84">
 
 Option
 
-</th><th align="left" id="d60718e87">
+</th><th align="left" id="d62903e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d60718e93">
+</th></tr></thead><tbody><tr><td id="d62903e93">
 
 **Create a system property for a table in the Customer Service Management application.**
 
@@ -52,7 +52,7 @@ Make sure that you are logged in to the Customer Service Management application.
 
 In the **Suffix** field, enter the name of the system property as follows:**com.snc.skills\_management.&lt;table\_name&gt;\_migrate\_skills**, where &lt;table\_name&gt; is the name of a case task table from which the skills need to be copied.
 
-</td></tr><tr><td id="d60718e118">
+</td></tr><tr><td id="d62903e118">
 
 **Create a system property for a table in the Field Service Management application.**
 

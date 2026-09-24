@@ -3,11 +3,11 @@ title: Import model Excel template
 description: Learn about the fields and structure of the Excel template used to define network element models and their hierarchical relationships for bulk import.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/import-model-excel-template.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -22,7 +22,7 @@ The import model template is a structured Excel file used to define network elem
 
 You do not need a separate row for the model relationship. The model and its relationship to the parent component can be defined in a single row. If the model already exists in the system, the record is skipped. If it does not exist, the model is created along with the model relationship.
 
-Model class determines the type of model being represented — Network Equipment Model, Network Holder Model, Network Card Model, or Network Interface Model. Model category must be a valid value from the model category table and determines which tables are used for inserting records and which tables are considered during equipment instantiation. The Excel template is created based on the Import model template table \[sn\_ni\_adv\_import\_model\_template\]. An admin can customize the template and update it as required. To download the template with sample data, select **Create Excel template** on the Import model request form. Only Sheet 1 is considered during import. All other sheets are ignored.
+Model class determines the type of model being represented — Network Equipment Model, Network Holder Model, Network Card Model, or Network Interface Model. Model category must be a valid value from the model category table. It determines which tables are used for inserting records and which tables are considered during equipment instantiation. The Excel template is created based on the Import model template table \[sn\_ni\_adv\_import\_model\_template\]. An admin can customize the template and update it as required. To download the template with sample data, select **Create Excel template** on the Import model request form. Only Sheet 1 is considered during import. All other sheets are ignored.
 
 <table id="table_htp_wkd_wrb"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Entity ID
 
 </td><td>
 
-Unique identifier for each row in the template. The ID must be unique across all rows. The ID acts as a key within the spreadsheet to establish parent-child relationships using the Parent entity ID and Root entity ID fields. The ID is not mapped to any target table field.The referenced Entity ID must already exist in the Entity ID column before it can be used as a parent or root reference.
+Unique identifier for each row in the template. The ID must be unique across all rows. The ID acts as a key within the spreadsheet to establish parent-child relationships using the Parent entity ID and Root entity ID fields. The ID is not mapped to any target table field. The referenced Entity ID must already exist in the Entity ID column before it can be used as a parent or root reference.
 
 </td></tr><tr><td>
 
@@ -272,10 +272,10 @@ RU naming pattern
 Naming pattern that controls how the application automatically generates names for rack unit positions within the component.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Import a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models.md)
+[Import a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models.md)
 

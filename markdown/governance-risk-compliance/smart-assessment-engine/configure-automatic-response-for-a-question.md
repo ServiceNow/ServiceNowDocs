@@ -3,11 +3,11 @@ title: Configure an automatic response for a question
 description: Set up automatic responses for assessment questions using either static responses or script-based responses based on specific conditions. You can configure default responses for text, drop-down list, radio button, check box, date, code and number question types. This feature helps save assessors time and effort by reducing the number of questions that require answers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Automate response, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -33,7 +33,7 @@ Role required:
 
 2.  Create an assessment template or open an existing assessment template that is in the Draft state.
 
-    For more information on creating a template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    For more information on creating a template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 3.  Select a question for which you want to configure an automatic response.
 
@@ -41,7 +41,7 @@ Role required:
 
 5.  In the **Default response is** field of the **Automated response** pop-up window, select a default response for the question based on the question type or create a script.
 
-    1.  Create a script for a dynamic response by selecting the script icon.
+    1.  Create a script for a dynamic response by selecting the script icon \[Omitted image "script-icon.png"\] Alt text:.
 
     2.  Update the `result.value = <null>` with the required input.
 
@@ -51,11 +51,11 @@ Role required:
 
 7.  Select **+ New condition set** under **If** condition to set the condition.
 
-    -   Add details to **If** and **Then** conditions using the condition builder. For more information, refer to [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    -   Add details to **If** and **Then** conditions using the condition builder. For more information, refer to [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
     -   You can set up multiple conditions within a single **If** condition by selecting **+ New condition set**. Within a single condition row, you can combine multiple conditions using **and** or **or** logical operators.
 8.  Set up one or more subsequent if-then conditions by selecting **Add If-then condition**.
 
-    -   Add details to **Otherwise if** and **Then** conditions using the condition builder. For more information, refer to [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    -   Add details to **Otherwise if** and **Then** conditions using the condition builder. For more information, refer to [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
     -   The first condition that meets the criteria triggers the default response. Priority is determined by the order of the conditions. For instance, if you have three conditions and the first one is true, the system doesn't check the remaining two.
 9.  In the **Default response is** field in the **If nothing matches** section, set the default response for situations where none of the condition sets meet the set criteria.
 

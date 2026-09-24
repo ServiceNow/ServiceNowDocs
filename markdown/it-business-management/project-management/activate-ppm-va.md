@@ -3,11 +3,11 @@ title: Install Virtual Agent for PPM
 description: Install Virtual Agent for PPM from the ServiceNow store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/activate-ppm-va.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Virtual Agent for PPM, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -58,11 +58,11 @@ To install Virtual Agent for PPM, activate the following plugins:
 **Related topics**  
 
 
-[Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-overview.md)
+[Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ppm-va-overview.md)
 
-[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/setup-ppm-va.md)
+[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/setup-ppm-va.md)
 
-[PPM Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-conversations.md)
+[PPM Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ppm-va-conversations.md)
 
-[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-topic-blocks.md)
+[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ppm-va-topic-blocks.md)
 

@@ -3,11 +3,11 @@ title: Managing MSIM status reports
 description: Status Reports provide preconfigured trend charts with actionable data visualizations to improve security operations processes, measure and analyze the resolution timeline, overdue count, and status of each assigned task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/reports-and-metrics.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,8 +16,8 @@ breadcrumb: [Major Security Incident Management, Security Incident Response, Ent
 
 Status Reports provide preconfigured trend charts with actionable data visualizations to improve security operations processes, measure and analyze the resolution timeline, overdue count, and status of each assigned task.
 
--   **[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)**  
+-   **[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)**  
 Configure major security incident reports to set up and download the reports according to your business needs throughout the life cycle of the major security incident record remediation process.
 
-**Parent Topic:**[Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
+**Parent Topic:**[Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
 

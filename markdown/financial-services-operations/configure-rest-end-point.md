@@ -3,9 +3,9 @@ title: Configure the REST End Point
 description: The REST Endpoint record in ServiceNow stores the base URL, API version header, and connection properties for the Verifi API. Create two endpoint records: one for UAT testing and one for Production.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-rest-end-point.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Verifi, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -85,5 +85,5 @@ Role required: admin
     **Note:** The Authorization header containing the encoded JWT is set dynamically at runtime per call, not at the HTTP Method level.
 
 
-**Parent Topic:**[Configuring Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-financial-services-integration-with-verifi-cdrn.md)
+**Parent Topic:**[Configuring Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-financial-services-integration-with-verifi-cdrn.md)
 

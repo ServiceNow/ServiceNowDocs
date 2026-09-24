@@ -3,11 +3,11 @@ title: Summarize documents and images
 description: Use the Content Insights AI agent to generate a concise summary of document or image from a record reference or uploaded attachment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/summarize-documents.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Content insights AI agent, Use, Content Understanding, Enable AI experiences]
+breadcrumb: [Content insights AI agent, Use, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Summarize documents and images
@@ -28,7 +28,7 @@ Summarization requires only a document or image, provided by record reference or
 
 1.  Configure the Content Insights AI agent.
 
-    For more information, see [Configure the Content Insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-content-insights-ai-agent.md).
+    For more information, see [Configure the Content Insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-content-insights-ai-agent.md).
 
 2.  Open the ServiceNow Otto panel or ServiceNow Otto for Virtual Agent.
 
@@ -65,4 +65,6 @@ With an attachment sys\_id:
 
 -   `"Write a summary of the attachment with sys_id ABC123."`
 -   `"Give me a summary of attachment sys_id 12234 from table incident."`
+
+**Parent Topic:**[Use Content insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-content-insights-ai-agent.md)
 

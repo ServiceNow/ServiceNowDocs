@@ -3,11 +3,11 @@ title: Export and import a query as an update set
 description: Export a saved query definition to an XML file as an update set, which you can later import.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/export-query-to-update-set.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export and import a CMDB query, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Domain in the exported query must be visible in both, source and destination ins
 
 ## About this task
 
-Export a query definition as an update set which you can later import and commit. This process lets you port a query between instances, such as from a development environment to a production environment. For more information about exporting and then committing update sets using XML files, see [Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_SaveAnUpdateSetAsAnXMLFile.md).
+Export a query definition as an update set which you can later import and commit. This process lets you port a query between instances, such as from a development environment to a production environment. For more information about exporting and then committing update sets using XML files, see [Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_SaveAnUpdateSetAsAnXMLFile.md).
 
 When exporting a combination query, the integrated Service Mapping query definition is included in the exported update set.
 

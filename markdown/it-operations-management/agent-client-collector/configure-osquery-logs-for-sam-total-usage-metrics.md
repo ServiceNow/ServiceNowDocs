@@ -3,11 +3,11 @@ title: Configure Osqueryd logs for SAM total usage metrics
 description: By default, Osquery supports log rotation based on size. To enable it for SAM total usage metrics and to configure the log size and rotation, you need to add specific flags for Osqueryd service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [Using push-based Discovery and SAM together, ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -58,11 +58,7 @@ To store the data for a single running process for two days, the log file size o
 
 Once the Osqueryd schedule and Osqueryd logs are configured the Osqueryd service can start.
 
-The schedule runs the following Osquery every 5 minutes \(300 seconds\) on the target machine:
-
-`Select name, pid, elapsed_time, start_time, user_time, system_time, username from processes p JOIN users u ON u.uid = p.uid where p.elapsed_time != -1 AND u.type !='special';`
-
-The results are logged to the log file. The log file contains snapshot entries of all queries configured to run by Osqueryd. This query contains all process attributes.
+The schedule runs the Osquery `Select name, pid, elapsed_time, start_time, user_time, system_time, username from processes p JOIN users u ON u.uid = p.uid where p.elapsed_time != -1 AND u.type !='special';` every 5 minutes \(300 seconds\) on the target machine. The results are logged into the log file. The log file contains snapshot entries of all the queries configured to run by the Osqueryd. This query contains all the processes attributes.
 
 **Note:**
 

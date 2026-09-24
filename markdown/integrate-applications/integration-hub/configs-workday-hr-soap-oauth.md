@@ -3,7 +3,7 @@ title: Configurations to use Workday HR SOAP OAuth
 description: Configure your ServiceNow instance to perform Workday HR SOAP based actions with OAuth 2.0.Register Workday HR spoke as the API client in your Workday account and generate client ID, client secret.Configure the system properties to enable OAuth 2.0 for SOAP APIs based actions for Workday HR spoke.Provide the base URL of your Workday HR instance in the Connection Details \[connection\_details\] table. Spoke actions based on the SOAP API, use these details for the action execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configs-workday-hr-soap-oauth.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
@@ -68,7 +68,7 @@ Configure the system properties to enable OAuth 2.0 for SOAP APIs based actions 
 
 ### Before you begin
 
--   [Generate client ID and client secret for Workday HR spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configs-workday-hr-soap-oauth.md)
+-   [Generate client ID and client secret for Workday HR spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configs-workday-hr-soap-oauth.md)
 -   Role required: admin
 
 ### Procedure

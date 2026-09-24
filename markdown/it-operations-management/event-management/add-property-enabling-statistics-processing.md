@@ -3,11 +3,11 @@ title: Enable processing of event process statistics
 description: Enable the system property that switches on statistics processing for events to let the platform collect and analyze metrics such as event volume, processing flow, and handling time. This helps you monitor system performance, identify bottlenecks, and optimize event handling for faster and more efficient operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/add-property-enabling-statistics-processing.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View event processing statistics, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -42,5 +42,5 @@ Role required: evt\_mgmt\_admin
 **Related topics**  
 
 
-[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 

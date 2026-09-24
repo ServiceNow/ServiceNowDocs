@@ -3,11 +3,11 @@ title: Components installed with Hardware Asset Management for DaaS
 description: Several types of components are installed with activation of the Hardware Asset Management for DaaS \(com.sn\_daas\_ham\) plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/installed-with-daas.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [DaaS reference, Device as a Service, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -52,4 +52,6 @@ Asset Manager \[asset\]
 |RMA response order line \[sn\_daas\_common\_rma\_response\_orderline\]|Model and asset information associated with the RMA creation.|
 |Inbound asset order \[sn\_itam\_common\_inbound\_asset\_order\]|Information about the asset request with multiple order lines, such as the originating account and the delivery address.|
 |Inbound asset order line \[sn\_itam\_common\_inbound\_asset\_orderline\]|Information about the model for which the asset is requested.|
+
+**Parent Topic:**[DaaS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/reference-daas.md)
 

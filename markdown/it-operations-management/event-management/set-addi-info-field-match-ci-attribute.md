@@ -3,12 +3,12 @@ title: Set additional info fields to match CI attribute format
 description: Set additional info fields in alerts to match the field and value format of CI attributes in CI records. This ensures accurate alert-to-CI binding, improving alert tracking and reducing manual effort.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/set-addi-info-field-match-ci-attribute.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-15"
-reading_time_minutes: 2
+last_updated: "2026-09-24"
+reading_time_minutes: 1
 breadcrumb: [Create Enrich automation, Alert automation in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -42,9 +42,9 @@ The system attempts to match the **Additional Info** fields of the alert with at
 
     \[Omitted image "sow-enrich-ci-binding-2.png"\] Alt text: Details of a CI
 
-4.  In the Enrich Alerts page, use **Extract fields**, **Copy or Compose fields**, and **Change alert values** to set at least one **Additional info** field in your alert.
+4.  Set at least one **Additional info** field in your alert to match the CI attributes in the CI record.
 
-    The field must precisely match the field and value format of the CI attributes in the CI record.
+    Use **Extract fields**, **Copy or Compose fields**, and **Change alert values** to precisely match the field and value format.
 
     Example: Suppose the CI record page has the **name** field with the value **CRUPRGWMIDCAV15**. To include these fields and their values in the **Additional info** field of the alert, set the fields as shown in the image.
 

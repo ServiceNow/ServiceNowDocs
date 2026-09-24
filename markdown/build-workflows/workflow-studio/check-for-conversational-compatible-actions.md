@@ -3,13 +3,13 @@ title: Check for conversational compatible actions
 description: Run a compatibility check on new or all actions to determine if they are conversational compatible. Review the inputs of an action to determine if their data types are compatible.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/check-for-conversational-compatible-actions.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational actions, Explore actions, Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Conversational actions, Explore actions, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Check for conversational compatible actions
@@ -35,7 +35,7 @@ You can only configure conversational settings for actions that are marked as co
 
 3.  Goo to the **Conversational compatible** tab and select **Run compatibility check**.
 
-    \[Omitted image "conv-compatible-action.png"\] Alt text: Check for conversation compatible actions in the Actions tab.
+    \[Omitted image "conv-compatible-action.png"\] Alt text: Image of the conversational compatible tab on the actions page.
 
     By default, the system only checks new actions that were created since the last compatibility check. If you want to check all actions, select **Complete scan**. You can use a complete scan to verify that updated actions remain conversationally compatible.
 
@@ -48,5 +48,5 @@ The system updates the list of conversational compatible actions.
 
 ## What to do next
 
-To make an action conversational, configure its conversational settings. See [Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-action-conversation-settings.md).
+To make an action conversational, configure its conversational settings. See [Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-action-conversation-settings.md).
 

@@ -3,11 +3,11 @@ title: Table relationships
 description: You can create relationships between tables by extending tables, referencing records in another table, creating many-to-many relationships, and joining tables in a database view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/table-relationships.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring tables, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ Tables can be related to each other in several ways.
 
 -   **Extensions**
 
-    A table can extend another table. The table doing the extending \(child class\) includes all of the fields of the other table \(parent class\) and adds its own fields. For instance, the Incident \[incident\] table has all of the Task \[task\] table fields \(because an incident is a special form of task\) and has its own incident-specific tasks. See [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
+    A table can extend another table. The table doing the extending \(child class\) includes all of the fields of the other table \(parent class\) and adds its own fields. For instance, the Incident \[incident\] table has all of the Task \[task\] table fields \(because an incident is a special form of task\) and has its own incident-specific tasks. See [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
 
 -   **One-to-many**
 
@@ -47,5 +47,5 @@ Tables can be related to each other in several ways.
     Two tables can be joined virtually in a database view to enable reporting on data that might be stored over more than one table.
 
 
-**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
+**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
 

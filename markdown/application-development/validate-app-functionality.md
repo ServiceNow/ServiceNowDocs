@@ -3,9 +3,9 @@ title: Validate app functionality
 description: As the application is built, validate that it works as expected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/validate-app-functionality.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -34,7 +34,7 @@ Automated Test Framework \(ATF\) should be leveraged for automating functional s
 
 When creating tests:
 
--   Use [parameterized testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/parameterized-tests.md) to avoid duplicate test cases.
+-   Use [parameterized testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/parameterized-tests.md) to avoid duplicate test cases.
 -   Follow a Test naming standard.
     -   `<app initial>: <functionality that is being tested>`
     -   CSM: Resolve case

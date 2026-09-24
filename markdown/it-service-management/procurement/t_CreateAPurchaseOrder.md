@@ -3,11 +3,11 @@ title: Create a purchase order
 description: You can create a purchase order. Purchase orders specify assets to order from a single vendor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_CreateAPurchaseOrder.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Procurement purchase order management for assets, Procurement, Asset Management common applications, IT Service Management]
 ---
@@ -204,7 +204,7 @@ Expected delivery
 
 </td><td>
 
-The date the items associated with the purchase order are expected to arrive in the stockroom identified in the **Ship to** field. This field can’t be edited when the purchase order has a **Status** of **Received** or **Canceled**. \(For more information about this field, see[Purchase order expected delivery date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/r_SetExpectDelDateOnPurchOrder.md).\)
+The date the items associated with the purchase order are expected to arrive in the stockroom identified in the **Ship to** field. This field can’t be edited when the purchase order has a **Status** of **Received** or **Canceled**. \(For more information about this field, see[Purchase order expected delivery date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/r_SetExpectDelDateOnPurchOrder.md).\)
 
 </td></tr><tr><td>
 
@@ -254,22 +254,22 @@ The vendor account related with the purchase order.
 
 Add purchase order line items to specify what you are ordering from this vendor.
 
--   **[Create a purchase order line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_CreateAPurchaseOrderLineItem.md)**  
+-   **[Create a purchase order line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/t_CreateAPurchaseOrderLineItem.md)**  
 After you save a new purchase order, you create purchase order line item records to specify the individual items to order.
--   **[Purchase order status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/r_FollowAPurchaseOrderStatus.md)**  
+-   **[Purchase order status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/r_FollowAPurchaseOrderStatus.md)**  
 Purchase orders follow a specific life cycle. The **Status** field on the purchase order record is always read-only.
--   **[Purchase order expected delivery date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/r_SetExpectDelDateOnPurchOrder.md)**  
+-   **[Purchase order expected delivery date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/r_SetExpectDelDateOnPurchOrder.md)**  
 The purchase order record and the purchase order line item record both contain the **Expected delivery** date field.
--   **[Cancel a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_CancelAPurchaseOrder.md)**  
+-   **[Cancel a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/t_CancelAPurchaseOrder.md)**  
 You can cancel purchase orders with a status of **Requested**, **Ordered**, or **Pending Delivery**.
--   **[Cancel a purchase order line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_CancelAPurchaseOrderLineItem.md)**  
+-   **[Cancel a purchase order line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/t_CancelAPurchaseOrderLineItem.md)**  
 You can cancel a purchase order line items with a status of **Requested**, **Ordered**, or **Pending Delivery**.
--   **[Reorder a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_ReorderAPurchaseOrder.md)**  
+-   **[Reorder a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/t_ReorderAPurchaseOrder.md)**  
 You can reorder a purchase order that was canceled.
--   **[Reorder a purchase order line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_ReorderAPurchaseOrderLineItem.md)**  
+-   **[Reorder a purchase order line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/t_ReorderAPurchaseOrderLineItem.md)**  
 You can reorder a purchase order line item that was canceled.
 
-**Parent Topic:**[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_UseProcurement.md)
+**Parent Topic:**[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/c_UseProcurement.md)
 
 **Related topics**  
 
@@ -282,5 +282,5 @@ You can reorder a purchase order line item that was canceled.
 
 [Create an asset and reserve it for the requester]()
 
-[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_TransferOrders.md)
+[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/c_TransferOrders.md)
 

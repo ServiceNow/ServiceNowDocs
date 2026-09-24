@@ -3,9 +3,9 @@ title: Edge Encryption for ServiceNow mobile
 description: Users can view and edit data protected with Edge Encryption within their mobile device. The data appears in readable form on the mobile device but is encrypted in the database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-edge-encryption.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Device security, Mobile security, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -20,7 +20,7 @@ The diagram shows an example of how Edge Encryption operates within the mobile p
 
 \[Omitted image "mobile-edge-encrypt.png"\] Alt text: How a value in a field protected by Edge Encryption displays in a mobile device and in a database.
 
-For more information, see [Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption.md).
+For more information, see [Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption.md).
 
-**Parent Topic:**[Device security for ServiceNow Mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-security.md)
+**Parent Topic:**[Device security for ServiceNow Mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-security.md)
 

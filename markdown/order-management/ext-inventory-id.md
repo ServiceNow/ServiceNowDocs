@@ -3,9 +3,9 @@ title: External product inventory ID
 description: You can use a product inventory ID from external Configure, Price, and Quote \(CPQ\) systems in the Order Management application to complete the order fulfillment flow for various actions on the product and service orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/ext-inventory-id.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -26,17 +26,17 @@ With the support of an external inventory ID, you can do the following tasks:
 -   Store the external inventory ID in a new table for new orders and associate them with the product inventory records that were created after the order fulfillment. Also, update the ID in the external product inventory table for any inflight revisions during the order fulfillment process.
 -   Allow external CPQ or southbound systems to use the external inventory ID to submit, change, disconnect, suspend, and resume orders on the product inventory in the order management system.
 
-**Note:** You can also map the external product inventory ID with the product inventory record by using the Product Inventory Open API. For more information, see [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-inventory-open-api.md).
+**Note:** You can also map the external product inventory ID with the product inventory record by using the Product Inventory Open API. For more information, see [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-inventory-open-api.md).
 
--   **[Review the external product inventory details for a customer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-review-ext-inventory.md)**  
+-   **[Review the external product inventory details for a customer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-review-ext-inventory.md)**  
 Review the external inventory details of the customer orders that you’ve received from the external Configure, Price, and Quote \(CPQ\) system during the order capture process.
 
-**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-service-orders.md)
+**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/managing-service-orders.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

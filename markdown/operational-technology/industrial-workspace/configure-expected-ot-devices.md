@@ -3,11 +3,11 @@ title: Configure the expected OT devices for a site
 description: Configure the number of expected OT devices for a site so that you can use the % of Expected OT Devices in CMDB indicator in the OT progress scorecard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-expected-ot-devices.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the Operational Technology Progress Scorecard, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -20,7 +20,7 @@ Configure the number of expected OT devices for a site so that you can use the *
 
 Role required: ot\_progress\_scorecard\_editor and cmdb\_ot\_isa\_viewer with site access assigned for relevant sites through user criteria
 
-**Note:** For more information about site access through user criteria, see [Review the homepage destination rules for the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/review-iw-homepage-destination-rules.md).
+**Note:** For more information about site access through user criteria, see [Review the homepage destination rules for the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/review-iw-homepage-destination-rules.md).
 
 ## Procedure
 
@@ -44,5 +44,5 @@ Role required: ot\_progress\_scorecard\_editor and cmdb\_ot\_isa\_viewer with si
 
     3.  Select **Update**.
 
-**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
+**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
 

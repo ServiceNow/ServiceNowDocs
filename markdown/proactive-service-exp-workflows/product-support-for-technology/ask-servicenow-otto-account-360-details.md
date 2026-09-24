@@ -3,11 +3,11 @@ title: Ask ServiceNow Otto for account 360 details
 description: Generate summaries or ask questions about the account or engagement to retrieve specific information from the Technology Account 360 view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/ask-servicenow-otto-account-360-details.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review customer or partner accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -43,5 +43,5 @@ Select **Ask Otto** to ask questions about the account or engagement in plain la
 
 The panel opens where you can select the option to ask questions about the account details.
 
-**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
+**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
 

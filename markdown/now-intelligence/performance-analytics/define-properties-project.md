@@ -3,11 +3,11 @@ title: Define properties for a project
 description: In the Project Properties, you can associate knowledge articles, owners, and contact persons with the project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/define-properties-project.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -17,9 +17,13 @@ breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fu
 In the Project Properties, you can associate knowledge articles, owners, and contact persons with the project.
 
 Prerequisites
-:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
+:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
 
 ## Before you begin
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 **Note:** Project Properties are similar to the Info tab of Artifact Properties. Only the scope is different.
 
@@ -43,9 +47,9 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
     -   Responsible users. A responsible user has full editing privileges but also is expected to be responsible for implementing the project. This responsibility distinguishes a responsible user from a user with whom the project has been shared with editing rights.
     -   Contact persons
 
-**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
+**Previous topic:**[Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
 
-**Next topic:**[Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/add-personas-project.md)
+**Next topic:**[Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/add-personas-project.md)
 

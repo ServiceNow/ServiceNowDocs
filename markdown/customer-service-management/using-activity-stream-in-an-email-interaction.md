@@ -3,9 +3,9 @@ title: Using the activity stream in an email interaction
 description: View an email conversation between an agent and a customer in the activity stream of the email interaction. The activity stream enables agents to communicate with customers and make internal notes about the work done on an interaction. The activity stream updates when an email is sent or received, or when a work note is posted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-activity-stream-in-an-email-interaction.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Email Interaction for CSM]
 breadcrumb: [Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
@@ -35,7 +35,7 @@ View emails, work notes, and field changes associated with the email interaction
 
 The activity in the interaction shows emails and work notes by default.
 
- **Note:** In the activity stream, each email response displays only the latest message in the conversation. To view entire email thread, enable the Email Show Full Conversation property using UI Builder. For more information, see [Customize showing a full conversation in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-show-full-conversation.md).
+ **Note:** In the activity stream, each email response displays only the latest message in the conversation. To view entire email thread, enable the Email Show Full Conversation property using UI Builder. For more information, see [Customize showing a full conversation in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customize-show-full-conversation.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ Expand and collapse posts
 
 </td><td>
 
-Select the Expand all activity post icon \(\[Omitted image "Expand\_icon\_eaai\_new.png"\] Alt text: Expand all activity post icon\) to view additional details in posts or select the Collapse all activity post icon \(\[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: Collapse all activity post icon\) to go back to the previous state.
+Select the Expand all activity post icon \(\[Omitted image "Expand\_icon\_eaai\_new.png"\] Alt text: Expand all activity post icon\) to view additional details in posts. Select the Collapse all activity post icon \(\[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: Collapse all activity post icon\) to go back to the previous state.
 
 </td></tr></tbody>
 </table>

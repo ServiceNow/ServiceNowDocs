@@ -3,9 +3,9 @@ title: Exploring Financial Services Operations Integration with FRISS
 description: With Financial Services Operations Integration with FRISS, your insurance company can embed the FRISS API for Claims in workflows, detect and prevent fraud, and improve your underwriting and claims processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/explore-fso-integration-with-friss.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [FRISS, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -35,7 +35,7 @@ The following diagram is a workflow of the FRISS integration. The diagram shows 
 |-----|-----------|
 |Workflow Layer|Layer that contains the Commercial Lines Claims and Personal Lines Claims applications for triggering and storing fraud scores.|
 |Adapter/Integration Layer|Layer that contains the Financial Services Operations Integration with FRISS subflow to execute the FRISS spoke actions and to provide a fraud score. Additional tables are added to this service to store the fraud score.|
-|Spoke Layer|Layer that contains the FRISS spoke actions that use REST APIs to interact with FRISS. For more information on the FRISS spoke actions, see[FRISS Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/friss-spoke.md).|
+|Spoke Layer|Layer that contains the FRISS spoke actions that use REST APIs to interact with FRISS. For more information on the FRISS spoke actions, see[FRISS Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/friss-spoke.md).|
 
 ## Financial Services Operations Integration with FRISS benefits
 
@@ -43,5 +43,5 @@ FRISS can help you solve the fraudulent activity that occurs in the insurance in
 
 FRISS provides real-time, data-driven scores and insights that can help you to assess the inherent risks of your customers and interactions quickly. Because your services are primarily focused on Auto, Property, and General Liability claims, by using FRISS, you can build automated fraud detection into your claims processes. By scoring the claims in real time, Financial Services Operations Integration with FRISS helps your company to reduce the number of false positives, increase the number of avoided claims, and process the genuine claims immediately.
 
-**Parent Topic:**[Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-friss-overview.md)
+**Parent Topic:**[Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-integration-with-friss-overview.md)
 

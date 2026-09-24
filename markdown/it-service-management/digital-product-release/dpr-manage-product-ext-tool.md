@@ -3,11 +3,11 @@ title: View and manage data from external tools
 description: View and manage data coming from the DevOps application corresponding to your product that has been imported through external tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-manage-product-ext-tool.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -24,11 +24,11 @@ Role required: sn\_dpr\_model.product\_manager
 
 This data coming from the external tools provide you with insights into the breakdown of product features into epics and their stories. This data also enables you to create and automate policies and determine whether the release meets the release exit criteria.
 
-**Note:** The work item types that can be mapped to a product enhancement are controlled by the **sn\_dpr\_workspace.enhancement\_work\_item\_types** system property. By default only epics are mapped; admins can extend this list to include other work item types. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
+**Note:** The work item types that can be mapped to a product enhancement are controlled by the **sn\_dpr\_workspace.enhancement\_work\_item\_types** system property. By default only epics are mapped; admins can extend this list to include other work item types. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
-The data also provides an overview of the software quality of your releases in the Release Quality dashboard. For more information, see [Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-quality-dashboard.md).
+The data also provides an overview of the software quality of your releases in the Release Quality dashboard. For more information, see [Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-release-quality-dashboard.md).
 
-This integration with external tools is accessible as part of the DevOps Change Velocity. For more information, see [DevOps Change Velocity integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-overview.md) and [Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md).
+This integration with external tools is accessible as part of the DevOps Change Velocity. For more information, see [DevOps Change Velocity integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-overview.md) and [Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ This integration with external tools is accessible as part of the DevOps Change 
 
 5.  Associate plans, repositories, and pipelines from the **Plans**, **Repositories**, and **Pipelines** tabs respectively.
 
-    For more information, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
+    For more information, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
 
     **Note:** Only the **Plans** tab is available for services.
 
@@ -57,5 +57,5 @@ This integration with external tools is accessible as part of the DevOps Change 
     When you create a release for the product, a relationship is established between the artifact version and the release so that policies can be run against the release.
 
 
-**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
+**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
 

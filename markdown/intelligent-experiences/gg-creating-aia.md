@@ -3,11 +3,11 @@ title: General guidelines for writing prompts for agentic AI
 description: By following some general guidelines for creating AI agents and agentic workflows, you can create clear and effective instructions that help maximize their efficiency and effectiveness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gg-creating-aia.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-09-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [AI agents best practices, Explore, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [AI agents best practices, Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # General guidelines for writing prompts for agentic AI

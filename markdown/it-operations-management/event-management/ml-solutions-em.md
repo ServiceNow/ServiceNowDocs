@@ -3,11 +3,11 @@ title: Machine learning solutions for Event Management
 description: Build solutions for Event Management with Predictive Intelligence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ml-solutions-em.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -43,5 +43,5 @@ EM Alert Clustering Solution
 EM Alert Clustering Solution is a clustering solution definition used in Event Management. Allows building clustering models enabling identification of common text patterns in alerts to create alert groups. Text clusters are based on these fields: Description, Metric Name, Configuration Item Class from the Alert \[em\_alert\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-management-reference.md)
 

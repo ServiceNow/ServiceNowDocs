@@ -3,9 +3,9 @@ title: Configure a survey in the survey designer
 description: Configuration settings apply to the entire survey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ConfigSurveyInSurveyDesgnr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Survey designer, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,12 +28,12 @@ Role required: survey\_creator, survey\_admin, or admin
 
 4.  On the Survey Designer Configuration form, fill in the fields.
 
-    For a description of the field values, see [Survey Designer Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-design-config-form.md).
+    For a description of the field values, see [Survey Designer Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/survey-design-config-form.md).
 
 5.  Select the **Availability** tab and complete the form.
 
 
-**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDesigner.md)
 
 **Related topics**  
 
@@ -52,15 +52,15 @@ Role required: survey\_creator, survey\_admin, or admin
 
 [Configure category weights for a survey]()
 
-[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAScorecard.md)
+[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAScorecard.md)
 
-[Create a survey designer template question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateASurveyDesignerTemplateQ.md)
 
-[Select recipients for a survey in the Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SelRecipsForASurveyInDesigner.md)
+[Select recipients for a survey in the Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SelRecipsForASurveyInDesigner.md)
 
-[Publish a survey in the Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PublishASurveyInSurveyDesigner.md)
+[Publish a survey in the Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_PublishASurveyInSurveyDesigner.md)
 
-[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduleEvents.md)
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduleEvents.md)
 
-[Create an assessment signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAnAssessmentSignature.md)
+[Create an assessment signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAnAssessmentSignature.md)
 

@@ -3,11 +3,11 @@ title: Add an annotation to a subflow history entry
 description: Add a text description to a subflow's flow history entry. Summarize the purpose or contents of a particular flow history entry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-annotation-to-subflow-history-entry.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Subflow history, Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -55,5 +55,5 @@ Annotations are only visible from the sidebar History view.
 
 You can change the annotation using the **Modify annotation** option.
 
-**Parent Topic:**[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflow-history.md)
+**Parent Topic:**[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/subflow-history.md)
 

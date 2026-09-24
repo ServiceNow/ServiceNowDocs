@@ -3,11 +3,11 @@ title: Edit custom category
 description: Update the details of an existing custom category when changes are required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/edit-custom-category.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Automated quality assurance, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use this task to edit an existing custom category. You can modify all category fields. Only applicable for cloned skill. The admin isn’t permitted to edit a new category for base system skill.
+Use this task to edit an existing custom category. You can modify all category fields. Only applicable for cloned skill. The admin isn't permitted to edit a new category for base system skill.
 
 ## Procedure
 

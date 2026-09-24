@@ -3,11 +3,11 @@ title: Create a guided tour to show incident generation in Workspace
 description: Use the Guided Tour Designer to create a tour that explains how to generate an incident in Workspace.To enable your newly created guided tour to work on any sys\_id, you must manually update the route parameters. This is also essential for enabling the Take a Tour option in the Help Center.Use the Guided Tour Designer to add an introductions, steps, and conclusion to your tour.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/usecase-create-guided-tour-in-workspace.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Guided Tour Designer use case, Use Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -96,7 +96,7 @@ Start with this setup, and if you have steps with IDs, change them to: \{"url":"
     A guided tour is created.
 
 
-**Parent Topic:**[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)
+**Parent Topic:**[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)
 
 ## Update the Route Parameters
 
@@ -152,7 +152,7 @@ After you have created your tour, preview it to confirm that it displays correct
 
 The guided tour is created and listed in the Help Center.
 
-Users can access a guided tour by navigating to a page that has one. For more information, see [Start a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/accessing-guided-tours.md).
+Users can access a guided tour by navigating to a page that has one. For more information, see [Start a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/accessing-guided-tours.md).
 
 **Related topics**  
 

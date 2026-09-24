@@ -3,11 +3,11 @@ title: View usage counter results for the legacy Software Asset Management plugi
 description: Usage counters for the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin track licenses based on how often those licenses are actually used either by a workstation or a user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_ViewAUsageCounterResult.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Software license reconciliation counters for the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -41,7 +41,7 @@ A usage counter tracks a license based on how often the license is actually used
     |Display name|Name of the software usage record.|
     |Publisher|Publisher of the software.|
     |Version|Version of the software.|
-    |Discovery model|[Software discovery model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UsingSoftwareDiscoveryModels.md) associated with the installed software.|
+    |Discovery model|[Software discovery model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_UsingSoftwareDiscoveryModels.md) associated with the installed software.|
     |Primary key|Unique identifier for table row.|
     |Usage|
     |User|User who accessed the software.|
@@ -57,5 +57,5 @@ A usage counter tracks a license based on how often the license is actually used
     |Cached|If selected, indicates that a software count has already been cached.|
 
 
-**Parent Topic:**[Software license reconciliation counters for the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UseCountersSWLicenseReconcil.md)
+**Parent Topic:**[Software license reconciliation counters for the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_UseCountersSWLicenseReconcil.md)
 

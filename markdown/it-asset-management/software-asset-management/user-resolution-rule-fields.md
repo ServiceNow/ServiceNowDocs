@@ -3,13 +3,13 @@ title: User resolution rule fields
 description: Fields on the User Resolutions Rules page help you create a rule to map the User field in the Software Subscription \[samp\_sw\_subscription\] table to an associated user in the User \[sys\_user\] table within the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/user-resolution-rule-fields.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # User resolution rule fields
@@ -127,10 +127,10 @@ Script
  If the mapping still fails after replacing or removing the domain or the logic is complex, the script can be updated to achieve the desired result.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 
 **Related topics**  
 
 
-[Associate a user with subscription records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/map-user-data.md)
+[Associate a user with subscription records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/map-user-data.md)
 

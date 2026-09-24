@@ -3,11 +3,11 @@ title: Request rejected parts from other stockrooms
 description: Request parts from other stockrooms that have been rejected by your peer agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/request-rejected-parts-from-other-stockrooms.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -47,5 +47,5 @@ A part request is created in the Draft state.
 
 ## What to do next
 
-You can source parts for the part request that is created. For more information, see [Request inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/request-inventory.md).
+You can source parts for the part request that is created. For more information, see [Request inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/request-inventory.md).
 

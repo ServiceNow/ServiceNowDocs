@@ -3,12 +3,12 @@ title: Session details
 description: View metric breakdowns, the judge's reasoning, and trace and span data for a specific evaluated session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-session-details.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Investigate sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Investigate sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Session details
@@ -30,7 +30,7 @@ The session details page shows the AI system, its type, session duration, and to
 
 The header also shows latency and span count for the session. Latency reflects the AI system's language model response time across the session's traces, which is typically much shorter than the session duration since duration also includes think time and tool-call execution. Span count is the number of spans across all traces in the session.
 
-## Quality and safety score cards
+## Quality and Safety score cards
 
 Review the overall quality and safety of the session by reviewing the score cards. View a breakdown of the score by selecting the side panel icon. The side panel is filtered to show only the metrics that apply to this session, along with each metric's weight, score, and explanatory notes about how the score is calculated.
 
@@ -42,18 +42,18 @@ Session-level metrics such as Task completion assess the entire conversation rat
 
 For a metric evaluated at the trace or span level, the score shown is an aggregate, meaning the average of that metric's scores across the traces or spans where it was evaluated. To understand any score, read the Reason column. For an aggregated metric, the reason notes that the score is an average and points you to open an individual span or trace to read the judge's reasoning for each one.
 
-## Traces
+## Details
 
-Sort the traces to focus your investigation by selecting Lowest quality score, Lowest safety score, Highest latency, or other criteria from the list. Select a trace to open the trace detail.
+Identify which trace in the session is responsible for the low score by reviewing the traces list. Sort the Traces list to focus your investigation by selecting Lowest quality score, Lowest safety score, Highest latency, or other criteria from the list.
 
 A trace shows N/A for its Quality or Safety score when no metrics in your corresponding metric template apply to that trace. This happens when all metrics in the template are evaluated at the session or span level only, or when the metrics that do apply to the trace level weren't evaluated for that particular trace. An N/A score doesn't indicate a problem with the trace. Rather, it indicates that your template's formula has nothing to calculate at the trace level. To see scores for that trace, either:
 
--   Add a trace-level metric to your template. See [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md).
+-   Add a trace-level metric to your template. See [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md).
 -   Review span-level scores by expanding the trace and selecting individual spans in the timeline.
 
 ## Trace detail
 
-Identify which trace in the session is responsible for the low score by reviewing the traces list. View the span timeline and evaluation data by selecting a trace.
+View the span timeline and evaluation data by selecting a trace.
 
 -   **Span timeline**
 
@@ -65,7 +65,7 @@ Identify which trace in the session is responsible for the low score by reviewin
 
 -   **Details**
 
-    Shows what the AI system received and what it produced for this trace. Select the **Input** tab to view the user's request or the data passed to the agent. Select the **Output** tab to view the agent's response. Select **Open details** to view the full content in a modal when the preview is truncated.
+    Shows what the AI system received and what it produced for this trace. Select **Open details** to view the full content in a modal. Select the **Input** tab to view the user's request or the data passed to the agent. Select the **Output** tab to view the agent's response.
 
 
 Navigate between traces without returning to the session detail page by selecting **Previous trace** or **Next trace**.
@@ -97,5 +97,5 @@ Learn why a span scored the way it did by reviewing the evaluation metric scores
 
 Determine whether the issue originated in the input or the output by viewing the Details section. The **Input** tab shows the data or prompt passed to the span. The **Output** tab shows what the span returned. For example, a correctly formatted request paired with an incorrect tool call tells you the issue is in the agent's logic, not the incoming data. Select **Open details** to view the full content when the preview is truncated.
 
-**Parent Topic:**[Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
+**Parent Topic:**[Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
 

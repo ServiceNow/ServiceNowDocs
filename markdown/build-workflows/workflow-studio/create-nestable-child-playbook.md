@@ -3,11 +3,11 @@ title: Create a nestable child playbook
 description: Nest a child playbook within a parent playbook to organize your processes. Creating child playbooks that can be used in other parent playbooks enables you to define sets of activities that can be re-used across multiple playbooks to avoid duplication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-nestable-child-playbook.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Nested Playbooks, Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -60,10 +60,10 @@ To define a launch playbook permission for the child playbook:
 
 7.  Select **Save and close**.
 
-    For more information about creating a playbook, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
+    For more information about creating a playbook, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
 
 ## What to do next
 
-After you have successfully built the nestable child playbook and activated it, build the parent playbook to host the nestable child playbook. See [Create a parent playbook to host a nestable child playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-parent-playbook.md).
+After you have successfully built the nestable child playbook and activated it, build the parent playbook to host the nestable child playbook. See [Create a parent playbook to host a nestable child playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-parent-playbook.md).
 

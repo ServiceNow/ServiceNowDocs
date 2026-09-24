@@ -3,10 +3,10 @@ title: Add recovery tasks
 description: Add a recovery task as part of the planned recovery strategy. You can add one or more recovery tasks for a loss scenario and those recovery tasks are displayed in the loss scenario itself. Automate the recovery tasks in a plan for a faster recovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-a-recovery-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-29"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -24,11 +24,11 @@ Beginning with the Xanadu release, cyclic dependencies in recovery tasks can be 
 
 \[Omitted image "plan-record-tabs.png"\] Alt text: Plan record tabs.
 
-For example, in the Recovery task of Cyclic plan example 1 invokes Cyclic plan example 2 and Cyclic plan example 2 invokes Cyclic plan example 3. Cyclic plan example 3 invokes Cyclic plan example 1. If you attempt to add a link between Cyclic plan example 2 and Cyclic plan example 3, it isn’t allowed. An error message, similar to the one shown in the example, prompts you to choose a different related plan. It helps prevent such issues from occurring in an event.
+For example, in the Recovery task of Cyclic plan example 1 invokes Cyclic plan example 2, Cyclic plan example 2 invokes Cyclic plan example 3. Cyclic plan example 3 invokes Cyclic plan example 1. If you attempt to add a link between Cyclic plan example 2 and Cyclic plan example 3, it isn’t allowed. An error message, similar to the one shown in the example, prompts you to choose a different related plan. It helps prevent such issues from occurring in an event.
 
 \[Omitted image "cyclic-plan-error-message.png"\] Alt text: Cyclic plan error message.
 
-Similarly, if plans are activated beyond 10 levels or hierarchical links exceed 10 plan levels, an error message displays, suggesting plan removal before saving the record.
+Similarly, if plans are activated beyond 10 levels or hierarchical links involving more than 10 levels of plans are created, an error message is displayed. The message suggests removing the plan before saving the record.
 
 \[Omitted image "cyclic-plan-levels.png"\] Alt text: Plan levels.
 
@@ -36,29 +36,11 @@ Starting from version 6.1.x of the Business Continuity Management application, t
 
 To automate a recovery task, administrators or application developers create an automation flow and associate it with the task. When the task moves to the **Open** state \(when the plan is activated as part of an exercise or an actual event\), the automated flow is triggered. However, there may be instances where the automated flow fails due to system errors. In such cases, the user with access to the recovery task can activate the manual task as a backup and assign it to a designated backup assignee. The backup assignee receives a system-generated email to complete the task flow. Plan users have the opportunity to practice business continuity plan exercises and make improvements based on the results obtained.
 
-Tasks can also be added in bulk by applying a task template group using the **Add groups** toolbar control on the **Recovery tasks** tab. Select **Add groups**, choose one or more groups from the **Select task template groups** dialog, and select **Add**. Each task template in the group becomes a recovery task on the parent record. Use the parallel **Add tasks** control to add individual task templates without a group context.
-
-The **Select task template groups** dialog is filtered by context:
-
--   From a plan, the dialog lists every group whose **Active** is true.
--   From a loss scenario, the dialog applies an additional filter so that only groups whose **Applicable to element definitions** is **All element definitions**, or whose **Element definitions** contains the element definition of the loss scenario, are listed.
--   From a recovery strategy, the same loss-scenario filter applies because a recovery strategy inherits its element definition from its parent loss scenario.
-
-When you open **Add groups** or **Add tasks** from a list that is itself filtered \(for example, **Phase** = **Recovery validation**\), the active list filters are applied as default field values on the new tasks. A field that is already set on the source task template takes precedence over the list filter for that field.
-
-\[Omitted image "select-task-templates-groups-list.png"\] Alt text: Select task template groups dialog listing available groups such as TG1 with their description and active status.
-
-\[Omitted image "select-task-template-groups-with-filter.png"\] Alt text: Select task template groups dialog with the Filter panel showing Plan and Phase chips.
-
-\[Omitted image "element-definition-filter-applied.png"\] Alt text: Select task template groups dialog opened from a loss scenario, showing the element definition filter.
-
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Business Continuity Workspace**.
 
-2.  In the List view, open the plan record and navigate to the Recovery tasks tab.
-
-    When no recovery tasks exist, the tab shows an empty list with an Insert button.
+2.  In the List view, navigate to the loss scenario in the plan record.
 
 3.  Navigate to the **Recovery tasks** tab and select **New**.
 
@@ -73,7 +55,7 @@ When you open **Add groups** or **Add tasks** from a list that is itself filtere
     -   **None**
     -   **Specific**
     -   **All**
-    For example, when you select **Specific assets** in the **Tag assets** field, the **Asset scope** field is set to visible, enabling you to specify which assets can be tagged with the selected recovery task.
+    For example, when you select **Specific assets** in the **Tag assets** field, the **Asset scope** field becomes visible, enabling you to specify which assets can be tagged with the selected recovery task.
 
     The assets tagged in the recovery task are then included in the impacted assets for the event task. Properly tagging assets with recovery tasks verifies precise calculations of the recovery times for each asset. Note that only assets associated with newly created event tasks are copied over.
 
@@ -87,7 +69,7 @@ When you open **Add groups** or **Add tasks** from a list that is itself filtere
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-task-form.md).
+    For more information on the fields in the form, see [Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-recovery-task-form.md).
 
 5.  Assign a phase to the recovery task.
 
@@ -113,9 +95,9 @@ When you open **Add groups** or **Add tasks** from a list that is itself filtere
 
 7.  Verify the achieved recovery level of the impacted assets of a task in the **Asset recovery level** field.
 
-    In events, the **Asset recovery level** field indicates the achieved recovery level of impacted assets once all tasks with that recovery level \(for example, Partially recovered\) are completed.
+    In events, the **Asset recovery level** field indicates the achieved recovery level of the impacted assets of that event task. This level is displayed once all tasks with that recovery level \(for example, all tasks with Partially recovered state\) are completed.
 
-    Previously, assets were marked as Recovered only when all event tasks were completed, even if assets were in later phases like Return to normal or Post-incident review. This approach delayed visibility into operational readiness. For example, even if an asset was functionally available during the Recovery phase, the system did not reflect the status until all tasks were completed.
+    Previously, assets were automatically marked as Recovered only when all event tasks were completed. This occurred even if those assets were in later phases such as Return to normal or Post-incident review. This approach delayed visibility into operational readiness. For example, even if an asset was functionally available during the Recovery phase, the system did not reflect the status until all tasks were completed.
 
     Starting with BCM release 9.x.x and later, the asset recovery status has been enhanced to provide granular tracking. Completing specific tasks now automatically updates the corresponding event asset state, progressing from **Not Recovered** → **Partially Recovered** → **Recovered**.
 
@@ -133,45 +115,13 @@ When you open **Add groups** or **Add tasks** from a list that is itself filtere
 
     This issue doesn't apply to newly created plans or old plans; it is applicable only for the current demo data.
 
-8.  Select a **Plan loss scenario** to scope the task to a specific disruption context, such as Loss of Datacenters.
-
-    Scoping a task to a loss scenario ensures that only tasks relevant to the active scenario are surfaced when the plan is exercised under that scenario type. The **Plan loss scenario** and **Task group** columns are visible on the **Recovery tasks** tab of the loss scenario record.
-
-    \[Omitted image "qi-insert-action.png"\] Alt text: Recovery tasks tab on a loss scenario record showing the Task group and Plan loss scenario columns alongside Planned duration.
-
-9.  In the **Assignment details** section, verify or update the **All assets from plan** field to specify the asset scope for this task.
-
-    The field defaults to all assets defined in the plan. Narrow the scope when the task applies only to a subset of the plan's assets.
-
-    \[Omitted image "qi-create-reco-task-panel.png"\] Alt text: Quick recovery task panel showing the All assets from plan field in the Assignment details section alongside the Planned duration fields.
-
-10. Enter the estimated completion time in the **Planned duration** fields: **Hours**, **Minutes**, and **Seconds**.
-
-    Planned duration values are used in Gantt chart rendering and scheduling calculations. Enter 0 in all fields if the duration is not yet known.
-
-11. Select **Save**.
+8.  Select **Save**.
 
     The updated recovery tasks are now displayed in the UI.
 
 
-## Result
+-   **[Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-recovery-task-form.md)**  
+Use the Create New Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 
-From the **Recovery tasks** tab toolbar, select one or more rows and use the **Save as group** split button to make the selected tasks reusable:
-
--   **Save as group** creates a new task template group from the selected tasks. Open the **Create task template group** modal, enter a **Group name**, and select **Create**. Group names are unique; if you enter a name that is already in use the modal displays an inline error and prevents creation.
--   **Save as group** &gt; **Add to group** appends the selected tasks to an existing task template group. Dependencies between the selected tasks are preserved.
--   **Save as group** &gt; **Save tasks** \(single row selected\) saves the individual task as a task template, without any group context and without inter-task dependencies.
-
-\[Omitted image "save-as-group-button-tooltip.png"\] Alt text: Save as task templates group tooltip on the Save as group split button.
-
-\[Omitted image "save-as-group-create-dialog.png"\] Alt text: Create task template group modal showing the You selected 2 task\(s\) confirmation and the Group name field.
-
-\[Omitted image "save-as-group-confirmation-banner.png"\] Alt text: Banner confirming the selected recovery tasks were added as task templates in the selected task template group.
-
-\[Omitted image "qi-save-tasks.png"\] Alt text: Recovery tasks tab toolbar showing the Save as group dropdown expanded with Save tasks and Add to group options.
-
--   **[Create Recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-task-form.md)**  
-Use the Create Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
-
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

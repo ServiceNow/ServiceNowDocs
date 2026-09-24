@@ -3,11 +3,11 @@ title: Register new Security Operations applications for on-demand orchestration
 description: In the base system, Security Operations applications are automatically registered when they are activated. Registration allows the workflows associated with the applications to be available for on-demand orchestration requests. If needed, you can define new applications and associate workflows with them for on-demand orchestration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/register-new-secops-apps.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define new on-demand orchestrations, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -40,7 +40,7 @@ Role required: sn\_si.write
 
     \[Omitted image "app-creator.png"\] Alt text: Application creator
 
-    **Note:** The options that display depend on the applications you have activated. For detailed information on creating new applications, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-applications.md).
+    **Note:** The options that display depend on the applications you have activated. For detailed information on creating new applications, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-applications.md).
 
 4.  After the application has been generated, you can create scripts for setting up on-demand orchestration.
 

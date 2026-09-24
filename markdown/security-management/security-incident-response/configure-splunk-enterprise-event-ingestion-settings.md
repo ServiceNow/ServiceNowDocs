@@ -3,11 +3,11 @@ title: Configure Splunk Enterprise Event Ingestion settings
 description: Use the Splunk Enterprise Event Ingestion settings to modify the preset configurations and their values as per your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-splunk-enterprise-event-ingestion-settings.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -138,5 +138,5 @@ Option to specify the delimiter character used to split values in field mapping.
 </table>3.  Select **Save**.
 
 
-**Parent Topic:**[Install and configure the ServiceNow application for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-install-and-configure.md)
+**Parent Topic:**[Install and configure the ServiceNow application for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-install-and-configure.md)
 

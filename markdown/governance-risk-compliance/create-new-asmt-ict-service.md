@@ -1,18 +1,18 @@
 ---
-title: Create assessment of the ICT service
-description: On the Create assessment of the ICT service form, fill in the fields.
+title: Create Assessment of the ICT service
+description: On the Create Assessment of the ICT service form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-asmt-ict-service.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an assessment and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create an assessment and enhance digital resilience data, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create assessment of the ICT service
+# Create Assessment of the ICT service
 
-On the Create assessment of the ICT service form, fill in the fields.
+On the Create Assessment of the ICT service form, fill in the fields.
 
 <table id="table_aqy_k2x_rvb"><thead><tr><th>
 
@@ -28,7 +28,7 @@ SysID
 
 </td><td>
 
-Unique 32-character GUID \(Globally Unique ID\) that identifies each assessment record in an instance. Provide this value if you want to update an existing record. Provide a value of -1 if you want to create a record in the system.
+Unique 32-character GUID \(Globally Unique ID\) that identifies each assessment record in an instance. Provide this value if you want to update an existing record. Provide a value of -1 if you want to create a new record in the system.
 
 </td></tr><tr><td>
 
@@ -246,5 +246,5 @@ Available options are:-   **None**
 -   **Lack of real alternatives and difficulties in migrating or reintegrating**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an assessment and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-assmt.md)
+</table>**Parent Topic:**[Create an assessment and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-drtp-reg-assmt.md)
 

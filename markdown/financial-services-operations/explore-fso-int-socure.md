@@ -3,9 +3,9 @@ title: Exploring Financial Services Operations Integration with Socure
 description: Financial Services integration with Socure enables you to embed the Socure APIs in workflows and streamline your risk analysis processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/explore-fso-int-socure.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Socure, Integrate, Financial Services Operations \(FSO\)]
 ---

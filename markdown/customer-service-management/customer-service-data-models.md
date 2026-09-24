@@ -3,9 +3,9 @@ title: Customer service business models
 description: The Customer Service Management \(CSM\) application provides different business models that you can use to support your business needs. Select a business model based on the type of services and support that you provide to your customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-data-models.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure customer data models for B2B2C, Data models, Set up your environment, Configure, Customer Service Management]
 ---

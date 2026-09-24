@@ -3,11 +3,11 @@ title: Playbooks
 description: Playbooks in Threat Intelligence Security Center are structured, automated workflows that guide threat response from detection to resolution. Administrators configure, activate, and manage playbooks to standardize how analysts handle threat cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-playbooks-admin.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [tisc, playbook, administrator, workflow, threat response, configure]
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
@@ -54,9 +54,9 @@ To test a playbook before activating it, use the **Test** option in Workflow Stu
 **Related topics**  
 
 
-[Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.md)
+[Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.md)
 
-[Activate the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-activate-threat-hunt-playbook.md)
+[Activate the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-activate-threat-hunt-playbook.md)
 
-[Add the Threat Hunting Playbook to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.md)
+[Add the Threat Hunting Playbook to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.md)
 

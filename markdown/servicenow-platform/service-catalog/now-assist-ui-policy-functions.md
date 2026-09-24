@@ -3,11 +3,11 @@ title: UI policy functions
 description: AI can generate UI policies with multiple actions from simple natural language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/now-assist-ui-policy-functions.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Things to know while creating items using AI, AI Authoring for Catalog Builder reference, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -62,5 +62,5 @@ If an instruction contradicts an existing policy, like changing "set color to re
 
 This confirms that changes are intentional and nothing gets overwritten by mistake.
 
-**Parent Topic:**[Things to know while creating items using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/things-to-know-while-creating-items-using-ai.md)
+**Parent Topic:**[Things to know while creating items using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/things-to-know-while-creating-items-using-ai.md)
 

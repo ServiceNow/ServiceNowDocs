@@ -3,11 +3,11 @@ title: Copy a custom activity
 description: You can copy activities for reuse from the Custom tab in the global scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t\_CopyACustomActivity.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,5 +41,5 @@ Role required: admin, activity\_admin, activity\_creator
     **Note:** If the activity is in any other scope but global, the system displays this message: `Cannot copy privately scoped activity`.
 
 
-**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md)
+**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_WorkflowActivityDesigner.md)
 

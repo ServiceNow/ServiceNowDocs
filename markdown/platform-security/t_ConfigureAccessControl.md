@@ -3,10 +3,10 @@ title: Configure ServiceNow access control
 description: Configure an access control record to specify one or more Customer Service and Support employees who have permission to log in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ConfigureAccessControl.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow access control, Access Management]
 ---
 
@@ -48,7 +48,7 @@ Name
 
 </td><td>
 
-Names each Customer Service and Support employee who has permission to log in this instance.
+Names each Customer Service and Support employee who has permission to log in to this instance.
 
 -   Express the names as firstname.lastname in lower case letters, separated by a period \(for example, `john.smith`\). Each name must have a corresponding user record in **support.servicenow.com**.
 -   If more than one Customer Service and Support employee has permission to log in this instance, enter multiple names and separate them by commas.
@@ -79,6 +79,18 @@ End
 </td><td>
 
 Specifies the ending date and time of the period during which the specified Customer Service and Support employees have login access. This field is mandatory.
+
+</td></tr><tr><td>
+
+Access type
+
+</td><td>
+
+Controls whether the Customer Service and Support employee can modify data during a hop that uses this record.
+
+-   **Read-only**: The hop is allowed only if the Customer Service and Support user also holds the **snc\_read\_only** role. If the user does not hold that role, the hop is rejected. This is the default for new SNC Access Control records.
+-   **Read and write**: The hop is allowed with full read and write permissions. Existing SNC Access Control records that were created before this change default to **Read and write**.
+ If two SNC Access Control records exist for the same Customer Service and Support user on the same customer instance — one with **Access type** Read-only and another with **Access type** Read and write — the hop is not blocked; the Read and write record grants access.
 
 </td></tr><tr><td>
 

@@ -3,11 +3,11 @@ title: Configure agents to use MCP servers
 description: After client registration is complete, configure your AI agents to connect to MCP servers through AI Gateway.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-agents-to-use-mcp-servers.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with MCP server records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure agents to use MCP servers

@@ -1,18 +1,18 @@
 ---
 title: Set up the Operational vulnerability type
-description: Set up the Operational vulnerability type. Defining the type and nature helps administrators assign vulnerabilities to the appropriate teams and address issues promptly.
+description: Set up the Operational vulnerability type. By defining the type and nature of the Operational vulnerability, Operational Resilience administrators can efficiently assign operational vulnerabilities to the appropriate teams and address issues promptly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-op-vul-type.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the Operational vulnerability module, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Set up the Operational vulnerability type
 
-Set up the Operational vulnerability type. Defining the type and nature helps administrators assign vulnerabilities to the appropriate teams and address issues promptly.
+Set up the Operational vulnerability type. By defining the type and nature of the Operational vulnerability, Operational Resilience administrators can efficiently assign operational vulnerabilities to the appropriate teams and address issues promptly.
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ Administrators of Operational Resilience can create only one Vulnerability Type 
 
     \[Omitted image "vul-type.png"\] Alt text: Vulnerability Type record.\[Omitted image "vul-type-asmt-config.png"\] Alt text: Assessment.\[Omitted image "vul-type-temp-config.png"\] Alt text: Template.
 
-    For more information on the fields, see [Vulnerability Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/vul-type-form.md).
+    For more information on the fields, see [Vulnerability Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/vul-type-form.md).
 
 3.  Select the Smart Assessment template for the vulnerability type.
 

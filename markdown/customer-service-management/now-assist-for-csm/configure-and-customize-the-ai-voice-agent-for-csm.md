@@ -3,11 +3,11 @@ title: Configure and customize the AI Voice Agent for ServiceNow Otto for CSM
 description: Configure the AI Voice Agent to let callers check case status, create cases, and update existing cases through voice interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-and-customize-the-ai-voice-agent-for-csm.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [AI voice agents, Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]

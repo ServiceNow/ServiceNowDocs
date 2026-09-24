@@ -3,11 +3,11 @@ title: Page Inspector
 description: Identify the HTML and JavaScript page components in your user interfaces that are available for custom UI testing. Enable automated testing by ensuring that your user interfaces only contain testable page components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-page-inspector.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Custom UI test steps, UI test steps, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -42,7 +42,7 @@ The Page Inspector provides these features.
 
 ## Page inspector launcher
 
-The page inspector launcher helps you select and launch a specific page within the page inspector. See [Inspect different page types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-inspect-page-types.md) for more information.
+The page inspector launcher helps you select and launch a specific page within the page inspector. See [Inspect different page types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-inspect-page-types.md) for more information.
 
 ## Testable page components
 
@@ -58,17 +58,17 @@ The Page Inspector identifies these types of untestable page components.
 
     In the Page Inspector, the exclusion listed interfaces are indicated by a grey background color when the inspect icon is dragged over them. A detailed message about the step category that needs to be used to test these components is displayed by dropping the inspect icon on an exclusion listed component.
 
-    -   Lists can't be tested using custom UI test steps. Use [List and Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-list-related-list.md) test step category to test lists.
+    -   Lists can't be tested using custom UI test steps. Use [List and Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/test-steps-list-related-list.md) test step category to test lists.
 
         \[Omitted image "atf-list-message.png"\] Alt text: Warning message reading "List are exclusion listed"
 
-    -   Forms can't be tested using custom UI test steps. To test forms, use [Form category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-form-category.md) test steps.
+    -   Forms can't be tested using custom UI test steps. To test forms, use [Form category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/test-steps-form-category.md) test steps.
 
         \[Omitted image "atf-form-message.png"\] Alt text: Warning message reading "Forms are exclusion listed"
 
-        **Note:** The UI formatters within forms can be accessed and tested using custom UI test steps. See [Create a custom UI test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/create-custom-ui-test.md) for more information.
+        **Note:** The UI formatters within forms can be accessed and tested using custom UI test steps. See [Create a custom UI test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/create-custom-ui-test.md) for more information.
 
-    -   Service Catalog items can't be tested using custom UI test steps. To test catalog items, use [Service Catalog category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-service-catalog-category.md) test steps.
+    -   Service Catalog items can't be tested using custom UI test steps. To test catalog items, use [Service Catalog category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/test-steps-service-catalog-category.md) test steps.
 
         \[Omitted image "atf-service-catalog-message.png"\] Alt text: Warning message reading "Service Catalog items are exclusion listed"
 
@@ -76,7 +76,7 @@ The Page Inspector identifies these types of untestable page components.
 
         \[Omitted image "atf-component-blacklist.png"\] Alt text: Warning message reading "This component is exclusion listed"
 
-    -   Workspaces can't be tested using custom UI test steps. To test forms in an available workspace, use [Form category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-form-category.md) test steps.
+    -   Workspaces can't be tested using custom UI test steps. To test forms in an available workspace, use [Form category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/test-steps-form-category.md) test steps.
 
         \[Omitted image "atf-workspace-message.png"\] Alt text: Warning message reading "Workspaces are exclusion listed"
 
@@ -97,8 +97,8 @@ The Page Inspector identifies these types of untestable page components.
         \[Omitted image "atf-page-inspector-external-site.png"\] Alt text: Warning message reading "The Automated Test Framework is unable to test external sites that are embedded in pages on this site"
 
 
--   **[Inspect different page types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-inspect-page-types.md)**  
+-   **[Inspect different page types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-inspect-page-types.md)**  
 Inspect and troubleshoot the functionality of different page types like **UI Pages**, **Service Portal**, **Standard UI**, and **Custom URL** using the Page Inspector.
 
-**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
+**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
 

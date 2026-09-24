@@ -3,11 +3,11 @@ title: Change views in Workforce
 description: Switching between assignment group and territory views in Workforce helps simplify planning and managing team tasks and resources efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/switch-views-in-workforce.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
 ---
@@ -31,7 +31,7 @@ Role required: wm\_basic
 
 3.  In the **Show resources by** field, select **Assignment group** or **Territory**.
 
-    If **Territory** isn’t listed in the **Show resources by** field, have your administrator verify that [Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md) is properly configured.
+    If **Territory** isn’t listed in the **Show resources by** field, have your administrator verify that [Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md) is properly configured.
 
 4.  Select **Save**.
 
@@ -39,9 +39,9 @@ Role required: wm\_basic
 **Related topics**  
 
 
-[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
+[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
 
-[Workforce system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-system-properties.md)
+[Workforce system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-system-properties.md)
 
-[Configure territory view to allow users to see other members' schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/enable-territory-view.md)
+[Configure territory view to allow users to see other members' schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/enable-territory-view.md)
 

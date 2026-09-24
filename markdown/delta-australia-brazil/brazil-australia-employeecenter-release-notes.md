@@ -1,0 +1,406 @@
+---
+title: Combined Employee Center release notes for upgrades from Australia to Brazil
+description: Consolidated page of all release notes for Employee Center from Australia to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-employeecenter-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 6
+breadcrumb: [Products combined by family]
+---
+
+# Combined Employee Center release notes for upgrades from Australia to Brazil
+
+Consolidated page of all release notes for Employee Center from Australia to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Employee Center release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Australia to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Employee Center to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Upgrade information**
+
+The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Employee Center.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Simplified Navigation](https://www.servicenow.com/docs/access?context=simple-portal-navigation-ec&family=australia&ft:locale=en-US)**
+
+Simplify how employees move through Employee Center by providing a modern, left‑aligned, one‑level navigation that reduces cognitive load and adapts seamlessly across desktop and mobile.
+
+-   **[Approve your requests with AI Agent](https://www.servicenow.com/docs/access?context=manage-approvals-with-approvals-agent&family=australia&ft:locale=en-US)**
+
+Accelerate request approvals by automatically aggregating relevant details, validating requests against policies, and recommending approval decisions to managers.
+
+-   **[Configure widget heading levels for accessibility](https://www.servicenow.com/docs/access?context=config-heading-widget-instance&family=australia&ft:locale=en-US)**
+
+Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies.
+
+-   **[Enhanced Requests Experience](https://www.servicenow.com/docs/access?context=my-requests-update-intro&family=australia&ft:locale=en-US)**
+
+Improve the Enhanced Requests Experience functionality by enabling specific tabs created for specific filters. Help employees find relevant requests faster while giving admins, experience owners, and service owners greater control over curating page design for specific purposes.
+
+-   **[ServiceNow Otto Chat Integration](https://www.servicenow.com/docs/access?context=moveworks-for-employeecenter&family=australia&ft:locale=en-US)**
+
+Empower employees with Moveworks for Employee Center and its AI-powered conversational support. Using the Moveworks embedded AI assistant plugin, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
+
+-   **[Quick start tests for Employee Center](https://www.servicenow.com/docs/access?context=quick-start-tests-employee-center&family=australia&ft:locale=en-US)**
+
+After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Employee Center features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Employee Center features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Employee Center features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Employee Center.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Activation information**
+
+Install Employee Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
+
+**Important:** Employee Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **Activation information**
+
+Install Employee Center by by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Employee Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Employee Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Employee Center, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Accessibility information**
+
+Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies. Clear heading hierarchies improve navigation for screen reader and keyboard users.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **Accessibility information**
+    -   Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies. Clear heading hierarchies improve navigation for screen reader and keyboard users.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Employee Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Employee Center we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Australia
+
+</td><td>
+
+-   Add editable, tab-specific filters to the Enhanced Requests Experience functionality on the Employee Center portal to make searching and managing requests more streamlined.
+-   Enable employees to check their latest company news and upcoming events using Now Assist in Virtual Agent with the Company News &amp; Events AI Agent in the Now Assist for Employee Experience. The AI Agent displays a list of all the latest news and planned events in the company.
+-   Employees can check all their to-do tasks and pending approvals using Now Assist in Virtual Agent for Microsoft Teams.
+-   Add granular admin roles to create an Employee profile.
+-   Simplify how employees move through by providing a modern, left‑aligned, one‑level navigation that reduces cognitive load and adapts seamlessly across desktop and mobile.
+-   Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies.
+
+ See [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&family=australia&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+With Employee Center, you can deliver a unified portal experience that connects your enterprise systems in one centralized destination.
+
+-   Scale service delivery across multiple departments—IT, HR, Workplace, Legal, and Procurement—without extensive configuration.
+-   Extend portal functionality with a wide variety of customizable features tailored to your organization's needs.
+-   You can consolidate employee workflows, information, and services in a single accessible location.
+-   You can streamline service delivery and engagement for your entire employee base.
+
+ See [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&family=brazil&ft:locale=en-US) for more information.
+
+-   **[Now Mobile app](https://www.servicenow.com/docs/access?context=mobile-employee-experience&family=brazil&ft:locale=en-US)**
+
+Now Mobile® enables you to manage and create tasks and access other company resources from your mobile device.
+
+Use Now Mobile® to install the default taxonomy for the employee content store application. This application auto-assigns the employee taxonomy to the Mobile Employee Service portal \(MESP\) record.
+
+-   **[ServiceNow Otto for Employee Experience](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&family=brazil&ft:locale=en-US)**
+
+Use the ServiceNow Otto for Employee Experience application so that your employees can have a seamless conversational interaction with ServiceNow Otto.
+
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)
+

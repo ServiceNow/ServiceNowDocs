@@ -3,9 +3,9 @@ title: Quick message author \[email\_client\_quick\_message\_author\]
 description: Creates quick messages for users in their group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-client-roles-5.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with the email client, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---

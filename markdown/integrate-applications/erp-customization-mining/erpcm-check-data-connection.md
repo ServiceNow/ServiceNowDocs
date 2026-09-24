@@ -3,13 +3,13 @@ title: Check and troubleshoot the data refresh status for ERP Semantic Mining
 description: Check the data refresh status to find out when ERP Semantic Mining most recently loaded ERP \(Enterprise Resource Planning\) data from the system of record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-check-data-connection.html
-release: australia
+release: brazil
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, ERP Semantic Mining overview, Workflow Data Fabric]
+breadcrumb: [Configure, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Check and troubleshoot the data refresh status for ERP Semantic Mining
@@ -26,7 +26,7 @@ Role required: sn\_erp\_mining.erp\_admin and sn\_erp\_mining.erp\_user
 
 To verify that ServiceNow AI Platform® is synchronized with the ERP system of record, ServiceNow AI Platform reloads data every 24 hours from the system of record.
 
-You can receive email notifications for connection task success and failures. For more information, see [Getting notifications for ERP Semantic Mining connection updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-notifications.md).
+You can receive email notifications for connection task success and failures. For more information, see [Getting notifications for ERP Semantic Mining connection updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erpcm-notifications.md).
 
 ## Procedure
 
@@ -47,15 +47,15 @@ You can receive email notifications for connection task success and failures. Fo
 
 4.  View a refined subset of connection tasks by selecting one of the following tabs.
 
-<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d225289e209">
+<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d223239e209">
 
 Tab
 
-</th><th align="left" id="d225289e212">
+</th><th align="left" id="d223239e212">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d225289e218">
+</th></tr></thead><tbody><tr><td id="d223239e218">
 
 **All tasks**
 
@@ -63,7 +63,7 @@ Description
 
 Log list of all connection tasks.
 
-</td></tr><tr><td id="d225289e227">
+</td></tr><tr><td id="d223239e227">
 
 **Task issues**
 
@@ -71,7 +71,7 @@ Log list of all connection tasks.
 
 Log list of all connection tasks that have an **Error** or **Warning** status.
 
-</td></tr><tr><td id="d225289e242">
+</td></tr><tr><td id="d223239e242">
 
 **Snapshots**
 
@@ -94,7 +94,7 @@ List of scan results that have been saved, exported, and imported.
     -   Use **Reset AI/ML analysis** to reset the analysis so the flow can run again. This reset enables you to control the ML training in the mining process.
 6.  View the information for each task and note actions that you must take by scrolling to the task list.
 
-    For a description of the field values, see [ERP Semantic Mining task list field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-task-list-details.md).
+    For a description of the field values, see [ERP Semantic Mining task list field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erpcm-task-list-details.md).
 
     For any column, you can select the more options icon \[Omitted image "more-options-icon.png"\] Alt text: to perform additional actions, such as **Show matching** and **Filter out**.
 
@@ -111,5 +111,5 @@ List of scan results that have been saved, exported, and imported.
 8.  Refresh the Issues to review list and the Executed tasks list by selecting their respective refresh icons \[Omitted image "refresh-icon.png"\] Alt text:.
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

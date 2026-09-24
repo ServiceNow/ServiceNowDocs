@@ -3,9 +3,9 @@ title: Control automatic closure of project tasks
 description: Manage the automatic closure of projects in the SPM integration by using the sn\_ind\_tmt\_orm.project.task.auto.closure system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/control-auto-closure-proj-tasks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Strategic Portfolio Management integration, Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---

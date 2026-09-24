@@ -3,21 +3,21 @@ title: Data readiness for implementing AI on the ServiceNow AI Platform
 description: High-quality data that is complete, accurate, and contextually relevant is the foundation for delivering precise, meaningful, and trustworthy AI responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-data-readiness.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, agentic AI, AI readiness]
-breadcrumb: [ServiceNow AI implementation, Enable AI experiences]
+breadcrumb: [Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
 # Data readiness for implementing AI on the ServiceNow AI Platform
 
 High-quality data that is complete, accurate, and contextually relevant is the foundation for delivering precise, meaningful, and trustworthy AI responses.
 
-## ServiceNow Otto requires high-quality data
+## AI requires high-quality data
 
-To unlock the full potential of AI on your instance, the quality of your data is paramount. For AI to deliver accurate, context-aware, and actionable outputs, it must be trained and operate on high-quality data that is complete, consistent, and structured. When your data is well-prepared, can interpret user queries with greater accuracy, enabling faster resolutions and more effective self-service experiences.
+To unlock the full potential of AI on your instance, the quality of your data is paramount. For AI to deliver accurate, context-aware, and actionable outputs, it must be trained and operate on high-quality data that is complete, consistent, and structured. When your data is well-prepared, AI can interpret user queries with greater accuracy, enabling faster resolutions and more effective self-service experiences.
 
 Whether it's summarizing complex incidents, generating resolution notes, or creating knowledge articles, AI relies on detailed records that reflect the full lifecycle of a task. Short or incomplete cases often lack the depth needed for meaningful AI interpretation, which can result in vague or unhelpful responses. The importance of data readiness extends beyond technical accuracy—it directly impacts user trust and adoption.
 
@@ -31,30 +31,30 @@ Follow these tips to assess your organization's data readiness:
 -   Avoid using vague or generic language in task descriptions and updates.
 -   Maintain a clean and structured knowledge base and ensure that knowledge articles are linked to resolved cases.
 
-    For details, see [Knowledge Base readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-kb-readiness.md).
+    For details, see [Knowledge Base readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-kb-readiness.md).
 
 -   Audit Service Catalog items.
 
-    For details, see [Service Catalog readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-srvc-catalog.md).
+    For details, see [Service Catalog readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-srvc-catalog.md).
 
 -   Use the AI Readiness Evaluation app to assess catalog, case, and knowledge data.
 -   Use the AI Data Kit to curate and cleanse data sources.
 -   Align stakeholders \(data owners, product managers, engineers\) around shared standards for AI-ready data.
 
-    For details, see [AI governance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-governance.md).
+    For details, see [AI governance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-governance.md).
 
 
 For more information, see [Data Readiness Checklist](https://mynow.servicenow.com/now/best-practices/assets/now-assist-data-readiness-checklist).
 
-## Now Assist Readiness Evaluation app
+## AI Readiness Evaluation app
 
-Data readiness assessments can be time-consuming and manual, especially when evaluating whether catalog items are conversational or if knowledge articles are embedded in inaccessible formats like PDFs. The Now Assist Readiness Evaluation app helps automate this process by analyzing service catalog entries, cases, and incidents, and then providing actionable recommendations to prepare data for AI use. It also enables you to assess whether updates, installations, or customizations of your instance could affect implementation. The assessments provide direct hyperlinks to improve any issues found.
+Data readiness assessments can be time-consuming and manual, especially when evaluating whether catalog items are conversational or if knowledge articles are embedded in inaccessible formats like PDFs. The AI Readiness Evaluation app helps automate this process by analyzing service catalog entries, cases, and incidents, and then providing actionable recommendations to prepare data for AI use. It also enables you to assess whether updates, installations, or customizations of your instance could affect implementation. The assessments provide direct hyperlinks to improve any issues found.
 
-For more information, see [AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.md).
+For more information, see [AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.md).
 
-Install Now Assist Readiness Evaluation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install AI Readiness Evaluation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## AI Data Kit
 
-If the base system generative AI skills don't fit your needs, use the AI Data Kit to curate, cleanse, and manage data for AI evaluations. You can create custom datasets and data collections that can be used in AI Skill Kit for evaluation. For more information, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
+If the base system generative AI skills don't fit your needs, use the AI Data Kit to curate, cleanse, and manage data for AI evaluations. You can create custom datasets and data collections that can be used in AI Skill Kit for evaluation. For more information, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 

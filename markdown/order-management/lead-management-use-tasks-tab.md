@@ -3,9 +3,9 @@ title: Add lead tasks
 description: Create lead tasks to follow-up calls, emails, or meetings with your to progress on the lead.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management-use-tasks-tab.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -26,7 +26,7 @@ Role required: sales\_agent
 
     -   On the **Leads- All** page, select **Create task**.
     -   Open the lead record, select the **Tasks** tab and select **New** to start a new lead task or select an existing lead task to make changes.
-    To [Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-lead.md), select **New**.
+    To [Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-new-lead.md), select **New**.
 
     **Note:**
 
@@ -34,7 +34,7 @@ Role required: sales\_agent
 
 3.  On the Create New Lead Task form, fill in the fields.
 
-    For a description of the field values, see [Create new lead task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-lead-task-form.md).
+    For a description of the field values, see [Create new lead task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-lead-task-form.md).
 
 4.  Select **Create Task**.
 
@@ -43,17 +43,17 @@ Role required: sales\_agent
 
 ## What to do next
 
-You can create appointments in your lead tasks. To learn more, see [Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-an-appoinment.md).
+You can create appointments in your lead tasks. To learn more, see [Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management-create-an-appoinment.md).
 
--   **[Create appointments for lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-create-appointment.md)**  
+-   **[Create appointments for lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-create-appointment.md)**  
 Create appointments with your stakeholders to conduct business discussions for your lead.
 
-**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-using.md)
 
 **Related topics**  
 
 
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-lead-management.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management.md)
 

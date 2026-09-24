@@ -3,13 +3,13 @@ title: Manage template access
 description: Control who has access to templates in App Engine Studio \(AES\) using the app\_template\_admin role. App template admins activate and deactivate templates and grant other users access to share their templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/manage-template-access.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Perform configuration tasks, Configure AES, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Perform configuration tasks, Configure AES, Configure, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Manage template access
@@ -39,5 +39,5 @@ To create apps and work with templates in AES, users must be an admin or in the 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Perform AES configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-config-tasks.md)
+**Parent Topic:**[Perform AES configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-config-tasks.md)
 

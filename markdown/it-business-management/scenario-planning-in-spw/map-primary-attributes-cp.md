@@ -3,11 +3,11 @@ title: Map primary attributes to resources
 description: Locate and map the primary group, primary role, and primary skill for the resources associated with existing employee profile tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/map-primary-attributes-cp.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Capacity configuration in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Locate and map the primary group, primary role, and primary skill for the resour
 
 ## Before you begin
 
-[Generate employee profiles for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/gen-emp-profiles-cp.md).
+[Generate employee profiles for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/gen-emp-profiles-cp.md).
 
 Role required: admin
 

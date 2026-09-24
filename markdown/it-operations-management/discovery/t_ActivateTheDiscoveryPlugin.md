@@ -3,11 +3,11 @@ title: Request Discovery
 description: Request and activate the Discovery \(com.snc.discovery\) plugin to enable Discovery capabilities on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ActivateTheDiscoveryPlugin.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-Discovery is available as a separate subscription from the rest of the ServiceNow AI Platform and requires the Discovery \(com.snc.discovery\) plugin. When the Discovery plugin is activated, several plugins and applications are also installed. For more information, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md). For additional details about plugins, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
+Discovery is available as a separate subscription from the rest of the ServiceNow AI Platform and requires the Discovery \(com.snc.discovery\) plugin. When the Discovery plugin is activated, several plugins and applications are also installed. For more information, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md). For additional details about plugins, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
 
 ## Procedure
 
@@ -58,7 +58,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -79,7 +79,7 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-setup.md)
+[Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-setup.md)
 
-[Discovery monitoring and issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryTroubleshooting.md)
+[Discovery monitoring and issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryTroubleshooting.md)
 

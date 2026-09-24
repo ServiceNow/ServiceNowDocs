@@ -3,12 +3,12 @@ title: Configure asset-specific metrics for ServiceNow AI systems
 description: Add or remove metrics for one or more ServiceNow AI systems, without changing your organization's global metric configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-configure-asset-metrics-servicenow.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure asset-specific metrics for ServiceNow AI systems
@@ -19,11 +19,11 @@ Add or remove metrics for one or more ServiceNow AI systems, without changing yo
 
 Role required: sn\_ai\_governance.ai\_steward
 
-**Note:** The AI system must have evaluation enabled. See [Enable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-enable-evaluation.md).
+**Note:** The AI system must have evaluation enabled. See [Enable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-enable-evaluation.md).
 
 ## About this task
 
-You can optionally override which metrics are evaluated for specific ServiceNow AI systems. For details on adding or removing metrics for an AI system from that system's asset record instead, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
+You can optionally override which metrics are evaluated for specific ServiceNow AI systems. For details on adding or removing metrics for an AI system from that system's asset record instead, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
 
 ## Procedure
 
@@ -33,15 +33,17 @@ You can optionally override which metrics are evaluated for specific ServiceNow 
 
 3.  Configure the metrics that you want to evaluate for specific AI systems.
 
-<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d270412e141">
+    **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
+
+<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d250096e147">
 
 Option
 
-</th><th align="left" id="d270412e144">
+</th><th align="left" id="d250096e150">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d270412e150">
+</th></tr></thead><tbody><tr><td id="d250096e156">
 
 **Add one or more AI systems and selected metrics**
 
@@ -54,7 +56,7 @@ Steps
 5.  Select **Add metrics**.
 
 
-</td></tr><tr><td id="d270412e186">
+</td></tr><tr><td id="d250096e192">
 
 **Remove one or more metrics**
 
@@ -67,7 +69,7 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure evaluation scoring for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-servicenow-ai-systems.md)
+**Parent Topic:**[Configure evaluation scoring for ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-servicenow-ai-systems.md)
 
 **Related topics**  
 

@@ -1,18 +1,18 @@
 ---
-title: Analytics and Reporting Solutions for Audit Management
+title: Analytics and reporting solutions for Audit Management
 description: Platform Analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/grc-audit-mgmt-content-pack.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Management, Governance, Risk, and Compliance]
 ---
 
-# Analytics and Reporting Solutions for Audit Management
+# Analytics and reporting solutions for Audit Management
 
 Platform Analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 
@@ -22,7 +22,7 @@ The GRC: Audit Management Analytics and Reporting Solution is available on the S
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 To enable the Analytics and Reporting solution for GRC: Audit Management, perform these steps.
 
@@ -32,7 +32,7 @@ To enable the Analytics and Reporting solution for GRC: Audit Management, perfor
 
 **Important:**
 
-Starting with version 18.1.5 of the Audit Management application, the Analytics and Reporting solutions for Audit Management such as the Audit Engagement Overview dashboard and Audit Manager dashboard are available in the Next Experience UI Framework.
+Starting with version 18.1.5 of the Audit Management application, the Analytics and Reporting solutions for Audit Management are available in the Next Experience UI Framework. These solutions include the Audit Engagement Overview dashboard and Audit Manager dashboard.
 
-For more information, see [Audit Engagement Overview Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/grc-audit-mgmt-dashboard.md) and [Audit Manager Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-manager-dashboard.md).
+For more information, see [Audit Engagement Overview Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/grc-audit-mgmt-dashboard.md) and [Audit Manager Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/audit-manager-dashboard.md).
 

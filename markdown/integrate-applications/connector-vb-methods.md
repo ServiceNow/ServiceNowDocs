@@ -3,9 +3,9 @@ title: VB connector methods
 description: The VB connector method executes the VB.Net script you had written as part of the VB.NET connector configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connector-vb-methods.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [VB.Net, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -34,5 +34,5 @@ You must configure the method before using it. To configure, do the following st
     |Result \(String\)|Returns the output of the Execute method execution.|Not applicable|
 
 
-**Parent Topic:**[VB.Net](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/vb-net.md)
+**Parent Topic:**[VB.Net](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/vb-net.md)
 

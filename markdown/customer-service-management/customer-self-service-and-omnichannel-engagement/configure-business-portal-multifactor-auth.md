@@ -3,20 +3,20 @@ title: Multi-factor authentication for Business and Consumer Portal
 description: Enable multi-factor authentication for Business and Consumer portal users so that access to the self-service web portals is more secure from potential vulnerabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal-multifactor-auth.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Multi-factor authentication for Business and Consumer Portal
 
 Enable multi-factor authentication for Business and Consumer portal users so that access to the self-service web portals is more secure from potential vulnerabilities.
 
-Multi-factor authentication, also known as two-step verification, is a security requirement that asserts a user enter more than one set of credentials. For more information, see [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mfa-landing.md).
+Multi-factor authentication, also known as two-step verification, is a security requirement that asserts a user enter more than one set of credentials. For more information, see [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/mfa-landing.md).
 
 ## Multi-factor authentication properties
 
@@ -56,7 +56,7 @@ The time in minutes, the one time code sent to user's email address is valid for
 
 </td><td>
 
-Enter a number in minutes that specifies how long the reset code is valid. See [Log on with multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_LogOnWithMultifactorAuth.md).-   Type: string
+Enter a number in minutes that specifies how long the reset code is valid. See [Log on with multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_LogOnWithMultifactorAuth.md).-   Type: string
 -   Default value: 10
 -   Location: **Multi-factor Authentication** &gt; **Properties**
 
@@ -75,10 +75,5 @@ The property's value is used in the following calculation: `current time - x/2` 
 
 Add the external role sn\_customerservice.customer to the multi-factor roles.
 
-Users with this role is required to use multi-factor authentication. For more information, see [Configure user-based multi-factor criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_RequireMultifactorAuthForAUser.md).
-
-**Related topics**  
-
-
-[Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mfa-landing.md)
+Users with this role is required to use multi-factor authentication. For more information, see [Configure user-based multi-factor criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_RequireMultifactorAuthForAUser.md).
 

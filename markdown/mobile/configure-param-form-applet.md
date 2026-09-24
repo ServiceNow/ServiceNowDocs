@@ -3,9 +3,9 @@ title: Configure a parameterized record screen
 description: Configure a record screen to query a user for a parameter. The screen then uses this parameter to determine the record that appears on the screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-param-form-applet.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -94,7 +94,7 @@ View using \(Legacy Card/Card\)
 
 </td><td>
 
-A Card used for the header section of the record screen. Use the Mobile Card Builder to change the appearance of your mobile card or the fields displayed on the card. For more detail on using the Mobile Card Builder, see [Customize a screen using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-customize-item-view.md).
+A Card used for the header section of the record screen. Use the Mobile Card Builder to change the appearance of your mobile card or the fields displayed on the card. For more detail on using the Mobile Card Builder, see [Customize a screen using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mcb-customize-item-view.md).
 
  The best practice is using **Card**.
 
@@ -258,7 +258,7 @@ Data Parameter used for filtering the data item. Use parameters to accept values
 
 8.  In the New Data Parameter screen, enter a name for your parameter in the **Name** field, and select the parameter **Type**.
 
-    The available types are Integer, String, Decimal, Boolean, Datetime, or Date. For more detail on available options when creating parametrized data items, see [Configure a parametrized data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-parametrized-data-item.md).
+    The available types are Integer, String, Decimal, Boolean, Datetime, or Date. For more detail on available options when creating parametrized data items, see [Configure a parametrized data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-parametrized-data-item.md).
 
 9.  Use the left panel hierarchy tree to return to the data item you just created a data parameter for.
 

@@ -3,9 +3,9 @@ title: Set map application scope
 description: Enable map application scope to specify which application can modify your Map Page configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-map-application-scope.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Map pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -27,7 +27,7 @@ Role required: admin
 3.  From the Application list, select the required application.
 
 
-**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
+**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_MapPages.md)
 
 **Related topics**  
 

@@ -3,14 +3,14 @@ title: Enable offline monitoring
 description: Enable offline monitoring so that metrics collected on a device while it's disconnected from the instance are automatically resent once the device reconnects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/enable-offline-monitoring.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-07-28"
 reading_time_minutes: 1
 keywords: [offline monitoring, data loss handler, enable data loss job, offline data recovery]
-breadcrumb: [Collecting DEX metrics, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Enable offline monitoring

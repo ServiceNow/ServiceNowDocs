@@ -3,11 +3,11 @@ title: View agent information
 description: View details about an agent at a particular location by selecting the agent icon on the Dispatcher Workspace map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/c\_ViewAgentInformation.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -88,5 +88,5 @@ All the skills assigned to the agent.
 **Related topics**  
 
 
-[Configure the fields to appear on task cards or in the Contextual Side Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-popover-fields.md)
+[Configure the fields to appear on task cards or in the Contextual Side Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/configuring-popover-fields.md)
 

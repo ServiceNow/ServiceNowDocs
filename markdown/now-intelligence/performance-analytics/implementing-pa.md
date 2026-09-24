@@ -3,11 +3,11 @@ title: Implement Performance Analytics
 description: Follow these steps to begin using Performance Analytics to improve your service levels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/implementing-pa.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Performance Analytics \(Indicator data sources\), Platform
 
 Follow these steps to begin using Performance Analytics to improve your service levels.
 
-A properly implemented Performance Analytics solution results in a set of dashboards tailored for the needs of specific people in your company. For an example, see the video linked from [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/success-dashboard-indicator-landing.md).
+A properly implemented Performance Analytics solution results in a set of dashboards tailored for the needs of specific people in your company. For an example, see the video linked from [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/success-dashboard-indicator-landing.md).
 
 ## Plan and Prepare
 
@@ -26,11 +26,11 @@ Define goals and measurements to assess and drive improvement.
 2.  Determine factors and behaviors which affect the health of these business processes.
 3.  Decide on the metrics to measure.
 
-For a tool to help you plan and prepare your Performance Analytics solution, see [Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md).
+For a tool to help you plan and prepare your Performance Analytics solution, see [Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/designing-pa-solution.md).
 
 ## Start with Platform Analytics Solutions
 
-Before you create new indicators, try out the built-in dashboards and indicators available in Platform Analytics Solutions.
+Before you create indicators, try out the built-in dashboards and indicators available in Platform Analytics Solutions.
 
 **Important:** Set up and test Platform Analytics Solutions on a non-production instance before enabling them in production.
 
@@ -42,7 +42,7 @@ Before you create new indicators, try out the built-in dashboards and indicators
 
 ## Collect data
 
-Collection jobs need to be configured to run with the desired frequency and activated.
+Collection jobs must be configured to run with the desired frequency and activated.
 
 1.  Schedule and activate data collector jobs.
 2.  Run historical data collector jobs as a one-off to populate empty indicators.
@@ -55,12 +55,12 @@ Display actionable KPIs that tell the story of your business process and display
 2.  Grant dashboard access to stakeholders.
 3.  Empower everyone to take action with embedded, real-time analytics.
 
--   **[Planning your indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/planning-indicators.md)**  
+-   **[Planning your indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/planning-indicators.md)**  
 Before creating an indicator, clarify what goals you wish to attain with the indicator.
--   **[Performance Analytics data flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-data-flow.md)**  
+-   **[Performance Analytics data flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-data-flow.md)**  
 Before you get started with Performance Analytics, understand how the data flows through the platform, ultimately resulting in your ability to visualize process improvements.
--   **[Performance Analytics architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-architecture.md)**  
+-   **[Performance Analytics architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-architecture.md)**  
 Before using Performance Analytics, familiarize yourself with how the layers of architecture take you from raw database entries to insightful visuals on dashboards.
 
-**Parent Topic:**[Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_GetStartedwithPA.md)
+**Parent Topic:**[Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_GetStartedwithPA.md)
 

@@ -3,11 +3,11 @@ title: Documents widget
 description: You can add, edit, or delete documents associated with records based on user permissions through the Documents widget. You can use this widget in your portal or clone and customize it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/documents-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring 
 
 You can add, edit, or delete documents associated with records based on user permissions through the Documents widget. You can use this widget in your portal or clone and customize it.
 
-**Note:** The Documents widget is available with the Multi Provider Document Services Framework plugin \(com.snc.multiprovider\_documents\). For more information, see [Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mp-document-services-framework-landing.md).
+**Note:** The Documents widget is available with the Multi Provider Document Services Framework plugin \(com.snc.multiprovider\_documents\). For more information, see [Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mp-document-services-framework-landing.md).
 
 Add, edit, and delete documents related to a record with the Documents widget. You can drag and drop multiple files at a time, including editing and adding new versions. The default version shown is the latest version.
 
@@ -79,7 +79,7 @@ Metadata form view
 The configured form view to be opened when **Edit Document** is selected or while uploading a single file. By default, the **dw** form view is selected. This form contains only **Name** and **Description** fields.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

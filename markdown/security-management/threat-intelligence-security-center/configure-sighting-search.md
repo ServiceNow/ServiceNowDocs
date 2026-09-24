@@ -3,11 +3,11 @@ title: Configure Sighting Search
 description: Configure sighting search integration to search your organization logs for one or more observables to determine how many times each observable appears, within a specified date range or number of days.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/configure-sighting-search.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -115,12 +115,12 @@ Unique description of the new enrichment integration.
     The enrichment integration is enabled. You can also enable a particular enrichment integration from the **Actions** on the integration tile on the **Catalog**.
 
 
--   **[Create Sighting Search queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/manage-sighting-search-configurations.md)**  
+-   **[Create Sighting Search queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/manage-sighting-search-configurations.md)**  
 Sighting search configurations define queries that search for observables across your security environment during investigations. Configure these queries to determine how often specific indicators appear in your data sources.
--   **[Using Sighting Search parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/manage-sighting-search-parameters.md)**  
+-   **[Using Sighting Search parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/manage-sighting-search-parameters.md)**  
 Configure advanced search parameters to create complex queries with logic operators and other features supported by your log store. Use these parameters when basic search criteria are insufficient for your investigation needs.
--   **[Get started with Sighting Search Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-get-sighting-configs.md)**  
+-   **[Get started with Sighting Search Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-get-sighting-configs.md)**  
 Sighting Search Configurations define how threat intelligence data is searched and matched against your environment. Configure these settings to customize threat detection and improve security monitoring accuracy.
 
-**Parent Topic:**[TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
+**Parent Topic:**[TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
 

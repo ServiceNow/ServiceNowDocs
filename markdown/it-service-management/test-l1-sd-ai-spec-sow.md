@@ -3,9 +3,9 @@ title: Test the L1 IT Service Desk AI Specialist
 description: Test your L1 IT Service Desk AI Specialist on a single record to preview how it works, and verify that it matches your intentions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/test-l1-sd-ai-spec-sow.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

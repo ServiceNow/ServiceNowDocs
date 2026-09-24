@@ -3,11 +3,11 @@ title: Associate monetary and non-monetary benefit plans
 description: Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the project for the hybrid benefit plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/associate-monetary-and-non-monetary-benefit-plans-project.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -40,15 +40,15 @@ You can associate a monetary benefit plan with a non-monetary benefit plan and v
 
 6.  Associate a monetary or non-monetary benefit plan.
 
-<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d76898e115">
+<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d76385e115">
 
 Option
 
-</th><th align="left" id="d76898e118">
+</th><th align="left" id="d76385e118">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d76898e124">
+</th></tr></thead><tbody><tr><td id="d76385e124">
 
 **Associate an existing benefit plan**
 
@@ -56,14 +56,14 @@ Action
 
 On the Benefit Plan form, fill in the **Associated benefit** field with the benefit plan that you want to associate.
 
-</td></tr><tr><td id="d76898e136">
+</td></tr><tr><td id="d76385e136">
 
 **Associate a new benefit plan**
 
 </td><td>
 
 1.  On the Benefit Plan form, select **Associate new benefit**.
-2.  On the form, fill in the fields. For details, see [Create a monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-project-benefit-plan.md) and [Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md).
+2.  On the form, fill in the fields. For details, see [Create a monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-project-benefit-plan.md) and [Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md).
 
 
 </td></tr></tbody>
@@ -78,7 +78,7 @@ The selected benefit plan is associated with another plan.
 
 Select the **View Associated benefit plan** related link to view the associated benefit plan.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -98,6 +98,10 @@ Select the **View Associated benefit plan** related link to view the associated 
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 
@@ -127,7 +131,7 @@ Select the **View Associated benefit plan** related link to view the associated 
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Create a monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-project-benefit-plan.md)
+[Create a monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-project-benefit-plan.md)
 
-[Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md)
+[Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md)
 

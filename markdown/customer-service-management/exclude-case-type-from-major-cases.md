@@ -3,9 +3,9 @@ title: Exclude a case type from major cases
 description: Edit the CSUIActionsImpl script include to exclude specific case types from major case support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/exclude-case-type-from-major-cases.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure major issue management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

@@ -3,9 +3,9 @@ title: Migrate the Verizon eBonding Integration to a Production System
 description: This topic outlines the tasks required for moving the Verizon eBonding integration from a Dev/Test environment to a Production environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_MigrVerizoneBondIntegToAProdSys.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,7 +32,7 @@ Perform these tasks in order.
 -   Task 3: Configure the integration properties to work with the Production Verizon eBonding system. This is userID, password, and other properties provided by your Verizon representative.
 -   Task 4: Change all the Verizon eBroker SOAP Message functions to use Verizon's production SOAP Endpoint. In most cases, the endpoint URL will be: https://pubwebsvc.vzbi.com:443/Trouble\_Management\_v3r0. Verify this URL with the Verizon implementation specialist.
     -   In the **SOAP Message Functions** related list, click each function, clear the **Lock** check box, and enter the production endpoint.
-    -   Configure the **SOAP Message Functions** related list and add the **SOAP endpoint** column. In the **SOAP Message Functions** list view, unlock and update the endpoint for all records by [Edit multiple records in a list using the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditMultRecUsingListEditor.md).
+    -   Configure the **SOAP Message Functions** related list and add the **SOAP endpoint** column. In the **SOAP Message Functions** list view, unlock and update the endpoint for all records by [Edit multiple records in a list using the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_EditMultRecUsingListEditor.md).
 -   Task 5: Apply any customizations. If customizations to the integration on the Dev system were captured in an update set, apply that update set to the Production system.
 -   Task 6: Provide Verizon with the production SOAP Endpoint. The SOAP endpoint should look something like this: https://yourproductioninstance.service-now.com/ETMSPublish.do?WSDL.
 -   Task 7: Coordinate a Production turn up with your Verizon representative to do basic testing.
@@ -40,5 +40,5 @@ Perform these tasks in order.
     **Warning:** Do not create test tickets against the production system without working with the Verizon team. Any tickets created are treated as real tickets.
 
 
-**Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ServiceNowProvidedintegrations.md)
+**Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ServiceNowProvidedintegrations.md)
 

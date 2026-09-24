@@ -3,11 +3,11 @@ title: Use Service Portal with Multi-Provider SSO to redirect a URL
 description: Service Portal uses a combination of system properties and script includes to determine how the system handles URL redirects for users logging in to the portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_UsingESSPagesWithMultiProviderSSO.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -26,8 +26,8 @@ If you are using the system property to automatically redirect to your primary I
 
 ## Procedure
 
-1.  [Configure the Service Portal login page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_SPSSOLoginAndRedirects.md)
+1.  [Configure the Service Portal login page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_SPSSOLoginAndRedirects.md)
 
-2.  [Redirect to Service Portal after login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_SPSSOLoginAndRedirects.md)
+2.  [Redirect to Service Portal after login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_SPSSOLoginAndRedirects.md)
 
 

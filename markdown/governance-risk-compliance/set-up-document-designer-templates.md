@@ -3,9 +3,9 @@ title: Set up the template configurations
 description: Set up the template relationship registry using the Template Configurations module from the General administration setup. Configure data relationships, content configurations, and scripted variables for using the Document designer application so that required data gets displayed in the reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-document-designer-templates.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generating reports using Document designer, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -58,5 +58,5 @@ Role required: sn\_bcm.admin
 
 ## What to do next
 
-For the newly created template, create a data relationship path from the template configuration to navigate to any table that you require. For more information, see [Configure the data relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-data-rel-fortemp-config.md).
+For the newly created template, create a data relationship path from the template configuration to navigate to any table that you require. For more information, see [Configure the data relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-data-rel-fortemp-config.md).
 

@@ -3,11 +3,11 @@ title: Enable public access to the chat widget
 description: Enable public access to the standard chat Virtual Agent chat widget for portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/enable-public-access-web-client.html
-release: australia
+release: brazil
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
@@ -41,5 +41,5 @@ Public access to the standard chat Virtual Agent chat widget defaults to off. Us
     A message displays confirming that the setting has been saved.
 
 
-**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ci-configuring-chat-features.md)
 

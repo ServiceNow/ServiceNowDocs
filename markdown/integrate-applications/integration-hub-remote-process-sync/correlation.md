@@ -3,11 +3,11 @@ title: Correlation
 description: Establish a synchronization relationship between records that reside on separate instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/correlation.html
-release: australia
+release: brazil
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---

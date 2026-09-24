@@ -1,18 +1,18 @@
 ---
-title: Scheduled job to migrate resource plans and cost plans
+title: Activate a scheduled job to migrate resource plans and cost plans
 description: Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands. This job converts them to resource assignments and attribute-based cost plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration of resource plans and cost plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Scheduled job to migrate resource plans and cost plans
+# Activate a scheduled job to migrate resource plans and cost plans
 
 Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands. This job converts them to resource assignments and attribute-based cost plans.
 
@@ -30,12 +30,12 @@ Role required: admin
 
 4.  Edit the fields on the Scheduled Script Execution form to customize the job and meet your requirements.
 
-    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
+    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
 
 5.  Select **Execute Now** to execute the scheduled job or select **Update** to save your changes.
 
-    Alternatively, you can [migrate resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md) and [migrate operational resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-operational-rsrc-plans.md) for required projects and demands.
+    Alternatively, you can [migrate resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md) and [migrate operational resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/migrate-operational-rsrc-plans.md) for required projects and demands.
 
 
-**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
+**Parent Topic:**[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
 

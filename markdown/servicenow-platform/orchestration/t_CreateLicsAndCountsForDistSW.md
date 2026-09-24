@@ -3,11 +3,11 @@ title: Create licenses and counters for distributed software
 description: Licenses and software counters are associated with the software model and must be created if you want to track the license for software deployed by client software distribution \(CSD\).Software deployed by Client Software Distribution \(CSD\) can be ordered from the service catalog by individual users or by approved users on behalf of others.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t\_CreateLicsAndCountsForDistSW.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Client Software Distribution, Orchestration applications, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,7 +35,7 @@ You can create software licenses and counters in Software Asset Management for s
 5.  Run the counter to retrieve the software license information.
 
 
-**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md)
+**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md)
 
 ## Client software distribution ordering process
 
@@ -49,11 +49,11 @@ All software deployed by CSD requires users to specify the beginning date for th
 
 If the catalog item is configured for revocation \(uninstall\), the form displays the **Lease end** field, which allows the requester to define an end date and time for the lease. The system validates user input in these fields to ensure that the dates selected define a future window. The **Lease end** field is not mandatory and can be left blank to order software with no end date.
 
-**Note:** For systems deploying software from Microsoft System Center Configuration Management \(SCCM\), the **Lease end** field is only available if the [SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigureSCCMCollections.md) specifies an uninstall collection.
+**Note:** For systems deploying software from Microsoft System Center Configuration Management \(SCCM\), the **Lease end** field is only available if the [SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_ConfigureSCCMCollections.md) specifies an uninstall collection.
 
 ### Software offered only to the logged in user
 
-If the [software catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateCatItemSCCMApp.md) is configured with the **Order on behalf of** check box cleared, the **User** field does not appear on the order form. The logged in user selects the device on which to deploy the software from the **Device to install this software on** field. Only those devices assigned to the logged in user appear in the list.
+If the [software catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateCatItemSCCMApp.md) is configured with the **Order on behalf of** check box cleared, the **User** field does not appear on the order form. The logged in user selects the device on which to deploy the software from the **Device to install this software on** field. Only those devices assigned to the logged in user appear in the list.
 
 In this example, a user has logged into the service catalog to order Firefox for a computer that is assigned to the user. User selects the machine from a list of owned devices and selects the date and time the lease should begin. This software is deployed through Microsoft System Center Configuration Management \(SCCM\), but does not have an uninstall collection configured and cannot be revoked automatically by the system. As a result, the **Lease end** field is not available.
 

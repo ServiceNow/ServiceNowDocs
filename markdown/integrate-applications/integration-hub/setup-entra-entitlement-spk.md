@@ -3,7 +3,7 @@ title: Set up the Microsoft Entra Entitlement Management spoke
 description: Integrate your ServiceNow instance and the Microsoft Entra account by creating a custom OAuth application in Microsoft Entra Entitlement Management to authenticate ServiceNow requests.Create a custom app using your Azure portal to enable OAuth 2.0 authentication with the Microsoft Entra Entitlement Management spoke.Configure a connection to your Microsoft Entra Entitlement Management account. The Microsoft Entra Entitlement Management spoke connection and credential aliases use these connections to perform actions in the Microsoft Entra Entitlement Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-entra-entitlement-spk.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -77,7 +77,7 @@ Complete these steps from your Azure portal. See the [Microsoft identity platfor
 
 10. Click **Add a permission** to add the required permissions to access the APIs.
 
-    For information about permissions needed to perform the required actions, see the Spoke actions section here: [Spoke actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-entra-ent-mgmt-spk.md).
+    For information about permissions needed to perform the required actions, see the Spoke actions section here: [Spoke actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/ms-entra-ent-mgmt-spk.md).
 
     \[Omitted image "ms-azure-ad-api-perm.png"\] Alt text: Add API permissions.
 
@@ -105,7 +105,7 @@ Role required: admin.
 4.  Locate the alias for **EntraEntitlementManagement** and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Entra Entitlement Management spoke, click **View Details**.
-    -   To manage more than one Entra Entitlement Management spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Entra Entitlement Management spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
 5.  On the form, fill in these fields:

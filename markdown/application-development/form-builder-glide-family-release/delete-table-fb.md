@@ -3,11 +3,11 @@ title: Delete a table in Table Builder
 description: Delete a table from your application so that it no longer appears in the app dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/delete-table-fb.html
-release: australia
+release: brazil
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
 ---
@@ -20,7 +20,7 @@ Delete a table from your application so that it no longer appears in the app das
 
 **Note:** Parent tables can't be deleted until all existing child tables are deleted.
 
-Role required: Users must have canDelete access to **sys\_db\_object** or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: Users must have canDelete access to **sys\_db\_object** or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -37,5 +37,5 @@ Role required: Users must have canDelete access to **sys\_db\_object** or AES us
 
 The table is no longer available in the app dashboard.
 
-**Parent Topic:**[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-builder.md)
+**Parent Topic:**[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/table-builder.md)
 

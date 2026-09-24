@@ -3,11 +3,11 @@ title: Working offline on ServiceNow Agent
 description: When you are at a task site that doesn't have an internet connection, you can work on field service tasks, record time, track asset usage, create part requirements, and complete work orders and tasks using the ServiceNow Agent application.Download field service data to the application cache and enable mobile offline mode to execute field service tasks at locations with no internet connection. Synchronize the data when your mobile device is online again.Manage tasks, record time, track inventory, pause tasks, complete tasks, and view knowledge articles using your mobile device when you're offline.Repair an SLA to capture the device timestamp that was recorded when an SLA was closed on the ServiceNow Agent application in offline mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/work-offline-fieldservice-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 ### About this task
 
-You can view a list of all actions taken when your device was offline and the time stamp for each action in the offline mode outbox. Generates flat data of agent schedules that are used in the mobile application for scheduled downloads of offline payloads. The administrator can also choose to download the cache automatically in the background by setting up the [system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-field-service-mobile.md). This helps to at least give you one download of data at the beginning of the shift.
+You can view a list of all actions taken when your device was offline and the time stamp for each action in the offline mode outbox. Generates flat data of agent schedules that are used in the mobile application for scheduled downloads of offline payloads. The administrator can also choose to download the cache automatically in the background by setting up the [system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-field-service-mobile.md). This helps to at least give you one download of data at the beginning of the shift.
 
 ### Procedure
 
@@ -41,21 +41,21 @@ You can view a list of all actions taken when your device was offline and the ti
     -   Tap **Offline**.
 4.  To automatically download the scheduled cache in background, tap the **Enable** button.
 
-    For more information, see [Scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/scheduled-offline-caching.md).
+    For more information, see [Scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/scheduled-offline-caching.md).
 
     Scheduled offline caching automatically downloads your cache according to your work schedule. Scheduled caching works in the background, so you can continue to use the application while the download completes. You can also enable **Wi-Fi only** to download cache when you are connected to Wi-Fi. This provides seamless synchronization when the device turns online.
 
 5.  Do one of the following to download data and go offline.
 
-<table id="choicetable_yld_hym_wfb"><thead><tr><th align="left" id="d49687e209">
+<table id="choicetable_yld_hym_wfb"><thead><tr><th align="left" id="d51400e209">
 
 To
 
-</th><th align="left" id="d49687e212">
+</th><th align="left" id="d51400e212">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d49687e218">
+</th></tr></thead><tbody><tr><td id="d51400e218">
 
 **Take the app offline when the data is downloaded.**
 
@@ -65,7 +65,7 @@ Do this
 2.  Tap **Download cache &amp; go offline**.
  The app takes a few minutes to download the data and then takes the app offline. You can click **cancel** if you do not want to download data and go offline.
 
-</td></tr><tr><td id="d49687e249">
+</td></tr><tr><td id="d51400e249">
 
 **Manually download the data and then choose to take the app offline.**
 
@@ -86,15 +86,15 @@ Do this
     -   To clear the cache, tap **Clear cache**.
 7.  Synchronize updated records.
 
-<table id="choicetable_ufz_wr3_zfb"><thead><tr><th align="left" id="d49687e319">
+<table id="choicetable_ufz_wr3_zfb"><thead><tr><th align="left" id="d51400e319">
 
 To
 
-</th><th align="left" id="d49687e322">
+</th><th align="left" id="d51400e322">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d49687e328">
+</th></tr></thead><tbody><tr><td id="d51400e328">
 
 **Synchronize the data when your mobile device is offline**
 
@@ -105,7 +105,7 @@ Do this
 3.  Tap **Go Online &amp; Sync**.
 
 
-</td></tr><tr><td id="d49687e359">
+</td></tr><tr><td id="d51400e359">
 
 **Synchronize the data after your mobile device is connected online**
 
@@ -122,7 +122,7 @@ Do this
 **Related topics**  
 
 
-[Updating records without internet connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-end-user.md)
+[Updating records without internet connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/offline-end-user.md)
 
 ## Working with tasks when your mobile device is offline
 
@@ -131,44 +131,42 @@ Manage tasks, record time, track inventory, pause tasks, complete tasks, and vie
 With your Field Service instance on your mobile device in offline mode, you can:
 
 -   **Execute tasks assigned to you at the task location.**
-    -   Start working on tasks by [accepting or rejecting tasks assigned to you.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/accept-reject-task-on-mobile.md)
-    -   Record the time when you [start to travel to the task site or start the work on a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-task-on-mobile.md).
+    -   Start working on tasks by [accepting or rejecting tasks assigned to you.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/accept-reject-task-on-mobile.md)
+    -   Record the time when you [start to travel to the task site or start the work on a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/work-task-on-mobile.md).
 -   **View knowledge articles**
-    -   When you want to find information on how a similar work order task has been performed [Access knowledge articles attached to your work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/access-information-you-need-mobile.md).
-    -   When you want to rate an article [Provide feedback for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/access-information-you-need-mobile.md).
+    -   When you want to find information on how a similar work order task has been performed [Access knowledge articles attached to your work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/access-information-you-need-mobile.md).
+    -   When you want to rate an article [Provide feedback for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/access-information-you-need-mobile.md).
 -   **Track asset usage.**
     -   Tap **My Inventory** on your mobile app to view your inventory.
-    -   After you work on a task [record assets used for a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/use-create-asset-mobile.md).
+    -   After you work on a task [record assets used for a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/use-create-asset-mobile.md).
 -   **Record an incidental expense.**
 
-    Record an incidental expense that occurred when you’re offline: [Record an incidental expense](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_RecordAnIncidentalExpense.md)
+    Record an incidental expense that occurred when you’re offline: [Record an incidental expense](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_RecordAnIncidentalExpense.md)
 
 -   **Create a work order task.**
 
-    Create, work on, and mark a task as closed complete while offline: [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md)
+    Create, work on, and mark a task as closed complete while offline: [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md)
 
 -   **Pause work order tasks.**
 
-    When you want to take a break from the task activity [pause a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
+    When you want to take a break from the task activity [pause a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
 
 -   **Create a part requirement.**
 
-    Create a new part requirement when offline: [Request inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/request-inventory.md)
+    Create a new part requirement when offline: [Request inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/request-inventory.md)
 
 -   **Complete work orders and work order tasks.**
-    -   After you complete the work on a task [close a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
-    -   When you finish all tasks related to a work order [complete the work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
+    -   After you complete the work on a task [close a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
+    -   When you finish all tasks related to a work order [complete the work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
 
 -   **Log incidentals.**
 
-    Report the expenses such as car rental cost, mileage, car rental cost, and vendor cost to execute the work order tasks by [logging incidentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
+    Report the expenses such as car rental cost, mileage, car rental cost, and vendor cost to execute the work order tasks by [logging incidentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
 
 -   **Complete questionnaire**
 
-    Take questionnaires when mobile is offline. For more information, see [Complete questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/complete-questionnaire-mobile-app.md).
+    Take questionnaires when mobile is offline. For more information, see [Complete questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/complete-questionnaire-mobile-app.md).
 
-
-In the offline mode, the **My Schedule** option in the **My Tasks** page is not available because the FSM Schedule Events \(v\_st\_fsm\_schedule\_event\) remote table is not supported.
 
 You can close work order SLAs in offline mode. The Field Service mobile application records the device timestamp when the SLA was closed. After you connect your device online and synchronize the data, the SLA admin can repair the SLA to display the actual time the SLA was closed.
 
@@ -198,5 +196,5 @@ Agents and dispatchers can close work-order SLAs when their mobile application i
 **Related topics**  
 
 
-[Repair SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_RepairSLAs.md)
+[Repair SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_RepairSLAs.md)
 

@@ -3,11 +3,11 @@ title: Synchronize configuration settings rules
 description: Metric Intelligence configuration settings rules contain user specified values that override default values that currently exist on Metric Intelligence MID Servers. To take effect, the Metric Intelligence MID Servers must be synchronized with the updated set of configuration settings rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/synch-config-settings-rules.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Create a configuration settings rule, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -39,5 +39,5 @@ Verify that all Metric Intelligence MID Servers have been synchronized with the 
 2.  In the **Queues** pane, search the **Topics** column for `MetricConfigProbe`.
 3.  Check the **Agent** column and verify that all MID Servers are updated.
 
-**Parent Topic:**[Create a configuration settings rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-config-overriding-rule.md)
+**Parent Topic:**[Create a configuration settings rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/create-config-overriding-rule.md)
 

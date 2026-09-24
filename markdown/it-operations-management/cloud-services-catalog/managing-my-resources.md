@@ -3,11 +3,11 @@ title: Manage My Resources and resource filters
 description: Access the resources that you own, resources that are owned by a group, or anyone's resources by using the resource filter. You can then find the information that you need by using sorting functions, conditions, categories, and keywords.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/managing-my-resources.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore My Resources, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -64,5 +64,5 @@ Role required: admin
     -   Resources owned by groups I am part of: This option displays all the groups that you are part of.
     -   Resources owned by anyone: This option displays all the resources in the selected category, in Configuration Management Database \(CMDB\), and assigned.
 
-**Parent Topic:**[Exploring My Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/explore-my-resources.md)
+**Parent Topic:**[Exploring My Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/explore-my-resources.md)
 

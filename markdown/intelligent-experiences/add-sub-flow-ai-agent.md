@@ -3,11 +3,11 @@ title: Add a subflow to an AI agent
 description: Add a subflow tool to an AI agent in AI Agent Studio. Subflows are reusable sequences of processing steps that can be called from within a flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-sub-flow-ai-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a subflow to an AI agent
@@ -16,7 +16,7 @@ Add a subflow tool to an AI agent in AI Agent Studio. Subflows are reusable sequ
 
 ## Before you begin
 
-When an AI agent uses a subflow tool, the user the AI agent is running as must pass the ACL of the subflow. Ensure that the security configurations for the subflow are met by the AI agent and agentic workflow. For more information, see [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+When an AI agent uses a subflow tool, the user the AI agent is running as must pass the ACL of the subflow. Ensure that the security configurations for the subflow are met by the AI agent and agentic workflow. For more information, see [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md).
 
 Role required: sn\_aia.admin
 

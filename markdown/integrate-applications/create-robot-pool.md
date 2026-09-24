@@ -3,9 +3,9 @@ title: Create a robot pool in RPA Hub
 description: Create a robot pool in RPA Hub for an optimum utilization of robots to execute the bot processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-robot-pool.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Robot pool, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Create a robot pool in RPA Hub for an optimum utilization of robots to execute t
 
 ## Before you begin
 
-Familiarize yourself with robot pool concepts. For more information, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md).
+Familiarize yourself with robot pool concepts. For more information, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robot-pool-rpa.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -71,9 +71,9 @@ To add or remove robots from the pool that are associated with one or more publi
 
 ## What to do next
 
-Enable robot pool option for a bot process to map a bot process to the robot pool. For more information, see [Enable robot pool for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/enable-robot-pool.md).
+Enable robot pool option for a bot process to map a bot process to the robot pool. For more information, see [Enable robot pool for a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/enable-robot-pool.md).
 
-\(Optional\) Calculate the number of robots required to allocate those robots from the selected pool to execute the bot process. For more information, see [Calculate the number of robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/calculate-robots.md).
+\(Optional\) Calculate the number of robots required to allocate those robots from the selected pool to execute the bot process. For more information, see [Calculate the number of robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/calculate-robots.md).
 
-**Parent Topic:**[Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md)
+**Parent Topic:**[Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robot-pool-rpa.md)
 

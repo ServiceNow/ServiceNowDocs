@@ -3,11 +3,11 @@ title: Deployment Request form
 description: Create a deployment request for the update sets to be deployed to target instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/deployment-request-form-fields.html
-release: australia
+release: brazil
 product: ReleaseOps
 classification: releaseops
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, ReleaseOps, Deploying applications, Building applications]
 ---
@@ -34,11 +34,27 @@ The release that the deployment request is associated with. A deployment request
 
 </td></tr><tr><td>
 
+Pipeline
+
+</td><td>
+
+The pipeline that the deployment request will be assessed and deployed against, when no release is assigned. Only active pipelines can be selected.
+
+</td></tr><tr><td>
+
+Destination environment
+
+</td><td>
+
+The instance that the deployment request's update sets will be deployed to when no release is assigned. Used to run Code Diff for the deployment request and, for on-demand deployment requests, to determine where the resulting release deploys.
+
+</td></tr><tr><td>
+
 State
 
 </td><td>
 
-The state of the deployment request, which is changed throughout the release process. See [Deployment request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/deployment-request-states.md).
+The state of the deployment request, which is changed throughout the release process. See [Deployment request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/deployment-request-states.md).
 
 </td></tr><tr><td>
 
@@ -89,5 +105,5 @@ Deferred
 Checked if the deployment request was deferred due to not being in the Ready for Deployment state by its associated release's freeze date.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-reference.md)
+</table>**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releaseops-reference.md)
 

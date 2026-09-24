@@ -3,11 +3,11 @@ title: Executing the tests using Cloud Runner
 description: Execute the generated tests suite using the Cloud Runner browser option.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-execute-tests.html
-release: australia
+release: brazil
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using ATF Test Generator and Cloud Runner, ATF Test Generator and Cloud Runner, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,7 +41,7 @@ Role required: admin
 
         **Note:** As an admin user, you can hide the Cloud Runner option on the Pick a browser dialog box by setting the atf\_cloud\_runner.radio\_visible to false. The property is set to true by default.
 
-    **Note:** If you run a test suite using the cloud runner, all the tests within the suite run in parallel. See [Parallel testing using Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-parallel-test.md) for more information. The order in which the tests in a suite run is random. The parallel suites ignore the execution order and ignore abort on failure.
+    **Note:** If you run a test suite using the cloud runner, all the tests within the suite run in parallel. See [Parallel testing using Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-parallel-test.md) for more information. The order in which the tests in a suite run is random. The parallel suites ignore the execution order and ignore abort on failure.
 
 4.  Select **Run Test Suite** on the dialog box after selecting the browser.
 
@@ -52,10 +52,10 @@ Role required: admin
 5.  Select **Go to Result** if you want to review the tests execution results.
 
 
--   **[Parallel testing using Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-parallel-test.md)**  
+-   **[Parallel testing using Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-parallel-test.md)**  
 Parallel testing using the Cloud Runner involves execution of tests within a suite in parallel.
 
-**Parent Topic:**[Using ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-use.md)
+**Parent Topic:**[Using ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-use.md)
 
 **Related topics**  
 

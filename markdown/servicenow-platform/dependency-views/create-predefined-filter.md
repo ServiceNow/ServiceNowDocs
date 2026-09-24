@@ -3,11 +3,11 @@ title: Create a predefined filter
 description: Create filters to narrow down the CIs that are displayed on a Dependency Views map. You can create filters that are based on CIs' class, CIs' attributes, or CIs' relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/create-predefined-filter.html
-release: australia
+release: brazil
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -71,7 +71,7 @@ After creating a predefined filter, you can apply it to a map:
 2.  Select a filter from the **Predefined Filters** list.
 3.  Click **Apply**.
 
-**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 
@@ -90,5 +90,5 @@ After creating a predefined filter, you can apply it to a map:
 
 [Create or edit a dependency type]()
 
-[Filter the view of a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/t_FilterViewNGBSMMap.md)
+[Filter the view of a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/dependency-views/t_FilterViewNGBSMMap.md)
 

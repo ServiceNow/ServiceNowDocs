@@ -3,11 +3,11 @@ title: Viewing dashboards
 description: Create dashboards for Platform Analytics directly in Usage Insights. View dashboards that you create in Usage Insights directly in Platform Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-dashboards.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -43,10 +43,10 @@ For creating dashboards: analytics\_admin or analytics\_viewer.
     Currently, if you only have a channel-specific child role \(for example, portal\_analytics\_viewer\) but not analytics\_admin or analytics\_viewer, the Usage Insights data source doesn’t appear.
 
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/using-uxa.md)
 
 **Related topics**  
 
 
-[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md)
+[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md)
 

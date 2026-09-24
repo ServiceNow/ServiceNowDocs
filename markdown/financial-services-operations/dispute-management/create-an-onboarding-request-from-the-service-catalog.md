@@ -3,11 +3,11 @@ title: Create a card disputes case request from the service catalog
 description: Create a card disputes case request from the Customer or Consumer Service Portals by navigating to the service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Intake, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 
 1.  Create a request by going to the portal landing page or the portal menu header and then performing one of the following actions.
 
-<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d51657e75">
+<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d51714e75">
 
 **__Request Something__**
 
@@ -32,7 +32,7 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 
 On the portal landing page, select the **Request Something** link.
 
-</td></tr><tr><td id="d51657e88">
+</td></tr><tr><td id="d51714e88">
 
 **__Requests__**
 
@@ -47,10 +47,10 @@ In the portal menu header, navigate to **Requests** &gt; **Request Something**.
 
 3.  In the card disputes case intake page, fill in the information that is related to the request.
 
-    For more information on the various stages of the card disputes case within the playbook, see [Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management-workflows.md)
+    For more information on the various stages of the card disputes case within the playbook, see [Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-management-workflows.md)
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[About dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-intake-overview.md)
+**Parent Topic:**[About dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-intake-overview.md)
 

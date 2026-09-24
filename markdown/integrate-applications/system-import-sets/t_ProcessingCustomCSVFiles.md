@@ -3,11 +3,11 @@ title: Processing custom CSV files
 description: You can process CSV files that are delimited by a character other than commas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_ProcessingCustomCSVFiles.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [File type data sources, Data sources, Import sets, Imports, Workflow Data Fabric]
 ---

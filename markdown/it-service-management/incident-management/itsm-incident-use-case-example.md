@@ -3,11 +3,11 @@ title: Incident Management use case
 description: Incident Management restores normal service operation, while also minimizing impact to your business and maintaining the quality of your data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/itsm-incident-use-case-example.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Applying CSDM guidelines to Incident Management, Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -51,5 +51,5 @@ Use the Incident form to see the impact of an incident and restore affected serv
 
 \[Omitted image "incident-form-use-case.png"\] Alt text: Incident form with numbered fields.
 
-**Parent Topic:**[Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/itsm-incident-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/itsm-incident-use-case-product-view.md)
 

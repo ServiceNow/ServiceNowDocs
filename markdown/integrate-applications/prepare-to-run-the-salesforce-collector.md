@@ -3,9 +3,9 @@ title: Prepare to run the Salesforce collector
 description: Set up access for cataloging Salesforce resources by configuring user credentials, security tokens, and connected applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-the-salesforce-collector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Salesforce collector, connected application, OAuth, security token]
 breadcrumb: [Salesforce metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
@@ -41,5 +41,5 @@ Before running the Salesforce collector, configure the necessary access credenti
 5.  Confirm that the user set up for running the collector has authorization to use APIs and the connected application.
 
 
-**Parent Topic:**[Salesforce metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/salesforce-metadata-collector.md)
+**Parent Topic:**[Salesforce metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/salesforce-metadata-collector.md)
 

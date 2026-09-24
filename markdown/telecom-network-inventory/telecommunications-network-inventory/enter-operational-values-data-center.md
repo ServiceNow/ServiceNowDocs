@@ -3,11 +3,11 @@ title: Collect operational values for datacenter
 description: Record and update operational values manually for datacenters performance tracking in the Telecommunications Network Inventory application. You can use this data for further analysis and reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/enter-operational-values-data-center.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Capacity management, Configure, Telecommunications Network Inventory]
 ---
@@ -51,5 +51,5 @@ Enter the operational data for power and temperature manually and store it in th
 
 The instance stores the operational data in the clothoDB.
 
-**Parent Topic:**[Configuring capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
+**Parent Topic:**[Configuring capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
 

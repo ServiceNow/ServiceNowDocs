@@ -3,9 +3,9 @@ title: About CRM
 description: Use the Customer Relationship Management \(CRM\) applications on the ServiceNow platform to manage customer interactions, service requests, field operations, and order fulfillment across the full customer lifecycle. Whether you are starting or expanding a CRM implementation, learn more about the available products, features, and workflows that can help your organization deliver consistent, connected customer experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-about-customer-relationship-mgmt.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer Relationship Management]
 ---

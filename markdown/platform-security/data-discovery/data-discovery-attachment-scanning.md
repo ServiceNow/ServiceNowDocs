@@ -3,11 +3,11 @@ title: Attachment scanning in Data Discovery jobs
 description: Attachment scanning in Data Discovery enables you to scan, discover, and report on sensitive data in file attachments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/data-discovery-attachment-scanning.html
-release: australia
+release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a job, Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
@@ -22,15 +22,17 @@ Sensitive data such as social security Numbers \(SSN\), credit card numbers, and
 
 ## Limitations
 
--   Embedded images and attachments in PDF and DOC files will not be scanned for sensitive data.
 -   Files must be less than 10MB.
 -   Support is available for the following file types:
     -   PDF
     -   DOC\(X\)
     -   TXT
-    -   XLS
+    -   XLS\(X\)
     -   CSV
-    -   HTML
+    -   XML
     -   EML
     -   MSG
+    -   JPG
+    -   JPEG
+    -   PNG
 

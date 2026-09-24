@@ -3,11 +3,11 @@ title: Import rate lines into a rate model
 description: Use the import rate lines function to quickly add multiple rate lines from an export file into a rate model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/rate-model/import-rate-lines.html
-release: australia
+release: brazil
 product: Rate Model
 classification: rate-model
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rate Models, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,19 +18,19 @@ Use the import rate lines function to quickly add multiple rate lines from an ex
 
 ## Before you begin
 
-Set the **glide.import\_set\_row.dynamically\_add\_fields** system property to true. For more information about the property, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_ImportSetsProperties.md#section_d4y_pcf_1jb)
+Set the **glide.import\_set\_row.dynamically\_add\_fields** system property to true. For more information about the property, see 
 
 Role required: pps\_admin or it\_rate\_model\_admin
 
 ## About this task
 
-After adding or updating rate lines in a file created using the [export function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/export-rate-lines.md), you can import the rate lines from the file into the rate model.
+After adding or updating rate lines in a file created using the [export function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/rate-model/export-rate-lines.md), you can import the rate lines from the file into the rate model.
 
 **Note:** Rate lines fail to import in the following circumstances:
 
 -   Overlapping effective dates for the same set of criteria values.
 -   Criteria values with no matching data in the system. For example, a rate line might have Business Analyst as the **Role** criteria but that role does not exist in the system.
--   Rates in non-functional \(non-default\) currency but no corresponding [budget reference rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) for the required period exist in the system.
+-   Rates in non-functional \(non-default\) currency but no corresponding [budget reference rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) for the required period exist in the system.
 
 ## Procedure
 
@@ -51,7 +51,7 @@ After adding or updating rate lines in a file created using the [export function
 
 6.  Select **Run Transform** to import the data.
 
-    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_RunImport.md).
+    For more information, see Run an import.
 
 
 ## Result
@@ -59,5 +59,5 @@ After adding or updating rate lines in a file created using the [export function
 -   New rate lines are appended to the rate lines list in the rate model.
 -   Existing rate lines in the rate model are updated with the latest values.
 
-**Parent Topic:**[Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md)
+**Parent Topic:**[Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/rate-model/rate-model.md)
 

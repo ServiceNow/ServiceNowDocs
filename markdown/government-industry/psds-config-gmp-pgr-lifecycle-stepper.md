@@ -3,9 +3,9 @@ title: Configure program lifecycle stepper
 description: Control the visibility of the program lifecycle stepper on the Grant Program record page. The stepper is turned off by default and can be enabled at the instance level for deployments that follow a batch or competitive grant lifecycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-pgr-lifecycle-stepper.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [program lifecycle stepper, grants management, stepper configuration]
 breadcrumb: [Set up a grant program, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
@@ -71,9 +71,9 @@ Role required: admin
 
 The program lifecycle stepper is now visible on all Grant Program record pages in the instance. The stepper displays the current program state: Preparing Program, Accepting Proposals, Evaluating, Awarding, Post-Award, and Closed.
 
-**Parent Topic:**[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-grant-pgr.md)
+**Parent Topic:**[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-grant-pgr.md)
 
-**Previous topic:**[Configure the Spending Overview Widget and Filter pills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-config-spending-overview-widget.md)
+**Previous topic:**[Configure the Spending Overview Widget and Filter pills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gm-config-spending-overview-widget.md)
 
-**Next topic:**[Install and configure the Social Benefits Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configuring-social-benefit-playbook.md)
+**Next topic:**[Install and configure the Social Benefits Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/configuring-social-benefit-playbook.md)
 

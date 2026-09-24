@@ -3,9 +3,9 @@ title: Adding images to an icon section
 description: Upload images or icon-style images to use within your icon sections. Use personalized images to brand your mobile application. This feature is configured in the web-based UI as opposed to the Mobile App Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/add-image-icon-section.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure an icon UI section, Launcher screen UI sections, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -70,7 +70,7 @@ Role required: admin
         -   Select **New** and then from the Select Icon Section Destination Type menu, select either launcher, screen, or function option.
     4.  In the **Image** field, use the reference lookup icon to select the icon type image you created.
 
-        **Note:** For details to complete the rest of the Icon section destination type table, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-navig.md).
+        **Note:** For details to complete the rest of the Icon section destination type table, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-ui-section-config-navig.md).
 
     5.  Select **Submit**.
 

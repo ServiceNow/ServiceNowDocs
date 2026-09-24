@@ -3,11 +3,11 @@ title: Integrating scores from risk intelligence providers
 description: Risk intelligence providers generate risk scores for a variety of third-party risk domains. Your organization can purchase services from providers that return data that is analogous to personal credit scores. The scores provide insight on how trustworthy and safe a particular third party can be.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Integrate, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,13 +20,15 @@ Risk intelligence providers generate risk scores for a variety of third-party ri
 
 **Note:** You can request risk data for third parties but not for engagements.
 
--   After you register a risk intelligence provider, you specify which of the provider's scoring or rating services you’ll use. You also specify how their scores or ratings map to your TPRM ratings. For more information, see [Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md), [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md), and [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
--   You add a raw score from a provider to the provider service record for a third party. The system uses the mapping that you specified to normalize the value to the appropriate TPRM rating. For more information, see [Add a risk intelligence score to risk data for a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.md).
--   A provider-based submission rule is a set of conditions and actions. In a rule, you can specify that an update to a rating from a risk intelligence provider is the condition that triggers the action that is specified in the rule. The action might be to create and send a third-party risk assessment, issue, task, or email. For more information, see [Automate actions upon risk intelligence updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-submissrule.md).
+-   After you register a risk intelligence provider, you specify which of the provider's scoring or rating services you’ll use. You also specify how their scores or ratings map to your TPRM ratings. For more information, see [Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md), [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md), and [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
+-   You add a raw score from a provider to the provider service record for a third party. The system uses the mapping that you specified to normalize the value to the appropriate TPRM rating. For more information, see [Add a risk intelligence score to risk data for a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.md).
+-   A provider-based submission rule is a set of conditions and actions. In a rule, you can specify that an update to a rating from a risk intelligence provider is the condition that triggers the action that is specified in the rule. The action might be to create and send a third-party risk assessment, issue, task, or email. For more information, see [Automate actions upon risk intelligence updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-submissrule.md).
 
 ## Integration types
 
 Here are some examples of the types of integrations supported by ServiceNow and ServiceNow partners:
+
+**Note:** The tables in the following sections list the complete, current set of ServiceNow certified risk intelligence integrations. If a provider doesn't appear in either table, no packaged integration currently exists for it.
 
 -   Independent software vendor \(ISV\) integration types involve integrating ISV services such as EcoVadis or Black Kite.
 
@@ -291,27 +293,31 @@ Access to an automated questionnaire for Higher education organizations.
 ISV, content
 
 </td></tr></tbody>
-</table>-   **[Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md)**  
+</table>**Note:**
+
+You can build a custom integration to any risk data provider using Integration Hub and the same registration and request-type pattern described in [Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md) and [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md). This is a self-service integration that ServiceNow doesn't certify or support.
+
+-   **[Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md)**  
 Create a record for each risk intelligence provider from which you’ll request reports. The risk scores and ratings that risk intelligence providers generate are analogous to personal credit scores. The scores provide insight on how trustworthy and safe a particular third party can be.
--   **[Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md)**  
+-   **[Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md)**  
 After you register a risk intelligence provider, you specify which of the provider's scoring or rating services you’ll use. You also specify how their scores or ratings map to your TPRM ratings.
--   **[Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md)**  
+-   **[Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md)**  
 After you register a risk intelligence provider and service, you specify the available request types that you and your organization will use.
--   **[Add a risk intelligence score to risk data for a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.md)**  
+-   **[Add a risk intelligence score to risk data for a third party](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-add-score.md)**  
 You add a raw score from a provider to the provider service record for a third party. The system uses the mapping that you specified to normalize the value to the appropriate TPRM rating.
--   **[Automate actions upon risk intelligence updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-submissrule.md)**  
+-   **[Automate actions upon risk intelligence updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-submissrule.md)**  
 A provider-based submission rule is a set of conditions and actions. In a rule, you can specify that an update to a rating from a risk intelligence provider is the condition that triggers the action that is specified in the rule. The action might be to create and send a third-party risk assessment, issue, task, or email.
 
-**Parent Topic:**[Integrating TPRM with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/integrating-with-tprm.md)
+**Parent Topic:**[Integrating TPRM with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/integrating-with-tprm.md)
 
 **Related topics**  
 
 
-[Viewing risk intelligence scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-risk-intel-scores.md)
+[Viewing risk intelligence scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-risk-intel-scores.md)
 
-[Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md)
+[Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md)
 
-[Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md)
+[Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md)
 
-[Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md)
+[Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md)
 

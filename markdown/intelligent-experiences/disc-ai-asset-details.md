@@ -3,12 +3,12 @@ title: Managing AI asset details
 description: Confirm what an AI asset is, who owns it, how it operates, and what other assets depend on it before approving a change, investigating a score, or responding to an audit question.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-ai-asset-details.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-05"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [AI asset, asset record, asset details, asset relationship map, use and purpose, asset ownership]
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Managing AI asset details
@@ -31,26 +31,24 @@ Use the **Use and purpose** section to capture how an AI system operates and wha
 
 For example, the **System autonomy level** field records how independently the asset acts, with values that range from **Assistive \(AI suggests\)** at one end to **Fully Automated Execution** at the other. The **Intended outcome of the AI system** field records what business outcome the asset produces, with values such as **Efficiency Boost**, **Decision Guidance**, and **Automation of Tasks**. Together, these values give reviewers context to classify the asset and identify the controls that apply to it. Other fields in the section capture how end users interact with the asset, the level of human involvement in its workflow, and free-text descriptions of the data it uses and the people it affects.
 
-To update **Use and purpose** values, see [Update the use and purpose of an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-asset-update-use-purpose.md).
+To update **Use and purpose** values, see [Update the use and purpose of an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-asset-update-use-purpose.md).
 
 ## Asset relationship map
 
-An AI asset can depend on other AI assets. For example, an AI system can use AI models, prompts, and datasets, and can invoke other AI systems. Use the asset relationship map to see these connections, assess the impact of a planned change, and navigate to a related asset's record.
-
 \[Omitted image "disc-asset-relationship-map.png"\] Alt text: The asset relationship provides a visual depiction of everything related to the current AI asset.
 
-For step-by-step guidance, see [Trace the relationships between AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-asset-trace-relationships.md).
+For step-by-step guidance, see [Trace the relationships between AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-asset-trace-relationships.md).
 
 ## Attachments
 
 Use the **Attachments** section to keep supporting documents with the asset record, such as model cards, dataset cards, vendor contracts, and third-party documentation. Attached files open in the embedded document viewer, so reviewers can read them without downloading the file.
 
--   **[Update the use and purpose of an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-asset-update-use-purpose.md)**  
+-   **[Update the use and purpose of an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-asset-update-use-purpose.md)**  
 Update the use and purpose values for an AI asset when its operating characteristics or business outcome change so that risk classifications and governance controls continue to reflect how the asset behaves.
--   **[Use and purpose fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-asset-use-purpose-fields.md)**  
+-   **[Use and purpose fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-asset-use-purpose-fields.md)**  
 Field and value reference for the **Use and purpose** section of an AI asset record. AI stewards and AI asset owners reference these values during onboarding, reviews, and audits.
--   **[Trace the relationships between AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-asset-trace-relationships.md)**  
+-   **[Trace the relationships between AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-asset-trace-relationships.md)**  
 Identify the AI assets that depend on or feed into a specific AI asset to assess the impact of a planned change, investigate an unexpected evaluation score, or respond to an audit question about how data and models flow through your AI inventory.
 
-**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-managing-ai-assets.md)
+**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-managing-ai-assets.md)
 

@@ -3,13 +3,13 @@ title: Configure ManageEngine for external content indexing
 description: Create a server-based OAuth 2.0 client application in the Zoho API console to allow the ManageEngine external content connector to access your ManageEngine source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-manageengine-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ManageEngine external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -77,12 +77,12 @@ To allow the connector to access your ManageEngine content via the REST API, you
 Provide the following items to your connector administrator:
 
 -   The URL for your ManageEngine instance.
--   The client ID that you copied in step [3.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-manageengine-external-content-indexing.md).
--   The client secret that you copied in step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-manageengine-external-content-indexing.md).
+-   The client ID that you copied in step [3.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-manageengine-external-content-indexing.md).
+-   The client secret that you copied in step [3.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-manageengine-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a ManageEngine external content connector to retrieve public-domain knowledge articles from your ManageEngine source system.
 
-For details on creating and configuring a ManageEngine external content connector, see [Create a ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-manageengine.md).
+For details on creating and configuring a ManageEngine external content connector, see [Create a ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-manageengine.md).
 
-**Parent Topic:**[ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/manageengine-external-content-connector.md)
+**Parent Topic:**[ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/manageengine-external-content-connector.md)
 

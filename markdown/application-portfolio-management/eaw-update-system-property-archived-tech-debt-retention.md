@@ -3,9 +3,9 @@ title: Update the retention period for archived technical debts
 description: Change how long an Archived technical debt record is retained before the Delete Archived Tech Debts scheduled job permanently deletes it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-update-system-property-archived-tech-debt-retention.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [archived technical debt, retention period]
 breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -33,17 +33,17 @@ The **sn\_apm\_tpm.monthsToDeleteArchivedTechDebt** property controls how many m
 
 4.  Select **Update**.
 
-    The **Delete Archived Tech Debts** job applies the new retention period when it runs automatically on the first day of the next month. To apply the change immediately, run the job manually. For information, see [Run the Delete Archived Tech Debts job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-delete-archived-tech-debts.md).
+    The **Delete Archived Tech Debts** job applies the new retention period when it runs automatically on the first day of the next month. To apply the change immediately, run the job manually. For information, see [Run the Delete Archived Tech Debts job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-job-delete-archived-tech-debts.md).
 
 
-**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
+**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-trm.md)
 
 **Related topics**  
 
 
-[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md)
+[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md)
 
-[Run the Delete Archived Tech Debts job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-delete-archived-tech-debts.md)
+[Run the Delete Archived Tech Debts job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-job-delete-archived-tech-debts.md)
 
-[Scheduled jobs for TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm-scheduled-jobs.md)
+[Scheduled jobs for TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-tpm-scheduled-jobs.md)
 

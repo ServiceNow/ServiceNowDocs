@@ -3,11 +3,11 @@ title: Uni-directional incident ticketing integrations
 description: Consider the requirements for an external, third-party system to create tickets. Define the data that must be sent to create a ticket, and what validation is required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/c\_UniDirIncidentTicketIntegrations.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident ticketing integrations, Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -34,5 +34,5 @@ This implementation responds to the third-party system with the ticket ID. The I
 
 An implementation variation for the inbound path would be to use the Import Set Tables as interface tables. In this example, the Incident\_Interface Table stores a history of data as it was received and before the data was transformed. The destination Incident Table could store a history of how the incident has changed over time and who changed it. The transform scripts would process the import set and the business rules would run on the target table.
 
-**Parent Topic:**[Incident ticketing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentTicketingIntegrations.md)
+**Parent Topic:**[Incident ticketing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/c_IncidentTicketingIntegrations.md)
 

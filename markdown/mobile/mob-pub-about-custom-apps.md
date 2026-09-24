@@ -3,9 +3,9 @@ title: Create custom-type mobile apps with Mobile Publishing
 description: Request and create custom-type mobile apps that are equivalent to Mobile Agent and Now Mobile apps with Mobile Publishing and Mobile App Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mob-pub-about-custom-apps.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Build/configure branded apps, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -31,5 +31,5 @@ Custom apps support the following use cases:
 
 To install custom app functionality, contact your ServiceNow representative. This is a very manual process that needs to be discussed with ServiceNow before instance setup and configuration can be shared.
 
-**Parent Topic:**[Building and configuring in branded mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/build-configure-branded.md)
+**Parent Topic:**[Building and configuring in branded mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/build-configure-branded.md)
 

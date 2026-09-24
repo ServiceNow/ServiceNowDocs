@@ -3,9 +3,9 @@ title: Specify custom rules in ECC firewall
 description: Configure the External Communication Channel \(ECC\) firewall in your MID Server by specifying the custom rules to selectively allow or reject the incoming message and override the Code Signing configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/custom-yaml-conf.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
@@ -176,4 +176,6 @@ ORCHESTRATION
     ```
 
 4.  Restart the MID Server.
+
+**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/config-code-signing.md)
 

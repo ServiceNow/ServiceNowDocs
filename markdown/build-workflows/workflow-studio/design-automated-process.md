@@ -3,11 +3,11 @@ title: Create a sample playbook
 description: Create a sample playbook to standardize and automate how Service Desk agents handle chat interactions with VIP users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/design-automated-process.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Building your first playbook, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -144,7 +144,7 @@ The manual business process for this example consists of the following stages:
 
     6.  Dot-walk to **1.1 Create incident from interaction** &gt; **Incident records**.
 
-    7.  Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to add the following condition to your activity:
+    7.  Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md) to add the following condition to your activity:
 
         **\[Updated by\]** **\[is\]** **\[Activities** &gt; **1.1 Create incident from interactions** &gt; **Incident record** &gt; **Assigned to\]**.
 
@@ -190,7 +190,7 @@ The manual business process for this example consists of the following stages:
 
     7.  Dot-walk to **Activities** &gt; **1.1 Create incident from interaction** &gt; **Incident record**.
 
-    8.  Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to add the following condition to your activity:
+    8.  Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md) to add the following condition to your activity:
 
         **\[State\]** **\[is\]** **\[Resolved\]**.
 
@@ -225,7 +225,7 @@ Your process appears in as a playbook. Here, agents and fulfillers can get a tas
 
 ## What to do next
 
-Customize the Playbook layout for deployment. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md)
+Customize the Playbook layout for deployment. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md)
 
-**Parent Topic:**[Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-processes.md)
+**Parent Topic:**[Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/getting-started-processes.md)
 

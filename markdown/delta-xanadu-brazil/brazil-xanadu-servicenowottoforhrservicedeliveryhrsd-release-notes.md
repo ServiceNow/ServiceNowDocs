@@ -1,0 +1,767 @@
+---
+title: Combined ServiceNow Otto for HR Service Delivery \(HRSD\) release notes for upgrades from Xanadu to Brazil
+description: Consolidated page of all release notes for ServiceNow Otto for HR Service Delivery \(HRSD\) from Xanadu to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-servicenowottoforhrservicedeliveryhrsd-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 12
+breadcrumb: [Products combined by family]
+---
+
+# Combined ServiceNow Otto for HR Service Delivery \(HRSD\) release notes for upgrades from Xanadu to Brazil
+
+Consolidated page of all release notes for ServiceNow Otto for HR Service Delivery \(HRSD\) from Xanadu to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family ServiceNow Otto for HR Service Delivery \(HRSD\) release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading ServiceNow Otto for HR Service Delivery \(HRSD\) to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for ServiceNow Otto for HR Service Delivery \(HRSD\).
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[ServiceNow Otto for HRSD Virtual Agent topics](https://www.servicenow.com/docs/access?context=now-assist-ohcm&family=yokohama&ft:locale=en-US)**
+
+Use the [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=yokohama&ft:locale=en-US) Virtual Agent topics to place employee requests in the HCM system. Examples of requests are when an employee requests time off or updates their personal details.
+
+-   **[Use Knowledge Graph](https://www.servicenow.com/docs/access?context=na-kb-graph&family=yokohama&ft:locale=en-US)**
+
+Create and manage personalized knowledge models as Knowledge Graph schemas that are represented as nodes, edges, and their properties. Virtual Agent uses the assigned Knowledge Graph schema to resolve employee requests and queries.
+
+-   **[Create a journey using Now Assist](https://www.servicenow.com/docs/access?context=create-journey-na&family=yokohama&ft:locale=en-US)**
+
+Create Journey Accelerator plans by entering prompts to Virtual Agent without having to manually create lists and forms.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Predict service and transfer HR cases](https://www.servicenow.com/docs/access?context=predict-transfer-hrcase&family=zurich&ft:locale=en-US)**
+
+Analyze an HR case and automatically route it to the most appropriate HR service with the predict service and transfer HR cases agentic workflow.
+
+-   **[Resolve noncritical HR cases](https://www.servicenow.com/docs/access?context=employee-issue-resolver-na&family=zurich&ft:locale=en-US)**
+
+Use the resolve noncritical HR cases agentic workflow to assess the criticality of HR cases, and automatically respond to noncritical inquiries without human intervention. Human agent intervention is required when the request is identified as critical.
+
+-   **[Resolve critical HR case](https://www.servicenow.com/docs/access?context=employee-issue-resolve-critical&family=zurich&ft:locale=en-US)**
+
+Resolve critical HR requests efficiently with the resolve critical HR case agentic workflow. This workflow generates a tailored fulfillment plan for an HR case using fulfillment instructions, KB articles, or resolution notes of similar past cases. It helps accelerate the resolution process by providing planning support to HR agents.
+
+-   **[Summarize an ER case](https://www.servicenow.com/docs/access?context=now-assist-hrsd-summarize-er-case&family=zurich&ft:locale=en-US)**
+
+Use the ER case summarization skill to obtain a comprehensive overview of the ER case, which includes key details, such as allegations, evidences, and interviews.
+
+-   **[Help resolve tuition reimbursement requests](https://www.servicenow.com/docs/access?context=resolve-tuition-reimbursement-requests&family=zurich&ft:locale=en-US)**
+
+Use the policy based HR evaluator skill to automatically compare employee tuition reimbursement submissions against company policies and return a decision of approval, denial, or request for additional information.
+
+-   **[HR AI voice agents](https://www.servicenow.com/docs/access?context=now-assist-hrsd-voice-ai-agents&family=zurich&ft:locale=en-US)**
+
+Help employees handle self-service HR issues, such as creating cases, checking case status, and requesting time off, using real-time voice interactions with HR AI voice agents. With advanced speech-to-text and text-to-speech capabilities, configurable caller authentication, and seamless integration with Contact Center as a Service \(CCaaS\) providers, such as Twilio and Genesys, the agents can deliver an efficient and personalized experience for employees.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **[Streamline feedback collection and review using the Employee feedback collection AI agent](https://www.servicenow.com/docs/access?context=employee-feedback-agent&family=australia&ft:locale=en-US)**
+
+As an admin, create reusable feedback templates using the Platform Surveys tool allowing managers to select and preview templates when requesting feedback, and help them quickly view a summarized snapshot of a reportee’s recent feedback with easy navigation to the feedback page in Manager Hub for detailed insights.
+
+
+ -   **[Generate onboarding ramp-up plan](https://www.servicenow.com/docs/access?context=onboarding-ramp-up-plan-agentic-wf&family=australia&ft:locale=en-US)**
+
+The Generate onboarding ramp-up plan workflow has been enhanced to create more relevant and personalized ramp-up plans for new hires. The workflow now recommends additional Journey services \(catalogs and order guides\) based on previously completed journeys and services requested by peers in similar roles. Managers can review these recommendations in Now Assist Virtual Agent and add new services through a conversational experience.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing ServiceNow Otto for HR Service Delivery \(HRSD\) features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Functional change](https://www.servicenow.com/docs/access?context=employee-issue-resolver-na&family=zurich&ft:locale=en-US)**
+
+The resolve HR cases agentic workflow has been broken down into three agentic flows:
+
+    -   [Predict service and transfer HR cases](https://www.servicenow.com/docs/access?context=predict-transfer-hrcase&family=zurich&ft:locale=en-US)
+    -   [Resolve noncritical HR cases](https://www.servicenow.com/docs/access?context=employee-issue-resolver-na&family=zurich&ft:locale=en-US)
+    -   [Resolve critical HR case](https://www.servicenow.com/docs/access?context=employee-issue-resolve-critical&family=zurich&ft:locale=en-US)
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some ServiceNow Otto for HR Service Delivery \(HRSD\) features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some ServiceNow Otto for HR Service Delivery \(HRSD\) features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate ServiceNow Otto for HR Service Delivery \(HRSD\).
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Activation information**
+
+Install ServiceNow Otto for HRSD by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Install ServiceNow Otto for HRSD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Activation information**
+
+Install ServiceNow Otto for HRSD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for ServiceNow Otto for HR Service Delivery \(HRSD\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for ServiceNow Otto for HR Service Delivery \(HRSD\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for ServiceNow Otto for HR Service Delivery \(HRSD\), such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for ServiceNow Otto for HR Service Delivery \(HRSD\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for ServiceNow Otto for HR Service Delivery \(HRSD\) we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+ Yokohama Patch 6
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Create a copy of the KB generation skill to create custom templates.
+-   View the list of sources that are used to generate an email reply recommendation.
+-   Select citations to view the source articles and industry research from Galileo AI Assistant for HR.
+-   Leverage an AI agent to generate a step-wise fulfillment plan for an HR case from both Core UI and Agent Workspace for HR Case Management.
+-   Make career conversations easy to create and track using the growth conversations agentic workflow.
+
+ Yokohama Patch 3
+
+-   Automate the resolution of routine employee inquiries by using the Resolve noncritical HR cases agentic workflow.
+-   Receive research-backed responses to HR management queries that are sourced from both internal knowledge bases and The Josh Bersin content library.
+-   Use the new Growth &amp; Performance AI agents to streamline your employee growth discussions in Career Conversations.
+
+ Yokohama Patch 1: Improve agent productivity by managing long-running cases with the Triage cases AI agent.
+
+ Yokohama Early Availability
+
+-   Use the new Virtual Agent topics to place employee requests in the Human Capital Management \(HCM\) system.
+-   Use Knowledge Graph to create personalized knowledge models in the form of Knowledge Graph schemas.
+-   Create Journey Accelerator plans by using ServiceNow Otto for HRSD in Journey designer.
+
+ See [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
+
+-   Review an ER interview summary quickly by using the ER interview summarization skill from both Core UI and Agent Workspace for HR Case Management.
+-   Streamline the interview scheduling process using the self-scheduling mechanism within the schedule interviews agentic workflow.
+-   Preserve institutional knowledge during employee offboarding with AI agents that automate document discovery, organize content by category, and guide managers and employees through the transfer process.
+-   View additional journey services \(catalogs and order guides\) recommended based on previous journeys and peer requests.
+-   As a manager, review recommendations in Now Assist in Virtual Agent and add new tasks through a conversational interface.
+-   As an admin, create reusable feedback templates using the ServiceNow AI Platform Surveys tool.
+-   As a manager, select and preview feedback templates when requesting feedback.
+-   As a manager, review a summarized view of an employee's recent feedback on the feedback page in Manager Hub.
+
+ [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
+
+-   Review changes to Now Assist usage measurement.
+
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+
+-   Use AI voice agents to enable employees to use self-service tools and create HR cases over the phone.
+-   Use AI agents to predict the relevant HR service for an HR case and automatically transfer the case to the predicted HR service.
+-   Use AI agents to analyze criticality of an HR case and use existing knowledge articles and catalog items for resolving a noncritical case.
+-   Use AI agents to assist with processing tuition reimbursement requests based on submitted course information and company policies found in knowledge articles.
+-   Leverage AI agents to generate fulfillment plans for critical HR cases from both Core UI and Agent Workspace for HR Case Management.
+-   Review ER case context quickly by using the ER case summarization skill from both Core UI and Agent Workspace for HR Case Management.
+
+ [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+
+-   Implement security in Now Assist AI agents with access control lists \(ACLs\).
+-   Use AI agents to place requests to the Human Capital Management \(HCM\) system.
+-   Leverage an AI agent to generate a fulfillment plan in a series of steps for an HR case from both Core UI and Agent Workspace for HR Case Management.
+-   Leverage AI agents to collect the necessary inputs from recruiters and schedule interviews seamlessly.
+-   Simplify employee onboarding with AI agents that gather inputs, structure tasks, enable manager review, and deliver personalized onboarding plans.
+
+ Zurich Early Availability
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+
+ See [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+
+ [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
+
+-   As a manager, review recommendations in Now Assist in Virtual Agent and add new tasks through a conversational interface.
+-   As an admin, create reusable feedback templates using the ServiceNow AI Platform Surveys tool.
+-   As a manager, select and preview feedback templates when requesting feedback.
+-   As a manager, review a summarized view of an employee's recent feedback on the feedback page in Manager Hub.
+
+ Australia Patch 0
+
+-   View additional journey services \(catalogs and order guides\) recommended based on previous journeys and peer requests.
+
+ See [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=australia&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)
+

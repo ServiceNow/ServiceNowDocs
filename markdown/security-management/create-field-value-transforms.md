@@ -3,9 +3,9 @@ title: Create Security Operations field value transforms
 description: Field Value Transforms defines one transformation between provided source data, and the replacement value to use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-field-value-transforms.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations field value transforms, Security Operations common functionality, Security Operations]
 ---
@@ -92,5 +92,5 @@ Scope of the application.
 </table>4.  Click **Submit.**
 
 
-**Parent Topic:**[Security Operations field value transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/field-value-transforms.md)
+**Parent Topic:**[Security Operations field value transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/field-value-transforms.md)
 

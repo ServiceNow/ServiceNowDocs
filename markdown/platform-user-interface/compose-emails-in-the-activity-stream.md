@@ -3,9 +3,9 @@ title: Send emails from the mini email composer
 description: Create and send and send emails without leaving the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/compose-emails-in-the-activity-stream.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -42,12 +42,12 @@ Role required: email\_composer
 
 7.  Create the email body.
 
-    You can insert an email template into the email body. For more information, see [Use email templates in the mini email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/compose-emails-with-email-templates.md).
+    You can insert an email template into the email body. For more information, see [Use email templates in the mini email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/compose-emails-with-email-templates.md).
 
-    You can attach a file to the email. For more information, see [Add a file to an email from the mini email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-a-file-to-an-email-from-the-mini-email-composer.md).
+    You can attach a file to the email. For more information, see [Add a file to an email from the mini email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/add-a-file-to-an-email-from-the-mini-email-composer.md).
 
 8.  Select **Send**.
 
-    Drafts save automatically after a set number of seconds. For more information on finding email drafts, see [Review email drafts from the mini email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/review-email-drafts-from-the-mini-email-composer.md).
+    Drafts save automatically after a set number of seconds. For more information on finding email drafts, see [Review email drafts from the mini email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/review-email-drafts-from-the-mini-email-composer.md).
 
 

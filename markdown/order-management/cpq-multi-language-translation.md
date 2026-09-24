@@ -3,7 +3,7 @@ title: Multi-language translation
 description: Implement multi-language translation for end-user interfaces. Enable languages and compile translation files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-multi-language-translation.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5

@@ -3,11 +3,11 @@ title: Indicator sources and indicators for the Operational Technology Vulnerabi
 description: The Operational Technology Vulnerability Response application uses indicator sources and indicators to gather data and track the progress of your vulnerability remediation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/indicator-and-indicator-sources-otvr-pa-dashboard.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -18,7 +18,7 @@ The Operational Technology Vulnerability Response application uses indicator sou
 
 ## Indicator sources
 
-The Operational Technology Vulnerability Response indicators gather data from the following indicator sources. If you expect more than 1 million records to be collected from the indicator sources, you must override the expected count in the Records collection section of the indicator source. For more information, see [Review the indicator sources for a larger number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/update-indicator-source-to-collect-more-records.md).
+The Operational Technology Vulnerability Response indicators gather data from the following indicator sources. If you expect more than 1 million records to be collected from the indicator sources, you must override the expected count in the Records collection section of the indicator source. For more information, see [Review the indicator sources for a larger number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/update-indicator-source-to-collect-more-records.md).
 
 -   **OTVI.New**
 
@@ -106,5 +106,5 @@ The **collect records** option for the indicators is inactive by default for the
     Number of OT summed duration of closed vulnerable items on the data source OTVI.Closed, which uses the sn\_vul\_vulnerable\_item table. The goal is to minimize the summed duration of the closed vulnerable items in your system.
 
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

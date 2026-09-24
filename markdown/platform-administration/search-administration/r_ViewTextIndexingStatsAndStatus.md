@@ -3,11 +3,11 @@ title: Text indexing statistics and status
 description: To view text indexing statistics and status, navigate to All System Definition Text Indexes .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/r\_ViewTextIndexingStatsAndStatus.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Zing indexes words, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,7 @@ To view text indexing statistics and status, navigate to **All** &gt; **System D
 
 \[Omitted image "TextIndexStatistics.png"\] Alt text: Text index statistics record.
 
-**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 

@@ -3,12 +3,12 @@ title: Discover your agent network with the map
 description: Use the agent map to visualize your entire agentic ecosystem, including ServiceNow and third-party AI assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-use-map.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Discover your agent network with the map
@@ -25,9 +25,9 @@ Below the map, all of your managed agentic AI assets are listed.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
-Configure Veza access intelligence to show risk score and other information for each AI asset in the map. For more information, see [Configure Veza access intelligence in the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-veza-access-intelligence.md).
+Configure Veza access intelligence to show risk score and other information for each AI asset in the map. For more information, see [Configure Veza access intelligence in the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-veza-access-intelligence.md).
 
 ## Procedure
 
@@ -71,7 +71,9 @@ The user of the AI agent or model.
 The creator of the AI agent or model.
 
 </td></tr></tbody>
-</table><table><thead><tr><th>
+</table>    **Note:** If you haven't yet authenticated with Veza, or your access token has expired, you're prompted to select **Re-Authenticate** to reconnect before you can view risk score and other access intelligence information.
+
+<table><thead><tr><th>
 
 Node
 

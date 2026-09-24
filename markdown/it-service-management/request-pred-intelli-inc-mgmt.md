@@ -3,9 +3,9 @@ title: Request Predictive Intelligence for Incident Management
 description: Activate Predictive Intelligence for Incident Management by requesting the Predictive Intelligence for Incident Management plugin \(com.snc.incident.ml\_solution\) through the Now Support Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-pred-intelli-inc-mgmt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Machine learning solutions for IT Service Management, IT Service Management]
 ---
@@ -68,5 +68,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/machine-learning-itsm.md)
+**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/machine-learning-itsm.md)
 

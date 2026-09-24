@@ -3,11 +3,11 @@ title: Create a monetary benefit plan for a demand
 description: Create and manage monetary benefit plans to track potential monetary benefits during demand execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Create and manage monetary benefit plans to track potential monetary benefits du
 
 ## Before you begin
 
-Enable the monetary benefit plans for demands. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-financial-budget-allocation-for-demands-ppw.md).
+Enable the monetary benefit plans for demands. For more information, see [Enable financial budget allocation for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/enable-financial-budget-allocation-for-demands-ppw.md).
 
 Role required: it\_demand\_manager
 
@@ -38,15 +38,15 @@ The monetary benefit plan breakdown records are automatically created when you s
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d84351e131">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d83891e131">
 
 Option
 
-</th><th align="left" id="d84351e134">
+</th><th align="left" id="d83891e134">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d84351e140">
+</th></tr></thead><tbody><tr><td id="d83891e140">
 
 **Using the __Monetary Benefit Plans__ tab**
 
@@ -60,7 +60,7 @@ Procedure
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d84351e187">
+</td></tr><tr><td id="d83891e187">
 
 **Using the __Financials__ page**
 
@@ -73,7 +73,7 @@ Procedure
 </td></tr></tbody>
 </table>5.  On the Benefit Plan form, complete the fields.
 
-    For a description of the field names, see [Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/monetary-benefit-plan-form-ppw.md).
+    For a description of the field names, see [Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/monetary-benefit-plan-form-ppw.md).
 
 6.  Select **Save**.
 

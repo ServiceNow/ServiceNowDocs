@@ -3,11 +3,11 @@ title: Local changes
 description: The Local Changes table tracks which customized records have current versions that exist on the development instance but not on the parent instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_LocalChanges.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Team Development, Planning your application, Building applications]
 ---

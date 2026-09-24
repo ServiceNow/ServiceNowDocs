@@ -3,11 +3,11 @@ title: Define a relative duration
 description: Define relative durations to calculate duration time for SLAs based on business schedules and specific time requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_DefineARelativeDuration.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -53,5 +53,5 @@ The **2 business days by 4pm** relative duration demonstrates conditional logic.
 
 The end time of 17:00 is hard-coded into the relative duration script and is not related to the associated schedule. To change the end time from 5pm, modify the script directly.
 
-**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/using-time-configuration.md)
+**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/using-time-configuration.md)
 

@@ -3,9 +3,9 @@ title: Delete a Platform Analytics dashboard
 description: You can delete a dashboard that is no longer useful. The Analytics Overview invokes the Workflow Studio to remove the dashboard from your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/delete-db-in-ac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [How to delete a dashboard, How to delete a platform analytics dashboard, How to delete a Next Experience dashboard]
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -21,7 +21,7 @@ Inform any users who can view the dashboard that you’re deleting it. Users who
 
 Role required: You can delete any dashboard that you created. Users with the admin or dashboard\_admin role can delete any dashboard.
 
-**Note:** The steps to delete a Core UI responsive dashboard are different. For more information, see [Manage responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/manage-responsive-dashboards.md).
+**Note:** The steps to delete a Core UI responsive dashboard are different. For more information, see [Manage responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/manage-responsive-dashboards.md).
 
 ## Procedure
 
@@ -42,15 +42,17 @@ Role required: You can delete any dashboard that you created. Users with the adm
     3.  Select the More actions menu button \[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon and choose **Repair**.
     4.  Select **Repair** in the Activate Plugin window.
 
--   **[Configure dashboard deletion actions in the Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/delete-db-in-ac-wf.md)**  
+-   **[Configure dashboard deletion actions in the Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/delete-db-in-ac-wf.md)**  
 Using the Workflow Studio, you can add actions to the dashboard deletion process. Actions may include sending an email to the dashboard's users or generating an approval request.
 
-**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

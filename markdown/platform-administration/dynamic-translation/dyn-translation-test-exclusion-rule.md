@@ -3,11 +3,11 @@ title: Test Exclusion Rule
 description: Test Exclusion Rule in Dynamic Translation enables you to test your exclusion pattern manually. You can check whether the pattern accurately excludes a text string from translation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.html
-release: australia
+release: brazil
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exclusion Framework in Dynamic Translation, Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Test Exclusion Rule in Dynamic Translation enables you to test your exclusion pa
 
 ## Before you begin
 
-At least one additional language must be available on your instance. For more information about installing languages, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+At least one additional language must be available on your instance. For more information about installing languages, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 Role required: admin
 
@@ -45,15 +45,15 @@ You can test iteratively to refine your exclusion pattern.
 
 2.  Select the appropriate option for the first question, **Do you want to test an existing or new exclusion rule?**
 
-<table id="choicetable_smp_tfm_tfc"><thead><tr><th align="left" id="d201521e136">
+<table id="choicetable_smp_tfm_tfc"><thead><tr><th align="left" id="d200863e136">
 
 Option
 
-</th><th align="left" id="d201521e139">
+</th><th align="left" id="d200863e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d201521e145">
+</th></tr></thead><tbody><tr><td id="d200863e145">
 
 **Existing exclusion rule**
 
@@ -61,7 +61,7 @@ Description
 
 If you choose this option, the next field opens: **Which exclusion pattern would you like to test?** Select your pattern from the list, or use the field's search function.The information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon.\) offers a read-only summary of the selected rule.
 
-</td></tr><tr><td id="d201521e163">
+</td></tr><tr><td id="d200863e163">
 
 **New exclusion rule**
 
@@ -103,7 +103,7 @@ When testing variations of existing rules, temporarily deactivating similar rule
 
 ## What to do next
 
-If you chose **New exclusion rule**, you can create a rule based on the exclusion pattern that you tested. For more information see [Add new rules to Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.md).
+If you chose **New exclusion rule**, you can create a rule based on the exclusion pattern that you tested. For more information see [Add new rules to Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.md).
 
-**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
+**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
 

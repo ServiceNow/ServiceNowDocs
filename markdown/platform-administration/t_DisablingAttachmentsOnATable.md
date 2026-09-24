@@ -3,9 +3,9 @@ title: Index attachments on a table
 description: You can enable attachment indexing for a table so text searches can return matches from the record and its file attachments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_DisablingAttachmentsOnATable.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Attachments, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -38,7 +38,7 @@ By default, attachment indexing is enabled for the Knowledge Base. You can enabl
     |Attribute name|Attachment index|
     |Value|true|
 
-    **Note:** The attachment index attribute only applies to the tables on which you explicitly add it. It does not cascade to child tables. For example, enabling indexing of attachments on the Task table does not enable indexing of attachments on the Incident table. Not all file types are supported for attachment indexing. For a list of supported file types, see [Zing can include attachments in search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_SearchingForAttachments.md).
+    **Note:** The attachment index attribute only applies to the tables on which you explicitly add it. It does not cascade to child tables. For example, enabling indexing of attachments on the Task table does not enable indexing of attachments on the Incident table. Not all file types are supported for attachment indexing. For a list of supported file types, see [Zing can include attachments in search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_SearchingForAttachments.md).
 
 5.  Select **Submit**.
 
@@ -61,7 +61,7 @@ By default, attachment indexing is enabled for the Knowledge Base. You can enabl
 
 The system begins text indexing for the table. When it is complete, attachments can be searched on that table.
 
-**Parent Topic:**[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringAttachments.md)
+**Parent Topic:**[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AdministeringAttachments.md)
 
-**Parent Topic:**[Zing can include attachments in search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_SearchingForAttachments.md)
+**Parent Topic:**[Zing can include attachments in search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_SearchingForAttachments.md)
 

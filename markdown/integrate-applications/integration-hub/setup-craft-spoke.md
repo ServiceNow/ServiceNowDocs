@@ -3,7 +3,7 @@ title: Set up the Craft spoke
 description: Integrate the ServiceNow instance and Craft spoke by using the basic authentication to authenticate ServiceNow requests.Add and configure a Craft spoke connection to authenticate ServiceNow requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-craft-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -41,7 +41,7 @@ Role required: admin
 4.  Locate the alias for **sn\_craft\_spoke** and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Azure DevOps Boards spoke, click **View Details**.\[Omitted image "craft-spoke-conn-template.png"\] Alt text: Craft spoke connection template details
-    -   To manage more than one Azure DevOps Boards spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Azure DevOps Boards spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "craft-spoke-conn-temp-config.png"\] Alt text: Craft spoke connection template configuration for the first time

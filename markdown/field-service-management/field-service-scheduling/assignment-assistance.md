@@ -3,11 +3,11 @@ title: Suggest agents to assign to a work order task
 description: Quickly sort a list of the best agents to assign a work order task based on the criteria that you choose from.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/assignment-assistance.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Quickly sort a list of the best agents to assign a work order task based on the 
 
 Role required: wm\_dispatcher
 
-Dynamic Scheduling must be enabled in order to use Assignment assistance. For more information see, [Configuring Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/Configure-dynamic-scheduling.md).
+Dynamic Scheduling must be enabled in order to use Assignment assistance. For more information see, [Configuring Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/Configure-dynamic-scheduling.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Dynamic Scheduling must be enabled in order to use Assignment assistance. For mo
 
     |Sort option|Description|
     |-----------|-----------|
-    |Best Match|Best match is the default sorting method. Match percentage is calculated the same way that Dynamic Scheduling calculates agents to assign tasks to. For more information, see [Matching criteria for assigning tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).|
+    |Best Match|Best match is the default sorting method. Match percentage is calculated the same way that Dynamic Scheduling calculates agents to assign tasks to. For more information, see [Matching criteria for assigning tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).|
     |Distance|Sorts agents based on how far each agent is from the work order task.|
     |Skills|Sorts agents based on the number of required skills that each agent has. Agents with more skills are at the top.|
     |Parts|Sorts agents based on how many required parts each agent has. Agents with the most parts to complete the task are at the top.|

@@ -3,11 +3,11 @@ title: Perform advanced risk assessment in the Risk Workspace
 description: Conduct risk assessments to assess inherent risks, effectiveness of controls, residual risks, and target risks in the Risk Workspace application. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -113,7 +113,7 @@ For more information on statuses, see [Risk Assessment workflow changes from 19.
 
     2.  To create a risk response task, select the **Create task** button, and select the appropriate values.
 
-        For more information, see [Create a risk response task in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-response-task-risk-workspace.md).
+        For more information, see [Create a risk response task in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-response-task-risk-workspace.md).
 
     3.  To link existing risk response tasks or copy the tasks along with the risk response strategies from the previous assessment while reassessing a risk, select **Yes, continue with existing**.
 
@@ -147,7 +147,7 @@ For more information on statuses, see [Risk Assessment workflow changes from 19.
 
 15. If you want to modify the assessment, select **Edit**.
 
-16. To view the activities taking place for the assessment, select the Activity log \[Omitted image "activity-log.jpg"\] Alt text: Activity log icon. icon.
+16. To view the activities taking place for the assessment, select the Activity log icon \[Omitted image "activity-log.jpg"\] Alt text: Activity log icon..
 
 17. If you have defined approvers, then select **Submit**.
 
@@ -170,5 +170,5 @@ The assessment is sent to the approver and the approval workflow starts.
 
 \[Omitted image "risk-assessment-approval.png"\] Alt text: Send risk assessment for approval.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

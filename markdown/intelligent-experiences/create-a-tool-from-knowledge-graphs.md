@@ -3,12 +3,12 @@ title: Create a tool from a Knowledge Graph
 description: Create a tool from a Knowledge Graph to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-a-tool-from-knowledge-graphs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Create tool Knowledge graph for MCP]
-breadcrumb: [Creating tools, Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Creating tools, Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Create a tool from a Knowledge Graph
@@ -21,7 +21,7 @@ Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
 ## About this task
 
-Knowledge Graph provides agents with accurate, relationship-aware access to live instance data. This enables more precise, context-aware responses in every workflow by directly querying relationships. Some Knowledge Graph schemas are available by default when creating a tool. For more information, see [Knowledge Graph schema support in MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph-support-mcp.md). To learn about creating Knowledge Graph schemas, see [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.md).
+Knowledge Graph provides agents with accurate, relationship-aware access to live instance data. This enables more precise, context-aware responses in every workflow by directly querying relationships. Some Knowledge Graph schemas are available by default when creating a tool. For more information, see [Knowledge Graph schema support in MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph-support-mcp.md). To learn about creating Knowledge Graph schemas, see [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.md).
 
 ## Procedure
 
@@ -103,7 +103,7 @@ One or more servers you want to add your tool to.
     \[Omitted image "mcp-server-create-tool-kg-toolinput.png"\] Alt text: Tool input for Knowledge graph
 
     -   anchortables: Use one or more table names to make your query more specific when you select Enterprise Graph or Enterprise Graph \(small\). This is helpful when you know which tables are relevant to your question. This is an optional field.
-    -   tags: Include one or more tags to prioritize a specific group of tables. For example, you can use tags like 'CSM', 'HR'. These tags are required for the Enterprise Graph and Enterprise Graph \(small\) though they are only mandatory for the latter. See [Create Knowledge Graph tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.md) for details on creating Knowledge Graph tags.
+    -   tags: Include one or more tags to prioritize a specific group of tables. For example, you can use tags like 'CSM', 'HR'. These tags are required for the Enterprise Graph and Enterprise Graph \(small\) though they are only mandatory for the latter. See [Create Knowledge Graph tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.md) for details on creating Knowledge Graph tags.
     -   description: Your query or request that will use Knowledge Graph.
     -   apioptions: Manually enter the JSON object as a collection of key-value pairs. It configures how to run queries and organizes the response:
 
@@ -129,7 +129,7 @@ One or more servers you want to add your tool to.
 
 ## What to do next
 
-Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md).
+Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
 
-**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md)
+**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/creating-tools-mcp-server.md)
 

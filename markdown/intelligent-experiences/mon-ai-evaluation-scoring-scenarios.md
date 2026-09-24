@@ -3,19 +3,19 @@ title: Evaluation scoring examples
 description: Worked scoring examples show how metric configuration, weights, and evaluation levels combine to produce quality and safety scores for different AI system types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-evaluation-scoring-scenarios.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Evaluation scoring examples
 
 Worked scoring examples show how metric configuration, weights, and evaluation levels combine to produce quality and safety scores for different AI system types.
 
-The following scenarios walk through how quality and safety scores are calculated for specific sessions. Each scenario shows the evaluation configuration, what happens during the session, and the resulting score calculation. For details on the two-stage scoring model these scenarios illustrate, see [How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md).
+The following scenarios walk through how quality and safety scores are calculated for specific sessions. Each scenario shows the evaluation configuration, what happens during the session, and the resulting score calculation. For details on the two-stage scoring model these scenarios illustrate, see [How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md).
 
 ## Scenario 1 — Quality scoring for an external IT support agent
 

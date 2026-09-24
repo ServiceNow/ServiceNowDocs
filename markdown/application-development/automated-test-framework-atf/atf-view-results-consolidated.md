@@ -3,11 +3,11 @@ title: View test results and automated test results
 description: View test results from completed test and test suite runs. Carefully consider the results of automated test runs and perform any corrective actions required to resolve any revealed issues.When viewing test results, step results or test logs, you can allow client errors as ignored or warning entries in the Allowed Client Errors table. This allows test executions to continue past client errors in future test runs.If the test has a UI component, the system takes screenshots of the UI. View these screenshots to gain further insight into the test results.View results from an automated test suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-view-results-consolidated.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -32,7 +32,7 @@ You have multiple options for navigating to the test results, depending on where
 
 2.  Click a row to access the results for a specific test.
 
-    The system displays the [Test results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-results-record.md).
+    The system displays the [Test results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-test-results-record.md).
 
 3.  View step results for the selected test.
 
@@ -40,7 +40,7 @@ You have multiple options for navigating to the test results, depending on where
 
     2.  Scroll down and click the row for the step result you want to view.
 
-        The system displays the [Step results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-step-result-record.md).
+        The system displays the [Step results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-step-result-record.md).
 
 4.  View test logs for this test result.
 
@@ -48,10 +48,10 @@ You have multiple options for navigating to the test results, depending on where
 
     2.  Scroll down and click the row for the test log you want to view.
 
-        The system displays the [Test logs record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-log-record.md).
+        The system displays the [Test logs record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-test-log-record.md).
 
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
 
 ## View automated test results
 
@@ -96,17 +96,17 @@ View results from an automated test suite.
 
 2.  Click the row containing the test whose results you want to view.
 
-    The system displays the [Test suite results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-suite-results-record.md).
+    The system displays the [Test suite results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-test-suite-results-record.md).
 
 
 **Related topics**  
 
 
-[Identify and resolve client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/identify-and-resolve-client-errors.md)
+[Identify and resolve client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/identify-and-resolve-client-errors.md)
 
-[Allow client errors from test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelist-errors-from-test-results.md)
+[Allow client errors from test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/whitelist-errors-from-test-results.md)
 
-[Allow client errors from step results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelist-errors-from-step-results-related-list.md)
+[Allow client errors from step results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/whitelist-errors-from-step-results-related-list.md)
 
-[Allow client errors from the test logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelist-errors-from-test-log-related-list.md)
+[Allow client errors from the test logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/whitelist-errors-from-test-log-related-list.md)
 

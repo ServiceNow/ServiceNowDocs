@@ -3,9 +3,9 @@ title: Configure project oversight for domain orders
 description: Specify the conditions and decision rules that qualify domain orders for project oversight. You also specify the project template task used by Order Management to create the project for domain orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-proj-oversight-domain-orders.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up project oversight conditions and decision rules, Configuring the Strategic Portfolio Management integration, Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---
@@ -109,7 +109,7 @@ How every row in the condition column evaluates a user-specified value. A defaul
 
     1.  Select the **Add** action and enter the conditions and project template task to be used.
 
-        **Note:** If there are duplicate project template tasks that have the same **Short description**, it may be difficult to identify and select the appropriate project template tasks. For details on differentiating between similar project template tasks, see [Choosing a project template task when duplicates exist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/Determining-correct-project-task-template.md).
+        **Note:** If there are duplicate project template tasks that have the same **Short description**, it may be difficult to identify and select the appropriate project template tasks. For details on differentiating between similar project template tasks, see [Choosing a project template task when duplicates exist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/Determining-correct-project-task-template.md).
 
     2.  Select **Save**.
 

@@ -3,9 +3,9 @@ title: Remove business roles from business actors
 description: Remove business roles from business actors when organizational responsibilities change or role assignments are no longer needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-remove-business-role-from-business-actor.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business actor, business role, remove role, enterprise architecture]
 breadcrumb: [Manage business actors, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -44,12 +44,12 @@ Removing a business role from a business actor disassociates the role from that 
 8.  Select **Remove**.
 
 
-**Parent Topic:**[Manage business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-actors.md)
+**Parent Topic:**[Manage business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-actors.md)
 
 **Related topics**  
 
 
-[Add a business role to a business actor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-role-to-business-actor.md)
+[Add a business role to a business actor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-business-role-to-business-actor.md)
 
-[View all business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-actors.md)
+[View all business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-business-actors.md)
 

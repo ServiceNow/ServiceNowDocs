@@ -3,9 +3,9 @@ title: Configure intelligent approvals
 description: Configure your instance to support intelligent approvals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/configure-intelligent-approvals.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure, intelligent approvals, AI approvals, AI platform]
 breadcrumb: [Intelligent approvals, Build workflows]
@@ -60,6 +60,6 @@ Intelligent approvals require the following components and entitlements:
 
 -   **User role**
 
-    Users must have the appropriate role to create and manage intelligent approvals. For role requirements, see [Intelligent approvals reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/reference-intelligent-approvals.md).
+    Users must have the appropriate role to create and manage intelligent approvals. For role requirements, see [Intelligent approvals reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/reference-intelligent-approvals.md).
 
 

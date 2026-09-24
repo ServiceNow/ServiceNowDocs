@@ -3,9 +3,9 @@ title: Add invoices to case list
 description: Add invoices to case form on the Business Portal enables you to a.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/add-invoices-to-case-list.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal reference, Reference, Sales Customer Relationship Management]
 ---
@@ -20,17 +20,17 @@ Add invoices to case form on the Business Portal enables you to a.
 |Short description|A brief summary of the invoice.|
 |Invoice date|Date on which the invoice was created.|
 |Due date|Date on which the invoice is due for payment.|
-|Status|The current status of the invoice line. For more information, see[Invoice states on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-states.md).|
+|Status|The current status of the invoice line. For more information, see[Invoice states on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/invoice-states.md).|
 |Account|Name of the customer or business entity in the business-to-business \(B2B\) model.|
 |Customer contact|Any customer contact for your account.|
 |Primary contact|Primary contact for your account.|
 |Billing location|The billing address that appears on the original invoice.|
 |Shipping to location|Reference to the location to which the order on the invoice is shipped.|
 
-**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-business-portal-reference.md)
+**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-business-portal-reference.md)
 
 **Related topics**  
 
 
-[Dispute multiple invoices against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-invoice-case-multiple.md)
+[Dispute multiple invoices against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-invoice-case-multiple.md)
 

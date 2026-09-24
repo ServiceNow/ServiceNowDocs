@@ -3,11 +3,11 @@ title: Refresh impacted services and CIs for Change
 description: The Impacted services and CIs related list refreshes its records and also the records listed in the Service Offerings and Business Applications related lists based on the affected CIs. You can identify the impacted services and CIs and take necessary action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/refresh-impacted-services-cis.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Process a change request, Use, Change Management, IT Service Management]
 ---
@@ -44,8 +44,8 @@ Refreshing impacted Services on a change request form is executed in one of the 
     Once all these services are correlated, a new list is added, and the existing items in the related list are removed, where the **manually\_added** flag is set to false. The list of services is then used to populate the Business Applications and Service Offerings if the properties are enabled.
 
 
--   **[Refresh impacted services properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/refreshing-impacted-services-properties.md)**  
+-   **[Refresh impacted services properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/refreshing-impacted-services-properties.md)**  
 Use the refresh impacted services properties to enable or disable the refresh impacted services capability, and to configure the criteria for additional refresh impacted services properties.
 
-**Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
+**Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
 

@@ -3,11 +3,11 @@ title: Reduce incidents and keep services flowing with AI based automation bluep
 description: Select this adoption blueprint to leverage AI-based automation to keep the business running by reducing and prioritizing incidents and issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-ab4.html
-release: australia
+release: brazil
 product: Admin Center
 classification: admin-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Select your adoption blueprint, Adoption blueprints, Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -44,7 +44,7 @@ Build a foundation
 
 </td><td>
 
-[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EM.md)
+[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_EM.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Use the Event Management application as a single management console to identify 
 
 </td><td>
 
-[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_InstalledWithEventManagement.md)
+[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r_InstalledWithEventManagement.md)
 
 </td><td>
 
@@ -64,7 +64,7 @@ Optimize the functionality
 
 </td><td>
 
-[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-landing-page.md)
+[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-landing-page.md)
 
 </td><td>
 
@@ -72,7 +72,7 @@ Health Log Analytics helps prevent IT issues before your users are affected. It 
 
 </td><td>
 
-[Roles installed with Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-components.md#section_okx_gk3_2nb)
+[Roles installed with Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-components.md#section_okx_gk3_2nb)
 
 </td><td>
 
@@ -85,7 +85,7 @@ Add advanced features
 
 </td><td>
 
-[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/major-incident-management.md)
+[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/major-incident-management.md)
 
 </td><td>
 
@@ -93,7 +93,7 @@ Define an incident as a major incident to demand a response beyond the routine i
 
 </td><td>
 
-[Roles installed with Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/installed-with-mim.md)
+[Roles installed with Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/installed-with-mim.md)
 
 </td><td>
 
@@ -105,7 +105,7 @@ Optimize the functionality
 
 </td><td>
 
-[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_ServiceMappingOverview.md)
+[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_ServiceMappingOverview.md)
 
 </td><td>
 
@@ -113,7 +113,7 @@ Service Mapping discovers all application services in your organization and buil
 
 </td><td>
 
-[Roles installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/components-installed-with-service-mapping.md#section_wly_yyh_wdb)
+[Roles installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/components-installed-with-service-mapping.md#section_wly_yyh_wdb)
 
 </td><td>
 
@@ -126,7 +126,7 @@ Build a foundation
 
 </td><td>
 
-[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/sow-landing-page.md)
+[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/sow-landing-page.md)
 
 </td><td>
 
@@ -134,11 +134,11 @@ Use the Service Operations Workspace interface to unify and configure your agent
 
 </td><td>
 
-[Roles installed with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/components-installed-with-sow-itom.md)
+[Roles installed with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/components-installed-with-sow-itom.md)
 
 </td><td>
 
--   [Service Operations Workspace limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/explore-sow.md)
+-   [Service Operations Workspace limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/explore-sow.md)
 -   [Service Operations Workspace overview](https://www.servicenow.com/products/service-operations-workspace.html)
 
 </td></tr><tr><td>
@@ -163,5 +163,5 @@ Roles installed with Site Reliability Operations
 -   [Site Reliability Operations overview \(video\)](https://www.youtube.com/watch?v=lObGvjmJ7Ts&t=1s)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-select-business-objective.md)
 

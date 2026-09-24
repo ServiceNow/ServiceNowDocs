@@ -3,11 +3,11 @@ title: Define a communication contact
 description: Define the recipients of a particular plan to determine the target audience involved in each communication task and the responsibilities the recipients are expected to handle. A notification for a task is sent to all individuals specified for that task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/create-comm-contact-definition.html
-release: australia
+release: brazil
 product: Task Communications Management
 classification: task-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define a communication plan, Working with Task Communications Management, Task Communications Management, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,7 +50,7 @@ Type
 
 </td><td>
 
-Type of contact such as user, group, or recipient list that you want to involve in the plan. The contact type is assigned dynamically at the time of the table execution. For information on recipient lists, refer [Define a recipient list for communication contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/define-recipient-list-comm-contact.md).
+Type of contact such as user, group, or recipient list that you want to involve in the plan. The contact type is assigned dynamically at the time of the table execution. For information on recipient lists, refer [Define a recipient list for communication contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/task-communications-management/define-recipient-list-comm-contact.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Name of the user, group, or recipient list to be added to the contact list.**Not
     A communication contact is defined for the communication plan.
 
 
-**Parent Topic:**[Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/create-comm-plan-definition.md)
+**Parent Topic:**[Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/task-communications-management/create-comm-plan-definition.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Alert rules in Health Log Analytics
 description: Health Log Analytics \(HLA\) detects anomalies automatically by learning from your log data. However, some log types require a custom alert rule to generate alerts reliably.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-custom-alert-rules.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Health Log Analytics, HLA, alert rule, custom alert rules, log analytics alerts, anomaly detection, automatic detection, log patterns, lively logs, sparse logs, stopped logs, probability-based method, high-frequency logs, low-frequency logs, periodic logs, critical conditions, machine learning, not enough data, too little data, pattern]
 breadcrumb: [Use custom alert rules, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -55,7 +55,7 @@ Stopped
 
 Logs have not arrived for more than the configured period. Default is 5 minutes \(300 seconds\). To modify the default value, update the HLA system property `detective.resolution.signal_dead`.For a log stream to be alerted as stopped or dead it must first be considered alive by running continuously for a minimum period of time. You can set this time in the HLA system property `detective.alive_period_seconds_for_signal_dead`.
 
-For information about setting and changing HLA system properties, see [Configure global Health Log Analytics system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure.md).
+For information about setting and changing HLA system properties, see [Configure global Health Log Analytics system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure.md).
 
 </td></tr></tbody>
 </table>## When to create custom alert rules
@@ -73,9 +73,9 @@ For information about setting and changing HLA system properties, see [Configure
 **Related topics**  
 
 
-[Define a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.md)
+[Define a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.md)
 
-[Change a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-defined-alert-modify-sow.md)
+[Change a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-defined-alert-modify-sow.md)
 
-[Delete a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-defined-alert-delete-sow.md)
+[Delete a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-defined-alert-delete-sow.md)
 

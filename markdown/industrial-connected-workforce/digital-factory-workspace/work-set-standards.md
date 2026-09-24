@@ -3,11 +3,11 @@ title: Work set standards
 description: Use a work set standard to group related standards and actions into a single procedure that operators can execute as one guided flow on the shop floor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/work-set-standards.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [work set standard, grouped standard, sub-activity]
 breadcrumb: [Industrial Standards, Explore, Digital Factory Workspace, Industrial Connected Workforce]
@@ -54,14 +54,16 @@ Use a work set standard when a single shop floor procedure includes several rela
 
 Do not use a work set standard for a single, standalone task. For those cases, use an Industrial Guided Task standard.
 
-**Parent Topic:**[Exploring Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.md)
+**Parent Topic:**[Exploring Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.md)
 
 **Related topics**  
 
 
-[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)
+[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)
 
-[Work set standard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-form.md)
+[Components installed with work set standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/components-installed-with-work-set-standards.md)
 
-[Work set sub-activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-sub-activity-form.md)
+[Work set standard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-form.md)
+
+[Work set sub-activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-sub-activity-form.md)
 

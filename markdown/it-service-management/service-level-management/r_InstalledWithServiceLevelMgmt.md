@@ -3,11 +3,11 @@ title: Installed with Service Level Management
 description: Activating the Service Level Management plugin adds or modifies these components: tables, properties, UI actions, UI policies, script includes, client scripts, business rules, email notifications, scheduled jobs, and workflows.Tables are added with Service Level Management.Roles are added with activation of Service Level Management plugin.Scheduled jobs are added with Service Level Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/r\_InstalledWithServiceLevelMgmt.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Service Level Management, Service Level Management plugins, Configuring Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Activate Service Level Management, Service Level Management plugins
 
 Activating the Service Level Management plugin adds or modifies these components: tables, properties, UI actions, UI policies, script includes, client scripts, business rules, email notifications, scheduled jobs, and workflows.
 
-**Parent Topic:**[Activate Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/activate-sla-plugin.md)
+**Parent Topic:**[Activate Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/activate-sla-plugin.md)
 
 ## Tables installed with Service Level Management
 

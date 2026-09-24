@@ -3,11 +3,11 @@ title: Request delete approval for emails on Microsoft Exchange online service
 description: After an email search is successfully completed and matching messages are identified, you can permanently delete all the suspicious emails from the Microsoft exchange online service that are related to the security incident and phishing campaign.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-delete-email.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Microsoft Exchange Online integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -54,7 +54,7 @@ As a user with the sn\_si.analyst role, if you determine that emails require rem
 
     If an email item in a result set has already been deleted, the status in the Was deleted column in the Email Search Result record is `true`. These items aren't deleted again.
 
-    If the approval option is disabled during the configuration step, after you select **Delete Emails from Exchange Online**, the emails associated with the result set are deleted. The result set itself is not deleted. However, the status of all the deleted email items of the result set is updated to `true` in the Was deleted column of the Email Search Result record. For more information on the approval feature, see [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msx_configure.md).
+    If the approval option is disabled during the configuration step, after you select **Delete Emails from Exchange Online**, the emails associated with the result set are deleted. The result set itself is not deleted. However, the status of all the deleted email items of the result set is updated to `true` in the Was deleted column of the Email Search Result record. For more information on the approval feature, see [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/msx_configure.md).
 
     These emails are deleted from the Microsoft Exchange Online tenant that you performed the searches on. A work note is displayed if the emails are successfully deleted.
 
@@ -64,7 +64,7 @@ As a user with the sn\_si.analyst role, if you determine that emails require rem
 
     If approvals are enabled for delete requests during the configuration step, after you select **Delete Emails from Exchange Online**, an email notification is sent to each member of the approval group that you selected during the configuration step.
 
-    If tagging is enabled during the configuration step, the `Email Delete - Initiated` security tag is displayed on the related security incident record. For more information on tagging, see [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msx_configure.md).
+    If tagging is enabled during the configuration step, the `Email Delete - Initiated` security tag is displayed on the related security incident record. For more information on tagging, see [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/msx_configure.md).
 
     Work notes are displayed that a request to delete emails is submitted by the user with the sn\_si.analyst role \(`Hans SecAnalyst`\).
 
@@ -94,9 +94,9 @@ As a user with the sn\_si.analyst role, if you determine that emails require rem
     If approvals are enabled, you have successfully submitted a request to delete emails. The security tags and work notes are displayed on the related security incident record as described in the previous example. As an approver, the next step is to process the delete request.
 
 
-**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Define email search criteria and request a search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md)
+**Previous topic:**[Define email search criteria and request a search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md)
 
-**Next topic:**[Approve delete email requests for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-approve-delete.md)
+**Next topic:**[Approve delete email requests for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-approve-delete.md)
 

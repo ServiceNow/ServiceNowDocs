@@ -3,9 +3,9 @@ title: Configure the List Menu for Public Sector Digital Services
 description: Add public sector-related menu options to the List Menu in the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/public-sector-configure-list-menu.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CRM Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-To configure the List Menu, you can follow this procedure or use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-psds-foundation-data.md) for the Public Sector Digital Services Core application.
+To configure the List Menu, you can follow this procedure or use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/configure-psds-foundation-data.md) for the Public Sector Digital Services Core application.
 
 ## Procedure
 
@@ -64,7 +64,7 @@ To configure the List Menu, you can follow this procedure or use [guided setup](
 
 ## What to do next
 
-[Configure the Public Sector landing page using UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-configure-landing-page.md)
+[Configure the Public Sector landing page using UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/public-sector-configure-landing-page.md)
 
-**Parent Topic:**[Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/setting-up-csm-fsm.md)
 

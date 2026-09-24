@@ -3,11 +3,11 @@ title: View action logs
 description: View action logs to see details of actions that are executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/view-execution-logs.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage actions, Working with actions, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -31,5 +31,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 4.  The logs of all executed actions is displayed.
 
 
-**Parent Topic:**[Manage actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/manage-actions.md)
+**Parent Topic:**[Manage actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/manage-actions.md)
 

@@ -3,9 +3,9 @@ title: Test and publish an updated iOS app for private distribution
 description: AFter you have requested an updated iOS app for private distribution, perform these steps to test and publish it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/testpub-updat-ios-app-priv.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
     Use TestFlight to check the following if they've changed from your original request:
 
-    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
+    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-create-theme.md).
     -   App uses the default instance you specified for login if you selected the instance pre-fill option when you requested the branded app.
     -   EULA and privacy policy listed in the mobile app **Settings** tab under **Legal** link to the policies you specified.
     See [Apple documentation](https://developer.apple.com/testflight/) for information about using TestFlight.
@@ -35,7 +35,7 @@ Role required: admin
 
     -   Set up push notifications by downloading the Apple push certificate \(`p12` file\) from your app's **Build History** and upload it to your app's push application record:
         1.  Access the Push Applications table on your instance by navigating to **All** &gt; **Push Application**.
-        2.  Configure your push applications. For instructions, see [Configure push applications for iOS branded apps using certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-push-setup-ios.md).
+        2.  Configure your push applications. For instructions, see [Configure push applications for iOS branded apps using certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-push-setup-ios.md).
 
             **Note:** The push certificate password is sent in the email from Apple TestFlight that contains a link to test your branded app.
 
@@ -49,7 +49,7 @@ Role required: admin
     -   **Approve** the build to move forward with publishing the app to your end users.
 4.  Customize your app's workflows:
 
-    Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
+    Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
 
 5.  After you have tested your app, set it up, customized its workflows, and approved it, you are ready to publish your branded iOS app for private distribution.
 
@@ -64,8 +64,8 @@ Role required: admin
     -   If you are using the BlackBerry MAM, see [KB0821154](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0821154) for information about adding your iOS branded app to BlackBerry.
 6.  Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features.
 
-    For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-supported-devices.md).
+    For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-supported-devices.md).
 
 
-**Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/update-branded-app.md)
+**Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/update-branded-app.md)
 

@@ -3,7 +3,7 @@ title: Using comments and the console to debug scripts
 description: Learn how comments and the console can help you debug your scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/rules-enrichments-comments-and-console\_log.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

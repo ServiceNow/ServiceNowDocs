@@ -3,13 +3,13 @@ title: Create a record
 description: Inserts a single record in a specified table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/create-record.html
-release: australia
+release: brazil
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Perform record operations using ServiceNow CLI, ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Perform record operations using ServiceNow CLI, ServiceNow CLI, Developing your application, Building applications]
 ---
 
 # Create a record
@@ -154,5 +154,5 @@ The system returns the record in JSON format.
 
 ```
 
-**Parent Topic:**[Perform record operations using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/manage-records.md)
+**Parent Topic:**[Perform record operations using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/manage-records.md)
 

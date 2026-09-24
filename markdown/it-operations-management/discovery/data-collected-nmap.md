@@ -3,11 +3,11 @@ title: Nmap commands and data collected with credential-less Discovery
 description: Nmap executes in phases when collecting data and runs a controlled set of safe commands with two patterns for exploring applications and devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/data-collected-nmap.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Credential-less discovery with Nmap, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -290,5 +290,5 @@ Redirects `stdout` to a XML file.
 Redirects errors messages written by Nmap to `stderr` to the specified file.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Credential-less discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md)
+</table>**Parent Topic:**[Credential-less discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md)
 

@@ -3,11 +3,11 @@ title: Provide feedback on community content
 description: Provide feedback on content that you find useful.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/provide-feedback.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Provide feedback on content that you find useful.
 ## Before you begin
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -70,5 +74,5 @@ Feedback entered by you.
 </table>    **Note:** The homepage activity feed is not automatically refreshed. If updates occur while viewing the activity feed, a **New Updates Available** message appears. You can click and view all new updates. If you are in the middle of making a comment and you click **New Updates Available**, a warning message appears asking if you want to continue.
 
 
-**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/post-respond-content.md)
+**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/post-respond-content.md)
 

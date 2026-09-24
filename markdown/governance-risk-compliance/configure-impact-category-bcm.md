@@ -3,9 +3,9 @@ title: Configure an impact category for Business Continuity Management
 description: Configure an impact category to define the timeframe during which the organization would experience a downtime of its business processes. Based on the timeframe, you can determine the recovery time objective \(RTO\) of the assets that the business process depends on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-impact-category-bcm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [BCM in the Classic Workspace, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Recovery time objective \(RTO\) measurement helps to verify the key points:
 -   Identify gaps in asset recovery capabilities.
 -   Prioritize asset recovery if there is a loss scenario.
 
-While RTO calculates the acceptable time to restore a business function, Recovery Point Objective \(RPO\) determines the maximum tolerable data loss for that function.
+RTO calculates the acceptable time to restore the business function. Recovery Point Objective \(RPO\) confirms that maximum tolerable data loss is not exceeded.
 
 ## Procedure
 

@@ -3,9 +3,9 @@ title: Create an entitlement
 description: Create an entitlement in the Customer Service Management application to view the existing cases for an account, product, or service contract. Creating an entitlement helps you to understand the level of support and the communication channels that an agent can use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-entitlement.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Related list for an install base item, Create an install base item, Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ Create an entitlement to define the type of support that a customer receives.
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Configure entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-entitlements.md) and [Create entitlements for CSM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CreateAnEntitlement.md).
+    For more information, see [Configure entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-csm-entitlements.md) and [Create entitlements for CSM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CreateAnEntitlement.md).
 
 4.  Select **Submit**.
 

@@ -3,11 +3,11 @@ title: PowerShell protocols and troubleshooting
 description: PowerShell uses the Windows Management Instrumentation \(WMI\) and Windows Remote Management \(WinRM\) protocols to enable Orchestration activities to run commands on remote Windows hosts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/powershell-protocols.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,10 +50,10 @@ WinRM is automatically installed on Windows 2008 R2 and above operating systems,
     -   Configures a listener for the ports that send and receive WS-Management protocol, using either HTTP or HTTPS on any IP address.
     -   Creates a firewall exception for the current user profile.
 
--   **[MID Server PowerShell files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/mid-server-powershell-files.md)**  
+-   **[MID Server PowerShell files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/mid-server-powershell-files.md)**  
 PowerShell functions are stored in script files \(\*.ps1\) that use a PowerShell Script module \(\*.psm1\) file name extension.
--   **[PowerShell troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/powershell-troubleshooting.md)**  
+-   **[PowerShell troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/powershell-troubleshooting.md)**  
 Authentication and access denied errors can prevent PowerShell activities from running a command on a target host.
 
-**Parent Topic:**[PowerShell activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md)
+**Parent Topic:**[PowerShell activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrPwrshellActivityPack.md)
 

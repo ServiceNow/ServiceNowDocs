@@ -3,11 +3,11 @@ title: UI Builder glossary
 description: Learn about the terms and concepts used in UI Builder \(UIB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/ui-builder-glossary.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your 
 
 Learn about the terms and concepts used in UI Builder \(UIB\).
 
-**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-custom-experience.md)
+**Parent Topic:**[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-custom-experience.md)
 
 ## action
 

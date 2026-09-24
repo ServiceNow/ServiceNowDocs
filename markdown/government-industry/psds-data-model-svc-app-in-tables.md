@@ -3,9 +3,9 @@ title: Tables installed with Service Applicant Information Plugin
 description: This section describes the tables installed with the Service Applicant Information plugin and shows how they store and manage information. The Service Applicant Information plugin tables focus on capturing detailed applicant data for eligibility assessments, and enable the addition of any supplementary applicants \(either constituents or business contacts\) to a case or application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-svc-app-in-tables.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Applicant, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -20,5 +20,5 @@ This section describes the tables installed with the Service Applicant Informati
 |Point in time content \(sn\_svc\_appl\_info\_pitc\)|Contains applicant information captured at specific moments, preserving historical records for audits, appeals, and compliance requirements.|N/A|
 |Letter Detail \(sn\_svc\_appl\_info\_letter\_details\)|Contains details about correspondence and official communications related to applicants.|N/A|
 
-**Parent Topic:**[Service Applicant Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-service-applicant.md)
+**Parent Topic:**[Service Applicant Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-service-applicant.md)
 

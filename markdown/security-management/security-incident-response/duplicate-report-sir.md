@@ -3,11 +3,11 @@ title: Duplicate a report template in Security Incident Response
 description: Duplicate a report template to edit or reuse an existing template to create a new template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/duplicate-report-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure report templates in Security Incident Response, Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -43,7 +43,7 @@ The contents of the selected template are duplicated and copy of the selected te
 
 ## What to do next
 
-[Edit a report template in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/edit-template-sir.md)
+[Edit a report template in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/edit-template-sir.md)
 
-**Parent Topic:**[Configure report templates in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/daily-status-sir.md)
+**Parent Topic:**[Configure report templates in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/daily-status-sir.md)
 

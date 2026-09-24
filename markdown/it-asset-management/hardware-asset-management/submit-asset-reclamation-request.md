@@ -3,13 +3,13 @@ title: Submit an asset reclamation request
 description: Use Reclaim Asset catalog item to efficiently reclaim hardware assets when an employee leaves an organization or moves to a different role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/submit-asset-reclamation-request.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reclaim hardware assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Reclaim hardware assets, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Submit an asset reclamation request
@@ -108,5 +108,5 @@ Any instructions if you want to mention.
     An Asset Reclamation Request is created.
 
 
-**Parent Topic:**[Reclaim hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-reclaim.md)
+**Parent Topic:**[Reclaim hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-asset-reclaim.md)
 

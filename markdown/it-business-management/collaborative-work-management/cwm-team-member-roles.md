@@ -3,11 +3,11 @@ title: Managing SPM work in Collaborative Work Management
 description: Team members can view and update project tasks and demand tasks directly in Collaborative Work Management \(CWM\) using team member roles, without requiring access to Project Workspace or Next Experience for Demand Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-team-member-roles.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [team member, project tasks, collaborative work management]
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -32,7 +32,7 @@ The following roles are available for team members:
     Allows users to view and edit project tasks and demand tasks.
 
 
-For the full list of access permissions for each role, see [Team member role access permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-role-permissions.md).
+For the full list of access permissions for each role, see [Team member role access permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-team-member-role-permissions.md).
 
 **Note:** Assigning one of these team member roles automatically grants the CWM user role \[sn\_cwm.cwm\_user\] and Time card user role \[timecard\_user\].
 
@@ -40,11 +40,11 @@ For the full list of access permissions for each role, see [Team member role acc
 
 After a team member role is assigned, users can view and manage project and demand tasks in CWM through the following features:
 
--   **My Work**: View all project and demand tasks assigned to you in one place. For more information, see [My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/my-work-in-cwm.md).
+-   **My Work**: View all project and demand tasks assigned to you in one place. For more information, see [My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/my-work-in-cwm.md).
 
 -   **Connected Work**: Pull project and demand tasks into CWM Boards using flexible filters, such as tasks assigned to you, your assignment group, or other criteria. You can edit and update tasks directly from the board.
 
-    For more information, see [Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
+    For more information, see [Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 
 
 By default, team member roles provide broad access to the tasks assigned to them. Administrators can configure additional ACLs to restrict access to specific tasks.
@@ -70,13 +70,13 @@ The following limitations apply to team member roles in this release:
 
 -   The Timecard Management application must be installed to for team members to create timecards against their project tasks or demand tasks.
 
--   **[Team member role access permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-role-permissions.md)**  
+-   **[Team member role access permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-team-member-role-permissions.md)**  
 Access permissions for the team member read and team member read-write roles in Collaborative Work Management \(CWM\), covering projects, project tasks, demands, demand tasks, ideas, and calendar events.
 
-**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
+**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 
 **Related topics**  
 
 
-[Team member role access permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-role-permissions.md)
+[Team member role access permissions in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-team-member-role-permissions.md)
 

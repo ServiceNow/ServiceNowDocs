@@ -1,26 +1,26 @@
 ---
 title: Components related to CMDB Data Manager
-description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace.
+description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace and Service Graph Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Components related to CMDB Data Manager
 
-The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace.
+The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspaceand Service Graph Workspace.
 
 ## System properties
 
-As a Data Manager Administrator \(data\_manager\_admin\) you can view CMDB Data Manager properties in CMDB Workspace or in Service Graph Workspace.
+As a Data Manager Administrator \(data\_manager\_admin\) you can view CMDB Data Manager properties in CMDB Workspace .
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance** In the Governance view, select the **Data Manager** management tool.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then select the **Data Manager** quick link in Management tools, in the Manage section.
 2.  Select **Settings** in the left navigation panel.
 
 <table id="table_w2w_tdx_npb"><thead><tr><th>
@@ -46,8 +46,8 @@ Retirement definitions
 
 </td><td>
 
-List of retirement definitions used in CMDB Data Manager life-cycle policies. For more information about the concept and usage of retirement definitions, see:-   [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md)
--   [Manage retirement definitions for CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.md)
+List of retirement definitions used in CMDB Data Manager life-cycle policies. For more information about the concept and usage of retirement definitions, see:-   [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md)
+-   [Manage retirement definitions for CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.md)
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Policy types that should receive notifications for approaching due date and for 
 
  On closing a task, sending notifications stops.
 
- For information about how the **Days to complete** setting is used to calculate when notifications are sent, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+ For information about how the **Days to complete** setting is used to calculate when notifications are sent, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 
  -   Type: string
 -   Default value: "attestation,certification"
@@ -138,7 +138,7 @@ System identifier of a user group to send notifications about tasks that are bei
 
  By default, this property is empty, in which case, notifications are sent to users with the data\_manager\_admin role.
 
- For information about how this property is used when reviewing and rejecting life-cycle tasks, see [Review CMDB Data Manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md).
+ For information about how this property is used when reviewing and rejecting life-cycle tasks, see [Review CMDB Data Manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md).
 
 </td></tr><tr><td>
 
@@ -225,7 +225,9 @@ CMDB Data Management Policy Executions\[cmdb\_data\_management\_policy\_executio
 
 </td><td>
 
-Execution records that correspond to each policy run. As policies run according to their recurring schedule, for each run the system generates a record with a unique policy execution number for that run. A policy execution number has a prefix of 'PLCEXEC'.
+Execution records that correspond to each policy run. For each policy run, the system generates a record with a unique policy execution number for that run. A policy execution number has a prefix of 'PLCEXEC'.
+
+ The **Work Notes** and **Activities** fields in a policy record contain details about the outcome of the run. Information such as the number of CIs that weren't processed because they exist in other tasks, and access issues preventing processing of CIs. You can use this information to mitigate issues by for example, updating policy configurations or updating user permissions.
 
  Execution records associated with certification policy runs, are used for populating the Data Certification Dashboard.
 
@@ -325,7 +327,7 @@ Dependent CI Relations Evaluation Config\[cmdb\_dependent\_ci\_extra\_rels\_conf
 
 Information about CIs' extraneous relationships which is used for the delete and archive operations. Extraneous relationships are those relationships that are not in the CI’s chain of dependency.
 
- For more information, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
+ For more information, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
 </td></tr><tr><td>
 
@@ -335,7 +337,7 @@ CMDB Dependent CI Class Exclusions\[cmdb\_dependent\_ci\_class\_exclusion\]
 
 Excluded classes for dependent CI, which is used with the Archive/Retire/Delete policy types to determine which CIs are orphan dependent CIs.
 
- For more information, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
+ For more information, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
 </td></tr><tr><td>
 
@@ -343,7 +345,7 @@ CMDB Dependent CI Ledger\[cmdb\_dependent\_ci\_ledger\]
 
 </td><td>
 
-Staging table for orphaned dependent CI related to the deletion or archival of the main CI that they depend on. Also used in a cascade-retire dependent CIs operation.For more information, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
+Staging table for orphaned dependent CI related to the deletion or archival of the main CI that they depend on. Also used in a cascade-retire dependent CIs operation.For more information, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
 </td></tr><tr><td>
 

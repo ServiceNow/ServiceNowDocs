@@ -3,11 +3,11 @@ title: Configure extended table support for email reply recommendation skill
 description: Create a child skill variant of the Email reply recommendation skill to generate AI-powered email replies tailored to a specific case subtype or extended table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-extended-table-support-for-the-email-reply-recommendation-skill.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents, Email Reply Recommendation, extended table, child skill, Now Assist, Now Assist Skill Kit, NASK, CSM]
 breadcrumb: [Email recommendation, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -32,7 +32,7 @@ When you copy the Email reply recommendation skill in AI Admin Hub, a child skil
 
 ## Procedure
 
-1.  Navigate to &gt; &gt; **Admin** &gt; **AI admin Hub** &gt; **Skills**.
+1.  Navigate to &gt; &gt; **Admin** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  Select the **Customer** workflow and **CSM** as the product.
 

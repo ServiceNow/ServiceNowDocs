@@ -3,9 +3,9 @@ title: FSM integration
 description: Quality Issue Management \(QIM\) integrates with Field Service Management \(FSM\) to support quality actions that require on-site intervention. Non-conformance \(NC\) and quality issue \(QI\) records that require field verification, containment, or corrective repair can trigger a FSM work order directly from within QIM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-fsm-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, Manufacturing Commercial Operations]
 ---

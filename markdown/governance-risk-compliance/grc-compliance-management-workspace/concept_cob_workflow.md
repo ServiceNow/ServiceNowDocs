@@ -3,11 +3,11 @@ title: Control objective workflow
 description: The control objective workflow introduces a review and approval process for changes to control objective records, preventing unreviewed updates from immediately affecting downstream objects such as controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/concept\_cob\_workflow.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

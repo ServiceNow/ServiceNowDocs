@@ -3,11 +3,11 @@ title: Implement a nonce
 description: You can implement a nonce to be used with single sign-on digest authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_ImplementingANonce.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Local authentication, Authentication, Access Management]
 ---

@@ -3,9 +3,9 @@ title: Overall technique mitigation coverage calculator
 description: The overall technique mitigation coverage is determined based on the formula defined in the mitigation coverage calculator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/mitigation-coverage-calculator.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Map your mitigation coverage to a technique, MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -31,5 +31,5 @@ The overall technique mitigation coverage is determined based on the formula def
 1.  Navigate to **All** &gt; **Threat Intelligence** &gt; **MITRE ATT&amp;CK Administration** &gt; **Mitigation Coverage Calculator**.
 
 
-**Parent Topic:**[Map your mitigation coverage to a technique](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-your-mitigation-coverage-to-a-technique.md)
+**Parent Topic:**[Map your mitigation coverage to a technique](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/map-your-mitigation-coverage-to-a-technique.md)
 

@@ -3,11 +3,11 @@ title: Create or manage a control on a processing activity
 description: Add new controls or manage the controls that are automatically added to the processing activity from the assessment responses. Adding controls ensures that the appropriate regulations are applied to the processing activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-controls.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -29,7 +29,7 @@ You can add or manage controls to a processing activity in the following ways:
 -   Selecting from the recommended controls: This option enables you to choose from a list of recommended controls based on the information object that is mapped to a processing activity. If an information object is mapped to one or more control objectives, and the same information object is mapped to a processing activity, the system recommends the corresponding control objectives.
 -   Managing the automatically added controls: You can manage the controls that are automatically created based on the assessment responses.
 -   Applying controls from entities: You can apply privacy-related controls on the processing activity from the related entity.
--   Adding common controls: You can add common controls to a processing activity so that the privacy teams can be notified of control failures and avoid duplicate common control attestation process. For more information on common controls, refer to [Testing common control and implementing results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.md).
+-   Adding common controls: You can add common controls to a processing activity so that the privacy teams can be notified of control failures and avoid duplicate common control attestation process. For more information on common controls, refer to [Testing common control and implementing results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.md).
 
 **Note:**
 
@@ -43,23 +43,23 @@ You can add or manage controls to a processing activity in the following ways:
 
 4.  To add a control to the processing activity, do one of the following.
 
-<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d273576e123">
+<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d277513e123">
 
 Option
 
-</th><th align="left" id="d273576e126">
+</th><th align="left" id="d277513e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d273576e132">
+</th></tr></thead><tbody><tr><td id="d277513e132">
 
 **To create a control**
 
 </td><td>
 
-Click **New** and fill in the form.For details see, [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md).
+Click **New** and fill in the form.For details see, [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md).
 
-</td></tr><tr><td id="d273576e154">
+</td></tr><tr><td id="d277513e154">
 
 **To add a control by using the existing control objectives**
 
@@ -70,7 +70,7 @@ Click **New** and fill in the form.For details see, [Create a control](https://r
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d273576e181">
+</td></tr><tr><td id="d277513e181">
 
 **To select a control from the list of recommended controls**
 
@@ -86,5 +86,5 @@ Click **New** and fill in the form.For details see, [Create a control](https://r
 
 The mitigating controls are added to the processing activity.
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

@@ -3,9 +3,9 @@ title: Add a knowledge block to a knowledge article
 description: Insert one or more knowledge blocks into a knowledge article within a knowledge base. Each knowledge block is secured by user criteria, which controls who can read or not read the content in an article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-add-knowledge-blocks-to-a-knowledge-article.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using knowledge blocks in the Knowledge Center, Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -17,7 +17,7 @@ Insert one or more knowledge blocks into a knowledge article within a knowledge 
 ## Before you begin
 
 -   You must have a 'contribute' access to the knowledge base.
--   Confirm that the knowledge blocks feature is enabled for the knowledge base that the article is in. For more information, see [Enable knowledge blocks in the Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-enable-knowledge-blocks.md)
+-   Confirm that the knowledge blocks feature is enabled for the knowledge base that the article is in. For more information, see [Enable knowledge blocks in the Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/kc-enable-knowledge-blocks.md)
 
 Role required: knowledge
 

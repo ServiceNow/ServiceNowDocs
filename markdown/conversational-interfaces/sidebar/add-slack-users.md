@@ -3,11 +3,11 @@ title: Add Slack users
 description: Invite users to Slack if the Slack users do not already exist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/add-slack-users.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate Sidebar and Slack, Sidebar and Slack, Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  In a browser window, enter `<workspace name>/admin` where `<workspace name>` is the name of the workspace you specified when you created the app in [Set up the Slack account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/setup-slack-account.md).
+1.  In a browser window, enter `<workspace name>/admin` where `<workspace name>` is the name of the workspace you specified when you created the app in [Set up the Slack account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/sidebar/setup-slack-account.md).
 
 2.  Select **Invite People**.
 

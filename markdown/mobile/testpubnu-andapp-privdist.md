@@ -3,9 +3,9 @@ title: Test and publish a new branded Android app for private distribution
 description: Learn the next steps to test and publish a new branded Android app for private distribution after you request it in Mobile Publishing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/testpubnu-andapp-privdist.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Request private Android app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -30,7 +30,7 @@ After the build successfully completes and your app is ready for testing:
 
 5.  Check the following items on your app:
 
-    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
+    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-create-theme.md).
     -   App uses the default instance you specified for login if you selected the instance pre-fill option when you requested the branded app.
     -   EULA and privacy policy listed in the mobile app **Settings** tab under **Legal** link to the policies you specified.
     **Important:** The APK file that was used during testing should also be used for deployment.
@@ -62,7 +62,7 @@ Once the status of your app is **Ready for testing**, you have 90 days to make s
 
 ## 4. Customize your app's workflows
 
-Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
+Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
 
 ## 5. Publish and distribute your app
 
@@ -83,5 +83,5 @@ After you have tested your app, set it up, and customize its workflows, you are 
 
 ## 6. Keep your app updated
 
-Update your app before you update your ServiceNow® family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-supported-devices.md).
+Update your app before you update your ServiceNow® family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-supported-devices.md).
 

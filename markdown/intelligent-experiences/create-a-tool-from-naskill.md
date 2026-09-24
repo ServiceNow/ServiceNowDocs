@@ -1,28 +1,26 @@
 ---
-title: Create a tool from an AI skill
-description: Create a tool from a generative AI skill to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+title: Create a tool from AI skill
+description: Create a tool from generative AI skills to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-a-tool-from-naskill.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating tools, Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Creating tools, Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
-# Create a tool from an AI skill
+# Create a tool from AI skill
 
-Create a tool from a generative AI skill to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+Create a tool from generative AI skills to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 
 ## Before you begin
 
 Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
-## About this task
+Prebuilt and custom AI skills are organized as governed MCP tools, enabling seamless discovery and accessibility for any standards-conforming MCP client. This structure enhances usability and encourages effective integration of these skills across various platforms. See [AI skill support in MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-support-mcp.md) to learn about the pre-configured AI skills.
 
-Prebuilt and custom AI skills are organized as governed MCP tools, enabling seamless discovery and accessibility for any standards-conforming MCP client. This structure enhances usability and encourages effective integration of these skills across various platforms. See [Generative AI skill support in MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-support-mcp.md) to learn about the pre-configured AI skills.
-
-**Note:** Only AI skills that don't rely on internal information as inputs, such as sys\_ids, are available to be created as tools. For more information about why a skill might not be available for creation as a tool, see the [AI Skill Eligibility Criteria for MCP Tool Integration \[KB2952564\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2952564) article in the Now Support Knowledge Base.
+**Note:** Only Now Assist skills that don't rely on internal information as inputs, such as sys\_ids, are available to be created as tools. For more information about why a skill might not be available for creation as a tool, see the [AI Skill Eligibility Criteria for MCP Tool Integration \[KB2952564\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2952564) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -50,7 +48,7 @@ AI skill
 
 </td><td>
 
-Select an AI skill type from the list.
+Select a AI skill type from the list.
 
 </td></tr><tr><td>
 
@@ -116,7 +114,7 @@ One or more servers you want to add your tool to.
 
 ## What to do next
 
-Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md).
+Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
 
-**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md)
+**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/creating-tools-mcp-server.md)
 

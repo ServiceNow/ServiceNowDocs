@@ -3,9 +3,9 @@ title: Viewing the ribbon information in License and Permit Playbook
 description: You can view the information about the ribbon in the contextual side panel in CRM Workspace. The ribbon displays the important information about the case, such as the information request record information, constituent contact details, and the case timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-lpr-playbook-viewing-ribbon.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the contextual side panel, Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---

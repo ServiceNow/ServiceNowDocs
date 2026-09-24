@@ -3,11 +3,11 @@ title: Define Agile structure in EAP for Jira Configuration
 description: Set up Agile team structures in Enterprise Agile Planning \(EAP\) for teams associated with Jira projects so that imported work items and updates from Jira display correctly in EAP.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/define-agile-structure-eap-teams-spw-jira-integrations.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Set up Agile team structures in Enterprise Agile Planning \(EAP\) for teams asso
 
 ## Before you begin
 
-[Activate Jira configuration in Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/activate-jira-configuration-in-eap.md).
+[Activate Jira configuration in Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/activate-jira-configuration-in-eap.md).
 
 Ensure that **Application Scope** of your ServiceNow instance is set to **Strategic Planning**.
 
@@ -55,5 +55,5 @@ An Agile structure is defined for Jira Configuration in EAP.
 
 ## What to do next
 
-[Start using SPW and EAP with Jira integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/using-eap-with-spw-jira-integrations.md).
+[Start using SPW and EAP with Jira integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/using-eap-with-spw-jira-integrations.md).
 

@@ -3,11 +3,11 @@ title: View install base information from the Business Portal
 description: View a list of install base to track the instances provisioned for your account and see which products or services run on them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-install-base-info-business-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View install base information from the Business Portal
@@ -40,7 +40,7 @@ You can view all cases and the service status from the last 30 days as well as a
 **Related topics**  
 
 
-[Create a case for install base from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-install-base-business-portal.md)
+[Create a case for install base from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-case-install-base-business-portal.md)
 
-[View product information from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-info-business-portal.md)
+[View product information from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-product-info-business-portal.md)
 

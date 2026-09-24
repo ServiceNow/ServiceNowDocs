@@ -3,11 +3,11 @@ title: Retail case overview
 description: The Retail case table stores information about your retail case types and provides the base for retail case creation. This table extends the Customer Service Management case table. All fields utilized through Customer Service Management case remain intact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-case.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Retail case types, Explore, Retail]
+breadcrumb: [Explore, Retail]
 ---
 
 # Retail case overview
@@ -20,9 +20,9 @@ The abstract Retail case will include only the shared logic such as common field
 
 The retail case type introduced within retail builds on existing Customer Service Management case functionality to provide users with retail-specific fields. For more information on these changes, see the [Impact analysis and guidance: Retail case table updates \[KB2216547\]](https://support.servicenow.com/nav_to.do?uri=%2Fkb_knowledge.do%3Fsys_id%3Da312916e978aa650f03d739c1253af88%26sysparm_view%3D%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull) article in the Now Support Knowledge Base.
 
-You can extend your own case types. For information on using retail case types, see [Manage customer complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-customer-complaints.md) and [Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-inquiries.md).
+You can extend your own case types. For information on using retail case types, see [Manage customer complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-customer-complaints.md) and [Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-inquiries.md).
 
-For retail case table attributes, see [Retail organization data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-data-model-tables.md). For unified data model of cases and tasks, see [Retail unified case and task data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-unified-cas-task-data-model.md).
+For retail case table attributes, see [Retail organization data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-operations-data-model-tables.md). For unified data model of cases and tasks, see [Retail unified case and task data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-retail-unified-cas-task-data-model.md).
 
-**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-retail-case-types-revamp.md)
+**Parent Topic:**[Exploring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-operations-explore.md)
 

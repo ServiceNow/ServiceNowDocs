@@ -3,11 +3,11 @@ title: Configure a Facebook-based Single Sign-On \(SSO\)
 description: Configure a Facebook-based SSO to your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-facebook-based-sso.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [OIDC as a SSO identity provider, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

@@ -3,11 +3,11 @@ title: Upgrade a dashboard
 description: When you upgrade a dashboard, solution metadata that have updates available, including any new records added to the dashboard, are installed. Solution metadata records that you have customized, even if those records are updated in the newer release​, are not affected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/upgrade-content.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install a dashboard, Platform Analytics solutions, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Role required: pa\_admin
 
 ## About this task
 
-When you install or upgrade a Performance Analytics solution, out of the box content in the instance is overwritten and new content is added to the dashboard. Any content that you have previously customized on the dashboard is not changed.
+When you install or upgrade a Performance Analytics solution, base system content in the instance is overwritten and new content is added to the dashboard. Any content that you have previously customized on the dashboard is not changed.
 
 ## Procedure
 
@@ -53,5 +53,5 @@ New dashboard records are added to the dashboard. Updates to dashboard records t
 
 If the dashboard does not appear as you expected after installing the solution content, see if the uninstalled records appear on the customer update table. Any uninstalled records on this table were previously customized. To view the customer updates table, enter `sys_update_xml.list` in the filter navigator.
 
-**Parent Topic:**[Install a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/install-content.md)
+**Parent Topic:**[Install a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/install-content.md)
 

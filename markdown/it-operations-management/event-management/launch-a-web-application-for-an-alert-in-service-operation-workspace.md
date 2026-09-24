@@ -3,13 +3,13 @@ title: Launch a web application for an alert in Service Operations Workspace for
 description: Launch a web application that was configured in an alert management rule to quickly access necessary tools, improving response times and efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/launch-a-web-application-for-an-alert-in-service-operation-workspace.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Launch a web application for an alert in Service Operations Workspace for ITOM
@@ -32,6 +32,6 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 4.  In the Utilities section, select the web application to launch the app.
 
-    **Note:** For information on how to add a web application that can be launched, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-alert-management-rule.md).
+    **Note:** For information on how to add a web application that can be launched, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-alert-management-rule.md).
 
 

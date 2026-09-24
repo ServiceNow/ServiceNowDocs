@@ -3,11 +3,11 @@ title: View your operational status
 description: View the Operational Status modules for a list of the CIS Controls and technology Controls. Each control also includes the technology used to validate compliance, type of indicator template available, and the control's source table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/view-operational-status.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technology Controls Monitoring Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: admin or sn\_compliance.reader
 
 Starting with Version 12.0.2, the Operational Status modules provide a view of all of your CIS Controls and/or ISO 27002-based indicator templates mapped to specific CIS/ISO controls in one place. This information can be useful for monitoring your controls and the health of your system. The application is able to scan your instance and determine which controls you have implemented, along with the various technologies available for validating each control and protecting your data.
 
-Beginning with the Australia release, Technology Controls Monitoring Accelerator provides pre-packaged CIS v8 controls and indicator templates.
+Beginning with the Brazil release, Technology Controls Monitoring Accelerator provides pre-packaged CIS v8 controls and indicator templates.
 
 ## Procedure
 
@@ -123,5 +123,5 @@ The source table for the data being monitored by the control.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
+**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
 

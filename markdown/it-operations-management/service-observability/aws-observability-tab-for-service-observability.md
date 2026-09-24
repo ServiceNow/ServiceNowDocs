@@ -3,11 +3,11 @@ title: Amazon CloudWatch Observability tab for Service Observability
 description: Dashboard and charts on the Amazon CloudWatch tab of the Service Details page in the SOW.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/aws-observability-tab-for-service-observability.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Amazon CloudWatch templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -77,5 +77,5 @@ This dashboard displays metrics for RDS databases related to the service.
 |Write Latency|Time taken in milliseconds for write operation from the database to complete.|AWS|
 |All RDS Instances|Information for all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[Amazon CloudWatch templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/aws-templates.md)
+**Parent Topic:**[Amazon CloudWatch templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/aws-templates.md)
 

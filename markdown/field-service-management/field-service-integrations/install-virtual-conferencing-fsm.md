@@ -3,11 +3,11 @@ title: Install Field Service Management Virtual Conferencing Integration
 description: You can install the Field Service Management Virtual Conferencing Integration application \(com.snc.fsm\_vci\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/install-virtual-conferencing-fsm.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -23,26 +23,26 @@ You can install the Field Service Management Virtual Conferencing Integration ap
     -   **Required ServiceNow plugins**
         -   **Notify \(com.snc.notify\)**
 
-            Provides support for SMS and voice channels on the platform. For more information about activating Notify, see [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ActivateNotify.md).
+            Provides support for SMS and voice channels on the platform. For more information about activating Notify, see [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ActivateNotify.md).
 
 -   Field Service Virtual Conferencing Integration requires the following ServiceNow Store applications. Ensure that these applications are installed before you install Field Service Management Virtual Conferencing Integration.
     -   **Required ServiceNow Store applications to integrate Zoom**
         -   **Zoom Spoke**
 
-            Integrate the Zoom account of your company with your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+            Integrate the Zoom account of your company with your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
         -   **Notify Zoom Connector**
 
-            Associates the Notify communication channel with Zoom meetings. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+            Associates the Notify communication channel with Zoom meetings. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     -   **Required ServiceNow Store applications to integrate Microsoft Teams**
         -   **Notify Connector for Microsoft Teams**
 
-            Manage and initiate a Microsoft Teams meeting directly from a task. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+            Manage and initiate a Microsoft Teams meeting directly from a task. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
         -   **Microsoft Teams Communication Spoke**
 
-            Manage groups calls and meetings in Microsoft Communications account from your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+            Manage groups calls and meetings in Microsoft Communications account from your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 
 Role required: admin
@@ -64,5 +64,5 @@ Role required: admin
 4.  Select **Install**.
 
 
-**Parent Topic:**[Integration with Virtual Conferencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/virtual-conference-integration-fsm.md)
+**Parent Topic:**[Integration with Virtual Conferencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/virtual-conference-integration-fsm.md)
 

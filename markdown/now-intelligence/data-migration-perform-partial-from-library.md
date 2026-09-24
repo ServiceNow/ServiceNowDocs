@@ -3,9 +3,9 @@ title: Perform a partial dashboard migration from the library
 description: Migrate a selection of your existing dashboards, reports, interactive filters, and Performance Analytics widgets to Platform Analytics experience. Migration works the same whether you choose to migrate some or all of your content. However, you can move some of your content to evaluate the process or when you have a large number of dashboards and want to migrate in segments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-perform-partial-from-library.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [How to migrate a few dashboards]
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
@@ -49,7 +49,7 @@ The migrated dashboard appears in the Platform Analytics library. The original C
 
 4.  In the Migration Center, you can compare the two versions of the selected dashboards, view the logs, and choose which to migrate to Next Experience.
 
-    For more information, see [Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-evaluate.md).
+    For more information, see [Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-migration-evaluate.md).
 
 5.  Select **See All Content** to replace the list of selected dashboards with the list of all dashboards on the instance.
 
@@ -64,5 +64,5 @@ In the library, migrated dashboards are listed next to their Core UI counterpart
 
 ## What to do next
 
-Verify that the migrated dashboards have all the features of the Core UI dashboards, either as fully migrated content or as iframed content. For more information, see [Unmigrated content and compatibility mode migrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-mig-unmigrated-content.md).
+Verify that the migrated dashboards have all the features of the Core UI dashboards, either as fully migrated content or as iframed content. For more information, see [Unmigrated content and compatibility mode migrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-mig-unmigrated-content.md).
 

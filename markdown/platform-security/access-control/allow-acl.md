@@ -3,11 +3,11 @@ title: Allow ACL
 description: Learn about Allow ACLs \(access control lists\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/allow-acl.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure an ACL, Access Control Lists \(ACLs\), Access Management]
 ---

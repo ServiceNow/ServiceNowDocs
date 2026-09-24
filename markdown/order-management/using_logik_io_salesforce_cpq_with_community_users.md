@@ -3,7 +3,7 @@ title: Using CPQ and Salesforce CPQ with community users
 description: When partner and community users cannot authenticate in Salesforce, they can use a Runtime Client Token to authenticate with CPQ. Follow these setup steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using\_logik\_io\_salesforce\_cpq\_with\_community\_users.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

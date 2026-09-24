@@ -3,9 +3,9 @@ title: ServiceNow AI Lens for mobile
 description: ServiceNow AI Lens enables you to harness generative AI to scan, extract, understand, and synthesize data directly from your phone or tablet, making it easy to optimize your workflows on the go.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/servicenow-lens-mobile.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI, Otto]
 breadcrumb: [Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]
@@ -38,7 +38,7 @@ ServiceNow AI Lens supports the following file types:
 
 ServiceNow AI Lens can extract information from images and directly enter the data into forms. To have ServiceNow AI Lens assist you, tap the Lens icon \[Omitted image "na-lens-icon.png"\] Alt text:. After attaching the image you want to extract information from, you can add additional instructions for how ServiceNow AI Lens should extract the data.
 
-For more information about the feature, see [Exploring ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens-explore.md). For information on configuring on your device, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-sn-lens.md).
+For more information about the feature, see [Exploring ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens-explore.md). For information on configuring on your device, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-sn-lens.md).
 
-To learn how to configure a lens launcher button for your mobile app, see [Configure a Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-lens-launcher-button.md).
+To learn how to configure a lens launcher button for your mobile app, see [Configure Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-lens-launcher-button.md).
 

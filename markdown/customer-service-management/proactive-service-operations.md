@@ -3,9 +3,9 @@ title: Proactive Customer Service Operations
 description: Proactively trigger case workflows and notify customers of any issues to resolve issues faster and lower inbound call volume.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/proactive-service-operations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Proactive Customer Service, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -22,9 +22,9 @@ These cases are resolved and closed in the same way as customer-reported cases. 
 
 You can also associate outage information to a case to keep your customers informed about the impact of the outage and the status of the resolution. It also gives customers visibility into planned service disruptions, enhancing transparency and reducing the number of customer-reported cases.
 
-Your customers can use the Customer Service Portal to view proactive cases that you opened on their behalf, any outages associated with their install base, and interact with you using the proactive case.
+Your customers can use the Customer Service Portal to view proactive cases that you opened on their behalf, any outages associated with their install base, and interact with you using the proactive case. Business organization staff can view outage information for their install base items on the Business Organization Support Portal \(BOSP\). For more information, see Track outages on the Business Organization Support Portal.
 
-The Proactive Customer Service Operations plugin \(com.snc.proactive\_cs\_itom\) provides an integration between Customer Service Management and the Event Management console in IT Operations Management. For more information, see [Integration with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/pcso-event-management.md).
+The Proactive Customer Service Operations plugin \(com.snc.proactive\_cs\_itom\) provides an integration between Customer Service Management and the Event Management console in IT Operations Management. For more information, see [Integration with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/pcso-event-management.md).
 
 ## Before you begin
 
@@ -36,14 +36,20 @@ Meet with your stakeholders to define your requirements. Depending on your requi
 
 To enable Proactive Customer Service Operations, activate the Proactive Customer Service Operations plugin \(com.snc.proactive\_cs\_ops\).
 
-To enable Proactive Customer Service Operations with Event Management, activate the Proactive Customer Services with Event Management plugin \(com.snc.proactive\_cs\_itom\)
+To enable Proactive Customer Service Operations with Event Management, activate the Proactive Customer Services with Event Management plugin \(com.snc.proactive\_cs\_itom\).
 
-For detailed steps on getting started with Proactive Customer Service Operations, see [Configure Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-pcso.md).
+To use Proactive Customer Service Operations for Business Organizations, you must have the Business Location plugin \(com.snc.business\_location\). For more information, see [Configure proactive case flows for business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-flow-designer-bo.md) and [Using Proactive Customer Service Operations for business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-pcso-bo.md).
+
+For detailed steps on getting started with Proactive Customer Service Operations, see [Configure Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-pcso.md).
 
 **Related topics**  
 
 
-[Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-management.md)
+[Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/major-issue-management.md)
 
-[Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-install-base.md)
+[Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-install-base.md)
+
+[Configure proactive case flows for accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-flow-designer.md)
+
+[Configure proactive case flows for business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-flow-designer-bo.md)
 

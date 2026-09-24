@@ -1,28 +1,28 @@
 ---
-title: Enable multiple \(permission policy and boundary\) checks to ensure that the Role is privileged in AWS/Bedrock
-description: Use a system property to determine what checks are used to verify whether a role is allowed to perform a privileged operation.
+title: Enable IAM and boundary checks for Amazon Bedrock access
+description: Enable IAM and Boundary Checks for Amazon Bedrock access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-multiple-permission.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable multiple \(permission policy and boundary\) checks to ensure that the Role is privileged in AWS/Bedrock
+# Enable IAM and boundary checks for Amazon Bedrock access
 
-Use a system property to determine what checks are used to verify whether a role is allowed to perform a privileged operation.
+Enable IAM and Boundary Checks for Amazon Bedrock access.
 
-AWS Permission can be set using Identity and Access Management \(IAM\) policies such as `bedrock:InvokeModel` that allow an application to call InvokeModel function on all available models in all regions. Boundary in bedrock is used to limit the maximum permission such as `Limit bedrock:InvokeModel` to only the haiku-3.5 model and specific regions.
+AWS permissions for Amazon Bedrock are set using Identity and Access Management \(IAM\) policies. For example, the `bedrock:InvokeModel` policy allows an application to call `InvokeModel` function on all available models in all AWS regions. Bedrock boundaries restrict the scope of permissions granted by IAM policies. For example, a boundary can limit the `bedrock:InvokeModel` permission to only the Haiku 3.5 model and specific regions.
 
-The **sn\_ai\_security.bedrock\_priviledge.permission\_policy** system property determines whether an application checks both IAM policy and the bedrock boundary configuration to verify whether a role is allowed to perform a privileged operation.
+The **sn\_ai\_security.bedrock\_priviledge.permission\_policy** system property determines whether an application checks both the IAM policy and the Bedrock boundary configuration to verify whether a role is allowed to perform a privileged operation.
 
-This property enables multiple \(permission policy and boundary\) checks to ensure that the role is privileged in AWS/Bedrock. If it is not set to the recommended value of `false`, then the application relies only on IAM policy to decide whether a role is privileged.
+When set to the recommended value of `false`, the application validates both checks. If it is set to `true`, then the application checks only on the IAM policy to decide whether a role is privileged.
 
-Set the **sn\_ai\_security.bedrock\_priviledge.permission\_policy** system property to `false` or ensure that it doesn't exist in the System Properties \[sys\_properties\] table to help ensure defense in depth.
+Set the **sn\_ai\_security.bedrock\_priviledge.permission\_policy** system property to `false` or ensure that it doesn't exist in the sys\_properties table to support defense in depth.
 
 ## More information
 
@@ -88,7 +88,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Security risk
 
 -   Severity score: 4.8
 -   CVSS score: Medium
--   Security risk details: Unintended unauthorized access to all resources under one IAM policy on AWS bedrock and within multiple regions. This could include all available AI models within all regions of AWS.
+-   Security risk details: Unintended unauthorized access to all resources under one IAM policy on Amazon Bedrock and within multiple AWS regions. This could include all available AI models within all regions.
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Functional impact
 
 </td><td>
 
-Based on the property value, the application checks either IAM policy only within AWS or also checks boundary configuration within AWS/Bedrock along with IAM policy in order to verify whether a role associated to a request is privileged or not.
+Based on the property value, the application either checks only the IAM policy or checks both the IAM policy and the Amazon Bedrock boundary configuration to verify whether a role has the required privileges.
 
 </td></tr><tr><td>
 
@@ -117,5 +117,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

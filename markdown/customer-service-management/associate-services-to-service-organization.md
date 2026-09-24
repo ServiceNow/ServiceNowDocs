@@ -3,9 +3,9 @@ title: Associate service organizations with a service
 description: Associate your service organizations with a service by using the Customer Service Management \(CSM\) application. With this association, your service organization \(SO\) staff can address customer queries for products and services offered at the business location and can raise a case on the behalf of the customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-services-to-service-organization.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring service definitions, Service definitions, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -56,7 +56,7 @@ Reference
 
 Criteria to define the service organizations that provide the service.
 
- **Note:** For more information about the criteria for the service organization, see [Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-service-organization-criteria.md).
+ **Note:** For more information about the criteria for the service organization, see [Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-service-organization-criteria.md).
 
 </td></tr><tr><td>
 

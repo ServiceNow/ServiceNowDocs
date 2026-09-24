@@ -3,9 +3,9 @@ title: Add or edit an application category
 description: Each application should have an application category defined. This field is used to describe the purpose of the application, and the key business function this application supports. You can keep the categorization at a high level, like a business function. For example, Sales, HR, Marketing, and Manufacturing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-app-category.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure application categories, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_apm.apm\_admin
     -   To update details of an existing application category, select the application category.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create application category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-application-category-form.md).
+    For field information, see [Create application category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-new-application-category-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure application categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-app-cat.md)
+**Parent Topic:**[Configure application categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-app-cat.md)
 
 **Related topics**  
 
 
-[View all application categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-application-categories.md)
+[View all application categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-application-categories.md)
 

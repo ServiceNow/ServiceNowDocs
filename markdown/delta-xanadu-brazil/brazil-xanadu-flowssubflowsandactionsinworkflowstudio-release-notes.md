@@ -1,0 +1,692 @@
+---
+title: Combined Flows, subflows, and actions in Workflow Studio release notes for upgrades from Xanadu to Brazil
+description: Consolidated page of all release notes for Flows, subflows, and actions in Workflow Studio from Xanadu to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-flowssubflowsandactionsinworkflowstudio-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 8
+breadcrumb: [Products combined by family]
+---
+
+# Combined Flows, subflows, and actions in Workflow Studio release notes for upgrades from Xanadu to Brazil
+
+Consolidated page of all release notes for Flows, subflows, and actions in Workflow Studio from Xanadu to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Flows, subflows, and actions in Workflow Studio release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Flows, subflows, and actions in Workflow Studio to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+After upgrading, users who previously had the fd\_read\_operations role will now see only basic execution details such as the run state and duration. This restriction prevents users with this role from seeing sensitive information in execution details. To provide read access to all execution details such as input configuration and runtime values, grant the user the new role fd\_read\_operations\_all.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Upgrade information**
+
+An earlier version of the save as you go feature was released and withdrawn from the Washington DC release. If you're upgrading from the Washington DC release, you might have manually turned off the save as you go features by setting a system property. To restore the save as you go features, see [Restore save as you go functionality](https://www.servicenow.com/docs/access?context=restore-save-as-you-go-functionality&family=zurich&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Flows, subflows, and actions in Workflow Studio.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Generate data pill values during flow generation](https://www.servicenow.com/docs/access?context=flow-generation&family=xanadu&ft:locale=en-US)**
+
+Generate appropriate data pill values for supported flow triggers and action inputs.
+
+-   **[Run an action from a conversation](https://www.servicenow.com/docs/access?context=conversational-actions&family=xanadu&ft:locale=en-US)**
+
+Run a Workflow Studio action from a Now Assist conversation. Create and configure the conversational action from Workflow Studio. View and edit conversational actions within Virtual Agent Designer.
+
+-   **[Run a subflow from a conversation](https://www.servicenow.com/docs/access?context=conversational-subflows&family=xanadu&ft:locale=en-US)**
+
+Run a Workflow Studio subflow from a Now Assist conversation. Create and configure the conversational skill from Workflow Studio. View and edit conversational subflows within Virtual Agent Designer.
+
+-   **[Reference specific tables with hash tags during flow generation](https://www.servicenow.com/docs/access?context=flow-generation&family=xanadu&ft:locale=en-US)**
+
+Enter a hash tag character in the flow directions to refer to a specific table by name. Use auto-complete to select a table name from the options that match your partial entry.
+
+
+-   **[Show annotations of the text directions used by flow generation](https://www.servicenow.com/docs/access?context=create-flow-now-assist&family=xanadu&ft:locale=en-US)**
+
+Show annotations of the text directions used for each item added by flow generation. Receive feedback about how your directions map to specific actions, flow logic, and subflows.
+
+
+-   **[Control what users with read access can see in execution details](https://www.servicenow.com/docs/access?context=user-access-flow-designer&family=xanadu&ft:locale=en-US)**
+
+Grant a user role to control what users with read access can see in execution details. To limit read access to basic execution details only, grant a user the existing fd\_read\_operations role. To allow read access to all execution details, grant a user the new fd\_read\_operations\_all role.
+
+-   **[Sign flows, subflows, and actions](https://www.servicenow.com/docs/access?context=cs-fdih&family=xanadu&ft:locale=en-US)**
+
+Sign and validate any flow, subflow, or action.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Flows, subflows, and actions in Workflow Studio features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Flow generation configures action and flow logic inputs](https://www.servicenow.com/docs/access?context=create-flow-now-assist&family=xanadu&ft:locale=en-US)**
+
+Use the Now Assist for Creator flow generation skill to create and configure a flow from text directions. Flow generation uses data pills to set input values for actions and flow logic.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Flows, subflows, and actions in Workflow Studio features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   Removed the system property com.snc.process\_flow.reporting.iteration.lastn that was used to specify the number of loop iterations that a flow would generate execution details for. To report on all iterations of a loop, create a flow execution settings record for the flow instead. For more information about flow execution settings, see [Flow execution settings](https://www.servicenow.com/docs/access?context=flow-execution-settings&family=xanadu&ft:locale=en-US).
+-   The user preference for flow authors to include draft actions in the list of available actions has been removed. To see a custom action during flow design, publish the action. For more information, see [Create an action in Workflow Studio](https://www.servicenow.com/docs/access?context=create-action&family=xanadu&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Flows, subflows, and actions in Workflow Studio features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Flows, subflows, and actions in Workflow Studio.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+Workflow Studio is a ServiceNow AI Platform feature that is active by default.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Activation information**
+
+Workflow Studio is a ServiceNow AI Platform feature that is active by default.
+
+Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Workflow Studio is a ServiceNow AI Platform feature that is active by default.
+
+Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Flows, subflows, and actions in Workflow Studio we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Flows, subflows, and actions in Workflow Studio we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Flows, subflows, and actions in Workflow Studio, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Accessibility information**
+    -   **ARIA label improvements**
+
+Added and updated ARIA labels to support screen readers.
+
+    -   **Keyboard navigation improvements**
+
+Improved keyboard navigation with working with actions, flows, and subflows in Workflow Studio.
+
+    -   **Reflow improvements of canvas headers and footers**
+
+Added support for the reflow of canvas headers and footer content in Workflow Studio actions, flows, and subflows. These components can be zoomed up to 400% through your browser settings without loss of content or functionality.
+
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Accessibility information**
+    -   **Reflow improvements of canvas headers and footers**
+
+The following components were updated to support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
+
+        -   Workflow Studio canvas header
+        -   Workflow Studio canvas footer
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [\[Placeholder link text to key bundle-platux.auto-reflow\]](https://www.servicenow.com/docs/access?context=auto-reflow&family=zurich&ft:locale=en-US) for details.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Flows, subflows, and actions in Workflow Studio we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Flows, subflows, and actions in Workflow Studio we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   Protect sensitive data in execution details by using the operations read role.
+-   Provide improved support of the variables data type for subflow and action inputs.
+-   Show annotations of what text directions were used to generate actions, flow logic, and subflows during flow generation.
+-   Sign and validate any flow, subflow, or action.
+
+ See [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&family=xanadu&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   Create a flow or a subflow from an image by using Now Assist.
+-   Debug flows and subflows from a dedicated debugging tab.
+-   Pause a flow until it receives a specific message from the flow API.
+-   Run a published Now Assist skill from an action.
+-   Save flow triggers for reuse in other flows.
+
+ See [Exploring flows](https://www.servicenow.com/docs/access?context=exploring-flows&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Create a scheduled trigger that you can use across your flows.
+-   Save flows, subflows, and actions automatically as you work on them.
+-   View and manage the history of flows and subflows to copy, restore, or remove past configurations.
+-   Create multiple skills for conversational subflows and actions from the conversational settings.
+-   Configure a default LLM for generating metadata for conversational subflows and actions.
+
+ See [Flows](https://www.servicenow.com/docs/access?context=exploring-flows&family=zurich&ft:locale=en-US), [Subflows](https://www.servicenow.com/docs/access?context=exploring-subflows&family=zurich&ft:locale=en-US), and [Actions](https://www.servicenow.com/docs/access?context=exploring-actions&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)
+

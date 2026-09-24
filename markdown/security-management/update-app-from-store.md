@@ -3,9 +3,9 @@ title: Update an application previously downloaded from the ServiceNow Store
 description: If you have previously downloaded an application from the ServiceNow Store and a new version is available, you can update it in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/update-app-from-store.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations and the ServiceNow Store, Security Operations]
 ---

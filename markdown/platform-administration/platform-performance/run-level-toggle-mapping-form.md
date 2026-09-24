@@ -3,11 +3,11 @@ title: Run level toggle mapping form
 description: A description of the fields in the Run Level Toggle Mapping form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/run-level-toggle-mapping-form.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -77,5 +77,5 @@ Exception roles that the restrictions don't apply to. **Note:** An example of th
 -   admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
+</table>**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/platform-performance-references.md)
 

@@ -3,9 +3,9 @@ title: Using the calendar screen
 description: Use the calendar screen to create and view events related to specified dates. Scroll in either the calendar interface or the events list, to view corresponding information for the selected date or event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/calendar-screen-using.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---
@@ -82,7 +82,7 @@ Today button. Tap to return the calendar to the current day and to refresh the c
 
 </td><td>
 
-Filter button. Use the filter option to help you search for specific content in the calendar. For more information about filtering, see [Filtering and sorting results in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/filter-sort-results-using.md).
+Filter button. Use the filter option to help you search for specific content in the calendar. For more information about filtering, see [Filtering and sorting results in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/filter-sort-results-using.md).
 
 </td></tr><tr><td>
 

@@ -3,9 +3,9 @@ title: View declined cryptographic module usage requests
 description: View cryptographic modules that rejected encryption requests made by scripts because of unsupported encryption mechanisms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/view-declined-crypto-module-usage-requests.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure script access to encrypted data, Script access for cryptographic modules, Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -36,8 +36,8 @@ In the following example, a cryptographic purpose was assigned to a cryptographi
 
     In this example, at 2020-02-10\_15:55:17, the first module rejected a request because module1's key is compromised. At 2020-02-10\_07:24:05, the second module rejected a request because the second module's key is suspended.
 
-    To grant scripts permission to use the encryption module the next time they run, create a module access policy for script encryption. For more information, refer to [Configure script access to encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-script-encryption.md).
+    To grant scripts permission to use the encryption module the next time they run, create a module access policy for script encryption. For more information, refer to [Configure script access to encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-script-encryption.md).
 
 
-**Parent Topic:**[Configure script access to encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-script-encryption.md)
+**Parent Topic:**[Configure script access to encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-script-encryption.md)
 

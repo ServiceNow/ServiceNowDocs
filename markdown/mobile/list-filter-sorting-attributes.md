@@ -3,9 +3,9 @@ title: Configure sorting display options for mobile filters
 description: Customize the way sorting options are displayed in your mobile filter and override the default behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/list-filter-sorting-attributes.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure sorting capabilities, Mobile list screen filters, List screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -30,15 +30,15 @@ Role required: admin
 
 4.  Define attributes to configure for the selected item sorting.
 
-<table id="choicetable_cl5_cp2_1qb"><thead><tr><th align="left" id="d36687e91">
+<table id="choicetable_cl5_cp2_1qb"><thead><tr><th align="left" id="d36853e91">
 
 Attribute option
 
-</th><th align="left" id="d36687e94">
+</th><th align="left" id="d36853e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d36687e100">
+</th></tr></thead><tbody><tr><td id="d36853e100">
 
 **Define the ascending label**
 
@@ -49,7 +49,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d36687e136">
+</td></tr><tr><td id="d36853e136">
 
 **Define the descending label**
 
@@ -60,7 +60,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d36687e172">
+</td></tr><tr><td id="d36853e172">
 
 **Hide the ascending/descending suffix**
 
@@ -73,7 +73,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d36687e217">
+</td></tr><tr><td id="d36853e217">
 
 **Display either ascending/descending option**
 

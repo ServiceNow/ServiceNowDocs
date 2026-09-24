@@ -3,11 +3,11 @@ title: Project task checklists
 description: A project task checklist gives you the ability to track activities that must be completed on a task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_project-task-checklists.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Checklists, as well as tasks, are copied into a project template. You also have 
 
 **Note:** Checklists are available for any form that is based on a table extended from the Task table. Administrators can add or remove checklists as needed.
 
-**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
@@ -53,7 +53,9 @@ Checklists, as well as tasks, are copied into a project template. You also have 
 
 [Project scheduling in Project Management]()
 
-[Use a project task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectTaskChecklist.md)
+[Task constraints]()
 
-[Save a checklist as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_SaveAChecklistAsATemplate.md)
+[Use a project task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectTaskChecklist.md)
+
+[Save a checklist as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_SaveAChecklistAsATemplate.md)
 

@@ -3,9 +3,9 @@ title: Wiki field type
 description: Wikitext fields use the basic wiki markup language and support links to external URLs and to sources within the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_WikiFields.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

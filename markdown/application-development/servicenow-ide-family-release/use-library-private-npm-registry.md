@@ -3,11 +3,11 @@ title: Install an npm package from a private registry with the ServiceNow IDE
 description: Install Node Package Manager \(npm\) packages from a private registry as dependencies in your application to use them as third-party libraries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/use-library-private-npm-registry.html
-release: australia
+release: brazil
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use third-party libraries, Develop applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -42,15 +42,15 @@ ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as 
 
 5.  Specify a private registry as the default registry or a scoped registryfrom which you can install packages.
 
-<table id="choicetable_mnm_z32_42c"><thead><tr><th align="left" id="d153351e146">
+<table id="choicetable_mnm_z32_42c"><thead><tr><th align="left" id="d148577e146">
 
 Option
 
-</th><th align="left" id="d153351e149">
+</th><th align="left" id="d148577e149">
 
 Example
 
-</th></tr></thead><tbody><tr><td id="d153351e155">
+</th></tr></thead><tbody><tr><td id="d148577e155">
 
 **Default registry**
 
@@ -60,7 +60,7 @@ Example
 "package-manager.defaultRegistry": "<private-registry-url>",
 ```
 
-</td></tr><tr><td id="d153351e167">
+</td></tr><tr><td id="d148577e167">
 
 **Scoped registry**
 
@@ -82,7 +82,7 @@ Example
 
 6.  Provide your credentials for accessing the private registry.
 
-<table id="choicetable_qmx_xht_ydc"><tbody><tr><td id="d153351e195">
+<table id="choicetable_qmx_xht_ydc"><tbody><tr><td id="d148577e195">
 
 **Basic authentication**
 
@@ -99,7 +99,7 @@ Provide a user name and password to access the default registry that you specifi
 ]
 ```
 
-</td></tr><tr><td id="d153351e206">
+</td></tr><tr><td id="d148577e206">
 
 **Legacy authentication**
 
@@ -115,7 +115,7 @@ Provide a legacy token to access the default registry that you specified. Legacy
 ] 
 ```
 
-</td></tr><tr><td id="d153351e217">
+</td></tr><tr><td id="d148577e217">
 
 **Token authentication**
 
@@ -174,7 +174,7 @@ In the following example, a user configured access to a private registry using b
 
 ## What to do next
 
-Use the packages that you installed as third-party libraries in your application. For more information, see [Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md).
+Use the packages that you installed as third-party libraries in your application. For more information, see [Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md).
 
-**Parent Topic:**[Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md)
+**Parent Topic:**[Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md)
 

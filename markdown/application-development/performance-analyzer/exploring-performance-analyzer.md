@@ -3,11 +3,11 @@ title: Exploring Performance Analyzer
 description: Learn about Performance Analyzer concepts and features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/performance-analyzer/exploring-performance-analyzer.html
-release: australia
+release: brazil
 product: Performance Analyzer
 classification: performance-analyzer
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Performance Analyzer, Testing and debugging applications, Building applications]
 ---

@@ -3,11 +3,11 @@ title: Using Skills Management
 description: Use the Skills Management dashboard to analyze trends in assessing skill gaps in your organization and plan for coaching or training of your employees based on needs. Identify users and teams who have the right skills to work on tasks and projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/using-skills-management.html
-release: australia
+release: brazil
 product: Skills Management
 classification: skills-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---

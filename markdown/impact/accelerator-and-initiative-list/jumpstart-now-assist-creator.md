@@ -1,30 +1,28 @@
 ---
-title: Jumpstart Your Now Assist for Creator
-description: The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration of the possibilities and capabilities of Now Assist for Creator.
+title: Jumpstart Your ServiceNow Otto for Creator
+description: The Jumpstart Your ServiceNow Otto for Creator Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow Otto for Creator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-now-assist-creator.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# Jumpstart Your Now Assist for Creator
+# Jumpstart Your ServiceNow Otto for Creator
 
-The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration of the possibilities and capabilities of Now Assist for Creator.
+The Jumpstart Your *ServiceNow Otto* for Creator Accelerator provides a demonstration of the possibilities and capabilities of *ServiceNow Otto for Creator*.
 
 ## Accelerator overview
 
-Jumpstart Your Now Assist for Creator provides Impact customers with an overview of Now Assist for Creator and an applied demonstration on how  to use Generative AI capabilities to reduce app development time, increase productivity, and improve overall coding experiences. This Accelerator will demonstrate the features of Now Assist for Creator and provide key resources and leading practices for getting started.
+Jumpstart Your *ServiceNow Otto for Creator* provides Impact customers with an overview of *ServiceNow Otto for Creator*. It also supports an applied demonstration on how  to use generative AI capabilities to reduce app development time, increase productivity, and improve overall coding experiences. This Accelerator will demonstrate the features of *ServiceNow Otto for Creator* and provide key resources and leading practices for getting started.
 
 ## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
-
-Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 
@@ -35,19 +33,19 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 
     Includes the following:
 
-    -   Overview of Now Assist for Creator
-    -   Applied demonstration of Now Assist for Creator
+    -   Overview of *ServiceNow Otto for Creator*
+    -   Applied demonstration of *ServiceNow Otto for Creator*
         -   Text to Application Creator
         -   Playbook Assist
         -   Flow Recommendation
-        -   Now Assist in Catalog Builder
-        -   Now Assist for Code generation
+        -   *ServiceNow Otto* in Catalog Builder
+        -   *ServiceNow Otto* for Code generation
     -   Guidance on how to use AI Prompts successfully
     -   Key resources and guides on leading practices
     -   30 days access to the temporary instance is provided
--   **Customer coaching session \#2 \(optional upon customer request, up to 60 minutes\)**
+-   **Customer coaching session \#2 \(optional up on customer request, up to 60 minutes\)**
 
-    Opportunity for Q&amp;A related to Now Assist for Creator
+    Opportunity for Q&amp;A related to *ServiceNow Otto for Creator*
 
 
 ## Requested customer resources
@@ -56,7 +54,7 @@ One or more customer resource is requested. The specific number of resources pro
 
 |Customer resource|Responsibilities|Required|Optional|
 |-----------------|----------------|--------|--------|
-|Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|✓| |
+|Platform Owner|Responsible for the overall accountability of theServiceNow platform. Provides leadership and oversight to the System Administrators, verifies team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|✓| |
 |System Administrators|Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|✓| |
 |Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
 

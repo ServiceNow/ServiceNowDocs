@@ -3,11 +3,11 @@ title: Supported business outcomes
 description: CMDB success advisor helps improve CMDB data quality by aligning data quality efforts with specific business outcomes. Identify the areas most relevant to your organization and start with the outcomes to achieve.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-outcomes.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Supported business outcomes, CMDB success advisor outcomes, Data Foundations HAM SAM outcomes, choosing a CMDB success advisor outcome]
 breadcrumb: [CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -23,15 +23,15 @@ CMDB success advisor helps improve CMDB data quality by aligning data quality ef
 
 <table id="table_onm_4rr_pjc" class="nav-card presentation"><tbody><tr><td>
 
-[Data Foundations\[Omitted image "bus-compliance.svg"\] Alt text:Manage principal classes and filter CI fields on task records to reduce data entry errors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df.md)
+[Data Foundations\[Omitted image "bus-compliance.svg"\] Alt text:Manage principal classes and filter CI fields on task records to reduce data entry errors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df.md)
 
 </td></tr><tr><td>
 
-[Hardware Asset Management \(HAM\)\[Omitted image "bus-asset.svg"\] Alt text:Identify missing hardware asset data and improve normalization rates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-use.md)
+[Hardware Asset Management \(HAM\)\[Omitted image "bus-asset.svg"\] Alt text:Identify missing hardware asset data and improve normalization rates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-ham-use.md)
 
 </td></tr><tr><td>
 
-[Software Asset Management \(SAM\)\[Omitted image "bus-contract.svg"\] Alt text:Identify software install data quality issues and improve licensing compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-sam-use.md)
+[Software Asset Management \(SAM\)\[Omitted image "bus-contract.svg"\] Alt text:Identify software install data quality issues and improve licensing compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-sam-use.md)
 
 </td></tr></tbody>
 </table>## Choosing your CMDB success advisor outcome

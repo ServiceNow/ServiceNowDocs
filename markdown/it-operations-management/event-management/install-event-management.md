@@ -3,11 +3,11 @@ title: Install Event Management
 description: Retrieve the most updated apps for the Event Management application \(com.glideapp.itom.snac\) in the ServiceNow Store. Periodically check the ServiceNow Store for new app versions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/install-event-management.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -29,7 +29,7 @@ The following items are installed with Event Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md).
+For more information, see [Components installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md).
 
 ## Procedure
 

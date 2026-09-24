@@ -3,11 +3,11 @@ title: Create an outage from a task
 description: Create an outage from a task record to understand the down time of a configuration item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-outage/t\_CreateAnOutageFromATask.html
-release: australia
+release: brazil
 product: Task Outage
 classification: task-outage
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task Outage, IT Service Management]
 ---
@@ -46,5 +46,5 @@ The **Create Outage** UI action is added for the Task \[task\] table. When the T
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Task Outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-outage/task-outage.md)
+**Parent Topic:**[Task Outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-outage/task-outage.md)
 

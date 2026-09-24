@@ -3,11 +3,11 @@ title: TISC Enrichment integrations
 description: The Threat Intelligence Security Center base system does not include any pre-configured integrations. This section provides instructions for configuring both ServiceNow and third-party integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -99,18 +99,18 @@ Search in catalog
 Use this action to search for configured integrations based on name and description within the catalog.
 
 </td></tr></tbody>
-</table>-   **[Configure new enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-config-new-enrich.md)**  
+</table>-   **[Configure new enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-config-new-enrich.md)**  
 Set up threat intelligence enrichment integrations to automatically gather additional context about observables, search for sightings, or perform threat lookups from external security vendors.
--   **[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)**  
+-   **[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)**  
 Enrich one or more observables to identify whether they're associated with known threats. The results are based on the enrichment integrations active in your environment.
--   **[Configure Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-sighting-search.md)**  
+-   **[Configure Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/configure-sighting-search.md)**  
 Configure sighting search integration to search your organization logs for one or more observables to determine how many times each observable appears, within a specified date range or number of days.
--   **[Configure Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-threat-lookup.md)**  
+-   **[Configure Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/configure-threat-lookup.md)**  
 Scan selected observables for malware using Threat Intelligence to determine if they are malicious. Use this lookup to assess security threats from IP addresses, URLs, file hashes, and other observable types.
--   **[Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-lookup.md)**  
+-   **[Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-threat-lookup.md)**  
 Scan selected observables for malware using VirusTotal and CrowdStrike Falcon Intelligence. This workflow checks observables against both threat intelligence sources and returns detailed security analysis results.
 
-**Parent Topic:**[TISC Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-integrations.md)
+**Parent Topic:**[TISC Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-integrations.md)
 
 **Related topics**  
 

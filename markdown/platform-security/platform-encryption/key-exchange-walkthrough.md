@@ -3,11 +3,11 @@ title: Recurring Key Exchange walkthrough
 description: Use this walkthrough to set up a recurring key exchange in your instance using and Resource Exchange.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/key-exchange-walkthrough.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Key Management Framework Resource Exchange, Key Management Framework, Encryption]
 ---
@@ -24,7 +24,7 @@ Roles required: sn\_kmf.cryptographic\_manager
 
 This example shows you how a target instance requests keys from a host instance.
 
--   Before you can perform this procedure, you must clone an instance. See [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md) for more information.
+-   Before you can perform this procedure, you must clone an instance. See System clone for more information.
 -   **Automatic Key Exchange**: The base system property **glide\_encryption.auto\_key\_exchange.enabled** is **true** by default, meaning that automatic is activated when cloning an instance. The property is cloned over to the target instance.
 -   Turn off automatic by setting the property to **false**.
 
@@ -73,5 +73,5 @@ This example shows you how a target instance requests keys from a host instance.
 
 After a key exchange is attempted, your non-production instance updates the **protected.script.values.kmf.rekeyed** system property. This property is visible in the System Properties \[sys\_properties\] table. If the encryption using the exchanged key is successful, this property has a value of **true**. Otherwise, the property has a value of **false**. If the value is false, your instance will attempt to encrypt again the next day.
 
-**Parent Topic:**[Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/resource-exchange.md)
+**Parent Topic:**[Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/resource-exchange.md)
 

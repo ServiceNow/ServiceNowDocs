@@ -3,11 +3,11 @@ title: Install Discovery
 description: Configure Discovery to lay the groundwork for AIOps success by establishing a key foundation for your team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/install-discovery.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Discovery, ITOM, AIOps, configuration, infrastructure, CMDB]
 breadcrumb: [Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]

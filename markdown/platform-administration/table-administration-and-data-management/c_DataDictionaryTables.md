@@ -3,11 +3,11 @@ title: Data dictionary tables
 description: Access details related to tables, columns, and field labels in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_DataDictionaryTables.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring tables, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -60,5 +60,5 @@ The following image shows the language file filtered to display only labels on t
 
 \[Omitted image "Fieldlabels2.png"\] Alt text: A list showing field labels on the Incident table.
 
-**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
+**Parent Topic:**[Exploring ServiceNow AI Platform tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/exploring-table-administration.md)
 

@@ -3,11 +3,11 @@ title: Landing page
 description: Get real-time visibility into your network inventory and to perform the daily tasks through the Network Inventory Workspace landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/network-inventory-workspace-landing-page.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Network Inventory Workspace, Explore, Telecommunications Network Inventory]
 ---
@@ -41,5 +41,5 @@ On the landing page, do the following to view the change requests and change tas
 -   Select **Your work** to view your assignments.
 -   Select **Your team's work** to view your team's assignments.
 
-**Parent Topic:**[Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-network-inventory-workspace.md)
+**Parent Topic:**[Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-network-inventory-workspace.md)
 

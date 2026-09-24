@@ -3,13 +3,13 @@ title: Integrate custom controls
 description: Implement and leverage custom controls built using the custom control framework in your integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/ccif-integrate-custom-controls.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Supported features for custom chat integrations, Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Supported features for custom chat integrations, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Integrate custom controls
@@ -95,7 +95,7 @@ Provider
 
 </td><td>
 
-The name of the channel identifier for your custom chat integration. For details, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md).
+The name of the channel identifier for your custom chat integration. For details, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Control type
 
 Select the custom control that you designed. For custom controls, the type is always DefaultCustomControl.
 
- To learn more about custom controls, see [Customizing Virtual Agent with custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-controls.md).
+ To learn more about custom controls, see [Customizing Virtual Agent with custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/custom-controls.md).
 
 </td></tr><tr><td>
 
@@ -135,5 +135,5 @@ Name of the outbound transformer action script for this rich control, such as, s
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

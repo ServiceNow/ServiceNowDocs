@@ -3,11 +3,11 @@ title: Business ROI tracking with Value Reports
 description: Value Reports translate ServiceNow outcome performance data into monetized business ROI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/business-value-reports.html
-release: australia
+release: brazil
 product: Value Library
 classification: value-library
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Value management, Using Impact, Impact]
 ---
@@ -24,9 +24,7 @@ You can select a product to view its available reports. Select a report to load 
 
 **Note:** A product needs at least two years of data available before a Value Report can be generated for it.
 
-You can view the value reports published in Impact Delivery Instance under the value reports section. However, you can't create or manage value reports in the Impact Store Application.
-
-**Note:** Each Value Report reflects a single outcome model, either Standard or Enhanced, never a combination of the two. Since the outcome model is selected before outcomes are chosen, a product tracked under both models results in two separate reports, one for each model.
+You can view the value reports published in Impact Delivery Instance under the value reports section. However, you can't create or manage value reports in the Impact Store Application. Each value report contains a single outcome model, either Standard or Enhanced, never a combination of the two. Since the outcome model is selected before outcomes are chosen, a product tracked under both models results in two separate reports, one for each model.
 
 |Report Section|Description|
 |--------------|-----------|

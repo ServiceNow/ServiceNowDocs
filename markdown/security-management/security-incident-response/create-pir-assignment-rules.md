@@ -3,11 +3,11 @@ title: Create post incident review assignment rules
 description: In addition to manually adding users to a Post Incident Review \(PIR\) assessment list for a security incident, you can define assignment rules for automatically adding users or group to the list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-pir-assignment-rules.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage post incident activities, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -70,7 +70,7 @@ Condition
 
 </td><td>
 
-Option to configure the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to define the conditions that must be met in the security incident for this rule to be executed. For more information, see the example below.
+Option to configure the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md) to define the conditions that must be met in the security incident for this rule to be executed. For more information, see the example below.
 
 </td></tr><tr><td>
 

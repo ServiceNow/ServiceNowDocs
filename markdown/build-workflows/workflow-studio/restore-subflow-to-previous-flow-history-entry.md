@@ -3,11 +3,11 @@ title: Restore a subflow to a previous flow history entry
 description: Restore a subflow to a previous configuration. Create a new flow history entry for the restore operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/restore-subflow-to-previous-flow-history-entry.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Subflow history, Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -55,5 +55,5 @@ You can restore a subflow when you want to set the current configuration to that
 
 Workflow Studio displays the restored subflow configuration.
 
-**Parent Topic:**[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflow-history.md)
+**Parent Topic:**[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/subflow-history.md)
 

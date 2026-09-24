@@ -3,11 +3,11 @@ title: Submit combined assessments
 description: Combine your Smart Assessment Engine assessments so you can respond to all of them together. You can also configure your responses to replicate automatically across all applicable assessments so you don't need to fill them in manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-combine.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Combining assessments and copying responses, Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -44,7 +44,7 @@ Role required: sn\_smart\_asmt.actor
 
     2.  Copy your responses across all combined assessments by turning on the **Enable auto copy** toggle switch.
 
-        -   The auto-copy feature is activated when the combined assessment is created and can’t be changed later. For more details, refer to [Combining assessments and copying responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/combine-assessments.md).
+        -   The auto-copy feature is activated when the combined assessment is created and can’t be changed later. For more details, refer to [Combining assessments and copying responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/combine-assessments.md).
         -   The auto-copy feature is available only when combined assessments originate from the same template. If the assessments are from different templates, the auto-copy feature remains disabled and cannot be activated.
 5.  Select **Continue**.
 

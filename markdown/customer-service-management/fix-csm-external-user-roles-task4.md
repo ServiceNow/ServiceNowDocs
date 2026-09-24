@@ -3,9 +3,9 @@ title: Avoid future internal role assignments for external users
 description: Enable a property to avoid external users from being assigned the snc\_internal role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/fix-csm-external-user-roles-task4.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fix external user role assignments, User management, Set up your environment, Configure, Customer Service Management]
 ---

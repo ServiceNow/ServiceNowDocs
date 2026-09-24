@@ -3,11 +3,11 @@ title: Automated license removal for Microsoft 365
 description: Software Asset Management optimizes Microsoft 365 subscription usage by identifying low usage and overlapping candidates, and then automatically removing the licenses from the Microsoft 365 admin center. This proactive management helps you streamline costs and enhance the efficiency of low usage and overlapping licenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/m365-license-auto-removal.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -60,7 +60,7 @@ Software Asset Management removes the Microsoft 365 licenses from the Microsoft 
 **Related topics**  
 
 
-[Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md)
+[Evaluating software usage activity for Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/o365-usage-activity.md)
 
-[Optimization and savings dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/optimization-dashboard-workspace.md)
+[Optimization and savings dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/optimization-dashboard-workspace.md)
 

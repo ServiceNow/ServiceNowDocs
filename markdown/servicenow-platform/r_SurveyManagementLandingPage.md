@@ -3,9 +3,9 @@ title: Surveys
 description: With Surveys, you can create, send, and collect responses for basic surveys. If Service Portal is installed, users can access and complete the assigned surveys through the My Assessments and Survey widget within the portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_SurveyManagementLandingPage.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -67,23 +67,23 @@ Survey wizards are not impacted and cannot be migrated.
 |Public survey: Allow persons to take a survey without logging in.|\[Omitted image "Tick.png"\] Alt text: check mark|\[Omitted image "Tick.png"\] Alt text: check mark|
 |Use update sets to track changes.|\[Omitted image "Tick.png"\] Alt text: check mark|\[Omitted image "Tick.png"\] Alt text: check mark|
 
--   **[Using surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-surveys.md)**  
+-   **[Using surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/using-surveys.md)**  
 Survey administrators—users with the survey\_admin role—create and maintain surveys and configure how they are distributed and published. Surveys on Service Portal are also supported.
--   **[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)**  
+-   **[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/survey-reference.md)**  
 Reference topics provide additional information about the forms, fields, and properties you use while working with surveys.
 
-**Parent Topic:**[Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessments-surveys-landing-page.md)
+**Parent Topic:**[Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/assessments-surveys-landing-page.md)
 
 **Related topics**  
 
 
-[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MigrateSurveys.md)
+[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MigrateSurveys.md)
 
-[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
+[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDesigner.md)
 
-[Survey roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyManagementRoles.md)
+[Survey roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyManagementRoles.md)
 
-[Surveys in Service Portal and the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyServicePortal.md)
 
-[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md)
+[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ServicePortal.md)
 

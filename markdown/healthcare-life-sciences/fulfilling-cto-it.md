@@ -3,9 +3,9 @@ title: Fulfilling service requests in Care Team Operations for Healthcare IT
 description: Incidents created from Healthcare IT cases are resolved using standard IT Service Management incident management functionality in the Service Operations workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/fulfilling-cto-it.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Care Team Operations for Healthcare IT, Healthcare Operations, Heal
 
 Incidents created from Healthcare IT cases are resolved using standard IT Service Management incident management functionality in the Service Operations workspace.
 
-For more information, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentManagement.md).
+For more information, see [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_IncidentManagement.md).
 
 **Note:** Fulfillers should modify the Incident view Service Operations Workspace and add the related list **Case-&gt;Incident**.
 

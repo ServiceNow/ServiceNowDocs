@@ -3,7 +3,7 @@ title: Matrix Loader: CSV rules upload
 description: Use the Matrix Loader to bulk create, edit, and export rules in CPQ. Define rule conditions, actions, and logic in a CSV file to streamline configuration management and automate large-scale updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/matrix\_loader\_csv\_rules\_upload.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -86,7 +86,7 @@ Administrators can export all rule definitions from the CPQ environment to CSV f
 **Related topics**  
 
 
-[Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using-the-matrix-loader.md)
+[Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-using-the-matrix-loader.md)
 
-[Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/matrix_loader_csv_rules_upload.md)
+[Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/matrix_loader_csv_rules_upload.md)
 

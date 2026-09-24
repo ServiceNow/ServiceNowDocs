@@ -3,11 +3,11 @@ title: Look up enterprise assets using the Mobile Agent application
 description: Use the ServiceNow Mobile Agent application to look up asset records so that you can view or update your enterprise asset details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/lookup-enterprise-assets-mobile-agent-app.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---

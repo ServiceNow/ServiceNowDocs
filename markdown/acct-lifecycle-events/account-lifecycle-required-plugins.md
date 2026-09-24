@@ -3,9 +3,9 @@ title: Plugins activated with Customer Success Management
 description: Activating Customer Success Management installs the following related plugins, if they aren't already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-required-plugins.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Getting started, Configure, Customer Success Management]
 ---
@@ -158,10 +158,10 @@ New pro plus plugin for customer success. Used for product adoption roadmap.
 |Technology Account Management Experiences \[sn\_tech\_exp\]|Proactive Service Experience Workflows. Contains Technology Account 360, Executive Portfolio, and the recommendation framework. Install this plugin to enable all three capabilities.|
 |AI Agents for Meetings \[sn\_meeting\_ai\_ag\]|Automates meeting preparation by reading relevant records, proposing agendas, and coordinating logistics for review and confirmation.|
 
-**Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-get-started.md)
+**Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-get-started.md)
 
 **Related topics**  
 
 
-[Activate Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-activate.md)
+[Activate Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-activate.md)
 

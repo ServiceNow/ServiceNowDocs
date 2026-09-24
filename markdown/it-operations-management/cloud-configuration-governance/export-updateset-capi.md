@@ -1,20 +1,20 @@
 ---
 title: Move a cloud API from one environment to the other
-description: Use update sets to move a cloud API from one environment to another. Update sets group a cloud API and its dependencies into a named set. You can then move them as a unit to other systems for testing or deployment. For example, you can move a cloud API from a development environment to a production environment.
+description: Use update sets to move a cloud API from one environment to another. Update sets let you group a cloud API and its dependencies into a named set. You can then move them as a unit to other systems for testing or deployment. For example, you can move a cloud API from a development environment to a production environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/export-updateset-capi.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Moving Cloud Provisioning and Governance content across environments, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Move a cloud API from one environment to the other
 
-Use update sets to move a cloud API from one environment to another. Update sets group a cloud API and its dependencies into a named set. You can then move them as a unit to other systems for testing or deployment. For example, you can move a cloud API from a development environment to a production environment.
+Use update sets to move a cloud API from one environment to another. Update sets let you group a cloud API and its dependencies into a named set. You can then move them as a unit to other systems for testing or deployment. For example, you can move a cloud API from a development environment to a production environment.
 
 ## Before you begin
 

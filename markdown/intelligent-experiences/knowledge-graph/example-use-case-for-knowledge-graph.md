@@ -3,13 +3,13 @@ title: Knowledge Graph integration with ServiceNow Otto for Virtual Agent and Se
 description: Knowledge Graph integrates with ServiceNow Otto for Virtual Agent and ServiceNow Otto panel to provide personalized, permission-aware responses based on user context, relationships, and enterprise data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/example-use-case-for-knowledge-graph.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Knowledge Graph integration with ServiceNow Otto for Virtual Agent and ServiceNow Otto panel
@@ -22,9 +22,9 @@ In this release, the available prebuilt integrations with ServiceNow® Otto for 
 -   Integration with ServiceNow Otto® for User Context: Helps requester and fulfiller with personalized responses.
 -   Integration with ServiceNow Otto® for Natural Language Query graph: Helps requester and fulfiller with personalized responses on people queries and Natural Language queries. Also supports people citation card.
 
-**Note:** To enable Knowledge Graph for ServiceNow® Otto for Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-kg-schema-assistant.md).
+**Note:** To enable Knowledge Graph for ServiceNow® Otto for Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/add-kg-schema-assistant.md).
 
-For more information see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-kg-schema-assistant.md).
+For more information see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/add-kg-schema-assistant.md).
 
 **Note:**
 
@@ -88,7 +88,7 @@ Knowledge Graph leverages the existing information available in the internal dat
 
 ## Integration with ServiceNow Otto® for natural language queries
 
-Knowledge Graph assist in answering natural language queries accurately. For more examples, see [Natural language queries use cases and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/natural-language-queries-example-usecases.md)
+Knowledge Graph assist in answering natural language queries accurately. For more examples, see [Natural language queries use cases and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/natural-language-queries-example-usecases.md)
 
 ServiceNow Otto® can now provide users with information about people in your organization.
 
@@ -117,7 +117,7 @@ Selecting the person's name presents a popover. The information in the popover c
 
     -   Shared Microsoft SharePoint files between you and the person found, appear only on the people popover.
     -   The shared files only appear after you have completed the prompt to **Log in**, and signed in successfully. If you do not have a valid token, you will be prompted to sign in and re-directed to Microsoft login page.
-    -   If you have not configured Microsoft OneDrive application, see [Configure Microsoft OneDrive application for Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/create-microsoft-onedrive-app.md).
+    -   If you have not configured Microsoft OneDrive application, see [Configure Microsoft OneDrive application for Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/create-microsoft-onedrive-app.md).
     \[Omitted image "people-citation-window-kg.png"\] Alt text: Shared files in people citation card
 
 
@@ -127,5 +127,5 @@ Knowledge Graph is also integrated with AI Search. You can enable ServiceNow Ott
 
 Ensure that you have already configured Knowledge Graph with an assistant before enabling it on AI search.
 
-To configure and enable the AI Search see [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-qna-genius-results.md).
+To configure and enable the AI Search see [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-qna-genius-results.md).
 

@@ -3,9 +3,9 @@ title: Roles in Simplified IT Service Management
 description: You can configure the user access for Simplified ITSM pages using various roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/simplified-itsm-roles.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2023-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Simplified IT Service Management, IT Service Management]
 ---
@@ -47,5 +47,5 @@ None
 |----|-----------|---------------|
 |sn\_request\_admin|Enables you to edit request management configurations in the product console.|None|
 
-**Parent Topic:**[Simplified IT Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-reference.md)
+**Parent Topic:**[Simplified IT Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/ai-native-it-service-desk-reference.md)
 

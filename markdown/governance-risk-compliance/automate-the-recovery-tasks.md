@@ -3,9 +3,9 @@ title: Automate recovery tasks
 description: Automate the manual recovery task within the business continuity plan. You can classify the manual recovery task as an automated task first and then attach an automated flow to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/automate-the-recovery-tasks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_bcm.core\_manager, sn\_bcp.plan\_manager, sn\_recovery.event\
 
 ## About this task
 
-Administrators or low-code developers are responsible for building the automation flow. Users with the BCM planner or above role then attach the automation flow to the recovery task. The Workflow Studio is used for this purpose, requiring a local developer persona due to permission restrictions. The Workflow Studio role does not require any extra licensing. However, it requires some special roles. For more information on the Workflow Studio roles and permissions, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
+Administrators or low-code developers are responsible for building the automation flow. Users with the BCM planner or above role then attach the automation flow to the recovery task. The Workflow Studio is used for this purpose, requiring a local developer persona due to permission restrictions. The Workflow Studio role does not require any extra licensing. However, it requires some special roles. For more information on the Workflow Studio roles and permissions, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/user-access-flow-designer.md).
 
 The flow setup involves these steps:
 
@@ -42,9 +42,9 @@ Automated tasks are executed sequentially until a manual task is encountered. If
 
 4.  On the form, fill in the fields.
 
-    For more information on creating a customized subflow for automating the tasks in the BCM application, see [Create a subflow form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-subflow-for-bcm.md).
+    For more information on creating a customized subflow for automating the tasks in the BCM application, see [Create a subflow form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-subflow-for-bcm.md).
 
-    For more information on creating a subflow, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md).
+    For more information on creating a subflow, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-subflow.md).
 
     The properties for the subflow are filled in.
 
@@ -72,11 +72,11 @@ Automated tasks are executed sequentially until a manual task is encountered. If
 
     4.  To mark the input as mandatory, select the **Mandatory** option.
 
-        For information on creating subflow inputs and outputs, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md).
+        For information on creating subflow inputs and outputs, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-subflow.md).
 
     5.  Select **+** to add a new input.
 
-    Once you create the flow variables, you can access them on Workflow Studio. For information on creating subflow inputs and outputs, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md).
+    Once you create the flow variables, you can access them on Workflow Studio. For information on creating subflow inputs and outputs, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-subflow.md).
 
 7.  In the Actions section, select **Send Email**.
 
@@ -206,8 +206,8 @@ Description and action steps about the issue.
     The Recovery task form now includes a Task classification column where the automated tasks are displayed. These automated tasks are executed automatically by the system as part of the plan.
 
 
--   **[Create a subflow form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-subflow-for-bcm.md)**  
+-   **[Create a subflow form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-subflow-for-bcm.md)**  
 Use the Create a subflow form to automate a manual recovery task within the business continuity plan.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

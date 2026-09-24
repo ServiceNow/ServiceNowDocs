@@ -3,7 +3,7 @@ title: Export and import custom models in Zero Copy Connector for ERP
 description: Move a custom ERP \(Enterprise Resource Planning\) model from one instance to another by exporting and importing a remote update set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-export-and-import-custom-models.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
@@ -42,7 +42,7 @@ Note the following rules when exporting and importing custom ERP models:
 -   The system value isn't imported.
 -   Only one model can be exported at a time.
 
-**Note:** A new version of the model is created when you export a model. For more information, see [Use model versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-use-model-versioning.md).
+**Note:** A new version of the model is created when you export a model. For more information, see [Use model versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-use-model-versioning.md).
 
 ## Procedure
 
@@ -64,7 +64,7 @@ Note the following rules when exporting and importing custom ERP models:
 
 6.  Open the instance to which you're importing the custom model.
 
-    The following steps use update sets. For general information, see .
+    The following steps use update sets. For general information, see [Exploring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-system-update-sets.md).
 
     1.  Navigate to **All** &gt; **System Update Sets** &gt; **Retrieved Update Sets**.
 
@@ -82,13 +82,13 @@ Note the following rules when exporting and importing custom ERP models:
 
     6.  Select **Preview Update Set** and check for any errors, such as a collision.
 
-        For detailed information about previewing and resolving issues, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_PreviewARemoteUpdateSet.md) .
+        For detailed information about previewing and resolving issues, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_PreviewARemoteUpdateSet.md) .
 
     7.  When you're finished previewing and have resolved any errors, select **Close**.
 
     8.  Select **Commit update set** to create a local copy.
 
-        For detailed information about the update set commit process, see [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_CommitAnUpdateSet.md) .
+        For detailed information about the update set commit process, see [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_CommitAnUpdateSet.md) .
 
     9.  When the local copy is created, select **Close**.
 
@@ -102,6 +102,8 @@ Note the following rules when exporting and importing custom ERP models:
 
 11. Make any other necessary changes to the model.
 
-    For detailed information about editing and managing models, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
+    For detailed information about editing and managing models, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
 
+
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

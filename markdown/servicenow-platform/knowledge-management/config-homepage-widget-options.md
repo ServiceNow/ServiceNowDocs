@@ -3,11 +3,11 @@ title: Configure the home page widget instance options
 description: Configure widget instance options for the widgets used to display popular articles on the Knowledge Management Service Portal homepage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-homepage-widget-options.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management Service Portal widgets, Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: sp\_admin or admin
 
 ## About this task
 
-The homepage displays links to the featured, most viewed, and most useful articles using several widgets. The featured articles are displayed based on the keywords associated with the articles. For information on displaying articles in the Featured content section, see [Pin a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_PinAnArticle.md). Most viewed and most useful articles are displayed based on the highest view and use count of the articles.
+The homepage displays links to the featured, most viewed, and most useful articles using several widgets. The featured articles are displayed based on the keywords associated with the articles. For information on displaying articles in the Featured content section, see [Pin a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_PinAnArticle.md). Most viewed and most useful articles are displayed based on the highest view and use count of the articles.
 
 ## Procedure
 
@@ -39,7 +39,7 @@ The homepage displays links to the featured, most viewed, and most useful articl
     |Title|The title of the widget.|
     |Bootstrap color|The color of the widget.|
     |Glyph|An icon that appears in the widget.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/scss-primer.md).|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/scss-primer.md).|
     |Table|The table that contains the **Source Field** used to provide the featured, most viewed, and most useful articles widget options. The default table is Knowledge \(kb\_knowledge\).|
     |Display Field|The title displayed for each article in the list. By default, this is the article short description.|
     |Secondary Fields|Additional information displayed for each article in the list below the title. By default, this information includes the author, view count, the date that the article was last modified, and the article rating.|
@@ -51,5 +51,5 @@ The homepage displays links to the featured, most viewed, and most useful articl
 5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

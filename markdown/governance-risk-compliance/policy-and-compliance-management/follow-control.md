@@ -3,11 +3,11 @@ title: Follow a control
 description: Connect integrates with Policy and Compliance Management providing an overlay to the standard interface, allowing users to participate in conversations while they work and collaborate on the control record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/follow-control.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage controls, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Connect integrates with Policy and Compliance Management providing an overlay to
 
 Role required: sn\_compliance.user or sn\_compliance.reader
 
-For more information about Connect, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Connect.md).
+For more information about Connect, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_Connect.md).
 
 ## Procedure
 

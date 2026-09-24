@@ -3,11 +3,11 @@ title: User roles installed with Contract Management
 description: A user role is added with Contract Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/r\_UserRolesIWContractMgmt.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with Contract Management, Contract Management, Asset Management common applications, IT Service Management]
 ---
@@ -20,5 +20,5 @@ A user role is added with Contract Management.
 |----|-------------|-----------|
 |contract\_manager|financial\_mgmt\_user|Manages the contract life cycle. Can create, edit, and delete contracts.|
 
-**Parent Topic:**[Components installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/r_ComponentsInstalledWContractMgmt.md)
+**Parent Topic:**[Components installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/r_ComponentsInstalledWContractMgmt.md)
 

@@ -3,11 +3,11 @@ title: Configure Unused resources operations
 description: The Unused resources feature recommends termination or power-off for resources that are wasting money because they aren’t being used. Configure Unused resources processes and specify the potential savings that trigger notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/um-settings-config-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage unused resources, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -26,13 +26,9 @@ Ensure that the Price Sheet Download job has completed for each provider.
 
 Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or insights\_owner \[sn\_clin\_core.insights\_owner\].
 
-## About this task
-
-**Note:** Microsoft Azure only: The Azure Advisor service generates the recommendations that appear in Rightsizing and Unused resources reports. Cloud Cost Management doesn't generate the recommendations.
-
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Unused resources**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Unused resources**.
 
 2.  Select **Settings**.
 
@@ -102,7 +98,7 @@ Notify users / Notify groups
 
 Users or groups to notify by email when the spend for unused resources exceeds the specified percentage of overall cloud spend.
 
- For information on configuring the email, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md).
+ For information on configuring the email, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAnEmailTemplate.md).
 
 </td></tr><tr class="sub-head"><td>
 
@@ -144,10 +140,10 @@ This field appears only when the **Advanced** check box is selected.
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md)
+**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md)
 
 **Related topics**  
 
 
-[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)
+[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_ITILChangeManagement.md)
 

@@ -3,9 +3,9 @@ title: Email diagnostics dashboard
 description: The email diagnostics dashboards provide visibility in to email delivery metrics that can help in improving the email health by identifying errors and areas that need deeper investigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-diagnostics-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -101,7 +101,7 @@ An error log captures and provides information about issues, failures, or unexpe
 
 Connection status displays the real time status of all email accounts configured in an instance.
 
-**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 

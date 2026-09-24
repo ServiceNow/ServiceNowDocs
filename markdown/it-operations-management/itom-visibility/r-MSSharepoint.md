@@ -3,11 +3,11 @@ title: Microsoft SharePoint discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of Microsoft SharePoint.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-MSSharepoint.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 Discovery creates or updates a CMDB record when it detects a running instance of Microsoft SharePoint.
 
-By default, Discovery uses the **SharePoint** pattern to discover Microsoft SharePoint. For information on supported Microsoft SharePoint versions, see [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+By default, Discovery uses the **SharePoint** pattern to discover Microsoft SharePoint. For information on supported Microsoft SharePoint versions, see [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -32,5 +32,5 @@ The following data is collected in the SharePoints`[cmdb_ci_appl_sharepoint]` ta
 |IP Address|ip\_address|
 |Version|version|
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Software.md)
 

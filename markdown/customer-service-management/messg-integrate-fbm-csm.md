@@ -3,9 +3,9 @@ title: Integrating Facebook Messenger with Customer Service Management
 description: Integrate Facebook Messenger chat conversations with your ServiceNow instance so that consumers and customer contacts can communicate with your business using the Conversational Integration with Facebook Messenger application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/messg-integrate-fbm-csm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating with consumer messaging apps, Integrate, Customer Service Management]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Integrating with consumer messaging apps, Integrate, Customer Servi
 
 Integrate Facebook Messenger chat conversations with your ServiceNow® instance so that consumers and customer contacts can communicate with your business using the Conversational Integration with Facebook Messenger application.
 
-As an administrator, if you have configured the Conversational Integration with Facebook Messenger application, your customer contacts and consumers can initiate a Facebook Messenger chat conversation with a virtual agent or live agent. An agent can accept a conversation initiated from a Facebook Messenger chat conversation. For more information, see [Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-fbm-configure.md).
+As an administrator, if you have configured the Conversational Integration with Facebook Messenger application, your customer contacts and consumers can initiate a Facebook Messenger chat conversation with a virtual agent or live agent. An agent can accept a conversation initiated from a Facebook Messenger chat conversation. For more information, see [Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-fbm-configure.md).
 
-**Note:** As an administrator, you can also use any predefined Customer Service Virtual Agent conversations to capture information from customer contacts or consumers. For more information, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-chatbot.md).
+**Note:** As an administrator, you can also use any predefined Customer Service Virtual Agent conversations to capture information from customer contacts or consumers. For more information, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-virtual-agent-chatbot.md).
 
 ## Key features
 

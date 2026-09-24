@@ -3,9 +3,9 @@ title: Preview an email notification
 description: Before sending a publication, authors or administrators can preview the email notifications, reviewing the recipient list, subject information, and publication content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommPreviewTargetEmail.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_publications.author or sn\_publications.admin
 
 ## About this task
 
-Users can preview the following information for an email notification when the Customer Service plugin \(com.sn\_customerservice\) is installed:
+Users can preview the following information for an email notification when the Case Management Core plugin \(com.sn\_customerservice\) is installed:
 
 -   The recipient list
 -   The subject of the publication

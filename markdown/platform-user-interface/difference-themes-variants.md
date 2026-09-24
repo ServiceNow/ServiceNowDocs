@@ -3,9 +3,9 @@ title: Core styles, colors, variants, and alternate color palettes
 description: You can tailor the look and feel of the Next Experience UI for different users by configuring the core styles, variants, and alternate color palettes. Core styles define the base theme, variants support accessibility needs, and alternate color palettes provide cosmetic customization options for end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/difference-themes-variants.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -38,9 +38,9 @@ Next, you define the primary color for the alternate color palette. This color i
 
 **Note:** Secondary and neutral colors cannot be edited in the dark alternate color palette.
 
-When the palette is created using the colors you selected, you have the option of renaming it. You can [preview all the UI assets available on the ServiceNow AI Platform to visualize how they are rendered when you apply them to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-preview-components.md).
+When the palette is created using the colors you selected, you have the option of renaming it. You can [preview all the UI assets available on the ServiceNow AI Platform to visualize how they are rendered when you apply them to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-preview-components.md).
 
 **Note:** Dark variants don’t apply to the Core UI, previously referred to as UI16. The Core UI is the interface you use if Next Experience is inactive. However, dark variants extend to most aspects of the Next Experience.
 
-**Parent Topic:**[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md)
+**Parent Topic:**[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-edit-theme.md)
 

@@ -3,9 +3,9 @@ title: Patient Support Services
 description: With the ServiceNow Patient Support Services application, streamline the patient onboarding, education, and engagement for various patient support services such as discount plans, adherence programs, opioid, and diabetes management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-app.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -26,31 +26,31 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how healthcare organizations use Patient Support Services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-explore.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how healthcare organizations use Patient Support Services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-config-app.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-config-app.md)
 
 </td><td>
 
-[Manage\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Manage enrollment requests from the Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-using-workspace.md)
+[Manage\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Manage enrollment requests from the Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-using-workspace.md)
 
 </td></tr><tr><td>
 
-[Complete \[Omitted image "bus-checkmark-circle.svg"\] Alt text: Complete your to-do items for enrollment requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-complete-to-do.md)
+[Complete \[Omitted image "bus-checkmark-circle.svg"\] Alt text: Complete your to-do items for enrollment requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-complete-to-do.md)
 
 </td><td>
 
-[Training request appointments\[Omitted image "bus-calendar.svg"\] Alt text: Book appointments for enrollment training requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-booking-appt-patient.md)
+[Training request appointments\[Omitted image "bus-calendar.svg"\] Alt text: Book appointments for enrollment training requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-booking-appt-patient.md)
 
 </td><td>
 
-[Contribute\[Omitted image "bus-case.svg"\] Alt text: Create enrollment cases as a contributor.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-create-case-contributor.md)
+[Contribute\[Omitted image "bus-case.svg"\] Alt text: Create enrollment cases as a contributor.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-create-case-contributor.md)
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text: Get details about components including tables and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text: Get details about components including tables and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-reference.md)
 
 </td><td>
 

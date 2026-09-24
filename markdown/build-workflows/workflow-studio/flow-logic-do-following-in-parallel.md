@@ -3,11 +3,11 @@ title: Do the following in parallel flow logic
 description: Run actions and subflows in separate paths within an isolated flow logic block.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-do-following-in-parallel.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ With this flow logic, you can run actions and subflows in separate paths. If any
 
 \[Omitted image "flow-logic-do-in-parallel.png"\] Alt text: Multiple paths in a Do the following in parallel flow logic block
 
-**Note:** Paths in a Do the following in parallel flow logic block do not run in multiple threads, since a flow execution context runs in a single thread. However, there may be times when you want to run flows within separate contexts even though this may consume more of your instance's resources. To run subflows in separate flow contexts within the same flow, see [Dynamic flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-dynamic-flow.md).
+**Note:** Paths in a Do the following in parallel flow logic block do not run in multiple threads, since a flow execution context runs in a single thread. However, there may be times when you want to run flows within separate contexts even though this may consume more of your instance's resources. To run subflows in separate flow contexts within the same flow, see [Dynamic flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic-dynamic-flow.md).
 
 ## Inputs
 
@@ -56,7 +56,7 @@ In this example, a flow triggers when a new change request is created. Using **D
     Workflow Studio prevents you from dragging data pills between paths because the system cannot determine which path will finish first to supply the output value.
 
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

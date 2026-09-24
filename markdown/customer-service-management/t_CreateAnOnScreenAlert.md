@@ -3,9 +3,9 @@ title: Create a special handling note
 description: Create a special handling note for a record, such as a customer service case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateAnOnScreenAlert.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage special handling notes, Agent management, Use, Customer Service Management]
 ---
@@ -164,5 +164,5 @@ This field appears when you select **Conditional** in the **Type** field.Use the
 **Related topics**  
 
 
-[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OnScreenAlerts.md)
+[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_OnScreenAlerts.md)
 

@@ -3,11 +3,11 @@ title: Export a process to Playbook
 description: Export a process to Playbooks to use the advanced features available from Workflow Studio to improve your processes. This feature works with AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/export-to-playbook.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -26,7 +26,7 @@ This task enables you to export any variant from within your process to playbook
 
 **Note:** You can export a maximum of 10 variants for a process graph.
 
-The property for the playbook generation is set in the Process Mining system properties. For more information, see [Playbook generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
+The property for the playbook generation is set in the Process Mining system properties. For more information, see [Playbook generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/data-cleanup.md).
 
 ## Procedure
 
@@ -40,7 +40,7 @@ The property for the playbook generation is set in the Process Mining system pro
 
 5.  Select **Apply**.
 
-6.  Select **Playbooks** icon \(\[Omitted image "playbook-icon.png"\] Alt text: Playbooks icon\).
+6.  Select **Associated Projects** icon \(\[Omitted image "playbook-icon.png"\] Alt text: Playbooks icon\).
 
     \[Omitted image "playbook-1.png"\] Alt text: Selecting variants to generate playbook
 
@@ -70,8 +70,8 @@ The property for the playbook generation is set in the Process Mining system pro
 
     In Workflow Studio, the name, and ServiceNow Otto prompt is displayed. You can choose to edit them and regenerate the preview.
 
-    For information on Playbooks on Workflow Studio, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
+    For information on Playbooks on Workflow Studio, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md).
 
 
-**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 

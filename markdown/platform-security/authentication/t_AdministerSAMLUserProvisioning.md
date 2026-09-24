@@ -3,11 +3,11 @@ title: Administer SAML user provisioning
 description: Update the User table with the users in your IdP by first setting up field mapping and then enabling user provisioning through Multi-SSO IdP settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_AdministerSAMLUserProvisioning.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAML user provisioning, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

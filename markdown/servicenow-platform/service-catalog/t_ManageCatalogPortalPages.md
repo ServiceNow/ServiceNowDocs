@@ -3,11 +3,11 @@ title: Multiple service catalogs setup
 description: Multiple service catalogs enable your organization to offer different sets of services to different teams within the organization, such as IT services, human resources, and facilities management.Using Service Catalog, you can create a catalog and define items and categories within the catalog.Using Service Catalog, you can view and manage items within a catalog.Using Service Catalog, you can create and manage multiple portal pages for a catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ManageCatalogPortalPages.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using the content management system with the service catalog, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,9 +20,9 @@ Administrators and catalog administrators can define and manage multiple service
 
 ## Enabling access for catalogs
 
-You can enable read access to the catalogs by applying the rule **read ACL** on Catalog \(sc\_catalog\) table. See [Access Control Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md) for more information.
+You can enable read access to the catalogs by applying the rule **read ACL** on Catalog \(sc\_catalog\) table. See [Access Control Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control-rules.md) for more information.
 
-**Parent Topic:**[Service catalog setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogs.md)
+**Parent Topic:**[Service catalog setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/p_ServiceCatalogs.md)
 
 ## Create a catalog
 
@@ -48,7 +48,7 @@ Role required: admin
 
 6.  Define additional portal pages for the catalog.
 
-7.  [Manage sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_ManageCatalogSites.md) if you are using a CMS system.
+7.  [Manage sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_ManageCatalogSites.md) if you are using a CMS system.
 
 <table id="table_wbl_3mg_dq"><thead><tr><th>
 
@@ -72,7 +72,7 @@ Application
 
 </td><td>
 
-The application scope for this catalog. For information on the application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) .
+The application scope for this catalog. For information on the application scope, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md) .
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Desktop image
 
 </td><td>
 
-The larger image to display with the catalog on the multi-catalog homepage. This image is only shown if image display is included in the [renderer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreatingOrModifyingRenderers.md) selected, such as the default **Title and Image** renderer.
+The larger image to display with the catalog on the multi-catalog homepage. This image is only shown if image display is included in the [renderer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_CreatingOrModifyingRenderers.md) selected, such as the default **Title and Image** renderer.
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ The location to direct service catalog users to when they click the **Continue S
 </table>
 ### What to do next
 
-To add a module in the navigator for the new catalog, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-steps-app-navigator-category.md).
+To add a module in the navigator for the new catalog, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-steps-app-navigator-category.md).
 
 ## Manage items in a catalog
 
@@ -170,7 +170,7 @@ Use the **Catalog Items** related list on the Catalog form to view and manage th
 
 \[Omitted image "SC\_ManageItemsCatalog.png"\] Alt text: Catalog items list.
 
-To define a new catalog item for the catalog, click **New** and [enter the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md) for the item.
+To define a new catalog item for the catalog, click **New** and [enter the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md) for the item.
 
 ## Manage catalog portal pages
 
@@ -182,7 +182,7 @@ Role required: admin
 
 ### About this task
 
-A catalog portal page provides a [homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md) for a specific catalog. You can use portal pages to create different catalog views for different user groups. Each portal page accesses the same catalog content and presents that content in different ways.
+A catalog portal page provides a [homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md) for a specific catalog. You can use portal pages to create different catalog views for different user groups. Each portal page accesses the same catalog content and presents that content in different ways.
 
 Catalog portal page details include the owner, title, and view to use for that page.
 
@@ -198,7 +198,7 @@ Catalog portal page details include the owner, title, and view to use for that p
     -   Click **Edit** to select another portal page for the catalog.
     -   Select a portal page to view and edit details for that page.
 
-**Parent Topic:**[Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)
+**Parent Topic:**[Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)
 
 **Related topics**  
 

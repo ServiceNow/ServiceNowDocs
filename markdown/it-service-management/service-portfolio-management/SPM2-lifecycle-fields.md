@@ -3,11 +3,11 @@ title: Manage the CSDM life cycle fields in Service Portfolio Management
 description: Manage the CSDM life cycle fields for the taxonomy nodes of your service portfolios. You can also use the Active check box to display or hide the life cycle fields in the Digital Portfolio Management \(DPM\) Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-lifecycle-fields.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit and manage service portfolios, Use, Service Portfolio Management, IT Service Management]
 ---
@@ -107,5 +107,5 @@ The **Active** check box determines if the portfolio is displayed in the DPM Wor
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Edit and manage service portfolios in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-edit-manage-portfolios.md)
+**Parent Topic:**[Edit and manage service portfolios in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-edit-manage-portfolios.md)
 

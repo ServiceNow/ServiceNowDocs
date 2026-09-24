@@ -3,9 +3,9 @@ title: Launcher screen UI sections
 description: UI sections contain the screens, analytics previews, and record information on your launcher screens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/alp-ui-sections.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -30,7 +30,7 @@ An analytics section helps you to visualize your data. Use the two sub-types, **
 
  **Chart** and **Single Score** previews are displayed as cards. When a user taps a chart, they open the analytics screen which displays more information on the report or widget.
 
- For information on configuring analytics sections see [Configure an analytics UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-reports.md).
+ For information on configuring analytics sections see [Configure an analytics UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-ui-section-config-reports.md).
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ An analytics section helps you to visualize your data. Use the two sub-types, **
 
 </td><td>
 
-Use a **Content** section to display a combination of video, image, and text cards in a carousel format, at the top of your screen. Users can interact with the promotional displays by either viewing videos, being redirected to web pages, or navigating to defined areas on their mobile device.For more information on mobile campaign configuration, see [Configure a content UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-content-ui-section.md).
+Use a **Content** section to display a combination of video, image, and text cards in a carousel format, at the top of your screen. Users can interact with the promotional displays by either viewing videos, being redirected to web pages, or navigating to defined areas on their mobile device.For more information on mobile campaign configuration, see [Configure a content UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-content-ui-section.md).
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ Use horizontal record sections to display a set number of items you want the use
 Use vertical sections when you have more room and want to display a set number of records within the screen. Vertical record sections are good for records like critical tasks where you want the user to see details as soon as they land on the page
 
 
- For details on creating record sections, see [Configure record sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-item.md).
+ For details on creating record sections, see [Configure record sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-ui-section-config-item.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Use **Media** sections to display a single image or video on your launcher scree
 
  Media sections are also a way to add a static company logo to the top of your launcher screen.
 
- For information on configuring media sections see [Configure a media UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-media.md).
+ For information on configuring media sections see [Configure a media UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-ui-section-config-media.md).
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Use this section type to display many screens or launcher screens in one horizon
 When displayed vertically, you can use the **Display feed count** option to display a count of records within each screen. Use this type for actionable items such as approvals or requests. For details on creating navigation sections, see
 
 
- [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-navig.md).
+ [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-ui-section-config-navig.md).
 
 </td></tr></tbody>
 </table>

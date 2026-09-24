@@ -3,11 +3,11 @@ title: Create a change request from a configuration item \(CI\)
 description: Create a change request from a list of configuration items \(CIs\), or add selected CIs from a list to a change record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_CreateAChangeFromACI.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -32,7 +32,7 @@ Role required: itil, admin, or sn\_change\_write
 
 3.  Select one of the following options from the Actions list.
 
-<table id="choicetable_b3q_mzg_mw"><tbody><tr><td id="d339868e89">
+<table id="choicetable_b3q_mzg_mw"><tbody><tr><td id="d347515e89">
 
 **Add to existing Change Request**
 
@@ -40,7 +40,7 @@ Role required: itil, admin, or sn\_change\_write
 
 Select this option to associate the CIs with an existing change request.
 
-</td></tr><tr><td id="d339868e98">
+</td></tr><tr><td id="d347515e98">
 
 **Add to new Change Request**
 
@@ -58,7 +58,7 @@ Select this option to associate the CIs with a new change request.
 4.  Continue to create or modify the change record as required.
 
 
-**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md)
+**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateAChange.md)
 
 **Related topics**  
 

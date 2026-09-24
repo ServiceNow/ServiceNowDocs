@@ -1,20 +1,20 @@
 ---
 title: Create Approval Rules
-description: Configure approval rules that require one or more approvers to authorize an advanced response option before it is applied to a DLP incident.
+description: Create approval rules to take approval from various levels of approver users whenever an advanced type of response option is selected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-approval-rules.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Create Approval Rules
 
-Configure approval rules that require one or more approvers to authorize an advanced response option before it is applied to a DLP incident.
+Create approval rules to take approval from various levels of approver users whenever an advanced type of response option is selected.
 
 ## Before you begin
 
@@ -25,15 +25,15 @@ Role required:
 
 ## About this task
 
-An approval rule is triggered when an end user selects a response option that is marked as Advanced on a DLP incident. When the rule's conditions match the incident fields, the system initiates an approval request and routes it to the configured approvers before the response option can be applied. If multiple rules match, the rule with the lowest **Execution order** value runs first.
+The DLP admin defines these approval rules to grant consent on requests raised by end users for the approval of advanced type of response option. DLP admin can also define multiple levels of approval from here.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **DLP Administration** &gt; **DLP Approval Rules**.
 
-2.  Select **New**.
+2.  Click **New**.
 
-3.  On the form, fill in the fields.
+3.  On the form, fill in fields.
 
 <table id="table_ilq_qrg_zrb"><thead><tr><th>
 
@@ -65,7 +65,7 @@ Execution order
 
 </td><td>
 
-Indicates the approval rule priority. The approval rule of the highest priority or the least order is selected.
+The approval rule priority. This field indicates the order in which the approval rules are executed when two or more rules share the triggering conditions.
 
  The approval rule with the lowest number has the highest priority. To set the order of operation, enter a value. For example, 100, 200, 300, and so on.
 
@@ -87,11 +87,11 @@ Condition
 
 Conditions in the condition builder. These conditions are based on the DLP incident table. To build a condition for the approval rule, select any of the incident fields. Use the lists and fields of the conditions builder to set the filters for the first row.
 
-To add more conditions, select **AND** or **OR**.
+To add more conditions, click **AND** or **OR**.
 
 -   If **AND** is selected, all conditions must be matched.
 -   If **OR** is selected, either condition can be matched.
-To set a second filter condition, select **New Criteria**.
+To set a second filter condition, click **New Criteria**.
 
 For example, you can set the conditions for this incident consolidation rule by selecting the condition as **Integration Source**, **contains**, **Microsoft**.
 
@@ -109,8 +109,8 @@ Approver
 
 </td><td>
 
-Select how approvers are identified for this rule.-   **User Table**: Selects an approver based on a field in the Users \(sys\_user\) table, such as the incident assignee's manager.
--   **Custom Approval List**: Configures a multi-level approval chain with specific users or groups at each level.
+Select which type of approver user you want to set.-   **User Table**: Select this option if you want to select approver user from the Users \(sys\_user\) table.
+-   **Custom Approval List**: Select this option if you want to configure multiple levels of custom approver for a single request
 
 
 </td></tr><tr><td>
@@ -127,27 +127,20 @@ Number of levels
 
 </td><td>
 
-This field will appear when **User Table** is selected for **Approver** option.Enter a number in this field to define the levels of approval.
+This field will appear when **User Table** is selected for **Approver** option.End number in this field to define the levels of approval.
 
 For example, if 3 is added in the Number of levels field and Manager is selected in the Approver identifier field then approval request will traverse to three levels of approval.
 
 </td></tr></tbody>
-</table>    For example, your organization requires manager approval before a DLP analyst can apply the **Block** response option to any Microsoft DLP incident. Configure the rule as follows:
-
-    -   **Condition:** Integration Source \| contains \| Microsoft
-    -   **Applicable for response options:** Block
-    -   **Approver:** User Table
-    -   **Approver identifier:** Manager
-    -   **Number of levels:** 1
-    When an analyst selects **Block** on a qualifying Microsoft DLP incident, the system creates an approval request and routes it to the analyst's manager. The response option is applied only after the manager approves.
+</table>    The following example shows the approval rule created for one of the advance response options. The condition requires the Integration source name contains the Microsoft keyword that then triggers this configuration.
 
 4.  For the **Approver** option, select **Custom Approval List**.
 
-5.  Select **Submit**.
+5.  Click **Submit**.
 
-6.  Verify that the **Approval Levels** related list appears on the form.
+6.  **Approval Levels** related list will populate on the form view.
 
-7.  In the **Approval Levels** section, select **New**.
+7.  In the **Approval Levels** section, click **New**.
 
 8.  On the form, fill in the fields.
 
@@ -201,7 +194,7 @@ Description
 
 </td><td>
 
-Unique description for the approval level.
+Unique description for the approval rule.
 
 </td></tr><tr><td>
 
@@ -219,15 +212,15 @@ Approvers
 
 Option to select the approvers. 1.  Users and Groups:
     1.  **Users**: Add a particular user from the list. You can add yourself or add a user by using their email address or search option.
-    2.  **Groups**: Select the &lt;add\_icon&gt; icon to add a particular group from the list. You can also add a group by using the search option.
+    2.  **Groups**: Click the &lt;add\_icon&gt; icon to add a particular group from the list. You can also add a group by using the search option.
 2.  **Find by using script**: You can use the script editor to customize and format the field values during the approval level creation. For example, you can use the email address field to identify the approver user.
 
 
 </td></tr></tbody>
-</table>9.  Select **Submit**.
+</table>9.  Click **Submit**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
@@ -262,7 +255,7 @@ Option to select the approvers. 1.  Users and Groups:
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

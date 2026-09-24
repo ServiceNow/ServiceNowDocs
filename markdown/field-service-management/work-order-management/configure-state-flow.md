@@ -3,11 +3,11 @@ title: Configure state flows for work orders and work order tasks
 description: State flows control the sequence in which work orders and work order tasks transition from one state to another. You can customize state flows to control the sequence in which records transition between states in Service Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configure-state-flow.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Customize state flows, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---

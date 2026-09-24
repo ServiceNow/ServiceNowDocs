@@ -3,11 +3,11 @@ title: Create a record producer to log incidents
 description: Create record producers to log incidents directly from Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_CreateARecordProducer.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident templates and record producers, Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -30,7 +30,7 @@ The following example demonstrates how to create a record producer to request a 
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
-2.  Select **New** and complete the steps in [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md) using the following information:
+2.  Select **New** and complete the steps in [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_DefRecProdInSCat.md) using the following information:
 
     |Field|Entry|
     |-----|-----|
@@ -71,7 +71,7 @@ The following example demonstrates how to create a record producer to request a 
     In Service Catalog, the new catalog item appears and any user can select it.
 
 
-**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-templates-record-producers.md)
+**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-templates-record-producers.md)
 
 **Related topics**  
 

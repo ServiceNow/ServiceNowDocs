@@ -1,13 +1,13 @@
 ---
 title: Manage data transfers
-description: Organizations often transfer personal data between applications, vendors, business units, and regions, which might be subject to privacy regulations. The Privacy Management application captures each movement of personal data as a data transfer record on the processing activity.
+description: Organizations often transfer personal data between applications, vendors, business units, and regions, which are subject to privacy regulations. Privacy Management captures each movement as a data transfer record on the processing activity to help you comply with privacy regulations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/data-transfers.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [data transfer, hierarchy, transfer mechanism, custom relationship]
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
@@ -15,7 +15,7 @@ breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 
 # Manage data transfers
 
-Organizations often transfer personal data between applications, vendors, business units, and regions, which might be subject to privacy regulations. The Privacy Management application captures each movement of personal data as a data transfer record on the processing activity.
+Organizations often transfer personal data between applications, vendors, business units, and regions, which are subject to privacy regulations. Privacy Management captures each movement as a data transfer record on the processing activity to help you comply with privacy regulations.
 
 ## Overview of data transfer
 
@@ -30,7 +30,7 @@ By default, only the following relationship types generate data transfer records
 -   **Send data to**
 -   **Received data from**
 
-For information on the different relationship types, see [New hierarchy relationship forms in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/new-relationship-forms.md).
+For information on the different relationship types, see [Hierarchy relationship forms in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/new-relationship-forms.md).
 
 -   **Data transfer example**
 
@@ -47,7 +47,7 @@ For information on the different relationship types, see [New hierarchy relation
 
 The **Send data to** and **Received data from** relationship types have data subject selection enabled, which captures whose personal data is involved in the transfer, their locations, and the impacted data elements. When you add this information, the system generates additional data transfer records from each data subject location to each node involved in the movement.
 
-**Note:** A privacy admin can enable data subject selection in custom relationship types by modifying the sn\_privacy.relationship\_involving\_data\_subjects system property. For steps, see [Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md).
+**Note:** A privacy admin can enable data subject selection in custom relationship types by modifying the sn\_privacy.relationship\_involving\_data\_subjects system property. For steps, see [Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md).
 
 -   **Data transfer example with data subject selection**
 
@@ -58,7 +58,7 @@ The **Send data to** and **Received data from** relationship types have data sub
     This generates two additional transfer records for the same relationship, capturing employee personal data movement from California \(Employees\) to Germany \(Recruiting application\), and from California \(Employees\) to Australia \(HR platform\).
 
 
-You can remove transfers that don't apply during the assessment review. For steps, see [Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md).
+You can remove transfers that don't apply during the assessment review. For steps, see [Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md).
 
 ## Adding data transfers to a processing activity
 
@@ -70,12 +70,12 @@ Data transfer records are added to a processing activity in one of the following
 
 ## Transfer mechanisms
 
-An analyst reviews the data transfer records generated for a processing activity and assigns each one a transfer mechanism. A transfer mechanism identifies the legal safeguard that permits data transfers, such as Binding Corporate Rules \(BCRs\) or Standard Contractual Clauses \(SCCs\). To learn about different transfer mechanisms in Privacy Management, see [Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md).
+An analyst reviews the data transfer records generated for a processing activity and assigns each one a transfer mechanism. A transfer mechanism identifies the legal safeguard that permits data transfers, such as Binding Corporate Rules \(BCRs\) or Standard Contractual Clauses \(SCCs\). To learn about different transfer mechanisms in Privacy Management, see [Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md).
 
--   To add a transfer mechanism to a data transfer record, see [Add a transfer mechanism to a data transfer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/add-transfer-mechanism-dt.md).
--   To add new transfer mechanisms in your Privacy Workspace, see [Manage transfer mechanisms in the Privacy Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/update-transfer-mechanism.md).
+-   To add a transfer mechanism to a data transfer record, see [Add a transfer mechanism to a data transfer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/add-transfer-mechanism-dt.md).
+-   To add new transfer mechanisms in your Privacy Workspace, see [Manage transfer mechanisms in the Privacy Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/update-transfer-mechanism.md).
 
-## Roles requirements
+## Role requirements
 
 |User|Required role|Task|
 |----|-------------|----|
@@ -84,12 +84,12 @@ An analyst reviews the data transfer records generated for a processing activity
 |Privacy manager|sn\_privacy.manager|Adds new transfer mechanisms in the application or updates existing ones.|
 |Privacy admin|sn\_privacy.admin|Configures the sn\_privacy.relationship\_involving\_data\_subjects system property to support data subject selection in custom relationships.|
 
--   **[Create a data transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-transfer.md)**  
+-   **[Create a data transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/create-a-data-transfer.md)**  
 Record a data transfer directly on a processing activity if it wasn't captured as part of a hierarchy relationship.
--   **[Delete a data transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/delete-a-data-transfer.md)**  
+-   **[Delete a data transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/delete-a-data-transfer.md)**  
 Delete a data transfer record from a processing activity.
--   **[Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md)**  
+-   **[Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md)**  
 Transfer mechanisms identify the legal safeguard that permits a specific data transfer between locations.
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

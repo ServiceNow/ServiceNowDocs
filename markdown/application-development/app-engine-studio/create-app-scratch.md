@@ -3,13 +3,13 @@ title: Create your application from scratch
 description: If the available application templates in App Engine Studio \(AES\) don't fit your application goal, create an empty application to which you can add data, experience, logic and automation, and security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/create-app-scratch.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Create your application from scratch
@@ -44,7 +44,7 @@ Role required: admin, sn\_app\_eng\_studio.user
 
 8.  On the summary screen, select **Go to app dashboard**.
 
-9.  If you want a more advanced app development environment to work in, you can open your app in [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md) by selecting **Try it out** in the banner.
+9.  If you want a more advanced app development environment to work in, you can open your app in [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md) by selecting **Try it out** in the banner.
 
     \[Omitted image "sn-studio-entry-aes.png"\] Alt text: Try opening your app in ServiceNow Studio for a more advanced app development experience.
 
@@ -54,14 +54,14 @@ Role required: admin, sn\_app\_eng\_studio.user
 
     For more information, see the following topics:
 
-    -   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md)
-    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
-    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md)
-    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md)
+    -   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-data.md)
+    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-experience.md)
+    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-automation.md)
+    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-security.md)
 
 ## What to do next
 
-After you've finished building your application, submit the application for approval to get it reviewed and deployed by an administrator. For more information, see [Submit your app for approval and publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/submit-for-approval.md).
+After you've finished building your application, submit the application for approval to get it reviewed and deployed by an administrator. For more information, see [Submit your app for approval and publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/submit-for-approval.md).
 
-**Parent Topic:**[Create your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-application.md)
+**Parent Topic:**[Create your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/create-application.md)
 

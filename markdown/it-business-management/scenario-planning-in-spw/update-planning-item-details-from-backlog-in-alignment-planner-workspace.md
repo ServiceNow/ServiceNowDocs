@@ -3,11 +3,11 @@ title: Update planning item details from Prioritization tab
 description: All references to "Backlog" are changed to "Prioritization" following the change of the feature name in the app.Update the details of your planning items or delete them so that your Strategic Planning Prioritization tab reflects the latest work pipeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -33,15 +33,15 @@ Update the details of a planning item using the Prioritization, Kanban, and Hier
 
 3.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d213388e122">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d214037e122">
 
 Choice
 
-</th><th align="left" id="d213388e125">
+</th><th align="left" id="d214037e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d213388e131">
+</th></tr></thead><tbody><tr><td id="d214037e131">
 
 **Update planning item details**
 
@@ -54,9 +54,9 @@ Edit using one of the following ways. These actions are applicable for both high
 -   Hierarchy: Double-click an item's field on the grid to make inline edits or select the short description to open the full details page.
  The full details page shows the item's related lists such as Goal Relationships, Milestones, Dependencies, and others.
 
- For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-item-form.md).
+ For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d213388e174">
+</td></tr><tr><td id="d214037e174">
 
 **Attach files to planning item**
 
@@ -64,7 +64,7 @@ Edit using one of the following ways. These actions are applicable for both high
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d213388e189">
+</td></tr><tr><td id="d214037e189">
 
 **Delete planning item**
 

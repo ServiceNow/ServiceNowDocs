@@ -3,11 +3,11 @@ title: Configure a connection for DEX for Microsoft 365
 description: Add and configure the Microsoft Teams connections to authenticate ServiceNow requests in the DEX for Microsoft 365.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/register-dex-for-microsoft-365-as-oauth-pvdr.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring DEX for Microsoft 365, Configure, Digital End-User Experience, IT Service Management]
 ---

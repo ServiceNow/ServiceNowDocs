@@ -3,9 +3,9 @@ title: Creating and publishing specification versions
 description: Create and publish the specification versions that list the improved products and services that you can offer to your customers in a technical product catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/creating-publish-specification-versions-somt.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -31,10 +31,10 @@ As a product catalog manager, you do the following actions when you create a ver
     -   Decomposition rules
     -   Quantity mappings
     -   Attribute propagation rules
-    **Note:** To learn more, see [Create and publish a specification version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-publish-new-specification-somt.md).
+    **Note:** To learn more, see [Create and publish a specification version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-publish-new-specification-somt.md).
 
-3.  Create a product offering, and then publish it when you update your product catalog. To learn more, see [Create and publish a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-publish-product-offering-version-somt.md).
-4.  Retire or archive old or unused specifications, and product offerings. To learn more, see [Retiring or archiving versioned specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/retiring-archiving-specifications-somt.md).
+3.  Create a product offering, and then publish it when you update your product catalog. To learn more, see [Create and publish a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-publish-product-offering-version-somt.md).
+4.  Retire or archive old or unused specifications, and product offerings. To learn more, see [Retiring or archiving versioned specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/retiring-archiving-specifications-somt.md).
 
 ## Updates and validations that are performed when you create and publish a specification version
 
@@ -60,10 +60,10 @@ When you create a version for a currently published specification, the system co
     -   **Display Name**. The display name is the system-assigned concatenation of the specification name and its current version number. You can overwrite this field.
     -   **Initial Version**. The name of the base version of the specification appears but can't be changed.
     -   **Previous Version**. The name of the specification is as it was in the previous version.
-4.  Copies the associated characteristic and characteristic options. To learn more, see [Create the characteristics and characteristic options for your product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-characteristics.md).
+4.  Copies the associated characteristic and characteristic options. To learn more, see [Create the characteristics and characteristic options for your product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-characteristics.md).
 5.  Copies the associated specification relationships, attribute mapping, decomposition rules, and quantity mappings when you use extension point scripts. When copied, the source specifications in the associated specification relationship and decomposition rule records are automatically updated to the current versions of the source specifications.
 
-    **Note:** To learn more about these rules, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-specification-rels.md).
+    **Note:** To learn more about these rules, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-specification-rels.md).
 
 6.  Copies the associated quantity mappings and attribute propagation rules. The source specifications in the quantity mappings and attribute propagation rules are also updated to the current versions. To learn more about these rules, see .
 

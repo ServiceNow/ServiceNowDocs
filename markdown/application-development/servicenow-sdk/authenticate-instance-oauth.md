@@ -3,11 +3,11 @@ title: Authenticate to a ServiceNow instance using OAuth 2.0 with the ServiceNow
 description: Use OAuth 2.0 authentication to connect to a ServiceNow instance with the ServiceNow SDK.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/authenticate-instance-oauth.html
-release: australia
+release: brazil
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authenticate, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -18,15 +18,15 @@ Use OAuth 2.0 authentication to connect to a ServiceNow instance with the Servic
 
 ## Before you begin
 
-To use OAuth 2.0 authentication, your instance must have ServiceNow IDE \(version 1.1 or later\) installed or have the required XML configuration imported. By default, instances on the Australia release include ServiceNow IDE version 1.1.4 and support using OAuth 2.0 authentication with the ServiceNow SDK.
+To use OAuth 2.0 authentication, your instance must have ServiceNow IDE \(version 1.1 or later\) installed or have the required XML configuration imported. By default, instances on the Brazil release include ServiceNow IDE version 1.1.4 and support using OAuth 2.0 authentication with the ServiceNow SDK.
 
 Role required: admin
 
 ## About this task
 
-This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md).
+This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md).
 
-**Note:** To use non-interactive authentication in CI/CD pipelines, see the [install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md) command.
+**Note:** To use non-interactive authentication in CI/CD pipelines, see the [install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md) command.
 
 ## Procedure
 
@@ -96,7 +96,7 @@ The alias and credentials are stored in the device keychain or credential manage
 
 ## What to do next
 
-Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/creating-applications-servicenow-sdk.md).
+Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/creating-applications-servicenow-sdk.md).
 
-**Parent Topic:**[Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/authenticate-instance-now-sdk.md)
+**Parent Topic:**[Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/authenticate-instance-now-sdk.md)
 

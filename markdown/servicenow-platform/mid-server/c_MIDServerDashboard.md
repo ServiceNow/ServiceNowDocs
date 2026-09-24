@@ -3,11 +3,11 @@ title: MID Server dashboard
 description: The MID Server dashboard is a central place for MID Server users to monitor ongoing operations. The dashboard consists of reports and gauges that display information from the MID Server Status table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/c\_MIDServerDashboard.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,7 +25,7 @@ The MID Server dashboard is a central place for MID Server users to monitor ongo
 
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** and use the enhanced dashboard.
 
-**Note:** To access the MID Server Dashboard, the user must have the **mid\_server** or **admin** role. The Discovery Admin Workspace requires the **discovery\_admin** role. Group-based access follows standard ServiceNow role inheritance; ensure users in the group have the appropriate role assigned. For role setup, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md)
+**Note:** To access the MID Server Dashboard, the user must have the **mid\_server** or **admin** role. The Discovery Admin Workspace requires the **discovery\_admin** role. Group-based access follows standard ServiceNow role inheritance; ensure users in the group have the appropriate role assigned. For role setup, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md)
 
 ## MID Server Overview tab
 
@@ -57,7 +57,7 @@ See [KB0535181](https://support.servicenow.com/kb_view.do?sysparm_article=KB0535
 
 The icons in the **Version** column indicates the following:
 
--   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/trigger-mid-server-upgrade.md) and verify that it is not pinned to an older version with the [mid.version.override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
+-   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/trigger-mid-server-upgrade.md) and verify that it is not pinned to an older version with the [mid.version.override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
 -   **Yellow**: Compatible, but an upgrade is recommended. This indicates that the MID Server version belongs to the same family as the instance, but not the same version.
 -   **Green**: Compatible. No upgrade necessary.
 -   **Gray**: Incompatible. The instance cannot detect the version.
@@ -100,7 +100,7 @@ Validated
 
 </td><td>
 
-Whether or not the MID Server was [validated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md).
+Whether or not the MID Server was [validated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Max memory used %
 
 </td><td>
 
-The highest percent usage of memory on the system that hosts the MID Server, in the configured sampling interval. The default interval is 30 minutes, but this value is user configurable. See [MID Server resource threshold alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-resource-threshold-alerts.md) for details.
+The highest percent usage of memory on the system that hosts the MID Server, in the configured sampling interval. The default interval is 30 minutes, but this value is user configurable. See [MID Server resource threshold alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-resource-threshold-alerts.md) for details.
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Mean CPU used %
 
 </td><td>
 
-The average percent usage of CPU on the system that hosts the MID Server, in the configured sampling interval. The default interval is 30 minutes, but this value is user configurable. See [MID Server resource threshold alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-resource-threshold-alerts.md) for details.
+The average percent usage of CPU on the system that hosts the MID Server, in the configured sampling interval. The default interval is 30 minutes, but this value is user configurable. See [MID Server resource threshold alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-resource-threshold-alerts.md) for details.
 
 </td></tr><tr><td>
 
@@ -140,7 +140,7 @@ Version
 
 </td><td>
 
-The version of the MID Server. An icon indicates the validity of the MID Server:-   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/trigger-mid-server-upgrade.md) and verify that it is not pinned to an older version with the [mid.version.override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
+The version of the MID Server. An icon indicates the validity of the MID Server:-   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/trigger-mid-server-upgrade.md) and verify that it is not pinned to an older version with the [mid.version.override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
 -   **Yellow**: Compatible, but an upgrade is recommended. This indicates that the MID Server version belongs to the same family as the instance, but not the same version.
 -   **Green**: Compatible. No upgrade necessary.
 -   **Gray**: Incompatible. The instance cannot detect the version.
@@ -151,13 +151,13 @@ User
 
 </td><td>
 
-The login name of the user. An icon indicates the validity of the user:-   **Red**: Incompatible. The user does not have the[mid\_server role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) or the user does not match the value in the [mid.instance.username parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) \(in the `config.xml` configuration file\). Reconfigure the MID Server user and [verify that it works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
+The login name of the user. An icon indicates the validity of the user:-   **Red**: Incompatible. The user does not have the[mid\_server role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) or the user does not match the value in the [mid.instance.username parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) \(in the `config.xml` configuration file\). Reconfigure the MID Server user and [verify that it works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
 -   **Green**: Compatible. The user has the mid\_server role and matches the user in the configuration file.
 
- **Note:** The user can also have any of the SOAP roles that the [mid\_server role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) inherits.
+ **Note:** The user can also have any of the SOAP roles that the [mid\_server role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) inherits.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+</table>**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 

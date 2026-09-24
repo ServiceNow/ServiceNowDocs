@@ -3,11 +3,11 @@ title: Using the GRC: Policy and Compliance integrator to display batch records 
 description: You can use the GRC: Policy and Compliance integrator application module to display the details of the batch records and to import tasks. For example, you can see the content integration batch records, library import tasks, staging records, and recommendations for the records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/integrator-in-classic-ui.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC: Policy and Compliance integrator, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ You can access the **All** &gt; **Policy and compliance integrator** &gt; **Cont
 -   Recommendations
 -   Rejected content
 
+\[Omitted image "policy-and-comp-integrator-module-ui.png"\] Alt text: Policy and compliance integrator module.
 
-
-For information on how you can import the content from your third-party content providers into the Policy and Compliance Management application tables, see [Content integration batch table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/api-batch.md) and [Assign a library import task for compliance approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/assign-lib-import-task.md).
+For information on how you can import the content from your third-party content providers into the Policy and Compliance Management application tables, see [Content integration batch table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/api-batch.md) and [Assign a library import task for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/assign-lib-import-task.md).
 

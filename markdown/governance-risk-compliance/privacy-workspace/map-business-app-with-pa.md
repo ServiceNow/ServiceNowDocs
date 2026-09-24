@@ -3,11 +3,11 @@ title: Map a table with a processing activity
 description: Keep your processing activity updated and in sync with any table in ServiceNow by mapping the entity fields with the processing activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/map-business-app-with-pa.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -64,5 +64,5 @@ Additionally, ensure that there is valid data for both the fields. For example, 
 
 The mapping is successfully created. The fields that are mapped will be populated in the processing activity form.
 
-**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
+**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 

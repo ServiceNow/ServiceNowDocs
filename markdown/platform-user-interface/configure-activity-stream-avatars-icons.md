@@ -3,9 +3,9 @@ title: Configure avatars for Activity stream tiles
 description: Configure Activity stream tiles to display avatars by using the glide.activity.show\_tile\_icons system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-activity-stream-avatars-icons.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activity stream, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Add the **glide.activity.show\_tile\_icons** system property.
 
-    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set the Value to **true**.
 

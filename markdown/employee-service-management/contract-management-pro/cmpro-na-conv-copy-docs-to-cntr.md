@@ -3,11 +3,11 @@ title: Copy contract documents to contract repository
 description: Copy signed contract documents into the contract repository for conversational search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-conv-copy-docs-to-cntr.html
-release: australia
+release: brazil
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure conversational search, Configure agentic workflows, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -43,5 +43,5 @@ The signed contract documents are copied into the contract repository.
 
 ## What to do next
 
-Index data for conversational search. [Index contracts table for conversational search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-converse-search-indexing.md)
+Index data for conversational search. [Index contracts table for conversational search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cmpro-converse-search-indexing.md)
 

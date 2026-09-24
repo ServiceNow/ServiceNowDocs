@@ -3,11 +3,11 @@ title: Troubleshoot SRM
 description: Find answers to issues that you may encounter when using Service Reliability Management \(SRM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/srm-troubleshoot.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Reliability Management reference, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -38,5 +38,5 @@ To remove the service from SRM, follow these steps to identify the manager to co
 
 The manager's name appears below the team name. Contact the manager to request the removal of the service from SRM.
 
-**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
+**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

@@ -3,9 +3,9 @@ title: Review a metric data task
 description: Review a metric data task for a manual or automated metric definition, and then either approve or reject the task based on your review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/review-mdt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -30,15 +30,15 @@ If you have been assigned as an approver as part of a metric definition record, 
 
 3.  Review the metric data tasks and perform one of the following actions.
 
-<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d33055e86">
+<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d32973e86">
 
 Choice
 
-</th><th align="left" id="d33055e89">
+</th><th align="left" id="d32973e89">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d33055e95">
+</th></tr></thead><tbody><tr><td id="d32973e95">
 
 **Reject**
 
@@ -48,7 +48,7 @@ Action
 2.  Select **Reject** and provide your reason for rejection.
 
 
-</td></tr><tr><td id="d33055e116">
+</td></tr><tr><td id="d32973e116">
 
 **Approve**
 
@@ -64,5 +64,5 @@ Action
 4.  Select the check boxes that you want and then select **Reject** or **Approve**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/using-grc-metrics.md)
 

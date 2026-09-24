@@ -3,13 +3,13 @@ title: View an alert analysis by ServiceNow Otto in Express List
 description: View an alert analysis created using generative AI. Alert analysis include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-simplification-el.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View an alert analysis by ServiceNow Otto in Express List
@@ -18,7 +18,7 @@ View an alert analysis created using generative AI. Alert analysis include a hum
 
 ## Before you begin
 
-Install the ServiceNow Otto for ITOM. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+Install the ServiceNow Otto for ITOM. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-now-assist-itom.md).
 
 **Note:** Currently, ServiceNow Otto for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, Automated, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
 

@@ -3,11 +3,11 @@ title: Move and resize a demand
 description: As the demand manager, you can move and resize bubbles in the bubble chart.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_MoveAndResizeADemand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -39,7 +39,7 @@ Moving and resizing bubbles in the bubble chart updates the corresponding values
     The new size of the demand is updated in the **Size** column.\[Omitted image "demand-bubble-size.png"\] Alt text: Bubble size window
 
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

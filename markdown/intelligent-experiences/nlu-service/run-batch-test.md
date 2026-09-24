@@ -1,18 +1,18 @@
 ---
-title: Run a multi-model batch test
+title: \(Legacy\) Run a multi-model batch test
 description: Test multiple Natural Language Understanding \(NLU\) models against a test set. Evaluate the quality of your models and refine them to improve intent prediction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/run-batch-test.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Multi-model Batch Testing, NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Multi-model Batch Testing, \(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Run a multi-model batch test
+# \(Legacy\) Run a multi-model batch test
 
 Test multiple Natural Language Understanding \(NLU\) models against a test set. Evaluate the quality of your models and refine them to improve intent prediction.
 
@@ -20,7 +20,7 @@ Test multiple Natural Language Understanding \(NLU\) models against a test set. 
 
 -   Make sure that the NLU Workbench - Core plugin, NLU Workbench plugin, NLU Workbench - Advanced Features plugin and Predictive Intelligence plugin are all installed and activated.
 -   Have one or more trained models for Virtual Agent or AI Search.
--   Have a test set containing test utterances with expected intents. See [Create a test set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/import-batch-test-set.md) or [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
+-   Have a test set containing test utterances with expected intents. See [\(Legacy\) Create a test set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/import-batch-test-set.md) or [\(Legacy\) Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 -   Role required: nlu\_admin or admin. When assigned to a model, the nlu\_editor role can run tests and modify test utterances for that model.
 
 ## About this task
@@ -33,7 +33,7 @@ When testing multiple models, your test set must cover at least 25% of the total
 
 **Note:** If an expected intent in your test set doesn't match any intent in your models, that expected intent and its test utterances are skipped. They aren't counted or displayed in test results.
 
-To test a single model against its default test set, use the **Test and publish your model** phase on the model's overview page. For more information, see [Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/testing-your-model.md).
+To test a single model against its default test set, use the **Test and publish your model** phase on the model's overview page. For more information, see [\(Legacy\) Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/testing-your-model.md).
 
 ## Procedure
 
@@ -60,5 +60,5 @@ When the batch test is finished, its Status changes to **Done**. You can click t
 
 Use the results to adjust and improve your models. Then, run the test again to assess the performance.
 
-Batch testing may affect confidence threshold recommendations. For more information, see [NLU model settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-model-settings.md).
+Batch testing may affect confidence threshold recommendations. For more information, see [\(Legacy\) NLU model settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-model-settings.md).
 

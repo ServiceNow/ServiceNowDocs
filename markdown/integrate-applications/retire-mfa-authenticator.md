@@ -3,9 +3,9 @@ title: Retire an MFA authenticator in RPA Hub
 description: Retire a multi-factor authentication \(MFA\) authenticator in RPA Hub so that you can turn off the authentication. After you retire an MFA authenticator, it can’t be used again.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/retire-mfa-authenticator.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Credential Management, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,13 +16,13 @@ Retire a multi-factor authentication \(MFA\) authenticator in RPA Hub so that yo
 
 ## Before you begin
 
-Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mfa-landing.md).
+Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/mfa-landing.md).
 
-Familiarize yourself with the TOTP authentication in RPA Hub. For more information, see [TOTP authentication in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/totp-authentication-rpa.md).
+Familiarize yourself with the TOTP authentication in RPA Hub. For more information, see [TOTP authentication in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/totp-authentication-rpa.md).
 
 You must do this task in the classic environment.
 
-Create an MFA authenticator record. For more information, see [Create an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-mfa-authenticator-rpa.md).
+Create an MFA authenticator record. For more information, see [Create an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-mfa-authenticator-rpa.md).
 
 Verify that the MFA authenticator record isn’t associated to a bot process whose life-cycle stage status is **Build**, **Published**, or **Retired**. If it's not associated to one of those statuses, dissociate it to retire the MFA authenticator.
 
@@ -42,5 +42,5 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 **Related topics**  
 
 
-[Retire a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/retire-bot-process.md)
+[Retire a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/retire-bot-process.md)
 

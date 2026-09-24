@@ -3,9 +3,9 @@ title: Grouped lists
 description: Grouping aggregates a list by a field and displays the record count per group. Grouping can help you find data quickly by organizing and providing a summary of search or filter results.You can find information by grouping a list by a particular field. After grouping items in a list, several options let you focus on a particular group or set of groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_GroupedLists.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ For example, this picture shows active incidents grouped by caller.
 -   The record count for each group appears next to the group name.
 -   The total number of items in the list \(all groups combined\) appears near the paging controls in the list. This total displays only when the list is grouped on a field.
 
-**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UseLists.md)
 
 ## Use a grouped list
 
@@ -44,7 +44,7 @@ Role required: none
 
 2.  Use any of the following actions to expand the groups.
 
-<table id="choicetable_rlj_z3z_pv"><tbody><tr><td id="d89831e182">
+<table id="choicetable_rlj_z3z_pv"><tbody><tr><td id="d89978e182">
 
 **To expand or collapse a group**
 
@@ -52,7 +52,7 @@ Role required: none
 
 Click the arrow \(\[Omitted image "Arrow.png"\] Alt text: Arrow icon\) next to the group name.
 
-</td></tr><tr><td id="d89831e197">
+</td></tr><tr><td id="d89978e197">
 
 **To expand or collapse all groups**
 
@@ -60,7 +60,7 @@ Click the arrow \(\[Omitted image "Arrow.png"\] Alt text: Arrow icon\) next to t
 
 Click the arrow at the top of the list.
 
-</td></tr><tr><td id="d89831e206">
+</td></tr><tr><td id="d89978e206">
 
 **To open the full list for a group**
 
@@ -68,7 +68,7 @@ Click the arrow at the top of the list.
 
 Click the group name.
 
-</td></tr><tr><td id="d89831e215">
+</td></tr><tr><td id="d89978e215">
 
 **To see all records for a given group**
 

@@ -3,11 +3,11 @@ title: Run Certificate Discovery via URL scans in Discovery Admin Workspace
 description: Create a certificate Discovery schedule in the Discovery Admin Workspace to collect certificates from specific URLs rather than from ports found during IP-based Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/daw-discover-certs-url.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
@@ -47,8 +47,8 @@ URL scan discovery visits each URL that you list and collects the certificate se
 
     |Option|Description|
     |------|-----------|
-    |**Use a cluster of MID servers**|Select an existing MID Server cluster from the drop-down list. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md) for more information.|
-    |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.|
+    |**Use a cluster of MID servers**|Select an existing MID Server cluster from the drop-down list. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md) for more information.|
+    |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.|
     |**Search for a MID server**|Select an existing MID Server from the drop-down list. Only MID Servers that are validated and up are displayed.|
 
 7.  Select **Next**.
@@ -76,6 +76,6 @@ URL scan discovery visits each URL that you list and collects the certificate se
     |**Finish and run**|After you select this option, all the information you provided is validated. Then, a Discovery schedule is created in the background, a Discovery status is created, and the schedule is run. You're redirected to the Status Details page for the schedule.|
     |**Finish**|After you select this option, all the information you provided is validated. A Discovery schedule is created and you're redirected to its entry in the Discovery Schedules \[discovery\_schedule\] table. You can edit the schedule information or run it by selecting **Discover Now**.|
 
-    -   If you selected **Finish and Run**, Discovery visits each selected URL and collects its certificate. You're redirected to the [Status details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-disco-status-details.md) page for the schedule.
-    -   If you selected **Finish**, you're redirected to the [Schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_daw-disco-schedule-details.md) page for the schedule.
+    -   If you selected **Finish and Run**, Discovery visits each selected URL and collects its certificate. You're redirected to the [Status details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-disco-status-details.md) page for the schedule.
+    -   If you selected **Finish**, you're redirected to the [Schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_daw-disco-schedule-details.md) page for the schedule.
 

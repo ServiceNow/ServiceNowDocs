@@ -3,11 +3,11 @@ title: Machine Identity Console
 description: Manage your service accounts which are used for integrations with ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/machine-identity-console.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity]
 ---
@@ -20,15 +20,15 @@ Machine identities are digital identities that interact with systems and data. T
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/explore-machine-identity-console.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/explore-machine-identity-console.md)
 
- [Learn the features and business value of Machine Identity Console.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/explore-machine-identity-console.md)
+ [Learn the features and business value of Machine Identity Console.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/explore-machine-identity-console.md)
 
 </td><td>
 
-[Activate\[Omitted image "bus-optimize-manage.svg"\] Alt text: Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/activate-machine-identity-console.md)
+[Activate\[Omitted image "bus-optimize-manage.svg"\] Alt text: Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/activate-machine-identity-console.md)
 
- [Understand how to Activate Machine Identity Console.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/activate-machine-identity-console.md)
+ [Understand how to Activate Machine Identity Console.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/activate-machine-identity-console.md)
 
 </td><td>
 

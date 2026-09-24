@@ -3,11 +3,11 @@ title: Cancel a purchase order
 description: You can cancel purchase orders with a status of Requested, Ordered, or Pending Delivery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_CancelAPurchaseOrder.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Asset Management common applications, IT Service Management]
 ---
@@ -35,5 +35,5 @@ Purchase order line items can also be canceled from a purchase order.
     All associated purchase order line items that have not been received are canceled. Any assets created for the purchase order are deleted.
 
 
-**Parent Topic:**[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_CreateAPurchaseOrder.md)
+**Parent Topic:**[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/procurement/t_CreateAPurchaseOrder.md)
 

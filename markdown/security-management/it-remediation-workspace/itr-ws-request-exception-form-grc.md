@@ -3,11 +3,11 @@ title: Request exception form fields for policy exceptions
 description: The following table shows the fields that you must fill on the Request exception form for policy exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/itr-ws-request-exception-form-grc.html
-release: australia
+release: brazil
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
@@ -54,7 +54,7 @@ Valid until
 
 </td><td>
 
-Date that the policy exception expires and the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid can't exceed the value in the **Maximum exception duration \(days\)** field that you set for the policy. For more information, see [Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/t_DefineAPolicy.md).
+Date that the policy exception expires and the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid can't exceed the value in the **Maximum exception duration \(days\)** field that you set for the policy. For more information, see [Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_DefineAPolicy.md).
 
 </td></tr><tr><td>
 
@@ -76,5 +76,5 @@ Details related to the reason this exception is being requested. This field must
 </table>**Related topics**  
 
 
-[Request an exception using GRC: Policy and Compliance Management in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-request-exception-grc.md)
+[Request an exception using GRC: Policy and Compliance Management in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/it-remediation-workspace/vr-ws-request-exception-grc.md)
 

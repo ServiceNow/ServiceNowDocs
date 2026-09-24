@@ -3,9 +3,9 @@ title: Module keys for Field Encryption
 description: The Module Keys tab shows you summary level information about your Field Encryption Data Encryption Key\(s\). You can view the Key alias, Key type, Algorithm, Key lifecycle state, and Key version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/fe-module-keys.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -47,5 +47,5 @@ Information on your module keys is displayed on the module key record in the fie
 |Future destruction date|When the Module Key will be destroyed.|
 |Key lifecycle state|Current the state of the Module Key.|
 
-**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-column-level-encryption.md)
 

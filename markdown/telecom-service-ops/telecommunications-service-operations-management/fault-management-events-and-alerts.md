@@ -3,11 +3,11 @@ title: Fault Management: Events and alerts
 description: Fault Management supports the monitoring, detection, and resolution of configuration and performance issues across SD-WAN-managed network devices. It integrates with Event Management to generate alerts and track events automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/fault-management-events-and-alerts.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
@@ -37,8 +37,8 @@ Event rules and alert suppression give you control over how alerts are generated
 
 For instructions on how to configure Event Management solutions, see the following documentation:
 
--   [Configure a webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-fault-management.md)
--   [Configure a metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-an-event-pull-connector.md)
--   [Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
--   [Fortinet installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/fortinet-installed-integrations.md)
+-   [Configure a webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-fault-management.md)
+-   [Configure a metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-an-event-pull-connector.md)
+-   [Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
+-   [Fortinet installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/fortinet-installed-integrations.md)
 

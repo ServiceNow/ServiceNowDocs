@@ -3,9 +3,9 @@ title: Pool Replication Lag
 description: Pool replication lag is the number of seconds that a Standby database or a read replica database lags behind the primary database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-pool-replica-lag.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -18,7 +18,7 @@ This may be an indication that a transaction committed on the primary may not ye
 
 This number should ideally always be 0; however, a non-zero value usually indicates some workload that is performing an excessive amount of inserts, updates, and deletes to the database, causing a delay in processing the transaction bin logs on the standby or read replica database.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Cleaning up token Expiry
 description: Details about how to clean up token expiry by using different system properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/token-expiry-api-and-hmac.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API Key and HMAC Authentication for inbound REST APIs, Token-based authentication, API Authentication, Authentication, Access Management]
 ---

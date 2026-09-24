@@ -3,11 +3,11 @@ title: Create document template form
 description: Learn about the fields on the Create New Document Template form of the Project Workspace. Use this form to create a status report or docs template according to your requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-new-document-template-form.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -27,10 +27,10 @@ Learn about the fields on the Create New Document Template form of the Project W
 |Is dynamic|Option to insert dynamic project data for dynamic content in docs using this template.|
 |Attachments|Attachments to the template.|
 
-**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
+**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
 
 **Related topics**  
 
 
-[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 

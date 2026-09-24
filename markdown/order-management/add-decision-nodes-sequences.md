@@ -3,9 +3,9 @@ title: Add decision nodes to a sequence
 description: Activate the next stage in the playbook based on the outcome of the previous stage by adding decision nodes while creating or updating a sequence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/add-decision-nodes-sequences.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create sequences, Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -18,7 +18,7 @@ Activate the next stage in the playbook based on the outcome of the previous sta
 
 **Note:** Decision-based stages and the demo data are available only starting with Playbook version 28.3 on the Zurich release. The sample Lead nurturing tele-sales sequence available with the demo data shows how to configure a decision-based, telesales sequence with the schedule call activity.
 
-Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/grant-delegated-developer-permissions.md).
+Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/grant-delegated-developer-permissions.md).
 
 Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
@@ -26,7 +26,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -44,7 +44,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
     For example, if you want the agent accessing the workflow to wait two days before calling the prospective lead or customer again, you would set Duration type to **Explicit duration** and set **Days** to `2`.
 
-    For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/start-with-delay-properties.md).
+    For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/start-with-delay-properties.md).
 
 8.  Under the Branches tab, expand New branch and enter a unique name for the branch in the **Branch label** field.
 
@@ -52,19 +52,19 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
     For example, to execute the branch when the outcome of the previous call attempt was unsuccessful, you would set the condition **\[Schedule call &gt; Output &gt; State\]****\[is\]****\[Cancelled\]**.
 
-    For more information, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-a-decision-activity.md).
+    For more information, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-a-decision-activity.md).
 
 10. Select **Save and close**.
 
 
 ## What to do next
 
-Add a stage for the new branch you created earlier, and repeat the steps to add more activities as needed. For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/add-configure-stage.md).
+Add a stage for the new branch you created earlier, and repeat the steps to add more activities as needed. For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/add-configure-stage.md).
 
-**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-customer-engagement-sequence.md)
+**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-customer-engagement-sequence.md)
 
 **Related topics**  
 
 
-[Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-decision-stage.md)
+[Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-decision-stage.md)
 

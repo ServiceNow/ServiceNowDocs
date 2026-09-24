@@ -3,9 +3,9 @@ title: Customer and service order line items forms
 description: The Order Line Items form enables you to select, review, and modify the captured customer or service order line items.The order line items form line item details section enables you to review and modify general details for a customer or service order line item.The Order Line Items form - dates section enables you to review and modify crucial date details for a customer order line item.The Order Line Items form - shipping address details section enables you to review and modify the shipping details for a customer order line item.The Order Line Items form - notes section enables you to review and modify the additional details for a customer order line item.The Order Line Related Items form enables you to review, create, and modify the related items for a customer order line item.OM revamp project - This table has been moved from the order-mgt-review-update-order-line-related-item.dita topic as we're deprecating that topic and removing it from the SOM bundle.The Price Adjustments tab on the order line item details enables you to review and modify manual price adjustments applied to an order line item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/field-descriptions-customer-order-line-items.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Order Management reference, Reference, Sales Customer Relationship 
 
 The Order Line Items form enables you to select, review, and modify the captured customer or service order line items.
 
-**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-reference.md)
 
 ## Order Line items form - Details fields
 
@@ -84,9 +84,9 @@ State
 
 </td><td>
 
-Indicator of the current processing state for this customer order line item. Unless indicated, the service order manager manually assigns the appropriate state to the service order line item, depending on where it resides in your processing and fulfillment cycle. To view a listing of the state selections, select the down arrow icon \[Omitted image "field-selection-list.png"\] Alt text:. **Note:** To view a comprehensive listing of the customer order line item states with detailed descriptions, see [Order line item form states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-state-values.md).
+Indicator of the current processing state for this customer order line item. Unless indicated, the service order manager manually assigns the appropriate state to the service order line item, depending on where it resides in your processing and fulfillment cycle. To view a listing of the state selections, select the down arrow icon \[Omitted image "field-selection-list.png"\] Alt text:. **Note:** To view a comprehensive listing of the customer order line item states with detailed descriptions, see [Order line item form states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-state-values.md).
 
-For service order line item states, see [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/service-order-mgt-state-values.md).
+For service order line item states, see [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/service-order-mgt-state-values.md).
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Type of action that is taking place in the order line item. The available option
 -   Resume
 -   No change
 
- For more information, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md).
+ For more information, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-customer-order-types.md).
 
 </td></tr><tr><td>
 

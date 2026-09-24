@@ -3,9 +3,9 @@ title: Enable links to records
 description: Adding the special $\{URI\} parameter to an outbound email body or template creates a link to a specific record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_EnableLinksToServiceNowRecords.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Links to records, Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -40,5 +40,5 @@ current.assigned_to.nil()
 
 Additionally, the script sets the view to incident\_active.
 
-**Parent Topic:**[Links to records in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EnablingLinksToServiceNowRecords.md)
+**Parent Topic:**[Links to records in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EnablingLinksToServiceNowRecords.md)
 

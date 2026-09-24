@@ -3,14 +3,14 @@ title: Convert a service instance to Lightweight Service Model
 description: Convert a Service Mapping service instance to Lightweight to minimize storage footprint and optimize performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/convert-service-instance-lightweight.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-08-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [service mapping, lightweight service, convert service, service architecture]
-breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Convert a service instance to Lightweight Service Model
@@ -34,7 +34,7 @@ Supported service types for conversion:
 -   Dynamic
 -   Tag-based
 
-For detailed information on the Lightweight Service Model, see [Service Mapping Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-lightweight-service-model.md).
+For detailed information on the Lightweight Service Model, see [Service Mapping Lightweight Service Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/sm-lightweight-service-model.md).
 
 ## Procedure
 
@@ -58,6 +58,4 @@ For detailed information on the Lightweight Service Model, see [Service Mapping 
 ## Result
 
 The service operates under the Lightweight Service Model.
-
-**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
 

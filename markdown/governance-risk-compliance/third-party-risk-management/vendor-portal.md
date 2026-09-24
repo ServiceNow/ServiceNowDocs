@@ -3,12 +3,12 @@ title: Managing the Third-party portal
 description: Third-party contacts respond to questionnaires, requests for documentation, tasks, and issues on the Third-party portal. The portal is the point of interaction between third parties and risk assessors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/vendor-portal.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -18,128 +18,175 @@ Third-party contacts respond to questionnaires, requests for documentation, task
 
 ## Third-party contacts
 
-Third-party contacts are the individuals that represent the third party. By using the third-party portal, they can respond to questionnaires, work on tasks, and address issues that your third-party risk assessment team raises. Third-party contacts are either primary or secondary contacts. The primary contact is the assigned individual who receives the assessment questionnaires. Each third party must have at least one primary contact. The Third-party editor \[vendor\_editor\], Third-party Risk \(TPR\) manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\], TPR assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\], or the primary contact can create third-party contacts.
+Third-party contacts represent the third party and use the third-party portal to respond to questionnaires, complete tasks, and address issues raised by your assessment team. Contacts can be primary or secondary.
 
-You assign the **primary contact** responsibility to the third-party contact who can directly answer assessment questions or assign another contact at the third party to answer the questions. Primary contacts can manage other contacts for the third party.
+Each third party must have at least one primary contact. Primary contacts coordinate questionnaire responses, manage portal access, and can assign work to other contacts. Secondary contacts typically respond to assigned work and have limited access.
 
-Third-party contacts are automatically assigned two roles: vendor\_contact and snc\_external. The vendor\_contact role provides third-party contacts with access to the Third-party portal, while the snc\_external role is a safeguard that restricts access only to the portal. The snc\_external role helps prevent any unauthorized entry into your instance. For more information, see [Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md).
+Contacts can exist at two levels:
 
-**Note:** Third-party contacts see your organization's name in all references on the Third-party portal. You specify the name in the `sn_vdr_risk_asmt.company.name` property setting. See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+-   Third party-level contacts, who support the overall vendor organization
+-   Engagement-level contacts, who participate in specific engagements
 
-## Tasks for third-party contacts
+Third-party contacts are automatically assigned the `vendor_contact` and `snc_external` roles. The `vendor_contact` role provides access to the third-party portal, and the `snc_external` role restricts access to the portal only.
 
-The primary third-party contact can perform the following tasks:
-
--   Delegate questionnaires, tasks, and issues to other third-party contacts.
--   View and update the third-party contact information.
--   Update the notification preferences.
-
-Secondary third-party contacts can use the portal to perform the following tasks:
-
--   View and respond to "assigned to me" assessments.
--   Change a password or request a new password.
-
-**Important:** The third-party contact role should be used only for external contacts. The role prohibits access to the ServiceNow AI Platform and grants access only to the Third-party portal.
-
-Third-party contacts see the portal as shown in the following example.
-
-\[Omitted image "vrm-assessment-portal.png"\] Alt text: Third-party portal as seen by a third-party contact.
-
-**Note:**
-
-Issue indicators appear in the third-party portal only after an issue has been submitted to the third party and the **Visible in third-party portal** field is selected on the issue record. Before submission, the indicator is not visible in the portal even if the field is selected.
-
-Engagement assessment counts in the third-party portal include only active, pending, and in-progress assessments; inactive and cancelled assessments are excluded from the count.
-
-In the third-party portal, the comments field saves automatically when you move focus away from the field, so you do not need to select a save action after entering comments.
-
-## Questionnaire and document request states
-
-Progress is tracked in assessment requests and the progress is indicated by the state of the requests within the questionnaires and document requests. Here are the possible states for requests.
-
--   **New**
-
-    After questionnaires and document requests are sent out, they are in the **New** state.
-
--   **In progress**
-
-    After the third-party or engagement contact has started providing responses in a questionnaire or document request, the requests is in the **In progress** state.
-
--   **Completed**
-
-    After the third-party or engagement contact has provided responses for all questions in a questionnaire or document request and saved, the request is in the **Completed** state.
-
-    **Note:** After all requests have entered the Completed state, you must return to the assessment page and submit the assessment.
-
-
-## Responding to questionnaires using a Microsoft Excel template
-
-Third-party contacts can use a Microsoft Excel template to respond to questionnaires by downloading the template, completing it, and importing the final version into the Third-party portal. The Microsoft Excel questionnaire template contains instructions for filling out the template. This enables third-party contacts to provide information outside the third-party portal, streamlining the due diligence process. For more information, see [Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md) and [Respond using a Microsoft Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-excel.md).
-
-## Responding to assessments using a SIG questionnaire
-
-Third parties can use the Shared Assessments Standardized Information Gathering questionnaire \(SIG\) to provide assessment documentation in the Third-party Risk Management application. The third-party contact can upload the pre-filled SIG spreadsheet or respond to a form-based questionnaire that is imported to the instance. For more information, see [Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md) and [Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md).
-
-**Note:** Third-party contacts can reassign a questionnaire to another team member by selecting the more actions menu icon \[Omitted image "context-menu-db-element-ac.png"\] Alt text: and selecting **Reassign**. After reassigning the questionnaire, they lose access to the questionnaire.
-
-Third-party contacts can only reassign to other Third-party contacts for the same third party or engagement. TPR assessors can reassign to other TPR assessors or Third-party contacts for the third party being assessed.
+**Important:** The third-party contact role is designed only for external users and restricts access to the third-party portal.
 
 ## Launching the portal
 
-Third-party contacts launch the portal by using **\[your instance URL\]/svdp**\).
+Third-party contacts access the portal using **\[your instance URL\]/svdp**.
+
+## Tasks for third-party contacts
+
+Primary contacts can perform the following tasks:
+
+-   Delegate questionnaires, tasks, and issues to other contacts
+-   Manage contact and engagement assignments
+-   Update contact information and notification preferences
+
+Secondary contacts can:
+
+-   View and respond to assigned assessments
+-   Participate in questionnaires and tasks assigned to them
+-   Manage their account access
+
+**Note:**
+
+Issue indicators appear in the third-party portal only after an issue is submitted and the **Visible in third-party portal** field is selected.
+
+Assessment counts include only active, pending, and in-progress assessments. Cancelled and inactive assessments are excluded.
+
+The comments field saves automatically when focus moves away from the field.
+
+## Questionnaire and document request states
+
+Progress in questionnaires and document requests is tracked through request states:
+
+-   **New**
+
+    The request is sent to the third party.
+
+-   **In progress**
+
+    Responses are being entered.
+
+-   **Completed**
+
+    All responses are completed.
+
+    **Note:** You must submit the assessment after all requests are complete.
+
+    For more information on states, see [External assessment lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md).
+
+
+## Responding to questionnaires
+
+Third-party contacts respond to questionnaires and document requests assigned to them in the portal. They can provide responses, upload supporting documentation, and track progress.
+
+Contacts can respond directly in the portal or by using a Microsoft Excel template or SIG questionnaire format.
+
+For information on responding to a questionnaire, see [Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md).
 
 ## Learning to use the portal—the FAQ page
 
-Third-party contacts can select **FAQ** to view answers to common questions, such as how to invite additional users to the portal and how to assign primary contacts to third-party or engagement records.
+Third-party contacts can select **FAQ** to view answers to common questions about using the portal.
 
-## Managing third-party contacts
+## Setting up the third-party portal \(Admin\)
 
-Users in your organization with the TPR assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\] use TPRM to manage the following third-party contact activities:
+ServiceNow administrators and TPR managers use TPRM to set up and manage third-party contacts in your instance. Admin responsibilities include:
 
--   Create a login for a new third-party contact.
--   Enable or disable a third-party contact login.
--   Reset a password for a third-party contact.
--   Assign a user role to a third-party contact.
--   Assign a third-party contact to an assessment.
--   View and update the customer contact information.
--   Access the completed assessments.
+-   Create contact records and manage contact logins
+-   Enable or disable portal access
+-   Reset passwords and resend invitations
+-   Assign roles and permissions
+-   Manage contact information and account status
 
-For more information, see [Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md) and [Manage the access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md).
+For step-by-step guidance, see the following admin tasks:
 
-**Note:** If necessary, you can respond on behalf of third parties or engagements to questionnaires. See [Respond to a questionnaire for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-respond-for-tp.md) for more information.
+-   [Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md) — Create and configure contact records in the admin interface
+-   [Manage access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md) — Manage access, deactivate accounts, reset passwords, and resend invitations
 
-The **Allow assessors to answer/edit questionnaires for third-party contacts** property \(**sn\_svdp.allow\_assessor\_edit**\) must be active. For more information on configuring this property, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+**Note:** You can respond on behalf of third-party contacts if the **sn\_svdp.allow\_assessor\_edit** property is enabled.
 
-## Assessment assignments
+## Using the third-party portal \(Contact\)
 
-Third parties and engagements can each have more than one primary or secondary contact. A third party can have multiple contacts, but each contact belongs to only one third party. Engagements are more flexible; an engagement can include many contacts, and a single contact can participate in multiple engagements. These relationships determine how external assessments are assigned in the Classic assessment engine and the Smart Assessment Engine.
+Third-party contacts \(external users\) use the third-party portal to manage questionnaires, invite team members, and coordinate assessment responses. Contact tasks include:
 
-External assessments are always assigned to primary contacts. When multiple primary contacts exist, the system automatically selects the alphabetically first primary contact as the initial assignee. The rules for who else is assigned and who can submit depend on which assessment engine your organization uses.
+-   Invite new team members to the portal
+-   Assign contacts to engagements
+-   Manage questionnaire contributors and ownership
+-   Respond to questionnaires and submit assessments
+-   Deactivate inactive team members
 
--   **Classic assessment engine**
+For step-by-step guidance, see the following contact tasks:
 
-    When a Classic external assessment is generated for a third party or engagement, the system assigns the questionnaire to only one primary contact—the alphabetically first primary contact. Classic assessments don’t designate a questionnaire owner; the assigned primary contact can complete and submit the questionnaire.
+-   [Third-party portal contact roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-contact-roles.md) — Understand contact role types and permissions
+-   [Questionnaire ownership and contributor access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-questionnaire-ownership.md) — Learn about questionnaire ownership and contributor access
+-   [Invite a contact to the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-invite-contact.md) — Invite new team members to the portal
+-   [Assign a contact to an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-assign-engagement-contact.md) — Assign contacts to engagements
+-   [Manage questionnaire contributors and ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-manage-contributors.md) — Manage questionnaire contributors and reassign ownership
+-   [Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md) — Respond to and submit questionnaires
+-   [Deactivate a third-party portal contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-deactivate-contact.md) — Deactivate team members
 
--   **Smart Assessment Engine**
+## Assessment assignment behavior by engine
 
-    Smart assessments assign the questionnaire to all primary contacts of the third party or engagement. However, the Smart Assessment Engine introduces a questionnaire owner. The questionnaire owner is the alphabetically first primary contact and is responsible for submitting the assessment once all responses are complete.
+Assignment and submission behavior for questionnaires differs depending on whether your organization uses the Classic assessment engine or Smart Assessment Engine \(SAE\). This section explains how each engine assigns questionnaires to primary contacts and how submission works.
 
-    -   The owner is selected automatically in alphabetical order by name.
-    -   The owner is the only primary contact who can submit the questionnaire.
-    -   Other primary contacts can respond to questions but can’t submit unless ownership is reassigned.
-    **Note:** If needed, the owner can reassign the questionnaire using the **Reassign** option in the questionnaire’s more actions menu. After reassignment, the previous owner loses access.
+## Classic assessment engine
 
-    Third-party contacts can only reassign to other Third-party contacts for the same third party or engagement. TPR assessors can reassign to other TPR assessors or Third-party contacts for the third party being assessed.
+In Classic environments, when a questionnaire is generated for a third party or engagement, the system assigns the questionnaire to a single primary contact based on alphabetical order. That contact is responsible for completing and submitting the questionnaire.
 
+Secondary contacts and other primary contacts do not automatically receive the questionnaire and cannot submit it on behalf of the assigned contact.
+
+## Smart Assessment Engine \(SAE\)
+
+In SAE environments, questionnaire assignment and submission work differently than in Classic:
+
+-   All primary contacts are automatically assigned to the questionnaire.
+-   The system designates one primary contact as the questionnaire owner, typically based on alphabetical order by last name.
+-   The questionnaire owner is responsible for submitting the questionnaire and managing contributor access.
+-   Other primary contacts are added as questionnaire contributors.
+
+For detailed information on the questionnaire owner and contributor roles, permissions, and how to manage them, see the following topics:
+
+-   [Questionnaire ownership and contributor access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-questionnaire-ownership.md) — Explains the owner and contributor model and how to reassign ownership or manage contributors
+-   [Manage questionnaire contributors and ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-manage-contributors.md) — Step-by-step guidance on managing contributors
+
+**Important:**
+
+Questionnaire owner and contributor behavior applies only to SAE assessments. Classic assessments do not use this model.
 
 **Related topics**  
 
 
-[E-signatures on questionnaires or document requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-approve-with-e-sig.md)
+[Set up third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.md)
 
-[Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md)
+[Manage access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md)
 
-[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
+[Third-party portal contact roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-contact-roles.md)
 
-[TPRM and the Explicit Roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vrm-and-explicit-roles-plugin.md)
+[Questionnaire ownership and contributor access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-questionnaire-ownership.md)
+
+[Invite a contact to the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-invite-contact.md)
+
+[Assign a contact to an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-assign-engagement-contact.md)
+
+[Manage questionnaire contributors and ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-manage-contributors.md)
+
+[Deactivate a third-party portal contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-deactivate-contact.md)
+
+[Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md)
+
+[Upload and manage documents in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-document-portal.md)
+
+[Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md)
+
+[Respond using a Microsoft Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-excel.md)
+
+[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
+
+[Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md)
+
+[TPRM and the Explicit Roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vrm-and-explicit-roles-plugin.md)
+
+[E-signatures on questionnaires or document requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-approve-with-e-sig.md)
 

@@ -3,11 +3,11 @@ title: Create a connected Zoom application
 description: Create a connected application in your Zoom account to establish an OAuth 2.0 level of authentication between the Zoom APIs and the DEX for Zoom on the ServiceNow AI Platform. After creating the connected app, you can add scopes that enable you to perform different actions from the DEX for Zoom.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/create-a-connected-zoom-app.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring DEX for Zoom, Configure, Digital End-User Experience, IT Service Management]
 ---

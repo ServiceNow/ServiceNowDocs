@@ -3,11 +3,11 @@ title: Explore Self-register
 description: Use external user self-registration to on-board a large volume of external users to your instance. This feature enhances identity verification to improve customer experiences and supports commonly used registration flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/explore-self-register.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Self-register to ServiceNow instance, Authentication, Access Management]
 ---

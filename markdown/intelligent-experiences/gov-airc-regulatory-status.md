@@ -3,12 +3,12 @@ title: Reviewing regulatory classification and compliance status
 description: Review regulatory risk classification and compliance posture to understand how AI assets align with configured governance expectations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-regulatory-status.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [use]
-breadcrumb: [Governance posture and compliance, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Governance posture and compliance, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Reviewing regulatory classification and compliance status
@@ -25,7 +25,7 @@ AI assets refer to the various components and resources that are essential for t
 2.  AI models: The mathematical and computational models that are trained on data to perform specific tasks. These models can range from simple linear regression models to complex deep learning neural networks.
 3.  AI datasets: The collections of data used to train, validate, and test AI models.
 
-For more information, see [AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-system-airc.md), [AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-model-airc.md), and [Datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/dataset-airc.md).
+For more information, see [AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-system-airc.md), [AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-model-airc.md), and [Datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/dataset-airc.md).
 
 At the portfolio level, you can get a snapshot view of the regulatory risk classification for your AI portfolio. This classification groups AI assets into categories such as unacceptable, high, medium, and low. Compliance views show an overall compliance score and framework-related posture for authority documents or policies.
 
@@ -38,7 +38,7 @@ How this is calculated:
 -   Managed assets: The risk level shown for an asset comes from the `risk_score` field on the asset's governance details record. This field is populated when the asset's regulatory risk classification assessment completes, and the widget reflects that value in real time on every page load.
 -   Unmanaged assets: The risk level shown for an unmanaged asset comes from the **Use &amp; purpose** field on the asset's governance details record.
 
-\[Omitted image "aict-govern-regulatory-risk-classification.png"\] Alt text:
+\[Omitted image "image.aict-govern-regulatory-risk-classification"\] Alt text:
 
 ## Compliance score
 
@@ -62,7 +62,7 @@ Compliance score calculation:
 
 The authority documents are provided solely for informational and guidance purposes to assist with the initial setup of AI Risk and Compliance frameworks. It doesn't constitute legal advice or assurance of regulatory compliance. You're solely responsible for ensuring that all use of the content complies with applicable laws, regulations, directives, and industry standards in their jurisdictions.
 
-\[Omitted image "aict-govern-compliance-score.png"\] Alt text:
+\[Omitted image "image.aict-govern-compliance-score"\] Alt text:
 
 ## How data is determined
 

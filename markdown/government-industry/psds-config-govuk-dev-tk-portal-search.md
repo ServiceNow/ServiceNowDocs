@@ -3,10 +3,10 @@ title: Configure GDS Service Portal Search Widgets
 description: Configure and use search widgets for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.Configure search for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.Configure the ServiceNow AI Search application for GDS Service Portal so that portal users can take advantage of intelligent query features and find the answers they need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-search.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-02"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -22,7 +22,7 @@ You can also configure **Typeahead** search settings to allow search results to 
 
 Enable AI Search to take advantage of intelligent query features and allow constituents to find the answers they need.
 
-**Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
+**Parent Topic:**[Configure GOV.UK Developer Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-dev-toolkit.md)
 
 ## Configure search sources in GDS Service Portal
 
@@ -42,7 +42,7 @@ A search source is a record that describes the behavior and source of searchable
 -   Whether search suggestions can populate the search field based on user input.
 -   How a search entry displays in the search result page.
 
-Search sources have basic and advanced configurations. A basic search source configuration allows you to define a table or other source \(such as a knowledge base\) within your instance as a source of searchable data for the search source to query and return results from. An advanced configuration uses a data fetch script that will fetch data from multiple tables or from any number of sources on the web, and return a data result array to the search widget. For information on how to configure an advanced search source that pulls data from external tables or sources, see [Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/search-sp-advanced-ext-kb.md).
+Search sources have basic and advanced configurations. A basic search source configuration allows you to define a table or other source \(such as a knowledge base\) within your instance as a source of searchable data for the search source to query and return results from. An advanced configuration uses a data fetch script that will fetch data from multiple tables or from any number of sources on the web, and return a data result array to the search widget. For information on how to configure an advanced search source that pulls data from external tables or sources, see [Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/search-sp-advanced-ext-kb.md).
 
 By default, the GDS Service Portal has the following search sources configured. This means that when a constituent searches for something using the search widget on the portal, the widget will display results from these three sources, with an option to filter by source.
 
@@ -106,7 +106,7 @@ Search page template
 
 </td><td>
 
-The HTML template that displays the search results. If defining a basic search source, you don't need to change the default template. For an example of a modified template, see [Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/search-sp-advanced-ext-kb.md).
+The HTML template that displays the search results. If defining a basic search source, you don't need to change the default template. For an example of a modified template, see [Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/search-sp-advanced-ext-kb.md).
 
 </td></tr></tbody>
 </table>4.  Complete the fields on the **Data Source** tab.
@@ -135,9 +135,9 @@ Data fetch script
 
 Script defining the endpoint and API calls to fetch data. This field is only visible when **Is scripted source** is selected.
 
- For an example of a data fetch script, see [Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/search-sp-advanced-ext-kb.md).
+ For an example of a data fetch script, see [Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/search-sp-advanced-ext-kb.md).
 
- **Note:** If defining a facet generation script, inject the facets object into the data fetch script and update the script to generate data for each facet item. For an example, see the Knowledge Base and Service Catalog search sources. Search facets may not behave as expected if integrated into an advanced search source that queries data from a non- ServiceNow site.
+ **Note:**  
 
 </td></tr><tr><td>
 
@@ -145,9 +145,9 @@ Facet generation script
 
 </td><td>
 
-Script defining search facets for a scripted search source. Enable your end users to filter search results for a more meaningful result set. This field is only visible when **Is scripted source** is selected.
+Script defining search facets for a scripted search source.  This field is only visible when **Is scripted source** is selected.
 
- **Note:** If defining a facet generation script, inject the facets object into the data fetch script and update the script to generate data for each facet item. For an example, see the Knowledge Base and Service Catalog search sources. Search facets may not behave as expected if integrated into an advanced search source that queries data from a non- ServiceNow site.
+ **Note:**  
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Table
 
 </td><td>
 
-Select a table from the list that you want to draw your results from. You can select any table in the platform.**Note:** Only indexed tables return search results. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-single-table-for-indexing.md).
+Select a table from the list that you want to draw your results from. You can select any table in the platform.**Note:** Only indexed tables return search results. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-single-table-for-indexing.md).
 
 </td></tr><tr><td>
 
@@ -199,7 +199,7 @@ Paginates search results. True by default.
     |Field|Description|
     |-----|-----------|
     |Enable typeahead|Allows typeahead functionality. If you don't want to integrate typeahead into your search source, unselect the check box.|
-    |Advanced typeahead config|Optionally add an advanced typeahead script to configure the way search results display. For more information, see [Create an advanced typeahead template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/advanced-typeahead.md).|
+    |Advanced typeahead config|Optionally add an advanced typeahead script to configure the way search results display. For more information, see [Create an advanced typeahead template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/advanced-typeahead.md).|
     |Typeahead glyph|Adds an icon beside each typeahead result.|
     |Page|Defines the service portal page on which the selected results will be displayed. For example, if **form** is configured, a selected typeahead result opens in a form. If **uk\_gds\_case\_details**is configured, a selected typeahead result opens on the case details page.|
 
@@ -222,7 +222,7 @@ Role required: admin or sp\_admin
 
 AI Search is enabled in Service Portal for all new and zBoot customers by default.
 
-If you're upgrading to Australia as an existing customer, AI Search is inactive in Service Portal by default. You can enable it by updating the portal record.
+If you're upgrading to Brazil as an existing customer, AI Search is inactive in Service Portal by default. You can enable it by updating the portal record.
 
 If you leave AI Search inactive, the portal uses the legacy search experience.
 
@@ -232,34 +232,16 @@ Using AI Search, GDS Service Portal users can find answers with features like au
 
 ### Procedure
 
-1.  Navigate to **Service Portal** &gt; **Portals** and open a portal record.
-
-2.  On the form, select **Enable AI Search**.
-
-3.  In the **Search Application** field, select the search application configuration to use for the portal.
-
-    A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can select a different configuration if needed.
-
-    For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-app-cfgs-ais.md).
-
-4.  In the **Search Results Configuration** field, select the search results configuration to enable for the portal.
-
-    A search results configuration defines how search results are displayed. A search results configuration is selected by default, but you can select a different configuration if needed.
-
-    For more information on defining a search results configuration, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-composite-dataset.md).
-
-5.  Select **Update**.
-
-
+1.  
 ### Result
 
 AI Search is enabled throughout the portal, and constituents can use AI Search the next time they log in.
 
-The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md) and [Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/link-search-source-profile-ais.md).
+The Search Sources related list is hidden from the portal record. You now define search sources in the AI Search application. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-sources-ais.md) and [Link a search source to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/link-search-source-profile-ais.md).
 
 To use AI Search for knowledge articles, you can keep the default **Knowledge Bases** search source or select a custom one.
 
 ### What to do next
 
-Search widgets that you cloned or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/reclassify-search-widgets.md).
+Search widgets that you cloned or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/reclassify-search-widgets.md).
 

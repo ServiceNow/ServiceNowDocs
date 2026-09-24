@@ -3,11 +3,11 @@ title: Publish a custom roadmap theme
 description: Publish a custom roadmap theme so that you can apply it to your roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/publish-custom-roadmap-theme-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring roadmap in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -41,5 +41,5 @@ Your custom theme is now published.
 
 ## What to do next
 
-Apply your custom theme to update the colors displayed in the roadmap. For details, see [Apply a custom theme to roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/apply-custom-theme-for-roadmap-ppw.md).
+Apply your custom theme to update the colors displayed in the roadmap. For details, see [Apply a custom theme to roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/apply-custom-theme-for-roadmap-ppw.md).
 

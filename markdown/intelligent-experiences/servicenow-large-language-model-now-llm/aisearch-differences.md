@@ -3,13 +3,13 @@ title: Discrepancies when using different AI search tools
 description: Different AI search tools may return different answers for the same or similar searches. This difference in results is expected. It occurs because each large language model \(LLM\) uses a different approach to find results and generate answers that match your search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-large-language-model-now-llm/aisearch-differences.html
-release: australia
+release: brazil
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Large language models on the ServiceNow AI Platform, Enable AI experiences]
+breadcrumb: [Large language models, Large language models and providers, Enable AI Experiences]
 ---
 
 # Discrepancies when using different AI search tools
@@ -29,11 +29,11 @@ Because of that, several factors can make the answers vary each time. The factor
 
 Answer generation involves probability, context, and variation. Therefore, responses to the same question can differ slightly each time it is asked, and from provider to provider.
 
-For more information on differences in ServiceNow AI results, see [Search result disparities between AI Search and ServiceNow Otto® search features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-disparities-ai-search-now-assist.md).
+For more information on differences in ServiceNow AI results, see [Search result disparities between AI Search and ServiceNow Otto® search features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-disparities-ai-search-now-assist.md).
 
 ## Now LLM Service response vs. Azure response
 
 \[Omitted image "image.nowllm-vs-azure"\] Alt text: The first image shows the response from Now LLM Service. The second image shows the response from Azure.
 
-**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
+**Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

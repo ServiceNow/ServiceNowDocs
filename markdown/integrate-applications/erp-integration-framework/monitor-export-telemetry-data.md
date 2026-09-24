@@ -3,14 +3,14 @@ title: Export Zero Copy Connector for ERP transaction data
 description: Export Zero Copy Connector for ERP \(Enterprise Resource Planning\) transaction information such as failures and usage. Filter the data as needed and then export to Excel, CSV, JSON, or PDF format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/monitor-export-telemetry-data.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, export, transaction, information, failure, excel, csv, json, pdf]
-breadcrumb: [Monitor transactions, Troubleshooting, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Monitor transactions, Extracting and transforming data, Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Export Zero Copy Connector for ERP transaction data
@@ -43,4 +43,6 @@ Role required: sn\_erp\_integration.erp\_admin
 
 8.  Select **Export**.
 
+
+**Parent Topic:**[Monitor Zero Copy Connector for ERP transactions and logged errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md)
 

@@ -3,9 +3,9 @@ title: Write or edit text in an exploration
 description: Edit text that the AI generated, or share your thoughts in AI Data Explorer by adding text to an exploration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/write-text-exploration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Edit text that the AI generated, or share your thoughts in AI Data Explorer by a
 
 ## Before you begin
 
-To access AI writing tools, the refine text in exploration skill must be activated. For more information, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-aide-explorer.md).
+To access AI writing tools, the refine text in exploration skill must be activated. For more information, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/activate-aide-explorer.md).
 
 Role required: now\_assist\_explorer\_user, and you must own the exploration or have editing rights to it.
 
@@ -34,5 +34,5 @@ When editing your own text, you also have markup options. You can tag a colleagu
 
 \[Omitted image "nowass-expl-text-options.png"\] Alt text: Markup options after typing a forward slash in the text area.
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/use-aide.md)
 

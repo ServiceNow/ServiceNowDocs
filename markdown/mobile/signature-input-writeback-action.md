@@ -3,9 +3,9 @@ title: Configure a scripted writeback action that saves a signature input
 description: Configure an action item's scripted writeback action that can save the signature input in your input form screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/signature-input-writeback-action.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure input form screens with signature inputs, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -16,9 +16,9 @@ Configure an action item's scripted writeback action that can save the signature
 
 ## Before you begin
 
-You must create an input form screen with signature inputs. For more information, see [Configure input form screens with signature inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-signature-inputs.md).
+You must create an input form screen with signature inputs. For more information, see [Configure input form screens with signature inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-signature-inputs.md).
 
-In addition, you must have configured an action item to use for this input form screen. For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
+In addition, you must have configured an action item to use for this input form screen. For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-create-action-item.md).
 
 Role required: admin
 
@@ -28,7 +28,7 @@ Admins can write scripts that perform the action and then save the signature inp
 
 You can use the `MobileSignatureHandler` script include to save signature inputs. The `MobileSignatureHandler` script include saves the signature into the sys\_attachment table and creates a relevant record in the signature\_image table.
 
-You can also write custom code to handle saving your signature inputs. For information about server-side scripting, see [Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md).
+You can also write custom code to handle saving your signature inputs. For information about server-side scripting, see [Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ServerScripting.md).
 
 ## Procedure
 

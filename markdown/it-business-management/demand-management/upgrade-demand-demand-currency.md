@@ -3,11 +3,11 @@ title: Upgrade existing demands
 description: Execute scheduled jobs to upgrade your existing active and inactive demands, respectively, after activating the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/upgrade-demand-demand-currency.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multicurrency, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ Run these scheduled jobs on demand to upgrade your existing active and inactive 
 
 2.  Execute a scheduled job to upgrade your existing active and inactive demands.
 
-<table id="choicetable_ndl_hwg_2nb"><thead><tr><th align="left" id="d340127e82">
+<table id="choicetable_ndl_hwg_2nb"><thead><tr><th align="left" id="d340732e82">
 
 Demand type
 
-</th><th align="left" id="d340127e85">
+</th><th align="left" id="d340732e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d340127e91">
+</th></tr></thead><tbody><tr><td id="d340732e91">
 
 **Active demands**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **Execute Now**
  Executing the job copies all amounts in the cost-related fields of the demands in demand currency. The Baseline, Cost Plan, Cost Plan Breakdown, Benefit Plan, Benefit Plan Breakdown fields are also changed to the demand currency. You can’t edit the demand currency after the values in the functional currency fields are copied to the demand currency fields since the financial costs exist.
 
-</td></tr><tr><td id="d340127e117">
+</td></tr><tr><td id="d340732e117">
 
 **Inactive demands**
 
@@ -64,5 +64,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-demand.md)
+**Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/multicurrency-demand.md)
 

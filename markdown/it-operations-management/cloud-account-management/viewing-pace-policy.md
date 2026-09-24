@@ -3,11 +3,11 @@ title: Review request policies
 description: Review and update request policies to confirm they align with your cloud account request process. These policies enforce data checks and conditions, promoting consistency in creating cloud subscription accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/viewing-pace-policy.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -44,14 +44,14 @@ For each step, an entry is created in the **sn\_itom\_cam\_automation\_activity*
 
 6.  To remove a condition, select the delete icon \[Omitted image "delete-input-icon.png"\] Alt text: Delete.
 
-    **Note:** For more information on managing policies, see [Manage PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-admin-manage-policies.md).
+    **Note:** For more information on managing policies, see [Manage PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-admin-manage-policies.md).
 
 
 ## What to do next
 
 These sections explain how to modify, test, and publish the automation policy.
 
--   [Automate General Approval policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/automate-account-creation-approval.md)
--   [Automate Budget Approval policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/automate-account-budget-approval.md)
--   [Automate Configuration Assignment policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/automate-account-creation-config-assign.md)
+-   [Automate General Approval policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/automate-account-creation-approval.md)
+-   [Automate Budget Approval policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/automate-account-budget-approval.md)
+-   [Automate Configuration Assignment policy process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/automate-account-creation-config-assign.md)
 

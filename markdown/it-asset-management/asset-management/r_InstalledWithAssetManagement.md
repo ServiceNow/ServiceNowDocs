@@ -3,11 +3,11 @@ title: Installed with Asset Management
 description: Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Asset Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/r\_InstalledWithAssetManagement.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
@@ -234,7 +234,7 @@ sam
 </td><td>
 
 -   Create, edit, change, and manage software licenses.
--   Edit the Software model field on a [Discovery models and software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_DiscoveryModels.md).
+-   Edit the Software model field on a [Discovery models and software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_DiscoveryModels.md).
 -   Approve a model. Has full control of the Software Asset Management application.
 -   Controls the Software Asset Management IBM PVU Process Pack, if activated.
 
@@ -1355,4 +1355,5 @@ Default Stockroom \[alm\_user\_stockroom\]
 Verifies that the selected default stockroom isn’t of the Field Agent type.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/references-asset-management.md)
+

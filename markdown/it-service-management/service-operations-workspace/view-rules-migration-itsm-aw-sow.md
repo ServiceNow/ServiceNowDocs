@@ -3,11 +3,11 @@ title: Migration of view rules from ITSM Agent Workspace to Service Operations W
 description: Migration of view rules from ITSM Agent Workspace to Service Operations Workspace for ITSM includes identifying the required tables, identifying the view rules for migrations, and the migration process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/view-rules-migration-itsm-aw-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure and customize the migration to SOW, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Migration of view rules from ITSM Agent Workspace to Service Operations Workspac
 
 For information about view rules, see [https://www.servicenow.com/community/developer-blog/servicenow-view-and-view-rule-servicenow-tutorial-to-understand/ba-p/2333469](https://www.servicenow.com/community/developer-blog/servicenow-view-and-view-rule-servicenow-tutorial-to-understand/ba-p/2333469).
 
-For information about creating a view rule, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAViewRule.md).
+For information about creating a view rule, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreateAViewRule.md).
 
 ## Tables used for migration
 
@@ -54,10 +54,10 @@ The migration utility uses the following sequence to migrate the UI actions from
     If a view rule isn’t configured for a table, the Service Operations Workspace view rule that is consistent with the ITSM Agent Workspace is migrated.
 
 
--   **[Perform post-migration tasks for view rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/verify-migration-status-view-rules.md)**  
+-   **[Perform post-migration tasks for view rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/verify-migration-status-view-rules.md)**  
 Verify that the view rules in Service Operations Workspace \(SOW\) are consistent with the view rules in ITSM Agent Workspace and are ready for use in SOW. You can update the view rules settings in SOW based on your requirements.
 
-**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
+**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
 
 **Related topics**  
 

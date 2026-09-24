@@ -3,7 +3,7 @@ title: Configure the Worker's Historical Performance Review report
 description: Configure the report to fetch Workers Historical performance review information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-the-workers-historical-performance-review-report.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

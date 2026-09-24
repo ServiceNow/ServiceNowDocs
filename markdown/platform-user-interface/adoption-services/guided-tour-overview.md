@@ -3,11 +3,11 @@ title: Guided Tours dashboard
 description: The Guided Tours Overview dashboard provides statistics related to guided tour usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/guided-tour-overview.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -105,5 +105,5 @@ Shows the 10 tours that are dismissed most frequently.
 </td></tr></tbody>
 </table>\[Omitted image "dashboardtourstatistics1.png"\] Alt text: Tour Statistics tab
 
-**Parent Topic:**[Using Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/using-guided-tours.md)
+**Parent Topic:**[Using Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/using-guided-tours.md)
 

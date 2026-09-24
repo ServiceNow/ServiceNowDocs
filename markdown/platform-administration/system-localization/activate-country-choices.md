@@ -3,11 +3,11 @@ title: Activate country choices for users
 description: Select from additional countries in the Next Experience language and region preferences or a user record.Create additional country choices to select from in the Next Experience language and region preferences or a user record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/activate-country-choices.html
-release: australia
+release: brazil
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-By default, you can select from only a limited list of countries in the Next Experience language and region preferences or in a User record. To allow users to select from additional countries, administrators can activate choices for the Country code \[country\] field on the User \[sys\_user\] table. For more information about the Country user preference, see [Configure Next Experience language and region preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-language-preferences.md).
+By default, you can select from only a limited list of countries in the Next Experience language and region preferences or in a User record. To allow users to select from additional countries, administrators can activate choices for the Country code \[country\] field on the User \[sys\_user\] table. For more information about the Country user preference, see [Configure Next Experience language and region preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-language-preferences.md).
 
 ## Procedure
 
@@ -42,9 +42,9 @@ By default, you can select from only a limited list of countries in the Next Exp
 **Related topics**  
 
 
-[Choice table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_ChoicesTable.md)
+[Choice table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_ChoicesTable.md)
 
-[User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_UserAdministration.md)
+[User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_UserAdministration.md)
 
 ## Create country choices
 
@@ -76,7 +76,7 @@ By default, you can select from only a limited list of countries in the Next Exp
     |Sequence|Enter a number to determine what order the option appears in the list if you don't want to list choices alphabetically.|
     |Inactive|Leave cleared for the country choice to appear in the Next Experience language and region preferences or in a User record.|
 
-    For more information about this table, see [Choice table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_ChoicesTable.md).
+    For more information about this table, see [Choice table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_ChoicesTable.md).
 
     The following choice lets users select Canada as their country when the user or instance language is English.
 

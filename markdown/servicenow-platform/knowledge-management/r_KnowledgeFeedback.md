@@ -3,11 +3,11 @@ title: Provide feedback on knowledge articles
 description: You can view and contribute to feedback on knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/r\_KnowledgeFeedback.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,7 +27,7 @@ You can submit feedback for knowledge articles in these ways:
 
 Users can view comments directly on the article. Knowledge managers can view the other types of feedback by navigating to **Knowledge** &gt; **Feedback**.
 
-**Note:** To know more about Knowledge article view properties and rating options that appear with articles, see [Knowledge article view properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+**Note:** To know more about Knowledge article view properties and rating options that appear with articles, see [Knowledge article view properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 Administrators and knowledge managers can disable some feedback options using fields on the Knowledge Base form. Administrators can configure feedback options using properties.
 
@@ -63,14 +63,14 @@ Knowledge comments at the bottom of the article use Live Feed to enable a conver
 
 **Note:** Unauthenticated users and users with only the snc\_external role can’t add or view attachments for comments.
 
-**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 
 **Related topics**  
 
 
-[Automating feedback management to improve content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/actionable-knowledge-feedback.md)
+[Automating feedback management to improve content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/actionable-knowledge-feedback.md)
 
-[Request a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_RequestAKnowledgeBase.md)
+[Request a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_RequestAKnowledgeBase.md)
 
-[Create a knowledge article from an incident in ITSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
+[Create a knowledge article from an incident in ITSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)
 

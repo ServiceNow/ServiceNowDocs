@@ -3,9 +3,9 @@ title: Survey Question form
 description: Description of the field values for the Survey Question form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/survey-question-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Surveys reference, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -199,10 +199,10 @@ Assessment Metric Definitions
 Answer options for this question.This related list is available only if the **Data type** is **Choice** or **Likert Scale**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/survey-reference.md)
 
 **Related topics**  
 
 
-[Create or modify survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateOrModifySurveyQuestions.md)
+[Create or modify survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateOrModifySurveyQuestions.md)
 

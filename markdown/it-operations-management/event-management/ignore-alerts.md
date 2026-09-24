@@ -3,7 +3,7 @@ title: Alert ignore automations
 description: Configure ignore rules to automatically suppress alerts that are not actionable or relevant to your operations team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ignore-alerts.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
@@ -43,7 +43,7 @@ Ignore rules help reduce alert noise by automatically suppressing alerts that ma
 
     The Ignore alerts page opens.
 
-5.  Follow the steps in [Create Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md).
+5.  Follow the steps in [Create Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md).
 
 6.  To complete the setup, select **Mark as configured**.
 

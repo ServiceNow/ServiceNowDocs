@@ -3,11 +3,11 @@ title: Update a non-monetary benefit plan breakdown for an epic
 description: Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/update-non-monetary-benefit-plan-breakdown-agile-epic.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a non-monetary benefit plan for an epic, Create an epic in Agile Development 2.0, Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -45,12 +45,12 @@ Role required: scrum\_master, scrum\_product\_owner, or scrum\_admin
     |**Measure**|Measure type specified in the benefit plan.|
     |**Actual benefit**|Actual benefit that is incurred from the project or demand.|
     |**Benefit plan**|Benefit plan to which the benefit plan breakdown belongs.|
-    |**Fiscal period**|Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FiscalCalendar.md).|
+    |**Fiscal period**|Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_FiscalCalendar.md).|
     |**Entered benefit**|Benefit in entered value.|
     |**Variance**|The difference between the estimated and actual benefit.|
 
 9.  Click **Update**.
 
 
-**Parent Topic:**[Create a non-monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-non-monetary-benefit-plan-agile-epic.md)
+**Parent Topic:**[Create a non-monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/create-non-monetary-benefit-plan-agile-epic.md)
 

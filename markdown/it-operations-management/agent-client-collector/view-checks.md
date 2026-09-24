@@ -3,11 +3,11 @@ title: Create and edit checks
 description: You can select a check based on the type of entity \(such as a server or an application\) you want to monitor. You can view and edit the default checks or create new checks, as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/view-checks.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -30,12 +30,12 @@ Role required: agent\_client\_collector\_admin
 
     **Note:** Using Ruby scripts in a Windows environment causes high CPU consumption.
 
-3.  Enter values in the fields on the page, as described in [Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/check-definition-form.md).
+3.  Enter values in the fields on the page, as described in [Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/check-definition-form.md).
 
 4.  On the **Parameters** tab, enter parameter definitions, as needed.
 
-    Parameters are used for the **Command** field when the Simple template is used, as described in [Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/check-definition-form.md).
+    Parameters are used for the **Command** field when the Simple template is used, as described in [Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/check-definition-form.md).
 
-    The information you can add for parameters is described in [Check definition form parameters tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/check-definition-parameters-tab.md).
+    The information you can add for parameters is described in [Check definition form parameters tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/check-definition-parameters-tab.md).
 
 

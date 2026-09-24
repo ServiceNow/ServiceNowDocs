@@ -3,9 +3,9 @@ title: Configure granular delegation rules for an approver
 description: Set up delegation rules that enable an approver in Advanced Approval Management to assign a delegate who can accept or reject approval requests on behalf of the approver.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-approval-delegation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -58,10 +58,10 @@ As an admin, setting up granular delegation involves identifying the advanced ap
 
 5.  Create the new delegate to define the employee who will be the delegate for the approver.
 
-    For details on defining the delegate see, [Create a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-delegation-admin.md). You specify the employee who will serve as the delegate, the start and end dates for delegation, and other options, such as the option to send the delegate a copy of the notifications that the approver receives.
+    For details on defining the delegate see, [Create a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/create-delegation-admin.md). You specify the employee who will serve as the delegate, the start and end dates for delegation, and other options, such as the option to send the delegate a copy of the notifications that the approver receives.
 
 
 ## Result
 
-After setting up the delegation capability for an approver, the approver can delegate advanced approval requests to another employee by using Employee Center, if both the approver and delegate use Employee Center. For information on delegating tasks to another employee, see [Delegate on-demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation-use.md).
+After setting up the delegation capability for an approver, the approver can delegate advanced approval requests to another employee by using Employee Center, if both the approver and delegate use Employee Center. For information on delegating tasks to another employee, see [Delegate on-demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/granular-delegation-use.md).
 

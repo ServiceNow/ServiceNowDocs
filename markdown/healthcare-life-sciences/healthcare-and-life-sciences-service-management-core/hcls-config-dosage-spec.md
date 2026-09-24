@@ -3,11 +3,11 @@ title: Configure dosage specifications for a medication product
 description: You can enable a healthcare representative to enter the dosage for a medication product by configuring dosage specifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-dosage-spec.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, He
 
 You can enable a healthcare representative to enter the dosage for a medication product by configuring dosage specifications.
 
-To learn about components of a dosage specification, see [Dosage concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-dosage-concept.md).
+To learn about components of a dosage specification, see [Dosage concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-dosage-concept.md).
 
 <table><thead><tr><th>
 
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure a characteristic for a dosage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-setup-dosage-char.md).
+[Configure a characteristic for a dosage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-setup-dosage-char.md).
 
 </td><td>
 
@@ -36,7 +36,7 @@ Configure a characteristic for a dosage so that you can define the dosages for a
 
 </td></tr><tr><td>
 
-[Configure a dosage specification for a medication product associated with a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-dosage.md).
+[Configure a dosage specification for a medication product associated with a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-dosage.md).
 
 </td><td>
 
@@ -44,7 +44,7 @@ Create a dosage specification associated with a medication product included in a
 
 </td></tr><tr><td>
 
-[Configure the mapping between a dosage characteristic and a dosage details field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-ext-point-dosage-char-map.md).
+[Configure the mapping between a dosage characteristic and a dosage details field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-ext-point-dosage-char-map.md).
 
 </td><td>
 

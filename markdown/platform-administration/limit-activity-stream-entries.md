@@ -3,9 +3,9 @@ title: Limit the number of activity stream entries
 description: You can set a system property to limit the number of entries allowed in an activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/limit-activity-stream-entries.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -36,7 +36,7 @@ Role required: admin
     |Default value|250|
 
 
-**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_Formatters.md)
 
 **Related topics**  
 

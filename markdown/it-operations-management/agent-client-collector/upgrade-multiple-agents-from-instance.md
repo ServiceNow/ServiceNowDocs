@@ -3,11 +3,11 @@ title: Upgrade multiple agents in an instance
 description: When performing selective upgrade of an agent in an instance, you can select multiple instances to upgrade at once.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/upgrade-multiple-agents-from-instance.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -34,7 +34,7 @@ Select the version to which you want to upgrade your agent.
 
 If you do not select a version, the agent automatically upgrades to the current Agent Client Collector Framework scoped app version.
 
-When working with MID-less agents, ensure that the agents can communicate with the ServiceNow Content Delivery Network \(CDN\). For details, see [Configure a download proxy for Agent Client Collector upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-agent-upgrade-proxy.md).
+When working with MID-less agents, ensure that the agents can communicate with the ServiceNow Content Delivery Network \(CDN\). For details, see [Configure a download proxy for Agent Client Collector upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/configure-agent-upgrade-proxy.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -55,10 +55,10 @@ You can select up to 50 agents at a time for upgrade. To upgrade large numbers o
 4.  In the confirmation dialog box, select **Upgrade**.
 
 
-**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
+**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 
 **Related topics**  
 
 
-[Upgrade an agent in an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/upgrade-agent-from-instance.md)
+[Upgrade an agent in an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/upgrade-agent-from-instance.md)
 

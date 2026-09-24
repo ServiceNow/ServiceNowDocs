@@ -3,9 +3,9 @@ title: Read-only field enhancements
 description: Read-only field protections have been moved from the client side to the server side. This prevents users from manipulating data through client-side methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-read-only.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Configure, Customer Success Management]
 ---
@@ -23,5 +23,5 @@ Starting with Customer Success Management 5.3.11, the following plugins have sec
 -   Telecom Core \[com.sn\_ind\_tsm\_core\]
 -   Product Capability Core \[com.sn\_prod\_cap\_core\]
 
-**Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-get-started.md)
+**Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-get-started.md)
 

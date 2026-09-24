@@ -3,9 +3,9 @@ title: Prepare to run the Amazon S3 collector
 description: Create an AWS IAM user with the permissions required for the metadata collector to harvest metadata from Amazon S3 buckets and objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-amazon-s3-collector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Amazon S3, metadata collector, IAM user, access key, credentials, permissions]
 breadcrumb: [Amazon S3 metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
@@ -67,7 +67,7 @@ The IAM user has the permissions required to run the Amazon S3 metadata collecto
 
 ## What to do next
 
-Use these credentials when configuring the collector. See [Create an Amazon S3 metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-amazon-s3-metadata-collector.md).
+Use these credentials when configuring the collector. See [Create an Amazon S3 metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-amazon-s3-metadata-collector.md).
 
-**Parent Topic:**[Amazon S3 metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/amazon-s3-metadata-collector.md)
+**Parent Topic:**[Amazon S3 metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/amazon-s3-metadata-collector.md)
 

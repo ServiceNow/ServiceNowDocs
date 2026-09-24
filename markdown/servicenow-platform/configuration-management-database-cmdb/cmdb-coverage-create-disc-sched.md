@@ -3,11 +3,11 @@ title: Create discovery schedules
 description: Create discovery schedules for discovering IP address ranges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-create-disc-sched.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-05-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, CMDB Coverage, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_cmdb\_admin
 
 1.  Use one of the following methods to open the **CMDB Coverage** dashboard:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** &gt; **Governance**, and then select **CMDB Coverage Dashboard** from the Manage group in Management tools.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** &gt; **Management tools** &gt; **CMDB Coverage Dashboard**.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Quick links** &gt; **CMDB Coverage Dashboard**.
 2.  Select **Discovery schedule gap**.
 
@@ -34,6 +34,6 @@ Role required: sn\_cmdb\_admin
 
 4.  On the Discovery Admin Workspace, create a discovery schedule as required.
 
-    For more information, see [Create an IP-based Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t-dawCreateNewDiscoSchedule.md).
+    For more information, see [Create an IP-based Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t-dawCreateNewDiscoSchedule.md).
 
 

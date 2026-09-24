@@ -3,9 +3,9 @@ title: Assign a case
 description: Assign a case to yourself or another Outsourced Service Provider \(OSP\) agent within the organization to start working on the case or to fulfill the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-assign-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Outsourced Service Provider agent tasks, Manage cases, Use, Customer Service Management]
 ---

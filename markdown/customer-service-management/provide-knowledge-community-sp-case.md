@@ -3,9 +3,9 @@ title: Deflect cases with knowledge and community content
 description: Enable customers to search for information from the knowledge base and community and find solutions to their issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/provide-knowledge-community-sp-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -26,31 +26,29 @@ The Service Portal Case form displays contextual search results based on text en
 
 ## Procedure
 
-1.  Navigate to the Customer Service Portal
+1.  Navigate to the Customer Service Management Service Portal and then **All** &gt; **Support** &gt; **New Cases**.
 
-2.  Select **All** &gt; **Support** &gt; **New Cases**.
+2.  Select **Product Case** or **Order Case**.
 
-3.  Select **Product Case** or **Order Case**.
-
-4.  Start typing in the **Subject** field.
+3.  Start typing in the **Subject** field.
 
     If there are any search results that match, they are displayed in the **Related Search Results** widget.
 
     **Note:** If embedded search has been enabled, the results are displayed inline in the Case form in a **Knowledge results** section and are read-only.
 
-5.  Perform one of the following actions.
+4.  Perform one of the following actions.
 
     -   Select one of the content links in the **Related Search Results** widget to enter the content directly.
     -   Select one of the content links in the embedded **Knowledge results** section to open the content inline as read-only.
-6.  Select **This helped** to mark the content as helpful for resolving the associated case.
+5.  Select **This helped** to mark the content as helpful for resolving the associated case.
 
-7.  Select **Submit**.
+6.  Select **Submit**.
 
 
 **Related topics**  
 
 
-[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheKnowledgeBase.md)
+[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_SearchTheKnowledgeBase.md)
 
-[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheCommunity.md)
+[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_SearchTheCommunity.md)
 

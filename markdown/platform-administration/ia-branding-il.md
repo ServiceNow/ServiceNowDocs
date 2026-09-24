@@ -3,11 +3,11 @@ title: Branding
 description: Build the theme and experiences to reflect your brand's values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-branding-il.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2025-12-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure the Platform module, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Branding
@@ -22,7 +22,7 @@ You can see the following information on the Branding page:
 -   Virtual Agent branding: Set your brand theme either through an AI agent or virtual agent. You can create a brand or a theme using the virtual agent conversation system. See ABC for more information.
 -   A branded fulfillment experience: Set the themes to deliver a workspace for both mobile and web experiences. See Theme builder for more information. See ABC for more information.
 
-See [Branding and theming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migration-branding-theming.md) for more information.
+See [Branding and theming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/migration-branding-theming.md) for more information.
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-config-platform-il.md)
 

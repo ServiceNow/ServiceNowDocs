@@ -3,11 +3,11 @@ title: Load a MIB module
 description: You can load an additional Management Information Base \(MIB\) module by creating a new ecc\_agent\_mib record and attaching the actual MIB file to the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_LoadAMIBModule.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SNMP probes, List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -61,5 +61,5 @@ You can view any errors associated with loading a MIB module in the agent log.
 
 Update the appropriate pattern or probe to query for the specific OID values defined in the new MIB.
 
-**Parent Topic:**[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SNMPProbe.md)
+**Parent Topic:**[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_SNMPProbe.md)
 

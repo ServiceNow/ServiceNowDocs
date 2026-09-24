@@ -3,11 +3,11 @@ title: Performance enhancements for Indicator nightly job
 description: To support parallel processing capabilities, two additional custom queues such as the Indicator Data Queue for processing indicators, and the Supporting Data Queue for handling events related to control, risk, and issue updates and to collect the supporting data, have been introduced.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/performance-enhancements-indicator-jobs.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage control indicators using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -40,9 +40,9 @@ The **Due date duration \(days\)** field is added for manual indicator in the In
 
 A new field introduced in the indicator supporting data table, which is of type JSON, helps in efficient data management.
 
--   For more information related to the table changes, see [Tables installed with Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tables-installed-with-grc.md).
--   For more information on the additional system properties, see [Governance, Risk, and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-properties.md).
--   For Indicator form changes, see [Create a GRC indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnIndicator.md).
--   For the Indicator template form changes in Compliance Workspace, see [Create a GRC indicator template using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-grc-indicator-template-ws.md).
--   For the Indicator template form changes in the classic UI, see [Create a GRC indicator template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateIndicatorTemplate.md).
+-   For more information related to the table changes, see [Tables installed with Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/tables-installed-with-grc.md).
+-   For more information on the additional system properties, see [Governance, Risk, and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-properties.md).
+-   For Indicator form changes, see [Create a GRC indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/t_CreateAnIndicator.md).
+-   For the Indicator template form changes in Compliance Workspace, see [Create a GRC indicator template using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-grc-indicator-template-ws.md).
+-   For the Indicator template form changes in the classic UI, see [Create a GRC indicator template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/t_CreateIndicatorTemplate.md).
 

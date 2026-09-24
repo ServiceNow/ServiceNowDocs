@@ -3,11 +3,11 @@ title: Unauthorized change properties
 description: Use the Unauthorized Change Properties page to enable or disable the unauthorized change capability, and to configure the criteria for additional unauthorized change properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/unauth-change-properties.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Unauthorized change request, Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -30,7 +30,7 @@ From this properties page, you can control the capabilities, such as:
 This topic uses these terms consistently:
 
 -   Unplanned CI change- A change detected directly on a configuration item, which raises the **ci.change.unplanned** event.
--   Unauthorized change request- The change request record created in response to an unplanned CI change that does not match an existing valid change request. For more information, see [Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/unauthorized-change-request.md)
+-   Unauthorized change request- The change request record created in response to an unplanned CI change that does not match an existing valid change request. For more information, see [Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/unauthorized-change-request.md)
 
 Navigate to **Change** &gt; **Administration** &gt; **Unauthorized Change Properties** to view and edit the properties.
 
@@ -75,7 +75,7 @@ CI class inclusion
 Choose the CI classes that you want to include and monitor for an unauthorized change to be created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/unauthorized-change-request.md)
+</table>**Parent Topic:**[Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/unauthorized-change-request.md)
 
 **Related topics**  
 

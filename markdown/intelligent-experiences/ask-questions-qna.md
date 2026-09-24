@@ -3,12 +3,12 @@ title: Ask questions about documents and images
 description: Use question and answer \(QnA\) to ask the Content Insights AI agent specific questions about document or image and get cited answers. QnA is the agent's default mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ask-questions-qna.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
-reading_time_minutes: 1
+last_updated: "2026-09-24"
+reading_time_minutes: 2
 keywords: [QnA, question and answer, Content Insights, document analysis]
-breadcrumb: [Content insights AI agent, Use, Content Understanding, Enable AI experiences]
+breadcrumb: [Content insights AI agent, Use, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Ask questions about documents and images
@@ -36,7 +36,7 @@ QnA requires a document or image, provided by record reference or upload, and yo
 
 1.  Configure the Content Insights AI agent.
 
-    For more information, see [Configure Content insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-content-insights-ai-agent.md).
+    For more information, see [Configure Content insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-content-insights-ai-agent.md).
 
 2.  Open the ServiceNow Otto panel or ServiceNow Otto for Virtual Agent.
 
@@ -79,4 +79,6 @@ With an attachment sys\_id:
 
 -   `What is the governing law in attachment sys_id abc123?`
 -   `Who wrote the document with sys_id 123 from table abc?`
+
+**Parent Topic:**[Use Content insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-content-insights-ai-agent.md)
 

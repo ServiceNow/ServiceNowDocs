@@ -3,10 +3,10 @@ title: Service order states
 description: Use the State fields on the Order Management forms to determine the current processing state for the service order and to perform certain types of order actions, such as canceling an external service order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/service-order-mgt-state-values.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
 
@@ -36,7 +36,7 @@ Draft
 
 </td><td>
 
-Service order that is still in the capture stage or the manual entry of the service order is not complete. The data capture phase is when your instance is capturing full service order details from the TMF641. **Note:** The Service Order Open API is a ServiceNow implementation of the TMForum TMF641 Service Ordering Open API specification. To learn more, see [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md).
+Service order that is still in the capture stage or the manual entry of the service order is not complete. The data capture phase is when your instance is capturing full service order details from the TMF641. **Note:** The Service Order Open API is a ServiceNow implementation of the TMForum TMF641 Service Ordering Open API specification. To learn more, see [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/service-order-open-api.md).
 
  In this case, Draft is a system-assigned state.
 
@@ -96,15 +96,7 @@ In progress
 
 </td><td>
 
-Service order that has been approved and is being actively worked on. To learn more, see [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-tasks.md).
-
-</td></tr><tr><td>
-
-Revision in progress
-
-</td><td>
-
-As part of the Inflight Order Change functions, when you are currently in the process of updating the service order, it moves to this state.
+Service order that has been approved and is being actively worked on. To learn more, see [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-customer-order-tasks.md).
 
 </td></tr><tr><td>
 
@@ -128,7 +120,7 @@ Assessing cancellation
 
 </td><td>
 
-Cancellation request that has been submitted for the service order. As part of the Inflight Order Change functions, when a cancellation request is submitted for the service order, it moves to this state.
+Cancellation request that has been submitted for the service order.
 
 </td></tr><tr><td>
 
@@ -158,12 +150,7 @@ All associated service order line items are complete. **Note:** After your agent
 -   The **State** field for each of the individual captured service order line items is set to Completed.
 
 </td></tr></tbody>
-</table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled service order states, see
-
--   
--   
-
-## Order Line Item form states
+</table>## Order Line Item form states
 
 Use the **State** field on the Order Line Item form to determine the current processing state for an individual service order line item. You can also use it to perform certain types of order actions, such as canceling a line item.
 
@@ -306,12 +293,7 @@ Completed
 Service order line item and all associated and external service order tasks that are complete. It is a system-assigned state.**Note:** After your agents complete all fulfillment tasks for the entire product, service, or resource order, the state is automatically set to Closed Complete.
 
 </td></tr></tbody>
-</table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled service order line item states, see
-
--   
--   
-
-## Order task form states
+</table>## Order task form states
 
 Use the **State** field on the Order Task form to determine the processing state for an order task.
 
@@ -396,5 +378,5 @@ Draft
 Order task that is still in the capture stage or the manual entry of the order task is not complete.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-reference.md)
 

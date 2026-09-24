@@ -3,11 +3,11 @@ title: Set document permissions
 description: Grant users and roles access to documents by assigning permissions at the role, user, group, or criteria level. Permissions control whether users can view, edit, or own documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t\_set\_document\_permissions.html
-release: australia
+release: brazil
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [document permissions, access control, role permissions, user permissions]
 breadcrumb: [Document reuse across records, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
@@ -98,5 +98,5 @@ Assign access to documents at the level that fits your organization. You can gra
 
 Document permissions are now configured. Users and roles can access the document according to their assigned permission levels. Role-based permissions apply to all users with that role, user permissions apply to specific individuals, and criteria-based permissions apply to users matching the specified conditions.
 
-**Parent Topic:**[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)
+**Parent Topic:**[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)
 

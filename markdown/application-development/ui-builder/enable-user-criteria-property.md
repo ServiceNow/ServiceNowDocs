@@ -3,11 +3,11 @@ title: Enable the user criteria property
 description: Enable the user criteria property to configure access for users based on role, department, group, location, or company in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/enable-user-criteria-property.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add an audience to your UI Builder page, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -33,7 +33,7 @@ Role required: admin
 
 ## What to do next
 
-Add audiences to your pages in UI Builder. For more information, see [Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-audiences.md).
+Add audiences to your pages in UI Builder. For more information, see [Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/configure-audiences.md).
 
-**Parent Topic:**[Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/configure-audiences.md)
+**Parent Topic:**[Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/configure-audiences.md)
 

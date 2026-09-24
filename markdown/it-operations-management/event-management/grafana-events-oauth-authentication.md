@@ -3,11 +3,11 @@ title: Integrate Grafana with OAuth authentication
 description: Integrate Grafana with Event Management with ServiceNow using OAuth authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/grafana-events-oauth-authentication.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Integrate Grafana events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -130,5 +130,5 @@ Alerts start flowing from Grafana into the Event Management plugin. The plugin e
 
 A severity parameter is added which is used only for Grafana 8 and above. The provided value is used as a severity for an event if the severity isn’t passed in custom labels.
 
-**Parent Topic:**[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/grafana-integration.md)
+**Parent Topic:**[Integrate Grafana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/grafana-integration.md)
 

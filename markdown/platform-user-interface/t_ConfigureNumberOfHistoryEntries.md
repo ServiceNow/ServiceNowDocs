@@ -3,9 +3,9 @@ title: Configure the number of history entries displayed in the application navi
 description: A system property sets the maximum number of history entries displayed in the history tab of the application navigator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfigureNumberOfHistoryEntries.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Core UI application navigator, Core UI, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -31,5 +31,5 @@ By default, the application navigator shows 30 history entries. You can configur
 3.  Edit the property **Value**.
 
 
-**Parent Topic:**[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UI16ApplicationNavigator.md)
+**Parent Topic:**[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UI16ApplicationNavigator.md)
 

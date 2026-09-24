@@ -3,9 +3,9 @@ title: Table rotation
 description: Optimize performance and manage data lifecycle by rotating tables, allowing older data to be systematically archived while maintaining system efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_TableRotation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Applying database rotation techniques, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -29,18 +29,18 @@ Table rotation preserves instance performance and averts risk associated with qu
     -   Ensures tables only grow to a reasonable size.
     -   Reduces working set of data when date is known for query.
 -   **Disadvantages**
-    -   Queries that don't use the table rotation date \(for example, by using the **sys\_created\_on** field\), force an inefficient union query to query time ranges that span multiple tables and can be extremely slow if the number of sub-tables is large.
+    -   Queries that do not use the table rotation date \(for example, by using the **sys\_created\_on** field\), force an inefficient union query to query time ranges that span multiple tables and can be extremely slow if the number of sub-tables is large.
 
-        To improve performance, it's recommended that the query includes a window of created dates.
+        To improve performance, it is recommended that the query includes a window of created dates.
 
     -   Users can't dot-walk to a rotated table.
 
-You can use table rotation for sequentially-written tables or for insert-only tables. You can't use table rotation for sys\_import tables or tables that extend the Task \[task\] table.
+You can use table rotation for sequentially-written tables or for insert-only tables. You cannot use table rotation for sys\_import tables or tables that extend the Task \[task\] table.
 
--   **[Apply table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ApplyTableRotation.md)**  
+-   **[Apply table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ApplyTableRotation.md)**  
 Preserve instance performance by applying table rotation.
 
-**Parent Topic:**[Applying database rotation techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseRotation.md)
+**Parent Topic:**[Applying database rotation techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DatabaseRotation.md)
 
 **Related topics**  
 

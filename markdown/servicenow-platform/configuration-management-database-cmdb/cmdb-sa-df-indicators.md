@@ -3,11 +3,11 @@ title: Indicators used in the CMDB success advisor for Data Foundations dashboar
 description: Indicators enable viewing of high-level metrics that highlight data quality, completeness, and integration coverage issues across principal classes and configuration items \(CIs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Data Foundations advisor dashboard indicators, DF CIs missing name location managed by group, principal class data quality indicators, DF Duplicate CIs, CIs not updated indicators]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]

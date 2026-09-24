@@ -3,11 +3,11 @@ title: Create a custom placement policy
 description: Create a Knowledge Base article that defines custom placement policies for your data center racks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-custom-placement-policies.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Data center infrastructure rack allocation, Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -54,8 +54,6 @@ Structure your article with:
 
 8.  Add the configuration item for your data center or rack.
 
-    \[Omitted image "create-knowledge-article.png"\] Alt text: Knowledge article form with the configuration item field
-
 9.  Enter the policy parameters in plain language in the article body.
 
 10. Select **Update**.
@@ -63,5 +61,5 @@ Structure your article with:
 11. Select **Publish**.
 
 
-**Parent Topic:**[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)
+**Parent Topic:**[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)
 

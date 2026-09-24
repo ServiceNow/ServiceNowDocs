@@ -3,9 +3,9 @@ title: Allow or restrict access to custom tables in mobile data items
 description: Use system properties to control whether custom tables are available when creating or modifying data items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-allow-custom-tables.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data items, Mobile app components, Building mobile apps, Mobile Platform]
 ---

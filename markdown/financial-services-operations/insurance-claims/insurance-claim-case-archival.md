@@ -3,11 +3,11 @@ title: Manage the Archive Claim Case rule
 description: Manage the archive rule that is provisioned in the Claim Case \[sn\_ins\_gen\_claim\_case\] table of the Insurance claims application so that your organization can meet your claim case archiving requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/insurance-claim-case-archival.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 The Archive Claim Case rule is that a case that is inactive and more than seven years old is automatically archived. This rule is the base system archiving rule for claim cases in the Claim Case \[sn\_ins\_gen\_claim\_case\] table and is active by default. You can modify the archiving rule if necessary.
 
-For more information on archive rules and archiving records, see [Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-older-records.md).
+For more information on archive rules and archiving records, see [Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/archiving-older-records.md).
 
 ## Procedure
 
@@ -40,5 +40,5 @@ For more information on archive rules and archiving records, see [Archiving reco
 **Related topics**  
 
 
-[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-older-records.md)
+[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/archiving-older-records.md)
 

@@ -3,11 +3,11 @@ title: Set notification preferences
 description: Set notification preferences to receive updates via email on the content that you are following.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/manage-subscriptions.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Community subscriptions, Using communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Set notification preferences to receive updates via email on the content that yo
 ## Before you begin
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -43,7 +47,7 @@ The Communities application separates the notion of subscriptions from notificat
     The isNotificationDisabled API checks the value of the disable\_notifications flag. This API can also be used for blocking notification of other activity subscription modules.
 
 
-**Parent Topic:**[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-subscriptions.md)
+**Parent Topic:**[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/c_communities-subscriptions.md)
 
 **Related topics**  
 

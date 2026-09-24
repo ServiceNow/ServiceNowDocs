@@ -3,9 +3,9 @@ title: Create a narrative disclosure on remote storage
 description: Create an Operational Sustainability Management narrative disclosure for your organization and store it on remote storage such as Microsoft SharePoint. Disclosures can be of several types such as ESG report, annual report, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-disclosure.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -16,7 +16,7 @@ Create an Operational Sustainability Management narrative disclosure for your or
 
 ## Before you begin
 
-Ensure that you follow the procedure to integrate the ServiceNow® instance and Microsoft OneDrive. Refer to [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-ms-onedrive-doc-services.md) and [Connecting to Microsoft Sharepoint \[KB1646310\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1646310%20) article in the Now Support Knowledge Base.
+Ensure that you follow the procedure to integrate the ServiceNow® instance and Microsoft OneDrive. Refer to [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-ms-onedrive-doc-services.md) and [Connecting to Microsoft Sharepoint \[KB1646310\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1646310%20) article in the Now Support Knowledge Base.
 
 Role required: sn\_esg.reporting\_disclosure\_manager or sn\_esg.program\_manager
 
@@ -158,7 +158,7 @@ Users who contribute to the disclosure document. This field appears only when th
 
 5.  To open and edit the document that is created, **Open document**.
 
-    To insert data points in the document, open the add-in in the Word document. For details, refer to [Import data in to a Microsoft Word disclosure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/import-data-into-ms-word.md). If the link does not open the disclosure, see the [Troubleshooting checklist for narrative disclosures \[KB1702819\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1702819) article in the Now Support Knowledge Base.
+    To insert data points in the document, open the add-in in the Word document. For details, refer to [Import data in to a Microsoft Word disclosure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/import-data-into-ms-word.md). If the link does not open the disclosure, see the [Troubleshooting checklist for narrative disclosures \[KB1702819\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1702819) article in the Now Support Knowledge Base.
 
 6.  Close the document before syncing data.
 
@@ -173,5 +173,5 @@ Users who contribute to the disclosure document. This field appears only when th
 9.  To request approval from the necessary approvers, select **Request Approval**.
 
 
-**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-disclosures.md)
+**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-disclosures.md)
 

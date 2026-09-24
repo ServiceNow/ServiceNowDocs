@@ -3,11 +3,11 @@ title: Asset groups in Enterprise Asset Management
 description: Asset groups in the Enterprise Asset Management application provide a systematic approach to organizing assets based on their functional relationships and their physical placement within an organization. They can help improve data integrity and support maintenance planning, life-cycle tracking, reporting, and access control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/asset-groups-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Asset Management data model, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -28,9 +28,9 @@ In the Enterprise Asset Management application, assets are organized through the
 
 An asset group is a logical grouping of assets. Each asset group can have multiple subgroups; however, a subgroup can belong to only one asset group. An asset can belong to multiple groups.
 
-For details on creating asset groups and subgroups, see [Create an asset group in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-groups-eam.md) and [Create an asset subgroup in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-subgroup-eam.md). For details on adding assets to asset groups, see [Add assets to an asset group or subgroup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-assets-assetgroups.md).
+For details on creating asset groups and subgroups, see [Create an asset group in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-asset-groups-eam.md) and [Create an asset subgroup in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-asset-subgroup-eam.md). For details on adding assets to asset groups, see [Add assets to an asset group or subgroup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-assets-assetgroups.md).
 
-**Note:** A subgroup inherits some fields from its parent group. For details on the fields that get inherited, see [Fields inherited from a parent asset group to a sub group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/subgroups-parent-fields-eam.md).
+**Note:** A subgroup inherits some fields from its parent group. For details on the fields that get inherited, see [Fields inherited from a parent asset group to a sub group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/subgroups-parent-fields-eam.md).
 
 ## Sites in asset groups
 
@@ -40,7 +40,7 @@ You can associate an asset group to a site. This association enables all CIs tha
 
 **Note:** Only assets from the associated site and its specific location can be added to the asset group.
 
-For details on creating sites, see [Create a site in the Enterprise Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-sites-eam.md).
+For details on creating sites, see [Create a site in the Enterprise Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-sites-eam.md).
 
 ## Service instances and asset groups
 
@@ -80,5 +80,5 @@ Asset groups are unavailable in the following Enterprise Asset Management flows 
 
 Asset groups require the sn\_isa\_model plugin, which is automatically installed with the Enterprise Asset Management application.
 
-**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
+**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
 

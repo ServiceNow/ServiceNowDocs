@@ -3,9 +3,9 @@ title: Execute Shell Script activity
 description: The Execute Shell Script workflow activity runs a MID server shell script within the workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/execute-shell-script-activity.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations System Command Integration- Get Running Processes flow, Security Operations Integration- Get Running Processes capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -42,5 +42,5 @@ The output variables contain data that can be used in subsequent activities.
 |--------|-----------|
 |response|Raw output. Running processes data.|
 
-**Parent Topic:**[Security Operations System Command Integration- Get Running Processes flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/obtain-WMI-retrieval-workflow.md)
+**Parent Topic:**[Security Operations System Command Integration- Get Running Processes flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/obtain-WMI-retrieval-workflow.md)
 

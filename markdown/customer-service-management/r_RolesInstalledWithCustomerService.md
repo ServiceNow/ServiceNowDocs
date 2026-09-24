@@ -3,10 +3,10 @@ title: Roles installed with Customer Service Management
 description: The Customer Service Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_RolesInstalledWithCustomerService.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
 
@@ -61,7 +61,7 @@ External Roles
 **Business-to-consumer \(B2C\)** sn\_customerservice.consumer
 
 </td></tr></tbody>
-</table>For details about these roles, see [CSM roles and descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md) below.
+</table>For details about these roles, see [CSM roles and descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md) below.
 
 ## Internal and external roles
 
@@ -83,18 +83,18 @@ The primary roles available in Customer Service Management are based on the foll
 -   sn\_esm\_user
 -   sn\_esm\_user\_admin
 
-For more information about these roles, see [Roles installed with the Customer Service Base Entities plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md) below.
+For more information about these roles, see [Roles installed with the Customer Service Base Entities plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md) below.
 
-For more information about the CSM primary role structure and included roles, see [CSM roles and descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md) below.
+For more information about the CSM primary role structure and included roles, see [CSM roles and descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md) below.
 
 ## Explicit roles
 
-You may have business requirements that change the use of these roles. In addition, the [Explicit Roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explicit-roles-in-csm.md) feature may assign both internal and external roles to external users. It is important to regularly review user role assignments to ensure that they are set according to your business requirements.
+You may have business requirements that change the use of these roles. In addition, the [Explicit Roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/explicit-roles-in-csm.md) feature may assign both internal and external roles to external users. It is important to regularly review user role assignments to ensure that they are set according to your business requirements.
 
 For more information about reviewing and updating user role assignments, see:
 
 -   [KB0829930](https://support.servicenow.com/kb_view.do?sysparm_article=KB0829930)
--   [Fix external user role assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/fixing-external-role-assignment.md)
+-   [Fix external user role assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/fixing-external-role-assignment.md)
 
 ## CSM roles and descriptions
 
@@ -322,7 +322,7 @@ Case contributor viewer\[sn\_customerservice.case\_contributor\_viewer\]
 This role provides read-only access to all of the tables associated with a case.With this role, a user can view the information in the related lists for a case if:
 
  -   The user has been added to the **Contributor User** field or the **Contributor Group** field on the Case form.
--   The user has read-only access to cases through another role, such as the case viewer role \(sn\_customerservice.case\_viewer\) or the case task agent role \(sn\_customerservice.case\_task\_agent\).
+-   The user has read-only access to cases through another role, such as the case viewer role \(sn\_customerservice.case\_viewer\).
 
  With this role, a user can access the following modules in CSM Agent Workspace:**All tasks I participate in**
 
@@ -500,7 +500,7 @@ Users with the proxy case creator role can create customer service cases directl
 
 </td></tr><tr><td>
 
-Proxy contact\[sn\_customerservice.proxy\_contact\]
+Proxy contact\[sn\_csm\_proxy\_cont\]
 
 </td><td>
 
@@ -510,7 +510,7 @@ Role that enables employees to create cases for customer accounts and contacts. 
 -   Add work notes and comments to any case.
 -   Update the watch list of any case.
 
-**Note:** The CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\) plugin adds this role.
+**Note:** The Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\) plugin adds this role.
 
 </td><td>
 
@@ -538,7 +538,7 @@ This role provides access to case tasks from the following modules in CSM Agent 
  
 
 </td></tr></tbody>
-</table>For detailed information on the granular admin roles in Custmer Data Foundation \(CDF\) and their associated privileges, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
+</table>For detailed information on the granular admin roles in Custmer Data Foundation \(CDF\) and their associated privileges, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platsec-granular-roles.md).
 
 ## Roles installed with the Customer Service Base Entities plugin
 
@@ -662,54 +662,22 @@ Role for REST APIs related to CSM web services\[csm\_ws\_integration\]
 
 snc\_internal
 
-</td></tr><tr><td>
-
-Document template admin \[sn\_csm\_doctemplate.admin \]
-
-</td><td>
-
-Role required to create, view, update and delete records in the Document Template​ tables.
-
-</td><td>
-
-sn\_csm\_doctemplate.viewer
-
-</td></tr><tr><td>
-
-Case Type Configuration admin \[sn\_scm\_case\_type.config\_admin\]
-
-</td><td>
-
-Role required to create, view, update and delete records in the following tables:-   Case Type
--   Service Definition
--   Service to Service Relationship
--   Service Definition Category Relationship
--   Product Service Relationship
--   Catalog Service Relationship
--   Service Definition Customer Criteria
--   Service definition category
--   Service definition user criteria
-
-</td><td>
-
-sn\_csm\_case\_type.config\_viewer
-
 </td></tr></tbody>
-</table>-   **[Internal user data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-internal-user-data.md)**  
+</table>-   **[Internal user data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-internal-user-data.md)**  
 Internal user data includes information about the users who are internal to your organization, such as managers, agents, and other employees. Internal users can also belong to user groups.
--   **[Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/business-stakeholder-for-csm.md)**  
+-   **[Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/business-stakeholder-for-csm.md)**  
 Business Stakeholder for Customer Service Management includes plugins and roles that provide access to business stakeholder features.
--   **[Explicit Roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explicit-roles-in-csm.md)**  
+-   **[Explicit Roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/explicit-roles-in-csm.md)**  
 You can give both internal users and external users access to your instance. However, you might not want both types of users to have the same level of access. To provide added security, every user must have at least one role so that the instance can distinguish between internal and external users.
--   **[Provide external users access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ProvideExternalUsersAccessToTables.md)**  
+-   **[Provide external users access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_ProvideExternalUsersAccessToTables.md)**  
 To enable users with only the snc\_external role to access the list view of a table, you must create a series of ACLs.
--   **[Creating custom user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/creating-custom-csm-user-roles.md)**  
+-   **[Creating custom user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/creating-custom-csm-user-roles.md)**  
 System administrators can create custom roles or modify the access of existing roles by using script includes and extension points/instances.
 
-**Parent Topic:**[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithCustomerService.md)
+**Parent Topic:**[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_InstalledWithCustomerService.md)
 
 **Related topics**  
 
 
-[Fix external user role assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/fixing-external-role-assignment.md)
+[Fix external user role assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/fixing-external-role-assignment.md)
 

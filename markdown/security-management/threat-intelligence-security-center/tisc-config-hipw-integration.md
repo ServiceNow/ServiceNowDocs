@@ -3,11 +3,11 @@ title: Configure and enable Have I Been Pwned integration
 description: Configure API credentials and enrichment behavior through the dedicated Have I Been Pwned \(HIBP\) configuration tile in TISC integration settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-config-hipw-integration.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Have I Been Pwned, HIBP, observable enrichment, integration, breach detection]
 breadcrumb: [Have I Been Pwned integration, Configure Observable Enrichment, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
@@ -37,7 +37,7 @@ The integration supports the following observable types:
 -   Email address
 -   Domain name
 
-**Note:** Before you begin, [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+**Note:** Before you begin, [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md).
 
 ## Procedure
 
@@ -81,7 +81,7 @@ After configuration, you can select Have I Been Pwned for performing enrichment 
 
 ## What to do next
 
-To run observable enrichment, see [Run Have I Been Pwned enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-hibp-enrichment-integration.md) for the detailed procedure.
+To run observable enrichment, see [Run Have I Been Pwned enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-hibp-enrichment-integration.md) for the detailed procedure.
 
-**Parent Topic:**[Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-hibp-integration.md)
+**Parent Topic:**[Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-hibp-integration.md)
 

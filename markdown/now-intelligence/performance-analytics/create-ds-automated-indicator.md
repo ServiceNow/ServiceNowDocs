@@ -3,11 +3,11 @@ title: Create a Data snapshots automated indicator
 description: To analyze the performance of a business process that is recorded in a ServiceNow table, use an automated indicator. If you have Data snapshots enabled on your instance, you can create a Data snapshots automated indicator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-ds-automated-indicator.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Data snapshots and multiple breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -21,9 +21,9 @@ To analyze the performance of a business process that is recorded in a ServiceNo
 Determine whether your use case meets the following requirements:
 
 -   Your license enables you to create indicators.
--   You have Data snapshots enabled on your instance. For more information, see [Activate Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md).
--   You have a suitable Data snapshots source. For more information, see [Data snapshots sources and collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md).
--   You don’t need to apply a scripted breakdown, such as an Age bucket group, or a scripted aggregate to the indicator. If you need such a breakdown or aggregate, create a classic indicator instead. For more information, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
+-   You have Data snapshots enabled on your instance. For more information, see [Activate Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md).
+-   You have a suitable Data snapshots source. For more information, see [Data snapshots sources and collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md).
+-   You don’t need to apply a scripted breakdown, such as an Age bucket group, or a scripted aggregate to the indicator. If you need such a breakdown or aggregate, create a classic indicator instead. For more information, see [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md).
 
 Role required: pa\_power\_user or higher
 
@@ -35,7 +35,7 @@ Role required: pa\_power\_user or higher
 
 2.  Follow one of these procedures to start creating a Data snapshots automated indicator:
 
-    -   Create an indicator from the Indicator library, as described in [Create an indicator from the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-indicator-from-library.md).
+    -   Create an indicator from the Indicator library, as described in [Create an indicator from the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-indicator-from-library.md).
     -   Navigate to **All** &gt; **Data Snapshots** &gt; **Indicators** &gt; **Automated Indicators - Data Snapshots** and select **New**.
 3.  If you selected **Create indicator** from the indicator library, select the Automated indicator type and Data snapshots source type.
 
@@ -51,7 +51,7 @@ Role required: pa\_power\_user or higher
 
 6.  In the **Source** field, select from the existing Data snapshots sources.
 
-    If there are no sources, or none of the sources are suitable, select **New**. Follow the procedure in [Create a Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-source.md).
+    If there are no sources, or none of the sources are suitable, select **New**. Follow the procedure in [Create a Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-ds-source.md).
 
     \[Omitted image "ds-sources-for-indicator.png"\] Alt text: Data snapshots list for the Sources field on the Data snapshots Indicator form, showing New button.
 
@@ -170,5 +170,5 @@ If no Trend by field is selected, the data doesn’t show IGT tasks created by e
 
 \[Omitted image "ds-trendby-off.png"\] Alt text: KPI Details showing cumulative IGT tasks created.
 
-**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)
+**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 

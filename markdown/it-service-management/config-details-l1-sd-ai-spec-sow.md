@@ -3,9 +3,9 @@ title: Configure L1 IT Service Desk AI Specialist basic details
 description: Customize the name, profile icon, department, and description of your L1 IT Service Desk AI Specialist to match your organization's specifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/config-details-l1-sd-ai-spec-sow.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

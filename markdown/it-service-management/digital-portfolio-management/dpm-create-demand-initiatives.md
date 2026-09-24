@@ -3,11 +3,11 @@ title: Create demand from Digital Portfolio Management
 description: Create demand using the Digital Portfolio Management \(DPM\) application. DPM enables you to create demand for any business or technology management services that you own.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-create-demand-initiatives.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with solution data in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Create demand using the Digital Portfolio Management \(DPM\) application. DPM en
 
 ## Before you begin
 
-For the required plugins to create a demand in Digital Portfolio Management, see the Demand Management area of [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-related-products.md).
+For the required plugins to create a demand in Digital Portfolio Management, see the Demand Management area of [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-related-products.md).
 
 Role required: sn\_dpm.dpm\_manager
 
@@ -36,7 +36,7 @@ You can manage and create demands for services or service offerings that you own
 
 4.  On the form, fill in the fields.
 
-    For more details on demand entries, see [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreatingDemands.md).
+    For more details on demand entries, see [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_CreatingDemands.md).
 
     |Field Set|Description|
     |---------|-----------|
@@ -52,5 +52,5 @@ You can manage and create demands for services or service offerings that you own
     The service **Plan** tab shows the new demand.
 
 
-**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
+**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
 

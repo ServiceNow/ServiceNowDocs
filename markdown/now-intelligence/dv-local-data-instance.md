@@ -3,9 +3,9 @@ title: Use a local data instance with a data visualization
 description: For finer grained control of the data source than you have with preconfigured data sources, create a local data instance. Then bind the local data instance to the dataPassthrough property of the data visualization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-local-data-instance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ For finer grained control of the data source than you have with preconfigured da
 
 **Important:** This is an advanced procedure. Consider carefully whether you need a local data instance or can use a standard data source.
 
-Before proceeding, review [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/data-resources.md).
+Before proceeding, review [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/data-resources.md).
 
 Role required: ui\_builder\_admin, admin
 
@@ -77,12 +77,12 @@ Role required: ui\_builder\_admin, admin
 
 You have created a local data instance and bound it to a data visualization. You can now complete the configuration of your data visualization.
 
--   **[Enable filters to apply to a local data instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-filters-local-data-instance.md)**  
+-   **[Enable filters to apply to a local data instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-filters-local-data-instance.md)**  
 To enable a viewer to switch between which field values or breakdown elements they see in a data visualization, add filter components to the UI Builder page. For those filters to apply to a local data instance, configure that instance accordingly.
--   **[Enable data caching for a local data instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-caching-local-data-instance.md)**  
+-   **[Enable data caching for a local data instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-caching-local-data-instance.md)**  
 To help reduce the load time of data visualizations, and if real time or very fresh data is not necessary, enable data caching on the data source.
--   **[Local data instances for multiple data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/local-data-instance-multi-viz.md)**  
+-   **[Local data instances for multiple data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/local-data-instance-multi-viz.md)**  
 A special Data Visualization API data resource is available to fetch data for multiple data visualizations simultaneously. This data resource reduces the number of API calls and thus can speed up data fetching.
 
-**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md)
+**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/technical-dashboards.md)
 

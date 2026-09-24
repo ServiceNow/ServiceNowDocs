@@ -3,11 +3,11 @@ title: Select demands and projects for portfolio planning
 description: After you create a planning scenario, select the demands and projects to include in budget planning. You can view all the demands and projects for the selected fiscal year or planning window with their planned cost and priorities to finalize them for execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/select-prj-demands.html
-release: australia
+release: brazil
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create planning scenarios, Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ After you create a planning scenario, select the demands and projects to include
 
 ## Before you begin
 
-You should have at least one planning scenario. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/create-scenarios.md).
+You should have at least one planning scenario. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/create-scenarios.md).
 
 Role required: it\_portfolio\_manager
 
@@ -32,15 +32,15 @@ You can perform a what-if analysis by including or excluding demands or projects
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d155689e84">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d155981e84">
 
 Location
 
-</th><th align="left" id="d155689e87">
+</th><th align="left" id="d155981e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d155689e93">
+</th></tr></thead><tbody><tr><td id="d155981e93">
 
 **From application navigator**
 
@@ -50,7 +50,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d155689e129">
+</td></tr><tr><td id="d155981e129">
 
 **From the portfolio list**
 
@@ -68,7 +68,7 @@ Steps
 
 3.  Compare and evaluate the relative standing of demands using the **Bubble Chart** tab.
 
-    Right-click a demand and select **Select for execution** from the context menu to include a demand in portfolio planning. For more information, see [Demand workbench bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandWorkbenchBubbleChart.md). You can search for specific demands by applying filters using the Filter\( \[Omitted image "filter-timeline-bubble.png"\] Alt text: Filter icon to filter for demands\) icon.
+    Right-click a demand and select **Select for execution** from the context menu to include a demand in portfolio planning. For more information, see [Demand workbench bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/c_DemandWorkbenchBubbleChart.md). You can search for specific demands by applying filters using the Filter\( \[Omitted image "filter-timeline-bubble.png"\] Alt text: Filter icon to filter for demands\) icon.
 
     **Note:** The **Bubble Chart** tab is not available for Multi-year Resource Capacity Based Planning configuration.
 
@@ -80,7 +80,7 @@ Steps
 
 5.  Review the external dependencies between the selected projects in your portfolio.
 
-    For more information, see [Review external dependencies between projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.md).
+    For more information, see [Review external dependencies between projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.md).
 
 6.  Review the information in the Overview section on the right, and the **Resources** tab to evaluate and adjust your selection of the demands and projects to be included in the plan.
 
@@ -135,7 +135,7 @@ Steps
 
 ## What to do next
 
-Compare planning scenarios to analyze different combinations of projects and demands and select a scenario that best aligns with your organizational goals. For more information, see [Compare planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/compare-scenarios.md).
+Compare planning scenarios to analyze different combinations of projects and demands and select a scenario that best aligns with your organizational goals. For more information, see [Compare planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/compare-scenarios.md).
 
-**Parent Topic:**[Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/create-scenarios.md)
+**Parent Topic:**[Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/create-scenarios.md)
 

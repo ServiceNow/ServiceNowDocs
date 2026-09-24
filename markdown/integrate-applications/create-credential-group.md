@@ -3,9 +3,9 @@ title: Create a credential group in RPA Hub
 description: Create a credential group to include a robot credential and application credentials that you can reuse in multiple bot processes. Unattended robots leverage the credential group to perform an automation that you defined in the associated bot process.Associate one or more application credentials to the credential group in RPA Hub so that a robot can perform automation by logging in to the applications.Associate one or more unattended bot processes to a credential group in RPA Hub so that the associated robot can perform automation using the credential group.Provide access to either all users or specific users in the Managed by group of the associated bot processes in RPA Hub. This way, you can make sure that the correct users have access to the credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-credential-group.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Credential Management, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,11 +16,11 @@ Create a credential group to include a robot credential and application credenti
 
 ## Before you begin
 
-Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/credential-management-rpa-hub.md).
+Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/credential-management-rpa-hub.md).
 
-Create a robot credential. For more information, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-set-botprocess.md).
+Create a robot credential. For more information, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-credential-set-botprocess.md).
 
-Create one or more application credentials. For more information, see [Create an application credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-application-credential.md).
+Create one or more application credentials. For more information, see [Create an application credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-application-credential.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_release\_manager, or sn\_rpa\_fdn.rpa\_admin
 
@@ -49,9 +49,9 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_release\_manager, 
 **Related topics**  
 
 
-[Associate a credential group to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/map-credential-groups-to-bot-process.md)
+[Associate a credential group to a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/map-credential-groups-to-bot-process.md)
 
-[Assign a process robot credential within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-process-robot-cred-botprocess.md)
+[Assign a process robot credential within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-process-robot-cred-botprocess.md)
 
 ## Associate an application credential to the credential group in RPA Hub
 
@@ -59,11 +59,11 @@ Associate one or more application credentials to the credential group in RPA Hub
 
 ### Before you begin
 
-Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/credential-management-rpa-hub.md).
+Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/credential-management-rpa-hub.md).
 
-Create a credential group. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-group.md).
+Create a credential group. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-credential-group.md).
 
-Create application credentials. For more information, see [Create an application credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-application-credential.md).
+Create application credentials. For more information, see [Create an application credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-application-credential.md).
 
 Developers can only associate application credentials that are created by them to the credential group.
 
@@ -94,13 +94,13 @@ Associate one or more unattended bot processes to a credential group in RPA Hub 
 
 ### Before you begin
 
-Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/credential-management-rpa-hub.md).
+Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/credential-management-rpa-hub.md).
 
-Create a credential group. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-group.md).
+Create a credential group. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-credential-group.md).
 
-Create a robot credential. For more information, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-set-botprocess.md).
+Create a robot credential. For more information, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-credential-set-botprocess.md).
 
-Create an unattended bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Create an unattended bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md).
 
 You can't edit the **Process Credential Mappings** record when the life-cycle stage status of the associated bot process is set to **Published**.
 
@@ -137,7 +137,7 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_release\_manager, 
 
 ### What to do next
 
-For providing access to this credential group to all users in the Managed by group or to specific users, see [Provide users with access to a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-group.md).
+For providing access to this credential group to all users in the Managed by group or to specific users, see [Provide users with access to a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-credential-group.md).
 
 ## Provide users with access to a credential group in RPA Hub
 
@@ -145,11 +145,11 @@ Provide access to either all users or specific users in the Managed by group of 
 
 ### Before you begin
 
-Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/credential-management-rpa-hub.md).
+Familiarize yourself with the credential management concept. For more information, see [Credential Management in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/credential-management-rpa-hub.md).
 
-Create a credential group. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-group.md).
+Create a credential group. For more information, see [Create a credential group in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-credential-group.md).
 
-Add a bot process in the **Process Credential Mapping** tab of the credential group. For more information, see [Associate a bot process to a credential group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-group.md).
+Add a bot process in the **Process Credential Mapping** tab of the credential group. For more information, see [Associate a bot process to a credential group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-credential-group.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -165,7 +165,7 @@ If you remove an authorized user from the list, the Process Robot Credential rec
 
 You can't edit the **Shared** option and add or remove the users in the **Authorized Users** tab when the life-cycle stage status of the associated bot process is set to **Published**.
 
-**Important:** If you’re upgrading to Australia, the **Shared** option is pre-selected. When you clear the **Shared** option, the Process Robot Credential records that were created by an RPA release manager and an RPA administrator are retained. However, the Process Robot Credential records that were created by the developers from the Managed by group are deleted.
+**Important:** If you’re upgrading to Brazil, the **Shared** option is pre-selected. When you clear the **Shared** option, the Process Robot Credential records that were created by an RPA release manager and an RPA administrator are retained. However, the Process Robot Credential records that were created by the developers from the Managed by group are deleted.
 
 ### Procedure
 
@@ -181,15 +181,15 @@ You can't edit the **Shared** option and add or remove the users in the **Author
 
 6.  Provide access to users.
 
-<table id="choicetable_uvn_mw3_wbc"><thead><tr><th align="left" id="d381677e903">
+<table id="choicetable_uvn_mw3_wbc"><thead><tr><th align="left" id="d378865e903">
 
 Option
 
-</th><th align="left" id="d381677e906">
+</th><th align="left" id="d378865e906">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d381677e912">
+</th></tr></thead><tbody><tr><td id="d378865e912">
 
 **Provide access to all users in the Managed by group**
 
@@ -197,7 +197,7 @@ Action
 
 Select the **Shared** option.
 
-</td></tr><tr><td id="d381677e924">
+</td></tr><tr><td id="d378865e924">
 
 **Provide access to the selected users in the Managed by group**
 

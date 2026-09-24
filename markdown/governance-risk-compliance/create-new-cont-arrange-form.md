@@ -3,11 +3,11 @@ title: Create Contractual arrangement form
 description: On the Create Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-cont-arrange-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Create a contract and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a contract and enhance digital resilience data, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create Contractual arrangement form
@@ -27,6 +27,14 @@ Description
 </th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
 
 Contractual arrangement
+
+</td></tr><tr><td>
+
+Contract
+
+</td><td>
+
+Reference to the Contractual arrangement record that this Digital resilience information record belongs to. This field is auto-filled.
 
 </td></tr><tr><td>
 
@@ -541,7 +549,7 @@ Type of code to identify the ICT third-party service provider
 
 Type of code to identify ICT third-party service provider, for example, LEI.
 
- Starting with version 21.1.x, the field Type of code to identify the ICT third-party service provider is now a choice field in the Digital resilience third-party registers in the contract record. The field aligns with regulator-defined options for selecting identification systems when creating new providers.
+ Starting with version 21.1.x, the field Type of code to identify the ICT third-party service provider is a choice field in the Digital resilience third-party registers in the contract record. The field aligns with regulator-defined options for selecting identification systems when creating new providers.
 
 </td></tr><tr><td>
 
@@ -762,5 +770,5 @@ Identification of alternative ICT TPP
 Supplementary details on the identification of alternative ICT third-party providers \(TPP\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-contract.md)
+</table>**Parent Topic:**[Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-drtp-reg-contract.md)
 

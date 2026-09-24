@@ -1,20 +1,20 @@
 ---
-title: Create a site functional location
-description: Create a site-type functional location so users can work with Industrial Connected Workforce \(ICW\).
+title: Create a functional location of the type site
+description: Create a location for your user to be able to work with the Industrial Connected Workforce \(ICW\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-site-functional-location.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prerequisites, Configure, Digital Factory Workspace, Industrial Connected Workforce]
 ---
 
-# Create a site functional location
+# Create a functional location of the type site
 
-Create a site-type functional location so users can work with Industrial Connected Workforce \(ICW\).
+Create a location for your user to be able to work with the Industrial Connected Workforce \(ICW\).
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_icw.application\_admin
 
 ## About this task
 
-The location is the site. Users must set their location in the user profile to be able to work with ICW. In addition, the filter on task forms works based on the location.
+The location is the site. Every user must set their location in the user profile to be able to work with ICW. In addition, the filter on task forms works based on the location.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ The location is the site. Users must set their location in the user profile to b
 
     3.  On the Equipment Model Entity form, enter the details.
 
-        Select [ISA 95 Default Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/equipment-model-templates.md) for the template and Site for the level.
+        Make sure that you select [ISA 95 Default Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/equipment-model-templates.md) for the template and Site for the level.
 
     4.  Select **Save**.
 
@@ -52,19 +52,19 @@ The location is the site. Users must set their location in the user profile to b
 
     1.  Navigate to the location record associated with the site of the functional location.
 
-    2.  In the **Timezone** field, select the timezone that corresponds to the physical location of the factory.
+    2.  In the **Timezone** field, select the timezone that corresponds to the factory's physical location.
 
-    3.  Select **Save**.
+    3.  Save the location record.
 
 
 ## Result
 
 The functional location of the type site is available in the Digital Factory Workspace, from where you can create child functional locations.
 
-**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
+**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
 
 **Related topics**  
 
 
-[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/equipment-model-workspace.md)
+[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/equipment-model-workspace.md)
 

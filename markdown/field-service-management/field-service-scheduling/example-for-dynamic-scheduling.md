@@ -3,11 +3,11 @@ title: Example - Dynamic Scheduling
 description: Explore how Dynamic Scheduling prioritizes the best agent for a task, focusing on key matching criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/example-for-dynamic-scheduling.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -94,5 +94,5 @@ Consider how the calculation would change if the field agents were not all in th
 **Related topics**  
 
 
-[Configure dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
+[Configure dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
 

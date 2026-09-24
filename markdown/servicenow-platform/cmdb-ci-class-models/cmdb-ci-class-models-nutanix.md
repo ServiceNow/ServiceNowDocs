@@ -3,13 +3,13 @@ title: Nutanix extension classes
 description: The CMDB CI Class Models app adds or updates classes for Nutanix.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-nutanix.html
-release: australia
+release: brazil
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Nutanix extension classes
@@ -26,13 +26,13 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Nutanix Enterprise Cloud platform
 
-The Nutanix Enterprise Cloud platform is a converged, scale-out compute and storage system that hosts and stores virtual machines. All nodes in a Nutanix cluster share the management of cluster resources. The foundational unit for the cluster is a Nutanix node which runs a standard hypervisor and contains processors, memory, and local storage \(SSDs and hard disks\). A Nutanix Controller virtual machine runs on each node, enabling the pooling of local storage from all nodes in the cluster.
+The Nutanix Enterprise Cloud platform is a converged, scale-out compute and storage system that hosts and stores virtual machines. All nodes in a Nutanix cluster share the management of cluster resources. The foundational unit for the cluster is a Nutanix node that runs a standard hypervisor and contains processors, memory, and local storage \(SSDs and hard disks\). A Nutanix Controller virtual machine runs on each node, enabling the pooling of local storage from all nodes in the cluster.
 
 ## Classes
 
 This section lists the classes that the CMDB CI Class Models app adds or updates. See the class columns table for further details about the columns added for each class.
 
-CMDB CI Class Models: Release 1.6.0 adds the following classes for Nutanix. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+CMDB CI Class Models: Release 1.6.0 adds the following classes for Nutanix. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_qnc_3b5_rkb"><thead><tr><th>
 
@@ -119,7 +119,7 @@ Storage Pool \[cmdb\_ci\_storage\_pool\]
 
 </td><td>
 
-Grouping of physical disks within a Nutanix cluster which is typically used to create physical separation between virtual machines.
+Grouping of physical disks within a Nutanix cluster that is typically used to create physical separation between virtual machines.
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Storage Pool \[cmdb\_ci\_storage\_pool\]
 
 </td><td>
 
-Grouping of physical disks within a Nutanix cluster which is typically used to create physical separation between virtual machines.
+Grouping of physical disks within a Nutanix cluster that is typically used to create physical separation between virtual machines.
 
 </td></tr><tr><td>
 
@@ -293,7 +293,7 @@ Storage Pool \[cmdb\_ci\_storage\_pool\]
 
 </td><td>
 
-Grouping of physical disks within a Nutanix cluster which is typically used to create physical separation between virtual machines.
+Grouping of physical disks within a Nutanix cluster that is typically used to create physical separation between virtual machines.
 
 </td></tr><tr><td>
 
@@ -831,5 +831,5 @@ Number of maintained data copies. The replication factor is specified \(2 or 3\)
 **Related topics**  
 
 
-[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

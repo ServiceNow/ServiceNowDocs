@@ -3,11 +3,11 @@ title: Configure advanced settings
 description: Configure the advanced settings to customize the incident display and behavior. For example, enable displaying the sensitive data on an incident and its clone, or specifying fields on the incident to identify the end users. In addition, activate and customize the evidence files preview properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-advanced-settings-dlp.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -218,16 +218,10 @@ The maximum duration to extend the cleanup interval of evidence files \(in minut
 Option to select how long, in minutes, the system keeps your evidence files before cleaning them up.By default, the value is 60.
 
 </td></tr></tbody>
-</table>    **Note:** The DLP integration with a third-party tool \(such as Symantec DLP\) does not automatically map incoming data into custom attribute fields you specify here. Only the incident **Status** and **Severity** fields are mapped automatically from the integration's staging tables. If the data you want to use already exists in the staging table \(for example, `sn_sym_dlp_incident_import` for the Symantec DLP integration\), you can map it manually:
-
-    1.  Create a custom field on the incident table \(`sn_dlir_incident`\).
-    2.  Add a corresponding field map entry to the integration's transform map, mapping the staging table field to your new custom field.
-    The `sn_dlir_custom_field` table is used internally by the application and can't be used as a mapping target.
-
-3.  Select **Save**.
+</table>3.  Select **Save**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
@@ -264,7 +258,7 @@ Option to select how long, in minutes, the system keeps your evidence files befo
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

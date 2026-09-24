@@ -3,11 +3,11 @@ title: Review de-duplication tasks \(manual\)
 description: Review details of de-duplication tasks which remediate duplicate CIs, and then potentially process a de-duplication task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_ResolveDeDuplicationTask.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ Alternatively, you can use de-duplication capabilities in CMDB Workspace. Use th
 -   Process de-duplication tasks in bulk by using de-duplication templates
 -   Gain insights into de-duplication counts and status in your organization
 
-For more information, see [CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
+For more information, see [CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
 
 If a duplicate CI is a dependent CI, then you can view the details of the dependent relationship, the Depend on CI, and any relation qualifier chain. If the dependent CI has a lookup table, then you can see the details of the respective lookup table.
 
@@ -145,14 +145,14 @@ Discovery method used for the CI.
 </table>
 ## What to do next
 
-Analyze de-duplication tasks to determine which CIs should remain active and which of the duplicate CIs in the Duplicate Audit Results lists are stale or incorrect. Select **Remediate** to [remediate a single de-duplication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
+Analyze de-duplication tasks to determine which CIs should remain active and which of the duplicate CIs in the Duplicate Audit Results lists are stale or incorrect. Select **Remediate** to [remediate a single de-duplication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
-**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
+**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 
 **Related topics**  
 
 
-[Relation qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationQualifier.md)
+[Relation qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationQualifier.md)
 
-[Document ID field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingADocumentIDField.md)
+[Document ID field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreatingADocumentIDField.md)
 

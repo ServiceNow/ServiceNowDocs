@@ -3,14 +3,14 @@ title: Set up auto-login for ServiceNow AI Lens
 description: Pre-configure your organization's ServiceNow instance URL so that it appears ready-filled when users launch the ServiceNow AI Lens desktop application, and enable auto-login so that users can skip signing in on subsequent launches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/configure-instance-url-and-auto-login.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2026-04-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Lens, instance URL, auto-login, app-config.json, lens\_enable\_auto\_login]
-breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Set up auto-login for ServiceNow AI Lens
@@ -21,7 +21,7 @@ Pre-configure your organization's ServiceNow® instance URL so that it appears r
 
 Role required: admin
 
-ServiceNow AI Lens must be installed on the user's machine. For more information, see [Download ServiceNow AI Lens and set launch preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
+ServiceNow AI Lens must be installed on the user's machine. For more information, see [Download ServiceNow AI Lens and set launch preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 ## Procedure
 

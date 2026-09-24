@@ -3,11 +3,11 @@ title: Contract approval flow
 description: Use the Contract Approval flow to get approval from the approver defined in the contract. You can edit the existing flow or create a flow in the graphical Workflow Studio to meet your organization's contract approval process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/contract-approval-workflow.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [contract approval workflow]
 breadcrumb: [Contract Management, Common applications, Asset Management]
@@ -29,10 +29,10 @@ Submit your contract for approval by selecting an approver in the contract recor
 
 ## Contract approval process
 
--   Select an **Approver** for the contract and select **Submit for Review**. If the contract's end date is greater than the current date, an approval history record is automatically created to track the status of the approval process. For more information about sending a contract for approval, see [Send the contract for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_SendTheContractForApproval.md).
--   Access the contract approval history record and take an approval action. For more information about viewing the approval history for a contract, see [View approval history on contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_ObtainContractApproval.md). Based on the approval decision on the contract, the state and substate of the contract is updated.
+-   Select an **Approver** for the contract and select **Submit for Review**. If the contract's end date is greater than the current date, an approval history record is automatically created to track the status of the approval process. For more information about sending a contract for approval, see [Send the contract for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_SendTheContractForApproval.md).
+-   Access the contract approval history record and take an approval action. For more information about viewing the approval history for a contract, see [View approval history on contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_ObtainContractApproval.md). Based on the approval decision on the contract, the state and substate of the contract is updated.
 
-**Parent Topic:**[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_ContractManagement.md)
+**Parent Topic:**[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/c_ContractManagement.md)
 
 **Related topics**  
 
@@ -47,9 +47,9 @@ Submit your contract for approval by selecting an approver in the contract recor
 
 [Domain separation and Contract Management]()
 
-[Send the contract for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_SendTheContractForApproval.md)
+[Send the contract for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_SendTheContractForApproval.md)
 
-[Approve or reject a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_ApproveOrRejectAContract.md)
+[Approve or reject a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_ApproveOrRejectAContract.md)
 
-[View approval history on contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_ObtainContractApproval.md)
+[View approval history on contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_ObtainContractApproval.md)
 

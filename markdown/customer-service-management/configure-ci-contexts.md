@@ -3,9 +3,9 @@ title: Configure customer information contexts for the Customer Information view
 description: Associate each list, record, report, and report group configuration you created with a consumer or contact context, depending on who you want to display the information for.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-ci-contexts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Customer Information view using CSM Agent Workspace, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Logins and the employee self-service portal
 description: The system keeps track of the first starting page that a user is trying to access even if the user wants to log in to the Employee Self-Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_LoginsESSP.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define login scenarios, Local authentication, Authentication, Access Management]
 ---

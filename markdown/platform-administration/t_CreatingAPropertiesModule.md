@@ -3,9 +3,9 @@ title: Create a system properties module
 description: You can add a module in the application navigator to access the list of system properties. This module makes it easy to add properties to the System Properties table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreatingAPropertiesModule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -44,7 +44,7 @@ Role required: admin
 
 ## What to do next
 
-If you want to include additional parameters for the list of system properties module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-steps-app-navigator-category.md).
+If you want to include additional parameters for the list of system properties module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-steps-app-navigator-category.md).
 
-**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/p_CoreConfigurationOverview.md)
 

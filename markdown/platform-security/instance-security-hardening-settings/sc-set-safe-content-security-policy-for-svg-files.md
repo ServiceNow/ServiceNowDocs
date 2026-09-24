@@ -3,11 +3,11 @@ title: Set safe content security policy for SVG files
 description: The com.glide.csp.self\_script\_src\_svg property adds the script-src none directive to the HTTP Content-Security-Policy header when Scalable Vector Graphics \(SVGs\) are accessed through the Translation Memory Index \(IIX\) file extension.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-set-safe-content-security-policy-for-svg-files.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platfor
 
 The **com.glide.csp.self\_script\_src\_svg** property adds the **script-src none** directive to the HTTP Content-Security-Policy header when Scalable Vector Graphics \(SVGs\) are accessed through the Translation Memory Index \(IIX\) file extension.
 
-The **com.glide.csp.self\_script\_src\_svg** system property adds "script-src none" to the Content-Security-Policy header when SVGs are accessed via the ".iix" file extension. This prevents the exploitation of stored XSS from crafted file attachments stored within the instance.
+The **com.glide.csp.self\_script\_src\_svg** system property adds **script-src none** to the Content-Security-Policy header when SVGs are accessed via the IIX file extension. This prevents the exploitation of stored XSS from crafted file attachments stored within the instance.
 
-Verify that the property **com.glide.csp.self\_script\_src\_svg** is set to **true**.
+Ensure that the property **com.glide.csp.self\_script\_src\_svg** is set to **true**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -115,5 +115,5 @@ Functional impact
 This property prevents scalable vector graphics \(SVG\) files from accessing external scripts.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

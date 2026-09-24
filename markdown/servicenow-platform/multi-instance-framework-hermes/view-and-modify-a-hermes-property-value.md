@@ -3,11 +3,11 @@ title: Update Hermes messaging settings
 description: Review and modify the current the Hermes configuration properties to control Apache Kafka integration, topic management, and other messaging behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/view-and-modify-a-hermes-property-value.html
-release: australia
+release: brazil
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Hermes, Hermes settings, Hermes configuration, background jobs, hermes\_admin, maint, scheduled jobs]
 breadcrumb: [Managing Hermes settings, Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -44,5 +44,5 @@ Role required: maint or hermes\_admin
     -   If the value was accepted and applied, the message `Properties saved successfully` is displayed.
     -   If the value exceeds the valid range or is invalid, the message `Some properties could not be saved. Invalid values for the following properties` is displayed. Correct the value and save your changes again.
 
-**Parent Topic:**[Managing Hermes settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/manage-hermes-settings.md)
+**Parent Topic:**[Managing Hermes settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/manage-hermes-settings.md)
 

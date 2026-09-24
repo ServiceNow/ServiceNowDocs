@@ -3,10 +3,10 @@ title: Create a custom context variable
 description: Create custom context variables to represent product or non-product characteristics that can be used by pricing admins to apply different pricing features, such as pricing adjustments, or product catalog admins to set product offering eligibility rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-context-variable.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -26,7 +26,7 @@ Role required: admin
 
 As an administrator, you can create custom context variables for items such as non-product characteristics, that your pricing and product catalog administrators can use in rule matrices to control pricing features or product offering eligibility. For example, your pricing administrator might want to define pricing adjustments based on sales segment, but sales segment isn’t a system-defined context variable.
 
-You create the variable name and define the variable type, so that the variable can be used in a decision rule for a rule matrix. After you create the variable, you must also [map the context variable to the transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-map-variable.md), such as quote or order, from which the system retrieves the context.
+You create the variable name and define the variable type, so that the variable can be used in a decision rule for a rule matrix. After you create the variable, you must also [map the context variable to the transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-map-variable.md), such as quote or order, from which the system retrieves the context.
 
 ## Procedure
 
@@ -52,7 +52,7 @@ Type
 
 </td><td>
 
-Context variable type. Choose the type of field for the variable. For example, the choice list field type lets your user select from a predefined list of choices.For more information on the different field types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+Context variable type. Choose the type of field for the variable. For example, the choice list field type lets your user select from a predefined list of choices.For more information on the different field types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md).
 
 **Note:** Depending on the **Type** selected, other fields and sections in the form are displayed.
 
@@ -134,7 +134,7 @@ Pricing api key field
 
 </td><td>
 
-Reference field for a context variable that defines an external ID used in pricing requests in the Sales CRM Pricing API. For more information on external IDs and custom context variables, see [External ID support in Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/external-ids-pricingapi.md).
+Reference field for a context variable that defines an external ID used in pricing requests in the Sales CRM Pricing API. For more information on external IDs and custom context variables, see [External ID support in Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/external-ids-pricingapi.md).
 
 </td></tr><tr><td>
 
@@ -147,18 +147,22 @@ Option that indicates the context variable is available for use in rule matrices
 </td></tr></tbody>
 </table>5.  If you're using the external ID feature in the Sales CRM Pricing API, in the Reference Specification section, select the reference table for the context variable that defines an external ID to be used in a pricing request.
 
-    For more information on external IDs and custom context variables, see [External ID support in Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/external-ids-pricingapi.md).
+    For more information on external IDs and custom context variables, see [External ID support in Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/external-ids-pricingapi.md).
 
-6.  Select **Save**.
+6.  If you're no longer testing product offerings in extended life cycle states, update the value in the **Reference qual condition** field to remove the in\_test and staged conditions.
+
+    The in\_test and staged conditions are present in the **Reference qual condition** field by default. For more information about extended life cycle states, see [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/extended-product-lifecycle-states.md).
+
+7.  Select **Save**.
 
     The tab \(related list\) for the **Type** that you selected in Step 4 and the **Variable Mapping** tab are displayed.
 
-7.  Depending on the **Type** you selected, create the values for the type, then select **Save**.
+8.  Depending on the **Type** you selected, create the values for the type, then select **Save**.
 
     For example, in Step 4, if you selected the Choice type, select **New** in the **Choices** tab and define the choices.
 
 
 ## What to do next
 
-For context variables that are mapped to fields, [map the custom context variable to a transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-map-variable.md).
+For context variables that are mapped to fields, [map the custom context variable to a transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-map-variable.md).
 

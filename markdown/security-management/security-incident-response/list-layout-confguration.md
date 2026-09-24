@@ -3,11 +3,11 @@ title: Configure List Layout in Major Security Incident Management
 description: Configure list layout to customize the layout and labels used in Major Security Incident Management workspace such as Incident Impact, Linked Records, and Threat Intelligence tabs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/list-layout-confguration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -27,9 +27,9 @@ The list layout configurations were already shipped for existing known tables sh
 **Note:**
 
 -   If you want to render the custom view for the existing tables, you can update respective table record in list layout configuration with custom list view.
--   For new task tables, you can create List Layout configuration to render the custom list view and labels. For more detailed procedure, see on how to [Step 4. Create a view for a new Linked Record Tab for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/creating-a-view-for-the-new-linked-record-tab.md)
+-   For new task tables, you can create List Layout configuration to render the custom list view and labels. For more detailed procedure, see on how to [Step 4. Create a view for a new Linked Record Tab for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/creating-a-view-for-the-new-linked-record-tab.md)
 
-**Parent Topic:**[Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
+**Parent Topic:**[Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
 
 **Related topics**  
 

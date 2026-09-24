@@ -3,11 +3,11 @@ title: SCIM Client troubleshooting
 description: Troubleshooting actions can help resolve common issues when setting up or running the SCIM Client.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/scim-client-troubleshooting.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -99,7 +99,7 @@ The following are some of the areas that can be checked for troubleshooting erro
     |Status|Status of the log as a success or failure|
     |Message|Success or error message. The error message can be from the SCIM provider or because of configuration issues in the SCIM Client.|
 
--   Check the request body by configuring and viewing outbound calls. To learn more, see [Outbound web services logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-request-logging.md).
+-   Check the request body by configuring and viewing outbound calls. To learn more, see [Outbound web services logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/outbound-request-logging.md).
 -   Update log levels by adding the content-type, testing the sample, and navigating to corresponding the HTTP Method form in the REST message of the corresponding provider.
 -   If the request body is truncated, then increase the limit by using system property **glide.outbound\_http.content.max\_limit**.
 

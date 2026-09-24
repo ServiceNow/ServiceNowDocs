@@ -3,11 +3,11 @@ title: Edit a dashboard
 description: Customize or edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. If the dashboard has been shared, any changes you make are applied globally.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/edit-dashboard-spw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create a dashboard, Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -25,7 +25,7 @@ Role required: sn\_align\_core.apw\_user
 **Note:**
 
 -   You can edit dashboards that you own or those you’ve been granted permission to edit.
--   Only an administrator can edit the out-of-the-box dashboards, including the Product Idea Dashboard, Feedback Dashboard, Strategy Execution Dashboard, and Execution Dashboard. However, you can [duplicate an out-of-the-box dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/copy-dashboard-spw.md) and customize it as needed.
+-   Only an administrator can edit the out-of-the-box dashboards, including the Product Idea Dashboard, Feedback Dashboard, Strategy Execution Dashboard, and Execution Dashboard. However, you can [duplicate an out-of-the-box dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/copy-dashboard-spw.md) and customize it as needed.
 
 You can use the following elements to create or edit your dashboard.
 
@@ -55,15 +55,15 @@ You can use the following elements to create or edit your dashboard.
 
 3.  From the dashboard header, select **Edit**.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d118881e230">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d118446e230">
 
 For this
 
-</th><th align="left" id="d118881e233">
+</th><th align="left" id="d118446e233">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d118881e239">
+</th></tr></thead><tbody><tr><td id="d118446e239">
 
 **Add a tab**
 
@@ -77,7 +77,7 @@ A new tab appears with the default name New Tab.
 3.  Press Enter to update the name of the tab.
 
 
-</td></tr><tr><td id="d118881e265">
+</td></tr><tr><td id="d118446e265">
 
 **Add a dashboard element**
 
@@ -114,18 +114,18 @@ The dashboard is updated with the latest changes.
 ## What to do next
 
 -   Add more elements and customize your dashboard as required.
--   For detailed instructions on editing a dashboard using the Platform Analytics experience in Strategic Planning, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
+-   For detailed instructions on editing a dashboard using the Platform Analytics experience in Strategic Planning, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md).
 
 **Related topics**  
 
 
-[View a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/view-dashboard-spw.md)
+[View a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/view-dashboard-spw.md)
 
-[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-dashboard-spw.md)
+[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-dashboard-spw.md)
 
-[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/copy-dashboard-spw.md)
+[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/copy-dashboard-spw.md)
 
-[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/share-dashboard-spw.md)
+[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/share-dashboard-spw.md)
 
-[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)
+[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)
 

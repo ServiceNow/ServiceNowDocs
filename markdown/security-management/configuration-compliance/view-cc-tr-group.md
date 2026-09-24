@@ -3,11 +3,11 @@ title: View a remediation task
 description: You can view, or, alternatively, create a remediation task and perform remediation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/view-cc-tr-group.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Configuration Compliance, Unified Security Exposure Mana
 
 You can view, or, alternatively, create a remediation task and perform remediation.
 
-**Important:** You can view the remediation tasks in the Vulnerability Manager Workspace. For more information, see [List page in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-list-page.md).
+**Important:** You can view the remediation tasks in the Vulnerability Manager Workspace. For more information, see [List page in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-list-page.md).
 
 ## Before you begin
 

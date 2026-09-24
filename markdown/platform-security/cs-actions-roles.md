@@ -3,10 +3,10 @@ title: Code Signing actions and required roles
 description: Reference table of Code Signing actions, their descriptions, and the roles required to perform them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-actions-roles.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [code signing, roles, permissions, actions, reference]
 breadcrumb: [Administer and Troubleshoot, Code Signing, Platform Security]
 ---
@@ -35,7 +35,7 @@ Code Signing includes three primary roles with different levels of access:
 
 -   **codesigning\_auditor**
 
-    Read-only access. Can view signature configurations and signing jobs but can't create or modify them.
+    Read-only access. Can view signature configurations, signing jobs, and Code Signing change audit data but can't create or modify them.
 
 
 Many Code Signing actions also require the security\_admin role, which is an elevated role. Users must manually elevate to security\_admin by selecting the profile icon and selecting **Elevate Roles**.
@@ -44,9 +44,9 @@ Many Code Signing actions also require the security\_admin role, which is an ele
 |------|-----------|--------------|-------------|
 |Initial setup and configuration|
 |Assign Code Signing administrator role|Grant the codesigning\_admin role to a user to access the Code Signing configuration experience|admin, security\_admin|Both|
-|Configure Code Signing Enterprise on trusted instance|Activate and configure Code Signing on the trusted instance, including uploading customer signing and COT administration key pairs|admin, security\_admin, codesigning\_admin, sn\_kmf.cryptographic\_manager|Trusted|
+|Configure Code Signing Enterprise on trusted instance|Turn on and configure Code Signing on the trusted instance, including uploading customer signing and COT administration key pairs|admin, security\_admin, codesigning\_admin, sn\_kmf.cryptographic\_manager|Trusted|
 |Upload Code Signing configuration file to protected instance|Import the configuration file generated on the trusted instance to the protected instance|admin, security\_admin, codesigning\_admin, sn\_kmf.cryptographic\_manager|Protected|
-|Configure Code Signing Enterprise on protected instance|Activate and configure Code Signing on the protected instance, including uploading the runtime/notarization key pair|admin, security\_admin, codesigning\_admin, sn\_kmf.cryptographic\_manager|Protected|
+|Configure Code Signing Enterprise on protected instance|Turn on and configure Code Signing on the protected instance, including uploading the runtime/notarization key pair|admin, security\_admin, codesigning\_admin, sn\_kmf.cryptographic\_manager|Protected|
 |Turn on certificate validation|Protect the instance with certificate-based validation|codesigning\_admin, security\_admin, sn\_kmf.cryptographic\_manager|Both|
 |Turn off Code Signing|Disable Code Signing on the protected instance|admin, codesigning\_admin|Both|
 |Certificate management|
@@ -73,6 +73,7 @@ Many Code Signing actions also require the security\_admin role, which is an ele
 |View Code Signing configuration dashboard|Monitor system properties and key settings that control Code Signing|codesigning\_admin, codesigning\_manager, codesigning\_auditor|Both|
 |View MID Server configuration dashboard|Manage and configure trust relationships and certificate settings for MID Servers|codesigning\_admin, codesigning\_manager, codesigning\_auditor|Both|
 |Access Code Signing logs|Access logs to troubleshoot and identify Code Signing failure reasons|codesigning\_admin, codesigning\_manager, codesigning\_auditor|Both|
+|View Code Signing change audit data|View and report on create, update, and delete operations performed on records protected by Code Signing|codesigning\_auditor|Protected|
 
-**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-reference.md)
+**Parent Topic:**[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-reference.md)
 

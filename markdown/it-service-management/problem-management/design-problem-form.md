@@ -3,11 +3,11 @@ title: Redesign the problem form
 description: The form designer allows you to customize elements in the problem form to create different form views, display a field navigator, or provide field properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/design-problem-form.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the problem form, Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -28,8 +28,8 @@ Form design is an alternative to configuring forms that combines several configu
 
 1.  In the form context menu, select **Configure** &gt; **Form Design** to open the form designer in a new browser tab.
 
-2.  Follow the directions in [Form design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormDesign.md) to customize elements in the problem form.
+2.  Follow the directions in [Form design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_FormDesign.md) to customize elements in the problem form.
 
 
-**Parent Topic:**[Configure the problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-configure-forms.md)
+**Parent Topic:**[Configure the problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-configure-forms.md)
 

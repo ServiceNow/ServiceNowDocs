@@ -3,9 +3,9 @@ title: Intent-based order fulfillment
 description: Sales CRM for Telecommunications supports intent-based order fulfillment, translating non-catalog configuration inputs into order tasks without requiring explicit catalog entries for every product variant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/intent-based-order-fulfillment-somt.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [intent-based order fulfillment, order decomposition, non-catalog, SOMT, PSR catalog]
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]

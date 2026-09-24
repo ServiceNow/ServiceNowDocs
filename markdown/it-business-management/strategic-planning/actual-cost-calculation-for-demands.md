@@ -3,11 +3,11 @@ title: Actual cost and effort calculations for demands
 description: Actual cost and effort represent the realized cost and time spent on demands and demand tasks. Values are calculated from approved time cards and hourly rates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/actual-cost-calculation-for-demands.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Demand tasks, Explore, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

@@ -3,11 +3,11 @@ title: Sync profile settings to MID Servers
 description: Push the profile settings to the MID Server instances assigned to the profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/sync-profile-settings-mid-servers.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [sync MID Server profile, MID Server profile settings, sync profile]
 breadcrumb: [Configure MID Servers using profiles, MID Server profiles, Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
@@ -33,7 +33,7 @@ The host machine must have at least 2 GB of system memory in addition to the con
 
 3.  In the **Related Links** section, select **Sync to MID Servers**.
 
-    The **Sync Profile Settings to MID Servers** dialog opens. \[Omitted image "sync-profile-to-mid-servers-dialog.png"\] Alt text: Sync Profile Settings to MID Servers dialog showing sync strategy options
+    The **Sync Profile Settings to MID Servers** dialog opens. \[Omitted image "sync-profile-to-mid-servers-dialog.png"\] Alt text: Sync Profile Settings to MID Servers dialog showing sync strategy options.
 
 4.  In the **Select a sync strategy** list, select a sync strategy.
 
@@ -49,7 +49,7 @@ The host machine must have at least 2 GB of system memory in addition to the con
 
     1.  In the **Related Links** section, select **Compare with MID Servers**.
 
-        The **Compare MID Servers With Profile** dialog opens. \[Omitted image "compare-mid-server-with-profile-dialog.png"\] Alt text: Compare MID Servers With Profile dialog showing attached MID Server details and validation results
+        The **Compare MID Servers With Profile** dialog opens. \[Omitted image "compare-mid-server-with-profile-dialog.png"\] Alt text: Compare MID Servers With Profile dialog showing attached MID Server details and validation results.
 
     2.  Review the attached MID Server details and validation results in the **Details of MID Servers with Mismatch** section.
 

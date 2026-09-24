@@ -3,11 +3,11 @@ title: Knowledge Management Service Portal homepage features
 description: The Knowledge Management Service Portal homepage displays knowledge articles organized by knowledge base and category, as well as featured content and popular articles. Learn how to navigate the homepage to search for and find useful and relevant information quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-service-portal-pages.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -96,7 +96,7 @@ Featured
 
 </td><td>
 
-Lists any knowledge articles that were pinned. For more information, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_PinAnArticle.md).
+Lists any knowledge articles that were pinned. For more information, see [Add a knowledge article to featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_PinAnArticle.md).
 
 </td></tr><tr><td>
 
@@ -117,5 +117,5 @@ Lists the top five articles with the most views.
 </td></tr></tbody>
 </table>**Note:** The Knowledge Management Service Portal homepage is mobile responsive.
 
-**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

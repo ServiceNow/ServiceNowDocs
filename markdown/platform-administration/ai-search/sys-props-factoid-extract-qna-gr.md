@@ -3,13 +3,13 @@ title: System properties for factoid extraction in Q&amp;A Genius Results
 description: A system property determines how the system extracts factoids from knowledge articles when computing Q&amp;A Genius Results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/sys-props-factoid-extract-qna-gr.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Knowledge base articles Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Q&amp;A Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # System properties for factoid extraction in Q&amp;A Genius Results
@@ -30,7 +30,7 @@ glide.ais.genius\_result.qna\_mode
 
 </td><td>
 
-Specifies the factoid extraction mode that you want Q&amp;A Genius Results to use. For more information on factoid extraction, see the [Factoid extraction for Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/factoid-extraction-qa-grs-ais.md) section.
+Specifies the factoid extraction mode that you want Q&amp;A Genius Results to use. For more information on factoid extraction, see the [Factoid extraction for Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/factoid-extraction-qa-grs-ais.md) section.
 
 -   Type: string
 -   Default value: **none**
@@ -41,5 +41,5 @@ Specifies the factoid extraction mode that you want Q&amp;A Genius Results to us
     -   **snippet**: Q&amp;A Genius Result answer cards display the full extracted snippet from the source HTML article, with the factoid highlighted if possible.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-q-a-ais.md)
+</table>**Parent Topic:**[Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/genius-result-q-a-ais.md)
 

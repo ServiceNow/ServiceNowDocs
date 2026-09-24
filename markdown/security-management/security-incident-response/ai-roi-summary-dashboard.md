@@ -3,11 +3,11 @@ title: Review Security Incident AI ROI Summary dashboard
 description: The Security Incident AI ROI Summary dashboard displays time savings, monetary value, and adoption metrics for ServiceNow Otto capabilities. Use this dashboard to measure AI impact across your Security Incident Response team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ai-roi-summary-dashboard.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI ROI dashboard, value realization, time saved, AI adoption, Now Assist for Security Incident Response]
 breadcrumb: [Security Incident AI ROI Summary dashboard overview, View SIR Workspace Dashboards, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]

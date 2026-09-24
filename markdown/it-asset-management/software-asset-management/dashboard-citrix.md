@@ -3,11 +3,11 @@ title: Software Publisher Analytics dashboard for Citrix in Software Asset Manag
 description: View compliance analysis results for Citrix on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/dashboard-citrix.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Software Asset Management publisher pack for Citrix, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -18,9 +18,9 @@ View compliance analysis results for Citrix on the Software Publisher Analytics 
 
 Access the Software Publisher Analytics dashboard by navigating to **All** &gt; **Software Asset** &gt; **Publisher Overview**.
 
-**Note:** The add-on Citrix publisher pack \(com.sn\_samp\_citrix\) [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) must be installed to view the Citrix dashboard tab.
+**Note:** The add-on Citrix publisher pack \(com.sn\_samp\_citrix\) [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) must be installed to view the Citrix dashboard tab.
 
-A discovery process is required for Citrix data to be collected. For ServiceNow Discovery, a user with the admin role must create a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_CreateADiscoverySchedule.md) to run on the Citrix Delivery Controller for communication with the Citrix License Server.
+A discovery process is required for Citrix data to be collected. For ServiceNow Discovery, a user with the admin role must create a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_CreateADiscoverySchedule.md) to run on the Citrix Delivery Controller for communication with the Citrix License Server.
 
 The dashboard is updated whenever a new reconciliation result is available. You can save charts in PNG or JPG format.
 
@@ -60,7 +60,7 @@ Product Results
 
 </td><td>
 
-Number of products that have at least one software model out of compliance.Select the report to view the results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
+Number of products that have at least one software model out of compliance.Select the report to view the results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -125,5 +125,5 @@ License consumption trends for your Citrix software products. Each data point re
  Select a data point to view additional license consumption data for a specific Citrix software product.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management publisher pack for Citrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/citrix-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management publisher pack for Citrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/citrix-publisher-pack.md)
 

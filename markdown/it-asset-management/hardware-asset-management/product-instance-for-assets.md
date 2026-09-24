@@ -3,11 +3,11 @@ title: Product Instance feature in Hardware Asset Management
 description: You can consistently represent a product along all applications, processes, workflows, and user interactions through the Product Instance feature. Changes made to any of the product representations are synchronized automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/product-instance-for-assets.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -74,4 +74,6 @@ Synchronization of PID between an asset, CI, and IBI happens in the following ci
 
     A PID is regenerated and synchronized when any updates are made to the fields of the IBI that are part of the PID configuration parameters.
 
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/exploring-ham.md)
 

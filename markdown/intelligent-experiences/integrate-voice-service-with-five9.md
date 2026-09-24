@@ -3,12 +3,12 @@ title: Integrate ServiceNow voice assistant with Five9
 description: Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Five9 voice service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-voice-service-with-five9.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Five9, voice assistant, voice integration, CCaaS, telephony provider, AI voice agent, SIP]
-breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrate ServiceNow voice assistant with Five9
@@ -17,7 +17,7 @@ Enable users to get support from AI voice agents by integrating a ServiceNow voi
 
 ## Before you begin
 
--   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md) for more information.
+-   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-an-ai-voice-service.md) for more information.
 
 Role required: sn\_aia.admin
 
@@ -65,7 +65,7 @@ Connect your Five9 contact center to a ServiceNow voice assistant using the Sess
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
 
-    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md).
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/voice-agent-reference.md).
 
 9.  In your Five9 IVR, add the **x-snc-param** as a SIP custom header using the Set Variable Module.
 
@@ -84,5 +84,5 @@ Five9 is connected to your ServiceNow voice assistant. Incoming calls routed thr
 
 For live agent transfer configuration and advanced SIP trunk settings, refer to the [Five9 BYO SIP Trunk Integration Guide](https://documentation.five9.com/bundle/byo-sip-trunk-integration-guide/resource/byo-sip-trunk-integration-guide.pdf) or contact Five9 support.
 
-**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
+**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
 

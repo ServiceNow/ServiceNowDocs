@@ -3,11 +3,11 @@ title: SIR Workspace plugins
 description: The following are the required applications to work with Security Incident Response Workspace \(sn\_si\_aw\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/components-installed-with-analyst-workspace.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,9 +32,9 @@ Installing the Security Incident Response application version 13.4.5 or later au
 
 **Enterprise Security Case Management PAD Commons** requires the Playbook Experience \[playbook\_experience\] plugin.
 
-For information on the Security Incident Response roles, tables, properties, and scheduled jobs, see [Components installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/installed-with-sir.md).
+For information on the Security Incident Response roles, tables, properties, and scheduled jobs, see [Components installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/installed-with-sir.md).
 
-**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
+**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
 
 **Related topics**  
 

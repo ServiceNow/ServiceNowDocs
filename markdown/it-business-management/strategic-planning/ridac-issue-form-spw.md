@@ -3,11 +3,11 @@ title: RIDAC Issue form
 description: Use the RIDAC Issue form to create and manage issues that affect your strategic planning items, goals, or EAP iterations. Track planning challenges, obstacles, and problems that need resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/ridac-issue-form-spw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [RIDAC, issue, form, planning item]
 breadcrumb: [Reference, RIDAC, Strategic Planning, Strategic Portfolio Management]

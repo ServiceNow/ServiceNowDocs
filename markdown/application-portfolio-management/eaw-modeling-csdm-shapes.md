@@ -3,9 +3,9 @@ title: Common Service Data Model \(CSDM\) shapes
 description: CSDM is a prescriptive data model that defines standardized relationships between service-related objects in the CMDB. The CSDM shapes represent these objects visually in diagrams, enabling architects to model business capabilities, applications, services, and technical components in alignment with the Now Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-csdm-shapes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -96,14 +96,14 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 |Business Service \[Omitted image "modeling-csdm-bus-serv.png"\] Alt text: Business service|A Business Service represents a service that delivers measurable value to the business. It’s defined from the consumer’s perspective and is typically visible in the service catalog. Serves as the top-level entity in the service hierarchy. Links business capabilities and processes to IT services and applications. Provides visibility into how IT supports business outcomes.|
 |Business Service Offering \[Omitted image "modeling-csdm-bus-serv-offering.png"\] Alt text: Business service offering|A Business Service Offering is a specific variation or package of a Business Service. It defines the service commitments, such as availability, scope, pricing, and support levels. Provides granularity by breaking down a Business Service into consumable options.|
 
-**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-shapes.md)
+**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-shapes.md)
 
 **Related topics**  
 
 
-[CSDM shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/align-with-csdm5.md)
+[CSDM shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/align-with-csdm5.md)
 
-[Working with CSDM shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-csdm-shapes.md)
+[Working with CSDM shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-csdm-shapes.md)
 
-[Create a diagram using CSDM shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-create-diagram-csdm.md)
+[Create a diagram using CSDM shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-create-diagram-csdm.md)
 

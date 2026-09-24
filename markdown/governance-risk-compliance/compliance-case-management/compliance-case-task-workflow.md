@@ -3,11 +3,11 @@ title: Compliance case task workflow
 description: You can collaborate with multiple teams to investigate, perform an impact assessment, and gather the evidence to capture the details and responses for review in the GRC: Compliance Case Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/compliance-case-task-workflow.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -37,10 +37,10 @@ The following example displays the life cycle of a case task.
 
 \[Omitted image "case-task-workflow.png"\] Alt text: Life cycle of a case task.
 
--   **[Create an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-a-case-task.md)**  
+-   **[Create an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/create-a-case-task.md)**  
 Create an action task to investigate, gather evidence, and perform an assessment so that you can analyze and assess a reported case in the GRC: Compliance Case Management application. Each case can have multiple case tasks that you can assign to different owners across multiple teams.
--   **[Work on an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.md)**  
+-   **[Work on an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.md)**  
 Accept the Action task, provide the details requested by the case analyst, and submit the Action task for a review in the GRC: Compliance Case Management application. When an action task is assigned to an assignment group, any user from the assignment group can accept and work on the task.
 
-**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

@@ -3,11 +3,11 @@ title: Configure the SCOM connector instance
 description: Configure the Microsoft System Center Operations Manager \(SCOM\) connector to receive alerts and Metric Intelligence raw data from the SCOM server. SCOM event collection and metric collection are handled by two separate connector definitions: SCOM \(for alerts and bi-directional exchange\) and SCOM Metrics \(for Metric Intelligence raw data\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigureSCOMConnector.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Configure alert collection from SCOM, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -37,7 +37,10 @@ The MID Server that retrieves metrics is configured with the Metric Intelligence
 
 If "Database login with Windows authentication" is selected, the MID Server service must run with a user having read access to the SCOM database \(OperationsManagerDW\).
 
-To configure this: In the local services, right-click the MID Server service and select Properties. In the Log On tab, ensure that "This account" is selected with the details of the Windows domain user that has read access to the SCOM database.
+To configure this:
+
+1.  In the local services, right-click the MID Server service and select Properties.
+2.  In the Log On tab, verify that "This account" is selected with the details of the Windows domain user that has read access to the SCOM database.
 
 If "Database login with Windows authentication" is NOT selected, you need a Windows credential in the credential store that has read access to the OperationsManagerDW database.
 
@@ -167,7 +170,7 @@ SCOM 2025
     5.  Navigate to **Event Management** &gt; **Integrations** &gt; **Connector Instances**.
     6.  Click **New** and create a new connector instance.
 
-        For details on the connector instance fields displayed on the page, see [SCOM connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/scom-connector-instance-form.md).
+        For details on the connector instance fields displayed on the page, see [SCOM connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/scom-connector-instance-form.md).
 
     7.  Select and hold \(or right-click\) the form header and select **Save**.
 
@@ -184,7 +187,7 @@ SCOM 2025
 
             If you receive an event whose date is in a different format, modify this value to match the format of the incoming event. If you do not, the event does not process correctly.
 
-            For example, an event might arrive on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**. Modify the **scom\_date\_format** value to **yyyy/M/d/ h:mm:ss a** to match the format of the received event.
+            For example, an event arrives on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**. Modify the **scom\_date\_format** value to **yyyy/M/d/ h:mm:ss a** to match the format of the received event.
 
             In **scom\_date\_format**, `a` represents AM, and `p` represents PM.
 
@@ -258,5 +261,5 @@ SCOM 2025
 
     9.  After a successful test, select the **Active** check box and select **Update**.
 
-**Parent Topic:**[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)
+**Parent Topic:**[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)
 

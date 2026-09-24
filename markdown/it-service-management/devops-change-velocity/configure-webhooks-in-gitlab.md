@@ -3,11 +3,11 @@ title: Configure webhooks in GitLab manually
 description: Configure webhooks in GitLab manually to send job, push, and issues notifications to the DevOps application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/configure-webhooks-in-gitlab.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [GitLab, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -87,5 +87,5 @@ You can also access manual configuration from the GitLab tool record in DevOps C
     \[Omitted image "gitlab-manual-webhooks-3.png"\] Alt text: Webhooks configured in GitLab.
 
 
-**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
+**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
 

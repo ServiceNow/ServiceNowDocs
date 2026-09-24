@@ -3,11 +3,11 @@ title: Configuring Major Security Incident Management
 description: Install and configure Major Security Incident Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configuring-major-security-incident-management.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,14 +23,14 @@ Install and configure Major Security Incident Management application.
 
 Use this section to learn how to set up the necessary configurations required to work with Major Security Incident records by integrating with other external Microsoft applications to establish connections with ServiceNow instance.
 
--   **[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)**  
+-   **[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/file-explorer.md)**  
 The File Explorer workspace component organizes and tracks the collection of artifacts \(files\) related to a major security incident. It is designed to support integration with any third-party file hosting provider such as Microsoft SharePoint in the Major Security Incident Management workspace.
--   **[Configure Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/chat-channel-provider-config.md)**  
+-   **[Configure Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/chat-channel-provider-config.md)**  
 Configure Major Security Incident Management with Microsoft Teams which helps communication over the chat to resolve Major Security Incident.
--   **[Configure Slack chat connector for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-slack-chat-connector-msi.md)**  
+-   **[Configure Slack chat connector for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-slack-chat-connector-msi.md)**  
 Integrate and collaborate with Slack to resolve Major Security Incident to view and filter collaboration chat activities.
--   **[Customize SI to MSI flows \(optional\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/customize-si-to-msi-flows-for-msim.md)**  
+-   **[Customize SI to MSI flows \(optional\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/customize-si-to-msi-flows-for-msim.md)**  
 Copy and customize the SI to MSI promotion flows to control how File Explorer and chat channels are configured when a Security incident is promoted to a Major Security Incident.
 
-**Parent Topic:**[Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
+**Parent Topic:**[Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
 

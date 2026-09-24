@@ -1,16 +1,16 @@
 ---
-title: Include cases logged using specified communication channels in Auto-Responder notifications
+title: Include cases from communication channels in Auto-Responder
 description: Send Auto-Responder email notifications for customer service cases logged using a communication channel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-auto-responder-channels.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Auto-Responder notifications, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
-# Include cases logged using specified communication channels in Auto-Responder notifications
+# Include cases from communication channels in Auto-Responder
 
 Send Auto-Responder email notifications for customer service cases logged using a communication channel.
 
@@ -20,9 +20,9 @@ Role required: admin
 
 Perform the following tasks.
 
--   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/predictive-intelligence-for-csm.md).
--   Set the application scope to Customer Service using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
--   Ensure that the required channel is already set up for use. For more information, see [Configure omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-comm-channels.md).
+-   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md) and [Predictive Intelligence for CSM solution definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/predictive-intelligence-for-csm.md).
+-   Set the application scope to Customer Service using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
+-   Ensure that the required channel is already set up for use. For more information, see [Consumer messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/set-up-communication-channels.md).
 
 ## About this task
 

@@ -1,18 +1,18 @@
 ---
-title: Create and manage resource plans for a project
+title: Create and manage resource plans for a project in classic Project Workspace
 description: As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/manage-resources-for-project.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create and manage resource plans for a project
+# Create and manage resource plans for a project in classic Project Workspace
 
 As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace.
 
@@ -66,17 +66,17 @@ When you select a resource plan in the resource grid section, the availability d
 
 ## Procedure
 
-1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-the-project-workspace.md) the required project in project workspace.
+1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/access-the-project-workspace.md) the required project in project workspace.
 
 2.  Click the **Resources** tab.
 
-    -   To [create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md), click **New**.
+    -   To [create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md), click **New**.
     -   To view the allocations in weekly or monthly format in the grid, click **Week** or **Month** button. The selected option changes the grid view in both the resource grid and resource finder sections.
 
         The time duration in the grid is displayed based on the earliest start date of the project or resource plans, and the last end date of the project or resource plans.
 
     -   To view the allocations in hours, FTE, or person days format in the grid, click **Hours**, **FTE**, or **Person Days** option in the list. The selected option changes the grid view in both the resource grid section and resource finder section.
-    -   To [search the resources and create a resource plan for them](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-resource-plan-with-finder.md), click the resource finder icon \( \[Omitted image "ResourceFinderIcon.png"\] Alt text: Resource Finder icon \).
+    -   To [search the resources and create a resource plan for them](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/create-resource-plan-with-finder.md), click the resource finder icon \( \[Omitted image "ResourceFinderIcon.png"\] Alt text: Resource Finder icon \).
     -   To show or hide certain columns from the grid view, click the configuration icon \(\[Omitted image "configuration\_investment.png"\] Alt text: Configuration icon\). Hiding or displaying an item column does not update the table. Grouped columns cannot be hidden.
     -   To view the resource allocations at user level, expand a resource plan in the grid. The user level allocations are listed only for Group and Role resource plans.
     -   To edit the planned and allocated hours inline in the grid, double-click a row. You can update the planned hours for future period for resource plans in Requested, Confirmed, and Allocated state.
@@ -85,5 +85,5 @@ When you select a resource plan in the resource grid section, the availability d
     -   To delete a resource plan in the **Actions** column, click the actions icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon \) and select **Delete**.
     -   To request all the resource plans created for the project in the **Actions** column, click the actions icon \(\[Omitted image "ellipsis-vertical-icon.png"\] Alt text: Actions icon\) in the project row and select **Request All**. The icon is enabled when at least one of the listed resource plans for the project is in the Planning or Rejected state.
 
-**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-workspace-classic.md)
 

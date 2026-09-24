@@ -3,11 +3,11 @@ title: Review application service maps
 description: As the application service owner for the application service map, you receive an email notification that the application service map is assigned to you for review. Review mapping results for correctness and either provide your feedback or approve the application service map. The review and approval process is available only for discovered and manually created service instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/review-service-map.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Review and approval of application service maps, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: sm\_app\_owner
 
 Ideally, only the application service owner reviews the planned application service, however, users with the sm\_app\_owner or service\_mapping\_admin role can also perform this task.
 
-Reviewing application service maps is part of the [review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/business-service-approval.md). The process of application service review may take some time as it requires making changes and repeatedly running the mapping process on the application service. Typically, it takes several iterations to arrive at the desired result. Once you are satisfied with the discovery result, you approve the application service.
+Reviewing application service maps is part of the [review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/business-service-approval.md). The process of application service review may take some time as it requires making changes and repeatedly running the mapping process on the application service. Typically, it takes several iterations to arrive at the desired result. Once you are satisfied with the discovery result, you approve the application service.
 
 After you request fixes or approve the application service, the service process task assigned to you closes.
 
@@ -52,15 +52,15 @@ To see documentation for another review phase, click the relevant box in the dia
 
 3.  On the application service map, check that all essential CIs comprising the application service are discovered and mapped correctly.
 
-<table id="choicetable_zzx_gvd_ht"><thead><tr><th align="left" id="d290709e275">
+<table id="choicetable_zzx_gvd_ht"><thead><tr><th align="left" id="d292392e275">
 
 Purpose
 
-</th><th align="left" id="d290709e278">
+</th><th align="left" id="d292392e278">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d290709e284">
+</th></tr></thead><tbody><tr><td id="d292392e284">
 
 **Verify that there are no missing CI connections.**
 
@@ -70,7 +70,7 @@ Pay attention to CIs with no connectors from it to other CIs. For example, in th
 
  If connections and CIs to which they lead are missing, the map does not reflect the real state of the service instance and its operation. Inaccurate data can also be transferred to Event Management, causing imprecise monitoring.
 
-</td></tr><tr><td id="d290709e308">
+</td></tr><tr><td id="d292392e308">
 
 **Verify that there are no CIs that do not belong in the service.**
 
@@ -78,15 +78,15 @@ Pay attention to CIs with no connectors from it to other CIs. For example, in th
 
 Check all CIs comprising the application service map to identify CIs not belonging to this application service. Typically, it is applications supporting internal services. For example, Microsoft Internet Information Services \(IIS\) connecting to Active Directory, may be not part of the application service.
 
-</td></tr><tr><td id="d290709e317">
+</td></tr><tr><td id="d292392e317">
 
 **Check that the connections between CIs are correct.**
 
 </td><td>
 
-[View CI connection attributes in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-connector-properties.md).
+[View CI connection attributes in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/view-connector-properties.md).
 
-</td></tr><tr><td id="d290709e339">
+</td></tr><tr><td id="d292392e339">
 
 **Check that clusters are reflected correctly.**
 
@@ -114,7 +114,7 @@ This type of cluster appears as a CI with a plus sign and the number of CIs in t
 
 \[Omitted image "MapClustersOSClusters.png"\] Alt text: OS cluster
 
-</td></tr><tr><td id="d290709e394">
+</td></tr><tr><td id="d292392e394">
 
 **Check that inclusions are reflected correctly.**
 
@@ -142,10 +142,10 @@ Click the plus \(+\) icon next to a CI.In an inclusion, a server hosts applicati
     The application service status changes to Approved and it appears in the list of completed application services on the **Home** page. The operational status changes to Operational. From this point, other applications can use data collected and organized by Service Mapping.
 
 
-**Parent Topic:**[Review and approval of application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/business-service-approval.md)
+**Parent Topic:**[Review and approval of application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/business-service-approval.md)
 
 **Related topics**  
 
 
-[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
+[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
 

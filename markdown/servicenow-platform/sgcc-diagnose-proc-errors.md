@@ -3,9 +3,9 @@ title: Diagnose a processing error in SGC Central
 description: Diagnose processing errors in connections configured for a Service Graph Connector and resolve them within the SGC Central view of the Service Graph Workspace or CMDB Workspace using recommendations from Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-diagnose-proc-errors.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing connections, SGC Central, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ Diagnose processing errors in connections configured for a Service Graph Connect
 
 ## Before you begin
 
-Verify that the Service Graph Connector diagnosis skill is enabled. For more information, see [Configure the Service Graph Connector diagnosis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Verify that the Service Graph Connector diagnosis skill is enabled. For more information, see [Configure the Service Graph Connector diagnosis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
 Role required: SGC-admin or admin
 

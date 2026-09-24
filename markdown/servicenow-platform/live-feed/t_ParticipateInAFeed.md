@@ -3,11 +3,11 @@ title: Participate in a feed
 description: When you join a feed, you become a feed member.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_ParticipateInAFeed.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use feeds in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,11 +24,11 @@ Role required: none
 
 Feed members can do the following:
 
--   [View messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_ViewAFeed.md) posted to the feed. Non-members can also view the messages for a public feed.
--   [View a list of feed members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_ViewAFeedMember.md).
+-   [View messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_ViewAFeed.md) posted to the feed. Non-members can also view the messages for a public feed.
+-   [View a list of feed members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_ViewAFeedMember.md).
 -   Invite another user to join the feed.
 -   Subscribe to feed email notifications.
--   [Leave the feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_LeaveAFeed.md).
+-   [Leave the feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_LeaveAFeed.md).
 
 ## Procedure
 
@@ -40,5 +40,5 @@ Feed members can do the following:
     -   If the feed is public, click **Join**.
     -   If the feed is private, click **Request**. The feed administrator receives an email notification and must accept your request before you can join the feed.
 
-**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

@@ -3,11 +3,11 @@ title: GitHub Actions configurations
 description: Configuration information on GitHub Actions, such as, secrets, workflows, and limitations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/github-actions-integration-with-devops.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -96,10 +96,10 @@ For composite workflows where one workflow calls another workflow and the change
 -   Callback URL to pause and resume workflow run from the ServiceNow instance is supported only with GitHub Actions Deployment Gates feature. However, change creation is possible through both deployment gates and GitHub Custom Action.
 -   User who creates GitHub tool in the ServiceNow instance must be a reviewer to approve the workflow for GitHub Environments.
 
-**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
+**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
 
 **Related topics**  
 
 
-[Configure webhooks in GitHub manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-webhooks-github-manually.md)
+[Configure webhooks in GitHub manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/config-webhooks-github-manually.md)
 

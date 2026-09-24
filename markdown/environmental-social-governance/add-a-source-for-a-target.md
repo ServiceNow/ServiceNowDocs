@@ -3,9 +3,9 @@ title: Add a source for a target
 description: After you create a target, you must add a source for the target. The source can be a metric or a metric definition that contributes to the parent target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/add-a-source-for-a-target.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an Operational Sustainability Management \(formerly ESG Management\) target, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -31,5 +31,5 @@ Role required: sn\_esg.program\_manager
 4.  Select **Add as target source**.
 
 
-**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-target.md)
+**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-esg-target.md)
 

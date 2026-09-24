@@ -3,11 +3,11 @@ title: Communicating with stakeholders about incidents and major incidents in SO
 description: Use the Communicate tab to create and manage all communications with stakeholders during the various phases of an incident or a major incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -34,7 +34,7 @@ The **Communicate** tab contains the following options to create and manage comm
 
 -   **Compose**
 
-    Compose a communication message, such as an email, DEX Desktop Assistant, SMS, Microsoft Teams, or Slack message. For more information on DEX Desktop Assistant, see [Use DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.md).
+    Compose a communication message, such as an email, DEX Desktop Assistant, SMS, Microsoft Teams, or Slack message. For more information on DEX Desktop Assistant, see [Use DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.md).
 
     **Note:**
 
@@ -63,7 +63,7 @@ The **Communicate** tab contains the following options to create and manage comm
 
     From the ICT record, you can do the following actions:
 
-    -   Initiate a call or chat from the collaborate tab on the side panel using the **Collaborate** \(\[Omitted image "mim-collaborate-icon.png"\] Alt text: Collaborate icon\) icon on the contextual side panel. For more information, see [Collaborate with stakeholders during a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.md).
+    -   Initiate a call or chat from the collaborate tab on the side panel using the **Collaborate** \(\[Omitted image "mim-collaborate-icon.png"\] Alt text: Collaborate icon\) icon on the contextual side panel. For more information, see [Collaborate with stakeholders during a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.md).
     -   Add collaboration channels from the Communication Channel related list of the **Related records** tab.
     -   Add communication channels such as DEX Desktop Assistant from the Communication Channel related list of the **Related records** tab.
 -   **Close**
@@ -81,14 +81,14 @@ The **Communicate** tab contains the following options to create and manage comm
     Increase the **Due in** time for a communication task. Select the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon on the communication task and then select **Snooze**.
 
 
--   **[Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/compose-communication-mim-sow.md)**  
+-   **[Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/compose-communication-mim-sow.md)**  
 Compose communication messages for incidents and major incidents using communication channels such as email and SMS.
--   **[Manage recipients in a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-recipients-mim-sow.md)**  
+-   **[Manage recipients in a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-recipients-mim-sow.md)**  
 Manage the recipients list for a communication task to create flexible and effective communication with the required stakeholders.
--   **[Create an adhoc communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-task-mim-sow.md)**  
+-   **[Create an adhoc communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-task-mim-sow.md)**  
 Create an adhoc communication task as required during the various phases of an incident in Major Incident Management.
--   **[Manage an announcement for communicating about major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-announcements-major-inc.md)**  
+-   **[Manage an announcement for communicating about major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-announcements-major-inc.md)**  
 Create and manage an announcement to broadcast messages for Service Portal users to keep them informed about the ongoing major incident. Major incident managers can create and deploy announcements from Service Operations Workspace \(SOW\).
 
-**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
+**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
 

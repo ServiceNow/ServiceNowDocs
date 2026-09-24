@@ -3,11 +3,11 @@ title: Manage automatically assigned Walk-up Experience interactions
 description: The agents supporting Walk-up Experience locations can view and manage interactions automatically pushed to the Agent Workspace inbox.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/view-auto-assigned-walkup-requests.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage Walk-up Experience queue and interaction, Walk-up Experience, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_walkup.walkup\_technician
 
 Walk-up Experience interactions can be automatically pushed to a personal inbox in Agent Workspace based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature. The agents fulfill interactions on a first-come-first-served basis as they appear in the inbox.
 
-To manually assign and manage interactions using the Walk-up Experience Agent modules found in the application navigator, refer to [Manage Walk-up Experience interactions manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/view-assigned-walkup-requests.md).
+To manually assign and manage interactions using the Walk-up Experience Agent modules found in the application navigator, refer to [Manage Walk-up Experience interactions manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/view-assigned-walkup-requests.md).
 
 The Agents set a status in the Agent Workspace inbox to indicate readiness to accept interactions. Status choices are **Available**, **Away**, and **Offline**.
 
@@ -100,16 +100,16 @@ All Closed Complete and Closed Abandoned interactions assigned to a specific wal
     Closing an interaction affects your capacity because a new interaction will be pushed to your inbox.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 
 **Related topics**  
 
 
-[Agent Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)
+[Agent Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/workspace-landing-page.md)
 
-[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/explore-sow.md)
+[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/explore-sow.md)
 
-[Create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-an-incident.md)
+[Create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-an-incident.md)
 
-[Create a request through a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateARequestThroughTheCatalog.md)
+[Create a request through a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/t_CreateARequestThroughTheCatalog.md)
 

@@ -3,11 +3,11 @@ title: AI Search analytics dashboard
 description: The AI Search analytics dashboard displays key performance metrics, trends, and reports for AI Search usage. Analysts can apply interactive filters to view performance analytics for individual search applications and to select the time frame to analyze.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ai-search-analytics-dashboard.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Advanced AI Search Management Tools, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,13 +16,13 @@ breadcrumb: [Advanced AI Search Management Tools, Search administration, Configu
 
 The AI Search analytics dashboard displays key performance metrics, trends, and reports for AI Search usage. Analysts can apply interactive filters to view performance analytics for individual search applications and to select the time frame to analyze.
 
-To access the AI Search analytics dashboard, navigate to **All** &gt; **Usage Insights**, select an application's **Launch Dashboard** link, then select the Search Analytics icon \[Omitted image "icon-appsee-ai-srch-analytics.png"\] Alt text: or link in the modules menu. To learn more about the Usage Insights dashboard, see [Overview of the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-dashboard.md).
+To access the AI Search analytics dashboard, navigate to **All** &gt; **Usage Insights**, select an application's **Launch Dashboard** link, then select the Search Analytics icon \[Omitted image "icon-appsee-ai-srch-analytics.png"\] Alt text: or link in the modules menu. To learn more about the Usage Insights dashboard, see [Overview of the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/user-exp-analytics-dashboard.md).
 
-**Note:** If the dashboard doesn't load, follow the steps from [Configure Service Portal to send analytics data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/adv-ais-enable-sp-analytics-data.md) to enable it.
+**Note:** If the dashboard doesn't load, follow the steps from [Configure Service Portal to send analytics data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/adv-ais-enable-sp-analytics-data.md) to enable it.
 
 In the **Queries** section of the dashboard, you can view the query lists on their own page by selecting **View all**. To return to the main dashboard from the sub-page, select **AI Search Analytics**.
 
-You can improve the visual experience by using the dark theme. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
+You can improve the visual experience by using the dark theme. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md).
 
 ## Required ServiceNow AI Platform roles
 

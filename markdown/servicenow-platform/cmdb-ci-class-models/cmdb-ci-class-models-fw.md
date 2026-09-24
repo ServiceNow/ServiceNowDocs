@@ -3,13 +3,13 @@ title: Firewall extension classes
 description: The CMDB CI Class Models app adds or updates classes for firewall devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-fw.html
-release: australia
+release: brazil
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Firewall extension classes
@@ -34,7 +34,7 @@ A firewall is a network security system that, based on security policies, monito
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models app adds or updates.See the class columns table for further details about the columns added for each class. CMDB CI Class Models: Release 1.10.0 adds or updates the following classes for the discovery of network firewall devices. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models app adds or updates.See the class columns table for further details about the columns added for each class. CMDB CI Class Models: Release 1.10.0 adds or updates the following classes for the discovery of network firewall devices. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_kbv_s5d_dlb"><thead><tr><th>
 
@@ -94,7 +94,7 @@ Network Interface \[cmdb\_ci\_ni\_interface\]
 
 </td><td>
 
-Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/fortinet-fw-vdoms-rest-discovery.md).
+Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/fortinet-fw-vdoms-rest-discovery.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Firewall Security Policy \[cmdb\_ci\_firewall\_sec\_policy\]
 
 </td><td>
 
-Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/fortinet-fw-vdoms-rest-discovery.md).
+Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/fortinet-fw-vdoms-rest-discovery.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ IP Firewall \[cmdb\_ci\_ip\_firewall\]
 
 </td><td>
 
-Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/fortinet-fw-vdoms-rest-discovery.md).
+Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/fortinet-fw-vdoms-rest-discovery.md).
 
 </td></tr><tr><td>
 
@@ -278,5 +278,5 @@ CMDB CI Class Models: Release 1.12.0 adds no columns to the existing classes.
 **Related topics**  
 
 
-[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

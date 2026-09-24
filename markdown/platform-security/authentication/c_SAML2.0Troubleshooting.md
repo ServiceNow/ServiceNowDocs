@@ -3,11 +3,11 @@ title: SAML 2.0 troubleshooting
 description: Before contacting support, try the troubleshooting solutions available in the knowledge base on Hi.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_SAML2.0Troubleshooting.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

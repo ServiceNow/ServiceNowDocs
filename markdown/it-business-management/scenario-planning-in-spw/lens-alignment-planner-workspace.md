@@ -3,11 +3,11 @@ title: Lenses in Strategic Planning
 description: Lenses represent planning perspectives, which would be different for planning managers at different levels in an organization. Lenses enable you to create personalized portfolio plans through which you prioritize and align work with high-level initiatives and goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/lens-alignment-planner-workspace.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -110,7 +110,7 @@ Digital Product
 
 Plan, prioritize, and roadmap work for digital products.
 
- If the ServiceNow® Digital Product Release Workspace is installed, the planning items associated with the product enhancement appear in the **Planning items** tab of the Release scope page in Digital Product Release Workspace. For details, see [Scope of a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpr-work-release-scope.md).
+ If the ServiceNow® Digital Product Release Workspace is installed, the planning items associated with the product enhancement appear in the **Planning items** tab of the Release scope page in Digital Product Release Workspace. For details, see [Scope of a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dpr-work-release-scope.md).
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Enterprise architect
 
 </td><td>
 
-Plan, prioritize, and roadmap the work based on your business capabilities or business applications.This lens can be used only if the [ServiceNow® Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md) is installed.
+Plan, prioritize, and roadmap the work based on your business capabilities or business applications.This lens can be used only if the ServiceNow® Enterprise Architecture Workspace is installed.
 
 </td></tr><tr><td>
 
@@ -239,8 +239,8 @@ Planning items
 Plan, prioritize, and roadmap the work directly with planning items, without configuring organization structure, programs, portfolios, or products.
 
 </td></tr></tbody>
-</table>-   If you're an admin, you can modify the structure for these pre-defined lenses or configure a new lens altogether based on your planning manager's requirements. For more information, see [Lens configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-lens-in-alignment-planner-workspace.md).
--   If you're a planning manager, learn about portfolio plans to start aligning your work with the business strategy. See [Portfolio plans in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/portfolio-plans-in-strategic-planning.md).
+</table>-   If you're an admin, you can modify the structure for these pre-defined lenses or configure a new lens altogether based on your planning manager's requirements. For more information, see [Lens configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configuring-lens-in-alignment-planner-workspace.md).
+-   If you're a planning manager, learn about portfolio plans to start aligning your work with the business strategy. See [Portfolio plans in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/portfolio-plans-in-strategic-planning.md).
 
-**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
+**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

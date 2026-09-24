@@ -1,20 +1,20 @@
 ---
 title: Set reviewers and approvers for a document version
-description: Configure a reviewer and one or more approvers on a document version before you submit it, so the version is reviewed and approved before it publishes.
+description: Configure a reviewer and one or more approvers on a document version before submitting it, so the version is reviewed and approved before it publishes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/set-reviewers-and-approvers-for-a-document.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Document version workflow, Using Document Management System in Audit Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Document version workflow, Using Document Management System in Audit Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Set reviewers and approvers for a document version
 
-Configure a reviewer and one or more approvers on a document version before you submit it, so the version is reviewed and approved before it publishes.
+Configure a reviewer and one or more approvers on a document version before submitting it, so the version is reviewed and approved before it publishes.
 
 ## Before you begin
 

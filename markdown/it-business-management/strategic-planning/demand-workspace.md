@@ -3,11 +3,11 @@ title: Next Experience for Demand Management in Strategic Planning
 description: Next Experience for Demand Management enables you to create, evaluate, and prioritize demands throughout the demand life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demand-workspace.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 ---
@@ -22,19 +22,19 @@ Next Experience for Demand Management enables you to create, evaluate, and prior
 
 <table id="table_is2_hh1_dzb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Next Experience for Demand Management features and business value.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/explore-demand-workspace.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Next Experience for Demand Management features and business value.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/explore-demand-workspace.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure Next Experience for Demand Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/setting-up-demand-workspace.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure Next Experience for Demand Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/setting-up-demand-workspace.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-manage.svg"\] Alt text:Create and manage demands, use playbooks, and manage financials and resources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-demands-dmnd-wpc.md)
+[Use\[Omitted image "bus-manage.svg"\] Alt text:Create and manage demands, use playbooks, and manage financials and resources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/use-demands-dmnd-wpc.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about demand components like roles, tables, properties, forms, and lists.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-workspace-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about demand components like roles, tables, properties, forms, and lists.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/demand-workspace-reference.md)
 
 </td></tr></tbody>
 </table>Next Experience for Demand Management provides organizations and teams with a structured way to capture, assess, and prioritize different types of work before committing to executing them. Using Next Experience for Demand Management, demand managers can review incoming requests, assess business cases and capacity, estimate costs, evaluate risks, and decide which demands are worth moving forward. Playbooks enable teams to define different governance processes as well.

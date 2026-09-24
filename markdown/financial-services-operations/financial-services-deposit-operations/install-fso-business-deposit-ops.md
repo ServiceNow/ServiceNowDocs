@@ -3,11 +3,11 @@ title: Install Financial Services Business Deposit Operations
 description: You can install the Financial Services Business Deposit Operations application \(sn\_bom\_deposit\_b2b\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/install-fso-business-deposit-ops.html
-release: australia
+release: brazil
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Install, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,7 +32,7 @@ The following items are installed with Financial Services Business Deposit Opera
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Financial Services Business Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/installed-with-business-deposit-ops.md).
+For more information, see [Components installed with Financial Services Business Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-deposit-operations/installed-with-business-deposit-ops.md).
 
 ## Procedure
 
@@ -55,5 +55,5 @@ For more information, see [Components installed with Financial Services Business
 5.  Select **Install**.
 
 
-**Parent Topic:**[Install Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/install-deposit-operations.md)
+**Parent Topic:**[Install Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-deposit-operations/install-deposit-operations.md)
 

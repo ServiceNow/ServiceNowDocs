@@ -3,11 +3,11 @@ title: Enable the Field Service territory model
 description: Activate the territory model to display the Territory field in the work order task form so the task can be assigned to an agent or crew associated with the selected territory. The territory model maintains a record of territories mapped to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/enable-territory-model.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Territory Planning, Set up workforce, Configure, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_fsm\_tp.territory\_admin
 
 ## About this task
 
-Activate the Field Service Territory Planning plugin \(com.snc.fsm\_territory\_planning\). For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md).
+Activate the Field Service Territory Planning plugin \(com.snc.fsm\_territory\_planning\). For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md).
 
 ## Procedure
 
@@ -39,7 +39,7 @@ Activate the Field Service Territory Planning plugin \(com.snc.fsm\_territory\_p
 
 After activating the Field Service territory model successfully, the **Territory** field is added to the work order task form. It allows you to assign tasks to agents or crews to specific territories.
 
-The agent's calendar filters based on territories in the Dispatcher Workspace, and the **Qualifier type for Schedule Optimization** system property is automatically set to **Territory**. For more information, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-properties.md).
+The agent's calendar filters based on territories in the Dispatcher Workspace, and the **Qualifier type for Schedule Optimization** system property is automatically set to **Territory**. For more information, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-optimization-properties.md).
 
 Moreover, with **sn\_fsm.use\_query\_rules** query rule being active, agents, dispatchers, and qualifiers can view the work order tasks if they are created in their territories, ensuring data security.
 

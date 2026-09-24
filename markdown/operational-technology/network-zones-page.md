@@ -3,9 +3,9 @@ title: Network Zones page
 description: The Network Zones page in the Appliances section includes a list of all Network Zones on the Console. Network zones group assets by IP address to help distinguish one or more assets that share an IP address but are in different local area networks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/network-zones-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -29,5 +29,5 @@ The following image shows an example of the Network Zones page.
 
 \[Omitted image "network-zones-page.png"\] Alt text: Network Zones page
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/using-discovery-console.md)
 

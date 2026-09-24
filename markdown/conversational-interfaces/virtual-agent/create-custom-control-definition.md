@@ -3,14 +3,14 @@ title: Create a custom control definition
 description: Define a custom input or response control definition that maps to a custom component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-custom-control-definition.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Create, Virtual agent, custom control definition, Conversational Interfaces]
-breadcrumb: [Customizing Virtual Agent with custom controls, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use custom controls, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a custom control definition
@@ -128,9 +128,9 @@ Domain where this control is used.
 
 ## Result
 
-The custom control definition is available for use. You can specify it when you create the appropriate control in Virtual Agent Designer.
+The custom control definition is available for use. You can specify it when you create the appropriate control in Assistant Designer.
 
 ## What to do next
 
-[Create the custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-custom-control.md) in Virtual Agent Designer.
+[Create the custom control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-custom-control.md) in Assistant Designer.
 

@@ -3,9 +3,9 @@ title: Launch in Studio from RPA Hub
 description: Review, edit, and debug automations by opening the associated package version of the bot process in the RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/launch-studio.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Review, edit, and debug automations by opening the associated package version of
 
 ## Before you begin
 
-Associate a package and a package version to the bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Associate a package and a package version to the bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_support\_user or sn\_rpa\_fdn.rpa\_admin
 
@@ -36,15 +36,15 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_support\_user or s
 
 7.  Select one of the following options depending on whether you are on a remote or local machine.
 
-<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d220400e151">
+<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d218350e151">
 
 Option
 
-</th><th align="left" id="d220400e154">
+</th><th align="left" id="d218350e154">
 
 Action and description
 
-</th></tr></thead><tbody><tr><td id="d220400e160">
+</th></tr></thead><tbody><tr><td id="d218350e160">
 
 **Remote Machine**
 
@@ -64,7 +64,7 @@ Ensure to add the robot and connect to the Unattended Robot application.
 
  The associated package version opens in the selected robot machine.
 
-</td></tr><tr><td id="d220400e210">
+</td></tr><tr><td id="d218350e210">
 
 **Local Machine**
 
@@ -78,5 +78,5 @@ Select **Launch**.The associated package version opens in the Windows machine \(
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/monitoring-automations-rpa.md)
+**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/monitoring-automations-rpa.md)
 

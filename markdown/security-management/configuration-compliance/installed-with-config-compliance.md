@@ -3,11 +3,11 @@ title: Components installed with Configuration Compliance
 description: Several types of components are installed with activation of the Configuration Compliance plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/installed-with-config-compliance.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Reference, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -18,7 +18,7 @@ Several types of components are installed with activation of the Configuration C
 
 Starting with v15.1.5 of Configuration Compliance, the most frequently used system properties are now accessible within the Configuration Compliance application. To view these system properties, navigate to **All**Configuration Compliance**Properties**.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 

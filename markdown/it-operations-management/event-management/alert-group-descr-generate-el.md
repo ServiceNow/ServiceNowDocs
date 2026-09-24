@@ -3,14 +3,14 @@ title: Generate an alert group description in Express List using ServiceNow Otto
 description: Use AI to generate a meaningful description of an alert group in Express List that encompasses all the alerts within the group. The generated description replaces the original description of the group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-group-descr-generate-el.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, Express List, alert analysis, alert group, summary, description]
-breadcrumb: [Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Generate an alert group description in Express List using ServiceNow Otto

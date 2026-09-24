@@ -3,11 +3,11 @@ title: Add a workspace application to the Unified Navigation search context menu
 description: Enable users to view results for their Unified Navigation searches in workspace applications as well as in global search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/add-app-search-context-polaris-ui.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ Enable users to view results for their Unified Navigation searches in workspace 
 
 You must be using Next Experience UI.
 
-The workspace application that you want to add to the search context menu must be installed. A search application configuration record must exist for the workspace, with AI Search specified as the search engine. If you need to create a new search application configuration record for the workspace, see [Create a search application configuration for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-app-config-ais.md).
+The workspace application that you want to add to the search context menu must be installed. A search application configuration record must exist for the workspace, with AI Search specified as the search engine. If you need to create a new search application configuration record for the workspace, see [Create a search application configuration for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-search-app-config-ais.md).
 
 Role required: admin
 
@@ -53,7 +53,7 @@ You can add a workspace application, such as CSM/FSM Configurable Workspace, to 
         |Page|Use the Lookup using list icon \[Omitted image "icon-lookup-using-list.png"\] Alt text: to select the UX Application record for your workspace.|
         |Name|Enter `globalSearchDataConfigId`.|
         |Type|Select **string**.|
-        |Value|Enter the search application configuration record sys\_id that you copied in step [1.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/add-app-search-context-polaris-ui.md).|
+        |Value|Enter the search application configuration record sys\_id that you copied in step [1.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/add-app-search-context-polaris-ui.md).|
 
     4.  Select **Submit**.
 
@@ -120,7 +120,7 @@ Enter the following JSON:```json
 }
 ```
 
- Replace the `globalSearchViewConfigId` value of `00000000000000000000000000000000` with the Workspace Global Search Configuration record sys\_id that you copied in step [3.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/add-app-search-context-polaris-ui.md). For example, if you selected the Workspace search settings record, replace the value with `97a574ea53c0130084acddeeff7b12a6`.
+ Replace the `globalSearchViewConfigId` value of `00000000000000000000000000000000` with the Workspace Global Search Configuration record sys\_id that you copied in step [3.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/add-app-search-context-polaris-ui.md). For example, if you selected the Workspace search settings record, replace the value with `97a574ea53c0130084acddeeff7b12a6`.
 
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
@@ -193,9 +193,9 @@ Enter the following JSON:```json
 
 ## Result
 
-The chosen workspace appears as an option in the Unified Navigation search context menu for users who have it assigned. Users can switch to the workspace's search context. For more details on using the search context menu to switch application contexts, see [View and open search results using workspace applications in Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-polaris-ui.md).
+The chosen workspace appears as an option in the Unified Navigation search context menu for users who have it assigned. Users can switch to the workspace's search context. For more details on using the search context menu to switch application contexts, see [View and open search results using workspace applications in Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/global-search-polaris-ui.md).
 
-**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
+**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
 
 **Related topics**  
 

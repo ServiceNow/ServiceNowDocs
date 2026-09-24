@@ -3,11 +3,11 @@ title: Create dynamic filtered card displays
 description: Create an interactive card layout to display records, add a dropdown to filter visible cards by name, and configure each card to open the full record in another UI Builder page when selected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/comp-ex-dynamic-filtered-card.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 keywords: [UI Builder, UIB, Components, Repeater, Heading, Label value, Stylized text, Highlighted value, Dropdown, Card base container, Use case]
 breadcrumb: [Learn components by example, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
@@ -27,7 +27,7 @@ This example shows how to bind data to components so you can display record info
 
 This procedure uses UI Builder components to create dynamic, interactive layouts. For more information on how to configure components, see:
 
--   [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md)
+-   [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md)
 -   [UI Builder Quick Bits: Navigating Component Configuration](https://www.servicenow.com/community/next-experience-blog/ui-builder-quick-bits-navigating-component-configuration/ba-p/3181624)
 
 <table id="table_exc_zzf_dhc"><thead><tr><th>
@@ -103,15 +103,15 @@ Stylized text
 
 3.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 4.  Create a page from scratch.
 
-    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 5.  Create a data resource to pull records from the Incident table.
 
-    Data resources expose data from tables and records to the page. In this example, we add a data resource to pull records from the incident table so we can display them using components. For more information, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-data-resources.md).
+    Data resources expose data from tables and records to the page. In this example, we add a data resource to pull records from the incident table so we can display them using components. For more information, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-data-resources.md).
 
     1.  In the **Data and scripts** drawer, under **Data resources**, select **+ Add data resource**.
 
@@ -185,7 +185,7 @@ Enter `25`.
 
 7.  Add and configure a repeater on your page with data binding.
 
-    Data binding is the process of associating data exposed by a data resource with a component. In this example, we bind the results of our **Incident lookup** data resource to the **Data array** property of the repeater component. For more information, see [Connect data components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data-components.md).
+    Data binding is the process of associating data exposed by a data resource with a component. In this example, we bind the results of our **Incident lookup** data resource to the **Data array** property of the repeater component. For more information, see [Connect data components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/connect-data-components.md).
 
     1.  In the content tree, under **Column 1**, select **+ Add content**.
 
@@ -319,7 +319,7 @@ Enter `25`.
 
 14. Create a client state parameter to track user selections.
 
-    The client state parameter can be modified by components when they trigger events. For more information, see [Client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/client-state-parameters.md).
+    The client state parameter can be modified by components when they trigger events. For more information, see [Client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/client-state-parameters.md).
 
     1.  In the **Data and scripts** drawer, next to **Client state parameters**, select the **+** icon.
 
@@ -644,5 +644,5 @@ sysId
     \[Omitted image "comp-ex-dfc-result.png"\] Alt text: Preview of UI Builder page showing the card display filtered for a specific user.
 
 
-**Parent Topic:**[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-components-by-example.md)
+**Parent Topic:**[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/learning-components-by-example.md)
 

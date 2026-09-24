@@ -3,11 +3,11 @@ title: Cancel an appointment as a customer
 description: Cancel a service appointment from either the Customer or the Consumer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/appt-booking-cancel-appt-UI.html
-release: australia
+release: brazil
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing appointments as a customer, Managing appointments, Use, Field Service Management]
 ---

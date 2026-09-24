@@ -3,11 +3,11 @@ title: Schedule risk assessments in the Risk Workspace
 description: Schedule risk assessments automatically for multiple entities. The risk assessment scheduler helps the risk managers save time by automatically initiating the assessments based on the defined frequency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/schedule-risk-assessment-workspace.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ In most organizations, the second line of risk managers is responsible for coord
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text:.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: List icon..
 
 3.  Navigate to **Risk assessment planning** &gt; **Scheduled assessments**.
 
@@ -177,5 +177,5 @@ Number of days within which the assessment should be completed after it’s init
 
 The assessments are initiated. You can view all the scheduled assessments under **Risk assessment planning** &gt; **Scheduled assessments**.
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

@@ -3,11 +3,11 @@ title: Configuring MFA with SSO
 description: Enforce MFA with SSO for your users within or outside your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-mfa-with-sso.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [MFA with SSO, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Enforce MFA with SSO for your users within or outside your organization.
 
 ## Before you begin
 
-The MFA with SSO feature is offered as a part of the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\). You must enable the Adaptive authentication property for using MFA with SSO feature. To know more on how to set up Adaptive authentication, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication.md).
+The MFA with SSO feature is offered as a part of the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\). You must enable the Adaptive authentication property for using MFA with SSO feature. To know more on how to set up Adaptive authentication, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/adaptive-authentication.md).
 
 **Note:** MFA with SSO login is available if the **glide.authenticate.mfa.with.multisso.enabled** property is set to **true**.
 
@@ -102,7 +102,7 @@ The type of condition that you want to apply for the policy. You can add filter 
 **Related topics**  
 
 
-[Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication.md)
+[Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/adaptive-authentication.md)
 
-[Multi-factor Authentication with Single Sign-On](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-sso.md)
+[Multi-factor Authentication with Single Sign-On](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-sso.md)
 

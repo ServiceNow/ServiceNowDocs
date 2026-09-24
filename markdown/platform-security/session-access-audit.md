@@ -3,9 +3,9 @@ title: Session Access Audits
 description: The Session Access Audits displays the Session Access logs and information related to a user's session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/session-access-audit.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System properties, Zero Trust Access, Access Management]
 ---

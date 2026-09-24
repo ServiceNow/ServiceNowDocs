@@ -3,12 +3,12 @@ title: Create a Threat Response policy
 description: Automatically contain an AI agent when a specific threat is detected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-create-threat-response-policy.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Policies, Threat Response, Control Framework, containment]
-breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Threat Response, Control Framework, containment]
+breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create a Threat Response policy
@@ -17,7 +17,7 @@ Automatically contain an AI agent when a specific threat is detected.
 
 ## Before you begin
 
-Confirm the connector for each AI agent runtime platform you want to cover is active. See [Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-security-connections.md).
+Confirm the connector for each AI agent runtime platform you want to cover is active. See [Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-security-connections.md).
 
 Role required: sn\_ai\_governance.ai\_steward
 
@@ -37,7 +37,7 @@ A Threat Response policy watches for a specific threat type. Once conditions mat
 
 5.  In the On threat section, select the threat type the policy watches for, such as **Prompt Injection**.
 
-    For the full list, see [Threat types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-threat-categories.md).
+    For the full list, see [Threat types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-threat-categories.md).
 
 6.  In the On threat section, define which agents the policy covers.
 
@@ -51,15 +51,15 @@ A Threat Response policy watches for a specific threat type. Once conditions mat
 
     A follow-up fires only when the policy actually blocks an attempt, not just because it's published.
 
-<table id="choicetable_tqh_bxr_jkc"><thead><tr><th align="left" id="d162949e206">
+<table id="choicetable_tqh_bxr_jkc"><thead><tr><th align="left" id="d151314e206">
 
 Follow-up action
 
-</th><th align="left" id="d162949e209">
+</th><th align="left" id="d151314e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d162949e215">
+</th></tr></thead><tbody><tr><td id="d151314e215">
 
 **Create a ticket**
 
@@ -70,7 +70,7 @@ Description
 3.  Select the assignment group that will receive the ticket.
 
 
-</td></tr><tr><td id="d162949e242">
+</td></tr><tr><td id="d151314e242">
 
 **Notify**
 
@@ -87,11 +87,11 @@ Description
 
 ## Result
 
-The policy runs as soon as a matching threat is detected. The affected agent is taken offline and stays offline until it's reinstated from Security. For details, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
+The policy runs as soon as a matching threat is detected. The affected agent is taken offline and stays offline until it's reinstated from Security. For details, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
 ## What to do next
 
-Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 
-You can edit a Threat Response policy directly to change its threat type, scope, sensitivity, or follow-up actions. For details, see [Edit a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-edit-threat-response-policy.md). Alternatively, clone the policy to test a variant without changing the original, then deactivate the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-clone-policy.md).
+You can edit a Threat Response policy directly to change its threat type, scope, sensitivity, or follow-up actions. For details, see [Edit a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-edit-threat-response-policy.md). Alternatively, clone the policy to test a variant without changing the original, then deactivate the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-clone-policy.md).
 

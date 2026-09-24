@@ -3,14 +3,14 @@ title: Zero Copy Connector for ERP Source to Settle content pack models
 description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Source to Settle content pack contains models that you may need when interacting with an SAP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-data-product-source-to-settle-models.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
 last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, content, pack, content pack, source, settle, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Source to Settle, Available content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Source to Settle, Available content packs, Content packs, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Source to Settle content pack models
@@ -30,4 +30,6 @@ The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Source to Settl
 |Purchase Requisition|Retrieve information about a specific purchase requisition, such as the quantity of a material or service and the date needed.|ERP|RFC/BAPI|
 |Purchase Requisitions - List|Retrieve a list of purchase requisitions.|ERP|RFC/BAPI|
 |Purchasing Info Record|Retrieve details about a specific purchasing info record, such as prices, conditions, and sources for materials.|ERP|RFC/BAPI|
+
+**Parent Topic:**[Zero Copy Connector for ERP Source to Settle content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-source-to-settle-data-product.md)
 

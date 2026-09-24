@@ -3,9 +3,9 @@ title: TRM lifecycle timelines on Gantt chart
 description: For Technology Reference Model \(TRM\), the application services \(hardware models and software products\) are displayed in a hierarchical structure, similar to the TLM view. The corresponding lifecycle timelines of the application services are displayed as bars on the Gantt chart. It also displays the data for lifecycles with wild card versions. The TRM wildcard version ends with a ‘\*’.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-lifecycle-timelines-on-gantt-chart.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Gantt view of TLM and TRM lifecycle timelines, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -40,7 +40,7 @@ The TRM view also displays the status of the TRM phases of the software products
 
 If no TRM product lifecycle data is available for an application service, then the TRM phase for that service is displayed as **Not assessed**.
 
-If a TRM product phase doesn’t have the **Production approved** check box \(**Enterprise Architecture Workspace** &gt; **Setup** &gt; **TRM Phases**\) selected, the TRM phase column displays the status as **Unapproved**. For details on how to approve a TRM phase, see [Approve or reject TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-approve-trm-req.md).
+If a TRM product phase doesn’t have the **Production approved** check box \(**Enterprise Architecture Workspace** &gt; **Setup** &gt; **TRM Phases**\) selected, the TRM phase column displays the status as **Unapproved**. For details on how to approve a TRM phase, see [Approve or reject TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-approve-trm-req.md).
 
 The TRM phase for an application service is displayed in the TRM phase column only when two conditions are met. The phase must be marked as production approved and the phase start date must have already passed. For example, the TRM phase **Divest** is marked as production approved and has a start date of 01-12-2023. The current date is 10-12-2023. In such a scenario, all application services associated with the TRM phase have their phase status as **Divest** in the TRM phase column.
 
@@ -53,13 +53,14 @@ If you have TRM products that aren't aligned with TRM phases and standards, then
 |TRM Product Name|Not applicable|Product lifecycle|The software version isn’t defined in the TRM product lifecycle.|No TRM lifecycle is available for the TRM product.|
 |TRM Product Name|Not applicable|Product lifecycle|The software version isn’t defined in the TRM product lifecycle.|TRM lifecycle with full version information isn’t available.|
 |TRM Product Name|Not applicable|Product lifecycle|The software version isn’t defined in the TRM product lifecycle.|TRM lifecycle with version information isn’t available.|
+|TRM Product Name|Not applicable|Product lifecycle|The software version isn’t defined in the TRM product lifecycle.|TRM lifecycle with version information isn’t available.|
 |TRM Product Name|Lifecycle phase|Product lifecycle|The software version isn’t approved for production.|TRM lifecycle with full version information isn’t production approved.|
 |TRM Product Name|Not applicable|Product lifecycle|The software version isn’t approved for production.|TRM lifecycle with full version isn’t available for current date.|
 |TRM Product Name|Lifecycle phase|Product lifecycle|The software version isn’t approved for production.|TRM lifecycle with version and edition information isn’t production approved.|
 
-For details on TRM technical debts, see [TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md).
+For details on TRM technical debts, see [TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md).
 
-You can schedule the **Populate TRM technical debts in the EA Workspace** job to update the TRM technical debt data in the EA Workspace. For more information, see [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
+You can schedule the **Populate TRM technical debts in the EA Workspace** job to update the TRM technical debt data in the EA Workspace. For more information, see [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
 
 ## Lifecycle end-date calculation logic
 
@@ -73,28 +74,28 @@ For the last phase, the end date is calculated by adding the time value as defin
 
 The TRM product lifecycle timeline bars are displayed on the Gantt chart. However, for the lifecycle timeline bars to be displayed, some criteria must be fulfilled.
 
--   Software products: For software products, the TRM product **Name** and **Product full version** values must match the corresponding values in the TPM Technology Lifecycle table \(sn\_apm\_tpm\_technology\_lifecycle\). These values should match the **TRM Product** and **Version** values entered when creating the TRM lifecycle for that product.
+-   Software products: For software products, the TRM product **Name** and **Product full version** values for that particular software product as defined in the TPM Technology Lifecycle table \(sn\_apm\_tpm\_technology\_lifecycle\) should match the **TRM Product** and **Version** values that are entered while creating the TRM lifecycle for that product.
 
-    Alternatively, the TRM product **Name**, **Version**, and **Edition** values in the TLM Technology Lifecycle table \(sn\_apm\_tpm\_technology\_lifecycle\) should match the **TRM Product**, **Version**, and **Edition** values entered when creating the TRM lifecycle for that product.
+    Alternatively, the TRM product **Name**, **Version**, and **Edition** values in the TPM Technology Lifecycle table \(sn\_apm\_tpm\_technology\_lifecycle\) should match the **TRM Product**, **Version**, and **Edition** values entered when creating the TRM lifecycle for that product.
 
 -   Hardware models: For hardware models, the TRM product hardware model value for that application service should match the hardware model value in the lifecycle. This value is entered when creating the TRM lifecycle for that application service.
 
-For details on how to create a TRM product, see [Add a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle.md).
+For details on how to create a TRM product, see [Create a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle.md).
 
-For details on how to create a TRM product lifecycle request, see [Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
+For details on how to create a TRM product lifecycle request, see [Create TRM product lifecycles in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md).
 
-For details on how to approve or reject a TRM product or lifecycle request, see [Approve or reject TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-approve-trm-req.md).
+For details on how to approve or reject a TRM product or lifecycle request, see [Approve or reject TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-approve-trm-req.md).
 
 ## Color coding
 
 The colors of the TRM lifecycle timeline bars are based on their TRM phase status. To see the colors associated with each TRM phase status, select the **Legend** button \(\[Omitted image "legend-icon.png"\] Alt text: Legend button.\).
 
-You can also change the TRM phase colors according to your requirement. For details on how to modify existing TRM phase colors, see [Add or edit a TRM phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-phase.md).
+You can also change the TRM phase colors according to your requirement. For details on how to modify existing TRM phase colors, see [Add or edit a TRM phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-trm-phase.md).
 
-**Parent Topic:**[Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
+**Parent Topic:**[Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
 
 **Related topics**  
 
 
-[View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
+[View TPM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
 

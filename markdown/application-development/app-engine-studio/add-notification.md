@@ -3,13 +3,13 @@ title: Add an email notification
 description: Build notifications in App Engine Studio \(AES\) to create automated emails for events using templates or custom messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-notification.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Add logic and automation, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add logic and automation, Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Add an email notification
@@ -18,7 +18,7 @@ Build notifications in App Engine Studio \(AES\) to create automated emails for 
 
 ## Before you begin
 
-You can perform this task if you're either an administrator or a developer for the application. The required developer permission is **All File Types**. For more information on being a developer for an application, see [Delegated development in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+You can perform this task if you're either an administrator or a developer for the application. The required developer permission is **All File Types**. For more information on being a developer for an application, see [Delegated development in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 Role required: admin or delegated\_developer
 
@@ -30,7 +30,7 @@ Email notifications enable you to send emails to the selected users about activi
 
 Creating an email notification involves specifying when to send it, who receives it, and what it contains.
 
-If your administrator has created an email template in the ServiceNow AI Platform, you can use it as is or override its content. For more information on email templates, see [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md). Also check with your administrator to see if they are using email layouts to control the header, body, and footer. For more information on email layouts, see [Email layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-layouts.md).
+If your administrator has created an email template in the ServiceNow AI Platform, you can use it as is or override its content. For more information on email templates, see [Email Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailTemplates.md). Also check with your administrator to see if they are using email layouts to control the header, body, and footer. For more information on email layouts, see [Email layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-layouts.md).
 
 ## Procedure
 
@@ -74,7 +74,7 @@ Situation where a notification is sent, such as after something happens or when 
 -   **When event is fired**
  This field is automatically set to **When a record is created or updated**.
 
- After you create an email notification with a [Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/noti-flow-action.md) as the trigger, you specify the notification when creating a flow in Workflow Studio. For more information, see [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/trigger-notification-action-designer.md).
+ After you create an email notification with a [Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/noti-flow-action.md) as the trigger, you specify the notification when creating a flow in Workflow Studio. For more information, see [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/trigger-notification-action-designer.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Event that triggers the notification. This field appears only when **When event 
 
 7.  Make the trigger conditional by using the condition builder.
 
-    Define the condition sets and values that must be met for the notification trigger. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    Define the condition sets and values that must be met for the notification trigger. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     **Note:** If you specify that the notification trigger is a Flow Action, the condition builder isn't available.
 
@@ -219,8 +219,8 @@ Use variables to include values from a record in the table, such as an incident 
 
 When you create a notification in AES, the notification is saved only to the application that you’re currently building.
 
--   **[Modify an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-notification.md)**  
+-   **[Modify an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/edit-notification.md)**  
 Edit an email notification created for an app in App Engine Studio \(AES\) to change it. For example, modify when to send the email notification, who receives it, and what it contains.
 
-**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md)
+**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-automation.md)
 

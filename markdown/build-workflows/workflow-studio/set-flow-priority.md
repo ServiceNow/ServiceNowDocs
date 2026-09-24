@@ -3,11 +3,11 @@ title: Set flow priority
 description: Determine the order in which worker threads run background flows. Use a mix of flow priorities to distinguish between flows to defer and flows to run first.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/set-flow-priority.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flow priority, Flow administration, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -19,7 +19,7 @@ Determine the order in which worker threads run background flows. Use a mix of f
 ## Before you begin
 
 -   Role required: flow\_designer or admin
--   [Show flow priority field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/show-flow-priority-field.md)
+-   [Show flow priority field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/show-flow-priority-field.md)
 
 ## Procedure
 
@@ -57,5 +57,5 @@ The flow runs at the priority you specify as long as it does not pause or get de
 
 Use the FDIH dashboard to review the flow executions and verify that your flows are running as expected.
 
-**Parent Topic:**[Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-priority.md)
+**Parent Topic:**[Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-priority.md)
 

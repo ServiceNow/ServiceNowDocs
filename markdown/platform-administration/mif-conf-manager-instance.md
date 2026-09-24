@@ -3,11 +3,11 @@ title: Configure Manager Instances
 description: Implement the following steps to configure the Manager Instances in Multi-Instance Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/mif-conf-manager-instance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cross-instance application trust configuration, Multi-instance Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Cross-instance application trust configuration, Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Configure Manager Instances
@@ -36,15 +36,15 @@ Role required: admin or sn\_mif.mif\_admin.
 
 4.  On the Manager Instances form, fill up the following.
 
-<table id="choicetable_sps_q3z_42c"><thead><tr><th align="left" id="d301464e94">
+<table id="choicetable_sps_q3z_42c"><thead><tr><th align="left" id="d299398e94">
 
 Entry
 
-</th><th align="left" id="d301464e97">
+</th><th align="left" id="d299398e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d301464e103">
+</th></tr></thead><tbody><tr><td id="d299398e103">
 
 **Manager Instance**
 
@@ -52,7 +52,7 @@ Description
 
 Select a manager instance from the list of instance names using the lookup option.**Note:** Only production instances should be designated as the primary managers for both production and sub-production instances. Sub-production instances may manage other sub-production instances under specific, defined conditions.
 
-</td></tr><tr><td id="d301464e114">
+</td></tr><tr><td id="d299398e114">
 
 **Application**
 

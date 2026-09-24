@@ -3,11 +3,11 @@ title: Create a PaCE policy version using low-code
 description: Create a policy version using low-code for any of your existing PaCE policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-create-policy-version-low-code.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create PaCE policy versions, Manage PaCE policy versions, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_pace.code\_editor
 
 The low-code function enables you to write policies using simple UI elements by defining conditions for the policy to determine if it’s compliant or non-compliant. If the **Is low code** check box is selected when you create a policy version, the **Policy Builder** and **Test Playground** tabs will automatically have the Policy logic page set to low-code.
 
-You can switch to the Policy Script to create a policy using JavaScript by selecting the **Switch to code editor** button, but you’ll be unable to switch back to low-code. For more information on how to write PaCE policies using JavaScript, see [How to write and test PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-write-test-policies.md).
+You can switch to the Policy Script to create a policy using JavaScript by selecting the **Switch to code editor** button, but you’ll be unable to switch back to low-code. For more information on how to write PaCE policies using JavaScript, see [How to write and test PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-write-test-policies.md).
 
 **Note:** Policy Builder works best in Google Chrome and Firefox.
 

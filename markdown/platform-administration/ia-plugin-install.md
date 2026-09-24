@@ -3,9 +3,9 @@ title: Individual plugin installation from Product Hub
 description: Individual plugin installation enables you to discover, review, and install standalone plugins directly from Product Hub without requiring a bundled apps package. This capability supports flexible deployment scenarios, early adoption, and validation of plugins before committing to full product bundles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-plugin-install.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -49,8 +49,8 @@ Consider the following when using individual plugin installation:
 -   Individual plugin installs don't include bundle customization: Individual plugin installation follows a streamlined path with pre-defined mandatory apps and dependencies. If you need fine-grained control over optional components, consider the bundled product installation flow instead.
 -   Installation status reflects App Manager state: The plugin's installation status in Product Hub is synchronized with App Manager. If a plugin is set to inactive or is uninstalled outside of Product Hub \(for example, via direct App Manager operations\), the status in Product Hub updates to reflect the current state.
 
--   **[Install an individual plugin from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-install-individual-plugin.md)**  
+-   **[Install an individual plugin from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-install-individual-plugin.md)**  
 Use Product Hub to discover, review, and install an individual standalone plugin without requiring a full product bundle installation.
 
-**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)
+**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-administer.md)
 

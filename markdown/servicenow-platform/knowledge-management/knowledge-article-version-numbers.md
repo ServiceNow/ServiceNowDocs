@@ -3,11 +3,11 @@ title: Knowledge article version numbers
 description: Knowledge article version numbers follow a specific pattern. Increments to the version number depend on the revision type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-article-version-numbers.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -193,5 +193,5 @@ Published
 </td></tr></tbody>
 </table>Any change to the state of an article results in a version increment, except to and from the **Pending retirement**, **Retired**, and **Outdated** states.
 
-**Note:** To know more about minor version edits, see [Article versioning changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning-changes.md).
+**Note:** To know more about minor version edits, see [Article versioning changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/article-versioning-changes.md).
 

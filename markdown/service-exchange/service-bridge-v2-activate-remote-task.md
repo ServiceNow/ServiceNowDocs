@@ -3,11 +3,11 @@ title: Activate a remote task definition record in Service Exchange
 description: As a consumer, activate the remote task definitions in your instance so that you can create remote tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-activate-remote-task.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -18,7 +18,7 @@ As a consumer, activate the remote task definitions in your instance so that you
 
 ## Before you begin
 
-Before you can activate a remote task definition \(RTD\) in your ServiceNow instance, your provider must create an RTD first in their ServiceNow instance. For more information, see [Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
+Before you can activate a remote task definition \(RTD\) in your ServiceNow instance, your provider must create an RTD first in their ServiceNow instance. For more information, see [Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
 
 Role required: admin
 

@@ -3,11 +3,11 @@ title: Activity designer template pre-processing fields
 description: Use the Pre Processing form of the activity designer to define a script to run before the activity executes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/PreprocessFields.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ActivityLogger, ActivityLogger.info, ActivityLogger.debug, ActivityLogger.warn, ActivityLogger.error, activity logger, activity logging]
 breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
@@ -39,5 +39,5 @@ The supported messages are:
 
 \[Omitted image "Pre-ProcessLoggingAPI.png"\] Alt text: ActivityLogger API
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/create-custom-activities.md)
 

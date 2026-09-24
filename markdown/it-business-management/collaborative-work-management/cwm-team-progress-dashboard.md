@@ -3,11 +3,11 @@ title: Team progress dashboard in Collaborative Work Management
 description: The Team progress dashboard supports waterfall use cases and includes widgets that visualize task completion and workload for the whole Board.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-team-progress-dashboard.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor and track work using dashboards in CWM, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -74,7 +74,7 @@ Tasks by priority
 
 </td><td>
 
-Tasks on the Board, grouped by priority buckets. For more information about priority buckets, see [Grouping of tasks in status reports of CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.md). **Note:**
+Tasks on the Board, grouped by priority buckets. For more information about priority buckets, see [Grouping of tasks in status reports of CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.md). **Note:**
 
 -   Tasks with no priority set are grouped under **None**.
 -   Tasks with custom or unrecognized priority values are grouped under **Other**.
@@ -98,5 +98,5 @@ Bar chart
 </td></tr></tbody>
 </table>The Team progress dashboard under My Space is named My progress.
 
-**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
 

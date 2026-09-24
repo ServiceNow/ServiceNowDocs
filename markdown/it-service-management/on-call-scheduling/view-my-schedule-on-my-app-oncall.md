@@ -3,11 +3,11 @@ title: View my On-Call calendar on my calendar app
 description: You can subscribe to your On-Call calendar using your personal calendar client.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/view-my-schedule-on-my-app-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing schedules and request time-off, On-Call Scheduling, IT Service Management]
 ---
@@ -39,10 +39,10 @@ Role required: rota\_admin, itil, rota\_manager, or admin
 5.  Specify additional details such as how frequently to update the calendar.
 
 
-**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
+**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
 
 **Related topics**  
 
 
-[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
+[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
 

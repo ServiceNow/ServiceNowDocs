@@ -3,9 +3,9 @@ title: Access observer
 description: Use Access Observer to understand people and processes access data on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-observer.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -28,8 +28,8 @@ Find the results of your observations on the Access Observer log record table. O
 
 \[Omitted image "data-obs-2.png"\] Alt text: Access Observer log records showing details of an observation
 
--   **[Configure access observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/config-access-observation.md)**  
+-   **[Configure access observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/config-access-observation.md)**  
 Create an access observation record to review access to a data column during a specified time window.
--   **[Review Access Observer logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/review-access-obs-logs.md)**  
+-   **[Review Access Observer logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/review-access-obs-logs.md)**  
 Use information in the Access Observer log records for insights on how your data is accessed.
 

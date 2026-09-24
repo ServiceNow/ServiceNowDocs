@@ -3,11 +3,11 @@ title: Set up ServiceNow Spotlight
 description: Set up ServiceNow Spotlight to start using and getting the benefits of this feature. The Spotlight feature automatically calculates the execution priority of the automation requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/setup-spotlight.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Spotlight feature, Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -43,5 +43,5 @@ Role required: admin, pa\_spotlight
     To do so, select the **Execute Now** button in the Scheduled Script Execution page. `/sysauto_script.do?sys_id=d361d79dc3a11110995486d91840dd37`
 
 
-**Parent Topic:**[Working with ServiceNow Spotlight feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/spotlight-ac.md)
+**Parent Topic:**[Working with ServiceNow Spotlight feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/spotlight-ac.md)
 

@@ -3,11 +3,11 @@ title: Update or delete a record of an inventory number allocation
 description: Review, update, and delete a record of an IP address space element using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/update\_and\_delete\_ip\_address\_space.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -45,7 +45,7 @@ This task enables you to update, and delete a record of an item of any inventory
 
     To delete a record, after selecting a record, follow the following steps.
 
-    1.  Select options \(\[Omitted image "options-icon.png"\] Alt text:\)\[Omitted image ""\] Alt text: more icon
+    1.  Select options \(\[Omitted image "options-icon.png"\] Alt text: Options icon.\) icon.
     2.  Select **Delete**.
 
         **Note:** The warning window shows the list of the topics that are affected due to this deletion.
@@ -71,5 +71,5 @@ This task enables you to update, and delete a record of an item of any inventory
     Fields and the records list are updated.
 
 
-**Parent Topic:**[Inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/vlan_or_lag_number_management.md)
+**Parent Topic:**[Inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/vlan_or_lag_number_management.md)
 

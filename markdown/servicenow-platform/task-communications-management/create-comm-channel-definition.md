@@ -3,11 +3,11 @@ title: Define a communication channel
 description: Define a communication channel for each communication task to determine which mode of communication to use for the task when a plan is attached to a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/create-comm-channel-definition.html
-release: australia
+release: brazil
 product: Task Communications Management
 classification: task-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Define a communication plan, Working with Task Communications Management, Task Communications Management, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,9 +26,9 @@ You have defined a communication plan and its related tasks.
 
 -   The modes of communication available are: email, SMS, conference, and Slack.
 -   For the incident table, the functionality for SMS and conference appears only if you activate the Notify plugin \(com.snc.notify\) and the **com.snc.iam.notify\_number** property value is set to the registered notify number. The notify number is registered while configuring the Twilio account.
--   For the incident table, the functionality for Slack appears only if you activate the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\). To activate the Collaboration Services for Task Communications Management plugin, navigate to [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install the Collaboration Services for Task Communications Management application. For more information, refer [Collaboration services for Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collab-services-tcm.md).
+-   For the incident table, the functionality for Slack appears only if you activate the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\). To activate the Collaboration Services for Task Communications Management plugin, navigate to [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install the Collaboration Services for Task Communications Management application. For more information, refer [Collaboration services for Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/collab-services-tcm.md).
 
-    **Note:** For information on how to configure Slack, refer to [Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-slack.md) .
+    **Note:** For information on how to configure Slack, refer to [Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-slack.md) .
 
 -   **Add Channel – Conference** is mutually exclusive to **Add Channel – SMS** and **Add Channel – Email**. If you select **Add Channel – Conference**, you cannot select **Add Channel – Email** or **Add Channel – SMS**.
 
@@ -191,7 +191,7 @@ Template applied when composing the notification message.
 
 After creating communication tasks and communication channels for those tasks, define contacts for the communication plan.
 
-**Parent Topic:**[Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/create-comm-plan-definition.md)
+**Parent Topic:**[Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/task-communications-management/create-comm-plan-definition.md)
 
 **Related topics**  
 

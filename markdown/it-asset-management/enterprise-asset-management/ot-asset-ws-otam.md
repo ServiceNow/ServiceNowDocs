@@ -3,11 +3,11 @@ title: OT Asset Workspace
 description: The OT Asset Workspace is the intuitive and streamlined user interface of the OT Asset Management application to manage your Operational Technology \(OT\) and Operational Equipment \(OE\) assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/ot-asset-ws-otam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
@@ -208,10 +208,10 @@ View information related to normalization of models.
 
 **Note:** The **Custom firmware UNSPSC**, **Custom firmware products**, **Custom firmware versions**, and **Custom firmware CPE** tabs are available only in the OT Asset Workspace. For more information on these tabs, refer to the following topics:
 
--   [Create a custom United Nations Standard Products and Services Code \(UNSPSC\) classification for firmware in your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-unspsc-classification-firmware-ot-assets.md)
--   [Create a custom firmware product for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-product-ot-assets.md)
--   [Create a custom firmware version for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-version-ot-assets.md)
--   [Create a custom Common Platform Enumeration \(CPE\) mapping for firmware in your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-cpe-mapping.md)
+-   [Create a custom United Nations Standard Products and Services Code \(UNSPSC\) classification for firmware in your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-custom-unspsc-classification-firmware-ot-assets.md)
+-   [Create a custom firmware product for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-product-ot-assets.md)
+-   [Create a custom firmware version for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-version-ot-assets.md)
+-   [Create a custom Common Platform Enumeration \(CPE\) mapping for firmware in your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-cpe-mapping.md)
 
 </td></tr><tr><td>
 
@@ -238,14 +238,14 @@ You can publish hardware models, more than once, to the enterprise catalog using
 
 Hardware models and OT hardware assets are also integrated into the following Enterprise Asset Management flows:
 
--   [Asset request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-assetrequest.md)
--   [Asset refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/request-eam-assetrefresh.md)
+-   [Asset request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eam-assetrequest.md)
+-   [Asset refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/request-eam-assetrefresh.md)
 -   Stock order
--   [Single and multi-asset onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md)
--   [Return Merchandise Authorization \(RMA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/requesting-return-merchandise-authorization-enterprise-assets.md)
--   [Repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-repair-of-defective-eam-assets.md)
--   [Disposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md)
--   [Bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.md)
+-   [Single and multi-asset onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md)
+-   [Return Merchandise Authorization \(RMA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/requesting-return-merchandise-authorization-enterprise-assets.md)
+-   [Repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/manage-repair-of-defective-eam-assets.md)
+-   [Disposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md)
+-   [Bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.md)
 
     **Note:**
 
@@ -253,32 +253,32 @@ Hardware models and OT hardware assets are also integrated into the following En
 
     To view instructions for bulk importing assets, select the Bulk import instructions icon \[Omitted image "bulk-imp-instructions-icon.png"\] Alt text: on the contextual side bar.
 
--   [Asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-reclamation.md)
+-   [Asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-reclamation.md)
 
     **Note:** When a reclamation request for an OT hardware asset is created in the OT Asset Workspace, a hardware reclamation request line is generated and displayed in the **Hardware Asset Reclamation Lines** tab.
 
--   [Advanced shipment notification \(ASN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asn-eam.md)
+-   [Advanced shipment notification \(ASN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/asn-eam.md)
 
     **Note:** Starting with the Zurich release, the Download template for Advanced Shipment Notification includes the **OT entity** column. When this column is set to **TRUE** for hardware models, it creates OT hardware assets in the OT Asset Workspace.
 
--   [Asset audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.md)
--   [Total Cost of Ownership \(TCO\) for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
+-   [Asset audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.md)
+-   [Total Cost of Ownership \(TCO\) for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 
     **Note:** You can create a TCO report using a hardware model as a benchmark model, by selecting **Hardware** in the Report table field and then selecting the required hardware model in the **Benchmark model** field.
 
--   [Lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)
+-   [Lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)
 
     **Note:** The **Begin lease-end process** option is available if the contract includes OT hardware assets.
 
--   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
+-   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 
     **Note:** The Enterprise asset risk heat map in the OT asset estate view and the Enterprise model risk heat map in the OT model management view also include hardware models with OT entity flag set to **TRUE**.
 
--   [Asset resale](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-resale-flow.md)
--   [Loaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/request-eam-assetloaner-request.md)
--   [Move orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-move-orders.md)
--   [Recall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-recalled-enterprise-assets.md)
--   [Stock rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamstockrules.md)
+-   [Asset resale](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-resale-flow.md)
+-   [Loaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/request-eam-assetloaner-request.md)
+-   [Move orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-move-orders.md)
+-   [Recall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-recalled-enterprise-assets.md)
+-   [Stock rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eamstockrules.md)
 
     **Note:** The **OT stock rule** check box on the stock rule form indicates whether the stock rule was created in the OT Asset Workspace.
 
@@ -316,20 +316,20 @@ Consumables can be created in the OT Asset Workspace for hardware models, OT har
 
 Any consumable model that you create in the OT Asset Workspace, has the consumable model category.
 
-**Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-asset-management.md)
+**Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/ot-asset-management.md)
 
 **Related topics**  
 
 
-[OT Asset Management licensing]()
-
-[Install OT Asset Management]()
+[Installing OT Asset Management]()
 
 [Installed with OT Asset Management]()
 
+[OT Asset Management licensing]()
+
 [Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets]()
 
-[OT Asset Workspace roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-workspace-roles.md)
+[OT Asset Workspace roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/ot-workspace-roles.md)
 
-[Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/using-eam-workspace.md)
+[Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/using-eam-workspace.md)
 

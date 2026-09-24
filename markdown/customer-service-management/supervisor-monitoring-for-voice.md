@@ -3,9 +3,9 @@ title: Supervisor call monitoring
 description: Supervisors can monitor live customer interactions and respond to agent help requests by listening-in, coaching, or barging-in to calls. All supervisor actions taken after accepting a Help Request from an agent are logged with timestamps for audit and reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/supervisor-monitoring-for-voice.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Monitoring calls, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -29,8 +29,9 @@ Each action taken after a **Help Request** is accepted and recorded with a times
 
 For more information, see:
 
--   [Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)
--   [Listen, Monitor or Barge in to an agent call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/listen-agent-call-configurable-wfo-cs.md)
+-   [Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)
+-   [Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)
+-   [Listen, Monitor or Barge in to an agent call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/listen-agent-call-configurable-wfo-cs.md)
 
 ## Dependencies
 
@@ -90,7 +91,7 @@ The following steps define a typical workflow for a supervisor-initiated call mo
 
 -   **Scenario 1: Supervisor accepts a __Help Request__:**
 
-    After a supervisor accepts a Help Request:
+    After a supervisor accepts a **Help Request**:
 
     -   Monitor, Coach, and Barge In options are enabled in the Active Call window.
     -   The **Help Request** interaction flag in the system is set to false.

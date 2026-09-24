@@ -3,9 +3,9 @@ title: Tracking order tasks and associated projects
 description: With the SPM integration, project managers and fulfillment agents or managers can track projects in Strategic Portfolio Management that have associated order tasks in Order Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-spm-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---

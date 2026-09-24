@@ -3,11 +3,11 @@ title: Manage Microsoft Teams permissions
 description: Configure which groups or users can access Sidebar discussions in Microsoft Teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/manage-teams-permissions.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sidebar and Microsoft Teams, Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---

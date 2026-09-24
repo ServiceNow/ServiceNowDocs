@@ -3,9 +3,9 @@ title: Customize fields for the approval message
 description: Customize the body message for a request, change, and request item approval sent in Microsoft Outlook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/customize-approval-message.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Outlook Actionable Messages, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -14,10 +14,10 @@ breadcrumb: [Outlook Actionable Messages, Survey administration, Use surveys, Su
 
 Customize the body message for a request, change, and request item approval sent in Microsoft Outlook.
 
--   **[Customize fields in the approval message for request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/customize-fields-request.md)**  
+-   **[Customize fields in the approval message for request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/customize-fields-request.md)**  
 Customize the body message for a request and request item sent in Microsoft Outlook.
--   **[Customize fields in the approval message for change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/customize-fields-change.md)**  
+-   **[Customize fields in the approval message for change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/customize-fields-change.md)**  
 Customize the body message for a change request approval sent in Microsoft Outlook.
 
-**Parent Topic:**[Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/outlook-actionable-messages.md)
+**Parent Topic:**[Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/outlook-actionable-messages.md)
 

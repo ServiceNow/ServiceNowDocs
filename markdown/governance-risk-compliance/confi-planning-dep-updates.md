@@ -3,9 +3,9 @@ title: Configuring planning dependency updates
 description: The BCM administrators configure the Planning dependency update configuration record. An auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/confi-planning-dep-updates.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dependency Configuration records, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ The BCM administrators configure the Planning dependency update configuration re
 
 ## Planning dependency update configuration record
 
-The BCM administrators configure details of the plan record, its target records, sources, and notification preferences in the Planning dependency update configuration record.
+The BCM administrators configure details of the plan record, its target records, sources, and notification preferences in the Planning dependency update configuration record. The following example shows the configuration.
 
 \[Omitted image "plan-dep-update-config.png"\] Alt text: Updating the plan dependencies.
 
@@ -28,18 +28,18 @@ The BCM administrators configure the sources for fetching the latest dependencie
 
 ## Auto-update the dependencies
 
-The BCM administrators can select **Auto-update dependencies** in the Target tab of the Planning dependency update configuration to schedule automatic asset updates.
+The BCM administrators can select the **Auto-update dependencies** option in the Target tab of the Planning dependency update configuration record. This option schedules an auto-update of the related assets in the plans.
 
 ## Set the notification preferences
 
 The BCM administrators select the **Send notification** option to set the notification preferences for the plan owners. For every planning dependency update, an automated email is sent to the plan owners about the planning dependency updates and links to the updated snapshot records.
 
-The plan owner and BCM lead review the dependency updates from the snapshot record. The delta snapshot record displays the updated dependencies such as Added, Updated, and Deleted assets for the selected plan record.
+The plan owner and BCM lead reviews the dependency updates from the snapshot record. The delta snapshot record displays the updated dependencies such as Added, Updated, and Deleted assets for the selected plan record.
 
-For more information on configuring the Planning dependency update configuration record, see [Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-plan-dep-update-confi-module.md).
+For more information on configuring the Planning dependency update configuration record, see [Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-plan-dep-update-confi-module.md).
 
--   **[Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-plan-dep-update-confi-module.md)**  
+-   **[Set up Planning dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-plan-dep-update-confi-module.md)**  
 Configure the Planning dependency update configuration record to configure the plan record \(for which the dependencies are updated\), its target records, sources, and notification preferences.
 
-**Parent Topic:**[Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/dependency-config-modules.md)
+**Parent Topic:**[Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/dependency-config-modules.md)
 

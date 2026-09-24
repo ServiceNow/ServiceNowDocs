@@ -3,9 +3,9 @@ title: Buying Group
 description: Buying Group represents the customer stakeholders within an account involved in a purchase decision for a product offering family, supporting multiple roles and persisting before, during, and after an opportunity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/explore-buying-group.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
@@ -41,6 +41,6 @@ Buying Groups represent the set of stakeholders involved in a B2B purchase decis
 
 The following topics provide more information about configuring and using Buying Group:
 
--   [Configuring Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-buying-group.md)
--   [Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-buying-group.md)
+-   [Configuring Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-buying-group.md)
+-   [Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-buying-group.md)
 

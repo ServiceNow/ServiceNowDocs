@@ -3,9 +3,9 @@ title: Use the DeserializeObject component
 description: Convert a string containing JSON data to a JSON object by using the DeserializeObject component in RPA Desktop Design Studio. You can also extract specific properties from the JSON object.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-json-deserializeobject.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [JSON, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties for the DeserializeObject component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-utilities-json.md).
+To configure the properties for the DeserializeObject component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/properties-utilities-json.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ To configure the properties for the DeserializeObject component, see [Properties
 
     5.  Click **OK**.
 
-4.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+4.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 5.  Connect the data and control ports of the DeserializeObject component to the corresponding ports of the other components as described in the following table.
 
@@ -120,5 +120,5 @@ Returns the value of the key from the string.This appears when additional proper
 
 In this example, the ReadFromExcel component reads data from an Excel document and passes to the SerializeObject component. The SerializeObject component converts the data to string and passes to the DeserializeObject component. The DeserializeObject component converts the string to the JSON object. The items in the Excel document traverses from first to last in the For Each component and passes the item to the GetProperties component. The GetProperties component returns the name of the component and passes the name of the item to the Show component. The item is shown in a message box.
 
-**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/json.md)
 

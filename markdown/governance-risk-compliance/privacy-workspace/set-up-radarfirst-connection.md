@@ -3,14 +3,14 @@ title: Set up the RadarFirst connection
 description: Create the connection and credential that allows Privacy Case Management to communicate with RadarFirst.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/set-up-radarfirst-connection.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [RadarFirst, connection, credential]
-breadcrumb: [Configure, Integrate with RadarFirst, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [RadarFirst configuration, Integrate with RadarFirst, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Set up the RadarFirst connection
@@ -19,13 +19,13 @@ Create the connection and credential that allows Privacy Case Management to comm
 
 ## Before you begin
 
--   Role required: System administrator
 -   Install the Privacy Case Management integration with RadarFirst \(sn\_privacy\_rf\) plugin, which provides the following default records:
     -   **RadarFirst Integration Configuration**, which is the connection and credential alias required to establish and authorize an HTTPs connection with RadarFirst.
 
         You must obtain a bearer key from your account administrator for authorization.
 
     -   **RadarFirst configuration**, which will be used to import RadarFirst data, and then map it to the breach assessment data in your instance.
+-   Role required: System administrator
 
 ## Procedure
 
@@ -51,7 +51,7 @@ Create the connection and credential that allows Privacy Case Management to comm
 
     3.  Select **Create**.
 
-        This creates a new HTTPS connection with RadarFirst, which will be used to import and map its data to the data elements and breach factors in Privacy Case Management.\[Omitted image "pcm-rf-new-connection.png"\] Alt text: The new HTTPs RadarFirst Integration Connection, which will be used to import data from RadarFirst.
+        This creates a new HTTPS connection with RadarFirst, which is used to import and map its data to the data elements and breach factors in Privacy Case Management.\[Omitted image "pcm-rf-new-connection.png"\] Alt text: The new HTTPs RadarFirst Integration Connection, which will be used to import data from RadarFirst.
 
     4.  On the Create new connection &amp; credential activity of the guided setup, select **Mark as complete**.
 
@@ -68,5 +68,5 @@ Create the connection and credential that allows Privacy Case Management to comm
 
 ## What to do next
 
-Import RadarFirst data into your instance. See .
+Import RadarFirst data into your instance. See [Import RadarFirst data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/import-radarfirst-data.md).
 

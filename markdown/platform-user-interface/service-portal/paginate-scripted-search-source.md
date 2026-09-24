@@ -3,12 +3,12 @@ title: Paginate search source results
 description: Limit the number of results that a search source displays at one time to improve performance. End users can load more results as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/paginate-scripted-search-source.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Define a search source, Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -42,8 +42,8 @@ If adding pagination to a simple search source, set **Paginate results** on the 
 
     |Scope|Method|
     |-----|------|
-    |Global|setLocation\(\) in GlideRecord - Global|
-    |Scoped application|chooseWindow\(\) in GlideRecord - Scoped|
+    |Global|setLocation\(\) in [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)|
+    |Scoped application|chooseWindow\(\) in [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)|
 
     The following is an example data fetch script for a global search source that queries the incident table and paginates results.
 
@@ -99,8 +99,6 @@ If adding pagination to a simple search source, set **Paginate results** on the 
 
 5.  Define the maximum number of results per query for the search source in the Search Page widget or Faceted Search widget instance options.
 
-    For more information, see [Faceted Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/faceted-search.md) or [Legacy: Search Page widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-page-widget.md).
-
 
 ## Result
 
@@ -108,5 +106,5 @@ The search page only returns the defined number of results at one time. When a u
 
 \[Omitted image "load-more-results.png"\] Alt text: Paginated results
 
-**Parent Topic:**[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-table-search-source.md)
+**Parent Topic:**[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/add-table-search-source.md)
 

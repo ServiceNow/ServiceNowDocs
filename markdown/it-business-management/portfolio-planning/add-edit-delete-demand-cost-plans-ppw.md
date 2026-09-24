@@ -3,11 +3,11 @@ title: Create cost plans for a demand
 description: Create a cost plan for a specified duration to track planned and actual expenses. Edit cost plans to adjust planned expenses and delete descoped forecasts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-edit-delete-demand-cost-plans-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -25,7 +25,7 @@ Role required: it\_demand\_manager
 To create, edit, or delete cost plan records, you can also use:
 
 -   The **Cost Plans** related list in the **Details** tab.
--   The **Estimate financial cost** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+-   The **Estimate financial cost** Playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 
 ## Procedure
 
@@ -39,15 +39,15 @@ To create, edit, or delete cost plan records, you can also use:
 
 5.  Create, edit, or delete a cost plan.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d175821e133">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d176245e133">
 
 Goal
 
-</th><th align="left" id="d175821e136">
+</th><th align="left" id="d176245e136">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d175821e142">
+</th></tr></thead><tbody><tr><td id="d176245e142">
 
 **Create a cost plan**
 
@@ -59,12 +59,12 @@ A side panel opens with the cost plan form.
 
 2.  On the New cost plan form, fill the fields.
 
-For a description of the field values, see [Cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-cost-plan-form-ppw.md).
+For a description of the field values, see [Cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-cost-plan-form-ppw.md).
 
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create another one.
 
 
-</td></tr><tr><td id="d175821e183">
+</td></tr><tr><td id="d176245e183">
 
 **Edit a cost plan**
 
@@ -76,7 +76,7 @@ Edit a cost plan in one of the following ways.-   Select the name of the cost pl
 
 **Note:** Use the keyboard Tab key to navigate to between the fiscal periods.
 
-</td></tr><tr><td id="d175821e213">
+</td></tr><tr><td id="d176245e213">
 
 **Delete a cost plan**
 
@@ -88,6 +88,6 @@ Edit a cost plan in one of the following ways.-   Select the name of the cost pl
  **Note:** Deleted cost plans can't be recovered.
 
 </td></tr></tbody>
-</table>    **Note:** After capturing the initial planned costs, create a baseline to capture a snapshot of planned costs. Use this baseline to compare it against baselines from later dates as the work progresses, to identify the variance between initial planned costs and actual expenses. This step helps you plan for future expenses and re-forecast planned costs. For more information, see [Create and compare financial baselines for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-financial-baselines-ppw.md).
+</table>    **Note:** After capturing the initial planned costs, create a baseline to capture a snapshot of planned costs. Use this baseline to compare it against baselines from later dates as the work progresses, to identify the variance between initial planned costs and actual expenses. This step helps you plan for future expenses and re-forecast planned costs. For more information, see [Create and compare financial baselines for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-financial-baselines-ppw.md).
 
 

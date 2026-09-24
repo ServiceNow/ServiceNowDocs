@@ -3,9 +3,9 @@ title: Add an Intune integrated app to a protection policy in Microsoft Azure
 description: Learn how to add your ServiceNow mobile apps to your existing Microsoft Azure protection policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/add-app-to-intune-policy.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Intune, Device management, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -51,5 +51,5 @@ Role required: Microsoft Intune admin
     The ServiceNow mobile app has been added to the protection policy.
 
 
-**Parent Topic:**[Intune mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/intune-mdm.md)
+**Parent Topic:**[Intune mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/intune-mdm.md)
 

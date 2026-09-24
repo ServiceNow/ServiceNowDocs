@@ -3,11 +3,11 @@ title: Define filters to apply for the Incident creation
 description: Define and set filter conditions to filter the incoming  DLP  alerts. Determine the alerts that should be created as DLP incidents in ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/define-filters-for-incidents.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a profile for ICAP DLP integration, Internet Content Adaption Protocol \(ICAP\) integration for DLP IR, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -43,5 +43,5 @@ Filtering helps you to isolate DLP alerts and to limit the number of DLP alerts 
 
 To configure the schedule, click **Continue**.
 
-**Parent Topic:**[Create a profile for ICAP DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-for-icap.md)
+**Parent Topic:**[Create a profile for ICAP DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/create-profile-for-icap.md)
 

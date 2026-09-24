@@ -3,12 +3,12 @@ title: Create a scenario analysis record using simulation
 description: Create a Scenario analysis record to assess how a critical service performs under adverse conditions using statistical modelling. Use the guided Playbook experience to move through scoping, scenario selection, simulation, results review, and treatment decision.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-sca-record.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Scenario Analysis, Operational Resilience, Playbook, statistical modelling, create record]
-breadcrumb: [Building a scenario analysis using simulation, Scenario analysis using simulation, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Building a scenario analysis using simulation, Conducting a scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a scenario analysis record using simulation
@@ -33,7 +33,7 @@ Users with the sn\_oper\_res.user role can view records and playbook stages in r
 
 2.  To create a scenario analysis record, select **New**.
 
-    The Scenario Analysis form is displayed. You can fill in the form and create a Scenario Analysis record. For more information on the form, see [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sca-record.md).
+    The Scenario Analysis form is displayed. You can fill in the form and create a Scenario Analysis record. For more information on the form, see [Create a scenario analysis record using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-sca-record.md).
 
 3.  Enter the name of the scenario analysis record in the **Name** field.
 
@@ -56,11 +56,11 @@ Users with the sn\_oper\_res.user role can view records and playbook stages in r
     -   **Manual** — Uses an SME-driven assessment template without simulation.
     **Note:** The **Method** field defines which of the two scenario analysis flows you use; it is a choice, not an optional step. Select **Statistical Modelling** for a Monte Carlo simulation, or **Manual** for a qualitative SME assessment.
 
-    When you choose **Manual**, the **Statistical model profile** field is hidden, the playbook omits the Reference Data and Results steps. The Scenario Testing step uses an SME-driven assessment template instead of a simulation. All other playbook steps are identical.
+    When you choose **Manual**, the **Statistical model profile** field is hidden. The playbook omits the Reference Data and Results steps. The Scenario Testing step uses an SME-driven assessment template instead of a simulation. All other playbook steps are identical.
 
     **Statistical Modelling** is selected by default.
 
-    Steps for using the simulation method are described in [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/complete-sca-scenario-testing.md). The manual method is described in [Run a scenario analysis using the manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/run-sca-manual-method.md).
+    Steps for using the simulation method are described in [Start simulation and run scenario testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/complete-sca-scenario-testing.md). The manual method is described in [Run a scenario analysis using the manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/run-sca-manual-method.md).
 
 8.  Verify that the **Annual loss model driven by risk events** is shown in the **Statistical model profile** field.
 
@@ -81,5 +81,5 @@ The scenario analysis record is created and the **Playbook** tab is available to
 
 ## What to do next
 
-For defining the scope of scenario analysis, see [Define the scope and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-sca-scope-service-dep.md).
+For defining the scope of scenario analysis, see [Define the scope and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-sca-scope-service-dep.md).
 

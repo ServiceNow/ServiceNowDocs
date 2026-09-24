@@ -3,11 +3,11 @@ title: Create an action request from Automation Center
 description: Create an action request from Automation Center to request for actions to resolve issues causing your automations to fail.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/action-request-from-form.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating an action request, Working with actions, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Automation request form from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-request-autocenter-form.md).
+    For a description of the field values, see [Automation request form from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-request-autocenter-form.md).
 
 4.  Select **Submit**.
 
@@ -37,5 +37,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 6.  Select **Update**.
 
 
-**Parent Topic:**[Creating an action request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-action-request.md)
+**Parent Topic:**[Creating an action request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-action-request.md)
 

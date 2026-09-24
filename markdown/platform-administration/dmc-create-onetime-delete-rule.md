@@ -3,9 +3,9 @@ title: Create a one-time delete rule
 description: Define a rule for deleting records now or at a later date.Define one or more conditions that identify the records to be deleted.Specify which associated records to delete when the one-time delete rule runs.Schedule a date and time to execute a one-time delete rule or execute it after you finish creating it.View a summary of your one-time delete rule and acknowledge the deletion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dmc-create-onetime-delete-rule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Previewing and deleting records in Data Management Console, Manage data growth in Data Management, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,21 +20,21 @@ Role required: admin
 
 ## About this task
 
-Create a one-time delete rule to delete records once. To delete records on a recurring basis, see [Create a cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dmc-create-cleanup-rule.md).
+Create a one-time delete rule to delete records once. To delete records on a recurring basis, see [Create a cleanup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dmc-create-cleanup-rule.md).
 
 ## Procedure
 
 1.  Access the create rule wizard in the Data Management Console in one of the following ways.
 
-<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d134567e72">
+<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d133678e71">
 
 Option
 
-</th><th align="left" id="d134567e75">
+</th><th align="left" id="d133678e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d134567e81">
+</th></tr></thead><tbody><tr><td id="d133678e80">
 
 **Overview tab**
 
@@ -45,7 +45,7 @@ Steps
 3.  Select **Create rule**.
 
 
-</td></tr><tr><td id="d134567e119">
+</td></tr><tr><td id="d133678e118">
 
 **Rules tab**
 
@@ -64,7 +64,7 @@ Steps
 
     2.  Enter a name and description for the rule.
 
-        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) for references to this rule.
+        The name is used as the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DisplayValues.md) for references to this rule.
 
     3.  Select **Save and continue**.
 
@@ -145,21 +145,21 @@ Role required: admin
 
 ### About this task
 
-Consider scheduling the one-time delete rule to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use a cleanup rule instead. For more information, see [Deleting older or unwanted records in Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deleting-records.md).
+Consider scheduling the one-time delete rule to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use a cleanup rule instead. For more information, see [Deleting older or unwanted records in Data Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/deleting-records.md).
 
 ### Procedure
 
 1.  On the Set up schedule page, schedule the one-time delete rule to run now or at a later date.
 
-<table id="choicetable_orr_f3t_13c"><thead><tr><th align="left" id="d134567e499">
+<table id="choicetable_orr_f3t_13c"><thead><tr><th align="left" id="d133678e497">
 
 Option
 
-</th><th align="left" id="d134567e502">
+</th><th align="left" id="d133678e500">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d134567e508">
+</th></tr></thead><tbody><tr><td id="d133678e506">
 
 **Schedule later**
 
@@ -167,7 +167,7 @@ Description
 
 Set up a schedule at a later time.
 
-</td></tr><tr><td id="d134567e517">
+</td></tr><tr><td id="d133678e515">
 
 **Execute upon creation**
 
@@ -175,7 +175,7 @@ Set up a schedule at a later time.
 
 Run the one-time delete rule immediately after you finish creating it.
 
-</td></tr><tr><td id="d134567e526">
+</td></tr><tr><td id="d133678e524">
 
 **Run at**
 

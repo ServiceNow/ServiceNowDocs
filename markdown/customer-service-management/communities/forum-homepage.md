@@ -3,18 +3,22 @@ title: Navigating the forum homepage
 description: While in a forum, you can navigate the forum homepage and perform tasks, such as posting content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/forum-homepage.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Using communities, Communities, Customer Service Management]
 ---
 
 # Navigating the forum homepage
 
 While in a forum, you can navigate the forum homepage and perform tasks, such as posting content.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 <table id="table_qtz_wzp_kbb"><thead><tr><th>
 
@@ -126,7 +130,7 @@ Most viewed content
 Displays the top three posts according to number of views.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
+</table>**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 

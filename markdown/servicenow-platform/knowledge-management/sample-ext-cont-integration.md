@@ -3,11 +3,11 @@ title: Sample configuration for integrating external knowledge content
 description: You can integrate content from multiple external sources so your users can acquire and search knowledge from a single location. Use this sample configuration to create a connection to your external account, configure external knowledge sources, and import content to enable search results for unified content.Create authentication credentials and a connection alias to connect your external knowledge source to the ServiceNow Knowledge Management application. Define import parameters for your external source to import integrated content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/sample-ext-cont-integration.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integration with external knowledge sources, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ You can integrate content from multiple external sources so your users can acqui
 
 Make sure the Knowledge Management -- External Content Integration plugin \(com.snc.knowledge.external\_integration\) is enabled and your external source is WebDAV- compliant.
 
-**Parent Topic:**[Integration with external knowledge sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-external-content-integration.md)
+**Parent Topic:**[Integration with external knowledge sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-external-content-integration.md)
 
 ## Integrate external knowledge sources into the Knowledge Management application
 
@@ -139,12 +139,12 @@ WebDAV URL to your external account. This is the WebDAV end point of your extern
 
 ### What to do next
 
-[Import content from an external knowledge source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/run-import-job-external-content-integration.md).
+[Import content from an external knowledge source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/run-import-job-external-content-integration.md).
 
 **Related topics**  
 
 
-[Open knowledge search results in source system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/open-search-results-ext-content.md)
+[Open knowledge search results in source system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/open-search-results-ext-content.md)
 
 [Knowledge Management Service portal search results page]()
 

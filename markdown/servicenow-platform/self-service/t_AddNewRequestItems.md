@@ -3,13 +3,13 @@ title: Add new request items
 description: Use ServiceNow's web-based interface to add new items to a request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/t\_AddNewRequestItems.html
-release: australia
+release: brazil
 product: Self-service
 classification: self-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service catalog requests, Self-Service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service catalog requests, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add new request items
@@ -37,5 +37,5 @@ Modifying a request does not resubmit it to the approval process.
 4.  Click **OK**.
 
 
-**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
+**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 

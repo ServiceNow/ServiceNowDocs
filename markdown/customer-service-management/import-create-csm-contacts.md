@@ -3,9 +3,9 @@ title: Create customer contacts
 description: A contact is a user who is an employee of an account. Use the Customer Service Management application to create contact records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-create-csm-contacts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

@@ -3,9 +3,9 @@ title: Edit artifact content of an architectural document
 description: Edit artifact content of an architectural document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/edit-architectural-content.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage architectural documents, Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -37,14 +37,14 @@ Role required: sn\_apm.apm\_user
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-arch-documents.md)
+**Parent Topic:**[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/manage-arch-documents.md)
 
 **Related topics**  
 
 
-[View all architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-architectural-documents.md)
+[View all architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/view-architectural-documents.md)
 
-[Create an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-architectural-document.md)
+[Create an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/create-architectural-document.md)
 
-[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/document-templates-for-ea.md)
+[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/document-templates-for-ea.md)
 

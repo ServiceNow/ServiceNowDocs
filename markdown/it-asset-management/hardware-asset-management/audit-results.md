@@ -3,11 +3,11 @@ title: Audit results
 description: The Audit results shows the status of the assets when the scheduled or blind audits of asset stockrooms and other locations is complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/audit-results.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -34,7 +34,7 @@ The following related lists show asset information:
 -   Scanned Assets: Shows a list of all assets that are scanned during the audit. The list is updated each time scans are submitted from the ServiceNow Agent app.
 -   Excluded Assets: Shows a list of all assets scanned as part of the audit which are excluded from Hardware Asset Management.
 
-**Important:** If you have set the **sn\_hamp.migrate\_hamaudit** system property value to **true** to enable audit enhancements in your ServiceNow instance, the audit results are populated from the Asset Audits \[sn\_itam\_common\_asset\_audit\] table.
+**Important:** If you have set the **sn\_hamp.smigrate\_hamaudit** system property value to **true** to enable audit enhancements in your ServiceNow instance, the audit results are populated from the Asset Audits \[sn\_itam\_common\_asset\_audit\] table.
 
 <table id="table_i33_kdp_13c"><thead><tr><th>
 
@@ -74,7 +74,7 @@ New
 
 </td><td>
 
-Number of assets that were scanned but don’t have a record in your ServiceNow instance.**Note:** If the audit record's **Scan method** is set to **Multi scan**, a new asset record is created using the provided Asset tag. The new asset record is created with unknown product model and unknown model category value. Additionally, an asset remediation task is also created to notify you that an asset record is created with unknown model category and unknown product model. Open the asset remediation task from the Hardware Asset Workspace and update the **Model category** and **Model** fields value for the asset. For more information, see [Close an asset remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/close-an-asset-remediation-task.md).
+Number of assets that were scanned but don’t have a record in your ServiceNow instance.**Note:** If the audit record's **Scan method** is set to **Multi scan**, a new asset record is created using the provided Asset tag. The new asset record is created with unknown product model and unknown model category value. Additionally, an asset remediation task is also created to notify you that an asset record is created with unknown model category and unknown product model. Open the asset remediation task from the Hardware Asset Workspace and update the **Model category** and **Model** fields value for the asset. For more information, see [Close an asset remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/close-an-asset-remediation-task.md).
 
 </td></tr><tr><td>
 
@@ -94,12 +94,12 @@ Found but not in audit scope
 The number of scanned assets that are not within the scope of the current audit record. For example, if the audit is created to scan assets located in Aisle and Space 001 of the stockroom, but an asset belonging to Aisle and Space 002 in the stockroom is scanned, that asset cannot be categorized as an unexpected asset for the stockroom. Since the asset is still an expected asset for the stockroom, it is categorized as found but not in audit scope asset.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 
 **Related topics**  
 
 
-[View audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-audit-results.md)
+[View audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/view-audit-results.md)
 
-[Asset audit fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-audit-record-fields.md)
+[Asset audit fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-audit-record-fields.md)
 

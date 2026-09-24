@@ -3,9 +3,9 @@ title: Define font size settings for mobile devices
 description: Adjust the size of text labels in the main screens of your mobile applications to enhance the readability of texts. This typography option can be used for accessibility purposes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/accessibility-mobile-typography.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Accessibility features in mobile, Using the mobile apps, Mobile Platform]
 ---

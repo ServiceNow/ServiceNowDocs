@@ -3,9 +3,9 @@ title: Launcher screen font icons
 description: Use launcher screen font icons in the upper right corner of your mobile screen. They are used as navigation to another screen. Don't use these icons for quick actions. Launcher screen font icons are in the now-mobile-icons-ALPnavbar font family.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/launcher-screen-font-icons.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile icon reference, Mobile icons, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -33,6 +33,9 @@ Use launcher screen font icons in the upper right corner of your mobile screen. 
 |Link Solid|e93b|New York|\[Omitted image "mab-icon-launch-link-sol.png"\] Alt text: LInk Solid example| |
 |Megaphone Solid|e949|New York|\[Omitted image "mab-icon-launch-megafon-sol.png"\] Alt text: Megaphone Solid example|\[Omitted image "mab-icon-launch-megafon-sol-rtl.png"\] Alt text: Reversed Megaphone Solid example|
 |Web-Link Solid|f2d0|New York|\[Omitted image "mab-icon-launch-weblink-sol.png"\] Alt text: Web-Link Solid example| |
+|Icons added in Brazil release|
+|SN-Sparkmoji-Logo|e900|Brazil|\[Omitted image "mab-icon-image-sparkmoji.png"\] Alt text: Otto logo example| |
+|Microphone-AI-Spark-Solid|e901|Brazil|\[Omitted image "mab-icon-action-mic-ai-sparkle-solid.png"\] Alt text: Microphone-AI-Spark-Solid example| |
 
-**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md)
+**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-icon-reference.md)
 

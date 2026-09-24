@@ -3,11 +3,11 @@ title: Configure Authentication profile for Processor
 description: Apply authentication profile for the export processors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-auth-profile-processor.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System or Export Processors, API access policy, Authentication, Access Management]
 ---

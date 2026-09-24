@@ -3,9 +3,9 @@ title: Install Deal Registration
 description: Install the plugin \(com.snc.deal\_registration\_management\), along with the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-deal-registration-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -31,7 +31,7 @@ The following items are installed with Deal Registration:
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Procedure
 
@@ -45,15 +45,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d178140e134">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d182153e134">
 
 Demo data install task
 
-</th><th align="left" id="d178140e137">
+</th><th align="left" id="d182153e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d178140e143">
+</th></tr></thead><tbody><tr><td id="d182153e143">
 
 **If demo data is available and you want to install it**
 
@@ -63,7 +63,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d178140e173">
+</td></tr><tr><td id="d182153e173">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -81,12 +81,12 @@ Load the demo data after installing Deal Registration Management.1.  Install Dea
 
 You have successfully installed the Deal Registration Management \(com.snc.deal\_registration\_management\) application.
 
-**Parent Topic:**[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-management.md)
+**Parent Topic:**[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/deal-registration-management.md)
 
 **Related topics**  
 
 
-[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 

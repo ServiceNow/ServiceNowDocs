@@ -3,12 +3,12 @@ title: Use email agentic workflow
 description: Use email agentic workflow to intelligently analyze inbound emails, extract information, perform necessary actions, and draft responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/use-agentic-ai-notifications.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI, Agentic workflow, Intent to action]
-breadcrumb: [Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Use email agentic workflow
@@ -31,7 +31,7 @@ Available AI agents
 
 </th></tr></thead><tbody><tr><td>
 
-[Intent to action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-agentic-workflow.md)
+[Intent to action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-agentic-workflow.md)
 
 </td><td>
 

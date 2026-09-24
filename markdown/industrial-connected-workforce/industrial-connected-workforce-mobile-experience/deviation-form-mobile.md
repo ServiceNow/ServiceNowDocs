@@ -3,11 +3,11 @@ title: Deviation form
 description: The following table describes the field values for the Deviation form in Industrial Connected Workforce Mobile Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/deviation-form-mobile.html
-release: australia
+release: brazil
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
@@ -208,5 +208,5 @@ Resolution code for the impact. Options are:-   None
 -   Fixed by maintenance
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Industrial Connected Workforce Mobile Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/industrial-connected-workforce-mobile-experience-reference.md)
+</table>**Parent Topic:**[Industrial Connected Workforce Mobile Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/industrial-connected-workforce-mobile-experience-reference.md)
 

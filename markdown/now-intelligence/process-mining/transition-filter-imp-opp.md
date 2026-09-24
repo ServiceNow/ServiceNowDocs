@@ -3,11 +3,11 @@ title: Set improvement opportunities from Analyst workbench
 description: Set a process step filter as a rule-based improvement opportunity for your process table or your project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/transition-filter-imp-opp.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [For projects, Setting improvement opportunities, Use, Process Mining, Platform Analytics]
 ---
@@ -91,5 +91,5 @@ Role required:
     The improvement opportunity is created and added to your process configuration, project, or both according to your preference.
 
 
-**Parent Topic:**[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-imp-opp.md)
+**Parent Topic:**[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/project-imp-opp.md)
 

@@ -3,11 +3,11 @@ title: ACC data input configuration fields
 description: Description of the fields on the ACC data input configuration form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/accl-data-input-conf-ref.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure ACC data inputs manually, Set up additional ACC data inputs, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
 ---

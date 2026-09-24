@@ -3,11 +3,11 @@ title: Enable DEX browser extension on multiple macOS devices
 description: Deploy the DEX browser extension to all your organization's employees using Jamf.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/enable-dex-extension-bulk-macos.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [deploy browser extension macos, jamf browser extension, bulk extension mac, configuration profile, force installed extension]
 breadcrumb: [Deploying DEX to employees, Configure, Digital End-User Experience, IT Service Management]
@@ -77,6 +77,4 @@ The following procedure describes how to deploy the DEX browser extension on mul
     -   Apple system: Navigate to **System Settings** &gt; **Privacy and Security** &gt; **Profiles**.
     -   Terminal: Enter the command `cd /Library/Managed\ Preferences` to navigate to the managed preferences folder and verify that the `com.google.Chrome.plist` file is present.
     -   End-user device: Open Google Chrome and navigate to the `chrome://extensions` page.
-
-**Parent Topic:**[Deploying DEX to employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/deploying-dex-to-employees.md)
 

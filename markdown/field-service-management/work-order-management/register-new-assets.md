@@ -3,11 +3,11 @@ title: Register new assets
 description: Register new assets that are supported for customers and have not been registered previously using the ServiceNow Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/register-new-assets.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -40,7 +40,7 @@ Role required: asset
 
 8.  Tap **Scan next item** each time to scan the barcodes of the next parts.
 
-    The default configuration enables you to scan a maximum of five parts at a time. You can increase or decrease the count of scanning multiple items at a time. For more information, see [Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-multiscan.md).
+    The default configuration enables you to scan a maximum of five parts at a time. You can increase or decrease the count of scanning multiple items at a time. For more information, see [Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-configure-multiscan.md).
 
 9.  After scanning all the parts, tap **Review**.
 

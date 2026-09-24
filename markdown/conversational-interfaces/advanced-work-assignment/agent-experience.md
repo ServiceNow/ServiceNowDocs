@@ -3,11 +3,11 @@ title: Agent Inbox controls
 description: Control certain elements of the agent experience in Agent Workspace. Define the agent presence \(availability\) states and the work item rejection reasons used by agents to decline work assignments in their Agent Workspace inbox.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/agent-experience.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Explore, Advanced Work Assignment, Manage people and work, Conversa
 Control certain elements of the agent experience in Agent Workspace. Define the agent presence \(availability\) states and the work item rejection reasons used by agents to decline work assignments in their Agent Workspace inbox.
 
 ## Agent presence states
+
+
 
 \[Omitted image "agent-availability.png"\] Alt text: Agent Workspace inbox availability states.
 
@@ -28,8 +30,8 @@ AWA admins can define the presence states that agents choose in their inbox to i
 
 AWA developers with the awa\_integration\_user role can also use JavaScript or REST APIs to get or set agent presence and agent channel availability. For more information, see
 
--   [Agent Presence API \(REST APIs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/agent-api.md)
--   [Agent - Global \(JavaScript APIs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_AgentAPI.md)
+-   Agent Presence API \(REST APIs\)
+-   Agent - Global \(JavaScript APIs\)
 
 ## Agent rejection controls
 

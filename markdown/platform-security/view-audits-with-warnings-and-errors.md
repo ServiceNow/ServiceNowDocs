@@ -3,9 +3,9 @@ title: View audits with warnings and errors
 description: The Domain Separation Center provides details about audit errors and warnings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/view-audits-with-warnings-and-errors.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Domain Separation Center, Domain separation for service providers, Access Management]
 ---

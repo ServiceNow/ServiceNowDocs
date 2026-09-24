@@ -3,10 +3,10 @@ title: Create a quick recovery task
 description: Create a quick recovery task from Recovery tasks or as part of the planned recovery strategy for a business continuity plan. Using the quick insert feature, you can create tasks without navigating to a separate form. Tasks can be ordered, inserted in sequence \(before, after, or in parallel with existing tasks\), and dependencies are updated automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-quick-recovery-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-01"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -16,22 +16,25 @@ Create a quick recovery task from Recovery tasks or as part of the planned recov
 
 ## Before you begin
 
-Role required: sn\_bcm.program\_manager, or sn\_bcm.planner
+Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
 ## About this task
 
-The Recovery tasks tab allows you to create and manage recovery tasks directly from the plan record. When a plan has no tasks, selecting Quick insert enables you to create a recovery task from a pop-up modal. The modal displays only required fields and enforces mandatory field validation before submission. You can move and resize the modal as needed.
+The Recovery tasks tab on a business continuity plan allows you to create and manage recovery tasks directly from the plan record. When a plan has no tasks yet, selecting **Quick insert** enables you to create a recovery task directly from a pop-up modal without leaving your current page. The modal displays only the required fields and enforces mandatory field validation before submission. You can move and resize the modal as needed.
 
-Before this enhancement, creating a recovery task opened the full recovery-task form on a separate page. After saving, the user remained on the new task record and had to navigate back to the plan to add the next task. The quick insert flow keeps you on the plan page so that the plan context, existing tasks, and dependencies remain visible while you add tasks. For the full long-form workflow, see [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-a-recovery-task.md).
+Before this enhancement, creating a recovery task opened the full recovery-task form on a separate page. After saving, the user remained on the new task record and had to navigate back to the plan to add the next task. The quick insert flow keeps you on the plan page. The context of the plan, its existing tasks, and their dependencies remains visible while you add each task. For the full long-form workflow, see [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-a-recovery-task.md).
 
-Once tasks exist, the quick insert form provides additional options to control where and how new tasks are inserted. You can insert tasks in the following positions:
+Once tasks exist, the quick insert form provides additional options to control where and how the new task is inserted relative to existing tasks. You can insert tasks in the following positions:
 
 -   After — inserts the new task after a selected task and automatically sets the dependency.
 -   Before — inserts the new task before a selected task, updating dependencies accordingly.
 -   In parallel — creates the new task with the same dependencies as the selected task, so both run concurrently.
 -   In no order — creates a task without any dependency, assigning it order 1.
 
-The Create a quick recovery task button is available on the plan page and within the loss scenario recovery strategy.
+The Create a quick recovery task button is available in two locations:
+
+-   On the plan page
+-   Within the loss scenario recovery strategy
 
 Task template groups can also be applied in bulk using the **Add groups** control in the **Recovery tasks** tab toolbar. Template groups pre-populate loss scenario associations, recovery strategies, and planned durations for each task they contain.
 
@@ -47,7 +50,7 @@ Task template groups can also be applied in bulk using the **Add groups** contro
 
 2.  To open the Create a quick recovery task modal, select **Insert**.
 
-    When the plan has no tasks, only the basic task fields such as Short description \(required\), Phase, Plan recovery strategy, Tag assets, and Planned duration are shown. The Assignment details section includes Owner, Assignment group, Additional assignees, and Recovery team.
+    The panel opens on the screen. When the plan has no tasks, only the basic task fields are shown. They include Short description \(required\), Phase, Plan recovery strategy, Tag assets, and Planned duration \(Days, Hours, Minutes, Seconds\). The Assignment details section includes Owner, Assignment group, Additional assignees, and Recovery team.
 
     \[Omitted image "rt-panel.png"\] Alt text: Insert panel.
 
@@ -97,7 +100,7 @@ Task template groups can also be applied in bulk using the **Add groups** contro
 
 10. Fill in the short description and any other fields, then select **Save**.
 
-    For more information on the fields in the form, see [Create a quick recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-quick-recovery-task-form.md).
+    For more information on the fields in the form, see [Create a quick recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-quick-recovery-task-form.md).
 
     The system recalculates task order based on dependencies and updates all planned order values in the list. The new task appears in its correct position on the Recovery tasks tab.
 
@@ -105,7 +108,7 @@ Task template groups can also be applied in bulk using the **Add groups** contro
 
 12. To insert a task relative to a specific row, select the check box on that row first, then select **Insert**.
 
-    When a row is selected, the Insert task reference field is pre-populated with that task name. This is useful when the plan contains many tasks.
+    When a row is selected, the Insert task reference field in the quick insert panel is pre-populated with that task name. You do not have to search for it manually. This is especially useful when the plan contains many tasks.
 
 13. Review the completed task list to confirm planned order, dependencies, phases, and recovery strategies are correct.
 
@@ -126,8 +129,8 @@ Group names are unique. Reusing an existing group name surfaces an inline error 
 
 \[Omitted image "qi-save-tasks.png"\] Alt text: Recovery tasks tab toolbar showing the Save as group dropdown expanded with Save tasks and Add to group options.
 
--   **[Create a quick recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-quick-recovery-task-form.md)**  
+-   **[Create a quick recovery task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-quick-recovery-task-form.md)**  
 Use the Create a quick recovery task form in the BCM Configurable Workspace to insert details on the recovery task quickly.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

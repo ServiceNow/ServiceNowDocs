@@ -3,7 +3,7 @@ title: Ansible discovery agent
 description: The Ansible discovery agent analyzes automation opportunities and identifies relevant Ansible job templates using AI-powered semantic matching and historical execution patterns.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/ansible-discovery-agent.html
-release: australia
+release: brazil
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept

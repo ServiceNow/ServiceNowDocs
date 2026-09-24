@@ -3,11 +3,11 @@ title: Create REST API access policy
 description: Create an API access policy and map an authentication profile to restrict the authentication type for a REST API. For example, you can create an API access policy that allows only ID token authentication for a REST API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-api-access-policy.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [REST API access policies, API access policy, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Create an API access policy and map an authentication profile to restrict the au
 
 ## Before you begin
 
-Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-authentication-profile.md).
+Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-authentication-profile.md).
 
 Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
@@ -156,14 +156,14 @@ Option to apply the policy to all tables. This option only applies to policies f
 
 </td></tr><tr><td>
 
-[Advertise all auth schemes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-authentication-profile.md)
+[Advertise all auth schemes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-authentication-profile.md)
 
 </td><td>
 
 Determines whether the `WWW-Authenticate` header includes all configured authentication schemes. When set to `false` \(default\), the header includes only the most recently configured authentication profile in the policy. When set to `true`, the header lists all configured authentication schemes.
 
 </td></tr></tbody>
-</table>    **Note:** To understand more about the API access policy prioritization, see [API access policy prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/api-access-policy-prioritization.md).
+</table>    **Note:** To understand more about the API access policy prioritization, see [API access policy prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/api-access-policy-prioritization.md).
 
 4.  Double-click **Insert a new row**.
 

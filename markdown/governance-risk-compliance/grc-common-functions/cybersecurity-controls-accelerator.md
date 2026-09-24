@@ -3,11 +3,11 @@ title: Cybersecurity Controls Accelerator
 description: The Cybersecurity Controls Accelerator enables users to easily adopt the CIS Controls from The Center for internet Security to enhance their overall security preparedness and cyber-defense posture.Before you run the GRC: Cybersecurity Controls Accelerator application in your instance, you must download it from the ServiceNow Store.After you have accessed the Cybersecurity Controls Accelerator, you can monitor the controls using these modules.If you use the CIS or ISO authority documents imported from UCF, you can still manage compliance activities using the 285 \(171 CIS and 114 ISO\) automatically monitored indicator templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/cybersecurity-controls-accelerator.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -20,17 +20,17 @@ CIS Control adoption is further enhanced by targeting the leading cybersecurity 
 
 The Cybersecurity Controls Accelerator contains the CIS Controls version 7.1 authority document, 191 associated CIS citations, and 191 CIS control objectives that are related to the citations.
 
-The [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md) application \(com.sn\_grc\_infosec\), which must also be downloaded to use the Cybersecurity Controls Accelerator, includes 171 \(26 basic\) predefined indicator templates that are mapped to the CIS Controls. These indicator templates provide automated control validation and continuous monitoring.
+The [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md) application \(com.sn\_grc\_infosec\), which must also be downloaded to use the Cybersecurity Controls Accelerator, includes 171 \(26 basic\) predefined indicator templates that are mapped to the CIS Controls. These indicator templates provide automated control validation and continuous monitoring.
 
 ## Support for CIS Controls ™ v8
 
-Beginning with the Australia release, Cybersecurity Controls Accelerator supports CIS Controls ™ v8 authority documents, citations, and control objectives that are related to the citations.
+Beginning with the Brazil release, Cybersecurity Controls Accelerator supports CIS Controls ™ v8 authority documents, citations, and control objectives that are related to the citations.
 
 ## Content for CSA CCM v4.0
 
-Beginning with the Australia release, Cybersecurity Controls Accelerator supports the Cloud Security Alliance Cloud Controls Matrix \(CSA CCM v4.0\) content such as Authority Document, Citations, and Control Objectives.
+Beginning with the Brazil release, Cybersecurity Controls Accelerator supports the Cloud Security Alliance Cloud Controls Matrix \(CSA CCM v4.0\) content such as Authority Document, Citations, and Control Objectives.
 
-**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)
+**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)
 
 ## Download the Cybersecurity Controls Accelerator
 
@@ -48,7 +48,7 @@ Role required: admin
 
 ### Procedure
 
-1.  Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-grc-first-time.md).
+1.  Follow the instructions for [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/download-grc-first-time.md).
 
 
 ## Monitoring cybersecurity controls
@@ -113,9 +113,9 @@ Indicator Templates
 The **Indicator Templates** module provides a list of predefined indicator templates that are mapped to the CIS Controls. The indicator templates automate control validation and provide continuous monitoring.Indicator Template Reference to Content \[sn\_grc\_m2m\_ind\_temp\_cont\]
 
 </td></tr></tbody>
-</table>As previously mentioned, the [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md) application \(com.sn\_grc\_infosec\) is a dependant application when you download the Cybersecurity Controls Accelerator application. The [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md) application provides predefined indicator templates that are mapped to the CIS Controls.
+</table>As previously mentioned, the [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md) application \(com.sn\_grc\_infosec\) is a dependant application when you download the Cybersecurity Controls Accelerator application. The [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md) application provides predefined indicator templates that are mapped to the CIS Controls.
 
-**Note:** Should you decide not to implement the Cybersecurity Controls Accelerator application, you can still use the [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md) to validate compliance with CIS and ISO 27002 via the Unified Compliance Framework \(UCF\) from the Policy and Compliance Management application. For more information, see [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md).
+**Note:** Should you decide not to implement the Cybersecurity Controls Accelerator application, you can still use the [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md) to validate compliance with CIS and ISO 27002 via the Unified Compliance Framework \(UCF\) from the Policy and Compliance Management application. For more information, see [Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md).
 
 ## UCF controls mapped to indicator templates
 

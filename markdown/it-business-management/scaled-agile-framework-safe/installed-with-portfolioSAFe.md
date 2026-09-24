@@ -3,11 +3,11 @@ title: Components installed with Portfolio SAFe
 description: Several types of components are installed with activation of the Agile - Scaled Agile Framework - Portfolio SAFe plugin \(com.snc.sdlc.portfolio\_safe\), including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/installed-with-portfolioSAFe.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Portfolio SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -279,7 +279,7 @@ SAFe Team VTB Board\[sn\_safe\_team\_vtb\_board\]
 Records displayed on the Team level, Board tab.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)
+</table>**Parent Topic:**[Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)
 
 **Related topics**  
 

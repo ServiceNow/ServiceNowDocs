@@ -3,9 +3,9 @@ title: View primary alerts associated with a service
 description: View the primary alerts associated with a service to help troubleshoot issues with the service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/view-primary-alerts-from-service-sow.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ Role required: evt\_mgmt\_admin
 
     The Service Dashboard page appears.
 
-    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/add-impact-cal-services.md).
+    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/add-impact-cal-services.md).
 
 3.  Select a service tile.
 
@@ -47,5 +47,5 @@ Role required: evt\_mgmt\_admin
     View details about an alert by selecting its number in the **Number** column.
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/workspace-dashboard-use.md)
 

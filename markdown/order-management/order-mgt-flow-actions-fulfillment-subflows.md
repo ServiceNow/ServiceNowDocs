@@ -3,9 +3,9 @@ title: Flow actions for fulfillment subflow definition
 description: If you define your own fulfillment subflows in Workflow Studio, you can use the standard flow actions that are available in the ServiceNow AI Platform. Each action deals with different aspects of the fulfillment or inventory maintenance that provides some consistency in retrieving and updating data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-flow-actions-fulfillment-subflows.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure order fulfillment, Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -57,14 +57,14 @@ Get Customer Order Characteristic Value
 Flow action that takes the customer order line Item and characteristic as input and returns a characteristic value from the customer order line item. If the characteristic is not present in the customer order line item, it returns the default value for the characteristic from the respective order line item offering.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-fulfillment.md)
+</table>**Parent Topic:**[Configure order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-order-fulfillment.md)
 
 **Related topics**  
 
 
-[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md)
 
-[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md)
+[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md)
 
-[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md)
+[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md)
 

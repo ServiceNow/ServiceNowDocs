@@ -3,11 +3,11 @@ title: Propose a single change to a CI in Service Operations Workspace
 description: Propose new values for one or more CI attributes, review the proposed values, and apply them after the change request reaches the Implement state in Service Operations Workspace \(SOW\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/propose-single-change-ci.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [propose single change, affected CI, change request]
 breadcrumb: [Create a change request in Service Operations Workspace, Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
@@ -75,7 +75,7 @@ If the change is not approved, no records need to be reversed. If it is implemen
 
 8.  After reviewing the proposed changes, approve and move the change request to the Implement state.
 
-    For more information, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-sow.md).
+    For more information, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-sow.md).
 
 9.  Open the change request and select **Apply proposed changes**.
 
@@ -86,5 +86,5 @@ If the change is not approved, no records need to be reversed. If it is implemen
     The proposed values are written to the CI records. The **View proposed change** action no longer appears for the applied CIs.
 
 
-**Parent Topic:**[Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-sow.md)
+**Parent Topic:**[Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-sow.md)
 

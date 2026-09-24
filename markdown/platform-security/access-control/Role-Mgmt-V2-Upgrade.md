@@ -3,11 +3,11 @@ title: Upgrade to Contextual Security: Role Management V2
 description: Contextual Security: Role Management V2 is automatically installed on new instances. You can upgrade from Contextual Security: Role Management to Contextual Security: Role Management V2 to eliminate duplicate roles in the User Roles table and prevent future duplicates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/Role-Mgmt-V2-Upgrade.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Contextual Security Manager, Access Control Lists \(ACLs\), Access Management]
 ---
@@ -20,9 +20,9 @@ Contextual Security: Role Management V2 is automatically installed on new instan
 
 Role required: admin, security\_admin
 
-You must have the admin role and [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md) to obtain the effective security\_admin role.
+You must have the admin role and [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md) to obtain the effective security\_admin role.
 
-**Note:** Before upgrading to Contextual Security: Role: Management V2, you must enable the Audit Roles table to create audit records related to user roles. To learn more about setting the required system property, see [Enable role auditing with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/enable-audit-roles.md).
+**Note:** Before upgrading to Contextual Security: Role: Management V2, you must enable the Audit Roles table to create audit records related to user roles. To learn more about setting the required system property, see [Enable role auditing with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/enable-audit-roles.md).
 
 ## About this task
 

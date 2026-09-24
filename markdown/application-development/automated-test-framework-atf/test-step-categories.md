@@ -3,11 +3,11 @@ title: Automated Test Framework \(ATF\) test step categories
 description: Find test steps for a particular user interface or ServiceNow AI Platform feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-step-categories.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---

@@ -3,11 +3,11 @@ title: Use CyberArk as a secure configuration provider
 description: You can use a CyberArk vault to secure any sensitive data from the MID Server config.xml file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/use-cyberark-secure-config-provider.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MID Server configuration file security, Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,8 +21,6 @@ You can use a CyberArk vault to secure any sensitive data from the MID Server **
 Role required: admin
 
 Before configuring CyberArk as secured config provider, make sure that **JavaPasswordSDK.jar** is available in the `<mid_installation_folder>/agent/extlib` folder.
-
-To configure the MID Server to connect to CyberArk using AIM, see CyberArk JAR import.
 
 ## About this task
 
@@ -42,7 +40,7 @@ CyberArk is commonly used to secure credentials in its external vault. However, 
 
     Use the following example as a guide.
 
-    1.  Secure the MID Server credentials by setting this parameter to match the **ID** and **Type** for that data in your [CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_CyberArkIntegrationConfiguration.md).
+    1.  Secure the MID Server credentials by setting this parameter to match the **ID** and **Type** for that data in your [CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_CyberArkIntegrationConfiguration.md).
 
         ```
         <parameter name="mid.instance.username" secure="true" value="cyberark: id=<Full account name>, type=<Platform name>"/>
@@ -58,5 +56,5 @@ CyberArk is commonly used to secure credentials in its external vault. However, 
 5.  Restart the MID Server.
 
 
-**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-encrypter-api.md)
+**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-encrypter-api.md)
 

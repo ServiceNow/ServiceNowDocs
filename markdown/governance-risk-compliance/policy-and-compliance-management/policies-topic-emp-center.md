@@ -3,11 +3,11 @@ title: Policy knowledge base and quick links in the Employee Center portal
 description: You can view all the Knowledge base \(KB\) articles related to the published policies in Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/policies-topic-emp-center.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage GRC tasks from Employee Center, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

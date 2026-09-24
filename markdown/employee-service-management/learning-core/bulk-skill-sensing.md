@@ -3,11 +3,11 @@ title: Add or discard multiple skills with skill sensing
 description: Review and approve the Large Language Model \(LLM\) recommended skills before tagging​ them to the learning courses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/bulk-skill-sensing.html
-release: australia
+release: brazil
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Skill sensing for learning content, Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -41,5 +41,7 @@ Plugin requirement: Now Assist for HR Service Delivery \(HRSD\) plugin \(sn\_hr\
     The selected skills are added to the Course item skills table \(sn\_lc\_course\_item\_m2m\_cmn\_skill\) and linked to the relevant learning courses. They are then removed from the Course Item Recommended Skills list.
 
 
-**Parent Topic:**[Skill sensing for learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/skill-sensing-for-learning-content.md)
+**Parent Topic:**[Skill sensing for learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/skill-sensing-for-learning-content.md)
+
+**Parent Topic:**[Skill sensing for learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/skill-sensing-for-learning-content.md)
 

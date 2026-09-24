@@ -3,11 +3,11 @@ title: Trigger a UI interaction from a page event
 description: Attach a UI interaction to a UI Builder page event so the interaction runs when a user performs an action on a component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/trigger-ui-interaction-from-page-event.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [UI interactions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -34,15 +34,15 @@ In this task, you configure a component event on a page to trigger an existing U
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Create or open a page within the experience.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select the component that should trigger the interaction.
 
-    If the page doesn’t already include the component you want to use, add it to the page first. For more information about adding components to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    If the page doesn’t already include the component you want to use, add it to the page first. For more information about adding components to a page, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md).
 
 5.  In the component configuration panel, select the **Events** tab.
 
@@ -69,5 +69,5 @@ In this task, you configure a component event on a page to trigger an existing U
 
 When the specified page event occurs, the UI interaction runs and executes its configured actions.
 
-**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md)
+**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/uib-ui-interactions.md)
 

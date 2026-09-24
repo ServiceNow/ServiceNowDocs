@@ -3,11 +3,11 @@ title: Decrease sensitivity to similar anomalies in Health Log Analytics
 description: Make anomaly detection less sensitive to anomalies like the one that triggered the current Log Analytics alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-alert-raise-feedback-sow.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assign higher or lower significance to an alert, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -44,6 +44,4 @@ Selecting the Raise feedback option raises the threshold for generating alerts w
 
     2.  Confirm the action in the dialog box.
 
-
-**Parent Topic:**[Assign higher or lower significance to an alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-significance.md)
 

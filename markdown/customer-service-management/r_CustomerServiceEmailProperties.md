@@ -3,9 +3,9 @@ title: Customer service email properties
 description: Users with the system administrator role can set several properties for the Customer Service Management email communication channel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_CustomerServiceEmailProperties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -32,12 +32,7 @@ Case email address\[glide.cs.email.case\_queue\_address\]
 
 </td><td>
 
-One of the incoming email addresses that automatically creates a customer service case.For incoming email, the system checks the address to see if it matches the address in the **Case email address** property.
-
--   If it matches, the system creates a case
--   If it doesn't match, or the property isn't set, the system checks the Email subject prefix format for new case property instead.
--   
-If yes, the system creates a customer service case. If it does not match, or if this property is not set, the system then checks the **Email subject prefix format for new case** property.
+One of the incoming email addresses that automatically creates a customer service case.For incoming email, the system checks the address to see if it matches the address in the **Case email address** property. If yes, the system creates a customer service case. If it does not match, or if this property is not set, the system then checks the **Email subject prefix format for new case** property.
 
 </td></tr><tr><td>
 
@@ -85,7 +80,7 @@ Email history notifications
 
 </td><td>
 
-By default, the email history shows the last three messages in the case record. To show every activity on a case record instead, add this script `${mail_script:get_emails_comments_activity_history}` to the email reply system property \(reply-received\) and the case commented system property \(case.commented.for.customer\). For more information, refer to [Configure email and comment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-email-notifications.md)
+By default, the email history shows the last three messages in the case record. To show every activity on a case record instead, add this script `${mail_script:get_emails_comments_activity_history}` to the email reply system property \(reply-received\) and the case commented system property \(case.commented.for.customer\). For more information, refer to [Configure email and comment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-email-notifications.md)
 
 .
 

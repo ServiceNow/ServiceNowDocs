@@ -3,11 +3,11 @@ title: Problem model form
 description: Description of the field values for the problem task model form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-model-form.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference section for Problem Management, Problem Management, IT Service Management]
 ---
@@ -26,5 +26,5 @@ Description of the field values for the problem task model form.
 |Read Roles|Option to define the roles to view the problem model.|
 |Write Roles|Option to define the roles to edit the problem model.|
 
-**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
 

@@ -3,10 +3,12 @@ title: Assign the Service Desk Manager role from SOW Admin Center
 description: Assign the Service Desk Manager \[sn\_itsm\_common.sn\_service\_desk\_manager\] role to add the L1 IT Service Desk AI Specialist to your team \(assignment group\) to help with incident resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/assign-sdm-role-l1-sd-ai-spec.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [Service Desk Manager role, assign role, Service Operations Workspace, Admin Center, L1 Service Desk AI Specialist, assignment group, incident resolution, ITSM, role assignment, service desk agent, IT Service Management]
+audience: administrator
 breadcrumb: [Configure, L1 IT Service Desk AI Specialist, IT Service Management]
 ---
 
@@ -34,7 +36,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Service Operations Workspace** &gt; **Admin Center** &gt; **Overview**.
+1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Overview**.
 
 2.  Select the **Configuration** tab.
 

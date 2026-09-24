@@ -3,11 +3,11 @@ title: Find similar alerts
 description: You can find alerts similar to the alert currently being investigated. Save troubleshooting time by reviewing similar alerts to see how they were resolved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/find-similar-alerts.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Alert similarity, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ You can find alerts similar to the alert currently being investigated. Save trou
 
 ## Before you begin
 
-Ensure that the Predictive Intelligence plugin is activated. To activate this plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+Ensure that the Predictive Intelligence plugin is activated. To activate this plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 Ensure that the `evt_mgmt.similarity_use_ml` property is set to `true`.
 
@@ -51,5 +51,5 @@ Save time in resolving the current alert by reviewing how similar alerts were re
     You can modify the value of the threshold by setting the `evt_mgmt.similarity_use_threshold` property.
 
 
-**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-similarity.md)
 

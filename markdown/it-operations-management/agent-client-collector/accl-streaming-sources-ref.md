@@ -3,11 +3,11 @@ title: ACC data input streaming sources
 description: In the ACC data input record, the Streaming Sources related list shows the streaming data of that data input's sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/accl-streaming-sources-ref.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identify and resolve log streaming issues, ACC Log Analytics setup, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -57,5 +57,5 @@ Preprocessed log lines/sec
 The average number of preprocessed log lines that streamed to the MID Server per second in the last one-minute interval. **Note:** This value can differ from the number of raw log lines per second. For example, the difference can be a result of logs having been dropped during preprocessing.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Identify and resolve log streaming issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accl-verify-log-streaming.md)
+</table>**Parent Topic:**[Identify and resolve log streaming issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/accl-verify-log-streaming.md)
 

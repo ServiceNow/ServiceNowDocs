@@ -3,11 +3,11 @@ title: Harvest knowledge from a community
 description: Harvest knowledge from a community and create structured knowledge articles from unstructured discussions around a question.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-knowledge-from-communities.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Moderate a community, Configuring communities, Communities, Customer Service Management]
 ---
@@ -21,6 +21,10 @@ Harvest knowledge from a community and create structured knowledge articles from
 Role required: sn\_communities.knowledge\_harvester, sn\_communities.admin, or sn\_communities.moderation\_admin
 
 Knowledge harvesting must be enabled.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -52,15 +56,15 @@ You can only harvest solved questions with accepted solutions into a knowledge a
 
 6.  Perform one of the following actions.
 
-<table id="choicetable_xkp_y35_4bb"><thead><tr><th align="left" id="d55434e219">
+<table id="choicetable_xkp_y35_4bb"><thead><tr><th align="left" id="d56927e238">
 
 To
 
-</th><th align="left" id="d55434e222">
+</th><th align="left" id="d56927e241">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d55434e228">
+</th></tr></thead><tbody><tr><td id="d56927e247">
 
 **Publish**
 
@@ -72,7 +76,7 @@ Click **Publish** to initiate the workflow associated with the knowledge base. A
 
 **Note:** You can only see the links if you are a logged-in community user and have been assigned the correct permissions in the forum.
 
-</td></tr><tr><td id="d55434e248">
+</td></tr><tr><td id="d56927e267">
 
 **Save**
 
@@ -80,7 +84,7 @@ Click **Publish** to initiate the workflow associated with the knowledge base. A
 
 Click **Save** to save the knowledge article as a draft. To publish the knowledge article at a later point in time, navigate to the platform UI and then **Knowledge** &gt; **Articles** &gt; **Unpublished**.
 
-</td></tr><tr><td id="d55434e272">
+</td></tr><tr><td id="d56927e291">
 
 **Delete**
 
@@ -90,5 +94,5 @@ Click **Delete** to delete the knowledge article and all records associated with
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/moderate-communities.md)
 

@@ -3,11 +3,11 @@ title: Configure the logout confirmation prompt
 description: You can enable a logout confirmation prompt to prevent users from inadvertently logging themselves out.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_EnableTheLogoutConfirmPrompt.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Local authentication, Authentication, Access Management]
 ---

@@ -3,13 +3,13 @@ title: Configuration Item \[cmdb\_ci\] class
 description: Attributes in the Configuration Item \[cmdb\_ci\] class, which extends the Base Configuration Item \[cmdb\] class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-table-property-descriptions.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CMDB schema model, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB schema model, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configuration Item \[cmdb\_ci\] class
@@ -18,7 +18,7 @@ Attributes in the Configuration Item \[cmdb\_ci\] class, which extends the Base 
 
 **Warning:** Do not modify any of these attributes in the dictionary. For example, do not modify the type of the **location** attribute from reference to list. Such modifications may prevent features that use the CMDB, from functioning properly.
 
-For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 ## Common core, user tables
 

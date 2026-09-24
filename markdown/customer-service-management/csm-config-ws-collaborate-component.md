@@ -3,9 +3,9 @@ title: Collaborate component
 description: Use the Collaborate component in CRM Workspace to communicate with stakeholders and gather information for case resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-collaborate-component.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Components, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Customer service agents can use the Collaborate component to initiate chats and 
 
 The Collaborate component requires configured integrations with communication services such as Microsoft Teams, Slack, and Zoom. When no integrations have been configured, agents can use the Collaborate component to start Sidebar discussions.
 
-The Collaborate component is available as the last tab in the contextual side panel in CRM Workspace. The Collaborate component is available on all CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md) where the table is set to one of the following:
+The Collaborate component is available as the last tab in the contextual side panel in CRM Workspace. The Collaborate component is available on all CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-ws-pages-templates.md) where the table is set to one of the following:
 
 -   Interaction \[interaction\]
 -   A child of the Task \[task\] table, such as the Case table \[sn\_customerservice\_case\]
@@ -41,13 +41,13 @@ The component also includes the following:
 
 ## Collaborate component integrations
 
-The Collaborate component requires configured integrations with communication services such as Microsoft Teams, Slack, and Zoom. For more information, see [Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collab-services-tcm.md).
+The Collaborate component requires configured integrations with communication services such as Microsoft Teams, Slack, and Zoom. For more information, see [Collaboration services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/collab-services-tcm.md).
 
 The Collaborate component includes the Sidebar feature. Agents can collaborate with others through Sidebar discussions. For more information, see the following topics:
 
--   [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-sidebar.md)
--   [Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-teams-overview.md)
--   [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-sidebar.md)
+-   [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/exploring-sidebar.md)
+-   [Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/sidebar-teams-overview.md)
+-   [Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/using-sidebar.md)
 
 The Collaborate component can also be configured to use different communication tools such as Microsoft Teams or Zoom. Agents can see the available configurations by selecting the Add icon.
 

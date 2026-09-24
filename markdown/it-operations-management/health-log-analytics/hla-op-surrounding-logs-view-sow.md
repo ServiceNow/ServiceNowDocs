@@ -1,25 +1,25 @@
 ---
-title: Analyze log lines that surround an anomaly in Health Log Analytics
+title: Analyze log lines around an anomaly
 description: Review the log lines around an anomaly to help you identify the root cause of a Log Analytics alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-sow.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [surrounding logs, anomaly analysis, log timeline analysis, root cause analysis, health log analytics, log anomaly investigation, log viewer, anomaly timeline, log investigation, alert investigation, log data analysis, anomaly root cause, troubleshooting logs, system fault diagnosis]
-breadcrumb: [Review logs that surround the anomaly, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Review logs surrounding the anomaly, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Analyze log lines that surround an anomaly in Health Log Analytics
+# Analyze log lines around an anomaly
 
 Review the log lines around an anomaly to help you identify the root cause of a Log Analytics alert.
 
 ## Before you begin
 
-For background information, see [Analyze log lines to identify an alert root cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md).
+For background information, see [Review logs surrounding an anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept.md).
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
@@ -29,7 +29,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 2.  Select the **Surrounding logs** tab and review the information.
 
-    The tab displays the list of log lines that were generated one minute before and one second after the Log Analytics alert. For an explanation of the information on the tab, see [Surrounding logs tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-surrounding-logs-tab.md).
+    The tab displays the list of log lines that were generated one minute before and one second after the Log Analytics alert. For an explanation of the information on the tab, see [Surrounding logs tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-surrounding-logs-tab.md).
 
 3.  View a different time span of the log lines using one of the following methods:
 
@@ -37,4 +37,6 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
     -   Specify a **Start time** or **End time** using the time picker.
 4.  View the anomalous log data graphically as a function of time by selecting **Log viewer**.
 
+
+**Parent Topic:**[Review logs surrounding an anomaly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept.md)
 

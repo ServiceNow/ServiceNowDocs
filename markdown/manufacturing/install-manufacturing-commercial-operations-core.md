@@ -3,9 +3,9 @@ title: Install Manufacturing Commercial Operations
 description: Install the Manufacturing Commercial Operations Core application with the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/install-manufacturing-commercial-operations-core.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Manufacturing Commercial Operations]
 ---
@@ -29,7 +29,7 @@ The following items are installed with Manufacturing Commercial Operations:
 -   Plugins
 -   ServiceNow Store applications
 
-For details about the plugins, see [Plugins installed with Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-commercial-operations-plugins.md).
+For details about the plugins, see [Plugins installed with Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/manufacturing-commercial-operations-plugins.md).
 
 **Note:** Installing a plugin from the store also installs its dependent hidden store applications automatically. The MCO Integrations plugin is an exception: it doesn't install with the core apps. You must search for and install it separately.
 
@@ -59,5 +59,5 @@ For details about the plugins, see [Plugins installed with Manufacturing Commerc
 **Related topics**  
 
 
-[Assigning roles in Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/assign-mco-roles.md)
+[Assigning roles in Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/assign-mco-roles.md)
 

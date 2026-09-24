@@ -3,9 +3,9 @@ title: Manage User Experience
 description: Explore in-depth transactions for a user or a node for a given period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/manage-user-experience.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User Experience, IO analytics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -52,9 +52,9 @@ Role required: admin
 
     For more information, see
 
-    -   [Track of application response time to monitor performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/monitor-apps-user-experience-io.md).
-    -   [Use Platform Performance Analyzer to view server details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-app-mon-perf-analy.md)
+    -   [Track of application response time to monitor performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/monitor-apps-user-experience-io.md).
+    -   [Use Platform Performance Analyzer to view server details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/io-app-mon-perf-analy.md)
     -   .
 
-**Parent Topic:**[User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-experience-insights.md)
+**Parent Topic:**[User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/user-experience-insights.md)
 

@@ -3,11 +3,11 @@ title: Content Management and the Apache Jelly engine
 description: Apache Jelly is a Java-based and XML-based scripting and processing engine for turning XML into executable code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/r\_ContentManagementAndJelly.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -41,9 +41,9 @@ Ensure that all tags are closed. If the tag is not a naturally closing tag, then
 
 If you are unfamiliar with Jelly scripting, review these topics:
 
--   Jelly tags
--   Extensions to Jelly syntax
--   Jelly escaping types
+-   [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/r_JellyTags.md)
+-   [Extensions to Jelly syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md)
+-   [Jelly escaping types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/r_JellyEscapingTypes.md)
 
 Include the following tag with all Apache Jelly scripts.
 
@@ -149,10 +149,10 @@ To select only one record and not iterate through many records, the code looks l
 </j:jelly>
 ```
 
--   **[Content management and Jelly code examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_CodeExamples.md)**  
+-   **[Content management and Jelly code examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/r_CodeExamples.md)**  
 Code examples
 
-**Parent Topic:**[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)
+**Parent Topic:**[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)
 
 **Related topics**  
 

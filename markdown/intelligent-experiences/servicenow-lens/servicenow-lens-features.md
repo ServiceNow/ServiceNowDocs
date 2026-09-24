@@ -3,13 +3,13 @@ title: ServiceNow AI Lens features
 description: Learn about the various ServiceNow AI Lens features to help you get started with analyzing and gathering insights from the visual data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/servicenow-lens-features.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Explore, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # ServiceNow AI Lens features
@@ -70,7 +70,7 @@ ServiceNow AI Lens offers the following features:
 
 -   **Use Lens actions to customize Lens behavior**
 
-    You can use Lens actions that define Lens behavior depending on how ServiceNow AI Lens is triggered and what context is set. You can define default instructions, trigger options, custom context, transform response logic, and post processing instructions for the Lens execution. With Lens actions, you can customize how a classic form is auto-filled using ServiceNow AI Lens or what data must be extracted for preview and post process the LLM response. For more information, see [Customize ServiceNow AI Lens behavior by creating a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md).
+    You can use Lens actions that define Lens behavior depending on how ServiceNow AI Lens is triggered and what context is set. You can define default instructions, trigger options, custom context, transform response logic, and post processing instructions for the Lens execution. With Lens actions, you can customize how a classic form is auto-filled using ServiceNow AI Lens or what data must be extracted for preview and post process the LLM response. For more information, see [Customize ServiceNow AI Lens behavior by creating a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md).
 
     For example, you can define a Lens action that is used when Lens is triggered from an instance to populate a form of a particular table. You can also define which form fields must be populated.
 
@@ -84,7 +84,7 @@ ServiceNow AI Lens offers the following features:
 
 -   **ServiceNow AI Lens in Virtual Agent**
 
-    Trigger ServiceNow AI Lens from a Virtual Agent conversation by using ServiceNow AI Lens topic in Virtual Agent. For more information, see [Enabling ServiceNow AI Lens in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/enabling-lens-for-virtual-agent.md) and [Extract and analyze data using ServiceNow AI Lens from Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/trigger-lens-from-va.md).
+    Trigger ServiceNow AI Lens from a Virtual Agent conversation by using ServiceNow AI Lens topic in Virtual Agent. For more information, see [Enabling ServiceNow AI Lens in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/enabling-lens-for-virtual-agent.md) and [Extract and analyze data using ServiceNow AI Lens from Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/trigger-lens-from-va.md).
 
     \[Omitted image "sn-lens-va-mobile.png"\] Alt text: ServiceNow AI Lens service in a Virtual Agent conversation on a mobile device.
 
@@ -95,23 +95,23 @@ ServiceNow AI Lens offers the following features:
     For your own use cases, you can leverage Lens actions for using Lens as a service in the following ways:
 
     -   Client service: Launch the Lens client to scan and analyze images. For example, you can configure a UI action on a workspace form or a service portal to launch the Lens client. For more information, see [KB2492775](https://support.servicenow.com/kb?sys_kb_id=d5a3f9a693b3aa18d9743f986cba1094&id=kb_article_view).
-    -   Server service: Use Lens as a service to analyze the provided images without launching the Lens client. For example, you can call Lens service from a Script Include or flow action to get the LLM response after analyzing the visual data. For more information, see [Script include - AILensActionService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/ai-lens-action-service-api.md).
+    -   Server service: Use Lens as a service to analyze the provided images without launching the Lens client. For example, you can call Lens service from a Script Include or flow action to get the LLM response after analyzing the visual data. For more information, see [Script include - AILensActionService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/ai-lens-action-service-api.md).
 -   **Attach images to a record**
 
-    View the captured images attached to the record that is auto-filled using ServiceNow AI Lens. You can later refer the attached images to understand the source of the record data. For more information, see [Customize ServiceNow AI Lens behavior by creating a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md).
+    View the captured images attached to the record that is auto-filled using ServiceNow AI Lens. You can later refer the attached images to understand the source of the record data. For more information, see [Customize ServiceNow AI Lens behavior by creating a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md).
 
 -   **Use as a standalone application**
 
-    Use ServiceNow AI Lens as a standalone application for previewing extracted data or getting insights. You must connect to a ServiceNow instance before you start using ServiceNow AI Lens. For more information, see [Extract and analyze data with ServiceNow AI Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md).
+    Use ServiceNow AI Lens as a standalone application for previewing extracted data or getting insights. You must connect to a ServiceNow instance before you start using ServiceNow AI Lens. For more information, see [Extract and analyze data with ServiceNow AI Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md).
 
     \[Omitted image "standalone-lens.png"\] Alt text: ServiceNow AI Lens login screen as a standalone application.
 
 -   **Autofill form fields in the Now Mobile® application**
 
-    Trigger ServiceNow AI Lens from Now Mobile® application to extract data from artifacts and autofill fields in a form on the Now Mobile® application.. For more information on creating or updating records in the Now Mobile® application, see [ServiceNow AI Lens for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/servicenow-lens-mobile.md).You can add a ServiceNow AI Lens button to input form screens to allow users to quickly extract data from attachments and complete forms faster. For more information, see [Configure a Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-lens-launcher-button.md).
+    Trigger ServiceNow AI Lens from Now Mobile® application to extract data from artifacts and autofill fields in a form on the Now Mobile® application.. For more information on creating or updating records in the Now Mobile® application, see [ServiceNow AI Lens for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/servicenow-lens-mobile.md).You can add a ServiceNow AI Lens button to input form screens to allow users to quickly extract data from attachments and complete forms faster. For more information, see [Configure Lens launcher button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-lens-launcher-button.md).
 
 -   **Autofill Catalog Item forms in Service Portal**
 
-    Autofill Catalog Item form fields by triggering ServiceNow AI Lens from Service Portal. ServiceNow AI Lens extracts data from one or more artifacts and auto fills the relevant fields in the form.. For more information on using ServiceNow AI Lens in the Service Portal, see [Auto-fill catalog item form in the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md).
+    Autofill Catalog Item form fields by triggering ServiceNow AI Lens from Service Portal. ServiceNow AI Lens extracts data from one or more artifacts and auto fills the relevant fields in the form.. For more information on using ServiceNow AI Lens in the Service Portal, see [Auto-fill catalog item form in the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md).
 
 

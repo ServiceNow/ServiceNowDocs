@@ -3,11 +3,11 @@ title: Monitor visualized log data on a predefined dashboard in Health Log Analy
 description: Use visualizations to monitor log data on the built-in Operational Dashboard in Service Operations Workspace Log Analytics and address issues as they occur in the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-log-dashboard-default.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Dashboards for real-time visualization of log data, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Use visualizations to monitor log data on the built-in Operational Dashboard in 
 
 Role required: evt\_mgmt\_operator or viz\_admin
 
-**Important:** From the Vancouver release onward, this feature is deprecated and replaced with the AIOps [HLA Operational dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-operational-dashboard.md). For more information about AIOps dashboards, see [AIOps Dashboards in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-dashboards-sow-itom.md). You can also build a custom dashboard per your needs. For more information, see [Create log data dashboards and visualizations in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-data-dashboard-create.md).
+**Important:** From the Vancouver release onward, this feature is deprecated and replaced with the AIOps [HLA Operational dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-operational-dashboard.md). For more information about AIOps dashboards, see [AIOps Dashboards in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-dashboards-sow-itom.md). You can also build a custom dashboard per your needs. For more information, see [Create log data dashboards and visualizations in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-log-data-dashboard-create.md).
 
 ## Procedure
 

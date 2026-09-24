@@ -3,9 +3,9 @@ title: Data catalog key terms
 description: Key terms used in Data catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-catalog-key-terms.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Data Catalog, Workflow Data Fabric]
 ---
@@ -23,5 +23,5 @@ Key terms used in Data catalog.
 |Glossary term|Business glossary terms define business concepts and can be linked to catalog assets to provide business context. Terms include definitions, synonyms, related concepts, and ownership information. Use glossary terms to bridge the gap between technical data structures and business understanding.|
 |Connect Hub|The interface in Workflow Data Fabric Home where Connection Admins create and manage connections to external systems. From Connect Hub, admins configure credentials and authentication and set up metadata collectors.|
 
-**Parent Topic:**[Data catalog reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog-reference.md)
+**Parent Topic:**[Data catalog reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-catalog-reference.md)
 

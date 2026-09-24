@@ -3,11 +3,11 @@ title: Workflow stage renderers
 description: Workflow stage renderers determine how a workflow displays stages in a workflow field.In most cases, the default workflow-driven renderer should be used. If you have specific requirements for displaying stages, you can select a different stage renderer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/r\_WorkflowStageRenderers.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Create a workflow stage field, Workflow stages, Workflow management, Classic Workflow, Build workflows]
 ---
@@ -44,7 +44,7 @@ The **Stage order** field on the **Stages** tab has two options:
 
 Linear rendering displays all stage icons from the main workflow and all subflows within a single workflow field on a list or form. It displays icons in a linear sequence regardless of the paths the workflow follows as it executes. This renderer uses stages defined in both the main workflow and any subflows that the main flow launches. The icons appear in the user-specified order. Skipped stages do not appear.
 
-Use this renderer when the workflow stages must display in a consistent order and the actual details of how the workflow runs are less important. For example, a workflow may revisit or revert to previous stages based on one or more [Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ConditionActivites.md). Displaying these loops in the stage field does not provide useful information to the user. In this scenario, using the linear renderer leads to the best user experience. The stage field displays the predefined process, including stages from subflows, in a consistent order.
+Use this renderer when the workflow stages must display in a consistent order and the actual details of how the workflow runs are less important. For example, a workflow may revisit or revert to previous stages based on one or more [Condition Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_ConditionActivites.md). Displaying these loops in the stage field does not provide useful information to the user. In this scenario, using the linear renderer leads to the best user experience. The stage field displays the predefined process, including stages from subflows, in a consistent order.
 
 For example, you can create a service catalog workflow that uses a subflow to complete delivery of the requested item. The following images illustrate the main flow and subflow for ordering corporate-branded supplies.
 
@@ -81,7 +81,7 @@ The requested item renderer functions the same way as the legacy renderer, but i
 
 Only in Now Mobile, default stage renderer is used.
 
-**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md)
+**Parent Topic:**[Create a workflow stage field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/t_CreateAWorkflowStageField.md)
 
 ## Select a stage renderer
 

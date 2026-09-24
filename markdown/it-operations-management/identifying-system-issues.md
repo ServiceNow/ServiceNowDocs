@@ -3,9 +3,9 @@ title: Identifying system issues with synthetic monitoring
 description: Tests run by synthetic monitors enable service owners and operators to view service endpoint performance at scale.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/identifying-system-issues.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---

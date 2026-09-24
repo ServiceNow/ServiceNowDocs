@@ -3,11 +3,11 @@ title: Working with Form UI actions
 description: Following are the UI actions that are displayed on the security incident form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/enable\_workspace\_form\_ui\_actions.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 6
 breadcrumb: [Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -243,7 +243,7 @@ Delete a security incident record.
 
 \[Omitted image "form-ui-actions.png"\] Alt text: Form UI actions
 
-**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 

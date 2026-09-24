@@ -3,11 +3,11 @@ title: MID Server heartbeat
 description: The instance checks the MID Server for a response every 5 minutes, using a synthetic transaction monitoring system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/r\_MIDServerHeartbeat.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,7 +25,7 @@ The instance checks the MID Server for a response every 5 minutes, using a synth
 
 ServiceNow instances send a synthetic transaction via the Heartbeat probe to every MID Server every 5 minutes. The Heartbeat probe functions exactly as a normal probe does and is sent by writing an output record to the ECC queue. A MID Server retrieves the record when it queries the ECC queue for work. The MID Server processes the probe just as it would any other probe and responds back to the instance. If the instance does not detect a response from a MID Server, the instance marks that MID Server as **Down**. If the MID Server responds, the instance considers the MID Server to be functioning and communicating properly with the instance.
 
-**Note:** Make sure that your MID Server can communicate on **port 443**. See [Configure MID Server network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConnectionPrerequisites.md) and [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) for more information.
+**Note:** Make sure that your MID Server can communicate on **port 443**. See [Configure MID Server network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_MIDServerConnectionPrerequisites.md) and [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) for more information.
 
 ## System events
 
@@ -44,7 +44,7 @@ To change the trigger interval for the Heartbeat probe, navigate to **System Sch
 
 \[Omitted image "MIDServerMonitorInterval.png"\] Alt text: MID Server heartbeat trigger interval
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 

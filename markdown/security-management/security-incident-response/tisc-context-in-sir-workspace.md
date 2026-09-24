@@ -3,11 +3,11 @@ title: Send Observables to TISC
 description: Using this feature the security analyst can push the observables data from SIR to TISC. Using the TISC Context, you can check if the observables are present in TISC, if not security analyst can push the data whenever required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/tisc-context-in-sir-workspace.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Send data from SIR Workspace to TISC, TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -33,7 +33,7 @@ Enable the `sn_ti.automatic_push_observable_to_tisc` system property to automati
     **Note:**
 
     -   You can also navigate to the **Investigation** tab, and navigate to the **Entry Points Lists** section displayed on the left side of the page and select **Associated Observables** to perform the push operation.
-    -   On the **Investigation** tab, select **View Related Info** to view all the associated threat lookup, sighting search, and enrichment data for the selected observable. For more information, see [Explore Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/explore-investigation-in-sir-workspace.md).
+    -   On the **Investigation** tab, select **View Related Info** to view all the associated threat lookup, sighting search, and enrichment data for the selected observable. For more information, see [Explore Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/explore-investigation-in-sir-workspace.md).
 4.  For example, select **Threat Intel** &gt; **Associated Observables** to perform the push operation and manually push the data into TISC.
 
 5.  Select one or more observable record to perform **Send Observable to TISC** operation to push the data.
@@ -91,7 +91,7 @@ Enable the `sn_ti.automatic_push_observable_to_tisc` system property to automati
     -   **View Associated Info** will show all the associated observable enrichment data of the selected observables.
 10. To create and link a matching threat intelligence observable in Security Incident Response Workspace, select one or more observables in the **Observables** list and select **Create and Link to SI**.
 
-    A confirmation window opens before the action runs. This action both creates the threat intelligence observable and links it to the security incident. To link an existing record without creating one, use **Link** instead. For more details, see [Link and unlink TISC records to a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisc-link-unlink-records-sir.md).
+    A confirmation window opens before the action runs. This action both creates the threat intelligence observable and links it to the security incident. To link an existing record without creating one, use **Link** instead. For more details, see [Link and unlink TISC records to a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/tisc-link-unlink-records-sir.md).
 
     **Note:**
 
@@ -102,7 +102,7 @@ Enable the `sn_ti.automatic_push_observable_to_tisc` system property to automati
 11. View the results.
 
 
-**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
+**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
 
 **Related topics**  
 

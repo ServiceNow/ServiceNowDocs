@@ -3,9 +3,9 @@ title: Install the Discovery Sensor for OT
 description: Download the Discovery Sensor for OT package and install the ISO image. Then install the Discovery Sensor for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/install-discovery-sensor-for-ot.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -36,7 +36,7 @@ You can register the Sensor after you have installed the OT Discovery Console an
 
 ## Procedure
 
-1.  On your instance, navigate to the [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md) Guided Setup page.
+1.  On your instance, navigate to the [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/sgc-ot-discovery.md) Guided Setup page.
 
 2.  Select the **Get Started**.
 
@@ -120,12 +120,12 @@ You can register the Sensor after you have installed the OT Discovery Console an
 
 26. Use this URL to log in to the DMI and register your Discovery Sensor for OT to the Console.
 
-    For more information, see [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/registering-ot-sensor.md).
+    For more information, see [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/registering-ot-sensor.md).
 
 
 ## What to do next
 
-[Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/registering-ot-sensor.md)
+[Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/registering-ot-sensor.md)
 
-**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)
+**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/configure-discovery-sensor-ot.md)
 

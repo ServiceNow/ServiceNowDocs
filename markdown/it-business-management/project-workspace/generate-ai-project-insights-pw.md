@@ -3,11 +3,11 @@ title: Generate and track project details from AI insights page
 description: Generate and monitor project insights directly from AI insights page in Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-ai-project-insights-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Generate and monitor project insights directly from AI insights page in Project 
 
 ## Before you begin
 
-Ensure that the Project insights generation skill is active.
+Verify that the Project insights generation skill is active.
 
 Role required: it\_project\_manager
 
@@ -26,7 +26,7 @@ Role required: it\_project\_manager
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open AI insights page by selecting **AI insights** from the list.
 
@@ -55,7 +55,7 @@ The project insights are generated from the AI insights page with access to curr
 ## What to do next
 
 -   Modify the project insights admin configurations:
-    1.  Navigate to **All** and type `sn_spm_gen_ai_insight_topic.list` and press enter to open the configuration table.\[Omitted image "insight-topics-table.png"\] Alt text: Insights topic configuration table.
+    1.  Navigate to **All** and type `sn_spm_gen_ai_insight_topic.list` and press enter to open the configuration table.\[Omitted image "image.insight-topics-table"\] Alt text: Insights topic configuration table.
     2.  Locate the topic you want to update from the Topic name column.
     3.  Double-click \(or use the keyboard shortcut\) the Default topic config field to edit the required topic.
     4.  Update the values for threshold or critical state or time ranges according to your requirement.
@@ -67,5 +67,5 @@ The project insights are generated from the AI insights page with access to curr
     -   From the AI insights page, select **Regenerate** icon.
     -   AI generates updated project insights.
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/use-projects-pw.md)
 

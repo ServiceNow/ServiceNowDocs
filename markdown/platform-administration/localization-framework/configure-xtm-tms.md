@@ -3,11 +3,11 @@ title: Configure XTM TMS in the Localization Framework
 description: Configure XTM TMS to use the XTM TMS service in the Localization Framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/configure-xtm-tms.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translation Management System configurations, Localization Framework settings, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -63,5 +63,5 @@ Roles required: connection\_admin
     Once the OAuth token is created, the ServiceNow® platform regenerates the token until the refresh token expires.
 
 
-**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md)
+**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/tms-configuration.md)
 

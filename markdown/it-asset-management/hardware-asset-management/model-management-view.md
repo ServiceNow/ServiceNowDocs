@@ -3,11 +3,11 @@ title: Model management view
 description: Use the Model management view in the Hardware Asset Workspace to create or edit models, view the asset model-related functions such as hardware and consumable models nearing the end of life, and take appropriate actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/model-management-view.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -31,4 +31,6 @@ All reports except **Days until next hardware content refresh** under the Model 
 |Normalization metrics|Count of models that were normalized and those models that didn't get normalized.|
 |Model lifecycle overview|Count of models that are present in each life cycle stage such as General Availability, End of Support, End of Life, and End of Sale.|
 |Product model status|Current count of hardware, consumable, and software models based on the status of the models.|
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 

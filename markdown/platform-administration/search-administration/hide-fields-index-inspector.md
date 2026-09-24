@@ -3,13 +3,13 @@ title: Hide fields in the index inspector
 description: Suppress display of fields on documents in the index inspector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/hide-fields-index-inspector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Review content item indexing status, Review, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -25,7 +25,7 @@ Role required: admin
 
 By default, the index inspector displays fields found on indexed documents that match your search. Administrators can hide sensitive fields in the index inspector by setting the value of the **glide.ais.externalcontent.query\_api\_denied\_fields** system property. Hidden fields don't appear in index inspector search results.
 
-To learn about the index inspector, see [Review indexing status for individual content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-indexing-status-content-items.md).
+To learn about the index inspector, see [Review indexing status for individual content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-indexing-status-content-items.md).
 
 ## Procedure
 
@@ -61,5 +61,5 @@ To learn about the index inspector, see [Review indexing status for individual c
 
 The specified fields are hidden when viewing indexed documents in the index inspector.
 
-**Parent Topic:**[Review indexing status for individual content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-indexing-status-content-items.md)
+**Parent Topic:**[Review indexing status for individual content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-indexing-status-content-items.md)
 

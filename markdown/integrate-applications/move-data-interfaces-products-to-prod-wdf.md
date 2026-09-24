@@ -3,9 +3,9 @@ title: Move data interfaces and data products to production
 description: Use a local update set to move data interfaces and data products from a subproduction instance to production.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/move-data-interfaces-products-to-prod-wdf.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Products, Workflow Data Fabric]
 ---
@@ -20,14 +20,14 @@ Before you begin, verify the following:
 
 -   A local update set is active in the subproduction instance with the same application scope as your data interfaces and data products.
 -   All data interfaces and data products you want to move are published in the subproduction instance.
--   Zero-copy connectors for all source systems are configured in the production instance. For setup instructions, see [Zero copy connectors documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md).
+-   Zero-copy connectors for all source systems are configured in the production instance. For setup instructions, see [Zero copy connectors documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connectors.md).
 -   Role required: Admin
 
 ## About this task
 
 Data interfaces and data products are captured in the active update set as you create and publish them. Exporting and installing the update set in production recreates the assets, including all data interface tables and column mappings. After installation, you must verify the connections again in production because connector names and credentials differ between instances.
 
-For detailed instructions on update sets, see .
+For detailed instructions on update sets, see [Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/using-system-update-sets.md).
 
 ## Procedure
 

@@ -3,11 +3,11 @@ title: Manage requests sent for API access in API Insights
 description: Manage your sent access requests by either sending a reminder or withdrawing the request in API Insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-sent-access.html
-release: australia
+release: brazil
 product: API Insights
 classification: api-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage access requests, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_api\_insights\_ws.api\_mgmt\_architect
 
 5.  Manage the sent requests.
 
-<table id="choicetable_jwj_2my_mcc"><thead><tr><th align="left" id="d147208e101">
+<table id="choicetable_jwj_2my_mcc"><thead><tr><th align="left" id="d145279e101">
 
 Decision
 
-</th><th align="left" id="d147208e104">
+</th><th align="left" id="d145279e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d147208e110">
+</th></tr></thead><tbody><tr><td id="d145279e110">
 
 **Send a reminder.**
 
@@ -48,7 +48,7 @@ Action
 
 Select **Send reminder**.A confirmation message appears indicating that the reminder has been sent.
 
-</td></tr><tr><td id="d147208e124">
+</td></tr><tr><td id="d145279e124">
 
 **Withdraw a request.**
 

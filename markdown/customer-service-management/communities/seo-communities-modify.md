@@ -3,12 +3,12 @@ title: Modify SEO in community pages
 description: If an auto-generated SEO meta tag does not meet your needs, you can modify or replace the tag.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/seo-communities-modify.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Community pages that support SEO data, Community Service Portal, Configuring communities, Communities, Customer Service Management]
 ---
 
@@ -19,6 +19,10 @@ If an auto-generated SEO meta tag does not meet your needs, you can modify or re
 ## Before you begin
 
 Role required: sp\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -78,7 +82,7 @@ In addition to the **description** meta tag for a question page, the Communities
 
 2.  In the list of portal pages, click the **ID** of the page to update \(in the example, **community\_question**\).
 
-    See the list of [pages in Communities that support SEO data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-seo-data.md).
+    See the list of [pages in Communities that support SEO data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-seo-data.md).
 
 3.  On the Page form:
 
@@ -87,5 +91,5 @@ In addition to the **description** meta tag for a question page, the Communities
     \[Omitted image "seo-page-form.png"\] Alt text: Two screenshots: first displaying page details and highlighting the Dynamic page title field, second highlighting the Meta tags tab and Dynamic page title variables tab with the related list.
 
 
-**Parent Topic:**[Community pages that support SEO data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-seo-data.md)
+**Parent Topic:**[Community pages that support SEO data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-seo-data.md)
 

@@ -3,11 +3,11 @@ title: Exclude time series from an indicator
 description: Some time series aggregations are inappropriate to apply to some indicators. You can exclude time series on automated, formula, and manual indicators. Excluded time series are not selectable from the Analytics Hub, KPI Details, or widgets. Other time series remain selectable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_ExcludingTimeSeriesFromIndicators.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---

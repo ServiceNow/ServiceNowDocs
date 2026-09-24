@@ -3,11 +3,11 @@ title: Firewall Audits and Reporting calibration
 description: Explore further details on Firewall Audits and Reporting calibration by reviewing the provided material.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/firewall-audit-report-references.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
@@ -27,5 +27,5 @@ Explore further details on Firewall Audits and Reporting calibration by reviewin
     -   PaloAlto - Firewall Device groups
     -   PaloAlto - Panorama Security policies
 
-**Parent Topic:**[Firewall Audits and Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-report-reference.md)
+**Parent Topic:**[Firewall Audits and Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/firewall-audit-report-reference.md)
 

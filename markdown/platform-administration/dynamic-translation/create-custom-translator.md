@@ -3,11 +3,11 @@ title: Create a custom translator configuration
 description: Configure Dynamic Translation for a third-party machine translation provider of your choice.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/create-custom-translator.html
-release: australia
+release: brazil
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate with a translation service provider, Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,9 +20,9 @@ Configure Dynamic Translation for a third-party machine translation provider of 
 
 Ensure that the Dynamic Translation plugin \(com.glide.dynamic\_translation\) is activated.
 
-Create subflows for your custom translation provider. See [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md).
+Create subflows for your custom translation provider. See [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md).
 
-Create language code mappings as needed. For more information see [Language Code Mapping in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/language-mapper-dt.md).
+Create language code mappings as needed. For more information see [Language Code Mapping in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/language-mapper-dt.md).
 
 Role required: admin
 
@@ -82,7 +82,7 @@ Choose a translate subflow
 
 </td><td>
 
-Workflow Studio subflow that interacts with the translation service provider to translate the input text. Search for the subflow that you created in the previous procedure \([Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md)\).
+Workflow Studio subflow that interacts with the translation service provider to translate the input text. Search for the subflow that you created in the previous procedure \([Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md)\).
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Choose a detect subflow
 
 </td><td>
 
-Workflow Studio subflow that interacts with the machine translation provider to detect the language of the input text. Search for the subflow that you created in the previous procedure \([Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md)\).
+Workflow Studio subflow that interacts with the machine translation provider to detect the language of the input text. Search for the subflow that you created in the previous procedure \([Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md)\).
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Mapping codes for languages to associate with the translator configuration recor
 
 -   Only languages for which the language code mapping was created are available for selection.
 -   You can select only one language code mapping per language.
-For more information, see [Create a language code mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-language-code-mapping.md).
+For more information, see [Create a language code mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/create-language-code-mapping.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -140,7 +140,7 @@ For more information, see [Create a language code mapping](https://raw.githubuse
 
 ## What to do next
 
-If you are on Xanadu Patch 3 or above, and want to use Exclusion Framework in Dynamic Translation, add your translation provider's exclusion tags. For more information, see [Add an Exclusion Provider Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-provider.md).
+If you are on Xanadu Patch 3 or above, and want to use Exclusion Framework in Dynamic Translation, add your translation provider's exclusion tags. For more information, see [Add an Exclusion Provider Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-provider.md).
 
-**Parent Topic:**[Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md)
+**Parent Topic:**[Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md)
 

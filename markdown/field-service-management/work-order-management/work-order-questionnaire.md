@@ -3,11 +3,11 @@ title: Configuring survey-based work order questionnaires
 description: Admin can create survey-based questionnaires and associate them with work order tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/work-order-questionnaire.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Questionnaires, Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -47,11 +47,11 @@ This demo questionnaire works as follows:
 
 The steps for setting up work order questionnaires are:
 
-1.  [Activate Field Service Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Activate-fsm-questionnaire.md)
+1.  [Activate Field Service Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/Activate-fsm-questionnaire.md)
 
     Install the Field Service- Questionnaire plugin \(com.snc.wm\_questionnaire\) if you have the admin role.
 
-2.  [Create a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-questionnaire-for-work-order.md)
+2.  [Create a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/create-questionnaire-for-work-order.md)
 
     Create a questionnaire to be completed before work starts or after a work is done.
 
@@ -59,7 +59,7 @@ The steps for setting up work order questionnaires are:
 **Related topics**  
 
 
-[Activate Field Service Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Activate-fsm-questionnaire.md)
+[Activate Field Service Questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/Activate-fsm-questionnaire.md)
 
-[Create a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-questionnaire-for-work-order.md)
+[Create a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/create-questionnaire-for-work-order.md)
 

@@ -3,9 +3,9 @@ title: Publicly distributed apps
 description: Public distribution can be used to distribute iOS or Android branded applications on public app stores.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-publicly-dist-apps.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Distribution, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -36,5 +36,5 @@ The following image summarizes the workflow. It usually takes about a week or le
 
 \[Omitted image "mobile-android-public-brand-app-proc.png"\] Alt text: Public publishing process for Android branded apps.
 
-**Parent Topic:**[Distributing your mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-distribution.md)
+**Parent Topic:**[Distributing your mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-distribution.md)
 

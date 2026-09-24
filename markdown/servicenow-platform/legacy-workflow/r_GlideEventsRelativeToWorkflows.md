@@ -3,11 +3,11 @@ title: Glide events relative to workflows
 description: Workflow uses several Glide events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_GlideEventsRelativeToWorkflows.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow events in the base system, Workflow events, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,5 +23,5 @@ Workflow uses several Glide events.
 |Delete|Global event set upon the delete of a GlideRecord that causes the script engine, and through that the workflow engine, to wake up.|Looks to the Workflow Context \[wf\_context\] table to find running workflows that are associated with the current GlideRecord by document ID.|There is no explicit customer-facing use for this in a workflow. It is part of the Glide engine, and with this event, the only thing workflows can do is advance through the next set of transitions.|Workflow Engine, RunEngine|Current thread, current mutex|User action of delete of a GlideRecord|
 |Query|Global event set upon the query of the Glide database that causes the script engine, and through that the workflow engine, to wake up.|Looks to the Workflow Context \[wf\_context\] table to find running workflows that are associated with the current GlideRecord by document ID.|There is no explicit customer-facing use for this in a workflow. It is part of the Glide engine, and with this event, the only thing workflows can do is advance through the next set of transitions.|Workflow Engine, RunEngine|Current thread, current mutex|User action of query of a GlideRecord|
 
-**Parent Topic:**[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)
+**Parent Topic:**[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)
 

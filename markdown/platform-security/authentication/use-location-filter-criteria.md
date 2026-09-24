@@ -3,11 +3,11 @@ title: Tutorial: Use Location Filter criteria
 description: Describes steps to use location filter criteria in the authentication policy and restrict access to the users based on the location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/use-location-filter-criteria.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Location Filter, Filter criteria, Adaptive authentication, Authentication, Access Management]
 ---
@@ -58,10 +58,10 @@ The following procedure describes how to create and use the location filter crit
 
     To know more about the configuration based on authentication context and session access, see:
 
-    -   [Location Filter in Pre Authentication Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/use-lf-pre-auth.md)
-    -   [Location Filter in Post Authentication Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/use-lf-post-auth.md)
-    -   [Location Filter in MFA Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/use-lf-in-mfa.md)
-    -   [Location Filter for Session Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/lf-for-session-access.md)
+    -   [Location Filter in Pre Authentication Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/use-lf-pre-auth.md)
+    -   [Location Filter in Post Authentication Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/use-lf-post-auth.md)
+    -   [Location Filter in MFA Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/use-lf-in-mfa.md)
+    -   [Location Filter for Session Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/lf-for-session-access.md)
     You can use the Property ID - Error message to be displayed to the user when login fails due to authentication policy failure \(`glide.auth.policy.ui.error.message`\) to customize the error message.
 
 

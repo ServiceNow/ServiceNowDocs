@@ -3,11 +3,11 @@ title: Page navigation in Service Portal by URL
 description: You can navigate to a portal or a page in Service Portal using a URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/navigate-by-portal-url.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Understanding Service Portal, Exploring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -62,7 +62,7 @@ keywords
 
 Human readable keywords that improve search engine optimization \(SEO\) and click-through rates for public pages. Human readable URLs also help users understand what to expect on a page for public and non-public pages. For example, `https://<instance>/kb/en/faq/what-is-a-cookie?id=kb_article_view&sysparm_article=KB0000007`.
 
- For more information, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
+ For more information, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
 
 </td></tr><tr><td>
 
@@ -86,14 +86,14 @@ page parameters
 
 </td><td>
 
-Additional parameters are required by some pages to load dynamic content by looking up a record \(table, sys\_id\). Find the `$sp.getParameter` calls in a widget server script to see the parameters that a widget uses. For more detail on this method, see GlideSPScriptable - Scoped.
+Additional parameters are required by some pages to load dynamic content by looking up a record \(table, sys\_id\). Find the `$sp.getParameter` calls in a widget server script to see the parameters that a widget uses. For more detail on this method, see [GlideSPScriptable - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md).
 
  If you don’t include these additional parameters when required, you might get a `You are either not authorized or record is not valid` error message.
 
 </td></tr></tbody>
 </table>For example, the URL for a public knowledge base page in Spanish in Service Portal could be `https://<instance>/sp/es/faq/what-is-a-cookie?id=kb_article&sys_id=KB0000007`.
 
-**Note:** If you use article versioning with the Knowledge Management - Service Portal \(com.snc.knowledge\_serviceportal\) plugin, you must add the article version number to the URL to open a knowledge article in the base system or knowledge portals. For example, instead of accessing an article using the URL `https://<instance>/sp?id=kb_article&sys_id=KB0000005`, you must include the article version number: `https://<instance>/sp?id=kb_article&sys_id=KB0000005%20V1.0`. To learn more, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/article-versioning.md).
+**Note:** If you use article versioning with the Knowledge Management - Service Portal \(com.snc.knowledge\_serviceportal\) plugin, you must add the article version number to the URL to open a knowledge article in the base system or knowledge portals. For example, instead of accessing an article using the URL `https://<instance>/sp?id=kb_article&sys_id=KB0000005`, you must include the article version number: `https://<instance>/sp?id=kb_article&sys_id=KB0000005%20V1.0`. To learn more, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/article-versioning.md).
 
 ## Referencing a page ID
 
@@ -103,7 +103,7 @@ Widgets and widget instance options reference Service Portal pages using the pag
 <div><a href="?id=sc_home">${Order something...}</a></div>
 ```
 
-**Parent Topic:**[Understanding Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-what-to-know.md)
+**Parent Topic:**[Understanding Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-what-to-know.md)
 
 **Related topics**  
 

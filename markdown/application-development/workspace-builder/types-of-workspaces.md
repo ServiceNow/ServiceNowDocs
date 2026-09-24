@@ -3,11 +3,11 @@ title: Sample workspaces you can build
 description: Workspace Builder provides a basic workspace that includes a home page, record pages, lists, an Analytics Overview, and other functions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/types-of-workspaces.html
-release: australia
+release: brazil
 product: Workspace Builder
 classification: workspace-builder
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Workspace Builder, Builder library, Developing your application, Building applications]
 ---
@@ -60,12 +60,12 @@ The Analytics Overview includes the following components:
 
     A set of tiles for each dashboard on the instance that you are allowed to access. Selecting a tile opens that dashboard.
 
-    **Note:** You can create and edit dashboards in-line. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-db-in-ac.md).
+    **Note:** You can create and edit dashboards in-line. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/config-db-in-ac.md).
 
 
-For more information on Analytics Overview, see [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
+For more information on Analytics Overview, see [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center.md).
 
 \[Omitted image "sample-worksapce-analytics-next-exp.png"\] Alt text: Example Analytics Center for a workspace
 
-**Parent Topic:**[Exploring Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/exploring-workspace-builder.md)
+**Parent Topic:**[Exploring Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder/exploring-workspace-builder.md)
 

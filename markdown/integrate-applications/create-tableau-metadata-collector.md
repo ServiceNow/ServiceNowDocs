@@ -3,9 +3,9 @@ title: Create a Tableau metadata collector
 description: Create a collector to import metadata from Tableau.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-tableau-metadata-collector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Tableau metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -18,8 +18,8 @@ Create a collector to import metadata from Tableau.
 
 Before you begin, verify the following:
 
--   All per-requisite tasks are completed. For more information, see [Prepare to run the Tableau collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
--   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
+-   All per-requisite tasks are completed. For more information, see [Prepare to run the Tableau collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -257,7 +257,7 @@ Option to apply project settings to descendant projects.
     |Catalog personal space workbooks|Option to catalog personal space workbooks. Personal space workbooks are workbooks that are not associated with a project.|
     |Convert Database Identifier|Option to convert database identifiers to the default case used by the target database \(for example, lowercase for PostgresSQL, uppercase for Oracle\).|
     |Exclude Unpublished Views|Option to exclude unpublished views and dashboards from cataloging.|
-    |Hostname mapping file|If you have configured hostname mapping in the [hostnames.yaml](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-tableau-collector.md) file, upload the file.|
+    |Hostname mapping file|If you have configured hostname mapping in the [hostnames.yaml](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-tableau-collector.md) file, upload the file.|
     |Exclude Hidden Fields|Option to exclude hidden fields within published data sources from cataloging.|
 
 11. Select **Save**.
@@ -271,10 +271,10 @@ The metadata collector is created and appears on the Connectors page with a Conf
 
 After creating the collector, you can perform any of the following tasks:
 
--   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run_metadata-collectors-manually.md).
--   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/schedule-metadata-collector-runs.md).
--   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-runtime-logs-for-collector-runs.md).
--   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md).
+-   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/run_metadata-collectors-manually.md).
+-   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/schedule-metadata-collector-runs.md).
+-   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-runtime-logs-for-collector-runs.md).
+-   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-data-catalog.md).
 
-**Parent Topic:**[Tableau metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/tableau-metadata-collector.md)
+**Parent Topic:**[Tableau metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/tableau-metadata-collector.md)
 

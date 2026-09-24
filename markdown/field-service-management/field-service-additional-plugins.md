@@ -3,9 +3,9 @@ title: Additional plugins for Field Service Management
 description: After Field Service Management is activated, you can activate additional plugins that provide demo data and enable a variety of features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-additional-plugins.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Activate, Configure, Field Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Activate, Configure, Field Service Management]
 
 After Field Service Management is activated, you can activate additional plugins that provide demo data and enable a variety of features.
 
-You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_wp2_h15_2v"><thead><tr><th>
 
@@ -154,11 +154,11 @@ Field Service Management Configurable Dispatcher Workspace
 
 </td><td>
 
-com.snc.uib.fsm\_dispatcher\_workspace
+sn\_fsm\_disp\_wrkspc
 
 </td><td>
 
-Provides the FSM components and pages to support dispatcher flows on CSM Configurable Workspace.
+Provides the FSM components and pages to support dispatcher flows on CSM Configurable Workspace.Dispatcher Workspace replaced FSM Agent Workspace \(Deprecated\), Central Dispatch \(Deprecated\), and Field Service Map \(Deprecated\).
 
 </td></tr><tr><td>
 
@@ -266,7 +266,7 @@ com.snc.fsm\_advanced\_parts\_sourcing
 
 </td><td>
 
-Enables Field Service agents to request and source multiple parts. Agents can receive mobile notifications when part requests are raised by their peers. **Note:** This plugin installs several system components such as tables, business rules, and scripts. For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-part-souring-components.md).
+Enables Field Service agents to request and source multiple parts. Agents can receive mobile notifications when part requests are raised by their peers. **Note:** This plugin installs several system components such as tables, business rules, and scripts. For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/advanced-part-souring-components.md).
 
 </td></tr><tr><td>
 
@@ -366,43 +366,31 @@ Enables users to quickly view important information about records.
 
 </td></tr><tr><td>
 
-Site Mapping for Field Service Management
+Field Service Manager Mobile
 
 </td><td>
 
-sn\_fsm\_site\_map
+com.snc.fsm\_manager\_mobile
 
 </td><td>
 
-Enables visual site maps within Field Service Management so agents and dispatchers can navigate locations within a facility.
+Allows managers to use Field Service Manager Mobile
 
 </td></tr><tr><td>
 
-Smart Assessment for Field Service Questionnaire
+Proxy Actions for Field Service Management
 
 </td><td>
 
-sn\_fsm\_smart\_asmt
+sn\_fsm\_proxy\_actn
 
 </td><td>
 
-Enables AI-powered smart assessments within field service questionnaires. Requires a separate subscription.
-
-</td></tr><tr><td>
-
-Sidebar for Field Service Mobile Agent
-
-</td><td>
-
-sn\_fsm\_sidebar
-
-</td><td>
-
-Activates the Sidebar AI feature on the Field Service Mobile Agent application.
+Enables users to take actions on behalf of other users.
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/components-inst-additional-plugin.md)
 

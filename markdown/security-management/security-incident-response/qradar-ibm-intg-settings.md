@@ -3,11 +3,11 @@ title: Configuration settings
 description: Use this option to modify the IBM QRadar ingestion integration default system properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm-intg-settings.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IBM QRadar Offense Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

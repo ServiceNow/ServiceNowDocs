@@ -1,56 +1,49 @@
 ---
-title: Conversational interface in AI Control Tower
-description: The conversational experience of the ServiceNow AI Platform is integrated into AI Control Tower via ServiceNow Otto. The conversational interface is a single natural-language entry point that spans all AI Control Tower capabilities: answering questions about your AI portfolio, surfacing data visualizations, navigating to the right context, and executing actions—all powered by the agent orchestration of AI Control Tower.
+title: ServiceNow Otto in AI Control Tower
+description: Ask questions about your AI portfolio in plain language and get answers drawn from your own AI Control Tower records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-convrstn-support.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-20"
-reading_time_minutes: 1
-keywords: [generative AI, agentic AI, AI Control Tower, Otto premium chat, Conversational support]
-breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
+last_updated: "2026-09-09"
+reading_time_minutes: 2
+keywords: [generative AI, agentic AI, AI Control Tower, Otto premium chat, Conversational support, AICT Assistant]
+breadcrumb: [Explore, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Conversational interface in AI Control Tower
+# ServiceNow Otto in AI Control Tower
 
-The conversational experience of the ServiceNow AI Platform is integrated into AI Control Tower via ServiceNow Otto. The conversational interface is a single natural-language entry point that spans all AI Control Tower capabilities: answering questions about your AI portfolio, surfacing data visualizations, navigating to the right context, and executing actions—all powered by the agent orchestration of AI Control Tower.
+Ask questions about your AI portfolio in plain language and get answers drawn from your own AI Control Tower records.
 
 ## How the conversational interface works
 
-The ServiceNow Otto chat is a chat client with agentic orchestration that delivers an AI-native experience. For information about the basic usage and features of the premium chat in the ServiceNow AI Platform, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md).
+ServiceNow Otto is the conversational experience in AI Control Tower. It provides agentic orchestration on top of the premium chat in the ServiceNow AI Platform.
 
-The conversational interface understands natural language queries and intelligently routes requests to the appropriate AI Control Tower agents, which execute against live data and return structured results. The interface then presents answers, visualizations, navigation paths, and recommended actions in a conversational flow that feels natural and context-aware.
+In AI Control Tower, the chat is delivered by an assistant named AICT Assistant, which is installed with the ServiceNow Otto for AI Control Tower application \(`com.sn_aict_genai`\). The chat window itself displays ServiceNow Otto, so the AICT Assistant name appears only where the underlying record is shown, such as in your AI asset inventory.
 
-## Core concepts
+A dedicated assistant keeps the conversation scoped to AI Control Tower. Answers about your AI portfolio stay consistent because the other assistants configured on your instance don't take part in the conversation.
 
-The conversational interface in AI Control Tower is built on six frameworks:
+Answers are drawn from data retrieved from your instance at the time you ask. The assistant is configured to answer only from that retrieved data rather than from the general knowledge of the underlying model, so responses reflect the records in your own inventory and governance tables. When the assistant can't find an answer in your data, it tells you so rather than filling the gap.
 
--   **User Profile Framework**
+## Use cases
 
-    Stores and manages user attributes—role, permissions, behavioral patterns, and inferred preferences.
+The assistant answers questions that span your inventory, risk, compliance, security, and usage records. For example:
 
--   **Context Orchestration Framework**
+-   Find the AI systems that a particular business unit or business application owns, without constructing a query.
+-   See how your AI models break down by provider, so you know where your model dependencies concentrate.
+-   Identify AI systems with no recent usage, which are candidates for review or decommissioning.
+-   Check inherent risk ratings across your portfolio to find assets that need attention first.
+-   Review security findings such as threat results and privileged activity for a given asset.
 
-    Instruments user context and persists it across conversation sessions and turns.
+Responses can include an inline widget alongside the text answer, so results that are clearer visually are presented that way.
 
--   **Persistent Memory Framework**
+## AICT Assistant in your AI asset inventory
 
-    Records and references user memory across sessions.
+AICT Assistant is the AI asset that represents the ServiceNow Otto conversational experience in AI Control Tower. Automatic discovery of ServiceNow AI assets registers the assistants on your instance, so your conversational experience is inventoried alongside the rest of your AI portfolio. See [Discovering ServiceNow AI assets automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-discovering-servicenow-assets.md).
 
--   **Agent Orchestration**
+To locate the asset, search your inventory for AICT Assistant.
 
-    Routes queries to the appropriate agents based on intent, user profile, and page context—not just on the utterance alone.
+Bringing AICT Assistant under management applies the same governance to your conversational experience that you apply to the rest of your AI portfolio, including evaluation scoring, lifecycle stages, risk classification, and value tracking. Like other discovered ServiceNow AI assets, AICT Assistant arrives unmanaged. See [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-ai-managed-unmanaged.md) and [Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-managing-ai-assets.md).
 
--   **Agent Framework**
-
-    Agents have no memory or context of their own. They query live structured data to enrich responses and can query across multiple data domains and instance tables.
-
--   **Next Best Action Framework**
-
-    Uses intent resolution, context, and memory to apply a confidence score to each possible interpretation of what the user should do next.
-
-
-## Core capabilities
-
-In AI Control Tower, every query uses the answer response mode. The answer mode returns precise answers to natural-language questions about any AI Control Tower entity—assets, agents, models, controls, tasks, or policies—with AI insights, analysis, recommendations, and next steps. The scope includes counts, lookups, status, rankings, comparisons, and trend summaries.
+You can edit or customize the AICT Assistant in Assistant Designer. See [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/assistant-designer.md).
 

@@ -3,11 +3,11 @@ title: Create an issue related to regulatory tasks
 description: Create an issue as part of the regulatory change tasks and source document tasks workflow to capture any problems or exceptions that are observed during the workflow. You can create and view issues related to regulatory tasks using the issues related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/create-and-view-issues.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -82,5 +82,5 @@ You can view the issues related to the Regulatory tasks in the respective module
 
 ## What to do next
 
-For information about how to enable or disable menu items, see [Enable/disable application menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
+For information about how to enable or disable menu items, see [Enable/disable application menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_EnDisableAppMenuOrMod.md).
 

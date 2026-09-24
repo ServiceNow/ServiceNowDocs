@@ -3,9 +3,9 @@ title: Delete a data fabric table
 description: Remove a data fabric table from your instance by deleting it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/delete-data-fabric-table-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage data fabric tables, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -40,5 +40,5 @@ Role required: One of the following role combinations or admin.
 
 The data fabric table is deleted and its data is no longer available on your instance.
 
-**Parent Topic:**[Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md)
+**Parent Topic:**[Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-data-fabric-tables-zcc.md)
 

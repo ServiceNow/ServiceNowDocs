@@ -1,11 +1,11 @@
 ---
 title: Register a deal using agentic AI
-description: Use the Deal Registration AI agent to process deal registrations and manage the entire deal registration process.
+description: The Deal Registration Agent assists users in submitting deal registrations and perform specific actions, such as updating fields, managing products, and retrieving deal details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/register-deal-using-agentic-ai.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [deal registration, AI agent, PRM, partner, Otto]
 breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
@@ -13,99 +13,111 @@ breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship M
 
 # Register a deal using agentic AI
 
-Use the Deal Registration AI agent to process deal registrations and manage the entire deal registration process.
+The **Deal Registration Agent** assists users in submitting deal registrations and perform specific actions, such as updating fields, managing products, and retrieving deal details.
 
-## Deal Registration AI agent overview
+## Deal Registration Agent overview
 
-The Deal Registration AI agent works to assist in managing the life cycle of deal registrations, either independently or under supervision. You can use the AI agent to do the following:
+The Deal Registration AI agent is an assistant that enables you to manage the creation, update, and submission of deal registrations, including management of their product line items. Invoke this agent to create, draft, update, or submit a deal registration, or to add, remove, or verify products on an existing one. It resolves user-named products against the product catalog and adds them as deal registration line items. Using natural language, the AI agent gathers deal information, validates records, and automates submission through an integrated approval process. You can use the Deal Registration AI agent to do the following:
 
--   Capture deal information through natural language intake
--   Validate account and consumer records automatically
--   Process deal details and extract structured information
--   Provide pre-submission summary for review and approval
--   Create deal records upon confirmation
--   Escalate to live agent when needed
+-   Create, draft, submit a new deal registration \(for a business account or an individual consumer\)
+-   Add products to a deal registration
+-   Remove a product from a deal registration
+-   Verify whether a specific product is already on a deal registration
+-   Update a field on a deal registration
+-   Show or retrieve deal registration details
 
-To modify the Deal Registration AI agent duplicate it, and adjust the settings according to your requirements. You can activate the AI agent by making triggers active and setting the display settings to include the ServiceNow Otto panel.
+To modify the Deal Registration Agent, duplicate it and adjust the settings for your requirements. You can activate the AI agent by making triggers active and setting the display settings to include the ServiceNow Otto panel.
 
-**Important:** When you modify an AI agent or tool, make sure that you update all instructions accordingly.
+For information about how to create and register a deal, see [Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/deal-registration-management.md).
 
-## Prerequisites to use an AI agent
+**Note:** When you modify an AI agent or tool, verify that you update all instructions.
 
-The prerequisites to use an AI agent are as follows:
+## Prerequisites for using the Deal Registration Agent
 
--   Make sure that the ServiceNow Otto panel is turned on.
--   Set up the work schedule for deal agents:
-    -   Navigate to **All** &gt; **Agent schedule** &gt; **Work schedule**.
-    -   Create a work schedule for deal agents.
+Before using the Deal Registration AI agent, complete the following prerequisites:
+
+-   Confirm that the ServiceNow Otto panel is turned on.
 -   Duplicate the AI agent and activate the triggers.
 
-**Important:** By default, all agent workflow and AI agent records are read-only.
+**Note:** By default, all agent workflow and AI agent records are read-only.
 
-To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
+To run the AI agents autonomously, [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md) and then complete the following steps:
 
 -   Activate the agentic workflow.
 -   Activate all agents within the agentic workflow.
--   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger isn't necessary.
+-   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger is not necessary.
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+    There might be AI agents installed on your instance that aren't used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md).
 
-## To run the AI agent autonomously
 
-To run the AI agent autonomously, you must first duplicate the AI agent, and then proceed with the following steps:
+## Deal Registration Workflow
 
-1.  Activate the AI agent.
-2.  Activate all components within the AI agent.
-3.  Activate the trigger to invoke the AI agent automatically. The triggers for each AI agent must be unique. If you prefer to invoke it manually, activating the trigger is not necessary.
+To access the Deal Registration workflow:
 
-## Deal Registration AI agent use cases
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage** &gt; **Workflows**.
+2.  Review the information in the Define the specialty screen, make any necessary updates, and then select **Save and Continue**.
+3.  In the Add trigger screen, activate the triggers for your requirements or create your own triggers, and then select **Save and Continue**.
+4.  Select **Deal Registration**.
 
-To access the use case:
+The AI agent executes the testing in AI Agent Studio for the workflow.
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage** &gt; **Use cases**.
-2.  Select **Deal Registration**.
+In the ServiceNow Otto panel, the agent receives a notification when the interaction is generated. The agent can then follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/request-gen-ai-capabilities-csm-now-assist-panel.md).
 
-## Deal Registration AI agents
+## Deal Registration AI agent
 
 The following table lists the Deal Registration AI agents.
 
-**Important:** In the Define availability screen for the AI agent, make sure that the **Status** field is enabled to activate the AI agent.
-
 |AI agent|AI agent role|
 |--------|-------------|
-|Deal intake AI agent|Initiates the deal registration flow. This agent supports deal agents by capturing deal information through natural language and extracting structured data.|
-|Deal validation AI agent|Handles validation of account and consumer records, product information, and deal structure. Recommends actions based on validation results.|
-|Inbound communication AI agent|Initiates the inbound response handler flow. This agent supports deal agents by retrieving and analyzing the latest communication records. Based on its analysis, it recommends necessary actions required to move forward with the deal.|
-|Deal fulfillment AI agent||
+|Deal Registration Agent|Helps to create, draft, update, or submit a deal registration, or to add, remove, or verify products on an existing one.|
 
-## Roles required to create an AI agent
+**Note:** In the Define availability screen for the AI agent, confirm that the **Status** field is enabled to activate the AI agent.
 
-The roles required to activate and access the AI agent are as follows.
+## Roles that can access Deal Registration AI agent
 
-|Roles|Responsibilities|
-|-----|----------------|
-|Deal Registration AI admin|Configure the AI agent. Change AI settings. Create and manage new agents and tools.|
-|Deal Registration AI user|Interact with AI using the ServiceNow Otto panel.|
-|Workflow Configurator||
-|Agent Administrator||
+The following roles can access the Deal Registration AI agent:
 
-## Registering a deal
+|Role|User Type|Access Point|
+|----|---------|------------|
+|Enterprise Deal Registration Relationship Manager|Internal|Now Assist Panel|
+|Enterprise Deal Registration Relationship Contributor|Internal|Platform workspace|
+|Enterprise B2B Deal Registration Agent|Internal|Platform workspace|
+|Enterprise B2C Deal Registration Agent|Internal|Platform workspace|
+|Enterprise Deal Registration Agent|Internal|Platform workspace|
+|Partner B2B Deal Registration Initiator|External|Partner portal|
+|Partner B2C Deal Registration Initiator|External|Partner portal|
+|Partner B2B Sales Representative|External|Partner portal|
+|Partner B2C Sales Representative|External|Partner portal|
 
-To register a deal, perform the following steps:
+## Deal registration with the Now Assist panel
 
-1.  Navigate to **All** &gt; **AI Agent Studio**.
-2.  Review the information in the Describe and connect screen, make the necessary updates to ensure that the use case adapts to your requirements, and then select **Save and Continue**.
-3.  In the Define trigger screen, activate the triggers that adapt to your requirements, or create your own triggers, and then select **Save and Continue**.
-4.  In the Select display screen, perform the following steps:
-    1.  Select where you want the use case output to be displayed.
-    2.  Use the arrow next to it to add roles that can access the use case.
-    3.  **Note:** The `deal_agent` is the default role for the use case.
+To register a deal, use the Now Assist panel to start the Deal Registration workflow.
 
-5.  Select **Save and test**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+2.  Launch the ServiceNow Otto chat panel by selecting the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text:.
+3.  Type your query in natural language, for example, `Create a deal`.
 
-The agent executes the testing in AI Agent Studio for the use case.
+    The invoice dispute assist agentic workflow invokes the invoice dispute support assistant AI agent.
 
-In the ServiceNow Otto panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-gen-ai-capabilities-csm-now-assist-panel.md).
+    The Deal Registration workflow invokes the Deal Registration agent.
 
-**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+    \[Omitted image "deal-reg-workflow.png"\] Alt text: Deal Registration workflow
+
+4.  When prompted, provide the required details, such as the channel partner name and account.
+
+    After you provide the required details, the agent validates the information.
+
+5.  Review the confirmed details. If any information is incorrect, update it when the agent prompts you.
+
+    The deal is created, and the deal registration number is displayed.
+
+    \[Omitted image "deal-reg-workflow2.png"\] Alt text: Deal registration workflow-deal created
+
+
+**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
+
+**Related topics**  
+
+
+[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm-using.md)
 

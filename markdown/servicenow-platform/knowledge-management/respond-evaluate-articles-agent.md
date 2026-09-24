@@ -3,11 +3,11 @@ title: Provide feedback for a knowledge article in Agent Workspace
 description: Provide feedback on a knowledge article by rating the article, marking the article as helpful or not helpful, and posting and replying to comments for the article in Agent Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/respond-evaluate-articles-agent.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authoring a knowledge article in Agent Workspace, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,15 +32,15 @@ Role required: agent\_workspace\_user
 
 4.  Provide feedback for the article.
 
-<table id="choicetable_r24_btb_wjb"><thead><tr><th align="left" id="d570668e103">
+<table id="choicetable_r24_btb_wjb"><thead><tr><th align="left" id="d568703e103">
 
 To
 
-</th><th align="left" id="d570668e106">
+</th><th align="left" id="d568703e106">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d570668e112">
+</th></tr></thead><tbody><tr><td id="d568703e112">
 
 **Flag the article**
 
@@ -48,15 +48,15 @@ Do this
 
 Click the more actions icon , and then click **Flag Article** to report an article that contains incorrect or inappropriate content. A dialog box is displayed in which you can provide the reason for the flag. A feedback task is automatically created for the article and assigned to the author or ownership group, as configured.
 
-</td></tr><tr><td id="d570668e124">
+</td></tr><tr><td id="d568703e124">
 
 **Rate the article**
 
 </td><td>
 
-Click the star icons displayed on the article to indicate its effectiveness on a scale from 1 through 5.Administrators can configure the **glide.knowman.feedback.enable\_actionable\_feedback\_for\_rating** property to ensure that feedback tasks are automatically created and assigned when a lower rating is posted. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+Click the star icons displayed on the article to indicate its effectiveness on a scale from 1 through 5.Administrators can configure the **glide.knowman.feedback.enable\_actionable\_feedback\_for\_rating** property to ensure that feedback tasks are automatically created and assigned when a lower rating is posted. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
-</td></tr><tr><td id="d570668e149">
+</td></tr><tr><td id="d568703e149">
 
 **Enter your comment**
 
@@ -64,7 +64,7 @@ Click the star icons displayed on the article to indicate its effectiveness on a
 
 In the **Type your comment here** text box, enter a comment and click **Post Comment**.
 
-</td></tr><tr><td id="d570668e164">
+</td></tr><tr><td id="d568703e164">
 
 **View all comments and replies posted for the knowledge article**
 
@@ -72,7 +72,7 @@ In the **Type your comment here** text box, enter a comment and click **Post Com
 
 Scroll down to the Comments section. To view or hide replies added to a comment, click **Show replies** or **Hide replies**, respectively. To view replies added to all comments, click **Show all replies**.
 
-</td></tr><tr><td id="d570668e183">
+</td></tr><tr><td id="d568703e183">
 
 **Like a comment on the knowledge article**
 
@@ -80,7 +80,7 @@ Scroll down to the Comments section. To view or hide replies added to a comment,
 
 Underneath the comment, click the like icon \(.
 
-</td></tr><tr><td id="d570668e192">
+</td></tr><tr><td id="d568703e192">
 
 **Reply to a comment on the article**
 
@@ -88,7 +88,7 @@ Underneath the comment, click the like icon \(.
 
 Underneath the comment, click the reply icon , enter your comment in the text box that appears, and then click **Submit**.
 
-</td></tr><tr><td id="d570668e204">
+</td></tr><tr><td id="d568703e204">
 
 **Delete any previous comments or replies**
 
@@ -101,7 +101,7 @@ Go to a comment or reply and then click the delete icon If a message appears, cl
 **Related topics**  
 
 
-[View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-agent.md)
+[View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/view-article-agent.md)
 
-[Work on a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/respond-feedback-workspace.md)
+[Work on a feedback task in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/respond-feedback-workspace.md)
 

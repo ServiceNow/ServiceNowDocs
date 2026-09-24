@@ -3,11 +3,11 @@ title: Collaborate with stakeholders during a major incident
 description: Collaborate with the required stakeholders during the various phases of a major incident to discuss and resolve the incident quickly. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Collaborate with the required stakeholders during the various phases of a major 
 
 ## About this task
 
-Collaboration services provide a way to communicate and collaborate in real time to resolve incidents. For more information on the integration and features of Collaboration services available in Service Operations Workspace, see [Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/collaboration-sow.md).
+Collaboration services provide a way to communicate and collaborate in real time to resolve incidents. For more information on the integration and features of Collaboration services available in Service Operations Workspace, see [Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/collaboration-sow.md).
 
 ## Before you begin
 
@@ -84,8 +84,8 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
         The call starts with the selected participants.
 
 
--   **[Create adhoc communication and collaboration using the Related record tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-collab-mim-sow.md)**  
+-   **[Create adhoc communication and collaboration using the Related record tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-collab-mim-sow.md)**  
 Create adhoc communication and collaboration using the incident communication plan related list on the **Related records** tab of an incident record page.
 
-**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
+**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
 

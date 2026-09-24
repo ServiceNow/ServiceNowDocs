@@ -3,11 +3,11 @@ title: Add a UI policy
 description: Add a UI policy to display the Needs review field for Normal change requests when it reaches the Complete state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_AddUIPolicy.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
 ---
@@ -17,6 +17,10 @@ breadcrumb: [Tutorial: add a new change management state, Reference, Change Mana
 Add a UI policy to display the **Needs review** field for **Normal** change requests when it reaches the **Complete** state.
 
 ## Before you begin
+
+Confirm that the **Needs review** field exists on the **Change Request** table.
+
+**Note:** A UI policy action can reference only a field that exists on the table. If the field does not exist, create it before configuring the UI policy action. For more information, see [Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateCustomField.md).
 
 Role required: admin
 
@@ -80,9 +84,9 @@ Conditions
 8.  Select **Submit** to create the UI Policy action and return to the **UI Policy** form.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateCustomField.md)
+**Previous topic:**[Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateCustomField.md)
 
-**Next topic:**[Create an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewACL.md)
+**Next topic:**[Create an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateNewACL.md)
 

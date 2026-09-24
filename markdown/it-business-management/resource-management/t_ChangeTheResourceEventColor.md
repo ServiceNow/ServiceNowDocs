@@ -3,11 +3,11 @@ title: Change the resource event color
 description: Each event type is represented with a color. PPS admin can change the colors at any time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_ChangeTheResourceEventColor.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource events, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,7 +31,7 @@ Role required: it\_pps\_admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Resource events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceEvents.md)
+**Parent Topic:**[Resource events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_ResourceEvents.md)
 
 **Related topics**  
 

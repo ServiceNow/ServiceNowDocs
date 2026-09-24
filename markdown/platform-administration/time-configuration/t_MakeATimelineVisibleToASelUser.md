@@ -3,11 +3,11 @@ title: Make a timeline visible to a selected user
 description: Create a custom module within an application and defining the roles that can access it, to make selected timelines available to users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_MakeATimelineVisibleToASelUser.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -50,5 +50,5 @@ To create a timeline page module:
     |Override application menu roles|Check box that indicates that this module should appear when the user has the specified roles. Otherwise, the user must have the roles specified by both the application menu and the module.|
 
 
-**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md)
+**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_TimelinePages.md)
 

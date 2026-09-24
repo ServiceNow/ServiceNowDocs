@@ -3,9 +3,9 @@ title: Related parties, responsibilities, and access included with Sales Common
 description: Default related party configurations, responsibilities, and access levels included with the Sales Common app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/responsibilities-sales-automation.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Responsibility-based access to Sales CRM entities, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -74,7 +74,7 @@ Solution Sales Executive
 
 ## Responsibility Access Configuration fields
 
-Use responsibility access configurations to define what each responsibility can access. For the list of Responsibility Access Configuration form fields, see [Configure access through the responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/declarative-resposibility-framework.md).
+Use responsibility access configurations to define what each responsibility can access. For the list of Responsibility Access Configuration form fields, see [Configure access through the responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/declarative-resposibility-framework.md).
 
 ## Responsibility access summary
 
@@ -123,7 +123,7 @@ Each of the following responsibility uses the sales restricted agent \(sn\_sales
 
 You can use the default configurations provided with Sales Common or create additional responsibility access configurations based on your organization's access requirements. For more information, see:
 
--   [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md)
--   [Creating a responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/creating-responsibility-access-configuration.md)
--   [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md)
+-   [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md)
+-   [Creating a responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/creating-responsibility-access-configuration.md)
+-   [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/adding-related-party-config-to-case.md)
 

@@ -1,13 +1,13 @@
 ---
 title: Using Troubleshooting steps identification AI agent
-description: The Troubleshooting steps identification AI agent analyzes case context, knowledge articles, similar cases, and standard operating documents to propose additional troubleshooting steps.
+description: The Troubleshooting steps identification AI agent fetches the context from a case, identifies the missing context by comparing it with knowledge articles, similar cases, and standard operating documents, and then proposes additional troubleshooting steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/troubleshooting-steps-identification-ai-agent.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Manage
 
 # Using Troubleshooting steps identification AI agent
 
-The Troubleshooting steps identification AI agent analyzes case context, knowledge articles, similar cases, and standard operating documents to propose additional troubleshooting steps.
+The Troubleshooting steps identification AI agent fetches the context from a case, identifies the missing context by comparing it with knowledge articles, similar cases, and standard operating documents, and then proposes additional troubleshooting steps.
 
 ## Troubleshooting steps identification AI agent overview
 
@@ -33,7 +33,7 @@ Agentic workflows can access this AI agent in Core UI or CSM/FSM workspace.
 
 ## Configure AI Search for the Troubleshooting steps identification AI agent
 
-You must configure AI Search so that this AI agent can fetch similar cases and relevant knowledge articles For more information, see [Configure AI Search to use with the Troubleshooting steps identification AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-ai-search-troubleshooting-ai-agent.md) and [Configure the Troubleshooting steps identification AI agent to use the Search retrieval tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/enhance-search-retrieval-tool-troubleshooting-steps-ai-agent.md).
+You must configure AI Search so that this AI agent can fetch similar cases and relevant knowledge articles For more information, see [Configure AI Search to use with the Troubleshooting steps identification AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/configure-ai-search-troubleshooting-ai-agent.md) and [Configure the Troubleshooting steps identification AI agent to use the Search retrieval tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/enhance-search-retrieval-tool-troubleshooting-steps-ai-agent.md).
 
 ## Limitations
 
@@ -48,16 +48,16 @@ The document types supported for AI Search and document processing are:
 
 When fetching text from knowledge articles, this AI agent can fetch only the **article\_body** field from the kb\_knowledge table.
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 
 
-[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
+[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md)
 
-[Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md)
+[Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md)
 
-[AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
+[AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-agents.md)
 
-[Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
+[Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 

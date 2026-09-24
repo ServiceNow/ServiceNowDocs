@@ -3,9 +3,9 @@ title: Chat Zoom Connector
 description: Resolve issues quickly and engage better with customers with video and screen sharing options in Zoom using the ServiceNow Chat Zoom Connector application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/chat-zoom-connector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure chat, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ As an agent manager, you can access an interaction record of type Zoom to view t
 
 As a customer, you can join a Zoom meeting with an agent regardless of whether you have a Zoom account.
 
-To get started with the Chat Zoom Connector application, see [Configure Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-chat-zoom-connector.md).
+To get started with the Chat Zoom Connector application, see [Configure Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-chat-zoom-connector.md).
 
 ## Key features
 

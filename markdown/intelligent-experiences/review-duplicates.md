@@ -3,12 +3,12 @@ title: Duplicate AI assets
 description: AI asset deduplication in AI Control Tower identifies duplicate records in the AI asset inventory for AI Stewards to review and consolidate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/review-duplicates.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI asset deduplication, duplicate assets, AI Inventory, AI stewards]
-breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Duplicate AI assets

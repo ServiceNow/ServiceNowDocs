@@ -3,11 +3,11 @@ title: Explore and Search view in CMDB Workspace
 description: Search through CMDB tables without having detailed knowledge of the CMDB data model by using contexts that are mapped to CI classes as navigation. Use natural language with the AI-driven search to search the CMDB and related data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ Explore classes and CIs using one of the following exploration modes:
 
     The top-level contexts expand into lists of classes.
 
-    If the Service Graph Workspace - Content store app isn't installed, then **Explore by classes** is the only mode of exploration available. In this case, existing CMDB groups definitions in which type = **CMDB Workspace** are used to organize the navigation panel. For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
+    If the Service Graph Workspace - Content store app isn't installed, then **Explore by classes** is the only mode of exploration available. In this case, existing CMDB groups definitions in which type = **CMDB Workspace** are used to organize the navigation panel. For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
 
 
 In either exploration mode, you can drill-down to see a list of CIs that belongs to the selected context or CMDB group.
@@ -44,7 +44,7 @@ In either exploration mode, you can drill-down to see a list of CIs that belongs
 In the CIs list view you can:
 
 -   Use the class quick filters to filter the list of the CIs by fields. Only filters that are common to all the CI classes in the list, appear \(if there are none, then no class quick filters appear\).
--   Select a CI to open it in CI Form. For more information, see [Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md).
+-   Select a CI to open it in CI Form. For more information, see .
 
 ## Search
 
@@ -57,13 +57,13 @@ Select the Search tab to search through the service graph data. Search provides 
     To access all of the functionality, including follow up questions, the following requirements must be met:
 
     -   Role: sn\_cmdb\_user and now\_assist\_panel\_user
-    -   This skill is available starting with the [ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md) version 3.0 store app, which must be installed
+    -   This skill is available starting with the [ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md) version 3.0 store app, which must be installed
     -   The ServiceNow Otto skill Search result classifier, must be activated
-    For more information, see [Search the Service Graph database using natural language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-search-result-classfy.md).
+    For more information, see [Search the Service Graph database using natural language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-search-result-classfy.md).
 
 -   **Intelligent Search**
 
-    Lets you use Natural Language Query \(NLQ\) search capabilities provided by [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md).
+    Lets you use Natural Language Query \(NLQ\) search capabilities provided by [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md).
 
 
 If the ServiceNow Otto store app and the Search result classifier skill requirements for AI search aren't met, the system defaults to using Intelligent Search to search service graph data.
@@ -72,7 +72,7 @@ If the ServiceNow Otto store app and the Search result classifier skill requirem
 
 Accessible to: CMDB Admin, CMDB Editor, CMDB User.
 
-Lets you use Natural Language Query \(NLQ\) search capabilities provided by [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md). Use the input field to construct a search string using everyday language. As you type, a dynamic list of relevant suggestions appears, with items matching single words or part phrases in the typed-in text, such as table names.
+Lets you use Natural Language Query \(NLQ\) search capabilities provided by [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md). Use the input field to construct a search string using everyday language. As you type, a dynamic list of relevant suggestions appears, with items matching single words or part phrases in the typed-in text, such as table names.
 
 You can:
 
@@ -83,8 +83,8 @@ You can:
         Only the first 100 results of the query appear in the results pane.
 
         -   Select **Load More Results** to view the next set of 100 results.
-        -   Select **Load All Results** to view the rest of the query results, up to the number specified by the [glide.cmdb.query.max\_results\_limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) system property \(10,000 by default\).
-        If the constructed CMDB query contains more than a single table, then the **View in Query Builder** button appears. Select the button to open the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) with your query fully constructed on the Query Builder canvas. You can use the Query Builder to continue editing the query.
+        -   Select **Load All Results** to view the rest of the query results, up to the number specified by the [glide.cmdb.query.max\_results\_limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) system property \(10,000 by default\).
+        If the constructed CMDB query contains more than a single table, then the **View in Query Builder** button appears. Select the button to open the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) with your query fully constructed on the Query Builder canvas. You can use the Query Builder to continue editing the query.
 
     -   If there are any ambiguities with table names or relationship types in the search string, then the search string can't be converted into a valid CMDB query. In this case, the Refine your query dialog box appears letting you select from suggested CI classes and continue to parse your search string into a valid CMDB query. Those suggested CI classes are based on phrases in your search string. Use the drop-down lists to select the CI classes that match your intended search and then select **View search results** to run the query.
     -   If Intelligent Search is unable to convert your search string into a valid CMDB query, then selecting **Search** doesn't generate any query results. Instead, a feedback form appears. Fill out the form and select **Submit Feedback** to record your feedback for your CMDB Admin to review.
@@ -92,16 +92,16 @@ You can:
 -   Use the Your recent searches list to rerun a previous search.
 -   Select **Results Feedback** to submit feedback on the search results for your CMDB Admin to review.
 
-For more details about using NLQ with Intelligent Search, see [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md).
+For more details about using NLQ with Intelligent Search, see [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md).
 
-Alternatively, you can select **Use conditional search instead** to use a basic [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md) functionality where you can specify conditions to search for CIs of a specific class.
+Alternatively, you can select **Use conditional search instead** to use a basic [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-related-list-query.md) functionality where you can specify conditions to search for CIs of a specific class.
 
 You can:
 
 -   Select **New condition set** to add a condition phrase.
--   Select **Related List Condition** to [add a condition phrase for related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
+-   Select **Related List Condition** to [add a condition phrase for related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-related-list-query.md).
 -   Select **Search** to search through the CMDB.
--   Add and then adjust the **sn\_cmdb\_ws.list.record\_count\_limit** system property to limit the record count summation and so to minimize the performance impact of that operation. The record count shows on the Conditional search page, for example, above the results list. For more information about adding and modifying that system property, see .
+-   Add and then adjust the **sn\_cmdb\_ws.list.record\_count\_limit** system property to limit the record count summation and so to minimize the performance impact of that operation. The record count shows on the Conditional search page, for example, above the results list. For more information about adding and modifying that system property, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md).
 
 In the results list, select a CI to see its details in CI Form.
 
@@ -136,5 +136,5 @@ app\_service\_user role
 service\_viewer role
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)
+</table>**Parent Topic:**[Exploring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)
 

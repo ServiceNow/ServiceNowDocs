@@ -3,9 +3,9 @@ title: Configure badge counts on navigation bars
 description: Configure navigation bar launcher screen tabs and screen tabs to display badge counts. These badge counts indicate how many rows in the Badge Count \[sys\_sg\_badge\_count\] table match a condition that you can configure. For example, how many work orders are waiting for your attention or how many new and unread Sidebar messages have been received.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-badge-counts-nav-bars.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Navigation bar, Mobile app components, Building mobile apps, Mobile Platform]
 ---

@@ -3,11 +3,11 @@ title: Manage the visibility of the impersonation feature
 description: Before users can impersonate another user, an administrator must make the feature visible.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/manage-the-visibility-of-the-impersonation-feature.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impersonating users, Monitoring user activity, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -31,5 +31,5 @@ Role required: admin
     Admins can still impersonate users via the **impersonate\_dialog** UI page.
 
 
-**Parent Topic:**[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md)
+**Parent Topic:**[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_ImpersonateAUser.md)
 

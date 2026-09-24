@@ -3,9 +3,9 @@ title: SCCM data import process and source tables
 description: The Microsoft SCCM versions supported in the ServiceNow platform offer identical features and the same imported data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/how-sccm-integration-works.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Microsoft SCCM integration, ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -118,7 +118,7 @@ SCCM &lt;version&gt; Software \[imp\_sccm&lt;version&gt;\_software\]
 -   Software Installation \[cmdb\_sam\_sw\_install\] \(when Software Asset Management is enabled\*\)
 
 </td></tr></tbody>
-</table>\*For more information about Software Asset Management and how to enable it, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_RequSoftwareAssetMgmt.md).
+</table>\*For more information about Software Asset Management and how to enable it, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/t_RequSoftwareAssetMgmt.md).
 
 ## SCCM data sources
 
@@ -126,7 +126,7 @@ The ServiceNow® SCCM integration uses JDBC data sources to import software data
 
 ## Transform maps
 
-Transform maps are accessed from the **Transforms** related list in each data source record. The source fields in SCCM and the target fields in the CMDB are listed in the **Field Maps** related list in each Table Transform Map record. The SCCM integration uses the transform map utility provided with the ServiceNow® platform. For instructions on editing or creating a transform map, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_CreatingNewTransformMaps.md).
+Transform maps are accessed from the **Transforms** related list in each data source record. The source fields in SCCM and the target fields in the CMDB are listed in the **Field Maps** related list in each Table Transform Map record. The SCCM integration uses the transform map utility provided with the ServiceNow® platform. For instructions on editing or creating a transform map, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_CreatingNewTransformMaps.md).
 
 The SCCM integration provides two transform maps for incremental software imports. Only one transform map can be enabled \(**Active**\) at a time.
 
@@ -143,7 +143,7 @@ The SCCM &lt;version&gt; Computer Identity transform script attempts to set the 
 
 The SCCM integration uses CI identification to update CIs created from data imported from SCCM with a resource ID. The Hardware Rule identifier returns the resource ID of a computer from SCCM and stores it in the Source \[sys\_object\_source\] table. When resource IDs are first imported, either from SCCM or Discovery, the \[sys\_object\_source\] table is populated with IDs for each CI it identifies. In subsequent imports, if an incoming ID matches that of an existing CI, IRE \(Identification and Reconciliation Engine\) updates the information for that CI in the CMDB. If the incoming resource ID does not match that of an existing CI, IRE creates a new CI and populates it with the resource ID.
 
-For more information about CMDB Identification and Reconciliation and IRE, see [CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CMDBIdentifyandReconcile.md).
+For more information about CMDB Identification and Reconciliation and IRE, see [CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CMDBIdentifyandReconcile.md).
 
 Upgrades from pre-Geneva versions still preserve the legacy identifiers, but you can switch to the new identifiers using a property: `glide.discovery.use_cmdb_identifiers`. If you upgraded from a pre-Geneva version, you must manually add this property and set it to `true` to use the new identifiers. If you upgraded from Geneva, this property is available in the System Properties \[sys\_properties\] table. To preserve functionality in custom legacy identifiers, convert them to the new CMDB identifier rules format before enabling this property. The system does not reconfigure your custom identifiers to the new framework automatically.
 
@@ -157,5 +157,5 @@ The Microsoft SCCM integration reconciles the software package count in the reco
 
 **Note:** The table data imported from SCCM must contain complete data for the CI. The instance assumes that the import represents all relationships that exist and adjusts the CMDB accordingly. Partial data received from SCCM tables can cause the deletion of active relationships.
 
-**Parent Topic:**[Microsoft SCCM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MicrosoftSCCMIntegration.md)
+**Parent Topic:**[Microsoft SCCM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_MicrosoftSCCMIntegration.md)
 

@@ -3,13 +3,13 @@ title: Create a hyperlink card in Desktop Assistant
 description: Create a hyperlink card in Desktop Assistant to provide direct access to a targeted site, page, or records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/create-hyperlink-card.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Create a hyperlink card in Desktop Assistant
@@ -18,7 +18,7 @@ Create a hyperlink card in Desktop Assistant to provide direct access to a targe
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.admin
 
@@ -98,5 +98,5 @@ Short description of the card.
 
 ## What to do next
 
-Map the card to the section under which it should appear. For more information, see [Map a card to a section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/map-card-section.md).
+Map the card to the section under which it should appear. For more information, see [Map a card to a section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/map-card-section.md).
 

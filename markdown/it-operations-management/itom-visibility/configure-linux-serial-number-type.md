@@ -3,11 +3,11 @@ title: Configure the serial number type for Linux Server discovery
 description: Control which serial number type populates the Serial Number field on discovered Linux server CIs by configuring the sn\_itom\_pattern.linux\_server\_preferred\_serial\_number\_type system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/configure-linux-serial-number-type.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-08-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Linux Server discovery, serial number, cmdb\_ci\_linux\_server, system property]
 breadcrumb: [Linux, Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -50,10 +50,10 @@ By default, Discovery populates the **Serial Number** field on the Linux Server 
 
 Run Discovery again to apply the change.
 
-**Parent Topic:**[Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md)
+**Parent Topic:**[Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md)
 
 **Related topics**  
 
 
-[Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md)
+[Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md)
 

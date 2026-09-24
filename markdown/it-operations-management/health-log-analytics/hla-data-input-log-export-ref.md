@@ -3,11 +3,11 @@ title: ServiceNow Log Export data input configuration fields
 description: Description of the fields on the ServiceNow Log Export data input configuration form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-log-export-ref.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [HLA, Health Log Analytics, ServiceNow, system logs, log data, data input, configuration, fields]
 breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -47,7 +47,7 @@ Certificate password alias
 
 </td><td>
 
-The credential alias you created in **Basic Auth Credentials**. This field is required.For more information, see the Before you begin section in [Configure a ServiceNow Log Export data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-log-export.md).
+The credential alias you created in **Basic Auth Credentials**. This field is required.For more information, see the Before you begin section in [Configure a ServiceNow Log Export data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-log-export.md).
 
 </td></tr><tr><td>
 
@@ -86,5 +86,5 @@ Disabled since
 The time when the data input stopped or failed. This field is read-only.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

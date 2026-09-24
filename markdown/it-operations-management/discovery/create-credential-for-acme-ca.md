@@ -3,11 +3,11 @@ title: Create credentials for ACME certificate authority
 description: Create credentials so Certificate Inventory and Management can communicate with your ACME certificate authority \(CA\) for automated certificate life-cycle management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-credential-for-acme-ca.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -67,7 +67,7 @@ Type of the CA. The available options are:-   DigiCert
 -   Sectigo Universal
 -   Sectigo Public
 
-**Note:** If you added an ACME-compatible CA, it is listed here as a CA type. For more information, see [Add ACME-compatible certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-acme-compatible-certificate-authorities.md).
+**Note:** If you added an ACME-compatible CA, it is listed here as a CA type. For more information, see [Add ACME-compatible certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/add-acme-compatible-certificate-authorities.md).
 
 </td></tr><tr><td>
 

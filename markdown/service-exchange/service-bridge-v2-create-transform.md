@@ -3,11 +3,11 @@ title: Create a transform in Service Exchange
 description: As a provider or a consumer, create a transform in Service Exchange to integrate tasks between connected instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-transform.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -28,7 +28,7 @@ The following steps describe the transform process for providers. Consumers can 
 
 1.  Navigate to **All** &gt; **Service Exchange Provider** &gt; **Administration** &gt; **Transforms**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -137,11 +137,11 @@ Virtual field
 When Type field is set to **Virtual Inbound** or **Virtual Outbound**, this field is available to reference the virtual field this transform should populate.
 
 </td></tr></tbody>
-</table>4.  Click **Save**.
+</table>4.  Select **Save**.
 
 5.  Select one of the following:
 
-    1.  **Simple:** Click **New** in the Transform lines related list, and fill in the fields on the form.
+    1.  **Simple:** Select **New** in the Transform lines related list, and fill in the fields on the form.
 
         |Field|Description|
         |-----|-----------|
@@ -150,7 +150,7 @@ When Type field is set to **Virtual Inbound** or **Virtual Outbound**, this fiel
         |Customer label|Option that designates the customer's choice label. For example, Progress.|
         |Customer value|Option that designates the customer's choice value. For example, 2.|
 
-        **Note:** You can generate transform mappings between provider and consumer tables automatically using the Transform Mapping Assist feature. For more information, see [Automate transforms with ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-generate-transform-maps.md).
+        **Note:** You can generate transform mappings between provider and consumer tables automatically using the Transform Mapping Assist feature. For more information, see [Automate transforms with ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-transform-maps.md).
 
     2.  **Advanced**: Use a script to define the outbound and inbound labels and values as shown in the following example:
 
@@ -212,12 +212,12 @@ When Type field is set to **Virtual Inbound** or **Virtual Outbound**, this fiel
         output.label = 'condev,conprod';
         ```
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
-7.  On the transform form, click **Activate**.
+7.  On the transform form, select **Activate**.
 
 
 ## Result
 
-A transform record is created on your ServiceNow® instance. Any Remote Task's inbound or outbound fields that match a transform will automatically use them. To learn more, see [Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
+A transform record is created on your ServiceNow® instance. Any Remote Task's inbound or outbound fields that match a transform will automatically use them. To learn more, see [Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
 

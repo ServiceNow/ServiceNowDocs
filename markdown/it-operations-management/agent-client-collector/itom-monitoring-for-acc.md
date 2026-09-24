@@ -3,11 +3,11 @@ title: Operating system and application monitoring using Agent Client Collector
 description: IT Operations Management \(ITOM\) monitoring for the Agent Client Collector is installed on the ServiceNow instance. It monitors the specific operating system and applications that are installed on the host machine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/itom-monitoring-for-acc.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ Apache HTTP Server
 
 </td><td>
 
-See [Configure Agent Client Collector Apache HTTP server monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-apache-http-server.md).
+See [Configure Agent Client Collector Apache HTTP server monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-apache-http-server.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Apache Tomcat
 
 </td><td>
 
-See [Configure Agent Client Collector Apache Tomcat monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-apache-tomcat-monitoring.md).
+See [Configure Agent Client Collector Apache Tomcat monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-apache-tomcat-monitoring.md).
 
 </td></tr><tr><td>
 

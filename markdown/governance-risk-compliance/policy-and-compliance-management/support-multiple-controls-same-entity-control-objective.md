@@ -3,11 +3,11 @@ title: Multiple controls for compliance management
 description: You can create multiple controls for a unique combination of an entity and a control objective to get granular control information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/support-multiple-controls-same-entity-control-objective.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage controls, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +27,7 @@ Creating multiple controls for the same entity and control objective combination
 
 To create multiple controls for the same entity and control objective combination, disable the Inherit from control objective option in the Control form.
 
-For more information, see [Control form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md).
+For more information, see [Control form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md).
 
 When Inherit from control objective is enabled, the control automatically inherits the name and description from the control objective.
 
@@ -35,5 +35,5 @@ When Inherit from control objective is enabled, the control automatically inheri
 
 **Note:** Suppose multiple products or systems in your organization fulfill the same control objective through a shared mechanism. For example, two Single Sign On products that both satisfy the same requirement . Consider converting the control to a common control instead of creating multiple controls manually. A common control can be associated with multiple reliant entities without requiring a separate control for each.
 
-For more information, see [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
+For more information, see [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
 

@@ -3,13 +3,13 @@ title: Prisma Cloud REST Messages
 description: Prisma REST messages are used to make calls to the Prisma Application Programming Interface \(API\) to fetch the compliance data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/prisma-cloud-rest-messages.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud, Integrate with other applications, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Prisma Cloud REST Messages

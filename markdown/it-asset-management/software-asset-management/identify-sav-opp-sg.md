@@ -3,13 +3,13 @@ title: Identify savings opportunities
 description: Identify savings opportunities and save money with the ServiceNow Software Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/identify-sav-opp-sg.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Identify savings opportunities
@@ -82,17 +82,17 @@ Software Asset Workspace
 
     4.  On the Create a report form, set **Group by** to **Last activity** and select **Run**.
 
-        For more information, see [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreateYourOwnReport.md).
+        For more information, see [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_CreateYourOwnReport.md).
 
         The report visualization automatically updates to display filtered software subscriptions grouped by last activity in bar chart form.
 
     5.  Point to any bar in the chart to view additional details and select a bar to view the individual records that comprise it.
 
-        For more information about using reports, see [Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_GenerateReports.md).
+        For more information about using reports, see [Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_GenerateReports.md).
 
 3.  Find Software Asset Management optimization recommendations for Microsoft 365 based on subscription details, usage, and potential savings based on recommendation type.
 
-    For more information, see [Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/pub-opt-microsoft.md).
+    For more information, see [Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/pub-opt-microsoft.md).
 
 
 ## Result

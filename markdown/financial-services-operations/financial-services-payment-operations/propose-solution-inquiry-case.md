@@ -3,11 +3,11 @@ title: Propose a solution for an inquiry case
 description: Propose a solution that is based on your findings from the investigation of the inquiry case that you've just finished, so that you can resolve the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/propose-solution-inquiry-case.html
-release: australia
+release: brazil
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing payment inquiries, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -45,16 +45,16 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
 -   A pre-configured email notification about the case resolution is sent to the customer.
 -   If there's a Customer or Consumer Service Portal for customers, they get a notification for the proposed solution on the portal. Buttons for accepting or rejecting the solution appear in the section of the form that shows the consumer actions on the portal.
 
-    For more information, see [Accept or reject a case solution from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resolve-cases-consumer-portal.md).
+    For more information, see [Accept or reject a case solution from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/resolve-cases-consumer-portal.md).
 
     **Note:** To use the Consumer Service Portal, activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 
 
 ## What to do next
 
-Get an acceptance from the customer for the resolution and [close the inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.md).
+Get an acceptance from the customer for the resolution and [close the inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.md).
 
 If the customer rejects the proposed solution, move the case back to the Open state. If the customer rejected the proposed solution from the Customer or Consumer Service Portal, the state of the case automatically updates to Open.
 
-**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
+**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
 

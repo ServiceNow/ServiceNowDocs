@@ -3,9 +3,9 @@ title: Configure Exception Management for Security Exposure Management
 description: When your organization can't comply with a vulnerability management or security policy, standard, or guideline, you can request an exception. Exception management entails requesting, reviewing, approving, or rejecting exceptions to a finding or remediation task \(RT\) that can't be remediated according to the policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-exp-mngmt-vr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -48,7 +48,7 @@ The exception approver requires the reason for the exception request.
 
     **Note:**
 
-    The questionnaire displayed to you depends on the exception type selected and which questionnaire fields are configured in this record:
+    The questionnaire displayed to the you depends on the exception type selected and which questionnaire fields are configured in this record:
 
     -   When only **Request for Deferral** is selected, the questionnaire for exception request is displayed if configured.
     -   When **Request for Risk Reduction** is selected \(with or without deferral\), the questionnaire for compensating control takes priority and is displayed if configured.
@@ -76,8 +76,8 @@ The exception approver requires the reason for the exception request.
 8.  Select **Save**.
 
 
--   **[Request an exception using GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-integration-with-grc.md)**  
-Request policy exceptions using the GRC policy exception management capability in the Policy and Compliance Management application from within Vulnerability Response.
--   **[Specify the duration of an exception requested for a remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ex-req-sysprop.md)**  
-Use system properties to limit the duration for which an exception is requested for a remediation task. Remediation of the remediation task is deferred for the specified period.
+**Related topics**  
+
+
+[Exception questionnaire scenarios for vulnerable items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-exception-ques-scenarios.md)
 

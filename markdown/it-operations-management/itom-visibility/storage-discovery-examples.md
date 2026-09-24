@@ -1,20 +1,20 @@
 ---
 title: Storage discovery examples
-description: Discovery creates configuration items \(CIs\) and relationships for physical and logical storage components attached to servers directly or through fibre channel switched fabric.
+description: Discovery creates configuration items \(CIs\) and CI relationships for physical and logical storage components. Storage can be attached directly to servers or through fibre channel switched fabric.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/storage-discovery-examples.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Storage discovery examples
 
-Discovery creates configuration items \(CIs\) and relationships for physical and logical storage components attached to servers directly or through fibre channel switched fabric.
+Discovery creates configuration items \(CIs\) and CI relationships for physical and logical storage components. Storage can be attached directly to servers or through fibre channel switched fabric.
 
 ## Direct attached storage
 
@@ -151,5 +151,5 @@ Discovery creates CIs for the logical sub-components in NAS and SAN environments
 
 \[Omitted image "MultipathFibreFabricDiagram.png"\] Alt text: Fibre fabric redundant paths
 
-**Parent Topic:**[Storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Storage.md)
+**Parent Topic:**[Storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Storage.md)
 

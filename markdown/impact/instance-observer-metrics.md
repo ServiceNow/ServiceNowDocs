@@ -3,9 +3,9 @@ title: Instance Data Replication
 description: The Instance Data Replication \(IDR\) copies data updates from one instance, called the producer instance, to one or more other instances called the consumer instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/instance-observer-metrics.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -22,7 +22,7 @@ The Active Producer Replication Sets monitor your producer replication set statu
 
 Active Consumer Replication Sets monitor your consumer replication set status, report the network lag time, and report the data lag time between the producer instance and consumer instance.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Create an authentication profile
 description: Create an authentication profile and add one or more authentication policies to the profile. You can also configure the ID Token and OAuth Token authentication profiles that are available by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-an-authentication-profile.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SOAP API access policies, API access policy, Authentication, Access Management]
 ---

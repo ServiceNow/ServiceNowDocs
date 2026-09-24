@@ -3,9 +3,9 @@ title: Activate Data Collection for APM
 description: Activate the Data Collection Pack for APM after you enable and configure it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-apm-activate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact Value Management Data Collection for APM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
@@ -48,12 +48,12 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
         For historical job execution, adjust the Relative start months according to the available data.
 
-        -   If you do not have a full version of Performance Analytics, historical data won’t be captured beyond 180 days from the job execution date.
-        -   If you have the full version of Performance Analytics, you can change the Relative start date to a longer timeframe than 6 months. For example, you could change Relative start from 6 months ago to 12 months ago.
+        -   If you don't have a full version of Performance Analytics, historical data won’t be captured beyond 180 days from the job execution date.
+        -   If you have the full version of Performance Analytics, you can change the Relative start date to a longer time frame than 6 months. For example, you could change Relative start from 6 months ago to 12 months ago.
     2.  Select **Execute Now** to run the historical data collection job.
 
     3.  Navigate to **Platform Analytics &gt; Dashboard**, and then open **Impact VM – APM**.
 
 
-**Parent Topic:**[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-apm.md)
+**Parent Topic:**[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-apm.md)
 

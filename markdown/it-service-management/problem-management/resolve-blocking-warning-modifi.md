@@ -3,11 +3,11 @@ title: Resolve blocking and warning modifications
 description: Resolve any blocking modifications and resolve or verify any warning modifications that are detected on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/resolve-blocking-warning-modifi.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration job, Migration Utility, Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -37,5 +37,5 @@ For more information about blocking, warning, and informational modifications an
 
 ## What to do next
 
-[Migrate active records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/migrate-active-records.md).
+[Migrate active records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/migrate-active-records.md).
 

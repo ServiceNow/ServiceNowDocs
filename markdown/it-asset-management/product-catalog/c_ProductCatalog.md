@@ -3,11 +3,11 @@ title: Product Catalog
 description: The product catalog is a set of information about individual models. Models are specific versions or various configurations of an asset. Asset managers use the product catalog as a centralized repository for model information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/c\_ProductCatalog.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common applications, Asset Management]
 ---
@@ -18,7 +18,7 @@ The product catalog is a set of information about individual models. Models are 
 
 A detailed and well-maintained product catalog can coordinate with service catalog, asset, procurement, request, contract, and vendor information.
 
-Models published to the product catalog are automatically published to the [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog.md). The service catalog includes information about goods \(models\) and services. If the model is available from multiple vendors, a model can be listed more than once. Models are included with the Asset Management application.
+Models published to the product catalog are automatically published to the [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog.md). The service catalog includes information about goods \(models\) and services. If the model is available from multiple vendors, a model can be listed more than once. Models are included with the Asset Management application.
 
 Keep the following in mind when working with the product catalog.
 
@@ -26,21 +26,23 @@ Keep the following in mind when working with the product catalog.
 -   A model can only have one product catalog item.
 -   A vendor catalog item can only have a single product catalog item.
 
--   **[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/r_InstalledWithProductCatalog.md)**  
+-   **[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/r_InstalledWithProductCatalog.md)**  
 The following components are installed with the Product Catalog plugin.
--   **[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md)**  
+-   **[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/c_Models.md)**  
 Models are specific versions or various configurations of an asset. Models are used for managing and tracking assets through various ServiceNow platform asset applications, including Product Catalog, Asset Management, and Procurement.
--   **[Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ManageVendorCatalogItems.md)**  
+-   **[Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/c_ManageVendorCatalogItems.md)**  
 The vendor catalog is a list of goods available from different vendors.
--   **[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ManagingProductCatalogItems.md)**  
+-   **[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/c_ManagingProductCatalogItems.md)**  
 Product catalog items are hardware and software that you can track and offer in the service catalog.
--   **[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ModelCategories.md)**  
+-   **[Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/c_ModelCategories.md)**  
 Model categories associate CI classes with asset classes. Model categories are part of the Product Catalog application.
--   **[Domain separation and Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/domain-separation-product-catalog.md)**  
+-   **[Domain separation and Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/domain-separation-product-catalog.md)**  
 Domain separation is supported in the Product Catalog. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+
+**Parent Topic:**[Common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/asset-management-related-apps-landing-page.md)
 
 **Related topics**  
 
 
-[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/c_ManagingAssets.md)
+[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/c_ManagingAssets.md)
 

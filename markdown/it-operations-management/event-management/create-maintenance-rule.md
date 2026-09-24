@@ -3,11 +3,11 @@ title: Create maintenance rules
 description: Use maintenance rules to mark CIs in maintenance status. When in maintenance status, these CIs are excluded from impact calculation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-maintenance-rule.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -188,12 +188,12 @@ You can use this script as an example to prepare your own customized script.
 
 \[Omitted image "maintenance-rule-script.png"\] Alt text: Event Management script
 
-**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMAlert.md)
 
 **Related topics**  
 
 
-[How alerts work with CIs in maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMHowImpactTree.md)
+[How alerts work with CIs in maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMHowImpactTree.md)
 
-[Place an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMPutAnAlertIntoMaintenance.md)
+[Place an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMPutAnAlertIntoMaintenance.md)
 

@@ -3,11 +3,11 @@ title: Open search results in IT Remediation Workspace
 description: Set the application scope to IT Remediation Workspace to open your search results in the IT Remediation Workspace instead of classic UI by changing the application scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/itr-ws-change-app-scope-search.html
-release: australia
+release: brazil
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---

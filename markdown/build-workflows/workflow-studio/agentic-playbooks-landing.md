@@ -3,13 +3,13 @@ title: Agentic Playbooks
 description: Agentic Playbooks use AI agents to help you work more efficiently. AI agents complete tasks and generate outputs for your playbook activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/agentic-playbooks-landing.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Workflow Studio, Build workflows]
+breadcrumb: [Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Agentic Playbooks
@@ -20,19 +20,19 @@ Agentic Playbooks use AI agents to help you work more efficiently. AI agents com
 
 <table id="table_hgk_ldl_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/agentic-playbooks.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/agentic-playbooks.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure AI agents for your playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure AI agents for your playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how to use Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/running-agentic-activities.md)
+[Use \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how to use Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/running-agentic-activities.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review roles and guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/agentic-playbook-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review roles and guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/agentic-playbook-reference.md)
 
 </td></tr></tbody>
 </table>## AI limitations

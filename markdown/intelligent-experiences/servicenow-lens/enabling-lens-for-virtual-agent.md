@@ -3,13 +3,13 @@ title: Enabling ServiceNow AI Lens in Virtual Agent
 description: You can enable ServiceNow AI Lens in Virtual Agent so that ServiceNow AI Lens can be triggered from Virtual Agent conversation.Enable the AI Search application on your instance so that you can use ServiceNow AI Lens skill to gather insights from an image using generative AI.Enable the default Now Assist in Virtual Agent assistant so that you can use ServiceNow AI Lens in Virtual Agent.Enable an assistant other than the default Now Assist in Virtual Agent assistant in ServiceNow AI Lens topic.Enable the chat function in Virtual Agent for a mobile device for ServiceNow AI Lens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/enabling-lens-for-virtual-agent.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Enabling ServiceNow AI Lens in Virtual Agent
@@ -45,7 +45,7 @@ Enable the default Now Assist in Virtual Agent assistant so that you can use Ser
 
 ### Before you begin
 
-If you have another assistant configured for your specific use case or industry, you can skip this procedure and follow [Enable other assistants in ServiceNow AI Lens topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/enabling-lens-for-virtual-agent.md).
+If you have another assistant configured for your specific use case or industry, you can skip this procedure and follow [Enable other assistants in ServiceNow AI Lens topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/enabling-lens-for-virtual-agent.md).
 
 Role required: virtual\_agent\_admin or admin
 

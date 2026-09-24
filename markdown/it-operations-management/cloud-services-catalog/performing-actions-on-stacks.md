@@ -3,11 +3,11 @@ title: Actions on stacks
 description: Access a particular stack to perform a Day 2 or life-cycle operations such as stop, start, deprovision, ModifyLease, or ModifySchedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/performing-actions-on-stacks.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore My Stacks tab, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -34,5 +34,5 @@ The following table lists the operations that the Cloud Services Catalog applica
 |ModifyLease|Changes the lease end date.|
 |ModifySchedule|Modifies the schedule profile and schedule time zone.|
 
-**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/manage-stacks.md)
+**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/manage-stacks.md)
 

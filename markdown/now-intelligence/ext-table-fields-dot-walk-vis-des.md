@@ -3,9 +3,9 @@ title: Dot-walking from reference fields in a data visualization
 description: Dot-walking provides access to fields on extended, or related, tables, enabling you to create data visualizations on fields from those tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/ext-table-fields-dot-walk-vis-des.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [related tables, extended tables, dot-walking]
 breadcrumb: [Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -21,13 +21,13 @@ Dot-walking references a field by building a chain of field names separated by d
 
 **Note:** Dot-walking applies only to visualizations of table data sources.
 
--   **[Dot walk fields in Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/access-fields-ext-table-vis-des.md)**  
+-   **[Dot walk fields in Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/access-fields-ext-table-vis-des.md)**  
 Learn how to dot walk table fields in a data visualization of table data. See how to start from a parent table, such as Task, and dot walk to include data from extended tables, such as Indicator and Problem.
 
-**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-data-visualizations.md)
 
 **Related topics**  
 
 
-[Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md)
+[Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/dot-walking-examples.md)
 

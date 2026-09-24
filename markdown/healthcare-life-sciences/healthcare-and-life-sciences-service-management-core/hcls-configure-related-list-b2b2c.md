@@ -3,11 +3,11 @@ title: Configure the account consumer related list to add account consumers for 
 description: Configure the account consumer related list to add account consumers for use with B2B2C.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-configure-related-list-b2b2c.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up B2B2C, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ Configure the account consumer related list to add account consumers for use wit
 
 ## Before you begin
 
-The Customer Data Models for B2B2C plugin must be installed. For more information, see [Install the Customer Data Models for B2B2C plugin for Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-install-customer-data-models-b2b2c-plugin.md).
+The Customer Data Models for B2B2C plugin must be installed. For more information, see [Install the Customer Data Models for B2B2C plugin for Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-install-customer-data-models-b2b2c-plugin.md).
 
 Role required: admin
 
@@ -39,5 +39,5 @@ The Consumers related list is added to the accounts form.
 
 ## What to do next
 
-Assign the case viewer role for contacts. For more information, see [Assign the case viewer role for contacts in B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-grant-contact-case-creation.md).
+Assign the case viewer role for contacts. For more information, see [Assign the case viewer role for contacts in B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-grant-contact-case-creation.md).
 

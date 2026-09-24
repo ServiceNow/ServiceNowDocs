@@ -3,11 +3,11 @@ title: Deploy the ServiceNow Add-in for Microsoft Outlook
 description: Deploy the ServiceNow add-in for Microsoft Outlook to chat with a virtual agent, create incidents and VTB tasks from within the Microsoft Outlook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/deploy-outlook-add-in.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Microsoft Outlook to create incidents and VTB tasks, Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -76,5 +76,5 @@ You can add or remove fields directly on the Incident form for users with the it
     3.  Paste the copied sys\_id into the **Value** field of the **Provide sys\_id of the record producer for create incident action from Outlook Add-In** \(**sn\_outlook\_addin.create\_incident\_cat\_item**\) system property.
 
 
-**Parent Topic:**[Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-incident-outlook.md)
+**Parent Topic:**[Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-incident-outlook.md)
 

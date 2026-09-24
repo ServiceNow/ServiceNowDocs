@@ -3,11 +3,11 @@ title: Create an equipment category
 description: Create equipment categories to organize types of equipment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/asset-management-for-field-service/create-an-equipment-category.html
-release: australia
+release: brazil
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource Scheduling, Inventory and asset management, Configure, Field Service Management]
 ---
@@ -48,5 +48,5 @@ The equipment category is added to the Resource categories list.
 **Related topics**  
 
 
-[Create an equipment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/create-an-equipment-instance.md)
+[Create an equipment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/asset-management-for-field-service/create-an-equipment-instance.md)
 

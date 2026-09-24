@@ -3,11 +3,11 @@ title: ValidateTransitionIn
 description: The ValidateTransitionIn validator finds activities that do not have inbound transitions and cannot execute in the workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_ValidateTransitionIn.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow validator, Workflow validation, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,5 +40,5 @@ This example workflow appears to be perfectly valid. Under closer inspection, ho
 
 This validator directs the designer to the specific activity and condition that has no inbound transition. The designer should establish a transition or remove the activity.
 
-**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
 

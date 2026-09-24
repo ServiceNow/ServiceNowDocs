@@ -3,11 +3,11 @@ title: Analyze the sentiment of a service problem case using ServiceNow Otto for
 description: Generates the requester's sentiment and the reasoning behind it on the complaint cases in the ServiceNow Otto for TMT application. Make informed decisions on complaint cases based on sentiment to link the cases on the Alternative Dispute Resolution \(ADR\) case record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-analyze-sentiment-spc-adr.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_telco\_adr\_mgmt.manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Alternative Dispute Resolution** &gt; **All**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Alternative Dispute Resolution** &gt; **All**.
 
 2.  Open the ADR case that you are working on.
 
@@ -40,15 +40,15 @@ Role required: sn\_telco\_adr\_mgmt.manager
 
 6.  After you're finished analyzing the sentiment, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d33866e133">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d33854e133">
 
 Option
 
-</th><th align="left" id="d33866e136">
+</th><th align="left" id="d33854e136">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d33866e142">
+</th></tr></thead><tbody><tr><td id="d33854e142">
 
 **Provide feedback for the summary**
 
@@ -62,7 +62,7 @@ Procedure
 </table>
 ## What to do next
 
-Complete the remaining steps to execute the ADR case record. To learn more, see [Create a Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-adr-case-record.md).
+Complete the remaining steps to execute the ADR case record. To learn more, see [Create a Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-adr-case-record.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

@@ -3,11 +3,11 @@ title: Analyze and enrich regulatory alerts
 description: Analyze and enrich regulatory alerts by using the get regulatory analysis agentic workflow in the ServiceNow Otto panel. This agentic workflow uses web search to enhance alert context and recommends potential impacts on citations, policies, and control objectives to support faster and more accurate compliance decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/get-rcm-reg-insight.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Now Assist, generative AI]
 breadcrumb: [Get regulatory analysis workflow, AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]
@@ -19,13 +19,13 @@ Analyze and enrich regulatory alerts by using the get regulatory analysis agenti
 
 ## Before you begin
 
-**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user
 
-The recommendations for regulatory alert skills are required for recommending impact areas. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
+The recommendations for regulatory alert skills are required for recommending impact areas. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## About this task
 
@@ -33,7 +33,7 @@ The Get regulatory analysis agentic workflow helps regulatory change management 
 
 **Note:**
 
-When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly. To modify this workflow, duplicate it and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the ServiceNow Otto panel. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
+When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly. To modify this workflow, duplicate it and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the ServiceNow Otto panel. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 ## Procedure
 
@@ -55,15 +55,15 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 4.  Analyze and enrich regulatory alerts by adding enriched insights or generating recommended impacted areas.
 
-<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d425356e248">
+<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d433029e248">
 
 Option
 
-</th><th align="left" id="d425356e251">
+</th><th align="left" id="d433029e251">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d425356e257">
+</th></tr></thead><tbody><tr><td id="d433029e257">
 
 **Add enriched insights**
 
@@ -78,7 +78,7 @@ In the ServiceNow Otto panel, ask the agent to enrich a regulatory alert with we
 -   You can discard the overview and create your own summary manually.
 
 
-</td></tr><tr><td id="d425356e296">
+</td></tr><tr><td id="d433029e296">
 
 **Recommend impacted areas**
 
@@ -89,7 +89,7 @@ In the ServiceNow Otto panel, ask the agent to check for recommended impacted ar
 **Note:**
 
 -   If you aren’t making this request from a regulatory alert page using the action menu, be prepared to provide the regulatory alert number \(sys\_id\) so that the workflow has the context it needs to fulfill your request. The workflow analyzes the alert and generates a categorized list for each type of impacted area such as citation, control objective, controls, or policies.
--   You can review all potential impacted areas and add them to the regulatory alert by navigating to the **Recommendations** tab. For more information on acting on recommendations and adding impacted areas, see [Accept or dismiss recommendations for regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommendation-reg-alert.md), [Accept or dismiss recommendations for regulatory alert impacted control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommend-co-reg-alert.md), [Accept or dismiss recommendations for regulatory alert impacted controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recos-for-controls.md), [Accept or dismiss recommendations for regulatory alert impacted policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recos-for-policies.md), and [Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md).
+-   You can review all potential impacted areas and add them to the regulatory alert by navigating to the **Recommendations** tab. For more information on acting on recommendations and adding impacted areas, see [Accept or dismiss recommendations for regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommendation-reg-alert.md), [Accept or dismiss recommendations for regulatory alert impacted control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommend-co-reg-alert.md), [Accept or dismiss recommendations for regulatory alert impacted controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recos-for-controls.md), [Accept or dismiss recommendations for regulatory alert impacted policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recos-for-policies.md), and [Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md).
 
 
 </td></tr></tbody>
@@ -101,15 +101,15 @@ In the ServiceNow Otto panel, ask the agent to check for recommended impacted ar
 **Related topics**  
 
 
-[Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
+[Using agentic workflows in IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.md)
 
-[Activate the get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-workflow.md)
+[Activate the get regulatory analysis agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-workflow.md)
 
-[Accept or dismiss recommendations for regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommendation-reg-alert.md)
+[Accept or dismiss recommendations for regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommendation-reg-alert.md)
 
-[Accept or dismiss recommendations for regulatory alert impacted control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommend-co-reg-alert.md)
+[Accept or dismiss recommendations for regulatory alert impacted control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recommend-co-reg-alert.md)
 
-[Accept or dismiss recommendations for regulatory alert impacted controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recos-for-controls.md)
+[Accept or dismiss recommendations for regulatory alert impacted controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-recos-for-controls.md)
 
-[Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md)
+[Add impacted areas manually to a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/add-impacted-area-reg-alert.md)
 

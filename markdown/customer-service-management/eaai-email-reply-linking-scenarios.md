@@ -3,9 +3,9 @@ title: Email reply linking scenarios for closed interactions
 description: Describes how Email Interaction links a customer email reply when the reply references a closed interaction. The system evaluates conditions in the order listed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/eaai-email-reply-linking-scenarios.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [email reply linking, closed interactions, routing scenarios]
 breadcrumb: [Email Interaction for CSM reference, Reference, Customer Service Management]

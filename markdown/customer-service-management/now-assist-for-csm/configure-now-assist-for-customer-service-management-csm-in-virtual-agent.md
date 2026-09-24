@@ -3,11 +3,11 @@ title: Configure ServiceNow Otto for Customer Service Management \(CSM\) in Virt
 description: Use ServiceNow Otto for CSM in Virtual Agent to provide users a content-driven generative AI experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-now-assist-for-customer-service-management-csm-in-virtual-agent.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -27,11 +27,11 @@ To confirm LLM-based appointment booking works in Customer Service Management, t
 
 There are 6 main steps to configure ServiceNow Otto for CSM in Virtual Agent:
 
-1.  [Activate Virtual Agent for Customer Service Management \(CSM\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-virtual-agent-csm.md)
-2.  [Configure AI in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md)
-3.  [Install Conversational Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/conv_appt_booking_install.md)
-4.  [Enable Walk-up Experience Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking.md)
-5.  [Configure API credentials for OpenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-api-credentials-for-openai.md).
+1.  [Activate Virtual Agent for Customer Service Management \(CSM\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/activate-virtual-agent-csm.md)
+2.  [Configure AI in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md)
+3.  [Install Conversational Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/conv_appt_booking_install.md)
+4.  [Enable Walk-up Experience Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking.md)
+5.  [Configure API credentials for OpenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-api-credentials-for-openai.md).
 6.  Enable Schedule a Walk-up Appointment topic in the Virtual Agent.
 
 ## Procedure

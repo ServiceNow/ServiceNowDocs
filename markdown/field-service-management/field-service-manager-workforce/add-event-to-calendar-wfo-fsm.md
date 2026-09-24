@@ -3,11 +3,11 @@ title: Add events to the team calendar
 description: Create a meeting, training, time-off request, personal, or an ad hoc work event from the team calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/add-event-to-calendar-wfo-fsm.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_shift\_planning.admin
 
 ## About this task
 
-You can create custom event types and add or remove fields. For more information, see [Create event types to display on the team calendar with Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-evet-types-wfo-fsm.md).
+You can create custom event types and add or remove fields. For more information, see [Create event types to display on the team calendar with Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-evet-types-wfo-fsm.md).
 
 ## Procedure
 
@@ -36,15 +36,15 @@ You can create custom event types and add or remove fields. For more information
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d59225e122">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d61124e122">
 
 To
 
-</th><th align="left" id="d59225e125">
+</th><th align="left" id="d61124e125">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d59225e131">
+</th></tr></thead><tbody><tr><td id="d61124e131">
 
 **Create a meeting, training, or time-off request.**
 
@@ -69,7 +69,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d59225e237">
+</td></tr><tr><td id="d61124e237">
 
 **Create a work shift**
 

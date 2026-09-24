@@ -3,11 +3,11 @@ title: Request exception for a policy
 description: After a policy has been enabled and configured for exceptions, you can map a policy to a deployable and request an exception.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/policy-createmap-exception.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Policy exceptions, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ Role required: sn\_pace.admin
         -   When the request is approved, the sn\_compliance.admin can override the requested dates.
 4.  Click **Request** and navigate to the **Exceptions** tab to view the requested exceptions.
 
-    You can see that the exception status is **Pending**. The Compliance Manager assesses this exception request and can choose to approve or reject the request. See [Policy as Code Engine for Preventive compliance management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/preventive-compliance-pace.md) for details. For each exception request, the following details are displayed:
+    You can see that the exception status is **Pending**. The Compliance Manager assesses this exception request and can choose to approve or reject the request. See [Policy as Code Engine for Preventive compliance management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/preventive-compliance-pace.md) for details. For each exception request, the following details are displayed:
 
     -   Exception ID: Click the Exception ID to view detailed information about the exception request.
     -   Deployable: Click the link to view the details of the deployable mapped to the policy.

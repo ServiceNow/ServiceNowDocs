@@ -3,11 +3,11 @@ title: Integrating Sidebar and activity stream
 description: For agents to post Sidebar discussions in the activity stream, Sidebar must be integrated with the activity stream and Sidebar options must display in the post filters. If the Sidebar options don’t display in the post filters, you must add them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/integrate-sidebar-activity-stream.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---

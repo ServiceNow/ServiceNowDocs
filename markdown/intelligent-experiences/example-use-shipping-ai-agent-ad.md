@@ -3,11 +3,11 @@ title: Example: Use AI agents to automatically enter data into the shipping mana
 description: As a shipping coordinator, enter shipping details automatically from Excel to the Shipping Management app by triggering AI agents that use desktop action tools from the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/example-use-shipping-ai-agent-ad.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Execute desktop actions, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Execute desktop actions, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Example: Use AI agents to automatically enter data into the shipping management app
@@ -18,8 +18,8 @@ As a shipping coordinator, enter shipping details automatically from Excel to th
 
 To access the AI Desktop Actions functionality, perform the following steps:
 
--   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
--   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+-   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-agentic-desktop.md).
+-   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 Confirm that the following system requirements are met:
 
@@ -38,7 +38,7 @@ Confirm that the following system requirements are met:
 
 **Note:** Screen resolution and scaling must be the same between the systems used for recording and execution of desktop actions that are created prior to AI Desktop Actions v1.0.1.
 
-Familiarize yourself with the AI Desktop Actions Execution workspace. For more information, see [AI Desktop Actions Execution workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md).
+Familiarize yourself with the AI Desktop Actions Execution workspace. For more information, see [AI Desktop Actions Execution workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md).
 
 Role required: now\_assist\_panel\_user for the user and sn\_naa.web\_agent\_runtime for the service account the agent runs as
 
@@ -98,7 +98,7 @@ The AI agent shows each step as it executes them.
 
 </td><td>
 
-The AI agent performs the tasks in the Execution workspace that shows the execution status. For more information, see [Execution statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md).
+The AI agent performs the tasks in the Execution workspace that shows the execution status. For more information, see [Execution statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md).
 
 </td></tr><tr><td>
 
@@ -121,15 +121,15 @@ The Execution workspace returns to the ready state.
 
 6.  Use the smart sizing options to enable your desktop executions automatically adapt to your display.
 
-<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d190559e426">
+<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d176836e426">
 
 Option
 
-</th><th align="left" id="d190559e429">
+</th><th align="left" id="d176836e429">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d190559e435">
+</th></tr></thead><tbody><tr><td id="d176836e435">
 
 **Fit to window**
 
@@ -137,7 +137,7 @@ Description
 
 Scales the execution screen to fit within the display area of the Execution workspace. The entire screen is visible without scrolling.Shortcut: `ctrl+shift+w`
 
-</td></tr><tr><td id="d190559e448">
+</td></tr><tr><td id="d176836e448">
 
 **Original resolution**
 
@@ -153,5 +153,5 @@ If the desktop session isn't sized correctly and mouse actions aren't working as
 
 `Ctrl + Shift + D`: Resize to actual desktop view.
 
-**Parent Topic:**[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
+**Parent Topic:**[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-agentic-desktop.md)
 

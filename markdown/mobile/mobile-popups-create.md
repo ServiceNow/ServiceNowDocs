@@ -3,9 +3,9 @@ title: Create a mobile pop-up
 description: Learn how to display configurable mobile pop-ups based on real-time conditions. You can display these pop-ups at the mobile app login phase or after a button tap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-popups-create.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Mobile pop-ups, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -20,10 +20,10 @@ Role required: admin
 
 Before configuring your mobile pop-ups, consider the following:
 
--   Mobile cards are used in the display of pop-ups. You can either design one of your own mobile cards or use one of the template cards provided. For more information, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-card-builder.md).
--   Supported button types that trigger pop-ups are action item and navigation. For more information, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-actions.md).
+-   Mobile cards are used in the display of pop-ups. You can either design one of your own mobile cards or use one of the template cards provided. For more information, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-card-builder.md).
+-   Supported button types that trigger pop-ups are action item and navigation. For more information, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-actions.md).
 -   All button locations are supported. For example, swipe, top menu action, and footer function.
--   Buttons are supported in the following UI sections, record, icon, media, and content. For more information, see [Launcher screen UI sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/alp-ui-sections.md).
+-   Buttons are supported in the following UI sections, record, icon, media, and content. For more information, see [Launcher screen UI sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/alp-ui-sections.md).
 -   Mobile pop-ups aren't supported in offline.
 
 ## Procedure
@@ -167,7 +167,7 @@ Condition type
 
 The conditions applied to this mobile event action.
 
- -   Declarative: Adds a condition builder to the form. For more information, see [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+ -   Declarative: Adds a condition builder to the form. For more information, see [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 -   Script: Adds a script condition field to the form.
 
 
@@ -271,13 +271,13 @@ The card to be used for the pop-up.
 </td></tr></tbody>
 </table>14. Select either **Choose** to use an existing card or select **New** to create one from the **Card** field.
 
-    For more information about creating cards, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-card-builder.md).
+    For more information about creating cards, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-card-builder.md).
 
     **Note:** Two mobile pop-up card templates are provided with the base system. These templates are called Pop-up 01 and Pop-up 02.
 
 15. Assign configurable functions or predefined functions to a button on a mobile pop-up card.
 
-    **Note:** For more information about configurable functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md) and [Configure a card action using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mca-with-mcb.md). Also, see the What to do next section in this topic.
+    **Note:** For more information about configurable functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-mobile-button-types.md) and [Configure a card action using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/create-mca-with-mcb.md). Also, see the What to do next section in this topic.
 
 16. Select **Save**.
 
@@ -290,10 +290,10 @@ You can add two types of functions to a button on a mobile pop-up card, configur
 -   Continue: Submits or proceeds with the original function from which the pop-up was triggered.
 -   Logout: Logs out the user from the current instance and is navigated to the instance list page.
 
-For more information, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md) and [Configure a card action using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mca-with-mcb.md).
+For more information, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-mobile-button-types.md) and [Configure a card action using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/create-mca-with-mcb.md).
 
--   **[Assign predefined functions to mobile pop-ups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/popups-system-button.md)**  
+-   **[Assign predefined functions to mobile pop-ups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/popups-system-button.md)**  
 Use predefined functions within mobile pop-ups to perform actions like dismiss the pop-up, proceed with the suggested instruction, or log out of the instance.
 
-**Parent Topic:**[Mobile pop-ups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile_popups.md)
+**Parent Topic:**[Mobile pop-ups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile_popups.md)
 

@@ -3,13 +3,13 @@ title: Complete and close the Confirm asset task for a serialized enterprise ass
 description: If your work order is associated with a serialized enterprise asset, complete and close the Confirm asset task for that asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-confirm-task-work-order.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing work for your enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Managing work for your enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Complete and close the Confirm asset task for a serialized enterprise asset
@@ -22,7 +22,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
-Before an agent can perform work on an enterprise asset, it must be picked up from its designated stockroom. If you want an agent to perform work on a serialized enterprise asset, you must first confirm which asset needs to be picked up by using the Confirm asset task. For all other enterprise asset types, skip the Confirm asset task and proceed directly to the [Pickup task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-pickup-task-work-order.md).
+Before an agent can perform work on an enterprise asset, it must be picked up from its designated stockroom. If you want an agent to perform work on a serialized enterprise asset, you must first confirm which asset needs to be picked up by using the Confirm asset task. For all other enterprise asset types, skip the Confirm asset task and proceed directly to the [Pickup task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/complete-pickup-task-work-order.md).
 
 ## Procedure
 
@@ -54,5 +54,5 @@ The state of the Confirm task changes from Open to Closed Complete. The Enterpri
 
 The agent who is assigned to the associated work order must complete and close the Pick Up task.
 
-**Parent Topic:**[Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md)
+**Parent Topic:**[Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md)
 

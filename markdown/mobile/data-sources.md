@@ -3,9 +3,9 @@ title: Data sources
 description: A data source is a loading mechanism that maps UI elements to specific database fields using element identifiers. Use data sources to retrieve and display data onto input form screens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/data-sources.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -39,14 +39,14 @@ The data source script that maps data into UI elements uses the *DataSourceId* a
 
 -   **Descriptive elements**
 
-    These are elements that provide additional information or context, such as pictures or texts that relate to an input or sections. Configuring a data source is required for descriptive elements because it links UI elements to specific fields in a table. This mapping verifies that the data displayed in the UI corresponds to data in the table being iterated by the data source. For more information, see [Configure descriptive elements for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/descriptive-elements-script.md).
+    These are elements that provide additional information or context, such as pictures or texts that relate to an input or sections. Configuring a data source is required for descriptive elements because it links UI elements to specific fields in a table. This mapping verifies that the data displayed in the UI corresponds to data in the table being iterated by the data source. For more information, see [Configure descriptive elements for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/descriptive-elements-script.md).
 
 -   **Input actions**
 
-    These are actions that are associated with input fields. Input actions include the addition of a comment, attachment, or navigation buttons. For more information, see [Configure input form actions in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/input-actions-configure.md).
+    These are actions that are associated with input fields. Input actions include the addition of a comment, attachment, or navigation buttons. For more information, see [Configure input form actions in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/input-actions-configure.md).
 
 -   **Input form actions and refresh option**
 
-    This action enables you to save current data and concurrently make it available to others. This updated data is available when a user either opens the input form or saves their changes. This displayed data includes input values, comments, and attachments added by other users. For more information, see [Configure input form screen actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/input-form-screen-actions-config.md).
+    This action enables you to save current data and concurrently make it available to others. This updated data is available when a user either opens the input form or saves their changes. This displayed data includes input values, comments, and attachments added by other users. For more information, see [Configure input form screen actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/input-form-screen-actions-config.md).
 
 

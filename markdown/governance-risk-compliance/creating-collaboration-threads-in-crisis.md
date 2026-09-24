@@ -3,11 +3,11 @@ title: Creating collaborations in exercises and crisis events
 description: Starting with BCM core release 12.x.x, crisis managers can create collaboration threads on crisis events to coordinate responses with recovery teams and send email updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/creating-collaboration-threads-in-crisis.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Creating collaborations in exercises and crisis events
@@ -31,7 +31,7 @@ A collaboration thread includes the following details in columns:
 -   Updated
 -   State with a value of Open or Closed
 
-For descriptions of these fields, see [Create Collaboration thread form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-collaboration-thread-crisis-event-form.md).
+For descriptions of these fields, see [Create Collaboration thread form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-collaboration-thread-crisis-event-form.md).
 
 Collaboration threads centralize crisis response coordination, replacing scattered emails and spreadsheets with a single record of decisions, actions, and communications. Automatic recovery-team notifications and activity-stream propagation keep responders informed in real time and preserve a complete audit trail for post-event analysis and compliance reporting.
 
@@ -55,8 +55,8 @@ Field changes, emails, and attachments on a collaboration thread are added to it
 
 Users with the sn\_recovery.event\_manager or sn\_recovery.event\_user role can create and update collaboration threads, including their State and work notes. Users with the sn\_recovery.event\_viewer role can read collaboration threads, including their work notes.
 
--   **[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)**  
+-   **[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)**  
 Create a collaboration thread on a crisis event and send an email to its recovery teams to coordinate a response.
 
-**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

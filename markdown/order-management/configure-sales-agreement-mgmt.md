@@ -3,9 +3,9 @@ title: Configure Sales Agreement Management
 description: Use the Sales Agreement Management application to create sales agreements between a buyer and a seller for future transactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-sales-agreement-mgmt.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Use the Sales Agreement Management application to create sales agreements betwee
 
 ## Activate Sales Agreement Management
 
-As an admin, you can activate the following plugins to enable users to create and manage sales agreements. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+As an admin, you can activate the following plugins to enable users to create and manage sales agreements. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_dz4_d2c_wbc"><thead><tr><th>
 
@@ -61,7 +61,7 @@ This plugin provides workflow to create and manage sales agreements.
 
 
 </td></tr></tbody>
-</table>For more information on the installed roles and tables, see [Components installed with Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-agreement.md). To view sales agreements from an account, you must manually configure the sales agreement related list on the Account form.
+</table>For more information on the installed roles and tables, see [Components installed with Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-sales-agreement.md). To view sales agreements from an account, you must manually configure the sales agreement related list on the Account form.
 
 ## Request apps from the ServiceNow Store
 

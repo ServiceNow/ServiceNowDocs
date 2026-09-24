@@ -3,13 +3,13 @@ title: Create or update an override license cost record
 description: Create or update an override license cost record for your software entitlements based on your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-edit-override-license-cost.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create or update an override license cost record
@@ -22,7 +22,7 @@ Role required: sam\_user, sam\_admin
 
 ## About this task
 
-You can manually add or update the override license cost information for your software models and entitlements. When you create an entitlement for the Employee license metric, override license cost records are populated for Oracle Java, based on the data present in the Price tier \[samp\_price\_tier\] table. You can update the existing override license cost records according to the licensing agreement. For details on the tier-based pricing model, see [Pricing model for Oracle Java SE Universal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-price-tiers.md).
+You can manually add or update the override license cost information for your software models and entitlements. When you create an entitlement for the Employee license metric, override license cost records are populated for Oracle Java, based on the data present in the Price tier \[samp\_price\_tier\] table. You can update the existing override license cost records according to the licensing agreement. For details on the tier-based pricing model, see [Pricing model for Oracle Java SE Universal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-price-tiers.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ You can manually add or update the override license cost information for your so
     -   If you select **Edit ranges**, all the existing records are set to inactive. You can select **Activate** after completing your updates to override license cost ranges.
 5.  On the form, fill in the fields.
 
-    For details on the override license cost fields and descriptions, see [Override License Costs tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-model-fields.md).
+    For details on the override license cost fields and descriptions, see [Override License Costs tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-model-fields.md).
 
     **Note:** You can revert your changes to the default values by selecting **Restore to default**.
 
@@ -54,5 +54,5 @@ The override license cost record you created or modified appears in the **Overri
 -   License cost
 -   License and maintenance cost
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

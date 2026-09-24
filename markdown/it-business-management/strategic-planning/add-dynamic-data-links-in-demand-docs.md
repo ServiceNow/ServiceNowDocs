@@ -3,11 +3,11 @@ title: Add dynamic data to demand Docs
 description: Add references to application records or fields in demand Docs to keep documentation current without manual updates. You can add references from any table on your ServiceNow instance you have access to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-dynamic-data-links-in-demand-docs.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborate with Docs, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

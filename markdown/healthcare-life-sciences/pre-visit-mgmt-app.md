@@ -3,9 +3,9 @@ title: Pre-Visit Management
 description: With the ServiceNow Pre-Visit Management application, streamline the scheduling process of procedure requests for patients and increase visibility to pre-authorization approvals prior to scheduled procedures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-mgmt-app.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -26,31 +26,31 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how healthcare organizations use Pre-Visit Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how healthcare organizations use Pre-Visit Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-config-app.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-config-app.md)
 
 </td><td>
 
-[Manage \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Manage procedure requests from the Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-using-workspace.md)
+[Manage \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Manage procedure requests from the Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-using-workspace.md)
 
 </td></tr><tr><td>
 
-[Complete \[Omitted image "bus-compliance.svg"\] Alt text: Complete your to-do items for procedure requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-complete-to-do.md)
+[Complete \[Omitted image "bus-compliance.svg"\] Alt text: Complete your to-do items for procedure requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-complete-to-do.md)
 
 </td><td>
 
-[Contribute \[Omitted image "bus-case.svg"\] Alt text: Create procedure request cases as a contributor.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-create-case-contributor.md)
+[Contribute \[Omitted image "bus-case.svg"\] Alt text: Create procedure request cases as a contributor.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-create-case-contributor.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text: Get details about components including tables and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text: Get details about components including tables and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-reference.md)
 
 </td></tr><tr><td>
 
-[Analytics and reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Coordinate work and improve processes with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-analytics-reporting.md)
+[Analytics and reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Coordinate work and improve processes with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-analytics-reporting.md)
 
 </td><td>
 

@@ -3,9 +3,9 @@ title: Create a material topic
 description: Create material topics for your organization so that you can identify the areas where you want to make an operational sustainability impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-material-topics.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -147,10 +147,10 @@ The material topic is sent to the approver. The state changes to **Review**.
 
 ## What to do next
 
-[Create a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-metric.md)
+[Create a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-metric.md)
 
--   **[Approve or reject a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/approve-a-mt.md)**  
+-   **[Approve or reject a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/approve-a-mt.md)**  
 Review and approve or reject a material topic if it is assigned to you for approval.
 
-**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-esg.md)
+**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-esg.md)
 

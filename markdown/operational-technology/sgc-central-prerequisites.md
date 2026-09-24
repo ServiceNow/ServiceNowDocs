@@ -3,9 +3,9 @@ title: SGC Central prerequisites
 description: Get started with SGC Central and set up the prerequisites for the Service Graph Connector for ServiceNow OT Discovery
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgc-central-prerequisites.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -39,7 +39,7 @@ Role required: admin
     1.  Download and install the Discovery Console for OT package.
     2.  Download and install the Discovery Sensor for OT package \(ISO and OVR\).
     3.  Download and install the OT Discovery Collector package that's compatible with your OS.
-    **Note:** You can download and install the Console and Collector containerized packages. Be sure to select the Collector package that is compatible to your OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
+    **Note:** You can download and install the Console and Collector containerized packages. Be sure to select the Collector package that is compatible to your OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/air-gapped-networks-installation.md).
 
 6.  The second prerequisite is to configure the MID Server.
 
@@ -50,5 +50,5 @@ Role required: admin
 7.  Verify that the prerequisites are complete and select **Continue**.
 
 
-**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-central-for-ot-discovery.md)
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/sgc-central-for-ot-discovery.md)
 

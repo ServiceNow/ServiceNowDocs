@@ -3,9 +3,9 @@ title: Configure the Main node configurations
 description: Create the Main node configuration record to fetch data into Operational Resilience for reporting. Main node configurations are available with the base system. You can use the existing Main node configurations or create new Main node configurations for your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-main-node.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Main node configurations define how your source data is linked, for example, how
 Before creating the Main node configuration record, ensure that you have completed the following prerequisites:
 
 1.  You can create a new Main node configuration with the sn\_oper\_res.admin role only.
-2.  You have completed the configuration set up instructions listed on the [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-operational-resilience.md) page.
+2.  You have completed the configuration set up instructions listed on the [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-operational-resilience.md) page.
 3.  The Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed in your instance by default.
 4.  The entities are generated in Operational Resilience. Only when the entities are generated and the relationships are created in the Main node configurations, CMDB data can be brought into Operational Resilience for reporting.
 5.  All Main node configurations with the source as **OpRes CMDB** run in parallel.
@@ -60,7 +60,7 @@ Before creating the Main node configuration record, ensure that you have complet
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all the fields in the form, see [Main node configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-config-form.md).
+    For descriptions of all the fields in the form, see [Main node configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/main-node-config-form.md).
 
     1.  Add the name for the configuration.
 
@@ -68,13 +68,13 @@ Before creating the Main node configuration record, ensure that you have complet
 
     3.  Select the table from where you want the hierarchy to start, for example, Service.
 
-        Tables are the starting point of the entire tree structure that is received as an output. The Main node configuration starts with a table, such as \[cmdb\_ci\_service\], to generate a tree structure. It scans the table to create a hierarchy for each record. If you do not want to scan the entire table, you can apply filter conditions. Filter conditions ensure that only relevant records are scanned based on your specific business requirements.
+        Tables are the starting point of the entire tree structure that is received as an output. The Main node configuration starts with a table, such as \[cmdb\_ci\_service\], to generate a tree structure. It scans the table to create a hierarchy for each record. If you do not want to scan the entire table, you can apply filter conditions. This ensures that only relevant records are scanned based on your specific business requirements.
 
     4.  Add conditions to filter the records for which this main node definition is created.
 
         The following example shows the filter condition for the "Service to dependency" configuration.
 
-        \[Omitted image "ser-to-dep-main-node.png"\] Alt text: Service to dependency"configuration.
+        \[Omitted image "ser-to-dep-main-node.png"\] Alt text: "Service to dependency" configuration.
 
         The following example shows the Business service downstream records configuration.
 
@@ -95,5 +95,5 @@ Specify how the source table is connected to the target table in the Node relati
 
 \[Omitted image "node-rel-config-rel-list.png"\] Alt text: Node relationships configuration related list.
 
-For details, see [Configure the Node relationship configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-node-rel-config.md).
+For details, see [Configure the Node relationship configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/update-node-rel-config.md).
 

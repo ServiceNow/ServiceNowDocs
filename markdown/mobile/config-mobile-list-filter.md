@@ -3,9 +3,9 @@ title: Configure a custom filter
 description: Manually create a filter experience for your users. Custom filters can include fields that are not in the list pattern.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-mobile-list-filter.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Mobile list screen filters, List screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 This procedure can be used to configure a custom filter for list screens and map screens. The following information applies to list screens, but the same settings are available to configure custom filters for map screens in Mobile App Builder as well.
 
-For information about configuring map screens, see [Configure a map screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-map-screen.md).
+For information about configuring map screens, see [Configure a map screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-configure-map-screen.md).
 
 **Note:** By default, there are filters that are based on the fields which are displayed in mobile views.
 
@@ -168,7 +168,7 @@ Condition type
 
  -   Operator attributes, which determine how the filter operates on the data.
 -   Display Type attributes, which determine how the data that is returned by the Operator attribute gets displayed in your mobile app.
- Select one of the Condition types from the drop-down list. See [Filter condition attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/filter-condition-attributes.md) where the default Operator and Display Type attributes are listed for each Condition type. The default values are marked with an asterisk \(\*\).
+ Select one of the Condition types from the drop-down list. See [Filter condition attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/filter-condition-attributes.md) where the default Operator and Display Type attributes are listed for each Condition type. The default values are marked with an asterisk \(\*\).
 
  **Note:** If your requirements are satisfied with the default attributes and values, then you don't need to configure attributes any further. Selecting the **Condition type** is all you need to do. If you need to customize your filtering options, you can configure them in Step 10 below.
 
@@ -194,7 +194,7 @@ The database fields that users can filter on. Select **New** to configure a filt
 
 10. To configure filter condition attributes, navigate back to the Filter Condition form by selecting it in the navigation menu, scroll down to the **Filter condition attributes** section, and then select **New**.
 
-    In the Filter Condition Attribute form, complete the fields as needed based on the **Condition type** that was set in Step 8. See [Filter condition attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/filter-condition-attributes.md) for descriptions of all attributes and their values.
+    In the Filter Condition Attribute form, complete the fields as needed based on the **Condition type** that was set in Step 8. See [Filter condition attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/filter-condition-attributes.md) for descriptions of all attributes and their values.
 
 11. Add additional filters by repeating Steps 5 through 12 as needed.
 

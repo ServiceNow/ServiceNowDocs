@@ -3,20 +3,20 @@ title: Default input and output rich controls for a custom chat integration
 description: Input and output rich controls must be mapped to your custom chat integration in the Custom Adapter Configurations \[sys\_cs\_custom\_adapter\_config\] table. If a rich control is missing an outbound transformer implementation, a response is not served to the end user and that user may get an unsatisfactory chat experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/default-rich-controls-va-cccif.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Default input and output rich controls for a custom chat integration
 
 Input and output rich controls must be mapped to your custom chat integration in the Custom Adapter Configurations \[sys\_cs\_custom\_adapter\_config\] table. If a rich control is missing an outbound transformer implementation, a response is not served to the end user and that user may get an unsatisfactory chat experience.
 
-The following default rich controls map to input and output rich controls. The **uiType** parameter refers to a topic control used to build conversations in Virtual Agent Designer.
+The following default rich controls map to input and output rich controls. The **uiType** parameter refers to a topic control used to build conversations in Assistant Designer.
 
 <table id="table_rqm_lvn_qmb"><thead><tr><th>
 
@@ -32,7 +32,7 @@ ActionRichControl
 
 </td><td>
 
-This component handles the different events and actions that occur in a conversation. Some actions may not apply to all channels. For example, StartSpinnerActionMsg is ignored in SMS.ServiceNow® Virtual Agent produces the following types of action messages through this framework. The custom chat interface only recognizes certain action message types.
+This component handles the different events and actions that occur in a conversation. Some actions may not apply to all channels. For example, StartSpinnerActionMsg is ignored in SMS.Virtual Agent produces the following types of action messages through this framework. The custom chat interface only recognizes certain action message types.
 
  -   SeparatorActionMsg \|\|actionMsg instanceof
 -   SystemActionMsg \|\|actionMsg instanceof
@@ -70,7 +70,7 @@ DefaultPicker
 
 </td><td>
 
-Maps to [File Picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-file-picker.md), Topic Picker, and [Boolean](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-boolean-user-input.md) controls.Example:
+Maps to [File Picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-file-picker.md), Topic Picker, and [Boolean](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-boolean-user-input.md) controls.Example:
 
 ```
 {
@@ -124,7 +124,7 @@ DefaultText
 
 </td><td>
 
-Maps to [Input Text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-text-input.md), [Output Text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-text-response.md), and File Upload controls.Example:
+Maps to [Input Text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-text-input.md), [Output Text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-text-response.md), and File Upload controls.Example:
 
 ```
 {
@@ -144,7 +144,7 @@ DefaultDate
 
 </td><td>
 
-Maps to [Date and Time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-date-time-input.md) controls.```
+Maps to [Date and Time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-date-time-input.md) controls.```
 {
     uiType: "Date/DateTime/Time",
     group: "DefaultDate", 
@@ -161,7 +161,7 @@ DefaultOutputLink
 
 </td><td>
 
-Maps to [link response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-link-output.md) controls.Example:
+Maps to [link response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-link-output.md) controls.Example:
 
 ```
 {
@@ -184,7 +184,7 @@ DefaultOutputImage
 
 </td><td>
 
-Maps to [image response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-image-output.md) controls.Example:
+Maps to [image response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-image-output.md) controls.Example:
 
 ```
 {
@@ -200,7 +200,7 @@ DefaultOutputCard
 
 </td><td>
 
-Maps to [card response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-card-output.md) controls.Example:
+Maps to [card response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-card-output.md) controls.Example:
 
 ```
 {
@@ -217,7 +217,7 @@ DefaultOutputHtml
 
 </td><td>
 
-Maps to [HTML response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-html-output.md) controls.Example:
+Maps to [HTML response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-html-output.md) controls.Example:
 
 ```
 {
@@ -236,7 +236,7 @@ DefaultOutputTable
 
 </td><td>
 
-Maps to [table response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/table-bot-response.md) controls.Example:
+Maps to [table response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/table-bot-response.md) controls.Example:
 
 ```
 {
@@ -258,7 +258,7 @@ DefaultGroupedPartsOutputControl
 
 </td><td>
 
-Maps to [multi-response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-multi-flow-output.md) controls.Example:
+Maps to [multi-response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-multi-flow-output.md) controls.Example:
 
 ```
 {
@@ -284,7 +284,7 @@ DefaultMultiPartOutput
 
 </td><td>
 
-Maps to [multi-response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-multi-flow-output.md) controls.Example:
+Maps to [multi-response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-multi-flow-output.md) controls.Example:
 
 ```
 {
@@ -308,7 +308,7 @@ DefaultCustomControl
 
 </td><td>
 
-Maps to [custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-control-util.md).Example:
+Maps to [custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-custom-control-util.md).Example:
 
 ```
 {
@@ -323,5 +323,4 @@ Maps to [custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md)
-
+</table>

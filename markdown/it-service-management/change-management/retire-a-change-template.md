@@ -3,11 +3,11 @@ title: Retire a change template
 description: Retire change templates that you no longer need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/retire-a-change-template.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and propose a change template, Create a Change model, Configure, Change Management, IT Service Management]
 ---
@@ -37,7 +37,7 @@ Before retiring a template, you can analyze the template usage by viewing the **
 
 3.  Retire and discontinue the template or retire it and create a copy you can modify.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d174071e101">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d176493e101">
 
 **Retire and discontinue a change template**
 
@@ -47,7 +47,7 @@ Select **Retire**.The retirement request is sent for approval. The template move
 
 After approval, the template moves to the **Retired** state, and is unavailable for use. If rejected, the state of the template changes to **Published**.
 
-</td></tr><tr><td id="d174071e123">
+</td></tr><tr><td id="d176493e123">
 
 **Copy and retire the parent template**
 
@@ -65,10 +65,10 @@ After the copied template is published, the original template moves to the **Ret
 5.  View the list of approvers who have been configured to review the modifications made to the template in the **Approvers** tab.
 
 
-**Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md)
+**Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md)
 
 **Related topics**  
 
 
-[Review a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/review-change-template.md)
+[Review a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/review-change-template.md)
 

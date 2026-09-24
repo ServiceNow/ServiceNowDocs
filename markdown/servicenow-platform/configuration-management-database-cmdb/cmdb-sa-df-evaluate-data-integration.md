@@ -3,11 +3,11 @@ title: Evaluate Data Foundations data integration coverage
 description: Identify supported principal classes and attributes from a Discovery pattern or Service Graph Connector to evaluate data coverage and upgrade requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-evaluate-data-integration.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Data Foundations data integration coverage, attribute coverage for principal classes, Discovery pattern coverage, Service Graph Connector coverage, supported principal classes and attributes, upgrade data integration source]
 breadcrumb: [Analyze data integrations, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -44,17 +44,17 @@ Role required: sn\_cmdb\_admin
     -   List of attributes and whether each is supported by the selected data integration source
 8.  When installed version is lower than the suggested version, select the **View available version** link to open the Application manager.
 
-    **Note:** The **View available version** link is available only when applicable for a data integration source. Also, only users with the admin role can install or upgrade an application. See [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md).
+    **Note:** The **View available version** link is available only when applicable for a data integration source. Also, only users with the admin role can install or upgrade an application. See [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager.md).
 
 9.  Determine which CI attributes are being populated by the integration and whether an upgrade is needed to improve the data coverage.
 
     Available options for improving the data coverage are:
 
     -   For Discovery patterns, you can perform the following actions based on the applicable criteria:
-        -   If you have the pd\_user, you can select **View pattern** for a Discovery pattern to view the pattern. For more information, see [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c-UsingPatternsForHorizontalDiscovery.md).
-        -   If you have the pd\_admin role, you can select **View pattern** for a Discovery pattern to understand its contribution and modify the pattern to maximize the attribute coverage. For more information, see [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c-UsingPatternsForHorizontalDiscovery.md).
+        -   If you have the pd\_user, you can select **View pattern** for a Discovery pattern to view the pattern. For more information, see [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c-UsingPatternsForHorizontalDiscovery.md).
+        -   If you have the pd\_admin role, you can select **View pattern** for a Discovery pattern to understand its contribution and modify the pattern to maximize the attribute coverage. For more information, see [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c-UsingPatternsForHorizontalDiscovery.md).
     -   For Service Graph Connectors, if you have the cmdb\_inst\_admin role, you can perform the following actions based on the applicable criteria:
         -   Select **Install connector** to add a connector from the ServiceNow Store.
-        -   Select **Create connection** to configure a Service Graph Connector from SGC Central. For more information, see [Create a connection for a Service Graph Connector in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-create-connection.md).
-        -   Select **View connections** to open and review details of existing installed connections importing hardware asset data within SGC Central. For more information, see [Viewing connections for a Service Graph Connector in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-viewing-installed-connection.md).
+        -   Select **Create connection** to configure a Service Graph Connector from SGC Central. For more information, see [Create a connection for a Service Graph Connector in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-create-connection.md).
+        -   Select **View connections** to open and review details of existing installed connections importing hardware asset data within SGC Central. For more information, see [Viewing connections for a Service Graph Connector in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-viewing-installed-connection.md).
 

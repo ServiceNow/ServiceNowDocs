@@ -3,11 +3,11 @@ title: Components installed with Metric Intelligence
 description: Several types of components are installed with activation of the Metric Intelligence \(com.snc.sa.metric\) plugin, including tables, scheduled jobs, and properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/installed-with-metrics.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Col
 
 Several types of components are installed with activation of the Metric Intelligence \(com.snc.sa.metric\) plugin, including tables, scheduled jobs, and properties.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Scheduled jobs installed
 
@@ -124,7 +124,7 @@ Metric Intelligence — Validate MID Distributed cluster
 
 1.  Checks the status of the cluster node.
 
-If status is **Started** and the status of the Metric Intelligence extension is not any of **Started**/**Starting**/**Warning** \[warning with specific errors\], the job changes the status of the cluster node to **Stopped**.
+If status is **Started** and the status of the Metric Intelligence extension is not any of **Started**/**Starting**/**Warning** \[warning with specific errors\], the job takes action. The job changes the status of the cluster node to **Stopped**.
 
 This happens when MID Server stops unexpectedly without notifying the instance that it is stopping.
 
@@ -190,7 +190,7 @@ Metric Intelligence - Combined Model Learner Job
 
 </td><td>
 
-Constructs information for real time anomaly detection \(calculating data frequency and building statistical models\) on a subset of collected series.
+Constructs information for real time anomaly detection on a subset of collected series. Calculates data frequency and builds statistical models.
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -531,7 +531,7 @@ sa.metric.map.with.ci.expiration.sec
 Length of time \(in seconds\) that records for mapping of raw data to CIs remains in effect if the mapping to CI is found.-   **Type**: numeric
 -   **Default value**: 432000
 -   **Location**: System Property \[sys\_properties\] table
--   **Learn more**: [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/operational-metrics.md)
+-   **Learn more**: [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/operational-metrics.md)
 
 </td></tr><tr><td>
 
@@ -542,7 +542,7 @@ sa.metric.map.without.ci.expiration.sec
 Length of time \(in seconds\) that records for mapping of raw data to CIs remains in effect if the mapping to CI is not found.-   **Type**: numeric
 -   **Default value**: 86400
 -   **Location**: System Property \[sys\_properties\] table
--   **Learn more**: [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/operational-metrics.md)
+-   **Learn more**: [Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/operational-metrics.md)
 
 </td></tr><tr><td>
 
@@ -711,7 +711,7 @@ Enables resource binding.
  -   **Type**: true \| false
 -   **Default value**: true
 -   **Location**: System Property \[sys\_properties\] table
--   **Learn more**: [Metric binding to resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/resource-binding.md)
+-   **Learn more**: [Metric binding to resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/resource-binding.md)
 
 </td></tr><tr><td>
 
@@ -724,7 +724,7 @@ Displays the **Setup Metric Intelligence** related link on the MID Server form, 
  -   **Type**: true \| false
 -   **Default value**: true
 -   **Location**: System Property \[sys\_properties\] table
--   **Learn more**: [MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md)
+-   **Learn more**: [MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md)
 
 </td></tr><tr><td>
 
@@ -737,7 +737,7 @@ Stores historical information about CIs start and end maintenance mode, in the S
  -   **Type**: true \| false
 -   **Default value**: true
 -   **Location**: System Property \[sys\_properties\] table
--   **Learn more**: [Understanding Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/operational-intelligence-overview.md)
+-   **Learn more**: [Understanding Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/operational-intelligence-overview.md)
 
 </td></tr><tr><td>
 
@@ -750,7 +750,7 @@ Excludes metrics for CIs that are in maintenance mode, from model learning.
  -   **Type**: true \| false
 -   **Default value**: true
 -   **Location**: System Property \[sys\_properties\] table
--   **Learn more**: [Understanding Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/operational-intelligence-overview.md)
+-   **Learn more**: [Understanding Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/operational-intelligence-overview.md)
 
 </td></tr><tr><td>
 
@@ -765,7 +765,7 @@ Determines the number of data series per batch when storing information about CI
  -   **Type**: integer
 -   **Default value**: 1000
 -   **Location**: System Property \[sys\_properties\] table
--   **Learn more**: [Understanding Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/operational-intelligence-overview.md)
+-   **Learn more**: [Understanding Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/operational-intelligence-overview.md)
 
 </td></tr><tr><td>
 
@@ -778,5 +778,5 @@ Contains the sys\_ids of the 3 scheduled jobs that self-health monitoring for Me
 -   Metric Intelligence — Validate MID Distributed cluster
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 

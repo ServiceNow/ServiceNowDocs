@@ -3,9 +3,9 @@ title: Deal registration tasks
 description: Create and manage tasks associated with a deal registration to organize work, track progress, and delegate deal-related activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/deal-registration-tasks.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -84,8 +84,8 @@ Tasks can be assigned to any internal ServiceNow user, beyond deal agents or peo
 
 Automatic role assignment: When you assign a task to a user, the system automatically grants them the Fulfiller role. This means users don't need pre-existing deal permissions to contribute to deal work.
 
--   **[Create a deal registration task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-deal-registration-task.md)**  
+-   **[Create a deal registration task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-deal-registration-task.md)**  
 Create a task linked to a deal registration to organize work and assign actions to team members.
 
-**Parent Topic:**[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-management.md)
+**Parent Topic:**[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/deal-registration-management.md)
 

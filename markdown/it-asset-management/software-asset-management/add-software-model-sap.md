@@ -3,11 +3,11 @@ title: Create software models for SAP
 description: Create software models to record SAP product information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/add-software-model-sap.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -20,21 +20,52 @@ Create software models to record SAP product information.
 
 Role required: sam\_user
 
-**Important:** You can create software models in both the Software Asset Management classic application and the Software Asset Workspace. The following steps provide details on creating software models in the Software Asset Management classic application. For details on creating software models in the Software Asset Workspace, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-swmodels-workspace.md).
+**Important:** You can create software models in both the Software Asset Management Core UI and Software Asset Workspace. These steps provide details on creating software models in the Software Asset Management Core UI application. For details on creating software models in Software Asset Workspace, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-swmodels-workspace.md).
 
 ## About this task
 
 Software models are automatically created for engines and license metrics that are pulled from your SAP systems. You can manually create additional software models for SAP products as needed.
 
-The following steps describe information that is specific to SAP. For general instructions on creating software models, see [Create software models in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/record-terms-software-licenses.md).
+The following steps describe information that is specific to SAP. For general instructions on creating software models, see [Create software models in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/record-terms-software-licenses.md).
+
+**Note:** For SAP S/4HANA Cloud, Private Edition, create a software model with the **Product** field set to **SAP S/4 HANA** and the **Edition** field set to **Cloud Private**. SAP system users from a Private Cloud deployment are associated with this software model for Full Usage Equivalent \(FUE\) license calculation.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Software Models** and select **New**.
+1.  Navigate to the software model.
 
-2.  On the form, fill in the fields.
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d345917e137">
 
-    **Note:** Only the fields that are specific to SAP software models are shown below. For detailed descriptions of all software model fields, see [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-model-fields.md).
+Interface
+
+</th><th align="left" id="d345917e140">
+
+Action
+
+</th></tr></thead><tbody><tr><td id="d345917e146">
+
+**Core UI**
+
+</td><td>
+
+1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Software Models**.
+2.  Select **New**.
+
+
+</td></tr><tr><td id="d345917e182">
+
+**Software Asset Workspace**
+
+</td><td>
+
+1.  Navigate to **Workspaces** &gt; **Software Asset Workspace** &gt; **License operations** &gt; **Software models**.
+2.  Select **New**.
+
+
+</td></tr></tbody>
+</table>2.  On the form, fill in the fields.
+
+    **Note:** Only the fields that are specific to SAP software models are shown. For detailed descriptions of all software model fields, see [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-model-fields.md).
 
 <table id="table_nr2_nd1_y4"><thead><tr><th>
 
@@ -90,12 +121,14 @@ Some SAP engines allow a certain amount of unlicensed usage before your licence 
 
 ## What to do next
 
-[Create a software entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlement-sap.md) to record your licenses for the software model.
+[Create a software entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-entitlement-sap.md) to record your licenses for the software model.
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
+
+[SAP publisher pack integration architecture]()
 
 [Tables installed with the SAP publisher pack]()
 

@@ -3,11 +3,11 @@ title: Show subflow stages in a parent flow
 description: Show subflow stages as part of the execution details of a parent flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/show-subflow-stages-in-a-parent-flow.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flow and subflow stages, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ Show subflow stages as part of the execution details of a parent flow.
 
 ## Before you begin
 
-This task assumes that you are familiar with flow and subflow stages, stage fields, and stage sets. For more information about stages, see [Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-stages.md).
+This task assumes that you are familiar with flow and subflow stages, stage fields, and stage sets. For more information about stages, see [Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-designer-stages.md).
 
 Role required: flow\_designer or admin
 
@@ -26,7 +26,7 @@ Role required: flow\_designer or admin
 
 1.  Create a subflow that contains one or more stages.
 
-    For more information about creating a subflow, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md). For more information about adding stages to a subflow, see [Configure stages and add them to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-stages.md).
+    For more information about creating a subflow, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-subflow.md). For more information about adding stages to a subflow, see [Configure stages and add them to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/add-stages.md).
 
 2.  Create or open the parent flow that will call the subflow.
 
@@ -49,5 +49,5 @@ Role required: flow\_designer or admin
     For example, add the Manager Approval and Completed stages to the parent flow.
 
 
-**Parent Topic:**[Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-stages.md)
+**Parent Topic:**[Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-designer-stages.md)
 

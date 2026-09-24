@@ -3,11 +3,11 @@ title: Pick up an unassigned task
 description: Agents can assign themselves nearby unassigned tasks directly from the agent task map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_PickUpAnUnassignedTask.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: wm\_agent.
 
 ## About this task
 
-Agents can assign themselves nearby unassigned tasks directly from the agent task map. This might be necessary to complete a schedule when a another task is cancelled or a fixed [task window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md) cannot be met. Make sure the task's scheduled start time and duration fit into your route and that the travel time is realistic. If the task does not fit into the available time slot in your schedule, the ServiceNow system blocks the assignment and displays a warning.
+Agents can assign themselves nearby unassigned tasks directly from the agent task map. This might be necessary to complete a schedule when a another task is cancelled or a fixed [task window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md) cannot be met. Make sure the task's scheduled start time and duration fit into your route and that the travel time is realistic. If the task does not fit into the available time slot in your schedule, the ServiceNow system blocks the assignment and displays a warning.
 
 ## Procedure
 

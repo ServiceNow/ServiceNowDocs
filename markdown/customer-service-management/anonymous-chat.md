@@ -3,9 +3,9 @@ title: Anonymous chat
 description: Anonymous chat allows guest users to initiate chat sessions with consumer service agents through the Consumer Service Portal without requiring authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/anonymous-chat.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Setting up the anonymous chat feature involves the following steps.
 2.  Modify the default anonymous chat record producer or create a new record producer.
 3.  Create one matching rule for each agent queue.
 4.  Configure anonymous chat properties.
-5.  If necessary, modify the Connect actions to provide the desired functionality for consumer service agents in chat conversations. The anonymous chat feature includes these actions: **Create Case for Guest** and **Create Consumer and Case for Guest**. For more information, see [Administer Connect actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_AdministerConnectActions.md).
+5.  If necessary, modify the Connect actions to provide the desired functionality for consumer service agents in chat conversations. The anonymous chat feature includes these actions: **Create Case for Guest** and **Create Consumer and Case for Guest**. For more information, see [Administer Connect actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_AdministerConnectActions.md).
 
 ## Anonymous chat plugins
 
@@ -39,11 +39,11 @@ The form used to request information from a guest user is a configurable record 
 
 The default anonymous chat record producer, **What can we help you with?**, is located at **Service Catalog** &gt; **Catalog Definition** &gt; **Record Producers**. This is a public record producer. You can modify this record producer or create your own. If you choose to create your own, see Section 3 in the [Making a record producer and catalog item public on a CMS page \[KB0551300\]](https://support.servicenow.com/nav_to.do?uri=%2Fkb_view.do%3Fsys_kb_id%3D8b93cb946fd20e0013568e4c2c3ee4c0%26sysparm_stack%3D%26sysparm_view%3D) article. You must also set the **glide.sc.use\_user\_criteria** property to **false**.
 
-For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
+For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_RecordProducer.md).
 
 ## Anonymous chat routing
 
-Information provided by the guest user assists with routing and also provides the context of the request to the consumer service agent. The chat request is routed to the appropriate agent queue based on the type of issue selected. The routing for anonymous chat requests uses [matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CaseRouting.md). Create one matching rule for each queue and tie a chat request to a chat queue based on the selected issue type. Matching rules for anonymous chat are based on the Customer Interaction table.
+Information provided by the guest user assists with routing and also provides the context of the request to the consumer service agent. The chat request is routed to the appropriate agent queue based on the type of issue selected. The routing for anonymous chat requests uses [matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CaseRouting.md). Create one matching rule for each queue and tie a chat request to a chat queue based on the selected issue type. Matching rules for anonymous chat are based on the Customer Interaction table.
 
 The following matching rules are provided:
 
@@ -89,9 +89,9 @@ Message shown to user when rate limit for guest conversations is breached. -   T
 </table>**Related topics**  
 
 
-[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md)
+[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_RecordProducer.md)
 
-[Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ConnectSupport.md)
+[Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ConnectSupport.md)
 
-[Routing and assigning customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CaseRouting.md)
+[Routing and assigning customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CaseRouting.md)
 

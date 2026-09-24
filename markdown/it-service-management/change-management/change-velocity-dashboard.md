@@ -3,11 +3,11 @@ title: Legacy: Change Velocity dashboard
 description: Use this dashboard to track the average duration of change requests in the last 30 days.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-velocity-dashboard.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Legacy: Change Management Platform Analytics Solutions, Use, Change Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Use this dashboard to track the average duration of change requests in the last 
 
 **Important:**
 
-Starting in Xanadu release, the Core UI Change Velocity dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change.md) to view, and track the open changes.
+Starting in Xanadu release, the Core UI Change Velocity dashboard is deprecated. You can use Platform Analytics [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change.md) to view, and track the open changes.
 
 The Change Velocity dashboard is divided into the following tabs for effective usage. The ServiceNow® Performance Analytics capability in the Change Velocity dashboard provides the following benefits:
 
@@ -26,7 +26,7 @@ The Change Velocity dashboard is divided into the following tabs for effective u
 
     \[Omitted image "change-velocity-dashboard.gif"\] Alt text: Change Velocity dashboard view.
 
--   The **Process Optimization** tab provides change activity assessments that are based on the state model. This capability is available only with an ITSM Enterprise subscription. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md).
+-   The **Process Optimization** tab provides change activity assessments that are based on the state model. This capability is available only with an ITSM Enterprise subscription. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining.md).
 
     \[Omitted image "PO.gif"\] Alt text: Process Optimization view.
 
@@ -43,11 +43,11 @@ The Change Velocity dashboard is divided into the following tabs for effective u
 
 -   **Change Velocity**
 
-    Average amount of time that changes have been waiting for approval in the last 30 days. To generate this data on the dashboard, you must run the Change velocity historical data collection job. For information on how to run this job see, [Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_RunHistoricalDataCollection.md).
+    Average amount of time that changes have been waiting for approval in the last 30 days. To generate this data on the dashboard, you must run the Change velocity historical data collection job. For information on how to run this job see, [Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_RunHistoricalDataCollection.md).
 
 -   **Top Change Success Performers**
 
-    Performance of assignment groups in processing the change request with the highest performer on the top. For information on how the performance score is calculated, see [Success Score Calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-score-calculation.md).
+    Performance of assignment groups in processing the change request with the highest performer on the top. For information on how the performance score is calculated, see [Success Score Calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-score-calculation.md).
 
 -   **Average age of open changes**
 
@@ -86,5 +86,5 @@ The Change Velocity dashboard is divided into the following tabs for effective u
 |Unauthorized Changes|Line \(\[Omitted image "line-icon.png"\] Alt text: Line icon.\)|Number of unauthorized changes over the last 90 days.|
 |Active Changes &gt; 7 days|Single score \(\[Omitted image "single-score.png"\] Alt text: Single score icon.\)|Number of active changes that were created more than seven days ago.|
 
-**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-content-pack.md)
+**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-content-pack.md)
 

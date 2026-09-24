@@ -1,25 +1,23 @@
 ---
-title: Create chat surveys
+title: \(Legacy\) Create chat surveys
 description: Use Survey Designer to build conversational questionnaires for gathering pre-chat information and post-chat feedback from end users. These questionnaires run in the chat client for Virtual Agent and Agent Chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/create-chat-surveys.html
-release: australia
-product: Conversational Interfaces
-classification: conversational-interfaces
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Survey Designer, Virtual Agent, Agent Chat, surveys, questionnaires, pre-chat, post-chat]
-breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
+breadcrumb: [General chat settings, Conversational Interfaces Home for NLU, Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
 ---
 
-# Create chat surveys
+# \(Legacy\) Create chat surveys
 
 Use Survey Designer to build conversational questionnaires for gathering pre-chat information and post-chat feedback from end users. These questionnaires run in the chat client for Virtual Agent and Agent Chat.
 
 ## Before you begin
 
-Identify the information that you want from your requesters, such as their name or email address. If you're collecting pre-chat information, determine whether certain survey responses should be stored as chat context variables so that you can use that information for topic discovery or routing chats to certain work item queues. Before you build your survey, [configure the context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-variables.md) for storing responses to certain survey questions. You will map these chat context variables to the appropriate questions in your survey.
+Identify the information that you want from your requesters, such as their name or email address. If you're collecting pre-chat information, determine whether certain survey responses should be stored as chat context variables so that you can use that information for topic discovery or routing chats to certain work item queues. Before you build your survey, [configure the context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-configure-context-variables.md) for storing responses to certain survey questions. You will map these chat context variables to the appropriate questions in your survey.
 
 **Note:** When enhanced chat is turned on, post-chat surveys only appear after a live agent conversation has ended.
 
@@ -27,9 +25,9 @@ Role required: survey\_admin or admin
 
 ## About this task
 
-You define, configure, and publish conversational questionnaires \(surveys\) using [Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md). You can use various survey controls to define the content of your questionnaires. For details on the survey controls available, see [Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesignerElements.md) to see how the controls are rendered in the survey. For example, the Choice control provides a multiple choice selection to your users.
+You define, configure, and publish conversational questionnaires \(surveys\) using [Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDesigner.md). You can use various survey controls to define the content of your questionnaires. For details on the survey controls available, see [Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDesignerElements.md) to see how the controls are rendered in the survey. For example, the Choice control provides a multiple choice selection to your users.
 
-The survey controls map to corresponding Virtual Agent Designer input controls that render the survey as a conversation in the chat client. For examples on how Virtual Agent Designer input controls are rendered in run-time conversations, see [Virtual Agent Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md). The following table identifies the survey controls supported in Virtual Agent Designer.
+The survey controls map to corresponding Virtual Agent Designer input controls that render the survey as a conversation in the chat client. For examples on how Virtual Agent Designer input controls are rendered in run-time conversations, see [Virtual Agent Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md). The following table identifies the survey controls supported in Virtual Agent Designer.
 
 |Survey Designer controls|Comparable Virtual Agent Designer user input controls|
 |------------------------|-----------------------------------------------------|
@@ -60,7 +58,7 @@ The survey controls map to corresponding Virtual Agent Designer input controls t
     -   If you want an introduction note and end note to begin and end your survey, enter your content in the **Introduction** and **End note** fields.
     -   Select the **Chat Survey** option to enable conversational questionnaires. This option also enables the display of the **Context** option in the Properties form for each survey control.
     -   Select **Save**.
-    For details, see [Configure a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigSurveyInSurveyDesgnr.md).
+    For details, see [Configure a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigSurveyInSurveyDesgnr.md).
 
 3.  Select the **Design** tab and give your survey a **Name**.
 
@@ -71,7 +69,7 @@ The survey controls map to corresponding Virtual Agent Designer input controls t
         -   If you enable the **Mandatory** option, users are required to answer the survey question. If you leave this field blank, users can skip the question in the survey.
         -   If you want to store the user response to this question, enter the chat context variable in the **Context** field.
     -   Select **Save**.
-    For details, see [Create a question in the survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateQuestSurveyDesigr.md).
+    For details, see [Create a question in the survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateQuestSurveyDesigr.md).
 
 4.  When you are finished defining the questions in your survey, select **Preview** to review your survey.
 
@@ -83,6 +81,4 @@ The survey controls map to corresponding Virtual Agent Designer input controls t
 ## What to do next
 
 Define the pre-chat and post-chat survey configurations that control the surveys to be presented to your requesters.
-
-**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-configuring-chat-features.md)
 

@@ -3,9 +3,9 @@ title: Input Schedule details into the Operational Rounding playbook
 description: Complete the Schedule playbook stage in the Operational rounding playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-op-schedule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational rounding playbook, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -38,7 +38,7 @@ Your task plan has been published and any cases or tasks created as part of this
 
 ## What to do next
 
-For information on monitoring the progress of your task plan, see [Track care team task plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-track-care-team-task-plans.md).
+For information on monitoring the progress of your task plan, see [Track care team task plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/ctwm-track-care-team-task-plans.md).
 
-For information on fulfilling the healthcare orchestration cases and tasks generated as a result of this task plan, see [Fulfill healthcare orchestration cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-fulfill-healthcare-orchestration-cases-tasks.md).
+For information on fulfilling the healthcare orchestration cases and tasks generated as a result of this task plan, see [Fulfill healthcare orchestration cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/ctwm-fulfill-healthcare-orchestration-cases-tasks.md).
 

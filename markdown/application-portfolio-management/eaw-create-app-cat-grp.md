@@ -3,9 +3,9 @@ title: Add or edit an application category group
 description: Add or edit an application category group and align it with your business requirements. Category groups help with the filtering and reporting of the application categories
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-app-cat-grp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure application category groups, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_apm.apm\_admin
     -   To update details of an existing application category group, select the application category group.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create application category group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-crate-new-application-category-group-form.md).
+    For field information, see [Create application category group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-crate-new-application-category-group-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-app-cat-groups.md)
+**Parent Topic:**[Configure application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-app-cat-groups.md)
 
 **Related topics**  
 
 
-[View all application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-application-category-groups.md)
+[View all application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-application-category-groups.md)
 

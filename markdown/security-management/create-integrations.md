@@ -3,9 +3,9 @@ title: Create an integration
 description: You can create an integration and add the associated integration card to the Security Integrations screen. This procedure is intended for partners who create third-party integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-integrations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Operations Integration Configurations, ServiceNow Security Operations integration development guidelines, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -117,7 +117,7 @@ Enter the value associated with the **Type** selected. If a value that is invali
 </table>7.  Click **Submit**.
 
 
-**Parent Topic:**[Security Operations Integration Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/third-party-integrations.md)
+**Parent Topic:**[Security Operations Integration Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/third-party-integrations.md)
 
 **Related topics**  
 

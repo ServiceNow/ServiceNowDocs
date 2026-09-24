@@ -3,9 +3,9 @@ title: Approve the operational vulnerability
 description: Approve the Operational vulnerability record after verifying its details such as the root cause analysis, treatment plan, timelines, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/approve-vul.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---

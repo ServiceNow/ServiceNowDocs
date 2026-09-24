@@ -3,11 +3,11 @@ title: Delete integration
 description: Delete integration allows you to permanently remove a connector integration from your system. This feature helps you maintain a clean and organized system by eliminating unused or obsolete integrations, freeing up resources and reducing potential clutter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/delete-integration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Delete integration

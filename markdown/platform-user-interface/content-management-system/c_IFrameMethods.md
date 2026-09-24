@@ -3,11 +3,11 @@ title: iFrame methods
 description: The following examples show how system records are pulled into an iFrame that is placed on a content page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_IFrameMethods.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure iFrames, Types of content blocks, Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -31,5 +31,5 @@ For system lists or forms, use the frame name **gsft\_main** so that links work 
     -   URL: `../home.do?sysparm_view=problem_overview`
     -   Frame name: **gsft\_main**
 
-**Parent Topic:**[Configure iFrames](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_IFrame.md)
+**Parent Topic:**[Configure iFrames](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_IFrame.md)
 

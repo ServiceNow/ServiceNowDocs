@@ -3,11 +3,11 @@ title: Exploring ReleaseOps
 description: ServiceNow ReleaseOps is a solution to problem of deploying changes, customizations, and custom apps on the ServiceNow AI Platform. By automating the deployment process, ReleaseOps helps to increase the predictability and reliability of deployments, while also reducing the risk of releasing unwanted changes to production.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/exploring-release-ops.html
-release: australia
+release: brazil
 product: ReleaseOps
 classification: releaseops
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer, ServiceNow large scale deployments]
 breadcrumb: [ReleaseOps, Deploying applications, Building applications]
@@ -21,7 +21,7 @@ ServiceNow® ReleaseOps is a solution to problem of deploying changes, customiza
 
 ReleaseOps automates and enhances the process of deploying changes, customizations, and custom applications on the ServiceNow AI Platform. ReleaseOps improves the existing pipelines deployment process by internally managing cross-instance trust and credential sharing, simplifying the setup and configuration of custom pipelines. ReleaseOps enables you to deploy changes using update sets and trigger deployment from directly within the ServiceNow Studio development environment. In addition, ReleaseOps leverages the automation capabilities of the ServiceNow Playbooks, resulting in deployments that are less error-prone and manual.
 
-ReleaseOps handles deployments through releases. Releases define which changes, customizations, or custom apps will be moved to the production \(or target\) instance and when the changes will be deployed. The changes within a release are contained in deployment requests. Each deployment request contains one or more update sets or application installs. For more information about releases and deployment requests, see [Releases in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releases-in-release-ops.md) and [Deployment requests in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/deployment-requests.md).
+ReleaseOps handles deployments through releases. Releases define which changes, customizations, or custom apps will be moved to the production \(or target\) instance and when the changes will be deployed. The changes within a release are contained in deployment requests. Each deployment request contains one or more update sets or application installs. For more information about releases and deployment requests, see [Releases in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releases-in-release-ops.md) and [Deployment requests in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/deployment-requests.md).
 
 Releases are managed from your production instance, where the playbook is executed. Actions are orchestrated across instance with a cross-instance communication layer, alleviating credential setup across instances.
 
@@ -31,9 +31,9 @@ ReleaseOps is not supported in regulated environments or on-premise. Check your 
 
 ## AI features in ReleaseOps
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-ReleaseOps contains AI features that enable you to generate release notes and update set descriptions. For more information, see [Exploring release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md).
+ReleaseOps contains AI features that enable you to generate release notes and update set descriptions. For more information, see [Exploring release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md).
 
 ## ReleaseOps users
 
@@ -113,22 +113,22 @@ In the traditional release workflow:
 
 |Benefit|Feature|Role|
 |-------|-------|----|
-|Define requirements for an application or update to get installed on a target instance.|[Pipelines in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-pipeline-environments.md)|Pipeline Manager|
-|Deploy changes to a production or another target environment.|[Releases in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releases-in-release-ops.md)|Release Manager|
-|Push application installations or update sets of work completed through the pipeline with deployment requests.|[Deployment requests in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/deployment-requests.md)|Developer|
-|Scan deployment requests for changes to the current state of the production instance or target instance with the deployment analyzer. Use those findings to determine your actions in the pipeline.|[Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/deployment-analyzer.md)|Developer|
-|Leverage Automated Test Framework \(ATF\) code coverage to improve the efficacy of ATF test suites.|[Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/deployment-analyzer.md)|Developer|
-|Add custom, flexible, and manual activities to your assessment and release playbooks, without having to adjust the structure of your playbooks each time.|[Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/runbook-tasks.md)|Developer|
+|Define requirements for an application or update to get installed on a target instance.|[Pipelines in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releaseops-pipeline-environments.md)|Pipeline Manager|
+|Deploy changes to a production or another target environment.|[Releases in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releases-in-release-ops.md)|Release Manager|
+|Push application installations or update sets of work completed through the pipeline with deployment requests.|[Deployment requests in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/deployment-requests.md)|Developer|
+|Scan deployment requests for changes to the current state of the production instance or target instance with the deployment analyzer. Use those findings to determine your actions in the pipeline.|[Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/deployment-analyzer.md)|Developer|
+|Leverage Automated Test Framework \(ATF\) code coverage to improve the efficacy of ATF test suites.|[Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/deployment-analyzer.md)|Developer|
+|Add custom, flexible, and manual activities to your assessment and release playbooks, without having to adjust the structure of your playbooks each time.|[Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/runbook-tasks.md)|Developer|
 
 ## What to explore next
 
 To learn more about configuring and using ReleaseOps, see:
 
--   [Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/configuring-releaseops.md)
--   [Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
--   [Promote an update set for deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/promote-update-set-for-deployment.md)
--   [Create a deployment request for a scheduled release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-a-new-deployment-request.md)
--   [Create a deployment request for an on-demand release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-a-deployment-request-for-on-demand-release.md)
--   [Attach an update set to an existing deployment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/attach-an-update-set-to-existing-deployment-request.md)
--   [Create a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-a-release.md)
+-   [Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/configuring-releaseops.md)
+-   [Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
+-   [Promote an update set for deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/promote-update-set-for-deployment.md)
+-   [Create a deployment request for a scheduled release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/create-a-new-deployment-request.md)
+-   [Create a deployment request for an on-demand release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/create-a-deployment-request-for-on-demand-release.md)
+-   [Attach an update set to an existing deployment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/attach-an-update-set-to-existing-deployment-request.md)
+-   [Create a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/create-a-release.md)
 

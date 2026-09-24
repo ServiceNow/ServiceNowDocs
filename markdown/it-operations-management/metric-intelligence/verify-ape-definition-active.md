@@ -3,11 +3,11 @@ title: Verify that the definitions for the Advanced Promotion Engine are active
 description: Verify that the Advanced Promotion Engine definitions that come with the base system are active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/verify-ape-definition-active.html
-release: australia
+release: brazil
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 The active definitions promote a group of anomaly alerts to the All Alerts table when all of the definition's conditions are met.
 
-You can't modify the conditions of the definitions that come with the base system. For information on creating customized definitions, see [Create a definition for the Advanced Promotion Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/create-advanced-promotion-engine.md).
+You can't modify the conditions of the definitions that come with the base system. For information on creating customized definitions, see [Create a definition for the Advanced Promotion Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/create-advanced-promotion-engine.md).
 
 ## Procedure
 
@@ -39,5 +39,5 @@ You can't modify the conditions of the definitions that come with the base syste
 4.  Select **Save**.
 
 
-**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

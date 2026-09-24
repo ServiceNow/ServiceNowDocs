@@ -3,9 +3,9 @@ title: Install the Discovery Console for Operational Technology \(OT\)
 description: Install the Service Graph Connector for OT Discovery before accessing the Discovery for OT packages. You must also install a Linux distribution on the same machine the Discovery Console for OT is installed on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/install-discovery-console-ot.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -31,12 +31,12 @@ Important when setting up your VM environment:
     **Note:** Be sure you have set this correctly; otherwise, MongoDB may crash when you attempt to restart the VM.
 
 -   Allocate 16 GB RAM for the Linux installation.
--   The OT Discovery Console requires a minimum of 100 GB of storage. Increase the storage based on Deep packet capture inspection requirements. For more information, see [OT Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md)
+-   The OT Discovery Console requires a minimum of 100 GB of storage. Increase the storage based on Deep packet capture inspection requirements. For more information, see [OT Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/deployment-scenarios.md)
 -   You must be on a VM to access images in the Discovery Console for OT.
 
 ## Procedure
 
-1.  On your ServiceNow instance, navigate to the [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery.md) Guided Setup page.
+1.  On your ServiceNow instance, navigate to the [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/sgc-ot-discovery.md) Guided Setup page.
 
 2.  Select **Get Started**.
 
@@ -48,7 +48,7 @@ Important when setting up your VM environment:
 
     \[Omitted image "downloads-page-containerized2.png"\] Alt text: Discovery Downloads page
 
-    **Note:** For downloading and installing the containerized Console and Collector packages, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
+    **Note:** For downloading and installing the containerized Console and Collector packages, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/air-gapped-networks-installation.md).
 
 5.  On the OT Discovery page, download the Discovery packages:
 
@@ -120,9 +120,9 @@ Important when setting up your VM environment:
 
 ## Result
 
-The installation for the Discovery Console for OT is complete. Before you install the Discovery Sensor for OT package, install the Discovery Console for OT certificate. For more information, see [Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-new-certificate-discovery-for-ot.md).
+The installation for the Discovery Console for OT is complete. Before you install the Discovery Sensor for OT package, install the Discovery Console for OT certificate. For more information, see [Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/generate-new-certificate-discovery-for-ot.md).
 
 **Note:** If you encounter any errors, [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
 
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-discovery-console.md)
+**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/configure-ot-discovery-console.md)
 

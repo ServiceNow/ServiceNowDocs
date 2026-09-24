@@ -3,9 +3,9 @@ title: Integer values for default choice lists
 description: Choice provide four default values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_IntValsForDfltChoiceList.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Choice list field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

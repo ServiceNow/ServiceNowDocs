@@ -3,9 +3,9 @@ title: Field Service Territory Planning components
 description: Several types of components are installed with the Field Service Territory Planning feature, including tables, roles, script includes, and business rules.Territory Planning console uses the following properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/territory-planning-components-fsm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
@@ -451,7 +451,14 @@ Field Service Territory Planning adds the following Schedule Optimization adds t
 |Territory Planning- Calculate Overlapping Territories - Agent|Calculates the overlaps for agents. When executed, the scheduled job triggers events to calculate the overlap between two agents.|
 |Territory Planning- Calculate Overlapping Territories - Geography|Calculates the overlaps for geographies. When executed, the scheduled job triggers events to calculate the overlap between two geographies.|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/components-inst-additional-plugin.md)
+
+**Related topics**  
+
+
+[Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/territory-planning-fsm.md)
+
+[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
 
 ## Field Service Territory Planning console properties
 

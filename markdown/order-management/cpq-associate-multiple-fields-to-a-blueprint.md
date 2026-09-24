@@ -3,9 +3,9 @@ title: Associate multiple fields to a blueprint
 description: You can associate any number of fields to a blueprint by using the Blueprint Import function in the Matrix Loader.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-associate-multiple-fields-to-a-blueprint.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up blueprints, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -45,5 +45,5 @@ Role required: Admin
 **Related topics**  
 
 
-[Enable Markdown in text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-markdown-in-text-fields.md)
+[Enable Markdown in text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-markdown-in-text-fields.md)
 

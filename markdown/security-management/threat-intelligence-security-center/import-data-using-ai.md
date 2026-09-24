@@ -3,11 +3,11 @@ title: Import data using AI
 description: Upload an unstructured document and let AI extract the threat observables and objects from its content. Review and correct the extracted entities before you submit the import.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/import-data-using-ai.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [AI extraction, Import Intelligence, Threat Intelligence Security Center]
 breadcrumb: [Import Intelligence in TISC, Use, Threat Intelligence Security Center, Security Operations]
@@ -19,13 +19,13 @@ Upload an unstructured document and let AI extract the threat observables and ob
 
 ## Before you begin
 
-**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 AI extraction is available only when the following prerequisites are met:
 
 -   Threat Intelligence Security Center-Advanced must be installed.
 -   ServiceNow Otto for Threat Intelligence Security Center \(TISC\) must be installed.
--   The Extract information from documents skill must be enabled. For more information, see [Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-extract-information-from-documents.md).
+-   The Extract information from documents skill must be enabled. For more information, see [Now Assist extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-extract-information-from-documents.md).
 
 Role required: sn\_sec\_tisc.analyst
 
@@ -52,7 +52,7 @@ Threat advisories, vendor reports, and screenshots may carry indicators of compr
     |Extraction type|Description|
     |---------------|-----------|
     |Extract entities only|Returns the type and the value of each threat entity found in the document.|
-    |Extract entities with rationale|Returns the type and the value of each threat entity, and adds the AI-generated **Analysis Score** and **Analysis Reasoning** values. For the attributes captured in the reasoning, see [AI extraction supported entities and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.md).|
+    |Extract entities with rationale|Returns the type and the value of each threat entity, and adds the AI-generated **Analysis Score** and **Analysis Reasoning** values. For the attributes captured in the reasoning, see [AI extraction supported entities and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.md).|
 
 5.  Select **Upload file** and select the file to import.
 
@@ -118,7 +118,7 @@ Select a Taxonomy
 
 </td><td>
 
-Select the taxonomy for the imported data. For more information, see [Creating Taxonomies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-taxonomies.md).
+Select the taxonomy for the imported data. For more information, see [Creating Taxonomies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/create-taxonomies.md).
 
 </td></tr></tbody>
 </table>7.  Select **Next**.
@@ -137,7 +137,7 @@ Select the taxonomy for the imported data. For more information, see [Creating T
 
     -   The content tree groups the extracted entities as Observables and Objects, with a count for each group.
     -   Select a group in the content tree to display its records in the list.
-    -   The columns marked with the AI icon hold AI-extracted values. For the field descriptions, see [AI extraction supported entities and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.md).
+    -   The columns marked with the AI icon hold AI-extracted values. For the field descriptions, see [AI extraction supported entities and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.md).
 9.  To correct the classification of an entity, select the records, select **Update Type**, and then select the type to apply.
 
     The records move to the group for the type you selected, and the counts in the content tree are updated.
@@ -157,10 +157,10 @@ Select the taxonomy for the imported data. For more information, see [Creating T
 13. Select **Go Back** to return to the previous page, or select **Cancel** to abort the import.
 
 
--   **[AI extraction supported entities and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.md)**  
+-   **[AI extraction supported entities and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.md)**  
 Threat entity types that AI extraction identifies in an uploaded document, and the AI-generated fields that it adds to the extracted records.
 
-**Parent Topic:**[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
+**Parent Topic:**[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
 
 **Related topics**  
 
@@ -173,7 +173,7 @@ Threat entity types that AI extraction identifies in an uploaded document, and t
 
 [Import data using unstructured file format]()
 
-[AI extraction supported entities and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.md)
+[AI extraction supported entities and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-ai-extraction-fields.md)
 
-[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
+[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
 

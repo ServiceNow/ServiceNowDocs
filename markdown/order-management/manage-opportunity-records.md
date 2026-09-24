@@ -1,18 +1,18 @@
 ---
-title: Manage opportunity records using an MCP client
-description: Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using plain language.
+title: Manage opportunity records using an AI interface
+description: Retrieve, update, create, and delete opportunity records and related CRM data from ServiceNow Otto and an MCP client using plain language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/manage-opportunity-records.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
-# Manage opportunity records using an MCP client
+# Manage opportunity records using an AI interface
 
-Retrieve, update, create, and delete opportunity records and related CRM data from an MCP client using plain language.
+Retrieve, update, create, and delete opportunity records and related CRM data from ServiceNow Otto and an MCP client using plain language.
 
 ## Before you begin
 
@@ -24,9 +24,9 @@ All changes go through the same server-side business rules, validation scripts, 
 
 ## Procedure
 
-1.  Connect through your MCP client.
+1.  Use ServiceNow Otto or connect through your MCP client.
 
-    For information on how to connect to an MCP server from an MCP client, refer [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
+    For information on how to connect to an MCP server from an MCP client, refer [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md)
 
 2.  Type a natural language prompt for the operation you want to perform.
 
@@ -220,26 +220,6 @@ Examples by record type:
 
 "Create a contact: John Doe, VP Sales at &lt;company name&gt;, john@abcd.com."
 
-</td></tr><tr><td>
-
-Delete
-
-</td><td>
-
-Supported operations:
-
- -   **Opportunity lines**
-
-"Remove the Basic Support package from the &lt;company name&gt; opportunity."
-
--   **Opportunity competitor**
-
-"Remove Salesforce from the &lt;company name&gt; competitor list" or "Delete Oracle as a competitor on OPTY100001."
-
--   **Opportunity associated contact**
-
-"Deactivate Jane Smith from the &lt;company name&gt; opportunity" or "Disassociate John Doe from OPTY100001."
-
 </td></tr></tbody>
 </table>3.  Provide any additional information the agent asks for.
 
@@ -258,7 +238,7 @@ Supported operations:
 **Related topics**  
 
 
-[CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/crm-conversational-query.md)
+[CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/crm-conversational-query.md)
 
-[AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/ai-capabilities-sales-crm.md)
+[AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/ai-capabilities-sales-crm.md)
 

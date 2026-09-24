@@ -3,11 +3,11 @@ title: View upcoming tasks
 description: The Security Analyst can view the upcoming tasks related to the Security Incidents and Response Tasks that are due, overdue or breached the defined SLA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/analyst-workspace-upcoming-events.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upcoming section, Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -39,5 +39,5 @@ Role required: sn\_si.analyst
     **Note:** You can perform New, Assign, Export, and Delete operations from any list view.
 
 
-**Parent Topic:**[Upcoming section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/upcoming-section.md)
+**Parent Topic:**[Upcoming section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/upcoming-section.md)
 

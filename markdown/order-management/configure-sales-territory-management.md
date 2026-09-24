@@ -3,9 +3,9 @@ title: Configuring Sales Territory Management​
 description: Learn how to configure the features and components that help distribute accounts, consumers, leads, and opportunities to manage sales territories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-sales-territory-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Learn how to configure the features and components that help distribute accounts
 
 ## Activate Sales Territory Management​
 
-As an admin, activate the plugin \(com.sn\_sales\_territory\) to enable users to access Sales Territory Management​. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+As an admin, activate the plugin \(com.sn\_sales\_territory\) to enable users to access Sales Territory Management​. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_tjw_xbp_chc"><thead><tr><th>
 
@@ -50,7 +50,7 @@ com.sn\_sales\_territory
 </table>**Related information**  
 
 
-[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-sales-territory-management.md)
 
-[Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-territory-management.md)
+[Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-sales-territory-management.md)
 

@@ -3,11 +3,11 @@ title: Messaging channels for Agent-Initiated Messaging Interface
 description: Install and configure applications to enable a messaging channel for use with the Agent-Initiated Messaging Interface application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/agent-init-messg-sc-setting.html
-release: australia
+release: brazil
 product: Agent Chat
 classification: agent-chat
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Agent-Initiated Messaging Interface, Configure, Agent Chat, Conversational Interfaces]
 ---
@@ -32,12 +32,12 @@ SMS
 
 </td><td>
 
--   [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/install-conversational-sms.md)
--   [Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/twilio-spoke.md)
--   [Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/sms-twilio-store-app.md)
+-   [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/install-conversational-sms.md)
+-   Twilio spoke
+-   [Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/sms-twilio-store-app.md)
 
  **Note:** The Conversational SMS Integration with Twilio application installs the Conversational SMS service channel and Twilio spoke applications, if not already installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
+</table>**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
 

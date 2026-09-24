@@ -3,11 +3,11 @@ title: Robust import set transformer properties
 description: Properties that define the types of updates that are permitted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/robust-import-set-xform-props.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Robust Import Set Transformers, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Properties that define the types of updates that are permitted.
 
 To configure properties, navigate to **System Import Sets** &gt; **Administration** &gt; **Robust Import Set Transformers**.
 
-The properties defined in the Robust Import Set Transformers form are at the IRE payload level and apply to all rows for the given import. If you define properties at the individual item level using IntegrationHub ETL, they take priority over properties defined at the IRE payload level. For more details about CI reclassification, see, [CI reclassification during IRE processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CIReclassification.md).
+The properties defined in the Robust Import Set Transformers form are at the IRE payload level and apply to all rows for the given import. If you define properties at the individual item level using IntegrationHub ETL, they take priority over properties defined at the IRE payload level. For more details about CI reclassification, see, [CI reclassification during IRE processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CIReclassification.md).
 
 <table id="table_t2x_kth_krb"><thead><tr><th>
 
@@ -155,7 +155,7 @@ Determines whether IRE identification processes have the priority in being used 
  -   Type: true \| false
 -   Default: false
 -   Learn more: 
--   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr></tbody>
 </table>

@@ -3,9 +3,9 @@ title: View export job status
 description: Check the status of an export job for product catalog or pricing entities to see if it's in progress or completed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-export-job-status.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: product\_catalog\_admin for catalog entities, sn\_csm\_pricing\_p
 
 ## Procedure
 
-1.  In the **CSM Configurable Workspace**, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the **CRM Workspace**, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Export** &gt; **Export Catalog**.
 
@@ -31,12 +31,12 @@ Role required: product\_catalog\_admin for catalog entities, sn\_csm\_pricing\_p
 
 ## What to do next
 
-If the export job is complete, [import the product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/import-product-catalog-entities.md) or [import the pricing entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/import-pricing-entities.md) to your target instance.
+If the export job is complete, [import the product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/import-product-catalog-entities.md) or [import the pricing entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/import-pricing-entities.md) to your target instance.
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

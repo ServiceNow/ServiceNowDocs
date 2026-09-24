@@ -3,11 +3,11 @@ title: Configure a playbook for ServiceNow mobile
 description: Configuring a playbook for ServiceNow mobile is exactly the same as in a configurable workspace, but with an additional step for embedding the playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-playbook-mobile.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---

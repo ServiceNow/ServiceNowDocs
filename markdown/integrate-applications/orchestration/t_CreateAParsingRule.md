@@ -3,11 +3,11 @@ title: Create a parsing rule
 description: Populate output variables defined in a custom activity with payload data returned from an inputs test on an external host or endpoint.This table lists the parsing sources available with each execution template.In this example, the parsing rule is configured to populate the activityOutput.ipv4 variable with the value for the IP address from a domain server, using PowerShell.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_CreateAParsingRule.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -34,7 +34,7 @@ Roles required: activity\_admin, activity\_creator
 
     \[Omitted image "OutputsMappingVariable.png"\] Alt text: Mapping variables to parsing rules
 
-    The parsing rules form appears for the selected variable. By default, the parsing type is set to **Direct**, which populates the variable with all the data from the selected payload, without parsing the contents. Each template has a specific default [parsing source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md).
+    The parsing rules form appears for the selected variable. By default, the parsing type is set to **Direct**, which populates the variable with all the data from the selected payload, without parsing the contents. Each template has a specific default [parsing source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md).
 
 5.  Complete the form using the fields in the table.
 
@@ -56,7 +56,7 @@ Parsing source
 
 </td><td>
 
-Source of the data returned from the target host or endpoint. Each template opens to a specific, default payload. Available choices depend on the execution template selected for the activity. You can also use local variables as a parsing source if a parsing rule has previously been defined for them. For a list of the available payloads for each template, see [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md).
+Source of the data returned from the target host or endpoint. Each template opens to a specific, default payload. Available choices depend on the execution template selected for the activity. You can also use local variables as a parsing source if a parsing rule has previously been defined for them. For a list of the available payloads for each template, see [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md).
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Displays the data returned from the source by the selected expression. This fiel
 9.  Click **Submit** to save the parsing rule for that variable.
 
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/create-custom-activities.md)
 
 ## Activity designer parsing sources
 

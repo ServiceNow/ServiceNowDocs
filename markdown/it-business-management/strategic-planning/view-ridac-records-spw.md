@@ -3,11 +3,11 @@ title: View RIDAC records for planning items, goals, or EAP
 description: Access and view risks, issues, decisions, actions, and changes from the RIDAC home page. Filter RIDAC records by planning scope and type to focus on the items relevant to your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/view-ridac-records-spw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [view RIDAC, RIDAC home page, filter RIDAC, RIDAC records]
 breadcrumb: [Use, RIDAC, Strategic Planning, Strategic Portfolio Management]

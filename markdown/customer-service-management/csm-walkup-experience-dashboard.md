@@ -3,11 +3,11 @@ title: CSM Walk-up Experience dashboard
 description: As a service manager you can see key metric reports for walk-up interactions which helps in monitoring the performance of agents and service locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-experience-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Walk-up Experience, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
 
 # CSM Walk-up Experience dashboard

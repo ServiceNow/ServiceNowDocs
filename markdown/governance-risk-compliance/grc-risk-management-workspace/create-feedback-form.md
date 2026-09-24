@@ -3,11 +3,11 @@ title: Create New Feedback form
 description: Use the Create new feedback form to provide feedback on a record or fields in a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-feedback-form.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create feedback in the Risk Workspace, Create feedback in Advanced Risk, Parallel Review and Feedback in Advanced Risk, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -163,5 +163,5 @@ Additional comments \(Customer visible\)
 Additional information about the feedback that you want to share with the customers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create feedback in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-feedback.md)
+</table>**Parent Topic:**[Create feedback in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/create-feedback.md)
 

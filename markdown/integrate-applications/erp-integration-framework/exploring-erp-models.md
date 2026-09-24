@@ -3,12 +3,12 @@ title: Exploring Zero Copy Connector for ERP models
 description: Build ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP to create read, update, and create operations and organize mirrored ERP data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/exploring-erp-models.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-05"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model]
 breadcrumb: [Exploring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ Zero Copy Connector for ERP supports two types of models:
 
 Zero Copy Connector for ERP includes a standard set of models and supports creating custom models from scratch or cloning existing ones. Each model connects to one ERP system, and each model can have only one read operation, one update operation, and one create operation defined. Operations use one of several underlying methods depending on the type of operation and what the connected ERP system supports.
 
-\[Omitted image "erp-canvas-explore-models.png"\] Alt text: ERP model record showing information including name, module, and ERP system.
+\[Omitted image "image.erp-canvas-explore-models"\] Alt text: ERP model record showing information including name, module, and ERP system.
 
 ## Key benefits
 
@@ -49,4 +49,6 @@ Instead of building three separate integrations, the developer creates a single 
 -   A create operation using a BAPI to create vendors.
 
 The developer uses the model as the data source for a Workflow Studio flow that triggers when a new vendor request is submitted. The flow automatically reads existing vendor data, routes through an approval, and writes the approved changes directly back to the SAP system. No one needs to log in to the SAP system directly.
+
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
 

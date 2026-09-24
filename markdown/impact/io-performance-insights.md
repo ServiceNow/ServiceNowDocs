@@ -3,9 +3,9 @@ title: Performance insights
 description: The Performance insights widget in the user-configurable dashboard displays the total production instances, their count, and the status of their performance score in a dial component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-performance-insights.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Performance insights, User configurable dashboard]
 breadcrumb: [User configurable dashboard, Monitor instance performance, Platform Health, Using Impact, Impact]
@@ -49,7 +49,7 @@ Select the **View all Instances** link to view all the production instances in t
 
 You can also configure only one instance or multiple instances and view the performance summary.
 
-To create a customizable widget on a new dashboard, see [Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/customize-instance-observer-dashboard.md).
+To create a customizable widget on a new dashboard, see [Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/customize-instance-observer-dashboard.md).
 
 1.  Select the **Edit Dashboard** link on the top and click the **Add Widget** option.
 2.  Select **Custom** or **Out of the box** option for the kind of widget that you would like to add.
@@ -88,5 +88,5 @@ The root cause report opens in a separate page with the **Root cause summary and
 
 Select the instance name in the Instance column that opens a slider page displaying the instance name, instance type, and instance status. If the instance performance status is Optimal, then you wouldn't see any data fetched from the back end. The columns in the slider page are sortable and filterable, and selecting the links in the **Metrics Affected** column takes you to the respective performance page. The trend in data is displayed in the **Trend** column.
 
-**Parent Topic:**[All Instances summary dashboard – snapshot of overall health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md)
+**Parent Topic:**[All Instances summary dashboard – snapshot of overall health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/user-configurable-dashboard.md)
 

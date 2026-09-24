@@ -3,11 +3,11 @@ title: Domain separation and Workforce Optimization for ITSM
 description: Domain separation is supported in Workforce Optimization for ITSM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/domain-separation-configurable-workforce-optimization-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -28,7 +28,7 @@ Domain separation is supported in Workforce Optimization for ITSM. Domain separa
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works in Workforce Optimization for ITSM
 
@@ -36,7 +36,7 @@ Domain separation is supported in Workforce Optimization for ITSM and does not r
 
 ## Domain separation for Channels in Workforce Optimization for ITSM
 
-For information on how domain separation works in Channel Management for Workforce Optimization for Customer Service, refer to [Domain separation and Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-domain-separation.md).
+For information on how domain separation works in Channel Management for Workforce Optimization for Customer Service, refer to [Domain separation and Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-domain-separation.md).
 
 Domain separated tables for Channel Management
 
@@ -73,7 +73,7 @@ Domain separated tables for Skill Recommendation
 
 ## Domain separation for Coaching in Workforce Optimization for ITSM
 
-For information on how domain separation works in Coaching for Workforce Optimization for ITSM, refer to [Domain separation and Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-domain-separation-coaching.md).
+For information on how domain separation works in Coaching for Workforce Optimization for ITSM, refer to [Domain separation and Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-domain-separation-coaching.md).
 
-**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
+**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
 

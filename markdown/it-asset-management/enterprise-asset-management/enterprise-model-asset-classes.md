@@ -3,11 +3,11 @@ title: Enterprise model and asset classes
 description: The Enterprise Asset Management application supports enterprise model and asset classes that extend base classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, and dependent relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Enterprise Asset Management data model, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Enterprise Asset Management data model, Explore, Enterprise Asset M
 
 The Enterprise Asset Management application supports enterprise model and asset classes that extend base classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, and dependent relationships.
 
-To access enterprise model and asset classes in the Enterprise Asset Management application, you must install the Expanded Model and Asset Classes application from the ServiceNow® Store. For more information on this application, see [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md).
+To access enterprise model and asset classes in the Enterprise Asset Management application, you must install the Expanded Model and Asset Classes application from the ServiceNow® Store. For more information on this application, see [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md).
 
-Enterprise model and asset classes form the structural backbone of the Enterprise Asset Management data model. These classes are organized into class hierarchies, in which child classes extend their parent classes and inherit all parent attributes. The Enterprise Asset Management application establishes relationships between enterprise model classes and enterprise asset classes through model categories. For more information on model categories, see [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/model-hierarchy.md).
+Enterprise model and asset classes form the structural backbone of the Enterprise Asset Management data model. These classes are organized into class hierarchies, in which child classes extend their parent classes and inherit all parent attributes. The Enterprise Asset Management application establishes relationships between enterprise model classes and enterprise asset classes through model categories. For more information on model categories, see [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/model-hierarchy.md).
 
 ## Supported enterprise model classes
 
@@ -243,7 +243,7 @@ System and smart card asset\[sn\_ent\_sys\_smart\_card\_asset\]
 Classifies system cards and smart cards, such as magnetic stripe cards.
 
 </td></tr></tbody>
-</table>**Note:** The Linear asset \[sn\_eam\_linear\_asset\] class is the parent class of the Linear segment \[sn\_eam\_linear\_segment\] class, which classifies specific sections of a linear asset. For more information on linear assets and linear asset segments, see [Linear assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/using-linear-assets.md).
+</table>**Note:** The Linear asset \[sn\_eam\_linear\_asset\] class is the parent class of the Linear segment \[sn\_eam\_linear\_segment\] class, which classifies specific sections of a linear asset. For more information on linear assets and linear asset segments, see [Linear assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/using-linear-assets.md).
 
-**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
+**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
 

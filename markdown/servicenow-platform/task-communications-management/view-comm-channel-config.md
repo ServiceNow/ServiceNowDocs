@@ -3,11 +3,11 @@ title: View communication channel configuration
 description: View the configuration of different communication channels that are used to contact the target audience in the communication process. By default, the communication channels available are email, SMS, Slack, and conference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/view-comm-channel-config.html
-release: australia
+release: brazil
 product: Task Communications Management
 classification: task-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Task Communications Management, Task Communications Management, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,5 +36,5 @@ Role required: sn\_comm\_management.comm\_plan\_admin or admin
     |Classification|\[Read only\] Internally used to group the channels between conference or major incident management workbench.|
 
 
-**Parent Topic:**[Working with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/working-with-tcm.md)
+**Parent Topic:**[Working with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/task-communications-management/working-with-tcm.md)
 

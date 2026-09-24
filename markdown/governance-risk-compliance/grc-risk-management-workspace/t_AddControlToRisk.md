@@ -3,11 +3,11 @@ title: Add a control to a risk
 description: Controls are added to the risks for the on-going review of processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/t\_AddControlToRisk.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -30,15 +30,15 @@ Role required: sn\_risk.manager and sn\_compliance.manager
 
 3.  Continue with one of the following options.
 
-<table id="choicetable_y2l_kdz_pv"><thead><tr><th align="left" id="d397926e91">
+<table id="choicetable_y2l_kdz_pv"><thead><tr><th align="left" id="d404654e91">
 
 Option
 
-</th><th align="left" id="d397926e94">
+</th><th align="left" id="d404654e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d397926e100">
+</th></tr></thead><tbody><tr><td id="d404654e100">
 
 **Add an existing control**
 
@@ -49,18 +49,18 @@ Description
 3.  Select **Add relationship**.
  **Note:** The controls displayed after selecting the **Add** button are limited to controls where the entity of control matches the risk entity. If there are no eligible controls that can be related to the risk, the **Add** button isn’t displayed on the Controls related list.
 
-</td></tr><tr><td id="d397926e139">
+</td></tr><tr><td id="d404654e139">
 
 **Add a new control**
 
 </td><td>
 
 1.  In the **Controls** related list, select **New**.
-2.  On the form, fill in the fields. For a description of the field values on the Control form, see [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md).
+2.  On the form, fill in the fields. For a description of the field values on the Control form, see [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md).
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d397926e176">
+</td></tr><tr><td id="d404654e176">
 
 **Inherit common controls**
 
@@ -76,10 +76,10 @@ Description
     -   The risks and controls that are created after associating a control objective to the risk statement aren’t associated with the risk statement immediately. They get associated when the **GRC Profile Generation** scheduled job runs.
     -   If you manually delete a control from a risk, the control won’t be re-created by the scheduled job. You must manually create it again if necessary.
 
-**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 
 **Related topics**  
 
 
-[Associate a risk statement with a control objective in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-control-objective-ws.md)
+[Associate a risk statement with a control objective in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/create-control-objective-ws.md)
 

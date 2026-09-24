@@ -3,11 +3,11 @@ title: Set up primary and secondary filters for Security Analyst Workspace
 description: The Security Analyst Workspace base system includes a set of primary filters for narrowing down the list of security incidents for analysis \(for security incidents assigned to you, all open incidents, and so forth\) and a set of quick \(or secondary\) filters for narrowing down the list even further \(by new incidents, open incidents, only critical incidents, and so forth\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/set-up-filters-for-new-ui.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -54,5 +54,5 @@ Role required: admin or sn\_sec\_cmn.write
 **Related topics**  
 
 
-[Create and edit filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditingSavedFilters.md)
+[Create and edit filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_EditingSavedFilters.md)
 

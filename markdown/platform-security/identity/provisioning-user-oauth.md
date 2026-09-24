@@ -3,11 +3,11 @@ title: Provisioning user using OAuth
 description: Configure the provider for SCIM automatically provisions and de-provisioning of users and groups to ServiceNow by using the providers provisioning service with OAuth.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/provisioning-user-oauth.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tutorial: Configure SCIM for user provisioning with a Provider, SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---

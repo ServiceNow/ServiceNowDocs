@@ -3,9 +3,9 @@ title: Create a pre-authorization request
 description: Create a pre-authorization request to check if certain parts or charges are covered under warranty or service contracts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-agents-create-pre-auth-request.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Pre-authorization requests, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -20,13 +20,13 @@ Role required: sn\_claim\_cmn.warranty\_specialist
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Pre-authorization requests** &gt; **All**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Pre-authorization requests** &gt; **All**.
 
 2.  Select **New**.
 
 3.  On the Create New Pre Authorized Repair Request form, fill in the fields.
 
-    For a description of the field values, see [Pre-authorization form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-pre-auth-form.md).
+    For a description of the field values, see [Pre-authorization form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-pre-auth-form.md).
 
 4.  Select **Continue**.
 
@@ -40,7 +40,7 @@ Role required: sn\_claim\_cmn.warranty\_specialist
     -   Goodwill: Repair services that may be free or discounted at the manufacturer's discretion.
 8.  On the Repair claim jobs form, fill in the fields.
 
-    For a description of the field values, see [Pre-authorization job details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-pre-auth-job-details-form.md).
+    For a description of the field values, see [Pre-authorization job details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-pre-auth-job-details-form.md).
 
 9.  Select **Save**.
 
@@ -52,8 +52,10 @@ Role required: sn\_claim\_cmn.warranty\_specialist
 
 12. Select **Pre-authorization review**, and then either approve, reject, or return the request.
 
-    For more information on pre-authorization review tasks, see [Review and approve a pre-authorization request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-pre-auth-review.md).
+    For more information on pre-authorization review tasks, see [Review and approve a pre-authorization request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-pre-auth-review.md).
 
 13. Select **Assign to me** to assign the case to yourself.
 
+
+**Parent Topic:**[Pre-authorization requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-agents-pre-auth-requests.md)
 

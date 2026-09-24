@@ -3,9 +3,9 @@ title: Migration log locations
 description: A set of logs is stored for each dashboard, report, filter, and dashboard element \(widget\) in the bridging tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-log-locations.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Perform full data migration, Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---

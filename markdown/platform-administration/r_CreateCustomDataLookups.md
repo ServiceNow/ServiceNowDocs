@@ -3,9 +3,9 @@ title: Create custom data lookups
 description: Creating custom data lookups involves adding a lookup value, creating the definition, and activating data lookup.Create a custom table to store lookup data.The columns of a data lookup table contain both matcher and setter field data.Data lookup requires a definition record that specifies how to set one or more field values when specified conditions are met.You can create a module for data lookup so it appears in the instance application navigator.If the custom data lookup definition rules are not behaving as expected, check for certain conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_CreateCustomDataLookups.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Data lookup and record matching support, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -69,7 +69,7 @@ Each data lookup is a query that searches for a row containing values that match
     |Priority|Integer| |
     |Assignment Group|Reference|Group \[sys\_user\_group\]|
 
-    For more information, see [Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_ListConfiguration.md).
+    For more information, see [Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/c_ListConfiguration.md).
 
 3.  From the table list, select **New** and enter appropriate matcher and setter field values.
 

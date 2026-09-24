@@ -3,9 +3,9 @@ title: Customer tasks
 description: From the Customer Service Portal, external users can view projects, complete assigned tasks, and create cases for project issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-tasks.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating with Customer Project Management, Integrate, Customer Service Management]
 ---

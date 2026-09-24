@@ -3,11 +3,11 @@ title: View impact of child service on parent service
 description: In the map view of an application service, the severity of a child service is propagated to its parent service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/cross-business-service-impact.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -27,7 +27,7 @@ Role required:
 
 In the map view of a discovered application service, you can see that the severity of a child service is propagated to the parent service.
 
-An application service is affected by the severity of alerts that are directly associated with it and alerts on the CIs that are in the service. When a child service has higher severity than its parent service, the parent service displays the child severity on the map view. In the map view, the **Impact Tree** list shows the CIs. The color of the CIs indicates the alert severity. The child service is also affected by application services that are under it.
+An application service is affected by the severity of alerts that are directly associated with it and alerts on the CIs that are in the service. If the severity of a child service is higher than that of its parent service, the parent service shows the child service severity on the map view. In the map view, the **Impact Tree** list shows the CIs. The color of the CIs indicates the alert severity. The child service is also affected by application services that are under it.
 
 \[Omitted image "service-health-propagated.png"\] Alt text: Child service severity is propagated to parent service
 
@@ -57,11 +57,11 @@ In the service map, you can visually verify that the service health of the sub-s
 **Related topics**  
 
 
-[Transfer a map segment into another application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-segment-to-business-service-map.md)
+[Transfer a map segment into another application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/add-segment-to-business-service-map.md)
 
-[Configure a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manual-cluster.md)
+[Configure a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-manual-cluster.md)
 
-[Adjust alert impact while triaging an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-adjust-impact-rules.md)
+[Adjust alert impact while triaging an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-adjust-impact-rules.md)
 
-[View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewTopology.md)
+[View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewTopology.md)
 

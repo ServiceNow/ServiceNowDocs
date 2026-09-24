@@ -3,11 +3,11 @@ title: Map PaCE policy to a control objective
 description: Use the Policy as Code Engine \(PaCE\) policy related list in the Compliance Workspace to map the control objective with a PaCE policy. Compliance managers have the ability to map the control objectives with PaCE policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/generate-controls-entities-pace.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Policy as Code Engine for Preventive compliance management, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -30,11 +30,11 @@ When a PaCE policy is mapped to a deployable instance, and if the policy is not 
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\]\).
+2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Navigate to **Compliance library** &gt; **Control objectives**.
 
-4.  Click open a control objective or [create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-ctrl-objective-ws.md).
+4.  Click open a control objective or [create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-ctrl-objective-ws.md).
 
 5.  Click the Details related list.
 

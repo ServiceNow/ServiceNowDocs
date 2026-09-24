@@ -3,11 +3,11 @@ title: Automatic Threat Actor priority tagging
 description: Learn how to enable automatic tagging of Threat Actors based on their origin locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-threat-actor-priority-tagging.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [automatic tagging, threat actor priority tagging]
 breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
@@ -47,7 +47,7 @@ When a relationship between a Threat Actor and a Location object is created or u
     \[Omitted image "tisc-automatic-priority-tagging.png"\] Alt text: Automatic Threat Actor priority tagging in TISC
 
 
-**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 

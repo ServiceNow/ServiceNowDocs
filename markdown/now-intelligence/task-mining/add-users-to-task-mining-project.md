@@ -3,11 +3,11 @@ title: Add workstation users to a Task Mining project
 description: Select workstation users you want to collect activity data from and create data requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/add-users-to-task-mining-project.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
 ---
@@ -54,11 +54,11 @@ All data requests to collect data for the workstation users for a project must b
 
     **Note:**
 
-    If you want the request to be for a time period independent from a project, request workstation user data through an Employee Center data request. For more information, see [Requesting workstation user data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/requesting-workstation-user-data.md).
+    If you want the request to be for a time period independent from a project, request workstation user data through an Employee Center data request. For more information, see [Requesting workstation user data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/requesting-workstation-user-data.md).
 
     1.  In the list of workstation users, select any user for whom the **Data request status** is **Required**.
 
-        If a workstation user's data request status is **Requested**, consider reviewing the request details and contacting the approver to urge action on the data request before the project is set to begin. For more information, see [Follow data request progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/manage-data-log-requests.md).
+        If a workstation user's data request status is **Requested**, consider reviewing the request details and contacting the approver to urge action on the data request before the project is set to begin. For more information, see [Follow data request progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/manage-data-log-requests.md).
 
     2.  Select **Request data**.
 
@@ -75,5 +75,5 @@ A data request is sent to all managers of every workstation user. Once a data re
 
 ## What to do next
 
-Generate an analysis of the project data. For more information, see [Generating a project data analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mining-a-task-mining-project.md).
+Generate an analysis of the project data. For more information, see [Generating a project data analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/mining-a-task-mining-project.md).
 

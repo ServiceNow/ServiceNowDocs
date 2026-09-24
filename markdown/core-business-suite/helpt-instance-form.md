@@ -3,9 +3,9 @@ title: Help topics instance options
 description: The details provide the field and its descriptions of the widget instance options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/helpt-instance-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Core Business Suite]
 ---
@@ -74,5 +74,5 @@ The following options are available:-   **Asynchronous**
 -   **Synchronous**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-reference-parent.md)
+</table>**Parent Topic:**[Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-reference-parent.md)
 

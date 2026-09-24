@@ -3,11 +3,11 @@ title: Test Agent Client Collector connectivity
 description: Test the Agent Client Collector \(ACC\) connectivity to identify any proxy issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/test-acc-connectivity.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [test acc connectivity, acc connection test, proxy issues, gateway url, test agent client collector connection]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
@@ -36,9 +36,9 @@ Role required: agent\_client\_collector\_admin
 
     2.  Copy the gateway URL based on your location:
 
-        -   AMER \(Americas\): itomcnc-prod-gateway.amer.sncapps.service-now.com:443
-        -   EMEA \(Europe\): itomcnc-prod-gateway.emea.sncapps.service-now.com:443
-        -   APAC \(Asia Paciﬁc\): itomcnc-prod-gateway.apac.sncapps.service-now.com:443
+        -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+        -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+        -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
     3.  Navigate to **All** &gt; **sys\_attachment.list**.
 
     4.  Under **Attachments**, select **File name** in the drop-down menu and search for acc-dex-common.tar.gz.
@@ -61,6 +61,4 @@ Role required: agent\_client\_collector\_admin
 
 
 Fix your proxy issues if the command output doesn't match the Attachments table entries.
-
-**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
 

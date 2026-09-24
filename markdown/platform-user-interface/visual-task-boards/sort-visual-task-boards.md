@@ -3,13 +3,13 @@ title: Sort Visual Task Boards
 description: You can sort Visual Task Boards using criteria that you create with a Sort-Filter option, grouping items by properties to help organize your cards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/sort-visual-task-boards.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Sort Visual Task Boards
@@ -59,5 +59,5 @@ Only the owner of the board can create the sorting criteria, and add, edit, or d
         You can edit your sorting criteria for both Freeform and Data Driven boards by selecting the **Edit Filter and Sort** button.
 
 
-**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
+**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 

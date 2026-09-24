@@ -3,11 +3,11 @@ title: Set correlation rules
 description: After creating a CrowdStrike Next-Gen SIEM detection profile, select correlation rules to map corresponding detections to a security incident. Correlation rules are refreshed every time a profile is opened and new rules are available for selection. The CrowdStrike Next-Gen SIEM integration supports multiple profiles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/select-correlation-rules-cs-ng-siem.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,11 +24,11 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 ## Procedure
 
-1.  If you're not continuing from the previous section of the detection profile definition process, access the profile you're defining.
+1.  If you are not continuing from the previous section of the detection profile definition process, access the profile you are defining.
 
     1.  Navigate to **All** &gt; **CrowdStrike Next-Gen SIEM** &gt; **Detection Profile**.
 
-    2.  Select the profile you're continuing to define.
+    2.  Select the profile you are continuing to define.
 
     3.  Select **Correlation Rules** in the progress bar.
 
@@ -45,5 +45,5 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 ## What to do next
 
-Map individual CrowdStrike Next-Gen SIEM detection fields to the fields on the ServiceNow AI Platform Security Incident Response security incident. For more information, see [Map detection fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/map-crowdstrike-next-gen-inc.md).
+Map individual CrowdStrike Next-Gen SIEM detection fields to the fields on the ServiceNow AI Platform Security Incident Response security incident. For more information, see [Map detection fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/map-crowdstrike-next-gen-inc.md).
 

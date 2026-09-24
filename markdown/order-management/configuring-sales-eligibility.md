@@ -3,9 +3,9 @@ title: Configuring product offer eligibility
 description: You can filter the product catalog, offering categories, and product offerings dynamically, to display only the appropriate catalog, categories, and offerings for which a customer is eligible. Your agents see this filtered product information when they're creating opportunities, quotes, and orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-sales-eligibility.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -30,14 +30,14 @@ Complete the following tasks to set up product eligibility matrices.
 
 |Task|Description|Role|
 |----|-----------|----|
-|[Create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-context-variable.md) \(if needed\)|Review system-defined and existing custom context variables. If needed, add a new context variable, then [map the customer variable to a transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-map-variable.md).|Admin|
-|[Create a rule entity filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-rule-entity-filter.md)|Define the eligibility filters for a product entity.|Product catalog admin or manager|
-|[Define product eligibility rules in a product eligibility matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-define-eligibility-rules.md)|Define the eligibility rules in the decision table of a product eligibility matrix.|Product catalog admin or manager|
+|[Create a custom context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-context-variable.md) \(if needed\)|Review system-defined and existing custom context variables. If needed, add a new context variable, then [map the customer variable to a transaction entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-map-variable.md).|Admin|
+|[Create a rule entity filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-rule-entity-filter.md)|Define the eligibility filters for a product entity.|Product catalog admin or manager|
+|[Define product eligibility rules in a product eligibility matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-define-eligibility-rules.md)|Define the eligibility rules in the decision table of a product eligibility matrix.|Product catalog admin or manager|
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

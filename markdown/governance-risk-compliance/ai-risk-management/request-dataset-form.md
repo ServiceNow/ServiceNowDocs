@@ -3,12 +3,13 @@ title: Request a dataset form
 description: The Request a dataset form is designed to streamline the request process for procuring a dataset. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/request-dataset-form.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [request dataset form, dataset intake, dataset fields]
 breadcrumb: [Request a dataset, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -124,5 +125,5 @@ Dataset card
 Detailed documentation on dataset's purpose, architecture, performance, and ethical considerations for transparency. For example, this dataset is limited to loan applications from regions 25–35 and may reflect bias due to demographic constraints.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-dataset.md)
+</table>**Parent Topic:**[Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-dataset.md)
 

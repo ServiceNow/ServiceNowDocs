@@ -3,13 +3,13 @@ title: Example use case for AI Skill Kit
 description: As an AI developer, you can create custom skills with AI Skill Kit. For this example, create a custom skill for child incident summarization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/example-na-skill-kit.html
-release: australia
+release: brazil
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Exploring AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Example use case for AI Skill Kit
@@ -30,7 +30,7 @@ To create the skill:
     -   Description: `Summarization of child incidents`
     -   Default provider: `Now LLM Generic`
     -   Provider API: `Now LLM Generic`
-    \[Omitted image "nask-new-skill.png"\] Alt text: Create new skill modal for AI Skill Kit.
+    \[Omitted image "nask-new-skill.png"\] Alt text: Create a skill modal for AI Skill Kit.
 
 4.  Select **Create skill**.
 
@@ -87,5 +87,5 @@ If everything looks good, select **Finalize prompt**. After you finalize the pro
 
 ## Activate the skill
 
-After you test, finalize, and publish your skill, an admin must activate it in AI Admin Hub. To learn more about activating skills, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
+After you test, finalize, and publish your skill, an admin must activate it in AI Admin Hub. To learn more about activating skills, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
 

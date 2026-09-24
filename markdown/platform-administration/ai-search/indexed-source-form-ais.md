@@ -3,11 +3,11 @@ title: Indexed Source form
 description: The Indexed Source form enables you to create an indexed source for use in AI Search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/indexed-source-form-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Indexed Source form enables you to create an indexed source for use in AI Search.
 
-For details on creating or modifying an indexed source, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-indexed-source-ais.md).
+For details on creating or modifying an indexed source, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-indexed-source-ais.md).
 
 <table id="ais-indexed-sources-table"><thead><tr><th>
 
@@ -40,9 +40,9 @@ Source
 
 </td><td>
 
-The ServiceNow AI Platform® table to index. AI Search excludes some ServiceNow AI Platform tables from indexing. You can't define indexed sources for these excluded tables or their derived tables. For a list of excluded tables, see [ServiceNow AI Platform tables excluded from AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/excluded-tables-ais.md).
+The ServiceNow AI Platform® table to index. AI Search excludes some ServiceNow AI Platform tables from indexing. You can't define indexed sources for these excluded tables or their derived tables. For a list of excluded tables, see [ServiceNow AI Platform tables excluded from AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/excluded-tables-ais.md).
 
- To index content from a [remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md), create an external indexed source. For more details on configuring indexed sources for external content, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-ais.md).
+ To index content from a [remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables.md), create an external indexed source. For more details on configuring indexed sources for external content, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/external-content-ais.md).
 
  Plugins and applications can define multiple indexed sources for the same ServiceNow AI Platform table, but only one of them can be active at a time. For more details, see **Active**.
 
@@ -78,9 +78,9 @@ Force Late Binding
 
 </td><td>
 
-Option to make AI Search use late binding security for all search results from the indexed source. This field isn't shown in the default Indexed Source form view. For instructions on configuring the form layout to show the field, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+Option to make AI Search use late binding security for all search results from the indexed source. This field isn't shown in the default Indexed Source form view. For instructions on configuring the form layout to show the field, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
- For an explanation of late binding security and its effects on search, see [Content security in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/content-security-ais.md).
+ For an explanation of late binding security and its effects on search, see [Content security in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/content-security-ais.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -95,5 +95,5 @@ Filter
 Optional filter conditions limiting the set of records to index from the source table. AI Search only indexes records that satisfy all defined filter conditions, and purges records from the index if they no longer satisfy these conditions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/reference-ais.md)
 

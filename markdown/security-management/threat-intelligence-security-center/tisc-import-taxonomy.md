@@ -3,11 +3,11 @@ title: Bulk import Taxonomies
 description: Import the taxonomy records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-import-taxonomy.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating Taxonomies, Administer, Threat Intelligence Security Center, Security Operations]
 ---

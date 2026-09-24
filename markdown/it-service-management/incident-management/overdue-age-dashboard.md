@@ -3,11 +3,11 @@ title: Legacy: Overdue by Age dashboard
 description: This dashboard lets you see incidents that are overdue according to an SLA, divided by age buckets. You can see the average age of the incidents, the average number of times they have been reassigned, and how long on average since the last update. You can also group them by standard breakdowns like Priority and Assignment Group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/overdue-age-dashboard.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy: Incident SLA Management Platform Analytics Solutions, Reporting incidents, Incident Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ This dashboard lets you see incidents that are overdue according to an SLA, divi
 
 **Important:**
 
-Starting in Xanadu release, the Overdue by Age dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the incidents that are overdue according to SLA, divided by age buckets.
+Starting in Xanadu release, the Overdue by Age dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident.md) to view the incidents that are overdue according to SLA, divided by age buckets.
 
 This dashboard is inactive by default. Before using this dashboard, a Performance Analytics administrator or power user must open the Dashboard Properties, assign an owner, and select **Active**.
 
@@ -60,5 +60,5 @@ This dashboard is inactive by default. Before using this dashboard, a Performanc
 -   Assignment Group
 -   SLA
 
-**Parent Topic:**[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-sla-content-pack.md)
+**Parent Topic:**[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-sla-content-pack.md)
 

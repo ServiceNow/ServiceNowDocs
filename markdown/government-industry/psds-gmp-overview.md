@@ -3,7 +3,7 @@ title: Grants Management Portal
 description: Constituents and business contacts can find, apply for, and track the status of their grant applications using the Grants Management Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-overview.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-04"
 reading_time_minutes: 1
@@ -30,5 +30,5 @@ From the landing page, a constituent can:
 -   Review and download the results letter and merit review summary of their submitted grant proposals, and accept or decline their award within the Results tab.
 -   View all Knowledge Base articles related to grants.
 
-For more information on how to use the Grants Portal, see [Using the Grants Management Portal in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-grants-mgmt-portal.md).
+For more information on how to use the Grants Portal, see [Using the Grants Management Portal in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gmp-using-grants-mgmt-portal.md).
 

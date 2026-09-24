@@ -3,11 +3,11 @@ title: Set a default territory on the Team calendar
 description: Set a specific territory as default to readily access it on the team calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/configure-a-default-territory-on-the-team-calendar.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change views in Workforce, Managing agents and tasks from Workforce, Managing workforce, Use, Field Service Management]
 ---

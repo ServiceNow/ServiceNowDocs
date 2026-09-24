@@ -3,11 +3,11 @@ title: Configure Microsoft Active Directory for secure LDAPS communication
 description: Use certificate pairs to enable Microsoft Active Directory \(AD\) LDAPS communications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_ConfigureMicrosoftADForSSLAccess.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LDAP integration, Authentication, Access Management]
 ---

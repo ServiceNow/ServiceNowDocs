@@ -3,11 +3,11 @@ title: Enable CAPTCHA for customer registration
 description: Reduce the risk of requests by malicious bots by enabling CAPTCHA for customer registration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-captcha-for-customer-registration.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Authentication, Hardening settings, Platform Security]
 
 Reduce the risk of requests by malicious bots by enabling CAPTCHA for customer registration.
 
-The **sn\_customerservice.captchaEnabled** system property determines if CAPTCHA validation is enabled or disabled for customer registration on the Customer Service Management Portal.
+The **sn\_customerservice.captchaEnabled** system property determines if CAPTCHA validation is tuned on or off for customer registration on the Customer Service Management Portal.
 
 Set the system property **sn\_customerservice.captchaEnabled** to **true** to enable CAPTCHA validation. If the property isn’t on the System Properties \[sys\_properties\] table, the default value is **true**.
 
@@ -84,7 +84,7 @@ Category
 
 </td><td>
 
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Security risk
 
 -   Severity score: 3.7
 -   CVSS rating: Low
--   Security risk details: CAPTCHA validation is considered a best practice to prevent potentially malicious bots from automatically submitting requests against an application.
+-   Security risk details: CAPTCHA validation is considered a general guidelines to prevent potentially malicious bots from automatically submitting requests against an application.
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

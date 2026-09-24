@@ -3,11 +3,11 @@ title: Communities roles
 description: Ensure that users can perform all necessary actions by assigning roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-roles.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Communities references, Communities, Customer Service Management]
 ---
@@ -149,7 +149,7 @@ A community user who can create a customer service case from a community discuss
 Communities Portal
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communitie-references.md)
+</table>**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communitie-references.md)
 
 **Related topics**  
 

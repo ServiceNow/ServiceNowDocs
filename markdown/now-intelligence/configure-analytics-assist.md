@@ -3,9 +3,9 @@ title: Activate the data visualization generation skill
 description: Give users generative AI capabilities for creating data visualizations from the ServiceNow Otto panel by activating the data visualization generation skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-analytics-assist.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ Give users generative AI capabilities for creating data visualizations from the 
 
 The data visualization generation skill is included in Generative AI Controller, which is in most ServiceNow Otto® applications from the ServiceNow® Store.
 
-The Query Generation skills "analytics query generation" and "analytics insight generation" are required. To support queries on indicator data, the Query Generation skill "analytics query generation for indicators" is required. These skills are active by default. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md).
+The Query Generation skills "analytics query generation" and "analytics insight generation" are required. To support queries on indicator data, the Query Generation skill "analytics query generation for indicators" is required. These skills are active by default. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-query-generation.md).
 
 Role required: admin
 
@@ -54,5 +54,5 @@ Role required: admin
 
 If the skill was successfully activated, the system notifies you.
 
-**Parent Topic:**[Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-now-ass-skills-pa.md)
+**Parent Topic:**[Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configuring-now-ass-skills-pa.md)
 

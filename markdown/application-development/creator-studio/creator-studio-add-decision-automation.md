@@ -3,13 +3,13 @@ title: Add a decision to an app's playbook in Creator Studio
 description: Add decisions, which are if/then conditions, to define branches, or different paths of an automation's playbook in Creator Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-add-decision-automation.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Automation in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Automation in apps, Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # Add a decision to an app's playbook in Creator Studio
@@ -104,7 +104,7 @@ Start with delay
 
 </td><td>
 
-Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/start-with-delay-properties.md).
+Toggle to specify that the ServiceNow AI Platform waits for a duration of time before running the decision after the start rule is met. For more information on how to specify the delay duration, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/start-with-delay-properties.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Restart rules
 What the decision does when a playbook is restarted. The options are:-   **Skip on restart**: Skip this decision when the playbook run is due to a restart.
 -   **Run always**: Always run this decision, including first runs.
 -   **Skip on first run**: Skip this decision during the first run.
-For more information, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/restart-a-playbook.md).
+For more information, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/restart-a-playbook.md).
 
 </td></tr></tbody>
 </table>9.  Create the conditions for each branch, or possible outcome for the decision on the **Branches** tab of the Decision properties panel.
@@ -130,7 +130,7 @@ For more information, see [Restart a playbook](https://raw.githubusercontent.com
         2.  Select the form's question to use as the condition from the **Question** field.
         3.  Specify the condition **Operator** and the answer's **Value**.
         4.  Select **Apply** when you're done defining the condition.
-        For details on working with conditions, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
+        For details on working with conditions, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
     3.  Select the **Add new branch** button and add as many branches as needed.
 
@@ -166,5 +166,5 @@ The app processes only the first listed branch with conditions met.If you select
 10. Select **Save and close**.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-working-with-automations.md)
 

@@ -3,11 +3,11 @@ title: Building hierarchical queries
 description: Simplify and build more efficient queries by leveraging hierarchical relationships in the condition builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/data-hierarchies.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---

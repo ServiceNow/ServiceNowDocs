@@ -3,11 +3,11 @@ title: Manage various assets through asset classes
 description: The default asset classes are Hardware, Software License, Consumable, Bundle, Software Entitlement, and Facility. These general classes can be used to manage various assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/c\_AssetClasses.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -20,16 +20,16 @@ If the general classes that are provided aren't appropriate for a specific group
 
 Built-in functionality allows you to use asset classes for financial tracking, in a model bundle, and as a pre-allocated asset.
 
--   **[Create an asset class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreateAnAssetClass.md)**  
+-   **[Create an asset class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_CreateAnAssetClass.md)**  
 Creating an asset class requires defining a new table and creating a corresponding application and module, then adding the new asset class to new or existing model categories. The default asset classes are Hardware, Software License, and Consumable. These general classes can be used to manage various assets.
--   **[Create license assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingLicenseAssets.md)**  
+-   **[Create license assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_CreatingLicenseAssets.md)**  
 You can manage your organization's software license assets.
--   **[Set asset states and substates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_SettingAssetStatesAndSubstates.md)**  
+-   **[Set asset states and substates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_SettingAssetStatesAndSubstates.md)**  
 Use asset states and substates to track assets accurately and at a detailed level.
--   **[Add depreciation to an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_AddingDepreciationToAnAsset.md)**  
+-   **[Add depreciation to an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_AddingDepreciationToAnAsset.md)**  
 Depreciation is the reduction in the value of an asset over time.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Activate the Control Objective Change Agent
 description: Enable the Control Objective Change Agent in AI Agent Studio to automate compliance workflows using generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/activate-the-control-objective-ai-agent.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
 breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and Compliance Management, Governance, Risk, and Compliance]
@@ -27,7 +27,7 @@ Install the ServiceNow Otto for Integrated Risk Management \(IRM\) plugin \(sn\_
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 
-2.  Select the **AI agents** tab.
+2.  Select **AI agents** from the **Ready-made agentic workflows and AI agents** section.
 
 3.  Select **Control Objective Change Agent** from the list of available AI agents.
 
@@ -52,7 +52,7 @@ Install the ServiceNow Otto for Integrated Risk Management \(IRM\) plugin \(sn\_
 
 ## What to do next
 
-Use the **Testing** playground to [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md) using example utterances.
+Use the **Testing** playground to [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-agent.md) using example utterances.
 
-If not done already, set up the ServiceNow Otto panel. For more information see, [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+If not done already, set up the Now Assist panel. For more information see, [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 

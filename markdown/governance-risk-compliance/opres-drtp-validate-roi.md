@@ -3,11 +3,11 @@ title: Validate the Register of Information packages
 description: Run real-time validation on Register of Information \(RoI\) packages to help ensure compliance with DORA requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/opres-drtp-validate-roi.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Configure, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Validate the Register of Information packages
@@ -18,7 +18,7 @@ Run real-time validation on Register of Information \(RoI\) packages to help ens
 
 Role required: sn\_oper\_res.manager
 
-Generate a Plain-CSV Reporting Package and an Excel Master Template. For more information, see [Generate a Register of Information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-gen-roi-pkg.md).
+Generate a Plain-CSV Reporting Package and an Excel Master Template. For more information, see [Generate a Register of Information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/opres-drtp-gen-roi-pkg.md).
 
 ## About this task
 
@@ -48,11 +48,11 @@ Validation reports are only generated when errors or warnings are present. If no
 
     \[Omitted image "level-4-lei-validation-report.png"\] Alt text: Level 4 LEI validation report opened in Microsoft Excel.
 
-    In the report, each row identifies a sheet, row, and column from the uploaded package. It also shows the LEI checks performed \(format, checksum, GLEIF lookup, status, country match, corroboration\) and a human-readable validation message.
+    In the report, each row identifies a sheet, row, and column from the uploaded package. Each row also shows the LEI checks performed \(format, checksum, GLEIF lookup, status, country match, corroboration\) and a human-readable validation message.
 
 4.  Cross-reference the validation report with the Microsoft Excel template to identify and correct issues.
 
-    If the validation report contains errorCode=INVALID\_VALUE with an errorMessage of "LEI not found in GLEIF database", the identification code value is invalid. That branch record is not found in the GLEIF \(Global Legal Entity Identifier Foundation\) registry as shown in the example.
+    If the validation report contains errorCode=INVALID\_VALUE with an errorMessage of "LEI not found in GLEIF database", the identification code value is invalid. The value for that branch record is not found in the GLEIF \(Global Legal Entity Identifier Foundation\) registry as shown in the example.
 
     \[Omitted image "lei-validation-upload-error-messages.png"\] Alt text: LEI validation upload error messages.
 
@@ -61,5 +61,5 @@ Validation reports are only generated when errors or warnings are present. If no
 5.  Update the affected records in the system or spreadsheet and re-upload the corrected package for re-validation.
 
 
-**Parent Topic:**[Configuring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-dg-resi-party-regi.md)
+**Parent Topic:**[Configuring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-dg-resi-party-regi.md)
 

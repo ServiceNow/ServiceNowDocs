@@ -3,11 +3,11 @@ title: Schedule the AWS Security Hub finding retrieval
 description: Set a schedule to retrieve the finding data and to ingest the AWS Security Hub findings that match the criteria in the profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/schedule-retrieve-and-ingest-finding-data.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Amazon Web Services \(AWS\) Security Hub integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

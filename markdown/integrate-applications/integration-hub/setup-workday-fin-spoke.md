@@ -3,7 +3,7 @@ title: Set up the Workday Financials spoke
 description: Integrate the ServiceNow instance Workday instance by using the WS-Security Username Profile to authenticate ServiceNow requests.Provide the base URL of your Workday Financials instance in the Connection Details \[connection\_details\] table. Spoke actions based on the SOAP API, use these details for the action execution.Create a WS-Security Username Profile to provide your Workday credentials to authenticate requests from ServiceNow.Configure the SOAP security profile by adding the security user name profile you had created to authenticate requests from ServiceNow.Register Workday Financial spoke as the API client in your Workday account and generate client ID, client secret.Register API client in your Workday account and generate a token URL for Workday Financials spoke.Configure the system properties to enable OAuth for SOAP APIs based actions for Workday Financials spoke.Create a Basic Auth credential record to use the RaaS-report based actions. The Workday Financials spoke connection and credential alias uses these credentials to authorize actions.Create and configure a Workday Financials spoke connection to authenticate ServiceNow requests.Create and configure the To Do report to retrieve worker's finance related inbox items suc as, to-dos, action items, approval, and so on.Create and configure the Ledger Account report to retrieve the ledger account details.Create and configure the Payment Status report to retrieve the supplier payment information within the specified date range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-workday-fin-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -92,7 +92,7 @@ Role required: admin.
 
 3.  For **WS-Security Username Profile**, select the security username profile you had created for the Workday Financials spoke.
 
-    See [Create a WS-Security Username Profile for the Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md) for more information.
+    See [Create a WS-Security Username Profile for the Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md) for more information.
 
 4.  Do not provide value in **WS-Security X.509 Profile**.
 
@@ -182,8 +182,8 @@ Configure the system properties to enable OAuth for SOAP APIs based actions for 
 
 ### Before you begin
 
--   [Generate client ID and client secret for Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md)
--   [Generate token URL for Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md)
+-   [Generate client ID and client secret for Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md)
+-   [Generate token URL for Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md)
 -   Role required: admin
 
 ### Procedure
@@ -282,7 +282,7 @@ Credential
 
 </td><td>
 
-Required credential record of the Basic Auth type. Select the credential record you had created for the Workday Financials spoke. For example, `Workday Financials Cred`.For more information, see [Create a credential record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md).
+Required credential record of the Basic Auth type. Select the credential record you had created for the Workday Financials spoke. For example, `Workday Financials Cred`.For more information, see [Create a credential record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md).
 
 </td></tr><tr><td>
 

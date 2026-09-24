@@ -3,11 +3,11 @@ title: Review and work on a major incident candidate
 description: View a list of major incident candidates and add comments to the incidents proposed as major incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/major-incident-candidate.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Major incident candidates, Managing major incidents using Major Incident applet, ITSM Mobile Agent, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: major incident manager
 
     The **Major incident candidates** screen opens with a list of major incident candidates.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Major incident candidates** screen, swipe left on an incident to view the set of quick actions.
 
     1.  Add any additional comments or work notes about the incident in this field.
 
-    2.  Tap **Reject** to mention the reasons for rejection in the work notes and tap the send icon \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) to process the rejection.
+    2.  Tap **Reject** to mention the reasons for rejection in the work notes and tap **Submit** to process the rejection.
 
-    3.  Tap **Promote** to mention a reason to promote the incident to a major incident, describe the business impact, and tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: send icon.\).
+    3.  Tap **Promote** to mention a reason to promote the incident to a major incident, describe the business impact, and tap **Submit**.
 
 4.  On the **Major incident candidates** screen, tap a record in the list to open it.
 

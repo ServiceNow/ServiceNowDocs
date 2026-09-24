@@ -3,11 +3,11 @@ title: Next-Generation Cisco Firewall discovery
 description: The ServiceNow Discovery application uses the Next Generation Cisco Firewall pattern to find Cisco firewalls. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/cisco-fw-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -27,12 +27,12 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 ## Prerequisites
 
 -   Ensure that your network firewall device has SNMP access.
--   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+-   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md).
 -   Add the SNMP system OID record for the Cisco device to the ServiceNow instance. Update the following:
     -   Classifier: Cisco Firewall
     -   Class: Cisco Firewall Device
 -   Deploy the pattern as follows:
-    1.  Download and install [Firewall extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-fw.md) from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
+    1.  Download and install [Firewall extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-fw.md) from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
     2.  Download and install the Discovery and Service Mapping Patterns application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
     3.  Sync the pattern with the appropriate MID Server.
 
@@ -94,5 +94,5 @@ These relationships are created to support Cisco firewall discovery.
 |Router Interface \[dscy\_router\_interface\]|References|Cisco Firewall Device \[cmdb\_ci\_firewall\_device\_cisco\]|
 |Serial Number \[cmdb\_serial\_number\]|References|Cisco Firewall Device \[cmdb\_ci\_firewall\_device\_cisco\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

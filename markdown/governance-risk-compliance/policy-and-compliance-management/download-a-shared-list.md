@@ -3,11 +3,11 @@ title: Download a UCF shared list
 description: In order for compliance managers to download UCF authority documents from the UCF CCH, the list must be marked as Shared. When updating Authority Documents or adding new ones, you must update all your authority documents to ensure that the common controls framework remains in sync with the authority documents you are using.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/download-a-shared-list.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [integrate with UCF Common Controls Hub, Configure UCF integration using UCF CCH, Manage UCF integration, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ All data imported from UCF Authority Documents is read-only and must be protecte
 
 2.  Click the **UCF** configuration.
 
-3.  [Configure the UCF integration using the UCF Common Controls Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/configure-UCF-integration.md), if necessary.
+3.  [Configure the UCF integration using the UCF Common Controls Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/configure-UCF-integration.md), if necessary.
 
 4.  Click **Import Shared List**.
 
@@ -105,5 +105,5 @@ If the selected UCF Shared List that you are downloading does not include all th
     |Control|Control objective|
 
 
-**Parent Topic:**[Integrate with UCF Common Controls Hub to manage compliance frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_UCF.md)
+**Parent Topic:**[Integrate with UCF Common Controls Hub to manage compliance frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_UCF.md)
 

@@ -3,11 +3,11 @@ title: Using e-signature template for non-HR tasks
 description: Create or modify an e-signature template to define an electronic document and signature configuration for use in non-HR task forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/e-signature/configure-e-signature-non-hr.html
-release: australia
+release: brazil
 product: e-Signature
 classification: e-signature
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using e-signature, E-signature, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_esign.admin or sn\_esign.config\_manager
 
 1.  Create an e-sign template on the required task table \(for example, Incident\).
 
-    See [Create or modify an e-signature template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/configure-e-signature-configuration.md). Select **Managed Document** in **Document type** and **Signature** in **E-signature type**.
+    See [Create or modify an e-signature template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/e-signature/configure-e-signature-configuration.md). Select **Managed Document** in **Document type** and **Signature** in **E-signature type**.
 
 2.  Configure the task form \(for example, Incident form\) by adding the **E-Signature Template** field.
 
@@ -41,5 +41,5 @@ Role required: sn\_esign.admin or sn\_esign.config\_manager
 
 When a user receives the task and moves the task to Work in Progress state, the **Sign document** option is available for the user to sign the document.
 
-**Parent Topic:**[Using e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/using-esignature.md)
+**Parent Topic:**[Using e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/e-signature/using-esignature.md)
 

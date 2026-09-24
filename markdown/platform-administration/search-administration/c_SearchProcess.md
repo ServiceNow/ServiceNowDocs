@@ -3,12 +3,12 @@ title: Zing generates search results in four phases
 description: Generate search results by dividing documents among shards, searching shard documents, scoring shard documents, and merging scores into an index.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/c\_SearchProcess.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -41,7 +41,7 @@ The query thread assigns each matching document a numeric value \(a document ID\
 
 ## Phase 3: Score shard documents
 
-The query thread [scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_DocumentScoring.md) each matching shard document.
+The query thread [scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_DocumentScoring.md) each matching shard document.
 
 \[Omitted image "IndexShardFilterAndIndex.png"\] Alt text: The system creates 10 Query threads to search, filter, and score shard documents.
 
@@ -51,7 +51,7 @@ The system merges the document scores into a single index and sorts the document
 
 \[Omitted image "IndexShardMerge.png"\] Alt text: Merge and sort shard document scores.
 
-**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 
@@ -77,6 +77,8 @@ The system merges the document scores into a single index and sorts the document
 [Zing can expand search results with synonyms]()
 
 [Zing displays search suggestions as users enter search terms]()
+
+[Verify that user roles have access to your searchable tables]()
 
 [Installed with Zing]()
 

@@ -3,12 +3,12 @@ title: Review the performance of an AI specialist in the legacy AI Agent Studio
 description: Review the performance analytics of an AI specialist to track their task execution success. You can use the analytics to tune the AI specialist to suit your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/view-aiw-performance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI specialist]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
+breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Review the performance of an AI specialist inthe legacy AI Agent Studio
@@ -189,5 +189,5 @@ KB article list
 </table>
 ## What to do next
 
-If you want to make changes to your AI specialist based on the performance analytics, see [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-profile.md) or [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks.md).
+If you want to make changes to your AI specialist based on the performance analytics, see [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aiw-profile.md) or [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aiw-tasks.md).
 

@@ -3,11 +3,11 @@ title: Track the replacement of an asset from a task location
 description: Track the status of an asset that you replaced with another asset in a work order. You can track the status as you're doing the task from a task location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/record-treplacement-asset-task-location.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View asset usage, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---

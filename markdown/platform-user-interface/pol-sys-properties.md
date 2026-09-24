@@ -3,9 +3,9 @@ title: Next Experience system properties
 description: List of system properties related to the Next Experience UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/pol-sys-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -303,5 +303,5 @@ integer
 Controls accuracy of the filtering in the Unified Navigation menus. The higher the number, the more accurate the match must be. A value of 100 means an exact match is required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+</table>**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-ui-admin.md)
 

@@ -3,11 +3,11 @@ title: Installing AI Analytics
 description: You can install the AI Analytics application \(sn\_na\_analytics\) with any of the ServiceNow Otto products if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/installing-now-assist-analytics.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Installing AI Analytics
@@ -16,9 +16,9 @@ You can install the AI Analytics application \(sn\_na\_analytics\) with any of t
 
 ## Installation requirements
 
-You must be on Australia Patch 0 or later.
+You must be on Brazil Patch 0 or later.
 
-AI Analytics is included as a dependency for all ServiceNow Otto products. It is not recommended to install the application by itself. Instead, you can install ServiceNow Otto products from the AI Admin Hub or directly from the ServiceNow Store. For details, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+AI Analytics is included as a dependency for all ServiceNow Otto products. It is not recommended to install the application by itself. Instead, you can install ServiceNow Otto products from the AI Admin Hub or directly from the ServiceNow Store. For details, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 \[Omitted image "naa-now-assist-admin-console-install-plugins.png"\] Alt text: AI Admin Hub console links to browse plugins by workflow.
 
@@ -28,6 +28,6 @@ AI Analytics has a dependency on AI Admin Hub. Be sure to have the compatible ve
 
 |AI Analytics version|AI Admin Hub console version|Release|
 |--------------------|----------------------------|-------|
-|AI Analytics 2.0.14|AI Admin Hub 5.0.7|Australia Patch 1|
-|AI Analytics 1.1.11|AI Admin Hub 4.1.16|Australia Patch 0|
+|AI Analytics 2.0.14|AI Admin Hub 5.0.7|Brazil Patch 1|
+|AI Analytics 1.1.11|AI Admin Hub 4.1.16|Brazil Patch 0|
 

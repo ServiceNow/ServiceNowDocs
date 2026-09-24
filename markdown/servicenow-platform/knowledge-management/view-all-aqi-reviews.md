@@ -3,11 +3,11 @@ title: View all pending and completed AQI reviews
 description: View checklists of all users to monitor the pending and completed reviews.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/view-all-aqi-reviews.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Article Quality Index, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,5 +29,5 @@ Role required: knowledge\_admin or admin
     -   To view all completed AQI checklists, select **All Completed AQI Checklists**.
     -   To view all pending AQI checklists, select **All Pending AQI Checklists** .
 
-**Parent Topic:**[Use Article Quality Index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-article-quality-index.md)
+**Parent Topic:**[Use Article Quality Index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/use-article-quality-index.md)
 

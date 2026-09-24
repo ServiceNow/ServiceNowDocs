@@ -3,11 +3,11 @@ title: Configuring Cloud Cost Management
 description: Plan and configure Cloud Cost Management to gain visibility into your total cloud consumption, reduce costs, and optimize the operations of your cloud platforms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/configuring-cloud-insights.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -42,7 +42,7 @@ Get the Cloud Cost Management application from the [ServiceNow Store](https://st
 
 </td><td>
 
-[Install Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/install-ci.md)
+[Install Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/install-ci.md)
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Get the Cloud Cost Management Infra Stack application from the [ServiceNow Store
 
 </td><td>
 
-[Install Cloud Cost Management Infra Stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/install-ccm-infra.md)
+[Install Cloud Cost Management Infra Stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/install-ccm-infra.md)
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Assign Cloud Cost Management roles to user groups and to individual users based 
 
 </td><td>
 
-[Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-roles.md)
+[Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/cloud-insights-roles.md)
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Install the MID Servers to enable the movement of data between the Discovery app
 
 </td><td>
 
-[Installing the MID Server with manual or guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md)
+[Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-installation.md)
 
 </td></tr><tr><td>
 
@@ -90,9 +90,9 @@ Configure the MID Servers for enabling the Discovery application to communicate 
 
 </td><td>
 
--   [Configuring access to CI data on your AWS account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-midserver-config-cloudin.md)
--   [Configuring access to CI data on your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.md)
--   [Configuring access to CI data on your Google Cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-in-midserver-config-gcp.md)
+-   [Configuring access to CI data on your AWS account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/aws-midserver-config-cloudin.md)
+-   [Configuring access to CI data on your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.md)
+-   [Configuring access to CI data on your Google Cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/cloud-in-midserver-config-gcp.md)
 
 </td></tr><tr><td>
 
@@ -104,8 +104,8 @@ Discover the service accounts, the credentials for accessing the accounts, and t
 
 </td><td>
 
--   [Using the Cloud Discovery application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-discovery-cloudin.md)
--   [Using the Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sgc-available.md)
+-   [Using the Cloud Discovery application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/aws-discovery-cloudin.md)
+-   [Using the Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sgc-available.md)
 
 </td></tr><tr><td>
 
@@ -117,9 +117,9 @@ Provide the Cloud Cost Management application access to the billing and usage da
 
 </td><td>
 
--   [Set up access to AWS billing and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-billing-usage-data.md)
--   [Set up access to Microsoft Azure billing and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-billing-usage-data.md)
--   [Set up access to Google Cloud billing and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/google-cloud-billing-data.md)
+-   [Set up access to AWS billing and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/aws-billing-usage-data.md)
+-   [Set up access to Microsoft Azure billing and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/azure-billing-usage-data.md)
+-   [Set up access to Google Cloud billing and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/google-cloud-billing-data.md)
 
 </td></tr><tr><td>
 
@@ -131,9 +131,9 @@ Enable Cloud Cost Management to download and store price sheet data of the used 
 
 </td><td>
 
--   [Schedule and manage the Cloud Cost Management jobs that download AWS price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-pricesht-sched-dwnld-cloudin.md)
--   [Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.md)
--   [Schedule and manage the Cloud Cost Management jobs that download Google Cloud price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-pricesht-sched-dwnld-cloudin.md)
+-   [Schedule and manage the Cloud Cost Management jobs that download AWS price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/aws-pricesht-sched-dwnld-cloudin.md)
+-   [Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/azure-pricesht-sched-dwnld-cloudin.md)
+-   [Schedule and manage the Cloud Cost Management jobs that download Google Cloud price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/gcp-pricesht-sched-dwnld-cloudin.md)
 
 </td></tr><tr><td>
 
@@ -145,11 +145,11 @@ Configure the Cloud Cost Management features to rightsize, identify, assign, man
 
 </td><td>
 
--   [Commitments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/ri-cloudin.md)
--   [Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/rs-cloudin.md)
--   [Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/um-cloudin.md)
--   [Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/bh-cloudin.md)
--   [Unassigned resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/ur-cloudin.md)
+-   [Commitments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/ri-cloudin.md)
+-   [Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/rs-cloudin.md)
+-   [Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/um-cloudin.md)
+-   [Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/bh-cloudin.md)
+-   [Unassigned resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/ur-cloudin.md)
 
 </td></tr><tr><td>
 
@@ -161,7 +161,7 @@ Gain visibility into your total cloud consumption, reduce costs, and optimize op
 
 </td><td>
 
-[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 
 </td></tr></tbody>
 </table>

@@ -3,11 +3,11 @@ title: Step 6. Create business rules for a Security Case
 description: Create required business rules for a Security Case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/creating-required-business-rules-for-security-case.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rollup example use case implementation for a Security Case, Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -51,5 +51,5 @@ Business rules for the new source table:
     -   Sync up team info on delete
     -   Sync up team info on update
 
-**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-case-for-a-security-case.md)
+**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-case-for-a-security-case.md)
 

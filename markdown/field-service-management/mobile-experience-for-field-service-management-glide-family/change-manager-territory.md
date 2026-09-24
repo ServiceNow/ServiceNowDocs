@@ -3,11 +3,11 @@ title: Change Field Service Manager Mobile to use assignment groups or territori
 description: Administrators can change Field Service Manager Mobile to show territories instead of assignment groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/change-manager-territory.html
-release: australia
+release: brazil
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
@@ -40,5 +40,5 @@ By default Field Service Manager Mobile uses assignment groups.
 **Related topics**  
 
 
-[Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md)
+[Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md)
 

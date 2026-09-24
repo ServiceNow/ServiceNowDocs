@@ -3,11 +3,11 @@ title: Create a quality standard for your enterprise asset calibrations
 description: Create a quality standard to indicate the requirements and guidelines that you must follow while performing your enterprise asset calibrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-calibration-quality-standard.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -24,17 +24,19 @@ Role required: sn\_eam.enterprise\_admin
 
 You can specify the calibrations that are required for your enterprise assets by using calibration attributes. When you create a calibration attribute, you can apply a quality standard to indicate the set of requirements and guidelines that you must follow during the associated calibrations. By following a quality standard, you can achieve consistent, reliable, and accurate calibrations across your deployment.
 
-For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
+For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
 
 ## Procedure
 
-1.  From the Enterprise Asset Workspace, open the Admin center view.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  From the left navigation menu of the Admin center view, navigate to **Calibration configuration** &gt; **Quality standard**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  From the navigation panel of the Admin center view, navigate to **Calibration configuration** &gt; **Quality standard**.
 
-4.  On the form, fill in the fields.
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -44,7 +46,7 @@ For more details on calibration attributes, see [Add calibration attributes to a
     |Valid to|Date on which the quality standard is no longer valid.|
     |Description|Detailed description of the quality standard.|
 
-5.  Select **Save**.
+6.  Select **Save**.
 
 
 ## Result

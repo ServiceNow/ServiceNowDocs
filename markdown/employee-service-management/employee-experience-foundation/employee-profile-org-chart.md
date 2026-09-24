@@ -3,11 +3,11 @@ title: Organization chart in Employee Center Pro
 description: Using org chart, learn more about other employees and understand team structures at the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-profile-org-chart.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup task management, Configuring Employee Center Pro, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -26,16 +26,16 @@ As an admin, you can perform the following org chart configuration steps:
 -   Configure the eligible users and employee card display settings.
 -   Populate the direct report count and other report count through scheduled jobs.
 
-    **Note:** If the other report count is zero, new reports aren’t displayed until the count is updated by the scheduled job. For more information on running the job, see [Update the report count based on eligible users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/update-report-count.md).
+    **Note:** If the other report count is zero, new reports aren’t displayed until the count is updated by the scheduled job. For more information on running the job, see [Update the report count based on eligible users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/update-report-count.md).
 
 -   Display the total report count in the selected user card and skip level reports.
 -   Define quick actions based on the org chart action group.
 -   Add an employee role and manage the reporting hierarchy.
 
-**Note:** Employee Center Pro customers get the new org chart on opting into the Employee Profile. Mark the Page Route Map record as active. All previous org chart links redirect to the new org chart. See [Opt in to the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/profile-opt-in.md) for more information.
+**Note:** Employee Center Pro customers get the new org chart on opting into the Employee Profile. Mark the Page Route Map record as active. All previous org chart links redirect to the new org chart. See [Opt in to the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/profile-opt-in.md) for more information.
 
 **Related topics**  
 
 
-[Modify the org chart widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-orgchart-instanceoptions.md)
+[Modify the org chart widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/config-orgchart-instanceoptions.md)
 

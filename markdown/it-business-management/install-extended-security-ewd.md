@@ -3,9 +3,9 @@ title: Install Extended Security for Enterprise-Wide Deployment
 description: You can install the Extended Security for Enterprise-Wide Deployment application \(sn\_spm\_ewd\_sec\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/install-extended-security-ewd.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -27,9 +27,9 @@ Role required: admin
 
 2.  Find the Extended Security for Enterprise-Wide Deployment application \(sn\_spm\_ewd\_sec\) using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
+    You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    A list of the versions available to you are displayed.
+    A list of the available versions available are displayed.
 
 3.  Select a version from the list and select **Install**.
 

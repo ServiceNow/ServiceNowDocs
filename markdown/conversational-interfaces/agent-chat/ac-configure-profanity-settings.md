@@ -3,11 +3,11 @@ title: Configuring Profanity Filter
 description: Configure the Profanity Filter for Agent Chat to detect flagged words in the manner that best suits your company's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ac-configure-profanity-settings.html
-release: australia
+release: brazil
 product: Agent Chat
 classification: agent-chat
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
@@ -215,5 +215,5 @@ Name of the user who most recently updated the message.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
+**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

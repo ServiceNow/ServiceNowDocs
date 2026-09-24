@@ -3,9 +3,9 @@ title: Manage potential knowledge gaps
 description: Learn how to review and resolve potential knowledge gaps in the Knowledge Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/address-knowledge-gaps.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,13 +18,13 @@ Learn how to review and resolve potential knowledge gaps in the Knowledge Center
 
 Role required: admin.
 
-Suggested reading: [Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
+Suggested reading: [Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 
 ## About this task
 
 Potential gaps also known as Knowledge gaps represent missing documentation for recurring issues. If it’s unresolved, these gaps lead to repeated incidents and higher support costs. Addressing gaps promotes comprehensive coverage, reduces ticket volume, and enhances self-service adoption.
 
-**Note:** Currently, the Potential Gap feature is supported only in CSM and ITSM products.
+**Note:** Currently, the Potential Gap feature is supported only in CSM, ITSM, and HR products.
 
 ## Procedure
 
@@ -57,5 +57,5 @@ The selected gap is updated or resolved, improving knowledge coverage and reduci
 **Related topics**  
 
 
-[Potential knowledge gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/understanding-knowledge-gaps.md)
+[Potential knowledge gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/understanding-knowledge-gaps.md)
 

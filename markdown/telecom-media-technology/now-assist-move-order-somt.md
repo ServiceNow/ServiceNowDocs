@@ -3,9 +3,9 @@ title: ServiceNow Otto for Sales Customer Relationship Management for Telecommun
 description: Use this agent to automatically create a customer move order capture journey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-move-order-somt.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Standalone AI agents, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -29,9 +29,9 @@ To create a move order, AI agent collects these details:
 -   Product or services to be moved
 -   New service location
 
-To integrate AI agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
+To integrate AI agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
 
-To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-tool-aia.md) for details.
+To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-tool-aia.md) for details.
 
 Role required: sn\_customerservice.consumer
 
@@ -45,7 +45,7 @@ To configure the AI agent:
 2.  In ServiceNow Otto Voice Deployment tile, select **Edit**.
 3.  Select **Settings** tab and review the details.
 
-To create SoftPIN, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-soft-pin.md).
+To create SoftPIN, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-soft-pin.md).
 
 ## Move order voice AI agent
 

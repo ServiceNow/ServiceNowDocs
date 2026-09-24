@@ -3,11 +3,11 @@ title: Menu types
 description: By changing the Type field on the navigation menu block, you can format the same menu in different ways.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/r\_MenuTypes.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a navigation menu block, Types of content blocks, Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -26,8 +26,8 @@ By changing the **Type** field on the navigation menu block, you can format the 
 |Vertical List|\[Omitted image "CMSMenuVerticallist.png"\] Alt text: CMS menu vertical list|The vertical list menu renders the menu sections as headings with menu items as links below them.|
 |Vertical Blocks|\[Omitted image "CMSMenuVerticalblocks.png"\] Alt text: CMS menu vertical blocks|The vertical blocks menu renders the menu sections as block headings with menu items as links within the block. The blocks are arranged vertically.|
 
--   **[Menu style customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CustomizeTheMenuStyle.md)**  
+-   **[Menu style customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_CustomizeTheMenuStyle.md)**  
 You can customize menu styles in the style sheets your site uses.
 
-**Parent Topic:**[Create a navigation menu block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateNavigationMenuBlock.md)
+**Parent Topic:**[Create a navigation menu block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_CreateNavigationMenuBlock.md)
 

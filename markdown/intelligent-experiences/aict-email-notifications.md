@@ -3,19 +3,19 @@ title: AI Control Tower email notifications
 description: Identify the email notifications that AI Control Tower sends automatically, the events that trigger each notification, and the recipients. These notifications keep AI Stewards, asset owners, and assignees informed so that they can take action promptly on AI asset approvals and lifecycle events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-email-notifications.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Control Tower, notifications, email, approval request]
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Control Tower email notifications
 
 Identify the email notifications that AI Control Tower sends automatically, the events that trigger each notification, and the recipients. These notifications keep AI Stewards, asset owners, and assignees informed so that they can take action promptly on AI asset approvals and lifecycle events.
 
-The notifications listed in this topic are part of the base system and are sent automatically when the trigger condition is met. To customize notification content or recipients, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+The notifications listed in this topic are part of the base system and are sent automatically when the trigger condition is met. To customize notification content or recipients, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md).
 
 ## AI asset approval request notifications
 
@@ -40,5 +40,5 @@ The following notification is sent when an AI asset transitions to a terminal li
 
 ## Related information
 
-For email notifications sent by AI Risk and Compliance workflows and inherited Risk Management processes, see [AI governance email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc_email_notifications.md).
+For email notifications sent by AI Risk and Compliance workflows and inherited Risk Management processes, see [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/airc_email_notifications.md).
 

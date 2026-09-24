@@ -3,9 +3,9 @@ title: Override metric data
 description: Modify or override the metric data if it's inaccurate, whether provided by the data owner or automatically collected based on the conditions defined in the metric definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/override-metric-data.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -43,5 +43,5 @@ After a metric data task is closed, the ESG administrator can modify the metric 
 
 The metric data task value is overridden and the same value is updated in the metric data.
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/using-grc-metrics.md)
 

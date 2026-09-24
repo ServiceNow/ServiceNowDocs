@@ -3,11 +3,11 @@ title: Create an expense line
 description: A project expense line is cost associated with a specific source, such as a user, fixed asset, or a CI. Expense lines are part of project cost plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateAExpenseLine.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,14 +38,14 @@ Only processed expense lines are considered for projects, project tasks, and dem
 
 5.  On the form, fill in the details.
 
-    For more information, see [Expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/expense-line-form.md).
+    For more information, see [Expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/expense-line-form.md).
 
 6.  Select **Submit**.
 
     **Note:**
 
-    -   Imported processed expense lines are not rolled up to the Total actual cost field in Cost Plans.
-    -   If you change the **Amount** of a Pending expense line and change the state to Processed, the latest value is captured in expense line and the same is rolled up to Total actual costs in Cost Plans.
+    -   Imported processed expense lines aren't rolled up to the Total actual cost field in Cost Plans.
+    -   If you change the **Amount** of a Pending expense line and change the state to Processed, the latest value is captured in the expense line. This value is rolled up to Total actual costs in Cost Plans.
 
 ## Result
 
@@ -53,9 +53,9 @@ Once the expense line is processed, the actual amount incurred becomes part of t
 
 The actual amount spent is recorded against the project cost plan under the appropriate expense type: **Capex** or **Opex**. Not providing a cost plan reference when creating an expense line, the actual cost is recorded at the project level in the cost plan related list.
 
-If you create an expense line without populating the **Cost Plan** field, a [system-generated cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-breakdown.md) is created.
+If you create an expense line without populating the **Cost Plan** field, a [system-generated cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/cost-plan-breakdown.md) is created.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -75,6 +75,10 @@ If you create an expense line without populating the **Cost Plan** field, a [sys
 [Recalculating costs of all resource plans in a project]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

@@ -3,10 +3,10 @@ title: Set up entities for the targets
 description: Set up an entity record in the instance and map it to an incident or security incident. You can map one or multiple entities to the selected incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-entities-for-targets.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -20,7 +20,9 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
 ## About this task
 
-When an entity is mapped to an incident or security incident, the DRI case creation flow on the incident entity insert or SIR entity insert runs. A case is created automatically in the Digital Resilience Incident Reporting module with the prebuilt flow. For information on the flows, see [Configure Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.md).
+When an entity is mapped to an incident or security incident, a flow runs. The flow is either 'DRI case creation on incident entity insert' or 'DRI case creation on SIR entity insert'.
+
+This automatically creates a Digital Resilience Incident Reporting case in the Digital Resilience Incident Reporting module. For information on the flows, see [Configure Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.md).
 
 ## Procedure
 

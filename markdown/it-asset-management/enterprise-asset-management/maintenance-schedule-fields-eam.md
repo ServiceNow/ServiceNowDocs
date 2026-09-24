@@ -3,11 +3,11 @@ title: Maintenance schedule fields for Enterprise Asset Management
 description: A detailed description of all maintenance schedule fields in the Enterprise Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/maintenance-schedule-fields-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
@@ -149,7 +149,7 @@ Filter conditions that trigger the maintenance to run
 |-----|-----------|
 |Script|Script specifying the advanced criteria that triggers the maintenance to run.|
 
-**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Dynatrace advanced settings fields
 description: Populate the pull connector advanced settings fields to optimize event retrieval and synchronization based on specific requirements such as connection preferences, event frequency, and time zone settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/dynatrace-advanced-settings-fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ITOM AIOps reference, ITOM AIOps, IT Operations Management]
 ---
@@ -128,5 +128,5 @@ Protocol
 Communication protocol used for retrieving events from Dynatrace server.Default: https
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Configure Dynatrace metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-dynatrace-metric-pull-connector.md).
+</table>To return to the procedure, see [Configure Dynatrace metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-dynatrace-metric-pull-connector.md).
 

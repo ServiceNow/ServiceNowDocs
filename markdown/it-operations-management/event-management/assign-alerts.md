@@ -3,13 +3,13 @@ title: Assign alerts in Express List
 description: Assign alerts in Express List to yourself, to someone else, or to an assignment group to balance your organization's work load.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/assign-alerts.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assign and manage alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Assign alerts in Express List
@@ -38,15 +38,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d576402e133">
+<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d580814e133">
 
 Assignment
 
-</th><th align="left" id="d576402e136">
+</th><th align="left" id="d580814e136">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d576402e142">
+</th></tr></thead><tbody><tr><td id="d580814e142">
 
 **Yourself**
 
@@ -54,7 +54,7 @@ Actions
 
 Select **Assign to you** and then select **OK**.
 
-</td></tr><tr><td id="d576402e157">
+</td></tr><tr><td id="d580814e157">
 
 **Someone else**
 
@@ -66,7 +66,7 @@ Select **Assign to you** and then select **OK**.
 4.  Select the **Assign &lt;number&gt; alerts** button.
 
 
-</td></tr><tr><td id="d576402e193">
+</td></tr><tr><td id="d580814e193">
 
 **Assignment group**
 

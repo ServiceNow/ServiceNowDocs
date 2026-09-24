@@ -3,9 +3,9 @@ title: Get a development instance
 description: Request a personal development instance to build and test applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/get-dev-instance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -37,5 +37,5 @@ Get a free ServiceNow personal developer instance \(PDI\). Build applications wi
 6.  Follow the instructions to obtain your personal developer instance.
 
 
-**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/personal_developer_instance_guide.md)
 

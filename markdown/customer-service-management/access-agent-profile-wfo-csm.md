@@ -3,9 +3,9 @@ title: Access your profile from CSM Agent Workspace
 description: Track and monitor the real-time status of your work by accessing your profile in CSM Agent Workspace. You can track information such as how many cases and interactions you have closed and how many you are actively working on. You can also view the roles and groups to which you belong and see information about your manager and teammates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/access-agent-profile-wfo-csm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workforce Optimization for CSM Agent Workspace, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Track and monitor the real-time status of your work by accessing your profile in
 
 ## Before you begin
 
-**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md).
+**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configurable-wfo-cs.md).
 
 Role required: sn\_wfo\_csm.employee
 
@@ -36,15 +36,15 @@ Access your profile to analyze information such as:
 
 2.  Click the Lists icon.
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d280302e134">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d286305e134">
 
 To
 
-</th><th align="left" id="d280302e137">
+</th><th align="left" id="d286305e137">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d280302e143">
+</th></tr></thead><tbody><tr><td id="d286305e143">
 
 **Access your profile from a case record**
 
@@ -54,7 +54,7 @@ Do this
 2.  In the **Assigned** column, select your name.
 The profile page appears. In that page, you can access all the information related to your profile.
 
-</td></tr><tr><td id="d280302e170">
+</td></tr><tr><td id="d286305e170">
 
 **Create your profile for centralized access**
 
@@ -69,7 +69,7 @@ The profile page appears. In that page, you can access all the information relat
 7.  Click **Create**.
  The workspace adds your profile to the **My Lists** tab.
 
-For information on creating a list, see [Administering lists for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-lists-configurable-workspace.md)
+For information on creating a list, see [Administering lists for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/administer-lists-configurable-workspace.md)
 
 </td></tr></tbody>
 </table>

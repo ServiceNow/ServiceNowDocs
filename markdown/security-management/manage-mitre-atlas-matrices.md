@@ -3,9 +3,9 @@ title: View and activate a MITRE ATLAS matrix
 description: View the tactics and techniques in an imported MITRE ATLAS matrix to understand available threat intelligence data. You can activate the matrix to make it available for use in threat analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/manage-mitre-atlas-matrices.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MITRE ATLAS framework, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -41,5 +41,5 @@ Role required: sn\_ti.admin \(delete access\) or sn\_ti.read \(read access\) or 
 
 ## What to do next
 
-You can [extend the information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-and-extend-information.md) in some of these related list objects based on the technique that you selected. For example, you can add new information for Group, Mitigation, External References, Malware, and Tools.
+You can [extend the information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/view-and-extend-information.md) in some of these related list objects based on the technique that you selected. For example, you can add new information for Group, Mitigation, External References, Malware, and Tools.
 

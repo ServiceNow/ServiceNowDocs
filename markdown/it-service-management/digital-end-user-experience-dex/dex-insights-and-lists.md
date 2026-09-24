@@ -1,19 +1,19 @@
 ---
-title: DEX insights and lists
+title: Setting up DEX insights and lists
 description: DEX enables visibility and insight into the state and performance of the user applications and devices. You can view system compliance, manage files, and perform other operations as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-insights-and-lists.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [dex insights, insights and lists, system compliance, file management, device performance visibility]
 breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
 ---
 
-# DEX insights and lists
+# Setting up DEX insights and lists
 
 DEX enables visibility and insight into the state and performance of the user applications and devices. You can view system compliance, manage files, and perform other operations as needed.
 

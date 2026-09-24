@@ -3,11 +3,11 @@ title: Troubleshoot workflows
 description: Troubleshooting tools for workflows enable administrators to isolate execution paths, compare contexts, and track incomplete activities.Use the controls in a workflow timeline to isolate specific execution paths or compare multiple execution paths over time.Highlight execution paths and rollbacks to locate activities that may have been left in an unresolved state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_TroubleshootWorkflows.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic Workflow, Build workflows]
 ---
@@ -18,9 +18,9 @@ Troubleshooting tools for workflows enable administrators to isolate execution p
 
 **Important:** As of the Zurich release, new customers no longer receive the legacy workflows created and published by ServiceNow, Inc.. All legacy workflow functionality has been replaced by Workflow Studio content. Only customers who upgraded from prior versions retain the ability to use and edit existing legacy workflows. While all customers retain the ability to create legacy workflows, you are strongly encouraged to instead use Workflow Studio to create process automation content. Only Workflow Studio will receive new features and enhancements.
 
-The workflow timeline provides a visual representation of the workflow, including transitions and the elapsed time for each activity. A troubleshooting tool for highlighting execution paths helps users perform forensics on a workflow. The highlighting feature can group multiple execution paths in various colors and can isolate [rollback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ApprovalAndRollbackActivities.md) processing. Use the workflow highlighter to isolate incomplete tasks and approvals. You can also enable a workflow performance timing feature to troubleshoot slow workflows.
+The workflow timeline provides a visual representation of the workflow, including transitions and the elapsed time for each activity. A troubleshooting tool for highlighting execution paths helps users perform forensics on a workflow. The highlighting feature can group multiple execution paths in various colors and can isolate [rollback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ApprovalAndRollbackActivities.md) processing. Use the workflow highlighter to isolate incomplete tasks and approvals. You can also enable a workflow performance timing feature to troubleshoot slow workflows.
 
-**Parent Topic:**[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md)
+**Parent Topic:**[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md)
 
 ## Execution path troubleshooting in timelines
 
@@ -33,7 +33,7 @@ Timelines show how the activities in the workflow progressed in relation to one 
 **Related topics**  
 
 
-[Workflow timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowTimelines.md)
+[Workflow timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/c_WorkflowTimelines.md)
 
 ## Execution history table
 

@@ -3,11 +3,11 @@ title: Configure properties for Hardware Vulnerability Assessment
 description: Configure the properties required to perform hardware vulnerability assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-hva-properties.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_vul.manage\_exposure\_assessment and admin
 
 2.  Perform the following configurations.
 
-<table id="choicetable_gnl_snc_xfc"><thead><tr><th align="left" id="d62369e113">
+<table id="choicetable_gnl_snc_xfc"><thead><tr><th align="left" id="d62501e113">
 
 Property
 
-</th><th align="left" id="d62369e116">
+</th><th align="left" id="d62501e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62369e122">
+</th></tr></thead><tbody><tr><td id="d62501e122">
 
 **`sn_vul_analyst.auto_create_vits`: This property determines if new vulnerable item records will be created automatically for fully matched hardware vulnerability assessments. When set to true, new vulnerable item records are created automatically for fully matched hardware vulnerability assessments.
 
@@ -50,7 +50,7 @@ Select **Yes**.
 
  Deselect if you want to create vulnerable items \(VITs\) manually.
 
-</td></tr><tr><td id="d62369e154">
+</td></tr><tr><td id="d62501e154">
 
 **`sn_vul_analyst.assess_unmapped_disc_models`: Enabling this property includes discovery models without CPE mappings in the assessment.
 
@@ -62,7 +62,7 @@ The default value is **No**.
 
  Select **Yes** to perform vulnerability assessments for discovery models of OT devices that aren’t CPE-mapped.
 
-</td></tr><tr><td id="d62369e180">
+</td></tr><tr><td id="d62501e180">
 
 **`hva_confidence_score_threshold`: This property controls the minimum confidence score threshold required for creation of vulnerability assessments. Only matches with scores equal to or above this threshold will generate vulnerability assessments. The threshold value must be a decimal number between 0.0 and 1.0. Default value OOB is 0.75.
 
@@ -80,5 +80,5 @@ Edit the value according to your requirement.
 </table>3.  Select **Save**.
 
 
-**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
+**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 

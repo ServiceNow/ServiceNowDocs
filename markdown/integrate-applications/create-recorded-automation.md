@@ -3,9 +3,9 @@ title: Record an automation
 description: Record an automation by using the recorder option in the RPA Desktop Design Studio application. The actions that you perform on the application elements can be saved as an automation flow to the automation project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-recorded-automation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Recording automations, Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -18,8 +18,8 @@ Record an automation by using the recorder option in the RPA Desktop Design Stud
 
 You must do the following actions before you start recording an automation with the recorder for the first time:
 
--   Install and enable the ServiceNow RPA Chrome extension to your Google Chrome browser. For more information on adding the RPA Google Chrome extension, see [Add the ServiceNow RPA Chrome extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/add-google-chrome-extension-rpa.md).
--   Install and enable the ServiceNow RPA Edge extension to your Microsoft Edge browser. For more information on adding the RPA Edge extension, see [Add the ServiceNow RPA Edge extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/add-servicenow-edge-extension.md).
+-   Install and enable the ServiceNow RPA Chrome extension to your Google Chrome browser. For more information on adding the RPA Google Chrome extension, see [Add the ServiceNow RPA Chrome extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/add-google-chrome-extension-rpa.md).
+-   Install and enable the ServiceNow RPA Edge extension to your Microsoft Edge browser. For more information on adding the RPA Edge extension, see [Add the ServiceNow RPA Edge extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/add-servicenow-edge-extension.md).
 -   Ensure that the option **Allow this extension to read and change all your data on websites that you visit** to **On all sites** is enabled in the Site access pane of the ServiceNow RPA Google Chrome and Microsoft Edge browser extensions.
 -   Enable Java Access Bridge from your Windows machine. For more information on how to enable Java Access Bridge, see [Enabling and Testing Java Access Bridge](https://docs.oracle.com/javase/7/docs/technotes/guides/access/enable_and_test.html).
 
@@ -53,7 +53,7 @@ Role required: None
 
     For example, the list of related actions for the button element type are SendKeys, GetText, DoubleClick, and Focus.
 
-    For more information on the different types of actions and elements, see [Types of elements and actions for the recorder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/element-actions-recorder.md).
+    For more information on the different types of actions and elements, see [Types of elements and actions for the recorder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/element-actions-recorder.md).
 
 5.  Select the required action to be performed on the element.
 
@@ -61,15 +61,15 @@ Role required: None
 
 6.  Do any of the following options for a desired action.
 
-<table id="choicetable_vmv_2f1_5rb"><thead><tr><th align="left" id="d148603e258">
+<table id="choicetable_vmv_2f1_5rb"><thead><tr><th align="left" id="d147332e258">
 
 Option
 
-</th><th align="left" id="d148603e261">
+</th><th align="left" id="d147332e261">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d148603e267">
+</th></tr></thead><tbody><tr><td id="d147332e267">
 
 **Highlight the parent of an element**
 
@@ -79,7 +79,7 @@ Select the Highlight parent element icon \(\[Omitted image "hightlight-parent.pn
 
 \[Omitted image "highligh-parent-element.gif"\] Alt text: When the parent table is highlighted, the Highlight parent element option for a button in a toolbar.
 
-</td></tr><tr><td id="d148603e301">
+</td></tr><tr><td id="d147332e301">
 
 **Pause the recording**
 
@@ -87,7 +87,7 @@ Select the Highlight parent element icon \(\[Omitted image "hightlight-parent.pn
 
 Select the Pause recording icon \(\[Omitted image "pause-recording.png"\] Alt text: Pause recording icon.\).
 
-</td></tr><tr><td id="d148603e316">
+</td></tr><tr><td id="d147332e316">
 
 **View the Recorded actions pane**
 
@@ -95,7 +95,7 @@ Select the Pause recording icon \(\[Omitted image "pause-recording.png"\] Alt te
 
 Select the Show recorded steps icon \(\[Omitted image "show-recorded-steps.png"\] Alt text: Show recorded steps icon.\).You can verify the actions that you performed on the application elements from here.
 
-</td></tr><tr><td id="d148603e333">
+</td></tr><tr><td id="d147332e333">
 
 **Know more about the recorder feature**
 
@@ -103,7 +103,7 @@ Select the Show recorded steps icon \(\[Omitted image "show-recorded-steps.png"\
 
 Select the Help icon \(\[Omitted image "help-recorder-rpa-icon.png"\] Alt text: Help icon.\) that navigates to the product documentation web page.
 
-</td></tr><tr><td id="d148603e349">
+</td></tr><tr><td id="d147332e349">
 
 **Delete a recorded action**
 
@@ -111,7 +111,7 @@ Select the Help icon \(\[Omitted image "help-recorder-rpa-icon.png"\] Alt text: 
 
 Point to the action and select the Delete action icon \(\[Omitted image "delete-action-icon.png"\] Alt text: Delete action icon.\).
 
-</td></tr><tr><td id="d148603e364">
+</td></tr><tr><td id="d147332e364">
 
 **Delete all the recorded actions from the Recorded actions pane**
 
@@ -119,7 +119,7 @@ Point to the action and select the Delete action icon \(\[Omitted image "delete-
 
 Select **Delete all**.
 
-</td></tr><tr><td id="d148603e376">
+</td></tr><tr><td id="d147332e376">
 
 **Edit the recorded action or element details**
 
@@ -181,8 +181,8 @@ You can view the recorded elements as a UAC object in **Global Objects** in Proj
 
 2.  Configure the screens and the elements of the recording from the Screens and elements pane.
 
-    For more information on how to configure the screen and element match rules, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-uac.md).
+    For more information on how to configure the screen and element match rules, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-uac.md).
 
 
-**Parent Topic:**[Recording automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/recording-automations.md)
+**Parent Topic:**[Recording automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/recording-automations.md)
 

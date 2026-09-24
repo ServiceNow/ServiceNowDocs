@@ -3,9 +3,9 @@ title: Add additional contacts for the sold product
 description: Add additional contacts for the B2B \(accounts or contacts\) or B2B2C sold product by defining the type and responsibility. Once added, additional contacts have the same access to the contact associated with the sold product and the related entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/adding-additional-contacts-soldproduct.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Adding related parties to a sold product, Using customer access management, Customer management, Use, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Add additional contacts for the B2B \(accounts or contacts\) or B2B2C sold produ
 
 ## Before you begin
 
-**Note:** Additional contacts can be enabled using the **Restrict Contact Access** field. For details, see [Restrict contact access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-account-access-cam.md).
+**Note:** Additional contacts can be enabled using the **Restrict Contact Access** field. For details, see [Restrict contact access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-account-access-cam.md).
 
 Role required: admin and sn\_customerservice\_manager
 
@@ -74,7 +74,7 @@ Responsibility
 
 </td><td>
 
-Access level to the sold product and related information.Additional contact with Authorized Representative responsibility requires the sn\_install\_base.sold\_product\_authorized\_contact role to get access to associated sold product and related entities. For details, see [Roles installed with customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md).
+Access level to the sold product and related information.Additional contact with Authorized Representative responsibility requires the sn\_install\_base.sold\_product\_authorized\_contact role to get access to associated sold product and related entities. For details, see [Roles installed with customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md).
 
  **Note:** If the **Responsibility** field is empty, contacts won’t have any access to the sold product and associated case.
 

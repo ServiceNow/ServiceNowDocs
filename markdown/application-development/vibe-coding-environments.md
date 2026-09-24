@@ -3,9 +3,9 @@ title: Agentic development in ServiceNow AI Platform environments
 description: You can develop apps agentically with AI tools on the ServiceNow AI Platform in a safe, isolated environment using a non-production instance with Developer Sandboxes, or on a Personal Developer Instance \(PDI\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-environments.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [vibe coding, AI-assisted development, Developer Sandboxes, Personal Developer Instance, PDI, Build Agent, development environment, AI tools, non-production instance, isolated environment, parallel development, version control, Git workflows, metadata copy, ServiceNow SDK, VS Code]
 breadcrumb: [Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -45,7 +45,7 @@ Agentic development works with Developer Sandboxes in the following ways:
 -   Agentic development accelerates app creation, while Developer Sandboxes provide a safe space to experiment with AI-generated changes.
 -   Every agentic change in a sandbox can be tracked, previewed, and rolled back to maintain governance and compliance.
 
-For more information on Developer Sandboxes, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/sandboxes-landing.md).
+For more information on Developer Sandboxes, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/sandboxes-landing.md).
 
 ## PDIs and agentic development
 
@@ -56,7 +56,7 @@ A Personal Developer Instance \(PDI\) is a free, standalone ServiceNow instance 
 -   PDIs support learning prompting patterns, testing AI-generated apps, and refining workflows before moving to Developer Sandboxes or sub-production instances.
 -   For production-grade work, use Developer Sandboxes instead, which are exact copies of customer instances and support source control integration.
 
-For more information on PDIs, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md).
+For more information on PDIs, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/personal_developer_instance_guide.md).
 
-**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-using.md)
+**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-using.md)
 

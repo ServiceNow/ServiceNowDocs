@@ -3,10 +3,10 @@ title: Create a log source configuration
 description: Regulate and set filters on the logs to be forwarded by creating a log source configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/les-create-source-configuration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Administer, Log Export Service \(LES\), Platform Security]
 ---
 
@@ -20,11 +20,11 @@ Role required: admin or sn\_logstoanalytics.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Log Export Service**.
+1.  Navigate to **All** &gt; **Log Export Service** &gt; **Sources**.
 
     A list of source configurations shows up.
 
-2.  Select **New** if you want to create a new source configuration.
+2.  Select **New** to create a new source configuration.
 
     You can also select an existing source configuration if you want to modify it.
 
@@ -48,7 +48,7 @@ Source Type
 
 Types of log sources-   Node Log
 -   Table
-See [Log sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-log-sources-export.md) for more information.
+See [Log sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-log-sources-export.md) for more information.
 
 </td></tr><tr><td>
 
@@ -64,6 +64,30 @@ A set of standard logging levels that can be used to control logging output. Fol
 
 </td></tr><tr><td>
 
+Table
+
+</td><td>
+
+Selection of table for exporting table type logs. For more information on supported tables, see [Log sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-log-sources-export.md).**Note:** This field is visible only when you select Table as the Source Type.
+
+</td></tr><tr><td>
+
+Filter Type
+
+</td><td>
+
+Conditions to forward logs selectively.**Note:** This field is visible only if you select syslog, sys\_audit, sys\_audit\_delete, or sys\_audit\_relation as the table.
+
+</td></tr><tr><td>
+
+Topic
+
+</td><td>
+
+Select an existing topic, or create a topic through the lookup icon. For more information on creating a topic, refer [Create source type and multi topics in the LES source table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-multi-topics-v2.md)
+
+</td></tr><tr><td>
+
 Accepts
 
 </td><td>
@@ -72,47 +96,51 @@ Specifies the format in which the logs are forwarded to Hermes. They can either 
 
 </td></tr><tr><td>
 
-Table
+Active
 
 </td><td>
 
-Selection of table for table type logs.**Note:** This field is visible only when you select Table as the Source Type.
-
-</td></tr><tr><td>
-
-Filter Type
-
-</td><td>
-
-Conditions to forward logs selectively.**Note:** This field is visible only if you select either syslog or sys\_audit as the table.
+Indicates whether the Source log is active.
 
 </td></tr></tbody>
-</table>4.  Review the Source Topics related list details.
+</table>4.  Complete the flow that matches the table you selected.
 
-    You can review each of the log tables and can create its own topics.
+    -   **Standard source**
 
-    **Note:** The related list is visible only if you select Log Table in the Filter Type field.
+        Select **Submit** to save the source configuration. The source details appear in the Sources list, where you can review its source type, table, topic, and active status.
 
-    The topic name is not auto-populated, and you can either select or create its own topics.
+        **Note:**
 
-5.  Select a topic for the log table.
+        -   Applies when you select Source type as Node Log and any table other than the syslog and sys\_audit tables.
+        -   The configuration is complete. Skip the remaining steps.
+    -   **syslog table**
 
-    You can either select an existing topic or can create a new topic for a log table.
+        When you select **Source type** as Table and syslog in the **Table** field:
 
-    1.  Select **New** to create a new source topic for a log table. The Source Topics form shows up.
-    2.  Select the required table in the Log Table field.
-    3.  Select the lookup icon in the Topic field.
+        **Note:** You can create multiple source topics for this selection.
 
-        **Note:** You can select an existing topic from the list. You can also create a new topic by selecting **New** in the Kafka Topics list. See [Create source type and multi topics in the LES source table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-multi-topics-v2.md) to create a new Kafka topic.
+        1.  Select the **Log level**.
+        2.  Select **Submit**. The **Source topics** related list appears, and the log export filters become available.
+        3.  Select **New** to create a new source topic.
+        4.  In the **Filter** field, select a value from the dropdown list.
+            -   **All**: No additional field appears.
+            -   **Application Family**, **Package**, or **Scope**: A corresponding lookup field appears. Select the lookup icon to select a value.
+        5.  In the **Topic** field, select an existing topic, or create a topic through the lookup icon. For more information on creating a topic, refer [Create source type and multi topics in the LES source table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-multi-topics-v2.md).
+        6.  Select **Submit**, and then review the source topics that you created.
+    -   **sys\_audit table with the Log table filter**
 
-    4.  Select **Submit** on the Source Topics form.
-6.  View the recently created log table and its corresponding topic in the Source Topics related list.
+        When you select the **Table** as sys\_audit and **Filter type** as Log table:
 
-7.  Select **Submit** to create a new source configuration.
+        **Note:** You can create multiple source topics for this selection.
 
+        1.  The **Source topics** related list appears, and the log export filters become available.
+        2.  Select **New** to create a new source topic.
+        3.  Select the required table in the **Log table** field using the lookup icon.
+        4.  In the **Topic** field, select an existing topic, or create a topic through the lookup icon. For more information on creating a topic, refer [Create source type and multi topics in the LES source table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-multi-topics-v2.md).
+        5.  Select **Submit**, and then review the source topics that you created.
 
--   **[Create source type and multi topics in the LES source table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-multi-topics-v2.md)**  
+-   **[Create source type and multi topics in the LES source table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-multi-topics-v2.md)**  
 Consume logs for each source type by creating multiple topics per source type. You can now leverage the option of customized selection of specific topics for different log sources during the debugging process, without impacting the other log tables.
 
-**Parent Topic:**[Administering Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-administer.md)
+**Parent Topic:**[Administering Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-administer.md)
 

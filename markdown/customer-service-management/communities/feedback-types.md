@@ -3,11 +3,11 @@ title: Community feedback types
 description: There are two supported feedback types: Upvote and Helpful.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/feedback-types.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
@@ -16,6 +16,10 @@ breadcrumb: [Configuring communities, Communities, Customer Service Management]
 
 There are two supported feedback types: Upvote and Helpful.
 
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Community users can provide feedback on the content they have access to in the community.
 
 |Feedback type|Description|
@@ -23,7 +27,7 @@ Community users can provide feedback on the content they have access to in the c
 |Helpful|Helpful feedback is associated to the following content types when a community users marks content as helpful: Blog, Video, Documents, Answer, Comment.|
 |Upvote|Upvote feedback is associated to the Question content type when a community user marks a question as helpful.|
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

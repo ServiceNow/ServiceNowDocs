@@ -3,9 +3,9 @@ title: Query Generation reference
 description: A list of ServiceNow Otto applications that come with Query Generation and the tables, jobs, and logs included in Query Generation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/query-generation-reference.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -14,18 +14,18 @@ breadcrumb: [Query Generation, ServiceNow Otto for Platform Analytics, Platform 
 
 A list of ServiceNow Otto applications that come with Query Generation and the tables, jobs, and logs included in Query Generation.
 
--   **[Supported chart types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-supported-charts.md)**  
+-   **[Supported chart types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-supported-charts.md)**  
 Query Generation and the applications that use it to generate data visualizations support these visualization types.
--   **[Supported query operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/qg-supported-query-operations.md)**  
+-   **[Supported query operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/qg-supported-query-operations.md)**  
 The following encoded query operators are supported for creating context objects.
--   **[Unsupported field types in Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-unsupported-field-types.md)**  
+-   **[Unsupported field types in Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-unsupported-field-types.md)**  
 Query Generation explicitly does not support some field types.
--   **[Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation-logs.md)**  
+-   **[Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/query-generation-logs.md)**  
 Every call to a Query Generator and its results are logged in the Query Generation Log \[sn\_query\_gen\_log\] table.
--   **[Roles, tables, and scheduled jobs included with Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/tables-sched-jobs-query-gen.md)**  
+-   **[Roles, tables, and scheduled jobs included with Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/tables-sched-jobs-query-gen.md)**  
 Several types of components are installed with Query Generation, including tables and scheduled jobs.
--   **[Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-properties.md)**  
+-   **[Query Generation properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-properties.md)**  
 The properties included with Query Generation apply to segments. They define whether the record or indicator that is the basis for a segment has been recently used or changed.
 
-**Parent Topic:**[Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation.md)
+**Parent Topic:**[Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/query-generation.md)
 

@@ -3,9 +3,9 @@ title: Mobile theme color guidelines
 description: Learn how the colors that you select in your mobile themes are applied on your mobile applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-theme-colors.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Legacy theming, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Legacy theming, Configuring the Mobile Platform, Mobile Platform]
 
 Learn how the colors that you select in your mobile themes are applied on your mobile applications.
 
-**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
+**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/explore-ne-theming.md).
 
 ## Color choice considerations
 

@@ -3,13 +3,13 @@ title: Using Client Secret value
 description: Use client secret value to configure the Graph application registry record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-client-secret-value.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Establish MS Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Establish Microsoft Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Using Client Secret value
@@ -31,10 +31,10 @@ Role required: admin
 4.  Copy and make a note of the created client secret from the **Value** field.
 
 
--   **[Establish a connection using client secret](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/establish-a-connection-using-client-secret.md)**  
+-   **[Establish a connection using client secret](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/establish-a-connection-using-client-secret.md)**  
 Establish a connection between newly created Microsoft Teams graph application with ServiceNow AI Platform instance.
--   **[Activate MS Teams chat connector for MS Teams Graph Spoke user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-microsoft-teams-chat-connector-for-existing-users.md)**  
+-   **[Activate MS Teams chat connector for MS Teams Graph Spoke user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/activate-microsoft-teams-chat-connector-for-existing-users.md)**  
 If you are an existing user, then follow the procedure in this section to activate Microsoft Teams chat connector for MS Teams Graph Spoke user.
 
-**Parent Topic:**[Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
+**Parent Topic:**[Establish Microsoft Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
 

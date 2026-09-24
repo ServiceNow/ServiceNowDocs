@@ -3,11 +3,11 @@ title: Table flattening
 description: Table flattening stores a hierarchy of related tables as one table in a relational database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_TaskTableFlattening.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -56,8 +56,8 @@ To find records in the Table per partition extension model, the system queries t
 
 The system uses the Table per partition extension model for the Base Configuration Item \[cmdb\] table hierarchy on MySQL databases. To use Table per partition on an Oracle database, contact Technical Support.
 
--   **[View a table hierarchy and the extension model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_TableHierarchyAndTheExtModel.md)**  
+-   **[View a table hierarchy and the extension model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/t_TableHierarchyAndTheExtModel.md)**  
 Determine the extension model used by a table.
 
-**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

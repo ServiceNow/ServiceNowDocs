@@ -3,11 +3,11 @@ title: Visualize circuits
 description: The network diagram in the Telecommunications Network Inventory application graphically displays a hierarchical map of the logical connection and its underlying connection elements. You can use the network diagram to get a detailed overview of the logical connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -33,7 +33,7 @@ A network diagram contains two panels:
 -   The map pane shows the map for a selected logical connection, revision of the logical connection, and protection path.
 -   The details pane shows related information of the logical connection according to the current selections.
 
-To learn more about how to use the network diagram, see [Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md).
+To learn more about how to use the network diagram, see [Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md).
 
 ## Map pane
 
@@ -46,7 +46,7 @@ You can perform the following actions in the map pane:
 -   View the protection paths of the logical connection.
 -   Use the zoom controls to zoom in and out of the map.
 
-To learn more, see [View the details of a network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/show-a-ci-related-details-network-diagram.md).
+To learn more, see [View the details of a network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/show-a-ci-related-details-network-diagram.md).
 
 ## Details pane
 

@@ -3,11 +3,11 @@ title: Data preparation
 description: It is important that there is enough data in the ServiceNow instance before you begin to build the CMS website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_PrepareTheData.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content Management design, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -21,5 +21,5 @@ Ensure that the necessary data and content are available in the instance by taki
 -   Review the ITIL processes that you intend to implement in the CMS. Ensure that the data in the instance is a mature representation of the applications being used, for example, service catalog, knowledge management, and incident management.
 -   Review the defined hierarchies, such as the categories and subcategories for the knowledge base or service catalog. You use these categories to design the entry page into the application.
 
-**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
+**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
 

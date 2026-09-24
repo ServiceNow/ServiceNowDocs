@@ -3,11 +3,11 @@ title: Create a problem \(legacy\)
 description: A problem is a cause of one or more incidents. Create a problem to identify the root cause of the incidents and try to prevent them from happening again.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/create-problem.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a problem, Managing Problems, Problem Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: itil
 
 1.  Create the problem with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d151402e54">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d152900e54">
 
 **From the Problem module**
 
@@ -32,7 +32,7 @@ Role required: itil
 
 Navigate to **Problem** &gt; **Create New**.
 
-</td></tr><tr><td id="d151402e72">
+</td></tr><tr><td id="d152900e72">
 
 **From an incident**
 
@@ -45,7 +45,7 @@ Navigate to **Problem** &gt; **Create New**.
 </td></tr></tbody>
 </table>2.  Complete the form, as appropriate.
 
-    For a description of the field values, see [Legacy Problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/legacy-problem-form.md).
+    For a description of the field values, see [Legacy Problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/legacy-problem-form.md).
 
 3.  To enter work notes for the problem, click the **Notes** tab.
 
@@ -64,5 +64,5 @@ Navigate to **Problem** &gt; **Create New**.
 
 Assess the problem.
 
-**Parent Topic:**[Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/create-a-problem-v2.md)
+**Parent Topic:**[Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/create-a-problem-v2.md)
 

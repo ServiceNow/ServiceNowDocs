@@ -3,13 +3,13 @@ title: Assess a Task Intelligence model
 description: Assessing a machine learning model's performance helps determine how to use and train the model to achieve your desired outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/assess-a-task-intelligence-model.html
-release: australia
+release: brazil
 product: Task Intelligence
 classification: task-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelligence, Enable AI experiences]
+breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Assess a Task Intelligence model
@@ -33,7 +33,7 @@ You can also use the Assess Your Model screen to choose one of the following pre
 
 ## Monitoring mode
 
-Monitoring mode allows you to monitor the performance of a model at the field level without the predictions being applied to records. The model runs in the background only and can be trained and retrained until you are satisfied with its performance. You can set the model fields to Monitoring mode from the Assess Your Model screen when [editing your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/edit-a-task-intelligence-model.md).
+Monitoring mode allows you to monitor the performance of a model at the field level without the predictions being applied to records. The model runs in the background only and can be trained and retrained until you are satisfied with its performance. You can set the model fields to Monitoring mode from the Assess Your Model screen when [editing your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/task-intelligence/edit-a-task-intelligence-model.md).
 
-You can view and track model performance with the Task Intelligence Admin Console. See [Task Intelligence Analytics and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/task-intelligence-analytics-and-monitoring.md).
+You can view and track model performance with the Task Intelligence Admin Console. See [Task Intelligence Analytics and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/task-intelligence/task-intelligence-analytics-and-monitoring.md).
 

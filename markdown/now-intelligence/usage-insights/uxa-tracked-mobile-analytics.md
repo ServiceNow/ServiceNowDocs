@@ -3,11 +3,11 @@ title: Tracked mobile analytics fields for Usage Insights
 description: Usage Insights collects data from mobile applications on your mobile device. These tables list fields that are tracked in the mobile applications. Reports and charts are generated from these fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-tracked-mobile-analytics.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and c
 
 Usage Insights collects data from mobile applications on your mobile device. These tables list fields that are tracked in the mobile applications. Reports and charts are generated from these fields.
 
-For more information about using the data, see [Viewing user analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/viewing-user-data.md).
+For more information about using the data, see [Viewing user analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/viewing-user-data.md).
 
 ## Collected data according to the mobile app session
 
@@ -88,5 +88,5 @@ You can add these events by calling client-side APIs. 
 |Property Name |Name of the user property \(string\) |English|
 |Property Value |Value of the user property \(string, Boolean, date, number\) |5|
 
-**Parent Topic:**[Tracked analytics fields and cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-tracked-fields-and-cookies.md)
+**Parent Topic:**[Tracked analytics fields and cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/uxa-tracked-fields-and-cookies.md)
 

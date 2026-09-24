@@ -3,9 +3,9 @@ title: View business impact analysis details
 description: Use the Details tab to view the general information of the business impact analysis. You can also adjust the recovery time objective and recovery point objective results of the primary element as per your requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-bia-details.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     -   **General Information**
 
-        View the general details of an assessment for the Business Impact Analysis. You can also view the template that you have used to create the BIA.
+        View the general details of a Business Impact Analysis assessment. Details include the BIA name, description, business unit, and department. View the template that you used to create the BIA.
 
     -   **Results**
 
@@ -43,12 +43,12 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
         -   **Recovery point objective** \(RPO\): Point in time at which the primary element must be restored following a disaster. It also indicates the maximum amount of data loss that a business can sustain during a disruptive event.
         -   **Adjusted RPO**: Edit this field to enter your RPO for the primary element.
 
-            **Note:** **Recovery point objective** and **Adjusted RPO** fields appear only if the primary element requires data backup and is flagged as **Yes** in the [Element Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-element-definitions.md).
+            **Note:** **Recovery point objective** and **Adjusted RPO** fields appear only if the primary element requires data backup and is flagged as **Yes** in the [Element Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-element-definitions.md).
 
         -   **Reason for adjusted RPO**: This field appears when you enter a value in the **Adjusted RPO** field. Enter the reason for adjusting the RPO value.
         -   **Confidentiality**, **Integrity**, and **Availability**: If the primary element includes critical data, then add Confidentiality, Integrity, and Availability \(CIA\) details. CIA details are basic security goals that the BIA must be compliant with. Non-compliance to these standards may lead not only to huge business and productivity loss but also credibility loss.
 
-            **Note:** The **Confidentiality**, **Integrity**, and **Availability** fields appear only if you have already set the **Include CIA** field as **Yes** in the [Configure a business impact analysis template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bia-template.md) that you have used.
+            **Note:** The **Confidentiality**, **Integrity**, and **Availability** fields appear only if you have already set the **Include CIA** field as **Yes** in the [Configure a business impact analysis template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-bia-template.md) that you have used.
 
             If you have not adjusted the RTO and RPO values, you can still view the system-calculated RTO and RPO values in their respective fields.
 
@@ -83,11 +83,11 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
         -   The new BIA that is copied from the original BIA has all the RTO, RPO impact, dependency assessment structural details similar to the original BIA.
         -   However, the impact category details for each of these assessments are editable for you to assess the dependency details exclusively for the copied BIA.
-        -   If the impact categories of RTO and RPO impact assessments in the original BIA are **Complete**, then the impact categories in the copied BIA are in the **Complete** state.
+        -   Impact categories in the copied BIA inherit the state from the original BIA. If the RTO and RPO impact assessments are in the **Complete** state in the original BIA, they are also **Complete** in the copied BIA.
         -   Therefore, you must assess and enter the disruption duration, response, and required recovery timeframe relevant to the copied BIA.
         -   You can assess the details in the **Results** section. The RTO and RPO values are recalculated after you complete the assessments.
         -   Activities and Work notes are not copied to the new BIA. Enter this information relevant to the new BIA.
-        -   Any attachments attached to the original BIA in any format are copied to the new BIA. However, the PDF generated for the original BIA using the **Generate PDF** button is not copied over to the new BIA as assessment data pertains to original BIA. Since you can modify the assessment details in the copied BIA and generate a PDF, copying the PDF generated for the original BIA has no relevance.
+        -   Any attachments attached to the original BIA in any format are copied to the new BIA. However, the PDF generated for the original BIA using the **Generate PDF** button will not be copied over to the new BIA. The assessment data pertain to the original BIA. You can modify the assessment details in the copied BIA and generate a new PDF. Therefore, copying the original PDF is not necessary.
         **Note:** You can delete a BIA and its related tables in the **Draft** state. The BCM planner and program manager can delete a BIA that is in the **In Review** and **Returned** states whereas, a BCM admin can delete a BIA irrespective of its state.
 
 

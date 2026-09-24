@@ -3,11 +3,11 @@ title: Enable external user self-registration for Service Portal
 description: Enable external users to register to a ServiceNow app through Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-self-registration.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,14 +22,14 @@ Role required: admin
 
 Complete the previous tasks:
 
-1.  [Activate External User Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/external-user-registration-plugin.md)
-2.  [Configure the registration form for an external user configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/external-user-configuration.md)
+1.  [Activate External User Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/external-user-registration-plugin.md)
+2.  [Configure the registration form for an external user configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/external-user-configuration.md)
 
 Role required: admin
 
 ## About this task
 
-External user self-registration enables a large group of users to register to a ServiceNow app without the help of an administrator. For more information, see [Enable external users to self-register to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/external-user-self-registration.md).
+External user self-registration enables a large group of users to register to a ServiceNow app without the help of an administrator. For more information, see [Enable external users to self-register to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/external-user-self-registration.md).
 
 ## Procedure
 
@@ -48,5 +48,5 @@ External user self-registration enables a large group of users to register to a 
 
 The login widget includes a link to the registration form that you previously configured.
 
-**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/portal-security.md)
+**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/portal-security.md)
 

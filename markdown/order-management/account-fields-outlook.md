@@ -3,9 +3,9 @@ title: Account form in the ServiceNow CRM for Outlook add-in
 description: Field descriptions for viewing or editing an account record from the ServiceNow CRM for Outlook add-in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/account-fields-outlook.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [account fields, ServiceNow CRM for Outlook]
 breadcrumb: [Activity Management reference, Sales automation, Reference, Sales Customer Relationship Management]
@@ -29,10 +29,10 @@ Field descriptions for viewing or editing an account record from the ServiceNow 
 |Zip / Postal code|Postal or ZIP code for the account address.|
 |Country|Country where the account is located.|
 
-**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)
+**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/activity-management-reference.md)
 
 **Related topics**  
 
 
-[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)
+[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/associate-email-crm-outlook.md)
 

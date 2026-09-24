@@ -3,11 +3,11 @@ title: Reviewing the Knowledge Management property for an Operational Technology
 description: As an administrator, you can configure the look and functionalities of Operational Technology \(OT\) knowledge bases with the Knowledge Management properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/reviewing-knowledge-management-properties.html
-release: australia
+release: brazil
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -37,7 +37,7 @@ List of roles \(comma-separated\) that can flag incomplete/inaccurate articles \
 Enter the role names exactly as they appear in **User Administration** &gt; **Roles**. If both the **Show article rating section** and **Show "Flag Article" option** properties are selected, the users with the roles listed in this property see the flag article option in the article view.All roles listed in this property must also be listed in the **List of roles that can see an article's rating section** property.
 
 </td></tr></tbody>
-</table>For more information about the other available Knowledge Management properties, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeProperties.md).
+</table>For more information about the other available Knowledge Management properties, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_KnowledgeProperties.md).
 
-**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
+**Parent Topic:**[Configuring Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.md)
 

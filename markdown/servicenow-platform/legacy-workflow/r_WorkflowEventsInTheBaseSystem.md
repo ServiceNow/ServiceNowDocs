@@ -3,11 +3,11 @@ title: Workflow events in the base system
 description: Several workflow events are available in the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_WorkflowEventsInTheBaseSystem.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Workflow events, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,12 +32,12 @@ Several workflow events are available in the base system.
 |pause|String value sent to a workflow from an SLA to pause the **Timer** activity.|When an SLA is paused, the SLA workflows must be paused if there is a timer running.|Use is exclusive to the SLA timer|SLA|Business rule thread, private mutex|**Timer** activity|
 |resume|String value used by the **Timer** activity to resume a paused timer \(see pause\).|When an SLA is resumed, the SLA workflows must be resumed as well.|Use is exclusive to the SLA timer.|SLA|Business rule thread, private mutex|**Timer** activity|
 
--   **[Glide events relative to workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_GlideEventsRelativeToWorkflows.md)**  
+-   **[Glide events relative to workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_GlideEventsRelativeToWorkflows.md)**  
 Workflow uses several Glide events.
--   **[Workflow event-specific functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowEventSpecificFunctions.md)**  
+-   **[Workflow event-specific functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_WorkflowEventSpecificFunctions.md)**  
 There are several functions that relate specifically to workflow events.
--   **[Event-specific workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_EventSpecificWorkflowActivities.md)**  
+-   **[Event-specific workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_EventSpecificWorkflowActivities.md)**  
 The following workflow activities trigger events.
 
-**Parent Topic:**[Workflow events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowEvents.md)
+**Parent Topic:**[Workflow events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/c_WorkflowEvents.md)
 

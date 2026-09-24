@@ -3,11 +3,11 @@ title: Enterprise asset disposal order stages
 description: An enterprise asset disposal order goes through various stages in the disposal process before it’s completed. With each stage, the task that's associated with that stage changes too.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/eamasset-disposalorder-stages.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
@@ -28,7 +28,7 @@ Closing a task in the asset disposal process completes that task and automatical
 |Completed|None|Asset disposal record request is completed.|
 |Cancelled|None|Disposal order can be canceled only until the transit stage.|
 
-**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

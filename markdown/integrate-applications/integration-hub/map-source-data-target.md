@@ -3,11 +3,11 @@ title: Map source data to a target table
 description: Specify how source data is transformed to your target tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/map-source-data-target.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Integration Hub - Import, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Specify how source data is transformed to your target tables.
 
 ## Before you begin
 
-[Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-data-source.md).
+[Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-data-source.md).
 
 Role required: admin or ih\_import.
 
@@ -42,7 +42,7 @@ Role required: admin or ih\_import.
         |-----|-----------|
         |Target table|Name of the table to transform your data to.|
         |Run table's business rules when importing|Option to run the target table's business rules when you import the data.|
-        |Run the import synchronously|Option to run the import synchronously. When data is transformed in parallel, and there are multiple source records with a specific coalesce value, checking this option ensures that only one record with that coalesce value is inserted at a time. For more information, see the Synchronized inserts section on the [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/concurrent-imports.md) page.|
+        |Run the import synchronously|Option to run the import synchronously. When data is transformed in parallel, and there are multiple source records with a specific coalesce value, checking this option ensures that only one record with that coalesce value is inserted at a time. For more information, see the Synchronized inserts section on the [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/concurrent-imports.md) page.|
 
     3.  Select **Save**.
 
@@ -94,7 +94,7 @@ Role required: admin or ih\_import.
         4.  Select **Done**.
     6.  Change or modify your data by applying transform functions.
 
-        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/transform-functions.md).
+        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/transform-functions.md).
 
         **Note:** Not all the transform functions available while creating flows and subflows are available in Integration Hub - Import.
 
@@ -109,7 +109,7 @@ Role required: admin or ih\_import.
 
 ## What to do next
 
-[Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/run-schedule-data-imports.md).
+[Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/run-schedule-data-imports.md).
 
-**Parent Topic:**[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
+**Parent Topic:**[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
 

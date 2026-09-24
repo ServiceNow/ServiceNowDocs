@@ -3,11 +3,11 @@ title: Create a KPI Composer project
 description: As the first step in using KPI Composer, create a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-kpi-composer-project.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -17,6 +17,10 @@ breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fu
 As the first step in using KPI Composer, create a project.
 
 ## Before you begin
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Role required: sn\_kpi\_composer.user, sn\_kpi\_composer.admin, admin
 
@@ -37,9 +41,9 @@ As you work on the project, keep track collaboratively in the Project Journal.
 
 \[Omitted image "kpi-composer-project-journal.png"\] Alt text: Project Journal sidebar open
 
-**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
+**Previous topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Next topic:**[Define properties for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/define-properties-project.md)
+**Next topic:**[Define properties for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/define-properties-project.md)
 

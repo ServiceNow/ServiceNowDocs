@@ -3,11 +3,11 @@ title: Configure custom assistant
 description: Configure a custom telephony provider to use instead of the out-of-the-box voice assistant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-message-authentication-for-inbound-communication.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an AI voice assistant, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an AI voice assistant, Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Configure custom assistant
@@ -99,7 +99,7 @@ Authentication token that is used to authenticate the provider application. Ente
 
     2.  Select the **AI Voice Agent Provider Application** record to open it.
 
-        If you want to use an existing application or create a new provider application, be sure to update the existing configuration according to the values mentioned in [Configuration for custom AI voice agent provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md) before proceeding further.
+        If you want to use an existing application or create a new provider application, be sure to update the existing configuration according to the values mentioned in [Configuration for custom AI voice agent provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/voice-agent-reference.md) before proceeding further.
 
     3.  In the Provider Channel Identity form, locate the **Message auth** field and select the message auth that you set up previously.
 

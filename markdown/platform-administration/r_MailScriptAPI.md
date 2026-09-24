@@ -3,9 +3,9 @@ title: Mail script variables
 description: Certain variables are available when processing mail\_script scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_MailScriptAPI.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scripting for email notifications, Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Scripting for email notifications, Create an email notification, Em
 
 Certain variables are available when processing mail\_script scripts.
 
-For examples of mail scripts, see [Example scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ExScptEmlNtfn.md).
+For examples of mail scripts, see [Example scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ExScptEmlNtfn.md).
 
 <table id="table_psj_g1q_rq"><thead><tr><th>
 
@@ -70,15 +70,15 @@ EmailOutbound object
 
 The email address that is passed by `setFrom` and `setReplyTo` needs to be in a valid form such as `helpdesk@sn.com` or `Display Name <helpdesk@sn.com>`. If the email address includes a 'Display Name', then that value overrides the instance's display name.
 
- For more information, see [GlideEmailOutbound - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideEmailOutboundScopedAPI.md).
+ For more information, see [GlideEmailOutbound - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideEmailOutboundScopedAPI.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScriptingForEmailNotifications.md)
+</table>**Parent Topic:**[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScriptingForEmailNotifications.md)
 
 **Related topics**  
 
 
-[Include mail scripts in email notifications]()
+[JavaScript in emails]()
 
 [Example scripting for email notifications]()
 

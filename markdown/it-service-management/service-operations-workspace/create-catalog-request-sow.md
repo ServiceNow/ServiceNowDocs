@@ -3,11 +3,11 @@ title: Create a catalog request in Service Operations Workspace
 description: Create a catalog request in Service Operations Workspace to initiate a catalog request flow from a different IT Service Management flow. For example, from an incident flow, you can create a request and associate the request with the incident to help track requests associated with an incident and vice versa.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-catalog-request-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Request Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: itil or sn\_request\_write
 
 2.  Initiate a catalog request from an incident or from an interaction record.
 
-<table id="choicetable_khj_fll_zdb"><thead><tr><th align="left" id="d365757e74">
+<table id="choicetable_khj_fll_zdb"><thead><tr><th align="left" id="d373700e74">
 
 Option
 
-</th><th align="left" id="d365757e77">
+</th><th align="left" id="d373700e77">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d365757e83">
+</th></tr></thead><tbody><tr><td id="d373700e83">
 
 **From an incident using the Create request UI action**
 
@@ -47,7 +47,7 @@ Steps
 
 **Note:** You can order items only from catalogs that you have access rights to.
 
-</td></tr><tr><td id="d365757e121">
+</td></tr><tr><td id="d373700e121">
 
 **From an incident using Agent Assist**
 
@@ -59,7 +59,7 @@ Steps
 4.  Search for the catalog item, order guide, or record producer that you want to request.
 
 
-</td></tr><tr><td id="d365757e154">
+</td></tr><tr><td id="d373700e154">
 
 **From an interaction record**
 
@@ -92,5 +92,5 @@ Steps
 8.  View the created request by selecting **View Details**.
 
 
-**Parent Topic:**[Request Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/request-sow.md)
+**Parent Topic:**[Request Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/request-sow.md)
 

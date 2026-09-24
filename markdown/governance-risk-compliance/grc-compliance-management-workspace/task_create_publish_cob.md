@@ -3,11 +3,11 @@ title: Create and publish a control objective
 description: Create a control objective and move it through the workflow states from Draft to Published.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/task\_create\_publish\_cob.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Control objective workflow, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -44,7 +44,7 @@ When the control objective workflow is enabled, a new control objective must go 
 
     The record moves to Review state. Approvals are generated based on configured dynamic approval rules. If no approval rules apply to the record, the record moves directly to Approved.
 
-    **Note:** Approval rules must be configured before using the workflow. See [Configure approval rules for control objective review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/task_configure_approval_rules.md) for configuration instructions.
+    **Note:** Approval rules must be configured before using the workflow. See [Configure approval rules for control objective review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/task_configure_approval_rules.md) for configuration instructions.
 
 6.  After all approvers approve the record, confirm that the state has changed to Approved.
 

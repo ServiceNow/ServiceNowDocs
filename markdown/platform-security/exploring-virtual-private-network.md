@@ -3,9 +3,9 @@ title: Exploring Virtual Private Network \(VPN\)
 description: Use a virtual private network \(VPN\) to integrate your instance with external data sources over the Internet.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-virtual-private-network.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Virtual Private Network \(VPN\)]
 ---
@@ -30,9 +30,9 @@ The ServiceNow VPN infrastructure uses pairs of Cisco adaptive security applianc
 
 The VPN between the instance and your network utilizes your existing networking hardware to support communications. It is not necessary to install a piece of hardware. Because each customer has a unique configuration, the instance has a flexible VPN solution. the instance has built tunnels to Checkpoint, Juniper, Nortel, and other IPSEC VPN-capable devices.
 
-The VPN connections between the instance and your network are created to support the encrypted flow of traffic into your network. Frequently, integrations that use the VPN do not have encryption as part of the underlying protocol. For example, [LDAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegration.md) over the VPN versus LDAPS over the Internet and HTTP over the VPN versus HTTPS over the Internet.
+The VPN connections between the instance and your network are created to support the encrypted flow of traffic into your network. Frequently, integrations that use the VPN do not have encryption as part of the underlying protocol. For example, [LDAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/c_LDAPIntegration.md) over the VPN versus LDAPS over the Internet and HTTP over the VPN versus HTTPS over the Internet.
 
-The network does not allow any inbound-to-ServiceNow integration or end-user-to-ServiceNow traffic to traverse a VPN connection. This restricted communication includes end-user access to the platform, administration of the platform, web services integrations, and other integrations that are configured to use a [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md). All such inbound communication to the instance must be performed over the Internet using HTTPS. This configuration provides an encrypted communication channel. The encryption channel, along with IP access control, meets the security requirements for this traffic flow.
+The network does not allow any inbound-to-ServiceNow integration or end-user-to-ServiceNow traffic to traverse a VPN connection. This restricted communication includes end-user access to the platform, administration of the platform, web services integrations, and other integrations that are configured to use a [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md). All such inbound communication to the instance must be performed over the Internet using HTTPS. This configuration provides an encrypted communication channel. The encryption channel, along with IP access control, meets the security requirements for this traffic flow.
 
 This restriction applies to inbound traffic only. Responses to outbound requests that the instance initiates do traverse the VPN tunnel.
 
@@ -67,7 +67,7 @@ These alternatives provide a simpler way to connect your instance to the resourc
 
 -   **LDAP over SSL**
 
-    Another alternative to using a VPN tunnel is to configure LDAP Over SSL \(LDAPS\) directly over the Internet. You can configure a read-only domain controller and lock the instance down in your DMZ using only the instance's source addresses and the destination ports of your choice. Since the ports for LDAP are configurable in your instance, you can perform a port address translation \(PAT\) if desired. With LDAPS, you control the certificate that is uploaded over an encrypted channel to the instance, \(see [Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md)\). The packets cannot be encrypted or decrypted without the certificate.
+    Another alternative to using a VPN tunnel is to configure LDAP Over SSL \(LDAPS\) directly over the Internet. You can configure a read-only domain controller and lock the instance down in your DMZ using only the instance's source addresses and the destination ports of your choice. Since the ports for LDAP are configurable in your instance, you can perform a port address translation \(PAT\) if desired. With LDAPS, you control the certificate that is uploaded over an encrypted channel to the instance, \(see [Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_UploadACertificateToAnInstance.md)\). The packets cannot be encrypted or decrypted without the certificate.
 
     The advantage of this approach is that it provides a stronger encryption and decryption mechanism. A VPN can only encrypt and decrypt the traffic between the two peers sitting on the Internet with a coordinated pre-shared key, similar to a password. LDAPS provides a longer encrypted path, end-to-end, at the application layer and with a certificate that is far more complicated than a pre-shared key that the IPSec tunnel uses.
 

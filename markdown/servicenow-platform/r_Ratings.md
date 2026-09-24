@@ -3,9 +3,9 @@ title: Assessment scorecard ratings
 description: The scorecard ratings section displays various ratings for the assessable record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_Ratings.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View an assessment scorecard, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,7 +29,7 @@ Click a category to view the category record. Point to a category to display a l
 
 \[Omitted image "VendorScorecardTrendChart.png"\] Alt text: Vendor scorecard trend chart
 
-**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 

@@ -3,14 +3,14 @@ title: Set up Windows registry keys
 description: Track and manage the Windows registry keys that are configured for monitoring with DEX on end-user devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/set-up-win-registry-keys.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [windows registry keys, registry monitoring, registry management, track registry keys, registry key path]
-breadcrumb: [DEX Insights, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Insights setup, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Set up Windows registry keys
@@ -25,6 +25,9 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  Select **Configure** on the Windows registry management card.

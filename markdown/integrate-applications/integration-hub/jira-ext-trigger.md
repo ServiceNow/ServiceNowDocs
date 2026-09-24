@@ -3,7 +3,7 @@ title: Set up triggers for the Jira spoke
 description: Set up triggers for the Jira spoke for the required events. The endpoint enables webhooks to connect with your ServiceNow instance.Configure endpoint for webhooks in the Jira that support the token authentication.Add the endpoint URL that is generated in your ServiceNow instance in the Jira Atlassian account to enable webhooks to connect with your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jira-ext-trigger.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -80,13 +80,13 @@ Role required: admin
     |Field|Description|
     |-----|-----------|
     |Name|Name to identify the webhook.|
-    |URL|Paste the generated endpoint URL that was generated after you [configured triggers in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-ext-trigger.md).|
+    |URL|Paste the generated endpoint URL that was generated after you [configured triggers in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/jira-ext-trigger.md).|
 
     \[Omitted image "jira-spk-add-endpt-url.png"\] Alt text: Add the endpoint URL.
 
 6.  Select the supported events as per your requirement.
 
-    For the list of the supported events, see the [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md) section.
+    For the list of the supported events, see the [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md) section.
 
     \[Omitted image "jira-spk-events.png"\] Alt text: Select the required events.
 

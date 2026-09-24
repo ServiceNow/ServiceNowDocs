@@ -3,11 +3,11 @@ title: Recommended Actions for the Industrial Connected Workforce
 description: The Recommended Actions feature displays suggested actions directly on task forms. These suggestions are based on the current context of the task. They’re intended to support you during the manufacturing processes with a relevant guidance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/recommended-actions-icw.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -35,5 +35,5 @@ The following use cases are currently supported and configured:
     You can view knowledge articles that are linked to an IGT standard from within the task form.
 
 
-**Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
+**Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
 

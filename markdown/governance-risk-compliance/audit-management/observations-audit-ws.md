@@ -3,13 +3,13 @@ title: Audit observations in Audit Workspace
 description: Audit observations are the results of an audit. As an important part of the audit report, audit observations represent the results of reviews, analysis, interviews, and discussions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/observations-audit-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit Supervisor Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Audit observations in Audit Workspace
@@ -32,7 +32,7 @@ In its life cycle, an audit observation moves through the following states:
 
 ## Status workflow of an audit observation in workspace
 
-1.  An audit user with the role sn\_audit.user creates an observation. See [Create an observation for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-observation-audit-ws.md).
+1.  An audit user with the role sn\_audit.user creates an observation. See [Create an observation for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/create-observation-audit-ws.md).
     1.  To create an observation, navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
     2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: List icon.\).
     3.  Click **All engagements** or **My engagements** in the Execution list.

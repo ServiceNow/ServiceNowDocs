@@ -3,11 +3,11 @@ title: Privacy Case Management integration for RadarFirst
 description: RadarFirst specializes in privacy and incident response solutions, particularly in the context of data breach incidents. RadarFirst helps organizations manage and respond to data breaches and privacy incidents effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/integrating-with-radarfirst.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---

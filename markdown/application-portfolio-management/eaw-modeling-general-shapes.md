@@ -3,9 +3,9 @@ title: General shapes
 description: The general shapes section provides basic design elements that can be used to construct diagrams. By inserting icons such as arrows, circles, and text boxes, you can visually represent concepts, relationships, and processes in a clear and structured manner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-general-shapes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -41,5 +41,5 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 |\[Omitted image "icon-text-box.png"\] Alt text: Text box|Text box|
 |\[Omitted image "icon-triangle.png"\] Alt text: Triangle|Triangle|
 
-**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-shapes.md)
+**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-shapes.md)
 

@@ -3,9 +3,9 @@ title: Submit a document for verification
 description: A document collector can collect and submit a document for verification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/doc-processor-submit-verification-document.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -45,7 +45,7 @@ Role required: sn\_doc\_processor.collector
 
 6.  On the form under Process Information, fill in the fields as required.
 
-    For a description of the field values, see [Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/doc-processor-associate-document-list-items-to-category.md).
+    For a description of the field values, see [Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/doc-processor-associate-document-list-items-to-category.md).
 
 7.  Attach any documents to be submitted for verification.
 
@@ -60,13 +60,11 @@ A document verification task is created.
 
 If Document Intelligence is integrated, once a document verification task is created, a record is also created on a Document Intelligence task if the following criteria are met:
 
--   The **OCR processing needed** check box is selected.
+-   The OCR processing needed checkbox is selected.
 -   The document verification task has a document attached.
--   The document verification task shows a current state of Submitted.
-
-The **External ID** field in the document verification task is populated with the ID of the Document Intelligence use case that processes and extracts the data.
+-   The document verification task shows a current stated of Submitted.
 
 ## What to do next
 
-A document agent can [Work on a document verification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/doc-processor-work-on-doc-verification-task.md).
+A document agent can [Work on a document verification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/doc-processor-work-on-doc-verification-task.md).
 

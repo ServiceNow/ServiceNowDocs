@@ -3,11 +3,11 @@ title: Customize the threat intelligence extraction use cases
 description: Edit the prompts in the threat intelligence extraction use cases to change how AI extracts threat entities from the documents that your analysts upload.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/cust-intel-extraction-tisc.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist TISC, AI extraction, Threat Intelligence Security Center]
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
@@ -19,7 +19,7 @@ Edit the prompts in the threat intelligence extraction use cases to change how A
 
 ## Before you begin
 
-**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: admin
 
@@ -64,5 +64,5 @@ ServiceNow Otto for Threat Intelligence Security Center \(TISC\) provides the th
 **Related topics**  
 
 
-[Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/cust-now-assist-tisc-skill.md)
+[Customize the ServiceNow Otto for Threat Intelligence Security Center \(TISC\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/cust-now-assist-tisc-skill.md)
 

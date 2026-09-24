@@ -3,11 +3,11 @@ title: Diagnostics Feature form
 description: Learn about the fields of diagnostics feature form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/diagnostics-feature-form.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -65,8 +65,10 @@ Key
 An identifier for the user input condition. If a user specifies multiple conditions, this key acts as a unique identifier for each condition. You can use this key as the input for the **scanContext** section of the diagnostic script. For example, if you specify **projectFilter** as a key, the **scanContext** section of the diagnostic script would appear as follows: `var encodedQuery = scanContext.input.projectFilter;`
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/form-field-information-for-project-management.md)
+
+**Related topics**  
 
 
-[Create and add diagnostic features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-diagnostic-feature.md)
+[Create and add diagnostic features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/add-diagnostic-feature.md)
 

@@ -3,12 +3,12 @@ title: Configuring Virtual Agent notifications
 description: Send ServiceNow notifications directly to users via the Virtual Agent chatbot on supported messaging channels. Notifications can be simple informational messages for review, or actionable messages with buttons that users can select to perform certain actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configuring-va-notifications.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [Configuring, Virtual Agent, notifications, SMS, Twilio, Messenger, MSTeams, Microsoft Teams]
 breadcrumb: [Configure, Virtual Agent, Conversational Interfaces]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Configure, Virtual Agent, Conversational Interfaces]
 
 Send ServiceNow notifications directly to users via the Virtual Agent chatbot on supported messaging channels. Notifications can be simple informational messages for review, or actionable messages with buttons that users can select to perform certain actions.
 
-Notifications are sent to recipients via the Virtual Agent bot in the chat widget, pre-built messaging integrations \(for example, SMS Twilio, Slack, Microsoft Teams, Workplace from Facebook services, and Facebook Messenger messaging platform\), and custom chat integrations.
+Notifications are sent to recipients via the Virtual Agent bot in the chat widget, pre-built messaging integrations \(for example, SMS Twilio, Slack, Microsoft Teams\), and custom chat integrations.
 
 Notification functionality is included with the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin and also with Virtual Agent Lite, which is included with the ServiceNow AI Platform. However, Virtual Agent Lite users can receive only simple notifications, while Virtual Agent users can receive both actionable notifications and simple notifications. Users with no associated ServiceNow profiles in the \[sys\_user\] table can receive non-actionable Virtual Agent notifications.
 
@@ -161,24 +161,5 @@ The notification experience for end users depends on the type of notification th
 
 End users can subscribe or unsubscribe to notifications on the channel that they're using. For example, the chat menu provides a toggle switch that users can use to subscribe or unsubscribe to notifications on the web channel.
 
-In the conversational integrations for Slack, Microsoft Teams, Workplace from Facebook services, end users manage their notification subscriptions by using the **Subscribe** and **Unsubscribe** commands.
-
-## What to do next
-
--   **[Create Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-va-notifications.md)**  
-Create a notification that is sent directly to users via the Virtual Agent chatbot. The notification specifies when users receive the notification \(triggers for the notification\) and who receives it \(recipients with and without accounts in the User \[sys\_user\] table\).
--   **[Create additional recipients for Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-additional-recipients.md)**  
-Create and define additional recipients for a Virtual Agent notification to be delivered on chat channels or messaging channels.
--   **[Define Virtual Agent notification contents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-va-notif-contents.md)**  
-Create the content for a Virtual Agent notification delivered in a chat or messaging channel.
--   **[Configure a delivery channel for Virtual Agent notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-delivery-channel.md)**  
-Configure a delivery channel for Virtual Agent notifications by specifying the messaging channel information to send notifications to users.
--   **[Define Virtual Agent notification actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-va-notif-actions.md)**  
-Create the actions for a Virtual Agent chat or messaging channel to send actionable notifications.
--   **[Define the Virtual Agent link actions to notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-va-notif-link-actions.md)**  
-Create the link actions for Virtual Agent notification content to be delivered in a chat or messaging channel as actionable notifications.
--   **[Enable Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-va-notifications.md)**  
-Enable Virtual Agent notifications so that your end users can receive notifications in supported Virtual Agent channels.
-
-**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
+In the conversational integrations for Slack and Microsoft Teams, end users manage their notification subscriptions by using the **Subscribe** and **Unsubscribe** commands.
 

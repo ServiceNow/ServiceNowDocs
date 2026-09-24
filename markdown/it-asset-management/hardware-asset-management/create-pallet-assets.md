@@ -3,13 +3,13 @@ title: Create pallet assets
 description: Create a pallet asset from the Asset estate view in the Hardware Asset Workspace to track and manage assets in the inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-pallet-assets.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage your inventory through pallet assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage your inventory through pallet assets, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create pallet assets
@@ -18,7 +18,7 @@ Create a pallet asset from the Asset estate view in the Hardware Asset Workspace
 
 ## Before you begin
 
-You must create a model for a pallet asset. For more information, see [Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_Models.md).
+You must create a model for a pallet asset. For more information, see [Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_Models.md).
 
 Role required: asset
 
@@ -293,7 +293,7 @@ Any additional information about the asset.
 
 The pallet that you created is added to the list shown in the Pallets tab.
 
-**Parent Topic:**[Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md)
+**Parent Topic:**[Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md)
 
 **Related topics**  
 

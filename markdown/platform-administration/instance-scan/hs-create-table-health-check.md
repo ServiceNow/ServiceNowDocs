@@ -3,11 +3,11 @@ title: Create a table type check
 description: Create a check by selecting Create a new Table Check if you know which specific table and conditions you want to test. This check type is applied on only one table at a time. You can also include your own script for more complex capabilities by selecting the Advanced option on the form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-create-table-health-check.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a check, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -21,7 +21,7 @@ Create a check by selecting **Create a new Table Check** if you know which speci
 Role required: scan\_admin
 
 ```
-Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-health-check.md).
+Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-create-health-check.md).
 ```
 
 ## Procedure
@@ -176,5 +176,5 @@ The script that executes against each record that matches the condition in the d
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-health-check.md)
+**Parent Topic:**[Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-create-health-check.md)
 

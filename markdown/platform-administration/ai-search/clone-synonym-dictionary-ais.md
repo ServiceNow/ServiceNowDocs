@@ -3,11 +3,11 @@ title: Clone a synonym dictionary
 description: Create a copy of an existing synonym dictionary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/clone-synonym-dictionary-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Synonyms, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-Cloning a synonym dictionary copies the source dictionary's settings and all of its all defined synonym terms. This process can save you time when you need multiple synonym dictionaries that have many synonym terms in common.
+Cloning a synonym dictionary copies the source dictionary's settings and all of its defined synonym terms. This process can save you time when you need multiple synonym dictionaries that have many synonym terms in common.
 
 ## Procedure
 
@@ -39,5 +39,5 @@ Cloning a synonym dictionary copies the source dictionary's settings and all of 
 
 The new synonym dictionary form opens. All synonym terms defined in the source dictionary appear in the AI Search Dictionary Terms related list.
 
-**Parent Topic:**[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)
+**Parent Topic:**[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/synonyms-ais.md)
 

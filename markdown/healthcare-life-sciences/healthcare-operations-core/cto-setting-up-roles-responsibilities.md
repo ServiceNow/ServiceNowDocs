@@ -3,11 +3,11 @@ title: Setting up roles and responsibilities for Healthcare Operations users
 description: To manage access effectively in Healthcare Operations Core \(HCO\), first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for HCO-specific use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.html
-release: australia
+release: brazil
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -36,7 +36,7 @@ Example: The Care Team Member responsibility limits your access to cases for hea
 |Care Team Manager|Service location business manager|
 |Support Department Agent|Location Support Agent|
 
-For the base Service Model Foundation roles and responsibilities that these are adapted from, see [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-roles.md) and [Service definition roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions-roles.md).
+For the base Service Model Foundation roles and responsibilities that these are adapted from, see  and .
 
 ## Why responsibilities matter
 
@@ -61,6 +61,6 @@ Result: You can work on HCO cases related to that ICU, but can’t view cases fo
 
 ## What to do next
 
--   [Assign roles to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/assign-roles-cto-users.md)
--   [Assign responsibilities to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-assign-responsibilities.md)
+-   [Assign roles to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/assign-roles-cto-users.md)
+-   [Assign responsibilities to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-assign-responsibilities.md)
 

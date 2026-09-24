@@ -3,11 +3,11 @@ title: Review and submit the cost configuration
 description: Review all Cost Framework configurations, verify the calculations, and submit to activate the Cost Framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mc-review-and-submit-the-cost-configuration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
-breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Review and submit the cost configuration
@@ -30,7 +30,7 @@ Before activating the Cost Framework, review all configurations to verify accura
 
 3.  Make sure you have configured the average rate, added integrated vendor pricing, and added other vendor pricing \(if applicable\).
 
-    For more information, see [Configure average hourly rate for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.md), [Add costs for integrated vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mc-add-and-configure-costs-for-integrated-vendors.md), and [Add costs for other vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mc-add-and-configure-costs-for-non-integrated-vendors.md).
+    For more information, see [Configure average hourly rate for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.md), [Add costs for integrated vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mc-add-and-configure-costs-for-integrated-vendors.md), and [Add costs for other vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mc-add-and-configure-costs-for-non-integrated-vendors.md).
 
 4.  Go to **Preview cost &amp; savings** section and review the details.
 

@@ -3,9 +3,9 @@ title: Following filters per metric
 description: If you are showing multiple metrics in a horizontal or vertical bar visualization, you can have filters on a dashboard apply only to specific metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/chart-options-bars-multi-metrics.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Horizontal and vertical bar visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -20,5 +20,5 @@ For example, consider a bar visualization that shows the Number of open problems
 
 \[Omitted image "dv-follow-filters-per-metric.png"\] Alt text: Bar visualization configured so that of two metrics, one follows filters on a dashboard and one does not.
 
-**Parent Topic:**[Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-bar-ac.md)
+**Parent Topic:**[Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-bar-ac.md)
 

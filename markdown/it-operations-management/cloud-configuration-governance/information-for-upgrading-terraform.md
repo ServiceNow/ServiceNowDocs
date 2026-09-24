@@ -3,11 +3,11 @@ title: Upgrading the Terraform environment
 description: Understand the high-level workflows for upgrading the Terraform environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/information-for-upgrading-terraform.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -62,7 +62,7 @@ Cloud Services Catalog Terraform Connector supports Terraform Open Source versio
 **Note:** Ensure that all the templates are stored in separate directories and all the template directories are in the same base directory.
 
 4.  Test and modify the copied Terraform templates to ensure compatibility with the target Terraform Open Source version.
-5.  Create a Terraform Open Source config provider. For more information, see [Create a Terraform Open Source config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-open-source.md).
+5.  Create a Terraform Open Source config provider. For more information, see [Create a Terraform Open Source config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-open-source.md).
 6.  Remove the old catalog items per the business strategy of your organization, and then retire the old Terraform server.
 
 

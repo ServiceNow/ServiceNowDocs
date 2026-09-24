@@ -3,11 +3,11 @@ title: Server CI population during cloud discovery
 description: Cloud discovery can populate Server CIs without running IP-based discovery, reducing discovery time in large environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/server-ci-cloud-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [cloud discovery, Server CI, Windows Server, Linux Server, pattern extension]
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -21,7 +21,7 @@ Cloud discovery can populate Server CIs without running IP-based discovery, redu
 
 By default, cloud discovery creates Virtual Machine \(VM\) Instance CIs only. To populate Server CIs, organizations run IP-based discovery, which triggers a separate schedule that discovers servers alongside applications and other data. In large environments, IP-based discovery schedules can take a long time. Some organizations require only server records from their cloud environment, without discovering application data.
 
-Starting with Discovery and Service Mapping Patterns version 1.31.0, cloud discovery can create Windows Server CIs, Linux Server CIs, or both alongside Virtual Machine Instance CIs, without running IP-based discovery. The **sn\_itom\_pattern.cloud\_discovery\_populate\_server\_ci** system property controls whether Server CIs are created. By default, the property is set to none and Server CIs aren't created. For more information, see [Configure Server CI creation during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-server-ci-cloud-disc.md).
+Starting with Discovery and Service Mapping Patterns version 1.31.0, cloud discovery can create Windows Server CIs, Linux Server CIs, or both alongside Virtual Machine Instance CIs, without running IP-based discovery. The **sn\_itom\_pattern.cloud\_discovery\_populate\_server\_ci** system property controls whether Server CIs are created. By default, the property is set to none and Server CIs aren't created. For more information, see [Configure Server CI creation during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-server-ci-cloud-disc.md).
 
 The following patterns support Server CI population during cloud discovery:
 
@@ -30,7 +30,7 @@ The following patterns support Server CI population during cloud discovery:
 
 **Note:** Use either Server CI population during cloud discovery or IP-based discovery for the same VMs, but not both. Running both may result in conflicting attribute values.
 
-For AWS Server CI creation, see [AWS Linux Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-linux-server-pattern.md) and [AWS Windows Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-windows-server-pattern.md).
+For AWS Server CI creation, see [AWS Linux Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-linux-server-pattern.md) and [AWS Windows Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-windows-server-pattern.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -172,19 +172,19 @@ The Azure – Create Server CI pattern extension creates the following relations
 |Serial Number \[cmdb\_serial\_number\]|Configuration Item \[cmdb\_ci\]|Windows Server \[cmdb\_ci\_win\_server\]|
 |Serial Number \[cmdb\_serial\_number\]|Configuration Item \[cmdb\_ci\]|Linux Server \[cmdb\_ci\_linux\_server\]|
 
--   **[Configure Server CI creation during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-server-ci-cloud-disc.md)**  
+-   **[Configure Server CI creation during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-server-ci-cloud-disc.md)**  
 Create Server CIs during cloud discovery without running IP-based discovery, reducing discovery time in large environments.
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md)
+**Previous topic:**[Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md)
 
-**Next topic:**[Configure Server CI creation during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-server-ci-cloud-disc.md)
+**Next topic:**[Configure Server CI creation during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/configure-server-ci-cloud-disc.md)
 
 **Related topics**  
 
 
-[Azure virtual machine pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-vm-pattern.md)
+[Azure virtual machine pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-vm-pattern.md)
 
-[Azure Virtual Machine Scale Sets \(VMSS\) Instance discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/AzureVMScaleSetInstance.md)
+[Azure Virtual Machine Scale Sets \(VMSS\) Instance discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/AzureVMScaleSetInstance.md)
 

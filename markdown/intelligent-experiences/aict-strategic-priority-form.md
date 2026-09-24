@@ -3,11 +3,11 @@ title: Strategic Priority form
 description: Use the Strategic Priority form to orient your organization strategic plan toward your goal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-strategic-priority-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Strategic Priority form
@@ -108,5 +108,5 @@ A detailed description of the strategic priority.You can refine strategic priori
 </table>**Related topics**  
 
 
-[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-strategize.md)
+[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-strategize.md)
 

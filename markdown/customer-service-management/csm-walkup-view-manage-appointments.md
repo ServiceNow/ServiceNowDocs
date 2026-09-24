@@ -3,11 +3,11 @@ title: View and manage Walk-up Experience appointments in Agent Workspace
 description: Viewing upcoming scheduled CSM Walk-up Experience appointments provides technicians with an estimate of future queue demand and workload. Managers can view future appointments and adjust staffing at walk-up queue locations to best support demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-view-manage-appointments.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage queues and interactions, Using Walk-up Experience, Customer communication, Use, Customer Service Management]
+breadcrumb: [Manage queues and interactions, Use Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
 
 # View and manage Walk-up Experience appointments in Agent Workspace

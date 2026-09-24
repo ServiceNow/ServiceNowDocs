@@ -3,9 +3,9 @@ title: Define a characteristic for the test definition
 description: Add a characteristic for a test to determine the properties that are required to run and evaluate the test.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/add-characterisitc-for-test-specification.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up test definitions, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---

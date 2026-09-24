@@ -3,13 +3,13 @@ title: Showing breakdown relations on dashboards
 description: A breakdown widget can display 1st level breakdown elements that are related to the element selected for the dashboard. The widget must be on a breakdown dashboard, and that dashboard must include the breakdown sources of the related breakdowns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_ShowBkdwnRltnsWdgts.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using breakdowns on dashboards, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Using breakdowns on responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Showing breakdown relations on dashboards
@@ -44,20 +44,20 @@ If you edit the widget to display the Parent Location instead of the Child Locat
 
 \[Omitted image "breakdown-relations-sibling-group.png"\] Alt text: A widget on a breakdown dashboard showing the sibling locations of the EMEA group
 
-**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 
 
-[Add breakdown sources to a dashboard]()
+[Add breakdown sources to a responsive dashboard]()
 
 [Configure widgets for breakdown dashboards]()
 
-[Showing multiple elements separately or aggregated]()
+[Showing multiple elements separately or aggregated in Core UI]()
 
 [Same breakdown on widget and dashboard]()
 
-[Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-relations.md)
+[Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/breakdown-relations.md)
 
-[Create a scorecard visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-scorecard-widget.md)
+[Create a scorecard visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-scorecard-widget.md)
 

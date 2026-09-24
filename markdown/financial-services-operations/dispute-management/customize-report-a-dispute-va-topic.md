@@ -3,11 +3,11 @@ title: Customize the Virtual Agent topic in Disputes intake via Virtual Agent
 description: Review and modify the Virtual Agent topic in Disputes intake via Virtual Agent. Learn how the conversation workflow functions, and modify it for your own needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/customize-report-a-dispute-va-topic.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Disputes intake via Virtual Agent, Configure, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -39,12 +39,12 @@ Disputes intake via Virtual Agent contains a Virtual Agent topic called Report a
 
 Review and modify the workflow for your business needs.
 
-**Parent Topic:**[Configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-disputes-intake-via-virtual-agent.md)
+**Parent Topic:**[Configure Disputes intake via Virtual Agent in ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/configuring-disputes-intake-via-virtual-agent.md)
 
 **Related topics**  
 
 
-[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/vad-reference.md)
+[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/vad-reference.md)
 
-[Form Data Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/learn-about-the-form-data-collector.md)
+[Form Data Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/learn-about-the-form-data-collector.md)
 

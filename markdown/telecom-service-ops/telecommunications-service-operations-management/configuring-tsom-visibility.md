@@ -3,11 +3,11 @@ title: Configure Telecom Visibility
 description: Telecom Visibility provides foundational capabilities that support both Telecom Discovery and Telecom Discrepancy Identification &amp; Reconciliation. It includes shared logic, enhanced CI class models, and Identification and Reconciliation Engine \(IRE\) updates tailored for telecom network elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom-visibility.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Telecommunications Service Operations Management]
 ---
@@ -89,5 +89,5 @@ Confirm that the following are listed as active:
 **Related topics**  
 
 
-[Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/tsom-visibility.md)
+[Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/tsom-visibility.md)
 

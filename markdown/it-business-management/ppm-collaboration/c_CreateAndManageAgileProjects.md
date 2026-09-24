@@ -3,11 +3,11 @@ title: Create and manage agile projects
 description: An overview of the tasks involved in creating an agile project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/c\_CreateAndManageAgileProjects.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Agile Development 2.0 integration with Project Portfolio Management, Explore Project Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,13 +20,13 @@ The following tables, arranged by task group, list the tasks involved in creatin
 
 |Task|How do I do this?|
 |----|-----------------|
-|[Define an Agile group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Navigate to **Agile Development** &gt; **Create Agile Group** and click **New**.|
-|[Add group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Navigate to the **Group members** related list on the Group form and click **Edit**.|
-|[Decide the capacity of a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Navigate to **Agile Development** &gt; **Groups**, select the desired group, and enter a number in the **Group capacity \(points\)** field.|
+|[Define an Agile group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Navigate to **Agile Development** &gt; **Create Agile Group** and click **New**.|
+|[Add group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Navigate to the **Group members** related list on the Group form and click **Edit**.|
+|[Decide the capacity of a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Navigate to **Agile Development** &gt; **Groups**, select the desired group, and enter a number in the **Group capacity \(points\)** field.|
 
 |Task|How do I do this?|
 |----|-----------------|
-|[Create a sprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Use the **Create Sprints** related link on the Group form to create multiple sprints or use the **Sprints** related list to create individual sprints.|
+|[Create a sprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Use the **Create Sprints** related link on the Group form to create multiple sprints or use the **Sprints** related list to create individual sprints.|
 |View the created sprints|Use the **Sprints** related list on the Group form.|
 
 <table id="table_wkg_v43_dr"><thead><tr><th>
@@ -136,7 +136,7 @@ Refine stories for one project
 
 </td><td>
 
-Click the **Manage Stories** button to open the Manage Stories dialog box.**Note:** You can also use the **Agile Planning &amp; Tracking** related link on the [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md) to view your backlog, assign stories to the projects, or create new stories for the project.
+Click the **Manage Stories** button to open the Manage Stories dialog box.**Note:** You can also use the **Agile Planning &amp; Tracking** related link on the [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md) to view your backlog, assign stories to the projects, or create new stories for the project.
 
 </td></tr><tr><td>
 
@@ -215,5 +215,5 @@ Tester performs tests and submits results
 Navigate to **Test Management 2.0** &gt; **Tests Assigned to me**. Select the required tests and click **Run**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)
+</table>**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)
 

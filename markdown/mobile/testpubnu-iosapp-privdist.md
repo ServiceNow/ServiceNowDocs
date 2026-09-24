@@ -3,9 +3,9 @@ title: Test and publish a new branded iOS app for private distribution
 description: Learn the next steps to test and publish a new branded iOS app for private distribution after you request it in Mobile Publishing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/testpubnu-iosapp-privdist.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Request private iOS app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -32,7 +32,7 @@ After the build successfully completes and your app is ready for testing:
 
     Use TestFlight to check the following:
 
-    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md).
+    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Configuring Next Experience with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configuring-next-experience-with-theme-builder.md).
     -   App uses the default instance you specified for login if you selected the instance pre-fill option when requesting the branded app.
     -   EULA and privacy policy listed in the mobile app **Settings** tab under **Legal** link to the policies you specified.
     See [Apple documentation](https://developer.apple.com/testflight/) for information about using TestFlight.
@@ -44,7 +44,7 @@ After your Testflight testers have validated the branding and functionality of y
 
 1.  Set up push notifications by downloading the Apple push certificate \(`p12` file\) from your app's **Build History** and upload it to your app's push application record:
     1.  Access the Push Applications table on your instance by navigating to **All** &gt; **Push Application**.
-    2.  Configure your push applications. For instructions, see [Configure push applications for iOS branded apps using certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-push-setup-ios.md).
+    2.  Configure your push applications. For instructions, see [Configure push applications for iOS branded apps using certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-push-setup-ios.md).
 
         **Note:** The push certificate password is sent in the email from ServiceNow with the subject of "Ready For Testing - ServiceNow Mobile Publishing App." This email is sent from "mobilepublishing@servicenow.com"
 
@@ -62,7 +62,7 @@ Once the status of your app is **Ready for testing**, you have 90 days to make s
 
 ## 4. Customize your app's workflows
 
-Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
+Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
 
 ## 5. Publish and distribute your app
 
@@ -72,5 +72,5 @@ Apple conducts a final review where your build status will show **Deployment in 
 
 ## 6. Keep your app updated
 
-Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-supported-devices.md).
+Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-supported-devices.md).
 

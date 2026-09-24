@@ -3,11 +3,11 @@ title: Create a knowledge base
 description: Create a knowledge base to provide a self-service platform for users to store, share, and manage content. Configure knowledge bases into product or service categories and manage user access based on permissions. Customize workflows for publishing and retiring articles in the knowledge base.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/create-a-knowledgebase.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Create a knowledge base to provide a self-service platform for users to store, s
 
 ## Before you begin
 
-Understand the [requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/set-up-knowledge-admin-user.md) for setting up a knowledge base.
+Understand the [requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/set-up-knowledge-admin-user.md) for setting up a knowledge base.
 
 Role required: knowledge\_admin or admin
 
@@ -52,7 +52,7 @@ Article Validity
 
 </td><td>
 
-Number of default days articles will be valid for after their created date. **Note:** The **Article Validity** field is configured to set the **Valid to** date for an article. The **Valid to** date is the date this knowledge article expires. When you create an article within a knowledge base, the date value in the **Valid to** field of the article is calculated as follows: Created \(sys\_created\_on\) + Article Validity \(in days\). An article author or editor can select whether to keep or change the **Valid to** date  \(see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)\). If the **Article Validity** field is blank, the date in the **Valid to** field date is set to  January 1, 2100.
+Number of default days articles will be valid for after their created date. **Note:** The **Article Validity** field is configured to set the **Valid to** date for an article. The **Valid to** date is the date this knowledge article expires. When you create an article within a knowledge base, the date value in the **Valid to** field of the article is calculated as follows: Created \(sys\_created\_on\) + Article Validity \(in days\). An article author or editor can select whether to keep or change the **Valid to** date  \(see [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-knowledge-article.md)\). If the **Article Validity** field is blank, the date in the **Valid to** field date is set to  January 1, 2100.
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Application
 
 </td><td>
 
-Application scope of the knowledge base. **Note:** This field is automatically set to the application selected in the application picker. For information about a scoped knowledge base, see [Scoped knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.md).
+Application scope of the knowledge base. **Note:** This field is automatically set to the application selected in the application picker. For information about a scoped knowledge base, see [Scoped knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.md).
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Owner
 
 </td><td>
 
-The user responsible for the knowledge base. A knowledge base owner can assign other [roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeRoles.md) to the knowledge base.
+The user responsible for the knowledge base. A knowledge base owner can assign other [roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeRoles.md) to the knowledge base.
 
 </td></tr><tr><td>
 
@@ -200,7 +200,7 @@ Auto-create translation tasks
 
 </td><td>
 
-Option to enable creating translation tasks automatically after an article is published. If this option is selected, when a knowledge article is published in this knowledge base, translation tasks are automatically created for the configured languages.This field appears only when the translation management feature and **glide.knowman.translation.enable\_translation\_task** property are enabled. For more information, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translation-management.md) and [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+Option to enable creating translation tasks automatically after an article is published. If this option is selected, when a knowledge article is published in this knowledge base, translation tasks are automatically created for the configured languages.This field appears only when the translation management feature and **glide.knowman.translation.enable\_translation\_task** property are enabled. For more information, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/translation-management.md) and [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 </td></tr><tr><td>
 
@@ -212,7 +212,7 @@ Languages enabled for the knowledge articles in this knowledge base. If your sys
 
  You can add more languages later. However, you can remove languages only when no knowledge articles exist in that language.
 
- This field appears only when the translation management feature and **glide.knowman.translation.enable\_translation\_task** property are enabled. For more information, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translation-management.md) and [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+ This field appears only when the translation management feature and **glide.knowman.translation.enable\_translation\_task** property are enabled. For more information, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/translation-management.md) and [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 </td></tr></tbody>
 </table>4.  Right-click the form header and click **Save**.
@@ -241,7 +241,7 @@ Can Read
 
 </td><td>
 
-List of user criteria that grants read access and enables user matching the criteria to read articles in a knowledge base. **Note:** It is recommended to assign appropriate user criteria to secure read access. See, [Select user criteria for a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md).
+List of user criteria that grants read access and enables user matching the criteria to read articles in a knowledge base. **Note:** It is recommended to assign appropriate user criteria to secure read access. See, [Select user criteria for a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md).
 
 </td></tr><tr><td>
 
@@ -249,7 +249,7 @@ Can Contribute
 
 </td><td>
 
-List of user criteria that grants contribute access and enables user matching the criteria to create and modify articles in a knowledge base. **Note:** It is recommended to assign appropriate user criteria to secure contribute access. See, [Select user criteria for a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md).
+List of user criteria that grants contribute access and enables user matching the criteria to create and modify articles in a knowledge base. **Note:** It is recommended to assign appropriate user criteria to secure contribute access. See, [Select user criteria for a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md).
 
 </td></tr><tr><td>
 
@@ -285,20 +285,20 @@ List of knowledge categories associated with this knowledge base.**Note:** If th
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 
 **Related topics**  
 
 
-[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
+[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
 
-[Explicit roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md)
+[Explicit roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explicit-roles.md)
 
-[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
+[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
 
-[Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 
-[Create a custom knowledge homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_CreateACustomKnowledgeHomepage.md)
+[Create a custom knowledge homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_CreateACustomKnowledgeHomepage.md)
 
-[I18N - Knowledge internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_I18NKMInternational.md)
+[I18N - Knowledge internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/c_I18NKMInternational.md)
 

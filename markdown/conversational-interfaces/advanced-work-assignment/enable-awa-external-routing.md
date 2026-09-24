@@ -3,11 +3,11 @@ title: Enable external routing for queues
 description: Configure Advanced Work Assignment to route work items in the queue using external routing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/enable-awa-external-routing.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ Configure Advanced Work Assignment to route work items in the queue using extern
 
 ## Before you begin
 
-Verify that you have reviewed the functionality of external routing and configured the necessary APIs. For more information, see [External routing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-external-routing-overview.md).
+Verify that you have reviewed the functionality of external routing and configured the necessary APIs. For more information, see [External routing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-external-routing-overview.md).
 
 Role required: awa\_external\_user
 

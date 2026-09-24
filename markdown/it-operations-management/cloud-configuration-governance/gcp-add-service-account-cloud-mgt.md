@@ -3,11 +3,11 @@ title: \(Optional\) Add a Google Cloud Platform service account to the cloud acc
 description: During Cloud Provisioning and Governance Day 1 setup, you added one service account to the cloud account. To compartmentalize your infrastructure or to include different datacenters, you can add another service account. A particular datacenter, however, cannot be selected in more than one service account in a cloud account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/gcp-add-service-account-cloud-mgt.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Day 1 setup guide for Google Cloud through Cloud Services Catalog Terraform Connector, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

@@ -3,11 +3,11 @@ title: Playbook layout bundles
 description: Playbook layout bundles are pre-wired component sets in UI Builder that determine how a playbook renders for end users at runtime. Each bundle packages a controller, supporting components, and styling so that authors can drop a complete playbook experience onto a page without configuring each component individually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-layouts-in-ui-builder.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ Choose a bundle based on how you want end users to move through the playbook. So
 
 You add bundles to a page from the Content panel, then select **Components** and filter by **Playbook**. Select the bundle you want and drop it onto the page. The bundle auto-wires its controller and components.
 
-\[Omitted image "playbook-all-layouts.png"\] Alt text: Screenshot showing all playbook layouts in the UI Builder.
+\[Omitted image "playbook-all-layouts.png"\] Alt text: Playbook layouts in the UI Builder.
 
 -   **Playbook**
 

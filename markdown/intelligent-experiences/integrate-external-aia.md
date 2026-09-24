@@ -3,11 +3,11 @@ title: Integrate external AI agents
 description: Integrate external AI agents in AI Agent Studio to connect the ServiceNow AI Platform with third-party agentic AI providers as primary agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-external-aia.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrate external AI agents
@@ -28,13 +28,13 @@ You can enable external AI agents on the AI Agent Studio via the Settings page. 
 
     To prevent external AI agents from being integrated with the ServiceNow agentic AI system using the A2A protocol, select **Do not allow**.
 
--   **Allow third party access to ServiceNow AI agents**: The ServiceNow AI agents are configured by default for integration into external AI systems, with the **Allow** option selected by default.
+-   **Allow third-party access to ServiceNow AI agents**: The ServiceNow AI agents are configured by default for integration into external AI systems, with the **Allow** option selected by default.
 
     To prevent ServiceNow AI agents from being integrated into the external agentic AI system, select **Do not allow**.
 
     **Important:** You can integrate ServiceNow AI agents into other agentic AI systems, such as Google Cloud or Azure OpenAI.
 
-    For information about setting up ServiceNow AI agents as secondary agents \(acting as A2A server\) for integrating into other agentic AI systems, see [ServiceNow AI agents as secondary agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/a2a-secondary-agent.md).
+    For information about setting up ServiceNow AI agents as secondary agents \(acting as A2A server\) for integrating into other agentic AI systems, see [ServiceNow AI agents as secondary agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/a2a-secondary-agent.md).
 
 -   **Communication mode**: Controls how external AI agents interact with the ServiceNow agentic AI system.
 

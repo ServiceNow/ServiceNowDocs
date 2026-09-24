@@ -3,11 +3,11 @@ title: Post a message to a record feed
 description: Use Live Feed to post a message to a record feed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_PostingMessagesToRecordFeeds.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with record feeds, Use Live Feed to work on records, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,5 +45,5 @@ Role required: none
     **Note:** If the record has journal fields for comments or work notes, your message is automatically added to the appropriate field on the record. If the record has a standard text field for comments on the activity formatter, each live post overwrites the field value. Comments added through Live Feed start with \#LiveFeed on the activity formatter.
 
 
-**Parent Topic:**[Working with record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_WorkingWithRecordFeeds.md)
+**Parent Topic:**[Working with record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_WorkingWithRecordFeeds.md)
 

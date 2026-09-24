@@ -3,9 +3,9 @@ title: Request, review, and approve change coverage request workflows
 description: Learn how agents, using the change coverage limits workflows, resolve service requests for requesting, reviewing, and approving policy change requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/request-review-approve-change-coverage-request-workflows.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Personal Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -49,5 +49,5 @@ The following workflow routes the case and tasks for changing coverage for a pol
 
 The case is complete, and the state and stage of the case are set to Closed Complete.
 
-**Parent Topic:**[Using Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-financial-services-insurance-policy-operations.md)
+**Parent Topic:**[Using Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/using-financial-services-insurance-policy-operations.md)
 

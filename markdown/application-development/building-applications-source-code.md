@@ -3,9 +3,9 @@ title: Building applications in source code
 description: Create and develop custom applications in source code using familiar development tools and processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/building-applications-source-code.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Building pro-code applications, Developing your application, Building applications]
 ---
@@ -26,11 +26,11 @@ Developing and maintaining applications in source code enables you to work in fa
 
 <table id="table_hmf_wtt_3bc" class="nav-card"><tbody><tr><td>
 
-[ServiceNow IDE\[Omitted image "servicenow-ide-logo.png"\] Alt text:Develop applications in code in an IDE on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md)
+[ServiceNow IDE\[Omitted image "servicenow-ide-logo.png"\] Alt text:Develop applications in code in an IDE on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md)
 
 </td><td>
 
-[ServiceNow SDK\[Omitted image "servicenow-sdk-logo.png"\] Alt text:Develop applications in code locally and upload changes to an instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md)
+[ServiceNow SDK\[Omitted image "servicenow-sdk-logo.png"\] Alt text:Develop applications in code locally and upload changes to an instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md)
 
 </td></tr></tbody>
 </table>## Comparison of the ServiceNow IDE and the ServiceNow SDK
@@ -137,7 +137,7 @@ ServiceNow Otto for Code
 
 </td><td>
 
-Code auto-complete support for scripts.For information about activation, see [ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-landing.md).
+Code auto-complete support for scripts.For information about activation, see [ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/now-assist-code-landing.md).
 
 </td><td>
 
@@ -149,7 +149,7 @@ Build Agent
 
 </td><td>
 
-Full support. Build Agent is accessed from a chat panel in the ServiceNow IDE.For information about activation, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+Full support. Build Agent is accessed from a chat panel in the ServiceNow IDE.For information about activation, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md).
 
 </td><td>
 
@@ -247,7 +247,7 @@ now.config.json
 
 </td><td>
 
-File containing the ServiceNow application configuration. The `now.config.json` file must be in the base directory for an application. You can configure aspects of an application by adding support parameters. For more information, see [Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-config-source-code.md).
+File containing the ServiceNow application configuration. The `now.config.json` file must be in the base directory for an application. You can configure aspects of an application by adding support parameters. For more information, see [Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-config-source-code.md).
 
 </td></tr><tr><td>
 
@@ -276,7 +276,7 @@ File containing information about your application and custom or third-party mod
 </td></tr></tbody>
 </table>## Related applications and features
 
--   **[JavaScript APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-reference.md)**
+-   **[JavaScript APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-reference.md)**
 
     Use JavaScript APIs in scripts that you write to change the functionality of applications or when you create applications.
 
@@ -284,11 +284,11 @@ File containing information about your application and custom or third-party mod
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-fluent.md)
 
-[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/javascript-modules-third-party-libraries.md)
 
-[User interface development with React](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-development-react.md)
+[User interface development with React](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-development-react.md)
 
-[Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-config-source-code.md)
+[Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-config-source-code.md)
 

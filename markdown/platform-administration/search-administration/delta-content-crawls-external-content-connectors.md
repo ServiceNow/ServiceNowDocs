@@ -3,12 +3,13 @@ title: Delta content crawls for external content connectors
 description: Delta content crawls improve content crawl performance by only retrieving newly added, changed, or deleted items from an external content connector's source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/delta-content-crawls-external-content-connectors.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -24,13 +25,13 @@ Starting with External Content Connectors 9.0, the External Content Connectors a
 
 **Note:** Delta content crawls don't replace full content crawls. They're supplemental crawls that enable you to refresh searchable content more frequently in between full content crawls.
 
-By default, delta content crawls aren't active for any external content connector. Connector admins can activate or deactivate delta content crawls for individual connectors of supported types. To view the activation procedure, see [Activate delta content crawling for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/activate-delta-content-crawling-external-content-connector.md).
+By default, delta content crawls aren't active for any external content connector. Connector admins can activate or deactivate delta content crawls for individual connectors of supported types. To view the activation procedure, see [Activate delta content crawling for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/activate-delta-content-crawling-external-content-connector.md).
 
-**Note:** In External Content Connectors 9.0, delta content crawls are only supported for the [Google Drive external content connector.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/google-drive-external-content-connector.md)
+**Note:** In External Content Connectors 9.0, delta content crawls are only supported for the [Google Drive external content connector.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/google-drive-external-content-connector.md)
 
 ## Scheduling of delta content crawls
 
-When you activate delta content crawling for an external content connector, the system begins scheduling delta content crawls for that connector once it completes a full content crawl. Until that full content crawl is completed, no delta content crawls will be scheduled.
+When you activate delta content crawling for an external content connector, the system begins scheduling delta content crawls for that connector after it completes a full content crawl. Until that full content crawl is completed, no delta content crawls will be scheduled.
 
 **Note:** If you upgrade to a new External Content Connectors major release, run a full content crawl in the new version for each connector that has delta content crawling activated. Full content crawls run in a previous External Content Connectors release don't retrieve all of the metadata needed for delta content crawling. As an example, after upgrading from External Content Connectors version 8.0 to version 9.0, you must complete a full content crawl in version 9.0 for each connector that has delta content crawls activated. Until you complete that full content crawl, delta content crawls won't run for the connector.
 
@@ -59,5 +60,5 @@ Delta content crawls may not detect all relevant changes to items in the source 
 
 In all of these cases, running a new full connector content crawl detects the overlooked changes and brings your AI Search index up to date.
 
-**Parent Topic:**[Exploring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/exploring-ext-cont-connectors.md)
+**Parent Topic:**[Exploring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/exploring-ext-cont-connectors.md)
 

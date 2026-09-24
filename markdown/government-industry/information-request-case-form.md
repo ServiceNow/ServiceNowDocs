@@ -3,9 +3,9 @@ title: Information Request case form
 description: A government agent can create a case by using the Information Request case form to capture detailed information about public record requests that constituents, business stakeholders, or other agents have. Constituents, business stakeholders, or agents can also view the form to see the status of their information requests.The Case form includes related lists that store case information and that agents can use to perform case-related tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/information-request-case-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Public Service Case Forms, Forms, Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -444,7 +444,7 @@ Resolution notes
 Details about how the case was closed. This field is required if a customer service agent or agent manager closes a case. If a constituent closes a case, it isn’t required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Core Case Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-case-forms.md)
+</table>**Parent Topic:**[Public Sector Digital Services Core Case Forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-case-forms.md)
 
 ## Information Request Case form related lists
 
@@ -477,7 +477,7 @@ Agents can:-   Add documents to the information request without making them visi
 -   View documents approved to be published to the requester
 -   Publish approved documents to the requester
 
-To view the Documents related list, you must first install the [Document Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/doc-mgt-plugin.md).
+To view the Documents related list, you must first install the [Document Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/doc-mgt-plugin.md).
 
 </td></tr><tr><td>
 

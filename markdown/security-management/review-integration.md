@@ -3,9 +3,9 @@ title: Review integration
 description: Review and publish the integration for using it in Security Incident Response Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/review-integration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add an integration, Use SIR Integration Builder, LLM-powered SIR integration builder, Security Operations]
 ---
@@ -31,6 +31,6 @@ Role required: sn\_si\_int\_kit.integration\_creator
 
 ## What to do next
 
--   [Verify capabilities in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/verify-capabilities.md)
--   [Use capabilities in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/use-capabilities-sir-workspace.md)
+-   [Verify capabilities in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/verify-capabilities.md)
+-   [Use capabilities in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/use-capabilities-sir-workspace.md)
 

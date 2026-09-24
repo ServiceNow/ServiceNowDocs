@@ -3,9 +3,9 @@ title: Assign a Next Experience theme in the Mobile App Builder
 description: Use the Mobile App Builder to assign your Next Experience themes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-ne-theme-in-mab.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure theming, Next Experience theming, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -18,9 +18,9 @@ Use the Mobile App Builder to assign your Next Experience themes.
 
 Role required: admin
 
-To use Next Experience theming, you must have Next Experience enabled on your instance. For activation instructions and more information on Next Experience, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
+To use Next Experience theming, you must have Next Experience enabled on your instance. For activation instructions and more information on Next Experience, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md).
 
-**Note:** If you are a new customer starting with the Australia release, Next Experience is active by default on your instance. No activation is required, and your mobile apps use the **Coral** theme automatically.
+**Note:** If you are a new customer starting with the Brazil release, Next Experience is active by default on your instance. No activation is required, and your mobile apps use the **Coral** theme automatically.
 
 ## Procedure
 
@@ -41,7 +41,7 @@ To use Next Experience theming, you must have Next Experience enabled on your in
     -   Have a custom theme that you want to apply to the app.
     -   Want to apply the former **Polaris** theme to the app.
     -   Had previously opted out of Next Experience.
-    For information on creating your own themes, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
+    For information on creating your own themes, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md).
 
 6.  Click the **Save** button in the upper right corner of the screen to save your changes.
 

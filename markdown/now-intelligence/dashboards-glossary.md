@@ -3,12 +3,12 @@ title: Dashboard terms
 description: Dashboards in Platform Analytics and the classic environment use terms that describe how data is organized, displayed, and shared.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboards-glossary.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [dashboard glossary, dashboard terms, bookmark dashboard, dashboard category, certified dashboard, dashboard, data visualization, dashboard element, dashboard filter, filter group, inline editor, dashboard editor, Platform Analytics library, dashboards library, dashboard tab, top stage, dashboard top stage, widget, dashboard widget]
-breadcrumb: [Reference, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Dashboard terms

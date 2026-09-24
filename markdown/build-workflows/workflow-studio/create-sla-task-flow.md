@@ -3,11 +3,11 @@ title: Create a flow with an SLA Task trigger
 description: Configure your Service Level Agreement \(SLA\) definition to run a flow as the action plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-sla-task-flow.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -23,6 +23,8 @@ Configure your Service Level Agreement \(SLA\) definition to run a flow as the a
 ## About this task
 
 An SLA Task trigger only runs when a task record matches the conditions of a Service Level Agreement \(SLA\) definition. For example, you can run a flow whenever an incident record matches the **Priority 1 resolution \(8 hour\)** SLA Definition.
+
+SLA task flows run synchronously, which may lock the triggering task record from further changes while the flow is running.
 
 ## Procedure
 
@@ -93,15 +95,15 @@ Option to specify the user that runs the flow. You can select the system user or
 
 6.  Add actions, subflows, and flow logic to the flow.
 
-    Add [SLA Percentage Timer actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/sla-percentage-timer-action.md) to specify what to do when a task record attached to an SLA reaches specific percentages of completion.
+    Add [SLA Percentage Timer actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/sla-percentage-timer-action.md) to specify what to do when a task record attached to an SLA reaches specific percentages of completion.
 
 7.  Test the flow.
 
-    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
+    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-test.md) and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-activate.md).
 
     Once behaving as desired, activate the flow.
 
-8.  [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAnSLADefinition.md)
+8.  [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CreateAnSLADefinition.md)
 
     1.  In the **Flow** field, select the SLA Task flow you previously created.
 
@@ -114,5 +116,5 @@ Option to specify the user that runs the flow. You can select the system user or
 
 When the SLA Definition conditions are true, the system runs the specified SLA task flow.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-flow.md)
 

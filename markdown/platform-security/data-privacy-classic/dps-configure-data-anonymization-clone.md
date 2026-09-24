@@ -3,11 +3,11 @@ title: Configure data anonymization clone request
 description: Data privacy clone integration is configured using a PostClone script to create and execute data privacy jobs for configured policies on the target. After running the script, users will see de-identified data and will not have access to the original data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-configure-data-anonymization-clone.html
-release: australia
+release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create anonymization policies, Data anonymization, Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -18,7 +18,7 @@ Data privacy clone integration is configured using a PostClone script to create 
 
 ## Before you begin
 
-The data privacy PostClone script is installed with the activation of the data privacy plugin \(sn\_dp\_store\_app\). See [Activate data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-activate-data-privacy.md) for details.
+The data privacy PostClone script is installed with the activation of the data privacy plugin \(sn\_dp\_store\_app\). See [Activate data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/dps-activate-data-privacy.md) for details.
 
 Role required: data\_privacy\_clone\_processor, data\_privacy\_admin, and admin
 
@@ -30,13 +30,13 @@ Role required: data\_privacy\_clone\_processor, data\_privacy\_admin, and admin
 
 2.  Elevate to the **data\_privacy\_admin** role.
 
-    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
 3.  Navigate to **System Security** &gt; **Data Privacy** &gt; **Anonymization**.
 
 4.  Select **Create new policy**.
 
-    See [Create anonymization policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-create-anonymization-policies.md) for details.
+    See [Create anonymization policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/dps-create-anonymization-policies.md) for details.
 
 5.  Select **Data tables or columns**.
 
@@ -58,7 +58,7 @@ Role required: data\_privacy\_clone\_processor, data\_privacy\_admin, and admin
 
 13. Schedule the anonymization job.
 
-    See [Create anonymization job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-create-anonymization-job.md)for details.
+    See [Create anonymization job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/dps-create-anonymization-job.md)for details.
 
 14. As the data privacy admin, submit a clone request.
 

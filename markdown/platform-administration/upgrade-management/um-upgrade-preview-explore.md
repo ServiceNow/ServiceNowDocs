@@ -3,11 +3,11 @@ title: Explore Upgrade Preview in Upgrade Console
 description: Leverage the Upgrade Preview module to conduct in-depth assessments of your ServiceNow instance prior to an upgrade. Explore how different release versions may affect your current configurations and fine-tune your upgrade plan accordingly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-upgrade-preview-explore.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -90,7 +90,7 @@ Skipped list prediction**Note:** If you are using Upgrade Plan, the card name ch
 
 </td><td>
 
-Information about the predicted skipped records. See [Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-previewed-changes.md) for more details.-   Total record changes: Total number of records that are predicted to change when the upgrade occurs. Total record changes also include possible predicted skipped files known as Predicted skipped records.
+Information about the predicted skipped records. See [Preview predicted changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-previewed-changes.md) for more details.-   Total record changes: Total number of records that are predicted to change when the upgrade occurs. Total record changes also include possible predicted skipped files known as Predicted skipped records.
 
 Review changes: Link to the list of records that have changed and can be reviewed
 
@@ -103,7 +103,7 @@ Review changes: Link to the list of records that have changed and can be reviewe
 
 **Note:** This entry shows up on the card only when rules are executed on the skipped records. You will also see a link to create a skipped record rule if either there are no existing rules or the existing rules aren't executed.
 
-**Note:** Skipped record rules and upgrade plans can't be implemented together. See [Execute a skipped record rule automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-execute-skipped-record-rule.md) for more information.
+**Note:** Skipped record rules and upgrade plans can't be implemented together. See [Execute a skipped record rule automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-execute-skipped-record-rule.md) for more information.
 
 -   Predicted skipped records by priority: Pie chart to represent the predicted skipped records by priority.
 
@@ -171,5 +171,5 @@ Percentage of passing ATF tests that ran in the last 30 days.-   Most recent ATF
  **Note:** Only the tests which are finished and have passed are considered for the ATF results. If one test runs more than once, only the recent execution is considered in the results.
 
 </td></tr></tbody>
-</table>See [Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-preview-tool.md) for more information.
+</table>See [Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-upgrade-preview-tool.md) for more information.
 

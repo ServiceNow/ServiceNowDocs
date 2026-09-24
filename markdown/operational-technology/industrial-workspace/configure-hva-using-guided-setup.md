@@ -3,11 +3,11 @@ title: Set up the Hardware Vulnerability Assessment of Operational Technology de
 description: Use the Industrial Workspace Admin guided setup to walk you through configuring the Hardware Vulnerability Assessment feature available on the Industrial Workspace menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-hva-using-guided-setup.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Industrial Workspace, Operational Technology]
 ---
@@ -44,25 +44,25 @@ Use the Industrial Workspace Admin guided setup to assign required user roles, c
     |**Delete obsolete assessments**|Configure the time duration after which the obsolete and expired assessments are deleted.|
 
 
--   **[Assign roles for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/assign-hva-roles.md)**  
+-   **[Assign roles for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/assign-hva-roles.md)**  
 Assign roles to users so that they can configure properties, and use hardware vulnerability assessments features, capabilities, and data.
--   **[Run NVD Integrations for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/jobs-hwd-nvd-integration.md)**  
+-   **[Run NVD Integrations for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/jobs-hwd-nvd-integration.md)**  
 Install and run National Vulnerability Database \(NVD\) integrations to perform hardware vulnerability assessment.
--   **[Configure properties for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-properties.md)**  
+-   **[Configure properties for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/configure-hva-properties.md)**  
 Configure the properties required to perform hardware vulnerability assessment.
--   **[Run scheduled jobs to perform Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/jobs-hwd-vul-assessment.md)**  
+-   **[Run scheduled jobs to perform Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/jobs-hwd-vul-assessment.md)**  
 Execute scheduled jobs to perform hardware vulnerability assessment.
--   **[Configure Normalization Opt-in for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/hva-normalization-opt-in.md)**  
+-   **[Configure Normalization Opt-in for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/hva-normalization-opt-in.md)**  
 Select **Firmware Discovery Model** Opt-in option for ServiceNow Asset Management Content Service to collect unnormalized firmware details of Operational Technology \(OT\) devices and update the normalized content library. This process improves the ratio of normalized data mapping to CVEs and therefore improves assessment of vulnerabilities.
--   **[Delete obsolete and expired hardware vulnerability assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/otvr-delete-obsolete-and-expired-assessments.md)**  
+-   **[Delete obsolete and expired hardware vulnerability assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/otvr-delete-obsolete-and-expired-assessments.md)**  
 Set up automatic deletion of obsolete or expired assessment records.
 
-**Parent Topic:**[Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
+**Parent Topic:**[Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
 
 **Related topics**  
 
 
-[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md)
+[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/guided-setup.md)
 
-[Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)
+[Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)
 

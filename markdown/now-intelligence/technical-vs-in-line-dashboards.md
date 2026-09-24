@@ -3,9 +3,9 @@ title: Technical dashboards compared to inline dashboards
 description: The inline editor produces dashboard components with events and page properties preconfigured. The technical editor allows for a full range of UIB components but requires more back-end configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/technical-vs-in-line-dashboards.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [filter, Platform Analytics, data visualization]
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -109,12 +109,12 @@ Can specify dashboard details, including exposing the dashboard in other experie
 Same as dashboards created inline.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md)
+</table>**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/technical-dashboards.md)
 
 **Related topics**  
 
 
-[Create a filter on a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-tech-dashboard.md)
+[Create a filter on a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-filter-tech-dashboard.md)
 
-[Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md)
+[Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dv-chart-interactions.md)
 

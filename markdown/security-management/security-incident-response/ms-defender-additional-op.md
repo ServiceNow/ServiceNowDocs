@@ -3,11 +3,11 @@ title: Automate incident updates and closures
 description: Automate incident updates and closures based on the incident status. The Microsoft Defender integration has a bi-directional interface that enables incidents to create security incidents and to update the incidents after the security incident is created or closed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-defender-additional-op.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Defender integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

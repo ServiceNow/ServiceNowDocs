@@ -3,11 +3,11 @@ title: Analytics and Reporting
 description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with ServiceNow AI Platform products. The solutions help you to track and analyze CAM performance analytics dashboard reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-pa-next-exp-dashboards.html
-release: australia
+release: brazil
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---

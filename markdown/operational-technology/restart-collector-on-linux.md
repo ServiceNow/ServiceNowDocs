@@ -1,18 +1,18 @@
 ---
 title: Restart OT Discovery Collector on a Linux system
-description: Perform manual restart of Collector when its configuration file has been refreshed, or if the OT Discovery Collector is unstable. You can perform manual restart only on the Collectors installed in a Windows environment and for Linux-based agents that use systemd.
+description: Perform manual restart of OT Discovery Collector when its configuration file has been refreshed, or if the OT Discovery Collector is unstable. You can perform manual restart only on the Collector installed in a Windows environment and for Linux-based agents that use systemd.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/restart-collector-on-linux.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Restart OT Discovery Collector on a Linux system
 
-Perform manual restart of Collector when its configuration file has been refreshed, or if the OT Discovery Collector is unstable. You can perform manual restart only on the Collectors installed in a Windows environment and for Linux-based agents that use `systemd`.
+Perform manual restart of OT Discovery Collector when its configuration file has been refreshed, or if the OT Discovery Collector is unstable. You can perform manual restart only on the Collector installed in a Windows environment and for Linux-based agents that use `systemd`.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ Role required: admin
 
 ## Result
 
-OT Discovery Collector restarts in the Linux environment.
+The OT Discovery Collector restarts in the Linux environment.
 
-**Parent Topic:**[Use the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ot-discovery-collector.md)
+**Parent Topic:**[Use the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/use-ot-discovery-collector.md)
 

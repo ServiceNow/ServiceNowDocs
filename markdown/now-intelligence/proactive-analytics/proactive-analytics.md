@@ -3,11 +3,11 @@ title: Proactive analytics insights on dashboards
 description: Proactive analytics automates the extraction of insights from your Performance Analytics indicators. Receive notifications on your Platform Analytics dashboards of potentially interesting changes and events in your processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/proactive-analytics/proactive-analytics.html
-release: australia
+release: brazil
 product: Proactive Analytics
 classification: proactive-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -18,13 +18,13 @@ Proactive analytics automates the extraction of insights from your Performance A
 
 **Note:**
 
--   Proactive insights are a utility for use with Performance Analytics [indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) on Platform Analytics dashboards. To benefit from this feature, you need to have indicators set up. These can be indicators you created yourself or indicators that are included in Platform Analytics Solutions. For more information, see [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
--   You must have an active subscription to Performance Analytics to have Proactive analytics. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
--   To activate or deactivate Proactive analytics and select which types of insight cards to show, open the dashboard settings. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-ac-db-settings.md).
+-   Proactive insights are a utility for use with Performance Analytics [indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) on Platform Analytics dashboards. To benefit from this feature, you need to have indicators set up. These can be indicators you created yourself or indicators that are included in Platform Analytics Solutions. For more information, see [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
+-   You must have an active subscription to Performance Analytics to have Proactive analytics. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+-   To activate or deactivate Proactive analytics and select which types of insight cards to show, open the dashboard settings. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-ac-db-settings.md).
 
     \[Omitted image "db-insights-settings.png"\] Alt text: Insights settings on a dashboard.
 
--   Proactive analytics are available only on Platform Analytics dashboards, including technical dashboards. They are not available on [responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dashboards-landing-page.md), including responsive dashboards that have been migrated to Platform Analytics in compatibility mode.
+-   Proactive analytics are available only on Platform Analytics dashboards, including technical dashboards. They are not available on [responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dashboards-landing-page.md), including responsive dashboards that have been migrated to Platform Analytics in compatibility mode.
 
 ## Types of insights/analytics
 
@@ -40,7 +40,7 @@ Proactive analytics consists of insight cards on your Platform Analytics dashboa
 
     -   The target on a Performance Analytics indicator \(KPI\) is missed.
     -   The target on an indicator is likely to be missed \(**Predictive target**\).
-    -   The [threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) of an indicator is breached. If the breach is an all-time high or low, this fact is mentioned.
+    -   The [threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) of an indicator is breached. If the breach is an all-time high or low, this fact is mentioned.
     -   The threshold of an indicator is likely to be breached \(**Predictive threshold**\).
     If you turn on target insights but targets are not set for all indicators that are shown on your dashboard, or not all targets have a review date, a Target Suggestion card is generated. The card has links for each indicator.
 
@@ -50,11 +50,11 @@ Proactive analytics consists of insight cards on your Platform Analytics dashboa
 
     \[Omitted image "insight-set-target.png"\] Alt text: Set target modal opened from suggestion insight, showing value and review data suggested by system.
 
-    For information about setting targets and thresholds on an indicator, see [Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md). You can also set targets and thresholds in a [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md) page.
+    For information about setting targets and thresholds on an indicator, see [Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md). You can also set targets and thresholds in a [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details.md) page.
 
 -   **Process mining**
 
-    If you are using Process Mining, an insight card can be generated for any potential bottleneck in the process flows related to the indicator. These insights are intended to help IT process owners. You can also receive suggestions for Process Mining projects to create, and such projects will also generate insights. For more information, see [Creating Process Mining projects from Proactive Analytics suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/proactive-analytics/pm-projects-insights-suggestions.md).
+    If you are using Process Mining, an insight card can be generated for any potential bottleneck in the process flows related to the indicator. These insights are intended to help IT process owners. You can also receive suggestions for Process Mining projects to create, and such projects will also generate insights. For more information, see [Creating Process Mining projects from Proactive Analytics suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/proactive-analytics/pm-projects-insights-suggestions.md).
 
     **Note:**
 
@@ -62,19 +62,19 @@ Proactive analytics consists of insight cards on your Platform Analytics dashboa
     -   Process mining insights are included in the DA Process Mining Insights plugin.
 -   **KPI Signals event**
 
-    A signal as defined in [KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-behavior-charts-for-kpis.md) is generated. KPI Signals uses standard statistical Process Behavior Charts to identify significant changes in processes. The following signals generate Insights cards:
+    A signal as defined in [KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-behavior-charts-for-kpis.md) is generated. KPI Signals uses standard statistical Process Behavior Charts to identify significant changes in processes. The following signals generate Insights cards:
 
     -   Outlier: A score beyond the three standard deviation \(3-sigma\) upper or lower limit.
     -   Short run: Four consecutive scores all greater than or all less than the average value, with three of the scores outside two standard deviations.
     -   Long run: Seven consecutive scores all greater than or all less than the average value.
     -   "Anti-signal": Informational message that the indicator has been stable for a long time.
-    **Important:** KPI Signals must be configured for an indicator to generate KPI Signals events for that indicator. For more information, see [Signal, no signal, and anti-signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/signal-no-signal-anti-signal.md) and [Activate KPI Signals monitoring for an indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-signals-monitor.md).
+    **Important:** KPI Signals must be configured for an indicator to generate KPI Signals events for that indicator. For more information, see [Signal, no signal, and anti-signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/signal-no-signal-anti-signal.md) and [Activate KPI Signals monitoring for an indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/activate-signals-monitor.md).
 
 -   **Key contributor guidance**
 
-    A key contributor is a [breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) on a Performance Analytics indicator that the system identifies as having a particular impact. The system uses KPI Signals to make this determination, but you do not have to activate KPI Signals for the indicators. The system uses its own KPI Signals configuration.
+    A key contributor is a [breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) on a Performance Analytics indicator that the system identifies as having a particular impact. The system uses KPI Signals to make this determination, but you do not have to activate KPI Signals for the indicators. The system uses its own KPI Signals configuration.
 
-    **Warning:** Be careful when you modify a Performance Analytics [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) after the system has started to identify key contributors. You might alter the KPI Signals baseline or the evaluation interval or both. Consequently, you can have inconsistencies in the insights. If you notice such inconsistencies, identify the UUID for the affected indicator-breakdown combination. Then delete the corresponding record from the PA Correlation Analyzer State \[pa\_correlation\_analyzer\_state\] table. For more information, see [KPI Details UUIDs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-uuids.md).
+    **Warning:** Be careful when you modify a Performance Analytics [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) after the system has started to identify key contributors. You might alter the KPI Signals baseline or the evaluation interval or both. Consequently, you can have inconsistencies in the insights. If you notice such inconsistencies, identify the UUID for the affected indicator-breakdown combination. Then delete the corresponding record from the PA Correlation Analyzer State \[pa\_correlation\_analyzer\_state\] table. For more information, see [KPI Details UUIDs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details-uuids.md).
 
 -   **Custom insights**
 
@@ -112,11 +112,11 @@ Multiple insights of the same type are aggregated into a single card. If more in
 
 ## Limitations and requirements
 
-The Australia version of Proactive analytics applies only to Performance Analytics indicators.
+The Brazil version of Proactive analytics applies only to Performance Analytics indicators.
 
-Target and threshold events are shown only when a target or threshold has been set on the indicator. For more information, see [Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md).
+Target and threshold events are shown only when a target or threshold has been set on the indicator. For more information, see [Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md).
 
-KPI Signals events are shown only for indicators with KPI Signals activated. For more information, see [Activate KPI Signals monitoring for an indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-signals-monitor.md).
+KPI Signals events are shown only for indicators with KPI Signals activated. For more information, see [Activate KPI Signals monitoring for an indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/activate-signals-monitor.md).
 
 Key contributor guidance is provided only for Performance Analytics indicators with a daily frequency.
 
@@ -125,7 +125,7 @@ While key contributor events are also based on KPI Signals, they do not require 
 **Related topics**  
 
 
-[Create a flow with a Proactive Analytics trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-proactive-analytics.md)
+[Create a flow with a Proactive Analytics trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow-proactive-analytics.md)
 
-[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)
+[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details-targets.md)
 

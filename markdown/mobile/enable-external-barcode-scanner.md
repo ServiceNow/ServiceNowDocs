@@ -3,9 +3,9 @@ title: Enable barcode scanning with an external scanner
 description: Set the externalScanEnabled mobile property to True to enable barcode scanning with an external scanner while the device camera is available in other parts of the mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/enable-external-barcode-scanner.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -37,7 +37,7 @@ Please refer to the user manual of your device to learn how to configure the tab
 -   For Zebra TC52X, TC78x, and MC 900 \(phone with built-in scanner\), see [DataWedge: Append Send Enter or Tab Key after Scanning](https://supportcommunity.zebra.com/s/article/DataWedge-for-Android-Send-Enter-or-Tab-after-scanning?language=en_US).
 -   For Honeywell CT40 \(phone with built-in scanner\), see [Article 000076406](https://sps-support.honeywell.com/s/article/How-to-add-remove-a-suffix-on-an-Android-device-running-CommonES-version-3-or-greater) in the Honeywell knowledge base.
 
-For more information, see [Mobile barcode scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-scanning.md).
+For more information, see [Mobile barcode scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-scanning.md).
 
 ## Procedure
 
@@ -81,7 +81,7 @@ Application scope where the mobile property is applied.
 
  To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe icon image\) on the instance banner. Then select **Application scope : _application\_scope_**.
 
- For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
+ For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Is Public
 
 Determines whether the **pre\_auth** property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/adaptive-authentication-events.md).
+ By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the **/user\_client** API response.
 
@@ -171,5 +171,5 @@ Mobile application to which you want to send the mobile property. This setting l
 
 After updating this property, the end-user must pull to refresh and get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-properties.md)
 

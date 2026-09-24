@@ -3,11 +3,11 @@ title: Associate a remediation task to an existing change request
 description: Associate a remediation task in Configuration Compliance application to an existing change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-CR-v12-assoc.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -81,6 +81,6 @@ You can associate remediation tasks that are assigned to you or your assignment 
 
     **Note:** You can still manually move change requests and remediation tasks through the states of their life cycles on their respective records with state synchronization enabled, but when the system registers that a change request has changed its state, or you add a change request or remove it from a remediation task, state synchronization potentially can override your manual intervention. However, change requests states do not automatically move the remediation task from the `Closed` or `Deferred` states.
 
-    For more information, see [State synchronization between change requests and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-cr-state-synch.md).
+    For more information, see [State synchronization between change requests and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/cc-cr-state-synch.md).
 
 

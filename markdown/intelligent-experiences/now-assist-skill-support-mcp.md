@@ -1,16 +1,16 @@
 ---
-title: Generative AI skill support in MCP Server Console
+title: AI skill support in MCP Server Console
 description: MCP Server Console supports creating tools for Model Context Protocol \(MCP\) servers from a subset of AI skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-support-mcp.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, MCP Server Console, Enable AI experiences]
+breadcrumb: [Reference, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
-# Generative AI skill support in MCP Server Console
+# AI skill support in MCP Server Console
 
 MCP Server Console supports creating tools for Model Context Protocol \(MCP\) servers from a subset of AI skills.
 
@@ -19,9 +19,7 @@ The following AI skills are preconfigured as tools MCP Server Console:
 -   Case summarization
 -   Incident summarization
 
-In addition, you can create tools from the following AI skills or from custom skills created with AI Skill Kit. Only AI skills that don't rely on internal information as inputs, such as sys\_ids, are available to be created as tools.
-
-**Note:** Some AI skills don't currently meet the criteria required to be used as tools. For more information about why a skill might not be available for creation as a tool, see the [AI Skill Eligibility Criteria for MCP Tool Integration \[KB2952564\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2952564) article in the Now Support Knowledge Base or contact your ServiceNow representative.
+In addition, you can create tools from the following AI skills or from custom skills created with AI Skill Kit. Only AI skills that don't rely on internal information as inputs, such as sys\_ids, are available to be created as tools. Some AI skills don't currently meet the criteria required to be used as tools. For more information, contact your ServiceNow representative.
 
 -   Analyze the CMDB Search request
 -   Change request risk explanation
@@ -54,20 +52,21 @@ In addition, you can create tools from the following AI skills or from custom sk
 -   Resume Skill Extraction
 -   Skill keyword extractor
 -   Spoke Generation
+-   Subflows and actions
 -   Supplier recommendation
 -   Survey Filler Answer Suggestion skill
 -   Text2Test Sentinel
 -   Text2Test Skill
 -   Vulnerable item deduplication
 
-**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
+**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mcp-server-console-reference.md)
 
 **Related topics**  
 
 
-[Create a tool from an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-naskill.md)
+[Create a tool from AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-naskill.md)
 
-[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
+[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
 
-[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

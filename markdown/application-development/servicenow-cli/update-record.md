@@ -3,13 +3,13 @@ title: Update a record
 description: Updates the specified record with the given data attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/update-record.html
-release: australia
+release: brazil
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Perform record operations using ServiceNow CLI, ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Perform record operations using ServiceNow CLI, ServiceNow CLI, Developing your application, Building applications]
 ---
 
 # Update a record
@@ -149,5 +149,5 @@ The system returns field-value pairs for the updated record.
 }
 ```
 
-**Parent Topic:**[Perform record operations using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/manage-records.md)
+**Parent Topic:**[Perform record operations using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/manage-records.md)
 

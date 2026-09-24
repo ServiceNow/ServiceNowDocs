@@ -3,9 +3,9 @@ title: Investigate failed HL7 messages
 description: Identify and diagnose inbound HL7 messages that resulted in an application error \(AE\), application rejection \(AR\), or failed processing status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-failed-messages-investigate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [failed messages, AE, AR, troubleshoot HL7]
 breadcrumb: [View and filter the HL7 message log, HL7 v2.x Integration, Healthcare Integrations, Healthcare and Life Sciences]
@@ -41,7 +41,7 @@ Role required: `sn_hl7_v2.admin`
 **Related topics**  
 
 
-[ACK codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-ack-codes.md)
+[ACK codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hl7-ack-codes.md)
 
-[View and filter the message log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-message-log-view.md)
+[View and filter the message log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hl7-message-log-view.md)
 

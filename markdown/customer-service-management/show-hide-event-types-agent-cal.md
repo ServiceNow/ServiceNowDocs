@@ -3,9 +3,9 @@ title: Show or hide event types on the agent calendar
 description: Users with the agent schedule user role can personalize their calendar and show or hide different types of events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/show-hide-event-types-agent-cal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use agent calendar, Agent calendar, Schedules and sites, Use, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Creating and associating policy texts from Cloud documents
 description: You can create and associate policy text for a policy record with any document that exist in Microsoft OneDrive, Google Drive, or in Microsoft SharePoint. You can sync the policy text and the document in cloud and get the latest version attached to the policy for publishing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-associate-cloud-doc-policy-red.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

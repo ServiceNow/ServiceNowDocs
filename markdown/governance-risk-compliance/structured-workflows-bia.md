@@ -3,10 +3,10 @@ title: Structured workflows for Business Impact Analysis
 description: Business impact analysis helps you to predict the consequences of a disruption on a business process or business function.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/structured-workflows-bia.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,13 +22,13 @@ The assessment of a business critical process disruption helps you to estimate t
 
 ## Impact ratings for your business impact analysis
 
-The Business Continuity Management \(BCM\) administrator of your organization defines the impact ratings for your business impact analysis \(BIA\) and decides if the impact is tolerable for your business process. For more information on the impact ratings, see [Configure an impact rating to assess an impact category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-impact-rating-bcp.md). According to the configuration set up by BCM administrator, the questions are displayed in the **RTO Impact Assessment** tab.
+The Business Continuity Management \(BCM\) administrator of your organization defines the impact ratings for your business impact analysis \(BIA\) and decides if the impact is tolerable for your business process. For more information on the impact ratings, see [Configure an impact rating to assess an impact category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-impact-rating-bcp.md). According to the configuration set up by BCM administrator, the questions are displayed in the **RTO Impact Assessment** tab.
 
-Consider the example where BCM administrator has configured an intolerable impact rating for the Revenue impact category. BCM administrator has defined what qualifies to be an intolerable impact. As a BIA owner, you must identify the timeline at which the revenue impact may go beyond $1M.
+Consider the example where BCM administrator has configured an intolerable impact rating for the Revenue impact category. BCM administrator has defined what qualifies to be an intolerable impact. As a BIA owner, you must identify the timeline at which the revenue impact may go beyond $1M.\[Omitted image "BIA-intolerable-impact.png"\] Alt text: BIA impact rating.
 
 ## Multiple impact ratings for an impact category
 
-If BCM administrator has configured the assessment questionnaire to include multiple impact ratings for an impact category, the impact category ratings are displayed in the Impact Category view.\[Omitted image "impact-category-admin-view.png"\] Alt text: Administrator view for the impact category.
+If your BCM administrator has configured the assessment questionnaire to include multiple impact ratings for an impact category, the ratings are displayed in the Impact Category view. The following example shows the impact category ratings.\[Omitted image "impact-category-admin-view.png"\] Alt text: Administrator view for the impact category.
 
 BCM administrators specify a threshold of non-tolerance for the impact ratings, per impact category. The disruption duration for the first non-tolerable impact category is selected for the recovery time objective \(RTO\). The impact ratings have the specified values:
 
@@ -117,9 +117,7 @@ If the administrator has set all the impact ratings as tolerable, the value spec
 
 -   **Calculation of overall impact assessment result for a BIA**
 
-    When you update the **Disruption Duration** of an impact category, the RTO of the BIA is automatically updated. The RTO of the BIA is set as the lowest tolerable downtime from each impact category.
-
-    For example, consider a BIA having four impact categories – Legal, Reputation, Workforce, and Regulatory. When you update the legal impact category disruption duration, the BIA RTO value is recalculated based on the lowest tolerable disruption duration from each impact category. The Recovery Tier varies from organization to organization and is set based on the recalculated RTO value.
+    When you update the **Disruption Duration** of an impact category, the RTO of the BIA is automatically updated. The RTO of the BIA is set as the lowest tolerable downtime from each impact category. For example, consider a BIA having four impact categories – Legal, Reputation, Workforce, and Regulatory. When you update the disruption duration value of the legal impact category, the RTO value of the BIA is recalculated. The recalculation is based on the lowest tolerable disruption duration from each impact category. The Recovery Tier varies from organization to organization and is set based on the recalculated RTO value.
 
     |RTO value|Recovery Tier|
     |---------|-------------|

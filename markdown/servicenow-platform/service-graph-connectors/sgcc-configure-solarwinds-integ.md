@@ -3,11 +3,11 @@ title: Configure Service Graph Connector for SolarWinds using SGC Central
 description: Use the playbook available with the SGC Central application to set up the Service Graph Connector for SolarWinds for pulling in SolarWinds data into the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgcc-configure-solarwinds-integ.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [SolarWinds, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,15 +18,15 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
-Install Service Graph Connector for SolarWinds version 2.6.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+Install Service Graph Connector for SolarWinds version 2.6.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
-Air gap connections are available from version 2.5.0 of the Service Graph Connector for SolarWinds. You can set up either standard data sources or air gap data sources. Before you set up air gap data sources, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure server and low-secure server. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
+Air gap connections are available from version 2.5.0 of the Service Graph Connector for SolarWinds. You can set up either standard data sources or air gap data sources. Before you set up air gap data sources, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure server and low-secure server. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
 
 Role required: admin
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
 ## Procedure
 
@@ -42,7 +42,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 4.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
+    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-first-time-setup.md).
 
 5.  Complete the setup for configuring the connector for importing data.
 
@@ -51,22 +51,22 @@ The playbook experience for onboarding connectors is activated with SGC Central 
         1.  In the **Setup** stage of the playbook, select the **Select data source type** activity.
             -   Select **Standard data sources** if you're working with environments that have direct internet access.
 
-                Proceed to step [5.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-solarwinds-integ.md).
+                Proceed to step [5.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-solarwinds-integ.md).
 
             -   Select **Air gap data sources** if you're working with restricted environments that don't have direct internet access.
         2.  Select **Continue**.
     2.  Download and run the PowerShell scripts to set up an air gap connection.
 
-        **Note:** Before you add an air gap connection, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure and low-secure servers. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
+        **Note:** Before you add an air gap data source, you must configure the air gap solution for the Service Graph Connector for SolarWinds in your high-secure and low-secure servers. See [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
 
         1.  In the **Setup** stage of the playbook, select the **Download PowerShell scripts** activity.
 
-            The **Download PowerShell scripts** activity appears only when you select **Air gap data sources** as the data source type in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-solarwinds-integ.md).
+            The **Download PowerShell scripts** activity appears only when you select **Air gap data sources** as the data source type in step [5.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-solarwinds-integ.md).
 
         2.  Select **Download PowerShell scripts**.
         3.  Run the PowerShell scripts.
 
-            For more information on configuring an air gap connection, see [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
+            For more information on configuring an air gap connection, see [Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md).
 
         4.  After configuring the air gap connection, select **Continue**.
     3.  Create and test a connection.
@@ -188,7 +188,7 @@ MID server
 
 </td><td>
 
-Name of the MID Server that you deployed in your low-secure server.See [Configure air gap solution for Service Graph Connector for SolarWinds in a low-secure server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-low-secure.md).
+Name of the MID Server that you deployed in your low-secure server.See [Configure air gap solution for Service Graph Connector for SolarWinds in a low-secure server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-low-secure.md).
 
 </td></tr></tbody>
 </table>        3.  Select **Create and test connection**.
@@ -205,7 +205,7 @@ Name of the MID Server that you deployed in your low-secure server.See [Configur
         2.  Expand the Parent scheduled data import within the Import schedules list, and select the SG-Solarwinds Hardware import schedule.
         3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
         4.  Select **Save**.
 
@@ -222,11 +222,11 @@ Select **View all connections** to review the connection details. The configured
 **Related topics**  
 
 
-[Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-solarwinds.md)
+[Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-solarwinds.md)
 
-[CMDB classes targeted in Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
+[CMDB classes targeted in Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-solarwinds-classes.md)
 
-[Accessing the connection details of Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-conn.md)
+[Accessing the connection details of Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-conn.md)
 
-[Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md)
+[Configuring air gap connections for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/airgap-solarwinds.md)
 

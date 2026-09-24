@@ -3,7 +3,7 @@ title: SAP S4 HANA Public Cloud Spoke
 description: The SAP S4 HANA Public Cloud spoke is built by Bristlecone, Inc. Manage primary data, purchase orders, receipts, and suppliers in SAP S4 HANA public cloud instance from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sap-s4-hana-cloud-spk.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -37,7 +37,7 @@ This spoke was built for SAP S4 HANA 2023.
 -   SAP S4 HANA Public Cloud account
 -   Configure the value of this system property:
 
-    **com.snc.process\_flow.reporting.serialized.val\_size\_limit**: This property serializes JSON objects and ensures that the data is in the required format. Specify the number of bytes as per your requirement. For more information, see [Workflow Studio system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-system-properties.md).
+    **com.snc.process\_flow.reporting.serialized.val\_size\_limit**: This property serializes JSON objects and ensures that the data is in the required format. Specify the number of bytes as per your requirement. For more information, see [Workflow Studio system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-designer-system-properties.md).
 
 
 ## Spoke dependencies
@@ -277,5 +277,5 @@ The SAP S4HANA Public Cloud spoke provides a scheduled job, Generate Token and C
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Setup the SAP S4 HANA Public Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sap-s4hana-cloud-spk.md).
+For information about setting up the spoke, see [Setup the SAP S4 HANA Public Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-sap-s4hana-cloud-spk.md).
 

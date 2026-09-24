@@ -3,9 +3,9 @@ title: Configure the data relationships
 description: Configure the data relationships in the Template Configurations module, which helps you to navigate from a record in the template configuration to any table. When you create these paths, you can fetch necessary data from each of these records in the BCM report template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-data-rel-fortemp-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up the template configurations, Generating reports using Document designer, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_grc\_doc\_design.admin and sn\_bcm.admin
 
 ## About this task
 
-When you create data relationships, you can specify how selected records are connected to the table \(for example, \[sn\_bcp\_plan\]\) in the template relationship registry. You can then establish a path to navigate to these respective records. You can create as many relationships as needed.
+When you create data relationships, you can specify how selected records are connected to the table in the template relationship registry. For example, you can connect plans to recovery teams or plans to related assets to the \[sn\_bcp\_plan\] table. You can then establish a path to navigate to these respective records. You can create as many relationships as needed.
 
 ## Procedure
 
@@ -114,5 +114,5 @@ Table from which the data is obtained. This field is automatically populated.
 
 ## What to do next
 
-Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Set up the content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-content-config-for-temp-config.md).
+Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Set up the content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-content-config-for-temp-config.md).
 

@@ -3,11 +3,11 @@ title: Set up mappings between themes
 description: Make sure that playbooks run as expected in your Service Portal by setting up mappings between your Service Portal theme and the UXF theme used in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/set-up-mappings-between-themes.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbooks in Service Portal, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -32,15 +32,15 @@ The Portal Playbook widget uses a system property **ux\_portal\_theme\_to\_uib\_
 
 3.  Enter values for the following fields.
 
-<table id="choicetable_aw3_gbw_ybc"><thead><tr><th align="left" id="d133677e101">
+<table id="choicetable_aw3_gbw_ybc"><thead><tr><th align="left" id="d135337e101">
 
 Field
 
-</th><th align="left" id="d133677e104">
+</th><th align="left" id="d135337e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d133677e110">
+</th></tr></thead><tbody><tr><td id="d135337e110">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Specify your Service Portal property in the name. Give your system property the name **ux\_portal\_theme\_to\_uib\_theme\_mapping.\[the sys ID of your service portal theme\]**. For example, if you use the La Jolla theme for your Service Portal, it has a sys ID of a7a6e78277002300a6e592718a10617a​. You would enter **ux\_portal\_theme\_to\_uib\_theme\_mapping.a7a6e78277002300a6e592718a10617a​** as the name.​
 
-</td></tr><tr><td id="d133677e131">
+</td></tr><tr><td id="d135337e131">
 
 **Value**
 
@@ -70,5 +70,5 @@ The mapping between your Service Portal theme and the UXF theme is saved. Launch
 
 Embed a playbook in a Service Portal page and customize the Service Portal playbook runtime experience in the ServiceNow AI Platform®.
 
-To learn more about customizing the playbook runtime experience in Service Portal, see [Configure a playbook for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/embed-playbook-service-portal.md).
+To learn more about customizing the playbook runtime experience in Service Portal, see [Configure a playbook for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/embed-playbook-service-portal.md).
 

@@ -3,11 +3,11 @@ title: Explore automations
 description: Automation explorer enables you to scan your entire ServiceNow instance and discover relevant automations based on a targeted query. You can filter by automation type, execution time period, and application scope, then onboard high-value automations directly to Automation Center for ROI tracking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/auto-explorer.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, ServiceNow Otto for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Automation explorer enables you to scan your entire ServiceNow® instance and di
 
 Role required: sn\_ac.automation\_technical\_user
 
-Run the fix script to be able to view the results of the Automation explorer. For information, see [Run fix script to view results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/run-script.md).
+Run the fix script to be able to view the results of the Automation explorer. For information, see [Run fix script to view results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/run-script.md).
 
 **Note:** You can control how catalog items are onboarded as automations using the sn\_ac.auto\_onboarding\_catalog\_items system property. Users with sn\_ac.automation\_admin can edit the system property.
 
@@ -39,7 +39,7 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 3.  Select your search method.
 
-<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d94480e123">
+<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d93496e123">
 
 **If you know the automation type**
 
@@ -47,7 +47,7 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 Select the relevant automation type card to begin a focused search.
 
-</td></tr><tr><td id="d94480e132">
+</td></tr><tr><td id="d93496e132">
 
 **If you don't know the automation type**
 
@@ -94,5 +94,5 @@ The selected automations are onboarded to Automation Center. Their cost savings 
 
 After onboarding, monitor the ROI of your automations in the Automation Center Value dashboard. You can return to Automation explorer at any time to discover additional automations or refine your search criteria.
 
-**Parent Topic:**[Using ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/use-now-assist.md)
+**Parent Topic:**[Using ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/use-now-assist.md)
 

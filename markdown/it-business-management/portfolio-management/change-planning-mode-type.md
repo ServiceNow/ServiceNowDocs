@@ -3,11 +3,11 @@ title: Impact of modifying the scenario planning type and scope
 description: Modifying the planning type and scope impacts the demands and project selection in your planning scenarios and portfolio planning. You can change the planning type and scope at any time during portfolio planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/change-planning-mode-type.html
-release: australia
+release: brazil
 product: Portfolio Management
 classification: portfolio-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the scenario planning type and scope, Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -50,5 +50,5 @@ Changing the planning scope from a single selected portfolio to all portfolios h
 -   In case of multi-year planning, your confirmed plans for the portfolios are retained.
 -   Deletes all existing scenarios and scenario funding records.
 
-**Parent Topic:**[Configure the scenario planning type and scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/configure-scenario-planning.md)
+**Parent Topic:**[Configure the scenario planning type and scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/configure-scenario-planning.md)
 

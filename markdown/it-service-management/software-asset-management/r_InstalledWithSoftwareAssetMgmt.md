@@ -3,11 +3,11 @@ title: Installed with the legacy Software Asset Management plugin
 description: A number of tables, properties, user roles, script includes, client scripts, UI policies, and business rules are installed with the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/r\_InstalledWithSoftwareAssetMgmt.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Legacy Software Asset Management plugin Overview module, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -176,7 +176,7 @@ inventory\_user
 
 </td><td>
 
-Can create, edit, change, and manage software licenses. Can edit the Software model field on a Discovery model. Can approve a model. Has full control of the [Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareAssetManagement.md). Controls the legacy IBM PVU Process Pack, if activated.
+Can create, edit, change, and manage software licenses. Can edit the Software model field on a Discovery model. Can approve a model. Has full control of the [Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_SoftwareAssetManagement.md). Controls the legacy IBM PVU Process Pack, if activated.
 
 </td></tr></tbody>
 </table>## Script includes
@@ -359,7 +359,7 @@ Computer \[cmdb\_ci\_computer\]
 
 </td><td>
 
-Clears the Cached check box on related software installs when the [CPU count or CPU core count](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_FindingSoftwareOnTheNetwork.md) changes.
+Clears the Cached check box on related software installs when the [CPU count or CPU core count](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/t_FindingSoftwareOnTheNetwork.md) changes.
 
 </td></tr><tr><td>
 
@@ -743,7 +743,7 @@ The legacy Software Asset Management \(com.snc.software\_asset\_management\) plu
 |----|-----------|
 |Processor Definition|If you activated the legacy IBM PVU Process Pack after activating the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin, a reference to the processor definition is added to the Hardware \[cmdb\_ci\_hardware\] table.|
 
-**Parent Topic:**[Legacy Software Asset Management plugin Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SWAssetMgmtOverviewMod.md)
+**Parent Topic:**[Legacy Software Asset Management plugin Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_SWAssetMgmtOverviewMod.md)
 
 **Related topics**  
 

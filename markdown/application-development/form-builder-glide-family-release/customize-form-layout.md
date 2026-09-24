@@ -3,11 +3,11 @@ title: Customize your form layout in Table Builder
 description: Visually design the look of the forms your users see by customizing form views in Table Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/customize-form-layout.html
-release: australia
+release: brazil
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
 ---
@@ -18,13 +18,13 @@ Visually design the look of the forms your users see by customizing form views i
 
 ## Before you begin
 
--   Launch Table Builder. For more information, see [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md).
--   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
--   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
+-   Launch Table Builder. For more information, see [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md).
+-   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
+-   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-**Note:** To understand how to approach customizing your forms, review [Table Builder workflow and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-workflow.md).
+**Note:** To understand how to approach customizing your forms, review [Table Builder workflow and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-builder-workflow.md).
 
-Role required: personalize\_form or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -32,19 +32,19 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 2.  Choose a view to work with.
 
-    For detailed information on how to choose a view for a form, see [Choose a form view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/manage-form-views.md).
+    For detailed information on how to choose a view for a form, see [Choose a form view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/manage-form-views.md).
 
 3.  Customize the form layout that displays in the form editor by performing the following actions.
 
-<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d290933e168">
+<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d281731e168">
 
 Option
 
-</th><th align="left" id="d290933e171">
+</th><th align="left" id="d281731e171">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d290933e177">
+</th></tr></thead><tbody><tr><td id="d281731e177">
 
 **Add form sections**
 
@@ -55,7 +55,7 @@ Action
 3.  Enter a title for the section.
  **Note:** You can also add a new section from within the form editor by pointing to the **+** icon at the top of an existing section, and then selecting **+Add section** or by using the menu in the section header.
 
-</td></tr><tr><td id="d290933e213">
+</td></tr><tr><td id="d281731e213">
 
 **Configure section layout \(columns\)**
 
@@ -67,7 +67,7 @@ Change the layout of your section. Sections can consist of one column or be spli
     -   From the section header menu, select **One-column** or **Two-column**.
 
 
-</td></tr><tr><td id="d290933e251">
+</td></tr><tr><td id="d281731e251">
 
 **Merge section with the section above**
 
@@ -79,7 +79,7 @@ Merge two sections. Merging a section refers to combining two sections together 
     -   From the section panel, select **Merge with section above**.
 
 
-</td></tr><tr><td id="d290933e286">
+</td></tr><tr><td id="d281731e286">
 
 **Detach section**
 
@@ -91,7 +91,7 @@ Detach a section. You can split two previously merged sections apart into separa
     -   From the section panel, select **Detach from section above**.
 
 
-</td></tr><tr><td id="d290933e322">
+</td></tr><tr><td id="d281731e322">
 
 **Remove section from form**
 
@@ -109,5 +109,5 @@ Detach a section. You can split two previously merged sections apart into separa
 5.  Select **Save**.
 
 
-**Parent Topic:**[Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md)
+**Parent Topic:**[Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md)
 

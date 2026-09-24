@@ -1,20 +1,20 @@
 ---
 title: Industrial Process Manager common terminology
-description: Before getting started with the Industrial Process Manager, let's look at some common terminology and acronyms that are used in this content.
+description: Before getting started with the Industrial Process Manager, here are some common terminology and acronyms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/common-manufacturing-process-manager-terminology.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Industrial Process Manager, Operational Technology]
+breadcrumb: [Explore the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Industrial Process Manager common terminology
 
-Before getting started with the Industrial Process Manager, let's look at some common terminology and acronyms that are used in this content.
+Before getting started with the Industrial Process Manager, here are some common terminology and acronyms.
 
 <table id="table_msb_ghs_gqb"><thead><tr><th>
 
@@ -67,5 +67,5 @@ ETL
 Common term that is used for taking data from a source system, transforming it, and then uploading it to a target system.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)
+</table>**Parent Topic:**[Explore Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)
 

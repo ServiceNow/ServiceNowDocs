@@ -3,11 +3,11 @@ title: Microsoft Azure Sentinel integration
 description: Microsoft Azure Sentinel is a cloud-based Security Information Event Management \(SIEM\) and Security Orchestration Automated Response \(SOAR\) solution. You can use the Microsoft Azure Sentinel integration to ingest Azure Sentinel incidents and automatically create security incidents in Security Incident Response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/microsoft-azure-sentinel-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

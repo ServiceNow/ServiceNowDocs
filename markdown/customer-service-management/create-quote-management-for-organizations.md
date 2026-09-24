@@ -3,9 +3,9 @@ title: Create a quote for business organizations
 description: Create a quote and manage the price breakdown of the products by verifying product price details. Agents can analyze price details, discuss with customers and resellers, and decide on the proposed quote.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-quote-management-for-organizations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ The channel partners can view a detailed price breakdown for each quote line ite
 
 3.  On the Quote New record form, fill in the fields.
 
-    To learn more about the fields on the form, see [ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quoting-experiences-overview.md).
+    To learn more about the fields on the form, see [ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quoting-experiences-overview.md).
 
 4.  Select **Submit**.
 

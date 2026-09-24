@@ -3,9 +3,9 @@ title: Prevent users from attaching unencrypted files
 description: Modify the com.glide.encryption.enable\_attachment\_key\_ui property to prevent your users with access to an encryption module key from attaching unencrypted attachments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/attach-enc-property.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -18,7 +18,7 @@ Modify the com.glide.encryption.enable\_attachment\_key\_ui property to prevent 
 
 Role required: security\_admin
 
-You must elevate to the security\_admin role performing these steps. For instructions, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md)
+You must elevate to the security\_admin role performing these steps. For instructions, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md)
 
 By default, users who have access to an encryption module key are able to upload unencrypted attachments. Use the **com.glide.encryption.enable\_attachment\_key\_ui** system property to change this behavior.
 
@@ -33,7 +33,7 @@ When attaching, your users see a UI picker on records that have a multi-module e
 3.  Set the **value** of the property to `false`.
 
 
-**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-column-level-encryption.md)
 
-**Parent Topic:**[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption-2.md)
+**Parent Topic:**[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-column-level-encryption-2.md)
 

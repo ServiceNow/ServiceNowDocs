@@ -3,11 +3,11 @@ title: Integration architecture for McAfee ePO
 description: The following topic is an overview of the system architecture and lists key features of the integration. This section also provides information about the setup steps that you are required to complete in your ServiceNow AI Platform instance and in the McAfee ePolicy Orchestrator \(McAfee ePO\) console prior to installing the application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-integration-architecture.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,7 +30,7 @@ The following terms are used throughout the installation and configuration docum
 
 -   **Plugin**
 
-    Plugins are software components that provide specific features and functionalities within your ServiceNow AI Platform instance. For more information on the installation and configuration of the integration plugins, see [Install the application and configure a server for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffe-epo-install.md).
+    Plugins are software components that provide specific features and functionalities within your ServiceNow AI Platform instance. For more information on the installation and configuration of the integration plugins, see [Install the application and configure a server for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcaffe-epo-install.md).
 
 -   **ePolicy Orchestrator \(McAfee ePO\)**
 
@@ -77,7 +77,7 @@ As shown in the following figure, this integration can support more than one McA
 
 ## Workflows for the McAfee ePO integration
 
-This integration includes the following workflows. These workflows are pre-configured and are designed specifically for this integration. You can edit these workflows to meet the needs of your organization as required. For more general information about workflows and using the workflow editor, see [Getting started with workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/getting-started-workflows.md).
+This integration includes the following workflows. These workflows are pre-configured and are designed specifically for this integration. You can edit these workflows to meet the needs of your organization as required. For more general information about workflows and using the workflow editor, see [Getting started with workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/getting-started-workflows.md).
 
 -   Security Operations McAfee EPO integration - Get Host Details
 -   Security Operations McAfee EPO integration - Initiate Malware Scan
@@ -89,9 +89,9 @@ This integration includes the following workflows. These workflows are pre-confi
 
 The integration requires that the MID server communicates via HTTPS protocol connection to the McAfee ePO console.
 
-**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
+**Previous topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Next topic:**[Checklist for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo_checklist.md)
+**Next topic:**[Checklist for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcafee-epo_checklist.md)
 

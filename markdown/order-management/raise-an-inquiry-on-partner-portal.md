@@ -3,9 +3,9 @@ title: Raise an inquiry on Partner Portal
 description: Raise a query or concern with the enterprise on the Partner Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/raise-an-inquiry-on-partner-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---
@@ -30,17 +30,17 @@ Role required: sn\_prm.enterprise\_partner\_rel\_manager, sn\_prm.external\_part
 
 5.  On the form, fill in the fields.
 
-    To learn more about the fields on the inquiry form and their descriptions, see [General Inquiry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/general-inquiry-form.md).
+    To learn more about the fields on the inquiry form and their descriptions, see [General Inquiry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/general-inquiry-form.md).
 
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 
-[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-a-member-on-partner-portal.md)
+[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-a-member-on-partner-portal.md)
 

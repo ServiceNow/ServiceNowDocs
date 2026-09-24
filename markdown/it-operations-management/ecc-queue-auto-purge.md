@@ -3,9 +3,9 @@ title: ECC queue auto-purge for synthetic monitoring
 description: A scheduled job removes old Synthetic monitoring messages from the ECC queue. The job also flags stuck or orphaned messages with status as error, so that the queue doesn't grow indefinitely and stale entries aren't mistaken for pending work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/ecc-queue-auto-purge.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ A scheduled job removes old Synthetic monitoring messages from the ECC queue. Th
 
 The ECC Queue auto-purge job requires **Can Delete** application access on the ECC Queue \[ecc\_queue\] table. This access is not enabled by default, so the job can't remove any records until an admin grants it.
 
-For information about enabling this access, see [Enable ECC queue cleanup for synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/enable-ecc-queue-cleanup.md).
+For information about enabling this access, see [Enable ECC queue cleanup for synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/enable-ecc-queue-cleanup.md).
 
 ## How the job runs
 
@@ -43,7 +43,7 @@ Messages that are flagged as errored remain in the queue with a state of **Error
 
 If the job can't remove records for reasons such as a table permission restriction, then the job writes a warning to its log instead of reporting success. Review the job's log output to confirm that each run completed the cleanup it reported.
 
-For more information, see [Troubleshoot ECC queue growth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-ecc-queue-growth.md).
+For more information, see [Troubleshoot ECC queue growth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/troubleshoot-ecc-queue-growth.md).
 
-**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-reference.md)
+**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/synthetic-monitoring-reference.md)
 

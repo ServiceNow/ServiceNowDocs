@@ -3,9 +3,9 @@ title: Configuring Order Management for Service Exchange Consumers
 description: As a customer, you must complete some configuration tasks so that you can set up the Order Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-configuring-customers.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -28,7 +28,7 @@ Install and set up Service Bridge customers
 
 </td><td>
 
-Install and set up the application so that you can integrate your instance with the instance of your provider. This integration enables synchronous publishing of product and service catalogs so that your employees can submit product or service requests.**Note:** For more information, see [Configure Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-install.md).
+Install and set up the application so that you can integrate your instance with the instance of your provider. This integration enables synchronous publishing of product and service catalogs so that your employees can submit product or service requests.**Note:** For more information, see [Configure Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-install.md).
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Configure specification version updates so that product specification versions c
 
 </td><td>
 
-To configure update specification versions, see [Configure update specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-configure-specification-version-update.md).
+To configure update specification versions, see [Configure update specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-configure-specification-version-update.md).
 
 </td></tr></tbody>
 </table>

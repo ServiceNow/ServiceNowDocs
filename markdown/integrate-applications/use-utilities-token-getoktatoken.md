@@ -3,9 +3,9 @@ title: Use the GetTOTP component
 description: Generate the Time-based One-time Password \(TOTP\) to access multi-factor authentication \(MFA\)-enabled applications in an automation by using the GetTOTP component in the RPA Desktop Design Studio application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-token-getoktatoken.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Token, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,8 +16,8 @@ Generate the Time-based One-time Password \(TOTP\) to access multi-factor authen
 
 ## Before you begin
 
--   Create an MFA authenticator record and map the TOTP authenticator to the robot credential. For more information on how to perform these tasks on RPA Hub, see [Create an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-mfa-authenticator-rpa.md) and [Create a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/map-totp-credential-set-rpa.md). For more information on TOTP authentication in RPA Hub, see [TOTP authentication in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/totp-authentication-rpa.md).
--   Connect to the required instance in RPA Desktop Design Studio and assign the bot process with the TOTP record to the automation. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-bot-process.md).
+-   Create an MFA authenticator record and map the TOTP authenticator to the robot credential. For more information on how to perform these tasks on RPA Hub, see [Create an MFA authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-mfa-authenticator-rpa.md) and [Create a TOTP authenticator in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/map-totp-credential-set-rpa.md). For more information on TOTP authentication in RPA Hub, see [TOTP authentication in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/totp-authentication-rpa.md).
+-   Connect to the required instance in RPA Desktop Design Studio and assign the bot process with the TOTP record to the automation. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-bot-process.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
@@ -51,5 +51,5 @@ The TOTP record is created in RPA Hub and the record is associated to the robot 
     You can also run the automation by selecting **Run** from the **Design** tab.
 
 
-**Parent Topic:**[Token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/token-utilities.md)
+**Parent Topic:**[Token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/token-utilities.md)
 

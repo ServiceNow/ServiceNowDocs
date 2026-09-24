@@ -3,9 +3,9 @@ title: Certify a data visualization in the Visualization Designer
 description: Certify a data visualization to indicate that it is company-approved for reuse.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/certify-dv-ac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Certify a data visualization]
 breadcrumb: [Edit a data visualization in the Visualization Designer, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -40,5 +40,5 @@ The Certified badge appears next to the visualization's name in the Visualizatio
 
 On the Data Visualizations tab, the visualization is listed under Certified data visualizations. The visualization is also marked True in the Certified column. This column may not be visible. Select the Edit columns icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon\) to add it.
 
-**Parent Topic:**[Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-dv-ac-center.md)
+**Parent Topic:**[Edit a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-dv-ac-center.md)
 

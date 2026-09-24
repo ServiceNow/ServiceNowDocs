@@ -3,9 +3,9 @@ title: Basic email setup
 description: All production instances can send and receive email using ServiceNow - provided resources. The instance has an email address of instance@service-now.com.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_StandardEmailConfiguration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ All production instances can send and receive email using ServiceNow - provided 
 
 Below is an example of a basic email network with ServiceNow as the domain.
 
-\[Omitted image "standard-email-configuration.png"\] Alt text: Diagram showing standard ServiceNow email flow, including outbound and inbound messages routed through mail servers and DNS between a user email account and a ServiceNow instance
+\[Omitted image "StandardEmailConfiguration.png"\] Alt text: Network layout of basic email
 
 ## Basic email services and features
 
@@ -36,8 +36,8 @@ Below is an example of a basic email network with ServiceNow as the domain.
 
 Administrators who want to use basic email services can do so by enabling the email properties for sending and receiving email.
 
--   **[Enable basic email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfiguringStandardEmail.md)**  
+-   **[Enable basic email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfiguringStandardEmail.md)**  
 Enable basic email to use ServiceNow - provided email servers and accounts.
 
-**Parent Topic:**[Configure email administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-email-admin.md)
+**Parent Topic:**[Configure email administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-email-admin.md)
 

@@ -3,7 +3,7 @@ title: The On Request enrichment
 description: Information about an enrichment you shouldn't use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/on\_request\_enrichment.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -16,7 +16,7 @@ Information about an enrichment you shouldn't use.
 
 **Important:** The On Request enrichment is almost never a recommended pattern. This enrichment type can make configuration performance dependent on outside systems and result in a less than ideal end user experience. Consult Customer Success about other ways to achieve your desired outcome.
 
-The On Request enrichment enables the same capabilities as the [On Configure/Reconfigure Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md), except that it is called after each field change to any field in the enrichment.
+The On Request enrichment enables the same capabilities as the [On Configure/Reconfigure Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md), except that it is called after each field change to any field in the enrichment.
 
 In this enrichment, all external API calls time out after five seconds.
 

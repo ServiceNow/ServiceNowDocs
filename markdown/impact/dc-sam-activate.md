@@ -1,18 +1,18 @@
 ---
-title: Activate Data Collection for SAM
-description: Activate the Data Collection Pack for SAM after you enable and configure it.
+title: Activate Data Collection for IT Asset Management
+description: Activate the Data Collection Pack for IT Asset Management after you enable and configure it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-sam-activate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for SAM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for IT Asset Management, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
-# Activate Data Collection for SAM
+# Activate Data Collection for IT Asset Management
 
-Activate the Data Collection Pack for SAM after you enable and configure it.
+Activate the Data Collection Pack for IT Asset Management after you enable and configure it.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
 4.  Navigate to **Platform Analytics** &gt; **Dashboard**, and then open **Impact VM – SAM**.
 
-    There are two tabs: Monthly – SAM and Quarterly – SAM.
+    There are two tabs: Monthly – IT Asset Management and Quarterly – IT Asset Management.
 
 5.  To validate the scores on the dashboard, do either of the following:
 
@@ -42,7 +42,7 @@ Role required: admin, pa\_admin, or pa\_data\_collector
     -   Refer to the Data Collection guide to build the appropriate metric using a ServiceNow report.
 6.  To run historical jobs, do the following:
 
-    1.  Navigate to **Performance/Platform Analytics** &gt; **Data Collector** &gt; **Jobs**, and then open **Impact VM – SAM – Historical Data Collection**.
+    1.  Navigate to **Performance/Platform Analytics** &gt; **Data Collector** &gt; **Jobs**, and then open **Impact VM – IT Asset Management – Historical Data Collection**.
 
         **Important:** Do NOT select Active as Historical Data collection within Performance/Platform Analytics runs on an on-demand basis.
 
@@ -54,8 +54,8 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
     3.  Navigate to **Platform Analytics** &gt; **Dashboard**, and then open **Impact VM – SAM**.
 
-        There are two tabs: Monthly - SAM and Quarterly - SAM. To validate historical data for any specific indicator, select the widget on the dashboard.
+        There are two tabs: Monthly - IT Asset Management and Quarterly - IT Asset Management. To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-sam.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-sam.md)
 

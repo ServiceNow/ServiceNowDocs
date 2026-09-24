@@ -3,11 +3,11 @@ title: Enable automatic stop words for a table
 description: The system can identify and generate stop words when a search term exceeds an occurrence threshold.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_ConfigureAnAutomaticStopWord.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zing removes stop words from queries, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -47,7 +47,7 @@ By default, the TS Index Stats scheduled job identifies and creates stop words f
 
 The job identifies and creates stop words for the table with a **Stop mode** value of *Index but do not Query* and inserts a **Comment** to indicate that the stop word was generated automatically.
 
-**Parent Topic:**[Zing removes stop words from queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/stop-words-removed-from-queries.md)
+**Parent Topic:**[Zing removes stop words from queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/stop-words-removed-from-queries.md)
 
 **Related topics**  
 

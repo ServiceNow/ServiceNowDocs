@@ -3,9 +3,9 @@ title: Metadata collector deployment models
 description: Choose how to deploy metadata collectors based on your network accessibility and security needs. Deploy on a MID Server you host, or use ServiceNow-managed cloud infrastructure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/metadata-collector-deployment-models.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [metadata collectors, deployment models, MID Server, cloud collectors, on-premises]
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
@@ -28,7 +28,7 @@ Select a deployment model using the toggle on the metadata collector setup scree
 
 The collector runs as a job on a MID Server you host, inside your network. The MID Server reaches the source directly, then pushes the harvested metadata back to your ServiceNow instance over the existing MID Server connection.
 
-For system requirements and configuration guidelines, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
+For system requirements and configuration guidelines, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 
 ## ServiceNow-hosted collectors \(cloud\)
 
@@ -55,5 +55,5 @@ Requirements:
 
 The deployment model doesn't change what's cataloged. Either way, the collector harvests schemas, tables, columns, and lineage from the source, then uploads them to the ServiceNow instance for cataloging, governance, and AI-ready workflows.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

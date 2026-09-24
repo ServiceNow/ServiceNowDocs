@@ -2,9 +2,9 @@
 title: Requires attention
 description: The Requires Attention section helps you manage articles and feedback tasks that need your action.
 locale: en-US
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 

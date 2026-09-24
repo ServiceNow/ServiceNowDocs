@@ -1,18 +1,18 @@
 ---
 title: Highlights
-description: Learn how Workspace highlights function with Configurable Workspace.
+description: Learn how Workspace highlights function with CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-form-highlights.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Highlights
 
-Learn how Workspace highlights function with Configurable Workspace.
+Learn how Workspace highlights function with CRM Workspace.
 
 Highlights provide background color that visually expresses the status of a highlighted value. The status you choose determines the color highlight.
 
@@ -20,12 +20,12 @@ Highlights provide background color that visually expresses the status of a high
 |-----------------|--------------|
 |sys\_highlighted\_value|sys\_highlighted\_value sys\_ux\_highlighted\_value\_config sys\_ux\_m2m\_highlighted\_value\_config|
 
-To migrate your highlights, add an extra step in the custom highlighted values to Configurable Workspace.
+To migrate your highlights, add an extra step in the custom highlighted values to CRM Workspace.
 
-An additional highlighted value configuration is provided out of box, CSM/FSM Configurable Workspace Highlighted Value Config.
+An additional highlighted value configuration is provided out of box, CRM Workspace Highlighted Value Config.
 
--   Legacy highlighted values in form headers work without modification, but may affect the functionality of Configurable Workspace.
--   Highlighted values must be added to a highlighted value configuration to appear in Configurable Workspace.
+-   Legacy highlighted values in form headers work without modification, but may affect the functionality of CRM Workspace.
+-   Highlighted values must be added to a highlighted value configuration to appear in CRM Workspace.
 
-For more information, see [Set up a highlighted value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-highlight-value.md).
+For more information, see [Set up a highlighted value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-config-ws-highlight-value.md).
 

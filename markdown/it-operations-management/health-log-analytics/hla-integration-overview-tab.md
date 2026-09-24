@@ -3,11 +3,11 @@ title: Monitor log data flow and optimize integration settings
 description: The Overview screen in Health Log Analytics provides a comprehensive view of the components in the log-processing pipeline of a specific active integration. From this screen, you can troubleshoot any streaming issues for this integration and adjust its settings if needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-integration-overview-tab.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -36,7 +36,7 @@ For MID-less or OpenTelemetry Protocol \(OTLP\) integrations, such as Amazon Dat
 
 For these integrations, the **Overview** screen shows the average rate of logs per minute over the last 15 minutes passing through the ITOM Gateway and the HLA engine, similar to the metrics shown for MID-based ingestion.
 
-**Note:** The ITOM Gateway component is shown only if the MID Server property **mid.hla.itom\_gateway\_streaming.enabled** is set to true. For more information, see [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md).
+**Note:** The ITOM Gateway component is shown only if the MID Server property **mid.hla.itom\_gateway\_streaming.enabled** is set to true. For more information, see [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerProperties.md).
 
 When the integration isn't streaming live data from the source, a warning message is displayed. There is a 4-hour interval between the last log source time and the current time before this message is generated. You can change the default time interval through the system property **sn\_itom\_integ\_app.overview\_page\_log\_source\_time\_threshold\_hours**.
 
@@ -131,10 +131,10 @@ The **Log Streaming Sources** table shows a state of Authentication Failed or Co
 
 The **Log Streaming Sources** table now shows a connection state of Connected or Active with successful authentication. The **Streaming Status** displays a green circle with a white check mark for the MID Server component. With log streaming restored, HLA can resume processing data and generating anomaly alerts.
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-implement.md)
 
 **Related topics**  
 
 
-[Review log streaming data and adjust integration settings in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-overview-tab.md)
+[Review log streaming data and adjust integration settings in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/il-connector-overview-tab.md)
 

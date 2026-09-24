@@ -3,9 +3,9 @@ title: Review and accept a proactive case as a major case
 description: Review and accept proactive cases as major cases using the major issue management process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/resolve-proactive-case-major-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Proactive Customer Service Operations, Automate and optimize, Use, Customer Service Management]
 ---
@@ -38,13 +38,13 @@ Role required: sn\_majorissue\_mgt.major\_issue\_manager or sn\_customerservice\
 **Related topics**  
 
 
-[Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-management.md)
+[Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/major-issue-management.md)
 
-[Create a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-major-case.md)
+[Create a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-major-case.md)
 
-[Create a major case candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-major-case-candidate.md)
+[Create a major case candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-major-case-candidate.md)
 
-[Approve or reject a major case candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/approve-reject-major-case-candidate.md)
+[Approve or reject a major case candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/approve-reject-major-case-candidate.md)
 
-[Create child cases for a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-child-cases-for-major-case.md)
+[Create child cases for a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-child-cases-for-major-case.md)
 

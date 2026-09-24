@@ -3,11 +3,11 @@ title: Governance, Risk, and Compliance properties
 description: The following are the common GRC properties under Policy and Compliance and Risk Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-properties.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [GRC reference, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -224,5 +224,5 @@ Navigate to **All** &gt; **Composite Entities** &gt; **Properties**.
 |Separator used to auto-generate the name of composite entity and composite entity classes \[sn\_grc\_comp\_ent.name\_separator\]|Property to specify the separator that is used for the composite entity and composite entity class name.|
 |Maximum number of entities that can be rendered inside the content tree \[sn\_grc\_comp\_ent.max\_content\_tree\_entity\_count\]|Property to define the maximum number of entities displayed in the content tree during an entity search.|
 
-**Parent Topic:**[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-reference.md)
+**Parent Topic:**[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-reference.md)
 

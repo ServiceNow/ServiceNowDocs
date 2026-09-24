@@ -3,11 +3,11 @@ title: Create an event
 description: If you do not find a suitable existing event, you can create your own.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-events/t\_CreateYourOwnEvent.html
-release: australia
+release: brazil
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ If you do not find a suitable existing event, you can create your own.
 
 ## Before you begin
 
-Role required: events\_admin
+Role required: admin
 
 ## About this task
 
@@ -60,7 +60,7 @@ Queue
 
 </td><td>
 
-Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See [Using custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/useful-server-side-scripts.md).
+Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See [Using custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/useful-server-side-scripts.md).
 
 </td></tr><tr><td>
 
@@ -234,12 +234,12 @@ Add custom script that:
 
 Create a script action or notification to process the event.
 
-**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/managing-system-events.md)
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-events/managing-system-events.md)
 
 **Related topics**  
 
 
-[Register an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/t_RegisterAnEvent.md)
+[Register an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-events/t_RegisterAnEvent.md)
 
-[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/r_ScriptActions.md)
+[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-events/r_ScriptActions.md)
 

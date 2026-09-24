@@ -3,14 +3,14 @@ title: Debug Zero Copy Connector for ERP models
 description: Use the debug models option in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to see a log capturing the probe payload, payload response, status, and other information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/debug-zero-copy-connector-for-erp-models.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, debug, model, log, payload, status]
-breadcrumb: [Troubleshooting, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Debug Zero Copy Connector for ERP models
@@ -43,10 +43,12 @@ Keep the following guidance in mind when debugging Zero Copy Connector for ERP m
 
     Debug logs show flow engine context, probe communication, probe payload, payload response, status, and more.
 
-    For details about the columns in debug logs, see [Zero Copy Connector for ERP debug logs field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-debug-logs-columns.md).
+    For details about the columns in debug logs, see [Zero Copy Connector for ERP debug logs field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-debug-logs-columns.md).
 
 4.  To turn off debugging, navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Disable ERP Models Debugging**.
 
 5.  Select **Confirm**.
 
+
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

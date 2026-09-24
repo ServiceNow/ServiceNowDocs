@@ -1,27 +1,27 @@
 ---
-title: Install Enterprise Asset Management for healthcare
-description: You can install the Enterprise Asset Management for Healthcare application \(com.sn\_eamhc\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+title: Install Enterprise Asset Management for Healthcare from the ServiceNow Store
+description: You can install the Enterprise Asset Management for Healthcare application \(com.sn\_eamhc\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-eam-for-healthcare.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Enterprise Asset Management for Healthcare, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Installing Enterprise Asset Management for Healthcare, Enterprise Asset Management for Healthcare, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
-# Install Enterprise Asset Management for healthcare
+# Install Enterprise Asset Management for Healthcare from the ServiceNow Store
 
-You can install the Enterprise Asset Management for Healthcare application \(com.sn\_eamhc\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Enterprise Asset Management for Healthcare application \(com.sn\_eamhc\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
-Role required: sys\_admin
+Role required: admin
 
 ## About this task
 
@@ -31,13 +31,13 @@ The following items are installed with Enterprise Asset Management for Healthcar
 -   Roles
 -   Plugins
 
-For more information, see [Installed with Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.md).
+For more information, see [Installed with Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Enterprise Asset Management for Healthcare application \(com.sn\_eamhc\) application \(com.sn\_eamhc\) using the filter criteria and search bar.
+2.  Find the Enterprise Asset Management for Healthcare application \(com.sn\_eamhc\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
@@ -49,17 +49,8 @@ For more information, see [Installed with Enterprise Asset Management for Health
 
 4.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
 
-5.  If demo data is available and you want to install it, select the **Load demo data** check box.
-
-    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
-
-6.  Select **Install**.
+5.  Select **Install**.
 
 
-**Parent Topic:**[Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-for-healthcare.md)
-
-**Related topics**  
-
-
-[Installed with Enterprise Asset Management for Healthcare]()
+**Parent Topic:**[Installing Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installing-eam-healthcare.md)
 

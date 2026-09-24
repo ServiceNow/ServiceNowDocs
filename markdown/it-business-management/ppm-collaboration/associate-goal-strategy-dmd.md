@@ -1,24 +1,24 @@
 ---
-title: Allocate strategy and goal percentage for a demand
+title: Allocate or modify the strategy and goal percentage for a demand
 description: Allocate the percentage of a demand's total cost, benefit, and budget towards achievement of strategic objectives that the demand fulfills. You can also view the breakdown of the demand's financial data based on the allocated percentage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/associate-goal-strategy-dmd.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Strategic spend tracking, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Strategic Spend Tracking for PPM, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Allocate strategy and goal percentage for a demand
+# Allocate or modify the strategy and goal percentage for a demand
 
 Allocate the percentage of a demand's total cost, benefit, and budget towards achievement of strategic objectives that the demand fulfills. You can also view the breakdown of the demand's financial data based on the allocated percentage.
 
 ## Before you begin
 
-You should have an existing [demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md).
+You should have an existing [demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CreatingDemands.md).
 
 Execute the following scheduled jobs:
 
@@ -35,7 +35,7 @@ Role required: it\_demand\_manager
 
 3.  In the **Business Case** tab, add or update the strategies and goals with which the demand is associated.
 
-    For more information, see the Business Case field descriptions in the [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-form.md) documentation topic.
+    For more information, see the Business Case field descriptions in the [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/demand-form.md) documentation topic.
 
 4.  Click **Save**.x
 
@@ -55,8 +55,8 @@ Role required: it\_demand\_manager
 
 8.  In the Strategy or Goal Allocations related list, click the preview icon \(\[Omitted image "preview\_icon.png"\] Alt text: Preview record icon\), and then click **Open Record** to view the breakdown of the strategy or goal allocation.
 
-9.  View the trends for planned costs, actual costs, and benefits over time using the [Strategic Spend Tracking for PPM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.md).
+9.  View the trends for planned costs, actual costs, and benefits over time using the [Strategic Spend Tracking for PPM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.md).
 
 
-**Parent Topic:**[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md)
+**Parent Topic:**[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md)
 

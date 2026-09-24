@@ -3,9 +3,9 @@ title: Configure the contextual sidebar
 description: Configure whether the sidebar is open or closed by default for users in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/configure-contextual-sidebar.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Industrial Connected Workforce Core, Industrial Connected Workforce]
 ---
@@ -30,7 +30,7 @@ The sidebar tab that contains Agent assist, Recommended Actions, attachments, an
 
 3.  On the User Preference record form, fill in the fields.
 
-    For a description of the field values, see [User preference form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/contextual-sidebar-form.md).
+    For a description of the field values, see [User preference form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/contextual-sidebar-form.md).
 
 4.  Select **Submit**.
 
@@ -39,5 +39,5 @@ The sidebar tab that contains Agent assist, Recommended Actions, attachments, an
 
 The new user preference record is displayed in the list of user preferences.
 
-**Parent Topic:**[Configuring ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configuring-icw-core.md)
+**Parent Topic:**[Configuring ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/configuring-icw-core.md)
 

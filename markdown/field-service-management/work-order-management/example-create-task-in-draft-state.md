@@ -3,11 +3,11 @@ title: Example - Create task without qualifying a work order
 description: Create work order tasks and part requirements for a work order without qualifying a work order, when it is in the draft state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/example-create-task-in-draft-state.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
@@ -41,7 +41,7 @@ Role required: wm\_task\_initiator
 
     3.  Go to the Template field and click **Preview this record** to edit the work order template.
 
-        For more information about editing work order template, see [Create a work order template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTemplate.md).
+        For more information about editing work order template, see [Create a work order template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTemplate.md).
 
 5.  Create adhoc work order tasks.
 
@@ -49,7 +49,7 @@ Role required: wm\_task\_initiator
 
     2.  Fill in the required fields.
 
-        For more information, see [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md).
+        For more information, see [Create a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_CreateAWorkOrderTask.md).
 
     3.  Click **Submit**.
 

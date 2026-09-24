@@ -3,11 +3,11 @@ title: Create a JavaScript Probe activity
 description: Create a JavaScript Probe activity to instruct a MID server to execute server-side javascript.You use execution parameters to create the input process script in the Preprocessing form of the activity designer.Use these parameters to create a post-processing script.Use the input variables you created to configure the command that Orchestration executes on the JavaScript Probe target host.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t\_CreateAJavaScriptProbeActivity.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,21 +26,21 @@ The JavascriptProbe activity has the same functionality as making ‘Packages’
 
 ## Procedure
 
-1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-custom-activities.md).
+1.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-custom-activities.md).
 
     This action creates a custom activity using a template.
 
-2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md), configure the JavaScript probe activity Execution Command.
+2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md), configure the JavaScript probe activity Execution Command.
 
-<table id="choicetable_jlf_3tp_vz"><tbody><tr><td id="d210334e112">
+<table id="choicetable_jlf_3tp_vz"><tbody><tr><td id="d208474e112">
 
-**[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md)**
+**[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md)**
 
 </td><td>
 
 Use the variables you created to configure the command that Orchestration executes on the MID server.
 
-</td></tr><tr><td id="d210334e128">
+</td></tr><tr><td id="d208474e128">
 
 **Script type**
 
@@ -50,7 +50,7 @@ Select the type of script to include. Available options are:-   Custom JavaScrip
 -   MID Server script include
 
 
-</td></tr><tr><td id="d210334e146">
+</td></tr><tr><td id="d208474e146">
 
 **Script**
 
@@ -58,7 +58,7 @@ Select the type of script to include. Available options are:-   Custom JavaScrip
 
 Custom JavaScript to run with this probe. **Note:** This field is available when the **Script type** selected is **Custom JavaScript**.
 
-</td></tr><tr><td id="d210334e164">
+</td></tr><tr><td id="d208474e164">
 
 **MID Server script include**
 
@@ -66,7 +66,7 @@ Custom JavaScript to run with this probe. **Note:** This field is available when
 
 Script for the MID Server to run with this probe. **Note:** This field is available when the **Script type** selected is **MID Server script include**.
 
-</td></tr><tr><td id="d210334e182">
+</td></tr><tr><td id="d208474e182">
 
 **Select MID Server by host**
 
@@ -74,7 +74,7 @@ Script for the MID Server to run with this probe. **Note:** This field is availa
 
 MID Server on which the probe runs.
 
-</td></tr><tr><td id="d210334e192">
+</td></tr><tr><td id="d208474e192">
 
 **Required MID Server capabilities**
 
@@ -82,7 +82,7 @@ MID Server on which the probe runs.
 
 MID Server to use, by capabilities.
 
-</td></tr><tr><td id="d210334e201">
+</td></tr><tr><td id="d208474e201">
 
 **Parameters**
 
@@ -91,20 +91,20 @@ MID Server to use, by capabilities.
 Name-value pairs to pass to the host with this probe. You can create these parameters manually, or drag input variables into the **Parameters** fields and assign a value.
 
 </td></tr></tbody>
-</table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/automap-output-variable-inputs.md).
+</table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/automap-output-variable-inputs.md).
 
 
 ## What to do next
 
-Finish creating your JavaScript probe activity by [creating output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAnOutputVariable.md), [creating a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md), or [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions.md). Refer to the [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/create-custom-activities.md) topic to know your template options.
+Finish creating your JavaScript probe activity by [creating output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAnOutputVariable.md), [creating a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md), or [Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/conditions.md). Refer to the [create custom activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/create-custom-activities.md) topic to know your template options.
 
-**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ActivityDesignerComponents.md)
+**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_ActivityDesignerComponents.md)
 
 ## JavaScript probe template execution parameters
 
 You use execution parameters to create the input process script in the **Preprocessing** form of the activity designer.
 
-For descriptions of the JavaScript Probe command fields, see the table in [Configure the JavaScript Probe execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAJavaScriptProbeActivity.md).
+For descriptions of the JavaScript Probe command fields, see the table in [Configure the JavaScript Probe execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAJavaScriptProbeActivity.md).
 
 **Note:** You must use the `executionParam.` prefix with all variables in this table.
 
@@ -238,7 +238,7 @@ Array of hashmap
 
 </td><td>
 
-Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
+Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
 var valueCapability = {'NEW_MID_CAPABIILTY':'NEW_MID_CAPABILITY_VALUE'};
 executionParam.valueCapabilities.push(valueCapability);
 ```
@@ -265,7 +265,7 @@ Create the input variables you need in the **Inputs** form before you can advanc
 
 Role required: activity\_creator, admin
 
-**Note:** You can test the JavaScript Probe connection between the MID Server and the target without having to run the acvitity in a workflow context. For details, see [test template outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md).
+**Note:** You can test the JavaScript Probe connection between the MID Server and the target without having to run the acvitity in a workflow context. For details, see [test template outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md).
 
 ### Procedure
 
@@ -291,7 +291,7 @@ Input
 
 </td><td>
 
-Input variable builder. [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to [map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to available fields.
+Input variable builder. [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to [map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to available fields.
 
 </td></tr><tr><td>
 

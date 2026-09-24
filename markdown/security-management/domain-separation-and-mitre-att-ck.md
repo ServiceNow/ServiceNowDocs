@@ -3,9 +3,9 @@ title: Domain separation and MITRE-ATT&amp;CK
 description: This domain separation overview pertains to MITRE-ATT&amp;CK. Domain separation allows you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/domain-separation-and-mitre-att-ck.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -24,7 +24,7 @@ Follow these steps to achieve domain separation:
 
 -   Create a user with the required sn\_ti.admin roles in the respective domain.
 -   Replicate the following for every domain:
-    -   [TAXII Collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-and-mitre-att-ck.md)
+    -   [TAXII Collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/domain-separation-and-mitre-att-ck.md)
 
         **Note:**
 
@@ -46,7 +46,7 @@ Follow these steps to achieve domain separation:
 4.  Right-click in the header bar and select **Insert and Stay**. The duplicate TAXII collection is created under the selected domain
 5.  Navigate back to the MITRE ATT&amp;CK TAXII Profile to view the duplicate TAXII collection.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

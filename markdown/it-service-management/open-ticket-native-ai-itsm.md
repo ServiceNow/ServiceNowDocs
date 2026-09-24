@@ -3,9 +3,9 @@ title: Open an IT ticket in Employee Center
 description: Resolve a user's issue by opening an IT ticket.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/open-ticket-native-ai-itsm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee experience in Employee Center, Employee experience, Simplified IT Service Management, IT Service Management]
 ---
@@ -38,15 +38,15 @@ Role required: none
 
 6.  Perform one of the following actions.
 
-<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d253164e124">
+<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d257950e124">
 
 Choice
 
-</th><th align="left" id="d253164e127">
+</th><th align="left" id="d257950e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d253164e133">
+</th></tr></thead><tbody><tr><td id="d257950e133">
 
 **If the related content is relevant**
 
@@ -54,7 +54,7 @@ Description
 
 Select **Solution found**.
 
-</td></tr><tr><td id="d253164e145">
+</td></tr><tr><td id="d257950e145">
 
 **If the related content is not relevant**
 
@@ -66,5 +66,5 @@ Select **Solution found**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
+**Parent Topic:**[Employee experience in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/employee-experience-employee-center.md)
 

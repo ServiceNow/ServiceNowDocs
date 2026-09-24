@@ -3,11 +3,11 @@ title: Create a knowledge article from an OT incident record
 description: Create a knowledge article to record and save information that is related to an Operational Technology \(OT\) incident and its resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/create-knowledge-base-article-from-incident.html
-release: australia
+release: brazil
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -20,7 +20,7 @@ Create a knowledge article to record and save information that is related to an 
 
 Role required: sn\_ot\_incident\_write
 
-**Note:** You also need the **Can contribute** access to at least one knowledge base. For more information, see [Create an OT knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/configure-ot-knowledge-base.md).
+**Note:** You also need the **Can contribute** access to at least one knowledge base. For more information, see [Create an OT knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-knowledge-management/configure-ot-knowledge-base.md).
 
 ## About this task
 
@@ -104,5 +104,5 @@ The knowledge article is now published in your OT knowledge base. To view the kn
 
 **Note:** If you set the **Publish workflow** field in your OT knowledge base to **Knowledge - Approval Publish**, the article must be approved before being published.
 
-**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
+**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
 

@@ -3,9 +3,9 @@ title: Data visualization fields available for display in mobile
 description: Mobile data visualizations show data relevant for mobile device display. Create the data visualizations within the Analytics Center of the ServiceNow platform. All settings and configurations that are available for display in the mobile platform are listed in this topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/data-visualization-mobile-fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a mobile analytics preview, Mobile dashboard preview, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---

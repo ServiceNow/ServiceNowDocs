@@ -3,11 +3,11 @@ title: Create a standalone Sidebar discussion
 description: Create a standalone Sidebar discussion that is not tied to a specific record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-discussions-standalone.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Sidebar, Sidebar, Conversational Interfaces]
 ---

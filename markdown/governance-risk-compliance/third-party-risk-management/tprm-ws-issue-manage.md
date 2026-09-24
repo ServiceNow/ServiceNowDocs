@@ -3,12 +3,12 @@ title: Manage issues
 description: Verify that an issue that is associated with a risk assessment is understood, communicated to the appropriate persons, and is acted on as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-manage.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -31,7 +31,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 2.  Select an action.
 
     -   Select **Discuss** to send a message to other users. The message is recorded in the **Activity** section of the **Details** tab.
-    -   Select **Create task** to create a task. See [Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md).
+    -   Select **Create task** to create a task. See [Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md).
     -   Select **Save** to save any change you made to a value on any tab.
     -   Select **Delete** to delete the issue record.
 3.  Open the appropriate tab.
@@ -51,10 +51,12 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
             -   **Comments**: Comments about the third-party risk assessment are visible both to internal users and to third-party contacts.
     -   **Tasks tab for an issue**
 
-        The tab displays information for tabs that are associated with the issue. Select a task number to open the task in the task management page. Select **New** to create a task. See [Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md).
+        The tab displays information for tabs that are associated with the issue. Select a task number to open the task in the task management page. Select **New** to create a task. See [Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md).
 
     -   **Questions tab for an issue**
 
         The tab displays a list of the questions that are associated with the issue. Select a question to view the question definition and current response.
+
+        **Note:** Starting with version 23.0.x, questions associated with an issue that has a Smart Assessment Engine question relationship are also visible to the third-party contact in the corresponding conversation view in the third-party portal.
 
 

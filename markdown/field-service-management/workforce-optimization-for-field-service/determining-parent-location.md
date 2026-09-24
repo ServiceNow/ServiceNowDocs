@@ -3,11 +3,11 @@ title: Mapping a service location to a parent location
 description: Map a service location to a parent location by setting parent determination rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/determining-parent-location.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Locations, Set up workforce, Configure, Field Service Management]
 ---
@@ -27,10 +27,10 @@ Rules are executed in the following order to determine a parent location when a 
 
 **Note:** The **Country** name is the default selection for all the criteria.
 
-For more information, see [Create parent determination rules for service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configure-parent-determination.md).
+For more information, see [Create parent determination rules for service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configure-parent-determination.md).
 
 **Related topics**  
 
 
-[Setting ad-hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/service-locations-work-orders.md)
+[Setting ad-hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/service-locations-work-orders.md)
 

@@ -3,11 +3,11 @@ title: Deployment requests in AEMC
 description: AEMC enables you to deploy changes to production through deployment requests. Learn more about what deployment requests are and where to view them in AEMC. Starting with version 28.2.1 of AEMC, you can also manage ReleaseOps deployment requests from AEMC.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/deployment-requests-aemc.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -35,7 +35,7 @@ A reviewer can deploy the app to a test environment, reject it, or publish it, a
 
 **Note:** If you submit deployment requests without upgrading all instances in the pipeline, your existing pipeline continues to be used.
 
-For more information on reviewing a deployment request, see [Deployment Request form in the Pipelines and Deployments app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/deployment-req-form-d-and-p.md) and [Manage deployment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-deployment-requests.md).
+For more information on reviewing a deployment request, see [Deployment Request form in the Pipelines and Deployments app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/deployment-req-form-d-and-p.md) and [Manage deployment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/manage-deployment-requests.md).
 
 ## ReleaseOps deployment requests
 
@@ -43,7 +43,7 @@ Starting with version 28.2.1 of AEMC, you can also manage ReleaseOps deployment 
 
 \[Omitted image "releaseops-deployment-request.png"\] Alt text: View of a ReleaseOps deployment request in AEMC, where you can see the changes, deployment request state, Automated Test Framework and Instance Scan test suites, and the associated playbook.
 
-A ReleaseOps deployment request references the release the deployment request is associated with. For more information about ReleaseOps releases, see [Releases in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releases-in-release-ops.md).
+A ReleaseOps deployment request references the release the deployment request is associated with. For more information about ReleaseOps releases, see [Releases in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releases-in-release-ops.md).
 
 ReleaseOps deployment requests also contain the following information:
 

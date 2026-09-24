@@ -3,9 +3,9 @@ title: FTP method properties
 description: View or update the FTP method properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/ftp-method-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [FTP, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -21,5 +21,5 @@ View or update the FTP method properties.
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[FTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ftp-connector.md)
+**Parent Topic:**[FTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/ftp-connector.md)
 

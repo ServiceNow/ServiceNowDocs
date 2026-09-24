@@ -3,11 +3,11 @@ title: Activate Playbooks
 description: Activate the Workflow Studio application to create flows, playbooks, and more for any of your use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/activate-process-automation-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -28,12 +28,12 @@ Each application subscription entitles you to create playbooks for its associate
 
 See the following sections to learn how to activate Workflow Studio Playbooks for your application.
 
--   **[Activate Playbooks for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer-for-app-engine.md)**  
+-   **[Activate Playbooks for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activate-process-automation-designer-for-app-engine.md)**  
 Activate Playbooks on your instance to create playbooks in App Engine.
--   **[Activate Playbooks for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer-for-csm.md)**  
+-   **[Activate Playbooks for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activate-process-automation-designer-for-csm.md)**  
 Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by CSM tables.
--   **[Activate Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer-for-fsm.md)**  
+-   **[Activate Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activate-process-automation-designer-for-fsm.md)**  
 Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by tables.
 
-**Parent Topic:**[Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
+**Parent Topic:**[Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
 

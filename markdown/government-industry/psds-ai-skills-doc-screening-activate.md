@@ -3,10 +3,10 @@ title: Activate the Document screening Al skill in ServiceNow Otto for PSDS
 description: Activate the Document screening AI skill to use ServiceNow Otto for PSDS gen-AI to screen documents in the Social Benefits Playbook. The skill classifies document types, validates them against case requirements, and flags issues with clear explanations. Agents receive AI-composed messages to send to constituents with resubmission instructions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ai-skills-doc-screening-activate.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Activate ServiceNow Otto skills, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -35,7 +35,7 @@ Activate the Document screening AI skill to use ServiceNow Otto for PSDS gen-AI 
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
 
-For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Confirm that the following applications and plugins are installed:
 
@@ -44,7 +44,7 @@ For more information, see [AI agents, skills, and agentic workflows on by defaul
     -   Service Applicant Information \(sn\_svc\_appl\_info\)
     -   ServiceNow Otto for Public Sector Digital Services \(PSDS\)
     -   Social Benefits Playbook, Grants Management, **or** License and Permit Playbook
-    For more information on configuring ServiceNow Otto in Document Intelligence, see [Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/docintel-configuring-now-assist.md).
+    For more information on configuring ServiceNow Otto in Document Intelligence, see .
 
 -   Perform this task in your ServiceNow instance, ensuring the ServiceNow Otto for Public Sector Digital Services \(PSDS\) Application scope is selected.
 -   Role required: admin

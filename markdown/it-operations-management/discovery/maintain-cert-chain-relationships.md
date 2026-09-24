@@ -3,11 +3,11 @@ title: Maintaining certificate chain relationships
 description: Maintaining certificate chain relationships via certificate import verifies the integrity and security of digital certificates, validating their authenticity in a system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/maintain-cert-chain-relationships.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -16,13 +16,15 @@ breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory an
 
 Maintaining certificate chain relationships via certificate import verifies the integrity and security of digital certificates, validating their authenticity in a system.
 
-To maintain the certificate chain relationships, the industry standard .txt extension is used. Certificate chain relationships aren't maintained with any other file extensions. The expected order of certificates in a .txt certificate chain file is: Server certificate, Intermediate certificate, and Root certificate.
+When you run certificate discovery by importing certificate files, the file extension and the order of the certificates within the file determine whether the system can build the chain relationships between the server, intermediate, and root certificates. This behavior applies only to certificates discovered through certificate file import. For information about this discovery method, see [Run Certificate Discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
 
-Use cases:
+Only files with the `.txt` extension preserve certificate chain relationships. Certificates in a `.txt` chain file must appear in this order: Server certificate, intermediate certificate, and root certificate.The following outcomes apply when a file doesn't meet these requirements:
 
--   If two or more certificates are found in formats like .cert or .pem, only the first certificate is considered. The other certificates aren't processed and no certificate chain relationships are maintained.
--   If there is a .txt extension containing only one certificate, it is considered as a server certificate and no certificate relationship are maintained.
--   If there is a .txt extension containing two certificates, the first certificate is considered as server certificate and the second certificate is considered as root certificate. There are no intermediate certificates.
+|File contents|Result|
+|-------------|------|
+|Two or more certificates in a format, such as `.cert` or `.pem`|The system processes only the first certificate. It doesn't process the remaining certificates and doesn't build chain relationships.|
+|A `.txt` file with one certificate|The system treats the certificate as a server certificate and doesn't build chain relationships.|
+|A `.txt` file with two certificates|The system treats the first certificate as the server certificate and the second as the root certificate. The chain contains no intermediate certificate.|
 
-**Note:** The certificate chain relationship is dependent on the latest URL/IP Discovery run. Importing a file without certificate chain relations disrupts any existing chain relationships associated with the same certificate \(fingerprint\).
+**Note:** Certificate chain relationships depend on the most recent URL or IP discovery run. If you import a file that doesn't contain chain relationships, the system removes any existing chain relationships for a certificate with the same certificate fingerprint.
 

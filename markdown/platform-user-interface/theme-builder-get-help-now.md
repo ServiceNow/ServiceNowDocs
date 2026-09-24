@@ -3,9 +3,9 @@ title: Get help with Theme Builder
 description: To get help with Theme Builder, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/theme-builder-get-help-now.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -41,5 +41,5 @@ Some ServiceNow resources that can provide you with helpful information are:
     Watch [Next Experience Academy: Theme Builder](https://www.youtube.com/watch?v=enjB3abGMjs) and [Creator Toolbox: Theme Builder](https://www.youtube.com/watch?v=MEzCfNIZSW4).
 
 
-**Parent Topic:**[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
+**Parent Topic:**[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md)
 

@@ -1,0 +1,52 @@
+---
+title: \(Legacy\) Specify a fallback language for locale-specific languages and NLU prediction
+description: Provide language locale support by specifying a fallback language for Virtual Agent to use for topics, keywords, and NLU prediction. For example, the ServiceNow platform doesn't support Mexican Spanish \(mx-es\), but it does support Spanish \(es\), which you can designate as the fallback language for a better user experience.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/specify-fallback-language-nlu-prediction.html
+release: brazil
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [Fallback, language, NLU, Now Assist, Virtual Agent, sys\_language]
+breadcrumb: [Localization options for NLU conversations, Build and deploy NLU conversations, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+---
+
+# \(Legacy\) Specify a fallback language for locale-specific languages and NLU prediction
+
+Provide language locale support by specifying a fallback language for Virtual Agent to use for topics, keywords, and NLU prediction. For example, the ServiceNow® platform doesn't support Mexican Spanish \(mx-es\), but it does support Spanish \(es\), which you can designate as the fallback language for a better user experience.
+
+## Before you begin
+
+**Note:** The fallback language plugin must be installed on the instance. Once installed, the language is available in the Languages \[sys\_language\] table. If Now Assist in Virtual Agent is on and you work with LLM-enabled conversations, you can only establish a fallback language in the Languages \[sys\_language\] table rather than use the following steps.
+
+Role required: virtual\_agent\_admin or admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
+
+2.  Select **Virtual Agent**.
+
+3.  On the Multi language support card, slide the **Language Detection** toggle switch to enable it.
+
+4.  Select **View All**.
+
+5.  Select the name of a language to open the record.
+
+6.  Select **Edit Record** at the top of the page.
+
+7.  In the **Fallback** field, select the Search icon \(\[Omitted image "icon-search.png"\] Alt text: Search icon.\) and select an available language.
+
+    \[Omitted image "add-fallback-lang-existing.png"\] Alt text: Languages table entry for Mexican Spanish. The Fallback line is highlighted, with Spanish entered as the fallback language.
+
+8.  Select **Update**.
+
+
+## Result
+
+Custom locales appear in the Languages \[sys\_language\] table, along with their fallback language. The language code \(ID\) indicates a language that Virtual Agent can detect. In the following example, three French locales use French as the fallback language. Only French Canadian remains unconfigured.
+
+\[Omitted image "fallback-lang-new-locales.png"\] Alt text: The Languages table with custom locales configured. Highlighted entries for Belgium, Luxembourg, and Switzerland have standard French as a fallback, while Canadian French has no Fallback.
+
+**Parent Topic:**[\(Legacy\) Localization options for Virtual Agent for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/multi-language-options-va.md)
+

@@ -3,9 +3,9 @@ title: Use the GetProperty component
 description: Get the value of a property from a JSON object by using the GetProperty component in the RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-json-getproperty.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [JSON, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties for the GetProperty component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-utilities-json.md).
+To configure the properties for the GetProperty component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/properties-utilities-json.md).
 
 ## Procedure
 
@@ -47,7 +47,7 @@ To configure the properties for the GetProperty component, see [Properties of th
 
 6.  Drag the GetProperty component to the Design surface.
 
-7.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+7.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 8.  Connect the ports as described in the following table.
 
@@ -123,5 +123,5 @@ Returns the value of the property.If no property value is found, the port return
     \[Omitted image "get-property-utlities-json-example.png"\] Alt text: GetProperty component Automation Example.
 
 
-**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/json.md)
 

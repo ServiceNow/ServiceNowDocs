@@ -3,9 +3,9 @@ title: List fields
 description: Fields display data and provide certain functions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_Fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -38,7 +38,7 @@ Editing
 
 </td><td>
 
-Changes the information in one or more records. For more information, see [Methods for list edits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_MethodsForListEdits.md).
+Changes the information in one or more records. For more information, see [Methods for list edits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/r_MethodsForListEdits.md).
 
 </td></tr><tr><td>
 
@@ -58,13 +58,13 @@ Context menu
 
 Also called a right-click menu, offers several options, including:
 
--   [Quick filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_QuickFilters.md) options, such as **Show Matching** and **Filter Out**.
+-   [Quick filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_QuickFilters.md) options, such as **Show Matching** and **Filter Out**.
 -   The option to copy the record URL to the clipboard.
 -   The option to copy the sys\_id of the record to the clipboard \(administrators only\).
--   [Quick edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_MethodsForListEdits.md) options, such as **Assign to me**, **Approve**, and **Reject**.
--   The option to edit the record [tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md), which provide quick access to frequently referenced or urgent information. When a tag is assigned to a record, the record is displayed on the Tagged Documents page.
--   Options specific to features such as [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md) and [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md).
+-   [Quick edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/r_MethodsForListEdits.md) options, such as **Assign to me**, **Approve**, and **Reject**.
+-   The option to edit the record [tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_Tags.md), which provide quick access to frequently referenced or urgent information. When a tag is assigned to a record, the record is displayed on the Tagged Documents page.
+-   Options specific to features such as [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md) and [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
+</table>**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UseLists.md)
 

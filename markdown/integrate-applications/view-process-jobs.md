@@ -3,9 +3,9 @@ title: View process jobs for all bot processes in RPA Hub
 description: View a list of execution logs for all bot processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-process-jobs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -32,17 +32,17 @@ A process job represents the execution of a bot process by a robot.
 
 4.  Open a process job to view the details.
 
-    For more information, see [Process job states in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-process-jobs-botprocess.md).
+    For more information, see [Process job states in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-process-jobs-botprocess.md).
 
 5.  In the **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
 
 
-**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/monitoring-automations-rpa.md)
+**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/monitoring-automations-rpa.md)
 
 **Related topics**  
 
 
-[Process job form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-process-jobs-botprocess.md)
+[Process job form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-process-jobs-botprocess.md)
 
-[View the process jobs of a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-process-jobs-botprocess.md)
+[View the process jobs of a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-process-jobs-botprocess.md)
 

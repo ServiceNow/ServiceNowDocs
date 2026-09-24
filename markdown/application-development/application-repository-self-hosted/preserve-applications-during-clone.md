@@ -3,12 +3,12 @@ title: Preserve applications and customizations in development during a system c
 description: Manually preserve a copy of each application and customization that you currently have in development before you can clone the application version to the target \(development\) instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/preserve-applications-during-clone.html
-release: australia
+release: brazil
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Manage customizations to applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
 
@@ -76,7 +76,7 @@ None. The system clone process copies this application version onto the target i
 
     If you saved each application to a source control repository, use one of these actions to retrieve them from the source control repository:
 
-    **Note:** For what to expect after application customization post clone, see [Results post cloning for application customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/what-to-expect-post-clone-for-app-customization.md).
+    **Note:** For what to expect after application customization post clone, see [Results post cloning for application customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-repository-self-hosted/what-to-expect-post-clone-for-app-customization.md).
 
     |Application installation state|Action to take on clone target|
     |------------------------------|------------------------------|
@@ -138,11 +138,15 @@ Because the application was already installed on the source instance, you apply 
 **Related topics**  
 
 
-[Metadata source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
-[Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)
+[Commit changes to a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-sc-commit-changes-to-repository.md)
 
-[Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md)
+[Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)
 
-[Load customizations from a single XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)
+[Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md)
+
+[Import an app from source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-sc-import-app-source-control.md)
+
+[Load customizations from a single XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)
 

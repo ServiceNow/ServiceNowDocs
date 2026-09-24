@@ -3,7 +3,7 @@ title: Configure relationship types for an evidence record in Investigative Case
 description: As an admin, you can add or remove the relationship types used to classify the relationship between a piece of evidence and another entity related to the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-icm-evidence-relationship-type.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-10"
 reading_time_minutes: 1
@@ -16,7 +16,7 @@ As an admin, you can add or remove the relationship types used to classify the r
 
 ## About this task
 
-For more information about relating entities to a case, see [Associate and link evidence to entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-associate-evidence-entities.md).
+For more information about relating entities to a case, see [Associate and link evidence to entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-icm-associate-evidence-entities.md).
 
 ## Before you begin
 
@@ -39,5 +39,5 @@ The relationship type definition is now created, and will display in the relatio
 
 ## What to do next
 
-An investigator can use this relationship type to define the relationship between an evidence record and an entity. For more information on how to link evidence to an entity, see [Associate and link evidence to entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-associate-evidence-entities.md).
+An investigator can use this relationship type to define the relationship between an evidence record and an entity. For more information on how to link evidence to an entity, see [Associate and link evidence to entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-icm-associate-evidence-entities.md).
 

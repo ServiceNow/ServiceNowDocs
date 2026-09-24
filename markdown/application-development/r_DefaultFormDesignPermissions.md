@@ -3,9 +3,9 @@ title: Default form design permissions
 description: By default, new application data tables have the following form design permissions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/r\_DefaultFormDesignPermissions.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form design visual indicators, Lists and forms in scoped applications, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

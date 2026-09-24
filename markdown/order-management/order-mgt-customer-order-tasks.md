@@ -3,9 +3,9 @@ title: Review and close fulfillment tasks
 description: Review and update the fulfillment tasks that are associated with an order, or order orchestration plan, so that you can make sure that all tasks are properly completed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-customer-order-tasks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order fulfillment, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -29,11 +29,11 @@ When you create a manual fallout record, or an automated one is generated, the f
 
 If you create a manual fallout record or an automated one is generated for order tasks, you can review and track all fallout records for a specific order. Use the **Fallouts \(n\)** tab \(where n is the number of fallouts\) that appears when you view the related customer or service order in the Customer Order form.
 
-To learn more about order fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md).
+To learn more about order fallout, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fallout-management-overview.md).
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -43,13 +43,13 @@ To learn more about order fallout, see [Managing order fallout](https://raw.gith
     -   To view only the tasks that are assigned to you, select **My order tasks**.
 4.  Select the order task that you want to work on.
 
-    You can also directly access the task records for an order from the order orchestration UI. To learn more about accessing the UI, see [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md).
+    You can also directly access the task records for an order from the order orchestration UI. To learn more about accessing the UI, see [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md).
 
 5.  For each order task, set the status by selecting an option from the **State** drop-down menu and update the work notes, as required.
 
 6.  On the Order Task form, review the order task details and update as needed.
 
-    For information about the field descriptions, see [Order Tasks form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-order-task-form.md).
+    For information about the field descriptions, see [Order Tasks form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/field-descriptions-order-task-form.md).
 
 7.  When you finish reviewing and updating the order task or encounter issues that are preventing its closure, perform one of the actions from the following table.
 
@@ -57,7 +57,7 @@ To learn more about order fallout, see [Managing order fallout](https://raw.gith
     |------|-----------|
     |**Save the updated order task**|Select **Save**.|
     |**Delete the order task**|Select **Delete** from the more options icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:.|
-    |**Create a fallout record**|Select **Create Fallout** from the more options icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:. To learn more, see [Create a manual fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-manual-order-fallout-record.md).|
+    |**Create a fallout record**|Select **Create Fallout** from the more options icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:. To learn more, see [Create a manual fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-manual-order-fallout-record.md).|
 
 
 ## Result
@@ -70,14 +70,14 @@ After your agents complete all fulfillment tasks for the entire customer order, 
 
 ## What to do next
 
-Create MACD orders directly from the sold products. For more information, see [Request post-sale change orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-macd-orders.md).
+Create MACD orders directly from the sold products. For more information, see [Request post-sale change orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-macd-orders.md).
 
-**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

@@ -3,9 +3,9 @@ title: Approver roles required for Security Exposure Management Workspace
 description: You can see the required roles for the approvers in the Security Exposure Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-approve-or-reject-request.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -71,5 +71,4 @@ Exception rule approvals
  Approvers review and approve or reject exception rules that automatically apply exceptions to matching findings.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exception Management Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-exception-management-overview.md)
-
+</table>

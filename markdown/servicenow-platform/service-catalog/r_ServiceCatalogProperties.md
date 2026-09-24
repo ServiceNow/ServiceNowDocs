@@ -3,12 +3,12 @@ title: Service Catalog properties
 description: The Service Catalog application contains properties used to configure various settings in the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/r\_ServiceCatalogProperties.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 20
+last_updated: "2026-09-10"
+reading_time_minutes: 21
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -419,7 +419,7 @@ List of roles \(comma-separated\) that can update the "Requested for" widget in 
 
 </td><td>
 
-List of users with the roles \(comma-separated\) provided here can request items for other users. If no role is specified, then the default behavior is defined by the **glide.sc.req\_for.roles.default** property. For information about configuring the **glide.sc.req\_for.roles.default** property, see [Configure the default behavior to request items for other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/config-default-behavior-request-other-user.md).Controls access to the **Requested For** widget on the catalog homepage. Users with access to this widget can request items for another person. Users without access can place orders in their own name only.
+List of users with the roles \(comma-separated\) provided here can request items for other users. If no role is specified, then the default behavior is defined by the **glide.sc.req\_for.roles.default** property. For information about configuring the **glide.sc.req\_for.roles.default** property, see [Configure the default behavior to request items for other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/config-default-behavior-request-other-user.md).Controls access to the **Requested For** widget on the catalog homepage. Users with access to this widget can request items for another person. Users without access can place orders in their own name only.
 
 </td></tr><tr><td>
 
@@ -839,7 +839,7 @@ Log all client-side actions on variable \(**glide.sc.log.variable\_actions**\)
 
 </td><td>
 
-If set to **true**, captures the variable log in the [Variable Action Logger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/debug-actions-on-catalog-item-variables.md) window: -   **Type:** true \| false
+If set to **true**, captures the variable log in the [Variable Action Logger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/debug-actions-on-catalog-item-variables.md) window: -   **Type:** true \| false
 -   **Default value:** false
 
 </td></tr><tr><td>
@@ -872,6 +872,17 @@ The maximum number of orphan sc\_item\_option records to delete when any sc\_req
 
 Maximum number of orphan sc\_item\_option records to delete when any sc\_req\_item record is deleted.
 
+</td></tr><tr><td>
+
+glide.sc.catalog\_item.subscription\_enforcement
+
+</td><td>
+
+Control whether service subscriptions can bypass "Available for" user criteria on catalog items using the glide.sc.catalog\_item.subscription\_enforcement property. This setting verifies that only users meeting specific criteria can access items, even with a parent service subscription.
+
+-   require\_criteria: Prevents access to users who don't meet the item's criteria, even if they are subscribed to the parent service offering.
+-   allow\_bypass: Preserves existing behavior that means users gain access through the "Available for" user criteria. "allow\_bypass" is a default value.
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
+</table>**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
 

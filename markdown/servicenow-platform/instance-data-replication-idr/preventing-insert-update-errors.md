@@ -3,11 +3,11 @@ title: Avoiding insert and update errors in Instance Data Replication
 description: You can avoid insert and update failures in Instance Data Replication \(IDR\) by specifying a class name filter in the producer replication set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/preventing-insert-update-errors.html
-release: australia
+release: brazil
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,7 +41,7 @@ If the table is a child, decide if you want to replicate its parent.
 -   If you only want to replicate the child table, the filter is optional.
 -   If one or more child tables are already being replicated, you must add the sys\_class\_name filter to the parent.
 
-**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 

@@ -3,13 +3,13 @@ title: Use Predictive Intelligence in Workflow Studio with ML actions
 description: Use Predictive Intelligence actions in Workflow Studio to create flows that incorporate your model predictions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/use-predictive-intelligence-flow-designer-ml-actions.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Using Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Using Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Use Predictive Intelligence in Workflow Studio with ML actions
@@ -28,13 +28,13 @@ Workflow Studio enables you to automate complex processes. The first thing to id
 
 You can deploy any active and trained classification, similarity, or regression ML solution in your flow, as appropriate for your use case.
 
-**Note:** The regression framework is deprecated in the Australia release. You can continue to use existing regression solutions but you can't create new ones.
+**Note:** The regression framework is deprecated in the Brazil release. You can continue to use existing regression solutions but you can't create new ones.
 
 In this example procedure, you create a flow that implements the ml\_incident\_categorization solution in a Workflow Studio action. You can find this solution by searching on the ML Solutions \[ml\_solution\] table, as shown in the image below. Confirm that the solution you use has been trained and its **Active** value is set to **true**.
 
 \[Omitted image "use-predict-intel-flow-designer-ml-actions1.png"\] Alt text: An image showing the ML Solution that will be used as input to the Flow Designer flow
 
-For more information on how to use Flow Designer in Workflow Studio, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md). For information about the Actions included in Predictive Intelligence for Workflow Studio, see the Spoke actions table in [Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/predictive-intelligence-spoke.md).
+For more information on how to use Flow Designer in Workflow Studio, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/exploring-flows.md). For information about the Actions included in Predictive Intelligence for Workflow Studio, see the Spoke actions table in [Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/predictive-intelligence-spoke.md).
 
 ## Procedure
 
@@ -114,7 +114,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
 7.  In the ACTIONS section of the screen, use the following steps to create actions and flow logic for the incident's Prediction Results.
 
-    **Note:** Although you can use a loop to iterate through every prediction result, the scenario shown in this documentation uses a relatively small number of actions. For more advanced flow configurations, see the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
+    **Note:** Although you can use a loop to iterate through every prediction result, the scenario shown in this documentation uses a relatively small number of actions. For more advanced flow configurations, see the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md).
 
     1.  **For each item in** **list of items**: Drag and drop the **Prediction Results** data pill into the **Items** field.
 
@@ -124,7 +124,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
         In order to access the list of items in the Regression Prediction action, you don't need the **For Each Item in** flow logic.
 
-        \(The regression framework is deprecated in the Australia release. You can continue to use existing regression solutions but you can't create new ones.\)
+        \(The regression framework is deprecated in the Brazil release. You can continue to use existing regression solutions but you can't create new ones.\)
 
     2.  Select **Done**.
 
@@ -229,5 +229,5 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 **Related topics**  
 
 
-[Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/predictive-intelligence-spoke.md)
+[Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/predictive-intelligence-spoke.md)
 

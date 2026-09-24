@@ -3,11 +3,11 @@ title: RIDAC Action form
 description: Use the RIDAC Action form to create and track action items related to your demand or project planning items. Manage action item ownership, status, and completion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/ridac-action-form-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [RIDAC, action, action item, form, planning item]
 breadcrumb: [Form field information for Portfolio Planning, Reference, Portfolio Planning, Strategic Portfolio Management]
@@ -33,5 +33,5 @@ Use the RIDAC Action form to create and track action items related to your deman
 |Parent|Execution item \(such as a project or demand\) that this RIDAC item was created on. This field is automatically populated with the execution item when you create the RIDAC item. The RIDAC item is then linked to the corresponding planning item, ensuring it appears in related lists at the execution level and in reports at the planning level.|
 |Work notes|Internal notes and updates about action progress, blockers, completion status, and any changes. Used to track work history and communication.|
 
-**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
+**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

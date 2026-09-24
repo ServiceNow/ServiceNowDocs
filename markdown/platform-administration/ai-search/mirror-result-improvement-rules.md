@@ -3,11 +3,11 @@ title: Share result improvement rules between search profiles
 description: Make your search experiences more consistent by configuring a search profile to mirror result improvement rules from other search profiles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/mirror-result-improvement-rules.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Result improvement rules, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Make your search experiences more consistent by configuring a search profile to 
 
 ## Before you begin
 
-You must have [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md) installed.
+You must have [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-ais.md) installed.
 
 Role required: ais\_admin
 
@@ -67,8 +67,8 @@ This check keeps result improvement rule changes in sync across your search prof
 
 5.  To make your mirror source changes take effect, publish your modified mirror target search profile.
 
-    For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
+    For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
 
 
-**Parent Topic:**[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)
+**Parent Topic:**[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)
 

@@ -3,9 +3,9 @@ title: Code Signing MID Server Configuration
 description: Manage and configure the trust relationships and certificate settings for MID Servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/code-signing-mid-server-configuration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Health and Status Dashboard, Code Signing, Platform Security]
 ---
@@ -79,5 +79,5 @@ Text field
 Most recent date and time that the MID Server successfully communicated with the instance in the following format: `DD/MM/YY/H:S (Day/Month/Year/Hour:Minute)`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-health-and-status-dashboard.md)
+</table>**Parent Topic:**[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-health-and-status-dashboard.md)
 

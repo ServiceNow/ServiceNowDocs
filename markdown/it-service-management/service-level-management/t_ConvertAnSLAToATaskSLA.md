@@ -3,11 +3,11 @@ title: Convert an SLA to an SLA Definition
 description: You must replicate the default SLA record as a new SLA definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_ConvertAnSLAToATaskSLA.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Level Agreement \(Legacy\) engines, Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -69,5 +69,5 @@ This is the workflow which powers the new Task SLA.
 
 \[Omitted image "NewSLAWorkflow.png"\] Alt text: Diagram of the new SLA workfow.
 
-**Parent Topic:**[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_GetStartedWithSLAs.md)
+**Parent Topic:**[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_GetStartedWithSLAs.md)
 

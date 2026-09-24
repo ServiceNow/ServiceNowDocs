@@ -3,12 +3,12 @@ title: String transform functions
 description: Use string transform functions to reformat or perform calculations on String data pills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/string-transform-functions.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Transform functions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Transform functions, Flows, subflows, and actions reference, Flows,
 
 Use string transform functions to reformat or perform calculations on String data pills.
 
-String transform functions require a String input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md) when applying string transform functions. If a string transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+String transform functions require a String input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/action-inputs-outputs.md) when applying string transform functions. If a string transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-test.md).
 
 ## Convert String to Number
 
@@ -79,6 +79,36 @@ Returns the first character of the input String.
 In this example, the flow triggers when a User \[sys\_user\] record is created. The flow then updates the **City** field for the User \[sys\_user\] record with a code that is represented as the first character of the city's name.
 
 \[Omitted image "first-character-transform-function-example.png"\] Alt text: Update the city code for a user.
+
+## Get Display Value
+
+Returns the display value of the input Choice field.
+
+|Input data pill|Output data pill|
+|---------------|----------------|
+|Data pill path to Choice field.|String - Display value for the Choice field data pill.|
+
+-   Input: **\[Trigger\]** &gt; **\[Incident Record\]** &gt; **\[State\]**
+-   Output: `On Hold`
+
+In this example, the flow triggers when an incident record is created. The flow looks up the value of the **State** field for use in an email notification.
+
+
+
+## Get Value
+
+Returns the actual value of the input Choice field.
+
+|Input data pill|Output data pill|
+|---------------|----------------|
+|Data pill path to Choice field.|String - Actual value for the Choice field data pill.|
+
+-   Input: **\[Trigger\]** &gt; **\[Incident Record\]** &gt; **\[State\]**
+-   Output: `3`
+
+In this example, the flow triggers when an incident record is created. The flow looks up the value of the **State** field for use in an email notification.
+
+
 
 ## Last Character
 
@@ -252,5 +282,5 @@ In this example, the action makes a REST call to a third-party system and GETs a
 
 \[Omitted image "trim-transform-function-example.png"\] Alt text: Trim white space from a server name before adding it to the CMDB.
 
-**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md)
+**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/transform-functions.md)
 

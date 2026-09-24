@@ -3,9 +3,9 @@ title: Pull connector fields
 description: Populate the pull connector advanced settings fields to optimize event retrieval and synchronization based on specific requirements such as connection preferences, event frequency, and time zone settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/pull-connector-advanced-settings-fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM AIOps reference, ITOM AIOps, IT Operations Management]
 ---
@@ -95,5 +95,5 @@ initial\_sync\_in\_days
 Sets the duration for the initial synchronization process when retrieving historical data.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Configure an event pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/pull-connector.md).
+</table>To return to the procedure, see [Configure an event pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/pull-connector.md).
 

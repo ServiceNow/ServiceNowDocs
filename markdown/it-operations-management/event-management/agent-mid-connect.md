@@ -3,11 +3,11 @@ title: Connect the agent to the MID Web Server using TLS
 description: Connect the agent to the MID Web Server to enable configuring mTLS on your MID Web Server and agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/agent-mid-connect.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MID Web Server and agent mTLS Authentication, Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Connect the agent to the MID Web Server to enable configuring mTLS on your MID W
 
 ## Before you begin
 
-Ensure that you have installed the .pem file and set up the MID Web Server. For details, see [Set up the MID Web Server with a .pem file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/set-mid-web-server.md).
+Ensure that you have installed the .pem file and set up the MID Web Server. For details, see [Set up the MID Web Server with a .pem file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/set-mid-web-server.md).
 
 **Note:** This procedure includes commands for both CentOS 7/Linux and Windows Server environments. Select the commands relevant for your host operating system. If working with another Linux distribution, adapt the commands as needed for your specific OS.
 
@@ -92,5 +92,5 @@ Role required: agent\_client\_collector\_admin
 
 ## What to do next
 
-[Configure mTLS authentication for a MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension-mTLS.md).
+[Configure mTLS authentication for a MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension-mTLS.md).
 

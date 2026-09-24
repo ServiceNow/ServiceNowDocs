@@ -3,11 +3,11 @@ title: Dynamic client registration use case: Jira
 description: This use case illustrates manual client registration for Jira.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mcp-dcr-jira-usecase.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic client registration, Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric]
+breadcrumb: [Dynamic client registration, Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Dynamic client registration use case: Jira
@@ -39,5 +39,5 @@ Role required: admin
 
 ## What to do next
 
-Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Connect Hub** to dynamically register the client in your ServiceNow instance. For instructions, see [Dynamic client registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-dcr-a.md).
+Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Connect Hub** to dynamically register the client in your ServiceNow instance. For instructions, see [Dynamic client registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mcp-dcr-a.md).
 

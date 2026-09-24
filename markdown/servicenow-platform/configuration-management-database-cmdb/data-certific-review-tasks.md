@@ -3,18 +3,18 @@ title: Review certification tasks
 description: Review the values of record fields and CI attributes in certification tasks assigned to you, and then certify, edit, or fail the review according to your findings. For managers, tasks of direct reports are included, and for user group managers, tasks of members in the group are also included.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Review certification tasks
 
-Review the values of record fields and CI attributes in certification tasks assigned to you, and then certify, edit, or fail the review according to your findings.For managers, tasks of direct reports are included, and for user group managers, tasks of members in the group are also included.
+Review the values of record fields and CI attributes in certification tasks assigned to you, and then certify, edit, or fail the review according to your findings. For managers, tasks of direct reports are included, and for user group managers, tasks of members in the group are also included.
 
 ## Before you begin
 
@@ -31,16 +31,9 @@ If a certification task isn't properly assigned, you can reassign it to another 
 -   If the policy is configured to disallow empty attribute values, you will only be able to fail certification of the associated CIs, but you won't be able to certify them unless you populate the empty attributes first.
 -   If the policy is configured to disallow updates to field values, you won't be able to update non-compliant CIs, resulting in failing their certification.
 
-On the right-sidebar in the Review not completed tab, you can:
-
--   Select the 'i' icon to expand or collapse the Important information panel that shows important task details such as associated instructions.
--   Select the Attachments icon to attache files such as supporting documents for various findings, to the task.
--   Select **Reassign** to reassign the tasks on this page, see Step 2 to review the reassignment options.
--   Select **Reset** to restart the certification process for the task. For more information, see [Reset a certification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.md).
-
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Tasks**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Tasks**. In the Tasks navigation panel select **Certification**.
 
 2.  In the Certification tasks list, select multiple tasks to reassign tasks in bulk.
 
@@ -50,7 +43,7 @@ On the right-sidebar in the Review not completed tab, you can:
             -   **Assignment group**: Select the assignment group the user belongs to.
             -   **Assign to:** Search for the appropriate reviewer to reassign this task to.
             -   **Submit a reason for this action**: Enter a reason why you are reassigning the task.
-        -   Select the **Reassign** drop-down menu then select **Assign to me**: Assign the task that isn't assigned, to yourself, if you are the appropriate reviewer for this task.
+        -   Select the **Reassign** drop-down menu then select **Assign to me**: Assign the task that isn't assigned, to yourself, if you're the appropriate reviewer for this task.
         -   Select the **Reassign** drop-down menu then select **Request reassignment**: Request to reassign the task, that is assigned to you incorrectly, to someone else. Enter a reason why the task needs to be reassigned, then select **Submit**.
     2.  Select **Proceed**.
 
@@ -62,7 +55,13 @@ On the right-sidebar in the Review not completed tab, you can:
 
     -   The review conclusion of certified or failed is applied in bulk only to those certification fields in the selected records, which are still pending a review. For example, a certification field that is already marked as certified, isn't affected by selecting **Fail**. Only the unreviewed fields are marked as failed. Records whose review is concluded are moved to the Review completed tab.
     -   If the policy is configured to disallow empty attribute values, then CIs with empty fields won't be certified when you select **Certify**. In this situation, to certify those CIs, you must first populate the empty attributes.
-5.  Select the records that you want to review in details and then select **Review records**.
+    On the right-sidebar in the Review not completed tab, you can:
+
+    -   Select the 'i' icon to expand or collapse the Important information panel that shows important task details such as associated instructions.
+    -   Select the Attachments icon to attache files such as supporting documents for various findings, to the task.
+    -   Select **Reassign** to reassign the tasks on this page, see Step 2 to review the reassignment options.
+    -   Select **Reset** to restart the certification process for the task. For more information, see [Reset a certification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.md).
+5.  Select the records that you want to review in detail and then select **Review records**.
 
     A check mark next to a column header, denotes the fields whose values are included in this certification review \(certification fields\). All other columns show additional fields that are included only to help you identify records \(display fields\).
 
@@ -76,7 +75,7 @@ On the right-sidebar in the Review not completed tab, you can:
 
 6.  Select **Submit** when all the records have been reviewed.
 
-    The **Submit** button isn't available until all the records in the task are reviewed and the task is complete.Alternatively, you can select the **Submit task** link in the 'Ready to submit' notification.
+    The **Submit** button isn't available until all the records in the task are reviewed and the task is complete. Alternatively, you can select the **Submit task** link in the 'Ready to submit' notification.
 
 
 ## What to do next

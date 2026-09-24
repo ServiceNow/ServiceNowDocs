@@ -3,11 +3,11 @@ title: Activate OData services and assign a system alias
 description: Activate the OData services and assign a system alias to support OAuth 2.0 authentication for integration with the Software Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/activate-odata-services-sap.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [OData services, SAP system alias, ICF node, OAuth SAP, post-transport configuration]
 breadcrumb: [Set up SAP integration to establish a connection with SAP, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
@@ -68,5 +68,7 @@ The OData services are active and the LOCAL system alias is assigned as the defa
 
 ## What to do next
 
-Create a system user for OAuth authentication. For details, see [Create a system user for OAuth authentication in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-system-user-oauth-sap.md).
+Create a system user for OAuth authentication. For details, see [Create a system user for OAuth authentication in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-system-user-oauth-sap.md).
+
+**Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setup-sap-integration.md)
 

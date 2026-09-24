@@ -3,9 +3,9 @@ title: Add a table to an HTML editor
 description: Add and format an example table to a knowledge article using HTML field controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ExampleStyleATable.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Table functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,11 +20,11 @@ Role required: admin
 
 ## About this task
 
-In this task, you create and format a table in either htmlArea or TinyMCE v6.8.3. The resulting tables should look similar to one of the following images.
+In this task, you create and format a table in either htmlArea or TinyMCE v8.3.0. The resulting tables should look similar to one of the following images.
 
 \[Omitted image "TableExampleHTML.png"\] Alt text: Table example html
 
-\[Omitted image "TinyMCEV6-table-example.png"\] Alt text: TinyMCE v6.8.3 Table example
+\[Omitted image "TinyMCEV6-table-example.png"\] Alt text: TinyMCE v8.3.0 Table example
 
 If you enter alternative values for aspects such as width, cell spacing, cell padding, border, and alignment, the resulting table varies from the examples given.
 

@@ -3,11 +3,11 @@ title: HPE BladeSystem Enclosure Discovery
 description: ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to discover BladeSystem, which is a line of Hewlett Packard Enterprise blade server machines. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -28,11 +28,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Set SNMP credentials**
 
-    Set SNMP credentials for the enclosure \(to be used by the Classifier\). For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+    Set SNMP credentials for the enclosure \(to be used by the Classifier\). For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md).
 
 -   **Set SSH credentials**
 
-    Set the SSH credentials for the enclosure's Onboard Administrator \(to be used by the Discovery pattern\). The account used for accessing the Onboard Administrator must have permissions to view all of the enclosure's bays, so it can gather the blade servers' information. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+    Set the SSH credentials for the enclosure's Onboard Administrator \(to be used by the Discovery pattern\). The account used for accessing the Onboard Administrator must have permissions to view all of the enclosure's bays, so it can gather the blade servers' information. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 -   **Verify the Onboard Administrator IP address**
 
@@ -44,7 +44,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Populate only the serial number in the Serial Number field**
 
-    Starting with version 1.35.0 of Discovery and Service Mapping Patterns, you can populate the **Serial Number** field with only the serial number value, without the UUID suffix, by setting the **sn\_itom\_pattern.clear\_hpe\_serial\_numbers** MID Server property to true. For more information, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
+    Starting with version 1.35.0 of Discovery and Service Mapping Patterns, you can populate the **Serial Number** field with only the serial number value, without the UUID suffix, by setting the **sn\_itom\_pattern.clear\_hpe\_serial\_numbers** MID Server property to true. For more information, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
 
 
 ## Highlights and supported versions
@@ -85,7 +85,7 @@ Discovery populates the data in the CMDB when running the HPE BladeSystem Enclos
 |Onboard Administrator Tray Spare Part Number \[onboard\_admin\_tray\_spare\_part\_number\]|The Onboard Administrator tray’s spare part number \(HPE proprietary\).|
 |Onboard Administrator Tray Serial Number \[onboard\_admin\_tray\_serial\_number\]|The Onboard administrator tray’s serial number.|
 
-\* To populate the **Serial number** field with only the serial number value, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
+\* To populate the **Serial number** field with only the serial number value, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
 
 |Field|Description|
 |-----|-----------|
@@ -112,7 +112,7 @@ Discovery populates the data in the CMDB when running the HPE BladeSystem Enclos
 |iLO Federation Capable \[ilo\_federation\_capable\]|The iLofederation capability enabled/disabled.|
 |Bay Number \[bay\_number\]|The enclosure’s bay number in which the blade is installed.|
 
-\* To populate the **Serial number** field with only the serial number value, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
+\* To populate the **Serial number** field with only the serial number value, see [Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md).
 
 |Field|Description|
 |-----|-----------|
@@ -149,19 +149,19 @@ Discovery creates these relationships to support HPE BladeSystem Enclosure disco
 |Serial Number \[cmdb\_serial\_number\]|references|HPE BladeSystem Enclosure \[cmdb\_ci\_hpe\_bladesystem\_enclosure\]|
 |Serial Number \[cmdb\_serial\_number\]|references|HPE BladeSystem Blade \[cmdb\_ci\_hpe\_bladesystem\_blade\]|
 
--   **[Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md)**  
+-   **[Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md)**  
 You can exclude the universally unique identifier \(UUID\) from the **Serial number** field for discovered HPE BladeSystem Enclosure and HPE BladeSystem Blade configuration items \(CIs\).
--   **[Clear UUID serial numbers from existing HPE BladeSystem CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.md)**  
+-   **[Clear UUID serial numbers from existing HPE BladeSystem CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.md)**  
 Delete records with UUID-formatted serial numbers from HPE BladeSystem discovery tables.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 
 **Related topics**  
 
 
-[SNMP-based queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/snmp-based-queries.md)
+[SNMP-based queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/snmp-based-queries.md)
 
-[Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md)
+[Populate only the serial number for HPE BladeSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/set-hpe-bladesystem-sn-only.md)
 
-[Clear UUID serial numbers from existing HPE BladeSystem CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.md)
+[Clear UUID serial numbers from existing HPE BladeSystem CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/clear-uuid-hpe-bladesystem-cis.md)
 

@@ -3,12 +3,12 @@ title: Integrate ServiceNow voice assistant with Genesys Cloud service \(SIP\)
 description: Enable users to get support from AI voice agents by integrating a ServiceNow voice assistant with Genesys Cloud service using the Session Initiation Protocol \(SIP\) communication channel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-voice-service-with-genesys-sip.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Genesys, Genesys Cloud, voice assistant, voice integration, CCaaS, telephony provider, AI voice agent, SIP]
-breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrate ServiceNow voice assistant with Genesys Cloud service \(SIP\)
@@ -17,7 +17,7 @@ Enable users to get support from AI voice agents by integrating a ServiceNow voi
 
 ## Before you begin
 
--   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md) for more information.
+-   Create a voice assistant. See [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-an-ai-voice-service.md) for more information.
 
 Role required: sn\_aia.admin
 
@@ -66,7 +66,7 @@ Connect your Genesys Cloud contact center to a ServiceNow voice assistant using 
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
 
-    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md).
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/voice-agent-reference.md).
 
 9.  In your Genesys Cloud account, configure the SIP trunk using the ServiceNow SIP FQDN and authentication token.
 
@@ -81,5 +81,5 @@ Genesys Cloud service is connected to your ServiceNow voice assistant. Incoming 
 
 For live agent transfer configuration and advanced SIP trunk settings, refer to your Genesys Cloud documentation or contact Genesys support.
 
-**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
+**Parent Topic:**[Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md)
 

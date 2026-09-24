@@ -3,11 +3,11 @@ title: Recommended Actions for ITSM in Service Operations Workspace
 description: Get guidance-based or field-level recommendations for records in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -16,14 +16,14 @@ breadcrumb: [Managing IT services in your organization, Service Operations Works
 
 Get guidance-based or field-level recommendations for records in Service Operations Workspace.
 
--   **[Get guidance-based recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/get-guidance-based-recommendations.md)**  
+-   **[Get guidance-based recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/get-guidance-based-recommendations.md)**  
 Get actionable real-time recommendations in the side panel to help address customer issues and resolve issues quickly.
--   **[Get field recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/get-field-recommendations.md)**  
+-   **[Get field recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/get-field-recommendations.md)**  
 Get incident field recommendations in Service Operations Workspace while creating or updating incidents.
--   **[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)**  
+-   **[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)**  
 Reference topics provide additional information about various form fields and components installed with Recommended Actions for ITSM.
 
-**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
+**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 
 **Related topics**  
 

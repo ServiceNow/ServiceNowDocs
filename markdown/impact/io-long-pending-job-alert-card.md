@@ -3,9 +3,9 @@ title: Analyze job details for long pending jobs
 description: Stay ahead of job delays by identifying and acting on jobs that breach predefined lateness thresholds. The Long Pending Jobs alert card tracks pending jobs by lateness duration, so you can act on the pending jobs before they affect the downstream workflows and miss the SLAs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-long-pending-job-alert-card.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Real-time Instance health monitoring and analysis, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -76,7 +76,7 @@ Beyond pending jobs, this telemetry not only helps you to know how long a job ta
 
 ## What to do next
 
-You can also set alert card for pending jobs. For more information, see [Configure long pending jobs alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-long-pending-jobs.md).
+You can also set alert card for pending jobs. For more information, see [Configure long pending jobs alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/io-long-pending-jobs.md).
 
-**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)
+**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-observer-performance.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Migrate from legacy change risk assessments
+title: Migrate to legacy change risk assessments
 description: Users can migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/legacy-change-risk-assessment-migration.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-07-17"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Analyze change request risk and impact, Reference, Change Management, IT Service Management]
 ---
 
-# Migrate from legacy change risk assessments
+# Migrate to legacy change risk assessments
 
 Users can migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
 
@@ -37,15 +37,11 @@ The following legacy risk assessment components are migrated:
     -   If all the multiple assessment conditions are on the same table, then the migration results in only one risk assessment.
     -   If the multiple assessment conditions are on different tables, then the migration creates as many risk assessments as they pertain to different tables.
 
-During migration, question choices with negative score values from the legacy assessment are excluded. Survey and Assessment V2 \(com.snc.assessment\_core\) does not support negative values in choice definitions. The business rules on the asmt\_metric\_definition table enforces this constraint by blocking any insert or update where the choice value is negative. The one exception is `-1`, which is a system-reserved value that Survey and Assessment V2 uses to record that a user did not answer a question when they submitted an assessment. The Change Risk Assessment migration excludes all negative score values, including `-1`, to prevent unanswered-question flags and other negative scores from being carried into the migrated assessment choice definitions.
-
-**Important:** Review your legacy assessment question choices before migrating. Any choice with a negative score value, including choices used to represent unanswered or not-applicable responses, is not migrated to the new Change Risk Assessment. Recreate these choices manually in the migrated assessment using non-negative values, or enable the **Allow N/A** option on the assessment metric to capture unanswered responses.
-
 ## Procedure
 
 1.  Create an update set and set it as the current set.
 
-    For more information, see [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-select-update-set.md).
+    For more information, see [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-select-update-set.md).
 
 2.  Navigate to **Change** &gt; **Risk Assessment \(legacy\)**.
 
@@ -60,18 +56,18 @@ During migration, question choices with negative score values from the legacy as
 
 ## What to do next
 
-After all the valid legacy risk assessments are migrated, reach out to the support team to run the following scripts:
+After all the legacy risk assessments are migrated, reach out to the support team to run the following scripts:
 
 ```
 disable_legacy_change_risk_assessment.js
 ```
 
-Capture the results in the update set created and later mark the update set as closed complete. For more information, see [Mark an update set complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_CompleteUpdateSets.md).
+Capture the results in the update set created and later mark the update set as closed complete. For more information, see [Mark an update set complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_CompleteUpdateSets.md).
 
 **Note:** The given procedure is a suggested practice. Alternatively, you can capture each migrated Change Risk Assessment in their own update set. You can also capture the results of disabling of the Change Management - Risk Assessment \[Legacy\] using `disable_legacy_change_risk_assessment.js` in a separate update set.
 
--   **[Migrated risk assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/migrated-risk-assessment-components.md)**  
+-   **[Migrated risk assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/migrated-risk-assessment-components.md)**  
 When you migrate a change risk assessment, the system maps records from legacy risk assessment to the new risk assessment tables.
 
-**Parent Topic:**[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-risk-conflict-analysis.md)
+**Parent Topic:**[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-risk-conflict-analysis.md)
 

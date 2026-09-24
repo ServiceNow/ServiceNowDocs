@@ -3,9 +3,9 @@ title: Security Operations common functionality
 description: Whenever any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated, the Security Support Common plugin is activated. This plugin loads various modules that provide functionality that is common across all Security Operations applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sec-ops-common-functionality.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Security Operations]
 ---
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-ref.md), [Threat Intelligence integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-integrations.md), [Vulnerability Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vuln_integrations.md)
+[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/secops-integ-ref.md), [Threat Intelligence integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-integrations.md), [Vulnerability Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vuln_integrations.md)
 
 </td><td>
 
@@ -36,7 +36,7 @@ Several integrations are included with the Security Operations applications \(Se
 
 </td></tr><tr><td>
 
-[Security Operations email processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-processing.md)
+[Security Operations email processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/email-processing.md)
 
 </td><td>
 
@@ -105,36 +105,36 @@ CMDB
 CI Identifier Rules: CI identifiers are rules used to lookup a configuration item \(CI\) in the CMDB that contains matching information from a third-party integration. These rules define the fields that contain matching data and the order of precedence by which they are evaluated. The lowest **Order** value is evaluated first.
 
 </td></tr></tbody>
-</table>-   **[Create and define filter groups in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-filter-group.md)**  
+</table>-   **[Create and define filter groups in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-filter-group.md)**  
 Create and use filter groups to locate records from any table on your instance. For example, you can create a group of all computers by the same manufacturer. You can also filter configuration items \(CIs\) that have similar vulnerabilities or that fall within a particular subnet IP address range.
--   **[Shared data transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/shared-data-transformation.md)**  
+-   **[Shared data transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/shared-data-transformation.md)**  
 The Security Incident Response, Vulnerability Response, and Threat Intelligence plugins share common features, for relationship data and duplication rules, used to import external and internal information into Security Operations.
--   **[Security Operations email processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-processing.md)**  
+-   **[Security Operations email processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/email-processing.md)**  
 You can set up the integration of information from external detection systems, provide granularity in processing security operations records, handle unmatched emails, and prevent duplication of records using Email Processing.
--   **[Security Operations field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/field-mapping.md)**  
+-   **[Security Operations field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/field-mapping.md)**  
 Security Operations tables can be mapped to and from other tables, linking a security incident to a customer service case or a problem to other parts of the Security Operations system.
--   **[Security Operations field value transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/field-value-transforms.md)**  
+-   **[Security Operations field value transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/field-value-transforms.md)**  
 Transforms unique customer field values into field values recognized by Security Operations email parsing, data enrichment or tables using field maps. Supports choice fields, references, and aligns external data into the standard terminology and format for your new record.
--   **[Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrichment-data-mapping.md)**  
+-   **[Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/enrichment-data-mapping.md)**  
 Enrichment Data Mapping transforms data from XML, JSON, or Properties files to ServiceNow records. Security Operations workflows use enrichment data maps and provide output data to security incidents.
--   **[Security Operations user-defined escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/user-defined-escalation.md)**  
+-   **[Security Operations user-defined escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/user-defined-escalation.md)**  
 You can create an escalation path for security incidents for issues requiring more attention or expertise. Once an escalation group exists, a button appears on any security incident in that group.
--   **[Create domain-separated property overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-dom-sep-prop-overrides.md)**  
+-   **[Create domain-separated property overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-dom-sep-prop-overrides.md)**  
 When you use domain separation, you can create overrides to existing Security Operations properties that allow you to customize the functions of the applications in each of your domains.
--   **[Create an operating system group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-new-os-group.md)**  
+-   **[Create an operating system group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-new-os-group.md)**  
 Operating system groups are used to map an operating system to specific process types and scripts in Security Incident Response workflows. The scripts define how running processes for the defined operating system groups are retrieved. New operating systems can be added as needed.
--   **[Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-class-group-and-tags.md)**  
+-   **[Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-class-group-and-tags.md)**  
 You can assign tags to security incidents, response tasks, vulnerable items, observables, IoCs, and security cases to create metadata on the responding record and define who should have access to specific types of security content. The tags can be added to security groups to organize them.
--   **[Security annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-annotations.md)**  
+-   **[Security annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-annotations.md)**  
 A security annotation is a note of explanation or comments added to a configuration item, observable, or use on a security incident.
--   **[Components installed with Security Support Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-with-sec-sup-common.md)**  
+-   **[Components installed with Security Support Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-with-sec-sup-common.md)**  
 Several types of components are installed with Security Support Common. They provide common functionality for use across the various security applications, such as Security Incident Response.
--   **[Search Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_SearchSecOps.md)**  
+-   **[Search Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/t_SearchSecOps.md)**  
 You can find information quickly in any Security Operations application using the search icon in the screen header. Zing is the text indexing and search engine that performs all text searches in your instance.
--   **[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-ref.md)**  
+-   **[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/secops-integ-ref.md)**  
 Developers and ServiceNow partners can use the information in this section to gain understanding of the under-the-hood functionality of third-party integrations, including development guidelines, integration capabilities, and workflows.
--   **[Legacy: Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/workflow-triggers.md)**  
+-   **[Legacy: Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/workflow-triggers.md)**  
 Security Operations workflow triggers contain a condition on a table. All workflows attached to the workflow trigger record run when the condition is met.
--   **[Security Operations Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations-orchestration.md)**  
+-   **[Security Operations Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-operations-orchestration.md)**  
 Users can interact with and retrieve data from Windows or UNIX-based systems and environments using activity packs and workflows in Security Operations Orchestration.
 

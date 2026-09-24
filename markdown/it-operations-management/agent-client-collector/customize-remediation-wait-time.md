@@ -3,11 +3,11 @@ title: Customize the Zscaler remediation wait time
 description: Configure the amount of time \(in seconds\) by which the Zscaler remediation check verifies the Zscaler status. This amount of time indicates how often the system checks the Zscaler status after the remediation check runs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/customize-remediation-wait-time.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Check Zscaler monitoring, Perform Zscaler remediation, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---

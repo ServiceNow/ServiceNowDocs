@@ -3,11 +3,11 @@ title: Default update set
 description: Only one update set can be the default set for any application scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/default-update-sets.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, System update sets, Deploying applications, Building applications]
 ---
@@ -39,5 +39,5 @@ Common cases where the system auto-generates a default update set are as follows
     -   Your preferred update set is **Complete** or **Ignored**.
     -   There’s no In-Progress default update set for the new scope.
 
-**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-sets-reference.md)
+**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/update-sets-reference.md)
 

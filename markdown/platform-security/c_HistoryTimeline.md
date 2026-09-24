@@ -3,9 +3,9 @@ title: History Timeline
 description: You can view a timeline of changes for a CI and for its related records, relationships, baselines, and proposed changes for the CI. Timelines are available for CIs in the Configuration Item \[cmdb\_ci\] table or a descendant of this table, if auditing is enabled for the tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_HistoryTimeline.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Knowing about History sets, Auditing]
 ---
@@ -20,11 +20,11 @@ You can open a timeline when you view the history of a CI. You can specify the t
 
 CI changes are represented by bubbles in different shapes and colors along the timeline. The shape of each bubble represents a different type of change and the color of each bubble specifies whether the change is valid or invalid. CI baselines are represented by black circles that you can hover over to display more details. Click the **?** icon to display bubble shape and color definitions, and point to a bubble to display details about the change set.
 
-A change to a relationship is considered valid only if it was applied through change management. If the change was applied via the Proposed Changes framework, it is valid. For additional validation steps, see [Create or edit a planned validation script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ProposedChanges.md).
+A change to a relationship is considered valid only if it was applied through change management. If the change was applied via the Proposed Changes framework, it is valid. For additional validation steps, see [Create or edit a planned validation script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ProposedChanges.md).
 
-\[Omitted image "TimelineDashboard.png"\] Alt text: History timeline view
+\[Omitted image "TimelineDashboard.png"\] Alt text:
 
-\[Omitted image "TimelineBubbles.png"\] Alt text: Timeline bubbles
+\[Omitted image "TimelineBubbles.png"\] Alt text:
 
 **Note:** Proposed changes that do not have a planned start date are placed at future points of time.
 

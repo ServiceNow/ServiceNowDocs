@@ -3,11 +3,11 @@ title: Actionable notifications for Service Catalog requests in ITSM Virtual Age
 description: Notify employees of Service Catalog tasks and alerts with notifications from ITSM Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/va-itsm-notifications-service-catalog.html
-release: australia
+release: brazil
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ITSM Virtual Agent pre-built actionable notifications, ITSM Virtual Agent, IT Service Management]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [ITSM Virtual Agent pre-built actionable notifications, ITSM Virtual
 
 Notify employees of Service Catalog tasks and alerts with notifications from ITSM Virtual Agent.
 
-You must activate these notifications in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
+You must activate these notifications in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 ## Citrix provision notification
 
-End users are notified whenever a change occurs to a Citrix session or application. For information about pre-built topics for Citrix, see [Citrix session pre-built topics for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/manage-citrix-convo-flow.md).
+End users are notified whenever a change occurs to a Citrix session or application. For information about pre-built topics for Citrix, see [Citrix session pre-built topics for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/manage-citrix-convo-flow.md).
 
 ## Request approved or rejected
 
@@ -62,7 +62,7 @@ End users \(requesters\) can submit a request for software from the Software Cat
 
 When the submitted request is approved, Virtual Agent sends an actionable notification to the end user letting them know that the software has been assigned and will be available soon.
 
-**Note:** End users must be using [Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ClientSoftwareDistribution.md).
+**Note:** End users must be using [Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ClientSoftwareDistribution.md).
 
 \[Omitted image "software\_request2.png"\] Alt text: Software assigned.
 
@@ -74,5 +74,5 @@ The requester can do the following:
     By default, Virtual Agent displays the articles included in the sc\_2\_kb table. An admin can define which table is used by changing the value of the **sn\_itsm\_va.cat\_item\_related\_kb** system property.
 
 
-**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
+**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
 

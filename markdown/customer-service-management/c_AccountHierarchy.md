@@ -3,9 +3,9 @@ title: Account hierarchy
 description: Use the account hierarchy feature to create and view a parent-child relationship between accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_AccountHierarchy.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Agents can do the following from the account hierarchy:
 
 ## Account hierarchy in the workspace view
 
-To view the account hierarchy in CRM Workspace, navigate to an account record and select the Open Hierarchy \(\[Omitted image "account-hierarchy-workspace-icon.png"\] Alt text: account hierarchy workspace\) icon on the **Account** field.
+To view the account hierarchy in CRM Workspace, navigate to an account record and select the Open Hierarchy \(\[Omitted image "account-hierarchy-workspace-icon.png"\] Alt text: Account hierarchy uses a collapsible tree structure to display the different levels of parent, child, and sibling accounts\) icon on the **Account** field.
 
 \[Omitted image "csm-account-hierarchy-workspace.png"\] Alt text: Parent view of the account hierarchy structure with information about the current account and options to update and delete the account details.
 
@@ -45,5 +45,5 @@ In the Core UI, the account hierarchy is available in the Account Hierarchy sect
 Users with the system administrator role can define the hierarchy between accounts on the Account form by using the **Parent Account** field.
 
 -   From the Account form for the child account, select the parent in the **Parent Account** field.
--   For top-level accounts, do not fill in the **Parent Account** field.
+-   For top-level accounts, don't fill in the **Parent Account** field.
 

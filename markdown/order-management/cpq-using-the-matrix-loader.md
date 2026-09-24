@@ -3,7 +3,7 @@ title: Configure the Matrix Loader
 description: Use the Matrix Loader to efficiently add, edit, and migrate fields, field options, rules, and layouts in CPQ. Upload CSV files, validate configurations, and streamline bulk updates or environment migrations with error-handling and verification support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-using-the-matrix-loader.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -32,9 +32,9 @@ Here is a quick tutorial on how to use the Matrix Loader.
 
     We discuss the formats of these CSV files in the following articles:
 
-    -   [Matrix Loader CSV fields and field options upload and export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-matrix-loader-csv-fields-and-field-options-upload-and-export.md)
-    -   [Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/matrix_loader_csv_rules_upload.md)
-    -   [Matrix Loader: CSV table upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-matrix-loader-csv-table-upload.md)
+    -   [Matrix Loader CSV fields and field options upload and export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-matrix-loader-csv-fields-and-field-options-upload-and-export.md)
+    -   [Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/matrix_loader_csv_rules_upload.md)
+    -   [Matrix Loader: CSV table upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-matrix-loader-csv-table-upload.md)
     Queued files are displayed. If necessary, add more files or delete files, and then click **Next**.\[Omitted image "cpq-matrix-loader-tutorial-choose-files-selected-files-shown.png"\] Alt text: Import
 
 4.  The Matrix Loader guesses at the contents of each file according to keywords in the file titles. Confirm that the Matrix Loader guessed the upload file types correctly. If necessary, make corrections.
@@ -49,5 +49,5 @@ Here is a quick tutorial on how to use the Matrix Loader.
 **Related topics**  
 
 
-[Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/matrix_loader_table_of_contents.md)
+[Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/matrix_loader_table_of_contents.md)
 

@@ -3,9 +3,9 @@ title: Improve visibility into organizational risk exposure with advanced projec
 description: With advanced risk assessment for your projects, you can easily identify if any projects pose potential organizational risks and quickly decide on mitigating actions. Combine project risk management with enterprise risk management and get better visibility into your organization's overall risk exposure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/better-together/adding-advanced-risk-assessment-to-your-projects.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Solutions]
 ---
@@ -54,26 +54,26 @@ In this workflow:
 
 To get started with assessing your project risks, follow these steps:
 
-1.  Setup and configure the risk assessment methodology. See [Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/specify-approvers-for-proj-risks.md).
+1.  Setup and configure the risk assessment methodology. See [Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/specify-approvers-for-proj-risks.md).
 
     Role: sn\_risk.admin.
 
-2.  Define scope and initiate risk assessment. See [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/add-risks-for-project.md).
+2.  Define scope and initiate risk assessment. See [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/add-risks-for-project.md).
 
     Role: it\_project\_manager.
 
-3.  Perform risk assessment. See [Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/assessing-proj-risk-by-projmanager.md).
+3.  Perform risk assessment. See [Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/assessing-proj-risk-by-projmanager.md).
 
     Role: sn\_grc.business\_user.
 
-4.  Assess and elevate to project risk. See [Elevate a project risk to enterprise risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/Elevating-a-risk.md).
+4.  Assess and elevate to project risk. See [Elevate a project risk to enterprise risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/Elevating-a-risk.md).
 
     Role: it\_project\_manager.
 
-5.  Convert risk to issue and monitor security posture. See [Monitor risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/project-risk-dashboard.md).
+5.  Convert risk to issue and monitor security posture. See [Monitor risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/project-risk-dashboard.md).
 
     Role: sn\_risk.admin, it\_project\_manager.
 
 
-**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/better-together/solutions-gallery.md)
 

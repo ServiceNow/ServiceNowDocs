@@ -3,11 +3,11 @@ title: Password Reset and Password Change reports and logs
 description: The Password Reset application provides several tools for monitoring and troubleshooting password reset activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/c\_MonitorPasswordResetActivity.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -150,7 +150,7 @@ Purge interval
 
 [Unblock a Password Reset user]()
 
-[View user requests for password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_ResetARequest.md)
+[View user requests for password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_ResetARequest.md)
 
-[Unblock a Password Reset user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_UnblockAUser.md)
+[Unblock a Password Reset user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_UnblockAUser.md)
 

@@ -3,11 +3,11 @@ title: Supporting information for ServiceNow Otto for Hardware Asset Management 
 description: Get a quick overview of the important information related to the ServiceNow Otto for Hardware Asset Management \(HAM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/supporting-info-now-assist-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [AI in Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
@@ -41,4 +41,6 @@ Activate the applications in the following order:
 -   ServiceNow Otto for Platform \(com.sn\_genai\_platform\)
 -   AI Agents for IT Asset Management \(com.sn\_itam\_aia\)
 -   ServiceNow Otto for Hardware Asset Management \(HAM\) \(sn\_now\_assist\_ham\)
+
+**Parent Topic:**[AI in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ai-in-ham.md)
 

@@ -3,11 +3,11 @@ title: Modify embedded help role priority
 description: You can modify the default order of priority that is assigned to a role in the Embedded Help Role Priority \[sys\_embedded\_help\_role\] table. The priority order determines what embedded help content a user accesses on a UI page, based on roles assigned to the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/modify-embedded-help-role-priority.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Embedded Help roles, Embedded Help planning, Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
@@ -33,5 +33,5 @@ When you add a role, such as a role for a custom application, it is automaticall
 3.  Enter the new priority order number and click the green check mark to save it.
 
 
-**Parent Topic:**[Embedded Help roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-roles.md)
+**Parent Topic:**[Embedded Help roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/embedded-help-roles.md)
 

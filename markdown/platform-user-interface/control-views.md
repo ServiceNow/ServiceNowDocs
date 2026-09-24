@@ -3,9 +3,9 @@ title: Control when the system displays a view
 description: Administrators can create rules that determine the conditions for when the system should display a form or list in a specified view. Administrators can also restrict views by user role.You can use a script to control the form view used by different roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/control-views.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [View management, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System UI** &gt; **View Rules**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Complete the form.
 
@@ -36,13 +36,13 @@ Role required: admin
     |Application|Displays the application to which the View Rule record belongs.|
     |Table|Select the table on which this view rule is applied. The list shows only tables and database views that are in the same scope as the view rule|
     |Device type|Select which interface this view rule applies to.|
-    |View|Enter the name of the View you're creating a rule for. The system hides this field when you create an advanced View Rule.|
+    |View|Enter the name of the View you are creating a rule for. The system hides this field when you create an advanced View Rule.|
     |Script|Enter a script to determine when to display a particular view. The system only displays this field when you create an advanced View Rule.|
 
-4.  Select **Submit**.
+4.  Click **Submit**.
 
 
-**Parent Topic:**[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md)
+**Parent Topic:**[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/view-management-overview.md)
 
 ## Restrict view by role
 

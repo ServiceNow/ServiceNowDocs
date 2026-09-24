@@ -3,9 +3,9 @@ title: Associate MITRE-ATT&amp;CK information with security case
 description: Associate MITRE-ATT&amp;CK tactics and techniques to a security case for better security case management and threat analysis at a granular level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/associate-mitre-att-ck-information-with-security-case-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using MITRE-ATT&amp;CK to detect and analyze threats, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -37,9 +37,9 @@ Role required: sn\_si.analyst
     The tactics and techniques that you have added appear in the MITRE-ATT&amp;CK Card.
 
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-features.md)
 
-**Parent Topic:**[Create cases in Security Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-cases-in-case-mgmt.md)
+**Parent Topic:**[Create cases in Security Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-cases-in-case-mgmt.md)
 
 **Related topics**  
 

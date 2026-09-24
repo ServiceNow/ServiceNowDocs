@@ -3,11 +3,11 @@ title: Define access rules for an agentic workflow
 description: Define security controls for an agentic workflow to determine which users can access it and what permissions they have.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-sec-aw-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Define access rules for an agentic workflow
@@ -22,7 +22,7 @@ Role required: sn\_aia\_admin
 
 The Access rules section is divided into two parts: **Which users can access this agentic workflow \(ACLs\)** and **Which data this agentic workflow can access**. The former creates an ACL that determines who can discover or invoke the agentic workflow. The latter defines the data that the agentic workflow has access to once it's invoked.
 
-See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for AI agents.
+See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for AI agents.
 
 ## Procedure
 
@@ -47,7 +47,7 @@ See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/Servic
 
     The two options are **Dynamic user** and **AI user**. The dynamic user is the user invoking the agentic workflow or the dynamic user of the agentic workflow calling on the agentic workflow. An AI user is a dedicated user that has its own specified roles that allow access, which could be more than the dynamic user. Every invocation reads and writes with the AI user's roles regardless of who started it.
 
-    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md). Select **AI user** as the identity type.
+    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md). Select **AI user** as the identity type.
 
     If you select **Dynamic user**, you can select the **Roles** that the agentic workflow runs with. By default, an agentic workflow runs as a dynamic user and has the roles of the invoking user. Select the approved roles to limit the data access that an agentic workflow could have. Role filtering must be applied for all agentic workflows and agentic workflows to run as dynamic users. If you don't select any roles, the agent inherits whatever roles the invoking user holds.
 
@@ -66,5 +66,5 @@ You have created an ACL that determines who can discover and access your agentic
 
 ## What to do next
 
-Scroll down to the next section of the guided setup, **Triggers**, to [define specific conditions where the agentic workflow should run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw-new.md). Adding triggers is optional.
+Scroll down to the next section of the guided setup, **Triggers**, to [define specific conditions where the agentic workflow should run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aw-new.md). Adding triggers is optional.
 

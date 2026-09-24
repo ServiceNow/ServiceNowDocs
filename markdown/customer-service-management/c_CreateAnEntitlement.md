@@ -3,9 +3,9 @@ title: Create entitlements for CSM entities
 description: Create an entitlement for a Customer Service Management entity such as an account, a consumer, or a product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CreateAnEntitlement.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure entitlements, Product data, Set up your environment, Configure, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Run an attestation policy on-demand
 description: Run an attestation policy in CMDB Workspace, when needed, regardless of the policy recurring schedule. A manual, on-demand run doesn't interfere with the policy's specified schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/run-attestation-policy-ondemand.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-04-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CIs attestation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_cmdb\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance view**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**.
 
 2.  Select the **Data Manager** link in Management tools, in the Manage section.
 
@@ -34,6 +34,6 @@ Role required: sn\_cmdb\_admin
 
     -   In the Published policies tile, select the attestation policy that you want to run and then select **Run Policy**.
     -   In the Published policies tile, select the attestation policy that you want to run and then, on the policy details page, select **Run Policy**.
-5.  In the Run Policy dialog box, select **Run**.
+5.  In the dialog box that pops up, select **Run**.
 
 

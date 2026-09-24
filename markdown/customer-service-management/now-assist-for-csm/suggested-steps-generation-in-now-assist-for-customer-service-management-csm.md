@@ -3,11 +3,11 @@ title: Suggested steps generation in ServiceNow Otto for Customer Service Manage
 description: Generate suggested steps automatically by analyzing clusters of closed cases with similar case resolution in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -29,7 +29,7 @@ If suggested steps are available for a case, ServiceNow Otto for CSM generates t
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Using the List icon \[Omitted image "List\_MenuIcon.png"\] Alt text: icon for seeing the list of cases, open a case that is not in **Closed** or **Complete** state.
 
@@ -40,6 +40,8 @@ If suggested steps are available for a case, ServiceNow Otto for CSM generates t
 4.  In the **Suggested steps by AI** card, select **Generate**.
 
     The steps to resolve the case appears in the **Recommendations** window in the case record. This action may take a few minutes.
+
+    \[Omitted image "suggested-steps.png"\] Alt text: Suggested steps by to resolve the issue
 
     **Note:**
 
@@ -52,5 +54,5 @@ If suggested steps are available for a case, ServiceNow Otto for CSM generates t
     These visual updates help users clearly identify AI‑generated experiences, creating a more consistent and intuitive interface.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

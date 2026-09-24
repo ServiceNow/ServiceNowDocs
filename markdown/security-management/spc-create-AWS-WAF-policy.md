@@ -3,9 +3,9 @@ title: Create a policy for the AWS WAF integration for mitigation controls monit
 description: Create a policy so you can audit your assets based on data imported from the integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-create-AWS-WAF-policy.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploit protection \(WAF\), Use mitigation controls, Security Posture Control, Security Operations]
 ---
@@ -53,13 +53,13 @@ Roles required: SPC Admin Group or SPC Analyst Group
 
 7.  Select **or** to add properties.
 
-    See [Create and activate custom policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-create-policy.md) for more information about using the policy builder to create policies.
+    See [Create and activate custom policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-create-policy.md) for more information about using the policy builder to create policies.
 
 8.  Select **Save changes** when you have completed your policy.
 
 9.  **Activate** the policy if you want to view findings.
 
-10. See [Security Posture Control: Configuring and viewing your findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-view-findings.md) for more information about viewing the findings from your policy.
+10. See [Security Posture Control: Configuring and viewing your findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-view-findings.md) for more information about viewing the findings from your policy.
 
 11. Open a record on the list and select the Mitigation controls Mitigated vulnerable items tabs.
 

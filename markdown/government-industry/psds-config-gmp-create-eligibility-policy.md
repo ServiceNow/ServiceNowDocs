@@ -3,7 +3,7 @@ title: Create an eligibility policy in Grants Management using PaCE
 description: Create an eligibility policy using Grants Management Eligibility Rules Engine​ to model eligibility rules that can be used to evaluate grants cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-create-eligibility-policy.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
@@ -119,7 +119,7 @@ When you create a policy, a draft policy version is created, and must be publish
 -   Save the policy as a template
 -   Compare versions
 -   Duplicate policy versions
-For more details, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-policy-versions.md).**Note:** You must publish a policy version to make it current before it can be used.
+For more details, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-policy-versions.md).**Note:** You must publish a policy version to make it current before it can be used.
 
 </td></tr><tr><td>
 
@@ -243,7 +243,7 @@ Value to enter text. Select the Data picker icon to concatenate multiple text st
 
 ## Result
 
-An eligibility policy is now created, and is ready to be mapped to one of more grant models of the Grants Management. See [Map an PaCE eligibility policy to a grant model using Grants Management Eligibility Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-map-eligibility-policy.md) for information on how to map the published policy to a specific grant.
+An eligibility policy is now created, and is ready to be mapped to one of more grant models of the Grants Management. See [Map an PaCE eligibility policy to a grant model using Grants Management Eligibility Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-map-eligibility-policy.md) for information on how to map the published policy to a specific grant.
 
-**Parent Topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-eligibility.md)
+**Parent Topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-eligibility.md)
 

@@ -3,13 +3,13 @@ title: Software Asset Management software suites
 description: Software Suites is a way for a software publisher to group related applications as a set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-suites.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management software suites
@@ -28,11 +28,11 @@ Suite components are licensed together using a suite license rather than each so
 
 For software subscriptions, only one user subscription suite license is required for each user. For example, the Microsoft 365 suite includes the following components: Office 365, EMS \(Enterprise Mobility plus Security\), and Windows 10. One Microsoft 365 license entitles a user to use one or more of the components.
 
-Software Suites \[cmdb\_m2m\_suite\_model\] table captures the relationship between a suite parent and a suite child.
+The Software Suites \[cmdb\_m2m\_suite\_model\] table captures the relationship between a suite parent and a suite child.
 
 For any software model, you can specify whether the model is a suite \(parent\) or a component \(child\). A software model can be a component in multiple suites. For example, Microsoft Word is a component in two suites: Microsoft Office Standard and Microsoft Office Professional. Although you can set a single software model as both a suite and a component, software isn’t typically sold as nested suites.
 
-Suite information such as **Suite Components** and **Suite Parents** are found as tabs in the Software Model form. Whenever a software model is automatically created as part of a scheduled job, its child components are automatically created and appear in the [Suite Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-model-fields.md) tab in the software model form.
+Suite information such as **Suite Components** and **Suite Parents** can be seen as tabs in the Software Model form. Whenever a software model is automatically created as part of a scheduled job, its child components are automatically created and appear in the [Suite Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-model-fields.md) tab in the software model form.
 
 ## Predefined suites
 
@@ -44,7 +44,7 @@ Allocations are used to apply a license to a device or user. In the context of s
 
 ## Use case for allocations
 
-An organization has both Microsoft 365 E5 \(suite\) entitlements as well as Windows 10 entitlements. User A has Windows 10, Word, Excel, and other components of Office 365 installed on their device. User A is allocated the Windows 10 entitlement. User A’s Windows 10 installation is licensed with the Windows 10 entitlement rather than the Microsoft 365 suite entitlement while the remaining components is licensed as part of the Microsoft 365 suite.
+An organization has both Microsoft 365 E5 \(suite\) entitlements and Windows 10 entitlements. User A has Windows 10, Word, Excel, and other components of Office 365 installed on their device. User A is allocated the Windows 10 entitlement. User A’s Windows 10 installation is licensed with the Windows 10 entitlement rather than the Microsoft 365 suite entitlement while the remaining components are licensed as part of the Microsoft 365 suite.
 
 ## Discovery maps
 
@@ -58,12 +58,12 @@ Software Asset Management supports hybrid and subscription-based software suites
 -   If only the child component of a suite parent is subscription-based, then the instances of that child component aren’t inferred as part of the suite parent. You can determine your license compliance using the child component license.
 -   If both the suite parent and child components are subscription-based, then the instances of the child components are inferred as part of the suite parent. You can determine your license compliance using the suite parent license. For example, Microsoft 365 E5 is a subscription-based software suite that includes the Office 365 E5, EMS E5, and Windows 10 subscription software. Since both the suite parent and child components are subscription-based, they’re reconciled against the Microsoft 365 E5 parent license.
 
--   **[Software suites inference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-suites-inference.md)**  
-Suite inference is used to determine whether the software is part of a suite and to infer the best or efficient suite to use when licensing.
--   **[Managing software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Manage-software-suites.md)**  
+-   **[Software suites inference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-suites-inference.md)**  
+Suite inference identifies whether an installed or subscribed software product is part of a suite and applies the most efficient suite license during reconciliation.
+-   **[Managing software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/Manage-software-suites.md)**  
 Simplify licensing and lower the cost of licenses from vendors. Get visibility into your complex suite licenses, manage compliance, and optimize your spending on these licenses.
--   **[Suite inference rules for Adobe license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/suite-inference-adobe.md)**  
-Based on the system property Use component licenses to optimize compliance when suite licenses run out, the Software Asset Management application uses suite or component licenses.
+-   **[Suite inference rules for Adobe license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/suite-inference-adobe.md)**  
+Based on the system property **com.snc.sam.auto\_suite\_inference**, the Software Asset Management application uses suite or component licenses.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

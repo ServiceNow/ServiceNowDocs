@@ -3,11 +3,11 @@ title: Configure delivery channels in Proactive Prompts
 description: Configure a channel to display the prompts to end users in their workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-config-channels.html
-release: australia
+release: brazil
 product: Proactive Prompts
 classification: proactive-prompts
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Proactive Prompts, Proactive Prompts, HR Service Delivery, Employee Service Management]
 ---
@@ -66,7 +66,7 @@ Portal action group
 
 </td><td>
 
-The action group applicable to the prompts displayed on the portal.Action groups include some frequently used actions for quick access to the end user. For more information, see [Action groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-actions.md).
+The action group applicable to the prompts displayed on the portal.Action groups include some frequently used actions for quick access to the end user. For more information, see [Action groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/proactive-prompts/proactive-prompts-actions.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Virtual agent actions
 
 </td><td>
 
-The Virtual Agent actions \(both NLU and LLM type\) from the Signal action \[sn\_pp\_signal\_action\] table that can be performed by the end user. For more information, see [Configure signal actions for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-actions.md).**Note:** A maximum of three NLU based Virtual Agent actions and three LLM based Virtual Agent actions can only be selected for each channel configuration record.
+The Virtual Agent actions \(both NLU and LLM type\) from the Signal action \[sn\_pp\_signal\_action\] table that can be performed by the end user. For more information, see [Configure signal actions for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-actions.md).**Note:** A maximum of three NLU based Virtual Agent actions and three LLM based Virtual Agent actions can only be selected for each channel configuration record.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

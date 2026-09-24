@@ -3,11 +3,11 @@ title: Restrict hashtag renaming
 description: You can restrict who can rename hashtags.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/r\_RestrictHashtagRenaming.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed security and table access, Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,5 +21,5 @@ You restrict hashtag rename by modifying the following access control rule:
 -   **Table**: Live Tag \[live\_tag\]
 -   **Operation**: write
 
-**Parent Topic:**[Live Feed security and table access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_LiveFeedTableAccessRules.md)
+**Parent Topic:**[Live Feed security and table access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/r_LiveFeedTableAccessRules.md)
 

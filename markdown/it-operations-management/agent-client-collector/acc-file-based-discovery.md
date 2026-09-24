@@ -3,11 +3,11 @@ title: Discover java installation data using Agent Client Collector for Visibili
 description: Discovering java installation data using Agent Client Collector for Visibility Content file-based discovery enables you to discover file information in your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-file-based-discovery.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application patterns for the Agent Client Collector, ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -20,7 +20,6 @@ Discovering java installation data using Agent Client Collector for Visibility C
 
 -   Install the latest version of Agent Client Collector for Visibility Content.
 -   Install file-based discovery.
--   Ensure that a MID Server is installed in your environment.
 -   Enable the Oracle Global License Advisory Services \(GLAS\) hardware data collection policy.
 
 Role required: discovery\_admin
@@ -50,5 +49,5 @@ Role required: discovery\_admin
 
 ## Result
 
-When running Discovery for java installation, data is discovered through file-based discovery and is stored in the `ora_java_audit` table. For details on the data stored in this table, see [Data collected during Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
+When running Discovery for java installation, data is discovered through file-based discovery and is stored in the `ora_java_audit` table. For details on the data stored in this table, see [Data collected during Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
 

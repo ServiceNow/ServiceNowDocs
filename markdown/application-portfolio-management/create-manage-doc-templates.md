@@ -3,9 +3,9 @@ title: Create a document template
 description: Create a document template to define how architectural documents are generated from diagrams and architectural artifacts in Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/create-manage-doc-templates.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with the document templates, Working with the Setup page, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_apm.apm\_user
 
 5.  Select **New**.
 
-    Fill in the details. For field information, see [Document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/document-template-form.md).
+    Fill in the details. For field information, see [Document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/document-template-form.md).
 
 6.  Select **Save**.
 
@@ -39,16 +39,16 @@ Role required: sn\_apm.apm\_user
 
 After creating a document template, you must define the content schema that determines what information is fetched from the diagram and related architectural records.
 
-**Parent Topic:**[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/document-templates-for-ea.md)
+**Parent Topic:**[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/document-templates-for-ea.md)
 
 **Related topics**  
 
 
-[View all document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-document-templates.md)
+[View all document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/view-document-templates.md)
 
-[Export document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/export-document-templates.md)
+[Export document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/export-document-templates.md)
 
-[Generate a document from a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-documents-for-diagrams.md)
+[Generate a document from a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/create-documents-for-diagrams.md)
 
-[View all architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-architectural-documents.md)
+[View all architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/view-architectural-documents.md)
 

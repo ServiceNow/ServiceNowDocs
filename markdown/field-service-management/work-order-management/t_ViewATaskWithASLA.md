@@ -3,11 +3,11 @@ title: View a task with an SLA
 description: View all work order tasks associated with work orders that have SLAs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_ViewATaskWithASLA.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SLAs, Templates, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---

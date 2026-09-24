@@ -3,11 +3,11 @@ title: Processing activity overview page
 description: The processing activity overview page provides the privacy risk and compliance posture for a processing activity. This page contains details, such as compliance score, criticality score, risk posture and heatmap, privacy and risk assessment status, issues and policy exceptions, and control assurance status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/processing-activity-homepage.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reporting, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -67,5 +67,5 @@ The processing activity overview page is organized into six sections.
 |Attestations|Number of attestations that are open, overdue, and due in 7 days.|
 |Indicators|Number of indicators that are open, overdue, and failed in the last 6 months.|
 
-**Parent Topic:**[Reporting for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/reporting-prm.md)
+**Parent Topic:**[Reporting for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/reporting-prm.md)
 

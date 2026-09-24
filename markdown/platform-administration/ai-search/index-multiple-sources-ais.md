@@ -3,11 +3,11 @@ title: Perform a full table index or reindex for multiple AI Search indexed sour
 description: Make content from multiple internal indexed sources searchable by performing a full table index. This procedure indexes existing records from the source tables and any child tables configured for indexing. You can manually reindex content from internal indexed sources by repeating this procedure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/index-multiple-sources-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Indexing content from indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Make content from multiple internal indexed sources searchable by performing a f
 
 ## Before you begin
 
-Your indexed sources must be active and internal \(referring to ServiceNow AI Platform® tables\). To index content from indexed sources for external documents, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-ais.md).
+Your indexed sources must be active and internal \(referring to ServiceNow AI Platform® tables\). To index content from indexed sources for external documents, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/external-content-ais.md).
 
 Role required: ais\_admin
 
@@ -36,7 +36,7 @@ If an indexed source contains unindexed records, the Indexed Sources list displa
 
 2.  Select the indexed sources with content that you want to make searchable.
 
-    To select all indexed sources on the page, follow the instructions for your list version in [Perform actions on selected items in a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-use-list-functions.md).
+    To select all indexed sources on the page, follow the instructions for your list version in [Perform actions on selected items in a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-use-list-functions.md).
 
 3.  In the **Actions on selected rows…** menu, select **Index All Tables**.
 
@@ -55,7 +55,7 @@ AI Search indexes content from existing records in the indexed sources. Indexing
 
 ## What to do next
 
-Define search sources to make searchable content from indexed sources available in user search experiences. For details on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-source-ais.md).
+Define search sources to make searchable content from indexed sources available in user search experiences. For details on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-search-source-ais.md).
 
-**Parent Topic:**[Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexing-content-ais.md)
+**Parent Topic:**[Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/indexing-content-ais.md)
 

@@ -3,9 +3,9 @@ title: Filtering on empty fields
 description: Most filter operations do not return empty fields in their result set. You can create a filter that displays records with an empty field value in addition to records that match the initial filter conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_FilteringOnEmptyFields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Condition builder, Create a condition statement using the condition builder, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -31,7 +31,7 @@ For example, when viewing all records that are assigned to the Hardware group, t
 4.  Run the filter.
 
 
-**Parent Topic:**[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)
+**Parent Topic:**[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md)
 
 **Related topics**  
 

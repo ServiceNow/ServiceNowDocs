@@ -3,11 +3,11 @@ title: Processing an ACH dispute
 description: On the Processing tab of the card disputes playbook, all disputed transactions in an ACH dispute case are displayed on a dashboard. The tab also provides transaction information such as dispute amount, transaction date and time, merchant, transaction state, current activity, and activity SLA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/process-dispute-ach.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Resolving ACH disputes, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -134,38 +134,38 @@ A dispute agent can also decide not to follow a recommendation. In that case, th
 
 The following AI agents can assist with ACH dispute processing:
 
--   Merchant analysis with AI agent: Checks merchant credibility using web search ratings and reviews and past dispute history. See [Evaluate merchant analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-merchant.md).
--   Nacha operating guidelines check AI agent: Verifies that a disputed transaction meets Nacha rules and timelines, including required documentation such as a valid Written Statement of Unauthorized Debit \(WSUD\). See [Evaluate Nacha operating guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.md).
--   ACH dispute return recommendation AI agent: Reviews past disputes with similar transaction values and recommends a final action \(Deny, File return, or Follow up with ODFI\). See [Review ACH dispute return recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-review-recommendation.md).
--   Dispute communication AI agent: Selects an appropriate email template, drafts the customer or ODFI communication, and lets the dispute agent review it before sending. See [Dispute communication initiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-dispute-communication.md).
+-   Merchant analysis with AI agent: Checks merchant credibility using web search ratings and reviews and past dispute history. See [Evaluate merchant analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-merchant.md).
+-   Nacha operating guidelines check AI agent: Verifies that a disputed transaction meets Nacha rules and timelines, including required documentation such as a valid Written Statement of Unauthorized Debit \(WSUD\). See [Evaluate Nacha operating guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.md).
+-   ACH dispute return recommendation AI agent: Reviews past disputes with similar transaction values and recommends a final action \(Deny, File return, or Follow up with ODFI\). See [Review ACH dispute return recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-review-recommendation.md).
+-   Dispute communication AI agent: Selects an appropriate email template, drafts the customer or ODFI communication, and lets the dispute agent review it before sending. See [Dispute communication initiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-dispute-communication.md).
 
 If an AI agent isn't enabled for a task, the dispute agent completes that task manually, as described in the corresponding task topic.
 
--   **[Evaluate merchant analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-merchant.md)**  
-Evaluate a merchant's credibility to determine whether the transaction is legitimate or potentially fraudulent before deciding on a resolution. When the ACH disputes AI agent workflow is enabled, an AI agent can perform this analysis automatically based on merchant reviews and past dispute history.
--   **[Issue provisional credit to customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-provide-credit.md)**  
+-   **[Evaluate merchant analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-merchant.md)**  
+Evaluate a merchant's credibility to determine whether the transaction is legitimate or potentially fraudulent before deciding on a resolution. When the ACH disputes AI agent workflow is enabled, an AI agent can perform this analysis automatically based on merchant reviews found through a web search and the merchant's past dispute history.
+-   **[Issue provisional credit to customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-provide-credit.md)**  
 Provide a temporary provisional credit to the account holder while the ACH dispute is investigated.
--   **[Evaluate Nacha operating guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.md)**  
-Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When enabled, the Nacha operating guidelines check AI agent can verify eligibility automatically based on documents such as a valid Written Statement of Unauthorized Debit \(WSUD\).
--   **[Review ACH dispute return recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-review-recommendation.md)**  
+-   **[Evaluate Nacha operating guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.md)**  
+Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When the Nacha operating guidelines check AI agent is enabled, it can verify eligibility automatically by checking required documentation, such as a valid Written Statement of Unauthorized Debit \(WSUD\), and confirming actions occur within the allowed time frames.
+-   **[Review ACH dispute return recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-review-recommendation.md)**  
 Review the ACH dispute information based on merchant analysis and Nacha eligibility recommendations and determine the final action. When the ACH dispute return recommendation AI agent is enabled, it can analyze past disputes with similar transaction values and recommend an action for you.
--   **[Dispute communication initiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-dispute-communication.md)**  
+-   **[Dispute communication initiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-dispute-communication.md)**  
 Initiate customer communication after the final decision on ACH dispute resolution is completed. When the dispute communication AI agent is enabled, it can automatically select an email template, draft the message, and let you review it before sending.
--   **[Verify customer supporting documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-verify-customer-documents.md)**  
+-   **[Verify customer supporting documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-verify-customer-documents.md)**  
 After following up with the customer to request further documentation about the dispute, verify the supporting documents that you received.
--   **[Verify ODFI supporting documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-verify-odfi.md)**  
+-   **[Verify ODFI supporting documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-verify-odfi.md)**  
 After following up with the Originating Depository Financial Institution \(ODFI\) to request further documentation about the dispute, verify the supporting documents that you received.
--   **[File ACH return](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-file-refund.md)**  
+-   **[File ACH return](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-file-refund.md)**  
 File a return to ODFI for a disputed transaction if it has been determined to be eligible for a refund.
--   **[Settle payment with customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-settle-payment.md)**  
+-   **[Settle payment with customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-settle-payment.md)**  
 Complete the financial adjustment so the customer receives the correct funds after the dispute is resolved.
--   **[Reverse provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-dispute-reverse-provisional.md)**  
+-   **[Reverse provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-dispute-reverse-provisional.md)**  
 Reverse the temporary credit issued by the bank to the account holder.
 
-**Parent Topic:**[Resolving ACH disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/work-dispute-ach.md)
+**Parent Topic:**[Resolving ACH disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/work-dispute-ach.md)
 
 **Related topics**  
 
 
-[Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
+[Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
 

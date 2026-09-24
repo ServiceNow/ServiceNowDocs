@@ -3,11 +3,11 @@ title: Components for ServiceNow Otto integration for break-fix
 description: Technical reference for webhook events, authentication types, platform artifacts, and troubleshooting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/r\_moveworks-integration-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Components installed with plugins, Reference, Retail]
+breadcrumb: [ServiceNow Otto for Break-Fix and Store Audit overview, ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 ---
 
 # Components for ServiceNow Otto integration for break-fix
@@ -42,7 +42,7 @@ Customize your ServiceNow Otto AI Assistant with installable agents from the AI 
 |Webhook call not arriving at the ServiceNow Otto listener|Navigate to **System Logs** &gt; **Outbound HTTP Requests** and filter by URL or time. Confirm the `otto_webhook` connection URL is set correctly|
 |No event dispatched despite a qualifying state change|Verify `contact_type = otto` on the case and that `opened_by` has a non-empty email address|
 |Authentication error in outbound logs|Confirm the credential type is not HMAC. Re-enter credential values in the `otto_webhook` alias and retest|
-|ServiceNow dispatches the event but ServiceNow Otto does not act on it|Verify all four side plugins from ServiceNow Otto are installed in the ServiceNow Otto environment \(see \)|
+|ServiceNow dispatches the event but ServiceNow Otto does not act on it|Verify all four side plugins from ServiceNow Otto are installed in the ServiceNow Otto environment \(see [ServiceNow Otto integration overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/c_moveworks-integration-overview.md)\)|
 
-**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+**Parent Topic:**[ServiceNow Otto for Break-Fix and Store Audit overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/moveworks-breakfix-storeaudit-overview.md)
 

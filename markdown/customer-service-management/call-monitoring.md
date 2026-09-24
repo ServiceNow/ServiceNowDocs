@@ -3,9 +3,9 @@ title: Monitoring calls
 description: Call monitoring is a feature in the Contact Center as a Service \(CCaaS\) solution that enables supervisors and managers to observe, monitor, and analyze customer interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/call-monitoring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Call monitoring is a feature in the Contact Center as a Service \(CCaaS\) soluti
 
 Contact centers integrating with ServiceNow’s native voice call capability via Interaction Controls Component \(ICC\) and OpenFrame have the option to enable the call monitoring feature, embedded in their CRM Workspace.
 
-See [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+See [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspaces-configure.md)
 
 ## Key benefits of call monitoring
 

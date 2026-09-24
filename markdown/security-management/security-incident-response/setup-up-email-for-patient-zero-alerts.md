@@ -3,11 +3,11 @@ title: Set up email alerts for Patient 0 events
 description: Configure Zscaler Internet Access product to identify and scan for unknown, potentially malicious files, such as Patient 0 events so that you can protect your network from malicious files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/setup-up-email-for-patient-zero-alerts.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integration with Zscaler, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

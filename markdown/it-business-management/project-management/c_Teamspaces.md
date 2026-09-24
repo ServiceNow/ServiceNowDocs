@@ -3,11 +3,11 @@ title: Using Teamspaces in Project Management
 description: A teamspace appears as an application in the instance application navigator. The teamspace includes module links that come from the Project Portfolio Management applications, such as the Project, Idea, Demand, Program and Portfolio applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_Teamspaces.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -49,5 +49,5 @@ You can customize the Project and Demand portions of a teamspace without affecti
 **Related topics**  
 
 
-[Activate teamspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ActivateTeamspaces.md)
+[Activate teamspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_ActivateTeamspaces.md)
 

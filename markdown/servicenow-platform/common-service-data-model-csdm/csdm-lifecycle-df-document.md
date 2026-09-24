@@ -3,11 +3,11 @@ title: Definitions of life-cycle values for document and contract entities
 description: The document and contract life-cycle value pairs represent the overall life cycle of document assets \(contracts\) and CIs \(business process documentation\) as related to their products. The life-cycle values for the document and contract life-cycle process are visible only in tables related to document entities in Contracts and CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-document.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document and contract life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,10 +42,10 @@ The document and contract life-cycle value pairs represent the overall life cycl
     -   **Expired**: Date-limited material such as contracts that are past their expiration date.
     -   **Retired**: Materials that are no longer needed by the organization.
 
-**Parent Topic:**[Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
+**Parent Topic:**[Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
 
 **Related topics**  
 
 
-[Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
+[Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
 

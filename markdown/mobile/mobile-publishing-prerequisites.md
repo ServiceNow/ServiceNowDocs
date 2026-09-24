@@ -3,9 +3,9 @@ title: Prerequisites for Mobile Publishing
 description: Before submitting your first branded app request with Mobile Publishing, it's important to set up some prerequisite tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-publishing-prerequisites.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -19,7 +19,7 @@ Before submitting your first branded app request with Mobile Publishing, it's im
 Regardless of the distribution method or app provider that you choose, your ServiceNow instance requires the following configurations to use Mobile Publishing:
 
 -   A cloud-connected production instance is required to request a Mobile Publishing build. Once you have the Mobile Publishing build, you can use the mobile app on any single instance.
--   The Mobile Publishing plugin \(com.glide.sn-mobile-whitelab\) must be installed on your production instance. The Mobile Publishing plugin is a paid plugin that can be installed from the ServiceNow® Store, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md)
+-   The Mobile Publishing plugin \(com.glide.sn-mobile-whitelab\) must be installed on your production instance. The Mobile Publishing plugin is a paid plugin that can be installed from the ServiceNow® Store, see Install a ServiceNow Store application
 -   Instances must be able to download the following file types: zip, apk, p12, aab, xcarchive, svg, and png.
 
     To add file types that can be downloaded by your instance:
@@ -79,5 +79,5 @@ Make sure that you have the following third-party applications to request, test,
     \* These items are not required to request the branded app for public distribution, but they are required to complete the process.
 
 
-**Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-publishing.md)
+**Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-publishing.md)
 

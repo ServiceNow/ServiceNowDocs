@@ -3,9 +3,9 @@ title: Invoice case pages
 description: The Case Management for Invoice Operations application includes record pages that display invoice cases and invoice case lines in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-invoice-operations-case-pages.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case Management for Invoice Operations, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Customer service agents use this page to do the following:
 -   Edit the details of invoice case lines.
 -   Assign invoice case lines to themselves.
 
-The Case Management for Invoice Operations application uses the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-default-record-page.md) to display Invoice case records in CRM Workspace.
+The Case Management for Invoice Operations application uses the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-default-record-page.md) to display Invoice case records in CRM Workspace.
 
 ## Invoice case line record page
 

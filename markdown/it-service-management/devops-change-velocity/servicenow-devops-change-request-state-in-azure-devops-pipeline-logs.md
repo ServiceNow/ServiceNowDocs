@@ -3,11 +3,11 @@ title: ServiceNow DevOps change request state in Azure DevOps pipeline logs
 description: View the change request state and the corresponding policy conditions in the Azure DevOps pipeline console logs whenever the state of a change request is updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/servicenow-devops-change-request-state-in-azure-devops-pipeline-logs.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -82,5 +82,5 @@ If a change request does not get created due to any issue, then the reason for t
 
 **Note:** For Azure DevOps, if change receipt is enabled, the very first log may not be displayed onto the console. That is, when the change is created and is in the New state.
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

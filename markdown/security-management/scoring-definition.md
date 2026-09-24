@@ -3,9 +3,9 @@ title: MITRE-ATT&amp;CK Scoring definition
 description: Define your organization's MITRE-ATT&amp;CK scoring system so that you can measure how effectively your organization can detect specific adversary techniques.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/scoring-definition.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define the technique detection coverage, MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -23,5 +23,5 @@ Define your organization's MITRE-ATT&amp;CK scoring system so that you can measu
 |Very Good|4|Effectively detect malicious techniques in real time and cover most aspects of a technique's procedures. The possibility of your adversaries bypassing detection with evasion and obfuscation methods is harder than at the Good level. Your organization can easily identify false positives and filter them out. Your organization uses advanced data science techniques to detect the adversary techniques.|
 |Excellent|5|Effectively detect malicious techniques in real time and cover all aspects of a technique's procedures. Your organization has a good understanding of your environment with the right automation and quality of data. The possibility of your adversaries bypassing detection with evasion and obfuscation methods is not possible at this level. The number of false negatives is low.|
 
-**Parent Topic:**[Define the technique detection coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-technique-coverage.md)
+**Parent Topic:**[Define the technique detection coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/define-technique-coverage.md)
 

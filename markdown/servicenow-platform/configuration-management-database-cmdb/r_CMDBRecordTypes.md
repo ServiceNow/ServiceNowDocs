@@ -3,11 +3,11 @@ title: CMDB record types
 description: The CMDB contains the following major record types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r\_CMDBRecordTypes.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,22 +43,22 @@ A defined relationship between a CI and either another CI, a user, or a group. R
  CMDB relationships can be established using Discovery or using the tables, lists, and forms within the platform. The CMDB form has a specific Related Items toolbar optimized for modifying relationships.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
+</table>**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
 
 **Related topics**  
 
 
-[Dependent CIs management]()
-
 [Related Lists of CI components]()
 
+[Principal Class]()
+
+[Dependent CIs management]()
+
 [Create a CI class]()
+
+[View and edit class definitions and metadata]()
 
 [Reclassify a CI]()
 
 [Delete CIs]()
-
-[View and edit class definitions and metadata]()
-
-[Principal Class]()
 

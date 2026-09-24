@@ -3,11 +3,11 @@ title: Components installed with Task-Outage Relationship
 description: The Task Outage table is installed with activation of the Task-Outage Relationship plugin \(com.snc.task\_outage\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-outage/components-instld-with-task-outage.html
-release: australia
+release: brazil
 product: Task Outage
 classification: task-outage
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Task-Outage Relationship, Task Outage, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Activate Task-Outage Relationship, Task Outage, IT Service Manageme
 
 The Task Outage table is installed with activation of the Task-Outage Relationship plugin \(com.snc.task\_outage\).
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -43,5 +43,5 @@ Task Outage\[task\_outage\]
 A many-to-many table that stores references to the Task \[task\] and Outage \[cmdb\_ci\_outage\] tables.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Task-Outage Relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-outage/activate-task-outage.md)
+</table>**Parent Topic:**[Activate Task-Outage Relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-outage/activate-task-outage.md)
 

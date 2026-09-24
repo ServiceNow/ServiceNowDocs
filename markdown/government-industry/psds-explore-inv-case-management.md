@@ -3,9 +3,9 @@ title: Exploring Investigative Case Management
 description: The Public Sector Investigative Case Management \(ICM\) solutions workspace provides a single location for investigators to organize assets related to an investigation. Investigators and supervisors can use ICM to initiate and manage investigative cases, view the full context of an investigation, and get relevant recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-explore-inv-case-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Playbooks and Solutions, Explore, Public Sector Digital Services \(PSDS\)]
 ---
@@ -44,7 +44,7 @@ Key features of Investigative Case Management include:
     -   Create incident and investigation event records to help capture the timeline for important events that happen during the investigation, and the timeline of the investigation itself.
     -   View audit logs for all firearm record changes and relationship updates.
     -   Associate multiple entities to each other and to the case, as well as manage all entities and their relationships to the case.
-    For more information on Entity Management, see [Using Entity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-explore-icm-entity-management.md).
+    For more information on Entity Management, see [Using Entity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-explore-icm-entity-management.md).
 
 -   **Evidence Management**
 
@@ -58,7 +58,7 @@ Key features of Investigative Case Management include:
     -   Link to external evidence storage solutions via a configurable URL field.
     -   Introduce a digital chain of custody feature that tracks the movement, transfer, and status changes of evidence records with timestamps and responsible personnel for each action.
     -   Enable relationship mapping between pieces of evidence and all relevant case entities \(People, Locations, Vehicles, Events, Property, and Organizations\).
-    For more information on Evidence Management, see [Using Evidence Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-explore-icm-evidence-management.md).
+    For more information on Evidence Management, see [Using Evidence Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-explore-icm-evidence-management.md).
 
 -   **Case summarization and Narrative refinement gen-AI skills**
 
@@ -77,5 +77,5 @@ Key personas of Investigative Case Management include:
 -   a Witness, who wants to be able to report a potential crime to an investigative agency. An investigator can create a case from a witness complaint.
 -   an Attorney, who prepare cases for court and advises on legal compliance and case strategy. An investigator can create a case based on information received from an Attorney's office.
 
-For more information on the personas and roles involved in Investigative Case Management, see [Investigative Case Management Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-icm-personas.md).
+For more information on the personas and roles involved in Investigative Case Management, see [Investigative Case Management Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-icm-personas.md).
 

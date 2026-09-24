@@ -3,9 +3,9 @@ title: Corrective action form
 description: The corrective action form enables the OEM to address the asset issue, either by eliminating or replacing the asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-corrective-action-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
@@ -60,7 +60,7 @@ Recall campaign
 
 </td><td>
 
-Recall campaign details that are fetched from [Recall campaign form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-form.md).
+Recall campaign details that are fetched from [Recall campaign form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-recall-campaign-form.md).
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Remedy type
 </td><td>
 
 Remedy type specifies the corrective action as to what type of correction is being performed.-   If remedy type is repair: only one corrective action charge is required.
--   If the remedy type is replacement: add the affected part. In the [Corrective action charges form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco_corrective_action_charges_form.md), select the **Type** as "Part" and the **Main part**.
+-   If the remedy type is replacement: add the affected part. In the [Corrective action charges form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco_corrective_action_charges_form.md), select the **Type** as "Part" and the **Main part**.
 
 </td></tr><tr><td>
 
@@ -96,5 +96,5 @@ Details
 Brief detail about the corrective actions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/repair-form.md)
 

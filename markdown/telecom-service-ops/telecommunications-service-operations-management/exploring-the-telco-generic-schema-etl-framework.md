@@ -3,11 +3,11 @@ title: Telecom Discovery Builder framework
 description: The Telecom Discovery Builder framework ETL \(Extract, Transform, Load\) is a reusable and schema-aligned component delivered with the Telecommunications Service Operations Management \(TSOM\) Core application. It provides a consistent and extensible method for ingesting telecom inventory data into the ServiceNow configuration management database \(CMDB\) across multiple Service Graph Connectors \(SGCs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/exploring-the-telco-generic-schema-etl-framework.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
@@ -18,7 +18,7 @@ The Telecom Discovery Builder framework ETL \(Extract, Transform, Load\) is a re
 
 The Telecom Discovery Builder framework ETL serves as a baseline data ingestion utility to handle telecom-specific configuration item \(CI\) data. It enables connector development teams to avoid building ETLs from scratch by offering a standardized transform logic that can be duplicated and customized for each connector. It provides a standardized, reusable foundation that promotes consistency across implementations.
 
-After the TSOM Core plugin is activated, the generic ETL is auto-provisioned and becomes available in the Integration Hub ETL Studio. You can reuse and adapt it to connector-specific needs.
+Once the TSOM Core plugin is activated, the generic ETL is auto-provisioned and becomes available in the Integration Hub ETL Studio. It is ready to be reused and adapted to connector-specific needs.
 
 ## Why and when to use the Telecom Discovery Builder framework
 
@@ -26,7 +26,7 @@ Use the Telecom Discovery Builder framework when you want to do the following:
 
 -   Deploy a new Service Graph Connector in a telecom environment and want to avoid building the ETL from scratch.
 -   Maintain schema-aligned consistency across multiple connectors and platform instances.
--   Discovery payloads and CI relationships compliant with TNI \(Telecommunications Network Inventory\). For more information, see [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecom-network-inventory.md).
+-   Discovery payloads and CI relationships compliant with TNI \(Telecommunications Network Inventory\). For more information, see [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecom-network-inventory.md).
 -   Work within an SGC \(Service Graph Connector\) application scope and want to customize ETL behavior without modifying core logic.
 -   Benefit from predefined mappings, validated JSON schema support, and a UI-driven configuration interface.
 
@@ -154,7 +154,7 @@ Benefits of the Telecom Discovery Builder framework ETL include:
 **Related topics**  
 
 
-[Configure the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-the-telco-generic-schema-etl.md)
+[Configure the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-the-telco-generic-schema-etl.md)
 
-[Extend TNI entity support for duplicated ETLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tni-entiry-support-for-duplicated-etls.md)
+[Extend TNI entity support for duplicated ETLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tni-entiry-support-for-duplicated-etls.md)
 

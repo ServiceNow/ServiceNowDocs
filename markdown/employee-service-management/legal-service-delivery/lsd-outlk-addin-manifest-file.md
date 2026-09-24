@@ -3,11 +3,11 @@ title: Download Microsoft Outlook Add-In for Legal Service Delivery manifest fil
 description: As an admin, download Microsoft Outlook Add-In for Legal Service Delivery manifest file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-outlk-addin-manifest-file.html
-release: australia
+release: brazil
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Microsoft Outlook Add-In for Legal Service Delivery, Microsoft Outlook Add-In for Legal Service Delivery, Integration with Third-party applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -50,7 +50,9 @@ Role required: sn\_lg\_outlook.admin
 
 ## What to do next
 
-[Deploy Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-enable-outllook-addin.md).
+[Deploy Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/lsd-enable-outllook-addin.md).
 
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
+
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 

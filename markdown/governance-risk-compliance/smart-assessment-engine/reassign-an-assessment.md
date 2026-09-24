@@ -3,11 +3,11 @@ title: Reassign an assessment
 description: Reassign assessment to redirect them to different users, enabling for flexible task management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/reassign-an-assessment.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -23,6 +23,8 @@ Role required: sn\_smart\_asmt.reassign
 ## About this task
 
 You can reassign an assessment to anyone if you have the assessment reassign \[sn\_smart\_asmt.reassign\] and the template category role that is associated with the assessment template.
+
+An active delegate of the requestor can also reassign the assessment on the requestor's behalf. For more information, see [Delegation in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/delegation-in-sae.md).
 
 ## Procedure
 

@@ -3,11 +3,11 @@ title: Dispute invoice issues using ServiceNow Otto Virtual Agent
 description: Dispute invoice issues such as quantity discrepancies in a guided conversational flow using ServiceNow Otto Virtual Agent from the Business Portal, without needing to contact support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/dispute-invoice-issues-now-assist.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
@@ -103,10 +103,10 @@ If you express dissatisfaction or explicitly request human assistance at any poi
 
 When the dispute is resolved, an email notification is sent to you with a summary and a hyperlink to the case.
 
-**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 
 
-[Resolve invoice disputes using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/resolve-invoice-case-now-assist-agent.md)
+[Resolve invoice disputes using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/resolve-invoice-case-now-assist-agent.md)
 

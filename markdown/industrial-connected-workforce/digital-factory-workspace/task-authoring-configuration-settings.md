@@ -3,11 +3,11 @@ title: Task authoring configuration settings
 description: Some settings configured in the Workspace have their limitations and don't apply to both workspace and mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/task-authoring-configuration-settings.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Publish an IGT standard, Industrial Guided Tasks, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -24,5 +24,5 @@ Some configurations set in the Workspace aren’t reflected on mobile devices. T
 -   For the **Question description** option, the settings apply only to the Digital Factory Workspace. For mobile, use the **Guidance** option instead.
 -   For the **Field to display in drop down selection** option for a question of the type reference, the settings apply only to the Digital Factory Workspace and aren’t available on mobile.
 
-**Parent Topic:**[Publish an Industrial Guided Task standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/publish-industrial-guided-task-standard.md)
+**Parent Topic:**[Publish an Industrial Guided Task standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/publish-industrial-guided-task-standard.md)
 

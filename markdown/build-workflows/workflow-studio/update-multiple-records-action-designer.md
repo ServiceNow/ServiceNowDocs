@@ -3,11 +3,11 @@ title: Update Multiple Records step
 description: Look up and update multiple records as a single step. Using this step removes the need to separately look up a list of records and then process the list with a Script step. Set field values with a template or add and configure them using data pills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/update-multiple-records-action-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -54,7 +54,7 @@ Field Values
 
 Set static or dynamic values of fields in the record. For example, to set the short description to a static value, select **Short description** and set the desired value.
 
- To add dynamic values, see [Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/template-value.md).
+ To add dynamic values, see [Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/template-value.md).
 
  **Important:** The system does not support updating multiple journal fields such as the additional comments or work notes of a task record.
 
@@ -88,7 +88,7 @@ Update System Fields
 
 </td><td>
 
-Select if you want to automatically update [system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_GlobalDefaultFields.md) such as **Updated by**.
+Select if you want to automatically update [system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_GlobalDefaultFields.md) such as **Updated by**.
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Specify whether to continue running the flow when there is an error.
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## Example
@@ -164,5 +164,5 @@ The completion status of the step as a numeric value.-   0 \(success\)
 Choice
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+</table>**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/steps.md)
 

@@ -3,11 +3,11 @@ title: Set metrics
 description: Set the metrics to evaluate the process better and improve the process efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/metrics.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Use, Process Mining, Platform Analytics]
 ---
@@ -52,5 +52,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 6.  Select **Set improvement opportunities**.
 
 
-**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/scope-analysis.md)
 

@@ -3,11 +3,11 @@ title: SNMP trap collector extension
 description: The SNMP trap collector is a MID Server extension that listens for SNMP traps from the devices on your network.For the SNMP trap collector extension to receive traps from network devices, each device must designate the MID Server that runs the SNMP trap collector extension as a recipient of the trap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/c\_SNMPTrapCollectorExtension.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,13 +26,6 @@ The SNMP trap collector is a MID Server extension that listens for SNMP traps fr
 For the SNMP trap collector extension to receive traps from network devices, each device must designate the MID Server that runs the SNMP trap collector extension as a recipient of the trap. See the documentation for the network device to configure your hardware to do this. Generally, the SNMP trap collector extension should run on only one MID Server per VLAN. Multiple MID Server recipients on the same VLAN causes duplicate data in the CMDB. If network devices are separated by VLANs, multiple MID Servers may have trap collectors installed.
 
 To configure multiple SNMP trap collector extensions, configure each in a separate record, with a unique name, and a designated MID Server.
-
-## Supported SNMP versions and authentication
-
-The SNMP trap collector extension accepts traps in SNMPv1, SNMPv2c, and SNMPv3.
-
--   For SNMPv1 and SNMPv2c, traps are accepted regardless of the community string sent by the network device. There is no community string to configure on the MID Server. The conventional value `public` works.
--   For SNMPv3, traps are authenticated by using the User-based Security Model \(USM\). Create one or more SNMPv3 credentials in the Credentials table, and configure the listener with `version = v3` and an Engine ID.
 
 ## Configure the SNMP Trap Collector Extension
 

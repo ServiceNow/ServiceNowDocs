@@ -3,11 +3,11 @@ title: Recall a processed time card
 description: You can recall an incorrect time card in the Approved or Processed state to return it to the submitter. The submitter can then make the necessary changes and resubmit the time card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/recall-approved-time-card.html
-release: australia
+release: brazil
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time cards, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: timecard\_approver or timecard\_admin
 
 ## About this task
 
-The recall option is available only if the **Allow recall** option is selected on the associated [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/create-time-sheet-policy.md).
+The recall option is available only if the **Allow recall** option is selected on the associated [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/time-card-management/create-time-sheet-policy.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ The recall option is available only if the **Allow recall** option is selected o
 -   Creates negative expense lines to zero out the corresponding expense lines created when the time card was approved.
 -   Returns the associated time sheet to its submitter for modifications.
 
-**Parent Topic:**[Time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/c_TimeCards.md)
+**Parent Topic:**[Time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/time-card-management/c_TimeCards.md)
 

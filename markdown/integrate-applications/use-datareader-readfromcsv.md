@@ -3,9 +3,9 @@ title: Use the ReadFromCSV component
 description: Read data from a CSV file by using the ReadFromCSV component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-datareader-readfromcsv.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Reader, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -24,7 +24,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the ReadFromCSV component. For more information about these properties, see [Properties of the Data Reader components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-datareader-prop.md).
+You can configure the properties for the ReadFromCSV component. For more information about these properties, see [Properties of the Data Reader components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/util-datareader-prop.md).
 
 -   **Real-world scenario: Extracting product inventory data**
 
@@ -37,7 +37,7 @@ You can configure the properties for the ReadFromCSV component. For more informa
 
 2.  Drag the ReadFromCSV component to the Design surface.
 
-3.  To configure the input fields, see [Use the ReadFromCSV component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-datareader-readfromcsv.md).
+3.  To configure the input fields, see [Use the ReadFromCSV component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-datareader-readfromcsv.md).
 
 4.  Connect the data and control ports of the ReadFromCSV component to the corresponding ports of the other components as described in the following table.
 
@@ -55,5 +55,5 @@ You can configure the properties for the ReadFromCSV component. For more informa
 6.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Data Reader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/datareader-utility.md)
+**Parent Topic:**[Data Reader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/datareader-utility.md)
 

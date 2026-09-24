@@ -3,11 +3,11 @@ title: Add a suggested relationship
 description: Add a suggested relationship for a class. The list of suggested relationships for a class is available when you create a new relationship for a CI of that class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_AddANewSuggestedRelationship.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,19 +31,19 @@ Role required:
 
     1.  Navigate to **All** &gt; **Configuration** &gt; **CI Class Manager**.
 
-    2.  Select **Hierarchy** to expand the CI Classes list. Then select the class to add a suggested relationship to.
+    2.  Select **Hierarchy** to expand the CI Classes list and then select the class to add a suggested relationship to.
 
-    3.  In the class navigation bar, click **Suggested Relationships**.
+    3.  In the class navigation bar, select **Suggested Relationships**.
 
-    4.  Click **New**.
+    4.  Select **New**.
 
     5.  In the Add Suggested Relationship dialog box, select a **Relationship** and a **Target Class** for the relationship. **This Class** and the **Target Class** become parent or child in the suggested relationship, based on your selection of the **Relationship**.
 
-    6.  Click **Save**.
+    6.  Select **Save**.
 
 2.  Or, navigate to **All** &gt; **Configuration** &gt; **Relationships** &gt; **Suggested Relationships**:
 
-    1.  Click **New**.
+    1.  Select **New**.
 
     2.  Complete the form.
 
@@ -67,7 +67,7 @@ Role required:
 
 You may need to delete a suggested relationship, for example, to limit the choice of available relationships in the CI relationship editor. Removing a suggested relationship does not affect relationships that are created or updated by Discovery.
 
-**Parent Topic:**[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+**Parent Topic:**[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 
 **Related topics**  
 

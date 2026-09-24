@@ -3,9 +3,9 @@ title: Color variable support for icon UI sections
 description: Learn how to use color variables to change theming in your mobile icon UI sections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-ui-section.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Color theme considerations, Configure theming, Next Experience theming, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -27,7 +27,7 @@ Icon UI sections have a **Color** section with two fields to control the foregro
 -   Icon section destination function \[sys\_sg\_navigation\_section\_destination\_button\]
 -   Icon section destination screen \[sys\_sg\_navigation\_section\_destination\_screen\]
 
- For details on creating these actions, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-navig.md).
+ For details on creating these actions, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-ui-section-config-navig.md).
 
  You can define any color variable from the UX Theme Properties \[sys\_ux\_theme\_property\] table. For a list available variables see the color design guide below.
 

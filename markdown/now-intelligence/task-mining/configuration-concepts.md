@@ -3,11 +3,11 @@ title: Categorization concepts in Task Mining
 description: Categorization rules organize and add context to your data by grouping similar workstation activities with user-friendly category names.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/configuration-concepts.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Task Mining, Platform Analytics]
 ---
@@ -35,15 +35,15 @@ The process to categorize activities is as follows:
 
 1.  A Task Mining analyst mines a sample of data of the applications and windows used in your project. Starting with mined data makes categorization easier as you have the exact values used to categorize activities already available in the data.
 
-    For more information, see [Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-project-data.md).
+    For more information, see [Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/mine-project-data.md).
 
 2.  The Task Mining power user creates categorization rules with the condition builder. Each rule has a rank that determines when it applies relative to other rules and how data from apps and windows is shown on dashboards.
 
-    For more information, see [Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/define-default-categorization-rules.md).
+    For more information, see [Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/define-default-categorization-rules.md).
 
 3.  The Task Mining analyst previews the analysis to see how the collected data is visualized and handles requests.
 
-    For more information, see [Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md).
+    For more information, see [Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md).
 
 4.  The Task Mining power user adjusts categorization rules. Applications and application categories are added and modified to provide more detail.
 5.  A Task Mining analyst mines the project data again.
@@ -75,7 +75,7 @@ Organizing your activities with categories and application names adds context to
 **Related topics**  
 
 
-[Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/define-default-categorization-rules.md)
+[Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/define-default-categorization-rules.md)
 
-[Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md)
+[Refine the presentation of your data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/preview-data-based-on-categorization-rules.md)
 

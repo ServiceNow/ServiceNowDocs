@@ -3,9 +3,9 @@ title: Service Catalog installed with Care Team Operations for Facilities
 description: The Care Team Operations for Facilities service catalog is organized into a hierarchy of Facilities-related categories and subcategories that clinicians commonly report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-service-catalog.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Care Team Operations for Facilities, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -22,7 +22,6 @@ This framework is specific to Facilities Management, focusing on the physical en
 |Environmental/Facility Conditions|Requests for repairs, routine maintenance, and inspections to confirm the physical state of buildings and grounds meets standards.|
 |Safety and Security|Requests for installation and maintenance of surveillance systems, access control systems, and emergency response planning.|
 |Utilities and building infrastructure|Requests for maintenance and management of essential services such as electricity, water, HVAC systems, and communication networks.|
-|Structural integrity|Requests for structural inspections, repairs, and maintenance to ensure the building remains safe and sound over time.|
 
 <table id="table_rfc_rzw_zfc"><thead><tr><th>
 

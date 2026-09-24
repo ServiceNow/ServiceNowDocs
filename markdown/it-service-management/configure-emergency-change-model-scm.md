@@ -3,9 +3,9 @@ title: Configure the Emergency change model
 description: Configure the Emergency change model to define who can submit emergency changes, set up stakeholder notifications, configure approvals, and control automatic change task creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-emergency-change-model-scm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Emergency change model, emergency change submitters, change notifications]
 breadcrumb: [Configure change models, Configuring Simplified Change Management, Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
@@ -23,7 +23,7 @@ Role required: sn\_itsm\_chg\_admin.change\_models\_config, sn\_itsm\_chg\_admin
 
 1.  Open the **Emergency** change model in the Configuration Console.
 
-    For navigation steps, see [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-change-models-scm.md).
+    For navigation steps, see [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-change-models-scm.md).
 
 2.  Configure the availability, templates, authorized submitters, risk-based approvals for the states, and control automatic change task creation.
 
@@ -59,7 +59,7 @@ The New state defines who can submit emergency change, who get notified, and tem
 
 1.  In the **Select users or groups** field, add the notification recipients.
 2.  In the **Select the email template** field, select the notification template.
-The templates have pre-filled common fields that follow the change model's workflow and approval requirements. Review the template that use this change model. To add a template, select **New template**. For steps to configure a template, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md).
+The templates have pre-filled common fields that follow the change model's workflow and approval requirements. Review the template that use this change model. To add a template, select **New template**. For steps to configure a template, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ The Emergency change model configuration is saved. Only members of the designate
 
 ## What to do next
 
-To configure additional change models, return to [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-change-models-scm.md).
+To configure additional change models, return to [Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-change-models-scm.md).
 
-**Parent Topic:**[Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-change-models-scm.md)
+**Parent Topic:**[Configure change models for Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-change-models-scm.md)
 

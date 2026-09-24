@@ -1,18 +1,18 @@
 ---
-title: Run certificate discovery via certificate file import
+title: Run Certificate Discovery via certificate file import
 description: In Certificate Inventory and Management, you can discover certificates by importing certificate files into the system using pattern-based Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-cert-inventory-mgmt-import.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Run certificate discovery via certificate file import
+# Run Certificate Discovery via certificate file import
 
 In Certificate Inventory and Management, you can discover certificates by importing certificate files into the system using pattern-based Discovery.
 
@@ -24,7 +24,7 @@ In Certificate Inventory and Management, you can discover certificates by import
 
 ## About this task
 
-The import certificates are discovered using the Import SSL Certificate pattern, relying on the following parameters:
+The import certificates are discovered using the Import SSL Certificate pattern, which relies on the following parameters:
 
 -   Server: The host name or IP address where the certificates are hosted. If importing from the MID Server, specify localhost and leave temp\_certificate\_folder empty.
 -   server\_certificates\_folder: The folder path on the server containing the certificates.
@@ -35,7 +35,7 @@ The import certificates are discovered using the Import SSL Certificate pattern,
 
 1.  Create a Discovery schedule with the following fields.
 
-    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
     1.  Select **Discovery**: **Import Certificates**
 

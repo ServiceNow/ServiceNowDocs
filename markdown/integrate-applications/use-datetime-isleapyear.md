@@ -3,9 +3,9 @@ title: Use the IsLeapYear component
 description: Specify a year to find out whether it's a leap year by using the IsLeapYear component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-datetime-isleapyear.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [DateTime, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the IsLeapYear component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-datetime-prop.md).
+You can configure the properties for the IsLeapYear component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/util-datetime-prop.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ You can configure the properties for the IsLeapYear component. For more informat
 
 4.  Drag the GetPart component to the Design surface.
 
-5.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+5.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 6.  Connect the data and control ports of the IsLeapYear component to the corresponding ports of the other components as described in the following table and image.
 
@@ -50,5 +50,5 @@ You can configure the properties for the IsLeapYear component. For more informat
 
 \[Omitted image "isleapyear-datetime-utlities-rpa.png"\] Alt text: GetPart component extracts a date part from the Now component, and IsLeapYear determines if the year is a leap year.
 
-**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/datetime-utility.md)
+**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/datetime-utility.md)
 

@@ -3,13 +3,13 @@ title: Populating your Microsoft Excel spreadsheet with equipment model data
 description: Create and populate a Microsoft Excel spreadsheet with your existing ISA equipment model data. Positioning your existing data in the correct columns is crucial to the success of your upload.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/populate-excel-spreadsheet-with-isa-equipment-model-data.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Importing equipment model data, Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Importing equipment model data, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Populating your Microsoft Excel spreadsheet with equipment model data
@@ -263,7 +263,7 @@ string
 
 </td><td>
 
-The template used to import data. **Note:** After your import your data, you cannot set the template.
+The template used to import data. **Note:** After your import your data, you can't set the template.
 
 </td><td>
 
@@ -272,7 +272,7 @@ Yes
 </td></tr></tbody>
 </table>## Upgrading from v1 to v2
 
-If you're an ISA SGC user upgrading from v1 to v2, you can import new ISA equipment model entities that have a unique path and update existing ISA equipment model entities that already have a path value with a fix script.
+ISA SGC users upgrading from v1 to v2 can import new ISA equipment model entities with unique paths. Use a fix script to update existing entities.
 
-**Parent Topic:**[Importing equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/importing-isa95-equipment-model-etl.md)
+**Parent Topic:**[Importing equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/importing-isa95-equipment-model-etl.md)
 

@@ -3,9 +3,9 @@ title: Managing order fallout
 description: Order fallout occurs when an order encounters an error in its normal fulfillment flow. Learn how Fallout Management enables you to identify, investigate, and resolve order issues so that orders can be processed to completion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/fallout-management-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -88,11 +88,11 @@ The Fallout Management function includes the following tools:
 
 -   **Order fallout tracking**
 
-    With this tool, you can assign a unique number to each order fallout to track the progress of the fallout, from inception through resolution. By using an Order Fallout dashboard, a designated order fallout manager can view the status of all open fallout records. To learn more, see [Review a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/select-order-fallout-records-review.md).
+    With this tool, you can assign a unique number to each order fallout to track the progress of the fallout, from inception through resolution. By using an Order Fallout dashboard, a designated order fallout manager can view the status of all open fallout records. To learn more, see [Review a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/select-order-fallout-records-review.md).
 
 -   **Fallout resolution**
 
-    With this tool, you can use the ServiceNow AI Platform features such as routing, notifications, and Workflow Studio to process order fulfillment exceptions in an automated manner. To learn more, see [Creating automated fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-automated-manual-fallout-records.md).
+    With this tool, you can use the ServiceNow AI Platform features such as routing, notifications, and Workflow Studio to process order fulfillment exceptions in an automated manner. To learn more, see [Creating automated fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating-automated-manual-fallout-records.md).
 
 
 For example, your customer orders a router, but insufficient inventory quantities are available in your ERP system to reserve the item and fulfill the order.
@@ -104,23 +104,23 @@ After you resolve the issue, you can restore the customer order line item back t
 
 Without a fallout management process, your order fulfillment personnel would have to analyze and resolve these fallout issues manually. These additional tasks would result in a longer fulfillment process and could lead to poor customer and employee experiences.
 
--   **[Creating automated fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-automated-manual-fallout-records.md)**  
+-   **[Creating automated fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating-automated-manual-fallout-records.md)**  
 With Fallout Management, a provider can create automated fallout records for specific order tasks so that your orders can continue processing through to completion.
--   **[Create a manual fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-manual-order-fallout-record.md)**  
+-   **[Create a manual fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-manual-order-fallout-record.md)**  
 Create a fallout record manually for an order task that has a condition or issue that prevents it from being completed.
--   **[Review a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/select-order-fallout-records-review.md)**  
+-   **[Review a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/select-order-fallout-records-review.md)**  
 Review a fallout record to make sure that the detailed information is correct and complete.
--   **[Update a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-update-selected-order-fallout-records.md)**  
+-   **[Update a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/review-update-selected-order-fallout-records.md)**  
 Review the detailed information for a selected fallout record to verify that the information is correct and complete. You can change the fallout type, state, or priority. You can even assign it to a specific person to follow up on.
--   **[Resolve order fallouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/resolve-order-fallouts.md)**  
+-   **[Resolve order fallouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/resolve-order-fallouts.md)**  
 Learn how to close the order fallout tasks in Order Management so that you can progress with order fulfillment.
 
-**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-order-management.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

@@ -3,13 +3,13 @@ title: Make a form change based on responses in Creator Studio
 description: Make a form update based on how users answer a question using dynamic behavior. For example, if a user says they want a T-shirt for an event they're attending, you can make a T-shirt size field required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-dynamic-behavior.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Forms in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # Make a form change based on responses in Creator Studio
@@ -18,13 +18,13 @@ Make a form update based on how users answer a question using dynamic behavior. 
 
 ## Before you begin
 
-You must name the form before you can add [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md) to it.
+You must name the form before you can add [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md) to it.
 
 To add dynamic behavior to a form, you must be given permission to work on the app.
 
 ## About this task
 
-A different way that you can make a form change is to have questions automatically populate based on a user's answer to another question on the form. For more information, see [Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-edit-form.md).
+A different way that you can make a form change is to have questions automatically populate based on a user's answer to another question on the form. For more information, see [Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-edit-form.md).
 
 ## Procedure
 
@@ -58,7 +58,7 @@ A different way that you can make a form change is to have questions automatical
 
         For example, you could select **Is** as the operator for the **Do you want a T-shirt?** field.
 
-        For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+        For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     4.  Enter or select the value for the user's response to the trigger question.
 
@@ -98,5 +98,5 @@ The question appears with a dynamic icon \[Omitted image "crs-dynamic-indicator.
 
 The dynamic behavior appears in a card on the **Behavior** tab of the settings panel. You can select the card at any time to view or edit its details, or select the **Add behavior** button to add another dynamic behavior.
 
-**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
 

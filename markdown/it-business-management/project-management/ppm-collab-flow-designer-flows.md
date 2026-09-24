@@ -1,18 +1,18 @@
 ---
-title: Flows for project synchronization with collaboration tools
+title: Flows designed to synchronize projects with your collaboration tool
 description: Understand the flows designed for the PPM Collaboration application so that you can edit the configurations as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/ppm-collab-flow-designer-flows.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [PPM Collaboration for project teams, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Flows for project synchronization with collaboration tools
+# Flows designed to synchronize projects with your collaboration tool
 
 Understand the flows designed for the PPM Collaboration application so that you can edit the configurations as required.
 
@@ -163,16 +163,16 @@ Risk Flow Teams\[risk\_created\_teams\]
 Posts a message to the project channel or team whenever a Risk with probability **High** or **Absolute** is created or if the probability of an existing risk is updated to **High** or **Absolute**.
 
 </td></tr></tbody>
-</table>All the flows, except the subflows, are inactive by default. Enable the collaboration between PPM and Slack or Microsoft Teams for a specific action by activating these flows. You can view all these flows by navigating to **Flow Designer** &gt; **Designer** and filtering the flows by the PPM collaboration application. For more information, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-activate.md).
+</table>All the flows, except the subflows, are inactive by default. Enable the collaboration between PPM and Slack or Microsoft Teams for a specific action by activating these flows. You can view all these flows by navigating to **Flow Designer** &gt; **Designer** and filtering the flows by the PPM collaboration application. For more information, see Activate a flow.
 
-If you want to update the configuration for any of these flows, you can edit them. For example, if you want to update the time of daily status update from 8:00 AM to 9:00 AM, you can edit the Daily Project Status Slack \[daily\_project\_status\] or Daily Project Status Teams \[daily\_project\_status\_teams\] flow. For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-edit.md).
+If you want to update the configuration for any of these flows, you can edit them. For example, if you want to update the time of daily status update from 8:00 AM to 9:00 AM, you can edit the Daily Project Status Slack \[daily\_project\_status\] or Daily Project Status Teams \[daily\_project\_status\_teams\] flow. For more information, see Edit a flow.
 
-**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md)
 
-[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md)
+[bundle-crworkflow.flows]
 

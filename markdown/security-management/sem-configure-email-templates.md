@@ -3,9 +3,9 @@ title: Configure email templates in Unified Security Exposure Management
 description: Create and manage preconfigured email templates for sending notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-email-templates.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ Create and manage preconfigured email templates for sending notifications.
 
 ## Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-acls-for-admin-rules.md)
 
 ## Procedure
 
@@ -82,7 +82,7 @@ Enter the content of the email template message. You can use the HTML editor too
 
 -   When a template is applied to a notification, the contents of this field are used when you select **HTML and plain text** or **HTML** in the **Content Type** field in the Email Notification form.
 -   You cannot use HTML code to control the appearance of the contents in the `${comments}` variable.
--   If you want to include a link to the record that triggered the notification, see [Enable links to records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EnableLinksToServiceNowRecords.md).
+-   If you want to include a link to the record that triggered the notification, see [Enable links to records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EnableLinksToServiceNowRecords.md).
 
 
 </td></tr><tr><td>
@@ -102,7 +102,7 @@ SMS alternate
 Create a different message to be delivered to an SMS device. Enter a brief message, showing the most important information only. If this message field is blank, the contents of the **Message Text** field are used for the SMS message. **Note:** The message in this field is used when the message is sent to a device configured as SMS.
 
 </td></tr></tbody>
-</table>    For detailed instructions for creating email templates, see [Construct an email message with a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConstructAnEmailMessage.md).
+</table>    For detailed instructions for creating email templates, see [Construct an email message with a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ConstructAnEmailMessage.md).
 
 6.  Select **Save**.
 

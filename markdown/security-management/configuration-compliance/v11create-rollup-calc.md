@@ -3,11 +3,11 @@ title: Edit risk rollup calculators for Configuration Compliance
 description: Edit an existing risk rollup calculator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/v11create-rollup-calc.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration Compliance calculators and calculator rules, Create a Configuration Compliance calculator group, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -51,6 +51,6 @@ Role required: Role required: sn\_vulc.admin
 
     Rollup calculators are scheduled jobs that run hourly to pick up changes. These scheduled jobs also overall risk scores for configuration tests and remediation task. The rolled-up values are displayed in the Risk Score fields.
 
-    For an example of how a risk rollup calculator determines scores, see [Risk rollup calculation example for Configuration Compliance \(prior to v15.0\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/config-compliance-risk-calculator-example.md).
+    For an example of how a risk rollup calculator determines scores, see [Risk rollup calculation example for Configuration Compliance \(prior to v15.0\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/config-compliance-risk-calculator-example.md).
 
 

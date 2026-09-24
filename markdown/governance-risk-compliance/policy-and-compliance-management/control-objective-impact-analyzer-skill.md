@@ -3,11 +3,11 @@ title: Control Objective Impact Analyzer skill
 description: Explore the Control objective impact analyzer skill that evaluates citation updates and determines which associated control objectives require attention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/control-objective-impact-analyzer-skill.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Control Objective Impact Analyzer]
 breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and Compliance Management, Governance, Risk, and Compliance]

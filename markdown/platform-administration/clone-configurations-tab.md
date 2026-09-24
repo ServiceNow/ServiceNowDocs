@@ -3,9 +3,9 @@ title: Configuration
 description: Use the Configuration menu to access all clone-related settings, including exclusions, preservers, cleanup scripts, clone profiles, and clone instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-configurations-tab.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -33,15 +33,15 @@ The Exclusions page lists the tables that aren't copied during an instance clone
 
 To view child tables of a table, you can go to the following link and input their table: **\[instance\].service-now.com/now/nav/ui/classic/params/target/generic\_hierarchy\_erd.do**.
 
-By default, the system excludes tables for logging, auditing, notifications, workflow contexts, and license usage. To configure additional exclusions, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExcludeATableFromCloning.md).
+By default, the system excludes tables for logging, auditing, notifications, workflow contexts, and license usage. To configure additional exclusions, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ExcludeATableFromCloning.md).
 
-For information on guidelines when adding exclusions see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-exclusions-guidelines.md).
+For information on guidelines when adding exclusions see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-exclusions-guidelines.md).
 
 ## Preservers
 
 The Preservers page displays a list of available data preservers, which are defined on the source instance. Preservers protect data on the target instance from being overwritten.
 
-Preservers work differently compared to exclusions. When preserving a table, the clone automation doesn't automatically preserve the child tables. Therefore, the child tables must be individually added to the preserver list. To create a preserver see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md).
+Preservers work differently compared to exclusions. When preserving a table, the clone automation doesn't automatically preserve the child tables. Therefore, the child tables must be individually added to the preserver list. To create a preserver see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-new-clone-preserver.md).
 
 **Note:** Starting with RaptorDB, when you preserve a table, the clone automatically preserves the hierarchy and descendant tables. If you previously added child tables to preservers, they process normally. This automatic preservation applies only to RaptorDB instances.
 
@@ -55,7 +55,7 @@ All cleanup scripts run in the global scope irrespective of the scope in which y
 
 |Script|Description|
 |------|-----------|
-|Bad MID Server credentials after clone|Runs a script include called BadMIDCredentialAfterClone on a cloned instance to detect [bad MID Server user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-post-clone-issue-resolution.md). This script include creates scheduled jobs that log MID Servers in the **Down** state to the MID Server Issue \[ecc\_agent\_issue\] table after an instance clone.|
+|Bad MID Server credentials after clone|Runs a script include called BadMIDCredentialAfterClone on a cloned instance to detect [bad MID Server user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-post-clone-issue-resolution.md). This script include creates scheduled jobs that log MID Servers in the **Down** state to the MID Server Issue \[ecc\_agent\_issue\] table after an instance clone.|
 |Clear scheduled job node association|Resets any scheduled jobs that were active on the source instance to the **Ready** state. This script also clears the value of the **System ID** and **Claimed by** fields on all scheduled jobs.|
 |Configure Email Accounts|Migrates email accounts that existed on the source instance to the target instance if they aren't enabled there. This script also migrates the email properties to the target instance.|
 |Disable emails|Disables email on the target instance. A default data preserver maintains other email settings from the target instance.|
@@ -64,11 +64,11 @@ All cleanup scripts run in the global scope irrespective of the scope in which y
 
 **Note:** Verify that any custom scripts have error-handling logic. By default, if one script encounters an error, the rest of the ordered scripts don't execute. Starting with the Australia Patch 5 release, you can view a link to cleanup script status. Any changes to cleanup scripts, which are defined on the source, must happen before the Restore phase of a clone to be processed within that clone request.
 
-To create a cleanup script see .
+To create a cleanup script see [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-cleanup-script-latest.md).
 
 ## Clone Profiles
 
-Clone Profiles display all available profiles. Clone profiles are reusable templates for clone settings and can be saved and reused to achieve consistent outcomes with each of your clones. To learn more about Clone Profiles, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-clone-profile.md).
+Clone Profiles display all available profiles. Clone profiles are reusable templates for clone settings and can be saved and reused to achieve consistent outcomes with each of your clones. To learn more about Clone Profiles, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-clone-profile.md).
 
 The profile System Profile is available by default and can't be modified. Custom profiles use the default Exclusions, Preservers, and Scripts from the System Profile. When creating a custom profile, all existing custom exclusions and preservers are automatically added.
 

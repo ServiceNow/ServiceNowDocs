@@ -3,11 +3,11 @@ title: MFA types
 description: FAQ related to MFA types and why it’s important.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/faq-mfa-types.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -36,7 +36,7 @@ FAQ related to MFA types and why it’s important.
 
     \[Omitted image "new-mfa.png"\] Alt text: MFA screen
 
-    Refer the [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-landing.md) documentation for more information about MFA setup.
+    Refer the [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-landing.md) documentation for more information about MFA setup.
 
 4.  Can the SMS and Email OTP-based MFA limited to certain users?
 
@@ -48,6 +48,6 @@ FAQ related to MFA types and why it’s important.
 
 6.  As an end user how to set up MFA?
 
-    Refer the [Using Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-use.md) documentation for more information about MFA setup.
+    Refer the [Using Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-use.md) documentation for more information about MFA setup.
 
 

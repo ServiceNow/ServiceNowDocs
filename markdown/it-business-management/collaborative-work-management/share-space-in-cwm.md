@@ -3,11 +3,11 @@ title: Share a Space in CWM and manage sharing permissions
 description: Invite cross-team members to Collaborative Work Management Spaces to collaborate on tasks or projects. You can also manage permissions for users with existing access to your Space.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/share-space-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Collaborate with Spaces, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Invite cross-team members to Collaborative Work Management Spaces to collaborate
 
 ## Before you begin
 
-[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
+[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -26,7 +26,7 @@ Role required: sn\_cwm.cwm\_user
 
 Sharing a Space with a user results in them gaining access to all Boards, Docs, and folders within that Space. Use the Share permissions modal from the Space or Board header to manage sharing permissions and access levels to your Space for your team.
 
-**Note:** You can share a Space only with users within your organization. For more information about the two kinds of Spaces and organization-wide sharing, see [Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-spaces.md).
+**Note:** You can share a Space only with users within your organization. For more information about the two kinds of Spaces and organization-wide sharing, see [Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-spaces.md).
 
 ## Procedure
 
@@ -106,7 +106,7 @@ An email invite is sent to the users that you shared this Space with.
 
 ## What to do next
 
-Start working on tasks for your team using Boards. See [Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md).
+Start working on tasks for your team using Boards. See [Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-boards.md).
 
-**Parent Topic:**[Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-spaces.md)
+**Parent Topic:**[Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-spaces.md)
 

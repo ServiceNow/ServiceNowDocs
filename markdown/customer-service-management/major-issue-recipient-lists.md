@@ -1,30 +1,30 @@
 ---
 title: Recipients lists
-description: Use recipients lists that contain account or consumer information to create the child cases for a major case.
+description: Use recipients lists that contain account, consumer, or business organizations information to create the child cases for a major case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/major-issue-recipient-lists.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Major issue management overview, Manage cases, Use, Customer Service Management]
 ---
 
 # Recipients lists
 
-Use recipients lists that contain account or consumer information to create the child cases for a major case.
+Use recipients lists that contain account, consumer, or business organizations information to create the child cases for a major case.
 
-Major issue managers and customer service managers can select the desired list in the **Affected Customers** field on the Major Case form. Selecting **Create Child Cases** then creates a child case for each account or consumer in the recipients list.
+Major issue managers and customer service managers can select the desired list in the **Affected Customers** field on the Major Case form. Selecting **Create Child Cases** then creates a child case for each account, consumer,or business organizations in the recipients list.
 
 Managers can change the recipients list before child cases are created. After child cases are created, the **Affected Customers** field becomes read only.
 
 ## Creating recipients lists
 
-Recipients lists are created using the [Targeted Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_TargetedCommunications.md) application. With this application, managers can select the type of list to create and the method used to create the list: by uploading files, selecting dynamic conditions, or using scripts.
+Recipients lists are created using the [Targeted Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_TargetedCommunications.md) application. With this application, managers can select the type of list to create and the method used to create the list: by uploading files, selecting dynamic conditions, or using scripts.
 
-The Targeted Communications application creates several types of recipients lists, including accounts, contacts, consumers, and internal users. The recipients list for a major case must be of type accounts or consumers. Recipients lists are limited to one specific type and can’t contain mixed types, for example accounts and consumers.
+The Targeted Communications application creates several types of recipients lists, including accounts, contacts, consumers, business organizations and internal users. The recipients list for a major case must be of type accounts or consumers. Recipients lists are limited to one specific type and can’t contain mixed types, for example accounts and consumers.
 
-**Note:** The Major Issue Management plugin is dependent on the Targeted Communications plugin. If Targeted Communications is active, recipients lists can be created for internal users. If Targeted Communications and Customer Service Management are both active, recipients lists can also be created for accounts, contacts, and consumers.
+**Note:** The Major Issue Management plugin is dependent on the Targeted Communications plugin. If Targeted Communications is active, recipients lists can be created for internal users. If Targeted Communications and Customer Service Management are both active, recipients lists can also be created for accounts, contacts, consumers and business organizations.
 
 ## Manually editing a recipients list
 
@@ -50,5 +50,5 @@ Refresh a recipients list by selecting **Refresh Recipient List** on the Recipie
 **Related topics**  
 
 
-[Create a recipients list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_TargetCommCreateRecipientList.md)
+[Create a recipients list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_TargetCommCreateRecipientList.md)
 

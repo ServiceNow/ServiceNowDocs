@@ -3,11 +3,11 @@ title: System properties for reports
 description: The system properties for Security Incident Response reports are explained below.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/system-properties-report-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure report templates in Security Incident Response, Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -27,5 +27,5 @@ The system properties for Security Incident Response reports are explained below
 |sn\_si.sn\_si\_incident.defang\_record\_list\_urls|Control whether the URLs from list are defanged or not.|False|
 |sn\_si.sn\_si\_incident.reporting\_dot\_walk\_tables|List of tables available for dot-walking in reports.|\(JSON object\)|
 
-**Parent Topic:**[Configure report templates in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/daily-status-sir.md)
+**Parent Topic:**[Configure report templates in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/daily-status-sir.md)
 

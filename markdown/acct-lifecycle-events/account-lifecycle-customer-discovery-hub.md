@@ -3,9 +3,9 @@ title: Customer Discovery Hub
 description: Use the Customer Discovery Hub to capture customer business context during pre-sales and carry that context forward to customer success teams at the post-sale handoff.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-customer-discovery-hub.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Customer success, Explore, Customer Success Management]
 ---
@@ -35,7 +35,7 @@ Customer Discovery Hub is used by pre-sales personas \(account executives, solut
 
 **Note:** Customer Discovery Hub does not include automated flows. The tables and forms are available for manual data entry and are accessible as related list items from the engagement record.
 
-To view the Customer Discovery Hub tables, navigate to **All** &gt; **CSM/FSM Configurable Workspace**, open an engagement, and select the **Related Items** related list.
+To view the Customer Discovery Hub tables, navigate to **All** &gt; **CRM Workspace**, open an engagement, and select the **Related Items** related list.
 
 \[Omitted image "cust-discovery-hub.png"\] Alt text: Customer discovery hub related items
 
@@ -49,12 +49,12 @@ Customer Discovery Hub requires the Product Capability Core plugin. Customer use
 
 When you create a customer use case, you specify an alignment value: default, extended, or custom. For default and extended alignments, link at least one supported use case from the product catalog to the customer use case.
 
-For more information, see [Product use case catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-product-use-case.md).
+For more information, see [Product use case catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-product-use-case.md).
 
 **Related topics**  
 
 
-[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
+[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)
 
-[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

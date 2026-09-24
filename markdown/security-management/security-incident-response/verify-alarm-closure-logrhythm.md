@@ -3,11 +3,11 @@ title: Additional options for LogRhythm alarms
 description: The LogRhythm Enterprise integration provides you the ability to automatically update or close the LogRhythm alarms based on the security incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-alarm-closure-logrhythm.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create an alarm profile, LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,15 +32,15 @@ The LogRhythm alarm ID is connected to the ServiceNow AI Platform security incid
 
 2.  To use the automated alarm update for SIR Incident creation, choose from the following options to configure your alarm retrieval.
 
-<table id="choicetable_lvr_kdr_f2b"><thead><tr><th align="left" id="d384637e99">
+<table id="choicetable_lvr_kdr_f2b"><thead><tr><th align="left" id="d384448e99">
 
 Option
 
-</th><th align="left" id="d384637e102">
+</th><th align="left" id="d384448e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d384637e108">
+</th></tr></thead><tbody><tr><td id="d384448e108">
 
 **Update LogRhythm alarms upon SIR Incident Creation**
 
@@ -48,7 +48,7 @@ Description
 
 Default is cleared. Select this option to automatically update the LogRhythm alarms when the SIR Incident is created.
 
-</td></tr><tr><td id="d384637e120">
+</td></tr><tr><td id="d384448e120">
 
 **Initial comments posted back to LogRhythm alarm**
 
@@ -63,15 +63,15 @@ Indicates the initial comments that are posted for the LogRhythm alarm.
 </td></tr></tbody>
 </table>3.  To use the automated alarm update for SIR Incident closure, choose from the following options to configure your alarm retrieval.
 
-<table id="choicetable_xkc_b44_3tb"><thead><tr><th align="left" id="d384637e153">
+<table id="choicetable_xkc_b44_3tb"><thead><tr><th align="left" id="d384448e153">
 
 Option
 
-</th><th align="left" id="d384637e156">
+</th><th align="left" id="d384448e156">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d384637e162">
+</th></tr></thead><tbody><tr><td id="d384448e162">
 
 **Close LogRhythm alarms upon SIR Incident Closure**
 
@@ -79,7 +79,7 @@ Description
 
 Default is cleared. Select this option to automatically close the LogRhythm alarms when the SIR Incident is closed.
 
-</td></tr><tr><td id="d384637e174">
+</td></tr><tr><td id="d384448e174">
 
 **Closure comments posted back to LogRhythm alarm**
 
@@ -97,5 +97,5 @@ Indicates the closure comments that are posted for the LogRhythm alarm.
 
 If you do not see notes indicating the alarm has closed successfully in the security incident, review the work notes for more information about how to proceed to fix the problem. Also, check your server connection. If you confirm the ServiceNow AI Platform security incident has been closed and the server has not timed out, you may have to manually close the alarm on the LogRhythm Web Console.
 
-**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
+**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

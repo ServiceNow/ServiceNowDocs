@@ -3,9 +3,9 @@ title: Configuring External Key Management Service
 description: Set up External Key Management Service \(EKMS\) to control the encryption of your ServiceNow data using your Amazon Web Service Key Management System \(AWS KMS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ekms-configuring-external-key-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [External Key Management Service, Field Encryption, Encryption]
 ---
@@ -35,33 +35,33 @@ Before configuring EKMS, verify that you have:
 -   Created or identified an AWS KMS key
 -   Identity and Access Management \(IAM\) user credentials with KMS permissions
 -   IAM user configured with at least these permissions: kms:DescribeKey, kms:Encrypt, and kms:Decrypt
--   admin, security\_admin, and sn\_kmf.cryptographic\_manager roles in ServiceNow
+-   Admin, Security Admin, and Crypto Manager roles in ServiceNow
 
--   **[Activate External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-activate-external-key-management.md)**  
+-   **[Activate External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-activate-external-key-management.md)**  
 Install the External Key Management Service \(EKMS\) plugin and configure user permissions to enable external key management functionality.
--   **[Configure an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configure-external-key-definition.md)**  
+-   **[Configure an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-configure-external-key-definition.md)**  
 Configure your external encryption key to use in External Key Management Service \(EKMS\).
--   **[Create a cryptographic module with external key wrapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-create-crypto-module.md)**  
+-   **[Create a cryptographic module with external key wrapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-create-crypto-module.md)**  
 Create a cryptographic module that uses external Amazon Web Services Key Management System \(AWS KMS\) key wrapping to encrypt ServiceNow data.
--   **[Create Encrypted Field Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-create-encrypted-field-config.md)**  
+-   **[Create Encrypted Field Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-create-encrypted-field-config.md)**  
 Configure specific fields to be encrypted using your External Key Management Service \(EKMS\) cryptographic module with external Amazon Web Services Key Management System \(AWS KMS\) key wrapping.
--   **[Set up Module Access Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-set-up-maps.md)**  
+-   **[Set up Module Access Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-set-up-maps.md)**  
 Configure module access policies in External Key Management Service \(EKMS\) to control who can view encrypted data in clear text.
--   **[Test an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-test-external-key-definition.md)**  
+-   **[Test an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-test-external-key-definition.md)**  
 Test your external encryption key to use in External Key Management Service \(EKMS\).
 
-**Parent Topic:**[External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-external-key-management.md)
+**Parent Topic:**[External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-external-key-management.md)
 
 **Related topics**  
 
 
-[External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-external-key-management.md)
+[External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-external-key-management.md)
 
-[Activate External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-activate-external-key-management.md)
+[Activate External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-activate-external-key-management.md)
 
-[Configure an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configure-external-key-definition.md)
+[Configure an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-configure-external-key-definition.md)
 
-[Create a cryptographic module with external key wrapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-create-crypto-module.md)
+[Create a cryptographic module with external key wrapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-create-crypto-module.md)
 
-[Create Encrypted Field Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-create-encrypted-field-config.md)
+[Create Encrypted Field Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ekms-create-encrypted-field-config.md)
 

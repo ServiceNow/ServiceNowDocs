@@ -3,11 +3,11 @@ title: Mapping policies in DevOps Config
 description: Mapping a policy to a deployable enables you to validate updates on it. These policies in DevOps Config are powered by Policy as Code Engine \(PaCE\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-mapping-policies.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -33,8 +33,8 @@ You can view all policies mapped to deployables of an application by selecting t
 
 \[Omitted image "cdm-app-policies-tab.png"\] Alt text: Policies tab on the Application form to view all mappings and manage static mappings.
 
--   **[Map policies to a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-deployable-map-policy-to.md)**  
+-   **[Map policies to a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-deployable-map-policy-to.md)**  
 Map policies to a deployable to define the validation processes that the config data must pass.You can map policies to a deployable using static mapping or dynamic mapping.
 
-**Parent Topic:**[Configuring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/setting-up-devops-config-validation.md)
+**Parent Topic:**[Configuring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/setting-up-devops-config-validation.md)
 

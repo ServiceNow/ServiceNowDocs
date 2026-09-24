@@ -3,7 +3,7 @@ title: Adobe Sign Spoke
 description: Automate the process of sending a legal document to an individual or list of recipients for digital signature using Adobe Sign. For example, automate employee onboarding and offboarding, or sending non-disclosure agreements, legal agreements, and statements of work for digital signature. Use ServiceNow data in document templates and enable users to upload documents for signature as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/adobe-sign-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -520,7 +520,7 @@ Documents
 
 </td><td>
 
-Adobe Sign documents from the synchronized Adobe Sign groups and accounts. To synchronize accounts, see [Synchronize Adobe Sign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-adobe-sign.md). The Get Documents Per Group subflow retrieves a list of documents in each Adobe Sign group. **Note:** Access to the documents is based on the group user roles.
+Adobe Sign documents from the synchronized Adobe Sign groups and accounts. To synchronize accounts, see [Synchronize Adobe Sign with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-adobe-sign.md). The Get Documents Per Group subflow retrieves a list of documents in each Adobe Sign group. **Note:** Access to the documents is based on the group user roles.
 
 </td><td>
 
@@ -612,9 +612,9 @@ The Adobe Sign spoke requires creating a custom app on your Adobe Sign account t
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r-credentials.md).
 
 **Note:** A connection and credential alias is specific to a group in Adobe Sign.
 
-A sample connection and credential alias is provided for demonstration purpose. ServiceNow admin must create an alias for each Adobe Sign group to synchronize that group with the ServiceNow instance. For example, you can have different connection and credential alias records one for each BU in your organization such as HR, Legal, Finance and so on. For information about setting up the spoke, see [Synchronize Adobe Sign group with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-adobe-sign.md).
+A sample connection and credential alias is provided for demonstration purpose. ServiceNow admin must create an alias for each Adobe Sign group to synchronize that group with the ServiceNow instance. For example, you can have different connection and credential alias records one for each BU in your organization such as HR, Legal, Finance and so on. For information about setting up the spoke, see [Synchronize Adobe Sign group with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-adobe-sign.md).
 

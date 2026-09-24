@@ -1,16 +1,16 @@
 ---
-title: Create Manager Workspace Landing Page
+title: Create Manager Workspace landing page
 description: Create a landing page based on your business requirement.You can set a default landing page to surface the information that is most relevant for your business.Set the enhanced Manager Workspace as the default landing page for an improved user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-configurable-csm-landing-page.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
 
-# Create Manager Workspace Landing Page
+# Create Manager Workspace landing page
 
 Create a landing page based on your business requirement.
 
@@ -38,9 +38,9 @@ Using UI Builder, you can:
 
 1.  Navigate to **All** &gt; **Workspace Experience** &gt; **Administration** &gt; **Landing Pages**.
 
-2.  Select the **CSM Landing Page**.
+2.  Click the **CSM Landing Page**.
 
-3.  Select **Clone Page**.
+3.  Click **Clone Page**.
 
     **Note:** The **Clone Page** action is available when the application scope is CSM workspace.
 
@@ -58,25 +58,25 @@ Using UI Builder, you can:
     |Available Child Slots|A predefined style of child slots.|
     |Layout|The layout of the columns on the page.|
 
-5.  Select **Update** to save your landing page.
+5.  Click **Update** to save your landing page.
 
 6.  Configure permissions for users to access the landing page.
 
-    1.  Select the **UX Page Element Permissions** related list.
+    1.  Click the **UX Page Element Permissions** related list.
 
-    2.  Select **New**.
+    2.  Click **New**.
 
     3.  Select the role or group for the landing page to be visible.
 
-    4.  Select **Submit** to save your permissions.
+    4.  Click **Submit** to save your permissions.
 
     Any page element \(including sub elements\) can have a restriction to a given set of roles or groups. If there are no element permissions set on roles or groups, then all users see the element. If there are some element permissions set, then a user needs just one role or group assignment to see the element.
 
 7.  Configure a container:
 
-    1.  Select the **UX Page Elements** related list.
+    1.  Click the **UX Page Elements** related list.
 
-    2.  Select **New Container** or select an existing container.
+    2.  Click **New Container** or select an existing container.
 
     3.  Fill out the form.
 
@@ -95,7 +95,7 @@ Using UI Builder, you can:
 
 8.  Configure a widget:
 
-    1.  Seelct **New Visualization** or select an existing widget.
+    1.  Click **New Visualization** or select an existing widget.
 
     2.  Fill out the form.
 
@@ -202,7 +202,7 @@ Refresh Interval
 
 </td><td>
 
-Determines the number of minutes before a widget refreshes with new data. The interval begins when a user navigates away from a landing page, and ends when the user comes back to the landing page.**Note:** There is no auto-refresh, but a user can Select a refresh button at any time.
+Determines the number of minutes before a widget refreshes with new data. The interval begins when a user navigates away from a landing page, and ends when the user comes back to the landing page.**Note:** There is no auto-refresh, but a user can click a refresh button at any time.
 
 </td></tr><tr><td>
 
@@ -229,12 +229,12 @@ Report Type \[Read Only\]
 The type of report that renders.
 
 </td></tr></tbody>
-</table>9.  Select **Update** or **Submit** to save changes to the page element.
+</table>9.  Click **Update** or **Submit** to save changes to the page element.
 
-10. Select **Update** to save changes to the landing page.
+10. Click **Update** to save changes to the landing page.
 
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-configurable-wfo-cs.md)
 
 ## Set the default landing page
 
@@ -248,7 +248,7 @@ Role required: sn\_mgr\_workspace.admin
 
 1.  Navigate to **All** &gt; **Workspace Experience** &gt; **Administration** &gt; **All Workspaces**.
 
-2.  Select **Manager Workspace**.
+2.  Click **Manager Workspace**.
 
 3.  Drag and drop the PA indicators or containers.
 

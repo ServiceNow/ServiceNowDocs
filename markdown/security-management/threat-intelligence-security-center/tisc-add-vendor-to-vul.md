@@ -3,11 +3,11 @@ title: Create a Vendor
 description: Create a vendor record to track organizations that supply products affected by vulnerabilities. Associate vendors with products or add vendor comments to document their responses and remediation guidance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-add-vendor-to-vul.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Vulnerability Artifacts, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -75,5 +75,5 @@ Role required: sn\_sec\_tisc.analyst
     The **Link** and **New** buttons may not apply to all the record types.
 
 
-**Parent Topic:**[Vulnerability Artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/vulnerability.md)
+**Parent Topic:**[Vulnerability Artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/vulnerability.md)
 

@@ -3,11 +3,11 @@ title: Legal hold notification matter intake form
 description: Use the Legal hold notification intake form to submit the legal hold notification matter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/lg-hold-notif-form.html
-release: australia
+release: brazil
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -109,5 +109,7 @@ Add attachments
 Enables the attachment of documents related to the legal hold.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Hold Notification reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
+</table>**Parent Topic:**[Legal Hold Notification reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
+
+**Parent Topic:**[Legal Hold Notification reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
 

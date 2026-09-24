@@ -3,11 +3,11 @@ title: Import issues from Jira to SPW
 description: Import work items such as epics, features, capabilities, and stories from Jira to Strategic Planning Workspace \(SPW\) to enable end-to-end visibility in SPW.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/import-issues-from-jira-to-spw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Import work items such as epics, features, capabilities, and stories from Jira t
 
 ## Before you begin
 
-[Enable bidirectional sync between SPW and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/enable-bidirectional-sync-spw-jira.md)
+[Enable bidirectional sync between SPW and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/enable-bidirectional-sync-spw-jira.md)
 
 Role required: sn\_jira\_int.user
 
@@ -43,6 +43,6 @@ After the State of the import request changes to Complete. All the work items fr
 
 ## What to do next
 
-1.  [Activate Jira configuration in Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/activate-jira-configuration-in-eap.md).
-2.  [Define Agile structure in EAP for Jira Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/define-agile-structure-eap-teams-spw-jira-integrations.md)
+1.  [Activate Jira configuration in Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/activate-jira-configuration-in-eap.md).
+2.  [Define Agile structure in EAP for Jira Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/define-agile-structure-eap-teams-spw-jira-integrations.md)
 

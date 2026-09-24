@@ -3,11 +3,11 @@ title: Create a change task
 description: You can create change tasks for a change request. A change task is a piece of work related to the change request. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-a-change-task.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: itil, admin, or sn\_change\_write
 
 **Note:**
 
-If the change task form is read-only, confirm that you have a required role and that the change request is in an editable state. Editing is not available in certain states, such as **Closed**. For state-based restrictions, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).
+If the change task form is read-only, confirm that you have a required role and that the change request is in an editable state. Editing is not available in certain states, such as **Closed**. For state-based restrictions, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ChangeStateModel.md).
 
 ## About this task
 
@@ -44,7 +44,7 @@ If the Change task related list is not visible, scroll down the change form or v
 
 4.  To associate an existing change task with the change request, open the change task record and update the **Change** field to the target change request and save the record.
 
-    **Note:** The **New** button creates a change task and doesn't attach an existing change task. To carry tasks to the new change request, [Copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/copy-a-change-request.md)
+    **Note:** The **New** button creates a change task and doesn't attach an existing change task. To carry tasks to the new change request, [Copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/copy-a-change-request.md)
 
 5.  Fill in the fields, as appropriate.
 
@@ -169,7 +169,7 @@ A detailed description of the task.
     The change task is added to the change request. The assigned user receives a notification that a task was assigned to them.
 
 
-**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md)
+**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateAChange.md)
 
 **Related topics**  
 

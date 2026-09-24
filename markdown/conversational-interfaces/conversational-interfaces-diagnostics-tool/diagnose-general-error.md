@@ -3,13 +3,13 @@ title: Diagnose Conversational Interfaces errors
 description: Use the Conversational Interfaces Diagnostic Tool to resolve issues related to conversational interfaces such as error messages and system property issues before reaching out to Now Support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose-general-error.html
-release: australia
+release: brazil
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Conversational Interfaces Diagnostic Tool, Conversational Interfaces Diagnostic Tool, Conversational Interfaces]
+breadcrumb: [Use, Conversational Interfaces Diagnostic Tool, Manage people and work, Conversational Interfaces]
 ---
 
 # Diagnose Conversational Interfaces errors
@@ -19,6 +19,8 @@ Use the Conversational Interfaces Diagnostic Tool to resolve issues related to c
 ## Before you begin
 
 Role required: virtual\_agent\_admin or admin
+
+Starting with the Brazil release, Virtual Agent NLU functionality in the Diagnostic Tool is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -81,5 +83,5 @@ Use this task to resolve errors and find and change system property values.
 9.  Click the link to download support data.
 
 
-**Parent Topic:**[Using the Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/using-ci-diagnostics-tool.md)
+**Parent Topic:**[Using the Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/using-ci-diagnostics-tool.md)
 

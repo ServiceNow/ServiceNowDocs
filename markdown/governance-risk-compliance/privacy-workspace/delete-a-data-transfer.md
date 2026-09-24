@@ -3,11 +3,11 @@ title: Delete a data transfer
 description: Delete a data transfer record from a processing activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/delete-a-data-transfer.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [data transfer]
 breadcrumb: [Manage data transfers, Use, Privacy Management, Governance, Risk, and Compliance]
@@ -42,5 +42,5 @@ Deleting a data transfer record from the processing activity does not delete the
 7.  Select **Remove** in the confirmation dialog box.
 
 
-**Parent Topic:**[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md)
+**Parent Topic:**[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md)
 

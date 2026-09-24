@@ -3,9 +3,9 @@ title: Re-enable state flows
 description: When service management state flows have been disabled, they cannot be re-enabled from the user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_ReEnableStateFlows.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Implications of disabling SM state flows, Service management states, Service Management]
 ---
@@ -31,5 +31,5 @@ State flows can, however, be re-enabled by running a script for each service man
     ```
 
 
-**Parent Topic:**[Implications of disabling SM state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ImpDsblStFl.md)
+**Parent Topic:**[Implications of disabling SM state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/c_ImpDsblStFl.md)
 

@@ -3,9 +3,9 @@ title: Configuration that can be delegated to internal or external customers
 description: Domain separation is designed to give ServiceNow service providers \(SPs\) the ability to configure the services they offer to their customers. It is not designed to enable their customers to administer those services themselves, except in a few areas that this topic details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ds-before-you-begin.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Exploring domain separation, Domain separation for service providers, Access Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Exploring domain separation, Domain separation for service provider
 
 Domain separation is designed to give ServiceNow® service providers \(SPs\) the ability to configure the services they offer to their customers. It is not designed to enable their customers to administer those services themselves, except in a few areas that this topic details.
 
-## overview
+## Overview
 
 It is safe for SP customers, on their own, to manage data contained within their domain that does not affect licensing or other customers. For example, it is safe for a customer to create new reports or manage configuration items, but it’s not safe for them to customize fields, choices, business rules, and other processes where they can impact other customers on the same instance.
 
@@ -35,9 +35,9 @@ Examples:
 
 Examples:
 
--   Catalog Items: To create customer-specific catalog items that can be updated by the customer, two capabilities can be used together: Domain separation for catalog items \([Domain separation and Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-service-catalog-management.md)\) enables the instance owner to create items in the customer’s domain. The instance owner can create a role to allow customers to update safe fields such as price, description, and images. The [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md) \(new in the Quebec release\), gives the SP admin team the ability to create item templates that are safe to distribute to customers to create new items within their domain from within a prescriptive UI experience.
+-   Catalog Items: To create customer-specific catalog items that can be updated by the customer, two capabilities can be used together: Domain separation for catalog items \([Domain separation and Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-service-catalog-management.md)\) enables the instance owner to create items in the customer’s domain. The instance owner can create a role to allow customers to update safe fields such as price, description, and images. The [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/catalog-builder.md) \(new in the Quebec release\), gives the SP admin team the ability to create item templates that are safe to distribute to customers to create new items within their domain from within a prescriptive UI experience.
 -   User/Group Management: It’s safe to create a “customer admin” role that can create and modify user records, but adding and removing roles can affect security and licensing. There is no way in the base system to subdivide roles that are safe for a customer to be able to grant them. The same goes for the creation and modification of groups. While the group itself can be modified, the addition or subtraction of roles should be controlled.
--   [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md): ServiceNow Workflow Studio is the building tool used to create process \(workflow\) for tables. The flow\_designer role gives customers script-free access to build flows. They can read and clone every flow in domains above them in the hierarchy. They can create and modify flows in their domain. This cannot happen in a silo, however. Anyone who can affect process must be added to the global admin team for governance so processes do not cancel out each other or cause other conflicts.
+-   : ServiceNow Workflow Studio is the building tool used to create process \(workflow\) for tables. The flow\_designer role gives customers script-free access to build flows. They can read and clone every flow in domains above them in the hierarchy. They can create and modify flows in their domain. This cannot happen in a silo, however. Anyone who can affect process must be added to the global admin team for governance so processes do not cancel out each other or cause other conflicts.
 
 \[Omitted image "icon-red.png"\] Alt text: Red icon **Do not give access**
 
@@ -56,15 +56,15 @@ Understanding how choice fields work is helpful to understand why only the SP ad
 
 To learn more, see:
 
--   [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-user-administration.md)
--   [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md)
+-   
+-   [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/t_CreateAnACLRule.md)
 -   [Service Provider Learning Path on ServiceNow University](https://snc.do/path)
 -   [Domain separation for service providers](https://snc.do/sp)
 -   [Service Provider Concepts](https://snc.do/spc)
 -   [Application Support for domain separation](https://snc.do/app)
 -   [Domain separation release notes](https://snc.do/rn)
 
-**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
+**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparation.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Install Docker for Headless Browser setup for Microsoft Windows
 description: Step 1 in the Windows setup for the ServiceNow Headless Browser for Automated Test Framework: Install Docker.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/headless-browser-install-docker.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Headless Browser setup for Microsoft Windows, Headless Browser for Automated Test Framework, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -20,7 +20,7 @@ Step 1 in the Windows setup for the ServiceNow® Headless Browser for Automated 
 
 Role required: admin
 
--   See Prerequisites in the [Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md) topic.
+-   See Prerequisites in the [Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md) topic.
 -   **Tip:** To make remembering these easier, set the following environment variables:
 
 -   set PASSWORD=&lt;password&gt;
@@ -54,9 +54,9 @@ Role required: admin
     `Restart-Computer -Force`
 
 
-**Parent Topic:**[Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md)
+**Parent Topic:**[Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md)
 
-**Previous topic:**[Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md)
+**Previous topic:**[Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md)
 
-**Next topic:**[Generate certificates for Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-certificates-windows.md)
+**Next topic:**[Generate certificates for Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/headless-browser-certificates-windows.md)
 

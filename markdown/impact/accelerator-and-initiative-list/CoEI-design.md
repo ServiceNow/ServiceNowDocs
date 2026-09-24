@@ -3,11 +3,11 @@ title: Center of Excellence &amp; Innovation Design
 description: The Center of Excellence and Innovation Design \(CoEI\) Accelerator provides guidance on building your ServiceNow CoEI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/CoEI-design.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---

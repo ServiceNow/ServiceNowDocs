@@ -3,11 +3,11 @@ title: Orchestration databus
 description: The databus allows workflow designers to track the flow of data through an Orchestration workflow and provides access to output data that can be consumed by other custom activities.The Data tab in the Workflow Editor lists all custom activities used in the current workflow that produce data and displays that data for reuse in other custom activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/c\_OrchestrationDatabus.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic Orchestration, Workflow Data Fabric]
 ---
@@ -16,13 +16,13 @@ breadcrumb: [Classic Orchestration, Workflow Data Fabric]
 
 The databus allows workflow designers to track the flow of data through an Orchestration workflow and provides access to output data that can be consumed by other custom activities.
 
-Data is made available in a workflow when you use activities created with the [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md). The activity designer provides the ability to specify well defined inputs and outputs for your activities. When you use those activities on the workflow canvas, the outputs appear in the **Data** tab and are available for use as inputs in subsequent activities.
+Data is made available in a workflow when you use activities created with the [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md). The activity designer provides the ability to specify well defined inputs and outputs for your activities. When you use those activities on the workflow canvas, the outputs appear in the **Data** tab and are available for use as inputs in subsequent activities.
 
 **Note:** Orchestration does not filter the data you are given for reuse in the **Data** tab. You must make sure an activity in the workflow canvas has executed before you consume its output data.
 
 When you drop a custom activity onto the workflow canvas, the system assigns it an index. If you delete an activity from the canvas and add a new one, the indexes are not reused. This ensures that you don’t accidentally start subscribing to data you did not intend to use. If you update an activity in the activity designer, the system automatically updates the activity on the canvas to ensure the data you are subscribing to downstream is not affected.
 
-**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r-orchestration.md)
+**Parent Topic:**[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/r-orchestration.md)
 
 ## Reuse data in the activity designer
 

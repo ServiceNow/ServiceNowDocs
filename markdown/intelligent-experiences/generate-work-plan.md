@@ -3,11 +3,11 @@ title: Platform Generate my work plan agentic workflow
 description: Use the Platform Generate my work plan agentic workflow to create personalized work plans for currently assigned work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generate-work-plan.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
+breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Platform Generate my work plan agentic workflow
@@ -32,9 +32,9 @@ The Generate my work plan agentic workflow creates personalized work plans based
 
 Along with the plan itself, the agentic workflow also provides reasoning behind its decisions for creating the plan.
 
-The agents, tools, and triggers associated with the Generate my work plan agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) by adding triggers and setting the display settings to include the ServiceNow Otto panel. To change this agentic workflow's instructions, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version instead.
+The agents, tools, and triggers associated with the Generate my work plan agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md) by adding triggers and setting the display settings to include the ServiceNow Otto panel. To change this agentic workflow's instructions, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version instead.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
@@ -46,7 +46,7 @@ Now LLM is not a supported LLM provider for the Generate my work plan agentic wo
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_work\_planner.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, add the necessary roles to enable reading of the tables for the records you want to access for potential work plans. For example, add the itil role to the agentic workflow's list of approved roles so that it can access Incident records.
 
@@ -114,7 +114,7 @@ Max tasks
 The maximum number of tasks that can be recommended to a user for their work plan. Default: 30 tasks
 
 </td></tr></tbody>
-</table>The Incident config var set includes the following variables. Configure either the AIS fields or the GAF field for determining how the agentic workflow gathers what work the user has. If you configure GAF, it takes priority when running the agentic workflow. For more information about GAF, see [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md).
+</table>The Incident config var set includes the following variables. Configure either the AIS fields or the GAF field for determining how the agentic workflow gathers what work the user has. If you configure GAF, it takes priority when running the agentic workflow. For more information about GAF, see [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/group-action-framework.md).
 
 Use this config var set as a template to change any values for other tables, such as the Case or HR Case tables.
 
@@ -268,17 +268,17 @@ The first step of the guided setup includes a complete list of included AI agent
 
 ## In-product agentic AI and UI actions
 
-Access agentic workflows in the Core UI and in workspaces in the AI Activity panel. From there, track their progress, provide or review input, and see the results of the work performed. For more information, see [In-product agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/in-product-agentic-ai.md) for more details about the AI Activity panel.
+Access agentic workflows in the Core UI and in workspaces in the AI Activity panel. From there, track their progress, provide or review input, and see the results of the work performed. For more information, see [In-product agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/in-product-agentic-ai.md) for more details about the AI Activity panel.
 
 To enable users to access agentic workflows with UI actions, open the agentic workflow in AI Agent Studio and navigate to the **Select channels and access** step. Select a UI action as a possible way to access the workflow.
 
-If you don't see your UI actions after configuring it in AI Agent Studio, verify that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`. See [Enable the in-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-inproduct-aia.md).
+If you don't see your UI actions after configuring it in AI Agent Studio, verify that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`. See [Enable the in-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enable-inproduct-aia.md).
 
 ## Testing the Generate my work plan agentic workflow
 
-Manually test an agentic workflow execution or access on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the name of the workflow, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
+Manually test an agentic workflow execution or access on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the name of the workflow, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md).
 
-To evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md).
+To evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md).
 
 ## Sample utterance
 
@@ -298,5 +298,5 @@ The following table lists the agents used in the Generate my work plan agentic w
 
 ## Other Platform agentic workflows
 
-For more information on other agentic workflows associated with the Platform workflow, see [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-use-cases.md).
+For more information on other agentic workflows associated with the Platform workflow, see [Platform agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-use-cases.md).
 

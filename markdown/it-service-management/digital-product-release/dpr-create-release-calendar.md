@@ -3,11 +3,11 @@ title: Create a release calendar
 description: Create a release calendar to define release readiness targets within it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-create-release-calendar.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Digital Product Release, IT Service Management]
 ---
@@ -76,9 +76,9 @@ Exclusion schedules
 
 Schedules for blackouts, maintenance, or holidays are lists of dates for planned closures or business holidays.Add your organization's schedules to the release calendar to avoid having release targets scheduled on those dates.
 
-The blackouts and maintenance schedules are shown from the Schedule \[cmn\_schedule\] table. For more information, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineASchedule.md).
+The blackouts and maintenance schedules are shown from the Schedule \[cmn\_schedule\] table. For more information, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DefineASchedule.md).
 
-To include user-defined exclusion schedules under **Others** category, you can configure the system property **sn\_dpr.release\_calendar\_exclusions**. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
+To include user-defined exclusion schedules under **Others** category, you can configure the system property **sn\_dpr.release\_calendar\_exclusions**. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 </td></tr></tbody>
 </table>5.  Save the release calendar.
@@ -94,7 +94,7 @@ The release calendar is saved and displayed in the calendar layout. Events for t
 
 ## What to do next
 
-[Create a release readiness target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-rls-readiness-target.md)
+[Create a release readiness target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-rls-readiness-target.md)
 
 **Note:** Release readiness target and Release target are used interchangeably. Both terms refer to the same concept - release readiness target date.
 
@@ -109,5 +109,5 @@ You can perform the following tasks to manage and visualize your release activit
 **Related topics**  
 
 
-[Digital Product Release - POST /sn\_dpr/digital\_product\_release/release\_calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/digital-product-release-api.md)
+[Digital Product Release - POST /sn\_dpr/digital\_product\_release/release\_calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/digital-product-release-api.md)
 

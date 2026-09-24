@@ -3,11 +3,11 @@ title: Dispute agent workspace
 description: The dispute agent workspace provides a single, streamlined, and consistent workflow for agents. This workspace offers alignment with back‑end process steps and easier decision‑making through each stage of a dispute. The landing page provides an overview of your cases and tasks, which helps to monitor your workload, focus on high-priority items, and track the status of disputes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/workspace-for-agent.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -61,7 +61,7 @@ The **Dispute Workspace** displays a list of all open tasks for the agent, each 
 -   The agent can write work notes for the task, which appears in the activity stream once the task is saved.
 -   After a task is complete, it automatically moves to the **Closed** tab.
 
-**Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+**Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
-**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-disputes.md)
+**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/managing-disputes.md)
 

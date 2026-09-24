@@ -3,11 +3,11 @@ title: Install the Edge Encryption proxy server \(interactive installer\)
 description: Install the Edge Encryption proxy on a Windows or Linux computer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/install-proxy.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Install the Edge Encryption proxy server using the interactive installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  [Download the Edge Encryption proxy server installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_DownloadtheProxy.md).
+1.  [Download the Edge Encryption proxy server installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/t_DownloadtheProxy.md).
 
 2.  Open the Edge Encryption proxy installer.
 
@@ -122,9 +122,9 @@ Time in seconds between pings issued by the proxy to the instance. Pings are iss
     The Edge Encryption proxy server installs. The installation may take a few minutes.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md)
+**Previous topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/proxy-installer.md)
 
-**Next topic:**[Configure CyberArk properties protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/configure-cyberark-prop-protection.md)
+**Next topic:**[Configure CyberArk properties protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/configure-cyberark-prop-protection.md)
 

@@ -3,9 +3,9 @@ title: Add a font face
 description: Add a new style such as bold or italic to your custom font family in Theme Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-font-face.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [theme builder, add font face, font face]
 breadcrumb: [Upload custom font, Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -19,7 +19,7 @@ Add a new style such as bold or italic to your custom font family in Theme Build
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 **Note:** Upload a custom font family before adding individual font faces. This ensures each style is correctly grouped under its font family.
 
@@ -70,7 +70,7 @@ Font faces are applied individually to components, as needed. Theme Builder does
 
 ## Result
 
-Now that you have added a font face, [you can apply it to individual components for more precise styling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-components.md). For information on deleting a font family or font face, see [Delete a custom font from your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/delete-custom-font.md).
+Now that you have added a font face, [you can apply it to individual components for more precise styling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-edit-components.md). For information on deleting a font family or font face, see [Delete a custom font from your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/delete-custom-font.md).
 
-**Parent Topic:**[Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-custom-font.md)
+**Parent Topic:**[Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/upload-custom-font.md)
 

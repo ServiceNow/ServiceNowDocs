@@ -3,11 +3,11 @@ title: Receive an asset
 description: When assets are received and delivered to a stockroom, they’re added to the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_ReceiveAnAsset.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Receive assets, Procurement, Common applications, Asset Management]
 ---
@@ -32,15 +32,15 @@ When you receive assets:
 
 1.  View purchase orders.
 
-<table id="choicetable_jg3_j33_4xb"><thead><tr><th align="left" id="d161763e71">
+<table id="choicetable_jg3_j33_4xb"><thead><tr><th align="left" id="d163199e71">
 
 UI
 
-</th><th align="left" id="d161763e74">
+</th><th align="left" id="d163199e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d161763e80">
+</th></tr></thead><tbody><tr><td id="d163199e80">
 
 **Core UI**
 
@@ -48,7 +48,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders**.
 
-</td></tr><tr><td id="d161763e104">
+</td></tr><tr><td id="d163199e104">
 
 **Hardware Asset Workspace**
 
@@ -58,7 +58,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 2.  Select the **Purchase orders** tab.
 
 
-</td></tr><tr><td id="d161763e137">
+</td></tr><tr><td id="d163199e137">
 
 **Enterprise Asset WorkWorkspace**
 
@@ -68,7 +68,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 2.  Select the **Purchase orders** tab.
 
 
-</td></tr><tr><td id="d161763e170">
+</td></tr><tr><td id="d163199e170">
 
 **OT Asset Workspace**
 
@@ -145,7 +145,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 
         If the assets that you are receiving belong to model categories linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. For example, if identification rules are defined for the Serial number and MAC address, you should provide a value for either of these fields to proceed. The Capture asset tags dialog box will display a message indicating the specific field values you should provide.
 
-        The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
+        The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
 
     8.  From the **Reserved for** list, select the user for whom the item was ordered.
 
@@ -166,7 +166,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
     Different assets are created for each hardware item. If it’s a software asset, one single asset is created for each license if you don't split the rights. For consumables, if an asset exists, it’s updated, or else, new assets are created.
 
 
-**Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_ReceiveAssets.md)
+**Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/c_ReceiveAssets.md)
 
 **Related topics**  
 

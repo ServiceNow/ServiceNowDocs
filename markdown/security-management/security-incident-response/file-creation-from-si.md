@@ -3,11 +3,11 @@ title: Record creation from security incidents
 description: After you have created and saved a security incident, you can create a change request \(CHG\), incident \(INC\), or problem \(PRB\) record from it. You can also create a customer service case from any security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/file-creation-from-si.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

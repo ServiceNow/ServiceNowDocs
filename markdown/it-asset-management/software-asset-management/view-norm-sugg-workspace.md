@@ -3,13 +3,13 @@ title: View normalization suggestions in the Software Asset Workspace
 description: View normalization suggestion records in the Software Asset Workspace that are created for discovery models. You can accept or reject these suggestions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-norm-sugg-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View normalization suggestions in the Software Asset Workspace
@@ -33,12 +33,12 @@ The normalization suggestion records are stored in the Normalization Suggestions
 
 3.  Select a normalization suggestion record to view its details.
 
-    For a detailed description of the normalization suggestion fields, see [Normalization suggestions for discovery models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/normalization-suggestions.md).
+    For a detailed description of the normalization suggestion fields, see [Normalization suggestions for discovery models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/normalization-suggestions.md).
 
 4.  Select **Accept** to update the discovery model with the correct values or click **Reject** to retain the manually normalized values.
 
-    **Note:** Only the sam\_admin role can accept or reject the normalization suggestions. For details on accepting or rejecting suggestions, see [Normalization suggestions for discovery models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/normalization-suggestions.md).
+    **Note:** Only the sam\_admin role can accept or reject the normalization suggestions. For details on accepting or rejecting suggestions, see [Normalization suggestions for discovery models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/normalization-suggestions.md).
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

@@ -3,11 +3,11 @@ title: Create a domain by creating an account for ServiceNow Otto for Customer S
 description: Create a domain by creating an account in the account table in the Customer Service Management \(CSM\) application. By creating an account, you also create a domain. If you have the admin role, you can create multiple domains by creating different accounts as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/create-domain-by-creating-an-account-for-csm.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Domain separation, Configure, ServiceNow Otto for CSM, Customer Service Management]

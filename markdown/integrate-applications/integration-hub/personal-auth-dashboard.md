@@ -3,11 +3,11 @@ title: Using the Personal Authentication dashboard
 description: Use your personal credentials to connect to third-party integrations. View, authenticate, revoke, and renew your personal authentications through a simplified, consolidated interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/personal-auth-dashboard.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage connections, Integration Hub, Workflow Data Fabric]
 ---
@@ -55,7 +55,7 @@ The integrations on the dashboard all come from the Connection &amp; Credential 
 -   If the credential currently has a valid token, it's listed in the My Integrations section of the dashboard.
 -   If the credential doesn't currently have a valid token, it's listed in the Integrations I can use section of the dashboard.
 
-If you're not already using the personal authentication credential type, you can configure one by creating a Connection &amp; Credential Alias that uses an OAuth 2.0 credential with the **Integration Type** of **Personal**. For more details and instructions, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+If you're not already using the personal authentication credential type, you can configure one by creating a Connection &amp; Credential Alias that uses an OAuth 2.0 credential with the **Integration Type** of **Personal**. For more details and instructions, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md).
 
 ## Token revocation URL
 

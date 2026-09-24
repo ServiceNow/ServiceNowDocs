@@ -3,11 +3,11 @@ title: Edit a software discovery model using the legacy Software Asset Managemen
 description: You can edit only the Software model field and Approved check box on the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin Software Discovery Models form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_EditingASoftwareDiscoveryModel.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Software discovery models in the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -37,5 +37,5 @@ None of the software discovery model records are approved when they are created.
     \[Omitted image "SAMNormalization.png"\] Alt text: SAM approval
 
 
-**Parent Topic:**[Software discovery models in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UsingSoftwareDiscoveryModels.md)
+**Parent Topic:**[Software discovery models in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_UsingSoftwareDiscoveryModels.md)
 

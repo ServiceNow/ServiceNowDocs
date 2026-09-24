@@ -3,9 +3,9 @@ title: Deploy changes
 description: Deploy your changes to an instance to preview and publish experiences, pages, and widgets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/deploy-changes-servicenow-ai-experience-lab-for-vs-code.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -78,7 +78,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -95,7 +95,7 @@ ServiceNow instance
 
 </td><td>
 
-[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md)
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-prepare-landing-page.md)
 
 </td></tr></tbody>
 </table>## Procedure
@@ -104,8 +104,12 @@ ServiceNow instance
 
 2.  Select **Deploy**.
 
-    The ServiceNow Lux Lab for VS Code extension attempts to deploy your changes. If successful, a banner appears confirming that the deployment to your target instance was successful.
 
+## Result
+
+The ServiceNow Lux Lab for VS Code extension attempts to deploy your changes. If successful, a notification appears confirming that the deployment to your target instance was successful.
+
+\[Omitted image "servicenow-lux-lab-vs-code-deploy-notification.png"\] Alt text: The ServiceNow Lux Lab for VS Code extension after a successful deploy, showing a notification with Open App and Show Output buttons.
 
 ## What to do next
 

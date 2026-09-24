@@ -3,11 +3,11 @@ title: Add a dependency to a work item in CWM
 description: Link a work item to another in Collaborative Work Management \(CWM\) to show how they relate, whether one is a prerequisite for another or they are generally connected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/add-a-dependency-to-a-work-item-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [dependencies, relationships, prerequisite, dependent, related to, CWM, work items, link]
 breadcrumb: [Task dependencies and relationships, Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -23,7 +23,7 @@ Role required: sn\_cwm.cwm\_user
 
 ## About this task
 
-Relationships are added from the **Relationships** tab on the work item form in the side panel. You can link work items across Boards and Spaces, and a single work item can have multiple relationships. For an overview of the available relationship types, see [Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md).
+Relationships are added from the **Relationships** tab on the work item form in the side panel. You can link work items across Boards and Spaces, and a single work item can have multiple relationships. For an overview of the available relationship types, see [Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md).
 
 ## Procedure
 
@@ -48,14 +48,14 @@ Relationships are added from the **Relationships** tab on the work item form in 
 
 After adding a relationship, a relationships indicator icon appears on the work item's Kanban card. Select the icon to view all relationships for that work item from the board.\[Omitted image "cwm-relationships-kanban.png"\] Alt text: A Kanban card showing the relationships indicator, and the side panel open listing the related work items and their relationship types.
 
-If a relationship doesn't apply to your task anymore, you can remove it. For more information, see [Remove a dependency from a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/remove-a-dependency-from-a-work-item-cwm.md).
+If a relationship doesn't apply to your task anymore, you can remove it. For more information, see [Remove a dependency from a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/remove-a-dependency-from-a-work-item-cwm.md).
 
-**Parent Topic:**[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
+**Parent Topic:**[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
 
 **Related topics**  
 
 
-[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
+[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
 
-[Remove a dependency from a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/remove-a-dependency-from-a-work-item-cwm.md)
+[Remove a dependency from a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/remove-a-dependency-from-a-work-item-cwm.md)
 

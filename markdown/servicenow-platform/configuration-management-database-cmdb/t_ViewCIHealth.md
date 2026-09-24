@@ -3,11 +3,11 @@ title: View CI health
 description: View CMDB Health report for an individual CI, on the CIs form in CMDB Workspace or in Service Graph Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_ViewCIHealth.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ View CMDB Health report for an individual CI, on the CIs form in CMDB Workspaceo
 
 ## Before you begin
 
-Starting with [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) version 7.0, CMDB Health is fully integrated into CMDB Workspace and is required in order to access CMDB Health features, including to view CI health.
+Starting with [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) version 7.0, CMDB Health is fully integrated into CMDB Workspace and is required in order to access CMDB Health features, including to view CI health.
 
 Role required: sn\_cmdb\_user \(CMDB user\)
 
@@ -26,13 +26,13 @@ Role required: sn\_cmdb\_user \(CMDB user\)
 
 CI health scores are based on settings of CMDB Health KPIs and metrics. Aggregations are calculated in real-time from data stored in health-related tables which the CMDB Health Dashboard jobs update on a recurring schedule. The completeness and correctness KPIs are always up to date. However, the compliance KPI depends on audit cycles and on the **CMDB Health Dashboard - Compliance Score Calculation** dashboard job that might not have run yet.
 
-To ensure that the latest updates to these KPIs are reflected, navigate to the respective CMDB Health Dashboard job, and select **Execute Now**. For more information, see [Enable and configure a CMDB Health Dashboard job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md).
+To ensure that the latest updates to these KPIs are reflected, navigate to the respective CMDB Health Dashboard job, and select **Execute Now**. For more information, see [Enable and configure a CMDB Health Dashboard job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md).
 
 ## Procedure
 
 1.  Open the CI form for a CI, in a workspace.
 
-    -   On a CI form outside of CMDB Workspaceand Service Graph Workspace, select **Open in Workspace** to view CI health.
+    -   On a CI form outside of CMDB Workspaceand Service Graph Workspace, select **Open in Workspace**.
 
         Role required: sn\_cmdb\_user \(minimum\)
 
@@ -63,7 +63,7 @@ The widgets in the CI Health tile on the CI form show the aggregated health for 
     -   If no audits \(\[cert\_audit\]\) are defined for the CI \(The CI Health widget checks only desired states and scripted audits\): `Not applicable` notification appears.
     -   If there are audits defined for the CI but the audits did not run: `Not applicable` notification appears.
 
-**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
+**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
 
 **Related topics**  
 
@@ -82,7 +82,7 @@ The widgets in the CI Health tile on the CI form show the aggregated health for 
 
 [CMDB Health reference]()
 
-[Enable and configure a CMDB Health Dashboard job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md)
+[Enable and configure a CMDB Health Dashboard job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md)
 
-[Timeline of CI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistoryTimeline.md)
+[Timeline of CI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_HistoryTimeline.md)
 

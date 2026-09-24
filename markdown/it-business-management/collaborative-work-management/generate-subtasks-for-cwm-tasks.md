@@ -3,11 +3,11 @@ title: Generate child tasks for CWM tasks
 description: Use AI to create child tasks for a large and complex CWM task in the List view. Child tasks are generated from the task's short description and description, reducing manual work breakdown effort.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/generate-subtasks-for-cwm-tasks.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [subtasks, child tasks, ServiceNow Otto, AI generation, CWM, task, hierarchy, generate]
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Use AI to create child tasks for a large and complex CWM task in the List view. 
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Verify that ServiceNow Otto for CWM is active on your instance.
 -   A task must exist in the CWM board.
@@ -57,5 +57,5 @@ If a task has child tasks, the existing child tasks are analyzed and aren't dupl
 
 The generated child tasks are inserted as a hierarchy under the parent task in the List view.
 
-**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
 

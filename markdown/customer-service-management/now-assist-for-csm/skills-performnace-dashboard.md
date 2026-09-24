@@ -3,11 +3,11 @@ title: Skills performance dashboard
 description: The skills performance dashboard helps you monitor how ServiceNow Otto for CSM skills are being used across CSM records and interactions. Use this dashboard to identify high-performing skills, track adoption trends, and spot skills that need attention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/skills-performnace-dashboard.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-02-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -81,7 +81,7 @@ To drill into specific skill performance:
 **Related topics**  
 
 
-[Analyzing generative AI usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-and-monitoring.md)
+[Analyzing Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-analytics-and-monitoring.md)
 
-[AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md)
+[AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md)
 

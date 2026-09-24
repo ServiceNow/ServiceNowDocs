@@ -3,9 +3,9 @@ title: Configure the maximum number of records returned for data items
 description: To set the maximum number of rows retrieved for the table defined in the data item, add the system property glide.sg.data\_item.row\_count.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-data-item-row-count.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -35,5 +35,5 @@ The system property **glide.sg.data\_item.row\_count** sets the maximum number o
     |Value|&lt;maximum-number-of-records-retrieved&gt;|
 
 
-**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/additional-mobile-configuration.md)
 

@@ -3,11 +3,11 @@ title: Transfer order line asset tracking of non-consumables
 description: When transfer order line stages change for non-consumables, it affects asset substates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/r\_TrsferOrderLneAssetTrackNonConsum.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Transfer order line asset tracking, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -25,14 +25,14 @@ When transfer order line stages change for non-consumables, it affects asset sub
 |Received|Asset moves to **In Stock** &gt; **Available** \(in the destination stockroom\).|
 |Delivered|Asset moves to **In Stock** &gt; **Reserved**.|
 
-**Parent Topic:**[Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)
+**Parent Topic:**[Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)
 
 **Related topics**  
 
 
-[Delete a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_DeleteATransferOrder.md)
+[Delete a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_DeleteATransferOrder.md)
 
-[Delete a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_DeleteATransferOrderLine.md)
+[Delete a transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_DeleteATransferOrderLine.md)
 
-[Return items received in a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_ReturnItemsRecInXferOrder.md)
+[Return items received in a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_ReturnItemsRecInXferOrder.md)
 

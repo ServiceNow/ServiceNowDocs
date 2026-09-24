@@ -3,11 +3,11 @@ title: Create configurations for an approval rule in Configuration Compliance
 description: Define the conditions to filter out matching remediation tasks for an approval level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-exception-mgt-approval-config.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure approval rules for Exception Management in Configuration Compliance, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_vulc.admin
 
 In the Approval Configurations module, you can configure multiple levels of approval for different configurations. Define condition-based rules, with each rule containing multiple levels of approval.
 
-**Note:** Use the Approval rules module to configure approval rules for the exception management workflows. For information on configuring approval rules, see [Create approval levels for Exception Management in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-exception-mgt-config-approval-rule.md).
+**Note:** Use the Approval rules module to configure approval rules for the exception management workflows. For information on configuring approval rules, see [Create approval levels for Exception Management in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/cc-exception-mgt-config-approval-rule.md).
 
 ## Procedure
 
@@ -73,7 +73,7 @@ Script that defines the condition for the test results or remediation tasks.**No
 </td></tr></tbody>
 </table>6.  Select **Update**.
 
-    You can define conditions containing multiple levels of approval within a rule. The flow designer automatically inherits the rules created in this module and processes the matching approval workflow. For information on configuring approval levels, see [Create approval levels for Exception Management in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-exception-mgt-config-approval-rule.md).
+    You can define conditions containing multiple levels of approval within a rule. The flow designer automatically inherits the rules created in this module and processes the matching approval workflow. For information on configuring approval levels, see [Create approval levels for Exception Management in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/cc-exception-mgt-config-approval-rule.md).
 
 
 ## Example

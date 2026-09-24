@@ -3,13 +3,13 @@ title: Software entitlement fields
 description: Software Entitlement form and related list field descriptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-entitlement-fields.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software entitlement fields
@@ -18,9 +18,9 @@ Software Entitlement form and related list field descriptions.
 
 ## Software Entitlement form
 
-**Note:** From the Australia release, the Database option column no longer exists in the Software Entitlement \[alm\_license\] and the Override License Cost \[samp\_override\_license\_cost\] tables. If you customized your form view prior to the Australia release to include the database option column, then you get to see the Database option in the software entitlement form.
+**Note:** From the Brazil release, the Database option column no longer exists in the Software Entitlement \[alm\_license\] and the Override License Cost \[samp\_override\_license\_cost\] tables. If you customized your form view prior to the Brazil release to include the database option column, then you get to see the Database option in the software entitlement form.
 
-The list view for software entitlements shows the total number of software entitlement records for your organization based on the value specified in the **SAM Workspace License operations list count limit** system property \(**sn\_sam\_workspace.sam\_license\_operations\_list\_count**\). The default value for the record count is set to **5000000**. However, the SAM administrator can set the value for the count in the system property as required. If there are less than five million records, then the exact count is shown. If there are more than five million records, then the count is shown as 5000000+. For more information on this system property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-properties.md).
+The list view for software entitlements shows the total number of software entitlement records for your organization based on the value specified in the **SAM Workspace License operations list count limit** system property \(**sn\_sam\_workspace.sam\_license\_operations\_list\_count**\). The default value for the record count is set to **5000000**. However, the SAM administrator can set the value for the count in the system property as required. If there are less than five million records, then the exact count is shown. If there are more than five million records, then the count is shown as 5000000+. For more information on this system property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-properties.md).
 
 <table id="table_zql_nkm_11b"><thead><tr><th>
 
@@ -114,11 +114,11 @@ The type determines whether the rights grant full access to the software or if t
 -   Add-on
 -   From SA
 
-**Note:** After you upgrade to the Australia release and a content update is performed, if the content update changes the license type of a specific PPN from Step-up to Subscription Step-up, all entitlements associated with that PPN will be updated to Subscription Step-up entitlements.
+**Note:** After you upgrade to the Brazil release and a content update is performed, if the content update changes the license type of a specific PPN from Step-up to Subscription Step-up, all entitlements associated with that PPN will be updated to Subscription Step-up entitlements.
 
  The default value for SaaS entitlements is **Subscription**.
 
- For more information about the license types and their impact on software reconciliation, see [Impact of different license types on software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/license-types-impact-reconciliation.md).
+ For more information about the license types and their impact on software reconciliation, see [Impact of different license types on software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/license-types-impact-reconciliation.md).
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ License metric
 
 </td><td>
 
-License metric for the license group that the software license is counted against when reconciliation is run. The options for license metric change based on the **Metric group** field.For more information, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
+License metric for the license group that the software license is counted against when reconciliation is run. The options for license metric change based on the **Metric group** field.For more information, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
 
  **Note:**
 
@@ -207,7 +207,7 @@ Number of rights that you’re purchasing.
 
  **Note:** If you have specified a Microsoft Per Core or Microsoft Per Core with CAL license type, this field is automatically populated. This value is based on the value entered in the **Rights per license pack** field multiplied by the value in the **Number of packs** field.
 
-From the Australia release, revenue-based licensing support is enabled for this field for SAP Engine products. This support enables using higher value revenue-based SAP Engine products.
+From the Brazil release, revenue-based licensing support is enabled for this field for SAP Engine products. This support enables using higher value revenue-based SAP Engine products.
 
 </td></tr><tr id="row_gj5_gss_mfb"><td>
 
@@ -231,9 +231,9 @@ Unit cost
 
 </td><td>
 
-Unit cost of the software. **Note:** Required for total cost and savings calculations on the [Software Asset Management dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMDashboard.md)
+Unit cost of the software. **Note:** Required for total cost and savings calculations on the [Software Asset Management dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMDashboard.md)
 
-From the Australia release, revenue-based licensing support is enabled for this field for SAP Engine products. This support enables using higher value revenue-based SAP Engine products.
+From the Brazil release, revenue-based licensing support is enabled for this field for SAP Engine products. This support enables using higher value revenue-based SAP Engine products.
 
 </td></tr><tr><td>
 
@@ -284,7 +284,7 @@ Owned by
 
 </td><td>
 
-Department with financial ownership of the asset. The asset owner can be different than the manager.
+User or department with financial ownership of the asset. The asset owner can be different than the manager.
 
 </td></tr><tr><td>
 
@@ -312,7 +312,7 @@ Active maintenance
 
 </td><td>
 
-Indicates if Subscription, SA, or maintenance is activated on the entitlement. If the entitlement has an active SA, subscription, or maintenance associated with it, the check box is automatically selected. If an entitlement initially had subscription, SA or maintenance activated on it and subscription, SA or maintenance is no longer active, the check box is automatically cleared.If you upgrade from a previous release to the Australia release, this check box is automatically selected for your existing entitlements that have an active SA, subscription, or maintenance associated with them.
+Indicates if Subscription, SA, or maintenance is activated on the entitlement. If the entitlement has an active SA, subscription, or maintenance associated with it, the check box is automatically selected. If an entitlement initially had subscription, SA or maintenance activated on it and subscription, SA or maintenance is no longer active, the check box is automatically cleared.If you upgrade from a previous release to the Brazil release, this check box is automatically selected for your existing entitlements that have an active SA, subscription, or maintenance associated with them.
 
 </td></tr><tr><td>
 
@@ -408,7 +408,7 @@ Cost center financially responsible for the asset.
 </td></tr></tbody>
 </table>## Contracts tab
 
-When [importing software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-entitlement-import-errors.md), use the **Contract number** column on the downloadable template to link the contracts to the entitlements. Since the **Contract number** is a reference field, the system first searches for matches to existing contracts, so enter existing contract numbers. If no matching contract number is found, entitlement import errors are generated.
+When [importing software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/view-entitlement-import-errors.md), use the **Contract number** column on the downloadable template to link the contracts to the entitlements. Since the **Contract number** is a reference field, the system first searches for matches to existing contracts, so enter existing contract numbers. If no matching contract number is found, entitlement import errors are generated.
 
 You should be able to create the contract from the error, enabling for the creation of the entitlement and the appearance of the contract on the entitlement form in the Contracts related list. You can also skip the contract creation process and still create the entitlement, but without a contract.
 
@@ -445,7 +445,7 @@ Assigned to
 
 </td><td>
 
-User that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the users that are accessing your server software, this field displays the name of each user that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to users in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to users in the Software Asset Workspace.
+User that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the users that are accessing your server software, this field displays the name of each user that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to users in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to users in the Software Asset Workspace.
 
 </td></tr><tr><td>
 
@@ -498,7 +498,7 @@ Assigned to
 
 </td><td>
 
-Device that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the devices that are accessing your server software, this field displays the name of each device that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to devices in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to devices in the Software Asset Workspace.
+Device that the associated rights are allocated to.**Note:** If you’re using a client access record to track and manage the devices that are accessing your server software, this field displays the name of each device that you assigned the associated client access licenses \(CALs\) to. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to assign CALs to devices in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for detailed instructions on how to assign CALs to devices in the Software Asset Workspace.
 
 </td></tr><tr><td>
 
@@ -679,7 +679,7 @@ End date of the downgrade.
 |-----|-----------|
 |Software entitlement|The software entitlement that the consumption is linked to.|
 |Consumption rule|The consumption rule linked to the entitlement.|
-|License pool|License pool associated with the consumption rule. For details on license pools, see [Reconciliation of licenses across global entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reconcile-licenses-global-entities.md).|
+|License pool|License pool associated with the consumption rule. For details on license pools, see [Reconciliation of licenses across global entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/reconcile-licenses-global-entities.md).|
 
 ## License Key related tab
 
@@ -703,5 +703,5 @@ The **License Metric Tier** tab lists the tier ranges and factors applied when c
 |Range to|Upper bound of the consumed quantity that the tier applies to.|
 |Tier factor|Value that is applied to the units within the tier to determine the number of licenses required for that tier.|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

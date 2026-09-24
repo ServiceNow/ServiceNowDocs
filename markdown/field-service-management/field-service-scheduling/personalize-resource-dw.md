@@ -3,11 +3,11 @@ title: Personalize your resource view in Dispatcher Workspace
 description: Dispatchers can personalize the resources they see in Dispatcher Workspace by creating an advanced resource filter that applies every time they open Dispatcher Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/personalize-resource-dw.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Filtering, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---

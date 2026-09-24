@@ -3,11 +3,11 @@ title: Integrating a custom search or knowledge article viewer with knowledge bl
 description: If you are using a custom search or knowledge article viewer with your application, you can integrate that custom search or viewer with the appropriate knowledge or knowledge blocks API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/integrating-with-custom-search-or-knowledge-article-viewer.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,10 +18,10 @@ If you are using a custom search or knowledge article viewer with your applicati
 
 **Note:** Integration is only necessary if you are using a custom search or knowledge article viewer.
 
--   **[KBPortalServiceImpl - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/KBPortalServiceImplAPI.md)**  
+-   **[KBPortalServiceImpl - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/KBPortalServiceImplAPI.md)**  
 The `KBPortalServiceImpl` API is included with Knowledge Management V3 \[com.snc.knowledge3\] as a script include. It provides methods to use with knowledge, such as integration with a custom search.
--   **[KBBlock - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/KBBlockAPI.md)**  
+-   **[KBBlock - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/KBBlockAPI.md)**  
 The `KBBlock` API is included with knowledge blocks \[com.snc.knowledge\_blocks\] as a script include. It provides methods to use with the knowledge blocks feature, such as integration with a custom knowledge article viewer.
 
-**Parent Topic:**[Using knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowlege-blocks.md)
+**Parent Topic:**[Using knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/using-knowlege-blocks.md)
 

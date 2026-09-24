@@ -3,11 +3,11 @@ title: Create a program to manage projects and demands
 description: Create a program to manage related projects and demands. Define the duration, estimated cost, benefits, and ROI to the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/program-management/t\_CreateAProgram.html
-release: australia
+release: brazil
 product: Program Management
 classification: program-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Program Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -312,10 +312,10 @@ Use the following related links and lists:
 
 |Field|Description|
 |-----|-----------|
-|PMO Dashboard|Access the [PMO dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/pmo-dashboard.md) to view comprehensive reports of the projects and demands in the program.|
-|Program Budget|Allows you to [allocate the budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/allocate-budget-to-program.md) to the program.|
-|Program Workbench|Access the [Program workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/c_ProgramWorkbench.md) to view details of the projects, demands, and program tasks associated with the program.|
-|Status Report|View the most recent [program status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/view-program-status-report.md) or create a new program status report.|
+|PMO Dashboard|Access the [PMO dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/pmo-dashboard.md) to view comprehensive reports of the projects and demands in the program.|
+|Program Budget|Allows you to [allocate the budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/allocate-budget-to-program.md) to the program.|
+|Program Workbench|Access the [Program workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/c_ProgramWorkbench.md) to view details of the projects, demands, and program tasks associated with the program.|
+|Status Report|View the most recent [program status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/view-program-status-report.md) or create a new program status report.|
 
 <table id="table_umz_qqy_fdc"><thead><tr><th>
 
@@ -331,7 +331,7 @@ Program Tasks
 
 </td><td>
 
-View the list of all associated program tasks. To create a new program task, click the **New** button. For more information, see [Create a program task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_CreateAProgramTask.md).
+View the list of all associated program tasks. To create a new program task, click the **New** button. For more information, see [Create a program task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/t_CreateAProgramTask.md).
 
 </td></tr><tr><td>
 
@@ -339,7 +339,7 @@ Projects
 
 </td><td>
 
-View the list of projects included in the program. To create a new project, click **New**. For more information, see [Define a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md).
+View the list of projects included in the program. To create a new project, click **New**. For more information, see [Define a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md).
 
 To add existing project to the program, click **Edit**.If you want to create parent-child relationships between projects to establish project hierarchies select the parent project in the **Parent** field. This organizes large initiatives into manageable subprojects while maintaining consolidated visibility.
 
@@ -355,7 +355,7 @@ Demands
 
 </td><td>
 
-View the list of demands included in the program. To create a new demand, click **New**. For more information, see [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md).
+View the list of demands included in the program. To create a new demand, click **New**. For more information, see [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CreatingDemands.md).
 
  To add existing demand to the program, click **Edit**.
 
@@ -405,19 +405,19 @@ Program Status Reports
 
 </td><td>
 
-View the list of status reports for the program.To generate a new status report, click **New**. For more information, see [Create a program status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/create-program-status-report.md).
+View the list of status reports for the program.To generate a new status report, click **New**. For more information, see [Create a program status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/create-program-status-report.md).
 
 </td></tr></tbody>
-</table>-   **[Create a program task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_CreateAProgramTask.md)**  
+</table>-   **[Create a program task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/t_CreateAProgramTask.md)**  
 You can create program tasks from the Program form related lists.
--   **[Allocate budget to a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/allocate-budget-to-program.md)**  
+-   **[Allocate budget to a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/allocate-budget-to-program.md)**  
 Set the budget of a program according to the fiscal years.
--   **[Create a program status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/create-program-status-report.md)**  
+-   **[Create a program status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/create-program-status-report.md)**  
 Create a program status report periodically to view a status rollup of the projects in the program. When you create a status report, the status for different aspects of the program is rolled up from the project status reports of all projects.
--   **[View program status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/view-program-status-report.md)**  
+-   **[View program status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/view-program-status-report.md)**  
 Program status reports provide the up-to-date at-a-glance progress of all the projects in the program in several categories.
 
-**Parent Topic:**[Program Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/c_ProgramManagement.md)
+**Parent Topic:**[Program Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/c_ProgramManagement.md)
 
 **Related topics**  
 

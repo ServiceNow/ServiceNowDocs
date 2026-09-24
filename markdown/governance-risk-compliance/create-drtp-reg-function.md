@@ -1,18 +1,18 @@
 ---
 title: Create a function and enhance digital resilience data
-description: Create a function record in Digital resilience third-party registers where you can configure function details. You can then enhance its digital resilience information for compliance with DORA regulation.
+description: Create a function record in Digital resilience third-party registers where you can configure function details such as identifier, license activity, name, and criticality assessment. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-drtp-reg-function.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a function and enhance digital resilience data
 
-Create a function record in Digital resilience third-party registers where you can configure function details. You can then enhance its digital resilience information for compliance with DORA regulation.
+Create a function record in Digital resilience third-party registers where you can configure function details such as identifier, license activity, name, and criticality assessment. You can then enhance its digital resilience information for compliance with DORA regulation.
 
 ## Before you begin
 
@@ -58,7 +58,7 @@ A function can be a service, a service offering, or a process.
     -   Function criticality
     Additionally, if you have the Business Continuity Management application installed, you can see the Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), and the business's criticality. You can also include descriptive notes on the form. Upon completion, you will have documented the details of the third-party ICT service usage.
 
-    For information on setting up the digital resilience information for a legal entity, see [Create a function form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-function-form.md).
+    For information on setting up the digital resilience information for a legal entity, see [Create Function form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-function-form.md).
 
 6.  Select **Save**.
 
@@ -69,8 +69,8 @@ A function can be a service, a service offering, or a process.
 9.  To delete the function record, select it from the list and select **Delete**.
 
 
--   **[Create a function form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-function-form.md)**  
-On the Create a function form, fill in the fields.
+-   **[Create Function form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-function-form.md)**  
+On the Create New Function form, fill in the fields.
 
-**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-dg-registers.md)
 

@@ -3,11 +3,11 @@ title: Using Dynamic Guidance
 description: Learn how to invoke Dynamic Guidance and use it effectively to enhance your experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/using-dynamic-guidance.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Dynamic guidance use]
 breadcrumb: [Dynamic Guidance, Adoption services, Configure user experiences]
@@ -19,7 +19,7 @@ Learn how to invoke Dynamic Guidance and use it effectively to enhance your expe
 
 ## Before you begin
 
-Role required: sn\_dyn\_guidance\_user
+Role required: sn\_dyn\_guidance\_user and genai\_admin
 
 **Note:** Starting with Dynamic Guidance version 28.4.3, the genai\_admin role is automatically included when the sn\_dyn\_guidance\_user role is assigned. The genai\_admin role does not grant administrative privileges.
 

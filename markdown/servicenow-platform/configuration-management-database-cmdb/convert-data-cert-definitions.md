@@ -3,11 +3,11 @@ title: Convert legacy certification schedules into Data Manager certification po
 description: Convert certification schedules created in the legacy Data Certification application \(running on Core UI\), into draft Data Manager certification policies available in CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/convert-data-cert-definitions.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Important things to know:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager overview**
 
 2.  On the Data Manager overview page, select **Import** on the banner at the top of the page.
 
@@ -52,7 +52,7 @@ Important things to know:
 
     3.  Select **View draft policies** to view the converted policies in the Data Manager policies page, under the Draft policies tab.
 
-4.  [Publish a draft CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md)
+4.  [Publish a draft CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md)
 
 
 ## Result

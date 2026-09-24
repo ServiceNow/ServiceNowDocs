@@ -3,11 +3,11 @@ title: Diagnostics Feature form
 description: Use the diagnostics Feature form to create a new diagnostic feature for a resource.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/diag-feature-form.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,8 +24,8 @@ Use the diagnostics Feature form to create a new diagnostic feature for a resour
 |Roles|Move desired roles to the Selected list. The users with the selected roles can access the diagnostic feature.|
 |Description|Details of the diagnostic feature. The description is displayed in the application to which the diagnostic feature belongs. It enables the user to understand the diagnostic scans executed in the feature.|
 
--   **[Diagnostics Inputs form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/diag-input-field.md)**  
+-   **[Diagnostics Inputs form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/diag-input-field.md)**  
 Use the Diagnostics Inputs form fields to specify a filter condition for a user.
 
-**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
+**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

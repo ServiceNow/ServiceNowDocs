@@ -3,11 +3,11 @@ title: Module access policy debugger
 description: Use the module access policy debugger to review logging information and understand why your users are or aren’t granted access to an encryption context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/map-debugger.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Key Management Framework Reference, Key Management Framework, Encryption]
 ---
@@ -36,7 +36,7 @@ When you’re finished debugging, you can disable the logging messages by naviga
 
 After enabling debugging, navigate to a page that triggers a MAP evaluation to view the MAP debug logs. Debug messages appear at the bottom of the page.
 
-**Tip:** You can use impersonation to troubleshoot access for other users. For details on impersonation, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ImpersonateAUser.md). To view the debug logs from the perspective of another user, make sure that your module access policies with the **role** type have the **Impersonation** field set as **true**.
+**Tip:** You can use impersonation to troubleshoot access for other users. For details on impersonation, see . To view the debug logs from the perspective of another user, make sure that your module access policies with the **role** type have the **Impersonation** field set as **true**.
 
 \[Omitted image "map-debug-logging-1.png"\] Alt text: Example debug output
 
@@ -80,7 +80,7 @@ Each line starts with an icon that indicates its message type.
     \[Omitted image "map-vis-example-4.png"\] Alt text: Debugging output for denied access due to insufficient privileges
 
 
-**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md)
+**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/understanding-kmf.md)
 
 **Related topics**  
 

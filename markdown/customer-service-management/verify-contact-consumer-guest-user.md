@@ -3,9 +3,9 @@ title: Verify a contact, consumer, or guest user
 description: Look up users and manage their information. As an agent, you can find the consumer and contact information from an interaction record, review and verify the information, and then update the interaction record. If the customer is a guest user without an existing consumer or contact record, you can create a record by capturing necessary information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/verify-contact-consumer-guest-user.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
 breadcrumb: [Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
@@ -31,7 +31,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 5.  In the contextual side panel, select the Consumer Verify icon \(\[Omitted image "consumer\_verify\_icon\_EaaI.jpg"\] Alt text: Consumer verify icon\) or the Contact Verify icon \(\[Omitted image "contact\_verify\_icon\_EaaI.jpg"\] Alt text: Contact verify icon\).
 
-    **Note:** For more information, see [Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-and-verify-overview.md).
+    **Note:** For more information, see [Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/lookup-and-verify-overview.md).
 
 6.  Search for a consumer or contact by entering the person's name, phone number, email address, or record number.
 

@@ -3,9 +3,9 @@ title: Cloud Observability
 description: Gain insights to detect and quickly respond to changes in cloud-native and monolithic applications.placeholder
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/cloud-observability/cloud-observability-landing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 

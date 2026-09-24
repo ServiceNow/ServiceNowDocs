@@ -3,11 +3,11 @@ title: Generate a Major Incident email content recommendation by using ServiceNo
 description: Create a draft version of an email to communicate with stakeholders on a major incident using an email template. You can complete field values in the template using an AI-generated response. Use different GenAI variables in the template types for efficient communication with the requesters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-mim-email-recommendation.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -19,7 +19,7 @@ Create a draft version of an email to communicate with stakeholders on a major i
 
 ## Before you begin
 
-**Note:** An admin must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) installed to enable the Major Incident Management email content recommendation skill. For more information on activating the plugin, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-major-incident-management-plugin.md).
+**Note:** An admin must activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) installed to enable the Major Incident Management email content recommendation skill. For more information on activating the plugin, see [Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/activate-major-incident-management-plugin.md).
 
 Role required: major\_incident\_manager
 

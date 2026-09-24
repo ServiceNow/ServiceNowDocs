@@ -3,7 +3,7 @@ title: Stages of store plan tracking and monitoring
 description: A store plan moves through distinct phases, each supported by specific screens and interactions. Tracking activates from the point of publication onward.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-stages-tracking-monitoring.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-04-15"
 reading_time_minutes: 1
@@ -20,5 +20,5 @@ A store plan moves through distinct phases, each supported by specific screens a
 4.  Store-level execution - Regional managers access the store case list for their region, drill into specific store cases, and review the tasks being worked. They can monitor task-level status, reassign work, or flag blockers. This is the primary execution layer — where stores actually complete the plan.
 5.  Task and case closure - Once store tasks are completed, HQ managers can view the state and close the HQ tasks and Store managers can view and close store tasks. The same playbook pattern is reused across both closure flows, creating a consistent interaction model. The HQ case closed state marks the end of the plan execution cycle for that store assignment.
 
-**Parent Topic:**[Retail store plans tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-explore-store-plans-tracking.md)
+**Parent Topic:**[Retail store plans tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-explore-store-plans-tracking.md)
 

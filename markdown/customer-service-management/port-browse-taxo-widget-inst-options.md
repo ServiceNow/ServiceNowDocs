@@ -3,9 +3,9 @@ title: Portal Browse Taxonomy widget instance options form
 description: Instance options enable you to configure the Portal Browse Taxonomy widget on the portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/port-browse-taxo-widget-inst-options.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
@@ -121,13 +121,13 @@ Catalog Order Guide Page
 
 </td><td>
 
-The Catalog Order Guide page that opens when the catalog order guide is accessed. For details, see [Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogOrderGuides.md)By default, this field is set to the Order guide \[sc\_cat\_item\_guide\] table.
+The Catalog Order Guide page that opens when the catalog order guide is accessed. For details, see [Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogOrderGuides.md)By default, this field is set to the Order guide \[sc\_cat\_item\_guide\] table.
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/browse-taxo-widget.md)
+[Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/browse-taxo-widget.md)
 
-[Add and configure the Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-browse-taxo-widget.md)
+[Add and configure the Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-browse-taxo-widget.md)
 

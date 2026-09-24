@@ -3,11 +3,11 @@ title: Create SAP users, roles, and authorizations
 description: Create the SAP user, roles, and authorization objects required for the Software Asset Management integration with the central and satellite SAP systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-sap-users-roles-auth.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [SAP users, SAP roles, SAP authorizations, PFCG, SAM integration]
 breadcrumb: [Set up SAP integration to establish a connection with SAP, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
@@ -99,7 +99,7 @@ RFC\_NAME
 
 </td><td>
 
-`/OSP/CORE`, `/OSP/PRGN_GET_ALL_AGRS`, `BAPI_USER_GETLIST`, `BAPI_USER_GET_DETAIL`, `MENU_READ_TSTC`, `RFC_READ_TABLE`, `RFCPING`, `SCSM_COLLECTOR`, `SDTX`, `SMNV_MIGRATION`, `STR9`, `SU_USER`, `SWNC_COLLECTOR_GET_AGGREGATES`, `SYSU`, `TR_SYS_PARAMS`, `/NOW/SAMP`, `/NOW/SAMP_HANADB`
+`/OSP/CORE`, `/OSP/PRGN_GET_ALL_AGRS`, `BAPI_USER_GETLIST`, `BAPI_USER_GET_DETAIL`, `MENU_READ_TSTC`, `RFC_READ_TABLE`, `RFCPING`, `SCSM_COLLECTOR`, `SDTX`, `SMNV_MIGRATION`, `STR9`, `SU_USER`, `SWNC_COLLECTOR_GET_AGGREGATES`, `SYSU`, `TR_SYS_PARAMS`, `/NOW/SAMP`, `/NOW/SAMP_HANADB`, `OCS_CRM`, `OCS_GET_INSTALLED_SWPRODUCTS`**Note:** If connecting to SAP S/4HANA Private cloud, enter `/NOW/SAMP_SLIM_USER_CLF` as an additional RFC.
 
 </td></tr><tr><td>
 
@@ -179,5 +179,7 @@ Table Name
 
 ## What to do next
 
-Select the Remote Function Call \(RFC\) connections that the SAP ABAP program uses to import data from your SAP clients. For details, see [Select SAP clients to import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/select-sap-clients-import.md).
+If you're integrating with SAP S/4HANA Cloud, Private Edition, then upload the license ruleset file to your SAP system to enable Full Usage Equivalent \(FUE\) user classification. For more information, see [Upload the license ruleset for SAP S/4HANA Private Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/upload-license-ruleset-sap-private-cloud.md). In case of on-premises integration, select the Remote Function Call \(RFC\) connections that the SAP ABAP program uses to import data from your SAP clients. For more information, see [Select SAP clients to import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/select-sap-clients-import.md).
+
+**Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setup-sap-integration.md)
 

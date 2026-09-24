@@ -3,11 +3,11 @@ title: Bulk deploy Agent Client Collector on macOS using Jamf
 description: Use Jamf to install Agent Client Collector \(ACC\) on multiple macOS devices at once, promoting consistent deployment across your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/bulk-deploy-acc-on-macos.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Deploying DEX to employees, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -20,8 +20,9 @@ Use Jamf to install Agent Client Collector \(ACC\) on multiple macOS devices at 
 
 \[Omitted video\] Description: Installing ACC on user devices using Jamf
 
--   Create an agent registration key and retrieve its value to use in the procedure. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/setup-acc.md).
--   Install ACC on your local machine. For more information, see [Install ACC for DEX on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-macos.md).
+-   Create an agent registration key and retrieve its value to use in the procedure. For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/create-acc-reg-key.md).
+-   Install ACC on your local machine. For more information, see [Install ACC for DEX on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-macos.md).
+-   Uninstall the ACC agent from your candidate test devices. For more information, see [Uninstall the Agent Client Collector agent from a device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/uninstall-acc-agent.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -57,7 +58,7 @@ The following procedure describes how to mass-deploy ACC using Jamf. Your organi
 
     3.  Confirm that the instance URL is accurate and insert the registration key.
 
-    4.  Verify that **verify-plugin-signature** is set to `false`.
+    4.  Verify that **verify-plugin-signature** is set to `true`.
 
     5.  Save the `acc.yml`
 
@@ -180,8 +181,10 @@ The following procedure describes how to mass-deploy ACC using Jamf. Your organi
 
     2.  Select the **New** button.
 
-    3.  Enter an appropriate policy name, trigger, and frequency.
+    3.  Enter a policy name, then set the trigger and execution frequency.
 
+        -   Set **Trigger** to **Recurring Check-in**. Add other triggers as needed, for example **Login** or **Enrollment Complete**.
+        -   Set **Execution Frequency** to **Ongoing**.
     4.  Under **Scope**, add all the target computers.
 
     5.  Navigate to **Packages** &gt; **Configure** and add the installation and `acc-yml` packages to the record.

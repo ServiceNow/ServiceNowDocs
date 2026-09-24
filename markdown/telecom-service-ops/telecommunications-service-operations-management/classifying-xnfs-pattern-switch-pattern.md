@@ -3,11 +3,11 @@ title: Classify xNFs for Telecom Switch Pattern
 description: To access a full list of OIDs that will be classified.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/classifying-xnfs-pattern-switch-pattern.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Telecom Discovery patterns, Use, Telecommunications Service Operations Management]
 ---
@@ -32,7 +32,7 @@ Classifier name: **Standard Network Switch**.
 
     **Note:**
 
-    For more information on how to add additional OIDs to the classifier, see [Direct Discovery using Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.md).
+    For more information on how to add additional OIDs to the classifier, see [Direct Discovery using Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.md).
 
     MiB Tables Used on an xNF:
 
@@ -42,5 +42,5 @@ Classifier name: **Standard Network Switch**.
     -   IfXMIB
     -   IpMIB
 
-**Parent Topic:**[Use Telecom Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/using-telecom-discovery-patterns.md)
+**Parent Topic:**[Use Telecom Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/using-telecom-discovery-patterns.md)
 

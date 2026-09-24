@@ -1,18 +1,18 @@
 ---
-title: Creating models
+title: \(Legacy\) Creating models
 description: Creating models is the first step to taking advantage of Natural Language Understanding \(NLU\) in your instances. Create models for Virtual Agent and AI Search in the NLU Workbench.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/creating-models.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Creating models
+# \(Legacy\) Creating models
 
 Creating models is the first step to taking advantage of Natural Language Understanding \(NLU\) in your instances. Create models for Virtual Agent and AI Search in the NLU Workbench.
 
@@ -26,19 +26,19 @@ To start creating models, set your scope to the application scope you want for y
 
 ## Model creation
 
-When you select the **Create new model** button, a modal opens to display your model creation options. Start by selecting one of the icons \(Use prebuilt model, Import data from a CSV, Start from blank\):
+When you select the **Create new model** button, a modal opens to display your model creation options. Start by selecting one of the icons:\[Omitted image "creating-models2V.png"\] Alt text: The modal for 'How do you want to create your model?' displays three selectable tiles: Use prebuilt model, Import data from a CSV, Start from blank.
 
--   [Create an NLU model using a pre-built model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-model-prebuilt.md): Copy a prebuilt model and its contents as a starting point for your new model.
--   [Create an NLU model from a CSV file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-model-csv.md): Upload a CSV file containing a list of intents and corresponding utterances.
--   [Create an NLU model from blank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-modelx.md): Build a model from scratch and add intents and utterances as you go.
+-   [\(Legacy\) Create an NLU model using a pre-built model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-nlu-model-prebuilt.md): Copy a prebuilt model and its contents as a starting point for your new model.
+-   [\(Legacy\) Create an NLU model from a CSV file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-nlu-model-csv.md): Upload a CSV file containing a list of intents and corresponding utterances.
+-   [\(Legacy\) Create an NLU model from blank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-nlu-modelx.md): Build a model from scratch and add intents and utterances as you go.
 
-After creating, add content to your model. The intents, utterances, entities, and vocabulary you add helps improve the model's ability to interpret natural language. See [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
+After creating, add content to your model. The intents, utterances, entities, and vocabulary you add helps improve the model's ability to interpret natural language. See [\(Legacy\) Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
 
 ## Duplicating, exporting, and updating
 
 After creating a model, you have options to use that model across other models and instances. With the NLU Workbench, you can perform the following actions with your models:
 
--   [Duplicate an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/clone-nlu-model.md): Copy a model to create a model with the same content.
--   [Export an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/export-nlu-model.md): Export a model as a CSV file containing the associated utterances and intents. Share the model or use it to create one.
--   [Add an NLU model to an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/add-model-update-set.md): Add a model and its artifacts to an update set to transfer the model across instances.
+-   [\(Legacy\) Duplicate an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/clone-nlu-model.md): Copy a model to create a model with the same content.
+-   [\(Legacy\) Export an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/export-nlu-model.md): Export a model as a CSV file containing the associated utterances and intents. Share the model or use it to create one.
+-   [\(Legacy\) Add an NLU model to an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/add-model-update-set.md): Add a model and its artifacts to an update set to transfer the model across instances.
 

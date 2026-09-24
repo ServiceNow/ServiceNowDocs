@@ -3,10 +3,10 @@ title: Review Unified Security Exposure Management integrations
 description: The integration dashboard provides an overview of the installed third-party applications and the status of the integration runs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/review-usem-integrations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -22,7 +22,7 @@ To open the dashboard, navigate to **Workspaces** &gt; **Security Exposure Manag
 
 ## Data visualization
 
-**Note:** To learn more about a widget, select the information icon.
+**Note:** To learn more about a widget, select the information icon \[Omitted image "info-icon.png"\] Alt text: Information icon.
 
 <table id="table_n43_yv4_mbc"><thead><tr><th>
 
@@ -42,7 +42,7 @@ Integration runs
 
 </td><td>
 
-Vertical Bar
+Vertical Bar\[Omitted image "trend.svg"\] Alt text: Bar
 
 </td><td>
 
@@ -98,6 +98,4 @@ During integration execution, multiple processes are generated, and data is rece
 
 -   sn\_sec\_cmn.record\_threshold\_heartbeat: Defines the number of processed records, after which the heartbeat \(timestamp\) is sent to the import queue entry.
 -   sn\_sec\_cmn.maximum\_heartbeat\_delay: Defines the time after which the import queue entry must be timed out.
-
-**Parent Topic:**[Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/integrating-usem.md)
 

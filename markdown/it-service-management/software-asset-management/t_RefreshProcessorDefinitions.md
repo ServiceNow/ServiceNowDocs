@@ -3,11 +3,11 @@ title: Refresh your legacy Software Asset Management plugin processor definition
 description: After activating the legacy IBM PVU Process Pack, use the Refresh Processor Definitions module in the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin to create process definitions for existing computers in the Computer \[cmdb\_ci\_computer\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_RefreshProcessorDefinitions.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy IBM PVU Process Pack, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -31,5 +31,5 @@ After this step, business rules in SAM update the Processor Definition \[CMDB\_p
 2.  Click **Proceed**.
 
 
-**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
+**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
 

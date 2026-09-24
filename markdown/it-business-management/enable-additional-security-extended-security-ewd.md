@@ -3,9 +3,9 @@ title: Enable additional security for partitions
 description: Enable additional ACL enforcement for partitioned tables to strengthen access control validation. Select the tables where you want to apply enhanced security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enable-additional-security-extended-security-ewd.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ Enable additional ACL enforcement for partitioned tables to strengthen access co
 
 ## About this task
 
-You can enable additional security for the four tables as needed.
+You can enable additional security for the four tables.
 
 -   Project \(pm\_project\)
 -   Demand \(dmn\_demand\)
@@ -35,7 +35,7 @@ Role required: admin
 
 2.  Select **Configure** next to "Configure your product".
 
-    The Configure SPM console opens, showing configuration options for your SPM deployment..
+    The Configure SPM console opens, showing configuration options for your SPM deployment.
 
 3.  Under **Partitions**, select **Enable additional security**.
 
@@ -43,7 +43,7 @@ Role required: admin
 
 4.  Review the table descriptions and select the tables where you want to enforce partition-based ACL checks.
 
-    **Important:** Enabling additional security may restrict access for existing users who previously had cross-partition visibility through role assignments. Review your user access model before enabling to ensure users retain necessary access to their assigned partitions.
+    **Important:** Enabling additional security may restrict access for existing users who previously had cross-partition visibility through role assignments. Review your user access model before enabling so that users retain necessary access to their assigned partitions.
 
 5.  Select the check box next to each table where you want to enable additional security.
 

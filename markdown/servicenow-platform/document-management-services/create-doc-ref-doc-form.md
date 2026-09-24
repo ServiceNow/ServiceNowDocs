@@ -3,11 +3,11 @@ title: Create document reference from References
 description: Link document references to any record directly from the References list. You can easily see all documents linked to tables and target records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/create-doc-ref-doc-form.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document references, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,5 +41,5 @@ Role required: admin
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Document references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-references.md)
+**Parent Topic:**[Document references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/doc-mgt-references.md)
 

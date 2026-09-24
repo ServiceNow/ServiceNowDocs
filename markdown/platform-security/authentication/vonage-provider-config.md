@@ -3,11 +3,11 @@ title: Vonage Provider custom configuration \(Tutorial\)
 description: Configure a SMS with Vonage Provider to ensure every user can login securely.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/vonage-provider-config.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multi-factor authentication Providers, SMS as an MFA factor, MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -65,6 +65,6 @@ Role required: adaptive\_auth\_admin
 
     \[Omitted image "vonage-provider-config.png"\] Alt text: Provider Configuration page
 
-    To know more about provider configuration, see [Configure MFA Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-mfa-provider.md).
+    To know more about provider configuration, see [Configure MFA Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-mfa-provider.md).
 
 

@@ -1,18 +1,18 @@
 ---
-title: Model language grouping
+title: \(Legacy\) Model language grouping
 description: Language grouping makes it easier to manage your multilingual Natural Language Understanding \(NLU\) models. You can review existing language groups and designate new language groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/model-language-grouping.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Multilingual model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Multilingual model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Model language grouping
+# \(Legacy\) Model language grouping
 
 Language grouping makes it easier to manage your multilingual Natural Language Understanding \(NLU\) models. You can review existing language groups and designate new language groups.
 
@@ -20,7 +20,7 @@ Language grouping makes it easier to manage your multilingual Natural Language U
 
 Language grouping organizes your NLU models into primary and secondary models, and indicates the primary language and primary model for the group.
 
-If you have added a new language to a model, a language group is created automatically, so you may already have existing language groups. For more information on adding and translating a new language model, see [Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/translate-multilingual-model.md).
+If you have added a new language to a model, a language group is created automatically, so you may already have existing language groups. For more information on adding and translating a new language model, see [\(Legacy\) Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/translate-multilingual-model.md).
 
 To view current language groups and inspect possible new language groups, navigate to:
 

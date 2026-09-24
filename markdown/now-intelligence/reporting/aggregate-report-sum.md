@@ -3,11 +3,11 @@ title: Aggregate a report on sum
 description: When you create a report, you can aggregate the data on several calculations including the number of records, averages, and standard deviation. The sum aggregation shows the sum of the field you aggregate on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/aggregate-report-sum.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Aggregation in reporting, Reporting reference, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---

@@ -3,11 +3,11 @@ title: Install and configure the Microsoft Azure Sentinel integration
 description: Install and configure the Microsoft Azure Sentinel integration from the ServiceNow Store on your ServiceNow AI Platform instance to start ingesting Azure Sentinel incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/install-and-configure-microsoft-azure-sentinel-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Azure Sentinel integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

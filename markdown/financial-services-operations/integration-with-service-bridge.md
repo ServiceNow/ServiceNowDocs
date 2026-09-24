@@ -3,9 +3,9 @@ title: Integrating with Service Exchange
 description: Integrating Financial Services Operations \(FSO\) with Service Exchange enables you to connect ServiceNow instances to provide seamless support and service experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/integration-with-service-bridge.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -57,7 +57,7 @@ Connect the insurance carrier claims management ServiceNow FSO platform with the
 -   Enhanced customer trust with timely updates.
 
 </td></tr></tbody>
-</table>For more information, see [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md).
+</table>For more information, see [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/tmt-service-bridge-both-landing-page.md).
 
-**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integrate-other-applications.md)
+**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-integrate-other-applications.md)
 

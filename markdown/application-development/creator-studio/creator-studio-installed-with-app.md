@@ -3,13 +3,13 @@ title: Artifacts that Creator Studio generates when users create an app
 description: When a user creates an app in Creator Studio, the ServiceNow AI Platform creates several metadata artifacts, such as tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-installed-with-app.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Administer, Creator Studio, Developing your application, Building applications]
 ---
 
 # Artifacts that Creator Studio generates when users create an app
@@ -35,7 +35,7 @@ New table that extends from the base Request Task table
 -   Name: \[scope\]\_request \(for example, x\_snc\_marketing\_request\)
 -   Label: \[App name\] + Requests \(for example, Marketing Request\)
 
- **Note:** All of the form questions are stored as catalog variables in the app's Request Task table. However, admins can change the associated table for an app, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-admin-app-table.md) for more information.
+ **Note:** All of the form questions are stored as catalog variables in the app's Request Task table. However, admins can change the associated table for an app, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-admin-app-table.md) for more information.
 
 </td></tr><tr><td>
 
@@ -88,5 +88,5 @@ Dashboard name: \[App Name\] + RequestsContents:
 -   A simple list showing all open requests
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/administering-creator-studio.md)
+</table>**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/administering-creator-studio.md)
 

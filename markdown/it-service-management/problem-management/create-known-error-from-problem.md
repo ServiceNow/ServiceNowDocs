@@ -3,11 +3,11 @@ title: Create a known error article
 description: Create known error articles as reference material. The known error articles document the root cause and the workaround of the problem to help with deflecting incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/create-known-error-from-problem.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Communicating the outcome of a problem, Problem Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Activate the Problem Management Best Practice — Madrid \(com.snc.best\_practic
 
 ## About this task
 
-After you create a known error article from a problem, the article is saved in the knowledge base and maintained in the Knowledge Management application. The publishing and retirement processes for a knowledge article are controlled by workflows defined for the knowledge base that the article belongs to. For more information, see [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeWorkflows.md).
+After you create a known error article from a problem, the article is saved in the knowledge base and maintained in the Knowledge Management application. The publishing and retirement processes for a knowledge article are controlled by workflows defined for the knowledge base that the article belongs to. For more information, see [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_KnowledgeWorkflows.md).
 
 ## Procedure
 
@@ -44,12 +44,12 @@ After you create a known error article from a problem, the article is saved in t
 
     **Note:** Click **Search for Duplicates** to search for existing known error articles. The search is based on short description, category, and topic.
 
-    For a description of the field values, see [Known error article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/known-error-article-form.md).
+    For a description of the field values, see [Known error article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/known-error-article-form.md).
 
 
 ## What to do next
 
 Click **Publish** to send the article for review and approval. Depending on the Knowledge base where the article is stored and the Knowledge Base access controls, this Known Error article may be available to search for users outside of the IT team to help with Incident deflection.
 
-**Parent Topic:**[Communicating the outcome of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/communicate-outcome-of-problem.md)
+**Parent Topic:**[Communicating the outcome of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/communicate-outcome-of-problem.md)
 

@@ -3,7 +3,7 @@ title: Configure export application functionality in Grants Management
 description: Configure the export to PDF functionality so that grants program can export grants proposals directly to PDF.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-export-pdf.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
@@ -47,9 +47,9 @@ The export PDF functionality should appear in the Confirm Application Details ac
 
 The data that shows up in the exported PDF is generated based on a pre-configured document template. This configuration can be modified to add/delete fields, change formatting of the document, and more.
 
-**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-foundation.md)
+**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-foundation.md)
 
-**Previous topic:**[Configure a currency in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-single-currency-setup.md)
+**Previous topic:**[Configure a currency in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-single-currency-setup.md)
 
-**Next topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pace.md)
+**Next topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-pace.md)
 

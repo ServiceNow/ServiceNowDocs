@@ -3,11 +3,11 @@ title: CrowdStrike Next-Gen SIEM integration
 description: The CrowdStrike Next-Gen SIEM integration automatically ingests detection data that may indicate potential security incidents and streamlines the creation of security incidents in the ServiceNow Security Incident Response \(SIR\), ensuring timely and effective response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/crowdstrike-next-gen-integration-secops.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

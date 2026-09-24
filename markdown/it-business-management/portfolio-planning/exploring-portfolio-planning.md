@@ -3,11 +3,11 @@ title: Exploring Portfolio Planning
 description: Prioritize, roadmap, and track the work planned for your products and portfolios using Portfolio Planning. Enhance management of your traditional project and product delivery approach.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/exploring-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
@@ -28,7 +28,7 @@ With lens in Portfolio Planning, you can flexibly switch between planning perspe
 ## Comparing Portfolio Planning Workspace with Strategic Planning Workspace
 
 -   Portfolio Planning Workspace: Prioritize, roadmap, and track work when using waterfall methodology. Enhance traditional portfolio planning for demand and project management.
--   Strategic Planning Workspace: Prioritize, roadmap, and track work when using traditional, agile, or hybrid methodologies. Align strategy to execution by defining and tracking goals across the organization. To learn more about Strategic Planning, see [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.md).
+-   Strategic Planning Workspace: Prioritize, roadmap, and track work when using traditional, agile, or hybrid methodologies. Align strategy to execution by defining and tracking goals across the organization. To learn more about Strategic Planning, see [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.md).
 
 <table id="table_xtf_mzv_dwb"><thead><tr><th>
 
@@ -431,30 +431,30 @@ RIDAC: Supported tables
 </td></tr></tbody>
 </table>Learn about different features of Portfolio Planning in detail from the following sections.
 
--   **[Lenses in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/lens-and-portfolio-plans.md)**  
+-   **[Lenses in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/lens-and-portfolio-plans.md)**  
 Flexibly switch planning perspectives to prioritize, roadmap, and view the alignment of work using personalized portfolio plans. Improve enterprise planning by discovering planning insights that drive shared outcomes.
--   **[Portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-plans-in-portfolio-planning-ppw.md)**  
+-   **[Portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/portfolio-plans-in-portfolio-planning-ppw.md)**  
 Personalized portfolio plans help you align work with your company's objectives and roadmap the right work for the right time.
--   **[Work prioritization in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/work-prioritization-portfolio-planning.md)**  
+-   **[Work prioritization in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/work-prioritization-portfolio-planning.md)**  
 Prioritize work that is relevant for your portfolio using a centralized Workspace in Portfolio Planning. Review and determine the right work to invest in.
--   **[Roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/roadmaps-in-portfolio-planning.md)**  
+-   **[Roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/roadmaps-in-portfolio-planning.md)**  
 Effectively plan work for your company using visual roadmaps in Portfolio Planning Workspace.
--   **[Scenario planning in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/scenario-planning-in-portfolio-planning.md)**  
+-   **[Scenario planning in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/scenario-planning-in-portfolio-planning.md)**  
 Create and evaluate strategic scenarios to explore different planning approaches. Approve the optimal scenario that aligns with the organizational goals and strategic priorities.
--   **[Portfolio Planning with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-integration-with-execution-applications.md)**  
+-   **[Portfolio Planning with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/portfolio-planning-integration-with-execution-applications.md)**  
 Facilitate execution of the work planned in Portfolio Planning in ServiceNow Project Portfolio Management \(PPM\) application.
--   **[Capacity planning in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/capacity-planning-pp.md)**  
+-   **[Capacity planning in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/capacity-planning-pp.md)**  
 The Capacity Planning screen provides portfolio managers a comprehensive view of capacity, allocations, and utilization of resources.
--   **[Financial planning for Projects and Demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/financials-portfolio-planning.md)**  
+-   **[Financial planning for Projects and Demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/financials-portfolio-planning.md)**  
 Plan, re-forecast, track the financials, and create baselines for projects and demands.
--   **[Dashboards in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/dashboards-portfolio-planning.md)**  
+-   **[Dashboards in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/dashboards-portfolio-planning.md)**  
 As a product and portfolio manager, use dashboards in Portfolio Planning Workspace to monitor performance, track progress, and make informed decisions related to planning and execution. These dashboards leverage Platform Analytics to provide a trend of historical data and regular reports.
--   **[RIDAC in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/explore-ridac-ppw.md)**  
+-   **[RIDAC in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/explore-ridac-ppw.md)**  
 RIDAC \(Risk, Issue, Decision, Action, Change\) in Portfolio Planning Workspace provides a holistic, portfolio-wide view of all risks, issues, decisions, actions, and changes across your entire organization—from individual projects to programs and portfolios.
--   **[Portfolio plan RIDACs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-plan-ridac-ppw.md)**  
-Portfolio plan RIDAC provides a unified view of all risks, issues, decisions, actions, and changes that belong to a specific portfolio plan. Access portfolio governance items directly within the portfolio plan without navigating to separate RIDAC records.
--   **[Better together with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/better-together-with-other-apps-ppw.md)**  
+-   **[Portfolio plan RIDACs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/portfolio-plan-ridac-ppw.md)**  
+Portfolio plan RIDAC \(Risks, Issues, Decision, Actions, and Change requests\) provides a unified view of all risks, issues, decisions, actions, and changes for a portfolio plan. Access portfolio governance items directly without navigating to separate RIDAC records.
+-   **[Better together with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/better-together-with-other-apps-ppw.md)**  
 Integration of Portfolio Planning with other ServiceNow® applications helps portfolio and product managers to optimize planning, collaboration, and release management for their products.
 
-**Parent Topic:**[Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-app-landing-page.md)
+**Parent Topic:**[Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/portfolio-planning-app-landing-page.md)
 

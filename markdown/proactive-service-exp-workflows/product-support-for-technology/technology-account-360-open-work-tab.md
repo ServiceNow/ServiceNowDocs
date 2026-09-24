@@ -3,11 +3,11 @@ title: Technology Account 360 Open work tab
 description: The Open work tab in the Technology Account 360 view displays work insights and open work items for the customer account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-open-work-tab.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2024-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Technology Account 360, open work, SLA, work insights]
 breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
@@ -76,10 +76,10 @@ Number of open work items for this account that are in progress and have breache
 |Customer plays|Open customer plays associated with the account.|
 |Success initiatives|Open success initiatives associated with the account.|
 
-**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 
 
-[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)
+[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)
 

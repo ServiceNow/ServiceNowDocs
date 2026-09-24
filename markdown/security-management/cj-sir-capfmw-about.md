@@ -3,9 +3,9 @@ title: Integrations Capabilities framework 2.0
 description: The new Integration Capabilities Framework 2.0 has been redesigned to enable implementation of integrations in a simple and consistent manner. This ensures a consistent experience for similar types of integrations \(for example: observable reputation lookup\).The Security Incident Response plugin includes all the capability flows listed in Integration Capabilities Framework 2.0, and standard high-level filters that you can enable or disable depending on your requirement.This section describes the configurations available in the new framework.This section describes how to use the new capability framework for an existing integration.Use the steps below to create a flow and call the subflow provided by the new capability framework.The Capability Executions option provides detailed information on each capability that has been executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/cj-sir-capfmw-about.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Security Operations Integration Reference, Security Operations comm
 
 The new Integration Capabilities Framework 2.0 has been redesigned to enable implementation of integrations in a simple and consistent manner. This ensures a consistent experience for similar types of integrations \(for example: observable reputation lookup\).
 
-The new framework has capabilities implemented using [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md).
+The new framework has capabilities implemented using [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md).
 
 Benefits from the enhanced framework implementation include:
 
@@ -26,9 +26,9 @@ Benefits from the enhanced framework implementation include:
 -   Ability to configure conditional triggering of the capabilities or the integrations. This provides flexibility to automatically launch automations based on incident category.
 -   A default filter condition has been introduced on all capabilities to filter allow listed observables before inputs are provided to the integrations.
 
-**Note:** This new capability framework does not upgrade the current capability framework. Both frameworks can work in parallel. For instructions on how to leverage the new capability framework, see [Using the new Capability Framework with an installed integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cj-sir-capfmw-about.md) and [Using the new Capability Framework with a Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cj-sir-capfmw-about.md).
+**Note:** This new capability framework does not upgrade the current capability framework. Both frameworks can work in parallel. For instructions on how to leverage the new capability framework, see [Using the new Capability Framework with an installed integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/cj-sir-capfmw-about.md) and [Using the new Capability Framework with a Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/cj-sir-capfmw-about.md).
 
-**Parent Topic:**[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-ref.md)
+**Parent Topic:**[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/secops-integ-ref.md)
 
 ## Supported integrations and components
 
@@ -71,7 +71,7 @@ Starting with Security Incident Response 10.4, the following integrations are su
 
 The new Capability Integration Framework includes the following components:
 
--   **Capabilities**: All of the following capabilities that exist in the product today as workflows have been redesigned using [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md):
+-   **Capabilities**: All of the following capabilities that exist in the product today as workflows have been redesigned using [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md):
     -   **Block Request**: Provides a way to block observables associated with a security incident on a firewall, web proxy, or some other control point. This capability is used during incident response investigations to contain an identified threat.
     -   **Email Search and Delete**: Provides a way to search an email server during a security investigation and if necessary, delete emails from the server.
     -   **Enrich Configuration Item**: Provides a general way to enrich configuration items with additional information from a variety of sources. This capability is used during incident response investigations to enrich data associated with a security incident.
@@ -271,7 +271,7 @@ The default sighting search queries that can be executed.
 
 This section describes how to use the new capability framework for an existing integration.
 
-Use the steps below to enable an already installed and configured integration \(see supported list of Integrations in [Supported integrations and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cj-sir-capfmw-about.md)\) to use the new capability framework.
+Use the steps below to enable an already installed and configured integration \(see supported list of Integrations in [Supported integrations and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/cj-sir-capfmw-about.md)\) to use the new capability framework.
 
 **Note:** Integration Capability Framework 2.0 available with Security Incident Response 10.0.2 supports implementations for the **Threat Lookup** and **Enrich Observable** capabilities. Implementations for other capabilities will be made available in a future release.
 
@@ -307,7 +307,7 @@ Use the steps below to create a flow and call the subflow provided by the new ca
 ### Before you begin
 
 -   Role required: sn\_si.admin, flow\_designer, action\_designer
--   Install one of the supported integrations \(see [Supported integrations and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cj-sir-capfmw-about.md)\)
+-   Install one of the supported integrations \(see [Supported integrations and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/cj-sir-capfmw-about.md)\)
 
 The steps below describe how to create a sample flow and call one of the subflows provided with the new capability framework.
 

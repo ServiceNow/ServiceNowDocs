@@ -3,11 +3,11 @@ title: Define system colors for analytics
 description: Create color definitions for use in visualizations and Performance Analytics widgets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_DefiningSystemColors.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -72,7 +72,7 @@ Themeable color
 
 </td><td>
 
-Applies an alternate color from the UX Theme Properties \[sys\_ux\_theme\_property\] table to use when a theme is applied. Colors in the UX Theme Properties table may have different values depending on which theme variant in the UX Themes \[sys\_ux\_theme\] table is applied to your instance. To learn more about theming, see [Themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
+Applies an alternate color from the UX Theme Properties \[sys\_ux\_theme\_property\] table to use when a theme is applied. Colors in the UX Theme Properties table may have different values depending on which theme variant in the UX Themes \[sys\_ux\_theme\] table is applied to your instance. To learn more about theming, see [Themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md).
 
  When a theme is turned on, the system applies this color to classic reports and visualizations created by the data visualization component. If no themeable color is defined, the system uses the color defined in the **Color** field.
 
@@ -82,5 +82,5 @@ Applies an alternate color from the UX Theme Properties \[sys\_ux\_theme\_proper
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Predefined colors in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/colors-reports.md)
+**Parent Topic:**[Predefined colors in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/colors-reports.md)
 

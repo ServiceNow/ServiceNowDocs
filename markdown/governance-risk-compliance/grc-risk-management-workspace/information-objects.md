@@ -3,11 +3,11 @@ title: Information objects
 description: Information objects are a part of the information portfolio management capability in the Application Portfolio Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/information-objects.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Associate risks, citations, policies, and controls with a risk identification record, Application risk assessment using Advanced Risk Assessment, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,5 +22,5 @@ The following figure shows an example of information objects. There are two appl
 
 \[Omitted image "information-objects.png"\] Alt text: Information objects.
 
-**Parent Topic:**[Associate risks, citations, policies, and controls with a risk identification record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/associate-risks-pols-citations-risk-idenfn.md)
+**Parent Topic:**[Associate risks, citations, policies, and controls with a risk identification record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/associate-risks-pols-citations-risk-idenfn.md)
 

@@ -3,11 +3,11 @@ title: Compare planning scenarios
 description: Compare various planning scenarios with your current or default plan to assess different combinations of projects and demands in your portfolio for execution. You can perform a what-if analysis and determine the planning scenario that optimally achieves the target budget and uses your resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/compare-scenarios.html
-release: australia
+release: brazil
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Compare various planning scenarios with your current or default plan to assess d
 
 ## Before you begin
 
-Ensure that you have created up to four planning scenarios and selected projects and demands for execution. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/create-scenarios.md) and [Select demands and projects for portfolio planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/select-prj-demands.md).
+Ensure that you have created up to four planning scenarios and selected projects and demands for execution. For more information, see [Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/create-scenarios.md) and [Select demands and projects for portfolio planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/select-prj-demands.md).
 
 Role required: it\_portfolio\_manager
 
@@ -26,15 +26,15 @@ Role required: it\_portfolio\_manager
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d300144e69">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d301739e69">
 
 Location
 
-</th><th align="left" id="d300144e72">
+</th><th align="left" id="d301739e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d300144e78">
+</th></tr></thead><tbody><tr><td id="d301739e78">
 
 **From application navigator**
 
@@ -44,7 +44,7 @@ Steps
 2.  From the **Portfolio** list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d300144e111">
+</td></tr><tr><td id="d301739e111">
 
 **From the portfolio list**
 
@@ -69,7 +69,7 @@ Steps
 
 ## What to do next
 
-Confirm a scenario that best aligns with your organizational objectives, optimally achieves your target budget, and uses your resources. For more information see, [Confirm a planning scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/confirm-a-scenario.md).
+Confirm a scenario that best aligns with your organizational objectives, optimally achieves your target budget, and uses your resources. For more information see, [Confirm a planning scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/confirm-a-scenario.md).
 
-**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md)
 

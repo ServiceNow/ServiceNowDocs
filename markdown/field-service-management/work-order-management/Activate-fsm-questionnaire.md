@@ -3,11 +3,11 @@ title: Activate Field Service Questionnaire
 description: You can activate the Field Service - Questionnaire plugin \(com.snc.wm\_questionnaire\) for Field Service if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Activate-fsm-questionnaire.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Survey-based questionnaires, Questionnaires, Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: Admin
 
 -   Ensure that the following plugins are activated before you install Field Service com.snc.wm\_questionnaire.
     -   **Required ServiceNow plugins**
-        -   **Customer Service \(com.sn\_customerservice\)**
+        -   **Case Management Core \(com.sn\_customerservice\)**
         -   **Customer Service Management Demo Data \(com.snc.customerservice.demo\)**
         -   **Field Service Management**
 
@@ -38,7 +38,7 @@ Role required: Admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 ## Result
@@ -52,5 +52,5 @@ Configure the form layout and add the **Assigned to** field to ensure that a que
 **Related topics**  
 
 
-[Create a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-questionnaire-for-work-order.md)
+[Create a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/create-questionnaire-for-work-order.md)
 

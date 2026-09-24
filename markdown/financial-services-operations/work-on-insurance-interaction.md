@@ -3,10 +3,10 @@ title: Work on an insurance interaction in Agentic Contact Center for Insurance
 description: Manage insurance customer interactions in the Interaction page for Agentic Contact Center for Insurance. Customer service representatives \(CSRs\) can verify customer identity, use AI-generated insights, and complete interactions with automated wrap-up summaries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-on-insurance-interaction.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-13"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [work on an insurance interaction, manage insurance customer interactions, relevant details for this call, verify insurance customer identity, agentic contact center insurance ai-generated insights, agentic contact center insurance wrap-up summary, agentic contact center insurance interaction page, agentic contact center insurance csr interaction workflow, agentic contact center insurance create interaction record]
 breadcrumb: [Using Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -33,9 +33,9 @@ Role required: sn\_ins\_csr.servicing\_agent, sn\_ins\_csr.claims\_agent
 
     The card surfaces contextual information associated with the inquiry, such as the customer tenure, likely reason for calling, related contacts and cases, and the insurance product the customer is inquiring about. If the card is not visible, the customer's identity has not yet been verified, no call context is available, or the AI skill has not been activated.
 
-    For more information, see [Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-context.md).
+    For more information, see [Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/summarize-insurance-customer-context.md).
 
-    For a description of the skill, see [AI skills in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-skills-agentic-contact-center-insurance.md).
+    For a description of the skill, see [AI skills in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/ai-skills-agentic-contact-center-insurance.md).
 
 4.  After verifying the customer's details and identity, select **Verified** in the Interaction form to confirm.
 
@@ -51,7 +51,7 @@ Role required: sn\_ins\_csr.servicing\_agent, sn\_ins\_csr.claims\_agent
 
     The chat is specific to this interaction record. If you navigate away, you can resume the chat by selecting **Ask Otto**.
 
-    For more information, see [Request AI agent support in the Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-insurance-ai-agent-interaction-workspace.md).
+    For more information, see [Request AI agent support in the Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/request-insurance-ai-agent-interaction-workspace.md).
 
 6.  To open the Customer 360 page and review the customer's full insurance profile, select the customer's name in the customer details card.
 
@@ -71,15 +71,15 @@ The interaction is closed.
 **Related topics**  
 
 
-[Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/interactionpage-agentic-contact-centre-for-insurance.md)
+[Interaction page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/interactionpage-agentic-contact-centre-for-insurance.md)
 
-[Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md)
+[Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md)
 
-[Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/summarize-insurance-customer-context.md)
+[Summarize an insurance customer interaction in Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/summarize-insurance-customer-context.md)
 
-[Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-ai-agent-interaction-workspace.md)
+[Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/request-ai-agent-interaction-workspace.md)
 
-[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md)
+[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-wrap-up-state.md)
 
-[Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
+[Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
 

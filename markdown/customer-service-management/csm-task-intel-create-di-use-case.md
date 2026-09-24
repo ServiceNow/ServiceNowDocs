@@ -1,18 +1,18 @@
 ---
 title: Create a Document Intelligence use case
-description: Create a use case that identifies the information to extract from email and case attachments and determines how users with CSM agent roles interact with the extracted values in the Document Intelligence workspace.
+description: Create a use case that identifies the information to extract from email and case attachments. Determine how users with CSM agent roles interact with the extracted values in the Document Intelligence workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-create-di-use-case.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Create a Document Intelligence use case
 
-Create a use case that identifies the information to extract from email and case attachments and determines how users with CSM agent roles interact with the extracted values in the Document Intelligence workspace.
+Create a use case that identifies the information to extract from email and case attachments. Determine how users with CSM agent roles interact with the extracted values in the Document Intelligence workspace.
 
 -   **Before you begin**
 
@@ -34,7 +34,7 @@ Create a use case that identifies the information to extract from email and case
 
     -   Activate Task Intelligence for Customer Service \(com.snc.csm\_ml\_task\).
     -   Activate Document Intelligence Admin \(com.snc.docintel\_admin\).
-    For more information, see [Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-doc-intel-configuring-.md).
+    For more information, see [Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-doc-intel-configuring-.md).
 
 
 ## Access the DocIntel Admin experience
@@ -44,7 +44,7 @@ Create a use case that identifies the information to extract from email and case
 
 ## Create a use case
 
-Create a use case to identify a document or set of documents to be processed together in Document Intelligence. With Document Intelligence for Customer Service, the [Use Cases list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-document-intelligence.md) in the DocIntel Admin experience uses a default filter with an OR condition to show use cases for:
+Create a use case to identify a document or set of documents to be processed together in Document Intelligence. With Document Intelligence for Customer Service, the [Use Cases list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-document-intelligence.md) in the DocIntel Admin experience uses a default filter with an OR condition to show use cases for:
 
 -   Application = Task Intelligence for Customer service -or-
 -   MLUC ID = MLUC CSM-00003
@@ -139,7 +139,7 @@ Field Type
 
 The type of field \(for example, a text field or a check box option\).Field type is read-only if you add this field to a field group. The field type is whatever is designated for the group.
 
-Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
+Some field types convert the extracted value into a standard format. See [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/data-normalization.md).
 
 </td></tr><tr><td>
 
@@ -210,7 +210,7 @@ Document tasks include attached documents that are used to train the model to id
 
     -   When the extraction process is complete, the **Is Processed** field is set to true.
     -   When the values have been extracted from the document, the **Status** field is set to Done.
-9.  Open the task and select **Open in Document Intelligence** to view the task in the [Document Intelligence Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/doc-intel-workspace.md).
+9.  Open the task and select **Open in Document Intelligence** to view the task in the Document Intelligent Workspace.
 10. Train the extracted fields to identify the correct values.
     1.  If a field value is correct: put your cursor in the field and press Return to confirm the value.
     2.  If a field value is missing: select the value from the list and press Return to confirm the value.
@@ -253,8 +253,6 @@ General settings determine how the Document Intelligence feature displays inform
 5.  Set the **Default width of the extraction panel**.
 6.  Set the **Default width of the thumbnail panel**.
 7.  Select the **Default document fit for the image panel**.
-
-For more information about the general settings, see [Configure Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/doc-intel-administration.md).
 
 ## Configure the data extraction mode
 

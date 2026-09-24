@@ -3,12 +3,12 @@ title: Copy a use case
 description: Copy an existing use case to use as a starting point for a similar one. The copy includes the original fields, tables, questions, integrations, and flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/make-copy-use-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Manage use case, Information Extraction skill, Configure, Content Understanding, Enable AI experiences]
+breadcrumb: [Manage use case, Reference, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Copy a use case
@@ -46,7 +46,7 @@ The copied use case appears in the use cases list.
 
 ## What to do next
 
-Edit the new use case to make any necessary changes, then test it to confirm it works as expected. For steps to edit a use case, see [Edit a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-use-case.md).
+Edit the new use case to make any necessary changes, then test it to confirm it works as expected. For steps to edit a use case, see [Edit a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-use-case.md).
 
-**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-use-case.md)
+**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-manage-use-case.md)
 

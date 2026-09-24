@@ -3,11 +3,11 @@ title: Reassign a task to another agent
 description: Managers can quickly reassign work order tasks to another agent in case the original agent is running behind on other work order tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/reassign-task-manager.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Manager Mobile, Completing work on mobile, Use, Field Service Management]
 ---

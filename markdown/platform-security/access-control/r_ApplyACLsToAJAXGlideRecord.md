@@ -3,11 +3,11 @@ title: Apply ACLs to AJAXGlideRecord \(client-side Glide record\)
 description: Use a system property to perform access control list \(ACL\) rule validation when server-side records \(for example, tables\) are accessed using GlideAjax APIs within a client script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/r\_ApplyACLsToAJAXGlideRecord.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced ACL configuration, Access Control Lists \(ACLs\), Access Management]
 ---
@@ -30,5 +30,5 @@ Use GlideRecordSecure when querying data to ensure the highest level of security
 
 **Warning:** The `sys_class_name, sys_id` and `sys_domain` are ignored for ACL checks.
 
-To learn more about this property, see [Require AJAXGlideRecord ACL checking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.md) in Instance Security Hardening Settings.
+To learn more about this property, see [Require AJAXGlideRecord ACL checking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.md) in Instance Security Hardening Settings.
 

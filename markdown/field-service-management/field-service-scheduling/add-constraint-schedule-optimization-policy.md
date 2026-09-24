@@ -3,11 +3,11 @@ title: Add constraints to a policy
 description: Add constraints to Schedule Optimization policies to define the mandatory conditions technicians must meet to be considered for a task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/add-constraint-schedule-optimization-policy.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create policies, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: wm\_admin
 
 ## About this task
 
-Constraints are mandatory conditions embedded in policies that determine whether an assignment group can be considered for a task. If an assignment group does not meet a constraint, it is excluded from consideration. For example, if the Enable Mandatory Skills constraint is active, only assignment groups with agents who have the required skills are considered for task assignments. For a list of constraints, see [Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/hard-soft-constraints.md).
+Constraints are mandatory conditions embedded in policies that determine whether an assignment group can be considered for a task. If an assignment group does not meet a constraint, it is excluded from consideration. For example, if the Enable Mandatory Skills constraint is active, only assignment groups with agents who have the required skills are considered for task assignments. For a list of constraints, see [Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/hard-soft-constraints.md).
 
 ## Procedure
 

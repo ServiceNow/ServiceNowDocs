@@ -3,11 +3,11 @@ title: Connections
 description: Use the Connections tab in the Provider Center and Consumer Center to add, monitor, and manage your Service Exchange connections from a single location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/se-connections-tab.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [connections tab, connection cards, Provider Center, Consumer Center, registration status]
 breadcrumb: [Service Exchange Center, Explore, Service Exchange]
@@ -57,7 +57,7 @@ Apart from viewing connection details, you can perform several actions from the 
 **Related topics**  
 
 
-[Register a consumer from the Provider Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-provider-center-onboarding.md)
+[Register a consumer from the Provider Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-provider-center-onboarding.md)
 
-[Consumer registration from the Consumer Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-consumer-center-onboarding.md)
+[Consumer registration from the Consumer Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-consumer-center-onboarding.md)
 

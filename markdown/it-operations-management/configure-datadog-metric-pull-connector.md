@@ -3,11 +3,11 @@ title: Configure Datadog metric pull connector
 description: Configure OAuth-based integration between your Datadog instance and ServiceNow Event Management to securely ingest metric from the Datadog Instance. This setup enables authenticated metric delivery using client credentials, maps discovered server CIs, and allows anomaly alerts to create actionable events in ServiceNow through standard webhooks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-datadog-metric-pull-connector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
-breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Datadog metric pull connector
@@ -16,7 +16,7 @@ Configure OAuth-based integration between your Datadog instance and ServiceNow E
 
 ## Before you begin
 
-Configure the Datadog API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Datadog API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md).
+Configure the Datadog API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Datadog API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/API-key-credential-form.md).
 
 Ensure you have the application key configured in the Datadog. For more information, see [https://docs.datadoghq.com/account\_management/api-app-keys/](https://docs.datadoghq.com/account_management/api-app-keys/).
 
@@ -74,7 +74,7 @@ The Datadog connector can collect Docker container metrics and bind them to Dock
     -   in the **Application key** field, enter the application key that is associated with the user account.
 8.  If you want to customize configurations to meet specific requirements, select **Advanced settings** and fill in the form.
 
-    For more information on fields, see [Datadog advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/datadog-advanced-settings-fields.md).
+    For more information on fields, see [Datadog advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/datadog-advanced-settings-fields.md).
 
 9.  Test the connector before activating it by selecting **Test and Save**.
 

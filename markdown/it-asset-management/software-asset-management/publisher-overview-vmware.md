@@ -3,11 +3,11 @@ title: Publisher overview for VMware, Inc. in the Software Asset Workspace
 description: View license usage information related to VMware in the publisher overview for VMware, Inc. in the Software Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/publisher-overview-vmware.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Software Asset Management publisher pack for VMware, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -81,7 +81,7 @@ Summary of your license compliance progress.This summary includes the following 
 -   **Removal candidates**: Total number of VMware removal candidates. Select the number to view the list of all software removal candidates.
 
 </td></tr></tbody>
-</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
+</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/vmware-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/vmware-publisher-pack.md)
 

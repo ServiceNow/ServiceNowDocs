@@ -3,11 +3,11 @@ title: Datadog Observability tab for Service Observability
 description: Dashboard and charts on the Datadog Observability tab of the Service Details page in the SOW.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/datadog-observability-tab.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Datadog templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -70,5 +70,5 @@ These dashboards display metrics for databases related to the service.
 |Buffer Hits|Number of times disk blocks were found in the buffer cache, so that a read wasn’t necessary.|Datadog|
 |All PostgreSQL Instances|Information of all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[Datadog templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/datadog-templates.md)
+**Parent Topic:**[Datadog templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/datadog-templates.md)
 

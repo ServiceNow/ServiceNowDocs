@@ -3,11 +3,11 @@ title: Couchbase Database discovery
 description: The ServiceNow Discovery application uses the Couchbase Instance discovery pattern to find and map Couchbase Database instances and their clusters. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/couchbase-db-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   The Couchbase Database must be installed on a Linux Server: Red Hat 7.9 or Ubuntu 20.
 -   Ensure that CLI tools are installed on the servers.
--   On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md). Configure the credentials with the following permissions:
+-   On the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md). Configure the credentials with the following permissions:
     -   Discovery permissions
     -   Permissions to list files, such as VERSION.txt, in the Couchbase installation folders on the Linux Server.
     -   Permissions to execute the command, `systemctl status couchbase-server`, on the Linux Server.
@@ -184,5 +184,5 @@ Couchbase Cluster \[cmdb\_ci\_couchbase\_cluster\]
 
 \[Omitted image "couchbase-db-discovery-model.png"\] Alt text: Couchbase DB discovery CMDB data model.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

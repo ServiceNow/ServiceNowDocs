@@ -3,9 +3,9 @@ title: Integrations Launchpad in Service Operations Workspace for ITOM
 description: The Integrations Launchpad showcases all Event Management connector integrations, allowing users to pull or push events from external or internal devices. This centralized hub simplifies Event Management by consolidating integration options in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/integrations-launchpad.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM AIOps, IT Operations Management]
 ---

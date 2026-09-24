@@ -3,11 +3,11 @@ title: Onboard Harness to DevOps Change Velocity - Workspace
 description: Connect to your Harness instance using the DevOps Change Workspace playbook to discover pipelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-harness-to-devops-change-velocity.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Harness, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Connect to your Harness instance using the DevOps Change Workspace playbook to d
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Harness.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d207082e86">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d209605e86">
 
 Option
 
-</th><th align="left" id="d207082e89">
+</th><th align="left" id="d209605e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d207082e95">
+</th></tr></thead><tbody><tr><td id="d209605e95">
 
 **Homepage**
 
@@ -44,19 +44,19 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Harness as orchestration tool, you'd select Harness under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d207082e119">
+</td></tr><tr><td id="d209605e119">
 
 **Applications module**
 
 </td><td>
 
 1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\) from the primary navigation.
-2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Harness as orchestration tool, you'd select Harness under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d207082e168">
+</td></tr><tr><td id="d209605e168">
 
 **Tools module**
 
@@ -89,7 +89,7 @@ Steps
 
     3.  If your Harness instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-        For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md)
+        For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md)
 
     4.  Select **Connect**.
 
@@ -114,7 +114,7 @@ Steps
     3.  Select **Assign**.
 6.  In the Configure webhooks manually screen, copy the ServiceNow instance connection details for Harness.
 
-    \[Omitted image "harness-workspace-3.png"\] Alt text: Configure webhooks manually screenSee [Configure webhooks in Harness manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-webhooks-in-harness-manually.md) for more information.
+    \[Omitted image "harness-workspace-3.png"\] Alt text: Configure webhooks manually screenSee [Configure webhooks in Harness manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-webhooks-in-harness-manually.md) for more information.
 
 7.  Select the pipelines that you want to track and associate to the application, and select **Associate pipelines**.
 
@@ -139,7 +139,7 @@ Steps
 
 You’ve successfully onboarded your Harness tool to DevOps Change Velocity.
 
-**Note:** If your tool credential changes, you must also update the credentials in DevOps Change. For more information, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
+**Note:** If your tool credential changes, you must also update the credentials in DevOps Change. For more information, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
 
-**Parent Topic:**[Harness integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/harness-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Harness integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/harness-integration-with-devops-change-velocity.md)
 

@@ -3,9 +3,9 @@ title: GRC Choice record form
 description: Use the GRC Choice New record form to classify your events and organize them into event groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/event-group-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an event group for the scenario, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---

@@ -3,9 +3,9 @@ title: Survey responses in a database view
 description: You can view survey responses in a database view for reporting purposes. For each survey instance, you can view the instance as a single row and the answers to each survey question \(metric\) in the corresponding columns. Analyze the responses easily and, if you want, export the survey responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/survey-result-database-view.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey responses and results, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ The database view can show the start date, due date, expiry date, and completed 
 
 **Note:** Any change or update to survey configuration or metadata \(For example, addition or deletion of a new metric or category\) might affect the database view. In such cases, an event \(survey.results\_view.updated\) is generated so that users can take necessary actions to synchronize the data.
 
-**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md)
+**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyResults.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Managing namespaces in Hermes
 description: Group Kafka topics together for simplified topic management and access control specification using namespaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-hermes.html
-release: australia
+release: brazil
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage namespaces and topics, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -64,14 +64,14 @@ Plan how want to organize your namespaces and topics before you start creating t
     You can enforce tighter constraints on where topics are created by deleting the Default Namespace. For example, if you decide that all topics must have a prefix that matches a namespace, deleting the Default Namespace ensures that topics without a matching prefix aren't created.
 
 
-For details on using domain separation with namespaces in Hermes, see [Hermes Messaging Service domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-domain-separation.md).
+For details on using domain separation with namespaces in Hermes, see [Hermes Messaging Service domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-domain-separation.md).
 
--   **[Create a namespace in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/create-namespace-hermes.md)**  
+-   **[Create a namespace in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/create-namespace-hermes.md)**  
 Organize your Kafka topics by creating a namespace.
--   **[Delete a namespace in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/delete-namespace-hermes.md)**  
+-   **[Delete a namespace in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/delete-namespace-hermes.md)**  
 Prevent topics from being added to a namespace by deleting the namespace in Hermes.
 
-**Parent Topic:**[Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md)
+**Parent Topic:**[Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md)
 
 **Related topics**  
 

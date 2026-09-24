@@ -3,11 +3,11 @@ title: Modify a workplace knowledge base article
 description: Update a knowledge base article at any time. Retire a published article or republish a retired article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/modify-workplace-kb-article-hr.html
-release: australia
+release: brazil
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace knowledge management, Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---

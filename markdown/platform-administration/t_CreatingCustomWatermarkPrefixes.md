@@ -3,9 +3,9 @@ title: Create a custom watermark prefix for email notifications
 description: By default, email notifications use the watermark prefix MSG, but you can create a custom watermark prefix.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreatingCustomWatermarkPrefixes.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Watermarks on notification emails, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -39,5 +39,5 @@ Any email notifications that are forwarded from one instance to another might be
 
 Your custom watermark applies to all new email notifications. Email notifications that existed before you created a custom watermark keep the same watermarks as before.
 
-**Parent Topic:**[Watermarks on notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_WorkingWithWatermarks.md)
+**Parent Topic:**[Watermarks on notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_WorkingWithWatermarks.md)
 

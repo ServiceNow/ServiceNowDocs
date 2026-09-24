@@ -3,11 +3,11 @@ title: Set up a stand-alone certificate authority for active directory
 description: The first step to configure Microsoft Active Directory for SSL access is to set up a stand-alone Certificate Authority \(CA\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_SetUpAStandaloneCA.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Microsoft AD for secure LDAPS communication, LDAP integration, Authentication, Access Management]
 ---

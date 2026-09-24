@@ -3,9 +3,9 @@ title: Reference field attributes for input form screens in offline mode
 description: Configure the fields that you want to use and the data you want to display in offline mode by using various input attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/reference-fields-offline-attributes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Input forms in offline, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -14,11 +14,11 @@ breadcrumb: [Input forms in offline, Offline mode setup options, Offline mode, B
 
 Configure the fields that you want to use and the data you want to display in offline mode by using various input attributes.
 
-**Note:** You must create an input form screen before you create variables and attributes. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+**Note:** You must create an input form screen before you create variables and attributes. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md).
 
 ## Reference inputs
 
-Use reference inputs for inputs that reference a field on a table. These inputs work like [reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceField.md) in the forms on your instance. You can configure your reference input with conditions, reference qualifiers, and a search option to help your users find what they need quickly.
+Use reference inputs for inputs that reference a field on a table. These inputs work like [reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ReferenceField.md) in the forms on your instance. You can configure your reference input with conditions, reference qualifiers, and a search option to help your users find what they need quickly.
 
 You can use these attributes with reference inputs.
 
@@ -137,5 +137,5 @@ This example shows how the system dynamically retrieves users who share the logg
     ```
 
 
-**Parent Topic:**[Input forms in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-input-form.md)
+**Parent Topic:**[Input forms in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/offline-input-form.md)
 

@@ -3,13 +3,13 @@ title: Knowledge base articles Genius Results
 description: Knowledge base articles Genius Results use the LLM to generate concise, actionable answers from knowledge article results in Service Portal, Virtual Agent, Employee Center, and global searches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/now-assist-qna-genius-results.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -17,7 +17,7 @@ breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI S
 
 Knowledge base articles Genius Results use the LLM to generate concise, actionable answers from knowledge article results in Service Portal, Virtual Agent, Employee Center, and global searches.
 
-**Important:** Starting with the Now Assist in AI Search 11 release, the Knowledge base articles Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Summary Genius Results feature. For more details on this feature, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
+**Important:** Starting with the Now Assist in AI Search 11 release, the Knowledge base articles Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Summary Genius Results feature. For more details on this feature, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
 
 ## Knowledge base articles Genius Results overview
 
@@ -29,25 +29,25 @@ The Knowledge base articles Genius Result answer card contains a snippet that su
 
 **Note:** Because the Knowledge base articles Genius Result answer is automatically generated, it's a good idea to review it for accuracy. You can provide feedback on the answer by selecting the thumbs-up icon \[Omitted image "genius-result-feedback-positive.png"\] Alt text: if the generated answer is accurate, or the thumbs-down icon \[Omitted image "genius-result-feedback-negative.png"\] Alt text: if it's not. Your feedback helps ServiceNow improve future versions of this Genius Result configuration.
 
-Knowledge base articles Genius Results use semantic vector search and legacy keyword search to find knowledge articles that best match the meaning and intent of your search query. For more details on semantic vector search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-search-ais.md).
+Knowledge base articles Genius Results use semantic vector search and legacy keyword search to find knowledge articles that best match the meaning and intent of your search query. For more details on semantic vector search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/semantic-search-ais.md).
 
-The Knowledge base articles Genius Result configuration replaces the original Q&amp;A Genius Result configuration from the base system. The base system's configuration extracts answers from knowledge articles using internal routines instead of using the LLM. To learn more about the base system's Q&amp;A Genius Result configuration, see [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-q-a-ais.md).
+The Knowledge base articles Genius Result configuration replaces the original Q&amp;A Genius Result configuration from the base system. The base system's configuration extracts answers from knowledge articles using internal routines instead of using the LLM. To learn more about the base system's Q&amp;A Genius Result configuration, see [Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/genius-result-q-a-ais.md).
 
 ## Enabling Knowledge base articles Genius Results
 
-You can enable Knowledge base articles Genius Results in your AI Search portals and mobile applications using the ServiceNow® Otto for AI Search Setup module. For details on this procedure, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
+You can enable Knowledge base articles Genius Results in your AI Search portals and mobile applications using the ServiceNow® Otto for AI Search Setup module. For details on this procedure, see [Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
 
-To use Knowledge base articles Genius Results in global search, you can enable the configuration in the AI Search for Next Experience application. For details on this procedure, see [Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
+To use Knowledge base articles Genius Results in global search, you can enable the configuration in the AI Search for Next Experience application. For details on this procedure, see [Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
 
 **Note:** When you activate Knowledge base articles Genius Results in a search application, they're available to all users who search using that application.
 
 ## Limitations
 
-By default, Knowledge base articles Genius Results only support English-language searches. Administrators can enable support for other languages by activating Dynamic Translation. To learn more about how content and answers are translated, see [Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md). For more details on Dynamic Translation, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
+By default, Knowledge base articles Genius Results only support English-language searches. Administrators can enable support for other languages by activating Dynamic Translation. To learn more about how content and answers are translated, see [Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md). For more details on Dynamic Translation, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 Knowledge articles that are boosted or promoted by result improvement rules are more likely to appear as Knowledge base articles Genius Results, but aren't guaranteed to appear.
 
-**Note:** The Knowledge search property settings don't affect Knowledge base articles Genius Results. For more information on these settings, see [Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeProperties.md).
+**Note:** The Knowledge search property settings don't affect Knowledge base articles Genius Results. For more information on these settings, see [Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_KnowledgeProperties.md).
 
 If you have the External Content Connectors ServiceNow® Store application installed, Knowledge base articles Genius Results exclude search results retrieved from external content source systems when generating answers.
 
@@ -75,7 +75,7 @@ Interaction with Knowledge base articles Genius Results
 
 </th></tr></thead><tbody><tr><td>
 
-[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)
+[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)
 
 </td><td>
 
@@ -86,7 +86,7 @@ When computing Knowledge base articles Genius Result answers for a search query,
 
 </td></tr><tr><td>
 
-[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)
+[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/stop-words-ais.md)
 
 </td><td>
 
@@ -94,7 +94,7 @@ Knowledge base articles Genius Results use a blend of semantic vector search, wh
 
 </td></tr><tr><td>
 
-[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)
+[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/synonyms-ais.md)
 
 </td><td>
 
@@ -102,23 +102,23 @@ Knowledge base articles Genius Results use a blend of semantic vector search, wh
 
 </td></tr><tr><td>
 
-[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)
+[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/typo-handling-ais.md)
 
 </td><td>
 
 When computing Knowledge base articles Genius Result answers for a search query, AI Search corrects misspelled terms in the query.
 
 </td></tr></tbody>
-</table>-   **[Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md)**  
+</table>-   **[Enabling Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md)**  
 As a search administrator, you can use the Knowledge base articles Genius Results skill in AI Search portals and mobile applications by enabling the skill in search profiles. You can also use the skill in global search by enabling Knowledge base articles Genius Results in the AI Search for Next Experience application.
--   **[Define a query filter for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/define-qry-fltr-now-assist-qna-gr.md)**  
+-   **[Define a query filter for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/define-qry-fltr-now-assist-qna-gr.md)**  
 Define a Java regular expression pattern that a search must match to be eligible for triggering Knowledge base articles Genius Results. Searches that don't match this pattern don't return Genius Result answers from Knowledge base articles Genius Results.
--   **[Change the minimum search term count for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/set-min-srch-terms-now-assist-qna.md)**  
+-   **[Change the minimum search term count for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/set-min-srch-terms-now-assist-qna.md)**  
 Specify the minimum number of terms that a search must contain to be eligible for triggering Knowledge base articles Genius Results. Searches with fewer terms don't return Knowledge base articles Genius Result answers.
--   **[Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md)**  
+-   **[Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md)**  
 Dynamic Translation improves the international search experience for knowledge article content. When Dynamic Translation is activated, AI Search can generate Knowledge base articles Genius Result answers from non-English knowledge articles. Dynamic Translation also enables AI Search to translate Knowledge base articles Genius Result answers into the search user's language.
--   **[Caching for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md)**  
+-   **[Caching for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md)**  
 AI Search provides two query-time caches to improve search performance for Knowledge base articles Genius Results. Caching enables AI Search to return previously generated answers without submitting knowledge articles to the Now LLM Service for answer generation.
 
-**Parent Topic:**[Configuring ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
+**Parent Topic:**[Configuring ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
 

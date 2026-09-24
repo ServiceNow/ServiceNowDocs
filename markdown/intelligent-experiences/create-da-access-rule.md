@@ -3,11 +3,11 @@ title: Create a desktop action access rule
 description: Configure rules to enforce security boundaries for AI agents in your organization. Resource access rules define which files, folders, websites, and applications AI Desktop Actions can access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-da-access-rule.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Control resource access, Adaptive desktop actions for desktop and web, Configure, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Control resource access, Adaptive desktop actions for desktop and web, Configure, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create a desktop action access rule
@@ -26,7 +26,7 @@ The Desktop action resource access rule form includes fields for configuring the
 
 \[Omitted image "da-resource-rule-form.png"\] Alt text: Desktop action resource access rule with form fields and policy related list.
 
-For more information about the default resource access rules available with the installation of the application, see [Default policy and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/security_policy_governance_concept.md).
+For more information about the default resource access rules available with the installation of the application, see [Default policy and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/security_policy_governance_concept.md).
 
 ## Procedure
 
@@ -152,9 +152,9 @@ Description explaining what the rule controls, why it's necessary, and what reso
 
 ## What to do next
 
-Execute adaptive desktop actions on your desktop. For more information, see [Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use_ai_desktop_actions_adaptive.md).
+Execute adaptive desktop actions on your desktop. For more information, see [Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use_ai_desktop_actions_adaptive.md).
 
-Take manual control of automation during execution. For more information, see [Take control of AI Desktop Actions execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/control_ai_desktop_actions_execution_adaptive.md).
+Take manual control of automation during execution. For more information, see [Take control of AI Desktop Actions execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/control_ai_desktop_actions_execution_adaptive.md).
 
-**Parent Topic:**[Controlling what AI Desktop Actions can access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/security_policy_governance_concept.md)
+**Parent Topic:**[Controlling what AI Desktop Actions can access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/security_policy_governance_concept.md)
 

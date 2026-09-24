@@ -3,9 +3,9 @@ title: Review threat group and MITRE-ATT&amp;CK techniques mapping
 description: Review the threat group and techniques object to object relationship mapping information that is imported from the MITRE TAXII collections. This mapping enables you to view the technique group and the corresponding technique mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/review-threat-group-and-techniques-mapping.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -28,7 +28,7 @@ Role required:
 2.  Right click the **Source Object** and select **Group By Source Object** to view all the attack patterns associated with a threat group.
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

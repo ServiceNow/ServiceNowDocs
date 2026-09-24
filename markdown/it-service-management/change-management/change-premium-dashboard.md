@@ -3,7 +3,7 @@ title: Legacy: Change Premium dashboard
 description: This dashboard uses Workbench widgets and other advanced Platform Analytics features to give you all the information about the Change process in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-premium-dashboard.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
@@ -18,7 +18,7 @@ This dashboard uses Workbench widgets and other advanced Platform Analytics feat
 
 **Important:**
 
-Starting in Xanadu release, the Core UI Change Premium dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change.md) to view the information about the Change process in one place.
+Starting in Xanadu release, the Core UI Change Premium dashboard is deprecated. You can use Platform Analytics [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change.md) to view the information about the Change process in one place.
 
 \[Omitted image "change-mgmt-premium.gif"\] Alt text: Animated tour of the tabs of the Change Premium dashboard
 
@@ -114,5 +114,5 @@ The following indicators are not displayed on the dashboard but are used in form
 |Changes Opened per Month by Type|Column\[Omitted image "column-icon.png"\] Alt text: Column report icon|All closed reports opened in the current calendar year. Grouped by type and trended by month opened.|
 |Closed Changes per Month|Line \[Omitted image "line-icon.png"\] Alt text: Line report icon|Number of closed changes per month expressed on a line chart.|
 
-**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-content-pack.md)
+**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-content-pack.md)
 

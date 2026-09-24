@@ -3,9 +3,9 @@ title: View and verify the import sets
 description: Verify if your data is imported correctly from an external source. This verification enables you to identify if there were any errors during the data import.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/view-and-verify-the-import-sets.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -37,7 +37,7 @@ After the data is loaded to the Operational Sustainability Management applicatio
 
 ## What to do next
 
-[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-transform-map.md).
+[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-transform-map.md).
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-watershed.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrate-esg-with-watershed.md)
 

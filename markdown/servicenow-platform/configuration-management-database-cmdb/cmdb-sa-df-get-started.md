@@ -3,11 +3,11 @@ title: Getting started with Data Foundations advisor dashboard setup
 description: The Data Foundations advisor dashboard can be configured automatically on installation or upgrade, or manually through the CMDB success advisor landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-get-started.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Data Foundations advisor dashboard setup, automatic dashboard configuration, manual dashboard setup, principal class scope selection, CMDB Advisor Auto Setup scheduled job]
 breadcrumb: [Advisor setup, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -29,11 +29,11 @@ Role required: sn\_cmdb\_admin
 
 When you install or upgrade CMDB success advisor, the **CMDB Advisor - Auto Setup** on-demand scheduled job can automatically configure the Data Foundations advisor dashboard if all eligibility conditions are met. Open the CMDB success advisor landing page to confirm the dashboard setup state before proceeding manually.
 
-For more information about eligibility conditions and the auto-setup process, see [Automatic dashboard setup for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-auto-setup.md).
+For more information about eligibility conditions and the auto-setup process, see [Automatic dashboard setup for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-auto-setup.md).
 
 ## Manual setup
 
 If auto-setup did not run or the eligibility conditions were not met, configure the dashboard manually by selecting principal classes on the CMDB success advisor landing page.
 
-For instructions, see [Set up the Data Foundations advisor dashboard manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-manual-setup.md).
+For instructions, see [Set up the Data Foundations advisor dashboard manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-manual-setup.md).
 

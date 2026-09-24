@@ -3,11 +3,11 @@ title: TuneUp Your Software Asset Management
 description: The TuneUp Your Software Asset Management \(SAM\) Accelerator provides guidance on maintaining and governing Software Asset Management health to optimize value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-sw-asset-mgmt.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -20,31 +20,34 @@ The TuneUp Your Software Asset Management \(SAM\) Accelerator provides guidance 
 
 TuneUp Your Software Asset Management provides Impact customers with an assessment of their current SAM implementation. This Accelerator includes  an  applied demonstration of SAM capabilities to reduce IT costs and limit various risks  through managing and optimizing software assets across the customer's lifecycle.  Customers obtain assistance for better insight into their SAM investment and  are provided leading practices on how to best increase adoption and usage.
 
-See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_SoftwareAssetMgmt.md) for additional information about SAM.
+See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_SoftwareAssetMgmt.md) for additional information about SAM.
 
 ## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
-Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
-
 ## What you get
 
 -   **Session preparation**
-    -   Provisioning a temporary instance
-    -   Running SAM HealthScan portfolio
-    -   Activation of all SAM Professional plugins, including Software Asset Workspace
-    -   Activation of the ITAM Health Check application
--   **Customer coaching session \#1 \(up to 90 minutes\)**
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Runs SAM HealthScan portfolio
+    -   Activates all SAM Professional plugins, including Software Asset Workspace
+    -   Activates ITAM Health Check application
+-   **Customer coaching session \#1 \(up to 1.5 hrs\)**
     -   Includes the following:
         -   Overview of advanced SAM capabilities and features
         -   Review HealthScan and Health Check findings
         -   Provide leading practices guide and resources
-    -   Access to the provisioned temporary instance is granted for 30 days
--   **Customer coaching session \#2 \(optional upon customer request – up to 60 minutes\)**
+-   **Customer coaching session \#2 \(optional upon customer request – up to 1 hr\)**
 
     Opportunity for Q&amp;A related to Software Asset Management
 
+-   **Output**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested customer resources
 
@@ -58,9 +61,9 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 |Service Manager\(s\) \(Recommended\)|Subject matter expert responsible for managing the applicable service.|
 |Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.|
 
-## Requested information/access
+## Requested Information/Access
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
 

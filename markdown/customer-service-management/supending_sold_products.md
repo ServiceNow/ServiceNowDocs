@@ -3,9 +3,9 @@ title: Supending sold products
 description: Suspend sold products to create a suspend order or quote on the CRM Workspace.Create an order to suspend a sold product and its hierarchy on the CRM Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.Create an order to suspend multiple sold product and their hierarchy on the CRM Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/supending\_sold\_products.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,12 +14,12 @@ breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your
 
 Suspend sold products to create a suspend order or quote on the CRM Workspace.
 
-Supend single or multiple root sold products and create combined orders for suspension and resumption of products and servies at the same time, to improve agent efficiency.
+Supend single or multiple root sold products and create combined orders for suspension and resumption of products and services at the same time, to improve agent efficiency.
 
 |Task|Description|
 |----|-----------|
-|Suspend a single sold product|[Suspend a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supending_sold_products.md)|
-|Suspend multiple sold products|[Suspend multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supending_sold_products.md)|
+|Suspend a single sold product|[Suspend a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/supending_sold_products.md)|
+|Suspend multiple sold products|[Suspend multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/supending_sold_products.md)|
 
 ## Suspend a single sold product
 

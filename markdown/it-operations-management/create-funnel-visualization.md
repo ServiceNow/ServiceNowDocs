@@ -3,9 +3,9 @@ title: Create a funnel visualization
 description: A funnel visualization shows how data progresses through sequential stages, helping you identify drop-offs or bottlenecks at each step. Use it to track conversions, workflows, or process completion rates. You can add a funnel visualization to an existing dashboard or to a new dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-funnel-visualization.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Data visualization in ITOM, AIOps Dashboards in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Ensure you have an admin role or permission from the dashboard owner to edit the
 
 ## About this task
 
-If you have the appropriate role, you can add and edit funnel reports on a dashboard. The **Edit** button is not available on the ITOM dashboards unless the user has rights to edit it. For more details on creating dashboards, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md).
+If you have the appropriate role, you can add and edit funnel reports on a dashboard. The **Edit** button is not available on the ITOM dashboards unless the user has rights to edit it. For more details on creating dashboards, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dashboard-tasks.md).
 
 ## Procedure
 
@@ -72,15 +72,15 @@ If you have the appropriate role, you can add and edit funnel reports on a dashb
 
     When you select a table or indicator data source for a funnel visualization, refer to the following topics for the available data configuration options:
 
-    -   [Table data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/funnel-table-data.md)
-    -   [Indicator data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/funnel-indicator-data.md)
+    -   [Table data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/funnel-table-data.md)
+    -   [Indicator data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/funnel-indicator-data.md)
 9.  Select **Save**.
 
 
--   **[Table data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/funnel-table-data.md)**  
+-   **[Table data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/funnel-table-data.md)**  
 When you select a table data source for the funnel visualization, the following data configuration options are available.
--   **[Indicator data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/funnel-indicator-data.md)**  
+-   **[Indicator data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/funnel-indicator-data.md)**  
 When you select an indicator data source for the funnel visualization, the following data configuration options are available.
 
-**Parent Topic:**[Data visualization in ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-data-visualization.md)
+**Parent Topic:**[Data visualization in ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-data-visualization.md)
 

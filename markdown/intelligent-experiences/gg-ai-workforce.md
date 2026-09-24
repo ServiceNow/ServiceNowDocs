@@ -3,12 +3,12 @@ title: General guidelines for deploying an autonomous workforce
 description: AI specialists, like other agentic AI, benefit from strategic planning for testing, deploying, and monitoring performance. Learn guiding principles to help your AI specialists achieve their highest chances of success.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gg-ai-workforce.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [AI specialists, autonomous workforce, deployment, general guidelines, agentic AI]
-breadcrumb: [Explore, Autonomous Workforce, Enable AI experiences]
+breadcrumb: [Explore, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # General guidelines for deploying an autonomous workforce
@@ -54,10 +54,10 @@ Within the AI specialist's profile, the sections each relate to different aspect
 
 -   **Roles: what data the AI specialist has access to**
 
-    See the section [Data access security for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-ai-workforce.md).
+    See the section [Data access security for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gg-ai-workforce.md).
 
 
-The AI specialist's tasks specify the actions that it can take to solve problems within the domains. Each task has different options to configure the actions further. For more information about the different tasks available, see [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks.md).
+The AI specialist's tasks specify the actions that it can take to solve problems within the domains. Each task has different options to configure the actions further. For more information about the different tasks available, see [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aiw-tasks.md).
 
 ## Operating modes: from supervised to autonomous
 
@@ -94,7 +94,7 @@ Consider these security principles when configuring AI specialist roles:
 
 Tasks must be assigned to the AI specialist. You can assign tasks to the AI specialist like any other user. Manual assignment, business rules or other triggers, and Advanced Work Assignment \(AWA\) all work. AWA allows you to select rules for assigning work so that work can be assigned automatically when the record is created or updated.
 
-The User record associated with the AI specialist can be found on its [profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-profile.md). You can use business rules, triggers, or AWA to assign work to the AI specialist referencing that User record.
+The User record associated with the AI specialist can be found on its [profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aiw-profile.md). You can use business rules, triggers, or AWA to assign work to the AI specialist referencing that User record.
 
 When setting up assignment rules, consider these factors:
 
@@ -107,7 +107,7 @@ When setting up assignment rules, consider these factors:
 Certain conditions are reliable early warnings that a deployment will encounter issues. Validate against each of these before activating an AI specialist.
 
 -   Task states that don't change during AI specialist execution, which can suggest extensive customizations that fall outside foundational readiness. Run the AI Readiness Evaluation application to assess foundational readiness before proceeding.
--   Task states that don't change during AI specialist execution, which can also suggest a state model that isn't mapped to the AI specialist's processing states. See [Edit the tasks of an AI specialist in the legacy AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks.md) for steps to configure state mapping.
+-   Task states that don't change during AI specialist execution, which can also suggest a state model that isn't mapped to the AI specialist's processing states. See [Edit the tasks of an AI specialist in the legacy AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aiw-tasks.md) for steps to configure state mapping.
 -   Test queries that return no results or surface internal-only content, which points to a knowledge base that isn't ready. Complete a knowledge audit and enforce audience separation before proceeding.
 -   Poor knowledge base search results despite a ready knowledge base, which points to an AI Search profile misconfiguration. Inspect and adjust the Zero Touch Service Desk \(ZTSD\) search profile and AI Search configuration to target the right content for the AI specialist to rely on.
 -   Zero assignments after activation, which points to an assignment rule or routing misconfiguration. Validate routing in a non-production environment and run a test task through the full routing chain across all intake channels.
@@ -150,7 +150,7 @@ Establish regular performance review cycles to:
 
 ## Ongoing monitoring and optimization
 
-After deploying your AI specialist, continuous monitoring helps maintain optimal performance and identify opportunities for improvement. You can track the performance analytics of an AI specialist by selecting them in AI Agent Studio. See [View AI specialist performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/view-aiw-performance.md).
+After deploying your AI specialist, continuous monitoring helps maintain optimal performance and identify opportunities for improvement. You can track the performance analytics of an AI specialist by selecting them in AI Agent Studio. See [View AI specialist performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/view-aiw-performance.md).
 
 Key metrics include:
 

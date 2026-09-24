@@ -3,11 +3,11 @@ title: Send an SMS alert from a task
 description: Use Notify to send information related to a call through SMS alerts from a task record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_SendAnSMSFromATask.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Notify with tasks, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,7 +42,7 @@ Use **glide.enable.notify\_on\_task** property to enable Notify integration for 
 
 5.  To select ad-hoc participants, choose one of the following actions.
 
-<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d87841e143">
+<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d87171e143">
 
 **Click the reference lookup icon and select the relevant user**
 
@@ -50,7 +50,7 @@ Use **glide.enable.notify\_on\_task** property to enable Notify integration for 
 
 Click **Add to selected**.
 
-</td></tr><tr><td id="d87841e155">
+</td></tr><tr><td id="d87171e155">
 
 **Enter the participant's phone number**
 
@@ -66,7 +66,7 @@ Click **Add to selected**.
 
 Any SMS records created from a task are associated with that task. You can view associated SMS messages from the task record in the **SMS Messages** related list. You might need to configure the form to add this related list.
 
-**Parent Topic:**[Using Notify with tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyOnTask.md)
+**Parent Topic:**[Using Notify with tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifyOnTask.md)
 
 **Related topics**  
 

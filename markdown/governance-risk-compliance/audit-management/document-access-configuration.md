@@ -3,11 +3,11 @@ title: Create Cloud File Access on engagements and audit tasks
 description: The GRC Workspace administrators can create a Cloud file configuration on engagements and audit tasks from the Cloud file configuration module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/document-access-configuration.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +27,7 @@ Workspace users with the following roles can access the Cloud file configuration
 
 ## Cloud file configuration module
 
-If you're the Workspace administrator with the sn\_grc\_workspace.admin role, you can update the following fields in the Cloud file configuration module. Configure the permissions as shown in the example.
+If you are the Workspace administrator with the sn\_grc\_workspace.admin role, you can update the following fields in the Cloud file configuration module. Configure the permissions as shown in the example.
 
 \[Omitted image "cloud-file-config-file-access-permission.png"\] Alt text: File access permissions.
 

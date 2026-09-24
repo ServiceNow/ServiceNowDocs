@@ -3,7 +3,7 @@ title: FRISS Spoke
 description: Integrate a ServiceNow instance with your FRISS account to leverage the fraud detection capabilities for claims and to detect fraud early in the claims process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/friss-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -52,7 +52,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 **Note:**
 
 -   Some of these plugins may require the appropriate licensing if used outside the spoke implementation.
--   The flow actions input parameter is provided for you to use. For more information on the sample input data structure and data types used in an array and object, see Complex data.
+-   The flow actions input parameter is provided for you to use. For more information on the sample input data structure and data types used in an array and object, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/complex-data.md).
 
 ## Spoke actions
 
@@ -70,5 +70,5 @@ The FRISS spoke provides actions that trigger FRISS Trust automation in response
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For more information about setting up the FRISS spoke, see [Set up the FRISS spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-the-friss-spoke.md).
+For more information about setting up the FRISS spoke, see [Set up the FRISS spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-the-friss-spoke.md).
 

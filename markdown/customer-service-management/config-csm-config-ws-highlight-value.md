@@ -1,16 +1,16 @@
 ---
-title: Set up a highlighted value in a form header in CRM Workspace
+title: Set up a highlighted value in a form header in Customer Service Workspace
 description: You can configure fields that appear as highlighted values in a form header in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-config-ws-highlight-value.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Set up a highlighted value in a form header in CRM Workspace
+# Set up a highlighted value in a form header in Customer Service Workspace
 
 You can configure fields that appear as highlighted values in a form header in CRM Workspace.
 
@@ -74,5 +74,5 @@ One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighte
 **Related topics**  
 
 
-[Configure a highlighted value for a form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-ws-highlight-value.md)
+[Configure a highlighted value for a form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/config-ws-highlight-value.md)
 

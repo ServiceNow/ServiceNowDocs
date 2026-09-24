@@ -3,11 +3,11 @@ title: Catalog item form slot-fill
 description: With the catalog item form slot-fill skill, generative AI can automatically complete catalog item forms based on what users search for.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-item-form-slot-fill.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI Authoring for Catalog Builder reference, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,5 +33,5 @@ Pre-filled fields show AI icons to help users validate the populated values.
 -   UI page
 -   HTML
 
-**Parent Topic:**[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
+**Parent Topic:**[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 

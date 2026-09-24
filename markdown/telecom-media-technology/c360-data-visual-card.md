@@ -3,9 +3,9 @@ title: Data visualization card
 description: The data visualization card provides key customer metrics with case breakdowns and customer satisfaction score.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-data-visual-card.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Home page, Use, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -22,9 +22,9 @@ The following visualizations are displayed for the account, consumer, or contact
     -   Contact context: Score is calculated from surveys taken directly by that contact.
     -   Consumer context: Score is calculated from surveys taken by the primary user associated with the consumer record.
 
-You can configure variables such as tables, display fields, and query conditions. See [Configure the data visualization group variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-data-card.md) for details.
+You can configure variables such as tables, display fields, and query conditions. See [Configure the data visualization group variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure-data-card.md) for details.
 
-You can add custom visualizations to the data visualizations card. For details, see [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md).
+You can add custom visualizations to the data visualizations card. For details, see [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/par-workspace.md).
 
-**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md)
+**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-home-page.md)
 

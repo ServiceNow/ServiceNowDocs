@@ -3,7 +3,7 @@ title: Using the Grants Proposal Management Playbook in Grants Management
 description: Use the Grants Proposal Playbook to manage the life cycle of grant applications submitted by organizations through the portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-grants-proposal-playbook.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-17"
 reading_time_minutes: 9
@@ -112,7 +112,7 @@ Once the application is routed to the Grant Program Manager, the intake stage an
 
     \[Omitted image "psds-gmp-prop-sign-submit.png"\] Alt text: Enter Applicant information view
 
-    Allows the applicant to review, authorize, and finalize their submission. Captures the applicant’s signature and completes the application submission. The Terms and Conditions displayed in this activity are retrieved from the Point in Time Content \(sn\_svc\_appl\_info\_pitc\) table. For more information on configuring terms and conditions, disclaimers, and other point-in-time content for a grant program, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-point-in-time-content.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-point-in-time-content.md).
+    Allows the applicant to review, authorize, and finalize their submission. Captures the applicant’s signature and completes the application submission. The Terms and Conditions displayed in this activity are retrieved from the Point in Time Content \(sn\_svc\_appl\_info\_pitc\) table. For more information on configuring terms and conditions, disclaimers, and other point-in-time content for a grant program, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-point-in-time-content.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-point-in-time-content.md).
 
 
 ## Proposal Screening
@@ -138,7 +138,7 @@ Using the Grants Management Screening feature, managers can:
 
     \[Omitted image "psds-gmp-conf-elig.png"\] Alt text: Enter Applicant information view
 
-    Determine the eligibility of an applicant based on the execution of PaCE polices linked to the proposal’s program, defined during the Program Setup phase. For more information on setting up or modifying PaCE policies to determine post-submission eligibility of a grant application, see [Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-eligibility.md).
+    Determine the eligibility of an applicant based on the execution of PaCE polices linked to the proposal’s program, defined during the Program Setup phase. For more information on setting up or modifying PaCE policies to determine post-submission eligibility of a grant application, see [Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-eligibility.md).
 
 -   **Approve new contacts**
 

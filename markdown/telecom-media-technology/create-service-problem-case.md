@@ -3,9 +3,9 @@ title: Create a service problem case from the workspace
 description: Create a service problem case using playbook for a customer raised issue so that an agent can work on it and resolve the service-related problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-service-problem-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_sprb\_mgmt.agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon.
 
@@ -34,11 +34,11 @@ Role required: sn\_sprb\_mgmt.agent
 
     **Note:** The fibre broadband service definition as been shipped as a part of the demo data.
 
-    For more information about service definition, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md).
+    For more information about service definition, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-service-definitions.md).
 
 7.  Select **Create case**.
 
-    In service definition, when you select **Create case** a playbook record generator form appears. Fill the playbook record generator form. For more information about the playbook record generator, see [Set up a record generator for case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-record-generator-for-case-type.md).
+    In service definition, when you select **Create case** a playbook record generator form appears. Fill the playbook record generator form. For more information about the playbook record generator, see [Set up a record generator for case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-record-generator-for-case-type.md).
 
 8.  On the intake form of verify issue, fill in the fields.
 

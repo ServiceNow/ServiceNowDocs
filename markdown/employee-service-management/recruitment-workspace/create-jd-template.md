@@ -3,11 +3,11 @@ title: Create job description templates
 description: Create job description templates to make the new requisition requesting process more streamlined.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/create-jd-template.html
-release: australia
+release: brazil
 product: Recruitment Workspace
 classification: recruitment-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Recruitment Workspace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ The system administrator creates the job description templates, which are availa
 
 The recruiters can create the job description templates for themselves and also add it to the assignment groups they are part of, for others to use it.
 
-For more information on creating a job description template, see [Create a template using the Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md).
+For more information on creating a job description template, see [Create a template using the Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md).
 
-**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
 

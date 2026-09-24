@@ -3,11 +3,11 @@ title: Turn on the Flow execution analysis skill
 description: Turn on the flow execution analysis skill to summarize flow execution details and generate recommendations for flow in an error state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-the-flow-execution-analysis-skill.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flow execution analysis, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ Turn on the flow execution analysis skill to summarize flow execution details an
 
 ## Before you begin
 
--   Install the ServiceNow Otto for Creator application. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. See .
 -   Role required: flow\_designer or admin
 
 ## Procedure
@@ -38,5 +38,5 @@ Turn on the flow execution analysis skill to summarize flow execution details an
     \[Omitted image "na-flow-execution-analysis-skill-active.png"\] Alt text: Flow execution analysis skill listed as active skill
 
 
-**Parent Topic:**[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-analysis-landing.md)
+**Parent Topic:**[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-execution-analysis-landing.md)
 

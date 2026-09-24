@@ -3,9 +3,9 @@ title: Map screen
 description: Map screens display a map with locations that are associated to the records in a data item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/map-screen.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---

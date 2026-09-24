@@ -3,13 +3,13 @@ title: Landing page
 description: The DEX landing page serves as the starting point for the information on the total number of alerts, impacted devices, and a device world map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-workspace-dashboard-tab.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [DEX Application and Device Health pages, Monitor, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
 ---
 
 # Landing page
@@ -20,7 +20,7 @@ To access the landing page, navigate to **Workspaces** &gt; **Service Operations
 
 **Note:** The graphs display the latest data from the last two hours.
 
-For more details on each card, see [Landing page cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dashboard-cards.md).
+For more details on each card, see [Landing page cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dashboard-cards.md).
 
 ## Employee experience overview
 

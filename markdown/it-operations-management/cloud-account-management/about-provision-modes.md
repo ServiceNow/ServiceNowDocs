@@ -3,11 +3,11 @@ title: About provision modes in Cloud Account Management
 description: Cloud Account Management supports both Terraform \(Cloud and Enterprise\) and cloud native interface provision modes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/about-provision-modes.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Terraform working in Cloud Workspace]
 breadcrumb: [Explore, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]

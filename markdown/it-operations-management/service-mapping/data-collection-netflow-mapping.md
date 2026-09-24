@@ -3,11 +3,11 @@ title: Data collection and discovery using Netflow
 description: Service Mapping can perform discovery based on data collected using the Netflow protocol. Netflow is a protocol that Service Mapping can use to collect data about CIs and their connections along with Netstat and lsof commands.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/data-collection-netflow-mapping.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping
 
 Service Mapping can perform discovery based on data collected using the Netflow protocol. Netflow is a protocol that Service Mapping can use to collect data about CIs and their connections along with Netstat and lsof commands.
 
-Using the Netflow protocol for collecting data is one of the traffic-based discovery methods. Other methods deployed by Service Mapping are using netstat and lsof commands and the VPC Flow Logs. For more information, refer to [Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traffic-based-discovery.md).
+Using the Netflow protocol for collecting data is one of the traffic-based discovery methods. Other methods deployed by Service Mapping are using netstat and lsof commands and the VPC Flow Logs. For more information, refer to [Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/traffic-based-discovery.md).
 
 In base systems, which are the default or standard configurations, traffic-based discovery relies solely on TCP-related data collected using the **netstat**, **ss**, and **lsof** commands. Discovery based on Netflow and VPC logs requires additional configuration. You can enrich your traffic-based discovery by configuring Service Mapping to use the Netflow protocol.
 
@@ -24,11 +24,11 @@ The component, which receives data in the Netflow format is the Netflow Collecto
 
 -   **For the test purposes**
 
-    This setup results in half automated data collection flow, where Service Mapping imports data only if you manually copy it from the Netflow Collector. You place the Netflow Collector on a server inside your organization network. This must be a server different from the server hosting the MID Server. You configure and test this setup as described in [Configure a Netflow data import for testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/test-netflow-service-mapping.md).
+    This setup results in half automated data collection flow, where Service Mapping imports data only if you manually copy it from the Netflow Collector. You place the Netflow Collector on a server inside your organization network. This must be a server different from the server hosting the MID Server. You configure and test this setup as described in [Configure a Netflow data import for testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/test-netflow-service-mapping.md).
 
 -   **For standard operation**
 
-    This setup results in fully automated data collection flow, where all involved components send, collect and analyze data automatically. You place the Netflow Collector on the same server as the MID Server inside your organization network. For instructions, see [Configure data collection using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/configure-netflow-service-mapping.md).
+    This setup results in fully automated data collection flow, where all involved components send, collect and analyze data automatically. You place the Netflow Collector on the same server as the MID Server inside your organization network. For instructions, see [Configure data collection using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/configure-netflow-service-mapping.md).
 
 
 Netflow-based discovery has the following flow:
@@ -52,7 +52,7 @@ Netflow-based discovery has the following flow:
     \[Omitted image "NetflowStandardSetup3.png"\] Alt text: Standard configuration: Service Mapping retrieves data from the sa\_flow\_connection table
 
 
-**Parent Topic:**[Advanced Service Mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ConfigureSM.md)
+**Parent Topic:**[Advanced Service Mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/c_ConfigureSM.md)
 
 **Related topics**  
 

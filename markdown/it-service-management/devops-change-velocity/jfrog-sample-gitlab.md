@@ -3,11 +3,11 @@ title: Sample pipeline to upload and download artifacts for GitLab
 description: Pipeline samples for GitLab containing steps to upload and download artifacts for GitHub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/jfrog-sample-gitlab.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [JFrog, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -98,5 +98,5 @@ download:
   - jfrog config add artifactory-server --artifactory-url=${JFROG_ARTIFACTORY_URL} --user=${JFROG_ARTIFACTORY_USERNAME} --password=${JFROG_ARTIFACTORY_PASSWORD}
 ```
 
-**Parent Topic:**[JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-jfrog-integration.md)
+**Parent Topic:**[JFrog integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-jfrog-integration.md)
 

@@ -3,9 +3,9 @@ title: Configure Customer Contracts and Entitlements
 description: Use the Customer Contracts and Entitlements application to configure and display customer contracts and entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-post-sales-support.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Use the Customer Contracts and Entitlements application to configure and display
 
 ## Activate Customer Contracts and Entitlements
 
-As an admin, you can activate the following plugins to enable users to create and manage Customer Contracts and Entitlements. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+As an admin, you can activate the following plugins to enable users to create and manage Customer Contracts and Entitlements. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_yct_wrv_4zb"><thead><tr><th>
 
@@ -63,7 +63,7 @@ Customer Contracts and Entitlements \[com.sn\_pss\_core\]​
 
 </td></tr><tr><td>
 
-[Contracts and Entitlement Workflows​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-cont-ent-workflows-csm.md)\[com.sn\_contract\_ent\_wf\]
+[Contracts and Entitlement Workflows​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-cont-ent-workflows-csm.md)\[com.sn\_contract\_ent\_wf\]
 
 </td><td>
 
@@ -87,7 +87,7 @@ Provides workflows to manage changes on Customer Contracts and Entitlements.
 </td></tr></tbody>
 </table>With the activation of Customer Contracts and Entitlements, the existing contracts are available for viewing only.
 
-For more information on the installed roles and tables, see [Components installed with Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-pss.md).
+For more information on the installed roles and tables, see [Components installed with Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-pss.md).
 
 ## Request apps from the ServiceNow Store
 

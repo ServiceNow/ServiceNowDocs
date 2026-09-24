@@ -3,11 +3,11 @@ title: Schedule a horizontal discovery
 description: A discovery schedule determines what horizontal discovery searches for, when it runs, and which MID Servers are used. Create a discovery schedule for your local environment or a schedule for discovering the resources in your cloud service account.Quick Discovery, or DiscoverNow, allows an administrator to run a CI Configuration discovery on a single IP address without requiring a schedule.You can run DiscoverNow from a script, such as a background job, a business rule, or web services.Validate the results of your discovery by accessing the ECC queue, analyzing the XML payload, and checking the Discovery log.The Discovery application follows this sequence to find a MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_CreateADiscoverySchedule.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ A discovery schedule determines what horizontal discovery searches for, when it 
 
 Ensure that your Discovery schedule conforms to security best practices, such as limiting the range of discovery targets and using the most secure credentials.
 
-Make sure to [test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateCredential.md) before you run a schedule. Bad credentials are a leading cause of failed discoveries.
+Make sure to [test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateCredential.md) before you run a schedule. Bad credentials are a leading cause of failed discoveries.
 
 Roles required: discovery\_admin or admin
 
@@ -28,7 +28,7 @@ Roles required: discovery\_admin or admin
 
 You can use a Discovery schedule to launch horizontal discovery, which uses probes, sensors, and pattern operations to scan your network for CIs. Use this procedure to create a schedule manually from the **Discovery Schedules** form.
 
-Service Mapping also provides a Discovery schedule for top-down discovery. See [Schedule a top-down discovery by Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateDiscoSchedForCITypes.md) for more information.
+Service Mapping also provides a Discovery schedule for top-down discovery. See [Schedule a top-down discovery by Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_CreateDiscoSchedForCITypes.md) for more information.
 
 Use the **Discovery Schedules** module in the Discovery application to:
 
@@ -43,7 +43,7 @@ Use the **Discovery Schedules** module in the Discovery application to:
 -   Run a discovery schedule manually.
 -   Run a discovery on a single IP address.
 
-**Note:** To view the run-results of your schedules for both IP-based and Cloud Discovery, use the summaries on the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-home-page.md). The Home page publishes the details of any errors that might have occurred and displays possible actions to take to remediate problems.
+**Note:** To view the run-results of your schedules for both IP-based and Cloud Discovery, use the summaries on the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-home-page.md). The Home page publishes the details of any errors that might have occurred and displays possible actions to take to remediate problems.
 
 ## Procedure
 
@@ -56,7 +56,7 @@ Use the **Discovery Schedules** module in the Discovery application to:
     -   **Create a Cloud Discovery schedule**: Creates a schedule, using the Discovery Manager wizard, for discovering resources in a cloud service account.
 3.  Complete the Discovery schedule form, using the fields in the table.
 
-    For more information, see [Discovery Schedule form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-schedule-form.md).
+    For more information, see [Discovery Schedule form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-schedule-form.md).
 
 4.  Right-click in the header of the record and select **Save** from the context menu.
 
@@ -64,16 +64,16 @@ Use the **Discovery Schedules** module in the Discovery application to:
 
     **Note:** To improve security, limit the range of discovery targets to exclude unnecessary networks and devices.
 
-6.  Define the frequency of schedule running as described in [Run options for discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/discovery-schedule-run-options.md).
+6.  Define the frequency of schedule running as described in [Run options for discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/discovery-schedule-run-options.md).
 
 
 ## What to do next
 
 After you create and save a Discovery schedule, you can optionally configure the following settings:
 
--   Define IP addresses or ranges to exclude from all Discovery schedules. See [Use Global Excludes List for IP addresses and ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/global-exlude-list.md).
--   Define Discovery schedule attributes to automatically set CI field values such as location or asset tag on discovered CIs. You can define attributes at the schedule, range set, or IP address range level. See [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/define-ci-attributes.md).
--   Configure Discovery behaviors to use multiple MID Servers for load balancing or to scan with multiple credentials. See [Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md).
+-   Define IP addresses or ranges to exclude from all Discovery schedules. See [Use Global Excludes List for IP addresses and ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/global-exlude-list.md).
+-   Define Discovery schedule attributes to automatically set CI field values such as location or asset tag on discovered CIs. You can define attributes at the schedule, range set, or IP address range level. See [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/define-ci-attributes.md).
+-   Configure Discovery behaviors to use multiple MID Servers for load balancing or to scan with multiple credentials. See [Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md).
 
 ## Run a Quick Discovery
 
@@ -152,7 +152,7 @@ Validate the results of your discovery by accessing the ECC queue, analyzing the
 
 ### Before you begin
 
-Role required: discovery\_admin
+Role required: discovery\_admin or discovery\_operator
 
 ### About this task
 
@@ -247,9 +247,9 @@ Displays the IP address explored by the probe. Click this link to examine all th
 
     -   Existing sensor jobs that have started processing are immediately terminated.
     -   The existing sensor jobs that are in a **Ready** state, but have not started processing, are deleted from the system.
-4.  View the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-home-page.md) for details about all schedules, cloud resources \(virtual machines\), discovered devices, and related errors that might have occurred.
+4.  View the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-home-page.md) for details about all schedules, cloud resources \(virtual machines\), discovered devices, and related errors that might have occurred.
 
-    [Error details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-home-page.md) include possible remediation steps.
+    [Error details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-home-page.md) include possible remediation steps.
 
 
 ## MID Server selection sequence for Discovery schedules
@@ -299,7 +299,7 @@ Shazzam can process IP lists containing up to 20,000 addresses that include both
 **Related topics**  
 
 
-[MID Server pause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PauseTheMIDServer.md)
+[MID Server pause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_PauseTheMIDServer.md)
 
-[MID Server cluster configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md)
+[MID Server cluster configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md)
 

@@ -3,11 +3,11 @@ title: Date, Date and time, and Duration
 description: The date variable creates a widget with a field and calendar to select a date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/date.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Types of service catalog variables, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,13 +30,13 @@ The date and time variable creates a widget with a calendar and fields to select
 
 Use the duration variable to specify the duration for which a catalog item is available.
 
-For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variable-attributes.md).
+For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/variable-attributes.md).
 
 **Note:** Enter the duration in the DD HH:MM:SS format when setting the default value of the variable, and specifying in the g\_form.getValue\(\) and g\_form.setValue\(\) functions.
 
 \[Omitted image "VarDuration.png"\] Alt text: The Duration variable
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -49,7 +49,7 @@ For attributes supported by this variable, see [variable attributes](https://raw
 
 [Container start, container split, and container end]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

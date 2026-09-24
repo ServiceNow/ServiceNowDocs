@@ -3,11 +3,11 @@ title: Create a case task
 description: Create case tasks to work on the various tasks such as investigations, assessments, inquiries, gathering evidence, and so on required to analyze and work on the case that has been reported. Each case can have multiple case tasks that can be assigned to different owners from various teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/prm-create-a-case-task.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case task workflow, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ After a case is reported to the privacy teams, a privacy case analyst can create
 
 4.  On the form, fill in the fields.
 
-    See the [privacy new case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-case-task-form.md) for an explanation of each field.
+    See the [privacy new case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/prm-case-task-form.md) for an explanation of each field.
 
 5.  Select **Save**.
 
@@ -57,8 +57,8 @@ After a case is reported to the privacy teams, a privacy case analyst can create
     3.  Select **Reassign**.
 
 
--   **[Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-case-task-form.md)**  
+-   **[Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/prm-case-task-form.md)**  
 On the new case task form, fill in the fields.
 
-**Parent Topic:**[Case task workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/case-task-workflow.md)
+**Parent Topic:**[Case task workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/case-task-workflow.md)
 

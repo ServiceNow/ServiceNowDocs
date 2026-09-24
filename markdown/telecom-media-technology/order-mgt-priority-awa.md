@@ -3,9 +3,9 @@ title: Order routing based on priority using Advanced Work Assignment
 description: AWA can be used to automatically route customer orders based on priority to specific agent categories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-priority-awa.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Calculate order priority, Order priority and routing, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -30,5 +30,5 @@ The following configurations are required for AWA:
 -   Agent availability: States that indicate agent presence and whether the agent is available for work or is busy or offline. AWA uses the agent availability state to determine if an agent is able to receive work.
 -   Inbox layout: A configuration tied to a service channel that defines which fields of a record representing a work item are shown in agent inboxes. A layout defines what the agent sees in Agent Workspace. The Default Order Layout is available with the base system and can be used as a reference to create a new layout.
 
-For more details, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md)
+For more details, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-overview.md)
 

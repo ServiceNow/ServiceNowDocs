@@ -3,9 +3,9 @@ title: Implementing notification action with a script
 description: Use the Script field in the Notification Action form to update and implement a notification action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/notification-action-script.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -31,7 +31,7 @@ Role required: admin
 4.  Open the Notification Action form and choose between the following options to reach the Notification Action form:
 
     -   If there are no existing notification actions under Notification Actions related list, do the following.
-        1.  Select **New Provider Action** under Notification Actions related list.
+        1.  Click **New Provider Action** under Notification Actions related list.
         2.  Select the type of notification action you would like to create from the Notification Action wizard.
 
             **Note:** Scriptable Action, Flow Action and Virtual Agent are the only types of notification actions available.
@@ -49,8 +49,8 @@ Role required: admin
     |Active|Option to activate the actionable prompt record.|
     |Script|Script to implement the actionable notification.|
 
-6.  Select **Update**.
+6.  Click **Update**.
 
 
-**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-provider-notification-using.md)
+**Parent Topic:**[Create provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-provider-notification-using.md)
 

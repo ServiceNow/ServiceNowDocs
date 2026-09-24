@@ -3,9 +3,9 @@ title: Execution priority of bot processes in RPA Hub
 description: Learn how to prioritize bot processes efficiently and avoid triggering multiple automations on the same robot. The bot processes are organized by both robots and Windows user credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/bot-process-prioritization-order-rpa-hub.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring a bot process record, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -102,5 +102,5 @@ When a bot process with multiple high-density robots is triggered using the **St
     The Bot process 1 uses high-density robots 1 and 2 with different credentials to login to a Windows machine. When the **Start Process** button is clicked on the Bot process 1 for Robot 1 and Robot 2, both the robots execute the bot process simultaneously.
 
 
-**Parent Topic:**[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md)
+**Parent Topic:**[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md)
 

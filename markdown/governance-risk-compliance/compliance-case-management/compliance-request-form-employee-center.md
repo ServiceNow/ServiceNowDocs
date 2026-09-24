@@ -3,11 +3,11 @@ title: Raise a Compliance Request form
 description: Use the Raise a Compliance Request form in the Employee Center to raise a compliance request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/compliance-request-form-employee-center.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee Center, Raise compliance request, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -95,5 +95,5 @@ Location
 Location where the request was raised. For example, Japan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Raise a compliance request from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/raise-compliance-request-employee-center.md)
+</table>**Parent Topic:**[Raise a compliance request from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/raise-compliance-request-employee-center.md)
 

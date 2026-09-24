@@ -3,11 +3,11 @@ title: Approve a reserve or payment amount
 description: A claims manager can approve claim reserve and payment amounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/approve-commercial-claim-reserves-payments.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -30,7 +30,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 2.  Open the task one of the following ways.
 
-<table><tbody><tr><td id="d135623e76">
+<table><tbody><tr><td id="d138295e76">
 
 **From the landing page**
 
@@ -38,7 +38,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 Select the task from the My pending tasks list.
 
-</td></tr><tr><td id="d135623e85">
+</td></tr><tr><td id="d138295e85">
 
 **From the Commercial lines claims approvals list**
 

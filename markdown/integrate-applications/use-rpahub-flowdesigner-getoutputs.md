@@ -3,9 +3,9 @@ title: Use the GetOutputs component
 description: Use the GetOutputs component to get the output of a flow or a subflow in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-rpahub-flowdesigner-getoutputs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Flow Designer components, ServiceNow, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,11 +16,11 @@ Use the GetOutputs component to get the output of a flow or a subflow in Workflo
 
 ## Before you begin
 
-To understand more about flows in Workflow Studio, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md).
+To understand more about flows in Workflow Studio, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md).
 
-Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-studio-instance-rpa.md).
+Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connect-studio-instance-rpa.md).
 
-Use the GetExecutionStatus component to know the execution status of the flow or subflow. To use the component, see [Use the GetExecutionStatus component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-rpahub-flowdesigner-getexecutionstatus.md).
+Use the GetExecutionStatus component to know the execution status of the flow or subflow. To use the component, see [Use the GetExecutionStatus component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-rpahub-flowdesigner-getexecutionstatus.md).
 
 Role required: none
 
@@ -36,7 +36,7 @@ There are many reasons why you might want to receive the output of a flow. For e
 
 3.  Configure the component properties by using the Properties pane.
 
-    For example, you can configure the component to include a timeout or a delay before the component executes. For more information about these properties, see [Properties of the Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-flow-designer-components.md).
+    For example, you can configure the component to include a timeout or a delay before the component executes. For more information about these properties, see [Properties of the Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/properties-flow-designer-components.md).
 
 4.  Connect the data and control ports of the GetOutputs component to the corresponding ports of the other components as described in the following table.
 
@@ -106,5 +106,5 @@ No. Connecting this port is optional.
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/flow-designer-components.md)
+**Parent Topic:**[Flow Designer components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/flow-designer-components.md)
 

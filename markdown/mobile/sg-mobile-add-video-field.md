@@ -3,9 +3,9 @@ title: Add a video screen field to a record screen
 description: Learn how to use a video screen field to view embedded videos in your mobile screens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-add-video-field.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Screen fields, Configure a details screen, Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -41,5 +41,5 @@ Role required: admin
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Screen fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-screen-field-enhancements.md)
+**Parent Topic:**[Screen fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-screen-field-enhancements.md)
 

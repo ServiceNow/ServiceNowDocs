@@ -3,11 +3,11 @@ title: Execution plan tasks
 description: An execution plan contains one or more execution plan tasks, such as for obtaining approval. Execution plan tasks are assigned to a fulfillment group.Approval tasks are specific types of tasks within execution plans.Fulfillment groups perform the tasks related to fulfilling an order.When managing execution plans, catalog administrators can specify the delivery information to provide an estimated date of delivery based on the execution plan.If a task is skipped, the request fulfillment process moves on to the next task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ExecutionPlanTasks.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Execution Plans, Service Catalog request fulfillment, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Each task represents work to be completed by a specific group as part of the ove
 
 Administrators create templates for tasks as part of defining an execution plan. The catalog tasks themselves are then created when the relevant item is requested, based on these task templates.
 
-**Parent Topic:**[Execution Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ExecutionPlans.md)
+**Parent Topic:**[Execution Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ExecutionPlans.md)
 
 ## Set up an execution plan approval task
 
@@ -106,7 +106,7 @@ To create a group specifically for order fulfillment:
 
 When managing execution plans, catalog administrators can specify the delivery information to provide an estimated date of delivery based on the execution plan.
 
-Use the **Total delivery time** field to specify an estimated delivery time for each task in your execution plan. This estimate is calculated based on the combined total of times for the [tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_CreatingExecutionPlanTasks.md) in that execution plan.
+Use the **Total delivery time** field to specify an estimated delivery time for each task in your execution plan. This estimate is calculated based on the combined total of times for the [tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_CreatingExecutionPlanTasks.md) in that execution plan.
 
 By default, time estimates do not use a "working days" calendar system, but are based on simple elapsed time. For example, for a 5-day execution plan, if you submit the request on a Friday, the delivery date is Wednesday of the following week. This estimate means five elapsed days later, even if your organization does not work on weekends.
 

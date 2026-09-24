@@ -3,11 +3,11 @@ title: Installation exits
 description: Installation exits are customizations that exit from Java to call a script before returning back to Java.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/r\_InstallationExits.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authentication, Access Management]
 ---

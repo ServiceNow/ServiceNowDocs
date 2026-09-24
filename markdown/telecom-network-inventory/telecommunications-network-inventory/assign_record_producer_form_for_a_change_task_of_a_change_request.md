@@ -1,18 +1,18 @@
 ---
-title: Assign a record producer form to a change task
+title: Assign a record producer form for a request type of a change task
 description: Assign a record producer to a change task of a change request with the help of a decision table in Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/assign\_record\_producer\_form\_for\_a\_change\_task\_of\_a\_change\_request.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Decision tables, Configure, Telecommunications Network Inventory]
 ---
 
-# Assign a record producer form to a change task
+# Assign a record producer form for a request type of a change task
 
 Assign a record producer to a change task of a change request with the help of a decision table in Telecommunications Network Inventory application.
 
@@ -41,7 +41,7 @@ Role required: sn\_ni\_core.inventory\_admin
 
 ## What to do next
 
-Create a network instance instantiation. For information, see [Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md).
+Create a network instance instantiation. For information, see [Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md).
 
-**Parent Topic:**[Configuring decision tables for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/decision_tables.md)
+**Parent Topic:**[Configuring decision tables for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/decision_tables.md)
 

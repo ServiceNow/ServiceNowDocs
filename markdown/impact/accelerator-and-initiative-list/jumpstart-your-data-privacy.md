@@ -3,11 +3,11 @@ title: Jumpstart Your Data Privacy
 description: This Accelerator delivers a practical introduction to ServiceNow Vault’s Data Privacy capabilities, enabling platform owners and security administrators to discover, classify, and anonymize sensitive data to support compliance, security, and trust.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-data-privacy.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---

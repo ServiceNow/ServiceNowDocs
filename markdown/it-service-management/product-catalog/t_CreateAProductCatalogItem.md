@@ -3,11 +3,11 @@ title: Create a product catalog item
 description: Create hardware and software product catalog items to include in the product catalog and the service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_CreateAProductCatalogItem.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Product catalog items, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: catalog\_admin
 
 ## About this task
 
-You must [activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_ActivateAProductCatalogItem.md) the items separately before they appear in the product catalog or service catalog.
+You must [activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/t_ActivateAProductCatalogItem.md) the items separately before they appear in the product catalog or service catalog.
 
 ## Procedure
 
@@ -300,7 +300,7 @@ Vendor catalog items associated with this item. Vendor catalog items allow you t
 5.  Select **Submit** or **Update**.
 
 
-**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ManagingProductCatalogItems.md)
+**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/c_ManagingProductCatalogItems.md)
 
 **Related topics**  
 
@@ -311,9 +311,9 @@ Vendor catalog items associated with this item. Vendor catalog items allow you t
 
 [Import a Product Catalog item]()
 
-[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_CreateAVendorCatalogItem.md)
+[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/t_CreateAVendorCatalogItem.md)
 
-[Create an execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAnExecutionPlan.md)
+[Create an execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAnExecutionPlan.md)
 
-[Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariables.md)
+[Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogVariables.md)
 

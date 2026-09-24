@@ -3,9 +3,9 @@ title: Creating custom agentic workflows, in-app agents, and skills with Build A
 description: Use Build Agent to create and deploy custom agentic workflows, AI agents, and skills that add agentic experiences to your ServiceNow custom applications, supported by the built-in governance framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vc-build-agents-in-ba.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
@@ -36,13 +36,13 @@ Build Agent can generate agentic workflows that coordinate sequences of automate
 
 Build Agent can generate custom skills scoped to your application's data model, without manually authoring skill definitions. You describe what you want the skill to do, and Build Agent creates skills that align with your existing table structure, field configurations, and access controls.
 
-You can create custom skills individually, that is, they don't need to be used as tools for an agent. Think of skills as custom instructions that extend the quality of your agentic development outcomes. For more information, see [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
+You can create custom skills individually, that is, they don't need to be used as tools for an agent. Think of skills as custom instructions that extend the quality of your agentic development outcomes. For more information, see [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
 
 ## Helpful resources
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **[Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-custom-ai-agent.md)**
+-   **[Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-custom-ai-agent.md)**
 
     Details on how to create custom agentic workflows, in-app agents, and skills with Build Agent.
 
@@ -51,5 +51,5 @@ Some ServiceNow resources that can provide you with helpful information are:
     Pro Dev Academy session recording on building in-app agents agentically.
 
 
-**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
+**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-build-agent-landing.md)
 

@@ -3,11 +3,11 @@ title: Managing agents and tasks from Workforce
 description: Workforce is a configurable application that provides a centralized location for managing schedules, events, and tasks. Users with the wm\_basic role can access the team calendar, agent schedules, and map to stay organized and informed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/using-manager-workforce.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing workforce, Use, Field Service Management]
 ---
@@ -38,15 +38,15 @@ Technicians can:
 
 To manage agents and tasks effectively, explore these topics:
 
--   [Using the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/using-team-calendar.md)
+-   [Using the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/using-team-calendar.md)
 
     Access and manage schedules, events, and availability in one place.
 
--   [Using the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/using-manager-map.md)
+-   [Using the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/using-manager-map.md)
 
     View tasks and agent locations on an interactive map.
 
--   [View agent location history map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/view_agent_location_history_map.md)
+-   [View agent location history map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/view_agent_location_history_map.md)
 
     Track historical movements of agents for planning and analysis.
 

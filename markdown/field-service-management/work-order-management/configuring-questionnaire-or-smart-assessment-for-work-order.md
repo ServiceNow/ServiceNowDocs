@@ -3,11 +3,11 @@ title: Configuring work order questionnaires
 description: As part of completing some work orders and tasks, Field Service agents fill out questionnaires or complete check lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configuring-questionnaire-or-smart-assessment-for-work-order.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -30,13 +30,13 @@ Questionnaire for a work order task can be either a survey-based questionnaire o
 
 A survey-based questionnaire uses the **Survey Designer** tool to create a questionnaire with a list of questions.
 
-For more information, see [Configuring survey-based work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-order-questionnaire.md).
+For more information, see [Configuring survey-based work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/work-order-questionnaire.md).
 
 ## Smart Assessment questionnaire
 
 A Smart Assessment questionnaire for Now Mobile uses **Template designer** in the Smart Assessment Engine application.
 
-For more information, see [Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md).
+For more information, see [Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md).
 
 **Note:**
 
@@ -44,4 +44,9 @@ For more information, see [Configuring Smart Assessment questionnaires for Now M
 
 -   Usage of Smart Assessment questionnaire can't be disabled once enabled.
 
+
+**Related topics**  
+
+
+[Complete a questionnaire for work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/complete-questionnaire-mobile-app.md)
 

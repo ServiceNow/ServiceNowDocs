@@ -3,9 +3,9 @@ title: Analytics and reporting for Commercial Lines Servicing
 description: Commercial Lines Servicing contains preconfigured dashboards with actionable data visualizations that can help your organization improve your business processes and quantify the value of self-service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/analytics-reporting-fso-insurance-commercial-lines-servicing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Commercial Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -16,7 +16,7 @@ Commercial Lines Servicing contains preconfigured dashboards with actionable dat
 
 Use the Performance Analytics widgets on a dashboard to visualize data over time, analyze your business processes, and identify areas of improvement.
 
-The [Commercial Lines Servicing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/commercial-lines-servicing-dashboard.md) is available for Commercial Lines Servicing.
+The [Commercial Lines Servicing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/commercial-lines-servicing-dashboard.md) is available for Commercial Lines Servicing.
 
-**Parent Topic:**[Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-ins-commercial-policy-ops-landing-page.md)
+**Parent Topic:**[Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-ins-commercial-policy-ops-landing-page.md)
 

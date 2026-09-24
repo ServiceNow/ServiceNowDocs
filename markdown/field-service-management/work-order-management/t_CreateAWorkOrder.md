@@ -3,11 +3,11 @@ title: Create a work order
 description: When off-site work is requested, create a work order to provide information for the agents who fulfill the request. You can create an entirely new work order, or you can create a work order from these other record types: problem, incident, change, or project task. You can also create a work order from another existing work order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CreateAWorkOrder.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
@@ -36,15 +36,15 @@ Ensure to install the following plugins
 
 1.  Create the work order.
 
-<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d46090e103">
+<table id="choicetable_psz_bkq_v1b"><thead><tr><th align="left" id="d47683e103">
 
 Option
 
-</th><th align="left" id="d46090e106">
+</th><th align="left" id="d47683e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d46090e112">
+</th></tr></thead><tbody><tr><td id="d47683e112">
 
 **Create a new work order**
 
@@ -58,7 +58,7 @@ Optionally, you can click the search knowledge icon \(\[Omitted image "SearchKno
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d46090e159">
+</td></tr><tr><td id="d47683e159">
 
 **Create a work order from an incident, problem, change, project task, or another work order.**
 
@@ -74,7 +74,7 @@ Optionally, you can click the search knowledge icon \(\[Omitted image "SearchKno
 </td></tr></tbody>
 </table>    The work order is created in the **Draft** stage.
 
-    If you created the work order from another record, the short description of the original record is copied as the short description of the work order. Some of the work order fields are auto-filled with information from the original record. For details, see [Prepare work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/preparing-work-orders.md).
+    If you created the work order from another record, the short description of the original record is copied as the short description of the work order. Some of the work order fields are auto-filled with information from the original record. For details, see [Prepare work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/preparing-work-orders.md).
 
 2.  Fill in the fields on the Work Order form, as appropriate.
 
@@ -192,7 +192,7 @@ Location
 
 Geographical area \(physical location\) where the work must be done. Location field is automatically populated with the location that is mapped with the selected **Provider Service Organization**. **Note:** For the work orders that are initiated from case, the **Location** field is filled automatically based first on the **Affected CI** field and then, if no affected CI or location is provided, on the **Caller**.
 
- If you do not want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad-hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/service-locations-work-orders.md).
+ If you do not want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad-hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/service-locations-work-orders.md).
 
 </td></tr><tr><td>
 
@@ -226,7 +226,7 @@ State
 
 </td><td>
 
-Current stage of the work order in the work order life cycle.**Note:** The **Scheduled** state appears in between **Pending Dispatch** and **Assigned** states only if your administrator enables **Use Scheduled state** option in [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md).
+Current stage of the work order in the work order life cycle.**Note:** The **Scheduled** state appears in between **Pending Dispatch** and **Assigned** states only if your administrator enables **Use Scheduled state** option in [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ConfigureFieldService.md).
 
 </td></tr><tr><td>
 
@@ -234,7 +234,7 @@ Qualification group
 
 </td><td>
 
-Group that can specify the technical details of the work order. The lookup list shows only the qualification groups associated with the selected **Location**. If no qualification groups exist for the location, all qualifications groups are listed and any can be selected. This field is hidden when Field Service Management is configured for [automatic qualification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_QualifyWorkOrders.md).
+Group that can specify the technical details of the work order. The lookup list shows only the qualification groups associated with the selected **Location**. If no qualification groups exist for the location, all qualifications groups are listed and any can be selected. This field is hidden when Field Service Management is configured for [automatic qualification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/c_QualifyWorkOrders.md).
 
 </td></tr><tr><td>
 
@@ -328,11 +328,11 @@ Estimated date when the latest task will be completed. The **Lead Time** for the
 
 The work order is created and awaits for qualification to create a work order task.
 
-**Note:** You must enable the **Apply Work Order template in draft status** option and **wm\_task\_initiator** role to create tasks for the work order based on the applied template, without qualifying the work order when it is in the draft state. For more information about these configurations, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md) and [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
+**Note:** You must enable the **Apply Work Order template in draft status** option and **wm\_task\_initiator** role to create tasks for the work order based on the applied template, without qualifying the work order when it is in the draft state. For more information about these configurations, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ConfigureFieldService.md) and [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md).
 
 ## What to do next
 
-After you complete the Work Order form, move it to the next state that is [configured for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md). In the next state, other users with appropriate roles for the state will process the work order.
+After you complete the Work Order form, move it to the next state that is [configured for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ConfigureFieldService.md). In the next state, other users with appropriate roles for the state will process the work order.
 
 On the Work Order form, click whichever of the following options is available:
 

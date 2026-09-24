@@ -3,9 +3,9 @@ title: Security annotations
 description: A security annotation is a note of explanation or comments added to a configuration item, observable, or use on a security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-annotations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -16,14 +16,14 @@ A security annotation is a note of explanation or comments added to a configurat
 
 Multiple security annotations are available for users and observables \(requires the Threat Intelligence plugin\). Reports on security annotations are also available.
 
--   **[Create security annotations for CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-security-annotations.md)**  
+-   **[Create security annotations for CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-security-annotations.md)**  
 Annotations on CIs allow you to track activity across incidents. You can add annotations to a single or multiple CIs.
--   **[Create security annotations for observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-security-annotations-multiple.md)**  
+-   **[Create security annotations for observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-security-annotations-multiple.md)**  
 You can select a single or multiple observables and apply security annotations to them using the **Actions on selected rows** choice menu.
--   **[Create security annotations for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-multi-sec-annotations-for-users.md)**  
+-   **[Create security annotations for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-multi-sec-annotations-for-users.md)**  
 You can select a single or multiple users and apply security annotations to them using the **Actions on selected rows** choice menu.
--   **[View security annotations reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-security-annotations-report.md)**  
+-   **[View security annotations reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/view-security-annotations-report.md)**  
 The Security Annotations report presents details stored in the Security Annotations \[sn\_sec\_cmn\_security\_annotations\] table. You can customize the columns in the report and group the data in any way that suits you.
 
-**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sec-ops-common-functionality.md)
 

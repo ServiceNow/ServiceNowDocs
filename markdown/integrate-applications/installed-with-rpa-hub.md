@@ -3,9 +3,9 @@ title: Components installed with RPA Hub
 description: Several types of components are installed with the activation of the RPA Hub plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/installed-with-rpa-hub.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Reference, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Reference, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflo
 
 Several types of components are installed with the activation of the RPA Hub plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this plugin.
 
@@ -221,7 +221,7 @@ Re-evaluate License Distribution
 
 </td><td>
 
-Schedule runs on demand to validate the distribution of license records.For more information, see [Re-evaluate license distribution by executing RPA scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/execute-rpa-script.md).
+Schedule runs on demand to validate the distribution of license records.For more information, see [Re-evaluate license distribution by executing RPA scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/execute-rpa-script.md).
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -683,5 +683,5 @@ Contains the details about the multiple types of data that are stored, such as t
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-reference.md)
+</table>**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-hub-reference.md)
 

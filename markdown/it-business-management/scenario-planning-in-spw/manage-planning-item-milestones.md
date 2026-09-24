@@ -3,11 +3,11 @@ title: Update roadmap item milestones
 description: Update or delete the milestones that you added to your planning items \(such as demands, epics, or programs\) so that they reflect any change of plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/manage-planning-item-milestones.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Add milestones for roadmap items, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -31,21 +31,21 @@ For free-form roadmaps, milestones are supported only if the source table is Pla
 
 You can’t add a project milestone from the roadmap view. Creating or updating project milestones may impact the associated project plans. So, it’s recommended to create or update project milestones using Project Workspace in Project Portfolio Management \(PPM\).
 
-However, any existing milestones of the project are visible on the roadmap if you've [integrated Strategic Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-apw-with-agile-safe-and-ppm.md).
+However, any existing milestones of the project are visible on the roadmap if you've [integrated Strategic Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configuring-apw-with-agile-safe-and-ppm.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d279110e139">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d280231e139">
 
 Roadmap type
 
-</th><th align="left" id="d279110e142">
+</th><th align="left" id="d280231e142">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d279110e148">
+</th></tr></thead><tbody><tr><td id="d280231e148">
 
 **Portfolio plan roadmap**
 
@@ -55,7 +55,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d279110e169">
+</td></tr><tr><td id="d280231e169">
 
 **Free-form roadmap**
 
@@ -76,7 +76,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     -   To update, edit the field details and click **Save**.
 
-        For information on the form fields, see [Planning item milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-item-milestone-form.md).
+        For information on the form fields, see [Planning item milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/planning-item-milestone-form.md).
 
     -   To delete the milestone, click **Delete.**
 
@@ -86,5 +86,5 @@ From the Free-form Roadmaps tab, select a roadmap.
 **Related topics**  
 
 
-[Customizing milestones display on roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.md)
+[Customizing milestones display on roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.md)
 

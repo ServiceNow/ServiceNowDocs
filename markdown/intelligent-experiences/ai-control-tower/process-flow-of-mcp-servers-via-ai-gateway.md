@@ -1,0 +1,30 @@
+---
+title: Process flow of MCP servers via AI Gateway
+description: Explore the process flow of configuring and introducing MCP servers via AI Gateway in AI Control Tower.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/process-flow-of-mcp-servers-via-ai-gateway.html
+release: brazil
+product: AI Control Tower
+classification: ai-control-tower
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [Now Assist, generative AI]
+breadcrumb: [AI Gateway, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+---
+
+# Process flow of MCP servers via AI Gateway
+
+Explore the process flow of configuring and introducing MCP servers via AI Gateway in AI Control Tower.
+
+The following steps are performed in the following order to complete the process flow of MCP servers.
+
+Role required: sn\_ai\_governance.ai\_steward
+
+1.  Adding an MCP server \(The MCP server can be added in three different ways\)
+    -   [ServiceNow AI Agent studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-agent-studio.md)
+    -   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-contol-tower.md)
+    -   [MCP Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/add-an-mcp-server-from-mcp-catalog.md)
+2.  [MCP server approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.md)
+3.  [AI Gateway setup and Client Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/mcp-client-integration-of-copilot-studio-via-ai-gateway.md)
+

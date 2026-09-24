@@ -3,11 +3,11 @@ title: Analytics and Reporting Solutions for Hardware Asset Management
 description: This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.View the key metrics on your hardware and consumable models and assets for the entire asset life cycle in the Hardware Asset dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/hardware-asset-content-pack.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -22,9 +22,9 @@ Use the Performance Analytics widgets on the dashboard to visualize data over ti
 
 **Note:** Solutions include some dashboards that are inactive by default. You can activate these dashboards to make them visible to end users according to your business needs.
 
-For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
+For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
 
-To use this Analytics and Reporting Solution, you must be entitled to use Performance Analytics with Hardware Asset Management. For more information about entitlements to Performance Analytics, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
+To use this Analytics and Reporting Solution, you must be entitled to use Performance Analytics with Hardware Asset Management. For more information about entitlements to Performance Analytics, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 
 This Out-of-the-box Performance Analytics Solution is available from the ServiceNow Store. To enable this solution, an admin navigates to **System Applications** &gt; **Search ServiceNow Store**. When the landing page for the ServiceNow Store opens, search for Hardware Asset Management. When you have found the Solution, follow the instructions in the Store. The ServiceNow Store has its own documentation.
 
@@ -47,17 +47,19 @@ The Performance Analytics dashboards available for Hardware Asset Management are
 
 Beginning with the Xanadu release, note the following points about the Core UI Performance Analytics dashboards:
 
--   The Procurement Overview and Asset Contract overview module links are redirected to [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md).
+-   The Procurement Overview and Asset Contract overview module links are redirected to [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md).
 -   The following Next Experience Platform Analytics dashboard versions of the Asset Overview and My Assets Core UI Performance Analytics dashboards are available:
     -   Analytics Overview: You can access this dashboard by navigating to **Asset** &gt; **Analytics Overview**.
     -   My Assets Analytics: You can access this dashboard by navigating to **Self-Service** &gt; **My Assets Analytics**.
 
 **Note:** After upgrading to Xanadu, you can view both the Core UI Performance Analytics dashboards and the Next Experience Platform Analytics dashboards for Hardware Asset Management. While migrating the Core UI Performance Analytics dashboards to the Next Experience Platform Analytics dashboards, auto-migration is disabled by default to avoid duplicate dashboards.
 
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/exploring-ham.md)
+
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 
 ## Hardware Asset dashboard
 

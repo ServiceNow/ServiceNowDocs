@@ -3,9 +3,9 @@ title: Show Business services overview tab in Workspace view
 description: Starting with Release 20.1.x, the Services overview and Business services overview tabs are displayed on the landing page of the Operational Resilience Workspace. Administrators or UI Builder administrators can show or hide one of these tabs from the Workspace view based on organizational needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/displaying-services-overview-tab.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---

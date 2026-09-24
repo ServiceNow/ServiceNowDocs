@@ -3,11 +3,11 @@ title: System-managed developer and deployment roles
 description: Although system admins can still manually assign and remove the user roles, they are encouraged to let the system manage the following delegated developer roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/delegated-dev-deploy-user-roles.html
-release: australia
+release: brazil
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User roles, Configure, Delegated Development, Planning your application, Building applications]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [User roles, Configure, Delegated Development, Planning your applica
 
 Although system admins can still manually assign and remove the user roles, they are encouraged to let the system manage the following delegated developer roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 <table id="table_wp4_wjx_hv"><thead><tr><th>
 

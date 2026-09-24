@@ -3,12 +3,13 @@ title: Create New AI Issue form
 description: Use the Create New Issue form to identify and manage issues related to the impacted areas for the reported AI case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/create-new-ai-issue-form.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [create AI issue form, AI issue fields, issue management]
 breadcrumb: [Create an AI issue, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -106,7 +107,7 @@ Workflow state of the issue. This field is automatically set to **Review**. The 
 -   **Closed Complete**
 -   **Closed Incomplete**
 
- For more information on Issue management workflow and life cycle, see [Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/manage-issues-common-core.md).
+ For more information on Issue management workflow and life cycle, see [Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/manage-issues-common-core.md).
 
 </td></tr><tr><td>
 
@@ -351,5 +352,5 @@ Functional domain
 Functional domain that the issue belongs to. For example, an issue may belong to the AI Risk and Compliance domain.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
+</table>**Parent Topic:**[Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
 

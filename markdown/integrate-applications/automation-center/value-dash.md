@@ -3,11 +3,11 @@ title: Automation Center Value dashboard
 description: The Automation Center Value dashboard provides summary information about the states of goals and automations along with the actual and estimated cost and time saved for all active and future automations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/value-dash.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workspace, Explore, Automation Center, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ All widgets under the following sections are available only if the you have the 
 -   Number of deployed automations under Active automations
 -   Future automations
 
-To access all other widgets in the Active automations section, you must associate a domain configuration with a data collection job. For more information see [https://www.servicenow.com/docs/bundle/zurich-now-intelligence/page/use/performance-analytics/task/associate-domain-config-dc-job.html](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/associate-domain-config-dc-job.md).
+To access all other widgets in the Active automations section, you must associate a domain configuration with a data collection job. For more information see [https://www.servicenow.com/docs/bundle/zurich-now-intelligence/page/use/performance-analytics/task/associate-domain-config-dc-job.html](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/associate-domain-config-dc-job.md).
 
 You can access the Value dashboard in either of two ways:
 
@@ -33,7 +33,7 @@ You can access the Value dashboard in either of two ways:
 
 The Goals chart displays the summary of automation goals categorized by their state along with the estimated cost saved per year.
 
-For information about automation goals, see [Create an automation goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-goal.md).
+For information about automation goals, see [Create an automation goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-automation-goal.md).
 
 By default, the Goals chart provides details of all automation goals with associated active automation requests for the day you’re viewing the data.
 
@@ -126,5 +126,5 @@ Use the **Intake source** and **Goal** filters to limit your results to a specif
 
 \[Omitted image "value-fut-auto.png"\] Alt text: Future automations
 
-**Parent Topic:**[Automation Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-workspace-ui.md)
+**Parent Topic:**[Automation Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-workspace-ui.md)
 

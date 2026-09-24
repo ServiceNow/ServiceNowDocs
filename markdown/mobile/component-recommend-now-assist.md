@@ -3,9 +3,9 @@ title: Component recommendations with ServiceNow Otto
 description: ServiceNow Otto reduces manual work and saves you time by recommending components based on context like the current record name and configuration tree information when you’re configuring records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/component-recommend-now-assist.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Mobile App Builder, Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---

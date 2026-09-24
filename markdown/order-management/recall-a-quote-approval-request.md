@@ -3,9 +3,9 @@ title: Recall a quote approval request
 description: Cancel a pending quote approval request to change a quote before resubmitting it for advanced approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/recall-a-quote-approval-request.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ Recalling an approval request cancels any pending approval steps and returns the
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon.
 
@@ -41,5 +41,5 @@ Recalling an approval request cancels any pending approval steps and returns the
 
 The approval request is canceled, all pending approval steps are canceled, and the quote is returned to the Draft state. You can update the quote and resubmit it for advanced approval when ready.
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

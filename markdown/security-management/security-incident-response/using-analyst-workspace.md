@@ -3,11 +3,11 @@ title: Working with Security Incident Records
 description: The Security Incident Record consists of the following.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-analyst-workspace.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -193,7 +193,6 @@ Provides easy access to the quick actions and is available across all the tabs f
 3.  Analyst Assist
 4.  Runbook
 5.  Templates
-6.  Attachments
 
 </td></tr><tr><td>
 
@@ -225,37 +224,37 @@ The various security incident form UI actions are displayed on the top right of 
 -   Add to Security Case
 -   Delete
 
-For more information, see [Working with Form UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/enable_workspace_form_ui_actions.md).
+For more information, see [Working with Form UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/enable_workspace_form_ui_actions.md).
 
 </td></tr></tbody>
-</table>-   **[Security Incident Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-overview.md)**  
+</table>-   **[Security Incident Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-overview.md)**  
 The Overview section on the workspace presents the key information associated with the security incident.
--   **[Security Incident Details section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-details.md)**  
+-   **[Security Incident Details section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-details.md)**  
 This section displays the security incident form fields that are rendered from the security incident classic UI.
--   **[SIR Workspace Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-response-workspace-orchestration-activities.md)**  
+-   **[SIR Workspace Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-response-workspace-orchestration-activities.md)**  
 Security Incident Response Workspace orchestration activities will help the security analysts to view the investigation canvas and perform various actions that are applicable.
--   **[Security Incident Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-response-tasks.md)**  
+-   **[Security Incident Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-response-tasks.md)**  
 All the response tasks associated with a security incident are displayed within the Response Tasks section.
--   **[Security Incident Response Other Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-response-other-records.md)**  
+-   **[Security Incident Response Other Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-response-other-records.md)**  
 This section displays the other records such as IT related records and email records. Under IT records, Incident, Change Request, Problem and Outages are displayed.
--   **[Security Incident Response Post Incident Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-response-post-incident-review.md)**  
+-   **[Security Incident Response Post Incident Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-response-post-incident-review.md)**  
 Post incident review appears when an incident is moved to a Review state.
--   **[Update information in security incident related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/edit-related-records-in-list.md)**  
+-   **[Update information in security incident related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/edit-related-records-in-list.md)**  
 Edit related records for a security incident in Security Incident Response Workspace directly from the **Related Records** tab without having to leave the current context.
--   **[TISC integration within SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tisc-sir-workspace.md)**  
+-   **[TISC integration within SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/tisc-sir-workspace.md)**  
 The following section includes information about the Threat Intelligence Security Center integration from within the SIR workspace context.
--   **[Reports in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/report-templates-sir.md)**  
+-   **[Reports in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/report-templates-sir.md)**  
 All the reports associated with a security incident are available within the Reports section for analysis and sharing.
--   **[Collaborate using conference call or chat in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/collab-sir-call-chat.md)**  
+-   **[Collaborate using conference call or chat in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/collab-sir-call-chat.md)**  
 You can collaborate with analysts and affected users to resolve or discuss about an incident in Security Incident Response application.
--   **[Viewing incident details with a relationship graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-relationship-graph.md)**  
+-   **[Viewing incident details with a relationship graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-relationship-graph.md)**  
 Relationship graphs in the Security Incident Response workspace visually display the connections between a security incident and its related items to help you analyze the full context of a security incident.
--   **[MITRE attack and defend technique graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mitre-attack-defend-graph-sir.md)**  
+-   **[MITRE attack and defend technique graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mitre-attack-defend-graph-sir.md)**  
 The MITRE attack and defend technique graph provides security analysts with an interactive, node-based visualization of attack techniques, defense techniques, and associated artifacts for a security incident.
--   **[View and filter the incident timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-filter-incident-timeline-sir.md)**  
+-   **[View and filter the incident timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/view-filter-incident-timeline-sir.md)**  
 View the chronological timeline of events for a security incident and filter by event type to focus on relevant activities.
 
-**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 

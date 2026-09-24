@@ -3,11 +3,11 @@ title: Create a certificate profile for the Palo Alto Networks Next-Generation F
 description: The integration requires a certificate profile to validate and authenticate the secure connection between the ServiceNow AI Platform server and the Palo Alto Networks Next-Generation Firewall server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto-create-cert-profile.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -25,11 +25,11 @@ Follow the steps below on how to download DigiCertificates and configure the cer
 1.  Download DigiCert or Entrust CA Gateway Certificate based on the use case. For more information, see the [KB1702083](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1702083) article in the Now Support Knowledge Base.
 2.  Configure the certificate profile. For more information, see [Palo Alto Networks documentation](https://docs.paloaltonetworks.com/pan-os/10-0/pan-os-admin/certificate-management/configure-a-certificate-profile).
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
+**Previous topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto_integration.md)
 
-**Next topic:**[Set up and install Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_install.md)
+**Next topic:**[Set up and install Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto_install.md)
 
 **Related topics**  
 

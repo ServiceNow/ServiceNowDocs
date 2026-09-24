@@ -3,9 +3,9 @@ title: Inbound email action examples
 description: Various examples of inbound email actions are available to help you build your own inbound email actions. These examples show how to set up inbound email actions to handle email replies, create \(log\) a problem record, request a change, and update an incident.This example shows you how to set up inbound email actions to handle replies that users send back to the instance.This example shows you how to set up inbound email actions to a create a problem record.This example shows you how to set up inbound email actions to create a change request record.The default inbound action for the Incident table automatically sets the following field values when it receives an incoming email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_InboundEmailActionExamples.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [References, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [References, Inbound email, Notifications, Configure core features, 
 
 Various examples of inbound email actions are available to help you build your own inbound email actions. These examples show how to set up inbound email actions to handle email replies, create \(log\) a problem record, request a change, and update an incident.
 
-**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/references-inbound-email.md)
+**Parent Topic:**[References for Inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/references-inbound-email.md)
 
 ## Inbound email action example: handling email replies
 

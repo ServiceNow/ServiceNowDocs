@@ -3,11 +3,11 @@ title: Limit description sizes in the Classic Mobile UI
 description: By default, item descriptions in the smartphone interface are truncated to a maximum of two lines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_LimitDescriptionSizesInMobileUI.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Classic Mobile devices, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -48,7 +48,7 @@ If set to **No**, the full descriptions are given
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Classic Mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_ServiceCatalogOnMobileDevices.md)
+**Parent Topic:**[Configure Classic Mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_ServiceCatalogOnMobileDevices.md)
 
 **Related topics**  
 

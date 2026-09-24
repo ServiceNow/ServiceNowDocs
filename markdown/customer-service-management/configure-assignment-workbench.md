@@ -3,9 +3,9 @@ title: Configure assignment workbench
 description: The assignment workbench uses configurable criteria, such as skills and availability, to evaluate the agents in a selected group and provide an overall ranking. Managers can view these results and click one button to assign a task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-assignment-workbench.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -52,9 +52,9 @@ If necessary, set the assignment workbench properties.
 **Related topics**  
 
 
-[Assignment workbench overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-workbench.md)
+[Assignment workbench overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/case-assignment-workbench.md)
 
-[Matching criteria for case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-matching-criteria.md)
+[Matching criteria for case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/case-assignment-matching-criteria.md)
 
-[Matching rules for case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-matching-rules.md)
+[Matching rules for case assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/case-assignment-matching-rules.md)
 

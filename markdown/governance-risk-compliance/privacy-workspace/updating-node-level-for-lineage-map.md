@@ -3,11 +3,11 @@ title: Update the maximum node level for the lineage map
 description: Update the sn\_privacy.nodemap.maxLevel system property to control how many node levels are visible on the lineage map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/updating-node-level-for-lineage-map.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage data lineage, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -37,5 +37,5 @@ By default, the lineage map displays nodes up to five levels downstream and one 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/lineage.md)
+**Parent Topic:**[Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/lineage.md)
 

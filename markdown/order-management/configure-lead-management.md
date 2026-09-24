@@ -3,9 +3,9 @@ title: Configuring Lead Management
 description: Install the Lead Management application, which enables sales agents and sales development representatives to create leads and provide pre-sales product recommendations based on customer needs. You then assign the user roles and configure related features, such as needs analysis and kanban view used in Lead Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-lead-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -18,14 +18,14 @@ Admins and users with various roles, such as application admins and sales operat
 
 |Task|Description|Role|
 |----|-----------|----|
-|[Install Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-lead-management.md)|Install Lead Management from the ServiceNow® Store Store.|Admin|
-|[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-catalogs.md)|Create the product offerings and catalogs, unless they've been previously defined.|Product catalog admin|
-|[Configuring needs analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-needs-analysis.md)|Create the needs templates for questionnaires that sales agents complete to get product recommendations for leads.|Product catalog admin|
+|[Install Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/install-lead-management.md)|Install Lead Management from the ServiceNow® Store Store.|Admin|
+|[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-managing-product-catalogs.md)|Create the product offerings and catalogs, unless they've been previously defined.|Product catalog admin|
+|[Configuring needs analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-needs-analysis.md)|Create the needs templates for questionnaires that sales agents complete to get product recommendations for leads.|Product catalog admin|
 
 **Related topics**  
 
 
-[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-using.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management.md)
 

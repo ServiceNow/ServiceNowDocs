@@ -3,11 +3,11 @@ title: Capacity planning in Portfolio Planning
 description: The Capacity Planning screen provides portfolio managers a comprehensive view of capacity, allocations, and utilization of resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/capacity-planning-pp.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -41,5 +41,5 @@ Analyzing the Capacity Planning screen, you can easily:
 
     -   Toggle option \(\[Omitted image "cp-toggle-buttons.png"\] Alt text: Toggle options to view capacity.\) to adjust your view of the Capacity Planning screen.
 
-**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

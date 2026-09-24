@@ -3,9 +3,9 @@ title: Sample field value duration script
 description: Review the existing Incident Open metric definition to see how you can create your own custom metric.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_SampleFieldValueDurationScript.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Metrics, Configure core features, Administer the ServiceNow AI Platform]
 ---

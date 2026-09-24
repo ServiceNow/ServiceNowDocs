@@ -3,11 +3,11 @@ title: Create an assignment rule for change requests
 description: Create an assignment rule in Advanced Work Assignment that assigns change requests to agents who are available to do the tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/assignment-rule-example.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a custom service channel, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

@@ -3,11 +3,11 @@ title: Using the Planning attributes
 description: Planning attributes are designed to define and work on attribute-based resource mapping in Resource Management and to generate labor costs for these resources in financials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/planning-attributes.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Planning attributes are designed to define and work on attribute-based resource 
 
 An attribute is a property or a characteristic defined as a resource or a task type, which is considered for attribute-based planning. These attributes can be used for resource management and financial planning.
 
-After the planning attributes are identified, as an admin, you can [create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/configure-planning-attributes.md) based on project requirements and metadata available from the resource table. Working on creating planning attributes involves identifying and defining the attributes to use for a project planning process.
+After the planning attributes are identified, as an admin, you can [create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/configure-planning-attributes.md) based on project requirements and metadata available from the resource table. Working on creating planning attributes involves identifying and defining the attributes to use for a project planning process.
 
 <table id="table_yks_wgm_vwb"><thead><tr><th>
 
@@ -63,5 +63,5 @@ Project Manager \(Project Financials\)
 **Related topics**  
 
 
-[Create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/configure-planning-attributes.md)
+[Create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/configure-planning-attributes.md)
 

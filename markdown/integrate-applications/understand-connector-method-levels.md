@@ -3,9 +3,9 @@ title: Understand levels of connector methods
 description: Some connectors in the RPA Desktop Design Studio provide methods that interact with various applications at different levels. For example, the Chrome connector provides methods that interact with applications and their elements open in a Google Chrome browser to perform specific Robotic Process Automation tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/understand-connector-method-levels.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use a connector, Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -40,11 +40,11 @@ The methods in the connectors interact at different levels in the applications.
 
 To access the various methods, you must first configure the connectors.
 
--   [Configure the Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-chrome-connector.md)
--   [Configure the Internet Explorer connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-internet-explorer-connector.md)
--   [Configure the Java connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-java-connector.md)
--   [Configure the Terminal connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-terminal-connector.md)
--   [Configure Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-windows-connector.md)
+-   [Configure the Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-chrome-connector.md)
+-   [Configure the Internet Explorer connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-internet-explorer-connector.md)
+-   [Configure the Java connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-java-connector.md)
+-   [Configure the Terminal connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-terminal-connector.md)
+-   [Configure Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-windows-connector.md)
 
 ## Expose the methods at different levels
 
@@ -52,5 +52,5 @@ After configuration, you can expose the methods at different levels. The methods
 
 \[Omitted image "methods-all-levels.png"\] Alt text: Methods at all levels.
 
-**Parent Topic:**[Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector.md)
+**Parent Topic:**[Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-connector.md)
 

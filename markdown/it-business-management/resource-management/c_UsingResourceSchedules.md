@@ -3,11 +3,11 @@ title: Resource schedules
 description: Understand the default schedules used in Resource Management and learn how to create your own custom schedules.Check the default schedule associated to a resource and apply custom schedules to those resources who require it.Choose the default schedule to be applied to your resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/c\_UsingResourceSchedules.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -34,9 +34,9 @@ The schedule assigned to each user can be understood using the following informa
     This related list can be seen in the Resource Manager view of the user profile.
 
 
-If there are no entries in the Schedules related list, the value provided for the **Schedule** field is used to determine the resource schedule. If the Schedule field is empty too, then the schedule specified in the **Default Schedule Name \(com.snc.resource\_management.default\_schedule\)** property is applied as the resource schedule. To understand how to modify this property value, see [Specify the default resource management schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_UsingResourceSchedules.md).
+If there are no entries in the Schedules related list, the value provided for the **Schedule** field is used to determine the resource schedule. If the Schedule field is empty too, then the schedule specified in the **Default Schedule Name \(com.snc.resource\_management.default\_schedule\)** property is applied as the resource schedule. To understand how to modify this property value, see [Specify the default resource management schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_UsingResourceSchedules.md).
 
-**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceManagement.md)
+**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_ResourceManagement.md)
 
 ## Custom schedules for resources
 
@@ -48,7 +48,7 @@ The value specified for the **Schedule** field on a user profile overrides the s
 
 **Note:** The **Time zone** field of a schedule is recommended to be set to **Floating**.
 
-If necessary, the administrator can create a hierarchy of schedules. This is useful if you want users to have a primary schedule such as Monday-Friday 8:00-17:00 and a secondary schedule such as Saturday-Sunday 12:00-16:00. See [Custom schedule hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_UsingResourceSchedules.md).
+If necessary, the administrator can create a hierarchy of schedules. This is useful if you want users to have a primary schedule such as Monday-Friday 8:00-17:00 and a secondary schedule such as Saturday-Sunday 12:00-16:00. See [Custom schedule hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_UsingResourceSchedules.md).
 
 ### Custom schedule hierarchy
 

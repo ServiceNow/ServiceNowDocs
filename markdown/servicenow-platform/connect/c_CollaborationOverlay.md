@@ -3,11 +3,11 @@ title: Connect overlay
 description: The Connect overlay appears over the standard user interface. It consists of the Connect sidebar, which is the primary interface for Connect Chat and Connect Support, and any Connect mini windows that are open. Each mini window contains a header, a conversation area, and a message field.The Connect sidebar is the primary interface for Connect Chat and Connect Support. It lists your conversations and provides access to create conversations.When you open a Connect Chat or Connect Support conversation in the Connect overlay, it opens in a Connect mini window. Each mini window contains a header, a conversation area, and a message field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/c\_CollaborationOverlay.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Connect interface, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ The Connect overlay appears over the standard user interface. It consists of the
 
 \[Omitted image "ConnectOverlay.png"\] Alt text: Connect overlay
 
-**Note:** An administrator can [disable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_DisableTheCollaborationOverlay.md) the Connect overlay so users can only use the Connect workspace, a full-screen interface with additional Connect tools.
+**Note:** An administrator can [disable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/t_DisableTheCollaborationOverlay.md) the Connect overlay so users can only use the Connect workspace, a full-screen interface with additional Connect tools.
 
 ## Connect sidebar
 
@@ -61,7 +61,7 @@ Several icons appear in the mini window header and by the message field.
 |\[Omitted image "IconNewWindow.png"\] Alt text: New window icon|New window|Open the conversation in the Connect workspace, a full-screen window with additional Connect tools.|
 |\[Omitted image "IconCollapseExpandWindow.png"\] Alt text: Collapse/Expand window icon|Collapse/Expand conversation|Hide or show the conversation. Alternatively, click anywhere in the mini window header to the left of the icons.|
 |\[Omitted image "IconCloseWindow.png"\] Alt text: Close window icon|Close window|Close the mini window. The conversation remains in the Connect sidebar and the history is preserved when you reopen the conversation. You can also close a mini window by pressing the Escape key.|
-|\[Omitted image "IconMenu.png"\] Alt text: Connect action menu icon|Connect actions|Open the Connect actions menu, which contains options like **Transfer** and **Create Incident**. This icon is visible only when Connect actions are available for the conversation. By default, this icon is visible for support conversations only. Administrators can add options to this menu by creating [Connect actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_AdministerConnectActions.md).|
+|\[Omitted image "IconMenu.png"\] Alt text: Connect action menu icon|Connect actions|Open the Connect actions menu, which contains options like **Transfer** and **Create Incident**. This icon is visible only when Connect actions are available for the conversation. By default, this icon is visible for support conversations only. Administrators can add options to this menu by creating [Connect actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/t_AdministerConnectActions.md).|
 |\[Omitted image "IconMessageType.png"\] Alt text: Message type icon|Message type|Choose whether messages are added to the associated record as comments or work notes. This icon is visible only for record and support conversations.|
 |\[Omitted image "IconAttach.png"\] Alt text: Attach file icon|Attach file|Attach and send a file. Select one or more files and click Open. You can also add an attachment by dragging and dropping it directly in the conversation.|
 

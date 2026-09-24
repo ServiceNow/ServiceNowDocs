@@ -3,11 +3,11 @@ title: Reassign an assessment type case task
 description: Reassign an Assessment type case task to another user. A case analyst or a case task owner can reassign a task to another case task owner, if required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/reassign-a-case-task.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work on a case task, Case task workflow, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -53,5 +53,5 @@ As a case task owner, you can also accept the task, start working on it, and the
 7.  Select **Reassign**.
 
 
-**Parent Topic:**[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/accept-a-case-task.md)
+**Parent Topic:**[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/accept-a-case-task.md)
 

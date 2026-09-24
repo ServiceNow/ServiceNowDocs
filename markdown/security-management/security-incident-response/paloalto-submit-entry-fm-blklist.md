@@ -3,11 +3,11 @@ title: Submit EDL entries from the blocklist for Palo Alto Networks Next-Generat
 description: For observables determined to be malicious, and not associated with a specific ServiceNow AI Platform security incident, you submit External Dynamic List \(EDL\) entries from the blocklist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto-submit-entry-fm-blklist.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -52,15 +52,15 @@ When you want to block an observable that you have determined is malicious, or a
 
 7.  If a message is displayed that requests you to fill in the rest of the information manually, fill in the fields.
 
-<table id="choicetable_r4s_ryh_vdb"><thead><tr><th align="left" id="d339275e154">
+<table id="choicetable_r4s_ryh_vdb"><thead><tr><th align="left" id="d338992e154">
 
 Field
 
-</th><th align="left" id="d339275e157">
+</th><th align="left" id="d338992e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d339275e163">
+</th></tr></thead><tbody><tr><td id="d338992e163">
 
 **Observable type**
 
@@ -68,7 +68,7 @@ Description
 
 Observable type that is supported from the dialog.
 
-</td></tr><tr><td id="d339275e172">
+</td></tr><tr><td id="d338992e172">
 
 **EDL name**
 
@@ -76,7 +76,7 @@ Observable type that is supported from the dialog.
 
 EDL you want to attach the entry to. **Note:** Select the EDL want to attach the entry to before setting the Expiration period.
 
-</td></tr><tr><td id="d339275e184">
+</td></tr><tr><td id="d338992e184">
 
 **Enable override \(default is selected\)**
 
@@ -84,7 +84,7 @@ EDL you want to attach the entry to. **Note:** Select the EDL want to attach the
 
 Lookup result or source. When configured, permits you to enter a **Lookup result** and the source used to find the results. These fields are typically populated when a security incident record is created. In this case, there is no lookup result or source, and you fill in these fields in manually.
 
-</td></tr><tr><td id="d339275e196">
+</td></tr><tr><td id="d338992e196">
 
 **Lookup result**
 
@@ -92,7 +92,7 @@ Lookup result or source. When configured, permits you to enter a **Lookup result
 
 Select **Unknown** or **Malicious**.
 
-</td></tr><tr><td id="d339275e212">
+</td></tr><tr><td id="d338992e212">
 
 **Source**
 
@@ -100,7 +100,7 @@ Select **Unknown** or **Malicious**.
 
 Source that performs a threat lookup on the EDL entry, for example, ThreatCrowd, etc.
 
-</td></tr><tr><td id="d339275e221">
+</td></tr><tr><td id="d338992e221">
 
 **Expiration period**
 
@@ -119,15 +119,15 @@ The expiration period inherited from the EDL by default. You can override this v
 
 9.  Choose one option to configure the expiration period.
 
-<table id="choicetable_mrw_213_vdb"><thead><tr><th align="left" id="d339275e268">
+<table id="choicetable_mrw_213_vdb"><thead><tr><th align="left" id="d338992e268">
 
 Option
 
-</th><th align="left" id="d339275e271">
+</th><th align="left" id="d338992e271">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d339275e277">
+</th></tr></thead><tbody><tr><td id="d338992e277">
 
 **Yes**
 
@@ -135,7 +135,7 @@ Description
 
 Confirms your expiration override, saves the record, and returns you to the **Palo Alto Networks Firewall External Dynamic List Entries** list. If you have email approval configured in your workflow, an approval email request is sent.
 
-</td></tr><tr><td id="d339275e289">
+</td></tr><tr><td id="d338992e289">
 
 **No**
 
@@ -153,14 +153,14 @@ Cancels the override. At this point, you can change the value for the **Expirati
 
 Approve EDL entries.
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Submit EDL entries from a security incident record for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-submit-edl-snsi.md)
+**Previous topic:**[Submit EDL entries from a security incident record for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto-submit-edl-snsi.md)
 
-**Next topic:**[Approve EDL entries for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-apprv-edl-entries-sncr.md)
+**Next topic:**[Approve EDL entries for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto-apprv-edl-entries-sncr.md)
 
 **Related topics**  
 
 
-[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-edl-execptions.md)
+[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/paloalto-edl-execptions.md)
 

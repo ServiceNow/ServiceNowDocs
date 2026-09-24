@@ -3,7 +3,7 @@ title: Requirements for installing Zero Copy Connector for ERP
 description: Before you install Zero Copy Connector for ERP \(Enterprise Resource Planning\), you must complete several configurations on both the ERP system and the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-prereqs-for-installation.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
@@ -19,14 +19,14 @@ Before you install Zero Copy Connector for ERP \(Enterprise Resource Planning\),
 
 ## Licensing
 
-Check your entitlements to determine whether you have access to Zero Copy Connector for ERP. For more information, see .
+Check your entitlements to determine whether you have access to Zero Copy Connector for ERP. For more information, see [Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/licensing.md).
 
 ## ServiceNow AI Platform plugins
 
 The following plugins are required to install Zero Copy Connector for ERP:
 
--   Integration Hub plugin \(for more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)\)
--   Financial Services Remote Tables plugin \(for more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-remote-tables-plugin.md)\)
+-   Integration Hub plugin \(for more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/request-ih-overview.md)\)
+-   Financial Services Remote Tables plugin \(for more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/activate-remote-tables-plugin.md)\)
 
 ## MID Server requirements
 
@@ -34,7 +34,7 @@ The following plugins are required to install Zero Copy Connector for ERP:
 
 Communicating with the ERP system through a MID Server requires a valid connection and credential alias.
 
-**Note:** The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the ERP system.
+**Note:** The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the system of record.
 
 Zero Copy Connector for ERP and ERP Semantic Mining currently support ECC \(minimum SAP Netweaver 7.31\) and SAP S/4HANA systems.
 
@@ -46,7 +46,7 @@ Navigate to **All** &gt; **MID Server** &gt; **Servers**, select a MID Server, a
     \[Omitted image "erpc-mid-server-capabilities.png"\] Alt text: MID Server record related lists with the Capabilities tab displayed, showing Zero Copy Connector for ERP.
 
 
-For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
 Assign the sn\_erp\_integration.erp\_mid\_server role to the mid\_user account. The role enables the MID Server to use the ImportSet API to send data to the ServiceNow instance.
 
@@ -100,11 +100,11 @@ Contact the administrator of your SAP ECC RFC account to obtain the following SA
 -   Create a record called "SAP Jco so" and attach `libsapjco3.so`. Use this file if your MID Server is installed on a Linux server.
 -   Create a record called "SAP Jco Jar" and attach `sapjco3.jar`. Use this file for both Windows and Linux.
 
-**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SynchronizeAJARFiletoMIDServers.md).
+**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SynchronizeAJARFiletoMIDServers.md).
 
 The MID Server restarts multiple times during this process.
 
-For details about these files, see [SAP ECC RFC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-ecc-rfc-spoke.md).
+For details about these files, see [SAP ECC RFC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/sap-ecc-rfc-spoke.md).
 
 ## SAP configuration
 
@@ -117,4 +117,6 @@ You need the following on your ERP system:
 -   SAP ECC \(minimum SAP NetWeaver 7.31\)
 -   SAP S/4HANA \(all versions supported\)
 -   SAP Java Connector
+
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

@@ -3,11 +3,11 @@ title: Apply custom map configuration to multiple Jira projects
 description: Add a custom table or field, which is applicable to all your Jira projects of a specific type, to the map configuration template in Agile Development 2.0.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/apply-custom-field-map-to-all-jira-projects.html
-release: australia
+release: brazil
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Add a custom table or field, which is applicable to all your Jira projects of a 
 
 ## Before you begin
 
--   [Discover and import Jira projects and boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/discover-projects.md).
+-   [Discover and import Jira projects and boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/discover-projects.md).
 -   Role required: sn\_jira\_int.user
 
 ## Procedure
@@ -56,11 +56,11 @@ Apply the custom project style map to all its related Jira projects.
 
     **Tip:** From the Jira Projects related list, make a multiple select on the **Mapping Config** field of all the Jira project records and remove their value, making all these fields empty.
 
-2.  If you've created a new table map, create a business rule to apply this new table map configuration. See [Apply custom table map configuration for Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/jira-create-business-rule-to-apply-custom-table-map.md).
+2.  If you've created a new table map, create a business rule to apply this new table map configuration. See [Apply custom table map configuration for Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/jira-create-business-rule-to-apply-custom-table-map.md).
 3.  Import these projects from Jira by clicking **Discover Projects**.
 
     This would import all the Jira projects with their map configuration as per the customized project style map.
 
 
-**Parent Topic:**[Customizing map configuration for your Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/custom-map-configuration.md)
+**Parent Topic:**[Customizing map configuration for your Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/custom-map-configuration.md)
 

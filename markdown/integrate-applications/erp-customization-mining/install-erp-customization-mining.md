@@ -3,13 +3,13 @@ title: Install ERP Semantic Mining
 description: Install the ERP Semantic Mining application \(sn\_erp\_mining\) if you have the admin role from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/install-erp-customization-mining.html
-release: australia
+release: brazil
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Configure, ERP Semantic Mining overview, Workflow Data Fabric]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Install ERP Semantic Mining
@@ -54,7 +54,10 @@ The installation is complete. Select **Close** to return to the ServiceNow Store
 
 ## What to do next
 
-After you install ERP Semantic Mining, ERP data from the connected system of record populates the ERP extraction tables in Zero Copy Connector for ERP. For example, ERP application activity, Collector directory data, and Namespace data. You can then incorporate extracted data into ERP data models and remote tables for use as a data source when building apps on ServiceNow. For more information, see [Standard extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md).
+After you install ERP Semantic Mining, ERP data from the connected system of record populates the ERP extraction tables in Zero Copy Connector for ERP. For example, ERP application activity, Collector directory data, and Namespace data. You can then incorporate extracted data into ERP data models and remote tables for use as a data source when building apps on ServiceNow. For more information, see the following topics:
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
+-   [View ERP extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-etl-data-sources.md)
+-   [Standard extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md)
+
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

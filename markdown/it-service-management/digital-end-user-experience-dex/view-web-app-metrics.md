@@ -3,14 +3,14 @@ title: View metrics of a web application
 description: View metrics of a web application to get a comprehensive view of the performance of the application. Tracking these metrics over time can help you gauge the impact of changes made to the application and monitor its long-term performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-web-app-metrics.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [web application metrics, web app performance, response time, page load time, view web app metrics]
-breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
 ---
 
 # View metrics of a web application
@@ -27,13 +27,16 @@ Role required: sn\_dex.user
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select a web application name.
 
 4.  Select **Performance** under **Application metrics**.
 
-    You can view information on the users, sessions, response time, page load time, and availability. For more information on the metrics, see [Web application — Performance page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/web-app-health-form.md).
+    You can view information on the users, sessions, response time, page load time, and availability. For more information on the metrics, see [Web application — Performance page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/web-app-health-form.md).
 
     **Note:** If you set up a page-level monitoring for specific application pages, you can see the collected metrics in the Metrics analyzer. Select one or more pages under **Pages** and narrow down your data by location, OS, or date range.
 

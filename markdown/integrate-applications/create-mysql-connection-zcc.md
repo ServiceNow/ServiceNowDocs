@@ -3,12 +3,12 @@ title: Create a MySQL connection
 description: Create a zero-copy connection to MySQL to access relational database data in Zero Copy Connector Hub without moving or duplicating data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-mysql-connection-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [MySQL connection, zero-copy connector, JDBC connector, data fabric connection, relational database]
-breadcrumb: [MySQL, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [MySQL, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a MySQL connection
@@ -91,20 +91,20 @@ SSL
 
 </td><td>
 
-Option to enable or disable SSL for the connection. When enabled, additional fields appear based on the selected SSL mode, Server Certificate Source, and Store type. See [MySQL connection security configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-connection-security-fields-zcc.md) for the complete conditional field set.
+Option to enable or disable SSL for the connection. When enabled, additional fields appear based on the selected SSL mode, Server Certificate Source, and Store type. See [MySQL connection security configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mysql-connection-security-fields-zcc.md) for the complete conditional field set.
 
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with MySQL.
 
-<table id="choicetable_mysql_auth"><thead><tr><th align="left" id="d630051e251">
+<table id="choicetable_mysql_auth"><thead><tr><th align="left" id="d623197e251">
 
 Option
 
-</th><th align="left" id="d630051e254">
+</th><th align="left" id="d623197e254">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d630051e260">
+</th></tr></thead><tbody><tr><td id="d623197e260">
 
 **Basic**
 
@@ -116,29 +116,29 @@ Option to use a username and password.
 2.  Enter the password associated with the username.
 
 
-</td></tr><tr><td id="d630051e281">
+</td></tr><tr><td id="d623197e281">
 
 **AWS IAM**
 
 </td><td>
 
-Option to authenticate using AWS IAM token-based authentication. See [MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-authentication-method-fields-zcc.md) for the specific fields \(Database user, AWS region, AWS access key ID, AWS secret access key\).
+Option to authenticate using AWS IAM token-based authentication. See [MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mysql-authentication-method-fields-zcc.md) for the specific fields \(Database user, AWS region, AWS access key ID, AWS secret access key\).
 
-</td></tr><tr><td id="d630051e300">
+</td></tr><tr><td id="d623197e300">
 
 **GCP IAM**
 
 </td><td>
 
-Option to authenticate using GCP Cloud IAM token-based authentication. See [MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-authentication-method-fields-zcc.md) for the specific fields \(Service account key \(JSON\), Database user, GCP token scope\).
+Option to authenticate using GCP Cloud IAM token-based authentication. See [MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mysql-authentication-method-fields-zcc.md) for the specific fields \(Service account key \(JSON\), Database user, GCP token scope\).
 
-</td></tr><tr><td id="d630051e319">
+</td></tr><tr><td id="d623197e319">
 
 **OAuth**
 
 </td><td>
 
-Option to authenticate using Azure AD/Entra ID OAuth 2.0. See [MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-authentication-method-fields-zcc.md) for the specific fields \(OAuth credential type, Azure tenant ID, Azure client ID, Azure client secret, and Azure token scope\).
+Option to authenticate using Azure AD/Entra ID OAuth 2.0. See [MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mysql-authentication-method-fields-zcc.md) for the specific fields \(OAuth credential type, Azure tenant ID, Azure client ID, Azure client secret, and Azure token scope\).
 
 </td></tr></tbody>
 </table>5.  Select **Connect**.
@@ -150,14 +150,14 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 
 **Related topics**  
 
 
-[MySQL connection security configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-connection-security-fields-zcc.md)
+[MySQL connection security configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mysql-connection-security-fields-zcc.md)
 
-[MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-authentication-method-fields-zcc.md)
+[MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mysql-authentication-method-fields-zcc.md)
 

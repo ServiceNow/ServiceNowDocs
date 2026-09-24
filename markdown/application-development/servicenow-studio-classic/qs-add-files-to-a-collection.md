@@ -3,11 +3,11 @@ title: Add files to a collection in ServiceNow Studio
 description: Group your apps, files and lists into folders and organize your work by stories, epics, or related use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-add-files-to-a-collection.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Developing your application, Building applications]
 ---

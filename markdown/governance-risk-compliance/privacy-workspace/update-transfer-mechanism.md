@@ -3,11 +3,11 @@ title: Manage transfer mechanisms in the Privacy Workspace
 description: Add or update the existing transfer mechanisms in your Privacy Management application, so that privacy analysts can add them to data transfer records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/update-transfer-mechanism.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Transfer mechanisms, Manage data transfers, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -71,12 +71,12 @@ Description
 Description of the transfer mechanism. An analyst can see the description while adding a transfer mechanism to a data transfer.
 
 </td></tr></tbody>
-</table>        For a list of transfer mechanisms in Privacy Management, see [Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md).
+</table>        For a list of transfer mechanisms in Privacy Management, see [Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md).
 
     2.  To update an existing transfer mechanism, select the record, and edit the details.
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md)
+**Parent Topic:**[Transfer mechanisms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/transfer-mechanisms.md)
 

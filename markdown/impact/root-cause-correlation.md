@@ -3,9 +3,9 @@ title: Root cause correlation
 description: Root Cause Correlation \(RCC\) finds a root cause by automatically correlating metrics, logs, and event information for supported symptoms on production instances for the last 24 hours.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/root-cause-correlation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -122,5 +122,5 @@ Threads running​
 </td></tr></tbody>
 </table>**Note:** As soon as any of the aforementioned alerts or Critical or Warning performance are identified, the system automatically generates an RCA report after waiting for a maximum of 10 minutes, depending on the conditions.
 
-**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/io-overview.md)
 

@@ -3,9 +3,9 @@ title: View trending case topics
 description: Analyze the backlog of cases and identify clusters of cases that point to similar underlying issues.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-trending-case-topics.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---

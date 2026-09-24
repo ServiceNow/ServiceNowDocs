@@ -3,11 +3,11 @@ title: Review record counts for indexed sources
 description: Understand where your indexed content originates by viewing record counts for your indexed sources in the AI Search Indexed Source Statistics table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/record-counts-indexed-sources-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -49,5 +49,5 @@ The AI Search Indexed Source Statistics \[ais\_datasource\_stats\] table contain
     **Note:** The entry for an indexed source indicates the number of indexed records from that source when the **AIS Collect Ingestion Stats** scheduled job ran at the time listed in the Updated field.
 
 
-**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/administer-ais.md)
 

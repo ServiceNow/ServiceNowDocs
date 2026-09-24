@@ -3,11 +3,11 @@ title: Change the general settings in your portal experience
 description: Change the general settings for your custom portal experience in UI Builder. For example, you can modify the title, description, and path for your portal experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/portal-general-settings.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure UI Builder portal experiences, Configure how users interact with your applications in UI Builder, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Change the general settings for your custom portal experience in UI Builder. For
 
 ## Before you begin
 
-You must be in the correct application scope to edit the experience settings. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/security-roles.md).
+You must be in the correct application scope to edit the experience settings. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/security-roles.md).
 
 Role required: ui\_builder\_admin
 
@@ -28,7 +28,7 @@ Role required: ui\_builder\_admin
 
 2.  Open a portal experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Select **Experience settings** in the UI Builder header.
 
@@ -54,5 +54,5 @@ Role required: ui\_builder\_admin
 
 When you go back to your portal experience settings in UI Builder, you see the changes that you made to the general settings.
 
-**Parent Topic:**[Configure UI Builder portal experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-portal-settings.md)
+**Parent Topic:**[Configure UI Builder portal experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-portal-settings.md)
 

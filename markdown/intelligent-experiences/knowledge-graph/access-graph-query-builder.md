@@ -3,13 +3,13 @@ title: Access Graph Query Builder
 description: Open Graph Query Builder directly from drop-down menu options on the home page of ServiceNow UI or from the Query Builder section within Knowledge Graph Designer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/access-graph-query-builder.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Graph Query Builder, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Graph Query Builder, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Access Graph Query Builder

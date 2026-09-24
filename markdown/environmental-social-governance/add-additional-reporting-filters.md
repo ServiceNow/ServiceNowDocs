@@ -3,9 +3,9 @@ title: Add additional reporting configuration filters for a Microsoft 365 config
 description: Add additional reporting filters to specify at a granular level what data must be imported to the disclosure report from a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/add-additional-reporting-filters.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating Microsoft 365 with ServiceNow reporting, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -67,7 +67,7 @@ Related fields
 
 </td><td>
 
-Fields in the add-in pane that are dependent on the selected **Field name**. Only records relevant to the selected **Field name** will be displayed as choices. For example, only entities related to a selected metric definition will be available as a choice. For more information, see [Add related fields to a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-related-fields-0365.md).
+Fields in the add-in pane that are dependent on the selected **Field name**. Only records relevant to the selected **Field name** will be displayed as choices. For example, only entities related to a selected metric definition will be available as a choice. For more information, see [Add related fields to a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-related-fields-0365.md).
 
 </td></tr><tr><td>
 
@@ -111,8 +111,8 @@ The configuration data is now ready to be imported in to your add-in.
 
 If an ESG reporting disclosure manager wants to understand the total emissions for an entire year for a particular location and if the location has sub-locations, you can also aggregate the data and use it for reporting purposes. For example, consider that your organization has a location Japan. Japan, in turn, has two sub locations, Tokyo and Kyoto. Assume that you want to find your total yearly Scope 1 emissions for the year 2022 for Japan. Using the time dimensions feature, you can aggregate your data and get a view of your total emissions for a year. You can also aggregate the data for a quarter, week, or a month depending on your reporting requirements. The metric data is aggregated at frequencies higher than the metric data collection frequency. To achieve this, in the **Source table** field, select **Metric data by entity \[sn\_grc\_metric\_data\_by\_entity\]** and select the **Aggregate on time dimension** option, and select the time dimension field from the source table.
 
--   **[Add related fields to a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-related-fields-0365.md)**  
+-   **[Add related fields to a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-related-fields-0365.md)**  
 Add related fields to filter values based on the chosen primary field. These filter values will automatically adjust according to the selected filter criteria.
 
-**Parent Topic:**[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-o365-with-servicenow.md)
+**Parent Topic:**[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrating-o365-with-servicenow.md)
 

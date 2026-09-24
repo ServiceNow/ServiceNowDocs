@@ -3,9 +3,9 @@ title: Add or edit a demand
 description: You can create or edit a demand as a step to identify cost-saving opportunities on applications or capabilities, to meet a target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-demand-ba.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_apm.apm\_user
     -   To update details of an existing demand, select the demand.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-demand-form.md).
+    For field information, see [Create demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-new-demand-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-demands.md)
+**Parent Topic:**[Manage demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-demands.md)
 
 **Related topics**  
 
 
-[View all demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-demands.md)
+[View all demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-demands.md)
 

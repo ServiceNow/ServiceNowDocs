@@ -3,9 +3,9 @@ title: Clone help resources
 description: Help resources provide guidance and documentation to support users during clone operations and troubleshooting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-help-resources.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [clone help resources, clone documentation, clone support, clone troubleshooting]
 breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]

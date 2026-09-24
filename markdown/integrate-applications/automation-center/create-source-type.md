@@ -3,11 +3,11 @@ title: Create automation source type
 description: Define the kind of source type that you want to import and use in Automation Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-source-type.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring automation summary execution, Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -39,7 +39,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 ## What to do next
 
-[Create automation source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-source.md)
+[Create automation source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-source.md)
 
-**Parent Topic:**[Configuring automation summary execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-auto-sum-exe.md)
+**Parent Topic:**[Configuring automation summary execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/config-auto-sum-exe.md)
 

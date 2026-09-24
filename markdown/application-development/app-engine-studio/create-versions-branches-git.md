@@ -3,20 +3,20 @@ title: Create versions and branches in Git
 description: App developers using App Engine Studio \(AES\) can create versions and branches in their Git repositories.Create a tag in the repository to link to a particular app version in App Engine Studio \(AES\).Application developers can switch to a different repository branch to work on another version of the application using App Engine Studio \(AES\).Application developers can create a branch to work on a new version of an existing app in App Engine Studio \(AES\).Set a default branch when you want to use a branch other than main for new changes or for your main App Engine Studio \(AES\) development repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/create-versions-branches-git.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use AES with a Git source control repository, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Use AES with a Git source control repository, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Create versions and branches in Git
 
 App developers using App Engine Studio \(AES\) can create versions and branches in their Git repositories.
 
-**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-use.md)
+**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-source-control-use.md)
 
 ## Create a tag to link to a particular application version
 
@@ -25,7 +25,7 @@ Create a tag in the repository to link to a particular app version in App Engine
 ### Before you begin
 
 -   Role required: admin or sn\_group\_creator.app\_creator
--   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-link-application.md)
 
 ### Procedure
 
@@ -94,7 +94,7 @@ Application developers can create a branch to work on a new version of an existi
 ### Before you begin
 
 -   Role required: admin or sn\_group\_creator.app\_creator
--   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-link-application.md)
 
 ### Procedure
 
@@ -132,11 +132,11 @@ Set a default branch when you want to use a branch other than main for new chang
 ### Before you begin
 
 -   Role required: admin
--   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-link-application.md)
 
 ### Procedure
 
-1.  Follow the steps to [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+1.  Follow the steps to [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 2.  Add the **glide.source\_control.default\_branch\_name** property, and specify the default branch name of the Git source control repository to work from \(pull requests, code commits, etc.\).
 

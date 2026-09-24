@@ -3,11 +3,11 @@ title: Getting started with Service Graph Connectors
 description: Service Graph Connectors, including API Service Graph Connectors, are predefined integrations that ingest third-party data and API data into the Configuration Management Database \(CMDB\) from various domains, such as security, servers, software or monitoring, Internet of Things \(IoT\), and cloud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Integrating third-party data into CMDB, Configuration Management, E
 
 Service Graph Connectors, including API Service Graph Connectors, are predefined integrations that ingest third-party data and API data into the Configuration Management Database \(CMDB\) from various domains, such as security, servers, software or monitoring, Internet of Things \(IoT\), and cloud.
 
-**Important:** See [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md) and [API Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-available.md) for a list of connectors provided by ServiceNow.
+**Important:** See [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md) and [API Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-available.md) for a list of connectors provided by ServiceNow.
 
 ## Request apps on the Store
 
@@ -32,18 +32,18 @@ You can use the following connector types:
 
 -   **Service Graph Connectors**
 
-    A Service Graph Connector imports and integrates third-party data into CMDB and non-CMDB tables. For a list of Service Graph Connectors, see [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md).
+    A Service Graph Connector imports and integrates third-party data into CMDB and non-CMDB tables. For a list of Service Graph Connectors, see [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md).
 
 -   **API Service Graph Connectors**
 
-    An API Service Graph Connector imports and integrates third-party API data into CMDB and non-CMDB tables. For a list of API Service Graph Connectors, see [API Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-available.md).
+    An API Service Graph Connector imports and integrates third-party API data into CMDB and non-CMDB tables. For a list of API Service Graph Connectors, see [API Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-available.md).
 
 -   **Partner-built connectors**
 
     Service Graph Connectors can be built by partners and vendors. For a list of partner-built connectors, see the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/integrations?freeTrial=service_graph_certified&offeredby=partners) website.
 
 
-The connectors also make sure that third-party data is mapped to the right locations in your CMDB as specified by the Common Service Data Model \(CSDM\). The CSDM enables ServiceNow products to use the data and increases reporting accuracy. For more information on CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
+The connectors also make sure that third-party data is mapped to the right locations in your CMDB as specified by the Common Service Data Model \(CSDM\). The CSDM enables ServiceNow products to use the data and increases reporting accuracy. For more information on CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
 
 The Service Graph Connectors, including API Service Graph Connectors, manage the configuration data pipeline in the following steps:
 
@@ -52,7 +52,7 @@ The Service Graph Connectors, including API Service Graph Connectors, manage the
 3.  Reconcile the data into a single coherent picture by using the reconciliation rules.
 4.  Ingest the data into your CMDB.
 
-You can track the status and processing results of all installed integrations using the SGC Central view within the CMDB Workspace or integrations dashboard provided with the Integration Commons for CMDB store app. For more information, see [SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-landing.md), [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md), and [CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/cmdb-integ-dashboard.md).
+You can track the status and processing results of all installed integrations using the SGC Central view within the CMDB Workspace or integrations dashboard provided with the Integration Commons for CMDB store app. For more information, see [SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-landing.md), [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md), and [CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-commons/cmdb-integ-dashboard.md).
 
 ## Service Graph Connector user roles
 
@@ -96,7 +96,7 @@ CMDB installation administrator \(cmdb\_inst\_admin\)
 
 </td><td>
 
-Users with the CMDB \(cmdb\_inst\_admin\) role can use [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) to create and customize integrations. CMDB installation administrator users can perform the following tasks:-   Read all Service Graph Connector application modules.
+Users with the CMDB \(cmdb\_inst\_admin\) role can use [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) to create and customize integrations. CMDB installation administrator users can perform the following tasks:-   Read all Service Graph Connector application modules.
 -   Read and write the system properties that are used by the connectors.
 -   Create, update, and delete custom tables.
 -   Create, update, and delete scheduled imports and data sources.
@@ -124,27 +124,27 @@ The Service Graph Connector Central application also called as SGC Central is av
 
 The SGC Central application minimizes customization and accelerates time to value with intuitive setup options and playbook-guided connector deployment. If the playbook experience isn’t available for a connector, you can follow the guided setup provided with the connector.
 
-To learn more, see [SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-landing.md).
+To learn more, see [SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-landing.md).
 
 ## Using connectors
 
 By using Service Graph Connectors and API Service Graph Connectors, you can mandate data governance and design practices. Examples of mandated practices using connectors include:
 
--   Consistently associating data with specific CI types. For instance, IP addresses are assigned to network interfaces rather than a mix of interfaces and servers. Ensuring that ServiceNow products know where to find third-party data. For more information, see [CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md).
+-   Consistently associating data with specific CI types. For instance, IP addresses are assigned to network interfaces rather than a mix of interfaces and servers. Ensuring that ServiceNow products know where to find third-party data. For more information, see [CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md).
 -   Using the Identification and Reconciliation \(IRE\) engine to identify and classify data correctly before it’s loaded into the CMDB. Helping prevent duplicate CIs and ensuring that attribute values are consistent across multiple data sources.
 
     For information on the IRE-related rules used in Service Graph Connectors, see the following topics:
 
-    -   [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
-    -   [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md)
-    -   [Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_ReconciliationRulesPrinciples.md)
-    -   [Create an IRE data source rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-ire-data-source-rule.md)
-    -   [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md)
-    -   [Create a data refresh rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-datasource-staleness-rule.md)
-    -   [Create an identification inclusion rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-id-inclusion-rule.md)
--   Using the IntegrationHub ETL functionality so that data is transformed and loaded in the fastest and most efficient manner. For more information, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md).
+    -   [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
+    -   [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md)
+    -   [Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/r_ReconciliationRulesPrinciples.md)
+    -   [Create an IRE data source rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-ire-data-source-rule.md)
+    -   [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md)
+    -   [Create a data refresh rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-datasource-staleness-rule.md)
+    -   [Create an identification inclusion rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-id-inclusion-rule.md)
+-   Using the IntegrationHub ETL functionality so that data is transformed and loaded in the fastest and most efficient manner. For more information, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md).
 
 ## Resolving connector issues
 
-You can use the ServiceNow Otto for Configuration Management Database \(CMDB\) application to resolve any issues or perform a general analysis on a connector installed on your instance. See [Fix SGC import set issues with the ServiceNow Otto SGC diagnosis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+You can use the ServiceNow Otto for Configuration Management Database \(CMDB\) application to resolve any issues or perform a general analysis on a connector installed on your instance. See [Fix SGC import set issues with the ServiceNow Otto SGC diagnosis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 

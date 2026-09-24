@@ -1,20 +1,20 @@
 ---
-title: Activate Smart Assessment response assist skill
-description: Activate and configure the Smart Assessment response assist skill in ServiceNow Otto. The skill automatically drafts responses for assessment questionnaires by using previously answered questions and supporting documents to improve accuracy and consistency.
+title: Activate smart assessment response assist skill
+description: Activate and configure the smart assessment response assist skill in ServiceNow Otto to automatically draft responses for assessment questionnaires by using previously answered questions, contextual data and supporting documents. Enhancing accuracy, reducing redundancy, and maintaining consistency across assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for SAE, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
-# Activate Smart Assessment response assist skill
+# Activate smart assessment response assist skill
 
-Activate and configure the Smart Assessment response assist skill in ServiceNow Otto®. The skill automatically drafts responses for assessment questionnaires by using previously answered questions and supporting documents to improve accuracy and consistency.
+Activate and configure the smart assessment response assist skill in ServiceNow Otto® to automatically draft responses for assessment questionnaires by using previously answered questions, contextual data and supporting documents. Enhancing accuracy, reducing redundancy, and maintaining consistency across assessments.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-**Note:** The **Smart Assessment Response Assist** skill is on by default. If you turned it off, follow the steps in this task to turn it on.
+**Note:** The **Smart Assessment Response Assist** is on by default. If you turned it off, follow the steps in this task to turn it on.
 
 ## Procedure
 
@@ -36,7 +36,12 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 4.  Select **Turn on**.
 
-5.  Select **Risk &amp; Sustainability** to return to the page listing all Risk and Sustainability-related skills or close the dialog box to remain on the same page.
+5.  Choose how to proceed after activating the skill.
+
+    |Option|Steps|
+    |------|-----|
+    |**Return to list**|Select **Risk &amp; Sustainability**.|
+    |**Stay on page**|Close the dialog box.|
 
 
 ## Result
@@ -45,5 +50,5 @@ The Smart Assessment Response Assist skill is active and available for assessmen
 
 ## What to do next
 
-Configure AI response at template category level, for more information see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+Configure AI response at template category level, for more information refer to [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 

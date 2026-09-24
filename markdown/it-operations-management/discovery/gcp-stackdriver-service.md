@@ -3,11 +3,11 @@ title: Configure the Google Cloud Logging service to auto-update the CMDB
 description: You can activate the Google Cloud Logging \(formerly Stackdriver Logging\) service to auto-update Configuration Management Database \(CMDB\) configuration items \(CI\) data whenever Google Cloud Connector or your Google account makes a life-cycle state or configuration change to a Google Cloud Platform \(GCP\) resource. As a result, the CI data in the CMDB is updated without having to wait for Discovery to run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/gcp-stackdriver-service.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovery for Google Cloud Platform, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,8 +18,8 @@ You can activate the Google Cloud Logging \(formerly Stackdriver Logging\) servi
 
 ## Before you begin
 
--   Activate Discovery and Service Mapping Patterns. For more information, see [Google Cloud Platform Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/google-gcp-discovery-pattern.md).
--   Verify that Discovery has successfully discovered logical datacenters of the Google Cloud project. For more information, see [Set up a cloud account and service account for Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/gcp-first-cld-and-srvc-accts.md).
+-   Activate Discovery and Service Mapping Patterns. For more information, see [Google Cloud Platform Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/google-gcp-discovery-pattern.md).
+-   Verify that Discovery has successfully discovered logical datacenters of the Google Cloud project. For more information, see [Set up a cloud account and service account for Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/gcp-first-cld-and-srvc-accts.md).
 
     **Note:** Verify that you have selected the **Should pull events** check box in the Google Service Account page before you execute datacenter discovery.
 

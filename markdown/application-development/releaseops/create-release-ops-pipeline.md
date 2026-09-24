@@ -3,11 +3,11 @@ title: Create a custom pipeline
 description: Create a custom pipeline to move changes from your development environment to production \(or your target instance\) by duplicating one of the ReleaseOps sample playbooks.Create a custom pipeline to move changes through your non-production environment by duplicating the Deployment Request Assessment playbook. Add the deployment analyzer to detect if there are code changes in the deployment and skip Automated Test Framework \(ATF\) tests during assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/create-release-ops-pipeline.html
-release: australia
+release: brazil
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
 breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
@@ -21,11 +21,11 @@ Create a custom pipeline to move changes from your development environment to pr
 
 Role required: releaseops.pipeline\_admin and playbook.admin or pd\_author
 
-For more information about playbooks, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
+For more information about playbooks, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md).
 
 ## About this task
 
-Custom playbooks and pipelines enable you to create deployment structures tailored to the unique needs of your organization's development environment. Custom playbooks and pipelines are best suited for deployment processes that are consistent and expected to occur during each release. For deployment processes that are more variable, you might consider adding runbook tasks instead of custom playbooks or playbook activities. For more information, see [Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/runbook-tasks.md).
+Custom playbooks and pipelines enable you to create deployment structures tailored to the unique needs of your organization's development environment. Custom playbooks and pipelines are best suited for deployment processes that are consistent and expected to occur during each release. For deployment processes that are more variable, you might consider adding runbook tasks instead of custom playbooks or playbook activities. For more information, see [Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/runbook-tasks.md).
 
 ## Procedure
 
@@ -37,17 +37,17 @@ Custom playbooks and pipelines enable you to create deployment structures tailor
 
     2.  Enter a name for your new playbook and update any other required details.
 
-    For more information, see [Duplicate a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/duplicate-process.md).
+    For more information, see [Duplicate a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/duplicate-process.md).
 
 2.  Add or update stages in the playbook as desired.
 
     **Note:** Certain stages make sense at certain parts of the flow. For example, the deployment analyzer runs before the deployment state **Move to test**. Other stages might need to be run after **Move to test** or after **Run ATF tests**. Typically, you shouldn’t add anything after **Ready for deploy**.
 
-    For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/add-configure-stage.md).
+    For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/add-configure-stage.md).
 
 3.  Add or update decisions in the playbook as needed.
 
-    For more information, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-a-decision-activity.md).
+    For more information, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-a-decision-activity.md).
 
 4.  Select **Activate** to finalize your updates and make your new playbook available for use.
 
@@ -104,7 +104,7 @@ Role required: releaseops.pipeline\_admin and playbook.admin or pd\_author
 
 5.  Locate the Run ATF Tests section of the playbook, and add a new decision after the Transition to Assessing activity by selecting the + icon, and then selecting **Add a decision \(if/then\)**.
 
-    For more information, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-a-decision-activity.md).
+    For more information, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-a-decision-activity.md).
 
 6.  Select the newly added decision to configure it.
 

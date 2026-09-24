@@ -3,11 +3,11 @@ title: Configure the Application Administrator role on the SCCM server
 description: To deploy software using ServiceNow Client Software Distribution \(CSD\), ensure that an SCCM administrative user has the correct permissions to deploy software and that PowerShell is properly configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-conf-sccm.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring SCCM, CSD from SCCM, Client Software Distribution, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -51,5 +51,5 @@ These instructions are for Microsoft 2012 R2 Server.
     This action establishes the environment path to PowerShell for the logged in Application Administrator user.
 
 
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
 

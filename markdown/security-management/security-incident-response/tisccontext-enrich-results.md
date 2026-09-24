@@ -3,11 +3,11 @@ title: View Enrichment Results
 description: TISC context facilitates viewing threat intelligence data such as observables within the security incident response workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/tisccontext-enrich-results.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with TISC Context, TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Using this section, you can do the following:
 2.  View associated observables information.
 3.  View observables enrichment results.
 
-For more detailed information and procedures, see the following sections. For more information on how the integration works between TISC and Security Incident Response Workspace, see [TISC integration with SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-integration-with-sir-workspace.md) in [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md).
+For more detailed information and procedures, see the following sections. For more information on how the integration works between TISC and Security Incident Response Workspace, see [TISC integration with SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-integration-with-sir-workspace.md) in [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md).
 
 ## Observable Information
 
@@ -35,5 +35,5 @@ For more detailed information and procedures, see the following sections. For mo
 |Sightings|Lists all the associated sightings for selected TISC observables.|
 |Observable Enrichment Results|Lists all the associated observable enrichment results for selected TISC observables.|
 
-**Parent Topic:**[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/working-with-tisc-context.md)
+**Parent Topic:**[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/working-with-tisc-context.md)
 

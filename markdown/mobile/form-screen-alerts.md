@@ -3,9 +3,9 @@ title: Configure a mobile alert for a record screen
 description: Configure a mobile alert overlay for a record screen to inform users of an important message and to redirect them to a specific screen. Only one mobile alert is available per instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/form-screen-alerts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Configure a mobile alert overlay for a record screen to inform users of an impor
 
 ## Before you begin
 
-When configuring an alert for a record screen, you must have a record screen to display the alert. See, [Record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/form-screen.md).
+When configuring an alert for a record screen, you must have a record screen to display the alert. See, [Record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/form-screen.md).
 
 Role required: admin
 
@@ -34,7 +34,7 @@ Role required: admin
         2.  **Type**: Select the `Navigation` option.
         3.  **Context**: Select the `Record` option.
         4.  **Destination type**: Select the `Screen` option.
-    4.  Select the **Condition** tab and define the conditions that apply for the display and the hiding of the mobile alert. For more information, see [Configure a navigation to a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-navigation-function.md).
+    4.  Select the **Condition** tab and define the conditions that apply for the display and the hiding of the mobile alert. For more information, see [Configure a navigation to a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-navigation-function.md).
 
     5.  Select the **Action Completion** tab.
 
@@ -58,13 +58,13 @@ Role required: admin
 
     4.  Select the **Dismiss Button** tab and enter a text that displays to the user in the **Dismiss button label** field. Examples are "Close" and "Dismiss".
 
-        These texts are translated field types associated with the Translated Name / Fields \[sys\_translated\] table, see [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_TranslatedNameFieldTable.md).
+        These texts are translated field types associated with the Translated Name / Fields \[sys\_translated\] table, see [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_TranslatedNameFieldTable.md).
 
     5.  Select the **Primary Button** tab.
 
         1.  Enter a text in the **Primary button label** field that redirects the user to a screen. Examples are "View" and "Display".
 
-            These texts are translated field types associated with the Translated Name / Fields \[sys\_translated\] table, see [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_TranslatedNameFieldTable.md).
+            These texts are translated field types associated with the Translated Name / Fields \[sys\_translated\] table, see [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_TranslatedNameFieldTable.md).
 
         2.  In the Primary button field, select the reference lookup icon and select the navigation function button you defined earlier.
     6.  Select **Submit**.

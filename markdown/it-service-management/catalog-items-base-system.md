@@ -3,9 +3,9 @@ title: Catalog items installed with Simplified IT Service Management
 description: Few commonly requested catalog items are auto-installed in the base system for Simplified IT Service Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/catalog-items-base-system.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Simplified IT Service Management, IT Service Management]
 ---
@@ -48,5 +48,5 @@ Few commonly requested catalog items are auto-installed in the base system for S
 |Virtual Hosting / Cloud Computer \(Windows/Linux\)|Request a new virtual machine \(VM\) or make configuration changes to existing compute instances including CPU, RAM, storage, or network. Supports both on-premise and public cloud environments.|
 |VPN Access Issue|Report VPN connection issues.|
 
-**Parent Topic:**[Simplified IT Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-reference.md)
+**Parent Topic:**[Simplified IT Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/ai-native-it-service-desk-reference.md)
 

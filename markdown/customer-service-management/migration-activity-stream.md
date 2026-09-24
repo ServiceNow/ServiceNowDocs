@@ -3,11 +3,11 @@ title: Activity stream
 description: Learn about how the Workspace Activity stream functions in Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-activity-stream.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activity stream

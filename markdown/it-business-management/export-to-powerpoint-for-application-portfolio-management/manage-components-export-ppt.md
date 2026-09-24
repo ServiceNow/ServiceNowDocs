@@ -3,11 +3,11 @@ title: Manage Related Tables and Scripted Elements forms
 description: Manage the Related Tables and Scripted Elements components that are required to create a Microsoft PowerPoint template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.html
-release: australia
+release: brazil
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Export to PowerPoint for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_ppt\_export.ppt\_admin
 
 2.  Select a parent table record, for example, Project report `pm_project`.
 
-<table id="choicetable_wws_lkm_t5b"><tbody><tr><td id="d217498e82">
+<table id="choicetable_wws_lkm_t5b"><tbody><tr><td id="d217972e82">
 
 **To manage Related Tables**
 
@@ -34,10 +34,10 @@ Role required: sn\_ppt\_export.ppt\_admin
 
 You can add a custom remote table or a child from the parent table.1.  In the **Related Tables** related list, select **New**.
 
-On the Related tables form, fill the fields. For a description of the field values, see [Related Tables form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/related-tables-form.md).
+On the Related tables form, fill the fields. For a description of the field values, see [Related Tables form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/related-tables-form.md).
 
 2.  To add a custom remote table:
-    1.  [Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-remote-table.md).
+    1.  [Create a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-remote-table.md).
     2.  Select the required remote table from list.
     3.  Select the **Enable custom script** option.
     4.  In the Custom script box, write the code to establish a connection between the remote table and main table.
@@ -47,14 +47,14 @@ On the Related tables form, fill the fields. For a description of the field valu
 4.  Select **Submit**.
 The selected table and its relation to the parent table is displayed in the Related tables section.
 
-</td></tr><tr><td id="d217498e162">
+</td></tr><tr><td id="d217972e162">
 
 **To manage Scripted Elements**
 
 </td><td>
 
 1.  In the **Scripted Elements** component, select **New**.
-2.  On Scripted Elements form, fill the fields. For a description of the field values, see [Scripted Elements form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/scripted-elements-form.md).
+2.  On Scripted Elements form, fill the fields. For a description of the field values, see [Scripted Elements form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/scripted-elements-form.md).
 3.  Select **Submit**.
 
 
@@ -81,5 +81,5 @@ The selected table and its relation to the parent table is displayed in the Rela
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/configure-export-to-ppt.md)
+**Parent Topic:**[Configuring Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/configure-export-to-ppt.md)
 

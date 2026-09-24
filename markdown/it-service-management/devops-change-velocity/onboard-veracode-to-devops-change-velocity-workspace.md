@@ -3,11 +3,11 @@ title: Onboard Veracode to DevOps Change Velocity - Workspace
 description: Connect to your Veracode instance using the DevOps Change Workspace playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-veracode-to-devops-change-velocity-workspace.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Veracode, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Connect to your Veracode instance using the DevOps Change Workspace playbook.
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Veracode.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d298031e93">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d303904e93">
 
 Option
 
-</th><th align="left" id="d298031e96">
+</th><th align="left" id="d303904e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d298031e102">
+</th></tr></thead><tbody><tr><td id="d303904e102">
 
 **Homepage**
 
@@ -44,19 +44,19 @@ Steps
 2.  On the  Connect to a tool  modal, select Veracode from the **Security** category.
 
 
-</td></tr><tr><td id="d298031e129">
+</td></tr><tr><td id="d303904e129">
 
 **Applications module**
 
 </td><td>
 
 1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\).
-2.  Select an existing application, or create one. To create an application, see [Create an application - Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/app-create-all.md).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/app-create-all.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  On the  Connect to a tool  modal, select Veracode from the **Security** category.
 
 
-</td></tr><tr><td id="d298031e178">
+</td></tr><tr><td id="d303904e178">
 
 **Tools module**
 
@@ -119,12 +119,12 @@ Steps
         -   If you are using Azure DevOps or GitHub Actions orchestration tools, then you must add the custom action code in your pipeline always.
         -   If you’re using Jenkins, and your pipeline already has a Veracode security scan step, you don’t have to add the custom action code in your pipeline. Ensure that your Veracode security scan step has **waitForScan: true**. This is required for the system to retrieve the scan information.
     -   If this is the not the first security tool instance you’re onboarding, the respective custom action codes for orchestration tools that you’ve selected in step 6 will be available to copy. If you’re using Jenkins, and your pipeline already has a Veracode security scan step, you don’t have to add the custom action code in your pipeline. Ensure that your Veracode security scan step has **waitForScan: true**. This is mandatory for the system to retrieve the scan information.
-    -   If you want to configure Veracode for the GitLab tool, you can use the generic Docker container image to add the Veracode security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
-    -   For Harness pipelines, you can configure Veracode scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
+    -   If you want to configure Veracode for the GitLab tool, you can use the generic Docker container image to add the Veracode security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
+    -   For Harness pipelines, you can configure Veracode scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
     -   Alternatively, you can associate pipeline with security tool instance by adding security tool ID to the custom action code. This will override any previously associated security tool instance.
     \[Omitted image "veracode-playbook-05.png"\] Alt text: Playbook activity to copy custom action code
 
-    For information on configuring the Veracode scans on your pipeline, see [Configure Veracode scans on your pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-veracode-scans-on-your-pipeline.md)
+    For information on configuring the Veracode scans on your pipeline, see [Configure Veracode scans on your pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-veracode-scans-on-your-pipeline.md)
 
 8.  Mark the activity as complete.
 
@@ -135,7 +135,7 @@ Steps
 
 ## What to do next
 
-[Configure Veracode scans on your pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-veracode-scans-on-your-pipeline.md)
+[Configure Veracode scans on your pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-veracode-scans-on-your-pipeline.md)
 
-**Parent Topic:**[Veracode integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/veracode-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Veracode integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/veracode-integration-with-devops-change-velocity.md)
 

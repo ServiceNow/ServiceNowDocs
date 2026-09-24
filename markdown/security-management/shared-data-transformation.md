@@ -3,9 +3,9 @@ title: Shared data transformation
 description: The Security Incident Response, Vulnerability Response, and Threat Intelligence plugins share common features, for relationship data and duplication rules, used to import external and internal information into Security Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/shared-data-transformation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -32,15 +32,15 @@ Duplication rules have two purposes. They prevent too many duplicate records fro
 
 Duplication rules are used by **Email Parsing**, **Field Mapping**, and **Enrichment Data Mapping**.
 
--   **[Create duplication rules in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-duplication-rules.md)**  
+-   **[Create duplication rules in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-duplication-rules.md)**  
 You can use Duplication Rules to identify new email, enrichment data, or field maps with active duplicate records and process them appropriately.
 
-**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sec-ops-common-functionality.md)
 
 **Related topics**  
 
 
-[Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/parsing-emails.md)
+[Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/parsing-emails.md)
 
-[Map tables to tables with Security Operations field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-field-mapping.md)
+[Map tables to tables with Security Operations field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-field-mapping.md)
 

@@ -3,11 +3,11 @@ title: Categorize planning items using tags
 description: Categorize your planning items based on your requirement by adding tags.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/categorize-and-find-work-items-using-tags-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Categorize your planning items based on your requirement by adding tags.
 
 ## Before you begin
 
-[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -36,15 +36,15 @@ Any tagging additions or removals made to a planning item are automatically sync
 
 3.  From the List view of Prioritization, add a tag for a planning item using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d57255e122">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d56501e122">
 
 Option
 
-</th><th align="left" id="d57255e125">
+</th><th align="left" id="d56501e125">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d57255e131">
+</th></tr></thead><tbody><tr><td id="d56501e131">
 
 **From the List view of Prioritization**
 
@@ -59,7 +59,7 @@ You can add more tags.
 
  \[Omitted image "add-tags-to-planning-items-from-grid.gif"\] Alt text: Add tags to a planning item from the grid view.
 
-</td></tr><tr><td id="d57255e166">
+</td></tr><tr><td id="d56501e166">
 
 **From the Details page of a planning item**
 
@@ -86,7 +86,7 @@ You can add more tags.
 
     \[Omitted image "edit-tag-in-spw.png"\] Alt text: Edit tag in Portfolio Planning.
 
-<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d57255e243">
+<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d56501e243">
 
 **Me**
 
@@ -94,7 +94,7 @@ You can add more tags.
 
 Tag is visible only to the person who created the tag. Only the user who created the tag can use the tag to search for planning items labeled with that tag. This setting is the default.
 
-</td></tr><tr><td id="d57255e252">
+</td></tr><tr><td id="d56501e252">
 
 **Groups and Users**
 
@@ -102,7 +102,7 @@ Tag is visible only to the person who created the tag. Only the user who created
 
 Tag is visible to specific groups or users. You can specify the groups and users who can view this tag.
 
-</td></tr><tr><td id="d57255e261">
+</td></tr><tr><td id="d56501e261">
 
 **Everyone**
 

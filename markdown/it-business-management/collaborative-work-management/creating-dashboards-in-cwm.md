@@ -3,11 +3,11 @@ title: Create a dashboard for a CWM Board in Collaborative Work Management
 description: Create a dashboard for a CWM Board to visualize work data using predefined or custom widgets. Track progress and spot issues without reviewing individual tasks or stories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [TODO]
 breadcrumb: [Monitor and track work using dashboards in CWM, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Create a dashboard for a CWM Board to visualize work data using predefined or cu
 
 ## Before you begin
 
-A board is created. For more information, see [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
+A board is created. For more information, see [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -54,7 +54,7 @@ The dashboard opens in an empty state with the **Add widgets** option.
 
 ## What to do next
 
-Add predefined or custom widgets to your dashboard. For more information, see [Add widgets to a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-a-widget-to-cwm-dashboard.md).
+Add predefined or custom widgets to your dashboard. For more information, see [Add widgets to a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/add-a-widget-to-cwm-dashboard.md).
 
-**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+**Parent Topic:**[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
 

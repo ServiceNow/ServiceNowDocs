@@ -3,9 +3,9 @@ title: Create a case digest document template
 description: Create a template to use for generating case action summaries or post case review documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-review-doc-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -133,5 +133,5 @@ The content in the case action summary that is for internal users only. This fie
 **Related topics**  
 
 
-[Create a case digest configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-review-type.md)
+[Create a case digest configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-case-review-type.md)
 

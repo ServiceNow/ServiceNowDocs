@@ -3,9 +3,9 @@ title: Recipients List form
 description: Description of the field values for the Recipients List form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/recipients-list-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Surveys reference, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -118,12 +118,12 @@ Conditions
 Condition builder to create the recipients list based on the specified table and user field. A condition is made up of a selected field, an operator, and a value. Add conditions using the AND and OR buttons. Delete conditions by clicking the Delete button to the right of a condition.**Note:** This field is available only if the **Method** is `Dynamic Condition`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-reference.md)
+</table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/survey-reference.md)
 
 **Related topics**  
 
 
-[Define a recipients list for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-recipient-list.md)
+[Define a recipients list for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-recipient-list.md)
 
-[Create a recipients list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_TargetCommCreateRecipientList.md)
+[Create a recipients list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_TargetCommCreateRecipientList.md)
 

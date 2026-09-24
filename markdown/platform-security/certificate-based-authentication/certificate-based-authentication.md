@@ -3,11 +3,11 @@ title: Certificate-based authentication
 description: Certificate-based authentication lets you mutually authenticate user logins or inbound API requests using certificates from a trusted Certificate Authority \(CA\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/certificate-based-authentication/certificate-based-authentication.html
-release: australia
+release: brazil
 product: Certificate-based Authentication
 classification: certificate-based-authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---
@@ -25,12 +25,12 @@ Certificate-based authentication lets you mutually authenticate user logins or i
 
 -   **Certificate-based authentication for user interface logins**
 
-    Enable end users to use PIV \(Personal Identity Verification\) or CAC \(Common Access Card\) cards to log in to the ServiceNow AI Platform or Service Portal instead of using a user name and password. To set up mutual authentication for user interface logins, see [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
+    Enable end users to use PIV \(Personal Identity Verification\) or CAC \(Common Access Card\) cards to log in to the ServiceNow AI Platform or Service Portal instead of using a user name and password. To set up mutual authentication for user interface logins, see [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
 
-    After Certificate-based authentication is set up, end users can finalize their set up and log in. See [Log in using Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/ui-login-mutual-auth.md).
+    After Certificate-based authentication is set up, end users can finalize their set up and log in. See [Log in using Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/certificate-based-authentication/ui-login-mutual-auth.md).
 
 -   **Certificate-based authentication for Inbound web services**
 
-    Authenticate inbound requests to ServiceNow SOAP and REST APIs. To set up mutual authentication for inbound web services, see [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
+    Authenticate inbound requests to ServiceNow SOAP and REST APIs. To set up mutual authentication for inbound web services, see [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md).
 
 

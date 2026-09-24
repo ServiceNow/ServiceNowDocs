@@ -3,15 +3,15 @@ title: ITSM Virtual Agent resources analytics
 description: Track knowledge base articles and catalog items referenced in the ITSM Virtual Agent interactions to identify which resources support successful incident deflections instead of being transferred to a live agent for resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-resources.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-04-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI, virtual agent, analytics, resources, knowledge articles, catalog items, deflections, escalations, ITSM]
 audience: administrator
-breadcrumb: [Who is On Call, Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Track metrics, Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Virtual Agent resources analytics

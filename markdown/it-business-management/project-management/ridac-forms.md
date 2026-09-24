@@ -1,18 +1,18 @@
 ---
-title: RIDAC form fields
+title: Risk, issues, decisions, actions, and request change \(RIDAC\) form
 description: Learn about the fields of the RIDAC form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/ridac-forms.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# RIDAC form fields
+# Risk, issues, decisions, actions, and request change \(RIDAC\) form
 
 Learn about the fields of the RIDAC form.
 
@@ -78,7 +78,7 @@ Risk rank
 
 </td><td>
 
-A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/risk-value-lookup-project.md).
+A value and color assigned to the risk. This value is calculated using risk probability and impact. You can configure the color and value using Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/risk-value-lookup-project.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Risk value
 
 </td><td>
 
-A value calculated from Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/risk-value-lookup-project.md).
+A value calculated from Risk Value Lookup. For more information, see [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/risk-value-lookup-project.md).
 
 </td></tr><tr><td>
 
@@ -645,4 +645,5 @@ Work notes
 Additional information to indicate progress on the project request change.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/form-field-information-for-project-management.md)
+

@@ -3,11 +3,11 @@ title: Workforce Optimization for ITSM manager landing page
 description: Stay on top of the status of incidents your teams are working on at a given time. Monitor training that's overdue and how many assessments are open and require approval. Analyze your teams' work and SLA status for the desired time period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/wfo-itsm-manager-landing-page-configurable.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Landing pages, Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -85,5 +85,5 @@ Select a visualization to view details.
 |Incident SLAs at Risk|Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score|Number of incidents with SLAs that are at risk.|
 |Escalations|Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score| |
 
-**Parent Topic:**[Workforce Optimization for ITSM landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-landing-pages.md)
+**Parent Topic:**[Workforce Optimization for ITSM landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-landing-pages.md)
 

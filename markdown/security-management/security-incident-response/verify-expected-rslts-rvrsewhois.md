@@ -3,11 +3,11 @@ title: Verify expected results for Reverse Whois
 description: Enrichment results are displayed on the ReverseWhois Domains tab at the bottom of the security incident record. Locate the lookup results to verify that the lookup ran successfully.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-expected-rslts-rvrsewhois.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reverse Whois integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -47,9 +47,9 @@ If the lookup does not successfully complete, verify that the search terms you e
 
 For more enrichment data on the domain lookup results, you can run the Whois integration to perform enrichment lookups on the child observables returned by the Reverse Whois integration. This enrichment data on the child observables includes information on registration date, name of registrar, and country of origin.
 
-**Parent Topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/reversewhois-lookups.md)
+**Parent Topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/reversewhois-lookups.md)
 
-**Previous topic:**[Initiate the lookup for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manually-attch-an-obsvrble-reversewhois.md)
+**Previous topic:**[Initiate the lookup for Reverse Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/manually-attch-an-obsvrble-reversewhois.md)
 
-**Next topic:**[\(Optional\) Run enrichment lookup and verify expected results for Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-results-for-whois.md)
+**Next topic:**[\(Optional\) Run enrichment lookup and verify expected results for Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/verify-expected-results-for-whois.md)
 

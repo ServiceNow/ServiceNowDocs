@@ -3,11 +3,11 @@ title: Domain separation and Search Suggestions
 description: Domain separation is unsupported in the Search Suggestions application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-suggestions/domain-separation-search-suggestions.html
-release: australia
+release: brazil
 product: Search Suggestions
 classification: search-suggestions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Search Suggestions reference, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -21,7 +21,7 @@ Domain separation is unsupported in the Search Suggestions application. Domain s
 -   The domain field may exist on data tables but there is no business logic to manage the data.
 -   This level is not considered domain-separated.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Search Suggestions domain separation overview
 
@@ -34,5 +34,5 @@ By default, Search Suggestions results are limited to the specific domain of the
 **Related topics**  
 
 
-[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

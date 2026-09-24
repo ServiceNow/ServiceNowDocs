@@ -3,9 +3,9 @@ title: Application support for domain separation
 description: Many ServiceNow applications support domain separation in the base system but not all. Some supported applications include limitations on the data and administrative settings that can be domain-separated. These definitions delineate the domain separation support levels from the perspective of actual use cases and the people who use them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/domain-separated-apps.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Domain separation for service providers, Access Management]
 ---
@@ -66,58 +66,58 @@ Sometimes, a platform feature or application may effectively support SP use case
 
 |Product Suite|Application|Support level|
 |-------------|-----------|-------------|
-|[App development, agentic development, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)|No support|
-|[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center-landing-page.md)|Basic|
-|[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-explore.md)|Basic|
+|[App development, agentic development, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)|App Engine Studio|No support|
+|Automation Center|Basic|
+|Robotic Process Automation \(RPA\) Hub|Basic|
 |ServiceNow Studio|No support|
-|[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/tb-landing-page.md)|Basic|
-|[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/manage-app-development.md)|No support|
-|[Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)|Standard|
+|Table Builder|Basic|
+|App Engine Management Center|No support|
+|[Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/decision-designer-overview.md)|Standard|
 |Enterprise Resource Planning Integration|No support|
 |Enterprise Resource Planning Customization Mining|No support|
-|[Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)|Basic|
+|Next Experience UI Builder|Basic|
 |Workflow Data Fabric Hub/Zero Copy Connectors|No support|
-|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)|[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-communities.md)|No support|
-|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md)|Basic|
-|[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-release-management.md)|Basic\*|
+|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md)|Communities|No support|
+|Customer Service Management|Basic|
+|Release Management|Basic\*|
 |Order Management for Customer Service Management|Basic|
 |Post-Sales Support|Basic|
-|[Workforce Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-configurable-wfo-cs.md)|Basic|
-|[Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md)|Basic|
-|[DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dev-ops-landing-page.md)|[Dev Ops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-domain-separation.md)|No support|
-|[Dev Ops Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-config-domain-separation.md)|No support|
-|[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-service-management-overview.md)|[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-domain-separation.md)|Basic\*|
-|[Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-safety-domain-separation.md)|No support|
-|[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-domain-separation.md)|Basic|
-|[Procurement Service Management \(PSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/psm-domain-separation.md)|No support|
-|[Safe Workplace Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/domain-separation-safe-workplace.md)|See application site for individual application support levels|
-|[SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-online-search-connector-domain-separation.md)|Basic|
-|[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/domain-sep-universal-request.md)|Basic|
-|[Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/domain-sep-universal-task.md)|Basic|
-|[Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wfo-hr-overview.md)|Basic|
-|[Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-landing-page.md)|[Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-landing-page.md)|No support\*|
-|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/domain-separation-field-service.md)|Basic|
-|[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)|[Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/domain-separation-risk-management.md)|Basic|
-|[Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
+|Workforce Optimization for CSM|Basic|
+|Now Assist for CSM|Basic|
+|DevOps|Dev Ops|No support|
+|Dev Ops Config|No support|
+|Employee Service Management|HR Service Delivery|Basic\*|
+|Health and Safety|No support|
+|Legal Service Delivery|Basic|
+|[Procurement Service Management \(PSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/psm-domain-separation.md)|No support|
+|Safe Workplace Suite|See application site for individual application support levels|
+|SharePoint Online Search Connector|Basic|
+|Universal Request|Basic|
+|Universal Task|Basic|
+|Workforce Optimization for HR|Basic|
+|[Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)|[Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)|No support\*|
+|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-application-landing-page.md)|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/domain-separation-field-service.md)|Basic|
+|Governance, Risk, and Compliance|Advanced Risk|Basic|
+|Audit Management|Basic|
 |Business Continuity Management|Basic|
-|[Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
-|[Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
-|[Governance, Risk, and Compliance \(GRC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
+|Compliance Case Management|Basic|
+|Continuous Authorization and Monitoring|Basic|
+|Governance, Risk, and Compliance \(GRC\)|Basic|
 |Model Risk Management|Basic|
-|[Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-opres-landing-page.md)|Basic|
-|[Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
-|[Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/domain-separation-pol-comp.md)|Basic|
-|[Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|No support\*|
-|[Third-party risk management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tprm-domain-separation.md)|Basic|
-|[GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-domain-separation.md)|Basic|
+|Operational Resilience|Basic|
+|Privacy Management|Basic|
+|Policy and Compliance|Basic|
+|Regulatory Change Management|No support\*|
+|Third-party risk management|Basic|
+|[GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-domain-separation.md)|Basic|
 |Now Assist for TPRM|No support\*|
 |Now Assist for IRM|No support\*|
-|[Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
-|[Industry Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industry-products/industry-products-landing.md)|
-|•[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-overview.md)|Financial Services Card Operations|Basic|
+|Smart Assessment Engine|Basic|
+|[Industry Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industry-products/industry-products-landing.md)|
+|•[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-overview.md)|Financial Services Card Operations|Basic|
 |Financial Services Deposit Operations|Basic|
 |Financial Services Loan Operations|Basic|
-|[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/domain-separation-financial-services-payment-operations.md)|Basic|
+|[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/domain-separation-financial-services-payment-operations.md)|Basic|
 |Financial Services Treasury Operations|Basic|
 |Intelligent Servicing for Fraud|Basic|
 |Property and Casualty Insurance Servicing|Basic|
@@ -126,162 +126,163 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Individual Life Claims|Basic|
 |Financial Services Know Your Customer|Basic|
 |Financial Services Credit Operation|Basic|
-|[Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md)|Basic|
+|[Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md)|Basic|
 |Now Assist for Financial Services Operations|Basic|
 |Dispute Rules Content Pack for Visa|Basic|
 |Dispute Rules Content Pack for Mastercard|Basic|
-|• [Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-overview.md)|[EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help-domain-sep.md)|Basic|
-|[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-domain-sep-serv-mgmt-core.md)|Basic|
-|[Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-domain-sep.md)|Basic|
-|[Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-domain-sep.md)|Basic|
-|[Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/VAM-domain-separation.md)|Basic|
+|• [Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-overview.md)|[EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/emr-help-domain-sep.md)|Basic|
+|[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-domain-sep-serv-mgmt-core.md)|Basic|
+|[Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-domain-sep.md)|Basic|
+|[Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-domain-sep.md)|Basic|
+|[Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/VAM-domain-separation.md)|Basic|
 |Healthcare Operations Core|Basic|
 |Care Team Operations for Healthcare IT|Basic|
 |Care Team Operations for Biomed|Basic|
 |Care Team Operations for Facilities|Basic|
 |Care Team Operations for Environmental Services|Basic|
-|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-overview.md)|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-domain-separation.md)|Basic|
-|[Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-domain-separation.md)|Basic|
-|[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/bun-public-sector-landing-page.md)|Public Sector Digital Services|Basic|
-|[Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecom-media-tech-landing.md)|[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-domain-separation.md)|Basic|
+|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/manufacturing-overview.md)|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-domain-separation.md)|Basic|
+|[Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-domain-separation.md)|Basic|
+|[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/bun-public-sector-landing-page.md)|Public Sector Digital Services|Basic|
+|[Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/telecom-media-tech-landing.md)|[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-domain-separation.md)|Basic|
 |Customer Service Problem Management|Basic|
-|[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-spmc.md)|Basic \(Inherited from [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md)\).|
-|[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/domain-separation-assurance-workflows.md)|Standard|
-|[Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-domain-separation.md)|Standard|
-|[Exploring Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/tech-product-support-case-app.md)|Basic \(Inherited from [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md)\).|
-|[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/domain-seperation-telecommunication-network-inventory.md)|Basic|
-|[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)|[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/domain-separation-cloudin.md)|No support|
-|[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/domain-separation-ham.md)|Enhanced|
-|[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/domain-separation-software-asset-management.md)|Enhanced|
-|[Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/domain-separation-eam.md)|Standard|
-|[Asset Audit Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audit-response-domain-separation.md)|Basic|
-|[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md)|[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development-2.0-domain-separation.md)|Basic\*|
-|[Alignment Planner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/alignment-planner-domain-separation.md)|Basic|
+|[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-spmc.md)|Basic \(Inherited from [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md)\).|
+|[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/domain-separation-assurance-workflows.md)|Standard|
+|[Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-domain-separation.md)|Standard|
+|[Exploring Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/tech-product-support-case-app.md)|Basic \(Inherited from Customer Service Management\).|
+|[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/domain-seperation-telecommunication-network-inventory.md)|Basic|
+|IT Asset Management|Cloud Insights|No support|
+|Hardware Asset Management|Enhanced|
+|Software Asset Management|Enhanced|
+|Enterprise Asset Management|Standard|
+|Asset Audit Response|Basic|
+|Strategic Portfolio Management|Agile Development|Basic\*|
+|Alignment Planner Workspace|Basic|
 |Application Portfolio Management|Basic|
-|[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-cost-management.md)|No support|
-|[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-sep-demand-mgt.md)|Basic|
+|Cost Management|No support|
+|Demand Management|Basic|
 |Financial Management|No support|
-|[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-investment-funding.md)|Basic|
-|[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-project-portfolio-financials.md)|Basic\*|
-|[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-release-management.md)|Basic\*|
-|[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-scaled-agile-framework.md)|Basic\*|
-|[Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-test-management.md)|Basic\*|
-|[Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework-domain-separation.md)|Basic|
-|[IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_ITOMApplications.md)|[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-cloud-management.md)|Basic|
-|[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-agent-client-collector.md)|Basic|
-|[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_DiscoveryDomainSeparation.md)|Standard|
-|[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-event-management.md)|Basic|
+|Investment Funding|Basic|
+|Project Portfolio Management|Basic\*|
+|Release Management|Basic\*|
+|Scaled Agile Framework \(SAFe\)|Basic\*|
+|Test Management|Basic\*|
+|Goal Framework|Basic|
+|IT Operations Management|Cloud Provisioning and Governance|Basic|
+|Agent Client Collector|Basic|
+|Discovery|Standard|
+|Event Management|Basic|
 |Service Operations Workspace for ITOM|Basic|
-|[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-domain-separation.md)|Basic|
-|[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-operational-intelligence.md)|Basic|
-|[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-service-mapping.md)|Basic|
+|Health Log Analytics|Basic|
+|Metric Intelligence|Basic|
+|Service Mapping|Basic|
 |Cloud Migration Assessment|Basic|
 |Action Library|No support|
 |Cloud Configuration Governance|No support|
-|[Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance-domain-separation.md)|Basic|
+|Tag Governance|Basic|
 |Cloud Insights Billing|No support|
-|[Cloud Provisioning and Governance: Google Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-mgmt-dom-sep-recommend.md)|Basic|
-|m[Cloud Provisioning and Governance Terrafor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/domain-separation-cloud-management.md)|Basic|
+|Cloud Provisioning and Governance: Google Cloud|Basic|
+|mCloud Provisioning and Governance Terrafor|Basic|
 |Cloud Operation Workspace|Basic|
 |Cloud Discovery|Standard|
 |Synthetic Monitoring|Basic|
 |Service Observability|Basic|
-|[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)|Benchmarks|No support|
-|[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-change-mgt.md)|Basic|
+|IT Service Management|Benchmarks|No support|
+|Change Management|Basic|
 |Coaching|Basic|
-|[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-domain-separation.md)|Basic|
-|[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-contract-mgmt.md)|No support|
+|Continual Improvement Management|Basic|
+|Contract Management|No support|
 |Digital End-User Experience|No support|
-|[Domain separation and Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpr-domain-separation-digital-product-release.md)|Basic|
-|[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_InstalledWithExpenseLine.md)|No support|
-|[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-incident-comm-mgt.md)|Standard|
-|[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-incident-management.md)|Standard|
-|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)|Standard|
-|[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-incident-management.md)|Standard|
-|[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-on-call-scheduling.md)|Standard|
+||Basic|
+|Expense Line|No support|
+|Incident Communications Management|Standard|
+|Incident Management|Standard|
+|Facilities Service Management|Standard|
+|Incident Management|Standard|
+|On-Call Scheduling|Standard|
 |Asset Management|Basic|
-|[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-and-problem-management.md)|Standard|
-|[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-procurement.md)|Standard\*|
-|[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-product-catalog.md)|Standard|
-|[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-sep-req-management.md)|Standard|
-|[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-service-catalog-management.md)|Standard|
-|[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-sla.md)|Basic|
-|[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/SPM2-landing-page.md)|Basic\*|
+|Problem Management|Standard|
+|Procurement|Standard\*|
+|Product Catalog|Standard|
+|Request Management|Standard|
+|[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-service-catalog-management.md)|Standard|
+|Service Level Management|Basic|
+|[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/SPM2-landing-page.md)|Basic\*|
 |Site Reliability Operations|Basic\*|
-|[Task outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-task-outage.md)|Basic|
+|Task outage|Basic|
 ||No support|
-|[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-walkup-experience.md)|Basic|
-|[Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-now-assist-for-itsm.md)|Basic|
-|[Mobile Configuration and Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-config-navigation.md)|[Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-domain-separation.md)|Basic|
-|[Now Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)|[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/domain-separation-in-dashboards.md)|Basic|
-|[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PAWithDomainSeparation.md)|Enhanced|
-|[Process Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/domain-separation-process-optimization.md)|Basic|
-|[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/domain-separation-in-reporting.md)|Basic|
-|[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)|Basic|
-|[The ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-platform/now-platform-landing.md)|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-domain-separation.md)|Standard|
-|[Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-reference.md)|Standard|
-|[AI Search/Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search-domain-separation.md)|Searches respect domain restrictions from indexed records|
-|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-domain-sep.md)|No support|
-|[Application Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-management-domain-separation.md)|No support|
-|[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-assessments.md)|Standard|
-|[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/domain-separation-auto-test-framework.md)|Standard\*|
-|[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-voice.md)|Basic|
-|[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)|No support|
-|[Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-contextual-search.md)|Standard|
-|[Configuration Management \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-cmdb.md)|Standard|
-|[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-content-management.md)|No support|
-|[Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/domain-separation-credentials_conn.md)|Standard|
+|Walk-up Experience|Basic|
+||Basic|
+|[Mobile Configuration and Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-config-navigation.md)|[Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-domain-separation.md)|Basic|
+|Now Intelligence|Dashboards|Basic|
+|Performance Analytics|Enhanced|
+|Process Optimization|Basic|
+|Reporting|Basic|
+||Basic|
+|[The ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-platform/now-platform-landing.md)|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-domain-separation.md)|Standard|
+|[Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ci-agent-chat-reference.md)|Standard|
+||Basic\*|
+|AI Search/Now Assist in AI Search|Searches respect domain restrictions from indexed records|
+|App Engine Studio|No support|
+|Application Management|No support|
+|[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-assessments.md)|Standard|
+|Automated Test Framework|Standard\*|
+|[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-voice.md)|Basic|
+|[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)|No support|
+|Contextual Search|Standard|
+|[Configuration Management \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-cmdb.md)|Standard|
+|[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/domain-separation-content-management.md)|No support|
+|[Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/domain-separation-credentials_conn.md)|Standard|
 |Data Certification|Basic\*|
-|[Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/domain-separation-data-classification.md)|Enhanced|
+|[Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-classification/domain-separation-data-classification.md)|Enhanced|
 |Data Privacy|No support|
-|[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-data-management.md)|Basic\*|
-|[Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/domain-separation-delegated-development.md)|No support|
-|[Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-dependency-views.md)|Basic|
-|[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-document-services.md)|No support|
-|[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-sep-dynamic-translation.md)|Basic|
-|[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-encryption-domain-separation.md)|Basic support|
+|Data Management|Basic\*|
+|Delegated Development|No support|
+|[Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-dependency-views.md)|Basic|
+|[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-document-services.md)|No support|
+|Dynamic Translation|Basic|
+|[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/edge-encryption-domain-separation.md)|Basic support|
 |External Content Connectors|No support\*|
-|[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md)|No support|
-|[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md)|No support|
-|[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)|Basic support|
-|[Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-field-normalization.md)|No support|
-|[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-domain-separation.md)|Standard\*|
-|[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-guided-setup.md)|No support|
-|[Domain separation and Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/domain-separation-integrationhub.md)|Standard\*|
-|[Integrations with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-app-data-source-integration.md)|Basic+Standard|
-|[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-knowledge.md)|Standard|
+|[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption.md)|No support|
+|[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption-landing.md)|No support|
+|[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/cloud-encryption/dare-overview.md)|Basic support|
+|Field Normalization|No support|
+|[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-designer-domain-separation.md)|Standard\*|
+|[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/domain-separation-guided-setup.md)|No support|
+||Standard\*|
+|Integrations with third-party applications and data sources|Basic+Standard|
+|[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-knowledge.md)|Standard|
 |Hermes Messaging Service|Basic|
-|[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-managed-documents.md)|No support|
-|[MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-metricbase.md)|Basic|
-|[Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/domain-separation-virtual-agent.md)|Basic+Standard|
-|[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-notifications.md)|Standard|
-|[ODBC Driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/domain-separation-odbc-driver.md)|Basic\*|
-|[Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-orchestration.md)|Standard\*|
-|[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-pwd-reset.md)|Standard|
-|[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)|Domain separation landing page|
+|[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-managed-documents.md)|No support|
+|[MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-metricbase.md)|Basic|
+|[Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/domain-separation-virtual-agent.md)|Basic+Standard|
+|Notifications|Standard|
+|[ODBC Driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/domain-separation-odbc-driver.md)|Basic\*|
+|[Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-orchestration.md)|Standard\*|
+|[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-pwd-reset.md)|Standard|
+|[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)|Domain separation landing page|
 |Data Privacy|No support|
-|[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-predictive-intelligence.md)|Standard|
+|Predictive Intelligence|Standard|
 |Proactive Triggers|Basic|
-|[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-domain-separation.md)|Basic|
-|[Remote Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-remote-tables.md)|No support|
-|[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-support-for-schedules.md)|Basic|
-|[Script debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/domain-separation-script-debugging.md)|Basic|
-|[Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-search-suggestions.md)|No support|
-|[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-service-portal.md)|No support|
+|[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer-domain-separation.md)|Basic|
+|[Remote Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-remote-tables.md)|No support|
+|Schedules|Basic|
+|[Script debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/domain-separation-script-debugging.md)|Basic|
+|Search Suggestions|No support|
+|[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/domain-separation-service-portal.md)|No support|
 |Service Graph Connectors|No support|
-|[Domain separation and Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-domain-separation.md)|Standard|
-|[State Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-state-flows.md)|No support|
+|[Domain separation and Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/sidebar-domain-separation.md)|Standard|
+|[State Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-state-flows.md)|No support|
 |Subscription Management|Basic\*|
-|[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/domain-separation-surveys.md)|Basic\*|
+|[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/domain-separation-surveys.md)|Basic\*|
 |Task Intelligence|No support|
-|[Domain separation and Time Card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/domain-separation-time-card.md)|Basic\*|
-|[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/uib-domain-sep.md)|Standard|
-|[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/domain-separation-virtual-agent.md)|Basic|
-|[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-visual-task-boards.md)|Basic|
-|[Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/domain-separation-web-services.md)|Standard\*|
-|[Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowsAndDomainSeparation.md)|Standard\*|
+||Basic\*|
+|UI Builder|Standard|
+|[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/domain-separation-virtual-agent.md)|Basic|
+|[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/domain-separation-visual-task-boards.md)|Basic|
+|[Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/domain-separation-web-services.md)|Standard\*|
+|[Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/c_WorkflowsAndDomainSeparation.md)|Standard\*|
 |Workspace|Standard|
-|Platform Fundamentals|[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-landing-page.md)|No support|
+|Platform Fundamentals|[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-landing-page.md)|No support|
 |Instance Data Replication|No support|
 |Integration Hub|Standard\*|
 |Integrations with third-party applications and data sources|Basic Standard|
@@ -312,7 +313,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Service Portal|No support|
 |Sidebar \(aka Collaborative Chat\)|Standard|
 |State Flows|No support|
-|[Domain separation and Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-subscription-mgmt.md)|Basic\*|
+||Basic\*|
 |Survey Management|Basic\*|
 |Task Intelligence|No support|
 |Theme Builder|No support|
@@ -329,24 +330,24 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Industrial Process Manager|Basic|
 |Operational Technology Vulnerability Response|Basic|
 |Operational Technology Incident Management|Basic|
-|[Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations-landing-page.md)|Subscription Management[Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-config-compliance.md)|Standard|
-|[IBM QRadar Offense Ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/qradar-ibm-domain-sep.md)|Basic|
-|[Microsoft Graph Security API alert ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ms-graph-domain-sep.md)|Basic|
-|[Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-security-incident-response.md)|Standard|
-|[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-threat-intelligence.md)|Standard|
+|[Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-operations-landing-page.md)|Subscription Management[Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/domain-separation-config-compliance.md)|Standard|
+|[IBM QRadar Offense Ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/qradar-ibm-domain-sep.md)|Basic|
+|[Microsoft Graph Security API alert ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/ms-graph-domain-sep.md)|Basic|
+|[Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/domain-separation-security-incident-response.md)|Standard|
+|[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/domain-separation-threat-intelligence.md)|Standard|
 |Threat Intelligence Security Center|Standard|
-|[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-vulnerability-response.md)|Standard|
-|[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ServiceManagement.md)|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)|Standard|
-|[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/domain-separation-planned-maintenance.md)|Standard\*|
+|[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/domain-separation-vulnerability-response.md)|Standard|
+|[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/c_ServiceManagement.md)|Facilities Service Management|Standard|
+|[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/domain-separation-planned-maintenance.md)|Standard\*|
 |Structured Problem Analysis|No support|
 |Workforce Optimization for ITSM|Basic|
 |Vendor Management Workspace|Basic|
-|[Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/proactive-triggers.md)|Basic|
+|[Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/proactive-triggers.md)|Basic|
 |Employee Service Management|SharePoint Online Search Connector|Basic|
 |Workforce Optimization for ITSM|Basic|
 |Application Portfolio Management|Application Portfolio Management|Basic|
 |Domain separation and Conversational Analytics|Basic|
-|[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)|Advanced Approval for Sales Management|Enhanced|
+|[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-overview.md)|Advanced Approval for Sales Management|Enhanced|
 
-**Parent Topic:**[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+**Parent Topic:**[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

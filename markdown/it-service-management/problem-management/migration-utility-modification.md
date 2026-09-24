@@ -3,11 +3,11 @@ title: Modifications
 description: A modification is any alteration such as addition, deletion, or update that you carry out on Problem Management. If you have made significant modifications, you will need to review and resolve some possible blocking modifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/migration-utility-modification.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration job, Migration Utility, Configuring Problem Management, Problem Management, IT Service Management]
 ---

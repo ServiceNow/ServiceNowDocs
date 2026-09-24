@@ -3,9 +3,9 @@ title: Avoid log tampering
 description: Configure system log table protection rules to limit the scope of modification and deletion of application log records. The rules enable you to determine the logging of changes or attempts to changes in these tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/avoid-log-tampering.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System logs, Logs, Platform Security]
 ---
@@ -27,7 +27,7 @@ If you are a security\_admin, activate the Protected Tables plugin \(com.glide.p
 
 **Note:** The com.glide.protected\_tables plugin gives protection only to the system log tables mentioned above. Any attempt to update, insert or delete a record logs a message in the protected\_table\_log table.
 
-See [Installing and configuring the log protection plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/accept-log-protection.md) for more details.
+See [Installing and configuring the log protection plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/accept-log-protection.md) for more details.
 
 You can specify one of the following log protection levels for each of the system log table.
 
@@ -44,5 +44,5 @@ If there have been any attempts to modify the system log tables, they are logged
 
 **Note:** If the protection level is not specified for a table, any attempts of modification are not logged into the protected\_table\_log table.
 
-In order to disable the plugin operations on tables in the Admin Panel, set the com.glide.security.protected\_table.enabled property to false. See [Create log protection property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/log-protection-property.md) for more information.
+In order to disable the plugin operations on tables in the Admin Panel, set the com.glide.security.protected\_table.enabled property to false. See [Create log protection property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/log-protection-property.md) for more information.
 

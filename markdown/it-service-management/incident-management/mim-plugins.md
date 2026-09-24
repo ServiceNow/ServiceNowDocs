@@ -3,11 +3,11 @@ title: Major Incident Management plugins
 description: You can activate the Major Incident Management plugins if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/mim-plugins.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing major incidents, Incident Management, IT Service Management]
 ---
@@ -16,8 +16,8 @@ breadcrumb: [Managing major incidents, Incident Management, IT Service Managemen
 
 You can activate the Major Incident Management plugins if you have the admin role.
 
--   **[Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-major-incident-management-plugin.md)**  
+-   **[Activate Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/activate-major-incident-management-plugin.md)**  
  You can activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 
-**Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md)
+**Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-management.md)
 

@@ -3,9 +3,9 @@ title: Images page
 description: The Images page contains the images related to your Discovery Console for OT assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/images-page-console.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -51,5 +51,5 @@ To delete an image, select the delete icon \[Omitted image "delete-image-msi-con
 
 **Note:** To capture screenshots during the Operational Technology Discovery process, the Full Web Extractor Auto Query needs to be selected and executed. This captures the screenshots over ports 443 and 80 and extracts the content from the web pages.
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/using-discovery-console.md)
 

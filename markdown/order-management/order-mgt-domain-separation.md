@@ -3,9 +3,9 @@ title: Domain separation and Order Management
 description: Domain separation is supported for Order Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.OM revamp project - This topic was unhidden on Oct 30, 2025. Toby reviewed and approved it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-domain-separation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ Domain separation is supported for Order Management. Domain separation enables y
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview of domain separation in Order Management
 
@@ -32,7 +32,7 @@ The order fulfillment module in Order Management supports domain separation at a
 
 ## How domain separation works in Order Management
 
--   Ensure that the account is domain separated according to the domain separation guidelines in Customer Service Management. For more information, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md).
+-   Ensure that the account is domain separated according to the domain separation guidelines in Customer Service Management. For more information, see [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/domain-separation-customer-service.md).
 -   Customer orders, customer order line items, service orders, service order lines, and order tasks are domain separated using the account name.
 -   If an administrator assigns fulfillment agents and managers to work on customer orders, service orders, and order tasks for a specific domain, they can work on these types of transactions across accounts.
 
@@ -55,14 +55,14 @@ If customer or service orders have an account name, an administrator can identif
 
 If fulfillment agents or managers are assigned to a domain, an administrator can assign them to work on customer orders, service orders, and order tasks for a specific domain \(account\).
 
-**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-reference.md)
 
 **Related topics**  
 
 
-[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-order-management.md)
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-service-orders.md)
+[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/managing-service-orders.md)
 

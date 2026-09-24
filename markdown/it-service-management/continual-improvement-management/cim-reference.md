@@ -3,11 +3,11 @@ title: Continual Improvement Management reference
 description: Descriptions of CIM improvement, task, and approver states and process workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/cim-reference.html
-release: australia
+release: brazil
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Descriptions of CIM improvement, task, and approver states and process workflow.
 
 ## Improvement states
 
-The state of an improvement indicates the [progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md) of the improvement in the process.
+The state of an improvement indicates the [progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md) of the improvement in the process.
 
 <table id="table_btf_d1z_ycb"><thead><tr><th>
 
@@ -207,7 +207,7 @@ Improvement is removed from the Improvement Register list.
 </td></tr></tbody>
 </table>## CIM task states
 
-An improvement contains of one or more [CIM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/implement-cim-initiative.md) to complete the improvement. A CIM task is assigned to an owner to be responsible for the work specified.
+An improvement contains of one or more [CIM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/implement-cim-initiative.md) to complete the improvement. A CIM task is assigned to an owner to be responsible for the work specified.
 
 The state of a CIM task indicates the level of progress for the task.
 
@@ -290,11 +290,11 @@ When the improvement is taken off hold, all active CIM tasks \(not closed or can
 </td></tr></tbody>
 </table>## CIM approver states
 
-Each improvement needs at least one [approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/r_Approvals.md) to progress to the Implement state. The Approvers related list in the improvement contains a list of user approval records and the state of the approval.
+Each improvement needs at least one [approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/r_Approvals.md) to progress to the Implement state. The Approvers related list in the improvement contains a list of user approval records and the state of the approval.
 
 The users in the Approvers related list belong to the **Approver Group** specified on the Improvement Initiative form. Once the improvement has been approved by an Approver Group member, approval from other members is no longer required to progress the improvement. However, other Approver Group members can still set their individual approval state.
 
-To require additional approvers, configure the CIM Approval workflow in [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
+To require additional approvers, configure the CIM Approval workflow in [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md).
 
 ## Improvement process flow
 
@@ -385,7 +385,7 @@ Assess
 
 CIM approver\(member of the Approver group\)
 
- [CIM approver states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md)
+ [CIM approver states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-reference.md)
 
 </td><td>
 
@@ -472,18 +472,18 @@ Click **Close**.
  **Actual end date** is automatically populated.
 
 </td></tr></tbody>
-</table>-   **[Continual Improvement Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-roles.md)**  
+</table>-   **[Continual Improvement Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-roles.md)**  
 Roles are added with installation of Continual Improvement Management.
--   **[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)**  
+-   **[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)**  
 Improvement Initiative form and related field descriptions.
--   **[Components installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-components.md)**  
+-   **[Components installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-components.md)**  
 Several types of components are installed with the CIM plugin, including tables, user roles, and scheduled jobs.
--   **[Quick tests for Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/quick-tests-cim.md)**  
+-   **[Quick tests for Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/quick-tests-cim.md)**  
 Validate the continued functionality of Continual Improvement Management during application development and after upgrades. Copy and configure these automated tests to identify customizations needing review. All test suites and tests should pass.
--   **[Updates after improvement initiative creation from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/ui-updates-initiative-from-app.md)**  
+-   **[Updates after improvement initiative creation from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/ui-updates-initiative-from-app.md)**  
 UI changes display on the source application record and on the initiative record when you create an improvement initiative from an integrated application.
--   **[Updates after application record creation from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/updates-app-record-from-initiative.md)**  
+-   **[Updates after application record creation from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/updates-app-record-from-initiative.md)**  
 UI changes display on the source improvement initiative or CIM task record and on the corresponding application records of some applications when you create application records from improvement initiatives or CIM tasks.
 
-**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
 

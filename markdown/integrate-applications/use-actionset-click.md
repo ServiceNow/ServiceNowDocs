@@ -3,9 +3,9 @@ title: Use the ActionSet Click action
 description: Simulate a simple left-click on the target area as part of a series of actions in the ActionSet component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionset-click.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use the ActionSet component, Actions \(UI\), Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Simulate a simple left-click on the target area as part of a series of actions i
 
 ## Before you begin
 
-Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionsui-actionset.md).
+Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-actionsui-actionset.md).
 
 Role required: none
 
@@ -24,13 +24,13 @@ Role required: none
 
 The ActionSet Click action simulates a manual click at the area you specify in the ActionSet Settings window. You can use it to click a button, open a menu, select an object, or perform any action typically performed by a mouse click.
 
-You can configure the properties for the Click action. For more information about these properties, see [ActionSet Click properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actionset-actions-properties.md).
+You can configure the properties for the Click action. For more information about these properties, see [ActionSet Click properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/actionset-actions-properties.md).
 
 ## Procedure
 
 1.  Right-click the anchor.
 
-    For more information about an anchor, see [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
+    For more information about an anchor, see [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/anchor.md).
 
 2.  Click **Click**.
 
@@ -53,5 +53,5 @@ You can configure the properties for the Click action. For more information abou
 7.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionsui-actionset.md)
+**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-actionsui-actionset.md)
 

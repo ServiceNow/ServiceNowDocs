@@ -3,9 +3,9 @@ title: Synchronize types and categories to Document Intelligence
 description: If Document Intelligence is installed after document types and categories were set up in Document Processor, run this script to synchronize these values between the two applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/sync-doc-processor-intelligence.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document Intelligence, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -35,14 +35,14 @@ Follow this procedure if Document Intelligence is installed after document types
 
 Document Categories and Document Types created in Document Processor before Document Intelligence was installed are also created in Document Intelligence. This enables OCR processing on Document List Items.
 
-**Parent Topic:**[Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md)
+**Parent Topic:**[Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/integration-with-document-intelligence.md)
 
 **Related topics**  
 
 
-[Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md)
+[bundle-platai.document-intelligence-landing]
 
-[Using Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-document-processor.md)
+[Using Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/using-document-processor.md)
 
-[Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/doc-processor-associate-document-list-items-to-category.md)
+[Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/doc-processor-associate-document-list-items-to-category.md)
 

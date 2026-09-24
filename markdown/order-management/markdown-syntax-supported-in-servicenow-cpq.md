@@ -3,9 +3,9 @@ title: Markdown syntax
 description: Markdown provides a simple way to format content using plain text syntax. Use Markdown to apply basic text styling, insert links, and add images by using a small set of intuitive symbols that render consistently across supported CPQ experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/markdown-syntax-supported-in-servicenow-cpq.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable Markdown in text fields, Configure fields, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -39,7 +39,7 @@ The following syntax inserts images via a URL:
 **Related topics**  
 
 
-[Enable Markdown in text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-markdown-in-text-fields.md)
+[Enable Markdown in text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-markdown-in-text-fields.md)
 
-[Markdown options for read-only text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_readonlytext_markdown_options.md)
+[Markdown options for read-only text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layout_readonlytext_markdown_options.md)
 

@@ -3,9 +3,9 @@ title: Supported wiki tags
 description: Basic tags are supported for Wikitext fields in the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_SupportedWikiTags.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Wiki field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -138,7 +138,7 @@ Placed images
 
 </td><td>
 
-\[\[Image:&lt;image name&gt;\]\] For more information on uploading images or files to the database, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
+\[\[Image:&lt;image name&gt;\]\] For more information on uploading images or files to the database, see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 </td></tr><tr><td>
 

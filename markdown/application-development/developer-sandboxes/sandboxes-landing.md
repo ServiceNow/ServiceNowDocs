@@ -3,11 +3,11 @@ title: Developer Sandboxes
 description: Developer Sandboxes provide admins and delegated developers the ability to request, access, and manage individual sandboxes on top of the same underlying development instance. Delegated developers can write and merge code and configuration changes without the risk of their changes getting overwritten on the instance mid-development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/sandboxes-landing.html
-release: australia
+release: brazil
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [developer sandbox, sandbox developer, servicenow sandbox enabled, development sandbox, dev sandbox, sandbox management, sandbox enabled servicenow, sandbox crm]
 breadcrumb: [Developing your application, Building applications]
@@ -23,15 +23,15 @@ Developer Sandboxes provide admins and delegated developers the ability to reque
 
 <table id="table_bcm_2pm_bcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/exploring-sandboxes.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/exploring-sandboxes.md)
 
 </td><td>
 
-[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)
 
 </td><td>
 
-[Administer\[Omitted image "bus-try-a-demo.svg"\] Alt text:Administer and allocate Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/administering-sandboxes.md)
+[Administer\[Omitted image "bus-try-a-demo.svg"\] Alt text:Administer and allocate Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/administering-sandboxes.md)
 
 </td></tr></tbody>
 </table>Use Developer Sandboxes to create isolated development environments where users can develop on the ServiceNow AI Platform in parallel. Sandboxes help enhance Git-based workflows of the software development life cycle by reducing conflicts and enabling faster time to production.
@@ -42,7 +42,10 @@ Effective management of Developer Sandboxes enables companies to do the followin
 -   Align workspaces to specific stories, developers, test plans, or any custom criteria
 -   Enable true parallel development with controlled, independent environments
 
-Developer Sandboxes is in general availability for Zurich. Developer Sandboxes has limited availability for Xanadu and Yokohama, though a general guideline is to use it in Yokohama or after.
+Once allocated, developers can access their sandbox by one of two ways:
+
+-   Selecting the sandbox name on the Sandbox Management Home page.
+-   Using the context menu and copy the URL to the clipboard and paste it to the browser.
 
 **Note:** If your instance is in a regulated environment, check with ServiceNow Support for more information about support for Developer Sandboxes.
 

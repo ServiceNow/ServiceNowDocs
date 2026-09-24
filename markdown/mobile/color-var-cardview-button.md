@@ -3,9 +3,9 @@ title: Color variable support for card view buttons
 description: Learn how to use color variables to change theming in your mobile card view buttons.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-cardview-button.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Color theme considerations, Configure theming, Next Experience theming, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -24,7 +24,7 @@ Use color variables in **Card template element attributes** to control color val
 -   **BorderColorVariable**
 -   **TextColorVariable**
 
- For more information on these attributes, see [Card template element attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mca-attributes.md).
+ For more information on these attributes, see [Card template element attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mca-attributes.md).
 
 </td><td>
 

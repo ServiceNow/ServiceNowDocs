@@ -3,12 +3,12 @@ title: Explicit Block policies
 description: Stop a specific person, team, or your whole organization from using an AI agent, model, or domain, enforced automatically everywhere that access could happen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-explicit-block.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Policies, Explicit Block, access control]
-breadcrumb: [Explore, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, access control]
+breadcrumb: [Explore, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Explicit Block policies

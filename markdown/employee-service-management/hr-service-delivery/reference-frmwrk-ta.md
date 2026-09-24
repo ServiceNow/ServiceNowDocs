@@ -3,13 +3,12 @@ title: Hiring Experiences reference
 description: Learn about the requisition state management, application state management, and other details, which are important to navigate within the Hiring Experiences suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/reference-frmwrk-ta.html
-release: australia
+release: brazil
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Talent Acquisition reference, requisition state management, application state management, reference information]
 breadcrumb: [Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -17,18 +16,18 @@ breadcrumb: [Hiring Experiences, HR Service Delivery, Employee Service Managemen
 
 Learn about the requisition state management, application state management, and other details, which are important to navigate within the Hiring Experiences suite.
 
--   **[Roles in Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/roles-in-ta.md)**  
+-   **[Roles in Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/roles-in-ta.md)**  
 An overview of the different roles and user criteria in Hiring Experiences.
--   **[Components installed with Hiring Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/installed-with-h-core.md)**  
+-   **[Components installed with Hiring Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/installed-with-h-core.md)**  
 Several types of components are installed with activation of the Hiring Core plugin, including tables, user roles, and scheduled jobs.
--   **[Components installed with Hiring Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/installed-with-hiring.md)**  
+-   **[Components installed with Hiring Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/installed-with-hiring.md)**  
 The following are the components installed with the activation of the Hiring Connector plugin.
--   **[Load data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/import-set-table.md)**  
+-   **[Load data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/import-set-table.md)**  
 Use the import sets to dump data to your local instance from a third-party integration.
--   **[Properties installed with Hiring Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/properties-h-core.md)**  
+-   **[Properties installed with Hiring Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/properties-h-core.md)**  
 The system properties installed with the Hiring Core plugin are required to configure different functionalities within the Hiring Experiences environment.
--   **[Notifications in Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/notifications-ta.md)**  
+-   **[Notifications in Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/notifications-ta.md)**  
 Notifications in Hiring Experiences help the hiring manager, the recruiter, and the applicant keep abreast of any significant development in the hiring process.
 
-**Parent Topic:**[Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hiring-experiences-landing.md)
+**Parent Topic:**[Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hiring-experiences-landing.md)
 

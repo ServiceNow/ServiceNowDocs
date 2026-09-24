@@ -3,11 +3,11 @@ title: Logging an incident
 description: Log incident records from sources such as email, service desk, service catalog, or external applications as per your convenience. You can also generate incident using business rules or SOAP messaging.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/logging-incident.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
@@ -77,5 +77,5 @@ User who do not have the itil role can view an incident only if the user is the 
 ## Automatically generated incidents
 
 -   Incidents can be automatically generated using business rules. Business rules use JavaScript to generate an incident if pre-defined conditions are met.
--   Incidents can be generated from outside the platform with SOAP messaging. For more information, refer to [SOAP messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md) .
+-   Incidents can be generated from outside the platform with SOAP messaging. For more information, refer to [SOAP messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_DirectWebServices.md) .
 

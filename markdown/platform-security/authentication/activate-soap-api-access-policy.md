@@ -3,11 +3,11 @@ title: Activate SOAP API access policy
 description: For SOAP API access policy, install the SOAP API Access Policy \(com.glide.soap.policy\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/activate-soap-api-access-policy.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SOAP API access policies, API access policy, Authentication, Access Management]
 ---
@@ -38,6 +38,6 @@ Dependent Plugin: Authentication Profile \(`com.glide.auth.profile`\)
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 

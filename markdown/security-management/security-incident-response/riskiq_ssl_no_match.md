@@ -3,11 +3,11 @@ title: RISKIQ SSL certificate lookups that return multiple certificates or no ce
 description: A security incident analyst can use multiple SSL certificate results to determine whether a site is part of a common, recognizable entity. No SSL certificate results may indicate sites with obscure or suspicious names have no trusted certificates. Lookup results for observables that don't return SSL certificates, or that return multiple SSL certificates, are displayed on the Observable Enrichment Results tab on the security incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/riskiq\_ssl\_no\_match.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Verify expected results for RISKIQ SSL certificate lookups, RISKIQ and WHOISIQ integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -39,5 +39,5 @@ Follow the steps to view the results for observables that do not return SSL cert
     -   If no SSL certificates are found for the current observable, then the Summary field displays the message, `No certificates were found`.
     -   If no active SSL certificates are found for the current observable, then the Summary field displays the message, `No active certificates were found`.
 
-**Parent Topic:**[Verify expected results for RISKIQ SSL certificate lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-rslts-for-riskiq.md)
+**Parent Topic:**[Verify expected results for RISKIQ SSL certificate lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/verify-expected-rslts-for-riskiq.md)
 

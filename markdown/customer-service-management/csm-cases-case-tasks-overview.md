@@ -3,9 +3,9 @@ title: Cases and case tasks
 description: Customer service cases store information about customers, their questions and issues, and related information. Case tasks are created and assigned to users to complete the work necessary to resolve cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-cases-case-tasks-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -69,9 +69,9 @@ Information that is gathered as part of resolving a case can be included in the 
 </td></tr></tbody>
 </table>For more information about cases and case records, see the following topics:
 
--   [Create a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustServApp.md)
--   [Create a customer service case of a specific type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-of-specific-case-type.md)
--   [Customer service case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServiceCaseForm.md)
+-   [Create a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_CreateACaseFromCustServApp.md)
+-   [Create a customer service case of a specific type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-case-of-specific-case-type.md)
+-   [Customer service case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_CustomerServiceCaseForm.md)
 
 ## Case tasks
 
@@ -83,7 +83,7 @@ Case tasks can be manually created from cases or automatically from case playboo
 
 If the value in the **Parent case** or **Parent** fields is updated, the customer information in the **Account**, **Contact**, or **Consumer** fields is also updated.
 
-Depending on a user's assigned roles, case tasks appear in a number of different Case Task list in the application navigator in CSM Configurable Workspace, including:
+Depending on a user's assigned roles, case tasks appear in a number of different Case Task list in the application navigator in CRM Workspace, including:
 
 -   My Case Task
 -   My Open
@@ -94,8 +94,8 @@ Depending on a user's assigned roles, case tasks appear in a number of different
 
 For more information about case tasks and case task records, see the following topics:
 
--   [Create a task for a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-for-cust-service-case.md)
--   [Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-task-form.md)
+-   [Create a task for a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-task-for-cust-service-case.md)
+-   [Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-task-form.md)
 
 ## Cases, case tasks and related parties
 
@@ -113,7 +113,7 @@ Users with the admin role can remove related parties from cases. When an admin a
 
 ## Case task integration with Service Definitions
 
-The [service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md) feature enables you to create connections between products, services, and case types.
+The [service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-service-definitions.md) feature enables you to create connections between products, services, and case types.
 
 -   Agents can use configured service definitions to quickly create cases of the right type based on the selected product or service.
 -   Customers can use configured service definitions to quickly discover and request the services they need.
@@ -277,7 +277,7 @@ Can view the **Account**, **Contact** and **Consumer** fields for the case tasks
 
 **Note:** Available with the Customer Data Models for B2B2C plugin \(com.sn\_csm\_b2b\_consumers\).
 
-</td></tr><tr><td class="sub-head" colspan="2">
+</td></tr><tr><td class="sub-head" id="case-task-contributor-roles" colspan="2">
 
 Contributor roles
 
@@ -306,7 +306,7 @@ Service organization contributor\[sn\_customerservice.service\_organization\_con
 </td><td>
 
 This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+-   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record.
 
 </td></tr><tr><td>
 
@@ -356,7 +356,7 @@ The users can see the following fields on the Case Task lists and forms: **Accou
 
 ## Scheduled job for case tasks
 
-Case task enhancements in the Australia release add several fields to the case task record. After upgrading to the Australia release, you can run a scheduled job that populates these fields for active case tasks.
+Case task enhancements in the Brazil release add several fields to the case task record. After upgrading to the Brazil release, you can run a scheduled job that populates these fields for active case tasks.
 
 **Note:** It is recommended that you run the scheduled job during planned downtime.
 
@@ -370,4 +370,9 @@ To run this scheduled job:
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 2.  Select **Update case task fields** in the **Name** field.
 3.  Select **Execute Now**.
+
+**Related topics**  
+
+
+[Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-contributor-user-roles.md)
 

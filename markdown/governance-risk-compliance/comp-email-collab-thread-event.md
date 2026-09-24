@@ -3,11 +3,11 @@ title: Create a collaboration thread in an exercise
 description: Create a collaboration thread from an exercise and send an email to its recovery teams to coordinate a response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/comp-email-collab-thread-event.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create a collaboration thread in an exercise
@@ -18,7 +18,7 @@ Create a collaboration thread from an exercise and send an email to its recovery
 
 Role required: sn\_bcm.manager
 
-An administrator must configure at least one active email account and enable the **Email sending enabled** and **Email receiving enabled** system properties before you can send or receive collaboration emails. For more information, see [Configure email for collaboration threads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-email-for-collaboration-threads.md).
+An administrator must configure at least one active email account and enable the **Email sending enabled** and **Email receiving enabled** system properties before you can send or receive collaboration emails. For more information, see [Configure email for collaboration threads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-email-for-collaboration-threads.md).
 
 Sending email from a collaboration thread also requires the platform `email_composer` role. This role is granted automatically to `sn_recovery.event_manager`; users with other roles may need it granted separately.
 
@@ -34,7 +34,7 @@ Sending email from a collaboration thread also requires the platform `email_comp
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create Collaboration thread form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-collaboration-thread-crisis-event-form.md).
+    For descriptions of all these fields, see [Create Collaboration thread form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-collaboration-thread-crisis-event-form.md).
 
     1.  Add the name of the thread in the **Name** field, add **Description**, and select one or more **Recovery teams**.
 
@@ -66,9 +66,9 @@ Sending email from a collaboration thread also requires the platform `email_comp
 
     \[Omitted image "cm-collab-email-config-email-properties-config.png"\] Alt text: Email Properties page with outbound and inbound email configuration sections.
 
-    **Note:** For setting up email properties in the instance, see [Configure email for collaboration threads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-email-for-collaboration-threads.md).
+    **Note:** For setting up email properties in the instance, see [Configure email for collaboration threads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-email-for-collaboration-threads.md).
 
-    For more information on the Email Properties configurations in the ServiceNow AI Platform, see [Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailProperties.md).
+    For more information on the Email Properties configurations in the ServiceNow AI Platform, see [Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailProperties.md).
 
     The email panel opens with the **To** field populated from the members of the recovery teams that you selected. The **Subject** and body fields are populated with default text from the **Collaboration Thread Default** email template, which names the crisis event.
 
@@ -113,19 +113,19 @@ Sending email from a collaboration thread also requires the platform `email_comp
 
     \[Omitted image "collab-thread-in-pdf.png"\] Alt text: Default template.\[Omitted image "collab-thread-as-a-block.png"\] Alt text: Block.
 
-    For enabling addition of a collaboration block in the Microsoft Word document, see [Update the Word template with a collaboration block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-collaboration-block-docudesigner.md).
+    For enabling addition of a collaboration block in the Microsoft Word document, see [Add a collaboration block to the Word template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-collaboration-block-docudesigner.md).
 
 13. To generate a report of the event in PDF format, select **More \(...\)** and then choose **Generate PDF** and check collaboration thread details in the PDF.
 
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 
 **Related topics**  
 
 
-[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)
+[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)
 
-[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)
+[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)
 
-[Create Collaboration thread form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-collaboration-thread-crisis-event-form.md)
+[Create Collaboration thread form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-collaboration-thread-crisis-event-form.md)
 

@@ -3,11 +3,11 @@ title: Lemma and Unicode normalization
 description: AI Search normalizes inflected words and Unicode glyphs during indexing and at search query time. Normalization improves search recall and enables users to find content with variant forms of their search query terms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/lemma-unicode-normalization-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -46,11 +46,11 @@ The following table describes interactions between normalization and other searc
 
 |Feature|Interaction with lemma and Unicode normalization|
 |-------|------------------------------------------------|
-|[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-results-ais.md)|Search query terms added by lemma or Unicode normalization can't trigger Genius Result configurations with Term trigger conditions.|
-|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)|A search query term added by lemma or Unicode normalization can trigger a result improvement rule if it matches the rule's Query trigger.|
-|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)|If a search query term is defined as a stop word, AI Search removes that term without normalizing it.|
-|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)|If a search query term is defined as a synonym, AI Search doesn't normalize it.|
-|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)|AI Search performs lemma and Unicode normalization on auto-corrected search query terms.|
+|[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/genius-results-ais.md)|Search query terms added by lemma or Unicode normalization can't trigger Genius Result configurations with Term trigger conditions.|
+|[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)|A search query term added by lemma or Unicode normalization can trigger a result improvement rule if it matches the rule's Query trigger.|
+|[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/stop-words-ais.md)|If a search query term is defined as a stop word, AI Search removes that term without normalizing it.|
+|[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/synonyms-ais.md)|If a search query term is defined as a synonym, AI Search doesn't normalize it.|
+|[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/typo-handling-ais.md)|AI Search performs lemma and Unicode normalization on auto-corrected search query terms.|
 
-**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/administer-ais.md)
 

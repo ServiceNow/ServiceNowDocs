@@ -3,9 +3,9 @@ title: Additional resources for Platform Security products and solutions
 description: If you’re looking for Platform Security best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platsec-additional-resources.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 

@@ -3,12 +3,12 @@ title: Configure runtime security metrics
 description: Set up a Traceloop connection and API key for prompt injection, offensive content, sensitive data input, and sensitive data anonymized trace data from external AI servers. Review data privacy for sensitive data patterns to detect in LLM input and output.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure runtime security metrics
@@ -38,13 +38,13 @@ client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 For more information, see [Traceloop OpenLLMetry for Python](https://www.traceloop.com/docs/openllmetry/getting-started-python).
 
-If you have a domain-separated instance, create a separate connection and credential record for each domain. Use the same connection alias, `sn_ai_security.Traceloop_API`, for each one, but a relevant value for the domain. The domain of each connection record determines the domain of the runtime metrics it pulls.
+If you have a domain-separated instance, create an alias with a parent of connection alias sn\_ai\_security.Traceloop\_API. Create one active connection and credential record under this new alias. The domain of each connection record determines the domain of the runtime metrics it pulls.
 
 ## Procedure
 
 1.  Configure a trace connection for every external AI system for which you want to show runtime metrics.
 
-    For more information, see [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md).
+    For more information, see [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-trace-connections.md).
 
 2.  Generate an API key to authenticate trace data requests from your external AI system.
 
@@ -65,7 +65,7 @@ If you have a domain-separated instance, create a separate connection and creden
         |API Key|\[Your Traceloop API key\]|
         |Credential alias|Locked.|
 
-    For more information, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md).
+    For more information, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/API-key-credential-form.md).
 
 3.  Link the API key to your trace connection.
 
@@ -89,7 +89,7 @@ If you have a domain-separated instance, create a separate connection and creden
 
         The scheduled job will now automatically pull runtime metrics from the linked Traceloop environment.
 
-    For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).
+    For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-https-connection.md).
 
 4.  Configure the Traceloop SDK in your agent code by adding these ServiceNow attributes when initializing Traceloop.
 
@@ -112,12 +112,12 @@ If you have a domain-separated instance, create a separate connection and creden
 
 5.  To review data privacy, in AI Control Tower, navigate to **Settings** &gt; **Rules and templates** &gt; **Security** &gt; **Data Privacy**.
 
-    This section shows the data patterns enabled in Data Privacy to detect and anonymize information in LLM prompts. Use this view as a quick reference when troubleshooting sensitive data charts. This feature requires the Data privacy plugin to be installed. For more information on how the data is sent and stored, see [User data usage policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/user-data-usage-policy-now-assist.md).
+    This section shows the data patterns enabled in Data Privacy to detect and anonymize information in LLM prompts. Use this view as a quick reference when troubleshooting sensitive data charts. This feature requires the Data privacy plugin to be installed. For more information on how the data is sent and stored, see [User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/user-data-usage-policy-now-assist.md).
 
 6.  Return to the AI Control Tower Security tab and refresh the page.
 
     Select the Runtime tab and verify that metrics are populated.
 
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)
 

@@ -3,12 +3,12 @@ title: Deactivate an AI specialist in the legacy AI Agent Studio
 description: Deactivate an AI specialist in the legacy AI Agent Studio so that it no longer acts on records and lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/deactivate-aiw.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI specialist]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
+breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Deactivate an AI specialist inthe legacy AI Agent Studio
@@ -36,5 +36,5 @@ Your AI specialist is turned off.
 
 ## What to do next
 
-You can make changes to your AI specialist, such as [changing the profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-profile.md) or [modifying the tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks.md), to affect its behavior. Once you have made edits, you can [preview the AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aiw-ais.md) and [reactivate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-aiw-access.md) later.
+You can make changes to your AI specialist, such as [changing the profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aiw-profile.md) or [modifying the tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aiw-tasks.md), to affect its behavior. Once you have made edits, you can [preview the AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aiw-ais.md) and [reactivate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-aiw-access.md) later.
 

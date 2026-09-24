@@ -3,9 +3,9 @@ title: Reuse push notifications across mobile apps
 description: Reuse push notifications across mobile apps with Mobile App Builder \(MAB\). Push notifications are configurable pushed messages that appear directly in mobile apps. Using MAB to manage push notifications streamlines your mobile application development into one tool.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/add-push-notifications-mobile-apps.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -20,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-This task describes how to reuse a push notification from one mobile app to another using MAB. For more information about MAB, see [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md).
+This task describes how to reuse a push notification from one mobile app to another using MAB. For more information about MAB, see [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mab-concept.md).
 
-To create a push notification from scratch, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md).
+To create a push notification from scratch, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-push-notifications.md).
 
 In MAB, mobile notifications aren’t tied to a specific application scope and don't change based on the application scope you’re using. You can reuse push notifications that contain workflows from other ServiceNow® mobile applications and then use MAB to update records so they point to the correct app.
 
@@ -93,7 +93,7 @@ For example, if you have a push notification configured for Now Mobile, the stan
 
     \[Omitted image "mab-push-not-content-nuapp.png"\] Alt text: Mobile App Builder UI showing selection of application to reuse the push notification message content.
 
-    **Important:** If you have any deep links in the **Push message content** script, the mobile app call used by the deep link generator must be changed to point to the application that you specified in the **Push app** field. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
+    **Important:** If you have any deep links in the **Push message content** script, the mobile app call used by the deep link generator must be changed to point to the application that you specified in the **Push app** field. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/deep-link-mobile.md).
 
 14. Select **Save**.
 
@@ -124,5 +124,5 @@ If this event record's mobile push application matches that of an associated acc
 |Now Mobile®|ServiceNow Request Application|SkyNowRequestPushApp|Requestor|
 |Mobile Agent|ServiceNow Mobile Application|SkyNowPushApp|Agent|
 
-**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-push-notifications.md)
 

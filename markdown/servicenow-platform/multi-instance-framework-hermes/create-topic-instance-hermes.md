@@ -3,11 +3,11 @@ title: Create a topic in Hermes
 description: Create a topic from within ServiceNow. Creating a topic from your instance adds a topic record to the Kafka Topics \[sys\_kafka\_topic\] table and adds a Kafka topic to Hermes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/create-topic-instance-hermes.html
-release: australia
+release: brazil
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing topics, Manage namespaces and topics, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -95,5 +95,5 @@ Option to activate the topic.
 
 The topic appears in both the Kafka Topics \[sys\_kafka\_topic\] table and in Hermes. If, for some reason, a topic can't be created in Hermes, it won't be created in the Kafka Topics \[sys\_kafka\_topic\] table either.
 
-**Parent Topic:**[Managing topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-topics-hermes.md)
+**Parent Topic:**[Managing topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/managing-topics-hermes.md)
 

@@ -3,11 +3,11 @@ title: Create a task from an incident, problem, or change request
 description: You can create a new project task from the Project Task related list on the Incident, Problem, and Change Request forms. The tasks you create from these forms makes the project task a child of the incident, problem, or change, rather than a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateTaskIntPrblmChange.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a project task from a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -33,5 +33,5 @@ Role required: it\_project\_manager
     The project task becomes a child task of the incident, problem, or change record.
 
 
-**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
+**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
 

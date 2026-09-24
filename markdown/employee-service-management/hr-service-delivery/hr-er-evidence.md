@@ -3,13 +3,13 @@ title: Adding evidence to an Employee Relations case in legacy UI
 description: Create evidence records to attach to an Employee Relations case to help with investigations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-evidence.html
-release: australia
+release: brazil
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Evidence Management, Using HR Service Delivery Employee Relations, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Evidence Management, Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Adding evidence to an Employee Relations case in legacy UI
@@ -71,7 +71,7 @@ The evidence type associated with the evidence. The base system provides the fol
 -   Screenshots
 -   SMS
 -   Video
- For more information, see [Create evidence types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.md).
+ For more information, see [Create evidence types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.md).
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Submitted by involved party
 
 Name of the person who submitted the evidence.Select the **Lookup using list** icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and search for the person that submitted the evidence.
 
- If no names appear, you can select **New** and create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
+ If no names appear, you can select **New** and create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Involved parties
 
 Any person involved with the evidence provided in the ER case.Select the **Unlock involved parties** icon \(\[Omitted image "icon-hr-unlock-add-parties.png"\] Alt text: Unlock involved parties icon\) and search for people you want to include as involved parties.
 
- If no names appear, you can select **New** and create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
+ If no names appear, you can select **New** and create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ Interview
 
 The associated interview number. If you came from the interview record, the number automatically displays.
 
- For more information, see [Interview Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
+ For more information, see [Interview Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 </td></tr><tr><td>
 

@@ -3,9 +3,9 @@ title: Omnichannel
 description: Omnichannel support enables organizations to serve customers across multiple communication channels, including voice, chat, email, SMS, consumer messaging apps, social media, and Engagement Messenger, from a single, unified workspace. Agents handle all interactions in CSM Configurable Workspace, and customers reach support through whichever channel fits them best.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-omnichannel.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Self service, Customer Relationship Management]
 ---
@@ -159,5 +159,5 @@ Each product within the CRM suite uses omnichannel to connect customers with age
 **Related topics**  
 
 
-[Configure omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-comm-channels.md)
+[Configure omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-comm-channels.md)
 

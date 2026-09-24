@@ -1,14 +1,14 @@
 ---
 title: Set up a use case
-description: Create a use case to define the information to extract from a document for processing.
+description: Create a use case to define the information to extract from a document for processing.Test a use case with a sample document to verify how well it extracts and processes information. Upload a document from a record or your device, then review the test outputs before saving your results.Connect a use case to a workflow by adding an integration. Integrations automate document task creation or value extraction based on triggers in the target table.Review your configuration selections before completing the setup for a use case. Return to any previous step to make changes before finalizing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/set-up-use-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 keywords: [Now Assist, Generative AI, Document Intelligence]
-breadcrumb: [Information Extraction skill, Configure, Content Understanding, Enable AI experiences]
+breadcrumb: [Information Extraction skill, Configure, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Set up a use case
@@ -17,9 +17,7 @@ Create a use case to define the information to extract from a document for proce
 
 ## Before you begin
 
-Several predefined use cases are available within their defined workflow areas. Check whether the available use cases meet your requirements before creating a new one. For more information, see [Content Understanding integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/content-understanding-integrations.md).
-
-Activate the Information Extraction skill. For more information, see [Activate the Extract Information from documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-info-extraction-skill.md).
+Several predefined use cases are available within their defined workflow areas. Check whether the available use cases meet your requirements before creating a new one. For more information, see [Content Understanding integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/content-understanding-integrations.md).
 
 Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_docintel.manager\]
 
@@ -53,11 +51,11 @@ After you define a use case, you can begin processing documents for it in the re
 
         If the files contain multiple languages, select the primary language.
 
-        For more information, see [Languages supported by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/languages-supported.md).
+        For more information, see [Languages supported by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/languages-supported.md).
 
     4.  Select a large language model \(LLM\) that will make predictions for the documents processed with this use case.
 
-        For more information, see [Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-llms.md).
+        For more information, see [Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-llms.md).
 
     5.  Turn on image mode to process images more efficiently.
 
@@ -101,9 +99,9 @@ After you define a use case, you can begin processing documents for it in the re
 
         The type of form depends on the type of field:
 
-        -   [Field form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/field-form.md)
-        -   [Question form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/question-form.md)
-        -   [Table form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/table-form.md)
+        -   [Field form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/field-form.md)
+        -   [Question form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/question-form.md)
+        -   [Table form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/table-form.md)
     4.  Select **Save**.
 
         The field, question, or table is added to the Information list for the use case.
@@ -111,9 +109,125 @@ After you define a use case, you can begin processing documents for it in the re
     5.  Select **Save and Continue**.
 
 
-## What to do next
+**Parent Topic:**[Configure Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-configure-information-extraction-skill.md)
 
-1.  [Test a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-the-use-case.md)
-2.  [Add integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-integration.md)
-3.  [Review and activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/review-and-activate.md)
+## Test a use case
+
+Test a use case with a sample document to verify how well it extracts and processes information. Upload a document from a record or your device, then review the test outputs before saving your results.
+
+### Before you begin
+
+Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_docintel.manager\]
+
+### Procedure
+
+1.  Select **Test a new document**.
+
+2.  Select a document:
+
+<table id="table_i25_b2f_y2c"><thead><tr><th>
+
+Option
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Upload from record
+
+</td><td>
+
+1.  Select **Upload from record**.
+2.  Enter search criteria in the search field.
+3.  Select a record from the list.
+ This option appears only when a target table is selected for the use case.
+
+</td></tr><tr><td>
+
+Upload from this device
+
+</td><td>
+
+1.  Select **Upload from this device**.
+2.  Select **Add file**.
+3.  Select a file and select **Open**.
+4.  Select **Upload**.
+
+
+</td></tr></tbody>
+</table>3.  Select **Continue**.
+
+    **Tip:** Select the **Open in a new tab** button \(\[Omitted image "cu-new-tab.png"\] Alt text: Open in new tab icon.\) to view the document in a larger workspace on a separate browser tab.
+
+    The Test Outputs screen appears.
+
+4.  Review the performance of the skill for the test document.
+
+5.  Select **Save and continue**.
+
+
+### What to do next
+
+1.  [Add integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/set-up-use-case.md)
+2.  [Review and activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/set-up-use-case.md)
+
+## Add integration
+
+Connect a use case to a workflow by adding an integration. Integrations automate document task creation or value extraction based on triggers in the target table.
+
+### Before you begin
+
+Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_docintel.manager\] role
+
+### Procedure
+
+1.  Select **Add integration**.
+
+    This option is available when a target table is selected for the use case.
+
+    If you have already defined one or more integrations and you want to add another, select **New integration**.
+
+2.  Enter a name for the integration.
+
+3.  Select the type of integration you want to use.
+
+    The `Process task` type creates an integration point to automatically create and process document tasks based on specific triggers happening in the target table.
+
+    The `Extract values` type creates an integration point to automatically propagate the extracted values to the target table when extraction has been completed.
+
+4.  Use the conditions to select certain fields as specific triggers for the integration.
+
+    Conditions are available if you selected `Process task` in the previous step. For more information on conditions, see [OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingORConditions.md).
+
+5.  Select the **Create Flow** option to create a flow for this integration in Workflow Studio.
+
+    **Tip:** This option should be selected, unless you're planning to write your own custom script to set up the integration.Be sure the integration is activated on Workflow Studio. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md).
+
+6.  Select **Save**.
+
+7.  Select **Save and continue**.
+
+
+### What to do next
+
+[Review and activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/set-up-use-case.md)
+
+## Review and activate
+
+Review your configuration selections before completing the setup for a use case. Return to any previous step to make changes before finalizing.
+
+### Before you begin
+
+Role required: DocIntel Admin \[sn\_docintel.admin\] or DocIntel Manager \[sn\_docintel.manager\]
+
+### Procedure
+
+1.  Review the configuration selections you’ve made for the use case.
+
+2.  Select **Back** to return to a previous step and make a change.
+
+3.  Select **Complete setup**.
+
 

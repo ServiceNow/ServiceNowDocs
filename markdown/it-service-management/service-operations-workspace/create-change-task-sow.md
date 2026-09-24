@@ -3,11 +3,11 @@ title: Create a change task in Service Operations Workspace
 description: When you need to engage another team or agent for help, create and assign change task. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-change-task-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: itil or admin
 
 3.  In the Create Change task dialog box, select the task type.
 
-    By default, the following task types are available. To create additional task types, see [Create a task type for problem or change in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-task-type-sow.md).
+    By default, the following task types are available. To create additional task types, see [Create a task type for problem or change in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-task-type-sow.md).
 
     -   Planning
     -   Implementation
@@ -159,7 +159,7 @@ Date the change task is planned to be completed.If the task type is **Implementa
 </table>6.  Click **Save**.
 
 
-**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/change-sow.md)
+**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/change-sow.md)
 
 **Related topics**  
 

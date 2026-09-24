@@ -3,9 +3,9 @@ title: Personal Loan Operations dashboard
 description: With the Financial Services Personal Loan Operations dashboard, you can get an insight into how your team and business are performing for the personal loan cases. You can monitor the status of loan cases, see trends, and drill down into the details from a single view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/personal-loan-operations-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Platform Analytics, Financial Services Operations \(FSO\)]
 ---
@@ -29,7 +29,7 @@ To access the Financial Services Personal Loan Operations dashboard, navigate to
 
 Alternatively, you can navigate to **All** &gt; **Loan Operations** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center.md).
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout by navigating to **All** &gt; **Loan Operations** &gt; **Dashboard**.
 
@@ -113,5 +113,5 @@ Needs to be able to customize views.
 -   Age
 -   Service
 
-**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-content-pack.md)
 

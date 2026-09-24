@@ -3,11 +3,11 @@ title: Create a task from a project task template
 description: You can save a project task as a template and reuse it when creating a task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_UseAProjectTaskTemplate.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a project task from a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ You can save a project task as a template and reuse it when creating a task.
 
 Role required: it\_project\_manager
 
-You must have a template from an existing project task that has the required field values. See [Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md) for more information on this platform feature.
+You must have a template from an existing project task that has the required field values. See [Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_Templates.md) for more information on this platform feature.
 
 ## Procedure
 
@@ -37,5 +37,5 @@ You must have a template from an existing project task that has the required fie
     The template is applied to the project.
 
 
-**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
+**Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
 

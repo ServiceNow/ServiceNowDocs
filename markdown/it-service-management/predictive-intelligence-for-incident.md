@@ -3,9 +3,9 @@ title: Predictive Intelligence for Incident Management
 description: Use your instance records to build specific solutions for Incident Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/predictive-intelligence-for-incident.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Machine learning solutions for IT Service Management, IT Service Management]
 ---
@@ -202,7 +202,7 @@ The plugins com.snc.contextual\_search\_ml and com.snc.incident.mim.ml\_solution
 The plugins com.snc.contextual\_search\_ml and com.snc.incident.mim.ml\_solution must be active.
 
 </td></tr></tbody>
-</table>For more information on classification and similarity solution, refer to [Create solution definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-solution-definition.md) and [Create similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
+</table>For more information on classification and similarity solution, refer to [Create solution definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-solution-definition.md) and [Create similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-similarity-solution.md).
 
 ## Business rule for classification solutions
 
@@ -214,7 +214,7 @@ This business rule applies only to the Incident Assignment and Incident Categori
 
 **Upgrade Information**
 
-If your instance is running on the Kingston release and you are upgrading to the Australia release:
+If your instance is running on the Kingston release and you are upgrading to the Brazil release:
 
 -   In a global domain environment, use the new solutionNames array variable which requires that you explicitly provide the solutions that are called by the business rule.
 -   In a domain-separated environment, such as an MSP environment, refer to the commented code in the business rule template for easy customization.
@@ -224,5 +224,5 @@ If your instance is running on the Kingston release and you are upgrading to the
 
 You can manage prediction drift by retraining, modifying, or creating new solutions to reflect changes in your business conditions. Test and modify your business rule over time to ensure it works as desired across multiple consumption points and user Personas.
 
-**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/machine-learning-itsm.md)
+**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/machine-learning-itsm.md)
 

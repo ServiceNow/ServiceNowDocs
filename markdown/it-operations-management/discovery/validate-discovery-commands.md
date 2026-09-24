@@ -3,11 +3,11 @@ title: Validate commands used in pattern-based discovery
 description: Validate pattern commands to verify that the MID Server can successfully run them. Typically, commands might fail if you haven't configured the credentials necessary to run these commands on your ServiceNow instance. Another common reason of command failure is that the IP addresses used for discovery aren’t reachable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/validate-discovery-commands.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Discovery commands for probes and patterns, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ Validate pattern commands to verify that the MID Server can successfully run the
 -   Verify that you have the following applications:
     -   Pattern Designer Enhancements \(sn\_itom\_pde\)
     -   Discovery and Service Mapping Patterns \(sn\_itom\_pattern\)
--   Check the log for horizontal discovery based on patterns, as described in [Review the logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryLog.md).
+-   Check the log for horizontal discovery based on patterns, as described in [Review the logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryLog.md).
 -   If you are viewing commands for the first time, have upgraded Discovery and Service Mapping Patterns, or have customized any pattern, refresh the command list by navigating to **All** &gt; **Pattern Designer** &gt; **Command Validation Tool** &gt; **Commands List** and selecting **Refresh Command List**.
 -   To be able to test credentials on an IP range or IP network, install the ParseIPRanges script include attached to the KB article: [KB1123625: Command Validation Tool](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123625).
 
@@ -37,7 +37,7 @@ You can also validate discovery commands to check that the IP addresses you’re
 
 If you validate commands that contain applicative credentials, the Command Validation Tool checks the Connections and Credentials module and uses relevant applicative credentials configured there.
 
-Starting with Pattern Designer Enhancements version 3.9.0, the new pde\_viewer role can view the command validation task results through the **Command Validation Tasks** and **Command Validation Task Results** modules but can't edit or modify them. For more information, see [View command validation task results in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/view-command-validation-task-results.md).
+Starting with Pattern Designer Enhancements version 3.9.0, the new pde\_viewer role can view the command validation task results through the **Command Validation Tasks** and **Command Validation Task Results** modules but can't edit or modify them. For more information, see [View command validation task results in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/view-command-validation-task-results.md).
 
 ## Procedure
 
@@ -45,7 +45,7 @@ Starting with Pattern Designer Enhancements version 3.9.0, the new pde\_viewer r
 
 2.  To validate all commands used by a pattern, select **Validate All Pattern Commands**.
 
-3.  Fill in the fields as described in [Command Validation Tasks form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/command-validation-reference.md).
+3.  Fill in the fields as described in [Command Validation Tasks form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/command-validation-reference.md).
 
 4.  Select and hold \(or right-click\) the form header and select **Save**.
 
@@ -81,9 +81,9 @@ Starting with Pattern Designer Enhancements version 3.9.0, the new pde\_viewer r
 **Related topics**  
 
 
-[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
+[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
 
-[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md)
+[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md)
 
-[Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/commands-list-discovery.md)
+[Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/commands-list-discovery.md)
 

@@ -3,11 +3,11 @@ title: Localization Framework support for catalog builder in Service Catalog
 description: Localization Framework enables translation of Service Catalog items directly from the catalog builder dashboard in Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/lf-support-for-catalog-builder.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Localization Framework support for Service Catalog items, Explore Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,7 +34,7 @@ You can do the following tasks on the Catalog Builder dashboard in Service Catal
 
 -   Request the translations of the Service Catalog items when creating the items.
 
-For more information on the Localization Framework integration with catalog builder, see [Localization Framework integration with Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c-CB-LF-translation.md).
+For more information on the Localization Framework integration with catalog builder, see [Localization Framework integration with Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c-CB-LF-translation.md).
 
-**Parent Topic:**[Localization Framework support for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/lf-support-for-catalog-items.md)
+**Parent Topic:**[Localization Framework support for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/lf-support-for-catalog-items.md)
 

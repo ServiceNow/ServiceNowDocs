@@ -3,12 +3,12 @@ title: Disable evaluation for an AI system
 description: Stop generating evaluation scores for one or more AI systems by disabling evaluation from the inventory, while preserving all historical score data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-disable-evaluation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
+breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Disable evaluation for an AI system
@@ -29,15 +29,15 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 2.  On the Overview tab, disable evaluation for one or more AI systems.
 
-<table><thead><tr><th align="left" id="d151490e104">
+<table><thead><tr><th align="left" id="d140163e104">
 
 Option
 
-</th><th align="left" id="d151490e107">
+</th><th align="left" id="d140163e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d151490e113">
+</th></tr></thead><tbody><tr><td id="d140163e113">
 
 **Disable evaluation for a single AI system**
 
@@ -49,7 +49,7 @@ Steps
 4.  Select **Turn off evaluation** to confirm.
 
 
-</td></tr><tr><td id="d151490e146">
+</td></tr><tr><td id="d140163e146">
 
 **Disable evaluation for multiple AI systems**
 
@@ -73,5 +73,5 @@ Evaluation is turned off for each AI system that you updated.
 
 ## What to do next
 
-To resume scoring, see [Enable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-enable-evaluation.md).
+To resume scoring, see [Enable evaluation for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-enable-evaluation.md).
 

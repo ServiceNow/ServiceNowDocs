@@ -3,11 +3,11 @@ title: Discovery status
 description: The Discovery status provides a summary of a Discovery launched from a schedule. You can also cancel a Discovery that is in progress from the status form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryStatus.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -122,19 +122,19 @@ Log state changes
 Indicates that state changes were logged during this Discovery. These states can be seen in the Last and Current fields in the**Discovery Devices** list in this form.
 
 </td></tr></tbody>
-</table>-   **[Cancel a Discovery from a Discovery Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CancelDiscoveryStatus.md)**  
+</table>-   **[Cancel a Discovery from a Discovery Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CancelDiscoveryStatus.md)**  
 You can manually cancel a discovery while it is in progress from the Discovery Status record.
--   **[Discovery timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatusTimelines.md)**  
+-   **[Discovery timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryStatusTimelines.md)**  
 A Discovery timeline generates a graphical display of a Discovery Status record, including information about each probe and sensor that was used in the discovery.
--   **[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)**  
+-   **[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)**  
 The External Communication Channel \(ECC\) Queue is a connection point between your ServiceNow instance and other systems that integrate with it, most commonly a MID Server.
--   **[Discovery device history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryStatusDevices.md)**  
+-   **[Discovery device history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryStatusDevices.md)**  
 The **Devices** Related list in the Discovery Status form provides a summary list of all the devices scanned.
 
-**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryConfiguration.md)
+**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryConfiguration.md)
 
 **Related topics**  
 
 
-[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
+[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
 

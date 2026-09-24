@@ -3,11 +3,11 @@ title: Link documents to Knowledge articles
 description: Manage a document and access the latest version of the document from an article by linking the document to a Knowledge article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_ViewKnowledgeLinkedToADocument.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Knowledge Document plugin, Managed Documents, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ Your administrator must have activated the following plugins:
 -   Knowledge Document plugin \(com.snc.knowledge\_document\)
 -   Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\)
 
-The document is already uploaded and published. For more information, see [Upload a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/t_UploadADocument.md) and [Publish an approved revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/t_PublishAnApprovedRevision.md).
+The document is already uploaded and published. For more information, see [Upload a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/t_UploadADocument.md) and [Publish an approved revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/t_PublishAnApprovedRevision.md).
 
 You must have contribute access to the Knowledge Base within which the article linked to the document is stored.
 
@@ -111,5 +111,5 @@ A few words or short phrase describing the Knowledge article. Adds the short des
 
 The uploaded document is added as an attachment to a Knowledge article. Depending on the **Behavior** field value specified in the Knowledge settings related list, the Knowledge article is created or updated with the document.
 
-**Parent Topic:**[Knowledge Document plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_KnowledgeDocument.md)
+**Parent Topic:**[Knowledge Document plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/c_KnowledgeDocument.md)
 

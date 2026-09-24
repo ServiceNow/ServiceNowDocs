@@ -3,9 +3,9 @@ title: Request risk reduction for findings
 description: Create a risk reduction request for multiple vulnerable items at once by using the Bulk Edit dialog to specify a desired risk rating and compensating controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/reduce-risk-bulk-edit.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [bulk edit, risk reduction, compensating controls, vulnerable items]
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
@@ -57,6 +57,4 @@ Role required:
 ## What to do next
 
 Approvers at each configured level must approve the risk reduction and deferral requests. After all approvals are complete, the Remediation Task transitions to **Deferred** state and the risk ratings on the affected items are updated to reflect the approved desired rating.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)
 

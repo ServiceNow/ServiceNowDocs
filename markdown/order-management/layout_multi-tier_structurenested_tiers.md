@@ -3,7 +3,7 @@ title: Multi-tier structure \(nested tiers\)
 description: Create complex, multi-tier layouts in CPQ by nesting tiers in other tiers using a layout CSV file. Define tier display types—such as tabs, expandable sections, and basic containers—to organize fields and achieve flexible, structured, and visually clear configuration interfaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layout\_multi-tier\_structurenested\_tiers.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

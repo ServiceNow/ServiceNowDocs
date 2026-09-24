@@ -3,11 +3,11 @@ title: Configuring locations
 description: Territory management determines, by geographical location, the individual or group best positioned to execute a service call.Location represents a geographical area that helps administrators to create different groups and assign tasks to those groups based on the location.Location represents a geographical area that helps administrator to create different groups and assign tasks to those groups based on the location.Territory management allows field service management administrators to assign locations to users.Territory management allows field service management administrators to assign locations to groups of users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/c\_TerritoryManagement.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up workforce, Configure, Field Service Management]
 ---
@@ -22,11 +22,11 @@ Territory management allows the assignment of a set of geographical locations to
 
 The steps for configuring locations are:
 
-1.  [Adding locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md)
+1.  [Adding locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md)
 
     You can add locations individually or you can perform a bulk import using a CSV, XLS, or XML file.
 
-2.  [Assign locations to users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md)
+2.  [Assign locations to users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md)
 
     Territory management allows Field Service Management administrators to assign locations to users and user groups.
 
@@ -34,15 +34,15 @@ The steps for configuring locations are:
 **Related topics**  
 
 
-[Assign a location to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md)
+[Assign a location to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md)
 
-[Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md)
+[Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md)
 
 ## Adding locations
 
 Location represents a geographical area that helps administrators to create different groups and assign tasks to those groups based on the location.
 
-Locations are used to calculate distances and travel times and are used to determine which agent is closest to a task assignment. Define the home locations of all Field Service technicians and the current locations of assets in the field. Define the locations that will be covered by Field Service dispatchers and technicians in your organization. You can configure different levels of locations in a parent-child hierarchy. You can add locations individually or you can perform a bulk import using a CSV, XLS, or XML file. For more information about adding locations to user groups, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
+Locations are used to calculate distances and travel times and are used to determine which agent is closest to a task assignment. Define the home locations of all Field Service technicians and the current locations of assets in the field. Define the locations that will be covered by Field Service dispatchers and technicians in your organization. You can configure different levels of locations in a parent-child hierarchy. You can add locations individually or you can perform a bulk import using a CSV, XLS, or XML file. For more information about adding locations to user groups, see [Assign a location to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/c_TerritoryManagement.md).
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Add goal to driver
 description: Add existing goals to drivers or create goals directly from driver records to identify which goals each driver influences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-goal-to-driver.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [enterprise architecture workspace, driver, goal, business architecture]
 breadcrumb: [Manage drivers, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -43,18 +43,18 @@ Link goals to drivers to establish relationships between strategic objectives an
         1.  Select **Add**.
         2.  In the Add goal window, select the goal. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
-    -   To create a goal, select **New** and complete the fields on the form. For field descriptions, see [Create goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-goal-form.md).
+    -   To create a goal, select **New** and complete the fields on the form. For field descriptions, see [Create goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-new-goal-form.md).
 
 ## Result
 
 The goal appears in the Goals related list.
 
-**Parent Topic:**[Manage drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-drivers.md)
+**Parent Topic:**[Manage drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-drivers.md)
 
 **Related topics**  
 
 
-[Remove a goal from a driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-goal-from-driver.md)
+[Remove a goal from a driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-remove-goal-from-driver.md)
 
-[View all drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-drivers.md)
+[View all drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-drivers.md)
 

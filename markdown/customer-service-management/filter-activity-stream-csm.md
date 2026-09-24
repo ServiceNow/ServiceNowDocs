@@ -3,9 +3,9 @@ title: Use the Activity Stream
 description: Enhancements to Activity stream help reduce cluttering the Activity Stream and the agent effort to understand the case context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/filter-activity-stream-csm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
@@ -62,5 +62,5 @@ Enhancements in the Activity Stream include the following:
 **Related topics**  
 
 
-[Configure Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-activity-stream-general.md)
+[Configure Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-activity-stream-general.md)
 

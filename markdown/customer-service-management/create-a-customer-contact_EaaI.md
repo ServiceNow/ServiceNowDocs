@@ -3,9 +3,9 @@ title: Create a customer contact
 description: Use the Contact card on the email interaction page to create a customer contact and add the customer contact into the interaction record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-a-customer-contact\_EaaI.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
 breadcrumb: [Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
@@ -37,7 +37,7 @@ Agents can use the contact lookup component to search for contacts. If an agent 
 
 6.  On the Contact form, fill in the fields.
 
-    For a description of the field values, see [Contact form for Email Interaction for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-form-eaai.md).
+    For a description of the field values, see [Contact form for Email Interaction for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/contact-form-eaai.md).
 
 7.  Select **Save**.
 

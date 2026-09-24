@@ -3,11 +3,11 @@ title: Connect to a Git provider using basic authentication with the ServiceNow 
 description: Connect to a Git domain using basic authentication credentials to manage applications in source control from the ServiceNow IDE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/connect-git-provider-basic-auth.html
-release: australia
+release: brazil
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate source control, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -52,11 +52,11 @@ Your Git credentials are associated with your user on the instance and used for 
 
 ## What to do next
 
-After initializing or cloning a repository, you can begin using source control. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
+After initializing or cloning a repository, you can begin using source control. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
 
 To manage existing Git credentials, use the `Git: Manage Git credentials` command from the command palette.
 
-**Parent Topic:**[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
+**Parent Topic:**[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
 
 **Related topics**  
 

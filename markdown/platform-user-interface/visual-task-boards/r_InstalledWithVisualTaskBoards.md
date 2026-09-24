@@ -3,20 +3,20 @@ title: Installed with Visual Task Boards
 description: Several types of components are installed with Visual Task Boards.Tables are added to your instance when you activate Visual Task Boards.Properties are added to your instance when you activate Visual Task Boards.Script includes are added to your instance when you activate Visual Task Boards.Client scripts are added to your instance when you activate Visual Task Boards.Business rules are added to your instance when you activate Visual Task Boards.Notifications are added to your instance when you activate Visual Task Boards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/r\_InstalledWithVisualTaskBoards.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Visual Task Boards reference, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Visual Task Boards reference, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Installed with Visual Task Boards
 
 Several types of components are installed with Visual Task Boards.
 
-**Parent Topic:**[Visual Task Boards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/vis-task-boards-ref.md)
+**Parent Topic:**[Visual Task Boards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/vis-task-boards-ref.md)
 
 ## Tables installed with Visual Task Boards
 
@@ -282,7 +282,7 @@ Triggers the system to send an email notification to users when they are designa
 </table>**Related topics**  
 
 
-[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Collaboration.md)
+[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_Collaboration.md)
 
 ## Notifications installed with Visual Task Boards
 

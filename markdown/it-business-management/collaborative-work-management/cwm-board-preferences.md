@@ -3,11 +3,11 @@ title: CWM Board preferences
 description: Reduce cognitive load and focus on the most relevant and actionable tasks by filtering work items on Boards in Collaborative Work Management \(CWM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-board-preferences.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -33,5 +33,5 @@ Use the **Board Preferences** menu on the Board header to show items that are yo
     The Board preferences that you set are applied across the Dashboard, List, Gantt, and Kanban views.
 
 
-**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
 

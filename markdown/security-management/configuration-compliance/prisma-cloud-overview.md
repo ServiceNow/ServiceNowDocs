@@ -3,13 +3,13 @@ title: Understanding the Vulnerability Response Integration with Palo Alto Prism
 description: Prisma Cloud is an API-based cloud infrastructure security solution. It connects to your cloud environment and monitors the resources deployed on the public cloud environments, such as Amazon Web Services \(AWS\), Microsoft Azure, and so on. You get complete visibility and control over risks within your public cloud infrastructure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/prisma-cloud-overview.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate with other applications, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud

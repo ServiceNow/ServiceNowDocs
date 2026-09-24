@@ -3,11 +3,11 @@ title: Use a scripted allocation
 description: Scripted allocations define custom allocation amounts and targets by executing a script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/t\_UseAScriptedAllocation.html
-release: australia
+release: brazil
 product: Expense Line
 classification: expense-line
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Expense lines and expense allocations, Expense Line, IT Service Management]
 ---
@@ -52,7 +52,7 @@ You can use scripted allocations to perform any of the following actions.
     ```
 
 
-**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
+**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
 
 **Related topics**  
 

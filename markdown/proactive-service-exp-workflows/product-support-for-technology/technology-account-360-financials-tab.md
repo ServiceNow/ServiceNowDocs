@@ -3,11 +3,11 @@ title: Technology Account 360 Financials tab
 description: View financial insights for customer accounts in the Technology Account 360 Financials tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-financials-tab.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2025-01-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Technology Account 360, financials, renewal confidence score, ACV, annual contract value]
 breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
@@ -114,10 +114,10 @@ Quotes
 Price quotes associated with the account.**Note:** You need sn\_sales\_common.sales\_agent role to view this tab.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+</table>**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 
 
-[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)
+[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)
 

@@ -3,11 +3,11 @@ title: Detecting duplicate CIs
 description: When IRE identification process detects duplicate CIs, it groups each set of duplicate CIs into a de-duplication task for review and remediation. A large number of duplicate CIs might be due to weak identification rules. You can configure the identification engine to reconcile duplicate CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,13 +21,13 @@ During Identification and Reconciliation Engine \(IRE\) processes, handling of d
 -   If **glide.identification\_engine.skip\_duplicates** is true, and the number of duplicate CIs is less than the threshold specified by **glide.identification\_engine.skip\_duplicates.threshold**, then the oldest of the duplicate CIs is picked as a match and gets updated. That oldest duplicate CI also becomes the main CI for that set of duplicate CIs. The rest of the duplicate CIs are tagged as duplicates by setting their **duplicate\_of** attribute to the appropriate main CI. During matching, IRE filters out any CI that is tagged as duplicate of any CI.
 -   If **glide.identification\_engine.skip\_duplicates** is false, then matching of duplicate CIs fails with an error, and none of the duplicate CIs are updated.
 
-Also, the **glide.duplicate\_ci\_remediator.max.cis** property determines de-duplication processing for a large number of duplicate CIs. For more information, see the 'Large number of duplicate CIs' section in the [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md) topic.
+Also, the **glide.duplicate\_ci\_remediator.max.cis** property determines de-duplication processing for a large number of duplicate CIs. For more information, see the 'Large number of duplicate CIs' section in the [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md) topic.
 
 In either case, de-duplication tasks are always created.
 
 **Note:** For a duplicate CI, if any of the CI's attributes, other than **duplicate\_of**, is updated by IRE processing, then the CI is no longer considered a duplicate CI. In that situation, the value of **duplicate\_of** is cleared in the CI.
 
-For more information about these properties, see [Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
+For more information about these properties, see [Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
 
 ## Detecting duplicate CIs in related and lookup tables
 
@@ -53,7 +53,7 @@ In the base system, this configuration table has no records, in which case IRE d
     |Identifier table|The identification rule class, such as Hardware \[cmdb\_ci\_hardware\] or Operational Technology \(OT\).|
 
 
-The CMDB CI Class Models ServiceNow® Store app adds class models that extend the CMDB class hierarchy, and contains meta data such as identification and reconciliation rules for the added classes. When specifying class models in this app, you can also include the cmdb\_duplicate\_lookup\_related\_allowed\_class table with entries specific to the added tables, such as the Operational Technology \(OT\) table. In which case, IRE will generate de-duplication tasks as configured in the table. For more information, see [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+The CMDB CI Class Models ServiceNow® Store app adds class models that extend the CMDB class hierarchy, and contains meta data such as identification and reconciliation rules for the added classes. When specifying class models in this app, you can also include the cmdb\_duplicate\_lookup\_related\_allowed\_class table with entries specific to the added tables, such as the Operational Technology \(OT\) table. In which case, IRE will generate de-duplication tasks as configured in the table. For more information, see [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 
 You can also add records to the cmdb\_duplicate\_lookup\_related\_allowed\_class configuration table for added classes after the CMDB CI Class Models app has been installed.
 
@@ -75,7 +75,7 @@ Add and then set the property to reflect on whether such duplications are valid 
 
     IRE doesn't create de-duplication tasks even when **glide.identification\_engine.lookup\_match.create\_duplicate\_task\_ci.enabled** is **true**, in the following circumstances:
 
-    -   **Enforce exact count match** is set to **false**. For information about where it's set, see the advanced options in the 'Use attributes from another table \(Lookup table\)' option in [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md).
+    -   **Enforce exact count match** is set to **false**. For information about where it's set, see the advanced options in the 'Use attributes from another table \(Lookup table\)' option in [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md).
     -   During identification, the number of matching CIs in the lookup table is greater than 1.
 
 See the following examples of lookup records, input payloads, and the results of identification processes:
@@ -274,7 +274,7 @@ False
 </table>
 ## Remediating de-duplication tasks
 
-For information about reviewing and remediating de-duplicate tasks, and how the main CI is used, see [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
+For information about reviewing and remediating de-duplicate tasks, and how the main CI is used, see [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
 
-**Parent Topic:**[CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
+**Parent Topic:**[CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 

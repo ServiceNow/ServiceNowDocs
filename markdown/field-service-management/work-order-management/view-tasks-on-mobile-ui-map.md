@@ -3,11 +3,11 @@ title: View task information on the classic mobile UI map
 description: The agent map on the classic mobile interface displays the agent's location, tasks assigned to the agent for the current day, accepted tasks, and unassigned tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-tasks-on-mobile-ui-map.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing tasks, Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -32,7 +32,7 @@ Use the filter to change the items visible on the agent map. Show and hide tasks
 
 3.  Change the filter settings as needed.
 
-<table id="choicetable_sfh_2ff_bx"><tbody><tr><td id="d137631e101">
+<table id="choicetable_sfh_2ff_bx"><tbody><tr><td id="d140681e101">
 
 **On**
 
@@ -40,7 +40,7 @@ Use the filter to change the items visible on the agent map. Show and hide tasks
 
 Displays the current date. Click the arrow to display the calendar and select a different date.
 
-</td></tr><tr><td id="d137631e110">
+</td></tr><tr><td id="d140681e110">
 
 **Show Assigned Tasks**
 
@@ -48,7 +48,7 @@ Displays the current date. Click the arrow to display the calendar and select a 
 
 All assigned tasks are displayed by default. Disable the switch to hide assigned tasks.
 
-</td></tr><tr><td id="d137631e119">
+</td></tr><tr><td id="d140681e119">
 
 **Show My Location**
 
@@ -56,7 +56,7 @@ All assigned tasks are displayed by default. Disable the switch to hide assigned
 
 Displays your current position on the map with the agent location icon. Disable the switch to remove this icon from the map.If the system cannot locate you automatically by mobile device, it uses the location of a continuing task or the home office.
 
-</td></tr><tr><td id="d137631e131">
+</td></tr><tr><td id="d140681e131">
 
 **Show Routing Numbers**
 
@@ -64,7 +64,7 @@ Displays your current position on the map with the agent location icon. Disable 
 
 Displays the routing numbers on tasks dispatched for the date selected in the calendar. Disable the switch to hide the routing numbers.
 
-</td></tr><tr><td id="d137631e140">
+</td></tr><tr><td id="d140681e140">
 
 **Show Unassigned Tasks**
 

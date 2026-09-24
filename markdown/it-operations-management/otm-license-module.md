@@ -3,9 +3,9 @@ title: Subscriptions for Operational Technology Management
 description: The ServiceNow platform uses Operational Technology Management \(OTM\) to manage licenses for the manufacturing industry. OTM contains the licenses that are included in IT Operations Management, as well as licenses unique to OTM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/otm-license-module.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -18,5 +18,5 @@ Monitor OTM licenses in the same way as IT Operations Management licenses. The S
 
 The same license options available for IT Operations Management are also available for OTM, under the **OTM License** menu item in a ServiceNow instance.
 
-For details on subscriptions for OTM, see [Subscriptions for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-license-module.md).
+For details on subscriptions for OTM, see [Subscriptions for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-license-module.md).
 

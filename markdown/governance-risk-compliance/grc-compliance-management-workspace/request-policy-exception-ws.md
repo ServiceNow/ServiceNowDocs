@@ -3,11 +3,11 @@ title: Request a policy exception using the Compliance Workspace
 description: Use the Compliance Workspace to request exceptions for policies, control objectives, or issues by specifying the reason of exception on a particular list of the systems, applications, networks, or entities for which the exception applies. You must also specify the duration for which the exception is required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/request-policy-exception-ws.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Manage policy exceptions and extensions using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite
 
 Exceptions provide temporary relief when you are unable to meet compliance requirements due to extraordinary situations. For example, you are unable to meet a control that stipulates all critical OS servers must be patched within 48 hours after the OS vendor releases patches.
 
-**Note:** For more information on policy exceptions, see [Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md).
+**Note:** For more information on policy exceptions, see [Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md).
 
 ## Procedure
 
@@ -367,7 +367,7 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>    **Note:** In versions prior to Version 10.1, the **Risk assessment** related list was called **Business Impact Analysis** and required that the GRC: Risk Management application be activated. Starting in Version 10.1, the dependency on Risk Management has been removed and the associated field names have changed.
@@ -402,9 +402,9 @@ Option to enable confidentiality of the record. Only the assigned confidential u
 
 As a requester you can request extensions to a policy exception that is in the Approved state more than once. Configure the **Number of extensions allowed for a policy exception** property to request policy extension multiple times.
 
-To set up the property, see [Configure the number of extensions allowed for a policy exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/request-policy-extension-platform.md).
+To set up the property, see [Configure the number of extensions allowed for a policy exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/request-policy-extension-platform.md).
 
-To request extension, click the **Request extension** button and [enter the details in the Request extension pop-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/request-policy-extension-platform.md).
+To request extension, click the **Request extension** button and [enter the details in the Request extension pop-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/request-policy-extension-platform.md).
 
-Click **Request**. You can see the policy extension details in the [Schedule tab of the Policy exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/request-policy-exception-ws.md) after the requester has requested for an extension and the policy extension has been approved by the approver.
+Click **Request**. You can see the policy extension details in the [Schedule tab of the Policy exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/request-policy-exception-ws.md) after the requester has requested for an extension and the policy extension has been approved by the approver.
 

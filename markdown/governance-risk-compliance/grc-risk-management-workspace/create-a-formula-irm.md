@@ -3,11 +3,11 @@ title: Create a formula
 description: Build your own formula using either entities or metric definitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-a-formula-irm.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Formula building in a calculated metric definition, Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -57,5 +57,5 @@ When creating a formula, you can utilize functions like maximum, minimum, or ave
 8.  On the Formula builder page, select **Need help?** to get step-by-step guidance for building the formula.
 
 
-**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/formula-building-at-metric-definition-and-entity-level-irm.md)
+**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/formula-building-at-metric-definition-and-entity-level-irm.md)
 

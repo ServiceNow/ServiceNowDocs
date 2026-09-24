@@ -3,9 +3,9 @@ title: Manager Workspace landing page
 description: The Manager Workspace landing page provides managers with real-time alerts and key metrics that reflect the overall health and performance of the organization. By consolidating work and resource management data, managers can effectively oversee team performance, optimize agent utilization, and drive continuous improvement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-configurable-manager-workspace-dashboards-new.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -81,16 +81,16 @@ Advanced configuration: When additional insights and analytics capabilities are 
 
 The available widgets and tabs depend on which capabilities are enabled in the instance.
 
-**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Create Manager Workspace Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-configurable-csm-landing-page.md)
+[Create Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-configurable-csm-landing-page.md)
 
-[Use sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-sentiment-analysis-dashboard.md)
+[Use sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/use-sentiment-analysis-dashboard.md)
 
-[View trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/view-trending-topics-dashboard.md)
+[View trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/view-trending-topics-dashboard.md)
 
-[Workforce Optimization for Customer Service manager workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/wfo-cs-manager-landing-page-new.md)
+[Workforce Optimization for Customer Service manager workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/wfo-cs-manager-landing-page-new.md)
 

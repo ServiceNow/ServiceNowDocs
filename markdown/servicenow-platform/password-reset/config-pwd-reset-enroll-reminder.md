@@ -3,11 +3,11 @@ title: Send email to remind users to enroll for Password Reset
 description: You can automatically send messages that remind users to enrolled in the Password Reset process. You specify the text of the message and can configure the messages to repeat at intervals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/config-pwd-reset-enroll-reminder.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,7 +27,7 @@ The default email content is:
 -   Subject: Reminder: Enroll in the Password Reset program
 -   Body: Select here to enroll in the Password Reset program.
 
-To customize the email, see [Customize the Password Reset enrollment reminder email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customize-pwd-reset-enroll-reminder.md).
+To customize the email, see [Customize the Password Reset enrollment reminder email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/customize-pwd-reset-enroll-reminder.md).
 
 ## Procedure
 
@@ -85,10 +85,10 @@ Date and time to send the first message. Click the calendar button to specify th
 
 </td></tr></tbody>
 </table>
--   **[Customize the Password Reset enrollment reminder email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customize-pwd-reset-enroll-reminder.md)**  
+-   **[Customize the Password Reset enrollment reminder email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/customize-pwd-reset-enroll-reminder.md)**  
  The email message that reminds users to enroll for the Password Reset process is based on an email template. To customize the message, you can modify the default template or create a custom template.
 
-**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 

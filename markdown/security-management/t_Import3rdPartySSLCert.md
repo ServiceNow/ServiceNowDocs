@@ -3,9 +3,9 @@ title: Replace an untrusted or expired third-party SSL certificate
 description: When an SSL connection is required in an integration, there are circumstances when the certificate provided by the third-party vendor is either not yet trusted in ServiceNow or has expired. You can replace it or add a new certificate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/t\_Import3rdPartySSLCert.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration troubleshooting, ServiceNow Security Operations integration development guidelines, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -42,7 +42,7 @@ Role required: sn\_ti.write
 
 2.  Navigate to **System Definition** &gt; **Certificates**.
 
-3.  Click **New** and [create a new record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md) for the integration.
+3.  Click **New** and [create a new record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_UploadACertificateToAnInstance.md) for the integration.
 
 4.  In **PEM Certificate**, paste in the certificate you downloaded and copied into the clipboard earlier.
 
@@ -51,5 +51,5 @@ Role required: sn\_ti.write
     The other fields in the record are generated automatically.
 
 
-**Parent Topic:**[Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IntegrationTroubleshooting.md)
+**Parent Topic:**[Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_IntegrationTroubleshooting.md)
 

@@ -3,11 +3,11 @@ title: View subflow history
 description: View the change history of a subflow by date and user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/view-subflow-history.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Subflow history, Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -41,5 +41,5 @@ The sidebar view displays a list of subflow history entries.
 
 You can annotate, copy, remove, or restore subflow history entries.
 
-**Parent Topic:**[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflow-history.md)
+**Parent Topic:**[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/subflow-history.md)
 

@@ -3,11 +3,11 @@ title: Jumpstart Your AI Control Tower: AI Lifecycle
 description: This Accelerator provides guided coaching and an applied demonstration to help customers better understand their organization's AI governance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-ai-control-tower-ai-lifecycle.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Control Tower, AI Lifecycle, AI Governance, Jumpstart]
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
@@ -31,7 +31,7 @@ By the end of the engagement, customers have the knowledge and context to positi
 
 ## Prerequisites
 
--   Customer has completed the [Jumpstart Your AI Control Tower: Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-your-ai-control-tower.md) accelerator or possesses equivalent foundational knowledge of AI Control Tower.
+-   Customer has completed the [Jumpstart Your AI Control Tower: Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-your-ai-control-tower.md) accelerator or possesses equivalent foundational knowledge of AI Control Tower.
 -   AI Control Tower is deployed and available in the customer's environment.
 
 ## What You Get

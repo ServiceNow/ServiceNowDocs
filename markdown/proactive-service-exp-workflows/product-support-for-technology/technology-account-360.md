@@ -3,11 +3,11 @@ title: Technology Account 360
 description: Use the Technology Account 360 to get a unified view of customer or partner account details combining account health, financial, product usage, and open tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -70,11 +70,11 @@ Account 360 includes the following components:
 
 |Tab|Details|
 |---|-------|
-|Overview|Touchpoints, escalations, milestones, and a daily account briefing. For more information, see [Technology Account 360 Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-overview-tab.md).|
-|Account health|Health insights and performance indicators. For more information, see [Technology Account 360 Account health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-account-health-tab.md).|
-|Financials|Financial insights, including the renewal confidence score. For more information, see [Technology Account 360 Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-financials-tab.md).|
-|Product adoption|Onboarding and implementation records for the account, and product adoption insights. For more information, see [Technology Account 360 Product adoption tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-product-adoption-tab.md).|
-|Open work|Work insights, including breached and aged work items.For more information, see .[Technology Account 360 Open work tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-open-work-tab.md).|
+|Overview|Touchpoints, escalations, milestones, and a daily account briefing. For more information, see [Technology Account 360 Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-overview-tab.md).|
+|Account health|Health insights and performance indicators. For more information, see [Technology Account 360 Account health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-account-health-tab.md).|
+|Financials|Financial insights, including the renewal confidence score. For more information, see [Technology Account 360 Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-financials-tab.md).|
+|Product adoption|Onboarding and implementation records for the account, and product adoption insights. For more information, see [Technology Account 360 Product adoption tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-product-adoption-tab.md).|
+|Open work|Work insights, including breached and aged work items.For more information, see .[Technology Account 360 Open work tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-open-work-tab.md).|
 
 ## Recommended actions
 
@@ -87,9 +87,9 @@ Following are the key behaviors of recommended actions:
 -   The underlying logic uses the `ExecPortfolioRecommendedActions` script include and `SuccessRecommendationUtil`, and integrates with the platform's `ScriptingGeneratorFactory` pattern.
 -   The panel can generate more than one recommendation per trigger, so if a single event is relevant to multiple accounts, each account receives its own suggestion.
 
-For more information about how to use Technology Account 360, see [Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md).
+For more information about how to use Technology Account 360, see [Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md).
 
-To customize the values of an indicator, see [Customize an indicator in the Technology Account 360 view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/customize-indicator-technology-account-360-view.md).
+To customize the values of an indicator, see [Customize an indicator in the Technology Account 360 view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/customize-indicator-technology-account-360-view.md).
 
-**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
+**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 

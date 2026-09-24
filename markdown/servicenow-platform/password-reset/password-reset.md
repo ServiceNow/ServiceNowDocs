@@ -3,11 +3,11 @@ title: Password Reset
 description: The Password Reset application enforces strong and secure passwords by enabling end users to reset or change their passwords either by using the self-service process or by requesting the assistance of a service desk agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-reset.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ The Password Reset application enforces strong and secure passwords by enabling 
 
 -   **Homepages with a dashboard view**
 
-    Password Reset has a new, modernized look and feel. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
+    Password Reset has a new, modernized look and feel. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md).
 
 
 ## Password Reset processes
@@ -52,7 +52,7 @@ Users with the password\_reset\_admin role configure how the process of resettin
     Users request the assistance of a service desk agent, over the phone or in person. In this process, users don't reset passwords.
 
 
-For more information, see [Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-admin-guide.md) and [Plan your Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_PlanPasswordReset.md).
+For more information, see [Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/password-reset-admin-guide.md) and [Plan your Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_PlanPasswordReset.md).
 
 ## Self-service and Service Desk - assisted processes
 
@@ -89,6 +89,6 @@ In addition to configuring the connections, user groups, and verifications, you 
 
 Based on your role, do these steps:
 
--   If you're an administrator, start [configuring Password Reset for your users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-admin-guide.md)
--   If you're an end user who wants to reset a password, [start enrolling to reset your password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md).
+-   If you're an administrator, start [configuring Password Reset for your users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/password-reset-admin-guide.md)
+-   If you're an end user who wants to reset a password, [start enrolling to reset your password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md).
 

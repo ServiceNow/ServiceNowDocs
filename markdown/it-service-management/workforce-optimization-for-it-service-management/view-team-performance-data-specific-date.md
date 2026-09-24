@@ -3,11 +3,11 @@ title: View the performance data of your team for a specific date
 description: You can view your team’s performance data for a specific date using a time-series chart.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/view-team-performance-data-specific-date.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analyzing team performance, Teams, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -53,5 +53,5 @@ Role required: sn\_wfo\_cfg\_itsm.manager and sn\_team\_perf.team\_performance\_
     You can close the date pill filter to go back to the data you want to see for the selected date range.
 
 
-**Parent Topic:**[Analyzing team performance using Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/teams-workforce-optimization-configurable-wfo-itsm.md)
+**Parent Topic:**[Analyzing team performance using Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/teams-workforce-optimization-configurable-wfo-itsm.md)
 

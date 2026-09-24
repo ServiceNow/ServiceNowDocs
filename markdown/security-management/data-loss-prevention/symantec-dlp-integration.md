@@ -3,11 +3,11 @@ title: Symantec Integration for Data Loss Prevention Incident Response
 description: The Symantec DLP integration supports the ingestion of Data Loss Prevention Incident Response incidents created on the Symantec Data Loss Prevention Incident Response deployment. After ingestion, you can use the incident management functionalities to remediate the DLP incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/symantec-dlp-integration.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -35,24 +35,24 @@ This integration includes the following key features:
 
 To learn more about the integration, see the [Symantec product documentation](https://techdocs.broadcom.com).
 
--   **[Getting started with Symantec DLP integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/getting-started-symantec-dlp-integration-dlp.md)**  
+-   **[Getting started with Symantec DLP integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/getting-started-symantec-dlp-integration-dlp.md)**  
 Before you can use the integration, you must download it from the ServiceNow® Store.
--   **[Install and configure the Symantec DLP integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/install-configure-symantec-dlp-integration.md)**  
+-   **[Install and configure the Symantec DLP integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/install-configure-symantec-dlp-integration.md)**  
 Install and configure the  Symantec DLP integration from the  ServiceNow® Store on your  ServiceNow AI Platform instance. Start investigating DLP incidents using the  Symantec DLP incident data.
--   **[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)**  
+-   **[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)**  
 Create an incident profile in your  ServiceNow AI Platform instance. Determine the  Symantec DLP incidents that are suitable for creating DLP incidents.
--   **[Severity mapping between Symantec DLP incidents with ServiceNow incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/severity-mapping.md)**  
+-   **[Severity mapping between Symantec DLP incidents with ServiceNow incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/severity-mapping.md)**  
 Use the severity mapping feature to configure and synchronize the mapping between Symantec incidents and ServiceNow AI Platform® incidents.
--   **[Configure Smart Response Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/config-smart-response-rules.md)**  
+-   **[Configure Smart Response Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/config-smart-response-rules.md)**  
 Configure the Symantec smart response rule\(s\) to perform response actions on the ingested Symantec DLP Incidents.
--   **[Execute Smart Response Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/execute-smart-response-rules.md)**  
+-   **[Execute Smart Response Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/execute-smart-response-rules.md)**  
 Use this feature to execute Smart Response Rules for the Symantec DLP incidents.
--   **[Configure the Symantec DLP  integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/modify-symantec-dlp-system-properties.md)**  
+-   **[Configure the Symantec DLP  integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/modify-symantec-dlp-system-properties.md)**  
 Modify the  Symantec DLP  integration default system properties.
--   **[Domain Separation in the Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/domain-seperation-symantec-dlp-integration.md)**  
+-   **[Domain Separation in the Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/domain-seperation-symantec-dlp-integration.md)**  
 Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[DLP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-integrations.md)
+**Parent Topic:**[DLP integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/dlp-integrations.md)
 
 **Related topics**  
 

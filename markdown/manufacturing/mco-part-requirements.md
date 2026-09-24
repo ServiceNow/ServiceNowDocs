@@ -3,11 +3,11 @@ title: Generate a part requirement
 description: Capture all the part requirements at the campaign level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-part-requirements.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Corrective actions, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Corrective actions, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Generate a part requirement
@@ -20,7 +20,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Corrective Action**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Corrective Action**.
 
 2.  Select the corresponding campaign record in which you want to generate the part requirements.
 
@@ -83,4 +83,9 @@ Unit of measure. Available options are:-   Box
 </td></tr></tbody>
 </table>    **Note:** When corrective action status changes to Draft, part details in part requirements are reset to 0.
 
+
+-   **[Create a parts availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-part-availability.md)**  
+Track current part availability and expected availability dates for required parts.
+
+**Parent Topic:**[Corrective actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-corrective-actions.md)
 

@@ -3,13 +3,13 @@ title: Diagnose Microsoft Teams configuration issues
 description: Use the Conversational Interfaces Diagnostic Tool to identify and help solve Microsoft Teams configuration issues before reaching out to Now Support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose\_ci\_plugin\_issues.html
-release: australia
+release: brazil
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Conversational Interfaces Diagnostic Tool, Conversational Interfaces Diagnostic Tool, Conversational Interfaces]
+breadcrumb: [Use, Conversational Interfaces Diagnostic Tool, Manage people and work, Conversational Interfaces]
 ---
 
 # Diagnose Microsoft Teams configuration issues
@@ -77,5 +77,5 @@ Role required: virtual\_agent\_admin or admin
 9.  Click the link to download support data.
 
 
-**Parent Topic:**[Using the Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/using-ci-diagnostics-tool.md)
+**Parent Topic:**[Using the Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/using-ci-diagnostics-tool.md)
 

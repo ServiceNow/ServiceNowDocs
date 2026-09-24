@@ -3,11 +3,11 @@ title: Review responses to external questionnaires
 description: Third-party contacts use the Third-party portal to complete assessments and collaborate with the TPR manager in the comments section for each question. When assessments reveal gaps, the TPR manager or the TPR assessor can generate an issue or task. In addition, the Vendor Management Workspace application can auto-generate issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-assessment-rvw-response.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ To enable TPR assessors to modify responses, configure the **Allow TPR assessors
 -   Enable TPR assessors to modify responses
 -   Do not enable TPR assessors to answer questions or modify responses
 
-See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 ## Procedure
 
@@ -117,15 +117,15 @@ Select the check box to add an **External comment** for the third party.
 </td></tr></tbody>
 </table>5.  After you review the assessment and add comments, perform one of the following steps.
 
-<table id="choicetable_yxv_pmr_5mb"><thead><tr><th align="left" id="d296851e267">
+<table id="choicetable_yxv_pmr_5mb"><thead><tr><th align="left" id="d301433e267">
 
 Choice
 
-</th><th align="left" id="d296851e270">
+</th><th align="left" id="d301433e270">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d296851e276">
+</th></tr></thead><tbody><tr><td id="d301433e276">
 
 **To generate issues associated with each question in the classic assessment engine**
 
@@ -135,7 +135,7 @@ Select **Create Issue**. A message with the issue number appears, and each quest
 
  **Note:** This is available when you’re using the Classic assessment engine.
 
-</td></tr><tr><td id="d296851e299">
+</td></tr><tr><td id="d301433e299">
 
 **To resubmit the assessment to the third party or engagement**
 
@@ -145,7 +145,7 @@ Select **Return to third party**.If the assessment schedule might be affected, y
 
 **Note:** After the assessment has been submitted, the third party or engagement can’t make edits to the assessment. You can return the assessment to the third party or engagement if changes are required.
 
-</td></tr><tr><td id="d296851e318">
+</td></tr><tr><td id="d301433e318">
 
 **To export a spreadsheet with responses, comments, and issues in the classic assessment engine**
 
@@ -155,7 +155,7 @@ Select **Export responses**.A Microsoft Excel spreadsheet is generated containin
 
 **Note:** This is available when you’re using the Classic assessment engine.
 
-</td></tr><tr><td id="d296851e337">
+</td></tr><tr><td id="d301433e337">
 
 **To add notes or comments and review questionnaire activity**
 

@@ -3,9 +3,9 @@ title: Installed with geolocation
 description: Several component types are installed with Geolocation.Business rules are added with activation of Geolocation.Client scripts are added with activation of Geolocation.Geolocation provides the following configurable properties in Geolocation Administration Geolocation Properties .Script includes are added with activation of Geolocation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_InstalledWithGeolocation.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Geolocation, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Geolocation, Exploring Service Administration, Service Administrati
 
 Several component types are installed with Geolocation.
 
-The Geolocation plugin adds a field called [Geolocation tracked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_InstalledWithGeolocation.md) to the User `[sys_user]` table. This field allows the system to track individual users by their geographical coordinates.
+The Geolocation plugin adds a field called [Geolocation tracked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_InstalledWithGeolocation.md) to the User `[sys_user]` table. This field allows the system to track individual users by their geographical coordinates.
 
-**Parent Topic:**[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Geolocation.md)
+**Parent Topic:**[Geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_Geolocation.md)
 
 ## Business rules installed with geolocation
 
@@ -50,7 +50,7 @@ Populates the **Latitude** and **Longitude** fields on the Geolocation History \
 </table>**Related topics**  
 
 
-[Installed with geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_InstalledWithGeolocation.md)
+[Installed with geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_InstalledWithGeolocation.md)
 
 ## Client scripts installed with geolocation
 
@@ -84,13 +84,13 @@ Populates the **Latitude** and **Longitude** fields on a user record with GPS co
 </table>**Related topics**  
 
 
-[Installed with geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_InstalledWithGeolocation.md)
+[Installed with geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_InstalledWithGeolocation.md)
 
 ## Properties installed with geolocation
 
 Geolocation provides the following configurable properties in **Geolocation** &gt; **Administration** &gt; **Geolocation Properties**.
 
-The Google Maps plugin provides additional [map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md) that are used to implement and control specific geolocation features. You must have a [private key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_GeolocationGoogleKey.md) for Google Maps API for Business to take advantage of the properties listed here.
+The Google Maps plugin provides additional [map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-up-google-maps-api.md) that are used to implement and control specific geolocation features. You must have a [private key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_GeolocationGoogleKey.md) for Google Maps API for Business to take advantage of the properties listed here.
 
 <table id="table_n35_gbp_pp"><thead><tr><th>
 
@@ -250,5 +250,5 @@ Script includes are added with activation of Geolocation.
 **Related topics**  
 
 
-[Installed with geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_InstalledWithGeolocation.md)
+[Installed with geolocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_InstalledWithGeolocation.md)
 

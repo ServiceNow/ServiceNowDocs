@@ -3,11 +3,11 @@ title: Agile 2.0 Prior Release Dashboard
 description: Prior Release Dashboard provides data visualization on scope, actual burnup and burndown, and forecast trends of previous releases. Analyze the data and plan the work for upcoming releases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-development-prior-release-dashboard.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -138,7 +138,7 @@ If the actual burndown \(Remaining\) is above the ideal burndown, it implies tha
 
 
 </td></tr></tbody>
-</table>You can customize the Burnup and Burndown reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/customizing-dashboard-reports.md).
+</table>You can customize the Burnup and Burndown reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/customizing-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

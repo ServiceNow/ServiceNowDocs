@@ -3,11 +3,11 @@ title: Add a script to an AI agent
 description: Create a script to add it to an AI agent in AI Agent Studio. With scripts, you can use the scriptable APIs and back-end integration to support the AI agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-script-ai-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-09-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a script to an AI agent

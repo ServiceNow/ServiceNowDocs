@@ -3,11 +3,11 @@ title: ITOM Mobile Agent
 description: Stay connected and keep services reliable with ITOM Mobile Agent, which lets you access Service Reliability Management \(SRM\) features on iOS and Android devices. Use it to track alerts, manage incidents, work on change and catalog tasks, and manage on-call shifts on the go.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/itom-mobile-landing.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,19 +22,19 @@ Stay connected and keep services reliable with ITOM Mobile Agent, which lets you
 
 <table id="table_plh_4qx_42c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ITOM Mobile Agent, including its benefits and common workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/explore-itom-mobile.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ITOM Mobile Agent, including its benefits and common workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/explore-itom-mobile.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install ITOM Mobile Agent and configure notifications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configure-itom-mobile.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install ITOM Mobile Agent and configure notifications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/configure-itom-mobile.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-investor-relations-2.svg"\] Alt text:Log in and work with alerts, incidents, tasks, and on-call schedules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/use-itom-mobile.md)
+[Use\[Omitted image "bus-investor-relations-2.svg"\] Alt text:Log in and work with alerts, incidents, tasks, and on-call schedules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/use-itom-mobile.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ITOM Mobile Agent settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/itom-mobile-settings.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ITOM Mobile Agent settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/itom-mobile-settings.md)
 
 </td></tr></tbody>
 </table>

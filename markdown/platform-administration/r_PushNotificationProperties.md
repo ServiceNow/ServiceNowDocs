@@ -3,9 +3,9 @@ title: Push notification properties
 description: Push notifications provides several properties to customize the setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_PushNotificationProperties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -42,12 +42,12 @@ Add these properties to the System Properties \[sys\_properties\] table.
     -   Default value: false
 -   **__glide.push.notification.ttl\_seconds__**
 
-    Specifies the number of seconds after which a queued push notification expires. After a push notification is triggered, it is queued and finally processed by a scheduled job. If the time the notification sits in the queue exceeds this value, the notification is not sent. Check the [Push Notifications log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_HandlingFailedPushMessages.md) for more information.
+    Specifies the number of seconds after which a queued push notification expires. After a push notification is triggered, it is queued and finally processed by a scheduled job. If the time the notification sits in the queue exceeds this value, the notification is not sent. Check the [Push Notifications log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_HandlingFailedPushMessages.md) for more information.
 
     -   Type: integer
     -   Default value: 21600
 
-**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md)
+**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_PushNotifications.md)
 
 **Related topics**  
 

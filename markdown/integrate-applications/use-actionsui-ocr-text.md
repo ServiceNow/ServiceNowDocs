@@ -3,9 +3,9 @@ title: Use the OCR Text component
 description: Extract the text from an image by using the OCR \(Optical Character Recognition\) Text component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionsui-ocr-text.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Actions \(UI\), Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -24,7 +24,7 @@ Role required: none
 
 Starting with the Yokohama release, the RPA Desktop Design Studio utilizes the latest version of the Tesseract OCR engine. This update improves image pre-processing, and performance optimizations. When updating older automations that include the OCR text component, you may notice slight differences in the output. Therefore, it’s important to validate your automations after the update.
 
-Many properties of the OCR Text component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-actions-ui-components.md).
+Many properties of the OCR Text component are common with other Actions UI components, to configure these properties, see [Properties of Actions \(UI\) components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/properties-actions-ui-components.md).
 
 The properties unique to the OCR Text component are given.
 
@@ -61,9 +61,9 @@ The properties unique to the OCR Text component are given.
 
 5.  To close the OCR Settings window, click **OK**.
 
-6.  To configure the input, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+6.  To configure the input, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
-7.  To configure the output, see [Configure output port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-output-port-properties.md).
+7.  To configure the output, see [Configure output port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-output-port-properties.md).
 
 8.  Connect the ports as described in the following table.
 
@@ -157,7 +157,7 @@ Returns the extracted text accuracy figure.
 
 \[Omitted image "OCR\_Text\_Filepath\_2.PNG"\] Alt text: Extract text from image and display with the Show component.
 
-The OCR Text component takes a path to an image. The image comprises the text "servicenow". The component extracts the text from the image and passes the string to the Show component \(To use the Show component, see [Use the Show component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-general-messagebox-show.md)\). The Show component takes the text through the Message Data In port and then displays the text in a window.
+The OCR Text component takes a path to an image. The image comprises the text "servicenow". The component extracts the text from the image and passes the string to the Show component \(To use the Show component, see [Use the Show component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-general-messagebox-show.md)\). The Show component takes the text through the Message Data In port and then displays the text in a window.
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/actions-ui.md)
 

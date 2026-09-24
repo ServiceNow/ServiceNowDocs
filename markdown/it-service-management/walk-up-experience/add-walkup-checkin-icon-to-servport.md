@@ -3,11 +3,11 @@ title: Configure Walk-up Experience online check-in icon to appear on Service Po
 description: Requesters can check into a walk-up location online via the Service Portal. You can edit the Service Portal Home page to replace the general IT Get Help support icon link with the Walk-up Experience online check-in support icon link.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/add-walkup-checkin-icon-to-servport.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Walk-up Experience, IT Service Management]
 ---
@@ -67,10 +67,10 @@ To replace the Get Help icon link with the Walk-up Check-in icon link on the Ser
 
 9.  Navigate to **Service Portal** &gt; **Service Portal Home** to verify and test the newly created Walk-up Check-in icon link.
 
-10. To add the Walk-up Check-in icon link to a new container, refer to [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
+10. To add the Walk-up Check-in icon link to a new container, refer to [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ConfigureAPage.md).
 
 11. Edit the container form fields with the same data and presentation information as detailed above in the form configuration input descriptions and follow the remaining relevant steps.
 
 
-**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

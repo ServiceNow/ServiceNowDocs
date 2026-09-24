@@ -3,11 +3,11 @@ title: Apply a template in the Incident form
 description: Use a template to apply values to an incident record. The values from the template replaces existing field values, while fields not included in the template will remain unchanged.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_UseATemplateFromAForm.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Use a template to apply values to an incident record. The values from the templa
 
 ## Before you begin
 
-You must create a template before applying the template in the incident form. For more information, see [Create a template from the incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-template-inci-form.md).
+You must create a template before applying the template in the incident form. For more information, see [Create a template from the incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-template-inci-form.md).
 
 Role required: itil, sn\_incident\_write, or admin
 
@@ -38,5 +38,5 @@ Role required: itil, sn\_incident\_write, or admin
 **Related topics**  
 
 
-[Create incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_CreateAnIncidentTemplate.md)
+[Create incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/t_CreateAnIncidentTemplate.md)
 

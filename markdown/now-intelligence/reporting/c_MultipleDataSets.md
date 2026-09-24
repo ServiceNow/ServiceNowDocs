@@ -3,11 +3,11 @@ title: Using multiple datasets in Core UI reports
 description: You can create reports that use datasets from up to five tables in a single report. Add up to five extra datasets to visualize data from multiple sources in a single report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_MultipleDataSets.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -32,7 +32,7 @@ Bear the following restrictions in mind when creating a report with multiple dat
 -   For multiple datasets on a Bar or Horizontal Bar chart, all associated datasets must have the same Group By value.
 -   The Show Legends option is always, by default, displayed on a report with multiple datasets, even if the parent report has this option unselected.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Add an additional dataset to a report
 
@@ -46,19 +46,19 @@ The property **glide.ui.doctype** must be enabled.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
+1.  Navigate to `sys_reports.list` and select **New**.
 
 2.  Create a report of a type that supports multiple datasets, or select an existing report of one of these types.
 
     You can add additional sets to bar, horizontal bar, line, column, area, and spline reports.
 
-3.  Select the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
+3.  Click the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
 
     \[Omitted image "show-report-structure-add-dataset.png"\] Alt text: Add dataset example: Open Show report structure from a bar report
 
 4.  Select **Add dataset**.
 
-5.  On the **Data** tab, provide a custom name for the additional data set to appear in the legend of the report, select a data source, and select the **Configure** tab.
+5.  On the **Data** tab, provide a custom name for the additional data set to appear in the legend of the report, select a data source, and click the **Configure** tab.
 
     \[Omitted image "add-dataset-group-by-example.png"\] Alt text: Add dataset example: Name the dataset from the Data tab
 
@@ -72,7 +72,7 @@ The property **glide.ui.doctype** must be enabled.
 
 7.  On the **Style** tab, specify the following fields the same way that you would configure a standalone report.
 
-8.  Select **Save dataset**.
+8.  Click **Save dataset**.
 
 
 ### Result

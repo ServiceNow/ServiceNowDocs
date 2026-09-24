@@ -3,11 +3,11 @@ title: Copying responses from previous assessments
 description: You can copy responses from previous assessments to save time and reduce repetition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/copying-responses-from-previous-assessments.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -29,5 +29,5 @@ The following table shows the Copy smart assessment responses action form.
 
 Both the source assessment that you’re copying from and the target assessment for reusing responses must be based on the same template. The target assessment must be in an Open state. After this flow action is implemented, the answers from the source assessment are automatically available as answers for the assessor's responses.
 
-For more information on adding actions to flows in Workflow Studio, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
+For more information on adding actions to flows in Workflow Studio, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md).
 

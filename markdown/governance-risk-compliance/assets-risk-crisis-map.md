@@ -3,9 +3,9 @@ title: View assets at risk within the impacted area
 description: View the list of resources that are at stake because of an alert threat that is near your business locations. Take actions to protect your resources and prevent major loss.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/assets-risk-crisis-map.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -53,7 +53,7 @@ Role required: BCM admin or BCM Program Manager
 
     2.  In the Edit Impacted Area pop over that opens on the map, select either Custom Shape or Custom Radius depending on the shape of the impacted area.
 
-        -   Custom Shape: Select Custom Shape if the impacted area is a polygonal shape.
+        -   Custom Shape: Select Custom Shape if the impacted area is polygonal shape.
         -   Custom Radius: If the impacted area is a circle.
     3.  Click and drag the vertex on the boundary of the impacted area to include the asset location.
 

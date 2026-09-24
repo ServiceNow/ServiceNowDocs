@@ -3,11 +3,11 @@ title: Reassess a risk assessment project
 description: Reassess a risk assessment project to assess any completed risk assessment project. It verifies that risks are reviewed and updated to reflect new insights or changing conditions, maintaining alignment with organizational goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/reassess-risk-assessment-project.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Risk assessment project, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
 
 5.  Select **Reassess**.
 
-    A Reassess project dialog box appears.
+    A Reassess project dialog box appears.If any assessable entity in the project already has another active risk assessment project in progress, you can't reassess the project, and the following message appears: `You can't reassess this project because an assessment is already in progress for this project.`
 
 6.  Select the reason for reassessment and provide additional context in the Reassess project dialog box.
 
@@ -47,7 +47,7 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
 
 ## What to do next
 
-[Perform assessment on a risk assessment project in stacked view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-assessment-on-risk-assessment-project.md)
+[Assess Risk Projects in Stacked View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-assessment-on-risk-assessment-project.md)
 
-**Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)
+**Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)
 

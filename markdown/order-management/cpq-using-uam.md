@@ -3,7 +3,7 @@ title: Using CPQ user access management
 description: Manage access to the CPQ Admin interface. Grant or remove admin rights and troubleshoot access issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-using-uam.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -67,7 +67,7 @@ Newly created users have END\_USER permissions only. The access level can be cha
 **Related topics**  
 
 
-[User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
-[User Access Control reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-user-access-control-ref.md)
+[User Access Control reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-user-access-control-ref.md)
 

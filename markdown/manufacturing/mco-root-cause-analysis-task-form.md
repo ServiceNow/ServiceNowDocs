@@ -3,9 +3,9 @@ title: Root cause analysis task form
 description: Root cause analysis task form enables you to enter the root cause of the product non-conformance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-root-cause-analysis-task-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
@@ -111,5 +111,5 @@ Assigned to
 User to whom the RCA has been assigned.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-qim-form.md)
 

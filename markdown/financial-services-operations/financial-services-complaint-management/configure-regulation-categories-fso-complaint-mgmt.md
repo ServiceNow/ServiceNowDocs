@@ -3,11 +3,11 @@ title: Configure regulation categories and subcategories
 description: Configure regulation categories and subcategories to be used in the complaint service cases that have regulatory impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/configure-regulation-categories-fso-complaint-mgmt.html
-release: australia
+release: brazil
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---

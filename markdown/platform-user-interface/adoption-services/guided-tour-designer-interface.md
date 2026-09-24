@@ -3,11 +3,11 @@ title: GTD interface
 description: The Guided Tour Designer \(GTD\) provides an easy way to create guided tours. You can easily drag a callout to the element you want to highlight and enter instructions for each step, along with the corresponding trigger. As you add steps, you have the option to test and modify them as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/guided-tour-designer-interface.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Guided Tour Designer, Explore Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -68,9 +68,9 @@ The GTD has the following features:
 **Related topics**  
 
 
-[GTD triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-triggers.md)
+[GTD triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/guided-tour-triggers.md)
 
-[Create Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/add-guided-tour.md)
+[Create Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/add-guided-tour.md)
 
-[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)
+[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)
 

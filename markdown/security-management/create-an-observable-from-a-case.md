@@ -3,9 +3,9 @@ title: Create an observable from a case
 description: New observables can be created from cases in Security Case Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-an-observable-from-a-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IoCs and observables in cases, Case creation from security artifacts, Security Case Management, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_ti.case\_user
 
     The Security Cases list opens.
 
-2.  Either open an existing case or click **New** to [create a new case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-cases-in-case-mgmt.md).
+2.  Either open an existing case or click **New** to [create a new case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-cases-in-case-mgmt.md).
 
 3.  Click the **Case Artifacts** related link and click the **Observables** tab.
 
@@ -52,10 +52,10 @@ Role required: sn\_ti.case\_user
 
 7.  Click **Submit**.
 
-    As needed, you can click the **Case Artifacts** tab and [add artifacts to the case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-records-to-cases.md).
+    As needed, you can click the **Case Artifacts** tab and [add artifacts to the case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/add-records-to-cases.md).
 
 
-**Parent Topic:**[IoCs and observables in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cases-in-threat.md)
+**Parent Topic:**[IoCs and observables in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/cases-in-threat.md)
 
 **Related topics**  
 

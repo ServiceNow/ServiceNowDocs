@@ -3,11 +3,11 @@ title: Jumpstart Your Strategic Portfolio Management - Collaborative Work Manage
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Collaborative Work Management \(CWM\) with Strategic Portfolio Management \(SPM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-spm-collaborative-work-management.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -18,7 +18,7 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 ## Accelerator Overview
 
-Jumpstart Your SPM - Collaboration Work Management \(CWM\) provides Impact customers with a comprehensive overview of the possibilities and capabilities of CWM. Our goal is to demonstrate how customers can set up and utilize CWM to plan, manage, visualize, and collaborate on work with their teams. Additionally, this accelerator offers key resources and leading practice guides on getting started.
+Jumpstart Your SPM - Collaboration Work Management \(CWM\) provides Impact customers with a comprehensive overview of the possibilities and capabilities of CWM. The goal is to demonstrate how customers can set up and use CWM to plan, manage, visualize, and collaborate on work with their teams. Additionally, this accelerator offers key resources and leading practice guides on getting started.
 
 ## Package Availability
 
@@ -26,20 +26,18 @@ Jumpstart Your SPM - Collaboration Work Management \(CWM\) provides Impact custo
 
 ## What You Get
 
--   **Session Preparation**
-    -   Provision a temporary instance
-    -   Activate and configure components of Collaborative Work Management
-    -   Configuration and demonstration
--   **Customer Coaching Session \#1 \(up to 90 min\)**
+-   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
     -   Overview of CWM within Strategic Portfolio Management
     -   Walkthrough of key CWM capabilities and features
     -   Review leading practices with CWM usage and implementation guide
     -   Applied demonstration of CWM within SPM
-    -   Temporary instance provided with 30 days access
--   **Customer Coaching Session \#2 \(Optional upon Customer request - up to 60 min\)**
+-   **Customer Coaching Session \#2 \(Optional upon Customer request - up to 1 hr\)**
 
     Opportunity for Q&amp;A related to CWM within SPM
 
+-   **Output**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested Customer Resources
 
@@ -54,4 +52,8 @@ Jumpstart Your SPM - Collaboration Work Management \(CWM\) provides Impact custo
 ## Requested Information / Access
 
 Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found by selecting the Impact [Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+
+## Exclusions
+
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

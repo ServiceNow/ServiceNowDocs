@@ -3,9 +3,9 @@ title: Configure a contextual link to Virtual Agent
 description: Use Mobile App Builder to create a contextual link in your mobile application so that your users can connect to Virtual Agent and receive information that pertains to their issues. By using a contextual link, your users automatically receive the information that you define about the relevant record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-av-context-action.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Use Mobile App Builder to create a contextual link in your mobile application so
 
 Role required: admin
 
-Before you can create a virtual link to a Virtual Agent feature, you must have the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) installed on your instance. For more details, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md).
+Before you can create a virtual link to a Virtual Agent feature, you must have the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) installed on your instance. For more details, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
 Perform the following steps in Mobile App Builder.
 
@@ -72,7 +72,7 @@ The kind of action item. Choose from the following:-   New
 -   Update
 -   Delete
 -   Script
--   MultiStep. For more information, see [Configure action steps within an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-action-steps.md).
+-   MultiStep. For more information, see [Configure action steps within an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-action-steps.md).
 Different fields appear on the action item form depending on the type of action you select.
 
 </td></tr><tr><td>
@@ -117,7 +117,7 @@ Input form screen
 
 </td><td>
 
-Select an input form screen to use for this action item. See [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+Select an input form screen to use for this action item. See [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md).
 
 </td></tr><tr><td>
 
@@ -135,14 +135,14 @@ Action item step
 
 Allows an action item to perform multiple processes.
 
- For more information, see [Configure action steps within an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-action-steps.md).
+ For more information, see [Configure action steps within an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-action-steps.md).
 
 </td></tr></tbody>
 </table>6.  Select **Save**.
 
 
--   **[Create UI parameters for your Virtual Agent link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-av-context-2.md)**  
+-   **[Create UI parameters for your Virtual Agent link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-av-context-2.md)**  
 Create UI parameters to pass information from your record into Virtual Agent so that your users get the information they need for their issues.
--   **[Enable Virtual Agent for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-virtual-agent.md)**  
+-   **[Enable Virtual Agent for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-virtual-agent.md)**  
 Give your users the ability to chat with a virtual agent through a ServiceNow mobile application.
 

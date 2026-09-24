@@ -3,11 +3,11 @@ title: Add facets to a simple search source
 description: Enable end users to refine search results for a simple search source. You can create facets for a table search source that return results based on field values or query conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/create-search-filter.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,9 +20,9 @@ Enable end users to refine search results for a simple search source. You can cr
 
 Role required: admin or sp\_admin
 
-In new instances, search facets are enabled by default. If upgrading from a previous release, enable search facets by activating a record in the Page Route Maps \[sp\_page\_route\_map\] table. See [Enable search facets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-facets.md). Create facet items and mapped queries with no more than 30 filter items. To verify, test each search source with a variety of keywords as a user with low permissions.
+In new instances, search facets are enabled by default. If upgrading from a previous release, enable search facets by activating a record in the Page Route Maps \[sp\_page\_route\_map\] table. See [Enable search facets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-facets.md). Create facet items and mapped queries with no more than 30 filter items. To verify, test each search source with a variety of keywords as a user with low permissions.
 
-**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-single-table-for-indexing.md).
+**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-single-table-for-indexing.md).
 
 ## Procedure
 
@@ -30,7 +30,7 @@ In new instances, search facets are enabled by default. If upgrading from a prev
 
 2.  Open or create a simple search source.
 
-    Simple search sources do not use a data fetch script. Rather, they define a table as the source of searchable data. To learn more about search sources, see [Configuring search in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-service-portal.md).
+    Simple search sources do not use a data fetch script. Rather, they define a table as the source of searchable data. To learn more about search sources, see [Configuring search in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/search-service-portal.md).
 
 3.  Select the **Facets** related list.
 
@@ -203,5 +203,5 @@ A query condition that users can set to filter search results. For example, **\[
         Users can filter search results based on the query defined.
 
 
-**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
+**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
 

@@ -3,13 +3,13 @@ title: UX: Taxonomy Design or Review
 description: This Accelerator provides Impact customers with guidance to optimize the content structure and navigation of their portal, focusing on categorizing knowledge and catalog content to improve usability and make information easier to find.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux\_review\_unified\_taxonomy.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Taxonomy Design or Review

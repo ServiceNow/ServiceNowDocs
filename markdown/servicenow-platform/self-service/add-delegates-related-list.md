@@ -3,13 +3,13 @@ title: Add the Delegates related list to a user profile
 description: To delegate approvals and tasks to another user, configure your user profile form to display the Delegates related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/add-delegates-related-list.html
-release: australia
+release: brazil
 product: Self-service
 classification: self-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Delegation, Self-Service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service Delegation, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add the Delegates related list to a user profile
@@ -31,5 +31,5 @@ Role required: personalize\_list or admin
 
 The Delegates related list displays at the bottom of the user profile form.
 
-**Parent Topic:**[Service Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/c_ServiceDelegation.md)
+**Parent Topic:**[Service Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/self-service/c_ServiceDelegation.md)
 

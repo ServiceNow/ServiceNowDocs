@@ -3,9 +3,9 @@ title: Removing assignments from findings and remediation tasks
 description: You can remove yourself or your group from the Assigned to and Assignment group fields on findings and remediation tasks if you believe they were incorrectly assigned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-unassigning-findings.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assigning findings to remediation teams using assignment rules, Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -78,10 +78,12 @@ To view reassignment counts:
 
 Each reassigned record retains a reference to its original assignment rule. The list view displays reassignment counts for each assignment rule, helping you identify rules that may need adjustment.
 
-**Parent Topic:**[Assigning findings to remediation teams using assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-assigning-findings-to-remediation-teams.md)
+**Parent Topic:**[Assigning findings to remediation teams using assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-assigning-findings-to-remediation-teams.md)
 
 **Related topics**  
 
 
-[Remove assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-assignment-rules.md)
+[Remove assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-configure-assignment-rules.md)
+
+[Approve or reject an unassign request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-approve-unassign-requests.md)
 

@@ -3,11 +3,11 @@ title: Activate a remote record producer in Service Exchange
 description: Activate entitlements to use a service or product that you have purchased.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-activate-entitlements.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---

@@ -3,11 +3,11 @@ title: CMDB classes targeted in Service Graph Connector for Observability - Data
 description: When you complete setting up the connection, the data is automatically pulled from Datadog. The data is saved in target tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-datadog-classes.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Observability-Datadog, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -104,7 +104,6 @@ The following attributes in the Network Adapter \[cmdb\_ci\_network\_adapter\] t
 |Configuration Item|cmdb\_ci|
 |MAC Address|mac\_address|
 |Name|name|
-|IP Address|ip\_address|
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
@@ -134,20 +133,8 @@ The following attributes in the Server \[cmdb\_ci\_server\] table are populated 
 |Server \[cmdb\_ci\_server\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
 |Server \[cmdb\_ci\_server\]|Reference|Key Value \[cmdb\_key\_value\]|
 
-## Service Calculated \[cmdb\_ci\_service\_calculated\]
-
-The following attributes in the Service Calculated \[cmdb\_ci\_service\_calculated\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|Name|name|
-|Operational status|operational\_status|
-|Populator status|populator\_status|
-|Service populator|service\_populator|
-|Type|type|
-
 **Related topics**  
 
 
-[Service Graph Connector for Observability - Datadog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-datadog.md)
+[Service Graph Connector for Observability - Datadog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-datadog.md)
 

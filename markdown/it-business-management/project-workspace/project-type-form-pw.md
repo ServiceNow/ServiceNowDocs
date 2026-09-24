@@ -3,11 +3,11 @@ title: Project type form
 description: Fields on the Project type form and their descriptions . Use this form to create a project type for your projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/project-type-form-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -25,5 +25,5 @@ Fields on the Project type form and their descriptions . Use this form to create
 |Dynamic category|Name of the dynamic category associated with this project type. The dynamic category defines the additional fields that appear on the project table alongside the default fields, and is automatically populated when the configuration is saved.|
 |Form view|Name of the form view to render when this project type is assigned to a record. The form view is dynamically applied based on the project type.|
 
-**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
+**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/form-field-information-for-project-workspace.md)
 

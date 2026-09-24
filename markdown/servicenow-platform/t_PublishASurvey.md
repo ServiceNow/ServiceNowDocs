@@ -3,9 +3,9 @@ title: Publish a survey
 description: You must publish a survey to enable people to receive and complete survey instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_PublishASurvey.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,13 +32,13 @@ The **State** field on the Survey Definition form indicates whether the survey i
 
 2.  Click **Publish**.
 
-    When you publish a survey, the system generates survey instances for any associated survey users. You can [assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SendSurveyInvitationsToUsers.md) the survey to other users manually.
+    When you publish a survey, the system generates survey instances for any associated survey users. You can [assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SendSurveyInvitationsToUsers.md) the survey to other users manually.
 
 
--   **[Publish a survey in the Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PublishASurveyInSurveyDesigner.md)**  
+-   **[Publish a survey in the Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_PublishASurveyInSurveyDesigner.md)**  
 You must save changes to a survey before you can publish it to the specified recipients or groups.
 
-**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 

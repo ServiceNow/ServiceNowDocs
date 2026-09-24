@@ -3,11 +3,11 @@ title: Customized lists
 description: Create customized lists for your List, Change, Tools, and Administration modules. You can create your own version of an existing list, or a new one.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/add-new-list-in-list-module.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -56,5 +56,5 @@ Role required: sn\_devops.admin, sn\_devops.tool\_owner, or sn\_devops.app\_owne
         \[Omitted image "new-list-03.png"\] Alt text: Create your own list.
 
 
-**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

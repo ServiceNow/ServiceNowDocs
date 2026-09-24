@@ -3,11 +3,11 @@ title: Using variables in Notify workflow activities
 description: Certain Notify workflow activities support variable substitution for reading text to callers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/c\_UsingVariablesInNotifyActivities.html
-release: australia
+release: brazil
 product: Workflow Activities
 classification: workflow-activities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow activities, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---

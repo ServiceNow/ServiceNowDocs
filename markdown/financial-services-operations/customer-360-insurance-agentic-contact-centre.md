@@ -3,9 +3,9 @@ title: Customer 360 page for Agentic Contact Center for Insurance
 description: The Customer 360 page gives policy servicing and claims servicing CSRs a consolidated view of a customer's profile, policies, coverage, and AI-generated summary, drawn from core insurance and CRM. The view is based on the scope of the respective roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/customer-360-insurance-agentic-contact-centre.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [customer 360, customer profile, insurance summary, policy details, insurance transaction history, insurance policies, ai-generated customer summary, total policies, total cover, view all insurance, view customer cases]
 breadcrumb: [Exploring Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
@@ -33,7 +33,7 @@ The list shows details like customer name, case number, lodgement date and time,
 
 **Note:** The policy servicing CSR can view only policy-related cases and the claims servicing CSR can view only claims cases.
 
-The Household members section is visible only if the CSM Household plugin is installed and is applicable only to B2C customers. See [Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-households.md) for more information about the Household plugin.
+The Household members section is visible only if the CSM Household plugin is installed and is applicable only to B2C customers. See [Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-households.md) for more information about the Household plugin.
 
 **Warning:** AI-generated summaries may not always be accurate. CSRs must review the underlying policy and case data before acting on any AI-generated content.
 
@@ -53,11 +53,11 @@ The following table shows the available actions in the Customer 360 page.
 
 |Name|Description|
 |----|-----------|
-|Ask Otto|Opens the ServiceNow Otto panel and initiates the Insurance CSR customer insights AI agent. The AI agent uses the customer's profile and policy data to surface contextual responses. For more information, see [Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/generate-insurance-customer-insights-customer-360.md).|
+|Ask Otto|Opens the ServiceNow Otto panel and initiates the Insurance CSR customer insights AI agent. The AI agent uses the customer's profile and policy data to surface contextual responses. For more information, see [Generate customer insights in the Customer 360 page for Agentic Contact Center for Insurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/generate-insurance-customer-insights-customer-360.md).|
 |Create case|Opens the Create case window to create a case for the customer.|
 
 **Related topics**  
 
 
-[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
+[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-workspaces-configure.md)
 

@@ -3,11 +3,11 @@ title: Create and view events using the planning calendar
 description: Create and view the schedule occurrences and work orders of associated work plans through the planning calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/manage\_schedule\_occurrence.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Plan calendar, Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---

@@ -3,11 +3,11 @@ title: Edit a Task Mining project
 description: Change the project settings, project tasks, or workstation users assigned to a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/edit-task-mining-project.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
 ---
@@ -42,9 +42,9 @@ Role required: admin
 **Related topics**  
 
 
-[Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/create-task-mining-projects.md)
+[Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/create-task-mining-projects.md)
 
-[Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md)
+[Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/mine-data.md)
 
-[Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/add-users-to-task-mining-project.md)
+[Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/add-users-to-task-mining-project.md)
 

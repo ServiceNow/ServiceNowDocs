@@ -3,9 +3,9 @@ title: Configure indoor positioning
 description: Indoor positioning enables end users to see their live location on an Indoor Wayfinding map and get guided navigation to their desired destination.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-indoor-positioning.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Indoor Wayfinding configuration, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -18,8 +18,8 @@ Indoor positioning enables end users to see their live location on an Indoor Way
 
 Before you can configure indoor positioning, you must have completed the following configurations:
 
--   Configure Indoor Wayfinding. For more information, see [Indoor Wayfinding configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/indoor-wayfinding-config.md).
--   Set up at least one custom map provider in the Custom Map Provider \[sys\_sg\_custom\_map\_provider\] table. For more information, see [Configure a custom map provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-custom-map-provider.md)
+-   Configure Indoor Wayfinding. For more information, see [Indoor Wayfinding configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/indoor-wayfinding-config.md).
+-   Set up at least one custom map provider in the Custom Map Provider \[sys\_sg\_custom\_map\_provider\] table. For more information, see [Configure a custom map provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/configure-custom-map-provider.md)
 
 Role required: admin
 
@@ -30,7 +30,7 @@ Consider the following requirements that are related to this task.
 -   If all buildings use the same location provider, only one custom map provider record is needed.
 -   If different location providers are needed for each building, create a custom map provider record for each building and select the building as the key. Then assign location providers to your mobile devices.
 
-For information about the features this configuration enables for end users, see [Indoor positioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/indoor-positioning-end-user.md).
+For information about the features this configuration enables for end users, see [Indoor positioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/indoor-positioning-end-user.md).
 
 ## Procedure
 
@@ -59,5 +59,5 @@ For information about the features this configuration enables for end users, see
 8.  Select **Save**.
 
 
-**Parent Topic:**[Indoor Wayfinding configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/indoor-wayfinding-config.md)
+**Parent Topic:**[Indoor Wayfinding configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/indoor-wayfinding-config.md)
 

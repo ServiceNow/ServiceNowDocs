@@ -3,11 +3,11 @@ title: Temporarily add agents to Dispatcher Workspace
 description: You can add agents to Dispatcher Workspace. Adding agents makes it easy to quickly assign tasks to an agent who is part of the assignment groups or territories that you manage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/temp-add-agent.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: wm\_dispatcher
 
 ## About this task
 
-By default, dispatchers can only temporarily add agents that are part of assignment groups or territories they manage. Administrators can configure the add agents feature to enable dispatchers to add any agent, even those outside of the assignment groups or territories they manage. For more information see [Configure settings for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configure-workspce-settings.md).
+By default, dispatchers can only temporarily add agents that are part of assignment groups or territories they manage. Administrators can configure the add agents feature to enable dispatchers to add any agent, even those outside of the assignment groups or territories they manage. For more information see [Configure settings for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/configure-workspce-settings.md).
 
 If an agent is added who is part of an assignment group or territory that you manage, then you can interact with them as any you do any agent in Dispatcher Workspace. If your administrator has enabled the ability to add any agent, even those outside assignment groups or territories you manage, then you can add the agent and see their schedule, but you can't assign them tasks.
 

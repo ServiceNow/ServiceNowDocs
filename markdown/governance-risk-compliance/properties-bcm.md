@@ -3,9 +3,9 @@ title: Properties installed with BCM
 description: Properties are added with the activation of Business Continuity Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/properties-bcm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -278,6 +278,22 @@ Default limit for IRM GlideRecord getter. \[sn\_irm\_shared\_cmn.config.get\_gli
 -   Type: Integer
 -   Default value: 1000
 
+</td></tr><tr><td>
+
+19
+
+</td><td>
+
+Maximum number of levels allowed in a recovery team hierarchy\[sn\_bcm.recovery\_team.max\_hierarchy\_levels\]
+
+</td><td>
+
+-   Scope: GRC: Business Continuity Management - Core
+-   Type: Integer
+-   Default value: 10
+
+ **Note:** Set this property to 0 or leave it blank to disable the hierarchy depth limit. Role required to modify: sn\_bcm.core\_manager.
+
 </td></tr></tbody>
-</table>**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
+</table>**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

@@ -3,9 +3,9 @@ title: Install ServiceNow Otto for Vault
 description: Install the ServiceNow Otto for Vault application from the ServiceNow Store to get AI capabilities within Vault.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/configuring-now-assist-vault.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring ServiceNow Vault, ServiceNow Vault]
 ---
@@ -40,7 +40,7 @@ Role required: admin
 
     \[Omitted image "ai-admin-hub-vault-skills.png"\] Alt text: AI Admin Hub showing skills from ServiceNow Otto for Vault.
 
-6.  Verify that ServiceNow Otto for Vault agentic workflows are activated by following the steps in [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
+6.  Verify that ServiceNow Otto for Vault agentic workflows are activated by following the steps in [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md).
 
     By default, the workflows are active when you install ServiceNow Otto for Vault. This step is in case a user deactivated them after installation.
 

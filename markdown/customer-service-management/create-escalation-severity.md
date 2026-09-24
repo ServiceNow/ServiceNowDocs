@@ -3,9 +3,9 @@ title: Create a case or account escalation severity
 description: The escalation severity defines the type of escalation and the color used to represent the cases and accounts of this escalation severity in the user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-escalation-severity.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure escalation management, Case and account escalation, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -43,7 +43,7 @@ The user interface determines which fields are highlighted for escalated cases a
 
 4.  In the **Style** field, enter a color.
 
-    To configure additional escalation severity records, the system administrator must configure a new style with the desired color. For more information, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/highlight-list-fields-platform.md).
+    To configure additional escalation severity records, the system administrator must configure a new style with the desired color. For more information, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/highlight-list-fields-platform.md).
 
 5.  Click **Submit**.
 

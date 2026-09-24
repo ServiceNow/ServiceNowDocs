@@ -3,12 +3,12 @@ title: Monitor your recently activated AI solution in AI Admin Center
 description: View performance metrics on your most recently activated AI solutions on the AI Admin Center home page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/monitor-now-assist-performance-now-assist-center.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Monitor, AI Admin Center, Enable AI experiences]
+breadcrumb: [Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Monitor your recently activated AI solution in AI Admin Center
@@ -33,10 +33,10 @@ Role required: sn\_na\_center.nac\_admin
 
     The Analytics page opens.
 
-    For more information, see [View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md).
+    For more information, see [View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md).
 
 
-**Parent Topic:**[Monitoring in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-monitoring.md)
+**Parent Topic:**[Monitoring in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-monitoring.md)
 
 **Related topics**  
 

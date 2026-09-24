@@ -3,11 +3,11 @@ title: Process an Insurance claims case
 description: Process claims cases in the Insurance claims application. As a claims processor, you can review and verify insurance claims, complete the fulfillment tasks after an adjuster's evaluation, and close a claim.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/process-an-insurance-claims-flow-case.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -30,15 +30,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the claim case and task in one of the following ways.
 
-<table id="choicetable_qdb_ln1_vcc"><thead><tr><th align="left" id="d31704e89">
+<table id="choicetable_qdb_ln1_vcc"><thead><tr><th align="left" id="d31727e89">
 
 Option
 
-</th><th align="left" id="d31704e92">
+</th><th align="left" id="d31727e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d31704e98">
+</th></tr></thead><tbody><tr><td id="d31727e98">
 
 **From the landing page**
 
@@ -46,7 +46,7 @@ Steps
 
 Select an active case from the My pending tasks or My open claims list.
 
-</td></tr><tr><td id="d31704e107">
+</td></tr><tr><td id="d31727e107">
 
 **From the case playbook**
 
@@ -60,7 +60,7 @@ Select an active case from the My pending tasks or My open claims list.
 -   Under one of the following stages, select the task activity to work on.
 
 
-</td></tr><tr><td id="d31704e156">
+</td></tr><tr><td id="d31727e156">
 
 **From an insurance claim case**
 
@@ -73,7 +73,7 @@ Select an active case from the My pending tasks or My open claims list.
 -   In the case, select the **Tasks** tab and select the claim task.
 
 
-</td></tr><tr><td id="d31704e204">
+</td></tr><tr><td id="d31727e204">
 
 **From the Insurance claim case tasks list**
 

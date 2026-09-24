@@ -3,9 +3,9 @@ title: Intelligent approvals
 description: Use AI to automatically evaluate incoming approval requests against your organization's policy documents. Requests that clearly meet policy criteria are approved or rejected automatically, while ambiguous cases are routed to human reviewers for approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/intelligent-approvals.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Build workflows]
 ---
@@ -22,19 +22,19 @@ Learn how Intelligent Approvals connects policy intent directly to approval exec
 
 <table id="table_mp1_4d4_w3c" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Discover how AI interprets approval policies and automates decision-making](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/explore-intelligent-approvals.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Discover how AI interprets approval policies and automates decision-making](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/explore-intelligent-approvals.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up intelligent approvals and configure AI evaluation settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/configure-intelligent-approvals.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up intelligent approvals and configure AI evaluation settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/configure-intelligent-approvals.md)
 
 </td></tr><tr><td>
 
-[Build\[Omitted image "bus-compliance.svg"\] Alt text:Create and manage intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/build-intelligent-approvals.md)
+[Build\[Omitted image "bus-compliance.svg"\] Alt text:Create and manage intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/build-intelligent-approvals.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Access technical specifications and role documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/reference-intelligent-approvals.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Access technical specifications and role documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/reference-intelligent-approvals.md)
 
 </td></tr></tbody>
 </table>Intelligent approvals bridge the gap between business policy and approval execution. Upload natural-language policy documents, and have AI automatically evaluate incoming requests against these policies in real-time. The AI handles clear approvals and rejections automatically, and routes ambiguous cases to humans for approval. When policies change, update the document. There's no need for developer intervention to rewrite the workflow.
@@ -47,9 +47,9 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## ServiceNow Otto language availability notice
 
@@ -101,6 +101,6 @@ Some ServiceNow resources that can provide you with helpful information are:
     -   Learn more about specific known errors, along with workarounds if any, from [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 -   **\[Omitted image "bus-video-play.svg"\] Alt text: Video**
 
-    Learn more about the value that you can add to your business with intelligent approval automation. Watch the product demonstration videos.
+    Learn more about the value that you can add to your business with intelligent approval automation. Watch the product demonstration video Create an Intelligent Approval.
 
 

@@ -3,11 +3,11 @@ title: Applying the CSDM guidelines to Service Portfolio Management
 description: Service data relates to each other using different applications in different ways. Service Portfolio Management references the Common Service Data Model \(CSDM\) framework to bring service-related data together in a single view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-csdm.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Service Portfolio Management, IT Service Management]
 ---
@@ -18,15 +18,15 @@ Service data relates to each other using different applications in different way
 
 Since both ServiceNow® products of Service Portfolio Management and Digital Portfolio Management \(DPM\) closely align with the CSDM, it's helpful to know the common terms and life-cycle fields when working in these applications.
 
-**Tip:** For CSDM set-up information, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-implementation-stages.md).
+**Tip:** For CSDM set-up information, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-implementation-stages.md).
 
 ## CSDM life-cycle fields for business and technical services
 
 After the CSDM activation plugin is installed \[**com.snc.cmdb.csdm.activation**\], you can use the CSDM life-cycle fields in Service Portfolio Management. To see the field names, navigate to **All** &gt; **Service Portfolio Management** &gt; **Services**, and set the view to Service Portfolio.
 
-Using the CSDM life-cycle fields helps you manage the end-to-end life cycle of services and service offerings. The shared field names provide you with consistency and alignment as you use other ServiceNow applications. For more information about the CSDM, see [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-life-cycle-standard-values.md).
+Using the CSDM life-cycle fields helps you manage the end-to-end life cycle of services and service offerings. The shared field names provide you with consistency and alignment as you use other ServiceNow applications. For more information about the CSDM, see [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-life-cycle-standard-values.md).
 
-**Important:** For the Australia release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. The label changes align with the CSDM, version 5. Prior to the Australia release, the labels are Technical Service and Technical Service Offering.
+**Important:** For the Brazil release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. The label changes align with the CSDM, version 5. Prior to the Brazil release, the labels are Technical Service and Technical Service Offering.
 
 The following comparison shows the differences from the traditional Service Portfolio Management phase and status fields to the CSDM life-cycle stage and status fields.
 
@@ -240,10 +240,10 @@ An abstract and ideally visual representation \(model\) of how an organization d
 Typically represents the various elements of how an organization operates. It usually incorporates strategy positions such as the innovation model, degree of intelligent automation, industry alignment, provider delivery models, and the business expectations of IT.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-configuring.md)
+</table>**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-configuring.md)
 
 **Related topics**  
 
 
-[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-implementation-stages.md)
+[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-implementation-stages.md)
 

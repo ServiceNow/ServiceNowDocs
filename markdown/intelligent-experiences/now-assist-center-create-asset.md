@@ -3,12 +3,12 @@ title: Create an AI asset in the asset inventory
 description: Use the asset library to create AI assets in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-create-asset.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Managing AI assets, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
+breadcrumb: [Managing AI assets, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Create an AI asset in the asset inventory
@@ -27,27 +27,27 @@ From the asset inventory, asset types are created by opening their respective ap
 
 -   Create agents and agentic workflows with AI Agent Studio.
 
-    For more information, see [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
+    For more information, see [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md).
 
 -   Create assets with Assistant Designer, including topics, virtual assistants, subflows, and actions.
 
-    For more information, see [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assistant-designer.md).
+    For more information, see [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/assistant-designer.md).
 
 -   Create custom skills with AI Skill Kit.
 
-    For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+    For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
 -   Create datasets with AI Data Kit.
 
-    For more information, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
+    For more information, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md).
 
 -   Create catalog items with Catalog Builder.
 
-    For more information, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md).
+    For more information, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/catalog-builder.md).
 
 -   Create knowledge graphs with Knowledge Graph Designer.
 
-    For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md).
+    For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md).
 
 
 ## Procedure
@@ -82,7 +82,7 @@ Opens the New AI Agent form in AI Agent Studio.
 
  An AI agent is an autonomous digital worker that uses LLMs, tools, and workflows to complete tasks on behalf of users. They can reason, plan, and act independently or collaboratively.
 
- For more information on creating an AI agent in AI Agent Studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+ For more information on creating an AI agent in AI Agent Studio, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Opens the New agentic workflow form in AI Agent Studio.
 
  An agentic workflow is a structured sequence of tasks executed by one or more AI agents with minimal human intervention to fulfill a business objective.
 
- For more information on AI Agent Studio, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
+ For more information on AI Agent Studio, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Opens the AI Skill Kit home page.
 
  A skill is a self-contained unit of generative AI functionality that runs a prompt against a large language model \(LLM\) and returns a response.
 
- For more information, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
+ For more information, see [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Opens the New Subflow form in Assistant Designer.
 
  A subflow is an automated process that is part of a larger automated process. It consists of reusable actions and flow logic, data inputs, and outputs.
 
- For more information on creating an asset with the Assistant Designer asset library, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
+ For more information on creating an asset with the Assistant Designer asset library, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Opens the New Action form in Assistant Designer.
 
  An action is a single step or task performed by an AI agent, a workflow, or a subflow.
 
- For more information on creating an asset with the Assistant Designer asset library, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
+ For more information on creating an asset with the Assistant Designer asset library, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Opens the Create an assistant page in Assistant Designer.
 
  A virtual assistant is the container for the end-to-end administrative configuration for a chat or voice conversation.
 
- For more information on creating a virtual assistant in Assistant Designer, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+ For more information on creating a virtual assistant in Assistant Designer, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Opens the Create a topic form in Assistant Designer.
 
  A conversational topic is used to structure back-and-forth conversations between the virtual agent and the end user.
 
- For more information on creating an asset with the Assistant Designer asset library, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
+ For more information on creating an asset with the Assistant Designer asset library, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ Opens the Catalog Builder.
 
  A catalog item is used to publish a service to users in the Service Catalog.
 
- For more information on creating a catalog item in Catalog Builder, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md).
+ For more information on creating a catalog item in Catalog Builder, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/catalog-builder.md).
 
 </td></tr><tr><td>
 
@@ -188,7 +188,7 @@ Opens the AI Data Kit home page.
 
  A custom dataset and data collection in AI Data Kit is used for evaluations in AI Skill Kit.
 
- For more information on creating a dataset in AI Data Kit, see [Using AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/using-now-assist-data-kit.md).
+ For more information on creating a dataset in AI Data Kit, see [Using AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/using-now-assist-data-kit.md).
 
 </td></tr><tr><td>
 
@@ -200,7 +200,7 @@ Opens Knowledge Graph Designer home page.
 
  A knowledge graph is a graphical representation of real-world entities \(tables\) and their relationships. It is used add context and meaning to information to enable intelligent search, insights, and AI-driven experiences.
 
- For more information on creating a knowledge graph in Knowledge Graph Designer, see [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.md).
+ For more information on creating a knowledge graph in Knowledge Graph Designer, see [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.md).
 
 </td></tr></tbody>
 </table>4.  Select the type of asset you want to create.
@@ -214,7 +214,7 @@ Opens Knowledge Graph Designer home page.
 
 An asset is created and can be seen in the related asset inventory list.
 
-**Parent Topic:**[Managing AI assets in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md)
+**Parent Topic:**[Managing AI assets in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md)
 
 **Related topics**  
 

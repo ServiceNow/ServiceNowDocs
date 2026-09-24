@@ -3,9 +3,9 @@ title: Configuring plugins for the TinyMCE HTML editor
 description: The TinyMCE HTML editor is a powerful, flexible, and customizable rich text editor. You can configure and extend the editor by using plugins.Configure the TinyMCE plugins in our workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/configuring-the-html-plugins-for-tinymce.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

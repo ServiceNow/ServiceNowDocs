@@ -3,9 +3,9 @@ title: Install the Data Collection Pack for ITSM
 description: To enable the Data Collection Pack, you must activate Data Collection jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-itsm-install.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact Value Management Data Collection Content Pack for ITSM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
@@ -28,8 +28,8 @@ Role required: Impact users
 
 4.  Search for and select the following:
 
-    -   **Impact VM - ITSM - Monthly Data Collection**
-    -   **Impact VM - ITSM - Historical Data Collection**
+    -   **Impact VM - ITSM- Monthly Data Collection**
+    -   **Impact VM - ITSM- Historical Data Collection**
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-itsm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itsm.md)
 

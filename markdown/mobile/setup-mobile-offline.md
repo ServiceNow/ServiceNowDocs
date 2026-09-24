@@ -3,9 +3,9 @@ title: Set up offline mode for mobile apps
 description: Setup offline mode for your mobile applications so that users can work without an internet connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/setup-mobile-offline.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Offline mobile apps, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -38,12 +38,12 @@ Decide which mobile apps support offline mode to set the foundation for the enti
 
 4.  Under **Mobile push application**, select which app type the offline scheduled download should be associated with.
 
-    For more information, see [Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/scheduled-offline-caching.md).
+    For more information, see [Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/scheduled-offline-caching.md).
 
 5.  Under **Settings**, select **Offline enabled**.
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[ServiceNow mobile applications for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/apps-offline.md)
+**Parent Topic:**[ServiceNow mobile applications for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/apps-offline.md)
 

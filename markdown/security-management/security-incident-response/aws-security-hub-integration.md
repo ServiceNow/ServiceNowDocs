@@ -3,11 +3,11 @@ title: Amazon Web Services \(AWS\) Security Hub integration
 description: AWS Security Hub is a cloud security posture management \(CSPM\) service that provides automated and continuous security checks and best practice checks against your AWS resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/aws-security-hub-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

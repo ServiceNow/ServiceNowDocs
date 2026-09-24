@@ -3,7 +3,7 @@ title: Displaying a picklist extension on a layout
 description: Learn how to display a picklist extension \(PLE\) on a layout using either the CPQ Admin UI or a CSV upload. Configure foundational picklist fields, map extension columns, and design layouts that present rich, multi-column picklist data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/csv\_layouts\_how\_do\_i\_display\_a\_picklist\_extension.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3

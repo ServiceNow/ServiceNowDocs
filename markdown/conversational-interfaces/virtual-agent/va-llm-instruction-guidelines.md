@@ -3,11 +3,11 @@ title: LLM description and instruction guidelines for Virtual Agent topics
 description: When you create large language model \(LLM\) topics, you provide instructions that determine the behavior of the LLM and a description that determines how the topic is discovered by the LLM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [LLM topic discovery in Virtual Agent, Explore, Virtual Agent, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ When you create large language model \(LLM\) topics, you provide instructions th
 
 ## Overview of LLM description and instruction guidelines
 
-Topic authors can use plain text wording to tell the LLM how to discover an LLM topic, as well as tell the LLM how to respond. The Virtual Agent Designer interface provides text fields that let you provide both.
+Topic authors can use plain text wording to tell the LLM how to discover an LLM topic, as well as tell the LLM how to respond. The Assistant Designer interface provides text fields that let you provide both.
 
 -   **Descriptions**
 
@@ -46,7 +46,7 @@ When constructing an LLM description or instruction, consider these basic guidel
 
 NLU utterances are more dependent on keywords and their phrasing, but LLM descriptions work very differently. The problem with NLU utterances in descriptions is that they don't provide instructions for the LLM. Google search descriptions won't work well with LLMs, either. When writing descriptions, you need to be specific about the purpose of the topic and the context of the task being performed in that topic. Keywords aren't necessarily helpful, but logic is.
 
-For more information, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/llm-instruction-guidelines.md).
+For more information, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/llm-instruction-guidelines.md).
 
 ## Example topic descriptions
 

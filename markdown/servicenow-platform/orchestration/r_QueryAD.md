@@ -3,11 +3,11 @@ title: Query AD activity
 description: The Query AD activity retrieves entries from the Windows Active Directory based on an LDAP search filter and stores the results as a JSON string that can be used in the data bus.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_QueryAD.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Active Directory activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ The Query AD activity retrieves entries from the Windows Active Directory based 
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory** &gt; **.**
 
-**Note:** This activity replaces an AD activity by the same name available in releases prior to Geneva. If you have a workflow that uses the deprecated activity, your workflow will continue to work normally after upgrading to Instanbul and will continue to save query results to the scratchpad. However, all new workflows must use the custom version of this activity. This activity was built with the [Create a PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAPowershellActivity.md), which stores input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationDatabus.md) instead of the scratchpad.
+**Note:** This activity replaces an AD activity by the same name available in releases prior to Geneva. If you have a workflow that uses the deprecated activity, your workflow will continue to work normally after upgrading to Instanbul and will continue to save query results to the scratchpad. However, all new workflows must use the custom version of this activity. This activity was built with the [Create a PowerShell activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAPowershellActivity.md), which stores input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationDatabus.md) instead of the scratchpad.
 
 ## Input variables
 
@@ -62,7 +62,7 @@ An LDAP filter string that defines the search parameters. Use any valid LDAP fil
 |Variable|Description|
 |--------|-----------|
 |result|Either **success** or **failure**.|
-|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md).|
+|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAParsingRule.md).|
 |output|The query result.|
 
 ## Conditions
@@ -72,5 +72,5 @@ An LDAP filter string that defines the search parameters. Use any valid LDAP fil
 |Success|The query completed as expected.|
 |Failure|An error occurred while processing the query. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md)
 

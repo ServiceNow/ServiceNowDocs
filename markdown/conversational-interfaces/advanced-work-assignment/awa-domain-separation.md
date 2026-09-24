@@ -3,11 +3,11 @@ title: Domain separation and Advanced Work Assignment
 description: Domain separation is supported in the Advanced Work Assignment feature. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-domain-separation.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -25,7 +25,9 @@ Domain separation is supported in the Advanced Work Assignment feature. Domain s
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
+
+## Overview
 
 Advanced Work Assignment enables the automatic assignment of work items to qualified agents using work item queues defined for specific service channels. Managed Service Providers can create domain-specific queues by specifying a particular domain as a queue routing condition.
 
@@ -41,7 +43,7 @@ When an instance has a domain hierarchy where users and groups belong to differe
     -   To route all work items in domain X and its child domains to a queue, use the **Domain Path** field and specify a condition such as: **\[Domain Path\] \[starts with\] \[!!!/!!\#/\]**
 -   **Assign work to agents in the appropriate domain**
 
-    To assign work items to agents in the appropriate domain, ensure that the assignment groups specified in the queue [Eligibility Assignment pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md) have agents that belong to the domains where they can see the work items routed to the queue.
+    To assign work items to agents in the appropriate domain, ensure that the assignment groups specified in the queue [Eligibility Assignment pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md) have agents that belong to the domains where they can see the work items routed to the queue.
 
     If a mismatch occurs, and agents in an eligible assignment group cannot see a work item in a queue, AWA may temporarily assign an item to an agent. However, before the item is moved to the agent's inbox, AWA automatically rejects the assignment with the reason **No access**. AWA reassigns the work item to a different agent who might have access. If none of the available agents can see the work item, the item could be rejected multiple times.
 
@@ -51,5 +53,5 @@ When an instance has a domain hierarchy where users and groups belong to differe
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

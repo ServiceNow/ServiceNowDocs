@@ -3,11 +3,11 @@ title: Configure the OAuth authentication method development instance
 description: Set up OAuth authentication for instance-to-instance Scan Engine integrations using several stages, an integration user account, an OAuth2 configuration record, and provider and client application registries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-oauth-auth-method.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Register your instance, Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [Register your instance, Configure Scan Engine integrations, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure the OAuth authentication method development instance
@@ -31,7 +31,7 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 1.  Stage 1 — Confirm the integration user account
 2.  Confirm that the integration user account exists in both development and production instances, has the required roles assigned, and that the account password is recorded in a secure location for use in later stages.
 
-    If the account has not been created yet, complete [Create an integration user account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/task-create-integration-user.md) before continuing.
+    If the account has not been created yet, complete [Create an integration user account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/task-create-integration-user.md) before continuing.
 
 3.  Stage 2 — Create an OAuth2 configuration record in the Development instance
 4.  Navigate to `sys_auth_profile_oauth2.list` and select **New**.
@@ -94,7 +94,7 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 19. Stage 5 - Set up the SN Instances
 20. Navigate to **All** &gt; **Scan Engine** &gt; **My SN Instances**.
 
-    If the My SN Instances record for this instance has not been created yet, complete [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md) before continuing.
+    If the My SN Instances record for this instance has not been created yet, complete [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md) before continuing.
 
 21. Open the existing instance record and configure the OAuth-specific fields as follows.
 
@@ -111,11 +111,11 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
     Connection Status updates to `Connection valid`.
 
-    **Note:** If the Connection status returns an Error: User not setup on target instance, refer to the Key Management Framework setup step in [Validate your instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/validate-instance-connection.md).
+    **Note:** If the Connection status returns an Error: User not setup on target instance, refer to the Key Management Framework setup step in [Validate your instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/validate-instance-connection.md).
 
 
--   **[Configure the OAuth authentication method production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-oauth-auth-method-prod.md)**  
+-   **[Configure the OAuth authentication method production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-oauth-auth-method-prod.md)**  
 Export OAuth records from the development instance, import them into the production instance, correct Key Management Framework \(KMF\) credential encryption, and configure development-to-production authentication so that both instances can validate their connections to each other.
 
-**Parent Topic:**[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md)
+**Parent Topic:**[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md)
 

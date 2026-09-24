@@ -3,9 +3,9 @@ title: Field Service Agent Efficiency components
 description: Several types of components are installed with the Field Service Agent Efficiency feature, including tables, roles, script includes, and business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-agent-efficiency-components.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
@@ -210,5 +210,5 @@ Agent efficiency determination rule\[sn\_agent\_effcy\_det\_rule\]
 Validates Agent Efficiency determination rules.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/components-inst-additional-plugin.md)
 

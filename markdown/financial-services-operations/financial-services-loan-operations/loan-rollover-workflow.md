@@ -3,11 +3,11 @@ title: Loan Rollover workflow
 description: Learn how bank agents, using the Loan Rollover workflow, resolve a loan service request for renewal or rollover of an outstanding loan. The workflow applies to business loans only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/loan-rollover-workflow.html
-release: australia
+release: brazil
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Loan Operations workflows, Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---

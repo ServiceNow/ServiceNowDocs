@@ -3,13 +3,13 @@ title: Configure Notion for external content indexing
 description: Create and authorize an internal integration in the Notion integrations dashboard to allow the Notion external content connector to access your Notion source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-notion-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Notion external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -86,11 +86,11 @@ To allow the connector to access your Notion source system via the Notion REST A
 
 ## What to do next
 
-Provide the internal integration secret that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-notion-external-content-indexing.md) to your connector administrator.
+Provide the internal integration secret that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-notion-external-content-indexing.md) to your connector administrator.
 
 Your connector administrator needs this item to configure a Notion external content connector to retrieve pages, files, and security principals from your Notion source system.
 
-For details on creating and configuring a Notion external content connector, see [Create a Notion external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-notion.md).
+For details on creating and configuring a Notion external content connector, see [Create a Notion external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-notion.md).
 
-**Parent Topic:**[Notion external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/notion-external-content-connector.md)
+**Parent Topic:**[Notion external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/notion-external-content-connector.md)
 

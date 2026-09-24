@@ -3,7 +3,7 @@ title: Apply for a grant using the Grants Management Portal in the Grants Manage
 description: As an applicant, complete the Grants Program intake as your first step in submitting a grant proposal. You can access grants programs through Grants Management Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-grant-proposal-intake.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3

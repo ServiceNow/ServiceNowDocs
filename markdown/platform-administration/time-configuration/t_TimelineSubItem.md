@@ -3,11 +3,11 @@ title: Timeline sub item
 description: Use the Timeline Sub Items related list to define child spans for the timeline, based on records in a table that references the parent timeline's table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_TimelineSubItem.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -193,5 +193,5 @@ Specify the behavior when you drag a child span. This option is available only i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md)
+**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_TimelinePages.md)
 

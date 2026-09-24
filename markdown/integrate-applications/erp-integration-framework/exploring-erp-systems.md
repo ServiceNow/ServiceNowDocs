@@ -3,7 +3,7 @@ title: Exploring Zero Copy Connector for ERP systems
 description: Create an ERP \(Enterprise Resource Planning\) system in Zero Copy Connector for ERP to connect to an external ERP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/exploring-erp-systems.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
@@ -30,9 +30,11 @@ Zero Copy Connector for ERP supports the following ERP systems:
 
 Each ERP system record organizes the connection to the ERP system and points to ERP data rather than copying it. Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform; it mirrors data that lives in the ERP system, where it remains protected.
 
-\[Omitted image "erp-canvas-explore-systems.png"\] Alt text: System recording showing information including system, connections, and ERP software.
+\[Omitted image "image.erp-canvas-explore-systems"\] Alt text: System recording showing information including system, connections, and ERP software.
 
 You can have multiple ERP system records on one instance \(license-dependent\). After creation, Zero Copy Connector for ERP regularly pings each system to confirm that the connection is healthy.
 
-For more information, see [Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md).
+For more information, see [Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md).
+
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
 

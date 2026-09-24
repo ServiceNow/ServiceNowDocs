@@ -3,9 +3,9 @@ title: Exploring Customer Service Problem Management
 description: Learn how you, as a service provider, can use the Customer Service Problem Management \(CSPM\) application to streamline the resolution process for handling service-related problems experienced by your customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/explore-spm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---

@@ -3,11 +3,11 @@ title: View and participate in a community event
 description: You can view details for published events and perform tasks such as responding to the event or adding it to your calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/participate-event.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Community events, Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
@@ -21,6 +21,10 @@ You can view details for published events and perform tasks such as responding t
 You must be a registered member of the community and have permission to read events \(**Event Read and Comment Write**\) to be able to respond to events.
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -95,7 +99,7 @@ Top five most popular past events and the number of community users that were in
     -   If an event is updated, and you responded **Yes**, **Waitlist**, or **Maybe**, you receive an email notification based on your notification preferences.
 6.  Click **...** to perform one of the following actions.
 
-<table id="choicetable_mwq_zkn_1bb"><tbody><tr><td id="d177832e320">
+<table id="choicetable_mwq_zkn_1bb"><tbody><tr><td id="d181023e339">
 
 **Add to calendar**
 
@@ -103,7 +107,7 @@ Top five most popular past events and the number of community users that were in
 
 Downloads an .ics file that you can add to your calendar. The file includes the title and description of the event, the event location, start and end dates, the event time, and any attachments. If guests have chosen not to share details, the information is not displayed in the file.
 
-</td></tr><tr><td id="d177832e329">
+</td></tr><tr><td id="d181023e348">
 
 **Bookmark**
 
@@ -111,7 +115,7 @@ Downloads an .ics file that you can add to your calendar. The file includes the 
 
 The event appears in your bookmarks list on your profile page. Click **Remove Bookmark** to delete a bookmark.
 
-</td></tr><tr><td id="d177832e341">
+</td></tr><tr><td id="d181023e360">
 
 **Report content**
 
@@ -121,5 +125,5 @@ Click **Report content** to report inappropriate content in the event.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Community events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-events.md)
+**Parent Topic:**[Community events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/community-events.md)
 

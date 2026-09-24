@@ -3,11 +3,11 @@ title: Get Connection Info step
 description: Provide the connection and credential details from another step, such as a REST step, to other steps in your action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/get-connection-info-action-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and
 
 Provide the connection and credential details from another step, such as a REST step, to other steps in your action.
 
-**Note:** The Get Connection Info step is not available in the base system and requires the subscription to Integration Hub Starter Pack Installer \(com.glide.hub.integrations\) or later. For more information about the ServiceNow® Integration Hub subscription packages, see [Integration Hub usage and subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/subscription-usage.md). After the required plugin is activated, the step is visible under Integrations.
+**Note:** The Get Connection Info step is not available in the base system and requires the subscription to Integration Hub Starter Pack Installer \(com.glide.hub.integrations\) or later. For more information about the ServiceNow® Integration Hub subscription packages, see Integration Hub usage and subscription. After the required plugin is activated, the step is visible under Integrations.
 
 ## Roles and availability
 
@@ -72,8 +72,8 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/steps.md)
 

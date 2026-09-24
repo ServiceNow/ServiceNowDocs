@@ -3,9 +3,9 @@ title: Save Microsoft Word document as a template
 description: Save your Microsoft Word document as a template using the Design template provided in the Document designer, enabling you to create a reusable template in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-bcm-word-temp-using-docudesigner.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Generating reports using Document designer, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,9 +20,9 @@ Role required: sn\_bcm.admin, sn\_bcm.manager
 
 ## About this task
 
-Install and activate the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) plugin. For more information, see [Install Document designer with Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/install-document-designer-with-word-plugin.md).
+Install and activate the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) plugin. For more information, see [Install Document designer with Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/install-document-designer-with-word-plugin.md).
 
-Confirm that you have the templates configured. For more information, see [Set up the template configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-document-designer-templates.md).
+Confirm that you have the templates configured. For more information, see [Set up the template configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-document-designer-templates.md).
 
 ## Procedure
 
@@ -94,9 +94,9 @@ Confirm that you have the templates configured. For more information, see [Set u
 **Related topics**  
 
 
-[Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-o365-reporting-configs.md)
+[Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-o365-reporting-configs.md)
 
-[Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-additional-reporting-filters.md)
+[Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-additional-reporting-filters.md)
 
-[Add related fields to a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-related-fields-0365.md)
+[Add related fields to a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-related-fields-0365.md)
 

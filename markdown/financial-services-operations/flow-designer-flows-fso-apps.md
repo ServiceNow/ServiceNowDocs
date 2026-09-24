@@ -3,9 +3,9 @@ title: Designer flows for Financial Services Operations applications
 description: Several flows are installed with Financial Services Operations applications that you can use to automate requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/flow-designer-flows-fso-apps.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flows, Configure, Financial Services Operations \(FSO\)]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Flows, Configure, Financial Services Operations \(FSO\)]
 
 Several flows are installed with Financial Services Operations applications that you can use to automate requests.
 
-By using [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md), you can review and configure these predefined flows for your own business needs.
+By using [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio.md), you can review and configure these predefined flows for your own business needs.
 
 The following table lists the predefined flows that are available with Financial Services Operations applications.
 

@@ -3,11 +3,11 @@ title: Building spokes using Spoke Generator
 description: Automate integration tasks by creating a sequence of reusable actions to develop custom integrations called spokes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/spoke-builder.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow Studio, Build workflows]
 ---
@@ -22,7 +22,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## App dependencies
 
-If you’re having trouble installing the app, ensure that the dependent plugin, ServiceNow IntegrationHub Starter Pack Installer \(com.glide.hub.integrations.starter\) is installed. You need ServiceNow IntegrationHub Professional Pack Installer license in your prod and sub-prod environments for creating spokes using OpenAPI specification, Postman collection, or with AI.
+If you’re having trouble installing the app, ensure that the dependent plugin, ServiceNow IntegrationHub Starter Pack Installer \(com.glide.hub.integrations.starter\) is installed. You need ServiceNow IntegrationHub Professional Pack Installer license in your prod and sub-prod environments for creating spokes using OpenAPI specification, Postman collection, or Now Assist.
 
 **Note:** Some of these plugins are licensable features and require appropriate licenses, if used outside the spoke implementation.
 
@@ -30,7 +30,7 @@ If you’re having trouble installing the app, ensure that the dependent plugin,
 
 An Integration Hub custom spoke provides both inbound and outbound integration with third-party applications. These integrations, referred to as spokes, are easy to configure and enable you to quickly add powerful actions without the need to write a script. This feature requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
-You can build custom spokes for the required third-party application by importing an [OpenAPI Specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-spoke-fd.md) or [Postman collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-spoke-postman-collection.md), [documentation snippets from third-party API documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/now-assist-in-spk-gen.md), or [creating a spoke manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-spoke-manual.md).
+You can build custom spokes for the required third-party application by importing an [OpenAPI Specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-spoke-fd.md) or [Postman collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-spoke-postman-collection.md), [documentation snippets from third-party API documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/now-assist-in-spk-gen.md), or [creating a spoke manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-spoke-manual.md).
 
 ## Required user roles
 
@@ -90,5 +90,5 @@ Spoke actions created by importing OpenAPI specification, contain the OpenAPI st
 
 ## App version
 
-Spoke Generator v5.0.0 is the latest version.
+Spoke Generator v4.2.4 is the latest version.
 

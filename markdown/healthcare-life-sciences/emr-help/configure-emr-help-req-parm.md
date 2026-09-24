@@ -3,11 +3,11 @@ title: Configure request parameters for EMR systems
 description: Define parameters to include EMR variables from an EMR system in a ServiceNow service request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/configure-emr-help-req-parm.html
-release: australia
+release: brazil
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---

@@ -3,11 +3,11 @@ title: Microsoft Exchange Online meeting management pre-built topic for ITSM Vir
 description: ITSM Virtual Agent helps you manage meetings in Microsoft Exchange Online. Using the Manage Meetings EXO topic, you can schedule, reschedule, and cancel a meeting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/manage-meeting-convo-flow.html
-release: australia
+release: brazil
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using ITSM Virtual Agent pre-built topics, ITSM Virtual Agent, IT Service Management]
 ---
@@ -22,12 +22,12 @@ Natural Language Understanding \(NLU\) is used to identify and trigger the meeti
 
 Requirements:
 
--   [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ms-exch-online-spoke.md) \(sn\_ex\_online\_spke\)
+-   [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/ms-exch-online-spoke.md) \(sn\_ex\_online\_spke\)
 -   Email addresses for meeting attendees must be configured in the User \[sys\_user\] table to be added to meeting invites
--   Some actions can use the [Microsoft Teams Communication spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/msteams-comm.md) \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
--   Some actions can use the [Cisco Webex Teams spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cisco-teams-spoke.md) \(sn\_cisco\_teams\_spk\)
--   Some actions can use the [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zoom-spoke.md)\(com.sn.zoom.spoke\) to add meeting links
--   This topic uses the [Employee Experience VA topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md)
+-   Some actions can use the [Microsoft Teams Communication spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/msteams-comm.md) \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
+-   Some actions can use the [Cisco Webex Teams spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/cisco-teams-spoke.md) \(sn\_cisco\_teams\_spk\)
+-   Some actions can use the [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zoom-spoke.md)\(com.sn.zoom.spoke\) to add meeting links
+-   This topic uses the [Employee Experience VA topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/employee-experience-va-topicblocks.md)
 
 **Note:** If this topic is duplicated in a different scope than ITSM Virtual Agent Conversations, script logic can be affected and cause errors. This topic must be duplicated in the ITSM Virtual Agent Conversations scope.
 
@@ -68,10 +68,10 @@ This topic is deprecated. Use Manage Meetings EXO v1.0 instead.
 
 Requirements:
 
--   [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ms-exch-online-spoke.md)
+-   [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/ms-exch-online-spoke.md)
 -   Email addresses for meeting attendees must be configured in the User \[sys\_user\] table to be added to meeting invites
--   Some actions can use the [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zoom-spoke.md)\(com.sn.zoom.spoke\) to add meeting links
--   Some actions can use the [Microsoft Teams Communication spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/msteams-comm.md) \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
+-   Some actions can use the [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zoom-spoke.md)\(com.sn.zoom.spoke\) to add meeting links
+-   Some actions can use the [Microsoft Teams Communication spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/msteams-comm.md) \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
 
 **Note:** If this topic is duplicated in a different scope than ITSM Virtual Agent Conversations, script logic can be affected and cause errors. This topic must be duplicated in the ITSM Virtual Agent Conversations scope.
 
@@ -103,5 +103,5 @@ Basic flow for rescheduling a meeting:
 5.  Virtual Agent confirms that the meeting has been rescheduled.
 6.  User can reschedule additional meetings, if desired.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

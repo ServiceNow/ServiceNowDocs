@@ -3,11 +3,11 @@ title: Defining Name Components
 description: Name components define the document values used in the name format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/r\_DefiningNameComponents.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Defining Document Parameters, Features, Managed Documents, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -71,5 +71,5 @@ The following components are defined in the base system.
 |Revision|Displays the document revision.|revision|
 |Type code|Displays the code assigned to the document type.|document.type.code|
 
-**Parent Topic:**[Defining Document Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md)
+**Parent Topic:**[Defining Document Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md)
 

@@ -3,9 +3,9 @@ title: Create an event group for the scenario
 description: Create an event group in the Operational Resilience application so that you can categorize the events that are defined in a scenario.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-event-group.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -34,10 +34,10 @@ Classify the events of a similar type into an event group for your scenario. For
 
     The configuration of a sample event group is shown in the following example.
 
-    \[Omitted image "event-groups.png"\] Alt text: Sample configuration for the GRC Choice record form.
+    \[Omitted image "event-groups.png"\] Alt text: Sample configuration for the GRC Choice New record form.
 
 5.  In the **Order** field, enter the order for the event group and click **Submit**.
 
-    For more information on the fields in the Event group form, see [GRC Choice record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/event-group-reference.md).
+    For more information on the fields in the Event group form, see [GRC Choice record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/event-group-reference.md).
 
 

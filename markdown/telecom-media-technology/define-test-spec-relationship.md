@@ -3,9 +3,9 @@ title: Define the relationship between the test definitions
 description: Define relationships for a test definition to connect and associate it with other test specifications. This process ensures comprehensive testing coverage and that the tests are aligned with the testing goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/define-test-spec-relationship.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up test definitions, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---

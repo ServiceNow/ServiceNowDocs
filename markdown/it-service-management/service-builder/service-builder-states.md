@@ -3,11 +3,11 @@ title: Service Builder approval flow
 description: As you create and edit services and service offerings in Service Builder, various states get assigned and change on the services' way to being published \(approved\). Administrators enable the standard approval flow and can even customize it using the subflow option in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-builder/service-builder-states.html
-release: australia
+release: brazil
 product: Service Builder
 classification: service-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Builder, IT Service Management]
 ---
@@ -101,7 +101,7 @@ Administrators enable the approval flow that comes with the base system by updat
 
 Administrators can also create a customized approval flow that best meets the organization's needs. See the following for more information about these tasks in Workflow Studio:
 
--   [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-edit.md)
--   [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md)
--   [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md)
+-   [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-edit.md)
+-   [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ask-approval-flow-designer.md)
+-   [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md)
 

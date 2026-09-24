@@ -3,11 +3,11 @@ title: Create custom Scan Engine definitions
 description: The Scan Engine contains preexisting base system definitions and you can create your own.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/create-scan-engine-definitions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-21"
-reading_time_minutes: 7
-breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Create custom Scan Engine definitions
@@ -15,8 +15,6 @@ breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review 
 The Scan Engine contains preexisting base system definitions and you can create your own.
 
 ## Before you begin
-
-**Note:** The Impact Guided package allows up to 10 active custom definitions in a single instance. Definitions in excess will be disabled when a scan is executed. The Impact Total package or the Platform Health add-on with the Guided package may have unlimited active custom definitions in a single instance. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages1.md) for details.
 
 Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
 
@@ -28,15 +26,15 @@ Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
 
 3.  Fill in the following fields as needed.
 
-<table id="choicetable_p4w_2cx_2hc"><thead><tr><th align="left" id="d47080e125">
+<table id="choicetable_p4w_2cx_2hc"><thead><tr><th align="left" id="d49660e103">
 
 Field/Selection
 
-</th><th align="left" id="d47080e128">
+</th><th align="left" id="d49660e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47080e134">
+</th></tr></thead><tbody><tr><td id="d49660e112">
 
 **Number**
 
@@ -44,7 +42,7 @@ Description
 
 The unique identifier of the definition. This number is generated automatically.**Note:** Your unique company code will be prefixed to the definition number. You can find your company code by navigating to the `sys_properties` table, then searching for `glide.appcreator.company.code` property.
 
-</td></tr><tr><td id="d47080e151">
+</td></tr><tr><td id="d49660e129">
 
 **Active**
 
@@ -52,7 +50,7 @@ The unique identifier of the definition. This number is generated automatically.
 
 Select to have the Scan Engine evaluate records to see if there are any findings during a scan.
 
-</td></tr><tr><td id="d47080e163">
+</td></tr><tr><td id="d49660e141">
 
 **Level of Finding**
 
@@ -62,17 +60,17 @@ Select the severity level of the finding for the definition that displays when r
 -   **Recommend**: Prevents users from modifying the record unless they provide an exception reason for why the definition was not followed or until the definition's conditions are met.
 -   **Suggest**: Prompts users to check if there is a better solution available.
 -   **Review**: Calls out less serious items for review. This does not contribute to technical debt.
-See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/understand-scan-engine-results-findings.md) for additional information.
+See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/understand-scan-engine-results-findings.md) for additional information.
 
-</td></tr><tr><td id="d47080e203">
+</td></tr><tr><td id="d49660e181">
 
 **Category**
 
 </td><td>
 
-Upgradeability, manageability, performance, security, or user experienceFor details, see [Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md).
+Upgradeability, manageability, performance, security, or user experienceFor details, see [Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/view-modify-scan-engine-properties.md).
 
-</td></tr><tr><td id="d47080e222">
+</td></tr><tr><td id="d49660e200">
 
 **Short Description \(Mandatory\)**
 
@@ -80,7 +78,7 @@ Upgradeability, manageability, performance, security, or user experienceFor deta
 
 A short description of the definition.
 
-</td></tr><tr><td id="d47080e231">
+</td></tr><tr><td id="d49660e209">
 
 **Reason For Definition**
 
@@ -88,7 +86,7 @@ A short description of the definition.
 
 The purpose the definition was created.
 
-</td></tr><tr><td id="d47080e240">
+</td></tr><tr><td id="d49660e218">
 
 **Supporting Documentation**
 
@@ -99,15 +97,15 @@ A link to documentation that further explains the finding definition. The link d
 </td></tr></tbody>
 </table>4.  On the **Configuration** tab, adjust the values of the following fields to configure how the definition operates and identifies findings within the instance.
 
-<table id="choicetable_kbk_vdx_2hc"><thead><tr><th align="left" id="d47080e261">
+<table id="choicetable_kbk_vdx_2hc"><thead><tr><th align="left" id="d49660e239">
 
 Field/Setting
 
-</th><th align="left" id="d47080e264">
+</th><th align="left" id="d49660e242">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47080e270">
+</th></tr></thead><tbody><tr><td id="d49660e248">
 
 **Evaluate Definition For**
 
@@ -117,7 +115,7 @@ Dictates the scope of records that are scanned in real-time:-   **All Matching R
 -   **New Records Only**: Scans only new, applicable records in real-time.
 
 
-</td></tr><tr><td id="d47080e291">
+</td></tr><tr><td id="d49660e269">
 
 **SN Instance To Run On**
 
@@ -128,7 +126,7 @@ Sets the SN instance that the definition will apply to.-   Run on all non-produc
 -   Run on production instances only
 **Note:** **Run on Specified Instances** activates the **Specific SN Instances to Run On** field.
 
-</td></tr><tr><td id="d47080e318">
+</td></tr><tr><td id="d49660e296">
 
 **Specific SN Instances to Run On**
 
@@ -140,7 +138,7 @@ Sets the SN instance that the definition will apply to.-   Run on all non-produc
     -   The My SN Instances table must contain at least one instance.
  **Note:** Only instances defined in the My SN Instances table can be selected here.
 
-</td></tr><tr><td id="d47080e352">
+</td></tr><tr><td id="d49660e330">
 
 **Type of Rule \(Mandatory\)**
 
@@ -154,7 +152,7 @@ Sets the definition’s rule type:-   Fails if script includes text
 -   Custom
 
 
-</td></tr><tr><td id="d47080e383">
+</td></tr><tr><td id="d49660e361">
 
 **Scan Finding Limit**
 
@@ -165,7 +163,7 @@ Sets the definition’s rule type:-   Fails if script includes text
 -   Prevents excessive or redundant findings and optimizes scan performance.
 
 
-</td></tr><tr><td id="d47080e404">
+</td></tr><tr><td id="d49660e382">
 
 **Propose Fix**
 
@@ -173,9 +171,9 @@ Sets the definition’s rule type:-   Fails if script includes text
 
 -   Allows a definition to be defined such that it enables the ability to automatically apply recommended changes to objects in your ServiceNow instance.
 -   When selected, the **Proposed Fix Script** field displays.
- **Note:** This functionality is available in either the Impact Total package or the Platform Health add-on. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-packages.md) for entitlement information.
 
-</td></tr><tr><td id="d47080e443">
+
+</td></tr><tr><td id="d49660e403">
 
 **Propose Fix Script**
 
@@ -185,7 +183,7 @@ Sets the definition’s rule type:-   Fails if script includes text
 -   This field is only visible if **Propose Fix** is enabled.
 
 
-</td></tr><tr><td id="d47080e464">
+</td></tr><tr><td id="d49660e424">
 
 **Search Type \(Mandatory\)**
 
@@ -201,7 +199,7 @@ Sets the definition’s rule type:-   Fails if script includes text
     -   Fail if XML excludes text
 
 
-</td></tr><tr><td id="d47080e511">
+</td></tr><tr><td id="d49660e471">
 
 **Custom Rule Variable**
 
@@ -211,23 +209,23 @@ Sets the definition’s rule type:-   Fails if script includes text
 -   This field is only visible if **Type of Rule** is set to **Custom**.
 
 
-</td></tr><tr><td id="d47080e535">
+</td></tr><tr><td id="d49660e495">
 
 **Parameter 1 Value**
 
 </td><td>
 
-Set a default value here if you want to allow users to change the value of a parameter without modifying a custom script.**Note:** This field is only visible if **Custom Rule** is **Enabled**.
+Set a default value here if you want to allow users to change the value of a parameter without modifying a custom script.
 
-</td></tr><tr><td id="d47080e553">
+</td></tr><tr><td id="d49660e505">
 
 **Parameter 1 Description**
 
 </td><td>
 
-A description of what the Parameter 1 Value is used for.**Note:** This field is only visible if **Type of Rule** is set to **Custom**.
+A description of what the Parameter 1 Value is used for.
 
-</td></tr><tr><td id="d47080e570">
+</td></tr><tr><td id="d49660e514">
 
 **Delta Scans Not Applicable**
 
@@ -235,7 +233,7 @@ A description of what the Parameter 1 Value is used for.**Note:** This field is 
 
 This definition will always scan as a full scan, not a delta scan, for all scan types. This means it will scan all records for findings, not just records updated since the previous scan.
 
-</td></tr><tr><td id="d47080e579">
+</td></tr><tr><td id="d49660e523">
 
 **Return One Finding For The Entire Table**
 
@@ -245,7 +243,7 @@ This definition will always scan as a full scan, not a delta scan, for all scan 
 -   When possible, the scanned table and scanned record are populated in the finding. If this isn’t possible, the scanned record value will be empty.
  **Note:** If enabled, this definition will not scan in real-time.
 
-</td></tr><tr><td id="d47080e603">
+</td></tr><tr><td id="d49660e547">
 
 **Search Pattern**
 
@@ -259,7 +257,7 @@ Lets users enter a regular expression to search for findings in Scripts and XML 
 -   Fail if XML excludes text
 In addition, **Search Type** must be set to **Regex**.
 
-</td></tr><tr><td id="d47080e639">
+</td></tr><tr><td id="d49660e583">
 
 **Search Function**
 
@@ -273,7 +271,7 @@ Lets users enter a custom function to search for findings in Scripts and XML typ
 -   Fail if XML excludes text.
 In addition, **Search Type** must be set to **Custom**.
 
-</td></tr><tr><td id="d47080e675">
+</td></tr><tr><td id="d49660e619">
 
 **Search Text**
 
@@ -287,7 +285,7 @@ Enables a field for users to search for text in scripts and XML fields. Enter on
 -   Fail if XML excludes text
 In addition, **Search Type** must be set to **Text \(comma separated\)**.
 
-</td></tr><tr><td id="d47080e712">
+</td></tr><tr><td id="d49660e656">
 
 **Custom Function \(Mandatory\)**
 
@@ -300,7 +298,7 @@ In addition, **Search Type** must be set to **Text \(comma separated\)**.
 </td></tr></tbody>
 </table>5.  On the **Impact** tab, adjust the values in the following fields as desired to configure the impact level for findings relating to this definition.
 
-<table id="choicetable_y2c_ggx_2hc"><tbody><tr><td id="d47080e748">
+<table id="choicetable_y2c_ggx_2hc"><tbody><tr><td id="d49660e692">
 
 **Impact to Instance \(Mandatory\)**
 
@@ -310,7 +308,7 @@ In addition, **Search Type** must be set to **Text \(comma separated\)**.
 -   Impacts can be set from 1-10, where 1 is the lowest impact and 10 is the highest.
 
 
-</td></tr><tr><td id="d47080e766">
+</td></tr><tr><td id="d49660e710">
 
 **Business Impact**
 
@@ -319,9 +317,9 @@ In addition, **Search Type** must be set to **Text \(comma separated\)**.
 A description of how a finding for the definition would affect the instance in a business setting.
 
 </td></tr></tbody>
-</table>6.  On the **Resolution** tab, adjust the values in the following fields to change how to resolve findings relating to this definition, as well as the estimated time it will take to do so.
+</table>6.  On the **Resolution** tab, adjust the values in the following fields to change how to resolve findings relating to this definition and the estimated time to do so.
 
-<table id="choicetable_hnp_vgx_2hc"><tbody><tr><td id="d47080e788">
+<table id="choicetable_hnp_vgx_2hc"><tbody><tr><td id="d49660e732">
 
 **Estimated Time to Resolve Issue**
 
@@ -329,7 +327,7 @@ A description of how a finding for the definition would affect the instance in a
 
 The estimated time for a single developer to resolve the definition finding in days, hours, minutes, and seconds.
 
-</td></tr><tr><td id="d47080e800">
+</td></tr><tr><td id="d49660e744">
 
 **Steps To Resolve**
 
@@ -341,5 +339,5 @@ A description of the steps for resolving the finding related to this definition.
 </table>7.  Select **Save** in the Additional Actions drop down menu to save the new definition, then configure the Applicable Tables.
 
 
-**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/view-modify-scan-engine-properties.md)
+**Parent Topic:**[Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/view-modify-scan-engine-properties.md)
 

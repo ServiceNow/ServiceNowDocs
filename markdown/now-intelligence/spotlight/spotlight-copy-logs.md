@@ -3,11 +3,11 @@ title: Spotlight group copy logs
 description: When a Spotlight group is copied, the steps of the copying process are recorded in logs. Use these logs to debug any issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/spotlight-copy-logs.html
-release: australia
+release: brazil
 product: Spotlight
 classification: spotlight
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Ranking records with Spotlight, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -33,5 +33,5 @@ In this example, the Incident Spotlight group was copied for the Assignment Grou
 
 Clicking **Check the logs for details** opens the Spotlight group copy log for this copying job. In this log, you can find the errors that caused each failure. In the following example, a business rule violation prevented the copy from being created. The error message instructs you to contact the System Administrator.\[Omitted image "spotlight-group-copy-log.png"\] Alt text: Spotlight group copy log showing one of three errors
 
-**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight.md)
 

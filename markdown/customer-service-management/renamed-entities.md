@@ -1,18 +1,18 @@
 ---
 title: Service Model Foundation renamed Entities
-description: The renamed entities display several Service Model Foundation entities that are renamed, including the previous and current names.
+description: The renamed entities dispaly several Service Model Foundation entities that are renamed, including the previous and current names.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/renamed-entities.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Service Management]
 ---
 
 # Service Model Foundation renamed Entities
 
-The renamed entities display several Service Model Foundation entities that are renamed, including the previous and current names.
+The renamed entities dispaly several Service Model Foundation entities that are renamed, including the previous and current names.
 
 |Table name|Previous label|New label|Effective from|
 |----------|--------------|---------|--------------|

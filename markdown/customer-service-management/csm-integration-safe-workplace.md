@@ -3,9 +3,9 @@ title: Integrating with Safe Workplace applications
 description: Integrate Customer Service Management with ServiceNow Safe Workplace applications. This integration helps you safely reopen locations and support the health and safety of contacts and consumers after emergencies and pandemics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-integration-safe-workplace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ As a consumer or contact, verify that you understand and comply with requirement
 
 As a customer or consumer service agent, screen contacts or consumers entering a location to ensure compliance with entry requirements such as a temperature check and Personal Protection Equipment \(PPE\).
 
-For more information on the Employee Health Screening application, see [Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-health-screening.md).
+For more information on the Employee Health Screening application, see [Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-health-screening.md).
 
 ## Key features
 

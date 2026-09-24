@@ -3,11 +3,11 @@ title: Enable instance options for the Activity tab
 description: Format the work notes and add @mentions in the Activity tab on a standard ticket page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-instanceop-activity.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the standard ticket page, Standard ticket page, Creating portal pages, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Format the work notes and add @mentions in the Activity tab on a standard ticket
 
 Role required: sp\_admin or admin
 
-You should add the **Activity** tab in the standard ticket configuration of a request type. For information on configuring tabs, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md).
+You should add the **Activity** tab in the standard ticket configuration of a request type. For information on configuring tabs, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-st-page.md).
 
 ## Procedure
 
@@ -68,5 +68,5 @@ Option to enable mentioning the relevant people in work notes.**Note:** This opt
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)
+**Parent Topic:**[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-st-page.md)
 

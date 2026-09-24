@@ -3,11 +3,11 @@ title: Run diagnostics on an Agent Client Collector agent
 description: Run automated self-tests on an Agent Client Collector \(ACC\) agent from the ITOM Infra Services Workspace to identify and address agent issues. View agent errors and invoke the relevant remediation steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/run-acc-agent-diagnostics.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ACC, agent diagnostics, agent client collector, diagnostic tests, Infra Services Workspace]
 breadcrumb: [Use the Agent Client Collector \(ACC\) admin workspace, Use ITOM Infra Services Workspace, ITOM Infra Services Workspace, ITOM Visibility, IT Operations Management]
@@ -91,5 +91,5 @@ Step-by-step remediation suggestions.Appears only when the test has a known erro
     This button appears only when the run produced failures. Selecting it re-executes only the failed tests and leaves passing tests unchanged.
 
 
-**Parent Topic:**[Use the Agent Client Collector \(ACC\) admin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/use-acc-admin-workspace.md)
+**Parent Topic:**[Use the Agent Client Collector \(ACC\) admin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/use-acc-admin-workspace.md)
 

@@ -3,11 +3,11 @@ title: Self-health monitoring for Metric Intelligence
 description: Use Event Management self-health monitors to monitor the health of Metric Intelligence infrastructure components and processes, and to alert about potential issues. Self-health monitoring allows you to proactively remediate issues and minimize data loss.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/self-health-monitoring-oi.html
-release: australia
+release: brazil
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -65,12 +65,12 @@ Monitor checks the following essential scheduled jobs, to detect if any is inact
 -   Metric Intelligence — Validate MID Distributed cluster
 
 </td></tr></tbody>
-</table>For more information about enabling or disabling an Metric Intelligence self-health monitor, see [Configure a self-health monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-threshold-monitoring.md).
+</table>For more information about enabling or disabling an Metric Intelligence self-health monitor, see [Configure a self-health monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-threshold-monitoring.md).
 
 **Related topics**  
 
 
-[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/self-monitoring.md)
+[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/self-monitoring.md)
 
-[Scheduled jobs installed with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/installed-with-metrics.md)
+[Scheduled jobs installed with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/installed-with-metrics.md)
 

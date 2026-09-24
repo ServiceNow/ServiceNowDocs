@@ -3,9 +3,9 @@ title: Guest contact form fields
 description: A description of the fields on the Guest contact form in the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/guest-contact-form-fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -23,5 +23,5 @@ A description of the fields on the Guest contact form in the ServiceNow Store.
 |Country|Country where you are located.|
 |Message to Seller|Question or request.|
 
-**Parent Topic:**[ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/store-reference.md)
+**Parent Topic:**[ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/store-reference.md)
 

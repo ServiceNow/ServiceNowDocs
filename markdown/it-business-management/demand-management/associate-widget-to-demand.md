@@ -3,11 +3,11 @@ title: Associate a widget to the Demand table
 description: After you configure a widget, associate it with the Demand table to show the financial data of a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/associate-widget-to-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a widget for financial metrics, Set up, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ After you configure a widget, associate it with the Demand table to show the fin
 
 ## Before you begin
 
-You must [configure a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configure-widget-demand-financials.md) before you can associate it with the Demand \[dmn\_demand\] table.
+You must [configure a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/configure-widget-demand-financials.md) before you can associate it with the Demand \[dmn\_demand\] table.
 
 Role required: pps\_admin
 
@@ -32,8 +32,8 @@ Role required: pps\_admin
 
 4.  On the Widget Association form, fill in the fields.
 
-    For a description of the field names, see [Widget Association form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/widget-association-form.md).
+    For a description of the field names, see [Widget Association form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/widget-association-form.md).
 
 
-**Parent Topic:**[Configure a widget for the financial metrics of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configure-widget-demand-financials.md)
+**Parent Topic:**[Configure a widget for the financial metrics of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/configure-widget-demand-financials.md)
 

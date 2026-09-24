@@ -3,11 +3,11 @@ title: State synchronization between change requests and remediation tasks
 description: There is a synchronized relationship between the State fields of remediation tasks and the State fields of change requests \(CHGs\) in the Configuration Compliance application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-cr-state-synch.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -77,5 +77,5 @@ Also, when remediation tasks have more than one CHG, the state of the remediatio
 -   When a CHG moves forward to **Review**, if all other CHGs associated with the remediation task are in **Review** or **Closed** states \(with a successful close code\), ​the remediation task automatically transitions to **Resolved**​. Any other related CHGs that are canceled or closed unsuccessfully are ignored.
 -   When a CHG moves to **Canceled** or ​**Closed** \(close code of **Unsuccessful**\), if all other CHGs associated with the remediation task are in the same state, then the remediation task automatically transitions back to **Under Investigation​**.
 
-For more information about remediation task states and what you can do in each state, see [Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-states.md).
+For more information about remediation task states and what you can do in each state, see [Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/vuln-config-compl-states.md).
 

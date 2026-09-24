@@ -3,11 +3,11 @@ title: Using the Demands Dashboard
 description: The Demands Dashboard provides a centralized view of demand data, metrics, and visualizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/using-the-demands-dashboard-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor and track demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -63,5 +63,5 @@ Edit dashboards
 
 For example, a widget configured to display data from the Cost Plan Breakdown table shows the budget summary only if you have read access to that table. Stakeholders you share the dashboard with must also have read access to the Cost Plan Breakdown table to view the budget summary.
 
-For more information on the required roles to manage Platform Analytics dashboards, see [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-dashboard-roles.md).
+For more information on the required roles to manage Platform Analytics dashboards, see [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-dashboard-roles.md).
 

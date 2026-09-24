@@ -3,11 +3,11 @@ title: Set case and accent sensitivity on a per-column basis
 description: Set locale text match to provide case and accent sensitivity when searching the text of table columns. The default behavior for text searching in table columns is insensitive to case and accent \(diacritic\) variations, but you can enforce sensitivity using locale text match.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/sl-locale-text-match.html
-release: australia
+release: brazil
 product: System Localization
 classification: system-localization
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -27,14 +27,14 @@ Locale text match is available from Zurich Patch 9 and Australia Patch 2.
 Consider the following points when using the locale text match feature.
 
 -   Setting locale text match overrides the collation of SQL queries for the specific column.
--   You can't set the **i18n\_locale\_text\_match** column attribute when the following attribute is set on the same column: **i18n\_session\_language\_sortable** or if property **com.glide.db.session\_language\_collation\_feature**=true. For more information see [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sorting-session-language.md).
+-   You can't set the **i18n\_locale\_text\_match** column attribute when the following attribute is set on the same column: **i18n\_session\_language\_sortable** or if property **com.glide.db.session\_language\_collation\_feature**=true. For more information see [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/sorting-session-language.md).
 -   Test the case and accent sensitive behavior thoroughly. When the **i18n\_locale\_text\_match** column attribute is set, the behavior is applied to all queries including ACLs, business rules, and so forth.
 
 ## Setting the column attribute i18n\_locale\_text\_match
 
 The default behavior is i18n\_locale\_text\_match=false. Set the column attribute to true as follows.
 
-**Note:** For text searches in tables in the product UI, both the column attribute and the sys property **com.glide.db.ui\_i18n\_locale\_text\_match** are required. See the Global property step in the [Other methods for locale text match](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sl-locale-text-match.md) section of this page.
+**Note:** For text searches in tables in the product UI, both the column attribute and the sys property **com.glide.db.ui\_i18n\_locale\_text\_match** are required. See the Global property step in the [Other methods for locale text match](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/sl-locale-text-match.md) section of this page.
 
 1.  With the admin role, navigate to sys\_dictionary.list.
 2.  Search for the name of your table and the name of the column to which you want to add this attribute.
@@ -61,7 +61,7 @@ There are several methods for controlling locale text matching in specific situa
 2.  URL parameter: sysparm\_locale\_txt\_match
     -   Where:
         -   Add `sysparm_locale_txt_match=true` or `sysparm_locale_txt_match=false` as an extra parameter in a URL.
-        -   Table API. For information see [Explore the REST API for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/explore-rest-api-for-table.md).
+        -   Table API. For information see [Explore the REST API for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/explore-rest-api-for-table.md).
     -   Use case: When the parameter is added, activate or deactivate locale text match \(case and accent sensitivity\) for queries that display data in platform lists.
 3.  Global property: com.glide.db.ui\_i18n\_locale\_text\_match
     -   Where: Create a property in sys\_properties, if it doesn't exist already.

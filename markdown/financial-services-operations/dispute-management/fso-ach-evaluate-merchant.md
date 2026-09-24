@@ -1,20 +1,20 @@
 ---
 title: Evaluate merchant analysis
-description: Evaluate a merchant's credibility to determine whether the transaction is legitimate or potentially fraudulent before deciding on a resolution. When the ACH disputes AI agent workflow is enabled, an AI agent can perform this analysis automatically based on merchant reviews and past dispute history.
+description: Evaluate a merchant's credibility to determine whether the transaction is legitimate or potentially fraudulent before deciding on a resolution. When the ACH disputes AI agent workflow is enabled, an AI agent can perform this analysis automatically based on merchant reviews found through a web search and the merchant's past dispute history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-evaluate-merchant.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Processing an ACH dispute, Resolving ACH disputes, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Evaluate merchant analysis
 
-Evaluate a merchant's credibility to determine whether the transaction is legitimate or potentially fraudulent before deciding on a resolution. When the ACH disputes AI agent workflow is enabled, an AI agent can perform this analysis automatically based on merchant reviews and past dispute history.
+Evaluate a merchant's credibility to determine whether the transaction is legitimate or potentially fraudulent before deciding on a resolution. When the ACH disputes AI agent workflow is enabled, an AI agent can perform this analysis automatically based on merchant reviews found through a web search and the merchant's past dispute history.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-The Merchant analysis with AI agent can perform this evaluation for you if it is activated. The agent checks the merchant's credibility based on ratings and reviews from a web search and reviews past dispute history across all payment types. It then recommends an outcome that you can apply or follow up on. If a web search returns no results for a merchant, the merchant is classified as not credible. When the agent isn't enabled, evaluate the merchant analysis manually.
+The Merchant analysis with AI agent can perform this evaluation for you if it is activated. The agent checks the merchant's credibility based on ratings and reviews from a web search and reviews past dispute history across all payment types, then recommends an outcome that you can apply or follow up on. If a web search returns no results for a merchant, the merchant is classified as not credible. When the agent isn't enabled, evaluate the merchant analysis manually.
 
-Ensure that your assignment logic, such as Advanced Work Assignment \(AWA\), is configured to assign all associated transactions to the same agent when a dispute case is assigned. This alignment helps maintain consistency and speeds up case resolution.
+Ensure that your assignment logic, such as Advanced Work Assignment \(AWA\), is configured so that when a dispute case is assigned to an agent, all associated transactions are automatically assigned to the same agent. This alignment helps maintain consistency and speeds up case resolution.
 
 ## Procedure
 
@@ -59,6 +59,8 @@ Ensure that your assignment logic, such as Advanced Work Assignment \(AWA\), is 
     1.  Once you select **Assign to me**, a notification appears for you in the ServiceNow Otto panel.
     2.  Select the ServiceNow Otto icon \(\[Omitted image "icon-otto.png"\] Alt text: Otto icon.\) and open the active chat for the disputed transaction.
     3.  In the chat, the AI agent generates a recommendation for the dispute with a valid reason.
+    \[Omitted image "now-assist-merchant-analysis.png"\] Alt text: Evaluate merchant analysis AI agent in ACH disputes
+
 9.  If the AI agent isn't enabled, or you want to record the final action yourself, in **Merchant analysis action** indicate the final action:
 
     -   **Credible**: Upon analysis, the merchant is determined to be credible.
@@ -70,7 +72,7 @@ Ensure that your assignment logic, such as Advanced Work Assignment \(AWA\), is 
 
 ## Result
 
-The **Final action** field is updated as **Credible** or **Not credible**. The task navigates to the next task, [Evaluate Nacha operating guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.md).
+The **Final action** field is updated as **Credible** or **Not credible**. The task navigates to the next task, [Evaluate Nacha operating guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.md).
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
 

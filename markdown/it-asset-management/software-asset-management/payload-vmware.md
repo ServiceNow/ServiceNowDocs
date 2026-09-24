@@ -3,13 +3,13 @@ title: Sample payload for VMware software install records
 description: A sample payload for VMware publisher pack that populates the VMware Discovered License key consumption \[samp\_vmware\_license\_key\_usage\] table with software install records from third-party discovery sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/payload-vmware.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Sample payload for VMware software install records
@@ -251,5 +251,5 @@ https://k8s0057813-node1.thunder.lab3.service-now.com/api/now/table/samp_vmware_
 |className|cmdb\_ci\_win\_server|The name of the Windows server table|
 |name|VirtualMachine-WS2|Name of the Windows server virtual machine.|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

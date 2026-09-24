@@ -3,11 +3,11 @@ title: Hardware asset overview
 description: Enhance your Asset Management experience by using the modernized and user-friendly Hardware asset overview view. The Hardware asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/hardware-asset-overview-am.html
-release: australia
+release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Base Asset Management, Common applications, Asset Management]
 ---
@@ -50,4 +50,6 @@ You can load charts or widgets that fetch a huge set of asset records on demand 
 The system property **sn\_itam\_workspace.asset\_overview\_enable\_lazy\_loading** provides you with an option to either selectively load reports you want to view or load reports concurrently with the page. By default, this system property is set to **False**. When this system property is enabled on your ServiceNow instance, you can view reports by using the **Load report** option.
 
 \[Omitted image "asset-workspace-overview-load.png"\] Alt text: Load report option on Hardware asset overview page
+
+**Parent Topic:**[Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/exploring-asset-management.md)
 

@@ -3,11 +3,11 @@ title: Prometheus Observability tab for Service Observability
 description: Dashboard and charts on the Prometheus Observability tab of the Service Details page in the SOW.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/prometheus-observability-tab-for-service-observability.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Prometheus templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -73,5 +73,5 @@ These dashboards display metrics for databases related to the service.
 |Cache Hit Ratio|Percentage of database requests that can be served by the cache.|Prometheus|
 |All PostgreSQL Instances|Information of all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[Prometheus templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/prometheus-templates.md)
+**Parent Topic:**[Prometheus templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/prometheus-templates.md)
 

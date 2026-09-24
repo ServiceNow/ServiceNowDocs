@@ -1,26 +1,26 @@
 ---
-title: Run work notes analysis
-description: Generate a work notes analysis on a transition.
+title: Run transition work notes analysis
+description: Generate a transition work notes analysis on a transition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/run-worknotes-analysis.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
-# Run work notes analysis
+# Run transition work notes analysis
 
-Generate a work notes analysis on a transition.
+Generate a transition work notes analysis on a transition.
 
 ## Before you begin
 
 Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
-**Note:** Work notes with more than 5 words and fewer than 100 words are considered for the analysis.
+**Note:** Transition work notes with more than 5 words and fewer than 100 words are considered for the analysis.
 
 You can use AI for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, the system will not run clustering, but will put all the work notes into one LLM call, otherwise clustering will be performed before calling the LLM.
 
@@ -49,5 +49,5 @@ You can use AI for work notes analysis even with 5-50 eligible work notes. If th
     Use the thumbs up and thumbs down icons to provide feedback for the result that you have received.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)
+**Parent Topic:**[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/use-na-process-mining.md)
 

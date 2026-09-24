@@ -3,11 +3,11 @@ title: Transaction quotas
 description: Transaction quotas allow you to define a quota policy for different types of transactions. A transaction quota cancels any transaction in violation of the policy and notifies the user of the cancellation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/c\_TransactionQuotas.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -31,7 +31,7 @@ Transactions use the Quota Manager, which is a background thread that cancels tr
 
 3.  Cancels the transaction if it has been running longer than the specified quota maximum.
 4.  Logs the running transactions.
-5.  Sleeps until the next heartbeat, which is controlled by the **glide.quota.manager.heartbeat** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/r_ConfigureTransactionQuotaProps.md).
+5.  Sleeps until the next heartbeat, which is controlled by the **glide.quota.manager.heartbeat** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/r_ConfigureTransactionQuotaProps.md).
 
 ## Transaction cancellation from exceeded quotas
 

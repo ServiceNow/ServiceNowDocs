@@ -3,11 +3,11 @@ title: Work on a claim task for an external refund
 description: Using a claim task, follow up with the third-party bank for a claim refund.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/work-claim-task.html
-release: australia
+release: brazil
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work on a claim with an external refund, Managing payment claims and debit approvals, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -34,15 +34,15 @@ You can create an ad hoc claim task by navigating to the **Claim Tasks** tab of 
 
 3.  Open the claim task from a claim case or from the Claim Tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d136478e108">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d139150e108">
 
 Option
 
-</th><th align="left" id="d136478e111">
+</th><th align="left" id="d139150e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d136478e117">
+</th></tr></thead><tbody><tr><td id="d139150e117">
 
 **From a claim case**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the case, click the **Claim Tasks** tab and click the claim task.
 
 
-</td></tr><tr><td id="d136478e150">
+</td></tr><tr><td id="d139150e150">
 
 **From the Claim Tasks list**
 
@@ -79,7 +79,7 @@ Steps
 
 Update the associated claim case as per the refund or information that you receive from the refund bank.
 
-**Note:** If the claim is not closed within the number of days mentioned in the **sn\_bom\_payment.claim\_follow \_up\_interval\_in\_days** [payment property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/properties-installed-with-payment-operations.md), the system creates another follow-up claim task for the claim.
+**Note:** If the claim is not closed within the number of days mentioned in the **sn\_bom\_payment.claim\_follow \_up\_interval\_in\_days** [payment property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/properties-installed-with-payment-operations.md), the system creates another follow-up claim task for the claim.
 
-**Parent Topic:**[Work on a claim with an external refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/work-claim-with-external-refund.md)
+**Parent Topic:**[Work on a claim with an external refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/work-claim-with-external-refund.md)
 

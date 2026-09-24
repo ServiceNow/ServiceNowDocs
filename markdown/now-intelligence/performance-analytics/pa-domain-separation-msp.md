@@ -3,11 +3,11 @@ title: Grouping domains in Performance Analytics domain configurations
 description: Instead of configuring Performance Analytics for the domains of a specific user, create a reusable domain configuration. Select domains that are visible to a group of users, or filter domains directly. Domain configurations let you define hierarchical relationships and aggregate scores across multiple domains.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-domain-separation-msp.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Domain separation, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Domain separation, Configure advanced features, Performance Analyti
 
 Instead of configuring Performance Analytics for the domains of a specific user, create a reusable domain configuration. Select domains that are visible to a group of users, or filter domains directly. Domain configurations let you define hierarchical relationships and aggregate scores across multiple domains.
 
-**Note:** Performance Analytics domain configurations are enabled with the Performance Analytics – Domain Separation Support plugin. For more information about plugins, see [Activate a Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+**Note:** Performance Analytics domain configurations are enabled with the Performance Analytics – Domain Separation Support plugin. For more information about plugins, see [Activate a Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 Associate these domain configurations with specific data collection jobs and dashboards to provide relevant scores to users. At the same time, maintain your Performance Analytics records, such as indicators, breakdowns, and their sources, in the global domain.
 
@@ -26,13 +26,13 @@ Only Performance Analytics administrators with access to all the domains in a co
 
 ## Required approach
 
-Only the Global approach to Performance Analytics with domain separation supports domain configurations. For more information, see [Approaches to Performance Analytics with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-configurations.md).
+Only the Global approach to Performance Analytics with domain separation supports domain configurations. For more information, see [Approaches to Performance Analytics with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-domain-configurations.md).
 
 ## Data tables, process tables, and Run as user
 
 The **Run as** user always determines the domain context of where the data collection Job runs. If you are collecting scores only on data tables such as Incident \[incident\], set an administrator from the global domain as the **Run as** user. This user, and the data collector running under them, has full visibility of all data table records.
 
-A different approach is needed if you are collecting scores on a process domain. It is common practice to define process records such as business rules and SLAs on a process domain. In this case, a **Run as** user who is a global administrator has visibility only to global domain records of these tables. This limitation also impacts scores collected through [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), for example if a join is made to an SLA table like contract\_sla. In such cases, set a user with explicit visibility into the relevant process domains as the **Run as** user.
+A different approach is needed if you are collecting scores on a process domain. It is common practice to define process records such as business rules and SLAs on a process domain. In this case, a **Run as** user who is a global administrator has visibility only to global domain records of these tables. This limitation also impacts scores collected through [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), for example if a join is made to an SLA table like contract\_sla. In such cases, set a user with explicit visibility into the relevant process domains as the **Run as** user.
 
 ## Collection, roll-up, and aggregation options
 
@@ -73,16 +73,16 @@ The Performance Analytics – Domain Separation Support plugin adds the Domain C
 
 ## Transferring records between instances
 
-Use update sets to transfer domain configurations between instances. If the domain configuration has **Collect aggregate** enabled, also transfer the aggregation domain separately. For more information, see [Transfer domain configuration with score aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/transfer-aggregation-domains.md).
+Use update sets to transfer domain configurations between instances. If the domain configuration has **Collect aggregate** enabled, also transfer the aggregation domain separately. For more information, see [Transfer domain configuration with score aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/transfer-aggregation-domains.md).
 
--   **[Create a domain configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-domain-configuration.md)**  
+-   **[Create a domain configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-domain-configuration.md)**  
 Create a domain configuration to define which domains to collect scores from and how to store scores within the domain hierarchy.
--   **[Associate a domain configuration with a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/associate-domain-config-dc-job.md)**  
+-   **[Associate a domain configuration with a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/associate-domain-config-dc-job.md)**  
 To collect Performance Analytics indicator scores from the domains specified in a domain configuration, associate that domain configuration with a collection job.
--   **[Associate a domain configuration with a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/associate-domain-config-dashboard.md)**  
+-   **[Associate a domain configuration with a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/associate-domain-config-dashboard.md)**  
 Display a domain picker on a dashboard to enable users of that dashboard to view scores from specific domains.
--   **[Transfer domain configuration with score aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/transfer-aggregation-domains.md)**  
+-   **[Transfer domain configuration with score aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/transfer-aggregation-domains.md)**  
 To transfer between instances a Performance Analytics domain configuration that is set to aggregate scores, transfer both the configuration and the aggregation domain.
 
-**Parent Topic:**[Domain separation and Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWithDomainSeparation.md)
+**Parent Topic:**[Domain separation and Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PAWithDomainSeparation.md)
 

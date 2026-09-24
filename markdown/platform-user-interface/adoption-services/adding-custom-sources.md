@@ -3,11 +3,11 @@ title: Adding custom sources
 description: Extend Dynamic Guidance knowledge base by linking your custom sources or adding additional sources beyond the default ServiceNow product documentation. This enables Dynamic Guidance to provide answers based on your organization's specific documentation, knowledge articles, or other content repositories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/adding-custom-sources.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Dynamic Guidance, Adoption services, Configure user experiences]
 ---

@@ -3,11 +3,11 @@ title: Assess demands
 description: The Demand Management application comes with two demand visualization tools that can aid decision makers with demand assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/c\_AssessingDemands.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Por
 
 The Demand Management application comes with two demand visualization tools that can aid decision makers with demand assessment.
 
-The [demand workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandWorkbench.md) provides a single point of engagement for assessing and approving demands and creating projects, enhancements, changes, or defects. This page combines multiple views of demand information, including an interactive bubble chart and a detail area that displays the list of current demands. The demand roadmap is a visual representation of demands over time for an organization.
+The [demand workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/c_DemandWorkbench.md) provides a single point of engagement for assessing and approving demands and creating projects, enhancements, changes, or defects. This page combines multiple views of demand information, including an interactive bubble chart and a detail area that displays the list of current demands. The demand roadmap is a visual representation of demands over time for an organization.
 
 ## Using the Demand Workbench
 
@@ -30,7 +30,7 @@ To access the demand workbench, navigate to **All** &gt; **Demand** &gt; **Deman
 
 The roadmap is an interactive visualization tool that shows all demands that are currently in an active state. You can modify the look of the backlog using the Settings pane. The Settings pane enables you to change between the two-dimensional \(2D\) and three-dimensional \(3D\) view, filter demands by portfolio, or open the demands in a list view. While in list view, you can reassign panel colors, create filters to limit the records that are used for lanes and panels, and apply sorting. To use the roadmap, navigate to **All** &gt; **Demand** &gt; **Roadmap**.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

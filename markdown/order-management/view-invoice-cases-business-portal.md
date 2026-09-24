@@ -3,9 +3,9 @@ title: View invoice case details in the Business Portal
 description: View invoice case details, status, activity history, and attachments from the Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-invoice-cases-business-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
@@ -28,21 +28,21 @@ Role required: sn\_customerservice.customer
 
 4.  Select a case to view its state and other details.
 
-    For a description of the Invoice case lines list view, see [Invoice case details on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-header-list-view.md).
+    For a description of the Invoice case lines list view, see [Invoice case details on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/invoice-case-header-list-view.md).
 
-    For more information about invoice states, see [Invoice case states on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-states.md).
+    For more information about invoice states, see [Invoice case states on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/invoice-case-states.md).
 
 
 ## What to do next
 
-[Communicate and share supporting documents for an invoice case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-invoice-cases-bp.md)
+[Communicate and share supporting documents for an invoice case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/manage-invoice-cases-bp.md)
 
-**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 
 
-[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-management-configure-business-portal.md)
 
-[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-self-service-business-portal.md)
 

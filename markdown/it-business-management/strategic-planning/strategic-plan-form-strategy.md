@@ -3,11 +3,11 @@ title: Strategic Plan form
 description: Use the Strategic Plan form to define the purpose of your organization, its strategic priorities, and the associated goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/strategic-plan-form-strategy.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -26,5 +26,5 @@ Use the Strategic Plan form to define the purpose of your organization, its stra
 |Vision|A brief description about where your organization’s business will be at some point in the future, based on its strategies and associated goals.|
 |Mission|A brief description about what your organization’s objectives are and its approach to reach those objectives.|
 
-**Parent Topic:**[Strategy and Goals reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/strategy-goals-reference.md)
+**Parent Topic:**[Strategy and Goals reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/strategy-goals-reference.md)
 

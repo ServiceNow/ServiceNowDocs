@@ -3,13 +3,13 @@ title: Map an insight rule to a new scheduled script
 description: Map an insight rule to a new scheduled script to define the type of insight trigger. This insight trigger activates the associated insight rule to run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/map-new-scheduled-script-trigger.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an insight trigger, Creating insights, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Create an insight trigger, Create an insight rule, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Map an insight rule to a new scheduled script
@@ -20,7 +20,7 @@ Map an insight rule to a new scheduled script to define the type of insight trig
 
 This task must be performed in the classic environment.
 
-Create an insight rule. For more information, see [Create an insight rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-insight-rule.md).
+Create an insight rule. For more information, see [Create an insight rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-insight-rule.md).
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
@@ -47,10 +47,10 @@ An insight rule does not run unless it is mapped to an insight trigger.
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Create an insight trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-insight-trigger.md)
+**Parent Topic:**[Create an insight trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-insight-trigger.md)
 
 **Related topics**  
 
 
-[Automation Scheduled Trigger Execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/auto-sched-trigger-exe-form.md)
+[Automation Scheduled Trigger Execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/auto-sched-trigger-exe-form.md)
 

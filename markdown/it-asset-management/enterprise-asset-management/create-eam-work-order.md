@@ -3,13 +3,13 @@ title: Create a work order for an enterprise asset
 description: Create a work order to track and manage work for an enterprise asset, linear asset, linear segment, or asset group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-work-order.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a work order for an enterprise asset
@@ -34,7 +34,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
     If you created a maintenance plan to manage and schedule maintenance for your enterprise assets, the Enterprise Asset Management application automatically creates a corresponding work order for each asset to which the maintenance plan is applied.
 
-    For more information on maintenance plans, see [Create a maintenance plan for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-maintenance-plan.md).
+    For more information on maintenance plans, see [Create a maintenance plan for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eam-maintenance-plan.md).
 
 3.  On the form, fill in the fields.
 
@@ -123,7 +123,7 @@ Template
 
 </td><td>
 
-Work order template that you want to apply to this work order. Work order templates enable you to automatically populate information, generate appropriate tasks, and create part requirements for your work orders. See [Create a template for your Enterprise Asset Management work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-work-order-template.md) for more information on work order templates.
+Work order template that you want to apply to this work order. Work order templates enable you to automatically populate information, generate appropriate tasks, and create part requirements for your work orders. See [Create a template for your Enterprise Asset Management work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eam-work-order-template.md) for more information on work order templates.
 
  To apply a template to a work order in the draft state and view the work order tasks and part requirements generated from the template, the sn\_eam.enterprise\_asset\_manager role must ensure that the **Apply Work Order template in draft status** field in the Field Service Management application is enabled. To accomplish this, navigate to **All** &gt; **Field Service** &gt; **Administration** &gt; **Configuration** and enable the **Apply Work Order template in draft status** field in the **Business Process** tab.
 
@@ -179,19 +179,19 @@ Date and time at which the work order must be completed.
     -   Assets associated with the work order are listed on the **Affected assets** tab. If you selected an asset group, assets from parent asset groups and subgroups are also listed.
 5.  To add additional work order tasks, select **New** in the **Work Order Tasks** tab.
 
-    See [Create a work order task for an Enterprise Asset Management work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-work-order-task.md) for detailed instructions.
+    See [Create a work order task for an Enterprise Asset Management work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eam-work-order-task.md) for detailed instructions.
 
 6.  To track all items that you must complete for your work order or an associated work order task, create a checklist.
 
-    See [Create a checklist for an Enterprise Asset Management work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-checklist-items-eam-work-order.md) for detailed instructions.
+    See [Create a checklist for an Enterprise Asset Management work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-checklist-items-eam-work-order.md) for detailed instructions.
 
 7.  If the enterprise asset that is associated with your work order is missing a required asset or part, create a part requirement.
 
-    See [Create a part requirement for an Enterprise Asset Management work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-part-requirement-eam-work-order.md) for detailed instructions.
+    See [Create a part requirement for an Enterprise Asset Management work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-part-requirement-eam-work-order.md) for detailed instructions.
 
 8.  Specify any upstream or downstream task dependencies for the associated work order tasks.
 
-    See [Create dependencies for an Enterprise Asset Management work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-dependencies-eam-work-order-task.md) for detailed instructions.
+    See [Create dependencies for an Enterprise Asset Management work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-dependencies-eam-work-order-task.md) for detailed instructions.
 
 9.  Select **Ready to Work** to initiate work for the given work order
 

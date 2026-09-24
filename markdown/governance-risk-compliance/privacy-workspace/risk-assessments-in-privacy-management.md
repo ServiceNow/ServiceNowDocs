@@ -3,11 +3,11 @@ title: Risk assessments in Privacy Management
 description: You can perform risk assessments on your processing activities to determine their risk scores and find out the privacy risk posture of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/risk-assessments-in-privacy-management.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -45,12 +45,12 @@ The risk assessments results and the risk heatmaps appear on the processing acti
 
 \[Omitted image "risk-score-and-risk-heatmap.png"\] Alt text: Risk criticality score and risk heatmap view.
 
-To understand the details about how to perform the risk assessments, see [Privacy assessment configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-assessment-configurations.md).
+To understand the details about how to perform the risk assessments, see [Privacy assessment configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-assessment-configurations.md).
 
--   **[Risk Assessment Methodology \(RAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/risk-assessment-methodology-prm.md)**  
+-   **[Risk Assessment Methodology \(RAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/risk-assessment-methodology-prm.md)**  
 Risk Assessment Methodology \(RAM\) provides a systematic and repeatable approach to identifying, evaluating, and mitigating privacy risks associated with data processing activities.
--   **[Privacy assessment configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-assessment-configurations.md)**  
+-   **[Privacy assessment configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-assessment-configurations.md)**  
 To perform a processing activity criticality and privacy risk assessment, two risk assessment methodologies \(RAMs\) are provided by default.
 
-**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
+**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 

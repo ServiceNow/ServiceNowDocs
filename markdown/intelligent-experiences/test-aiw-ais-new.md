@@ -3,11 +3,11 @@ title: Preview an AI specialist in the new AI Agent Studio
 description: Run a preview of your AI specialist in the new AI Agent Studio on a single record to preview how it works and verify it matches your intentions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-aiw-ais-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, Enable AI experiences]
+breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Preview an AI specialist in the new AI Agent Studio
@@ -50,7 +50,7 @@ You can test an execution of the AI specialist on a single record to preview its
 
 7.  Verify that the AI specialist's performance meets your expectations.
 
-    See the Testing section in [General guidelines for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-ai-workforce.md) for more information about how to test your AI specialist.
+    See the Testing section in [General guidelines for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gg-ai-workforce.md) for more information about how to test your AI specialist.
 
 
 ## Result

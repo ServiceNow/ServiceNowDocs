@@ -3,11 +3,11 @@ title: Subscribe to content
 description: Subscribe to forums, topics, questions, blogs, and videos. You are automatically subscribed to content that you create.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/subscribe.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Community subscriptions, Using communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Subscribe to forums, topics, questions, blogs, and videos. You are automatically
 ## Before you begin
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -33,17 +37,17 @@ Role required: sn\_communities.community\_user
 
     When you point to this option, it becomes **Unsubscribed**.
 
-    You can also view your notifications and subscriptions and enable or disable them. For details, see [Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/manage-subscriptions.md).
+    You can also view your notifications and subscriptions and enable or disable them. For details, see [Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/manage-subscriptions.md).
 
 
-**Parent Topic:**[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-subscriptions.md)
+**Parent Topic:**[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/c_communities-subscriptions.md)
 
 **Related topics**  
 
 
 [Set notification preferences]()
 
-[Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/manage-subscriptions.md)
+[Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/manage-subscriptions.md)
 
-[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-subscriptions.md)
+[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/c_communities-subscriptions.md)
 

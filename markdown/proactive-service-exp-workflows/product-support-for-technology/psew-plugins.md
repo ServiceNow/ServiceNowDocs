@@ -3,11 +3,11 @@ title: Plugins installed with Proactive Service Experience Workflows
 description: The Proactive Service Experience Workflows plugin activates several related plugins if they aren’t already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/psew-plugins.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Getting started, Set up your environment, Configure, Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -38,10 +38,10 @@ The Proactive Service Experience Workflows plugin activates several related plug
 |sn-pd-picker \[com.sn\_pd\_picker\]|Picker component for Playground Designer and Flow Designer.|
 |sn-pill-field \[com.sn\_pill\_field\]|Pill Field component to display static entry or pill.|
 
-**Parent Topic:**[Getting started with Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/getting-started-psew.md)
+**Parent Topic:**[Getting started with Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/getting-started-psew.md)
 
 **Related topics**  
 
 
-[Install Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/install-assurance-workflows.md)
+[Install Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/install-assurance-workflows.md)
 

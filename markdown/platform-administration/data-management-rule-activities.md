@@ -3,9 +3,9 @@ title: Viewing rule activities
 description: View a summary of records in the backlog and the execution history for a specific rule on the table in context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/data-management-rule-activities.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analyze data usage, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---

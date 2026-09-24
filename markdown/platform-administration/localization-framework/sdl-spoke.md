@@ -3,11 +3,11 @@ title: RWS Translation Management System spoke
 description: The RWS Translation Management System spoke provides subflows and actions to localize the artifacts using the RWS translation management system service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/sdl-spoke.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Translation Management System configurations, Localization Framework settings, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -53,7 +53,7 @@ Ensure that you are registered with RWS TMS and obtain the credential informatio
 
 ## Connection and Credential alias requirements
 
-The IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Connections and Credentials Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
+The IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Connections and Credentials Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r-credentials.md).
 
 To use the spoke connection aliases, use an associated connection record and a credential record created with the RWS spoke installation.
 
@@ -64,7 +64,7 @@ The following are the connection alias requirements.
 -   Connection type: HTTP
 -   Connection URL: For example, `https://languagecloud.sdl.com`. This is a sample URL. Users can have a different URL based on their geographical preference.
 
-See [Configure RWS TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/configure-sdl-tms.md) to connect to the RWS TMS services and use them to localize the artifacts.
+See [Configure RWS TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/configure-sdl-tms.md) to connect to the RWS TMS services and use them to localize the artifacts.
 
-**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md)
+**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/tms-configuration.md)
 

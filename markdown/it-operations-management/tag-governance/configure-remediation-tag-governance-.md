@@ -1,18 +1,18 @@
 ---
-title: Configure remediation policies on tag audit findings
+title: Configure remediation policies for tag audit findings
 description: Configure and preview remediation options, generate keys, and perform actions to remediate non-compliance or failures that are based on tag audit reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/configure-remediation-tag-governance-.html
-release: australia
+release: brazil
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Establish policies, Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure remediation policies on tag audit findings
+# Configure remediation policies for tag audit findings
 
 Configure and preview remediation options, generate keys, and perform actions to remediate non-compliance or failures that are based on tag audit reports.
 
@@ -57,7 +57,7 @@ The list of CMDB classes for which you can update tags on CIs in the CMDB as wel
 5.  In the Tag Policies list, configure a remediation policy in one of the following ways:
 
     -   Select an existing tag policy from the lookup list.
-    -   Select **New**. Fill in fields on the Tag Policies form \(the fields are described in [Tag Policies form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/tag-gov-tag-policies-form.md).
+    -   Select **New**. Fill in fields on the Tag Policies form \(the fields are described in [Tag Policies form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-governance/tag-gov-tag-policies-form.md).
 
         **Note:** If you are creating a new tag policy, you must run an audit before you can run remediation flows.
 
@@ -69,7 +69,7 @@ The list of CMDB classes for which you can update tags on CIs in the CMDB as wel
 
 7.  Select the **Update Tags in Cloud** check box to apply remediation and update the tags in the relevant cloud provider environment for supported CMDB CI classes.
 
-    **Important:** The **Update Tags in Cloud** feature works only for AWS and Microsoft Azure Cloud resources for CMDB classes listed in the Tag Remediation form. See [Performing real-time updates to tags for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/tag-governance-real-time-updates.md).
+    **Important:** The **Update Tags in Cloud** feature works only for AWS and Microsoft Azure Cloud resources for CMDB classes listed in the Tag Remediation form. See [Performing real-time updates to tags for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-governance/tag-governance-real-time-updates.md).
 
 8.  On the Tag Remediation form, select **Submit**.
 

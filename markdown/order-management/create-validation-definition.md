@@ -3,9 +3,9 @@ title: Create a custom validation definition
 description: Provide a script that validates a context rule input or output in the decision table for a pricing or product eligibility matrix.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-validation-definition.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure matrix validation rules, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---

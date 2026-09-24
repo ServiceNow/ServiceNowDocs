@@ -3,11 +3,11 @@ title: Assign a learning path to agents
 description: Assign a learning path to one or more agents and add a due date for them to complete the path.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/assign-learning-path-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Learning, Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -42,15 +42,15 @@ Role required: sn\_wfo\_cfg\_itsm.manager
 
 6.  In the **Assign learning path** screen, assign the learning path to groups or team members.
 
-<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d347398e168">
+<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d355046e168">
 
 To
 
-</th><th align="left" id="d347398e171">
+</th><th align="left" id="d355046e171">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d347398e177">
+</th></tr></thead><tbody><tr><td id="d355046e177">
 
 **Assign the path to all groups that you directly and additionally manage**
 
@@ -58,7 +58,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d347398e189">
+</td></tr><tr><td id="d355046e189">
 
 **Assign the path to specific groups or team members**
 
@@ -66,7 +66,7 @@ Select **To my groups**.
 
 1.  Select **To specific groups or team members**.
 
-**Note:** If the course item is a quiz, the team members must have the [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/egd-landing-page.md) installed.
+**Note:** If the course item is a quiz, the team members must have the [Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/egd-landing-page.md) installed.
 
 2.  In the **Group assignment** field, select one or more groups to which the agents you want to assign this path to belong.
 3.  In the **Team member assignment** field, select one or more team members to which you want to assign the path.
@@ -82,5 +82,5 @@ Select **To my groups**.
     You can see the progress your agents have made as they work on a path.
 
 
-**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
+**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
 

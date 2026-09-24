@@ -3,11 +3,11 @@ title: Create an assessment and enhance digital resilience data
 description: Create an assessment of the Information and Communication Technology \(ICT\) service in Digital resilience third-party registers using Third-party Risk Management. Add details such as the contractual arrangement reference number, identification code, and type of code for the ICT third-party service provider. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-assmt.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -47,7 +47,7 @@ It's required that you review your contracts and third parties annually. You can
 
 4.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.md).
+    For descriptions of all these fields, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.md).
 
 5.  Select **Save**.
 
@@ -84,6 +84,6 @@ It's required that you review your contracts and third parties annually. You can
 
 Once all details are captured, you can perform the following tasks:
 
--   Download the information using the Microsoft Excel download feature. For more information, see [Create a Microsoft Excel download request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-request.md).
--   Upload updated records as needed. For more information, see [Update existing records in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-bulk-update.md).
+-   Download the information using the Microsoft Excel download feature. For more information, see [Create a Microsoft Excel download request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-request.md).
+-   Upload updated records as needed. For more information, see [Update existing records in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-bulk-update.md).
 

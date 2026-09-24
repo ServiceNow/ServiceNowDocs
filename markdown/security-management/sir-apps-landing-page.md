@@ -3,9 +3,9 @@ title: Enterprise security case management applications
 description: Enterprise security case management applications include Security Incident Response, a security orchestration and automation response \(SOAR\) solution that helps you rapidly respond to evolving threats while optimizing and orchestrating enterprise security operations. It eliminates the errors and friction inherent in manual hand-offs across systems, teams, and responsibilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sir-apps-landing-page.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Operations]
 ---
@@ -16,31 +16,31 @@ Enterprise security case management applications include Security Incident Respo
 
 ## Get started
 
-The following Security Incident Response applications are available with separate subscriptions from the ServiceNow® Store. See [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-and-store.md) for more information about how to locate, get entitlement, and download apps onto your instance.
+The following Security Incident Response applications are available with separate subscriptions from the ServiceNow® Store. See [Security Operations and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/secops-and-store.md) for more information about how to locate, get entitlement, and download apps onto your instance.
 
 <table id="table_ukz_qnx_y1c" class="nav-card"><tbody><tr><td>
 
-[Security Incident Response\[Omitted image "bus-flame.svg"\] Alt text:Learn about the Security Incident Response application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-landing-page.md)
+[Security Incident Response\[Omitted image "bus-flame.svg"\] Alt text:Learn about the Security Incident Response application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-landing-page.md)
 
 </td><td>
 
-[Major Security Incident Management\[Omitted image "bus-incident.svg"\] Alt text:Learn about the Major Security Incident Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
+[Major Security Incident Management\[Omitted image "bus-incident.svg"\] Alt text:Learn about the Major Security Incident Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
 
 </td><td>
 
-[Threat Intelligence\[Omitted image "bus-observable.svg"\] Alt text:Learn about the Threat Intelligence application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intel-landing-page.md)
+[Threat Intelligence\[Omitted image "bus-observable.svg"\] Alt text:Learn about the Threat Intelligence application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intel-landing-page.md)
 
 </td></tr><tr><td>
 
-[Threat Intelligence Security Center\[Omitted image "bus-management-console.svg"\] Alt text:Learn about the Threat Intelligence Security Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md)
+[Threat Intelligence Security Center\[Omitted image "bus-management-console.svg"\] Alt text:Learn about the Threat Intelligence Security Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md)
 
 </td><td>
 
-[Data Loss Prevention Incident Response\[Omitted image "bus-database.svg"\] Alt text:Learn about the Data Loss Prevention application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-landing.md)
+[Data Loss Prevention Incident Response\[Omitted image "bus-database.svg"\] Alt text:Learn about the Data Loss Prevention application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/dlp-landing.md)
 
 </td><td>
 
-[Shared features of Security Incident Response applications\[Omitted image "bus-explore.svg"\] Alt text:Learn about the features that are shared among the Security Incident Response applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
+[Shared features of Security Incident Response applications\[Omitted image "bus-explore.svg"\] Alt text:Learn about the features that are shared among the Security Incident Response applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sec-ops-common-functionality.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

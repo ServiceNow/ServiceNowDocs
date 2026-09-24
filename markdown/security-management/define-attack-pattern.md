@@ -3,9 +3,9 @@ title: Define an attack pattern
 description: Define an attack pattern to help categorize attacks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/define-attack-pattern.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Attack patterns, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d246768e80">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d246276e80">
 
 Field
 
-</th><th align="left" id="d246768e83">
+</th><th align="left" id="d246276e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d246768e89">
+</th></tr></thead><tbody><tr><td id="d246276e89">
 
 **Name**
 
@@ -42,7 +42,7 @@ Description
 
 Enter a descriptive name for this attack pattern.
 
-</td></tr><tr><td id="d246768e98">
+</td></tr><tr><td id="d246276e98">
 
 **Spec Version**
 
@@ -50,7 +50,7 @@ Enter a descriptive name for this attack pattern.
 
 The version of the STIX specification used to represent this object.The value of this property must be 2.1 for STIX Objects defined according to this specification.
 
-</td></tr><tr><td id="d246768e110">
+</td></tr><tr><td id="d246276e110">
 
 **Source**
 
@@ -58,7 +58,7 @@ The version of the STIX specification used to represent this object.The value of
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d246768e119">
+</td></tr><tr><td id="d246276e119">
 
 **Description**
 
@@ -66,7 +66,7 @@ Specifies the threat source from which this record is created.
 
 Enter a description of the attack pattern.
 
-</td></tr><tr><td id="d246768e129">
+</td></tr><tr><td id="d246276e129">
 
 **Aliases**
 
@@ -74,7 +74,7 @@ Enter a description of the attack pattern.
 
 Alternative names to identify this attack pattern.
 
-</td></tr><tr><td id="d246768e138">
+</td></tr><tr><td id="d246276e138">
 
 **Source ID**
 
@@ -82,7 +82,7 @@ Alternative names to identify this attack pattern.
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d246768e147">
+</td></tr><tr><td id="d246276e147">
 
 **Created Time in Source**
 
@@ -90,7 +90,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d246768e156">
+</td></tr><tr><td id="d246276e156">
 
 **Modified Time in Source**
 
@@ -219,5 +219,5 @@ Vulnerabilities
 Lists a weakness or defect in a software or hardware that attackers exploit which is associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Attack patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/attack-patterns.md)
+</table>**Parent Topic:**[Attack patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/attack-patterns.md)
 

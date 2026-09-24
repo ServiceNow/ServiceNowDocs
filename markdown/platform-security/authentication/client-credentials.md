@@ -3,11 +3,11 @@ title: Client Credentials
 description: Use the OAuth client credentials grant type for Inbound Integrations from a third party OAuth client to the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/client-credentials.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Old Inbound integrations experience, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---

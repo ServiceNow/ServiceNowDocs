@@ -3,11 +3,11 @@ title: Collecting DEX metrics
 description: Manage which Digital End-User Experience \(DEX\) metrics are collected for a DEX agent policy. Stop collecting a metric, or change how frequently metrics are collected for specific criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/managing-metrics-collection.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -27,5 +27,5 @@ Collecting metrics helps you proactively identify and resolve problems with your
 
 You can view and manage the metrics collected under DEX policies, such as an agent policy. Modify the metrics that you want to collect for a CI or scenario, or change how often a metric is collected.
 
-For details on how to create an agent policy, see [Create an agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/create-agent-policy.md).
+For details on how to create an agent policy, see [Create an agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/create-agent-policy.md).
 

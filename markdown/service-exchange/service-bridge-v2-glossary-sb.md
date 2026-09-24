@@ -3,12 +3,12 @@ title: Service Exchange glossary
 description: A list of terms used in Service Exchange.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-glossary-sb.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Service Exchange]
 ---
@@ -33,11 +33,6 @@ A feature that synchronizes file attachments between provider and consumer insta
 
 An individual user record that is permitted to access Service Exchange instances, as defined by the admins.
 
-**Related topics**  
-
-
-[Add an authorized user]()
-
 ## B
 
 Glossary terms are grouped alphabetically.
@@ -54,37 +49,17 @@ Glossary terms are grouped alphabetically.
 
 A person or an organization that receives services from a provider through Service Exchange.
 
-**Related topics**  
-
-
-[Service Exchange for Consumers]()
-
 ### consumer application
 
 A Service Exchange component installed on the consumer's instance that enables users to request services, track fulfillment, and exchange updates with their provider.
-
-**Related topics**  
-
-
-[Components installed with Service Exchange for Consumers]()
 
 ### consumer criteria
 
 A filter criteria that determine which consumers are entitled to specific Service Exchange content, such as catalog items or tasks.
 
-**Related topics**  
-
-
-[Create a consumer criteria]()
-
 ### configuration revision
 
-A versioned update to various [entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-glossary-sb.md), such as a remote record producer, remote task definition, or FDS offering, which enables providers to introduce new features without disrupting existing consumer entitlements.
-
-**Related topics**  
-
-
-[Configuring revisions]()
+A versioned update to various [entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-glossary-sb.md), such as a remote record producer, remote task definition, or FDS offering, which enables providers to introduce new features without disrupting existing consumer entitlements.
 
 ## D
 
@@ -102,11 +77,6 @@ Glossary terms are grouped alphabetically.
 
 A configuration mechanism in Service Exchange that determines which remote content, such as catalog items, record producers, remote tasks definitions, a consumer instance is allowed to access.
 
-**Related topics**  
-
-
-[Creating entitlements in Service Exchange for Providers]()
-
 ## F
 
 Glossary terms are grouped alphabetically.
@@ -115,19 +85,9 @@ Glossary terms are grouped alphabetically.
 
 A predefined automation step in Workflow Studio that helps manage repetitive tasks in Service Exchange.
 
-**Related topics**  
-
-
-[Flow action]()
-
 ### foundation data sync
 
 A mechanism for scheduled, structured synchronization of foundational data \(such as assets, users, or locations\) from provider to consumer instances.
-
-**Related topics**  
-
-
-[Foundation data sync]()
 
 ## H
 
@@ -137,11 +97,6 @@ Glossary terms are grouped alphabetically.
 
 A centralized UI that displays health of connected instances, the results of system health checks, errors, and scan statuses in Service Exchange.
 
-**Related topics**  
-
-
-[Service Exchange Center]()
-
 ## I
 
 Glossary terms are grouped alphabetically.
@@ -150,13 +105,6 @@ Glossary terms are grouped alphabetically.
 
 Automated tests that identify configuration issues or system inconsistencies in Service Exchange to help administrators maintain system health and reduce downtime.
 
-**Related topics**  
-
-
-[Instance scan checks]()
-
-[List of scan checks]()
-
 ## J
 
 Glossary terms are grouped alphabetically.
@@ -164,11 +112,6 @@ Glossary terms are grouped alphabetically.
 ### Journal Field Framework
 
 A framework that synchronizes journal-type fields, such as comments and work notes, between provider and consumer instances, preserving operational history and user attribution.
-
-**Related topics**  
-
-
-[Journal field frameworks]()
 
 ## K
 
@@ -186,11 +129,6 @@ Glossary terms are grouped alphabetically.
 
 A special URL that allows a consumer user to access a resource in the provider instance directly, bypassing manual login for a seamless experience.
 
-**Related topics**  
-
-
-[Magic links]()
-
 ## N
 
 Glossary terms are grouped alphabetically.
@@ -207,11 +145,6 @@ A person or an organization that supports service fulfillment on behalf of a pro
 
 A category used to define entitlement to catalog items or services by grouping authorized users.
 
-**Related topics**  
-
-
-[User roles for providers]()
-
 ### proactive case
 
 A case automatically generated to proactively notify and address impacted customers before they report an issue.
@@ -220,28 +153,13 @@ A case automatically generated to proactively notify and address impacted custom
 
 An organization or instance that offers and fulfills services for consumers using Service Exchange.
 
-**Related topics**  
-
-
-[Service Exchange for Providers]()
-
 ### provider application
 
 The Service Exchange component installed on the service provider's instance. It allows providers to publish service catalogs, manage requests, and fulfill tasks for consumers.
 
-**Related topics**  
-
-
-[Components installed with Service Exchange for Providers]()
-
 ### provider task
 
 A task created in the provider instance to fulfill a consumer request, with status and updates synchronized to the consumer instance.
-
-**Related topics**  
-
-
-[Provider tasks]()
 
 ## R
 
@@ -255,14 +173,9 @@ A task record initiates and monitors the status of a secure, bi-directional conn
 
 A catalog of services created by the provider and made available to consumers as catalog items in their own instance.
 
-**Related topics**  
-
-
-[Create remote catalogs in Service Exchange for providers]()
-
 ### remote record producer
 
-A configuration record that defines variables and inputs a consumer must provide to submit a request. When used, it creates a [provider task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-glossary-sb.md) on the provider instance and triggers the appropriate fulfillment action. Task updates remain visible in both the provider and consumer instances throughout the process.
+A configuration record that defines variables and inputs a consumer must provide to submit a request. When used, it creates a [provider task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-glossary-sb.md) on the provider instance and triggers the appropriate fulfillment action. Task updates remain visible in both the provider and consumer instances throughout the process.
 
 Also know as RRP.
 
@@ -275,19 +188,9 @@ Also know as RRP.
 
 A linked task that enables synchronization of incidents, cases, or service requests between provider and consumer instances.
 
-**Related topics**  
-
-
-[Remote tasks]()
-
 ### role
 
 A category assigned to a group or user to grant access to specific privileges in Service Exchange.
-
-**Related topics**  
-
-
-[User roles for providers]()
 
 ## S
 
@@ -297,19 +200,9 @@ Glossary terms are grouped alphabetically.
 
 A feature that allows providers and consumers to exchange additional structured data \(name-value pairs\) associated with tasks, synchronized automatically between instances.
 
-**Related topics**  
-
-
-[Using the Scratchpad for Service Exchange tasks]()
-
 ### Service Exchange
 
 An application that connects multiple ServiceNow instances \(provider, consumer, partner\) to enable seamless, bi-directional service delivery, collaboration, and data synchronization across organizational boundaries.
-
-**Related topics**  
-
-
-[Exploring Service Exchange]()
 
 ## T
 
@@ -318,11 +211,6 @@ Glossary terms are grouped alphabetically.
 ### transform framework
 
 A tool for mapping and converting data between provider and consumer instances during remote task synchronization in Service Exchange. Transforms can be created once and reused across all remote task definitions.
-
-**Related topics**  
-
-
-[Transform data with the Service Exchange transform framework]()
 
 ## V
 

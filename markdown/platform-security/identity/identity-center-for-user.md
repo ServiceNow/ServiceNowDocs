@@ -3,11 +3,11 @@ title: Identity Center for users
 description: View the details about your active sessions, login history, and trusted devices with the Identity Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/identity-center-for-user.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity Center, Identity]
 ---
@@ -41,9 +41,9 @@ The Identity Center page is displayed as follows:
 
 Identity Center has the following tabs:
 
--   [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/active-sessions.md)
--   [Login History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/login-history.md)
--   [Registered Mobile Devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/registered-mobile-devices.md)
+-   [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/active-sessions.md)
+-   [Login History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/login-history.md)
+-   [Registered Mobile Devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/registered-mobile-devices.md)
 
 You can select these tabs to view the details such browser, IP Addressees, session relation information, login information, your registered mobile devices.
 

@@ -3,9 +3,9 @@ title: Location types form
 description: The following table is a list of all location types provided by default that are available for selection in the location entity dialog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-location-types.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Location form, Entity Management forms, Investigative Case Management case forms, Investigative Case Management reference, Reference, Public Sector Digital Services \(PSDS\)]
 ---

@@ -3,11 +3,11 @@ title: Components installed with Sitemap Generator
 description: Several types of components are installed with activation of the Sitemap Generator plugin, including tables and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/sitemap-generator/installed-with-sitemap-generator.html
-release: australia
+release: brazil
 product: Sitemap Generator
 classification: sitemap-generator
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Sitemap Generator, Sitemap Generator, Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -74,5 +74,5 @@ UX Sitemap Definition
 Definitions that specify the content to include in a sitemap.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/activate-sitemap-generator.md)
+</table>**Parent Topic:**[Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/sitemap-generator/activate-sitemap-generator.md)
 

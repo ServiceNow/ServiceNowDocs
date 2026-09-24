@@ -3,7 +3,7 @@ title: Using Chat Zoom Connector
 description: Initiate a Zoom meeting directly from a chat by using the Chat Zoom Connector application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-chat-zoom-connector.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2023-08-03"
 reading_time_minutes: 1
@@ -14,15 +14,15 @@ breadcrumb: [Customer communication, Use, Customer Service Management]
 
 Initiate a Zoom meeting directly from a chat by using the Chat Zoom Connector application.
 
-As an agent you can initiate a Zoom meeting from a chat to understand and resolve customer issues faster through live interactions. For more information, see [Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-chat-zoom.md).
+As an agent you can initiate a Zoom meeting from a chat to understand and resolve customer issues faster through live interactions. For more information, see [Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/initiate-chat-zoom.md).
 
 By default, for each interaction record for a Zoom meeting, a Notify conference call number is also generated. As an agent, you or the agent manager can access the recording URL of the Zoom meeting from the activity stream of the interaction record.
 
-As an agent manager, you can access the details of Zoom meetings initiated from a customer chat using the Zoom interaction record. The meeting recordings are available in the interaction record created for Zoom. For more information, see [View details for Zoom meetings initiated from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-details-chat-zoom.md).
+As an agent manager, you can access the details of Zoom meetings initiated from a customer chat using the Zoom interaction record. The meeting recordings are available in the interaction record created for Zoom. For more information, see [View details for Zoom meetings initiated from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-details-chat-zoom.md).
 
 **Note:** The conference call details of a Zoom meeting are stored in the Notify Conference Calls \[notify\_conference\_call\] table.
 
-As a user in the notify\_admin or notify\_view role, you can access the details of a Zoom meeting by navigating to **Notify** &gt; **Recordings**, and selecting the corresponding conference call number. For more information, see [Notify conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_NotifyConferenceCalls.md).
+As a user in the notify\_admin or notify\_view role, you can access the details of a Zoom meeting by navigating to **Notify** &gt; **Recordings**, and selecting the corresponding conference call number. For more information, see [Notify conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_NotifyConferenceCalls.md).
 
 ## Chat Zoom Connector user roles
 
@@ -36,10 +36,10 @@ The users with the roles listed in the following table can use the Chat Zoom Con
 
 ## Activation information
 
-Configure the Chat Zoom Connector application for initiating Zoom meetings from customer chats. For more information, see [Configure Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-chat-zoom-connector.md).
+Configure the Chat Zoom Connector application for initiating Zoom meetings from customer chats. For more information, see [Configure Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-chat-zoom-connector.md).
 
 **Related topics**  
 
 
-[Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/chat-zoom-connector.md)
+[Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/chat-zoom-connector.md)
 

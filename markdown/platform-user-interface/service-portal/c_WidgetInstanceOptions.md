@@ -3,11 +3,11 @@ title: Widget option schema
 description: Widget instances allow users to uniquely configure each widget they add to a page. Use the option schema to define the parameters for your widget.Widget instances allow users to uniquely configure each widget they add to a page. Edit the option schema to define basic parameters for your widget.Create a table to store widget instance options instead of editing the existing option schema. When using a table as your widget option schema, you can define custom fields using any ServiceNow field type, add filters to fields, and search or query instance options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/c\_WidgetInstanceOptions.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Developing custom widgets, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -39,7 +39,7 @@ To use other field types not supported in the option schema, create an extension
 
 ## Using options in a widget
 
-Access options in the widget from both the client script and the server script using the **options** global variable. You can access any option value in your widget client script or server script using `options.optionName`.
+Access options in the widget from both the client script and the server script using the **options** global variable. You can access to any option value in your widget client script or server script using `options.optionName`.
 
 **Client script**
 
@@ -70,7 +70,7 @@ Before an option value is set on an instance, it appears as an undefined value w
 })
 ```
 
-**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
 
 ## Edit the widget option schema
 
@@ -112,7 +112,7 @@ Role required: admin or sp\_admin
 
     2.  Add the widget to a page and click the edit icon on the widget instance to view the instance options.
 
-    3.  [Configure the widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md).
+    3.  [Configure the widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md).
 
     4.  View the configuration by navigating to the instance record in the sp\_instance table.
 
@@ -197,5 +197,5 @@ To define a custom option schema, add fields to an sp\_instance extension table,
 
 ### What to do next
 
-Test the option schema by adding the widget to a page in the Service Portal Designer. Click the edit icon on the widget instance to view the instance options. After [configuring the widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md), view the configuration by navigating to the instance record in the sp\_instance extension table.
+Test the option schema by adding the widget to a page in the Service Portal Designer. Click the edit icon on the widget instance to view the instance options. After [configuring the widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/c_ConfigureWidgetInstances.md), view the configuration by navigating to the instance record in the sp\_instance extension table.
 

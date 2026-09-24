@@ -3,11 +3,11 @@ title: Installed with Orchestration ROI
 description: Several types of components are installed with the Orchestration - ROI plugin \(com.snc.runbook\_automation.roi\).Tables are added with activation of Orchestration ROI.Plugins are installed with activation of Orchestration ROI, if they are not already active.Roles are added with activation of Orchestration ROI.UI actions are added with activation of Orchestration ROI.Script includes are added with activation of Orchestration ROI.Client scripts are added with activation of Orchestration ROI.Business rules are added with activation of Orchestration ROI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_InstalledWithOrchestrationROI.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Orchestration ROI, Orchestration applications, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Orchestration ROI, Orchestration applications, Classic Orchestratio
 
 Several types of components are installed with the Orchestration - ROI plugin \(com.snc.runbook\_automation.roi\).
 
-**Parent Topic:**[Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationROI.md)
+**Parent Topic:**[Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationROI.md)
 
 ## Tables installed with Orchestration ROI
 
@@ -107,7 +107,7 @@ Cost Management\[com.snc.cost\_management\]
 
 </td><td>
 
-Provides the labor rate cards Orchestration ROI uses to determine the savings for each automated task. See [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_CostManagement.md) for more information.
+Provides the labor rate cards Orchestration ROI uses to determine the savings for each automated task. See [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/r_CostManagement.md) for more information.
 
 </td></tr></tbody>
 </table>## Roles installed with Orchestration ROI

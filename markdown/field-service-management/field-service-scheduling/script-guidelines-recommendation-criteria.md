@@ -3,11 +3,11 @@ title: Providing a script for custom task recommendation criteria
 description: Guidelines for creating scripts in recommendation criteria for an Intelligent Task Recommendation policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/script-guidelines-recommendation-criteria.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---

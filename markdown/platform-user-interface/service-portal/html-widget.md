@@ -3,11 +3,11 @@ title: HTML widget
 description: Use the HTML widget to directly inject HTML, text, lists, or content in general into a page. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/html-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -25,9 +25,9 @@ Because the HTML widget can contain content of any kind, any example may just ap
 |Field|Description|
 |-----|-----------|
 |Title|Name for the HTML text. Users do not see this information.|
-|HTML|Text box for the HTML. Use the toolbar like most word processing tool bars. For more information on using the toolbar, see [Formatting icons for the HTML field editors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_Formatting.md) .|
+|HTML|Text box for the HTML. Use the toolbar like most word processing tool bars. For more information on using the toolbar, see [Formatting icons for the HTML field editors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_Formatting.md) .|
 
-**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Customer Actions
 description: Use the Customer Actions tool to implement important security updates based on your instance and the configuration of plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/critical-updates.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security configuration console, Security Center, Platform Security]
 ---
@@ -32,7 +32,7 @@ Access this tool by navigating to **Customer Actions** within Security Center.
 
 -   **Create Task button**
 
-    Use the **+Create task** button to create a Security Task to complete a Customer Action. For details, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+    Use the **+Create task** button to create a Security Task to complete a Customer Action. For details, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md).
 
 -   **Overdue actions**
 
@@ -54,14 +54,14 @@ Access this tool by navigating to **Customer Actions** within Security Center.
     Select a tab to view a list of actions in each category.
 
 
-For details on how to review individual Customer Actions, see [View Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/view-activity-of-critical-updates.md).
+For details on how to review individual Customer Actions, see [View Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/view-activity-of-critical-updates.md).
 
-For information on how to apply the changes recommended by Customer Actions, see [Implement Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/implement-steps-for-critical-updates.md).
+For information on how to apply the changes recommended by Customer Actions, see [Implement Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/implement-steps-for-critical-updates.md).
 
--   **[Implement Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/implement-steps-for-critical-updates.md)**  
+-   **[Implement Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/implement-steps-for-critical-updates.md)**  
 Learn how to implement Customer Actions on your instance to increase its security posture.
--   **[View Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/view-activity-of-critical-updates.md)**  
+-   **[View Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/view-activity-of-critical-updates.md)**  
 See details of all of the activity related to your Customer Actions.
 
-**Parent Topic:**[Security configuration console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/homepage.md)
+**Parent Topic:**[Security configuration console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/homepage.md)
 

@@ -3,13 +3,13 @@ title: Configure ServiceNow AI Lens
 description: If you have the admin role, you can enable the ServiceNow AI Lens application \(sn\_ai\_lens\) to extract and comprehend data for various workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/install-sn-lens.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure ServiceNow AI Lens
@@ -44,7 +44,7 @@ The following items are installed with ServiceNow AI Lens:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/components-installed-sn-lens.md).
+For more information, see [Components installed with ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/components-installed-sn-lens.md).
 
 ## Procedure
 
@@ -69,5 +69,5 @@ The ServiceNow AI Lens and ServiceNow AI Lens Core applications are installed.
 
 ## What to do next
 
-Turn on the ServiceNow AI Lens skill to extract, comprehend, and synthesize visual data to optimize your workflows. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
+Turn on the ServiceNow AI Lens skill to extract, comprehend, and synthesize visual data to optimize your workflows. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
 

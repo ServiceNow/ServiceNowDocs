@@ -3,11 +3,11 @@ title: Cyber Risk Institute accelerator
 description: The Cyber Risk Institute \(CRI\) is focused to collaborate with the financial sectors and regulators to streamline standardization across risk management. For better cyber compliance management, CRI provides a CRI Profile with the financial sector consensus.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/cyber-risk-inst-accelerator.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -26,8 +26,8 @@ As part of the Cyber Risk Institute's \(CRI\) Accelerator, you can:
 
 For more information, see:
 
--   [Perform CRI tiering questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/perform-cri-tier-pc-ws.md).
--   [Verify the NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/verify-nist-csf.md).
+-   [Perform CRI tiering questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/perform-cri-tier-pc-ws.md).
+-   [Verify the NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/verify-nist-csf.md).
 
-**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)
+**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)
 

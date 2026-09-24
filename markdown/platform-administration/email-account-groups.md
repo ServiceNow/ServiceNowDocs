@@ -3,9 +3,9 @@ title: Multiple email readers
 description: Organize POP3/IMAP email accounts into email account groups \(subsets of email accounts\) that can be processed by multiple email reader jobs. To improve the performance of inbound email account processing, you can incrementally add email account groups and if needed, email reader jobs to process email account groups concurrently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-account-groups.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Email accounts, Create, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -39,19 +39,19 @@ After you review the processing times for your email account groups, determine w
 
 To set up email account group processing, you must have the email\_account\_admin or admin role.
 
--   **1. [Create email account groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-account-group.md).**
+-   **1. [Create email account groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-email-account-group.md).**
 
     Define one or more email account groups that contain a subset of your POP3/IMAP email accounts. Your base system includes a default email account group. Any POP3/IMAP accounts not contained in an email account group are processed as part of the default email account group.
 
--   **2. [Enable email account group processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-group-processing.md)**
+-   **2. [Enable email account group processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/enable-group-processing.md)**
 
     Navigate to sys\_properties.list and locate the **glide.email.inbound.account\_group\_processing** system property. Set the **Value** to **true**. The email reader job starts processing the email account groups that you created.
 
--   **3. [Monitor email account group processing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitor-email-account-groups.md)**
+-   **3. [Monitor email account group processing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/monitor-email-account-groups.md)**
 
     Check the status of your email account groups to see if processing time has been reduced. Determine whether the additional groups sufficiently reduce account processing time or consider adding another email reader job to further reduce processing time.
 
--   **4. [Create an email reader job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-reader-job.md).**
+-   **4. [Create an email reader job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-email-reader-job.md).**
 
     As part of fine-tuning email account group processing, create an email reader job to process email account groups concurrently, in addition to the default email reader job.
 

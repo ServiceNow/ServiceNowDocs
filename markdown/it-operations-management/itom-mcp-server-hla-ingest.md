@@ -3,9 +3,9 @@ title: MID-less log ingestion for HLA from an MCP Client
 description: Set up MID-less log ingestion integrations for Health Log Analytics \(HLA\) directly from an AI-enabled MCP Client, without opening the ServiceNow UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-mcp-server-hla-ingest.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]
 ---
@@ -43,9 +43,9 @@ MID-less ingestion integration setup is part of the ITOM MCP Server Console work
 **Related topics**  
 
 
-[Set up MID-less log ingestion using an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-mcp-server-hla-ingest-setup.md)
+[Set up MID-less log ingestion using an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-mcp-server-hla-ingest-setup.md)
 
-[Use the ITOM MCP Server Console to perform ITOM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/use-itom-mcp-server.md)
+[Use the ITOM MCP Server Console to perform ITOM tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/use-itom-mcp-server.md)
 
-[MID-less log streaming for HLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md)
+[MID-less log streaming for HLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md)
 

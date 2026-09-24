@@ -3,11 +3,11 @@ title: Components created with new service categories
 description: When you publish a new service category using the Service Creator application, the ServiceNow system creates components for the services in that category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/r\_CompsCreatedWithNewSvcCategs.html
-release: australia
+release: brazil
 product: Service Creator
 classification: service-creator
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Service Creator, Service Creator, Build workflows]
 ---

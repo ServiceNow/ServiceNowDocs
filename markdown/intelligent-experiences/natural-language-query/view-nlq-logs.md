@@ -3,13 +3,13 @@ title: View NLQ logs
 description: Review NLQ logs to see how the system has handled your users' plain-language requests. Use log records from attempted requests to expand NLQ synonyms or shortcuts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/view-nlq-logs.html
-release: australia
+release: brazil
 product: Natural Language Query
 classification: natural-language-query
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring NLQ, Natural Language Query, Enable AI experiences]
+breadcrumb: [Configuring NLQ, Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # View NLQ logs
@@ -41,9 +41,9 @@ Every natural language query is logged in the **NLQ Query Logs** table \[nlq\_qu
 
 ## What to do next
 
-Based on your users' attempted queries, consider adding more [synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/create-nlq-synonym.md) or [shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/create-nlq-shortcut.md).
+Based on your users' attempted queries, consider adding more [synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query/create-nlq-synonym.md) or [shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query/create-nlq-shortcut.md).
 
-**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
+**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
 
 **Related topics**  
 

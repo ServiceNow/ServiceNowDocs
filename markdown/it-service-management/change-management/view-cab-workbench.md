@@ -3,11 +3,11 @@ title: View the CAB calendar
 description: The CAB calendar provides an overview of your CAB meeting schedule to help with planning and managing CAB meetings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/view-cab-workbench.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
@@ -32,7 +32,7 @@ You can view the CAB calendar to view and attend specific meetings.
 
 2.  You can perform the following actions from the CAB calendar.
 
-<table id="choicetable_z5r_pbm_jx"><tbody><tr><td id="d370104e86">
+<table id="choicetable_z5r_pbm_jx"><tbody><tr><td id="d378022e86">
 
 **View the calendar**
 
@@ -40,7 +40,7 @@ You can view the CAB calendar to view and attend specific meetings.
 
 Click the options in the top right of the CAB calendar to display the calendar in daily, weekly, or monthly view.
 
-</td></tr><tr><td id="d370104e95">
+</td></tr><tr><td id="d378022e95">
 
 **View CAB meeting details at a glance**
 
@@ -48,7 +48,7 @@ Click the options in the top right of the CAB calendar to display the calendar i
 
 Click a specific CAB meeting to view details such as the CAB manager, meeting start time, and meeting end time.
 
-</td></tr><tr><td id="d370104e104">
+</td></tr><tr><td id="d378022e104">
 
 **Attend a specific CAB meeting**
 
@@ -58,5 +58,5 @@ Click the meeting you want to attend and click **Open** to launch the meeting.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-cab-workbench-cf.md)
+**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/using-cab-workbench-cf.md)
 

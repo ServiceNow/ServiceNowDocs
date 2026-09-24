@@ -3,13 +3,13 @@ title: Fulfill repair orders by using an agentic workflow
 description: You can use the help repair enterprise assets agentic workflow to help you manage and complete the troubleshooting and repair of your defective enterprise assets. The workflow uses a collection of AI agents to automatically generate comprehensive troubleshooting, diagnostics, and repair instructions for these assets. The workflow uses also uses these AI agents to automatically validate, update, and close relevant tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Fulfilling repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
@@ -17,11 +17,11 @@ breadcrumb: [Fulfilling repair orders in the Enterprise Asset Workspace, Manage 
 
 You can use the help repair enterprise assets agentic workflow to help you manage and complete the troubleshooting and repair of your defective enterprise assets. The workflow uses a collection of AI agents to automatically generate comprehensive troubleshooting, diagnostics, and repair instructions for these assets. The workflow uses also uses these AI agents to automatically validate, update, and close relevant tasks.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-**Note:** Before you use the help repair enterprise assets agentic workflow, you can configure and activate it based on your organization's needs. For detailed instructions, see [Configure and activate agentic workflows for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/configure-activate-agentic-workflows-eam.md).
+**Note:** Before you use the help repair enterprise assets agentic workflow, you can configure and activate it based on your organization's needs. For detailed instructions, see [Configure and activate agentic workflows for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/configure-activate-agentic-workflows-eam.md).
 
-**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Help repair enterprise assets agentic workflow overview
 
@@ -32,13 +32,13 @@ The help repair enterprise assets agentic workflow helps you manage and complete
 -   Increases troubleshooting and repair completion rates.
 -   Enhances and simplifies the user experience.
 
-**Important:** You can enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+**Important:** You can enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md).
 
 **Important:** By default, all agentic workflows and AI agent records are read-only.
 
 ## Role masking
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## Validating repair asset tasks
 
@@ -73,15 +73,15 @@ Enterprise asset repair initiation
 1.  A user with the sn\_eam.asset\_technician role requests the repair of a defective enterprise asset through one of the following options:
     -   The Service Catalog application
 
-For more information on this request option, see [Request repair of enterprise assets using Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/repair-req-eam-assets-using-catalog.md).
+For more information on this request option, see [Request repair of enterprise assets using Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/repair-req-eam-assets-using-catalog.md).
 
     -   The Inventory view of the Enterprise Asset Workspace
 
-For more information on this request option, see [Create repair orders for enterprise assets in the Inventory view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/repair-orders-for-eam-assets-in-inventory-view.md).
+For more information on this request option, see [Create repair orders for enterprise assets in the Inventory view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/repair-orders-for-eam-assets-in-inventory-view.md).
 
     -   The Repair option on the corresponding asset record
 
-For more information on this request option, see [Request repair of an enterprise asset using the Repair option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/repair-requests-using-asset-form-eam.md).
+For more information on this request option, see [Request repair of an enterprise asset using the Repair option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/repair-requests-using-asset-form-eam.md).
 
 2.  A repair order and corresponding repair order line are created.
 3.  A troubleshooting-based repair asset task is automatically generated for the repair order line.
@@ -97,7 +97,7 @@ Repair asset task assignment
     -   If the task is already assigned to a user, the user assignment can be updated.
 2.  After the user assignment is added or updated, the help repair enterprise assets agentic workflow invokes automatically.
 
-**Note:** If the trigger to invoke the workflow is deactivated, the workflow must be invoked manually. For instructions on how to activate or deactivate this trigger, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
+**Note:** If the trigger to invoke the workflow is deactivated, the workflow must be invoked manually. For instructions on how to activate or deactivate this trigger, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md).
 
 **Note:** The progress of the workflow is updated and displayed in the ServiceNow Otto panel. Users can access the panel by selecting the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] Alt text: on the page header of their ServiceNow instance.
 
@@ -108,7 +108,7 @@ Repair asset task validation
 
 </td><td>
 
-The asset next best action AI agent validates the repair asset task.**Note:** For the complete list of validation criteria, refer to [Validating repair asset tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
+The asset next best action AI agent validates the repair asset task.**Note:** For the complete list of validation criteria, refer to [Validating repair asset tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
 
 -   If the validation is successful, the workflow can proceed with helping the user troubleshoot the asset.
 -   If the validation is unsuccessful, the task must be updated and then re-validated.
@@ -127,19 +127,19 @@ After the repair asset task is successfully validated, the workflow helps the us
 3.  The user who is assigned to the repair asset task must perform all troubleshooting steps to determine the asset issue.
 4.  In the ServiceNow Otto panel, the AI agent asks the user to confirm if the troubleshooting steps helped with determining the asset issue.
 5.  Depending on if the troubleshooting steps helped the user, the workflow proceeds as follows:
-    -   If the troubleshooting steps helped, the AI agent asks the user to confirm whether the asset is repairable, unrepairable, or redeployable. The workflow then proceeds to [step 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
+    -   If the troubleshooting steps helped, the AI agent asks the user to confirm whether the asset is repairable, unrepairable, or redeployable. The workflow then proceeds to [step 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
 
 **Note:** If the user confirms that the asset is repairable, a corresponding repair-based repair asset task is automatically generated. The user is automatically assigned to this task.
 
-    -   If the troubleshooting steps did not help, the AI agent refines its web search. The workflow then returns to [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
+    -   If the troubleshooting steps did not help, the AI agent refines its web search. The workflow then returns to [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
 6.  The AI agent requests details about the asset issue.
 7.  After the user provides all necessary details, the repair asset task is closed.
 
 **Note:** You can view details about the completed troubleshooting steps in the work notes of the repair asset task.
 
 8.  Depending on whether the asset is repairable, unrepairable, or redeployable, the workflow proceeds as follows:
-    -   If the asset is repairable, the workflow proceeds with [helping the user repair it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
-    -   If the asset is unrepairable, the user must dispose of it. For more information on asset disposals, see [Create a disposal order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md).
+    -   If the asset is repairable, the workflow proceeds with [helping the user repair it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
+    -   If the asset is unrepairable, the user must dispose of it. For more information on asset disposals, see [Create a disposal order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md).
     -   If the asset is redeployable, the user can help redeploy it.
 
 </td></tr><tr><td>
@@ -148,7 +148,7 @@ Repair asset task validation
 
 </td><td id="repair">
 
-If the user confirmed that the asset is repairable, the asset next best action AI agent validates the corresponding repair-based repair asset task that was automatically generated.**Note:** For the complete list of validation criteria, refer to [Validating repair asset tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
+If the user confirmed that the asset is repairable, the asset next best action AI agent validates the corresponding repair-based repair asset task that was automatically generated.**Note:** For the complete list of validation criteria, refer to [Validating repair asset tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
 
 -   If the validation is successful, the workflow can proceed with helping the user repair the asset.
 -   If the validation is unsuccessful, the task must be updated and then re-validated.
@@ -167,14 +167,14 @@ After the repair asset task is successfully validated, the workflow helps the us
 3.  The user who is assigned to the repair asset task must perform the repair steps.
 4.  In the ServiceNow Otto panel, the AI agent asks the user to confirm if the repair steps helped with resolving the asset issue.
 5.  Depending on if the repair steps helped the user, the workflow proceeds as follows:
-    -   If the repair steps helped, the AI agent asks the user to confirm whether the asset was repaired, unrepairable, or redeployable. The workflow then proceeds to [step 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
-    -   If the repair steps did not help, the AI agent refines its web search. The workflow then returns to [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
+    -   If the repair steps helped, the AI agent asks the user to confirm whether the asset was repaired, unrepairable, or redeployable. The workflow then proceeds to [step 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
+    -   If the repair steps did not help, the AI agent refines its web search. The workflow then returns to [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md).
 6.  The repair asset task is closed.
 
 **Note:** You can view details about the completed repair steps in the work notes of the repair asset task.
 
-    -   If the repair asset task is closed with a resolution of Repaired, a corresponding Evaluate asset task is automatically generated. The user must then evaluate the repair to confirm if the asset is redeployable or must be disposed of. For more information on evaluating an asset repair, see [Evaluate the repaired asset in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/evaluate-repaired-eam-asset-ws.md).
-    -   If the repair asset task is closed with a resolution of Unrepairable, the user must dispose of the asset. For more information on asset disposals, see [Create a disposal order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md).
+    -   If the repair asset task is closed with a resolution of Repaired, a corresponding Evaluate asset task is automatically generated. The user must then evaluate the repair to confirm if the asset is redeployable or must be disposed of. For more information on evaluating an asset repair, see [Evaluate the repaired asset in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/evaluate-repaired-eam-asset-ws.md).
+    -   If the repair asset task is closed with a resolution of Unrepairable, the user must dispose of the asset. For more information on asset disposals, see [Create a disposal order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md).
     -   If the repair asset task is closed with a resolution of Redeployable, the user can help redeploy it.
 
 </td></tr></tbody>
@@ -221,5 +221,5 @@ Repair asset AI agent
 -   Updates and closes repair-based repair asset tasks.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Fulfilling repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/fulfilling-repair-orders-eam.md)
+</table>**Parent Topic:**[Fulfilling repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/fulfilling-repair-orders-eam.md)
 

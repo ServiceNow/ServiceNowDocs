@@ -3,11 +3,11 @@ title: View Security Incident Management dashboard
 description: With this dashboard, security managers can easily track the volume, performance and progress of security incidents from initial analysis/detection to containment, eradication, and recovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-security-incident-management-dashboard.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View SIR Workspace Dashboards, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,6 +30,6 @@ Role required: sn\_si.analyst
 
     \[Omitted image "security-incident-management-dashboard.png"\] Alt text: Security Incident Management dashboard
 
-    View the Security Incident Management dashboard for further action. For detailed information on Security Incident Management dashboard, see [Security Incident Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-mgmt-dashboard.md)
+    View the Security Incident Management dashboard for further action. For detailed information on Security Incident Management dashboard, see [Security Incident Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-mgmt-dashboard.md)
 
 

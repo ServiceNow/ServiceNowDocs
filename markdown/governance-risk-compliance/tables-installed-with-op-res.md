@@ -3,10 +3,10 @@ title: Tables installed with Operational Resilience
 description: Several types of tables are installed with the Operational Resilience application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/tables-installed-with-op-res.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -30,16 +30,6 @@ Several types of tables are installed with the Operational Resilience applicatio
 |Importance impact tolerance assessment \[sn\_oper\_res\_importance\_impact\_tolerance\_assessment\]|Importance of the impact tolerance assessment.|
 |Incident \[sn\_oper\_res\_incident\]|Incident registered due to an event.|
 |Issue \[sn\_oper\_res\_issue\]|Issue logged due to an event.|
-|M2M tables|
-|Service mapping \[sn\_oper\_res\_m2m\_scenario\_analysis\_service\_mapping\]|Many-to-many relationship table that maps scenario analyses to service mapping configurations.|
-|Dependency mapping \[sn\_oper\_res\_m2m\_scenario\_analysis\_dependency\_mapping\]|Many-to-many relationship table that maps scenario analyses to dependency mapping configurations.|
-|Scenario analysis \[sn\_oper\_res\_m2m\_scenario\_analysis\_scenario\]|Many-to-many relationship table that links scenario analyses to related scenarios.|
-|Reference data \[sn\_oper\_res\_m2m\_scenario\_analysis\_reference\_data\]|Many-to-many relationship table that maps scenario analyses to reference data.|
-|Supporting tables|
-|Issues \[sn\_oper\_res\_scenario\_issues\]|Issues logged and tracked in relation to a scenario analysis.|
-|Model profile \[sn\_oper\_res\_statistical\_model\_profile\]|Profile configuration for a statistical model used in scenario analysis.|
-|Model registry \[sn\_oper\_res\_statistical\_model\_registry\]|Registry of statistical models available for use in scenario analysis.|
-|Model parameter \[sn\_oper\_res\_statistical\_model\_parameter\]|Parameters defined for a statistical model used in scenario analysis.|
 |M2M analysis participant \[sn\_oper\_res\_m2m\_analysis\_participant\]|Association between analysis and participant.|
 |M2M analysis scenario event \[sn\_oper\_res\_m2m\_analysis\_scenario\_event\]|Association between analysis and scenario event.|
 |M2M scenario analysis service \[sn\_oper\_res\_scenario\_analysis\_service\]|Association between scenario and analysis service.|
@@ -47,7 +37,7 @@ Several types of tables are installed with the Operational Resilience applicatio
 |M2M service importance impact tolerance assessment \[sn\_oper\_res\_m2m\_service\_importance\_impact\_tolerance\_assessment\]|Association between service and importance of the impact tolerance assessment.|
 |Operational Resilience profile \[sn\_oper\_res\_profile\]|Operational Resilience entity.|
 |Profile type \[sn\_grc\_profile\_type\]|List of all GRC entity types.|
-|Risk \[sn\_oper\_res\_risk\]|Risk defined in the application. Starting with the Xanadu release \(Release 19.0.4\), the Advanced Risk Assessment \(ARA\) integration with Operational Resilience uses the **Status** field. When an entity is shared between Operational Resilience and ARA, and ARA has highest risk rating with a **Completed** status, a record is created for the ARA integration. The record is stored in the \[sn\_oper\_res\_risk\] table.|
+|Risk \[sn\_oper\_res\_risk\]|Risk defined in the application. Starting with the Xanadu release \(Release 19.0.4\), the Advanced Risk Assessment \(ARA\) integration with Operational Resilience uses the **Status** field. When an entity is shared between Operational Resilience and Advanced Risk Assessment \(ARA\), a record is created for ARA integration if ARA has the highest risk rating with a **Completed** status. The record is stored in the \[sn\_oper\_res\_risk\] table.|
 |Scenario \[sn\_oper\_res\_scenario\]|Scenario defined in the application.|
 |Scenario analysis \[sn\_oper\_res\_scenario\_analysis\]|Scenario analysis defined in the application.|
 |Service impact analysis \[sn\_oper\_res\_service\_impact\_analysis\]|Service impact analysis defined in the application.|

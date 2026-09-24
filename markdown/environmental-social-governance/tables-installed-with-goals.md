@@ -3,9 +3,9 @@ title: Roles installed with the Goal Framework
 description: Several roles are installed with activation of the Goal Framework plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/tables-installed-with-goals.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -112,5 +112,5 @@ Can create, view, edit, and delete any goal.
 -   sn\_gf.strategy\_planner
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/reference-data-esg.md)
+</table>**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/reference-data-esg.md)
 

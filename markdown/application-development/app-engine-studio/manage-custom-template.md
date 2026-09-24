@@ -3,13 +3,13 @@ title: Update custom template contents and properties
 description: Improve the effectiveness of your custom template by updating its contents or properties in App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/manage-custom-template.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Use an app template, Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Update custom template contents and properties
@@ -28,15 +28,15 @@ Role required: admin, app\_template\_author
 
 3.  Modify different aspects of the template to make them more useful to your needs.
 
-<table id="choicetable_wsx_gfk_ptb"><thead><tr><th align="left" id="d248974e85">
+<table id="choicetable_wsx_gfk_ptb"><thead><tr><th align="left" id="d241894e85">
 
 Choice
 
-</th><th align="left" id="d248974e88">
+</th><th align="left" id="d241894e88">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d248974e94">
+</th></tr></thead><tbody><tr><td id="d241894e94">
 
 **Update the template contents**
 
@@ -47,14 +47,14 @@ Procedure
 
 For more information, see the following topics:
 
-    -   [Modify application data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-data.md)
-    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
-    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md)
-    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md)
+    -   [Modify application data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/edit-data.md)
+    -   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-experience.md)
+    -   [Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-automation.md)
+    -   [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-security.md)
 3.  Select **Save template**.
 
 
-</td></tr><tr><td id="d248974e187">
+</td></tr><tr><td id="d241894e187">
 
 **Update the template properties**
 
@@ -69,7 +69,7 @@ For more information, see the following topics:
 4.  Select **Save properties**.
 
 
-</td></tr><tr><td id="d248974e246">
+</td></tr><tr><td id="d241894e246">
 
 **Update template sharing settings**
 
@@ -82,7 +82,7 @@ For more information, see the following topics:
 3.  On the General tab, select **Save properties**.
 
 
-</td></tr><tr><td id="d248974e290">
+</td></tr><tr><td id="d241894e290">
 
 **Update content on the Template details page**
 
@@ -96,7 +96,7 @@ For more information, see the following topics:
 4.  Select **Save properties**.
 
 
-</td></tr><tr><td id="d248974e333">
+</td></tr><tr><td id="d241894e333">
 
 **Delete the custom template**
 
@@ -108,5 +108,5 @@ To delete the custom template, ensure you have administrator privileges or have 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md)
+**Parent Topic:**[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/use-app-template.md)
 

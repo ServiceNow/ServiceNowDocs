@@ -3,11 +3,11 @@ title: Group data by breakdown definitions
 description: Each project can have a set of breakdown definitions that you can use to group the data in KPIs. These breakdown definitions provide the specifications for Performance Analytics breakdowns that you eventually create.Provide the functional description of how to build an actual Performance Analytics breakdown in a breakdown definition. Once an appropriate Performance Analytics breakdown exists, you can link to it in the breakdown definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/add-breakdowns-project.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -17,9 +17,13 @@ breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fu
 Each project can have a set of breakdown definitions that you can use to group the data in KPIs. These breakdown definitions provide the specifications for Performance Analytics breakdowns that you eventually create.
 
 Prerequisites
-:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
+:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
 
 ## Before you begin
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \(any project\), admin. No role required for responsible user or user with edit access from project sharing.
 
@@ -65,11 +69,11 @@ By holding down the Ctrl/Command or Alt/Option key while dropping a breakdown de
     Remove the breakdown definition from the artifact on which is dropped and from all child artifacts of that artifact.
 
 
-**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/add-personas-project.md)
+**Previous topic:**[Add personas to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/add-personas-project.md)
 
-**Next topic:**[Write journal entries for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/write-journal-entries-kpi-composer.md)
+**Next topic:**[Write journal entries for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/write-journal-entries-kpi-composer.md)
 
 ## Define a breakdown
 

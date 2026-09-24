@@ -3,9 +3,9 @@ title: Use the SetProperties component
 description: Set multiple properties within a JSON object by using the SetProperties component in the RPA Desktop Design Studio. You can also override a property within the JSON object.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-json-setproperties.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [JSON, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties of the SetProperties component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-utilities-json.md).
+To configure the properties of the SetProperties component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/properties-utilities-json.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ To configure the properties of the SetProperties component, see [Properties of t
 
 7.  Click **OK**.
 
-8.  To provide the values for the property names, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+8.  To provide the values for the property names, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 9.  Connect the data and control ports of the SetProperties component to the corresponding ports of the other components as described in the following table.
 
@@ -126,5 +126,5 @@ Returns a JSON object with updated or new values for multiple properties.
 </table>10. To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/json.md)
 

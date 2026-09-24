@@ -3,11 +3,11 @@ title: Add output variables to scripted steps
 description: Execute the following steps to add additional outputs in Run Server Side Script and Custom Scripted StepConfig test steps.Modify the test scripts of Run Server Side Script test step to create additional outputs of your choice.Copy the Custom Scripted StepConfig test step and customize the copied version by adding additional outputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/scripting\_atf.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Step configurations, Administration, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Step configurations, Administration, Automated Test Framework \(ATF
 
 Execute the following steps to add additional outputs in Run Server Side Script and Custom Scripted StepConfig test steps.
 
-**Parent Topic:**[Step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/step-configurations-module.md)
+**Parent Topic:**[Step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/step-configurations-module.md)
 
 ## Adding outputs in Run Server Side Script test step
 
@@ -142,7 +142,7 @@ Role required: admin or atf\_test\_admin
 
     2.  Modify **Step execution script** to add more output variables.
 
-    See [Adding outputs in Run Server Side Script test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/scripting_atf.md) to add more output variables.
+    See [Adding outputs in Run Server Side Script test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/scripting_atf.md) to add more output variables.
 
     **Note:** You can use these steps to customize the test step only in the copied version.
 

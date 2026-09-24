@@ -3,11 +3,11 @@ title: Configure outbound foundation data sync as consumers
 description: Foundation data sync \(FDS\) consumers share foundational data with a provider by creating FDS definitions, acknowledging requests, and publishing subscriptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/using-provider-bound-fds-consumer.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -34,7 +34,7 @@ Description
 
 </td><td>
 
-[Create an FDS Definition.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-provider-bound-fds-consumer.md)
+[Create an FDS Definition.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-create-provider-bound-fds-consumer.md)
 
 </td><td>
 
@@ -46,7 +46,7 @@ Define the data that you share with your provider.After you create and publish a
 
 </td><td>
 
-[Acknowledge FDS requests and send a sample payload.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-con-acknowledge-fds-request.md)
+[Acknowledge FDS requests and send a sample payload.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-con-acknowledge-fds-request.md)
 
 </td><td>
 
@@ -58,7 +58,7 @@ After receiving an FDS request from your provider, acknowledge it and send a sam
 
 </td><td>
 
-[Publish subscriptions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-publish-con-fds-subscription.md)
+[Publish subscriptions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-publish-con-fds-subscription.md)
 
 </td><td>
 
@@ -68,5 +68,5 @@ After the provider accepts the subscription, publish it. After the FDS configura
 </table>**Related topics**  
 
 
-[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
+[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
 

@@ -3,11 +3,11 @@ title: Guidelines for translated dashboards
 description: Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable. When working with language plugins, refer to these guidelines to make sure users can find your translated dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/guidelines-translated-dbs.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,12 +22,12 @@ Users can only find translated dashboards under certain configurations. You can 
 
     The search function only works for translated dashboards when the instance uses the MySQL database and the dashboard translation is provided.
 
-    Learn more: [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
+    Learn more: [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateALanguage.md).
 
 -   **Translate a dashboard's title**
 
     Open the dashboard, select the target language in your preferences, and in the dashboard's properties, enter the translated name of the dashboard. Other users can now find the dashboard using its localized name.
 
-    Learn more: [Solving issues on translated dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/solving-issues-translated-dashboards.md).
+    Learn more: [Solving issues on translated dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/solving-issues-translated-dashboards.md).
 
 

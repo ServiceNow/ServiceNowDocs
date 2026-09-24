@@ -3,11 +3,11 @@ title: AI voice agent service mapping with KBA
 description: Specify the questions used for caller identification and authentication with a specific AI voice agent service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-kba-service-mappings.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure KBA, Knowledge-based authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
@@ -20,7 +20,7 @@ Specify the questions used for caller identification and authentication with a s
 
 Role required: auth\_factors\_admin
 
-Service mappings are created automatically when KBA questions are selected in AI Voice Assistant Designer. You can also create and manage mappings directly in this table. Changes made here are reflected on the Caller Verification screen in Assistant Designer instantly. To learn more about voice services and how to create and manage them, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md).
+Service mappings are created automatically when KBA questions are selected in AI Voice Assistant Designer. You can also create and manage mappings directly in this table. Changes made here are reflected on the Caller Verification screen in Assistant Designer instantly. To learn more about voice services and how to create and manage them, see .
 
 ## Procedure
 

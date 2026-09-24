@@ -3,11 +3,11 @@ title: Configure article helpful widget instance options
 description: Configure the Knowledge Article Helpful widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-knowledge-article-helpful.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management Service Portal widgets, Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,7 +39,7 @@ The article view page uses the Knowledge Article Helpful widget to allow users t
     |Instance option|Description|
     |---------------|-----------|
     |Bootstrap color|The color of the widget header.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/scss-primer.md).|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/scss-primer.md).|
     |Show helpful percentage information|Check box to enable the display of percentage of users who found this article to be helpful.|
     |Helpful Action Label|Label for marking this article as helpful or not.|
     |Feedback Message|Text that displays when the user marks the article as helpful or not.|
@@ -47,5 +47,5 @@ The article view page uses the Knowledge Article Helpful widget to allow users t
 5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

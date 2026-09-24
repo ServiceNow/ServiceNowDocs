@@ -3,9 +3,9 @@ title: Constrain the assigned to field by role
 description: This example shows how to use JavaScript and a business rule to restrict the incident Assigned to field choices to only the users with the itil\_admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ExJavaScriptLimitAssignedToField.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure reference qualifiers, Reference qualifiers, Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

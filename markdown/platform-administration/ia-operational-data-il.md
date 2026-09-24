@@ -3,11 +3,11 @@ title: Operational data
 description: Configure departments, locations, users, groups, and roles to establish the foundation for your ServiceNow implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-operational-data-il.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Platform module configuration, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure the Platform module, Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Operational data
@@ -89,5 +89,5 @@ Define roles for users and groups to control access permissions, leveraging smar
 
 **Note:** You can't modify the details of any existing role nor can you create a new role.
 
-**Parent Topic:**[Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
+**Parent Topic:**[Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-config-platform-il.md)
 

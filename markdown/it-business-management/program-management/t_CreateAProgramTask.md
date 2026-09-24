@@ -3,11 +3,11 @@ title: Create a program task
 description: You can create program tasks from the Program form related lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/program-management/t\_CreateAProgramTask.html
-release: australia
+release: brazil
 product: Program Management
 classification: program-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a program to manage projects and demands, Program Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -143,7 +143,7 @@ Work notes
 
 </td><td>
 
-Enter work notes about the milestones, impediments, or changes as the program progresses.**Note:** Users with the business stakeholder role for PPM can view this field. For more information, see [Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/business-stakeholder-role-ppm.md).
+Enter work notes about the milestones, impediments, or changes as the program progresses.**Note:** Users with the business stakeholder role for PPM can view this field. For more information, see [Business stakeholder role for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/business-stakeholder-role-ppm.md).
 
 </td></tr></tbody>
 </table>|Field|Description|
@@ -152,7 +152,7 @@ Enter work notes about the milestones, impediments, or changes as the program pr
 |Actual end date|The date that this program ended. This date is populated after you update the program state to Closed Complete.|
 |Actual duration|The actual duration of the program from program start to program closure. As with planned duration, the actual duration shows total program time.|
 
-**Parent Topic:**[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_CreateAProgram.md)
+**Parent Topic:**[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/t_CreateAProgram.md)
 
 **Related topics**  
 

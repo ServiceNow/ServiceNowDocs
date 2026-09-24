@@ -3,11 +3,11 @@ title: Monitor Walk-up Experience queues
 description: Once you check in at a location, you are notified of the wait time and your position in the queue. You can view the issues being serviced and the queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-monitor-queues.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Walk-up Experience, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
 
 # Monitor Walk-up Experience queues

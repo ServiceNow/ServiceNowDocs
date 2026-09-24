@@ -3,11 +3,11 @@ title: Event collection from custom payloads
 description: The MID WebService Event Collector enables you to collect event information from custom payloads in JSON, XML, or plain text format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/event-collection-custom-payloads.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -24,15 +24,15 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-The MID Server transforms the collected event messages and populates the Event table fields \(em\_table\) in the instance. The collection of formatted event messages is described in this procedure using basic authentication. For information about supported authentication methods, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
+The MID Server transforms the collected event messages and populates the Event table fields \(em\_table\) in the instance. The collection of formatted event messages is described in this procedure using basic authentication. For information about supported authentication methods, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
-The format of the required MID Server URL is: `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/em/inbound_event?Transform={Transform_script_name}`. The name of the MID Server script include is composed by appending a suffix to the default `TransformEvents_` prefix. For information about the collection of JSON v2 event messages, see [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-em-context-extension.md).
+The format of the required MID Server URL is: `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/em/inbound_event?Transform={Transform_script_name}`. The name of the MID Server script include is composed by appending a suffix to the default `TransformEvents_` prefix. For information about the collection of JSON v2 event messages, see [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-em-context-extension.md).
 
 **Note:** The URL in the format `http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/em/{transform_script_name}`is also supported.
 
 ## Procedure
 
-1.  Configure the MID WebService Event Collector, see [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-em-context-extension.md).
+1.  Configure the MID WebService Event Collector, see [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-em-context-extension.md).
 
 2.  Start the MID WebService Event Collector.
 
@@ -78,7 +78,7 @@ Example showing XML formatted event messages:
 **Related topics**  
 
 
-[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
+[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
 
-[Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-em-context-extension.md)
+[Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-em-context-extension.md)
 

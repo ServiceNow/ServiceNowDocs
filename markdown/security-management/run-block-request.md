@@ -3,9 +3,9 @@ title: Run Block Request
 description: Blocks communication with observables associated with a security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/run-block-request.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration- Block Request capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -89,5 +89,5 @@ Option to specify the severity assigned to the indicator in CrowdStrike when the
     \[Omitted image "run-block-request-worknote.png"\] Alt text: Block Request work note example
 
 
-**Parent Topic:**[Security Operations Integration- Block Request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/block-request-capability.md)
+**Parent Topic:**[Security Operations Integration- Block Request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/block-request-capability.md)
 

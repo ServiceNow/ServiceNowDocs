@@ -3,11 +3,11 @@ title: Explore
 description: Threat Intelligence Security Center \(TISC\) enables you to collaborate with threat intelligence teams by collecting, processing, and analyzing threat intelligence feeds in a centralized workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/threat-intelligence-security-center-overview.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Threat Intelligence Security Center, Security Operations]
 ---
@@ -251,17 +251,17 @@ Securely share threat intelligence within and across organizations using automat
 -   sn\_sec\_tisc.admin
 
 </td></tr></tbody>
-</table>-   **[TISC Key terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-key-terminology.md)**  
+</table>-   **[TISC Key terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-key-terminology.md)**  
 Key terms and definitions used in TISC to help you understand threat intelligence concepts and navigate the interface effectively.
--   **[TISC Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-threat-intelligence-security-center-homepage.md)**  
+-   **[TISC Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/view-threat-intelligence-security-center-homepage.md)**  
 View a centralized dashboard of threat intelligence data including feeds overview, trending threats, and intelligence sharing metrics. Monitor your security posture with trending intelligence data.
 
 **Related topics**  
 
 
-[Configuring Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-configure.md)
+[Configuring Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-configure.md)
 
-[Download TISC application from ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-download-app-first-time.md)
+[Download TISC application from ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-download-app-first-time.md)
 
-[Set up Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/set-up-threat-intelligence-security-center.md)
+[Set up Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/set-up-threat-intelligence-security-center.md)
 

@@ -3,11 +3,11 @@ title: Update indicators in Microsoft Defender for Endpoint
 description: Update the existing indicators in Microsoft Defender for Endpoint from the list context-menu or from the form view of the Microsoft Defender Indicator respectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/update-indicator-in-microsoft-defender-for-endpoint-using-the-microsoft-defender-indicator-form-view.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create indicators, Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_si.admin, sn\_si.analyst
 
     **Note:**
 
-    You must configure the related list for the Microsoft Defender Indicators, which would appear in the Security Incident related lists. For more information, see [Form UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui-setup-form-uiaction.md).
+    You must configure the related list for the Microsoft Defender Indicators, which would appear in the Security Incident related lists. For more information, see [Form UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui-setup-form-uiaction.md).
 
 3.  Update the Microsoft Defender for Endpoint indicators in one of the following ways:
 

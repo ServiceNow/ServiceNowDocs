@@ -3,11 +3,11 @@ title: Upgrade Kubernetes Visibility Agent Informers remotely
 description: Upgrade Kubernetes Visibility Agent Informer pods in Kubernetes clusters remotely from the ServiceNow Instance to avoid dependence on your Kubernetes admin. You can upgrade a single Informer or multiple Informers together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-informer-upgrade-remote.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Kubernetes, Visibility, Informer, upgrade, remote, Cloud Native Operations for Visibility, CNO for Visibility]
 breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
@@ -35,15 +35,15 @@ Role required: discovery\_admin
 
     **Note:** Only Informers with the value Upgrade Pending in the **Upgrade Status** field can be upgraded. The running status of the Informers must be either Up or Paused.
 
-<table id="choicetable_l24_ctl_sbc"><thead><tr><th align="left" id="d84794e159">
+<table id="choicetable_l24_ctl_sbc"><thead><tr><th align="left" id="d85255e159">
 
 Upgrade
 
-</th><th align="left" id="d84794e162">
+</th><th align="left" id="d85255e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d84794e168">
+</th></tr></thead><tbody><tr><td id="d85255e168">
 
 **One Informer**
 
@@ -53,7 +53,7 @@ Steps
 2.  In the Related Links section of the form, select **Upgrade Informer**.
 
 
-</td></tr><tr><td id="d84794e189">
+</td></tr><tr><td id="d85255e189">
 
 **Multiple Informers**
 
@@ -69,5 +69,5 @@ Steps
     When an upgraded pod connects to the Instance, the **Informer Version** field displays the new version number. The **Upgrade Status** field displays Desired image in use.
 
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cnov-deploy-install.md)
 

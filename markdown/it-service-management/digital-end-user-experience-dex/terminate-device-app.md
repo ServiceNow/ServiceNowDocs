@@ -3,13 +3,13 @@ title: Terminate a process on your device
 description: Terminate a process on your device to boost performance and free up valuable resources for smoother operation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/terminate-device-app.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Terminate a process on your device
@@ -24,6 +24,9 @@ Role required: sn\_dex.engineer or sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the Devices icon \(\[Omitted image "icon-devices.png"\] Alt text: Devices icon\).
 
 3.  Select the device for which you want to terminate a process.
@@ -50,6 +53,4 @@ The process is terminated.
 ## What to do next
 
 In the contextual side panel, select the Playbook icon \(\[Omitted image "icon-playbook.png"\] Alt text: Playbook icon\) to access the current device action and to review the action execution history of the device.
-
-**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-remedial-actions.md)
 

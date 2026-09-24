@@ -3,9 +3,9 @@ title: Normal values
 description: A normal value replaces similar but ambiguous field values with one standard value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_WhatFieldNormalizationDoes.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -70,7 +70,7 @@ Each Normal value record specifies how to identify variations of a normal value 
 
 ## Normalized queries
 
-An administrator can configure normalization to apply to queries issued against normalized fields in lists. Select the **Normalize query** check box on the Normalization form to enable this functionality. In a list containing normalized values, [Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md) using the original \(raw\) value for the normalized field in the query condition.
+An administrator can configure normalization to apply to queries issued against normalized fields in lists. Select the **Normalize query** check box on the Normalization form to enable this functionality. In a list containing normalized values, [Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md) using the original \(raw\) value for the normalized field in the query condition.
 
 The filtered list returns records with the normal value substituted for the raw value. However, the breadcrumbs for the filter display the original query conditions.
 
@@ -81,5 +81,5 @@ Scripts that update or insert records into the database \(GlideRecord\) are norm
 **Related topics**  
 
 
-[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md)
+[bundle-crapiref.c_GlideRecord]
 

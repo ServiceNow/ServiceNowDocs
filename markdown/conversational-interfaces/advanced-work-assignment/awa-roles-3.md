@@ -3,11 +3,11 @@ title: AWA integration user \[awa\_integration\_user\]
 description: The AWA integration user uses the AWA integration APIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-roles-3.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Work Assignment roles, Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

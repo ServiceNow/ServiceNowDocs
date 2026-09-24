@@ -3,9 +3,9 @@ title: Application file protection policy
 description: A read-only protection policy prevents anyone from modifying an application file or its related record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ProtectingApplicationFiles.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application files, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

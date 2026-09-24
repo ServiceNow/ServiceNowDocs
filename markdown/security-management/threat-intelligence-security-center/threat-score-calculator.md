@@ -3,11 +3,11 @@ title: Define Threat Score Calculator
 description: Define threat score for the observable\(s\) records that are generated based on the user defined parameters. The base system is provisioned with one threat scoring rule, which can be customized and enabled accordingly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/threat-score-calculator.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Custom Threat Score Calculator in TISC, About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -147,7 +147,7 @@ Use this option to add, edit, or remove, and enable and disable criteria that co
     -   For any update events that are generating for observables as part of **Re-calculate History**, the processing of webhooks is disabled and in case if you want to enable then modify this system property `webhook_ignore_threat_score_reapply`.
 5.  Click **Ok**.
 
-    **Important:** This action will trigger a long running job and the system will not allow you to make any further changes to the threat scoring rule until the job completes. For more information on how background job configuration is configured, see [Vulnerability Response background job framework configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-background-framework.md).
+    **Important:** This action will trigger a long running job and the system will not allow you to make any further changes to the threat scoring rule until the job completes. For more information on how background job configuration is configured, see [Vulnerability Response background job framework configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-background-framework.md).
 
     The following is the **Use Script \(Advanced\)** script: Use this script to build a custom script that should return the threat score within the range of 0-100.
 
@@ -179,5 +179,5 @@ Use this option to add, edit, or remove, and enable and disable criteria that co
     \[Omitted image "tisc-threat-score-vr-background-job-schedule.png"\] Alt text: Background job configuration for a threat scoring rule
 
 
-**Parent Topic:**[Custom Threat Score Calculator in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/using-custom-threat-score-calculator.md)
+**Parent Topic:**[Custom Threat Score Calculator in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/using-custom-threat-score-calculator.md)
 

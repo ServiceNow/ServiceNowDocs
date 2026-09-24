@@ -3,11 +3,11 @@ title: PowerShell troubleshooting
 description: Authentication and access denied errors can prevent PowerShell activities from running a command on a target host.This example uses the Create AD Object activity to illustrate troubleshooting authentication failure in PowerShell.This example uses the Create Mailbox activity to illustrate troubleshooting authentication failure in PowerShell.Typically, this error is logged when running a PowerShell script/command that uses WinRM or WMI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/powershell-troubleshooting.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [PowerShell protocols and troubleshooting, PowerShell activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Use these procedures for troubleshooting authentication failures with Orchestrat
 
 \[Omitted image "AuthenticationErrorMsg.png"\] Alt text: Authentication error message
 
-**Parent Topic:**[PowerShell protocols and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/powershell-protocols.md)
+**Parent Topic:**[PowerShell protocols and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/powershell-protocols.md)
 
 ## Authentication failure in an Active Directory activity
 

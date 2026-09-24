@@ -3,11 +3,11 @@ title: Schedule and retrieve alerts for the Splunk Enterprise Event Ingestion in
 description: For automated alert ingestion profiles, this step is final step of the event profile configuration. During this step, you can verify the default settings for alert retrieval or modify the scheduling as needed. This step permits you to filter your alert retrieval based on a date range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-schedule.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create an event profile, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -40,15 +40,15 @@ In the Splunk Enterprise console, you set an alert to trigger that is based on i
 
 2.  Choose one to schedule how and when alerts are pulled from the Splunk Enterprise console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d202019e126">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d201556e126">
 
 Option
 
-</th><th align="left" id="d202019e129">
+</th><th align="left" id="d201556e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d202019e135">
+</th></tr></thead><tbody><tr><td id="d201556e135">
 
 **-   On-going Alert field selected
 -   One-Time Retrieval field cleared
@@ -58,7 +58,7 @@ Description
 
 On-going AlertBased on the default setting, the ServiceNow AI Platform instance pulls from the Splunk Enterprise server for new alerts every five minutes. Security incidents are created if triggered alerts are found and filtering criteria are matched. To balance alert ingestion against server load, and to pull the most current data, five minutes is the setting you may prefer. However, this value can be modified as needed.
 
-</td></tr><tr><td id="d202019e162">
+</td></tr><tr><td id="d201556e162">
 
 **-   On-going alert field cleared
 -   One-Time Retrieval field selected
@@ -94,5 +94,5 @@ After the alerts are pulled, this setting will not retrieve triggered alerts for
     A confirmation dialog is displayed. You have successfully completed the setup and configuration for the integration. This profile is activated, and it pulls alerts from the Splunk Enterprise console based on your scheduling. There is a limit of 1,000 security incidents that can be created in a 24-hour period. Up to 100 events are per fired alert. Subsequent events will be ignored after the limits are reached.
 
 
-**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
+**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
 

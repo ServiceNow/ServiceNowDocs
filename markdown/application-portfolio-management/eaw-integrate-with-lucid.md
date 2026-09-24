@@ -3,9 +3,9 @@ title: Enterprise Architecture Workspace integration with Lucidchart
 description: Create enhanced architectural diagrams for your Business Applications and Business Capabilities in Lucidchart and access them from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-integrate-with-lucid.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Enterprise Architecture Workspace with other applications, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -31,15 +31,15 @@ The Lucidchart integration enhances the Architectural Artifacts functionality to
 
 To create a diagram in Lucidchart and associate it with an Architectural Artifact in Enterprise Architecture Workspace, you must install the following store applications from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
 
--   [Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/lucidchart-spoke.md) - Helps to establish a connection between ServiceNow and Lucidchart. It provides an action to create Lucidchart diagrams in Enterprise Architecture. The Lucidchart Diagramming spoke requires creating a workspace and custom app in your Lucid account to generate OAuth 2.0 tokens to authenticate ServiceNow requests. Also, you must create a connection and credential record for the Lucidchart application to authorize the create diagram action from Enterprise Architecture. For detailed information, see [Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/lucidchart-spoke.md), [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-lucidchart.md), and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-conn-cred-lucidchart.md).
+-   [Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/lucidchart-spoke.md) - Helps to establish a connection between ServiceNow and Lucidchart. It provides an action to create Lucidchart diagrams in Enterprise Architecture. The Lucidchart Diagramming spoke requires creating a workspace and custom app in your Lucid account to generate OAuth 2.0 tokens to authenticate ServiceNow requests. Also, you must create a connection and credential record for the Lucidchart application to authorize the create diagram action from Enterprise Architecture. For detailed information, see [Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/lucidchart-spoke.md), [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-lucidchart.md), and [Create a connection and credential alias for the Lucidchart diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-conn-cred-lucidchart.md).
 -   Lucidchart Integration – Helps to create Business Application or Business Capability diagrams in Lucidchart. You can also configure the shapes and colors of the entities to appear in Lucidchart. Install the application from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home)
 
-**Parent Topic:**[Integrating Enterprise Architecture Workspace with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-integrate-eaw-with-other-apps.md)
+**Parent Topic:**[Integrating Enterprise Architecture Workspace with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-integrate-eaw-with-other-apps.md)
 
 **Related topics**  
 
 
-[Create a Lucidchart diagram for a business capability in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-cap.md)
+[Create a Lucidchart diagram for a business capability in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-lucid-diagram-cap.md)
 
-[Create a Lucidchart diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
+[Create a Lucidchart diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
 

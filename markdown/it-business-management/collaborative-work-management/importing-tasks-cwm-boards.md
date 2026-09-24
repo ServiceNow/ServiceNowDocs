@@ -3,11 +3,11 @@ title: Task import into CWM Boards using ServiceNow Otto
 description: Save time and effort by importing tasks or stories from a spreadsheet or document into a Collaborative Work Management Board. ServiceNow Otto proposes column mapping so you can bring existing work onto a Board without manually recreating each row.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/importing-tasks-cwm-boards.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Import tasks, ServiceNow Otto, CWM, bulk import]
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -104,5 +104,5 @@ The available target columns in the mapping step depend on the record type that 
 
 ## Get started
 
-[Import existing tasks into a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/import-tasks-cwm-board.md).
+[Import existing tasks into a CWM Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/import-tasks-cwm-board.md).
 

@@ -3,11 +3,11 @@ title: Enroll for the Password Reset program using questions and answers
 description: Your organization might ask you to select the questions to use when resetting your password. You select the questions and provide answers that only you know. At another time, when you reset your password, your answers verify your identity. You can enroll on a mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_EnrollUsingASecurityQuestion.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enrolling in the Password Reset application to reset your password, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ The list of questions is presented in the language that you requested while logg
 
     For more information about enrolling using different methods, see the following topics:
 
-    -   [Enroll for the Password Reset program using SMS codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_EnrollUsingSMS.md)
-    -   [Enroll for the Password Reset program using an authenticator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/authenticator-app-verification.md)
-    -   [Enroll for the Password Reset program using emailed codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/enroll-email-verification.md)
+    -   [Enroll for the Password Reset program using SMS codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_EnrollUsingSMS.md)
+    -   [Enroll for the Password Reset program using an authenticator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/authenticator-app-verification.md)
+    -   [Enroll for the Password Reset program using emailed codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/enroll-email-verification.md)
 

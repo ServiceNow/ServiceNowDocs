@@ -3,11 +3,11 @@ title: Calculate software licenses using the legacy Software Asset Management pl
 description: Software calculations use license calculation types to determine how software licenses are counted in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/r\_CalculateSoftwareLicenses.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [License calculations with the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -22,7 +22,7 @@ You can use the default license types provided by the legacy Software Asset Mana
 |-----|-----------|
 |Name|The name of the license type.|
 |Query table|The table that is being used for data. Possible values are Software install and Software usage.|
-|Count by|The calculation type by which the [license calculation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/r_LicenseCalculationTypes.md) counts software licenses.|
+|Count by|The calculation type by which the [license calculation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/r_LicenseCalculationTypes.md) counts software licenses.|
 
-**Parent Topic:**[License calculations with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UseLicenseCalculations.md)
+**Parent Topic:**[License calculations with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_UseLicenseCalculations.md)
 

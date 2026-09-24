@@ -1,18 +1,18 @@
 ---
-title: Schedule a job to generate TLM technology risk
-description: Execute the  Populate Technology Lifecycle Risks scheduled job to generate the Technology Lifecycle Management \(TLM\) technology lifecycle risks and populate the result in the TLM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
+title: Schedule a job to generate TPM technology risk
+description: Execute the  Populate Technology Lifecycle Risks scheduled job to generate the TPM technology lifecycle risks and populate the result in the TPM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Schedule a job to generate TLM technology risk
+# Schedule a job to generate TPM technology risk
 
-Execute the  **Populate Technology Lifecycle Risks** scheduled job to generate the Technology Lifecycle Management \(TLM\) technology lifecycle risks and populate the result in the TLM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
+Execute the  **Populate Technology Lifecycle Risks** scheduled job to generate the TPM technology lifecycle risks and populate the result in the TPM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ The scheduled job populates the risk scores for business applications \(BA\), ap
 
 The scores of software products and hardware models are calculated based on their lifecycle dates \(EOS, EOES, EOL\), where 100 is the maximum score. The sum of the related software and hardware risk score is the risk score of an application service. And, the sum of the related application service risk score is considered as the risk score of a business application.
 
-These risk scores are displayed in the risk column of a TLM Gantt chart. The same scores for a business application is served as an application weight for calculating Technology Lifecycle Risk indicator score for a fiscal period.
+These risk scores are displayed in the risk column of a TPM Gantt chart. The same scores for a business application is served as an application weight for calculating Technology Lifecycle Risk indicator score for a fiscal period.
 
 ## Procedure
 
@@ -41,5 +41,5 @@ These risk scores are displayed in the risk column of a TLM Gantt chart. The sam
 3.  Select  **Execute Now**.
 
 
-**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
+**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-tpm.md)
 

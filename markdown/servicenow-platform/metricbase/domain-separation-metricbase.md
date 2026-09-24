@@ -3,11 +3,11 @@ title: Domain separation and MetricBase
 description: Domain separation is supported in the MetricBase application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/domain-separation-metricbase.html
-release: australia
+release: brazil
 product: MetricBase
 classification: metricbase
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,9 +26,9 @@ Domain separation is supported in the MetricBase application. Domain separation 
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/reference-metricbase.md)
+**Parent Topic:**[MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/reference-metricbase.md)
 
 **Related topics**  
 
@@ -37,5 +37,5 @@ For more information on support levels, see [Application support for domain sepa
 
 [MetricBase roles]()
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

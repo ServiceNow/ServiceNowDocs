@@ -3,11 +3,11 @@ title: Configure navigation actions for NLQ Genius Result answer cards
 description: Configure the navigation actions that trigger when a user selects View full table on an NLQ Genius Result action card. Each navigation action includes a redirection payload and can optionally include filters for a table's name, the NLQ source that returned the table, or the search profile used by the search application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-nav-action-nlq-grs.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [NLQ Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -138,5 +138,5 @@ Optional table filter for the navigation action. The action only operates for th
 </table>4.  Select **Update** if you're editing an existing navigation action record, or **Submit** if you're creating a new one.
 
 
-**Parent Topic:**[NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-nlq-ais.md)
+**Parent Topic:**[NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/genius-result-nlq-ais.md)
 

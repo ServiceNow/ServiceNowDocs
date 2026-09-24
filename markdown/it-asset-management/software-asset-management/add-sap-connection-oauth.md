@@ -3,11 +3,11 @@ title: Establish an SAP connection using OAuth 2.0
 description: Create a connection profile to establish a connection between your SAP system and your ServiceNow instance using OAuth 2.0 authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/add-sap-connection-oauth.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -21,7 +21,7 @@ Create a connection profile to establish a connection between your SAP system an
 Before establishing a connection between SAP and your ServiceNow instance, make sure that the following conditions are met:
 
 -   Verify if your SAP system network is accessible to external applications like ServiceNow.
--   If external connections are blocked, install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md).
+-   If external connections are blocked, install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-installation.md).
 
 If you already have a MID Server installed in the network and connected to your ServiceNow instance, this SAP connection automatically uses it.
 
@@ -55,7 +55,7 @@ Default price list
 
 </td><td>
 
-Default price list that should be considered for reconciliation.
+Default price list that should be considered for reconciliation.**Note:** If connecting to SAP S/4HANA Cloud Private Edition, select **SAP S/4HANA Private Cloud**. For more information, see [Price Lists for Private Cloud](https://support.sap.com/en/my-support/systems-installations/glac/private-cloud-metering/price-lists-pce.html).
 
 </td></tr><tr><td>
 
@@ -276,10 +276,12 @@ The SAP connection is established.
 
 You can start creating software models and entitlements.
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
+
+[SAP publisher pack integration architecture]()
 
 [Tables installed with the SAP publisher pack]()
 
@@ -287,9 +289,9 @@ You can start creating software models and entitlements.
 
 [Establish an SAP connection using basic authentication]()
 
-[Create entitlements for SAP]()
-
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

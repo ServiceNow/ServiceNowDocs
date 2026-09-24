@@ -3,9 +3,9 @@ title: Add a beneficiary to a social benefits application in Social Benefits Pla
 description: As an agent, you can add multiple beneficiaries to an existing request for social benefits. Applicants, or the representatives of an applicant, can also add additional beneficiaries to an application through the Government Service Portal. Beneficiaries are people that share the household or are related to the applicant who will benefit from the assistance being provided.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-sbp-add-beneficiary.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [How to Add a beneficiary to a social benefits application, Add a beneficiary, Add a beneficiary to a social benefits application]
 breadcrumb: [Using Social Benefits Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]

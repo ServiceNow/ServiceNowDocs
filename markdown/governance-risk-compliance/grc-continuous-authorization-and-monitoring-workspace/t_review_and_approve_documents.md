@@ -3,11 +3,11 @@ title: Review and approve document versions
 description: Examine document versions submitted for review and authorize them to move forward in the approval workflow as a reviewer or approver.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t\_review\_and\_approve\_documents.html
-release: australia
+release: brazil
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [document review, document approval, reviewer task, approver task, document workflow, authorization package]
 breadcrumb: [Document reuse across records, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
@@ -78,5 +78,5 @@ All reviewer and approver tasks appear in the **My tasks** page.
     Your review or approval decision is recorded and submitted. The document version moves to the next state in the workflow. For example, if you selected Canceled or No Longer Required, the approval process stops and the document remains in its current state.
 
 
-**Parent Topic:**[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)
+**Parent Topic:**[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)
 

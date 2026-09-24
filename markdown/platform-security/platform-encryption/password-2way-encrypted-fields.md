@@ -3,11 +3,11 @@ title: Password2 encryption with the Key Management Framework \(KMF\)
 description: Supported by the Key Management Framework, use the Password2 \(2-way encrypted\) field type to encrypt and decrypt custom fields with segregation of duties, key protection, and life-cycle management. It works in accordance with NIST 800-57 guidelines and provides FIPS 140-2-L3 protection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/password-2way-encrypted-fields.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Key Management Framework, Encryption]
 ---
@@ -18,7 +18,7 @@ Supported by the Key Management Framework, use the Password2 \(2-way encrypted\)
 
 Password2 is a text field that stores passwords with two-way encryption. The two-way encryption stores passwords as a secure encrypted value that can be decrypted within the instance.
 
-**Tip:** Beginning in the Vancouver release, administrators can deprecate 3DES encryption on password2 fields in favor of the newer Advanced Encryption Standard \(AES\). For details, see [Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password2-3des-deprecation.md).
+**Tip:** Beginning in the Vancouver release, administrators can deprecate 3DES encryption on password2 fields in favor of the newer Advanced Encryption Standard \(AES\). For details, see [Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/password2-3des-deprecation.md).
 
 ## Activation
 
@@ -32,7 +32,7 @@ The Key Management Framework provides a base system parent cryptographic module 
 
 This cm\_glide\_encrypter module can have submodules, each with their own module key and specification. If a submodule is present with the same application scope as the application where the Password2 field is, the system uses the submodule. For example, if a table in the ServiceNow® Customer Service application has a submodule, and you write information to a Password2 field on a table in the Customer Service application scope, the cryptographic process calls the Customer Service submodule. The process also uses that submodule's key for encryption and decryption with a unique AES 256 GCM encryption key. One submodule per application scope is allowed. Parent module isn’t always used for global scope. Generally, new fields use instance\_level\_glide\_encrypter.
 
-**Note:** You can’t create your own submodules in Australia. Submodules are provided in various application plugins on the ServiceNow AI Platform. You can rotate keys on submodules, but not the parent cm\_glide\_encrypter module.
+**Note:** You can’t create your own submodules in Brazil. Submodules are provided in various application plugins on the ServiceNow AI Platform. You can rotate keys on submodules, but not the parent cm\_glide\_encrypter module.
 
 ## Domain separation and on-premise customers
 
@@ -40,7 +40,7 @@ KMF Password2 doesn’t support domain separation. You can use Password2 with on
 
 ## Legacy Password2 and the current Password2
 
-In Australia, the existing Password2 field has been upgraded.
+In Brazil, the existing Password2 field has been upgraded.
 
 The current implementation of Password2:
 
@@ -96,5 +96,5 @@ A migration job is provided for customers upgrading from previous releases. It t
 
 The KMF Password2 encryption keys in the submodule are protected \(envelope encrypted\) in the KMF key hierarchy.
 
-**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption.md)
 

@@ -3,9 +3,9 @@ title: Configure SLA definitions
 description: Review the service level agreement \(SLA\) definitions that are installed with Financial Services Operations applications. You can update existing SLAs or add new SLAs to configure start, pause, and stop conditions on any case attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-sla-definitions-fso-cases.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
@@ -183,7 +183,7 @@ Insurance claims
 </td></tr></tbody>
 </table>3.  On the form, fill in the fields.
 
-    For detailed instructions and field descriptions, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAnSLADefinition.md).
+    For detailed instructions and field descriptions, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CreateAnSLADefinition.md).
 
 4.  Click **Submit** or **Update**.
 

@@ -3,11 +3,11 @@ title: Create an encryption rule
 description: Encryption rules are used by the proxy to find content in HTTP requests that should be encrypted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/t\_CreateAnEncryptionRule.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -20,7 +20,7 @@ Encryption rules are used by the proxy to find content in HTTP requests that sho
 
 Role required: security\_admin
 
-Before creating an encryption rule, you must [Inspect the client request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/request-type.md) to determine the format.
+Before creating an encryption rule, you must [Inspect the client request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/request-type.md) to determine the format.
 
 ## About this task
 
@@ -50,5 +50,5 @@ To create or edit encryption rules, you must be connected to the instance throug
 7.  Click **Submit**, or save the form.
 
 
-**Parent Topic:**[Define a custom encryption rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EncryptionRules.md)
+**Parent Topic:**[Define a custom encryption rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_EncryptionRules.md)
 

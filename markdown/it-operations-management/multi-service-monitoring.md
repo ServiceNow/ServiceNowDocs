@@ -3,9 +3,9 @@ title: Multi-service monitoring for shared endpoints
 description: A single HTTP endpoint or discovered API is tagged to more than one application service so every team that depends on it is notified when it fails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/multi-service-monitoring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [synthetic monitoring, multi-service, application service, shared endpoint, CMDB]
 breadcrumb: [Explore, Synthetic monitoring, ITOM AIOps, IT Operations Management]
@@ -46,6 +46,6 @@ otherprops="store-2026-09"&gt;How the Service Health dashboard resolves impacted
 
 ## Where multi-service tagging applies
 
--   HTTP endpoint checks. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md).
--   API Insights discovered API checks. See [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
+-   HTTP endpoint checks. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitor.md).
+-   API Insights discovered API checks. See [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
 

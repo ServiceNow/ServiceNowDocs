@@ -3,9 +3,9 @@ title: Email encryption - S/MIME protocol
 description: Secure/Multipurpose Internet Mail Extensions \(S/MIME\) is an end-end encryption protocol for sending digitally signed and encrypted emails that support data confidentiality, authenticity, and integrity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/smime-inbound-outbound-mails.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -49,7 +49,7 @@ A key pair can be used to
 
 S/MIME digital signatures and encryption require each sender and recipient to have it enabled. They also need to send or exchange public keys though digital certificates to identify each other.
 
-For more information about key management and cryprographic module, see [Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/understanding-kmf.md).
+For more information about key management and cryprographic module, see [Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/understanding-kmf.md).
 
 ## Digital certificates
 
@@ -77,10 +77,10 @@ The sender uses a private key to sign the email and the ServiceNow AI Platform u
 
 The sender uses the public key to encrypt the email and the ServiceNow AI Platform uses the private key to decrypt the email.
 
--   **[Activate S/MIME Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-smime-plugin.md)**  
+-   **[Activate S/MIME Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/activate-smime-plugin.md)**  
 You can activate the S/MIME Email plugin \(com.glide.email.smime\) for Notifications if you have the admin role.
--   **[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/smime-for-email-signing-and-encryption.md)**  
+-   **[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/smime-for-email-signing-and-encryption.md)**  
 S/MIME is a protocol for sending digitally signed and encrypted emails to ensure the confidentiality, authenticity and integrity.
 
-**Parent Topic:**[Email Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-administration-landing.md)
+**Parent Topic:**[Email Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-administration-landing.md)
 

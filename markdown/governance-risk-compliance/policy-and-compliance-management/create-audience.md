@@ -3,11 +3,11 @@ title: Create an audience
 description: When you set up a policy acknowledgement request, you must identify an audience responsible for providing the acknowledgement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-audience.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up campaign, Acknowledge policy, Manage, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 5.  Use the three tabs to identify members for this audience.
 
-<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d97934e101">
+<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d99366e101">
 
 **Users**
 
@@ -40,7 +40,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 Click **Edit** and add one or more individual users to the audience.
 
-</td></tr><tr><td id="d97934e113">
+</td></tr><tr><td id="d99366e113">
 
 **Groups**
 
@@ -48,7 +48,7 @@ Click **Edit** and add one or more individual users to the audience.
 
 Click **Edit** and add one or more predefined groups of users to the audience.
 
-</td></tr><tr><td id="d97934e125">
+</td></tr><tr><td id="d99366e125">
 
 **User Filters**
 
@@ -57,8 +57,8 @@ Click **Edit** and add one or more predefined groups of users to the audience.
 Click **New** to define a new filter for audience member inclusion. Click **Edit** to modify an existing user filter. You can save filters for future use.
 
 </td></tr></tbody>
-</table>6.  When the audience has been defined, you can add the users, groups, or user filters to an [acknowledgement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/submit-ack-request.md).
+</table>6.  When the audience has been defined, you can add the users, groups, or user filters to an [acknowledgement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/submit-ack-request.md).
 
 
-**Parent Topic:**[Set up a policy acknowledgement campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/setup-ack-request.md)
+**Parent Topic:**[Set up a policy acknowledgement campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/setup-ack-request.md)
 

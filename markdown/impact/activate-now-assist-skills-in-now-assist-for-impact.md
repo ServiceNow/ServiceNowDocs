@@ -3,9 +3,9 @@ title: Activate Now Assist Skills for Impact
 description: Activate the Now Assist skill before you can use the generative AI capabilities for Impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/activate-now-assist-skills-in-now-assist-for-impact.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Impact, Impact]
 ---
@@ -43,7 +43,7 @@ Role required: Impact Platform owner, Impact Admin, Impact Portfolio Owner
 
 3.  To View details for a specific Now Assist Impact Skill, select **View details**.
 
-    **Note:** For additional information on Now Assist Skills, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) and [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+    **Note:** For additional information on Now Assist Skills, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md) and [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 4.  In the **All** section, select **Activate skill** to activate the desired skill.
 
@@ -58,9 +58,9 @@ Role required: Impact Platform owner, Impact Admin, Impact Portfolio Owner
     Your skill is configured.
 
 
-**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/hop-access-impact-squad.md)
+**Previous topic:**[Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/hop-access-impact-squad.md)
 
-**Next topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
+**Next topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-toolkit.md)
 

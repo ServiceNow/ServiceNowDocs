@@ -3,9 +3,9 @@ title: Mobile fetch types
 description: Fetch type settings determine when data is loaded in your screens. Change your fetch type to optimize load time performance for your screens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/applet-fetch-types.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -77,6 +77,6 @@ The screens for the first 10 rows load as described in the **prefetch** type. Af
 Use this fetch type when large lists load too slowly using the **prefetch** fetch type.
 
 </td></tr></tbody>
-</table>-   **[Change the fetch type for a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/change-fetch-type.md)**  
+</table>-   **[Change the fetch type for a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/change-fetch-type.md)**  
 Change the fetch type of a screen to change when the app loads its data.
 

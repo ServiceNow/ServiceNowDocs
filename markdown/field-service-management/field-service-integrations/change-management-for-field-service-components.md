@@ -3,11 +3,11 @@ title: Change management for Field Service components
 description: Various plugins, script includes, and business rules are installed with the Change Management for Field Service application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/change-management-for-field-service-components.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration with Change Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Various plugins, script includes, and business rules are installed with the Chan
 
 ## Plugin
 
-The Change Management for Field Service application \(sn\_fsm\_chg\_mng\) plugin must be activated. For more information on the steps to activate a plugin, see [Activate Change Management for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/install-change-for-fsm.md).
+The Change Management for Field Service application \(sn\_fsm\_chg\_mng\) plugin must be activated. For more information on the steps to activate a plugin, see [Install Change Management for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/install-change-for-fsm.md).
 
 <table id="table_ikv_hhv_wqb"><thead><tr><th>
 

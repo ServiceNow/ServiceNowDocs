@@ -3,9 +3,9 @@ title: Word template form
 description: Use Microsoft Word template form to add details about Microsoft Word template for creating reports in the Business Continuity Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/word-template-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage Microsoft Word document templates, Generating reports using Document designer, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---

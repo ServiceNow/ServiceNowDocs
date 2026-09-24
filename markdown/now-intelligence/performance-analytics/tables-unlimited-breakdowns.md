@@ -3,11 +3,11 @@ title: Data snapshots sources and collection
 description: Data snapshots include data sources for indicator score collection and the mapping between indicators and these sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/tables-unlimited-breakdowns.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Data snapshots and multiple breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -16,11 +16,17 @@ breadcrumb: [Data snapshots and multiple breakdowns, Configure fundamentals, Per
 
 Data snapshots include data sources for indicator score collection and the mapping between indicators and these sources.
 
-## Data snapshots sources
+## Sources converted to Data snapshots
 
-For each classic automated indicator that successfully has Data snapshots activated, the Performance Analytics indicator and breakdown sources are replaced by a Data snapshots source. You can also create Data snapshots sources. You can view the Data snapshots source for each indicator in the Indicators library \(**Platform Analytics** &gt; **Library** &gt; **Indicators**\). The source is given in the Source column. If the Data snapshots status is Enabled, this source is a Data snapshots source. Otherwise, it is the traditional indicator source. Data snapshots source names are in lower case with the individual words separated by underlines.
+For each classic automated indicator that successfully has Data snapshots activated, the Performance Analytics indicator and breakdown sources are replaced by a Data snapshots source. You can also create Data snapshots sources. You can view the Data snapshots source for each indicator in the Indicators library \(**Platform Analytics** &gt; **Library** &gt; **Indicators**\). The source is given in the Source column. If the Data snapshots status is Enabled, this source has been converted to a Data snapshots source. Data snapshots sources are prefixed with `Data Snapshots source:` while classic indicator sources are prefixed with `Indicator Source`.
+
+**Note:** Data snapshots sources for converted indicators show up in the Library only after the first Data snapshots collection job runs on them.
 
 \[Omitted image "data-snapshots-sources-in-library.png"\] Alt text: Two automated indicators in the Indicator Library, showing sources when Data snapshots are enabled or not.
+
+## Native Data snapshots sources
+
+Indicators that you create natively on Data snapshots are listed under **Platform Analytics Administration** &gt; **Indicators** &gt; **Automated Indicators - Data Snapshots** or **Formula Indicators - Data Snapshots**. In the indicator library, they have a **Native** Data snapshots status badge.
 
 ## Data snapshots data sources and logs
 
@@ -28,7 +34,7 @@ Data snapshots sources are available on the Data Snapshots \[pa\_dm\_analytics\_
 
 **Warning:** To re-enable the Data snapshots job, contact Now Support.
 
-Data snapshots source records include logs of the original enablement and all subsequent data collection jobs that are related to that data source.
+Data snapshots source records include logs of the original enablement and all subsequent data collection jobs that are related to that data source. For more information, see [Data snapshots logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/data-snapshots-logs.md).
 
 ## Data snapshots collection jobs
 
@@ -38,12 +44,13 @@ Classic Performance Analytics data collection jobs continue to run in parallel w
 
 Data snapshots collection jobs copy a subset of the source table. These jobs also create a copy of every daily change for a record. These jobs may therefore result in increased storage use by Performance Analytics.
 
-## Data snapshots job logs
-
-All job logs are in the Data Snapshots Statistics \[pa\_dm\_task\_telemetry\] table. Open Data snapshots job logs at **Platform analytics administration** &gt; **Data collector** &gt; **Data snapshots job logs**. Whereas a Data snapshots source record shows only the job logs related to that data source, the Data Snapshots Statistics list shows all Data snapshots job logs.
-
--   **[Create a Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-source.md)**  
+-   **[Create a Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-ds-source.md)**  
 To provide a filtered dataset of records that you can evaluate with one or more indicators, create an indicator source. Data snapshots indicators require different sources than do classic indicators. Data snapshots logs are accessible on the source records.
 
-**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)
+**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)
+
+**Related topics**  
+
+
+[Data snapshots jobs and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/ds-jobs-tables.md)
 

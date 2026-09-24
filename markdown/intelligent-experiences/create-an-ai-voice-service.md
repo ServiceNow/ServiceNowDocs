@@ -3,11 +3,11 @@ title: Create an AI voice assistant
 description: Create an AI voice assistant to enable natural, conversational voice interactions between users and AI voice agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-an-ai-voice-service.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create an AI voice assistant
@@ -18,7 +18,7 @@ Create an AI voice assistant to enable natural, conversational voice interaction
 
 Role required: virtual\_agent\_admin or admin
 
-Set up your preferred user identification and authentication methods to allow access to AI voice agents. See [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication-factors.md) for more information.
+Set up your preferred user identification and authentication methods to allow access to AI voice agents. See [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication-factors.md) for more information.
 
 ## About this task
 
@@ -87,7 +87,7 @@ Instructions that tell the assistant how to handle specific situations and topic
 
 4.  Add one or more AI voice agents to the voice assistant by selecting **Add from library** and select **Save and continue**.
 
-    **Note:** Adding AI agents is optional. If no AI agents are added, you can add them later by editing this assistant. The assistant will be inactive. Select **Add from library** to add an existing agent, or select **Create** to create a new one. See [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-voice-enabled-ai-agent.md) for more information.
+    **Note:** Adding AI agents is optional. If no AI agents are added, you can add them later by editing this assistant. The assistant will be inactive. Select **Add from library** to add an existing agent, or select **Create** to create a new one. See [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-voice-enabled-ai-agent.md) for more information.
 
 5.  Select language and voice persona.
 
@@ -126,7 +126,7 @@ Instructions that tell the assistant how to handle specific situations and topic
         -   Ukrainian
         -   Malay
         -   Canadian English
-        See [Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/multi-lingual-support-for-voice-assistants.md) for more information.
+        See [Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/multi-lingual-support-for-voice-assistants.md) for more information.
 
     2.  Enter an **Opening message** for callers to hear when the call starts.
 
@@ -186,13 +186,13 @@ Instructions that tell the assistant how to handle specific situations and topic
 
     1.  Select the **Telephony provider** tab to connect the voice assistant to a phone network.
 
-        Select a communication channel type from the **Communication channel** dropdown, then select a CCaaS provider and configure the required fields. For more information, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
+        Select a communication channel type from the **Communication channel** dropdown, then select a CCaaS provider and configure the required fields. For more information, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
 
     2.  Select the **Web Real-Time Communication \(WebRTC\)** tab to connect the voice assistant to mobile, web, and external applications.
 
-        Select **Mobile applications** to configure ServiceNow applications such as chat launcher functions, voice launcher functions, and prominent action button overrides. You can also configure external applications. For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
+        Select **Mobile applications** to configure ServiceNow applications such as chat launcher functions, voice launcher functions, and prominent action button overrides. You can also configure external applications. For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
 
-        Select **Web applications** to configure the voice call widget on your ServiceNow Portal or Engagement Messenger. For more information, see .
+        Select **Web applications** to configure the voice call widget on your ServiceNow Portal or Engagement Messenger. For more information, see [Use Voice call widget for portal communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-phone-widget.md).
 
     3.  Select **Save and continue**.
 
@@ -204,7 +204,7 @@ Instructions that tell the assistant how to handle specific situations and topic
 
     \[Omitted image "ai-voice-assistant-authentication.png"\] Alt text: Caller identification and authentication method selection, showing identification method cards, first and second authentication factor cards, and advanced options.
 
-    Ensure the identification and authentication factors are configured at the platform level before you select them here. For more information, see [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication-factors.md).
+    Ensure the identification and authentication factors are configured at the platform level before you select them here. For more information, see [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication-factors.md).
 
     To reload available factors from the platform-level configuration without leaving this page, select **Refresh configuration** at the top of the screen. If you have unsaved changes, a confirmation dialog appears before the refresh proceeds. Use this option when authentication factors or system properties have been updated outside Assistant Designer, as those changes are not reflected automatically.
 
@@ -240,7 +240,7 @@ Knowledge-based authentication \(KBA\)
 
 </td><td>
 
-Verifies the caller by asking security questions configured at the platform level. Supports both internal records and external sources. See [Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/knowledge-based-authentication.md) for more information.
+Verifies the caller by asking security questions configured at the platform level. Supports both internal records and external sources. See [Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/knowledge-based-authentication.md) for more information.
 
 </td><td>
 
@@ -252,7 +252,7 @@ Okta Verify push notification
 
 </td><td>
 
-Sends a push notification to the caller’s registered Okta Verify app for approval. See [Push notification - Okta Verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/push-notification-okta-verify.md) for more information.
+Sends a push notification to the caller’s registered Okta Verify app for approval. See [Push notification - Okta Verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/push-notification-okta-verify.md) for more information.
 
 </td><td>
 
@@ -264,7 +264,7 @@ SMS verification code
 
 </td><td>
 
-Sends a one-time numeric code via SMS to the caller’s registered phone number. See [SMS One-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sms-otp-authentication.md) for more information.
+Sends a one-time numeric code via SMS to the caller’s registered phone number. See [SMS One-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sms-otp-authentication.md) for more information.
 
 </td><td>
 
@@ -276,7 +276,7 @@ Authenticator app time-based One Time Password \(TOTP\)
 
 </td><td>
 
-The caller provides a time-based one-time password generated by an authenticator app. See [Time-based one-time password \(TOTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/totp-authenticator-apps.md) for more information.
+The caller provides a time-based one-time password generated by an authenticator app. See [Time-based one-time password \(TOTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/totp-authenticator-apps.md) for more information.
 
 </td><td>
 
@@ -288,7 +288,7 @@ Soft PIN
 
 </td><td>
 
-The caller provides a numeric PIN enrolled through ServiceNow. See [Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/softpin-authentication.md) for more information.
+The caller provides a numeric PIN enrolled through ServiceNow. See [Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/softpin-authentication.md) for more information.
 
 </td><td>
 
@@ -300,14 +300,16 @@ Email one-time password \(OTP\)
 
 </td><td>
 
-Sends a one-time code to the caller’s configured email address. See [Email One-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/email-otp-authentication.md) for more information.
+Sends a one-time code to the caller’s configured email address. See [Email One-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/email-otp-authentication.md) for more information.
 
 </td><td>
 
 Voice or DTMF
 
 </td></tr></tbody>
-</table>    4.  Enable the **Authenticate at the start of the call** option to prompt callers for authentication or identification details before the voice assistant responds to any request.
+</table>        Numeric authentication factors such as SMS verification code, Authenticator app time-based One Time Password \(TOTP\), and Soft PIN support voice input. Callers can respond verbally instead of using the keypad. Voice input for each factor can be configured at platform level and scoped per voice service. See [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication-factors.md) for more information.
+
+    4.  Enable the **Authenticate at the start of the call** option to prompt callers for authentication or identification details before the voice assistant responds to any request.
 
         When enabled, every caller is prompted to complete authentication or identification at the start of the call, regardless of which AI voice agent handles the interaction.
 
@@ -384,5 +386,5 @@ Voice or DTMF
 
 ## What to do next
 
-Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See [AI voice agent transcript and logs tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md) for information on the tables containing transcript and logs.
+Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See [AI voice agent transcript and logs tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/voice-agent-reference.md) for information on the tables containing transcript and logs.
 

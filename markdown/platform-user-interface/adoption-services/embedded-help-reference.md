@@ -3,11 +3,11 @@ title: Embedded Help reference
 description: Reference topics provide information about system properties you may need to configure, as well as basic information about domain separation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/embedded-help-reference.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---
@@ -16,10 +16,10 @@ breadcrumb: [Embedded Help, In-product help, Adoption services, Configure user e
 
 Reference topics provide information about system properties you may need to configure, as well as basic information about domain separation.
 
--   **[Embedded Help system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-sys-properties.md)**  
+-   **[Embedded Help system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/embedded-help-sys-properties.md)**  
 Embedded help is active by default on your instance. The administrator can change system properties to modify how the instance interacts with embedded help.
--   **[Domain separation and Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/domain-separation-and-embedded-help.md)**  
+-   **[Domain separation and Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/domain-separation-and-embedded-help.md)**  
 Domain separation is supported for Embedded Help. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help.md)
+**Parent Topic:**[Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/embedded-help.md)
 

@@ -3,20 +3,20 @@ title: Assign permissions to publish custom templates
 description: Assign permissions for developers to publish a custom template to the application repository or the ServiceNow Store. You can grant permissions to publish either a specific custom template or publish all existing custom templates in App Engine Studio \(AES\).Assign permissions to developers so they can publish an individual App Engine Studio \(AES\) custom template to the application repository or ServiceNow Store.Assign permissions for developers to publish custom App Engine Studio \(AES\) templates and applications to the app repository or ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/assign-permissions-publish-custom-templates.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Build a custom template, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Assign permissions to publish custom templates
 
 Assign permissions for developers to publish a custom template to the application repository or the ServiceNow Store. You can grant permissions to publish either a specific custom template or publish all existing custom templates in App Engine Studio \(AES\).
 
-**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/build-custom-template.md)
 
 ## Assign permissions to publish an individual custom template
 
@@ -40,15 +40,15 @@ Role required: admin
 
 6.  Assign permissions to new or existing collaborators.
 
-<table id="choicetable_zyx_htt_qsb"><thead><tr><th align="left" id="d103894e198">
+<table id="choicetable_zyx_htt_qsb"><thead><tr><th align="left" id="d100670e198">
 
 Choice
 
-</th><th align="left" id="d103894e201">
+</th><th align="left" id="d100670e201">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d103894e207">
+</th></tr></thead><tbody><tr><td id="d100670e207">
 
 **Assign permissions to a new user or group**
 
@@ -65,7 +65,7 @@ After the collaboration request is approved, the user or group is added as a col
 6.  Select **Save**.
 
 
-</td></tr><tr><td id="d103894e261">
+</td></tr><tr><td id="d100670e261">
 
 **Assign permissions to an existing user or group**
 

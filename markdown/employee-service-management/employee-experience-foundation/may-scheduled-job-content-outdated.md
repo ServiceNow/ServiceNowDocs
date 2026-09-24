@@ -3,11 +3,11 @@ title: Run the scheduled job for outdated content
 description: Auto-delete the outdated content by marking the schedule job active. Once the schedule job is active, all the outdated content is removed automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/may-scheduled-job-content-outdated.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage outdated connected content, Taxonomy and connected content, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Reduce maintenance overhead with the scheduled job or alternatively [Manage outdated connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/may-manage-outdated-content-topics.md) manually.
+Reduce maintenance overhead with the scheduled job or alternatively [Manage outdated connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/may-manage-outdated-content-topics.md) manually.
 
 -   Run the cleanup at a regular interval with a scheduled job.
 -   Send email notifications to taxonomy admins about the cleanup.
@@ -51,5 +51,7 @@ When a category has outdated data, that data isn't associated with the topic.
 
 **Note:** When you delete, only the association with the topic and taxonomies is removed. The actual catalog item or the knowledge article is not deleted.
 
-**Parent Topic:**[Manage outdated connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/may-manage-outdated-content-topics.md)
+**Parent Topic:**[Manage outdated connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/may-manage-outdated-content-topics.md)
+
+**Parent Topic:**[Manage outdated connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/may-manage-outdated-content-topics.md)
 

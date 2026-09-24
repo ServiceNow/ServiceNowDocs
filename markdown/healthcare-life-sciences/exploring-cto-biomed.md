@@ -3,9 +3,9 @@ title: Exploring Care Team Operations for Biomed
 description: Learn how you can use the Care Team Operations for Biomed application to support your care team in resolving biomed issues quickly and efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/exploring-cto-biomed.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -50,16 +50,16 @@ There are two types of service requests available with Care Team Operations for 
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Automate healthcare operations by enabling biomed support request creation and fulfillment.|[Healthcare Biomed case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-cto-biomed-case.md)|Admin|
-|Receive visibility into all biomed requests created by your team.|[Creating service requests in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/requesting-cto-biomed.md)|Care Team|
-|Use Workspace to fulfill biomed service requests.|[Fulfilling service requests in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-fulfilling-biomed.md)|Agent|
+|Automate healthcare operations by enabling biomed support request creation and fulfillment.|[Healthcare Biomed case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-biomed-case.md)|Admin|
+|Receive visibility into all biomed requests created by your team.|[Creating service requests in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/requesting-cto-biomed.md)|Care Team|
+|Use Workspace to fulfill biomed service requests.|[Fulfilling service requests in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-fulfilling-biomed.md)|Agent|
 
 ## What to explore next
 
 To learn more about configuring and using Care Team Operations for Biomed, see:
 
--   [Configuring Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/configuring-cto-biomed.md)
--   [Creating service requests in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/requesting-cto-biomed.md)
--   [Fulfilling service requests in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-fulfilling-biomed.md)
--   [Care Team Operations for Biomed Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-biomed-reference.md)
+-   [Configuring Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/configuring-cto-biomed.md)
+-   [Creating service requests in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/requesting-cto-biomed.md)
+-   [Fulfilling service requests in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-fulfilling-biomed.md)
+-   [Care Team Operations for Biomed Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-biomed-reference.md)
 

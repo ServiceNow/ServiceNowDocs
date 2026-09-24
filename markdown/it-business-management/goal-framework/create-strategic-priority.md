@@ -3,11 +3,11 @@ title: Create a strategic priority for a strategic plan
 description: As a strategy planner, you can create and manage the strategic priorities for the strategic plans for your organization. Create a strategic priority to orient your organization strategic plan toward your goal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/create-strategic-priority.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ The strategic priorities are also known as focus areas or long-term strategies.
 
 1.  Create a strategic priority for a strategic plan using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d91360e64">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d90623e64">
 
 Option
 
-</th><th align="left" id="d91360e67">
+</th><th align="left" id="d90623e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d91360e73">
+</th></tr></thead><tbody><tr><td id="d90623e73">
 
 **From the Strategic Priorities related list**
 
@@ -47,7 +47,7 @@ Steps
 3.  In the Strategic Priorities related list, click **New**.
 
 
-</td></tr><tr><td id="d91360e106">
+</td></tr><tr><td id="d90623e106">
 
 **From the Strategic Priorities module**
 
@@ -60,7 +60,7 @@ Steps
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For field information, see [Strategic Priority form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/strategic-priority-form.md).
+    For field information, see [Strategic Priority form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/strategic-priority-form.md).
 
 3.  Click **Submit**.
 

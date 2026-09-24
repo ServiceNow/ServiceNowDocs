@@ -3,11 +3,11 @@ title: Custom columns in the planning console
 description: In addition to the regular columns that are provided in the base system, as the PPS admin, you can configure which columns appear in the planning console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/custom-columns-planning-console.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Using Planning console - Legacy, Using Project Management, Project 
 
 In addition to the regular columns that are provided in the base system, as the PPS admin, you can configure which columns appear in the planning console.
 
-You can define the columns that are available in the [project planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md), [program workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/c_ProgramWorkbench.md), planning and tracking views in portfolio workbench, and the release management Gantt chart. From this list of defined columns, you can select the columns that you want to view in these planning console UIs at any time.
+You can define the columns that are available in the [project planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md), [program workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/c_ProgramWorkbench.md), planning and tracking views in portfolio workbench, and the release management Gantt chart. From this list of defined columns, you can select the columns that you want to view in these planning console UIs at any time.
 
 These tables are used for custom column configuration:
 
@@ -33,10 +33,10 @@ These tables are used for custom column configuration:
 
 -   **Planning Console Column \[pm\_console\_columnn\]**: Maintains the columns that should be pulled from each table and the mapping of the column in `pm_console_display_column`.
 
--   **[Add a custom column to the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-display-column.md)**  
+-   **[Add a custom column to the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/add-display-column.md)**  
 Define the columns that you want to make available in the project planning console, portfolio workbench, program workbench, and the release management Gantt chart.
 
-**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
+**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 
 **Related topics**  
 
@@ -55,5 +55,5 @@ Define the columns that you want to make available in the project planning conso
 
 [Create a dependency from the planning console]()
 
-[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
+[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 

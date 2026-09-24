@@ -3,11 +3,11 @@ title: Review and update tickets with the Ticket Status AI agent
 description: Review the status of your tickets and take standard ticket actions, such as adding comments, using the Ticket Status AI agent in Now Assist in Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/check-ticket-aia-ex.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Examples of using AI agents, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Examples of using AI agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Review and update tickets with the Ticket Status AI agent

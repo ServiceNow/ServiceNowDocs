@@ -3,12 +3,12 @@ title: Set up an additional cloud account
 description: During initial installation, you set up one cloud account. To organize and compartmentalize your infrastructure, you can set up additional cloud accounts to include different providers or service accounts or datacenters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-cloud-account-cloud-mgt.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -22,7 +22,7 @@ Role required: sn\_cmp.cloud\_admin
 
 ## About this task
 
-A cloud account is the logical representation in Cloud Provisioning and Governance of all or part of your managed cloud infrastructure. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account. See [Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-accounts.md) for detailed information.
+A cloud account is the logical representation in Cloud Provisioning and Governance of all or part of your managed cloud infrastructure. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account. See [Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-accounts.md) for detailed information.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ A cloud account is the logical representation in Cloud Provisioning and Governan
 
 3.  Select the appropriate **Service Account**.
 
-    A list of discovered datacenters appears. If no datacenters appear, click **Discover Now**. See [Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md) for details.
+    A list of discovered datacenters appears. If no datacenters appear, click **Discover Now**. See [Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md) for details.
 
 4.  Select each of the datacenters that you want to associate with the cloud account, click **Save**, and then close the popup.
 
@@ -49,7 +49,7 @@ A cloud account is the logical representation in Cloud Provisioning and Governan
     **Note:**
 
     -   Select only those LDCs/Regions where your infrastructure resources are present. If you don't have any resources under these new data centers, exclude them while you run the full discovery.
-    -   To discover resources in additional regions, raise an access request to the required endpoints. Contact GCP Support for access.
+    -   To discover resources in certain regions or LDCs, raise an access request to the required endpoints with GCP Support. These regions include North America \(US East, US West, and Canada Central\), South America, Europe, Africa, Middle East, and Asia Pacific.
     The Cloud Account dashboard appears. The datacenters that you selected appear on the **Datacenters** tab.
 
 6.  Click a datacenter.
@@ -66,5 +66,5 @@ A cloud account is the logical representation in Cloud Provisioning and Governan
 
 Repeat the process to create additional cloud accounts as needed. Run Discovery and set capacity limits for each datacenter.
 
-**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-general-setup-day-2.md)
+**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-general-setup-day-2.md)
 

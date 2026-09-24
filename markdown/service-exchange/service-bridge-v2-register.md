@@ -3,11 +3,11 @@ title: Connect to a provider
 description: Complete the registration process to establish a connection to the provider instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-register.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -19,7 +19,7 @@ Complete the registration process to establish a connection to the provider inst
 ## Before you begin
 
 -   Role required: admin
--   Run the **Key Management** &gt; **Health \(Diagnostics\)** to ensure that the Key Management Framework health check has passed. Your administrator must have the sn\_kmf.admin and sn\_kmf.cryptographic\_manager roles to access the health diagnostics. If your administrator does not have access, follow the instructions in [Assign Key Management Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/assign-kmf-roles.md) to grant the required roles.
+-   Run the **Key Management** &gt; **Health \(Diagnostics\)** to ensure that the Key Management Framework health check has passed. Your administrator must have the sn\_kmf.admin and sn\_kmf.cryptographic\_manager roles to access the health diagnostics. If your administrator does not have access, follow the instructions in [Assign Key Management Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/assign-kmf-roles.md) to grant the required roles.
 
 ## About this task
 
@@ -40,7 +40,7 @@ Before proceeding, the provider should have requested the contact details of an 
     After you save the provider connection record, the state changes to Awaiting Validation while the pre-onboarding scan suite runs validation checks on the background.
 
     -   If all validation checks pass, the state changes to Validated.
-    -   If any validation checks fail, the state changes to Validation Failed. A banner appears at the top of the provider connection record. This indicates that one or more pre-onboarding suite checks did not pass, along with a link to the Health Dashboard. Review the Health Dashboard to fix the issues. When the all the issues are resolved, the connection automatically moves to Validated.
+    -   If any validation checks fail, the state changes to Validation Failed. A banner appears at the top of the provider connection record. Indicates that one or more pre-onboarding suite checks did not pass, along with a link to the Health Dashboard. Review the Health Dashboard to fix the issues. When the all the issues are resolved, the connection automatically moves to Validated.
 4.  Select **Connect to Provider** in the Provider connection record page.
 
     The **Connect to Provider** button is not available if there are any unresolved validation errors. Resolve all pre-onboarding scan issues before proceeding.
@@ -65,9 +65,9 @@ If the state is **Validation Failed**, you must resolve all issues identified du
 **Related topics**  
 
 
-[Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-se-center.md)
+[Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-se-center.md)
 
-[Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-scan-checks.md)
+[Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-scan-checks.md)
 
-[Register a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-onboarding.md)
+[Register a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-onboarding.md)
 

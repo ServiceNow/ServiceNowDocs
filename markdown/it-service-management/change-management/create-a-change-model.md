@@ -3,11 +3,11 @@ title: Create a Change model
 description: Create change models to configure the states and transitions to match your organization's change processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-a-change-model.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
@@ -42,7 +42,7 @@ Name
 
 </td><td>
 
-Name the change model based on the process associated with the change model. For example, the following change models can be created for the traditional types of ITIL changes:-   Normal
+Name the change model based on the process associated with the change model. For example, the following types of change models can be created:-   Normal
 -   Standard
 -   Emergency
 
@@ -93,7 +93,7 @@ Implementation states
 
 </td><td>
 
-Implementation state for the change model. For more information on states, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).If you are using Mass CI Update with change models, verify that the **Implementation states** field in the model is set to the state in which you want the changes to take effect.
+Implementation state for the change model. For more information on states, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ChangeStateModel.md).If you are using Mass CI Update with change models, verify that the **Implementation states** field in the model is set to the state in which you want the changes to take effect.
 
 </td></tr></tbody>
 </table>4.  In the **Security** tab, fill in the fields.
@@ -112,7 +112,7 @@ Advanced Security
 
 </td><td>
 
-Option to enable role-based access controls and user criteria to tailor the Change creation landing page views. When you enable Advanced Security, the **Not Available For**, **Available For**, and **Can Write** tabs appear next to the **Model States** tab in the related lists.For more information on managing user access to the change model, see [Create a user criteria record for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-user-criteria.md).
+Option to enable role-based access controls and user criteria to tailor the Change creation landing page views. When you enable Advanced Security, the **Not Available For**, **Available For**, and **Can Write** tabs appear next to the **Model States** tab in the related lists.For more information on managing user access to the change model, see [Create a user criteria record for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-user-criteria.md).
 
 </td></tr><tr><td>
 
@@ -209,20 +209,22 @@ User groups that can approve templates created using this change model.
 
 ## What to do next
 
-[Configure change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-model-states.md).
+Configure states for the change model you create. For more information, see [Configure change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-change-model-states.md).
 
-[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md).
+Manage the templates created using the change model through options in the **Change Templates** tab. For more information, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md).
 
-[Configure template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-template-categories.md).
+Configure categories that helps to classify available templates in the Create a change request page. For more information, see [Configure template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-template-categories.md).
 
--   **[Configure change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-model-states.md)**  
+-   **[Configure change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-change-model-states.md)**  
 Configure states for change models and define transition between multiple states.
--   **[Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md)**  
+-   **[Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md)**  
 Create predefined transition conditions to reuse the conditions for your Change models.
--   **[Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/attach-process-change-model.md)**  
+-   **[Model script editor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/model-script-editor-roles.md)**  
+This role grants write access to the scripted condition fields on model state transition conditions and model condition types.
+-   **[Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/attach-process-change-model.md)**  
 You can attach a process with defined conditions to the Change model states to enable state transitions.
--   **[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md)**  
-Create, customize, and then propose for publication a change template aligned to a change model to make change creation faster, and promote data quality and consistency.
+-   **[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md)**  
+Create, customize, and then propose for publication a change template aligned to a change model to standardize common change requests and not have to create them manually.
 
-**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-change-management.md)
 

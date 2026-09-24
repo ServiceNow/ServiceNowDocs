@@ -3,11 +3,11 @@ title: AWS VM provisioning walkthrough
 description: This example walks you through the components of Cloud Provisioning and Governance that function during the provisioning of a virtual machine in an AWS datacenter. Topics covered include blueprints, resource blocks, the Cloud API \(CAPI\), and MID Server script includes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/walk-through-provisioning.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Cloud API \(CAPI\), Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ This walkthrough starts with a Windows VM that a user already provisioned in AWS
 
 This example uses default resource blocks and script includes that are available in your instance. Therefore, although you might not have a provisioned VM on your instance, you can still follow these steps and view the components used in this example to understand how the components work.
 
-For an example of a VM in Azure, see [Azure VM provisioning walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/walk-through-azure-provisioning.md).
+For an example of a VM in Azure, see [Azure VM provisioning walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/walk-through-azure-provisioning.md).
 
 **Note:** The terms virtual machine, VM, and virtual server are used interchangeably in this example.
 
@@ -169,7 +169,7 @@ For an example of a VM in Azure, see [Azure VM provisioning walkthrough](https:/
 
         This script is the response processors that updates the CMDB in your instance after the virtual machine is created in AWS.
 
-    19. View an explanation of the script and the example that is a part of the topic at [Create a Response Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/response-processor-example.md).
+    19. View an explanation of the script and the example that is a part of the topic at [Create a Response Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/response-processor-example.md).
 
         When you finish reviewing that topic, return to this topic.
 
@@ -272,7 +272,7 @@ Credentials
 
 </td><td>
 
-The secret key is used with the access key for authentication. You configured this value in your AWS credential record during setup. To refer to that procedure, see [Configure access to the AWS accounts using permanent AWS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-creds-cloud-mgt.md).
+The secret key is used with the access key for authentication. You configured this value in your AWS credential record during setup. To refer to that procedure, see [Configure access to the AWS accounts using permanent AWS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aws-create-creds-cloud-mgt.md).
 
 </td></tr><tr><td>
 
@@ -407,5 +407,5 @@ VM properties in the Cloud User Portal
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
+**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

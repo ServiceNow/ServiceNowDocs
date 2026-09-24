@@ -3,9 +3,9 @@ title: Defining mappings for attribute value propagation to domain orders
 description: By defining attribute-mapping rules between two specifications in the product catalog, your fulfillment agents can access all relevant characteristic values in your product, service, and resource orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/defining-attribute-mapping-somt.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -30,7 +30,7 @@ The ServiceNow AI Platform decomposes orders and order line items into various s
 
 The order fulfillment flow needs prior information on how specification characteristics are mapped and associated. This information ensures that characteristics are propagated from one domain order to another domain order. If you're a product catalog manager, you can define rules-driven attribute mappings between and among selected product, service, and resource specifications. When you define attribute mappings, validations run to verify that they're unique, don't conflict with each other, or conflict with defined specification relationships and decomposition rules.
 
-To learn more about specification relationships, see [Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-specification-relationships-somt.md).
+To learn more about specification relationships, see [Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-specification-relationships-somt.md).
 
 The Order Management application executes attribute mappings during the order fulfillment process and sets and propagates order characteristic values across the various suborders.
 

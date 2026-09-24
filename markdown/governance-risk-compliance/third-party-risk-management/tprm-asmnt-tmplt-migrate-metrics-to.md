@@ -3,11 +3,11 @@ title: Migrate a template to an SAE template
 description: Migrate an existing questionnaire or document request template to a TPRM SAE questionnaire template. You must migrate all classic templates to TPRM SAE templates or create new ones before you can use SAE in TPRM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-asmnt-tmplt-migrate-metrics-to.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Smart Assessment Engine assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Before beginning the migration process, take note of the following and plan acco
 
     **Warning:** After this option is enabled, this selection can’t be reversed.
 
-    For more information, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md) and [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md).
+    For more information, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md) and [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md).
 
 -   The following question types aren’t supported: percentage, ranking, image scale, and custom metric. You must either convert these question types to supported formats before migration or create new questions in the template designer after migration.
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
@@ -38,9 +38,9 @@ Before beginning the migration process, take note of the following and plan acco
 
 **Note:**
 
-For more information on migration results and migration limitations, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md).
+For more information on migration results and migration limitations, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md).
 
-For more information on creating SAE questionnaires, see [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).
+For more information on creating SAE questionnaires, see [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).
 
 ## Procedure
 
@@ -54,7 +54,7 @@ For more information on creating SAE questionnaires, see [Create a TPRM SAE ques
 
 3.  View the generated Assessment template migration record by selecting the link in the info message.
 
-    You can view all Assessment template migration records by navigating to **All** &gt; **Third-party Risk Management** &gt; **Assessment Setup** &gt; **Classic Template Migration**. For more information about the Classic Template Migration table and migration results, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md).
+    You can view all Assessment template migration records by navigating to **All** &gt; **Third-party Risk Management** &gt; **Assessment Setup** &gt; **Classic Template Migration**. For more information about the Classic Template Migration table and migration results, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md).
 
     The **Migration Status** field will update with one of the following after the migration job runs:
 
@@ -86,7 +86,7 @@ For more information on creating SAE questionnaires, see [Create a TPRM SAE ques
 
     4.  Navigate to the **Scoring** tab and confirm that all settings appear as expected.
 
-        For more information, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md) and [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md).
+        For more information, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md) and [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md).
 
 8.  Select **Publish**.
 
@@ -95,9 +95,9 @@ For more information on creating SAE questionnaires, see [Create a TPRM SAE ques
 
 ## Result
 
-The SAE Questionnaire Templates and SAE Document Templates related list of the original questionnaire template record is updated to include the migrated templates. For more information, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md).
+The SAE Questionnaire Templates and SAE Document Templates related list of the original questionnaire template record is updated to include the migrated templates. For more information, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md).
 
 ## What to do next
 
-If you have Assessment templates, add the published SAE questionnaire template to all related assessment templates. If you have Issue generation rules, add the published SAE questionnaire template and its related questions to each related generation rule. For more information, see [Create an external assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-vendor-risk-assess-temp.md) and [Create an issue generation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-generate-issue-rule.md).
+If you have Assessment templates, add the published SAE questionnaire template to all related assessment templates. If you have Issue generation rules, add the published SAE questionnaire template and its related questions to each related generation rule. For more information, see [Create an external assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-vendor-risk-assess-temp.md) and [Create an issue generation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-generate-issue-rule.md).
 

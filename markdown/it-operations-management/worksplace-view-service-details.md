@@ -3,9 +3,9 @@ title: View application service details in Service Operations Workspace
 description: View comprehensive information about an application service, including its name, business criticality, ownership, process and operational status, traffic-based discovery details, discovery status, and relevant comments. This enables thorough analysis of the application service's current state and usage, provides clarity on ownership and criticality, and facilitates effective prioritization of resources and actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/worksplace-view-service-details.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Role required: evt\_mgmt\_user, evt\_mgmt\_operator, or evt\_mgmt\_admin
 
     The Service Dashboard page appears.
 
-    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/add-impact-cal-services.md).
+    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/add-impact-cal-services.md).
 
 3.  Select a service tile.
 
@@ -44,8 +44,8 @@ Role required: evt\_mgmt\_user, evt\_mgmt\_operator, or evt\_mgmt\_admin
 
     \[Omitted image "sow-app-service-details.png"\] Alt text: Application service details page
 
-    For information on the fields, see [Application service details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/app-service-details.md).
+    For information on the fields, see [Application service details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/app-service-details.md).
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/workspace-dashboard-use.md)
 

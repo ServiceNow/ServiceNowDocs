@@ -3,11 +3,11 @@ title: Advanced High Availability transfer with Hermes
 description: Learn how messages are produced and consumed in Hermes during normal operation, Advanced High Availability \(AHA\) transfer, and failover scenarios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/advanced-high-availability-setup-hermes.html
-release: australia
+release: brazil
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

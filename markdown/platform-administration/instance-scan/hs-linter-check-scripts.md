@@ -3,11 +3,11 @@ title: Advanced linter check scripts
 description: Linter check scripts helps you in writing checks that look for issues in scripts. When a linter check is run on a record, it provides an abstract syntax tree for its code. You can use this abstract syntax tree to analyze issues with the code such as too many nested if statements or usages of slow API in a while loop.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-linter-check-scripts.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a linter check, Create a check, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -83,7 +83,7 @@ The following is a list of available functions to call on the node object.
     4.  Length
     5.  Name identifier \(if a NAME node\)
 
-For more information, see [LinterCheckAstNode API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LinterCheckAstNodeAPIBoth.md).
+For more information, see [LinterCheckAstNode API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/LinterCheckAstNodeAPIBoth.md).
 
-**Parent Topic:**[Create a linter check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hc-linter-check.md)
+**Parent Topic:**[Create a linter check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hc-linter-check.md)
 

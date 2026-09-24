@@ -3,18 +3,18 @@ title: Target form
 description: Use the Target form to track and measure the progress of the goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-target-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Target form
 
 Use the Target form to track and measure the progress of the goals.
 
-**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields that aren't added to the default view or your custom form view on the form in the workspace, configure the default or custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields that aren't added to the default view or your custom form view on the form in the workspace, configure the default or custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 <table id="table_rlc_24d_gyb"><thead><tr><th>
 
@@ -82,7 +82,7 @@ Progress = (Actual value - Base value) / (Target value - Base value) x 100
 Progress = (Base value - Actual value) / (Base value - Target value) x 100
 ```
 
- For more information on how the progress value is calculated when the weight scale is defined, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/progress-value-calculation-egm.md).
+ For more information on how the progress value is calculated when the weight scale is defined, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/progress-value-calculation-egm.md).
 
 </td></tr><tr><td>
 
@@ -304,5 +304,5 @@ When you select Actual value source as Benefit Plans \(predefined target automat
 **Related topics**  
 
 
-[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-strategize.md)
+[Strategizing the AI plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-strategize.md)
 

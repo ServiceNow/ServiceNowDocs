@@ -3,11 +3,11 @@ title: Manage work order tasks
 description: Use work order tasks to define separate activities that must be done to complete a work order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_WorkOrderTasks.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prepare work orders, Use, Field Service Management]
 ---

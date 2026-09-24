@@ -3,7 +3,7 @@ title: Edit and delete ERP systems
 description: After creating an ERP \(Enterprise Resource Planning\) system, you can edit system details or delete the system at any time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/edit-and-delete-erp-systems.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
@@ -31,7 +31,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 4.  Edit system information, such as name, description, connection, or ERP software.
 
-    For detailed information about the system record fields, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
+    For detailed information about the system record fields, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
 5.  On the status bar, confirm that the heartbeats are successful and the retrieval status is complete.
 
@@ -49,4 +49,6 @@ Role required: sn\_erp\_integration.erp\_admin
 
     5.  Select **Delete**.
 
+
+**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
 

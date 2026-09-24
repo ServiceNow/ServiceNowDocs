@@ -3,11 +3,11 @@ title: Approve a knowledge article in Agent Workspace
 description: Approve a knowledge article that is awaiting your review in Agent Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/approve-article-in-review-agent.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authoring a knowledge article in Agent Workspace, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: agent\_workspace\_user
 
 ## About this task
 
-If the article versioning feature is enabled, only users who are assigned as approvers can modify a knowledge article that is in the **Review** state. If you are not an approver but need to modify the article, consider recalling the article. For more information, see [Recall an article that is being reviewed in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/recall-article-review-agent.md).
+If the article versioning feature is enabled, only users who are assigned as approvers can modify a knowledge article that is in the **Review** state. If you are not an approver but need to modify the article, consider recalling the article. For more information, see [Recall an article that is being reviewed in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/recall-article-review-agent.md).
 
 ## Procedure
 
@@ -48,5 +48,5 @@ If the article versioning feature is enabled, only users who are assigned as app
 **Related topics**  
 
 
-[View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-agent.md)
+[View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/view-article-agent.md)
 

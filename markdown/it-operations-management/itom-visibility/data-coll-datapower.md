@@ -3,11 +3,11 @@ title: IBM WebSphere DataPower discovery
 description: ITOM Visibility discovers IBM WebSphere DataPower. The Discovery feature uses the DataPower Server pattern for horizontal discovery. The Service Mapping feature uses the DataPower pattern for top-down discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/data-coll-datapower.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ ITOM Visibility discovers IBM WebSphere DataPower. The Discovery feature uses th
 
 Configure the following credentials before discovering the IBM WebSphere DataPower devices:
 
--   **[SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md)**
+-   **[SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md)**
 
     SNMP credentials are necessary for using the following SNMP queries:
 
@@ -36,7 +36,7 @@ Configure the following credentials before discovering the IBM WebSphere DataPow
         -   1.3.6.1.2.1.1.1
         -   1.3.6.1.2.1.1.5
         -   1.3.6.1.4.1.14685.3.1.11.1
--   **[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md)**
+-   **[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md)**
 
     Together with SNMP credentials, applicative credentials are required to discover DataPower application domains, otherwise known as logical CIs.
 
@@ -85,5 +85,5 @@ By default, Discovery uses the DataPower Server pattern to perform the discovery
 |Name \[name\]|
 |Domain \[domain\]|
 
-**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
+**Parent Topic:**[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_NetworkDevices.md)
 

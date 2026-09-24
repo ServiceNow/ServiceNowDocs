@@ -3,11 +3,11 @@ title: Change Management in Service Operations Workspace
 description: When a change to your infrastructure or a business service is required, you can create a change request and track it in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/change-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -20,15 +20,15 @@ When a change to your infrastructure or a business service is required, you can 
 
 ## Details tab
 
-This section displays the detailed information of a change request. For information about fields in this section, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-sow.md).
+This section displays the detailed information of a change request. For information about fields in this section, see [Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-sow.md).
 
-For information about how you can configure fields in this tab, see [Configure a task record form in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-form-layout-task.md).
+For information about how you can configure fields in this tab, see [Configure a task record form in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-form-layout-task.md).
 
 From the **Compose** section, you can add work notes and additional comments for the change request.
 
 ## Change tasks tab
 
-This section displays change tasks associated with the change request. For information about creating a change task, see [Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-task-sow.md).
+This section displays change tasks associated with the change request. For information about creating a change task, see [Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-task-sow.md).
 
 ## Related records tab
 
@@ -41,26 +41,26 @@ From this section, you can access the following information:
 -   Record information for the change request.
 -   Agent Assist and search for relevant records and perform the required actions.
 
-For information about Change Management, see [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md).
+For information about Change Management, see [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ITILChangeManagement.md).
 
--   **[Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-sow.md)**  
+-   **[Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-sow.md)**  
 Track modifications to a supported configuration item \(CI\) by using a change request. You can record information such as the reason for the change, and the change type, priority, and risk.
--   **[Work on a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/work-on-change-sow.md)**  
+-   **[Work on a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/work-on-change-sow.md)**  
 Modify a supported configuration item to clear a change request.
--   **[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/standard-change-catalog-sow.md)**  
+-   **[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/standard-change-catalog-sow.md)**  
 Standard changes are pre-approved, low-risk changes with a proven history of success. The standard change catalog contains the changes that have been approved by the Change Management application as standard changes.
--   **[Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-change-task-sow.md)**  
+-   **[Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-task-sow.md)**  
 When you need to engage another team or agent for help, create and assign change task. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
--   **[Work on a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/work-on-change-task-sow.md)**  
+-   **[Work on a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/work-on-change-task-sow.md)**  
 Complete the change task that in turn helps in resolving the associated change.
--   **[Create a Change Advisory Board \(CAB\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/cm-create-cab-definition-sow.md)**  
+-   **[Create a Change Advisory Board \(CAB\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/cm-create-cab-definition-sow.md)**  
 Create a Change Advisory Board \(CAB\) definition in Service Operations Workspace to set up recurring CAB meetings for reviewing and authorizing change requests.
--   **[Create a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.md)**  
+-   **[Create a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.md)**  
 Create a Change Advisory Board \(CAB\) meeting in Service Operations Workspace to review and authorize change requests.
--   **[Conduct a CAB meeting in the CAB workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/cm-manage-cab-meeting-workbench-sow.md)**  
+-   **[Conduct a CAB meeting in the CAB workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/cm-manage-cab-meeting-workbench-sow.md)**  
 Start and conduct a Change Advisory Board meeting in the CAB Workbench in Service Operations Workspace to review the agenda and approve or schedule changes.
 
-**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
+**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 
 **Related topics**  
 

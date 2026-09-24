@@ -3,14 +3,14 @@ title: Create an AI Control Tower Playbook workflow
 description: Create a AI Control Tower Playbook workflow for Now Assist approvals to approve or reject an asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create an AI Control Tower Playbook workflow
@@ -21,7 +21,7 @@ Create a AI Control Tower Playbook workflow for Now Assist approvals to approve 
 
 **Important:** The AI Control Tower Approval Playbook for the Now Assist approval isn’t created manually. They’re automatically triggered when an approval request is created while the approval mandate is enabled. To automatically trigger, activate the Automatically trigger playbooks feature under configuration.
 
-Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 ## Procedure
 
@@ -43,11 +43,11 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 7.  **Evaluate asset**- AI Stewards can create and assign the approval tasks to other individual AI Stewards to evaluate the assets.
 
-    For information on creating a Now Assist approval task for evaluating assets, see [Create a ServiceNow Otto approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md).
+    For information on creating a Now Assist approval task for evaluating assets, see [Create a Now Assist approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md).
 
     **Note:** You can **Copy** or **Delete** the tasks and create a task using the **New** option in the Approval tasks list.
 
-8.  **Approval/Reject**- AI stewards can select the Risk score and log the Close notes, while approving or rejecting an asset based on the evaluation of the tasks.
+8.  **Approval/Reject**- AI Stewards can select the Risk score from the drop-down menu and enter the Close notes, while approving or rejecting an asset based on the evaluation of the tasks.
 
 9.  Select **Reject** or **Approve asset** to complete the workflow.
 
@@ -58,5 +58,5 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## What to do next
 
-If you want to activate any skill from Now Assist admin, an approval request is now required. The AI Control Tower approvals are integrated with both the builder team on the Skill Kit and Now Assist admin. You may only use models, skills, or AI systems that have been approved. Approval is granted when the "AI steward approval required" option is enabled.
+If you need to activate any skill from Now Assist Admin, an approval request is now required. The AI Control Tower approvals are integrated with both the builder team on the Skill Kit and Now Assist Admin. You may only use models, skills, or AI systems that have been approved. Approval is granted when the "AI steward approval required" option is enabled.
 

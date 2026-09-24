@@ -3,13 +3,13 @@ title: Configure replacement models for a refresh model
 description: Configure replacement models for a hardware asset model that is refreshed. When configured, employees can select replacement models for their hardware assets on the Zero Touch Refresh form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-replacement-model.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure Zero Touch Refresh flow, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configure replacement models for a refresh model
@@ -80,18 +80,5 @@ Option that indicates whether the replacement rule is active.
 
 The refresh model with the assigned replacement models is included in the **Refresh models** list.
 
-**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
-
-**Related topics**  
-
-
-[Request a hardware asset refresh through Zero Touch Refresh]()
-
-[Fulfill a Zero Touch Refresh Fulfillment Request]()
-
-[Process a Zero Touch Refresh request]()
-
-[Acknowledge receipt of an asset on a mobile device]()
-
-[Acknowledge receipt of an asset through the Core UI]()
+**Parent Topic:**[Configure Zero Touch Refresh flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-ztrefresh-flow.md)
 

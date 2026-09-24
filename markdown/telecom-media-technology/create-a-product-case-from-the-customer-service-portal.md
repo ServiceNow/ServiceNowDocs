@@ -3,9 +3,9 @@ title: Create a service problem case in the Customer Service Portal
 description: Customers can create a service problem case to report an issue about the service from the Customer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-a-product-case-from-the-customer-service-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_sprb\_mgmt.customer
 
 4.  Select **Create a Service Problem Case**.
 
-    Case form as been created using record producer. For more information about how to create record producer, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
+    Case form as been created using record producer. For more information about how to create record producer, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_RecordProducer.md).
 
 5.  On the form, fill in the fields.
 

@@ -3,11 +3,11 @@ title: Session Details record
 description: View statistics and timeline details for a specific user session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/session-details-record.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing session analytics, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -37,5 +37,5 @@ Access a Session Details record from a user sessions record.
 5.  Select a session.
 
 
-**Parent Topic:**[Viewing session analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/viewing-sessions.md)
+**Parent Topic:**[Viewing session analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/viewing-sessions.md)
 

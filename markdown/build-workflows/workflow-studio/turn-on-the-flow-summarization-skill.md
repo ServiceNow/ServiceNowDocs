@@ -3,11 +3,11 @@ title: Turn on the flow summarization skill
 description: Turn on the flow summarization skill to generate a summary of what a flow or subflow does.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-the-flow-summarization-skill.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flow summarization, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ Turn on the flow summarization skill to generate a summary of what a flow or sub
 
 ## Before you begin
 
--   Install the ServiceNow Otto for Creator application. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. See .
 -   Role required: flow\_designer or admin
 
 ## About this task
@@ -40,5 +40,5 @@ Turn on the flow summarization skill to generate a summary of what a flow or sub
     \[Omitted image "na-creator-flow-skills-active.png"\] Alt text: Flow summarization skill listed as active skill
 
 
-**Parent Topic:**[Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-summarization-landing.md)
+**Parent Topic:**[Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-summarization-landing.md)
 

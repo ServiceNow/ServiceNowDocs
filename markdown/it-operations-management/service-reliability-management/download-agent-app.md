@@ -3,11 +3,11 @@ title: Download the ServiceNow Agent app
 description: Download the ServiceNow Agent app to use ITOM Mobile Agent on your device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/download-agent-app.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Download the ServiceNow Agent app to use ITOM Mobile Agent on your device.
 
 ## Before you begin
 
-ITOM Mobile Agent must be installed. See [Install ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/install-itom-mobile.md) for more information.
+ITOM Mobile Agent must be installed. See [Install ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/install-itom-mobile.md) for more information.
 
 Role required: srm\_manager, srm\_responder, or srm\_admin
 
@@ -39,5 +39,5 @@ The ITOM Mobile Agent application runs in the ServiceNow Agent app. To access IT
 
 ## What to do next
 
-To start using ITOM Mobile Agent, see [Log in to ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/log-in-itom-mobile.md). You must log in to receive push notifications about alerts and incidents.
+To start using ITOM Mobile Agent, see [Log in to ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/log-in-itom-mobile.md). You must log in to receive push notifications about alerts and incidents.
 

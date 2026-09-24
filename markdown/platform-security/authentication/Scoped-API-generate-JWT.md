@@ -3,11 +3,11 @@ title: Generate a JSON Web Token \(JWT\)
 description: Create a JSON Web Token \(JWT\) for representing claims securely between two parties on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/Scoped-API-generate-JWT.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [JWT Bearer, OAuth Outbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [JWT Bearer, OAuth Outbound, OAuth authentication, Authentication, A
 
 Create a JSON Web Token \(JWT\) for representing claims securely between two parties on the ServiceNow AI Platform.
 
-The [GlideJWT API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideJWTScopedAPI.md) is a scoped, scriptable API which generates a JWT. There are three arguments necessary before generating the JWT:
+The [GlideJWT API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/GlideJWTScopedAPI.md) is a scoped, scriptable API which generates a JWT. There are three arguments necessary before generating the JWT:
 
--   Sys\_id of [JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
+-   Sys\_id of [JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
 -   JSON serialized header
 -   JSON serialized payload
 
@@ -26,8 +26,8 @@ There are two JWT API scripts, JWTTokenInternal and JWTTokenRestricted, that you
 
 To generate a JWT:
 
--   [Create a JWT Key with a shared key \(HMAC\) or a signing keystore \(RSA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
--   [Associate a JWT provider with the signing configuration referring a JWT key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
+-   [Create a JWT Key with a shared key \(HMAC\) or a signing keystore \(RSA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
+-   [Associate a JWT provider with the signing configuration referring a JWT key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
 
 You can use the API to create your token.
 

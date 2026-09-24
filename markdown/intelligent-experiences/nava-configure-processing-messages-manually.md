@@ -3,11 +3,11 @@ title: Configure processing messages
 description: For ServiceNow Otto panel premium chat, configure processing messages to control the status updates that appear in the chat interface while ServiceNow Otto works on a request. You can customize the text of processing messages to better reflect your organization's terminology or the specific actions your AI agents perform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nava-configure-processing-messages-manually.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring AI skills, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Now Assist Admin features, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure processing messages
@@ -27,5 +27,5 @@ Role required: admin
 3.  If you have ServiceNow Otto panel premium chat, configure sn\_aia.og\_ao.enable\_processing\_messages to enable or disable processing messages.
 
 
-**Parent Topic:**[Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
 

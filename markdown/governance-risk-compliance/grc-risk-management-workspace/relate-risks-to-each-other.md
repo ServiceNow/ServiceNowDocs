@@ -3,11 +3,11 @@ title: Relate risks to each other
 description: Create relationships between risks to better understand how risks affect each other and how they affect the enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/relate-risks-to-each-other.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_risk.manager or sn\_risk.admin
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_aj1_ssb_4w"><tbody><tr><td id="d290614e77">
+<table id="choicetable_aj1_ssb_4w"><tbody><tr><td id="d295010e77">
 
 **To specify that the current risk is downstream of another risk**
 
@@ -36,7 +36,7 @@ Role required: sn\_risk.manager or sn\_risk.admin
 
 Click the **Add** button in the **Upstream Risks** related list.
 
-</td></tr><tr><td id="d290614e92">
+</td></tr><tr><td id="d295010e92">
 
 **To specify that the current risk is upstream of another risk**
 
@@ -50,5 +50,5 @@ Click the **Add** button in the **Downstream Risks** related list
 5.  In the pop-up window, check all the desired risks to relate to the current risk, and click **Create Relationship**.
 
 
-**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

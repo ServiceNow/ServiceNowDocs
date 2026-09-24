@@ -3,14 +3,14 @@ title: Run ACC as a managed group user
 description: Run Agent Client Collector \(ACC\) from a managed group account to meet your organization's security, manageability, and auditability requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/run-acc-as-managed-group-user.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [run acc managed group user, acc service account, managed group, run agent client collector as user, service log on account]
-breadcrumb: [Install ACC on Windows, Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Run ACC as a managed group user
@@ -26,7 +26,7 @@ Create a user and add the user to the following groups:
 -   ServiceNow users: Has privileges to Performance Monitor, Log on as a service, and Debug program.
 -   Administrator users: Equivalent to a local system user, provides access to fetch information on Bit locker, energy consumption, and so on.
 
-Role required: admin
+Role required: none
 
 ## Procedure
 
@@ -42,6 +42,4 @@ Role required: admin
 
 6.  Select **OK**.
 
-
-**Parent Topic:**[Install ACC for DEX on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.md)
 

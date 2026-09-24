@@ -3,11 +3,11 @@ title: Discovery start and classification issue resolution
 description: Use the Discovery Admin Workspace Diagnostics page to identify and resolve the cause when Discovery fails to start or classify a device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/disco-start-issue-resolve.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discove
 
 Use the Discovery Admin Workspace Diagnostics page to identify and resolve the cause when Discovery fails to start or classify a device.
 
-Most start and classification failures have one of a few causes: the MID Server can't reach the target, the configured account lacks the required rights on the target, or software on the target host blocks Discovery scripts from running. The [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page identifies most of these causes with a refined code that includes the root cause and remediation steps.
+Most start and classification failures have one of a few causes: the MID Server can't reach the target, the configured account lacks the required rights on the target, or software on the target host blocks Discovery scripts from running. The [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page identifies most of these causes with a refined code that includes the root cause and remediation steps.
 
 ## Requirements
 
@@ -123,7 +123,7 @@ The refined codes and AI Insights described here require the Error Framework. If
 **Related topics**  
 
 
-[Error Framework in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/error-framework-daw.md)
+[Error Framework in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/error-framework-daw.md)
 
-[Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-error-details.md)
+[Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-error-details.md)
 

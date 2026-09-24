@@ -3,11 +3,11 @@ title: Customize UI actions for a playbook page
 description: You can customize the UI actions that appear in the action bar for a playbook page or page variant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-process-ui-actions-bar.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure templates and pages, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customize UI actions for a playbook page
@@ -34,7 +34,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 **Related topics**  
 
 
-[UI Action Bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migration-form-ui-actions.md)
+[UI Action Bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/migration-form-ui-actions.md)
 
-[Set up a form action in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-action.md)
+[Set up a form action in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-config-ws-form-action.md)
 

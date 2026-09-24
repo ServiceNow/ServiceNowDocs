@@ -1,73 +1,49 @@
 ---
 title: App development and low-code release notes
-description: The ServiceNow AI Platform has new and updated automation, as well as and no-code, low-code, and platform developer features in the Australia release.
+description: The ServiceNow AI Platform has new and updated automation, as well as and no-code, low-code, and platform developer features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/build-automate-rn-landing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
-breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # App development and low-code release notes
 
-The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Australia release.
+The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Brazil release.
 
--   **[App Engine ERP Rapid Deployment Packs release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-erp-rdp-rn.md)**  
-The ServiceNow® App Engine ERP Rapid Deployment Packs are templates for specific business processes in enterprise ERP workflows. App Engine for ERP Rapid Deployment Packs are new in the Australia Patch 5 \(August 2026\) release.
--   **[App Engine Management Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/aemc-rn.md)**  
-The ServiceNow® App Engine Management Center \(AEMC\) application enables admins to manage app development from intake to deployment to production monitoring. AEMC was enhanced and updated in the Australia release.
--   **[App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-studio-rn.md)**  
-The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Australia release.
--   **[Build Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-agent-rn.md)**  
-The ServiceNow® Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto®.
--   **[Creator Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/creator-studio-rn.md)**  
-The ServiceNow® Creator Studio application guides business process experts through creating request-based applications, removing the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Australia release.
--   **[Data Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-catalog-rn.md)**  
-The ServiceNow® Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.
--   **[Data products release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/data-products-rn.md)**  
-The ServiceNow® Data products application enables data stewards to create governed data interfaces and package them into discoverable, reusable data products that teams can access through the Data Catalog. Data products is a new application in the Australia release.
--   **[Developer Sandboxes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/developer-sandboxes-rn.md)**  
-The ServiceNow® Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. Developer Sandboxes was enhanced and updated in the Australia release.
--   **[Integration Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/integration-hub-rn.md)**  
-The ServiceNow® Integration Hub application extends the ServiceNow® Workflow Studio automation capabilities by enabling you to integrate your instance data with data in external systems. Integration Hub was enhanced and updated in the Australia release.
--   **[Next Experience Components release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/next-experience-components-rn.md)**  
-The ServiceNow® Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Australia release.
--   **[Next Experience Developer \(NED\) Tools release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ned-tools-rn.md)**  
-The ServiceNow® Next Experience Developer Tools application enables you to create the components to track and enhance page performance and improve overall developer productivity. Next Experience Developer Tools was enhanced and updated in the Australia release.
--   **[Performance Analyzer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/performance-analyzer-rn.md)**  
-The ServiceNow® Performance Analyzer application enables you to access page load time data, trends, and waterfall visualizations directly from your instance. It also helps you to identify page performance issues and bottlenecks in UX framework pages independently. Performance Analyzer was enhanced and updated in the Australia release.
--   **[ReleaseOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/releaseops-rn.md)**  
-The ServiceNow® ReleaseOps application enables you to deploy and validate code from development to production in your ServiceNow environments. ReleaseOps was enhanced and updated in the Australia release.
--   **[Reverse Tunnel release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/reverse-tunnel-rn.md)**  
-The ServiceNow® Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.
--   **[RPA Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rpa-rn.md)**  
-The ServiceNow® RPA Hub application enables end-to-end automation for your organization. RPA Hub was enhanced and updated in the Australia release.
--   **[ServiceNow Lux Lab for VS Code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-ai-experience-lab-for-vs-code-rn.md)**  
+-   **[App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/app-engine-studio-rn.md)**  
+The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. See the following sections for release notes by version.
+-   **[Build Agent and Autonomous Engineer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-agent-rn.md)**  
+The ServiceNow® Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.
+-   **[Data Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/data-catalog-rn.md)**  
+ Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Brazil release.
+-   **[Developer Sandboxes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+The ServiceNow® Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. See the following sections for release notes by version.
+-   **[Guided Application Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/guided-application-creator-rn.md)**  
+Guided Application Creator is a legacy development interface for building applications. This application is deprecated in the Brazil release.
+-   **[Integration Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/integrationhub-rn-2026-09.md)**  
+The Confluent Kafka REST Proxy Spoke integrates your ServiceNow instances with the Kafka cluster through API and the ServiceNow Kafka Consumer application integrates your ServiceNow instance with Kafka Consumer and stores data in the ServiceNow tables. These are currently supported for the Brazil release, but they will be deprecated in a future release.
+-   **[Intelligent approvals release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/intelligent-approvals-rn.md)**  
+The ServiceNow® Intelligent approvals application automatically evaluates incoming approval requests against your organization's policy documents. Requests that clearly meet policy criteria are approved or rejected automatically, while ambiguous cases are routed to human reviewers for approval. See the following sections for release notes by version.
+-   **[Next Experience Components release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/component-rn.md)**  
+The ServiceNow® Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Brazil release.
+-   **[ReleaseOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/releaseops-rn.md)**  
+The ServiceNow® ReleaseOps application enables you to deploy and validate code from development to production in your ServiceNow environments. See the following sections for release notes by version.
+-   **[Service Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+The ServiceNow® Service Creator application enables a department to offer custom services through the service catalog. This application is deprecated in the Brazil release.
+-   **[ServiceNow Lux Lab for VS Code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/servicenow-ai-experience-lab-for-vs-code-rn.md)**  
 The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
--   **[ServiceNow CLI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-cli-rn.md)**  
-The ServiceNow CLI application is a command-line interface that enables you to perform instance operations from your local system and include new commands that meet your application's needs. ServiceNow CLI was enhanced and updated in the Australia release.
--   **[ServiceNow IDE release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-ide-rn.md)**  
-The ServiceNow® integrated development environment \(IDE\) application enables developers to create scoped applications in source code in an IDE based on Visual Studio Code for the Web on the ServiceNow AI Platform. ServiceNow IDE was enhanced and updated in the Australia release.
--   **[ServiceNow Otto for App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-app-engine-rn.md)**  
-The ServiceNow Otto for App Engine application enables creators to enhance custom applications with AI assets that app users can leverage at runtime. ServiceNow Otto for App Engine was enhanced and updated in the Australia release.
--   **[ServiceNow Otto for Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-creator-rn.md)**  
-The ServiceNow Otto for Creator application includes generative AI skills and AI agents that can help you develop on the ServiceNow AI Platform efficiently. ServiceNow Otto for Creator was enhanced and updated in the Australia release.
--   **[ServiceNow Otto for Zero Copy Connector release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-zero-copy-connector-rn.md)**  
-The ServiceNow Otto for Zero Copy Connector application includes generative AI skills and AI agents that can help you use Zero Copy Connectors efficiently. ServiceNow Otto for Zero Copy Connector was enhanced and updated in the Australia release.
--   **[ServiceNow SDK release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-sdk-rn.md)**  
-The ServiceNow® software development kit \(SDK\) enables developers to create scoped applications in source code locally in Visual Studio Code Desktop and upload changes to a ServiceNow instance. ServiceNow SDK was enhanced and updated in the Australia release.
--   **[ServiceNow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-studio-rn.md)**  
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
--   **[UI Builder release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ui-builder-rn.md)**  
-The ServiceNow® UI Builder application is a web user interface builder for building pages for Workspaces, as well as custom workspaces or portals with Next Experience Components. UI Builder was enhanced and updated in the Australia release.
--   **[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/workflow-studio-rn-landing.md)**  
-The ServiceNow® Workflow Studio application consolidates playbooks, flows, actions, decision tables, and integrations into one design environment. Workflow Studio was enhanced and updated in the Australia release.
--   **[Zero Copy Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/zero-copy-connectors-rn.md)**  
-The ServiceNow® Zero Copy Connectors application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Zero Copy Connectors was enhanced and updated in the Australia release.
--   **[Zero Copy Connector for ERP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/zero-copy-connector-for-erp-rn.md)**  
-The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
+-   **[ServiceNow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/servicenow-studio-rn.md)**  
+The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. See the following sections for release notes by version.
+-   **[Stream Connect release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/stream-connect-rn.md)**  
+The ServiceNow® Stream Connect application links your Apache Kafka environment to your ServiceNow instance, enabling you to stream data between your instance and your external systems. See the following sections for release notes by version.
+-   **[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/workflow-studio-rn-landing.md)**  
+The ServiceNow® Workflow Studio application consolidates playbooks, flows, actions, decision tables, and integrations into one design environment. Workflow Studio was enhanced and updated in the Brazil release.
+-   **[Zero Copy Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/zero-copy-connectors-rn.md)**  
+ServiceNow® Zero Copy Connectors unifies data from across the enterprise, providing access to external data in real-time without needing to copy it to your instance.
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
 

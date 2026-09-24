@@ -3,9 +3,9 @@ title: View and send emails in Lead-to-Cash Process Management
 description: View consolidated emails for all hard-linked entities monitored in a sales process record and compose emails from the sales process dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-send-emails-sales-process.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Use, Sales Customer Relationship Management]
 ---
@@ -16,13 +16,13 @@ View consolidated emails for all hard-linked entities monitored in a sales proce
 
 ## Before you begin
 
-You can compose and send emails related to a sales process record by default. To compose emails for child entities such as an opportunity or quote, you must be granted access to those entities. For more information, see [Setting conditions for enabling email access in Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enabling-email-l2c-process-management.md).
+You can compose and send emails related to a sales process record by default. To compose emails for child entities such as an opportunity or quote, you must be granted access to those entities. For more information, see [Setting conditions for enabling email access in Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enabling-email-l2c-process-management.md).
 
 Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\]
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -43,12 +43,12 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
     4.  Select **Send email**.
 
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-lead-cash-process-management.md)
 
 **Related topics**  
 
 
-[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-cash-process-management.md)
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-lead-cash-process-management.md)
 
-[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-lead-cash-process-management.md)
 

@@ -3,11 +3,11 @@ title: Configuring Multi-day scheduling
 description: Field Service Multi-day task scheduling helps dispatchers manage tasks that require more than a single workday to complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configuring-multi-day-scheduling.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---

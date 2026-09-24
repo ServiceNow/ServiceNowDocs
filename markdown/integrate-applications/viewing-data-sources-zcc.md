@@ -3,9 +3,9 @@ title: Available connectors
 description: Discover available connectors to use in a zero copy connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/viewing-data-sources-zcc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -47,7 +47,7 @@ A connection admin with the df\_connection\_admin role can create connections to
     Community connectors are developed by the open-source community and made available by ServiceNow. These connectors are certified for essential functionality but are not part of the ServiceNow support scope.
 
 
-For details on creating connections using primary connectors, see [Primary connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/primary-connectors-zcc.md).
+For details on creating connections using primary connectors, see [Primary connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/primary-connectors-zcc.md).
 
-For details on creating connections using community connectors, see [Community connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/community-connectors-zcc.md).
+For details on creating connections using community connectors, see [Community connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/community-connectors-zcc.md).
 

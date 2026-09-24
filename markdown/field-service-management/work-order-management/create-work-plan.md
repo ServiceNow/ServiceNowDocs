@@ -3,11 +3,11 @@ title: Create a work plan
 description: Create a work plan to specify how and when the work should be performed for any activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-work-plan.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -92,7 +92,7 @@ Enable grouping
 
 </td><td>
 
-Option to enable grouping of work orders based on the criteria like asset, location, or model.For more information on grouping of work orders and adding criteria for grouping, see [Add grouping criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/add-grouping-criteria.md).
+Option to enable grouping of work orders based on the criteria like asset, location, or model.For more information on grouping of work orders and adding criteria for grouping, see [Add grouping criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/add-grouping-criteria.md).
 
 </td></tr><tr><td>
 
@@ -106,10 +106,10 @@ Specifies the template used for this work plan. The available options are:
 
 **Note:** The work orders created for the work plan are automatically linked to their corresponding schedule occurrence. Administrators can configure the form layout of the work order to add the **Schedule occurrence** field.
 
--   **Task plan template**– The work plan creates tasks like cases and incidents based on the linked task plan template. For more information on the creation and usage of task plans, see [Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-templates.md).
+-   **Task plan template**– The work plan creates tasks like cases and incidents based on the linked task plan template. For more information on the creation and usage of task plans, see [Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/task-plan-templates.md).
 **Note:**
 
--   Activate the Task Plan Templates \(com.sn\_task\_plan\_templates\) plugin from the ServiceNow Store and configure the extension point sn\_fsm\_planned\_wm.TaskPlanTemplateOutputTasks to attach task plan templates to the work plan. For more details about the extension point, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/extension-points-field-service.md).
+-   Activate the Task Plan Templates \(com.sn\_task\_plan\_templates\) plugin from the ServiceNow Store and configure the extension point sn\_fsm\_planned\_wm.TaskPlanTemplateOutputTasks to attach task plan templates to the work plan. For more details about the extension point, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/extension-points-field-service.md).
 -   You must update the state of the schedule occurrence when the state of the task changes.
 -   You must link the output records \(cases or incidents\) with schedule occurrences because they are not linked automatically. You can link the output records by adding new field in the output record.
 -   The **Template type** field is not available by default. The administrator can configure the form layout to add the **Template type** field.
@@ -214,5 +214,5 @@ Specify what to do when a work plan runs based on a schedule occurrence that is 
 
 ## What to do next
 
-After creating a work plan, configure a schedule to the work plan. For more information, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-work-plan.md)
+After creating a work plan, configure a schedule to the work plan. For more information, see [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/configure-work-plan.md)
 

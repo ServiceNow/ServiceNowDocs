@@ -3,9 +3,9 @@ title: Standalone agents in ServiceNow Otto for Sales CRM for Telecommunications
 description: Use these standalone AI agents to autonomously complete ServiceNow Otto for Sales CRM for Telecommunications tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/standalone-agents-somt.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -18,9 +18,9 @@ Use these standalone AI agents to autonomously complete ServiceNow Otto for Sale
 
 The following AI agents are available with ServiceNow Otto for Sales CRM for Telecommunications:
 
--   [Order enrichment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/order-enrichment-agent-somt.md)
--   [Order fulfillment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/order-fulfillment-agent-somt.md)
--   [Move order voice AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-move-order-somt.md)
--   [Order fallout AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-order-fallout-somt.md)
--   [Image to task plan template AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-task-template-generation-somt.md)
+-   [Order enrichment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/order-enrichment-agent-somt.md)
+-   [Order fulfillment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/order-fulfillment-agent-somt.md)
+-   [Move order voice AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-move-order-somt.md)
+-   [Order fallout AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-order-fallout-somt.md)
+-   [Image to task plan template AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-task-template-generation-somt.md)
 

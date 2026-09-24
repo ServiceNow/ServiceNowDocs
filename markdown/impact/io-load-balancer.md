@@ -3,9 +3,9 @@ title: Load balancer performance metrics
 description: The metrics provide the load balancer performance snapshot within the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/io-load-balancer.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -42,7 +42,7 @@ Total number of HTTP responses/second with response code 5XX \(server error resp
 
 This represents the total number of active \(processing\) requests at a given timestamp. Note that this is an aggregated value that includes all responses sent for the instance in question.
 
-**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 

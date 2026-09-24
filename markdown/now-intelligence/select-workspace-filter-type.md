@@ -3,9 +3,9 @@ title: Create or add a filter on an inline dashboard
 description: Create a filter or select one from the filter library. When creating a filter, name it, and choose whether to create a single select, multiple select, date, or true/false filter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/select-workspace-filter-type.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -22,9 +22,9 @@ Role required: dashboard\_admin, or you must be the dashboard owner or have had 
 
 1.  Open **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
-2.  Locate the dashboard in the dashboard library and open it for editing, as described in [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
+2.  Locate the dashboard in the dashboard library and open it for editing, as described in [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md).
 
-    If the dashboard is in the inline editor, you see an **Edit** button. If it is a technical dashboard, you see an **Edit in UI Builder** button. In the latter case, go to [Create a filter on a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-tech-dashboard.md).
+    If the dashboard is in the inline editor, you see an **Edit** button. If it is a technical dashboard, you see an **Edit in UI Builder** button. In the latter case, go to [Create a filter on a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-filter-tech-dashboard.md).
 
 3.  If you are in a different application scope than the dashboard, use the application picker to select the correct scope.
 
@@ -44,10 +44,10 @@ Role required: dashboard\_admin, or you must be the dashboard owner or have had 
 
     Other configuration options vary depending on the data type you select. After you select the filter type, follow the instructions on the linked page to continue configuration.
 
-    -   [Single select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md): A single value from a set of choices. Single select is the default filter type.
-    -   [Multiple select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md): More than one value from a set of choices, such as both High and Critical Priority
-    -   [Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-date-filter-workspace.md): A calendar date. You can also set a time. Automatically applies to all indicator data on page or tab.
-    -   [True/False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-boolean-filter-workspace.md): Whether a field value is true or false. Can also be used with indicator breakdowns that are based on a [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) with only two values. The labels for 'true' and 'false' can be customized. The viewer can select **\(empty\)** to clear their selection.
+    -   [Single select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-select-filter-workspace.md): A single value from a set of choices. Single select is the default filter type.
+    -   [Multiple select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-select-filter-workspace.md): More than one value from a set of choices, such as both High and Critical Priority
+    -   [Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-date-filter-workspace.md): A calendar date. You can also set a time. Automatically applies to all indicator data on page or tab.
+    -   [True/False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-boolean-filter-workspace.md): Whether a field value is true or false. Can also be used with indicator breakdowns that are based on a [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) with only two values. The labels for 'true' and 'false' can be customized. The viewer can select **\(empty\)** to clear their selection.
 8.  Choose the **Filter Element**.
 
     Element options depend on the filter type, but include Pill, Checkboxes, and Typeahead.

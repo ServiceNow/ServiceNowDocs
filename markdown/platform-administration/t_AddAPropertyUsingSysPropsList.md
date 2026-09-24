@@ -3,9 +3,9 @@ title: Add a system property
 description: Add or create a property to control system behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_AddAPropertyUsingSysPropsList.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -138,5 +138,5 @@ Defines the roles that have write access to this property.
     **Note:** If the **Ignore cache** check box is selected, the system flushes the server cache when the parameter is changed.
 
 
-**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/p_CoreConfigurationOverview.md)
 

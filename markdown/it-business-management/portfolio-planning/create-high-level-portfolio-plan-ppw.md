@@ -3,11 +3,11 @@ title: Create a high-level portfolio plan
 description: Build a portfolio plan for high-level items \(programs\) in the Portfolio Planning Workspace so that you can prioritize, roadmap, and manage work aligned to these programs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-high-level-portfolio-plan-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage portfolio plans, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -67,7 +67,7 @@ The portfolio plan is created and the page is refreshed to show the Planning pag
 
 ## What to do next
 
-Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.md).
+Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.md).
 
-**Parent Topic:**[Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
+**Parent Topic:**[Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
 

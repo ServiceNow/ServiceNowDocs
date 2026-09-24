@@ -3,12 +3,12 @@ title: Create a logical connection record using the Design and Assign function
 description: Use the Design and Assign function to create a logical connection in the Telecommunications Network Inventory application. By creating a logical connection, you can fulfill the design request for a network service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-design-assign-playbook.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Design and Assign function, Use, Telecommunications Network Inventory]
 ---
 
@@ -422,14 +422,12 @@ Free-form operation note text for this network asset. For example, `Check diesel
 
 ## Result
 
-The change tasks are created and executed for each activity. The logical connection record is created. The created logical connection automatically associates the interface with its corresponding card or equipment.
+The change tasks are created and executed for each activity. The logical connection record is created with the associated Configuration items \(CI\).
 
-**Note:** The system now automatically associates each logical interface with its corresponding card or equipment. With the logical and physical interface alignment enhancement, logical interfaces \(such as VLANs\) and physical interfaces \(such as Gigabyte Ethernet ports\) are mapped to their parent equipment or card. The system establishes a parent relationship for each logical interface using the parent’s unique serial number for accurate identification. This enhancement ensures consistency across systems and prevents duplicate CI creation by aligning identification and relationship logic between logical and physical interfaces.
-
-**Parent Topic:**[Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md)
+**Parent Topic:**[Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md)
 
 **Related topics**  
 
 
-[Logical connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.md)
+[Logical connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.md)
 

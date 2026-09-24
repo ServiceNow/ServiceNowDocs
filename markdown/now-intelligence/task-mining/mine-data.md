@@ -3,11 +3,11 @@ title: Define user actions for task logging
 description: Group workstation user actions as a task that can be logged to provide data for a Task activity analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/mine-data.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [task scope]
 breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
@@ -93,5 +93,5 @@ To configure a task to track the status of P1 incidents from creation to closing
 
 ## What to do next
 
-Select workstation users you want to collect activity data from and create data requests. For more information, see [Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/add-users-to-task-mining-project.md).
+Select workstation users you want to collect activity data from and create data requests. For more information, see [Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/add-users-to-task-mining-project.md).
 

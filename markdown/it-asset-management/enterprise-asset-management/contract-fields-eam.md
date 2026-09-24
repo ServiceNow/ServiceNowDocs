@@ -3,11 +3,11 @@ title: Contract fields for Enterprise Asset Management
 description: A detailed description of all contract fields in the Enterprise Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/contract-fields-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
@@ -112,10 +112,10 @@ Has rate card
 
 </td><td>
 
-Option that indicates if the lease contract has an associated contract rate card, which provides detailed cost information for the contract.See [Create a contract rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_ContractRateCardsAndExpenseLines.md) for more information on contract rate cards.
+Option that indicates if the lease contract has an associated contract rate card, which provides detailed cost information for the contract.See [Create a contract rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_ContractRateCardsAndExpenseLines.md) for more information on contract rate cards.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

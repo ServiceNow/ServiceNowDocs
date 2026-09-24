@@ -3,11 +3,11 @@ title: Enterprise Asset Management for Healthcare
 description: The Enterprise Asset Management for Healthcare application is a licensable application that on activation enables you to manage healthcare-specific models, assets, and workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/eam-for-healthcare.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
@@ -16,16 +16,16 @@ breadcrumb: [Industry-specific EAM solutions, Enterprise Asset Management, Asset
 
 The Enterprise Asset Management for Healthcare application is a licensable application that on activation enables you to manage healthcare-specific models, assets, and workflows.
 
-The Enterprise Asset Management for Healthcare \(com.sn\_eamhc\) application is available on the ServiceNow Store. When you install this application on your ServiceNow instance, the Enterprise Asset Management application also gets installed. For more information, see [Installed with Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.md).
+The Enterprise Asset Management for Healthcare \(com.sn\_eamhc\) application is available on the ServiceNow Store. When you install this application on your ServiceNow instance, the Enterprise Asset Management application also gets installed. For more information, see [Installed with Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.md).
 
 This application provides functionalities, features, and workflows of Enterprise Asset Management that support healthcare-related roles and asset models.
 
--   **[Install Enterprise Asset Management for healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/install-eam-for-healthcare.md)**  
-You can install the Enterprise Asset Management for Healthcare application \(com.sn\_eamhc\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Installed with Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.md)**  
-The user role components, plugins, and applications are installed with activation of the com.sn\_eamhc plugin.
+-   **[Installing Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installing-eam-healthcare.md)**  
+Install the Enterprise Asset Management for Healthcare application so that you can manage the life cycles of your healthcare-specific assets. You can install the application from either the ServiceNow® Store or the Admin Home page.
+-   **[Installed with Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.md)**  
+Several types of components are installed with activation of the com.sn\_eamhc plugin, including user roles and applications.
 
-**Parent Topic:**[Industry-specific Enterprise Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-related-apps.md)
+**Parent Topic:**[Industry-specific Enterprise Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-related-apps.md)
 
 **Related topics**  
 
@@ -36,5 +36,5 @@ The user role components, plugins, and applications are installed with activatio
 
 [Enterprise Asset Management for Providers]()
 
-[Exploring Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/exploring-eam.md)
+[Exploring Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/exploring-eam.md)
 

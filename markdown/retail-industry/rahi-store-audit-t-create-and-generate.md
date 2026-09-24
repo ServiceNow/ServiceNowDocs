@@ -3,7 +3,7 @@ title: Create and publish an audit plan
 description: Use the Store audit playbook in CSM/FSM Workspace to author and publish an audit plan. Publishing automatically creates the Store Audit Cases and Audit Tasks for all selected store locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-t-create-and-generate.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-07-07"
 reading_time_minutes: 2
@@ -53,12 +53,12 @@ The **Store audit** playbook guides you through configuring the full plan in a s
 
 A published audit plan exists. Click the **Track plan** tab on the plan record to see the generated Store Audit Cases once they exist.
 
-**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-manage.md)
+**Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-manage.md)
 
 **Related topics**  
 
 
-[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
+[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-overview.md)
 
-[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
+[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
 

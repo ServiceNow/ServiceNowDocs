@@ -3,11 +3,11 @@ title: Create advanced task dependency using a work order template
 description: You can create work order templates that contain advanced task dependencies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-a-work-order-advanced-task-dependency-using-a-work-order-template.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -18,7 +18,7 @@ You can create work order templates that contain advanced task dependencies.
 
 ## Before you begin
 
-Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
+Role required: wm\_qualifier or [qualifier combination role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
 
 Plugin required: Field Service Task Dependency \(com.snc.fsm\_task\_dependency\)
 
@@ -120,6 +120,6 @@ This field displays the order model for the work order. This field can't be edit
 
 7.  When you have defined the dependencies for all tasks, click **Submit**.
 
-    After the work order task dependencies are defined, you can select the template when [creating a new work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrder.md), and the tasks, along with the defined dependencies, will be inherited by the work order.
+    After the work order task dependencies are defined, you can select the template when [creating a new work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/t_CreateAWorkOrder.md), and the tasks, along with the defined dependencies, will be inherited by the work order.
 
 

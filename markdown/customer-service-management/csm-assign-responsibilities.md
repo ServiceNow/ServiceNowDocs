@@ -1,18 +1,18 @@
 ---
 title: Assign responsibilities
-description: Use the responsibility data model to assign responsibilities to an organization member.
+description: Use the responsibility data model to assign responsibilities to a service organization \(SO\) member.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-assign-responsibilities.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Assign responsibilities
 
-Use the responsibility data model to assign responsibilities to an organization member.
+Use the responsibility data model to assign responsibilities to a service organization \(SO\) member.
 
 ## Before you begin
 
@@ -20,30 +20,30 @@ Role required: admin
 
 ## About this task
 
-Use the responsibility data model to assign multiple responsibilities to a single organization member across different business organizations. For hierarchy responsibilities you can assign the same responsibility to a user at multiple locations. Each assignment has its own assignment point and excluded locations list. The user's effective access is the union of all assignments, minus excluded and restricted locations.
+Businesses often need staff to work at more than one business location, and they can have different responsibilities at different locations. Using the responsibility data model, an SO member can be assigned multiple responsibilities.
 
-The responsibility data model tracks the relationship between the organization members and their responsibility type in the Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\] table.
+The responsibility data model tracks the relationship between the SO members and their responsibility type in the Service Organization Member Responsibilities \[sn\_csm\_svc\_org\_member\_responsibility\] table.
 
-**Note:** If the business organization plugin is active, this feature is enabled by default. However, for upgrade customer, the data in the \[sn\_csm\_svc\_org\_member\_responsibility\] table will be auto-populated for existing organization members to confirm that they retain as much access after the upgrade. Any new records created after the Australia release must be created using the following steps.
+**Note:** If the business location plugin is active, this feature is enabled by default. However, for upgrade customer, the data in the \[sn\_csm\_svc\_org\_member\_responsibility\] table will be auto-populated for existing SO members to confirm that they retain as much access after the upgrade. Any new records created after the Brazil release must be created using the following steps.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Business Organizations** &gt; **Internal/External Organizations**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Internal/External Business Locations**.
 
-2.  Open the business organization \(internal or external\) record.
+2.  Open the business location \(internal or external\) record.
 
-3.  Open the Organization Member record from the Members related list.
+3.  Open the SO Member record from the Members related list.
 
-4.  Select **New** to create a record in the Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\] table.
+4.  Select **New** to create a record in the SO Member Responsibilities \[sn\_csm\_svc\_org\_member\_responsibility\] table.
 
     The Organization Member Responsibility record shows the following fields:
 
-    1.  **Member**: Refers to the \[sn\_csm\_service\_organization\_member\] table and is auto-populated if the record is initiated from the Organization Member related list.
-    2.  **Type**: Refers to the \[sn\_customerservice\_related\_party\_configuration\] table
-    3.  **Order**: Refers to the sequence in which records are displayed, organized according to business preferences.
-    4.  **Excluded Organizations**: Exclude the following child organizations from hierarchy-based access for this user.
+    1.  **Member**: This field refers to the \[sn\_csm\_service\_organization\_member\] table and is auto-populated if the record is initiated from the SO Member related list.
+    2.  **Type**: This field refers to the \[sn\_customerservice\_related\_party\_configuration\] table
+    3.  **Order**: This field specifies the sequence in which records are displayed, organized according to business preferences.
+    4.  **Excluded Locations**: This field includes the list of locations that have to be excluded.
     **Note:**
 
     With the base system, users with a specific role can be assigned a particular type.
@@ -58,7 +58,7 @@ Name
 
 </th></tr></thead><tbody><tr><td>
 
-Location Agent**Note:** This role only applies to the internal organization.
+Location Agent**Note:** This role only applies to the internal business location.
 
 </td><td>
 
@@ -66,7 +66,7 @@ sn\_customerservice.svc\_location\_agent
 
 </td></tr><tr><td>
 
-Location Consumer Agent**Note:** This role only applies to the internal organization.
+Location Consumer Agent**Note:** This role only applies to the internal business location.
 
 </td><td>
 
@@ -90,7 +90,7 @@ sn\_customerservice.svc\_location\_manager\_contributor
 
 </td></tr><tr><td>
 
-Location Manager Fulfiller**Note:** This role only applies to the internal organization.
+Location Manager Fulfiller**Note:** This role only applies to the internal business location.
 
 </td><td>
 
@@ -98,7 +98,7 @@ sn\_customerservice.svc\_location\_manager
 
 </td></tr><tr><td>
 
-Location Relationship Manager**Note:** This role only applies to the external organization.
+Location Relationship Manager**Note:** This role only applies to the external business location.
 
 </td><td>
 
@@ -112,9 +112,25 @@ Location Support Agent
 
 sn\_bus\_loc.svc\_location\_support\_agent
 
+</td></tr><tr><td>
+
+Business Org Account Contributor
+
+</td><td>
+
+sn\_bus\_loc.business\_org\_account\_contributor
+
+</td></tr><tr><td>
+
+Business Org Consumer Contributor
+
+</td><td>
+
+sn\_bus\_loc.business\_org\_consumer\_contributor
+
 </td></tr></tbody>
 </table>5.  After you assign the required related party type, select **Submit**.
 
-    A new responsibility is added to the organization member.
+    A new responsibility is added to the SO member.
 
 

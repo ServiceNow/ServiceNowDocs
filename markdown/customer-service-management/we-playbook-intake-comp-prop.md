@@ -3,9 +3,9 @@ title: Component properties for the Playbook intake
 description: Component properties enable you to configure the behavior of the Playbook intake component instance on the third-party website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-playbook-intake-comp-prop.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Web Embeddables component properties, Web Embeddables reference, Reference, Customer Service Management]
 ---
@@ -178,11 +178,11 @@ Option to hide the error messages from end user when the component fails to load
 </table>**Related topics**  
 
 
-[Configure the Playbook intake component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-playbook-intake-comp.md)
+[Configure the Playbook intake component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-playbook-intake-comp.md)
 
-[Embed the Playbook intake component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-playbook-intake-comp.md)
+[Embed the Playbook intake component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-playbook-intake-comp.md)
 
-[Event handler in the Playbook intake component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-playbook-intake-event-handler.md)
+[Event handler in the Playbook intake component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-playbook-intake-event-handler.md)
 
-[Sample code for the Playbook intake component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-playbook-intake-sample-code.md)
+[Sample code for the Playbook intake component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-playbook-intake-sample-code.md)
 

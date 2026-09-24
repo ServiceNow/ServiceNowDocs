@@ -3,11 +3,11 @@ title: Configure state bucket mapping for custom story states in EAP
 description: Map custom story state choices to state buckets in the dictionary to keep story cards visible and correctly placed on the Planning board in Enterprise Agile Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/configure-state-buckets-for-custom-story-states-in-eap.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---

@@ -3,11 +3,11 @@ title: Tables installed with Risk Management
 description: Tables are added with activation of GRC: Risk Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/r\_TableInsWRisk.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Components installed with Risk Management, Reference, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -155,5 +155,5 @@ Base table to Risk Acceptance, Risk Avoidance, Risk Mitigation, Risk Transfer ta
 </td></tr></tbody>
 </table>**Note:** All additional tables installed by the dependent plugins are also needed for GRC: Risk Management.
 
-**Parent Topic:**[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md)
+**Parent Topic:**[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md)
 

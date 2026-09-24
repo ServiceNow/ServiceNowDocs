@@ -3,11 +3,11 @@ title: Work with flapping alerts
 description: If an alert is in the flapping state, you might need to triage the alert again.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-handle-alerts-flapping.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Advanced operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -89,11 +89,11 @@ The state of the alert before it entered the flapping state.
 
     You can do any of the following, depending on what your organization's standard operating procedures are and what your Event Management administrator configured:
 
-    -   [Run a remediation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-run-remdiation.md) that might do something like reboot a server or reset a router.
-    -   [Access a web application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-launch-web-app.md), like the application for your event monitoring software on your network.
-    -   [Modify an associated incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-phase-triage-incident.md) or a [KB article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-associate-kb.md) to include additional information or steps.
-5.  After you are certain that the underlying issue is addressed, [close the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-close-alert.md).
+    -   [Run a remediation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-run-remdiation.md) that might do something like reboot a server or reset a router.
+    -   [Access a web application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-launch-web-app.md), like the application for your event monitoring software on your network.
+    -   [Modify an associated incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-phase-triage-incident.md) or a [KB article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-associate-kb.md) to include additional information or steps.
+5.  After you are certain that the underlying issue is addressed, [close the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-close-alert.md).
 
 
-**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-advanced-tasks.md)
+**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-advanced-tasks.md)
 

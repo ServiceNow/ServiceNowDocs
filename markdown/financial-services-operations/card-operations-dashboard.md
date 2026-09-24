@@ -3,9 +3,9 @@ title: Dispute Management dashboard
 description: With the Dispute Management dashboard, you can get an insight into how your team and business are performing for the card service requests that were received for your financial services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/card-operations-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Platform Analytics, Financial Services Operations \(FSO\)]
 ---
@@ -29,7 +29,7 @@ To access the Dispute Management dashboard, navigate to **Workspaces** &gt; **Fi
 
 Alternatively, you can navigate to **All** &gt; **Card Operations** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center.md).
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout as usual by navigating to **All** &gt; **Card Operations** &gt; **Dashboard**.
 

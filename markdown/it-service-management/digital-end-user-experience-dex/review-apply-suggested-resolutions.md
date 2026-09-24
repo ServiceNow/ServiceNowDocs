@@ -1,18 +1,18 @@
 ---
-title: Execute suggested resolutions from incident investigation with DEX
+title: Execute suggested resolutions from incidents with DEX
 description: Review and execute suggested resolutions from the Investigation tab of incident records to resolve detected issues on DEX monitored devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/review-apply-suggested-resolutions.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Suggested resolutions and remedial actions, Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Service Management]
+breadcrumb: [Suggested resolutions and remedial actions, Incident diagnostics, suggested resolutions, and remedial actions, Manage, Digital End-User Experience, IT Service Management]
 ---
 
-# Execute suggested resolutions from incident investigation with DEX
+# Execute suggested resolutions from incidents with DEX
 
 Review and execute suggested resolutions from the Investigation tab of incident records to resolve detected issues on DEX monitored devices.
 
@@ -22,7 +22,7 @@ Role required: sn\_dex.service\_desk\_user, sn\_dex.engineer
 
 ## About this task
 
-In addition to the suggested resolutions, you can run remedial actions from the Action library in incident investigation with DEX. For more information, see [Run remedial actions from the Action library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-action-library.md).
+In addition to the suggested resolutions, you can run remedial actions from the Action library in incident investigation with DEX. For more information, see [Run remedial actions from the Action library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-action-library.md).
 
 ## Procedure
 

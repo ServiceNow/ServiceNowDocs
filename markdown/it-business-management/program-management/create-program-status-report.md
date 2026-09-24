@@ -3,11 +3,11 @@ title: Create a program status report
 description: Create a program status report periodically to view a status rollup of the projects in the program. When you create a status report, the status for different aspects of the program is rolled up from the project status reports of all projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/program-management/create-program-status-report.html
-release: australia
+release: brazil
 product: Program Management
 classification: program-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a program to manage projects and demands, Program Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -117,7 +117,7 @@ System-generated ID number for the status report with a configurable prefix.
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_CreateAProgram.md)
+**Parent Topic:**[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/t_CreateAProgram.md)
 
 **Related topics**  
 

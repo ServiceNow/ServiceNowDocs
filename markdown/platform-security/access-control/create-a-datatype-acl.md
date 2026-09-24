@@ -3,11 +3,11 @@ title: Create a datatype ACL
 description: Learn how to create a datatype ACL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/create-a-datatype-acl.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Datatype ACL, ACL types, Explore Access Control Lists, Access Control Lists \(ACLs\), Access Management]
 ---
@@ -34,12 +34,12 @@ Role required: admin
 
 6.  Fill in any additional details on the **Create an ACL** form.
 
-    See [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md) for additional information.
+    See [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/t_CreateAnACLRule.md) for additional information.
 
 7.  Select **Submit**.
 
 8.  Verify the security rules for the ACL in the popup **Verify Security Rules** window.
 
-    \[Omitted image "acl-datatype-verify.png"\] Alt text: An example verifying security rules.
+    \[Omitted image "acl-datatype-verify.png"\] Alt text: An example of verifying security rules.
 
 

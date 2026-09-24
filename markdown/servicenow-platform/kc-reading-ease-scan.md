@@ -3,9 +3,9 @@ title: Article Optimization with Reading Ease scan
 description: The Reading Ease scan runs as part of Article Optimization. The scan is triggered each time you save an article or when the scheduled job runs, or both. When the scan detects readability issues with a knowledge article, review and resolve the findings to improve the readability of the article that scored below the acceptable threshold.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-reading-ease-scan.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ The scan detects articles that score below 60 on the Flesch-Kincaid reading ease
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Knowledge** &gt; **Knowledge Center** &gt; **Lists**.
+1.  Navigate to **All** &gt; **Knowledge** &gt; **Knowledge Center** &gt; **List**.
 
 2.  Select the type of article from the **List** menu \(Unpublished, Published, Retired, and so on\).
 
@@ -64,6 +64,4 @@ The scan detects articles that score below 60 on the Flesch-Kincaid reading ease
 ## Result
 
 The article meets the readability threshold and no further reading ease findings are generated. Most articles reach a passing score after one or two review cycles.
-
-**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 

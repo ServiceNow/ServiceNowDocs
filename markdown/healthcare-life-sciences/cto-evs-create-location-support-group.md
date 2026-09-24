@@ -3,9 +3,9 @@ title: Create a group for all location support agents in Care Team Operations fo
 description: Create a group for location support agents with the sn\_cto\_evs.loc\_support\_agent role assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Environmental Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-create-location-support-group.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Care Team Operations for Environmental Services, Healthcare Operations, Healthcare and Life Sciences]
 ---

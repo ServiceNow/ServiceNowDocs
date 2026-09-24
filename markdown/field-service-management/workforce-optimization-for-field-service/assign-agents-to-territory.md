@@ -3,11 +3,11 @@ title: Add suggested agents to a territory
 description: View suggested agents of a particular territory and add them directly to a territory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/assign-agents-to-territory.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure resources, Territory Planning, Set up workforce, Configure, Field Service Management]
 ---
@@ -55,7 +55,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_
         |Fields|Description|
         |------|-----------|
         |From Date|Start date of the work duration for the territory.|
-        |To date|End date of the work duration for the territory. For more information, see **sn\_fsm\_tp.territory\_membership\_override\_to\_date** in [Field Service Territory Planning console properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/territory-planning-components-fsm.md).|
+        |To date|End date of the work duration for the territory. For more information, see **sn\_fsm\_tp.territory\_membership\_override\_to\_date** in [Field Service Territory Planning console properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/territory-planning-components-fsm.md).|
         |User|Name of agent.|
         |Work schedule|Select the work schedule. For example 8 AM to 5 PM.|
         |Type|Select **Primary Work** for agent as a primary contact for the selected territory.|

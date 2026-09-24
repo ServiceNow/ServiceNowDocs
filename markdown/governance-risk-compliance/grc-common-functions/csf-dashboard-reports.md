@@ -3,11 +3,11 @@ title: NIST CSF Use Case Accelerator dashboards and reports
 description: The contains various reports. The NIST Cybersecurity Framework \(CSF\) Use Case Accelerator contains a variety of reports displayed on different dashboards, available within each of the sections in the NIST CSF process:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/csf-dashboard-reports.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [NIST CSF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -34,5 +34,5 @@ The contains various reports. The NIST Cybersecurity Framework \(CSF\) Use Case 
 |Issues|Displays an overview of issues for cybersecurity activities. Issues are grouped by policies, entity class, entities, or functions.|
 |Action Plans|Displays an overview of action plans that exist for cybersecurity activities. Action plans are grouped by policies, entity class, entities, or functions.|
 
-**Parent Topic:**[NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-csf-usecase-accelerator.md)
+**Parent Topic:**[NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-csf-usecase-accelerator.md)
 

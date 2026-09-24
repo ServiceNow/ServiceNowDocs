@@ -3,9 +3,9 @@ title: Add a related attack mode method
 description: In addition to importing attack modes/methods as STIX data, you can add related attack modes/methods manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/t\_AddRelatedAttackMode.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Attack modes and methods, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -35,7 +35,7 @@ Role required: sn\_ti.admin
 7.  Click **Save**.
 
 
-**Parent Topic:**[Attack modes and methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_AttackModeMethod.md)
+**Parent Topic:**[Attack modes and methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_AttackModeMethod.md)
 
 **Related topics**  
 

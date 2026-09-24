@@ -3,11 +3,11 @@ title: Connect to a third-party OAuth provider
 description: Configure how the client ID and secret are sent to your OAuth provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/connect-3rd-party-oauth-provider.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [OAuth Outbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -209,7 +209,7 @@ Client Type
 Choose the client type, based on the type of your client. Options:-   **Iframe Embedded**
 -   **Integration as a User**
 -   **Integration as a Service**
-To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/client-type.md).
+To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>    The system creates a record in the Application Registries \[oauth\_entity\] table with type OAuth Provider.

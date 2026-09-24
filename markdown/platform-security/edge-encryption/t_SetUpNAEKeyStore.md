@@ -3,11 +3,11 @@ title: Set up a SafeNet KeySecure keystore
 description: If you are using a SafeNet keystore, copy a set of libraries into the proxy distribution directory.If you use a SafeNet NAE server for key storage with Edge, before upgrading the proxy from Kingston or lower to London or higher, you must copy Gemalto SafeNet client ProtectApp JAR files and add new properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/t\_SetUpNAEKeyStore.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up a keystore and encryption keys, Install the Edge Encryption proxy server using the command line installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -32,7 +32,7 @@ You must install and set up the SafeNet keystore before performing this step. Se
 
 1.  Change to the `<installation directory>/conf/` directory, and open the `edgeencryption.properties` file.
 
-2.  Enter the properties for the [SafeNet keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md).
+2.  Enter the properties for the [SafeNet keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md).
 
     **Note:** You may configure SafeNet keystore using with username/password authentication or client certificate authentication, but not a combination of both.
 
@@ -70,7 +70,7 @@ You must install and set up the SafeNet keystore before performing this step. Se
 4.  Save and close the `edgeencryption.properties` file.
 
 
-**Parent Topic:**[Set up a keystore and encryption keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/set-up-keystore.md)
+**Parent Topic:**[Set up a keystore and encryption keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/set-up-keystore.md)
 
 ## Upgrade from Kingston or lower to London or higher
 

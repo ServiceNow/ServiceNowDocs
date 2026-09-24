@@ -3,9 +3,9 @@ title: Verify partition configuration
 description: Verify that partitions are configured correctly by impersonating users with different partition roles and checking that record visibility is enforced across all workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/verify-partition-configuration-ewd.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [partition verification, impersonate user, partition roles, record visibility, enterprise-wide deployment]
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
@@ -18,8 +18,8 @@ Verify that partitions are configured correctly by impersonating users with diff
 ## Before you begin
 
 -   You have completed all partition configuration steps:
-    -   Partitions created and partition criteria configured for all supported tables. For details, see [Create and configure a partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-partition-ewd.md).
-    -   Partition roles are assigned to the relevant users or user groups. For details, see [Assign partition role for access to the partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-partition-role-ewd.md).
+    -   Partitions created and partition criteria configured for all supported tables. For details, see [Create and configure a partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/create-partition-ewd.md).
+    -   Partition roles are assigned to the relevant users or user groups. For details, see [Assign partition role for access to the partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/assign-partition-role-ewd.md).
 -   You have access to impersonate users in the system.
 -   Test records exist in the supported tables for each partition — for example, projects and demands created for both IT Operations and HR Learning and Development departments.
 

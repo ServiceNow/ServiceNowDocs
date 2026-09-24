@@ -3,9 +3,9 @@ title: Sentiment analysis for surveys
 description: You can use sentiment analysis to determine whether user responses for a survey are considered positive, negative, or neutral.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sentiment-analysis.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -98,14 +98,14 @@ This formula ensures:
 
 Since the three confidence scores always sum to 1, this formula generates a consistent value in the range of -1 to 1, representing the full mix of sentiment information from the Azure API.
 
--   **[Configure a sentiment connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-sentiment-connector.md)**  
+-   **[Configure a sentiment connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-sentiment-connector.md)**  
 Specify the service URL and other configuration information for third party APIs that are used for sentiment analysis.
--   **[Sentiment analysis property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sentiment-analysis-properties.md)**  
+-   **[Sentiment analysis property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sentiment-analysis-properties.md)**  
 You can use the sentiment analysis property to customize the **Sentiment Analysis** module.
--   **[Sentiment analysis results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sentiment-analysis-results.md)**  
+-   **[Sentiment analysis results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sentiment-analysis-results.md)**  
 The sentiment analysis results view contains a bar chart that displays the percentage of positive, negative, and neutral results, along with the instance count for each category.
 
-**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 

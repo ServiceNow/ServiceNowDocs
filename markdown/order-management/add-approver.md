@@ -3,9 +3,9 @@ title: Add ad-hoc approvers to an approval request
 description: As a requester or an approver, add one or more ad-hoc approvers to an approval request in Advanced Approval Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/add-approver.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ When you add an ad-hoc approver, you can choose to add the approver to a General
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the \[Omitted image "list-outline-24.svg"\] Alt text:List icon.
 
@@ -67,5 +67,5 @@ The ad-hoc approver can approve or reject the approval request in one of the fol
 -   In the approval step card in the chain, by selecting the **More options** \[Omitted image "icon-three-dots.png"\] Alt text: menu and choosing the **Approve** or **Reject** option.
 -   In the My approvals feature in the ServiceNow AI Platform.
 
-**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-advanced-approval-management.md)
+**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-advanced-approval-management.md)
 

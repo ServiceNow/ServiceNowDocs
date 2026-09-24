@@ -3,9 +3,9 @@ title: Add auto-numbering records in a table
 description: You can define one number format per table in the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_AutoNumberingRecordsInATable.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Record numbering, Customize, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -92,10 +92,10 @@ Enter the minimum number of digits to use after the prefix \(default value is 7\
     **Note:** To change the default values for new number formats, change the **Default value** field on the system dictionary record for the **Number** or **Number of digits** field. These fields are on the Number table.
 
 
-**Parent Topic:**[Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ManagingRecordNumbering.md)
+**Parent Topic:**[Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ManagingRecordNumbering.md)
 
 **Related topics**  
 
 
-[System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SystemDictionary.md)
+[System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_SystemDictionary.md)
 

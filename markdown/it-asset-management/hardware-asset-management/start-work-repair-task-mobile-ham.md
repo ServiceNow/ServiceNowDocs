@@ -3,13 +3,13 @@ title: Start working on a hardware asset repair task using the Mobile Agent appl
 description: Indicate in the Mobile Agent application when you start work on a repair task assigned to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/start-work-repair-task-mobile-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage hardware asset repair tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Start working on a hardware asset repair task using the Mobile Agent application
@@ -53,9 +53,9 @@ On the **Details** tab, the **Start work** link changes to **Start timer**, **Re
 
 ## What to do next
 
-[Record time worked on a hardware asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/record-time-worked-mobile-agent-app-con.md).
+[Record time worked on a hardware asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/record-time-worked-mobile-agent-app-con.md).
 
-**Parent Topic:**[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
+**Parent Topic:**[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
 
 **Related topics**  
 

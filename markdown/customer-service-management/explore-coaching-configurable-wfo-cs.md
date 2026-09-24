@@ -3,9 +3,9 @@ title: Coaching in Workforce Optimization for Customer Service
 description: Coaching lets you review and assess the quality of completed interactions and tasks, enhance your teams' skill set by assigning training based on the assessments, add skills to their profile when they get trained, and identify skill gaps to train your agents effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/explore-coaching-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -127,17 +127,17 @@ Amy Jones can manage all of these actions by doing the following:
 2.  Assess agents' skills and assign training.
 3.  Add skills to agent profile when they complete training or using recommendations from Predictive Intelligence.
 
-For detailed instructions to use Coaching in Workforce Optimization for Customer Service, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/coaching-configurable-wfo-cs.md).
+For detailed instructions to use Coaching in Workforce Optimization for Customer Service, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/coaching-configurable-wfo-cs.md).
 
--   **[Using Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/coaching-configurable-wfo-cs.md)**  
+-   **[Using Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/coaching-configurable-wfo-cs.md)**  
 By using Coaching in Workforce Optimization for Customer Service, you can assess your team's abilities to efficiently resolve cases by reviewing their work at critical moments of customer service.
 
-**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-configurable-wfo-cs.md)
+**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-configurable-wfo-cs.md)
 
 **Related topics**  
 
 
-[Setting up skill prediction in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-skill-prediction-configurable-cs.md)
+[Setting up skill prediction in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-up-skill-prediction-configurable-cs.md)
 
-[Using Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/coaching-configurable-wfo-cs.md)
+[Using Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/coaching-configurable-wfo-cs.md)
 

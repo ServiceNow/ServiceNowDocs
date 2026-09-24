@@ -3,11 +3,11 @@ title: Cloud file configuration record form
 description: Update the access permissions for a record in the Cloud file configuration record form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/document-access-configuration-record-form.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud File Configuration, Cloud File Access Setup, Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---

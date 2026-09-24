@@ -3,9 +3,9 @@ title: Operational Resilience reference
 description: Reference topics provide additional information such as tables, roles, and properties that are installed with the Operational Resilience application. Several types of components are installed with the activation of the Operational Resilience application, including properties, roles, and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/op-res-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Resilience, Governance, Risk, and Compliance]
 ---

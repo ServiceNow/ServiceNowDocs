@@ -3,11 +3,11 @@ title: Create a DevOps tool integration
 description: To create a DevOps tool integration, your integration developer configures DevOps tool integration settings, and a Workflow Studio subflow to collect and transform data from the source tool. Then your DevOps admin configures your DevOps tool connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/set-up-dev-ops-integrations.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -29,7 +29,7 @@ Role required: sn\_devops.admin
 
 Creating a DevOps tool integration procedure involves configuration by both your integration developer and your DevOps admin.
 
--   Your integration developer creates a tool integration record in DevOps, a Workflow Studio [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md), a tool capability mapping, and an integration capability record in DevOps to map the capabilities and actions together.
+-   Your integration developer creates a tool integration record in DevOps, a Workflow Studio [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md), a tool capability mapping, and an integration capability record in DevOps to map the capabilities and actions together.
 
     **Note:** Notification, connect, and discover capabilities are supported.
 
@@ -88,7 +88,7 @@ Active
 Selected
 
 </td></tr></tbody>
-</table>    2.  Navigate to **Flow Designer** &gt; **Designer** and [create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) to collect and transform data from the tool you are integrating \(source tool\).
+</table>    2.  Navigate to **Flow Designer** &gt; **Designer** and [create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/creating-dev-ops-subflows.md) to collect and transform data from the tool you are integrating \(source tool\).
 
         **Note:** The **Run As** field must be set to System User, and the **Inputs** label must be set to current variable.
 
@@ -224,7 +224,7 @@ The value for this field is `my_app_scope.connect_code_tool`.
 
  **Note:** If the **Subflow name** field is left blank for a Notification capability, default handling of notifications occurs.
 
-See [Notification tool capability action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md).
+See [Notification tool capability action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md).
 
 </td></tr><tr><td>
 
@@ -264,5 +264,5 @@ global
     |Status|Allowed|
 
 
-**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
+**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 

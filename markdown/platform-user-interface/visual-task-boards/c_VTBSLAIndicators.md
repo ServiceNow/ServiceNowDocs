@@ -3,13 +3,13 @@ title: Visual Task Board SLA indicators
 description: SLA \(service-level agreement\) indicators alert board members if any cards on the board have breached SLAs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/c\_VTBSLAIndicators.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Exploring Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Visual Task Board SLA indicators
@@ -24,10 +24,10 @@ When SLA indicators are enabled, a status bar appears on each card that has an a
 
 \[Omitted image "VTBSLAIndicators.png"\] Alt text: Visual Task Board with SLA indicators enabled
 
-**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
+**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
 
 **Related topics**  
 
 
-[Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management-concepts.md)
+[Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management-concepts.md)
 

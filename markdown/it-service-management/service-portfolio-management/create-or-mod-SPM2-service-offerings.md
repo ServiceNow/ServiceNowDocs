@@ -3,11 +3,11 @@ title: Create a service offering in Service Portfolio Management
 description: Create service offerings to define services, document them, track performance against defined availability commitments, and relay the performance information in real time to your end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/create-or-mod-SPM2-service-offerings.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Service offerings in Service Portfolio Management, Use, Service Portfolio Management, IT Service Management]
 ---
@@ -30,7 +30,7 @@ A service offering consists of a set of service commitments, which uniquely defi
 
 When an offering is added to a service for the first time, some Offering form field values are inherited from the parent Service record. These form fields are: **Owned by**, **Business criticality**, **Delivery Manager**, and **Delegate**. When an offering is added and the parent Service record has empty field values, these fields are also empty on the Offering record. When you first insert an offering into a service, the parent Service record field values overwrite any existing values in the Offering record. You can update the fields after you’ve added the offering, if necessary.
 
-You can also auto-create service offerings when creating a service portfolio. For more information, see [Create portfolios in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/create-or-modify-SPM2-portfolios.md).
+You can also auto-create service offerings when creating a service portfolio. For more information, see [Create portfolios in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/create-or-modify-SPM2-portfolios.md).
 
 ## Procedure
 
@@ -222,7 +222,7 @@ Last time a customer satisfaction survey was sent.
 </td></tr></tbody>
 </table>4.  Select the **Team** tab to complete the Team section of the form.
 
-    The Teams related list enables you to assign different group types to support a service offering. For more information, see [Teams related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/teams-related-list.md) and [Assign multiple teams to support a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/spm2-assign-teams.md).
+    The Teams related list enables you to assign different group types to support a service offering. For more information, see [Teams related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/teams-related-list.md) and [Assign multiple teams to support a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/spm2-assign-teams.md).
 
 <table id="table_lms_5h4_h4b"><thead><tr><th>
 
@@ -254,7 +254,7 @@ Support group
 
 </td><td>
 
-Group managing the service. See [Assign multiple teams to support a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/spm2-assign-teams.md).
+Group managing the service. See [Assign multiple teams to support a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/spm2-assign-teams.md).
 
 </td></tr><tr><td>
 
@@ -367,12 +367,12 @@ Longer description of a unit of this offering.
 12. Select **Submit** to save your service offering or select **Update** after editing a service offering.
 
 
-**Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
+**Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
 
 **Related topics**  
 
 
-[Teams related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/teams-related-list.md)
+[Teams related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/teams-related-list.md)
 
-[Assign multiple teams to support a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/spm2-assign-teams.md)
+[Assign multiple teams to support a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/spm2-assign-teams.md)
 

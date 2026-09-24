@@ -3,7 +3,7 @@ title: Webhooks
 description: Webhooks are endpoints that can receive a POST request whenever a configuration is saved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-webhooks.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
@@ -26,7 +26,7 @@ Webhooks can be used to integrate data from CPQ to other downstream systems. Use
 
 -   Displaying the CPQ native UI via direct URL and sending the config result, via webhook, to a third-party destination. See:
 
-    [Use case: Displaying the CPQ native UI via direct URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_display_logik_io_native_ui_via_direct_url.md)
+    [Use case: Displaying the CPQ native UI via direct URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use_case_display_logik_io_native_ui_via_direct_url.md)
 
 -   Sending config data directly to a quoting or order management system
 -   Pushing the configuration result to middleware that can manipulate the data and pass it along to downstream systems

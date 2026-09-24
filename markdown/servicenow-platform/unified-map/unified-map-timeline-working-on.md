@@ -3,11 +3,11 @@ title: Viewing related items on the Unified Map timeline
 description: The timeline indicates related items like incidents, problems, and changes over a specified period of time for the selected CI. You can use the timeline to visualize the history of changes to a CI and how they affect the topology of the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-timeline-working-on.html
-release: australia
+release: brazil
 product: Unified Map
 classification: unified-map
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -124,5 +124,5 @@ Select an empty space on the map.
 </td></tr></tbody>
 </table>## Configuring general timeline properties
 
-Admins can configure some properties of the timeline that affect all users, such as which related item details appear on timelines. For more information, see [Configure how to display related items on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-config-related-items.md).
+Admins can configure some properties of the timeline that affect all users, such as which related item details appear on timelines. For more information, see [Configure how to display related items on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/unified-map-config-related-items.md).
 

@@ -3,11 +3,11 @@ title: Containerized MID Server Autoscaling
 description: MID Servers can be deployed via StatefulSet with any number of replicas. They can scale automatically by leveraging Kubernetes Horizontal Pod Autoscaler \(HPA\). Horizontal Pod Autoscaler automatically updates a workload resource \(such as a Deployment or StatefulSet\) to match demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/containerized-mid-autoscaling.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Containerized MID Server, Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---

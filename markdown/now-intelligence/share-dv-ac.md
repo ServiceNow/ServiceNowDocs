@@ -3,9 +3,9 @@ title: Share a data visualization in the Visualization Designer
 description: Share a visualization to provide view or edit permissions to users, groups, or roles. A user can access a shared visualization in any workspace on the original instance.You can change the access rights of persons with whom the data visualization is shared.Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared visualizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/share-dv-ac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Share a visualization, Share a report]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -23,7 +23,7 @@ Role required: You can share any data visualization that you created. When you s
 
 Users with the admin and viz\_admin roles can share all data visualizations. Only users with the admin and viz\_admin roles can share data visualizations with roles.
 
-Sharing a visualization with a user, group, or role adds that visualization to the **Shared with me** tab in the Data Visualizations overview. Any user with a role can list and view any visualization at the table level. Report\_view access control lists \(ACLs\) still apply no matter how the user gets to the visualization, however changes to ACLs can break data visualizations that are used in UI Builder.
+Sharing a visualization with a user, group, or role adds that visualization to the **Shared with me** tab in the Data Visualizations overview. Any user with a role can list and view any visualization at the table level. Report\_view access control lists \(ACLs\) still apply no matter how the user gets to the visualization. Changes to ACLs can break data visualizations that are used in UI Builder.
 
 Edit rights granted by sharing a data visualization do not apply to that visualization when placed on a dashboard, but only in the Visualization Designer.
 
@@ -45,19 +45,19 @@ Edit rights granted by sharing a data visualization do not apply to that visuali
     -   Only users with the admin or viz\_admin role see the option to share visualizations with roles.
 5.  To allow the people that you share the data visualization with also to share that data visualization, select **Allow recipients to share**.
 
-    When you add a user, group, or role as a viewer, they can only share the visualization as a viewer. When you add a user, group, or role as an editor, they can share the dashboard as a viewer or as an editor.
+    When you add a user, group, or role as a viewer, they can only share the visualization as a viewer. When you add a user, group, or role as an editor, they can share the visualization as a viewer or as an editor.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d81933e165">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d83100e165">
 
 **Add as viewer**
 
 </td><td>
 
-Grant only viewing rights to the users, groups, or roles you share the visualization with. The recipients cannot edit it.
+Grant only viewing rights to the users, groups, or roles you share the visualization with. Users who only have viewing rights can make changes to the visualization, but aren't able to save those changes.
 
-</td></tr><tr><td id="d81933e174">
+</td></tr><tr><td id="d83100e174">
 
 **Add as editor**
 
@@ -69,7 +69,7 @@ Grant editing rights to the users, groups, or roles you share the visualization 
 </table>7.  Select **Confirm**.
 
 
-**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dv-tasks.md)
 
 ## Manage data visualization access
 

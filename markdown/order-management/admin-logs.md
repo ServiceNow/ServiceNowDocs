@@ -3,7 +3,7 @@ title: The Admin Logs utility
 description: Learn how the Admin Logs utility helps you diagnose, monitor, and resolve configuration issues efficiently in your CPQ environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/admin-logs.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -62,7 +62,7 @@ Example cURL command:
 
 ```code
 
-    curl --location '<URL>/api/logs/v1/logs' \
+    curl --location '<logik tenant>/api/logs/v1/logs' \
     --header 'Content-Type: application/json' \
     --header 'Origin: localhost' \
     --header 'Authorization: <Admin API Key>'
@@ -73,7 +73,7 @@ You can refine results by specifying **before** and **after** parameters in ISO 
 
 ```code
 
-    curl --location '<URL>/api/logs/v1/logs?after=YYYY-MM-DDThh%3Amm%3AssZ&before=YYYY-MM-DDThh%3Amm%3AssZ' \
+    curl --location '<logik tenant>/api/logs/v1/logs?after=YYYY-MM-DDThh%3Amm%3AssZ&before=YYYY-MM-DDThh%3Amm%3AssZ' \
     --header 'Content-Type: application/json' \
     --header 'Origin: localhost' \
     --header 'Authorization: <Admin API Key>'

@@ -3,11 +3,11 @@ title: Request the CSD 2.0 application
 description: Client Software Distribution 2.0 application plugin \(com.sn.csd\) is available on ServiceNow Store and can be used with a subscription to Integration Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/req-csd.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Client Software Distribution 2.0 application, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -32,5 +32,5 @@ The CSD 2.0 application can be integrated with Microsoft Endpoint Configuration 
     -   Service Catalog Scoped API \(com.glideapp.servicecatalog.scoped.api\)
 -   See [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf) for more information about the required Integration Hub subscription.
 
-**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md)
+**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/csd-app-2.md)
 

@@ -3,11 +3,11 @@ title: Monitor an upgrade to an instance
 description: Monitor the progress of an ongoing upgrade in an instance with the Upgrade Monitor. When the upgrade is done, you can view a summary of the results on the Upgrade Summary Report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-monitor-instance-upgrade.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling and monitoring an upgrade, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -30,10 +30,10 @@ Role required: admin
 
     When the system finishes the upgrade, it displays the Complete upgrade summary report.
 
-    **Note:** You can now view the status of every stage in the upgrade process. See [Upgrade Progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-monitor-progress.md) for more information.
+    **Note:** You can now view the status of every stage in the upgrade process. See [Upgrade Progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-monitor-progress.md) for more information.
 
 
 ## What to do next
 
-From the Upgrade Summary Report, [resolve any conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-process-skipped-records.md) that prevented the system from upgrading records.
+From the Upgrade Summary Report, [resolve any conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-process-skipped-records.md) that prevented the system from upgrading records.
 

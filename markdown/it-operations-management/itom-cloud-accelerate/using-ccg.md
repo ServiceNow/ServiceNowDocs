@@ -3,11 +3,11 @@ title: Using Cloud Configuration Governance
 description: Cloud Configuration Governance provides a set of ready-to-use policies. You can either use these policies to identify the non-compliant cloud resource configurations within your cloud organization, or create custom policies. After identifying the non-compliant cloud resource configurations, you can use the remediation feature of the application to fix the violations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/using-ccg.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

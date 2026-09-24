@@ -3,11 +3,11 @@ title: Invoke SLA condition rules on a specific SLA definition
 description: You can change the SLA condition rules for a specific SLA definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_InvokeSLACondRulesOnASpecificSLA.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extend SLA condition rules, Configuring Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -37,10 +37,10 @@ In cases where a particular SLA requires that specific SLA condition rules shoul
     **Note:** If no condition rule is defined, the global default condition rule is used.
 
 
-**Parent Topic:**[Extend SLA condition rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_ExtendSLAConditionRules.md)
+**Parent Topic:**[Extend SLA condition rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_ExtendSLAConditionRules.md)
 
 **Related topics**  
 
 
-[SLA condition rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLAConditionRules.md)
+[SLA condition rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_SLAConditionRules.md)
 

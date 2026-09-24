@@ -3,9 +3,9 @@ title: Create questions
 description: Create quiz questions. A category can have multiple questions associated with it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateAQuestion.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Create quizzes with forms, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -74,7 +74,7 @@ Weight
 
 </td><td>
 
-Numeric value that represents the importance of this question relative to other questions in the same category. By default, the weight is 10. For weighting suggestions, see [weight categories and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md). This field is available and required unless the **Data type** is **Date**, **Date/Time**, or **String**. These data types are not included in results calculations.
+Numeric value that represents the importance of this question relative to other questions in the same category. By default, the weight is 10. For weighting suggestions, see [weight categories and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentMetrics.md). This field is available and required unless the **Data type** is **Date**, **Date/Time**, or **String**. These data types are not included in results calculations.
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ Scale definition
 
 </td><td>
 
-Setting that determines whether lesser or greater numerical values equate to a good score in quiz result calculations. Select **Low** if lesser numerical values are better. Select **High** if greater numerical values are better. The default value is**High**. This field is available and required unless the **Data type** is **Date**, **Date/Time**, or **String**. The results for these data types are not included in results calculations. When the Scored check box is selected, the scale value is set to **High** and the field is hidden. **Note:** For information about how to set the scale definition for data types that do not require you to set a numerical value, see [Data types for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_DataTypes.md).
+Setting that determines whether lesser or greater numerical values equate to a good score in quiz result calculations. Select **Low** if lesser numerical values are better. Select **High** if greater numerical values are better. The default value is**High**. This field is available and required unless the **Data type** is **Date**, **Date/Time**, or **String**. The results for these data types are not included in results calculations. When the Scored check box is selected, the scale value is set to **High** and the field is hidden. **Note:** For information about how to set the scale definition for data types that do not require you to set a numerical value, see [Data types for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_DataTypes.md).
 
 </td></tr><tr><td>
 
@@ -210,7 +210,7 @@ Correct answer
 
 </td><td>
 
-\[Required\] Desired answer to a scored question. This field is available when the **Scored** check box is selected. Multiple correct answers are supported for a few data types. See [Data types for quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AvailableDataTypes.md).
+\[Required\] Desired answer to a scored question. This field is available when the **Scored** check box is selected. Multiple correct answers are supported for a few data types. See [Data types for quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_AvailableDataTypes.md).
 
 </td></tr><tr><td>
 
@@ -234,22 +234,22 @@ List of options for this question. This related list is available only if the **
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
+**Parent Topic:**[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
 
 **Related topics**  
 
 
-[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentMetrics.md)
 
-[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
+[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
 
-[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateaQuiz.md)
 
-[Set up a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetUpACategory.md)
+[Set up a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SetUpACategory.md)
 
-[Select a user for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SelectAUserForACategory.md)
+[Select a user for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SelectAUserForACategory.md)
 
-[Data types for quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AvailableDataTypes.md)
+[Data types for quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_AvailableDataTypes.md)
 
-[Create questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAQuestion.md)
+[Create questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAQuestion.md)
 

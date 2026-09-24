@@ -3,11 +3,11 @@ title: On-Call Scheduling in Service Operations Workspace
 description: Use On-Call Scheduling in Service Operations Workspace to view and manage your shifts and schedules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -54,8 +54,6 @@ Use the **Escalation triggers and policies** tab to set an escalation policy and
 
 Use the **On-call Team preferences** tab to edit shift preferences for a group. You can add a Shift Manager and the start day of the week, set preferences for absence requests and shift overlap, and escalation rules for shift overlap.
 
-The Teams page provides an on-call onboarding wizard to configure on-call schedules for multiple teams simultaneously. Users with the rota\_admin role can access this wizard. For more information, see [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
-
 ## Contextual side panel
 
 Use On-Call Scheduling from the Contextual side panel, when you open an incident. You can also configure experts on call and escalation tracking for any other record, if necessary.
@@ -64,14 +62,14 @@ Select the Experts On-call icon \(\[Omitted image "experts-on-call.png"\] Alt te
 
 To view the escalation details and dynamic tracking of an on-call escalation, select the on-call escalations icon \(\[Omitted image "on-call-escalation.png"\] Alt text: On-call escalations icon.\) from the Contextual side panel.
 
--   **[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)**  
+-   **[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)**  
 Configure On-Call Scheduling in Service Operations Workspace \(SOW\) for their organizational needs, utilizing a suite of features to fulfill the various requirements.
--   **[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)**  
+-   **[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)**  
 View and manage schedules, shifts and time-off request.
--   **[On-call support for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/on-call-sow.md)**  
+-   **[On-call support for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/on-call-sow.md)**  
 You can identify available on-call members of a support group and contact them to resolve an issue.
 
-**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
+**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Add service locations to a stockroom in the Enterprise Asset Workspace
 description: Add service locations to a stockroom so that you can source, deploy, and retire its assets across multiple geographic locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-service-location-eam-stockroom.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create stockroom for enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -41,5 +41,5 @@ By default, you can source, deploy, and retire the assets of a stockroom only wi
 5.  Select **Add**.
 
 
-**Parent Topic:**[Create stockroom for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamstockroom.md)
+**Parent Topic:**[Create stockroom for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-eamstockroom.md)
 

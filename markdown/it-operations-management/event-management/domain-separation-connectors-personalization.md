@@ -3,11 +3,11 @@ title: Event Management Connectors domain personalization
 description: Create events in different domains for all Event Management connectors using just a single connector instance by personalizing domain separation of Event Management connectors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/domain-separation-connectors-personalization.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ In a ServiceNow instance, events are created within the logged-in or MID Server 
 
 The logged-in user or the MID Server user must have access to the provided domain. The connector resolves the domain based on the provided identifier and creates events in that domain.
 
-System properties provide the default metadata that sets the domain-separated table to identify the domain. For more information, see [Domain properties installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/installed-domain-properties.md).
+System properties provide the default metadata that sets the domain-separated table to identify the domain. For more information, see [Domain properties installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/installed-domain-properties.md).
 
 ## Connector Exceptions
 
@@ -40,15 +40,15 @@ You cannot personalize domain separation for the following push connectors:
 -   Transform Generic Events MID
 -   TransformEvents\_xmlSample
 
--   **[Configure domain separation for pull connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/personalize-domain-separation-pull-connectors.md)**  
+-   **[Configure domain separation for pull connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/personalize-domain-separation-pull-connectors.md)**  
 Configure pull connectors to personalize domain separation of events so you can use them to create events in domains other than the user's currently logged-in or MID Server domain.
--   **[Configure domain separation for push connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/personalize-domain-separation-push-connectors.md)**  
-Configure push connectors to personalize domain separation of events so you can create events in different domains.
+-   **[Configure domain separation for push connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/personalize-domain-separation-push-connectors.md)**  
+Configure push connectors to create events in domains other than the user's currently logged-in or MID Server domain.
 
-**Parent Topic:**[Event Management Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMEvent.md)
+**Parent Topic:**[Event Management Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMEvent.md)
 
 **Related topics**  
 
 
-[Domain separation and Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/domain-separation-event-management.md)
+[Domain separation and Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/domain-separation-event-management.md)
 

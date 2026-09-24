@@ -3,11 +3,11 @@ title: Global search displays exact matching records
 description: When your search exactly matches the Number field value for a record, global search takes you directly to that record, bypassing the search results page.When your search in Next Experience UI exactly matches a searchable record, the Unified Navigation search field displays a preview of that record. Selecting the preview takes you directly to that record and bypasses the search results page.When your search in Core UI exactly matches a searchable record, global search takes you directly to that record, bypassing the search results page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/exact-matches-global-search.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ Exact match only returns matches for Number values that contain prefixes defined
 
 Search behavior for exact match is controlled by the **com.snc.agent\_workspace.global\_search.typeahead.exact\_match\_request\_criterion\_regex** system property. This property's value is a Java regular expression pattern. Only search queries that match the regular expression pattern are evaluated as possible exact record matches. For details on Java regular expression pattern syntax, see [the Javadoc for the java.regex.util.Pattern class](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html).
 
-**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
+**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
 
 **Related topics**  
 
@@ -59,7 +59,7 @@ When your search in Next Experience UI exactly matches a searchable record, the 
 
 The preview of the matching record appears below the Unified Navigation search field with an **Exact Match** tag. Select this tag or press Enter to navigate directly to the record.
 
-To see the full search results page for your search, select **View results**. For details on the elements that make up the search results page, see [Search results page in Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-polaris-ui.md).
+To see the full search results page for your search, select **View results**. For details on the elements that make up the search results page, see [Search results page in Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/global-search-polaris-ui.md).
 
 **Note:** You may need to wait a few seconds after entering your record number into the search field for the system to process your search request and display the preview. Once the preview appears, you can press Enter to go directly to the matched record. If you press Enter before the preview appears, the system shows you the full search results page for your search instead.
 
@@ -71,5 +71,5 @@ When your search in Core UI exactly matches a searchable record, global search t
 
 The system displays the matching record with an informational message indicating that your search produced an exact search match.
 
-To see the full search results page for your search, select the link in the informational message. For details on the elements that make up the search results page, see [Search results page in Core UI and UI15](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-polaris-ui.md).
+To see the full search results page for your search, select the link in the informational message. For details on the elements that make up the search results page, see [Search results page in Core UI and UI15](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/global-search-polaris-ui.md).
 

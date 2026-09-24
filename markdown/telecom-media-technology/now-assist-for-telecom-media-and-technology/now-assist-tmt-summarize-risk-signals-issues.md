@@ -3,11 +3,11 @@ title: Summarize a risk signal using ServiceNow Otto for Telecommunications, Med
 description: Generates a summary from a risk signal and issues summarization record and all associated tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-risk-signals-issues.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -22,9 +22,9 @@ Role required: sn\_acct\_lc.agent
 
 ## About this task
 
-The risk signal and issues summary skill provides you with a summary of the risk signal and issues record and associated risk occurrences and solutions. This skill available in CSM/FSM Configurable Workspace and in Core UI.
+The risk signal and issues summary skill provides you with a summary of the risk signal and issues record and associated risk occurrences and solutions. This skill available in CRM Workspace and in Core UI.
 
--   In CSM/FSM Configurable Workspace, you use the Risk signal and issues summary by ServiceNow Otto component to generate a summary. This component appears above the Activities card.
+-   In CRM Workspace, you use the Risk signal and issues summary by ServiceNow Otto component to generate a summary. This component appears above the Activities card.
 -   In Core UI, you select the **Summarize** button on the risk signal and issues record to generate a summary.
 
 The risk signal and issues summarization skill checks the record to determine if there’s enough information available to create a summary:
@@ -36,7 +36,7 @@ The risk signal and issues summarization skill checks the record to determine if
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **All Risk Signal and Issues**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **All Risk Signal and Issues**.
 
 2.  Open a risk and select **Summarize**.
 
@@ -49,15 +49,15 @@ The risk signal and issues summarization skill checks the record to determine if
 
 3.  After you're finished summarizing the risk signal and issues, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d32145e147">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d32132e147">
 
 Option
 
-</th><th align="left" id="d32145e150">
+</th><th align="left" id="d32132e150">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d32145e156">
+</th></tr></thead><tbody><tr><td id="d32132e156">
 
 **View more or less summary details**
 
@@ -67,7 +67,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d32145e186">
+</td></tr><tr><td id="d32132e186">
 
 **Provide feedback for the summary**
 
@@ -77,7 +77,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d32145e219">
+</td></tr><tr><td id="d32132e219">
 
 **Copy the summary**
 
@@ -85,7 +85,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d32145e234">
+</td></tr><tr><td id="d32132e234">
 
 **View the information about the summary**
 
@@ -95,5 +95,5 @@ To check some details about the summary, select the more info icon \(\[Omitted i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

@@ -3,11 +3,11 @@ title: Workflow of Management Reporting of Risk
 description: The Management Reporting of Risk integration utilizes a workflow that requires participation from multiple user roles such as system administrators, Risk administrators, and Risk managers. By defining a clear workflow, individuals and teams can better understand their roles and responsibilities and generate the necessary reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/workflow-management-reporting-of-risk.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Microsoft 365 with Management Reporting of Risk, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---

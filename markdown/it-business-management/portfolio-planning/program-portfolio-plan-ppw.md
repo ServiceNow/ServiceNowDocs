@@ -3,7 +3,7 @@ title: Programs enhanced experience with portfolio plan view
 description: Programs enhanced experience provides dedicated program planning views with zero setup. Access program-scoped planning data including Prioritization, Roadmap, and Financials views for focused program management without navigating portfolio-wide interfaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/program-portfolio-plan-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
@@ -16,7 +16,7 @@ breadcrumb: [Portfolio plans in Portfolio Planning, Explore, Portfolio Planning,
 
 Programs enhanced experience provides dedicated program planning views with zero setup. Access program-scoped planning data including Prioritization, Roadmap, and Financials views for focused program management without navigating portfolio-wide interfaces.
 
-## What is program enhanced experience?
+## What is program enhanced experience
 
 Program enhanced experience provides dedicated, focused planning interfaces for managing individual programs. Each program receives its own plan with instant access to planning views without requiring setup or configuration. Navigate to the new Programs menu and select any program to open its dedicated plan with program-scoped planning data and multiple visualization options.
 
@@ -41,7 +41,7 @@ Each program plan includes four dedicated planning views:
 
 ## Program-scoped data
 
-Program plans display only that program's planning items in a focused, streamlined interface. This scope isolation ensures you see relevant data without portfolio-wide noise. Program-scoped planning data includes:
+Program plans display only that program's planning items in a focused, streamlined interface. This scope isolation confirms you see relevant data without portfolio-wide noise. Program-scoped planning data includes:
 
 -   Planning items \(demands, projects, epics, capabilities, features\) assigned to the program
 -   Goals and initiatives linked to the program
@@ -53,11 +53,11 @@ Portfolio-level features such as making plans public and scenario planning are h
 
 ## Fiscal calendar support
 
-The Financials tab in program plans defaults to your fiscal calendar, displaying program financial data aligned to your organization's fiscal periods. If your fiscal calendar does not span the program's date range, the system gracefully falls back to Gregorian calendar with an explanatory message. This flexibility ensures accurate financial tracking regardless of your calendar configuration.
+The Financials tab in program plans defaults to your fiscal calendar, displaying program financial data aligned to your organization's fiscal periods. If your fiscal calendar does not span the program's date range, the system gracefully falls back to Gregorian calendar with an explanatory message. This flexibility confirms accurate financial tracking regardless of your calendar configuration.
 
 ## Programs menu
 
-A new Programs menu has been added to the workspace as an L2 menu, positioned below Portfolio Plan. The Programs menu lists every program in your portfolio and provides single-click navigation to each program's enhanced planning view. This direct access streamlines program navigation and reduces menu navigation overhead.
+A new Programs menu has been added to the workspace as an L1 menu, positioned after Portfolio Planning. The Programs menu lists every program in your portfolio and provides single-click navigation to each program's enhanced planning view. This direct access streamlines program navigation and reduces menu navigation overhead.
 
 ## Role-based access for program planning
 
@@ -67,11 +67,11 @@ A new Programs menu has been added to the workspace as an L2 menu, positioned be
 |sn\_align\_core.apw\_user|Manage|Can create, update, and manage planning items within program plans|
 |Program Manager|Full Access|Automatic plan owner; can manage all aspects of the program plan|
 
-## Automatic plan creation and backfill
+## Automatic portfolio plan creation and backfill
 
 Program plans are created automatically with zero setup required:
 
--   **New programs:** Receive dedicated plans instantly upon creation
+-   **New programs:** Receive dedicated plans instantly on creation
 -   **Existing programs:** Automatically backfilled with plans in batches of 500 at a time, newest programs first
 
 No manual configuration, template selection, or setup steps are needed. Programs receive full planning functionality immediately.
@@ -86,5 +86,5 @@ No manual configuration, template selection, or setup steps are needed. Programs
 -   **Role-based security:** Access controlled by established roles for program planning
 -   **Automatic plan ownership:** Program managers are automatically assigned as plan owners
 
-**Parent Topic:**[Portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-plans-in-portfolio-planning-ppw.md)
+**Parent Topic:**[Portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/portfolio-plans-in-portfolio-planning-ppw.md)
 

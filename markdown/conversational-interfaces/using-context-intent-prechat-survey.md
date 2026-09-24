@@ -3,13 +3,11 @@ title: Using pre-chat surveys with context variables for topic discovery
 description: Capture user input from pre-chat surveys to use as utterances or keywords for topic discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/using-context-intent-prechat-survey.html
-release: australia
-product: Conversational Interfaces
-classification: conversational-interfaces
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
+breadcrumb: [Create chat surveys, General chat settings, Conversational Interfaces Home for NLU, Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
 ---
 
 # Using pre-chat surveys with context variables for topic discovery
@@ -29,9 +27,4 @@ The user response can be passed to Virtual Agent for use in topic discovery. In 
 The Pre-chat short description as NLU intent record allows the CSP Anonymous Pre-Chat Survey input to function a bit like an NLU intent. When the survey runs, the interaction's short\_description is used as the search text for the conversation. Virtual Agent uses this input for topic discovery so that users don't have to select a topic from the Greetings screen.
 
 \[Omitted image "prechat-short-description-nlu-intent.png"\] Alt text: Context topic intent record view corresponding with the pre-chat survey, with context and condition fields highlighted.
-
--   **[Define topic context intent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-topic-intent.md)**  
-Use pre-chat survey information to determine the appropriate Virtual Agent conversation topic automatically displayed to end users \(requesters\), rather than prompting them to choose from a list of conversation topics.
-
-**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-configuring-chat-features.md)
 

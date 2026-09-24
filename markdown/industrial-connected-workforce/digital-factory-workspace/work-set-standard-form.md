@@ -3,11 +3,11 @@ title: Work set standard form
 description: The following table describes the field values for the work set standard form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/work-set-standard-form.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: reference
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [work set standard form]
 breadcrumb: [Industrial Standards, Reference, Digital Factory Workspace, Industrial Connected Workforce]
@@ -189,18 +189,18 @@ The following tabs appear on the work set standard form.
 
 |Tab|Description|
 |---|-----------|
-|Sub-activities|Lists the sub-activities that make up the work set. Add and edit sub-activities while the standard is in the **Draft** state. For field descriptions, see [Work set sub-activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-sub-activity-form.md).|
+|Sub-activities|Lists the sub-activities that make up the work set. Add and edit sub-activities while the standard is in the **Draft** state. For field descriptions, see [Work set sub-activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-sub-activity-form.md).|
 |Schedule plan|Calendar view of the schedule plans that generate work set tasks from this standard.|
 |Open tasks|Lists the work set tasks generated from this standard. Available only when tasks exist.|
 |Approval|Lists approval records for the standard. Available when an approval request has been sent.|
 |Versioning|Lists prior versions of the standard. Available when the standard has at least one published version.|
 
-**Parent Topic:**[Industrial Standards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-reference.md)
+**Parent Topic:**[Industrial Standards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-reference.md)
 
 **Related topics**  
 
 
-[Work set standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standards.md)
+[Work set standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standards.md)
 
-[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)
+[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)
 

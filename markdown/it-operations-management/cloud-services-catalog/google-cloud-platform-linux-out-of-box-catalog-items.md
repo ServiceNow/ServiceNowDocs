@@ -3,11 +3,11 @@ title: Google Cloud Platform Linux Out Of Box Catalog items
 description: Cloud Services Catalog Linux VM with Agent Client Collector \(ACC\), up to 10 additional disks or secure Linux deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/google-cloud-platform-linux-out-of-box-catalog-items.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -48,11 +48,11 @@ This catalog item form allows ordering up to 10 additional disks \(volumes\) att
 
 </td></tr><tr><td>
 
-CSC GCP Linux Cloud Firewall: Order a secure Linux virtual machine with enhanced security. Allow or deny traffic to and from your VM instances based on your specified configuration.
+CSC GCP Linux Cloud Firewall: Order a secure Linux virtual machine with enhanced security. Control traffic to and from your VM instances based on your configuration.
 
 </td><td>
 
-This is a fully functional sample catalog item that can be used to request a Linux instance of any instance type from Google Cloud Provider. You can assign one or more security groups \(firewall-port rules\) to restrict network access to the VM. Security groups are listed for the selected VPC and subnets.
+This is a fully functional sample catalog item that can be used to request a Linux instance of any instance type from Google Cloud Provider. This catalog item form allows you to assign one or more security groups \(firewall-port rules\) to the compute instance. This restricts network access to the VM. Security groups are listed for the selected VPC and subnets.
 
 </td></tr></tbody>
 </table>**Note:**
@@ -61,8 +61,8 @@ Tag \(key-value\) is assigned to all deployed resources. Example: VM, network, s
 
 The key-value is updated only in the cmdb\_key\_value table, not in public cloud at this time. This will be fixed in future releases to update the tags in cloud.
 
--   **[Google Cloud Platform Linux Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/gcp-linux-oob-permissions.md)**  
+-   **[Google Cloud Platform Linux Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/gcp-linux-oob-permissions.md)**  
 Google Cloud Platform Linux Out Of Box catalog items permissions
 
-**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
+**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

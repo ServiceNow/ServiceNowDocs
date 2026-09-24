@@ -3,11 +3,11 @@ title: Assign delete permissions
 description: Ability to assign the ability to delete an application to a delegated developer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/assign-delete-permissions.html
-release: australia
+release: brazil
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Delegated Development, Planning your application, Building applications]
 ---

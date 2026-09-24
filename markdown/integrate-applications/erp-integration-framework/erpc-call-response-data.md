@@ -3,14 +3,14 @@ title: Specifying where ERP system data is saved
 description: Use the data that Zero Copy Connector for ERP \(Enterprise Resource Planning\) retrieves from ERP systems in remote tables and extraction tables, or add it to flows as data pills in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-call-response-data.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, content, pack, model, integration, data hub, zero, copy, connector, sap, system, data, store]
-breadcrumb: [Working with ERP systems, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Specifying where ERP system data is saved
@@ -24,7 +24,10 @@ Use the JSON contents of the **Response** in a flow's output to save the ERP dat
 -   Store the data in a remote table. Remote tables get their records from running an associated script against an external data source.
 -   Store the data in an extraction table. Extraction tables retrieve large amounts of data using a scheduled query, and use transform tables to process data for use on the ServiceNow AI Platform.
 
-When you add mapped fields or parameters as outputs and successfully read or update the ERP system, each parameter appears as a field. You can then add the field to a remote table or an extraction table. Manage the fields for the remote table or extraction table to add the retrieved parameters.
+When you add mapped fields or parameters as outputs and successfully read or update the ERP system, each parameter appears as a field. You can then add the field to a remote table or an extraction table. Manage the fields for the remote table or extraction table to add the retrieved parameters. For more information, see the following topics:
+
+-   [Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-build-remote-table.md)
+-   [Select fields for an extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-select-extraction-table-fields.md)
 
 ## Using retrieved ERP data in flows
 
@@ -35,5 +38,7 @@ The **Use ERP Data** action returns ERP data in an output data pill called **Res
 
 You can then add the **Response** data pill or any of the child **record** data pills to a flow to parse the returned JSON.
 
-For example, you can generate a record for each response from the ERP system, making that data available for use on the ServiceNow AI Platform.
+For example, you can generate a record for each response from the ERP system, making that data available for use on the ServiceNow AI Platform. For more information, see [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.md).
+
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

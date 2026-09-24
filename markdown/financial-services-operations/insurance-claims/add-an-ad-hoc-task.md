@@ -3,11 +3,11 @@ title: Add an ad-hoc task for an Insurance claims case
 description: Create a task for an Insurance claims case to help prioritize and plan your claim work better.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/add-an-ad-hoc-task.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -30,15 +30,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_fp4_xnh_vcc"><thead><tr><th align="left" id="d109812e89">
+<table id="choicetable_fp4_xnh_vcc"><thead><tr><th align="left" id="d111515e89">
 
 Option
 
-</th><th align="left" id="d109812e92">
+</th><th align="left" id="d111515e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d109812e98">
+</th></tr></thead><tbody><tr><td id="d111515e98">
 
 **From the landing page**
 
@@ -46,7 +46,7 @@ Steps
 
 From a claims list, select the claim case that you want to create a task for.
 
-</td></tr><tr><td id="d109812e107">
+</td></tr><tr><td id="d111515e107">
 
 **From the applicable case/tasks list**
 

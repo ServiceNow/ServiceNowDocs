@@ -3,7 +3,7 @@ title: Set up the First Advantage spoke
 description: Integrate the ServiceNow instance with your First Advantage account using an API key to authenticate ServiceNow requests.Create a connection record to integrate your ServiceNow instance and the First Advantage server. Your ServiceNow instance uses this connection record to perform the First Advantage spoke actions.Create First Advantage states to be displayed in the State list in your ServiceNow instance.Create the Draft, Ready, and In Progress states in the Task \[task\] table.Create the Complete and Cancelled states in the First Advantage Task \[sn\_fadv\_spoke\_first\_advantage\_task\] table.Create the Complete - Success and Complete - Deal Broken states in the First Advantage Employee Task \[sn\_fadv\_spoke\_first\_advantage\_employee\_task\_table\] table.Receive invite and order event updates at your ServiceNow instance by setting up the webhooks.Create a authorization key to authorise requests from Jenkins.Set up the First Advantage webhook by providing key for the First Advantage webhook client.Access the API endpoint for the invite and order events and share the required details with First Advantage to set up the webhooks.Store the details of the First Advantage accounts and packages by synchronizing First Advantage accounts and packages with ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-first-adv.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -262,7 +262,7 @@ Set up the First Advantage webhook by providing key for the First Advantage webh
 
 #### Before you begin
 
--   [Create authorization key for the First Advantage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-first-adv.md) and record the value.
+-   [Create authorization key for the First Advantage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-first-adv.md) and record the value.
 -   Role required: admin
 
 #### Procedure
@@ -276,7 +276,7 @@ Set up the First Advantage webhook by providing key for the First Advantage webh
     |Field|Description|
     |-----|-----------|
     |Name|Name to uniquely identify the record.|
-    |Authorization Key|Authorization key you had generated. For more information, see [Create authorization key for the First Advantage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-first-adv.md).|
+    |Authorization Key|Authorization key you had generated. For more information, see [Create authorization key for the First Advantage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-first-adv.md).|
 
 4.  Click **Submit**.
 

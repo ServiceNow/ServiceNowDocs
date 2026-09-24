@@ -3,9 +3,9 @@ title: Example configuration of a decision tree
 description: This example demonstrates an end-to-end configuration of a decision tree to help you get started with Guided Decisions. After you configure the decision tree, you can either embed it in a playbook or use it as a recommendation in Recommended Actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/example-decision-tree.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Guided Decisions configuration, Agent tools, Organize agent workspa
 
 This example demonstrates an end-to-end configuration of a decision tree to help you get started with Guided Decisions. After you configure the decision tree, you can either embed it in a playbook or use it as a recommendation in Recommended Actions.
 
-For more information about decision trees, see [Decision trees in Guided decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/decision-trees-in-guided-decisions.md) and [Configuring guidances and decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-guided-decisions.md).
+For more information about decision trees, see [Decision trees in Guided decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/decision-trees-in-guided-decisions.md) and [Configuring guidances and decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-guided-decisions.md).
 
 ## Troubleshooting a failed credit card transaction
 
@@ -26,5 +26,5 @@ In this scenario, the agent assigned to the Paul’s case uses a decision tree t
 
 ## Creating the decision tree to troubleshoot the failed transaction
 
-Learn how process analysts or business owners create a decision tree, and configure various decision tree nodes in the [next pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/preparation-for-creating-a-decision-tree.md).
+Learn how process analysts or business owners create a decision tree, and configure various decision tree nodes in the [next pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/preparation-for-creating-a-decision-tree.md).
 

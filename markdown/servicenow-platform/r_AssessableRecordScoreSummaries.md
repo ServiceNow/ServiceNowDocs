@@ -3,9 +3,9 @@ title: Assessable record score summaries
 description: Point to a bubble to display a score summary for the assessable record the bubble represents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_AssessableRecordScoreSummaries.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View a bubble chart for assessments, View a metric result, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,5 +18,5 @@ The summary displays the assessable record's average score for each category in 
 
 \[Omitted image "BubbleChartScoreSummary.png"\] Alt text: Bubble chart score summary
 
-**Parent Topic:**[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_view-bubble-chart-assessments.md)
+**Parent Topic:**[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_view-bubble-chart-assessments.md)
 

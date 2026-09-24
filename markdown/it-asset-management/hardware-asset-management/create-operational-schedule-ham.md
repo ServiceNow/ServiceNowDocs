@@ -3,13 +3,13 @@ title: Create an operational schedule for hardware assets
 description: Define the scheduled operational time, which is the duration during which the asset will be in use, by creating an operational schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-operational-schedule-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Configure settings to monitor asset KPIs, Manage and monitor hardware asset performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure asset performance KPI settings, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an operational schedule for hardware assets
@@ -58,7 +58,7 @@ Parent
 
 </td><td>
 
-Parent schedule that constraints the new schedule.For more details, see [Parent and child schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ParentAndChildSchedules.md).
+Parent schedule that constraints the new schedule.For more details, see [Parent and child schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ParentAndChildSchedules.md).
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Description of the operational schedule.
 
     3.  On the Schedule Entry New record, fill in the fields.
 
-        For details on Schedule Entry New record fields, see [Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ScheduleEntryFields.md).
+        For details on Schedule Entry New record fields, see [Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ScheduleEntryFields.md).
 
     4.  Select **Submit**.
 
@@ -104,5 +104,7 @@ Description of the operational schedule.
 
 ## What to do next
 
-[Map hardware assets to an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-asset-schedule-ham.md).
+[Map hardware assets to an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-asset-schedule-ham.md).
+
+**Parent Topic:**[Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-kpi-settings-ham.md)
 

@@ -3,9 +3,9 @@ title: Create and publish a price list
 description: Create a price list that defines the pricing for products and services in Sales Customer Relationship Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-price-list.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -144,5 +144,5 @@ Ending date and time of the price list. Select the Calendar icon \[Omitted image
 
 ## What to do next
 
-[Create a price list line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-price-list-line.md) for the price list.
+[Create a price list line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-price-list-line.md) for the price list.
 

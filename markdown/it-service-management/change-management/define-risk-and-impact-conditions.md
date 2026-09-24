@@ -3,7 +3,7 @@ title: Add or modify risk and impact conditions
 description: You can define risk calculation rules on which the risk and impact of a change are calculated. Change Management - Change Risk Calculator is activated by default in the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/define-risk-and-impact-conditions.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
@@ -31,7 +31,7 @@ Risk Conditions are run against the change request based on their **Order** fiel
 
 1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Risk Conditions**.
 
-2.  Click **New**, or click the risk condition to modify.
+2.  Select **New**, or select the risk condition to modify.
 
     You can also edit risk conditions from within the Change Request form by opening the form context menu and clicking **Edit Risk Conditions**.
 
@@ -109,15 +109,15 @@ Enter a description of how this risk calculation is applied.
     -   If **Use script values** is selected, the script assigns both the **Risk** and **Impact** values.
 4.  Specify the rule based on your selected rule method.
 
-<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d231016e258">
+<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d235493e258">
 
 Choice
 
-</th><th align="left" id="d231016e261">
+</th><th align="left" id="d235493e261">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d231016e267">
+</th></tr></thead><tbody><tr><td id="d235493e267">
 
 **Condition**
 
@@ -125,7 +125,7 @@ Action
 
 Use the condition builder to add conditions. Do not use the Keywords field as a filter condition. Risk and impact values are not calculated for keywords. To achieve equivalent filtering, use the **Use advanced condition** option and write a script that performs the text comparison explicitly.**Note:** The **Condition** section is hidden if you selected **Use advanced condition**.
 
-</td></tr><tr><td id="d231016e287">
+</td></tr><tr><td id="d235493e287">
 
 **Use advanced conditions**
 
@@ -133,7 +133,7 @@ Use the condition builder to add conditions. Do not use the Keywords field as a 
 
 Write the script in the **Advanced condition** field using standard business rule syntax. The condition must set the global variable answer to *true* or *false*.
 
-</td></tr><tr><td id="d231016e305">
+</td></tr><tr><td id="d235493e305">
 
 **Use script values**
 
@@ -148,8 +148,10 @@ Write the script in the **Script values** field. Specify the **Risk** and **Impa
 
     When the **Advanced condition** script returns *true*, the script in the **Script values** field sets the change request **Impact** and **Risk** values based on the **Business criticality** value.
 
+    To set risk based on lead time per change type, create two conditions.
 
-**Parent Topic:**[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-risk-assess-detect-conflict.md)
+
+**Parent Topic:**[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-risk-assess-detect-conflict.md)
 
 **Related topics**  
 

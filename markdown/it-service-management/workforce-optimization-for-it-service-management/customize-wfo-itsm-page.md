@@ -3,11 +3,11 @@ title: Customize a Workforce Optimization for ITSM page using the Next Experienc
 description: Clone an existing Workforce Optimization for ITSM page and customize it based on your needs using the Next Experience UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/customize-wfo-itsm-page.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -24,13 +24,13 @@ Role required: workspace\_admin or ui\_builder\_admin
 
 ## About this task
 
-All Workforce Optimization for ITSM Next Experience UI Builder pages and page variants are read-only. You can copy a page variant and then customize it. You can create a page variant from scratch or use a page template. For more information, see [Create a variant of a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md).
+All Workforce Optimization for ITSM Next Experience UI Builder pages and page variants are read-only. You can copy a page variant and then customize it. You can create a page variant from scratch or use a page template. For more information, see [Create a variant of a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-variant.md).
 
 **Note:** After you copy and customize a page variant, any automatic updates applied to the original read-only page variant will not be applied to the page variant that you have customized.
 
-To open your configurable workspace experience in UI Builder, see [Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
+To open your configurable workspace experience in UI Builder, see [Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
 
-For a list of all workspaces ServiceNow offers to target specific users, see [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md).
+For a list of all workspaces ServiceNow offers to target specific users, see [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/list-of-workspaces.md).
 
 ## Procedure
 
@@ -61,10 +61,10 @@ For a list of all workspaces ServiceNow offers to target specific users, see [Li
 8.  Select **Done**.
 
 
-**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
+**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
 
 **Related topics**  
 
 
-[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-ui-admin.md)
 

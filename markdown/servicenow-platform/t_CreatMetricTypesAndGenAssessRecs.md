@@ -3,9 +3,9 @@ title: Create metric types and generate assessable records
 description: Create a metric type, which sets a table and filter conditions that define a set of records to evaluate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreatMetricTypesAndGenAssessRecs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Metric types and assessable records, Create an assessment metric for a category, Assessment metrics, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -54,7 +54,7 @@ Assessment duration
 
 </td><td>
 
-Amount of time assessors have to complete their assigned questionnaires, starting from the time the assessment is generated. The assessment duration sets the **Due date** that appears on [assessment instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentInstances.md). Changes made to the duration of an attestation in the GRC Control Test Definition form are updated dynamically in this field. The default duration is 14 days.
+Amount of time assessors have to complete their assigned questionnaires, starting from the time the assessment is generated. The assessment duration sets the **Due date** that appears on [assessment instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentInstances.md). Changes made to the duration of an attestation in the GRC Control Test Definition form are updated dynamically in this field. The default duration is 14 days.
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Signature
 
 </td><td>
 
-\[Optional\] Acknowledgement by a survey recipient of requirements, admonitions, or expectations related to an assessment. For more information, see [Create an assessment signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAnAssessmentSignature.md).
+\[Optional\] Acknowledgement by a survey recipient of requirements, admonitions, or expectations related to an assessment. For more information, see [Create an assessment signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAnAssessmentSignature.md).
 
 </td></tr><tr><td>
 
@@ -179,9 +179,9 @@ Evaluation method
 \[Admin only\] Indicates the evaluation method for this metric type. The system sets this field based on how the metric type is created. The possible evaluation methods are:-   **Assessment**: Default filter value for metric types. Only this evaluation method uses assessable records, conditions, and stakeholders.
 -   **Attestation**: For details, see
 
-[Attestations - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/c_Attestations.md).
+[Attestations - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/c_Attestations.md).
 
--   **Survey**: For details, see [Survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDefinitions.md).
+-   **Survey**: For details, see [Survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDefinitions.md).
 
 
 </td></tr><tr><td>
@@ -325,29 +325,29 @@ All assessable records associated with the type. This related list is hidden in 
 
     You must click **Generate Assessable Records** to create the initial set of assessable records based on the table and conditions specified on the type record. After that, the system creates an assessable record each time a new matching record is created. **Generate Assessable Records** is located under **Related Links**.
 
-    **Note:** Clicking **Generate Assessable Records** can trigger the deletion of existing assessable records under certain circumstances.For more information, see [Enforce a condition to delete an assessable record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_EnforceACondition.md).
+    **Note:** Clicking **Generate Assessable Records** can trigger the deletion of existing assessable records under certain circumstances.For more information, see [Enforce a condition to delete an assessable record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_EnforceACondition.md).
 
     The page redirects to the list of assessable records created.
 
 
-**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
 **Related topics**  
 
 
-[Assessment scorecard averages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_Averages.md)
+[Assessment scorecard averages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_Averages.md)
 
-[Schedule an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ScheduledAssessment.md)
+[Schedule an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ScheduledAssessment.md)
 
-[Schedule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ScheduleTypes.md)
+[Schedule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ScheduleTypes.md)
 
-[Set an assessment generation schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetAssesstGenerationSchedule.md)
+[Set an assessment generation schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SetAssesstGenerationSchedule.md)
 
-[On-demand assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OnDemandAssessments.md)
+[On-demand assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_OnDemandAssessments.md)
 
-[Enforce a condition to delete an assessable record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_EnforceACondition.md)
+[Enforce a condition to delete an assessable record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_EnforceACondition.md)
 
-[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
-[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md)
 

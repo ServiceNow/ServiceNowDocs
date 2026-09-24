@@ -3,9 +3,9 @@ title: Import a package version attachment in RPA Hub
 description: Import package version attachments automatically instead of manually uploading a package version attachment, by selecting the Import Attachment button on a package version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/import-attachment-package-version.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Migrating your data, Migrate data, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -18,21 +18,21 @@ Import package version attachments automatically instead of manually uploading a
 
 Perform the following tasks before you import a package version attachment:
 
--   Ensure that you’ve completed the tasks that are related to migrating your data from a lower environment to a higher environment. For more information, see [Migrating your data from a lower environment to a higher environment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/migrate-data-rpa-hub.md).
+-   Ensure that you’ve completed the tasks that are related to migrating your data from a lower environment to a higher environment. For more information, see [Migrating your data from a lower environment to a higher environment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/migrate-data-rpa-hub.md).
 -   Ensure that the **sn\_rpa\_fdn.allow\_manual\_upload\_of\_automation\_package** system property is marked as true. If you have the admin role, you can edit this system property.
 -   Ensure that there is no valid attachment associated to the package version​.
 -   Verify that the life-cycle stage of the package version isn’t set to **Retired**.
--   Create an active connection in the **RPA Automation Package** connection and credential alias. Ensure to provide the lower \(non-production\) environment in the **Connection URL** field. For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).
+-   Create an active connection in the **RPA Automation Package** connection and credential alias. Ensure to provide the lower \(non-production\) environment in the **Connection URL** field. For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-https-connection.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
 ## About this task
 
-The maximum package size is determined by the **com.glide.attachment.max\_size** system property. For more information about this system property, [Maximum allowed attachment size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-max-allowed-attachment-size.md).
+The maximum package size is determined by the **com.glide.attachment.max\_size** system property. For more information about this system property, [Maximum allowed attachment size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sc-max-allowed-attachment-size.md).
 
 Perform this task if you are automatically migrating the package attachment \(automation zip file\) from a lower \(non-production\) to a higher \(production\) environment.
 
-Another way to import package version attachments automatically is via triggering the **Import Package Version Attachment** Subflow in Workflow Studio. For more information, see [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-actions.md).
+Another way to import package version attachments automatically is via triggering the **Import Package Version Attachment** Subflow in Workflow Studio. For more information, see [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-hub-actions.md).
 
 ## Procedure
 
@@ -57,7 +57,7 @@ After the attachment is uploaded successfully or if an error occurs while upload
 
 ## What to do next
 
-For a quick integrity check, verify the HashCode of a package version again. For more information, see [Verify the HashCode of a package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-hash-code.md).
+For a quick integrity check, verify the HashCode of a package version again. For more information, see [Verify the HashCode of a package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-hash-code.md).
 
-**Parent Topic:**[Migrating your data from a lower environment to a higher environment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/migrate-data-rpa-hub.md)
+**Parent Topic:**[Migrating your data from a lower environment to a higher environment in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/migrate-data-rpa-hub.md)
 

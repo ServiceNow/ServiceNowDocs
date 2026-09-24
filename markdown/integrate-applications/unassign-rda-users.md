@@ -3,9 +3,9 @@ title: Unassign an attended user or group from an attended bot process in RPA Hu
 description: Unassign an attended user or a group from an attended bot process if the user is moving out of the business process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/unassign-rda-users.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adding details for your bot process, Configuring a bot process record, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Unassign an attended user or a group from an attended bot process if the user is
 
 ## Before you begin
 
-Do this task only when you select the **Process Type** field as **Attended** on the Bot process configuration form, while creating a bot process. You can't perform this task unless you select that field. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess-config.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Do this task only when you select the **Process Type** field as **Attended** on the Bot process configuration form, while creating a bot process. You can't perform this task unless you select that field. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess-config.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_support\_user, or sn\_rpa\_fdn.rpa\_admin
 
@@ -32,15 +32,15 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_support\_us
 
 5.  On the **Attended Users/Groups** tab, do one of the following actions.
 
-<table id="choicetable_wh5_mgl_frb"><thead><tr><th align="left" id="d131519e147">
+<table id="choicetable_wh5_mgl_frb"><thead><tr><th align="left" id="d130348e147">
 
 Option
 
-</th><th align="left" id="d131519e150">
+</th><th align="left" id="d130348e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d131519e156">
+</th></tr></thead><tbody><tr><td id="d130348e156">
 
 **To delete a user**
 
@@ -50,7 +50,7 @@ Action
 2.  Select **Delete**.
 
 
-</td></tr><tr><td id="d131519e177">
+</td></tr><tr><td id="d130348e177">
 
 **To delete a group**
 
@@ -62,10 +62,10 @@ Action
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/post-req-bot-process-rpa.md)
+**Parent Topic:**[Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/post-req-bot-process-rpa.md)
 
 **Related topics**  
 
 
-[Robot license distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/license-rpa-hub.md)
+[Robot license distribution in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/license-rpa-hub.md)
 

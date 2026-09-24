@@ -1,18 +1,18 @@
 ---
 title: Configure Service Model Foundation
-description: Configure the Service Model Foundation feature to enable a foundational data model framework. You can use this framework to create structured and flexible data models that represent your business needs.
+description: Configure the Service Model Foundation feature to create structured data models for your customer service operations. You can use this framework to create structured and flexible data models that represent your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-industry-data-model.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure Service Model Foundation
 
-Configure the Service Model Foundation feature to enable a foundational data model framework. You can use this framework to create structured and flexible data models that represent your business needs.
+Configure the Service Model Foundation feature to create structured data models for your customer service operations. You can use this framework to create structured and flexible data models that represent your business needs.
 
 ## Before you begin
 
@@ -20,23 +20,23 @@ Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
-Service Model Foundation provides the core framework and guidance for building and modeling the entities that are involved in the customer service value chain. This framework introduces new entities, such as service organizations, internal and external organizations \(formerly business locations\), and households. It also introduces roles and relationships that provide both flexibility and control in granting access to customer cases and information.
+Service Model Foundation provides the core framework and guidance for building and modeling the entities that are involved in the customer service value chain. This framework introduces new entities, such as service organizations, internal and external business locations, and households. It also introduces roles and relationships that provide both flexibility and control in granting access to customer cases and information.
 
 With the Service Model Foundation plugins, you can support:
 
--   Internal organizations and staff members
--   External organizations and staff members
+-   Internal business locations and staff members
+-   External business locations and staff members
 -   Households and household members
 
-For more information about this feature, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-industry-data-model.md).
+For more information about this feature, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-industry-data-model.md).
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup**.
 
-2.  On the Getting Started page of the guided setup, select **Get Started**.
+2.  Select **Get Started** on the Getting Started page.
 
 3.  In the Service Model Foundation category, view the list of tasks to configure the feature.
 
@@ -50,7 +50,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activating plugins for Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-plugins.md)
+[Activating plugins for Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/activate-plugins.md)
 
 </td><td>
 
@@ -60,7 +60,7 @@ Activate the plugins:-   Business Location \(com.snc.business\_location\)
 
 </td></tr><tr><td>
 
-[Activate query rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-activate-query-rules.md)
+[Activate query rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-activate-query-rules.md)
 
 </td><td>
 
@@ -68,15 +68,15 @@ Activate the query rules by setting the system property \[sn\_cs\_queryrules.use
 
 </td></tr><tr><td>
 
-[Configure forms and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-forms.md)
+[Configure forms and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-data-model-forms.md)
 
 </td><td>
 
-Configure forms to add the fields and related lists that support the business organization and household models.
+Configure forms to add the fields and related lists that support the business location and household models.
 
 </td></tr><tr><td>
 
-[Assign responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-assign-responsibilities.md)
+[Assign responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-assign-responsibilities.md)
 
 </td><td>
 
@@ -84,7 +84,7 @@ Assign responsibilities to the service organization \(SO\) member using the resp
 
 </td></tr><tr><td>
 
-[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-roles.md)
+[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-data-model-roles.md)
 
 </td><td>
 
@@ -92,7 +92,7 @@ Roles control access to features, capabilities, and data. The Service Model Foun
 
 </td></tr><tr><td>
 
-[Create relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-relationships.md)
+[Create relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-data-model-relationships.md)
 
 </td><td>
 

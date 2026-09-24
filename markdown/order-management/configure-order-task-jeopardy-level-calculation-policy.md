@@ -3,9 +3,9 @@ title: Configure the Order Task Jeopardy Level Calculation Policy
 description: Configure the Order Task Jeopardy Level Calculation Policy using Workflow Studio to set the risk levels for the minimum and maximum Service Level Agreement \(SLA\) percentage completion for order tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-order-task-jeopardy-level-calculation-policy.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Jeopardy Management, Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -40,12 +40,12 @@ Role required: admin
 
 ## What to do next
 
-[Configure the Order Jeopardy Enablement Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-jeopardy-management.md)
+[Configure the Order Jeopardy Enablement Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-jeopardy-management.md)
 
 **Related topics**  
 
 
-[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/jeopardy-management.md)
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/jeopardy-management.md)
 
-[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/monitoring-jeopardy-management.md)
 

@@ -3,9 +3,9 @@ title: Connect your instance with CPQ instance
 description: Set up the connections between the ServiceNow instance and the CPQ instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/connect-sn-instance-logik.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Without guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -86,10 +86,10 @@ Role required: admin
 
 ## What to do next
 
-[Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-external-connection-logik.md)
+[Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-up-external-connection-logik.md)
 
 **Related topics**  
 
 
-[Request a CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-up-logik-instance.md)
+[Request a CPQ tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-up-logik-instance.md)
 

@@ -3,11 +3,11 @@ title: Create a timeline page
 description: Create a timeline page to track any activity bounded by two dates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_CreateATimelinePage.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,7 +37,7 @@ Create a timeline page to track any activity bounded by two dates.
     |Show tooltips|Select this check box to display tooltips when the cursor rests on a span.|
     |Tooltip text fields|Select from the specified table the fields whose values appear as tooltips. For example, you might select **Category**, **Assigned to**, and **Due date**.|
     |Filtering and Sorting|
-    |Condition|Create a condition to filter the results that appear in the timeline. For example, a condition that displays only active, high priority incidents. [Add the condition count to a condition field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddingTheConditionCountWidget.md) to preview what records will be returned by this condition set.|
+    |Condition|Create a condition to filter the results that appear in the timeline. For example, a condition that displays only active, high priority incidents. [Add the condition count to a condition field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddingTheConditionCountWidget.md) to preview what records will be returned by this condition set.|
     |Perform custom sort?|Select this check box to enable custom sorting. Configure the sort order by selecting fields in the **Sort by** and **Sort by order** fields.|
     |Sort by|Select any field in the list for sorting the spans in the timeline. Common practice is to select either the **Start date field** or the **End date field** as the sorting field. If you select a different sorting field, also include that field in the list of **Tooltip text fields** to give users a way of discovering the sort criteria.|
     |Sort by order|Select the sort order for the sorting fields selected.|
@@ -45,8 +45,8 @@ Create a timeline page to track any activity bounded by two dates.
     |Allow horizontal moving?|Select this check box to permit users to drag timeline spans horizontally. Dragging changes the start and end dates and updates the record.|
     |Allow start time dragging?|Select this check box to permit users to update the record by dragging the start time of a span.|
     |Allow end time dragging?|Select this check box to permit users to update the record by dragging the end time of a span.|
-    |Range calculator|Specify a script include that [Using DurationCalculator to calculate a due date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_DrtnClDueDate.md) range restrictions and processes parent updates, if appropriate.|
+    |Range calculator|Specify a script include that [Using DurationCalculator to calculate a due date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_DrtnClDueDate.md) range restrictions and processes parent updates, if appropriate.|
 
 
-**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md)
+**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_TimelinePages.md)
 

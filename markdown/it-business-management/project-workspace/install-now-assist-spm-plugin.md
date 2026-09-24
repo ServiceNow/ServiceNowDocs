@@ -3,13 +3,13 @@ title: Install AI plugins
 description: Install AI plugins to enable generative AI on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/install-now-assist-spm-plugin.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-04-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure AI Admin features, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configure AI Admin features, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Install AI plugins
@@ -26,7 +26,7 @@ Follow these instructions to get started with AI Admin Hub:
 2.  Activate any AI plugin from the ServiceNow Store to access AI Admin Hub.
 3.  Install additional plugins, from the AI Admin Hub.
 4.  The AI Admin Hub console guides your implementation, starting with installation.
-5.  Check out the [AI Journey Checklist for more information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+5.  Check out the [AI Journey Checklist for more information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
 
 ## Procedure
 
@@ -57,8 +57,10 @@ Your plugin is successfully installed.
 
 If you encounter issues installing or updating applications, see this [knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) for steps that may address your issue. Otherwise, you can make a Support case.
 
+**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configuring-na-spm.md)
+
 **Related topics**  
 
 
-[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
+[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
 

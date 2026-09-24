@@ -3,7 +3,7 @@ title: Create a transaction rule
 description: Create a rule in ServiceNow Quote Experience to define conditions and actions that control field behavior and layout presentation on a quote in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-rule.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 5
@@ -16,13 +16,13 @@ Create a rule in ServiceNow Quote Experience to define conditions and actions th
 
 ## Before you begin
 
-The fields to use in rule conditions and actions must exist before creating the rule. For more information, see [Create a transaction field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-field.md).
+The fields to use in rule conditions and actions must exist before creating the rule. For more information, see [Create a transaction field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-create-field.md).
 
 Role required: admin
 
 ## About this task
 
-Rules are created through the ServiceNow Quote Experience administration interface and consist of a level, conditions, and one or more actions. The rule editor opens after the initial save — the name, description, and active state are all editable there. For full descriptions of each action type and its parameters, see [Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-rules-and-rule-groups.md).
+Rules are created through the ServiceNow Quote Experience administration interface and consist of a level, conditions, and one or more actions. The rule editor opens after the initial save — the name, description, and active state are all editable there. For full descriptions of each action type and its parameters, see [Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-rules-and-rule-groups.md).
 
 ## Procedure
 
@@ -115,7 +115,7 @@ Rules are created through the ServiceNow Quote Experience administration interfa
 
 31. In the **Use this value** field, define the value to assign.
 
-    Enable the **Advanced** toggle to enter a script — including aggregate functions — to calculate the value. For aggregate function syntax and examples, see [Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-rules-and-rule-groups.md).
+    Enable the **Advanced** toggle to enter a script — including aggregate functions — to calculate the value. For aggregate function syntax and examples, see [Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-rules-and-rule-groups.md).
 
 32. Add additional actions and save
 33. To add another action of any type to this rule, return to the **Actions** area and repeat the steps for the relevant action type above.
@@ -129,7 +129,5 @@ Rules are created through the ServiceNow Quote Experience administration interfa
 
 ## What to do next
 
-Add the rule to a rule grouping so that it can be assigned to stages and events. For more information, see [Create a transaction rule grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-rule-grouping.md).
-
-**Parent Topic:**[Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-rules-and-rule-groups.md)
+Add the rule to a rule grouping so that it can be assigned to stages and events. For more information, see [Create a transaction rule grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-create-rule-grouping.md).
 

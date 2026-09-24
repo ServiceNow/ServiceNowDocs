@@ -3,9 +3,9 @@ title: Edit Knowledge Base
 description: Edit knowledge base settings to configure workflows, ownership, and management for Core Business Suite knowledge bases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/edit-kb-cbs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [edit knowledge base, Core Business Suite, knowledge management, Configuration Console]
 breadcrumb: [Knowledge Base in Core Business Suite, Configure, Core Business Suite]
@@ -19,7 +19,7 @@ Edit knowledge base settings to configure workflows, ownership, and management f
 
 Role required: sn\_cbs.admin
 
-**Note:** You can add additional owners and managers to the Knowledge Base beyond the CBS admin. For more information, see [Edit Knowledge Base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/edit-kb-ref-cbs.md).
+**Note:** You can add additional owners and managers to the Knowledge Base beyond the CBS admin. For more information, see [Edit Knowledge Base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/edit-kb-ref-cbs.md).
 
 ## About this task
 
@@ -35,23 +35,23 @@ Modify knowledge base settings to control how articles are published, retired, a
 
 3.  Select the gear icon \[Omitted image "gear-icon-cbs.png"\] Alt text: gear icon to get to Knowledge Base settings. on the default Knowledge Base at the Core Business Suite level or at a business unit-level.
 
-4.  You're on the **Settings** tab.
+    You're on the **Settings** tab.
 
-5.  On the Edit knowledge base form, fill in the fields and select **Save**.
+4.  On the Edit knowledge base form, fill in the fields and select **Save**.
 
-    For a description of the field values, see [Edit Knowledge Base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/edit-kb-ref-cbs.md).
+    For a description of the field values, see [Edit Knowledge Base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/edit-kb-ref-cbs.md).
 
 
 ## Result
 
 You have edited the default Knowledge Base settings to your requirement. You can navigate to the default permission records from the same page to manage permissions.
 
-**Parent Topic:**[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)
+**Parent Topic:**[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/kb-cbs.md)
 
 **Related topics**  
 
 
-[Edit permissions for CBS Knowledge Authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-perm-kb-auth.md)
+[Edit permissions for CBS Knowledge Authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-perm-kb-auth.md)
 
-[Edit permissions for CBS Knowledge Readers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-perm-kb-read.md)
+[Edit permissions for CBS Knowledge Readers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-perm-kb-read.md)
 

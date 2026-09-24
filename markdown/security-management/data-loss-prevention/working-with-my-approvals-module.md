@@ -3,11 +3,11 @@ title: Working with my approvals module
 description: My Approvals module will be available on DLP Users Workspace to the logged in users. Users can approve or reject the assign approval requests from here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/working-with-my-approvals-module.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Loss Prevention Incident Response User Workspace, Manage incidents, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -41,5 +41,5 @@ Role required:
     **Note:** To view the DLP Incident details, click on \[Omitted image "dlp-my-info-approvals.png"\] Alt text: Add icon - My approval rules info icon available on the **Approve** field.
 
 
-**Parent Topic:**[Data Loss Prevention Incident Response User Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/using-dlp-end-user-portal.md)
+**Parent Topic:**[Data Loss Prevention Incident Response User Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/using-dlp-end-user-portal.md)
 

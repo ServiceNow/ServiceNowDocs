@@ -3,11 +3,11 @@ title: Install Horizontal Discovery and set up Discovery Patterns
 description: Install Horizontal Discovery patterns understanding the dependencies and requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/install-horizontal-telecommunication-discoverypatterns.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -31,7 +31,7 @@ Dependencies and Requirements:
 -   Telecom Visibility Core \(sn\_tsom\_core\)
 -   Discovery Core plugin \(com.snc.discovery.core\), which is automatically installed by Discovery.
 -   ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 
 Pattern execution logic: By default, when a TSOM pattern is run, it executes both the TSOM-specific and the corresponding ITOM pattern \(e.g., Telco Router runs Router\). This ensures shared ITOM libraries are reused when needed. To override this behavior:
 
@@ -42,7 +42,7 @@ Pattern execution logic: By default, when a TSOM pattern is run, it executes bot
 
 1.  Install the Horizontal Discovery application.
 
-    See [Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-setup.md), as it is foundational for running Telecommunications Discovery Patterns.
+    See [Discovery setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-setup.md), as it is foundational for running Telecommunications Discovery Patterns.
 
 2.  Obtain and install Telecommunications Discovery Patterns:
 
@@ -56,7 +56,7 @@ Pattern execution logic: By default, when a TSOM pattern is run, it executes bot
         2.  Select **Pattern Sync to Mid**.
         **Note:** This action synchronizes both TSOM and ITOM patterns.
 
-        For more information on how to configure a MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-mid-server.md).
+        For more information on how to configure a MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-mid-server.md).
 
 4.  Configure TSOM System Properties:
 
@@ -85,5 +85,5 @@ Pattern execution logic: By default, when a TSOM pattern is run, it executes bot
 **Related topics**  
 
 
-[Direct Discovery using Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.md)
+[Direct Discovery using Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.md)
 

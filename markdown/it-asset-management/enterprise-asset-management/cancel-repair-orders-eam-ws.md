@@ -3,11 +3,11 @@ title: Cancel a repair order in the Enterprise Asset Workspace
 description: Cancel a repair order that no longer needs to be fulfilled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/cancel-repair-orders-eam-ws.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Fulfill repair orders manually, Fulfilling repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
@@ -36,7 +36,7 @@ Role required: enterprise\_asset
 -   The stage of the repair order changes to Cancelled and the state changes to Closed Incomplete.
 -   The stage and state of the repair order lines that weren't completed change to Cancelled and Closed Incomplete.
 
-**Parent Topic:**[Manually fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
+**Parent Topic:**[Manually fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
 
 **Related topics**  
 

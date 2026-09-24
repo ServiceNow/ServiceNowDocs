@@ -3,11 +3,11 @@ title: Create a WSDL for the SAP service definition
 description: Generate a Web Services Description Language \(WSDL\) URL for the SAP service definition to use when creating SAP connections on your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-wsdl-sap-service.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [SAP WSDL, service definition, SOA Manager, SAP integration]
 breadcrumb: [Set up SAP integration to establish a connection with SAP, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
@@ -72,7 +72,7 @@ After importing the transport files into your SAP system, configure the service 
 
 13. Verify that the **NOW\_SAMP** service appears in the list of available services and bindings.
 
-    \[Omitted image "wsdl-services.png"\] Alt text: Details of Service Definition screen showing available services and bindings
+    \[Omitted image "wsdl-services.png"\] Alt text: Details of Service Definition page showing available services and bindings
 
 14. In the **NOW\_SAMP** list entry, select the **Open service WSDL generation** icon to generate a WSDL URL for the service.
 
@@ -83,7 +83,7 @@ After importing the transport files into your SAP system, configure the service 
 
 ## What to do next
 
-Create SAP users, roles, and authorizations that can be used with the Software Asset Management integration. For details, see [Create SAP users, roles, and authorizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-sap-users-roles-auth.md).
+Create SAP users, roles, and authorizations that can be used with the Software Asset Management integration. For details, see [Create SAP users, roles, and authorizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-sap-users-roles-auth.md).
 
-**Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/setup-sap-integration.md)
+**Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setup-sap-integration.md)
 

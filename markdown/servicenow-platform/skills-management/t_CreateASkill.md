@@ -3,11 +3,11 @@ title: Add a skill
 description: Create skills to specify the competencies of your users and associate them with users, and configuration items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/t\_CreateASkill.html
-release: australia
+release: brazil
 product: Skills Management
 classification: skills-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---

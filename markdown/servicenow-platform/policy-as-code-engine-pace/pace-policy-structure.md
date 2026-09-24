@@ -3,11 +3,11 @@ title: Structure of a PaCE policy script
 description: This section describes the structure of a PaCE policy script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Write and test policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ When a policy is executed, a set of parameters is passed and the policy develope
 
 \[Omitted image "pace-sample-script-new-names.jpg"\] Alt text: Sample script policy.
 
-To debug the script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see [Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scriptdebugger-api.md).
+To debug the script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see [Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scriptdebugger-api.md).
 
 The following table lists the policy function parameters and how can they be used in your policy script.
 
@@ -113,7 +113,7 @@ apiVars
 
 The apiVars is passed to the PaCE API when it is invoked. It includes all the API variables defined in the policy version. See &lt;Defining Caller Inputs&gt; section for details
 
- The [Sample policy script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.md) shows how policies can be used to validate configuration data in the DevOps environment. In the sample script, the apiVars variable is defined as
+ The [Sample policy script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.md) shows how policies can be used to validate configuration data in the DevOps environment. In the sample script, the apiVars variable is defined as
 
 ```
 var snapshotId = apiVars.snapshotId;
@@ -131,7 +131,7 @@ configParams
 
 Config Parameters are variables are passed when mapping the policy and includes all the Config Parameters variables defined for a specific version of the policy.
 
- The `configParams` variable is defined as follows in the [Sample policy script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.md).
+ The `configParams` variable is defined as follows in the [Sample policy script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-structure.md).
 
 ```
 var dbPort = configParams.dbPort;

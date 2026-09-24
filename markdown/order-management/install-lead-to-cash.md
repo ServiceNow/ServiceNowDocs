@@ -1,18 +1,18 @@
 ---
-title: Install Lead to Cash Core
-description: If you have the admin role, you can install the Lead to Cash Core application. The application includes the demo data and installations that are related ServiceNow Store applications and plugins.
+title: Install CRM Core
+description: If you have the admin role, you can install the CRM Core application. The application includes the demo data and installations that are related ServiceNow Store applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-lead-to-cash.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
-reading_time_minutes: 2
-breadcrumb: [Install and configure Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-24"
+reading_time_minutes: 1
+breadcrumb: [Install and configure CRM Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Install Lead to Cash Core
+# Install CRM Core
 
-If you have the admin role, you can install the Lead to Cash Core application. The application includes the demo data and installations that are related ServiceNow® Store applications and plugins.
+If you have the admin role, you can install the CRM Core application. The application includes the demo data and installations that are related ServiceNow® Store applications and plugins.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-The following items are installed with Lead to cash core application:
+The following items are installed with CRM Core application:
 
 -   Plugins
 -   Store applications
@@ -35,7 +35,7 @@ The following items are installed with Lead to cash core application:
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Lead to Cash Core application \(com.snc.l2c\_core\) using the filter criteria and search bar.
+2.  Find the CRM Core application using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you can't find the application, request it from the ServiceNow Store.
 
@@ -43,19 +43,19 @@ The following items are installed with Lead to cash core application:
 
 3.  In the Application installation dialog box, review the application dependencies.
 
-    Dependent plugins and applications appear if they’re installed, or are currently installed, or must be installed. If any plugins or applications require installation, you must install them before you can install the Lead to Cash Core application.
+    Dependent plugins and applications appear if they’re installed, or are currently installed, or must be installed. If any plugins or applications require installation, you must install them before you can install the CRM Core application.
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d65438e154">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d66285e162">
 
 Demo data install task
 
-</th><th align="left" id="d65438e157">
+</th><th align="left" id="d66285e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d65438e163">
+</th></tr></thead><tbody><tr><td id="d66285e171">
 
 **If demo data is available and you want to install it**
 
@@ -65,13 +65,13 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d65438e193">
+</td></tr><tr><td id="d66285e201">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
 </td><td>
 
-Load the demo data after installing the Lead to Cash Core application.1.  Install Lead to Cash Core \(com.snc.l2c\_core\).
+Load the demo data after installing the CRM Core application.1.  Install CRM Core.
 2.  Navigate to the **All** and in the Filter, type `v_plugin.list`.
 3.  In the related Links, select **Install Demo Data Only**.
 
@@ -81,7 +81,7 @@ Load the demo data after installing the Lead to Cash Core application.1.  Instal
 **Related topics**  
 
 
-[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-foundation.md)
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-lead-cash-foundation.md)
 
-[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md)
+[CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-to-cash.md)
 

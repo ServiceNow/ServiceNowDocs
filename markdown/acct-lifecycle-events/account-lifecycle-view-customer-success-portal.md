@@ -3,9 +3,9 @@ title: View customer success cases in the CSM portal
 description: View the customer success case records or case task records on the Customer Service Management \(CSM\) portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-view-customer-success-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer success, Use, Customer Success Management]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 1.  Use the name and password that you created during the registration process to log in to the Customer Service Portal.
 
-    See [Using the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-customer-portal.md) for the details.
+    See [Using the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-the-customer-portal.md) for the details.
 
 2.  On the home page, select **My Lists** to view the customer success cases and case tasks.
 
@@ -91,5 +91,5 @@ Role required: admin
     All the activities related to the case task are displayed.
 
 
-**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
+**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
 

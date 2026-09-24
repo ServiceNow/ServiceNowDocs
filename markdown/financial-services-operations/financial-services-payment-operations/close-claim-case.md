@@ -3,11 +3,11 @@ title: Close a claim case
 description: Close the claim case when you've completed the claimed refund process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/close-claim-case.html
-release: australia
+release: brazil
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing payment claims and debit approvals, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_bom\_payment.claim\_agent or sn\_bom\_payment.claim\_agent\_c
 
 ## About this task
 
-If there's a Customer or Consumer Service Portal for customers, they get a notification for the refund completion on the portal from where they can choose to accept or reject the resolution. If the customer accepts the refund completion on the portal, the case state automatically changes to Closed. For more information, see [Accept or reject a case solution from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resolve-cases-consumer-portal.md).
+If there's a Customer or Consumer Service Portal for customers, they get a notification for the refund completion on the portal from where they can choose to accept or reject the resolution. If the customer accepts the refund completion on the portal, the case state automatically changes to Closed. For more information, see [Accept or reject a case solution from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/resolve-cases-consumer-portal.md).
 
 **Note:** To use the Consumer Service Portal, activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 
@@ -47,5 +47,5 @@ If there's a Customer or Consumer Service Portal for customers, they get a notif
 
 A pre-configured email about the case closure is sent to the claim customer.
 
-**Parent Topic:**[Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
+**Parent Topic:**[Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
 

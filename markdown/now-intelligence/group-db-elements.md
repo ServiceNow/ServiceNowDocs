@@ -3,9 +3,9 @@ title: Group dashboard elements
 description: Improve your layout control and dashboard customization capabilities, by organizing related elements into single visual and logical units. Configure backgrounds and borders according to group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/group-db-elements.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Improve your layout control and dashboard customization capabilities, by organiz
 
 ## Before you begin
 
-The system property **par.dashboard.widget.group.enabled.dashboards.list** must be enabled on your instance with a value of ALL, -1, or the sys\_id of the dashboard you want to group content on. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+The system property **par.dashboard.widget.group.enabled.dashboards.list** must be enabled on your instance with a value of ALL, -1, or the sys\_id of the dashboard you want to group content on. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 Role required: If you have an internal role, you can create dashboards with the inline editor. You must have edit rights on the dashboard to group its content.
 
@@ -55,5 +55,5 @@ Role required: If you have an internal role, you can create dashboards with the 
 
 Grouped elements on the dashboard remain together when elements on the dashboard are moved. These elements also share a border and background as though they were one unit.
 
-**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md)
+**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md)
 

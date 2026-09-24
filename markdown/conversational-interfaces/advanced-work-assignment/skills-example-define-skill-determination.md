@@ -3,11 +3,11 @@ title: Define a skill determination rule
 description: Create a skill determination rule to tag the German skill to incoming cases from German speakers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/skills-example-define-skill-determination.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tutorial: Automatically assign work to agents by skill, Configure agent assignment rules, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---

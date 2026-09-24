@@ -3,11 +3,11 @@ title: Governance, Risk, and Compliance application nomenclature updates and ind
 description: The following terms are used within GRC applications and/or within the GRC industry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-terms.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -989,5 +989,5 @@ Uncertainty
 The state of being unable to completely predict, determine, or define something.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+</table>**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

@@ -3,9 +3,9 @@ title: Form logic
 description: Controlling what users see when they visit a form can increase productivity and responsiveness. For example, users should only see fields that are useful to them. Users may only need to see certain fields based on what is configured on the form. Apply form logic to control what is visible, read-only, and mandatory on a form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/form-logic.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Build form and business logic, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ Controlling what users see when they visit a form can increase productivity and 
 
 ## Agentic AI
 
-Create applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
+Create applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
 
 ## Determine when to control user access
 
@@ -42,5 +42,5 @@ Some client scripting practices to avoid are:
 -   Global Client Scripts or Global UI Scripts: Global scripts will run on every page load and introduce browser load delay.
 -   DOM Manipulation: Using document object model manipulation against default UI elements introduces upgrade risk and maintainability issues. The exception is using DOM manipulation against the DOM in pages authored in the same scoped application, like UI Pages or Service Portal widgets.
 
-**Parent Topic:**[Build form and business logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-form-and-business-logic.md)
+**Parent Topic:**[Build form and business logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-form-and-business-logic.md)
 

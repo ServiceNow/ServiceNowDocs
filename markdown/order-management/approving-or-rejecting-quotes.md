@@ -3,9 +3,9 @@ title: Approving or rejecting quotes
 description: Sales agents request approval for quotes, and approvers decide whether quotes can proceed under an advanced approval workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/approving-or-rejecting-quotes.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -68,5 +68,5 @@ Approval steps that are unaffected by the changes may be automatically approved,
 
 Once all required approval steps are approved, the quote can proceed to the next stage of the sales process.
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

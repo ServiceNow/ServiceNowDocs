@@ -3,9 +3,9 @@ title: Unique record identifier \(sys\_id\)
 description: A unique 32-character GUID \(Globally Unique ID\), called a Sys ID \(sys\_id\) identifies each record in an instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_UniqueRecordIdentifier.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -42,5 +42,5 @@ You can access the sys\_id from a record URL or by using a script.
         ```
 
 
-**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-reference.md)
+**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/data-management-reference.md)
 

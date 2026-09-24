@@ -3,14 +3,14 @@ title: Monitor your user apps network
 description: Monitor your app's network to ensure top performance, reduce latency, and improve security. Track key metrics to spot issues early, optimize resource use, and fix problems before they impact users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/monitor-user-apps-network.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [monitor user applications, network monitoring, app and network monitoring, network experience, connection details, network latency]
-breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
 ---
 
 # Monitor your user apps network
@@ -41,6 +41,6 @@ Role required: admin
         This option is applicable only to Windows OS.
 
     -   Live application hops: List of hops between the user's device and an application server that can help you identify and fix network bottlenecks.
-    For more details, see [Network experience pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/network-experience-pages.md).
+    For more details, see [Network experience pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/network-experience-pages.md).
 
 

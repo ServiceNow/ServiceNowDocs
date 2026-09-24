@@ -3,7 +3,7 @@ title: Track an In-store operations task on Retail mobile app
 description: Monitor the progress of an In-store operations task on Retail mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-track-in-store-tasks-mobile.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
@@ -31,5 +31,5 @@ Role required: sn\_rtl\_instore\_ops.manager
 5.  Select a task to open the **Details** view and take action as needed.
 
 
-**Parent Topic:**[Track In-store operations cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-in-store-ops-track.md)
+**Parent Topic:**[Track In-store operations cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-in-store-ops-track.md)
 

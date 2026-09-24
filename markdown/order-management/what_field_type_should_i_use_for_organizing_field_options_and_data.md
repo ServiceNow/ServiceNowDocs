@@ -3,7 +3,7 @@ title: Grid-style fields and field collections
 description: Learn about the various types of grid-style fields: the picklist extension, the field grid, the indexed set, the associated picklist set, and the product picker. Learn how best to choose a field type for your data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/what\_field\_type\_should\_i\_use\_for\_organizing\_field\_options\_and\_data.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
@@ -24,13 +24,13 @@ A picklist extension is a field type that displays extended information. It may 
 
 A picklist extension uses exclusion rules and option filters to populate what end users see. Only one field is editable out of the grid \(the selection\).
 
-For an overview of the picklist extension feature, see [Picklist extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-picklist-extensions-ples.md).
+For an overview of the picklist extension feature, see [Picklist extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-picklist-extensions-ples.md).
 
-For a deeper understanding of the back end and how to display picklist extensions, see [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md).
+For a deeper understanding of the back end and how to display picklist extensions, see [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md).
 
-For an overview of the Picklist Extension Pricing enrichment feature, see [The Picklist Extension Pricing enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/picklist-extension-pricing-scripts.md).
+For an overview of the Picklist Extension Pricing enrichment feature, see [The Picklist Extension Pricing enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/picklist-extension-pricing-scripts.md).
 
-For information about using picklist extensions in rules, see [Picklists and picklist extensions in rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-picklists-and-picklist-extensions-in-rules.md).
+For information about using picklist extensions in rules, see [Picklists and picklist extensions in rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-picklists-and-picklist-extensions-in-rules.md).
 
 ## Field grid
 
@@ -40,7 +40,7 @@ A field grid is a grid of independent fields in a format of rows and columns. It
 
 Each field can be referenced and manipulated by any rule and must be independently defined. For example, a 3 x 3 row requires 9 fields.
 
-For information about how to set up a field grid using the Matrix Loader, see [Layouts: Field grid setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For information about how to set up a field grid using the Matrix Loader, see [Layouts: Field grid setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layouts-field-grid-setup.md).
 
 ## Indexed set
 
@@ -56,9 +56,9 @@ Each column can be aggregated into a field that can be referenced outside the se
 
 For more information about sets, set aggregates \(collections of sets\) and about how to use sets in layouts, see:
 
--   [Configure sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sets.md)
--   [Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating_set_aggregates.md)
--   [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layouts-sets.md)
+-   [Configure sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sets.md)
+-   [Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating_set_aggregates.md)
+-   [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layouts-sets.md)
 
 ## Associated Picklist set
 
@@ -72,7 +72,7 @@ Each set field can only affect the fields in its row.
 
 Each column can be aggregated into a field that can be referenced outside the set. It can be configured to display across tiers.
 
-For more information, see [Creating an associated picklist set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating_an_associated_picklist_set.md).
+For more information, see [Creating an associated picklist set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating_an_associated_picklist_set.md).
 
 ## Product Picker
 
@@ -88,13 +88,13 @@ This field can affect fields outside the product picker by means of rules.
 
 For more information, see:
 
--   [Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product_picker_overview.md)
--   [Product picker bulk actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product_picker_bulk_actions.md)
+-   [Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product_picker_overview.md)
+-   [Product picker bulk actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product_picker_bulk_actions.md)
 
 **Related topics**  
 
 
-[CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/system_fields_vs_partner_fields.md)
+[CPQ fields, system fields, and partner fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/system_fields_vs_partner_fields.md)
 
-[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md)
+[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fields_101.md)
 

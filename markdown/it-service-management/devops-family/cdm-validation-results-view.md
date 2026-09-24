@@ -3,11 +3,11 @@ title: View the results of snapshot validation
 description: View validation failures and warnings on the Validation results tab for the snapshot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-validation-results-view.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Validating and correcting configuration data, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ View validation failures and warnings on the **Validation results** tab for the 
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: cdm\_viewer or cdm\_editor or cdm\_exporter\_editor or cdm\_policy\_editor or cdm\_admin
 
@@ -77,7 +77,7 @@ Execution record
 
 </td><td>
 
-View execution information for this policy run. See [View the execution record for a policy run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-execution-record-policy-view.md) for details.
+View execution information for this policy run. See [View the execution record for a policy run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-execution-record-policy-view.md) for details.
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Open business condition
 
 Opens the condition set on the CDM Deployable \[sn\_cdm\_deployable\] table based on which the policy was dynamically mapped to the deployable and executed.**Note:** This menu option is available only for the dynamically mapped policy.
 
-For more information on conditions and dynamic mapping, see [Map PaCE policies using Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-validate-dynamic.md).
+For more information on conditions and dynamic mapping, see [Map PaCE policies using Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-validate-dynamic.md).
 
 </td></tr></tbody>
 </table>    The **Failures and warnings** panel displays the list of all failures and warnings for the policy that is mapped to the associated deployable.

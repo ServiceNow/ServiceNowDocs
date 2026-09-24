@@ -3,11 +3,11 @@ title: Define third-party risk scoring rules
 description: Define criteria, based on risk scores, that determine which third parties require assessments. Third-party risk scoring rules apply to subsidiaries and engagements and to third-party risk areas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-tp-risk-scoring-rules-define.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -25,6 +25,8 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager
 1.  Navigate to **All** &gt; **Third-party Risk Management** &gt; **Scoring Setup** &gt; **Third-party Risk Scoring Rules**.
 
 2.  Select **New**, fill in the form, and then select **Submit**.
+
+    **Note:** If a different scoring rule already applies to a third party, changing which rule applies triggers a full recalculation of that third party's score tree, including its engagements and elements, using the existing scheduled/manual full vendor-tree recalculation job. Risk areas that aren't part of the newly applied rule's criteria no longer contribute to the score.
 
 <table id="table_eng-scoring-rule"><thead><tr><th>
 
@@ -66,7 +68,7 @@ Third-party risk area criteria
 
 The risk area criteria that applies to this engagement risk scoring rule.
 
- A third-party risk area criteria is a group of risk domains \(sometimes called risk areas in other platform features\) that applies to a particular type of third party. See [Define third-party risk area criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.md) for details on how the criteria are defined.
+ A third-party risk area criteria is a group of risk domains \(sometimes called risk areas in other platform features\) that applies to a particular type of third party. See [Define third-party risk area criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.md) for details on how the criteria are defined.
 
 </td></tr><tr><td>
 
@@ -78,7 +80,7 @@ Criteria for third-party risk assessments, engagements, and subsidiaries that ap
 
  Components are the entities for which you can assess risk \(for example, subsidiaries or engagements\). A component criteria is a group of components that should apply to a particular type of third party or engagement.
 
- See [Define component criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.md).
+ See [Define component criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +104,7 @@ Vendor filter
 
 </td><td>
 
-Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to define the rules for selecting third parties. For example, you can filter on third parties with whom you do considerable business \(Size is $1,000,000\) or third parties within a specific category \(Category is software\).
+Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md) to define the rules for selecting third parties. For example, you can filter on third parties with whom you do considerable business \(Size is $1,000,000\) or third parties within a specific category \(Category is software\).
 
 </td></tr></tbody>
 </table>    \[Omitted image "new-vendor-risk-scoring-rule.png"\] Alt text: New third-party risk scoring rule.

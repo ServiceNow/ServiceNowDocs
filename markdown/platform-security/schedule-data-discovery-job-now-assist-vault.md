@@ -3,9 +3,9 @@ title: Schedule a Data Discovery job with ServiceNow Otto for Vault
 description: Use the schedule data discovery job skill to schedule one-time or recurring Data Discovery jobs with ServiceNow Otto for Vault. Data Discovery jobs can detect sensitive data such as PII or PHI provided as input to the Azure OpenAI model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/schedule-data-discovery-job-now-assist-vault.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use generative AI skills, ServiceNow Vault]
 ---
@@ -16,8 +16,8 @@ Use the schedule data discovery job skill to schedule one-time or recurring Data
 
 ## Before you begin
 
--   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-servicenow-vault.md).
--   Ensure that the schedule Data Discovery job skill is active. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+-   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-servicenow-vault.md).
+-   Ensure that the schedule Data Discovery job skill is active. For more information, see .
 
 Role required: sn\_vault\_console.vault\_console\_admin
 

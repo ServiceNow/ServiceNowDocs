@@ -3,7 +3,7 @@ title: Using ProductList.extended to populate the Quote Line record
 description: You can use the Extended product data object to populate custom fields on the Quote Line record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/reverse\_twin\_productlist\_extended\_data\_to\_quoteline.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -44,5 +44,5 @@ Reverse twinning extended product data also enables admins to populate quote lin
 **Related topics**  
 
 
-[Adding custom attributes to the product list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/productlist_extended_adding_custom_attributes_in_the_productlist.md)
+[Adding custom attributes to the product list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/productlist_extended_adding_custom_attributes_in_the_productlist.md)
 

@@ -3,12 +3,12 @@ title: Create a resource plan
 description: You can create a resource plan from the Resource Management application for any task such as demand, project, project task, incident, problem, or change. You can edit and adjust the plan until you submit it for approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_CreateResourcePlanProjectTask.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -20,7 +20,7 @@ You can create a resource plan from the Resource Management application for any 
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged to [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility. [Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
+You're encouraged to [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility. [Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
 
 Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_manager, admin
 
@@ -28,17 +28,17 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 1.  Create a resource plan using one of the following options.
 
-<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d58890e119">
+<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d58255e119">
 
 **From Resource tab in project workspace**
 
 </td><td>
 
-1.  Open a project record in project workspace. See [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
+1.  Open a project record in project workspace. See [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 2.  On the **Resources** tab, click **New**.
 
 
-</td></tr><tr><td id="d58890e153">
+</td></tr><tr><td id="d58255e153">
 
 **From a project form**
 
@@ -49,7 +49,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 3.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d58890e192">
+</td></tr><tr><td id="d58255e192">
 
 **From a demand form**
 
@@ -61,7 +61,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 4.  On the Resource Plans page, click **New**.
 
 
-</td></tr><tr><td id="d58890e237">
+</td></tr><tr><td id="d58255e237">
 
 **From a project task**
 
@@ -74,7 +74,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 5.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d58890e288">
+</td></tr><tr><td id="d58255e288">
 
 **From an existing resource plan**
 
@@ -87,7 +87,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 </td></tr></tbody>
 </table>2.  On the Resource Plan form, fill the fields.
 
-    For a field descriptions of the field names, see [Resource Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plan-form.md).
+    For a field descriptions of the field names, see [Resource Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plan-form.md).
 
 3.  Click **Save** on the form header.
 
@@ -95,9 +95,9 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 4.  Review update the values in the Resource Plan form tabs.
 
-    For a field description of the field names, see [Resource Plan form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plan-form-tabs.md).
+    For a field description of the field names, see [Resource Plan form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plan-form-tabs.md).
 
-    **Note:** If the assigned rate model is removed or replaced, or the hourly rates in the rate model are changed, the cost fields on the associated resource plans are not recalculated automatically. You must [recalculate the resource costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/recalculate-resource-costs.md) of the resource plan to reflect new rates from the rate model.
+    **Note:** If the assigned rate model is removed or replaced, or the hourly rates in the rate model are changed, the cost fields on the associated resource plans are not recalculated automatically. You must [recalculate the resource costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/recalculate-resource-costs.md) of the resource plan to reflect new rates from the rate model.
 
     However, if any of the fields affecting the cost are updated on the resource plan, the rate model is invoked for getting the hourly rates. For example, extending a resource plan by modifying the end date of the resource plan invokes the rate model as there can be new rates available.
 
@@ -116,9 +116,9 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 ## What to do next
 
-Use the [Resource Plan related links and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plan-rltd-links-lists.md) to work on the resource plans, workbenches, or to modify the existing request allocations.
+Use the [Resource Plan related links and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plan-rltd-links-lists.md) to work on the resource plans, workbenches, or to modify the existing request allocations.
 
-**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
@@ -135,11 +135,11 @@ Use the [Resource Plan related links and lists](https://raw.githubusercontent.co
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 
-[Complete an allocated resource plan]()
+[Complete a resource plan]()
 
 [Cancel a resource plan]()
 

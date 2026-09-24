@@ -3,11 +3,11 @@ title: Adjust a contract
 description: After creating a contract, you can change the start date, end date, or payment amount for a contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_AdjustAContract.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
@@ -46,12 +46,12 @@ To adjust a contract, the **State** should be **Active**. If the end date of a c
 5.  Click **Submit Adjustments**.
 
 
--   **[Renew a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_RenewAContract.md)**  
+-   **[Renew a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_RenewAContract.md)**  
 After you have created a contract or the contract has expired, you can renew the contract.
--   **[Cancel a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_CancelAContract.md)**  
+-   **[Cancel a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_CancelAContract.md)**  
 You can cancel a contract when the **State** is **Active**.
 
-**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 

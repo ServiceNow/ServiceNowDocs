@@ -3,11 +3,11 @@ title: Configure and enable Shodan integration
 description: Before you use Shodan integration, you must download it from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/shodan-integration.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Shodan integration, Configure Observable Enrichment, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_sec\_tisc.admin
 
 **Important:** The Threat Intelligence Security Center and Whois Observable Enrichment plugins must be installed and active.
 
-Download the Whois integration from the ServiceNow Store and verify you have a valid Whois account before use. For more information see, [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+Download the Whois integration from the ServiceNow Store and verify you have a valid Whois account before use. For more information see, [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md).
 
 ## Procedure
 
@@ -88,10 +88,10 @@ Description for the new enrichment integration.For example, the description for 
 
 After configuration, Shodan can be selected for performing enrichment on observables in Threat Intelligence Security Center.
 
-**Parent Topic:**[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-shodan.md)
+**Parent Topic:**[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-shodan.md)
 
 **Related topics**  
 
 
-[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)
+[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)
 

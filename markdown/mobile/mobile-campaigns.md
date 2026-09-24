@@ -3,9 +3,9 @@ title: Displaying campaigns on ServiceNow mobile
 description: Use campaigns to deliver messages and important information to your users. You can set up and display a campaign on ServiceNow mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-campaigns.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -18,9 +18,9 @@ Mobile campaigns enable you to share curated content using a scrolling list of i
 
 **Note:**
 
-To set up a campaign to display on mobile devices, you must have the Employee Center Pro Content Publishing plugin \[com.sn\_content\_delivery\] installed. For more information, see [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/activate-content-delivery-plugin.md).
+To set up a campaign to display on mobile devices, you must have the Employee Center Pro Content Publishing plugin \[com.sn\_content\_delivery\] installed. For more information, see [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/activate-content-delivery-plugin.md).
 
-You create campaign content through Content Experiences with Employee Center Pro. For more information, see [Campaigns for Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ecpro-campaigns.md) and [Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ecpro-content-delivery-mobile.md).
+You create campaign content through Content Experiences with Employee Center Pro. For more information, see [Campaigns for Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/ecpro-campaigns.md) and [Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/ecpro-content-delivery-mobile.md).
 
 \[Omitted image "campaigns-3-diff-egs.png"\] Alt text: Mobile campaign example with an image, text, and video card
 

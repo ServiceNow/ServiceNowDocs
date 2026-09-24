@@ -3,11 +3,11 @@ title: Add a configuration item to a contract
 description: Contracts can be associated with configuration items. You can link a contract with configuration items to clarify what the contract legally covers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_AddAConfigurationItemToAContract.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
@@ -37,7 +37,7 @@ Role required: admin or contract\_manager
 6.  Select **Save**.
 
 
-**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_CreateAContract.md)
+**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/t_CreateAContract.md)
 
 **Related topics**  
 

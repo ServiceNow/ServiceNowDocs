@@ -3,12 +3,12 @@ title: Manage access to an AI specialist in the legacy AI Agent Studio
 description: Control workspace access, user roles, and publishing settings for your AI specialist and its copies configured for specific teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/manage-aiw-access.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI specialist, access management, workspace access, role configuration, AI workforce]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
+breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Manage access to an AI specialist inthe legacy AI Agent Studio
@@ -49,7 +49,7 @@ Access management includes workspace permissions, role-based security, publishin
 
     Copy creation allows teams to customize AI specialist behavior for specific assignment groups or use cases. Different copies can have varying configurations while maintaining the same core functionality.
 
-    For example, you can configure an AI specialist copy for one assignment group to perform specific tasks that differ from those assigned to another group. For more information, see [Create a copy of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/copy-aiw.md).
+    For example, you can configure an AI specialist copy for one assignment group to perform specific tasks that differ from those assigned to another group. For more information, see [Create a copy of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/copy-aiw.md).
 
     \[Omitted image "aiw-aias-manage-1.png"\] Alt text: Management tab for an AI specialist in AI agent studio with the sections described in the previous steps
 

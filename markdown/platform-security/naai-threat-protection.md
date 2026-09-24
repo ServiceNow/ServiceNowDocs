@@ -3,9 +3,9 @@ title: AI threat protection
 description: Learn how Now Assist helps defend against AI-specific threats including offensive content, prompt injection, and sensitive subject detection using AI Guardian.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-threat-protection.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agentic AI security and governance]
 ---
@@ -40,7 +40,7 @@ The following topics describe how to set up AI Guardian and configure the guardr
 
     Set up filters to redirect users to a different topic when certain subject material is detected in a Virtual Agent conversation.
 
--   **[Enable AI Guardian for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-aia-na-guardian.md)**
+-   ****
 
     Enable AI Guardian in AI agents to automatically identify and block offensive messages, helping protect your agentic workflows from harmful content.
 
@@ -49,7 +49,7 @@ The following topics describe how to set up AI Guardian and configure the guardr
 
 The following topics describe how to review and export AI Guardian logs to evaluate guardrail effectiveness and support security review.
 
--   **[AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md)**
+-   ****
 
     Monitor the performance of guardrails enabled through AI Guardian, including tracking how often offensive content and prompt injection attempts are detected.
 
@@ -58,5 +58,5 @@ The following topics describe how to review and export AI Guardian logs to evalu
     Export logs from AI Guardian to get insights into how often different guardrails are being detected and used.
 
 
-**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)
+**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-security.md)
 

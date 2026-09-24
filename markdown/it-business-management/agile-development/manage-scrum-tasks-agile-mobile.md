@@ -3,11 +3,11 @@ title: Managing scrum tasks on Agile Development v2 mobile app
 description: View, edit, and update the details of scrum tasks that were created for the stories of the current sprint on your mobile device.From your mobile device, track all scrum tasks of an assignment group including the scrum tasks assigned to you from multiple assignment groups.Add a scrum task for a story from the mobile app.Edit and update the details of the scrum tasks of your stories from your mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/manage-scrum-tasks-agile-mobile.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile experience for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ View, edit, and update the details of scrum tasks that were created for the stor
 
 On your mobile device, open the Mobile Agent app and navigate to Agile Development v2. Perform the following actions with the role of scrum\_product\_owner, scrum\_team\_member, or scrum\_master.
 
-**Parent Topic:**[Mobile experience for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-2-mobile-app-overview.md)
+**Parent Topic:**[Mobile experience for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/agile-2-mobile-app-overview.md)
 
 ## Tracking scrum tasks on Agile Development v2
 

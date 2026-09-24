@@ -3,9 +3,9 @@ title: Set up CPQ using guided setup
 description: The guided setup organizes the configuration activities into modules and tracks completion as each activity is completed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-cpq-using-guided-setup.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [With guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -18,7 +18,7 @@ The guided setup organizes the configuration activities into modules and tracks 
 
 Role required: admin
 
-Complete the prerequisites. For more information, see [Prerequisites for setting up CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/prereq-for-cpq-config.md).
+Complete the prerequisites. For more information, see [Prerequisites for setting up CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/prereq-for-cpq-config.md).
 
 ## About this task
 
@@ -38,11 +38,15 @@ Configure the CPQ Configurator in a logical sequence and track your progress fro
         **Important:** If you have already set up the Configurator using the guided setup and want to reconfigure, access the guided setup only through the navigation **All** &gt; **CPQ Integration** &gt; **Start guided setup**.
 
     -   To configure for the first time, you can alternatively navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All** &gt; **CPQ Integration** &gt; **Get started** &gt; **Configure**.
-2.  Select the **Prerequisites** module and ensure the tasks are completed.
+2.  Navigate to **All** &gt; **CPQ Integration** &gt; **Start guided setup**.
 
-3.  Certificate setup module tasks is configured automatically.
+    **Note:** If you're setting up CPQ for the first time, you can also access the guided setup by navigating to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All** &gt; **CPQ Integration** &gt; **Get started** &gt; **Configure**.
 
-4.  Complete the CPQ Connection Setup module.
+3.  Select the **Prerequisites** module and ensure the tasks are completed.
+
+4.  Certificate setup module tasks is configured automatically.
+
+5.  Complete the CPQ Connection Setup module.
 
     1.  Enter the CPQ tenant URL that was shared with you when your CPQ instance was provisioned.
 
@@ -54,9 +58,9 @@ Configure the CPQ Configurator in a logical sequence and track your progress fro
         -   Select **Admin** for the **Permissions** field.
     **Warning:** The admin API key generated in the tenant displays only once. Copy the key immediately. The key can't be retrieved later.
 
-5.  In the **Setup Confirmation** section execute the steps.
+6.  In the **Setup Confirmation** section execute the steps.
 
-6.  Select **Confirm end-to-end flow works** check-box after you have verified that the Configurator works as expected.
+7.  Select **Confirm end-to-end flow works** check-box after you have verified that the Configurator works as expected.
 
     **Important:** If the Configurator is not working as expected during workflow verification, don't select the **Confirm end-to-end flow works** check-box. Contact your administrator for assistance.
 
@@ -64,5 +68,5 @@ Configure the CPQ Configurator in a logical sequence and track your progress fro
 **Related topics**  
 
 
-[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md)
+[Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-servicenowcpq.md)
 

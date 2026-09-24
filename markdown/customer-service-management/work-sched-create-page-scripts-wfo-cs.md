@@ -3,9 +3,9 @@ title: Create page scripts for Work scheduler
 description: Add custom page scripts for the Work scheduler so that you can update the client state through events or update transform workItem object to properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/work-sched-create-page-scripts-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up Work scheduler, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -16,6 +16,10 @@ Add custom page scripts for the Work scheduler so that you can update the client
 
 ## Before you begin
 
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
 ## About this task
@@ -24,7 +28,7 @@ Add the **Handle card clicked** and the **Handle card action clicked** page scri
 
 Add the **Transform workItem to cardProps** page script to transform the **workItem** object in the Work queue to properties for the card components.
 
-**Note:** If you have [customized a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/customize-workscheduler-card-wfo-itsm.md), you can follow the steps below to add client scripts.
+**Note:** If you have [customized a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/customize-workscheduler-card-wfo-itsm.md), you can follow the steps below to add client scripts.
 
 ## Procedure
 
@@ -138,12 +142,12 @@ Add the **Transform workItem to cardProps** page script to transform the **workI
 
 ## What to do next
 
-[Define the workItem property in the Work scheduler page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/work-sched-create-page-properties.md)
+[Define the workItem property in the Work scheduler page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/work-sched-create-page-properties.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
 
 **Related topics**  
 
 
-[Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/define-client-scripts.md)
+[Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/define-client-scripts.md)
 

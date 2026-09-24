@@ -3,11 +3,11 @@ title: Plugins or applications installed with ITOM Cloud Accelerate
 description: Tables that list the plugins or applications that are installed with ITOM Cloud Accelerate applications. When you update your application, any newly required application dependencies are installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [ITOM Cloud Accelerate reference, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -99,11 +99,11 @@ The CCG Content Pack plugin \(sn\_itom\_ccg\_cp\) provides optional predefined c
 **Related topics**  
 
 
-[Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md)
+[Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md)
 
-[Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-app-itom-health.md)
+[Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/plugin-app-itom-health.md)
 
-[Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-itom-optimization.md)
+[Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/plugin-itom-optimization.md)
 
-[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/app-now-assist-itom.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Revert Software Asset Management customizations
-description: After installing the Software Asset Management application for the first time, or upgrading from the Software Asset Management Foundation plugin, you need to revert customizations for all features work. The Revert Customizations module in the Software Asset Management application can revert customized files related to Software Asset Management back to the base configurations that were skipped during the installation or upgrade process.
+description: After installing the Software Asset Management application for the first time, or upgrading from the Basic Software Asset Management, you need to revert customizations for all features work. The Revert Customizations module in the Software Asset Management application can revert customized files related to Software Asset Management back to the base configurations that were skipped during the installation or upgrade process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/revert-sam-customizations.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Revert Software Asset Management customizations
 
-After installing the Software Asset Management application for the first time, or upgrading from the Software Asset Management Foundation plugin, you need to revert customizations for all features work. The Revert Customizations module in the Software Asset Management application can revert customized files related to Software Asset Management back to the base configurations that were skipped during the installation or upgrade process.
+After installing the Software Asset Management application for the first time, or upgrading from the Basic Software Asset Management, you need to revert customizations for all features work. The Revert Customizations module in the Software Asset Management application can revert customized files related to Software Asset Management back to the base configurations that were skipped during the installation or upgrade process.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ To ensure feature functionality, you must revert customizations after:
 -   A new installation of the Software Asset Management Professional \(com.snc.samp\) plugin
 -   Upgrading from the Software Asset Management Foundation \(com.snc.sams\) plugin
 
-You can also revert customizations using the **System Diagnostics** &gt; **Upgrade History** navigation.
+You can also revert customizations using the **System Diagnostics** &gt; **Upgrade History** navigation or using the Configuration Console for Software Asset Management. For more details about the Configuration Console for Software Asset Management, see [Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/config-console-sam.md).
 
 ## Procedure
 
@@ -41,4 +41,13 @@ You can also revert customizations using the **System Diagnostics** &gt; **Upgra
 
     You can also verify the disposition of all skipped files in the Upgrade Details \[sys\_upgrade\_history\_log\] table and the current OOB version in the Update Versions \[sys\_update\_version\] table.
 
+
+**Related topics**  
+
+
+[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/config-console-sam.md)
+
+[Configuration Console overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/config-console-overview.md)
+
+[Configure Software Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/configure-sam-from-config-console.md)
 

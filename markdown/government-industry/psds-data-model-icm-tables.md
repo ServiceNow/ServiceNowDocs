@@ -3,9 +3,9 @@ title: Tables installed with Investigative Case Management
 description: This section describes the tables installed with the Investigative Case Management application and shows how they store and manage information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-icm-tables.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investigative Case Management, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -219,5 +219,5 @@ Investigative case task parent table. Non-specific to PSDS ICM.
 N/A
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Investigative Case Management Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-icm.md)
+</table>**Parent Topic:**[Investigative Case Management Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-icm.md)
 

@@ -3,9 +3,9 @@ title: Create a project in VS Code
 description: ServiceNow applications are contained within a project in the VS Code IDE. Import an application from your ServiceNow instance with the help of ServiceNow Extensions for VS Code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/create-project.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ ServiceNow applications are contained within a project in the VS Code IDE. Impor
 
 ## Before you begin
 
-[Setup your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/setup-workspace.md) to create a project and start editing your ServiceNow applications.
+[Setup your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/setup-workspace.md) to create a project and start editing your ServiceNow applications.
 
 Role required: none.
 
@@ -65,8 +65,8 @@ Role required: none.
 5.  Select **Import Existing**.
 
 
--   **[Import an application into Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-import-application.md)**  
+-   **[Import an application into Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vscode-import-application.md)**  
 After you create a project, import an application from your instance into the project to begin editing.
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vs-code.md)
 

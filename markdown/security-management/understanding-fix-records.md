@@ -3,9 +3,9 @@ title: Understanding Fix records
 description: A Fix record represents a single remediation action that resolves one or more findings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/understanding-fix-records.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Fix record, sn\_vul\_fix\_intel, remediation category, risk rating]
 breadcrumb: [Reference, Fix Intelligence for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
@@ -41,7 +41,7 @@ Each fix that Fix Intelligence for SEM identifies is stored as a record in the F
 
 -   **Risk score and risk rating**
 
-    The rolled-up risk of the fix. The numeric **Risk score** is derived into a **Risk rating** from **1 - Critical** to **5 - None**. For more information on roll-up calculators, see [Vulnerability Response Rollup Calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-vuln-rollup-calculator.md).
+    The rolled-up risk of the fix. The numeric **Risk score** is derived into a **Risk rating** from **1 - Critical** to **5 - None**. For more information on roll-up calculators, see [Vulnerability Response Rollup Calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-vuln-rollup-calculator.md).
 
 -   **Findings and assets**
 
@@ -57,14 +57,14 @@ Each fix that Fix Intelligence for SEM identifies is stored as a record in the F
 From a Fix record you can reach the records it connects to:
 
 -   **Vulnerable items**: The individual findings the fix remediates. Open a fix to review the vulnerable items linked to it.
--   **Remediation task**: When a remediation task rule groups findings by fix, the resulting remediation task appears on the fix. It helps you act on all of the fix's findings as a single unit of work. The fix is also shown on the Remediation Task record. See [Group findings by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/group-findings-by-fix.md).
+-   **Remediation task**: When a remediation task rule groups findings by fix, the resulting remediation task appears on the fix. It helps you act on all of the fix's findings as a single unit of work. The fix is also shown on the Remediation Task record. See [Group findings by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/group-findings-by-fix.md).
 
-**Parent Topic:**[Fix Intelligence for SEM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/fix-intel-reference.md)
+**Parent Topic:**[Fix Intelligence for SEM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/fix-intel-reference.md)
 
 **Related topics**  
 
 
-[View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-fixes-in-workspace.md)
+[View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/view-fixes-in-workspace.md)
 
-[Fix links on findings and vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/fix-links-on-findings.md)
+[Fix links on findings and vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/fix-links-on-findings.md)
 

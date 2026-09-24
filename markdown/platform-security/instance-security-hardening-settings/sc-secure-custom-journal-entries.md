@@ -3,11 +3,11 @@ title: Restrict access to custom journal entries \[Updated in Security Center 1.
 description: Use the glide.live\_feed.custom\_journal.acl\_check\_enabled property to respect ACL's on custom journal fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-secure-custom-journal-entries.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -24,14 +24,14 @@ If **glide.live\_feed.custom\_journal.acl\_check\_enabled** is not set to the re
 |---------|-----------|
 |Property name|**glide.live\_feed.custom\_journal.acl\_check\_enabled**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Purpose|To control which users see which journal entries based on ACLs.|
 |Recommended value|true|
 |Default value|true|
 |Configuration type|Boolean.|
 |Security risk|\(Moderate\) When set to true, only the custom journal entries which pass ACL will be shown in Live Feed, otherwise, all users will be able to see all journal entries.|
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

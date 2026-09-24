@@ -3,11 +3,11 @@ title: Transfer an Idea to another department
 description: Transfer an idea to another department with or without resolution if the idea is rejected or cannot be implemented.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/transfer-idea-ur.html
-release: australia
+release: brazil
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Innovation Management with Universal Request, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -63,5 +63,5 @@ When an idea is transferred to another department, the idea is closed and a new 
 
 The idea is transferred to the selected department. The **Primary Ticket** field of the parent universal request is updated with the INC, HRC, or custom task number created as a result of the transfer.
 
-**Parent Topic:**[Integrating Innovation Management with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/universal-req-idea-mgmt.md)
+**Parent Topic:**[Integrating Innovation Management with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/universal-req-idea-mgmt.md)
 

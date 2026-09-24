@@ -3,11 +3,11 @@ title: Filter an agent’s tasks in Field Service Manager Mobile
 description: Managers can filter the tasks assigned to an agent so they can quickly find the task they want to change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/filter-task-manager.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Manager Mobile, Completing work on mobile, Use, Field Service Management]
 ---

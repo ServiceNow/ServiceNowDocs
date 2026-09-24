@@ -3,9 +3,9 @@ title: Add a related entity to an architectural document
 description: Associate an architectural artifact to existing entities such as business capabilities, business applications, digital integrations, and digital interfaces. The association creates a relationship between the artifact and related entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/add-related-entity-arch-doc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage architectural documents, Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -38,19 +38,19 @@ Role required: sn\_apm.apm\_user
 
 8.  On the form, fill in the fields.
 
-    For a description of the field values, see [Create related entities form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-artifact-releated-entity-form.md).
+    For a description of the field values, see [Create related entities form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-artifact-releated-entity-form.md).
 
 9.  Select **Save**.
 
 
-**Parent Topic:**[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-arch-documents.md)
+**Parent Topic:**[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/manage-arch-documents.md)
 
 **Related topics**  
 
 
-[Create an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-architectural-document.md)
+[Create an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/create-architectural-document.md)
 
-[Edit artifact content of an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/edit-architectural-content.md)
+[Edit artifact content of an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/edit-architectural-content.md)
 
-[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/document-templates-for-ea.md)
+[Working with the document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/document-templates-for-ea.md)
 

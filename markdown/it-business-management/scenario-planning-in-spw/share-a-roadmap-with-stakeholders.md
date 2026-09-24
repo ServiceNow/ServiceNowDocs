@@ -3,11 +3,11 @@ title: Share a free-form roadmap with stakeholders
 description: Add people from your organization who are the stakeholders for the work involved in your roadmap plan so that they have visibility into the roadmap's progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/share-a-roadmap-with-stakeholders.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Create a free-form roadmap, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -19,9 +19,9 @@ Add people from your organization who are the stakeholders for the work involved
 
 ## Before you begin
 
--   [Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-a-roadmap-in-roadmap-planning.md).
+-   [Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-a-roadmap-in-roadmap-planning.md).
 
--   Ensure that the users that you add as stakeholders have the appropriate role to access the roadmap. For more details on user roles, see [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md).
+-   Ensure that the users that you add as stakeholders have the appropriate role to access the roadmap. For more details on user roles, see [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md).
 
 
 Role required: sn\_align\_core.apw\_user

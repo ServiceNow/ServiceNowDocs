@@ -3,11 +3,11 @@ title: Exploring Request Management
 description: Request Management allows catalog items to be requested and fulfilled based on defined flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/exploring-request-management.html
-release: australia
+release: brazil
 product: Request Management
 classification: request-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
 breadcrumb: [Request Management, IT Service Management]
@@ -17,8 +17,8 @@ breadcrumb: [Request Management, IT Service Management]
 
 Request Management allows catalog items to be requested and fulfilled based on defined flows.
 
--   **[Request Management architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-management-architecture.md)**  
+-   **[Request Management architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-management/request-management-architecture.md)**  
 Request Management defines the data model and processing flow for catalog item requests, from cart creation through record fulfillment.
 
-**Parent Topic:**[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/c_RequestManagement.md)
+**Parent Topic:**[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-management/c_RequestManagement.md)
 

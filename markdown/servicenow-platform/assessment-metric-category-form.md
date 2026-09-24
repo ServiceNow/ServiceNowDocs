@@ -3,9 +3,9 @@ title: Assessment Metric form for a category
 description: Description of the field values for the Assessment Metric form. Use the fields when you create an assessment metric for a category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/assessment-metric-category-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Assessments reference, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -64,7 +64,7 @@ Weight
 
 </td><td>
 
-Numeric value that represents the importance of this metric relative to other metrics in the same category. By default, the weight is 10. For weighting suggestions, see [Weight Metrics and Metric Categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md).
+Numeric value that represents the importance of this metric relative to other metrics in the same category. By default, the weight is 10. For weighting suggestions, see [Weight Metrics and Metric Categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentMetrics.md).
 
  This field is visible and required unless the **Data type** is **Date**, **Date/Time**, or **String**. These data types are not included in results calculations.
 
@@ -74,7 +74,7 @@ Order
 
 </td><td>
 
-Numeric value that determines the order of the metric question on assessment questionnaires, relative to other metric questions in the same category. The metric with the smallest order value appears as the first question in the category section. By default, the order is 100. For more information about questionnaire layout, see [Complete Assessment Questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentQuestionnaires.md). **Note:** It does not matter which order value you use for metrics with the Script method, as they do not appear on questionnaires.
+Numeric value that determines the order of the metric question on assessment questionnaires, relative to other metric questions in the same category. The metric with the smallest order value appears as the first question in the category section. By default, the order is 100. For more information about questionnaire layout, see [Complete Assessment Questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentQuestionnaires.md). **Note:** It does not matter which order value you use for metrics with the Script method, as they do not appear on questionnaires.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Mandatory
 
 </td><td>
 
-Check box that makes the metric question mandatory \(selected\) or optional \(cleared\) on assessment questionnaires. Users cannot submit questionnaires until they provide valid responses to all mandatory questions, which display a red [field status indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentQuestionnaires.md).
+Check box that makes the metric question mandatory \(selected\) or optional \(cleared\) on assessment questionnaires. Users cannot submit questionnaires until they provide valid responses to all mandatory questions, which display a red [field status indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentQuestionnaires.md).
 
  This field is visible only if the **Method** is **Assessment**, the **Depends on** field is empty, and the data type is not **Checkbox**.
 
@@ -204,7 +204,7 @@ Plugin that contains the tables queried in the script. The system executes the m
 
  This field is visible only if the **Method** is **Script**.
 
- **Note:** An administrator may need to add more [Define an option for a choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ViewChoiceListDefinitions.md) of plugins to the field.
+ **Note:** An administrator may need to add more [Define an option for a choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ViewChoiceListDefinitions.md) of plugins to the field.
 
 </td></tr><tr><td>
 
@@ -216,7 +216,7 @@ Setting that determines whether lesser or greater numerical values equate to a g
 
  This field is visible and required unless the **Data type** is **Date**, **Date/Time**, or **String**. The results for these data types are not included in results calculations.
 
- **Note:** For information about how to set the scale definition for data types that do not require you to set a numerical value, see [Data Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_DataTypes.md).
+ **Note:** For information about how to set the scale definition for data types that do not require you to set a numerical value, see [Data Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_DataTypes.md).
 
 </td></tr><tr><td>
 
@@ -263,10 +263,10 @@ Lists all metric definitions, which appear as answer options for questions on as
  This related list is available only if the Data type is **Choice** or **Likert Scale**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessment-reference.md)
+</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/assessment-reference.md)
 
 **Related topics**  
 
 
-[Create an assessment metric for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetric.md)
+[Create an assessment metric for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAMetric.md)
 

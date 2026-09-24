@@ -3,11 +3,11 @@ title: Create a composite entity
 description: Create multidimensional entities by combining two or more entities from different entity classes using the Composite Entity Management application. In Governance, Risk, and Compliance, entities can be people, processes, departments, applications, or objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-composite-entity-ws.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Composite entity, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Create multidimensional entities by combining two or more entities from differen
 
 ## Before you begin
 
-Roles required: sn\_grc.manager, sn\_risk\_workspace.IT\_risk\_manager, or sn\_risk\_workspace.operational\_risk\_manager
+Roles required: sn\_grc.manager, sn\_risk\_workspace.IT\_risk\_manager, and sn\_risk\_workspace.operational\_risk\_manager
 
 The Composite Entity Management application and Risk Workspace must be installed to create a composite entity.
 
@@ -36,7 +36,7 @@ When you create a composite entity by combining two or more individual entities,
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the Create New Entity form, see [Create new composite entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-composite-entity-form-ws.md).
+    For a description of the field values on the Create New Entity form, see [Create new composite entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-new-composite-entity-form-ws.md).
 
 5.  Select **Save**.
 
@@ -44,16 +44,16 @@ When you create a composite entity by combining two or more individual entities,
 
     After saving the entity, an entity form is displayed with the Details tab, Hierarchy tab, and the following related lists.
 
-    For information on the fields in these related lists, see [An entity in the workspace view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.md).
+    For information on the fields in these related lists, see [An entity in the workspace view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.md).
 
 
--   **[Create new composite entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-composite-entity-form-ws.md)**  
+-   **[Create new composite entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-new-composite-entity-form-ws.md)**  
 Use the Create New Entity form to create a composite entity by combining two or more entities from different entity classes using the Composite Entity Management application.
 
-**Parent Topic:**[Composite entity in Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/composite-entity-in-grc.md)
+**Parent Topic:**[Composite entity in Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/composite-entity-in-grc.md)
 
 **Related topics**  
 
 
-[Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-class-ws.md)
+[Create an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-new-entity-class-ws.md)
 

@@ -3,14 +3,14 @@ title: Shut down enterprise assets for maintenance activities
 description: Move enterprise assets of a shutdown work order task to the shutdown state to indicate that the assets are unavailable for use during maintenance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/shutdown-assets-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Shut down enterprise assets, Shutdown work type, Shut down work order task]
-breadcrumb: [Create a work order for an enterprise asset, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create a work order for an enterprise asset, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Shut down enterprise assets for maintenance activities

@@ -3,11 +3,11 @@ title: Search Preview UI for AI Search
 description: The Search Preview UI enables you to test AI Search queries using settings from a selected search application configuration or search profile. Administrator tools help you review search query performance data and feedback, debug queries, and override default query settings for testing purposes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/search-preview-ui-new.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,7 @@ Access the new Search Preview UI by navigating to **AI Search** &gt; **Preview**
 
 -   The ais\_admin role is required to view and use the Search Preview UI.
 -   The impersonator role is required for some AI Search administrator tools.
--   The ais\_high\_security\_admin role is required to bypass search source and content security filtering. For details on this procedure, see [Diagnose search result access issues using the Search Preview UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/diagnose-srch-result-access-ais.md).
+-   The ais\_high\_security\_admin role is required to bypass search source and content security filtering. For details on this procedure, see [Diagnose search result access issues using the Search Preview UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/diagnose-srch-result-access-ais.md).
 
 ## Search Preview UI components
 
@@ -62,7 +62,7 @@ Select the search mode you want to use for your search query.-   **Keyword searc
     -   Catalog Item Table indexed source \[sc\_cat\_item table\]
     -   Skills indexed source \[sys\_gen\_ai\_skill table\]
     -   All External Content Connectors indexed sources \[connector-specific tables\]
-You can manually configure additional indexed sources to be included in the semantic index, extending hybrid search to those sources as well. For details on this procedure, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-semantic-indexing-ais.md).
+You can manually configure additional indexed sources to be included in the semantic index, extending hybrid search to those sources as well. For details on this procedure, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/configure-semantic-indexing-ais.md).
 
 
 </td></tr><tr><td>
@@ -93,7 +93,7 @@ Select how you want to display the results from your search query:-   **Result c
 
 </td><td>
 
-Enter search query terms and operators in this field. To preview the query's results using settings from the selected search application configuration or search profile, press Enter or select the Submit search icon \[Omitted image "search-preview-new-icon-submit-search.png"\] Alt text:. To clear the search input field, select the Clear search term icon \[Omitted image "search-preview-new-icon-clear-search-term.png"\] Alt text:. For details on search query syntax and operators, see [AI Search query language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/query-language-ais.md).
+Enter search query terms and operators in this field. To preview the query's results using settings from the selected search application configuration or search profile, press Enter or select the Submit search icon \[Omitted image "search-preview-new-icon-submit-search.png"\] Alt text:. To clear the search input field, select the Clear search term icon \[Omitted image "search-preview-new-icon-clear-search-term.png"\] Alt text:. For details on search query syntax and operators, see [AI Search query language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/query-language-ais.md).
 
 When you select full visual view as the preview type, this field displays auto-complete suggestions from your selected search application configuration. When you select text view as the preview type, this field doesn't display auto-complete suggestions.
 
@@ -103,7 +103,7 @@ When you select full visual view as the preview type, this field displays auto-c
 
 </td><td>
 
-Select this icon to enable session debugging for AI Search and launch the Script Debugger in a new browser tab. To learn about session debugging and using the Script Debugger, see [Enable session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/session-debugging-ais.md) and [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md).
+Select this icon to enable session debugging for AI Search and launch the Script Debugger in a new browser tab. To learn about session debugging and using the Script Debugger, see [Enable session debugging for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/session-debugging-ais.md) and [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/script-debugger.md).
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ View summaries of how stop word, typo handling, and synonym dictionaries affecte
 Set a user or locale for the search query to test user access to results or view translated documents. Specify user context field values for the search query to test result improvement rule triggers.
 
 
- For more details on each administrator tool's output, controls, and fields, see [Search Preview admin tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-preview-ui-new-admin-tools.md).
+ For more details on each administrator tool's output, controls, and fields, see [Search Preview admin tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/search-preview-ui-new-admin-tools.md).
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ The filter list contents depend on whether you're previewing results for a searc
 -   **Search application configuration**: The filter list displays facet filters for the facets defined in the search application configuration.
 -   **Search profile**: The filter list displays a facet filter for the source table field.
 
-To learn more about facet filters, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-facet-ais.md).
+To learn more about facet filters, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-facet-ais.md).
 
 </td></tr><tr><td>
 
@@ -164,8 +164,8 @@ View the results the search query produces when executed with the selected searc
 When viewing raw output, this section displays the search query response object in JSON format. Select the Search icon \[Omitted image "search-preview-new-icon-submit-search.png"\] Alt text: to search for a term in the response. Open the More options menu to activate or deactivate syntax highlighting, show or hide the navigation minimap of the full JSON response, or enable or disable word wrap.
 
 </td></tr></tbody>
-</table>-   **[Search Preview admin tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-preview-ui-new-admin-tools.md)**  
+</table>-   **[Search Preview admin tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/search-preview-ui-new-admin-tools.md)**  
 Learn about the output, controls, and fields provided by admin tools in the new Search Preview UI.
 
-**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/administer-ais.md)
 

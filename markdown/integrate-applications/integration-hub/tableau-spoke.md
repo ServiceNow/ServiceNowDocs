@@ -3,7 +3,7 @@ title: Tableau spoke
 description: The Tableau spoke provides actions to view and analyze meaningful usage data for software subscriptions so that you can reclaim stale licenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/tableau-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -68,5 +68,5 @@ The Tableau spoke provides the following user role to control access to data:
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For more information about setting up the spoke, see [Set up the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-tableau-spoke.md).
+For more information about setting up the spoke, see [Set up the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-tableau-spoke.md).
 

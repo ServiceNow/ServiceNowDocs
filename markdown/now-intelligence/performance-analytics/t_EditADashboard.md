@@ -3,11 +3,11 @@ title: Edit a responsive dashboard
 description: You can edit the contents of a dashboard, including Performance Analytics widgets, reports, and tabs. Because dashboards are shared, any modifications you make are applied globally.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_EditADashboard.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Performance Analytics widgets, add Performance Analytics widgets, reports, add reports to dashboard, add a report to dashboard, add CMDB widgets to dashboards, CMDB widgets, risk assessment heatmaps, add risk assessment heatmaps to dashboards, Top Searches widgets, text search widgets, add Top Searches, delete a widget personal dashboard, edit a dashboard, add an interactive filter to a dashboard, remove a widget from a dashboard]
 breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
@@ -19,9 +19,9 @@ You can edit the contents of a dashboard, including Performance Analytics widget
 
 ## Before you begin
 
-**Note:** This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
+**Note:** This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md).
 
-Owners of Core UI responsive dashboards have the option to migrate these dashboards to Platform Analytics experience. For more information, see [Migrate dashboards that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-migrate-dbs-you-own.md).
+Owners of Core UI responsive dashboards have the option to migrate these dashboards to Platform Analytics experience. For more information, see [Migrate dashboards that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-migration-migrate-dbs-you-own.md).
 
 If Platform Analytics experience is enabled, the dashboard picker shows both Core UI and Platform Analytics experience dashboards.
 
@@ -39,15 +39,15 @@ Role required: Any user with an internal role can create dashboards with the inl
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d235029e200">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d238366e200">
 
 Action
 
-</th><th align="left" id="d235029e203">
+</th><th align="left" id="d238366e203">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d235029e209">
+</th></tr></thead><tbody><tr><td id="d238366e209">
 
 **Add a widget**
 
@@ -60,7 +60,7 @@ Steps
 5.  Drag to move the widget or resize it.
  **Note:** Data visualization titles are not automatically translated on localized ServiceNow instances.
 
-</td></tr><tr><td id="d235029e251">
+</td></tr><tr><td id="d238366e251">
 
 **Delete a widget from the dashboard**
 
@@ -70,15 +70,15 @@ Steps
 2.  Point to the top of the widget, then click the X icon \(\[Omitted image "RemoveWidgetButton.png"\] Alt text: X icon\) that appears.
  **Note:** There is no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d235029e285">
+</td></tr><tr><td id="d238366e285">
 
 **Configure widget layouts**
 
 </td><td>
 
-To change widget appearance and layouts, and show and hide widget headers, see [Configure the layout of a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/configure-widget-layouts.md).
+To change widget appearance and layouts, and show and hide widget headers, see [Configure the layout of a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/configure-widget-layouts.md).
 
-</td></tr><tr><td id="d235029e301">
+</td></tr><tr><td id="d238366e301">
 
 **Edit a widget**
 
@@ -91,7 +91,7 @@ To change widget appearance and layouts, and show and hide widget headers, see [
 
  The widget opens in the tool where it was created. For example, when you edit a report widget, the source report opens in the Report Designer.
 
-</td></tr><tr><td id="d235029e341">
+</td></tr><tr><td id="d238366e341">
 
 **Apply a quick layout to a dashboard**
 
@@ -99,7 +99,7 @@ To change widget appearance and layouts, and show and hide widget headers, see [
 
 Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] Alt text: Configuration icon\) to open the Configuration pane, then click a layout to snap the widgets against. Modify the layout as desired.
 
-</td></tr><tr><td id="d235029e356">
+</td></tr><tr><td id="d238366e356">
 
 **Add a tab to a dashboard**
 
@@ -107,7 +107,7 @@ Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] A
 
 Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] Alt text: Configuration icon\) to open the Configuration pane, then click **Create Tab**. The panel created with the dashboard becomes the dashboard's first tab. The default names of the tabs are the name of the dashboard followed by New Tab and New Tab 2. To change the default names, see Rename a tab in this table.**Note:** You cannot link an existing tab into a dashboard.
 
-</td></tr><tr><td id="d235029e377">
+</td></tr><tr><td id="d238366e377">
 
 **Reorder a dashboard tab**
 
@@ -121,7 +121,7 @@ Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] A
 2.  On the **Dashboard Tabs** related list, enter numbers in the **Order** column to specify the tab order. Tabs display from left to right with lower numbers appearing first.
 
 
-</td></tr><tr><td id="d235029e428">
+</td></tr><tr><td id="d238366e428">
 
 **Delete a dashboard tab**
 
@@ -129,7 +129,7 @@ Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] A
 
 Click the tab to make it active. Point to the tab name and click the trash icon that appears.**Note:** The dashboard tab no longer appears on any dashboards where it appeared. Dashboards may have tabs that appear in multiple dashboards.
 
-</td></tr><tr><td id="d235029e440">
+</td></tr><tr><td id="d238366e440">
 
 **Rename a tab**
 
@@ -145,7 +145,7 @@ Click the tab to make it active. Point to the tab name and click the trash icon 
 3.  On the translated dashboard, rename the tab with the translation of its new name.
 
 
-</td></tr><tr><td id="d235029e487">
+</td></tr><tr><td id="d238366e487">
 
 **Enable filtering of data for report widgets**
 
@@ -155,9 +155,9 @@ Interactive filters let users filter data for all report widgets on a dashboard 
 2.  From the list, select **Interactive Filters**.
 3.  Navigate to the filter you want to add.
 4.  Click **Add**.
-For more information, see [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/c_HomepagePublishers.md).
+For more information, see [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/c_HomepagePublishers.md).
 
-</td></tr><tr><td id="d235029e532">
+</td></tr><tr><td id="d238366e532">
 
 **Configure a report widget to follow interactive filters**
 
@@ -168,7 +168,7 @@ For more information, see [Interactive Filters](https://raw.githubusercontent.co
 3.  To show a filter icon \(\[Omitted image "InteractiveFilterFilteringIcon.png"\] Alt text: Filter icon\) on the report when it is following an interactive filter, select the **Show when following** check box.
  **Note:** Performance Analytics widgets cannot follow interactive filters.
 
-</td></tr><tr><td id="d235029e574">
+</td></tr><tr><td id="d238366e574">
 
 **Enable filtering of data for Performance Analytics widgets**
 
@@ -176,9 +176,9 @@ For more information, see [Interactive Filters](https://raw.githubusercontent.co
 
 1.  Click the plus sign \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\) to put the dashboard in edit mode.
 2.  Add a breakdown to a dashboard so that users can filter data for all Performance Analytics widgets on that dashboard. Only users with the pa\_admin or pa\_power user roles can work with breakdowns.
- See [Add breakdown sources to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ExistingBreakdownDashboard.md).
+ See [Add breakdown sources to a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_ExistingBreakdownDashboard.md).
 
-</td></tr><tr><td id="d235029e608">
+</td></tr><tr><td id="d238366e611">
 
 **View the description of a widget**
 
@@ -188,13 +188,13 @@ Point to the widget, then click the question mark \(\[Omitted image "QuestionMar
 
 </td></tr></tbody>
 </table>
--   **[Configure the layout of a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/configure-widget-layouts.md)**  
+-   **[Configure the layout of a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/configure-widget-layouts.md)**  
 You can change the appearance of widgets; change widget layouts; change the colors of the widget title, header, and background; and show or hide widget headers.
 
-**Parent Topic:**[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+**Parent Topic:**[Create and use Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
 **Related topics**  
 
 
-[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
+[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 

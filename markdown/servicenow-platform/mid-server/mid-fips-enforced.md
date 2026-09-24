@@ -3,11 +3,11 @@ title: MID Server FIPS Enforced Mode
 description: The MID Server supports the National Security Cloud \(NSC\) IL-5 environment, which requires all utilized cryptography to be FIPS validated. The MID server can be run in FIPS Enforced Mode, where only cryptographic algorithms which are FIPS validated are utilized.The MID server can be run in FIPS Enforced Mode, where only cryptographic algorithms which are FIPS validated are utilized.The MID server can be run in FIPS Enforced Mode, where only cryptographic algorithms that are FIPS-validated are utilized.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-fips-enforced.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -46,7 +46,7 @@ The following restrictions are now in place for SNMP for use by the MID Server i
 
 Other functionality that utilizes the MID Server may be impacted when run in FIPS Enforced Mode. Please refer to that functionality's specific documentation for details.
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
@@ -70,8 +70,6 @@ Other functionality that utilizes the MID Server may be impacted when run in FIP
 [Rekey a MID Server]()
 
 [Add SSL certificates for the MID Server]()
-
-[Specify an external TrustStore for the MID Server]()
 
 [MID Server SSH cryptographic algorithms]()
 

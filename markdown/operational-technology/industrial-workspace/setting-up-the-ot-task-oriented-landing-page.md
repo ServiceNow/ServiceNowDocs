@@ -3,11 +3,11 @@ title: Setting up the Operational Technology Action-Oriented Landing Page
 description: Set up the Operational Technology \(OT\) Action-Oriented Landing Page in the Industrial Workspace so that your users can access their critical tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/setting-up-the-ot-task-oriented-landing-page.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Industrial Workspace, Operational Technology]
 ---
@@ -22,8 +22,8 @@ The following table lists the Guided Setup tasks and their purposes for the OT A
 |----|-------|
 |1. Set the system properties for the OT Action-Oriented Landing Page.|Changes the amount of cards shown under **Important Actions** with the sn\_mfg\_common.landing\_page\_important\_actions\_limit system property.|
 
--   **[Set the system properties for the Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/set-the-system-properties-ot-action-oriented-landing-page.md)**  
+-   **[Set the system properties for the Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/set-the-system-properties-ot-action-oriented-landing-page.md)**  
 Set the system properties for the Operational Technology \(OT\) Action-Oriented Landing Page so that you can enable the properties as needed.
 
-**Parent Topic:**[Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
+**Parent Topic:**[Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
 

@@ -3,11 +3,11 @@ title: Domain separation and Event Management
 description: Domain separation is supported in Event Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/domain-separation-event-management.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ Domain separation is supported in Event Management. Domain separation enables yo
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## How domain separation works in Event Management
 
@@ -38,10 +38,10 @@ A domain column is present for Event Management tables that are provided in the 
 
 If the domain column does not display in the list, click \[Omitted image "update-personalized-list.png"\] Alt text: Update Personalized List \(Update Personalized List\) and add the required column. In addition, you can add a column that displays the domain path.
 
-For information about domain separation limitations in Event Management, see [Configure Event Management domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureDomainSeparation.md).
+For information about domain separation limitations in Event Management, see [Configure Event Management domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureDomainSeparation.md).
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

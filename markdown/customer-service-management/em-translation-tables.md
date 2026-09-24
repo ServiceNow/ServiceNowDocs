@@ -3,9 +3,9 @@ title: Engagement Messenger translation tables
 description: Engagement Messenger uses the \[sys\_translated\_text\] and \[sys\_ui\_message\] tables to store translated text.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/em-translation-tables.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Service Management]
 ---
@@ -40,7 +40,7 @@ Stores translations for configurable fields such as User Greeting and Search Mes
 -   **Table Name**: Name of the feature instance.
 -   **Value**: Translated text that the user sees.
 
- For details about translating text content into different languages, see [Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_TranslatedText.md) and [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseTranslatedText.md).
+ For details about translating text content into different languages, see [Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_TranslatedText.md) and [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UseTranslatedText.md).
 
 </td></tr><tr><td>
 
@@ -48,8 +48,8 @@ Message \[sys\_ui\_message\]
 
 </td><td>
 
-Stores translations for static messages in Engagement Messenger.For more information about the Message table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_MessageTable.md).
+Stores translations for static messages in Engagement Messenger.For more information about the Message table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_MessageTable.md).
 
 </td></tr></tbody>
-</table>**Note:** For information about Virtual Agent chat translation, see [Virtual Agent translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-translation-tables.md)
+</table>**Note:** For information about Virtual Agent chat translation, see [Virtual Agent translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-translation-tables.md)
 

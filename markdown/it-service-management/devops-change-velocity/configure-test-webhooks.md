@@ -3,11 +3,11 @@ title: Configure and test webhooks
 description: Manually configure webhooks in Azure DevOps and test them.Configure webhooks in Azure DevOps to send sync notifications to the DevOps Change Velocity application.You can manually test if webhooks are configured correctly directly from Azure DevOps for each project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/configure-test-webhooks.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Managem
 
 Manually configure webhooks in Azure DevOps and test them.
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 
 ## Configure webhooks in Azure DevOps manually
 

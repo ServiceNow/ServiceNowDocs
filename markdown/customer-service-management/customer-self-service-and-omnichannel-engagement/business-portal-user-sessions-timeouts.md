@@ -3,13 +3,13 @@ title: Business and Consumer portal usage calculation
 description: Track how your customers and employees are using the portal. The Customer Portal Usage dashboard provides information about portal visits resulting in session counts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/business-portal-user-sessions-timeouts.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Business and Consumer portal usage calculation
@@ -32,7 +32,7 @@ A user session times out after a specific period of inactivity.
 
 User access to the self-service portals is tracked as follows: per session, per day, and per portal. If the same user logs in from multiple browsers or devices, each login is counted as a separate visit. Each first call of a portal page starts a session and, the usage metrics are calculated for the 24 hours window.
 
-The default session timeout is 30 minutes. This setting can be adjusted using a system property. For more information about modifying the session timeout setting, see [Manage user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ManageUserSessions.md).
+The default session timeout is 30 minutes. This setting can be adjusted using a system property. For more information about modifying the session timeout setting, see [Manage user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ManageUserSessions.md).
 
 ## Site visit calculation examples
 
@@ -57,5 +57,5 @@ A user logs in and continues the session past midnight:
 **Related topics**  
 
 
-[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

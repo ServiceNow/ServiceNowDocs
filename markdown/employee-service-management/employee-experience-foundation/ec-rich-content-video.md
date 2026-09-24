@@ -3,11 +3,11 @@ title: Add a Video with the Rich Content Editor
 description: Use the Rich Content Editor canvas to add videos in your content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-rich-content-video.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -20,12 +20,12 @@ Use the **Rich Content Editor** canvas to add videos in your content.
 
 Role required: sn\_cd.content\_manager
 
-Fill in the New content form fields. See [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md)
+Fill in the New content form fields. See [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md)
 
 Create the page layout using modules or columns.
 
--   Modules are predefined content layouts comprised of header, paragraph text, and images. See [Add predefined content layouts with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/add-modules-rich-content-editor.md)
--   Columns are containers that enable you to define a custom layout. See [Add columns with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-canvas.md)
+-   Modules are predefined content layouts comprised of header, paragraph text, and images. See [Add predefined content layouts with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/add-modules-rich-content-editor.md)
+-   Columns are containers that enable you to define a custom layout. See [Add columns with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-canvas.md)
 
 ## About this task
 
@@ -33,17 +33,13 @@ The **Rich Content Editor** supports the following types of video:
 
 -   HTML5
 
-    **Note:** Hover-text or tool tips aren't supported for HTML5 at this time.
+    **Note:** Hover text or tool tips are not supported for HTML5 at this time.
 
 -   YouTube
 -   Vimeo
 -   Video streaming service
 
-    **Note:** You must configure a content provider to use videos from a video streaming service. See [Video hosting integrations framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/content-providers.md).
-
--   Other
-
-    **Note:** Additionally, if you want to add videos hosted on other sites that are public and require no authentication, you can add a video component and set the **Provider** to **Other**.
+    **Note:** You must configure a content provider to use videos from a video streaming service. See [Video hosting integrations framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/content-providers.md).
 
 
 ## Procedure
@@ -56,27 +52,7 @@ The **Rich Content Editor** supports the following types of video:
 
 4.  Use any of the following styling settings:
 
-    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacity and shadows, improved cells and buttons add additional border settings, colors and types, and additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
-
-    Provider "Other"
-
-5.  Navigate to **Content Publishing** and select **Content Provider** and confirm that **Other** provider is listed.
-
-6.  Open Other and confirm that it's mapped to a**News Article** or **Rich Content**.
-
-7.  Update **glide.html.enable\_media\_sites** to add the video platform domain you’re testing.
-
-8.  Create [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md) or [Create a news article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-news-article.md) and open the Rich Content Editor.
-
-9.  Add a **video component** and set **Provider** to **Other**.
-
-10. Paste your public video URL from an allowed domain.
-
-11. Save video.
-
-12. Confirm that the video renders in **Rich Content Editor**.
-
-13. Follow the additional setting options to configure video settings, as needed.
+    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacities and shadows, improved cells and buttons allow additional border settings, colors and types, as well as additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
 
 <table id="table_zx2_tgw_jyb"><thead><tr><th>
 
@@ -144,7 +120,6 @@ Where the video is hosted. Choose from:-   HTML5 Source
 -   Vimeo
 -   Youtube
 -   Video streaming content providers
--   Other
 
 
 </td></tr><tr><td>
@@ -164,10 +139,10 @@ Show controls \(Youtube and HTML5 Source\)
 
 </td><td>
 
-Check this box to display the video player controls. Users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
+Check this box to display the video player controls that your users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
 
 </td></tr></tbody>
-</table>14. Select **Save** or **Save and Finish**.
+</table>5.  Select **Save** or **Save and Finish**.
 
     Selecting **Save** saves your content and you remain on the **Rich Content Editor** canvas. Selecting **Save and Finish** saves your record and returns you to the **New content** form.
 
@@ -176,15 +151,15 @@ Check this box to display the video player controls. Users can interact with to 
 
 -   \(Optional\) Translate your content.
 
-    Request language translation for your content. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-switch-language.md).
+    Request language translation for your content. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 
     **Note:** Only translate content after you are done modifying the content. For best results, we do not recommend that you add or remove components or change the formatting after translation.
 
-    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md)
+    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md)
 
 -   Preview your content from the **Publish** tab.
 
     **Note:** Content Preview is designed to provide a general idea of how your content looks. Content may look different once published due to variations in device resolution, theme difference, or mobile app style configuration.
 
--   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
+-   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 

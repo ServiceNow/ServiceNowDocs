@@ -3,11 +3,11 @@ title: Update the list of classes in the Principal Class filter
 description: Manage the list of classes in the Principal Class filter so that those classes are prioritized for tracking, health, certification, lifecycle management, and class list views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Principal Class, CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Manage the list of classes in the Principal Class filter so that those classes a
 
 ## Before you begin
 
-Carefully review the [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md) topic to learn about uses of the Principal Class filter across the CMDB and the general guidelines for designating a class as principal.
+Carefully review the [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md) topic to learn about uses of the Principal Class filter across the CMDB and the general guidelines for designating a class as principal.
 
 Role required: sn\_cmdb\_admin or itil\_admin, and personalize\_dictionary
 
@@ -28,7 +28,7 @@ Designating certain CMDB classes as principal classes is a strategic way to focu
 
 In a base system, the Principal Class filter doesn't contain any classes.
 
-The Principal Class designation applies only to the current class and is not derived by child classes. For details about the CMDB class hierarchy, see [CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md).
+The Principal Class designation applies only to the current class and is not derived by child classes. For details about the CMDB class hierarchy, see [CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md).
 
 ## Procedure
 
@@ -59,8 +59,8 @@ In both of the following scenarios, the list of CIs refreshes to show only CIs w
     1.  Open a Change Request form.
     2.  Scroll down and select the **Affected CIs** tab. Select **Add**.
     3.  In the **Add Affected CIs** form, select the **List controls** menu icon, select **Filters** and then select **Principal Class**.
-    For more information about adding affected CIs to change requests, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_AffectedCIsAndImpactedServices.md).
+    For more information about adding affected CIs to change requests, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_AffectedCIsAndImpactedServices.md).
 
 
-**Parent Topic:**[Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md)
+**Parent Topic:**[Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md)
 

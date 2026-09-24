@@ -3,11 +3,11 @@ title: Set the on-click behavior of a widget
 description: You can configure what happens when a user clicks on a widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/set-widget-on-click.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -24,7 +24,7 @@ Role required: pa\_power\_user, pa\_admin, or admin
 
 By default, when a user clicks on a widget, the detailed Analytics Hub for the widget indicator appears. You can configure a widget to direct users to a different URL instead.
 
-**Note:** For equivalent functionality in Platform Analytics data visualizations, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md).
+**Note:** For equivalent functionality in Platform Analytics data visualizations, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dv-chart-interactions.md).
 
 ## Procedure
 

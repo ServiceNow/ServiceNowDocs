@@ -3,11 +3,11 @@ title: SBOM cleanup
 description: SBOM cleanup removes older software bill of materials records that match conditions you define and can help you reduce your data volume in the SBOM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/sbom-cleanup.html
-release: australia
+release: brazil
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SBOM, cleanup, purge, Security Exposure Management]
 breadcrumb: [Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]

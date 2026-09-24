@@ -3,9 +3,9 @@ title: Configure notifications for Simplified Change Management
 description: Add and manage notifications for Change Management to keep users informed about approvals, status updates, and task assignments at key steps in the change process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-notifications-for-simplified-change-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Simplified Change Management, Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
 ---
@@ -78,7 +78,7 @@ Send when
 
 Select under what condition that the notification is sent: -   When a record is inserted or updated
 -   When a particular event is fired
--   When [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/trigger-notification-action-designer.md) in Flow Designer
+-   When [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/trigger-notification-action-designer.md) in Flow Designer
 
 
 </td></tr><tr><td>
@@ -134,7 +134,7 @@ Create a script to perform certain actions, like sending a notification based on
 
 9.  Select the **What it will contain** tab and configure the email template and message body content.
 
-    For more information on creating notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+    For more information on creating notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md).
 
 10. Select **Submit**.
 
@@ -151,5 +151,5 @@ Create a script to perform certain actions, like sending a notification based on
 
 The notification is saved and appears in the **Notifications** list. It fires automatically whenever the defined conditions are met.
 
-**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
+**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
 

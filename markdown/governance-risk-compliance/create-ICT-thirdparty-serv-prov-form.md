@@ -3,11 +3,11 @@ title: Create ICT third-party service provider form
 description: On the Create ICT third-party service provider form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a third party and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a third party and enhance digital resilience data, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create ICT third-party service provider form
@@ -23,6 +23,14 @@ Field
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+Third party / Third-party engagement
+
+</td><td>
+
+Reference to the Third party or Third-party engagement record that this Digital resilience information record belongs to. This field is auto-filled.
+
+</td></tr><tr><td>
 
 Type of code to identify the ICT service provider
 
@@ -126,7 +134,7 @@ Is the third party the ultimate parent?
 
 </td><td>
 
-Option to confirm whether the third party the ultimate third-party. The available options are as follows:
+Option to confirm whether the third party is the ultimate parent. The available options are as follows:
 
 -   **Yes**: The third party itself is the parent.
 -   **No**: Default option.
@@ -185,5 +193,5 @@ Type of ICT services. The available options are as follows:-   **ICT project man
 -   **Cloud services: SaaS**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-third-party.md)
+</table>**Parent Topic:**[Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-drtp-reg-third-party.md)
 

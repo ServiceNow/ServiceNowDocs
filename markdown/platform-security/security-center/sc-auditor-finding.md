@@ -1,26 +1,26 @@
 ---
-title: Scan findings trend
-description: Review Security Center scan findings over time.
+title: Auditor suite findings
+description: Review Security Center Auditor suite findings over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-auditor-finding.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security scanner, Security configuration console, Security Center, Platform Security]
 ---
 
-# Scan findings trend
+# Auditor suite findings
 
-Review Security Center scan findings over time.
+Review Security Center Auditor suite findings over time.
 
-\[Omitted image "sc\_findings\_trend.png"\] Alt text: Scan findings trend page
+\[Omitted image "sec-center-sc-auditor.png"\] Alt text: SC Auditor suite findings
 
-## SC Scan findings trend chart
+## SC Auditor suite findings chart
 
-The page shows SC Scan findings trend chart findings compared between the two selected dates.Use the **Chart options** button to specify what information to analyze and how to present the information.
+The page shows SC Auditor suite findings compared between the two selected dates.Use the **Chart options** button to specify what information to analyze and how to present the information.
 
 -   **Analysis**
 
@@ -28,15 +28,15 @@ The page shows SC Scan findings trend chart findings compared between the two se
 
     -   **Target**
 
-        Goals your organization wants to achieve. See [Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-targets.md).
+        Goals your organization wants to achieve. See .
 
     -   **Threshold**
 
-        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See [Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-threshold.md).
+        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See .
 
     -   **Forecast**
 
-        Describes the ability to forecast future scores based on past behavior. See [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ForecastingData.md).
+        Describes the ability to forecast future scores based on past behavior. See .
 
     -   **Trend**
 
@@ -72,8 +72,12 @@ The page shows SC Scan findings trend chart findings compared between the two se
 
 -   **Chart type**
 
-    Select a chart type to control how the information your selected is visualized. See [Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/time-series-visualization-types.md).
+    Select a chart type to control how the information your selected is visualized. See .
 
 
-**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-scanning.md)
+## Records list
+
+Lists the checks performed as part of the suite.
+
+**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-scanning.md)
 

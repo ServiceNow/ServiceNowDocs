@@ -3,11 +3,11 @@ title: GRC case summarization skill for privacy cases
 description: The GRC case summarization skill uses a large language model \(LLM\) to generate a structured AI summary of a privacy case record. The summary is generated on demand from case data and can be saved to the record for future reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-case-summarization-skill.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -45,7 +45,7 @@ An administrator must set a default LLM provider before the skill can be used. T
 -   AWS Claude
 -   Google Gemini
 
-To set a default provider for the GRC case summarization skill, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
+To set a default provider for the GRC case summarization skill, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-model-providers.md).
 
 ## Components of a privacy case summary
 
@@ -134,7 +134,7 @@ AI-powered analysis of the case timeline and overall investigation effort.-   **
 </table>**Related topics**  
 
 
-[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/activate-grc-case-summarization-skill.md)
+[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/activate-grc-case-summarization-skill.md)
 
-[Summarize a privacy case using the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/summarize-privacy-case.md)
+[Summarize a privacy case using the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/summarize-privacy-case.md)
 

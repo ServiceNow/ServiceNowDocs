@@ -3,11 +3,11 @@ title: Request edit access to a processing activity from the Employee Center
 description: Access a processing activity directly from the Employee Center and request edit access to update the details your team is responsible for.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/request-edit-access-pa.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_privacy.business\_user
 
 ## About this task
 
-Privacy analysts can add any user as a key stakeholder to a processing activity, even those without privacy roles. To enable users without privacy roles to view and edit a processing activity, they must be granted the sn\_privacy.business\_user role, and then have their processing activity privilege modified by a privacy analyst. To understand processing activity privileges, see [Add key stakeholders to a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md).
+Privacy analysts can add any user as a key stakeholder to a processing activity, even those without privacy roles. To enable users without privacy roles to view and edit a processing activity, they must be granted the sn\_privacy.business\_user role, and then have their processing activity privilege modified by a privacy analyst. To understand processing activity privileges, see [Add key stakeholders to a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md).
 
 Stakeholders added with the sn\_privacy.business\_user role can access and view processing activities directly from the Employee Center by navigating to **GRC tasks** &gt; **Tasks** &gt; **My items** &gt; **Processing activities**. After they review the processing activity and find that it needs updating, they can request edit access. This enables them to edit the related lists of the processing activity they are assigned to.
 
@@ -45,7 +45,7 @@ Stakeholders added with the sn\_privacy.business\_user role can access and view 
 
 ## Result
 
-The privacy analyst who owns the processing activity receives an email and reviews the request. The analyst updates your processing activity privilege to **Edit processing activity and respond to privacy assessments**, and assigns the processing activity to you. For steps to assign a processing activity, see [Enable key stakeholders to update processing activities directly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md).
+The privacy analyst who owns the processing activity receives an email and reviews the request. The analyst updates your processing activity privilege to **Edit processing activity and respond to privacy assessments**, and assigns the processing activity to you. For steps to assign a processing activity, see [Enable key stakeholders to update processing activities directly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md).
 
 **Note:** If the processing activity is in the **Review** or **Monitor** state, the analyst must move the processing activity back to the **Discover** state before assigning it to you.
 
@@ -57,12 +57,12 @@ After you have edit access, navigate to **Employee Center** &gt; **GRC tasks** &
 
 **Note:** Your edit access is removed when you assign a processing activity back to the privacy team.
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 
 **Related topics**  
 
 
-[Respond to privacy impact assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/respond-to-a-privacy-smart-assessment.md)
+[Respond to privacy impact assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/respond-to-a-privacy-smart-assessment.md)
 
-[Respond to a privacy screening assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/respond-to-privacy-assmnt.md)
+[Respond to a privacy screening assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/respond-to-privacy-assmnt.md)
 

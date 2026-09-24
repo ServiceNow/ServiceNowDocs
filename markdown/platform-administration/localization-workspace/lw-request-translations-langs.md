@@ -3,11 +3,11 @@ title: Request translations in Localization Workspace: Languages
 description: Add target languages to a translation request in Localization Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-request-translations-langs.html
-release: australia
+release: brazil
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Requesting translations in Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -19,14 +19,14 @@ Add target languages to a translation request in Localization Workspace.
 ## Before you begin
 
 -   Ensure that the languages you intend to add to your translation request have been installed on your instance.
--   Ensure that the language providers that you intend to use have been configured. See [Configure a language provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-configure-translation-provider.md).
+-   Ensure that the language providers that you intend to use have been configured. See [Configure a language provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-configure-translation-provider.md).
 -   Role required: sn\_lw.user
 
 ## About this task
 
 Your translation request can bundle multiple target languages and multiple content types. Each language in the request can include different target documents.
 
-**Note:** In the Australia release, only requests from English into non-English target languages are supported. Requests from non-English source languages are not supported.
+**Note:** In the Brazil release, only requests from English into non-English target languages are supported. Requests from non-English source languages are not supported.
 
 The following procedure covers step one of four steps in the Translation Request wizard.
 
@@ -40,11 +40,11 @@ The following procedure covers step one of four steps in the Translation Request
 
 3.  In the **Short Description** field, enter a name for the translation request.
 
-    The Short Description is displayed in the **My Requests** list on the Home screen, so you can find and monitor your request later. For information see [Localization Workspace Home and translation job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-status-synchronization.md).
+    The Short Description is displayed in the **My Requests** list on the Home screen, so you can find and monitor your request later. For information see [Localization Workspace Home and translation job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-status-synchronization.md).
 
 4.  Select target languages or language groups according to the following guidance.
 
-<table id="choicetable_ff5_wjv_khc"><tbody><tr><td id="d302162e157">
+<table id="choicetable_ff5_wjv_khc"><tbody><tr><td id="d300096e157">
 
 **Language**
 
@@ -54,7 +54,7 @@ To select an individual language:1.  In the **Target language** field, select an
 2.  In the **Translation provider** field, select a name from the list of providers available for the language you chose.
  You can add more than one language to a request.
 
-</td></tr><tr><td id="d302162e181">
+</td></tr><tr><td id="d300096e181">
 
 **Groups**
 

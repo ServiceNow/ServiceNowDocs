@@ -3,9 +3,9 @@ title: Agentic Contact Center for Banking reference
 description: Learn about the components and properties that are installed with Agentic Contact Center for Banking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/agentic-contact-center-for-banking-reference.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [reference]
 breadcrumb: [Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
@@ -15,8 +15,8 @@ breadcrumb: [Agentic Contact Center for Banking, Banking applications, Financial
 
 Learn about the components and properties that are installed with Agentic Contact Center for Banking.
 
--   **[Components installed with Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-with-agentic-contact-center-for-banking.md)**  
+-   **[Components installed with Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/components-installed-with-agentic-contact-center-for-banking.md)**  
 Learn about the components that are installed with the activation of Agentic Contact Center for Banking.
 
-**Parent Topic:**[Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-banking-landing.md)
+**Parent Topic:**[Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/agentic-contact-center-for-banking-landing.md)
 

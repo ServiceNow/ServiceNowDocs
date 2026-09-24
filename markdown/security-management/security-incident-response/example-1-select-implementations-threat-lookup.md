@@ -3,11 +3,11 @@ title: Example 1: Select implementations: Threat Lookup
 description: The example below demonstrates the implementation\(s\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/example-1-select-implementations-threat-lookup.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Examples, Unified experience framework, SIR Workspace Orchestration, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -29,10 +29,10 @@ You can perform **Run Threat Lookup** related integration capabilities action us
 
 **Threat Look Up** is one of the example which is described in detail on how to perform the integrations.
 
--   **[Select implementations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/implementation-selection.md)**  
+-   **[Select implementations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/implementation-selection.md)**  
 Select one or more implementations as applicable.
 
-**Parent Topic:**[Unified Experience examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/unified-expereince-example.md)
+**Parent Topic:**[Unified Experience examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/unified-expereince-example.md)
 
 **Related topics**  
 

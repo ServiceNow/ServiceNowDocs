@@ -1,24 +1,24 @@
 ---
 title: Creating orders in Order Management
-description: Familiarize yourself with the steps for creating customer or service orders in Order Management using the CSM/FSM Configurable Workspace.
+description: Familiarize yourself with the steps for creating customer or service orders in Order Management using the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/creating-orders-som.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Creating orders in Order Management
 
-Familiarize yourself with the steps for creating customer or service orders in Order Management using the CSM/FSM Configurable Workspace.
+Familiarize yourself with the steps for creating customer or service orders in Order Management using the CRM Workspace.
 
 The following illustration lists the high-level steps for creating a fresh order with the Add action type. At this stage, the order agents focus on capturing commercial details such as quantity, product configuration, and pricing for placing an order. Fulfillment agents capture technical details required for fulfilling the order in the order enrichment stage.
 
 \[Omitted image "create-order-flow.svg"\] Alt text: High-level steps in the order creation process. For details, refer to the list of task topics that follows.
 
-1.  Initiate the order process from the CSM/FSM Configurable Workspace.
+1.  Initiate the order process from the CRM Workspace.
 2.  Input delivery information, including the shipping and billing preferences.
 3.  Select and include desired products into the order using the product catalog.
 
@@ -34,7 +34,7 @@ The following illustration lists the high-level steps for creating a fresh order
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

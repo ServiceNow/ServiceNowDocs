@@ -3,11 +3,11 @@ title: Design and assign GPON broadband service
 description: With the Gigabyte Passive Optical Network \(GPON\) Broadband Service change model, you can create an automated set of tasks to fulfill a GPON broadband order request.Needs review and comment by Jijesh.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -26,7 +26,7 @@ The change request execution process includes the task stages that you need to c
 
 -   **Create the change request**
 
-    Create the change request by using the GPON Broadband Service change model. To learn more, see [Create and execute a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md). .
+    Create the change request by using the GPON Broadband Service change model. To learn more, see [Create and execute a change task in Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md). .
 
 -   **Path compute and create logical connection**
 
@@ -34,7 +34,7 @@ The change request execution process includes the task stages that you need to c
 
 -   **Create a logical connection**
 
-    Add similar sets of site selection fields for the physical and logical connections between your start \(A\) and end \(Z\) locations. You can only select those interfaces that are associated with the designated equipment model for the A- and Z-end interfaces. To learn more, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md) .
+    Add similar sets of site selection fields for the physical and logical connections between your start \(A\) and end \(Z\) locations. You can only select those interfaces that are associated with the designated equipment model for the A- and Z-end interfaces. To learn more, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md) .
 
 -   **Create a physical connection**
 
@@ -42,11 +42,11 @@ The change request execution process includes the task stages that you need to c
 
 -   **Add an interface card**
 
-    Select a site and equipment model when you add interface cards. Use the **Slot** field to select the slot that you want to add to the equipment model. To learn more, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    Select a site and equipment model when you add interface cards. Use the **Slot** field to select the slot that you want to add to the equipment model. To learn more, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 -   **Create equipment**
 
-    Select a network site and equipment model for your equipment instantiation. The instantiation process is when you generate and validate the equipment records at the site level. To learn more, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md) and [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    Select a network site and equipment model for your equipment instantiation. The instantiation process is when you generate and validate the equipment records at the site level. To learn more, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md) and [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 
 After you complete this sequence, you can complete the design and assign procedure for the GPON broadband services.
@@ -57,7 +57,7 @@ To execute this process successfully, you need to consider a set of conditions a
 
 An internal path computation function is part of the GPON Broadband Service change model. Its purpose is to identify the possible paths between your network sites. This computation is based on the parameters that you enter when you complete each change task that is associated with the GPON Broadband Service change model.
 
-When you create the change request with the GPON Broadband Service change model and save the request, five default change tasks are created. To learn more, see [Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md).
+When you create the change request with the GPON Broadband Service change model and save the request, five default change tasks are created. To learn more, see [Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md).
 
 The following scenarios are handled in the path computation when you execute the process to complete the GPON broadband service request:
 
@@ -70,8 +70,8 @@ The following scenarios are handled in the path computation when you execute the
 
 The path computation uses record producers in each change task that is associated with the GPON Broadband Service change model to collect the required data. It collects most of its connection data when you complete the Compute and Create logical connection change task that you created from a GPON Broadband Service change model.
 
-1.  The path search is between the equipment model that you specified for the A connection end of the connection and the equipment model that you specified in the Z end connection.
-2.  The path search is between the equipment model that you specified for the A connection end of the connection and the equipment type that you specified in the Z end connection.
+1.  The path search is between the equipment model specified for the A connection end and the equipment model specified for the Z end connection.
+2.  The path search is between the equipment model specified for the A connection end and the equipment type specified for the Z end connection.
     -   The logical connection model indicates what model of logical connection must be created after the path computation.
     -   The bandwidth refers to the bandwidth table.
     -   The allowed physical connection model captures the physical connection CI model, which can be used to find a path and is added in the path element.
@@ -88,12 +88,12 @@ The path computation works on the following conditions:
 8.  Port A and Port Z must be populated for the physical and logical connections.
 9.  The **Availability** field for the physical and logical connections must be available to qualify those connections as possible underlying paths for routing. This validation ensures that a resource is not used multiple times.
 
-To learn more about errors occur in the path computation, see [Path computation error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/path-computation-error.md).
+To learn more about errors occur in the path computation, see [Path computation error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/path-computation-error.md).
 
-**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md)
+[Design your GPON Broadband Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model.md)
 

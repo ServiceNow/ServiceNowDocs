@@ -3,12 +3,12 @@ title: Automatically generate something from a template
 description: Schedule the generation of entities, which include changes, incidents, and CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_ScheduleTheGenerationOfAnEntity.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Create a scheduled job, Scheduled jobs, System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -101,7 +101,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run since that is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
+To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
 
 </td></tr><tr><td>
 
@@ -158,11 +158,21 @@ Duration of the repeat interval for each scheduled job execution. Enter the dura
 
 </td></tr><tr><td>
 
+Advanced
+
+</td><td>
+
+Enables advanced scheduling options for greater flexibility in job planning and execution. You can configure jobs to start on a future date, end on a particular date, and define how the job should repeat. For more information, see [Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md).
+
+</td></tr><tr><td>
+
 Starting
 
 </td><td>
 
-Allows you to define the beginning window of time when you would like your job to start running. The job will actually run at the time specified in **Run time**. Select the calendar date and time. The **Starting** field appears only if you select one of the following **Run** types in the **Run** field:-   **Daily**
+Allows you to define the beginning window of time \(date and time\) when you would like your job to start running. Within this window, the job actually starts at the time specified in the **Time** field.The **Starting** field appears only if you select the **Advanced** option and one of the following values in the **Run** field:
+
+-   **Daily**
 -   **Day and Month in Year**
 -   **Day in Week in Month in Year**
 -   **Monthly**
@@ -170,7 +180,29 @@ Allows you to define the beginning window of time when you would like your job t
 -   **Periodically**
 -   **Week in Month**
 -   **Weekly**
-For the run type **Periodically**, the **Starting** time is the date and time of the first scheduled job generation.
+For the run type **Periodically**, the starting time is the date and time of the first scheduled job generation.
+
+For more information, see [Starting and Ending fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md).
+
+</td></tr><tr><td>
+
+Ending
+
+</td><td>
+
+Allows you to define the ending window of time \(date and time\) when you would like your job to stop running. Within this window, the job actually stops at the time specified in the **Time** field.The **Ending** field appears only if you select the **Advanced** option and one of the following values in the **Run** field:
+
+-   **Daily**
+-   **Day and Month in Year**
+-   **Day in Week in Month in Year**
+-   **Monthly**
+-   **Once**
+-   **Periodically**
+-   **Week in Month**
+-   **Weekly**
+For the run type **Periodically**, the ending time is the date and time of the first scheduled job generation.
+
+For more information, see [Starting and Ending fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md).
 
 </td></tr><tr><td>
 
@@ -216,18 +248,18 @@ Reference to the template record from which you are generating a scheduled job.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
+**Parent Topic:**[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
 **Related topics**  
 
 
-[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
 
-[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
+[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
-[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)
+[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)
 
-[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
+[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
 
-[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
+[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
 

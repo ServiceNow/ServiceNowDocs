@@ -1,9 +1,9 @@
 ---
-title: MPN Latency Dashboard
+title: MPN latency metrics
 description: Monitor UE-to-switch latency and related KPIs across MPN-connected devices, with combined and per-KPI trend views, an instance summary table, and a last-recorded-value panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/mpn-latency-dashboard.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
@@ -13,13 +13,9 @@ keywords: [Nokia MPN]
 breadcrumb: [Fault Management: Events and alerts, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
 
-# MPN Latency Dashboard
+# MPN latency metrics
 
 Monitor UE-to-switch latency and related KPIs across MPN-connected devices, with combined and per-KPI trend views, an instance summary table, and a last-recorded-value panel.
-
-## Access the MPN Latency Dashboard
-
-Access the MPN Latency Dashboard by navigating to **All** &gt; **Platform Analytics &gt; Dashboards** and searching for or selecting MPN Latency Dashboard.
 
 ## Average Latency for All KPIs
 
@@ -66,7 +62,7 @@ TSOM flags or logs a latency metric as stale when the latest published value for
 **Related topics**  
 
 
-[MPN latency KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-latency-kpis.md)
+[MPN latency KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-latency-kpis.md)
 
-[SD-WAN Alerts Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/sd-wan-alerts-dashboard.md)
+[SD-WAN Alerts Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/sd-wan-alerts-dashboard.md)
 

@@ -3,11 +3,11 @@ title: Configure potential relationship table limits
 description: Configure the maximum potential relationship records that automated correlation can create. By default, each potential relationship table has a limit of 1,000,000 records for each domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-update-potential-relationship-record-limit.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [threat intelligence, correlation, potential relationships, performance]
 breadcrumb: [Automated correlation, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
@@ -62,5 +62,5 @@ Automated correlation stops creating potential relationships when a potential re
 
 Automated correlation creates potential relationships in the table until the record count reaches the limit you set.
 
-**Parent Topic:**[Automated correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/automated-correlation-rules.md)
+**Parent Topic:**[Automated correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/automated-correlation-rules.md)
 

@@ -3,11 +3,11 @@ title: Step results record
 description: The Step Results record contains information about one step in a test result. You access specific step results from the Step Results related list in the Test Results record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-step-result-record.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Test results, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -73,7 +73,7 @@ Summarized version of the Output field.If an error occurred in the test step, th
 
  `This step failed because the client error 'DETAILED ERROR MESSAGE' was detected on the page being tested. See failing Test Logs. To ignore these errors in the next test run, use ‘Add all client errors to warning/ignored list’ links.`
 
- Test designers and developers should always investigate client errors to determine if there are issues with your business process. For more details, see [Identify and resolve client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/identify-and-resolve-client-errors.md).
+ Test designers and developers should always investigate client errors to determine if there are issues with your business process. For more details, see [Identify and resolve client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/identify-and-resolve-client-errors.md).
 
  For a Send REST Request - Inbound step, the URL for the request endpoint, and a response code. For example:
 
@@ -88,7 +88,7 @@ Output
 Generated output for the test step.-   For a step result, the outputs from the step, including any explanation why a step failed or was skipped.
 -   For a Send REST Request - Inbound step, the REST request and response including the response body. The output field is truncated at 4096 characters.
     -   The REST request and response headers are filtered to prevent sensitive information from being added to the log. A filtered header text is replaced with the text "Header redacted for security."
-    -   See [Filter REST request and response headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-filter-rest-headers.md) for information on how to add a list of REST request and response headers to be filtered.
+    -   See [Filter REST request and response headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-filter-rest-headers.md) for information on how to add a list of REST request and response headers to be filtered.
 
  For additional console logging and test execution information for a test step, see the Test Logs record.
 
@@ -149,16 +149,16 @@ Step Transactions \(related list\)
 Record for each transaction \(from the system transaction log \[syslog\_transaction\] related to this step result\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-results-module.md)
+</table>**Parent Topic:**[Test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-test-results-module.md)
 
 **Related topics**  
 
 
-[Test results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-results-record.md)
+[Test results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-test-results-record.md)
 
-[Test logs record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-log-record.md)
+[Test logs record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-test-log-record.md)
 
-[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
+[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 
-[Allow client errors from step results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelist-errors-from-step-results-related-list.md)
+[Allow client errors from step results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/whitelist-errors-from-step-results-related-list.md)
 

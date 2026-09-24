@@ -3,11 +3,11 @@ title: Allocate Free Number function
 description: The Allocate Free Number function enables you to assign free numbers from the Telecommunications Network Inventory number record. You use this function to allocate a quantity of numbers from a specified range to add against the configuration item \(CI\) in a number element.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/allocate-free-number-action.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
@@ -112,7 +112,7 @@ Option to return the consecutive free numbers.
 True/False
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -126,7 +126,7 @@ The following table lists the information about the function output.
 
 Consider that a VLAN has 1–4096 as the number range and 1–1000, 1001–2500, and 2510–4096 are the subranges. If you give the count as 4, the function returns the list of inventory number records for 2501, 2502, 2503, and 2504. These numbers are free in the VLAN number range.
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

@@ -3,12 +3,12 @@ title: Exploring Risk and Compliance
 description: Risk and Compliance in AI Control Tower provides governance visibility into risk, compliance, and governance status across your AI portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-exploring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [explore]
-breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Exploring Risk and Compliance
@@ -47,8 +47,8 @@ AI Control Tower surfaces these governance outcomes for visibility and oversight
 
 For information about configuring and using Risk and Compliance in AI Control Tower, see:
 
--   [Configuring Risk and Compliance visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-configuring.md)
--   [Regulatory status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-regulatory-status.md)
--   [Risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-risk-posture.md)
--   [Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-reference.md)
+-   [Configuring Risk and Compliance visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-configuring.md)
+-   [Regulatory status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-regulatory-status.md)
+-   [Risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-risk-posture.md)
+-   [Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-reference.md)
 

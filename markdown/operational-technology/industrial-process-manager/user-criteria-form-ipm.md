@@ -3,11 +3,11 @@ title: User criteria form
 description: You can use the User Criteria form to determine whether certain users can access the equipment model entities for specific sites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/user-criteria-form-ipm.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 ---
@@ -33,5 +33,5 @@ The following table describes the user criteria form fields.
 |Departments|Departments that can access the site's equipment model entities when you apply the user criteria. Select the departments by selecting the unlock departments icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock departments icon.\).|
 |Match All|Option to make every condition required when the user criteria are applied. The conditions are set in the previous fields, such as the **Location**, **Department** fields.|
 
-**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
+**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
 

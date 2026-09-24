@@ -3,9 +3,9 @@ title: Releasing your PDI
 description: Release your PDI to unassign the instance from you, reset to its original state, and reassign it to another Developer Program member.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/releasing\_your\_pdi.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -37,5 +37,5 @@ If you no longer need your PDI or you are not going to be able to use it for an 
     4.  Click the **Release instance** button.
 
 
-**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/personal_developer_instance_guide.md)
 

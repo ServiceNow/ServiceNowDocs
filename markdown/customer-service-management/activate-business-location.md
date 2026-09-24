@@ -1,16 +1,16 @@
 ---
-title: Activate the Business Location plugin
+title: Activate business locations
 description: Activate the Business Location plugin to manage customer service for business locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-business-location.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate plugins, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Activate the Business Location plugin
+# Activate business locations
 
 Activate the Business Location plugin to manage customer service for business locations.
 
@@ -34,5 +34,5 @@ The Business Location plugin \(com.snc.business\_location\) enables support for 
 **Related topics**  
 
 
-[Activate customer household data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-customer-service-household.md)
+[Activate customer household data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/activate-customer-service-household.md)
 

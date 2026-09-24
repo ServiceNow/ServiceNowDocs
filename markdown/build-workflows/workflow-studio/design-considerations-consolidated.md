@@ -3,11 +3,11 @@ title: General guidelines for Workflow Studio flows, subflows, and actions
 description: Create, run, troubleshoot, and monitor your Workflow Studio components more effectively. Use these guidelines to optimize the performance of your Workflow Studio components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/design-considerations-consolidated.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 34
 breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -35,13 +35,13 @@ Use standard ServiceNow AI Platform application development capabilities to crea
 
 Flows should be short, modular, reusable collections of work. If they take more than an hour to execute, they’re probably too long and can be more efficient.
 
-Any general guidelines that apply to flows also apply to [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-considerations-consolidated.md).
+Any general guidelines that apply to flows also apply to [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/design-considerations-consolidated.md).
 
 -   **Prevent conflicting or duplicate business logic**
 
-    Automations can be created with Flow Designer, business rules, workflows, and Integration Hub. Before you start using Workflow Studio , make sure you understand how existing ServiceNow AI Platform automations work. Deactivate automations before replacing them with Workflow Studio flows and actions. See the [Architecture Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-arch-overview.md) to learn how Workflow Studio works within the ServiceNow AI Platform.
+    Automations can be created with Flow Designer, business rules, workflows, and Integration Hub. Before you start using Workflow Studio , make sure you understand how existing ServiceNow AI Platform automations work. Deactivate automations before replacing them with Workflow Studio flows and actions. See the [Architecture Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-designer-arch-overview.md) to learn how Workflow Studio works within the ServiceNow AI Platform.
 
-    Review [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md), [Sub-flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md), and [Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md) documentation, if necessary.
+    Review [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flows.md), [Sub-flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/subflows.md), and [Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/actions.md) documentation, if necessary.
 
 -   **Determine whether your flow needs a trigger or variable input**
 
@@ -57,7 +57,7 @@ Any general guidelines that apply to flows also apply to [subflows](https://raw.
 
 -   **Use flow logic or a schedule-based trigger to control flow timing**
 
-    Flow logic or schedule-based triggers help to optimize the performance of your flows. Do not use the gs.sleep\(\) method to wait within a flow. The gs.sleep\(\) method prevents the thread from performing other work. To run a flow at a specific time, use a schedule-based trigger. To pause a flow for a specific duration, use the [Wait for a duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.md) or [wait for condition]() flow logic.
+    Flow logic or schedule-based triggers help to optimize the performance of your flows. Do not use the gs.sleep\(\) method to wait within a flow. The gs.sleep\(\) method prevents the thread from performing other work. To run a flow at a specific time, use a schedule-based trigger. To pause a flow for a specific duration, use the [Wait for a duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.md) or [wait for condition]() flow logic.
 
 -   **Avoid dependencies**
 
@@ -77,9 +77,9 @@ Any general guidelines that apply to flows also apply to [subflows](https://raw.
     -   Avoid changing property sn\_flow\_designer.max\_iterations, which defaults to 1000.
     -   For nested loops, each loop has its own maximum number of iterations.
     -   For large amounts of data processing, consider batching into smaller batches.
-    -   For bulk imports, consider [concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/concurrent-imports.md).
+    -   For bulk imports, consider concurrent imports.
 -   **Use QuickAPI for faster executions \(business rule alternative\)**
-    -   [QuickAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowRunnerScopedAPI.md) executions are much faster, but there is less debugging capability.
+    -   QuickAPI executions are much faster, but there is less debugging capability.
     -   Foreground QuickAPI executions run in the user session as the user who called the flow.
     -   Background QuickAPI executions run in a background thread and are run in the ‘system’ user session.
 -   **Use Do Until loops instead of calling flows from themselves**
@@ -100,7 +100,7 @@ Any general guidelines that apply to flows also apply to [subflows](https://raw.
 
 -   **Include sys\_complex\_object records generated by the flow in update sets**
 
-    Missing [complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md) schemas can cause execution issues. Make sure you include sys\_complex\_object records generated by the flow in update sets. Rather than manually build update sets, consider transferring flows from one instance to another by using the application repository.
+    Missing [complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/complex-data.md) schemas can cause execution issues. Make sure you include sys\_complex\_object records generated by the flow in update sets. Rather than manually build update sets, consider transferring flows from one instance to another by using the application repository.
 
 -   **Call flows from a script when you need a custom trigger**
 
@@ -116,7 +116,7 @@ Any general guidelines that apply to flows also apply to [subflows](https://raw.
 
 -   **Turn flow reporting off in production**
 
-    Minimize the amount of memory required to run flows by disabling [Flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-flow-reporting.md). Flow reporting stores configuration and runtime information for the Execution Details page. These reports are good for troubleshooting, but requires a large amount of data to be retained both in memory and in the database. By default, flow reporting is disabled, and the system only generates execution details when you manually test a flow or action. Instead you can use log files, which are still available when reporting is turned off.
+    Minimize the amount of memory required to run flows by disabling [Flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/enable-flow-reporting.md). Flow reporting stores configuration and runtime information for the Execution Details page. These reports are good for troubleshooting, but requires a large amount of data to be retained both in memory and in the database. By default, flow reporting is disabled, and the system only generates execution details when you manually test a flow or action. Instead you can use log files, which are still available when reporting is turned off.
 
 -   **Reduce the amount of memory consumed in flows with nested looping**
 
@@ -125,7 +125,7 @@ Any general guidelines that apply to flows also apply to [subflows](https://raw.
 
 ## Subflows
 
-General guidelines that apply to [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md) also apply to subflows.
+General guidelines that apply to [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flows.md) also apply to subflows.
 
 Reasons to use a subflow instead of a flow include the following:
 
@@ -154,7 +154,7 @@ Reasons to use a subflow instead of a flow include the following:
     -   To configure parallel subflows, launch each subflow without a wait and then use wait for condition to wait for each subflow to be terminal \(complete, error, canceled\)
 -   **Use dynamic flows if you have multiple subflows with similar functionality**
 
-    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md) spokes.
+    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for IntegrationHub spokes.
 
 -   **Avoid the 10-item limit in the error-handling-process**
 
@@ -200,7 +200,7 @@ Follow these general guidelines when creating flows that wait for a condition.
 
 -   **Cancel flows whose resume conditions can never occur**
 
-    Prevent your flows from waiting indefinitely by specifying flow stop conditions with [End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-end-action.md). To free up system resources, you can also cancel any flow whose resume conditions can never be met. For example, cancel flows waiting for incident record updates where the related incident is closed.
+    Prevent your flows from waiting indefinitely by specifying flow stop conditions with [End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic-end-action.md). To free up system resources, you can also cancel any flow whose resume conditions can never be met. For example, cancel flows waiting for incident record updates where the related incident is closed.
 
 -   **Restrict wait conditions to fields present on the current table**
 
@@ -251,7 +251,7 @@ Follow these general guidelines when creating flows or subflows with stages.
 
 -   **Use dynamic flows if you have multiple subflows with similar functionality**
 
-    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md) spokes.
+    Dynamic flows let you compartmentalize your processes by applying a template to handle the inputs of multiple similar subflows. Compartmentalization lets you distinguish between subflows that perform similar functions, such as subflows for IntegrationHub spokes.
 
 -   **Ensure dynamically called subflow inputs match template flow inputs**
 
@@ -302,7 +302,7 @@ Follow these general guidelines when designing flows containing Password \(2 Way
 
 -   **Set up encryption modules for decryption**
 
-    Only users with a valid encryption module access can decrypt and view the contents of password2 variables. To specify the encryption algorithm and which roles can access encrypted data, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/password-2way-encrypted-fields.md) .
+    Only users with a valid encryption module access can decrypt and view the contents of password2 variables. To specify the encryption algorithm and which roles can access encrypted data, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/password-2way-encrypted-fields.md) .
 
 
 ## SLA Percentage Timer actions
@@ -323,14 +323,14 @@ Follow these general guidelines when creating flows that contain Service Level A
 
 -   **Copy existing flows to make customizations**
 
-    Reduce development time by copying the default SLA flows and customizing the copies with your own logic. Select a customized flow to run from the SLA definition. See [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAnSLADefinition.md) .
+    Reduce development time by copying the default SLA flows and customizing the copies with your own logic. Select a customized flow to run from the SLA definition. See [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CreateAnSLADefinition.md) .
 
 
 ## Dynamic inputs
 
 -   **Consider dynamic inputs for third-party integrations**
 
-    Dynamic inputs let you create flows that fetch data dynamically from external sources. In third-party integrations, dynamic inputs can provide data values that pertain to a particular endpoint. For more information on setting up third-party integrations with Workflow Studio, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md).
+    Dynamic inputs let you create flows that fetch data dynamically from external sources. In third-party integrations, dynamic inputs can provide data values that pertain to a particular endpoint. For more information on setting up third-party integrations with Workflow Studio, see IntegrationHub.
 
 -   **Be aware of the time required to retrieve large amounts of data**
 
@@ -355,7 +355,7 @@ Follow these general guidelines when creating flows that contain Service Level A
 
 -   **Use dynamic outputs for third-party integrations**
 
-    Use dynamic outputs to introspect and fetch data from external systems during the flow design. For example, you can specify service endpoints or call actions that interact with specific endpoint APIs. For more information on setting up third-party integrations with Workflow Studio, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md).
+    Use dynamic outputs to introspect and fetch data from external systems during the flow design. For example, you can specify service endpoints or call actions that interact with specific endpoint APIs. For more information on setting up third-party integrations with Workflow Studio, see IntegrationHub.
 
 -   **Note the time that is required to retrieve large amounts of data**
 
@@ -402,11 +402,11 @@ Follow these general guidelines when creating flows that contain Service Level A
 
 -   **View final transformed values in the flow execution details**
 
-    Only the final transformed value, and not the value for each applied transform, appears in the [flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+    Only the final transformed value, and not the value for each applied transform, appears in the [flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-execution-details.md).
 
 -   **Test transform functions to verify they produce expected results**
 
-    Make sure that your transform functions produce the expected runtime values for the data pills. For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md) and [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+    Make sure that your transform functions produce the expected runtime values for the data pills. For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-test.md) and [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/test-action.md).
 
 
 ## Inline scripts
@@ -423,7 +423,7 @@ Follow these general guidelines to create reusable and maintainable inline scrip
 
 -   **Call script includes from inline script**
 
-    Call a script include from your inline script to reduce the amount of code you write and also to maintain common code in a single location. Use the class constructor to call your script include. For more information about creating a script include, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+    Call a script include from your inline script to reduce the amount of code you write and also to maintain common code in a single location. Use the class constructor to call your script include. For more information about creating a script include, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
     ```
     var si = new MyScriptInclude();
@@ -597,7 +597,7 @@ Follow these general guidelines to achieve the benefits offered by action error 
 
 -   **Turn flow reporting off in production**
 
-    Minimize the amount of memory required to run flows by disabling [Flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-flow-reporting.md). Flow reporting stores configuration and runtime information for the Execution Details page. These reports are good for troubleshooting, but requires a large amount of data to be retained both in memory and in the database. By default, flow reporting is disabled, and the system only generates execution details when you manually test a flow or action. Instead you can use log files, which are still available when reporting is turned off.
+    Minimize the amount of memory required to run flows by disabling [Flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/enable-flow-reporting.md). Flow reporting stores configuration and runtime information for the Execution Details page. These reports are good for troubleshooting, but requires a large amount of data to be retained both in memory and in the database. By default, flow reporting is disabled, and the system only generates execution details when you manually test a flow or action. Instead you can use log files, which are still available when reporting is turned off.
 
 -   **Reduce the amount of memory consumed in flows with nested looping**
 
@@ -605,7 +605,7 @@ Follow these general guidelines to achieve the benefits offered by action error 
 
 -   **View final transformed values in the flow execution details**
 
-    Only the final transformed value appears in the [flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md), and not the value for each applied transform.
+    Only the final transformed value appears in the [flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-execution-details.md), and not the value for each applied transform.
 
 
 ## Flow Priority
@@ -633,7 +633,7 @@ Follow these design considerations when setting flow priority.
     Use the default flow priority when a flow has some time urgency when compared to other flows.
 
 
-**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-reference.md)
+**Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-designer-reference.md)
 
 **Related topics**  
 

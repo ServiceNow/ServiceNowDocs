@@ -3,11 +3,11 @@ title: Client software distribution extension keys
 description: Client software distribution \(CSD\) extension keys allow you to customize the deployment and revocation of software from distribution providers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_CSDExtensionKeys.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Client software distribution extension framework, Client Software Distribution, Orchestration applications, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -22,5 +22,5 @@ These pre-defined keys allow you to generate input variables for workflows that 
 -   **SetRevocationData**: Generates the input variables for the revocation workflow.
 -   **CheckRevocable**: Specifies the conditions that determine if an installation can be revoked. If the software configuration associated with the installed software allows uninstallation, the installed software can be revoked.
 
-**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_CSDExtensionFramework.md)
+**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_CSDExtensionFramework.md)
 

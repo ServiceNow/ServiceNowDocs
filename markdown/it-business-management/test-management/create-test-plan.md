@@ -3,11 +3,11 @@ title: Create a test plan using Test Board in Test Management 2.0
 description: Define how to test a product or feature by creating a test plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/create-test-plan.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test Board in Test Management 2.0, Testing using Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -105,5 +105,5 @@ Description of the test plan.
 </table>    **Note:** The Progress section displays the overall status of the test plan indicating the percentage of tests in the test plan that have passed, failed, or been blocked.
 
 
-**Parent Topic:**[Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-board.md)
+**Parent Topic:**[Test Board in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/test-board.md)
 

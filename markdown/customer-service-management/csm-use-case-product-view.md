@@ -3,9 +3,9 @@ title: Customer Service Management and the CSDM guidelines
 description: CSM enables you to provide service and support for your external customers through communication channels such as the web, email, chat, telephone, and social media. The goal of this use case is to understand how CSM key entities work with the core CSDM framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-use-case-product-view.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,9 +16,9 @@ CSM enables you to provide service and support for your external customers throu
 
 ## CSM use case
 
-CSM provides proactive customer service, decreases cost of service, and provides end-to-end visibility to both customer service and service delivery groups. For more information, see [Integrating with Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-spm-integration.md).
+CSM provides proactive customer service, decreases cost of service, and provides end-to-end visibility to both customer service and service delivery groups. For more information, see [Integrating with Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-spm-integration.md).
 
-For information on setting up the data, see [Configure foundation data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-foundation-data.md).
+For information on setting up the data, see [Configure foundation data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-csm-foundation-data.md).
 
 ## Results of the CSM use case
 
@@ -31,7 +31,7 @@ Understand the tables within the CSDM framework that are needed to support the f
 
 The following sections include details of the activities needed for the use case.
 
-See [Applying CSDM guidelines to your product — product views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-cases.md) for more information on Common Service Data Model use cases.
+See [Applying CSDM guidelines to your product — product views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/use-cases.md) for more information on Common Service Data Model use cases.
 
 ## CSM data model
 

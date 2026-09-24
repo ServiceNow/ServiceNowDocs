@@ -3,11 +3,11 @@ title: Configure Otto for Virtual Agent in ITSM
 description: Enable your requesters to have a streamlined, conversational experience that is based on generative AI as they submit a catalog item request in Virtual Agent. By offering this generative AI experience, your organization can provide an additional self-service tool.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/config-genai-va-itsm.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -23,8 +23,8 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 Detect and mask sensitive data using the Sensitive Data Handler so it is not viewed by the agent or requester. For more information, see:
 
--   [Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-sensitive-data-overview.md)
--   [Configuring Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-sensitive-data-handling.md)
+-   [Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-sensitive-data-overview.md)
+-   [\(Legacy\) Configuring sensitive data handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-configure-sensitive-data-handling.md)
 
 ## About this task
 
@@ -52,11 +52,11 @@ Although the following catalog item question types are supported in the conversa
 
 |Feature|Topic Reference|
 |-------|---------------|
-|Upload file formats such as text, PDF, Word \(.doc, .docx\) and image files such as JPEG and PNG.|[Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/upload-documents-na-va.md).|
-|Combine AI Search with generative AI chat skills to speed up issue resolution and reduce deflection to a live agent using ServiceNow Otto for ITSM in Virtual Agent.|[Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md)|
-|Use the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of AI in Virtual Agent, AI agents, and generative AI skills using Knowledge Graph.|[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph-landing.md)|
-|Define crawl settings for external content connectors to crawl source systems and send it to AI Search for indexing.|[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ext-cont-connectors.md)|
-|Monitor your device's performance and diagnose potential issues.|[Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md)|
+|Upload file formats such as text, PDF, Word \(.doc, .docx\) and image files such as JPEG and PNG.|[Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/upload-documents-na-va.md).|
+|Combine AI Search with generative AI chat skills to speed up issue resolution and reduce deflection to a live agent using ServiceNow Otto for ITSM in Virtual Agent.|[Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-enhanced-chat.md)|
+|Use the structured and unstructured data from ServiceNow records, knowledge bases, and external sources to enhance the performance of AI in Virtual Agent, AI agents, and generative AI skills using Knowledge Graph.|[Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph-landing.md)|
+|Define crawl settings for external content connectors to crawl source systems and send it to AI Search for indexing.|[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-ext-cont-connectors.md)|
+|Monitor your device's performance and diagnose potential issues.|[Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/check-your-device-s-health-using-now-assist-for-itsm.md)|
 
 ## Procedure
 
@@ -64,7 +64,7 @@ Although the following catalog item question types are supported in the conversa
 
 2.  Set up Otto for Virtual Agent.
 
-    For more information on how to turn on the skills and set up generative AI for Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+    For more information on how to turn on the skills and set up generative AI for Virtual Agent, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
     **Note:**
 

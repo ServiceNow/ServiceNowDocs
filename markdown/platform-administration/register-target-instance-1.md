@@ -3,9 +3,9 @@ title: Credentials error
 description: Troubleshoot a credentials error that occurs while registering a target instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/register-target-instance-1.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Troubleshooting for registering target instance, Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -29,5 +29,5 @@ For instances on earlier releases, the target instance credentials must exist in
 -   Provide credentials for the target instance for a user with the admin role.
 -   If using OAuth authentication, verify that the OAuth configuration is correct and that the OAuth provider is accessible from both instances.
 
-**Parent Topic:**[Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-troubleshooting.md)
+**Parent Topic:**[Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/register-target-instance-troubleshooting.md)
 

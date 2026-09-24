@@ -3,13 +3,13 @@ title: Roles required for Advanced planning capability
 description: The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement, and provides planning features that could be used for resource planning, cost planning, and so on, from the engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Audit Management reference, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Reference, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Roles required for Advanced planning capability
@@ -38,7 +38,7 @@ Resource Planning
 
 </td><td>
 
-As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace. For more information, refer to [Create and manage resource plans for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/manage-resources-for-project.md)
+As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace. For more information, refer to [Create and manage resource plans for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/manage-resources-for-project.md)
 
 </td><td>
 
@@ -51,7 +51,7 @@ Cost Planning
 
 </td><td>
 
-Project cost plans capture the costs of projects. Create a cost plan to specify the unit cost of a cost type for a fiscal period. For more information, refer to [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateAProjectCostPlan.md)
+Project cost plans capture the costs of projects. Create a cost plan to specify the unit cost of a cost type for a fiscal period. For more information, refer to [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_CreateAProjectCostPlan.md)
 
 </td><td>
 
@@ -70,7 +70,7 @@ Resource allocations
 
 After resource requesters create a resource plan, resource managers can confirm the resources to move the plan to the Confirmed state. Resource managers can then allocate resources to the plan and move it to the Allocated state.
 
- Based on calendar and schedule information, resource managers view resource availability and select the resources under their management that can be confirmed and allocated to specific tasks. For more information, refer to [Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_AllocatingResources.md)
+ Based on calendar and schedule information, resource managers view resource availability and select the resources under their management that can be confirmed and allocated to specific tasks. For more information, refer to [Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/r_AllocatingResources.md)
 
 </td><td>
 
@@ -83,20 +83,20 @@ Time card reporting
 
 </td><td>
 
-You can log hours in a time card for an engagement and other tasks on an engagement. If there is a project associated with an engagement, then the actual expenses and actual resources values roll up. To create a time card, see [Create a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateATimeCard.md).
+You can log hours in a time card for an engagement and other tasks on an engagement. If there is a project associated with an engagement, then the actual expenses and actual resources values roll up. To create a time card, see [Create a time card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_CreateATimeCard.md).
 
 </td><td>
 
 -   Users need timecard\_user role to create a time card.
--   Users who already have access to the engagement, audit tasks, milestones, and issues can view all time cards if they have the sn\_ppm\_read, timecard\_approver, or timecard\_admin role.
--   Users with the timecard\_user role can view only the time cards they reported on engagements, audit tasks, milestones, and issues they can access.
+-   Users who already have access to the engagement, audit tasks, milestones, and issues can view all time cards on these items. They must also have sn\_ppm\_read or timecard\_approver or timecard\_admin roles.
+-   Users who already have access to the engagement, audit tasks, milestones, and issues and also have the timecard\_user role can view only their own time cards. They can view time cards they reported on the engagement, audit tasks, milestones, and issues.
 -   Users need timecard\_approver role to approve a submitted time card. The time sheet policy assigned to the user governs the approval process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-reference.md)
+</table>**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/audit-management-reference.md)
 
 **Related topics**  
 
 
-[Roles required for Engagement project planning for Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/Engagement-project-roles-ppm.md)
+[Roles required for Engagement project planning for Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/Engagement-project-roles-ppm.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Modify important actions on the Home view of CMDB Workspace
-description: Modify the appearance order and other properties of the important action cards that appear on the Home view of the CMDB Workspace.
+title: Modify important actions on the Governance view of CMDB Workspace
+description: Modify the appearance order and other properties of the important action cards that appear on the Governance view of the CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-edit-imp-action.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Modify important actions on the Home view of CMDB Workspace
+# Modify important actions on the Governance view of CMDB Workspace
 
-Modify the appearance order and other properties of the important action cards that appear on the Home view of the CMDB Workspace.
+Modify the appearance order and other properties of the important action cards that appear on the Governance view of the CMDB Workspace.
 
 ## Before you begin
 
@@ -116,5 +116,5 @@ Attribute to group by the card's associated tasks in the card's list view. The c
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

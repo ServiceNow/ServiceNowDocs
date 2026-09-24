@@ -3,11 +3,11 @@ title: Set up log streaming via ITOM Gateway for Health Log Analytics
 description: Set up log streaming via ITOM Gateway to enable Health Log Analytics \(HLA\) to receive log data directly from external sources without a MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-midless-streaming-setup.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [MID-less log streaming via ITOM Gateway, MID-less integrations, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -18,11 +18,11 @@ Set up log streaming via ITOM Gateway to enable Health Log Analytics \(HLA\) to 
 
 ## Before you begin
 
--   Review the [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md) documentation.
+-   Review the [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md) documentation.
 -   Verify that Health Log Analytics version 36.0.19 or higher is installed on your instance.
 -   Verify that HLA provisioning is complete. Confirm that the AI Engine and Elasticsearch show green status at: `https://<instance>.service-now.com/xmlstats.do?include=services_status`.
 -   Verify that ITOM Cloud Services Core is installed on your instance.
--   Verify that a JWT provider and token are configured on your instance. For more information, see [Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md).
+-   Verify that a JWT provider and token are configured on your instance. For more information, see [Configure a JWT provider and token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-jwt-token-config.md).
 -   \(High-volume deployments only\) If you expect 30,000 or more log events per second, contact ServiceNow Support to request infrastructure scaling. Proceed to the log streaming via ITOM Gateway setup procedure only after ServiceNow confirms that scaling is complete.
 
     Provide the following information:
@@ -40,11 +40,13 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Log streaming via ITOM Gateway removes the MID Server from the log ingestion path. External log sources send data directly to the ITOM Gateway, which routes it through the  Hermes  Messaging Service to the HLA AI Engine. For more information, see [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md).
+Log streaming via ITOM Gateway removes the MID Server from the log ingestion path. External log sources send data directly to the ITOM Gateway, which routes it through the  Hermes  Messaging Service to the HLA AI Engine. For more information, see [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md).
 
 Setup involves two stages: enabling ITOM Gateway and Hermes on your instance, and creating an integration from Integrations Launchpad.
 
-Supported log sources include [AWS Firehose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-firehose.md), Cribl Stream, and OpenTelemetry Collector.
+Supported log sources include [AWS Firehose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/il-connector-hla-firehose.md), Cribl Stream, and OpenTelemetry Collector.
+
+For more information about connecting a Cribl Stream instance to the ServiceNow ITOM Gateway, see the [Set up Cribl to send data to HLA without a MID server](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2271238) \[KB2271238\] article in the Now Support knowledge base.
 
 ## Procedure
 
@@ -66,12 +68,12 @@ Supported log sources include [AWS Firehose](https://raw.githubusercontent.com/S
 
 2.  Set up the integration from Integrations Launchpad.
 
-    For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
+    For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
 
 3.  On the **Overview** tab of the integration, confirm that the ITOM Gateway URL, Integration ID, and Token values are populated.
 
     If these values appear, log streaming via ITOM Gateway setup is complete.
 
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md)
 

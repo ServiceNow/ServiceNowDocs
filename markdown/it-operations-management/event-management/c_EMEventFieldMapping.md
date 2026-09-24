@@ -3,11 +3,11 @@ title: Event field mapping configuration
 description: Use Event field mappings rules to map values from specific fields to values in other fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/c\_EMEventFieldMapping.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -32,10 +32,8 @@ Event Management provides default event field mappings for commonly used system 
 
 You can view the default event field mappings and mapping pairs by navigating to **Event Management** &gt; **Rules** &gt; **Event Field Mappings** and double-clicking **Name**.
 
-For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better team support. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
-
--   **[Create event field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateEventFieldMapping2.md)**  
+-   **[Create event field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateEventFieldMapping2.md)**  
 Use event field mappings to map values from specific event fields to values in other fields to provide more comprehensive information in an alert. Use team-based integrations in event rules to make sure that connector ownership and execution of rules give precedence to global rules. Teams can maintain consistency and hierarchy while offering flexibility and customization options.
 
-**Parent Topic:**[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md)
+**Parent Topic:**[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EM.md)
 

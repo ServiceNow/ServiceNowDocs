@@ -3,11 +3,11 @@ title: Copy automated test
 description: Copy an existing test, which you can then re-name and modify.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-copy-test.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -36,8 +36,8 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 6.  When you are finished making changes, click **Update**.
 
-    **Note:** Scope management in ATF tests helps identify and restrict copying of tests in other scopes. If you want to copy a test, you must be in the same scope as the test. See [Application Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) for more information.
+    **Note:** Scope management in ATF tests helps identify and restrict copying of tests in other scopes. If you want to copy a test, you must be in the same scope as the test. See [Application Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md) for more information.
 
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
 

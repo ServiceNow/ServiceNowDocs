@@ -3,9 +3,9 @@ title: Create a customer success choice record
 description: Create a Customer Success Choice record to define a value for a dropdown or lookup field in the Customer Success Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-ale-choice.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Getting started, Customer success, Configure, Customer Success Management]
 ---
@@ -33,7 +33,7 @@ These will appear as choices in the Service bridge integration field on the Acco
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the List icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the List icon.
 
 2.  Navigate to the **Customer Success** &gt; **Customer Success Choice** and select **New**.
 
@@ -90,5 +90,5 @@ Description of the choice.
     The choice record is available as a value in the field associated with the selected category.
 
 
-**Parent Topic:**[Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-basic-config.md)
+**Parent Topic:**[Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-basic-config.md)
 

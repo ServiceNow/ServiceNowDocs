@@ -3,11 +3,11 @@ title: UI Action API - ServiceNow Fluent
 description: The UI Action API defines custom user interface \(UI\) actions \[sys\_ui\_action\], such as buttons, links, and context menu items on forms and lists.Create a UI action \[sys\_ui\_action\] to display on a form.Configure how a UI action appears on a form.Configure how a UI action appears on the list view.Configure options to execute the UI action script in the browser.Configure how a UI action functions and appears in workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/fluent-ui-action-api.html
-release: australia
+release: brazil
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -18,14 +18,14 @@ The UI Action API defines custom user interface \(UI\) actions \[sys\_ui\_action
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about UI actions, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
+For general information about UI actions, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_EditingAUIAction.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-fluent.md)
 
 ## UiAction object
 
@@ -53,7 +53,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Object
 
 </td><td>
 
-Options for how UI actions appear on forms. For more information, see [form object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-ui-action-api.md).
+Options for how UI actions appear on forms. For more information, see [form object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-ui-action-api.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Object
 
 </td><td>
 
-Options for how UI actions appear on the list view. For more information, see [list object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-ui-action-api.md).
+Options for how UI actions appear on the list view. For more information, see [list object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-ui-action-api.md).
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Object
 
 </td><td>
 
-Options to execute the script in the browser. For more information, see [client object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-ui-action-api.md).
+Options to execute the script in the browser. For more information, see [client object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-ui-action-api.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Object
 
 </td><td>
 
-Options for how UI actions function and appear in workspaces. For more information, see [workspace object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-ui-action-api.md).
+Options for how UI actions function and appear in workspaces. For more information, see [workspace object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-ui-action-api.md).
 
 </td></tr><tr><td>
 
@@ -255,7 +255,7 @@ A JavaScript conditional statement that specifies the fields and values that mus
 
 Format:
 
--   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).
+-   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).
 -   To provide an inline script, use string literals or template literals for multiple lines of code: `'Script' or `Script``.
 
 </td></tr><tr><td>
@@ -270,7 +270,7 @@ Script
 
 A client-side or server-side script that runs when the UI action is executed. Function names must be unique. This property supports inline JavaScript or a reference to another file in the application that contains a script.Format:
 
--   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).
+-   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).
 -   To provide an inline script, use string literals or template literals for multiple lines of code: `'Script' or `Script``.
 
 </td></tr><tr><td>
@@ -295,7 +295,7 @@ String
 
 </td><td>
 
-Text strings that the UI action can use as a key to look up a localized message alternative from the Message \[sys\_ui\_message\] table. Each message key is on a separate line in the Messages field. The instance looks for a localized message string anytime the UI action makes a getmessage\('\[message\]'\) call where the message string matches a key in the Messages field. For more information, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TranslateAClientScriptMessage.md).
+Text strings that the UI action can use as a key to look up a localized message alternative from the Message \[sys\_ui\_message\] table. Each message key is on a separate line in the Messages field. The instance looks for a localized message string anytime the UI action makes a getmessage\('\[message\]'\) call where the message string matches a key in the Messages field. For more information, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_TranslateAClientScriptMessage.md).
 
 </td></tr><tr><td>
 
@@ -348,7 +348,7 @@ Array
 
 </td><td>
 
-A list of variable identifiers of Role objects or names of roles required for the UI action to apply. For more information, see [Role API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/role-api-now-ts.md).
+A list of variable identifiers of Role objects or names of roles required for the UI action to apply. For more information, see [Role API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/role-api-now-ts.md).
 
 </td></tr><tr><td>
 
@@ -941,7 +941,7 @@ String
 
 A script that runs when the UI action is executed in workspaces. This property supports inline JavaScript or a reference to another file in the application that contains a script.Format:
 
--   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).
+-   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).
 -   To provide an inline script, use string literals or template literals for multiple lines of code: `'Script' or `Script``.
 
 </td></tr><tr><td>

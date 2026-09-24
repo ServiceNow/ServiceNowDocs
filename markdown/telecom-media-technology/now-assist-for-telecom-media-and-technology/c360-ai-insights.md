@@ -3,11 +3,11 @@ title: Generate Telecom customer 360 insights
 description: Generate customer health insights and recent customer issue insights for a customer or consumer account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/c360-ai-insights.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -18,7 +18,7 @@ Generate customer health insights and recent customer issue insights for a custo
 
 **Note:** This skill is available only if Telecommunications Customer 360 is installed and requires the `sn_telecom_c360.admin` role.
 
-The Generate Telecom Customer 360 Insights skill is enabled by default and automatically generates AI-powered insights for a customer or consumer account when you navigate to the [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md). This skill triggers the following two sub-skills in parallel:
+The Generate Telecom Customer 360 Insights skill is enabled by default and automatically generates AI-powered insights for a customer or consumer account when you navigate to the [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-home-page.md). This skill triggers the following two sub-skills in parallel:
 
 -   Telecom C360 customer health insights: This skill analyzes customer sentiment from recently closed cases and service problems to assess relationship health. It provides sentiment classification, trend analysis, and lists analyzed cases, with an extensible data provider that allows customers to incorporate custom sentiment data sources.
 -   Telecom C360 top customer issue insights: This skill analyzes recent open cases, service problem cases, and customer interactions to provide insights on top customer issues. It helps agents quickly understand a customer's current issues and prioritize resolution efforts. Works at both consumer and account levels.
@@ -30,7 +30,7 @@ The skill uses the following data sources to generate insights:
 -   Interactions
 -   Sentiment data
 
-The insights are automatically displayed when a customer or consumer account is opened. See [Insights card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-insights-card.md) for details.
+The insights are automatically displayed when a customer or consumer account is opened. See [Insights card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-insights-card.md) for details.
 
 ## Customize data sources
 
@@ -39,7 +39,7 @@ The skill uses the CustomerInsightsDataProvider scripted extension point to retr
 -   CustomerHealthDataProvider: Retrieves cases, interactions, and sentiment data to generate customer health insights.
 -   RecentCustomerIssuesData Provider: Retrieves cases and service problem cases to generate recent customer issue insights.
 
-You can modify the existing implementation to retrieve data from additional sources or create your custom implementation. For more details on configuring extension points, see .
+You can modify the existing implementation to retrieve data from additional sources or create your custom implementation. For more details on configuring extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/extension-points.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

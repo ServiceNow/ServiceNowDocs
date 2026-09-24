@@ -3,7 +3,7 @@ title: Track a store plan on the workspace
 description: Enable plan creators to track published plan execution end-to-end, overall completion status, parent \(HQ\) cases, HQ tasks, store cases, and store tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/track-hq-case.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-04-07"
 reading_time_minutes: 1
@@ -49,5 +49,5 @@ Provide the ability to  view, filter, and close cases , and access cases con
 9.  Open a Store Task record from the **Store Tasks** related list to view task details.
 
 
-**Parent Topic:**[Track and monitor store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/track-monitor-store-plans.md)
+**Parent Topic:**[Track and monitor store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/track-monitor-store-plans.md)
 

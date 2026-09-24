@@ -3,13 +3,13 @@ title: Extend a resource assignment
 description: Extend the date of an allocated resource assignment and allocate resources for the extended period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/extend-resource-assignment-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Extend a resource assignment
@@ -32,15 +32,15 @@ For example, assume that you allocated 100 hours for 2 months, 50 hours for each
 
 2.  Extend the resource assignment using one of the following options.
 
-<table id="choicetable_t2q_fkv_1fc"><thead><tr><th align="left" id="d300720e77">
+<table id="choicetable_t2q_fkv_1fc"><thead><tr><th align="left" id="d302315e77">
 
 Option
 
-</th><th align="left" id="d300720e80">
+</th><th align="left" id="d302315e80">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d300720e86">
+</th></tr></thead><tbody><tr><td id="d302315e86">
 
 **From resource assignment pane**
 
@@ -51,13 +51,13 @@ Procedure
 3.  Select **Extend** to extend the resource assignment.
 
 
-</td></tr><tr><td id="d300720e127">
+</td></tr><tr><td id="d302315e127">
 
 **From resource assignment form**
 
 </td><td>
 
-1.  Navigate to **All** and enter enter `sn_plng_att_core_resource_assignment.LIST`.
+1.  Navigate to **All** and enter `sn_plng_att_core_resource_assignment.LIST`.
 2.  Select the resource assignment record you want to extend and then select **Extend**. \[Omitted image "extend-resource-assignment-form-view.png"\] Alt text: Extend resource assignment from resource assignment form.
 
 **Note:** You can’t set the assignment's extended end date later than the task end date.
@@ -72,20 +72,20 @@ Procedure
 -   The assignment end date is updated and allocation is created based on resource's availability.
 -   The extended FTE or person days is divided equally for the extended resource period. For the **Hours** effort type, the extended effort is distributed in whole hours across the child resource assignments, and any remaining hours are distributed one hour at a time.
 
-**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
 
 **Related topics**  
 
 
-[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
+[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
 
-[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md)
+[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md)
 
-[Update resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-resource-assignment-pw.md)
+[Update resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/update-resource-assignment-pw.md)
 
-[Delete a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/delete-resource-assignment-pw.md)
+[Delete a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/delete-resource-assignment-pw.md)
 
-[Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)
+[Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)
 
-[Realign resource assignments with project dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/realign-resource-assignment-to-task.md)
+[Realign resource assignment to project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/realign-resource-assignment-to-task.md)
 

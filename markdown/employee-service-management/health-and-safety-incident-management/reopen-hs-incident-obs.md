@@ -3,11 +3,11 @@ title: Reopen a safety incident or observation
 description: If a safety incident or observation requires further investigation after it was closed or canceled, you can reopen it to work on it again.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/reopen-hs-incident-obs.html
-release: australia
+release: brazil
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage incidents and observations, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -41,5 +41,5 @@ The safety incident or observation is reopened.
 
 Work on the safety incident or observation to complete it.
 
-**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
+**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

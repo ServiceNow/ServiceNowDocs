@@ -3,11 +3,11 @@ title: Filter alarms for LogRhythm
 description: Setting filtering criteria for alarms after you have mapped fields helps you determine which alarms should be ingested into the SIR application. Filtering alarms helps you significantly reduce the number of alarms you ingest when the alarm profile is activated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/filter-alarms-logrhythm.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create an alarm profile, LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -42,15 +42,15 @@ Use the filtering conditions at the bottom of the mapping form to filter out spe
 
 4.  After you have verified that all critical LogRhythm alarm fields are mapped to the ServiceNow AI Platform security incident, and you have set filtering criteria to limit alarm ingestion, choose one to continue the configuration.
 
-<table id="choicetable_r4p_krl_f2b"><thead><tr><th align="left" id="d97449e135">
+<table id="choicetable_r4p_krl_f2b"><thead><tr><th align="left" id="d97525e135">
 
 Option
 
-</th><th align="left" id="d97449e138">
+</th><th align="left" id="d97525e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d97449e144">
+</th></tr></thead><tbody><tr><td id="d97525e144">
 
 **Continue or Preview**
 
@@ -58,7 +58,7 @@ Description
 
 The Preview form of the security incident with your mapping configuration is displayed.**Preview** is selected on the progress bar. The next step is to view the security incident with your mapped alarms.
 
-</td></tr><tr><td id="d97449e158">
+</td></tr><tr><td id="d97525e158">
 
 **Update**
 
@@ -66,7 +66,7 @@ The Preview form of the security incident with your mapping configuration is dis
 
 Save your data and return to the **Alarm Profiles** list.
 
-</td></tr><tr><td id="d97449e170">
+</td></tr><tr><td id="d97525e170">
 
 **Previous**
 
@@ -74,7 +74,7 @@ Save your data and return to the **Alarm Profiles** list.
 
 The alarm profile record is displayed.
 
-</td></tr><tr><td id="d97449e179">
+</td></tr><tr><td id="d97525e179">
 
 **Delete**
 
@@ -86,7 +86,7 @@ Delete this alarm profile and the **Alarm Profiles** list is displayed.
 </table>
 ## What to do next
 
-The next step is to preview your mapped fields on the security incident. See [Previewing the security incident with mapped LogRhythm alarm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/preview-si-logrhythm.md).
+The next step is to preview your mapped fields on the security incident. See [Previewing the security incident with mapped LogRhythm alarm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/preview-si-logrhythm.md).
 
-**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
+**Parent Topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

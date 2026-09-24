@@ -3,9 +3,9 @@ title: Incident service and category prediction and the L1 IT Service Desk AI Sp
 description: The incident service and category prediction capability is used by the L1 IT Service Desk AI Specialist to effectively triage, categorize and resolve incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/inc-prediction-l1-sd-ai-spec.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

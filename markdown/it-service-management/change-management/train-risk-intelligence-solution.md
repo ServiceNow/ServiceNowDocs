@@ -3,11 +3,11 @@ title: Train the Risk Intelligence solution
 description: Create Risk categorization or similarity solution definitions to use the predictive intelligence that helps in accessing change risk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/train-risk-intelligence-solution.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Predictive Intelligence for Change Management, Configure, Change Management, IT Service Management]
 ---
@@ -32,10 +32,10 @@ Role required: admin
     -   If the **Solution type** is `Classification`, you can see the default, **Change Risk** solution.
 3.  Customize the default solution.
 
-    For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md) and [Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-solution-definition.md).
+    For more information, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-similarity-solution.md) and [Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-solution-definition.md).
 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-mgmt-intelligent-solutions.md)
+**Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-mgmt-intelligent-solutions.md)
 

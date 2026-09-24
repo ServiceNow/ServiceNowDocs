@@ -3,12 +3,12 @@ title: Manage Shift Handover records
 description: Use the Shift Handover records list view to create, edit, copy, or delete Shift Handover records. Each Shift Handover record is associated with a Shift Handover Report Template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manage-shift-handover-records.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [List view in SIR Workspace, Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -27,7 +27,7 @@ Role required:
 -   sn\_si.admin - Inherits the sn\_escm\_sh.shift\_admin role.
 -   sn\_escm\_sh.shift\_admin - Inherits the sn\_escm\_sh.shift\_owner role
 
-**Important:** To learn how to configure the Shift Handover Template as an Admin, see [Configure Shift Handover Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-shift-handover-templates.md).
+**Important:** To learn how to configure the Shift Handover Template as an Admin, see [Configure Shift Handover Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-shift-handover-templates.md).
 
 ## About this task
 
@@ -192,7 +192,7 @@ The shift name containing the shift start and shift end details. For example, US
     3.  To delete an existing Shift Handover record, select the record and select the **Delete** action.
 
 
-**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 

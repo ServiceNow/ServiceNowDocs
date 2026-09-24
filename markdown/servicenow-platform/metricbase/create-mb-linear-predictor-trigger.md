@@ -3,11 +3,11 @@ title: Create a MetricBase linear predictor trigger
 description: Create a MetricBase linear predictor trigger to detect when a metric is likely to cross a specified threshold within a specified period of time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/create-mb-linear-predictor-trigger.html
-release: australia
+release: brazil
 product: MetricBase
 classification: metricbase
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Trigger flows, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -92,7 +92,7 @@ Window
 
 </td><td>
 
-Length of time used to calculate the line that predicts the future course of the value. For example, you might want to use the last 10 minutes of data to calculate the linear predictor. If the value is too long, the line does not reflect current trends. If the value is too short, the line might follow the raw values too closely and not accurately reflect the overall trend of the values. The value must be at least 10 times the sampling period that is defined by the sampling rate of your **Metric**. **Warning:** Do not confuse this value with the **Window** value in the [trigger level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/create-mb-linear-predictor-trigger.md). That value specifies how far into the future that you want the linear predictor to look to see if the **Metric** is likely to cross the **Threshold**.
+Length of time used to calculate the line that predicts the future course of the value. For example, you might want to use the last 10 minutes of data to calculate the linear predictor. If the value is too long, the line does not reflect current trends. If the value is too short, the line might follow the raw values too closely and not accurately reflect the overall trend of the values. The value must be at least 10 times the sampling period that is defined by the sampling rate of your **Metric**. **Warning:** Do not confuse this value with the **Window** value in the [trigger level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/create-mb-linear-predictor-trigger.md). That value specifies how far into the future that you want the linear predictor to look to see if the **Metric** is likely to cross the **Threshold**.
 
 </td></tr><tr><td>
 
@@ -155,7 +155,7 @@ Battery is predicted to reach 20% in 30 minutes.
 
 Battery is predicted to reach 20% in 5 minutes.
 
- **Level** is often used in Condition Scripts. See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/create-action-condition.md).
+ **Level** is often used in Condition Scripts. See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/create-action-condition.md).
 
 </td></tr><tr><td>
 
@@ -171,7 +171,7 @@ Window
 
 </td><td>
 
-How far into the future that you want the linear predictor to look to see if the metric is predicted to cross the threshold. **Warning:** Do not confuse this value with the **Window** value in the [trigger definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/create-mb-linear-predictor-trigger.md). That value specifies how much data to use \(measured in time\) to calculate the slope of the predictor line.
+How far into the future that you want the linear predictor to look to see if the metric is predicted to cross the threshold. **Warning:** Do not confuse this value with the **Window** value in the [trigger definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/create-mb-linear-predictor-trigger.md). That value specifies how much data to use \(measured in time\) to calculate the slope of the predictor line.
 
 </td></tr></tbody>
 </table>7.  Add rows to the table to create multi-layered triggering behavior.
@@ -182,7 +182,7 @@ How far into the future that you want the linear predictor to look to see if the
 
 9.  Add a triggering condition that determines whether a trigger executes a Workflow Studio flow.
 
-    See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/create-action-condition.md).
+    See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/create-action-condition.md).
 
 
 ## Linear Predictor form
@@ -191,5 +191,5 @@ How far into the future that you want the linear predictor to look to see if the
 
 ## What to do next
 
-Associate this trigger with a Workflow Studio flow. For more information, see [Assign a trigger to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/assign-trigger-to-workflow.md).
+Associate this trigger with a Workflow Studio flow. For more information, see [Assign a trigger to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/assign-trigger-to-workflow.md).
 

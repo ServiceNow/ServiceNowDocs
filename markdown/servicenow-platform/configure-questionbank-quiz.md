@@ -3,9 +3,9 @@ title: Configure metric categories or metrics for a quiz using the question bank
 description: Reuse question categories \(metric categories\) and questions \(metrics\) from the Question Bank module while creating or updating a quiz.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-questionbank-quiz.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Add a metric category and metric in the question bank for quizzes, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -83,5 +83,5 @@ Role required: admin or assessment\_admin
     -   When you drag and drop a parent metric, all dependent questions are also added to the metric category.
     -   When you drag and drop a child metric, only the child question is added to the metric category.
 
-**Parent Topic:**[Add a metric category and metric in the question bank for quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-questionbank-quiz.md)
+**Parent Topic:**[Add a metric category and metric in the question bank for quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/add-questionbank-quiz.md)
 

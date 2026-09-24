@@ -3,13 +3,13 @@ title: Record time worked on a Drop off task or Receive task manually
 description: Create an entry for the time worked on a Drop off or a Receive task manually in the Enterprise Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/record-time-manual-drop-receive.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Record time worked on Drop off and Receive tasks, Delivering enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Record time worked on Drop off and Receive tasks, Delivering enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Record time worked on a Drop off task or Receive task manually
@@ -50,7 +50,7 @@ Role required:
 
 The Time Worked form is saved and the time card is added to the Time Worked tab of the task.
 
-**Parent Topic:**[Record time worked on Drop off and Receive tasks for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-time-drop-receive.md)
+**Parent Topic:**[Record time worked on Drop off and Receive tasks for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/record-time-drop-receive.md)
 
 **Related topics**  
 

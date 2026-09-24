@@ -3,11 +3,11 @@ title: Fix the data that caused a validation failure
 description: When a policy that executes against a deployable snapshot fails or generates an error or warning, the policy identifies the offending CDI and the reason for the failure. While working in a changeset, you can use the Validation failures panel to navigate directly to the offending CDI so you can correct the issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-validation-failure-fix.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ When a policy that executes against a deployable snapshot fails or generates an 
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: sn\_devops\_config.admin
 

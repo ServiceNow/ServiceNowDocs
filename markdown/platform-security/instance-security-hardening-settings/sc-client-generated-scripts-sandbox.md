@@ -3,12 +3,12 @@ title: Enable script sandbox \[Updated in Security Center 1.3\]
 description: Use the glide.script.use.sandbox property to enable script sandboxing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-client-generated-scripts-sandbox.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
@@ -42,7 +42,7 @@ If you enable the script sandbox, the script being evaluated at either of these 
 -   Certain API calls \(largely, but not entirely, limited to ones dealing with direct DB access are not allowed.\)
 -   You can't insert, update, or delete data from within the sandbox. For example, any calls to `current.update()`, are ignored. If you run the ServiceNow AI Platform without enabling script sandboxing, none of these restrictions apply.
 
-**Note:** Beginning with the Xanadu release, script includes marked as **Glide AJAX enabled** \(previously named **Client callable**\) aren’t accessible within the sandbox. Only those marked **Sandbox enabled** are available within the sandbox. When upgrading to the Australia release from the Washington DC release or earlier, any script includes marked as **Client callable** are also marked as **Sandbox enabled**.
+**Note:** Beginning with the Xanadu release, script includes marked as **Glide AJAX enabled** \(previously named **Client callable**\) aren’t accessible within the sandbox. Only those marked **Sandbox enabled** are available within the sandbox. When upgrading to the Brazil release from the Washington DC release or earlier, any script includes marked as **Client callable** are also marked as **Sandbox enabled**.
 
 ## More information
 
@@ -76,7 +76,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -134,11 +134,11 @@ References
 
  **glide.script.use.sandbox** belongs to the same family of properties that secure and restrict execution of scripts originating from the client:
 
--   **glide.script.allow.ajaxevaluate**: See [Disable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md).
--   **glide.script.secure.ajaxgliderecord**: See [Require AJAXGlideRecord ACL checking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.md).
+-   **glide.script.allow.ajaxevaluate**: See [Disable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md).
+-   **glide.script.secure.ajaxgliderecord**: See [Require AJAXGlideRecord ACL checking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.md).
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

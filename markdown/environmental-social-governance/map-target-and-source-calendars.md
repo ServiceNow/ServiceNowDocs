@@ -3,9 +3,9 @@ title: Map target and source calendars
 description: Map target calendars with source calendars to establish the data roll up hierarchy. You can create multiple calendar mappings depending on your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/map-target-and-source-calendars.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create fiscal calendars, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -44,5 +44,5 @@ Role required: sn\_grc\_metric.admin
 
 The metric calendars with the frequencies annually, semi-annually, and quarterly are generated.
 
-**Parent Topic:**[Create fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/enable-custom-fiscal-year.md)
+**Parent Topic:**[Create fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/enable-custom-fiscal-year.md)
 

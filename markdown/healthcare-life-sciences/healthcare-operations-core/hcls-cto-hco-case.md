@@ -3,11 +3,11 @@ title: Healthcare Operations Case overview
 description: The Healthcare Operations Case \[sn\_hco\_case\] enables streamlined support for operational healthcare use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-hco-case.html
-release: australia
+release: brazil
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -24,5 +24,5 @@ The Healthcare Operations Case type enables streamlined support for operational 
 
 By associating these cases with healthcare organizations, care team members can view all cases created for their team, unit, or healthcare organization.
 
-For information on configuring the Healthcare Operations Case for your operational use cases, see [Configuring Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configuring.md).
+For information on configuring the Healthcare Operations Case for your operational use cases, see [Configuring Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configuring.md).
 

@@ -3,9 +3,9 @@ title: Create a success blueprint from a template
 description: Create a success blueprint from a template to add success objectives and outcomes to an engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-blueprint.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Navigate to the **Customer Success Management** &gt; **All Engagements** and open an engagement record.
 
@@ -65,7 +65,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
     -   If you're adding more than one objective, you must save the details for each objective before moving on to the next one.
 11. Select **Create** to create the success blueprint.
 
-    The success blueprint appears on the Success blueprint page on the Engagement page. See [Success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-engage.md) for details.
+    The success blueprint appears on the Success blueprint page on the Engagement page. See [Success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-view-engage.md) for details.
 
 12. Select the **View initiative roadmap**.
 
@@ -78,8 +78,8 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
     -   Add objectives: Select and add any optional objectives to add to your success blueprint. Select the objective to be added, select **Next**. Use the **Toggle** option to select any of the optional outcomes and enter other required details. Select **Save Objective** and then select **Create** to add the objective along with the outcome to the success blueprint.
     -   Add outcomes: Select any optional outcomes to add to your success blueprint.
-14. Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the [Success objective record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-success-object.md).
+14. Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the [Success objective record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-view-success-object.md).
 
 
-**Parent Topic:**[Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-blueprint.md)
+**Parent Topic:**[Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-success-blueprint.md)
 

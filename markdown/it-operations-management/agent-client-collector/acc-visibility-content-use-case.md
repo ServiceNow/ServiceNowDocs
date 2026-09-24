@@ -3,11 +3,11 @@ title: Agent Client Collector for Visibility Content use case
 description: The Agent Client Collector for Visibility Content \(ACC-VC\) use case demonstrates how a financial organization can perform effective discovery across on-premise and remote environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-visibility-content-use-case.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -45,6 +45,9 @@ To address these challenges, the financial organization implemented Agent Client
 
 -   End-to-end asset visibility: The organization achieved complete visibility across secure data center assets, cloud and hybrid environments, and remote workforce devices. This eliminated blind spots and improved operational decision making.
 -   Improved CMDB accuracy and reliability: Continuous data collection ensured up-to-date and trustworthy CI data, and improved service mapping and dependency insights.
+
+    **Note:** Shadow AI detection is another key ACC-VC use case. The Agent Client Connector for AI Control Tower app, available on the [ServiceNow Store](https://store.servicenow.com/store/app/b2797538939f8310a0f2fc1d6cba1075), is an ACC connector that adds an AI proxy capability to collect AI-based traffic from managed devices, supporting AI Control Tower shadow AI use cases.
+
 -   Enhanced compliance and audit readiness: The organization benefited from granular, auditable asset data, faster and more efficient compliance reporting, and reduced risk of regulatory violations.
 -   Increased operational efficiency: Reduced reliance of manual discovery and troubleshooting led to faster issue detection and lower operational overhead.
 

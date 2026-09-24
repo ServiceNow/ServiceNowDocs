@@ -3,9 +3,9 @@ title: Home page view
 description: The Home page in Business Continuity Workspace serves as the landing page of the BCM application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/home-page-uib-ws.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [BCM Configurable Workspace, Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -357,7 +357,7 @@ You can select the card to view the plans with exercises.
 
 -   **Plans without exercises**
 
-You can select the card to view plans without exercises.
+You can select the card to view without exercises.
 
 -   **Plans with events**
 
@@ -515,13 +515,9 @@ Action button to create an exercise event from the **Exercises** tab. When you s
 
 When you log in to the BCM application, the Home page view is displayed according to your user role, responsibilities, and the assigned tasks.
 
-A typical Home page view for a BCM manager is shown in the example.
+**Note:** The Home page structure and tabs described earlier in this topic are the same for every role. Only the data and tasks shown in the cards differ, based on your role, responsibilities, and assigned tasks.
 
-\[Omitted image "exercises-homepage.png"\] Alt text: Exercises tab in the Home page.
-
-A typical Home page view for a BCM planner is shown in the example.
+The following example shows a typical Home page view for a BCM planner.
 
 \[Omitted image "bcm-planner-homepage-view.png"\] Alt text: Home page view for the BCM planner.
-
-For information on the tabs and their associated actions in the Home page, see [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/home-page-uib-ws.md).
 

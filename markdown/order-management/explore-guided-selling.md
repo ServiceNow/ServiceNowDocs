@@ -3,9 +3,9 @@ title: Guided selling on opportunities
 description: Guided selling on opportunities enforces process compliance and consolidates deal-related actions into a unified workspace so that sales agents can advance opportunities through each stage with confidence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/explore-guided-selling.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [guided selling, opportunity stages, stage exit criteria, playbook, action center]
 breadcrumb: [Opportunity Management, Sales automation, Explore, Sales Customer Relationship Management]
@@ -35,7 +35,7 @@ Guided selling on opportunities includes the following components:
 
 -   **Closed stage reason enforcement**
 
-    Optional enforcement that requires sales agents to complete the win or loss reason fields before they move an opportunity to the Closed Won or Closed Lost stage. Admins enable this enforcement through system properties. For more information, see [Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-guided-selling-exit-criteria.md).
+    Optional enforcement that requires sales agents to complete the win or loss reason fields before they move an opportunity to the Closed Won or Closed Lost stage. Admins enable this enforcement through system properties. For more information, see [Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-guided-selling-exit-criteria.md).
 
 
 ## Benefits
@@ -49,7 +49,7 @@ Guided selling provides the following benefits:
 
 ## What to explore next
 
-To set up guided selling, see [Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-guided-selling-exit-criteria.md).
+To set up guided selling, see [Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-guided-selling-exit-criteria.md).
 
-To use guided selling on an opportunity, see [Use guided selling on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-guided-selling-opportunity.md).
+To use guided selling on an opportunity, see [Use guided selling on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-guided-selling-opportunity.md).
 

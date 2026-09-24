@@ -3,9 +3,9 @@ title: Tables installed with Digital resilience incident reporting
 description: The tables installed with Digital resilience incident reporting are listed in this section.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/tables-with-drir.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digital resilience incident reporting reference, Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---

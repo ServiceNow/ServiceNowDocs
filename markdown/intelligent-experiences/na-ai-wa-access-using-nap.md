@@ -3,12 +3,12 @@ title: Trigger an AI agent to execute adaptive path desktop actions
 description: Trigger an AI agent that uses adaptive desktop actions from the ServiceNow Otto panel. These desktop actions perform tasks on an external website or web application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-wa-access-using-nap.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-09-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Execute desktop actions, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Execute desktop actions, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Trigger an AI agent to execute adaptive path desktop actions
@@ -17,9 +17,9 @@ Trigger an AI agent that uses adaptive desktop actions from the ServiceNow Otto 
 
 ## Before you begin
 
--   Confirm that the **ServiceNow Web Automation** Google Chrome extension is installed and connected to your ServiceNow® instance. For more information, see [Install the Google Chrome extension for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-install-browser-extension.md).
+-   Confirm that the **ServiceNow Web Automation** Google Chrome extension is installed and connected to your ServiceNow® instance. For more information, see [Install the Google Chrome extension for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-wa-install-browser-extension.md).
 -   Confirm that you're logged in to your ServiceNow instance and it is in the active state in the browser window.
--   Verify that enhanced chat is available in ServiceNow Otto panel. The Web view pane is available only when enhanced chat is enabled. For more information see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced.md).
+-   Verify that enhanced chat is available in ServiceNow Otto panel. The Web view pane is available only when enhanced chat is enabled. For more information see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-enhanced.md).
 -   Adaptive desktop actions can handle a broader range of user interactions beyond custom UI, such as triple-click, double-click, right-click, native prompts, dialogues, and alerts.
 
 Role required: now\_assist\_panel\_user for the user and sn\_naa.web\_agent\_runtime for the service account the agent runs as
@@ -28,7 +28,7 @@ Role required: now\_assist\_panel\_user for the user and sn\_naa.web\_agent\_run
 
 AI agents using adaptive desktop actions perform tasks for you on a website or web application. The AI agent opens the website in a separate browser tab in the background, and reports its actions to you in the ServiceNow Otto panel. During the process, the website might require credentials for a login or acceptance of terms.
 
-How the AI agent handles this depends on whether or not the goal provided by you references stored credentials. For more information, see [Credential and dynamic parameter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/credential-storage.md).
+How the AI agent handles this depends on whether or not the goal provided by you references stored credentials. For more information, see [Credential and dynamic parameter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/credential-storage.md).
 
 You can preserve the context across long-running sessions by summarizing older step history instead of discarding it. When history exceeds the configured window, older steps are automatically summarized instead of being discarded, preserving context about earlier actions, failed approaches, and application state.
 
@@ -38,7 +38,7 @@ There are three system properties that handle this:
 -   sn\_naa.web\_agent.compaction\_history\_limit
 -   sn\_naa.web\_agent.summarization\_batch\_size
 
-For detailed information about the system properties, see [Components installed with AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md).
+For detailed information about the system properties, see [Components installed with AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md).
 
 Here are tips for writing successful requests for the LLM:
 
@@ -72,9 +72,9 @@ Here are tips for writing successful requests for the LLM:
         -   Open https://www.example.org/ and log in with stored 'user\_name' and stored 'password', then select Transactions.
         -   Open https://www.example.net/ and log in using username from reference 'user\_name' and password from reference 'password'. Then navigate to 'Task List', remove any filters, choose Pending status, and select Save.
 
-            For more information, see [Credential and dynamic parameter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/credential-storage.md).
+            For more information, see [Credential and dynamic parameter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/credential-storage.md).
 
-    In your conversations with AI agents, the actual wording of the questions and answers may be different from the given examples. For more information about ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+    In your conversations with AI agents, the actual wording of the questions and answers may be different from the given examples. For more information about ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 4.  Review the execution plan proposed by the AI agent and confirm your approval.
 
@@ -106,7 +106,7 @@ Here are tips for writing successful requests for the LLM:
 
     Values marked as sensitive in the stored credentials are never displayed, in the chat or elsewhere. Non-sensitive values, such as a username, might appear as part of the agent's plan.
 
-    To use the stored credentials, an administrator must first define them as desktop action parameters. For more information, see [Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-parameter-record-ad.md).
+    To use the stored credentials, an administrator must first define them as desktop action parameters. For more information, see [Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-parameter-record-ad.md).
 
 6.  When the AI agent returns satisfactory results in the ServiceNow Otto panel chat, enter a closing such as `Thank you` to signal to the AI agent that the task is finished.
 
@@ -119,10 +119,10 @@ The browser tabs opened during goal execution in adaptive desktop actions stay o
 
 ## What to do next
 
-You can delete the chat log in ServiceNow Otto panel if any sensitive information was captured. For detailed instructions, see [Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-delete-chat-log.md).
+You can delete the chat log in ServiceNow Otto panel if any sensitive information was captured. For detailed instructions, see [Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-wa-delete-chat-log.md).
 
--   **[Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-delete-chat-log.md)**  
+-   **[Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-wa-delete-chat-log.md)**  
 After you close an AI agent session, you can delete its chat if any sensitive information was captured. Deleting your chat log permanently erases the chat history of that session, including screenshots.
 
-**Parent Topic:**[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
+**Parent Topic:**[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-agentic-desktop.md)
 

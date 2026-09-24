@@ -3,9 +3,9 @@ title: Add or edit opportunity allocations
 description: Use the allocations configurator to add new allocation rows, edit existing ones, or split an allocation across multiple contributors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/add-or-edit-opportunity-allocations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage allocations, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -67,9 +67,9 @@ The configurator displays active allocation types in the left pane. Each type sh
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md)
 
-[Configure allocation types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-allocation-types.md)
+[Configure allocation types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-allocation-types.md)
 

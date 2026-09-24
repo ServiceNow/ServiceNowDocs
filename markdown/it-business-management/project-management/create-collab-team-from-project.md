@@ -3,13 +3,13 @@ title: Create a Microsoft team for your project
 description: Create a Microsoft team for your project to start collaborating with your team and receive timely updates of the project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/create-collab-team-from-project.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [PPM Collaboration for project teams, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a Microsoft team for your project
@@ -49,10 +49,10 @@ Role required: it\_project\_manager
 
 If you are unable to create a team, retry the procedure after sometime. If the issue persists, contact your system administrator.
 
-**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-collab-overview.md)
+[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ppm-collab-overview.md)
 

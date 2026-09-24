@@ -3,11 +3,11 @@ title: Approve a reserve or payment amount
 description: Approve an assigned claim reserve or a payment amount that is higher than an adjuster's approval authority for Individual Life Claims cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/approve-reserve-or-payment-amount.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,7 +32,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 3.  On the **Lists** tab, under Individual death claims approvals, select the item that you need to approve.
 
-<table id="choicetable_sbb_pcs_dcc"><tbody><tr><td id="d39619e114">
+<table id="choicetable_sbb_pcs_dcc"><tbody><tr><td id="d39648e114">
 
 **List name**
 
@@ -40,7 +40,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 Description
 
-</td></tr><tr><td id="d39619e123">
+</td></tr><tr><td id="d39648e123">
 
 **My approvals - Reserves**
 
@@ -48,7 +48,7 @@ Description
 
 Presents a list of approval tasks for reserve requests.
 
-</td></tr><tr><td id="d39619e132">
+</td></tr><tr><td id="d39648e132">
 
 **My approvals - Payments**
 
@@ -61,15 +61,15 @@ Presents a list of approval tasks for payment requests.
 
 5.  Submit your decision from the Claim reserve or Claim payment task form.
 
-<table id="choicetable_dhz_trz_pbc"><thead><tr><th align="left" id="d39619e156">
+<table id="choicetable_dhz_trz_pbc"><thead><tr><th align="left" id="d39648e156">
 
 Approval task
 
-</th><th align="left" id="d39619e159">
+</th><th align="left" id="d39648e159">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39619e165">
+</th></tr></thead><tbody><tr><td id="d39648e165">
 
 **To approve an amount**
 
@@ -77,7 +77,7 @@ Action
 
 Approve the reserve or payment amount by selecting **Approve**.
 
-</td></tr><tr><td id="d39619e177">
+</td></tr><tr><td id="d39648e177">
 
 **To reject an amount**
 

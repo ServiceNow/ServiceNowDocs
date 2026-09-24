@@ -3,11 +3,11 @@ title: Look Up Records step
 description: Look up multiple records on any table using defined conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/lookup-records-action-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -34,7 +34,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Conditions**
 
-    Field names and field values that you want to use to search for records. To use an inline script to specify conditions, consider using the GlideRecord and GlideQueryCondition classes to build your query. See [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) and [GlideQueryCondition - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionAPI.md).
+    Field names and field values that you want to use to search for records. To use an inline script to specify conditions, consider using the GlideRecord and GlideQueryCondition classes to build your query. See  and .
 
 -   **Order by**
 
@@ -61,7 +61,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## Outputs
@@ -72,7 +72,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
     Data type: **Records**
 
-    List of record Sys IDs found based on the lookup criteria that you provided. For more information, see [Records.\[Table\] data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/records-data.md).
+    List of record Sys IDs found based on the lookup criteria that you provided. For more information, see [Records.\[Table\] data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/records-data.md).
 
 -   **Table**
 
@@ -93,7 +93,7 @@ Use these general guidelines when working with the Look Up Records action.
 
 -   **Process records with For Each flow logic**
 
-    Use For Each flow logic to iterate through a list of records. For more information about using For Each flow logic, see [For Each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-for-each.md). Alternatively, you can use a Script step to process a list of records within a custom action.
+    Use For Each flow logic to iterate through a list of records. For more information about using For Each flow logic, see [For Each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic-for-each.md). Alternatively, you can use a Script step to process a list of records within a custom action.
 
 -   **Set Max Results to improve performance**
 
@@ -108,5 +108,5 @@ Use these general guidelines when working with the Look Up Records action.
 
 \[Omitted image "look-up-records-example.png"\] Alt text: Example Look Up Records step in an action.
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/steps.md)
 

@@ -3,11 +3,11 @@ title: Work prioritization in Portfolio Planning
 description: Prioritize work that is relevant for your portfolio using a centralized Workspace in Portfolio Planning. Review and determine the right work to invest in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/work-prioritization-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
@@ -39,7 +39,7 @@ Alternatively, you can use the Hierarchy tab to review and manage your backlog.
 
 For example, as a portfolio manager, you can view the projects and demands created for your portfolio all in one place, as your portfolio's backlog. If your portfolio must take up a new project, you can add it to this backlog directly. These items are marked as **New** for easy identification. If you are in discussion over certain items with your stakeholders, mark them as **In Review** until you decide on its priority. After you decide which items are ready to be worked on, mark them as **Prioritized** and they would be added to your portfolio roadmap. If you don’t want to pursue a project or a demand, mark it **Cancelled**.
 
-To get started with managing your work pipeline in Portfolio Planning, see [Prioritizing portfolio plan work in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.md).
+To get started with managing your work pipeline in Portfolio Planning, see [Prioritizing portfolio plan work in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.md).
 
-**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

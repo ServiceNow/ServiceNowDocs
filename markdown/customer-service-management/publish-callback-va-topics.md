@@ -3,9 +3,9 @@ title: Publish the Virtual Agent topics for callback
 description: Publish the Virtual Agent topics for callback to help your customers request a callback from agents when there’s a long wait time to reach a live agent or agents are unavailable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/publish-callback-va-topics.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Omnichannel Callback, Configure Voice, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -26,22 +26,24 @@ Deploy the inactive topic to save it and make it available to users on Virtual A
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  In the Topics page, publish the following topics.
+2.  Select the **Asset library** tab.
+
+3.  In the Asset library, publish the following topics.
 
     -   Request a callback
     -   Reschedule a callback
     -   Cancel a callback
-3.  In the Header bar for the topic, select **Publish**.
+4.  In the Header bar for the topic, select **Publish**.
 
     If you're using NLU discovery, the Choose what to publish dialog box appears. Select the available items to publish with the topic, such as the NLU model and language mappings, and then click **Publish**.
 
-    **Note:** If the **Publish Model** option is unavailable, the model may need some work. For example, the model may not have enough intents or may need more utterances for some intents. Fix these issues before proceeding. Also, if a model language is unavailable, the language-specific model has never been published. Publish it from NLU Workbench. For more information, see [Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/model-management-phases.md).
+    **Note:** If the **Publish Model** option is unavailable, the model may need some work. For example, the model may not have enough intents or may need more utterances for some intents. Fix these issues before proceeding. Also, if a model language is unavailable, the language-specific model has never been published. Publish it from NLU Workbench. For more information, see [Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/model-management-phases.md).
 
     For topics, the topic state is Active and the Published state changes to **just now**.
 
-4.  If you published a conversation topic, verify that your keywords or NLU utterances for the topic work as expected.
+5.  If you published a conversation topic, verify that your keywords or NLU utterances for the topic work as expected.
 
     1.  Return to the Topics page, and then click **Test Active Topics**.
 

@@ -3,9 +3,9 @@ title: Using Now Assist web search on mobile
 description: Web search mode for Now Assist lets you perform an internet search from within Now Assist, showing external results from outside your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/using-na-web-search-mobile.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
@@ -24,7 +24,7 @@ To exit out of web search mode and return to internal search results, do one of 
 -   Select the **End** web search icon \(\[Omitted image "na-web-search-icon.png"\] Alt text:\)
 -   Select **End** in the web search banner \(enhanced chat only\)
 
-For more information on configuring web search, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-assistant-chat-experience.md).
+For more information on configuring web search, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/manage-assistant-chat-experience.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/using-now-assist-mobile.md)
 

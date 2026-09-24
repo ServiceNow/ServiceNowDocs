@@ -3,11 +3,11 @@ title: Use the Okta User Login Failures from Multiple IPs playbook
 description: Use this playbook to investigate security incidents for user login failures on Okta. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Okta User Login Failures from Multiple IPs playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-okta-user-login-failures-multiple.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbook for Okta User Login Failures from Multiple IPs, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -66,5 +66,5 @@ Role required:
 14. In Action 18, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Okta User Login Failures from Multiple IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-okta-user-login-failures-ips.md)
+**Parent Topic:**[Playbook for Okta User Login Failures from Multiple IPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/playbook-okta-user-login-failures-ips.md)
 

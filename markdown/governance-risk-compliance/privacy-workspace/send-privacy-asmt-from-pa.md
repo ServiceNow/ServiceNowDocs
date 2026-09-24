@@ -3,11 +3,11 @@ title: Send a privacy assessment from a processing activity
 description: Send a privacy assessment to a processing activity owner from a processing activity record to collect more information on why and how the processing activity is using personal information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Types of privacy assessments, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ Role required: sn\_privacy.manager or sn\_privacy.analyst
 
 4.  On the form, fill in the fields.
 
-    For an explanation of the fields, refer to the [New privacy assessment creation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/new-privacy-assessment-creation-form.md)
+    For an explanation of the fields, refer to the [New privacy assessment creation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/new-privacy-assessment-creation-form.md)
 
 5.  Select **Update state**.
 
@@ -47,5 +47,5 @@ Role required: sn\_privacy.manager or sn\_privacy.analyst
 
 The assessment is sent to the entity owner.
 
-**Parent Topic:**[Types of privacy assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-assessments.md)
+**Parent Topic:**[Types of privacy assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-assessments.md)
 

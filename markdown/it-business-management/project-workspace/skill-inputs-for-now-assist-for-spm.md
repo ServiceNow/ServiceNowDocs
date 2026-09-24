@@ -3,14 +3,14 @@ title: Skill inputs for ServiceNow Otto for Strategic Portfolio Management
 description: Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portfolio Management application. Configuring the inputs for a skill helps you to determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/skill-inputs-for-now-assist-for-spm.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Inputs for Now Assist for SPM, Inputs for the feedback summarization skill]
-breadcrumb: [Configure AI Admin features, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+keywords: [Inputs for ServiceNow Otto for SPM, Inputs for the feedback summarization skill]
+breadcrumb: [Configure AI Admin features, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Skill inputs for ServiceNow Otto for Strategic Portfolio Management
@@ -99,10 +99,12 @@ Product idea \[sn\_align\_core\_product\_idea\]
  Story \[rm\_story\]
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configuring-na-spm.md)
+
+**Related topics**  
 
 
-[Configure AI Admin Hub]()
+[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configuring-na-spm.md)
 
-[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management]()
+[Use AI agent or agentic workflows in ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/using-na-spm-ai-agents.md)
 

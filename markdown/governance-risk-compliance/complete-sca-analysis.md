@@ -3,12 +3,12 @@ title: Mark the scenario analysis as complete
 description: Complete the Scenario analysis after all required playbook steps are finished to lock the record and make the results available for reporting and governance review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/complete-sca-analysis.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Scenario Analysis, Operational Resilience, complete analysis, governance, reporting]
-breadcrumb: [Building a scenario analysis using simulation, Scenario analysis using simulation, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Building a scenario analysis using simulation, Conducting a scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Mark the scenario analysis as complete
@@ -37,7 +37,7 @@ The **Complete analysis** button is active only after all required steps are mar
 
 3.  Select **Complete analysis** in the top-right of the form.
 
-    To capture additional vulnerabilities or issues for the same scope after completion, you can create them directly from the Operational Vulnerabilities or Issues list in the workspace. You can link them back to this scenario analysis using the **Source record** field.
+    After completion, you can capture additional vulnerabilities or issues for the same scope. Create them directly from the Operational Vulnerabilities or Issues list in the workspace and link them back using the **Source record** field.
 
     An information banner `Scenario Analysis successfully completed` is displayed at the top of the record. The record state transitions to **Completed**. The **Operational Vulnerabilities** and **Issues** steps remain visible in read-only mode after completion; the **New**, **Add**, and **Mark as complete** actions on those steps are removed.
 

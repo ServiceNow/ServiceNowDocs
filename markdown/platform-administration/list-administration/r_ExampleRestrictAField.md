@@ -3,11 +3,11 @@ title: Example - Restrict a field
 description: This access control prevents everyone except an administrator from editing the Short Description field of an incident record in a list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/r\_ExampleRestrictAField.html
-release: australia
+release: brazil
 product: List Administration
 classification: list-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring contextual security, List editor, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

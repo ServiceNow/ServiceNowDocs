@@ -3,13 +3,13 @@ title: Word template form
 description: The table gives a description of the field values for the Word template form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-word-template-form.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a Microsoft Word template record for an audit report, Generate an audit report for an engagement using Microsoft Word template, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Create a Microsoft Word template record for an audit report, Generate an audit report for an engagement using Microsoft Word template, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Word template form
@@ -40,7 +40,7 @@ Category
 
 Classification or group to which the Word template belongs.For example, Audit for audit-related Word template.
 
-To create a Word template category, see [Word template category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-word-template-category.md).
+To create a Word template category, see [Word template category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/audit-word-template-category.md).
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ State of the Word template record defaults to Draft.-   Draft: Defaults to Draft
 -   Published: When the Word template record is published. You can't update the record in the published state.
 -   Edit: State in which the record details can be updated.
 
-**Note:** The Word template record in Edit state can’t be used for report generation. The record isn't available to select in the Generate report pop-up. See [Generate a report for an engagement in a classic report template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.md).
+**Note:** The Word template record in Edit state can’t be used for report generation. The record isn't available to select in the Generate report pop-up. See [Generate a report for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.md).
 
 
 </td></tr><tr><td>
@@ -91,7 +91,7 @@ Cloud enabled
 
 Option to manage the generated report either as a sys\_attachment in the engagement record or as a cloud document.You can access the document in the cloud either from the Microsoft SharePoint or Google Drive site based on your cloud upload configuration.
 
-For more information, see [Manage your documents and work papers with Audit Management as cloud files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/manage-cloud-docs-using-onedrive-int.md).
+For more information, see [Manage your documents and work papers with Audit Management as cloud files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/manage-cloud-docs-using-onedrive-int.md).
 
 </td></tr><tr><td>
 
@@ -108,5 +108,5 @@ Option to update the generated Word template report with fields from the Report 
 -   **None**: Report is generated as a sys attachment or a cloud file. However, no post processing action happens to add or update any report-based fields of the engagement record to the Word report that is generated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
+</table>**Parent Topic:**[Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
 

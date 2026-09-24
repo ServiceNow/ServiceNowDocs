@@ -3,11 +3,11 @@ title: Examples of Desktop Assistant notifications using DesktopAppNotificationU
 description: Examples showing the sendDANotification\(\) method of DesktopAppNotificationUtils used to send a Major Incident Management \(MIM\) alert and a Proactive Engagement \(PE\) notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/examples-da-notifications-script-include.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -65,5 +65,5 @@ var response = utils.sendDANotification({
 });
 ```
 
-**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
+**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
 

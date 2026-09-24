@@ -3,11 +3,11 @@ title: Azure Public IP pattern-based discovery
 description: Discovery and Service Mapping Patterns finds Azure public IP addresses on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/azure-public-ip-pattern.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Azure Public IP, Azure public IP address, Azure discovery, Azure patterns, Public IP pattern]
 breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -25,7 +25,7 @@ Discovery and Service Mapping Patterns finds Azure public IP addresses on your c
 
 -   **Configure the Discovery schedule to support GovCloud**
 
-    Discovering Azure GovCloud \(US\) accounts requires using a datacenter URL when setting up an Azure service account. For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-azure-service-accounts.md).
+    Discovering Azure GovCloud \(US\) accounts requires using a datacenter URL when setting up an Azure service account. For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/setup-azure-service-accounts.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -65,5 +65,5 @@ The Azure - Public IP \(LP\) pattern collects tags and populates them in the Key
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud Public IP Address \[cmdb\_ci\_cloud\_public\_ipaddress\] table.|
 
-**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
+**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

@@ -3,9 +3,9 @@ title: Configure Zoom to create a touchpoint meeting summary
 description: Set up the Zoom spoke integration and the bi-directional web hook to generate summaries for virtual touchpoint meetings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-config-zoom-sum.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zoom and touchpoint integration, Customer success, Configure, Customer Success Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 ## Procedure
 
-1.  To configure the Zoom spoke, follow the steps listed in [Set up the Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-zoom.md).
+1.  To configure the Zoom spoke, follow the steps listed in [Set up the Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-zoom.md).
 
     A token is generated for Zoom connectivity.
 
@@ -111,12 +111,12 @@ Name of the webhook registry.
 </td></tr></tbody>
 </table>    \[Omitted image "account-lifecycle-zoom-webhook.jpg"\] Alt text: Zoom webhook registry
 
-    For more details on configuring the webhook, see [Set up a bi-directional webhook for Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-webhook-zoom-spoke.md).
+    For more details on configuring the webhook, see [Set up a bi-directional webhook for Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-webhook-zoom-spoke.md).
 
 
 ## Result
 
 When these steps have been completed, you can generate the meeting summary for touchpoint meetings that have been created using Zoom.
 
-**Parent Topic:**[Configure Zoom and touchpoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-zoom-int.md)
+**Parent Topic:**[Configure Zoom and touchpoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-setup-zoom-int.md)
 

@@ -3,11 +3,11 @@ title: Apply template to an existing project
 description: Apply one or multiple project templates to an existing project from the project form or Planning Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/apply-multiple-templates-prj.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Applying templates to projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ When applying a template to a project, the project state is set to the default s
 
 1.  Apply project template to an existing project from any of the following locations.
 
-<table id="choicetable_fl1_dqc_mlb"><thead><tr><th align="left" id="d296477e67">
+<table id="choicetable_fl1_dqc_mlb"><thead><tr><th align="left" id="d298077e67">
 
 Location
 
-</th><th align="left" id="d296477e70">
+</th><th align="left" id="d298077e70">
 
 Step
 
-</th></tr></thead><tbody><tr><td id="d296477e76">
+</th></tr></thead><tbody><tr><td id="d298077e76">
 
 **From Project form**
 
@@ -53,7 +53,7 @@ Step
     -   If there are tasks or subprojects, select the **Apply Template** related link.
 
 
-</td></tr><tr><td id="d296477e126">
+</td></tr><tr><td id="d298077e126">
 
 **From Planning Console**
 
@@ -75,7 +75,7 @@ Step
     Tasks from the template are added at the end of the last task.
 
 
-**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
+**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectTemplates.md)
 
 **Related topics**  
 

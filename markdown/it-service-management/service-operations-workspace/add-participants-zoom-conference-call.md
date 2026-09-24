@@ -3,11 +3,11 @@ title: Add participants to an existing Zoom call in Service Operations Workspace
 description: Add a participant to a conference call to participate in the discussion to resolve the incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/add-participants-zoom-conference-call.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage Zoom conference calls in Service Operations Workspace, Use Zoom to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -70,5 +70,5 @@ Provide a brief summary about the issue to be discussed in the conference call.
 </table>11. Select **Add participants**.
 
 
-**Parent Topic:**[Manage Zoom conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-conference-calls-zoom.md)
+**Parent Topic:**[Manage Zoom conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-conference-calls-zoom.md)
 

@@ -3,11 +3,11 @@ title: Create a new check timeout system property
 description: Create a new timeout threshold property for a check if the glide.scan.process\_check.time\_out system property is not present. Setting of a timeout threshold prevents your instance from running a long check.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-create-new-heath-check-timeout.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Implement a check timeout threshold, Timeout threshold, Configuring Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---

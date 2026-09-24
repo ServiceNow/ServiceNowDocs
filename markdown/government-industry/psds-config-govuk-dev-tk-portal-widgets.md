@@ -3,10 +3,10 @@ title: Configure the GOV.UK Design System Service Portal Widgets
 description: Configurable portal widgets provide you with the ability to configure the behavior, content, and layout of the GOV.UK Design System Service Portal by configuring widget settings and instance options. Use the base system widgets included with the GDS Service Portal to get started configuring portal pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-widgets.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-01"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -16,11 +16,11 @@ Configurable portal widgets provide you with the ability to configure the behavi
 
 The GDS Service Portal uses widgets for configuration. Widgets are what define the content of your portal pages. You can use the base system widgets provided with the GOV.UK Developer Toolkit in their default state, or you can clone, modify, or develop custom widgets to better fit your needs.
 
-**Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/widget-dev-guide.md).
+**Note:**  To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/widget-dev-guide.md).
 
 When you create or update a page in the Service Portal Designer, you can add widgets to that page by searching in the widget filter and dragging a widget onto the page. You can then configure widget behavior, visual appearance, and content to update the information presented on the widgets. Each time you add a widget to a page, an instance of that widget is created that can be modified individually for use on that page. For each instance of a base system widget that you add to a page, you can configure the instance options available for that widget.
 
-For a list of base system widgets that enable you to configure various pages within the GOV.UK Design System Service Portal, see [Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md). You can also access all widget records from the platform at **All** &gt; **Service Portal** &gt; **Widgets**.
+For a list of base system widgets that enable you to configure various pages within the GOV.UK Design System Service Portal, see [Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-widget-lib.md). You can also access all widget records from the platform at **All** &gt; **Service Portal** &gt; **Widgets**.
 
 There are four main categories of widgets available for use with the GDS Service Portal.
 
@@ -39,7 +39,7 @@ These widgets display service information in a streamlined, task‑focused way. 
 
 ## Knowledge Management widgets
 
-Knowledge Management widgets enable users to search, browse, and read knowledge articles directly in the GDS Service Portal, so they can find answers to their questions and learn how to use services without contacting support. These widgets provide the core components for building a knowledge experience that can help them find answers quickly and consistently. For more information on creating and maintaining the articles that are shown on the Knowledge Management widgets, see [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management.md).
+Knowledge Management widgets enable users to search, browse, and read knowledge articles directly in the GDS Service Portal, so they can find answers to their questions and learn how to use services without contacting support. These widgets provide the core components for building a knowledge experience that can help them find answers quickly and consistently. For more information on creating and maintaining the articles that are shown on the Knowledge Management widgets, see [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management.md).
 
 Constituents can use Knowledge Management widgets to do the following:
 
@@ -49,7 +49,7 @@ Constituents can use Knowledge Management widgets to do the following:
 -   See popular, featured, or top‑rated articles.
 -   Interact with articles by rating or commenting, when available.
 
-These widgets organize knowledge content in a clear, navigational way. Some widgets help users discover articles through search and filters, while others display article details and related information on the article page. As an admin, you can use Knowledge Management widgets to build a knowledge base for your portal. For more information on maintaining a knowledge base within a portal, see [Configure Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-kb.md).
+These widgets organize knowledge content in a clear, navigational way. Some widgets help users discover articles through search and filters, while others display article details and related information on the article page. As an admin, you can use Knowledge Management widgets to build a knowledge base for your portal. For more information on maintaining a knowledge base within a portal, see [Configure Knowledge Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-dev-tk-portal-kb.md).
 
 ## Service Portal configuration page widgets
 
@@ -75,7 +75,7 @@ Search widgets help users to do the following:
 -   Filter and refine search results to find what they need.
 -   Get suggested or context‑aware results while submitting requests.
 
-Service Portal search widgets work in different locations, such as the portal homepage, search results page, or within record producers. Some widgets display a search bar, while others show detailed results with filters and facets for easier discovery. As an admin, you can configure search in Service Portal using any of the search widgets by navigating to **Service Portal** &gt; **Service Portal Configuration** and adding widgets to a page. For a list of Search Widgets available by default in the GDS Service Portal, see [Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md).
+Service Portal search widgets work in different locations, such as the portal homepage, search results page, or within record producers. Some widgets display a search bar, while others show detailed results with filters and facets for easier discovery. As an admin, you can configure search in Service Portal using any of the search widgets by navigating to **Service Portal** &gt; **Service Portal Configuration** and adding widgets to a page. For a list of Search Widgets available by default in the GDS Service Portal, see [Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-widget-lib.md).
 
 ## Example widgets
 
@@ -90,7 +90,7 @@ Example widgets help users to do the following:
 
 These widgets appear as ready‑to‑use components in the GDS Service Portal configuration. Some focus on everyday tasks, such as approving requests or changing a password, while others show interactive or informational elements you might see on a portal page.
 
-As an admin, you can use the example widgets to see how to use HTML, CSS, or client and server scripts in the GDS Service Portal, and clone and extend each widget to suit your needs. For a list of example Widgets available by default in the GDS Service Portal, see [Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-widget-lib.md).
+As an admin, you can use the example widgets to see how to use HTML, CSS, or client and server scripts in the GDS Service Portal, and clone and extend each widget to suit your needs. For a list of example Widgets available by default in the GDS Service Portal, see [Widget Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-widget-lib.md).
 
-For more information on using configurable widgets in portals, see [Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md).
+For more information on using configurable widgets in portals, see [Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal-widgets.md).
 

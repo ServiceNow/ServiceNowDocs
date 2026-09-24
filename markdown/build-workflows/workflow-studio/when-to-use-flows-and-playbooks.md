@@ -3,11 +3,11 @@ title: When to use flows and Playbook
 description: Use these general guidelines to determine when to create a flow or a playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/when-to-use-flows-and-playbooks.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Workflow Studio, Build workflows]
 ---
@@ -54,5 +54,5 @@ A playbook is a good fit for process automations that met these criteria.
     Playbooks offer a better user experience for running a sequence of subflows.
 
 
-**Parent Topic:**[Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-workflow-studio.md)
+**Parent Topic:**[Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/exploring-workflow-studio.md)
 

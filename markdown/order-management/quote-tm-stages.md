@@ -3,7 +3,7 @@ title: Quote transaction stages
 description: Stages represent phases in the quoting process. Each stage can have entry criteria, rule group associations, and stage-specific layout behavior in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-stages.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 3
@@ -32,11 +32,11 @@ For example, a transaction might transition to the **pending approval** stage, o
 
 ## Stages and rule groupings
 
-Rule groupings are associated with stages. They execute when the stage is transitioned to and when users update fields or run events while in the stage. For more information about rule groupings, see [Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-rules-and-rule-groups.md).
+Rule groupings are associated with stages. They execute when the stage is transitioned to and when users update fields or run events while in the stage. For more information about rule groupings, see [Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-rules-and-rule-groups.md).
 
 ## Stages and views
 
-Stages enable administrators to assign distinct permissions to determine how personas view and interact with field data at each stage. For more information about defining views for stages, see [Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-views.md).
+Stages enable administrators to assign distinct permissions to determine how personas view and interact with field data at each stage. For more information about defining views for stages, see [Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-views.md).
 
 ## Behavior on open transaction
 
@@ -54,9 +54,4 @@ Note the following guidelines when configuring idle timeout behavior:
 ## Deleting a stage
 
 Deleting a stage is restricted because deleting a stage that is in use by transactions can cause data issues. Contact [ServiceNow Support](https://support.servicenow.com) if a stage deletion is required.
-
--   **[Create a quote transaction stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-stage.md)**  
-Create a stage in the ServiceNow Quote Experience administration interface to define a phase in the quoting process, set entry criteria, and configure what happens when a user opens a transaction or remains inactive in that stage.
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

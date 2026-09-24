@@ -1,20 +1,20 @@
 ---
 title: Evaluate Nacha operating guidelines
-description: Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When enabled, the Nacha operating guidelines check AI agent can verify eligibility automatically based on documents such as a valid Written Statement of Unauthorized Debit \(WSUD\).
+description: Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When the Nacha operating guidelines check AI agent is enabled, it can verify eligibility automatically by checking required documentation, such as a valid Written Statement of Unauthorized Debit \(WSUD\), and confirming actions occur within the allowed time frames.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Processing an ACH dispute, Resolving ACH disputes, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Evaluate Nacha operating guidelines
 
-Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When enabled, the Nacha operating guidelines check AI agent can verify eligibility automatically based on documents such as a valid Written Statement of Unauthorized Debit \(WSUD\).
+Evaluate the Nacha operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement. When the Nacha operating guidelines check AI agent is enabled, it can verify eligibility automatically by checking required documentation, such as a valid Written Statement of Unauthorized Debit \(WSUD\), and confirming actions occur within the allowed time frames.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ To access the knowledge base article:
 2.  Navigate to the knowledge base Dispute Compliance Documents.
 3.  Open the knowledge base article Nacha Operating Guidelines for Return Codes.
 
-**Note:** When the Nacha operating guidelines check AI agent is enabled, it can perform this evaluation for you, using the same knowledge article installed with the Dispute Rules Content Pack for Nacha to verify required documentation and confirm actions occur within the allowed time frames. To enable this capability, make sure that the AI Search option is turned on. See [Using Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-use.md) for more information about the content pack. When the Nacha operating guidelines check AI agent isn't enabled, use the knowledge base article earlier to evaluate the guidelines manually.
+**Note:** When the Nacha operating guidelines check AI agent is enabled, it can perform this evaluation for you, using the same knowledge article installed with the Dispute Rules Content Pack for Nacha to verify required documentation and confirm actions occur within the allowed time frames. To enable this capability, make sure that the AI Search option is turned on. See [Using Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-use.md) for more information about the content pack. When the Nacha operating guidelines check AI agent isn't enabled, use the knowledge base article earlier to evaluate the guidelines manually.
 
 ## Procedure
 
@@ -63,7 +63,7 @@ To access the knowledge base article:
 8.  If the AI agent is enabled, review the agent's analysis and select one of these options on the workspace.
 
     -   **Apply Recommendation**: Accept the recommendation after reviewing the Nacha operating guidelines analysis. The recommended **Outcome** and **Rationale** on the recommendation card component are copied to **Final action** and **Resolution reason** respectively, and the task closes automatically.
-    -   **Ask a follow up**: Select this option only if you aren't sure about the analysis and want to verify further. The analysis is then displayed in the ServiceNow Otto panel. If you disagree with the analysis, the AI agent prompts you for a rationale for the disagreement before the task proceeds.
+    -   **Ask a follow up**: Select this option only if you aren't sure about the analysis and want to verify further. The analysis is then displayed in the ServiceNow Otto panel. If you disagree with the analysis, the AI agent prompts you for a rationale for the disagreement before the task proceeds. \[Omitted image "now-assist-nacha-analysis.png"\] Alt text: Nacha eligibility
     **Note:** You can also access the AI agent's recommendation as follows:
 
     1.  Once you select **Assign to me**, a notification appears for you in the ServiceNow Otto panel.
@@ -83,12 +83,12 @@ To access the knowledge base article:
 
 ## Result
 
-The **Final action** field is updated as **Eligible** or **Ineligible**. The task navigates to the next task, [Review ACH dispute return recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-review-recommendation.md).
+The **Final action** field is updated as **Eligible** or **Ineligible**. The task navigates to the next task, [Review ACH dispute return recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/fso-ach-review-recommendation.md).
 
-**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
 
 **Related topics**  
 
 
-[Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
+[Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
 

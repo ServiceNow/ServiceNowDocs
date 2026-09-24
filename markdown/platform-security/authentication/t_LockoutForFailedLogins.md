@@ -3,11 +3,11 @@ title: Specify lockout for failed login attempts
 description: The system provides inactive script actions that enable you to specify the number of failed login attempts before a user account is locked and to reset the count after a successful login.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_LockoutForFailedLogins.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define login scenarios, Local authentication, Authentication, Access Management]
 ---
@@ -26,7 +26,7 @@ Role required: password\_reset\_admin
 
     **Note:** Starting with the Kingston release, following a zBoot, the script actions **SNC User Lockout Check with Auto Unlock** and **SNC User Clear** are activated.
 
-    To learn more about properties that affect failed login attempts, see [Managing failed login attempts \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-managing-failed-login-attempts.md) in the Instance Security Hardening Settings.
+    To learn more about properties that affect failed login attempts, see [Managing failed login attempts \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-managing-failed-login-attempts.md) in the Instance Security Hardening Settings.
 
 <table id="table_yzs_qcf_g1b"><thead><tr><th>
 

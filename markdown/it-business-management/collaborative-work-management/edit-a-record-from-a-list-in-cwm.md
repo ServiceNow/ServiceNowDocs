@@ -3,11 +3,11 @@ title: Edit a record from a list in CWM
 description: Edit a record in a default or custom list without leaving the list view in CWM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/edit-a-record-from-a-list-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [edit record, Lists, Collaborative Work Management]
 breadcrumb: [Manage lists in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -39,12 +39,12 @@ Role required: sn\_cwm.cwm\_user
 
     \[Omitted image "cwm-edit-record-list-panel.png"\] Alt text: The Edit item side panel to update the records.
 
-7.  Select **Submit**.
+7.  Select **Update**.
 
 
 ## Result
 
 The record is updated in the list.
 
-**Parent Topic:**[Manage lists in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-lists.md)
+**Parent Topic:**[Manage lists in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-lists.md)
 

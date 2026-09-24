@@ -3,11 +3,11 @@ title: FX Currency values in import and export
 description: In general, currency values crossing the boundaries of the platform represent whatever is returned by getDisplayValue. Usually this currency value is the default as entered by a user into an FX Currency field for a transaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/fx-currency-values-import-export.html
-release: australia
+release: brazil
 product: Currency Administration
 classification: currency-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [FX Currency fields, Explore, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -80,5 +80,5 @@ Export to Excel/PDF
 Uses the default method of exporting data that extracts data from fields using `getDisplayValue()`. For FX Currency fields, using this method returns a formatted currency string of the form $1,234.56. To access specific information inside an FX Currency field directly without any transformations, simply export that column using dot walking.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency.md)
+</table>**Parent Topic:**[FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/fx-currency.md)
 

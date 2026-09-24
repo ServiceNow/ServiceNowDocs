@@ -3,10 +3,10 @@ title: Portal Data List widget JSON parameters
 description: JSON parameters define aspects of the Portal Data list widget on the portal page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/portal-datalist-widget-data-json.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [JSON parameter in Configurable Portal Widgets, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [JSON parameter in Configurable Portal Widgets, Configurable Portal 
 
 JSON parameters define aspects of the Portal Data list widget on the portal page.
 
-**Note:** This information assumes that you’re familiar with the JSON code format.
+**Note:** This information assumes that you're familiar with the JSON code format.
 
 <table id="table_csm_base_entities"><thead><tr><th>
 
@@ -30,7 +30,7 @@ categories
 
 </td><td>
 
-Each category displays a set of records from the Customer Case View Case \[sn\_customerservice\_case\] table that meets the filter criteria.For each category, you can choose from pre\_defined\_filters and run\_time\_filters predefined filter tabs, set the columns for the list view, and determine the fields to be shown in the card view.
+Each category displays a set of records from the Customer Case View Case \[sn\_customerservice\_case\] table that meets the filter criteria.For each category, you can choose from pre\_defined\_filters and run\_time\_filters predefined filter tabs. You can also set the columns for the list view and choose which fields appear in the card view.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ label
 
 </td><td>
 
-Name of the category that appears on the navigation pane.If a label isn’t entered, the category doesn't appear.
+Name of the category that appears on the navigation pane.If a label isn't entered, the category doesn't appear.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ list\_view
 
 </td><td>
 
-The name of the view that defines the list of columns or fields to appear on the widget.For more information on these views, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-delete-view.md).
+The name of the view that defines the list of columns or fields to appear on the widget.For more information on these views, see [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-delete-view.md).
 
 If no value is provided, all columns are shown.
 
@@ -72,7 +72,7 @@ card\_view\_primary\_column
 
 </td><td>
 
-A field from the defined table to be displayed in the first column of a card. For example, you can show the case number in the first column.
+A field from the defined table that appears in the first column of a card. For example, you can show the case number in the first column.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ card\_view\_secondary\_column
 
 </td><td>
 
-A field from the defined table to be displayed in the second column of a card. For example, you can show short description of the case record.This parameter is optional.
+A field from the defined table that appears in the second column of a card. For example, you can show short description of the case record.This parameter is optional.
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ card\_view\_additional\_columns":"column1\|column2\|column3\|column4
 
 </td><td>
 
-Field pairs from the defined table to be displayed as additional columns of a card.You can add a maximum of four additional columns.
+Field pairs from the defined table that appear as additional columns of a card.You can add a maximum of four additional columns.
 
 This parameter is optional.
 
@@ -124,7 +124,7 @@ This parameter is optional.
 
 </td><td>
 
-An image to appear on the left of the category. The image name should be selected from the Images \[db\_image\] table.
+An image to appear on the left of the category. Select the image name from the Images \[db\_image\] table.
 
 **Note:** If both a glyph and an image are defined, the image is displayed.
 
@@ -142,30 +142,11 @@ By default, this field is set to the Case \(csm\_ticket\) page.
 
 </td></tr><tr><td>
 
-target\_page
-
-</td><td>
-
-The page to which users are redirected when they select a record in the widget. You can specify either a page name or a full dynamic URL that resolves the target page, table, and record at runtime based on the record type.Example: `"target_page": "portal_contact"`
-
-Full dynamic URL — Generates the URL at runtime based on the record type. Use the following formats depending on the type of record:
-
--   Referenced "target\_page": `"id=example_page_id&table={reference_field.sys_class_name}&view=example_view_name"`
--   Child \(extended\) table "target\_page":`"id=example_page_id&table={sys_class_name}&view=example_view_name"`
--   Parent table "target\_page": `"id=example_page_id&table=parent_table&view=example_view_name"`
--   Same table "target\_page": `"id=example_page_id"`
-
-If both `target_page` and `target_page_id` are configured, `target_page` takes precedence.
-
-**Note:** This parameter is optional. If neither `target_page` nor `target_page_id` is configured, the widget falls back to the value defined in `record_view_page`.
-
-</td></tr><tr><td>
-
 pre\_defined\_filters"filter\_name":"Value",
 
 </td><td>
 
-Display cases which are in New, Closed, Open, or Awaiting Info state in any selected category. These filters appear as tabs in the widget. Only Open and Closed case are included by default in the JSON code. The available values are:-   filter\_name: Name of the filter tab
+Display cases which are in New, Closed, Open, or Awaiting Info state in any selected category. These filters appear as tabs in the widget. Only Open and Closed case are included by default in the JSON code. The available values are:-   filter\_name: Name of the filter tab.
 -   Value: Name of the case state such as New, Closed, Open, or Awaiting Info.
 
 This parameter is optional.
@@ -204,7 +185,7 @@ Values from the defined table for the column parameter. The available values are
 
 </td><td>
 
-Used to filter the records using a query defined in label and query parameters. For example, you can display case records that have been updated in the last month, last 3 months, or last 6 months.The range configuration is:
+Filters the records using a query defined in the label and query parameters. For example, you can display case records that have been updated in the last month, last 3 months, or last 6 months.The range configuration is:
 
 -   Label: Name of the filter option
 -   Query: Query that defines a set of values grouped under a label
@@ -223,9 +204,9 @@ This parameter is optional.
 
 </td><td>
 
-Used to display data list according to the role of the logged in user. List the roles in an array to map multiple roles to the same view. All roles in that array share the same view.
+Displays the data list according to the role of the logged-in user. List the roles in an array to map multiple roles to the same view. All roles in that array share the same view.
 
-For example, if you want both support agents and service managers to see the same case view, assign the same view \(such as `"agent_case_view"`\) to both roles within an array.
+For example, if you want both support agents and service managers to see the same case view, assign the same view to both roles within an array. Use a view such as `"agent_case_view"`.
 
 When a user has multiple roles the system uses the first matching view it finds.
 
@@ -237,13 +218,13 @@ This parameter is optional.
 
 </td><td>
 
-Used to display items for guest users or not logged in users. Map the view you want to display for the guest users.To make the items available to guest users, you must set these to public:
+Displays items for guest users or users who aren't logged in. Map the view you wish to display for the guest users.To make the items available to guest users, you must set these to public:
 
 -   Portal Data List widget.
--   Page containing widget \(For example, Cases and Tasks\)
--   Page content instance
+-   Page containing widget \(for example, Cases and Tasks\).
+-   Page content instance.
 
-For details, see [Configure public access on the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-guest-access.md).
+For details, see [Configure public access on the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-guest-access.md).
 
 This parameter is optional.
 
@@ -253,7 +234,7 @@ This parameter is optional.
 
 </td><td>
 
-Used for first‑load sorting of Data List.This parameter is optional.
+Sorts the data list when it first loads.This parameter is optional.
 
 </td></tr><tr><td>
 
@@ -261,11 +242,75 @@ Used for first‑load sorting of Data List.This parameter is optional.
 
 </td><td>
 
-Order of sorting the data list. Default is ascending.This parameter is optional.
+Sort order for the data list. Default is ascending.This parameter is optional.
+
+</td></tr><tr><td>
+
+show\_all\_reference\_filter\_values
+
+</td><td>
+
+Controls how dropdown values are populated for a reference-type runtime filter column. Applies per reference column, per category. The default value is `false`.The available options are:
+
+-   **False** \(default\): The dropdown shows only reference values that appear in the current list.
+-   **True**: The dropdown shows every value in the referenced table that the user has access to, including values that no record in the current list points to.
+
+For guidance on when to enable this parameter, see [Best practices for runtime filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-datalist-widget-data-json.md).
+
+This parameter is optional.
+
+</td></tr><tr><td>
+
+scope\_runtime\_filters\_to\_sub\_category
+
+</td><td>
+
+Controls whether runtime filter dropdowns are scoped to the records in the active subcategory tab. Applies when subcategories are configured. The default value is `false`.The available options are:
+
+-   **False** \(default\): Filter dropdowns show values from across all subcategory records, and selected filters persist when switching tabs.
+-   **True**: Filter dropdowns show only the values present in the active subcategory's records. Switching subcategory tabs resets any selected filters.
+
+For guidance on when to enable this parameter, see [Best practices for runtime filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-datalist-widget-data-json.md).
+
+This parameter is optional.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>## Best practices for runtime filters
+
+Some field types work well as runtime filters. Others produce unusable dropdowns or slow load times.
+
+Use these field types as filters:
+
+-   Choice or state fields with a bounded set of values, such as Priority, State, or Category.
+-   Reference fields that users naturally filter by, such as Account, Assignment Group, or Contact.
+-   Date fields configured with ranges, such as "updated in the last month."
+
+Avoid these field types as filters:
+
+-   Free-text fields such as Short description or Work notes, since each unique value makes the dropdown unusable and slows load times.
+-   High-cardinality fields that don't work as filters, such as Number, sys\_id, or raw timestamps.
+-   Fields that the user's role can't read due to ACLs, which return empty or partial dropdowns.
+
+## When to enable show\_all\_reference\_filter\_values
+
+Set this option to `true` when:
+
+-   You want to filter by any valid value in a reference field, not only values in the current list.
+-   The referenced table holds less than about 2,000 records, so loading the full set of accessible values stays fast.
+
+Set this option to `false` \(default\) when reference values in the list are few. Users can filter by values in the current results. This keeps the dropdown focused and concise.
+
+## When to enable scope\_runtime\_filters\_to\_sub\_category
+
+Set this option to `true` when subcategories hold clearly distinct sets of records and filter options should stay relevant to the active tab.
+
+Set this option to `false` \(default\) when:
+
+-   You need one consistent set of filter values across all subcategories.
+-   Filter continuity matters across tabs, since enabling this option resets active filter selections when a user switches tabs.
+
+**Related topics**  
 
 
-[Add and configure the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.md)
+[Add and configure the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.md)
 

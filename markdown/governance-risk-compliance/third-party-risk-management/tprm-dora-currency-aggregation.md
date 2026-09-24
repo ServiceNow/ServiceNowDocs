@@ -1,21 +1,21 @@
 ---
-title: Currency conversion and third-party total expense aggregation
-description: During report generation, the Register of Information \(RoI\) can standardize contract annual expenses by converting amounts to a base currency and aggregating totals per eligible third-party provider or engagement. The RoI is a regulatory reporting requirement under the Digital Operational Resilience Act \(DORA\) and is supported by the Digital Resilience Third-party Information Register application in the Vendor Management Workspace application.
+title: Currency conversion and third-party expense aggregation
+description: During report generation, the Register of Information \(RoI\) converts contract annual expenses to a base currency. It then aggregates totals per eligible third-party provider or engagement. The RoI is a regulatory reporting requirement under the Digital Operational Resilience Act \(DORA\) and is supported by the Digital Resilience Third-party Information Register application in the Vendor Management Workspace application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [DORA, Register of Information, currency conversion, ECB exchange rates, third-party aggregation, Plain-CSV reporting package]
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
-# Currency conversion and third-party total expense aggregation
+# Currency conversion and third-party expense aggregation
 
-During report generation, the Register of Information \(RoI\) can standardize contract annual expenses by converting amounts to a base currency and aggregating totals per eligible third-party provider or engagement. The RoI is a regulatory reporting requirement under the Digital Operational Resilience Act \(DORA\) and is supported by the Digital Resilience Third-party Information Register application in the Vendor Management Workspace application.
+During report generation, the Register of Information \(RoI\) converts contract annual expenses to a base currency. It then aggregates totals per eligible third-party provider or engagement. The RoI is a regulatory reporting requirement under the Digital Operational Resilience Act \(DORA\) and is supported by the Digital Resilience Third-party Information Register application in the Vendor Management Workspace application.
 
 ## Currency and aggregation overview
 
@@ -31,7 +31,7 @@ Currency conversion converts each contract’s annual expense into a single base
 
 Enable conversion when contracts span multiple currencies, when reporting requires a standardized currency, or when you plan to aggregate provider totals but contract currencies are inconsistent. Disable it when all amounts already use the base currency or when preserving original currencies is required.
 
-When conversion is enabled, the system produces a Currency Conversion Summary Report and, if any conversion fails \(for example, because a rate is unavailable or a currency code is invalid\), a Currency Conversion Detail Report.
+When conversion is enabled, the system produces a Currency Conversion Summary Report. If any conversion fails \(for example, because a rate is unavailable or a currency code is invalid\), the system also produces a Currency Conversion Detail Report.
 
 General guidelines:
 
@@ -73,7 +73,7 @@ Conversion-related reports appear only when currency conversion is enabled. Aggr
 **Related topics**  
 
 
-[Convert and aggregate contractual expenses to regulator-required currencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-report-aggregate-expenses.md)
+[Aggregate contractual expenses in required currencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-report-aggregate-expenses.md)
 
-[Register of information regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-roi.md)
+[Register of information regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-roi.md)
 

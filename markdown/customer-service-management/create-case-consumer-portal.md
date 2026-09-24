@@ -3,11 +3,11 @@ title: Create a case from the Consumer Service Portal
 description: As a user with the consumer role, you can create cases from the Consumer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-consumer-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Create a case from the Consumer Service Portal
@@ -17,10 +17,6 @@ As a user with the consumer role, you can create cases from the Consumer Service
 ## Before you begin
 
 Role required: sn\_customerservice.consumer
-
-## About this task
-
-Creating a case logs your issue with the support team so an agent can track and resolve it. You can create a case for a specific product or order, and attach supporting files to help the agent understand the issue.
 
 ## Procedure
 
@@ -52,7 +48,7 @@ The new case is created and added to the Cases list. To view the case, select th
 **Related topics**  
 
 
-[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-consumer-portal.md)
+[View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-cases-consumer-portal.md)
 
-[Chat with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-chat-agent-consumer-portal.md)
+[Chat with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/start-chat-agent-consumer-portal.md)
 

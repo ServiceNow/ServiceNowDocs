@@ -1,18 +1,19 @@
 ---
-title: Tables installed with AI Risk and Compliance
+title: System tables
 description: Tables are added with the activation of the AI Risk and Compliance application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/tables-installed-with-ai-risk-and-compliance.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [tables installed, AI Risk and Compliance tables, database tables]
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
-# Tables installed with AI Risk and Compliance
+# System tables
 
 Tables are added with the activation of the AI Risk and Compliance application.
 
@@ -67,5 +68,5 @@ AI case
 Consolidates AI-related cases and inquiries, providing a comprehensive view of all AI engagements and support requests.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
+</table>**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 

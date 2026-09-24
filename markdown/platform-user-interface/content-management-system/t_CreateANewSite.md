@@ -3,11 +3,11 @@ title: Create a site
 description: Configure a site by either creating a new site with CMS or by editing a copy of either the ESS Portal or the Service Management Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CreateANewSite.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Content sites, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: content\_admin or admin
 
 ## About this task
 
-If you are creating a catalog site in CMS, see [Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/p_ConfigureContentManagementSystem.md).
+If you are creating a catalog site in CMS, see [Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/p_ConfigureContentManagementSystem.md).
 
 ## Procedure
 
@@ -138,7 +138,7 @@ Use external cart
 
 </td><td>
 
-Option to omit the default cart when rendering catalog pages within a site that contains catalog pages. Provide a [catalog cart block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CatalogCartBlock.md) somewhere on the site to allow users to make catalog requests.**Note:** If you use an external cart, the no cart check box on a service catalog item has no effect. The external cart appears for all items.
+Option to omit the default cart when rendering catalog pages within a site that contains catalog pages. Provide a [catalog cart block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_CatalogCartBlock.md) somewhere on the site to allow users to make catalog requests.**Note:** If you use an external cart, the no cart check box on a service catalog item has no effect. The external cart appears for all items.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.
@@ -148,10 +148,10 @@ Option to omit the default cart when rendering catalog pages within a site that 
 
 The following is the site record for the ESS Portal:\[Omitted image "Site.png"\] Alt text: ESS Portal site record
 
-**Parent Topic:**[Content sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentSite.md)
+**Parent Topic:**[Content sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentSite.md)
 
 **Related topics**  
 
 
-[Copy a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CopyASite.md)
+[Copy a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_CopyASite.md)
 

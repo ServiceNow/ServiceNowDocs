@@ -3,11 +3,11 @@ title: Activate Business Stakeholder
 description: Activate the Business Stakeholder plugin \(com.snc.business\_stakeholder\) if you have an admin role. This plugin installs the Business Stakeholder role. Users with this role can view and approve records at all ITSM product levels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-business-stakeholders-change.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Activate the Business Stakeholder plugin \(com.snc.business\_stakeholder\) if yo
 
 Role required: admin
 
-**Note:** Ensure that ITSM Roles plugin \(com.snc.itsm.roles\) is activated before you activate the Business Stakeholder plugin. For more information to activate ITSM Roles plugin, refer [Request ITSM Roles- Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/request-itsm-roles-cm.md).
+**Note:** Ensure that ITSM Roles plugin \(com.snc.itsm.roles\) is activated before you activate the Business Stakeholder plugin. For more information to activate ITSM Roles plugin, refer [Request ITSM Roles- Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/request-itsm-roles-cm.md).
 
 ## Procedure
 
@@ -34,19 +34,19 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
--   **[Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/installed-with-business-stakeholder.md)**  
+-   **[Installed with Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-management/installed-with-business-stakeholder.md)**  
 The Business Stakeholder plugin \(com.snc.business\_stakeholder\) installs the Business Stakeholder role when activated.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-plugins.md)
 
-**Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-mgmt-plugins.md)
+**Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-mgmt-plugins.md)
 
-**Parent Topic:**[Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-plugins.md)
+**Parent Topic:**[Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-mgmt-plugins.md)
 
-**Parent Topic:**[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-management-reference.md)
+**Parent Topic:**[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-management/request-management-reference.md)
 
 **Related topics**  
 
@@ -93,5 +93,5 @@ The Business Stakeholder plugin \(com.snc.business\_stakeholder\) installs the B
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

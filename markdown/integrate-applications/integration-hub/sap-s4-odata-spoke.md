@@ -3,7 +3,7 @@ title: SAP S4 HANA OData spoke
 description: The SAP S4 HANA OData spoke is built by Bristlecone, Inc. Manage items, journals, procurements, and transactions in the SAP S4 HANA OData account from your ServiceNow instance.Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sap-s4-odata-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -37,7 +37,7 @@ This spoke was tested with SAP S/4HANA version 2023.
 -   SAP S4 HANA OData account
 -   Configure the value of this system property:
 
-    **com.snc.process\_flow.reporting.serialized.val\_size\_limit**: This property serializes JSON objects and ensures that the data is in the required format. Specify the number of bytes as per your requirement. For more information, see [Workflow Studio system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-system-properties.md).
+    **com.snc.process\_flow.reporting.serialized.val\_size\_limit**: This property serializes JSON objects and ensures that the data is in the required format. Specify the number of bytes as per your requirement. For more information, see [Workflow Studio system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-designer-system-properties.md).
 
 
 ## Spoke dependencies

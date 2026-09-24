@@ -3,11 +3,11 @@ title: Create an investment entity
 description: Create an entity for investments through which you can receive or allocate funds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/create-funding-entity.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Investment Funding administration, Investment Funding, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_invst\_pln\_v2.investment\_admin
 
 1.  Navigate to **All** &gt; **Investment Funding** &gt; **Setup** &gt; **Investment Entities**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -101,7 +101,7 @@ Owner field
 
 Any user field in the transaction table mapped to the investment owner field.
 
- The user on the mapped field is automatically assigned as the investment owner when you're creating an investment.
+ The user on the mapped field is automatically assigned as the investment owner when you are creating an investment.
 
  For example, for a Project investment entity, you could map the Project manager field as the investment owner field.
 
@@ -150,13 +150,13 @@ Condition to filter users that are listed in the **Owner** field in the Investme
 
 ## What to do next
 
--   Create funding artifacts to [create a business rule to synchronize investment and investment entity owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/enable-funding-owner-sync.md) or to [add a related link on the investment target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/create-funding-artifacts.md).
--   Create [a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/create-top-level-investment.md) or [an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/create-investment.md) for an investment entity.
+-   Create funding artifacts to [create a business rule to synchronize investment and investment entity owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/enable-funding-owner-sync.md) or to [add a related link on the investment target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/create-funding-artifacts.md).
+-   Create [a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/create-top-level-investment.md) or [an investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/create-investment.md) for an investment entity.
 
--   **[Enable investment and investment entity owner sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/enable-funding-owner-sync.md)**  
+-   **[Enable synchronization of investment and investment entity owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/enable-funding-owner-sync.md)**  
 Create a business rule for an investment entity that synchronizes the investment owner with the investment entity owner. If you update the name of the investment entity owner, the owner of the corresponding investment and the **Viewable by** field for the investment is automatically updated.
--   **[Access investments directly from an investment target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/create-funding-artifacts.md)**  
+-   **[Access investments directly from an investment target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/create-funding-artifacts.md)**  
 Create a related link to go directly to the My Funds page from an investment target.
 
-**Parent Topic:**[Investment Funding administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-administration.md)
+**Parent Topic:**[Investment Funding administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/investment-funding-administration.md)
 

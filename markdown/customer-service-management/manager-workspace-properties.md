@@ -3,9 +3,9 @@ title: Manager Workspace properties
 description: Modify the Manager Workspace configuration by customizing the system properties to set the Alerts card limit and the widget refresh interval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manager-workspace-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -57,5 +57,5 @@ Set the inactivity period \(in days\) after which an interaction is closed if no
 -   Location: **All****&gt; System Properties****&gt; All Properties**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+</table>**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-configurable-wfo-cs.md)
 

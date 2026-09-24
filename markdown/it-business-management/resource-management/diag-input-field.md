@@ -3,11 +3,11 @@ title: Diagnostics Inputs form
 description: Use the Diagnostics Inputs form fields to specify a filter condition for a user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/diag-input-field.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Diagnostics Feature form, Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -23,5 +23,5 @@ Use the Diagnostics Inputs form fields to specify a filter condition for a user.
 |Table|Name of the table on which the query specified in the condition should run.|
 |Key|An identifier for the user input condition. If a user specifies multiple conditions, this key acts as a unique identifier for each condition. You can use this key as the input for the **scanContext** section of the diagnostic script.|
 
-**Parent Topic:**[Diagnostics Feature form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/diag-feature-form.md)
+**Parent Topic:**[Diagnostics Feature form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/diag-feature-form.md)
 

@@ -3,11 +3,11 @@ title: Edit security tags in the ServiceNow AI Platform for the McAfee ePO integ
 description: As part of the setup for the integration, edit the security tag names that you created in your McAfee ePO console in your ServiceNow AI Platform instance. Edit the tag names in your ServiceNow AI Platform instance so that they match the names of the tags in your McAfee ePO console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-match-tags.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ The security tag names in your McAfee ePO console for the initiate malware scan 
 
 Before you create a capability profile to run your capabilities, view the list of available McAfee ePO capabilities and edit the security tags in your ServiceNow AI Platform instance so that they match the security tag names in your McAfee ePO console.
 
-For more information about creating the security tag names in your McAfee ePO console, see [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-setup-mcafee.md).
+For more information about creating the security tag names in your McAfee ePO console, see [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcafee-epo-setup-mcafee.md).
 
 ## Procedure
 
@@ -69,11 +69,11 @@ For more information about creating the security tag names in your McAfee ePO co
     You have successfully edited the EPO Tag Names for the malware scan and the isolate host capabilities in your ServiceNow AI Platform instance. The next step is to create a profile for your capabilities.
 
 
-**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Install the application and configure a server for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffe-epo-install.md)
+**Previous topic:**[Install the application and configure a server for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mcaffe-epo-install.md)
 
-**Next topic:**[Create an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-approval-group-mcafee.md)
+**Next topic:**[Create an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-approval-group-mcafee.md)
 
 **Related topics**  
 

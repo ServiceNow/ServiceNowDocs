@@ -3,9 +3,9 @@ title: Message body size limit properties
 description: Add properties to control the maximum email body size allowed for inbound and outbound email messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_EmailBodySizeLimitProperties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Email size limits, Reference, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -69,10 +69,10 @@ For outbound emails, the system enforces the maximum body size as set by the **g
 -   The system truncates the Body text on the Email form.
 -   The system logs a warning and sets the Error string field on the Email form. The log message for such an email might look like this: `Email set to send-ignored because its size exceeds the value set in **glide.email.outbound.max\_body\_chars**. 1337 character(s) were truncated from the body field.`
 
-**Parent Topic:**[Email size limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailAttachmentLimits.md)
+**Parent Topic:**[Email size limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailAttachmentLimits.md)
 
 **Related topics**  
 
 
-[Advanced email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdditionalProperties.md)
+[Advanced email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AdditionalProperties.md)
 

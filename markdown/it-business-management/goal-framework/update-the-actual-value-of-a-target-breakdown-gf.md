@@ -3,11 +3,11 @@ title: Update the actual value of a target breakdown
 description: Update the actual value of a target breakdown when its status is changed. Updating the actual value of a target breakdown automatically updates the actual value of its target. After the Actual field of the target is updated, the progress value for the target and its goal is auto-updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/update-the-actual-value-of-a-target-breakdown-gf.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Target breakdowns, Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_gf.goal\_user
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d270341e62">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d271385e62">
 
 Option
 
-</th><th align="left" id="d270341e65">
+</th><th align="left" id="d271385e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d270341e71">
+</th></tr></thead><tbody><tr><td id="d271385e71">
 
 **From the Targets related list**
 
@@ -47,7 +47,7 @@ Steps
 3.  From the Quantitative Targets related list, open the required target record.
 
 
-</td></tr><tr><td id="d270341e101">
+</td></tr><tr><td id="d271385e101">
 
 **From the Targets module**
 
@@ -60,19 +60,19 @@ Steps
 </td></tr></tbody>
 </table>2.  On the Target form, update the **Actual** field and add a business justification in the **Remark** field.
 
-    For field information, see [Target Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-breakdown-form.md).
+    For field information, see [Target Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/target-breakdown-form.md).
 
 3.  Select **Update**.
 
 
 ## Result
 
-After the **Actual** field is updated, the progress value for the target and its goal is auto-updated. For information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/progress-value-calculation.md). For information on how the actual value of the target breakdown is rolled up to its target, see [Target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-breakdowns-gf.md).
+After the **Actual** field is updated, the progress value for the target and its goal is auto-updated. For information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/progress-value-calculation.md). For information on how the actual value of the target breakdown is rolled up to its target, see [Target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/target-breakdowns-gf.md).
 
 **Related topics**  
 
 
-[Update the progress of a manual target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/update-progress-of-target.md)
+[Update the progress of a manual target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/update-progress-of-target.md)
 
-[Update the progress of a target using Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/update-progress-of-target-agf.md)
+[Update the progress of a target using Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/update-progress-of-target-agf.md)
 

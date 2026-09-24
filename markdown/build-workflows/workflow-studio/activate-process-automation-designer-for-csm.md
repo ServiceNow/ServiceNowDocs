@@ -3,11 +3,11 @@ title: Activate Playbooks for Customer Service Management \(CSM\)
 description: Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by CSM tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/activate-process-automation-designer-for-csm.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -60,7 +60,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -80,7 +80,7 @@ Select the date and time to activate the plugin.
 
 ## Result
 
-Enabling the **Playbooks for Customer Service Management \[com.sn\_csm\_playbook\]** plugin lets you create playbooks for these tables and their [extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension-and-classes.md):
+Enabling the **Playbooks for Customer Service Management \[com.sn\_csm\_playbook\]** plugin lets you create playbooks for these tables and their [extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-extension-and-classes.md):
 
 -   Account \[customer\_account\]
 -   Case \[sn\_customerservice\_case\]
@@ -100,5 +100,5 @@ Enabling the **Playbooks for Customer Service Management \[com.sn\_csm\_playbook
 
 **Note:** If you create a custom table that extends a CSM table such as Case, you can create playbooks that trigger from it.
 
-**Parent Topic:**[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md)
+**Parent Topic:**[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md)
 

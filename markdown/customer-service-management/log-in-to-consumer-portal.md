@@ -3,9 +3,9 @@ title: Log in to the Consumer Portal
 description: Log in to the Consumer Portal to access your cases, products, and profile information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/log-in-to-consumer-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -38,7 +38,7 @@ You’re logged in to the Consumer Portal and your name and profile picture appe
 **Related topics**  
 
 
-[Register for the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/consumer-portal-registration.md)
+[Register for the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/consumer-portal-registration.md)
 
-[Change your password from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/password-change-consumer-portal.md)
+[Change your password from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/password-change-consumer-portal.md)
 

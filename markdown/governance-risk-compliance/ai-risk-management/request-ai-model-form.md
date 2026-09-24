@@ -3,12 +3,13 @@ title: Request an AI model form
 description: The Request an AI model form is designed to streamline the request process for developing or procuring an AI model. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/request-ai-model-form.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [request AI model, AI model form, AI model intake]
 breadcrumb: [Request an AI model, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -44,7 +45,7 @@ State
 
 </td><td>
 
-Indicates whether the AI model is in a draft, development, or deployed state. For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-asset-lifecycle.md).
+Indicates whether the AI model is in a draft, development, or deployed state. For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-asset-lifecycle.md).
 
 </td></tr><tr><td>
 
@@ -206,5 +207,5 @@ Required infrastructure
 Description of the Hardware and software resources needed to deploy and run the AI model. For example, you can mention that one graphics processing unit \(GPU\) of type A100 is required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-model.md)
+</table>**Parent Topic:**[Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-model.md)
 

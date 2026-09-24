@@ -3,11 +3,11 @@ title: Multi-factor Authentication with Single Sign-On
 description: You can use MFA with an SSO provider for your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-sso.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -36,5 +36,5 @@ You can enforce MFA for the following conditions:
 -   Authentication Scheme
 -   Identity Provider
 
-MFA with SSO is offered as a part of the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\). To know more on how to set up Adaptive Authentication, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication.md).
+MFA with SSO is offered as a part of the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\). To know more on how to set up Adaptive Authentication, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/adaptive-authentication.md).
 

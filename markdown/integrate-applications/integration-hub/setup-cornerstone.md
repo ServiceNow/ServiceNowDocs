@@ -3,7 +3,7 @@ title: Set up the Cornerstone spoke
 description: Integrate your Cornerstone application with your ServiceNow instance. Register an OAuth application in Cornerstone and authenticate requests from ServiceNow.Register an application in the Cornerstone instance and record the generated Client ID and Client Secret for later use.Add and configure a Cornerstone connection to authenticate ServiceNow requests in Cornerstone spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-cornerstone.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

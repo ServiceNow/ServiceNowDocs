@@ -3,9 +3,9 @@ title: Search the customer service community
 description: Use the customer service portal to search the community site or view a list of recent discussion topics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_SearchTheCommunity.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Search for information, Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -42,7 +42,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 **Related topics**  
 
 
-[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheKnowledgeBase.md)
+[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_SearchTheKnowledgeBase.md)
 
-[Search for information on customer service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchForInfoUsingThePortal.md)
+[Search for information on customer service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_SearchForInfoUsingThePortal.md)
 

@@ -3,9 +3,9 @@ title: Value and feedback
 description: The Value and feedback tab helps you assess the impact and user satisfaction of the L1 IT Service Desk AI Specialist by tracking adoption trends, customer sentiment, and direct user feedback.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/perf-value-feedback.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View the performance, Use, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

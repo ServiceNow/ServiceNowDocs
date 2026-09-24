@@ -3,9 +3,9 @@ title: Exploring generating documents from diagrams
 description: Generating documents for a diagram helps you to transform modeling diagrams into governed, reusable architectural documents using predefined templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/generate-doc-from-diagram.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -29,12 +29,12 @@ Generating documents from diagrams helps you to:
 -   Provides portfolio‑level visibility of diagram‑generated documents
 -   Supports review, approval, and distribution workflows
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/explore-eaw.md)
 
 **Related topics**  
 
 
-[Generate a document from a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-documents-for-diagrams.md)
+[Generate a document from a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/create-documents-for-diagrams.md)
 
-[View documents for a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-docs-for-diagram.md)
+[View documents for a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/view-docs-for-diagram.md)
 

@@ -3,9 +3,9 @@ title: Custom payload in alerts integration
 description: Instance Observer integrations enable you to define and manage custom JSON request payload for ServiceNow and third-party integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/custom-payload-help-guide-impact.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -118,5 +118,5 @@ Example: Third-party request body:
     Sends a sample notification to verify webhook integration.
 
 
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/io-alerts-intro.md)
 

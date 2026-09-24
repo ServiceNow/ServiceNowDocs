@@ -3,7 +3,7 @@ title: Configure record tab order in Grants Proposal Playbook
 description: You can control the display order of tabs on the Grant Program Record Page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-gpp-tab-order.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 1

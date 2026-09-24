@@ -3,11 +3,11 @@ title: Components installed with Health Log Analytics
 description: Activating the Health Log Analytics, Health Log Analytics Viewer and Health Log Analytics Core plugins adds several components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-components.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, I
 
 Activating the Health Log Analytics, Health Log Analytics Viewer and Health Log Analytics Core plugins adds several components.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Plugins
 
@@ -39,7 +39,7 @@ Health Log Analytics is an AI-powered log analysis solution capable of preventin
  Dependency:
 
  -   Health Log Analytics Core
--   The ServiceNow® [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md) application
+-   The ServiceNow® [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EM.md) application
 
 </td></tr><tr><td>
 
@@ -47,7 +47,7 @@ Health Log Analytics Viewer
 
 </td><td>
 
-Event Management operators use the Health Log Analytics Viewer plugin to browse logs by timestamp or time range. Health Log Analytics Viewer enables Event Management operators to search for a specific log text and visualize the frequency of hits in a particular time period.Dependency: The ServiceNow® [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md) application.
+Event Management operators use the Health Log Analytics Viewer plugin to browse logs by timestamp or time range. Health Log Analytics Viewer enables Event Management operators to search for a specific log text and visualize the frequency of hits in a particular time period.Dependency: The ServiceNow® [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EM.md) application.
 
 </td></tr><tr><td>
 
@@ -57,7 +57,7 @@ Health Log Analytics Core
 
 This plugin contains essential components for Health Log Analytics, such as the AI Engine and Elasticsearch.Health Log Analytics Core is a ServiceNow Store app. Once installed, the module is available, but you can choose not to interact with it.
 
- Dependency: The ServiceNow® [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md) application.
+ Dependency: The ServiceNow® [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EM.md) application.
 
 </td></tr></tbody>
 </table>## Roles
@@ -258,5 +258,5 @@ Health Log Analytics adds the following forms.
 |Windows Beats \[sn\_occ\_data\_input\_connector\_winbeat\]|Enables configuring Windows Beats data input connectors.|
 |WinLog Beats \[sn\_occ\_data\_input\_connector\_winlogbeat\]|Enables configuring WinLog Beats data input connectors.|
 
-**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-reference.md)
 

@@ -3,9 +3,9 @@ title: Upload an email certificate
 description: Upload an email certificate to validate a signature for inbound email or encrypt an outbound email or both for secure communication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upload-email-certificate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up S/MIME, Email encryption, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -47,9 +47,9 @@ Role required: admin
 
 ## What to do next
 
-Enable[Enable S/MIME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-smime-for-outbound-and-inbound.md).
+Enable[Enable S/MIME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/enable-smime-for-outbound-and-inbound.md).
 
-**Parent Topic:**[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/smime-for-email-signing-and-encryption.md)
+**Parent Topic:**[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/smime-for-email-signing-and-encryption.md)
 
 **Related topics**  
 

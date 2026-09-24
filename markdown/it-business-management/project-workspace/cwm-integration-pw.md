@@ -3,11 +3,11 @@ title: Project Workspace integration with CWM
 description: Track team execution alongside your project plan by displaying Collaborative Work Management \(CWM\) tasks and stories linked to your project tasks directly on the planning page. Team members continue working in CWM, while you keep visibility in Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/cwm-integration-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CWM integration, connected work, project execution, team collaboration]
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
@@ -23,8 +23,8 @@ The integration between Project Workspace and Collaborative Work Management \(CW
 
 The integration is available when both applications are installed and active in your instance.
 
--   Collaborative Work Management \(CWM\) v10.2.0 and later. For installation, see [Install Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/install-cwm.md).
--   Project Workspace v7.5.0 and later. For installation, see [Install Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/install-project-workspace.md).
+-   Collaborative Work Management \(CWM\) v10.2.0 and later. For installation, see [Install Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/install-cwm.md).
+-   Project Workspace v7.5.0 and later. For installation, see [Install Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/install-project-workspace.md).
 
 When both applications are active, the **Show connected tasks** toggle is available in Settings on the planning page of a Project. Turning this toggle on displays the connected CWM tasks and stories within their parent project tasks.
 
@@ -53,17 +53,17 @@ The integration is designed so that project managers and team members can work i
 
 Connected CWM tasks and stories appear as child rows under each project task. The display is controlled by a per-user setting that is enabled by default. For more details, see the following:
 
--   [Show or hide connected CWM tasks on the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/show-hide-connected-tasks-in-planner-pw.md).
--   [Show or hide connected CWM tasks on the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/show-hide-connected-tasks-in-planner-pw.md).
+-   [Show or hide connected CWM tasks on the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/show-hide-connected-tasks-in-planner-pw.md).
+-   [Show or hide connected CWM tasks on the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/show-hide-connected-tasks-in-planner-pw.md).
 
 ## Team member view in CWM
 
-Team members work with the same connected items from within CWM. For details on the CWM side of the integration, such as creating, moving, and viewing connected work, see [CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md).
+Team members work with the same connected items from within CWM. For details on the CWM side of the integration, such as creating, moving, and viewing connected work, see [CWM integration with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/connect-project-workspace-cwm.md).
 
--   **[Connected CWM work on the project planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/connected-cwm-work-in-planner-pw.md)**  
+-   **[Connected CWM work on the project planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/connected-cwm-work-in-planner-pw.md)**  
 Understand how the connected Collaborative Work Management \(CWM\) tasks are displayed on your project's planning page.
--   **[Show or hide connected CWM tasks on the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/show-hide-connected-tasks-in-planner-pw.md)**  
+-   **[Show or hide connected CWM tasks on the planning page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/show-hide-connected-tasks-in-planner-pw.md)**  
 Enable or disable the display of connected Collaborative Work Management \(CWM\) tasks and stories on the Project planning page.
 
-**Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-landing-page.md)
+**Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-workspace-landing-page.md)
 

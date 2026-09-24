@@ -3,11 +3,11 @@ title: Customer contact self-registration on Business Portal
 description: The self-registration feature enables new customer contacts to submit registration requests through the business portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_Business-PortalSelfRegistration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Customer contact self-registration on Business Portal
@@ -27,5 +27,5 @@ The administrator creates a unique registration code for each account and stores
 **Related topics**  
 
 
-[Example: The default self-service Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SelfServicePasswordReset.md)
+[Example: The default self-service Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SelfServicePasswordReset.md)
 

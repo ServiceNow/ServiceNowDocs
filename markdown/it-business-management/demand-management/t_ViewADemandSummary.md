@@ -3,11 +3,11 @@ title: View a demand summary
 description: Hover over a bubble in the demand workbench bubble chart to display a summary of the demand information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_ViewADemandSummary.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View demands, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -40,5 +40,5 @@ Role required: it\_demand\_manager
     -   Several bubbles intersect and overlap.
     -   A bubble is only partially visible on the edge of the bubble chart.
 
-**Parent Topic:**[View demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_ViewDemands.md)
+**Parent Topic:**[View demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_ViewDemands.md)
 

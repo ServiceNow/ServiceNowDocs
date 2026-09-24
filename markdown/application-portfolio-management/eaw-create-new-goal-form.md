@@ -1,19 +1,18 @@
 ---
 title: Create goal form
-description: Use the Goal form to create goals for organizational strategic priorities.
+description: Use the Goal form to create goals for your organizational strategic priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-new-goal-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2024-07-03"
-reading_time_minutes: 2
-keywords: [goals, strategic priorities, goal form]
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create goal form
 
-Use the Goal form to create goals for organizational strategic priorities.
+Use the Goal form to create goals for your organizational strategic priorities.
 
 <table id="table_ogv_rzz_xbc"><thead><tr><th>
 
@@ -45,7 +44,7 @@ Start date
 
 </td><td>
 
-Start date for the goal. The start date of the current quarter is automatically set.
+Start date for the goal. By default, the start date of the current quarter is populated.
 
 </td></tr><tr><td>
 
@@ -53,7 +52,7 @@ Owner
 
 </td><td>
 
-Owner of the goal. The name of the user creating the goal is automatically set.
+Owner of the goal. By default, the name of the user creating the goal is populated.
 
 </td></tr><tr><td>
 
@@ -63,9 +62,9 @@ Status
 
 Status of the goal. The available options are:
 
- -   **Red**: Goal needs immediate attention.
--   **Yellow**: Target needs improvement.
--   **Green**: Target is on track.
+-   **Red**: Indicates that the goal needs immediate attention.
+-   **Yellow**: Indicates that the target needs improvement.
+-   **Green**: Indicates that the target is on track.
 -   **None**
 
 </td></tr><tr><td>
@@ -74,7 +73,7 @@ Impact on parent goal
 
 </td><td>
 
-Numerical value representing the importance of this goal relative to sibling goals or other goals under its parent goal. The value is automatically set to \(1\) Neutral.
+A numerical value that represents the importance of this goal relative to sibling goals or other goals under its parent goal. By default, the value is \(1\) Neutral.
 
  The available options are:
 
@@ -85,7 +84,7 @@ Numerical value representing the importance of this goal relative to sibling goa
 -   **\(4\) Very high**
 -   **\(5\) Maximum**
 
-**Note:** This field appears only when the **sn\_gf.weighted\_average\_enabled** property is set to **Yes**.
+**Note:** This field is available only when the **sn\_gf.weighted\_average\_enabled** system property is set to **Yes**.
 
 </td></tr><tr><td>
 
@@ -101,9 +100,7 @@ State
 
 </td><td>
 
-State of the goal. The available options are:
-
- -   **Draft**
+State of the goal. The available options are:-   **Draft**
 -   **In Progress**
 -   **Approved**
 -   **Complete**
@@ -125,7 +122,7 @@ End date
 
 </td><td>
 
-End date for the goal. The end date of the current quarter is automatically set.
+End date for the goal. By default, the end date of the current quarter is populated.
 
 </td></tr><tr><td>
 
@@ -135,7 +132,7 @@ Category
 
 Category of the goal. The available options are:
 
- -   **Total Applications**
+-   **Total Applications**
 -   **Total Cost**
 -   **Opex Capex**
 -   **Cloud Applications**
@@ -156,7 +153,7 @@ Progress
 
 </td><td>
 
-Percentage complete for the goal. The progress value is calculated automatically if the goal has subgoals, targets, or both.
+Percentage complete for the goal. The progress value is calculated automatically if the goal has subgoals or/and targets.
 
 </td></tr><tr><td>
 
@@ -175,18 +172,14 @@ Comments
 Detailed comments for the goal to facilitate collaboration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Exploring goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-goals.md)
+[Exploring goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-goals.md)
 
-[Add or edit a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-goal.md)
+[Add or edit a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-goal.md)
 
-[Create a sub-goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-sub-goal.md)
-
-[Add goal to driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-goal-to-driver.md)
-
-[Add a goal to a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-goal-to-business-capability.md)
+[Create a sub-goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-sub-goal.md)
 

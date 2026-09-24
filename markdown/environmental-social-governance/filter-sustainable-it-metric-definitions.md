@@ -3,9 +3,9 @@ title: Filter Sustainable IT metric definitions
 description: Apply the filter to obtain the metric definitions that are shipped with the Sustainable IT plugin. The filter must be applied to all the three types of metric definitions namely manual, automated, and calculated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/filter-sustainable-it-metric-definitions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Sustainable IT, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -35,5 +35,5 @@ Role required: admin
 6.  Select **Update**.
 
 
-**Parent Topic:**[Configure Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-sustainable-it.md)
+**Parent Topic:**[Configure Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-sustainable-it.md)
 

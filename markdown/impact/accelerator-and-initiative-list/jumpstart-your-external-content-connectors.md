@@ -3,11 +3,11 @@ title: Jumpstart Your External Content Connectors
 description: This Accelerator provides a demonstration of the possibilities and capabilities of External Content Connectors \(XCC\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-external-content-connectors.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -61,5 +61,5 @@ This Impact Accelerator in its entirety or portions of the Impact Accelerator ac
 
 ## Exclusions
 
-ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

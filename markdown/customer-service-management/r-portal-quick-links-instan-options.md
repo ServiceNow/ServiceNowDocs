@@ -3,9 +3,9 @@ title: Portal Quick Links widget instance options form
 description: The instance options enable you to configure the Portal Quick Links widget on a portal page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r-portal-quick-links-instan-options.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
@@ -46,7 +46,7 @@ Quick Links
 
 Field from which you can select the catalog items, knowledge articles, or URL to show as quick links on the widget.By default, this field is set to the pre-defined Quick Links from the sn\_ex\_sp\_quick\_link table.
 
-You can also create a quick link and add it to the Quick Links \[sn\_ex\_sp\_quick\_link\] table. For more information, see [Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-quick-links.md).
+You can also create a quick link and add it to the Quick Links \[sn\_ex\_sp\_quick\_link\] table. For more information, see [Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/create-quick-links.md).
 
 You can display title, short description, background image, and icon fields on the card in the widget.
 
@@ -91,7 +91,7 @@ The default display style is Thumbnail.
 </table>**Related topics**  
 
 
-[Portal Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-quick-links-widget.md)
+[Portal Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-quick-links-widget.md)
 
-[Add and configure the Portal Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-quick-links-widget-inst-optns.md)
+[Add and configure the Portal Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-quick-links-widget-inst-optns.md)
 

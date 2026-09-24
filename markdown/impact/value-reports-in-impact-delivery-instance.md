@@ -3,9 +3,9 @@ title: Value Reports in Impact Delivery Instance
 description: Your impact squad can work with you to calculate the operational or monetized value you have realized with ServiceNow in a Value Report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-reports-in-impact-delivery-instance.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -19,6 +19,8 @@ To access the value report in Impact Delivery Instance, navigate to **Impact** &
 **Note:** A product needs at least two years of data available before a Value Report can be generated for it.
 
 You may work with your squad to assess overall value realized with ServiceNow \(comparing pre and post-implementation performance\) if you can provide pre-ServiceNow baseline information for the success metrics.
+
+Value reports can be filtered using the instance, product line and outcome model filters.
 
 **Note:** Each Value Report reflects a single outcome model, either Standard or Enhanced, never a combination of the two. Since the outcome model is selected before outcomes are chosen, a product tracked under both models results in two separate reports, one for each model.
 
@@ -67,9 +69,9 @@ Value reporting actuals
 </td></tr></tbody>
 </table>## Upgrade to the Impact Store Application
 
-This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md) for more information.
+This feature is in the Impact Delivery Instance. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/install-impact-innovation-lab.md) for more information.
 
 **Note:** The Impact Delivery Instance, \[impact.servicenow.com\], won't include new features.
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/idi-reference.md)
 

@@ -3,11 +3,11 @@ title: Schedule dynamic task bundling
 description: Schedule dynamic bundling to run at a specified time with Field Service Task Bundling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/schedule-dynamic-task-bundling.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Task Bundling, Task Bundling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -38,7 +38,7 @@ Schedule and define the conditions used to bundle work order tasks dynamically. 
 
 5.  Select a Run type.
 
-    **Note:** For more information on Run types, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md).
+    **Note:** For more information on Run types, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ScheduleAScriptExecution.md).
 
 6.  Select **Update**.
 

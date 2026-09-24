@@ -3,11 +3,11 @@ title: Service Exchange Center
 description: Service Exchange center is a unified dashboard that consolidates connection health monitoring, issue resolution, and scan check management into a single interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/se-se-center.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Service Exchange Center, connection health, health dashboard, scan checks, resolution center]
 breadcrumb: [Explore, Service Exchange]
@@ -82,7 +82,7 @@ Service Exchange health dashboard is the part of Service Exchange Center and pro
 
 -   **Scan suites**
 
-    The Scan Suites tab provides access to automated health checks that detect issues and inconsistencies. To learn more about instance scan checks, see [Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-scan-checks.md).
+    The Scan Suites tab provides access to automated health checks that detect issues and inconsistencies. To learn more about instance scan checks, see [Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-scan-checks.md).
 
     Scan suites are organized into two categories:
 
@@ -106,7 +106,7 @@ Service Exchange health dashboard is the part of Service Exchange Center and pro
 **Related topics**  
 
 
-[Execute a scan suite as a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-execute-scan-check.md)
+[Execute a scan suite as a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-execute-scan-check.md)
 
-[Execute a scan suite as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-con-execute-scan-check.md)
+[Execute a scan suite as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-con-execute-scan-check.md)
 

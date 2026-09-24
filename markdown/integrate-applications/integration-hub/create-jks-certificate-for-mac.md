@@ -3,7 +3,7 @@ title: Generate the X.509 key pair and fingerprints on your Mac machine
 description: Generate the X.509 key pair and its fingerprint on your Mac machine that you upload to the Oracle HCM tenant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-jks-certificate-for-mac.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

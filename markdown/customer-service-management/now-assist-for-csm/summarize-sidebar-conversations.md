@@ -3,11 +3,11 @@ title: Summarize a Sidebar discussion by using ServiceNow Otto for Customer Serv
 description: Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/summarize-sidebar-conversations.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -33,7 +33,7 @@ You can do these actions by using Sidebar discussion summarization:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and open a customer service case that supports Sidebar discussion and summarization.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** and open a customer service case that supports Sidebar discussion and summarization.
 
 2.  Choose an existing discussion, or start a new discussion.
 
@@ -45,21 +45,25 @@ You can do these actions by using Sidebar discussion summarization:
 
     3.  Select **Start Discussion**.
 
+    \[Omitted image "now-assist-sidebar-discussion.png"\] Alt text: Modal to add participants for discussion.
+
 3.  Generate a summary of the Sidebar discussion during the conversation.
 
-    Use the Summarize quick action by entering `/Summarize` in the Active sidebar discussion window, or select the quick action icon \[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: Quick action icon..
+    Use one of the following methods:
 
+    -   Enter `/Summarize` in the Active sidebar discussion window.
+    -   Select the quick action icon \[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: Quick action icon..
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d40364e201">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d40571e231">
 
 Option
 
-</th><th align="left" id="d40364e204">
+</th><th align="left" id="d40571e234">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d40364e210">
+</th></tr></thead><tbody><tr><td id="d40571e240">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -70,7 +74,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d40364e237">
+</td></tr><tr><td id="d40571e267">
 
 **Provide feedback for the summary**
 
@@ -80,5 +84,5 @@ If you'd like to provide feedback, select either the helpful icon \(\[Omitted im
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

@@ -3,9 +3,9 @@ title: Exploring agentic development
 description: To build apps agentically on the ServiceNow AI Platform, you interact with tools through a multi-turn conversation interface to build apps, write documentation, or brainstorm ideas. Describe what you want in plain language, and the ServiceNow AI Platform generates complete applications including logic, UI, configuration, and tests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/exploring-vibe-coding.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [explore, vibe coding, AI-assisted development, conversational interface, plain language, application development, AI agents, code generation, developer experience, governance, security]
 breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -51,7 +51,7 @@ Security and governance enforces enterprise standards for every app with built-i
 -   ServiceNow Vault Console enables you to discover and protect sensitive data across workflows.
 -   Machine Identity Console helps you govern API connections and authenticate AI agents.
 
-For details on security and governance and agentic development, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-governance.md).
+For details on security and governance and agentic development, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-governance.md).
 
 ## Enhanced developer experience
 
@@ -75,7 +75,7 @@ An enhanced developer experience for agentic development is available in the fol
 
 To learn more about agentic development on the ServiceNow AI Platform, see:
 
--   [Onboarding for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-onboarding.md)
--   [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-using.md)
--   [Agentic development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-coding-reference-landing.md)
+-   [Onboarding for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-onboarding.md)
+-   [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-using.md)
+-   [Agentic development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-reference-landing.md)
 

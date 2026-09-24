@@ -3,11 +3,11 @@ title: Premium chat
 description: ServiceNow Otto panel premium chat is an AI chat experience built into your ServiceNow environment. It lets you ask questions, get answers from your organization's knowledge, and take action on records — all in one place. It supports file uploads, web search, and multi-step agentic tasks, so you can handle more complex requests without leaving the panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-panel-premium.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 25
-breadcrumb: [ServiceNow Otto panel, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [ServiceNow Otto panel, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Premium chat
@@ -16,16 +16,16 @@ ServiceNow Otto panel premium chat is an AI chat experience built into your Serv
 
 **Important:**
 
--   Next Experience must be enabled to use the ServiceNow Otto panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
--   ServiceNow Otto panel premium chat must be activated before you can use it. See [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-nap-assistant.md) for more information.
--   If you want to use assistants, you must activate them. See [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md) for information on activating assistants.
--   To use the full capabilities of ServiceNow Otto panel premium chat, AI Search must be enabled for your portal. Without it, ServiceNow Otto panel premium chat functions in a limited capacity. Basic interactions such as predefined topic flows and simple questions and answers are available without AI Search. Knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-ais-sp.md).
--   ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+-   Next Experience must be enabled to use the ServiceNow Otto panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-adoption-paths.md).
+-   ServiceNow Otto panel must be activated before you can use it. See [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/display-nap-assistant.md) for more information.
+-   If you want to use assistants, you must activate them. See [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md) for information on activating assistants.
+-   To use the full capabilities of ServiceNow Otto panel, AI Search must be enabled for your portal. Without it, ServiceNow Otto panel functions in a limited capacity. Basic interactions such as predefined topic flows and simple questions and answers are available without AI Search. Knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-ais-sp.md).
+-   ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 -   Conversational aspects of the ServiceNow Otto panel, such as skill detection, are powered by Now LLM Service.
 
-To begin, select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to display the ServiceNow Otto panel.
+To begin, select the ServiceNow Otto icon \(\[Omitted image "image.icon-otto"\] Alt text:\) to display the ServiceNow Otto panel.
 
-\[Omitted image "na-panel-screenshot-example-premium-so.png"\] Alt text: ServiceNow Otto panel premium chat.
+\[Omitted image "na-panel-screenshot-example-premium-so.png"\] Alt text: ServiceNow Otto panel.
 
 The ServiceNow Otto panel includes:
 
@@ -152,7 +152,7 @@ Indicates that the answers are generated by AI
 </td></tr></tbody>
 </table>If you select the Chat History icon \[Omitted image "premium-chat-three-lines-icon.png"\] Alt text:, the Chat History window appears:
 
-\[Omitted image "na-panel-closed-chat-premium-so.png"\] Alt text: ServiceNow Otto panel premium chat showing new chat, active and closed chats.
+\[Omitted image "na-panel-closed-chat-premium-so.png"\] Alt text: ServiceNow Otto panel showing new chat, active and closed chats.
 
 The Chat History panel displays the following:
 
@@ -204,14 +204,14 @@ C - Closed
 
 </td><td>
 
-A message closes when the designated time passes \(2 hours of inactivity\) or you receive this response: `It looks like you're finished with this chat, so I'll go ahead and close it.` Turn on closed chats by selecting the **Show closed chats** check box in **Conversational Interfaces** &gt; **Assistants** &gt; **\[Selected Assistant Name\]** &gt; **Chat experience** &gt; **Closed chats**. After being turned on, closed chats are displayed for as long as they're available in the Conversations \[sys\_cs\_conversation\] table. If more than four closed chats are available, a **Show more** link appears. Selecting **Show more** displays an additional 10 closed chats. Closed chats cannot be reopened.Hovering over a closed chat displays the delete icon.
+A message closes when the designated time passes \(2 hours of inactivity\) or you receive this response: `It looks like you're finished with this chat, so I'll go ahead and close it.` Turn on closed chats by selecting the **Show closed chats** check box in **Conversational Interfaces** &gt; **Assistants** &gt; **\[Selected Assistant Name\]** &gt; **Chat experience** &gt; **Closed chats**. After being turned on, closed chats are displayed for as long as they're available in the Conversations \[sys\_cs\_conversation\] table. If more than four closed chats are available, a **Show more** link appears. Selecting **Show more** displays an additional 10 closed chats. Closed chats can't be reopened.Hovering over a closed chat displays the delete icon.
 
 </td></tr></tbody>
 </table>The ServiceNow Otto feedback icons panel consist of these elements:
 
-\[Omitted image "na-panel-premium-feedback-icons-so.png"\] Alt text: Feedback icons on ServiceNow Otto panel premium chat.
+\[Omitted image "na-panel-premium-feedback-icons-so.png"\] Alt text: Feedback icons on ServiceNow Otto panel.
 
-\[Omitted image "na-panel-premium-feedback-icons-2.png"\] Alt text: More feedback icons on ServiceNow Otto panel premium chat.
+\[Omitted image "na-panel-premium-feedback-icons-2.png"\] Alt text: More feedback icons on ServiceNow Otto panel.
 
 **Note:** If search results involve personalized or user-specific information, you will not be able to access more than 10 results even if they're available.
 
@@ -297,7 +297,7 @@ Core UI
 
 </td></tr><tr><td>
 
-\[Omitted image "na-panel-overview-example-premium.png"\] Alt text: Screen with ServiceNow Otto panel premium chat.
+\[Omitted image "na-panel-overview-example-premium.png"\] Alt text: Screen with ServiceNow Otto panel.
 
 </td><td>
 
@@ -318,9 +318,9 @@ When your request combines information from both internal and external sources, 
 
 ## Agentic conversations
 
-Admins must first enable AI agents before end users can experience agentic conversations. ServiceNow Otto panel discovers and executes agentic workflows. For more information on agentic workflows, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md) and [Multiple conversations in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/multiple-conversations-aia.md).
+Admins must first enable AI agents before end users can experience agentic conversations. ServiceNow Otto panel discovers and executes agentic workflows. For more information on agentic workflows, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-aia-use-cases-list.md) and [Multiple conversations in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/multiple-conversations-aia.md).
 
-When you ask a question to the ServiceNow Otto panel premium chat, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, ServiceNow Otto panel premium chat answers them consecutively. It can reason, plan, and execute across AI agents, ServiceNow Otto panel topics, conversational actions and subflows, catalogs, Knowledge Base articles, custom skills, and any ServiceNow Otto supported skills to help you. You receive on-screen messages showing where the agent is in the agentic processing flow prior to receiving the response. After the processing completes, a View AI Steps section header appears where you can expand and view the processing flow steps. You can stop the agentic processing flow at any time by selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\). After an action starts, it can't be stopped. Selecting the End flow icon only stops the subsequent processing steps.
+When you ask a question to the ServiceNow Otto panel, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, ServiceNow Otto panel answers them consecutively. It can reason, plan, and execute across AI agents, ServiceNow Otto panel topics, conversational actions and subflows, catalogs, and Knowledge Base articles. It also works with custom skills and any ServiceNow Otto supported skills to help you. You receive on-screen messages showing where the agent is in the agentic processing flow prior to receiving the response. After the processing completes, a View AI Steps section header appears where you can expand and view the processing flow steps. You can stop the agentic processing flow at any time by selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\). After an action starts, it can't be stopped. Selecting the End flow icon only stops the subsequent processing steps.
 
 If your question is unclear or could apply to multiple topics, ServiceNow Otto evaluates your request and may ask for clarification before responding. This helps you receive a focused, relevant answer rather than an overwhelming list of results. If the assistant is confident it understands your intent, it responds immediately without asking for clarification. If no relevant answer is found, the assistant displays a message and suggests an alternative, such as contacting support.
 
@@ -336,13 +336,13 @@ When you view search results in a workspace, you can continue exploring a topic 
 
 The ServiceNow Otto panel maintains separate conversation contexts for different pages and records you're viewing. When you create a conversation while viewing a specific record, that conversation is tied to that record's context. This allows you to have focused conversations about different records without losing your work.
 
-How conversational context work:
+How conversational context works:
 
 -   Record-specific conversations: When you open the panel while viewing a record \(such as an incident, case, or any ServiceNow form\), new conversations you create are automatically associated with that record. The conversation title includes the record number prefix—for example, INC0012345 — My laptop won't turn on.
 -   Page-specific context: Conversations maintain context based on the page type you're on \(record page, list view, workspace, etc.\). The Otto panel remembers your conversations and their context for each page.
--   Conversation isolation: Conversations in one context do not appear in another. For example, conversations from a workspace view don't appear when you're viewing a specific incident record.
+-   Conversation isolation: Conversations in one context don't appear in another. For example, conversations from a workspace view don't appear when you're viewing a specific incident record.
 
-Conversations can be local or global. Local conversations are tied to a specific record, workspace, or page you're viewing while global conversations are not. When you open the ServiceNow Otto panel on a record, local conversations associated with that record appear in the This record section of Chat History. Each record maintains its own set of local conversations and local conversations are identified by the record number prefix in the title. Global conversations are not tied to a specific record or page and can be accessed from any page in your ServiceNow instance. Global conversations appear in the Active section of Chat History and do not appear in the This record section. Use global conversations for questions or tasks that don't relate to a specific record.
+Conversations can be local or global. Local conversations are tied to a specific record, workspace, or page you're viewing while global conversations are not. When you open the ServiceNow Otto panel on a record, local conversations associated with that record appear in the This record section of Chat History. Each record maintains its own set of local conversations and local conversations are identified by the record number prefix in the title. Global conversations are not tied to a specific record or page and can be accessed from any page in your ServiceNow instance. Global conversations appear in the Active section of Chat History and don't appear in the This record section. Use global conversations for questions or tasks that don't relate to a specific record.
 
 When you switch between records, the ServiceNow Otto panel displays the conversation type that was active in that context. If you were in a local conversation for Record A and navigate to Record B, the panel shows conversations tied to Record B and any active global conversations.
 
@@ -358,7 +358,7 @@ The ServiceNow Otto panel uses context-aware logic to determine which conversati
 -   Workspace or page context: When you're in a workspace or list view, the panel displays recent active conversations \(global or workspace-level\). If you then navigate to a specific record within that view, the context automatically updates to show conversations for that record.
 -   Returning to previous contexts: If you navigate away from a record or workspace and return later, the panel restores the most recent conversation from that context. This helps you avoid repeating information or context.
 
-Context resets when you start a new conversation manually by selecting **New Chat**. Closing a conversation does not affect the context for that page; returning to that page will show other active conversations \(or no conversations if none exist\). When you switch between global and local conversations within the same page, both context types remain available in Chat History. Once you open a conversation, it remains tied to its original context even if you navigate away. Returning to that context displays the conversation automatically. Switching to a different record or workspace does not modify the conversation's context.
+Context resets when you start a new conversation manually by selecting **New Chat**. Closing a conversation doesn't affect the context for that page; returning to that page shows other active conversations \(or no conversations if none exist\). When you switch between global and local conversations within the same page, both context types remain available in Chat History. Once you open a conversation, it remains tied to its original context even if you navigate away. Returning to that context displays the conversation automatically. Switching to a different record or workspace doesn't modify the conversation's context.
 
 ## Navigating from the ServiceNow Otto panel
 
@@ -388,7 +388,7 @@ To generate resolution notes from the ServiceNow Otto panel, select **Generate r
 
 ## Streaming responses
 
-After you enter a question or request on the panel, ServiceNow Otto gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after delivery. An animated sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded. Synthesized responses include inline citations that identify the sources used to generate the answer. Up to three inline citations appear within the response. Select a citation to open the source in a new browser tab. To view all sources and related results, select **Sources and more**. External links, such as those from web search results, open in a new browser tab. Your current tab and ServiceNow Otto conversation are not affected.
+After you enter a question or request on the ServiceNow Otto panel, ServiceNow Otto gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows. It combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after delivery. An animated sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text:\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded. Synthesized responses include inline citations that identify the sources used to generate the answer. Up to three inline citations appear within the response. Select a citation to open the source in a new browser tab. To view all sources and related results, select **Sources and more**. External links, such as those from web search results, open in a new browser tab. Your current tab and ServiceNow Otto conversation are not affected.
 
 ## Single search results
 
@@ -400,11 +400,11 @@ When your request returns a single result, ServiceNow Otto displays a card with 
 -   Catalog items: Select the card to open the catalog form. To open the form in the current tab, select the pop-out icon. The ServiceNow Otto panel collapses to pinned mode. If the form can't open in the current tab, it opens in a new browser tab instead. If the catalog form contains links to additional content, selecting those links loads the new content within the same interactive view and a back button appears. Select the back button to return to the previously viewed content.
 -   Knowledge Base articles: Select the card to open the article. To open the article in the current tab, select the pop-out icon. The ServiceNow Otto panel collapses to pinned mode. If the article can't open in the current tab, it opens in a new browser tab instead. This works for both internal and external knowledge base sources. If the article contains links to additional content, selecting those links loads the new content within the same interactive view and a back button appears. Select the back button to return to the previously viewed content.
 
-When only one result is found, the **View all** link does not appear at the end of the response. Records displayed in the response are not shown as citations in the sources panel.
+When only one result is found, the **View all** link doesn't appear at the end of the response. Records displayed in the response are not shown as citations in the sources panel.
 
 ## Switching between interactive views
 
-When a conversation contains more than one interactive view — for example, a Knowledge Base article and a catalog form opened during the same conversation — you can switch between them using the drop-down selector in the interactive view header. The header always displays the name of the most recently opened interactive view. The first time you open a second interactive view in a conversation, a message appears letting you know you can use the drop-down selector to switch between views. Each interactive view in the conversation is represented by a thumbnail card in the chat. The thumbnail card for the currently visible view shows Hide. Selecting a different view from the drop-down selector updates the thumbnail card statuses accordingly — the newly visible view shows Hide, and the previous view shows Show.
+A conversation can contain more than one interactive view — for example, a Knowledge Base article and a catalog form opened during the same conversation. You can switch between them using the drop-down selector in the interactive view header. The header always displays the name of the most recently opened interactive view. The first time you open a second interactive view in a conversation, a message appears letting you know you can use the drop-down selector to switch between views. Each interactive view in the conversation is represented by a thumbnail card in the chat. The thumbnail card for the currently visible view shows Hide. Selecting a different view from the drop-down selector updates the thumbnail card statuses accordingly — the newly visible view shows Hide, and the previous view shows Show.
 
 ## Submitting catalog requests
 
@@ -420,12 +420,10 @@ To submit a catalog request:
 
 ## Catalog submission confirmation
 
-After you successfully submit a catalog item, a confirmation message appears with a **View Details** button that opens your submitted request record.
-
-The **View Details** button behaves in the following ways:
+After you successfully submit a catalog item, a confirmation message appears with a **View Details** button that opens your submitted request record. The **View Details** button behaves in the following ways:
 
 -   In ServiceNow Otto panel: Select **View Details** to open the submitted request record in the current tab. The ServiceNow Otto panel automatically shrinks to pinned mode.
--   In pop-out windows: If you select the pop-out icon on a submitted catalog form, the new window displays the submission confirmation page with your request details, not a blank form to start over.
+-   In pop-out windows: If you select the pop-out icon on a submitted catalog form, the new window displays the submission confirmation page with your request details. It doesn't open a blank form to start over."
 
 ## Unsaved catalog form changes
 
@@ -434,7 +432,7 @@ If you start filling out a catalog form in the ServiceNow Otto panel and navigat
 -   To continue working on the catalog form, select Stay. The modal closes, and you return to the catalog form with your progress intact.
 -   To discard changes and view new content, select Leave without saving. The form closes, your unsaved data is discarded, and the content you selected appears in the interactive view.
 
-**Note:** The discard warning modal does not appear when you switch conversations using Chat History. It only appears when navigating to different content within the same conversation.
+**Note:** The discard warning modal doesn't appear when you switch conversations using Chat History. It only appears when navigating to different content within the same conversation.
 
 ## Multiple search results
 
@@ -451,7 +449,7 @@ If your results include more than one type of record \(for example, people and i
 
 ## Fallback options
 
-A fallback state can occur whenever search results are unavailable. Scenarios where search results are unavailable include when ServiceNow Otto didn't understand the query, complaint small talk was found, or an error occurred. When search results are unavailable, the **Search the web** fallback option may appear. If you select the **Search the web** fallback option, the web search mode is triggered and uses the internet to search for the results. Only the last query entered into the conversation is considered when entering web search mode via this **Search the web** fallback option. For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-assistant-chat-experience.md).
+A fallback state can occur whenever search results are unavailable. Scenarios where search results are unavailable include when ServiceNow Otto didn't understand the query, compliant small talk was found, or an error occurred. When search results are unavailable, the **Search the web** fallback option may appear. If you select the **Search the web** fallback option, the web search mode is triggered and uses the internet to search for the results. Only the last query entered into the conversation is considered when entering web search mode via this **Search the web** fallback option. For more information about where and how to enable fallback options, see [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/manage-assistant-chat-experience.md).
 
 If ServiceNow Otto can't find relevant results for your query, or if an answer is based on limited evidence, ServiceNow Otto displays a message to let you know. It may also suggest ways to improve your results, such as rephrasing your query, broadening your search scope, or specifying a time frame or source.
 
@@ -459,5 +457,5 @@ If ServiceNow Otto can't find relevant results in your organization's internal c
 
 \[Omitted image "na-panel-premium-chat-fallback-so.png"\] Alt text: Search the web fallback option screen.
 
-**Parent Topic:**[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
+**Parent Topic:**[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md)
 

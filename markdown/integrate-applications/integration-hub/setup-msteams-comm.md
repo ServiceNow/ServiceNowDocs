@@ -3,7 +3,7 @@ title: Set up the Microsoft Teams Communications spoke
 description: Integrate the ServiceNow instance and Microsoft Teams Communications account by creating a custom OAuth application in Microsoft Teams Communications to authenticate ServiceNow requests.Create an app to make outbound calls from Microsoft Teams.Assign permissions to users to be able to authenticate successfully and participate in conference calls in Microsoft Teams.Create a service user role to be able to start online meetings on behalf of users in Microsoft Teams.Use the information generated during the application configuration in Microsoft Azure portal to register Microsoft Teams Communications as the OAuth provider so that the ServiceNow instance can request OAuth 2.0 tokens.Authorize the Microsoft Teams Communications spoke actions by creating credential records for the application registered in the Microsoft Azure portal. The Microsoft Teams Communications connection and credential alias uses these credentials to authorize actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-msteams-comm.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -214,7 +214,7 @@ You can manage the permissions required by the app and bot to perform required a
 
 2.  Navigate to **Azure Services** &gt; **Azure Active Directory** &gt; **Manage** &gt; **App registrations**.
 
-3.  Search and open the bot created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msteams-comm.md) by name or by Application \(client\) ID.
+3.  Search and open the bot created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-msteams-comm.md) by name or by Application \(client\) ID.
 
 4.  Navigate to **Manage** &gt; **API Permissions** &gt; **Add a permission** &gt; **Microsoft Graph** and select **Application Permissions**.
 
@@ -273,19 +273,19 @@ Role required: admin
         connect-microsoftteams
         ```
 
-        \[Omitted image "image.powershell-connect-teams-command"\] Alt text: PowerShell connect Teams command
+        \[Omitted image "powershell-connect-teams-command.png"\] Alt text: PowerShell connect Teams command
 
         Upon successful connection, a confirmation message is displayed in the browser.
 
-        \[Omitted image "image.authentication-message-browser"\] Alt text: Authentication message in browser
+        \[Omitted image "authentication-message-browser.png"\] Alt text: Authentication message in browser
 
         PowerShell will also display the tenant details.
 
-        \[Omitted image "image.powershell-confirmation"\] Alt text: Powershell confirmation
+        \[Omitted image "powershell-confirmation.png"\] Alt text: Powershell confirmation
 
 4.  Run the command below to create a new Application Access Policy in PowerShell.
 
-    Use the bot ID created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-app-ms-teams.md) as the AppId for the command.
+    Use the bot ID created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/create-app-ms-teams.md) as the AppId for the command.
 
     For more information on the application access policy, see [Configure application access to online meetings](https://learn.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
@@ -300,11 +300,11 @@ Role required: admin
     For Example: New-CsApplicationAccessPolicy -Identity "OnlineMeetingsAccessPolicy" -AppIds "aaaaaaaa-1234-er4r-8dc9-123456789012" -Description "Grant OnlineMeeting Application Permission"
     ```
 
-    \[Omitted image "image.app-access-policy"\] Alt text: App access policy in Powershell
+    \[Omitted image "app-access-policy.png"\] Alt text: App access policy in Powershell
 
     Upon successfully creating the policy, the details are displayed in PowerShell.
 
-    \[Omitted image "image.powershell-app-access-success"\] Alt text: App access policy success message in Powershell
+    \[Omitted image "powershell-app-access-success.png"\] Alt text: App access policy success message in Powershell
 
 5.  Run the user permission policy in PowerShell.
 
@@ -329,7 +329,7 @@ Role required: admin
         
         ```
 
-        \[Omitted image "image.powershell-user-permissions"\] Alt text: User permissions
+        \[Omitted image "powershell-user-permissions.png"\] Alt text: User permissions
 
 
 ## Register Microsoft Teams Communications as an OAuth provider

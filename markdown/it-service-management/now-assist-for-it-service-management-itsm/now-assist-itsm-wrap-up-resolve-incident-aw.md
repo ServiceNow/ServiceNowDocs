@@ -3,11 +3,11 @@ title: ITSM Wrap-up and resolve incident agentic workflow
 description: Use the Wrap-up and resolve incident agentic workflow to generate resolution notes and select resolution code to resolve an incident. Attach the Knowledge Base \(KB\) article or create a draft Knowledge article. Attach a Known Error \(KE\) article to the incident record when the resolution code is selected as Known Error. Update duplicate incident information when the resolution code is Duplicate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-wrap-up-resolve-incident-aw.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
 breadcrumb: [Incident Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -32,7 +32,7 @@ Using the Wrap-up and resolve incident agentic workflow:
 -   Incidents with **In progress** state with or without resolution code and notes populated.
 -   Incidents with **Resolved** state with resolution code and notes populated and where the resolution code is other than **Know Error**.
 
-To modify the Wrap-up and resolve incident agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Wrap-up and resolve incident agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or a tool, make sure that you update all instructions accordingly.
 
@@ -96,10 +96,10 @@ To use the Wrap-up and resolve incident agentic workflow, you must confirm or pe
 1.  The ServiceNow Otto for IT Service Management \(ITSM\) plugin \(sn\_itsm\_gen\_ai\) plugin is installed and configured.
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills** and enable the following skills and options:
 
-    1.  On the **AI Skills** tab, select **ITSM** and then activate the Resolution notes generation and KB generation skill. For more information, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+    1.  On the **AI Skills** tab, select **ITSM** and then activate the Resolution notes generation and KB generation skill. For more information, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
     2.  On the **AI Experience** tab, enable the ServiceNow Otto panel for users.
     3.  Select the **CI Admin console** link, and then enable the ServiceNow Otto panel.
-    For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
+    For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
 
 
 ## Use the Wrap-up and resolve incident agentic workflow
@@ -136,5 +136,5 @@ In the agentic workflow record:
 
 Based on the query, the different AI agents work on the incident record. Depending on the various workflow stages and the resolution codes selected for an incident, the AI agents can either operate individually in sequence or collaborate simultaneously to deliver the desired outcome.
 
-For example, when generating resolution notes, adding resolution notes and codes or updating duplicate incident information to the incident record, the Incident resolution details AI agent is used. For more information on how to query using the ServiceNow Otto panel, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+For example, when generating resolution notes, adding resolution notes and codes or updating duplicate incident information to the incident record, the Incident resolution details AI agent is used. For more information on how to query using the ServiceNow Otto panel, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 

@@ -3,11 +3,11 @@ title: Upload the IBM software discovery catalog to your ServiceNow instance
 description: Upload the IBM software discovery catalog to your ServiceNow instance so that discovery tools, such as the ServiceNow Discovery application, can identify the IBM software that is discovered in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/upload-anglepoint-software-discovery-catalog.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up an ASP integration, CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -51,7 +51,7 @@ If you are integrating with Anglepoint, all IBM software information that is inc
 -   Anglepoint File Maps \[samp\_anglepoint\_file\_map\]
 -   Anglepoint File Sets \[samp\_anglepoint\_file\_set\]
 
-**Note:** These tables are extensions of the base File Names \[samp\_file\_name\], File Maps \[samp\_file\_map\], and File Sets \[samp\_file\_set\] tables. To extend the base tables, you must request and install Anglepoint's IBM Licensing for Software Asset Management application. See [Request Anglepoint's IBM Licensing for Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/request-anglepoint-application.md) for detailed instructions.
+**Note:** These tables are extensions of the base File Names \[samp\_file\_name\], File Maps \[samp\_file\_map\], and File Sets \[samp\_file\_set\] tables. To extend the base tables, you must request and install Anglepoint's IBM Licensing for Software Asset Management application. See [Request Anglepoint's IBM Licensing for Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/request-anglepoint-application.md) for detailed instructions.
 
-**Parent Topic:**[Setting up an IBM Authorized SAM Provider \(ASP\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/setting-up-anglepoint-integration.md)
+**Parent Topic:**[Setting up an IBM Authorized SAM Provider \(ASP\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setting-up-anglepoint-integration.md)
 

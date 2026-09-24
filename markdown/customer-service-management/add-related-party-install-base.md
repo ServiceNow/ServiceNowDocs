@@ -3,9 +3,9 @@ title: Add related parties to an install base item
 description: Add related parties to an install base item in the Customer Service Management application so that you can enable another party to have access to an install base.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-related-party-install-base.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using customer access management, Customer management, Use, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin and sn\_customerservice\_manager
 
 An install base-related party is a list of contacts, consumers, contributors, service organization members, accounts, or service organizations. You add a related party to enable access to another party that isn't the owner of the install base. Related parties associated with an install base can access it and its related entities, including installed products, sold products, and associated cases.
 
-**Note:** You can enable additional contacts by using the **Restrict Contact Access** field. For details, see [Restrict contact access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-account-access-cam.md).
+**Note:** You can enable additional contacts by using the **Restrict Contact Access** field. For details, see [Restrict contact access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-account-access-cam.md).
 
 ## Procedure
 
@@ -51,7 +51,7 @@ An install base-related party is a list of contacts, consumers, contributors, se
     |Listed Member| |Not applicable|
     |Listed Service Organization| |Not applicable|
 
-    **Note:** The **Responsibility** field on the Install Base-Related Parties form is automatically populated based on the type of related party that is selected. For information on the type of related parties, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md).
+    **Note:** The **Responsibility** field on the Install Base-Related Parties form is automatically populated based on the type of related party that is selected. For information on the type of related parties, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/adding-related-party-config-to-case.md).
 
 5.  To use the **Order** field to specify the sequence in which records are displayed, organized according to business preferences.
 

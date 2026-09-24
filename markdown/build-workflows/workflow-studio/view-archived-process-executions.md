@@ -3,11 +3,11 @@ title: View archived process contexts
 description: Configure the form layout for a process execution so that you can see the JSON record for archived context records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/view-archived-process-executions.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Archive process contexts, Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -22,7 +22,7 @@ Role required: admin or playbook.admin
 
 ## About this task
 
-To view the archived context records for a process execution record, you must configure the Form Layout for process execution records. If you haven't archived any context records for a process execution and want to, see [Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/archive-process-executions.md).
+To view the archived context records for a process execution record, you must configure the Form Layout for process execution records. If you haven't archived any context records for a process execution and want to, see [Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/archive-process-executions.md).
 
 ## Procedure
 
@@ -51,5 +51,5 @@ To view the archived context records for a process execution record, you must co
 
 \[Omitted image "view-archived-json.gif"\] Alt text: Adding the Archive field to the form layout
 
-**Parent Topic:**[Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/archive-process-executions.md)
+**Parent Topic:**[Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/archive-process-executions.md)
 

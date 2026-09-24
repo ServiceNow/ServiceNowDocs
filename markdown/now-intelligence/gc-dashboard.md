@@ -3,9 +3,9 @@ title: General Counsel \(GC\) Dashboard
 description: The General Counsel \(GC\) Dashboard provides transparency into legal service delivery and operations. The insights include visibility into contracts, legal requests, compliance issues, and digital forensics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/gc-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Executive dashboard overview, Platform Analytics]
 ---
@@ -14,9 +14,11 @@ breadcrumb: [Executive dashboard overview, Platform Analytics]
 
 The General Counsel \(GC\) Dashboard provides transparency into legal service delivery and operations. The insights include visibility into contracts, legal requests, compliance issues, and digital forensics.
 
+Navigate to **GC Dashboard** &gt; **Dashboard**.
+
 The GC Dashboard serves as a central command center for monitoring how effectively the legal function supports the organization. It consolidates high-value metrics such as contract volumes, legal request turnaround time, privacy request aging, invoice processing trends, and usage of legal self-service channels.
 
-This dashboard visualizes the end-to-end performance of legal operations, including open contracts by deal size, legal request MTTR, privacy request backlogs, invoice cycle times, and adoption of digital legal services. These indicators help legal leaders understand workload distribution, identify operational bottlenecks, improve compliance responsiveness, and ensure that legal processes are timely, effective, and scalable.
+This dashboard visualizes the end-to-end performance of legal operations. It includes open contracts by deal size, legal request MTTR, privacy request backlogs, invoice cycle times, and adoption of digital legal services. These indicators help legal leaders understand workload distribution, identify operational bottlenecks, improve compliance responsiveness, and ensure that legal processes are timely, effective, and scalable.
 
 \[Omitted image "gc-db-tab.png"\] Alt text: General Counsel Dashboard with Contracts, Service Delivery, Privacy and Compliance, Digital Forensics, and Self Service pillars, each containing legal metrics and visualizations.
 

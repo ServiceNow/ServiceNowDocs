@@ -3,7 +3,7 @@ title: Set up the Udemy spoke
 description: Create an Udemy API key and configure a Udemy spoke connection to enable your ServiceNow instance to authenticate with Udemy and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-udemy-spk.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

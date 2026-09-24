@@ -3,11 +3,11 @@ title: Modifying and adding calendar report system properties
 description: Specify system property values to override Task table highlighting in calendar events, limit the number of events in a calendar cell, or change the day the calendar week starts.Highlighting for calendar report events is configured with field styles, which are defined for a particular table. You can configure whether calendar reports use field styles from the tables or report sources that they are based on.In calendar reports, you can configure the maximum number of events that appear in some calendar views.By default, weeks for calendar reports start on Sunday. You can add a system property to start weeks on Sunday or another day instead.Configure a system property to specify how calendar week numbers are determined.By default, calendar reports save up to 10,000 records. Change this limit by setting the glide.ui.max\_calendar\_records system property. If the number of records fetched exceeds this limit, you are prompted to filter the data and run the report again.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/modify-add-calendar-sys-props.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Customize calendar reports, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -44,7 +44,7 @@ By default, field styles in the Task \[task\] table are applied to calendar repo
 **Related topics**  
 
 
-[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 ## Limit the number of events displayed on calendar days
 
@@ -75,7 +75,7 @@ You can configure these settings for the following calendar views:
 **Related topics**  
 
 
-[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 ## Change the day that calendar weeks start on
 
@@ -91,7 +91,7 @@ The **glide.ui.date\_format.first\_day\_of\_week** system property modifies the 
 
 **glide.ui.filter.first\_day\_of\_week** must also be set to the same value as **glide.ui.date\_format.first\_day\_of\_week** for the set day to display properly.
 
-If you change the **glide.ui.filter.first\_day\_of\_week** property after collecting Performance Analytics score data, you won't be able to view the scores for weekly indicators. To access them, you must [collect scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ClctData.md) again.
+If you change the **glide.ui.filter.first\_day\_of\_week** property after collecting Performance Analytics score data, you won't be able to view the scores for weekly indicators. To access them, you must [collect scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_ClctData.md) again.
 
 ### Procedure
 
@@ -99,7 +99,7 @@ If you change the **glide.ui.filter.first\_day\_of\_week** property after collec
 
 2.  Set one of the following integer values.
 
-<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d222145e356">
+<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d225468e356">
 
 **Start weeks on Sunday**
 
@@ -107,7 +107,7 @@ If you change the **glide.ui.filter.first\_day\_of\_week** property after collec
 
 Set **Value** to `1`
 
-</td></tr><tr><td id="d222145e371">
+</td></tr><tr><td id="d225468e371">
 
 **Start weeks on Monday**
 
@@ -115,7 +115,7 @@ Set **Value** to `1`
 
 Set **Value** to `2`
 
-</td></tr><tr><td id="d222145e386">
+</td></tr><tr><td id="d225468e386">
 
 **Start weeks on Tuesday**
 
@@ -123,7 +123,7 @@ Set **Value** to `2`
 
 Set **Value** to `3`
 
-</td></tr><tr><td id="d222145e401">
+</td></tr><tr><td id="d225468e401">
 
 **Start weeks on Wednesday**
 
@@ -131,7 +131,7 @@ Set **Value** to `3`
 
 Set **Value** to `4`
 
-</td></tr><tr><td id="d222145e416">
+</td></tr><tr><td id="d225468e416">
 
 **Start weeks on Thursday**
 
@@ -139,7 +139,7 @@ Set **Value** to `4`
 
 Set **Value** to `5`
 
-</td></tr><tr><td id="d222145e432">
+</td></tr><tr><td id="d225468e432">
 
 **Start weeks on Friday**
 
@@ -147,7 +147,7 @@ Set **Value** to `5`
 
 Set **Value** to `6`
 
-</td></tr><tr><td id="d222145e447">
+</td></tr><tr><td id="d225468e447">
 
 **Start weeks on Saturday**
 
@@ -163,14 +163,14 @@ Set **Value** to `7`
 
 ### What to do next
 
-Configure the system property **glide.db.week\_numbering** to specify how weeks are calculated. For more information, see [Customize calendar weeks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/modify-add-calendar-sys-props.md).
+Configure the system property **glide.db.week\_numbering** to specify how weeks are calculated. For more information, see [Customize calendar weeks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/modify-add-calendar-sys-props.md).
 
 **Related topics**  
 
 
-[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md)
 
-[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 ## Customize calendar weeks
 
@@ -186,11 +186,11 @@ Role required: admin
 
 2.  Add the **glide.db.week\_numbering** system property.
 
-    For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set one of the following string values.
 
-<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d222145e598">
+<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d225468e598">
 
 **iso\_week**
 
@@ -198,7 +198,7 @@ Role required: admin
 
 Week 1 is the week with January 4, the first business day, or the first Thursday in it. \(These are mutually equivalent.\) There is no Week 00.
 
-</td></tr><tr><td id="d222145e607">
+</td></tr><tr><td id="d225468e607">
 
 **sunday\_week**
 
@@ -206,7 +206,7 @@ Week 1 is the week with January 4, the first business day, or the first Thursday
 
 Week 1 is the week with the first Sunday of the year. Days before it are in Week 0.
 
-</td></tr><tr><td id="d222145e616">
+</td></tr><tr><td id="d225468e616">
 
 **monday\_week**
 
@@ -214,7 +214,7 @@ Week 1 is the week with the first Sunday of the year. Days before it are in Week
 
 Week 1 is the week with the first Monday of the year. Days before it are in Week 0.
 
-</td></tr><tr><td id="d222145e625">
+</td></tr><tr><td id="d225468e625">
 
 **jan1\_week**
 
@@ -240,7 +240,7 @@ Role required: admin.
 
 2.  Complete the form with the following values.
 
-<table id="choicetable_xm2_5rq_y1b"><tbody><tr><td id="d222145e724">
+<table id="choicetable_xm2_5rq_y1b"><tbody><tr><td id="d225468e724">
 
 **Name**
 
@@ -248,7 +248,7 @@ Role required: admin.
 
 **glide.ui.max\_calendar\_records**
 
-</td></tr><tr><td id="d222145e736">
+</td></tr><tr><td id="d225468e736">
 
 **Description**
 
@@ -256,7 +256,7 @@ Role required: admin.
 
 Enter a phrase that describes the function of the property, such as `Maximum number of calendar records saved`.
 
-</td></tr><tr><td id="d222145e748">
+</td></tr><tr><td id="d225468e748">
 
 **Type**
 
@@ -264,7 +264,7 @@ Enter a phrase that describes the function of the property, such as `Maximum num
 
 Integer
 
-</td></tr><tr><td id="d222145e757">
+</td></tr><tr><td id="d225468e757">
 
 **Value**
 
@@ -279,5 +279,5 @@ Enter the desired value for the number of records retained by the platform. The 
 **Related topics**  
 
 
-[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 

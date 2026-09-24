@@ -3,9 +3,9 @@ title: Add a business process to a stakeholder
 description: Add existing business processes to a stakeholder in the Enterprise Architecture Workspace, or create a business process directly from the stakeholder record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-business-process-to-stakeholder.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [stakeholder, business process, enterprise architecture]
 breadcrumb: [Manage stakeholders, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -39,18 +39,18 @@ Role required: sn\_apm.apm\_user
         1.  Select **Add**.
         2.  In the Add business process window, select the business process. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
-    -   To create a business process, select **New** and complete the fields on the form. For field information, see [Create business process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-process-form.md).
+    -   To create a business process, select **New** and complete the fields on the form. For field information, see [Create business process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-business-process-form.md).
 
 ## Result
 
 The business process appears in the **Business processes** related list for the stakeholder.
 
-**Parent Topic:**[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-stakeholders.md)
+**Parent Topic:**[Manage stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-stakeholders.md)
 
 **Related topics**  
 
 
-[Remove a business process from a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-process-from-stakeholder.md)
+[Remove a business process from a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-remove-business-process-from-stakeholder.md)
 
-[View all stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-stakeholders.md)
+[View all stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-stakeholders.md)
 

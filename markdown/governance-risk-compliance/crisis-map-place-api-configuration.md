@@ -3,11 +3,11 @@ title: Configure search for places in crisis map
 description: Set the system property to manage searching places on the crisis map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-place-api-configuration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up the Crisis Map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Setting up the crisis map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Configure search for places in crisis map
@@ -20,7 +20,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 
-To enable crisis map functionality in the GRC: Crisis Map application, you must set up Google maps. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md).
+To enable crisis map functionality in the GRC: Crisis Map application, you must set up Google maps. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-up-google-maps-api.md).
 
 **Note:** Prior to enabling the Crisis Map feature, confirm that you have purchased and set up Google Maps API.
 

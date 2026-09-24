@@ -3,11 +3,11 @@ title: Share knowledge in a Connect Support conversation
 description: The support view of the Connect workspace has a built-in knowledge tool that makes it easy to search for knowledge articles and share them in a conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_ShareKnowledgeInConnectSupport.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ Use the knowledge tool to research user questions and provide solutions quickly 
 
 3.  Search for articles related to the user's issue.
 
-    For more information about finding knowledge, see [Search using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeSearch.md).
+    For more information about finding knowledge, see [Search using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeSearch.md).
 
 4.  To share an article in the conversation, drag a knowledge article link to the conversation pane and drop it anywhere in the drop zone that appears.
 

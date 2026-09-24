@@ -3,11 +3,11 @@ title: Request time off and suggest who can cover
 description: You can schedule your own time off and suggest a suitable cover from among fellow roster members.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/schedule-time-off-and-cover-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing schedules and request time-off, On-Call Scheduling, IT Service Management]
 ---
@@ -45,5 +45,5 @@ Role required: itil
     The time off is tentatively scheduled in your On-Call calendar.
 
 
-**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
+**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
 

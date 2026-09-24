@@ -3,9 +3,9 @@ title: Using agent connector and contributor roles in Financial Services Operati
 description: Financial Services Operations \(FSO\) applications install agent connector and contributor roles to manage and monitor user privileges effectively. To provide the right level of access, these roles must be paired with roles in the CSM Industry data model and contributor user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-combine-csm-industry-roles.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [User management, Explore, Financial Services Operations \(FSO\)]
 ---
@@ -34,7 +34,7 @@ To enable these roles effectively:
 
 Based on your business needs, you can assign CSM industry data model roles or contributor user roles to your users with FSO roles to get the desired level of access for a given user, such as to control access to cases, case tasks, and other case-related information.
 
-For more information, see [Industry data model roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-roles.md) and [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-contributor-user-roles.md).
+For more information, see [Industry data model roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-model-roles.md) and [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-contributor-user-roles.md).
 
 ## Visual overview
 

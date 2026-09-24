@@ -3,11 +3,11 @@ title: How to use the Now Assist panel in UI Builder
 description: Use the Now Assist panel in UI Builder to request guidance, streamline page building, and better understand the content on your pages.Ask questions and get quick answers without leaving UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/uib-now-assist-panel.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Now Assist panel, UI Builder, Now Assist, Now Assist panel, UI Builder]
 breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
@@ -25,9 +25,9 @@ Now Assist for UI Builder enables you to leverage the generative and agentic AI 
 
 \[Omitted image "now-assist-page-build-demo.png"\] Alt text: Request to build a basic record page
 
-**Note:** You must install the ServiceNow Otto for Creator plugin in the AI Admin Hub console to use the Now Assist panel. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
+**Note:** You must install the ServiceNow Otto for Creator plugin in the AI Admin Hub console to use the Now Assist panel. For more information, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md)
 
-For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+For more information on the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## What to ask for Conversational Help
 
@@ -58,7 +58,7 @@ Now Assist Page Insights can extract information from pages, components, and dat
 -   `What components have theme overrides?`
 -   `Are there any unused client scripts?`
 
-**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/using-ui-builder.md)
 
 ## Get help with the Now Assist panel in UI Builder
 
@@ -79,7 +79,7 @@ Responses and outputs from Now Assist can vary, even when the same prompt is use
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 

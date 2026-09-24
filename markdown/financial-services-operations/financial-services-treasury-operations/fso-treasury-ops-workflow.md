@@ -3,11 +3,11 @@ title: Financial Services Treasury Operations workflows
 description: The Financial Services Treasury Operations application installs automated workflows that can be configured for any treasury service. These workflows create cases and route tasks to the treasury and document agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-treasury-operations/fso-treasury-ops-workflow.html
-release: australia
+release: brazil
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -23,7 +23,7 @@ The following predefined workflows for treasury services are available with the 
 -   Remote Deposit Capture \(RDC\) Service
 -   Wire Transfer Service
 
-These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). The treasury admin can review and customize these workflows according to the needs of their organization.
+These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md). The treasury admin can review and customize these workflows according to the needs of their organization.
 
 The following diagram shows how the application helps bank agents resolve a treasury request for onboarding RDC service.
 
@@ -62,5 +62,5 @@ The following is a typical treasury workflow in the Financial Services Treasury 
 
 The state and stage of the case is set to Closed Complete.
 
-**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
+**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
 

@@ -3,11 +3,11 @@ title: Create an inbound asset order for requested Device as a Service \(DaaS\) 
 description: Create an inbound asset order to track and manage the process of providing your customers with the DaaS assets that are requested through your Return Merchandise Authorization \(RMA\) response orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-inbound-asset-order-daas-assets.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing inbound asset orders for requested DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
@@ -43,7 +43,7 @@ Role required: sn\_eam\_provider.provider\_asset\_manager
 
 ## What to do next
 
-Create corresponding inbound asset order lines for the DaaS assets that you want to provide to your customers through the inbound asset order. For detailed instructions, see [Create an inbound asset order line for a requested Device as a Service \(DaaS\) asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-inbound-asset-order-line-daas-asset.md).
+Create corresponding inbound asset order lines for the DaaS assets that you want to provide to your customers through the inbound asset order. For detailed instructions, see [Create an inbound asset order line for a requested Device as a Service \(DaaS\) asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-inbound-asset-order-line-daas-asset.md).
 
-**Parent Topic:**[Managing inbound asset orders for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-inbound-asset-orders-daas-assets.md)
+**Parent Topic:**[Managing inbound asset orders for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/managing-inbound-asset-orders-daas-assets.md)
 

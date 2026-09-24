@@ -3,11 +3,11 @@ title: Exclude classes from Dynamic IRE
 description: Exclude specific classes, for which Dynamic IRE isn't beneficial, from Dynamic IRE. When a hierarchy branch \(such as the Hardware class branch\) is configured to use Dynamic IRE, you can configure specific classes within that branch, to be excluded from Dynamic IRE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/dynamic-ire-exclude-class.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,5 +38,5 @@ Role required:
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-ire.md)
+**Parent Topic:**[Configuring CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-ire.md)
 

@@ -3,7 +3,7 @@ title: Data Management roles
 description: These roles are available for the application
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/roles-by-product/roles\_datamanagement.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2024-03-11"
 reading_time_minutes: 1
@@ -59,5 +59,5 @@ Granting data\_mgmt\_tools\_admin alone is not sufficient for most data manageme
  After assigning these roles, also add roles that provide CRUD \(Create, Read, Update, Delete\) access to data tables \(for example, itil and itil\_admin\). For example, adding the itil\_admin enables an ITIL administrator to archive or update records in the associated ITIL tables \(incident, problem, change, and so on\) depending on configuration. If these roles aren’t assigned, some or all data management functionality will be limited or unavailable.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/roles-by-product/roles-for-all-products.md)
+</table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/roles-by-product/roles-for-all-products.md)
 

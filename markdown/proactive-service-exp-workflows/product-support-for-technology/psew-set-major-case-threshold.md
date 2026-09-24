@@ -3,11 +3,11 @@ title: Setting major case threshold for auto generated cases
 description: Set the threshold value for major cases generated from incidents in the system properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/psew-set-major-case-threshold.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Auto-creation of cases, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -40,5 +40,5 @@ A default threshold value has been predefined to generate major cases from incid
 5.  Click **Update**.
 
 
-**Parent Topic:**[Auto-creation of cases and updates from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-auto-creation-case.md)
+**Parent Topic:**[Auto-creation of cases and updates from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-auto-creation-case.md)
 

@@ -3,11 +3,11 @@ title: ServiceNow Otto context menu analytics
 description: Monitor the usage and performance of the ServiceNow Otto context menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-context-menu-analytics.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # ServiceNow Otto context menu analytics
@@ -18,7 +18,7 @@ The ServiceNow Otto context menu dashboard helps admins to evaluate the effect
 
 \[Omitted image "naa-nacm.png"\] Alt text: The context menu dashboard page.
 
-The indicators on the context menu dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the context menu dashboard page provide the following insights. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Count and distribution of context menu actions in a date range. This indicator reveals the scale of usage, and the most and least used actions.
 -   Acceptance and feedback on context menu actions. This indicator reveals actions that were accepted or rejected by the users with a positive or negative feedback.
@@ -61,5 +61,5 @@ The indicators on the context menu dashboard page provide the following insights
     \[Omitted image "naa-nacm-responses-by-feedback.png"\] Alt text: Responses by feedback indicator.
 
 
-**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
+**Parent Topic:**[Using AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/using-now-assist-analytics.md)
 

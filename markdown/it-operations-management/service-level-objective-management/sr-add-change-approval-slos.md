@@ -3,11 +3,11 @@ title: Activate SLO-based change approval decisions
 description: Activate Service Level Objective \(SLO\) change approval decisions to evaluate change requests based on SLO performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/sr-add-change-approval-slos.html
-release: australia
+release: brazil
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Activate Service Level Objective \(SLO\) change approval decisions to evaluate c
 
 ## Before you begin
 
-Review change approval policies and their terminology, including policy inputs, decisions, and approval definitions. For more information, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-approval-policy.md).
+Review change approval policies and their terminology, including policy inputs, decisions, and approval definitions. For more information, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-approval-policy.md).
 
 Role required: admin
 
@@ -65,5 +65,5 @@ For more advanced setups, use Flow Designer to customize the SLOs and services i
 3.  Customize the **Action Inputs** section.
 4.  Select **Done** to implement your changes.
 
-**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
+**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

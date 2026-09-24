@@ -3,14 +3,14 @@ title: Working with forms in Creator Studio
 description: To add items or services to your catalog, you must create a different form for each thing being requested.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-work-with-forms.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [request form, catalog item]
-breadcrumb: [Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # Working with forms in Creator Studio
@@ -19,7 +19,7 @@ To add items or services to your catalog, you must create a different form for e
 
 **Summary:** After reading this topic, you’ll understand:
 
--   How form templates get you started creating your own [forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md).
+-   How form templates get you started creating your own [forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md).
 -   How to customize the layout and questions on your forms.
 -   How to make a form \(AKA catalog item\) appear in your app.
 -   How to make a form stop appearing in your app.
@@ -117,9 +117,9 @@ When you choose a template to start creating your form, Creator Studio builds a 
 
 The form template that Creator Studio provides is called the Creator Studio Default Template. It contains three questions to get you started. You can customize, add, and subtract questions on your form.
 
-**Note:** You can create a form using AI. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-text-to-form.md).
+**Note:** You can create a form using AI. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-text-to-form.md).
 
-Your administrator can delete the default template, create additional form templates, and restrict who can fill out the forms. If you're an administrator, you can read more about this topic in [Creating catalog templates for use in Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-creating-catalog-templates.md).
+Your administrator can delete the default template, create additional form templates, and restrict who can fill out the forms. If you're an administrator, you can read more about this topic in [Creating catalog templates for use in Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-creating-catalog-templates.md).
 
 To store the forms that requesters fill out, Creator Studio creates a table by default. One row represents one filled-out form.
 
@@ -138,18 +138,18 @@ You can add questions to forms that have been preconfigured by your admin, and c
 
 You can make forms change based on how users answer questions in several ways:
 
--   Forms can automatically update how questions appear \(or are hidden\) based on how users answer a them. We call this [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md). For example, if a user says they want a T-shirt for an event they're attending, you can make a **T-shirt size** field required.
+-   Forms can automatically update how questions appear \(or are hidden\) based on how users answer a them. We call this [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-glossary.md). For example, if a user says they want a T-shirt for an event they're attending, you can make a **T-shirt size** field required.
 -   Forms can automatically populate answers based on answers to record choice questions. For example, a form can enable someone to select a user for the **Choose the gift box recipient** field, which retrieves its values from the User table. An additional **Preferred name** field can be automatically populated from the **First name** field of the User table selection, but then edited if someone prefers a nickname.
 
 ## Laying out the questions
 
 Creator Studio provides an initial layout for its default form. You can use columns, images, divider lines, and more to customize the layout of the questions on the forms. There are two procedures that you can use to customize a form:
 
--   Changing the questions – Change the number of questions, what they’re asking, and adjust where questions appear on a form. Find information on changing questions in [Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-edit-form.md).
+-   Changing the questions – Change the number of questions, what they’re asking, and adjust where questions appear on a form. Find information on changing questions in [Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-edit-form.md).
 
     \[Omitted image "crs-edit-questions-nav.png"\] Alt text: Select a question to edit its details
 
--   Changing the look and feel of the form – Add pictures, write some text to explain the questions, and even move them around to make them flow smoothly. You can read about that in [Change the layout of an app's record in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-record-details.md).
+-   Changing the look and feel of the form – Add pictures, write some text to explain the questions, and even move them around to make them flow smoothly. You can read about that in [Change the layout of an app's record in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-work-with-record-details.md).
 
     \[Omitted image "crs-form-component-style.png"\] Alt text: Change the appearance of the form by changing text and images
 
@@ -160,9 +160,9 @@ After deployment, your app lives as forms in the Service Catalog and categories 
 
 Users can access those forms directly in a Service Catalog, as well as Service Portal and an Employee Center.
 
-If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-taxonomy.md).
+If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/config-taxonomy.md).
 
-**Note:** If you want to check out what a form looks like and test submitting responses to it, you can try it out after it's been published. When you try a form, you submit answers, which trigger any associated automations. For more information, see [Test one of your forms for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-try-it.md).
+**Note:** If you want to check out what a form looks like and test submitting responses to it, you can try it out after it's been published. When you try a form, you submit answers, which trigger any associated automations. For more information, see [Test one of your forms for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-try-it.md).
 
 ## Making forms available for an app
 
@@ -180,26 +180,26 @@ A published form appears as an item in your catalog of offerings. For example, y
 -   Publishing a form means that the form will appear as a catalog item only after your app is deployed. That’s why the button label is **Mark as ready**.
 -   Deploying an app is what system admins do to make your app available for people to use.
 
--   **[Add a form to an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-form.md)**  
+-   **[Add a form to an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-add-form.md)**  
 Add a form to the app you just created. Forms contain questions that people respond to when submitting a service desk request.
--   **[Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-edit-form.md)**  
+-   **[Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-edit-form.md)**  
 Forms help people ask for things they need, such as a new keyboard or permission to take time off. The default form that's added when you create an app in Creator Studio needs some changes to fit your needs. For example, you must add question labels to gather information about the request.
--   **[Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-text-to-form.md)**  
+-   **[Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-text-to-form.md)**  
 Learn how ServiceNow Otto for Creator helps you to create forms for you in Creator Studio.
--   **[Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-dynamic-behavior.md)**  
+-   **[Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-dynamic-behavior.md)**  
 Make a form update based on how users answer a question using dynamic behavior. For example, if a user says they want a T-shirt for an event they're attending, you can make a **T-shirt size** field required.
--   **[Development states of a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-catalog-item-states.md)**  
+-   **[Development states of a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-catalog-item-states.md)**  
 Think of your app as an online store that contains a catalog of items. To request something, a person needs to fill out a form. It’s your job to create and customize forms for every item in your catalog using Creator Studio.
--   **[Add more forms to an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-another-form.md)**  
+-   **[Add more forms to an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-add-another-form.md)**  
 Add as many forms as you need to create catalog items for your app. For example, you could have an office booking app with three different forms: one for requesting parking spaces, one for requesting a desk, and one for reserving conference rooms.
--   **[Edit the settings for a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-edit-form-settings.md)**  
+-   **[Edit the settings for a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-edit-form-settings.md)**  
 Edit form settings if you need to change its basic attributes, such as its associated image or attachments are allowed.
--   **[Publish a form for your app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-publish-form.md)**  
+-   **[Publish a form for your app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-publish-form.md)**  
 Publishing forms once they're ready makes them available as catalog items in the production instance for published apps.
--   **[Working with published forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/crs-working-with-published-forms.md)**  
+-   **[Working with published forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/crs-working-with-published-forms.md)**  
 After a form has been published, you can update it, undo changes, and hide it from being visible.
--   **[Deleting forms and questions in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-delete-forms-questions.md)**  
+-   **[Deleting forms and questions in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-delete-forms-questions.md)**  
 Deleting unpublished forms and questions from Creator Studio removes them completely from the ServiceNow AI Platform.
 
-**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
 

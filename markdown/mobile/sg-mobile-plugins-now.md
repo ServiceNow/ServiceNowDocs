@@ -3,9 +3,9 @@ title: Mobile plugins for Now Mobile
 description: Use these plugins to extend functionality for the Now Mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-plugins-now.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile plugins, Plugins &amp; upgrades, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -22,5 +22,5 @@ Use these plugins to extend functionality for the Now Mobile app.
 |Mobile Time Sheets|Create, submit, edit, and approve time sheets on the go with the new Mobile time sheets app. Time sheet users will be able to create and submit timecards and time sheets from their mobile device. Managers will be able to approve, reject, and recall timecards and time sheets from their mobile device. The app is supported on both iOS and Android devices.|Store|Yes|
 |Walk-up Experience|Walk-up Experience for pre-built tech lounges. This plugin enables your IT organization to set up a walk-up contact channel to support online and on-site check in.|Instance|Yes|
 
-**Parent Topic:**[Mobile plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-plugins.md)
+**Parent Topic:**[Mobile plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-plugins.md)
 

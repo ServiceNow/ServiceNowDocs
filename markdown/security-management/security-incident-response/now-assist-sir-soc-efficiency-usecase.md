@@ -3,11 +3,11 @@ title: Analyze security operations
 description: The Analyze security operations metrics agentic workflow helps security operations center managers analyze the performance of their security teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/now-assist-sir-soc-efficiency-usecase.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use agentic workflows, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -40,8 +40,8 @@ The following tools are mapped to the AI agents that are used in the Analyze sec
 
 There are no triggers for this use case. If required, you can add a trigger to invoke the use case automatically.
 
--   **[Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/assess-metrics-sir-aiagent.md)**  
+-   **[Analyze security operations metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/assess-metrics-sir-aiagent.md)**  
 Chat with an AI agent from the ServiceNow Otto panel to help you gain insight into how efficiently your security analysts are working with security incidents resolution.
 
-**Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
+**Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
 

@@ -3,11 +3,11 @@ title: Configure an attribute pack table against a configuration item
 description: Configure an attribute pack table against a configuration item \(CI\) with filter conditions in the Telecommunications Network Inventory application. As you configure the pack table, you can use the packs for creating a CI record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/configure-packs-for-a-ci-form.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Attribute pack table, Configure, Telecommunications Network Inventory]
 ---
@@ -19,7 +19,7 @@ Configure an attribute pack table against a configuration item \(CI\) with filte
 ## Before you begin
 
 -   Make sure that the Attribute Pack plugin is installed with the Telecommunications Network Inventory application.
--   Create a pack table with a set of attributes. To learn more, see [Create table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-pack-table.md).
+-   Create a pack table with a set of attributes. To learn more, see [Create table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-pack-table.md).
 
 Role required: admin, sn\_ni\_core.inventory\_admin
 
@@ -109,9 +109,9 @@ The pack table is mapped against the CI and is displayed in the Pack Config list
 
 ## What to do next
 
-Use the pack tables in the CI record. To learn more, see [Use an attribute pack in the CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/use-telecommunication-network-inventry-pack.md).
+Use the pack tables in the CI record. To learn more, see [Use an attribute pack in the CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/use-telecommunication-network-inventry-pack.md).
 
-**Parent Topic:**[Configuring an attribute pack table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-pack-table.md)
+**Parent Topic:**[Configuring an attribute pack table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-pack-table.md)
 
 **Related topics**  
 

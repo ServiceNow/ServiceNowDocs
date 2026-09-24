@@ -3,11 +3,11 @@ title: Analytics User manager
 description: The Analytics user manager provides the user managers with reports of time sheet exceptions, and category wise time reported by the users.The Analytics User manager shows the time sheet reports for the users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/user-manager-dashboard.html
-release: australia
+release: brazil
 product: Time Card Management
 classification: time-card-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ The Analytics user manager provides the user managers with reports of time sheet
 
 The dashboard can be activated using the Performance Analytics - Content Pack - Project Portfolio Suite Dashboards plugin \(com.snc.pps\_dashboards\). You require Performance Analytics license to use this dashboard.
 
-The dashboard displays time sheet reports only for those time card users who have the **Manager** field on [User form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md) set to the current user.
+The dashboard displays time sheet reports only for those time card users who have the **Manager** field on [User form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md) set to the current user.
 
 The reports in the dashboard are filtered based on **Date** range, and **User** selected.
 
@@ -52,7 +52,7 @@ It displays the total approved hours in all categories displayed in **Time by ca
 
 The bar chart report displays the time approved against each category for the selected users whose manager in User profile is the current user.
 
-**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/time-card-management/time-card-management.md)
 
 ## Use the Analytics User manager
 
@@ -66,7 +66,7 @@ Role required: resource\_manager, timecard\_admin
 
 **Important:** Starting with Xanadu release, **User Manager Dashboard** is renamed to **Analytics User manager** for new customers.
 
-The dashboard displays time sheet reports only for those time card users who have the **Manager** field on [User form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md) set to you.
+The dashboard displays time sheet reports only for those time card users who have the **Manager** field on [User form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md) set to you.
 
 ### Procedure
 

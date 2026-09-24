@@ -3,7 +3,7 @@ title: Create on-call schedules for multiple groups
 description: Use the on-call onboarding utility to create schedules for many groups at once instead of configuring each group individually. The On-Call Onboarding wizard helps you create on-call schedules for multiple teams by mapping shift templates, uploading a roster spreadsheet, and optionally configuring escalation policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
@@ -32,7 +32,7 @@ Role required: rota\_admin
 
 The On-Call Onboarding wizard streamlines the creation of on-call schedules for multiple teams simultaneously.
 
-For more information about the on-call scheduling setup activities the wizard streamlines, see [Configuring On-call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md). For more information about the Teams page, see [On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md).
+For more information about the on-call scheduling setup activities the wizard streamlines, see [Configuring On-call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md). For more information about the Teams page, see [On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md).
 
 **Note:**
 
@@ -85,7 +85,7 @@ Your progress is saved as you move between steps. However, selecting **Back** di
 
 6.  Prepare and upload the roster spreadsheet.
 
-    For more information about the workbook structure and the upload validation, see [On-call bulk roster template Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/oc-bulk-schedule-roster-template.md).
+    For more information about the workbook structure and the upload validation, see [On-call bulk roster template Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/oc-bulk-schedule-roster-template.md).
 
     1.  Select **Download template**.
 
@@ -138,8 +138,8 @@ Your progress is saved as you move between steps. However, selecting **Back** di
 
 To verify new schedules for the selected teams, select **View in Calendar** in the completion email or wizard.
 
--   **[On-call bulk roster template Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/oc-bulk-schedule-roster-template.md)**  
+-   **[On-call bulk roster template Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/oc-bulk-schedule-roster-template.md)**  
 The roster template workbook contains one sheet per mapped group, prefilled with shift template details.
 
-**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
+**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
 

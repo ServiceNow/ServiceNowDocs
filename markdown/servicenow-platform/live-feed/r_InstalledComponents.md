@@ -3,11 +3,11 @@ title: Business rule installed with Live Feed Document
 description: This business rule is installed with Live Feed Document. There are no tables, roles, or notifications installed with it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/r\_InstalledComponents.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document feeds, Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ This business rule is installed with Live Feed Document. There are no tables, ro
 |-------------|-----------|
 |Live Feed integration|Writes journal comments to the Live Feed if there is a group for this record.|
 
-**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_DocumentFeeds.md)
+**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_DocumentFeeds.md)
 
 **Related topics**  
 

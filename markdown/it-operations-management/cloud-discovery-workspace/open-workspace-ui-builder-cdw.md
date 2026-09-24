@@ -3,11 +3,11 @@ title: Access the UI Builder in Cloud Discovery Workspace
 description: Access your Configurable Workspace experience in UI Builder for editing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-discovery-workspace/open-workspace-ui-builder-cdw.html
-release: australia
+release: brazil
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Management]
 ---

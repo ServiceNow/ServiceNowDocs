@@ -3,11 +3,11 @@ title: Update the ServiceNow SDK version for an application in the ServiceNow ID
 description: Configure which version of the ServiceNow SDK an application uses from the ServiceNow IDE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/update-sdk-version-apps-ide.html
-release: australia
+release: brazil
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -62,5 +62,5 @@ From the ServiceNow IDE, you can configure which version of the ServiceNow SDK, 
 
 You can use the latest version of the ServiceNow SDK application packaging service and ServiceNow Fluent APIs in your application.
 
-**Parent Topic:**[Configuring the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/configuring-servicenow-ide.md)
+**Parent Topic:**[Configuring the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/configuring-servicenow-ide.md)
 

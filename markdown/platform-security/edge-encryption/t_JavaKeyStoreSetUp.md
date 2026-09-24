@@ -3,11 +3,11 @@ title: Set up a Java KeyStore keystore
 description: You can use a Java KeyStore keystore to store encryption keys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/t\_JavaKeyStoreSetUp.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a keystore and encryption keys, Install the Edge Encryption proxy server using the command line installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -34,17 +34,17 @@ The Edge Encryption proxy ships with the Java JCEKS KeyStore file named `keystor
 
     2.  Open the `edgeencryption.properties` file.
 
-    3.  Enter the properties for the [Java KeyStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md).
+    3.  Enter the properties for the [Java KeyStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/edge-encryption-proxy-server-properties.md).
 
 2.  Save and close the `edgeencryption.properties` file.
 
 
 ## What to do next
 
-After setting up the Java KeyStore, [Create encryption keys using the Java KeyStore keytool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_CreateEncryptionKeys.md).
+After setting up the Java KeyStore, [Create encryption keys using the Java KeyStore keytool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/t_CreateEncryptionKeys.md).
 
--   **[Create encryption keys using the Java KeyStore keytool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_CreateEncryptionKeys.md)**  
+-   **[Create encryption keys using the Java KeyStore keytool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/t_CreateEncryptionKeys.md)**  
 You can use the keytool shipped with the encryption proxy distribution to create AES 128-bit and AES 256-bit encryption keys.
 
-**Parent Topic:**[Set up a keystore and encryption keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/set-up-keystore.md)
+**Parent Topic:**[Set up a keystore and encryption keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/set-up-keystore.md)
 

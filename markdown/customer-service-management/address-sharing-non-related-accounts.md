@@ -3,9 +3,9 @@ title: Share an address through non-related accounts
 description: Enable your users to reuse the same address between multiple non-related accounts. This way, you can share an address between multiple accounts by using the Location field on the Account Address form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/address-sharing-non-related-accounts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reusing addresses between multiple accounts, Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -43,13 +43,13 @@ Role required:
 
 7.  Choose the account for which you want to reuse the address.
 
-    **Note:** You can reuse addresses through non-related accounts from the location form. For more information on the location form, see [Associate an address to an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-address-account.md).\[Omitted image "account\_non\_related.png"\] Alt text: Pop-up window displaying address sharing between non-related accounts form.
+    **Note:** You can reuse addresses through non-related accounts from the location form. For more information on the location form, see [Associate an address to an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-address-account.md).\[Omitted image "account\_non\_related.png"\] Alt text: Pop-up window displaying address sharing between non-related accounts form.
 
 
 **Related topics**  
 
 
-[Reusing addresses between multiple accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/reuse-account-addresses.md)
+[Reusing addresses between multiple accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/reuse-account-addresses.md)
 
-[Address sharing through account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/address-sharing-account-hierarchy.md)
+[Address sharing through account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/address-sharing-account-hierarchy.md)
 

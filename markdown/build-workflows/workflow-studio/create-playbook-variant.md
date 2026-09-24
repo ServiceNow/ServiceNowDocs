@@ -3,11 +3,11 @@ title: Create a playbook variant
 description: Create variations of a playbook for different use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-playbook-variant.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Playbook variants, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,8 +20,6 @@ Create variations of a playbook for different use cases.
 
 Role required: admin or playbook.admin
 
-**Tip:** To learn about generating a playbok using AI, see Generate a playbook
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workflow Studio**.
@@ -32,9 +30,9 @@ Role required: admin or playbook.admin
 
 4.  Select **Add a variant**.
 
-5.  On the **Build on your own** tab, fill in the following fields.
+5.  Fill in the following fields.
 
-<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d160395e101">
+<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d161498e92">
 
 **Variant name**
 
@@ -42,13 +40,13 @@ Role required: admin or playbook.admin
 
 Enter a unique, user-facing name for your playbook variant. This name appears to agents and fulfillers when this variant runs.
 
-</td></tr><tr><td id="d160395e113">
+</td></tr><tr><td id="d161498e104">
 
 **Conditions**
 
 </td><td>
 
-In the condition builder, select or enter a field, operator, and value.**Note:** To learn more about condition builders, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+In the condition builder, select or enter a field, operator, and value.**Note:** To learn more about condition builders, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 Add more conditions for this variant to run, as needed.
 
@@ -67,7 +65,7 @@ Add more conditions for this variant to run, as needed.
 
     The color of the canvas border corresponds to the color of the variant that is open.
 
-    **Important:** The order of your variants is important. Variants are evaluated in the order that they are listed in the panel, from top to bottom. To learn more about reordering your variants, see [Re-order playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/reorder-playbook-variants.md).
+    **Important:** The order of your variants is important. Variants are evaluated in the order that they are listed in the panel, from top to bottom. To learn more about reordering your variants, see [Re-order playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/reorder-playbook-variants.md).
 
 7.  As you make changes to your variants, make sure all activity properties are still configured as needed.
 
@@ -77,7 +75,7 @@ Add more conditions for this variant to run, as needed.
 
     Activities that are the same as in a parent playbook are grayed out. If you change or add an activity, it is shown in full color.
 
-    **Note:** For more general guidelines, see [General Guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-variants.md).
+    **Note:** For more general guidelines, see [General Guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-variants.md).
 
 8.  Add a child variant to a variant.
 
@@ -111,7 +109,7 @@ Enter a unique, user-facing name for your playbook variant. This name appears to
 
 </td><td>
 
-In the condition builder, select or enter a field, operator, and value. To learn more about condition builders, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+In the condition builder, select or enter a field, operator, and value. To learn more about condition builders, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 Add more conditions for this variant to run, as needed.**Note:** Child variants automatically inherit the conditions of the parent variant.
 
@@ -130,12 +128,12 @@ Add more conditions for this variant to run, as needed.**Note:** Child variants 
 
     2.  Select **Edit properties**.
 
-11. To save a variant as a favorite, see [Save a playbook variant as a favorite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/bookmark-playbook-variant.md).
+11. To save a variant as a favorite, see [Save a playbook variant as a favorite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/bookmark-playbook-variant.md).
 
 
 ## What to do next
 
-[Set variant evaluation point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/set-evaluation-point.md)
+[Set variant evaluation point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/set-evaluation-point.md)
 
-**Parent Topic:**[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-variants.md)
+**Parent Topic:**[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-variants.md)
 

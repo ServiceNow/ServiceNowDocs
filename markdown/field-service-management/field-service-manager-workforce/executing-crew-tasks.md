@@ -3,11 +3,11 @@ title: Managing crew tasks using the Now Mobile Agent application
 description: After the dispatcher dispatches work order tasks to a crew, tasks are sent to the assigned members of the crew, which includes the crew leader.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/executing-crew-tasks.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Crew operations, Managing workforce, Use, Field Service Management]
 ---
@@ -40,11 +40,11 @@ Crew members can perform the following actions on the work order task:
 **Related topics**  
 
 
-[Accept or reject a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/accept-reject-task-on-mobile.md)
+[Accept or reject a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/accept-reject-task-on-mobile.md)
 
-[Start work on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-task-on-mobile.md)
+[Start work on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/work-task-on-mobile.md)
 
-[Record time worked for a task or activity manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/field-service-agent-record-time.md)
+[Record time worked for a task or activity manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/field-service-agent-record-time.md)
 
-[Knowledge articles on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/access-information-you-need-mobile.md)
+[Knowledge articles on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/access-information-you-need-mobile.md)
 

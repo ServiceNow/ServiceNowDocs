@@ -3,11 +3,11 @@ title: Risk intelligence report requests management
 description: You can view a list of risk intelligence report \(RIR\) requests, their associated providers, scores, and report URLs. In addition, you can create requests and make updates by using the Third-party Risk Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-rir-tab.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ You can view a list of risk intelligence report \(RIR\) requests, their associat
 
 If you have the third-party risk \(TPR\) assessor \[sn\_vdr\_risk\_asmt.vendor\_risk\_assessor\] or TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] role, you can request a RIR or score. You can create a RIR request that is associated with a third party or due diligence request. If you want to associate an RIR request with a due diligence request, it must be after an inherent risk questionnaire \(IRQ\) has been completed \(that is when the due diligence request has entered the IRQ in progress state\). You can update the Sanction section at any time.
 
-For more information, see [Request a risk intelligence report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-tp.md), [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md), [Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md), and [Track sanctions-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-track-sanctions.md).
+For more information, see [Request a risk intelligence report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-tp.md), [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md), [Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md), and [Track sanctions-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-track-sanctions.md).
 
 The following example shows how a new risk intelligence report request appears in Vendor Management Workspace.
 
@@ -66,7 +66,7 @@ Type of report or score that is provided.
 
  Each service that is offered by the provider returns a particular type of risk rating or score. For example, Financial risk or Security risk.
 
-**Note:** The request types that are available are dependent on what has been set up for the provider. For more information, see [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
+**Note:** The request types that are available are dependent on what has been set up for the provider. For more information, see [Set up a request type for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Due diligence request
 
 Due diligence request that is associated with the risk intelligence request. There’s an option to request risk intelligence as part of a due diligence request.
 
-For more information, see [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md).
+For more information, see [Request a risk intelligence report associated with a due diligence request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-request-dd.md).
 
 </td></tr><tr><td>
 
@@ -197,7 +197,7 @@ The following example shows the **Risk intelligence report requests** tab in Ven
 
 \[Omitted image "tprm-ws-rir-tab.png"\] Alt text: Risk intelligence report requests view from Risk intelligence Report requests tab in Vendor Management Workspace.
 
-For more information on RIR requests, see [Using risk intelligence reports and scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-using.md).
+For more information on RIR requests, see [Using risk intelligence reports and scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintel-using.md).
 
 ## Risk intelligence report request states
 
@@ -237,19 +237,19 @@ The RIR requests have the following potential states:
     An RIR request enters this state after a TPR manager, TPR assessor, or contract negotiator cancels the report request. If you must cancel a request, it can be done while the request is in the **Open** or **Order pending** state. If you want to create a duplicate of a canceled request, you can’t edit that record. You must create a new RIR request.
 
 
--   **[Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md)**  
+-   **[Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md)**  
 Use the risk intelligence request form to capture all the information that you need to request risk intelligence using Third-party Risk Management. As a third-party risk manager, third-party risk assessor, and contract negotiator that is assigned to the due diligence request, you can request risk intelligence.
 
-**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
 **Related topics**  
 
 
-[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
+[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
 
-[Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md)
+[Risk intelligence report request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-rir-form.md)
 
-[Risk intelligence provider integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-integrate-rir.md)
+[Risk intelligence provider integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-integrate-rir.md)
 
-[Integrating EcoVadis with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-integrating-ecovadis.md)
+[Integrating EcoVadis with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-integrating-ecovadis.md)
 

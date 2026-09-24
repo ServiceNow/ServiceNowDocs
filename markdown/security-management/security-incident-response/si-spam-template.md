@@ -3,11 +3,11 @@ title: Security Incident Spam workflow template
 description: The Security Incident - Spam - Template allows you to perform a series of tasks designed to handle email spam on your network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/si-spam-template.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Security Incident Response workflow templates, Understand Security Incident Response Orchestration workflows and workflow templates, Security Incident Response Orchestration, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,7 +28,7 @@ The workflow is triggered when the **Category** in a security incident is set or
 
 ## Procedure
 
-1.  Open the security incident for which you want to handle email spam, or [create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
+1.  Open the security incident for which you want to handle email spam, or [create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
 
 2.  In **Category**, select **Spam source**.
 
@@ -126,7 +126,7 @@ The **State** of the security incident is automatically changed to **Review**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-orch-workflow-templates.md)
+**Parent Topic:**[Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-orch-workflow-templates.md)
 
 **Related topics**  
 

@@ -1,63 +1,70 @@
 ---
 title: Remediation task fields
-description: Fields on a remediation task record.
+description: Fields on the remediation task form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/remediation-task-fields.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-09-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Complete a playbook activity, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Remediation task fields
 
-Fields on a remediation task record.
+Fields on the remediation task form.
 
-## Remediation task
-
-Identify the task and its purpose.
+Identify the remediation task and describe the work required to resolve the issue.
 
 |Field|Description|
 |-----|-----------|
-|**Number**|The task's record number. Read-only.|
-|**Short description**|A short description of the remediation task.|
+|**Number**|The remediation task record number. Generated automatically.|
+|**Name**|A name for the remediation task.|
+|**Issue**|The issue associated with the remediation task.|
+|**State**|The remediation task state, such as Open.|
+|**Priority**|The remediation task priority.|
 |**Description**|A description of the remediation task.|
 
 ## Assignment
 
-Assign the task to the right person or team.
+Assign responsibility for the remediation task.
 
 |Field|Description|
 |-----|-----------|
 |**Assigned to**|The user responsible for the remediation task.|
-|**Assignment group**|The group responsible for the remediation task.|
+|**Watch list**|Additional users who receive notifications about updates to the remediation task.|
 
 ## Schedule
 
-Track when the task is due.
+Track the planned and actual timeline for the remediation task.
 
 |Field|Description|
 |-----|-----------|
-|**Due date**|The date by which the remediation task must be completed.|
+|**Planned start date**|The planned start date for the remediation task.|
+|**Planned end date**|The planned completion date for the remediation task.|
+|**Actual start date**|The date and time when work on the remediation task began.|
+|**Actual end date**|The date and time when work on the remediation task was completed.|
+|**Created**|The date and time when the remediation task was created. Read-only.|
+|**Updated**|The date and time when the remediation task was last updated. Read-only.|
 
 ## Activity
 
-Track the task's current progress.
+Record comments and notes about the remediation task.
 
 |Field|Description|
 |-----|-----------|
-|**State**|The current state of the remediation task.|
+|**Additional comments \(Customer visible\)**|Comments visible to customers.|
+|**Work notes \(Private\)**|Internal notes that are not visible to customers.|
 
 ## Confidentiality
 
-Control who can view this task based on sensitivity.
+Control visibility of the remediation task.
 
 |Field|Description|
 |-----|-----------|
-|**Confidential**|Restricts visibility of the task when selected.|
+|**Confidential**|Restricts visibility of the remediation task.|
 
-**Parent Topic:**[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)
+**Parent Topic:**[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)
 

@@ -3,11 +3,11 @@ title: Jumpstart Your ITOM Discovery
 description: This Accelerator provides foundational guidance for a successful IT Operations Management \(ITOM\) Discovery implementation, along with a demonstration of its possibilities and capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-itom-discovery.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -20,7 +20,7 @@ This Accelerator provides foundational guidance for a successful IT Operations M
 
 Jumpstart Your ITOM Discovery educates customers on the technical foundations of horizontal discovery within the ITOM Discovery product and proactively addresses key topics such as security considerations, product core configuration, automated CMDB data entry, and more. Through an overview and applied demonstration, customers will gain the knowledge and confidence needed to begin their ITOM Visibility journey effectively. Additionally, this Accelerator includes key resources and leading practice guides to help customers throughout their journey.
 
-If you want to know more about Top-Down Discovery \(Service Mapping\), request the [Jumpstart Your Service Mapping Accelerator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-service-mapping.md)
+If you want to know more about Top-Down Discovery \(Service Mapping\), request the [Jumpstart Your Service Mapping Accelerator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-service-mapping.md)
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total Packages. This offering currently makes use of a ServiceNow demonstration instance.
 

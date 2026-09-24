@@ -3,11 +3,11 @@ title: Design Assign Protected Path Assignment subflow
 description: The TNI Design Assign Connection Element Creation subflow enables you to update the protection path in the Telecommunications Network Inventory application. You can use this flow action to configure the activities in a Design and Assign playbook for logical connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-design-assign-protected-path-assignment-subflow.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Subflows, Reference, Telecommunications Network Inventory]
 ---
@@ -36,7 +36,7 @@ The following table lists the input fields in the TNI Design Assign Protected Pa
 |Change Task|The change task that is associated with Assign protection element activity.|Reference.Change Task|
 |Ignore Validation Error|Ignores any validation errors.|True/False|
 
-To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -46,7 +46,7 @@ The TNI Design Assign Protected Path Assignment subflow output are as follows.
 -   Create the CI relationship between logical connection and protection path.
 -   Update change task that is associated with the Assign protection element activity.
 
-**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
+**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 
 **Related topics**  
 
@@ -55,7 +55,7 @@ The TNI Design Assign Protected Path Assignment subflow output are as follows.
 
 [Logical Connection Creation subflow]()
 
-[Physical connection creation subflow]()
+[Physical Connection Creation subflow]()
 
 [Design Assign Connection Element Creation subflow]()
 

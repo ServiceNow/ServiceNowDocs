@@ -3,11 +3,11 @@ title: Set the AuthnRequest service URL
 description: Using the IdP's metadata, set the request service URLs for the integration's IdP.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SetTheAuthnRequestServiceURL.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity Provider \(IdP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

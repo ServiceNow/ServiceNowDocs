@@ -3,9 +3,9 @@ title: Install Data Center and Network Asset Management applications
 description: Install all eligible Data Center and Network Asset Management applications from a single ServiceNow Store product. Use this procedure to install the apps your organization is entitled to in one step.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/install-data-center-network-asset-management-applications.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Center and Network Asset Management, Telecommunications, Media, and Technology \(TMT\)]
 ---

@@ -3,11 +3,11 @@ title: External user access for case tasks
 description: This section describes the external user access for case tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-external-users-access.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enforced Restrictions for case\(s\), Creating cases using Threat Analyst Workbench, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -24,5 +24,5 @@ Case tasks are assigned to the users with the external role even though they do 
 2.  The external user can only view the case tasks assigned to that specific user or the group\(s\) the user belongs to.
 3.  The external user should be able to reassign the task within the group the user belongs to.
 
-**Parent Topic:**[Enforced Restrictions for case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enforced-restrictions.md)
+**Parent Topic:**[Enforced Restrictions for case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-enforced-restrictions.md)
 

@@ -3,11 +3,11 @@ title: Discard a catalog item
 description: Discard a catalog item that’s in the Draft state in Catalog Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/discard-a-catalog-item.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Edit a catalog item in Catalog Builder, Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,5 +39,5 @@ If you no longer want a draft item, you can discard it in Catalog Builder. When 
     **Note:** If a catalog item wizard is already open for editing, and you want to discard it, select the more actions icon \(\[Omitted image "more-actions-ne-icon.png"\] Alt text: More Actions icon\) on the wizard, and select **Discard draft**.
 
 
-**Parent Topic:**[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
+**Parent Topic:**[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)
 

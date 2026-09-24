@@ -3,13 +3,13 @@ title: Configure the search option for your portal header
 description: Configure search feature to display search option on you portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-header-search.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Portal Polaris Header widget for your portal, Portal Polaris Header widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure the Portal Polaris Header widget for your portal, Portal Polaris Header widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the search option for your portal header

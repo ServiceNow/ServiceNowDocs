@@ -3,9 +3,9 @@ title: Create Return Merchandise Authorization case lines
 description: Create return merchandise authorization case lines directly from install base items or sold product entities to manage the full post-sale life cycle of products sold to customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-return-merchandise-authorization-case-lines.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Order operations apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_csm\_rma\_case.csm\_rma\_case\_agent
 
 ## Procedure
 
-1.  Navigate to the CSM/FSM Configurable Workspace.
+1.  Navigate to the CRM Workspace.
 
 2.  From the list, navigate to **RMA cases** and select **All** to open the list of cases.
 
@@ -28,7 +28,7 @@ Role required: sn\_csm\_rma\_case.csm\_rma\_case\_agent
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields on the form, see [RMA case line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rma-case-line-form.md).
+    To learn more about the fields on the form, see [RMA case line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/rma-case-line-form.md).
 
 5.  Select **Save and Continue**.
 
@@ -54,5 +54,5 @@ Role required: sn\_csm\_rma\_case.csm\_rma\_case\_agent
 **Related topics**  
 
 
-[RMA case line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rma-case-line-form.md)
+[RMA case line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/rma-case-line-form.md)
 

@@ -3,9 +3,9 @@ title: Use Guided Tours in RPA Hub
 description: Use Guided Tours in RPA Hub to get instructions on how to perform a task.​ Guided Tours use a series of steps that may span multiple pages. The tour includes links to detailed documentation.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-guided-tour-rpa-hub.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [help center rpa hub]
 breadcrumb: [Getting started, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -23,7 +23,7 @@ Role required: Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn
 
 ## About this task
 
-Guided Tours help train and onboard users within the RPA Hub user interface \(UI\). Each tour contains a series of interactive steps that help you complete a specific task or a process within the same browser window. If needed, administrators can create more tours. For more information, see [Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-tours.md).
+Guided Tours help train and onboard users within the RPA Hub user interface \(UI\). Each tour contains a series of interactive steps that help you complete a specific task or a process within the same browser window. If needed, administrators can create more tours. For more information, see [Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/guided-tours.md).
 
 When you visit a page that has a guided tour for the first time, a welcome screen appears. You can choose to either begin the tour or skip the tour.
 

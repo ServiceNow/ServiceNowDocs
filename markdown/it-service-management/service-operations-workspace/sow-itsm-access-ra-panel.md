@@ -3,11 +3,11 @@ title: Access Recommended Actions for ITSM Panel
 description: Agents access recommended actions in Service Operations Workspace to view a list of recommendations that are presented to help to resolve incidents. They can also manually search for AI-powered recommendations to quickly find solutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-itsm-access-ra-panel.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [recommended actions, AI-powered recommendations, incident resolution, field-level recommendations, Service Operations Workspace, incident recommendations, problem recommendations, change request recommendations, AI search, actionable recommendations, real-time recommendations]
 breadcrumb: [Configuring Recommended Actions for ITSM, Contextual side panel configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
@@ -43,7 +43,7 @@ For other records, selecting the Recommendations icon \(\[Omitted image "recomme
 
 \[Omitted image "AI-search\_powered\_recommendations.png"\] Alt text: AI-powered search results
 
-For more information, see [Get guidance-based recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/get-guidance-based-recommendations.md).
+For more information, see [Get guidance-based recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/get-guidance-based-recommendations.md).
 
 Agents can view field-level recommendations in the fields of an incident form in Service Operations Workspace.
 
@@ -51,9 +51,9 @@ Agents can view field-level recommendations in the fields of an incident form in
 
 \[Omitted image "ra-field-recommendation.png"\] Alt text: Field-level recommendations.
 
-Starting from the version 4.2, field recommendations appear in a drop-down when you select the field. For more information, see [Get field recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/get-field-recommendations.md).
+Starting from the version 4.2, field recommendations appear in a drop-down when you select the field. For more information, see [Get field recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/get-field-recommendations.md).
 
 \[Omitted image "ra\_get\_field\_recommendations\_drop-down.png"\] Alt text: Field\_recommendations\_in\_drop-down
 
-**Parent Topic:**[Configuring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-recommended-actions-for-itsm-in-service-operations-workspace.md)
+**Parent Topic:**[Configuring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-recommended-actions-for-itsm-in-service-operations-workspace.md)
 

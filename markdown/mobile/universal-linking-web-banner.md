@@ -3,9 +3,9 @@ title: Create path segment records and supported URL records for universal linki
 description: Create path segment records and supported URLs records for universal linking to display a mobile banner. Users see this banner when they land on specific platform web pages. Within each supported URL, you define the page where the banner appears, the mobile app and the screen type the user views, and the data displayed within the screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/universal-linking-web-banner.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Supported URLs, Universal linking, Mobile URLs, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -87,7 +87,7 @@ Mobile app
 
 ServiceNow mobile app the link opens in. Options are `Agent`, `Onboarding`, or `Request` \(Now Mobile\).
 
-**Note:** The selection here overrides the selection made in the **Mobile app** field listed in the topic [Mapping specific mobile screens for universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-screen-mapping.md).
+**Note:** The selection here overrides the selection made in the **Mobile app** field listed in the topic [Mapping specific mobile screens for universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/universal-linking-screen-mapping.md).
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Use the mobile screen builder script block to define the screen type to build an
 
 ## What to do next
 
-After defining when banners appear and the screen and content the user views, consider enhancing the experience by associating the screen to a preconfigured table. See, [Mapping specific mobile screens for universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-screen-mapping.md).
+After defining when banners appear and the screen and content the user views, consider enhancing the experience by associating the screen to a preconfigured table. See, [Mapping specific mobile screens for universal linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/universal-linking-screen-mapping.md).
 
-**Parent Topic:**[Mobile universal linking for supported URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-support-urls.md)
+**Parent Topic:**[Mobile universal linking for supported URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/universal-linking-support-urls.md)
 

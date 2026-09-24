@@ -3,9 +3,9 @@ title: Set up Azure service accounts
 description: Create and configure cloud service accounts at ServiceNow AI Platform for the corresponding Microsoft Azure accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/setup-azure-service-accounts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servi
 
 -   **Ensure the configuration of Azure credentials**
 
-    For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-azure-cloud-credentials.md) and [Configuration steps for Azure Service Principal User and Credentials \(KB2202765\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2202765)
+    For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-azure-cloud-credentials.md) and [Configuration steps for Azure Service Principal User and Credentials \(KB2202765\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2202765)
 
 -   **Ensure that you are familiar with the hierarchy of the Azure service accounts in your environment.**
 
@@ -47,7 +47,7 @@ A service account is a secure record on your instance that stores the credential
 
     1.  Select the datacenter.
     2.  Select the check box of the **Is management account** if your are creating a service account for a management group.
-    3.  Select **Should pull events** to preform event-based discovery. For more information, see [Microsoft Azure Alert driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/microsoft-azure-alert-driven-discovery.md)
+    3.  Select **Should pull events** to preform event-based discovery. For more information, see [Microsoft Azure Alert driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/microsoft-azure-alert-driven-discovery.md)
 <table id="table-azure-service-acct-form"><thead><tr><th>
 
 Field
@@ -128,10 +128,10 @@ Not applicable for Azure service accounts.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Set up a cloud service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-cloud-service-account.md)
+**Parent Topic:**[Set up a cloud service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/setup-cloud-service-account.md)
 
 **Related topics**  
 
 
-[Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-cloud-discovery.md)
+[Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/azure-cloud-discovery.md)
 

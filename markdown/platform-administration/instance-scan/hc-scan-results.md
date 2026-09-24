@@ -3,11 +3,11 @@ title: Scan results
 description: Scan Results dashboard helps you with an overview of all details of an executed scan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hc-scan-results.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Results, Reviewing of scans, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -103,5 +103,5 @@ Name of the user whose changes generated the findings.**Note:** Only the top 5 u
 </td></tr></tbody>
 </table>If a scan is in progress and at least one of the checks fails, the following warning message shows up.\[Omitted image "hc-scan-results-warning.png"\] Alt text: Image showing warning message for scan results
 
-**Parent Topic:**[Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-results.md)
+**Parent Topic:**[Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-results.md)
 

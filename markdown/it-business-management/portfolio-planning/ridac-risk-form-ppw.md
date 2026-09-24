@@ -3,11 +3,11 @@ title: RIDAC Risk form
 description: Use the RIDAC Risk form to identify and track potential risks that could impact your demand or project planning items. Manage risk mitigation strategies and monitor risk exposure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/ridac-risk-form-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [RIDAC, risk, form, planning item]
 breadcrumb: [Form field information for Portfolio Planning, Reference, Portfolio Planning, Strategic Portfolio Management]
@@ -37,5 +37,5 @@ Use the RIDAC Risk form to identify and track potential risks that could impact 
 |Planning Item|The planning item \(project or demand\) that this risk is associated with. This field is auto-populated when a risk is created from a planning item context.|
 |Work notes|Internal notes and updates about risk mitigation progress, monitoring activities, and any changes to risk status. Used to track work history and communication.|
 
-**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
+**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

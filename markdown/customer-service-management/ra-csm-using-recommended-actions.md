@@ -3,9 +3,9 @@ title: Using the Recommended Actions application
 description: Through the Recommended Actions application, use the recommended actions of type guidance and guided decision tree in your workspace to resolve cases quickly. Use the field recommendation to get recommendations on the field values. Use the AI search option to search the relevant resources from various sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-using-recommended-actions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Automate and optimize, Use, Customer Service Management]
 ---

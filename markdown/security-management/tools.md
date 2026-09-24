@@ -3,9 +3,9 @@ title: Tools
 description: Tools are legitimate software that are used by threat actors to perform attacks. Tools apply for STIX 2.x.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/tools.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -18,10 +18,10 @@ Tools enable you to know how and when threat actors use them for executing campa
 
 For example, remote access tools \(RDP\) and network scanning tools \(Nmap\) are tools that a threat actor uses during an attack.
 
--   **[Define tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-tools.md)**  
+-   **[Define tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/define-tools.md)**  
 Define tools as legitimate software that is used to perform attacks.
 
-**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/ioc-repository.md)
 
 **Related topics**  
 

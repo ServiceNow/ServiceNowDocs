@@ -3,9 +3,9 @@ title: Configure dynamic related records
 description: System administrators can configure the dynamic related records feature to display related records in the contextual side panel in CRM Workspace. These records dynamically change based on the context of the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/dynamic-related-records-configure.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -66,7 +66,7 @@ Defines the relationship between a context record and its associated definition 
  When you open a context record, you can see the associated definition records in the Context Related Record Definitions related list.
 
 </td></tr></tbody>
-</table>For more information about these tables, including field descriptions, see [Dynamic related record tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/dynamic-related-record-tables.md).
+</table>For more information about these tables, including field descriptions, see [Dynamic related record tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/dynamic-related-record-tables.md).
 
 ## How the context and definition records work
 
@@ -105,7 +105,7 @@ Configuring the dynamic related records feature includes the following tasks:
 
 ## Related Records list card layout
 
-Records appear in the Related Records tab in a card format. This format is created with [Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper.md) \(EVAM\), a ServiceNow AI Platform application that standardizes how different data sources display in cards and lists.
+Records appear in the Related Records tab in a card format. This format is created with [Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/entity-view-action-mapper.md) \(EVAM\), a ServiceNow AI Platform application that standardizes how different data sources display in cards and lists.
 
 EVAM uses view configurations and view templates to determine how information for each type of related record is displayed.
 
@@ -116,8 +116,8 @@ EVAM view configurations can be grouped together to create configuration bundles
 
 The system administrator can modify the view configurations in the **dynamic\_related\_records\_bundle** or create new view configurations. This includes selecting the fields that are displayed on the card for each type of record. For more information, see:
 
--   [Define an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuring-entity-view-action-mapper.md)
--   [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-template.md)
+-   [Define an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuring-entity-view-action-mapper.md)
+-   [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-evam-template.md)
 
 ## Related record definitions included with the plugin
 

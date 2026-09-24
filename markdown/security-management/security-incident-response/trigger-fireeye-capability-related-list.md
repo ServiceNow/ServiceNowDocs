@@ -3,11 +3,11 @@ title: Trigger a FireEye Capability profile from Configuration Item related list
 description: Trigger a capability profile manually from the configuration item related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/trigger-fireeye-capability-related-list.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [FireEye Endpoint Security integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

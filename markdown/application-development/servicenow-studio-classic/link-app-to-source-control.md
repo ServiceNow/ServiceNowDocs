@@ -3,11 +3,11 @@ title: Link an app to source control in ServiceNow Studio
 description: Link an application or application customization to a Git repository in ServiceNow Studio so application developers can manage changes directly from the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/link-app-to-source-control.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Link an application or application customization to a Git repository in ServiceN
 
 ## Before you begin
 
--   Review [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md) before linking a customization.
+-   Review [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md) before linking a customization.
 -   Create a dedicated Git repository for the application. For increased security, enable multi-factor authentication for the Git repository.
 -   Generate an access token for the source control integration to use instead of a password and multi-factor authentication passkey when creating a Credential record. Search for personal access token on [GitHub](https://help.github.com) or [GitLab](https://docs.gitlab.com).
 -   Restrict permissions on the access token to allow read and write access to the Git repository.
@@ -84,7 +84,7 @@ MID Server Name
 
 The name of the existing MID Server to link through. Use a separate MID Server to prevent conflicts with Discovery activities.Verify that the MID Server user can create files in the \[sys\_attachment\] table and that the table accepts files of the "bundle" type.
 
-Connecting through a MID Server enables access to repositories behind a firewall. For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+Connecting through a MID Server enables access to repositories behind a firewall. For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Credential
 
 </td><td>
 
-The credential to use with the selected protocol. For more information about creating credentials, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).**Note:** For SSH protocol, enter a valid credential of the SSH private key type. For HTTPS protocol, enter a valid credential of the Basic Auth credentials type.
+The credential to use with the selected protocol. For more information about creating credentials, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md).**Note:** For SSH protocol, enter a valid credential of the SSH private key type. For HTTPS protocol, enter a valid credential of the Basic Auth credentials type.
 
 </td></tr><tr><td>
 
@@ -118,12 +118,12 @@ An optional description of the repository or application.
     The ServiceNow AI Platform validates the connection and user credentials and displays a success message. All application developers on the instance can now use the linked Git repository to manage changes.
 
 
-**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
+**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 
 **Related topics**  
 
 
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md)
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md)
 
-[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md)
+[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md)
 

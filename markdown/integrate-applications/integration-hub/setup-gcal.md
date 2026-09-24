@@ -3,7 +3,7 @@ title: Set up the Google Calendar spoke
 description: Set up an outbound integration between your ServiceNow instance and the Google Calendar Application Programming Interfaces \(API\) by setting up a connection and credential record.Create an OAuth application on the Google Calendar that authenticates requests to access the Google Calendar APIs from your ServiceNow instance. After successful authentication, you can generate an OAuth token that your ServiceNow can use to access the Google Calendar APIs.Create a connection and credential record that enables your ServiceNow instance to integrate with the Google Calendar Application Programming Interface \(API\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gcal.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -175,7 +175,7 @@ Role required: admin.
 
 ### About this task
 
-The connection and credential record includes the details that you had set up when you created the OAuth app. See [Create OAuth application on Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcal.md).
+The connection and credential record includes the details that you had set up when you created the OAuth app. See [Create OAuth application on Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-gcal.md).
 
 ### Procedure
 
@@ -189,12 +189,12 @@ The connection and credential record includes the details that you had set up wh
 
     -   To configure the default connection and credential alias record that is shipped along with the Google Calendar spoke, click **View Details**.
 
-        \[Omitted image "image.gcalendar-connection"\] Alt text: Connection for the Google Calendar spoke
+        \[Omitted image "gcalendar-connection.png"\] Alt text: Connection for the Google Calendar spoke
 
-    -   To manage more than one Google Calendar spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Google Calendar spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    \[Omitted image "image.gcalendar-connect-config"\] Alt text: Initial connection configuration
+    \[Omitted image "gcalendar-connect-config.png"\] Alt text: Initial connection configuration
 
 5.  On the form, fill in these fields:
 
@@ -211,7 +211,7 @@ The connection and credential record includes the details that you had set up wh
     |Auth URL|Authorization URL for your Google Calendar configuration.|
     |Token URL|Token URL for your Google Calendar configuration.|
 
-    \[Omitted image "image.gcalendar-config-temp"\] Alt text: Configure a connection for the Google Calendar spoke.
+    \[Omitted image "gcalendar-config-temp.png"\] Alt text: Configure a connection for the Google Calendar spoke.
 
 6.  Click **Save and Get OAuth Token**.
 

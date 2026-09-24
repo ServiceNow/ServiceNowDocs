@@ -3,7 +3,7 @@ title: Field Service for Audit data model
 description: The Field Service for Audit data model shows how the audit task table extends the work-management task type provided by Field Service Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/fsm-audit-data-model.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-07-08"
 reading_time_minutes: 1
@@ -21,12 +21,12 @@ The `wm_audit_task` table extends `wm_task` from Field Service Management, inher
 
 \[Omitted image "fsm-audit-data-model.png"\] Alt text: Data model showing how the Audit Task table in Field Service for Audit extends the Work Order Task table in Field Service Management.
 
-**Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-reference.md)
+**Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-operations-reference.md)
 
 **Related topics**  
 
 
-[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-overview.md)
+[Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/fsm-audit-overview.md)
 
-[Components installed with Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-reference.md)
+[Components installed with Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/fsm-audit-reference.md)
 

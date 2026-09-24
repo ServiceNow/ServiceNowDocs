@@ -3,11 +3,11 @@ title: Inline scripts
 description: Enable users with coding experience to write inline scripts that set and modify input values during the configuration of an action or flow. Use inline scripts to modify input values that require small format conversions, data transformations, or math operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/inline-scripts.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build w
 
 Enable users with coding experience to write inline scripts that set and modify input values during the configuration of an action or flow. Use inline scripts to modify input values that require small format conversions, data transformations, or math operations.
 
-You can also modify input values without scripting by using transform functions. For a list of available options, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md).
+You can also modify input values without scripting by using transform functions. For a list of available options, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/transform-functions.md).
 
 Workflow Studio displays a Script button when you configure these components.
 
@@ -30,7 +30,7 @@ Workflow Studio displays a Script button when you configure these components.
 
 Inline scripts must return values in the same data type as the input expects. For example, an inline script for a Record input must return a GlideRecord object and an inline script for a Date input must return a date-time value. Always test actions and flows containing inline scripts, and verify that there are no runtime errors in the flow execution details.
 
-Script writers should be familiar with ServiceNow AI Platform table structures and [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md). In addition, they should know how to work with record and system data using the ServiceNow API.
+Script writers should be familiar with ServiceNow AI Platform table structures and [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md). In addition, they should know how to work with record and system data using the ServiceNow API.
 
 ## Benefits
 
@@ -90,7 +90,7 @@ Follow these general guidelines to create reusable and maintainable inline scrip
 
 -   **Call script includes from inline script**
 
-    Call a script include from your inline script to reduce the amount of code you write and also to maintain common code in a single location. Use the class constructor to call your script include. For more information about creating a script include, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+    Call a script include from your inline script to reduce the amount of code you write and also to maintain common code in a single location. Use the class constructor to call your script include. For more information about creating a script include, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
     ```
     var si = new MyScriptInclude();
@@ -138,7 +138,7 @@ Inline scripts that call integration APIs are subject to Integration Hub licensi
 
 The code editor provides text editor support for inline scripts.
 
-The code editor has these features for the supported language services and [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md).
+The code editor has these features for the supported language services and [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/inline-scripts.md).
 
 -   Syntax coloring, indentation, line numbers, and automatic creation of closing braces and quotes
 -   Auto-suggestions and auto-completions
@@ -153,5 +153,5 @@ The code editor has these features for the supported language services and [Inli
 -   To remove one tab from the start of a line of code, click in the line and press Shift+Tab.
 -   To declare variables, use the `var` keyword so that they remain within the proper JavaScript scope.
 
-**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flows.md)
 

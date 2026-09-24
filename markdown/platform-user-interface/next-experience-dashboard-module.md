@@ -3,9 +3,9 @@ title: Create a Dashboard Module
 description: Create custom dashboards for the All menu using the Next Experience All Menu Editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-dashboard-module.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Next Experience All Menu Editing, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -86,5 +86,5 @@ Role required: admin
 
 Continue building your dashboard by adding more elements such as additional visualizations, filters, or text components. Arrange and resize elements to create a balanced layout that provides users with a comprehensive view of their data.
 
-**Parent Topic:**[Next Experience All Menu Editing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-all-menu-editing.md)
+**Parent Topic:**[Next Experience All Menu Editing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-all-menu-editing.md)
 

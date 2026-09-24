@@ -3,11 +3,11 @@ title: Employee experience in Employee Slate
 description: You can enable an AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one intuitive destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/employee-experience-using-employee-slate.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Simplified IT Service Management, IT Service Management]
+breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Employee experience in Employee Slate
@@ -27,15 +27,15 @@ From Employee Slate, an employee can perform the following actions:
 
 **Important:** The Employee Slate experience can be integrated with the following platforms and applications:
 
--   Moveworks. For information about AI-assisted help with this integration, see [Moveworks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/empworks-moveworks-capabilities.md).
+-   Moveworks. For information about AI-assisted help with this integration, see [Moveworks capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/empworks-moveworks-capabilities.md).
 -   Now Assist
 
 \[Omitted image "ai-native-submit-incident-empslate.png"\] Alt text: Submit an incident in Employee Slate
 
--   **[Submit a catalog request in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-submit-request-employee-slate.md)**  
+-   **[Submit a catalog request in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-submit-request-employee-slate.md)**  
 Save time in searching for catalog items and submitting requests.
--   **[Submit an incident in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-submit-incident-employee-slate.md)**  
+-   **[Submit an incident in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-submit-incident-employee-slate.md)**  
 Save time in submitting and resolving incidents.
 
-**Parent Topic:**[Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-landing-page.md)
+**Parent Topic:**[Employee experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/employee-experience-native-ai-itsm.md)
 

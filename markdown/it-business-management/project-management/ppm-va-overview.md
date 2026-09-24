@@ -3,11 +3,11 @@ title: Virtual Agent for PPM
 description: ServiceNow Virtual Agent for PPM enables project managers to get quick answers to business-related queries by interacting with a virtual agent through various messaging services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/ppm-va-overview.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -44,7 +44,7 @@ The base system provides the following predefined Virtual Agent topics \(chatbot
     -   Projects without strategy
     -   Projects without program or portfolio
 
-A topic defines the dialog between the Virtual Agent \(chat support bot\) and user, which enables you to gather information for a specific business need. For more information, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md).
+A topic defines the dialog between the Virtual Agent \(chat support bot\) and user, which enables you to gather information for a specific business need. For more information, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
 ## Integration with messaging applications
 
@@ -52,18 +52,18 @@ You can run Virtual Agent bot conversations for PPM using third-party messaging 
 
 Use the Virtual Agent integration app to configure the messaging apps for your instance.
 
-For more information, see [Virtual Agent integration with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-integration-messaging-apps.md).
+For more information, see Virtual Agent integration with messaging apps.
 
-For more information on integrating with Slack or Microsoft Teams, see [Setting up Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configuring-va-notifications.md).
+For more information on integrating with Slack or Microsoft Teams, see Setting up Virtual Agent notifications.
 
 **Related topics**  
 
 
-[Install Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/activate-ppm-va.md)
+[Install Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/activate-ppm-va.md)
 
-[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/setup-ppm-va.md)
+[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/setup-ppm-va.md)
 
-[PPM Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-conversations.md)
+[PPM Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ppm-va-conversations.md)
 
-[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-topic-blocks.md)
+[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ppm-va-topic-blocks.md)
 

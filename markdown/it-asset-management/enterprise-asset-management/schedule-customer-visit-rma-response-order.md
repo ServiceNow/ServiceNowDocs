@@ -3,11 +3,11 @@ title: Complete the Schedule task for a defective Device as a Service DaaS asset
 description: If you want to perform an on-site repair or replacement for a defective DaaS asset, complete the Schedule task for the asset by scheduling a visit to the customer site.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/schedule-customer-visit-rma-response-order.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Completing an RMA response order, Managing RMA response orders for defective DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
@@ -18,7 +18,7 @@ If you want to perform an on-site repair or replacement for a defective DaaS ass
 
 ## Before you begin
 
-Before you can begin the Schedule task, you must complete the preceding RMA assessment task by assessing the asset and selecting the option to perform an on-site repair or replacement. For detailed instructions, see [Complete the RMA assessment task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/assess-daas-asset-rma-response-order.md).
+Before you can begin the Schedule task, you must complete the preceding RMA assessment task by assessing the asset and selecting the option to perform an on-site repair or replacement. For detailed instructions, see [Complete the RMA assessment task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/assess-daas-asset-rma-response-order.md).
 
 Role required: sn\_eam\_provider.provider\_asset\_technician
 
@@ -28,15 +28,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d184546e91">
+<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d186495e91">
 
 Navigation option
 
-</th><th align="left" id="d184546e94">
+</th><th align="left" id="d186495e94">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d184546e100">
+</th></tr></thead><tbody><tr><td id="d186495e100">
 
 **Provider RMA response order**
 
@@ -52,7 +52,7 @@ Procedure
 5.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d184546e144">
+</td></tr><tr><td id="d186495e144">
 
 **Provider RMA response order line**
 
@@ -66,7 +66,7 @@ Procedure
 3.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d184546e179">
+</td></tr><tr><td id="d186495e179">
 
 **Provider asset tasks**
 
@@ -101,7 +101,7 @@ From the navigation menu of the Asset operations view, navigate to **Provider** 
 
 ## What to do next
 
-Complete the corresponding Evaluate RMA asset task by going to the customer site and evaluating the asset. For detailed instructions, see [Complete the Evaluate RMA asset task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/evaluate-daas-asset-rma-response-order.md).
+Complete the corresponding Evaluate RMA asset task by going to the customer site and evaluating the asset. For detailed instructions, see [Complete the Evaluate RMA asset task for a defective Device as a Service DaaS asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/evaluate-daas-asset-rma-response-order.md).
 
-**Parent Topic:**[Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md)
+**Parent Topic:**[Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/completing-rma-response-order-daas-assets.md)
 

@@ -3,11 +3,11 @@ title: Discovery Admin Workspace IP inventory
 description: The IP inventory page centralizes the IP addresses, ranges, networks, and range sets that Discovery uses to scan your environment. Use it to review existing IP data and add entries to Discovery range sets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/daw-ip-inventory.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ The IP inventory page centralizes the IP addresses, ranges, networks, and range 
 
 To access the IP inventory page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules** &gt; **IP-based Discovery** &gt; **View inventory**.
 
-You can also access the IP inventory page from the [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md) page.
+You can also access the IP inventory page from the [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md) page.
 
 **Note:** The IP inventory page is available starting with Discovery Admin Workspace v1.19.0 and requires the Brazil, Australia, Zurich Patch 8, or later release of the ServiceNow AI Platform. Specific version requirements are noted for individual features where applicable.
 
@@ -27,8 +27,8 @@ You can also access the IP inventory page from the [Discovery Admin Workspace Se
 
 Each tab displays a list of IP data with the following controls:
 
--   **New**: Create IP data. For more information, see [Add IP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-add-ip-data.md).
--   **Add to Range Set**: Map IP data to a range set. For more information, see [Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-add-ip-range-set.md).
+-   **New**: Create IP data. For more information, see [Add IP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-add-ip-data.md).
+-   **Add to Range Set**: Map IP data to a range set. For more information, see [Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-add-ip-range-set.md).
 -   **Refresh** icon: Update the data
 -   **Export**: Download the list as Excel, CSV, JSON, or PDF, or send it by email.
 -   **More Actions** icon: Add or remove columns or copy the URL.
@@ -53,7 +53,7 @@ The following sections describe the IP data on each tab.
 
     \[Omitted image "daw-ip-ranges.png"\] Alt text: IP Ranges tab in IP inventory
 
-    Select one or more IP ranges from the table to enable the **Add to Range Set** option. For more information, see [Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-add-ip-range-set.md).
+    Select one or more IP ranges from the table to enable the **Add to Range Set** option. For more information, see [Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-add-ip-range-set.md).
 
     **Note:** An IP range can belong to only one range set.
 
@@ -67,7 +67,7 @@ The following sections describe the IP data on each tab.
 
     \[Omitted image "daw-ip-networks.png"\] Alt text: IP Networks tab in IP inventory
 
-    Select one or more IP networks from the table to enable the **Add to Range Set** option. For more information, see [Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-add-ip-range-set.md).
+    Select one or more IP networks from the table to enable the **Add to Range Set** option. For more information, see [Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-add-ip-range-set.md).
 
     **Note:** An IP range can belong to only one range set.
 
@@ -85,7 +85,7 @@ The following sections describe the IP data on each tab.
 
     Unlike the other IP inventory tabs, which focus on IP data such as addresses, ranges, and networks, the Shazzam tabs provide scan results and discovery status information.
 
-    The **Shazzam Summary** tab provides aggregated scan results for each network range in your inventory. The **Shazzam Status** tab provides detailed results for individual IP addresses that Shazzam scanned. Use these tabs to verify scan coverage and investigate IPs that didn't classify as expected. For more information about scan data, see [Shazzam Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/shazzam-insights.md).
+    The **Shazzam Summary** tab provides aggregated scan results for each network range in your inventory. The **Shazzam Status** tab provides detailed results for individual IP addresses that Shazzam scanned. Use these tabs to verify scan coverage and investigate IPs that didn't classify as expected. For more information about scan data, see [Shazzam Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/shazzam-insights.md).
 
     The Shazzam tables support **Export** and other read-only platform actions, but don't support create, edit, or delete actions for Shazzam data.
 
@@ -107,9 +107,9 @@ The following sections describe the IP data on each tab.
 **Related topics**  
 
 
-[Discovery IP address configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md)
+[Discovery IP address configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md)
 
-[Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-add-ip-range-set.md)
+[Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-add-ip-range-set.md)
 
-[Add IP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-add-ip-data.md)
+[Add IP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-add-ip-data.md)
 

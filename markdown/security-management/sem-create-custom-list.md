@@ -3,9 +3,9 @@ title: Create a customized list of records
 description: You can create a customized list in the Security Exposure Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-custom-list.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the List view in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -27,11 +27,11 @@ Role required:
 
 1.  Navigate to **Workspaces** &gt; **Security Exposure Management Workspace**.
 
-2.  Select the **List** icon and select **My Lists**.
+2.  Select the **List** icon and click **My Lists**.
 
 3.  Select **New list**.
 
-4.  In the New List modal, select **Start from existing** and search in the List choice list for an existing list to use as a template.
+4.  In the New List modal, click **Start from existing** and search in the List choice list for an existing list to use as a template.
 
 5.  Edit the List Name.
 
@@ -41,22 +41,20 @@ Role required:
 
 7.  Edit the columns that you want displayed on your list.
 
-8.  Select **Create**.
+8.  Click **Create**.
 
     Your new list is displayed.
 
-9.  Alternatively, select **Create your own**, enter a name, followed by **Select Source**.
+9.  Alternatively, click **Create your own**, enter a name, followed by **Select Source**.
 
 10. Start typing in the field and select from the sources that display for your new list.
 
-11. Select **Create**.
+11. Click **Create**.
 
     Your new list is displayed.
 
     **Note:** If you leave the list module, the list displayed when you exit is the list you see when you return.
 
-12. To delete a list, with the list displayed, select the gear icon on the upper right of the page.
+12. To delete a list, with the list displayed, click the gear icon on the upper right of the page.
 
-
-**Parent Topic:**[Use the List view in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ws-list-view.md)
 

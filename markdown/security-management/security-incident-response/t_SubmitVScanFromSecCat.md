@@ -3,11 +3,11 @@ title: Submit a vulnerability scan request from the Security Incident Response c
 description: You can submit vulnerability scans for CIs and IP addresses from the Security Incident Response catalog. The requests are submitted and you can view the results in the My Requests module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_SubmitVScanFromSecCat.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Manage lookups and scans, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,19 +20,13 @@ You can submit vulnerability scans for CIs and IP addresses from the Security In
 
 Role required: none
 
-## About this task
-
-Use this catalog item to trigger a vulnerability scan on one or more configuration items or IP addresses directly from the Security Incident Response catalog. The scan uses the vulnerability scanner configured in your instance \(for example, Qualys or Tenable\). Scan results appear in the **Activities** section of your service request. Scans typically complete within a few minutes, depending on the number of targets and scanner response time.
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Security Incident Catalog**.
 
-2.  Select **Vulnerability scan**.
+2.  Click **Vulnerability scan**.
 
-    \[Omitted image "sec-inc-cat.png"\] Alt text: Security incident catalog
-
-3.  Select **Scan Configuration Item and IP addresses**.
+3.  Click **Scan Configuration Item and IP addresses**.
 
 4.  Enter one or more of the following to be scanned.
 
@@ -47,12 +41,8 @@ Use this catalog item to trigger a vulnerability scan on one or more configurati
 
 6.  To view the status and/or results of the scans, navigate to **Self-Service** &gt; **My Requests**.
 
-7.  Select the SR number for the request.
+7.  Click the SR number for the request.
 
     The work notes under **Activities** list the tasks performed during the scan, including the creation of individual scans for each CI or IP address, and the results of the scans.
 
-
-## What to do next
-
-After the scan completes, review the results in the work notes of your service request. If vulnerabilities are found, a security incident or vulnerability item may be automatically created based on your instance configuration.
 

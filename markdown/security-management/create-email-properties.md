@@ -3,9 +3,9 @@ title: Create Security Operations email properties
 description: You can specify email addresses for reports and control automatic email behaviors using email Properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-email-properties.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations email properties, Security Operations email processing, Security Operations common functionality, Security Operations]
 ---
@@ -38,5 +38,5 @@ Set up external detection tools to send emails to your email parsing inbox.
 3.  Click **Save**.
 
 
-**Parent Topic:**[Security Operations email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-properties.md)
+**Parent Topic:**[Security Operations email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/email-properties.md)
 

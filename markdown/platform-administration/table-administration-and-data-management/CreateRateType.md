@@ -3,11 +3,11 @@ title: Create a rate type
 description: You can create rate types using the Rate Types feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/CreateRateType.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,15 +37,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d116791e107">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d115999e107">
 
 Field
 
-</th><th align="left" id="d116791e110">
+</th><th align="left" id="d115999e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d116791e116">
+</th></tr></thead><tbody><tr><td id="d115999e116">
 
 **Name**
 
@@ -53,7 +53,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d116791e125">
+</td></tr><tr><td id="d115999e125">
 
 **Description**
 
@@ -61,7 +61,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d116791e134">
+</td></tr><tr><td id="d115999e134">
 
 **Active**
 
@@ -78,5 +78,5 @@ Deselect the check box to mark the rate type as inactive.**Note:** Inactivating 
 -   The rate type is displayed in the **Rate Types** list.
 -   The rate type if active is also displayed in the **Rate Type** field in the Labor Rate Cards form, Time Worked form, Time Card form, and Time Sheet Portal.
 
-**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/time-card-management.md)
 

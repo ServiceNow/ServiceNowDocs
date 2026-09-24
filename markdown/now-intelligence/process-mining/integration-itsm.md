@@ -3,11 +3,11 @@ title: Integration with Benchmarks
 description: Integrating with ITSM Benchmarks enables you to analyze processes relevant to your KPIs, and create and view associated incidents.Launch Process Mining from the Benchmarks dashboard to analyze a process related to a low-performing KPI.Understand how you can analyze a process relevant to a KPI. Create or view the status of an associated incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/integration-itsm.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration, Activate, Process Mining, Platform Analytics]
 ---
@@ -16,14 +16,14 @@ breadcrumb: [Integration, Activate, Process Mining, Platform Analytics]
 
 Integrating with ITSM Benchmarks enables you to analyze processes relevant to your KPIs, and create and view associated incidents.
 
-**Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrating-process-mining.md)
+**Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integrating-process-mining.md)
 
 **Related topics**  
 
 
-[Example of Benchmarks using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-itsm.md)
+[Example of Benchmarks using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integration-itsm.md)
 
-[Content pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/itsm-proc-opti-content-pack.md)
+[Content pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/itsm-proc-opti-content-pack.md)
 
 ## Launch Process Mining from the Benchmarks dashboard
 

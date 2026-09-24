@@ -3,11 +3,11 @@ title: Installed with Change Management - CAB Workbench
 description: Several types of components are installed with Change Management - CAB Workbench.Change Management - CAB Workbench adds the following tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/instlled-with-cab-wrkbench.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Change Management - CAB Workbench, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Activate Change Management - CAB Workbench, Change Management plugi
 
 Several types of components are installed with Change Management - CAB Workbench.
 
-**Parent Topic:**[Activate Change Management - CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/activate-cab-workbench.md)
+**Parent Topic:**[Activate Change Management - CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/activate-cab-workbench.md)
 
 ## Tables installed with Change Management - CAB Workbench
 

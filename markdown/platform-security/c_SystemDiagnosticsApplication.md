@@ -3,9 +3,9 @@ title: System Diagnostics module
 description: The System Diagnostics application provides logs that relate to the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_SystemDiagnosticsApplication.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System logs, Logs, Platform Security]
 ---
@@ -22,6 +22,6 @@ These logs are available:
 
 -   **Slow Queries**
 
-    Provides insight into how queries affect platform performance. See [Use a slow query log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_UseASlowQueryLog.md).
+    Provides insight into how queries affect platform performance. See Use a slow query log.
 
 

@@ -3,13 +3,13 @@ title: Add a Safe Workplace audience for Emergency Outreach
 description: Add a collection of users for Emergency Outreach notifications. Target specific users based on criteria such as location, department, or group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/add-sw-audience-outreach.html
-release: australia
+release: brazil
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Emergency Outreach notifications, Emergency Outreach, Emergency Response Management, Employee Service Management]
+breadcrumb: [Configure Emergency Outreach notifications, Emergency Outreach, Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add a Safe Workplace audience for Emergency Outreach
@@ -32,15 +32,15 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 3.  Indicate the users who should receive notifications.
 
-<table id="choicetable_dwh_wnh_j4b"><thead><tr><th align="left" id="d79368e104">
+<table id="choicetable_dwh_wnh_j4b"><thead><tr><th align="left" id="d79481e104">
 
 Method
 
-</th><th align="left" id="d79368e107">
+</th><th align="left" id="d79481e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d79368e113">
+</th></tr></thead><tbody><tr><td id="d79481e113">
 
 **Add users manually**
 
@@ -48,7 +48,7 @@ Action
 
 Select the users that you want to add to the audience in the **Users** field.
 
-</td></tr><tr><td id="d79368e128">
+</td></tr><tr><td id="d79481e128">
 
 **Upload a spreadsheet of users**
 
@@ -60,7 +60,7 @@ Select the link to add a file in the **Upload file** field.
 
  **Note:** If you have more than 500 entries, split the spreadsheet into multiple files.
 
-</td></tr><tr><td id="d79368e155">
+</td></tr><tr><td id="d79481e155">
 
 **Use additional criteria based on common User \[sys\_user\] table fields**
 
@@ -72,7 +72,7 @@ Select the link to add a file in the **Upload file** field.
     -   Include only users who fulfill all selected criteria by selecting **All the criteria \(AND\)**. Any users listed in the **Users** field are included in the audience only if they also fulfill all the additional criteria.
 
 
-</td></tr><tr><td id="d79368e208">
+</td></tr><tr><td id="d79481e208">
 
 **Enter conditions in the condition builder**
 

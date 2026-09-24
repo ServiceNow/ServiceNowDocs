@@ -3,13 +3,13 @@ title: Create a planned work schedule for your work plan
 description: Create a planned work schedule to specify when you want the work plan to run and how frequently the schedule should run. You can apply one or more planned work schedules to a single work plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-planned-work-schedule.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a work plan for your enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create a work plan for your enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a planned work schedule for your work plan
@@ -18,7 +18,7 @@ Create a planned work schedule to specify when you want the work plan to run and
 
 ## Before you begin
 
-Before you create a planned work schedule, ensure that you have [created a work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-work-plan-eam.md).
+Before you create a planned work schedule, ensure that you have [created a work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-work-plan-eam.md).
 
 Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
@@ -28,7 +28,7 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
 2.  On the Create New Planned Work Schedule form, fill in the fields.
 
-    For a detailed description of the planned work schedule fields, see [Work plan schedule fields for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-plan-schedule-fields-eam.md).
+    For a detailed description of the planned work schedule fields, see [Work plan schedule fields for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/work-plan-schedule-fields-eam.md).
 
 3.  Select **Save**.
 

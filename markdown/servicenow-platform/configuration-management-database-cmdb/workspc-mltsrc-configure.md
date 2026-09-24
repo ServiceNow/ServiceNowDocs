@@ -3,11 +3,11 @@ title: Configure the CMDB 360 dashboard in CMDB Workspace
 description: Configure CMDB 360 settings to determine how your CMDB 360 data is analyzed and aggregated. These settings affect the data that appears on the cards and the records shown when you drill down on those cards in the CMDB 360 dashboard in CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [CMDB 360 experience in a workspace, CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Configure CMDB 360 settings to determine how your CMDB 360 data is analyzed and 
 
 ## About this task
 
-For detailed information about CMDB 360-related components, such as system properties, scheduled jobs, and tables, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md) .
+For detailed information about CMDB 360-related components, such as system properties, scheduled jobs, and tables, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md) .
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: cmdb\_ms\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Insights**. In the Insights page navigation panel, select **CMDB 360**.
 
 2.  Select **Settings**.
 

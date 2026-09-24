@@ -3,11 +3,11 @@ title: Decision Builder system properties
 description: Use system properties to set limits on the maximum number of inputs and decisions for decision tables created in Decision Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/decision-designer-system-properties.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Decision tables reference, Decision tables, Workflow Studio, Build workflows]
 ---
@@ -34,7 +34,7 @@ com.glide.decision\_table.excel\_hide\_references
 
 </td><td>
 
-When set to true, decision tables exported to Excel do not include drop-down lists of records for condition or result columns with type = reference.-   Type: true/false
+When set to true, decision tables exported to Excel will not include drop-down lists of records for condition or result columns with type = reference.-   Type: true/false
 -   Default value: False
 
 </td></tr><tr><td>
@@ -61,5 +61,5 @@ Maximum number of decision questions that can be defined on a decision table \(s
 -   A warning message is displayed when the inputs or decisions exceed the maximum limit set by the administrator.
 -   By default, decision tables in Decision Builder display the first 20 rows. To view 20 more rows, select **Show more**.
 
-**Parent Topic:**[Decision tables reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-builder-reference.md)
+**Parent Topic:**[Decision tables reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/decision-builder-reference.md)
 

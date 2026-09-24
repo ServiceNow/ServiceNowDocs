@@ -3,11 +3,11 @@ title: Duplicate PaCE policy versions
 description: You can create a duplicate policy from a policy version or multiple versions from two or more policy versions. If you want to use a locked policy, you must first create a duplicate version and then modify the policy version as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-policy-version-duplicate\_2.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create PaCE policy versions, Manage PaCE policy versions, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -55,5 +55,5 @@ To create a duplicate policy from a policy version, follow these steps:
 2.  Select the name of the policy that you want to duplicate.
 3.  In the Policy Details page, click the **Versions** tab.
 4.  Select the policies that you want to duplicate and from the drop-down list, select **Duplicate versions**.
-5.  Select an option in the **Duplicate version** form and follow the remaining steps as listed in [Duplicate a single policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+5.  Select an option in the **Duplicate version** form and follow the remaining steps as listed in [Duplicate a single policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 

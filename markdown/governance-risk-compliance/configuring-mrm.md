@@ -3,9 +3,9 @@ title: Configuring Model Risk Management
 description: Plan and configure the implementation of the Model Risk Management application. You can follow the steps listed in this topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configuring-mrm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [Model Risk Management, Governance, Risk, and Compliance]
@@ -17,7 +17,7 @@ Plan and configure the implementation of the Model Risk Management application. 
 
 ## Configuration overview
 
-1.  [Install Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/install-mrm.md)
+1.  [Install Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/install-mrm.md)
 
     Install the Model Risk Management application \(sn\_model\_risk\_mgmt\) with the admin role. The application installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 

@@ -3,9 +3,9 @@ title: Add a UI section to the launcher screen
 description: Associate a UI section to the launcher screen to display the relevant data visualization preview on your mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/ui-section-to-launcher-screen.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Launcher screen UI sections, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -37,5 +37,5 @@ Role required: admin
 
 ## Result
 
-A preview is displayed in your launcher screen. Tap on the preview to navigate to a preconfigured data visualization. See  [Mobile platform dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reporting-dashboard.md) for examples of the data visualization previews you can use.
+A preview is displayed in your launcher screen. Tap on the preview to navigate to a preconfigured data visualization. See  [Mobile platform dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-reporting-dashboard.md) for examples of the data visualization previews you can use.
 

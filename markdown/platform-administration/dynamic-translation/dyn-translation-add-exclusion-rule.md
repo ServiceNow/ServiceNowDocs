@@ -3,11 +3,11 @@ title: Add new rules to Exclusion Framework
 description: Add terms and patterns that shouldn't be machine translated to the Exclusion Rules table. You can create either exact match rules or pattern match rules, and you can edit your rules later.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.html
-release: australia
+release: brazil
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exclusion Framework in Dynamic Translation, Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -52,15 +52,15 @@ Exclusion rules must be unique within a domain. An attempted duplicate submissio
 
 3.  On the **Add Row** form, configure the fields according to the following guidance.
 
-<table id="choicetable_kb3_lpm_ddc"><thead><tr><th align="left" id="d347339e188">
+<table id="choicetable_kb3_lpm_ddc"><thead><tr><th align="left" id="d345354e188">
 
 Rule type
 
-</th><th align="left" id="d347339e191">
+</th><th align="left" id="d345354e191">
 
 Fields
 
-</th></tr></thead><tbody><tr><td id="d347339e197">
+</th></tr></thead><tbody><tr><td id="d345354e197">
 
 **Exact Match**
 
@@ -71,7 +71,7 @@ Fields
 -   **Order**: Optional. See the previous explanation.
 
 
-</td></tr><tr><td id="d347339e223">
+</td></tr><tr><td id="d345354e223">
 
 **Pattern Match**
 
@@ -98,7 +98,7 @@ For exact match rules, you can modify the case sensitivity in its Exclusion Rule
 -   Select the **Ignore Case** check box to enable case insensitive matching \(for example, the entry "hello" would match "Hello", "hEllo", "helLo" and so forth.\)
 -   Clear the **Ignore Case** check box to match the entry exactly as it appears in the table, including its casing.
 
-From the Zurich release, you can manually test your pattern. For more information see [Test Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.md).
+From the Zurich release, you can manually test your pattern. For more information see [Test Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.md).
 
-**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
+**Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
 

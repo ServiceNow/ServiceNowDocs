@@ -1,28 +1,30 @@
 ---
 title: Indicator vs Table data source selection
-description: After you submit a query to AI Data Explorer, the system checks the query for information whether to use table or indicator data. If there is no such information, it falls back on a default set in a system property.
+description: After you submit a query to AI Data Explorer, the system checks the query for specific keywords that indicator whether to use table or indicator data. If there are no such keywords, it falls back on a default set in a system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/indicator-vs-table-data-source-selection.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-23"
-reading_time_minutes: 1
+last_updated: "2026-09-08"
+reading_time_minutes: 2
+keywords: [formula indicator, automated indicator, data source selection]
 breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Indicator vs Table data source selection
 
-After you submit a query to AI Data Explorer, the system checks the query for information whether to use table or indicator data. If there is no such information, it falls back on a default set in a system property.
+After you submit a query to AI Data Explorer, the system checks the query for specific keywords that indicator whether to use table or indicator data. If there are no such keywords, it falls back on a default set in a system property.
 
-Tables on the ServiceNow AI Platform® contain current data. To view trends in this data over time, you need an [indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). Indicators are calculated from table values that are collected over time.
+Tables on the ServiceNow AI Platform® contain current data. To view trends in this data over time, you need an [indicator \(KPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). Indicators are calculated from table values that are collected over time.
 
-**Important:** AI Data Explorer supports only [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). It does not support Performance Analytics indicator [targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), [thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), or [forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ForecastingData.md).
+**Important:** AI Data Explorer supports [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). It does not support manual or external indicators, [targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), [thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), or [forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). Benchmarking indicators are excluded from indicator search results, whether the benchmarking indicator is itself automated or is a contributor within a formula indicator.
 
-The system calculates which data source is appropriate for your query based on the following, in order of decreasing priority:
+The system searches your query for the following content to determine the appropriate data source type:
 
 1.  Keywords
 2.  Context, if present
-3.  Fallback value in system property
+
+If the query does not show whether table or indicator data is preferred, and there is no context, the system responds differently depending on whether AI Data Explorer is agentic. If AI Data Explorer is non-agentic, the system uses the fallback source type defined in the system property **sn\_query\_gen.default\_source\_type**. The default value is `table`. If AI Data Explorer is agentic, the agent uses textual clues to determine which data source type to use. Table data is the default.
 
 Keywords in the query have the highest priority. To influence the choice, include the following keywords:
 
@@ -43,9 +45,7 @@ Keywords in the query have the highest priority. To influence the choice, includ
 
 If your query is a follow-up question or launched from a data visualization, you already start with a context. If the system returns a successful result from the same source as the context, it keeps that source type. If the context has both an indicator and a table, the system goes with the more recent source type.
 
-If the query does not show whether table or indicator data is preferred, the system uses the fallback source type defined in the system property **sn\_query\_gen.default\_source\_type**. The default value is `table`.
-
 For indicator data sources, both automated and scripted breakdowns are supported, but only to two levels. If a query cannot be answered with fewer than three breakdowns, the system falls back to table data sources.
 
-**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ask-expl-questions.md)
+**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ask-expl-questions.md)
 

@@ -3,11 +3,11 @@ title: Why you conduct due diligence
 description: Conducting due diligence on third parties is a crucial component of your comprehensive third-party risk program. You conduct due diligence to become aware of the risks that are associated with a third party so that you can confidently decide how to form your relationship.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/vrm-due-diligence-why.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Third-party risk management concentrates on evaluating and managing the risks in
 
 -   **Comply with regulations**
 
-    Companies are often subject to various regulations and legal requirements that mandate conducting due diligence on third parties. These regulations aim to prevent illegal activities, such as money laundering, corruption, fraud, and other forms of financial misconduct. By performing due diligence, you demonstrate your commitment to compliance and risk mitigation. See [Regulations that affect third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vrm-regulations.md).
+    Companies are often subject to various regulations and legal requirements that mandate conducting due diligence on third parties. These regulations aim to prevent illegal activities, such as money laundering, corruption, fraud, and other forms of financial misconduct. By performing due diligence, you demonstrate your commitment to compliance and risk mitigation. See [Regulations that affect third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vrm-regulations.md).
 
 -   **Protect your reputation**
 
@@ -48,5 +48,5 @@ Third-party risk management concentrates on evaluating and managing the risks in
 **Related topics**  
 
 
-[Types of due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-due-diligence-types.md)
+[Types of due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-due-diligence-types.md)
 

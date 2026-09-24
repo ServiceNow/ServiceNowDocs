@@ -3,11 +3,11 @@ title: Upload and manage floor map for your datacenter
 description: Create, manage, and update your datacenter map objects in the Indoor Mapping Map Studio interface. You can view the datacenter's network infrastructure in Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-floor-map-data-center.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Floor map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
@@ -31,33 +31,33 @@ Each place is marked with a title, making it easy to identify on the map. Once t
 
 1.  Create a campus with buildings and floors.
 
-    To learn more, see [Create a campus with buildings and floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-a-campus-building-and-floor.md).
+    To learn more, see [Create a campus with buildings and floors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/create-a-campus-building-and-floor.md).
 
     **Note:** Make sure the campus and datacenter names that you want to map are the same.
 
 2.  Use the boundary editor to map your campus on the global map.
 
-    You can adjust the boundaries to show the location of your campus and buildings. Boundaries are used to differentiate between outdoor maps and indoor mapped areas. To learn more, see [Working with boundary editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/working-with-boundary-editor.md).
+    You can adjust the boundaries to show the location of your campus and buildings. Boundaries are used to differentiate between outdoor maps and indoor mapped areas. To learn more, see [Working with boundary editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/working-with-boundary-editor.md).
 
 3.  Upload your floor plan's CAD or raster file.
 
-    You can use the floor plan to make configuration changes and preview the CAD design layout. To learn more, see [Import CAD files to Map Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/CAD-file-import.md). If you're uploading a raster file, then see [Import Raster files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/import-raster-files.md) for more details.
+    You can use the floor plan to make configuration changes and preview the CAD design layout. To learn more, see [Import CAD files to Map Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/CAD-file-import.md). If you're uploading a raster file, then see [Import Raster files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/import-raster-files.md) for more details.
 
 4.  Import outdoor elements such as a logo or an outdoor cafeteria that you want to display on the indoor map.
 
-    To learn more, see [Import outdoor elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/import-outdoor-elements.md).
+    To learn more, see [Import outdoor elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/import-outdoor-elements.md).
 
 5.  Add places, icons, and place types to locate your network assets and facilities on a floor.
 
-    To learn more, see [Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/manage-buildings.md).
+    To learn more, see [Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/manage-buildings.md).
 
-    To create a place type, see [Create Indoor Mapping icons and place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/place-icons-place-type.md). To learn about available place types, see [Data center place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/place-types-floor-map.md).
+    To create a place type, see [Create Indoor Mapping icons and place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/place-icons-place-type.md). To learn about available place types, see [Data center place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/place-types-floor-map.md).
 
 6.  Use the **Map Preview** to display maps and test directions that you have created.
 
 7.  Export the updated CAD changes to your CAD file.
 
-    Exporting the updated changes creates a copy of the modified CAD file in Indoor Mapping. To learn more about, see [Export CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/export-cad-config.md).
+    Exporting the updated changes creates a copy of the modified CAD file in Indoor Mapping. To learn more about, see [Export CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/export-cad-config.md).
 
 
 ## Result
@@ -68,16 +68,16 @@ A Indoor Mapping campus record is created with building and floor details.
 
 After you create your Indoor Mapping campus record, do the following to view the datacenter infrastructure in floor map.
 
-1.  [Map Indoor Mapping campus to a datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/map-campus-data-center.md)
-2.  [Map a Configuration Item to a floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/map-ci-floor-map-location.md)
-3.  [Customize overlays on the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customize-ovarlays-floor-map.md)
-4.  [Customize overlay time series on the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customize-overlay-time-series-floor-map.md)
-5.  [View details of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.md)
+1.  [Map Indoor Mapping campus to a datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/map-campus-data-center.md)
+2.  [Map a Configuration Item to a floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/map-ci-floor-map-location.md)
+3.  [Customize overlays on the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/customize-ovarlays-floor-map.md)
+4.  [Customize overlay time series on the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/customize-overlay-time-series-floor-map.md)
+5.  [View details of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.md)
 
-**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 
 **Related topics**  
 
 
-[Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/Indoor-mapping.md)
+[Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/Indoor-mapping.md)
 

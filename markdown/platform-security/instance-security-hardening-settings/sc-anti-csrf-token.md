@@ -1,22 +1,30 @@
 ---
-title: Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]
-description: Use the glide.security.use\_csrf\_token property to ensure the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
+title: Enable anti-CSRF token
+description: Use the glide.security.use\_csrf\_token property to confirm the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]
+# Enable anti-CSRF token
 
-Use the **glide.security.use\_csrf\_token** property to ensure the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
+Use the **glide.security.use\_csrf\_token** property to confirm the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
 
-Cross-Site Request Forgery \(CSRF\) is an attack that forces authenticated users to submit a request to a Web application against which they are currently authenticated. CSRF attacks exploit the trust a Web application has in an authenticated user.This property enables usage of a secure token to identify and validate incoming requests. This token is used to prevent cross site request forgery attacks. If **glide.security.use\_csrf\_token**is not set to the recommended value of true, then CSRF is possible.
+Cross-Site Request Forgery \(CSRF\) is an attack that forces authenticated users to submit a request to a web application, exploiting the web application's trust in an authenticated user.
+
+The **glide.security.use\_csrf\_token** property controls whether the platform embeds a token in rendered pages and validates that token on incoming requests. This allows the platform to distinguish requests that originated from its own pages from requests forged by a third-party site.
+
+To configure this property:
+
+1.  Confirm the current user has the security\_admin role or has elevated to that role.
+2.  Navigate to /sys\_properties\_list.do on the instance.
+3.  Confirm the **glide.security.use\_csrf\_token**property exists and is set to `true`.
 
 ## More information
 
@@ -50,7 +58,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -62,11 +70,11 @@ To protect the application from potential CSRF attack.
 
 </td></tr><tr><td>
 
-Security risk rating
+Fallback value
 
 </td><td>
 
-8.1
+false
 
 </td></tr><tr><td>
 
@@ -90,7 +98,7 @@ Functional impact
 
 </td><td>
 
-This remediation enables an extra validation step before the instance user submits a write request to the instance. Every write request contains a CSRF token \(i.e a validation/CSRF ID tied to the user session\). When the user session expires, the secure token expires with it.
+Requests with a missing, expired, or mismatched token are rejected and the user is redirected to a security warning page instead of having the action performed.
 
 </td></tr><tr><td>
 
@@ -98,10 +106,12 @@ Security risk
 
 </td><td>
 
-\(High\) Cross Site Request Forgery is a significant security risk that violates the integrity of the instance data. An attacker can launch the CSRF attack by abusing the trust of an instance user. With the help of social engineering attacks, a user can submit a malformed request on behalf of the attacker on the instance.
+-   Security risk rating: High
+-   CVSS rating: 8.1
+-   Security risk details: If this property is not set to `true`, the platform can't distinguish a forged request from one the user actually intended. An attacker can craft a malicious page that causes an authenticated victim's browser to submit a request to the instance without their knowledge. That request executes with the victim's session and privileges.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

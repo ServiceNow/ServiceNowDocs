@@ -3,11 +3,11 @@ title: Client software distribution dashboard
 description: The CSD dashboard provides a collection of visual reports for the Client Software Distribution application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/c\_ClientSWDistributionDash.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Client Software Distribution, Orchestration applications, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -36,7 +36,7 @@ Open Tasks
 
 </td><td>
 
-Displays all open tasks grouped by the requested item's stage value.-   Type: [Create a basic list report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreateAListReport.md)
+Displays all open tasks grouped by the requested item's stage value.-   Type: [Create a basic list report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_CreateAListReport.md)
 -   Table: Catalog Task \[sc\_task\]
 
 </td></tr><tr><td>
@@ -45,7 +45,7 @@ Top 10 Applications Installed
 
 </td><td>
 
-Displays the top 10 applications installed by request count.-   **Type**: [Create a bar report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_CreateBarCharts.md)
+Displays the top 10 applications installed by request count.-   **Type**: [Create a bar report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_CreateBarCharts.md)
 -   **Table**: Requested Software \[sn\_client\_sf\_dist\_req\_software\]
 
 </td></tr><tr><td>
@@ -54,7 +54,7 @@ Total Software Request Item Over Time
 
 </td><td>
 
-Displays the total software items requested each month. -   **Type**: [Line reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_CreateLineCharts.md)
+Displays the total software items requested each month. -   **Type**: [Line reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_CreateLineCharts.md)
 -   **Table**: Requested Software \[sn\_client\_sf\_dist\_req\_software\]
 
 </td></tr><tr><td>
@@ -63,7 +63,7 @@ Requests Completed Report
 
 </td><td>
 
-Displays the total of software requests completed each month.-   **Type**: [Line reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_CreateLineCharts.md)
+Displays the total of software requests completed each month.-   **Type**: [Line reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_CreateLineCharts.md)
 -   **Table**: Requested Software \[sn\_client\_sf\_dist\_req\_software\]
 
 </td></tr><tr><td>
@@ -72,7 +72,7 @@ Installed Software Not Entitled
 
 </td><td>
 
-Displays installed software that users or devices are not entitled to use. This can be software deployed through CSD or by another process that does not comply with licensing. This report is on a Software Asset Management table.-   **Type**: [Create a basic list report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreateAListReport.md)
+Displays installed software that users or devices are not entitled to use. This can be software deployed through CSD or by another process that does not comply with licensing. This report is on a Software Asset Management table.-   **Type**: [Create a basic list report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_CreateAListReport.md)
 -   **Table**: Software Installation \[cmdb\_sam\_sw\_install\]
 
 </td></tr><tr><td>
@@ -81,7 +81,7 @@ Software Installation Status
 
 </td><td>
 
-Displays the count of requested software, grouped by installation status, for each month.-   **Type**: [Line reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_CreateLineCharts.md)
+Displays the count of requested software, grouped by installation status, for each month.-   **Type**: [Line reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_CreateLineCharts.md)
 -   **Table**: Requested Software \[sn\_client\_sf\_dist\_req\_software\]
 
 </td></tr><tr><td>
@@ -90,7 +90,7 @@ Software Requested Item Stage Report
 
 </td><td>
 
-Displays the sum of all requested items, grouped by the requested item’s stage, for each month.-   **Type**: [Line reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_CreateLineCharts.md)
+Displays the sum of all requested items, grouped by the requested item’s stage, for each month.-   **Type**: [Line reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_CreateLineCharts.md)
 -   **Table**: Requested Software \[sn\_client\_sf\_dist\_req\_software\]
 
 </td></tr><tr><td>
@@ -99,7 +99,7 @@ License Counts Available
 
 </td><td>
 
-Displays the license counts for all available applications.-   **Type**: [Create a basic list report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreateAListReport.md)
+Displays the license counts for all available applications.-   **Type**: [Create a basic list report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_CreateAListReport.md)
 -   **Table**: SCCM Application Catalog Item \[sn\_client\_sf\_dist\_sccm\_app\_cat\_item\]
 
 </td></tr></tbody>
@@ -107,5 +107,5 @@ Displays the license counts for all available applications.-   **Type**: [Create
 
 Navigate to **Client Software Distribution** &gt; **Usage Overview** to view the current transaction count for your instance.
 
-**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ClientSoftwareDistribution.md)
+**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_ClientSoftwareDistribution.md)
 

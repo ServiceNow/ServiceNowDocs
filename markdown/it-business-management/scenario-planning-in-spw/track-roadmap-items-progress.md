@@ -3,11 +3,11 @@ title: Track the progress of roadmap items
 description: Visually track the completion of a work item on your portfolio plan roadmap or free-form roadmap using the tracking mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/track-roadmap-items-progress.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Use a toggle to switch your roadmap view from planning mode to tracking mode. Th
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d282698e80">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d283987e80">
 
 Roadmap type
 
-</th><th align="left" id="d282698e83">
+</th><th align="left" id="d283987e83">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d282698e89">
+</th></tr></thead><tbody><tr><td id="d283987e89">
 
 **Portfolio plan roadmap**
 
@@ -48,7 +48,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d282698e110">
+</td></tr><tr><td id="d283987e110">
 
 **Free-form roadmap**
 
@@ -86,5 +86,5 @@ The tracking view of your roadmap is displayed according to your personalization
 
 \[Omitted image "roadmap-tracking-mode.png"\] Alt text: Roadmap tracking mode.
 
-**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
+**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
 

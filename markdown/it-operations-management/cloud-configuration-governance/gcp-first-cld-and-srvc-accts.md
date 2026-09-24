@@ -3,11 +3,11 @@ title: Set up a cloud account and service account for Google Cloud Platform
 description: A service account is a secure record on your instance that stores the credential and access information for your provider account. Discovery uses the information to access your provider account to get data on each resource in each specified datacenter. A cloud account is the logical representation in Cloud Provisioning and Governance of all or part of your managed cloud infrastructure. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/gcp-first-cld-and-srvc-accts.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Day 1 setup guide for Google Cloud through Cloud Services Catalog Terraform Connector, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ A service account is a secure record on your instance that stores the credential
 
 Role required: none
 
--   Download and activate the CSC Terraform Connector from the ServiceNow® Store. To try out the [Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md) for Google, install the CSC content pack.
+-   Download and activate the CSC Terraform Connector from the ServiceNow® Store. To try out the [Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md) for Google, install the CSC content pack.
 -   Operations in the Google Cloud Console require the Google administrator role.
 -   Operations in Cloud Provisioning and Governance require the sn\_cmp.cloud\_admin role.
 
@@ -47,7 +47,7 @@ When you finish the Day-1 setup process, your cloud account might look like this
 
 4.  From the JSON key file that is associated with the service account, populate the **project\_id** value into the **Account ID** field.
 
-    **Note:** You can use the import JSON file option to populate. For more details, see [Configure the Google API credentials for Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-create-google-api-credentials.md).
+    **Note:** You can use the import JSON file option to populate. For more details, see [Configure the Google API credentials for Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-create-google-api-credentials.md).
 
 5.  In the **Discovery credentials** field, select the appropriate credentials for the service account.
 
@@ -72,7 +72,7 @@ When you finish the Day-1 setup process, your cloud account might look like this
     **Note:**
 
     -   Select only those LDCs/Regions where your infrastructure resources are present. If you don't have any resources under these new data centers, exclude them while you run the full discovery.
-    -   To discover resources in additional regions, raise an access request to the required endpoints. Contact GCP Support for access.
+    -   To discover resources in certain regions or LDCs, raise an access request to the required endpoints with GCP Support. These regions include North America \(US East, US West, and Canada Central\), South America, Europe, Africa, Middle East, and Asia Pacific.
     The Cloud Account dashboard appears. The datacenters that you selected appear on the **Datacenters** tab.
 
 11. Click a datacenter.
@@ -92,9 +92,9 @@ After you complete all procedures in this initial "Day 1" setup, you can create 
 **Related topics**  
 
 
-[Set up an additional cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-cloud-account-cloud-mgt.md)
+[Set up an additional cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/add-cloud-account-cloud-mgt.md)
 
-[\(Optional\) Add a Google Cloud Platform service account to the cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/gcp-add-service-account-cloud-mgt.md)
+[\(Optional\) Add a Google Cloud Platform service account to the cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/gcp-add-service-account-cloud-mgt.md)
 
-[Discovery for Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/google-gcp-discovery-pattern.md)
+[Discovery for Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/google-gcp-discovery-pattern.md)
 

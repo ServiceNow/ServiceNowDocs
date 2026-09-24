@@ -3,9 +3,9 @@ title: Set up business objects for sales process records
 description: Create the business objects necessary for sales process managers to create sales process records using these entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-business-object-group-define-entity-relationship.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
@@ -94,7 +94,7 @@ Business object group and business object types are available in Business proces
 **Related topics**  
 
 
-[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-lead-cash-process-management.md)
 
-[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-lead-cash-process-management.md)
 

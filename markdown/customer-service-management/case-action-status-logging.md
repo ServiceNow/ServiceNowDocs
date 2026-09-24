@@ -3,9 +3,9 @@ title: Case action status logging
 description: Logging for the case action status feature uses a metric definition to view information about blocking tasks associated with customer service cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-action-status-logging.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -33,6 +33,6 @@ The metrics include:
 
 To access the **Case Actor Duration** metric definition, navigate to **All** &gt; **Metrics** &gt; **Definitions** and select the definition from the list. For more information about metric definitions, see the following topics:
 
--   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MetricDefinitionSupport.md)
--   [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-metric.md)
+-   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_MetricDefinitionSupport.md)
+-   [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-metric.md)
 

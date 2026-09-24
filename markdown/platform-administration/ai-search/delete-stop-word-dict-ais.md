@@ -3,11 +3,11 @@ title: Delete a stop word dictionary
 description: Remove a stop word dictionary that isn't linked from any search profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/delete-stop-word-dict-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Stop words, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,12 +30,12 @@ Role required: ais\_admin
 
 3.  Select **Delete**.
 
-    **Note:** If the stop word dictionary is still linked to any search profiles, deletion fails and an error message lists the linked profiles. Unlink the dictionary from these search profiles, then repeat the preceding steps. For details on unlinking a stop word dictionary from a search profile, see [Unlink a synonym dictionary from a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/unlink-synonym-dict-ais.md).
+    **Note:** If the stop word dictionary is still linked to any search profiles, deletion fails and an error message lists the linked profiles. Unlink the dictionary from these search profiles, then repeat the preceding steps. For details on unlinking a stop word dictionary from a search profile, see [Unlink a synonym dictionary from a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/unlink-synonym-dict-ais.md).
 
 
 ## Result
 
 The selected stop word dictionary disappears from the AI Search Dictionaries list.
 
-**Parent Topic:**[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)
+**Parent Topic:**[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/stop-words-ais.md)
 

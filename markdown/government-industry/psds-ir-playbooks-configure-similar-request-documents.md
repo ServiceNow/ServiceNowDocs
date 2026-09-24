@@ -1,18 +1,18 @@
 ---
-title: Configure Similar Request Documents UI in Information Request Playbook
-description: The Similar Request Documents Activity UI uses the name and description of existing information request cases to display a list of documents associated with the current case, providing helpful information the documents used to resolve similar information requests in Information Request Playbook.
+title: Configure Similar Request Documents UI in Information Request Administration
+description: The Similar Request Documents Activity UI uses the name and description of existing information request cases to display a list of documents associated with the current case, providing helpful information the documents used to resolve similar information requests in Information Request Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbooks-configure-similar-request-documents.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Information Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure Similar Request Documents UI in Information Request Playbook
+# Configure Similar Request Documents UI in Information Request Administration
 
-The Similar Request Documents Activity UI uses the name and description of existing information request cases to display a list of documents associated with the current case, providing helpful information the documents used to resolve similar information requests in Information Request Playbook.
+The Similar Request Documents Activity UI uses the name and description of existing information request cases to display a list of documents associated with the current case, providing helpful information the documents used to resolve similar information requests in Information Request Administration.
 
 ## Before you begin
 
@@ -57,5 +57,5 @@ Role required: admin
 
 ## Result
 
-The Similar Documents UI activity is now configured, and the modal should now display when you open a new or existing Information Request Playbook.
+The Similar Documents UI activity is now configured, and the modal should now display when you open a new or existing Information Request Administration.
 

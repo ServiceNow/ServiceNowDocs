@@ -3,9 +3,9 @@ title: PowerBI metadata collector
 description: The PowerBI metadata collector provides read-only access to metadata from a PowerBI account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/powerbi-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -292,10 +292,10 @@ Associated columns that the measure sources it data from
 |Supported calculated columns|Lineage from calculated column expressions containing columns with and without table references, Columns or tables with alphanumeric characters, Spaces, Hyphens, and Underscore are supported|
 |Supported measures|Lineage from measure expressions containing columns or tables with alphanumeric characters, Spaces, Hyphens, Underscore, Surrounding quotes are supported|
 
--   **[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-powerbi-collector.md)**  
+-   **[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-powerbi-collector.md)**  
 Set up Azure application registration, authentication, and permissions before running the collector.
--   **[Create a PowerBI metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-powerbi-metadata-collector.md)**  
+-   **[Create a PowerBI metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-powerbi-metadata-collector.md)**  
 Create a collector to import metadata from PowerBI.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

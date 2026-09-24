@@ -3,11 +3,11 @@ title: Prohibited keywords
 description: The Edge Encryption proxy validates encryption rule scripts before saving the rule. Many JavaScript keywords aren’t allowed in encryption rule scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/r\_ProhibitedKeywords.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Encryption rule objects and APIs, Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -42,5 +42,5 @@ The Edge Encryption proxy validates encryption rule scripts before saving the ru
 |this|
 |throw|
 
-**Parent Topic:**[Encryption rule objects and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/api-overview.md)
+**Parent Topic:**[Encryption rule objects and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/api-overview.md)
 

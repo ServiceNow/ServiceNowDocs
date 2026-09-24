@@ -3,9 +3,9 @@ title: Customer Success Management reference
 description: Reference topics provide additional information about Customer Success Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Success Management]
 ---
@@ -14,26 +14,24 @@ breadcrumb: [Customer Success Management]
 
 Reference topics provide additional information about Customer Success Management application.
 
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
-
 This section covers information about the data model, installed components, and domain separation information.
 
--   **[Domain separation and Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-domain-separation.md)**  
+-   **[Domain separation and Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-domain-separation.md)**  
 Domain separation is supported for Customer Success Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Customer success management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-roles.md)**  
+-   **[Customer success management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-roles.md)**  
 Roles added with Customer Success Management.
--   **[Customer success management responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-customer-success-responsibilities.md)**  
+-   **[Customer success management responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-customer-success-responsibilities.md)**  
 Responsibilities added with Customer Success Management.
--   **[Customer success management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-tables.md)**  
+-   **[Customer success management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-tables.md)**  
 This section includes the Customer Success Management tables.
--   **[Customer success management business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-business-rules.md)**  
+-   **[Customer success management business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-business-rules.md)**  
 This section includes the Customer Success Management business rules.
--   **[Customer success management flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-flows.md)**  
+-   **[Customer success management flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-flows.md)**  
 This section includes the Customer Success Management flows.
--   **[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)**  
+-   **[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)**  
 The Customer Discovery Hub includes four tables that capture customer business context: customer business need, customer business challenge, customer business expectation, and customer use case.
--   **[Supported use case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-product-uc-tables.md)**  
+-   **[Supported use case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-product-uc-tables.md)**  
 The supported use case table \(`sn_prod_cap_core_sup_use_case`\) is the default implementation of the use case catalog. It extends the base use case table and adds classifies the industry verticals and business model segments relevant to the use case.
 
-**Parent Topic:**[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
+**Parent Topic:**[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
 

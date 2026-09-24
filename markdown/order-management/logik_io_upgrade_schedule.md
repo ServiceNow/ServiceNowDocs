@@ -3,7 +3,7 @@ title: CPQ Upgrade Schedule
 description: CPQ updates customer environments on a predictable bi-weekly schedule to deliver new features, enhancements, and fixes. Test environments are upgraded first, with production updates following after at least 14 days to ensure stability. You can identify your environment’s sector from its URL and refer to the Upgrade Calendar to see which version your instance is currently running.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io\_upgrade\_schedule.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,7 +23,7 @@ Customer environments are upgraded according to the following table:
 |test|Biweekly, Thursday 8:00p CT| |
 |prod|Biweekly, Friday 8:00p CT|A build is pushed to production no less than 14 days after it was introduced to test environments. To reduce the risk of upgrading prod environments as fiscal periods are ending, the schedule avoids upgrading prod environments at the ends of calendar months.|
 
-To determine which version of CPQ your environment is on, first determine the sector of your environment by inspecting its URL. The sector precedes "CPQ.io" in the URL. For example, in the URL https://customName.prod.cpq, the sector is prod. Then, find the current day in the [Upgrade Calendar](https://calendar.google.com/calendar/embed?src=c_ucaqgepi0m001s34faoai41n4g%40group.calendar.google.com&ctz=America%2FChicago). Review the corresponding test or prod entry for this day.
+To determine which version of CPQ your environment is on, first determine the sector of your environment by inspecting its URL. The sector precedes "logik.io" in the URL. For example, in the URL https://customName.prod.logik.io, the sector is prod. Then, find the current day in the [Upgrade Calendar](https://calendar.google.com/calendar/embed?src=c_ucaqgepi0m001s34faoai41n4g%40group.calendar.google.com&ctz=America%2FChicago). Review the corresponding test or prod entry for this day.
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

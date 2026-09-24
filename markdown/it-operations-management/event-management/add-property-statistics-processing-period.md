@@ -3,11 +3,11 @@ title: Configure statistics processing period
 description: Set the time period, in seconds, for collecting event processing statistics. For example, you can set a time period twice as long as the default 60 seconds to collect more statistics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/add-property-statistics-processing-period.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View event processing statistics, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -38,5 +38,5 @@ Use the **evt\_mgmt.event\_processing\_stats\_period** property to configure the
 **Related topics**  
 
 
-[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 

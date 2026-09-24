@@ -3,7 +3,7 @@ title: Session and configuration timeouts
 description: Learn how timeouts for inactive or abandoned configurations improve system efficiency and prevent resource waste.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/session\_\_configuration\_timeouts.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -40,5 +40,5 @@ Here are a few example scenarios.
 
 The most effective approach to avoid a timeout is to manually save your configurations, especially when working across multiple tabs. This way, progress is not lost when completing other work.
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

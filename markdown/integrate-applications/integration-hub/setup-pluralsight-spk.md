@@ -3,7 +3,7 @@ title: Set up the Pluralsight spoke
 description: Integrate the ServiceNow instance and your Pluralsight Skills account using an API key to have the ServiceNow instance requests authenticated by the Pluralsight host.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-pluralsight-spk.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -67,7 +67,7 @@ This task enables you to integrate your ServiceNow instance with the Pluralsight
 
         \[Omitted image "pluralsight-connection.png"\] Alt text: Pluralsight connection.
 
-    -   To manage more than one Pluralsight spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Pluralsight spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "configure-button-pluralsight-conn-cred.png"\] Alt text: Configure button for configuring Pluralsight spoke connection and credentials.

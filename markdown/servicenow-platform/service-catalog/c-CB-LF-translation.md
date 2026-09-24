@@ -3,11 +3,11 @@ title: Localization Framework integration with Catalog Builder
 description: The Translation Status tab in the Catalog items tab on the Catalog Builder dashboard enables you to view the translation status of catalog items, and translate catalog items on the fly using manual or machine translation methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c-CB-LF-translation.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Set the glide.sc.catalog\_builder.localization.enable\_request\_translation\_mod
 
 When you create item, the **Request translations** step appears in the wizard steps region. Select **Browse** to view and select the languages you want to translate the catalog item information to.
 
-For more information, see [Request translations for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/request-translations-multiple-items.md).
+For more information, see [Request translations for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/request-translations-multiple-items.md).
 
 ## Request translation mode for existing items
 
@@ -44,7 +44,7 @@ Select the **Request translations** link below the language you want the transla
 
 When the localization task completes in Localization Framework, the **Request translations** link comes back which you can use to request for translations again. The state changes to **Translated**, **Partially translated**, or **Not translated** on the **Translation status** tab, depending on whether the translations occur for all fields, some fields, or no fields in the table.
 
-For more information, see [Request translations for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/request-translations-multiple-items.md).
+For more information, see [Request translations for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/request-translations-multiple-items.md).
 
 ## Self-translation \(ad hoc\) mode
 
@@ -54,17 +54,17 @@ In the **Catalog Items** tab, select the existing item you want translated, then
 
 Select the **Edit translations** link to open another tab that contains two comparison UI regions: The left region is the source language, and the right region is the target or translated language. You can compare the language translation side by side in the page, and make changes if required.
 
-For more information, see [Request ad hoc translation for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/req-adhoc-translation-for-sc-items.md).
+For more information, see [Request ad hoc translation for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/req-adhoc-translation-for-sc-items.md).
 
 ## Translation States
 
 |State|Mode|Description|
 |-----|----|-----------|
-|Not available|Request translation and Self-translation|If the [Localization Framework Insights record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-insights-dashboard.md) is not available, the translation state displayed by the system is **Not Available**, and the state appears near the language name.|
+|Not available|Request translation and Self-translation|If the [Localization Framework Insights record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-insights-dashboard.md) is not available, the translation state displayed by the system is **Not Available**, and the state appears near the language name.|
 |Not translated|Request translation and Self-translation|If there are no translations in the system for that specific catalog item for that language, the state **Not Translated** appears near the language name.|
 |Translations requested|Request translation|If there is an active LRTIM associated with a language for the item, the state **Translations requested** appears near the language name.|
 |Partially translated|Request translation and Self-translation|If there are partial translations in the system for that specific catalog item for that language, the state **Partially Translated** appears near the language name.|
 |Translated|Request translation and Self-translation|If all translations for that specific catalog item for that language exist in the system, the state **Translated** appears near the language name.|
 
-**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
+**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
 

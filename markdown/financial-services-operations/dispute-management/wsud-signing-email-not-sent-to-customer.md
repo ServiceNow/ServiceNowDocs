@@ -3,11 +3,11 @@ title: WSUD signing email not sent to customer
 description: This reference topic provides troubleshooting steps to resolve a Written Statement for Unauthorized Debit \(WSUD\) not being emailed to a customer during ACH dispute intake.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/wsud-signing-email-not-sent-to-customer.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [WSUD Troubleshooting, Reference, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -49,5 +49,5 @@ The consumer/contact record may have an invalid or missing email address.
     -   &lt;PORTAL&gt;: Portal name \(csp or csm only\)
     -   &lt;SYS\_ID&gt;: Unique record ID of the document task
 
-**Parent Topic:**[Written Statement for Unauthorized Debit \(WSUD\) Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/wsud-troubleshooting-reference.md)
+**Parent Topic:**[Written Statement for Unauthorized Debit \(WSUD\) Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/wsud-troubleshooting-reference.md)
 

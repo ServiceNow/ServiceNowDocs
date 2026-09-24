@@ -3,9 +3,9 @@ title: Review and update the service specifications for a service order line ite
 description: Review and update the service specifications for a service order line item so that you can make sure that the specifications are correct and complete. A service specification is a template that you can use to define, at a functional level, a product that a service provider sells to the customer.OM revamp project - This topic is obsolete and has been removed from the SOM bundle on Oct 7, 2025.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-review-update-service-order-product-specifications.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review the domain service orders, Approve and fulfill service orders, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---

@@ -3,11 +3,11 @@ title: SLA Percentage Timer action
 description: Identify when a task SLA record reaches a specific percentage value and perform other actions or flow logic that is based on the SLA percentage. For example, send a notification when an SLA percentage timer completes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/sla-percentage-timer-action.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -45,7 +45,7 @@ The **Status** data pill contains the result of the SLA percentage timer.
 |Skipped|The timer did not run because the scheduled end date/time is in the past. Flow designers can build specific flow logic for this action status.|
 |Waiting|The timer is running and has yet to reach the scheduled end date/time.|
 
-Workflow Studio sets the action status when the SLA state matches an [SLA condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_SLAConditions.md) or when certain UI actions are selected.
+Workflow Studio sets the action status when the SLA state matches an [SLA condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_SLAConditions.md) or when certain UI actions are selected.
 
 <table id="table_gqk_nvt_1jb"><thead><tr><th>
 
@@ -167,8 +167,8 @@ Follow these general guidelines when creating flows that contain Service Level A
 
 -   **Copy existing flows to make customizations**
 
-    Reduce development time by copying the default SLA flows and customizing the copies with your own logic. Select a customized flow to run from the SLA definition. See [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAnSLADefinition.md) .
+    Reduce development time by copying the default SLA flows and customizing the copies with your own logic. Select a customized flow to run from the SLA definition. See [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CreateAnSLADefinition.md) .
 
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

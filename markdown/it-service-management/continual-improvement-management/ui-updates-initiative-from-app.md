@@ -3,11 +3,11 @@ title: Updates after improvement initiative creation from integrated application
 description: UI changes display on the source application record and on the initiative record when you create an improvement initiative from an integrated application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/ui-updates-initiative-from-app.html
-release: australia
+release: brazil
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Continual Improvement Management, IT Service Management]
 ---
@@ -86,5 +86,5 @@ Demand record to which the improvement initiative is linked is added to the **So
     |Improvement Initiatives related list is added that contains the improvement initiative \(CIM\) record.|Survey definition \(Assessment Metric Type \[Survey view\]\) record is added to the **Source/Parent** field on the Details tab.|
 
 
-**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md)
+**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-reference.md)
 

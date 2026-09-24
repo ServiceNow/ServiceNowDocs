@@ -3,11 +3,11 @@ title: Request Data Collection for Oracle Global Licensing and Advisory Services
 description: Request the Data Collection for Oracle GLAS application from the ServiceNow Store so that you can track and measure usage for your Oracle Database options and management packs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/request-data-collection-oracle-glas-app.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Oracle Database options and management packs, Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -56,16 +56,16 @@ Install the application according to the instructions in the email.
 
 **Note:**
 
-The Data Collection for Oracle GLAS application includes two configurations, V1 and V2, which are managed by a system property. V1 is set as the default, while V2 serves as an alternative optimized for larger or high-volume Oracle database environments. Both configurations provide the same data collection features. For more information on enabling V2, see [Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/enable-oracle-glas-v2-method.md).
+The Data Collection for Oracle GLAS application includes two configurations, V1 and V2, which are managed by a system property. V1 is set as the default, while V2 serves as an alternative optimized for larger or high-volume Oracle database environments. Both configurations provide the same data collection features. For more information on enabling V2, see [Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/enable-oracle-glas-v2-method.md).
 
-**Parent Topic:**[Oracle Database options and management packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-options.md)
+**Parent Topic:**[Oracle Database options and management packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-options.md)
 
 **Related topics**  
 
 
-[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/oracle-glas-discovery.md)
+[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-glas-discovery.md)
 
-[Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/enable-oracle-glas-v2-method.md)
+[Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/enable-oracle-glas-v2-method.md)
 
-[Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/download-oracle-glas-data.md)
+[Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/download-oracle-glas-data.md)
 

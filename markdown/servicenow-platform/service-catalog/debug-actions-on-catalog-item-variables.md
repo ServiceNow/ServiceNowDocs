@@ -3,11 +3,11 @@ title: Debug actions on catalog item variables
 description: Analyze the client-side actions affecting the state and values of all variables. You can also get insights into the performance of each script working on the variables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/debug-actions-on-catalog-item-variables.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Debugging Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,7 +53,7 @@ The variable action logger displays the chronology of actions that happen on all
 
 6.  Review the results of the variable action logger.
 
-<table id="choicetable_f5q_mwb_5bb"><tbody><tr><td id="d275497e180">
+<table id="choicetable_f5q_mwb_5bb"><tbody><tr><td id="d273999e180">
 
 **Search**
 
@@ -61,7 +61,7 @@ The variable action logger displays the chronology of actions that happen on all
 
 To search for a variable or script, use the **Search** field.
 
-</td></tr><tr><td id="d275497e192">
+</td></tr><tr><td id="d273999e192">
 
 **Collapse All**
 
@@ -69,7 +69,7 @@ To search for a variable or script, use the **Search** field.
 
 To collapse variable logs within a group, click **Collapse All**.
 
-</td></tr><tr><td id="d275497e204">
+</td></tr><tr><td id="d273999e204">
 
 **Expand All**
 
@@ -77,7 +77,7 @@ To collapse variable logs within a group, click **Collapse All**.
 
 To expand variable logs within a group, click **Expand All**.
 
-</td></tr><tr><td id="d275497e216">
+</td></tr><tr><td id="d273999e216">
 
 **Filter**
 
@@ -85,7 +85,7 @@ To expand variable logs within a group, click **Expand All**.
 
 To filter variable logs, click the Filter icon \(\[Omitted image "Filter.png"\] Alt text: Filter icon\) and select the required options.
 
-</td></tr><tr><td id="d275497e231">
+</td></tr><tr><td id="d273999e231">
 
 **Clear Logs**
 
@@ -93,7 +93,7 @@ To filter variable logs, click the Filter icon \(\[Omitted image "Filter.png"\] 
 
 To clear variable logs, click the Actions icon \(\[Omitted image "Actions.png"\] Alt text: Icon to clear variable logs\) and select **Clear Logs**.
 
-</td></tr><tr><td id="d275497e250">
+</td></tr><tr><td id="d273999e250">
 
 **Export to CSV**
 
@@ -101,7 +101,7 @@ To clear variable logs, click the Actions icon \(\[Omitted image "Actions.png"\]
 
 To export the variable logs to a .csv file, click the Actions icon \( \[Omitted image "Actions.png"\] Alt text: Actions icon\) and select **Export to CSV**.
 
-</td></tr><tr><td id="d275497e268">
+</td></tr><tr><td id="d273999e268">
 
 **Print Logs**
 
@@ -111,5 +111,5 @@ To print variable logs, click the Actions icon \(\[Omitted image "Actions.png"\]
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
 

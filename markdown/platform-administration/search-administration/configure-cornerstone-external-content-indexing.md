@@ -1,21 +1,21 @@
 ---
 title: Configure Cornerstone for external content indexing
-description: Create and authorize an OAuth 2.0 application in the Cornerstone to allow the Cornerstone external content connector to access your Cornerstone source system.
+description: Create and authorize an OAuth 2.0 application in Cornerstone OnDemand to allow the Cornerstone external content connector to access your source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-cornerstone-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Cornerstone external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure Cornerstone for external content indexing
 
-Create and authorize an OAuth 2.0 application in the Cornerstone  to allow the Cornerstone external content connector to access your Cornerstone source system.
+Create and authorize an OAuth 2.0 application in Cornerstone OnDemand to allow the Cornerstone external content connector to access your source system.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: none
 
 The Cornerstone external content connector retrieves Catalogue and Learning objects from organization units in your Cornerstone source system using the Cornerstone API.
 
-To allow the connector to access your Cornerstone source system via the API, you must register an OAuth 2.0 application in Cornerstone OnDemand. Your connector administrator can use settings copied from the OAuth 2.0 application to configure the Cornerstone external connector for proper connection to your source system.
+To allow the connector to access your Cornerstone source system via the API, you must register an OAuth 2.0 application in Cornerstone OnDemand. Your connector administrator can use settings copied from the OAuth 2.0 application to configure the Cornerstone external content connector for proper connection to your source system.
 
 ## Procedure
 
@@ -60,7 +60,6 @@ To allow the connector to access your Cornerstone source system via the API, you
         -   catalog:read
         -   transcript:read
         -   task:read
-        -   group:read
         -   certification:read
     7.  Select **Register Application**.
 
@@ -79,12 +78,12 @@ To allow the connector to access your Cornerstone source system via the API, you
 
 Provide the following items to your connector administrator:
 
--   The Client ID value for your new OAuth 2.0 application that you copied in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-cornerstone-external-content-indexing.md).
--   The Client Secret value for your new OAuth 2.0 application that you copied in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-cornerstone-external-content-indexing.md).
+-   The Client ID value for your new OAuth 2.0 application that you copied in step [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-cornerstone-external-content-indexing.md).
+-   The Client Secret value for your new OAuth 2.0 application that you copied in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-cornerstone-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a Cornerstone external content connector to retrieve Catalogue and Learning objects from your Cornerstone source system.
 
-For details on creating and configuring a Cornerstone external content connector, see [Create a Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-cornerstone.md).
+For details on creating and configuring a Cornerstone external content connector, see [Create a Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-cornerstone.md).
 
-**Parent Topic:**[Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cornerstone-external-content-connector.md)
+**Parent Topic:**[Cornerstone external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cornerstone-external-content-connector.md)
 

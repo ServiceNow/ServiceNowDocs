@@ -3,7 +3,7 @@ title: Database views for cross-table data
 description: Database views combine fields from multiple tables into a single queryable entity. Add views to the semantic layer to answer cross-table questions in one query instead of requiring separate questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/database-views-cross-table-data.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 1
@@ -15,7 +15,7 @@ breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow 
 
 Database views combine fields from multiple tables into a single queryable entity. Add views to the semantic layer to answer cross-table questions in one query instead of requiring separate questions.
 
-[Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) in the [semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) enable you to answer questions that join data across tables in a single query instead of requiring separate questions or complex queries.
+[Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) in the [semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) enable you to answer questions that join data across tables in a single query instead of requiring separate questions or complex queries.
 
 ## When to use database views
 
@@ -35,10 +35,10 @@ When working with database views:
 -   Entity descriptions are auto-generated from the source tables and update automatically.
 -   The Include child hierarchy setting has no effect for database views.
 
-**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/semantic-layer-tuning-overview.md)
+**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/semantic-layer-tuning-overview.md)
 
 **Related topics**  
 
 
-[Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md)
+[Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-table-semantic-layer.md)
 

@@ -3,14 +3,14 @@ title: Define alert rule name and status
 description: Define alert rule attributes, including the name and state, such as active or inactive.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/define-alert-name-state.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alert rule name, alert rule status, active alert rule, alert rule state]
-breadcrumb: [Creating a metric rule, Alert rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating a metric rule, Managing alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Define alert rule name and status

@@ -3,11 +3,11 @@ title: Example workflow for assigning tasks to agents based on Capacity and Rese
 description: Explore how dynamic scheduling intelligently distributes tasks, considering the defined capacity reservations, work types, and overflow settings, ensuring optimal utilization of resources in the group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/example-for-capacity-and-reservations-management.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---

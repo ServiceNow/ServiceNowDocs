@@ -3,9 +3,9 @@ title: Publish an application to the ServiceNow Store
 description: Publishing an application to the ServiceNow Store makes it available to everyone.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/t\_PublishAppsToTheServiceNowStore.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -48,7 +48,7 @@ In Studio, when an application customization has the **Can Edit Application in S
 
 4.  Click the **Publish to Store** related link.
 
-5.  Fill in the fields, as appropriate \([see table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)\).
+5.  Fill in the fields, as appropriate \([see table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)\).
 
     \[Omitted image "PublishToMarketplace.png"\] Alt text: Publish an application to the marketplace
 
@@ -59,10 +59,10 @@ In Studio, when an application customization has the **Can Edit Application in S
     The system uploads the current version of the application to the ServiceNow Store allowing other users to download it.
 
 
-**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md)
+**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_SharingApplications.md)
 
 **Related topics**  
 
 
-[Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
+[Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
 

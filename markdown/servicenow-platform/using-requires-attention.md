@@ -3,9 +3,9 @@ title: Address items that requires attention
 description: Learn how to review and manage items that need your attention, such as expiring articles, flagged content, and feedback tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/using-requires-attention.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Requires Attention, knowledge management, Feedback Tasks, Flagged Articles]
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
@@ -48,5 +48,5 @@ You can track and resolve to pending tasks efficiently from the **Requires Atten
 **Related topics**  
 
 
-[Requires attention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Requires attention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

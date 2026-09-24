@@ -3,9 +3,9 @@ title: OpenFrame events for work items, agent presence, and interactions
 description: Use OpenFrame events to achieve better integration between Advanced Work Assignment \(AWA\) and Computer telephony integration \(CTI\) and aide in improved call routing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/openframe-cti-events.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Voice, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -16,9 +16,9 @@ Use OpenFrame events to achieve better integration between Advanced Work Assignm
 
 OpenFrame events are enabled by default when your administrator installs the Openframe plugin \(com.sn\_openframe\) and Advanced Work Assignment for CSM plugin \(com.sn\_csm.awa\).
 
-**Note:** The Advanced Work Assignment for CSM \(com.sn\_csm.awa\) plugin is automatically installed with the Customer Service plugin \(com.sn\_customerservice\).
+**Note:** The Advanced Work Assignment for CSM \(com.sn\_csm.awa\) plugin is automatically installed with the Case Management Core plugin \(com.sn\_customerservice\).
 
-As a CTI developer, ensure that you subscribe to the following events by using the subscribe method of the openFrameAPI.​ For more information, see [openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md).
+As a CTI developer, ensure that you subscribe to the following events by using the subscribe method of the openFrameAPI.​ For more information, see [openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_openFrameAPI.md).
 
 |Event|Description|
 |-----|-----------|
@@ -28,7 +28,7 @@ As a CTI developer, ensure that you subscribe to the following events by using t
 |openframe\_awa\_workitem\_rejected|Events are sent to OpenFrame when a work item is rejected by an agent.|
 |openframe\_agent\_off\_interaction|Events are sent to OpenFrame indicating the presence of an agent on chat as off or available.|
 
-Add and activate an OpenFrame configuration by navigating to **OpenFrame** &gt; **Configurations**. For more information, see [Create an OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAnOpenFrameConfiguration.md).
+Add and activate an OpenFrame configuration by navigating to **OpenFrame** &gt; **Configurations**. For more information, see [Create an OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_CreateAnOpenFrameConfiguration.md).
 
 ## Sample payloads
 
@@ -189,5 +189,5 @@ openframe\_agent\_off\_interaction
 </table>**Related topics**  
 
 
-[OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md)
+[OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_OpenFrameOverview.md)
 

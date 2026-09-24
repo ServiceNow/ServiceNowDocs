@@ -3,11 +3,11 @@ title: Lucidchart Diagramming Spoke
 description: Use Lucidchart to create architectural diagrams. Integrate your Application Portfolio Management instance with your Lucidchart account to directly access your Lucid diagrams from APM. Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/lucidchart-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -34,7 +34,7 @@ Lucidchart API version 1.0.
 
 ## Spoke requirements
 
-The Lucidchart Diagramming Spoke requires creating a workspace and custom app on your Lucid account to generate OAuth 2.0 tokens for the Lucidchart Diagramming spoke. See [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart Diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-conn-cred-lucidchart.md).
+The Lucidchart Diagramming Spoke requires creating a workspace and custom app on your Lucid account to generate OAuth 2.0 tokens for the Lucidchart Diagramming spoke. See [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-lucidchart.md) and [Create a connection and credential alias for the Lucidchart Diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/create-conn-cred-lucidchart.md).
 
 ## Spoke actions
 
@@ -44,5 +44,5 @@ The Lucidchart Diagramming Spoke provides **Create Diagram** action to access yo
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Create a connection and credential alias for the Lucidchart Diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-conn-cred-lucidchart.md).
+For information about setting up the spoke, see [Create a connection and credential alias for the Lucidchart Diagramming spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/create-conn-cred-lucidchart.md).
 

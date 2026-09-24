@@ -3,9 +3,9 @@ title: Remediate alerts with an MCP Client
 description: Get and execute an alert remediation workflow or suggestion through an MCP Client.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-mcp-server-remediate-alert.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alert remediation, ITOM MCP Server, AI agent]
 breadcrumb: [Alert remediation, Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]
@@ -28,7 +28,7 @@ Verify that:
 
 **Important:** The Alert remediation tool provides suggestions through an AI agent or MCP Client. You're interacting with AI. AI-generated responses may be inaccurate or incomplete.
 
-For more information about the Alert remediation tool, see [Alert remediation with an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-mcp-server-alert-remediation.md).
+For more information about the Alert remediation tool, see [Alert remediation with an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-mcp-server-alert-remediation.md).
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 

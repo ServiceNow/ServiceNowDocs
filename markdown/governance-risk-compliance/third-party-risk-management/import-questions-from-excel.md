@@ -3,11 +3,11 @@ title: Import a questionnaire from a spreadsheet
 description: If you maintain questionnaires using Microsoft Excel spreadsheets, you can save time and effort by importing your spreadsheet data directly into TPRM tables. You can then create questionnaires automatically from templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/import-questions-from-excel.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,9 +20,13 @@ If you maintain questionnaires using Microsoft Excel spreadsheets, you can save 
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager
 
+**Note:**
+
+This import method applies to classic questionnaire templates only. When the Smart Assessment Engine \(SAE\) is enabled, **Import from Excel** isn't available for questionnaire templates.
+
 ## About this task
 
-Before you import questionnaires, validate that the data in the spreadsheet meets certain requirements. To help you before you import the spreadsheet, you can review the formatting requirements and view or download a sample spreadsheet to use as a guide. See [Guidelines for importing spreadsheet data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/excel-formatting-guidelines.md).
+Before you import questionnaires, validate that the data in the spreadsheet meets certain requirements. To help you before you import the spreadsheet, you can review the formatting requirements and view or download a sample spreadsheet to use as a guide. See [Guidelines for importing spreadsheet data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/excel-formatting-guidelines.md).
 
 You can specify the following property settings:
 
@@ -37,7 +41,7 @@ You can specify the following property settings:
     Maximum file size in MB that can be imported.
 
 
-See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 ## Procedure
 
@@ -51,7 +55,7 @@ See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/Ser
 
     -   Select **Download sample file** to download an active worksheet that is properly formatted for import into Third-party Risk Management. You can use the sample as a guide for reformatting your own spreadsheet, or you can copy data from your spreadsheet directly into the sample.
     -   Select **View sample** to open an image of a properly-formatted worksheet. You can compare this with your existing worksheet to validate that it contains the same columns and question formats.
-    -   Select **Format guidelines** to view [Guidelines for importing spreadsheet data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/excel-formatting-guidelines.md).
+    -   Select **Format guidelines** to view [Guidelines for importing spreadsheet data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/excel-formatting-guidelines.md).
 4.  When your spreadsheet is ready for import, either drag it into the **Drop an Excel file here** box, or select **Choose File**, navigate to your Excel file, and then select **Open**.
 
     Errors and warnings appear if the file is formatted incorrectly. You must fix all errors before the questionnaires can be imported. You can import a file that has only warnings, but there might be issues in the resulting question data.
@@ -67,12 +71,12 @@ See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/Ser
 6.  Expand a category to view the questions in each category.
 
 
-**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/r_WhatIsGRC.md)
 
 **Related topics**  
 
 
-[Guidelines for importing spreadsheet data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/excel-formatting-guidelines.md)
+[Guidelines for importing spreadsheet data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/excel-formatting-guidelines.md)
 
-[Import existing data from other systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-historical-data-import.md)
+[Import existing data from other systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-historical-data-import.md)
 

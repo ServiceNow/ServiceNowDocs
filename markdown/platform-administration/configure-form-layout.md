@@ -3,9 +3,9 @@ title: Configuring the form layout
 description: Administrators or users with the personalize\_form role can configure the form and related list layout.Configure form layout to change what appears on the form. You can perform tasks like changing what fields are visible, embedding lists, and adding sections and annotations.You can configure related lists to appear on forms and in hierarchical lists.Highlight form elements by displaying blocks of colored text or separators between form elements.Users can toggle annotations on a form in Core UI . The glide.ui.show\_annotations user preference controls the visibility of annotations for each user.Create sections on forms to help group related fields together.Change the place where fields split on a form by moving the split section indicators.Tabbed forms offer a useful way to make forms and related lists take up less space by reducing the scrolling that must be done to navigate the form.You can embed lists within a form. When a list is embedded in a form, any changes made to the contents of the list are saved when the form is saved.You can configure the indicator for customer updates, which are changes that update sets, scripts, service catalog items, and other configuration tables track.Add a chart to a form to show your users graphical data related to the form. For example, you could show an incident SLA-related chart on the Incident form so your users can see how well service level agreements are being met.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-form-layout.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure
 
 Administrators or users with the personalize\_form role can configure the form and related list layout.
 
-**Important:** Try configuring your forms with Form Builder instead. Form Builder has all of the Form Designer and Form Layout options. It also has other robust features that help you configure each aspect of the form. For more information, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-form-builder.md).
+**Important:** Try configuring your forms with Form Builder instead. Form Builder has all of the Form Designer and Form Layout options. It also has other robust features that help you configure each aspect of the form. For more information, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-form-builder.md).
 
 ## Show or hide fields on a form
 
@@ -36,7 +36,7 @@ Role required: personalize\_form
 
     \[Omitted image "ConfigureFormScreen.png"\] Alt text: Configure the form
 
-    In Core UI, Form Layout is not responsible for the order of the Additional Comments and Work Notes fields. For more information on how to determine the order of these fields, see [Customize activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md).
+    In Core UI, Form Layout is not responsible for the order of the Additional Comments and Work Notes fields. For more information on how to determine the order of these fields, see [Customize activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ActivityFormatter.md).
 
 4.  Select **Save**.
 
@@ -45,7 +45,7 @@ Role required: personalize\_form
 
 ### What to do next
 
-Through form configuration, you can also add new fields to the form, which creates columns to the table that underlies the form. See [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md) for more information.
+Through form configuration, you can also add new fields to the form, which creates columns to the table that underlies the form. See [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreatingNewFields.md) for more information.
 
 ## Add a related list to a form
 
@@ -131,7 +131,7 @@ Role required: none
 **Related topics**  
 
 
-[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UserPreferences.md)
 
 ## Create a form section
 
@@ -179,7 +179,7 @@ Users can expand or collapse form sections to show or hide the fields they need.
 **Related topics**  
 
 
-[Configure items on forms or in lists using a slushbucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseSlushbuckets.md)
+[Configure items on forms or in lists using a slushbucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_UseSlushbuckets.md)
 
 ## Move form splits
 
@@ -231,7 +231,7 @@ Tabbed forms are enabled by default for new instances. A system user preference 
 **Related topics**  
 
 
-[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UserPreferences.md)
 
 ## Embed a list within a form
 
@@ -269,7 +269,7 @@ You can also modify embedded list controls, such as the name of the related list
 **Related topics**  
 
 
-[Configure list control settings for the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigListEditorControlSettings.md)
+[Configure list control settings for the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/t_ConfigListEditorControlSettings.md)
 
 ## Configure customer updates indicator
 
@@ -291,7 +291,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d344502e1212">
+<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d342519e1212">
 
 **Enable the indicator for all administrators**
 
@@ -299,7 +299,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 Set the **owned\_by\_indicator.form** preference to **true**.
 
-</td></tr><tr><td id="d344502e1227">
+</td></tr><tr><td id="d342519e1227">
 
 **Enable the indicator for an individual administrator**
 

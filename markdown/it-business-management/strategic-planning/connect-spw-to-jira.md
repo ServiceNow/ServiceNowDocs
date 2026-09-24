@@ -3,11 +3,11 @@ title: Connect SPW to Jira
 description: Connect Strategic Planning Workspace to Jira to enable the integration between the applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/connect-spw-to-jira.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -43,5 +43,5 @@ If the connection is successful, the **State** field on your Jira instance recor
 
 ## What to do next
 
-[Import Jira projects to SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/imports-jira-projects-to-spw.md).
+[Import Jira projects to SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/imports-jira-projects-to-spw.md).
 

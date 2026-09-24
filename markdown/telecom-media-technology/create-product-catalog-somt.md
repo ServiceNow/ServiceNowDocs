@@ -3,9 +3,9 @@ title: Create a product catalog
 description: Create a product catalog to add your product offerings. As a provider, you can use the product catalog to define how you want to sell products to your customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-product-catalog-somt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---

@@ -3,11 +3,11 @@ title: ValidateWorkflowStateValues
 description: The ValidateWorkflowStateValues validator checks a number of stage aspects in workflow activities for correctness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_VldtWorkflowStateValues.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow validator, Workflow validation, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ This validator has multiple possible error messages.
 -   Suggested Action: If this is not by design, make the appropriate changes.
 -   Publishable: Yes.
 -   Runnable: Yes
--   Related Information: [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md).
+-   Related Information: [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md).
 
 ## Troubleshooting
 
@@ -53,5 +53,5 @@ Use the following procedure to troubleshoot this validator:
 
 Tip: Make a list of which activities assign which stages.
 
-**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
 

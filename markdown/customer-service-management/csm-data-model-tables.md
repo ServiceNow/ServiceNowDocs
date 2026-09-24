@@ -3,10 +3,10 @@ title: Service Model Foundation tables and plugins
 description: Tables that are included with or modified by the plugins that enable the Service Model Foundation feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-model-tables.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up y
 
 Tables that are included with or modified by the plugins that enable the Service Model Foundation feature.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 The Service Model Foundation feature adds new tables or modifies existing tables when you activate the following plugins:
 
@@ -58,9 +58,9 @@ Internal Organization
 
 Extends the Business Organization \[sn\_csm\_business\_location\] table.
 
- This table stores internal organization \(formerly internal business location\) records.
+ This table stores internal business location records.
 
-**Note:** An internal organization \(formerly internal business location\) is a business organization with the **Internal** field set to **true**.
+**Note:** An internal business location is a business location with the **Internal** field set to **true**.
 
 </td></tr><tr><td>
 
@@ -72,9 +72,9 @@ External Organization
 
 Extends the Business Organization \[sn\_csm\_business\_location\] table.
 
- This table stores external organization \(formerly external business location\) records.
+ This table stores external business location records.
 
-**Note:** An external organization is a business organization with the **Internal** field set to **false**.
+**Note:** An external business location is a business location with the **Internal** field set to **false**.
 
 </td></tr></tbody>
 </table>## Customer Household Data Model plugin
@@ -140,7 +140,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Organization Core \(formerly Service Organization\)\[sn\_customer\_service\_organization\]
+Service Organization\[sn\_customer\_service\_organization\]
 
 </td><td>
 
@@ -148,7 +148,7 @@ A unidirectional relationship between a company and a service organization, with
 
  Stores records for service organizations, including business locations and internal business locations.
 
- **Note:** The following new columns are replicated from the company \[core\_company\] table to the organization core\[sn\_customer\_service\_organization\] table:
+ **Note:** The following new columns are replicated from the company \[core\_company\] table to the service organization \[sn\_customer\_service\_organization\] table:
 
 -   Active: Track the operational status of the service organization.
 -   Domain: Enable domain separation.
@@ -156,15 +156,15 @@ A unidirectional relationship between a company and a service organization, with
 
 </td></tr><tr><td>
 
-Organization Member \(formerly Service Organization Member\)\[sn\_csm\_service\_organization\_member\]
+Service Organization Member\[sn\_csm\_service\_organization\_member\]
 
 </td><td>
 
-Stores records for the users who belong to internal organizations.
+Stores records for the users who belong to internal service organizations.
 
 </td></tr><tr><td>
 
-External Organization Staff \(formerly Service Organization External Staff \)
+External Organization Staff
 
  \[sn\_csm\_service\_organization\_external\_staff\]
 
@@ -172,15 +172,13 @@ External Organization Staff \(formerly Service Organization External Staff \)
 
 Extends the User \[sys\_user\] table.
 
- Stores records for the users who belong to external organizations.
+ Stores records for the users who belong to external service organizations.
 
- **Note:** If the **Company** field is populated, the **Organization \(formerly Service Organization\)** field displays only those business organizations that are associated with the company record. Similarly, if the **Organization** field is populated, the **Company** field displays only those companies that are associated with the service organization.
-
- The external staff members with sn\_esm\_location\_agent, sn\_customerservice.svc\_location\_manager\_coributor, and sn\_customerservice.service\_organization\_contr roles have read-only access to name, business phone, mobile phone, and email address of other staff members at their own external organization in the classic environment.
+ **Note:** If the **Company** field is populated, the **Service Organization** field displays only those service organizations that are associated with the company record. Similarly, if the **Service Organization** field is populated, the **Company** field displays only those companies that are associated with the service organization.
 
 </td></tr><tr><td>
 
-Organization Member Responsibility \(formerly Service Organization Member Responsibility\)
+Organization Member Responsibility
 
  \[sn\_csm\_svc\_org\_member\_responsibility\]
 
@@ -240,7 +238,7 @@ New columns
 
 </th></tr></thead><tbody><tr><td rowspan="4">
 
-Customer Service \(com.sn\_customerservice\)
+Case Management Core \(com.sn\_customerservice\)
 
 </td><td>
 
@@ -274,7 +272,7 @@ Case\[sn\_customersrevice\_case\]
 
 ​Household
 
- Service Organization
+ Service Organization​
 
  Consumer Profile
 
@@ -312,7 +310,7 @@ Order\[csm\_order\]​
 
 Household​
 
- Service Organization
+ Service Organization​
 
 </td></tr></tbody>
 </table>

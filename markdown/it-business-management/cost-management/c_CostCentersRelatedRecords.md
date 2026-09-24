@@ -3,11 +3,11 @@ title: Cost centers related records
 description: Cost centers are related to additional records, displayed as related lists on its form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/c\_CostCentersRelatedRecords.html
-release: australia
+release: brazil
 product: Cost Management
 classification: cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Budgets and cost centers, Cost Management, Strategic Portfolio Management]
 ---
@@ -24,5 +24,5 @@ The Cost Management plugin adds the following related lists to the cost center r
 
 \[Omitted image "cost-center-related-lists.png"\] Alt text: Cost center related lists.
 
-**Parent Topic:**[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
+**Parent Topic:**[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
 

@@ -3,11 +3,11 @@ title: Check the status of and connection to the Hermes Kafka cluster
 description: Check the status of and test the connection to the Hermes Kafka cluster by sending and receiving test messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/run-hermes-messaging-service-diagnostics.html
-release: australia
+release: brazil
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,7 +40,7 @@ Role required: hermes\_admin or admin
 
 3.  View the producer and consumer bootstrap addresses that you can use to connect to Hermes in the Setup Information section.
 
-    Use these port mappings to connect producer and consumer clients to the Kafka cluster bootstrap addresses, as described in [Exchanging data using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/exchanging-data-hermes-messaging-service.md).
+    Use these port mappings to connect producer and consumer clients to the Kafka cluster bootstrap addresses, as described in [Exchanging data using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/exchanging-data-hermes-messaging-service.md).
 
     **Note:** When configuring consumer clients, you must configure two clients using ports in separate ranges: one in 4100-4150 and another in 4200-4250.
 
@@ -52,7 +52,7 @@ Role required: hermes\_admin or admin
 
     3.  View additional instance PKI details on the Key Management Framework Health page by selecting **View more**.
 
-    The instance PKI configuration status is displayed. If the configuration is valid, you can secure connections to Hermes by following the steps in [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md). If the configuration is invalid, contact Customer Service and Support.
+    The instance PKI configuration status is displayed. If the configuration is valid, you can secure connections to Hermes by following the steps in [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md). If the configuration is invalid, contact Customer Service and Support.
 
 5.  Confirm availability of the external ports used to connect to the Hermes Kafka cluster.
 
@@ -89,10 +89,10 @@ Role required: hermes\_admin or admin
 
     5.  View the timestamp for an internal topic's last known message by selecting the topic name in the **Internal Topics** column.
 
-    The message's timestamp is displayed. To view full details for a topic, use the Hermes Topic Inspector. See [Monitoring topics in the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/monitoring-topics-hermes-kafka-cluster.md).
+    The message's timestamp is displayed. To view full details for a topic, use the Hermes Topic Inspector. See [Monitoring topics in the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/monitoring-topics-hermes-kafka-cluster.md).
 
 
-**Parent Topic:**[Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
+**Parent Topic:**[Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
 
 **Related topics**  
 

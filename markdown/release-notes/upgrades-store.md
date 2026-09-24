@@ -1,18 +1,18 @@
 ---
 title: Upgrades and the ServiceNow Store
-description: The ServiceNow Store includes official applications that are developed and released by ServiceNow. Users can download, access, and configure Australia apps on their instances. Store application versions can be upgraded when you upgrade your instance to a new release version.
+description: The ServiceNow Store includes official applications that are developed and released by ServiceNow. Users can download, access, and configure Brazil apps on their instances. Store application versions can be upgraded when you upgrade your instance to a new release version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-store.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prepare your upgrade, Australia release notes]
+breadcrumb: [Prepare your upgrade, Brazil release notes]
 ---
 
 # Upgrades and the ServiceNow Store
 
-The [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) includes official applications that are developed and released by ServiceNow. Users can download, access, and configure Australia apps on their instances. Store application versions can be upgraded when you upgrade your instance to a new release version.
+The [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) includes official applications that are developed and released by ServiceNow. Users can download, access, and configure Brazil apps on their instances. Store application versions can be upgraded when you upgrade your instance to a new release version.
 
 New versions for a ServiceNow® Store app can be defined in patch and family releases. This includes the ability to define a minimum version and/or a hotfix for a version you already have installed. If your instance has an installed app version below the defined minimum version, the app will be upgraded to the minimum required version. Similarly, if your instance has an installed app below the defined hotfix version, your app will be upgraded to the hotfix version.
 

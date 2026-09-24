@@ -3,9 +3,9 @@ title: Setting up Scheduling in Workforce Optimization for Customer Service
 description: Manage events using the team calendar. Create different types of event categories. Use scripted extension points to customize event types.Add an event category. Create or update field configurations for events. You can also specify if an event category must be excluded when the shift coverage for agents are calculated.Create multiple events from the same category and add them to the team calendar.Configure schedule adherence properties to calculate the adherence and conformance of your agents so that you can improve the operational efficiency of your organization.Configure and tweak the schedule adherence and conformance formulas using scripted extension points so that you can customize them for your organization.Use extension points to call scripts for event categories such as meeting, time off, or work time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-scheduling-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Optimize workforce operations, Extend capabilities, Configure, Cust
 
 Manage events using the team calendar. Create different types of event categories. Use scripted extension points to customize event types.
 
-**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+**Parent Topic:**[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-configurable-wfo-cs.md)
 
 ## Configure event categories for Manager Workspace
 
@@ -36,7 +36,7 @@ The following event category configurations are available by default:
 
 1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Scheduling** &gt; **Event Categories**.
 
-2.  In the **Event Categories** list, select **New**.
+2.  In the **Event Categories** list, click **New**.
 
 3.  In the **Name** field, enter a name for the event category.
 
@@ -101,7 +101,7 @@ The following event category configurations are available by default:
             }
     ```
 
-6.  Select **Submit**.
+6.  Click **Submit**.
 
 
 ## Create event types to display them on the team calendar
@@ -116,7 +116,7 @@ Role required: sn\_shift\_planning.admin
 
 1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Scheduling** &gt; **Event Configuration**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -169,7 +169,7 @@ Category
 Type of event, for example, meeting, break, or time off.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
     **Note:** After an event type is assigned to a shift, that event type cannot be deleted.
 
@@ -201,7 +201,7 @@ The threshold settings for adherence and conformance indicate how many minutes e
     |Upper threshold for conformance % of Time Worked Summary|Upper threshold percentage that you can set for flexibility in conformance. The agents who don’t qualify for the defined lower and upper conformance threshold values \(80-120\) are considered as non-conformant agents. The default value is 120%.|
     |Default threshold time for clock-out event generation \(in Minutes\)|Default threshold time to generate an automatic clock-out event if an agent fails to clock out. The default value is 60 minutes. For example, if an agent's planned work shift is 08:00 to 17:00 and the agent fails to clock out at 17:00, the system waits for 60 minutes as the threshold time and generates an automatic clock-out event.|
 
-3.  Select **Save**.
+3.  Click **Save**.
 
 
 **Related topics**  
@@ -209,9 +209,9 @@ The threshold settings for adherence and conformance indicate how many minutes e
 
 [Scheduling in Workforce Optimization for Customer Service]()
 
-[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-schedule-adherence-configurable-wfo.md)
+[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-schedule-adherence-configurable-wfo.md)
 
-[Analyze conformance from time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)
+[Analyze adherence and conformance from the time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)
 
 ## Modify schedule adherence and conformance formulas by using extension points
 
@@ -231,15 +231,15 @@ Use the **sn\_shift\_planning.ScheduleAdherenceExtPt** extension point and creat
 
 2.  Search for `sn_shift_planning.ScheduleAdherenceExtPt`.
 
-3.  On the form banner, select the link **here** to edit the record.
+3.  On the form banner, click the link **here** to edit the record.
 
-4.  To create your extension point script, select **Create Implementation** in the related links.
+4.  To create your extension point script, click **Create Implementation** in the related links.
 
 5.  Modify the formulas for calculating the schedule adherence and conformance in the `getAdherencePercentage` and `getConformancePercentage` methods.
 
     \[Omitted image "extension\_script\_adherence.png"\] Alt text: Scripted extension point displaying the getAdherencePercentage and getConformancePercentage sections.
 
-6.  Select **Update**.
+6.  Click **Update**.
 
 
 ### Result
@@ -271,5 +271,5 @@ You can use extension points to create events such as meeting, training, and tim
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/extension-points.md)
 

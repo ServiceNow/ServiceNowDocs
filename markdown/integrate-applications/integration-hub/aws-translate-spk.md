@@ -3,11 +3,11 @@ title: AWS Translate Spoke
 description: Integrate your ServiceNow instance with AWS Translate to detect languages in the text and translate text to the required language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/aws-translate-spk.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -51,7 +51,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 ## Spoke requirements
 
 -   User with full access to AWS Translate.
--   Access Key ID and Secret Access Key of the user. Record these values for later use. For more information, see [Create an access key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/aws-translate-setup.md).
+-   Access Key ID and Secret Access Key of the user. Record these values for later use. For more information, see [Create an access key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/aws-translate-setup.md).
 
 For more information about creating user and providing the required access, see [AWS Identity and Access Management Documentation](https://docs.aws.amazon.com/iam/index.html) site.
 
@@ -115,5 +115,5 @@ Translates text from the source language to the target language using AWS Transl
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the AWS Translate spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/aws-translate-setup.md).
+For information about setting up the spoke, see [Set up the AWS Translate spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/aws-translate-setup.md).
 

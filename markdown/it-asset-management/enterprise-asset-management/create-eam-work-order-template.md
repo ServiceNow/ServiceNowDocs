@@ -3,13 +3,13 @@ title: Create a template for your Enterprise Asset Management work orders
 description: Create a work order template to automatically populate information, generate appropriate tasks, and create asset or part requirements for your work orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-work-order-template.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a template for your Enterprise Asset Management work orders
@@ -22,7 +22,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
-Work order templates are added to the Field Service Catalog, which is part of the ServiceNow® Field Service Management application. You can access the Field Service Catalog by navigating to **All** &gt; **Field Service** &gt; **Catalog and Knowledge**. See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md) for more information on the Field Service Management application.
+Work order templates are added to the Field Service Catalog, which is part of the ServiceNow® Field Service Management application. You can access the Field Service Catalog by navigating to **All** &gt; **Field Service** &gt; **Catalog and Knowledge**. See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-application-landing-page.md) for more information on the Field Service Management application.
 
 **Note:** The Field Service Management application is automatically activated when you request and install the Enterprise Asset Management application from the ServiceNow Store.
 

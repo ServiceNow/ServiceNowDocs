@@ -3,9 +3,9 @@ title: Configure push applications for iOS branded apps using a token
 description: Use push notifications on your branded ServiceNow mobile apps for iOS using token-based authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-push-ios-token.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -60,5 +60,5 @@ Role required: admin
 9.  On the push application form, select **Update**.
 
 
-**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-push-notifications.md)
 

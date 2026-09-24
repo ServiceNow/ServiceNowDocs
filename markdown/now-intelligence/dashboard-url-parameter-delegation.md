@@ -3,7 +3,7 @@ title: Dashboard URL parameter delegation
 description: The Delegate URL params property enables UIB pages containing dashboard components to control how URL parameter updates are handled. Doing so enables custom navigation logic for embedded or workspace scenarios.Enable URL parameter delegation for dashboard components to implement custom navigation logic in UIB pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboard-url-parameter-delegation.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-31"
 reading_time_minutes: 4
@@ -15,13 +15,11 @@ breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, P
 
 The Delegate URL params property enables UIB pages containing dashboard components to control how URL parameter updates are handled. Doing so enables custom navigation logic for embedded or workspace scenarios.
 
-**Note:** This functionality requires the latest Platform Analytics experience application from the ServiceNow® Store.
-
 By default, dashboard components automatically update the browser URL when users switch dashboards, change tabs, or toggle edit mode. This behavior works well for standard dashboard pages but may not suit all implementation scenarios.
 
 The **Delegate URL params** property provides an alternative approach where the dashboard component dispatches events instead of directly updating URLs. This delegation mechanism allows parent pages to implement custom navigation logic.
 
-For information about this property in the context of the Dashboard component configuration panel, see [Dashboard component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboard-component-properties-setup.md).
+For information about this property in the context of the Dashboard component configuration panel, see [Dashboard component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboard-component-properties-setup.md).
 
 ## When to use URL parameter delegation
 
@@ -53,9 +51,9 @@ The `DASHBOARD#URL_PARAMS_UPDATE_REQUESTED` event contains a **urlParams** objec
 
 This structured approach provides client scripts with sufficient context to make informed navigation decisions, including handling special cases like opening dashboards in new browser tabs.
 
-For more information about this event, see [Dashboard component events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboard-component-events-setup.md).
+For more information about this event, see [Dashboard component events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboard-component-events-setup.md).
 
-**Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/adding-analytics-center-to-ws.md)
+**Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/adding-analytics-center-to-ws.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Create a language code mapping
 description: Create a language code mapping to map the ServiceNow language codes with the language codes of the translation service providers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/create-language-code-mapping.html
-release: australia
+release: brazil
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Language Code Mapping in Dynamic Translation, Translating with Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---

@@ -3,9 +3,9 @@ title: Impacted area form
 description: On the Impacted area form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/impacted-area-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add the impacted area, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---

@@ -3,11 +3,11 @@ title: Content pack for Telecommunications orders
 description: Using the Process Mining content pack for Order Management for Telecommunications and Media enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with Telecommunications orders.Analyze a process for telecommunications orders and identify the bottlenecks to minimize delays in the case flow for a better customer experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/integration-with-telecommunications-orders.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Activate content packs, Activate, Process Mining, Platform Analytics]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Activate content packs, Activate, Process Mining, Platform Analytic
 
 Using the Process Mining content pack for Order Management for Telecommunications and Media enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with Telecommunications orders.
 
-For information about enabling the Process Mining for Telecommunications, see [Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-po-content-pack.md).
+For information about enabling the Process Mining for Telecommunications, see [Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/activate-po-content-pack.md).
 
 ## End user and roles
 
-If you have the required roles, you can use Analyst workbench to access the visualized process workflow data, and tools for analyzing the data related to telecommunications orders. For more information, see [Process Mining workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-overview.md).
+If you have the required roles, you can use Analyst workbench to access the visualized process workflow data, and tools for analyzing the data related to telecommunications orders. For more information, see [Process Mining workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyst-workbench-overview.md).
 
 Based on the Telecommunications application that you're using the Process Mining application for, you need the following roles:
 
@@ -38,14 +38,14 @@ The content pack adds prebuilt process optimization project definitions for thes
 -   Resource Orders
 -   Order Tasks
 
-You can also configure a new process project that is based on a prebuilt project. For more information, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md).
+You can also configure a new process project that is based on a prebuilt project. For more information, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/define-workflow-model.md).
 
-**Parent Topic:**[Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-po-content-pack.md)
+**Parent Topic:**[Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/activate-po-content-pack.md)
 
 **Related topics**  
 
 
-[Example of Process Mining for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-with-telecommunications-orders.md)
+[Example of Process Mining for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integration-with-telecommunications-orders.md)
 
 ## Example of Process Mining for Telecommunications
 
@@ -73,9 +73,9 @@ You can analyze the case process flow and suggest ways to improve the processes 
 **Related topics**  
 
 
-[Process Mining workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-overview.md)
+[Process Mining workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyst-workbench-overview.md)
 
-[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 
-[Content pack for Telecommunications orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-with-telecommunications-orders.md)
+[Content pack for Telecommunications orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integration-with-telecommunications-orders.md)
 

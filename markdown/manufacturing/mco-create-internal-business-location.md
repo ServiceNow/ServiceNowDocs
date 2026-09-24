@@ -3,11 +3,11 @@ title: Create internal business location
 description: Create an internal business location to enable users and consumers to create accounts, contacts, consumers, and households.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-internal-business-location.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Dealer, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Set up dealer, Configure, Manufacturing Commercial Operations]
 ---
 
 # Create internal business location
@@ -38,7 +38,7 @@ The manager of an internal business location can access all the cases for accoun
 
 3.  On the Internal business location form, fill in the fields.
 
-    For a description of the field values, see [Internal business location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-internal-business-location-form.md).
+    For a description of the field values, see [Internal business location form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-internal-business-location-form.md).
 
 4.  Select **Submit**.
 
@@ -50,5 +50,5 @@ The manager of an internal business location can access all the cases for accoun
 **Related topics**  
 
 
-[Add staff members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-staff-members-biz-loc.md)
+[bundle-csm.add-staff-members-biz-loc]
 

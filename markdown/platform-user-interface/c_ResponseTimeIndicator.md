@@ -3,9 +3,9 @@ title: Response time indicator icon
 description: A response time indicator icon may appear at the bottom right of forms and in the list view in the classic environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_ResponseTimeIndicator.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -39,5 +39,5 @@ Select the icon to see more details for the response time indicator.
 
 Administrators can disable the response time by setting the **glide.ui.response\_time** property to **false**.
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

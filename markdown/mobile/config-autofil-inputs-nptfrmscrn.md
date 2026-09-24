@@ -3,9 +3,9 @@ title: Configure auto-fill inputs on input form screens
 description: Streamline form completion on input form screens by configuring auto-filled inputs based on one or more user inputs. Auto-fill inputs are configured by using mobile client scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-autofil-inputs-nptfrmscrn.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Auto-fill inputs are configured by using mobile client scripts that run as a UI rule action in the UI rule of an input form screen. These scripts run in UI rules with an **OnChange** trigger type. For more information about UI rules and UI rule actions, see [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-rules.md).
+Auto-fill inputs are configured by using mobile client scripts that run as a UI rule action in the UI rule of an input form screen. These scripts run in UI rules with an **OnChange** trigger type. For more information about UI rules and UI rule actions, see [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-ui-rules.md).
 
 **Note:**
 
@@ -79,7 +79,7 @@ Condition under which the mobile UI rule is used. If the **Condition** field is 
 
  For example, to trigger this UI rule when a particular input changes, use the **VALCHANGES** operator. Entering `urgencyVALCHANGES` in the **Condition** field causes the UI rule to be triggered only when the value of an input named **urgency** changes.
 
- For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+ For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 
@@ -158,7 +158,7 @@ Condition under which the mobile UI rule is used. If the **Condition** field is 
 
  For example, to trigger this UI rule when a particular input changes, use the **VALCHANGES** operator. Entering `urgencyVALCHANGES` in the **Condition** field causes the UI rule to be triggered only when the value of an input named **urgency** changes.
 
- For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+ For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 
@@ -192,7 +192,7 @@ Make sure that at least one of the **Triggers** is set to **onChange**.
 
 7.  Write the client script in the **Client script** field.
 
-    Client scripts use the m\_form object and the MobileScriptIncludeCaller class. For details on these JavaScript APIs, see [MobileScriptIncludeCaller - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileScriptInclCallerClientAPI.md) and [m\_form - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/m_formClientAPI.md) in the API reference documentation.
+    Client scripts use the m\_form object and the MobileScriptIncludeCaller class. For details on these JavaScript APIs, see [MobileScriptIncludeCaller - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cllent-mobile-api-reference/MobileScriptInclCallerClientAPI.md) and [m\_form - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cllent-mobile-api-reference/m_formClientAPI.md) in the API reference documentation.
 
     When writing the client script, be aware of the following points:
 

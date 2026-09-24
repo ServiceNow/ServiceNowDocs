@@ -3,11 +3,11 @@ title: Install the Dispute Rules Content Pack for Visa
 description: If you have the admin role, you can install the Dispute Rules Content Pack for Visa application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/install-dispute-rules-content-pack-for-visa.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispute Rules Content Pack for Visa, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---

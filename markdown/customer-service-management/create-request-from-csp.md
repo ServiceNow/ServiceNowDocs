@@ -3,9 +3,9 @@ title: Create a request from the Customer and Consumer Service Portals
 description: As customers, you can create and submit requests from the Customer and Consumer Service Portals. The request process is integrated with Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-request-from-csp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
@@ -16,13 +16,13 @@ As customers, you can create and submit requests from the Customer and Consumer 
 
 ## Before you begin
 
-Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner, sn\_customerservice.customer\_case\_manager, sn\_customerservice.customer, sn\_customerservice.consumer, sn\_customerservice.proxy\_contact
+Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner, sn\_customerservice.customer\_case\_manager, sn\_customerservice.customer, sn\_customerservice.consumer, sn\_csm\_proxy\_cont
 
 ## About this task
 
 **Note:** Creating a request from the Customer and Consumer Service Portals requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the system administrator provide external customers with access to request records.
 
-Partners, partner administrators, and proxy contacts can submit requests on behalf of other accounts or contacts with the addition of the following variable set to the desired catalog items: **csm\_request\_variable\_set**. This variable set adds the **Account** and **Contact** fields. For more information, see [Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariableSets.md).
+Partners, partner administrators, and proxy contacts can submit requests on behalf of other accounts or contacts with the addition of the following variable set to the desired catalog items: **csm\_request\_variable\_set**. This variable set adds the **Account** and **Contact** fields. For more information, see [Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogVariableSets.md).
 
 ## Procedure
 

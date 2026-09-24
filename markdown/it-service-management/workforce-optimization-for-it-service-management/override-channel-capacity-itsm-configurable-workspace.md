@@ -3,11 +3,11 @@ title: Override channel capacity for an agent
 description: Change the default number of work items that an agent can handle for a service channel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/override-channel-capacity-itsm-configurable-workspace.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_wfo\_cfg\_ws.manager
 
 ## About this task
 
-By default, the override capacity is valid for 12 hours. Administrator can change the duration using the **sn\_channel\_mgmt.awa\_agent\_temporary\_override\_time.minutes** system property. For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md). The capacity resets to the previous value after the specified time. The scheduled job **Reset Temporary Capacity Override** is executed every two minutes to check the invalid or expired overridden capacity and resets to the previous value.
+By default, the override capacity is valid for 12 hours. Administrator can change the duration using the **sn\_channel\_mgmt.awa\_agent\_temporary\_override\_time.minutes** system property. For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md). The capacity resets to the previous value after the specified time. The scheduled job **Reset Temporary Capacity Override** is executed every two minutes to check the invalid or expired overridden capacity and resets to the previous value.
 
 **Note:** You can override the channel capacity for a single agent at a time. Ensure that an agent to whom you want to override the channel capacity needs to be associated with Advanced Work Assignment and the required channels.
 
@@ -34,15 +34,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d234322e103">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d238821e103">
 
 To set the override capacity
 
-</th><th align="left" id="d234322e106">
+</th><th align="left" id="d238821e106">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d234322e112">
+</th></tr></thead><tbody><tr><td id="d238821e112">
 
 **From Channels**
 
@@ -53,7 +53,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d234322e136">
+</td></tr><tr><td id="d238821e136">
 
 **From Teams**
 
@@ -83,5 +83,5 @@ Do this
 
 A message appears indicating the capacity update is valid for the defined duration. The capacity resets to the previous value after the specified time.
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

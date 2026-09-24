@@ -3,11 +3,11 @@ title: Run automated root cause analysis reports
 description: Execute automated root cause analysis to optimize your processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/run-view-arca.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated root cause analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -58,5 +58,5 @@ Open a project.
     \[Omitted image "arca-results.png"\] Alt text: Automated root cause analysis result
 
 
-**Parent Topic:**[Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/auto-rca.md)
+**Parent Topic:**[Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/auto-rca.md)
 

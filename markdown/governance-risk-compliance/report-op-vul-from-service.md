@@ -3,9 +3,9 @@ title: Report an operational vulnerability from the Service record
 description: Report an operational vulnerability from the Service record available in the Self-attestations list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/report-op-vul-from-service.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reporting Operational vulnerability, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_oper\_res.manager
 
     The source of the vulnerability is the selected service. Therefore, the **Source** field on the form shows the source as Service and the **Source table** field on the form shows the table as Service. The **Source table** field is auto-filled.
 
-    To view more information on the fields, see the [Create Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-op-vul-form.md).
+    To view more information on the fields, see the [Create Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-op-vul-form.md).
 
 6.  Select **Save**.
 

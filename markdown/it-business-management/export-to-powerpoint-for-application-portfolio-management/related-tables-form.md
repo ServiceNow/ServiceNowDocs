@@ -3,11 +3,11 @@ title: Related Tables form
 description: Use the Related Tables form to define the child tables for the configured parent table. This Related Tables helps in fetching data to export the project status report as Microsoft PowerPoint.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/export-to-powerpoint-for-application-portfolio-management/related-tables-form.html
-release: australia
+release: brazil
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Export to PowerPoint for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,7 +38,7 @@ Parent relation column
 
 </td><td>
 
-The column that defines the relationship between the parent and child tables. This field determines how the child table data is joined to the parent record.For more information on how to manage Related Tables, see [Manage Related Tables and Scripted Elements forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
+The column that defines the relationship between the parent and child tables. This field determines how the child table data is joined to the parent record.For more information on how to manage Related Tables, see [Manage Related Tables and Scripted Elements forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
 
 </td></tr><tr><td>
 
@@ -54,8 +54,8 @@ Advanced
 
 </td><td>
 
-Expand this section to access advanced configuration options for controlling how the related table data is rendered in the PowerPoint export. These options include field mappings, sort order, and display formatting.
+Expand this section to access advanced configuration options for controlling how the related table data is rendered in the PowerPoint export, including field mappings, sort order, and display formatting.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Export to PowerPoint Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/export-ppt-reference.md)
+</table>**Parent Topic:**[Export to PowerPoint Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/export-ppt-reference.md)
 

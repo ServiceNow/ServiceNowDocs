@@ -3,11 +3,11 @@ title: Application fingerprint suggestion form
 description: When viewing suggestions based on application fingerprints, verify the information on the Application fingerprints suggestion form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-admin-app-fingerprint-form.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery Admin Workspace reference, Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -85,5 +85,5 @@ The top 10 key words that provide more information about the process. Predictive
  This field is pre-populated and you can’t modify it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery Admin Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_discovery-admin-workspace-reference.md)
+</table>**Parent Topic:**[Discovery Admin Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_discovery-admin-workspace-reference.md)
 

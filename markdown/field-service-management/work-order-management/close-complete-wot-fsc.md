@@ -3,11 +3,11 @@ title: Close a complete work order task on a mobile device
 description: Close work order tasks to complete a task for which the issue is fixed or resolved through the Field Service Contractor for mobile application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/close-complete-wot-fsc.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---

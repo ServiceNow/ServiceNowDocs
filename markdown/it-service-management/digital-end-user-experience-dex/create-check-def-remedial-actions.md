@@ -3,13 +3,13 @@ title: Create a check definition for a custom remedial action
 description: Create a check definition and link it to the Agent Client Collector \(ACC\) plugin to enable the ACC agent to run a custom remedial action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/create-check-def-remedial-actions.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating a PowerShell remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating a PowerShell remedial action, Creating DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Create a check definition for a custom remedial action
@@ -18,9 +18,9 @@ Create a check definition and link it to the Agent Client Collector \(ACC\) plug
 
 ## Before you begin
 
--   [Create an ACC plugin package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/create-acc-plugin-structure.md)
--   [Sign and verify the ACC plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/sign-verify-plugin.md)
--   Upload the signed ACC plugin `tar.gz` file to the ServiceNow instance. For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-edit-assets.md).
+-   [Create an ACC plugin package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/create-acc-plugin-structure.md)
+-   [Sign and verify the ACC plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/sign-verify-plugin.md)
+-   Upload the signed ACC plugin `tar.gz` file to the ServiceNow instance. For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-edit-assets.md).
 
 Role required: admin
 
@@ -44,7 +44,7 @@ Role required: admin
 
     For example, `custom-script.rb`.
 
-    **Note:** For information about creating a check definition with input parameters, see [Create a check definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-api-check-def.md).
+    **Note:** For information about creating a check definition with input parameters, see [Create a check definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/acc-api-check-def.md).
 
 6.  From the **When to send the check results** drop-down list, select when to send check results.
 
@@ -60,10 +60,8 @@ Role required: admin
 
 8.  On the form, fill in the remaining fields.
 
-    For a description of the field values, see [Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/check-definition-form.md).
+    For a description of the field values, see [Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/check-definition-form.md).
 
 9.  Select **Submit**.
 
-
-**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)
 

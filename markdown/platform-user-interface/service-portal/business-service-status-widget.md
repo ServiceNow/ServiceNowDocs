@@ -3,11 +3,11 @@ title: Business Service Status widget
 description: View how services are running on your system. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/business-service-status-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Portal service status widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -30,7 +30,7 @@ The Business Service Status widget pulls information from the cmdb\_ci\_service 
 |Glyph|Icon for the widget. This is not user-facing.|
 |Number of Services|The number of services displayed in the widget. The default number is 250.|
 
-**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-status-widgets.md)
+**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/service-status-widgets.md)
 
 **Related topics**  
 

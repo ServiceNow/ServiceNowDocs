@@ -3,13 +3,13 @@ title: Expense Pre-Approval template
 description: Build an application in App Engine Studio \(AES\) using the Expense Pre-Approval template to create, track, and manage planned expenses in your organization.The following tables, experiences, automated workflows, and roles are included in the Expense Pre-Approval template for App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/cost-approval-template.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Expense Pre-Approval template
@@ -20,11 +20,11 @@ To use the Expense Pre-Approval template, install this application from the Serv
 
 Employees can easily submit their planned expenses for multiple levels of approval using the Expense Pre-Approval application. Managers can then review every submitted request. Approved requests are assigned to the budget review group, which can approve or reject the request. The employee receives a notification with the final status of the request.
 
-To ensure compliance and improved financial planning, admins can customize the existing flow and levels of approval using decision tables. For more information, see [Exploring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md).
+To ensure compliance and improved financial planning, admins can customize the existing flow and levels of approval using decision tables. For more information, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/decision-designer-overview.md).
 
-For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md).
+For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/template-library.md)
 
 ## Expense Pre-Approval template contents
 

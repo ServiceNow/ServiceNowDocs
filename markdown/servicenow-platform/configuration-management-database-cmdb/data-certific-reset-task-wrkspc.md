@@ -3,11 +3,11 @@ title: Reset a certification task
 description: Reset a certification task to restart the certification process for the task. Reset sets all certification results for the task to 'Review not completed', removes any added comments, and adds the task to the list of tasks that need review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-certific-reset-task-wrkspc.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-07-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,11 +24,11 @@ Resetting a data certification task doesn't affect any field values that were up
 
 The task that you want to reset must have at least one attribute that is already reviewed \(certified or failed\).
 
-Role required: data\_manager\_user or a user that has access to the task. For information about configuring user assignments for policy tasks, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+Role required: data\_manager\_user. For information about configuring user assignments for policy tasks, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md). User with the data\_manager\_user role should have access to the task to be able to reset it.
 
 ## Procedure
 
-1.  Locate the task that you want to reset. Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Tasks**.
+1.  Locate the task that you want to reset. Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel select the Tasks icon. In the Tasks navigation panel select **Certification** and on the Data Certification page, select the Certification tasks tab and then select a certification task.
 
 2.  Select **Reset** on the task page.
 

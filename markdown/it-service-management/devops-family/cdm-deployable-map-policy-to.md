@@ -3,11 +3,11 @@ title: Map policies to a deployable
 description: Map policies to a deployable to define the validation processes that the config data must pass. You can map policies to a deployable using static mapping or dynamic mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-deployable-map-policy-to.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mapping policies in DevOps Config, Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Map policies to a deployable to define the validation processes that the config 
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: cdm\_policy\_editor or cdm\_editor or cdm\_admin
 
@@ -88,7 +88,7 @@ Condition
 
 Business conditions based on which the policy is mapped dynamically to specific deployables.For example, to dynamically map policies to only deployables that have the environment type as production, you can define the condition as: **\[Environment\]\[is\]\[Production\]**.
 
-For more information on defining a condition, see [Map PaCE policies using Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-validate-dynamic.md).
+For more information on defining a condition, see [Map PaCE policies using Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-validate-dynamic.md).
 
 </td></tr><tr><td>
 
@@ -137,12 +137,12 @@ Tags that are associated with the policy.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Mapping policies in DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-mapping-policies.md)
+**Parent Topic:**[Mapping policies in DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/devops-config-mapping-policies.md)
 
 **Related topics**  
 
 
-[Map PaCE policies using Static Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-validate-static.md)
+[Map PaCE policies using Static Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-validate-static.md)
 
-[Map PaCE policies using Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-validate-dynamic.md)
+[Map PaCE policies using Dynamic Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-validate-dynamic.md)
 

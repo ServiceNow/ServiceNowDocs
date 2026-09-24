@@ -3,11 +3,11 @@ title: Apply Recommended Actions to your Operational Technology incidents
 description: Apply Recommended Actions to your Operational Technology \(OT\) incidents to display relevant actions to users based on the context of an OT incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/recommended-actions-for-otsm/use-recommended-actions-ot-incidents.html
-release: australia
+release: brazil
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Recommended Actions for OTSM, Operational Technology]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_ot\_incident\_write
 
 You can use the Recommendations panel and AI search when viewing an OT incident record to view and select relevant actions related to your incident.
 
-For more information about Recommended Actions, see [Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-using-recommended-actions.md).
+For more information about Recommended Actions, see [Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-using-recommended-actions.md).
 
 ## Procedure
 
@@ -43,5 +43,5 @@ For more information about Recommended Actions, see [Using the Recommended Actio
 6.  In the **Recommendations** panel, review and select the recommended actions.
 
 
-**Parent Topic:**[Using Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/using-recommended-actions-otsm.md)
+**Parent Topic:**[Using Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/recommended-actions-for-otsm/using-recommended-actions-otsm.md)
 

@@ -3,13 +3,13 @@ title: View neighborhoods in Workplace Core
 description: View existing neighborhoods with assigned spaces and user allocation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/view-neighborhood-core.html
-release: australia
+release: brazil
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Managing Neighborhoods, Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Managing Neighborhoods, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # View neighborhoods in Workplace Core
@@ -63,7 +63,7 @@ Filter
 
 Filter to show the number of matching records that match the conditions in the condition builder.The space planner can assign spaces in a neighborhood based on department, business unit, cost center, or group.
 
-For more information about filters, see [Filter condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
+For more information about filters, see [Filter condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
 
 </td></tr><tr><td>
 
@@ -186,12 +186,14 @@ Option to make users active in a neighborhood.
 
         Workplace Profile records are updated, added, or removed. A move task is initiated for employees who have a new space allocation and who are moved from one floor to another.
 
-11. To create and manage a neighborhood in Workplace Central for a scenario, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+11. To create and manage a neighborhood in Workplace Central for a scenario, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
-12. To view and reserve spaces in a neighborhood using the Reservation Management portal, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).
+12. To view and reserve spaces in a neighborhood using the Reservation Management portal, see [Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md).
 
-13. To add a user to the neighborhood, refer to [Add a user to the neighborhood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-a-user-to-neighbourhood.md).
+13. To add a user to the neighborhood, refer to [Add a user to the neighborhood](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-a-user-to-neighbourhood.md).
 
 
-**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/neighborhoods.md)
+**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/neighborhoods.md)
+
+**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/neighborhoods.md)
 

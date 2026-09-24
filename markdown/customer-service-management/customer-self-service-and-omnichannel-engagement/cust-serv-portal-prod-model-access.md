@@ -3,13 +3,13 @@ title: Limit access to product model data on the Customer Service Portal
 description: Use a system property to limit customer access to data in the Product Models table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/cust-serv-portal-prod-model-access.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Limit access to product model data on the Customer Service Portal
@@ -20,9 +20,9 @@ From the Customer Service Portal, product model data can be accessed by external
 
 The **csm\_cmdb\_model.customer\_visible\_flag** system property enables the **Customer Visible** field for the tables listed below.
 
-By default, this property is set to true. When set to true.
+By default, this property is set to true.
 
-The system uses the setting in the **Customer Visible** field to determine access to product model data on the Customer Service Portal.
+When set to true the system uses the setting in the **Customer Visible** field to determine access to product model data on the Customer Service Portal.
 
 -   Product Models table \(cmdb\_model\)
 -   Software Models table \(cmdb\_software\_product\_model\)

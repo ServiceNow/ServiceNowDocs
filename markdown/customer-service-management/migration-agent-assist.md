@@ -3,11 +3,11 @@ title: Agent assist
 description: Learn about how the Workspace Agent assist functions with Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-agent-assist.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Agent assist
@@ -18,5 +18,5 @@ Agent assist provides agents with automatic search results that show possible so
 
 **Note:** You may need to log in to the Developer Site to see the content.
 
-For more information about using contextual search for Agent Assist, see [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ContextualSearch.md).
+For more information about using contextual search for Agent Assist, see [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ContextualSearch.md).
 

@@ -3,11 +3,11 @@ title: Convert MID-based ACC to MID-less
 description: Convert MID-based Agent Client Collector \(ACC\) to MID-less ACC by adjusting the configuration in acc.yml, decoupling from a specific MID to enhance flexibility and adaptability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/convert-midbased-acc.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -20,12 +20,12 @@ Convert MID-based Agent Client Collector \(ACC\) to MID-less ACC by adjusting th
 
 Verify that the ACC registration key was set up and the ACC was installed. For more information, see the following:
 
--   [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/setup-acc.md).
--   [Install ACC for DEX on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.md) or [Install ACC for DEX on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-macos.md).
+-   [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/create-acc-reg-key.md).
+-   [Install ACC for DEX on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.md) or [Install ACC for DEX on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-macos.md).
 
 Role required: agent\_admin and agent\_client\_collector\_admin
 
-For more information, see [Agent Client Collector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-users.md).
+For more information, see [Agent Client Collector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/acc-users.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ For more information, see [Agent Client Collector user roles](https://raw.github
     -   `AMER: itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
     -   `EMEA: itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
     -   `APAC: itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
-    For more information on how the Agent uses the ITOM Cloud Services Gateway, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-architecture.md).
+    For more information on how the Agent uses the ITOM Cloud Services Gateway, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-architecture.md).
 
 5.  Configure the following parameters:
 
@@ -56,7 +56,7 @@ For more information, see [Agent Client Collector user roles](https://raw.github
     -   insecure-skip-tls-verify: false
     -   registration-key: &lt;registration key value&gt;
 
-        For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/setup-acc.md).
+        For more information, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/create-acc-reg-key.md).
 
 6.  Comment out the API key parameter:
 
@@ -72,8 +72,8 @@ For more information, see [Agent Client Collector user roles](https://raw.github
 
     -   On Windows: `/agent-client-collector/cache`.
     -   On macOS:
-        -   For Agent 3.4.1 or above: `/Library/Application Support/servicenow/agent-client-collector/cache`.
-        -   For Agent 3.4.0 or below: `/Library/Caches/servicenow/agent-client-collector`.
+        -   For Agent 3.4.1 or later: `/Library/Application Support/servicenow/agent-client-collector/cache`.
+        -   For Agent 3.4.0 or earlier: `/Library/Caches/servicenow/agent-client-collector`.
     **Important:** Keep `agent_now_id` in the cache folder.
 
 10. Initiate the ACC service based on your operating system.
@@ -81,5 +81,5 @@ For more information, see [Agent Client Collector user roles](https://raw.github
     -   On Windows, open Services as administrator, then start the Agent Client Collector Service.
     -   On macOS, use the command: `sudo launchctl load -w /Library/LaunchDaemons/com.sn.acc.plist`.
 
-**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
+**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
 

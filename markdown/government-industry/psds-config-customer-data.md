@@ -3,9 +3,9 @@ title: Configuring Public Sector Digital Services customer data
 description: Customer data constitutes the data linked to a case using associated entities such as Accounts, Contacts, Constituents, Household, Products, and Service Contracts. This information provides the government service agent the information necessary to resolve constituent issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-customer-data.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -38,6 +38,6 @@ The following list is a list of key entities in the Public Sector Digital Servic
 
     Household information is stored in the Household table, and also includes the relationships between household members.
 
-    For more information on households in Public Sector, see [Configure households in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-customer-data-household.md).
+    For more information on households in Public Sector, see [Configure households in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-customer-data-household.md).
 
 

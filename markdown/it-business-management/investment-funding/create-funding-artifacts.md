@@ -3,11 +3,11 @@ title: Access investments directly from an investment target
 description: Create a related link to go directly to the My Funds page from an investment target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/create-funding-artifacts.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an investment entity, Investment Funding administration, Investment Funding, Strategic Portfolio Management]
 ---
@@ -37,5 +37,5 @@ Role required: sn\_invst\_pln\_v2.investment\_admin
 
 The **Add/View Investments** related link appears on the form of the investment target for direct navigation to the My Funds page.
 
-**Parent Topic:**[Create an investment entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/create-funding-entity.md)
+**Parent Topic:**[Create an investment entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/create-funding-entity.md)
 

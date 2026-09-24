@@ -3,9 +3,9 @@ title: Secrets Management roles
 description: Secrets Management adds these roles.Assign non-admin secrets roles to other users. Secrets administrators have the same privileges as secrets manager and viewer.Grant this role to users who must be able to perform any of the following functions.Grant this role to users who must be able to view secret and secret group records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/roles-sec-man.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security
 
 Secrets Management adds these roles.
 
-**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/secrets-dashboard.md)
 
 ## Secrets administrator \[sn\_secrets.admin\]
 

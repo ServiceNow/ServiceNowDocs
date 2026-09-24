@@ -3,10 +3,10 @@ title: Custom application configuration in source code
 description: Configure a custom application \[sys\_app\] in the now.config.json file for an application in source code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-config-source-code.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-20"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
 
@@ -74,7 +74,7 @@ The items in another application scope on which your application depends. You mu
 }
 ```
 
-For more information, see [Download ServiceNow Fluent application dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/downloading-dependencies-now-sdk.md).
+For more information, see [Download ServiceNow Fluent application dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/downloading-dependencies-now-sdk.md).
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ Object
 
 </td><td>
 
-A map of the module source files to their equivalent output files for if you use a custom transpilation step before building the application. For more information, see [Using TypeScript in JavaScript modules with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/using-typescript.md).**Warning:** You can't use this parameter and the `tsconfigPath` parameter. Configuring both results in an error.
+A map of the module source files to their equivalent output files for if you use a custom transpilation step before building the application. For more information, see [Using TypeScript in JavaScript modules with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/using-typescript.md).**Warning:** You can't use this parameter and the `tsconfigPath` parameter. Configuring both results in an error.
 
 </td></tr><tr><td>
 
@@ -363,6 +363,153 @@ A path to a `tsconfig.json` file with custom options for transpiling TypeScript 
 
 Default: `.`
 
+</td></tr><tr><td>
+
+applicationRuntimePolicy
+
+</td><td>
+
+String
+
+</td><td>
+
+The runtime policy. For more information about runtime policies, see [Runtime access tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_RuntimeAccessTracking.md).Valid values:
+
+-   none: The system does not track runtime access requests. Application scripts can access resources from other applications as long as the table-level access settings allow it. Any configured network policies \(`networkPolicies`, `wildcardPolicy`, and `performancePolicy`\) are created but not enforced.
+-   tracking: The system runs the tracked operation as long as the table-level access settings allow it. Cross-scope privileges and any configured network policies \(`networkPolicies`, `wildcardPolicy`, and `performancePolicy`\) are created and enforced.
+-   enforcing: The system blocks the tracked operation from running until an administrator manually changes the status to **Allowed** and the table-level access settings allow it. Cross-scope privileges and any configured network policies \(`networkPolicies`, `wildcardPolicy`, and `performancePolicy`\) are created and enforced.
+
+Default: none
+
+</td></tr><tr><td>
+
+networkPolicies
+
+</td><td>
+
+Array
+
+</td><td>
+
+A list of network access policy \[sys\_arp\_network\_policy\] definitions.-   policyType: Required. The type of network policy. If the policy type is now\_inbound\_global, the `scheme` property is required.
+
+Valid values: csp\_script\_src, csp\_connect\_src, now\_inbound\_scoped, now\_inbound\_global, now\_outbound.
+
+-   status: Required. The enforcement status of the policy.
+
+Valid values: requested, allowed, denied
+
+-   $id: A unique ID for the metadata object in the format `Now.ID['String' or Number]`.
+-   active: Flag that indicates whether the policy is active.
+-   host: Host address including the scheme, hostname, and optional port but not including the path.
+-   scheme: The protocol scheme. Required if the policy type is now\_inbound\_global and must be empty for all other types.
+
+Valid values: http, https, ws, wss
+
+-   path: A list of paths. Each path must start with a slash `(/)`. Use the `/*` suffix to allow for sub-paths \(`/api/*`\). If the policy type is now\_inbound\_scoped, provide either a path or resource.
+-   resource: A resource identifier for cross-scope access if the policy type is now\_inbound\_scoped. For example, `processor.subprocessor.context`. Provide either a path or resource.
+-   shortDescription: A short description of what the policy does.
+
+```json
+"networkPolicies": [
+  { 
+      "policyType": "String",
+      "status": "String",
+      "$id": "String" or Number,
+      "active": Boolean,
+      "host": "String",
+      "scheme": "String",
+      "path": [Array],
+      "resource": "String",
+      "shortDescription": "String"
+  }
+]
+```
+
+</td></tr><tr><td>
+
+wildcardPolicy
+
+</td><td>
+
+Object
+
+</td><td>
+
+A wildcard, or exemption, policy \[sys\_arp\_segment\_policy\] definition.-   $id: A unique ID for the metadata object in the format `Now.ID['String' or Number]`.
+-   active: Flag that indicates whether the policy is active.
+
+Default: false
+
+-   network: The network pillar configuration that includes the network wildcard selections.
+
+Valid values for `networkWildcard`: now\_outbound, now\_inbound\_global, now\_inbound\_scoped, csp\_connect\_src, csp\_script\_src
+
+-   scripting: The scripting pillar configuration that includes the scripting wildcard selections.
+
+Valid values for `scriptingWildcard`: sys\_script\_include, scriptable
+
+-   arl: The application resource limit \(ARL\) pillar configuration that includes the network wildcard selections.
+
+Valid values for `arlWildcard`: scheduled\_job\_limit, event\_handler, api\_transaction\_limit, interactive\_transaction\_limit
+
+-   record: Flag that indicates whether to allow record pillar access.
+-   shortDescription: A short description of what the policy does.
+
+```json
+"wildcardPolicy": {
+  "$id": "String" or Number,
+  "active": Boolean,
+  "network": {
+      "active": Boolean,
+      "networkWildcard": [Array]
+  },
+  "scripting": {
+      "active": Boolean,
+      "scriptingWildcard": [Array]
+  },
+  "arl": {
+      "active": Boolean,
+      "arlWildcard": [Array]
+  },
+  "record": Boolean,
+  "shortDescription": "String"
+}
+```
+
+</td></tr><tr><td>
+
+performancePolicy
+
+</td><td>
+
+Object
+
+</td><td>
+
+A performance quota template \[sys\_app\_resource\_limit\_template\] definition.-   name: Required. A name for the performance quota template.
+-   $id: A unique ID for the metadata object in the format `Now.ID['String' or Number]`.
+-   apiTransactionLimit: The API transaction quota percentage.
+-   eventHandlerLimit: The event handler quota percentage.
+-   interactiveTransactionLimit: The interactive transaction quota percentage.
+-   mode: The enforcement mode for quota thresholds. If this parameter is not set, the value is determined by the value of the `applicationRuntimePolicy` parameter.
+
+Valid values: disabled, enforced, logOnly
+
+-   scheduledJobLimit: The scheduled job quota percentage.
+
+```json
+"performancePolicy": {
+  "name": "String",
+  "$id": "String" or Number,
+  "apiTransactionLimit": Number,
+  "eventHandlerLimit": Number,
+  "interactiveTransactionLimit": Number,
+  "mode": "String",
+  "scheduledJobLimit": Number
+}
+```
+
 </td></tr></tbody>
 </table>## Application configuration in source code
 
@@ -408,5 +555,5 @@ Default: `.`
 **Related topics**  
 
 
-[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md)
+[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationAccessSettings.md)
 

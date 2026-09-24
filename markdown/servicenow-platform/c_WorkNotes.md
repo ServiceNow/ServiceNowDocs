@@ -3,9 +3,9 @@ title: Work notes
 description: Work notes are an important part of the state flow process and are used to communicate information about state transitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_WorkNotes.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use state flows, State flows, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,12 +22,12 @@ These rules apply to state flow work notes:
 -   For a state flow with a Starting state and an Ending state, the work note is added only when the task transitions from that starting state to that ending state.
 -   If two state flows with work notes have the same Ending state, but only one has a Starting state, the system adds the work notes from the state flow with the starting state. This better matches the state flow work note to the more important transition between specific starting and ending states.
 
-**Parent Topic:**[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UseStateFlows.md)
+**Parent Topic:**[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_UseStateFlows.md)
 
 **Related topics**  
 
 
-[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UseStateFlows.md)
+[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_UseStateFlows.md)
 
-[Create a state flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAStateFlow.md)
+[Create a state flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAStateFlow.md)
 

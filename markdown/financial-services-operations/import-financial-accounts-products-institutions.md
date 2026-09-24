@@ -3,9 +3,9 @@ title: Import your financial data using import sets
 description: Import your financial accounts, financial products, financial institutions, and financial transactions into ServiceNow Financial Services Operations Core tables. You need this foundation data to make the Financial Services Operations applications work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/import-financial-accounts-products-institutions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
@@ -16,7 +16,7 @@ Import your financial accounts, financial products, financial institutions, and 
 
 ## Before you begin
 
-Ensure that the application scope is set to the Financial Services Operations Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Ensure that the application scope is set to the Financial Services Operations Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: sn\_bom.admin
 
@@ -32,15 +32,15 @@ Role required: sn\_bom.admin
 
     The imported data is now available in the new Import Set table.
 
-    For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_ImportSetsKeyConcepts.md).
+    For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_ImportSetsKeyConcepts.md).
 
-5.  [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_CreateATransformMap.md) to define the field mapping between columns of the import set and columns of the target table.
+5.  [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_CreateATransformMap.md) to define the field mapping between columns of the import set and columns of the target table.
 
-    For information on target tables, see the table topics in [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-core-data-model.md).
+    For information on target tables, see the table topics in [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-operations-core-data-model.md).
 
 6.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_RunImport.md).
+    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_RunImport.md).
 
 7.  Verify that the data records are imported into the target tables by navigating to the target tables.
 

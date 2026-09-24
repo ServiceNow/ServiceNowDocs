@@ -3,11 +3,11 @@ title: Configure cloud asset collection table
 description: Configure the Cloud Asset Collection Configs table to collect cloud assets or add comments to the CI entries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configure-cloud-asset-collection-table.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---

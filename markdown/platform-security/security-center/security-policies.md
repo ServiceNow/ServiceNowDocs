@@ -3,11 +3,11 @@ title: Security Event Notifications
 description: View, manage, and analyze the default security event notification policies on your ServiceNow instance, as well as access the functionality to create custom policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/security-policies.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security monitoring console, Security Center, Platform Security]
 ---
@@ -97,16 +97,16 @@ The rate of change for weekly triggers, calculated as a percentage.**Note:** For
 
 ## Manage security banner announcements
 
-Select **Manage announcement settings** to control whether admins receive banner notifications on this instance. For information on these announcements, see [ServiceNow Security Center announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/scc-banner.md).
+Select **Manage announcement settings** to control whether admins receive banner notifications on this instance. For information on these announcements, see [Security banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/scc-banner.md).
 
--   **[Create custom security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/create-a-policy.md)**  
-Create custom security event notifications for your organization to monitor user and group actions and generate alerts for potential security risks.
--   **[Modify security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/modify-security-event-notification-policies.md)**  
-Modify the settings of your security event notification policies to align with your organization's requirements.
--   **[Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/configure-preferences-for-security-event-notifications.md)**  
+-   **[Create custom security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/create-a-policy.md)**  
+Learn how to create custom security event notifications that are specific to your organization's needs. This enables you to monitor actions taken by users and groups on your instance and generate notifications for potential security risks.
+-   **[Modify security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/modify-security-event-notification-policies.md)**  
+Learn how to modify the settings of your security event notification policies.
+-   **[Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/configure-preferences-for-security-event-notifications.md)**  
 Discover how to customize security event notification policies in Security Center to align with your organization's specific needs.
--   **[Security Event Notifications history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-event-notifications-history.md)**  
+-   **[Security Event Notifications history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-event-notifications-history.md)**  
 Explore the complete history of security event notifications on your instance.
 
-**Parent Topic:**[Security monitoring console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-monitor-console.md)
+**Parent Topic:**[Security monitoring console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-monitor-console.md)
 

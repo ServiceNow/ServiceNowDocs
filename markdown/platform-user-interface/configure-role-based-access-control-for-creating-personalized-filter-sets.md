@@ -3,9 +3,9 @@ title: Configure access to create filter sets in the Activity stream
 description: Configure access to create filter sets in the Activity stream by restricting specified users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-role-based-access-control-for-creating-personalized-filter-sets.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activity stream, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

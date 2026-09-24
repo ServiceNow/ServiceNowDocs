@@ -3,9 +3,9 @@ title: Create a guidance in the Core UI
 description: Create a guidance in the Core UI so that you can link the guidance to the guidance node of a decision tree. For example, your agent may attach a knowledge article or propose a solution to a customer to help resolve an issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-guidances.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -259,5 +259,5 @@ Specifies the default value of the field for any new record. Ensure that this va
 
 ## What to do next
 
-[Configure guidance detail experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-guidance-preview-detail-experiences-ga.md) for Recommended Actions cards.
+[Configure guidance detail experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-guidance-preview-detail-experiences-ga.md) for Recommended Actions cards.
 

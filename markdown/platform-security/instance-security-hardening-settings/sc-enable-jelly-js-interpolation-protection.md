@@ -1,18 +1,18 @@
 ---
-title: Enable Jelly JS Interpolation Protection
+title: Enable Jelly JS interpolation protection
 description: Use the glide.ui.jelly.js\_interpolation.protect property to ensure that any JavaScript about to be executed on a Jelly page is protected from injection with the help of Jelly interpolation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-jelly-js-interpolation-protection.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Enable Jelly JS Interpolation Protection
+# Enable Jelly JS interpolation protection
 
 Use the **glide.ui.jelly.js\_interpolation.protect** property to ensure that any JavaScript about to be executed on a Jelly page is protected from injection with the help of Jelly interpolation.
 
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+true in Australia and newer, false prior
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Fallback value
 
 </td><td>
 
-false
+true in Australia and newer, false prior
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Functional impact
 
 </td><td>
 
-None
+Enabling this property causes the platform to reject Jelly JavaScript expressions that aren't explicitly recognized as safe or marked as SAFE. Instance owners should test custom UI pages, macros, and portal widgets that use Jelly-interpolated JavaScript expressions after making this change. Confirm that legitimate expressions continue to render as expected. Custom Jelly content that relies on dynamic, unmarked expressions require updates to use the SAFE designation to continue functioning.
 
 </td></tr><tr><td>
 
@@ -115,5 +115,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

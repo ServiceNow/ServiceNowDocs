@@ -3,7 +3,7 @@ title: Create an investigative case in Investigative Case Management
 description: As an investigator \(case agent\), you can get started on an investigative case directly from the Investigative Case Management workspace, filling in as much supporting information as you have.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-icm-create-case.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -26,7 +26,7 @@ Role required: icm.investigator, admin
 
 2.  Select the case classification code from the dropdown menu to select the investigation type.
 
-    By default, the workspace provides several generic classification codes that correspond to different investigative case types, but these may not correspond to your organization's internal codes. An admin can create and custom classification codes that more closely correspond to your investigative organization. For more information on this configuration, see [Modify case classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-modify-classif-codes.md).
+    By default, the workspace provides several generic classification codes that correspond to different investigative case types, but these may not correspond to your organization's internal codes. An admin can create and custom classification codes that more closely correspond to your investigative organization. For more information on this configuration, see [Modify case classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-icm-modify-classif-codes.md).
 
 3.  Enter the case title and a summary of the case.
 
@@ -40,7 +40,7 @@ Role required: icm.investigator, admin
 
 6.  Fill in any routing information for the case, such as the division responsible for the case, and the Supervisory reviewer.
 
-    The assigned office and originating office fields are auto-populated based off the logged in user. For more information on the case details form fields, see [Investigative Case Management case details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-case-form.md).
+    The assigned office and originating office fields are auto-populated based off the logged in user. For more information on the case details form fields, see [Investigative Case Management case details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-icm-ref-case-form.md).
 
 7.  Select **Save** once you have filled in the details of the case.
 
@@ -53,5 +53,5 @@ A case has now been created and can be worked on through the Investigative Case 
 
 ## What to do next
 
-Add supporting details to the case narrative. For information on how to do this, see [Create an investigative case narrative in Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-create-a-case-narrative.md).
+Add supporting details to the case narrative. For information on how to do this, see [Create an investigative case narrative in Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-icm-create-a-case-narrative.md).
 

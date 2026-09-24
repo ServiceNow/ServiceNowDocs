@@ -3,13 +3,13 @@ title: Configure the Portal Polaris Footer widget
 description: Configure the Portal Polaris Footer widget to display your company’s corporate office address, email address, and more on the portal page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Portal Polaris Footer widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Polaris Footer widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the Portal Polaris Footer widget
@@ -53,7 +53,7 @@ Role required: sp\_admin
     }]
     ```
 
-    For more information about the parameters, see [Portal Footer widget JSON parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-footer-widget-json.md).
+    For more information about the parameters, see [Portal Footer widget JSON parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-footer-widget-json.md).
 
 5.  Select a theme for your portal.
 
@@ -82,7 +82,7 @@ Role required: sp\_admin
 
 Configure links to appear in the Portal Footer widget:
 
--   To add pages or sections of your website in a sitemap, see [Configure sitemap links for the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget-conf-sitemap-links.md)
--   To add the social media accounts of your organization, see [Configure social media links in the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget-social-links.md)
--   To include a link to a site on a portal page, see [Add related links in the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget-conf-footer-links.md).
+-   To add pages or sections of your website in a sitemap, see [Configure sitemap links for the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget-conf-sitemap-links.md)
+-   To add the social media accounts of your organization, see [Configure social media links in the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget-social-links.md)
+-   To include a link to a site on a portal page, see [Add related links in the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget-conf-footer-links.md).
 

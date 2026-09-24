@@ -3,11 +3,11 @@ title: Create a supply chain and enhance digital resilience data
 description: Create an Information and Communication Technology \(ICT\) service supply chain record in Digital resilience third-party registers. Add details of the supply chain such as type of the ICT services, Legal Entity Identifier \(LEI\) of the entity that provides the ICT services, and so on. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-drtp-reg-supply-chain.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a supply chain and enhance digital resilience data
@@ -20,7 +20,9 @@ Role required: sn\_oper\_res.manager
 
 ## About this task
 
-Before saving an ICT service supply chain record, the system checks for duplicates. A duplicate is detected when an existing supply chain row at the same rank shares the same Identification code of the recipient. The row must also share the same Type of ICT services. If a duplicate is detected, the save is blocked and an error message identifies the conflicting record. Update either the recipient identification code, the type of ICT services, or the rank to resolve the conflict.
+Before saving an ICT service supply chain record, the system checks for duplicates. A duplicate is detected when an existing supply chain row at the same rank shares the same Identification code and Type of ICT services. If a duplicate is detected, the save is blocked and an error message identifies the conflicting record. Update either the recipient identification code, the type of ICT services, or the rank to resolve the conflict.
+
+Organize **Specific information** records on the contract by **Type of ICT services**, not by **Function identifier**. Each **Specific information** record creates one Rank 1 supply chain record with a matching type of ICT services, so multiple **Specific information** records that share the same **Type of ICT services** value generate duplicate Rank 1 supply chain records for the contract.
 
 ## Procedure
 
@@ -28,7 +30,7 @@ Before saving an ICT service supply chain record, the system checks for duplicat
 
 2.  In the **ICT service supply chains** tab on the Contract form, select **New**.
 
-    The Create ICT service supply chain form is displayed.
+    The Create New ICT service supply chain form is displayed.
 
     The example shows the ICT service supply chains tab on a contract record listing existing supply chain entries.
 
@@ -38,7 +40,7 @@ Before saving an ICT service supply chain record, the system checks for duplicat
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Create an ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-supply-chain-form.md).
+    For more information, see [Create ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-supply-chain-form.md).
 
 4.  Select **Save**.
 
@@ -61,8 +63,8 @@ Before saving an ICT service supply chain record, the system checks for duplicat
 10. To delete the supply chain record, select it from the list and select **Delete**.
 
 
--   **[Create an ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-supply-chain-form.md)**  
-On the Create an ICT service supply chain form, fill in the fields.
+-   **[Create ICT service supply chain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-supply-chain-form.md)**  
+On the Create New ICT service supply chain form, fill in the fields.
 
-**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-dg-registers.md)
 

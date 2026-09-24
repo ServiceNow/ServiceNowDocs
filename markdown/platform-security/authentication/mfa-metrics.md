@@ -3,11 +3,11 @@ title: MFA Metrics
 description: View the different MFA metrics to understand the MFA adoption and usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-metrics.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Acces
 
 View the different MFA metrics to understand the MFA adoption and usage.
 
-MFA related metrics are available in Security Center. Security Center is a free application that you can download from the ServiceNow Store. For more information about Security Center, see [Security Center landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-landing.md).
+MFA related metrics are available in Security Center. Security Center is a free application that you can download from the ServiceNow Store. For more information about Security Center, see [Security Center landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sec-center-landing.md).
 
 On Security Center, use the bar at the top of the page to navigate between the security monitoring console sections and select **Security Metrics** tab.
 
@@ -29,5 +29,5 @@ Following are the MFA metrics:
 -   Locked out MFA users: Total count of MFA users who are locked out on your instance.
 -   Local logins not protected by MFA: Users that logged in without MFA.
 
-For more information about Security Metrics, see [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
+For more information about Security Metrics, see [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
 

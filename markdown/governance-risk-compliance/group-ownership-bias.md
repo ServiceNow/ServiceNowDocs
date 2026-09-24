@@ -3,10 +3,10 @@ title: Group ownership in BIA, plan, and event records
 description: Assign a user group as the owner of business impact analysis \(BIA\), plans, and event records, instead of or alongside an individual owner. Every member of the owner group gets the same access to these records as an individual owner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/group-ownership-bias.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-14"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 keywords: [BCM, group ownership, owner group, BIA, business continuity plan, recovery event, team-based ownership]
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -15,7 +15,7 @@ breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Comp
 
 Assign a user group as the owner of business impact analysis \(BIA\), plans, and event records, instead of or alongside an individual owner. Every member of the owner group gets the same access to these records as an individual owner.
 
-A comprehensive group ownership capability now enables organizational teams to collectively own and manage critical business continuity records. This feature is implemented across the business impact analysis \(BIA\), plans, and event records.
+Group ownership enables organizational teams to collectively own and manage critical business continuity records. This feature is implemented across the business impact analysis \(BIA\), plans, and event records.
 
 ## Records enhanced
 
@@ -49,7 +49,7 @@ Business continuity records now show two related ownership fields:
 -   **Owner** – An individual user responsible for the record
 -   **Owner group** – A group of users collectively responsible for the record
 
-Either the **Owner** or the **Owner group** field is required to save the record. If you submit a record with both fields empty, an error message displays indicating the required fields.
+Either the **Owner** or the **Owner group** field is required to save the record. If you submit a record with both fields empty, an error message appears indicating the required fields.
 
 -   **Default behavior**
     -   When you open a new record form, the current user is preselected as the owner.
@@ -59,14 +59,13 @@ Either the **Owner** or the **Owner group** field is required to save the record
 
     At least one ownership field must be populated before saving:
 
-    -   If both the **Owner group** and **Owner** fields are empty, both fields highlight in red with an asterisk.
-    -   A validation error message appears displaying: `Select either a group or an individual to save the record and proceed with the workflow.`
+    -   If both the **Owner group** and **Owner** fields are empty, both fields appear in red with an asterisk.
     -   An informational banner prompts you to populate at least one ownership field.
     -   The record can only be saved when at least one ownership field is populated.
 
 ## Owner group requirements and owner filtering
 
-The **Owner group** field filters candidate groups based on role eligibility. Only groups that hold an eligible edit role are shown as selectable options. This confirms that groups shown in the owner field actually have the permissions needed to manage the record.
+The **Owner group** field filters candidate groups based on role eligibility. Only groups that hold an eligible edit role are shown as selectable options. This verifies that groups shown in the owner field actually have the permissions needed to manage the record.
 
 -   **Eligible groups and roles**
 
@@ -82,7 +81,7 @@ The **Owner group** field filters candidate groups based on role eligibility. On
     -   Event user \(sn\_recovery.event\_user\)
 -   **Intelligent filtering behavior**
 
-    The **Owner** and **Owner group** fields work together with intelligent filtering to verify the right people can be selected in the right order:
+    The **Owner** and **Owner group** fields work together with intelligent filtering to ensure the right people can be selected in the right order:
 
     -   Group selected first: The **Owner** field automatically filters to show only members of that group who hold an eligible role. This confirms the selected owner is part of the assigned team.
     -   Individual selected first: The **Owner group** field remains unfiltered. If a group is later selected and the individual is not a member of that group, the system allows the selection. An informational message displays rather than blocking the selection. This flexibility accommodates edge cases where an individual may serve as owner even if not formally part of the group.
@@ -96,7 +95,7 @@ The **Owner group** field filters candidate groups based on role eligibility. On
     If the selected owner group has no eligible members, the owner lookup returns no users.
 
 
-For the role API names, see [Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/owner-group-eligibility-roles.md).
+For the role API names, see [Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/owner-group-eligibility-roles.md).
 
 ## Manage ownership scenarios
 
@@ -104,7 +103,7 @@ The following scenarios describe common ownership management tasks applicable ac
 
 -   **Change the individual owner within a group**
 
-    When a group is assigned as the owner group, you can designate or change the individual owner to any member of that group. The individual owner updates while the group ownership remains unchanged. If the individual owner leaves the group, the group ownership persists, and another group member is set to the new individual owner.
+    When a group is assigned as the owner group, you can designate or change the individual owner to any member of that group. The individual owner updates while the group ownership remains unchanged.
 
 -   **Assign an owner outside the group**
 
@@ -120,7 +119,7 @@ The following scenarios describe common ownership management tasks applicable ac
 
 -   **Manage contributors and group membership changes**
 
-    When contributors are added to or removed from a BIA, or when group members are added or removed, the system automatically syncs changes. This maintains real-time alignment between the record and related assessments \(BIA-specific\). During contributor synchronization from the BIA to the assessment, the member assigned to the **BCM lead** field is also synced to the assessment.
+    During contributor synchronization from the BIA to the assessment, the member assigned to the **BCM lead** field is also synced to the assessment.
 
 -   **Contributor access is independent of group ownership**
 
@@ -138,7 +137,7 @@ When a BIA is created, the **BIA Owner**, **BIA Owner group**, and **BCM Lead** 
     -   The synced contributors appear in the assessment's contributor list
 -   **Auto-sync on removal**
     -   If you remove any contributor from the BIA, it automatically syncs and removes them from the assessment
-    -   This verifies the assessment reflects the current BIA contributor list
+    -   This ensures the assessment reflects the current BIA contributor list
 -   **One-way sync and assessment-level customization**
 
     Contributor synchronization flows in one direction only, from the BIA to the assessment. Contributors added directly in the assessment view aren't synced back to the BIA contributor list.
@@ -150,7 +149,7 @@ When a BIA is created, the **BIA Owner**, **BIA Owner group**, and **BCM Lead** 
 -   **BIA Owner change behavior**
 
     -   If you change the BIA owner from one user to another user and save the record, the assigned owner in the assessment gets updated
-    -   When accessing the assessment after owner change, the "assigned to" field will show the new owner \(for example, planner instead of manager\)
+    -   When accessing the assessment after owner change, the **Assigned to** field shows the new owner \(for example, planner instead of manager\)
     **Note:** If an assessment is already submitted, changing the BIA owner does not sync the change to the assessment. When you change the BIA owner after submission, a message displays indicating that the assessment is not synced because it's already submitted.
 
 
@@ -182,22 +181,22 @@ BIA records include unique synchronization with Smart Assessment templates:
 -   When a BIA owner or owner group is set, the owner automatically syncs with the associated assessment
 -   Contributors added to the BIA sync to the assessment contributor list
 -   Assessment owner defaults to the group manager or first group member if BIA owner is not explicitly selected
--   Explicit individual owners always take precedence over group-based defaults
+-   Explicit individual owners take precedence over group-based defaults
 
 ## Plan records
 
 Business Continuity Plan records provide team-based maintenance accountability:
 
--   Plans support group ownership across both UI Builder and Classic UI workspaces with identical behavior
+-   Plans support group ownership across both UI Builder and Classic UI Workspace with identical behavior
 -   Group ownership works seamlessly with existing automation and workflows built on individual assignment
 -   Plan records require backward compatibility—existing single-owner plans continue to function unchanged
--   Group ownership is optional; records do not require a group to be valid
+-   Group ownership is optional; records don't require a group to be valid
 
 ## Recovery Event records
 
 Recovery Event records coordinate team-based incident response and escalation:
 
--   Event records support group ownership to ensure all responders have equal access and accountability
+-   Event records support group ownership to verify all responders have equal access and accountability
 -   Owner group changes propagate to escalation rules and notification workflows
 -   Event manager and event planner roles are eligible for owner group assignment
 
@@ -223,7 +222,7 @@ BCM Managers can edit the owner group only while records are in Draft state. BCM
 |Workflows|Group ownership integrated into record state transitions, approvals, and escalation rules|
 |Document export|Group ownership details are covered in the PDF and Word reports|
 |Copy and clone|When you copy a plan, the new record inherits both the original owner and owner group. When you copy a BIA, the new record inherits only the original owner group. The system automatically assigns the current user as the individual owner of the copied BIA.|
-|Audit trail|Historical logging tracks ownership changes and group member role transitions|
+|Audit trail|Historical logging tracks ownership changes|
 |Smart Assessment|Assessment owners default to group manager or first group member when BIA owner is not selected|
 
 ## Workspace parity
@@ -244,13 +243,13 @@ The group ownership feature is fully backward compatible with existing Business 
 **Related topics**  
 
 
-[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bia-in-uib-ws.md)
+[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-bia-in-uib-ws.md)
 
-[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)
+[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)
 
-[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/start-exercise-event-in-uib-ws.md)
+[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/start-exercise-event-in-uib-ws.md)
 
-[Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/owner-group-eligibility-roles.md)
+[Group owner fields and role requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/owner-group-eligibility-roles.md)
 
-[BIA owner field reference and validation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-smart-assessment-owner-sync.md)
+[BIA owner field reference and validation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-smart-assessment-owner-sync.md)
 

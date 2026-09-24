@@ -1,63 +1,62 @@
 ---
-title: Import enterprise models and assets in workspace
-description: Import multiple enterprise models and assets at one go in the Enterprise Asset Workspace.
+title: Manually import enterprise models and assets in the Enterprise Asset Workspace
+description: Manually import multiple enterprise models and assets in one go in the Enterprise Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/bulk-import-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Bulk import of your enterprise models and assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
-# Import enterprise models and assets in workspace
+# Manually import enterprise models and assets in the Enterprise Asset Workspace
 
-Import multiple enterprise models and assets at one go in the Enterprise Asset Workspace.
+Manually import multiple enterprise models and assets in one go in the Enterprise Asset Workspace.
 
 ## Before you begin
 
-You can import enterprise models and assets of different types such as simple, pre-assembled, user-assembled assets, and consumables. You can also view the import errors and status.
-
-The enterprise models and asset import records are stored in Enterprise Bulk Import \[sn\_eam\_bulk\_import\] table.
-
-The Flow Designer application is used to initiate the EAM Bulk Import sub flow to assist you in importing enterprise models and assets. As the flow takes you through the various stages, the import details are automatically updated. You can open the EAM Bulk Import flow to view the status of the stages in the flow.
+Download and update the appropriate template for your import. This template, which is a spreadsheet in the .xlsx or .xls format, must contain all external enterprise model and asset data that you want to import. For detailed instructions, see [Download seeded templates for manual bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/download-seeded-template-manual-bulk-imports.md).
 
 Role required: sn\_eam.enterprise\_admin
 
+## About this task
+
+You can import enterprise models and assets of different types such as simple, pre-assembled, user-assembled assets, and consumables. You can also view the import errors and status.
+
+The enterprise models and asset import records are stored in the Enterprise Bulk Import \[sn\_eam\_bulk\_import\] table.
+
+The Flow Designer application is used to initiate the EAM Bulk Import subflow to assist you in importing enterprise models and assets. As the flow takes you through the various stages, the import details are automatically updated. You can open the EAM Bulk Import flow to view the status of the stages in the flow.
+
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Asset operations**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select any of the import actions under **Bulk Import**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  In the navigation panel of the Admin center view, select **Bulk import** &gt; **Manual import**.
+
+4.  Depending on the type of import that you want to perform, select one of the following manual import options:
+
+    -   **Create models and assets**: Manually import new enterprise models and assets.
+    -   **Create models**: Manually import new enterprise models.
+    -   **Create assets**: Manually import new enterprise assets.
+    -   **Update models and assets**: Manually import existing enterprise models and assets that have been updated.
+    -   **Update models**: Manually import existing enterprise models that have been updated.
+    -   **Update assets**: Manually import existing enterprise assets that have been updated.
+5.  On the corresponding import page, select **New**.
 
     The Create New Enterprise Bulk Import page opens.
 
-4.  Enter a unique name for the import process in the **Name** field.
+    **Note:** At any point during the bulk import process, you can view detailed import guidelines by selecting the Bulk import job instructions icon \[Omitted image "bulk-imp-instructions-icon.png"\] Alt text: on the contextual side bar of the Create New Enterprise Bulk Import page.
 
-5.  Select a mode for the import in the **Mode** field.
+6.  Enter a unique name for the import process in the **Name** field.
 
-6.  Select **Download template** to download a spreadsheet.
+7.  Select a mode for the import in the **Mode** field.
 
-    Based on the mode you select, a spreadsheet is available. Templates are available for models, for assets, and a combined template for models and assets.
-
-7.  Enter the details in all the mandatory fields in the spreadsheet.
-
-    If you don’t enter values in all the mandatory columns in the template, the import fails, and an error message appears asking you to check the template format. For details on mandatory fields, see [Mandatory fields in the bulk import spreadsheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/mandatory-bulk-fields.md).
-
-    The following optional fields in the spreadsheet only accept User ID as a value
-
-    -   **Assigned to**
-    -   **Managed by**
-    -   **Reserved for**
-    -   **Owned by**
-    -   **Supported by**
-    Additionally, a new optional field, **Location full name**, helps to ensure that assets are linked to the correct location. If you provide values for both **Location full name** and **Location** fields, and the two values do not match, an error message appears and the import for that specific asset is not processed. Similarly, if the specified location can't be found or if multiple locations are found with the same name, an error message appears and that specific asset is not processed.
-
-8.  Select **Attach File** to upload the spreadsheet \(.xlsx\).
+8.  Select **Attach File** to upload the spreadsheet \(.xlsx or .xls\) that contains your enterprise model or asset data.
 
 9.  Select **Import** to perform a validation check on the spreadsheet.
 

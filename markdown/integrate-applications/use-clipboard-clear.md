@@ -3,9 +3,9 @@ title: Use the Clear component
 description: Clear the contents of the clipboard as part of an automation Workflow using the Clear component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-clipboard-clear.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Clipboard, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Role required: none
 
 The Clear component can work with other components or methods to execute an automation Workflow.
 
-You can configure the properties for the Clear component. For more information about these properties, see [Properties of the Clipboard components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-clipboard-prop.md).
+You can configure the properties for the Clear component. For more information about these properties, see [Properties of the Clipboard components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/util-clipboard-prop.md).
 
 ## Procedure
 
@@ -40,5 +40,5 @@ You can configure the properties for the Clear component. For more information a
 4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/clipboard.md)
+**Parent Topic:**[Clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/clipboard.md)
 

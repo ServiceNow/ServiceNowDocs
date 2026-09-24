@@ -3,11 +3,11 @@ title: Collaborate on idea
 description: Learn about the actions of the collaborate on an idea form. Review the idea details and then choose which action to perform on the idea. Collaborate on an idea with other submitters and stakeholders. Add comments or reply to comments to request more information or answer questions. Vote for the ideas you would like to see developed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/collaborate-on-idea-actions.html
-release: australia
+release: brazil
 product: Innovation Management
 classification: innovation-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Innovation Management, Innovation Management reference, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -69,10 +69,10 @@ Subscribe to an idea
 Select **Subscribe**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/form-field-information-for-innovation-management.md)
+</table>**Parent Topic:**[Form field information for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/form-field-information-for-innovation-management.md)
 
 **Related topics**  
 
 
-[Collaborate on ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/collaborate-on-an-idea.md)
+[Collaborate on ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/collaborate-on-an-idea.md)
 

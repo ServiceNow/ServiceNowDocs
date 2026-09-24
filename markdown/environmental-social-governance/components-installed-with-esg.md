@@ -3,9 +3,9 @@ title: Components installed with Operational Sustainability Management \(formerl
 description: Several types of components such as roles, tables, and properties are installed with the Operational Sustainability Management application and the GRC: Metrics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/components-installed-with-esg.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -18,7 +18,7 @@ Several types of components such as roles, tables, and properties are installed 
 
 The following roles are installed with the Operational Sustainability Management application.
 
-**Note:** For the tables and roles installed with the GRC: Metrics application, see [Components installed with the GRC: Metrics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/tables-installed-with-metrics.md).
+**Note:** For the tables and roles installed with the GRC: Metrics application, see [Components installed with the GRC: Metrics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/tables-installed-with-metrics.md).
 
 <table id="table_m4l_lwl_frb"><thead><tr><th>
 
@@ -681,7 +681,7 @@ sn\_esg.metric\_approval
 Enables ESG administrators to define either the simple approval flow or the advanced approval flow for all the metrics and metric definitions. **Note:** This property is available only when the sn\_grc\_appr plugin is activated and must be set while configuring the Operational Sustainability Management application.
 
  The choices are as follows:-   **Simple**: By choosing this option, the Approval section will be enabled both on the manual metric definition form and within the metrics. Using this section, you can designate approvers directly on the metric definition form.
--   **Advanced**: When you choose this option, the Approval section will be unavailable on the manual metric definition form and the metric form. Instead, approval can be configured by setting the approval conditions, tables, and approvers in the GRC: Approver Configurator application. This application also allows you to define multiple levels of approvals. For more information see, [Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/approval-configuration.md).
+-   **Advanced**: When you choose this option, the Approval section will be unavailable on the manual metric definition form and the metric form. Instead, approval can be configured by setting the approval conditions, tables, and approvers in the GRC: Approver Configurator application. This application also allows you to define multiple levels of approvals. For more information see, .
 
 </td></tr><tr><td>
 
@@ -703,5 +703,5 @@ The following scheduled jobs are installed with the Operational Sustainability M
 |Calculate ESG license count|This Job executes daily at 11:00 PM. It calculates the license based on active data in base metric definition where domain area is ESG.|
 |Generate ESG goals activity summary|This job executes periodically for every 12 hours. This job deletes the existing goal activity summary and creates new goal activity summary for all goals classified on "environmental, social, governance".|
 
-**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/reference-data-esg.md)
+**Parent Topic:**[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/reference-data-esg.md)
 

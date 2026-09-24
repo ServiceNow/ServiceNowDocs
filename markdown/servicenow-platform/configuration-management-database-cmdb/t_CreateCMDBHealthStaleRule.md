@@ -3,11 +3,11 @@ title: Create a CMDB Health staleness rule
 description: If the staleness metric is in effect, then staleness rules are used to determine the percentage of stale CIs in the CMDB. This sum is then aggregated into the correctness KPI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CreateCMDBHealthStaleRule.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and i
 
 ## About this task
 
-The Discovery setting of certain types of CIs as stale takes precedence over a CMDB Health staleness rule defined for the CI. For more information about Discovery marking CIs as stale, see [Discovery for VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_DiscoveryForVMwareVCenter.md).
+The Discovery setting of certain types of CIs as stale takes precedence over a CMDB Health staleness rule defined for the CI. For more information about Discovery marking CIs as stale, see [Discovery for VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_DiscoveryForVMwareVCenter.md).
 
 Staleness rules are defined per class. If a rule isn't defined for a class, then the parent's rule is automatically derived by the child class and applies for the child class. If later a staleness rule is defined at the child class level, it overwrites the staleness rule that was derived from the parent class.
 
@@ -69,5 +69,5 @@ The time period that is used for the staleness test.If the CI was not updated \(
 **Related topics**  
 
 
-[CMDB Health Dashboard for Helsinki \| Overview](https://youtu.be/CvMRT3NExIo)
+[CMDB Health Dashboard overview](https://www.youtube.com/watch?v=aPHxWoVdD1c)
 

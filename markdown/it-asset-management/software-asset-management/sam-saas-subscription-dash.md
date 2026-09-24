@@ -3,11 +3,11 @@ title: Office 365 &amp; Adobe Cloud dashboard in Software Asset Management class
 description: View compliance analysis results related to Microsoft Office 365 and Adobe Cloud License Management in Software Asset Management classic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-saas-subscription-dash.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Software Asset Management publisher pack for Adobe, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,10 +16,10 @@ breadcrumb: [Software Asset Management publisher pack for Adobe, Supported softw
 
 View compliance analysis results related to Microsoft Office 365 and Adobe Cloud License Management in Software Asset Management classic.
 
-**Note:** The Office 365 &amp; Adobe Cloud dashboard is no longer available for new Australia users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Australia without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia.
+**Note:** The Office 365 &amp; Adobe Cloud dashboard is no longer available for new Brazil users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Brazil without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil.
 
--   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
--   If you activated the Software Asset Workspace \(sn\_sam\_workspace\) store application after upgrading to Australia, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
+-   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
+-   If you activated the Software Asset Workspace \(sn\_sam\_workspace\) store application after upgrading to Brazil, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
 
 Access the dashboard by navigating to **All** &gt; **Software Asset** &gt; **Office 365 &amp; Adobe Cloud**.
 
@@ -33,9 +33,9 @@ The dashboard is updated whenever a new reconciliation result is available. You 
 
 You can manage Adobe subscription information with Adobe I/O authentication integration.
 
-**Note:** The add-on Adobe publisher pack \(com.sn\_samp\_adobe\) [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) must be installed to view Adobe subscription reporting.
+**Note:** The add-on Adobe publisher pack \(com.sn\_samp\_adobe\) [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) must be installed to view Adobe subscription reporting.
 
-Only Adobe software products that are recognized as subscription software are shown. [Adobe integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/adobe-cloud-integration.md) must be set up to view compliance information.
+Only Adobe software products that are recognized as subscription software are shown. [Adobe integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/adobe-cloud-integration.md) must be set up to view compliance information.
 
 -   List of Active Subscriptions with no Active Adobe Software installs
 
@@ -50,5 +50,5 @@ Only Adobe software products that are recognized as subscription software are sh
     User Name \| Email ID \| Subscription Name \| Subscription Cost \| List of devices assigned to users \| List of Adobe suite of products \| Last Access Time
 
 
-**Parent Topic:**[Software Asset Management publisher pack for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/adobe-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/adobe-publisher-pack.md)
 

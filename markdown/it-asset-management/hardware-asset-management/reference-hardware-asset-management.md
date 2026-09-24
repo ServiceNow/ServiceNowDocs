@@ -3,11 +3,11 @@ title: Hardware Asset Management reference
 description: Reference topics provide additional information about the lists and forms that you use to configure and administer Hardware Asset Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/reference-hardware-asset-management.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,54 +16,58 @@ breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 
 Reference topics provide additional information about the lists and forms that you use to configure and administer Hardware Asset Management.
 
--   **[Domain separation and Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/domain-separation-ham.md)**  
+-   **[Domain separation and Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/domain-separation-ham.md)**  
 Domain separation is supported in Hardware Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Quick start tests for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/quick-start-tests-ham.md)**  
+-   **[Quick start tests for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/quick-start-tests-ham.md)**  
 Validate that Hardware Asset Management \(HAM\) still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
--   **[Hardware Asset Workspace roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-workspace-roles.md)**  
+-   **[Hardware Asset Workspace roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-workspace-roles.md)**  
 Details of the out-of-the-box roles that can access Hardware Asset Workspace.
--   **[Stockroom types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/r_StockroomTypes.md)**  
+-   **[Supported asset tasks on Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/mobile-app-task-types.md)**  
+The ServiceNow Now Mobile app supports a limited set of Hardware Asset Management task types in the **My Group tasks** view.
+-   **[Stockroom types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/r_StockroomTypes.md)**  
 Stockroom types are categories of stockrooms.
--   **[Installed with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/installed-with-ham.md)**  
+-   **[Installed with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/installed-with-ham.md)**  
 Several types of components are installed with activation of the sn\_hamp plugin, including tables, user roles, and scheduled jobs.
--   **[Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-record-fields.md)**  
+-   **[Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-record-fields.md)**  
 Fields on the Hardware Asset Details form help you create hardware, software, consumable, bundle, pallet, mobile, and facility assets.
--   **[Consumable model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/consumable-model-fields.md)**  
+-   **[Consumable model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/consumable-model-fields.md)**  
 Consumable Models form and related list field descriptions.
--   **[Asset audit fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-audit-record-fields.md)**  
+-   **[Asset audit fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-audit-record-fields.md)**  
 Create New Asset Audits form and related fields description.
--   **[Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-results.md)**  
+-   **[Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/audit-results.md)**  
 The Audit results shows the status of the assets when the scheduled or blind audits of asset stockrooms and other locations is complete.
--   **[Hardware model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-model-fields.md)**  
+-   **[Hardware model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/hardware-model-fields.md)**  
 Find the hardware model details and related list field descriptions.
--   **[Model lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/model-lifecycle-fields.md)**  
+-   **[Model lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/model-lifecycle-fields.md)**  
 Fields on the hardware or consumable model lifecycle form and their descriptions.
--   **[Hardware disposal order stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-disposal-stages.md)**  
+-   **[Hardware disposal order stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/hardware-disposal-stages.md)**  
 A hardware disposal order goes through various stages in the disposal process before it’s completed. With each stage, the task that's associated with that stage changes too.
--   **[Components installed with Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/components-installed-hardware-normalization.md)**  
+-   **[Components installed with Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/components-installed-hardware-normalization.md)**  
 Several types of components are installed with activation of the Hardware Model Normalization plugin, including tables.
--   **[HAM Success Goal Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-suc-goal.md)**  
+-   **[HAM Success Goal Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-suc-goal.md)**  
 Fields on the HAM Success Goal Details form help you create success goals for tracking the success of the Hardware Asset Management application in your instance.
--   **[HAM Success Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/success-act-fields.md)**  
+-   **[HAM Success Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/success-act-fields.md)**  
 Fields on the HAM Success Activity form help you create success activities to track the success of your created goals.
--   **[Maturity item details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/maturity-item-details.md)**  
+-   **[Maturity item details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/maturity-item-details.md)**  
 Fields on the Maturity item details form help you view and update the state and success goal of the maturity item.
--   **[Maturity stages of your Hardware Asset Management program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/maturity-stages-ham.md)**  
+-   **[Maturity stages of your Hardware Asset Management program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/maturity-stages-ham.md)**  
 The maturity of your Hardware Asset Management \(HAM\) program is divided into three stages such as Crawl, Walk, and Run.
--   **[Task closures that create shipment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/shipment-record-sources.md)**  
+-   **[Task closures that create shipment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/shipment-record-sources.md)**  
 A shipment record is created automatically when any shipment task is closed. You can track a shipment easily by specifying a tracking number and shipping carrier on the shipment task.
--   **[Remote task definition inbound and outbound fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/inbound-outbound-fields-for-rtd.md)**  
+-   **[Remote task definition inbound and outbound fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/inbound-outbound-fields-for-rtd.md)**  
 The inbound and outbound fields of the remote task definition required for the Zero Touch Refresh flow.
--   **[Decision tables for Hardware Asset Management flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-decision-table.md)**  
+-   **[Decision tables for Hardware Asset Management flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-decision-table.md)**  
 These readily available decision tables help you customize the flows in some of the Hardware Asset Management features.
--   **[Service Catalog variable form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/service-catalog-var-form-fields.md)**  
+-   **[Service Catalog variable form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/service-catalog-var-form-fields.md)**  
 Fields on the variable help you to define variables for a catalog item.
--   **[Asset put away task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/put-away-task-form.md)**  
+-   **[Asset put away task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/put-away-task-form.md)**  
 Fields on the Asset put away task form help you create a put away task for the in stock assets.
--   **[Read-only and client script modifiable fields in HAM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/read-only-fields-ham.md)**  
+-   **[Read-only and client script modifiable fields in HAM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/read-only-fields-ham.md)**  
 Comprehensive reference of HAM table fields that are restricted from UI editing and those which can be modified using client scripts.
--   **[Hardware Asset Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-system-properties.md)**  
+-   **[Hardware Asset Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-system-properties.md)**  
 System properties control asset lifecycle, procurement, inventory, reporting, and system configuration for the Hardware Asset Management application. You can view and update these properties from the Properties setup item in the Configuration Console.
--   **[Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/config-console-modules-ham.md)**  
+-   **[Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/config-console-modules-ham.md)**  
 Module-by-module listing of the setup items in the Configuration Console for HAM, with descriptions of what each item configures.
+
+**Parent Topic:**[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-landing-page.md)
 

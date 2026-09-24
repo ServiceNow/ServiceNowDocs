@@ -3,9 +3,9 @@ title: Mobile Publishing resources
 description: Here are some additional resources to help you plan and publish branded mobile applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-publishing-resources.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -42,5 +42,5 @@ The following Support knowledge articles \(KBs\) are hosted on the ServiceNow® 
 -   [Adding your iOS Mobile Publishing branded application to Blackberry \(KB0821154\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0821154)
 -   [How to add an Android White label \(Mobile Publishing\) build to your Blackberry portal \(KB0813295\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=kb0813295)
 
-**Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-publishing.md)
+**Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-publishing.md)
 

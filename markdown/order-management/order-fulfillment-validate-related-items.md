@@ -3,9 +3,9 @@ title: Validate the related items of a customer order for its compatibility
 description: Validate the related order line items of your customer order, which includes the horizontal specification relationships, to make sure that the order-related information is correctly generated to fulfill your customer order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-fulfillment-validate-related-items.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Approving orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -38,7 +38,7 @@ Validations occur at two levels:
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -48,7 +48,7 @@ Validations occur at two levels:
 
 5.  To validate the related items of the customer order, select the more actions icon \[Omitted image "more-options.png"\] Alt text: and select **Validate Related Items**.
 
-<table id="choicetable_xbn_3v1_c5b"><tbody><tr><td id="d73348e160">
+<table id="choicetable_xbn_3v1_c5b"><tbody><tr><td id="d74473e161">
 
 **If the validation is successful**
 
@@ -58,7 +58,7 @@ The ServiceNow AI Platform displays the following message:Provided related inven
 
 This message confirms that the order information doesn't require any additional input and you can proceed to the next steps of the order fulfillment.
 
-</td></tr><tr><td id="d73348e175">
+</td></tr><tr><td id="d74473e176">
 
 **If the validation is unsuccessful**
 
@@ -72,14 +72,14 @@ The ServiceNow AI Platform displays a message that confirms whether the order in
 
 ## What to do next
 
-[Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-om-approve-product-order.md)
+[Approve orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-om-approve-product-order.md)
 
 **Note:** Upon approving for the change and disconnect type of order requests with horizontal relationships, the ServiceNow system analyzes its impact on the product inventory relationships and displays a message if it invalidates the existing relationships due to the impact of the requested change by the customer.
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

@@ -3,11 +3,11 @@ title: Add an authentication policy to an authentication policy context
 description: Add an authentication policy to one of the authentication policy contexts. The authentication context uses the policy inputs and conditions to determine whether uses are granted access to the instance, or whether MFA is enforced for your users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/add-policy-to-context.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication policies, Adaptive authentication, Authentication, Access Management]
 ---
@@ -44,7 +44,7 @@ Role required: adaptive\_auth\_admin
 
     The value in this field determines how the context uses the outcome of your policy's conditions.
 
-    The available options in this field depend on the selected context. For details on these contexts, see [Authentication policy contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/auth-policy-contexts.md).
+    The available options in this field depend on the selected context. For details on these contexts, see [Authentication policy contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/auth-policy-contexts.md).
 
 3.  Assign a policy to the context.
 

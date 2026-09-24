@@ -3,11 +3,11 @@ title: Add the Threat Hunting Playbook to a Case
 description: If a Case does not meet the auto-trigger conditions for the Threat Hunting playbook, you can attach the playbook to the Case manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-add-playbook-manually.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [tisc, threat hunting, playbook, manual add]
 breadcrumb: [Threat Hunting Playbook, Using playbooks, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
@@ -48,12 +48,12 @@ Use this procedure when the Threat Hunting playbook doesn't auto-trigger but you
 
 ## Result
 
-The Threat Hunt Playbook is attached to the Case and initiates the **Intake** stage. For details on each stage, see [Use the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-use-threat-hunt-playbook.md).
+The Threat Hunt Playbook is attached to the Case and initiates the **Intake** stage. For details on each stage, see [Use the Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-use-threat-hunt-playbook.md).
 
-**Parent Topic:**[Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.md)
+**Parent Topic:**[Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.md)
 
 **Related topics**  
 
 
-[Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.md)
+[Threat Hunting Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-threat-hunt-playbook.md)
 

@@ -3,11 +3,11 @@ title: Create a terms and conditions record
 description: You can create a terms and conditions record to add to a contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_CreateATermsAndConditionsRecord.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Terms and conditions, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
@@ -42,7 +42,7 @@ Role required: admin, contract\_manager\(core UI and Hardware Asset Workspace on
 4.  Click **Submit** \(core UI\) or **Save** \(Hardware Asset Workspaceand Enterprise Asset Workspace\).
 
 
-**Parent Topic:**[Terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_TermsAndConditions.md)
+**Parent Topic:**[Terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/c_TermsAndConditions.md)
 
 **Related topics**  
 

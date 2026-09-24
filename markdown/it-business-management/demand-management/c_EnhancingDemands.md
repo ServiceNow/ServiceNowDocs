@@ -3,11 +3,11 @@ title: Add details to demands
 description: The demand manager typically works with a business relationship manager to identify stakeholders and elicit requirements, risks, and other important information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/c\_EnhancingDemands.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Demand managers analyze business demands, approve demands, and create projects a
 
 The resources assigned to the demand tasks then post time spent while working on a demand or demand task using a time card. The time card data is used to calculate actual effort and cost incurred on the demand task as well as demand.
 
-To [create demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-task.md), scroll to the **Demand Tasks** related list on the Demand form and select **New** to create a record.
+To [create demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/create-demand-task.md), scroll to the **Demand Tasks** related list on the Demand form and select **New** to create a record.
 
 ## Add stakeholders
 
@@ -45,21 +45,21 @@ Demand managers use the Requirement form to describe the requirement and assign 
 To add a requirement to a demand, follow these steps:
 
 1.  Open a Demand form and select **New** from the Requirements related list.
-2.  On the Requirement form, fill in the fields. For a description of the field names, see [Requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/requirement-form.md).
+2.  On the Requirement form, fill in the fields. For a description of the field names, see [Requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/requirement-form.md).
 
 ## Add resource assignments
 
 Resource assignments are another source of information that decision makers can use when evaluating demands. You can create resource assignments for a demand from the **Resource assignments** related list, which appears only if the Resource Management Workspace application is activated.
 
-To [add a resource assignment to the demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-manage-resource-plans-demand.md), scroll to the Resource assignments related list on the Demand form and select **New** to create a record.
+To [add a resource assignment to the demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/create-manage-resource-plans-demand.md), scroll to the Resource assignments related list on the Demand form and select **New** to create a record.
 
 ## Add and recalculate strategy and goal allocations
 
-The Strategy Allocations related list displays the percentage of the demand's total cost and benefits allocated toward the achievement of the associated strategies. The Goal Allocations related list displays the percentage of demand's total cost and benefits allocated toward achievement of goals associated with the demand. For more information, see [Allocate strategy and goal percentage for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/associate-goal-strategy-dmd.md).
+The Strategy Allocations related list displays the percentage of the demand's total cost and benefits allocated toward the achievement of the associated strategies. The Goal Allocations related list displays the percentage of demand's total cost and benefits allocated toward achievement of goals associated with the demand. For more information, see [Allocate or modify the strategy and goal percentage for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/associate-goal-strategy-dmd.md).
 
-Recalculate and update cost field values in the Strategy and Goal Allocation tabs. Use the Recalculate Strategy and Goal Allocation related link to update the demand's total cost and benefits when strategy and goal allocations for the demand are changed. For more information, see [Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md).
+Recalculate and update cost field values in the Strategy and Goal Allocation tabs. Use the Recalculate Strategy and Goal Allocation related link to update the demand's total cost and benefits when strategy and goal allocations for the demand are changed. For more information, see [Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md).
 
-**Note:** These related lists and related links appears only when [Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md) is installed. This application is available on ServiceNow Store. You must switch to the **Strategic Alignment** view to see them. If these lists and links aren’t available on the form view that you’re using, ask your administrator to configure the demand form to add them. For more information, see [Install Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/install-strategic-spend.md).
+**Note:** These related lists and related links appears only when [Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md) is installed. This application is available on ServiceNow Store. You must switch to the **Strategic Alignment** view to see them. If these lists and links aren’t available on the form view that you’re using, ask your administrator to configure the demand form to add them. For more information, see [Install Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/install-strategic-spend.md).
 
 ## Add goal/target relationships
 
@@ -69,9 +69,9 @@ The Goal/Target Relationships related list displays the relationship between a g
 
 If your demand represents a significant, multi-year investment and you must distribute funding across related work, you can allocate funds from your demand. By allocating funds, you can directly support one or more projects, epics, or programs linked to the approved demand.
 
-This link appears only if you have the [Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/activate-investment-funding.md) plugin activated, an existing corresponding investment record for this demand, and the investment\_user role.
+This link appears only if you have the [Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/activate-investment-funding.md) plugin activated, an existing corresponding investment record for this demand, and the investment\_user role.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Delete an application from the application repository
 description: Delete an application from the application repository so that it's no longer available to your company instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/delete-custom-app.html
-release: australia
+release: brazil
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -18,7 +18,7 @@ Delete an application from the application repository so that it's no longer ava
 
 ## Before you begin
 
--   [Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)
+-   [Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)
 -   You can delete an application only if the application is not installed on any of your company instances. Uninstall the application on all your instances before deleting it from the application repository.
 
 Role required: Primary customer admin of the account

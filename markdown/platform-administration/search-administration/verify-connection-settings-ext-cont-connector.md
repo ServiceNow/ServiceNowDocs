@@ -3,13 +3,13 @@ title: Verify your connection settings and source system permissions for an exte
 description: Check that connection settings and source system permissions are correctly specified for your external content connector. Perform this task to verify whether permission changes or revocations affect the connector's ongoing or scheduled crawls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/verify-connection-settings-ext-cont-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -42,7 +42,7 @@ Permission changes and revocations that occur after the connector is created can
 
 The external content connector runs a one-time test crawl. This crawl checks whether the connector's current connection settings and source system permissions enable it to refresh a small portion of its source system's searchable content and metadata.
 
-The test crawl appears in the connector's crawl history with name **Test crawl** so you can monitor its status. For details on monitoring crawl history, see [Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/review-crawl-ext-cont-connector.md).
+The test crawl appears in the connector's crawl history with name **Test crawl** so you can monitor its status. For details on monitoring crawl history, see [Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-crawl-ext-cont-connector.md).
 
 When the test crawl finishes its run, an alert message indicates whether it completed successfully or encountered errors. If it completed successfully, its connection settings and source system permissions are valid.
 
@@ -50,5 +50,5 @@ When the test crawl finishes its run, an alert message indicates whether it comp
 
 If the test crawl encountered errors, review its crawl history entries to see whether it experienced connection issues or source system permissions issues. If it did, ask your source system administrator to verify your connection settings and to confirm that the permissions required by the connector are properly set.
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 

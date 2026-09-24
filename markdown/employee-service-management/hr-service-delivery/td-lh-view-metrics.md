@@ -3,11 +3,11 @@ title: View north-star and drill-down metrics
 description: View the north-star and drill-down metrics that appear in the Growth engagement widget. Use this data to gauge the level of employee engagement with the growth tools provided in the Talent Development suite of applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/td-lh-view-metrics.html
-release: australia
+release: brazil
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
@@ -37,5 +37,5 @@ Role required: organizational leader \[sn\_egd\_lh.leader\]
     **Tip:** The drill-down metrics are graphs that display further details about the corresponding north-star metric. The drill-down metrics appear underneath the north-star metrics.
 
 
-**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-using.md)
+**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/td-lh-using.md)
 

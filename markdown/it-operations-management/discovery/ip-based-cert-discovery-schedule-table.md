@@ -1,18 +1,18 @@
 ---
-title: IP-Based Discovery Schedule Form Table
+title: IP-Based Discovery Schedule form and fields table
 description: A table of the fields and values to set up an IP-based Certificate Discovery schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# IP-Based Discovery Schedule Form Table
+# IP-Based Discovery Schedule form and fields table
 
 A table of the fields and values to set up an IP-based Certificate Discovery schedule.
 
@@ -54,7 +54,7 @@ MID Server
 
 </td><td>
 
-Select a MID Server. **Warning:** Warning: Make sure that your IP address is accessible to the MID Server you’re using. If it doesn’t, you have to [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
+Select a MID Server. **Warning:** Warning: Make sure that your IP address is accessible to the MID Server you’re using. If it doesn’t, you have to [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md).
 
 </td></tr><tr><td>
 
@@ -105,5 +105,5 @@ Credential alias
 Optional value
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

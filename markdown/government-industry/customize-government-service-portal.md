@@ -3,7 +3,7 @@ title: Customize the Government Service Portal
 description: Modify the Government Service Portal to meet your needs, for example to set the portal branding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/customize-government-service-portal.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -16,7 +16,7 @@ Modify the Government Service Portal to meet your needs, for example to set the 
 
 ## Before you begin
 
-You can customize the Government Service Portal by following this procedure or by using [guided setup for Public Sector Digital Services Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-psds-foundation-data.md).
+You can customize the Government Service Portal by following this procedure or by using [guided setup for Public Sector Digital Services Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/configure-psds-foundation-data.md).
 
 Role required: admin
 
@@ -26,9 +26,9 @@ Role required: admin
 
     Some of the components that you can customize include:
 
-    -   **Branding**: [Configure the portal branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_BrandingEditor.md) to give your Government Service Portal its own look and feel. For example, you can give your portal a name and add your logo.
-    -   **Menus**: [Configure the portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-header-menu.md) to set up the main menu, one of the main navigation controls for your users.
-    -   **Homepage**: [Assign a homepage to the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/assign-portal-homepage.md).
-    -   **Widgets**: [Use Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md) to define the content in your portal.
-    -   **Roles**: [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-page-security.md) to either set up pages to be public \(no login required\) or to filter them by user role.
+    -   **Branding**: [Configure the portal branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_BrandingEditor.md) to give your Government Service Portal its own look and feel. For example, you can give your portal a name and add your logo.
+    -   **Menus**: [Configure the portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-header-menu.md) to set up the main menu, one of the main navigation controls for your users.
+    -   **Homepage**: [Assign a homepage to the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/assign-portal-homepage.md).
+    -   **Widgets**: [Use Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal-widgets.md) to define the content in your portal.
+    -   **Roles**: [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-page-security.md) to either set up pages to be public \(no login required\) or to filter them by user role.
 

@@ -3,9 +3,9 @@ title: Use AI Search in product catalogs
 description: As an agent or customer, use AI Search queries in the product catalog to find relevant product offerings or service specifications. For example, you can search by product offering characteristics or other attributes, when adding products in Sales Customer Relationship Management transactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use-ai-search-catalog.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Product catalogs, Lead-to-cash foundation apps, Use, Sales Customer Relationship Management]
 ---
@@ -90,10 +90,10 @@ Use wildcard operators to find records that contain indexed terms matching a wil
     -   If the search results returned a product that you are adding, select the product offering so that it can be added as a line item to the transaction. If the product that you select is customizable, the configurator opens so that you can configure the offering.
     -   If you're continuing with another query, select **Clear** to remove the current search and sort option, then enter a new query in the search bar. The sort option is reset to Relevancy, which is the default value.
 
-**Parent Topic:**[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+**Parent Topic:**[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
 **Related topics**  
 
 
-[AI Search query language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/query-language-ais.md)
+[AI Search query language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/query-language-ais.md)
 

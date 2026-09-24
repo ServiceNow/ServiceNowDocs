@@ -3,11 +3,11 @@ title: Set the time zone for availability results in Service Portfolio Managemen
 description: By default, the time zone to calculate availability for services and commitments is set to the global \(system\) time zone. You can change the global time zone or you can set the time zone for service commitments. With either option, you can recalculate the availability results based on the time zone that you set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-set-timezone.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -85,10 +85,10 @@ To set the time zone, the availability system property \[com.snc.availability.v2
 6.  Select **Save**.
 
 
-**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
+**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
 
 **Related topics**  
 
 
-[View availability results in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-view-availability-results.md)
+[View availability results in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-view-availability-results.md)
 

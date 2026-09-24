@@ -3,11 +3,11 @@ title: Quick start test for Certificate Inventory and Management
 description: Quick start test for certificate discovery for GoDaddy, Entrust, Digicert, Setigo.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/quick-start-tests-certificate-inventory-and-management.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -20,12 +20,12 @@ Quick start test for certificate discovery for GoDaddy, Entrust, Digicert, Setig
 |----|-----------|
 |Certificate Discovery|Certificate discovery for GoDaddy, Entrust, Digicert, and Setigo. Discovery brings the certificates and persist them in cmdb\_ci\_certificate table. This test validates the certificates and CIs in the cmdb\_ci\_certificate tables.|
 
-To learn more about Certificate Inventory and Management, see [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt.md).
+To learn more about Certificate Inventory and Management, see [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-inventory-mgmt.md).
 
-**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

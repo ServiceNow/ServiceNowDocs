@@ -3,11 +3,11 @@ title: Create an SSO group software model mapping
 description: Create a mapping for an SSO group with a software model to manage your licenses on group level rather than on application level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-ssogrp-swmodel-mapping.html
-release: australia
+release: brazil
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing your SaaS and SSO subscriptions, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -41,12 +41,12 @@ You must map an SSO group with a specific software model before connecting the S
 6.  Select **Save**.
 
 
-**Parent Topic:**[Viewing your SaaS and SSO subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/usage-summary-saas.md)
+**Parent Topic:**[Viewing your SaaS and SSO subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/usage-summary-saas.md)
 
 **Related topics**  
 
 
-[Connect SSO apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-azure-ad.md)
+[Connect SSO apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrate-with-azure-ad.md)
 
-[Viewing SSO subscription information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sso-subscriptions.md)
+[Viewing SSO subscription information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/sso-subscriptions.md)
 

@@ -3,13 +3,13 @@ title: Skill inputs and triggers for ServiceNow Otto for Software Asset Manageme
 description: Get a quick overview of the skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 14
-breadcrumb: [Configure ServiceNow Otto for SAM, Configure, Software Asset Management, IT Asset Management, Asset Management]
+reading_time_minutes: 10
+breadcrumb: [Configuring ServiceNow Otto for Software Asset Management \(SAM\), Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)
@@ -20,13 +20,13 @@ Depending on the selected skill, you can configure the inputs or triggers. These
 
 ## Publisher compliance summarization skill
 
-For the publisher compliance summarization skill, select the triggers that determine when a publisher compliance summary is generated. You can also select the properties that control how a publisher compliance summary is displayed. To display the publisher compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring ServiceNow Otto for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-now-assist-sam.md).
+For the publisher compliance summarization skill, select the triggers that determine when a publisher compliance summary is generated. You can also select the properties that control how a publisher compliance summary is displayed. To display the publisher compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when a publisher compliance summary is generated and how a publisher compliance summary is displayed.
 
 |Trigger|Description|
 |-------|-----------|
-|User triggered|Publisher compliance summary that is generated when the agent manually triggers the skill by selecting **Summarize** in the Publisher details page.|
+|User-triggered|Publisher compliance summary that is generated when the agent manually triggers the skill by selecting **Summarize** in the Publisher details page.|
 
 The following table lists the inputs for the publisher compliance summarization skill.
 
@@ -36,17 +36,15 @@ The following table lists the inputs for the publisher compliance summarization 
 |Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\]|Product life-cycle details for all the software products that are installed in your environment.|
 |Dashboards|Dashboards include Discovered inventory, Normalization and content, and Health check.|
 
-The Publisher compliance summarization skill is available by default in the Australia release. No additional plugin or store app activation is required.
-
 ## Product compliance summarization skill
 
-For the product compliance summarization skill, select the triggers that determine when a product compliance summary is generated. You can also select the properties that control how a product compliance summary is displayed. To display the product compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring ServiceNow Otto for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-now-assist-sam.md).
+For the product compliance summarization skill, select the triggers that determine when a product compliance summary is generated. You can also select the properties that control how a product compliance summary is displayed. To display the product compliance summary, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when a product compliance summary is generated and how a product compliance summary is displayed.
 
 |Trigger|Description|
 |-------|-----------|
-|User triggered|Product compliance summary is generated when the agent manually triggers the skill by selecting **Summarize** in the Publisher details page.|
+|User-triggered|Product compliance summary is generated when the agent manually triggers the skill by selecting **Summarize** in the Publisher details page.|
 
 The following table lists the inputs for the product compliance summarization skill.
 
@@ -118,11 +116,9 @@ Software Installation table \[cmdb\_sam\_sw\_install\]
 Contains information on all software installed in your environment.
 
 </td></tr></tbody>
-</table>The Product compliance summarization skill is available by default in the Australia release. No additional plugin or store app activation is required.
+</table>## Recommended actions skill
 
-## Recommended actions skill
-
-For the recommended actions skill, select the triggers that determine when a list of recommended actions is generated. You can also select the properties that control how recommended actions is displayed. To display recommended actions, you need to select the **Display** toggle button on the Choose where to display page while configuring ServiceNow Otto for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-now-assist-sam.md).
+For the recommended actions skill, select the triggers that determine when a list of recommended actions is generated. You can also select the properties that control how recommended actions is displayed. To display recommended actions, you need to select the **Display** toggle button on the Choose where to display page while configuring Now Assist for SAM. For details on the **Display** toggle button, see [Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/configure-now-assist-sam.md).
 
 The following table lists the triggers that determine when recommended actions are generated and how the list of recommended actions is displayed.
 
@@ -136,7 +132,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-User triggered
+User-triggered
 
 </td><td>
 
@@ -296,9 +292,7 @@ SAP System Users \[samp\_sap\_system\_user\]
  Removal Candidates \[samp\_sw\_reclamation\_candidate\]
 
 </td></tr></tbody>
-</table>The Recommended actions skill is available by default in the Australia release. No additional plugin or store app activation is required.
-
-## SaaS user resolution skill
+</table>## SaaS user resolution skill
 
 The following table lists the trigger for the SaaS user resolution skill.
 
@@ -312,7 +306,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Auto triggered
+Auto-triggered
 
 </td><td>
 
@@ -325,36 +319,7 @@ User resolution rules are automatically generated upon the activation of the Saa
 |-----|-----------|
 |List of fields with the **String** and **Email** type.|User \[sys\_user\]|
 
-The following table lists the plugin and store app dependencies for the SaaS user resolution skill in the Australia release.
-
-<table id="table_saas_user_res_plugins"><thead><tr><th>
-
-Release
-
-</th><th>
-
-Plugin
-
-</th><th>
-
-Store App with Version
-
-</th></tr></thead><tbody><tr><td>
-
-Australia
-
-</td><td>
-
-Software Asset Management Professional \[com.snc.samp\]
-
-</td><td>
-
--   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 6.1.1
--   Software asset workspace \[sn\_sam\_workspace\] - 11.0.0
--   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 17.0.5
-
-</td></tr></tbody>
-</table>## Contract entitlement data extraction skill
+## Contract entitlement data extraction skill
 
 <table id="table_r52_v2r_2hc"><thead><tr><th>
 
@@ -366,7 +331,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-User triggered
+User-triggered
 
 </td><td>
 
@@ -379,37 +344,9 @@ An entitlement is automatically generated from a contract when the user manually
 |-----|-----------|
 |The contract document|The contract document that the user uploads that is used for extracting the entitlement information.|
 
-The following table lists the plugin and store app dependencies for the Contract entitlement data extraction skill in the Australia release.
+## Error log summarization skill
 
-<table id="table_contract_ent_plugins"><thead><tr><th>
-
-Release
-
-</th><th>
-
-Plugin
-
-</th><th>
-
-Store App with Version
-
-</th></tr></thead><tbody><tr><td>
-
-Australia Patch 1
-
-</td><td>
-
-Software Asset Management Professional \[com.snc.samp\]
-
-</td><td>
-
--   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 7.0.0
--   Software asset workspace \[sn\_sam\_workspace\] - 11.0.3
-
-</td></tr></tbody>
-</table>## Error log summarization skill
-
-The Error log summarization skill transforms raw and cluttered application logs into clean, structured error summaries through systematic analysis. The skill identifies error patterns and classifies failure types such as API, code, infrastructure, database, and configuration. It traces root causes through stack traces and extracts key technical details while filtering out irrelevant log information. This skill also processes complex log traces that contain multiple errors, timeouts, exceptions, and system failures. It provides concise, actionable error summaries that enable faster debugging and issue resolution. The skill handles various log formats and error patterns across different technology stacks, making it essential while dealing with production incidents.
+The Error log summarization skill transforms raw and cluttered application logs into clean, structured error summaries through systematic analysis. The skill identifies error patterns and classifies failure types such as API, code, infrastructure, database, and configuration. It traces root causes through stack traces and extracts key technical details while filtering out irrelevant log information. This skill also processes complex log traces that contain multiple errors, timeouts, exceptions, and system failures to provide concise, actionable error summaries that enable faster debugging and issue resolution. It handles various log formats and error patterns across different technology stacks, making it essential while dealing with production incidents.
 
 The following table lists the trigger for the Error log summarization skill.
 
@@ -423,7 +360,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-User triggered
+User-triggered
 
 </td><td>
 
@@ -440,36 +377,7 @@ Error log summary is generated when the user manually triggers the skill by sele
 |Integration Profile \[samp\_sw\_subscription\_profile\]|Profile metadata and custom properties such as action name, scope, validate timestamps, and troubleshooting parameters that scope the log queries.|
 |Step-Level Execution Reports|Per-step inputs, outputs, and error details that are fetched through FlowExecutionSummaryUtil for the errored context.|
 
-The following table lists the plugin and store app dependencies for the Error log summarization skill in the Australia release.
-
-<table id="table_err_log_sum_plugins"><thead><tr><th>
-
-Release
-
-</th><th>
-
-Plugin
-
-</th><th>
-
-Store App with Version
-
-</th></tr></thead><tbody><tr><td>
-
-Australia Patch 1
-
-</td><td>
-
-Software Asset Management Professional \[com.snc.samp\]
-
-</td><td>
-
--   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 17.2.0
--   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 7.0.0
--   Software asset workspace \[sn\_sam\_workspace\] - 11.0.4
-
-</td></tr></tbody>
-</table>## Error resolution recommendation skill
+## Error resolution recommendation skill
 
 The Error resolution recommendation skill synthesizes the error summary that is produced by the Error log summarization skill with available knowledge resources to generate prioritized, step-by-step resolution guidance. The skill correlates identified errors with knowledge base articles, historical solutions, support cases, and web search results to recommend the most effective troubleshooting approach. The skill consolidates information from multiple sources, removes redundant steps, and sequences actions from quick fixes to comprehensive solutions based on failure type, system impact, and resolution probability.
 
@@ -485,7 +393,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Auto triggered
+Auto-triggered
 
 </td><td>
 
@@ -499,168 +407,25 @@ Resolution recommendations are automatically generated after the Error log summa
 |Error summary|Consolidated error signature such as status codes, messages, failing action, and profile context that is produced by the Error log summarization skill.|
 |Web search results|External guidance, vendor documentation, and API deprecation or known-issue references that are matched to the error signature.|
 
-The following table lists the plugin and store app dependencies for the Error resolution recommendation skill in the Australia release.
-
-<table id="table_err_res_rec_plugins"><thead><tr><th>
-
-Release
-
-</th><th>
-
-Plugin
-
-</th><th>
-
-Store App with Version
-
-</th></tr></thead><tbody><tr><td>
-
-Australia Patch 1
-
-</td><td>
-
-Software Asset Management Professional \[com.snc.samp\]
-
-</td><td>
-
--   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 17.2.0
--   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 7.0.0
--   Software asset workspace \[sn\_sam\_workspace\] - 11.0.4
-
-</td></tr></tbody>
-</table>## Software normalization skill
-
-The Software normalization skill helps you identify standardized publisher and product value from your discovered software data. This skill uses large language model \(LLM\)-driven knowledge to standardize raw, incomplete, or unrecognized publisher and product values submitted during entitlement import.
-
-The following table lists the trigger for the Software normalization skill.
-
-<table id="table_bs5_xgm_njc"><thead><tr><th>
-
-Trigger
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Standard Excel import**Note:** Triggers only when the source entitlement import Excel file contains an unresolved error for a Publisher or Product value and the standard content match process has failed to resolve it.
-
-</td><td>
-
-The Product and Publisher data in the source Excel file don't match the Content Library data.
-
-</td></tr></tbody>
-</table>The following table lists the inputs for the Software normalization skill.
-
-|Input|Description|
-|-----|-----------|
-|Raw Publisher and Product value from source Excel file|Publisher and Product value given in standard Excel that are unresolved through standard Content Library match.|
-
-The following table lists the plugin and store app dependencies for the Software normalization skill in the Australia release.
-
-<table id="table_sw_norm_plugins"><thead><tr><th>
-
-Release
-
-</th><th>
-
-Plugin
-
-</th><th>
-
-Store App with Version
-
-</th></tr></thead><tbody><tr><td>
-
-Australia Patch 3
-
-</td><td>
-
-Software Asset Management Professional \[com.snc.samp\]
-
-</td><td>
-
--   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 8.0.1
--   Software asset workspace \[sn\_sam\_workspace\] - 11.0.9
-
-</td></tr></tbody>
-</table>## Product match reviewer skill
-
-The Product match reviewer skill is triggered after the Software normalization skill only when the Software normalization skill can’t find the correct product match. The Product match reviewer skill helps you confirm the correct product by analyzing search results and matching them to a predicted product name.
-
-The following table lists the trigger for the Product match reviewer skill.
-
-|Trigger|Description|
-|-------|-----------|
-|When normalization skill doesn't have right content match|The Product match reviewer skill performs an AI-powered search and selects the correct product match. If no reliable match is found, the skill returns an empty result.|
-
-The following table lists the inputs for the Product match reviewer skill.
-
-|Input|Description|
-|-----|-----------|
-|Multiple products predicted from AI-powered search|Confirmed product match from the AI-based content search result.|
-
-The following table lists the plugin and store app dependencies for the Product match reviewer skill in the Australia release.
-
-<table id="table_prod_match_plugins"><thead><tr><th>
-
-Release
-
-</th><th>
-
-Plugin
-
-</th><th>
-
-Store App with Version
-
-</th></tr></thead><tbody><tr><td>
-
-Australia Patch 3
-
-</td><td>
-
-Software Asset Management Professional \[com.snc.samp\]
-
-</td><td>
-
--   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 8.0.1
--   Software asset workspace \[sn\_sam\_workspace\] - 11.0.9
-
-</td></tr></tbody>
-</table>## Spend transaction software classification skill
+## Spend transaction software classification skill
 
 The Spend transaction software classification skill first identifies whether each imported spend transaction is a software purchase. If the transaction is classified as software, then the skill extracts the raw publisher and raw product details using the vendor name, transaction description, and GL account columns. Transactions that the skill classifies as non-software skip the extraction step for raw publisher and raw product and are not passed to the Spend transaction software normalization skill.
 
 The following table lists the trigger for the Spend transaction software classification skill.
 
-<table id="table_spend_txn_class_trig"><thead><tr><th>
+|Trigger|Description|
+|-------|-----------|
+|Auto-triggered|The skill classifies spend transactions as part of the spend transaction import pipeline through the **SAM - Label Spend Transactions** scheduled job. The job processes batches of transactions that haven't yet been classified.|
 
-Trigger
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Auto-triggered
-
-</td><td>
-
-The skill classifies spend transactions as part of the spend transaction import pipeline through the **SAM - Label Spend Transactions** scheduled job. The job processes batches of transactions that haven't yet been classified.
-
-</td></tr></tbody>
-</table>The following table lists the input for the Spend transaction software classification skill.
+The following table lists the input for the Spend transaction software classification skill.
 
 |Input|Description|
 |-----|-----------|
-|Software Spend Transactions \[sam\_spend\_transaction\]|The skill reads the vendor name, transaction description, and GL account fields from imported spend transaction records.|
+|Software Spend Transactions \[sam\_spend\_transaction\]|Reads the vendor name, transaction description, and GL account fields from imported spend transaction records.|
 
-The following table lists the plugin and store app dependencies for the Spend transaction software classification skill in the Australia release.
+The following table lists the plugin and store app dependencies for the Spend transaction software classification skill in the Brazil release.
 
-<table id="table_spend_txn_class_plugins_aus"><thead><tr><th>
+<table id="table_spend_txn_class_plugins_bra"><thead><tr><th>
 
 Release
 
@@ -674,7 +439,7 @@ Store App with Version
 
 </th></tr></thead><tbody><tr><td>
 
-Australia Patch 6
+Brazil
 
 </td><td>
 
@@ -684,7 +449,7 @@ Australia Patch 6
 </td><td>
 
 -   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 11.0.0
--   Software asset workspace \[sn\_sam\_workspace\] - 11.0.20
+-   Software Asset Workspace \[sn\_sam\_workspace\] - 12.0.4
 
 </td></tr></tbody>
 </table>## Spend transaction software normalization skill
@@ -695,7 +460,7 @@ The following table lists the trigger for the Spend transaction software normali
 
 |Trigger|Description|
 |-------|-----------|
-|Auto-triggered|The skill normalizes the raw publisher and raw product after the Spend transaction software classification skill identifies a transaction as software. When a match is found in existing publisher and product records, the skill populates the Publisher and Product fields on the spend transaction record.|
+|Auto-triggered|Normalizes the raw publisher and raw product after the Spend transaction software classification skill identifies a transaction as software. When a match is found in existing publisher and product records, the skill populates the Publisher and Product fields on the spend transaction record.|
 
 The following table lists the input for the Spend transaction software normalization skill.
 
@@ -703,9 +468,9 @@ The following table lists the input for the Spend transaction software normaliza
 |-----|-----------|
 |Extracted publisher and product values|Raw publisher and product produced by the Spend transaction software classification skill for transactions identified as software.|
 
-The following table lists the plugin and store app dependencies for the Spend transaction software normalization skill in the Australia release.
+The following table lists the plugin and store app dependencies for the Spend transaction software normalization skill in the Brazil release.
 
-<table id="table_spend_txn_norm_plugins_aus"><thead><tr><th>
+<table id="table_spend_txn_norm_plugins_bra"><thead><tr><th>
 
 Release
 
@@ -719,18 +484,18 @@ Store App with Version
 
 </th></tr></thead><tbody><tr><td>
 
-Australia Patch 6
+Brazil
 
 </td><td>
 
--   Software Asset Management Professional \[com.snc.samp\]
+-   Software Asset Management Professional\[com.snc.samp\]
 -   Software Asset Management - Spend Detection \[com.sn\_sam\_spend\]
 
 </td><td>
 
 -   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 11.0.0
--   Software asset workspace \[sn\_sam\_workspace\] - 11.0.20
+-   Software Asset Workspace \[sn\_sam\_workspace\] - 12.0.4
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/now-assist-sam-configuration.md)
+</table>**Parent Topic:**[Configuring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/now-assist-sam-configuration.md)
 

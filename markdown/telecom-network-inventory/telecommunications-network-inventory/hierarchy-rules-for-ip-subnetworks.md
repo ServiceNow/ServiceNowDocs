@@ -3,11 +3,11 @@ title: Hierarchy rules for IP Subnetworks
 description: These rules apply only when creating or updating an IP Subnetwork \(which always has a parent — either an IP Address Block or another IP Subnetwork\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/hierarchy-rules-for-ip-subnetworks.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -24,7 +24,7 @@ These rules apply only when creating or updating an IP Subnetwork \(which always
 
 ## Overlap advisory
 
-When a subnetwork’s CIDR overlaps with — but is not identical to — an existing sibling under the same parent, the system displays a warning but does not block the save. The user can acknowledge the warning and continue.
+When a subnetwork’s CIDR overlaps with — but is not identical to — an existing sibling under the same parent, the system displays a warning. The save is not blocked. The user can acknowledge the warning and continue.
 
 Warning text:
 
@@ -39,16 +39,16 @@ The hierarchy rules above apply to IP Subnetworks. An IP Address Block is a top-
 -   If the IP Address Block has a Managed Network value, the CIDR must be unique within that Managed Network. The same CIDR may exist in different Managed Networks.
 -   If the IP Address Block has no Managed Network, the CIDR must be unique across all IP Address Blocks that have no Managed Network.
 
-**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md)
+[CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md)
 
-[Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md)
+[Create an IP Subnetwork record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-an-ip-subnetwork-record.md)
 
-[IP Subnetwork form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-subnetwork-form.md)
+[IP Subnetwork form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-subnetwork-form.md)
 
-[IP Address Block form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-block-form.md)
+[IP Address Block form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/ip-address-block-form.md)
 

@@ -3,11 +3,11 @@ title: Definitions of life-cycle values for intangible/logical entities
 description: The intangible/logical life-cycle value pairs represent the overall life cycle of logical assets and CIs as related to their products. A logical or software asset includes items like applications, services, and licenses. The life cycle stage and life cycle stage status values of logical items are visible only in tables related to intangible/logical items in Asset Management and the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-intangible-logical.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Intangible/logical life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
 
     After the software is approved, the organization procures the necessary licenses or subscriptions.
 
-    -   **On Order**: Licenses or software subscriptions have been purchased but are not yet available for use.
+    -   **On Order**: Licenses or software subscriptions have been purchased but aren't yet available for use.
     -   **Preallocated**: Licenses are assigned to users or departments before they are officially deployed. 
 -   **Inventory life cycle stage**
 
@@ -77,5 +77,5 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
     -   **Retired**: The software is no longer used and its licenses might have been revoked or reassigned.
     -   **Obsolete**: The software is no longer relevant due to security risks, incompatibility, or technological advancements.
 
-**Parent Topic:**[Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
+**Parent Topic:**[Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
 

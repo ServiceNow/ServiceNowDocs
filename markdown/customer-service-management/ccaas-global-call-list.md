@@ -3,9 +3,9 @@ title: Global call list
 description: Use the global call list capability enabled via OpenFrame integration. Access call controls to manage voice calls using the phone icon available in any workspace within your ServiceNow instance to ensure efficient call management without losing access to call controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ccaas-global-call-list.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -85,7 +85,7 @@ Default Workspace
 
 </td><td>
 
-Workspace configured via OpenFrame enables agents to navigate to an ICC integrated workspace if they are in an unsupported workspace. See: [Set default workspace for CCaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ccaas-set-default-workspace.md).
+Workspace configured via OpenFrame enables agents to navigate to an ICC integrated workspace if they are in an unsupported workspace. See: [Set default workspace for CCaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ccaas-set-default-workspace.md).
 
 </td></tr></tbody>
 </table>Let’s go over some scenarios to understand how an agent can switch between supported and unsupported workspaces while managing inbound and outbound calls:
@@ -102,7 +102,7 @@ Workspace configured via OpenFrame enables agents to navigate to an ICC integrat
 
     The agent selects the phone icon to open the phone dial pad to make an outbound call from an unsupported workspace. The related interaction record opens in the agent’s current unsupported workspace. However, the agent must have default workspace configured to see the current call in the Interaction screen.
 
-    **Note:** See: [Set default workspace for CCaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ccaas-set-default-workspace.md).
+    **Note:** See: [Set default workspace for CCaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ccaas-set-default-workspace.md).
 
 -   **Scenario 4**
 
@@ -126,7 +126,7 @@ From the global call list view, Agents can do the following:
 -   Use the phone icon next to the search input field to make outbound calls to an external number that doesn't display in the Queues, Agent, or External tab results.
 -   View and access call controls even when navigating to other tabs and screens. The global call list icon is available from supported and unsupported workspaces.
 -   View a badge count on the phone icon indicating the number of ongoing calls.
--   Select the **Open interaction** link to open the interaction record details in their supported workspace in call resiliency mode. See: [Call resiliency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ccaas-call-resiliency.md).
+-   Select the **Open interaction** link to open the interaction record details in their supported workspace in call resiliency mode. See: [Call resiliency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ccaas-call-resiliency.md).
 
 **Note:** The Transfer function isn't supported in the global call list feature.
 

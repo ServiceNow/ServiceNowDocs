@@ -3,11 +3,11 @@ title: Custom app record summarization skill
 description: The ServiceNow Otto for App Engine custom app record summarization skill can generate summaries for the contents of records in custom applications and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.html
-release: australia
+release: brazil
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto for App Engine, Generate summary, custom table record summarization, Now Assist for App Engine, AI skill, AI in custom apps, table summary generation]
 breadcrumb: [Explore, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -48,7 +48,7 @@ The custom app record summarization skill can include additional data sources wh
 
 For each related table or relationship that you add, you must provide the fields and field descriptions that you want included in the generated summaries. Activities, such as emails and attachments, don't have fields that you can select and configure. If you select either email or attachment as an additional data source to include in a summary, the skill attempts to fetch that data at the time that the summary is generated. If an email or attachment is present within the record, the skill includes that information in the summary that it generates. Otherwise, the summary is generated without the email or attachment.
 
-**Important:** Record summarization that includes an attachment has a greater assist usage. To track your AI usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
+**Important:** Record summarization that includes an attachment has a greater assist usage. To track your AI usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 ## Display options
 
@@ -62,12 +62,12 @@ You can choose where you want record summarization to be available to your appli
 
     For more information about adding record summarization to a workspace, see the following resources:
 
-    -   [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+    -   [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md)
     -   [Components documentation for the AI summary card](https://horizon.servicenow.com/workspace/components/now-ai-summary-card?release=zurich)
     -   [UI Builder setup documentation for the AI summary card](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-ai-summary-card/uib-setup)
 -   **ServiceNow Otto® panel**
 
-    When selected, AI summaries are accessible through chat in the ServiceNow Otto® panel. If you don't see this option when configuring the skill, you must activate the ServiceNow Otto® panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    When selected, AI summaries are accessible through chat in the ServiceNow Otto® panel. If you don't see this option when configuring the skill, you must activate the ServiceNow Otto® panel. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 
 ## Access

@@ -3,11 +3,11 @@ title: Target Source form
 description: Use the Target Source form to create and configure a source for your targets so that the actual value of the target is auto-updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/target-source-form.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -109,5 +109,5 @@ Custom script
 Custom script to fetch the required data from any ServiceNow AI Platform table for the target source.This field is available when the **Type** field is set to **Custom**. Or, when the **Type** field is set to **Assessment/Survey** and the **Advanced** field is set to **true**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework-reference.md)
+</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/goal-framework-reference.md)
 

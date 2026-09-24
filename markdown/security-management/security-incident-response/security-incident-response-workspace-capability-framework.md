@@ -3,11 +3,11 @@ title: Unified experience framework for integrations powered by Capability Frame
 description: In the classic UI, the experience is disjointed when performing orchestration activities such as running threat look, performing sighting search, and so on. Each capability has its own experience while executing it. In the new workspace, there is unified experience across all capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-response-workspace-capability-framework.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SIR Workspace Orchestration, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -74,12 +74,12 @@ This column captures the static information which adds more context to the secur
 
 **Note:** Not all three steps are always required. Depending on the capability and the type of inputs required, the runtime details step and common inputs step will be visible.
 
--   **[Unified experience capabilities and modal screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/capabilities-and-modal-screens.md)**  
+-   **[Unified experience capabilities and modal screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/capabilities-and-modal-screens.md)**  
 The following table below describes the capabilities and applicable screens.
--   **[Unified Experience examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/unified-expereince-example.md)**  
+-   **[Unified Experience examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/unified-expereince-example.md)**  
 This example demonstrates the unified experience framework capabilities.
 
-**Parent Topic:**[SIR Workspace Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-response-workspace-orchestration-activities.md)
+**Parent Topic:**[SIR Workspace Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-response-workspace-orchestration-activities.md)
 
 **Related topics**  
 

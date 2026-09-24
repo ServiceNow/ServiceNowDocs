@@ -3,11 +3,11 @@ title: User access to Playbooks in Workflow Studio
 description: Administrators can grant users access to Playbook by assigning delegated development permissions or directly assigning a user role. Administrators can also specify which features and content a user can access based on user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/user-access-playbooks.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -164,7 +164,7 @@ playbook.write
 Enables users who have content filtering restrictions to:-   Launch Workflow Studio to create, activate, edit, and delete playbooks.
 -   View the Experience activity types \(sys\_pd\_activity\) and Experience activity properties \(sys\_pd\_activity\_type\_prop\) tables that are shared by Playbooks and Playbook Experience.
 
-To learn more about content access filtering, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
+To learn more about content access filtering, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
 
 </td><td>
 
@@ -176,7 +176,7 @@ playbook.designer\_access
 
 </td><td>
 
-Enables users who have content filtering restrictions to launch Workflow Studio to view playbooks. To learn more about content access filtering, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
+Enables users who have content filtering restrictions to launch Workflow Studio to view playbooks. To learn more about content access filtering, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
 
 </td><td>
 
@@ -188,7 +188,7 @@ playbook.activity\_def\_read
 
 </td><td>
 
-Enables users to view all activity definitions as long as there aren't [Required Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
+Enables users to view all activity definitions as long as there aren't [Required Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
 
 </td><td>
 
@@ -224,11 +224,11 @@ none
 
 ## Delegated development access
 
-Administrators can grant users access to Workflow Studio playbooks by creating an application and assigning users as developers with the playbook [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md) permission. Delegated development allows administrators to control whether playbook authors can access features normally restricted to admin users. For more information, see [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-permissions.md).
+Administrators can grant users access to Workflow Studio playbooks by creating an application and assigning users as developers with the playbook delegated development permission. Delegated development allows administrators to control whether playbook authors can access features normally restricted to admin users. For more information, see Developer permissions.
 
 ## Role-based content filtering
 
-Specify the user roles necessary to access Workflow Studio playbook content. For example, activity definitions and process definitions. Manage content filtering by creating content definitions and content filtering rules. For more information, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
+Specify the user roles necessary to access Workflow Studio playbook content. For example, activity definitions and process definitions. Manage content filtering by creating content definitions and content filtering rules. For more information, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
 
 ## Role-based activity definition access
 
@@ -236,16 +236,16 @@ Manage activity definition access by specifying the **Required Roles** to access
 
 \[Omitted image "activity-definition-read-only.gif"\] Alt text: Read-only view of activities in Workflow Studio for restricted activity definitions
 
-To learn more about activity definitions, see [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md) and [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md).
+To learn more about activity definitions, see [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-activity-definition.md) and [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activity-definitions.md).
 
 **Note:** Both playbook.admin and pd\_content\_author roles can edit activity definitions, but only the playbook.admin role can edit the **Required Roles** field.
 
--   **[Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md)**  
+-   **[Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md)**  
 Specify which content a user can access based on the user's role.
--   **[Configure content filtering definitions for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-content-filtering-definitions-playbooks.md)**  
+-   **[Configure content filtering definitions for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-content-filtering-definitions-playbooks.md)**  
 Specify which content a user can access by creating content definitions.
--   **[Configure content filtering rules for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-content-filtering-rules-playbooks.md)**  
+-   **[Configure content filtering rules for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-content-filtering-rules-playbooks.md)**  
 Use content filtering rules to specify the role a user must have to access content.
 
-**Parent Topic:**[Administering Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/administering-process-automation-designer.md)
+**Parent Topic:**[Administering Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/administering-process-automation-designer.md)
 

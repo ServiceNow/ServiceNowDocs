@@ -3,14 +3,14 @@ title: Configure project type fields and layouts
 description: Define custom fields and a unique form layout to support configuration independence across different types of projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configure-project-type-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [project type, dynamic category, custom form view, enterprise-wide deployment, EWD]
-breadcrumb: [Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure project type fields and layouts
@@ -21,11 +21,11 @@ Define custom fields and a unique form layout to support configuration independe
 
 -   Identify the dynamic category that defines custom project records fields associated with project type.
 
-    **Note:** If the dynamic category doesn't exist or to create a dedicated dynamic category for a project type, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    **Note:** If the dynamic category doesn't exist or to create a dedicated dynamic category for a project type, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 -   Identify the form view that defines form layout for project records associated with project type.
 
-    **Note:** If the form view doesn't exist or you want to create a dedicated form view for a project type use the **Default SPM Dynamic Namespace** only when defining a dynamic category. For more details, see [Create a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-dynamic-category.md).
+    **Note:** If the form view doesn't exist or you want to create a dedicated form view for a project type use the **Default SPM Dynamic Namespace** only when defining a dynamic category. For more details, see [Create a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-dynamic-category.md).
 
 
 Role required: pps\_admin
@@ -42,7 +42,7 @@ Each project type configuration consists of a dynamic category and a custom form
 
 3.  Fill in the fields on the form.
 
-    For a description of the field values, see [Project type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-type-form-pw.md).
+    For a description of the field values, see [Project type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-type-form-pw.md).
 
 4.  Select **Save** to create and save the project type configuration.
 
@@ -51,5 +51,5 @@ Each project type configuration consists of a dynamic category and a custom form
 
 The project type configuration is saved and activated. Project records assigned to a project type display the custom form view and associated fields. Records assigned to other project types aren't affected.
 
-**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-pw.md)
+**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configure-pw.md)
 

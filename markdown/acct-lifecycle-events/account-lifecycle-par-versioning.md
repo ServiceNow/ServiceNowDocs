@@ -3,7 +3,7 @@ title: Product adoption roadmap versioning
 description: Versioning preserves a snapshot of your roadmap each time you publish it, creating a complete history you can review or restore when plans change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-par-versioning.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-07-26"
 reading_time_minutes: 2
@@ -42,18 +42,18 @@ A version record includes the following fields:
 
 The current version label is displayed in the roadmap header. To view all versions for a roadmap, open the roadmap record and scroll to the **Versions** related list. The list displays all published versions in chronological order.
 
-To restore a roadmap to an earlier state, see [Revert a product adoption roadmap to a previous version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-revert-par-roadmap.md).
+To restore a roadmap to an earlier state, see [Revert a product adoption roadmap to a previous version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-revert-par-roadmap.md).
 
-**Parent Topic:**[View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md)
+**Parent Topic:**[View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md)
 
 **Related topics**  
 
 
-[Product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-roadmap.md)
+[Product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-par-roadmap.md)
 
-[View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md)
+[View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md)
 
-[Revert a product adoption roadmap to a previous version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-revert-par-roadmap.md)
+[Revert a product adoption roadmap to a previous version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-revert-par-roadmap.md)
 
-[Create a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap.md)
+[Create a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap.md)
 

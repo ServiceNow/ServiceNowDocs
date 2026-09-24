@@ -3,7 +3,7 @@ title: Configure the GOV.UK Design System Service Portal Case Details \(standard
 description: Configure individual request types to display case details, the request-specific information shown to constituents when viewing submitted requests. They can view case statuses and request history, and communicate with caseworkers and agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gds-stdt-page.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-01"
 reading_time_minutes: 2
@@ -53,9 +53,9 @@ This widget displays the following tabs for a submitted request, allowing consti
 -   Activity
 -   Attachments
 
-You can configure the tabs for standard ticket page. For more information, see [Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-tabs-for-standard-ticket-page.md).
+You can configure the tabs for standard ticket page. For more information, see [Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-tabs-for-standard-ticket-page.md).
 
 ## Customization
 
-You can configure the case details page components, including toggling widgets, customizing header and footer content, and managing breadcrumb navigation to reflect case hierarchy. For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
+You can configure the case details page components, including toggling widgets, customizing header and footer content, and managing breadcrumb navigation to reflect case hierarchy. For more information on how to edit widgets that appear on a page in the Service Portal Designer, see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md). For more information on portal pages, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ConfigureAPage.md).
 

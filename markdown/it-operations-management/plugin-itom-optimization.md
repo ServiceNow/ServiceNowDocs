@@ -3,9 +3,9 @@ title: Plugins activated with ITOM Optimization
 description: Table that lists the plugins that are activated with the ITOM Optimization application Cloud Provisioning and Governance. When you update your application, any newly required application dependencies are installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/plugin-itom-optimization.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM Optimization reference, ITOM Optimization, IT Operations Management]
 ---
@@ -22,16 +22,16 @@ Table that lists the plugins that are activated with the ITOM Optimization appli
 |Service Portal - Core \(com.glide.service-portal\)|A portal framework that enables administrators to build a mobile-friendly self-service experience for users.|
 |ITOM Optimization Licensing \(com.sn\_itom\_opt\_licensing\)|A proxy application that enables you to install all applications related to Optimization. Once you purchase the Optimization license, you can install this proxy application, which enables you to install any application that is part of Optimization license.|
 
-**Parent Topic:**[ITOM Optimization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-optimization-reference.md)
+**Parent Topic:**[ITOM Optimization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-optimization-reference.md)
 
 **Related topics**  
 
 
-[Plugins or applications installed with ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.md)
+[Plugins or applications installed with ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.md)
 
-[Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md)
+[Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md)
 
-[Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-app-itom-health.md)
+[Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/plugin-app-itom-health.md)
 
-[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/app-now-assist-itom.md)
 

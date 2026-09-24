@@ -3,13 +3,13 @@ title: ERP Semantic Mining candidate recommendations field descriptions
 description: On a candidate record in ERP Semantic Mining, the Recommendations tab displays information about suggested next actions for replatforming ERP \(Enterprise Resource Planning\) candidates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-candidate-recommendations-field-descriptions.html
-release: australia
+release: brazil
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ERP Semantic Mining field descriptions, Reference, ERP Semantic Mining overview, Workflow Data Fabric]
+breadcrumb: [ERP Semantic Mining field descriptions, Reference, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # ERP Semantic Mining candidate recommendations field descriptions
@@ -18,7 +18,7 @@ On a candidate record in ERP Semantic Mining, the **Recommendations** tab displa
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-For process details, see [Check candidate recommendations in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-work-with-recommendations.md).
+For process details, see [Check candidate recommendations in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erpcm-work-with-recommendations.md).
 
 <table id="table_u5j_gnl_wyb"><thead><tr><th>
 
@@ -93,5 +93,5 @@ Updated
 Date and time the recommended action was most recently updated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Semantic Mining field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP Semantic Mining field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

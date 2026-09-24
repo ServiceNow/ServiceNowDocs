@@ -3,9 +3,9 @@ title: Create a license or permit request in the Public Sector Digital Services 
 description: Request a license or permit from a government agency using the Government Service Portal.In the Government Service Portal, constituents can create license/permit requests on behalf of someone else, and add multiple parties \(constituents, business contacts\) to the watchlist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-create-license-request-user.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---

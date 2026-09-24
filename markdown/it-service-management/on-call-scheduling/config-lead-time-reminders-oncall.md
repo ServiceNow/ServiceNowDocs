@@ -3,11 +3,11 @@ title: Configure the lead time for email reminders
 description: On-Call Scheduling includes a scheduled job that checks if any shift members should be notified about upcoming On-Call commitments. Modify the lead time for the reminder to be sent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/config-lead-time-reminders-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure or update an On-Call shift, Managing schedules and shifts, On-Call Scheduling, IT Service Management]
 ---
@@ -35,5 +35,5 @@ Role required: rota\_manager or rota\_admin
     The escalation settings are used only to configure reminders for escalations. The **Reminder lead time** is in the Reminder Communication section of the Roster form, and is used to email reminders for upcoming on-call commitments.
 
 
-**Parent Topic:**[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/config-update-shift-oncall.md)
+**Parent Topic:**[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/config-update-shift-oncall.md)
 

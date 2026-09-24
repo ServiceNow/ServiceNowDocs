@@ -3,9 +3,9 @@ title: Disclosures in Operational Sustainability Management \(formerly ESG Manag
 description: An Operational Sustainability Management disclosure refers to the practice of companies and organizations providing information and reports on their operational sustainability performance. These disclosures are designed to offer insights into how a company manages and addresses various sustainability-related issues. Users with the sn\_esg.reporting\_disclosure\_manager role are responsible to manage the disclosure reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/esg-disclosures.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -40,9 +40,9 @@ Operational Sustainability Management disclosures are important for several reas
 
 ## Narrative disclosures
 
-Starting with version 18.0.3, all new users of Operational Sustainability Management have access to only narrative disclosures. Narrative disclosures refer to disclosures that are created using the Microsoft 365 for ServiceNow Reporting add in. When you create a narrative disclosure, you have the option to store the disclosure either on Microsoft SharePoint or on your local system. Microsoft SharePoint integration in narrative disclosures is available for Operational Sustainability Management version 18.0.3 and the Australia release. The document that is generated when you create a narrative disclosure can be opened using Microsoft Word and the data points that are configured can be inserted in the document using the ServiceNow Reporting add-in. If there is any change in the data that is inserted, an email is automatically sent to the owners of the disclosure data notifying them that the data has changed and that they must refresh the Microsoft Word document.
+Starting with version 18.0.3, all new users of Operational Sustainability Management have access to only narrative disclosures. Narrative disclosures refer to disclosures that are created using the Microsoft 365 for ServiceNow Reporting add in. When you create a narrative disclosure, you have the option to store the disclosure either on Microsoft SharePoint or on your local system. Microsoft SharePoint integration in narrative disclosures is available for Operational Sustainability Management version 18.0.3 and the Brazil release. The document that is generated when you create a narrative disclosure can be opened using Microsoft Word and the data points that are configured can be inserted in the document using the ServiceNow Reporting add-in. If there is any change in the data that is inserted, an email is automatically sent to the owners of the disclosure data notifying them that the data has changed and that they must refresh the Microsoft Word document.
 
-In a narrative disclosure, multiple collaborators can contribute to create the disclosure. You can also define templates for each type of disclosure report. Refer to [Types of disclosure reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/types-of-disclosure-reports.md) to understand each report type. Each disclosure can be approved by one or more approvers.
+In a narrative disclosure, multiple collaborators can contribute to create the disclosure. You can also define templates for each type of disclosure report. Refer to [Types of disclosure reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/types-of-disclosure-reports.md) to understand each report type. Each disclosure can be approved by one or more approvers.
 
 When generating a disclosure, it is important to note that the automatically generated document is considered the primary document. Additionally, you have the option to attach secondary documents as part of the disclosure process.
 
@@ -50,7 +50,7 @@ To create narrative disclosures on remote storage, you must install and activate
 
 For steps to integrate the ServiceNow® instance and Microsoft OneDrive, refer to the following articles.
 
--   [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-ms-onedrive-doc-services.md)
+-   [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-ms-onedrive-doc-services.md)
 -   [Connecting to Microsoft Sharepoint \[KB1646310\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1646310%20) article in the Now Support Knowledge Base.
 
 You can download the disclosures in an Excel format from the overview tab in the Operational Sustainability Workspace.
@@ -59,24 +59,24 @@ You can download the disclosures in an Excel format from the overview tab in the
 
 The following list provides detailed information about disclosures.
 
--   **[Types of disclosure reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/types-of-disclosure-reports.md)**  
+-   **[Types of disclosure reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/types-of-disclosure-reports.md)**  
 The Operational Sustainability Management application provides the multiple types of disclosures reports and each type is used for a specific purpose.
--   **[Approval workflow of a disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/approval-workflow-of-a-disclosure.md)**  
+-   **[Approval workflow of a disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/approval-workflow-of-a-disclosure.md)**  
 If a narrative disclosure specifies a single approver or multiple approvers during its creation, it is mandatory for those designated approvers to grant approval before the disclosure can transition to the next state.
--   **[Create a disclosure template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-disclosure-template.md)**  
+-   **[Create a disclosure template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-disclosure-template.md)**  
 Create your own unique Microsoft Word disclosure templates tailored to different types of disclosures. Utilize these templates that you create when you generate specific disclosures. The templates help to streamline the disclosure process by implementing customized templates for efficiency and consistency.
--   **[Create a narrative disclosure on remote storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-disclosure.md)**  
+-   **[Create a narrative disclosure on remote storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-disclosure.md)**  
 Create an Operational Sustainability Management narrative disclosure for your organization and store it on remote storage such as Microsoft SharePoint. Disclosures can be of several types such as ESG report, annual report, and so on.
--   **[Create a narrative disclosure on local system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-disclosure-on-local.md)**  
+-   **[Create a narrative disclosure on local system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-disclosure-on-local.md)**  
 Create an Operational Sustainability Management narrative disclosure for your organization and store it on your local system. After you create a disclosure, you can download the document, edit it, add metrics to it, and upload it back into the Operational Sustainability Management instance.
--   **[Add disclosure documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-disclosure-related-docs.md)**  
+-   **[Add disclosure documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-disclosure-related-docs.md)**  
 Add secondary related or supporting documents to any disclosure you create. Supporting documents may include sustainability reports, corporate governance documents, third-party certifications, and relevant policies such as those on ethics and supply chain practices. These documents provide additional context and validation for environmental, social, and governance disclosures.
--   **[Add metrics to a disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-related-metric-to-a-disclosure.md)**  
+-   **[Add metrics to a disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-related-metric-to-a-disclosure.md)**  
 Add any metrics to the disclosure that would help to contribute to the disclosure data.
--   **[Create a authority document using Operational Sustainability Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-authority-document-using-esg-workspace.md)**  
+-   **[Create a authority document using Operational Sustainability Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-authority-document-using-esg-workspace.md)**  
 The authority document is a regulatory framework or standard issued by a recognized organization or governing body that outlines the reporting obligations for operational sustainability disclosures.
--   **[Create a citation using Operational Sustainability Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-citation-using-esg-workspace.md)**  
+-   **[Create a citation using Operational Sustainability Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-citation-using-esg-workspace.md)**  
 The citations are the individual reporting requirements or metrics defined within an authority document. They specify the exact data points or qualitative information an organization must disclose.
 
-**Parent Topic:**[Using Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-esg.md)
+**Parent Topic:**[Using Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/using-esg.md)
 

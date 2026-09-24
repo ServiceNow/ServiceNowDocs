@@ -3,11 +3,11 @@ title: Uploading Software Bill of Materials for DevOps SBOM files
 description: Generate and upload Software Bill of Materials SBOM files for software throughout its continuous integration and continuous deployment development cycles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-uploading-devops.html
-release: australia
+release: brazil
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -41,7 +41,7 @@ DevOps policies and rules for the success or failure of a pipeline may be define
 
 For a failed pipeline, DevOps users can access information about the failed build in their ServiceNow® instance to help them better understand the root cause and origin of the vulnerabilities.
 
-See [Uploading Software Bill of Materials files using a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-preparing-upload.md) for more information about \(POST\) and \(GET\) parameters and URLs for the Upload and Status APIs.
+See [Uploading Software Bill of Materials files using a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/vr-sbom-preparing-upload.md) for more information about \(POST\) and \(GET\) parameters and URLs for the Upload and Status APIs.
 
 ## Domain Separation
 

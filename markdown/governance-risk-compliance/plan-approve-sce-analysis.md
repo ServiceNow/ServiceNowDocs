@@ -3,9 +3,9 @@ title: Approve the plan for the scenario analysis
 description: Approve the plan for the scenario analysis in Operational Resilience Workspace if you're the plan approver. You can track the actions for the scenario analysis by checking your email notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/plan-approve-sce-analysis.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request the plan approval, Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---

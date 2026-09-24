@@ -3,7 +3,7 @@ title: Service definitions in Retail
 description: A service definition describes a service that a retail organization offers to support its stores or customers. Service definitions build on case types to encapsulate different types of request and fulfillment processes within a single case type, without creating a new table for every variation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-service-definitions.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-28"
 reading_time_minutes: 1
@@ -25,12 +25,14 @@ By using service definitions to identify the requested service, category and sub
 
 ## Service definitions versus case types
 
-Use a service definition when different work types share the same required attributes and automations within a single case type. Create a new case case type when the process requires fundamentally different fields, state models, or automation logic. For a full decision framework, see [Extending the Retail base case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-extending-retail-base-case.md).
+Use a service definition when different work types share the same required attributes and automations within a single case type. Create a new case case type when the process requires fundamentally different fields, state models, or automation logic. For a full decision framework, see [Extending the Retail base case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-extending-retail-base-case.md).
+
+**Parent Topic:**[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-retail-case-types-revamp.md)
 
 **Related topics**  
 
 
-[Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md)
+[Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-service-definitions.md)
 
-[Create a service definition for multi-store cases in Retail Task Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-create-service-definition.md)
+[Create a service definition for multi-store cases in Retail Task Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/legacy-retail-task-management/rahi-retail-create-service-definition.md)
 

@@ -3,9 +3,9 @@ title: Add alert table to enable on-call scheduling for Service Operations Works
 description: Enable on-call scheduling by incorporating the Alert table \[em\_alert\] into the Trigger Rule Table Config list. This allows for creating shifts and implementing escalation triggers and policies, ensuring teams can promptly respond to alerts and maintain operational continuity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/add-alert-table-oncall.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Enable on-call scheduling in SOW ITOM]
 breadcrumb: [On-call scheduling, Configure, ITOM AIOps, IT Operations Management]
@@ -38,7 +38,7 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-[Create on-call shift for your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling-in-sow.md).
+[Create on-call shift for your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling-in-sow.md).
 
-**Parent Topic:**[On-call scheduling in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/oncall-schedule-escalation.md)
+**Parent Topic:**[On-call scheduling in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oncall-schedule-escalation.md)
 

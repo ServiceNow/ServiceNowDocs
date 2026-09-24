@@ -3,11 +3,11 @@ title: Create a test in Test Management 2.0
 description: Create a test specifying conditions or steps to determine whether a feature is working correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/create-test2.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Testing using Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_test\_management.tester or sn\_test\_management.test\_manager
 
 1.  Create a test using either of the following options.
 
-<table id="choicetable_fmy_53j_5cb"><thead><tr><th align="left" id="d294196e61">
+<table id="choicetable_fmy_53j_5cb"><thead><tr><th align="left" id="d295651e61">
 
 Option
 
-</th><th align="left" id="d294196e64">
+</th><th align="left" id="d295651e64">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d294196e70">
+</th></tr></thead><tbody><tr><td id="d295651e70">
 
 **From Test Management 2.0**
 
@@ -42,7 +42,7 @@ Description
 2.  To create a test, click **New**.
 
 
-</td></tr><tr><td id="d294196e100">
+</td></tr><tr><td id="d295651e100">
 
 **From Agile Development 2.0**
 
@@ -157,7 +157,7 @@ Run
 
 </td><td>
 
-Button used to run steps, which is displayed only when the test is in the **Ready** state.See [Run your test assignments in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/run-your-test-assignments.md).
+Button used to run steps, which is displayed only when the test is in the **Ready** state.See [Run your test assignments in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/run-your-test-assignments.md).
 
 </td></tr><tr><td>
 
@@ -202,7 +202,7 @@ To add a test to a test set:
 1.  Select the test from the Test list.
 2.  Click **Add to Test Set**.
 
-**Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/release-readiness-testing.md)
+**Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/release-readiness-testing.md)
 
 **Related topics**  
 

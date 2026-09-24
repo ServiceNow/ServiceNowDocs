@@ -3,13 +3,13 @@ title: Create averages for product life cycles in workspace
 description: Create averages to calculate software End of Life \(EOL\) and End of Support \(EOS\) life cycles in the Software Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create averages for product life cycles in workspace
@@ -24,7 +24,7 @@ Role required: model\_manager
 
 You can create averages that can be used globally for all products and publishers or you can create averages specific to a product or a publisher. These averages are used to create calculated life cycles for products.
 
-Ensure that **com.snc.samp.generate.calculated.lifecycles** system property is enabled. For additional details, see [Product life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/calculated-lifecycles.md).
+Ensure that **com.snc.samp.generate.calculated.lifecycles** system property is enabled. For additional details, see [Product life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/calculated-lifecycles.md).
 
 ## Procedure
 
@@ -115,5 +115,5 @@ Indicates that the life cycle average record will be used for creating software 
     The record is created and appears in the Software lifecycle averages list view.
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

@@ -3,9 +3,9 @@ title: Virtual Agent for Field Service Management
 description: ServiceNow Virtual Agent for Field Service Management enables field service agents to get quick answers to their work-related queries by interacting with a virtual agent through the Now Agent mobile application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/virtual-agent-fsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -26,10 +26,10 @@ Virtual Agent for Field Service Management enhances the agent experience by addr
 
 Implement Natural Language Understanding \(NLU\) for all your Field Service Virtual Agent Conversations topics. The system can more clearly comprehend word meanings and recognize word contexts to better infer user actions.
 
-Enable NLU on the Field Service Virtual Agent Conversations application and republish your existing conversation topics to optimize the user experience with this feature. For more information, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md).
+Enable NLU on the Field Service Virtual Agent Conversations application and republish your existing conversation topics to optimize the user experience with this feature. For more information, see [Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-NLU.md).
 
 **Related topics**  
 
 
-[Configuring Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/fsm-va-conversation.md)
+[Configuring Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/fsm-va-conversation.md)
 

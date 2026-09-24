@@ -1,18 +1,18 @@
 ---
-title: Associate task plan template to a work schedule
+title: Associate a task plan template to a work schedule
 description: Map a single or multiple task plan templates to a planned work schedule. Add conditions to identify the relevant templates for the planned work records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/map-schedule-to-task-template.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
-# Associate task plan template to a work schedule
+# Associate a task plan template to a work schedule
 
 Map a single or multiple task plan templates to a planned work schedule. Add conditions to identify the relevant templates for the planned work records.
 
@@ -22,11 +22,11 @@ Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
 ## About this task
 
-If you set the template type of a work plan to Task plan template, you can link its planned work schedules with task plan templates. For more information, see [Create a work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/create-work-plan.md).
+If you set the template type of a work plan to Task plan template, you can link its planned work schedules with task plan templates. For more information, see [Create a work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/create-work-plan.md).
 
 When the conditions specified in the Planned Work Schedule Task Template are met, tasks, cases, or incidents are created based on the defined task plan templates.
 
-For example, to meet the monthly audit requirement of inspecting multiple stores of the same organization simultaneously, you need to create individual planned work schedules for each audit. Link each schedule to a different task plan template. Include relevant conditions in each planned work schedule template to ensure the correct template is applied when generating tasks specific to each audit.
+For example, to meet the monthly audit requirement of inspecting multiple stores of the same organization simultaneously, you need to create individual planned work schedules for each audit. Link each schedule to a different task plan template. Include relevant conditions in each Planned Work Schedule Task Template to ensure the correct template is applied when generating tasks specific to each audit.
 
 ## Procedure
 
@@ -54,7 +54,7 @@ Template
 
 </td><td>
 
-Task plan template to be associated with the planned work schedule. For more information on the creation and usage of task plans, see [Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-templates.md).
+Task plan template to be associated with the planned work schedule. For more information on the creation and usage of task plans, see [Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/task-plan-templates.md).
 
 </td></tr><tr><td>
 

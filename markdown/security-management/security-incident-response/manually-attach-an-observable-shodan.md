@@ -3,11 +3,11 @@ title: \(Optional\) Manually attach an observable for Shodan
 description: You can manually attach observables to a security incident. You manually attach observables when you want to perform threat lookups on observables that are not attached to a security incident on the initial event trigger. Also, you might perform this task when you want more information about a related observable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manually-attach-an-observable-shodan.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Shodan integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -53,9 +53,9 @@ Role required: sn\_si.analyst
 
 Review the **Work notes** for more information and how to proceed if you can't verify that the lookup ran successfully.
 
-**Parent Topic:**[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/shodan-lookups.md)
+**Parent Topic:**[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/shodan-lookups.md)
 
-**Previous topic:**[Verify expected results for Shodan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/shodan-verify-expected-results.md)
+**Previous topic:**[Verify expected results for Shodan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/shodan-verify-expected-results.md)
 
-**Next topic:**[Secureworks CTP Ticket Ingestion Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/secureworks-ctp-about.md)
+**Next topic:**[Secureworks CTP Ticket Ingestion Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/secureworks-ctp-about.md)
 

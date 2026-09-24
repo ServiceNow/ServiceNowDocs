@@ -3,9 +3,9 @@ title: Configure assets
 description: An asset is a specific product or instance that is supported for a customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-assets.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -25,5 +25,5 @@ You can either import your existing assets using guided setup or create new asse
 **Related topics**  
 
 
-[Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-install-base.md)
+[Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-install-base.md)
 

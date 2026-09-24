@@ -3,11 +3,11 @@ title: Life cycle management of records in Service Graph Connector for Infoblox
 description: Life cycle management in the Service Graph Connector for Infoblox monitors and updates the statuses of Infoblox resources throughout their life cycle, from creation to deletion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-lc.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Infoblox, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,5 +28,5 @@ Life cycle management is supported for the following tables:
 -   Detailed Network \[sn\_infoblox\_integ\_sg\_infoblox\_detailed\_subnetwork\]
 -   Allocated IP Address \[cmdb\_ci\_allocated\_ip\_address\]
 
-**Parent Topic:**[Service Graph Connector for Infoblox reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-reference.md)
+**Parent Topic:**[Service Graph Connector for Infoblox reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-reference.md)
 

@@ -3,11 +3,11 @@ title: Access execution records from Portfolio Plans
 description: After creating a planning item demand in a Portfolio Plan, access the corresponding execution demand record directly from the Prioritization, Kanban, or Roadmap view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/access-demands-from-portfolio-planning-views.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [access, demand, Kanban, roadmap, Portfolio Planning]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
@@ -23,7 +23,7 @@ Role required: apw\_user, ap\_read\_only
 
 ## About this task
 
-An execution record is created in the Demands module for each planning item demand, using alignment integration. For more information, see [Configuring Portfolio Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.md).
+An execution record is created in the Demands module for each planning item demand, using alignment integration. For more information, see [Configuring Portfolio Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.md).
 
 ## Procedure
 
@@ -33,15 +33,15 @@ An execution record is created in the Demands module for each planning item dema
 
 3.  Open an execution demand from the Prioritization, Kanban, or Roadmap view.
 
-<table id="choicetable_access_demands_ppw"><thead><tr><th align="left" id="d79835e124">
+<table id="choicetable_access_demands_ppw"><thead><tr><th align="left" id="d79329e124">
 
 View
 
-</th><th align="left" id="d79835e127">
+</th><th align="left" id="d79329e127">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d79835e133">
+</th></tr></thead><tbody><tr><td id="d79329e133">
 
 **Prioritization**
 
@@ -52,7 +52,7 @@ Action
 
 \[Omitted image "ppw-open-demand.png"\] Alt text: Row context menu with the Open demand option.
 
-</td></tr><tr><td id="d79835e161">
+</td></tr><tr><td id="d79329e161">
 
 **Kanban**
 
@@ -63,7 +63,7 @@ Action
 
 \[Omitted image "demand-kanban-ppw.png"\] Alt text: Actions menu with the Open demand option.
 
-</td></tr><tr><td id="d79835e189">
+</td></tr><tr><td id="d79329e189">
 
 **Roadmap view**
 

@@ -3,9 +3,9 @@ title: Edit a user's information
 description: Edit a User's information and keep the user account up to date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-user-information.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Users page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -31,5 +31,5 @@ Role required: admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-page.md)
+**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/users-page.md)
 

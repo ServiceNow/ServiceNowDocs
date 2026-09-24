@@ -3,9 +3,9 @@ title: Migrate a legacy survey
 description: Migrate a legacy survey and its related records to take advantage of a more powerful feature set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_MigrateALegacySurvey.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Legacy survey migration, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Role required: admin or survey\_admin
 
 ## About this task
 
-To avoid timing out for very large surveys, you can disable the transaction quota. See [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TransactionQuotas.md).
+To avoid timing out for very large surveys, you can disable the transaction quota. See [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_TransactionQuotas.md).
 
 ## Procedure
 
@@ -57,7 +57,7 @@ To avoid timing out for very large surveys, you can disable the transaction quot
 
 The **Migrate to Assessment** related link on the legacy survey record becomes unavailable after the migration. However, if you delete the record referenced in the **Assessment** field, the related link reappears and you can migrate the legacy survey again.
 
-**Parent Topic:**[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MigrateSurveys.md)
+**Parent Topic:**[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MigrateSurveys.md)
 
 **Related topics**  
 

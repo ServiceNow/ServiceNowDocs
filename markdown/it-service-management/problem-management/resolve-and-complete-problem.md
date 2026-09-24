@@ -3,11 +3,11 @@ title: Resolve and complete a problem
 description: Resolve the issue and add detailed note of the resolution for future reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/resolve-and-complete-problem.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Problems, Problem Management, IT Service Management]
 ---
@@ -19,7 +19,7 @@ Resolve the issue and add detailed note of the resolution for future reference.
 ## Before you begin
 
 -   Role required: admin, problem\_admin, problem\_coordinator, or problem\_manager
--   Activate the Problem Management Best Practice — Madrid — State Model \(com.snc.best\_practice.problem.madrid.state\_model\) to get the new best practice states and guided actions to navigate the lifecycle of a problem. For details, see [Activate Problem Management Best Practice — Madrid — State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/act-pm-best-prac-madrid-state-mod.md).
+-   Activate the Problem Management Best Practice — Madrid — State Model \(com.snc.best\_practice.problem.madrid.state\_model\) to get the new best practice states and guided actions to navigate the lifecycle of a problem. For details, see [Activate Problem Management Best Practice — Madrid — State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/act-pm-best-prac-madrid-state-mod.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ Resolve the issue and add detailed note of the resolution for future reference.
     **Note:** Changing this property to include new tables also requires you to create a corresponding Business Rule for the overall functionality to work seamlessly. For example, for the Change request, the Business Rule is **Check Related Problem Fixes - Change Req**.
 
 
-**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

@@ -3,7 +3,7 @@ title: Common error messages and causes
 description: Look here for information and troubleshooting steps when you receive an error message.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/common\_error\_messages\_and\_causes.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -46,5 +46,5 @@ This error occurs on the buyside when the user opens CPQ config.
 
 Review the layout file. Make sure that references to set the variable names are accurate.
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

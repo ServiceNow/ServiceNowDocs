@@ -3,11 +3,11 @@ title: Dashboard execution statistics
 description: The Dashboard Stats Executions list enables you to view how long it takes for your Core UI dashboards to load. The list includes one entry for each launch of a dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/dashboard-statistics-exec.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dashboard statistics, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -23,8 +23,8 @@ To view dashboard execution statistics, navigate to **All** &gt; **dashboard\_st
 -   Adding unused dashboards to this list takes some time, especially if your instance has many dashboards.
 -   The **Dashboard Stats Executions** list supports the value of the property **glide.dashboard.recent\_executions\_number** per dashboard. The default value of this property is 25.
 
--   The [Dashboard statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dashboard-statistics.md) list enables you to view how often each of your Core UI dashboards is run and how long it takes to run them.
--   The [Dashboard executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dashboard-execs.md) list shows how long it takes for your Core UI dashboards to load and the ID of the user who launched it.
+-   The [Dashboard statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dashboard-statistics.md) list enables you to view how often each of your Core UI dashboards is run and how long it takes to run them.
+-   The [Dashboard executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dashboard-execs.md) list shows how long it takes for your Core UI dashboards to load and the ID of the user who launched it.
 
 By default, the **Dashboard Stats Executions** list has the following columns:
 

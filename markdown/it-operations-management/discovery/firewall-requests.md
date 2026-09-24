@@ -3,11 +3,11 @@ title: Firewall rule requests
 description: Use Service Catalog to request new firewall policies and rules.Request one or more firewall rules using Service Catalog to manage various IP addresses and enhance network security and accommodate evolving business requirements.Approval of firewall requests gives you controlled access and compliance. Members of the approver group can review and approve firewall audits and new firewall requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/firewall-requests.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Use Service Catalog to request new firewall policies and rules.
 
 \[Omitted image "request\_new\_firewall.png"\] Alt text: Request new firewall rule
 
-**Parent Topic:**[Using Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-report-use.md)
+**Parent Topic:**[Using Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/firewall-audit-report-use.md)
 
 ## Request a firewall rule
 

@@ -3,12 +3,12 @@ title: Trace the relationships between AI assets
 description: Identify the AI assets that depend on or feed into a specific AI asset to assess the impact of a planned change, investigate an unexpected evaluation score, or respond to an audit question about how data and models flow through your AI inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-asset-trace-relationships.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [asset relationship map, asset map, dependencies, related AI assets, change impact]
-breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Trace the relationships between AI assets
@@ -49,8 +49,8 @@ The asset relationship map shows the current AI asset at the center, with connec
 Depending on the relationships identified, take one of the following actions:
 
 -   Add a relationship to another asset.
--   If a related asset will be affected by an upcoming change, create a change request for that asset. See [Create change requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-asset-change-request-newexperience.md)
--   If you're investigating evaluation scores for an AI system, review the **Evaluation** tab on a connected AI model's record to see how that model performs in isolation. See [Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-asset-monitor.md).
+-   If a related asset will be affected by an upcoming change, create a change request for that asset. See [Create change requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-asset-change-request-newexperience.md)
+-   If you're investigating evaluation scores for an AI system, review the **Evaluation** tab on a connected AI model's record to see how that model performs in isolation. See [Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-asset-monitor.md).
 
-**Parent Topic:**[Managing AI asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-ai-asset-details.md)
+**Parent Topic:**[Managing AI asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-ai-asset-details.md)
 

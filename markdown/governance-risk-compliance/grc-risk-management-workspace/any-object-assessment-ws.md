@@ -3,11 +3,11 @@ title: Perform any object assessment in the Risk Workspace
 description: Assess the risks on any object or record in ServiceNow. An example of object assessment is assessing change management or assessing a citation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/any-object-assessment-ws.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,13 +22,13 @@ Role required: sn\_grc.business\_user
 
 ## About this task
 
-To perform an object risk assessment, a prior knowledge of risk is not necessary. When you perform any object assessment in the Risk Workspace, you do not see the description of the risk and any reference information because the entire context of risk is not required. You can configure the risk assessment button in the object record and start the assessment. For more information, see [Any object assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/any-object-assessment.md).
+To perform an object risk assessment, a prior knowledge of risk is not necessary. When you perform any object assessment in the Risk Workspace, you do not see the description of the risk and any reference information because the entire context of risk is not required. You can configure the risk assessment button in the object record and start the assessment. For more information, see [Any object assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/any-object-assessment.md).
 
 ## Procedure
 
 1.  Navigate to my **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the task \[Omitted image "tasks-icon-new.png"\] Alt text: Task icon. icon.
+2.  Click the Work queue \(\[Omitted image "work-queue.jpg"\] Alt text: Work queue.\)
 
 3.  Under **My pending tasks**, under Advanced risk assessments, open the object risk assessment assigned to you.
 
@@ -39,13 +39,13 @@ To perform an object risk assessment, a prior knowledge of risk is not necessary
 
 4.  If you select **Start assessment**, respond to the assessment questions.
 
-    For more information, see [Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md).
+    For more information, see [Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md).
 
-5.  Select **Save**.
+5.  Click **Save**.
 
 6.  If you have configured risk response in your risk assessment methodology, select the appropriate risk response strategy and click **Define risk response**.
 
-7.  To send the assessment for review, select **Review and submit**.
+7.  To send the assessment for review, click **Review and submit**.
 
     The assessment home page is displayed. You can review the summary of your assessment.
 
@@ -58,5 +58,5 @@ To perform an object risk assessment, a prior knowledge of risk is not necessary
     |**Reassign**|Select this option if the assessment must be assigned to someone else.|
 
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

@@ -3,9 +3,9 @@ title: Break up a large export
 description: If the number of records to be exported exceeds the actual export limit, you may want to break the export into smaller increments that do not place a significant performance load on the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/t\_BreakUpALargeExport.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export directly from a URL, Exports, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## Procedure
 
-1.  Create a filtered list of records that you want to export by following the steps in [Export directly from a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ExportDirectlyFromTheURL.md).
+1.  Create a filtered list of records that you want to export by following the steps in [Export directly from a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_ExportDirectlyFromTheURL.md).
 
 2.  Write down the number of records returned.
 

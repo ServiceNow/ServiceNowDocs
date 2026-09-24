@@ -3,9 +3,9 @@ title: View Core Business Suite Analytics
 description: Access all Core Business Suite \(CBS\) analytics in one place to monitor and review request activity across departments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/view-cbs-analytics.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CBS analytics, Core Business Suite analytics, My Assets Analytics]
 breadcrumb: [Use, Core Business Suite]
@@ -30,8 +30,8 @@ Role required: sn\_cbs\_analytics.dashboard\_viewer
 
 The CBS analytics dashboard displays request activity and metrics across all departments.
 
--   **[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-analytics-overview.md)**  
+-   **[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-analytics-overview.md)**  
 The Core Business Suite \(CBS\) Analytics dashboard provides a unified view of performance metrics and resolution trends across all Business Units in your organization.
 
-**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-using-parent.md)
+**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-using-parent.md)
 

@@ -3,11 +3,11 @@ title: Propose as a Major Security Incident
 description: Propose a security incident to a major security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/propose-as-msi.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Propose, promote, and link incident records, Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -51,7 +51,7 @@ The incident is proposed and the following actions occur:
 -   A message is sent to those in the defined notification list that contains a link to the incident record and the Details tab for the incident.
 
 
-**Parent Topic:**[Propose, promote, and link incident records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/promoting-sir-to-msim.md)
+**Parent Topic:**[Propose, promote, and link incident records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/promoting-sir-to-msim.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Install Public Sector Digital Services Core
 description: You can install the Public Sector Digital Services Core application \(sn\_gsm\) if you have an admin role. The application includes demo data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/install-public-sector-digital-services-core.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Public Sector Core, Getting Started with Public Sector, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-For more information, see [Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/installed-with-public-sector-digital-services-core.md).
+For more information, see [Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/installed-with-public-sector-digital-services-core.md).
 
 ## Procedure
 
@@ -53,5 +53,5 @@ For more information, see [Components and Roles installed with Public Sector Dig
 
 ## What to do next
 
-Use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-psds-foundation-data.md) to configure the Public Sector Digital Services Core application. If you're not using guided setup, you can customize the Government Service Portal and configure the CRM Workspace for public sector use by following the [optional configuration steps for Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-optional-config-steps.md).
+Use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/configure-psds-foundation-data.md) to configure the Public Sector Digital Services Core application. If you're not using guided setup, you can customize the Government Service Portal and configure the CRM Workspace for public sector use by following the [optional configuration steps for Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-optional-config-steps.md).
 

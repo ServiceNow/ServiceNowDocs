@@ -3,13 +3,13 @@ title: Components installed with the Evaluation dashboard
 description: Several types of components are part of the Evaluation tab, including scheduled jobs, tables, system properties, and flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-eval-components.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Evaluation dashboard reference, Reference, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Evaluation dashboard reference, AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Components installed with the Evaluation dashboard
@@ -312,5 +312,5 @@ Primary Utility function for the Evaluator.
 </table>**Related topics**  
 
 
-[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md)
+[Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables.md)
 

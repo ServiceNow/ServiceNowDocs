@@ -3,11 +3,11 @@ title: Exploring the Dispute Content Pack for US Regulations
 description: Learn how the Dispute Content Pack for US Regulations application streamlines the dispute resolution process under United States \(US\) regulatory guidelines, including Regulation E \(Reg E\) and Regulation Z \(Reg Z\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/exploring-dispute-content-pack-for-us-regulation.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispute Content Pack for US Regulations, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -37,5 +37,5 @@ Some of the key benefits of using Dispute Content Pack for US Regulations are:
 -   Helps issuers to meet the demands of US regulations.
 -   Streamlines processes to resolve disputes more efficiently, which ensures timely resolutions that benefit both issuers and cardholders.
 
-**Parent Topic:**[Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.md)
+**Parent Topic:**[Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.md)
 

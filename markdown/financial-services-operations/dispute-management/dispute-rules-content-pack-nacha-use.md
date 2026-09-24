@@ -3,11 +3,11 @@ title: Using Dispute Rules Content Pack for Nacha
 description: By using the Dispute Rules Content Pack for Nacha, your agents can help customers to determine the correct reason code for automated clearing house \(ACH\) transaction disputes based on Nacha operating guidelines. Agents use the predefined logic in the content pack, as well as a knowledge base article outlining the eligibility rules, required documentation, and timelines for each return code.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-use.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [use]
 breadcrumb: [Dispute Rules Content Pack for Nacha, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -21,7 +21,7 @@ By using the Dispute Rules Content Pack for Nacha, your agents can help customer
 
 When an agent disputes a transaction on behalf of a customer, a dispute service case begins and the dispute transaction flow is triggered. This flow includes the various tasks that are specific to the case details. As a task in the case is closed, the next task is created.
 
-1.  [Create a dispute service case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md)
+1.  [Create a dispute service case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md)
 
     A new dispute case is raised by:
 
@@ -29,11 +29,11 @@ When an agent disputes a transaction on behalf of a customer, a dispute service 
 
     -   A customer raising a new case from the customer portal.
 
-2.  [Initiate and submit a dispute.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md)
+2.  [Initiate and submit a dispute.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md)
 
     The agent or the customer enters the dispute details, including the financial account, the disputed transactions, and answers to the dispute questionnaire. For an ACH dispute, the customer will also provide documented proof, including the Written Statement of Unauthorized Debit \(WSUD\). The case is then submitted for investigation.
 
-3.  [Investigate the case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/work-dispute-ach.md)
+3.  [Investigate the case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/work-dispute-ach.md)
 
     The investigation agent follows the dispute investigation playbook and completes the activities, including issuing provisional credit, and reviewing Nacha operating guidelines.
 
@@ -59,7 +59,7 @@ If enabled, an AI agent in the ACH disputes processing agentic workflow will ref
 **Related topics**  
 
 
-[Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
+[Dispute Reason Codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md)
 
-[ACH dispute AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/ach-agentic-ai-workflow.md)
+[ACH dispute AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/ach-agentic-ai-workflow.md)
 

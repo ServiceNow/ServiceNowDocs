@@ -3,9 +3,9 @@ title: Configure the Context Engine Mapper
 description: After you have defined the data source, use the Context Engine Mapper to specify the record in the context table for which it is applicable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data context engine, Customer success, Configure, Customer Success Management]
 ---
@@ -16,7 +16,7 @@ After you have defined the data source, use the Context Engine Mapper to specify
 
 The Context Engine Mapper is a framework that establishes mappings between source entities and their corresponding context entities. It enables the resolution of context-specific records based on given sources, such as resolving engagements from customer accounts.
 
-You can use the Context Engine Mapper to determine which fields will be used to categorize data collected by the [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-metric-data.md). This mapping ensures that data is organized and analyzed based on designated breakdown fields such as account type, engagement status, or sold products.
+You can use the Context Engine Mapper to determine which fields will be used to categorize data collected by the [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-setup-metric-data.md). This mapping ensures that data is organized and analyzed based on designated breakdown fields such as account type, engagement status, or sold products.
 
 **Note:** You can set up the context engine to map the source and target tables using one of the following methods:
 

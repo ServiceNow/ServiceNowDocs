@@ -3,9 +3,9 @@ title: Input form actions in an input form screen
 description: Learn about adding a button next to input form fields. This button allows users to add comments, attach files, and navigate to other screens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/input-form-screen-input-actions.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Input actions and input sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -32,7 +32,7 @@ This button can include any variety of action items: comment, attachment, and na
     **Note:** For navigation functions labeled with a Record context, the data source mechanism is required. For navigation functions labeled with a Global context, the data source mechanism isn't required.
 
 
-For input actions script examples, refer to the following [Script code for storing user-selected attachments in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/input-actions-script-attachments.md) and [Script code for comment type and updates for input actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/input-actions-script-comments.md).
+For input actions script examples, refer to the following [Script code for storing user-selected attachments in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/input-actions-script-attachments.md) and [Script code for comment type and updates for input actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/input-actions-script-comments.md).
 
 \[Omitted image "icon-ifs-input-action-more.png"\] Alt text: Two images illustrating how a menu opens from the bottom of the screen after you select the input form action button.
 

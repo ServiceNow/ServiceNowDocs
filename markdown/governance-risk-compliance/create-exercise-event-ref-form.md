@@ -3,11 +3,11 @@ title: Create Exercise Event form
 description: Use the Create Exercise Event form in BCM UIB Workspace to add details about an Exercise event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-exercise-event-ref-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an exercise, Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Create an exercise, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create Exercise Event form
@@ -82,6 +82,14 @@ Measure of the business criticality of the affected service. Available options a
 
 </td></tr><tr><td>
 
+Level
+
+</td><td>
+
+Escalation level of the crisis event: **1-Site**, **2-Regional**, **3-Corporate**, or **4-Global**. Defaults to **-- None --** until selected manually. Read-only for the BCM viewer role.
+
+</td></tr><tr><td>
+
 Priority
 
 </td><td>
@@ -92,6 +100,18 @@ Sequence in which an Incident or Problem needs to be resolved, based on impact a
 -   **4 - Low**
 -   **5 - Planning**
 -   **None**
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Assignment details
+
+</td></tr><tr><td>
+
+Assigned to
+
+</td><td>
+
+User or users from the Assignment group. If the **Assignment group** field is empty, then select any user.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -314,7 +334,7 @@ Collaborations
 
 </td><td>
 
-Collaboration threads related to an event. Includes action items, email notifications and email attachments. For more information, see[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
+Collaboration threads related to an event. Includes action items, email notifications and email attachments. For more information, see[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -329,5 +349,5 @@ Event tasks associated with the event
 Information on the event tasks such as Number, Short description, State, Impacted assets, Assigned to, Dependencies, Actual start, Actual end, Related activated plan, Similar tasks group, Phase.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/start-exercise-event-in-uib-ws.md)
+</table>**Parent Topic:**[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/start-exercise-event-in-uib-ws.md)
 

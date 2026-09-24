@@ -3,11 +3,11 @@ title: Service Portfolio Management Premium notifications
 description: Notifications are added with Service Portfolio Management Premium to manage your service offering to catalog item relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-premium-notifications.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
@@ -45,7 +45,7 @@ Catalog Item created from OfferingTable: Available for Subscribers \[sc\_cat\_it
 Sends an email to a specified user group when a new catalog item has been created from a service offering. The email asks that the new catalog item be reviewed and prepared for activation in the catalog.
 
 </td></tr></tbody>
-</table>To configure catalog\_admin recipients for these notifications, refer to [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
+</table>To configure catalog\_admin recipients for these notifications, refer to [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAGroup.md).
 
-**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
+**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
 

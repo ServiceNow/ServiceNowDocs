@@ -3,9 +3,9 @@ title: Create a model to detect case language
 description: Edit and test the pre-trained model to detect the language used to create customer service cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-create-language-solution.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ Edit and test the pre-trained model to detect the language used to create custom
 
     -   Activate the I18N: Internationalization plugin
     -   Enable the ServiceNow translator.
-    For more information, see [Configure language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-language-detection-configure.md).
+    For more information, see [Configure language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/case-language-detection-configure.md).
 
 
 ## Set up your model

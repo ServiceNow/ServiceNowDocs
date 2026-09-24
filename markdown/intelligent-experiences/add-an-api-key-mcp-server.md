@@ -3,11 +3,11 @@ title: Add an MCP Server with API Key
 description: Add an MCP Server with an API Key in the AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-an-api-key-mcp-server.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client Legacy, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Add an MCP Server with API Key

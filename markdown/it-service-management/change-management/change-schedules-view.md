@@ -3,11 +3,11 @@ title: Change schedules view
 description: The Change Schedules module provides a Gantt or timeline view of change requests based on criteria defined within a Change Schedule Definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-schedules-view.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Change schedules, Configure, Change Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Change requests are represented by a span. The duration of the span is defined b
 
 **Note:** To show the blackout and maintenance windows of the change in the calendar view, the **Configuration item** field for the change must be populated. The change schedule view is only able to display related Blackout and Maintenance windows for the primary CI \(Configuration item\) defined for each change request.
 
-\[Omitted image "change-schedule-view-annotated.png"\] Alt text: Change Schedule page with highlighted callouts. For the text descriptions, refer to the table that follows.
+\[Omitted image "change-schedule-view-annotated.png"\] Alt text: change schedules view
 
 <table id="table_cv4_kmd_gdb"><thead><tr><th>
 
@@ -148,9 +148,9 @@ Change record
 Summary of the change record when you click any span. Use **Open Record** in the header of the summary to open the change request in the form view. In the form, you can view the entire change request record. **Note:** You can specify the fields that are displayed in this window. On the Change Schedule Definition form, under the **Record Summary** tab, specify required fields on **Left column fields** and **Right column fields**.
 
 </td></tr></tbody>
-</table>**Note:** Change schedules are loaded on the timeline page on the client side in batches of 20. You can load a maximum of 1000 records. These numbers can be modified by system administrator. For more information, refer the properties at [Installed with Change Management - Change Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-cm-changeschedule.md).
+</table>**Note:** Change schedules are loaded on the timeline page on the client side in batches of 20. You can load a maximum of 1000 records. These numbers can be modified by system administrator. For more information, refer the properties at [Installed with Change Management - Change Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/installed-cm-changeschedule.md).
 
-**Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-schedule.md)
+**Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-schedule.md)
 
 **Related topics**  
 

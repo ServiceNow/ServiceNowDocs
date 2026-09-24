@@ -3,12 +3,12 @@ title: Configure Microsoft Exchange Online calendar provider
 description: Configure Microsoft Exchange Online as a calendar provider in normal mode to synchronize reservations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/configure-xsex-calendar-provider-in-normal-mode.html
-release: australia
+release: brazil
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
-last_updated: "2026-03-23"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Create a normal mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -18,7 +18,7 @@ Configure Microsoft Exchange Online as a calendar provider in normal mode to syn
 
 ## Before you begin
 
-**Important:** If you do not want to use the default alias provided by the application for the calendar provider, you can create your own connection and credential alias. Refer to [Create your own connection and credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.md).
+**Important:** If you do not want to use the default alias provided by the application for the calendar provider, you can create your own connection and credential alias. Refer to [Create your own connection and credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.md).
 
 Ensure that the application scope is set to **Microsoft Exchange Online Spoke**. Otherwise, do the following:
 
@@ -33,7 +33,7 @@ Role required: admin
 
 ## About this task
 
-Configure Microsoft Exchange Online as calendar provider. If you want to specify your own alias, then enable the **Override alias** option. To create your own alias, refer to [Create your own connection and credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.md).
+Configure Microsoft Exchange Online as calendar provider. If you want to specify your own alias, then enable the **Override alias** option. To create your own alias, refer to [Create your own connection and credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.md).
 
 ## Procedure
 
@@ -145,12 +145,24 @@ The calendar provider is added.
 
 ## What to do next
 
-Run Instance scan to check Microsoft Exchange Online synchronization configuration. For more information, see [Run Instance scan to check Microsoft Exchange Online synchronization configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/run-instance-scan-on-your-workplace-cal-sync-configs.md).
+Run Instance scan to check Microsoft Exchange Online synchronization configuration. For more information, see [Run Instance scan to check Microsoft Exchange Online synchronization configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-calendar-synchronization/run-instance-scan-on-your-workplace-cal-sync-configs.md).
 
-**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
+**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
+
+**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
 
 **Related topics**  
 
+
+[Configure Microsoft Azure in normal mode]()
+
+[Create a connection with Microsoft Exchange Online spoke]()
+
+[Set up OAuth connection with Microsoft Exchange Online]()
+
+[Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections]()
+
+[Create your own connection and credential alias for Microsoft Exchange Online]()
 
 [Configure Microsoft Azure in normal mode]()
 

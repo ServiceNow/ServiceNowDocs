@@ -3,9 +3,9 @@ title: Create a case from IoCs or observables
 description: In Threat Intelligence, you can create a case from artifacts \(IoCs or observables\). After the IoCs or observables have been used to create a case, you can use Security Case Management to analyze the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-cases-threat.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IoCs and observables in cases, Case creation from security artifacts, Security Case Management, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -54,7 +54,7 @@ Role required: sn\_ti.case\_user\_write
 7.  Click the link to view the new case.
 
 
-**Parent Topic:**[IoCs and observables in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cases-in-threat.md)
+**Parent Topic:**[IoCs and observables in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/cases-in-threat.md)
 
 **Related topics**  
 

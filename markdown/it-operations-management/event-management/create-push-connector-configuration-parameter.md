@@ -3,11 +3,11 @@ title: Create a push connector configuration parameter
 description: Some connectors have no parameters that are shipped out of the box. Therefore, it’s necessary to create and add the parameter to the push connector configurations list in the form layout before adding the new parameter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-push-connector-configuration-parameter.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

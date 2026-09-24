@@ -3,7 +3,7 @@ title: Work on a Store Task on the Retail Portal
 description: Complete individual work items tied to a Store Case, including a linked questionnaire, using the Retail Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-in-store-task-portal.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-07-14"
 reading_time_minutes: 1
@@ -34,7 +34,7 @@ Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 
 5.  If a questionnaire is linked to the task, select the **Questionnaires** tab to view it.
 
-    The tab shows a card with the questionnaire name, description, status badge, and last-updated timestamp. To complete the questionnaire, see [Complete a questionnaire for a Store Task on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-complete-questionnaire-portal.md).
+    The tab shows a card with the questionnaire name, description, status badge, and last-updated timestamp. To complete the questionnaire, see [Complete a questionnaire for a Store Task on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-complete-questionnaire-portal.md).
 
 6.  From the **Overflow** menu, select **Edit task** to reassign the task.
 
@@ -45,5 +45,5 @@ Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
     **Note:** If a linked questionnaire hasn't been submitted, the **Close** button is disabled with a tooltip explaining why. Unlike a Store Case, this is a hard block: you can't close a Store Task until every linked questionnaire is submitted.
 
 
-**Parent Topic:**[Fulfill In-store operations cases and tasks on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-portal.md)
+**Parent Topic:**[Fulfill In-store operations cases and tasks on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-portal.md)
 

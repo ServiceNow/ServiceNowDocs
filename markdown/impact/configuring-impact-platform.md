@@ -1,41 +1,44 @@
 ---
 title: Configuring Impact
-description: The tasks are outlined that are required to install and then configure the Impact Store Application using Guided Setup.
+description: The tasks are outlined to install and set up the Impact Store Application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configuring-impact-platform.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact]
 ---
 
 # Configuring Impact
 
-The tasks are outlined that are required to install and then configure the Impact Store Application using Guided Setup.
+The tasks are outlined to install and set up the Impact Store Application.
 
-Guided setup provides a sequence of tasks that help you configure the Impact Store Application in your ServiceNow instance.
+<table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td align="center">
 
-The configuration and connection steps must be performed for each instance to connect to the Impact Delivery Instance for multi-instance configurations.
+[Install Impact\[Omitted image "bus-cloud-download.svg"\] Alt text:Install Impact from the ServiceNow Store.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/install-impact-innovation-lab.md)
 
-Automated registration, the preferred method, initiates the connection and the registration to the Impact Delivery Instance provider instance into combined tasks.
+</td><td align="center">
 
-**Note:** Regulated and GCC customers are required to perform Manual registration. See [Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/use_manual_registration_configure_impact_store_application.md).
+[Use Guided Setup\[Omitted image "bus-low-code-dev-tools.svg"\] Alt text:Use Guided Setup to onboard users, setup and configure Scan Engine, and sync data to your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md)
 
-Follow the individual topics for each step of the Impact Guided setup.
+</td></tr><tr><td align="center">
 
-1.  [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md)  
+[Activate the ServiceNow Otto skill for Impact\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Get assistance from generative AI experiences to help with your instance faster.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md)
+
+</td><td align="center">
+
+[Use the Data Collection toolkit\[Omitted image "bus-application-logic.svg"\] Alt text:Migrate historical data for value tracking and reporting to analyze critical success metrics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-toolkit.md)
+
+</td></tr></tbody>
+</table>1.  [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/install-impact-innovation-lab.md)  
 Follow these instructions to install the Impact Store Application.
-2.  [Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)  
+2.  [Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md)  
 Use Impact Guided Setup to follow a sequence of tasks that help you configure the Impact Store Application on your ServiceNow instance.
-3.  [Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)  
-Scan Engine integrates with other ServiceNow instances and external agile systems to synchronize definitions, manage exception reasons, create user stories, and enforce governance over app deployments.
-4.  [Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/hop-access-impact-squad.md)  
-Familiarize yourself with your ServiceNow Impact Squad, a dedicated team of experts ready to assist in tackling your team's unique transformation challenges. View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
-5.  [Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md)  
+3.  [Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md)  
 Activate the Now Assist skill before you can use the generative AI capabilities for Impact.
-6.  [Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)  
+4.  [Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-toolkit.md)  
 The Impact Value Management Data Collection apps are designed to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\). These applications enable you to efficiently gather, track, and analyze critical success metrics, ensuring data-driven decision-making and improved visibility into key performance trends.
 
-**Parent Topic:**[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-landing-page.md)
+**Parent Topic:**[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-landing-page.md)
 

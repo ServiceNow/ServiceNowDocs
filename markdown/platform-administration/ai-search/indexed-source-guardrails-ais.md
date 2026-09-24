@@ -3,11 +3,11 @@ title: Indexed source guardrails
 description: Reduce index size and increase search performance with guardrails that limit the number of task and alert source records indexed from indexed sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/indexed-source-guardrails-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,9 +28,9 @@ Guardrails are enabled in the base system for the Task and Alert tables and thei
 
 When guardrails are enabled, AI Search first checks the Guard Rail Limit for Indexed Data Sources \[`ais_guard_rail_limit_data_source`\] table to see whether a record exists for the indexed source \(defining the maximum number of records to index for that indexed source\). If no table entry exists, AI Search checks the `glide.ais.ingestion.guard_rails_enabled_datasources` system property value to see whether a limit is defined there for the indexed source. If no limit is found in either place, AI Search doesn't apply guardrail limits to the indexed source.
 
-Guardrail limits on the number of records indexed are applied after the set of source records is limited by the indexed source's filter conditions and retention policy. For details on indexed source filter conditions and retention policies, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md).
+Guardrail limits on the number of records indexed are applied after the set of source records is limited by the indexed source's filter conditions and retention policy. For details on indexed source filter conditions and retention policies, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md).
 
-AI Search always indexes the most recently modified records from the indexed source table. If indexing causes the record count for the table to exceed the guardrail limit, AI Search discards older records from the index to make room for the newer records.
+AI Search indexes the most recently modified records from the indexed source table. If indexing causes the record count for the table to exceed the guardrail limit, AI Search discards older records from the index to make room for the newer records.
 
 ## Modifying guardrail settings
 
@@ -75,9 +75,9 @@ Similarly, you can define a filter condition for an indexed source that excludes
 
 AI Search also uses your retention policy and filter condition settings to automatically purge stale records from the index, reducing its size.
 
-To learn more about creating retention policies and filter conditions for your indexed sources, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md).
+To learn more about creating retention policies and filter conditions for your indexed sources, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md).
 
 **Note:** Retention policies are required for indexed sources that index records from the Task \[task\] table or tables that extend it. They are optional for other indexed sources.
 
-**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md)
+**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/indexed-sources-ais.md)
 

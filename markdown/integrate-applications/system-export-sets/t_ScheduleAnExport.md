@@ -3,11 +3,11 @@ title: Schedule an export
 description: You can schedule an export to regularly push data from an export set to a remote destination. By setting up a recurring, scheduled export you are able to regularly push data to an external location, such as for reporting or for preserving a snapshot of the data.Delta exports include only the records that changed since the last scheduled export.When scheduling an export set, you can access certain JavaScript objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/t\_ScheduleAnExport.html
-release: australia
+release: brazil
 product: System Export Sets
 classification: system-export-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Export sets, Exports, Workflow Data Fabric]
 ---
@@ -182,7 +182,7 @@ Parallel export
 
 </td><td>
 
-Select this check box to enable parallel exports. See [Parallel exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-export-sets/parallel-exports.md).
+Select this check box to enable parallel exports. See [Parallel exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-export-sets/parallel-exports.md).
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

@@ -3,9 +3,9 @@ title: Report an OT incident in the Employee Center for OT
 description: If you're not an Operational Technology \(OT\) incident user and need to report an OT incident, report the incident in the Employee Center for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/report-ot-incident-in-ot-employee-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Employee Center for OT, Operational Technology]
 ---
@@ -57,5 +57,5 @@ When you report the OT incident, an overview of the incident is provided along w
 
 You can also view your request in the Employee Center by selecting **My Requests**. Viewing your request on the requests page lets you see any work notes or activities saved to your submitted request.
 
-**Parent Topic:**[Using the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-ot-employee-portal.md)
+**Parent Topic:**[Using the Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/using-ot-employee-portal.md)
 

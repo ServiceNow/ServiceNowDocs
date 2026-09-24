@@ -3,9 +3,9 @@ title: Options for time series data visualizations with multiple metrics
 description: If you are showing multiple metrics in a time series data visualization, you can set the group by, visualization type, and Y-axis scale for each metric. You can also have filters on a dashboard apply only to specific metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/chart-options-multi-metrics.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -52,5 +52,5 @@ For example, consider a bar visualization that shows the Number of open problems
 
 \[Omitted image "dv-follow-filters-per-metric.png"\] Alt text: Bar visualization configured so that of two metrics, one follows filters on a dashboard and one does not.
 
-**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-time-series-ac.md)
+**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-time-series-ac.md)
 

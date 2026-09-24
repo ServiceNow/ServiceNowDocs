@@ -1,20 +1,20 @@
 ---
 title: Configure a MID Server push listener for event collection
-description: The MID Server supports the collection of event messages using the MID Web Server. The MID Web Server collects data from external sources and transforms \(parses\) it to the format required for event fields in the event \[em\_event\] table. The transformed events are then transmitted to the instance.
+description: The MID Server supports the collection of event messages using the MID Web Server to collect data from external sources. The data is transformed \(parsed\) to the format required for event fields in the event \[em\_event\] table and transmitted to the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-midserver-event-collection.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure a MID Server push listener for event collection
 
-The MID Server supports the collection of event messages using the MID Web Server. The MID Web Server collects data from external sources and transforms \(parses\) it to the format required for event fields in the event \[em\_event\] table. The transformed events are then transmitted to the instance.
+The MID Server supports the collection of event messages using the MID Web Server to collect data from external sources. The data is transformed \(parsed\) to the format required for event fields in the event \[em\_event\] table and transmitted to the instance.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-The MID Web Server extension enables external clients to push metric data and events to the MID Server. See [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md). Use the MID WebService Event Collector to enable a URL method to push event messages to the MID Server. See [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-em-context-extension.md).
+The MID Web Server extension enables external clients to push metric data and events to the MID Server. See [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md). Use the MID WebService Event Collector to enable a URL method to push event messages to the MID Server. See [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-em-context-extension.md).
 
 Configure a MID Server with either **EventManagement** or **All** in the Supported Applications List.
 
@@ -46,21 +46,21 @@ To ensure uninterrupted services, consider also configuring a failover MID Serve
 
 4.  To ensure that the MID Server is validated, under Related Links, select **Validate**.
 
-    For more information, see [Validate a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ValidateAMIDServer.md).
+    For more information, see [Validate a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ValidateAMIDServer.md).
 
 5.  Click **Update**.
 
 
 ## What to do next
 
-Configure the MID WebService Event Collector to enable a URL method to push event messages to the MID Server. For more information, see [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-em-context-extension.md).
+Configure the MID WebService Event Collector to enable a URL method to push event messages to the MID Server. For more information, see [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-em-context-extension.md).
 
 **Related topics**  
 
 
-[Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md)
+[Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md)
 
-[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
+[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
 
-[Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-em-context-extension.md)
+[Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-em-context-extension.md)
 

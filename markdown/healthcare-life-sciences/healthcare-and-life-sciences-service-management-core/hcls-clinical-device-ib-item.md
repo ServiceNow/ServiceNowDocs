@@ -3,11 +3,11 @@ title: Medical device install base item table
 description: The Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] table stores the medical device details associated with a healthcare case or its extended case types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-clinical-device-ib-item.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model tables, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -75,7 +75,7 @@ Alpha-numeric profile identifier of the medical device.
 
  The value is auto-generated and is incremented every time you add a new medical device to your ServiceNow instance. The initial value for the **Number** field is IBITM0001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
 
 </td></tr><tr><td>
 
@@ -148,5 +148,5 @@ Installation status of the medical device.
 -   Stolen
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

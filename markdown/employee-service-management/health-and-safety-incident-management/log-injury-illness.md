@@ -3,12 +3,12 @@ title: Log an injury and illness
 description: Log an injury and illness that resulted from a health and safety incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/log-injury-illness.html
-release: australia
+release: brazil
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Work on a safety incident, Manage incidents and observations, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
@@ -24,7 +24,7 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 Add an injury and illness record for each affected person during the incident.
 
-**Note:** If your admin has turned off the playbook and you're using a tab-based experience for safety incidents, you can associate multiple injuries and illnesses to a single incident. For more information, see [Disable the safety incident playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/disable-safety-incident-playbook.md).
+**Note:** If your admin has turned off the playbook and you're using a tab-based experience for safety incidents, you can associate multiple injuries and illnesses to a single incident. For more information, see [Disable the safety incident playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/disable-safety-incident-playbook.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ Add an injury and illness record for each affected person during the incident.
 
     2.  On the form, fill in the fields in the **Person**, **Healthcare**, and **Injury and illness details** sections.
 
-        For field descriptions, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
+        For field descriptions, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
 
 6.  Select **Save**.
 
@@ -77,7 +77,7 @@ Add an injury and illness record for each affected person during the incident.
     -   Health and Safety Case Management \(sn\_hs\_cm\) application and the Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin are installed on your ServiceNow instance.
     -   Safety case manager \[sn\_hs\_cm.case\_manager\] role assigned to you.
     -   **Employee** is selected in the **Person type** field.
-    For more information, see [Create an HR case from an injury or illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/create-hr-case-injury-illness.md).
+    For more information, see [Create an HR case from an injury or illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/create-hr-case-injury-illness.md).
 
 10. Create a return to work case for the person involved in this injury or illness using the **Create RTW Case** button, if needed.
 
@@ -88,7 +88,7 @@ Add an injury and illness record for each affected person during the incident.
     -   **Employee** is selected in the **Person type** field.
     However, the button doesn't appear when the Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is also installed on the instance.
 
-    For more information, see [Create a return to work case from an injury or illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/create-rtw-case-injury-illness.md).
+    For more information, see [Create a return to work case from an injury or illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/create-rtw-case-injury-illness.md).
 
 11. Research content related to the injury by selecting the Agent assist icon \(\[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: agent assist icon\).
 
@@ -107,5 +107,7 @@ Add an injury and illness record for each affected person during the incident.
 
 If an asset was involved in this injury, add it in the next playbook activity.
 
-**Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
+**Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
+
+**Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
 

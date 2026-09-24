@@ -3,11 +3,11 @@ title: Dependency Views map
 description: ServiceNow The Dependency Views map shows an overall top-down Kubernetes perspective, starting from a top-level cluster to the container and within the container.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-discovery-workspace/dependency-views-map.html
-release: australia
+release: brazil
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Management]
 ---

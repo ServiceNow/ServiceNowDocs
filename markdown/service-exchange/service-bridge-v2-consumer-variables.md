@@ -3,11 +3,11 @@ title: Add consumer variables to a remote record producer
 description: As a consumer, you can add your own variables to a provider's remote record producer \(RRP\) in your consumer instance using a variable set. Consumer variables are useful in a Consumer Pre-Flow for adding additional information to complete a flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-consumer-variables.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
@@ -21,7 +21,7 @@ As a consumer, you can add your own variables to a provider's remote record prod
 Note the following requirements:
 
 -   You must be using Service Exchange version 2.1.x+.
--   You have added the necessary variables to a variable set. For more details, see [Using variable sets with Remote Record Producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-variable-sets.md).
+-   You have added the necessary variables to a variable set. For more details, see [Using variable sets with Remote Record Producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-variable-sets.md).
 
 Role required: admin, itil, sn\_sb.admin
 

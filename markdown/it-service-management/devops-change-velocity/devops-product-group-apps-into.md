@@ -3,11 +3,11 @@ title: Group DevOps applications into a product
 description: Products that use an application model in the CSDM support hierarchies of applications. You can customize hierarchies to simplify tracking of "rolled-up" data on DevOps Insights reports. This is used for the Product filter in insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-product-group-apps-into.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Insights reports, DevOps Change Velocity, IT Service Management]
 ---
@@ -34,7 +34,7 @@ For every product, the system creates a corresponding entry in the application m
 
 ## Procedure
 
-1.  Create applications as described in [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
+1.  Create applications as described in [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
 
 2.  Open the application models table: `<instanceName>/cmdb_application_product_model_list.do` and then follow this procedure to configure each application that will be included in a product.
 

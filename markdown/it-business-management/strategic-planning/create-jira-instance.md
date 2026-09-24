@@ -3,11 +3,11 @@ title: Create Jira instance for SPW Jira Integrations
 description: Create a Jira instance record which is later used to connect Strategic Planning Workspace and Jira.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-jira-instance.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a Jira instance, Configure, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Create a Jira instance record which is later used to connect Strategic Planning 
 
 ## Before you begin
 
-[Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-connection-and-credentials.md).
+[Create connection and credentials for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-connection-and-credentials.md).
 
 Role required: sn\_jira\_int.admin
 
@@ -30,14 +30,14 @@ Role required: sn\_jira\_int.admin
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Jira Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/jira-instance-form.md).
+    For field information, see [Jira Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/jira-instance-form.md).
 
 4.  Select **Submit**.
 
 
 ## What to do next
 
-[Connect SPW to Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/connect-spw-to-jira.md).
+[Connect SPW to Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/connect-spw-to-jira.md).
 
-**Parent Topic:**[Setting up a Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/setting-up-jira-instance-spw.md)
+**Parent Topic:**[Setting up a Jira instance for SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/setting-up-jira-instance-spw.md)
 

@@ -3,9 +3,9 @@ title: Request AI agent support in the Interaction page
 description: Request AI-powered assistance during customer interactions to receive real-time insights, intent identification, and recommended responses. The Banking CSR support AI agent analyzes call context and transcripts to provide next-step guidance and suggested actions within the Interaction page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/request-ai-agent-interaction-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -47,10 +47,10 @@ When an interaction with a customer begins, the Banking CSR support AI agent wil
 
 The AI agent answers your questions using information from its configured knowledge sources.
 
-**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/agentic-contact-center-for-banking-agents-overview.md)
+[Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/agentic-contact-center-for-banking-agents-overview.md)
 

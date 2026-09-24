@@ -3,11 +3,11 @@ title: Spend analytics
 description: The Spend analytics page gives you visibility of your cloud spending data across multiple report types, including cloud spend, Kubernetes spend, and shared cost. Use saved views to store and reload your preferred filter configurations, including cost type, time range, and group-by selections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/spend-anaytics.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Spend view, Cloud Cost Management Workspace, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -172,7 +172,7 @@ Narrows down spend data using the following specific scopes:-   Provider
 -   Resource group
 -   Tag category
 
-**Note:** For more information about tag categories and the list of default tag categories, see [Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md) and [List of default tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/default-tag-categories.md).
+**Note:** For more information about tag categories and the list of default tag categories, see [Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tags-overview.md) and [List of default tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/default-tag-categories.md).
 
 -   Tag values
 -   Tag categories selected
@@ -181,11 +181,11 @@ Narrows down spend data using the following specific scopes:-   Provider
 </table>**Related topics**  
 
 
-[Cloud service categories in Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-ser-categories.md)
+[Cloud service categories in Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/cloud-ser-categories.md)
 
-[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
+[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
 
-[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
+[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 
-[Create or update a shared cost allocation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-shared-cost-policy.md)
+[Create or update a shared cost allocation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/create-shared-cost-policy.md)
 

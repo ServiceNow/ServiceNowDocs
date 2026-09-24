@@ -3,12 +3,12 @@ title: Set up AI Search for GAF
 description: Configure AI Search to enable Group Action Framework \(GAF\) to improve quality and consistency of agentic AI and generative AI on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/setup-ai-search-gaf.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [gaf]
-breadcrumb: [GAF, Configure, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [GAF, Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Set up AI Search for GAF
@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-GAF is a feature on the ServiceNow AI Platform that clusters and indexes related records and executes actions on them in agentic AI and generative AI. See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/group-action-framework.md) for more information about GAF's role in intelligent experiences and how it works.
+GAF is a feature on the ServiceNow AI Platform that clusters and indexes related records and executes actions on them in agentic AI and generative AI. See [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/group-action-framework.md) for more information about GAF's role in intelligent experiences and how it works.
 
 AI Search is the foundation for GAF's optimized prediction feature. AI Search is the backup search for certain workflows, and if it is not enabled and ready, GAF will not return any results.
 
@@ -35,7 +35,7 @@ You must index every table for each workflow or application you'd like to config
 
 2.  Install ServiceNow Otto for AI Search by installing an application with generative or agentic AI features.
 
-    For more information, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-now-assist-ais.md).
+    For more information, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/install-now-assist-ais.md).
 
 3.  Verify that your LLM provider is configured and accessible.
 
@@ -79,5 +79,5 @@ The tables for ServiceNow Otto for AI Search for your Now Assist application is 
 
 To confirm that indexing has occurred successfully, check the Indexed Source History related list and ensure that both the **Keyword Ingestion State** and **Semantic Ingestion State** are both set to **Indexed**.
 
-Once your tables have been indexed, you can continue to [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-gaf.md) to set up GAF for each application.
+Once your tables have been indexed, you can continue to [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-gaf.md) to set up GAF for each application.
 

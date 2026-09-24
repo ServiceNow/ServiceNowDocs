@@ -3,9 +3,9 @@ title: List of components compatible with latest version
 description: Learn about the list of components that are executed in their latest versions in the RPA Desktop Design Studio and robots, irrespective of the version they were used during the automation design.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/list-components-upgrade.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Robotic Process Automation \(RPA\) solution is built with backward compatibility
 
 An automation built using the earlier plugin versions are compatible with a latest version. For example, if an automation is built using an earlier version of a plugin, 1.0, the RPA Desktop Design Studio, Attended Robot, and Unattended Robot applications run the automation by loading the plugin version 1.0.
 
-If any newer version of a component is no longer compatible with its older versions, they’re documented in the release notes. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rpa-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rpa-rn.md) and RPA Plugin Bundle release notes.
+If any newer version of a component is no longer compatible with its older versions, they’re documented in the release notes. For more information, see  and RPA Plugin Bundle release notes.
 
 Additionally, any automation component interacting with RPA Hub APIs are only compatible with its own RPA Hub version. For example, if the component is released as part of Utah 4.1, then it’s compatible only for that version.
 
@@ -77,5 +77,5 @@ The following list of components are executed in their latest versions in the RP
 |RemoteActivity|
 |VariableContainer|
 
-**Parent Topic:**[Automation components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-automation-components.md)
+**Parent Topic:**[Automation components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-studio-automation-components.md)
 

@@ -3,11 +3,11 @@ title: Connect data components
 description: Use the data binding modal to associate data exposed by local data resources to components on your UI Builder page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/connect-data-components.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -51,10 +51,10 @@ Use this method if you are comfortable working in and editing JSON code.
 
 \[Omitted image "bind-json.png"\] Alt text: Data binding modal with black arrow pointing to JSON option.
 
--   **[Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data.md)**  
+-   **[Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/connect-data.md)**  
 Bind data exposed by local data resources to components on your UI Builder page.
--   **[Connect data to your components with formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data-formulas.md)**  
+-   **[Connect data to your components with formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/connect-data-formulas.md)**  
 Bind data exposed by local data resources to components with formulas on your UI Builder page.
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/data-resources.md)
 

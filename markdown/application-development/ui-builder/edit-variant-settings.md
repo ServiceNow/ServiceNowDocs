@@ -3,11 +3,11 @@ title: Edit page variant settings
 description: Edit page variant settings to add additional criteria to determine when the page variant displays to users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/edit-variant-settings.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a page variant, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -74,7 +74,7 @@ Conditions
 
 </td><td>
 
-Set the rules for when your pages are shown. For more information, see [Control the conditions for a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/control-conditions-for-your-variant.md).
+Set the rules for when your pages are shown. For more information, see [Control the conditions for a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/control-conditions-for-your-variant.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Audiences
 
 </td><td>
 
-Add or remove audiences for the page variant. For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
+Add or remove audiences for the page variant. For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-audiences.md).
 
 </td></tr></tbody>
 </table>    \[Omitted image "variant-edit-settings-screen.png"\] Alt text: Edit page variant settings screen.
@@ -90,5 +90,5 @@ Add or remove audiences for the page variant. For more information, see [Learn a
 6.  Click **Save**.
 
 
-**Parent Topic:**[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
+**Parent Topic:**[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-variant.md)
 

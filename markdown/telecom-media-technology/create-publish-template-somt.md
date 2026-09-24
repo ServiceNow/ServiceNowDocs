@@ -3,9 +3,9 @@ title: Create and publish a template
 description: Create and publish a template so that you can define the 5G network services for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-publish-template-somt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Retire or archive versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -109,15 +109,15 @@ The template is archived. You can archive only a retired template.
 
 9.  Publish, save, or copy the draft template.
 
-<table id="choicetable_q3p_bpt_txb"><thead><tr><th align="left" id="d22726e386">
+<table id="choicetable_q3p_bpt_txb"><thead><tr><th align="left" id="d22723e386">
 
 Action
 
-</th><th align="left" id="d22726e389">
+</th><th align="left" id="d22723e389">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d22726e395">
+</th></tr></thead><tbody><tr><td id="d22723e395">
 
 **Publish**
 
@@ -133,7 +133,7 @@ Do one of the following actions:
 -   To publish this template, select **OK**.
 When you publish it, its state changes from Draft to Published.
 
-</td></tr><tr><td id="d22726e424">
+</td></tr><tr><td id="d22723e424">
 
 **Save**
 
@@ -141,7 +141,7 @@ When you publish it, its state changes from Draft to Published.
 
 Update the template with the new data that you added.
 
-</td></tr><tr><td id="d22726e435">
+</td></tr><tr><td id="d22723e435">
 
 **Copy**
 
@@ -153,5 +153,5 @@ Copy the data in this template so that you can create a template from it.
 </table>
 ## What to do next
 
-Create and publish the service specifications and associate them with the templates. For more information, see [Create and publish service specifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-service-specification.md).
+Create and publish the service specifications and associate them with the templates. For more information, see [Create and publish service specifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-service-specification.md).
 

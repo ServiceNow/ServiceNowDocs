@@ -3,11 +3,11 @@ title: Investigate config change alerts
 description: A high percentage of alerts occur due to errors in config data. If the chain of events that resulted in an alert includes a change request that involves the same CI as the alert, then you can use a variety of tools to isolate the config changes that might have caused the alert.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ A high percentage of alerts occur due to errors in config data. If the chain of 
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Roles required: Both cdm\_viewer and evt\_mgmt\_user.
 
@@ -147,7 +147,7 @@ The target snapshot is the snapshot that is associated with the change request. 
 
     -   **B: Data panel**
 
-        The data panel displays groups of CDIs for the selected node. By default, the root node is selected in the node tree, and the list includes all CDIs for both snapshots. Select a node in the navigation panel to display CDIs for only that node and its descendents. You can switch from this list view of the config data to a script view, as described in [G: Script view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.md).
+        The data panel displays groups of CDIs for the selected node. By default, the root node is selected in the node tree, and the list includes all CDIs for both snapshots. Select a node in the navigation panel to display CDIs for only that node and its descendents. You can switch from this list view of the config data to a script view, as described in [G: Script view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.md).
 
         Expand and close groupings with the expand icon \(\[Omitted image "cdm-icon-expand.png"\] Alt text: expand icon\). If a selection includes more than 50 CDIs, then CDIs are organized into groups of 50.
 

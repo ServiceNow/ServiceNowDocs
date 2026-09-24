@@ -3,12 +3,12 @@ title: AI inquiries
 description: Ask a question or request information related to AI governance, such as a question about a policy, a process, or a specific AI asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-ai-inquiries.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI inquiry, question, request for information]
-breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI inquiries

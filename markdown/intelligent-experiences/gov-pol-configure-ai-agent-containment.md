@@ -3,12 +3,12 @@ title: Configure automatic AI agent containment
 description: Connect an identity provider and the AI agent runtime platforms to AI Control Tower so a Threat Response policy can automatically contain an AI agent using kill switch protocol.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-configure-ai-agent-containment.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Policies, Threat Response, Control Enforcement Points, kill switch protocol]
-breadcrumb: [Configure, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Threat Response, Control Enforcement Points, kill switch protocol]
+breadcrumb: [Configure, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure automatic AI agent containment
@@ -38,10 +38,10 @@ To let a Threat Response policy automatically contain an AI agent using kill swi
 
 2.  Select the connector from the **Available connectors** sub-tab and follow the guided setup wizard.
 
-    For more information, see [Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-security-connections.md).
+    For more information, see [Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-security-connections.md).
 
 
 ## Result
 
-You can now create a Threat Response policy that automatically contains an AI agent using kill switch protocol on the connected platforms. For details, see [Create a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-create-threat-response-policy.md).
+You can now create a Threat Response policy that automatically contains an AI agent using kill switch protocol on the connected platforms. For details, see [Create a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-create-threat-response-policy.md).
 

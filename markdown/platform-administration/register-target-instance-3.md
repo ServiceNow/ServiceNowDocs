@@ -3,9 +3,9 @@ title: IP authentication error
 description: Troubleshoot a IP authentication error that occurs while registering a target instance
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/register-target-instance-3.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Troubleshooting for registering target instance, Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,7 @@ The IP address for the target instance is outside of the IP range.
 
 ## Remedy
 
-If the target instance uses IP range based authentication, it must enable the IP range `10.0.0.0/10.255.255.255` to communicate on a local network. See [IP range based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_IPRangeBasedAuthentication.md).
+If the target instance uses IP range based authentication, it must enable the IP range `10.0.0.0/10.255.255.255` to communicate on a local network. See [IP range based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_IPRangeBasedAuthentication.md).
 
-**Parent Topic:**[Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-troubleshooting.md)
+**Parent Topic:**[Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/register-target-instance-troubleshooting.md)
 

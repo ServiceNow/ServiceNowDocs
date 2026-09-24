@@ -3,11 +3,11 @@ title: Benefit plan updates and recalculation in demand currency
 description: Updating the entered currency, entered benefit, offset type, or fiscal period of a benefit plan updates all related amount fields in the benefit plan and its breakdowns. The amounts in the related demand fields are recalculated and reflected in demand currency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/benefit-plan-updates-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Multicurrency reference, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---

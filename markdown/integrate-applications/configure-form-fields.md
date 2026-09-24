@@ -3,9 +3,9 @@ title: Configure the form fields for the Form Renderer element
 description: Configure the form fields in the Form Renderer element while you are building an attended automation form in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-form-fields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create an attended automation form in RPA Desktop Design Studio, Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,9 +16,9 @@ Configure the form fields in the Form Renderer element while you are building an
 
 ## Before you begin
 
-Create an attended automation form in RPA Desktop Design Studio. For more information, see [Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-rda-form.md).
+Create an attended automation form in RPA Desktop Design Studio. For more information, see [Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-rda-form.md).
 
-Ensure that your attended automation form contains a Form Renderer element. For more information, see [Form designer for building attended automation forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-designer-overview.md).
+Ensure that your attended automation form contains a Form Renderer element. For more information, see [Form designer for building attended automation forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-designer-overview.md).
 
 Role required: none
 
@@ -179,12 +179,12 @@ Option for enabling pop-up windows inside the form.
 </table>9.  Click **OK**.
 
 
-**Parent Topic:**[Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-rda-form.md)
+**Parent Topic:**[Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-rda-form.md)
 
 **Related topics**  
 
 
-[Form designer for building attended automation forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-designer-overview.md)
+[Form designer for building attended automation forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-designer-overview.md)
 
-[Methods and events of the Form Renderer element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-formreneder.md)
+[Methods and events of the Form Renderer element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-formreneder.md)
 

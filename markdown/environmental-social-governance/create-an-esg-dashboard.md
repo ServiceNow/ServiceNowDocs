@@ -3,9 +3,9 @@ title: Create an Operational Sustainability Management dashboard using the In-li
 description: You can create dashboards with data visualizations, filters, and other elements that you can share with others. You can also create elements and add existing elements from the in-line editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-an-esg-dashboard.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -32,19 +32,19 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 4.  Select the **In-line editor** tile and give the dashboard a name and a description.
 
-    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) and [Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-tech-db-in-ac.md).
+    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md) and [Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-tech-db-in-ac.md).
 
 5.  Select **Create new dashboard**.
 
 6.  Select **Add new element** to add content to the dashboard.
 
-    See [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ac-elements.md) for information about what you can add to a dashboard.
+    See [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ac-elements.md) for information about what you can add to a dashboard.
 
     When you add a data visualization, select **New data visualization** to create a new visualization or **Saved data visualization** to choose one from the library. When you add a filter, select **New filter** to create the filter without pre-configured data or **Saved filter** to reuse an existing filter.
 
 7.  Select the View dashboard details icon \[Omitted image "details-icon.png"\] Alt text: to view all the details of the dashboard.
 
-    You can also edit the details as required. For more information, see [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/edit-esg-dashboard-details.md)
+    You can also edit the details as required. For more information, see [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/edit-esg-dashboard-details.md)
 
 8.  Arrange the data on the canvas to make it useful.
 
@@ -59,8 +59,8 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 ## What to do next
 
--   [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/edit-esg-dashboard-details.md)
--   [Edit Operational Sustainability Management dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/edit-esg-dashboard-elements.md)
+-   [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/edit-esg-dashboard-details.md)
+-   [Edit Operational Sustainability Management dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/edit-esg-dashboard-elements.md)
 
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

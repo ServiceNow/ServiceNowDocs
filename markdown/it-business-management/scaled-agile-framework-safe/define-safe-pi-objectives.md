@@ -3,11 +3,11 @@ title: Define a SAFe PI objective
 description: Create SAFe program increment \(PI\) objectives so that you can summarize the goals of your team or agile release train \(ART\) for the upcoming PIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/define-safe-pi-objectives.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAFe PI objectives, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -50,5 +50,5 @@ Create your business and technical goals in the form of PI objectives. Associate
 4.  Click **Submit**.
 
 
-**Parent Topic:**[SAFe PI objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-pi-objectives.md)
+**Parent Topic:**[SAFe PI objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/safe-pi-objectives.md)
 

@@ -3,9 +3,9 @@ title: Create UI parameters for your Virtual Agent link
 description: Create UI parameters to pass information from your record into Virtual Agent so that your users get the information they need for their issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-av-context-2.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure a contextual link to Virtual Agent, Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -62,7 +62,7 @@ Role required: admin
 
 ## What to do next
 
-The UI parameters that you created are available to your Virtual Agent topics within the `vaContext` object. You can access these parameters in Virtual Agent Designer by entering `vaContext.` followed by the name of your UI parameter. For example, you can access the `incident_caller` UI parameter by entering `vaContext.incident_caller`. For more details on using context variables in Virtual Agent, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-scripts.md).
+The UI parameters that you created are available to your Virtual Agent topics within the `vaContext` object. You can access these parameters in Virtual Agent Designer by entering `vaContext.` followed by the name of your UI parameter. For example, you can access the `incident_caller` UI parameter by entering `vaContext.incident_caller`. For more details on using context variables in Virtual Agent, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-scripts.md).
 
-**Parent Topic:**[Configure a contextual link to Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-av-context-action.md)
+**Parent Topic:**[Configure a contextual link to Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-av-context-action.md)
 

@@ -3,9 +3,9 @@ title: Disable user access to the image library for HTML area
 description: By default, users can use and upload images to the image library from an HTML field. You can disable access to the image library from HTML fields. This is only applicable to HTML area and not TinyMCE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ModifyImageUploads.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extended functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -53,5 +53,5 @@ To remove the **Upload from URL** option in the HTML editor, add a new property 
 **Related topics**  
 
 
-[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 

@@ -3,9 +3,9 @@ title: Licensing
 description: Understand the different types of software licenses and subscriptions available with ServiceNow applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/licensing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -26,7 +26,7 @@ For more information on different types of software licenses, see [What is a sof
 
 ## Subscriptions
 
-A subscription enables you to upgrade from one family release to the next without dealing with the ServiceNow Store. For example, if you're on Tokyo and have a subscription to an app, you're automatically upgraded to Australia as soon as it's in general release.
+A subscription enables you to upgrade from one family release to the next without dealing with the ServiceNow Store. For example, if you're on Tokyo and have a subscription to an app, you're automatically upgraded to Brazil as soon as it's in general release.
 
-The type of subscription determines the allocation of users, access to applications, and custom application and table entitlements. For more information on types of subscriptions available for ServiceNow applications, see [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/types-subscription-v2.md).
+The type of subscription determines the allocation of users, access to applications, and custom application and table entitlements. For more information on types of subscriptions available for ServiceNow applications, see [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/types-subscription-v2.md).
 

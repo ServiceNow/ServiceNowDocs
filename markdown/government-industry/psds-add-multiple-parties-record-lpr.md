@@ -3,9 +3,9 @@ title: Add Multiple Parties to a record in License and Permit Playbook
 description: As a government agent, you can add other business contacts or constituents to a license or permit application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-add-multiple-parties-record-lpr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 6.  Select the Type and Responsibility of the related party in the dropdown, then enter their contact name in the Contact field to look up existing contacts that match this name.
 
-    **Note:** All license/permit co-applicants must have a business contact account to be included on a license/permit application. Each contact can create an account by registering on the Government Service Portal, or a government service agent can create a business contact record for them. For information on how agents can create a business contact record from information entered in a License and Permit application, see [Create a business contact account from license or permit application data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-multi-party-create-business-contact.md).
+    **Note:** All license/permit co-applicants must have a business contact account to be included on a license/permit application. Each contact can create an account by registering on the Government Service Portal, or a government service agent can create a business contact record for them. For information on how agents can create a business contact record from information entered in a License and Permit application, see [Create a business contact account from license or permit application data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-multi-party-create-business-contact.md).
 
 7.  Select **Save**.
 

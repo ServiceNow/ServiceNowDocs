@@ -3,11 +3,11 @@ title: Create an onboarding order for enterprise assets in the Enterprise Asset 
 description: Create an onboarding order in the Asset operations view to initiate the onboarding of multiple enterprise assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/onboard-eam-assets-workspace.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -67,15 +67,15 @@ Date by when the asset onboarding should be complete.This field is optional.
 </td></tr></tbody>
 </table>5.  Determine whether you want to onboard assets of an existing model or a new model.
 
-<table id="choicetable_t5m_rzp_pbc"><thead><tr><th align="left" id="d81927e170">
+<table id="choicetable_t5m_rzp_pbc"><thead><tr><th align="left" id="d82445e170">
 
 Type of asset model
 
-</th><th align="left" id="d81927e173">
+</th><th align="left" id="d82445e173">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d81927e179">
+</th></tr></thead><tbody><tr><td id="d82445e179">
 
 **Existing model**
 
@@ -83,7 +83,7 @@ Action
 
 In the **Model** field, select the asset model.
 
-</td></tr><tr><td id="d81927e191">
+</td></tr><tr><td id="d82445e191">
 
 **New model**
 
@@ -108,9 +108,9 @@ In the **Model** field, select the asset model.
 
 ## What to do next
 
-Add asset details to the onboarding order. For details, see [Add details of the enterprise assets to an onboarding order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-eam-assets-onboard-order.md).
+Add asset details to the onboarding order. For details, see [Add details of the enterprise assets to an onboarding order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-eam-assets-onboard-order.md).
 
-**Parent Topic:**[Onboarding multiple enterprise assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md)
+**Parent Topic:**[Onboarding multiple enterprise assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md)
 
 **Related topics**  
 

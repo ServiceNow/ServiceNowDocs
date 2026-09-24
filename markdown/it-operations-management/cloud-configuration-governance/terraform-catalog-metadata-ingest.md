@@ -1,9 +1,9 @@
 ---
 title: Associate the Terraform input parameters with the Cloud Provisioning and Governance catalog item
-description: Create a JSON file to store the variables that are used in the template file so that you can map them to discovered resources, pools, and filters. You can use variables or parameters from the Terraform template to map to fields on the catalog item provision form.
+description: Create a JSON file to store Terraform template variables and map them to discovered resources, pools, filters, and catalog item provision form fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/terraform-catalog-metadata-ingest.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
@@ -14,7 +14,7 @@ breadcrumb: [Use, Cloud Services Catalog Terraform Connector, Support for contin
 
 # Associate the Terraform input parameters with the Cloud Provisioning and Governance catalog item
 
-Create a JSON file to store the variables that are used in the template file so that you can map them to discovered resources, pools, and filters. You can use variables or parameters from the Terraform template to map to fields on the catalog item provision form.
+Create a JSON file to store Terraform template variables and map them to discovered resources, pools, filters, and catalog item provision form fields.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ To auto-populate form fields in the catalog creation form while using Terraform 
 -   Specify or define the key value pairs in the JSON file for variables that are defined in the Terraform template.
 -   Configure variables to auto-populate fields and data in the **Cloud User Portal** &gt; **Cloud Catalog** &gt; **New** &gt; **Provision** page.
 
-For more information on binding a parameter to a resource pool, see [Bind a parameter to a resource pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/bind-param-snpool.md).
+For more information on binding a parameter to a resource pool, see [Bind a parameter to a resource pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/bind-param-snpool.md).
 
 ## Procedure
 
@@ -67,5 +67,5 @@ For more information on binding a parameter to a resource pool, see [Bind a para
     \[Omitted image "catalog-item-fields-metadata.png"\] Alt text: Auto-populated values on Provision tab
 
 
-**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

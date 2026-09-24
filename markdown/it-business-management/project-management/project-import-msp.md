@@ -3,11 +3,11 @@ title: Project import from Microsoft Project
 description: Import Microsoft project files into the ServiceNow Project Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-import-msp.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Importing and exporting projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ When you import a project as a new project or into an existing project, the proj
 
 -   New project: A new record is created in the Project \[pm\_project\] table. The tasks associated with the project are added to the Project Task \[pm\_project\_task\] table.
 
-    Only the common or [mapped fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_ProjectFieldMapping.md) are imported. Imported projects are brought into the instance with both Priority and Risk set to Low.
+    Only the common or [mapped fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/r_ProjectFieldMapping.md) are imported. Imported projects are brought into the instance with both Priority and Risk set to Low.
 
 -   Existing project: The instance checks the Text10 field in the top-level Microsoft Project task. If the Text10 field contains a recognizable sys\_id, it means that the project was previously exported from a ServiceNow instance. In this case, the values from the project overwrite the values for the existing project.
 
@@ -44,19 +44,19 @@ You can also specify the schedule calculation type as **Automatic** or **Manual*
 
 **Note:** The resource name in Microsoft Project should map to the name of the user in the instance.
 
--   **[Import a Microsoft Project file with the Import module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ImportMicrosoftProjectFiles.md)**  
+-   **[Import a Microsoft Project file with the Import module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_ImportMicrosoftProjectFiles.md)**  
 Use the Import module to import a Microsoft project file as a new project into the Project Management application.
--   **[Update a project using a Microsoft Project file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/import-prj-pc-pf.md)**  
+-   **[Update a project using a Microsoft Project file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/import-prj-pc-pf.md)**  
 Import project data, from a Microsoft Project file, into an existing project in your ServiceNow instance using the Project form or Planning Console.
 
-**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 
 **Related topics**  
 
 
 [Project field mapping]()
 
-[Create custom field mapping for Microsoft Project import]()
+[Map custom fields for Microsoft Project import]()
 
 [Import project tasks for multiple projects]()
 
@@ -64,5 +64,5 @@ Import project data, from a Microsoft Project file, into an existing project in 
 
 [Calendars and schedules- Limitations]()
 
-[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 

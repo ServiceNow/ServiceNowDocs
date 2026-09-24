@@ -3,11 +3,11 @@ title: Business stakeholder role for Test Management 1.0
 description: Use the business stakeholder role to read and retrieve data from any table of the Test Management 1.0 application to generate reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/business-stakeholder-role-tm-1.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---

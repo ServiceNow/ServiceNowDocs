@@ -3,11 +3,11 @@ title: Generate the resolution notes for an incident by using ServiceNow Otto fo
 description: Automatically generate the resolution notes for an incident on demand using the ServiceNow Otto context menu. You can improve the quality of the resolution notes by providing a summary of the root cause and the steps taken to resolve the issue. Generating resolution notes lets you provide information about the incident resolution to other agents who might encounter similar issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/resolve-incident-now-assist.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -23,7 +23,7 @@ Role required: itil
 
 ## About this task
 
-The Generating resolution notes skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a ServiceNow Otto product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+The Generating resolution notes skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a ServiceNow Otto product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 You can do these actions by using ServiceNow Otto icon:
 
@@ -115,15 +115,15 @@ If you want to check some details about the resolution notes, select the more in
 
 5.  In Core UI or Service Operations Workspace for ITSM, resolve the incident by changing its state.
 
-<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d196576e399">
+<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d199087e399">
 
 Interface
 
-</th><th align="left" id="d196576e402">
+</th><th align="left" id="d199087e402">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d196576e408">
+</th></tr></thead><tbody><tr><td id="d199087e408">
 
 **Core UI**
 
@@ -133,7 +133,7 @@ Procedure
 2.  Update the resolution code and select **Resolve**. The resolution summary is displayed in the **Resolution Information** tab on the Incident form.
 
 
-</td></tr><tr><td id="d196576e433">
+</td></tr><tr><td id="d199087e433">
 
 **Service Operations Workspace for ITSM**
 

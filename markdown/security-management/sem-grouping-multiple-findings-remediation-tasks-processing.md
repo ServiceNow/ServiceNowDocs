@@ -3,9 +3,9 @@ title: Grouping multiple findings as remediation tasks for easy processing using
 description: Remediation tasks help vulnerability analysts and remediation teams manage findings in bulk. By configuring remediation task rules, you can automatically group findings into remediation tasks, eliminating the need for manual task creation and streamlining remediation efforts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-grouping-multiple-findings-remediation-tasks-processing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -49,7 +49,7 @@ When a new finding is created, imported, or reopened, the system evaluates it ag
 
 Remediation task rules are automatically re-evaluated when the **Assignment group** or **Preferred solution** changes on a finding. You don't need to manually reapply the rule. The finding is unlinked from its current remediation task and regrouped under the task that matches its updated value.
 
-To enable automatic re-evaluation, activate the sn\_sec\_rem.rerun\_task\_rules system property. This property is not activated by default. For steps to enable it, see [Assigning findings to remediation teams using assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-assigning-findings-to-remediation-teams.md).
+To enable automatic re-evaluation, activate the sn\_sec\_rem.rerun\_task\_rules system property. This property is not activated by default. For steps to enable it, see [Assigning findings to remediation teams using assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-assigning-findings-to-remediation-teams.md).
 
 A change to any other Group by field doesn't trigger re-evaluation. To regroup findings based on changes to those fields, manually reapply the remediation task rule.
 
@@ -67,7 +67,7 @@ A change to any other Group by field doesn't trigger re-evaluation. To regroup f
 Remediation tasks can be created in the following ways:
 
 -   Automatically using remediation task rules \(recommended for efficiency\).
--   Manually in the IT Remediation Workspace. For more information, see [Create a remediation task manually in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/itr-ws-create-remediation-task.md).
+-   Manually in the IT Remediation Workspace. For more information, see [Create a remediation task manually in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/it-remediation-workspace/itr-ws-create-remediation-task.md).
 
 ## State synchronization
 
@@ -78,10 +78,10 @@ Remediation tasks can be created in the following ways:
 
 Assignment groups and assignees from remediation tasks are rolled down to associated findings unless those findings already have different assignments. This roll down helps standardize ownership across all related records.
 
-**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-automating-prioritization-triaging.md)
+**Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-automating-prioritization-triaging.md)
 
 **Related topics**  
 
 
-[Configuring remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-remediation-task-rules.md)
+[Configuring remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-configure-remediation-task-rules.md)
 

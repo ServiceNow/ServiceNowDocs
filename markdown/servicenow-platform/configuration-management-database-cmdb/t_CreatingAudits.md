@@ -3,11 +3,11 @@ title: Create a compliance audit
 description: Create a compliance audit. Compliance offers two types of audits: one uses templates to define conditions and the other uses a script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CreatingAudits.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Certification audits, CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Create a compliance audit. Compliance offers two types of audits: one uses templ
 
 ## Before you begin
 
-Role required: certification\_admin
+Role required: sn\_cmdb\_admin and certification\_admin have full access, and sn\_cmdb\_editor has read access
 
 ## Procedure
 

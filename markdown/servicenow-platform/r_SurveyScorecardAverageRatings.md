@@ -3,9 +3,9 @@ title: Survey scorecard average ratings
 description: The Average Ratings view displays the weighted average rating for each survey question in an individual category or all categories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_SurveyScorecardAverageRatings.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View a survey scorecard, Survey responses and results, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ To view the effect of each question's ratings on the entire category's ratings, 
 
 \[Omitted image "SurveyScorecardRatingDetail.png"\] Alt text: Average ratings detail
 
-**Parent Topic:**[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAScorecard.md)
+**Parent Topic:**[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAScorecard.md)
 
 **Related topics**  
 

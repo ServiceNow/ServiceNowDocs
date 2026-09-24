@@ -3,11 +3,11 @@ title: Enable load balancing between proxy agents in a cluster
 description: Enable load balancing between proxy agents in a cluster so that if an agent is not functioning properly, monitored CIs are redistributed to another agent. After enabling load balancing, you can view the CIs monitored by each proxy agent in a policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/view-proxy-ci-distribution.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assign a proxy agent cluster to a policy, Using proxy agents in ACC, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -39,5 +39,5 @@ Role required: agent\_client\_collector\_user
     A pop-up window displays the distribution of monitored CIs among agents within the policy.
 
 
-**Parent Topic:**[Assign a proxy agent cluster to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/assign-proxy-cluster-policy.md)
+**Parent Topic:**[Assign a proxy agent cluster to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/assign-proxy-cluster-policy.md)
 

@@ -3,10 +3,10 @@ title: Install the Chief Procurement Officer Dashboard
 description: The Chief Procurement Officer Dashboard provides key insights around the procurement process of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-cpro.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Chief Procurement Officer \(CPRO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---
 
@@ -18,7 +18,7 @@ The Chief Procurement Officer Dashboard provides key insights around the procure
 
 Role required: admin, platform\_analytics\_admin, sn\_cpro\_dashboard.admin
 
-Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-db.md).
+Consider duplicating this executive dashboard before customizing it. For more information, see [Duplicate a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/duplicate-db.md).
 
 **Note:** The CPRO Dashboard application is free from the ServiceNow Store. However, the contents of the dashboard require professional entitlements to the following applications:
 
@@ -69,6 +69,11 @@ These solutions consist of Platform Analytics indicators and associated data col
 
         Assign the user role sn\_cpro\_dashboard.user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/exploring-user-administration.md).
 
+
+## What to do next
+
+-   Navigate to **CPRO Dashboard** &gt; **Dashboard** to view the installed dashboard.
+-   Use the information in the Tabs, Data Visualizations, and Indicators topics to configure the dashboard.
 

@@ -3,9 +3,9 @@ title: Create a Pre-Eligibility Decision Table in License and Permit Playbook
 description: The License and Permit Playbook incorporates the use of pre-eligibility criteria, a series of questions that may be posed to an applicant to determine whether they are eligible to apply for a license/permit. This aims to deflect applications in which the applicant is not eligible to obtain a license/permit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-eligibility-decision-table-lp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure decision tables, License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---

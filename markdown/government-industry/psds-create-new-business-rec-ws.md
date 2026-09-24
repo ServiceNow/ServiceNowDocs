@@ -3,9 +3,9 @@ title: Create a business record in CRM Workspace
 description: If you're a government service agent, create a business record in CRM Workspace directly from a service request, interaction, or case when an incident is reported by a constituent, business, or business contact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-create-new-business-rec-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CRM Workspace, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -32,7 +32,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 6.  Select **Create Business** and fill in the fields.
 
-    For more information on the fields, see [Business Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/business-profile-form.md).
+    For more information on the fields, see [Business Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/business-profile-form.md).
 
 7.  Select **Submit**.
 

@@ -3,9 +3,9 @@ title: CSM Landing Page
 description: The CSM Landing Page provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ws-landing-page-original.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Landing pages, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -14,15 +14,15 @@ breadcrumb: [Landing pages, CRM Workspace features, CRM Workspace, Organize agen
 
 The CSM Landing Page provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 
-Customer service agents and managers can use the CSM Landing Page to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-ui-builder.md) to meet their unique business needs.
+Customer service agents and managers can use the CSM Landing Page to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/using-ui-builder.md) to meet their unique business needs.
 
 The CSM Landing Page includes components that display case information, plus visualizations that further break down the component data. Each of the visualizations is connected to a data source. For example, the **High priority cases** component includes visualizations for P1 and escalated cases, plus cases that need attention.
 
 **Note:** To ensure the High priority cases component filters correctly, install the Customer Service Case Action Status \(com.snc.csm\_action\_status\) plugin. This plugin adds the missing **action\_status** field, which isn't included with the CSM plugin by default. Also, ensure your instance is on Xanadu Patch 7 or later.
 
-The CSM Landing Page is available with the CRM Workspace \(sn\_csm\_wrkspc\) plugin. This landing page is the default landing page for CRM Workspace.
+The CSM Landing Page is available with the CRM Workspace plugin \(com.snc.uib.csm\_agent\_workspace\). This landing page is the default landing page for CRM Workspace.
 
-**Note:** Upgrade customers who haven’t customized the existing CRM Workspace landing page are automatically upgraded to the landing page available with the Australia release. Upgrade customers who have customized the existing CRM Workspace landing page must manually accept the Australia landing page.
+**Note:** Upgrade customers who haven’t customized the existing CRM Workspace landing page are automatically upgraded to the landing page available with the Brazil release. Upgrade customers who have customized the existing CRM Workspace landing page must manually accept the Brazil landing page.
 
 \[Omitted image "csm-config-ws-polaris-case-section.png"\] Alt text: Landing page to track your active cases and important items. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table.
 
@@ -83,9 +83,9 @@ This section includes indicators that track the agent's performance.
 Select an indicator to display either a filtered list of records or a KPI details page.
 
 </td></tr></tbody>
-</table>## Create a landing page for CSM Configurable Workspace
+</table>## Create a landing page for CRM Workspace
 
-Use UI Builder to create landing pages for your agents. For more information, see [Create a CSM Configurable Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-landing-page.md).
+Use UI Builder to create landing pages for your agents. For more information, see [Create a CRM Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-config-ws-landing-page.md).
 
 ## Create multiple landing pages
 

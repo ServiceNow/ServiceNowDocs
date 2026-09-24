@@ -3,11 +3,11 @@ title: Create a cascading filter
 description: Cascading filters enable you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.So that you do not have to clean up the filter panel, duplicate filters are removed automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/core-ui-interactive-filters/create-cascading-filter.html
-release: australia
+release: brazil
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Creating Interactive Filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ You can create a cascading filter that allows users to select from a list of man
 
 Ensure that the structure of the data that you use to create the filter is consistent. For example, in a cascading filter based on location, ensure that the top-level choices are all regions, and the second-level choices are all countries. You can define filter conditions to ensure that only appropriate choices for each level are available.
 
-Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience.
+Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience. It isn't possible to create Core UI interactive filters in net new instances from Yokohama forward.
 
 ## About this task
 
@@ -48,7 +48,7 @@ This procedure includes examples based on a cascading interactive filter using m
 
     1.  In the **Cascading Filter** related list, select **New**.
 
-    2.  Select the **Table** and the **Display field** from the table that contains the values you want to use as the top-level filter choices. The **Display Field** is limited to the types boolean, choice, reference, and string.
+    2.  Select the **Table** and the **Display field** from the table that contains the values you want to use as the top-level filter choices. The **Display Field** is limited to the types Boolean, choice, reference, and string.
 
         To define the top level of a hierarchy based on managers and the groups they manage, select **Group \[sys\_user\_group\]** as the **Table** and **Manager** as the **Display field.**
 
@@ -64,7 +64,7 @@ This procedure includes examples based on a cascading interactive filter using m
 
     1.  From the manager filter, in the **Cascading Filter** related list, select **New**.
 
-    2.  Select the **Table** and the **Display field** from the table that contains the values you want to use as the second-level filter choices. The **Display Field** is limited to the types boolean, choice, reference, and string.
+    2.  Select the **Table** and the **Display field** from the table that contains the values you want to use as the second-level filter choices. The **Display Field** is limited to the types Boolean, choice, reference, and string.
 
         In the managers and groups example, select **Group \[sys\_user\_group\]** as the **Table** and **Name** as the **Display field.**
 
@@ -108,7 +108,7 @@ This procedure includes examples based on a cascading interactive filter using m
 1.  After you create all levels of the filter, add it to a dashboard.
 2.  On the dashboard, select the **Edit widget** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
 
-**Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
+**Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
 
 ## Cascading filters deduplication
 

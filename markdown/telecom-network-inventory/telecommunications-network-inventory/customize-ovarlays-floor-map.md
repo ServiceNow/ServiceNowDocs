@@ -3,11 +3,11 @@ title: Customize overlays on the floor map
 description: Update the decision table to configure the overlays appearing on the floor map. You can view the operational data of the datacenters as overlay on the floor map in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/customize-ovarlays-floor-map.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overlays on floor map, Configure, Telecommunications Network Inventory]
 ---
@@ -40,15 +40,15 @@ You can edit the overlay option in the floor map by configuring the decision tab
 
 4.  Do one of the following.
 
-<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d43823e116">
+<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d43919e116">
 
 Action
 
-</th><th align="left" id="d43823e119">
+</th><th align="left" id="d43919e119">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d43823e125">
+</th></tr></thead><tbody><tr><td id="d43919e125">
 
 **Add a new overlay**
 
@@ -62,7 +62,7 @@ Details
 6.  In the Condition section, add the metric values and color code.
 
 
-</td></tr><tr><td id="d43823e174">
+</td></tr><tr><td id="d43919e174">
 
 **Edit an existing overlay**
 
@@ -74,7 +74,7 @@ Details
 4.  In the Condition section, edit the metric values and color code.
 
 
-</td></tr><tr><td id="d43823e207">
+</td></tr><tr><td id="d43919e207">
 
 **Delete an overlay**
 
@@ -95,14 +95,14 @@ Customized overlay options are displayed on the floor map, and the color legend 
 
 ## What to do next
 
-Set up time duration for the operational data. To learn more, see [Customize overlay time series on the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customize-overlay-time-series-floor-map.md).
+Set up time duration for the operational data. To learn more, see [Customize overlay time series on the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/customize-overlay-time-series-floor-map.md).
 
-**Parent Topic:**[Configuring overlays on floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)
+**Parent Topic:**[Configuring overlays on floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)
 
 **Related topics**  
 
 
-[Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/capacity-management-reporting.md)
+[Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/capacity-management-reporting.md)
 
-[Time series metrics for datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/time-series-metrics.md)
+[Time series metrics for datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/time-series-metrics.md)
 

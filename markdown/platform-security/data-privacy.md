@@ -3,9 +3,9 @@ title: Exploring Data Privacy
 description: Use Data Privacy to classify sensitive data and to remove personally identifiable information \(PII\) from user data in a production instance and anonymize data in non-production instances. Once anonymized, the user data is no longer considered regulated private information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Platform Privacy]
 ---
@@ -26,8 +26,8 @@ As an administrator, you define whether to anonymize all information for all use
 
 ## Data privacy options
 
--   [Data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-classic.md): First use the data classification app to group your data by type, using pre-defined or user-defined data classifications. Then create data privacy techniques and jobs to anonymize PII.
--   [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-privacy.md) \(Store App\): Classify and anonymize your data all from within the data privacy app.
+-   [Data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/data-privacy-classic.md): First use the data classification app to group your data by type, using pre-defined or user-defined data classifications. Then create data privacy techniques and jobs to anonymize PII.
+-   [Data privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/dps-data-privacy.md) \(Store App\): Classify and anonymize your data all from within the data privacy app.
 
 ## Installation details
 
@@ -45,8 +45,8 @@ Here is the how the installation works:
 
 ## Considerations
 
--   Only classified data can be anonymized. For information on data classes and classification, see [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/data-classification.md) \(Classic\) or [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-classification.md) Store App.
+-   Only classified data can be anonymized. For information on data classes and classification, see [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-classification/data-classification.md) \(Classic\) or [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/dps-data-classification.md) Store App.
 -   PII in logs and other auditing data are not anonymized.
--   Only structured data can be anonymized. Unstructured data, such as Journal fields, comments, attachments, and other fields where partial text may represent PII is not anonymized. See [Supported field types for anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-supported-data-types.md) for more information.
--   Integrations with single sign-on \(SSO\) systems may resynchronize user information from their source of truth systems. There is no mechanism in place to ensure the permanency of the de-identification of sys\_user data. For information on user administration and sys\_users see [User Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UserAdministration.md).
+-   Only structured data can be anonymized. Unstructured data, such as Journal fields, comments, attachments, and other fields where partial text may represent PII is not anonymized. See [Supported field types for anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/data-privacy-supported-data-types.md) for more information.
+-   Integrations with single sign-on \(SSO\) systems may resynchronize user information from their source of truth systems. There is no mechanism in place to ensure the permanency of the de-identification of sys\_user data. For information on user administration and sys\_users see User Administration.
 

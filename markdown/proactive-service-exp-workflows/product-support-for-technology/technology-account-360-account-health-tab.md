@@ -3,11 +3,11 @@ title: Technology Account 360 Account health tab
 description: The Account health tab displays customer account health scores, trend forecasts, and performance indicators to help assess account status and renewal likelihood.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-account-health-tab.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2025-01-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [account health, health score, customer success, renewal forecast]
 breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
@@ -31,10 +31,10 @@ The Account health tab displays customer account health scores, trend forecasts,
 |Monthly license utilization|Percentage of purchased or entitled licenses actively being used, evaluated monthly.|
 |Executive engagement|Level of engagement with the account's executive stakeholders, for example, meeting cadence, touchpoints, and briefings\).|
 
-**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 
 
-[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)
+[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)
 

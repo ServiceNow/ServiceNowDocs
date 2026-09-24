@@ -3,12 +3,12 @@ title: Regulatory Change Management overview page
 description: The Regulatory Change Management overview page provides a high-level view of the regulatory activities in your organization. If you have the sn\_grc\_reg\_change.manager role, you can view this page in the Compliance Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/rcm-workspace-for-managers.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -39,8 +39,10 @@ The overview page consists of the data visualization widgets that display the re
 The GRC: Regulatory Change Management landing page displays the following sections:
 
 -   Activity overview
--   Trends
 -   Tracking
+-   Trends
+
+Regulatory change managers can select the Explore with AI icon \[Omitted image "icon-otto-outline-24.svg"\] on the widgets of the RCM home page to analyze regulatory data using natural language queries. For information on installing, configuring and using it, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ai-data-explorer.md).
 
 \[Omitted image "rcm-homepage-ws.png"\] Alt text: RCM dashboard view from the Compliance Workspace with activity, tracking, and trend reports.
 

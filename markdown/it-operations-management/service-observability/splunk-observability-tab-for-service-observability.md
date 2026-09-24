@@ -3,11 +3,11 @@ title: Splunk Observability tab for Service Observability
 description: Dashboard and charts on the Splunk Observability tab of the Service Details page in the SOW.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/splunk-observability-tab-for-service-observability.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Splunk Observability templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -59,5 +59,5 @@ These dashboards display metrics for databases related to the service.
 |Threads|Number of threads used by this service|Splunk|
 |Uptime|Amount of time in \(?\) that the database has been running since its last restart.|CMDB|
 
-**Parent Topic:**[Splunk Observability templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/splunk-templates.md)
+**Parent Topic:**[Splunk Observability templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/splunk-templates.md)
 

@@ -3,11 +3,11 @@ title: Configure a widget for project financial metrics
 description: Configure a widget to view and track the financial metrics of a project on the Financials tab of the Project Workspace page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configure-widget-project-financials.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View forecasts and manage financial plans for a project, Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -126,10 +126,10 @@ Description of the widget.
 </table>
 ## What to do next
 
-[Associate the widget to the Project table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/associate-widget-to-project.md).
+[Associate the widget to the Project table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/associate-widget-to-project.md).
 
--   **[Associate a widget to the Project table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/associate-widget-to-project.md)**  
+-   **[Associate a widget to the Project table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/associate-widget-to-project.md)**  
 After you configure a widget, associate it with the Project table to show the financial data of a project.
 
-**Parent Topic:**[View and manage financial plans in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md)
+**Parent Topic:**[View and manage project financial plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md)
 

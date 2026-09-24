@@ -3,12 +3,12 @@ title: Initiate risk assessment on AI asset's risks
 description: Request risk assessments for risks identified during the AI system's impact assessment. These risks are generated based on the responses provided during the impact assessment of the AI system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [request risk assessments, AI asset risk evaluation, risk assessor]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -103,9 +103,22 @@ Number of days within which the assessment should be completed after it’s init
 </table>8.  Select **Request assessments**.
 
 
+## Result
+
+Risk assessments are created for the selected risks and sent to the assigned assessors. Each assessor receives their risk assessment in their task queue.
+
 ## What to do next
 
-[Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md)
+After the assessments are sent, the assigned assessors receive individual risk assessments in their task queues. To complete the assessments, see [Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md). To track assessment progress and view risk scores, see [Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md).
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+
+**Related topics**  
+
+
+[Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md)
+
+[Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md)
+
+[Create bulk risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.md)
 

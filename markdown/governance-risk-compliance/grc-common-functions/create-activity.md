@@ -3,11 +3,11 @@ title: Create activity
 description: Create a cybersecurity activity for a target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-activity.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Align and prioritize cybersecurity activities, Process overview, NIST CSF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -86,5 +86,5 @@ Status of the activity, whether it is being performed or a planned activity.
     **Note:** Every time a cybersecurity activity is created, the system validates the combination of target, function, and category for uniqueness.
 
 
-**Parent Topic:**[Align and prioritize cybersecurity activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/align-prioritize-activities.md)
+**Parent Topic:**[Align and prioritize cybersecurity activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/align-prioritize-activities.md)
 

@@ -3,9 +3,9 @@ title: Field Service for Audit
 description: Field Service for Audit is a shared plugin that any product can use to create, assign, and track audit tasks on a common data model and access structure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/fsm-audit-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Retail Store Audit Operations, Explore, Retail]
 ---
@@ -45,14 +45,14 @@ Consuming products can set up additional access rules to further refine which au
 |`sn_fsm_audit.auditor`|Auditor or compliance reviewer|Read and update audit tasks. Set the Pass or Fail result on completion. Cannot delete tasks.|
 |`sn_fsm_audit.audit_admin`|Privileged administrator|Full lifecycle access — create, read, update, and delete audit tasks.|
 
-**Parent Topic:**[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
+**Parent Topic:**[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-overview.md)
 
 **Related topics**  
 
 
-[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-store-audit-overview.md)
+[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-overview.md)
 
-[Grant Field Service for Audit roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-t-grant-roles.md)
+[Grant Field Service for Audit roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/fsm-audit-t-grant-roles.md)
 
-[Components installed with Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/fsm-audit-reference.md)
+[Components installed with Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/fsm-audit-reference.md)
 

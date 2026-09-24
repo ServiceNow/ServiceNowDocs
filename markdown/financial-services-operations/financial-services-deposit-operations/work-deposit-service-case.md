@@ -3,11 +3,11 @@ title: Work on a deposit service case
 description: Work on a deposit case to collect applicant information, ensure that any outstanding tasks are completed, and fulfill the deposit product request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/work-deposit-service-case.html
-release: australia
+release: brazil
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -23,7 +23,7 @@ Role required:
 -   For a business deposit service case: sn\_bom\_deposit\_b2b.agent or sn\_bom\_deposit\_b2b.agent\_connector
 -   For a personal deposit service case: sn\_bom\_deposit\_b2c.agent or sn\_bom\_deposit\_b2c.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -58,5 +58,5 @@ Use the case playbook that provides the activities and tasks required to researc
 
 The deposit case automatically updates to show Closed Complete.
 
-**Parent Topic:**[Using Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/using-deposit-ops.md)
+**Parent Topic:**[Using Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-deposit-operations/using-deposit-ops.md)
 

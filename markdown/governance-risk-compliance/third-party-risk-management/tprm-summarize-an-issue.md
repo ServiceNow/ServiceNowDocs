@@ -3,11 +3,11 @@ title: Activate the TPRM issue summarization skill
 description: Activate the TPRM summarization skill from ServiceNow Otto for TPRM to generate a brief summary of a TPRM issue by selecting the specific fields that you would like included in the summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-summarize-an-issue.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, generative AI, GenAI, ServiceNow AI Platform]
 breadcrumb: [AI configuration, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -57,8 +57,8 @@ By default, a TPRM issue in the Third-party Risk Management application shows th
 
         You can perform the following actions on AI skills if you have the sn\_generative\_ai.nsa\_admin role:
 
-        -   [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
-        -   [Troubleshoot an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md).
+        -   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+        -   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md).
 6.  Select **Save and continue**.
 
 7.  View the details of the skill by selecting **Review and activate**.

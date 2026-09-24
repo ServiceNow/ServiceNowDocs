@@ -1,24 +1,26 @@
 ---
-title: Natural Language Understanding
+title: \(Legacy\) Natural Language Understanding
 description: ServiceNow Natural Language Understanding \(NLU\) provides an NLU Workbench and an NLU inference service that you can use to enable the system to learn and respond to human-expressed intent. By entering natural language examples into the system, you help it understand word meanings and contexts so it can infer user or system actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-landing.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: reference
-last_updated: "2026-04-23"
-reading_time_minutes: 4
-breadcrumb: [Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Natural Language Understanding
+# \(Legacy\) Natural Language Understanding
 
 ServiceNow® Natural Language Understanding \(NLU\) provides an NLU Workbench and an NLU inference service that you can use to enable the system to learn and respond to human-expressed intent. By entering natural language examples into the system, you help it understand word meanings and contexts so it can infer user or system actions.
 
 ## Overview of Natural Language Understanding
 
-For an overview of Natural Language Understanding, see [Exploring Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-explore.md).
+Starting with the Brazil release, Natural Language Understanding is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+For an overview of Natural Language Understanding, see [\(Legacy\) Exploring Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-explore.md).
 
 ## NLU terminology
 
@@ -63,7 +65,7 @@ Use the NLU Workbench to create morphological representations of human language.
 
 Using the nlu\_admin role, you build your models in the NLU Workbench, where you create, train, test, and publish them iteratively.
 
-For information on how to build and use an NLU model, see: [Create an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-modelx.md).
+For information on how to build and use an NLU model, see: [Create an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/create-nlu-modelx.md).
 
 ## NLU inference service
 
@@ -75,25 +77,25 @@ The system uses an inference API to train NLU algorithms by using sample record 
 
 Other ServiceNow® applications consume NLU model output, such as Virtual Agent.
 
-For example, Virtual Agent administrators can configure a Virtual Agent Designer conversation flow to consume NLU models so that agent chatbots can better understand user statements in the conversation. For more information on how Virtual Agent consumes NLU models, see: [Natural Language Understanding \(NLU\) topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-NLU.md).
+For example, Virtual Agent administrators can configure a Virtual Agent Designer conversation flow to consume NLU models so that agent chatbots can better understand user statements in the conversation. For more information on how Virtual Agent consumes NLU models, see: [Natural Language Understanding \(NLU\) topic discovery in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-NLU.md).
 
 ## Get started
 
 <table id="table_lhx_jch_czb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about NLU concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about NLU concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-explore.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Create, test, translate, and publish your NLU models.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-models.md)
+[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Create, test, translate, and publish your NLU models.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-models.md)
 
 </td></tr><tr><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how Virtual Agent administrators can update NLU models from within Virtual Agent Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/virtual-agent-nlu-model-builder-integration.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how Virtual Agent administrators can update NLU models from within Virtual Agent Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/virtual-agent-nlu-model-builder-integration.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about using models in different languages for use in other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-language-support.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about using models in different languages for use in other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-language-support.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

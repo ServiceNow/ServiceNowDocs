@@ -3,11 +3,11 @@ title: Configuring calculator groups and calculators for Configuration Complianc
 description: Configuration Compliance calculators are used to update record values when pre-defined conditions are met. The calculators are grouped based on the criteria used to determine how the records are updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/vuln-configuring-cc-calcs.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -39,5 +39,5 @@ Configuring risk and rollup calculators for remediation of test results and reme
 
 After you create a risk calculator, it is available for calculations with the next data ingestion. After you create it, you may also prefer to apply it on-demand.
 
-For more information about calculators and calculator groups, see [Configuration Compliance calculator groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-calc-groups.md).
+For more information about calculators and calculator groups, see [Configuration Compliance calculator groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/vuln-config-compl-calc-groups.md).
 

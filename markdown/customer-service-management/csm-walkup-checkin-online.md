@@ -3,11 +3,11 @@ title: Schedule appointments or join a queue from the Self Service portals
 description: Customers must invest time in coming to a physical location for service. The ability to book appointments at a specific time helps plan visits to the service location. A slot is pre-assigned based on the appointment booking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-checkin-online.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Walk-up Experience, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
 
 # Schedule appointments or join a queue from the Self Service portals

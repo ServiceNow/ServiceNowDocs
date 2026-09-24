@@ -3,9 +3,9 @@ title: Integrating Operational Sustainability Management \(formerly ESG\) with W
 description: Watershed is a tool that enables organizations to measure their carbon emissions and renewable energy and its impact. It also enables organizations to act to reduce emissions, and to report on the progress to reduce their carbon footprint.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/integrate-esg-with-watershed.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -54,12 +54,12 @@ Indirect emissions from the following sources:-   Purchased goods and services
 </td></tr></tbody>
 </table>Watershed maintains its data in spreadsheets and provides those spreadsheets to the Operational Sustainability Management program manager. As an Operational Sustainability Management program manager, with the role sn\_esg.program\_manager, you must import the data from the spreadsheets into the source tables in the Operational Sustainability Management application. The source tables are then specified in the metric definitions in a ServiceNow instance.
 
-To use the features of Watershed, you must activate the Operational Sustainability Integration with Watershed plugin and [configure the metric integrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-metric-integrations.md)
+To use the features of Watershed, you must activate the Operational Sustainability Integration with Watershed plugin and [configure the metric integrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-metric-integrations.md)
 
 **Note:**
 
 -   To successfully import data, you must add the import\_admin role to the sn\_grc\_metric.admin role.
--   Only automated metric definitions with **External source** as the Method type support data import. If you already have a manual metric definition in your system, you must change its Type to **Automated** and the Method type to **External source** before you can import data. For more information, refer to [Create an automated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-metric-definition.md).
+-   Only automated metric definitions with **External source** as the Method type support data import. If you already have a manual metric definition in your system, you must change its Type to **Automated** and the Method type to **External source** before you can import data. For more information, refer to [Create an automated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-metric-definition.md).
 
 Before you import data from the spreadsheets, you can either create the metric definitions or you can rely on the system to create placeholders and add the details later.
 
@@ -73,20 +73,20 @@ By default, the ServiceNow AI Platform provides the following data that you can 
 -   Renewable energy
 -   Non-renewable energy
 
-You may also want to import other data such as water usage or waste disposal. To import other types of data, you can use the [Metric integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/metric-integration.md) to import your data.
+You may also want to import other data such as water usage or waste disposal. To import other types of data, you can use the [Metric integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/metric-integration.md) to import your data.
 
--   **[Modify the Operational Sustainability Integration with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-metric-integrations.md)**  
+-   **[Modify the Operational Sustainability Integration with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-metric-integrations.md)**  
 Modify the Operational Sustainability Integration with Watershed configurations to specify how you want to import data from Watershed to generate metrics.
--   **[Create data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-data-mapping.md)**  
+-   **[Create data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-data-mapping.md)**  
 Create data mappings to import Watershed data from columns other than the pre-configured columns of the Watershed spreadsheet. By default, data import from three columns is supported.
--   **[Create a record identifier in an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-entity-mapping.md)**  
+-   **[Create a record identifier in an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-an-entity-mapping.md)**  
 Create record identifiers with text for correctly mapping the entities. This activity saves time for the ESG program managers by not having to create new entities.
--   **[Load data from Watershed into Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/load-data-from-watershed.md)**  
+-   **[Load data from Watershed into Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/load-data-from-watershed.md)**  
 Load data from the Watershed spreadsheets into the staging table. After you load the data and complete the setup, you can start using the Operational Sustainability Integration with Watershed.
--   **[View and verify the import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/view-and-verify-the-import-sets.md)**  
+-   **[View and verify the import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/view-and-verify-the-import-sets.md)**  
 Verify if your data is imported correctly from an external source. This verification enables you to identify if there were any errors during the data import.
--   **[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-transform-map.md)**  
+-   **[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-transform-map.md)**  
 Create a transform map to match the columns from the staging table to the columns in the target table. The transformation helps to convert the data from the source table into metric data.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrate-esg.md)
 

@@ -3,11 +3,11 @@ title: Activate Workforce Optimization for ITSM
 description: The Workforce Optimization for ITSM Configurable Workspace plugin \(sn\_wfo\_cfg\_itsm\) is available with the ITSM Enterprise subscription package.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Getting started, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -18,7 +18,14 @@ The Workforce Optimization for ITSM Configurable Workspace plugin \(sn\_wfo\_cfg
 
 ## Before you begin
 
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM \(com.snc.wfo\_itsm\) is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Plugins affected:
+
+-   Workforce Optimization for ITSM Configurable Workspace \(com.snc.sn\_wfo\_cfg\_itsm\).
+-   User Surveys in Workforce Optimization for ITSM \(com.snc.sn\_wfo\_usersurveys\). For more information, see [Surveys in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.md).
+-   Skills Review \(com.snc.sn\_wfo\_skill\_review\). For more information, see [Skills Management in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/skills-management-wfo-itsm.md).
+-   Work Scheduler \(com.snc.sn\_wfo\_work\_sched\). For more information, see [Work scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/work-scheduling-wfo-itsm.md).
 
 Role required: admin
 
@@ -48,7 +55,7 @@ MetricBase \(com.snc.clotho\)
 
 </td><td>
 
-Enables you to use Demand Forecast in Workforce Optimization for ITSM.To use Demand Forecast, you must activate the MetricBase plugin before you activate the Workforce Optimization for ITSM plugin. For more information, see [Request the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-metricbase.md).
+Enables you to use Demand Forecast in Workforce Optimization for ITSM.To use Demand Forecast, you must activate the MetricBase plugin before you activate the Workforce Optimization for ITSM plugin. For more information, see [Request the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/request-metricbase.md).
 
  When you activate both of these plugins, the Agent Forecast plugin \(com.sn\_agent\_forecast\) is activated.
 
@@ -134,8 +141,8 @@ Enables you to assess your teams' abilities to resolve incidents efficiently.
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Getting started with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/getting-started-workforce-optimization-itsm.md)
+**Parent Topic:**[Getting started with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/getting-started-workforce-optimization-itsm.md)
 

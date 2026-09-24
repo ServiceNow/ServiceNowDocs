@@ -3,14 +3,14 @@ title: Set up Advanced Risk assessments properties
 description: Enable Advanced Risk Assessments \(ARA\) to confirm that risk‑based assessments and risk score roll‑up function correctly in the AI Risk and Compliance application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-05-14"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Advanced Risk Assessments, migrate to advanced risk, risk score roll-up, AI Risk and Compliance]
-breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Set up Advanced Risk assessments properties
@@ -47,7 +47,7 @@ When **Migrate to Advanced Risk Assessments** is set to **No**:
 -   Supports risk‑based assessments for AI assets.
 -   Risk score roll-up isn't supported for risk-based assessments on AI assets. As a result, rolled-up risk scores aren't displayed in the AI Risk and Compliance dashboards.
 
-For descriptions of all available Advanced Risk properties, see [Advanced Risk properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/advanced-risk-properties-ref.md).
+For descriptions of all available Advanced Risk properties, see [Advanced Risk properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/advanced-risk-properties-ref.md).
 
 ## Procedure
 
@@ -60,10 +60,18 @@ For descriptions of all available Advanced Risk properties, see [Advanced Risk p
 3.  Select **Save**.
 
 
+## Result
+
+Advanced Risk Assessments are enabled. Risk score roll-up and aggregated scoring are now active for AI assets in the AI Risk and Compliance Workspace. RAMs can now be published and used for risk assessments across AI assets.
+
+## What to do next
+
+Publish the Risk Assessment Methodologies \(RAMs\) that were unlocked by enabling this property. For more information, see [Risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-rams.md). To configure which RAMs are used by default during intake and risk assessments, see [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
+
 **Related topics**  
 
 
-[Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md)
+[Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md)
 
-[Advanced Risk properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/advanced-risk-properties-ref.md)
+[Advanced Risk properties reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/advanced-risk-properties-ref.md)
 

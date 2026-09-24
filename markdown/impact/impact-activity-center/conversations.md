@@ -3,11 +3,11 @@ title: Activity Center Conversations
 description: Scan all conversations you are included in. Start a conversation any time to ask a question or get advice from your Impact squad.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-activity-center/conversations.html
-release: australia
+release: brazil
 product: Impact Activity Center
 classification: impact-activity-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activity Center, Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -28,8 +28,8 @@ Conversations is customizable by either the Kanban view or a List View. Several 
 -   Filter by All conversations or by My conversations
 -   View the state by Open or Closed
 
--   **[Create and manage conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-activity-center/create-manage-conversations.md)**  
+-   **[Create and manage conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-activity-center/create-manage-conversations.md)**  
 Create new Impact conversations or manage existing conversations.
 
-**Parent Topic:**[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-activity-center/impact-activity-center.md)
+**Parent Topic:**[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-activity-center/impact-activity-center.md)
 

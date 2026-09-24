@@ -3,9 +3,9 @@ title: General guidelines for excluding a table from cloning
 description: A reference topic that includes general guidelines to exclude a table from cloning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-exclusions-guidelines.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ A reference topic that includes general guidelines to exclude a table from cloni
 
 -   **Excluding child tables of the task table**
 
-    When excluding child tables of the task table, which use the [table per hierarchy extension model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TaskTableFlattening.md), child tables are excluded. You don’t need to exclude the parent Task table together with the child table.
+    When excluding child tables of the task table, which use the [table per hierarchy extension model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_TaskTableFlattening.md), child tables are excluded. You don’t need to exclude the parent Task table together with the child table.
 
 -   **Using wildcards**
 
@@ -44,5 +44,5 @@ A reference topic that includes general guidelines to exclude a table from cloni
     sys\_db\_object and sys\_db\_object.\* can’t be added to the exclusions.
 
 
-**Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-clone-reference.md)
+**Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-clone-reference.md)
 

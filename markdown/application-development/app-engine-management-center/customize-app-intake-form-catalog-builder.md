@@ -3,11 +3,11 @@ title: Customize the App Intake form in Catalog Builder
 description: Create a custom app intake experience for your organization by editing the fields and questions on the App Engine Studio \(AES\) App Intake form in Catalog Builder.Customize the App Intake form by changing the order in which questions appear.Define dynamic behavior for a question on the App Intake form based on answers to other questions.Deactivate a question from the App Intake form if it's no longer needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/customize-app-intake-form-catalog-builder.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuration tasks, Configure Application Intake, Configure, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Out of the Box variables associated with this catalog item are set to read-only. To edit the App Intake form, you must create a copy of the existing **Apply for Citizen Development** catalog item. Then, disable the original catalog item, and continue editing the **Copy of Apply for Citizen Development** catalog item. For more information, see [Copy a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefineACatalogItem.md).
+The Out of the Box variables associated with this catalog item are set to read-only. To edit the App Intake form, you must create a copy of the existing **Apply for Citizen Development** catalog item. Then, disable the original catalog item, and continue editing the **Copy of Apply for Citizen Development** catalog item. For more information, see [Copy a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_DefineACatalogItem.md).
 
 ## Procedure
 
@@ -36,11 +36,11 @@ The Out of the Box variables associated with this catalog item are set to read-o
 
     |Action|For more information|
     |------|--------------------|
-    |**Insert a new question**|[Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-question-cat-builder.md)|
-    |**Edit an existing question**|[Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/edit-question-cat-builder.md)|
-    |**Change the order of the questions**|[Change the order of the questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/customize-app-intake-form-catalog-builder.md)|
-    |**Define dynamic behavior for an existing question**|[Define dynamic behavior for an existing App Intake form question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/customize-app-intake-form-catalog-builder.md)|
-    |**Deactivate or remove a question**|[Deactivate a question from the App Intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/customize-app-intake-form-catalog-builder.md)|
+    |**Insert a new question**|[Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-question-cat-builder.md)|
+    |**Edit an existing question**|[Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/edit-question-cat-builder.md)|
+    |**Change the order of the questions**|[Change the order of the questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/customize-app-intake-form-catalog-builder.md)|
+    |**Define dynamic behavior for an existing question**|[Define dynamic behavior for an existing App Intake form question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/customize-app-intake-form-catalog-builder.md)|
+    |**Deactivate or remove a question**|[Deactivate a question from the App Intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/customize-app-intake-form-catalog-builder.md)|
 
 5.  Edit any other settings on the form that you want to change.
 
@@ -158,7 +158,7 @@ Clear value
 Option to clear the question value.
 
 </td></tr></tbody>
-</table>8.  On the **Conditions** tab, specify the conditions that trigger the action on the question. For more information about building condition statements, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+</table>8.  On the **Conditions** tab, specify the conditions that trigger the action on the question. For more information about building condition statements, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 9.  On the **Settings** tab, specify the scenarios where the behavior setting applies.
 

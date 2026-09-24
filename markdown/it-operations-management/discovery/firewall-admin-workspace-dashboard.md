@@ -1,20 +1,20 @@
 ---
 title: Firewall Admin Workspace dashboard
-description: The unified dashboard enables security and risk teams to oversee tasks, change requests, and the entire firewall inventory life cycle. Daily or manual updates provide accurate and current information.
+description: The unified dashboard enables security and risk teams to oversee tasks, change requests, and the entire firewall inventory life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/firewall-admin-workspace-dashboard.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Firewall Admin Workspace dashboard
 
-The unified dashboard enables security and risk teams to oversee tasks, change requests, and the entire firewall inventory life cycle. Daily or manual updates provide accurate and current information.
+The unified dashboard enables security and risk teams to oversee tasks, change requests, and the entire firewall inventory life cycle.
 
 ## Firewall Insights tab
 
@@ -45,5 +45,5 @@ The **Firewall Records** tab offers consolidated access to Records, Rules Reques
 
 To update the dashboard manually, navigate to **Performance Analytics** &gt; **Data Collector** &gt; **Jobs** and select **Firewall Scheduled Job**. Open the record and select **Execute Now** to update the dashboard elements with the latest information.
 
-**Parent Topic:**[Firewall Audits and Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-report-reference.md)
+**Parent Topic:**[Firewall Audits and Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/firewall-audit-report-reference.md)
 

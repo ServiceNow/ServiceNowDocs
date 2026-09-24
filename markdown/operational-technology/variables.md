@@ -3,9 +3,9 @@ title: Variables
 description: The Variables page provides a list of currently available variable sets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/variables.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -50,7 +50,7 @@ The Custom-Global variable set can be edited by a user while the Driver - Global
 
 \[Omitted image "special-variable-sets.png"\] Alt text: Special variable sets
 
-You can use variable sets \(Custom - Global or Site-specific sets\) to override a Variable set. See [Edit a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/editing-a-variable-set.md) or [Create a Site-specific Variable set to use with Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-variable-site-auto-query.md) for more information on editing a Variable set.
+You can use variable sets \(Custom - Global or Site-specific sets\) to override a Variable set. See [Edit a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/editing-a-variable-set.md) or [Create a Site-specific Variable set to use with Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/add-variable-site-auto-query.md) for more information on editing a Variable set.
 
 ## Query Behavior
 
@@ -72,14 +72,14 @@ If the encrypted password is exported as plain text, it is no longer hidden and 
 
 \[Omitted image "encrypted-passwords.png"\] Alt text: Encrypted values
 
-**Note:** For information on creating a Site-specific Variable set, refer to [Create a Site-specific Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/creating-site-specific-variable-set.md).
+**Note:** For information on creating a Site-specific Variable set, refer to [Create a Site-specific Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/creating-site-specific-variable-set.md).
 
--   **[Create a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-variable-set.md)**  
+-   **[Create a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/create-variable-set.md)**  
 Create a Variable set for an Auto Query scan created in the Discovery Console for OT.
--   **[Edit a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/editing-a-variable-set.md)**  
+-   **[Edit a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/editing-a-variable-set.md)**  
 Edit a Variable set for an Auto Query scan created in the Discovery Console for OT.
--   **[Create a Site-specific Variable set to use with Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-variable-site-auto-query.md)**  
+-   **[Create a Site-specific Variable set to use with Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/add-variable-site-auto-query.md)**  
 Create a Site-specific Variable set for use in Auto Queries.
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/using-discovery-console.md)
 

@@ -3,11 +3,11 @@ title: Configure a custom Risk rank and Risk value
 description: Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/risk-value-lookup.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add risks for a demand, RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -51,10 +51,10 @@ The following image illustrates a Risk form.\[Omitted image "risk-value-form-col
 
 3.  On the risk value matcher form, fill in the fields.
 
-    For a description of the field names, see [Risk value matcher form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/risk-value-matcher-form.md).
+    For a description of the field names, see [Risk value matcher form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/risk-value-matcher-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Add risks for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/add-risks-for-demand.md)
+**Parent Topic:**[Add risks for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/add-risks-for-demand.md)
 

@@ -3,11 +3,11 @@ title: Create and manage software suites using the legacy Software Asset Managem
 description: Software uses the concept of suites instead of bundles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_CreateAndManageSWSuite.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage software models using the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -53,5 +53,5 @@ To make the new software record a child item:
     **Note:** When a change is made to a suite, a scheduled job called **Calculate suites \[Software Suite Model\]** is created. The job runs instantly, calculates any suites, and then deletes itself. The calculations are stored in the cmdb\_sam\_sw\_install table under inferred suite.
 
 
-**Parent Topic:**[Manage software models using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_ManagingSoftwareModels.md)
+**Parent Topic:**[Manage software models using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/t_ManagingSoftwareModels.md)
 

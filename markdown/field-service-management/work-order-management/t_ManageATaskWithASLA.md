@@ -3,11 +3,11 @@ title: Manage a task that has an SLA
 description: How to access and manage tasks with SLAs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_ManageATaskWithASLA.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use a SLA map, SLA for work orders, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---

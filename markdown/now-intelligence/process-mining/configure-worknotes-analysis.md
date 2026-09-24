@@ -3,11 +3,11 @@ title: Configure work notes analysis
 description: Configure work notes analysis for a process table to view the work notes analysis for a project based on that process table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/configure-worknotes-analysis.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work notes analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -31,9 +31,9 @@ Configure work notes analysis for a process table to view the work notes analysi
 
 2.  Select a table from the list if you want to configure work notes analysis for a table available in the list.
 
-    If you don’t have the table listed, select **New**. For more information, see [Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-process-config.md).
+    If you don’t have the table listed, select **New**. For more information, see [Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/create-process-config.md).
 
-    **Note:** For information on configuring work notes analysis using the Process Configuration Builder, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/investigative-features.md).
+    **Note:** For information on configuring work notes analysis using the Process Configuration Builder, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/investigative-features.md).
 
     \[Omitted image "worknotes-configure.png"\] Alt text: Configure Work notes Analysis
 
@@ -86,5 +86,5 @@ Enter user names that are associated with system-generated work notes to exclude
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/worknotes-analysis.md)
+**Parent Topic:**[Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/worknotes-analysis.md)
 

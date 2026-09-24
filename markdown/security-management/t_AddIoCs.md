@@ -3,9 +3,9 @@ title: View an IoC
 description: IoCs, sometimes referred to as indicators, are most typically retrieved from a threat data source as STIX data. If needed, you can also create IoCs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/t\_AddIoCs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Indicators of compromise, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_ti.write
 
 ## Procedure
 
-1.  After the scheduled job has retrieved IoC data from the [defined data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md), navigate to **Threat Intelligence** &gt; **IoC Repository** &gt; **Indicators**.
+1.  After the scheduled job has retrieved IoC data from the [defined data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_GetStartedWithThreatIntel.md), navigate to **Threat Intelligence** &gt; **IoC Repository** &gt; **Indicators**.
 
     The retrieved IoCs are listed.
 
@@ -42,7 +42,7 @@ Select classification tag
 
 </td><td>
 
-If you set up and activated [security tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-class-group-and-tags.md) to add metadata to the record, you can select one or more tags to specify the degree of sensitivity of the IoC. If you did not set up or activate security tags, this drop-down list is not displayed.
+If you set up and activated [security tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-class-group-and-tags.md) to add metadata to the record, you can select one or more tags to specify the degree of sensitivity of the IoC. If you did not set up or activate security tags, this drop-down list is not displayed.
 
 </td></tr><tr><td>
 
@@ -225,7 +225,7 @@ Lists individuals, groups, or organizations who act with malicious intent associ
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Indicators of compromise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IoCs.md)
+**Parent Topic:**[Indicators of compromise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_IoCs.md)
 
 **Related topics**  
 

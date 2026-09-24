@@ -3,10 +3,10 @@ title: Vault tools and metrics
 description: Learn about the tools and metrics ServiceNow Vault uses to protect and discover sensitive data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/vault-tools.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-26"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Vault console dashboard, ServiceNow Vault]
 ---
 
@@ -34,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td rowspan="3">
 
-[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/data-discovery-landing.md)Use Data Discovery to run a discovery scan to look for data patterns that might be sensitive data. Once discovered, data can then be reviewed or classified for further protection and management.
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-discovery/data-discovery-landing.md)Use Data Discovery to run a discovery scan to look for data patterns that might be sensitive data. Once discovered, data can then be reviewed or classified for further protection and management.
 
 </td><td>
 
@@ -62,7 +62,7 @@ Total sensitive data occurrences in attachments across tables in your instance.
 
 </td></tr><tr><td rowspan="2">
 
-[Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/data-classification.md)Data Classification creates data classes and helps organize your data into data classes for better management. Classified data can be protected at the class level.
+[Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-classification/data-classification.md)Data Classification creates data classes and helps organize your data into data classes for better management. Classified data can be protected at the class level.
 
 </td><td>
 
@@ -83,7 +83,7 @@ Dictionary entries, tables, or columns that are classified.
 </td></tr></tbody>
 </table>## Protect your data
 
-ServiceNow Vault uses data anonymization, cloud encryption, field encryption, log export, and zero trust access to help secure and protect your data.
+ServiceNow Vault uses data anonymization, cloud encryption, field encryption, log export, zero trust access, and code signing to help secure and protect your data.
 
 <table id="table_vdj_n2b_1gc"><thead><tr><th>
 
@@ -99,7 +99,7 @@ Description
 
 </th></tr></thead><tbody><tr><td rowspan="3">
 
-[Anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-anonymization.md)Anonymize data by data class with different anonymization techniques to preserve data patterns but remove sensitive data. Useful for sanitizing instances for development or removing specific user data because of rights to be forgotten. Default real-time protection policies are available from this card and are applied in addition to any existing policies. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-default-policies-configs.md).
+[Anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/dps-data-anonymization.md)Anonymize data by data class with different anonymization techniques to preserve data patterns but remove sensitive data. Useful for sanitizing instances for development or removing specific user data because of rights to be forgotten. Default real-time protection policies are available from this card and are applied in addition to any existing policies. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-default-policies-configs.md).
 
 </td><td>
 
@@ -125,9 +125,9 @@ Anonymization run times
 
 How long scheduled user- or data-based jobs ran in hours for existing data.
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="2">
 
-[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)Securely protect sensitive data in encrypted storage for your data using block encryption, along with enhanced key management.
+[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/cloud-encryption/dare-overview.md)Securely protect sensitive data in encrypted storage for your data using block encryption, along with enhanced key management.
 
 </td><td>
 
@@ -135,23 +135,19 @@ Active cloud key
 
 </td><td>
 
-Total rotations of the active cloud key.**Note:** To view this data, you need the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md) admin role \(sn\_kmf.admin or sn\_kmf.cryptographic\_manager\).
+Total rotations of the active cloud key.**Note:** To view this data, you need the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption.md) admin role \(sn\_kmf.admin or sn\_kmf.cryptographic\_manager\).
 
 </td></tr><tr><td>
-
- 
-
-</td><td>
 
 Key rotation
 
 </td><td>
 
-Time elapsed between each rotation of active keys on your instance. Bar height measures how long a key was used before rotation.**Note:** To view this data, you need the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md) admin role \(sn\_kmf.admin or sn\_kmf.cryptographic\_manager\).
+Time elapsed between each rotation of active keys on your instance. Bar height measures how long a key was used before rotation.**Note:** To view this data, you need the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption.md) admin role \(sn\_kmf.admin or sn\_kmf.cryptographic\_manager\).
 
 </td></tr><tr><td rowspan="3">
 
-[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md)Securely protect sensitive data while providing access for authorized users. Useful for increasing protections from bad actors.
+[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption.md)Securely protect sensitive data while providing access for authorized users. Useful for increasing protections from bad actors.
 
 </td><td>
 
@@ -175,27 +171,43 @@ Active encryption keys
 
 </td><td>
 
-Number of active Field Encryption keys in your instance. Ideally, the number of active keys matches the number of classifications.**Note:** To view this data, you need the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md) admin role \(sn\_kmf.admin or sn\_kmf.cryptographic\_manager\) and the security\_admin role.
+Number of active Field Encryption keys in your instance. Ideally, the number of active keys matches the number of classifications.**Note:** To view this data, you need the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption.md) admin role \(sn\_kmf.admin or sn\_kmf.cryptographic\_manager\) and the security\_admin role.
+
+</td></tr><tr><td rowspan="3">
+
+[Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-landing-page.md)Forward your instance's logs to external analytics tools to monitor data patterns. New users can activate default configurations from this card. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-default-policies-configs.md).
+
+</td><td>
+
+Data exported in the past 6 months
+
+</td><td>
+
+Total volume of data, in MB, exported to external analytics tools each month over the past 6 months, excluding the current month. This trend shows how your monthly export volume changes over time.
 
 </td></tr><tr><td>
 
-[Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-landing-page.md)Forward your instance's logs to external analytics tools to monitor data patterns. New users can activate default configurations from this card. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-default-policies-configs.md).
+Most exported topics in the past 6 months
 
 </td><td>
 
- 
+The topics with the most exported data, in MB, over the past 6 months, excluding the current month. Topics are ranked from highest to lowest export volume.
+
+</td></tr><tr><td>
+
+Data exported this month by topic \(MB\)
 
 </td><td>
 
- 
+Total volume of data, in MB, exported so far during the current month, categorized by topic. This metric covers the current month, which the 6-month metrics exclude.
 
 </td></tr><tr><td rowspan="2">
 
-[Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md)Continuous authentication while accessing classified sensitive data in real time. Default step-up authentication policies are available for Vault customers. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-default-policies-configs.md).
+[Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)Continuous authentication while accessing classified sensitive data in real time. Default step-up authentication policies are available for Vault customers. For more information, see [Default policies and configurations in ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-default-policies-configs.md).
 
 </td><td>
 
-Continuous authentication classification status
+Continuous Authentication classification status
 
 </td><td>
 
@@ -203,21 +215,41 @@ Number of classifications that are protected due to the Continuous Authenticatio
 
 </td></tr><tr><td>
 
-Classes protected with continuous authentication
+Classes protected with Continuous authentication
 
 </td><td>
 
 Number of classes protected with continuous authentication, categorized by class.
 
+</td></tr><tr><td rowspan="2">
+
+[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)Use digital signatures to verify the authenticity and integrity of your data and prevent unauthorized or tampered records from being processed. Select **Go to Code Signing** to open the [Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-health-and-status-dashboard.md).
+
+</td><td>
+
+Operations applied on code-signed records in the past week
+
+</td><td>
+
+Code-signed records that were created, updated, or deleted in the past week on your production instance.
+
+</td></tr><tr><td>
+
+Operations applied on code-signed records by table
+
+</td><td>
+
+Tables with the most code-signed records that were created, updated, or deleted.
+
 </td></tr></tbody>
 </table>## Monitor your data
 
-The AI Insights section within ServiceNow Vault helps you keep track of activities that may indicate potential threats or data leaks.These activities are generated from channels such as ServiceNow Otto and Virtual Agent, as well as database tables configured with real-time discovery. This insight can help you prioritize your data protection strategies more effectively. Select **View tool metrics** to see the underlying metrics.
+The AI Insights section within ServiceNow Vault helps you keep track of activities that may indicate potential threats or data leaks. These activities are generated from channels such as ServiceNow Otto and Virtual Agent, as well as database tables configured with real-time discovery. This insight can help you prioritize your data protection strategies more effectively. Select **View tool metrics** to see the underlying metrics.
 
 |Metric|Chart Component|Description|
 |------|---------------|-----------|
 |User entering sensitive data|In tables with real-time discovery|The number of users whose sensitive data entries were detected in database tables configured with real-time discovery.|
-|In channels|The number of users whose sensitive data entries were detected within channels such as Now Assist or Virtual Agent.|
+|In channels|The number of users whose sensitive data entries were detected within channels such as ServiceNow Otto or Virtual Agent.|
 |Channels with sensitive data|Channel bars \(x-axis\)|Stacked bars representing each channel where sensitive data was detected, broken down by data patterns. The data pattern legend displays the color code for each pattern. They may include driver license numbers, financial information, and personal identifiers.|
 |Occurrences of sensitive data \(y-axis\)|The count of sensitive data instances detected per channel.|
 |Tables with sensitive data found through real-time discovery|Table bars \(x-axis\)|Stacked bars representing each database table where sensitive data was detected, broken down by data patterns.|
@@ -227,40 +259,40 @@ The AI Insights section within ServiceNow Vault helps you keep track of activiti
 
 <table id="table_ysx_slf_kfc" class="nav-card"><tbody><tr><td>
 
-[Encryption \[Omitted image "bus-security.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)
+[Encryption \[Omitted image "bus-security.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption.md)
 
- [Key Management and Field Encryption is a suite of highly configurable encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)
+ [Key Management and Field Encryption is a suite of highly configurable encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption.md)
 
 </td><td>
 
-[Code Signing\[Omitted image "bus-contract.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
+[Code Signing\[Omitted image "bus-contract.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)
 
- [Help improve security by validating sensitive application configuration data and scripts before they are used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
+ [Help improve security by validating sensitive application configuration data and scripts before they are used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)
 
 </td></tr><tr><td>
 
-[Data Privacy\[Omitted image "bus-password-reset.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-landing.md)
+[Data Privacy\[Omitted image "bus-password-reset.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/data-privacy-landing.md)
 
- [Use the Data Privacy plugin to remove personally identifiable information \(PII\) from user data when it is migrated from a production instance to a non-production instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-landing.md)
+ [Use the Data Privacy plugin to remove personally identifiable information \(PII\) from user data when it is migrated from a production instance to a non-production instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/data-privacy-landing.md)
 
 </td><td>
 
-[Data Discovery\[Omitted image "bus-find-an-app.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/data-discovery-landing.md)
+[Data Discovery\[Omitted image "bus-find-an-app.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-discovery/data-discovery-landing.md)
 
- [The Data Discovery plugin enables you to find personally identifiable information \(PII\) from user data. The data can then be classified for further security measures.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/data-discovery-landing.md)
+ [The Data Discovery plugin enables you to find personally identifiable information \(PII\) from user data. The data can then be classified for further security measures.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-discovery/data-discovery-landing.md)
 
 </td></tr><tr><td>
 
-[Log Export Service\[Omitted image "bus-log-store.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-landing-page.md)
+[Log Export Service\[Omitted image "bus-log-store.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-landing-page.md)
 
- [Improve security, performance, and user experience by importing ServiceNow log data into enterprise log analytics using the log export service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-landing-page.md)
+ [Improve security, performance, and user experience by importing ServiceNow log data into enterprise log analytics using the log export service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-landing-page.md)
 
 </td><td>
 
-[Zero Trust Access\[Omitted image "bus-block.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md)
+[Zero Trust Access\[Omitted image "bus-block.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)
 
- [ServiceNow Session Access enables organizations to dynamically reduce user privilege in a web session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md)
+ [ServiceNow Session Access enables organizations to dynamically reduce user privilege in a web session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/session-access.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-dashboard.md)
+</table>**Parent Topic:**[ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-dashboard.md)
 

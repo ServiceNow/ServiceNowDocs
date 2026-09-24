@@ -3,11 +3,11 @@ title: Dynamic scheduling system properties
 description: Set up properties to customize the behavior and functionality of the dynamic scheduling process according to your organization's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/dynamic-sched-system-properties.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -177,7 +177,7 @@ com.snc.dynamic.scheduling.useWorkScheduleOnly
 
 </td><td>
 
-Controls whether dynamic scheduling and workforce optimization can fall back to the default work schedule when scheduling agents. When set to `true`, the scheduling engine does not fall back to the default work schedule. When set to `false`, the scheduling engine falls back to the default work schedule if an agent's work schedule expires or is unavailable.-   Type: true/false
+Enables the default work schedule to be used when scheduling agents with dynamic scheduling and workforce optimization.-   Type: string
 -   Default value: true
 
 </td></tr></tbody>
@@ -204,7 +204,7 @@ The **Window start date** field gets updated based on the delivery date of the t
 **Related topics**  
 
 
-[Example - Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/example-for-dynamic-scheduling.md)
+[Example - Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/example-for-dynamic-scheduling.md)
 
-[Configure dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
+[Configure dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
 

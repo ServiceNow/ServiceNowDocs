@@ -3,9 +3,9 @@ title: Activate the Workday reports
 description: Activate the corresponding Workday report for each of the metric definitions that is provided by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/activate-the-workday-reports.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Workday, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

@@ -3,9 +3,9 @@ title: Emergency notifications in Everbridge
 description: You can integrate Crisis Management in the BCM application with Everbridge notifications system. You can then send an emergency notification to an individual or a group of people alerting them of an impending emergency. It provides a one-way notification and two-way communication through properly established delivery channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/integrating-crisis-mgmt-with-everbridge-uib.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -65,5 +65,5 @@ If there are many contacts to whom the notification could not be delivered, then
 
 ## Administrative tasks for integrating Crisis Management with Everbridge
 
-For information on the administrative tasks for integrating Crisis Management with Everbridge notifications system, see [Setup for Everbridge notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.md).
+For information on the administrative tasks for integrating Crisis Management with Everbridge notifications system, see [Setup for Everbridge notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.md).
 

@@ -3,11 +3,11 @@ title: Explore ERP models agentic workflow
 description: Use the Explore ERP models AI agent team in ServiceNow Otto for Zero Copy Connector to obtain information about working with ERP database tables and models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-07-22"
-reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+reading_time_minutes: 1
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use agentic AI, ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 
@@ -22,8 +22,8 @@ The Explore ERP models agentic workflow uses a team of AI agents to answer user 
 ## Prerequisites for the Explore ERP models agentic workflow
 
 -   The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Otto for ZCC.
--   You must have the Knowledge Graph plugin installed. For more information, see [Configuring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-knowledge-graph.md).
--   Follow the steps in [ServiceNow Otto for Zero Copy Connector agentic workflow prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-ai-agents-prereqs.md) before using the Explore ERP models agentic workflow.
+-   You must have the Knowledge Graph plugin installed. For more information, see [Configuring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-knowledge-graph.md).
+-   Follow the steps in  before using the Explore ERP models agentic workflow.
 
 ## AI agents used in the Explore ERP models agentic workflow
 
@@ -50,5 +50,5 @@ In this example, use the Explore ERP models agentic workflow to run a specific m
 
 Your conversation is saved until you start a new chat. If the conversation ends unexpectedly, start a new chat by selecting the New chat icon \(\[Omitted image "icon-zoom-in.png"\]\).
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md).
 

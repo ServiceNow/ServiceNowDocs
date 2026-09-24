@@ -3,11 +3,11 @@ title: Banners in ServiceNow Otto for Customer Service Management \(CSM\)
 description: Banners display information about generative AI skills and the form fields that are generated or predicted by the those skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-record-banner.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -19,13 +19,13 @@ Banners display information about generative AI skills and the form fields that 
 
 ## Overview of banners
 
-The generative AI banner displays information about the fields on a form that are generated or predicted by the skills available with ServiceNow Otto for CSM. Messages that appear in the banner:
+The generative AI banner displays information about the fields on a form that are generated or predicted by the skills available with ServiceNow Otto for Customer Service Management \(CSM\). Messages that appear in the banner:
 
 -   Alert agents when fields are being generated or predicted and when the process is complete.
 -   Remind agents to review the information in these fields.
 -   Inform agents if fields can't be generated or predicted.
 
-Messages also include links to the fields that are generated or predicted by ServiceNow Otto for CSM.
+Messages also include links to the fields that are generated or predicted by ServiceNow Otto for Customer Service Management \(CSM\).
 
 
 
@@ -44,5 +44,5 @@ Set the following pages as the default record pages in UI Builder:
 -   **CSM default record page**: Includes specific features for case management.
 -   **CSM Interaction record page**: Includes CSM specific features for interaction management.
 
-These pages support the ServiceNow Otto for Customer Service Management \(CSM\) functionality in CRM Workspace, including the display of the generative AI icon and banner. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
+These pages support the ServiceNow Otto for Customer Service Management \(CSM\) functionality in CRM Workspace, including the display of the generative AI icon and banner. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 

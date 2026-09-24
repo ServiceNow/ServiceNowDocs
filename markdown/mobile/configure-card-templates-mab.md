@@ -3,9 +3,9 @@ title: Configure card templates in Mobile App Builder
 description: Create a card template to define the UI elements and layout to be used on a card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-card-templates-mab.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cards and icons, Mobile app components, Building mobile apps, Mobile Platform]
 ---

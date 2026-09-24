@@ -3,11 +3,11 @@ title: Configuring RIDAC in Strategic Planning Workspace
 description: Run the scheduled job to populate the planning item field on RIDAC records that were created before the Strategic Planning was installed. This job ensures legacy RIDAC records appear correctly in related lists and reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/configure-ridac-spw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [RIDAC, Strategic Planning, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Run the scheduled job to populate the planning item field on RIDAC records that 
 
 ## Configuration overview
 
-The primary administrative task for RIDAC in Strategic Planning Workspace is to populate planning items on the existing RIDAC records. This ensures that all RIDAC items created in your system are properly linked to their associated planning items and appear correctly in the RIDAC home page, filter views, and integration points. For step-by-step instructions, see [Populate planning items on RIDAC records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/update-ridac-planning-items-spw.md).
+The primary administrative task for RIDAC in Strategic Planning Workspace is to populate planning items on the existing RIDAC records. This ensures that all RIDAC items created in your system are properly linked to their associated planning items and appear correctly in the RIDAC home page, filter views, and integration points. For step-by-step instructions, see [Populate planning items on RIDAC records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/update-ridac-planning-items-spw.md).
 
 ## RIDAC configuration benefits
 

@@ -3,9 +3,9 @@ title: Event handlers in the Case create component
 description: A component triggers an event when a certain condition is met or on user interaction. The event can be used to execute an action through a code on a third-party webpage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/we-case-create-event-handlers.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Embeddables event handlers, Web Embeddables reference, Reference, Customer Service Management]
 ---
@@ -26,11 +26,11 @@ A component triggers an event when a certain condition is met or on user interac
 **Related topics**  
 
 
-[Configure the Case create component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-case-create-component-on-instance.md)
+[Configure the Case create component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-case-create-component-on-instance.md)
 
-[Embed the Case create component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-create-component-on-third-party-website.md)
+[Embed the Case create component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-create-component-on-third-party-website.md)
 
-[Component properties for the Case create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/comp-properties-case-create.md)
+[Component properties for the Case create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/comp-properties-case-create.md)
 
-[Sample code for the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-create-sample-code.md)
+[Sample code for the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-create-sample-code.md)
 

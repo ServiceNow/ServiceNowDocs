@@ -3,11 +3,11 @@ title: Service Level Management in Service Operations Workspace
 description: You can access the service level agreement \(SLA\) information for an incident on the Service Operations Workspace landing page and incident record page.Monitor task service level agreements \(SLAs\) displayed on an incident record page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/slm-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,13 +18,13 @@ You can access the service level agreement \(SLA\) information for an incident o
 
 ## SLA information on the Service Operations Workspace landing page
 
-On the Service Operations Workspace landing page, you can click the **Incident SLAs** card to view incidents grouped by their SLAs. This card displays SLA details only for incidents assigned to the agent. For information on possible customizations for this card, see [Configure the donut color in the Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-donut-color.md).
+On the Service Operations Workspace landing page, you can click the **Incident SLAs** card to view incidents grouped by their SLAs. This card displays SLA details only for incidents assigned to the agent. For information on possible customizations for this card, see [Configure the donut color in the Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-donut-color.md).
 
 \[Omitted image "overview-section.png"\] Alt text: Overview section
 
-For information about monitoring SLAs, see [Monitoring Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLAForTheEndUser.md).
+For information about monitoring SLAs, see [Monitoring Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_SLAForTheEndUser.md).
 
-**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
+**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 
 **Related topics**  
 
@@ -68,7 +68,7 @@ The following SLA timer configurations display the response and resolution SLA f
 -   Incident Response
 -   Incident Resolution
 
-You should configure SLA timer configuration mappings for these timer configurations. For information on how you can configure these mappings, see [Configure the SLA timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-timer-configurations.md).
+You should configure SLA timer configuration mappings for these timer configurations. For information on how you can configure these mappings, see [Configure the SLA timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/sla-timer-configurations.md).
 
 ### Procedure
 
@@ -79,7 +79,7 @@ You should configure SLA timer configuration mappings for these timer configurat
     -   The response and resolution SLAs are displayed.
     -   In case of multiple SLA timer configuration mappings for Incident Response and Incident Resolution timer configurations, only one response and resolution SLA record associated with the mapping with the least order is displayed.
     -   After the SLA is complete, the time taken to respond and resolve the incident are displayed.
-    For information about configuring the display of SLA information, see [Customize the display of service level agreements for an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
+    For information about configuring the display of SLA information, see [Customize the display of service level agreements for an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
     \[Omitted image "sla-info-sow.png"\] Alt text: SLA information for an incident
 

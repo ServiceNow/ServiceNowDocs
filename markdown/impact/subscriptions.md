@@ -3,9 +3,9 @@ title: Subscriptions
 description: See a list of your subscriptions for all of your instances and the list of applications that you’re entitled to, as part of those subscriptions, in one comprehensive view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/subscriptions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
@@ -34,5 +34,5 @@ Subscriptions display a list of all ServiceNow subscriptions and the amount purc
 
 **Note:** To allocate subscriptions, log in to your instance and navigate to **Subscription Management**.
 
-**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md)
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/idi-reference.md)
 

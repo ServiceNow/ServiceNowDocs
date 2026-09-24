@@ -3,13 +3,13 @@ title: Industrial Workspace Admin application menu and Guided Setup
 description: After you install the application and related plugins, you can use the Industrial Workspace Admin application menu to access the related Operational Technology Manager, Industrial Process Manager, Operational Technology Incident Management, Operational Technology Vulnerability Response, Operational Technology Change Management, Operational Technology Knowledge Management, and Operational Technology Request Management functions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/manufacturing-app-menu-guided-setup.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Industrial Workspace Admin application menu and Guided Setup
@@ -43,7 +43,7 @@ The options that appear on the Industrial Workspace Admin application menu depen
     -   OT Incident Admin
     -   Operational Technology Change Management
 
-To learn more about application installation and assigned roles, see [Install the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/install-manufacturing-process-mgr.md) and [Assign Industrial Process Manager user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/assign-manufacturing-process-manager-roles.md).
+To learn more about application installation and assigned roles, see [Install the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/install-manufacturing-process-mgr.md) and [Assign Industrial Process Manager user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/assign-manufacturing-process-manager-roles.md).
 
 ## Industrial Workspace Admin Guided Setup
 
@@ -64,7 +64,7 @@ If only the Industrial Process Manager is installed, the following setup functio
 -   The Operational Technology Knowledge Management setup steps.
 -   The Operational Technology Request Management setup steps.
 
-To learn more about Guided Setups and their use, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
+To learn more about Guided Setups and their use, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/guided-setup.md).
 
-**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

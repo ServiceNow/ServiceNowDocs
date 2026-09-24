@@ -3,9 +3,9 @@ title: Exploring Personal Lines Servicing
 description: Contributors, processors, and underwriters can use Personal Lines Servicing to create and manage service requests for personal insurance policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/explore-insurance-personal-policy-operations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -88,5 +88,5 @@ Processors in the middle or back office of financial institutions who work with 
 -   Insurance underwriters
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)
+</table>**Parent Topic:**[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)
 

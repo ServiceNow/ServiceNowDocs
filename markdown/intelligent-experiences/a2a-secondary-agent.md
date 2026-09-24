@@ -3,11 +3,11 @@ title: ServiceNow AI agents as secondary agents
 description: Secondary agents are specialized AI agents that handle specific workflow tasks delegated by a primary agent or user. You can connect your ServiceNow agent to other agentic AI model providers using the Agent2Agent protocol.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/a2a-secondary-agent.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Integrate external AI agents, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # ServiceNow AI agents as secondary agents
@@ -22,7 +22,7 @@ You can enable ServiceNow AI agents as secondary agents to use on other AI platf
 
 After creating your AI agent in AI Agent Studio, you can point it to the Agent Card URL that is displayed for secondary agents. Admins can view, copy, and consume the URL for easy access. The endpoint to point the AI agent to Agent Card for the actual execution of the AI agent is in the `{{instance}}.service-now.com/api/sn_aia/a2a/v2/agent/id/{{agent-id}}` format.
 
-You can use the same OAuth or API key for authenticating the agent discovery and the agent execution. For more information, see [A2A API Key credential behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/a2a-api-key-credential-behavior-new.md).
+You can use the same OAuth or API key for authenticating the agent discovery and the agent execution. For more information, see [A2A API Key credential behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/a2a-api-key-credential-behavior-new.md).
 
 To verify that your AI agent is running from the ServiceNow side, during a conversation with the AI agent, you can go to the **Execution Plan \[sn\_aia\_execution\_plan\]** table. From the Execution Plan table, you can identify the execution plan based on the **Objective** field that contains the prompt from the conversation on the other platform.
 

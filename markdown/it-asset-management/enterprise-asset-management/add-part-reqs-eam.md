@@ -3,13 +3,13 @@ title: Select descendant models of multi-component assets to create part require
 description: qFor work orders and work order tasks that have multi-component assets, select descendant models to create part requirement records. Create part requirements for descendant models of multi-component assets can be an alternate name for tyhis topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-part-reqs-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a work order for an enterprise asset, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create a work order for an enterprise asset, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Select descendant models of multi-component assets to create part requirements

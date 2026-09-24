@@ -3,11 +3,11 @@ title: Risk score rollup in Privacy Management
 description: When users of Privacy Management perform advanced risk assessments, they get the risk scores automatically rolled up.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-in-bcm-privacy.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Privacy risk management, Advanced Risk Assessment, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Starting with version 14.0, users of Privacy Management can perform advanced ris
 
 \[Omitted image "risk\_score\_rollup\_bcm\_pm.png"\] Alt text: How risk score is displayed for lite users.
 
-For more information to understand the rollup of scores, see [Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md).
+For more information to understand the rollup of scores, see [Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md).
 
-**Parent Topic:**[Privacy risk management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-as-lite-user.md)
+**Parent Topic:**[Privacy risk management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-as-lite-user.md)
 

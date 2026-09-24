@@ -3,9 +3,9 @@ title: Analyze skills for your teams in Workforce Optimization for Customer Serv
 description: Add skills to groups and view skill assignments for your teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analyze-skill-usage-teams-configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Channel Management, Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -36,5 +36,5 @@ Role required: skill\_admin
     You can click on a skill to analyze skill data such as the number of users or tasks with that skill, the overall skill coverage, and how many experts you currently have with that skill.
 
 
-**Parent Topic:**[Using Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-channels-wfo-cs.md)
+**Parent Topic:**[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configurable-channels-wfo-cs.md)
 

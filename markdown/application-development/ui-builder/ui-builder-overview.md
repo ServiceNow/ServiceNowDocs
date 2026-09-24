@@ -3,11 +3,11 @@ title: UI Builder
 description: UI Builder is a web user interface builder. Use UI Builder to build pages for App Engine Studio generated workspaces or custom web experiences using Next Experience Components and custom web components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/ui-builder-overview.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Builder library, Developing your application, Building applications]
 ---
@@ -18,9 +18,9 @@ UI Builder is a web user interface builder. Use UI Builder to build pages for Ap
 
 ## UI Builder overview
 
-Create or customize pages for workspace experiences. A [page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) is a collection of [components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) that make up a workspace user interface.
+Create or customize pages for workspace experiences. A [page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) is a collection of [components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) that make up a workspace user interface.
 
-Create [variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) of pages to target experiences for different audiences. For example, you can create a home page for agents, and a variant for managers at the same URL.
+Create [variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) of pages to target experiences for different audiences. For example, you can create a home page for agents, and a variant for managers at the same URL.
 
 **Note:** The ui\_builder\_admin role is required to complete tasks in UI Builder.
 
@@ -34,22 +34,22 @@ Use the UI Builder library of components to build your pages. Configure them any
 
 <table id="table_a31_mx5_lbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore UI Builder concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-custom-experience.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore UI Builder concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-custom-experience.md)
 
 </td><td>
 
-[Learn\[Omitted image "bus-case-study.svg"\] Alt text:Learn the basics of using UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib.md)
+[Learn\[Omitted image "bus-case-study.svg"\] Alt text:Learn the basics of using UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/learning-uib.md)
 
 </td></tr><tr><td>
 
-[Work\[Omitted image "bus-low-code-dev-tools.svg"\] Alt text:Dive deeper into configuring UI Builder experiences and pages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
+[Work\[Omitted image "bus-low-code-dev-tools.svg"\] Alt text:Dive deeper into configuring UI Builder experiences and pages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/using-ui-builder.md)
 
 </td><td>
 
-[Advanced\[Omitted image "bus-innovation.svg"\] Alt text:Learn how to add data and make your pages dynamic.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/advanced-uib.md)
+[Advanced\[Omitted image "bus-innovation.svg"\] Alt text:Learn how to add data and make your pages dynamic.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/advanced-uib.md)
 
 </td></tr></tbody>
-</table>**Note:** UI Builder isn't yet capable of building or configuring ServiceNow base system service portals, such as the Employee Center. For service portals, continue to use the [Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
+</table>**Note:** UI Builder isn't yet capable of building or configuring ServiceNow base system service portals, such as the Employee Center. For service portals, continue to use the [Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ConfigureAPage.md).
 
 ## Troubleshoot and get help with UI Builder
 
@@ -58,18 +58,16 @@ Use the UI Builder library of components to build your pages. Configure them any
 -   [Learn more about how to create your own apps on the developer site.](https://developer.servicenow.com/dev.do#!/)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
--   **[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-custom-experience.md)**  
+-   **[Exploring UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-custom-experience.md)**  
 Explore facets of UI Builder to set you up for creating pages quickly.
--   **[Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib.md)**  
+-   **[Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/learning-uib.md)**  
 Learn how to navigate the UI Builder and explore some common use cases to learn by example.
--   **[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)**  
+-   **[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/using-ui-builder.md)**  
 Get a full understanding of everything that you can do when creating a page for your workspace or custom portal experience in UI Builder.
--   **[Advanced UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/advanced-uib.md)**  
+-   **[Advanced UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/advanced-uib.md)**  
 UI Builder can be used by application developers with a variety of skill levels. We recommend developers with a high level of experience, sometimes referred to as pro-coders, perform the procedures in this section.
--   **[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/component-builder-uib.md)**  
+-   **[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/component-builder-uib.md)**  
 Learn how to use Component Builder to assemble reusable components for your UI Builder pages.
--   **[UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-landing.md)**  
-UI generation in ServiceNow Otto uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform® using natural language.
 
-**Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/builder-library-table.md)
+**Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/builder-library-table.md)
 

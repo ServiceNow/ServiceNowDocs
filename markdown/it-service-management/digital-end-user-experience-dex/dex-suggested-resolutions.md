@@ -3,13 +3,13 @@ title: Suggested resolutions in incident investigation with DEX
 description: Review and execute suggested resolutions from the Investigation tab of incident records to resolve detected issues on DEX monitored devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-suggested-resolutions.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Service Management]
+breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage, Digital End-User Experience, IT Service Management]
 ---
 
 # Suggested resolutions in incident investigation with DEX
@@ -43,7 +43,7 @@ The available completion states for different resolution types are:
 
 ## Action library for remedial actions
 
-In addition to the suggested resolutions, you can run remedial actions from the Action library to resolve device and application issues. For more information, see [Run remedial actions from the Action library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-action-library.md).
+In addition to the suggested resolutions, you can run remedial actions from the Action library to resolve device and application issues. For more information, see [Run remedial actions from the Action library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-action-library.md).
 
-**Note:** Remedial actions run from the Suggested resolutions and Action library are added to a playbook in the DEX incident investigation page. You can monitor current and past actions or cancel ongoing actions from the playbook. For more information, see [Manage remedial actions in DEX incident investigation Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/manage-incident-remedial-actions-playbook.md).
+**Note:** Remedial actions run from the Suggested resolutions and Action library are added to a playbook in the DEX incident investigation page. You can monitor current and past actions or cancel ongoing actions from the playbook. For more information, see [Manage remedial actions in DEX incident investigation Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/manage-incident-remedial-actions-playbook.md).
 

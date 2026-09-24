@@ -3,11 +3,11 @@ title: Activate Field Service Crew Operations
 description: You can activate the Field Service Crew Operations plugin \(com.snc.fsm\_crew\_scheduling\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/activate-fsm-crew-scheduling.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Crew Operations, Set up workforce, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ You can activate the Field Service Crew Operations plugin \(com.snc.fsm\_crew\_s
 
 ## Before you begin
 
-Field Service Crew Operations requires the Field Service Management \[com.snc.work\_management\] plugin. For more information about activating Field Service Management, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md). Ensure that these plugins are activated before you install Field Service Crew Operations.
+Field Service Crew Operations requires the Field Service Management \[com.snc.work\_management\] plugin. For more information about activating Field Service Management, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ActivateFieldServiceManagement.md). Ensure that these plugins are activated before you install Field Service Crew Operations.
 
 Role required: admin.
 
@@ -30,7 +30,7 @@ The following items are installed with Field Service Crew Operations:
 -   Tables
 -   Business rules
 
-For more information, see [Field Service Crew Operations components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/crew-scheduling-components.md).
+For more information, see [Field Service Crew Operations components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/crew-scheduling-components.md).
 
 ## Procedure
 
@@ -48,10 +48,10 @@ For more information, see [Field Service Crew Operations components](https://raw
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 ## Result
 
-The Field Service Crew Operations plugin when activated successfully adds the **sn\_fsm\_crew.work.management.allow.undersized.crew.taskassignment** property to the Field Service Management system properties. For more information, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md).
+The Field Service Crew Operations plugin when activated successfully adds the **sn\_fsm\_crew.work.management.allow.undersized.crew.taskassignment** property to the Field Service Management system properties. For more information, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md).
 

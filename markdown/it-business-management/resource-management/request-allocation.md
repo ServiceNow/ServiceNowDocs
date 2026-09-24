@@ -3,11 +3,11 @@ title: Create requested allocations for a resource plan
 description: Requested Allocations are automatically created when a resource plan is submitted and is in Planning state. If required, the resource requester can create new requested allocations for a resource plan in Planning or Rejected state. Resource managers can create requested allocations for the plans in Requested state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/request-allocation.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,7 +36,7 @@ To specify the breakup of resource requirements for monthly or weekly Allocation
 
 4.  On the Requested Allocation form, fill in the fields.
 
-    For a description of the field values, see [Requested Allocation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/requested-allocation-form.md).
+    For a description of the field values, see [Requested Allocation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/requested-allocation-form.md).
 
 5.  To save the record and return to the resource plan, select **Submit**.
 
@@ -47,7 +47,7 @@ If a resource is requested from September 1 to Nov 30 for 360 hours, requested a
 
 -   **Case 1: Plan duration allocation type**
 
-    For a plan duration [allocation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md), the following requested allocation records would be created:
+    For a plan duration [allocation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md), the following requested allocation records would be created:
 
     |Start date|End date|Planned hours|
     |----------|--------|-------------|
@@ -70,5 +70,5 @@ If a resource is requested from September 1 to Nov 30 for 360 hours, requested a
 
 For a weekly allocation, requested allocation records created similar to monthly. Three allocation records, one for each month are created.
 
-**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceManagement.md)
+**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/c_ResourceManagement.md)
 

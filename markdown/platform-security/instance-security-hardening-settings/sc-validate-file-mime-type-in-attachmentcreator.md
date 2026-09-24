@@ -1,18 +1,18 @@
 ---
-title: Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]
+title: Validate file MIME type in AttachmentCreator web service
 description: The glide.attachment.enforce\_security\_validation property determines whether Multipurpose internet Mail Extensions \(MIME\) files undergo validation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [File and resources, Hardening settings, Platform Security]
 ---
 
-# Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]
+# Validate file MIME type in AttachmentCreator web service
 
 The **glide.attachment.enforce\_security\_validation** property determines whether Multipurpose internet Mail Extensions \(MIME\) files undergo validation.
 
@@ -72,11 +72,19 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
 
-[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -113,5 +121,5 @@ Functional impact
 Set this hardening setting to true to run mime-type and file extension validations on uploaded file attachments. No validations are run if this property is set to false. This property is set to true by default.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

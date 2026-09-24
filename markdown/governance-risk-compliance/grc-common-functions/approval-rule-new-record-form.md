@@ -3,11 +3,11 @@ title: Approval Rule New Record form
 description: Use the Approval Rule New Record form to create an approval rule for the approval level for a policy record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/approval-rule-new-record-form.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up an approval rule, Use Approver Configurator for setting up approvals for setting up approvals, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -83,7 +83,7 @@ Type of approvers for the policy. See the following options for approver types.-
 -   Dynamic approvers: Select approvers dynamically from the approver table by applying static and/or advanced dynamic conditions. You can select a user column, group column, or both from which to read the approver.
 -   Scripted approvers: Write a script to determine approvers. Variables **users** and **groups** are used in the script.
 
-**Note:** For security reasons, the Approver Configurator developers have read and write access to the **Script** field on the Approval Rule form. For more information on setting up the approval rules, see [Set up an approval rule for the approval level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-rules.md).
+**Note:** For security reasons, the Approver Configurator developers have read and write access to the **Script** field on the Approval Rule form. For more information on setting up the approval rules, see [Set up an approval rule for the approval level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-rules.md).
 
 
 </td></tr><tr><td>
@@ -151,5 +151,5 @@ When the Approver type is **Scripted approvers**, the approvers are as follows:-
 **Note:** Only users with a developer role can modify the custom script.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Set up an approval rule for the approval level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-rules.md)
+</table>**Parent Topic:**[Set up an approval rule for the approval level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-rules.md)
 

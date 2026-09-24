@@ -3,11 +3,11 @@ title: Goals in Strategic Planning
 description: Create goals for your portfolio plan, set targets for them, and evaluate the progress of these goals and targets to accomplish your organizational plans and drive business outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/goal-management-in-alignment-planner-workspace.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -39,7 +39,7 @@ Targets help you measure your goal. For example, to meet the goal of increasing 
 
 Targets can be quantitative or qualitative, by defining the unit of measure for the target. Quantitative targets are numbers-based, countable, and measurable. Qualitative targets are interpretation-based, descriptive, and typically a yes or no type.
 
-You can also break down a target into smaller periods \(for example, Quarterly\), which helps you set a target for each quarter and focus on the specific breakdown targets. The target breakdowns are automatically created based on the breakdown interval set for the target. For details on how the target breakdowns feature works, see [Target breakdowns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-breakdowns.md).
+You can also break down a target into smaller periods \(for example, Quarterly\), which helps you set a target for each quarter and focus on the specific breakdown targets. The target breakdowns are automatically created based on the breakdown interval set for the target. For details on how the target breakdowns feature works, see [Target breakdowns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-breakdowns.md).
 
 -   **Qualitative targets**
 
@@ -58,12 +58,12 @@ The following target source types are supported for automating the actual value 
 -   Assessment/Survey: Updates the **Actual to date** field on the target form by fetching the required data from the Assessment metric type and Assessment metric category records.
 -   Custom script: The Custom script fetches the required data from any ServiceNow AI Platform table that is configured. With the Custom script option, any table or a combination of tables present on the ServiceNow AI Platform can be configured as a target source.
 
-    [Predefined target automation script for benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-automation-script-benefit-plans-apw.md): The predefined, default script is a target source that updates the **Actual to date** field on the target form by fetching the value from the **Actual benefit** field or **Non-monetary actual benefit** field from the monetary or non-monetary benefit plans of relevant work items.
+    [Predefined target automation script for benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-automation-script-benefit-plans-apw.md): The predefined, default script is a target source that updates the **Actual to date** field on the target form by fetching the value from the **Actual benefit** field or **Non-monetary actual benefit** field from the monetary or non-monetary benefit plans of relevant work items.
 
 
 -   **Context variable**
 
-    The context variable is an additional configuration for the target source. The context variable provides information that can be used on the Target form to fetch the required data and update the **Actual to date** field on the Target form. The context variable is required for target source types Assessment/Survey and PA Indicator. If the Goal Framework for SPM scope is selected while creating a target source, the context variable is automatically created for the target source \(of type Assessment/Survey and PA Indicator\). For more information on context variables, see [Context variable in target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/context-variable-in-target-source-apw.md).
+    The context variable is an additional configuration for the target source. The context variable provides information that can be used on the Target form to fetch the required data and update the **Actual to date** field on the Target form. The context variable is required for target source types Assessment/Survey and PA Indicator. If the Goal Framework for SPM scope is selected while creating a target source, the context variable is automatically created for the target source \(of type Assessment/Survey and PA Indicator\). For more information on context variables, see [Context variable in target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/context-variable-in-target-source-apw.md).
 
     \[Omitted image "goals-module-example-view-exploring.png"\] Alt text: Example goals view with multiple goals and targets.
 
@@ -72,22 +72,22 @@ The following target source types are supported for automating the actual value 
 
 Using the Goals view in the Strategic Planning Workspace, you can do the following activities:
 
--   Create a goal for an entity such as company, business unit, department, and so on. For more information, see [Create a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-goal-egm.md).
--   Set targets and automate the actual value of the targets. For more information, see [Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md).
+-   Create a goal for an entity such as company, business unit, department, and so on. For more information, see [Create a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-goal-egm.md).
+-   Set targets and automate the actual value of the targets. For more information, see [Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md).
 
     **Note:**
 
     -   Automating the actual value of the targets is optional. If you don't want to automate the actual value of your targets, you can still update the actual value of the targets manually.
     -   You can also generate targets for your goals using the Target generation skill, if the ServiceNow Otto for SPM application is installed.
--   Associate a planning item with goals. For more information, see [Align a planning item with goals or targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.md).
--   Associate or update the primary goal for a planning item. For more information, see [Associate or update the primary goal for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/associate-update-primary-goal-egm.md).
+-   Associate a planning item with goals. For more information, see [Align a planning item with goals or targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.md).
+-   Associate or update the primary goal for a planning item. For more information, see [Associate or update the primary goal for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/associate-update-primary-goal-egm.md).
 
-For more information on how to define and manage your goals in Strategic Planning see [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
+For more information on how to define and manage your goals in Strategic Planning see [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
 
--   **[Automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/automatic-status-calculation-targets-spw.md)**  
+-   **[Automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/automatic-status-calculation-targets-spw.md)**  
 Automatically determine status for targets consequently rolling up to goals based on achievement percentages. Status is calculated when you enter actual values and achievement of actuals compared to the planned target against predefined thresholds \(Green, Yellow, Red\).
--   **[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.md)**  
+-   **[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.md)**  
 Detailed specifications for status calculation across different target types, calculation formulas for targets with and without breakdowns, and worked examples demonstrating status assignment and rollup mechanics.
 
-**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
+**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

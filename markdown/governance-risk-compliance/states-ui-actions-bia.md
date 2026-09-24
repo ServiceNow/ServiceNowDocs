@@ -3,9 +3,9 @@ title: BIA states and UI actions
 description: When you create a business impact analysis \(BIA\), certain UI actions are associated with each state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/states-ui-actions-bia.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -70,8 +70,6 @@ Select **Submit for approval**.
 
 When you select **Submit for approval** in the Create New Impact analysis form, the state of the business impact analysis is updated to **Pending approval**.
 
- In the **Pending approval** state, the business impact analysis is not editable. You cannot add items to a Dependency assessment because the **Add** and **Add first level CMDB dependencies** actions are unavailable until the business impact analysis returns to an editable state.
-
 </td></tr><tr><td>
 
 **Approved**
@@ -110,7 +108,7 @@ When you select **Archive** in the Create New Impact analysis form, the state of
 
 Download the PDF of the business impact analysis for reference. The PDF attachment is available in the **Activity** panel on the **Details** tab.
 
-For information on generating the PDF of a business impact analysis, see [Generate BIA reports in PDF or Microsoft Word formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-pdf-for-bia.md).
+For information on generating the PDF of a business impact analysis, see [Generate BIA reports in PDF or Microsoft Word formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/generate-pdf-for-bia.md).
 
 -   **Copy**
 
@@ -120,7 +118,7 @@ Save a copy of the PDF of the business impact analysis for future reference as a
 
 Visualize 360º representation of the business impact analysis such as its name, template used, dependencies, and BIA result.
 
-For information on how to view 360º relationships of a business impact analysis, see [Visualize 360° relationships for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/visualize-360-degree-view-for-bia.md).
+For information on how to view 360º relationships of a business impact analysis, see [Visualize 360° relationships for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/visualize-360-degree-view-for-bia.md).
 
 -   **Delete**
 
@@ -150,5 +148,5 @@ If you select **Reject** in the Create New Impact analysis form, the state of th
 </td></tr></tbody>
 </table>**Note:** A scheduled job runs weekly to move the expired business impact analyses to the **Archived** state.
 
-**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

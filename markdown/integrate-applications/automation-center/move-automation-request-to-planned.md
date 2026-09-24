@@ -3,13 +3,13 @@ title: Move an automation request to the Planned state
 description: After creating an automation request, move it to the Planned state before you work on it or create associated automation tasks or resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/move-automation-request-to-planned.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Move through states, Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Move an automation request to the Planned state
@@ -18,7 +18,7 @@ After creating an automation request, move it to the **Planned** state before yo
 
 ## Before you begin
 
-Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-request.md).
+Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-automation-request.md).
 
 Verify that the state of the automation request is **New**.
 
@@ -41,5 +41,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 After you move an automation request to the Planned state, it's ready for you to work on.
 
-**Parent Topic:**[Move through states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-through-states.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automations.md)
 

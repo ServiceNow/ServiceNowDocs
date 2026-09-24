@@ -3,9 +3,9 @@ title: Use the Personalize Form menu
 description: Use the Personalize Form menu to add or remove fields from your view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-personalize-form.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: workspace\_user
 
 1.  Open a record in your instance.
 
-2.  From the form header, select the Additional actions icon \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon.\) or right-click the form header.
+2.  From the form header, select the Additional actions icon \(\) or right-click the form header.
 
     The More form options list opens.
 

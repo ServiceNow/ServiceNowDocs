@@ -3,13 +3,13 @@ title: Review AI-extracted metadata and contract reminder date in the Hardware A
 description: Use the contract playbook to review and update the AI-extracted metadata and contract reminder date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/review-ai-extracted-metadata-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage contract repository agentic workflow, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage contract repository agentic workflow, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Review AI-extracted metadata and contract reminder date in the Hardware Asset Workspace
@@ -24,7 +24,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller, ham\_admin/ham\_user, sn
 
 The Manage contract repository agentic workflow uses AI agents to extract key metadata from signed contracts and calculate contract reminder date. The metadata is extracted based on the applicable use case in the Contract metadata extraction skill. After the extraction process is complete, a message appears on the contract record and an email notification is sent with a link to review the extracted metadata. Once you have reviewed and submitted the extracted metadata, the contract reminder date is calculated. The reminder date is calculated based on the contract end date, auto-renewal clause, and notice period for contract renewal or termination.
 
-To receive notifications when AI agents complete metadata extraction, verify that notifications are enabled by the administrator. For more information, see [Enable notifications for AI extracted metadata and obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-na-me-agentic-ntf.md).
+To receive notifications when AI agents complete metadata extraction, verify that notifications are enabled by the administrator. For more information, see [Enable notifications for AI extracted metadata and obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cmpro-na-me-agentic-ntf.md).
 
 ## Procedure
 
@@ -97,5 +97,5 @@ To receive notifications when AI agents complete metadata extraction, verify tha
     The contract reminder date is saved, and the configured recipient receives a notification on the specified date to remind them of upcoming contract renewal or termination actions.
 
 
-**Parent Topic:**[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)
+**Parent Topic:**[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)
 

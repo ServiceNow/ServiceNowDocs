@@ -2,7 +2,7 @@
 title: Generate an API key
 description: Generate an API key that enables your ServiceNow instance to request access to the BigFix Inventory instance.
 locale: en-US
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

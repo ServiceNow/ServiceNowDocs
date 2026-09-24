@@ -3,9 +3,9 @@ title: Edit the Order Qualification Request
 description: Use the Order Qualification Request integration request type in the Order Management for Telecommunications application to process the customer order qualification requests and retrieve the results from the external inventory systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/edit-order-mgt-tsq-spoke.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service qualification requests, Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -44,15 +44,15 @@ The Order Qualification Request type is used to integrate order management with 
 5.  In the Request adapter field, select the subflow that will communicate with the third-party system to update the customer order and select **Submit**.
 
     -   Each request type can have multiple request definitions. For example, if you have multiple inventory systems or vendors, depending on the system you want to invoke, you can add multiple request definitions for each system. You must create a separate spoke to interact with each vendor or third-party system, create a flow in the spoke, and point the request adapter to this flow.
-    -   For more information on how to create a spoke, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spokes.md). As shown in the demo subflow, ensure that the response from the third-party system passed to the Process Qualification Response block.
+    -   For more information on how to create a spoke, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/spokes.md). As shown in the demo subflow, ensure that the response from the third-party system passed to the Process Qualification Response block.
     -   When the Process Qualification Request subflow is invoked, the response from the third-party inventory system is received either synchronously or asynchronously, and the Result is updated in the customer order.
 
-**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-about.md)
+**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-tsq-about.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

@@ -3,11 +3,11 @@ title: Migrating to cart layouts
 description: Service catalog enables you to configure cart layouts to add, remove, or change elements of the service catalog shopping cart. Before you migrate your system to use cart layouts, familiarize yourself with existing configurations for catalog content and decide whether to discard or retain these configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_MigrateCartLayouts.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cart layout, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,8 +41,8 @@ To retain item-specific settings, clear the **Use cart layout** check box in the
 
 **Note:** You can configure the form to display the **Use cart layout** check box.
 
--   **[Migrate customizations and enable cart layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_MoveCustomizationsToCartLayouts.md)**  
+-   **[Migrate customizations and enable cart layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_MoveCustomizationsToCartLayouts.md)**  
 Move customization to cart layout widgets, and then enable cart layouts.
 
-**Parent Topic:**[Cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ConfigureCartLayout.md)
+**Parent Topic:**[Cart layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ConfigureCartLayout.md)
 

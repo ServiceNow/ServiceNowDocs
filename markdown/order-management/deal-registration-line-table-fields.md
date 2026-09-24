@@ -3,9 +3,9 @@ title: Deal registration line table fields
 description: The deal registration line table contains line items linked to a deal registration, each referencing a specific product offering.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/deal-registration-line-table-fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
@@ -20,5 +20,5 @@ The deal registration line table contains line items linked to a deal registrati
 |Deal registration|Reference|Reference to the deal registration \(sn\_prm\_dr\_deal\_registration\) table|
 |Product offering|Reference|Reference to product offering \(sn\_prd\_prm\_product\_offering\) table|
 
-**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management-reference.md)
 

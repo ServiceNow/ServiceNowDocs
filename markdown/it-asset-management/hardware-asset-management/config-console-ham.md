@@ -3,11 +3,11 @@ title: Configuration Console for Hardware Asset Management
 description: The Configuration Console gives administrators a centralized, module-by-module setup experience to configure Hardware Asset Management features after installation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/config-console-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Ma
 # Configuration Console for Hardware Asset Management
 
 The Configuration Console gives administrators a centralized, module-by-module setup experience to configure Hardware Asset Management features after installation.
-
-**Important:** Product Hub and Configuration Console are available starting from Hardware Asset Management version 16.0.0 \(Australia Patch 6\).
 
 ## Key benefits
 
@@ -132,7 +130,7 @@ admin
 
 </td></tr><tr><td>
 
-**Properties****Note:** For details on system properties that can be configured from the Configuration Console, see [Hardware Asset Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-system-properties.md).
+**Properties****Note:** For details on system properties that can be configured from the Configuration Console, see [Hardware Asset Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-system-properties.md).
 
 </td><td>
 
@@ -234,5 +232,12 @@ ham\_admin and sn\_hamp.ham\_system\_admin
 ham\_admin and sn\_hamp.ham\_system\_admin
 
 </td></tr></tbody>
-</table>For more details on setup using these modules, see [Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/config-console-modules-ham.md).
+</table>For more details on setup using these modules, see [Modules in the Configuration Console for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/config-console-modules-ham.md).
+
+-   **[Configure Hardware Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-ham-from-console.md)**  
+Configure the Hardware Asset Management application to manage hardware asset lifecycle, inventory, integrations, and team management setup from a centralized console.
+-   **[Configure assignment groups, roles, and users using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-team-using-ai.md)**  
+Use the AI conversational experience in the Configuration Console to configure assignment groups, roles, and users for Hardware Asset Management.
+
+**Parent Topic:**[Configuring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configuring-ham.md)
 

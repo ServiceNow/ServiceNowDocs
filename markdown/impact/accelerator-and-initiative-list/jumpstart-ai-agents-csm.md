@@ -3,12 +3,12 @@ title: Jumpstart Your AI Agents for CSM
 description: This Accelerator provides a demonstration of the possibilities and capabilities of AI Agents for CSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-ai-agents-csm.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
@@ -41,10 +41,10 @@ This Accelerator provides  Impact customers with an overview and applied demon
     -   Applied demonstration of:
         -   Base system AI Agents for CSM experiences
         -   Customization of Case Summarization Skill
-        -   Now Assist Usage Metrics for CSM
+        -   *ServiceNow Otto* Usage Metrics for CSM
     -   Key resources and guides on leading practices
     -   30 days access to the temporary instance is provided
--   **Customer coaching session \#2 \(optional upon customer request, up to 60 minutes\)**
+-   **Customer coaching session \#2 \(optional up on customer request, up to 60 minutes\)**
 
     Opportunity for Q&amp;A related to AI Agents for CSM.
 
@@ -57,18 +57,14 @@ One or more customer resource is requested. The specific number of resources pro
 |-----------------|----------------|
 |Platform Owner \(Required\)|Responsible for the overall accountability of the ServiceNow platform. Leads the System Administrators, ensures team alignment with the ServiceNow business strategy and roadmap, and contributes to platform governance.|
 |System Administrator\(s\) \(Required\)|Maintains the stability and usability of the ServiceNow by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|
-|Customer Service Manager \(Recommended\)|Responsible for managing case workers. Provides insights into the impact of different AI Agents Skills on the current state.|
+|Customer Service Manager \(Recommended\)|Responsible for managing case workers. Provides insights into the current state and how different *ServiceNow Otto* Skills could impact it. |
 |Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.|
 
-## Requested information/access
+## Requested Information/Access
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/upgrade-schedules.html](https://www.servicenow.com/upgrade-schedules.html)
-
-## Exclusions
-
-This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
 
-ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

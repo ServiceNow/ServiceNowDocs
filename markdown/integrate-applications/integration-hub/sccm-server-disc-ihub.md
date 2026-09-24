@@ -3,11 +3,11 @@ title: SCCM server Discovery for client software distribution
 description: Discovery flow populates ServiceNow tables with collection, application, and deployment data retrieved from SCCM servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sccm-server-disc-ihub.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Retrieve SCCM data for client software distribution, Configuring SCCM, CSD from SCCM, Client Software Distribution, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Retrieve SCCM data for client software distribution, Configuring SC
 
 Discovery flow populates ServiceNow tables with collection, application, and deployment data retrieved from SCCM servers.
 
-Users run the **Discover SCCM** flow from an [SCCM Server Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/retrieve-sccm-data-ihub.md) record to populate the following ServiceNow tables:
+Users run the **Discover SCCM** flow from an [SCCM Server Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/retrieve-sccm-data-ihub.md) record to populate the following ServiceNow tables:
 
 <table id="table_lxp_vcp_ks"><thead><tr><th>
 
@@ -59,7 +59,7 @@ SCCM Deployment \[sn\_client\_sf\_dist\_sccm\_deployment\]
 -   type
 
 </td></tr></tbody>
-</table>**Note:** For details about the actions used in this flow to extract data from an SCCM server, see [Microsoft SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-sccm-spoke.md) .
+</table>**Note:** For details about the actions used in this flow to extract data from an SCCM server, see [Microsoft SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/microsoft-sccm-spoke.md) .
 
-**Parent Topic:**[Retrieve SCCM data for client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/retrieve-sccm-data-ihub.md)
+**Parent Topic:**[Retrieve SCCM data for client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/retrieve-sccm-data-ihub.md)
 

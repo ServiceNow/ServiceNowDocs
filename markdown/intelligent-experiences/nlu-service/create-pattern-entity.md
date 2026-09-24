@@ -1,18 +1,18 @@
 ---
-title: Create a pattern entity
+title: \(Legacy\) Create a pattern entity
 description: Create a pattern entity from a word or phrase with repeatable patterns, such as email addresses and phone numbers. These patterns help the system to recognize similar utterances based on the patterns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-pattern-entity.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create a pattern entity
+# \(Legacy\) Create a pattern entity
 
 Create a pattern entity from a word or phrase with repeatable patterns, such as email addresses and phone numbers. These patterns help the system to recognize similar utterances based on the patterns.
 
@@ -27,7 +27,7 @@ Create a pattern entity from a word or phrase with repeatable patterns, such as 
 
 Pattern entities help your model identify, contextualize, and govern similar types of content. Inputs such as phone numbers and email address follow the same pattern. By creating a pattern entity, you can train the model to recognize all variations of those inputs.
 
-**Note:** Pattern entities use regular expressions \(regex\). The regex field value is a Java regular expression. For more information on how to use regex, see [Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
+**Note:** Pattern entities use regular expressions \(regex\). The regex field value is a Java regular expression. For more information on how to use regex, see [Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
 
 In this example scenario, you've created an intent that's titled \#CheckITTicketStatus. In this example procedure, you're creating a pattern entity for incident record numbers.
 

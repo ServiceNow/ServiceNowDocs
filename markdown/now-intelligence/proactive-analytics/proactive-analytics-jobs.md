@@ -3,11 +3,11 @@ title: Proactive analytics jobs
 description: Proactive analytics insights are activated and generated through several jobs on the Sys Jobs \[sys\_job\] table. All jobs run daily, at times set in Schedule Item \[sys\_trigger\] records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/proactive-analytics/proactive-analytics-jobs.html
-release: australia
+release: brazil
 product: Proactive Analytics
 classification: proactive-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Insights on dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---

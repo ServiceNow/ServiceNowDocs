@@ -3,11 +3,11 @@ title: Resolve multiple collisions
 description: You can resolve multiple collisions without reviewing the differences between the local and pulled versions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_ResolveMultipleCollisions.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Team Development, Planning your application, Building applications]
 ---
@@ -32,7 +32,7 @@ Role required: none.
 
 4.  In the Actions choice list, use one of the following methods to resolve the collision.
 
-<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d315247e93">
+<table id="choicetable_rby_sbc_bq"><tbody><tr><td id="d305460e93">
 
 **To load the version pulled from the parent as the current version for all selected collisions**
 
@@ -40,7 +40,7 @@ Role required: none.
 
 Select **Use Pulled Version**
 
-</td></tr><tr><td id="d315247e105">
+</td></tr><tr><td id="d305460e105">
 
 **To maintain the local version \(local record\) as the current version for all selected collisions. The pulled versions are added to the version history for the records.
 

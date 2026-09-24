@@ -3,9 +3,9 @@ title: Scripted templates
 description: You can apply an active template to a record using JavaScript.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_ScriptedTemplates.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Form templates, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -72,7 +72,7 @@ To apply a template using a sys\_id, use the following method.
 GlideTemplate.get(template.sys_id).apply(GlideRecord)
 ```
 
-**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md)
+**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_Templates.md)
 
 **Related topics**  
 

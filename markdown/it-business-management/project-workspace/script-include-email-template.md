@@ -1,24 +1,24 @@
 ---
-title: Update the project insights header and footer of email
+title: Update the project insights header and footer of your email using script include
 description: Use the script include to modifying the email template for project summary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/script-include-email-template.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure AI Admin features, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configure AI Admin features, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Update the project insights header and footer of email
+# Update the project insights header and footer of your email using script include
 
 Use the script include to modifying the email template for project summary.
 
 ## Before you begin
 
-Verify that ServiceNow Otto for SPM is installed and project insights generation skill is active.
+Install the ServiceNow Otto for SPM application and check if the project insights generation skill is active.
 
 Role required: admin
 
@@ -45,5 +45,5 @@ Role required: admin
     On completion, the project summary email template is customized with the header and footer.
 
 
-**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md)
+**Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configuring-na-spm.md)
 

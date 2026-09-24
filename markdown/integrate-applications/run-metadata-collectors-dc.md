@@ -3,9 +3,9 @@ title: Running metadata collectors
 description: A metadata collector run harvests technical metadata from the connected data platform and updates the Data Catalog. Collectors can run on demand or on a defined schedule. Runtime logs record the status and details of each run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/run-metadata-collectors-dc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Catalog, Workflow Data Fabric]
 ---
@@ -21,12 +21,12 @@ Collectors support two run modes:
 
 \[Omitted image "dc-mcollector-run-sch.png"\] Alt text: Metadata collector interface showing schedule configuration options and run summary with manual run button highlighted.
 
--   **[Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run_metadata-collectors-manually.md)**  
+-   **[Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/run_metadata-collectors-manually.md)**  
 Execute a metadata collector on-demand to import metadata immediately.
--   **[Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/schedule-metadata-collector-runs.md)**  
+-   **[Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/schedule-metadata-collector-runs.md)**  
 Schedule a metadata collector to run automatically at a specified frequency.
--   **[View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-runtime-logs-for-collector-runs.md)**  
+-   **[View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-runtime-logs-for-collector-runs.md)**  
 Access execution logs and download detailed log files for metadata collector runs.
 
-**Parent Topic:**[Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)
+**Parent Topic:**[Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-catalog.md)
 

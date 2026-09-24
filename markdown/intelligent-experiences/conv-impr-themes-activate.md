@@ -3,11 +3,11 @@ title: Activating Conversation Improvement Themes
 description: Activate the Conversation Improvement Themes application to analyze conversation quality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/conv-impr-themes-activate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversation Improvement Themes, Enable AI experiences]
+breadcrumb: [Conversation Improvement Themes, Analyzing AI effectiveness, Enable AI Experiences]
 ---
 
 # Activating Conversation Improvement Themes
@@ -18,11 +18,11 @@ Activate the Conversation Improvement Themes application to analyze conversation
 
 Role required: admin
 
-Conversation evaluations have to be enabled in AI Control Tower. For more information, see [Enabling evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-enable.md).
+Conversation evaluations have to be enabled in AI Control Tower. For more information, see [Enabling evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-enable.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin Console** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  Within the Platform category, select the feature **Conversation Evaluator** and verify that all the skills shipped with the Conversation Evaluator application are activated.
 

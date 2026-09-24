@@ -3,11 +3,11 @@ title: Create a custom filter rule
 description: Create a custom filter rule in the Software Install Custom Filter table \(samp\_sw\_install\_custom\_filter\). Rules determine the criteria by which software is excluded from your Software Asset Management \(SAM\) workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-custom-filter-rule.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [custom filter, exclusion rule, software, SAM]
 breadcrumb: [Software filter, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -29,7 +29,7 @@ Role required: agent\_client\_collector\_admin
 
 3.  Complete the fields based on the software you want to exclude.
 
-    For details on the available fields, see [Software filter fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/sw-filter-fields.md).
+    For details on the available fields, see [Software filter fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/sw-filter-fields.md).
 
 4.  Select **Submit**.
 
@@ -50,5 +50,5 @@ Your organization has an internal tool that installs a desktop shortcut called *
 
 From the next scan onward, any Windows device reporting **Company Portal Shortcut** will have that entry excluded from the SAM inventory and logged in the review table instead.
 
-**Parent Topic:**[Software filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/software-filter.md)
+**Parent Topic:**[Software filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/software-filter.md)
 

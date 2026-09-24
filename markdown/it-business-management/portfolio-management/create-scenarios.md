@@ -3,11 +3,11 @@ title: Create planning scenarios
 description: Create planning scenarios with different combinations of projects and demands in your portfolio. Experiment with different scenarios to plan your budget expenditure for a fiscal year.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/create-scenarios.html
-release: australia
+release: brazil
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,27 +18,27 @@ Create planning scenarios with different combinations of projects and demands in
 
 ## Before you begin
 
-Ensure that you have set the target budget for the fiscal year for which you want to create a planning scenario for annual type of planning. For more information, see [Set target budget for a fiscal year](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/select-fiscal-period-set-target.md). Setting of target is not required for multi-year resource capacity type of planning.
+Ensure that you have set the target budget for the fiscal year for which you want to create a planning scenario for annual type of planning. For more information, see [Set target budget for a fiscal year](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/select-fiscal-period-set-target.md). Setting of target is not required for multi-year resource capacity type of planning.
 
 Role required: it\_portfolio\_manager
 
 ## About this task
 
-You can create up to four planning scenarios with different combinations of projects and demands for execution. For example, you might create a scenario A and select all the projects and demands with your standard resource allocation. If you’re aware that a risk might affect the business outcome, you can create a scenario B with a reduced number of projects and demands to see whether that strategy might mitigate or avoid the risk. For more information about defining scenarios, see [Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md).
+You can create up to four planning scenarios with different combinations of projects and demands for execution. For example, you might create a scenario A and select all the projects and demands with your standard resource allocation. If you’re aware that a risk might affect the business outcome, you can create a scenario B with a reduced number of projects and demands to see whether that strategy might mitigate or avoid the risk. For more information about defining scenarios, see [Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md).
 
 ## Procedure
 
 1.  Navigate to the Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d269708e78">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d270752e78">
 
 Location
 
-</th><th align="left" id="d269708e81">
+</th><th align="left" id="d270752e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d269708e87">
+</th></tr></thead><tbody><tr><td id="d270752e87">
 
 **From application navigator**
 
@@ -48,7 +48,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d269708e120">
+</td></tr><tr><td id="d270752e120">
 
 **From the portfolio list**
 
@@ -107,14 +107,14 @@ The planning scenario is created and displayed in a new tab.
 
 ## What to do next
 
-[Select projects and demands for execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/select-prj-demands.md) in the planning scenario.
+[Select projects and demands for execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/select-prj-demands.md) in the planning scenario.
 
--   **[Select demands and projects for portfolio planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/select-prj-demands.md)**  
+-   **[Select demands and projects for portfolio planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/select-prj-demands.md)**  
 After you create a planning scenario, select the demands and projects to include in budget planning. You can view all the demands and projects for the selected fiscal year or planning window with their planned cost and priorities to finalize them for execution.
--   **[Review external dependencies between projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.md)**  
+-   **[Review external dependencies between projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/sp-review-ext-dependencies-between-prj.md)**  
 Review the external dependencies between projects in a portfolio to track projects that are dependant on each other more closely.
--   **[Rank demands and projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/rank-demands-projects.md)**  
+-   **[Rank demands and projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/rank-demands-projects.md)**  
 Rank demands and projects to prioritize demands and projects for their approval and execution within a portfolio.
 
-**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md)
 

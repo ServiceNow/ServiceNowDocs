@@ -3,11 +3,11 @@ title: Create self-signed BCFKS keystore for SAML
 description: Generate a FIPS 140-2 compliant self-signed BCFKS keystore for use in SAML signing and encryption operations within the Multi-Provider SSO plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-fips-certificate-for-saml.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [\(Optional\) Set keystore properties for signing logout requests for SAML, Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

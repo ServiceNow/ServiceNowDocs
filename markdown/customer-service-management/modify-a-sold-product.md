@@ -1,18 +1,18 @@
 ---
 title: Modify a sold product and hierarchy
-description: Modify a sold product and its complete hierarchy on the CRM Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
+description: Modify a sold product and its complete hierarchy on Customer Service Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/modify-a-sold-product.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Modify a sold product and hierarchy
 
-Modify a sold product and its complete hierarchy on the CRM Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
+Modify a sold product and its complete hierarchy on Customer Service Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
 
 ## About this task
 
@@ -26,7 +26,7 @@ Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Customer Service Workspace**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 
@@ -34,13 +34,13 @@ Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 4.  In the Sold Products related list, select the product that you want to modify the characteristics and line items for.
 
-    **Note:** You can do a **Modify** action on the root sold products only if the sold product is in the **Active** state. The sold product must have a product offering without a specification that is associated with it. If you select two sold products at the same time, you can't do the **Modify** action.
+    **Note:** You can do a **Modify** action on either the root or the child sold products only if the sold product is in the **Active** state. The sold product must have a product offering without a specification that is associated with it. If you select two sold products at the same time, you can't do the **Modify** action.
 
 5.  Select **Modify**.
 
 6.  On the Configurator UI, modify the existing configurations for the sold product.
 
-    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-exploring.md).
+    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-exploring.md).
 
 7.  Select **Update**.
 

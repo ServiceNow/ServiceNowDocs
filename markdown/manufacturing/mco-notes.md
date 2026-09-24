@@ -3,9 +3,9 @@ title: Notes form
 description: Notes form enables you to add the watch list details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-notes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General form, Reference, Manufacturing Commercial Operations]
 ---
@@ -21,5 +21,5 @@ Notes form enables you to add the watch list details.
 |Work notes \(Private\)|Enter the work notes.|
 |Additional comments \(Customer visible\)|Enter additional comments for customer, if any.|
 
-**Parent Topic:**[General form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-general-form.md)
+**Parent Topic:**[General form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-general-form.md)
 

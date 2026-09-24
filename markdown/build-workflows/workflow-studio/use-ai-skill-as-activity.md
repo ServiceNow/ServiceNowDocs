@@ -3,11 +3,11 @@ title: Use an AI skill as an activity
 description: Use an existing AI skill as an activity in your playbook to perform lightweight, focused AI tasks. When the playbook reaches the activity, the skill runs, produces structured outputs, and passes those outputs to subsequent activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/use-ai-skill-as-activity.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -63,5 +63,5 @@ You can add multiple **Use an AI skill** activities to the same playbook, each p
 
 After authoring is complete, test and activate the playbook.
 
-**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

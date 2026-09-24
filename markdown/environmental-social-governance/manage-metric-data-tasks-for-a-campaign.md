@@ -3,7 +3,7 @@ title: Manage metric data tasks for a campaign
 description: Approve, reject, or review metric data tasks for a campaign individually, or together as a bulk action if bulk submission is enabled for the campaign.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/manage-metric-data-tasks-for-a-campaign.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 1
@@ -21,7 +21,7 @@ Role required: sn\_grc\_metric.manager, or the user assigned to approve the task
 
 ## About this task
 
-If bulk actions are enabled for the campaign, all tasks in a campaign cycle must be approved or rejected together; individual approval isn't available for that cycle. For more information about enabling bulk actions, see [Enable campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/enable-campaigns.md).
+If bulk actions are enabled for the campaign, all tasks in a campaign cycle must be approved or rejected together; individual approval isn't available for that cycle. For more information about enabling bulk actions, see [Enable campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/enable-campaigns.md).
 
 ## Procedure
 
@@ -42,5 +42,5 @@ If bulk actions are enabled for the campaign, all tasks in a campaign cycle must
 
 Selected tasks move to **Closed** if approved, or back to **In Progress** if rejected. If the task's data is estimated, it moves to **Estimated** instead of **Closed**.
 
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/using-grc-metrics.md)
 

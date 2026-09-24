@@ -3,11 +3,11 @@ title: Edit an entity filter from a change task
 description: Modify an entity filter condition and preview the revised impact before saving the filter and accepting the entity changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/edit-an-entity-filter-from-a-change-task.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity lifecycle management, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Modify an entity filter condition and preview the revised impact before saving t
 
 ## Before you begin
 
--   A change task must be available on the **Needs review** tab. See [Review and accept entity changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/review-and-accept-entity-changes.md).
+-   A change task must be available on the **Needs review** tab. See [Review and accept entity changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/review-and-accept-entity-changes.md).
 -   Role required: sn\_grc\_change\_mgmt.implementer
 
 ## About this task
@@ -52,5 +52,5 @@ If the impact shown in a change task is not expected, modify the associated enti
 
 If you select **Save filter and accept changes**, the system saves the modified filter condition and applies the resulting entity changes and their downstream impacts. The change task then moves to the **Closed** state. The completed change task appears on the **History** tab.
 
-**Parent Topic:**[Entity lifecycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-change-management.md)
+**Parent Topic:**[Entity lifecycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entity-change-management.md)
 

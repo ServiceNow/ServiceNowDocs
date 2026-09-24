@@ -3,11 +3,11 @@ title: Performance Analytics data flow
 description: Before you get started with Performance Analytics, understand how the data flows through the platform, ultimately resulting in your ability to visualize process improvements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-data-flow.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Implement Performance Analytics, Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -33,5 +33,5 @@ Before you get started with Performance Analytics, understand how the data flows
 
 \[Omitted image "pa-data-flow.png"\] Alt text: Diagram showing the flow of data in Performance Analytics, from generation to consumption
 
-**Parent Topic:**[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/implementing-pa.md)
+**Parent Topic:**[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/implementing-pa.md)
 

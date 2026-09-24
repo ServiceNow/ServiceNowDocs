@@ -3,9 +3,9 @@ title: Security Posture Control use case: Detecting assets missing an endpoint m
 description: To detect assets missing an endpoint management solution, the following pre-requisites are required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-use-case-4.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Security Posture Control, Security Operations]
 ---
@@ -23,5 +23,5 @@ Depending on your use case, you can choose to activate only the required connect
     3.  Vulnerability Assessment: Qualys, Rapid7, or Tenable.
     4.  Configuration and Patch Management: Microsoft SCCM or IBM Bigfix.
 
-After you verify you have met these prerequisites, you must activate the following policy, Assets missing endpoint management solution. For more information on policies, please refer to [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-policies-overview.md).
+After you verify you have met these prerequisites, you must activate the following policy, Assets missing endpoint management solution. For more information on policies, please refer to [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-policies-overview.md).
 

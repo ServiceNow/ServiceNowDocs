@@ -3,9 +3,9 @@ title: Configure an OAuth profile to use a client ID and secret for token genera
 description: Configure an OAuth profile using a client ID and client secret to create an email account for using Microsoft Graph \(receive\) in your email account type.Use the information generated during Microsoft Azure account configuration to register an application as an OAuth provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/microsoft-graph.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Read email using Microsoft Graph, Read or send emails using Microsoft Graph, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -71,7 +71,7 @@ Role required: admin and Microsoft Azure portal administrator
 9.  Navigate to **Overview** &gt; **Endpoints** and copy the **OAuth 2.0 token endpoint \(v2\)** to a text file.
 
 
-**Parent Topic:**[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-email-using-ms-graph.md)
+**Parent Topic:**[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/read-email-using-ms-graph.md)
 
 **Related topics**  
 
@@ -136,7 +136,7 @@ OAuth API Script
 
 </td><td>
 
-OAuth API script name. For more information see, [OAuth API Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/oauth-api-script.md). **Note:** This is required only while using certificates.
+OAuth API script name. For more information see, [OAuth API Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/oauth-api-script.md). **Note:** This is required only while using certificates.
 
 </td></tr><tr><td>
 
@@ -184,5 +184,5 @@ Redirect URL
 
 ### What to do next
 
-[Create an email account for Microsoft Graph \(receive\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-account-ms-graph.md) using the OAuth profile.
+[Create an email account for Microsoft Graph \(receive\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-email-account-ms-graph.md) using the OAuth profile.
 

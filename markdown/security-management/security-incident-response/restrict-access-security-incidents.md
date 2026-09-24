@@ -1,20 +1,20 @@
 ---
 title: Restrict access to security incidents
-description: Manage the access of the security incidents that contains sensitive information. You can enforce security incident restrictions to determine who can access a certain incident and limit the access only to specific users or groups.
+description: Manage the access of the security incidents that contain sensitive information. You can enforce security incident restrictions to determine who can access a certain incident and limit the access only to specific users or groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/restrict-access-security-incidents.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Restrict access to security incidents
 
-Manage the access of the security incidents that contains sensitive information. You can enforce security incident restrictions to determine who can access a certain incident and limit the access only to specific users or groups.
+Manage the access of the security incidents that contain sensitive information. You can enforce security incident restrictions to determine who can access a certain incident and limit the access only to specific users or groups.
 
 ## Before you begin
 
@@ -30,33 +30,33 @@ After you enforce the restriction on specific security incidents and limit the a
 
 1.  Open a security incident that you want to restrict.
 
-2.  If you are using classic UI, perform the following:
+2.  If you're using classic UI, perform the following:
 
-    1.  Click the **Restriction** tab.
+    1.  Select the **Restriction** tab.
 
     2.  Select the **Enforce restriction** check box to enable the restriction of the security incident.
 
         \[Omitted image "si-restriction.png"\] Alt text: Restrict access to security incidents
 
-    3.  In the Allowed members field, click the \[Omitted image "lock-icon.png"\] Alt text: Lock icon icon to select the users who can access the security incident.
+    3.  In the Allowed members field, select the \[Omitted image "lock-icon.png"\] Alt text: Lock icon icon to select the users who can access the security incident.
 
     4.  Select the \[Omitted image "add-me-icon.png"\] Alt text: Add me icon icon to add yourself as the allowed user.
 
     5.  Select the \[Omitted image "add-remove-users.png"\] Alt text: Add and Remove multiple users icon to add or remove users.
 
-    6.  In the Allowed groups field, click the \[Omitted image "lock-icon.png"\] Alt text: Lock icon icon to select the groups who can access the security incident.
+    6.  In the Allowed groups field, select the \[Omitted image "lock-icon.png"\] Alt text: Lock icon icon to select the groups who can access the security incident.
 
     7.  Select the \[Omitted image "add-remove-users.png"\] Alt text: Add and Remove multiple groups icon to add or remove groups.
 
         **Note:** After the **Enforce restriction** check box is enabled for the security incident, only the sn\_si.admin and allowed members or groups will have access to the security incident.
 
-    8.  Click **Update**.
+    8.  Select **Update**.
 
-3.  If you are using SIR Workspace, perform the following:
+3.  If you're using SIR Workspace, perform the following:
 
-    1.  From the security incident, click the **Details** tab.
+    1.  From the security incident, select the **Details** tab.
 
-    2.  Scroll down and click the **Restriction** section.
+    2.  Scroll down and select the **Restriction** section.
 
     3.  Select the **Enforce restriction** check box to enable the restriction of the security incident.
 
@@ -66,8 +66,9 @@ After you enforce the restriction on specific security incidents and limit the a
 
     5.  In the Allowed groups field, select the groups who can access the security incident using the Search option.
 
-        **Note:** After the **Enforce restriction** check box is enabled for the security incident, only the sn\_si.admin and allowed members or groups will have access to the security incident.
+        **Note:**
 
-    6.  Click **Save**.
+        -   After the **Enforce restriction** check box is enabled for the security incident, only the sn\_si.admin and allowed members or groups will have access to the security incident.
+    6.  Select **Save**.
 
 

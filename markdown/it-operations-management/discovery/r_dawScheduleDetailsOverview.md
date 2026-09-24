@@ -3,11 +3,11 @@ title: Schedule details data visualizations
 description: When you select a schedule from the Schedules page in Discovery Admin Workspace, the schedule details page opens. The Overview tab of that page displays data visualizations showing key metrics for the schedule, such as total runs, CI counts, errors, and run duration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_dawScheduleDetailsOverview.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Discovery Admin Workspace reference, Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -88,7 +88,7 @@ Line chart
 
 </td><td>
 
-Trends of discovered CI attributes for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Note:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+Trends of discovered CI attributes for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Note:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Line chart
 
 </td><td>
 
-Error trends for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+Error trends for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
 
 </td></tr><tr><td>
 
@@ -148,8 +148,8 @@ Line chart
 
 </td><td>
 
-Run time trends for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+Run time trends for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery Admin Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_discovery-admin-workspace-reference.md)
+</table>**Parent Topic:**[Discovery Admin Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_discovery-admin-workspace-reference.md)
 

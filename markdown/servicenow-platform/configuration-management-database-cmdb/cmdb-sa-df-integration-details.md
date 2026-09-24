@@ -3,11 +3,11 @@ title: Reviewing data integrations for Data Foundations
 description: Review both existing and suggested Discovery patterns and Service Graph Connectors to improve your Data Foundations data coverage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-integration-details.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [reviewing data integrations, discovery pattern fields to monitor, service graph connector fields to monitor, integration attribute coverage, active and inactive connections]
 breadcrumb: [Analyze data integrations, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]

@@ -3,11 +3,11 @@ title: Process an incident at risk
 description: Work on an incident at risk from your mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/process-incident-at-risk.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Incidents at risk, Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
@@ -30,7 +30,7 @@ Resolve, reassign the incident, or add comments to an incident assigned to you.
 
     The **Incidents at risk** screen opens with a list of incidents.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Incidents at risk** screen with the list of incidents, swipe left on an incident to open the menu.
 
@@ -38,9 +38,9 @@ Resolve, reassign the incident, or add comments to an incident assigned to you.
 
     |Action|Description|
     |------|-----------|
-    |Add comments|Add any additional comments or work notes about the incident in this field and tap **Submit**.|
-    |Reassign|Use this action to reassign an incident to another agent. On the Reassign incident screen, tap the **Assignment group** field to change the assignment group, select the agent from the list in the **Assigned to** field and add any notes in the **Work notes** and tap **Submit**.|
-    |Resolve|On the Resolve incident screen, tap the **Resolution code** field and choose a code for the resolution, add notes in the **Resolution notes field**, and tap **Submit**.|
+    |Add comments|Add any additional comments or work notes about the incident in this field and tap \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: send icon.|
+    |Reassign|Use this action to reassign an incident to another agent. On the Reassign incident screen, tap the **Assignment group** field to change the assignment group, select the agent from the list in the **Assigned to** field and add any notes in the **Work notes** and tap \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: send icon to submit.|
+    |Resolve|On the Resolve incident screen, tap the **Resolution code** field and choose a code for the resolution, add notes in the **Resolution notes field**, and tap \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: send icon.|
 
 5.  On the **Incidents at risk** screen, tap a record on the list to open it and view more details.
 
@@ -61,7 +61,7 @@ DETAILS tab
 </td><td>
 
 Choose one to continue. -   View the fields for details about the incident. The fields with an arrow have additional information.
--   At the top right of the screen, tap the menu icon \[Omitted image "mobile-top-menu.png"\] Alt text: mobile top menu to reassign, edit, or propose the incident as a major incident.
+-   At the top right of the screen, tap the menu icon \[Omitted image "mobile-top-menu.png"\] Alt text: mobile top menu icon to reassign, edit, or propose the incident as a major incident.
 -   Add any additional comments using the **Add comments** button.
 -   Resolve the incident after adding a resolution code and notes using the **Resolve** button.
 

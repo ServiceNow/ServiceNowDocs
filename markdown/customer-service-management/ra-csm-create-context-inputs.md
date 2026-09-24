@@ -3,9 +3,9 @@ title: Create a context input in Recommended Actions
 description: As an admin or RA author, create a context input for a context and use it in rule condition builder, resource generator input and recommendation-action mappings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-create-context-inputs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_nb\_action.next\_best\_action\_author, or admin
 
 ## About this task
 
-After creating context inputs, you must configure the RA UIB component to pass the context input values. For more information, see [Configuring Recommended Actions UIB component for context inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-dynamic-context-inputs.md).
+After creating context inputs, you must configure the RA UIB component to pass the context input values. For more information, see [Configuring Recommended Actions UIB component for context inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-dynamic-context-inputs.md).
 
 **Note:**
 
@@ -34,7 +34,7 @@ Creating context inputs is not mandatory. You can create context inputs for a co
 
 3.  On the Context inputs related list, select **New**.
 
-    **Note:** The Context inputs related list appears only when a parent context is not mapped to the context. For more information on the context input configuration limitations, see [Context Input configuration limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-dynamic-context-inputs.md).
+    **Note:** The Context inputs related list appears only when a parent context is not mapped to the context. For more information on the context input configuration limitations, see [Context Input configuration limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-dynamic-context-inputs.md).
 
 4.  In the form, fill in the fields.
 
@@ -68,7 +68,7 @@ Mandatory
 
 </td><td>
 
-When this check box is selected, you must set the values for these contextual inputs directly on [Recommended Actions component on the record page in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-dynamic-context-inputs.md) for the recommendations to be generated.**Note:** If you select this check box and fail to set contextual inputs on Recommended Actions component in the UIB, the recommendations will not be generated.
+When this check box is selected, you must set the values for these contextual inputs directly on [Recommended Actions component on the record page in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-dynamic-context-inputs.md) for the recommendations to be generated.**Note:** If you select this check box and fail to set contextual inputs on Recommended Actions component in the UIB, the recommendations will not be generated.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Enabling the **Active** check box makes the context input available for use in t
 </td></tr></tbody>
 </table>5.  Provide the necessary details in the related tabs.
 
-    The related tabs that display vary based on the field type selected in the **Type** field. For more information on the data types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+    The related tabs that display vary based on the field type selected in the **Type** field. For more information on the data types, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md).
 
 6.  Select **Save**.
 

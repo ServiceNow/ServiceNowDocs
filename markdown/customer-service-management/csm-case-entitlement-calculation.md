@@ -3,9 +3,9 @@ title: Customer service case entitlement calculation
 description: When a customer service agent creates a case, the system uses a configurable method to derive the entitlement based on several fields related to the case record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-entitlement-calculation.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure entitlements, Product data, Set up your environment, Configure, Customer Service Management]
 ---

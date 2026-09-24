@@ -3,9 +3,9 @@ title: Queued Application Operations
 description: CICD APIs that must obtain the update instance wide lock / mutex to perform the requested operations are queued instead of being rejected when the update instance wide lock / mutex is occupied by the other operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/queued-app-operations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -111,5 +111,5 @@ If the queue is unable to download an application package or find a plugin to ch
 
 **Note:** Failing to obtain necessary locks doesn't count as a failure attempt. Only errors encountered such as failing to download an application package from AppRepo count.
 
-**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md)
+**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_SharingApplications.md)
 

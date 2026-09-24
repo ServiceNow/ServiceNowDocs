@@ -3,9 +3,9 @@ title: Delete or deactivate a store plan
 description: A store plan can be deleted when it is active and in the Draft state or deactivated when it is active and is in the Published state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-deactivate-a-store-plan.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store plans, Retail]
 ---
@@ -30,5 +30,5 @@ Deactivating a Store plan requires the sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.
 
 **Note:** The system displays a confirmation message when deactivating a store plan. When the user confirms the action, the system deletes the store plan.
 
-**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plans.md)
+**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md)
 

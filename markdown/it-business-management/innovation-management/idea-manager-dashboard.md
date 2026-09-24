@@ -3,11 +3,11 @@ title: Analyzing idea metrics using Idea Manager dashboard
 description: Review, analyze, and manage your ideas effectively by using the Idea Dashboard manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/idea-manager-dashboard.html
-release: australia
+release: brazil
 product: Innovation Management
 classification: innovation-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -92,5 +92,5 @@ The dashboard includes the following visualizations:
 |Ideas trended by categories|Line chart \[Omitted image "line-multiple.svg"\] Alt text: Line chart|Trend of the total number of ideas submitted under various categories. The trend is displayed on a monthly basis.|
 |Top 10 categories by ideas|Horizontal bar chart \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar chart|Top 10 categories based on the number of ideas submitted under each category.|
 
-**Parent Topic:**[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/innovation-management-landing.md)
+**Parent Topic:**[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/innovation-management-landing.md)
 

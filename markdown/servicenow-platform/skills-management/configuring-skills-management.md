@@ -3,11 +3,11 @@ title: Configuring Skills Management
 description: Create Skills, identify the Skill Level Type the skill belongs to, and associate Skill Levels for each level type to define a structured skills architecture for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/configuring-skills-management.html
-release: australia
+release: brazil
 product: Skills Management
 classification: skills-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---

@@ -3,11 +3,11 @@ title: Create a release
 description: Specify the details for your release, including the target instance that the changes will be deployed to and when the release should occur.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/create-a-release.html
-release: australia
+release: brazil
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
 breadcrumb: [Use, ReleaseOps, Deploying applications, Building applications]
@@ -29,7 +29,7 @@ Role required: release\_admin
 
 3.  On the new release form, select the **Destination environment** field, then select your target destination instance from the list.
 
-    Typically, the target destination instance is your production instance. However, some organizations might have different target destination instances, depending on their pipeline. For more information about the pipeline environments, see [Pipelines in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-pipeline-environments.md).
+    Typically, the target destination instance is your production instance. However, some organizations might have different target destination instances, depending on their pipeline. For more information about the pipeline environments, see [Pipelines in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releaseops-pipeline-environments.md).
 
 4.  Select the **Pipeline** field, then select the pipeline that you want the release to use.
 
@@ -74,5 +74,5 @@ Role required: release\_admin
     Once a release is activated, you can select the release as an available option when creating deployment requests for scheduled releases.
 
 
-**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
+**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 

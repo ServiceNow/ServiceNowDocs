@@ -3,9 +3,9 @@ title: Create a chart screen for a data visualization
 description: Configure a chart screen to give your users access to pre-configured mobile dashboard views for several types of data visualizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-single-score-applet.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Chart screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -18,9 +18,9 @@ Configure a chart screen to give your users access to pre-configured mobile dash
 
 Role required: admin or delegated developer
 
-You must have an existing data visualization to display on your screen. If you haven’t yet configured a data visualization, see the following documentation topics: [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md) and [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
+You must have an existing data visualization to display on your screen. If you haven’t yet configured a data visualization, see the following documentation topics: [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center.md) and [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
-In addition, you also need a mobile analytics preview contained within a mobile dashboard preview. For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-dashboard-preview.md).
+In addition, you also need a mobile analytics preview contained within a mobile dashboard preview. For more information, see [Create a mobile analytics preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-dashboard-preview.md).
 
 ## Procedure
 
@@ -162,5 +162,5 @@ Determine which user roles can access this screen. If you don’t select any rol
 
 ## What to do next
 
-Configure a navigation function to direct your users from an analytics preview to your chart screen. For details on this process, see [Create a navigation function to a chart screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-chart-nav.md).
+Configure a navigation function to direct your users from an analytics preview to your chart screen. For details on this process, see [Create a navigation function to a chart screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-chart-nav.md).
 

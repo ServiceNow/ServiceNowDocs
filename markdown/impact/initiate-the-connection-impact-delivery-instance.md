@@ -3,11 +3,11 @@ title: Initiate the connection to Impact data with manual registration
 description: Establish a connection between your Impact Store Application and the Impact Delivery Instance to allow the exchange of data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiate-the-connection-impact-delivery-instance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
-breadcrumb: [Use manual registration to configure the Impact Store Application, Impact reference, Impact]
+breadcrumb: [Use manual registration to configure the Impact Store Application, Data synchronization reference, Impact reference, Impact]
 ---
 
 # Initiate the connection to Impact data with manual registration
@@ -25,7 +25,7 @@ Role required: An Impact role
 
 ## Procedure
 
-1.  [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md).
+1.  [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/install-impact-innovation-lab.md).
 
 2.  Log in to the Impact Store Application.
 
@@ -102,11 +102,11 @@ Contact \(administrator who receives the email to complete setup\)
 
 ## What to do next
 
-The named contact administrator will [Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/connect-instance-impact-store-app.md).
+The named contact administrator will [Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/connect-instance-impact-store-app.md).
 
-**Parent Topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/use_manual_registration_configure_impact_store_application.md)
+**Parent Topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/use_manual_registration_configure_impact_store_application.md)
 
-**Previous topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/use_manual_registration_configure_impact_store_application.md)
+**Previous topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/use_manual_registration_configure_impact_store_application.md)
 
-**Next topic:**[Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/connect-instance-impact-store-app.md)
+**Next topic:**[Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/connect-instance-impact-store-app.md)
 

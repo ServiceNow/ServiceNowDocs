@@ -3,11 +3,11 @@ title: State Management
 description: State Management enables an administrator to define State Models and State Transitions that control how a record is allowed to transition through a predefined list of states.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/state-management/state-model.html
-release: australia
+release: brazil
 product: State Management
 classification: state-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure core features, Administer the ServiceNow AI Platform]
 ---

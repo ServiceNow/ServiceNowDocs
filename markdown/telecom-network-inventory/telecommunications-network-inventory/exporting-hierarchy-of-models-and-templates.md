@@ -3,11 +3,11 @@ title: Exporting hierarchy of models and templates
 description: Export equipment models, inventory templates, and related records to support development-to-production migration of network inventory data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/exporting-hierarchy-of-models-and-templates.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -37,7 +37,7 @@ Both methods are launched from the Export Hierarchy action on a model or templat
 **Related topics**  
 
 
-[Exporting hierarchy process via JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exporting-hierarchy-process-via-json.md)
+[Exporting hierarchy process via JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/exporting-hierarchy-process-via-json.md)
 
-[Exporting hierarchy via XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exporting-hierarchy-process-via-xml.md)
+[Exporting hierarchy via XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/exporting-hierarchy-process-via-xml.md)
 

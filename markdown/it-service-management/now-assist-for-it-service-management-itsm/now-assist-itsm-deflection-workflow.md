@@ -3,11 +3,11 @@ title: Resolve issues using in-form deflection ServiceNow Otto for IT Service Ma
 description: Use the create incident form with ServiceNow Otto for IT Service Management \(ITSM\) to find a solution and deflect the issue without creating an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-deflection-workflow.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [deflection, Now Assist for ITSM, self-service resolution]
 breadcrumb: [In-form deflection, Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -25,7 +25,7 @@ Role required: none
 
 ## About this task
 
-**Note:** ServiceNow Otto for IT Service Management \(ITSM\) classifies your description as an incident or a request. An incident description reports a problem, such as `my laptop is not working`. A request description asks for something new, such as `I need a new laptop`. This task describes the flow for an incident classification. For the request classification flow, see [Resolve requests using in-form deflection ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-request-deflection.md).
+**Note:** ServiceNow Otto for IT Service Management \(ITSM\) classifies your description as an incident or a request. An incident description reports a problem, such as `my laptop is not working`. A request description asks for something new, such as `I need a new laptop`. This task describes the flow for an incident classification. For the request classification flow, see [Resolve requests using in-form deflection ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-request-deflection.md).
 
 ## Procedure
 
@@ -39,7 +39,7 @@ Role required: none
 
 3.  In the **Please describe your issue below** field, enter a specific description of your issue.
 
-    Specific descriptions return more relevant results. Enter a specific description, such as `my laptop is not working` rather than `computer broken`. ServiceNow Otto for IT Service Management \(ITSM\) classifies your description as an incident or a request and personalizes the results based on your hardware and location context. For resolving requests, see [Resolve requests using in-form deflection ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-request-deflection.md).
+    Specific descriptions return more relevant results. Enter a specific description, such as `my laptop is not working` rather than `computer broken`. ServiceNow Otto for IT Service Management \(ITSM\) classifies your description as an incident or a request and personalizes the results based on your hardware and location context. For resolving requests, see [Resolve requests using in-form deflection ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-request-deflection.md).
 
 4.  Review the search results in the **Incident search results** widget.
 

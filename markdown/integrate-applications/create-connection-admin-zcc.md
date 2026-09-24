@@ -3,9 +3,9 @@ title: Create a connection administrator
 description: Create a connection admin who can create zero copy connections in Zero Copy Connector Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-connection-admin-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -39,7 +39,7 @@ The user is now a connection admin in Zero Copy Connector Hub. As a connection a
 -   Select a connector and create a zero copy connection to an external data source.
 -   Define who can access the connection and create data fabric tables by assigning the df\_data\_steward role to an existing role.
 
-See [Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-connections-zcc.md).
+See [Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-connections-zcc.md).
 
-**Parent Topic:**[Configuring Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-zcc.md)
+**Parent Topic:**[Configuring Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configuring-zcc.md)
 

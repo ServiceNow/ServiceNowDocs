@@ -3,9 +3,9 @@ title: IT Discovery for OT Networks related links and lists
 description: IT Discovery for OT Networks contains several related links and lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/discovery-for-ot-related-links-lists.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Discovery for Operational Technology \(OT\) Networks, Operational Technology Discovery, Operational Technology]
 ---
@@ -28,7 +28,7 @@ Quick Ranges
 
 </td><td>
 
-IP addresses and address ranges to scan when the OT discovery schedule runs. Enter IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. The MID Server in use must be able to connect to the specified IP ranges.For more information, see [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-ip-address-configuration.md).
+IP addresses and address ranges to scan when the OT discovery schedule runs. Enter IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. The MID Server in use must be able to connect to the specified IP ranges.For more information, see [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-ip-address-configuration.md).
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Run Point Scan
 
 </td><td>
 
-Access to the Execute Point Scan dialog. To learn more, see [Execute a point scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-execute-point-scan.md).
+Access to the Execute Point Scan dialog. To learn more, see [Execute a point scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/hs-execute-point-scan.md).
 
 </td></tr></tbody>
 </table><table id="related-lists"><thead><tr><th>
@@ -61,7 +61,7 @@ Discovery IP Ranges
 
 </td><td>
 
-Discovery IP addresses and address ranges to scan and discover. If you're using a simple CI scan \(no behaviors\), use this related list to define these IP addresses. The MID Server in use must be able to connect to the specified IP ranges.**Note:** To improve security, limit the range of discovery targets to exclude unnecessary networks and devices.
+Discovery IP addresses and address ranges to scan and discover. If you're using a simple CI scan \(no behaviors\), use this related list to define these IP addresses. The MID Server in use must be able to connect to the specified IP ranges.**Note:** To improve security, limit the range of Discovery targets to exclude unnecessary networks and devices.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Discovery Range Sets
 
 </td><td>
 
-Definition of each range set that the OT discovery schedule scans, using one or more Shazzam probes.
+Definition of each range set that the OT Discovery schedule scans, using one or more Shazzam probes.
 
 </td></tr><tr><td>
 
@@ -77,17 +77,17 @@ Discovery Status
 
 </td><td>
 
-History of the results of the current and past OT discovery schedule runs.
+History of the results of the current and past OT Discovery schedule runs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/discovery-for-operational-technology.md)
+</table>**Parent Topic:**[IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/discovery-for-operational-technology.md)
 
 **Related topics**  
 
 
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md)
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md)
 
-[Shazzam probe, port probes, and protocols](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_DiscoveryPortsAndProtocols.md)
+[Shazzam probe, port probes, and protocols](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r_DiscoveryPortsAndProtocols.md)
 
-[Create a Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ConfigureTheShazzamProbe.md)
+[Create a Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ConfigureTheShazzamProbe.md)
 

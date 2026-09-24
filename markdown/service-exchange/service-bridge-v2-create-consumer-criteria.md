@@ -3,11 +3,11 @@ title: Create a consumer criteria
 description: Using consumer criteria associated with record producers and other configurations, Service Exchange automatically generates the entitlement records that are replicated to eligible consumer instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-consumer-criteria.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -26,15 +26,15 @@ Role required: admin
 
 2.  In the **Condition** field, select the Lookup using list icon, and then either select an existing condition or create a new condition\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.
 
-<table id="choicetable_yhh_n4d_5fc"><thead><tr><th align="left" id="d22683e75">
+<table id="choicetable_yhh_n4d_5fc"><thead><tr><th align="left" id="d22785e75">
 
 Option
 
-</th><th align="left" id="d22683e78">
+</th><th align="left" id="d22785e78">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d22683e84">
+</th></tr></thead><tbody><tr><td id="d22785e84">
 
 **Select existing condition**
 
@@ -42,7 +42,7 @@ Action
 
 From the list, select an existing condition.
 
-</td></tr><tr><td id="d22683e93">
+</td></tr><tr><td id="d22785e93">
 
 **Create a new condition**
 
@@ -51,7 +51,7 @@ From the list, select an existing condition.
 1.  In the Entity Criteria popup, select **New**.
 2.  On the Consumer criteria new record form, fill in the fields.
 
-For a description of the field values, see [Consumer criteria record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-consumer-criteria-new-record-form.md).
+For a description of the field values, see [Consumer criteria new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-consumer-criteria-new-record-form.md).
 
 3.  Select **Submit.**
 4.  From the criteria list, select your criteria.

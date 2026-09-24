@@ -3,11 +3,11 @@ title: Enable Usage Insights for specific applications
 description: You can enable or turn off Usage Insights for specific Core UI, Next Experience, and Mobile applications on the Usage Insights Settings table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/config-analytics-settings.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable Usage Insights, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
@@ -43,7 +43,7 @@ Role required: analytics\_admin, mobile\_analytics\_admin, web\_analytics\_admin
 
 Assign a web\_analytics\_viewer or portal\_analytics\_viewer role to users to enable them to view the Usage Insights application.
 
-[Track Usage Insights in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-sp-analytics-settings.md) to monitor key performance indicators with the Usage Insights application.
+[Track Usage Insights in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-sp-analytics-settings.md) to monitor key performance indicators with the Usage Insights application.
 
-**Parent Topic:**[Enable Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/enable-user-experience-analytics.md)
+**Parent Topic:**[Enable Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/enable-user-experience-analytics.md)
 

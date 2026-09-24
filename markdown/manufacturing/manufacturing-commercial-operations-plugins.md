@@ -3,9 +3,9 @@ title: Plugins installed with Manufacturing Commercial Operations
 description: With the ServiceNow Manufacturing Commercial Operations main plugin, you can install all the dependent plugins that a customer is entitled to with Manufacturing Commercial Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/manufacturing-commercial-operations-plugins.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Manufacturing Commercial Operations]
 ---
@@ -219,9 +219,9 @@ Customer Service Management
 
 </td><td>
 
--   [Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-internal-business-location.md)
--   [Add staff members to an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-user-internal-bus-location.md)
--   [Assign responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-assign-responsibilities.md)
+-   
+-   
+-   
 
 </td><td>
 
@@ -233,9 +233,9 @@ Order Management
 
 </td><td>
 
--   [Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
--   [Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-catalogs.md)
--   [Configuring product pricing with Pricing Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-pricing.md)
+-   [Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
+-   [Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-managing-product-catalogs.md)
+-   [Configuring product pricing with Pricing Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-managing-product-pricing.md)
 
 </td><td>
 

@@ -3,11 +3,11 @@ title: Bind alerts to a specific device
 description: Bind each alert directly to the originating device to establish a clear source of impact. This ensures accurate troubleshooting, reduces noise from unrelated alerts, and helps teams focus on resolving the right issue faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ci-device-binding.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Bind host CIs using CI field matching, Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

@@ -3,11 +3,11 @@ title: Create SLO form
 description: Learn about the available fields for adding a service level objective \(SLO\) to Service Reliability Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/sr-create-slo-sli-form.html
-release: australia
+release: brazil
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Learn about the available fields for adding a service level objective \(SLO\) to
 
 ## Service level objective form
 
-The following table describes the available options in the Service level objective form. For step-by-step instructions, see [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
+The following table describes the available options in the Service level objective form. For step-by-step instructions, see [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
 
 <table id="id_sdb_v2n_y1c"><thead><tr><th>
 
@@ -138,5 +138,5 @@ Period for which the metrics are calculated. The available options are:-   **Mon
 </td></tr></tbody>
 </table>**Note:** The **Assignment group** is auto-populated.
 
-**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
+**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

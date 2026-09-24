@@ -3,11 +3,11 @@ title: Uploading Software Bill of Materials files using a REST API
 description: Review the following information prior to uploading Software Bill of Materials files using an API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-preparing-upload.html
-release: australia
+release: brazil
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -63,7 +63,7 @@ If the Content-Type header is unsupported, the API rejects the request with an H
 }
 ```
 
-All the following request parameters are optional; the request body is the SBOM file content. If you're using DevOps as part of your development process, the value of 'requestedBy' should be 'devops'. See [Uploading Software Bill of Materials for DevOps SBOM files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-uploading-devops.md) for more general information about DevOps. If the value for 'requestedby' is "devops" \(devlopment operations\), these parameters are mandatory:
+All the following request parameters are optional; the request body is the SBOM file content. If you're using DevOps as part of your development process, the value of 'requestedBy' should be 'devops'. See [Uploading Software Bill of Materials for DevOps SBOM files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/vr-sbom-uploading-devops.md) for more general information about DevOps. If the value for 'requestedby' is "devops" \(devlopment operations\), these parameters are mandatory:
 
 -   buildId
 -   lifecycleStage
@@ -241,7 +241,7 @@ All the components listed in an SBOM have a defined `type`.
 **Related topics**  
 
 
-[View upload status for Software Bill of Materials files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-bom-queue.md)
+[View upload status for Software Bill of Materials files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/vr-sbom-bom-queue.md)
 
-[Viewing reports and dashboards in the Software Bill of Materials workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-viewing-data-overview.md)
+[Viewing reports and dashboards in the Software Bill of Materials workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sbom-core/vr-sbom-viewing-data-overview.md)
 

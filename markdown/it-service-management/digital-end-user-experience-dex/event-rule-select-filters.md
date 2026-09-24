@@ -3,14 +3,14 @@ title: Select event rule filters
 description: Configure filtering criteria for event rules to target specific devices and users. Use filters to control which events trigger alerts based on operating system, location, department, or custom conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/event-rule-select-filters.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [event rule filters, select filters, event filtering, conditional filtering]
-breadcrumb: [Creating an event rule, Alert rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating an event rule, Managing alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Select event rule filters
@@ -27,6 +27,9 @@ Role required: sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  Select **Configure** on the Alert rules card.
@@ -59,5 +62,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/define-alert-criteria-event.md).
+[Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/define-alert-criteria-event.md).
 

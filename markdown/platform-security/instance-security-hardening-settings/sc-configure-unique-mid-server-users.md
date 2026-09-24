@@ -1,22 +1,22 @@
 ---
-title: Configure Unique MID Server Users
-description: Use unique user account for each of your MID Servers to promote auditability and security controls as well as least privilege access.
+title: Configure unique MID Server users
+description: Create a unique user account for each of your MID Servers to support auditability, enforce security controls, and enable least privilege access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-configure-unique-mid-server-users.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Configure Unique MID Server Users
+# Configure unique MID Server users
 
-Use unique user account for each of your MID Servers to promote auditability and security controls as well as least privilege access.
+Create a unique user account for each of your MID Servers to support auditability, enforce security controls, and enable least privilege access.
 
-MID Server users authenticate MID Servers to the ServiceNow instance and enable communication to the instance. Configure each MID Server with a unique user account to promote auditability and security controls. Assigning a unique user account to each MID Server follows the principle of least privilege and enables proper identity and access management for your service accounts.
+MID Server users authenticate MID Servers to the ServiceNow instance and enable communication to the instance. Configure each MID Server with a unique user account to support auditability and security controls. Assigning a unique user account to each MID Server follows the principle of least privilege and enables proper identity and access management for your service accounts.
 
 Configure each MID Server with a unique user account that has been assigned the **mid\_server** role:
 
@@ -100,7 +100,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -134,5 +134,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

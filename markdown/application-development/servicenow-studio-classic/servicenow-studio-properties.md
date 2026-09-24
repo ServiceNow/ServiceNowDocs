@@ -3,11 +3,11 @@ title: ServiceNow Studio properties
 description: Configure system properties to control ServiceNow Studio application behavior and delegated development deployment. Access ServiceNow Studio system properties by navigating to All sys\_properties.list .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-properties.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -40,7 +40,7 @@ sn\_sns.is\_app\_summarization\_disabled
 
 </td><td>
 
-This property is not included by default in the ServiceNow AI Platform. To disable Now Assist app summary generation in ServiceNow Studio, create a new property on the System Properties \[sys\_properties\] table named `sn_sns.is_app_summarization_disabled` and set the value to **true**.
+This property is not included by default in the ServiceNow AI Platform. To disable ServiceNow Otto app summary generation in ServiceNow Studio, create a new property on the System Properties \[sys\_properties\] table named `sn_sns.is_app_summarization_disabled` and set the value to **true**.
 
 </td></tr><tr><td>
 
@@ -141,6 +141,8 @@ Enables access to the ServiceNow IDE. If false, access to the ServiceNow IDE is 
 -   Default value: true
 -   Location: Add the property to the System Property \[sys\_properties\] table
 
+**Important:** As of version 29.2.11, turning off this property also turns off access to ServiceNow Studio across the instance.
+
 </td></tr><tr><td>
 
 sn\_glider.fluent\_convert\_enabled
@@ -150,7 +152,7 @@ sn\_glider.fluent\_convert\_enabled
 Enables converting existing applications that weren't created with the ServiceNow IDE or ServiceNow SDK to support development in source code from the ServiceNow IDE.-   Type: true \| false
 -   Default value: true
 -   Location: Add the property to the System Property \[sys\_properties\] table
--   Learn more: [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)
+-   Learn more: [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)
 
 </td></tr><tr><td>
 
@@ -163,7 +165,7 @@ Defines a custom extension for attachment files with binary content types \(for 
 -   Type: string
 -   Default value: gitdata
 -   Location: Add the property to the System Property \[sys\_properties\] table
--   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-roles.md)
+-   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/servicenow-ide-roles.md)
 
 </td></tr><tr><td>
 
@@ -176,7 +178,7 @@ Defines a custom extension for attachment files with text content types \(for ex
 -   Type: string
 -   Default value: txt
 -   Location: Add the property to the System Property \[sys\_properties\] table
--   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-roles.md)
+-   Learn more: [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/servicenow-ide-roles.md)
 
 </td></tr><tr><td>
 
@@ -189,5 +191,9 @@ Specifies the version of the ServiceNow SDK to use when creating or converting a
 -   Location: Add the property to the System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
+</table>| | |
+|---|---|
+|glide.ui.open\_in\_studio\_button.enabled|This property is not included by default in the ServiceNow AI Platform. To disable the right-click Configure redirect to ServiceNow Studio, create a property on the System Properties \[sys\_properties\] table named `glide.ui.open_in_studio_button.enabled` and set the value to **false**.|
+
+**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
 

@@ -3,9 +3,9 @@ title: Create diagram for a business hierarchy map
 description: Create and model your business application hierarchy map using the Enterprise Modeling and Visualization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-ba-map.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with business hierarchy map, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_apm.apm\_user
 
 5.  On the Create business hierarchy map form, fill in the details.
 
-    For field information, see [Create a business hierarchy map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-create-ba-map-form.md).
+    For field information, see [Create a business hierarchy map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-create-ba-map-form.md).
 
 6.  Select **Create diagram**.
 
@@ -45,12 +45,12 @@ You can add a shape to the canvas by either selecting the shape or by dragging t
 
 \[Omitted image "business-hierarchy-map.png"\] Alt text: Business hierarchy map
 
-**Parent Topic:**[Working with business hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ba-map.md)
+**Parent Topic:**[Working with business hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-ba-map.md)
 
 **Related topics**  
 
 
-[Update a business application hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-update-ba-map.md)
+[Update a business application hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-update-ba-map.md)
 
-[Create a diagram for a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bc-map.md)
+[Create a diagram for a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-bc-map.md)
 

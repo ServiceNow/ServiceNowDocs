@@ -3,9 +3,9 @@ title: Add constituents to a household in Public Sector Digital Services
 description: Add consumers as members of a household.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-households-add-constituents.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure households, Customer data, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -38,7 +38,7 @@ The Household form includes the following related lists for household members:
 
 2.  Select a household.
 
-    For information on how to create a household, see [Create or update a household in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-households-create-update.md).
+    For information on how to create a household, see [Create or update a household in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-households-create-update.md).
 
 3.  In the Current Members related list, select **New**.
 
@@ -66,7 +66,7 @@ One or more constituents are added to the household entity. You can now create r
 **Related topics**  
 
 
-[Create a relationship between household members in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-households-member-relations.md)
+[Create a relationship between household members in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-households-member-relations.md)
 
-[Create and manage cases for a constituent or household in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-households-manage-cases.md)
+[Create and manage cases for a constituent or household in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-households-manage-cases.md)
 

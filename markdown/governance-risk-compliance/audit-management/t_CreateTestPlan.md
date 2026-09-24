@@ -3,11 +3,11 @@ title: Create an audit test plan
 description: Test plans can be created from scratch or based on test templates and describe how a feature is to be tested.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_CreateTestPlan.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Test Template and Plans, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -120,5 +120,5 @@ Document that shows how to assess if a control is operating effectively.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Manage test templates and test plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_AuditTesting.md)
+**Parent Topic:**[Manage test templates and test plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/c_AuditTesting.md)
 

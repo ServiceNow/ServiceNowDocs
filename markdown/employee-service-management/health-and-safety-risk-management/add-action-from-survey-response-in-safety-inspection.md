@@ -3,11 +3,11 @@ title: Add an action from survey response in safety inspection through Employee 
 description: Learn to add actions to the survey responses on a safety inspection or audit survey to access safety issues discovered during a safety walk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/add-action-from-survey-response-in-safety-inspection.html
-release: australia
+release: brazil
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Safety inspections and audits, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_writer
 
 ## About this task
 
-The safety agent assigned to the survey can create actions on the survey. The actions must first be added to the findings related item of a safety inspection record. For information on adding action to findings, see [Add an action for a safety inspection or audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-action-safety-inspection.md). Actions can also be created on the Now Agent app in offline mode provided all the inspection records are cached before going offline. For more information, see [Add actions for safety inspections survey in Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md).
+The safety agent assigned to the survey can create actions on the survey. The actions must first be added to the findings related item of a safety inspection record. For information on adding action to findings, see [Add an action for a safety inspection or audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/hs-add-action-safety-inspection.md). Actions can also be created on the Now Agent app in offline mode provided all the inspection records are cached before going offline. For more information, see [Add actions for safety inspections survey in Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/add-actions-for-safety-inspections-survey-in-mobile-agent-app.md).
 
 ## Procedure
 
@@ -47,7 +47,7 @@ The safety agent assigned to the survey can create actions on the survey. The ac
     |Section|The sections of the survey that you have added response for.|
     |Question|The questions that you responded to in the selected section of the survey|
 
-    For more information to complete the action form, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-action-form.md).
+    For more information to complete the action form, see [Health and Safety action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-core/hs-action-form.md).
 
 6.  Select **Create**.
 
@@ -56,5 +56,7 @@ The safety agent assigned to the survey can create actions on the survey. The ac
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
+
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

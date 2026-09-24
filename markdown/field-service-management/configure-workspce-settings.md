@@ -3,9 +3,9 @@ title: Configure settings for Dispatcher Workspace
 description: Automate processes and provide dispatchers with more information so they can get their job done more effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-workspce-settings.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
@@ -38,7 +38,7 @@ Enable Auto-refresh
 
 </td><td>
 
-Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created in Dispatcher Workspace. Enabling the feature here gives dispatchers the option to enable or disable this setting on Dispatcher Workspace.**Note:** Ensure the system property **Enable Shift Scheduling for FSM to Determine Availability** is enabled. For more information, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
+Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created in Dispatcher Workspace. Enabling the feature here gives dispatchers the option to enable or disable this setting on Dispatcher Workspace.**Note:** Ensure the system property **Enable Shift Scheduling for FSM to Determine Availability** is enabled. For more information, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Enable group metrics setting
 
 </td><td>
 
-Enables the option for dispatchers to turn on metrics for assignment groups in the Dispatcher Workspace. Assignment groups metrics show in the schedule of the Dispatcher Workspace.
+Enables the option for dispatchers to turn on metrics for assignment groups and territories in the Dispatcher Workspace. Metrics display in the contextual side panel when a territory or assignment group is selected.**Note:** Metrics in the contextual side panel don't refresh automatically when task data changes. To see updated values, select a different technician, then reselect the one you want to view.
 
 </td></tr><tr><td>
 

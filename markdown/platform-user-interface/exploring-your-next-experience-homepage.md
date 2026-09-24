@@ -3,9 +3,9 @@ title: Exploring your Next Experience default landing page
 description: Access the Next Experience default landing page to see your work at a glance and identify where you can start.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/exploring-your-next-experience-homepage.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [landing page, default landing page]
 breadcrumb: [Explore, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -15,7 +15,7 @@ breadcrumb: [Explore, Next Experience UI, Configure UIs and portals, Configure u
 
 Access the Next Experience default landing page to see your work at a glance and identify where you can start.
 
-Your landing page is the first thing you see when you log in to your ServiceNow® ServiceNow instance. It provides information to help orient you to your tasks.
+Your landing page is the first thing you see when you log in to your ServiceNow® instance. It provides information to help orient you to your tasks.
 
 Default landing pages are available in the Unified Navigation experience. Note that if you have existing dashboards, landing pages, or logic that have been configured, your current dashboard displays instead of the default Next Experience landing page.
 

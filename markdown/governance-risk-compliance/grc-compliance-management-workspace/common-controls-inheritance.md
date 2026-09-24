@@ -3,11 +3,11 @@ title: Entity enhancements to support common controls
 description: Learn about the entity enhancements of the downstream inherited controls in the GRC application. For example, you can see information about the downstream inherited controls by looking at the entity record page. You can also see a summary of the downstream inherited controls by using a widget that is available on the entity overview page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/common-controls-inheritance.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Testing common control and implementing results, Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ With the Entity form, you can see the common controls that the current entity or
 
 You can also see the common controls that the current entity relies on by using the **Show directly related inherited controls** button and the **Show all inherited controls** button. These buttons display the common controls that the downstream entities are reliant on.
 
-To learn more about the common controls, see [Common controls in risk management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/shared-common-controls-in-risk-management.md).
+To learn more about the common controls, see [Common controls in risk management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/shared-common-controls-in-risk-management.md).
 
 The Downstream Controls related list also displays the common controls that the current entity or its downstream entities use to implement the common controls. By using the Function column in the form, you can differentiate between the standard and common controls. The following example shows the downstream inherited controls.
 

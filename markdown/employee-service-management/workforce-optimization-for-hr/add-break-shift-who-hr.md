@@ -3,11 +3,11 @@ title: Add schedule breaks to a shift
 description: After creating a work shift, you can add schedule breaks to the shift.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/add-break-shift-who-hr.html
-release: australia
+release: brazil
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a work shift, Create a shift plan, Scheduling in Workforce Optimization for HR, Using Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ After creating a work shift, you can add schedule breaks to the shift.
 
 Role required: admin
 
-Before adding schedule breaks to a shift, make sure to create a shift plan and a work shift. See, [Create a shift plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-shift-wfo-hr.md). Create a work shift, [Create a work shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-work-shift-wfo-hr.md).
+Before adding schedule breaks to a shift, make sure to create a shift plan and a work shift. See, [Create a shift plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workforce-optimization-for-hr/create-shift-wfo-hr.md). Create a work shift, [Create a work shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workforce-optimization-for-hr/create-work-shift-wfo-hr.md).
 
 ## Procedure
 
@@ -41,5 +41,5 @@ Before adding schedule breaks to a shift, make sure to create a shift plan and a
 5.  Click **Save**.
 
 
-**Parent Topic:**[Create a work shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-work-shift-wfo-hr.md)
+**Parent Topic:**[Create a work shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workforce-optimization-for-hr/create-work-shift-wfo-hr.md)
 

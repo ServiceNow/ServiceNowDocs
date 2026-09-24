@@ -3,9 +3,9 @@ title: Customize menu categories
 description: Use menu categories to apply CSS styles to application labels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/customize-menu-categories.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customizing instance appearance, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -78,5 +78,5 @@ Applications in this category have a blue background.border-color: blue; backgro
 </table>3.  To add an application to a category, add it in the related list of applications at the bottom of the category record, or specify the category on the application record.
 
 
-**Parent Topic:**[Customizing instance appearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/customizing-instance-appearance.md)
+**Parent Topic:**[Customizing instance appearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/customizing-instance-appearance.md)
 

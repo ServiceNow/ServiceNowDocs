@@ -3,9 +3,9 @@ title: Create a category in the survey designer
 description: A category represents a theme for evaluating a specific element of the survey topic and contains questions pertaining to that theme.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateCatInSurveyDesigr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Survey categories, Survey designer, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,7 +43,7 @@ When you create a survey, the system creates a default category, using the name 
     The new category appears below the category that you selected to create it. You can click the **X** icon in a category header to delete a category that you added in error.
 
 
-**Parent Topic:**[Survey categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyCategory.md)
+**Parent Topic:**[Survey categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyCategory.md)
 
 **Related topics**  
 

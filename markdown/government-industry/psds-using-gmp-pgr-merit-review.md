@@ -3,7 +3,7 @@ title: Set up the Merit Review
 description: Link an already established review framework to your Grant Program. For competitive grants, this is the merit review framework that Grant Merit Reviewers will use during their review process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-pgr-merit-review.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-11"
 reading_time_minutes: 1
@@ -22,7 +22,7 @@ This playbook step enables you to link an already established review framework t
 
 Role required: sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_director
 
-**Note:** Requires framework to already be done. For info on how to create this see [Configure the Merit Review Scoring Framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-scoring-framework.md).
+**Note:** Requires framework to already be done. For info on how to create this see [Configure the Merit Review Scoring Framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-scoring-framework.md).
 
 ## Procedure
 
@@ -49,6 +49,6 @@ Role required: sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_
 
 5.  Define the users who will review and score the proposals for this program, then choose **Mark Complete** to move to the next activity.
 
-    You can update reviewer groups throughout the duration of the program as needed. For more information on how to configure external reviewer groups, see [Add external reviewer groups in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-reviewer-team.md).
+    You can update reviewer groups throughout the duration of the program as needed. For more information on how to configure external reviewer groups, see [Add external reviewer groups in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-reviewer-team.md).
 
 

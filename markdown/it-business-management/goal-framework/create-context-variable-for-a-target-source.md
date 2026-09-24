@@ -3,11 +3,11 @@ title: Create context variable for a target source
 description: Create a context variable manually if you want to configure more context variables for a target source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/create-context-variable-for-a-target-source.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring target source for target automation, Configure, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---

@@ -3,13 +3,13 @@ title: Configure Adobe Experience Manager as a Cloud Service for external conten
 description: Create Service Credentials in Adobe Cloud Manager to allow the Adobe Experience Manager as a Cloud Service external content connector to access nodes and assets in your source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-adobe-expmgr-cs-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Adobe Experience Manager as a Cloud Service external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -27,7 +27,7 @@ Role required: none
 
 The Adobe Experience Manager as a Cloud Service external content connector retrieves assets from nodes in your Adobe Experience Manager as a Cloud Service source system.
 
-To allow the connector to access your Adobe Experience Manager as a Cloud Service source system, you must create a Technical Account in Adobe Cloud Manager. Your connector administrator can use the Service Credentials from this Technical Account to configure the Adobe Experience Manager as a Cloud Service external connector for proper connection to your source system.
+To allow the connector to access your Adobe Experience Manager as a Cloud Service source system, you must create a Technical Account in Adobe Cloud Manager. Your connector administrator can use the Service Credentials from this Technical Account to configure the Adobe Experience Manager as a Cloud Service external content connector for proper connection to your source system.
 
 ## Procedure
 
@@ -70,11 +70,11 @@ Provide the following items to your connector administrator:
 
     **Note:** As an example, if the URL for your tenant is `https://example.adobeaemcloud.com`, your tenant hostname is `example`.
 
--   The JSON-format Service Credentials file that you copied in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-adobe-expmgr-cs-external-content-indexing.md).
+-   The JSON-format Service Credentials file that you copied in step [2.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-adobe-expmgr-cs-external-content-indexing.md).
 
 Your connector administrator needs these items to configure an Adobe Experience Manager as a Cloud Service external content connector to retrieve assets from your Adobe Experience Manager as a Cloud Service source system.
 
-For details on creating and configuring an Adobe Experience Manager as a Cloud Service external content connector, see [Create an Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-adobe-expmgr-cs.md).
+For details on creating and configuring an Adobe Experience Manager as a Cloud Service external content connector, see [Create an Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-adobe-expmgr-cs.md).
 
-**Parent Topic:**[Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/adobe-expmgr-cs-external-content-connector.md)
+**Parent Topic:**[Adobe Experience Manager as a Cloud Service external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/adobe-expmgr-cs-external-content-connector.md)
 

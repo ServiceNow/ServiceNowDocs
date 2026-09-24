@@ -1,18 +1,18 @@
 ---
-title: Enable or disable a secondary model intent
+title: \(Legacy\) Enable or disable a secondary model intent
 description: Enable and disable intents in your Natural Language Understanding \(NLU\) models to make them active or inactive. Disable intents while editors or admins edit, review, or update its content and translations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/enable-disable-secondary-model-intent.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Multilingual model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Multilingual model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Enable or disable a secondary model intent
+# \(Legacy\) Enable or disable a secondary model intent
 
 Enable and disable intents in your Natural Language Understanding \(NLU\) models to make them active or inactive. Disable intents while editors or admins edit, review, or update its content and translations.
 

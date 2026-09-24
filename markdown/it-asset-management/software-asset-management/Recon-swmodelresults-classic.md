@@ -3,13 +3,13 @@ title: Reconciliation and product results
 description: Field descriptions for the reconciliation results, product results, and software product results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/Recon-swmodelresults-classic.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Software license usage, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software license usage, Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reconciliation and product results
@@ -111,7 +111,7 @@ A product result for a licensable product is generated after reconciliation even
 
 **Note:** A Software Model Results record is only created when a software model or entitlement exists for the product.
 
-For licensable products, a software model is automatically created for any unlicensed installs, subscriptions, or options in the Product Results list that do not have an entitlement by default. See [properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-properties.md) to change the **com.snc.samp.automaticsmrcreation** property setting. You can also set the **com.snc.samp.automaticsmcreation** property to have a software model created automatically for not-licensable products, if desired.
+For licensable products, a software model is automatically created for any unlicensed installs, subscriptions, or options in the Product Results list that do not have an entitlement by default. See [properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-properties.md) to change the **com.snc.samp.automaticsmrcreation** property setting. You can also set the **com.snc.samp.automaticsmcreation** property to have a software model created automatically for not-licensable products, if desired.
 
 To view more information about a specific software product result, select an entry from the Product Results list. Refer to the following table for field descriptions.
 
@@ -576,5 +576,5 @@ Potential savings
 Savings to be gained from reclaiming unused software installations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md)
+</table>**Parent Topic:**[Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-license-workbench.md)
 

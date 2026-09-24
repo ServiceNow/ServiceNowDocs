@@ -3,9 +3,9 @@ title: My sequence task list view
 description: Description of the details displayed on the My sequence task list view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/sequence-task-list-view.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Engagement Sequences reference, Sales automation, Reference, Sales Customer Relationship Management]
 ---
@@ -88,5 +88,5 @@ Added at
 Timestamp when the sequence task was created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customer-engagement-sequences-reference.md)
+</table>**Parent Topic:**[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/customer-engagement-sequences-reference.md)
 

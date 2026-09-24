@@ -3,11 +3,11 @@ title: Work on personal claim adjuster tasks
 description: An adjuster can review a claim to verify documents, evaluate claim coverages, determine claim payment details, and approve settlement for a claim.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/work-personal-claims-case.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Adjuster tasks, Use, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,7 @@ An adjuster can review a claim to verify documents, evaluate claim coverages, de
 
 Role required: sn\_ins\_claim\_pers.auto\_adjuster
 
-**Important:** To access the Claim workspace, Fraud score, and Summary adjuster workspace related tabs, you must activate the CSM default record page. By default, the page is set to inactive. To determine the default page for displaying records in CSM Configurable Workspace, see [CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md)
+**Important:** To access the Claim workspace, Fraud score, and Summary adjuster workspace related tabs, you must activate the CSM default record page. By default, the page is set to inactive. To determine the default page for displaying records in CSM Configurable Workspace, see [CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-record-pages.md)
 
 Update and close the adjuster tasks of the claim case.
 
@@ -30,15 +30,15 @@ Update and close the adjuster tasks of the claim case.
 
 2.  Open the task one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d118843e81">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d120582e81">
 
 Option
 
-</th><th align="left" id="d118843e84">
+</th><th align="left" id="d120582e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d118843e90">
+</th></tr></thead><tbody><tr><td id="d120582e90">
 
 **From the landing page**
 
@@ -46,7 +46,7 @@ Steps
 
 Select a task from the All open claims list.
 
-</td></tr><tr><td id="d118843e99">
+</td></tr><tr><td id="d120582e99">
 
 **From the Personal auto claim adjuster tasks list**
 
@@ -62,15 +62,15 @@ Select a task from the All open claims list.
 
 4.  Work on the adjuster task by completing various actions from the claim workspace.
 
-<table id="claim-workspace-actions-table"><thead><tr><th align="left" id="d118843e150">
+<table id="claim-workspace-actions-table"><thead><tr><th align="left" id="d120582e150">
 
 Claim task
 
-</th><th align="left" id="d118843e153">
+</th><th align="left" id="d120582e153">
 
 Claim workspace actions
 
-</th></tr></thead><tbody><tr><td id="d118843e162">
+</th></tr></thead><tbody><tr><td id="d120582e162">
 
 **To add a document verification task**
 
@@ -81,7 +81,7 @@ Claim workspace actions
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d118843e192">
+</td></tr><tr><td id="d120582e192">
 
 **To verify a document**
 
@@ -89,7 +89,7 @@ Claim workspace actions
 
 Select **Verify** to verify the document or **Reject** to reject the submitted document for verification.
 
-</td></tr><tr><td id="d118843e207">
+</td></tr><tr><td id="d120582e207">
 
 **To add claim coverage**
 
@@ -102,7 +102,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d118843e243">
+</td></tr><tr><td id="d120582e243">
 
 **To add a reserve or payment**
 
@@ -115,7 +115,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d118843e277">
+</td></tr><tr><td id="d120582e277">
 
 **To add an ad-hoc claim task**
 
@@ -126,7 +126,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d118843e304">
+</td></tr><tr><td id="d120582e304">
 
 **To submit a reserve or payment amount for approval**
 
@@ -136,7 +136,7 @@ Select **Approve** to approve or **Reject** to reject the reserve or payment amo
 2.  Select **Submit**.
 
 
-</td></tr><tr><td id="d118843e333">
+</td></tr><tr><td id="d120582e333">
 
 **To refer a claim for fraud evaluation**
 
@@ -144,7 +144,7 @@ Select **Approve** to approve or **Reject** to reject the reserve or payment amo
 
 Select **Send to SIU**.
 
-</td></tr><tr><td id="d118843e345">
+</td></tr><tr><td id="d120582e345">
 
 **To submit a claim settlement decision**
 
@@ -175,7 +175,7 @@ Depending on the current stage of the case:
 **Related topics**  
 
 
-[Generate and view a claim's fraud score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/view-claim-fraud-score.md)
+[Generate and view a claim's fraud score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/insurance-claims/view-claim-fraud-score.md)
 
-[View a claim's summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/view-claim-summary.md)
+[View a claim's summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/insurance-claims/view-claim-summary.md)
 

@@ -3,11 +3,11 @@ title: Guidance for configuring advanced appointment scheduling for a vaccinatio
 description: Advanced appointment scheduling configuration enables administrators to configure appointment durations, daily schedule, holiday schedule, and so on. The configuration is used to identify the available slots as well as a location’s capacity for a given day. The configuration enables users to select appointment slots based on the parameters that you configure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/recommendation-on-vaccination-appointment-configuration.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure advanced appointment scheduling for a center, Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -195,5 +195,5 @@ Include daily break
 -   Don’t set the break start time and end time to be the same as the daily start time and daily end time because it won’t generate bookable slots.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure advanced appointment scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/configure-location-level-weekly-schedule-config.md)
+</table>**Parent Topic:**[Configure advanced appointment scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/configure-location-level-weekly-schedule-config.md)
 

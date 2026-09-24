@@ -3,9 +3,9 @@ title: Add a primary success outcome
 description: Create a primary success outcome that can be used to measure the achievement of a success objective.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-outcome.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a success blueprint manually, Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -24,7 +24,7 @@ Primary success outcomes are measurable components of success objectives. Theyâ€
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to the **Customer Success** &gt; **All Outcomes** and select **New**.
 
@@ -185,8 +185,8 @@ Tracking method for this outcome.-   Manual: Enter the measurement unit and valu
 
 **Note:** The metric values are automatically populated if:
 
-    -   The context for the data source must be configured to reference the primary success outcome table. See [Define the data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-data-source.md).
-    -   The source and the resolving context tables must be correctly configured. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md).
+    -   The context for the data source must be configured to reference the primary success outcome table. See [Define the data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-define-data-source.md).
+    -   The source and the resolving context tables must be correctly configured. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md).
 
 
 </td></tr><tr><td>
@@ -219,7 +219,7 @@ Current value of the primary success outcome.
 
 ## What to do next
 
-Add a success initiative to capture the activities required to achieve this outcome. See [Add a success initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-initiative.md).
+Add a success initiative to capture the activities required to achieve this outcome. See [Add a success initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-initiative.md).
 
-**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
+**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

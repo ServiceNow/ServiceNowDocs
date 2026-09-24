@@ -3,9 +3,9 @@ title: Viewing instance-level entitlements in Subscription Management
 description: View a complete list of the product subscriptions purchased for your current instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/viewing-instance-level-entitlements.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -28,11 +28,11 @@ Access your instance-level entitlements by navigating to **Admin** &gt; **Subscr
 
 ## Subscription types
 
-Identify which type of subscriptions you have and whether to allocate subscriptions manually by viewing the values in the **Type** column.
+Identify which type of subscriptions you haveand whether to allocate subscriptions manually by viewing the values in the **Type** column.
 
 -   **Per-User**
 
-    Provides entitlements to users according to their assigned roles and associated access rights. You allocate per-user subscriptions manually by adding groups with metered roles or access rights to a product subscription. Subscription Management helps you with the allocation process by recommending groups based on their role assignments.
+    Provides entitlements to users according to their assigned roles and associated access rights. You allocate per-user subscriptions manually by adding groups with metered roles or access rights to a product subscription. Subscription Management helps you with the allocation process by recommending groups based on their role assignments
 
 -   **Unrestricted User**
 
@@ -57,19 +57,19 @@ Determine whether your subscription allocations are in compliance by viewing the
 
 -   **Compliant**
 
-    The number of allocated subscriptions is below the number of purchased subscriptions.
+    The number of allocated subscription entitlements is lower than the number of purchased subscriptions.
 
 -   **Near capacity**
 
-    The number of allocated subscriptions exceeds the threshold for your instance. You define the threshold on the **Settings** tab.
+    The number of allocated subscription entitlements exceeds the threshold for your instance. You define the threshold on the **Settings** tab.
 
 -   **Even**
 
-    The number of allocated subscriptions equals the number of purchased subscriptions.
+    The number of allocated subscription entitlements equals the number of purchased subscription entitlements.
 
 -   **Over-allocated**
 
-    The number of allocated subscriptions exceeds the number of purchased subscriptions.
+    The number of allocated subscription entitlements exceeds the number of purchased subscription entitlements.
 
 -   **Account-level only**
 

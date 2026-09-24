@@ -3,9 +3,9 @@ title: Configure input form screen inputs
 description: Configure the input fields that your users use to enter information. You can use screen inputs to determine the input type, question text, placeholder values, and other attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/param-screen-config-inputs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Configure the input fields that your users use to enter information. You can use
 
 ## Before you begin
 
-You must create an input form screen before you create inputs. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+You must create an input form screen before you create inputs. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md).
 
 Role required: admin
 
@@ -142,7 +142,7 @@ Autofill Variable
 
 </td><td>
 
-The autofill variable used for this input. For details on variables, [Configure attributes for input form screen variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-variables.md).
+The autofill variable used for this input. For details on variables, [Configure attributes for input form screen variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/param-screen-config-variables.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -178,7 +178,7 @@ Input attributes
 
 </td><td>
 
-The input attributes. Select an existing attribute or select **New** to configure an attribute. For more information about configuring an attribute, see [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-var-attr.md).
+The input attributes. Select an existing attribute or select **New** to configure an attribute. For more information about configuring an attribute, see [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-var-attr.md).
 
 </td></tr><tr><td>
 
@@ -186,7 +186,7 @@ Descriptive elements
 
 </td><td>
 
-Descriptive elements can be either text or an image placed above an input field. Descriptive elements help to add context to users completing an input form. Select an existing descriptive element or select **New**. For more information, see [Configure descriptive elements for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/descriptive-elements-script.md).
+Descriptive elements can be either text or an image placed above an input field. Descriptive elements help to add context to users completing an input form. Select an existing descriptive element or select **New**. For more information, see [Configure descriptive elements for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/descriptive-elements-script.md).
 
 </td></tr></tbody>
 </table>6.  When you finish configuring your fields, click **Save**.

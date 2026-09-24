@@ -3,11 +3,11 @@ title: Share data on ITOM Content Service
 description: Control data sharing by opting in or out of ITOM Content Service sharing options using the Discovery Admin Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/share-data-itom-content-service.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Discovery, Content, Service, Patterns]
 breadcrumb: [ITOM Content Service, ITOM Visibility, IT Operations Management]
@@ -37,15 +37,15 @@ Role required: discovery\_admin
 
 2.  Indicate whether and what data you want to share with AI librarians.
 
-<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d450606e124">
+<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d453100e124">
 
 Option
 
-</th><th align="left" id="d450606e127">
+</th><th align="left" id="d453100e127">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d450606e133">
+</th></tr></thead><tbody><tr><td id="d453100e133">
 
 **Opt in to share your data**
 
@@ -68,7 +68,7 @@ Actions
 
 The **Content service suggestions** tile replaces the **Content service setup** tile. In the new **Content service setup** section, a green check-mark appears indicating that you have opted in to ITOM Content Service.
 
-</td></tr><tr><td id="d450606e236">
+</td></tr><tr><td id="d453100e236">
 
 **Set the data sharing permissions off**
 
@@ -80,7 +80,7 @@ The **Content service suggestions** tile replaces the **Content service setup** 
 4.  When the setting is complete, select **Home** to return to the workspace.
 
 
-</td></tr><tr><td id="d450606e281">
+</td></tr><tr><td id="d453100e281">
 
 **Opt out of sharing your data**
 
@@ -91,12 +91,12 @@ The **Content service suggestions** tile replaces the **Content service setup** 
 3.  Read the **Opting out of ITOM Content Service** system message and select **Opt out**.
 4.  When the opt-out process is complete, select **Home** to return to the workspace.
 
-ITOM Content Service stops using your data and your workspace presents only CIs defined by you. For more information, see [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace.md).
+ITOM Content Service stops using your data and your workspace presents only CIs defined by you. For more information, see [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace.md).
 
 </td></tr></tbody>
 </table>
 **Related topics**  
 
 
-[ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/discovery-content-services.md)
+[ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/discovery-content-services.md)
 

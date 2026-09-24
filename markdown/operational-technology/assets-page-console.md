@@ -3,9 +3,9 @@ title: Assets page
 description: The Assets page shows a list of all available assets for the Discovery Console for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/assets-page-console.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -348,12 +348,12 @@ The Comments section provides an area to enter additional information about the 
 
 The added comment is listed in the Comments section of the asset.
 
--   **[Create an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-asset-console.md)**  
+-   **[Create an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/create-asset-console.md)**  
 Manually create an asset to the Discovery Console for OT.
--   **[Deleting assets in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/bulk-delete-assets.md)**  
+-   **[Deleting assets in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/bulk-delete-assets.md)**  
 Filter assets and do a bulk deletion in the Discovery Console for OT.
--   **[Import or export assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/import-export-assets.md)**  
+-   **[Import or export assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/import-export-assets.md)**  
 You can import or export assets, and ignored assets, to either CSV or JSON formats.
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/using-discovery-console.md)
 

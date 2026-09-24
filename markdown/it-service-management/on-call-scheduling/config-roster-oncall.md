@@ -3,11 +3,11 @@ title: Configure a roster
 description: Edit a roster to specify its reminder and escalation settings and to identify a subset of group members to participate in the On-Call roster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/config-roster-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure or update an On-Call shift, Managing schedules and shifts, On-Call Scheduling, IT Service Management]
 ---
@@ -172,10 +172,10 @@ Lead time for email reminders.**Note:** This field is displayed only when the **
     -   Initially, roster members are automatically populated from the user group.
     -   All members of a roster must be members of the same user group.
 
-**Parent Topic:**[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/config-update-shift-oncall.md)
+**Parent Topic:**[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/config-update-shift-oncall.md)
 
 **Related topics**  
 
 
-[Escalation and reminder settings for rosters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/escalation-remind-settings-oncall.md)
+[Escalation and reminder settings for rosters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/escalation-remind-settings-oncall.md)
 

@@ -3,9 +3,9 @@ title: Rebuild state flows
 description: You can rebuild state flows when a mismatch between existing and new sys\_ids occurs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_RebuildStateFlows.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [State flow customization, Service management states, Service Management]
 ---
@@ -18,5 +18,5 @@ When you use an XML file to import a state flow record into an instance, the sys
 
 When matching fails, the start and end states of affected records are left blank or contain numeric values. To repair these records navigate to **State Flows** &gt; **Admin** &gt; **Rebuild State Flows**. This module runs a script that compares the numerical value of each item in the **State** field choice list until it finds a match in the imported state flow record.
 
-**Parent Topic:**[State flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_StateFlowCustomization.md)
+**Parent Topic:**[State flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/c_StateFlowCustomization.md)
 

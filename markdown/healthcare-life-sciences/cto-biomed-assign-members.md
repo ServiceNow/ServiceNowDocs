@@ -3,9 +3,9 @@ title: Add members to your biomed support organization
 description: Add members to your Biomed healthcare organization to provide visibility and access to Healthcare Biomed cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-assign-members.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---

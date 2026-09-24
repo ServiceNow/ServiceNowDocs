@@ -3,11 +3,11 @@ title: Find info about an app in ServiceNow Studio
 description: Use the App details page in ServiceNow Studio to view metadata about an existing application and take action directly from the page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-find-info-about-an-app-servicenow-studio.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -20,34 +20,30 @@ Use the App details page in ServiceNow Studio to view metadata about an existing
 
 When you open ServiceNow Studio for the first time, open your apps from the Navigator panel on the left side of the screen. Search for the app by name or select it from the list.
 
-\[Omitted image "sn-studio-app-list-as2.png"\] Alt text: The Navigator panel shows a list of applications in ServiceNow Studio.
+\[Omitted image "sn-studio-app-list-bs1.png"\] Alt text: The Navigator panel shows a list of applications in ServiceNow Studio.
 
 Selecting an app opens its full contents in the Navigator panel, with all file types organized by category, such as Automation. Select **App details** to open the app in a new tab.
 
 \[Omitted image "sn-studio-app-details.png"\] Alt text: Open the app in a new tab by selecting App details.
 
-For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
+For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
 
 ## Opening apps for continued work
 
-After you open an app for the first time, it appears in the Recently opened apps section on the ServiceNow Studio home page. Recently opened files are also available from the home page.
+After you open an app for the first time, it appears in the Recents section on the ServiceNow Studio home page and the **Recent** section in the Navigator panel.
 
 \[Omitted image "sn-studio-recently-opened.png"\] Alt text: Recently opened apps and app files are available directly from the home page.
-
-To find apps and files you have worked on recently, select the **Recent** section in the Navigator panel and filter by time period.
-
-\[Omitted image "sn-studio-recent-expanded.png"\] Alt text: Use the Recent section of the Navigator panel to access recently opened files and apps.
 
 ## App details features
 
 The App details page shows information about your app and provides access to common app actions.
 
-1.  **Navigator panel**: View app files organized by category. Bookmark files or apps, open the full list of any file type, or filter the list to find specific files. For more information, see [Bookmark apps and app files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/bookmark-apps-and-app-files.md).
-2.  **Files section**: View featured file types \(Data, User Interface, Automation, and Security\) or all file types. Filter or sort the list to find the files you want to work with. For more information, see [Metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
-3.  **Page header**: View app metadata, invite collaborators, or create files directly using the + Create option. Badges next to the app title — such as Creator Studio, AI, or Fluent — indicate where the app was created and how it must be deployed. For more information, see [App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/app-details-page.md) and [Viewing app origination information in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/viewing-app-origination-information-in-sns.md).
-4.  **App actions**: Select the more options icon \[Omitted image "sn-studio-more-options-icon.png"\]to link the app to source control, invite collaborators, access settings, or publish, refresh, or delete the app. If the app is linked to source control, available source control operations appear in a menu next to the **Publish** button. For more information, see [Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md).
-5.  **File records**: Select a file to open it, select **Add** to create files of that type, or bookmark files directly from the record. For more information, see [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-create-app-file.md).
-6.  **Scope and update set**: View the scope and update set associated with the current app at the bottom of the page. The scope switches automatically when you switch between tabs in ServiceNow Studio. Create an update set and associate app changes to it so your changes are ready to deploy. For more information, see [Open apps and app files across scopes in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.md) and [Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md).
+1.  **Navigator panel**: View app files organized by category. Bookmark files or apps, open the full list of any file type, or filter the list to find specific files. For more information, see [Bookmark apps and app files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/bookmark-apps-and-app-files.md).
+2.  **Files section**: View featured file types \(Data, User Interface, Automation, and Security\) or all file types. Filter or sort the list to find the files you want to work with. For more information, see [Metadata record categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
+3.  **Page header**: View app metadata, invite collaborators, or create files directly using the + Create option. Badges next to the app title — such as Creator Studio, AI, or Fluent — indicate where the app was created and how it must be deployed. Easily convert your app to Fluent by selecting **Convert** on the blue menu.For more information, see [App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/app-details-page.md) and [Viewing app origination information in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/viewing-app-origination-information-in-sns.md).
+4.  **App actions**: Select the more options icon \[Omitted image "sn-studio-more-options-icon.png"\]to link the app to source control, invite collaborators, access settings, or publish, refresh, or delete the app. If the app is linked to source control, available source control operations appear in a menu next to the **Publish** button. For more information, see [Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md).
+5.  **File records**: Select a file to open it, select **Add** to create files of that type, or bookmark files directly from the record. For more information, see [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sn-studio-create-app-file.md).
+6.  **Scope and update set**: View the scope and update set associated with the current app at the bottom of the page. The scope switches automatically when you switch between tabs in ServiceNow Studio. Create an update set and associate app changes to it so your changes are ready to deploy. For more information, see [Open apps and app files across scopes in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.md) and [Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md).
 
-\[Omitted image "sn-studio-app-details-full-page-as2.png"\] Alt text:
+\[Omitted image "sn-studio-app-details-full-page-bs1.png"\] Alt text: Familiarize yourself with the features of the app details page.
 

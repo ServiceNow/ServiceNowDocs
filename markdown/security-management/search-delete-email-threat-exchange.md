@@ -3,9 +3,9 @@ title: Check Compliance Search Status Action
 description: The Check Compliance Search Status action check the status of created compliance search on exchange server and if the status is completed return the information regarding email search found for the compliance search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/search-delete-email-threat-exchange.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common Security Operations integration flows and orchestration activities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -43,5 +43,5 @@ Possible exit conditions for this action are:
 |Error Checking Status|When status checking fails due to exception in exchange server.|
 |Error|When exception occurs in flow action.|
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/common-wf-activities.md)
 

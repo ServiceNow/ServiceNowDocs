@@ -3,13 +3,13 @@ title: Terminate an instance
 description: Shut down an Amazon EC2 instance through the service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/t\_TerminateAnInstance.html
-release: australia
+release: brazil
 product: Self-service
 classification: self-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Amazon EC2 instance request from the Service Catalog, Service catalog requests, Self-Service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Amazon EC2 instance request from the Service Catalog, Service catalog requests, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Terminate an instance
@@ -31,5 +31,5 @@ Role required: admin
     This list does not support multi-line selection, and there is no **undo** feature.
 
 
-**Parent Topic:**[Amazon EC2 instance request from the Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/c_AmazonEC2InstanceRequest.md)
+**Parent Topic:**[Amazon EC2 instance request from the Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/self-service/c_AmazonEC2InstanceRequest.md)
 

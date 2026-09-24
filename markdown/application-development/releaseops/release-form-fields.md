@@ -3,11 +3,11 @@ title: Release form
 description: Create a release for the deployment requests to be deployed to target instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/release-form-fields.html
-release: australia
+release: brazil
 product: ReleaseOps
 classification: releaseops
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-17"
 reading_time_minutes: 1
 breadcrumb: [Reference, ReleaseOps, Deploying applications, Building applications]
 ---
@@ -46,7 +46,7 @@ State
 
 </td><td>
 
-The state of the release, which will be moved automatically after the release admin selects Activate Release and the release process begins. See [Release states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/release-states.md).
+The state of the release, which will be moved automatically after the release admin selects Activate Release and the release process begins. See [Release states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/release-states.md).
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Pipeline
 
 </td><td>
 
-Indicates the pipeline that this release will run on.
+Indicates the pipeline that the release will run on. This field is editable only while the release is in the Draft state. Once the release leaves Draft, the Pipeline field becomes read-only.
 
 </td></tr><tr><td>
 
@@ -115,5 +115,5 @@ Release date
 The date on which the release will be pushed to the destination environment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-reference.md)
+</table>**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releaseops-reference.md)
 

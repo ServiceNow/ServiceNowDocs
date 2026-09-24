@@ -3,9 +3,9 @@ title: Create appearance templates for cards for a mobile campaign
 description: Create item card templates that contain information about the appearance of each type of card displayed in a mobile campaign.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-campaign-card-type.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Displaying campaigns, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -60,7 +60,7 @@ Item view JSON
 
 </td><td>
 
-The configuration code you created for the card type. For more information, see [Configure the details for the appearance of cards for a mobile campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-campaign-card-config.md).
+The configuration code you created for the card type. For more information, see [Configure the details for the appearance of cards for a mobile campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-campaign-card-config.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ UI Styles
 
 </td><td>
 
-UI styles to apply to text cards. For information about how to configure the font color and background color for text cards, see [Mobile UI styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-styles.md).
+UI styles to apply to text cards. For information about how to configure the font color and background color for text cards, see [Mobile UI styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-ui-styles.md).
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.
@@ -92,5 +92,5 @@ UI styles to apply to text cards. For information about how to configure the fon
 
 ## Result
 
-After creating item views for each card style, you need to build and link components to display your mobile campaign. For more information, see [Configure mobile campaign components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-campaign-create.md).
+After creating item views for each card style, you need to build and link components to display your mobile campaign. For more information, see [Configure mobile campaign components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-campaign-create.md).
 

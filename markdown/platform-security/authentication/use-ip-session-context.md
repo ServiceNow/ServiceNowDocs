@@ -3,11 +3,11 @@ title: Tutorial: Configuring session validation
 description: Configure session validation within the Adaptive Authentication framework to provide as an additional layer of protection for session or cookie hijacking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/use-ip-session-context.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Session validation context, Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---
@@ -42,7 +42,7 @@ To configure Session Validation, you must perform the following steps:
 
         \[Omitted image "ip-range-session-context.png"\] Alt text: IP Filter Criteria
 
-        To learn more about how to create an IP Filter, see [Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-ip-filter-criteria.md).
+        To learn more about how to create an IP Filter, see [Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-ip-filter-criteria.md).
 
     4.  Select **Submit**.
 

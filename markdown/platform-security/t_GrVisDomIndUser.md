@@ -3,9 +3,9 @@ title: Grant visibility domains to an individual user
 description: While it is possible to add visibility domains for specific users on the User form, it's best to add them only via groups. This controls permissions and access should individuals change departments or leave the company.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_GrVisDomIndUser.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Expand domain scope, View domain relationships, Setup and administration, Domain separation for service providers, Access Management]
 ---

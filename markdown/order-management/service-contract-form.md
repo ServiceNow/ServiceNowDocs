@@ -3,9 +3,9 @@ title: Customer contract form
 description: The Customer Contracts and Entitlements application uses the Customer contract form to create customer contracts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/service-contract-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Contracts and Entitlements reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -55,7 +55,7 @@ Account
 The name of the account associated with the customer contract.**Note:**
 
 -   A customer contract can be associated with either an account or a consumer.
--   An account can be created if no account is found by selecting **New** on the Account form. For more information on the fields in the Account form, see [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-account-form.md).
+-   An account can be created if no account is found by selecting **New** on the Account form. For more information on the fields in the Account form, see [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-account-form.md).
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Consumer
 
 </td><td>
 
-The name of the consumer associated with the contract.**Note:** If no consumer record is found, you can create a consumer and add it to the customer contract. For more information, see [Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-consumer-record.md).
+The name of the consumer associated with the contract.**Note:** If no consumer record is found, you can create a consumer and add it to the customer contract. For more information, see [Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-a-consumer-record.md).
 
 </td></tr><tr><td>
 
@@ -110,5 +110,5 @@ Renewed from
 A customer contract can be renewed multiple times. Renewed from field refers to the previous customer contract that was renewed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pss-reference.md)
+</table>**Parent Topic:**[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pss-reference.md)
 

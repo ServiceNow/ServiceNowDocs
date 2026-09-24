@@ -3,7 +3,7 @@ title: Embedding the CPQ UI with the CPQ Web Component
 description: By using the CPQ Web Component, you can embed the CPQ UI in a web page without using an iframe. Because the component's UI is compatible with themes, users can easily edit the look of the UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/embedding-cpq-ui-with-web-component.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5

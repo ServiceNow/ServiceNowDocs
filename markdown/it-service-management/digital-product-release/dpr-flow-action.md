@@ -3,11 +3,11 @@ title: Digital Product Release flow actions
 description: Digital Product Release provides flow actions that you can use to build custom release workflows in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-flow-action.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Digital Product Release flow actions, Workflow Studio flow actions for Digital Product Release]
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
@@ -17,7 +17,7 @@ breadcrumb: [Explore, Digital Product Release, IT Service Management]
 
 Digital Product Release provides flow actions that you can use to build custom release workflows in Workflow Studio.
 
-Familiarize yourself with [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-actions.md) basics before starting.
+Familiarize yourself with [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-actions.md) basics before starting.
 
 To access these flow actions, navigate to **All** &gt; **Workflow Studio**, and then select **Actions**. Search for Digital Product Release actions
 
@@ -31,5 +31,5 @@ To access these flow actions, navigate to **All** &gt; **Workflow Studio**, and 
 
 **Note:** All create release actions support single and multi-product releases with new or existing versions, and can be used for validation or non-validation releases.
 
-**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
+**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 

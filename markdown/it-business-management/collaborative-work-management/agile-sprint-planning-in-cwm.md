@@ -3,11 +3,11 @@ title: Sprint planning in CWM
 description: Plan, track, and manage work for your teams in the Agile methodology using Sprint planning in Collaborative Work Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -52,7 +52,7 @@ Within the Backlog pane, you can do the following:
 
 ## Sprints
 
-The Sprints section in your CWM Board displays the list of active sprints. If you haven’t created any sprints yet, this section will show a form to help you get started. You can create a sprint by selecting the sprint duration, start and end dates, and story points capacity. To create additional sprints with the same settings, use the **Add another Sprint** option. For sprints with different durations or capacities, select **Create Sprint**. For more information, see [Create a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-sprints-in-cwm.md).
+The Sprints section in your CWM Board displays the list of active sprints. If you haven’t created any sprints yet, this section will show a form to help you get started. You can create a sprint by selecting the sprint duration, start and end dates, and story points capacity. To create additional sprints with the same settings, use the **Add another Sprint** option. For sprints with different durations or capacities, select **Create Sprint**. For more information, see [Create a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-sprints-in-cwm.md).
 
 Each sprint is a collapsible section where you can add work items directly and customize the view using the personalize side panel. Each sprint section also shows the percentage of utilized capacity and the remaining story points, helping you manage your team's workload effectively.
 
@@ -66,24 +66,24 @@ If you require more working area for the Backlog or Sprints within the Sprint pl
 
 \[Omitted image "cwm-sprint-view-personalize.png"\] Alt text: Personalize options for CWM Sprint planning.
 
--   **[Add work items to Sprint planning Backlog in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-work-items-to-sprint-planning-backlog-in-cwm.md)**  
+-   **[Add work items to Sprint planning Backlog in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/add-work-items-to-sprint-planning-backlog-in-cwm.md)**  
 Create and add new work items to the Backlog directly from the Sprint planning view of Collaborative Work Management.
--   **[Create a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-sprints-in-cwm.md)**  
+-   **[Create a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-sprints-in-cwm.md)**  
 Create a sprint with custom duration and capacity to enable your team to plan and execute their work in an Agile methodology in Collaborative Work Management.
--   **[Update sprint details in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/modify-sprint-details-in-cwm.md)**  
+-   **[Update sprint details in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/modify-sprint-details-in-cwm.md)**  
 Modify the duration, capacity, and dates for a sprint in Collaborative Work Management.
--   **[Delete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/delete-sprint-in-cwm.md)**  
+-   **[Delete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/delete-sprint-in-cwm.md)**  
 Delete individual sprints from Sprint planning in Collaborative Work Management so that your Board reflects the changes in your planning priorities.
--   **[Create work items for sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-work-items-for-sprints-in-cwm.md)**  
+-   **[Create work items for sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-work-items-for-sprints-in-cwm.md)**  
 Create and add new work items to a sprint directly from the Sprint planning view of Collaborative Work Management.
--   **[Generate acceptance criteria for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-acceptance-criteria-for-stories-in-cwm.md)**  
+-   **[Generate acceptance criteria for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/generate-acceptance-criteria-for-stories-in-cwm.md)**  
 Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Collaborative Work Management \(CWM\). Review and refine suggested options to ensure they meet your requirements.
--   **[Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md)**  
+-   **[Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md)**  
 Schedule stories and other CWM tasks from the backlog into sprints or move work across sprints in Collaborative Work Management.
--   **[Start or complete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/start-a-sprint-in-cwm.md)**  
+-   **[Start or complete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/start-a-sprint-in-cwm.md)**  
 Start a sprint so that your team can start work on the planned items. After your team finishes the assigned work, you can mark this sprint complete, all directly from the Sprint planning view in Collaborative Work Management.
--   **[Create a retrospective board for a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-retrospective-board-for-sprint-cwm.md)**  
+-   **[Create a retrospective board for a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-a-retrospective-board-for-sprint-cwm.md)**  
 When marking a sprint complete, choose to create a sprint retrospective board for your team to collaborate and reflect on the recent sprint in Collaborative Work Management.
 
-**Parent Topic:**[Agile work management in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-in-cwm.md)
+**Parent Topic:**[Agile work management in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/agile-in-cwm.md)
 

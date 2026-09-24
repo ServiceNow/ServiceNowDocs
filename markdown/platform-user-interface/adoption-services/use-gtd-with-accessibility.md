@@ -3,11 +3,11 @@ title: Create Guided Tours with accessibility enabled
 description: The Guided Tour Designer has accessibility features so that users can design tours using screen readers and keyboard navigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/use-gtd-with-accessibility.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: guided\_tour\_admin
 
 ## About this task
 
-Overall, the accessibility features of the Guided Tour Designer align with those of the ServiceNow AI Platform®. See the [Accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_SetUpSect508ComplianceFeature.md) section for more information.
+Overall, the accessibility features of the Guided Tour Designer align with those of the ServiceNow AI Platform®. See the [Accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_SetUpSect508ComplianceFeature.md) section for more information.
 
 ## Procedure
 
@@ -64,5 +64,5 @@ Overall, the accessibility features of the Guided Tour Designer align with those
 
 Tab to the panel on the right side to edit the name of the tour, copy the tour's URL, and rearrange the tour's steps.
 
-**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configure-guided-tours.md)
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/configure-guided-tours.md)
 

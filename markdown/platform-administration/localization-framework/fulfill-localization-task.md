@@ -3,11 +3,11 @@ title: Fulfill a localization task
 description: Fulfill a localization task created for each selected language in the translation request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/fulfill-localization-task.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create translation projects, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -124,5 +124,5 @@ Sends the source file to the email addresses configured in translation preferenc
 
 The translations of the localization task are published and the task is updated with the Closed Complete state.
 
-You can move translation records across instances by using update sets. The translation-related XML files are saved to the update set specified in the settings. For more information, see [Localization Framework Properties: Update Set Strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/lf-update-set-strategies.md).
+You can move translation records across instances by using update sets. The translation-related XML files are saved to the update set specified in the settings. For more information, see [Localization Framework Properties: Update Set Strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/lf-update-set-strategies.md).
 

@@ -3,11 +3,11 @@ title: Map the taxonomy
 description: Create an internal taxonomy when you are setting up the Regulatory Change Management application. Map the external taxonomy to the internal taxonomy so that the Regulatory Change Management application refers to only one taxonomy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/manage-taxonomy.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the RSS feeds infrastructure, Configure, Regulatory Change Management, Governance, Risk, and Compliance]
 ---

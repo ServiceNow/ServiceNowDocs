@@ -3,11 +3,11 @@ title: Troubleshooting agentic AI manual testing failures
 description: When testing an agentic AI asset in AI Agent Studio, there are a few common errors that can be addressed before you test again.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/troubleshoot-aia-test.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Troubleshooting agentic AI manual testing failures

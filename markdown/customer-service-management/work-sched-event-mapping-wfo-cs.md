@@ -3,9 +3,9 @@ title: Define event mappings for Work scheduler
 description: Add event mappings required for card interactions and for the card properties transformation to the page configurations in Work scheduler.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/work-sched-event-mapping-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up Work scheduler, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, 
 Add event mappings required for card interactions and for the card properties transformation to the page configurations in Work scheduler.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
@@ -50,15 +54,15 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
     The **Create an event** popup screen displays.
 
-<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d271025e216">
+<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d276822e232">
 
 To Attach
 
-</th><th align="left" id="d271025e219">
+</th><th align="left" id="d276822e235">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d271025e225">
+</th></tr></thead><tbody><tr><td id="d276822e241">
 
 **The __CARD\_CLICKED__ event**
 
@@ -70,7 +74,7 @@ Do this
 4.  Click **Add**.
 
 
-</td></tr><tr><td id="d271025e272">
+</td></tr><tr><td id="d276822e288">
 
 **The __CARD\_ACTION\_CLICKED \(Work item cards\)__ event**
 
@@ -88,12 +92,12 @@ Do this
 
 ## What to do next
 
-[Configure container components for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/work-sched-card-based-container.md)
+[Configure container components for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/work-sched-card-based-container.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-workscheduler-card-wfo-cs.md)
 
 **Related topics**  
 
 
-[Events in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-events.md)
+[Events in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-events.md)
 

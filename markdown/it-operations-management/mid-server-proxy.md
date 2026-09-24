@@ -3,9 +3,9 @@ title: Proxy server configuration for MID Servers used for Cloud Discovery and C
 description: You can configure the MID Server for Cloud Provisioning and Governance to use a proxy server. Using a proxy server supports all cloud-based activities such as running Discovery, billing downloads, provisioning virtual machines, and running life-cycle operations on virtual machines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/mid-server-proxy.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Install and configure MID Servers to access cloud environments, Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ You can configure the MID Server for Cloud Provisioning and Governance to use a 
 
 SSH calls should not be routed through a proxy server, when using a private cloud environment that is on the same side of the proxy as the MID Server.
 
-Set **mid.capi.skip\_proxy\_for\_ssh** to true to skip it. See [MID Server properties used by Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/mid-server-properties-service-mapping.md) for more information.
+Set **mid.capi.skip\_proxy\_for\_ssh** to true to skip it. See [MID Server properties used by Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/mid-server-properties-service-mapping.md) for more information.
 
 **mid.capi.skip\_proxy\_for\_ssh**:
 
@@ -73,14 +73,14 @@ Set **mid.capi.skip\_proxy\_for\_ssh** to true to skip it. See [MID Server prope
 |Cloud events|Not Applicable|Not Applicable|Not Applicable|Not Applicable|
 |VMware Cloud|Not Applicable|
 
-**Parent Topic:**[Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/mid-server-configuration-cloud.md)
+**Parent Topic:**[Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/mid-server-configuration-cloud.md)
 
 **Related topics**  
 
 
-[Install a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-install-prereqs.md)
+[Install a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-install-prereqs.md)
 
-[Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md)
+[Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md)
 
-[MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md)
+[MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-parameters.md)
 

@@ -3,13 +3,13 @@ title: Generate a ServiceNow Otto summary of past related incidents
 description: View an AI summary of past incidents related to the current alert, including strategies used to resolve them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/nai-analyze-past-incidents.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Accelerate alert resolution with past incident analysis, Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Accelerate alert resolution with past incident analysis, Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Generate a ServiceNow Otto summary of past related incidents
@@ -18,10 +18,10 @@ View an AI summary of past incidents related to the current alert, including str
 
 ## Before you begin
 
--   Install ServiceNow Otto for ITOM. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
--   Ensure that the Alert investigation skill is active. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+-   Install ServiceNow Otto for ITOM. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-now-assist-itom.md).
+-   Ensure that the Alert investigation skill is active. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-now-assist-itom.md).
 
-For comprehensive information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+For comprehensive information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 Role required: evt\_mgmt\_operator
 

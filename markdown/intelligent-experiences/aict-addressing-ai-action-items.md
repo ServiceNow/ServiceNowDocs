@@ -3,12 +3,12 @@ title: Addressing your AI action items
 description: Track and act on the governance work and AI-generated recommendations that AI Control Tower surfaces for you in Activity Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-addressing-ai-action-items.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Activity Center, action item]
-breadcrumb: [AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Addressing your AI action items
@@ -19,9 +19,9 @@ Activity Center is the single workspace where AI Control Tower brings together e
 
 ## Governance work
 
-Lifecycle tasks, security tasks, requests, cases, risk assessments, issues, attestations, policy exceptions, and inquiries are routed to the people who own them, with a single view to track and resolve each one. For more information, see [Managing AI tasks and approvals in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-managing-tasks-and-approvals.md).
+Lifecycle tasks, security tasks, requests, cases, risk assessments, issues, attestations, policy exceptions, and inquiries are routed to the people who own them, with a single view to track and resolve each one. For more information, see [Managing AI tasks and approvals in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-managing-tasks-and-approvals.md).
 
 ## AI-generated recommendations
 
-When AI Control Tower detects an issue or an opportunity in your AI portfolio, it surfaces a recommendation with a resolution action attached. For more information, see [Resolving AI recommendations in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-resolving-ai-recommendations.md).
+When AI Control Tower detects an issue or an opportunity in your AI portfolio, it surfaces a recommendation with a resolution action attached. For more information, see [Resolving AI recommendations in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-resolving-ai-recommendations.md).
 

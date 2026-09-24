@@ -3,11 +3,11 @@ title: Create email notifications for completed translation jobs
 description: Configure email notifications so you can be informed when Localization Workspace translation jobs are completed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-email-notif-completed-jobs.html
-release: australia
+release: brazil
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Creating email notifications for Localization Workspace, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Configure email notifications so you can be informed when Localization Workspace
 
 ## Before you begin
 
-Create your own notification category to identify and group your notifications related to Localization Workspace translation projects. For instructions see [Create notification categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-notification-categories.md).
+Create your own notification category to identify and group your notifications related to Localization Workspace translation projects. For instructions see [Create notification categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-notification-categories.md).
 
 Role required: admin.
 
@@ -26,7 +26,7 @@ Role required: admin.
 
 From Zurich Patch 1, along with tracking the progress of translation jobs in Localization Workspace, you can set up email notifications to be alerted upon completion of translation jobs.
 
-For detailed information about configuring email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md). The following procedure is specific to notifications for Localization Workspace jobs.
+For detailed information about configuring email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md). The following procedure is specific to notifications for Localization Workspace jobs.
 
 ## Procedure
 
@@ -40,7 +40,7 @@ For detailed information about configuring email notifications, see [Create an e
     |-----|-----------|
     |**Name**|Enter a unique, descriptive name for these notifications.|
     |**Table**|Select the Translation Request \[sn\_lw\_trans\_request\] table from the list of tables.|
-    |**Category**|If you have already set up your own category for these notifications, you can select it from the drop-down list. For information see [Create notification categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-notification-categories.md).|
+    |**Category**|If you have already set up your own category for these notifications, you can select it from the drop-down list. For information see [Create notification categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-notification-categories.md).|
 
     \[Omitted image "lw-email-notif-completed-jobs-when.png"\] Alt text: A new email notification with values related to Localization Workspace's Translation Request table. The When to send tab is highlighted.
 
@@ -55,15 +55,15 @@ For detailed information about configuring email notifications, see [Create an e
 
 5.  On the **Who will receive** tab, fill in the fields according to your organizational requirements.
 
-<table id="choicetable_xvd_hzb_lgc"><thead><tr><th align="left" id="d63833e255">
+<table id="choicetable_xvd_hzb_lgc"><thead><tr><th align="left" id="d63790e253">
 
 Field
 
-</th><th align="left" id="d63833e258">
+</th><th align="left" id="d63790e256">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d63833e264">
+</th></tr></thead><tbody><tr><td id="d63790e262">
 
 **Users**
 
@@ -71,7 +71,7 @@ Description
 
 Select the lock icon \[Omitted image "LockIconNE.png"\] to add an individual user from the User \[sys\_user\] table.
 
-</td></tr><tr><td id="d63833e275">
+</td></tr><tr><td id="d63790e273">
 
 **Users/Groups in Fields**
 
@@ -79,7 +79,7 @@ Select the lock icon \[Omitted image "LockIconNE.png"\] to add an individual use
 
 Select the lock icon to add recipients from fields in the Translation Request \[sn\_lw\_trans\_request\] table.
 
-</td></tr><tr><td id="d63833e284">
+</td></tr><tr><td id="d63790e282">
 
 **Groups**
 
@@ -87,7 +87,7 @@ Select the lock icon to add recipients from fields in the Translation Request \[
 
 Select the lock icon to add a group of users, such as Localization Requestor, from the Group \[sys\_user\_group\] table.
 
-</td></tr><tr><td id="d63833e293">
+</td></tr><tr><td id="d63790e291">
 
 **Subscribable**
 
@@ -100,15 +100,15 @@ Option to enable all users to subscribe to the notification.**Note:** Recipients
 
 6.  On the **What it will contain** tab, fill in the fields according to your organizational requirements.
 
-<table id="choicetable_l2h_f1c_lgc"><thead><tr><th align="left" id="d63833e327">
+<table id="choicetable_l2h_f1c_lgc"><thead><tr><th align="left" id="d63790e325">
 
 Field
 
-</th><th align="left" id="d63833e330">
+</th><th align="left" id="d63790e328">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d63833e336">
+</th></tr></thead><tbody><tr><td id="d63790e334">
 
 **Email template**
 
@@ -116,7 +116,7 @@ Description
 
 You can search for an existing template.
 
-</td></tr><tr><td id="d63833e345">
+</td></tr><tr><td id="d63790e343">
 
 **Subject**
 
@@ -124,7 +124,7 @@ You can search for an existing template.
 
 You can use variables from the Translation Request \[sn\_lw\_trans\_request\] table, available under **Select variables**.
 
-</td></tr><tr><td id="d63833e357">
+</td></tr><tr><td id="d63790e355">
 
 **Message HTML**
 
@@ -144,7 +144,7 @@ After creating a new notification, you can review its record in the Notification
 
 \[Omitted image "lw-email-notif-completed-jobs-preview.png"\] Alt text: The Preview Notification button is highlighted on a submitted email notification record.
 
-For more information, see [Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_PreviewingNotifications.md).
+For more information, see [Preview email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_PreviewingNotifications.md).
 
-**Parent Topic:**[Creating email notifications for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-email-notifications.md)
+**Parent Topic:**[Creating email notifications for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-email-notifications.md)
 

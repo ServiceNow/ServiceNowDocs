@@ -3,9 +3,9 @@ title: Update your record screen to display a related list
 description: Update your record screen to display a list of related records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-create-related-list-3.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure a related list screen, Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -113,7 +113,7 @@ Choose an icon for the related list.
 </td></tr></tbody>
 </table>11. In the **Related list mapping** section, click **New**.
 
-    In the next steps, you map a connection between this related list and the list screen that you created in the steps under [Create a list screen to use as a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-related-list-2.md).
+    In the next steps, you map a connection between this related list and the list screen that you created in the steps under [Create a list screen to use as a related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-create-related-list-2.md).
 
 12. In the **Related list map** panel, select a relationship in the **Relationship** field.
 

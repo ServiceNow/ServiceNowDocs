@@ -3,11 +3,11 @@ title: Create a module that uses incident template
 description: Create a module to log an incident with pre-filled field values from an existing template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_UseATemplateFromAModule.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident templates and record producers, Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-In the [Create incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_CreateAnIncidentTemplate.md) topic, you have created the Bond Trade Access Denied template. In this topic, you can use the template with a module in the Self-Service application.
+In the [Create incident template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/t_CreateAnIncidentTemplate.md) topic, you have created the Bond Trade Access Denied template. In this topic, you can use the template with a module in the Self-Service application.
 
 ## Procedure
 
@@ -53,7 +53,7 @@ In the [Create incident template](https://raw.githubusercontent.com/ServiceNow/S
 
 Select the module to open a new incident record with the applied Bond Trading Access Denied template.
 
-**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-templates-record-producers.md)
+**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-templates-record-producers.md)
 
 **Related topics**  
 

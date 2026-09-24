@@ -3,9 +3,9 @@ title: Manage work items from Recommendation details
 description: View the details for a recommendation and manage the work items created using the SPM and Collaborative Work Management \(CWM\) recommendation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/recommendation-details-page-in-impact-store.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Impact, Impact]
 ---

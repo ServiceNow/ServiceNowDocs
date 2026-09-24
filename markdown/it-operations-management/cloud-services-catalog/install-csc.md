@@ -3,11 +3,11 @@ title: Install Cloud Services Catalog
 description: You can install the Cloud Services Catalog application purchased from the ServiceNow Store, to make it available on your instance.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application also includes demo data and installs related to ServiceNow applications and plugins, if you don’t have them installed already.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/install-csc.html
-release: australia
+release: brazil
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ If you’re an existing user of Cloud Services Catalog or CSC Innovation Labs:
 -   An upgrade from the previous version isn’t currently supported. To upgrade an existing instance with Cloud Services Catalog or CSC apps, do the following actions:
 -   -   Uninstall the previously installed CSC apps with table clean-ups \(CSC content pack and CSC in order\).
 -   Install new CSC apps \(CSC and CSC content pack in the same order\).
--   You can run Guided Setup only once in an instance. Manually place new Terraform templates in the Terraform box, update the Out Of Box Terraform config provider accordingly, and run [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md).
+-   You can run Guided Setup only once in an instance. Manually place new Terraform templates in the Terraform box, update the Out Of Box Terraform config provider accordingly, and run [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r-discovery.md).
 
 For more information, see the components links.
 
@@ -61,5 +61,5 @@ For more information, see the components links.
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/configuring-csc.md)
+**Parent Topic:**[Configuring Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/configuring-csc.md)
 

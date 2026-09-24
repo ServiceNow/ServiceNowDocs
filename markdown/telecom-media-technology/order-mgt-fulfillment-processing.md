@@ -3,9 +3,9 @@ title: Approving and fulfilling customer \(product\) orders
 description: Learn how your organization can use the Order Management application to fulfill customer orders.OM revamp project - This topic has been removed from SOM bundle on Oct 14, 2025.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-fulfillment-processing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -32,9 +32,9 @@ Review a customer order and approve or reject it for fulfillment.
 
 An order fulfillment manager approves or rejects a customer order for fulfillment. If it's approved, the sold product and order decomposition processing can take place. If it's rejected, more investigation is needed. To learn more, see:
 
--   [Approve or reject a customer order for fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/approve-reject-customer-order-fulfillment.md)
--   [Creation of sold product and product inventory records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-sold-product-creation.md)
--   [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-order-decomposition.md)
+-   [Approve or reject a customer order for fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/approve-reject-customer-order-fulfillment.md)
+-   [Creation of sold product and product inventory records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-sold-product-creation.md)
+-   [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-order-decomposition.md)
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ Review the product orders that are associated with the approved customer order.
 
 </td><td>
 
-An order fulfillment manager reviews the product orders that were generated for the customer order line item. To learn more, see [View domain orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-domain-orders.md).
+An order fulfillment manager reviews the product orders that were generated for the customer order line item. To learn more, see [View domain orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-domain-orders.md).
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Use the Orchestration Plan UI to review the domain orders and order tasks that a
 
 </td><td>
 
-An order fulfillment manager reviews the orchestration state and hierarchical structure for a selected customer or service order, its associated order line items, domain orders, and order tasks. It indicates how much progress has occurred in the fulfillment process.To learn more, see [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md).
+An order fulfillment manager reviews the orchestration state and hierarchical structure for a selected customer or service order, its associated order line items, domain orders, and order tasks. It indicates how much progress has occurred in the fulfillment process.To learn more, see [Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md).
 
 </td></tr><tr><td>
 
@@ -60,8 +60,8 @@ Review and update the fulfillment tasks that are associated with a customer orde
 
 An order fulfillment agent performs the tasks that are required for post-approval customer order fulfillment, including marking the order tasks as complete. The order fulfillment manager creates the order fallout records for the order tasks that can't be completed.To learn more, see:
 
--   [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-tasks.md)
--   [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)
+-   [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-customer-order-tasks.md)
+-   [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/fallout-management-overview.md)
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Follow up on the tasks that couldn't be completed by examining the order fallout
 
 </td><td>
 
-An order fulfillment manager reviews the tasks that couldn't be completed in the order fallout records and reassigns the order tasks to fulfillment agents for investigation and resolution. To learn more, see, [Review a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/select-order-fallout-records-review.md)
+An order fulfillment manager reviews the tasks that couldn't be completed in the order fallout records and reassigns the order tasks to fulfillment agents for investigation and resolution. To learn more, see, [Review a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/select-order-fallout-records-review.md)
 
 </td></tr></tbody>
 </table>

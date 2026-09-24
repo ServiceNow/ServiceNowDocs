@@ -3,11 +3,11 @@ title: Avi Vantage load balancer discovery
 description: The ServiceNow Discovery and Service Mapping applications use the Avi load balancer discovery patterns to find Avi Vantage load balancer components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/avi-load-balancer-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -47,7 +47,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
             |User name|Name of the user for performing Avi Load Balancer discovery.|
             |Password|Password for this user.|
 
-        4.  [Run a Quick Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) on the IP address of the Avi Controller Cluster.
+        4.  [Run a Quick Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) on the IP address of the Avi Controller Cluster.
 -   For the Avi Load Balancer Controller - Session-based pattern:
     -   Create a Basic Authentication credential with an alias:
         1.  Navigate to **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
@@ -65,7 +65,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
             |Password|Password for this user.|
 
         8.  Click **Update**.
-    -   Create a [serverless discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/serverless-discovery.md) schedule.
+    -   Create a [serverless discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/serverless-discovery.md) schedule.
 
         Then do the following:
 
@@ -96,7 +96,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   /api/gslbservice
     -   /api/tenant
 -   For the Avi Load Balancer VIP pattern:
-    -   [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md).
+    -   [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-it-services.md).
     -   Before using the Avi Load Balancer VIP pattern, use one of the horizontal Avi load balancer discovery patterns to find the Avi infrastructure.
 
 ## Data collected by Discovery during horizontal discovery
@@ -395,5 +395,5 @@ The Pattern Designer fails because of a timeout during pattern debugging \(and n
 By default, the **sa.debugger.max\_timeout**parameter is set to 240 seconds.Increase the value of this parameter on the relevant MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+</table>**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

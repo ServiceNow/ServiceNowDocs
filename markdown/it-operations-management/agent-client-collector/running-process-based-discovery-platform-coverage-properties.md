@@ -3,11 +3,11 @@ title: Running process-based discovery platform coverage and properties
 description: Platform coverage identifies which operating systems are supported and what privileges the agent needs for full coverage. The system property controls whether the feature is enabled or disabled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [running process-based discovery, platform coverage, system property, file-based discovery, FBD, agent client collector]
 breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
@@ -37,5 +37,5 @@ The following property controls whether running process-based discovery is activ
 |--------|-------|-----------|
 |**sn\_acc\_vis\_content.file\_discovery.fbd\_process\_scan\_enabled**|`false`|Primary on/off control for running process-based discovery. When set to `true`, the agent policy that collects process directories is activated and the daily FBD scan includes process-discovered directories. When set to `false`, collection stops and the daily scan uses only your configured scan directories.|
 
-**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

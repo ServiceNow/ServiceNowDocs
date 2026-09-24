@@ -3,11 +3,11 @@ title: Unused resources analysis for Google Cloud
 description: Cloud Cost Management uses an optimized Unused resources process for each provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/gcp-how-um-works-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Unused resources, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -22,5 +22,5 @@ The Google Cloud compute engine generates the recommendations that appear in the
 
 **Note:** The Google Cloud console may show the same resources for both Unused resources and Rightsizing recommendations. If the same resources are displayed, Cloud Cost Management shows the information in Unused resources and excludes it from the Rightsizing recommendations with the reason, `Recommendation already present in unused`.
 
-To get the recommendations from the Google Cloud console and perform start, stop, resize, and delete operations, you must have specific roles and permissions. For detailed information on these permissions, see [Setup roles for Google Cloud billing download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-user-policy-create-cloudin.md).
+To get the recommendations from the Google Cloud console and perform start, stop, resize, and delete operations, you must have specific roles and permissions. For detailed information on these permissions, see [Setup roles for Google Cloud billing download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/gcp-user-policy-create-cloudin.md).
 

@@ -3,9 +3,9 @@ title: Configure a decorative slider
 description: Create a colored slider option for a number input on your input form screen. Decorative sliders contain sections that can be associated with a specific color and label to aid visual representation. These labels are translatable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/decorative-slider.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Number render types and compatible input attributes, Input form screen attributes for inputs, Configure inputs, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -18,15 +18,15 @@ Create a colored slider option for a number input on your input form screen. Dec
 
 Role required: admin
 
-This task assumes that you already have the basis of an input form screen configured before adding the slider option for a number input. For more information, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+This task assumes that you already have the basis of an input form screen configured before adding the slider option for a number input. For more information, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md).
 
 ## About this task
 
-Creating a slider render type is more involved than for the other render types: integer, line, percentage. The configuration involves the creation of multiple input attributes. Required attributes are Min. Max, and StepSize. For a complete list of input attributes you can use with a number slider, see [Number render types and compatible input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/number-compatible-input-attributes.md).
+Creating a slider render type is more involved than for the other render types: integer, line, percentage. The configuration involves the creation of multiple input attributes. Required attributes are Min. Max, and StepSize. For a complete list of input attributes you can use with a number slider, see [Number render types and compatible input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/number-compatible-input-attributes.md).
 
 You must add an additional input attribute called Decoration, which gives the slider a colorful and segmented appearance. A decorative slider has between two through eight sections, where you define a start value and end value. The start value must match the end value of the previous entry. In addition, you must select a color for each section. A JSON example script is provided, which contains four defined sections. This script is editable.
 
-There's an option when configuring a decorative slider type to add translated values, so that users can view the slider in their selected language. For more information, see [Configure translated values for decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/decorative-slider-translation.md).
+There's an option when configuring a decorative slider type to add translated values, so that users can view the slider in their selected language. For more information, see [Configure translated values for decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/decorative-slider-translation.md).
 
 \[Omitted image "ifs-slider-decorative.png"\] Alt text: A colorful decorative slider with the marker placed in the orange area, indicating that the quality of service is marked as poor.
 
@@ -44,7 +44,7 @@ There's an option when configuring a decorative slider type to add translated va
 
 4.  Scroll down to the Inputs section of the form and then either select an input to modify or select  **New**  to create an input.
 
-    The Input form appears. For more information about configuring inputs, see [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-inputs.md).
+    The Input form appears. For more information about configuring inputs, see [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/param-screen-config-inputs.md).
 
 5.  In the **Input type** field within the Settings area, select **Number**.
 
@@ -54,9 +54,9 @@ There's an option when configuring a decorative slider type to add translated va
 
 8.  Create and save the input attributes for Min, Max, and StepSize and define their values.
 
-    For configuration details, see [Configure a slider option for a number input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-slider.md).
+    For configuration details, see [Configure a slider option for a number input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-slider.md).
 
-    **Note:** RenderType, Min, Max, and StepSize are required input attributes for sliders. Other input attributes are optional. For a complete list of input attributes, see the Number inputs section within the topic [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-var-attr.md).
+    **Note:** RenderType, Min, Max, and StepSize are required input attributes for sliders. Other input attributes are optional. For a complete list of input attributes, see the Number inputs section within the topic [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-var-attr.md).
 
 9.  Select **New** in the Inputs attributes area.
 
@@ -99,7 +99,7 @@ There's an option when configuring a decorative slider type to add translated va
 
     -   Label: A name attributed to each section. In the example, they are: Critically low, Low, Medium, and High. The names are editable.
 
-        **Note:** The names contained within the label value can be translated. To do this, double curly braces must be added to the `Label` value. For example, `Medium` becomes `{{Medium}}`. For more information, see [Configure translated values for decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/decorative-slider-translation.md).
+        **Note:** The names contained within the label value can be translated. To do this, double curly braces must be added to the `Label` value. For example, `Medium` becomes `{{Medium}}`. For more information, see [Configure translated values for decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/decorative-slider-translation.md).
 
     -   StartValue and EndValue: These can be any value. Usually these values are divisible by the number of sections. The StartValue of one section must correspond to the EndValue of the previous section.
     -   Color: The color value can either be a HEX code or the label of a variable from your current mobile theme. The JSON script provides the following default colors:
@@ -115,5 +115,5 @@ There's an option when configuring a decorative slider type to add translated va
 
 ## What to do next
 
-You can add translated text to each of the text values displays on your slider. For more information, see [Configure translated values for decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/decorative-slider-translation.md).
+You can add translated text to each of the text values displays on your slider. For more information, see [Configure translated values for decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/decorative-slider-translation.md).
 

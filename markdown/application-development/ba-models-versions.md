@@ -3,9 +3,9 @@ title: Supported models and versions
 description: Learn which AI models and versions Build Agent supports and how to change them. Use this information to verify compatibility and select the right model for your task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ba-models-versions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
@@ -21,7 +21,7 @@ Build Agent currently supports the following models:
 -   Azure OpenAI 5.4
 -   Azure OpenAI 5.5
 -   Azure OpenAI GPT 5.6 Sol
--   Gemini 3.5 Flash
+-   Google Gemini 3.5 Flash
 -   Gemini 2.5 Pro
 -   Claude Opus 4.6
 -   Claude Opus 4.8
@@ -29,13 +29,11 @@ Build Agent currently supports the following models:
 
 ## Changing the model and version
 
-You can change the version by selecting it directly in the Build Agent.
+You can change the version by selecting it directly in Build Agent or Autonomous Engineer.
 
 \[Omitted image "ba-model-version-change.png"\] Alt text: Model selection drop-down showing model options.
 
-**Note:** You must be on Australia Patch 5 or later to change the model version in the chat panel.
+To change the model in use, navigate to the AI Admin Hub. For information on changing the model that Build Agent or Autonomous Engineer uses, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-model-providers.md).
 
-To change the model in use, navigate to the AI Admin Hub. For information on changing the model that Build Agent uses, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
-
-**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-build-agent.md)
 

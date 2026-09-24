@@ -3,9 +3,9 @@ title: Revert baseline reset or signal dismissal
 description: Review previous decisions to reset the KPI Signals baseline or dismiss a signal. Revert the decision if necessary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/revert-reset-dismissal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, KPI Signals, Platform Analytics experience, Platform Analytics]
 ---
@@ -47,5 +47,5 @@ Role required: You must be a responsible user for the KPI, or have the admin, pa
 
 Now make a new decision for the oldest signal whose decision you reverted. Then work your way through any subsequent signals.
 
-**Parent Topic:**[Using KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/using-kpi-signals.md)
+**Parent Topic:**[Using KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/using-kpi-signals.md)
 

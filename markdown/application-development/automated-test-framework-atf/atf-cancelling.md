@@ -3,11 +3,11 @@ title: Cancelling automated tests and test suites
 description: You can cancel automated tests and automated test suites that are running or are queued to run.You can cancel an automated test suite that is queued but has not yet run.Cancel running and pending tests in a running suite test.You can cancel a running test from the Run Test progress dialog.You can cancel a waiting automated test from the Waiting/Running Test Runs module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-cancelling.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -18,7 +18,7 @@ You can cancel automated tests and automated test suites that are running or are
 
 How you cancel an automated test or automated test suite depends on whether the test or test suite is currently running or is queued to run.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) test building and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-build-execution.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test building and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-test-build-execution.md)
 
 **Related topics**  
 
@@ -56,7 +56,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 ### Procedure
 
-1.  If necessary, [display the Run Test progress dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-view-progress.md).
+1.  If necessary, [display the Run Test progress dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-view-progress.md).
 
 2.  Click **Cancel Pending Steps**.
 
@@ -81,7 +81,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 ### Procedure
 
-1.  If necessary, [display the Run Test progress dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-view-progress.md).
+1.  If necessary, [display the Run Test progress dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-view-progress.md).
 
 2.  Click **Cancel Pending Steps**.
 

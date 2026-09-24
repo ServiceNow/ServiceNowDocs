@@ -3,11 +3,11 @@ title: Uninstall the Agent Client Collector from macOS using a single-line comma
 description: Uninstall the Agent Client Collector from macOS machine by running an efficient single-line command. If the agent is connected to the instance, uninstall Agent Client Collector manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-uninstall-mac-single-line.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC installation on a macOS system, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -32,5 +32,5 @@ Uninstall the Agent Client Collector from macOS machine by running an efficient 
     **Note:** Uninstalling the Agent Client Collector removes the `acc.yml` file and its directory from your machine. The user and group **\_servicenow**, created as part of the installation process, is also removed.
 
 
-**Parent Topic:**[Agent Client Collector installation on a macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-mac-os.md)
+**Parent Topic:**[Agent Client Collector installation on a macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-install-mac-os.md)
 

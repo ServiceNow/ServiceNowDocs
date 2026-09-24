@@ -3,9 +3,9 @@ title: Customer Service forms
 description: Use forms to view and update Customer Service Management information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-reference-forms.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Service Management]
 ---

@@ -3,9 +3,9 @@ title: Configuring client accessible secrets
 description: Learn how to configure your instance to use client accessible secrets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-secret-landing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Secrets Management, Platform Security]
 ---
@@ -16,59 +16,59 @@ Learn how to configure your instance to use client accessible secrets.
 
 Use this example implementation to configure Secrets Management without using proxies, or giving ServiceNow access to your decrypted data.
 
-For more detail on using client-side Secrets Management to manage access to passwords and groups, see [About client-side Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/understand-sec-man.md).
+For more detail on using client-side Secrets Management to manage access to passwords and groups, see [About client-side Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/understand-sec-man.md).
 
-These instructions assume you have a MID Server configured on your local network. For information on this process see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+These instructions assume you have a MID Server configured on your local network. For information on this process see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
 ## Process overview
 
--   **1. [Create encryption keys and certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-1.md)**
+-   **1. [Create encryption keys and certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-1.md)**
 
     Create encryption keys and a certificate using terminal commands on your local environment.
 
--   **2. [Add your certificate to the ServiceNow Trusted Key Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-2.md)**
+-   **2. [Add your certificate to the ServiceNow Trusted Key Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-2.md)**
 
     Upload your key and certificate to the ServiceNow Trusted Key Store.
 
--   **3. [Create a secret group with criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-3.md)**
+-   **3. [Create a secret group with criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-3.md)**
 
     Create a group for your secrets. Secret groups are used to organize your secrets into groups. Using these groups enables you to apply access policies to those secrets at a group level. Then associate your secrets group to an identity group and add your MID Server to that identity group.
 
--   **4. [Upload the public/private keypair to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-5.md)**
+-   **4. [Upload the public/private keypair to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-5.md)**
 
     Upload your public/private keypair to your MID Server. This keypair enables the MID Server to handle authentication requests from your instance.
 
--   **5. [Create credentials and test credential encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-4.md)**
+-   **5. [Create credentials and test credential encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-4.md)**
 
     Create a credential to authenticate into a third-party system and test that ServiceNow can't access the credential.
 
--   **6. [Configure Flow Designer to manage the integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-6.md)**
+-   **6. [Configure Flow Designer to manage the integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-6.md)**
 
     On your instance, use Workflow Studio to manage an integration between your local network and your instance.
 
--   **7. [Test the end-to-end client-side encrypted secrets integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-7.md)**
+-   **7. [Test the end-to-end client-side encrypted secrets integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-7.md)**
 
     Test your integration, and review the execution details to confirm your configuration is working.
 
 
--   **[Create encryption keys and certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-1.md)**  
+-   **[Create encryption keys and certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-1.md)**  
 Create encryption keys and a certificate using terminal commands on your local environment.
--   **[Add your certificate to the ServiceNow Trusted Key Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-2.md)**  
+-   **[Add your certificate to the ServiceNow Trusted Key Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-2.md)**  
 Upload your key and certificate to the ServiceNow Trusted Key Store.
--   **[Create a secret group with criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-3.md)**  
-Secret groups organize secrets and apply access policies at the group level. Associate a secret group with an identity group to control MID Server access.
--   **[Upload the public/private keypair to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-5.md)**  
+-   **[Create a secret group with criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-3.md)**  
+Create a group for your secrets. Secret groups to organize your secrets into groups, and enable you to apply access policies to those secrets at a group level. Then associate your secrets group to an identity group, and add your MID Server to that identity group.
+-   **[Upload the public/private keypair to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-5.md)**  
 Upload your public/private keypair to your MID Server. This keypair enables the MID Server to handle authentication requests from your instance.
--   **[Create credentials and test credential encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-4.md)**  
+-   **[Create credentials and test credential encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-4.md)**  
 Create a credential to authenticate into a third-party system.
--   **[Configure Flow Designer to manage the integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-6.md)**  
+-   **[Configure Flow Designer to manage the integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-6.md)**  
 On your instance, use Workflow Studio to manage an integration between your local network and your instance.
--   **[Test the end-to-end client-side encrypted secrets integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-7.md)**  
+-   **[Test the end-to-end client-side encrypted secrets integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-7.md)**  
 Test your integration, and review the execution details to confirm your configuration is working.
--   **[Test a Windows Management Instrumentation credential encrypted with Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-8.md)**  
+-   **[Test a Windows Management Instrumentation credential encrypted with Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-example-8.md)**  
 Verify that your Windows Management Instrumentation \(WMI\) credential is encrypted with Secrets Management and use an Integration Hub workflow to complete end-to-end testing.
--   **[Cloning and Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloning-and-secrets-mgmt.md)**  
+-   **[Cloning and Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/cloning-and-secrets-mgmt.md)**  
 Learn how to reconfigure secrets groups and client secrets groups after a clone.
 
-**Parent Topic:**[Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/secrets-management.md)
+**Parent Topic:**[Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/secrets-management.md)
 

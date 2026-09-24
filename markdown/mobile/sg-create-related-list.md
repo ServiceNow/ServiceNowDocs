@@ -3,9 +3,9 @@ title: Create a parametrized data item for your related list
 description: Create a parametrized data item to contain the records that display in your related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-create-related-list.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure a related list screen, Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -91,7 +91,7 @@ Whether the condition is **Declarative**, uses a **Script** or uses an **Appende
 </td></tr></tbody>
 </table>7.  Create parameter items in the **Parameters** section.
 
-    Parameters contain values from the parent record that you can use in your conditions in the **Condition** section. You use these parameters in your condition to define how the related list records are related with the parent record. For more information on parameters, see [Configure a parametrized data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-parametrized-data-item.md).
+    Parameters contain values from the parent record that you can use in your conditions in the **Condition** section. You use these parameters in your condition to define how the related list records are related with the parent record. For more information on parameters, see [Configure a parametrized data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-parametrized-data-item.md).
 
 8.  Create a condition in the **Condition** section to filter the records that appear in your related list.
 

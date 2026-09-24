@@ -1,20 +1,20 @@
 ---
-title: Import bulk entitlements in Software Asset Management Core UI
-description: You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management Core UI.
+title: Import bulk entitlements in Software Asset Management classic
+description: You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management classic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-entitlement-import-errors.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Import bulk entitlements in Software Asset Management Core UI
+# Import bulk entitlements in Software Asset Management classic
 
-You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management Core UI.
+You can import multiple entitlements together using a Microsoft Excel spreadsheet in Software Asset Management classic.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ The entitlement import records are stored in the Entitlement import \[samp\_bulk
 
 3.  In the Entitlement import page, click **Download template** to download a spreadsheet template\(.xlsx\).
 
-    You can add software entitlement fields to the template to include additional fields in your import. Add each field as a new column in the template. The column name must match the field label exactly. You can include base system software entitlement fields as well as your custom software entitlement fields. To learn how to create a custom field, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
+    You can add software entitlement fields to the template to include additional fields in your import. Add each field as a new column in the template. The column name must match the field label exactly. You can include base system software entitlement fields as well as your custom software entitlement fields. To learn how to create a custom field, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreatingNewFields.md).
 
     By default, the **Unit cost** column in the spreadsheet takes into account the currency that your system is set to. However you can manually change the currency and the Software Asset Management application will honor the currency that you specify. To specify a currency, enter the currency code followed by a semicolon and the cost. For example, `EUR;200`. Valid currency codes are the ones listed in the Currency \[fx\_currency\] table and have the **Active** column set to true.
 
@@ -62,12 +62,12 @@ The entitlement import records are stored in the Entitlement import \[samp\_bulk
 
 9.  Select an import error record to view its errors.
 
-    The Entitlement Import Errors page appears. For a detailed description of the entitlement import error fields, see [Entitlement import error fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/entitlement-import-error-fields.md).
+    The Entitlement Import Errors page appears. For a detailed description of the entitlement import error fields, see [Entitlement import error fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/entitlement-import-error-fields.md).
 
 10. Correct the errors and then select **Import**.
 
-    The entitlement is successfully created. For more information on resolving errors, see [Entitlement import error actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-software-rights-form.md).
+    The entitlement is successfully created. For more information on resolving errors, see [Entitlement import error actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/import-software-rights-form.md).
 
 
-**Parent Topic:**[Using Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
 

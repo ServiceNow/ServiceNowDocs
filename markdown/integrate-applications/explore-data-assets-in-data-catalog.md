@@ -3,9 +3,9 @@ title: Explore data assets in the data catalog
 description: Find and explore catalog assets through search, filtering, and browsing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-data-assets-in-data-catalog.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Finding and accessing data assets, Data Catalog, Workflow Data Fabric]
 ---
@@ -65,5 +65,5 @@ Discover data assets using search or browsing. Search looks across asset names, 
     -   Search looks across multiple fields including names, descriptions, and business context
     -   Results display with key information including asset type, source system, and description
 
-**Parent Topic:**[Finding and accessing data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/find-access-data-assets-dc.md)
+**Parent Topic:**[Finding and accessing data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/find-access-data-assets-dc.md)
 

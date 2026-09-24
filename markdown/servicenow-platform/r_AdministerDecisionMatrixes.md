@@ -3,9 +3,9 @@ title: Decision matrixes
 description: Assessment results obtained by questionnaires and scripted metrics can be mapped to decision matrixes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_AdministerDecisionMatrixes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a decision matrix, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -62,7 +62,7 @@ X- and Y-axes
 
 </td><td>
 
-Each axis represents one or more metric categories. If multiple categories are used for an axis, their respective[weights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md) determine the positioning of the plotted items.
+Each axis represents one or more metric categories. If multiple categories are used for an axis, their respective[weights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentMetrics.md) determine the positioning of the plotted items.
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Plotted items
 
 </td><td>
 
-The labeled points you see on a decision matrix, called plotted items, represent averages of [category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CategoryResults.md) data for assessable records. Point to a plotted item label to view a rating summary for that assessable record. Click a plotted item label to view the [scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md) for the assessable record.\[Omitted image "VendorDecisionMatrix.png"\] Alt text: Vendor decision matrix
+The labeled points you see on a decision matrix, called plotted items, represent averages of [category result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_CategoryResults.md) data for assessable records. Point to a plotted item label to view a rating summary for that assessable record. Click a plotted item label to view the [scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md) for the assessable record.\[Omitted image "VendorDecisionMatrix.png"\] Alt text: Vendor decision matrix
 
 </td></tr></tbody>
 </table>## Plotted item rating summaries
@@ -85,5 +85,5 @@ The summary shows:
 
 \[Omitted image "DecisionMatrixRatingSummary.png"\] Alt text:
 
-**Parent Topic:**[Create a decision matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateADecisionMatrix.md)
+**Parent Topic:**[Create a decision matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateADecisionMatrix.md)
 

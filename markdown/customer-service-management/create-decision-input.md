@@ -3,9 +3,9 @@ title: Add questions or instructions to a decision input
 description: Create decision inputs for each decision node. Decision inputs appear in the form of questions in a workspace for service agents to answer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-decision-input.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Editing decision trees in Core UI, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Create a decision path first. A decision node is automatically created with the 
 
 Decision nodes can have one or multiple questions with different answer types.
 
-You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create new decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/decision-trees-in-gdb.md).
+You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create new decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/decision-trees-in-gdb.md).
 
 ## Procedure
 
@@ -124,5 +124,5 @@ A check box field
 
 ## What to do next
 
-[Determine the next node in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-decision-paths.md)
+[Determine the next node in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-decision-paths.md)
 

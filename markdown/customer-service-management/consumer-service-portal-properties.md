@@ -3,9 +3,9 @@ title: Consumer Service Portal properties
 description: Properties that the system administrator can set to limit the number of registered products per consumer, the number of open cases per consumer, and the number of attachments per consumer record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/consumer-service-portal-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portal reference, Reference, Customer Service Management]
 ---
@@ -73,4 +73,8 @@ Enable the flag to add description using the HTML editor on the Create Case form
 -   **Location**: **Customer Service** &gt; **Administration** &gt; **Properties**
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Setup the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-csp-csm-portals.md)
+

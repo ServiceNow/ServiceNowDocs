@@ -3,11 +3,11 @@ title: Exploring ServiceNow Otto for Telecommunications, Media, and Technology \
 description: With the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application, your agents can use generative AI to summarize service problem cases, account onboarding cases, engagements, touchpoints, and internal plays. Agents can also summarize customer plays, successive initiatives, tests, risk signals, and issues, and generate resolution notes. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exploring.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -192,7 +192,7 @@ The ServiceNow Otto for TMT application includes the following generative AI ski
     -   Next steps
 -   **Analyze metric data trend**
 
-    Collects and analyzes metric data, processes large data sets, identifies patterns and anomalies. Provides clear actionable insights that enables the [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) monitor engagement health agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.md) to make informed decisions and take appropriate actions.
+    Collects and analyzes metric data, processes large data sets, identifies patterns and anomalies. Provides clear actionable insights that enables the [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) monitor engagement health agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.md) to make informed decisions and take appropriate actions.
 
 -   **Risk signal and issues summarization**
 
@@ -208,13 +208,11 @@ The ServiceNow Otto for TMT application includes the following generative AI ski
 
 An agent can use the ServiceNow Otto panel in CSM/FSM Configurable Workspace.
 
-This conversational interface enables an agent to request a service problem case summary and generate the service problem case resolution notes. For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+This conversational interface enables an agent to request a service problem case summary and generate the service problem case resolution notes. For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## ServiceNow Otto in Remote Hands Request management application
 
 Remote Hands Request Summarization is an ServiceNow Otto capability that provides a contextual overview of a Remote Hands case. It combines current case data with insights from similar historical cases. Users with the Remote Hands Agent role can generate a summarized view of a Remote Hands case. Select the **Summarize** option from either the Remote Hands Case table or the CSM/FSM Configurable Workspace.
-
-\[Omitted image "remote-hands-summary.png"\] Alt text: Image displays the example for Remote hands case summary
 
 The comprehensive summary includes the following sections:
 
@@ -225,12 +223,10 @@ The comprehensive summary includes the following sections:
 -   Case Issue: The Case Issue displays the Short Description of the related case
 -   Case Resolution: The Case Resolution displays the Resolution Notes recorded in the related case
 
-\[Omitted image "remote-hands-summary-details.png"\] Alt text: Image displays the components in the Remote Hands Summary
-
 **Related topics**  
 
 
-[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
+[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
+[Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 

@@ -3,9 +3,9 @@ title: Mobile admin role
 description: Administrators can assign roles that grant specific permissions, which govern what users and groups with that role can do within the ServiceNow Mobile Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-admin-role.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ The administrative role available to administrators of the ServiceNow Mobile Pla
 
 **Note:** While the **admin** role provides full system access, it grants unrestricted permissions that may pose security risks. For users who only need to perform mobile-related tasks, assign the **mobile\_admin** role, as it provides access to only what is necessary.
 
-For more generic information on roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
+For more generic information on roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-roles.md).
 
 The mobile\_admin role grants administrators the precise permissions needed to configure mobile applications. Unlike the broader admin role, the mobile\_admin role enhances security by providing more controlled access to your ServiceNow account, reducing unnecessary privileges.
 
@@ -36,7 +36,7 @@ The mobile\_admin role includes the following permissions:
 
 Learn about roles and how to work with them in the following topics:
 
--   [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md)
--   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md)
--   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
+-   [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-roles.md)
+-   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md)
+-   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md)
 

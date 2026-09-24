@@ -3,12 +3,12 @@ title: Controlling what AI Desktop Actions can access
 description: Control which desktop resources, such as files, folders, websites, and applications, AI Desktop Actions can access within your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/security\_policy\_governance\_concept.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [security policy, AI Desktop Actions, resource access control, governance, administrator configuration, policy management, desktop automation security]
-breadcrumb: [Adaptive desktop actions for desktop and web, Configure, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Adaptive desktop actions for desktop and web, Configure, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Controlling what AI Desktop Actions can access
@@ -185,19 +185,19 @@ The system collects all active policies where the current user matches the user 
     Use a default-deny approach: create explicit Allow rules for resources you want AI agents to access, rather than relying on implicit allow for unspecified resources.
 
 
--   **[Create a desktop action policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-da-policy.md)**  
+-   **[Create a desktop action policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-da-policy.md)**  
 Desktop action policies control which users are subject to resource access rules. Configure a policy to define the user criteria and link the rules that govern automated resource access.
--   **[Create a desktop action access rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-da-access-rule.md)**  
+-   **[Create a desktop action access rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-da-access-rule.md)**  
 Configure rules to enforce security boundaries for AI agents in your organization. Resource access rules define which files, folders, websites, and applications AI Desktop Actions can access.
 
-**Parent Topic:**[Configuring AI Desktop Actions for adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-adaptive-path-desktop-da.md)
+**Parent Topic:**[Configuring AI Desktop Actions for adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ad-adaptive-path-desktop-da.md)
 
 **Related topics**  
 
 
-[Create a desktop action policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-da-policy.md)
+[Create a desktop action policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-da-policy.md)
 
-[Create a desktop action access rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-da-access-rule.md)
+[Create a desktop action access rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-da-access-rule.md)
 
-[Known issues and limitations of adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/adaptive-desktop-actions-troubleshooting.md)
+[Known issues and limitations of adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/adaptive-desktop-actions-troubleshooting.md)
 

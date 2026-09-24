@@ -3,9 +3,9 @@ title: Action types for customer and service orders
 description: Learn how you can take various types of actions for your customer orders. Action types include move, add, change, disconnect, suspension, resume, or no-change of services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-customer-order-types.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -81,7 +81,7 @@ Order line items with No change action are included in the order for information
 **Related topics**  
 
 
-[Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-suspend-resume-action.md)
+[Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-suspend-resume-action.md)
 
-[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md)
+[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/managing-orders.md)
 

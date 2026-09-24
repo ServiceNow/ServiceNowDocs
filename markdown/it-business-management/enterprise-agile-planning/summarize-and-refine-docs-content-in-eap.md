@@ -3,11 +3,11 @@ title: Summarize and refine Docs content in EAP using ServiceNow Otto for SPM
 description: Use ServiceNow Otto capabilities to elaborate, shorten, and summarize selected content in Docs, or to get a summary of the whole document in Enterprise Agile Planning \(EAP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Refine records, ServiceNow Otto skill, ServiceNow Otto, Gen AI, Generative AI, Strategic Portfolio Management, SPM]
 breadcrumb: [Collaborate using Docs, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
@@ -19,16 +19,16 @@ Use ServiceNow Otto capabilities to elaborate, shorten, and summarize selected c
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
--   [Create a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.md).
+-   [Create a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.md).
 -   Activate the EAP doc summarization ServiceNow Otto skill.
 
 Role required: sn\_apw\_advanced.eap\_user
 
-If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md).
 
 ## Procedure
 
@@ -36,15 +36,15 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d135584e163">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d135808e163">
 
 Type
 
-</th><th align="left" id="d135584e166">
+</th><th align="left" id="d135808e166">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d135584e172">
+</th></tr></thead><tbody><tr><td id="d135808e172">
 
 **Team Doc**
 
@@ -54,7 +54,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d135584e190">
+</td></tr><tr><td id="d135808e190">
 
 **Planning item Doc**
 

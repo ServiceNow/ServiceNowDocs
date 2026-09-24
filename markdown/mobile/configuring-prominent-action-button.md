@@ -3,9 +3,9 @@ title: Configuring a prominent action button
 description: Configure a prominent action button for quick access to Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configuring-prominent-action-button.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
@@ -47,5 +47,5 @@ Role required: admin
 5.  Select **Submit** to save your button.
 
 
-**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configuring-now-assist-mobile.md)
 

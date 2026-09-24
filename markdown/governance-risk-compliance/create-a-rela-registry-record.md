@@ -1,18 +1,18 @@
 ---
 title: Create a relationship registry record
-description: Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+description: Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-a-rela-registry-record.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Relationships Framework, Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create a relationship registry record
 
-Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
 
 ## Before you begin
 
@@ -28,15 +28,15 @@ Role required: sn\_grc\_rel\_config.admin
 
 3.  On the form, fill in the fields.
 
-    For information on the fields in the form, see [Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-rel-registries-form.md).
+    For information on the fields in the form, see [Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/data-rel-registries-form.md).
 
 4.  Select **Submit**.
 
     The relationship registry record is displayed in the Relationship Registries list.
 
 
--   **[Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-rel-registries-form.md)**  
-Use the Relationship Registry form \(the Relationship Registry \[sn\_data\_registry\_relationship\] table\) to create relationships between objects.
+-   **[Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/data-rel-registries-form.md)**  
+Use the Relationship registry form \(the Relationship Registry \[sn\_data\_registry\_relationship\] table\) to create relationships between objects.
 
-**Parent Topic:**[Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-relationship-framework.md)
+**Parent Topic:**[Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/data-relationship-framework.md)
 

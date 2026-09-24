@@ -3,9 +3,9 @@ title: Add covered products to a quote
 description: Add a covered product to line items in a quote in Quote Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-quote-add-covered-products.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -40,15 +40,15 @@ When converting quotes to orders, the covered product relationships are transfer
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d68694e147">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d69515e147">
 
 Covered product type
 
-</th><th align="left" id="d68694e150">
+</th><th align="left" id="d69515e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68694e156">
+</th></tr></thead><tbody><tr><td id="d69515e156">
 
 **Covered quote line item**
 
@@ -56,7 +56,7 @@ Description
 
 Select a quote line item to be added as a covered product.
 
-</td></tr><tr><td id="d68694e165">
+</td></tr><tr><td id="d69515e165">
 
 **Covered sold product**
 
@@ -64,7 +64,7 @@ Select a quote line item to be added as a covered product.
 
 Select a covered sold product to be added as a covered product.
 
-</td></tr><tr><td id="d68694e177">
+</td></tr><tr><td id="d69515e177">
 
 **Covered install base item**
 
@@ -82,5 +82,5 @@ Add an install base item as a covered product.
     A contract is created with the contract details for the order line.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

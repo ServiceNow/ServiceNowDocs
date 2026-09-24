@@ -3,11 +3,11 @@ title: Edit a draft PaCE policy version
 description: You can edit a Draft PaCE policy version at any time. The Draft version can be published to become the Current version. You can also create multiple different Draft versions from different Archived versions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-edit-draft-version.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage PaCE policy versions, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_pace.code\_editor
 
 5.  Edit the information and inputs in the **Details** and **Policy Builder** tabs.
 
-<table id="choicetable_tvq_3x4_3pb"><thead><tr><th align="left" id="d587928e131">
+<table id="choicetable_tvq_3x4_3pb"><thead><tr><th align="left" id="d585883e131">
 
 Tab
 
-</th><th align="left" id="d587928e134">
+</th><th align="left" id="d585883e134">
 
 Editable options
 
-</th></tr></thead><tbody><tr><td id="d587928e140">
+</th></tr></thead><tbody><tr><td id="d585883e140">
 
 **Details**
 
@@ -50,13 +50,13 @@ Editable options
 
 Update the **Description** field.**Note:** The **Description** field is the only editable field in the Details tab. The version and revision numbering are generated automatically and cannot be modified.
 
-</td></tr><tr><td id="d587928e158">
+</td></tr><tr><td id="d585883e158">
 
 **Policy Builder**
 
 </td><td>
 
-In the Define Variables section, select Config Parameters. You can:-   Click **New** to add a new input variable. See [Create a new variable for a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-variable-policy-version.md) for details on adding input variables.
+In the Define Variables section, select Config Parameters. You can:-   Click **New** to add a new input variable. See [Create a new variable for a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-variable-policy-version.md) for details on adding input variables.
 -   Select an existing variable and click **Delete** to remove the variable from the list.
 
 
@@ -67,8 +67,8 @@ In the Define Variables section, select Config Parameters. You can:-   Click **N
     |------|-----------|
     |**Save the version**|Click **Save**. The policy version is saved and the version page is refreshed.|
     |**Publish the version**|Click **Publish Policy**. In the displayed confirmation message, click **Publish**. The policy version becomes the Current version and is used the next time the policy is invoked.|
-    |**Test your updates**|Click the **Test Playground** tab. The Test Playground page is displayed, where you can update the policy script and test your changes. For further information, see [Use the Test Playground for PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-use-test-playground.md).|
+    |**Test your updates**|Click the **Test Playground** tab. The Test Playground page is displayed, where you can update the policy script and test your changes. For further information, see [Use the Test Playground for PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-use-test-playground.md).|
     |**Delete the version**|Click **Delete**. Only versions that have never been used can be deleted.|
-    |**Review execution activity**|Click the **Executions** tab to review the execution activity for this version. See [Review executed policy activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-review-executed-policies.md) for details.|
+    |**Review execution activity**|Click the **Executions** tab to review the execution activity for this version. See [Review executed policy activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-review-executed-policies.md) for details.|
 
 

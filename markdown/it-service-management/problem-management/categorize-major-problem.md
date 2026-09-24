@@ -3,11 +3,11 @@ title: Categorize a problem as a major problem
 description: You can prioritize a problem and highlight that it needs a review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/categorize-major-problem.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -40,9 +40,9 @@ Role required: admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/configuring-problem-mgmt.md)
+**Parent Topic:**[Configuring Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/configuring-problem-mgmt.md)
 
-**Previous topic:**[Define an assignment rule for problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/t_DefineAnAssignRuleForPRBs.md)
+**Previous topic:**[Define an assignment rule for problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/t_DefineAnAssignRuleForPRBs.md)
 
-**Next topic:**[Enable Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/enable-problem-mgmt-models.md)
+**Next topic:**[Enable Problem Management models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/enable-problem-mgmt-models.md)
 

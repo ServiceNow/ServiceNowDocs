@@ -3,9 +3,9 @@ title: Create an individual life service case
 description: A processor or contributor can begin the policy request process by creating an individual life case on behalf of your customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/create-indiv-life-service-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -18,9 +18,9 @@ A processor or contributor can begin the policy request process by creating an i
 
 Role required: sn\_ins\_indiv\_life.processor, sn\_ins\_indiv\_life.processor\_connector, or sn\_ins\_indiv\_life.contributor
 
-**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-core-roles.md).
+**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-core-roles.md).
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -34,15 +34,15 @@ Contributors and processors can submit individual policy service requests for cu
 
 3.  Create a case from the individual life service case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d58721e124">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d58934e124">
 
 Option
 
-</th><th align="left" id="d58721e127">
+</th><th align="left" id="d58934e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d58721e133">
+</th></tr></thead><tbody><tr><td id="d58934e133">
 
 **Individual life case from the individual life case list**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d58721e163">
+</td></tr><tr><td id="d58934e163">
 
 **Individual life case from an interaction record**
 
@@ -61,7 +61,7 @@ Steps
 1.  In the **Lists** tab, under **Interactions**, select **My Interactions**.
 2.  Open the required interaction record for the customer.
 3.  Select **Create Case**.
- For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-interactions.md).
+ For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-interactions.md).
 
 </td></tr></tbody>
 </table>4.  In the Create a new case dialog box, select the individual life service that you want to create a case for.

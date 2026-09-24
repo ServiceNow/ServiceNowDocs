@@ -3,11 +3,11 @@ title: Add an FX Currency field to a table
 description: Before using and configuring an FX Currency field, you first add it an existing table, or to a new one, in System Definition Tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/add-fx-currency-field-table.html
-release: australia
+release: brazil
 product: Currency Administration
 classification: currency-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ For example, you create a new custom table, named `transactions`, that stores tr
 
 1.  Follow the normal procedures to add a table, or access an existing table.
 
-    To learn more about creating and modifying tables in an instance, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
+    To learn more about creating and modifying tables in an instance, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
 
 2.  In the **Columns** section, use the **Table Columns** embedded list to add columns to the table.
 
@@ -47,7 +47,7 @@ For example, you create a new custom table, named `transactions`, that stores tr
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Setting up defaults required for FX Currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/setting-up-defaults-fx-currency-use.md)
+**Parent Topic:**[Setting up defaults required for FX Currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/setting-up-defaults-fx-currency-use.md)
 
 **Related topics**  
 

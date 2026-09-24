@@ -3,13 +3,13 @@ title: Choosing between record producers and catalog items
 description: Both the record producer and standard catalog item in App Engine Studio \(AES\) create experiences where users can submit requests through a service portal. However, record producers are more extensible, and enable users to create a record in any table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/record-producer-vs-catalog-item.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Add an experience, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add an experience, Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Choosing between record producers and catalog items
@@ -129,11 +129,11 @@ Catalog items are typically built in a specific scope, and less flexible.
 For more information, see the following topics:
 
 -   Record producers:
-    -   [Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-a-record-producer.md)
-    -   [Sample record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/record-producers-example.md)
+    -   [Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-a-record-producer.md)
+    -   [Sample record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/record-producers-example.md)
 -   Standard catalog items:
-    -   [Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-standard-catalog-item.md)
-    -   [Sample standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/standard-catalog-item-examples.md)
+    -   [Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-standard-catalog-item.md)
+    -   [Sample standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/standard-catalog-item-examples.md)
 
-**Parent Topic:**[Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
+**Parent Topic:**[Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-experience.md)
 

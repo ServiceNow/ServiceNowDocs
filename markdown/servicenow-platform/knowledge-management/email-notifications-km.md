@@ -3,11 +3,11 @@ title: Managing email notifications in Knowledge Management
 description: Reminders enable relevant users to review knowledge articles and complete tasks associated with them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/email-notifications-km.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,14 +18,14 @@ Reminders enable relevant users to review knowledge articles and complete tasks 
 
 By default, the Knowledge Management application includes the following types of email notifications:
 
--   [Email notifications for knowledge article feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
--   [Email notifications for knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
--   [Email notifications for knowledge article approval publishing workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
--   [Email notifications for translation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
--   [Email notifications for expiring knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
--   [Email notifications for article quality index \(AQI\) reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for knowledge article feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for knowledge article approval publishing workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for translation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for expiring knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for article quality index \(AQI\) reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
 
-You can decide if you must receive any knowledge notifications by setting notification preferences. For more information, see [Set knowledge notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/set-subscription-notifications.md).
+You can decide if you must receive any knowledge notifications by setting notification preferences. For more information, see [Set knowledge notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/set-subscription-notifications.md).
 
 ## Email notifications for knowledge article feedback tasks
 
@@ -205,7 +205,7 @@ Knowledge articles have an expiration date set using the **Valid to** field when
 
 On the first day of each month, the application sends an email notification to a list of authorized recipients to remind them about articles that are scheduled to expire in the next month. The user can then determine whether to extend the **Valid to** date to continue providing access to the article.
 
-**Note:** To extend the **Valid to** date of a knowledge article, see [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md)
+**Note:** To extend the **Valid to** date of a knowledge article, see [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md)
 
 The content of the email notification is determined by the number of articles expiring in the coming month.
 
@@ -300,21 +300,21 @@ An AQI was performed and submitted on a knowledge article with the ownership gro
 </td></tr></tbody>
 </table>**Note:** An email notification is sent to a reviser of a knowledge article when the article versioning feature is enabled.
 
--   **[Set knowledge notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/set-subscription-notifications.md)**  
+-   **[Set knowledge notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/set-subscription-notifications.md)**  
 Set notification preferences for knowledge bases and knowledge articles.
 
-**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
 
 **Related topics**  
 
 
-[Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)
+[Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)
 
-[Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/additional-plugins-km.md)
+[Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/additional-plugins-km.md)
 
-[Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md)
+[Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md)
 
-[Validity of a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-validity.md)
+[Validity of a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/article-validity.md)
 
-[Knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-subscriptions.md)
+[Knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-article-subscriptions.md)
 

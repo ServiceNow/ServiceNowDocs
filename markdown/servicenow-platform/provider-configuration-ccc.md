@@ -3,9 +3,9 @@ title: Provider configuration in Voice
 description: For both inbound and outbound calls, a provider configuration contains settings about the involved components and message transformers for a specific third-party phone system provider. Any request from that phone system provider is handled within ServiceNow based on these settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/provider-configuration-ccc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scripting for operation handlers, Setting up ServiceNow Voice, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ For both inbound and outbound calls, a provider configuration contains settings 
 
 To view the available provider configurations, navigate to **ServiceNow Voice - Core** &gt; **Provider Configurations**.
 
-Any request from a third-party phone system is passed into a ServiceNow instance through the CTI Operation endpoint of the CTI API. For information about this API, see [CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cti-api.md). Based on the provider and the component specified in the endpoint, the corresponding message transformers are invoked to perform the following:
+Any request from a third-party phone system is passed into a ServiceNow instance through the CTI Operation endpoint of the CTI API. For information about this API, see [CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cti-api.md). Based on the provider and the component specified in the endpoint, the corresponding message transformers are invoked to perform the following:
 
 -   Transform the request from the third-party phone system before passing the request to an operation handler.
 -   Transform the response from the operation handler before passing it on to the third-party phone system.
@@ -40,7 +40,7 @@ To view the available message transformers, navigate to **ServiceNow Voice - Cor
 
 For the ServiceNow Voice integration with the ServiceNow Voice with Amazon Connect application, the **AWS Connect Default Handler** provider component is available by default.
 
-**Note:** The ServiceNow Voice with Amazon Connect integration with ServiceNow application \[sn\_cti\_amzn\_cct\] must be installed from the ServiceNow® Store. For information on installing this application, see [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md).
+**Note:** The ServiceNow Voice with Amazon Connect integration with ServiceNow application \[sn\_cti\_amzn\_cct\] must be installed from the ServiceNow® Store. For information on installing this application, see [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/install-ccc-apps.md).
 
 For each node that can be used an integration point between Amazon services and the ServiceNow instance, the following provider components and the corresponding message transformers are available.
 
@@ -49,10 +49,10 @@ For each node that can be used an integration point between Amazon services and 
 |Get Customer Input|sn\_aws\_connect\_lex\_intent\_processor\_component|AWS - Lex - Intent - Message Transformer \(SN Proxy\)|
 |Invoke AWS Lambda Function|sn\_aws\_connect\_lambda\_proxy\_component|AWS - Connect - Lambda - Message Transformer|
 
-When a customer dials using a phone number, a call is placed through the Amazon Connect 's phone system. Using one of its components, Amazon Connect provides the request to the ServiceNow instance through the CTI Operation endpoint of the CTI API. For information about this API, see [CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cti-api.md). Based on the provider and the component specified here, the corresponding message transformers are invoked to perform the following:
+When a customer dials using a phone number, a call is placed through the Amazon Connect 's phone system. Using one of its components, Amazon Connect provides the request to the ServiceNow instance through the CTI Operation endpoint of the CTI API. For information about this API, see [CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cti-api.md). Based on the provider and the component specified here, the corresponding message transformers are invoked to perform the following:
 
 -   Transform the request from Amazon Connect before passing the request to an operation handler.
 -   Transform the response from the operation handler before passing it on to Amazon Connect.
 
-**Parent Topic:**[Scripting for operation handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-api.md)
+**Parent Topic:**[Scripting for operation handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cloud-call-center-api.md)
 

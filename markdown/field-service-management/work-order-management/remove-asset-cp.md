@@ -3,11 +3,11 @@ title: Record the removal of an asset from a task location on the Contractor Por
 description: Track the status of an asset that you removed in a work order. You can track the status as you're doing the task from the task location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/remove-asset-cp.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record asset usage, Work order tasks \(WOTs\), Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---

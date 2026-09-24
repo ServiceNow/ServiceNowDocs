@@ -3,11 +3,11 @@ title: Sample SAML 2 responses after the update
 description: The following sections illustrate the new required elements and attributes that the IdP should provide in the SAML Response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_SampleSAML2ResponsesAfterUpdate.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Update your existing SAML 2.0 integration, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

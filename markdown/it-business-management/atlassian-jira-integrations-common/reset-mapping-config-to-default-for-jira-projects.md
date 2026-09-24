@@ -3,11 +3,11 @@ title: Reset mapping configuration of Jira projects
 description: Reset the existing mapping configuration for multiple Jira projects to a default mapping configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/reset-mapping-config-to-default-for-jira-projects.html
-release: australia
+release: brazil
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Reset the existing mapping configuration for multiple Jira projects to a default
 
 ## Before you begin
 
--   [Discover and import Jira projects and boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/discover-projects.md)
+-   [Discover and import Jira projects and boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/discover-projects.md)
 -   Role required: sn\_jira\_int.user
 
 ## About this task
@@ -35,15 +35,15 @@ If you've cleared the **Mapping Config** field or deleted the existing table map
 
 3.  Reset the mappings of multiple Jira projects using one of the following ways.
 
-<table id="choicetable_evm_cms_ymb"><thead><tr><th align="left" id="d82317e102">
+<table id="choicetable_evm_cms_ymb"><thead><tr><th align="left" id="d81852e102">
 
 Choice
 
-</th><th align="left" id="d82317e105">
+</th><th align="left" id="d81852e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d82317e111">
+</th></tr></thead><tbody><tr><td id="d81852e111">
 
 **Reset mappings for a single project**
 
@@ -53,7 +53,7 @@ Action
 2.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d82317e132">
+</td></tr><tr><td id="d81852e132">
 
 **Reset mappings of multiple projects that belong to different project styles**
 
@@ -64,7 +64,7 @@ Action
 3.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d82317e159">
+</td></tr><tr><td id="d81852e159">
 
 **Reset mappings of multiple projects that belong to the same project style**
 
@@ -78,7 +78,7 @@ From the Project Style Mappings related list, open a project template.For exampl
 4.  Click **Reset Mappings**.
 
 
-</td></tr><tr><td id="d82317e198">
+</td></tr><tr><td id="d81852e198">
 
 **Reset mappings of all projects that belong to the same project style**
 
@@ -92,5 +92,5 @@ From the Project Style Mappings form, click **Reset Mappings**.
 
 The mapping configuration of the projects is updated to as per the **Default Mapping** field in the Project Style Mappings form that the selected projects belong to.
 
-**Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)
+**Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)
 

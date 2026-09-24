@@ -3,11 +3,11 @@ title: Risk heatmap for classic risk assessment
 description: As an operational risk manager, if you opt to use the classic risk assessment to assess the risks in your organization, you can view the risk heatmap to get an overview of the risk posture for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-classic-risk-assessment.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,5 +22,5 @@ To view the operational risk heatmaps, ensure that you activate the GRC Risk Man
 
 \[Omitted image "heatmap-classic-risk-assess.jpg"\] Alt text: Risk heatmap for classic risk assessment.
 
-**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

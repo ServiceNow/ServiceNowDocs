@@ -3,11 +3,11 @@ title: Accelerating your DevOps change process
 description: Enable the change acceleration feature of DevOps Change Velocity for automatic change request creation in your pipeline, and use change approval flows and policies to automate approval under certain conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-change-acceleration.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [DevOps Change Velocity, IT Service Management]
 ---
@@ -16,13 +16,13 @@ breadcrumb: [DevOps Change Velocity, IT Service Management]
 
 Enable the change acceleration feature of DevOps Change Velocity for automatic change request creation in your pipeline, and use change approval flows and policies to automate approval under certain conditions.
 
-**Note:** ServiceNow [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md) must be installed for change acceleration.
+**Note:** ServiceNow [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ITILChangeManagement.md) must be installed for change acceleration.
 
 Enable and set up change control when you model your pipeline in DevOps:
 
--   [Model an Azure pipeline in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/model-azure-pipeline-dev-ops.md)
--   [Model a GitLab basic CI pipeline in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/model-gitlab-pipeline-dev-ops.md)
--   [Model a Jenkins pipeline in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/model-jenkins-pipeline-dev-ops.md)
+-   [Model an Azure pipeline in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/model-azure-pipeline-dev-ops.md)
+-   [Model a GitLab basic CI pipeline in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/model-gitlab-pipeline-dev-ops.md)
+-   [Model a Jenkins pipeline in DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/model-jenkins-pipeline-dev-ops.md)
 
 You can view details for active change requests by navigating to **DevOps** &gt; **Orchestrate** &gt; **Pipeline Change Requests**.
 
@@ -32,9 +32,9 @@ When change control is enabled for a job in your DevOps development pipeline, a 
 
 Pipeline steps can be configured to enable change receipts, which don't pause the pipeline. Change requests created with change receipts enabled include all pipeline data, but don't require approval to proceed in the pipeline and the change request will be in post implement states. For change requests created without enabling change receipt, the pipeline will be paused until the change request is approved, and upon approval, the pipeline will be resumed.
 
-If you want to stop the automatic transition of the change request states even when change receipt is turned on, you must disable the sn\_devops.enable\_change\_receipt\_state\_transition property. For more information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
+If you want to stop the automatic transition of the change request states even when change receipt is turned on, you must disable the sn\_devops.enable\_change\_receipt\_state\_transition property. For more information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
-Once approved, either automatically or manually, change requests move to Implement state and the job is run. Once the job is run, the change request is moved to the closed state with Close code as successful on a successful job run or Unsuccessful on error in the job run. For information on customizing your change request states, see [Custom change request process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md).
+Once approved, either automatically or manually, change requests move to Implement state and the job is run. Once the job is run, the change request is moved to the closed state with Close code as successful on a successful job run or Unsuccessful on error in the job run. For information on customizing your change request states, see [Custom change request process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md).
 
 If a change request is not approved and moved to the canceled or closed state, the associated Jenkins, GitHub, or ADO job is marked as failed and a console message is shown:
 
@@ -50,7 +50,7 @@ You can automate the change approval process for all your DevOps change requests
 
 ## Flows
 
-A flow is an automated process consisting of a trigger \(which specifies when to run the flow\) and a sequence of reusable actions \(where the actions perform a sequence of operations on your data\). Flows are built in Flow Designer, a ServiceNow AI Platform feature that enables process automation. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
+A flow is an automated process consisting of a trigger \(which specifies when to run the flow\) and a sequence of reusable actions \(where the actions perform a sequence of operations on your data\). Flows are built in Flow Designer, a ServiceNow AI Platform feature that enables process automation. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md).
 
 You can use one of the DevOps flows available in the base system as a template; clone the flow and customize it to your business requirements. Ensure that only one DevOps flow is in the active state at any time to avoid conflicts and errors. A DevOps flow is applicable to change requests that have the DevOps category or if the devops\_change property is set to true. \(An automatically created DevOps change request sets the category to DevOps by default\).
 
@@ -120,7 +120,7 @@ When demo data is installed, the  DevOps  Demo  Change Automation flow  
 \[Omitted image "dev-ops-demo-chg-automation-flow.png"\] Alt text: DevOps Demo Change Automation flow You can clone this flow and customize it to make changes. Ensure that the other DevOps flows are deactivated.
 
 </td></tr></tbody>
-</table>To read guidelines on how to use flows, subflows, and actions more effectively, see [General guidelines for Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/design-considerations-consolidated.md).
+</table>To read guidelines on how to use flows, subflows, and actions more effectively, see [General guidelines for Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/design-considerations-consolidated.md).
 
 ## Change approval policies
 
@@ -136,7 +136,7 @@ The DevOps Change Request Minimal Automation Policy and DevOps Change Request Ad
 -   DevOps Change Request Minimal Automation Policy
 -   DevOps Change Request Advanced Automation Policy
 
-For more information on change approval policies, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-approval-policy.md).
+For more information on change approval policies, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-approval-policy.md).
 
 The DevOps automated approval flows use change approval policies and DevOps data \(such as work items, commits, pull requests, test summaries, security summaries, and quality summaries\) to automatically update the change record state and step execution state to approved, rejected, or canceled. You can view and edit these policies based on your business requirements, or create your own in the decision table. See the following decision tables.
 
@@ -150,7 +150,7 @@ The three outcomes for the DevOps Change Request Minimal Automation and DevOps C
 -   Auto reject: If one or more of the conditions specified in the policy are not met, the change request is automatically rejected.
 -   Manual approval: If one or more conditions need manual approval by a user or group, that is specified in the policy. Notifications are sent by the policy to the relevant users or groups to expedite the manual approval and progress the change request.
 
-You can apply your change approval policy in the Change Management Workflow Studio action to control the approval process for a change request. For more information, [Use the Apply Change Approval Policy flow action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/use-apply-change-approval-policy-flow-activity.md).
+You can apply your change approval policy in the Change Management Workflow Studio action to control the approval process for a change request. For more information, [Use the Apply Change Approval Policy flow action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/use-apply-change-approval-policy-flow-activity.md).
 
 ## Change approval work notes
 
@@ -187,7 +187,7 @@ Use the Default Change Handler subflow to populate these change request fields w
 
 The Default Change Handler subflow overrides the field values that were populated using a template while creating the change request record.
 
-If desired, you can write a custom subflow in place of this flow by modifying the **\[sn\_devops.change\_request\_handler\_subflow\]** [DevOps property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
+If desired, you can write a custom subflow in place of this flow by modifying the **\[sn\_devops.change\_request\_handler\_subflow\]** [DevOps property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 ## Custom change request templates
 
@@ -219,7 +219,7 @@ For a change request automatically created by DevOps, the **Category** field is 
 
     List of test summaries for a pipeline execution associated with an artifact, package, or task execution before the change request.
 
-    See [Test Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) for more details.
+    See [Test Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) for more details.
 
 -   **Software Quality Summary**
 
@@ -238,7 +238,7 @@ For a change request automatically created by DevOps, the **Category** field is 
 
 ## Custom change request process
 
-These [DevOps change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md) are available to customize your change request flow.
+These [DevOps change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md) are available to customize your change request flow.
 
 -   DevOps change request implement state
 -   DevOps change request post implement state
@@ -249,7 +249,7 @@ To customize your change request flow, you must first create a **System Definiti
 
 Then, add the choice list to **System Definition** &gt; **Script Include** &gt; **ChangeRequestStateHandlerSNC**.
 
-Once you have created the choice list and added it to the script include, you can update [DevOps change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md) with the new choice list values. For example, **DevOps change request implement state** `-10`.
+Once you have created the choice list and added it to the script include, you can update [DevOps change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md) with the new choice list values. For example, **DevOps change request implement state** `-10`.
 
 ## DevOps Risk Condition
 
@@ -299,34 +299,34 @@ You can view pipeline activity by navigating to **DevOps** &gt; **Orchestrate** 
 
 \[Omitted image "dev-ops-pipeline-executions.png"\] Alt text: DevOps pipeline execution
 
--   **[Customizing DevOps flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-dev-ops-model-change-flow.md)**  
+-   **[Customizing DevOps flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/using-dev-ops-model-change-flow.md)**  
 Customize or recreate the DevOps Change Request Manual Approval, DevOps Change Request Minimal Automation Approval, and DevOps Change Request Advanced Automation Approval flows based on your requirements using a flow or a script.
--   **[Automate DevOps change request creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/automate-devops-change-request.md)**  
+-   **[Automate DevOps change request creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/automate-devops-change-request.md)**  
 Modify your pipeline to automatically create a DevOps change request.
--   **[Create a DevOps Change request and associate existing DevOps data — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-wkspc-chg-create-manual.md)**  
+-   **[Create a DevOps Change request and associate existing DevOps data — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-wkspc-chg-create-manual.md)**  
 Create a DevOps change request and associate existing DevOps data through the Workspace UI.
--   **[Create a DevOps change request and associate existing DevOps data — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-devops-change-request-manual.md)**  
+-   **[Create a DevOps change request and associate existing DevOps data — Classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/create-devops-change-request-manual.md)**  
 Create a DevOps change request and associate existing DevOps data through the Classic UI.
--   **[DevOps change request without mandating category as DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-devops-change-any-category.md)**  
+-   **[DevOps change request without mandating category as DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/create-devops-change-any-category.md)**  
 Enable categorizing DevOps change request from DevOps properties. Change requests that are created as part of pipeline execution steps can be created with a category other than DevOps.
--   **[Change request creation with DevOps data retrieval errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/change-request-creation-with-devops-data-retrieval-errors.md)**  
+-   **[Change request creation with DevOps data retrieval errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/change-request-creation-with-devops-data-retrieval-errors.md)**  
 Create change requests even with errors in DevOps data retrieval.
--   **[Artifacts and packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-dev-ops-release-change.md)**  
+-   **[Artifacts and packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/using-dev-ops-release-change.md)**  
 Artifacts and packages enable DevOps Change Velocity to track development and testing activities across a wide range of deployment and release models. This feature ensures that pipeline activity stored in the DevOps data model can be retrieved and applied when artifacts are created and released at different times or in different pipelines.
--   **[DevOps Pipeline UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.md)**  
+-   **[DevOps Pipeline UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.md)**  
 Use the Pipeline UI to visualize interactions and results across a pipeline execution. This graphical view shows pipeline step progression and other details for each pipeline.
--   **[Configuring DevOps change request details within the pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-config-change-details.md)**  
+-   **[Configuring DevOps change request details within the pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-config-change-details.md)**  
 Configure how the closure information, change state, and change request fields are updated from within a pipeline in the change step of the pipeline.
--   **[DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md)**  
+-   **[DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md)**  
 DevOps Change Velocity enables you to use fit-for-purpose change models that allow better flexibility in defining change models or processes to reflect modern development practices.
--   **[Retrieve change request data using DevOpsChangeRelationshipHelper script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/retrieve-change-request-data-using-devopschangerelationshiphelper-script.md)**  
+-   **[Retrieve change request data using DevOpsChangeRelationshipHelper script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/retrieve-change-request-data-using-devopschangerelationshiphelper-script.md)**  
 Retrieve data associated with a change request based on the specified relation type using the DevOpsChangeRelationshipHelper script include.
--   **[Manage Pull Requests \(PR\) or Merge Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/manage-pull-request-pipelines.md)**  
+-   **[Manage Pull Requests \(PR\) or Merge Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/manage-pull-request-pipelines.md)**  
 Manage Jenkins, GitHub Actions, and Azure DevOps \(ADO\) pipeline’s pull requests for GitHub, Bitbucket, and ADO coding sources from ServiceNow DevOps. You can enable the change approval process on your pull request to control pull request merge approvals from ServiceNow DevOps and monitor pull request details associated with the change request.
--   **[DevOps change request attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/apis-for-change-actions-in-devops.md)**  
+-   **[DevOps change request attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/apis-for-change-actions-in-devops.md)**  
 Add or update DevOps change request attributes using the changeInfo REST API, the Default Change Handler subflow, by passing attributes through the pipeline, Update function, or automated flows.
--   **[Import based evidence collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/import-based-evidence-collection-for-orchestration-capability.md)**  
+-   **[Import based evidence collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/import-based-evidence-collection-for-orchestration-capability.md)**  
 Reduce instance overhead by skipping step-level pipeline processing for accelerated change management and evidence collection for GitHub Actions, Azure DevOps \(ADO\), Jenkins and GitLab orchestration tools.
 
-**Parent Topic:**[DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-landing-page-new.md)
+**Parent Topic:**[DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-landing-page-new.md)
 

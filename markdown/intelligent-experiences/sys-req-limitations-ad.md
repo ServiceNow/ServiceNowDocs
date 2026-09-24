@@ -3,12 +3,12 @@ title: System requirements and limitations in AI Desktop Actions
 description: Be aware of system requirements and a few limitations when you’re using the AI Desktop Actions application for defined desktop actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sys-req-limitations-ad.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [reference]
-breadcrumb: [Reference, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Reference, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # System requirements and limitations in AI Desktop Actions
@@ -114,5 +114,5 @@ Sensitive information
 The sensitive information isn’t masked during recording. Confirm that you don’t record any sensitive information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-reference.md)
+</table>**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-reference.md)
 

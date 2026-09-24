@@ -3,11 +3,11 @@ title: Supporting information for AI Desktop Actions
 description: Get a quick overview of the important information that is related to the AI Desktop Actions application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/supporting-info-agentic-desktop.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-11-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Explore, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Supporting information for AI Desktop Actions
@@ -20,7 +20,7 @@ Support for adaptive desktop actions is added from Australia Patch 2.
 
 ## Supported user interfaces
 
-To design and run AI-powered desktop actions using ServiceNow AI agents, install the AI Desktop Actions application. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
+To design and run AI-powered desktop actions using ServiceNow AI agents, install the AI Desktop Actions application. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-agentic-desktop.md).
 
 ## Licensing requirements
 

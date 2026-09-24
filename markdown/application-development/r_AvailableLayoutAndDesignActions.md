@@ -3,9 +3,9 @@ title: Available layout and design actions
 description: The system allows the following layout and design actions when working on lists or forms in custom applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/r\_AvailableLayoutAndDesignActions.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists and forms in scoped applications, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

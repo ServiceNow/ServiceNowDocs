@@ -3,11 +3,11 @@ title: Notification agent and agentic workflows in Notifications
 description: Use the Notification agent and agentic workflows to automate inbound emails processing and to create and modify email notifications, templates, and layouts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/now-assist-notifications.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Notification agent and agentic workflows in Notifications
@@ -18,11 +18,11 @@ Use the Notification agent and agentic workflows to automate inbound emails proc
 
 <table id="table_dlz_kd4_ghc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore AI agents and agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-now-assist-notifications.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore AI agents and agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/exploring-now-assist-notifications.md)
 
 </td><td>
 
-[Use agentic workflow\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-agentic-ai-notifications.md)
+[Use agentic workflow\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/use-agentic-ai-notifications.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -41,7 +41,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for chat summarization, resolution notes generation, knowledge generation, call summarization\), chat transcripts \(for chat recommendation\), and email information \(for email response\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for chat summarization, resolution notes generation, knowledge generation, call summarization\), chat transcripts \(for chat recommendation\), and email information \(for email response\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

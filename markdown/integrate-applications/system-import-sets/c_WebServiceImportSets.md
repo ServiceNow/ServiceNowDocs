@@ -3,11 +3,11 @@ title: Web service import sets
 description: Web service import sets complement direct web services and scripted SOAP web services providing a web service interface to import set tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_WebServiceImportSets.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Import sets, Imports, Workflow Data Fabric]
 ---
@@ -35,14 +35,14 @@ For example:
 
 `http://<instance name>.service-now.com/imp_notification.do?WSDL`.
 
--   **[Creating an import set web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreatingANewWebService.md)**  
+-   **[Creating an import set web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_CreatingANewWebService.md)**  
 Create a web service import set table to define how to stage and transform imported data.
--   **[Web service import set mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetMode.md)**  
+-   **[Web service import set mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/r_ImportSetMode.md)**  
 When a SOAP message inserts a record into an import set table, and there is no import set for that table in the **Loading** state, a new import set will be created with the **Mode** set to **Synchronous**.
--   **[Inserting multiple records using insertMultiple](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_InsertingMultipleRecords.md)**  
+-   **[Inserting multiple records using insertMultiple](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/r_InsertingMultipleRecords.md)**  
 You can insert multiple records in one SOAP request by using the insertMultiple operation.
--   **[Web service import sets security requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_SecurityRequirements.md)**  
+-   **[Web service import sets security requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_SecurityRequirements.md)**  
 Web Service Import Sets use the same security mechanisms as SOAP Web Services.
 
-**Parent Topic:**[Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
+**Parent Topic:**[Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
 

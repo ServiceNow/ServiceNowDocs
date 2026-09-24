@@ -3,13 +3,13 @@ title: Display similar closed cases in Agent Workspace for HR Case Management
 description: Help an HR agent resolve the current case by displaying similar closed cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-similar-closed-case.html
-release: australia
+release: brazil
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Machine learning solutions in Agent Workspace for HR Case Management, Using Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Machine learning solutions in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Display similar closed cases in Agent Workspace for HR Case Management
@@ -33,7 +33,7 @@ The Similar Closed HR Cases \(ml\_sn\_sn\_hr\_core\_global\_similar\_closed\_hr\
 -   The Predictive Intelligence \(com.glide.platform\_ml\) plugin is installed.
 -   The **glide.platform\_ml.auto\_training.enabled** system property is either set to true or absent.
 
-**Parent Topic:**[Machine learning solutions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-ml-solutions.md)
+**Parent Topic:**[Machine learning solutions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-ml-solutions.md)
 
 **Related topics**  
 

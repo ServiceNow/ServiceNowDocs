@@ -3,7 +3,7 @@ title: Minimizing table queries
 description: Learn how to minimize queries to maximize performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/table\_queries.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -75,5 +75,5 @@ var tableResults=lookup(“select blue, red, green from hues where value in (:li
 
 This method is better.
 
-For more information on what is supported in a query, see [The lookup function: commands and syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information on what is supported in a query, see [The lookup function: commands and syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-the-lookup-function-commands-and-syntax.md).
 

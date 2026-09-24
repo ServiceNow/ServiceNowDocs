@@ -3,11 +3,11 @@ title: Import Sets API - ServiceNow Fluent
 description: The Import Sets API defines transform maps \[sys\_transform\_map\] that specify how to transform and map data from the import set staging table to target tables.Create a transform map \[sys\_transform\_map\] to define the relationships between fields in an import set table and fields in an existing table.Define field mappings \[sys\_transform\_entry\] from the source fields of an import set to the fields of the target table.Define transform scripts \[sys\_transform\_script\] that run at different stages of the import process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/fluent-import-sets-api.html
-release: australia
+release: brazil
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 keywords: [servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api]
 breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
@@ -23,32 +23,32 @@ Every import operation to a production table requires at least one transform map
 
 To create an import set in ServiceNow Fluent code, you must define the required metadata in the following order:
 
-1.  Define the staging table \[sys\_db\_object\] using the Table API. The table must extend the Import Set Row \[sys\_import\_set\_row\] table. For more information, see [Table API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/table-api-now-ts.md).
+1.  Define the staging table \[sys\_db\_object\] using the Table API. The table must extend the Import Set Row \[sys\_import\_set\_row\] table. For more information, see [Table API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/table-api-now-ts.md).
 
     The staging table defines all columns that receive imported data.
 
-2.  Define the data source \[sys\_data\_source\] using the Record API. The data source must reference the staging table from its import\_set\_table\_name property. For more information, see [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
+2.  Define the data source \[sys\_data\_source\] using the Record API. The data source must reference the staging table from its import\_set\_table\_name property. For more information, see [Record API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/record-api-now-ts.md).
 
-    The data source defines the connection to external systems \(files, databases, APIs\) and how to load data into import staging tables. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_DataSources.md).
+    The data source defines the connection to external systems \(files, databases, APIs\) and how to load data into import staging tables. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_DataSources.md).
 
 3.  Define the transform map \[sys\_transform\_map\] using the Import Sets API. The transform map must reference the staging table from its sourceTable property.
 
 **Important:** The string `NULL` is a reserved word. It shouldn’t be used as a field value in import set transform maps or anywhere in the **First name** or **Last name** fields. The reserved word is `NULL` in all capital letters. A field with the value `Null` or `null`, for example, is acceptable. `NULL` should be used only to clear out a particular field.
 
-For general information about import sets, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-sets-landing-page.md).
+For general information about import sets, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/import-sets-landing-page.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-fluent.md)
 
 ## ImportSet object
 
 Create a transform map \[sys\_transform\_map\] to define the relationships between fields in an import set table and fields in an existing table.
 
-For general information about creating transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_CreateATransformMap.md).
+For general information about creating transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_CreateATransformMap.md).
 
 <table id="table_kms_pjc_xhc" class="parameters"><thead><tr><th>
 
@@ -72,7 +72,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -214,8 +214,8 @@ Script
 
 A script that transforms field values in the source table to the target table. This property supports a function from a JavaScript module, a reference to another file in the application that contains a script, or inline JavaScript. Expects a function of type `(source, target, map, log, isUpdate) => void`.Format:
 
--   For functions, use the name of a function, function expression, or default function exported from a JavaScript module and import it into the `.now.ts` file. For information about JavaScript modules, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md).
--   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).
+-   For functions, use the name of a function, function expression, or default function exported from a JavaScript module and import it into the `.now.ts` file. For information about JavaScript modules, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/javascript-modules-third-party-libraries.md).
+-   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).
 -   To provide an inline script, use string literals or template literals for multiple lines of code: `'Script' or `Script``.
 
 </td></tr><tr><td>
@@ -230,7 +230,7 @@ Object
 
 Key and value pairs of field mappings where the key is target field name and the value is the source field name or the fields object. Each target field name \(key\) must be unique within the fields object to avoid mapping conflicts.Format:
 
--   To map a target field name to a source field object, see [fields object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-import-sets-api.md).
+-   To map a target field name to a source field object, see [fields object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-import-sets-api.md).
 -   To map a target field name to a source field name, use the following format:
 
     ```javascript
@@ -251,7 +251,7 @@ Array
 
 </td><td>
 
-A list of transform scripts for additional processing. For more information, see [scripts array](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-import-sets-api.md).
+A list of transform scripts for additional processing. For more information, see [scripts array](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-import-sets-api.md).
 
 </td></tr></tbody>
 </table>```javascript
@@ -334,7 +334,7 @@ Define field mappings \[sys\_transform\_entry\] from the source fields of an imp
 
 Use the fields object within the ImportSet object. In the fields object, each key for the target field name must be unique to avoid mapping conflicts.
 
-For general information about creating field maps, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_CreatingAFieldMap.md).
+For general information about creating field maps, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_CreatingAFieldMap.md).
 
 <table id="table_i5c_fsc_xhc" class="parameters"><thead><tr><th>
 
@@ -388,8 +388,8 @@ Script
 
 A script that transforms field values in the source table to the target table. This property supports a function from a JavaScript module, a reference to another file in the application that contains a script, or inline JavaScript. Expects a function of type `(source) => any`.Format:
 
--   For functions, use the name of a function, function expression, or default function exported from a JavaScript module and import it into the `.now.ts` file. For information about JavaScript modules, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md).
--   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).
+-   For functions, use the name of a function, function expression, or default function exported from a JavaScript module and import it into the `.now.ts` file. For information about JavaScript modules, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/javascript-modules-third-party-libraries.md).
+-   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).
 -   To provide an inline script, use string literals or template literals for multiple lines of code: `'Script' or `Script``.
 
 </td></tr><tr><td>
@@ -414,7 +414,7 @@ String
 
 </td><td>
 
-The format for transformations when the target field is a Date or Date/Time field.**Note:** To learn more about allowable date formats, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FormatDateAndTimeFields.md).
+The format for transformations when the target field is a Date or Date/Time field.**Note:** To learn more about allowable date formats, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FormatDateAndTimeFields.md).
 
 Format: `'dd-MM-yyyy'`, `'yyyy-MM-dd'`, `'yyyy-dd-MM'`, `'MM-dd-yyyy HH:mm:ss z'`, `'yyyy-MM-dd HH:mm:ss'`, `'HH:mm:ss'`, `'MM-dd-yyyy HH:mm:ss'`, `'dd-MM-yyyy HH:mm:ss z'`, `'MM-dd-yyyy'`, or `'dd-MM-yyyy HH:mm:ss'`
 
@@ -428,7 +428,7 @@ String
 
 </td><td>
 
-The reference value field when the target field is a reference field. The transform map needs a way to match incoming source values to existing records in the reference field's source table. Because most imports don’t provide a 32-character sys\_id value, you must specify a column from the reference field's source table that contains values that match the incoming source values. For more information, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_CreatingAFieldMap.md).
+The reference value field when the target field is a reference field. The transform map needs a way to match incoming source values to existing records in the reference field's source table. Because most imports don’t provide a 32-character sys\_id value, you must specify a column from the reference field's source table that contains values that match the incoming source values. For more information, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_CreatingAFieldMap.md).
 
 </td></tr><tr><td>
 
@@ -440,7 +440,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether the field is used for record matching. Configuring a target field to coalesce causes the import set to treat the field as a unique key. For more information, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_CreatingAFieldMap.md).Default: false
+Flag that indicates whether the field is used for record matching. Configuring a target field to coalesce causes the import set to treat the field as a unique key. For more information, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_CreatingAFieldMap.md).Default: false
 
 </td></tr><tr><td>
 
@@ -514,7 +514,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -550,7 +550,7 @@ String
 
 </td><td>
 
-The stage of the import process in which to execute the script. For more information, see [Map with transformation event scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_MapWithTransformationEventScripts.md).Valid values: onBefore, onAfter, onReject, onStart, onForeignInsert, onComplete, onChoiceCreate
+The stage of the import process in which to execute the script. For more information, see [Map with transformation event scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/r_MapWithTransformationEventScripts.md).Valid values: onBefore, onAfter, onReject, onStart, onForeignInsert, onComplete, onChoiceCreate
 
 Default: onAfter
 
@@ -566,8 +566,8 @@ Script
 
 A script that modifies the transformation behavior at the stage specified with the when property. This property supports a function from a JavaScript module, a reference to another file in the application that contains a script, or inline JavaScript. Expects a function of type `(source, map, log, target) => void`.Format:
 
--   For functions, use the name of a function, function expression, or default function exported from a JavaScript module and import it into the `.now.ts` file. For information about JavaScript modules, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md).
--   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).
+-   For functions, use the name of a function, function expression, or default function exported from a JavaScript module and import it into the `.now.ts` file. For information about JavaScript modules, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/javascript-modules-third-party-libraries.md).
+-   To use text content from another file, refer to a file in the application using the following format: `Now.include('path/to/file')`. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/fluent-constructs.md).
 -   To provide an inline script, use string literals or template literals for multiple lines of code: `'Script' or `Script``.
 
 </td></tr></tbody>

@@ -3,11 +3,11 @@ title: Revoke a Hermes certificate
 description: Revoke a ServiceNow instance-signed certificate so that it can't be used in secure connections to the Hermes Messaging Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/revoke-certificate.html
-release: australia
+release: brazil
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,7 +37,7 @@ Role required: hermes\_admin or sn\_kmf.cryptographic\_manager
 
 The certificates are revoked and can no longer be used in secure connections to Hermes. You can view the revocation date and the reason it was revoked in the Certificates \[sys\_kmf\_certificate\] table.
 
-**Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
+**Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Generate release notes for a release
 description: Generate structured release notes for a release using AI-driven summarization, reducing manual effort and improving clarity for stakeholders. The release notes are generated from the release scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-dpr-generate-release-notes.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generate AI-powered release notes for a release, Digital Product Release AI release notes generator, AI release notes generator, Now Assist, Now Assist skill, Now Assist for ITSM]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -22,7 +22,7 @@ Generate structured release notes for a release using AI-driven summarization, r
 -   **Required applications and plugins:**
     -   Digital Product Release version 2.3 or later.
 
-        For more information, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-landing-page.md).
+        For more information, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-landing-page.md).
 
     -   ServiceNow Otto for ITSM plugin \(sn\_itsm\_gen\_ai\) version 12.0.0 or later.
 
@@ -66,7 +66,7 @@ The release notes are generated using the release scope data for the release:
 
 7.  To save the release notes, select **Save**.
 
-8.  If you [update the release scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-scope.md), you can regenerate the release notes by selecting **Regenerate**.
+8.  If you [update the release scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-work-release-scope.md), you can regenerate the release notes by selecting **Regenerate**.
 
     The existing release notes are replaced with the regenerated release notes, which include the latest release scope data.
 
@@ -86,5 +86,5 @@ The release notes are generated using the release scope data for the release:
 **Related topics**  
 
 
-[AI-powered release notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-ai-release-notes-generation.md)
+[AI-powered release notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-ai-release-notes-generation.md)
 

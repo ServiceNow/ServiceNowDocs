@@ -3,11 +3,11 @@ title: Manually configure a MID Server for Metric Intelligence
 description: To use Metric Intelligence, configure at least one MID Server with Metric Intelligence as a supported application, with the Metrics capability, and which runs the Metric Intelligence Metrics extension. Then, add that Metric Intelligence MID Server as a member to a MID Server distributed cluster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/configure-metrics-mid-server.html
-release: australia
+release: brazil
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---

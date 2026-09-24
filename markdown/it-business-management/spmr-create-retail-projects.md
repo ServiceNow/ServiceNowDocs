@@ -3,9 +3,9 @@ title: Create a retail project
 description: Set up a retail project from a template to plan and track store operations, including store openings, relocations, refurbishments, technology refreshes, and closures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/spmr-create-retail-projects.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SPM Retail]
 breadcrumb: [Use, Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]
@@ -53,5 +53,5 @@ A project is created based on the selected project template with tailored projec
 
 ## What to do next
 
-Enter the key dates of your work in Project Type list from the Details tab. For more details, see [Enter project type fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spmr-project-type-fields.md).
+Enter the key dates of your work in Project Type list from the Details tab. For more details, see [Enter project type fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spmr-project-type-fields.md).
 

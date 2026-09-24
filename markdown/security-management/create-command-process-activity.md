@@ -3,9 +3,9 @@ title: Create Command Process Flow Action
 description: The Create Command Process flow action create a Carbon Black command process to use in the flow .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-command-process-activity.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Carbon Black Integration - Get Running Processes Flow, Security Operations Integration- Get Running Processes capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -46,5 +46,5 @@ The output variables contain data that can be used in subsequent activities.
 |status\_code|Determines if the request was successful. If not, displays an HTTP error code and message.|
 |output|API variables|
 
-**Parent Topic:**[Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-cb-get-running-processes-workflow.md)
+**Parent Topic:**[Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/secops-integration-cb-get-running-processes-workflow.md)
 

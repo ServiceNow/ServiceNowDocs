@@ -3,11 +3,11 @@ title: Report a knowledge gap from an OT incident record
 description: Report a knowledge gap from an Operational Technology \(OT\) incident if you can't find relevant knowledge articles about the incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/report-knowledge-base-gap.html
-release: australia
+release: brazil
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -47,7 +47,7 @@ The knowledge gap is reported and a feedback task is created.
 
 You can view the feedback task under the Knowledge Gaps related list in the incident record.
 
-To assign feedback tasks to the correct user or user group, see [Assign feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/assign-feedback-tasks.md).
+To assign feedback tasks to the correct user or user group, see [Assign feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-knowledge-management/assign-feedback-tasks.md).
 
-**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
+**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
 

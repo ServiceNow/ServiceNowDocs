@@ -3,9 +3,9 @@ title: Managing procedure requests in Workspace
 description: As a patient service representative, you can use Workspace to manage and schedule procedure requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-using-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Pre-Visit Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Access the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-viewing-home-page.md).
+[Access the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-viewing-home-page.md).
 
 </td><td>
 
@@ -38,7 +38,7 @@ Use the home page in Workspace for procedure requests to quickly scan and access
 
 </td></tr><tr><td>
 
-[View a procedure request case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-view-cases.md).
+[View a procedure request case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-view-cases.md).
 
 </td><td>
 
@@ -46,7 +46,7 @@ View a procedure request case in Workspace to complete patient pre-visit activit
 
 </td></tr><tr><td>
 
-[View patient information for a procedure request case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-viewing-patient-info.md).
+[View patient information for a procedure request case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-viewing-patient-info.md).
 
 </td><td>
 
@@ -54,7 +54,7 @@ View the details of a patient in Workspace.
 
 </td></tr><tr><td>
 
-[Work on a procedure request case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-playbook.md).
+[Work on a procedure request case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-playbook.md).
 
 </td><td>
 
@@ -62,7 +62,7 @@ Use the playbook available with the Pre-Visit Management application to manage p
 
 </td></tr><tr><td>
 
-[Manage appointment bookings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-booking-appt.md).
+[Manage appointment bookings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-booking-appt.md).
 
 </td><td>
 

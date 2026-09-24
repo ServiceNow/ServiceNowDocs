@@ -3,9 +3,9 @@ title: Set up AI Enhanced Recommended Actions for Operational Technology Service
 description: Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\) so that you can contextualize external sources related to an Operational Technology \(OT\) incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/set-up-ai-enhanced-ra-otsm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Enhanced Recommended Actions for OTSM, Operational Technology]
 ---
@@ -16,15 +16,15 @@ Set up AI Enhanced Recommended Actions for Operational Technology Service Manage
 
 ## Before you begin
 
-Ensure you have Recommended Actions for OTSM installed and configured. For more information, see [Set up Recommended Actions for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/set-up-recommended-actions-for-otsm.md).
+Ensure you have Recommended Actions for OTSM installed and configured. For more information, see [Set up Recommended Actions for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/recommended-actions-for-otsm/set-up-recommended-actions-for-otsm.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-ext-cont-connector-mspo.md).
+1.  [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-ext-cont-connector-mspo.md).
 
-2.  [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-crawl-settings-spo-ext-cont-connector.md).
+2.  [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-crawl-settings-spo-ext-cont-connector.md).
 
 3.  Set up the search source.
 
@@ -34,7 +34,7 @@ Role required: admin
     4.  Select **Create and link**.
     5.  In the **Indexed source** field, select **SharePoint Online**.
 
-        For more information about the additional form fields, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-source-form-ais.md).
+        For more information about the additional form fields, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-source-form-ais.md).
 
     6.  Select **Submit**.
 4.  If needed, add or remove the OT incident record fields that are later used to produce search results.
@@ -51,7 +51,7 @@ Role required: admin
 
 ## What to do next
 
-After you set up AI Enhanced Recommended Actions for OTSM, you can use the feature in the Industrial Workspace. For more information see, [Using AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-ai-enhanced-ra-otsm.md).
+After you set up AI Enhanced Recommended Actions for OTSM, you can use the feature in the Industrial Workspace. For more information see, [Contextualize an external document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/use-ai-enhanced-ra-otsm.md).
 
-**Parent Topic:**[Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ai-enhanced-ra-otsm.md)
+**Parent Topic:**[Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/configure-ai-enhanced-ra-otsm.md)
 

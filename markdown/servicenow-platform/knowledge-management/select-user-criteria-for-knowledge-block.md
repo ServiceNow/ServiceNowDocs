@@ -3,11 +3,11 @@ title: Select user criteria for a knowledge block
 description: Control which users can read or not read knowledge block content within an article in a knowledge base by setting user criteria at the knowledge base and knowledge block level. As a knowledge contributor, you can apply user criteria at the knowledge block level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a knowledge block, Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Control which users can read or not read knowledge block content within an artic
 
 ## Before you begin
 
-[Activate knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-blocks.md)
+[Activate knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/activate-knowledge-blocks.md)
 
 Role required: knowledge\_admin or admin
 
@@ -37,7 +37,7 @@ Role required: knowledge\_admin or admin
 
     **Note:**
 
-    -   You can use existing or create new user criteria records. To create a new record, see [Create a user criteria record in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-user-criteria-record-in-knowledge-management.md).
+    -   You can use existing or create new user criteria records. To create a new record, see [Create a user criteria record in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-user-criteria-record-in-knowledge-management.md).
     -   If a user meets any **Can Contribute** criteria at the knowledge base level, they can read all knowledge block content, regardless of the **Can read** and **Cannot read** criteria set at the knowledge block level.
     -   If a user meets any **Cannot read** criteria at the knowledge block level, they cannot read the block content, regardless of the **Can read** criteria set at the knowledge block level.
     -   If a user has access to knowledge article and doesn't have access to one or more blocks within article then user can still read the content but without specify block content.
@@ -46,8 +46,8 @@ Role required: knowledge\_admin or admin
 
 ## What to do next
 
--   To finish and publish the block, see [Create a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-modify-knowledge-block.md).
--   To add the block to an article, as well as preview the article by impersonating different users, see [Add knowledge blocks to a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/add-knowledge-block-to-knowledge-article.md).
+-   To finish and publish the block, see [Create a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-modify-knowledge-block.md).
+-   To add the block to an article, as well as preview the article by impersonating different users, see [Add knowledge blocks to a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/add-knowledge-block-to-knowledge-article.md).
 
-**Parent Topic:**[Create a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-modify-knowledge-block.md)
+**Parent Topic:**[Create a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/create-modify-knowledge-block.md)
 

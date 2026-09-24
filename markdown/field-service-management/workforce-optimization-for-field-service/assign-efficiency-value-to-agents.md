@@ -3,11 +3,11 @@ title: Assign an Agent Efficiency value to agents
 description: Assign a Field Service Agent Efficiency criteria and efficiency value to agents to more accurately calculate work duration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/assign-efficiency-value-to-agents.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agent Efficiency, Set up workforce, Configure, Field Service Management]
 ---

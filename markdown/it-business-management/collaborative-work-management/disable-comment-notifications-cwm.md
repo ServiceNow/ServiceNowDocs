@@ -3,11 +3,11 @@ title: Disable comment notifications in Docs
 description: Turn off email notifications for comment activities in Docs to manage which comment events you're notified about.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/disable-comment-notifications-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [CWM, collaborative work management, docs, comments, notifications, disable, email, preferences]
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -50,5 +50,5 @@ You receive email notifications when a comment or reply is added to a doc that y
 
 You no longer receive email notifications for any comment activity on Docs. You can still view comments directly in the Docs interface and re-enable notifications at any time by toggling the settings on.
 
-**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
 

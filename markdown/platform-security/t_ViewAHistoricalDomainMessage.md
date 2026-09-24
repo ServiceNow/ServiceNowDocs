@@ -3,9 +3,9 @@ title: View a historical domain message
 description: View historical domain messages in the log file to troubleshoot domain separation issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ViewAHistoricalDomainMessage.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable logging and debug messages, Setup and administration, Domain separation for service providers, Access Management]
 ---

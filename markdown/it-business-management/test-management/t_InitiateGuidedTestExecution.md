@@ -3,11 +3,11 @@ title: Initiate guided test execution
 description: Create assessments for the assigned testers of each test case in a test plan by notifying them to start testing. The test manager can initiate guided test execution from the Test Plan form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_InitiateGuidedTestExecution.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Guided test execution, Setting up the manual testing process, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -18,9 +18,9 @@ Create assessments for the assigned testers of each test case in a test plan by 
 
 ## Before you begin
 
--   [Create a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATestPlan.md).
+-   [Create a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_CreateATestPlan.md).
 -   Add test cases to the test plan.
--   [Assign testers from the Test Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_AssignTestersFromTheTestPlanForm.md).
+-   [Assign testers from the Test Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_AssignTestersFromTheTestPlanForm.md).
 -   Role required: tm\_test\_manager or tm\_tester
 
 ## About this task
@@ -46,5 +46,5 @@ If you are using guided test execution, you can notify testers to start testing 
 
 Assessments for each tester are created and email is sent to each tester with the assessment and testing details. After the testers are notified through the email, the **Notify Tester** related link on the Test Plan form changes to **Cancel test execution**.
 
-**Parent Topic:**[Guided test execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_GuidedTestExecution.md)
+**Parent Topic:**[Guided test execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/c_GuidedTestExecution.md)
 

@@ -3,11 +3,11 @@ title: Perform a test data load for the air gap solution for Service Graph Conne
 description: After you configure the air gap solution for the Service Graph Connector for SolarWinds, test whether the SolarWinds endpoint is accessible from the high-secure server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-test-load.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring air gap connections, SolarWinds, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,11 +31,11 @@ Role required: admin
     -   If the test data load is successful, the log file contains the `Test Load status SUCCESS!` message.
     -   If the test data load fails, the log file contains the `Error occurred while processing hardware StatusCode 403` message.
 
-        If the test data load fails, verify the SolarWinds user credentials and ensure that the user has the required permissions to pull the data from SolarWinds. If the credentials need to be updated, you must run the `SgSolarWindsHighSecureSetup.ps1` PowerShell script again. See [Configure air gap solution for Service Graph Connector for SolarWinds in a high-secure server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-high-secure.md).
+        If the test data load fails, verify the SolarWinds user credentials and ensure that the user has the required permissions to pull the data from SolarWinds. If the credentials need to be updated, you must run the `SgSolarWindsHighSecureSetup.ps1` PowerShell script again. See [Configure air gap solution for Service Graph Connector for SolarWinds in a high-secure server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-high-secure.md).
 
 
 **Related topics**  
 
 
-[Perform a full data load for the air gap solution for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-data-load.md)
+[Perform a full data load for the air gap solution for Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-data-load.md)
 

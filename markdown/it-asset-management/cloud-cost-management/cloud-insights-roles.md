@@ -1,24 +1,29 @@
 ---
 title: Cloud Cost Management roles
-description: You assign Cloud Cost Management roles to user groups and to individual users based on user activities and responsibilities.
+description: Roles are installed with the activation of the Cloud Cost Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/cloud-insights-roles.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Cloud Cost Management, IT Asset Management, Asset Management]
+breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Cloud Cost Management roles
 
-You assign Cloud Cost Management roles to user groups and to individual users based on user activities and responsibilities.
+Roles are installed with the activation of the Cloud Cost Management application.
 
 ## Role relationships in Cloud Cost Management
 
 \[Omitted image "role-permissions-cloud-in.png"\] Alt text: Role relationships in Cloud Cost Management
+
+**Note:** Starting with Cloud Cost Management 10.1.0, the discovery\_admin role has been removed from the insights\_admin, spend\_admin, and cloud\_integrations\_admin roles. As a result, the following roles that are inherited through discovery\_admin are also no longer included:
+
+-   credential\_admin
+-   sn\_capi.cloud\_developer
 
 <table id="primary-roles"><thead><tr><th>
 
@@ -40,7 +45,7 @@ Insights Admin
 
 </td><td>
 
-The role is in the Cloud Cost Management Core plugin. You typically assign the role to the person who is financially responsible.-   Assign ownership of one or more service accounts and, optionally, the related CIs to users that have the insights\_owner role.
+The role is in the Cloud Cost Management Core plugin. You typically assign the role to the person who is financially responsible.-   View service accounts and all the related information.
 -   Define Business hours and Unassigned resources policies.
 -   Define and view Budget plans.
 -   View spend optimization reports.
@@ -56,7 +61,6 @@ The role is in the Cloud Cost Management Core plugin. You typically assign the r
 -   budget\_viewer
 -   spend\_owner
 -   spend\_user
--   \[itil\]
 
 </td></tr><tr><td>
 
@@ -71,7 +75,7 @@ The role is in the Cloud Cost Management Core plugin. The role spans only the Cl
  -   Define jobs and policies.
 -   View data for owned service accounts.
 
- For more information, see [Assign service accounts to an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/insights-owner-new-cloudin.md).
+ For more information, see [Assign service accounts to an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/insights-owner-new-cloudin.md).
 
 </td><td>
 
@@ -155,12 +159,12 @@ The role is in the Cloud Cost Management Core plugin.
  Access Spend dashboards and tables.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
+</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 
 **Related topics**  
 
 
-[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
+[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md)
 
-[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md)
+[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md)
 

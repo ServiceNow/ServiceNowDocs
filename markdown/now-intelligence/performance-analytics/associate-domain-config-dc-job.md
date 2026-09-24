@@ -3,11 +3,11 @@ title: Associate a domain configuration with a data collection job
 description: To collect Performance Analytics indicator scores from the domains specified in a domain configuration, associate that domain configuration with a collection job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/associate-domain-config-dc-job.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Domain configurations, Domain separation, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -24,7 +24,7 @@ The Performance Analytics - Domain Support plugin \(com.snc.pa.domain\_support\)
 
 ## About this task
 
-**Important:** Regardless of whether a domain configuration is used, the **Run as** user always determines the domain context of where the [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) runs.
+**Important:** Regardless of whether a domain configuration is used, the **Run as** user always determines the domain context of where the [data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) runs.
 
 ## Procedure
 
@@ -47,5 +47,5 @@ The Performance Analytics - Domain Support plugin \(com.snc.pa.domain\_support\)
     **Tip:** When using multiple domain configurations with a single job, ensure each domain configuration specifies a unique set of domains.
 
 
-**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
+**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
 

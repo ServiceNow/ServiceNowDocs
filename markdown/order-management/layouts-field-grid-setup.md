@@ -3,9 +3,9 @@ title: Layouts: Field grid setup
 description: A field grid collects multiple fields in a single layout, but unlike a set, it can reference other rows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layouts-field-grid-setup.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up layouts, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -65,7 +65,7 @@ The following values can be added to the value column of fieldgriddata elements:
 -   **fieldIndex**: name of field to use for header value. Optional. If included, the label for the fieldgriddata element should be blank.
 -   **width**: width of the fields. Optional. If included, examples of valid value are **auto**, **300** \(px are assumed here\), **300px**, **20vw**, and **calc\(100% - 100px\).**
 
-Field grids default to 100% width, but if even one width value is specified for a contained fieldgriddata component, the field grid’s width will change to **auto** so that a specified width can be applied.
+Field grids default to 100% width. If even one width value is specified for a contained fieldgriddata component, the field grid’s width changes to **auto** so that a specified width can be applied.
 
 [Example field grid dynamic headers and grid lines CSV file](https://drive.google.com/file/d/1MrYYBg8_tjHOa2QfhHWLmkReNbRDmkA-/view?usp=share_link)
 

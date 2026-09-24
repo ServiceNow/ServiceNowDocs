@@ -3,11 +3,11 @@ title: Managing portfolio financials in Strategic Planning Workspace
 description: View the financial breakdown of estimates, approved costs, benefits, and actuals and so on for portfolio financials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/using-portfolio-financials-spw.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -24,10 +24,10 @@ Using the portfolio financials, portfolio managers can:
 
 -   Track the financial performance and status of planning items.
 -   Arrive at an informed decision by analyzing the estimated cost and benefits of a planning item while planning and prioritizing for the next Portfolio cycle.
--   View the financials based on the expense type or cost type depending on the [budget attribute configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md).
+-   View the financials based on the expense type or cost type depending on the [budget attribute configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md).
 -   Avoid overspending on planning items by comparing the approved budget with the latest forecast and actuals.
 
-**Important:** New and existing customers need to configure the portfolio financials to view the financials of your planning items at portfolio level. For more information, see [Configure portfolio financials in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/config-portfolio-fin-spw.md).
+**Important:** New and existing customers need to configure the portfolio financials to view the financials of your planning items at portfolio level. For more information, see [Configure portfolio financials in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/config-portfolio-fin-spw.md).
 
 The portfolio financials view supports Demands, Epics, and Projects with Fiscal Calendar type configuration only.
 

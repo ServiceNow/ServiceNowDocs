@@ -3,11 +3,11 @@ title: Migrate the collaborate and Microsoft Teams import screens to new Collabo
 description: Map the collaborate and MS Teams import screens to use the new Collaboration services screens in Service Operations Workspace \(SOW\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/enable-new-screens-collab-v2.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable collaboration services for configurable workspaces, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---

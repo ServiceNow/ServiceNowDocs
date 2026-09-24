@@ -3,11 +3,11 @@ title: OCI cloud hardware type pattern-based discovery
 description: Discovery and Service Mapping Patterns finds OCI cloud hardware types \(called shapes in OCI\) in your Cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-hardware-type-pattern.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Oracle OCI, Cloud Hardware Type, shapes, Oracle discovery, Oracle patterns]
 breadcrumb: [OCI discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -25,7 +25,7 @@ Discovery and Service Mapping Patterns finds OCI cloud hardware types \(called s
 
 -   **Configure the Discovery schedule to support GovCloud**
 
-    Discovering OCI GovCloud accounts requires using a datacenter URL when setting up an OCI service account. For more information, see [Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-oci-service-accounts.md).
+    Discovering OCI GovCloud accounts requires using a datacenter URL when setting up an OCI service account. For more information, see [Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-oci-service-accounts.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -49,5 +49,5 @@ The Oracle OCI - Cloud Hardware Type \(LP\) pattern creates the following relati
 |---|------------|---|
 |Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\]|Hosted on::Hosts|OCI Datacenter \[cmdb\_ci\_oci\_datacenter\]|
 
-**Parent Topic:**[Oracle Cloud Infrastructure \(OCI\) discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-infrastructure-discovery.md)
+**Parent Topic:**[Oracle Cloud Infrastructure \(OCI\) discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-infrastructure-discovery.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Run certificate discovery via individual URL scans
+title: Run Certificate Discovery via individual URL scans
 description: To initiate certificate discovery through URL scans, you must manually include individual URLs and configure a new certificate Discovery schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-cert-inventory-mgmt-urls.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Run certificate discovery via individual URL scans
+# Run Certificate Discovery via individual URL scans
 
 To initiate certificate discovery through URL scans, you must manually include individual URLs and configure a new certificate Discovery schedule.
 
@@ -36,7 +36,7 @@ Only the certificates that are available on the server during URL scans can be d
 
 3.  Create a Discovery schedule with the following fields.
 
-    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
     1.  Select **Discovery**: **Certificates**.
 

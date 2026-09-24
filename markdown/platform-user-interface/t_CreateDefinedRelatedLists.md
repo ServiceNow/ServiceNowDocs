@@ -3,9 +3,9 @@ title: Create defined related lists
 description: You can add default related lists to the form for all users to see when viewing records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateDefinedRelatedLists.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -130,12 +130,12 @@ Type a script to run after a successful insert action. This field is only visibl
 </table>4.  Click **Submit**.
 
 
--   **[Add incidents by same caller related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ExampleIncidentsBySameCaller.md)**  
+-   **[Add incidents by same caller related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ExampleIncidentsBySameCaller.md)**  
 This example adds the existing relationship, Incidents by Same Caller, to incident forms.
--   **[Add transactions by user related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ExampleTransactionsByUser.md)**  
+-   **[Add transactions by user related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ExampleTransactionsByUser.md)**  
 This example adds a relationship, Last 20 transactions, to the user form.
 
-**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 

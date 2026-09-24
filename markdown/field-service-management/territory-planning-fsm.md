@@ -3,9 +3,9 @@ title: Field Service Territory Planning
 description: Field Service Territory Planning enables you to create, view, analyze, and manage territories for better scheduling of work orders and work order tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/territory-planning-fsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -17,6 +17,18 @@ Field Service Territory Planning enables you to create, view, analyze, and manag
 With intelligent filtering and matching based on predefined rules, Field Service Territory Planning ensures that the right agents or groups are assigned to tasks, taking into account geographical locations and business objectives.
 
 As a territory manager or planner, you can view territories and data points both within and outside boundaries, providing a comprehensive understanding of spatial distribution.
+
+## Example: Raleigh Territory Dispatch
+
+A dispatcher needs to assign work orders to the right technician based on geographic location without manually filtering across regions. Field Service Territory Planning applies predefined territory rules to match jobs to eligible technicians, ensuring consistent coverage and reducing scheduling errors.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|System|Evaluates territory rules|
+|2|System|Filters eligible technicians|
+|3|Dispatcher|Assigns task within territory|
+|4|Dispatcher|Dispatches technician to job site|
+|5|Technician|Completes work|
 
 ## Key benefits
 
@@ -46,7 +58,7 @@ As a territory manager or planner, you can view territories and data points both
 
 -   **Schedule optimization**
 
-    Schedule complex multi-territory assignments where an agent might be responsible for multiple territories over a longer batch processing period. Assign tasks to agents whether they’re primary or secondary members of a single or multiple territories.
+    Schedule complex multi-territory assignments where an agent might be responsible for multiple territories over a longer batch processing period. Assign tasks to agents whether they're primary or secondary members of a single or multiple territories.
 
 
 The following screenshot highlights data items and a contextual side panel. Selecting a co-located map marker displays detailed asset information, ensuring seamless territory management.
@@ -56,9 +68,9 @@ The following screenshot highlights data items and a contextual side panel. Sele
 **Related topics**  
 
 
-[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
+[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
 
-[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
+[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
 
-[Field Service Territory Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/territory-planning-dashboard.md)
+[Field Service Territory Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/territory-planning-dashboard.md)
 

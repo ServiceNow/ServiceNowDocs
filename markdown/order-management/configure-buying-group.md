@@ -3,9 +3,9 @@ title: Configuring Buying Group
 description: Learn how to configure Buying Group to organize multiple contacts within Sales CRM by account and product offering family, and link them to opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-buying-group.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Learn how to configure Buying Group to organize multiple contacts within Sales C
 
 ## Activate Buying Group
 
-As an admin, activate the plugin \(sn\_buying\_group\) to enable users to access Buying Group. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+As an admin, activate the plugin \(sn\_buying\_group\) to enable users to access Buying Group. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_r1w_lm2_g3c"><thead><tr><th>
 
@@ -60,16 +60,16 @@ sn\_buying\_groups
 </td></tr></tbody>
 </table>## What to do next
 
-[View buying group engagement metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-buying-group-engagement-metrics.md)
+[View buying group engagement metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-new-buying-group-engagement-metrics.md)
 
 View a buying group engagement metrics to track how individual members and the group as a whole interact across marketing and sales activities, providing a consolidated view of participation, engagement levels, and buying readiness throughout the buying group lifecycle.
 
 **Related topics**  
 
 
-[Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-buying-group.md)
+[Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-buying-group.md)
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-opportunity-mgmt.md)
 
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-lead-management.md)
 

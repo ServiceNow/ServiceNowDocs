@@ -3,13 +3,13 @@ title: Types of Visual Task Boards
 description: You can create guided Visual Task Boards, which are driven by data in your ServiceNow instance. You can also create freeform boards that display a variety of information, or flexible boards, which combine both types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/vtb-types.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Exploring Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Types of Visual Task Boards
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Freeform boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_FreeformBoardTasks.md)
+[Freeform boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/c_FreeformBoardTasks.md)
 
 </td><td>
 
@@ -36,7 +36,7 @@ Display all types of task records, including personal tasks. Members of freeform
 
 </td></tr><tr><td>
 
-[Flexible boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/data-driven-tasks.md)
+[Flexible boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/data-driven-tasks.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Display tasks that match a filter against a particular table. Members of flexibl
 
 </td></tr><tr><td>
 
-[Guided boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/data-driven-tasks.md)
+[Guided boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/data-driven-tasks.md)
 
 </td><td>
 
@@ -55,5 +55,5 @@ Similar to flexible boards except that guided board lanes correspond to field va
 
 All boards have the displayed elements. The color of a card represents the color you choose in the color palette for that board.
 
-**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
+**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
 

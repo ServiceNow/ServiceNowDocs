@@ -3,11 +3,11 @@ title: Skill-based task management
 description: Use skill-based task management to assign manufacturing tasks only to workers who hold the necessary skills and certifications. This method helps reduce operational risk, supports compliance efforts, and contributes to higher job satisfaction by matching tasks to worker capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/skill-based-task-management.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Industrial Standards, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -39,7 +39,7 @@ Add required skills to each standard. This step creates a clear set of qualifica
 
 ## Activate Skills Management plugin
 
-This capability depends on having the Skills Management plugin \[com.snc.skills\_management\] enabled. To learn more about it, see [Exploring Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/exploring-skills-management.md).
+This capability depends on having the Skills Management plugin \[com.snc.skills\_management\] enabled. To learn more about it, see [Exploring Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/exploring-skills-management.md).
 
-**Parent Topic:**[Using Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.md)
+**Parent Topic:**[Using Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.md)
 

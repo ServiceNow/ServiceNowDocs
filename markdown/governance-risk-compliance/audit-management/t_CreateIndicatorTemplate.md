@@ -3,13 +3,13 @@ title: Create a GRC indicator template
 description: Compliance or risk managers create indicator templates from which many indicators can be created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_CreateIndicatorTemplate.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Risk Monitoring &amp; Indicators, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Risk monitoring and indicators, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a GRC indicator template
@@ -85,7 +85,7 @@ Type
 
 </td><td>
 
-The method used to determine the type of indicator template. The choices are as follows:-   **Manual**: Manual indicators are used for data that cannot be retrieved from a ServiceNow instance because it comes from an external system, such as customer data from a third-party sales system.
+The method used to determine the type of indicator template. The choices are as follows:-   **Manual**: Manual indicators are used for data from external systems. Use this type when data cannot be retrieved from a ServiceNow instance, such as customer data from a third-party sales system.
 -   **Basic**: Basic indicators are automated indicators based on an indicator source. The indicator source specifies a table and a frequency at which the scores from this table are saved.
 -   **Script**: Scripted indicators use a custom script to collect the data.
 
@@ -265,7 +265,7 @@ Due date duration in days between the creation and due date of the indicator tas
 
 This field appears only when **Manual** is selected from the **Type** field.
 
-For more information, see [Performance enhancements for Indicator nightly job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/performance-enhancements-indicator-jobs.md).
+For more information, see [Performance enhancements for Indicator nightly job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/performance-enhancements-indicator-jobs.md).
 
 </td></tr></tbody>
 </table>4.  When you have completed these entries, you can also view information on the following related lists:
@@ -277,7 +277,7 @@ For more information, see [Performance enhancements for Indicator nightly job](h
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Manage GRC key risk and control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/continuous-monitoring.md)
+**Parent Topic:**[Manage GRC key risk and control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/continuous-monitoring.md)
 
-**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

@@ -3,9 +3,9 @@ title: Survey question data types
 description: You must choose a data type for each survey question. The data type determines the format of the question and the kind of data that is collected on survey questionnaires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_SurveyQuestionDataTypes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Survey designer, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,7 +33,7 @@ Any type of file supported by the platform can be attached to a question. One or
 
 The assessment administrator can see the attachments associated with an individual question as well as those associated with the survey.
 
-See [Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringAttachments.md) for more information.
+See [Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AdministeringAttachments.md) for more information.
 
 ## Boolean data type
 
@@ -172,9 +172,9 @@ On questionnaires, users can select a different order number for each option to 
 
 One order number cannot be selected twice. This question can be mandatory and it can also be dependent on a parent question, but not vice versa.
 
-**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDesigner.md)
 
-**Parent Topic:**[Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestion.md)
+**Parent Topic:**[Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyQuestion.md)
 
 **Related topics**  
 
@@ -203,5 +203,5 @@ One order number cannot be selected twice. This question can be mandatory and it
 
 [Change the order of survey questions]()
 
-[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestionTemplate.md)
+[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyQuestionTemplate.md)
 

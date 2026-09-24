@@ -3,13 +3,13 @@ title: Action utility
 description: Use the Action utility in a Virtual Agent topic to select the flow action properties that the node should create. The Action utility integrates Virtual Agent with the ServiceNow Workflow Studio product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-action.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Action utility
@@ -55,7 +55,7 @@ Spoke
 
 Name of the scoped application that contains Workflow Studio content that is dedicated to a particular application or record type.
 
- For a list of default spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spokes.md).
+ For a list of default spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/spokes.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Output mapping
 
 </td><td>
 
-The variables to be output by the selected action. The contents of this area change according to the **Action/subflow** you selected.
+The variables to be output by the selected action. The contents of this area change according to the action you selected.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -131,5 +131,5 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 \[Omitted image "flow-designer-action-properties.png"\] Alt text: Action utility properties. Different Input and Output properties appear depending on which Action or Subflow you select.
 
-**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
 

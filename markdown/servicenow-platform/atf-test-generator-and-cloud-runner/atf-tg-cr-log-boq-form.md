@@ -3,11 +3,11 @@ title: Log entries in the BOQ form
 description: Debug errors or track any critical transactions during the execution of the test suites, setting up the Cloud Runner or generating the tests by viewing the log entries in the BOQ form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-log-boq-form.html
-release: australia
+release: brazil
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ATF Test Generator and Cloud Runner reference, ATF Test Generator and Cloud Runner, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,5 +34,5 @@ The following are some of the examples for log entries in the BOQ form for test 
 -   If you have deleted an API key before the job is sent to BOS/BOQ\[Omitted image "atf-app-api-key-deleted.png"\] Alt text: Image showing API key deleted case
 -   If the BOS is unable to login to an instance due to some client side script, API key being deleted after request has been sent to BOS/BOQ, etc.\[Omitted image "atf-app-unable-login.png"\] Alt text: Image showing unable to login case
 
-**Parent Topic:**[ATF Test Generator and Cloud Runner reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-ref.md)
+**Parent Topic:**[ATF Test Generator and Cloud Runner reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-ref.md)
 

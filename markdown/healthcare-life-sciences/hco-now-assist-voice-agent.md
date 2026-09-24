@@ -3,11 +3,11 @@ title: Care Team Operations Case Creation AI voice agent
 description: Use the Care Team Operations Case Creation AI voice agent to create support request cases through conversational voice calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-voice-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Agentic AI in ServiceNow Otto for Care Team Operations, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Using Agentic AI in ServiceNow Otto for Care Team Operations, ServiceNow Otto for Care Team Operations, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Care Team Operations Case Creation AI voice agent
@@ -31,9 +31,9 @@ The following Care Team Operations plugins are supported:
 -   Care Team Operations for Facilities
 -   Care Team Operations for Healthcare IT
 
-To integrate this agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
+To integrate this agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
 
-For more information on setting up AI voice agents, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
+For more information on setting up AI voice agents, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
 
 ## Procedure
 
@@ -43,7 +43,7 @@ For more information on setting up AI voice agents, see [Deploy AI voice agents]
 
     **Note:**
 
-    These trigger phrases can be configured to your use case. For information on updating these, see [Configure Care Team Operations Case Creation AI voice agent triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-cto-voice-triggers.md).
+    These trigger phrases can be configured to your use case. For information on updating these, see [Configure Care Team Operations Case Creation AI voice agent triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-now-assist-cto-voice-triggers.md).
 
 3.  Enter your PIN when the agent requests it.
 

@@ -3,9 +3,9 @@ title: Associate consumer criteria to a remote record producer
 description: In the provider instance, associate the appropriate consumer criteria to the remote record producer created for a remote catalog item. The consumer criteria determines which consumers are entitled to the catalog item. Service Exchange automatically generates the entitlement records that are replicated to eligible consumer instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/associate-criteria-remote-catalog.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ In the provider instance, associate the appropriate consumer criteria to the rem
 
 ## Before you begin
 
-By default remote record producers are available to all consumers. If you have specific criteria for certain users, define the consumer criteria for Service Exchange users. For more information, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-entitlements.md).
+By default remote record producers are available to all consumers. If you have specific criteria for certain users, define the consumer criteria for Service Exchange users. For more information, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-entitlements.md).
 
 Role required: sn\_sb.admin or admin
 
@@ -41,5 +41,5 @@ Role required: sn\_sb.admin or admin
 
 ## What to do next
 
-[Activate the entitlements for the remote record producer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-entitlements-sb-consumer.md)
+[Activate the entitlements for the remote record producer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/activate-entitlements-sb-consumer.md)
 

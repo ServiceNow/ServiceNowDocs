@@ -3,12 +3,12 @@ title: Create a Change approval policy using decision builder
 description: Create a change approval policy using the Change approval policy decision builder to define the approvals that should be generated for your change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-approval-policy-decision-builder.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Creating change approval policies, Use, Change Management, IT Service Management]
 ---
 
@@ -19,6 +19,10 @@ Create a change approval policy using the Change approval policy decision builde
 ## Before you begin
 
 The Decision Builder \[sn\_decision\_design\] plugin must be installed.
+
+A change approval policy evaluates a set of policy inputs against the conditions defined on its decisions. A policy can contain multiple decisions, enabling a single policy to handle every approval required for a change type. For each matching decision, the associated approval definition generates the required approvals.
+
+A policy input is a variable source, such as a change field or a referenced record value, that the condition columns evaluate. When you add an input, you define its data type, which controls the operators and values available in the condition columns. For example, an input of type **Reference** lets a condition evaluate a referenced record or a field on the reference table. For more information on full model of inputs, decisions, and approval definitions, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-approval-policy.md).
 
 Role required: admin or change\_manager
 
@@ -32,7 +36,7 @@ Role required: admin or change\_manager
 
 4.  In the **Execution** field, select an option to determine the approach to implement your decision.
 
-<table id="choicetable_dsq_35w_f5b"><tbody><tr><td id="d119889e109">
+<table id="choicetable_dsq_35w_f5b"><tbody><tr><td id="d120595e121">
 
 **First decision that matches**
 
@@ -40,7 +44,7 @@ Role required: admin or change\_manager
 
 Uses the first matching decision in ascending order of the value defined in the **Order** column of the **Decisions** list. The associated approval definition is applied.
 
-</td></tr><tr><td id="d119889e127">
+</td></tr><tr><td id="d120595e139">
 
 **Run all decisions that match**
 
@@ -176,12 +180,17 @@ Operator used to evaluate a user-specified value. A default operator is required
 
 12. Select the result column, and then select a desired Change approval definition from the list.
 
-13. In the form header, click **Save**.
+13. In the form header, select **Save**.
 
 
 ## Result
 
 A change approval policy is created and is evaluated on a change request that matches the defined condition.
 
-**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-approval-policies-cf.md)
+**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/using-change-approval-policies-cf.md)
+
+**Related topics**  
+
+
+[Create change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-policy.md)
 

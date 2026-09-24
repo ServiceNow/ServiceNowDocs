@@ -3,9 +3,9 @@ title: Invoice states on Business Portal
 description: Invoices move through different states during its life cycle after an accounts payable specialist processes the invoice.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/invoice-states.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Portal reference, Reference, Sales Customer Relationship Management]
 ---
@@ -25,5 +25,5 @@ Invoices move through different states during its life cycle after an accounts p
 |Paid|The customer has submitted payment in full for the invoice.|
 |Partially paid|The customer has submitted partial payment, and a balance remains outstanding.|
 
-**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-business-portal-reference.md)
+**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-business-portal-reference.md)
 

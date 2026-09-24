@@ -3,11 +3,11 @@ title: Install DevOps Config
 description: Install the DevOps Config application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/install-devops-config.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -37,10 +37,10 @@ Role required: admin
     Configuration Data Management and Policy as Code Engine platform capabilities are also installed.
 
 
--   **[Install DevOps Config Policy content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-install-policy-pack.md)**  
+-   **[Install DevOps Config Policy content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/devops-config-install-policy-pack.md)**  
 Install DevOps Config Policy content pack for a default set of DevOps Config policies that you can use as-is, or customize for your needs.
--   **[Install DevOps Config Exporter content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-install-launch-pack.md)**  
+-   **[Install DevOps Config Exporter content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/devops-config-install-launch-pack.md)**  
 Install DevOps Config Exporter content pack for a default set of DevOps Config exporters that you can use as-is, or customize for your needs.
 
-**Parent Topic:**[Configuring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/setting-up-devops-config-validation.md)
+**Parent Topic:**[Configuring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/setting-up-devops-config-validation.md)
 

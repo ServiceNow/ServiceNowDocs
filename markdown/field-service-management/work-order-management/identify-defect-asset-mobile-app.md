@@ -3,11 +3,11 @@ title: Analyze all work orders for a selected asset
 description: Scan an asset to view its work history and upcoming work orders. You can also create a work order for an asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/identify-defect-asset-mobile-app.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Do one of the following.
 
-<table id="choicetable_xjd_bdv_khb"><thead><tr><th align="left" id="d117954e99">
+<table id="choicetable_xjd_bdv_khb"><thead><tr><th align="left" id="d121151e99">
 
 To
 
-</th><th align="left" id="d117954e102">
+</th><th align="left" id="d121151e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d117954e108">
+</th></tr></thead><tbody><tr><td id="d121151e108">
 
 **View all work orders related to this asset**
 
@@ -52,7 +52,7 @@ Do this
     -   To view all upcoming work orders, click **Upcoming Work Orders**.
 
 
-</td></tr><tr><td id="d117954e143">
+</td></tr><tr><td id="d121151e143">
 
 **Create a work order for this asset**
 
@@ -64,7 +64,7 @@ Do the following:
 2.  Tap **Short description**.
 3.  Enter a short description for the work order and click **Done**.
 4.  Click **Submit**.
- The work order gets qualified automatically if it requires qualification; if not, the work order state changes to **Ready to dispatch**. For more information, see [Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_QualifyWorkOrders.md).
+ The work order gets qualified automatically if it requires qualification; if not, the work order state changes to **Ready to dispatch**. For more information, see [Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/c_QualifyWorkOrders.md).
 
 </td></tr></tbody>
 </table>

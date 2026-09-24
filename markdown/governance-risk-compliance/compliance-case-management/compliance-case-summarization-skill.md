@@ -3,11 +3,11 @@ title: GRC case summarization skill for compliance cases
 description: The GRC case summarization skill uses a large language model \(LLM\) to generate a structured AI summary of a compliance case record. The summary is generated on demand from case data and can be saved to the record for future reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/compliance-case-summarization-skill.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [AI in Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -43,7 +43,7 @@ An administrator must set a default LLM provider before the skill can be used. T
 -   AWS Claude
 -   Google Gemini
 
-To set a default provider for the GRC case summarization skill, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
+To set a default provider for the GRC case summarization skill, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-model-providers.md).
 
 ## Components of a compliance case summary
 
@@ -121,17 +121,17 @@ AI-powered analysis of the case timeline and overall investigation effort.-   **
 -   **Investigation effort level**- Effort assessment ranked as low, medium, or high, based on case complexity, activity log, and timelines.
 
 </td></tr></tbody>
-</table>-   **[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/activate-case-summarization-cocm.md)**  
+</table>-   **[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/activate-case-summarization-cocm.md)**  
 Activate the **GRC case summarization** skill from the AI Admin Hub to generate AI-powered summaries of compliance case records.
--   **[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)**  
+-   **[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)**  
 Use the GRC case summarization skill to generate an AI summary of a compliance case. The summary provides a consolidated view of a compliance case record.
 
-**Parent Topic:**[AI in Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/ai-compliance-case-mgmt.md)
+**Parent Topic:**[AI in Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/ai-compliance-case-mgmt.md)
 
 **Related topics**  
 
 
-[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/activate-grc-case-summarization-skill.md)
+[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/activate-grc-case-summarization-skill.md)
 
-[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)
+[Summarize a compliance case using GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/summarize-compliance-case.md)
 

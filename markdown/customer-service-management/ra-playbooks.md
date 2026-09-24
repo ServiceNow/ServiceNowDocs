@@ -3,9 +3,9 @@ title: Playbooks in Recommended Actions
 description: Playbooks are interactive, step-by-step guided workflows that help agents make decisions and resolve issues faster. Configure playbooks as recommended actions to deliver contextual guidance directly in the Recommended Actions Contextual Side Panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-playbooks.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Playbooks in Recommended Actions, Recommended Actions, Playbooks action type, Create playbooks action type in Recommended Actions]
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement I
 
 Playbooks are interactive, step-by-step guided workflows that help agents make decisions and resolve issues faster. Configure playbooks as recommended actions to deliver contextual guidance directly in the Recommended Actions Contextual Side Panel.
 
-For more information on playbooks, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
+For more information on playbooks, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-up-csm-playbooks.md).
 
 ## Key concepts
 
@@ -44,4 +44,9 @@ As an admin, you can perform the following on the playbooks in Recommended Actio
 -   Execute playbooks directly from the Recommended Actions panel without switching between the tabs.
 -   Monitor playbook completion and synchronize state across team members.
 -   Review execution history for audit and training purposes.
+
+**Related topics**  
+
+
+[Configure a playbook as a Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-configure-playbook-action.md)
 

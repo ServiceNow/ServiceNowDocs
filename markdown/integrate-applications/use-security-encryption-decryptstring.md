@@ -3,9 +3,9 @@ title: Use the DecryptString component
 description: Decrypt an encrypted string by providing the encryption key using the Decrypt String component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-security-encryption-decryptstring.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Encryption components, Security, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Decrypt String component. For more information about these properties, see [Properties of the Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-security-encryption-components.md).
+You can configure the properties for the Decrypt String component. For more information about these properties, see [Properties of the Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/properties-security-encryption-components.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ You can configure the properties for the Decrypt String component. For more info
 
 2.  Drag the Decrypt String component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Decrypt String component to the corresponding ports of the other components as described in the following table.
 
@@ -108,5 +108,5 @@ No
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/encryption-components.md)
+**Parent Topic:**[Encryption components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/encryption-components.md)
 

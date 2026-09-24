@@ -3,13 +3,13 @@ title: Accurately reporting your software true-up cost
 description: Accurately report your software true-up costs to avoid compliance issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/accurate-trueup-cost.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software reconciliation for compliance, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software reconciliation for compliance, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Accurately reporting your software true-up cost
@@ -20,7 +20,7 @@ Specify the license cost or the license plus maintenance cost in the software mo
 
 **Note:** For the Employee license metric in the Oracle publisher pack, the true-up cost is shown for a subscription period of one year.
 
-If you use a license metric to create a software entitlement for a software model, an override license cost record is created if one already doesn't exist for the same license metric. The license cost record is added in the Override License Cost related list. The license cost and license plus maintenance cost is set to zero. If a maintenance license exists, you can override the license cost or the license plus maintenance cost. For details, see [Create or update an override license cost record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-edit-override-license-cost.md).
+If you use a license metric to create a software entitlement for a software model, an override license cost record is created if one already doesn't exist for the same license metric. The license cost record is added in the Override License Cost related list. The license cost and license plus maintenance cost is set to zero. If a maintenance license exists, you can override the license cost or the license plus maintenance cost. For details, see [Create or update an override license cost record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-edit-override-license-cost.md).
 
-**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)
+**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)
 

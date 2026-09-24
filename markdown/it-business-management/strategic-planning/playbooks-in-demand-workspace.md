@@ -3,11 +3,11 @@ title: Playbooks in Next Experience for Demand Management
 description: Playbooks in Next Experience for Demand Management provide a guided, structured approach to managing a demand from initiation to completion. Playbooks focus specifically on helping demand teams follow the standard demand life cycle, verifying every demand progresses consistently and no critical steps are missed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/playbooks-in-demand-workspace.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Playbooks in Next Experience for Demand Management provide a guided, structured 
 
 ## Purpose of Playbooks in Demand Management
 
-Playbooks provide a structured way to manage work by guiding teams through predefined steps. They show what to do, when to do it, and where to find the tools or information required to complete each task. You can apply a playbook to processes such as managing a demand, resolving an issue, launching a product, onboarding new employees, or defining key steps of a process. For more information on playbooks and how to create them, see [Workflow studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md).
+Playbooks provide a structured way to manage work by guiding teams through predefined steps. They show what to do, when to do it, and where to find the tools or information required to complete each task. You can apply a playbook to processes such as managing a demand, resolving an issue, launching a product, onboarding new employees, or defining key steps of a process. For more information on playbooks and how to create them, see [Workflow studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md).
 
 In Next Experience for Demand Management, playbooks help demand managers and reviewers in the following ways:
 
@@ -67,7 +67,7 @@ Next Experience for Demand Management includes two predefined playbooks availabl
 
 -   Demand default playbook - The default demand playbook is a stage-gate playbook in which each stage must be finished before moving to the next one. Stages are visible only when all activities in the previous stage are completed or skipped. After completing a stage, demand managers can still return to previous stages.
 
-    You can create a demand playbook or customize the default demand playbook. For information about creating one, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/setting-up-process-automation-designer.md).
+    You can create a demand playbook or customize the default demand playbook. For information about creating one, see Create and configure playbooks.
 
 -   AI playbook - This playbook has an additional AI checkpoint stage where you can associate new or existing AI systems to your demand. The AI Control Tower plugin must be installed. The investment type of the demand must be set to artificial intelligence.
 
@@ -87,17 +87,13 @@ Next Experience for Demand Management includes two predefined playbooks availabl
 
 **Note:**
 
--   You can activate a predefined playbook by defining an appropriate trigger condition. For more information, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/activate-process-automation-designer.md) and [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-triggers.md).
--   You can enable multiple playbooks at a time. Define trigger conditions so that each demand maps to only one playbook type. For more information, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/setting-up-process-automation-designer.md).
+-   You can activate a predefined playbook by defining an appropriate trigger condition. For more information, see  and .
+-   You can enable multiple playbooks at a time. Define trigger conditions so that each demand maps to only one playbook type. For more information, see Create and configure playbooks.
 
 **Related topics**  
 
 
-[Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
+[bundle-crworkflow.workflow-studio-playbooks-landing]
 
-[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/building-a-process.md)
-
-[Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-experience-admins.md)
-
-[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
 

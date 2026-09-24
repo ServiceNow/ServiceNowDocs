@@ -3,11 +3,11 @@ title: Upgrade Monitor schedule states
 description: When an upgrade is scheduled, the Upgrade Monitor displays information about the next scheduled upgrade. It displays the date and time when the next scheduled upgrade will start. If there is no upgrade scheduled, the Upgrade Monitor displays Status: No upgrade detected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-monitor-states.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrade Monitor module, Exploring Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -36,7 +36,7 @@ If one or both of the triggers for upgrading the system \('Check distribution fo
 
 **Note:** If your instance is self-hosted \(not hosted by ServiceNow\) this message may not necessarily indicate a problem. If you have customized or disabled the upgrade job and want to keep that customization or disabled state, do not select the button to fix the upgrade issue.
 
-\[Omitted image "uc-monitor-issue.png"\] Alt text: Image showing the error message "Detected an issue with one or more upgrade jobs. Your next upgrade might not run. Select here to fix the upgrade jobs."
+\[Omitted image "uc-monitor-issue.png"\] Alt text: Image showing the error message "Detected an issue with one or more upgrade jobs. Your next upgrade might not run. Click here to fix the upgrade jobs."
 
 To resolve the issues with the upgrade jobs, select the link in the message. This action reverts both upgrade triggers \('Check distribution for possible upgrade' and 'Check database for possible upgrade'\) to their base versions.
 

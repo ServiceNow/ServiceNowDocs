@@ -3,13 +3,13 @@ title: Internet of Things \(IoT\) extension classes
 description: The CMDB CI Class Models app adds or updates classes for the Internet of Things \(IoT\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-iot.html
-release: australia
+release: brazil
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Internet of Things \(IoT\) extension classes
@@ -32,7 +32,7 @@ IoT is a system of interrelated computing devices, mechanical and digital machin
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models app adds or updates. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 CMDB CI Class Models: Release 1.6.0 adds the following classes for IoT.
 
@@ -384,7 +384,7 @@ Manufacturing Device\[cmdb\_ci\_manufacturing\]
 
 </td><td>
 
-A logic controller that is network connected which is used in manufacturing. For example, devices made by Siemens and Allen Bradley.
+A network-connected logic controller that is used in manufacturing. For example, devices made by Siemens and Allen Bradley.
 
 </td></tr><tr><td>
 
@@ -396,7 +396,7 @@ Manufacturing Device\[cmdb\_ci\_manufacturing\]
 
 </td><td>
 
-An HMI that is network connected which is used in manufacturing. For example, devices made by Siemens and Allen Bradley.
+A network-connected HMI that is used in manufacturing. For example, devices made by Siemens and Allen Bradley.
 
 </td></tr><tr><td>
 
@@ -408,7 +408,7 @@ Multimedia Device\[cmdb\_ci\_multimedia\]
 
 </td><td>
 
-A device that is network connected which is used to play games or stream media. For example, an Xbox or Playstation.
+A network-connected device that is used to play games or stream media. For example, an Xbox or Playstation.
 
 </td></tr><tr><td>
 
@@ -420,7 +420,7 @@ Multimedia Device\[cmdb\_ci\_multimedia\]
 
 </td><td>
 
-A device that is network connected which is used to play digital media content. For example, Amazon Fire TV.
+A network-connected device that is used to play digital media content. For example, Amazon Fire TV.
 
 </td></tr><tr><td>
 
@@ -432,7 +432,7 @@ Multimedia Device\[cmdb\_ci\_multimedia\]
 
 </td><td>
 
-A device that is network connected that controls the display of media on a monitor. For example, a Crestron Media Controller.
+A network-connected device that controls the display of media on a monitor. For example, a Crestron Media Controller.
 
 </td></tr><tr><td>
 
@@ -444,11 +444,11 @@ Payment Device\[cmdb\_ci\_payment\]
 
 </td><td>
 
-A device that is network connected which is used in the purchase of goods or services. For example, a credit card reader.
+A network-connected device that is used in the purchase of goods or services. For example, a credit card reader.
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

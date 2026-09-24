@@ -3,9 +3,9 @@ title: Configure the customer order task policy using Decision Tables
 description: Define conditions for automatic generation of order header tasks and top order line item tasks by adding rows to the Customer Order Task Policy in Decision Tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-order-task-policy.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -62,12 +62,12 @@ The policy row is saved. When an order matches the configured conditions at the 
 
 To control whether open order header tasks block order state transitions, set **sn\_ind\_tmt\_orm.block\_order\_appro\_complet\_until\_tasks\_complete** system in **All** &gt; **System Properties**.
 
-**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
 **Related topics**  
 
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 
-[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-order-management.md)
 

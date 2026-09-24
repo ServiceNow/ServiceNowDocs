@@ -1,24 +1,26 @@
 ---
 title: Assign a project schedule
-description: Without an assigned schedule, a project calculates a day as a full 24 work hours. To schedule tasks by a more realistic work day, assign a schedule to the project. If the schedules provided in the base system do not suit your needs, define a new one.
+description: Assign a schedule to a project so that task durations and dates reflect real working days and hours.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_UseAProjectSchedule.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-15"
 reading_time_minutes: 4
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Assign a project schedule
 
-Without an assigned schedule, a project calculates a day as a full 24 work hours. To schedule tasks by a more realistic work day, assign a schedule to the project. If the schedules provided in the base system do not suit your needs, define a new one.
+Assign a schedule to a project so that task durations and dates reflect real working days and hours.
 
 ## Before you begin
 
 Role required: it\_project\_manager
+
+A project uses a schedule to determine which days and hours count as working time. Without an assigned schedule, a project treats every day as a full 24 hours, which makes task durations and the finish date unrealistic. Assign a schedule to base the project on real working time. If the schedules in the base system don't fit your needs, define a new one.
 
 ## Procedure
 
@@ -29,7 +31,7 @@ Role required: it\_project\_manager
 3.  Select a schedule in the **Schedule** field and select **Save**.
 
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -51,6 +53,10 @@ Role required: it\_project\_manager
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

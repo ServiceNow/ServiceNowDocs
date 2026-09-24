@@ -3,11 +3,11 @@ title: Installed with DEX
 description: Several types of components are installed with activation of the DEX application \[sn\_dex\] plugin, including user roles and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [dex components, dex roles, dex administrator role, dex engineer role, dex user role, dex service desk agent, dex application table, metric rules table, alert metadata table, alert impacted users table, alert locations table, action app config table, ci device configuration table]
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
@@ -157,8 +157,8 @@ CI Device Configuration\[dex\_ci\_device\_config\]
 
 </td><td>
 
-Table that stores the device configuration data including the logged-in user information.For information on the related policies and check definitions, see [DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md).
+Table that stores the device configuration data including the logged-in user information.For information on the related policies and check definitions, see [DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
+</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

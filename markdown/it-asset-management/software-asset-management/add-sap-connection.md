@@ -3,12 +3,12 @@ title: Establish an SAP connection using basic authentication
 description: After you have deployed the Advanced Business Application Programming \(ABAP\) program in your SAP system, create a connection profile to establish a connection between your SAP system and your ServiceNow instance using basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/add-sap-connection.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -18,7 +18,7 @@ After you have deployed the Advanced Business Application Programming \(ABAP\) p
 
 ## Before you begin
 
-Before establishing a connection between SAP and your ServiceNow instance, check if your SAP system network is accessible to external applications like ServiceNow. If external connections are blocked, you can install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md).
+Before establishing a connection between SAP and your ServiceNow instance, check if your SAP system network is accessible to external applications like ServiceNow. If external connections are blocked, you can install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-installation.md).
 
 If you already have a MID Server installed in the network and connected to your ServiceNow instance, this SAP connection automatically uses it.
 
@@ -52,7 +52,7 @@ Default price list
 
 </td><td>
 
-Default price list that should be considered for reconciliation.
+Default price list that should be considered for reconciliation. **Note:** If connecting to SAP S/4HANA Cloud Private Edition, select **SAP S/4HANA Private Cloud**. For more information, see [Price Lists for Private Cloud](https://support.sap.com/en/my-support/systems-installations/glac/private-cloud-metering/price-lists-pce.html).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Connection type
 
 Values include:-   Basic Auth
 -   OAuth 2.0
-**Important:** The Basic Auth authentication method is planned for deprecation by SAP. You should use the OAuth 2.0 authentication for a secure and compliant integration. For more information, see [Establish an SAP connection using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-sap-connection-oauth.md).
+**Important:** The Basic Auth authentication method is planned for deprecation by SAP. You should use the OAuth 2.0 authentication for a secure and compliant integration. For more information, see [Establish an SAP connection using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/add-sap-connection-oauth.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ WSDL
 
 </td><td>
 
-Web Service Description Language \(WSDL\) URL from the SOA manager that includes an IP address that is used to connect to the SAP system.This is same value that you generated in the [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-wsdl-sap-service.md) procedure.
+Web Service Description Language \(WSDL\) URL from the SOA manager that includes an IP address that is used to connect to the SAP system.This is the same value that you generated in the [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-wsdl-sap-service.md) procedure.
 
 **Note:** Don’t change the SAP WSDL name. The WSDL service definition name must be /NOW/SAMP and the service binding name must be NOW\_SAMP. The only WSDL name that can be changed is the WSDL generation name.
 
@@ -267,10 +267,12 @@ Controls the data pull from SAP for user transaction activity data.
 
 You can start creating software models and entitlements.
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
+
+[SAP publisher pack integration architecture]()
 
 [Tables installed with the SAP publisher pack]()
 
@@ -278,9 +280,9 @@ You can start creating software models and entitlements.
 
 [Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP]()
-
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

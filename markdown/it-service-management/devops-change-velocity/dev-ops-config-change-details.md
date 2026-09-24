@@ -3,11 +3,11 @@ title: Configuring DevOps change request details within the pipeline
 description: Configure how the closure information, change state, and change request fields are updated from within a pipeline in the change step of the pipeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-config-change-details.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -61,7 +61,7 @@ If you’re upgrading, you must re-configure your orchestration tool before sett
 
 Set the **setCloseCode:** parameter to `true/false` based on the desired behavior. Default is true.
 
-If set to true, the **Close code** and **Close notes** fields are updated as specified in the change step attributes and the change request is moved to post-implement when a stage is completed. You can override this behavior by enabling the **Auto close code** feature. The setCloseCode feature will get disabled when autoCloseChange is enabled and set to true or false. For more information, see [Auto Close Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-config-change-details.md). Use the autoCloseChange feature for more accurate change request details.
+If set to true, the **Close code** and **Close notes** fields are updated as specified in the change step attributes and the change request is moved to post-implement when a stage is completed. You can override this behavior by enabling the **Auto close code** feature. The setCloseCode feature will get disabled when autoCloseChange is enabled and set to true or false. For more information, see [Auto Close Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-config-change-details.md). Use the autoCloseChange feature for more accurate change request details.
 
 If set to false, when the job or pipeline has completed, the change request isn’t updated and remains in the Implement state.
 
@@ -73,7 +73,7 @@ If set to false, when the job or pipeline has completed, the change request isn�
 Set change request field values within the pipeline for the change request template specified.
 
 -   Use the **attributes:** parameter to set field values.
--   Use the [DevOps - POST /devops/orchestration/changeControl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/devops-api.md) endpoint of the DevOps API.
+-   Use the [DevOps - POST /devops/orchestration/changeControl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/devops-api.md) endpoint of the DevOps API.
 
 **Note:**
 
@@ -113,7 +113,7 @@ Supported fields
 All remaining fields in the Change Request \[change\_request\] table.
 
 </td></tr></tbody>
-</table>Fields such as **risk** and **impact** are calculated fields and therefore can't be entered as user inputs. These values are automatically derived based on the change data and the configured risk and impact conditions. To understand how risk and impact are calculated, see [Add or modify risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/define-risk-and-impact-conditions.md). Once the risk and impact values are calculated, the **Risk impact analysis** field is automatically populated with the resulting risk and impact information.
+</table>Fields such as **risk** and **impact** are calculated fields and therefore can't be entered as user inputs. These values are automatically derived based on the change data and the configured risk and impact conditions. To understand how risk and impact are calculated, see [Add or modify risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/define-risk-and-impact-conditions.md). Once the risk and impact values are calculated, the **Risk impact analysis** field is automatically populated with the resulting risk and impact information.
 
 **Note:** The attribute name must match the change request field name, and the value specified must be valid.
 
@@ -174,5 +174,5 @@ All remaining fields in the Change Request \[change\_request\] table.
 
 \[Omitted image "auto-close-github.png"\] Alt text: DevOps GitHub change details.
 
-**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

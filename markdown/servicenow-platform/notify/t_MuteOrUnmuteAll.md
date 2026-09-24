@@ -3,11 +3,11 @@ title: Mute or unmute all participants
 description: As a communications manager or a conference call host, mute/unmute all the conference participants from the workbench.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_MuteOrUnmuteAll.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Notify for making conference calls, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Before starting this procedure, ensure there is an active conference call with o
 
 4.  In the **Conferences** tab, select a conference
 
-<table id="choicetable_hbr_r4f_xfb"><tbody><tr><td id="d401462e92">
+<table id="choicetable_hbr_r4f_xfb"><tbody><tr><td id="d399777e92">
 
 **__Mute All__**
 
@@ -40,7 +40,7 @@ Before starting this procedure, ensure there is an active conference call with o
 
 Click this button to mute all the participants in the conference
 
-</td></tr><tr><td id="d401462e104">
+</td></tr><tr><td id="d399777e104">
 
 **__Unmute All__**
 
@@ -58,5 +58,5 @@ Click this button to unmute all the participants in the conference
     \[Omitted image "UnmuteAll.png"\] Alt text: Screenshot for Unmute All
 
 
-**Parent Topic:**[Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyConferenceCalls.md)
+**Parent Topic:**[Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifyConferenceCalls.md)
 

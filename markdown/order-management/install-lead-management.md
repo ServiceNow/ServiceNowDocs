@@ -3,9 +3,9 @@ title: Install Lead Management
 description: If you have the admin role, you can install the Lead Management application. The application includes the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-lead-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Lead Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -31,7 +31,7 @@ The following items are installed with Lead Management:
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Procedure
 
@@ -49,15 +49,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d108772e199">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d110511e199">
 
 Demo data install task
 
-</th><th align="left" id="d108772e202">
+</th><th align="left" id="d110511e202">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d108772e208">
+</th></tr></thead><tbody><tr><td id="d110511e208">
 
 **If demo data is available and you want to install it**
 
@@ -67,13 +67,13 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d108772e238">
+</td></tr><tr><td id="d110511e238">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
 </td><td>
 
-Load the demo data after installing [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md).1.  Install Lead Management.
+Load the demo data after installing [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md).1.  Install Lead Management.
 2.  Navigate to the **All** and in the Filter, type `v_plugin.list`.
 3.  In the **System Plugin** list, search for Lead Management data model \(sn\_l2c\_lead\_mgmt\_data\_model\) plugin.
 4.  In the System **Plugin Lead Management data model** window, under Related Links, select **Install Demo Data Only**.
@@ -84,7 +84,7 @@ Load the demo data after installing [Opportunity Management](https://raw.githubu
 **Related topics**  
 
 
-[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-using.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management.md)
 

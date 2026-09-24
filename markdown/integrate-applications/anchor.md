@@ -3,9 +3,9 @@ title: Anchor
 description: An anchor is a unique identifier which is identified on the screen. It helps specify the target area for a simulated user interaction by defining a static area from which actions can be defined at a relative distance. The position of actions is calculated based on the anchor and the actions are performed relative to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/anchor.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Actions \(UI\), Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -28,5 +28,5 @@ To reorder an action or an anchor, drag it to its new position. As you move it, 
 
 To delete an anchor, in the Anchoring Surface pane of the ActionSet Settings dialog, right-click the anchor, and then select **Delete**.
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/actions-ui.md)
 

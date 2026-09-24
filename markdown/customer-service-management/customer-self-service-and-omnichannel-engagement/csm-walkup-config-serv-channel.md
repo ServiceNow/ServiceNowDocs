@@ -3,13 +3,13 @@ title: Configure Walk-up Experience service channel
 description: Configure the Walk-up Experience service channel to meet the needs of your walk-up agents. You can configure the way the tasks are assigned and manage interactions in the Agent Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-config-serv-channel.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure Walk-up Experience service channel
@@ -32,8 +32,8 @@ The Walk-up Experience service channel is viewed and configured through Advanced
 
 2.  Select **Walk-up** to open the Walk-up Experience service channel.
 
-3.  Refer to [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-service-channel.md) for detailed information regarding the Service Channel Walk-up form values and conditions.
+3.  Refer to [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-create-service-channel.md) for detailed information regarding the Service Channel Walk-up form values and conditions.
 
-    For more information regarding Advanced Work Assignment service channels configuring capacity and utilization, inbox layout, and overriding agent capacity for selected agents, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-service-channels.md).
+    For more information regarding Advanced Work Assignment service channels configuring capacity and utilization, inbox layout, and overriding agent capacity for selected agents, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-service-channels.md).
 
 

@@ -1,16 +1,16 @@
 ---
-title: Map a missing custom application to a product subscription in Subscription Management
+title: Map a missing custom app to a product subscription in Subscription Management
 description: Map a custom application to a product subscription when that application isn't shown in the Unmapped custom applications tab of Subscription Management. To stay in compliance, you must map custom tables that belong to a custom application to a product subscription.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/map-missing-custom-app-sub-mgt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Map a missing custom application to a product subscription in Subscription Management
+# Map a missing custom app to a product subscription in Subscription Management
 
 Map a custom application to a product subscription when that application isn't shown in the **Unmapped custom applications** tab of **Subscription Management**. To stay in compliance, you must map custom tables that belong to a custom application to a product subscription.
 
@@ -59,7 +59,7 @@ Subscription Management can't display product subscription recommendations for s
 
 ## Result
 
-One or more custom applications are mapped to a product subscription and your custom table entitlement count is updated. Updates made through the Custom Application form show in Subscription Management the next day.
+The custom application is mapped to a product subscription and your custom table entitlement count is updated. Updates made through the Custom Application form show in Subscription Management the next day.
 
-**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
+**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

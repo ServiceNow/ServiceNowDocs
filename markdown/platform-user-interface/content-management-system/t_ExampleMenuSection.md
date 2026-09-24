@@ -3,11 +3,11 @@ title: View menu and list examples
 description: Menu sections define groups of links and how the links behave.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_ExampleMenuSection.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example menu items and content links, Create a navigation menu block, Types of content blocks, Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -51,5 +51,5 @@ For example, link behavior determines which page opens when the link is clicked 
     3.  Browse the catalog items.
 
 
-**Parent Topic:**[Example menu items and content links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_NavigationMenusAndContentLinks.md)
+**Parent Topic:**[Example menu items and content links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_NavigationMenusAndContentLinks.md)
 

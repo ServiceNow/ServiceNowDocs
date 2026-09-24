@@ -3,9 +3,9 @@ title: SMS notification advanced scripting
 description: You can use these objects and their attributes in your advanced notification scripts on the SMS Notification Service Provider form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_SMSNotificationAdvancedScripting.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a service provider, Subscription-based notifications, Preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -97,5 +97,5 @@ device
 -   device.type
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAServiceProvider.md)
+</table>**Parent Topic:**[Create a service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAServiceProvider.md)
 

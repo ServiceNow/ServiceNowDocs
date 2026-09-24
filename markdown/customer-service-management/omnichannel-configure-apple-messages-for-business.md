@@ -3,9 +3,9 @@ title: Configure Apple Messages for Business
 description: Apple Messages for Business integration enables customers to start secure conversations from the Messages app on Apple devices. Agents manage these interactions in CSM Workspace with full customer context, case details, and conversation history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/omnichannel-configure-apple-messages-for-business.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Apple Messages for Business, omnichannel, CSM Workspace, conversational integration, messaging channel]
 breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure, Customer Service Management]
@@ -33,18 +33,18 @@ Priya shares product details and images. Jordan sends appointment options. Maya 
 
 ## Apple Messages for Business implementation workflow
 
-Complete these tasks to implement [Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/integration-apple-mssg.md). See [Exploring Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-va-apple-msg-business.md) for more information.
+Complete these tasks to implement [Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integration-apple-mssg.md). See [Exploring Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/exploring-va-apple-msg-business.md) for more information.
 
-|Task|Description|Role|
-|----|-----------|----|
-|1. [Install Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-apple-install.md)|Install the Conversational Integration with Apple Messages for Business plugin from the ServiceNow Store.|Admin, Sys Admin|
-|2. [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-integration-messaging-apps.md)|Review the Virtual Agent messaging app integration framework to understand supported channels, rich control capabilities, and live agent transfer patterns.|Admin|
-|3. [Set up the integration on Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/set-up-apple-messages.md)|Create and configure Apple Business Register account and obtain the Business ID.|Admin|
-|4. [OAuth setup for Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/oauth-setup-apple.md)|Set up OAuth authentication credentials between Apple and ServiceNow.|Admin|
-|5. [Integrating the Conversational Integration with Apple Messages for Business app with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-apple-integrating-apps.md)|Link the Apple Messages for Business channel to CSM and configure auto-creation rules.|Admin|
-|6. [Capturing information from a user in a Apple Messages for Business chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-apple-capture-info.md)|Configure data extraction for customer profile from Apple Messages.|Admin|
-|7. [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md)|Design workspace with agent profile cards, rich media widgets, and loyalty status.|CSM Admin|
-|8. [Transfer Apple Messages for Business chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-apple-live-agent-conv.md)|Configure smooth handoff from Virtual Agent to a live agent.|Admin|
+| |Configuration step|Description|Role|
+|---|------------------|-----------|----|
+|1|[Install Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-apple-install.md)|Install the Conversational Integration with Apple Messages for Business plugin from the ServiceNow Store.|Admin, Sys Admin|
+|2|[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md)|Review the Virtual Agent messaging app integration framework to understand supported channels, rich control capabilities, and live agent transfer patterns.|Admin|
+|3|[Set up the integration on Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/set-up-apple-messages.md)|Create and configure Apple Business Register account and obtain the Business ID.|Admin|
+|4|[OAuth setup for Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/oauth-setup-apple.md)|Set up OAuth authentication credentials between Apple and ServiceNow.|Admin|
+|5|[Integrating the Conversational Integration with Apple Messages for Business app with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-apple-integrating-apps.md)|Link the Apple Messages for Business channel to CSM and configure auto-creation rules.|Admin|
+|6|[Capturing information from a user in a Apple Messages for Business chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-apple-capture-info.md)|Configure data extraction for customer profile from Apple Messages.|Admin|
+|7|[Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-set-up.md)|Design workspace with agent profile cards, rich media widgets, and loyalty status.|Admin|
+|8|[Transfer Apple Messages for Business chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-apple-live-agent-conv.md)|Configure smooth handoff from Virtual Agent to a live agent.|Admin|
 
 **Note:** An admin can configure Rich Controls for Apple Messages. This enables setting up interactive controls for images, appointment pickers, and Apple Pay integration.
 

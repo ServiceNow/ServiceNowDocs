@@ -3,9 +3,9 @@ title: ITSM MCP Server
 description: Connect an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mcp-server-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ITSM MCP Server, Model Context Protocol, AI integration, incident management, change management, change requests, knowledge graph, Now Assist, service desk agents, IT managers, natural language, AI clients, Claude, Microsoft Copilot]
 audience: [administrator, user]

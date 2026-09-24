@@ -3,11 +3,11 @@ title: Create catalog items for service offering subscribers in Service Portfoli
 description: As a service owner or service offering subscriber, you can create one or more catalog items for your service regardless of the offering phase or status. You can also relate an existing catalog item to a service offering.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-create-catalog-items.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service offerings in Service Portfolio Management, Use, Service Portfolio Management, IT Service Management]
 ---
@@ -137,7 +137,7 @@ Meta
 
 Comma-separated list of tags used to search for the catalog item. Use commas between keywords for better results when searching.
 
- For more information, see [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/search-catalog-item.md).
+ For more information, see [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/search-catalog-item.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -326,5 +326,5 @@ If selected, adding an attachment is required for the catalog item.**Note:** App
     Before you submit, select **Try It** to see the result.
 
 
-**Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
+**Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
 

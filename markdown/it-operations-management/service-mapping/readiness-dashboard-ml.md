@@ -3,11 +3,11 @@ title: Application service readiness dashboard in configurable workspace
 description: Review the information on the dashboard to confirm that you’re ready to discover and map application services based on machine learning \(ML\). Service Mapping uses data processed by Predictive Intelligence to generate suggestions for traffic-based connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/readiness-dashboard-ml.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -68,7 +68,7 @@ ML-Related Service Status \[ml\_related\_service\_status\]
 
 </td><td>
 
-A bar report that provides the summary of ML-related issues in mapped application services. For detailed information, see [Mapping status of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/readiness-dashboard-ml.md).
+A bar report that provides the summary of ML-related issues in mapped application services. For detailed information, see [Mapping status of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/readiness-dashboard-ml.md).
 
 </td></tr><tr><td>
 
@@ -195,18 +195,18 @@ Ensure that the **Status** of the **Service Mapping - Traffic Process to Process
 
 Review the list of service instances most affected by ML-related issues. The list of most affected services is available if the connection suggestions feature is enabled in your deployment. The list shows service names and the number of ML-related issues for each of them. It also indicates if the traffic-based feature is enabled for the services.
 
-**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
+**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 
 **Related topics**  
 
 
-[Learn about ADME probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md)
+[Learn about ADME probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md)
 
-[Enable and configure discovery using ADME probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md)
+[Enable and configure discovery using ADME probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryProperties.md)
 
-[Calibrate fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md)
+[Calibrate fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md)
 
-[Verify fingerprint-based discovery generates suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md)
+[Verify fingerprint-based discovery generates suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md)
 
 [Troubleshooting guide for Service Mapping ML Connection Suggestions \[KB0963421\]](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0963421)
 

@@ -3,9 +3,9 @@ title: Assign the consumer role to a contact
 description: Assign the Consumer \(sn\_customerservice.consumer\) role to the customer\_contact to designate them as a consumer in the Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/assign-the-unified-consumer-role-to-a-contact.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up a contact as a consumer, Configuring a contact as a consumer, Configuring a Unified User, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -38,5 +38,5 @@ Selected contact is now both a consumer and a contact.
 **Related topics**  
 
 
-[Configuring a contact as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-a-contact-as-a-unified-consumer.md)
+[Configuring a contact as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-a-contact-as-a-unified-consumer.md)
 

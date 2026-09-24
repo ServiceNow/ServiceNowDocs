@@ -3,11 +3,11 @@ title: Metric-to-CI binding
 description: Metric-to-CI binding associates metrics collected by a pull connector with configuration items \(CIs\) in the Configuration Management Database \(CMDB\). Default binding logic is used for each supported connector, which you can override with a custom implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/metric-to-ci-binding-tsom-sgc.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Performance management: Metric collection, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
@@ -50,22 +50,22 @@ On a match, the extension sets the `cmdb_ci` and `ci_type` fields on the event.
 
 If the shipped lookup logic does not match how your CMDB models the source data, you can override it by providing your own implementation of the `EventFieldMapping` extension point. The platform resolves the implementation at runtime by source name and rule name, so you can substitute your own logic without modifying product code.
 
-For the procedure, see [Override default metric-to-CI binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/override-metric-ci-binding-tsom-sgc.md).
+For the procedure, see [Override default metric-to-CI binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/override-metric-ci-binding-tsom-sgc.md).
 
 **Related topics**  
 
 
-[View metric to CI and resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-metric-to-CI-binding.md)
+[View metric to CI and resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/view-metric-to-CI-binding.md)
 
-[Event field mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EMEventFieldMapping.md)
+[Event field mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_EMEventFieldMapping.md)
 
-[Create an event rule to bind metric events to host CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-rule-bind-metrics-to-host.md)
+[Create an event rule to bind metric events to host CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-rule-bind-metrics-to-host.md)
 
-[Configure elastic event pull connectors for MPN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-mpn-connectors-for-events-and-metrics.md)
+[Configure elastic event pull connectors for MPN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-mpn-connectors-for-events-and-metrics.md)
 
-[View metric values in the Insights Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-metrics-explorer.md)
+[View metric values in the Insights Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/view-metrics-explorer.md)
 
-[Create an Insights Explorer view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-metric-explorer-view.md)
+[Create an Insights Explorer view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-metric-explorer-view.md)
 
 [Resource binding](https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/resource-binding.html)
 

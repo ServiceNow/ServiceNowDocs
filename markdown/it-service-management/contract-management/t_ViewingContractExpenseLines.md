@@ -3,11 +3,11 @@ title: View contract expense lines
 description: Use the Expense Lines related list or tab to view and audit all the expenses recorded for a given contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_ViewingContractExpenseLines.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a contract rate card, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
@@ -36,7 +36,7 @@ Role required: asset, financial\_mgmt\_user\(core UI and Hardware Asset Workspac
     Information such as expense line details, total cost of the contract, and the contract current value is listed.
 
 
-**Parent Topic:**[Create a contract rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_ContractRateCardsAndExpenseLines.md)
+**Parent Topic:**[Create a contract rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/t_ContractRateCardsAndExpenseLines.md)
 
 **Related topics**  
 

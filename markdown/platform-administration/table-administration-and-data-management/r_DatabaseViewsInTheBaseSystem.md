@@ -3,11 +3,11 @@ title: Database views in the base system
 description: Certain views are included in the base system with the Database Views and Database Views for Service Management plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/r\_DatabaseViewsInTheBaseSystem.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Work with database views, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -44,7 +44,7 @@ Certain views are included in the base system with the Database Views and Databa
 |sc\_task\_metric|Join sc\_task to metric definition to metric instance creating a view that can be reported on for things like: Catalog tasks that were closed by item|Catalog Task Metric|
 |sc\_task\_sla|Join sc\_task to sla\(task\_sla\) to report on things like tasks by sla.|Catalog Task SLA|
 
-**Parent Topic:**[Working with database views for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md)
+**Parent Topic:**[Working with database views for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md)
 
 **Related topics**  
 

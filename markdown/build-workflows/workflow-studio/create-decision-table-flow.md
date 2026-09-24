@@ -3,11 +3,11 @@ title: Create a decision table in a flow
 description: Create the structure for a decision table while you author your flow in Workflow Studio. Use data from the flow to create inputs, conditions, and results for the decision table, all in a convenient modal. For example: You can store the logic for incident assignments in a Decision Table, and then use that Decision Table within a flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-decision-table-flow.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -51,7 +51,7 @@ Creating a decision table in-line in a flow creates only the structure of the ta
 
 9.  Select **Add input** to add inputs to the decision table.
 
-    Inputs are the variables that define the type of data the decision table looks for to make decisions. When creating a decision table in a flow, you can add inputs directly from the data in the flow. For more information about the types of inputs you can add, see [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md).
+    Inputs are the variables that define the type of data the decision table looks for to make decisions. When creating a decision table in a flow, you can add inputs directly from the data in the flow. For more information about the types of inputs you can add, see [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md).
 
     **Note:** Some inputs must be added or adjusted when you open the decision table to populate its values.
 
@@ -80,5 +80,5 @@ Creating a decision table in-line in a flow creates only the structure of the ta
 17. Select **Done**.
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-flow.md)
 

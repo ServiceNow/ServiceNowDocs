@@ -3,11 +3,11 @@ title: Run health scans for DevOps Change Velocity
 description: Run health check scans on your DevOps Change Velocity instance and get recommendations on fixing any errors that might exist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/run-health-scan-check.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -20,11 +20,11 @@ Run health check scans on your DevOps Change Velocity instance and get recommend
 
 Role required: sn\_devops.admin
 
-Activate the DevOps Change Health Scan Content Pack application to use this feature. For information on activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+Activate the DevOps Change Health Scan Content Pack application to use this feature. For information on activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## About this task
 
-If you are in version \(3.0 to 5.0\) of DevOps Change Velocity, but you have activated the DevOps Change Health Scan Content Pack application, you can access this feature only from the Classic UI in the ServiceNow AI Platform. For more information on health scans in ServiceNow AI Platform, see [Scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/scan-checks.md).
+If you are in version \(3.0 to 5.0\) of DevOps Change Velocity, but you have activated the DevOps Change Health Scan Content Pack application, you can access this feature only from the Classic UI in the ServiceNow AI Platform. For more information on health scans in ServiceNow AI Platform, see [Scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/scan-checks.md).
 
 Scan suites are collections of security center checks that execute together. The DevOps Change Velocity Health parent suite contains the DevOps Change Velocity Health - Scheduled and DevOps Change Velocity Health - On-demand suites within it.
 
@@ -42,7 +42,7 @@ You can also choose to navigate to the Checks list, and run a specific health ch
 
 4.  Select **Execute suite scan**.
 
-    For information on the scans available for the DevOps suite, see [DevOps Change Velocity suite health scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-suite-health-scan-checks.md).
+    For information on the scans available for the DevOps suite, see [DevOps Change Velocity suite health scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-change-velocity-suite-health-scan-checks.md).
 
 
 ## Result
@@ -54,5 +54,5 @@ A scan result reports the status and type of the scan. You can also see all the 
 **Related topics**  
 
 
-[DevOps Change Velocity suite health scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-suite-health-scan-checks.md)
+[DevOps Change Velocity suite health scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-change-velocity-suite-health-scan-checks.md)
 

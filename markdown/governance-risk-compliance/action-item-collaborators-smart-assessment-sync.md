@@ -3,12 +3,12 @@ title: Action item collaborator synchronization with Smart Assessment
 description: When users are assigned to a recovery action item, they are automatically synced as collaborators on the linked Smart Assessment instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/action-item-collaborators-smart-assessment-sync.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [BCM, action item, Smart Assessment, collaborators]
-breadcrumb: [Creating action items in crisis events, Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Creating action items, Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Action item collaborator synchronization with Smart Assessment
@@ -52,5 +52,5 @@ When assignment group members are added to the assessment, they stay as a group 
 |Filter|Type = assessment AND assessment\_template is not empty|
 |Monitored Fields|assigned\_to, assignment\_group, additional\_assignee\_list|
 
-**Parent Topic:**[Creating action items in crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-action-items-in-crisis.md)
+**Parent Topic:**[Creating action items in crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/creating-action-items-in-crisis.md)
 

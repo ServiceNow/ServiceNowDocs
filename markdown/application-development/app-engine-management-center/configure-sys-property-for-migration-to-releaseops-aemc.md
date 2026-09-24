@@ -3,11 +3,11 @@ title: Configure the system property to enable migration to ReleaseOps
 description: Update the sn\_deploy\_pipeline.migrate\_releaseops system property to enable deployments using ReleaseOps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/configure-sys-property-for-migration-to-releaseops-aemc.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2025-10-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -20,7 +20,7 @@ Update the **sn\_deploy\_pipeline.migrate\_releaseops** system property to enabl
 
 Role required: admin or app\_engine\_admin
 
-You must have ReleaseOps installed and set up on your production and other pipeline environments to complete the following procedure. See [Migrating App Engine pipelines to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/migrating-ae-pipelines-to-releaseops-aemc.md) for more information.
+You must have ReleaseOps installed and set up on your production and other pipeline environments to complete the following procedure. See [Migrating App Engine pipelines to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/migrating-ae-pipelines-to-releaseops-aemc.md) for more information.
 
 ## Procedure
 
@@ -47,5 +47,5 @@ You have set the **sn\_deploy\_pipeline.migrate\_releaseops** system property to
 
 ## What to do next
 
-If you customized your ReleaseOps deployment request states, you must map the deployment request states onto the corresponding App Engine deployment request states. See [Map deployment request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/map-deployment-request-states-aemc.md) for more information.
+If you customized your ReleaseOps deployment request states, you must map the deployment request states onto the corresponding App Engine deployment request states. See [Map deployment request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/map-deployment-request-states-aemc.md) for more information.
 

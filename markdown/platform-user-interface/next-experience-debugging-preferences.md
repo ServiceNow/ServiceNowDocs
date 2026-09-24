@@ -3,9 +3,9 @@ title: Configure Next Experience debugging preferences
 description: Debug your Next Experience instance to detect and remove existing and potential errors in your Next Experience components and scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-debugging-preferences.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -38,7 +38,7 @@ Script Debugger
 
 </td><td>
 
-Opens a JavaScript debugger with a script tracer and a session log. For more information, see .
+Opens a JavaScript debugger with a script tracer and a session log. For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/script-debug-overview.md).
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Automated Test Framework Page Inspector
 
 </td><td>
 
-Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see Page Inspector.
+Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/atf-page-inspector.md).
 
 </td></tr><tr><td>
 

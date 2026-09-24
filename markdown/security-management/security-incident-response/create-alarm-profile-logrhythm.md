@@ -3,11 +3,11 @@ title: Creating an alarm profile for LogRhythm
 description: In an alarm profile that you create and name, you specify which alarms you want to pull from the LogRhythm Client Console. You also define how they are mapped to fields on a ServiceNow AI Platform security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-alarm-profile-logrhythm.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -68,7 +68,7 @@ Source
 
 </td><td>
 
-Source server from the choice list. The list consists of LogRhythm configurations you have already set up, for example, `logrhythm-server-a`. See [Install the plugin and configure LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-config-logrhythm.md).
+Source server from the choice list. The list consists of LogRhythm configurations you have already set up, for example, `logrhythm-server-a`. See [Install the plugin and configure LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/install-and-config-logrhythm.md).
 
 </td></tr><tr><td>
 
@@ -92,25 +92,25 @@ By default this option is not selected. After you complete all alarm profile set
     If the validation is successful, the page reloads and the **Mapping** form is displayed. You cannot proceed with the configuration until you have successfully validated your connection and credentials.
 
 
--   **[Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mapping-logrhythm.md)**  
+-   **[Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mapping-logrhythm.md)**  
 After selecting the LogRhythm source that you want to ingest, you need to map individual LogRhythm alarm fields to the ServiceNow AI Platform security incident fields.
--   **[Filter alarms for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/filter-alarms-logrhythm.md)**  
+-   **[Filter alarms for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/filter-alarms-logrhythm.md)**  
 Setting filtering criteria for alarms after you have mapped fields helps you determine which alarms should be ingested into the SIR application. Filtering alarms helps you significantly reduce the number of alarms you ingest when the alarm profile is activated.
--   **[Previewing the security incident with mapped LogRhythm alarm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/preview-si-logrhythm.md)**  
+-   **[Previewing the security incident with mapped LogRhythm alarm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/preview-si-logrhythm.md)**  
 After you have completed the mapping step, preview the values that you mapped to the fields on the security incident. This preview step permits you to verify that you have mapped all the critical LogRhythm alarm fields you want displayed on the security incident.
--   **[Schedule and retrieve LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/schedule-and-alarm-retrieval-logrhythm.md)**  
+-   **[Schedule and retrieve LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/schedule-and-alarm-retrieval-logrhythm.md)**  
 After you preview the security incident with the LogRhythm alarms that you have selected and mapped, you are ready to schedule alarm retrieval. After you complete this step, the alarm profile is ready to be activated.
--   **[Additional options for LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-alarm-closure-logrhythm.md)**  
+-   **[Additional options for LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/verify-alarm-closure-logrhythm.md)**  
 The LogRhythm Enterprise integration provides you the ability to automatically update or close the LogRhythm alarms based on the security incidents.
 
-**Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ovrview-logrhythm.md)
+**Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ovrview-logrhythm.md)
 
-**Previous topic:**[Install the plugin and configure LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-config-logrhythm.md)
+**Previous topic:**[Install the plugin and configure LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/install-and-config-logrhythm.md)
 
-**Next topic:**[Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mapping-logrhythm.md)
+**Next topic:**[Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mapping-logrhythm.md)
 
 **Related topics**  
 
 
-[Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mapping-logrhythm.md)
+[Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mapping-logrhythm.md)
 

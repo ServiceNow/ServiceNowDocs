@@ -3,9 +3,9 @@ title: Configure time intervals for user presence
 description: User presence shows that users are viewing a record sometimes after they have already left. The system only checks for user presence every two minutes by default. You can allow the system to check more frequently by configuring some system properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-time-interval-user-presence.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User presence, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -54,5 +54,5 @@ You can configure each property to check more or less frequently. Checking more 
 6.  Click **Submit**.
 
 
-**Parent Topic:**[User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPresence.md)
+**Parent Topic:**[User presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UserPresence.md)
 

@@ -3,9 +3,9 @@ title: Manage a crisis event
 description: Review and update the details of a crisis event in the Details tab. Get the event ready for a crisis that may strike and disrupt your business.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/manage-crisis-event.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -155,7 +155,7 @@ Additional information about the crisis event.
 
         You can view the approval details in the Approvals related list with its name, level of approval, and the state of the approval.
 
-        Select the Approval History related list to view the approval state, name of the approver, event number, the date of approval request, and comments if any.
+        Select the Approval History related list to view approval details. The list shows the approval state, approver name, event number, request date, and any comments.
 
         **Note:** If you are a BCM Program Manager, then you can see the **Approve** and **Reject** buttons.
 

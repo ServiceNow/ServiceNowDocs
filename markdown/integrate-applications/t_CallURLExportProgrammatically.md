@@ -3,9 +3,9 @@ title: Call URL export programmatically
 description: Dynamically export data from a script or web service by calling a URL export from any programming language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/t\_CallURLExportProgrammatically.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export directly from a URL, Exports, Workflow Data Fabric]
 ---

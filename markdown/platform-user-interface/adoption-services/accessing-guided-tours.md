@@ -3,11 +3,11 @@ title: Start a guided tour
 description: Guided Tours are available across four user interface types: Standard, Service Portal, Workspace, and Custom UI. If you have the appropriate roles, you can access a guided tour from Standard Forms and Lists UI, Workspace, and Custom UI.If you have the appropriate roles, you can access a guided tour from Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/accessing-guided-tours.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Use Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Guided Tours are available across four user interface types: Standard, Service P
 
 The way-guided tours start varies depending on the specific interface type \(tour type\).
 
-**Parent Topic:**[Using Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/using-guided-tours.md)
+**Parent Topic:**[Using Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/using-guided-tours.md)
 
 ## Start guided tour from Help Center
 
@@ -67,7 +67,7 @@ Role required: user
 
     **Note:**
 
-    If a page doesn’t have a Service Portal Header Menu, you can’t access the **Tours** menu. In this case, the guided tour is only available to you through auto-launch. See [Configure auto-launch for Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/auto-launch-guided-tours.md).
+    If a page doesn’t have a Service Portal Header Menu, you can’t access the **Tours** menu. In this case, the guided tour is only available to you through auto-launch. See [Configure auto-launch for Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/auto-launch-guided-tours.md).
 
     If a tour is assigned at least one role, the audience is limited to users with that role.
 

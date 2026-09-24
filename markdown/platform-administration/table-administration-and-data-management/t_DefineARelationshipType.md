@@ -3,11 +3,11 @@ title: Define a relationship type
 description: Create type codes that define the relationship between parent and child tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_DefineARelationshipType.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Many-to-many task relations, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Create type codes that define the relationship between parent and child tasks.
 
 ## Before you begin
 
-Activate the Many to Many Task Relations plugin \(com.snc.task\_relations\) first. See [Request many to many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_RequestManyToManyTaskRelations.md).
+Activate the Many to Many Task Relations plugin \(com.snc.task\_relations\) first. See [Request many to many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/t_RequestManyToManyTaskRelations.md).
 
 Role required: admin
 
@@ -33,5 +33,5 @@ Role required: admin
     The Name field automatically populates with the Parent and Child descriptors.
 
 
-**Parent Topic:**[Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md)
+**Parent Topic:**[Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md)
 

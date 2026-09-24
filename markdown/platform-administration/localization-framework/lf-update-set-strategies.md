@@ -3,11 +3,11 @@ title: Localization Framework Properties: Update Set Strategies
 description: Use update sets to migrate your translations to another instance. Configure properties for update sets according to your business requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/lf-update-set-strategies.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Localization Framework settings, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Localization Framework settings, Configure the Localization Framewo
 
 Use update sets to migrate your translations to another instance. Configure properties for update sets according to your business requirements.
 
-Update sets enable you to transfer your artifact translations to other instances. For background information on update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
+Update sets enable you to transfer your artifact translations to other instances. For background information on update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets.md).
 
 For localization tasks, previously the default was to create a dedicated update set per task in the scope of the artifact. Alternatively, with sys properties you can specify your update set strategy: bundle translations into one update set, or distribute into granular update sets.
 
@@ -87,5 +87,5 @@ The system creates or reuses one update set named 'LF: Translations', and all ad
 </td></tr></tbody>
 </table>To set these properties, navigate to **Localization Framework** &gt; **Properties**. Choose the appropriate strategy and select **Save**.
 
-**Parent Topic:**[Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-settings.md)
+**Parent Topic:**[Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/localization-settings.md)
 

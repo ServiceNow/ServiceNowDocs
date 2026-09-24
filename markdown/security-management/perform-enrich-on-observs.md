@@ -3,9 +3,9 @@ title: Perform threat enrichment on observables
 description: You can perform threat intelligence enrichment on one or more observables to determine whether they’re associated with known security threats. The implementations that run depend on the ones you’ve activated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/perform-enrich-on-observs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Observables, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -18,11 +18,11 @@ You can perform threat intelligence enrichment on one or more observables to det
 
 Before you can perform enrichment, you must activate the Threat Intelligence plugin. You must also install the plugin for one or more of the enrichment implementations:
 
--   [CrowdStrike Falcon Intelligence integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/crowdstrike-intell-landing-page.md)
--   [OPSWAT Metadefender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_Metadefenderintegration.md)
--   [Security Operations Have I been pwned?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-haveibeenpwned.md)
--   [VirusTotal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-configure-virustotal.md)
--   [WhoIs?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-whois.md)
+-   [CrowdStrike Falcon Intelligence integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/crowdstrike-intell-landing-page.md)
+-   [OPSWAT Metadefender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_Metadefenderintegration.md)
+-   [Security Operations Have I been pwned?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/activate-haveibeenpwned.md)
+-   [VirusTotal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/activate-configure-virustotal.md)
+-   [WhoIs?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/activate-whois.md)
 
 Role required: sn\_ti.admin
 
@@ -38,7 +38,7 @@ Role required: sn\_ti.admin
 
 3.  Select the threat lookup implementations you want to use, or select **All** to perform lookups using all of the active implementations, then click **Submit**.
 
-    A message indicates that the threat lookups have begun. The [Security Operations Integration - Threat Lookup Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-integ-threat-lookup.md) runs and also executes the implementation workflows for the threat lookup implementations you selected. The lookups are performed and the results are generated.
+    A message indicates that the threat lookups have begun. The [Security Operations Integration - Threat Lookup Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sec-ops-integ-threat-lookup.md) runs and also executes the implementation workflows for the threat lookup implementations you selected. The lookups are performed and the results are generated.
 
 4.  When the lookups are completed, you can click the **Threat Lookup Results** tab to view the results.
 
@@ -51,7 +51,7 @@ Role required: sn\_ti.admin
     \[Omitted image "threat-lookup-results-details.png"\] Alt text: Threat Lookup Results details
 
 
-**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_Observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_Observables.md)
 
 **Related topics**  
 

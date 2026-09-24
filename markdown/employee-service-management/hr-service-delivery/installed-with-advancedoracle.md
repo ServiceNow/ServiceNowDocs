@@ -3,11 +3,11 @@ title: Components installed with HR Service Delivery Advanced Integration with O
 description: Several types of components are installed with activation of the HR Service Delivery Advanced Integration with Oracle HCM \[sn\_hr\_oracle\_adv\] plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-advancedoracle.html
-release: australia
+release: brazil
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery Advanced Integration with Oracle HCM, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---

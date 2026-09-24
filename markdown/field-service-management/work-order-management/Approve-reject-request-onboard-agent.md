@@ -3,11 +3,11 @@ title: Approve or reject requests for onboarding agents
 description: Review external agent requests that are assigned to you for approval and determine whether to accept or reject them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Approve-reject-request-onboard-agent.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---

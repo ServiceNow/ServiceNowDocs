@@ -3,11 +3,11 @@ title: Configure MID Server capabilities
 description: MID Server capabilities define the specific functions of a MID Server within an IP address range, allowing an application to select the most appropriate MID Server. Configure capabilities on MID Servers for applications like Orchestration, , and .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/configure-capabilities.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MID Server capabilities, MID Servers for Orchestration, Classic Orchestration, Workflow Data Fabric]
 ---

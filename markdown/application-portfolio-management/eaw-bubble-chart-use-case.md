@@ -3,9 +3,9 @@ title: Use case: How indicator scores appear on the bubble chart
 description: Understand how application indicator scores are calculated and displayed as bubbles on the Application Rationalization bubble chart.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-bubble-chart-use-case.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 21
 keywords: [bubble chart, indicator scores, normalized value, application rationalization, scoring profile]
 breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -54,7 +54,7 @@ As an EA admin user, navigate to **Workspaces** &gt; **Enterprise Architecture W
 
 \[Omitted image "bubblechart-indicators.png"\] Alt text: Application indicators
 
-**Note:** No new indicators need to be created for this use case. Both are available by default in the Default Application Profile. For information on how to create custom indicators, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-indicator.md).
+**Note:** No new indicators need to be created for this use case. Both are available by default in the Default Application Profile. For information on how to create custom indicators, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-indicator.md).
 
 **How Minimize Direction Affects Chart Position**
 
@@ -138,7 +138,7 @@ As an admin, navigate to **Workspaces** &gt; **Enterprise Architecture Workspace
 |Business Value|50|
 |Technical Risk|50|
 
-Equal weights mean each indicator contributes equally to the overall application score. Verify that all five business applications have their **Application scoring profile** field set to **Default Application Profile**. For information on how to attach profile indicators to a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).\[Omitted image "bubblechart-scoring-profile.png"\] Alt text: Default scoring profile
+Equal weights mean each indicator contributes equally to the overall application score. Verify that all five business applications have their **Application scoring profile** field set to **Default Application Profile**. For information on how to attach profile indicators to a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).\[Omitted image "bubblechart-scoring-profile.png"\] Alt text: Default scoring profile
 
 ## Step 3: Add indicators to the bubble chart table
 
@@ -146,7 +146,7 @@ Navigate to the Application Bubble Chart \[apm\_bubble\_chart\] table and confir
 
 \[Omitted image "bubblechart-add-ind-bctable.png"\] Alt text: Add indicators to the bubble chart table
 
-**Note:** Only indicators registered in the Application Bubble Chart \[apm\_bubble\_chart\] table appear as axis options on the bubble chart. Adding an indicator to a scoring profile alone is not sufficient. For details on how to add X and Y axis indicators, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-indicator.md).
+**Note:** Only indicators registered in the Application Bubble Chart \[apm\_bubble\_chart\] table appear as axis options on the bubble chart. Adding an indicator to a scoring profile alone is not sufficient. For details on how to add X and Y axis indicators, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-indicator.md).
 
 ## Step 4: Stakeholders complete assessments
 
@@ -255,7 +255,7 @@ The default value is:
 install_status!=2@install_status!=2000@life_cycle_stage!=End of Life@life_cycle_stage!=EMPTY
 ```
 
-This means the chart excludes any business application that is in **Retired** or **Decommissioned** install status, or whose lifecycle stage is **End of Life** or empty. In this scenario, all five Acme Corp applications have an active install status and a current lifecycle stage. All five pass the filter and are eligible to appear as bubbles.
+This means the chart excludes any business application that is in *Retired* or *Decommissioned* install status, or whose lifecycle stage is *End of Life* or empty. In this scenario, all five Acme Corp applications have an active install status and a current lifecycle stage. All five pass the filter and are eligible to appear as bubbles.
 
 **Important:** If your organization has customized this property — for example, by adding a company scope filter such as company.sys\_id=YOURCOMPANYID — any scored application that does not match the custom filter will be silently excluded from the chart, even if it has valid indicator scores for both axes. This is one of the most common causes of missing bubbles. To verify, apply the encoded query on the Business Applications \[cmdb\_ci\_business\_app.list\] table and confirm your scored applications appear in the results.
 
@@ -310,9 +310,9 @@ After selecting **Apply**, business application bubbles are displayed on the cha
 
 **Note:** Business application bubbles whose X and Y axis values are within the value range of +/-0.25 of each other are grouped. A grouped bubble displays the total number of business application bubbles it contains. On selecting a grouped bubble, the info pane appears, displaying the list of individual business applications that are part of the grouped bubble.
 
-**Note:** The bubble chart displays up to 500 bubbles by default. If you have more than 500 assessed business applications, configure the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property to increase this limit. For details, see [Change the number of bubbles displayed on the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-sys-prop-change-number-of-bubbles.md).
+**Note:** The bubble chart displays up to 500 bubbles by default. If you have more than 500 assessed business applications, configure the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property to increase this limit. For details, see [Change the number of bubbles displayed on the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-sys-prop-change-number-of-bubbles.md).
 
-You can also generate insights into business applications using Now Assist. For information, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-into-ba.md).
+You can also generate insights into business applications using Now Assist. For information, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/generate-insights-into-ba.md).
 
 ## Step 8: Taking action from the bubble chart
 
@@ -375,7 +375,7 @@ Single bubble
 
 1.  Select the bubble for App B.
 2.  In the pop-up window, select the context menu icon \(\[Omitted image "eaw-icon-menu.png"\] Alt text:\) and select **Create demand**.
-3.  On the Create demand form, fill in the fields and select **Create**. For a description of the field values, see [Create demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-demand-form.md).
+3.  On the Create demand form, fill in the fields and select **Create**. For a description of the field values, see [Create demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-demand-form.md).
 
 </td></tr><tr><td>
 
@@ -385,12 +385,12 @@ Grouped bubble
 
 1.  Select the grouped bubble. The info pane appears.
 2.  Select the context menu icon \(\[Omitted image "eaw-icon-menu.png"\] Alt text:\) next to App B and select **Create demand**.
-3.  On the Create demand form, fill in the fields and select **Create**. For a description of the field values, see [Create demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-demand-form.md).
+3.  On the Create demand form, fill in the fields and select **Create**. For a description of the field values, see [Create demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-demand-form.md).
 
 </td></tr></tbody>
 </table>\[Omitted image "bubblechart-create-demand.png"\] Alt text: Create demand from the bubble chart page
 
-The architect also notes that App E \(Internal Wiki\) sits in the Migrate quadrant but has a slightly higher Technical Risk normalized value \(2.43\) compared to App B. Before setting a disposition, the architect selects the App E bubble to open the side panel. The architect then selects **Full details** to review the full business application record without leaving the bubble chart. For more details, see [Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md).
+The architect also notes that App E \(Internal Wiki\) sits in the Migrate quadrant but has a slightly higher Technical Risk normalized value \(2.43\) compared to App B. Before setting a disposition, the architect selects the App E bubble to open the side panel. The architect then selects **Full details** to review the full business application record without leaving the bubble chart. For more details, see [Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md).
 
 ## Summary: the full flow at a glance
 
@@ -418,22 +418,22 @@ The following sequence summarizes how a raw assessment score is set to a bubble 
 
 **Closely scored applications are grouped.** Bubbles whose X and Y axis values are within +/-0.25 of each other are combined into a single grouped bubble showing a count. Select a grouped bubble to open the info pane and see the individual applications inside.
 
-**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
+**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
 
 **Related topics**  
 
 
-[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
+[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
 
-[Analyze applications using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-analyze-applications-by-capability.md)
+[Analyze applications using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-analyze-applications-by-capability.md)
 
-[Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md)
+[Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md)
 
-[Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)
+[Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)
 
-[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
+[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
 
-[Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md)
+[Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md)
 
-[Change the number of bubbles displayed on the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-sys-prop-change-number-of-bubbles.md)
+[Change the number of bubbles displayed on the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-sys-prop-change-number-of-bubbles.md)
 

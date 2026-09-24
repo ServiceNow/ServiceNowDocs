@@ -3,9 +3,9 @@ title: Customize behavior for sensitive data redaction
 description: Customize sensitive data redaction behavior by creating system properties for flows that are triggered by inbound emails, sys\_email record, and inbound actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/customize-data-redaction.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sensitive data redaction, Use, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -74,5 +74,5 @@ Role required: admin
     4.  Select **Submit**.
 
 
-**Parent Topic:**[Sensitive data redaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/sensitive-data-redaction.md)
+**Parent Topic:**[Sensitive data redaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/sensitive-data-redaction.md)
 

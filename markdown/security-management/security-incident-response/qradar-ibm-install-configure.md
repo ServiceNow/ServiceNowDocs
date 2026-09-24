@@ -3,11 +3,11 @@ title: Install and configure the ServiceNow application for the IBM QRadar offen
 description: Before you run the integration on your ServiceNow AI Platform instance, complete these installation and configuration steps so the application properly integrates with the Security Incident Response and Security Operations products on your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm-install-configure.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [IBM QRadar Offense Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.admin
 
 ## Procedure
 
-1.  If you have not installed the IBM QRadar application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the IBM QRadar application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After you have successfully installed the application, navigate to **Integrations** &gt; **Integrations Configurations** and locate the IBM QRadar tile.
 
@@ -32,15 +32,15 @@ Role required: sn\_si.admin
 
 5.  In the **Offense Ingestions Configuration** dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d224718e154">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d224309e154">
 
 Field
 
-</th><th align="left" id="d224718e157">
+</th><th align="left" id="d224309e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d224718e163">
+</th></tr></thead><tbody><tr><td id="d224309e163">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Name of the IBM QRadar console or the IBM QRadar instance used for the integration.Spaces are supported for names, but parentheses are not supported.
 
-</td></tr><tr><td id="d224718e181">
+</td></tr><tr><td id="d224309e181">
 
 **IBM QRadar API Base URL**
 
@@ -56,7 +56,7 @@ Name of the IBM QRadar console or the IBM QRadar instance used for the integrati
 
 Host URL for your IBM QRadar instance.**Note:** You need to enter only the URL and the port number here. For example, https://ibm-qradar.com:8443. If the port number is 443, it need not be explicitly entered.
 
-</td></tr><tr><td id="d224718e196">
+</td></tr><tr><td id="d224309e196">
 
 **IBM QRadar Dashboard URL**
 
@@ -66,7 +66,7 @@ The URL for the IBM QRadar dashboard or the console. This URL is used to auto co
 
  **Note:** If the dashboard URL is not available, enter the IBM QRadar API Base URL here.
 
-</td></tr><tr><td id="d224718e220">
+</td></tr><tr><td id="d224309e220">
 
 **IBM QRadar API Version**
 
@@ -74,7 +74,7 @@ The URL for the IBM QRadar dashboard or the console. This URL is used to auto co
 
 Version 10 and above are supported.
 
-</td></tr><tr><td id="d224718e233">
+</td></tr><tr><td id="d224309e233">
 
 **IBM QRadar API Authorized Service Token \(on premises\)**
 
@@ -90,7 +90,7 @@ The IBM QRadar authorized service token is used for authentication. The authoriz
 -   Click **Add Authorized Service** and create a token with the user role and security profile. Ensure that you specify an expiry date for a long validity period.
 
 
-</td></tr><tr><td id="d224718e301">
+</td></tr><tr><td id="d224309e301">
 
 **IBM QRadar API Authorized Service Token \(for QRoC\)**
 
@@ -98,7 +98,7 @@ The IBM QRadar authorized service token is used for authentication. The authoriz
 
 If you are using IBM QRadar on Cloud \(QRoC\), use the self service application to generate the authorized service token with admin user role and admin security profile for authentication.
 
-</td></tr><tr><td id="d224718e313">
+</td></tr><tr><td id="d224309e313">
 
 **On Premises Deployment**
 
@@ -108,7 +108,7 @@ Default is disabled. If this option is enabled, you must specify a MID Applicati
 
  If you are using IBM QRadar on Cloud \(QRoC\), verify that the check box is cleared.
 
-</td></tr><tr><td id="d224718e331">
+</td></tr><tr><td id="d224309e331">
 
 **MID Application Name**
 

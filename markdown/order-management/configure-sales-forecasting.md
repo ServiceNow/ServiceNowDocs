@@ -3,9 +3,9 @@ title: Configure Sales Forecasting
 description: Use the Sales Forecasting application to project your future sales volumes and revenue based data from opportunities and pipeline analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-sales-forecasting.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Use the Sales Forecasting application to project your future sales volumes and r
 
 ## Activate Sales Forecasting
 
-As an admin, you can activate the following plugins to enable users to access Sales Forecasting. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+As an admin, you can activate the following plugins to enable users to access Sales Forecasting. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 <table id="table_o13_hpv_v2c"><thead><tr><th>
 
@@ -63,7 +63,7 @@ com.snc\_app\_l2c\_oppty\_mgmt
 **Related topics**  
 
 
-[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 
-[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-forecasting.md)
 

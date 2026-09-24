@@ -3,11 +3,11 @@ title: Create a Data Loss Prevention Incident Response SLA definition
 description: Create a Data Loss Prevention Incident Response SLA definition that outlines the conditions and duration for responding to data breaches. Establishing clear expectations and protocols helps ensure a swift response to incidents, minimizing potential damage and enhancing overall data protection strategies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/dlp-sla-definitions.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -29,14 +29,14 @@ Role required:
 
 2.  Create an SLA definition.
 
-    For a description of the field values, see [DLP SLA Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-sla-def-properties.md).
+    For a description of the field values, see [DLP SLA Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/dlp-sla-def-properties.md).
 
 3.  Select **Submit**.
 
     **Note:** Due date rules, escalations and SLA definitions are mutually exclusive. An SLA definition primarily determines when a particular SLA will start to be effective, stop, pause, or be triggered.
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
@@ -71,7 +71,7 @@ Role required:
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

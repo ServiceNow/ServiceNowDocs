@@ -3,11 +3,11 @@ title: View another user's community profile
 description: View another user's community profile to see their contributions, network, expertise, and so on. You can also manage your network by following and unfollowing other community users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/view-other-user-community-profile.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use a community profile, Using communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ View another user's community profile to see their contributions, network, exper
 ## Before you begin
 
 Role required: sn\_communities.community\_user or sn\_communities.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -42,7 +46,7 @@ Profile header
 
 The sections of the community profile that the user has made visible. -   To start following the user, click **Follow**.
 -   To report any inappropriate content on the user's community profile, click the **...** icon and then **Report Profile**.
--   To [assign a user points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-award-user-points.md) for a specific contribution to the community as a community administrator, click the **...** icon and then click **Assign Points**.
+-   To [assign a user points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/gamification-award-user-points.md) for a specific contribution to the community as a community administrator, click the **...** icon and then click **Assign Points**.
 -   To hide content from the community until it is corrected as a community administrator, click **Display Settings** You can also click **Ban User** to ban a user from creating or editing content.
 
 
@@ -125,5 +129,5 @@ The contributions the user has made to the community.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-profile.md)
+**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/community-profile.md)
 

@@ -3,9 +3,9 @@ title: Use the SetSharedParameter component
 description: Update the value of a specific shared parameter that you had set for multiple bot processes on the RPA Hub by using the SetSharedParameter component in the RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-rpahub-sharedparameters-setsharedparameter.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Shared Parameters, RPA Hub, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,15 +16,15 @@ Update the value of a specific shared parameter that you had set for multiple bo
 
 ## Before you begin
 
-Set at least one shared parameter and associate multiple bot processes on the RPA Hub. For more information, see [Create a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-shared-parameter.md) and [Assign a bot process to a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-botprocess-shared-parameter.md).
+Set at least one shared parameter and associate multiple bot processes on the RPA Hub. For more information, see [Create a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-shared-parameter.md) and [Assign a bot process to a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-botprocess-shared-parameter.md).
 
-Assign the automation to the bot process by using the **Assign bot process** option in the **Design** tab of RPA Desktop Design Studio. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-bot-process.md).
+Assign the automation to the bot process by using the **Assign bot process** option in the **Design** tab of RPA Desktop Design Studio. For more information, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-bot-process.md).
 
 Role required: none
 
 ## About this task
 
-You can configure the properties for the SetSharedParameter component. For more information about these properties, see [Properties of the shared parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-rpahub-shared-parameters.md).
+You can configure the properties for the SetSharedParameter component. For more information about these properties, see [Properties of the shared parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/properties-rpahub-shared-parameters.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ You can configure the properties for the SetSharedParameter component. For more 
 
 2.  Drag the SetSharedParameter component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the SetSharedParameter component to the corresponding ports of the other components.
 
@@ -112,5 +112,5 @@ Yes
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Shared Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/shared-parameters.md)
+**Parent Topic:**[Shared Parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/shared-parameters.md)
 

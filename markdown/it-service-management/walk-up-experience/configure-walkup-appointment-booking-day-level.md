@@ -3,11 +3,11 @@ title: Configure day-level appointment booking
 description: Create or modify different schedules at a day level when booking appointments for a service. The appointments can be scheduled for different slots such as morning, afternoon, and evening.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/configure-walkup-appointment-booking-day-level.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create or modify a Walk-up Experience appointment booking service configuration, Configure Walk-up Experience appointment booking, Walk-up Experience appointment booking administration, Book Walk-up Experience appointments, Configure, Walk-up Experience, IT Service Management]
 ---
@@ -150,5 +150,5 @@ Provides a preview of the appointment windows and times based on the selected st
 </table>7.  Select **Submit**.
 
 
-**Parent Topic:**[Create or modify a Walk-up Experience appointment booking service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/configure-walkup-appointments.md)
+**Parent Topic:**[Create or modify a Walk-up Experience appointment booking service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/configure-walkup-appointments.md)
 

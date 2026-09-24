@@ -3,9 +3,9 @@ title: Install ITOM SU Licensing
 description: Install or update the ServiceNow ITOM SU Licensing \[sn\_itom\_licensing\] to ensure you use the latest licensing functionality. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/install-otm-su-licensing.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -30,7 +30,7 @@ The following items are installed with ITOM SU Licensing:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with ITOM SU Licensing for OTM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/components-installed-otm-su-licensing.md).
+For more information, see [Components installed with ITOM SU Licensing for OTM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/components-installed-otm-su-licensing.md).
 
 ## Procedure
 

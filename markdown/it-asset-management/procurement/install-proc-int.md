@@ -3,11 +3,11 @@ title: Install Asset Management - Procurement Integration
 description: You can install the Asset Management - Procurement Integration application \(app-itam-procurement-integration\) from the ServiceNow Store.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/install-proc-int.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with external procurement applications, Procurement, Common applications, Asset Management]
 ---
@@ -29,7 +29,7 @@ After the Asset Management - Procurement Integration has been entitled, you can 
 
 Scheduled jobs and tables are installed with Asset Management - Procurement Integration:
 
-For more information, see [Components installed with Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/installed-with-proc-int.md).
+For more information, see [Components installed with Asset Management - Procurement Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/installed-with-proc-int.md).
 
 ## Procedure
 

@@ -3,11 +3,11 @@ title: Create a risk assessment using the Risk Assessment Designer
 description: Use the Risk Assessment Designer to create and edit metric types, use different metric types for different risks, select multiple respondents for a risk assessment, as well as change scoring parameters. The Question Bank offers a library of questions for various categories, so you do not have to build each questionnaire from scratch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-assessment-using-assessment-designer.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assess risks, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -57,7 +57,7 @@ Role required: sn\_risk.asmt\_creator, sn\_risk.manager
 
 5.  Click one of the following tabs to change the view in the canvas.
 
-<table id="choicetable_lvf_45v_lz"><tbody><tr><td id="d311506e347">
+<table id="choicetable_lvf_45v_lz"><tbody><tr><td id="d316057e347">
 
 **Design**
 
@@ -65,7 +65,7 @@ Role required: sn\_risk.asmt\_creator, sn\_risk.manager
 
 Add categories and questions, and configure the properties of each. This is the default view of the canvas when you open the designer.
 
-</td></tr><tr><td id="d311506e356">
+</td></tr><tr><td id="d316057e356">
 
 **Configuration**
 
@@ -73,7 +73,7 @@ Add categories and questions, and configure the properties of each. This is the 
 
 Create introductions and end notes for attestations, and select a signature.
 
-</td></tr><tr><td id="d311506e365">
+</td></tr><tr><td id="d316057e365">
 
 **Availability**
 
@@ -86,7 +86,7 @@ Select the recipients for each category in the attestation.
 
     **Note:** The availability of each option depends on the status of the assessment that is opened in the designer.
 
-<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d311506e390">
+<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d316057e390">
 
 **Save**
 
@@ -94,7 +94,7 @@ Select the recipients for each category in the attestation.
 
 Save the current assessment.
 
-</td></tr><tr><td id="d311506e399">
+</td></tr><tr><td id="d316057e399">
 
 **Preview**
 
@@ -102,7 +102,7 @@ Save the current assessment.
 
 Display a preview to the selected recipients.
 
-</td></tr><tr><td id="d311506e408">
+</td></tr><tr><td id="d316057e408">
 
 **Publish**
 
@@ -110,7 +110,7 @@ Display a preview to the selected recipients.
 
 Distributes the assessment to the selected recipients.
 
-</td></tr><tr><td id="d311506e417">
+</td></tr><tr><td id="d316057e417">
 
 **Save and Publish**
 
@@ -118,7 +118,7 @@ Distributes the assessment to the selected recipients.
 
 Saves and distributes the assessment in one step.
 
-</td></tr><tr><td id="d311506e426">
+</td></tr><tr><td id="d316057e426">
 
 **New Attestation**
 
@@ -126,7 +126,7 @@ Saves and distributes the assessment in one step.
 
 Opens a fresh canvas for a new assessment.
 
-</td></tr><tr><td id="d311506e436">
+</td></tr><tr><td id="d316057e436">
 
 **Load Attestation**
 
@@ -138,5 +138,5 @@ Opens a list of existing assessment that you can select and edit.
 </table>    Unlike other types of assessments, risk assessments do not appear in the **Self-Service** &gt; **My assessments &amp; surveys** module, because hundreds of control attestations could be generated at once. Instead,risk assessments are shown as a list in the **Risk** &gt; **Risk Register** &gt; **My Assessments** and **Risk** &gt; **Risk Register** &gt; **All Assessments** module.
 
 
-**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
+**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
 

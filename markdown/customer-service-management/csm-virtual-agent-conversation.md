@@ -3,9 +3,9 @@ title: Get help using virtual agent conversations
 description: Predefined Customer Service Virtual Agent chatbot conversations help your customers complete common self-service tasks, such as getting help with a product or checking the status of a case. Use predefined NLU with your virtual agent chatbot topics to enable the chatbot to assess user intent and provide the best response based on the conversation's context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-virtual-agent-conversation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ ServiceNow NLU enables discovery of the chatbot topics based on either the keywo
 
 1.  Navigate to the Customer Service Management portal.
 
-2.  Select **Chat**.
+2.  Select the chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\).
 
     You can select **Show Me Everything** to display all available topics or enter keywords to narrow down the results to relevant topics.
 
@@ -44,15 +44,15 @@ ServiceNow NLU enables discovery of the chatbot topics based on either the keywo
 
 4.  Use
 
-<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d322168e149">
+<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d328886e152">
 
 To
 
-</th><th align="left" id="d322168e152">
+</th><th align="left" id="d328886e155">
 
 Follow these steps
 
-</th></tr></thead><tbody><tr><td id="d322168e158">
+</th></tr></thead><tbody><tr><td id="d328886e161">
 
 **Check the status of a case**
 
@@ -72,7 +72,7 @@ Follow these steps
     -   Contact an agent.
 
 
-</td></tr><tr><td id="d322168e222">
+</td></tr><tr><td id="d328886e221">
 
 **Get help with a product**
 
@@ -92,7 +92,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 -   Contact an agent
 
 
-</td></tr><tr><td id="d322168e271">
+</td></tr><tr><td id="d328886e270">
 
 **Get help with an order**
 
@@ -111,7 +111,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
     -   Contact an agent
 
 
-</td></tr><tr><td id="d322168e330">
+</td></tr><tr><td id="d328886e327">
 
 **Get help**
 
@@ -119,7 +119,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 
 If you’re an anonymous user not logged in to the application, enter keywords for your issue. The chatbot returns a list of related knowledge articles that have been made public. If there are no matching articles that would help resolve the issue, you can choose to be transferred to a live agent.
 
-</td></tr><tr><td id="d322168e352">
+</td></tr><tr><td id="d328886e349">
 
 **Submit Request**
 
@@ -128,14 +128,14 @@ If you’re an anonymous user not logged in to the application, enter keywords f
 1.  Initiate submitting your request for one of the catalog items.
     -   If you’re using the virtual agent conversation without enabling NLU, select **Show Me Everything** and then select **Submit a request**.
     -   If you’re using NLU in your virtual agent conversation, enter an utterance. For example, open a request that identifies an associated NLU intent.
-2.  Select the catalog item. The Search Catalog Item topic block searches for the catalog item and displays a link based on your search. For more information about search catalog item, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent.md)
+2.  Select the catalog item. The Search Catalog Item topic block searches for the catalog item and displays a link based on your search. For more information about search catalog item, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent.md)
 
 **Note:** Wherever the topic is opened, the records display on the same portal.
 
 3.  Select the link displayed and exit the virtual agent if you don’t have any further request.
 
 
-</td></tr><tr><td id="d322168e403">
+</td></tr><tr><td id="d328886e398">
 
 **Create Case**
 
@@ -150,7 +150,7 @@ Creates a case from Virtual Agent. You need the following fields to create a cas
 -   consumer\_sys\_id
 The values of the fields can be empty. If the account, contact, and consumer fields are empty, the logged-in user details are populated. The topic block returns the variable case\_sys\_id from the topic block.
 
-</td></tr><tr><td id="d322168e433">
+</td></tr><tr><td id="d328886e428">
 
 **Update Case**
 
@@ -166,7 +166,7 @@ Updates a case from Virtual agent. You need the following two fields to update a
 -   enable\_product\_update - If set to true, the Add product information option is displayed. It updates the asset and model information.
 The topic block returns the variable case\_sys\_id
 
-</td></tr><tr><td id="d322168e468">
+</td></tr><tr><td id="d328886e465">
 
 **Log a complaint**
 
@@ -182,9 +182,9 @@ Select this option to create a complaint case from Virtual Agent. Provide a brie
 -   Expected resolution
  After the case is created, you can add a comment to the case or add attachments.
 
-**Note:** This option is available with the [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-complaint-overview.md) application.
+**Note:** This option is available with the [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-complaint-overview.md) application.
 
-</td></tr><tr><td id="d322168e514">
+</td></tr><tr><td id="d328886e520">
 
 **Request a callback**
 
@@ -199,7 +199,7 @@ Request a callback when the wait time to reach agents is long or agents are unav
 **Related topics**  
 
 
-[Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-chatbot.md)
+[Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-virtual-agent-chatbot.md)
 
-[Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/topic-blocks-overview.md)
+[Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/topic-blocks-overview.md)
 

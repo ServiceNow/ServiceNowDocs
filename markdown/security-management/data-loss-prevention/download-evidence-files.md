@@ -3,11 +3,11 @@ title: Download evidence files
 description: Download DLP incident evidence files that violate the DLP policy on Symantec.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/download-evidence-files.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a profile for Symantec DLP integration, Symantec Integration for Data Loss Prevention Incident Response, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -62,7 +62,7 @@ Role required:
 
 After performing this action, the evidence file in either ZIP format \(if the incident has violations in multiple components and/or the original message data is also available\) or a single file \(if incident has violations in single component or only original message data is available\) will be downloaded to the user's local machine.
 
-**Note:** As a DLP admin, you can control the access of **Download File** action by disabling the **Should downloading the violating file of the reported incident be allowed**option from the **Advanced Settings** page. For more information, see [Configure advanced settings for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
+**Note:** As a DLP admin, you can control the access of **Download File** action by disabling the **Should downloading the violating file of the reported incident be allowed**option from the **Advanced Settings** page. For more information, see [Configure advanced settings for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
-**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
+**Parent Topic:**[Create a profile for Symantec DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/create-profile-symantec-dlp.md)
 

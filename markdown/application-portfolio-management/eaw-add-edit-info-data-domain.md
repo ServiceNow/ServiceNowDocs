@@ -3,9 +3,9 @@ title: Add or edit an information data domain
 description: Create or edit an information data domain to logically group related information objects and govern how information is organized and linked to underlying data sources across business applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-edit-info-data-domain.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure information data domains, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -38,15 +38,15 @@ A data domain is a collection of information objects. ServiceNow® Discovery fin
     -   To update details of an existing data domain, select a domain, then select **Edit**.
 6.  On the form, fill in the fields.
 
-    For field information, see [Data Domain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/data-domain-form.md).
+    For field information, see [Data Domain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/data-domain-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure information data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-info-data-domains.md)
+**Parent Topic:**[Configure information data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-info-data-domains.md)
 
 **Related topics**  
 
 
-[View information data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-info-data-domains.md)
+[View information data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-info-data-domains.md)
 

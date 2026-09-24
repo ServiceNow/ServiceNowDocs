@@ -3,9 +3,9 @@ title: Run a single data job
 description: Running the data job/jobs is the fourth step in transforming a field. This topic explains how to run a single data job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_RunASingleDataJob.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Normalization and transformation data jobs, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

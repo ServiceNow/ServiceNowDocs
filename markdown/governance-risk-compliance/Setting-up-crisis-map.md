@@ -1,18 +1,18 @@
 ---
-title: Setting up the Crisis Map
-description: Before integrating the Crisis Map with asset locations, configure settings to display active alerts.
+title: Setting up the crisis map
+description: Before you integrate the crisis management map with the geographical locations of your assets, complete certain configurations to display active alerts in the crisis map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/Setting-up-crisis-map.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Setting up the Crisis Map
+# Setting up the crisis map
 
-Before integrating the Crisis Map with asset locations, configure settings to display active alerts.
+Before you integrate the crisis management map with the geographical locations of your assets, complete certain configurations to display active alerts in the crisis map.
 
 ## Understanding feed, alert, and event
 
@@ -22,20 +22,20 @@ Before integrating the Crisis Map with asset locations, configure settings to di
 
 -   **Alert**
 
-    An alert is a notification that reports that an incident happened at a particular place and time. First, an incident or an event reportedly happens. Then, the alert triggers a notification that reports or notifies the incident to the concerned people to take an action.
+    An alert is a notification that reports an incident happened at a particular place and time. First, an incident or an event reportedly happens. Then, the alert triggers a notification that reports or notifies the incident to the concerned people to take an action.
 
 -   **Event**
 
-    Based on the severity of the alerts, you can take actions by just notifying the stakeholders of the incident that happened or declare a crisis event. An event can become a crisis event if it disrupts the business operations. In such a case, you can run the [Crisis Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-recovery-exercise-management.md) to activate the business continuity and disaster recovery plans for the locations impacted by the event.
+    Based on the severity of the alerts, you can take actions by just notifying the stakeholders of the incident that happened or declare a crisis event. An event can become a crisis event if it disrupts the business operations. In such a case, you can run the [Crisis Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-recovery-exercise-management.md) to activate the business continuity and disaster recovery plans for the locations impacted by the event.
 
 
 ## Setup steps to integrate crisis map
 
 You require these configurations for the threat and alert feeds to show up in the crisis map visualization.
 
--   To search locations on the crisis map, [set up the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-place-api-configuration.md).
--   To manage your threat feed subscriptions sourced internally and externally, [configure scheduled data imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-scheduled-data-imports.md).
--   To plot your organization's assets or resources on the crisis map, [configure the resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-configure-resource.md).
--   To specify the conditions under which a feed should bubble up as an alert on the crisis map, [configure alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-alert-configuration.md).
--   Finally, to act on a critical alert from the crisis map dashboard, [configure an alert action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-alert-actions.md).
+-   To search locations on the crisis map, [set up the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/crisis-map-place-api-configuration.md).
+-   To manage your threat feed subscriptions sourced internally and externally, [configure scheduled data imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/crisis-map-scheduled-data-imports.md).
+-   To plot your organization's assets or resources on the crisis map, [configure the resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/crisis-map-configure-resource.md).
+-   To specify the conditions under which a feed should bubble up as an alert on the crisis map, [configure alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/crisis-map-alert-configuration.md).
+-   Finally, to act on a critical alert from the crisis map dashboard, [configure an alert action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/crisis-map-alert-actions.md).
 

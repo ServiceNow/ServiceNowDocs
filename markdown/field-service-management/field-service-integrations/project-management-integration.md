@@ -3,11 +3,11 @@ title: Integration with Project Portfolio Management
 description: Link project tasks to work orders to assist with managing installation or deployment projects in the field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/project-management-integration.html
-release: australia
+release: brazil
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
@@ -55,8 +55,8 @@ Work order and project task states are updated as follows.
 
 Activate the Field Service with Project Management plugin \(com.snc.wm\_ppm\) to use this feature. This plugin requires the Field Service Management plugin \(com.snc.work\_management\) and the PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
 
--   **[Customize the work order state transition map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/customize-state-transition-map.md)**  
+-   **[Customize the work order state transition map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/customize-state-transition-map.md)**  
 Users with the system administrator role can customize the work order state transition map, which maps work order states to project task states.
 
-**Parent Topic:**[Integrating Field Service Management with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/integrate-fsm-other-applications.md)
+**Parent Topic:**[Integrating Field Service Management with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-integrations/integrate-fsm-other-applications.md)
 

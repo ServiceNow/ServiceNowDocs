@@ -3,11 +3,11 @@ title: SAP Sybase ASE discovery
 description: Discovery and Service Mapping uses the Sybase pattern to find SAP Sybase Adaptive Server Enterprise \(ASE\) databases and catalogs in your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-Sybase.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Patterns, Discovery, Service, Mapping, Sybase, database, catalog]
 breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -31,7 +31,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     Visibility Content
 
-    For details on the product discovered see [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md)
+    For details on the product discovered see [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md)
 
     **Note:** Discovery finds Sybase Catalog that run on Linux only.
 
@@ -40,7 +40,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     When configuring the Applicative Credentials, make sure you specify `Sybase Instance [cmdb_ci_db_syb_instance]` as the CI type.
 
-    For more information on Applicative Credentials, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md)
+    For more information on Applicative Credentials, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/applicative-creds.md)
 
 -   **Verify that the user have permission to run the following commands**
 
@@ -52,7 +52,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   `"export SYBASE=" + $process.environmentVariables.SYBASE.value + " && . " + $process.environmentVariables.SYBASE.value + "/SYBASE.sh && echo -ne 'set nocount on select name from sysdatabases\ngo\n' | " + $isql_path + " -U $$username$$ -P '$$password$$' -S " + $instance + " -w 999 -b -y " + $process.environmentVariables.SYBASE.value`
 -   **Verify the configuration of a Discovery schedule**
 
-    For detailed information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md)
+    For detailed information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/running-discoveries.md)
 
 
 ## Data collected during Horizontal discovery
@@ -83,5 +83,5 @@ These relationships are created to support the Sybase ASE discovery.
 |---|------------|---|
 |\[cmdb\_ci\_db\_syb\_instance\]|Contains::Contained by|\[cmdb\_ci\_db\_syb\_catalog\]|
 
-**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/database-discovery.md)
+**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/database-discovery.md)
 

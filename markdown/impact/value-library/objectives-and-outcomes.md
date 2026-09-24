@@ -3,11 +3,11 @@ title: Objectives and outcomes
 description: The value management lifecycle begins with Objectives and outcomes which form its foundation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/objectives-and-outcomes.html
-release: australia
+release: brazil
 product: Value Library
 classification: value-library
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Value management, Using Impact, Impact]
 ---
@@ -43,7 +43,7 @@ The Objectives and Outcomes page provides the following capabilities:
 -   Establish a baseline and a target. Every outcome has a reference quarter and a goal, providing a benchmark for measuring performance over time.
 -   Compare a selected business objective under the same product across multiple ServiceNow instances, using the Instance filter on the Objectives and Outcomes and Outcome Insights pages.
 
-Outcomes versioning also carry an outcome model either Standard or Enhanced. Outcome model distinguishes between the standard and enhanced sets of outcome definitions in the Impact Value App, helping you track performance consistently and interpret your results accurately. For more information, see [Outcome versioning in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/outcome-versioning-in-impact.md).
+Outcomes versioning also carry an outcome model either Standard or Enhanced. Outcome model distinguishes between the standard and enhanced sets of outcome definitions in the Impact Value App, helping you track performance consistently and interpret your results accurately. For more information, see [Outcome versioning in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/outcome-versioning-in-impact.md).
 
 Use the **Tracking** and **Progress state** columns to view whether an outcome is actively being tracked and its current progress. The Outcome name, Success metric, Product line, and Driver columns provide context about what each outcome measures and where it fits your value framework.
 

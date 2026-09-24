@@ -3,11 +3,11 @@ title: Copy an automated test suite
 description: Reduce time when creating tests by copying an entire test suite. Rename and modify the test suite after copying. The Copy Test Suite button on the Test Suite form copies all the nested tests and child test suites within the text suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-copy-test-suite.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Building and running automated test suites, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -34,7 +34,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
     If any tests or child test suites fail to copy, they are skipped and copying of the remaining tests and child test suites continues. A warning message showing a partial success appears below the progress bar.
 
-    **Note:** You can copy a test suite only when it's in the same scope as the current scope. The **Copy Test Suite** button appears only when the test suite is in the same scope. The scopes of the tests in a suite are preserved when copying a test suite. See [Application Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) for more information.
+    **Note:** You can copy a test suite only when it's in the same scope as the current scope. The **Copy Test Suite** button appears only when the test suite is in the same scope. The scopes of the tests in a suite are preserved when copying a test suite. See [Application Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md) for more information.
 
     \[Omitted image "atf-partial-copy-test-suites.png"\] Alt text: Progress tracker showing partial success.
 
@@ -53,5 +53,5 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 A copy of the test suite along with all the nested tests and child test suites is created.
 
-**Parent Topic:**[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md)
+**Parent Topic:**[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md)
 

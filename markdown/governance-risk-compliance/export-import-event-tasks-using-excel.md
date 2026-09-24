@@ -3,12 +3,12 @@ title: Export data into Microsoft Excel and update the file
 description: Export event task records to an Microsoft Excel file, edit the data offline, and re-import the updated file to apply changes in bulk. Use this task for updating multiple event task records simultaneously outside the ServiceNow interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/export-import-event-tasks-using-excel.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [BCM, import, export, Excel, event task, bulk update]
-breadcrumb: [Importing and exporting event tasks in Microsoft Excel, Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Importing and exporting event tasks in Microsoft Excel, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Export data into Microsoft Excel and update the file
@@ -49,11 +49,11 @@ The export and import feature is available from the Event tasks related list on 
 
     \[Omitted image "instructions-sheet.png"\] Alt text: The Instructions sheet in the exported Excel file showing per-column guidance, valid values, and examples.
 
-    The workbook contains three sheets:
+    The workbook contains the following sheets:
 
     -   Instructions — Describes each column: whether it is mandatory or read-only, valid values, required date formats, and an example. Review this sheet before editing.
-    -   Event Details — A read-only reference sheet showing the properties of the parent event. Do not edit this sheet.
-    -   Event Tasks — The main data sheet. Row 1 is hidden and contains technical field names. Row 2 displays column labels. Data begins at row 3. Drop-down lists and field validation are pre-configured.
+    -   Event details — A read-only reference sheet showing the properties of the parent event. Do not edit this sheet.
+    -   Event tasks — The main data sheet. Row 1 is hidden and contains technical field names. Row 2 displays column labels. Data begins at row 3. Drop-down lists and field validation are pre-configured.
     **Note:** If no event task records exist, the file downloads as an empty template with headers and drop-down lists only. You can use this template to understand the expected format before any data exists.
 
 7.  Open the downloaded Microsoft Excel file and edit the event task records as needed.
@@ -83,10 +83,10 @@ The export and import feature is available from the Event tasks related list on 
 8.  Save the Microsoft Excel file after completing your edits.
 
 
-**Parent Topic:**[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md)
+**Parent Topic:**[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-export-import-feature-event-tasks.md)
 
 **Related topics**  
 
 
-[Import data from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/import-data-from-excel.md)
+[Import data from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/import-data-from-excel.md)
 

@@ -1,22 +1,22 @@
 ---
 title: Service Exchange for Providers
-description: Use the Service Exchange for Providers application to create and publish service catalogs, receive and fulfill consumer requests, and integrate with consumer instances.
+description: Use the Service Exchange for Providers application to create and publish catalogs of services, receive, and fulfill requests generated from consumers, and establish integrations with consumer instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-providers-landing-page.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Exchange]
 ---
 
 # Service Exchange for Providers
 
-Use the Service Exchange for Providers application to create and publish service catalogs, receive and fulfill consumer requests, and integrate with consumer instances.
+Use the Service Exchange for Providers application to create and publish catalogs of services, receive, and fulfill requests generated from consumers, and establish integrations with consumer instances.
 
-## Service Exchange overview
+## Service Exchange Overview
 
 As a provider, you can:
 
@@ -26,17 +26,17 @@ As a provider, you can:
 
 <table id="table_k52_dyx_yxb" class="nav-card"><tbody><tr><td>
 
-[Configure for providers\[Omitted image "bus-optimize-manage-sb.svg"\]Learn how to install and configure Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-configure-provider.md)
+[Configure for providers\[Omitted image "bus-optimize-manage-sb.svg"\]Learn how to install and configure Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-configure-provider.md)
 
 </td><td>
 
-[Use for providers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-administer.md)
+[User for providers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-administer.md)
 
 </td></tr></tbody>
-</table>If you’re a consumer, see [Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-consumers-landing-page.md).
+</table>If you’re a consumer, see [Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-consumers-landing-page.md).
 
 **Related topics**  
 
 
-[Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-consumers-landing-page.md)
+[Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-consumers-landing-page.md)
 

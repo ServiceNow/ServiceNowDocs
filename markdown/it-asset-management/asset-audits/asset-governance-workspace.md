@@ -3,11 +3,11 @@ title: Asset Governance Workspace
 description: If you are an asset manager, you can use the Asset Governance Workspace to get a comprehensive view of your assigned evidence requests and to track and manage your responses to those requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/asset-governance-workspace.html
-release: australia
+release: brazil
 product: Asset Audits
 classification: asset-audits
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Asset Audit Response, IT Asset Management, Asset Management]
 ---
@@ -25,5 +25,5 @@ The Asset Governance Workspace is a unified medium with a single view. This view
 -   Gain insight into important audit data, such as the due date and requirements of each request.
 -   Track and manage remediation tasks.
 
-The Asset Governance Workspace contains the [Asset governance overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/asset-governance-overview.md).
+The Asset Governance Workspace contains the [Asset governance overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-audits/asset-governance-overview.md).
 

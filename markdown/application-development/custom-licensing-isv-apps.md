@@ -3,9 +3,9 @@ title: Custom licensing for ISV applications
 description: Monitor the usage of ISV applications with Subscription Management. Create a definition for your store application with the metadata you want collected. After publishing the application with the definition to the store, Usage Analytics runs and aggregates your defined metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/custom-licensing-isv-apps.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -28,10 +28,10 @@ Custom licensing functions through the usage analytics \(com.glide.usageanalytic
 
 ## Custom license definitions
 
-Custom licensing is achieved by creating a definition. A definition is a set of licensing metrics that you define based on what usage information you want to collect for your application. See [Create a definition for your store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-definition-store-apps.md).
+Custom licensing is achieved by creating a definition. A definition is a set of licensing metrics that you define based on what usage information you want to collect for your application. See [Create a definition for your store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-definition-store-apps.md).
 
--   **[Create a definition for your store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-definition-store-apps.md)**  
+-   **[Create a definition for your store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-definition-store-apps.md)**  
 Create a definition for your store app to define the licensing metrics you want collected.
 
-**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md)
+**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_SharingApplications.md)
 

@@ -3,10 +3,10 @@ title: Bulk upload
 description: Upload records in bulk for Core Business Suite business units through the Now Assist conversational experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/manage-bulk-upload-using-na.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-26"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Core Business Suite \(CBS\), Configure Core Business Suite using Otto, Configure, Core Business Suite]
 ---
 
@@ -16,10 +16,7 @@ Upload records in bulk for Core Business Suite business units through the Now As
 
 ## Before you begin
 
-Ensure that the following are activated:
-
--   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)\)
--   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
+Ensure that Now Assist in Virtual Agent is installed. For more information, see .
 
 Role required: admin, sn\_cbs.admin
 
@@ -27,7 +24,7 @@ Role required: admin, sn\_cbs.admin
 
 1.  Navigate to **Admin** &gt; **Admin Home**.
 
-2.  On the Core Business Suite Foundation card, select **View product overview**.
+2.  On the Core Business Suite card, select **View product overview**.
 
 3.  In the Configuration insights section, select **Configure**.
 
@@ -36,14 +33,14 @@ Role required: admin, sn\_cbs.admin
 4.  From the navigation menu, select the section to which you want to bulk upload the details:
 
     -   **Workplace locations** under Workplace Services
-    -   **Supplier management** or **Supplier contacts** under Source-to-Pay
+    -   **Supplier management**, or **Supplier contacts** under Source-to-Pay
 5.  Select **Configure with Now Assist**.
 
-    Now Assist opens the conversational panel, detects the current page context, and invokes the CBS Bulk Upload agent.
+    Now Assist opens the conversational panel, detects the current page context, and invokes the CBS Bulk Upload Agent.
 
     **Note:** Now Assist guides you through follow‑up questions and requests confirmation before completing the bulk upload.
 
-6.  Select **Bulk upload** or enter a natural‑language prompt:
+6.  Select an **Bulk upload** or enter a natural‑language prompt:
 
     Example prompts:
 
@@ -52,7 +49,7 @@ Role required: admin, sn\_cbs.admin
     -   `Bulk upload records for workplace locations`.
     Now Assist processes your request, identifies the relevant template based on the selection, and provides it for download.
 
-7.  Download the bulk upload template.
+7.  Download the bulk template.
 
 8.  Enter the required data in the template and save the file.
 
@@ -62,7 +59,7 @@ Role required: admin, sn\_cbs.admin
 
 10. Review the validation results.
 
-11. If errors are reported, review and update the template file as needed, and re-upload it.
+11. If errors are reported, open the provided import link and correct the issues.
 
 12. If validation is successful, select **Process all rows**.
 
@@ -74,10 +71,10 @@ Role required: admin, sn\_cbs.admin
 
 15. Select **Mark as configured** when prompted.
 
-    Now Assist confirms that the bulk upload is complete with a success message.
+    Now Assist confirms the bulk upload is completed with a success message.
 
-16. Refresh the Core Business Suite Configuration Console to verify that the records are created successfully.
+16. Refresh the CBS Configuration Console to verify that the records were created successfully.
 
 
-**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
+**Parent Topic:**[ServiceNow Otto for Core Business Suite \(CBS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/now-assist-cbs.md)
 

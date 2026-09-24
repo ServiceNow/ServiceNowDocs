@@ -3,9 +3,9 @@ title: Configure the Order Jeopardy Enablement Policy
 description: Add Jeopardy Management workflows to product and service specifications using the Order Jeopardy Enablement Policy in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/enable-jeopardy-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Jeopardy Management, Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -41,12 +41,12 @@ Use Workflow Studio to define which product, service, or resource specification 
 
 ## What to do next
 
-After configuring Jeopardy Management, see [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md) to review different ways to monitor Jeopardy Management.
+After configuring Jeopardy Management, see [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/monitoring-jeopardy-management.md) to review different ways to monitor Jeopardy Management.
 
 **Related topics**  
 
 
-[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/jeopardy-management.md)
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/jeopardy-management.md)
 
-[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/monitoring-jeopardy-management.md)
 

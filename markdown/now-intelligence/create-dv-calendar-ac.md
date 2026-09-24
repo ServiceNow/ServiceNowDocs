@@ -3,9 +3,9 @@ title: Create a calendar report data visualization
 description: Create calendar report visualizations to show and highlight date-driven events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dv-calendar-ac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-15"
 reading_time_minutes: 4
 keywords: [Create calendar report, Create calendar visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -17,7 +17,7 @@ Create calendar report visualizations to show and highlight date-driven events.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/platform-analytics-roles.md).
 
 For information about the use of the Calendar report visualizations on dashboards, see [the Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/shared-components/sn-par-calendar-connected/usage). This site gives information about Calendar report components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
@@ -25,7 +25,7 @@ For information about the use of the Calendar report visualizations on dashboard
 
 The calendar visualization is used to show activity over the course of a longer span of time than most data visualizations. Use them when you want to condense date-specific information into a small space.
 
-**Note:** Calendar visualizations that are migrated from Core UI require a start time in the **Start date** field and an end time in the **End date** field. These fields are not required in Core UI, but are required in Platform Analytics experience.
+**Note:** Calendar visualizations that are migrated from Core UI require a start time in the **Start date** field and an end time in the **End date** field. These fields aren't required in Core UI, but are required in Platform Analytics experience.
 
 ## Procedure
 
@@ -37,7 +37,7 @@ The calendar visualization is used to show activity over the course of a longer 
 
 4.  In the configuration panel, configure the **Component header**.
 
-<table id="table_szd_jyh_njc"><thead><tr><th>
+<table><thead><tr><th>
 
 Field
 
@@ -91,7 +91,7 @@ Show description
 
 </td><td>
 
-Adds an information icon to the visualization. This icon opens the component description in a pop-up.
+Adds an information icon \(\[Omitted image "icon-info.png"\] Alt text: Information icon\) to the visualization. This icon opens the component description in a pop-up.
 
 </td></tr></tbody>
 </table>5.  In the **Data** section, specify the source table, predefined condition, date range, and filter options.
@@ -110,7 +110,7 @@ Table
 
 </td><td>
 
-Select the table or [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) to report calendar events from.Default value: task
+Select the table or [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) to report calendar events from.Default value: task
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Edit filter table
 
 </td><td>
 
-Conditions for filtering event records. This filter is applied when the end user views the calendar. Users can filter further if a filter component is added to the page. **Note:** This property adds a filter condition in addition to the table and predefined conditions, if any are applied.
+Conditions for filtering event records. This filter is applied when the end user views the calendar. Users can filter further if a filter component is added to the page. **Note:** This property adds a filter condition to the table and predefined conditions, if any are applied.
 
 </td></tr><tr><td>
 
@@ -142,15 +142,9 @@ End date field
 
 </td><td>
 
-Field to report on as the ending event. You must select a date field. Default value: Closed \[closed\_at\]
+Field to report on as the ending event. You must select a date field. Hidden if you select **Hide end date**.
 
-</td></tr><tr><td>
-
-Hide end date
-
-</td><td>
-
-Check box to hide the end date field. Events without an end date run for 1 hour.
+Default value: Closed \[closed\_at\]
 
 </td></tr><tr><td>
 
@@ -158,15 +152,15 @@ Highlight based on
 
 </td><td>
 
-Select a value in the drop-down to visually highlight the calendar events by its configured colors.
+Choose a field that has platform-defined field styling to highlight calendar events by configured colors. For more information, see [Define field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DefineFieldStyles.md).
 
 </td></tr><tr><td>
 
-Allow change highlighting
+Allow change highlighting field
 
 </td><td>
 
-Check box to enable **Highlight based on** field.
+Select this option to enable users to choose the field that governs highlighting.
 
 </td></tr><tr><td>
 
@@ -218,14 +212,14 @@ Default value: Month
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
-    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the Data Visualization list.
+    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the data visualization list.
 
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-dv-new-db.md)
--   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-dv-ac.md)
--   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/bookmark-dv-ac.md)
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-dv-new-db.md)
+-   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-dv-ac.md)
+-   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/bookmark-dv-ac.md)
 
-**Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/creating-data-visualizations.md)
+**Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/creating-data-visualizations.md)
 

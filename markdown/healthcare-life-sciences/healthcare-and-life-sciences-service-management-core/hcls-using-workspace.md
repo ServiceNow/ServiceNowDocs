@@ -3,11 +3,11 @@ title: Manage healthcare requests in Workspace
 description: As a healthcare agent, you can use Healthcare workspace to accept requests from patients via chat or a phone call and view patient-related information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-using-workspace.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -26,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Access the Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md).
+[Access the Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md).
 
 </td><td>
 
@@ -34,7 +34,7 @@ Use the landing page in Workspace to quickly scan and access healthcare cases.
 
 </td></tr><tr><td>
 
-[Respond to a healthcare request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-respond-healthcare-req.md).
+[Respond to a healthcare request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-respond-healthcare-req.md).
 
 </td><td>
 
@@ -42,7 +42,7 @@ Accept a work item and use an interaction record to respond to a healthcare requ
 
 </td></tr><tr><td>
 
-[Associate a patient record with an interaction in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-verify-patient.md).
+[Associate a patient record with an interaction in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-verify-patient.md).
 
 </td><td>
 
@@ -50,7 +50,7 @@ Look up for the patient information within an interaction, review and confirm th
 
 </td></tr><tr><td>
 
-[View patient information in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-patient-info.md).
+[View patient information in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-patient-info.md).
 
 </td><td>
 

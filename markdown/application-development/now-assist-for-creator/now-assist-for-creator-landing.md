@@ -3,13 +3,13 @@ title: ServiceNow Otto for Creator
 description: ServiceNow Otto for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/now-assist-for-creator-landing.html
-release: australia
+release: brazil
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-09-02"
-reading_time_minutes: 5
-keywords: [Now Assist, Now Assist for Creator, create with Now Assist, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, App generation, ServiceNow Otto, ServiceNow Otto for Creator]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [Now Assist, Now Assist for Creator, create with Now Assist, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, ServiceNow Otto, ServiceNow Otto for Creator]
 breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -25,99 +25,87 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 <table id="table_jb4_kgc_r1c_ddd" class="nav-card"><tbody><tr><td>
 
-[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install ServiceNow Otto for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install ServiceNow Otto for Creator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 
 </td><td>
 
-[App generation\[Omitted image "bus-application-development.svg"\] Alt text:Generate simplified apps with AI-generated tables, experiences, and roles tailored to your text prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)
+[App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
 
 </td><td>
 
-[App summary generation\[Omitted image "bus-news.svg"\] Alt text:Summarize what an app does using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)
+[ATF troubleshooting agent\[Omitted image "bus-field-service-technician.svg"\] Alt text:Simplify test failure diagnosis on specific metadata.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)
 
 </td></tr><tr><td>
 
-[ATF troubleshooting agent\[Omitted image "bus-field-service-technician.svg"\] Alt text:Simplify test failure diagnosis on specific metadata.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-troubleshooting-agent-landing-page.md)
+[Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in ServiceNow Studio and the ServiceNow IDE.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md)
 
 </td><td>
 
-[Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete scoped application, including core logic and user interface components, in ServiceNow Studio and the ServiceNow IDE.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)
+[Catalog item generation\[Omitted image "bus-service-catalog.svg"\] Alt text:Generate catalog items using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-catalog-generation.md)
 
 </td><td>
 
-[Catalog item generation\[Omitted image "bus-service-catalog.svg"\] Alt text:Generate catalog items using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-catalog-generation.md)
+[Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help writing scripts quickly with AI-generated code based on text or code prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/now-assist-code-landing.md)
 
 </td></tr><tr><td>
 
-[Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help writing scripts quickly with AI-generated code based on text or code prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-landing.md)
+[Flow generation\[Omitted image "bus-workflow.svg"\] Alt text:Create multiple step flows with generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-generation-landing.md)
 
 </td><td>
 
-[Flow generation\[Omitted image "bus-workflow.svg"\] Alt text:Create multiple step flows with generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-generation-landing.md)
+[Flow recommendations\[Omitted image "bus-innovation.svg"\] Alt text:Generate recommendations for the next step of a flow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-recommendations-landing.md)
 
 </td><td>
 
-[Flow recommendations\[Omitted image "bus-innovation.svg"\] Alt text:Generate recommendations for the next step of a flow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-recommendations-landing.md)
+[Flow summarization\[Omitted image "bus-news.svg"\] Alt text:Summarize what a flow or subflow does with generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-summarization.md)
 
 </td></tr><tr><td>
 
-[Flow summarization\[Omitted image "bus-news.svg"\] Alt text:Summarize what a flow or subflow does with generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-summarization.md)
+[Mobile card generation\[Omitted image "bus-mobile-phone.svg"\] Alt text:Generate cards for mobile applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/enable-mobile-card-generation.md)
 
 </td><td>
 
-[Mobile card generation\[Omitted image "bus-mobile-phone.svg"\] Alt text:Generate cards for mobile applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/enable-mobile-card-generation.md)
+[Playbook generation\[Omitted image "bus-service-aware.svg"\] Alt text:Generate a playbook from text directions or an image.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/generate-a-playbook-outline.md)
 
 </td><td>
 
-[Playbook generation\[Omitted image "bus-service-aware.svg"\] Alt text:Generate a playbook from text directions or an image.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/generate-a-playbook-outline.md)
+[Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist.md)
 
 </td></tr><tr><td>
 
-[Playbook recommendation\[Omitted image "bus-why-servicenow.svg"\] Alt text:Generate recommendation to replace placeholder activities in a playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/generate-playbook-recommendations.md)
+[Playbook recommendation\[Omitted image "bus-why-servicenow.svg"\] Alt text:Generate recommendation to replace placeholder activities in a playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/generate-playbook-recommendations.md)
 
 </td><td>
 
-[Playbook generation from KB\[Omitted image "bus-work-order.svg"\] Alt text:Generate a playbook from an existing KB article using AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/generate-playbook-from-kb.md)
+[Playbook generation from KB\[Omitted image "bus-work-order.svg"\] Alt text:Generate a playbook from an existing KB article using AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/generate-playbook-from-kb.md)
 
 </td><td>
 
-[Playbook summarization\[Omitted image "bus-news.svg"\] Alt text:Generate a summary of the playbook to understand the stages, activities, triggers, and inputs of the playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/generate-playbook-summary.md)
+[Playbook summarization\[Omitted image "bus-news.svg"\] Alt text:Generate a summary of the playbook to understand the stages, activities, triggers, and inputs of the playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/generate-playbook-summary.md)
 
 </td></tr><tr><td>
 
-[Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist.md)
+[Release lifecycle documentation AI agent\[Omitted image "bus-documentation.svg"\] Alt text:Generate readable documentation across the application lifecycle to improve traceability and governance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md)
 
 </td><td>
 
-[Release lifecycle documentation AI agent\[Omitted image "bus-documentation.svg"\] Alt text:Generate readable documentation across the application lifecycle to improve traceability and governance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md)
+[RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-bot-generation.md)
 
 </td><td>
 
-[RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md)
+[Theme creation\[Omitted image "bus-customize.svg"\] Alt text:Generate themes from images directly in Theme Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/theme-creation-with-ai.md)
 
 </td></tr><tr><td>
 
-[Test generation \[Omitted image "bus-siem.svg"\] Alt text:Automate test creation from simple descriptions with AI-powered test generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/test-generation-intro.md)
+[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/ui-generation-landing.md)
 
 </td><td>
 
-[Theme creation\[Omitted image "bus-customize.svg"\] Alt text:Generate themes from images directly in Theme Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)
-
-</td><td>
-
-[UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences by describing what you want using natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-generation-landing.md)
-
-</td></tr><tr><td>
-
-[Widget generation and updation\[Omitted image "bus-asset.svg"\] Alt text:Create and modify widgets via natural language prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/eslate-ai-widget-builder.md)
-
-</td><td>
-
- 
+[Widget generation and updation\[Omitted image "bus-asset.svg"\] Alt text:Create and modify widgets via natural language prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/eslate-ai-widget-builder.md)
 
 </td><td>
 
@@ -141,7 +129,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

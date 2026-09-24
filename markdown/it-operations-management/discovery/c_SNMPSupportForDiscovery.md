@@ -3,11 +3,11 @@ title: SNMP support for Discovery
 description: Discovery supports SNMP versions 1, 2c, and 3. If you have an active SNMP v3 credential, valid options for SNMP version are v3 or All. If you have an active SNMP v1 or v2 credential \(community string\), valid options for SNMP version are v1, v2c, or All. Default is All.Set up your credentials so Discovery can access SNMPv3 targets.You must also set the SNMP version after choosing the appropriate credential.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_SNMPSupportForDiscovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,9 +18,9 @@ Discovery supports SNMP versions 1, 2c, and 3. If you have an active SNMP v3 cre
 
 MID Servers support all SNMP protocol versions by default. You can set a MID Server to support only specific versions of SNMP.
 
-For SNMP credentials information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+For SNMP credentials information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md).
 
-SNMP probe parameters can be used while discovering an SNMP device. See [SNMP probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_SNMPProbeParameters.md) for more information.
+SNMP probe parameters can be used while discovering an SNMP device. See [SNMP probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_SNMPProbeParameters.md) for more information.
 
 ## Add an SNMPv3 user credential in Discovery
 
@@ -32,7 +32,7 @@ Role required: admin
 
 ### About this task
 
-A MID Server parameter is also available to control SNMP versions. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md).
+A MID Server parameter is also available to control SNMP versions. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-parameters.md).
 
 ### Procedure
 
@@ -167,7 +167,7 @@ Credential alias
 
 </td><td>
 
-Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow. You can assign different credentials to each occurrence of the same activity type.
+Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow. You can also assign different credentials to each occurrence of the same activity type.
 
 </td></tr><tr><td>
 
@@ -175,7 +175,7 @@ External credential store
 
 </td><td>
 
-Select this check box to use an external credential storage system. When external storage is enabled, the **Credential ID** field appears. External credential storage is only available when the [External Credential Storage plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateExtrnlCredStoragePlugIn.md) is activated and the **External Storage** view is selected.
+Select this check box to use an external credential storage system. When external storage is enabled, the **Credential ID** field appears. External credential storage is only available when the [External Credential Storage plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ActivateExtrnlCredStoragePlugIn.md) is activated and the **External Storage** view is selected.
 
 </td></tr><tr><td>
 
@@ -258,7 +258,7 @@ Role required: admin
 
 ### About this task
 
-A MID Server parameter is also available to control SNMP versions. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md).
+A MID Server parameter is also available to control SNMP versions. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-parameters.md).
 
 ### Procedure
 

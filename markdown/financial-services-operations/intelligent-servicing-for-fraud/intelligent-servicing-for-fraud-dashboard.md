@@ -3,11 +3,11 @@ title: Intelligent Servicing for Fraud dashboard
 description: Intelligent Servicing for Fraud contains a preconfigured dashboard with actionable data visualizations that can help your organization improve your business processes and quantify the value of self-service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/intelligent-servicing-for-fraud-dashboard.html
-release: australia
+release: brazil
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---

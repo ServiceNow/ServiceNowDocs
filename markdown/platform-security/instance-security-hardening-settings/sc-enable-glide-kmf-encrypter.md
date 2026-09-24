@@ -3,11 +3,11 @@ title: Enable glide KMF encrypter \[Removed in Security Center 1.3.2\]
 description: Manage the encrypters used for Password2 fields on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-glide-kmf-encrypter.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Stored cryptography, Hardening settings, Platform Security]
 ---
@@ -74,7 +74,7 @@ Category
 
 </td><td>
 
-[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
+[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
 
 </td></tr><tr><td>
 
@@ -92,8 +92,8 @@ References
 
 </td><td>
 
-[Password2 encryption with the Key Management Framework \(KMF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md)
+[Password2 encryption with the Key Management Framework \(KMF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
+</table>**Parent Topic:**[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
 

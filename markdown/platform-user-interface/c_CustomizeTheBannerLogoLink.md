@@ -3,9 +3,9 @@ title: Banner logo link
 description: Properties are available to control the URL and target frame used when clicking the banner logo.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_CustomizeTheBannerLogoLink.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a company profile, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Properties are available to control the URL and target frame used when clicking 
     -   **\_top**to replace the current browser window
     -   **\_blank** for a new window/tab
 
-**Parent Topic:**[Create a company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateACompanyProfile.md)
+**Parent Topic:**[Create a company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreateACompanyProfile.md)
 
 **Related topics**  
 

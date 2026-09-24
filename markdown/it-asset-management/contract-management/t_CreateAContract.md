@@ -3,11 +3,11 @@ title: Create a contract
 description: Create a contract with various contract models, which would act as a binding agreement between the two parties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_CreateAContract.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
@@ -471,18 +471,18 @@ Lists all service commitments for this vendor's offerings.
     -   Select **Update** to save and exit the contract.
     -   Select **Submit for Review** to send a notification to the approver.
 
--   **[Create a software maintenance contract example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_UseCaseCreateSWMaintContract.md)**  
+-   **[Create a software maintenance contract example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_UseCaseCreateSWMaintContract.md)**  
 One common use case for the Contract Management application is creating a contract to track maintenance payments for enterprise software. You can use this example to learn how to create a software maintenance contract.
--   **[Add an asset to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_AddAnAssetToAContract.md)**  
+-   **[Add an asset to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_AddAnAssetToAContract.md)**  
 You can associate contracts with specific assets, including software licenses.
--   **[Add a user to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_AddAUserToAContract.md)**  
+-   **[Add a user to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_AddAUserToAContract.md)**  
 A contract can cover specific users. For example, you may use a contract to hire a group of temporary workers.
--   **[Add a configuration item to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_AddAConfigurationItemToAContract.md)**  
+-   **[Add a configuration item to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_AddAConfigurationItemToAContract.md)**  
 Contracts can be associated with configuration items. You can link a contract with configuration items to clarify what the contract legally covers.
--   **[Add a document to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_AddADocumentToAContract.md)**  
+-   **[Add a document to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_AddADocumentToAContract.md)**  
 Contracts can be associated with documents. Linking a contract to related documents helps keep all relevant information about a contract together and easily accessible.
 
-**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 
@@ -499,15 +499,15 @@ Contracts can be associated with documents. Linking a contract to related docume
 
 [Monitor a contract]()
 
-[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md)
+[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/product-catalog/c_Models.md)
 
-[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/SPM2-landing-page.md)
+[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/SPM2-landing-page.md)
 
-[Add a commitment to a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/define-SPM2-service-commitments.md)
+[Add a commitment to a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/define-SPM2-service-commitments.md)
 
-[Contract renewal workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/cont-renew-wf.md)
+[Contract renewal workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/cont-renew-wf.md)
 
-[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_Contracts.md)
+[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/c_Contracts.md)
 
-[Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/extract-metadata-from-uploaded-contract-document.md)
+[Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/extract-metadata-from-uploaded-contract-document.md)
 

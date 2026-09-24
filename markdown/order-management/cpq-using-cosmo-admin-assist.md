@@ -3,11 +3,11 @@ title: Cosmo Admin Assist
 description: Cosmo Admin Assist delivers conversational, AI-powered guidance to help admins quickly find answers and general guidelines. Using Retrieval-Augmented Generation \(RAG\) and ServiceNow knowledge articles, it provides context-aware, actionable support directly in the CPQ Admin interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-using-cosmo-admin-assist.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Cosmo Admin Assist
@@ -33,5 +33,5 @@ Admin Assist continues to improve based on user feedback on its responses. Your 
 **Related topics**  
 
 
-[Cosmo SmartPredict](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-cosmo-smartpredict.md)
+[Cosmo SmartPredict](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-cosmo-smartpredict.md)
 

@@ -3,11 +3,11 @@ title: Configure an authentication policy
 description: Configure an authentication policy to define inputs and conditions to used to grant access to an instance or enforce multi-factor authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-allow-access-policy.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication policies, Adaptive authentication, Authentication, Access Management]
 ---
@@ -46,7 +46,7 @@ Role required: adaptive\_auth\_admin
 
     \[Omitted image "filter-criteria-allow-access-policy.png"\] Alt text: sample filter criteria for allow access policy
 
-    **Note:** For information on creating your own filter criteria to use in this section, see [Filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-auth-filter-criteria.md).
+    **Note:** For information on creating your own filter criteria to use in this section, see [Filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/adaptive-auth-filter-criteria.md).
 
 6.  From the **Policy Conditions** tab, click **New**.
 

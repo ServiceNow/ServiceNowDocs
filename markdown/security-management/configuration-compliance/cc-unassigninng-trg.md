@@ -3,11 +3,11 @@ title: Removing assignments from Configuration Compliance remediation tasks
 description: You can clear the Assigned to and Assignment group fields on remediation tasks and their associated test results directly from the test result records and remediation tasks that you determine might be incorrectly assigned to you or your groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-unassigninng-trg.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuration Compliance assignment rules overview, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -34,7 +34,7 @@ If you select **Unassign**, you are prompted that all the associated test result
 
 Any records that you update with either the UI button or manually, are displayed on the Unassigned module under Configuration Compliance.
 
-For the steps to reassign records using the **Unassigned** UI action, see [Remove assignments from remediation tasks for you or your groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-unassign-trg.md).
+For the steps to reassign records using the **Unassigned** UI action, see [Remove assignments from remediation tasks for you or your groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/cc-unassign-trg.md).
 
 ## System property and notifications
 

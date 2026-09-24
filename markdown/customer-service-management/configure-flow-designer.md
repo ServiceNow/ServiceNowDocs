@@ -1,16 +1,16 @@
 ---
-title: Configure proactive case flows
+title: Configure proactive case flows for accounts
 description: Automate workflows for proactive case creation to improve your operational efficiency and respond to customer issues faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-flow-designer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Proactive Customer Service, Extend capabilities, Configure, Customer Service Management]
 ---
 
-# Configure proactive case flows
+# Configure proactive case flows for accounts
 
 Automate workflows for proactive case creation to improve your operational efficiency and respond to customer issues faster.
 
@@ -37,6 +37,8 @@ If a single account is affected, you can also automate that an account and prima
 4.  In the **Major Case Status** field, set the initial status of the major case for multiple accounts.
 
     By default, this field is set to **None**. Based on your selection, the proactive case is either **Proposed**, **Accepted**, or **None**. If you set the status to **Accepted**, child cases are created automatically.
+
+    For more information on the major issue management, see [Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/major-issue-management.md).
 
 5.  In the **Affected Account Threshold** field, enter the number of affected accounts required for a proactive case to be eligible for major case processing.
 

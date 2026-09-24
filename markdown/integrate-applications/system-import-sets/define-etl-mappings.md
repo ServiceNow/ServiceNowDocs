@@ -3,11 +3,11 @@ title: Define ETL entity mappings
 description: Map the source entity to a target entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/define-etl-mappings.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create Extract Transform Load \(ETL\) definitions, Robust Import Set Transformers, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -88,7 +88,7 @@ Condition Script
 
 </td><td>
 
-Script that defines the conditions that must be met for the mapping. For an example of a conditional script, see [Temporary entity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/temp-entity-model.md).
+Script that defines the conditions that must be met for the mapping. For an example of a conditional script, see [Temporary entity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/temp-entity-model.md).
 
 </td></tr><tr id="application"><td>
 
@@ -116,8 +116,8 @@ Check box that designates if this ETL entity mapping should be ignored when perf
 
  To learn more about data integrations, see:
 
--   [Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
--   [Robust Import Set Transformers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/robust-import-set-transformers.md)
+-   [Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
+-   [Robust Import Set Transformers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/robust-import-set-transformers.md)
 
 
 </td></tr></tbody>

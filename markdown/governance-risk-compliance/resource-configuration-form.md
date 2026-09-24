@@ -3,9 +3,9 @@ title: Resource Configuration form
 description: Use the Resource Configuration form in BCM UIB Workspace to add details about a resource configuration record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/resource-configuration-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Resource Configuration records, Setup for Crisis map, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -31,5 +31,5 @@ Use the Resource Configuration form in BCM UIB Workspace to add details about a 
 |Display Fields|Fields selected for display as the contacts.|
 |Conditions|Conditions for filtering records from the table.|
 
-**Parent Topic:**[Configure Resource Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-resource-for-crisis-map-uib-ws.md)
+**Parent Topic:**[Configure Resource Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-resource-for-crisis-map-uib-ws.md)
 

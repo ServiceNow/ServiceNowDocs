@@ -3,11 +3,11 @@ title: ITOM Visibility use case
 description: The ITOM Visibility use cases are described in this section.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/itom-visibility-use-case-example.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ITOM Visibility and CSDM reference, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -57,18 +57,18 @@ The Service Map tab displays a visual representation of the service.
 
 \[Omitted image "service-map-diagram.png"\] Alt text: Service map diagram.
 
-**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
+**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
 
 **Related topics**  
 
 
-[Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-lifecycle-document.md)
+[Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-lifecycle-document.md)
 
-[Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-lifecycle-hardware.md)
+[Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-lifecycle-hardware.md)
 
-[Life cycle of location entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-lifecycle-location.md)
+[Life cycle of location entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-lifecycle-location.md)
 
-[Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-lifecycle-logical.md)
+[Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-lifecycle-logical.md)
 
-[Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-lifecycle-product.md)
+[Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-lifecycle-product.md)
 

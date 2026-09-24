@@ -3,13 +3,13 @@ title: Connect an external content connector to a search profile
 description: Make results from an external content connector searchable in your portals and search applications by connecting its search sources to your existing search profiles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/connect-external-content-connector-search-profile.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -25,9 +25,9 @@ Role required: sn\_ext\_conn.xcc\_admin or admin
 
 To make results from an external content connector searchable in a portal or search application, you need to link one of its search sources to the search profile used by that portal or search application. As an example, linking a connector's search source to the **Service Portal** search profile makes filtered content from that connector available in Service Portal searches.
 
-Each external content connector type feeds its crawled results to a unique indexed source. By default, the system creates a search source for each connector type which has no filters and includes all documents from the connector's indexed source. You can define additional search sources for the indexed source with filter sets applied to limit which documents are searchable. To learn more about search sources and filters, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md).
+Each external content connector type feeds its crawled results to a unique indexed source. By default, the system creates a search source for each connector type which has no filters and includes all documents from the connector's indexed source. You can define additional search sources for the indexed source with filter sets applied to limit which documents are searchable. To learn more about search sources and filters, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/search-sources-ais.md).
 
-Linking an external content connector's search source to a search profile makes crawled content that satisfies the search source's filters searchable in all portals and search applications that use the specified search profile. For more details on search profiles, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
+Linking an external content connector's search source to a search profile makes crawled content that satisfies the search source's filters searchable in all portals and search applications that use the specified search profile. For more details on search profiles, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
 
 ## Procedure
 
@@ -56,5 +56,5 @@ Linking an external content connector's search source to a search profile makes 
 
 For each connection you created, content from the selected external content connector search source becomes searchable in portals and search applications that use the selected search profile.
 
-**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 

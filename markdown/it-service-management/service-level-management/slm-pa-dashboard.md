@@ -3,20 +3,18 @@ title: Service level management PA dashboard
 description: The Service Level Agreement \(SLA\) Overview module provides a Performance Analytics \(PA\) Dashboard to review SLA information at a glance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/slm-pa-dashboard.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-07-16"
-reading_time_minutes: 5
-breadcrumb: [Legacy: Platform Analytics Solutions for Service Level Management, Service Level Management reference, Service Level Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Platform Analytics Solutions for Service Level Management, Service Level Management reference, Service Level Management, IT Service Management]
 ---
 
 # Service level management PA dashboard
 
 The Service Level Agreement \(SLA\) Overview module provides a Performance Analytics \(PA\) Dashboard to review SLA information at a glance.
-
-**Note:** The Service Level Management PA dashboard is deprecated. SLA KPIs are available in the individual dashboards for each workflow, such as [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) or [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change.md). For more information on Platform Analytics Solutions containing preconfigured dashboards, see [ITSM dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack-sd.md).
 
 Users with the itil role can access the dashboard.
 
@@ -118,7 +116,7 @@ Average Assignment Duration \(Breached\)
 
 Shows the average duration of individual assignments for breached task SLAs completed yesterday. The KPI that provides the data captures this value on a daily basis to provide trend analysis.
 
- This report is based on SLA breakdown data and so shows data only for SLA definitions that are linked to an [SLA Breakdown definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-breakdown-definition.md).
+ This report is based on SLA breakdown data and so shows data only for SLA definitions that are linked to an [SLA Breakdown definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/sla-breakdown-definition.md).
 
 </td></tr><tr><td>
 
@@ -136,7 +134,7 @@ Average Assignment Duration \(Achieved\)
 
 Shows the average duration of individual assignments for achieved task SLAs completed yesterday. The KPI that provides the data captures this value on a daily basis to provide trend analysis.
 
- This report is based on SLA breakdown data and shows data only for SLA definitions that are linked to an [SLA Breakdown definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-breakdown-definition.md).
+ This report is based on SLA breakdown data and shows data only for SLA definitions that are linked to an [SLA Breakdown definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/sla-breakdown-definition.md).
 
 </td></tr><tr><td>
 
@@ -148,7 +146,7 @@ Shows the average duration of individual assignments for breached task SLAs comp
 
  The KPI that provides the data captures this value on a daily basis to provide trend analysis.
 
- This report is based on SLA breakdown data and shows data only for SLA definitions that are linked to an [SLA Breakdown definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-breakdown-definition.md).
+ This report is based on SLA breakdown data and shows data only for SLA definitions that are linked to an [SLA Breakdown definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/sla-breakdown-definition.md).
 
 </td></tr><tr><td>
 
@@ -160,8 +158,8 @@ Shows the average duration of individual assignments for achieved task SLAs comp
 
  The KPI that provides the data captures this value on a daily basis to provide trend analysis.
 
- This report is based on SLA Breakdown data and shows data only for SLA definitions that are linked to an [SLA Breakdown definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-breakdown-definition.md).
+ This report is based on SLA Breakdown data and shows data only for SLA definitions that are linked to an [SLA Breakdown definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/sla-breakdown-definition.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy: Platform Analytics Solutions for Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-mgmt-content-pack.md)
+</table>**Parent Topic:**[Platform Analytics Solutions for Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/service-level-mgmt-content-pack.md)
 

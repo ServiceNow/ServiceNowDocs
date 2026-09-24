@@ -3,11 +3,11 @@ title: Scheduled Entity Generation form
 description: The Scheduled Entity Generation form enables you to create, review and modify the schedule generation details for a default template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/scheduled-entity-generation-form.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Default Template forms, Reference, Telecommunications Network Inventory]
 ---
@@ -54,7 +54,7 @@ Run
 
 </td><td>
 
-Time interval to use for running the scheduled job. To learn more, see [Automatically generate something from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleTheGenerationOfAnEntity.md).
+Time interval to use for running the scheduled job. To learn more, see [Automatically generate something from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ScheduleTheGenerationOfAnEntity.md).
 
 </td></tr><tr><td>
 
@@ -97,10 +97,10 @@ Generate this
 Reference to the template record from which you are generating a scheduled job.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)
+</table>**Parent Topic:**[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)
 
 **Related topics**  
 
 
-[Create a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-default-templates.md)
+[Create a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-default-templates.md)
 

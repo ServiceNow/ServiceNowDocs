@@ -3,7 +3,7 @@ title: Use case: Pairing set repeaters and visualization components
 description: Learn how to configure an experience where the user must answer the same questions several times so that the user is presented with a rendering of the currently configured solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use-case-pairing-set-repeaters-and-visualization-components.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -24,5 +24,5 @@ For more information, see this video:
 
 [Visualization &amp; Set Repeater](https://www.youtube.com/watch?v=KIT6upZiQP8)
 
-**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-cases.md)
 

@@ -3,9 +3,9 @@ title: Explore the Application 360 dashboard in Enterprise Architecture Workspac
 description: The Application 360 dashboard performs as a reporting tool and uses Performance Analytics to provide a decision-making approach by identifying which business application requires focus and attention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-working-with-application-360-dashboard-in-enterprise-architecture-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring dashboards in Enterprise Architecture Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -30,10 +30,10 @@ The Application 360 dashboard contains the following sections:
 
 You can manually refresh the dashboard by using the refresh icon \(\[Omitted image "eaw-dashboard-refresh-icon.png"\] Alt text: Refresh dashboard icon.\).
 
-**Parent Topic:**[Exploring dashboards in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-dashboards-in-ea-workspace.md)
+**Parent Topic:**[Exploring dashboards in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-exploring-dashboards-in-ea-workspace.md)
 
 **Related topics**  
 
 
-[Monitor performance in Application 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-monitor-performance-in-application-360-dashboard.md)
+[Monitor performance in Application 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-monitor-performance-in-application-360-dashboard.md)
 

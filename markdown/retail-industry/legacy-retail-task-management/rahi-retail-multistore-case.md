@@ -3,11 +3,11 @@ title: Retail multi-store case
 description: The retail multi-store case enables the creation of child cases along with relevant tasks for affected stores. The retail multi-store case also enables tracking at the store level granularity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-retail-multistore-case.html
-release: australia
+release: brazil
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Retail Task Management, Retail]
 ---
@@ -22,7 +22,7 @@ This framework enables for a selection of affected retail stores which are parti
 
 The retail multi-store case relies on the CSM table map entries created as part of the multi-case configuration in the new service definition that you create for creating multi-store cases.
 
-For information on the setup process, see [Configuring Retail Task Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-task-management-configuring.md).
+For information on the setup process, see [Configuring Retail Task Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/legacy-retail-task-management/rahi-retail-task-management-configuring.md).
 
 ## Retail multi-store case process
 
@@ -36,5 +36,5 @@ After selecting the **Submitted case,**the parent multi-store case is saved and 
 
 \[Omitted image "rtmc-multi-store-message.png"\] Alt text: Case creation message.
 
-For more information on this process, see [Create multi-store cases in Retail Task Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/legacy-retail-task-management/rahi-retail-create-multi-store.md).
+For more information on this process, see [Create multi-store cases in Retail Task Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/legacy-retail-task-management/rahi-retail-create-multi-store.md).
 

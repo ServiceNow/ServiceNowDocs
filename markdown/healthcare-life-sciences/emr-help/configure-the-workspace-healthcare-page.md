@@ -3,11 +3,11 @@ title: Configure the healthcare record page to support your custom healthcare ca
 description: Configure the healthcare record page in Workspace to include your custom case type to display EMR session information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/configure-the-workspace-healthcare-page.html
-release: australia
+release: brazil
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure healthcare case types, Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---

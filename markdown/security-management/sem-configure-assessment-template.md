@@ -3,9 +3,9 @@ title: Configure an assessment template
 description: Assessment templates contain the questions prompted during the request process \(such as, when requesting an exception\). The above-mentioned preconfigured templates are provided with smart assessment. You can also create your own templates as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-assessment-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Questionnaire support in Exception Management via Smart Assessment, Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -21,6 +21,8 @@ Role required:
 **Template Reader Role**: **sn\_vul\_cmn.smart\_assessment\_reader** enables you \(Approver\) to read the submitted questionnaire responses.
 
 **Template Actor Role**: **sn\_vul\_cmn.smart\_assessment\_actor** enables you \(Remediation Owner and Admin\) to fill out the questionnaires/assessments.
+
+**Template Admin Role**: **sn\_vul\_cmn.smart\_assessment\_admin** enables full management of assessment templates, including create, edit, and delete operations on templates and template categories. Assign this role to users who own the assessment template library; the reader and actor roles cannot create or edit templates.
 
 ## About this task
 
@@ -39,5 +41,7 @@ In the Security Exposure Management workspace, you can select the template with 
     -   **Template Categories**: Templates are categorized for easier management. Some template categories are provided by default, for example, Vulnerability Response Questionnaire Templates. Alternatively, you can also create templates of your choice.
     -   **Assessment Targets**: Specifies the table that the template is related to. For VR, it’s the CA table \(Change Approval table\).
 
-**Parent Topic:**[Questionnaire support in Exception Management via Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-smart-assessment-exp-management.md)
+## What to do next
+
+After creating or selecting a template, you can associate it with a **Questionnaire Configuration** record to define when the questionnaire appears during the approval process. Navigate to the Questionnaire Configuration table and create a record linking the template to an approval rule type \(deferral requests, compensating control management, or false positive\) with a condition filter. For more information, see [Questionnaire Configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-compensating-controls-approval-rule.md).
 

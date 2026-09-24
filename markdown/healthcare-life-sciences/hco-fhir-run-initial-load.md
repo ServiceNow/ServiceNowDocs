@@ -3,9 +3,9 @@ title: Run the initial load
 description: Run the FHIR import on demand to perform the first full load of Organization, Location, Practitioner, and PractitionerRole data into the Healthcare Operations data model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-run-initial-load.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [initial load, full sync, execute now]
 breadcrumb: [EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]
@@ -19,7 +19,7 @@ Run the FHIR import on demand to perform the first full load of Organization, Lo
 
 Role required: `sn_hco_intg_fhir.admin`.
 
-The **FHIR Sync — Daily** job must be configured. See [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-activate.md).
+The **FHIR Sync — Daily** job must be configured. See [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-activate.md).
 
 ## About this task
 
@@ -35,7 +35,7 @@ The first time the sync runs, it performs a full load of all four FHIR resources
 
 3.  Verify the results in the FHIR Sync Log.
 
-    See [Monitor and troubleshoot FHIR sync runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-monitor-sync.md).
+    See [Monitor and troubleshoot FHIR sync runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-monitor-sync.md).
 
 
 ## Result

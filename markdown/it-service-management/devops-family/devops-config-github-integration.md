@@ -3,11 +3,11 @@ title: GitHub pipeline actions
 description: Use these actions in your GitHub pipeline to interact with the DevOps Config data model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-github-integration.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integrating your pipeline in DevOps Config, DevOps Config, IT Service Management]
 ---

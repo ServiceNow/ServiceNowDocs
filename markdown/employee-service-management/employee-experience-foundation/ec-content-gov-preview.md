@@ -3,11 +3,11 @@ title: Previewing and approving a content request item
 description: Content requesters can preview content request items before they approve it to be published.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-gov-preview.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing content requests, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -24,11 +24,11 @@ The content requester can preview the content item that appears in a preview por
 
 **Note:** Only rich content, news, and portal type content can be previewed.
 
-The portal used for previews is determined by the sn\_ca.campaign.preview.portal\_url\_suffix system property found in **Properties** under Content Experiences Configurations. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md) and [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
+The portal used for previews is determined by the sn\_ca.campaign.preview.portal\_url\_suffix system property found in **Properties** under Content Experiences Configurations. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md) and [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
 
 ## Email notification
 
 An email notification is sent to the content requester and appears as a to-do under **My Tasks** in the Employee Center Pro. A link is provided to the to-do.
 
-For information on setting up email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+For information on setting up email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md).
 

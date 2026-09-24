@@ -3,9 +3,9 @@ title: Human Resources analytics on the CBS dashboard
 description: The Human Resources tab on the Core Business Suite Analytics dashboard tracks open case volume and resolution trends for HR requests, helping managers assess workload distribution and identify staffing gaps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/hr-analytics-cbs-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Human Resources analytics, CBS Analytics, Core Business Suite dashboard, HR cases, performance trends]
 breadcrumb: [CBS Analytics overview, View Core Business Suite Analytics, Use, Core Business Suite]
@@ -39,5 +39,5 @@ The Performance trends section tracks case volume, resolution rates, and self-se
 |Mean time to resolve|Average number of days to resolve an HR case over the selected period. Example value: 6.5 days \(average for April 27 – May 26\).|
 |Total cases created by case type|A chart showing case volume broken down by HR case type. Case types include: General HR request, Beneficiaries Add/Modify, and Dental Benefits Inquiry.|
 
-**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-analytics-overview.md)
+**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-analytics-overview.md)
 

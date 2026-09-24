@@ -3,11 +3,11 @@ title: Save a copy of a flow history entry
 description: Create a copy of a flow history entry and save it as a new flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/save-copy-flow-history-entry.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flow history, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -59,5 +59,5 @@ You can save a copy of a flow history entry to preserve a previous flow configur
 
 Workflow Studio displays the copied flow configuration in a new tab.
 
-**Parent Topic:**[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-history.md)
+**Parent Topic:**[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-history.md)
 

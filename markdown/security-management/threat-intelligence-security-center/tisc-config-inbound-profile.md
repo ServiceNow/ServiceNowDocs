@@ -3,11 +3,11 @@ title: Configuring Inbound Intel Sharing Profiles
 description: This section describes the inbound intelligence sharing profiles used to receive intelligence from external organizations into TISC.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-config-inbound-profile.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Inbound Intel Sharing, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -78,7 +78,7 @@ Supported data formats for inbound intelligence sharing profile.Currently, two d
 
 -   STIX 2.1
 -   MISP
-For more information on the data formats description, see [Configuring Outbound Intel Sharing Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-sharing-profiles.md).
+For more information on the data formats description, see [Configuring Outbound Intel Sharing Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-outbound-sharing-profiles.md).
 
 </td></tr><tr><td>
 
@@ -160,7 +160,7 @@ Specifies the tags to be added to all the inbound intelligence received from ext
 9.  Select **Send** to send the details to the external user.
 
 
-**Parent Topic:**[Exploring Inbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-inbound-intel-sharing.md)
+**Parent Topic:**[Exploring Inbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-inbound-intel-sharing.md)
 
 **Related topics**  
 
@@ -169,7 +169,7 @@ Specifies the tags to be added to all the inbound intelligence received from ext
 
 [Defining Approval Rule for Inbound Intel]()
 
-[Configuring Inbound Intel Sharing Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-config-inbound-groups.md)
+[Configuring Inbound Intel Sharing Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-config-inbound-groups.md)
 
-[Defining Approval Rule for Inbound Intel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-approval-inbound-intel.md)
+[Defining Approval Rule for Inbound Intel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-approval-inbound-intel.md)
 

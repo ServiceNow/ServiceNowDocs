@@ -3,13 +3,13 @@ title: Create a Software Asset Management Foundation entitlement in workspace
 description: Create entitlements in the Software Asset Workspace to enter your license details and allocate purchased software rights to users or devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/create-samf-entitlement-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Software Asset Management Foundation plugin workspace, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Configuring Basic Software Asset Management workspace, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Create a Software Asset Management Foundation entitlement in workspace
@@ -36,8 +36,8 @@ When you start creating the entitlement, it is in the build status. After you pu
 
 4.  In the Create New Software Entitlement page, fill in the fields.
 
-    For a detailed description of the fields, see [Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
+    For a detailed description of the fields, see [Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
 
 
-**Parent Topic:**[Configuring Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)
+**Parent Topic:**[Configuring Basic Software Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)
 

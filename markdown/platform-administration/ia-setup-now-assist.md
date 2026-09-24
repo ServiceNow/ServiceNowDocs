@@ -3,10 +3,10 @@ title: Set up ServiceNow Otto with ServiceNow Otto for Setup
 description: Implement the following steps to set up ServiceNow Otto with ServiceNow Otto for Setup on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-setup-now-assist.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Administer, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -30,7 +30,9 @@ Role required: admin
 
     \[Omitted image "ia-install.png"\] Alt text: Screenshot showing the dynamically rendered apps and plugins tiles
 
-    **Note:** If you use an earlier version of Admin Center, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) for installation information about ServiceNow Otto. In the latest version of Admin Center, the ServiceNow Otto card appears in the Manage your products section.
+    The image shows only a sample set of products. Available products may change as new products are added in future releases. The products displayed in Product Hub depend on the entitlements available for your instance.
+
+    **Note:** If you use an earlier version of Admin Center, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) for installation information about ServiceNow Otto. In the latest version of Admin Center, the ServiceNow Otto card appears in the Manage your products section.
 
     **Note:** The Manage your products section is collapsible by default. You can expand it to see all the product family cards.
 
@@ -56,8 +58,8 @@ Role required: admin
 
 6.  Once you are done installing all the necessary applications and plugins, select **Go to ServiceNow Otto Admin** on the Product Hub page to boost your AI capabilities.
 
-    See [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md) for more information on configuration of ServiceNow Otto Admin module.
+    See [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md) for more information on configuration of ServiceNow Otto Admin module.
 
 
-**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)
+**Parent Topic:**[Administer ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-administer.md)
 

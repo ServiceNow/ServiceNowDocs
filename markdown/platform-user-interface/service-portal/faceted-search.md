@@ -3,11 +3,11 @@ title: Faceted Search widget
 description: The Faceted Search widget displays search results and search facets defined for a search source. The Faceted Search widget enables end users to filter search results for a more meaningful result set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/faceted-search.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Search widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -28,7 +28,7 @@ To see which facets you've selected, view the pills in the Filters panel. If you
 
 You can initiate a new search by entering a new search term in the typeahead search box. After you enter the new search term, the system clears your facet filter selections from the previous search. You can refine your new search by selecting new facet filters.
 
-For more information on configuring the available facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-facet-ais.md).
+For more information on configuring the available facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-facet-ais.md).
 
 ## Instance options
 
@@ -142,10 +142,10 @@ Placeholder
 
 Text that appears in the search box before the user enters anything. By default, the placeholder text is `Search`.
 
- **Note:** This instance option applies only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+ **Note:** This instance option applies only if AI Search is enabled in your portal. For more information on enabling AI Search for Service Portal, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-widgets.md)
+</table>**Parent Topic:**[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/search-widgets.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Recover deleted emails on the Microsoft Exchange Online service
 description: \(Optional\) As a Microsoft Exchange Administrator, you can recover deleted emails if your incident remediation requires that you to recover the emails deleted by the workflow of this integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-recover-deleted-emails.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Microsoft Exchange Online integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ breadcrumb: [Microsoft Exchange Online integration, Security Incident Response i
 
 ## Before you begin
 
-For more information about how this integration deletes emails, see [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msx_configure.md).
+For more information about how this integration deletes emails, see [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/msx_configure.md).
 
 For more information about the administrative role in the Microsoft Office 365 product, including information about recovering deleted items in a user mailbox, see [About the Exchange Online admin role](https://support.office.com/en-us/article/about-the-exchange-online-admin-role-097ae285-c4af-4319-9770-e2559d66e4c8).
 
@@ -63,9 +63,9 @@ Role required: sn\_si.analyst in the ServiceNow AI Platform for completing a suc
     10. Follow the steps described in [Recover deleted items or email in Outlook Web App](https://support.office.com/en-us/article/recover-deleted-items-or-email-in-outlook-web-app-c3d8fc15-eeef-4f1c-81df-e27964b7edd4?ui=en-US&rs=en-US&ad=US) on the Microsoft documentation website.
 
 
-**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Approve delete email requests for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-approve-delete.md)
+**Previous topic:**[Approve delete email requests for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-approve-delete.md)
 
-**Next topic:**[Edit security tags for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-edit-tags.md)
+**Next topic:**[Edit security tags for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-edit-tags.md)
 

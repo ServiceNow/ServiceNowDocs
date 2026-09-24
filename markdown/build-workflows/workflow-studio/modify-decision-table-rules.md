@@ -1,22 +1,22 @@
 ---
 title: Modify decision table rules in Workflow Studio
-description: Modify the rows, default result values, or content of a decision table in Workflow Studio to keep pace with changing business logic.Account for changing business logic by defining default result values in your decision tables in Workflow Studio. Defining a default result accounts for scenarios when no decision rules are met by the input data.Modify conditions and results to update decision rules in a decision table in Workflow Studio.Save time creating decision rules by strategically duplicating rows in a decision table in Workflow Studio. Determine or change the sequence in which your decision rules are evaluated by reordering the rows in a decision table in Workflow Studio. Enter a different number for your row in the Rank column to quickly reorder rows in large tables.
+description: Evolve with your business logic by modifying the rows, default result values, or content of your decision table in Workflow Studio.Account for changing business logic by defining default result values in your decision tables in Workflow Studio. Defining a default result accounts for scenarios when no decision rules are met by the input data.Modify conditions and results to update decision rules in a decision table in Workflow Studio.Save time and effort creating decision rules by strategically duplicating rows in a decision table in Workflow Studio. Determine or change the sequence in which your decision rules are evaluated by reordering the rows in a decision table in Workflow Studio. Enter a different number for your row in the Rank column to quickly reorder rows in large tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/modify-decision-table-rules.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Modify decision table rules in Workflow Studio
 
-Modify the rows, default result values, or content of a decision table in Workflow Studio to keep pace with changing business logic.
+Evolve with your business logic by modifying the rows, default result values, or content of your decision table in Workflow Studio.
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 
 ## Define default result values
 
@@ -30,7 +30,7 @@ Role required: admin
 
 If no values are defined in the Default result row or you have cleared values from the row, no default results are returned.
 
-**Note:** You can set default results for decision tables created before Decision Builder version 4, but no values are set automatically. The Default result row is compatible with any decision tables created outside of Decision Builder with a default answer specified. If you have the decision\_result\_editor role, you must have an admin or user with higher level permissions to set the initial default result for any decision tables created in an earlier version of Decision Builder.
+**Note:** You can set default results for decision tables created prior to Decision Builder version 4, but no values are set automatically. The Default result row is compatible with any decision tables created outside of Decision Builder with a default answer specified. If you have the decision\_result\_editor role, you need an admin or user with higher level permissions to set the initial default result for any decision tables created in an earlier version of Decision Builder.
 
 ### Procedure
 
@@ -57,7 +57,7 @@ Modify conditions and results to update decision rules in a decision table in Wo
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-dev-workflow.md).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -67,20 +67,20 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 3.  Select a decision table.
 
-4.  Select the cell to edit.
+4.  Select the cell that you want to edit.
 
     -   Modify a condition in one of the following ways.
         -   Select the operator and replace it with another operator.
         -   Select the condition value and provide a new value.
         -   Update both the operator and the condition value.
     -   To modify a result, select the result value and provide a new value.
-5.  To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(\[Omitted image "ellipses.png"\] Alt text:\) to the left of the row number, and then select **Open in Decision rule view**.
+5.  To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \[Omitted image "ellipses.png"\] Alt text: to the left of the row number, and then select **Open in Decision rule view**.
 
     Decision rule view supports complex conditions that may not fit into the table structure.
 
     \[Omitted image "decision-rule-view.png"\] Alt text: Decision rule view.
 
-    **Note:** Using Decision rule view can result in creating complex conditions. Tables with advanced rows can be edited in Excel but advanced rows are read-only. For more information, see [Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-decision-tables-ms-excel.md). Where possible, split complex decisions into multiple simplified decision rule rows.
+    **Note:** Using Decision rule view can result in creating complex conditions. Tables with advanced rows can be edited in Excel but advanced rows are read-only. For more information, see [Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/manage-decision-tables-ms-excel.md). Where possible, split complex decisions into multiple simplified decision rule rows.
 
     1.  Edit the condition as needed.
 
@@ -91,7 +91,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 ## Duplicate rows in a decision table
 
-Save time creating decision rules by strategically duplicating rows in a decision table in Workflow Studio.
+Save time and effort creating decision rules by strategically duplicating rows in a decision table in Workflow Studio.
 
 ### Before you begin
 
@@ -99,7 +99,7 @@ Role required: admin, decision\_table\_admin, or decision\_rule\_author
 
 ### About this task
 
-Plan how to duplicate rows to maximize efficiency when creating your decision table. For example, if you have five rows that have the same first condition, fill in the condition in the first row, and then duplicate the rows. Rows can be duplicated at any time and any point in their completeness.
+Plan the best way to duplicate rows to maximize efficiency and save time creating your decision table. For example, if you have five rows that have the same first condition, fill in the condition in the first row, and then duplicate the rows. Rows can be duplicated at any time and any point in their completeness.
 
 ### Procedure
 
@@ -109,7 +109,7 @@ Plan how to duplicate rows to maximize efficiency when creating your decision ta
 
 3.  Open a decision table.
 
-4.  On the far left side of the row to duplicate, select the Duplicate decision row below this row icon \(\[Omitted image "db-duplicate-row.png"\] Alt text:\).
+4.  On the far left side of the row you want to duplicate, select the Duplicate decision row below this row icon \(\[Omitted image "db-duplicate-row.png"\] Alt text:\).
 
 
 ## Reorder decision rows in a decision table
@@ -118,7 +118,7 @@ Determine or change the sequence in which your decision rules are evaluated by r
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-dev-workflow.md).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -130,7 +130,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 4.  Reorder the rows using either of the following methods.
 
-<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d168595e566">
+<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d170355e562">
 
 **Reorder by changing the Rank number**
 
@@ -142,7 +142,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
  This method is most effective for reordering rows in large decision tables.
 
-</td></tr><tr><td id="d168595e599">
+</td></tr><tr><td id="d170355e595">
 
 **Reorder by dragging and dropping a row**
 

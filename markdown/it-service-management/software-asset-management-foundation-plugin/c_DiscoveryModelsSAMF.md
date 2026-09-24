@@ -1,24 +1,24 @@
 ---
-title: Software Asset Management Foundation plugin discovery models and software installations
+title: Basic Software Asset Management discovery models and software installations
 description: Software discovery models are automatically created during discovery so you can manually normalize the software installed in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/c\_DiscoveryModelsSAMF.html
-release: australia
+release: brazil
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Exploring Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Exploring Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Software Asset Management Foundation plugin discovery models and software installations
+# Basic Software Asset Management discovery models and software installations
 
 Software discovery models are automatically created during discovery so you can manually normalize the software installed in your environment.
 
 Software discovery models are stored in the Software Discovery Model \[cmdb\_sam\_sw\_discovery\_model\] table.
 
-There is a difference between [software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareModelSAMF.md) and software discovery models.
+There is a difference between [software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareModelSAMF.md) and software discovery models.
 
 -   A software model is a specific version or configuration of software that is purchased and/or available to users.
 -   A software discovery model is a model created when a version of software is discovered in a network environment.
@@ -63,7 +63,7 @@ Normalization status
 
 </td><td>
 
-[Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMDiscoverySAMF.md) of the normalization process:-   Manually Normalized
+[Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMDiscoverySAMF.md) of the normalization process:-   Manually Normalized
 -   New
 
 </td></tr><tr><td>
@@ -238,7 +238,7 @@ Edition Override
 
 Override of the software edition setting.If the edition for the software was not discovered, you can edit this field to set the edition, if known, so reconciliation can be performed successfully.
 
- For more information, see [Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md).
+ For more information, see [Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -337,5 +337,5 @@ Omit from suites
 Check box for not counting the software install as a component of a suite during reconciliation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)
+</table>**Parent Topic:**[Exploring Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)
 

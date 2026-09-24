@@ -3,11 +3,11 @@ title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident a
 description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-activity-response-skill.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -59,7 +59,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 7.  Define access.
 
-    Define the user access and role restrictions that you need for the skill. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
+    Define the user access and role restrictions that you need for the skill. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
 
 8.  Select display.
 
@@ -73,17 +73,17 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
     Review your choices and select **Activate** to complete the skill customization. The popup that shows that the activation was successful appears.
 
-10. Configure the ServiceNow Otto context menu to generate an activity response and refine the content.
+10. Configure the ServiceNow Otto context menu \(NACM\) to generate an activity response and refine the content.
 
     You can also access the Otto context menu by doing the following:
 
     1.  In the **ServiceNow Otto Admin** screen, select **AI Experiences**.
     2.  Select **Otto context menu**.
     3.  Select the **Configurations** tab.
-    4.  Select **Incident activity response in ServiceNow Otto context menu**.
+    4.  Select **Incident activity response in NACM**.
     1.  Select **Go to ServiceNow Otto context menu**.
 
-        The **Incident activity response in ServiceNow Otto context menu** screen appears.
+        The **Incident activity response in NACM** screen appears.
 
         **Note:** In the **General details** screen:
 
@@ -112,7 +112,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
         The **Define access** screen displays.
 
-        **Note:** By default this screen shows that an itil user can access the **Incident activity response in ServiceNow Otto** skill. The role restrictions defined in the **Define access** screen overrides the user access defined in this screen. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
+        **Note:** By default this screen shows that an itil user can access the **Incident activity response in NACM** skill. The role restrictions defined in the **Define access** screen overrides the user access defined in this screen. For information on role restrictions, see [Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
 
         \[Omitted image "now-assist-itsm-act-resp-define-access.png"\] Alt text: Define access screen in the Incident activity response in NACM screen
 

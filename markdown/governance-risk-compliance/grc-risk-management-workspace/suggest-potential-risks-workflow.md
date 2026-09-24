@@ -3,11 +3,11 @@ title: Suggest potential risks workflow
 description: The Suggest potential risks workflow uses AI to identify and consolidate risks from multiple sources. It replaces manual, workshop-based risk discovery with a faster, consistent, and data-driven process that stays current with new regulations and trends.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/suggest-potential-risks-workflow.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AI in Risk Management, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -30,6 +30,8 @@ The **Risks** tab on the entity record page displays the following options in a 
 -   **Suggested risks**: List all risks suggested by the Risk Suggestion AI Agent.
 -   **All risks**: List all directly related risks and downstream risks.
 
+\[Omitted image "risk-identification-agent.png"\] Alt text: Risk identification in Now Assist panel.
+
 ## Suggest potential risks workflow benefits
 
 The benefits are as follows:
@@ -37,14 +39,14 @@ The benefits are as follows:
 -   Accelerates risk discovery by replacing manual, workshop-based identification with an AI-guided process.
 -   Keeps pace with evolving regulations and industry trends through continuous updates from internal, industry, and external sources.
 -   Improves efficiency by automatically pulling entity context and preparing a ready-to-triage risk list in one place.
--   Simplifies user experience through an intuitive conversational assistant embedded in the ServiceNow Otto panel.
+-   Simplifies user experience through an intuitive conversational assistant embedded in the Now Assist Panel.
 
 **Note:** This use case is optimized for large-scale model providers that support advanced multi-step reasoning, strong instruction adherence, and reliable structured data handling. For best results, use a supported model provider such as Azure OpenAI \(default\), Google Gemini, or Anthropic Claude on AWS. Now LLM is currently not recommended for this use case. For more information, see [KB2804715](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2804715)
 
 **Related topics**  
 
 
-[activate-agentic-workflows]
+[Activate agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md)
 
-[Identify risks for an entity using ServiceNow Otto for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/identify-risks-for-entity.md)
+[Identify risks for an entity using ServiceNow Otto for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/identify-risks-for-entity.md)
 

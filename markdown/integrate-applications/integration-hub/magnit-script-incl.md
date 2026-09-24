@@ -3,7 +3,7 @@ title: Script includes installed
 description: These script includes are installed with the Magnit application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/magnit-script-incl.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: reference

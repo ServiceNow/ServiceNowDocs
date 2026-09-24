@@ -3,9 +3,9 @@ title: Operators available for filters and queries
 description: The system provides a set of operators for use with filters, condition builders, and encoded queries. The data type of a field determines what operators are available for it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_OpAvailableFiltersQueries.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Create a condition statement using the condition builder, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -763,7 +763,7 @@ managerIN\_HIERARCHY\_DYNAMICfdd0fa0f93f5d2505bd0bd886cba1015%4090d1921e5f510100
 
 </td><td>
 
-All records throughout the Manager hierarchy in which the manager is you or a user reporting up to you.**Note:** A record hierarchy between related records in the same table must be established before you can use this operator. See [Building hierarchical queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-hierarchies.md).
+All records throughout the Manager hierarchy in which the manager is you or a user reporting up to you.**Note:** A record hierarchy between related records in the same table must be established before you can use this operator. See [Building hierarchical queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/data-hierarchies.md).
 
 </td></tr></tbody>
 </table>**Note:** Not all operators are available for all reference types. Depending on the reference you select, you may see a shorter list of operators.
@@ -2309,7 +2309,7 @@ All records in which there are differing values for the **Active** and **Made SL
 |does not have|\[Tag\]\[does not have\]\[Most Active\]|DOESNOTHAVE|sys\_tags.6c361e12471331007f47563dbb9a7135DOESNOTHAVE6c361e12471331007f47563dbb9a7135|Any records that has a **Tag** except for the tag mentioned in the value field.|
 |excluding|\[Tag\]\[excluding\]\[Most Active\]|EXCLUDING|sys\_tags.6c361e12471331007f47563dbb9a7135EXCLUDING6c361e12471331007f47563dbb9a7135|All records with and without the **Tag** except for the tag mentioned in the value field.|
 
-**Parent Topic:**[Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md)
+**Parent Topic:**[Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-cond-state-using-cond-build.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Schedule discovery of all resources in a service account
 description: Add a custom schedule for Discovery to discover all resources in each datacenter in a service account and then update the CMDB with the new information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/sched-uni-disco-srvacct-cloudmgt.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -25,7 +25,7 @@ Role required: sn\_cmp.cloud\_admin
 
 ## About this task
 
--   Scheduled [Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-wizard.md) discovers only datacenters that are part of the service account when the schedule is created. If datacenters have been added since the time you created the schedule, Discovery does not discover those datacenters. Delete the old schedule and create a schedule every time the datacenters in a service account change.
+-   Scheduled [Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cloud-discovery-wizard.md) discovers only datacenters that are part of the service account when the schedule is created. If datacenters have been added since the time you created the schedule, Discovery does not discover those datacenters. Delete the old schedule and create a schedule every time the datacenters in a service account change.
 -   Discovery populates the CMDB with the discovered resources and updates the resource information on the **Resources** tab. You can view Discovery results on the **Discovery Log** tab.
 
 **Important:** Use the Cloud Discovery Workspace to run the discovery schedule. The discover datacenter UI action is legacy and the preferred approach is to setup schedules from CDW.
@@ -42,9 +42,9 @@ Role required: sn\_cmp.cloud\_admin
 
     **Note:** To create a service account, select **Add Account** and then fill in the form. For details, see the process of setting up a service account in the Day 1 setup guide.
 
-5.  On the Select Datacenters page, move the datacenters to discover into the **Selected** list.
+5.  On the Select Datacenters page, specify which datacenters to discover.
 
-    To select all datacenters, select **Discover all datacenters listed below**.
+    Move individual datacenters to the **Selected** list, or select **Discover all datacenters listed below** to move all datacenters.
 
 6.  Click **Next**.
 
@@ -160,7 +160,7 @@ Cancel Discovery if longer than
 
 </td><td>
 
-Time limit for running the Discovery. Whecified time elapses, the remaining tasks for the Discovery are canceled even if the Discovery runs unt isn’t finished. If the check box isn’t selected, the Discovery runs until finished. This setting constrains system load to a desirable time window.
+Time limit for running the Discovery. When the specified time elapses, the remaining tasks for the Discovery are canceled even if the Discovery isn’t finished. If the check box isn’t selected, the Discovery runs until finished. This setting constrains system load to a desirable time window.
 
 </td></tr></tbody>
 </table>8.  Select **Finish** and **Run Now**.
@@ -176,10 +176,10 @@ Open a datacenter record to see the relationships between the datacenter and the
 
 \[Omitted image "discovered-datacenter-example.png"\] Alt text: Resources in an AWS datacenter
 
-**Note:** By default, Discovery stores the discovered VM hardware types in the Hardware Type \[cmdb\_ci\_compute\_template\] table. If you notice an unusually large number of records in this table, use the Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table to store the discovered VM hardware types. For more information, see [Enable the Cloud Hardware Type class extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-hardware-type-class-extension.md). All Cloud Provisioning and Governance features, such as provisioning, quotas, and so on continue to work as is after you switch to the Cloud Hardware Type table.
+**Note:** By default, Discovery stores the discovered VM hardware types in the Hardware Type \[cmdb\_ci\_compute\_template\] table. If you notice an unusually large number of records in this table, use the Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table to store the discovered VM hardware types. For more information, see [Enable the Cloud Hardware Type class extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-hardware-type-class-extension.md). All Cloud Provisioning and Governance features, such as provisioning, quotas, and so on continue to work as is after you switch to the Cloud Hardware Type table.
 
 ## What to do next
 
 -   To view discovery status, discovery logs, discovered devices, and the ECC queue, click **Advanced View**.
--   If Discovery fails, check the Cloud Discovery results on the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-home-page.md).
+-   If Discovery fails, check the Cloud Discovery results on the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-home-page.md).
 

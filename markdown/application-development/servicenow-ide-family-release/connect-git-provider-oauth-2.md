@@ -3,11 +3,11 @@ title: Connect to a Git provider using OAuth 2.0 with the ServiceNow IDE
 description: Set up an OAuth 2.0 application registry and credentials to connect to your Git provider from the ServiceNow IDE.Configure how the client ID and secret are sent to the OAuth 2.0 provider associated with your Git provider.Connect to a Git domain using OAuth 2.0 credentials to manage applications in source control from the ServiceNow IDE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/connect-git-provider-oauth-2.html
-release: australia
+release: brazil
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Integrate source control, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Integrate source control, ServiceNow IDE, Building applications in 
 
 Set up an OAuth 2.0 application registry and credentials to connect to your Git provider from the ServiceNow IDE.
 
-**Parent Topic:**[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
+**Parent Topic:**[Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md)
 
 **Related topics**  
 
@@ -59,7 +59,7 @@ To use OAuth 2.0 authentication with the ServiceNow IDE, you must register the O
 
 3.  On the form, fill in the fields.
 
-    For additional information about fields on the form, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connect-3rd-party-oauth-provider.md).
+    For additional information about fields on the form, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connect-3rd-party-oauth-provider.md).
 
 <table id="table_sgc_qqv_yq"><thead><tr><th>
 
@@ -209,7 +209,7 @@ Connect to a Git domain using OAuth 2.0 credentials to manage applications in so
 
 ### Before you begin
 
--   An administrator must configure how the client ID and secret are sent to the OAuth 2.0 provider associated with your Git provider. For more information, see [Configure an OAuth 2.0 application registry for the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/connect-git-provider-oauth-2.md).
+-   An administrator must configure how the client ID and secret are sent to the OAuth 2.0 provider associated with your Git provider. For more information, see [Configure an OAuth 2.0 application registry for the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/connect-git-provider-oauth-2.md).
 -   Create a dedicated Git repository for an application in a Git provider such as GitHub, GitLab, Bitbucket, or Azure Repos.
 
 Role required: admin
@@ -272,7 +272,7 @@ Your Git credentials are associated with your user on the instance and used for 
 
 ### What to do next
 
-After initializing or cloning a repository, you can begin using source control. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
+After initializing or cloning a repository, you can begin using source control. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
 
 To manage existing Git credentials, use the `Git: Manage Git credentials` command from the command palette.
 

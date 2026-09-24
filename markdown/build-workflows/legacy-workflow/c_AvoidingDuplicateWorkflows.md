@@ -3,11 +3,11 @@ title: Avoiding duplicate workflows
 description: Update sets manage the published state of all versions of a workflow prior to committing the workflow version on a local instance.Follow the steps in this page to commit a workflow in an update set.It is not possible to have multiple published versions as a result of update set commits. However, this does not eliminate risk, and care should be taken when migrating update sets.Update Set B is migrated and committed to the production instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_AvoidingDuplicateWorkflows.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Input variable movement, Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -18,7 +18,7 @@ Update sets manage the published state of all versions of a workflow prior to co
 
 The last version of a workflow committed as an Insert or Update using an update set becomes the currently published version, regardless of the publishing sequence for the workflow versions.
 
-**Parent Topic:**[Input variable movement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_InputVariableMovement.md)
+**Parent Topic:**[Input variable movement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/c_InputVariableMovement.md)
 
 ## Commit a workflow in an update set
 

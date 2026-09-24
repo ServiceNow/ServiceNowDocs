@@ -3,11 +3,11 @@ title: Configure a site level meta tag
 description: A site level tag is a meta tag is defined on a site and included on every page within that site.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_AddASiteLevelMetaTag.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content Management meta tags, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -39,5 +39,5 @@ If an individual page has a specific tag with the same name as the site tag, the
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Content Management meta tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementMetaTags.md)
+**Parent Topic:**[Content Management meta tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentManagementMetaTags.md)
 

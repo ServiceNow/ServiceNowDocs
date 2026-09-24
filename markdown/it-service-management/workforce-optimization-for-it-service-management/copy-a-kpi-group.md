@@ -3,11 +3,11 @@ title: Copy a KPI group
 description: Copy an existing KPI group. In the copied KPI group, everything, including the KPI threshold, gets copied except the assignment group mapping. You can modify the copied KPI group according to your requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/copy-a-kpi-group.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up, Teams, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -35,5 +35,5 @@ Role required: sn\_team\_perf.team\_performance\_admin
     You can change the name, description, and order according to your requirements. You can also change the supporting KPIs.
 
 
-**Parent Topic:**[Setting up Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-teams-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-teams-configurable-workforce-optimization-itsm.md)
 

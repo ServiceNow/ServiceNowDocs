@@ -3,12 +3,12 @@ title: Domain separation and AI Control Tower
 description: Domain separation is supported for AI Control Tower. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-domain-separation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, domain separation, AI Control Tower, multi-tenant, MSP]
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, domain separation, AI Control Tower, multi-tenant, MSP]
+breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Domain separation and AI Control Tower
@@ -25,7 +25,7 @@ The support level is Basic but has some exceptions or special conditions.
 
 Sample use case: When an SP uses chat to respond to a tenant-customer’s message, the client must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Overview
 
@@ -47,7 +47,7 @@ The application inherits and operates within the domain-separated setup, provide
 
 For example, an organization can host Customer A and Customer B on the same instance, while logically separating their data and access by domain. Customer A can see only its own data, and Customer B can see only its own data.
 
-For more information, see [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md).
+For more information, see [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparationSetup.md).
 
 ## Use cases
 
@@ -62,8 +62,6 @@ For inventory and discovery, domain separation keeps each domain's AI assets dis
 -   External AI systems registered with an API key are added to the domain of the user who created the key. A warning helps prevent registering an asset in the wrong domain with a key issued to another domain.
 -   Automation rules and their templates show both the current domain's own records and any records inherited from a parent domain that haven't been overridden, but only the rules created within the current domain actually run.
 -   Asset tags are scoped by domain, so a tag created for an asset in one domain doesn't appear in another domain's asset views.
--   Shadow AI's detected services, usage events, and per-user and per-device usage aggregates are scoped by domain, so a detection made in one domain doesn't surface in another domain's view.
--   The AI services registry that Shadow AI checks to recognize a domain as an AI service is shared, not domain-separated, since whether something is an AI service doesn't depend on which tenant detected it.
 
 ## Monitoring
 
@@ -92,7 +90,7 @@ Domain separation ensures that each domain's security posture reflects only its 
 -   The agent map and access issue details inherit the domain of the underlying asset or agent. Viewing a parent domain includes the agents and access issues from its child domains.
 -   In Post-runtime metrics, threat detection data for both internal and external agents is scoped by domain, so the threat map and related guardrail data reflect only the current domain's activity.
 -   Your top recommendations don't appear on the security dashboard in domain-separated instances, because its underlying data isn't domain aware. Instead, a Security events detected section is shown.
--   In Runtime metrics, Sensitive data input and Sensitive data anonymized metrics aren't shown for domain-separated instances.
+-   In Runtime metrics, Sensitive data input and Sensitive data anonymized metrics aren't shown for ServiceNow AI agents on domain-separated instances.
 -   Details for Privileged AI agents, Dormant AI agents, Access issues, Security events detected, Agent map, Post-runtime, and AI asset security score include a Domain column showing the domain the AI asset belongs to.
 
 ## Value
@@ -114,5 +112,5 @@ For strategy and planning, domain separation keeps AI investment demands, epics,
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

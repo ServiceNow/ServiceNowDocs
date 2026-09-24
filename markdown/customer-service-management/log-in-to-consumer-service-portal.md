@@ -3,11 +3,11 @@ title: Log in to the Consumer Service Portal
 description: Use the name and password that you created during the registration process to log in to the Consumer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/log-in-to-consumer-service-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Log in to the Consumer Service Portal
@@ -34,7 +34,7 @@ Role required: sn\_customerservice.consumer
 **Related topics**  
 
 
-[Register for the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-consumer-registration.md)
+[Register for the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-a-consumer-registration.md)
 
-[Change your password from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/change-password-consumer-portal.md)
+[Change your password from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/change-password-consumer-portal.md)
 

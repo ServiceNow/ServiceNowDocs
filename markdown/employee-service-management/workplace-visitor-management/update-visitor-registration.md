@@ -3,11 +3,11 @@ title: Update a visitor registration
 description: Track visitor registrations and update the status of a visitor while the visitor is on the premises.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/update-visitor-registration.html
-release: australia
+release: brazil
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -46,17 +46,31 @@ Role required: sn\_wsd\_visitor.admin or sn\_wsd\_visitor.staff
     |**Didn't show up**|The visitor did not show up.|
     |**Cancel**|Cancel the visitor registration.|
 
-    For more information about different states and about allowed state changes on a visitor registration, see [Visitor registration states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/visitor-registration-states.md).
+    For more information about different states and about allowed state changes on a visitor registration, see [Visitor registration states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/visitor-registration-states.md).
 
 
 ## Result
 
 The status of the visitor registration is updated.
 
-**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
+
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
+
+[Use the receptionist portal]()
+
+[View visitor registrations]()
+
+[View visitor policy confirmations]()
+
+[Visitor registration states]()
+
+[Anonymize a visitor]()
+
+[Apply visitor management archive policy]()
 
 [Use the receptionist portal]()
 

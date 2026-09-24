@@ -3,11 +3,11 @@ title: Components installed with Workplace Visitor Management
 description: Several types of components are installed with the Workplace Visitor Management application, including tables, user roles, and business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/components-installed-with-workplace-visitor-mgmt.html
-release: australia
+release: brazil
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery
 
 Several types of components are installed with the Workplace Visitor Management application, including tables, user roles, and business rules.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -282,7 +282,7 @@ HTML Signing Template\[sn\_wsd\_core\_html\_signing\_template\]
 Stores HTML-based signing templates used to capture visitor signatures during policy acknowledgment. Added in Workplace Visitor Management version 2.0.0 or later.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 

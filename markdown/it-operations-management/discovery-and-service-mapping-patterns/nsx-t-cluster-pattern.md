@@ -3,11 +3,11 @@ title: VMware NSX-T cluster pattern-based discovery
 description: Discovery and Service Mapping Patterns uses the NSX Cluster pattern to find VMware NSX-T infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/nsx-t-cluster-pattern.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [NSX-T, NSX Cluster, VMware NSX, NSX discovery, NSX patterns]
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -35,7 +35,7 @@ The following diagram illustrates the tables and relationships that the Discover
     -   Visibility Content
 -   **Configure a credential alias**
 
-    For more information, see [Create an applicative credential alias for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-applicative-cred-alias-nsx-t.md).
+    For more information, see [Create an applicative credential alias for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-applicative-cred-alias-nsx-t.md).
 
 -   **Verify NSX-T API access and permissions**
 
@@ -53,7 +53,7 @@ The following diagram illustrates the tables and relationships that the Discover
     -   `GET /api/v1/edge-clusters`
 -   **Create a serverless discovery schedule**
 
-    For more information, see [Create a serverless schedule for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-nsx-t.md).
+    For more information, see [Create a serverless schedule for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-nsx-t.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -511,10 +511,10 @@ References the NSX resource table associated with the metadata entry. Possible t
 -   NSX Virtual Switch Resource \[cmdb\_ci\_nsx\_virtual\_switch\_resource\]
 
 </td></tr></tbody>
-</table>-   **[Create an applicative credential alias for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-applicative-cred-alias-nsx-t.md)**  
+</table>-   **[Create an applicative credential alias for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-applicative-cred-alias-nsx-t.md)**  
 Create a credential alias and configure an applicative credential to enable the NSX Cluster pattern to authenticate with the NSX-T management cluster.
--   **[Create a serverless schedule for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-nsx-t.md)**  
+-   **[Create a serverless schedule for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-nsx-t.md)**  
 Create a serverless discovery schedule to run the NSX Cluster pattern against a VMware NSX-T management cluster.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

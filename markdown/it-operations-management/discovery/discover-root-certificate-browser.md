@@ -1,18 +1,18 @@
 ---
-title: Discover root certificates hosted outside servers
+title: Discover root certificates hosted outside your server
 description: Collect information about root certificates stored outside your server. Create a specialized Discovery schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discover-root-certificate-browser.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Discover root certificates hosted outside servers
+# Discover root certificates hosted outside your server
 
 Collect information about root certificates stored outside your server. Create a specialized Discovery schedule.
 
@@ -32,7 +32,7 @@ To discover root certificates stored outside your server, create a special Disco
 
 3.  On the Discovery Schedule form, fill in the fields.
 
-    For a description of the field values, see [Discovery schedule form table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-schedule-form-table.md).
+    For a description of the field values, see [Discovery schedule form table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-schedule-form-table.md).
 
 4.  Save this record by selecting **Update**.
 
@@ -58,7 +58,7 @@ To discover root certificates stored outside your server, create a special Disco
 
 9.  Select the **\(empty\)** value field, and add a value for each parameter.
 
-    For guidance on what values to set, see [Run certificate discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
+    For guidance on what values to set, see [Run Certificate Discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
 
 10. Collect information on your root certificate by making a unique certificate file.
 
@@ -77,5 +77,5 @@ Your Discovery collects information on your root certificate located outside a s
 
 ## What to do next
 
-[Connect intermediate certificates to root certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/connect-intermediate-certificate-to-root.md) to complete your certificate chain.
+[Connect an intermediate certificate to its root certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/connect-intermediate-certificate-to-root.md) to complete your certificate chain.
 

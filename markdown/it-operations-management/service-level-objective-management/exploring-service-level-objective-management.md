@@ -3,11 +3,11 @@ title: Exploring SLO Management
 description: Service Level Objective Management \(SLO Management\) helps IT services meet customer expectations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/exploring-service-level-objective-management.html
-release: australia
+release: brazil
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
@@ -126,7 +126,7 @@ Inherits 17 roles including the following:
 
 1.  Define SLOs - Identify critical services and define SLOs based on customer expectations and business requirements.
 
-    **Note:** SLOs can also be generated automatically using the SLO creator agent. For details, see [Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
+    **Note:** SLOs can also be generated automatically using the SLO creator agent. For details, see [Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
 
 2.  Establish SLIs - Develop Service Level Indicators \(SLIs\) to measure SLO performance.
 3.  Monitor and analyze - Track SLI data and analyze performance against SLO targets.
@@ -140,5 +140,5 @@ Inherits 17 roles including the following:
 -   Better resource allocation - SLOs help prioritize resources and focus on areas that need improvement.
 -   Enhanced collaboration - SLO management encourages collaboration between IT teams and customers to achieve common goals.
 -   Data-driven decision making - SLO performance data informs decisions and drives continuous service improvement.
--   Automated SLO generation - The SLO creator agent analyzes operational data to generate SLOs, helping teams get started with SLO-based monitoring. For details, see [Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
+-   Automated SLO generation - The SLO creator agent analyzes operational data to generate SLOs, helping teams get started with SLO-based monitoring. For details, see [Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
 

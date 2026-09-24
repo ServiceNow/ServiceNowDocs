@@ -3,11 +3,11 @@ title: Risk and compliance tab
 description: The Risk and compliance tab on the privacy management dashboard provides a centralized view of privacy-related risk exposure and regulatory compliance performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/risk-and-complaince-tab.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Privacy Workspace for the privacy manager, Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -53,5 +53,5 @@ The following image shows the Risk and compliance dashboard.
 
 \[Omitted image "risk-compliance-prm-home-page.png"\] Alt text: Risk and compliance tab on the privacy management home page.
 
-**Parent Topic:**[Privacy Workspace for the privacy manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-compliance-manager.md)
+**Parent Topic:**[Privacy Workspace for the privacy manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-compliance-manager.md)
 

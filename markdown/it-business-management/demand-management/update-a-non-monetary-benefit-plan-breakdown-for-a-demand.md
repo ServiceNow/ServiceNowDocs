@@ -3,11 +3,11 @@ title: Update a non-monetary benefit plan breakdown for a demand
 description: Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/update-a-non-monetary-benefit-plan-breakdown-for-a-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a non-monetary benefit plan, Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,10 +36,10 @@ Role required: it\_demand\_manager
 
 7.  On the Non-monetary Benefit Plan Breakdown form, view and update the enabled fields.
 
-    For a detailed description of the field names, see [Non-monetary Benefit Plan Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/non-monetary-benefit-plan-breakdown-form.md).
+    For a detailed description of the field names, see [Non-monetary Benefit Plan Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/non-monetary-benefit-plan-breakdown-form.md).
 
 8.  Select **Update**.
 
 
-**Parent Topic:**[Create a non-monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-a-non-monetary-benefit-plan-for-a-demand.md)
+**Parent Topic:**[Create a non-monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/create-a-non-monetary-benefit-plan-for-a-demand.md)
 

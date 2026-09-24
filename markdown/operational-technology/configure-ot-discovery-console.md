@@ -3,9 +3,9 @@ title: Configure the Discovery Console for OT
 description: This section is an overview of the steps for installing the Discovery Console for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/configure-ot-discovery-console.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -66,7 +66,7 @@ Hardware requirements
 -   Hard Disk drive: 100 GB
 -   CPUs: 2
 
-For more information, see [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-system-resources.md).
+For more information, see [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-discovery-system-resources.md).
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Containerized packages
 
 </td><td>
 
-For closed network systems, you can download and install containerized packages for the Console and the Collector. Select the Collector package that is compatible to your machine's OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md).
+For closed network systems, you can download and install containerized packages for the Console and the Collector. Select the Collector package that is compatible to your machine's OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/air-gapped-networks-installation.md).
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Before you can log in to the Console for the first time, you must register as a 
 5.  Select the check box, **I acknowledge I saved my password**.
 6.  Select **Enter**.
 
-**Note:** Make sure to save the password, to avoid getting locked out of the system. For more information, see [Log on to the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/log-onto-ot-console.md).
+**Note:** Make sure to save the password, to avoid getting locked out of the system. For more information, see [Log on to the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/log-onto-ot-console.md).
 
 </td></tr><tr><td>
 
@@ -161,23 +161,23 @@ Generate a new certificate
 
 </td><td>
 
-After the Console is installed, generate a new Console certificate. For more information, see [Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-new-certificate-discovery-for-ot.md).
+After the Console is installed, generate a new Console certificate. For more information, see [Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/generate-new-certificate-discovery-for-ot.md).
 
 </td></tr></tbody>
-</table>**Note:** Once installation is complete, and you log in to the Console, you can choose to use the interactive configuration wizard. The wizard guides you to upload your Console license. It also takes you through the getting started with the system, such as: creating a Site, creating a Network Zone, and building your initial Auto Query. For more information, see [Use the Discovery Console for OT interactive configuration wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/console-onboarding-wizard.md).
+</table>**Note:** Once installation is complete, and you log in to the Console, you can choose to use the interactive configuration wizard. The wizard guides you to upload your Console license. It also takes you through the getting started with the system, such as: creating a Site, creating a Network Zone, and building your initial Auto Query. For more information, see [Use the Discovery Console for OT interactive configuration wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/console-onboarding-wizard.md).
 
--   **[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/air-gapped-networks-installation.md)**  
+-   **[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/air-gapped-networks-installation.md)**  
 This section explains the options for air-gapped and non-air-gapped network, installation of Discovery for OT components, and accessing data from scans and queries.
--   **[Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/reqs-ot-console-installation.md)**  
+-   **[Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/reqs-ot-console-installation.md)**  
 For remote deployment at a facility or on a network, verify that the following requirements are met before installing the Discovery Console for OT.
--   **[Install a Linux operating system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/install-linux-os.md)**  
+-   **[Install a Linux operating system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/install-linux-os.md)**  
 Install a Linux operating system on a virtual machine and then install the Discovery Console for OT on the same VM.
--   **[Install the Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/install-discovery-console-ot.md)**  
+-   **[Install the Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/install-discovery-console-ot.md)**  
 Install the Service Graph Connector for OT Discovery before accessing the Discovery for OT packages. You must also install a Linux distribution on the same machine the Discovery Console for OT is installed on.
--   **[Log on to the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/log-onto-ot-console.md)**  
+-   **[Log on to the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/log-onto-ot-console.md)**  
 This sections describes your initial log onto the OT Discovery Collector.
--   **[Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-new-certificate-discovery-for-ot.md)**  
+-   **[Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/generate-new-certificate-discovery-for-ot.md)**  
 Generate a certificate to use with the Discovery Console for OT or upload your own certificates. This certificate allows the Console to boot up.
 
-**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-console-landing.md)
+**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-discovery-console-landing.md)
 

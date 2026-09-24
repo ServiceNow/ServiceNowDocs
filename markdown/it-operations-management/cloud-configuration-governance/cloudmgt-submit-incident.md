@@ -3,11 +3,11 @@ title: Submit an incident for a stack
 description: Submit an incident for a stack when it is not working as expected or you have questions. When the user responds or solves the issue, the incident is closed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloudmgt-submit-incident.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_cmp.cloud\_service\_user
 
 You can submit an incident for a stack or for an individual resource.
 
-You can also [Create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-an-incident.md) through the incident application. Make sure that the **Category** field is set to the value Cloud Provisioning and Governance. The configuration item should be the stack name against which the incident should be raised. The caller name should be the name of the person for whom this incident is created.
+You can also [Create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-an-incident.md) through the incident application. Make sure that the **Category** field is set to the value Cloud Provisioning and Governance. The configuration item should be the stack name against which the incident should be raised. The caller name should be the name of the person for whom this incident is created.
 
 ## Procedure
 

@@ -3,9 +3,9 @@ title: Access Mobile App Builder and using the application scope selection scree
 description: Access the Mobile App Builder to start the process of creating workflows for your mobile apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mab-opening.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Access the Mobile App Builder to start the process of creating workflows for you
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## Procedure
 
@@ -30,15 +30,15 @@ For more information about the delegated developer role, see [Delegated developm
 
 2.  Perform one or all of the following actions from the application scope selection screen.
 
-<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d40123e106">
+<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d40289e106">
 
 Action
 
-</th><th align="left" id="d40123e109">
+</th><th align="left" id="d40289e109">
 
 Process
 
-</th></tr></thead><tbody><tr><td id="d40123e115">
+</th></tr></thead><tbody><tr><td id="d40289e115">
 
 **Access documentation**
 
@@ -46,7 +46,7 @@ Process
 
 Select **Go to product documentation** to get information about Mobile App Builder and how to use the tool.
 
-</td></tr><tr><td id="d40123e130">
+</td></tr><tr><td id="d40289e130">
 
 **Access Mobile Card Builder**
 
@@ -54,7 +54,7 @@ Select **Go to product documentation** to get information about Mobile App Build
 
 Select **Open Mobile Card Builder** to customize the appearance of the mobile cards you use within Mobile App Builder.
 
-</td></tr><tr><td id="d40123e148">
+</td></tr><tr><td id="d40289e148">
 
 **Select an application scope**
 

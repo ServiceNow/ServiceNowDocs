@@ -3,11 +3,11 @@ title: Assign Operational Technology Change Management roles
 description: Assign roles to your users so that you can control their access to the features, capabilities, and data in the Operational Technology Change Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/assign-operational-technology-change-request-roles.html
-release: australia
+release: brazil
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Change Management, Operational Technology]
 ---
@@ -56,7 +56,7 @@ Change Write user \[sn\_ot\_change\_write\]
 
 Can create, view, and edit OT change records.Can also be assigned IT change tasks, and can edit and close the IT change task they're assigned to.
 
-For more information, see [Managing change requests across sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/visibility-of-changes-across-sites.md).
+For more information, see [Managing change requests across sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-change-management/visibility-of-changes-across-sites.md).
 
 </td></tr><tr><td>
 
@@ -73,9 +73,9 @@ Can only view OT change records.
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).|
-    |**Assign a role to a group**|See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).|
+    |**Assign a role to a user**|See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).|
+    |**Assign a role to a group**|See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md).|
 
 
-**Parent Topic:**[Configuring Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/configuring-operational-technology-change-request.md)
+**Parent Topic:**[Configuring Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-change-management/configuring-operational-technology-change-request.md)
 

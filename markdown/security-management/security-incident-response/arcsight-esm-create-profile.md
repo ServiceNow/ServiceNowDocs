@@ -3,11 +3,11 @@ title: Create a profile
 description: As a user with the sn\_si.admin role, you create a profile in your ServiceNow AI Platform instance and determine which correlation events create security incidents. Before ServiceNow AI Platform Security Incident Response \(SIR\) security incidents are created from correlation events, the field values from events are displayed on a layout of a ServiceNow AI Platform security incident so that you can preview how the actual security incident will be created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-create-profile.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up instance, ArcSight ESM Event Ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

@@ -3,13 +3,13 @@ title: Run Guided Setup for ERP Semantic Mining
 description: Run the Guided Setup to configure ERP Semantic Mining.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/set-up-erp-customization-mining-guided.html
-release: australia
+release: brazil
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ERP Semantic Mining overview, Workflow Data Fabric]
+breadcrumb: [Configure, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Run Guided Setup for ERP Semantic Mining
@@ -26,9 +26,9 @@ Role required: sn\_erp\_integration.erp\_admin, sn\_erp\_mining.erp\_admin
 
 ## About this task
 
-For more information on using Guided Setup, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
+For more information on using Guided Setup, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/guided-setup.md).
 
-Alternatively, you can configure ERP Semantic Mining without Guided Setup. For more information, see [Configure a new ERP Semantic Mining connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/set-up-erp-customization-mining.md).
+Alternatively, you can configure ERP Semantic Mining without Guided Setup. For more information, see [Configure a new ERP Semantic Mining connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/set-up-erp-customization-mining.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ Alternatively, you can configure ERP Semantic Mining without Guided Setup. For m
     2.  Select **Validate the connection status**, follow the steps, and select **Continue**.
 
 
-**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
+**Parent Topic:**[Configuring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
 

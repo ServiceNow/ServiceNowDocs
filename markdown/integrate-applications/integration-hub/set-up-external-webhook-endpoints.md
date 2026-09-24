@@ -2,9 +2,9 @@
 title: Set up external trigger endpoints
 description: Generate an endpoint that the external webhook in the third-party application uses to connect to your ServiceNow instance. You can deactivate or remove the configuration of the endpoint from the connection when you want the endpoint to no longer listen to the external webhook.
 locale: en-US
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 ---
 
@@ -38,23 +38,23 @@ The connections that enable you to set up endpoints become available as base sys
 
 5.  Set up external trigger endpoints with different authentication types.
 
-    1.  [Manage endpoint with Basic authentication support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-endpoint-external-trigger-with-basic-authentication.md).
+    1.  [Manage endpoint with Basic authentication support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-endpoint-external-trigger-with-basic-authentication.md).
 
-    2.  [Manage endpoint with Hash message support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/generate-endpoint-with-hash-message-support.md).
+    2.  [Manage endpoint with Hash message support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/generate-endpoint-with-hash-message-support.md).
 
-    3.  [Manage endpoint with Token support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/generate-endpoint-with-token-support.md).
+    3.  [Manage endpoint with Token support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/generate-endpoint-with-token-support.md).
 
-    4.  [Manage endpoint with OAuth 2.0 support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/generate-endpt-oauth2.md)
+    4.  [Manage endpoint with OAuth 2.0 support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/generate-endpt-oauth2.md)
 
 
--   **[Manage endpoint with Basic authentication support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-endpoint-external-trigger-with-basic-authentication.md)**  
+-   **[Manage endpoint with Basic authentication support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/set-up-endpoint-external-trigger-with-basic-authentication.md)**  
 Generate endpoint for webhooks in third-party applications that support basic authentication. The endpoint enables webhooks to connect with your ServiceNow instance. You can deactivate or remove the configuration of the endpoint from the connection when you want the endpoint to no longer listen to the external webhook.
--   **[Manage endpoint with Hash message support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/generate-endpoint-with-hash-message-support.md)**  
+-   **[Manage endpoint with Hash message support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/generate-endpoint-with-hash-message-support.md)**  
 Generate endpoint for webhooks in third-party applications that support hash message authentication. The endpoint enables webhooks to connect with your ServiceNow instance. You can deactivate or remove the configuration of the endpoint from the connection when you want the endpoint to no longer listen to the external webhook.
--   **[Manage endpoint with Token support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/generate-endpoint-with-token-support.md)**  
+-   **[Manage endpoint with Token support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/generate-endpoint-with-token-support.md)**  
 Generate endpoint for webhooks in the third-party applications that support token authentication. The endpoint enables webhooks to connect with your ServiceNow instance. You can optionally remove the configuration of the endpoint from the connection. You can deactivate or remove the configuration of the endpoint from the connection when you want the endpoint to no longer listen to the external webhook.
--   **[Manage endpoint with OAuth 2.0 support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/generate-endpt-oauth2.md)**  
+-   **[Manage endpoint with OAuth 2.0 support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/generate-endpt-oauth2.md)**  
 Manage endpoint for webhooks in third-party applications that support the OAuth 2.0 authentication. The endpoint enables webhooks to connect with your ServiceNow instance.
 
-**Parent Topic:**[Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md)
+**Parent Topic:**[Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md)
 

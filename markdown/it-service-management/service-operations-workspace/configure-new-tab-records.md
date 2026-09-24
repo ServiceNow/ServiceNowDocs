@@ -3,11 +3,11 @@ title: Configure record creation from the new tab menu in Service Operations Wor
 description: Customize the records that can be created from the new tab menu in all pages of Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-new-tab-records.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Landing page configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -26,7 +26,7 @@ By default, an interaction or incident record can be created from the new tab me
 
 \[Omitted image "tab-record-creation.png"\] Alt text: Record creation from tab in workspace pages
 
-You can customize the JSON value to provide a variety of options. For example, use this method to create a knowledge article directly from the new tab menu. For more information about knowledge article creation, go to [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/knowledge-articles-sow.md).
+You can customize the JSON value to provide a variety of options. For example, use this method to create a knowledge article directly from the new tab menu. For more information about knowledge article creation, go to [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/knowledge-articles-sow.md).
 
 ## Procedure
 
@@ -83,5 +83,5 @@ You can customize the JSON value to provide a variety of options. For example, u
 5.  Click **Update**.
 
 
-**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
+**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
 

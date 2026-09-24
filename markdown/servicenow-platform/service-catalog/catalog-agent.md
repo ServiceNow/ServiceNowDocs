@@ -3,11 +3,11 @@ title: Catalog item request approaches
 description: Catalog items can be requested conversationally, depending on how your admin has configured Virtual Agent and which approach is in use. The available approaches help you select the appropriate method for your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-agent.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Conversational catalog item requests, Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ The LLM topic block is the pre-existing conversational approach powered by Virtu
 
 The LLM topic block also serves as the secondary step for catalog items that the Catalog Agent does not support. The conversational flow — search, pre-summary card, questions, summary card — is preserved in both approaches.
 
-For the conditions that determine whether a catalog item is conversational in the LLM topic block, see [Request catalog item through Now LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
+For the conditions that determine whether a catalog item is conversational in the LLM topic block, see [Request catalog item through Now LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/request-topic-blocks-va-llm.md).
 
 When a requester submits a catalog item request through Virtual Agent on NextWave, the request follows this sequence:
 
@@ -56,5 +56,5 @@ In NextWave, non-conversational items open in Interactive View.
 
 For most organizations that have not enabled conversational catalog requests, use the Catalog Agent. For organizations already running the LLM topic block, no migration is required — the LLM topic block remains supported, and Catalog Agent handles items incrementally as coverage expands.
 
-**Parent Topic:**[Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/explore.md)
+**Parent Topic:**[Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/explore.md)
 

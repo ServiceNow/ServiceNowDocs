@@ -3,11 +3,11 @@ title: Filter ADOM discovery for the Fortinet Service Graph Connector
 description: Restrict which Fortinet ADOMs the SGC discovers by activating the predefined Vodafone filter or by providing your own implementation of the ADOM filter extension point.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/filter-fortinet-sgc-adoms.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure Fortinet SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---

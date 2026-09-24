@@ -3,13 +3,13 @@ title: Install multiple MID Servers on a single system
 description: Install multiple MID Servers on the same host computer. Multiple MID Servers can support each other with load balancing, as well as use domain separation. The number of MID Servers required is determined by factors like network policies, security restraints, and the reliability of the host computer.Depending upon how you use the MID Server \(for an external integration, Discovery, Service Mapping, or Orchestration\) and the load placed on it, you might find it necessary to deploy multiple MID Servers in your network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_InstallMultplMIDSvrOnASingleSys.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Install multiple MID Servers on a single system
@@ -82,7 +82,7 @@ You can install multiple MID Servers on a Linux or Windows host or on a virtual 
 
 ## What to do next
 
-All MID Server installation procedures are complete. Proceed to [configure your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
+All MID Server installation procedures are complete. Proceed to [configure your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
 
 ## Multiple MID Server deployments
 

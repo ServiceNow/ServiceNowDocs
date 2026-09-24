@@ -3,13 +3,13 @@ title: Create a stockroom
 description: Create stockrooms to assign places to assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-create-stockroom.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure stockrooms, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a stockroom
@@ -28,15 +28,15 @@ Stockrooms are separate, standalone entities in the Asset Management application
 
 1.  Create a stockroom.
 
-<table id="choicetable_njv_thg_kyb"><thead><tr><th align="left" id="d370879e91">
+<table id="choicetable_njv_thg_kyb"><thead><tr><th align="left" id="d376253e91">
 
 Interface
 
-</th><th align="left" id="d370879e94">
+</th><th align="left" id="d376253e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d370879e100">
+</th></tr></thead><tbody><tr><td id="d376253e100">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d370879e136">
+</td></tr><tr><td id="d376253e136">
 
 **Hardware Asset Workspace**
 
@@ -75,5 +75,5 @@ Action
 
 The stockroom is added to the list shown in the All stockrooms tab.
 
-**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+**Parent Topic:**[Configure stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-stockrooms-ham.md)
 

@@ -3,11 +3,11 @@ title: Sharing of Outbound Intelligence Records from GUI
 description: This section outlines the functionality that enables users to share intelligence records directly from the Threat Intelligence \(TI\) Library within the TISC application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -25,7 +25,7 @@ Role required:
 
 Prerequisites:
 
-Before you begin, ensure to enable the required sharing templates. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
+Before you begin, ensure to enable the required sharing templates. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 
 ## About this task
 
@@ -55,8 +55,8 @@ Following is the procedure to share intelligence from the form view of observabl
 
     After you submit the records for intelligence sharing, only the accessible templates will be displayed.
 
-    1.  **Data exclusion rules configurations**: Records will be excluded if they match the criteria defined in your data exclusion rules. For more information, see [Configuring Outbound Intel Data Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-data-exclusion.md).
-    2.  **Selected sharing template controls**: Records are filtered according to the controls defined in the selected sharing templates. For more information see, [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
+    1.  **Data exclusion rules configurations**: Records will be excluded if they match the criteria defined in your data exclusion rules. For more information, see [Configuring Outbound Intel Data Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-outbound-data-exclusion.md).
+    2.  **Selected sharing template controls**: Records are filtered according to the controls defined in the selected sharing templates. For more information see, [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
     Based on these configuration criteria, the relevant records will be excluded from sharing.
 
 7.  Click **Select** to create outbound intelligence sharing record.
@@ -67,7 +67,7 @@ Following is the procedure to share intelligence from the form view of observabl
 
 9.  Select **Submit** to submit the sharing record for submission.
 
-    In the **Details** section of the sharing record, the application automatically populates the values that are configured in the **Prefilled Inputs** of the Outbound Intel Sharing Templates page. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
+    In the **Details** section of the sharing record, the application automatically populates the values that are configured in the **Prefilled Inputs** of the Outbound Intel Sharing Templates page. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 
     **Note:** The following are the system properties for the outbound intelligence record.
 
@@ -137,7 +137,7 @@ If the number of rows exceeds the specified limit, the records will be split acr
 
     \[Omitted image "tisc-enable-redaction.png"\] Alt text: Enable redaction
 
-    **Note:** To enable the Redaction Library, ensure to configure the redaction library. For more information see, [Working on the Redaction Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-redaction-library.md).
+    **Note:** To enable the Redaction Library, ensure to configure the redaction library. For more information see, [Working on the Redaction Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-redaction-library.md).
 
     **Enable Redaction** option allows you to automatically remove or mask sensitive information by redacting sensitive content before sharing intelligence records. Enabling redaction ensures that confidential data is protected and not exposed during intelligence sharing.
 
@@ -163,14 +163,14 @@ If the number of rows exceeds the specified limit, the records will be split acr
     -   **Details**: Displays the details of the sharing record in the read-only mode.
     -   **Sharing Entity Attributes**: Displays the sharing controls defined in the sharing template associated with a sharing record.
     -   **Exclusion Rules**: Displays the exclusion rules configured.
-    -   **Redaction Library**: Displays the redaction library configured in the **Administration** section. For more information, see [Working on the Redaction Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-redaction-library.md).
+    -   **Redaction Library**: Displays the redaction library configured in the **Administration** section. For more information, see [Working on the Redaction Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-redaction-library.md).
 21. Make the necessary changes under the **Review** section and click **Submit** for submission.
 
     A confirmation message is displayed prompting if you want to submit the record for processing, if you wish to proceed then select **Submit**.
 
-    Once you submit, the outbound intelligence sharing record’s **State** changes from **Draft** to **Awaiting Approval**. The **State** is changed to **Awaiting Approval** only when the approval rules are configured for the outbound intelligence. For more information, see [Defining Approval Rule for Outbound Intel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-approval-outbound-intel.md).
+    Once you submit, the outbound intelligence sharing record’s **State** changes from **Draft** to **Awaiting Approval**. The **State** is changed to **Awaiting Approval** only when the approval rules are configured for the outbound intelligence. For more information, see [Defining Approval Rule for Outbound Intel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-approval-outbound-intel.md).
 
-    **Note:** When you click **Submit** to share intelligence records in STIX format, the Traffic Light Protocol \(TLP\) definitions associated with the records are shared as TLP 2.0 marking definition objects. For more information, see [Define Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-market-definition.md).
+    **Note:** When you click **Submit** to share intelligence records in STIX format, the Traffic Light Protocol \(TLP\) definitions associated with the records are shared as TLP 2.0 marking definition objects. For more information, see [Define Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/define-market-definition.md).
 
 22. Select **Approve** button to approve the outbound intelligence record.
 
@@ -184,7 +184,7 @@ If the number of rows exceeds the specified limit, the records will be split acr
 
     **Note:** Select **Edit** button and make the necessary changes based on the rejection comments. The **State** will move back to **Draft** when you choose to edit the records and resubmit.
 
-    If no approval rule is defined or if the record is already approved, the outbound intelligence sharing record is moved to the **Awaiting Processing** state. At this stage, the intelligence data will be shared externally, after which the state is updated to **Processed**. For more information, see [Defining Approval Rule for Outbound Intel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-approval-outbound-intel.md).
+    If no approval rule is defined or if the record is already approved, the outbound intelligence sharing record is moved to the **Awaiting Processing** state. At this stage, the intelligence data will be shared externally, after which the state is updated to **Processed**. For more information, see [Defining Approval Rule for Outbound Intel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-approval-outbound-intel.md).
 
 26. Navigate to **Published Jobs** to view the published jobs for the sharing record.
 
@@ -200,7 +200,7 @@ If the number of rows exceeds the specified limit, the records will be split acr
 **Related topics**  
 
 
-[Configuring Outbound Intel Sharing Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-sharing.md)
+[Configuring Outbound Intel Sharing Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-outbound-sharing.md)
 
-[Automated Sharing of Outbound Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-outbound-intel-share.md)
+[Automated Sharing of Outbound Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-automated-outbound-intel-share.md)
 

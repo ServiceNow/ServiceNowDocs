@@ -3,9 +3,9 @@ title: Create remote task definitions in Service Exchange for Providers in Publi
 description: As a government agency provider, you can create remote task definitions that trigger the assignment of remote task\(s\) to your constituent. Remote tasks originate in the agency provider instance \(where they auto-create an associated government case record\), and are pushed to your constituent through the Government Service Portal, enabling both provider and consumer to keep case records and details in sync.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-config-create-remote-task-def.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Configuring Service Exchange for Providers, Service Exchange, Case Management, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -200,7 +200,7 @@ Source field
 
 </td><td>
 
-Field from the source table that is sent to another ServiceNow instance.Source fields allow for [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md), which is useful when reference data is not available between ServiceNow instances. For example, you can create multiple inbound mappings for change incidents \(CIs\) to include the name, class, IP address, and asset tag.
+Field from the source table that is sent to another ServiceNow instance.Source fields allow for [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md), which is useful when reference data is not available between ServiceNow instances. For example, you can create multiple inbound mappings for change incidents \(CIs\) to include the name, class, IP address, and asset tag.
 
 </td></tr><tr><td>
 
@@ -246,7 +246,7 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
 
  When a source table doesn’t contain a field that exists on a target table, the field is configured as a virtual field. The values specified for the virtual field are passed from the source instance to the target instance. The consumer can create a remote task to sync data and update the value of the virtual field in the associated target task record.
 
- The target field can be updated either by using the Virtual Inbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField` API.
+ The target field can be updated either by using the Virtual Inbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField` API.
 
 </td></tr></tbody>
 </table>8.  Click **Submit**.
@@ -322,7 +322,7 @@ Source field
 
 </td><td>
 
-Field from the source table that is sent to another ServiceNow instance.Source fields allow for [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md), which is useful when reference data is not available between ServiceNow instances. For example, you can create multiple inbound mappings for change incidents \(CIs\) to include the name, class, IP address, and asset tag.
+Field from the source table that is sent to another ServiceNow instance.Source fields allow for [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md), which is useful when reference data is not available between ServiceNow instances. For example, you can create multiple inbound mappings for change incidents \(CIs\) to include the name, class, IP address, and asset tag.
 
 </td></tr><tr><td>
 
@@ -368,7 +368,7 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
 
  When a source table doesn’t contain a field that exists on a target table, the field is configured as a virtual field. The values specified for the virtual field are passed from the source instance to the target instance.
 
- The target field can be updated either by using the Virtual Outbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField API`.
+ The target field can be updated either by using the Virtual Outbound option described in the [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-create-transform.md) or by using the `updateVirtualField API`.
 
 </td></tr></tbody>
 </table>11. Click **Submit**.
@@ -384,7 +384,7 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
     |Consumer condition|Customer company or account that you want this remote task definition to be entitled to.|
     |Remote task definition|Name of this remote task definition record. This name is auto-filled.|
 
-    For more details on consumer criteria, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-entitlements.md).
+    For more details on consumer criteria, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-entitlements.md).
 
 14. Click **Publish**.
 

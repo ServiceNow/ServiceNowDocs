@@ -3,11 +3,11 @@ title: Viewing SIR Workspace Dashboards
 description: This section present the important metrics to analyze your Security Incident Response process such as new security incidents or the average age of open security incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/working-with-analysts-dashboard.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -63,5 +63,5 @@ The **SIR Dashboards** icon displayed on the left side of the workspace home pag
     \[Omitted image "dashboard-drop-down.png"\] Alt text: Selecting the Security Incident Explorer Dashboard.
 
 
-You can edit the dashboards, add new elements to the dashboards, and create your own dashboards. For more information on how to use dashboards, see [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ResponsiveDashboards.md)
+You can edit the dashboards, add new elements to the dashboards, and create your own dashboards. For more information on how to use dashboards, see [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_ResponsiveDashboards.md)
 

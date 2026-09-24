@@ -3,7 +3,7 @@ title: Configure budget categories in Grants Management
 description: Configure the budget categories that appear in the Program budget activity of the playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-budget-cat.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-31"
 reading_time_minutes: 1
@@ -62,9 +62,9 @@ Confirm the application scope is set to **Service Applicant Program Management**
 
 The new configuration should appear in the **Program budget** activity of the grants setup playbook.
 
-**Parent Topic:**[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-grant-pgr.md)
+**Parent Topic:**[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-grant-pgr.md)
 
-**Previous topic:**[Configure a merit review scoring rubric for a grants proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-create-rubric.md)
+**Previous topic:**[Configure a merit review scoring rubric for a grants proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-create-rubric.md)
 
-**Next topic:**[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-calendar-period.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-calendar-period.md)
+**Next topic:**[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-calendar-period.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-calendar-period.md)
 

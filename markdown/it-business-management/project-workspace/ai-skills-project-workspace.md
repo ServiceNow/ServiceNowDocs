@@ -3,11 +3,11 @@ title: AI skills in Project Workspace
 description: Use AI skills to transform Project Workspace into a continuous value engine. Embed intelligence across every stage to optimize resources and investments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/ai-skills-project-workspace.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -43,8 +43,8 @@ With project status generation skill, AI predicts overall and dimension‑level 
 
 This skill streamlines the process of status report creation in Project Workspace.
 
--   **[Supporting information for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/supporting-info-now-assist-spm.md)**  
+-   **[Supporting information for ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/supporting-info-now-assist-spm.md)**  
 Get a quick overview of the important information that is related to the ServiceNow Otto for Strategic Portfolio Management application.
 
-**Parent Topic:**[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/exploring-project-workspace.md)
+**Parent Topic:**[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/exploring-project-workspace.md)
 

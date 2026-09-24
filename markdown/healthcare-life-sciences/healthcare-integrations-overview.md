@@ -3,9 +3,9 @@ title: Healthcare Integrations
 description: Connect ServiceNow Healthcare and Life Sciences with external clinical systems. Two integration approaches are available: standards-based HL7 FHIR and message-based HL7 v2.x native integration. Choose the approach that matches your source system and data needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-integrations-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ Healthcare systems exchange patient, practitioner, organizational, and clinical 
 
 ## HL7 FHIR Integration
 
-The [Healthcare Operations HL7 FHIR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-landing.md) reads the following HL7 FHIR R4 provider-directory resources from a FHIR R4-conformant server:
+The [Healthcare Operations HL7 FHIR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-landing.md) reads the following HL7 FHIR R4 provider-directory resources from a FHIR R4-conformant server:
 
 -   Organization
 -   Location
@@ -33,5 +33,5 @@ This integration builds on the HL7 FHIR Spoke, which provides the underlying Int
 
 ## HL7 v2.x Native Integration
 
-The [Healthcare Interoperability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hl7-integration-overview.md) feature provides native HL7 v2.x messaging which connects to an integration engine, parsing inbound messages such as ADT events and tracking them through a message log. Use this approach when your source systems exchange traditional HL7 v2.x messages rather than FHIR resources.
+The [Healthcare Interoperability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hl7-integration-overview.md) feature provides native HL7 v2.x messaging which connects to an integration engine, parsing inbound messages such as ADT events and tracking them through a message log. Use this approach when your source systems exchange traditional HL7 v2.x messages rather than FHIR resources.
 

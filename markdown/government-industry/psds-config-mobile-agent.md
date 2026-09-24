@@ -1,11 +1,11 @@
 ---
 title: Configure Mobile Agent for Public Sector Digital Services
-description: Configure Mobile Agent for the Information Request and Service Request Playbooks.Install the Customer Service Mobile and Information Request Playbook plugins to enable government agents to track public record information requests on the Mobile Agent. You can then configure the roles.Install the Customer Service Mobile and Service Request Playbook plugins to enable government service agents to track non-emergency service requests on the Mobile Agent. You can then configure the roles.Configure user roles for government service agents to access the Mobile Agent app. This step is mandatory for any government service agent to be able to work from the app.
+description: Configure Mobile Agent for the Information Request and Service Request Playbooks.Install the Customer Service Mobile and Information Request Administration plugins to enable government agents to track public record information requests on the Mobile Agent. You can then configure the roles.Install the Customer Service Mobile and Service Request Playbook plugins to enable government service agents to track non-emergency service requests on the Mobile Agent. You can then configure the roles.Configure user roles for government service agents to access the Mobile Agent app. This step is mandatory for any government service agent to be able to work from the app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-mobile-agent.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agent tools, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Agent tools, Configure agent workspaces, Configure, Public Sector D
 
 Configure Mobile Agent for the Information Request and Service Request Playbooks.
 
-## Configure Mobile Agent for Information Request Playbook
+## Configure Mobile Agent for Information Request Administration
 
-Install the Customer Service Mobile and Information Request Playbook plugins to enable government agents to track public record information requests on the Mobile Agent. You can then configure the roles.
+Install the Customer Service Mobile and Information Request Administration plugins to enable government agents to track public record information requests on the Mobile Agent. You can then configure the roles.
 
 As an admin, complete the following configuration tasks to set up the Mobile Agent application.
 
@@ -30,11 +30,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Install Information Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/install-psds-information-request-playbook.md)
+[Install Information Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/install-psds-information-request-playbook.md)
 
 </td><td>
 
-Install Information Request Playbook \(com.sn\_public\_sector\_digital\_services\_core\) from the ServiceNow® Store.
+Install Information Request Administration \(com.sn\_public\_sector\_digital\_services\_core\) from the ServiceNow® Store.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ You can activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) usin
 
 </td></tr><tr><td>
 
-[Configure public sector roles and permissions for Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-mobile-agent.md)
+[Configure public sector roles and permissions for Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-mobile-agent.md)
 
 </td><td>
 
@@ -71,7 +71,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Install Service Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/install-psds-service-request-playbook.md)
+[Install Service Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/install-psds-service-request-playbook.md)
 
 </td><td>
 
@@ -87,15 +87,15 @@ You can activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) usin
 
 </td></tr><tr><td>
 
-\(Optional\) [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md) plugin \(com.snc.work\_management\)
+\(Optional\) [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ActivateFieldServiceManagement.md) plugin \(com.snc.work\_management\)
 
 </td><td>
 
-Install the Field Service Management plugin to view the work orders related list. For more information, see [Integration with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-integration-fsm.md).
+Install the Field Service Management plugin to view the work orders related list. For more information, see [Integration with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-integration-fsm.md).
 
 </td></tr><tr><td>
 
-[Configure public sector roles and permissions for Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-mobile-agent.md)
+[Configure public sector roles and permissions for Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-mobile-agent.md)
 
 </td><td>
 

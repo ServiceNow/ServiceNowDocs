@@ -3,9 +3,9 @@ title: Metrics
 description: View the different metrics for continuous authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ca-metrics.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring CA, Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
@@ -32,11 +32,11 @@ Following are the different KPI details that you can view for continuous authent
 **Related topics**  
 
 
-[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-policies.md)
+[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ca-policies.md)
 
-[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-metrics.md)
+[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ca-metrics.md)
 
-[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-system-properties.md)
+[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ca-system-properties.md)
 
-[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-continuous-auth.md)
+[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explore-continuous-auth.md)
 

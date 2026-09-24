@@ -3,9 +3,9 @@ title: Create a matrix version
 description: Create a version of a published price or product eligibility matrix when you need to update the matrix, for example to add or delete a context variable used in the price matrix.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-matrix-versions.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -44,7 +44,7 @@ You can create a version of a published pricing matrix \(Standard Price Adjustme
 
 7.  Update the decision table for the matrix by selecting **Create rule**.
 
-    Add the decision rows in the decision table for the matrix. You can use the decision table export feature to edit the decision table for the previous matrix version in Excel, update the Excel file, then import the updated Excel table to populate the decision table for the new version. For details, see [Manage decision tables in Excel.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/manage-decision-tables-ms-excel.md)
+    Add the decision rows in the decision table for the matrix. You can use the decision table export feature to edit the decision table for the previous matrix version in Excel, update the Excel file, then import the updated Excel table to populate the decision table for the new version. For details, see [Manage decision tables in Excel.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/manage-decision-tables-ms-excel.md)
 
 8.  Select **Save** and then **Publish**.
 

@@ -3,9 +3,9 @@ title: Managing email properties for your PDI
 description: Configure properties within your PDI to start sending and receiving emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/managing\_email\_properties\_for\_your\_pdi.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -41,5 +41,5 @@ Unfortunately, personal developer instances \(PDI\) have been used both accident
 2.  To disable email sending and receiving, deactivate the **Enable email sending and receiving** toggle.
 
 
-**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/personal_developer_instance_guide.md)
 

@@ -3,11 +3,11 @@ title: Viewing an agent's calendar
 description: You can view an agent's schedule, availability, personal events, and tasks that are either assigned or work in progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/viewing-agents-calendar.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -23,7 +23,7 @@ The calendar displays agent information for a selected day, work day, or week. R
 -   Scheduled work start time
 -   Actual work start time
 
-**Note:** No visual indicator appears for the tasks that don't have a specified travel start time. Additionally, **Estimated onsite arrival buffer duration** is considered only when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled and have been added to the task card. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md).
+**Note:** No visual indicator appears for the tasks that don't have a specified travel start time. Additionally, **Estimated onsite arrival buffer duration** is considered only when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled and have been added to the task card. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ConfigureFieldService.md).
 
 Resources on the calendar in Dispatcher Workspace are sorted alphabetically by territory, then alphabetically by assignment group within each territory, then alphabetically by resource name within each assignment group. Technicians are grouped together by the assignment group and territory they’re assigned to.
 

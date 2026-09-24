@@ -3,11 +3,11 @@ title: Create a demo experience to explore UI Builder
 description: An experience in UI Builder is a collection of web pages for users to interact with an application. The experience includes routes, page variants, and the audience and conditions required for each variant, as well as experience settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/learn-by-example-create-experience.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -24,7 +24,7 @@ Role required: ui\_builder\_admin
 
 The UI Builder experience view is a central place to view and understand the structure and details of an experience. Use the experience view to see the structure and hierarchy of your experience. You can access UI Builder experience view by selecting an existing experience from the UI Builder home screen or by creating a demo experience, as described here.
 
-**Note:** UI Builder is not yet capable of building or configuring ServiceNow base system service portals, such as the Employee Center. For service portals, continue to use the [Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md).
+**Note:** UI Builder is not yet capable of building or configuring ServiceNow base system service portals, such as the Employee Center. For service portals, continue to use the [Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_ConfigureAPage.md).
 
 ## Procedure
 
@@ -55,7 +55,7 @@ The UI Builder experience view is a central place to view and understand the str
 
 Select the **Next topic** link to learn how to create a blank page for this experience.
 
-**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib-by-example.md)
+**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/learning-uib-by-example.md)
 
 **Related topics**  
 

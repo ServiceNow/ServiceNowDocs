@@ -3,9 +3,9 @@ title: Upload a bulk sales promotion claim
 description: Upload a template file containing multiple sales promotion claims to submit them together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-sales-promotion-bulk-upload.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [sales promotion bulk upload, sales promotion claim, dealer portal, manufacturing commercial operations, bulk upload template]
 breadcrumb: [Sales promotion for the dealer, Dealer portal, Use, Manufacturing Commercial Operations]
@@ -27,7 +27,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 3.  On the Sales promotion bulk upload form, fill in the fields.
 
-    For a description of the field values, see [Sales promotion bulk upload form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sp-bulk-upload-form.md).
+    For a description of the field values, see [Sales promotion bulk upload form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-sp-bulk-upload-form.md).
 
 4.  Select **Dealer**.
 

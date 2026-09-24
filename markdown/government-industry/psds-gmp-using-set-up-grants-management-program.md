@@ -3,7 +3,7 @@ title: Create a grant program for Public Sector Digital Services
 description: Use the Public Sector Digital Services Grants Management program setup​ to either create a grant program, or create one from an existing configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-using-set-up-grants-management-program.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

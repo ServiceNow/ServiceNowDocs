@@ -3,11 +3,11 @@ title: Creating a catalog item conversationally using AI
 description: Create a catalog item conversationally using AI and make the item available in Service Catalog for catalog item requests. You can also define dynamic behavior for your catalog item and apply auto-populate settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, AI Authoring for Catalog Builder]
 breadcrumb: [Using AI conversation to create and edit catalog items, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -54,10 +54,10 @@ Role required: catalog\_builder\_editor
 11. After you’ve all the details in your catalog item, submit it.
 
 
-**Parent Topic:**[Using AI conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)
+**Parent Topic:**[Using AI conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)
 
 **Related topics**  
 
 
-[Suggestions to describe catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)
+[Suggestions to describe catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)
 

@@ -3,11 +3,11 @@ title: Create or edit CI remediation
 description: Create a CI remediation rule that lets users manually apply an Orchestration workflow for resolving issues with specific CIs associated with alerts. Define these CIs in the CI filter conditions of the rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_SACreateCIRemediation.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CI Remediation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ Then submit the workflow definition, and add the following conditions to the wor
     **\[Workflow\]\[is\]\[CI remediation\]**
 
 
-After you finish configuring the workflow, make sure that you publish it. For more details, see Create a workflow.
+After you finish configuring the workflow, make sure that you publish it. For more details, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/t_CreateAWorkflow.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -56,5 +56,5 @@ A CI remediation rule associates a set of CIs that might experience problems wit
 
 In service maps that are opened from the Event Management dashboard, this remediation can be applied to any CIs that match the filter conditions.
 
-**Parent Topic:**[CI Remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-remediation.md)
+**Parent Topic:**[CI Remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/ci-remediation.md)
 

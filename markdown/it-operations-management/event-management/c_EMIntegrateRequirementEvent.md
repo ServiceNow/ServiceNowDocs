@@ -3,11 +3,11 @@ title: Event field format for event collection
 description: Event Management requires all events to use a standard form, regardless of how they arrive at the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/c\_EMIntegrateRequirementEvent.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

@@ -3,9 +3,9 @@ title: Disable attachments on a table
 description: You can prevent users from adding attachments to records on a specific table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/disable-attachments-on-table.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Attachments, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,8 +28,8 @@ Role required: admin
 
 4.  Add `no_attachment` to the **Attributes** field, separated by commas from any existing attributes.
 
-    See [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md) for more information.
+    See [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md) for more information.
 
 
-**Parent Topic:**[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringAttachments.md)
+**Parent Topic:**[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AdministeringAttachments.md)
 

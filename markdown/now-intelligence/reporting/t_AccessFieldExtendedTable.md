@@ -3,11 +3,11 @@ title: Report on extended tables
 description: Learn how to include fields from tables that extend the Task table in a single report. For example, you could include both incidents and problems in a single report.Watch the video to learn how to use dot-walking, dynamic filters, and database views to access data on extended, or related, tables.Dot-walking provides access to fields on extended, or related, tables, enabling you to report on fields from those tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_AccessFieldExtendedTable.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [related tables, extended tables, dot-walking]
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
@@ -37,7 +37,7 @@ The video shows how to create a report with data from multiple tables using the 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
+1.  Navigate to `sys_reports.list` and select **New**.
 
 2.  On the Data tab, name the report `Active Incidents and Problems of Priority 1 or 2`, select the Source type Table, and select the table Task \[task\].
 
@@ -75,7 +75,7 @@ The video shows how to create a report with data from multiple tables using the 
     The report shows the open incidents and their categories and the open problems with the number of their related incidents.
 
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Related tables in reporting
 
@@ -107,5 +107,5 @@ Dot-walking references a field by building a chain of field names separated by d
 **Related topics**  
 
 
-[Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md)
+[Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/dot-walking-examples.md)
 

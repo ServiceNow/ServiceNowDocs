@@ -3,27 +3,27 @@ title: HTML bot response control
 description: Use the HTML bot response control to display static HTML text in the Virtual Agent bot response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-html-output.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Virtual Agent, designer, HTML, bot, response, control]
-breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # HTML bot response control
 
 Use the HTML bot response control to display static HTML text in the Virtual Agent bot response.
 
-**Note:** If you created conversations in earlier releases that use this bot response control to generate card layouts, consider updating your conversations to use the [Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-card-output.md). The Card displays information from a record in your instance and contains a link to that related record.
+**Note:** If you created conversations in earlier releases that use this bot response control to generate card layouts, consider updating your conversations to use the [Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-card-output.md). The Card displays information from a record in your instance and contains a link to that related record.
 
 ## Security considerations for HTML markup
 
-For security reasons, an HTML sanitizer script runs automatically and checks all HTML markup used in the instance, including Virtual Agent conversations. The sanitizer script removes elements or attributes that might enable cross-site scripting attacks. You can edit the HTML sanitizer script to change the list of markup items to be preserved or removed. For details, see [HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HTMLSanitizer.md). For examples of adding markup items to the exclusion or inclusion lists, see [Configure HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ConfigureHTMLSanitizer.md).
+For security reasons, an HTML sanitizer script runs automatically and checks all HTML markup used in the instance, including Virtual Agent conversations. The sanitizer script removes elements or attributes that might enable cross-site scripting attacks. You can edit the HTML sanitizer script to change the list of markup items to be preserved or removed. For details, see [HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_HTMLSanitizer.md). For examples of adding markup items to the exclusion or inclusion lists, see [Configure HTML sanitizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ConfigureHTMLSanitizer.md).
 
-To disable the HTML sanitizer script only for Virtual Agent conversations, add the **com.glide.cs.html.sanitizer.enabled** system property and set the value to false. For details about creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+To disable the HTML sanitizer script only for Virtual Agent conversations, add the **com.glide.cs.html.sanitizer.enabled** system property and set the value to false. For details about creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 ## HTML bot response control properties
 
@@ -90,18 +90,10 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Supported|None|
-|ServiceNow Otto panel|Supported|None|
 |Microsoft Teams|Supported|Since HTML is rendered as an image in Microsoft Teams, other controls are recommended. For example, use images or cards instead of HTML for Microsoft Teams.|
 |Slack|Supported|None|
-|Workplace|Supported|None|
-|Facebook Messenger|Not supported|Not applicable|
 |SMS Twilio|Not supported|Not applicable|
-|LINE|Not supported|Not applicable|
-|WhatsApp|Not supported|Not applicable|
-|Apple Messages for Business|Not supported|Not applicable|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
+|Google Chat|Supported|None|
 
 ## Example HTML bot response output
 
@@ -126,5 +118,5 @@ HTML bot response output
 \[Omitted image "va-html-native.png"\] Alt text: A chat window shows the company logo with a header, subheader, and body text.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

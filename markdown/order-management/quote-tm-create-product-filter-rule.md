@@ -3,7 +3,7 @@ title: Create a product filter rule
 description: Create a product filter rule in CPQ to dynamically include or exclude products from the quote catalog based on managed table data and transaction context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-product-filter-rule.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 1
@@ -18,7 +18,7 @@ Create a product filter rule in CPQ to dynamically include or exclude products f
 
 The `enableCatalogFilter` tenant setting must be enabled. Submit a request to DevOps to enable this setting.
 
-A managed table containing the reference data for filtering must exist. For more information, see the managed table configuration steps in [Advanced product filtering for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-advanced-product-filtering.md).
+A managed table containing the reference data for filtering must exist. For more information, see the managed table configuration steps in [Advanced product filtering for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-advanced-product-filtering.md).
 
 Role required: admin
 
@@ -60,6 +60,4 @@ Role required: admin
 
     The rule is active. Only products matching the filter logic are displayed when users open the catalog from within a quote.
 
-
-**Parent Topic:**[Advanced product filtering for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-advanced-product-filtering.md)
 

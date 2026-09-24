@@ -3,7 +3,7 @@ title: Set up the Google Meet spoke
 description: Integrate the ServiceNow instance and Google Meet by creating a custom OAuth application in the Google Cloud console to authenticate ServiceNow requests.Create OAuth credentials that your ServiceNow instance uses to have its requests for connection authenticated by Google Cloud console.Set up the connection between your ServiceNow instance and the Google Meet APIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-the-google-meet-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

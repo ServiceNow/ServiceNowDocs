@@ -3,11 +3,11 @@ title: View and manage cryptographic assets
 description: View details of cryptographic assets and filter the data to focus on specific assets, analyze risk indicators, and export details from the Inventory page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/manage-inventory.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [inventory, asset management, certificates, filtering, cryptographic assets]
 breadcrumb: [Monitor, Cryptographic Asset Compliance, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ View details of cryptographic assets and filter the data to focus on specific as
 
 ## Before you begin
 
--   Discovery of cryptographic assets must have been set up. For more information, see [Configuring the discovery of cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/set-up-cryptographic-asset-discovery.md).
+-   Discovery of cryptographic assets must have been set up. For more information, see [Configuring the discovery of cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/set-up-cryptographic-asset-discovery.md).
 -   Role required: Cryptographic Asset admin \(sn\_itom\_cac.admin\) or Cryptographic Asset user \(sn\_itom\_cac.user\)
 
 ## Procedure
@@ -71,6 +71,6 @@ View details of cryptographic assets and filter the data to focus on specific as
 
 10. View more details about the asset by selecting an asset name.
 
-    For more information, see [View cryptographic asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/view-asset-details.md).
+    For more information, see [View cryptographic asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/view-asset-details.md).
 
 

@@ -3,11 +3,11 @@ title: Working with Internal Intelligence Records
 description: Use this feature to work with the internal intelligence data that is collected from Configuration Database Management System \(CMDB\) into Threat Intelligence Security Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/working-with-ti-internal-intelligence-records.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -16,8 +16,8 @@ breadcrumb: [Observables, TISC Library Repository, Threat Intel Library, Use, Th
 
 Use this feature to work with the internal intelligence data that is collected from Configuration Database Management System \(CMDB\) into Threat Intelligence Security Center.
 
--   **[View Internal Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-internal-intelligence-records.md)**  
+-   **[View Internal Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/view-internal-intelligence-records.md)**  
 View the internal intelligence records collected from CMDB, Security Incident Response \(SIR\), Vulnerability Response \(VR\) these records.
 
-**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/observables.md)
 

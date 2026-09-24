@@ -3,11 +3,11 @@ title: Understand AI agents
 description: The AI Agent Studio is designed to securely use your data, workflows, and integrations directly within the ServiceNow AI Platform. AI agents can dynamically adjust their actions based on the progress and changing conditions of incidents or cases to help verify that they stay focused on achieving their objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/understand-na-aia.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-10-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Understand AI agents
@@ -40,5 +40,5 @@ Administrators can see logs with individual AI agent names as a record of who ap
 
 With impersonation, the fulfiller in the ServiceNow Otto panel and the requester in Virtual Agent can see the transactions recorded in the name of the AI agent that performed the agentic workflow execution.
 
-**Note:** Virtual Agent can be turned on only for AI agents at the Define availability section in the AI agent guided setup. For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+**Note:** Virtual Agent can be turned on only for AI agents at the Define availability section in the AI agent guided setup. For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 

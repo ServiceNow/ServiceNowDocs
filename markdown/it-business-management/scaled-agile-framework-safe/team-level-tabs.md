@@ -3,11 +3,11 @@ title: SAFe Board — Team level
 description: As a team member, you can plan and monitor activities within your team by accessing the Team level on the SAFe Board.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/team-level-tabs.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -50,7 +50,7 @@ The **Sprint Tracking** tab provides the following views:
 
 -   **Story board**
 
-    Story board is built on visual task boards, which transform the navigation of lists and forms into an interactive graphical experience. The visual task board interface provides a graphic-rich environment suited for managing and collaborating records. To know more about the actions that can be performed in the board, see [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_VisualTaskBoards.md). In addition, you can:
+    Story board is built on visual task boards, which transform the navigation of lists and forms into an interactive graphical experience. The visual task board interface provides a graphic-rich environment suited for managing and collaborating records. To know more about the actions that can be performed in the board, see [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_VisualTaskBoards.md). In addition, you can:
 
     -   Track all the stories of the current sprint across lanes.
     -   Move stories from one lane to another, which in turn updates the state of the stories.
@@ -72,14 +72,14 @@ The **Sprint Tracking** tab provides the following views:
     \[Omitted image "team-list.png"\] Alt text: Sprint Tracking List
 
 
--   **[Manage your team backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/manage-team-backlog.md)**  
+-   **[Manage your team backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/manage-team-backlog.md)**  
 Manage, evaluate, prioritize, and sequence stories in your team backlog.
--   **[Track your SAFe tasks from the Board view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/track-stories-board.md)**  
+-   **[Track your SAFe tasks from the Board view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/track-stories-board.md)**  
 Track the progress of your SAFe stories and scrum tasks. View their transition from one state \(lane\) to another in a visual task board.
--   **[Track your SAFe team work from the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-sprint-tracking-list.md)**  
+-   **[Track your SAFe team work from the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/safe-sprint-tracking-list.md)**  
 Create, execute, track, and complete the scrum tasks and tests of a SAFe story from the list view.
 
-**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
+**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Use Playbooks in Project Workspace
 description: Plan your project stages and assign specific actions to each stage using Playbooks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/use-playbooks-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -34,11 +34,11 @@ You can view the **Playbook** menu only if a playbook is active and the project 
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Project Workspace** and [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md).
+1.  Navigate to **Workspaces** &gt; **Project Workspace** and [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md).
 
-2.  Use an existing playbook or create a new one.
+2.  Use an existing playbook or create one.
 
-    -   To create a new playbook, define the trigger condition in Workflow Studio. For more information, see [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-triggers.md).
+    -   To create a playbook, define the trigger condition in Workflow Studio. For more information, see .
     -   To use an existing playbook:
 
         1.  From the menu, select **Playbooks**.
@@ -46,22 +46,20 @@ You can view the **Playbook** menu only if a playbook is active and the project 
         **Note:**
 
         -   Select **Save** to save the stage, or **Skip** to skip the stage.
-        -   When you select **Mark Complete** or **Skip**, the activity becomes read-only.
-        -   A stage is marked complete once all activities within it are either completed or skipped.
+        -   When you select **Mark Complete** or **Skip**, the activity is set to read-only.
+        -   A stage is marked complete when all activities within it are either completed or skipped.
         -   Use the **Restart** option \(available at both the activity and stage levels\) to revisit or edit completed or skipped activities.
-    For more information on how to use playbooks, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/building-a-process.md) and [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-experience-admins.md).
+    For more information on how to use playbooks, see  and .
 
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/use-projects-pw.md)
 
 **Related topics**  
 
 
-[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-agents-and-fulfillers.md)
+[bundle-crworkflow.playbook-agents-and-fulfillers]
 
-[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-reference.md)
+[Playbooks configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configure-playbooks-pw.md)
 
-[Playbooks configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-playbooks-pw.md)
-
-[Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/playbooks-in-pw.md)
+[Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/playbooks-in-pw.md)
 

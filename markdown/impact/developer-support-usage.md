@@ -3,9 +3,9 @@ title: Using Developer Support
 description: Learn more about using Developer Support and helpful information when submitting a developer request with Impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/developer-support-usage.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Debug instance customizations with Developer Support, Platform Health, Using Impact, Impact]
 ---
@@ -36,7 +36,7 @@ There are certain parameters to consider when submitting a Developer Support cas
     -   Available to the number of designated users per Impact Package subscription \(not including customer system administrators\):
         -   Five for Advanced Impact package
         -   Ten for Total Impact package
-    **Note:** See [Manage Developer Support user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-developer-support-user-access.md) to designate users.
+    **Note:** See [Manage Developer Support user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/manage-developer-support-user-access.md) to designate users.
 
 -   **Infrastructure:**
     -   Supported version\(s\) of the release/feature/application/hardware are required

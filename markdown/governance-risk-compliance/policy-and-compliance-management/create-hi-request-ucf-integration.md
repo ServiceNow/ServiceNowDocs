@@ -3,11 +3,11 @@ title: Create a Now Support Case for UCF-CCH account integration information
 description: After establishing your UCF CCH account, use the Now Support Service Portal to initiate the account integration process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-hi-request-ucf-integration.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [integrate with UCF Common Controls Hub, Configure UCF integration using UCF CCH, Manage UCF integration, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -101,5 +101,5 @@ Select your answer.
     Customer Service and Support initiates the OAuth integration process and contacts the requester with the integration information.
 
 
-**Parent Topic:**[Integrate with UCF Common Controls Hub to manage compliance frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_UCF.md)
+**Parent Topic:**[Integrate with UCF Common Controls Hub to manage compliance frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_UCF.md)
 

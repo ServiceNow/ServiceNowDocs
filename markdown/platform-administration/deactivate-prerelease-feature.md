@@ -3,9 +3,9 @@ title: Deactivate a pre-release feature
 description: Deactivate a pre-release feature if it is not working as expected or if you no longer need the feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/deactivate-prerelease-feature.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Feature Preview Program, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -47,5 +47,5 @@ After deactivating a feature, review your instance for any residual artifacts th
 
 If you have questions or need assistance after deactivating a feature, contact the product team.
 
-**Parent Topic:**[Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/feature-preview-program.md)
+**Parent Topic:**[Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/feature-preview-program.md)
 

@@ -3,11 +3,11 @@ title: Data collected for VMware Cloud Discovery
 description: Discovery collects information about VMware resources in your cloud service accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 32
 breadcrumb: [Cloud resource discovery references, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -62,7 +62,7 @@ Several tables are cloud-agnostic tables, meaning that they can be populated for
 
 ## vCenter data
 
-Discovery uses multiple [vCenter probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md) to collect this data from vCenter. The data is saved in tables extend from the Configuration item \[cmdb\_ci\] table.
+Discovery uses multiple [vCenter probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md) to collect this data from vCenter. The data is saved in tables extend from the Configuration item \[cmdb\_ci\] table.
 
 |Field label and Name|Description|
 |--------------------|-----------|
@@ -733,7 +733,7 @@ Disk \[cmdb\_ci\_disk\]
 </td></tr></tbody>
 </table>\* These relationships are part of Software Asset Management \(ServiceNow Otto for SAM\) use case.
 
-† The relationships between the listed server CIs and the ESX Server and VM Instance are created by the business rule Virtual Computer Check. The server CI must be discovered after the vCenter is discovered to trigger the business rule and create the relationships.
+† The business rule "Virtual Computer Check" creates the relationships between the listed server CIs and the ESX Server and VM Instance. The server CI must be discovered after the vCenter is discovered. This triggers the business rule and creates the relationships.
 
 **Note:** Software installation records appear as a related list on Server \[cmdb\_ci\_server\], Windows Server \[cmdb\_ci\_win\_server\], and Linux Server \[cmdb\_ci\_linux\_server\] CI records.
 
@@ -767,7 +767,7 @@ These additional relationships are created when Cloud Management \(CMP\) is acti
 
 ## VMware tags
 
-You can attach tags to vSphere objects, such as virtual machines, through the vSphere interface. The tags can then be grouped into categories. Objects with tags are sortable and searchable based on the parameters that you give the tags and categories. The [VMWare — vCenter VM Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/vcenter-probes.md) probe discovers these tags. You can view the discovered tags by opening the virtual machine record in **cmdb\_ci\_vmware\_instance**. Then go to the **Key Values** tab.
+You can attach tags to vSphere objects, such as virtual machines, through the vSphere interface. The tags can then be grouped into categories. Objects with tags are sortable and searchable based on the parameters that you give the tags and categories. The [VMWare — vCenter VM Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/vcenter-probes.md) probe discovers these tags. You can view the discovered tags by opening the virtual machine record in **cmdb\_ci\_vmware\_instance**. Then go to the **Key Values** tab.
 
 |Field label and Name|Description|
 |--------------------|-----------|
@@ -1090,7 +1090,7 @@ To run a complete Discovery of vCenter/ESXi servers, you need vCenter credential
 
 ## ESXi server Discovery Components
 
-Discovery identifies ESXi servers based on the correlation ID \(BIOS UUID\), when the hardware manufacturer is on a certified inclusion list. So if the manufacturer is in the compatible manufacturers list, the correlation-id must be unique. If the manufacturer isn’t on the certified inclusion list, we check for the Managed Object Reference ID \(MORID\) and Serial Number as well. After running the vCenter classifier, Discovery launches the VMware - vCenter datacenters probe, which launches the probes that explore the ESXi server. For the complete list of vCenter probes, see [List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md).
+Discovery identifies ESXi servers based on the correlation ID \(BIOS UUID\), when the hardware manufacturer is on a certified inclusion list. So if the manufacturer is in the compatible manufacturers list, the correlation-id must be unique. If the manufacturer isn’t on the certified inclusion list, we check for the Managed Object Reference ID \(MORID\) and Serial Number as well. After running the vCenter classifier, Discovery launches the VMware - vCenter datacenters probe, which launches the probes that explore the ESXi server. For the complete list of vCenter probes, see [List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md).
 
 |Component and Name|Description|
 |------------------|-----------|
@@ -1146,7 +1146,7 @@ Discovery collects the following relationship data for ESXi servers.
 
 Resource pools are configured in vCenter and define the maximum amount of resources that virtual machines using that pool can consume. If the ESXi server has additional resources to spare, an ESXi server property enables resource pools to expand. The **Name** and **Owner** fields of each resource pool on the ESXi server must be configured within the ServiceNow AI Platform
 
-in the ESXi Resource Pool \[cmdb\_ci\_esx\_resource\_pool\] table. When Orchestration for VMware executes its manual provisioning tasks, the provisioner must select the proper resource pool for the virtual server requested. Discovery finds resource pools on ESXi machines and populates the fields on the ESXi Resource Pool form automatically. For more information, see [Configure ESXi resource pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureESXResourcePools.md).
+in the ESXi Resource Pool \[cmdb\_ci\_esx\_resource\_pool\] table. When Orchestration for VMware executes its manual provisioning tasks, the provisioner must select the proper resource pool for the virtual server requested. Discovery finds resource pools on ESXi machines and populates the fields on the ESXi Resource Pool form automatically. For more information, see [Configure ESXi resource pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_ConfigureESXResourcePools.md).
 
 ESXi resource pools require the Orchestration - VMware Support plugin.
 
@@ -1184,9 +1184,9 @@ If you use a domain account to access the ESXi host, specify the domain with the
 
 ## Requirements
 
--   Make sure the Discovery \(com.snc.discovery\) plugin is installed and activated and that you have upgraded to Australia or later.
+-   Make sure the Discovery \(com.snc.discovery\) plugin is installed and activated and that you have upgraded to Brazil or later.
 -   Activate the ESXi trigger probe. Navigate to the Trigger Probe \[trigger\_probe\_m2m\] table. The esxi record is inactive by default. Mark Active as true to enable Standalone ESXi discovery.
--   Create a new Discovery schedule for the host with the appropriate IP address of the ESXi host.
+-   Create a Discovery schedule for the host with the appropriate IP address of the ESXi host.
 
 **Note:** If both SSH and ESXi are triggered, SSH is launched first and may cause Discovery to complete with the message "ESX Discovery is only supported through the vCenter." In this case, open the UNIX - Classify probe and set ESX - OS inactive.
 
@@ -1194,7 +1194,7 @@ If you use a domain account to access the ESXi host, specify the domain with the
 
 Discovery identifies ESXi servers based on the correlation ID \(BIOS UUID\), when the hardware manufacturer is on a certified inclusion list. If the manufacturer is on the list, the correlation ID must be unique. If the manufacturer isn’t on the certified inclusion list, the Managed Object Reference ID \(MORID\) and Serial Number are checked as well.
 
-After Shazzam runs, it checks for the port probe esxi. Discovery then launches the VMWare - Standalone ESXi Server probe, which then launches the probes that explore the ESXi server. Other existing Discovery probes are also launched. For the complete list of probes, see [List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md).
+After Shazzam runs, it checks for the port probe esxi. Discovery then launches the VMWare - Standalone ESXi Server probe, which then launches the probes that explore the ESXi server. Other existing Discovery probes are also launched. For the complete list of probes, see [List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md).
 
 <table id="table_jmv_4df_4nb"><thead><tr><th>
 
@@ -1441,5 +1441,5 @@ ESXMigrationUtil. retireCIsForESXForwardMigration(esx_sys_ids)
 
 Once an ESXi server is migrated to vCenter, triggering a standalone ESXi discovery schedule on the same ESXi host results in an error. Discovery is aborted with an error message that “This ESXi is part of vCenter &lt;IP\_address of Vcenter&gt; discovery schedule. Aborting discovery”.
 
-**Parent Topic:**[Cloud resource discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/cloud-discovery-collected-data.md)
+**Parent Topic:**[Cloud resource discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/cloud-discovery-collected-data.md)
 

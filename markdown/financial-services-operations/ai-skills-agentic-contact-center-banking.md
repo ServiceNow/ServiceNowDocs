@@ -3,9 +3,9 @@ title: AI skills in Agentic Contact Center for Banking
 description: AI skills in Agentic Contact Center for Banking generate customer summaries that help customer service representatives understand customer profiles and call context. These skills combine customer data, product ownership, transaction history, and interaction records to provide comprehensive overviews.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/ai-skills-agentic-contact-center-banking.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -41,12 +41,12 @@ The summary includes the following information:
 
 The generated context summary displays in the Interaction page as part of Agentic Contact Center for Banking.
 
-**Parent Topic:**[Exploring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Exploring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/exploring-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-profile-summarization-fso.md)
+[Configure banking customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-customer-profile-summarization-fso.md)
 
-[Configure banking customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-contextual-summarization-fso.md)
+[Configure banking customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-customer-contextual-summarization-fso.md)
 

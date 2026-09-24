@@ -3,11 +3,11 @@ title: Remove File or Directory activity
 description: The Remove File or Directory activity removes a file or a directory on an SFTP server, including subdirectories, when configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_RemoveFileOrDirectoryActivity.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SFTP File Transfer activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -25,7 +25,7 @@ The Remove File or Directory activity removes a file or a directory on an SFTP s
 |sourceFilePath|Full path to the file or directory to remove. To remove multiple files or directories using a single activity, enter a semicolon-separated list of paths in this field.|
 |isDirectory|True/false variable that determines if the specified file path is a directory. The default value for this variable is **false**.|
 |includeSubfolders|True/false variable that determines if the given directory and all of its subfolders should be removed. The default value for this variable is **false**. If the value for this field is **false**, then the activity can only remove an empty directory. This field appears when the **isDirectory** checkbox is selected.|
-|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the host.|
+|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the host.|
 
 ## Output variables
 
@@ -43,7 +43,7 @@ errorMessage
 
 </td><td>
 
-The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.
+The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.
 
 </td></tr><tr><td>
 
@@ -71,5 +71,5 @@ The **deletionResults** array contains these attributes:-   **fullPath**: Full p
 |Success|The activity succeeded in removing the file or directory specified.|
 |Failure|The activity failed to remove the file or directory specified.|
 
-**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md)
 

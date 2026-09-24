@@ -3,11 +3,11 @@ title: Create a custom UI test
 description: Test components in custom UI pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/create-custom-ui-test.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Custom UI test steps, UI test steps, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -18,7 +18,7 @@ Test components in custom UI pages.
 
 ## Before you begin
 
--   Use the Page Inspector to identify testable custom UI components. See [Enable and use the page inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/enable-page-inspector.md).
+-   Use the Page Inspector to identify testable custom UI components. See [Enable and use the page inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/enable-page-inspector.md).
 -   Role required: admin
 
 ## Procedure
@@ -43,7 +43,7 @@ Test components in custom UI pages.
     2.  **Click UI Action**: Click the **Try It** UI action to open the page.
 7.  Add test steps from the Custom UI category to validate the behavior of custom UI components.
 
-    For a list of available Custom UI test steps, see [Custom UI category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-custom-ui-category.md).
+    For a list of available Custom UI test steps, see [Custom UI category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/test-steps-custom-ui-category.md).
 
 8.  Retrieve UI components when adding a test step.
 
@@ -75,7 +75,7 @@ Test components in custom UI pages.
 
 ## What to do next
 
-Consider adding tests to a test suite. For more information, see [Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md).
+Consider adding tests to a test suite. For more information, see [Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md).
 
-**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
+**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
 

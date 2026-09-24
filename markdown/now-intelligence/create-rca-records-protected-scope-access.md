@@ -3,7 +3,7 @@ title: Approve RCA records for AI Data Explorer and Query Generation protected s
 description: Approve automatically generated Restricted Caller Access \(RCA\) records to enable AI Data Explorer and Query Generation to fetch data from tables in protected scopes through API calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-rca-records-protected-scope-access.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-30"
 reading_time_minutes: 3
@@ -64,9 +64,9 @@ If you encounter error messages such as "Error accessing table data" or "Scope a
 
 If RCA records are not being created automatically, confirm that the ACLs are active and that users have the necessary permissions to trigger the Query Generation operations.
 
-**Parent Topic:**[Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-aide-secure-scope-apps.md)
+**Parent Topic:**[Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-aide-secure-scope-apps.md)
 
-**Previous topic:**[Create ACLs for AI Data Explorer and Query Generation protected scope access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-acls-protected-scope-access.md)
+**Previous topic:**[Create ACLs for AI Data Explorer and Query Generation protected scope access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-acls-protected-scope-access.md)
 
-**Next topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/semantic-layer-tuning-overview.md)
+**Next topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/semantic-layer-tuning-overview.md)
 

@@ -3,9 +3,9 @@ title: Standalone signing tool
 description: Use the standalone Signing Tool to sign supported records in ServiceNow applications using your own private key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/sa-code-signing-tool.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Code Signing, Code Signing, Platform Security]
 ---
@@ -26,7 +26,14 @@ Use the Signing Tool to sign records in ServiceNow apps. The tool generates sign
     **Note:** Applications can be synced between a Git repository and your instance using the Source Control Integration. For details on configuring and using this integration, see .
 
 3.  Clone the application in your local environment.
-4.  Use the Signing Tool \(also in your local environment\) to sign the supported records from the cloned ServiceNow application using your private key. The Signing Tool creates signature records and X.509 Certificate \[sys\_certificate\] records. For details on using the Signing Tool, see [Using the Signing Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-sa-signing-tool.md).
+4.  Use the Signing Tool \(also in your local environment\) to sign the supported records from the cloned ServiceNow application using your private key. The Signing Tool creates signature records and X.509 Certificate \[sys\_certificate\] records. For details on using the Signing Tool, see [Using the Signing Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-sa-signing-tool.md).
 5.  Push the updated application to your Git repository.
 6.  In your instance, import the updated application by applying remote changes.
+
+-   **[Using the Signing Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-sa-signing-tool.md)**  
+Learn how to use the Signing Tool to sign supported records in ServiceNow applications.
+-   **[Signing Tool arguments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sa-signing-tool-reference.md)**  
+Learn about the available arguments for the Signing Tool.
+
+**Parent Topic:**[Using Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/using-code-signing.md)
 

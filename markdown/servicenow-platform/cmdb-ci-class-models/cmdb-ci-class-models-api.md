@@ -3,13 +3,13 @@ title: API extension classes
 description: The CMDB CI Class Models ServiceNow Store app adds or updates classes for APIs \(application programming interface\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-api.html
-release: australia
+release: brazil
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # API extension classes
@@ -37,7 +37,7 @@ The classes added in this release extend the CMDB data model and provide a found
 
 This section lists the classes that the CMDB CI Class Models app adds or updates. For additional detail, see the [Community article titled "New Data Model in CMDB for APIs"](https://www.servicenow.com/community/cmdb-articles/new-data-model-in-cmdb-for-apis/ta-p/2688843).
 
-CMDB CI Class Models: The following classes for API are available. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+CMDB CI Class Models: The following classes for API are available. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_h2r_d5z_ryb"><thead><tr><th>
 
@@ -85,7 +85,7 @@ API Component\[cmdb\_ci\_api\_component\]
 
 </td><td>
 
-The part of an API from which a client or user interacts or makes requests. Example: GET https://\[apiID\].execute-api.us-east-2.amazonaws.com/\{proxy+\}.
+The part of an API from that a client or user interacts or makes requests. Example: GET https://\[apiID\].execute-api.us-east-2.amazonaws.com/\{proxy+\}.
 
 </td></tr><tr><td>
 

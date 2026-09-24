@@ -3,9 +3,9 @@ title: Configure suggested text for string fields
 description: You can configure the suggested text options for string fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfigSuggestTxtForStringFields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Suggestion field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

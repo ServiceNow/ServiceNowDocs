@@ -1,26 +1,41 @@
 ---
 title: Content pack for Customer Service Management
-description: Using the Process Mining content pack for Customer Service Management enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with customer service cases.Analyze a process for customer service cases and identify bottlenecks to minimize delays in the case flow for a better customer experience.Use the SLA breach analysis project in Process Mining to identify and analyze cases where service level agreements \(SLAs\) have been violated.
+description: Using the Process Mining content pack for Customer Service Management enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with customer service cases.Use the SLA breach analysis project in Process Mining to identify and analyze cases where service level agreements \(SLAs\) have been violated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/csm-integration-po.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
-breadcrumb: [Activate content packs, Activate, Process Mining, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Automatic content pack delivery, Activate content packs, Activate, Process Mining, Platform Analytics]
 ---
 
 # Content pack for Customer Service Management
 
 Using the Process Mining content pack for Customer Service Management enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with customer service cases.
 
-For more information about enabling the Process Mining Content Pack for CSM, see [Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-po-content-pack.md).
+This content pack loads automatically when CSM is installed on your instance and the relevant tables are present. For more information, see [Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining-content-pack-delivery.md).
+
+## Templates shipped with content pack
+
+|Content pack|Template name|Table|
+|------------|-------------|-----|
+|CSM|Standard template for Cases|sn\_customerservice\_case|
+
+## What you get with this content pack
+
+This content pack analyzes your customer service case processes. It gives you visibility into common process issues, such as:
+
+-   Cases that take longer than expected to resolve
+-   Rework, such as cases that get reopened or bounced back between teams
+-   Deviations from the expected process flow
+-   Work that stalls with a particular team or agent longer than expected
 
 ## End user and roles
 
-If you have the required roles, you can use Analyst workbench to access the visualized process workflow data, and tools for analyzing the data related to customer service cases. For more information, see [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md).
+If you have the required roles, you can use Analyst workbench to access the visualized process workflow data, and tools for analyzing the data related to customer service cases. For more information, see [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md).
 
 The following combinations of roles are required for using the Process Mining application with Customer Service Management.
 
@@ -30,69 +45,7 @@ The following combinations of roles are required for using the Process Mining ap
 |sn\_process\_mining\_power\_user|sn\_customerservice\_manager|
 |sn\_process\_mining\_analyst|sn\_customer\_service\_agent|
 
-## Optimization project for customer service cases
-
-The Process Mining Content Pack for CSM \(sn\_csm\_po\) adds a prebuilt project that includes a predefined **Customer Service Cases** project definition for customer service cases. By default, the **Customer Service Cases** project filters customer service cases for the last two quarters. You can also configure a new process project based on the prebuilt project. For more information, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md).
-
-The **Customer Service Cases** project includes default activity definitions and breakdown definitions for customer service cases that you can use as they’re or modify them for a custom configuration.
-
--   Use activity definitions to understand state transitions such as cases transitioning from the work in progress state to the solution proposed state and analyze the linked processes such as Problem \(PRB\) records.
--   Use breakdown definitions to filter records and analyze a process map by categories. For example, you can filter the customer service case data by different channels, products, assignment groups, and locations.
-
-## SLA breach analysis project for customer service cases
-
-The Process Mining Content Pack for CSM \(sn\_csm\_po\) adds a pre-built project that includes a predefined **SLA Breach Analysis** project definition for customer service cases. For more information, see [SLA Breach Analysis project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/csm-integration-po.md).
-
-## Continual Improvement Management initiative for customer service cases
-
-If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from Analyst workbench to track the progress of improvement initiatives for customer service cases. The improvement initiative and Process Mining projects are automatically linked. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-with-continuous-i.md).
-
-## Performance Analytics for customer service cases
-
-If the Performance Analytics application is enabled, you can also use the available template configurations to open the Process Mining application from a Performance Analytics \(PA\) [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) based on the customer service case data. For more information, see [Integration with Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-pa.md).
-
-**Parent Topic:**[Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-po-content-pack.md)
-
-**Related topics**  
-
-
-[Example of Process Mining for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/csm-integration-po.md)
-
-## Example of Process Mining for CSM
-
-Analyze a process for customer service cases and identify bottlenecks to minimize delays in the case flow for a better customer experience.
-
-Say you are a process analyst in the ACME corporation where you must submit analysis on current processes associated with customer service cases. You use Analyst workbench to access the mined processes for the **Customer Service Cases** project.
-
-You would analyze the case process flow and suggest ways to improve the processes by using the following workflow:
-
-1.  Select **View in Workspace** from the **Customer Service Cases** project definition. Analyst workbench is opened in a new tab.
-
-    You observe that the customer service case records take an average duration of 16 days to close a case.
-
-2.  View metrics of the process map by setting the Primary Metric and Secondary Metric lists to **Unique Occurrences** and **Average Duration**, respectively.
-3.  Refine the process map by selecting **Refine** and selecting a connection width to see the full list of metrics.
-
-    You observe that the **Work In Progress - Awaiting Info** transition state is taking more than two days.
-
-4.  In the **Filters** tab, set the Breakdown filters list to **Assignment group** and use the activity filter to view the process flow between the **Work In Progress - Awaiting Info** and **Work In Progress** activities.
-5.  In the **Routes** tab, you want to see all the records that took longer than average duration of two days between the selected activities so you select **Most records** in the Sort by list. You then select any process paths to view the cases in that route.
-
-    You observe that most of the cases are related to emails.
-
-6.  Add notes to the project by selecting the notes icon \(\[Omitted image "notes-icon.png"\] Alt text: Notes icon\) and submit an analysis.
-
-    In your notes, you suggest using a standardized template for improving the email transactions between agents and customers.
-
-
-\[Omitted image "example-po-csm2.png"\] Alt text: Example: Process Mining Analyst workbench for CSM
-
-**Related topics**  
-
-
-[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
-
-[Content pack for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/csm-integration-po.md)
+**Parent Topic:**[Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining-content-pack-delivery.md)
 
 ## SLA Breach Analysis project
 
@@ -172,7 +125,7 @@ Breakdown by channels, product, and assignment group
 </td></tr></tbody>
 </table>### Using the SLA Breach Analysis project
 
-Use the SLA Breach Analysis project to analyze the reasons why customers are breaching SLAs and help them get to the root cause. This project is available with the [Process Mining Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/csm-integration-po.md) \(sn\_csm\_po\).
+Use the SLA Breach Analysis project to analyze the reasons why customers are breaching SLAs and help them get to the root cause. This project is available with the [Process Mining Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/csm-integration-po.md) \(sn\_csm\_po\).
 
 To access the SLA Breach Analysis project:
 
@@ -184,7 +137,7 @@ To access the SLA Breach Analysis project:
 6.  On the Summary and Insights tab you can view the following information:
     -   Project Metrics: Displays metric data such as Average time to completion of records over time.
     -   Improvement Opportunities: Displays metric data and a list of cases with different types of SLA breaches, such as Ping-Pong \(case reassignment\) and Extreme duration.
-7.  To view the process map for a case, select **Action** and then select **View in workbench** to display the [Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md).
+7.  To view the process map for a case, select **Action** and then select **View in workbench** to display the [Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md).
 
     Use this workbench to access the visualized process workflow data and tools for analyzing the data related to SLA breaches.
 
@@ -194,6 +147,6 @@ To access the SLA Breach Analysis project:
     -   Task SLA map: View the points at which the case is breaching the SLA.
 8.  Select a node or transition line within a map to view additional details about the selected item in a modal window.
 
-    For more information about using Analyst workbench, including breakdown filters and process maps, see the details in the [Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md) topic.
+    For more information about using Analyst workbench, including breakdown filters and process maps, see the details in the [Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md) topic.
 
 

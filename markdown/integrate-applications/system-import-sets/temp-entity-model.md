@@ -3,11 +3,11 @@ title: Temporary entity model
 description: Use temporary ETL entities to avoid repetitive operations in target entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/temp-entity-model.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Extract Transform Load \(ETL\) definition overview, Robust Import Set Transformers, Import sets, Imports, Workflow Data Fabric]
 ---

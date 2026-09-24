@@ -3,11 +3,11 @@ title: Delete F5 Pool Member activity
 description: The Delete F5 Pool Member activity deletes an F5 load balancer pool member.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_DeleteF5PoolMemberActivity.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [F5 Network Management activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [F5 Network Management activity pack, Orchestration activity packs, 
 
 The Delete F5 Pool Member activity deletes an F5 load balancer pool member.
 
-This activity was built using the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md). To access the activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
+This activity was built using the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md). To access the activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
 
 ## REST settings
 
@@ -46,5 +46,5 @@ This activity was built using the [REST web service activity template](https://r
 |Success|Acivity succeeded in deleting an F5 load balancer pool member.|
 |Failure|Acivity failed to delete an F5 load balancer pool member.|
 
-**Parent Topic:**[F5 Network Management activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchF5LoadBalancerActivities.md)
+**Parent Topic:**[F5 Network Management activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_OrchF5LoadBalancerActivities.md)
 

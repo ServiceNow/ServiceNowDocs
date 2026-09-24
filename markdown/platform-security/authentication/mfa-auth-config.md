@@ -3,11 +3,11 @@ title: Authenticator configuration options
 description: Use the Authenticator Configuration page to manage authenticator options on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-auth-config.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web Authentication, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---

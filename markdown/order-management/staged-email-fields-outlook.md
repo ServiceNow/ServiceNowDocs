@@ -3,9 +3,9 @@ title: Staged Email table
 description: Field descriptions for viewing email records linked to CRM entities in the Staged Email \[sys\_email\_staging\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/staged-email-fields-outlook.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [staged email fields, CRM Outlook, email association]
 breadcrumb: [Activity Management reference, Sales automation, Reference, Sales Customer Relationship Management]
@@ -33,10 +33,10 @@ Field descriptions for viewing email records linked to CRM entities in the Stage
 |Body|HTML-formatted content of the email.|
 |Body text|Plain text version of the email content.|
 
-**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)
+**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/activity-management-reference.md)
 
 **Related topics**  
 
 
-[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md)
+[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-associated-emails-crm.md)
 

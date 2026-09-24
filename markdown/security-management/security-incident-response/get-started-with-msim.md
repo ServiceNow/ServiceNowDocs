@@ -3,11 +3,11 @@ title: Get started with MSIM
 description: Review the following information before you start working with Major Security Incident Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-started-with-msim.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -34,7 +34,7 @@ Before you begin with the application, ensure that you have the required depende
 
 </td><td>
 
-Install:-   [ServiceNow IntegrationHub Installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md) \(com.glide.hub.integrations\)
+Install:-   [ServiceNow IntegrationHub Installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/request-ih-overview.md) \(com.glide.hub.integrations\)
 -   ServiceNow® Integration Hub Runtime \(com.glide.hub.integration.runtime\).
 -   ServiceNow® Integration Hub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow® Integration Hub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)
@@ -55,7 +55,7 @@ Microsoft SharePoint Spoke version 1.1.2 is required for Graph and REST connecti
 </td></tr></tbody>
 </table>**Important:** After you install the Major Security Incident Management application, import the update set to integrate Microsoft SharePoint and Microsoft Teams with ServiceNow using certificate credentials. For more information, see [KB1289784](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1289784).
 
-**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
+**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
 
 **Related topics**  
 

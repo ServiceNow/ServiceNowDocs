@@ -3,11 +3,11 @@ title: Update the data source of the connector
 description: Link the duplicated ETL to a valid data source for your specific connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/update-data-source-of-the-connector.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Duplicate Telecom Discovery Builder, Configure Telecom Discovery Builder, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -40,5 +40,5 @@ The following screenshot can help you to replace the default source with your co
 **Related topics**  
 
 
-[Deploy service graph connector with existing ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/deploy-a-new-service-graph-connector-with-duplicated-etl.md)
+[Deploy service graph connector with existing ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/deploy-a-new-service-graph-connector-with-duplicated-etl.md)
 

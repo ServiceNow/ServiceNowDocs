@@ -3,9 +3,9 @@ title: Dashboard summary skill
 description: Dashboard summarization skills are enabled by default when the Dashboard Summary plugin is installed. Configure ServiceNow Otto access to these skills under ServiceNow Otto skills for Data and Analytics to give users AI-assisted dashboard context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboard-summary-skill.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Admin Hub, Now Assist Admin Console]
 breadcrumb: [Configure, Dashboard Summary, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -29,7 +29,7 @@ The ServiceNow Otto context menu has two forms and each form uses AI skills diff
 
 -   **ServiceNow Otto context menu dashboard element**
 
-    The context menu can be used as a reusable configurable dashboard element with any valid dashboard AI skill. To enable the skills for the dashboard element, see [Configure the ServiceNow Otto context menu in Now Assist Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-db-summarization-skill-nacm.md).
+    The context menu can be used as a reusable configurable dashboard element with any valid dashboard AI skill. To enable the skills for the dashboard element, see [Configure the ServiceNow Otto context menu in Now Assist Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-db-summarization-skill-nacm.md).
 
 
 **Note:** By default, every authenticated user has access to the Dashboard Summary. You can limit access to specific roles from the AI Admin Hub, either while activating the skill or later. To limit access, you must be in the AI Dashboard Insights scope.
@@ -74,5 +74,5 @@ The ServiceNow Otto context menu has two forms and each form uses AI skills diff
 **Related topics**  
 
 
-[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
+[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
 

@@ -3,11 +3,11 @@ title: Cryptographic Asset Compliance Home page
 description: The Cryptographic Asset Compliance Home page provides centralized visibility into cryptographic asset health, risk indicators, key metrics, and actionable insights for proactive compliance management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/home-dashboard-CAC.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [home dashboard, metrics, overview, risk indicators]
 breadcrumb: [Monitor, Cryptographic Asset Compliance, ITOM Visibility, IT Operations Management]
@@ -36,7 +36,7 @@ The compliance status is the percentage of PQC compliance for each supported reg
 
 ## Quantum-vulnerable algorithms
 
-Quantum-vulnerable algorithms are ranked by the number of affected assets, with guidance to plan replacement by 2035 per NIST IR 8547. You can select the number of assets to view a filtered list of the assets on the **Inventory** page. For more information, see [View and manage cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/manage-inventory.md).
+Quantum-vulnerable algorithms are ranked by the number of affected assets, with guidance to plan replacement by 2035 per NIST IR 8547. You can select the number of assets to view a filtered list of the assets on the **Inventory** page. For more information, see [View and manage cryptographic assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/manage-inventory.md).
 
 ## Cryptographic asset breakdown
 

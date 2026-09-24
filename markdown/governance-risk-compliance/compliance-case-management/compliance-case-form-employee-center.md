@@ -3,11 +3,11 @@ title: Report a Compliance Case form
 description: Use the Report a Compliance Case form in the Employee Center to report a compliance case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/compliance-case-form-employee-center.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Employee Center, Report compliance case, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -34,5 +34,5 @@ See the following table for a description of the field values.
 |Add attachments|
 |Add attachments|Choose a reference file or copy and paste clipboard files|
 
-**Parent Topic:**[Report a compliance case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/report-compliance-case-employee-center.md)
+**Parent Topic:**[Report a compliance case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/report-compliance-case-employee-center.md)
 

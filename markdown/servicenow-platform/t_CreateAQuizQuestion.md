@@ -3,9 +3,9 @@ title: Create quiz questions
 description: Create multiple questions for each category. Each question can be associated with only one category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateAQuizQuestion.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a quiz, Quiz designer, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,13 +20,13 @@ Role required: assessment\_admin or admin
 
 ## About this task
 
-The [data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md) that you select for each question determines how it can be answered by quiz recipients.
+The [data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_QuizDesigner.md) that you select for each question determines how it can be answered by quiz recipients.
 
 You can designate questions to be scored. Only scored questions are shown in the quiz results and considered when calculating the category results. You must also specify a correct answer for scored questions.
 
 **Note:**
 
-To designate a question as scored, you must use Assessment forms. For instructions, see [Configure a scored question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAScoredQuestion.md).
+To designate a question as scored, you must use Assessment forms. For instructions, see [Configure a scored question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureAScoredQuestion.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ To designate a question as scored, you must use Assessment forms. For instructio
 
     2.  On the Properties form, fill in the fields.
 
-        For a description of the field values, see [Question Properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/question-property-form.md).
+        For a description of the field values, see [Question Properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/question-property-form.md).
 
     3.  Create any special conditions that must be met for a question to appear on the quiz by selecting the **Dependency** tab and filling in the fields.
 
@@ -67,5 +67,5 @@ To designate a question as scored, you must use Assessment forms. For instructio
 4.  Delete a question by selecting the X in its title bar.
 
 
-**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
+**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateaQuiz.md)
 

@@ -3,11 +3,11 @@ title: MFA enforcement scope
 description: FAQ related to MFA enforcement scope and why it’s important.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-enforcement-scope.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Frequently asked questions, MFA enforcement, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -29,7 +29,7 @@ FAQ related to MFA enforcement scope and why it’s important.
 
     No. With the default secure MFA policy, MFA isn’t required for SSO \(SAML, OIDC, Certificate Based Authentication\) login.
 
-    Customers can collaborate with their Single Sign-On \(SSO\) provider \(Identity Provider, or IdP\) to enforce multi-factor Authentication \(MFA\) on the IdP side. If enforcing MFA on the IdP side isn’t feasible, customers also have the option to enable the ServiceNow platform's MFA for SSO logins by following the instructions provided in [Multi-factor Authentication with Single Sign-On](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-sso.md).
+    Customers can collaborate with their Single Sign-On \(SSO\) provider \(Identity Provider, or IdP\) to enforce multi-factor Authentication \(MFA\) on the IdP side. If enforcing MFA on the IdP side isn’t feasible, customers also have the option to enable the ServiceNow platform's MFA for SSO logins by following the instructions provided in [Multi-factor Authentication with Single Sign-On](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-sso.md).
 
 3.  Is MFA required for external users?
 

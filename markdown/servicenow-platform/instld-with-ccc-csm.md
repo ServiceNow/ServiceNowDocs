@@ -3,9 +3,9 @@ title: Components installed with ServiceNow Voice for CSM
 description: Several contact flows and operation handlers are installed with Cloud Call Center for CSM application \(sn\_cti\_csm\_cnt\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instld-with-ccc-csm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Voice reference, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,5 +37,5 @@ Several contact flows and operation handlers are installed with Cloud Call Cente
 |updateCSMInteraction|Updates an existing interaction record in the ServiceNow instance for the incoming calls.|
 |fetchCSMInteraction|Fetches interaction and processes sn\_cti\_csm\_cnt.enable\_ims\_update sys property for creating conversation.|
 
-**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-reference.md)
+**Parent Topic:**[ServiceNow Voice reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ccc-reference.md)
 

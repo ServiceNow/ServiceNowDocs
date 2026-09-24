@@ -3,11 +3,11 @@ title: View and kill active transaction
 description: Administrators can view active transactions and kill long-running transactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/t\_ViewAndKillAnActiveTransaction.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Transaction cancellation, Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ This action is intended to stop background processes, such as scheduled jobs, an
 
 ## Procedure
 
-1.  If [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HighSecuritySettings.md) are enabled, elevate privileges to security\_admin.
+1.  If [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_HighSecuritySettings.md) are enabled, elevate privileges to security\_admin.
 
 2.  Navigate to the appropriate **Active Transactions** module.
 
@@ -41,5 +41,5 @@ This action is intended to stop background processes, such as scheduled jobs, an
     -   Select and hold \(or right-click\) the record and select **Kill** from the available options.
     -   Select the check box next to one or more records and select **Kill** from the **Actions on selected rows** drop-down menu.
 
-**Parent Topic:**[Transaction cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/transaction-cancellation.md)
+**Parent Topic:**[Transaction cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/transaction-cancellation.md)
 

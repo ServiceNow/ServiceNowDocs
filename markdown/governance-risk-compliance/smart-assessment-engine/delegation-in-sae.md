@@ -3,11 +3,11 @@ title: Delegation in Smart Assessment Engine
 description: Delegation lets another user act on your assessments on your behalf for a set period, so work doesn't stall when a responder or requestor is unavailable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/delegation-in-sae.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -20,17 +20,15 @@ Delegation lets another user act on your assessments on your behalf for a set pe
 
 In an assessment, some actions can be done only by specific people: only the owner can submit, and only the requestor or an assessment admin can cancel or reassign. If that person is unavailable, their part of the workflow stalls. Delegation addresses this by letting a user name another user to act on their behalf for a defined time period.
 
-**Note:** This feature is available starting with Australia Patch 2.
+Delegation in the Smart Assessment Engine uses the standard ServiceNow platform delegate feature. A user adds a delegate on their user profile, selects the **Assignments** option, and sets a start and end date. During that period, the delegate can act on the user's Smart Assessments. For the steps, see [Set up a delegate for your assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/set-up-delegation-for-assessments.md).
 
-Delegation in the Smart Assessment Engine uses the standard ServiceNow platform delegate feature. A user adds a delegate on their user profile, selects the **Assignments** option, and sets a start and end date. During that period, the delegate can act on the user's Smart Assessments. For the steps, see [Set up a delegate for your assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/set-up-delegation-for-assessments.md).
-
-**Important:** This delegation is different from the granular, section-level delegation used in collaboration, where an owner assigns contributors to specific sections. For section-level access, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
+**Important:** This delegation is different from the granular, section-level delegation used in collaboration, where an owner assigns contributors to specific sections. For section-level access, see [Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/collaboration-in-assessments.md).
 
 ## Enabling delegation for a category
 
-Delegation is turned off by default and is enabled for each template category. An assessment administrator can enable it, for more information see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+Delegation is turned off by default and is enabled for each template category. An assessment administrator can enable it, for more information see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
-Enabling delegation at the category level isn't enough on its own. Each user must also add a delegate and select the **Assignments** option on their own user profile before delegation works on their assessments. For the user-level steps, see [Set up a delegate for your assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/set-up-delegation-for-assessments.md).
+Enabling delegation at the category level isn't enough on its own. Each user must also add a delegate and select the **Assignments** option on their own user profile before delegation works on their assessments. For the user-level steps, see [Set up a delegate for your assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/set-up-delegation-for-assessments.md).
 
 ## Delegate actions by role
 

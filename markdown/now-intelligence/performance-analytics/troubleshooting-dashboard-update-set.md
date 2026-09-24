@@ -3,11 +3,11 @@ title: Solving errors on dashboards moved with update sets
 description: When you move a dashboard with an update set, if errors are shown on the Update Set Preview Problems tab of the Retrieved Update Set page, follow the instructions for each error to solve these problems.When you move a dashboard with an update set, the following error may occur: 'Could not find a record in sys\_grid\_canvas for column canvas\_page referenced in this update'. To solve this error, move the canvas page from the source instance to the target instance.When you attempt to move a dashboard in a scoped app, the move fails when you try to retrieve the update set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Move a Core UI dashboard with an update set, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -40,7 +40,7 @@ Role required: admin.
 
 6.  Transfer the update set to the target instance using standard update set functionality.
 
-    For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RetrieveAnUpdateSet.md).
+    For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_RetrieveAnUpdateSet.md).
 
 7.  Repeat this task for all update set preview problems that have this error.
 

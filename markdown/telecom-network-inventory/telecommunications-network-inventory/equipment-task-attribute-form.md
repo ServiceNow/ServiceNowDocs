@@ -3,11 +3,11 @@ title: Equipment task attribute form
 description: The equipment task attribute form enables you to describe the details for an equipment record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/equipment-task-attribute-form.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -30,11 +30,12 @@ Inventory template
 
 </td><td>
 
-Inventory template for the equipment model. The instantiation process uses it to generate a network asset instance in the designated network site.**Note:**
+Inventory template for the equipment model include facility models. The instantiation process uses it to generate a network asset instance in the designated network site.**Note:**
 
 -   Depending on the selected inventory template, a list of the optional templates appears at the bottom of the form.
 -   When you select an optional template, the current template values are overwritten.
 -   This field is applicable only for Create inventory equipment.
+-   Facility-based templates are supported
 
 </td></tr><tr><td>
 
@@ -44,7 +45,7 @@ Stockroom Location
 
 Name of the stockroom location where the asset is located.
 
- To learn more, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md).
+ To learn more, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md).
 
 </td></tr><tr><td>
 
@@ -70,13 +71,13 @@ Asset
 
 Name of the asset that is associated with this record.
 
- To learn more, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md).
+ To learn more, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Create an equipment record by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-equipment-record-design-and-assign.md)
+[Create an equipment record by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-equipment-record-design-and-assign.md)
 

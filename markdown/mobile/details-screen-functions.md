@@ -3,9 +3,9 @@ title: Add functions to your details screens
 description: Add functions to your details screens to enable your users to take actions or view additional information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/details-screen-functions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a details screen, Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---

@@ -3,13 +3,13 @@ title: Configure AI Search as the source for Ask ServiceNow Otto suggestions
 description: Enable term highlighting in enhanced chat's Ask ServiceNow Otto suggestions by configuring AI Search as the source for those suggestions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-ai-search-source-ask-now-assist-suggestions.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-07-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -29,7 +29,7 @@ By default, Ask ServiceNow Otto suggestions are generated using a prefix-based G
 
 Admins can configure the system to use AI Search as the source for Ask ServiceNow Otto suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask ServiceNow Otto and provides improvements such as wildcard searching and lemmatization for suggestions.
 
-For more information on Ask ServiceNow Otto suggestions in enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md).
+For more information on Ask ServiceNow Otto suggestions in enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-enhanced-chat.md).
 
 ## Procedure
 
@@ -62,5 +62,5 @@ For more information on Ask ServiceNow Otto suggestions in enhanced chat, see [E
 5.  On the System Property form, set the system property's value to **true**, then select **Update**.
 
 
-**Parent Topic:**[Configuring ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
+**Parent Topic:**[Configuring ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
 

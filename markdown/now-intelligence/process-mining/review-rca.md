@@ -3,11 +3,11 @@ title: Review and interpret automated root cause analysis
 description: Review the analysis report and understand the root cause of performance issues. Use this information to optimize your processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/review-rca.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated root cause analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Automated root cause analysis, Analyzing and getting process insigh
 
 Review the analysis report and understand the root cause of performance issues. Use this information to optimize your processes.
 
-**Note:** You must have run automated root cause analysis to review and interpret the results. For more information, see [Run automated root cause analysis reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/run-view-arca.md).
+**Note:** You must have run automated root cause analysis to review and interpret the results. For more information, see [Run automated root cause analysis reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/run-view-arca.md).
 
 You must read and understand the automated root cause analysis results as follows.
 
@@ -34,5 +34,5 @@ From the example, if PO Group 8 is applied, you will see results similar to the 
 
 From this graph, you can analyse why some records are moving from Closed to Resolved before going to Process End.
 
-**Parent Topic:**[Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/auto-rca.md)
+**Parent Topic:**[Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/auto-rca.md)
 

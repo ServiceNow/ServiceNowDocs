@@ -3,11 +3,11 @@ title: Installed with teamspaces
 description: The tables and roles that are installed with project teamspaces are prefixed with an abbreviation based on the name of teamspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/r\_InstalledWithTeamspaces.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Teamspaces in Project Management, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -165,7 +165,7 @@ The teamspace application uses the same views that are provided in the Project, 
 
 **Note:** Default client scripts that these base applications use are inherited by the extended tables in the teamspace application. If you created custom client scripts for any of the base applications, select the **Inherited** options on each Client Script form before you create the teamspace.
 
-**Parent Topic:**[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_Teamspaces.md)
+**Parent Topic:**[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_Teamspaces.md)
 
 **Related topics**  
 
@@ -174,5 +174,5 @@ The teamspace application uses the same views that are provided in the Project, 
 
 [Configure teamspace settings]()
 
-[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_Teamspaces.md)
+[Using Teamspaces in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/c_Teamspaces.md)
 

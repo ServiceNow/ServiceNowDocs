@@ -3,12 +3,12 @@ title: Custom UI test steps
 description: Test customized user interfaces such as UI pages and UI macros by retrieving their HTML and JavaScript page components and identifying the test actions they support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/custom-ui-test-steps.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [UI test steps, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
@@ -44,7 +44,7 @@ Testable page components consist of standard HTML and JavaScript with these char
 
 -   **Are accessible to the Page Inspector**
 
-    Testable page components must return results when viewed from the [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md). Test designers can use the Page Inspector to identify the testable components of a page.
+    Testable page components must return results when viewed from the [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md). Test designers can use the Page Inspector to identify the testable components of a page.
 
 
 Examples of testable page components include these UI elements.
@@ -84,12 +84,6 @@ Examples of untestable page components include these UI elements.
 |Service Catalog|
 |Workspaces|
 
-## Control component discovery with allowed and not allowed lists
-
-Use sn-atf-blacklist and sn-atf-whitelist to control how the Custom UI page crawler discovers page components. Apply sn-atf-blacklist to exclude a component and all of its descendants from crawler processing. Apply sn-atf-whitelist within a blacklisted hierarchy to override the inherited exclusion and resume processing for a specific component subtree.
-
-For example, when a parent component is not allowed, all nested components are ignored by the page crawler. If a nested component is allowed, that component and its descendants are processed even though they remain within the not allowed parent hierarchy.
-
 ## Settable page components
 
 A settable component is a UI element that has a dynamic value such as a text input field. Settable components support these test actions and test steps.
@@ -109,7 +103,7 @@ Automated Test Framework allows UI developers to specify a data type to use duri
 -   Date Time
 -   Reference
 
-See [Override component data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/override-component-data-type.md) for more information.
+See [Override component data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/override-component-data-type.md) for more information.
 
 ## Clickable page components
 
@@ -154,7 +148,7 @@ Follow these design considerations when testing custom UI pages and page compone
 
 -   **Use HTML attributes to override page component testing properties**
 
-    Change the testing properties of a particular page component using HTML attributes that are specific to Automated Test Framework. See [Override component test actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/develop-testable-components.md).
+    Change the testing properties of a particular page component using HTML attributes that are specific to Automated Test Framework. See [Override component test actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/develop-testable-components.md).
 
 -   **Retrieve page components again when you move tests to another instance**
 
@@ -223,18 +217,18 @@ When you select the required component from the list and click **Submit**, the d
 
 \[Omitted image "atf-description.png"\] Alt text: Image showing an updated description of a submitted test step
 
--   **[Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md)**  
+-   **[Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md)**  
 Identify the HTML and JavaScript page components in your user interfaces that are available for custom UI testing. Enable automated testing by ensuring that your user interfaces only contain testable page components.
--   **[Enable and use the page inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/enable-page-inspector.md)**  
+-   **[Enable and use the page inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/enable-page-inspector.md)**  
 Enable a developer setting to inspect UI pages that open within the platform. Use the Manual Page Inspector to inspect pages that open in a new tab, such as Service Portal pages.
--   **[Create a custom UI test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/create-custom-ui-test.md)**  
+-   **[Create a custom UI test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/create-custom-ui-test.md)**  
 Test components in custom UI pages.
--   **[Override component test actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/develop-testable-components.md)**  
+-   **[Override component test actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/develop-testable-components.md)**  
 Change the testing properties of a particular page component using HTML attributes that are specific to Automated Test Framework.
--   **[Override component data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/override-component-data-type.md)**  
+-   **[Override component data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/override-component-data-type.md)**  
 Use the `sn-atf-data-type` and `sn-atf-data-type-params` attributes to override the type of field displayed in a Set Component Value test step.
--   **[Select2 functionalities in ATF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-select2.md)**  
+-   **[Select2 functionalities in ATF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-select2.md)**  
 Use the Select2 component to search and select your option from a drop-down menu easily.
 
-**Parent Topic:**[UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/ui-test-steps.md)
+**Parent Topic:**[UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/ui-test-steps.md)
 

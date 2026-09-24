@@ -3,11 +3,11 @@ title: Threat Intelligence Security Center Knowledge Base articles
 description: This section provides a curated list of key Knowledge Base \(KB\) articles related to Threat Intelligence Security Center \(TISC\). These resources include best practices, configuration guidance, compatibility information, and operational workflows to help you effectively manage threat intelligence and security within TISC.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-kb-articles.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: reference
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Threat Intelligence Security Center, Security Operations]
 ---

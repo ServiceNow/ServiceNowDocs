@@ -3,11 +3,11 @@ title: Unblock a Password Reset user
 description: If a user is manually banned or is flagged as exceeding max attempts, the user can be blocked \(not allowed to use the Password Reset application\). You can unblock a blocked user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_UnblockAUser.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reset a password or unlock a user account with service desk assistance, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -55,14 +55,14 @@ If the number of blocked or locked users exceeds the limit within a defined time
     2.  Change the **Blocked** setting for the user from true to false.
 
 
-**Parent Topic:**[Reset a password or unlock a user account with service desk assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/reset-password-for-user.md)
+**Parent Topic:**[Reset a password or unlock a user account with service desk assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/reset-password-for-user.md)
 
 **Related topics**  
 
 
 [Password Reset and Password Change reports and logs]()
 
-[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_SetPwdResetProps.md)
+[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_SetPwdResetProps.md)
 
-[Password Reset and Password Change reports and logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_MonitorPasswordResetActivity.md)
+[Password Reset and Password Change reports and logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/c_MonitorPasswordResetActivity.md)
 

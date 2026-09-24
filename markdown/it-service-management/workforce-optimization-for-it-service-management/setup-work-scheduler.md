@@ -3,11 +3,11 @@ title: Set up a work configuration
 description: Create a work configuration for a work item. Add filters that display key information that the manager wants to analyze. This work configuration will determine how the work items display on the Work scheduler calendar in manager workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/setup-work-scheduler.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -123,7 +123,7 @@ The route where the card layout is defined for this work item type. The route di
 -   Assignment group field
 -   Start date field
 -   End date field
-If you need additional fields, you must add them in the **Extra fields** field. For information on defining a card layout, see [Create a Work Scheduler card using UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md).
+If you need additional fields, you must add them in the **Extra fields** field. For information on defining a card layout, see [Create a Work Scheduler card using UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md).
 
 </td></tr><tr><td>
 
@@ -162,10 +162,10 @@ Select a matching rule for the work configuration.
 
     4.  Add the desired conditions for the work configuration filter.
 
-        For information on adding conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+        For information on adding conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     5.  Select **Update**.
 
 
-**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setting-up-work-scheduler.md)
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/setting-up-work-scheduler.md)
 

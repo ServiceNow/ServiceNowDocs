@@ -3,11 +3,11 @@ title: Reviewing your project
 description: Summarize both the created KPI Composer project artifacts and the planned Performance Analytics components. Validate the contents of your project. Generate the tasks to build the planned Performance Analytics components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/reviewing-your-project.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Design your indicator solution, Configure fundamentals, Performance
 # Reviewing your project
 
 Summarize both the created KPI Composer project artifacts and the planned Performance Analytics components. Validate the contents of your project. Generate the tasks to build the planned Performance Analytics components.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Navigate to the Review tab at any time for an up-to-date account of completed design work and pending Performance Analytics configurations.
 
@@ -36,8 +40,8 @@ The review tab shows four boxes of information:
     -   Error: A Measurement is not linked to an Indicator Definition, or an Indicator or Breakdown definition is not linked to a facts table.
 -   **Tasks**
 
-    Generate and list the tasks to create the Performance Analytics and Reporting elements you have defined in your project. For more information, see [Generating tasks in KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/generating-tasks-kpi-composer.md).
+    Generate and list the tasks to create the Performance Analytics and Reporting elements you have defined in your project. For more information, see [Generating tasks in KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/generating-tasks-kpi-composer.md).
 
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
 

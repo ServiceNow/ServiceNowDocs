@@ -3,11 +3,11 @@ title: Remedial actions using Playbook
 description: Resolve the CI-related issues using the remedial actions using Playbook in the Investigate tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/remedial-actions-playbook.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -23,8 +23,8 @@ The Investigate tab includes the following types of remedial action to resolve C
 
 These remedial actions are available on the Investigate tab only if the following conditions are met:
 
--   The Investigation Framework \[sn\_invest\_fwk\] application is installed and configured. For more information, see [Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/set-up-investigate.md) and [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
--   The remedial actions are configured to display on the UI. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
+-   The Investigation Framework \[sn\_invest\_fwk\] application is installed and configured. For more information, see [Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/set-up-investigate.md) and [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
+-   The remedial actions are configured to display on the UI. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
 Remedial actions use playbooks to resolve CI issues. Playbook provides you with an interactive UI to guide and execute the remedial actions step by step. With a playbook, you can control every execution step of the remediation process. Playbook is available on the contextual side panel of the Incident record page. When any remedial action is performed, that remediation process is added to a playbook. You can then select the playbook \(\[Omitted image "playbook\_icon.png"\] Alt text: Playbook icon\) icon on the contextual side panel to open the playbook on a separate panel and execute the process. The playbook panel displays the following tabs:
 
@@ -45,7 +45,7 @@ The Remedial actions section on the Investigate tab also contains the **Current*
 
 Playbook is available only if both the Remedial Action Framework \[com.snc.sn\_reacf\] application and the Investigation Framework \[sn\_invest\_fwk\] application are installed and configured, as well as if the remedial actions are triggered.
 
-**Note:** You can't execute concurrent or duplicate remedial actions when a remedial action is in progress on a process or service for a CI type device or server. You also can't execute concurrent or duplicate remedial actions on the same CI until the previous remedial action execution is completed. You can change this behavior and allow concurrent execution of the remedial action by selecting the **Allow concurrent execution** option for Remedial Action Type. For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
+**Note:** You can't execute concurrent or duplicate remedial actions when a remedial action is in progress on a process or service for a CI type device or server. You also can't execute concurrent or duplicate remedial actions on the same CI until the previous remedial action execution is completed. You can change this behavior and allow concurrent execution of the remedial action by selecting the **Allow concurrent execution** option for Remedial Action Type. For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
 
 ## End process
 
@@ -68,7 +68,7 @@ Select the CI and then select **Restart service** to restart the services runnin
 -   Device: For this CI class, a two-step process is executed where you must get the user approval before the Restart service remediation process is executed. After it's approved, you can directly restart the services on the device, which is also known as the endpoint.
 -   Server: For this CI class, you must create a change request before you can execute the remedial action using a standard change request. You must also provide additional information to create a change request.
 
-**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md)
+**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/incident-sow.md)
 
 **Related topics**  
 

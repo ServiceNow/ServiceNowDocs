@@ -3,11 +3,11 @@ title: Partner Relationship Management
 description: Partner Relationship Management \(PRM\) enables enterprises to onboard channel partners, manage ongoing partner relationships, and collaborate with partners on sales opportunities, orders, and quotes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-partner-relationship-mgmt.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Data management, Customer Relationship Management]
+breadcrumb: [Data foundations, Customer Relationship Management]
 ---
 
 # Partner Relationship Management
@@ -65,11 +65,11 @@ PRM provides benefits to internal users across an organization.
 **Related topics**  
 
 
-[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-partner-relationship-management.md)
 
-[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-workspace.md)
+[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-workspace.md)
 
-[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-management.md)
+[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/deal-registration-management.md)
 
-[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-segment-management.md)
+[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-segment-management.md)
 

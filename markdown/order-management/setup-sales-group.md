@@ -3,9 +3,9 @@ title: Set up a sales team for forecast hierarchy
 description: The system administrator can create groups, sales teams, associating them with specific managers. The sales hierarchy determines how the forecast rolls up within your company and how it can be viewed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/setup-sales-group.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Forecasting, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Once the users, teams, and opportunity data are added, along with selection of category, you can view the sales forecast for any group or specific sales team on the Sales Forecast dashboard on the CSM workspace.
+Once the users, teams, category, and opportunity data are added, you can view the sales forecast for any group or specific sales team on the Sales Forecast dashboard.
 
 ## Procedure
 
@@ -49,7 +49,7 @@ Once the users, teams, and opportunity data are added, along with selection of c
 **Related topics**  
 
 
-[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 
-[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-forecasting.md)
 

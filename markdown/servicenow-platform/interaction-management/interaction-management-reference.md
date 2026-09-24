@@ -3,11 +3,11 @@ title: Interaction Management reference
 description: Learn about the components installed with Interaction Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/interaction-management-reference.html
-release: australia
+release: brazil
 product: Interaction Management
 classification: interaction-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interaction Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,8 +16,8 @@ breadcrumb: [Interaction Management, Manage people and work capabilities, Extend
 
 Learn about the components installed with Interaction Management.
 
--   **[Components installed with Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/components-installed-with-interaction-management.md)**  
+-   **[Components installed with Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management/components-installed-with-interaction-management.md)**  
 Several types of components are installed with activation of the Interaction Logging, Routing, and Queueing plugin, including tables and user roles.
 
-**Parent Topic:**[Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-management.md)
+**Parent Topic:**[Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management/interaction-management.md)
 

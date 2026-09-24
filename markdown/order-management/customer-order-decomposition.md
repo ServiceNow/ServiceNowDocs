@@ -3,9 +3,9 @@ title: Customer order decomposition
 description: Learn about the customer order decomposition, including quantity-based decomposition, handling change orders with updated quantity characteristics, and support for quantity revisions in in-flight orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/customer-order-decomposition.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order decomposition, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -41,5 +41,5 @@ When the order fulfillment process is in progress, and you receive a request to 
 **Related topics**  
 
 
-[Order quantity support in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-quantity-support.md)
+[Order quantity support in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-quantity-support.md)
 

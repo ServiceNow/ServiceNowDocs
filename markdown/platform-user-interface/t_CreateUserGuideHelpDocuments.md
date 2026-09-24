@@ -3,9 +3,9 @@ title: Create user guide help
 description: User guide help documents are grouped in appropriate sections on the page and listed in a configurable order. Add your sections to a help page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateUserGuideHelpDocuments.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [System user guide, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -89,5 +89,5 @@ Role required: admin
     6.  Repeat the process to create the necessary help documents for that section.
 
 
-**Parent Topic:**[System user guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_SystemUserGuide.md)
+**Parent Topic:**[System user guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_SystemUserGuide.md)
 

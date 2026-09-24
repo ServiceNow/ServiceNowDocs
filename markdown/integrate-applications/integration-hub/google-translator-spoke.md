@@ -3,7 +3,7 @@ title: Google Cloud Translator Service Spoke
 description: Provides subflows and actions to dynamically translate the user-entered text, and to detect the language of the text using the Google translation service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/google-translator-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -39,7 +39,7 @@ Google Translate API version v3.
 
 ## Scope of the spoke in the Dynamic Translation framework
 
-To use Google Cloud Translator Service spoke in the Dynamic Translation framework, ensure that the spoke is installed in ServiceNow Store and the Dynamic Translation plugin is active. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation-overview.md).
+To use Google Cloud Translator Service spoke in the Dynamic Translation framework, ensure that the spoke is installed in ServiceNow Store and the Dynamic Translation plugin is active. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation-overview.md).
 
 ## Spoke flows
 
@@ -72,5 +72,5 @@ The Google Cloud Translator Service spoke requires configuring your Google Cloud
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-This spoke uses the GoogleTranslation alias record \(sn\_google\_trans.GoogleTranslation\) to authorize actions. For information about setting up the spoke, see [Set up the Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-google-translator.md).
+This spoke uses the GoogleTranslation alias record \(sn\_google\_trans.GoogleTranslation\) to authorize actions. For information about setting up the spoke, see [Set up the Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-google-translator.md).
 

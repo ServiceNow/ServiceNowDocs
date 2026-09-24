@@ -3,11 +3,11 @@ title: Map OT devices to equipment model entities from the Equipment Model Manag
 description: Map Operational Technology \(OT\) devices to equipment model entities from the Equipment Model Manager in the Industrial Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/map-ot-devices-in-iw.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automatically map all OT devices, Automated Mapping Across Zone-based IP Network Groups, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
@@ -53,5 +53,5 @@ Once you select **Confirm**, a message appears to notify you that the selected O
 
 To view the newly mapped devices, you can select the link provided in the message. The link takes you back to the equipment model entity record. You can then open the **Mapped OT devices** tab to see the devices added to the list.
 
-**Parent Topic:**[Automatically map all OT devices to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automatedly-map-all-ot-assets.md)
+**Parent Topic:**[Automatically map all OT devices to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/automatedly-map-all-ot-assets.md)
 

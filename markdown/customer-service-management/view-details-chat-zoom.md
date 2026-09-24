@@ -3,9 +3,9 @@ title: View details for Zoom meetings initiated from chats
 description: View details for a Zoom meeting initiated from a chat by accessing the associated interaction record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-details-chat-zoom.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Chat Zoom Connector, Customer communication, Use, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_manager
 
 ## About this task
 
-This task provides steps for a user with the sn\_customerservice\_manager role to access Zoom meeting details from an interaction record. For information about how users with other Notify roles view Zoom meeting details, see [Using Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-chat-zoom-connector.md).
+This task provides steps for a user with the sn\_customerservice\_manager role to access Zoom meeting details from an interaction record. For information about how users with other Notify roles view Zoom meeting details, see [Using Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-chat-zoom-connector.md).
 
 ## Procedure
 
@@ -93,7 +93,7 @@ Parent
 
 Number of the chat interaction record from which this Zoom meeting was initiated. This field is automatically set to the number of the chat interaction record.
 
- You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+ You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Number of the Notify conference call. This field is automatically set to a confe
 
  **Note:** To view more details such as the meeting URL and participant details, click the preview this record icon \(\[Omitted image "preview-record.png"\] Alt text: Preview this record icon.\) for this field.
 
- You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+ You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Channel Metadata Table
 
 Table containing a list of conference calls started using Notify. This field is automatically set to **Notify Conference Calls \[notify\_conference\_call\]**.
 
- You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+ You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Consumer
 
 </td><td>
 
-Consumer’s account automatically set to the **Consumer** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+Consumer’s account automatically set to the **Consumer** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Contact
 
 </td><td>
 
-Customer contact automatically set to the **Contact** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+Customer contact automatically set to the **Contact** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ Account
 
 </td><td>
 
-User's account automatically set to the **Account** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+User's account automatically set to the **Account** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 </td></tr><tr><td>
 
@@ -153,5 +153,5 @@ Short description of the interaction. **Note:** The short description field is e
 </table>**Related topics**  
 
 
-[Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-chat-zoom.md)
+[Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/initiate-chat-zoom.md)
 

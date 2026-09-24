@@ -3,9 +3,9 @@ title: Order Management integration with Field Service Management
 description: Provides an integration between the Order Management and the Field Service Management applications. This integration is available to all ServiceNow customers with the Order Management \(com.sn\_ind\_tmt\_orm\) plugin, Field Service Management Configurable Workspace \(com.snc.uib.fsm\_agent\_workspace\) plugin, and Field Service Management \(com.snc.work\_management\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-integrating-fsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, Sales Customer Relationship Management]
 ---

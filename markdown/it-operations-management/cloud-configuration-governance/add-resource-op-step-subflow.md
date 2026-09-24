@@ -3,11 +3,11 @@ title: Add a resource operation step to invoke a subflow
 description: Invoke a subflow by adding an operation step to a resource and linking it to a new or existing subflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-resource-op-step-subflow.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add operation steps to a resource block, Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -58,7 +58,7 @@ Role required: Cloud user, designer, or admin
 
 10. In the **Script Name** list, select a script for the response processor.
 
-    For a script to appear in the **Script Name** list, the script should already have been created in the **Resource Script** tab. For more information, see [Configure a response processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-response-processor.md).
+    For a script to appear in the **Script Name** list, the script should already have been created in the **Resource Script** tab. For more information, see [Configure a response processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-response-processor.md).
 
 11. Select **Submit**.
 
@@ -67,7 +67,7 @@ Role required: Cloud user, designer, or admin
 
 ## What to do next
 
-[Create a response action for Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-subflow-action-cloud-provision-governance.md)
+[Create a response action for Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-subflow-action-cloud-provision-governance.md)
 
-**Parent Topic:**[Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-operation-steps.md)
+**Parent Topic:**[Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/add-operation-steps.md)
 

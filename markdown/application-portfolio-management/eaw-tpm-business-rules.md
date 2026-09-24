@@ -3,11 +3,11 @@ title: Business rules for TLM in EA Workspace
 description: Several types of business rules are added with Technology Lifecycle Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-tpm-business-rules.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate the Technology Lifecycle Management \(TLM\) plugin, Configure Technology Lifecycle Management, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Business rules for TLM in EA Workspace
@@ -28,5 +28,10 @@ The following business rules are added for Technology Lifecycle Management \(TLM
 |Update Technology Lifecycle Info|TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\]|Updates technology life-cycle data for your hardware and software elements.|
 |TPM Audit on TPM Lifecycle Exception|TPM Technology Lifecycle Exception \[sn\_apm\_tpm\_technology\_lifecycle\_exception\]|Fetches the life cycles that were approximated or couldn’t be found from Software Asset Management \(SAM\) Professional or Hardware Asset Management \(HAM\) Professional.|
 
-**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-reference.md)
+
+**Related topics**  
+
+
+[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-install-tpm.md)
 

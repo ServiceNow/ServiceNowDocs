@@ -3,11 +3,11 @@ title: View metric values in the Insights Explorer
 description: Metric Intelligence calculates statistics for CI metric data. Insights Explorer displays these metric values as metric charts for the CIs in the CMDB. Insights Explorer lets you overlap any metrics for any CIs in a single chart to create a multi-layered view of metric values across a time range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/view-metrics-explorer.html
-release: australia
+release: brazil
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ The Insights Explorer provides a canvas to which you can drag various metrics fo
 
 Insights Explorer displays metric boundaries according to the most recently configured model. Therefore, legacy anomalies from a previous build may still appear as anomalies, even though according to the current boundaries, the alert does not qualify as an anomaly.
 
-You can also access the Insights Explorer from the business service map. For details, see [View metrics from a business service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewDashboard.md).
+You can also access the Insights Explorer from the business service map. For details, see [View metrics from a business service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewDashboard.md).
 
 \[Omitted image "InsightsExplorerLondon.png"\] Alt text: Dashboard for Metric Intelligence metrics, where you can display charts for selected CI metrics.
 
@@ -86,7 +86,7 @@ Modifications in the Insights Explorer remain during the session, and once the I
 
     For each metric, a sparkline displays metric values for the CI for the last hour. Point to the sparkline to display the metric value at each point of time.
 
-    If [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/resource-binding.md) is enabled, then the list of series being monitored for a CI also contains series that belong to a resource and metric. The naming convention for such series is '&lt;resource name&gt;/&lt;metric name&gt;'. For a series that is only bound to a CI, the naming convention is '&lt;metric name&gt;'.
+    If [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/resource-binding.md) is enabled, then the list of series being monitored for a CI also contains series that belong to a resource and metric. The naming convention for such series is '&lt;resource name&gt;/&lt;metric name&gt;'. For a series that is only bound to a CI, the naming convention is '&lt;metric name&gt;'.
 
 3.  Drag a metric to the **Drop Metric To Create Chart** area on the canvas and point to the chart to display the exact metric value at each point of time.
 
@@ -129,7 +129,7 @@ Modifications in the Insights Explorer remain during the session, and once the I
 7.  Click the cog **Settings** icon to open application settings:
 
     -   Enable, disable, or set the frequency for refreshing anomaly data on the Insights Explorer.
-    -   Activate or deactivate the display of related lists such as All Alerts, Incidents, and Problems. For more information, see [Create or modify map indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateModifyNGBSMMapIndicators.md).
+    -   Activate or deactivate the display of related lists such as All Alerts, Incidents, and Problems. For more information, see [Create or modify map indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateModifyNGBSMMapIndicators.md).
 8.  Click the **Chart Settings** icon to toggle the display of statistics and aggregations on the chart.
 
     Enabling or disabling an item to add or to remove metrics from a chart, also updates the legend of the chart to reflect the change.
@@ -212,5 +212,5 @@ Displays the raw, unaggregated metric values. These values are kept only for the
 **Related topics**  
 
 
-[Create an Insights Explorer view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/create-metric-explorer-view.md)
+[Create an Insights Explorer view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/create-metric-explorer-view.md)
 

@@ -3,13 +3,13 @@ title: Enable the Asset pick task for your stockroom in the Hardware Asset Works
 description: Enable the Asset pick task for your stockroom so that the task is automatically added to Standard Hardware Asset requests, Hardware Asset Refresh requests, and Sourcing workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/enable-pick-task-for-stockroom-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Pick assets in the Hardware Asset Workspace, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Pick assets in the Hardware Asset Workspace, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Enable the Asset pick task for your stockroom in the Hardware Asset Workspace
@@ -33,7 +33,7 @@ Role required: inventory\_user
 5.  Select **Save**.
 
 
-**Parent Topic:**[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-picking-stockroom-ham-ws.md)
+**Parent Topic:**[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-asset-picking-stockroom-ham-ws.md)
 
 **Related topics**  
 

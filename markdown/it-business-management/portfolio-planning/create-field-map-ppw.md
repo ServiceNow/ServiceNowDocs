@@ -3,11 +3,11 @@ title: Create a field map
 description: Map the fields for each table map from Portfolio Planning to Project Portfolio Management and vice-versa.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-field-map-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create custom mapping configurations, Configuring Portfolio Planning with PPM, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Map the fields for each table map from Portfolio Planning to Project Portfolio M
 
 ## Before you begin
 
-Ensure that you have created a table map for an alignment integration record. For more information, see [Create a table map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-custom-table-maps-for-custom-planning-items-ppw.md).
+Ensure that you have created a table map for an alignment integration record. For more information, see [Create a table map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-custom-table-maps-for-custom-planning-items-ppw.md).
 
 **Note:** If the execution field type is 'Reference' and the alignment field type is 'String', then the sync will not work.
 
@@ -34,7 +34,7 @@ Role required: sn\_align\_core.apw\_admin
 
 4.  Create a new field map by selecting **New** in the Field Maps tab.
 
-5.  In the [Field map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/field-map-form-ppw.md), fill in the fields.
+5.  In the [Field map form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/field-map-form-ppw.md), fill in the fields.
 
 6.  Click **Submit**.
 

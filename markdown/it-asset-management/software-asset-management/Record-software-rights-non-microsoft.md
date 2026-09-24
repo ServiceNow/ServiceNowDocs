@@ -3,13 +3,13 @@ title: Create maintenance entitlements in Software Asset Management classic
 description: Define license details, for all publishers other than Microsoft, to manage all your software license maintenance needs such as start and end dates of your contracts and software upgrades.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/Record-software-rights-non-microsoft.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create entitlements in Software Asset Management Core UI, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Create entitlements in Software Asset Management classic, Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create maintenance entitlements in Software Asset Management classic
@@ -28,7 +28,7 @@ Role required: sam\_admin
 
 3.  On the Software Entitlement form, fill in the mandatory fields and select **Maintenance** in the **License type** field.
 
-    For a detailed description of all the fields, refer to [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+    For a detailed description of all the fields, refer to [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
     If the **Next Version** field is populated in the software model that the maintenance entitlement is associated with and the metric group selected in the maintenance entitlement is **Common**, then the maintenance entitlement is updated with the next version of the software model. Next version is applicable only for the **Common** metric group.
 
@@ -38,7 +38,7 @@ Role required: sam\_admin
 
 5.  Perform additional configurations on your new maintenance entitlement record.
 
-    For a detailed description, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+    For a detailed description, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
     You can't add user or device allocations for maintenance entitlements.
 
@@ -73,5 +73,5 @@ Role required: sam\_admin
 6.  Click **Update**.
 
 
-**Parent Topic:**[Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md)
+**Parent Topic:**[Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/track-software-rights.md)
 

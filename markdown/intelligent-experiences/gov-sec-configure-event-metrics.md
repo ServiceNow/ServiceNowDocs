@@ -3,12 +3,12 @@ title: Configure post-runtime security metrics
 description: Customize security and content moderation policies, sampling rate, skill call usage limit, LLMs to use, and other settings for the Top AI asset security events metric and others.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-event-metrics.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-02"
-reading_time_minutes: 9
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+last_updated: "2026-09-17"
+reading_time_minutes: 8
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure post-runtime security metrics
@@ -57,7 +57,7 @@ You can configure these settings:-   Categories:
     -   Confidential Information Extraction Attempts
     -   Fraud or Deceptive Facilitation
     -   Internal System Instruction Detection
--   **Sampling rate** – The percentage of transactions that are evaluated. Selecting a rate lower than 100% results in fewer AI calls, but potentially less accurate data. Lower sample rates reduce overhead but may not detect all security events. For critical systems, consider using 100%. For balanced coverage, consider using 75% or higher.
+-   **Sampling rate** – The percentage of transactions that are evaluated. A lower sample rate will result in fewer LLM calls but may also result in fewer detected security events.
 -   **Max skill calls per execution** – The amount of AI usage per call, with a minimum of 10 calls and a maximum of 100 calls. The default is 10 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
 -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 
@@ -70,7 +70,7 @@ System prompt leakage
 
 System prompt leakage occurs when the model inadvertently reveals its system prompt or configuration instructions to users. To show data for this metric in Top AI asset security events, select **Configure**, and then select **Detection enabled**. **Note:** If you disable the metric, past data shows on the chart for 90 days.
 
-You can configure these settings:-   **Sampling rate** – The percentage of transactions that are evaluated. Selecting a rate lower than 100% results in fewer AI calls, but potentially less accurate data. Lower sample rates reduce overhead but may not detect all security events. For critical systems, consider using 100%. For balanced coverage, consider using 75% or higher.
+You can configure these settings:-   **Sampling rate** – The percentage of transactions that are evaluated. A lower sample rate will result in fewer LLM calls but may also result in fewer detected security events.
 -   **Max skill calls per execution** – The amount of AI usage per call, with a minimum of 10 calls and a maximum of 100 calls. The default is 10 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
 -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 For external AI systems, configure the Sampling rate. Configure additional settings in AI Evaluation.
@@ -83,7 +83,7 @@ Correctness detection
 
 Correctness measures whether the information provided in the model’s response is factually accurate and logically valid given the prompt and context. To show data for this metric in Top AI asset security events, select **Configure**, and then select **Detection enabled**. **Note:** If you disable the metric, past data shows on the chart for 90 days.
 
-You can configure these settings:-   **Sampling rate** – The percentage of transactions that are evaluated. Selecting a rate lower than 100% results in fewer AI calls, but potentially less accurate data. Lower sample rates reduce overhead but may not detect all security events. For critical systems, consider using 100%. For balanced coverage, consider using 75% or higher.
+You can configure these settings:-   **Sampling rate** – The percentage of transactions that are evaluated. A lower sample rate will result in fewer LLM calls but may also result in fewer detected security events.
 -   **Max skill calls per execution** – The amount of AI usage per call, with a minimum of 10 calls and a maximum of 100 calls. The default is 10 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
 -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 For external AI systems, configure the Sampling rate. Configure additional settings in Correctness \(factuality\) in AI Evaluation.
@@ -107,9 +107,8 @@ Prompt injection
 
 Prompt injection attacks occur when malicious input is crafted to override or deviate from the model’s instructions, causing unintended behavior. To show data for this metric in Top AI asset security events, select **Configure**, and then select **Detection enabled**. **Note:** If you disable the metric, past data shows on the chart for 90 days.
 
-You can configure these settings:-   **Sampling rate** – The percentage of transactions that are evaluated. Selecting a rate lower than 100% results in fewer AI calls, but potentially less accurate data. Lower sample rates reduce overhead but may not detect all security events. For critical systems, consider using 100%. For balanced coverage, consider using 75% or higher.
+You can configure these settings:-   **Sampling rate** – The percentage of transactions that are evaluated. A lower sample rate will result in fewer LLM calls but may also result in fewer detected security events.
 -   **Max skill calls per execution** – The amount of AI usage per call, with a minimum of 10 calls and a maximum of 100 calls. The default is 10 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
--   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 For external AI systems, configure the Sampling rate. Configure additional settings in Prompt injection in AI Evaluation.
 
 </td></tr><tr><td>
@@ -132,7 +131,7 @@ Agent goal deviation
 
 Shows when AI agents may be deviating from their intended role or objective. For example, unauthorized actions or prompt injection attempts. To show data for this metric in Top AI asset security events, select **Configure**, and then select **Detection enabled**. **Note:** If you disable the metric, past data shows on the chart for 90 days.
 
-You can configure these settings:-   **Sampling rate** – The percentage of transactions that are evaluated. Selecting a rate lower than 100% results in fewer AI calls, but potentially less accurate data. Lower sample rates reduce overhead but may not detect all security events. For critical systems, consider using 100%. For balanced coverage, consider using 75% or higher.
+You can configure these settings:-   **Sampling rate** – The percentage of transactions that are evaluated. A lower sample rate will result in fewer LLM calls but may also result in fewer detected security events.
 -   **Max skill calls per execution** – The amount of AI usage per call, with a minimum of 10 calls and a maximum of 100 calls. The default is 10 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
 -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 For external AI systems, configure the Sampling rate. Configure additional settings in Agent goal deviation in AI Evaluation.
@@ -178,5 +177,5 @@ You can configure these settings:-   **Input extended PII** – Collect more pot
     Some settings aren't available to be configured in security for external AI systems. Instead, you're directed to the Evaluation tab in Settings to configure the settings.
 
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)
 

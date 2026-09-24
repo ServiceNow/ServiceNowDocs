@@ -3,11 +3,11 @@ title: Customize the layout for an automation request form
 description: Change the layout of the automation request form from the Service Catalog to meet the requirements of your organization requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/modify-sc-auto-request.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -37,5 +37,5 @@ In this task, you can change the layout of the automation request form generated
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-setup.md)
+**Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-setup.md)
 

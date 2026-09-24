@@ -3,11 +3,11 @@ title: Using Fluent source control in ServiceNow Studio
 description: Use Git commands and other source control features in ServiceNow Studio to manage changes to an application across a development team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/fluent-sc-using-fluent-source-control.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Fluent source control]
 breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
@@ -45,7 +45,7 @@ Clone \(\[Omitted image "servicenow-ide-more-actions-icon.png"\] Alt text: &gt; 
 
 </td><td>
 
-Clone a remote repository to add an application to your workspace.For more information, see [Clone a Git repository from ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-clone-git-repository.md).
+Clone a remote repository to add an application to your workspace.For more information, see [Clone a Git repository from ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/fluent-sc-clone-git-repository.md).
 
 </td></tr><tr><td>
 
@@ -124,5 +124,5 @@ The commit history for a branch is listed in the Commits section of the Changes 
 
 To update the remote repository an application is connected to, you can use the `Git: Update remote origin` command from the command palette and enter a different remote repository URL.
 
-**Parent Topic:**[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)
+**Parent Topic:**[Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md)
 

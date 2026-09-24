@@ -3,11 +3,11 @@ title: Use multiple timer activities in one workflow
 description: Workflow timer activities store data independently of each other in an activity-specific scratchpad.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/c\_MltTmActWkflw.html
-release: australia
+release: brazil
 product: Workflow Activities
 classification: workflow-activities
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -27,5 +27,5 @@ Timer scratchpads entries hold these values:
 **Related topics**  
 
 
-[Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TimerActivities.md)
+[Timer workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_TimerActivities.md)
 

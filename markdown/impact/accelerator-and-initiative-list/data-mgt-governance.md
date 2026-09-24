@@ -3,11 +3,11 @@ title: Data Management and Governance
 description: This Accelerator provides insights and guidance to assess and improve your data management and data governance practices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/data-mgt-governance.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -35,7 +35,7 @@ The Data Management and Governance Accelerator provides Impact Customers with a 
         -   Data Governance
     -   Set expectations on process and depth of deliverable
     -   Communicate expectation for participation
-    -   Request the completion of an intake questionnaire, self-assessment, and any other necessary inputs \(See the [Requested Information Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/data-mgt-governance.md) section for details.\)
+    -   Request the completion of an intake questionnaire, self-assessment, and any other necessary inputs \(See the [Requested Information Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/data-mgt-governance.md) section for details.\)
 -   **Customer Current State Working Session \(up to 120 minutes\)**
     -   Review the customer intake questionnaire and self-assessment
     -   Discuss the current state of the data management and data governance practices organized around the five pillars for data management
@@ -89,7 +89,7 @@ Customers must provide the following supporting documentation from their Service
 -   Define your data strategy
 -   Define your data design
 -   Define, document or both, of your data architecture
--   Assess or troubleshoot your CMDB \(Refer to the [TuneUp Your Configuration Management Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md) Accelerator\)
+-   Assess or troubleshoot your CMDB \(Refer to the [TuneUp Your Configuration Management Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md) Accelerator\)
 -   Assess or troubleshoot your implementation of the CSDM framework \(Refer to the  Accelerator\)
 -   Define your data and integrations with external systems or applications
 -   Assess or troubleshoot your data integrations

@@ -3,11 +3,11 @@ title: Configuring the auto-population of access hours in a work order task
 description: Defining default access hours for a work order task based on customer preferences such as account, location, or asset, enables the auto-population of the access hours for the task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configuring-access-hours.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -33,11 +33,11 @@ The following example shows the access hour preferences for an account at two di
 
 The steps for setting up the auto-population of access hours are:
 
-1.  [Activate Field Service Management Access Hours Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/install-access-hour-fsm.md)
+1.  [Activate Field Service Management Access Hours Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/install-access-hour-fsm.md)
 
     Activate the Field Service Management Access Hours Management plugin \(com.snc.fsm\_access\_hours\) for Field Service Management if you have the admin role.
 
-2.  [Define access hour preferences for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/define-access-hour-preferences.md)
+2.  [Define access hour preferences for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/define-access-hour-preferences.md)
 
     Define the access hours to set the times that a location is available for an agent to go to and complete work.
 

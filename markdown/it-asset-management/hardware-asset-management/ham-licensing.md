@@ -3,11 +3,11 @@ title: Hardware Asset Management licensing
 description: Hardware Asset Management \(HAM\) licensing enables you to choose the Hardware Asset Management resource categories that you want to use. You can save money by paying only for those categories that you use, and not for categories that you don't use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/ham-licensing.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [HAM licensing, Hardware Asset Management licensing]
 breadcrumb: [Hardware Asset Management subscription, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
@@ -21,7 +21,7 @@ Only the resource categories that are opted in are counted toward the Subscripti
 
 **Note:** By default for a particular resource category, the normalization functions for its associated models and the asset actions for its associated assets don't work. If you want to use the normalization functions and asset actions, you have to opt in that resource category.
 
-For more information about opting in or out of the HAM license resource categories, see [Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md).
+For more information about opting in or out of the HAM license resource categories, see [Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md).
 
 **Important:**
 
@@ -187,7 +187,7 @@ Printer
 </td></tr></tbody>
 </table>**Note:** Unclassified hardware, Monitors, Storage, and Printers are available with Hardware Asset Management version 10.1.0 and later only when you upgrade to HAM license version 5.0.
 
-To access Hardware Asset Management features for Telecommunications Network Inventory, you should install the Telecommunications Network Inventory application and opt-in to the Telecom Network Inventory resource category. For more information, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/integration-with-hardware-asset-management.md).
+To access Hardware Asset Management features for Telecommunications Network Inventory, you should install the Telecommunications Network Inventory application and opt-in to the Telecom Network Inventory resource category. For more information, see [Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/integration-with-hardware-asset-management.md).
 
 ## HAM Licensing for custom model categories
 
@@ -222,7 +222,7 @@ Assets with the following model categories are excluded from accessing Hardware 
 
 -   Any other custom model category without a parent category.
 
-**Parent Topic:**[Hardware Asset Management subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-subscription.md)
+**Parent Topic:**[Hardware Asset Management subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-subscription.md)
 
 **Related topics**  
 

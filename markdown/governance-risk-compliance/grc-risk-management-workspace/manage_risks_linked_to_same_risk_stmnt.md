@@ -3,11 +3,11 @@ title: Manage risks linked to the same risk statement
 description: You can create and associate multiple risks to the same risk statement and entity combination. This association benefits the risk managers and the entity owners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/manage\_risks\_linked\_to\_same\_risk\_stmnt.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage risks, risk statements, and risk frameworks, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ To understand this feature, see the following image and consider the example. Mo
 
 \[Omitted image "risk\_stmnt\_hieracrchy.png"\] Alt text: Risk statement and risk creation hierarchy
 
-**Parent Topic:**[Manage risks, risk statements, and risk frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_RiskRegister.md)
+**Parent Topic:**[Manage risks, risk statements, and risk frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/r_RiskRegister.md)
 
 **Related topics**  
 

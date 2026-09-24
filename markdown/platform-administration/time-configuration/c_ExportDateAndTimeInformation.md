@@ -3,11 +3,11 @@ title: Export date and time formats
 description: Because some export formats are intended for human consumption and others for database usage, various methods are used to provide date and time field information in different formats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/c\_ExportDateAndTimeInformation.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -36,5 +36,5 @@ All Date and Time fields \(including Duration\) export as their display value.
 
 All Date and Time fields export as the value stored in the database.
 
-**Parent Topic:**[Date and Date/Time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_UseDateAndTimeFields.md)
+**Parent Topic:**[Date and Date/Time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_UseDateAndTimeFields.md)
 

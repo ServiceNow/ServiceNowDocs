@@ -3,9 +3,9 @@ title: Certificates page
 description: The Certificates page lets you access data regarding your CA certificates, Sensor credentials, and Collector credentials. You can also renew your certifications from this page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/certificates-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -22,7 +22,7 @@ On the Certificate page, you can do the following.
 -   Generate a Sensor Bundle using a generated or user-submitted password.
 -   Generate a Collector Bundle using a generated or user-submitted password. This bundle is generated using the specified bundle format.
 
-**Note:** For how to renew a certificate, see [Renew a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/renew-a-certificate.md).
+**Note:** For how to renew a certificate, see [Renew a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/renew-a-certificate.md).
 
 The following image shows the Certificates page.
 
@@ -50,8 +50,8 @@ When ready, select **Generate Bundle**.
 
 **Note:** The certificate for the Discovery Console for OT and the Discovery Sensor for OT automatically renews when it is within 30 days of its expiration date.
 
--   **[Renew a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/renew-a-certificate.md)**  
+-   **[Renew a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/renew-a-certificate.md)**  
 This section describes how to renew a certificate on the Certificates page.
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/using-discovery-console.md)
 

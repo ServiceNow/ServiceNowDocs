@@ -3,20 +3,20 @@ title: Task Intelligence roles
 description: Task Intelligence is installed with these roles.Admin user with rights to all actions in the application. Creates, edits, and monitors all Task Intelligence models.Views and monitors Task Intelligence models. Requires additional accesses to see training.Monitors Task Intelligence models through the Analytics dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/task-intelligence-roles.html
-release: australia
+release: brazil
 product: Task Intelligence
 classification: task-intelligence
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Task Intelligence references, Task Intelligence, Enable AI experiences]
+breadcrumb: [Task Intelligence references, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Task Intelligence roles
 
 Task Intelligence is installed with these roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## Task Intelligence Admin \[tia\_admin\]
 

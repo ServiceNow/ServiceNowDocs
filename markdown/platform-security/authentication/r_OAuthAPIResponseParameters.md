@@ -3,11 +3,11 @@ title: OAuth API response parameters
 description: The OAuth 2.0 API produces a JSON response containing the following parameters as name:value pairs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/r\_OAuthAPIResponseParameters.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an endpoint for clients to access the instance, Old Inbound integrations experience, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -33,7 +33,7 @@ The OAuth 2.0 API produces a JSON response containing the following parameters a
 |Type|true\|false|
 |Value|false|
 
-For details on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+For details on creating system properties, see Add a system property
 
 The following example illustrates the JSON string returned by an access token request. \(Spaces have been added to improve readability\).
 

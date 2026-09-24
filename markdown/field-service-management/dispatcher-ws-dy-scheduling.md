@@ -3,9 +3,9 @@ title: Setting up dynamic scheduling in Dispatcher Workspace
 description: Dynamic scheduling enables you as a dispatcher to efficiently assign, unassign, or reassign work order tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/dispatcher-ws-dy-scheduling.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
@@ -37,5 +37,5 @@ System administrators enable double-booking by setting the **work.management.all
 **Related topics**  
 
 
-[Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/dynamic-scheduling.md)
+[Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/dynamic-scheduling.md)
 

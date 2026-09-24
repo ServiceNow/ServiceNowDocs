@@ -3,11 +3,11 @@ title: View Service Portfolio Management sample IT services portfolio content
 description: Access, view, and analyze the Service Portfolio Management sample IT services portfolio content to plan and create your service portfolio. Consider the sample structure as a starting point. You can add to it or modify it to suit the specific needs of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/use-SPM2-sample-service-portfolio.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install the Service Portfolio Management Sample Content Pack, Configure, Service Portfolio Management, IT Service Management]
 ---
@@ -51,12 +51,12 @@ You can view the sample content in both the Service Portfolio Management applica
     Look at several service type taxonomy nodes to find the structure that best fits you your needs. You can use them as guidance as you build your own portfolio content structure.
 
 
-**Parent Topic:**[Install the Service Portfolio Management Sample Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/activate-SPM2-content-pack-plugin.md)
+**Parent Topic:**[Install the Service Portfolio Management Sample Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/activate-SPM2-content-pack-plugin.md)
 
 **Related topics**  
 
 
-[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
+[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
 
-[Work with portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-explore-portfolios.md)
+[Work with portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-explore-portfolios.md)
 

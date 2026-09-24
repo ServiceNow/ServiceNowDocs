@@ -3,9 +3,9 @@ title: Start an unattended bot process in RPA Hub
 description: Start an unattended bot process in the specified robot machine to execute the automation by the selected robot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/start-bot-process.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Monitor, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,11 +16,11 @@ Start an unattended bot process in the specified robot machine to execute the au
 
 ## Before you begin
 
-Associate a package and a package version to the bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
+Associate a package and a package version to the bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md).
 
-Verify that the life cycle stage status of the bot process is either in **Published**, **In Maintenance**, or **Build**. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+Verify that the life cycle stage status of the bot process is either in **Published**, **In Maintenance**, or **Build**. For more information, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
-If the **External Credential** check box is selected in a robot credential record, then ensure that the associated external credential vault record is active. For more information, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-credential-set-botprocess.md).
+If the **External Credential** check box is selected in a robot credential record, then ensure that the associated external credential vault record is active. For more information, see [Create a robot credential in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-credential-set-botprocess.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_support\_user, sn\_rpa\_fdn.rpa\_business\_user, or sn\_rpa\_fdn.rpa\_admin
 
@@ -37,9 +37,9 @@ If robot pool is enabled, after you select the **Start Process** button, a certa
 
 Only robots with an assigned credential group and in the **Available** and **Busy** states are displayed here to facilitate process job queuing. A job queue contains processes that are executed in a defined order.​​
 
-You can also run an unattended automation using the Unattended Robot. For more information, see [Run an automation using Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-rpa-robot.md).
+You can also run an unattended automation using the Unattended Robot. For more information, see [Run an automation using Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/run-rpa-robot.md).
 
-Another way to start an unattended bot process is via triggering the **Start Process** Action in Workflow Studio. For more information, see [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-actions.md).
+Another way to start an unattended bot process is via triggering the **Start Process** Action in Workflow Studio. For more information, see [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-hub-actions.md).
 
 ## Procedure
 
@@ -65,18 +65,18 @@ Another way to start an unattended bot process is via triggering the **Start Pro
     -   For user plugins, you can allow list the user plugins folder in the path `<project folder name>\UserPlugins\<User plugin name>`
     -   For script connectors, you can allow list the Dependencies folder in the path `<project folder name>\Dependencies`
 
-**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/monitoring-automations-rpa.md)
+**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/monitoring-automations-rpa.md)
 
 **Related topics**  
 
 
-[Edit a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-botprocess.md)
+[Edit a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/edit-botprocess.md)
 
-[Stop an unattended bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stop-bot-process.md)
+[Stop an unattended bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stop-bot-process.md)
 
-[Launch in Studio from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/launch-studio.md)
+[Launch in Studio from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/launch-studio.md)
 
-[Publish a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-bot-process.md)
+[Publish a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/publish-bot-process.md)
 
-[Retire a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/retire-bot-process.md)
+[Retire a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/retire-bot-process.md)
 

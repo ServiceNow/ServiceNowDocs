@@ -3,11 +3,11 @@ title: Create a category
 description: Administrators and catalog administrators can create or edit a category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreateACategory.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service catalog categories, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ To create or edit a category:
 
 2.  Click **New** or select the category to edit.
 
-    **Note:** The visibility of a category is controlled by user criteria. See [Apply user criteria to items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_AppUserCritItemsCat.md).
+    **Note:** The visibility of a category is controlled by user criteria. See [Apply user criteria to items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_AppUserCritItemsCat.md).
 
     \[Omitted image "MaintainCategories.png"\] Alt text: Screenshot for the Service Catalog categories
 
@@ -55,7 +55,7 @@ To create or edit a category:
     |Hide description \(classic mobile browsing\)|Option for displaying the description at the top of the list on Classic Mobile devices.|
 
 
-**Parent Topic:**[Service catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogCategories.md)
+**Parent Topic:**[Service catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ServiceCatalogCategories.md)
 
 **Related topics**  
 

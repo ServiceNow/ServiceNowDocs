@@ -3,13 +3,13 @@ title: Analyze a cluster with Cluster Insight
 description: Analyze a cluster by a field available on the source table. With the Cluster Insight check box, you can add a filter condition on your input field when you review the list of results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/analyze-cluster-data-source.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and train a clustering solution, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Create and train a clustering solution, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Analyze a cluster with Cluster Insight

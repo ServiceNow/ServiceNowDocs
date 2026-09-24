@@ -3,11 +3,11 @@ title: Create a system user for OAuth authentication in SAP
 description: Create a dedicated system user in SAP to serve as the OAuth 2.0 client ID for the Software Asset Management integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-system-user-oauth-sap.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SAP system user, OAuth authentication, SU01, SAP OAuth user]
 breadcrumb: [Set up SAP integration to establish a connection with SAP, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
@@ -19,7 +19,7 @@ Create a dedicated system user in SAP to serve as the OAuth 2.0 client ID for th
 
 ## Before you begin
 
-The OData services must be activated and the system alias assigned before creating the OAuth system user. See [Activate OData services and assign a system alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/activate-odata-services-sap.md).
+The OData services must be activated and the system alias assigned before creating the OAuth system user. See [Activate OData services and assign a system alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/activate-odata-services-sap.md).
 
 Role required: SAP Basis administrator
 
@@ -44,5 +44,7 @@ Use transaction code **SU01** to create the system user. The system user is refe
 
 ## What to do next
 
-Configure the OAuth client in SAP. For details, see [Configure an OAuth client in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-oauth-client-sap.md).
+Configure the OAuth client in SAP. For details, see [Configure an OAuth client in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/configure-oauth-client-sap.md).
+
+**Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setup-sap-integration.md)
 

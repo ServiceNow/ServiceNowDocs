@@ -3,11 +3,11 @@ title: Get started with dynamic outputs
 description: Create a sample action that builds dynamic outputs for use in a flow.Create the aliases, connections, and credentials that REST steps will use to connect to your local instance.Create a data gathering action to look up a table schema and convert into a JSON object.Create a data gathering action to generate an array of objects from a list of records.Create a sample action to dynamically generate two action outputs, Record and Records which refresh dynamically when the value for the Table input changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/getting-started-dynamic-output.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Dynamic outputs, Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -22,24 +22,24 @@ Role required: action\_designer or admin
 
 ## Procedure
 
-1.  [Create connection and credential records for dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
+1.  [Create connection and credential records for dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This connection &amp; credential alias will provide the base URL and user account needed to configure the REST steps of your data gathering actions.
 
-2.  [Create a data gathering action to get a record schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
+2.  [Create a data gathering action to get a record schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This data gathering action will convert a single record into a JSON object for a record dynamic output.
 
-3.  [Create a data gathering action to get an array of records schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
+3.  [Create a data gathering action to get an array of records schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This data gathering action will convert a list of records record into JSON array of objects for a records dynamic output.
 
-4.  [Create a custom action to test dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
+4.  [Create a custom action to test dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This custom action illustrates two types of dynamic output data. One dynamic output generates an object for a single record. Another dynamic output generates an array of objects for a list of records.
 
 
-**Parent Topic:**[Dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-outputs.md)
+**Parent Topic:**[Dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/dynamic-outputs.md)
 
 **Related topics**  
 
@@ -119,7 +119,7 @@ In this task, you create a data gathering action that collects the schema for a 
 -   A script step to transform the REST step's JSON Response Body into a dynamic object. The dynamic object consists of JSON name-value pairs, where there is an entry for each field in the table.
 -   An output variable named `output` of type JSON to store the dynamic object.
 
-**Note:** This task re-creates the demo actions that are installed when you [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md) for your instance.
+**Note:** This task re-creates the demo actions that are installed when you Request an Integration Hub plugin for your instance.
 
 ### Procedure
 
@@ -150,7 +150,7 @@ In this task, you create a data gathering action that collects the schema for a 
     |Field|Value|
     |-----|-----|
     |Connection|Leave the **Use Connection Alias** option selected.|
-    |Connection Alias|select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).|
+    |Connection Alias|select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md).|
     |Build Request|Leave the **Manually** option selected.|
     |Resource Path|Enter `api/now/processflow/table/` and then select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\). Select **Inputs** &gt; **Table**. Next, enter `/schema`.|
     |HTTP Method|Enter `GET`|
@@ -222,7 +222,7 @@ In this task, you create a data gathering action that collects the schema for a 
 
     5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script Step** &gt; **schema**.
 
-9.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+9.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, enter `incident` for the **Table** input.
 
@@ -268,7 +268,7 @@ In this task, you create a data gathering action that collects the schema for a 
 -   A script step to transform the REST step's JSON Response Body into a dynamic object. The dynamic object consists of a JSON array of objects, where each source record is converted into one object of the array.
 -   An output variable named `output` of type JSON to store the dynamic object.
 
-**Note:** This task re-creates the demo actions that are installed when you [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md) for your instance.
+**Note:** This task re-creates the demo actions that are installed when you Request an Integration Hub plugin for your instance.
 
 ### Procedure
 
@@ -299,7 +299,7 @@ In this task, you create a data gathering action that collects the schema for a 
     |Field|Value|
     |-----|-----|
     |Connection|Leave **Use Connection Alias** selected.|
-    |Connection Alias|select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
+    |Connection Alias|select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
     |Build Request|Leave **Manually** selected.|
     |Resource Path|Enter `api/now/processflow/table/` and then select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\). Select **Inputs** &gt; **Table**. Finally, enter `/schema`|
     |HTTP Method|Enter `GET`|
@@ -368,7 +368,7 @@ In this task, you create a data gathering action that collects the schema for a 
 
     5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script Step** &gt; **schema**.
 
-9.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+9.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, in the **Table** field, enter `incident`.
 
@@ -454,7 +454,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
     |Field|Value|
     |-----|-----|
     |Connection|Leave **Use Connection Alias** selected.|
-    |Connection Alias|Select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
+    |Connection Alias|Select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
     |Build Request|Leave **Manually** selected|
     |Resource Path|Enter `api/now/table/` and then select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\). Select **Inputs** &gt; **Table**.|
     |HTTP Method|Enter `GET`|
@@ -534,7 +534,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
 
     18. For the **Value**, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script Step** &gt; **record**.
 
-7.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
+7.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, select any dynamically generated choice value for the **Table** input.
 

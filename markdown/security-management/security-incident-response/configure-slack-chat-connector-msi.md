@@ -3,11 +3,11 @@ title: Configure Slack chat connector for major security incidents
 description: Integrate and collaborate with Slack to resolve Major Security Incident to view and filter collaboration chat activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-slack-chat-connector-msi.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,21 +20,21 @@ Configuring and subscribing to a Slack chat environment, retrieving chat convers
 
 To configure Slack, activate Slack as the chat provider. You can then create chat channels for the various stakeholders and groups communicating about activities and track chat conversations to resolve the Major Security Incident. The Slack and Slack API configuration includes:
 
--   [Get started with Slack chat connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/get-started-slack-chat-configuration.md)
--   [Activate Slack as a channel provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-slack-channel-provider.md)
--   [Create a chat channel template for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-chat-channel-template-slack.md)
--   [View chat message activities in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-chat-message-activities-slack.md)
+-   [Get started with Slack chat connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/get-started-slack-chat-configuration.md)
+-   [Activate Slack as a channel provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/activate-slack-channel-provider.md)
+-   [Create a chat channel template for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-chat-channel-template-slack.md)
+-   [View chat message activities in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/view-chat-message-activities-slack.md)
 
--   **[Get started with Slack chat connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/get-started-slack-chat-configuration.md)**  
+-   **[Get started with Slack chat connector configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/get-started-slack-chat-configuration.md)**  
 Review the following information before you start working with Slack as a connector application.
--   **[Create a chat channel template for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-chat-channel-template-slack.md)**  
+-   **[Create a chat channel template for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-chat-channel-template-slack.md)**  
 Configure Chat Teams and Channel Templates to create chat teams and channels to collaborate, track the chat conversations, and add users and user groups to those Chat Channels. These Channel templates are created in Slack when a major security incident is promoted.
--   **[Activate Slack as a channel provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-slack-channel-provider.md)**  
+-   **[Activate Slack as a channel provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/activate-slack-channel-provider.md)**  
 Activate Slack by validating the Slack connection.
--   **[View chat message activities in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-chat-message-activities-slack.md)**  
+-   **[View chat message activities in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/view-chat-message-activities-slack.md)**  
 Chat message activity is recorded and displayed on the Collaboration tab of the Major Security Incident Management workspace.
 
-**Parent Topic:**[Configuring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-major-security-incident-management.md)
+**Parent Topic:**[Configuring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configuring-major-security-incident-management.md)
 
 **Related topics**  
 

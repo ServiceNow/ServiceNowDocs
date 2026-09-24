@@ -3,11 +3,11 @@ title: CMDB Query Builder engine execution modes
 description: The CMDB Query Builder engine uses two execution modes to run queries. By default, the system is configured to use the enhanced mode V2 which is designed for performance optimization. V2 is supported for most queries and enables running complex queries significantly quicker and process larger result sets without performance degradation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/query-builder-engine-execution-mode.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -49,7 +49,7 @@ The system uses the following settings of execution mode to determine which exec
 
 -   Query-level setting:
 
-    The **Query Execution Mode** attribute in the Saved Queries \[qb\_saved\_query\] table sets the engine mode for the respective query. For more information about this setting, see [Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md).
+    The **Query Execution Mode** attribute in the Saved Queries \[qb\_saved\_query\] table sets the engine mode for the respective query. For more information about this setting, see [Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md).
 
     The query-level setting has precedence over system property settings.
 
@@ -64,7 +64,7 @@ The system uses the following settings of execution mode to determine which exec
     This property has precedence over the **glide.cmdb.query.execution\_mode** system property.
 
 
-For more information about the engine mode system properties, see [Property settings for CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md).
+For more information about the engine mode system properties, see [Property settings for CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md).
 
 ## Unsupported query structures for V2 mode
 

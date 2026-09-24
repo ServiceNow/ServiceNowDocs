@@ -3,11 +3,11 @@ title: Goal Preferences form
 description: Use the Goal Preferences form to manage goals such as the calendar type used for goal setting, weighted average calculation for goal progress, and deletion of goals and targets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/goal-preferences-form.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -34,7 +34,7 @@ When enabled, the fields, **Impact on parent goal** and**Impact on goal** appear
 
  The progress value of a parent goal is calculated based on the progress value and the value defined in the **Impact on parent goal** and**Impact on goal** fields for sub-goals and targets respectively.
 
- For more information on how the progress value is calculated, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/progress-value-calculation.md).
+ For more information on how the progress value is calculated, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/progress-value-calculation.md).
 
 </td></tr><tr><td>
 
@@ -71,5 +71,5 @@ Disable target breakdowns at the instance level.
 Can disable the target breakdowns feature. When the feature is enabled, target breakdowns are automatically created based on the breakdown interval set for the target.The default value is false.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework-reference.md)
+</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/goal-framework-reference.md)
 

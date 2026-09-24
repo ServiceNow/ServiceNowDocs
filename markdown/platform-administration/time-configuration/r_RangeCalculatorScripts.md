@@ -3,11 +3,11 @@ title: Range calculator scripts
 description: You can specify a script include that calculates range restrictions and processes parent updates in a timeline page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_RangeCalculatorScripts.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -168,5 +168,5 @@ getTimeObject: function(timeMS) {
     }
 ```
 
-**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md)
+**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_TimelinePages.md)
 

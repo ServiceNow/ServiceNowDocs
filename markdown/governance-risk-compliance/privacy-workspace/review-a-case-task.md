@@ -3,11 +3,11 @@ title: Review and close a case task
 description: Review a case task after a case task owner provides their responses and observations for the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/review-a-case-task.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work on a case task, Case task workflow, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 3.  Review the case task and then do one of the following.
 
-<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d216733e77">
+<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d219291e77">
 
 Choice
 
-</th><th align="left" id="d216733e80">
+</th><th align="left" id="d219291e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d216733e86">
+</th></tr></thead><tbody><tr><td id="d219291e86">
 
 **To request revision of the details provided by the case task owner**
 
@@ -47,7 +47,7 @@ Steps
 3.  Select **Request revision**.
 
 
-</td></tr><tr><td id="d216733e113">
+</td></tr><tr><td id="d219291e113">
 
 **To close the task as complete**
 
@@ -58,7 +58,7 @@ Steps
 3.  Select **Close as complete**.
 
 
-</td></tr><tr><td id="d216733e140">
+</td></tr><tr><td id="d219291e140">
 
 **To close the task as incomplete**
 
@@ -69,7 +69,7 @@ Steps
 3.  Select **Close as incomplete**.
 
 
-</td></tr><tr><td id="d216733e167">
+</td></tr><tr><td id="d219291e167">
 
 **To cancel the case task**
 
@@ -82,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/accept-a-case-task.md)
+**Parent Topic:**[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/accept-a-case-task.md)
 

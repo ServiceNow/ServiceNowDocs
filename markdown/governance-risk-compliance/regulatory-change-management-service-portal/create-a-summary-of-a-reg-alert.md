@@ -3,11 +3,11 @@ title: Generate a regulatory alert summary
 description: Generate a summary of a new regulatory alert for a quick analysis of the alert using the regulatory alert summarization skill. Summarized alerts help compliance officers, regulatory managers, and legal teams quickly understand the impact of new regulations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/create-a-summary-of-a-reg-alert.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
 breadcrumb: [Regulatory alert summarization skill, AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]
@@ -21,13 +21,13 @@ Generate a summary of a new regulatory alert for a quick analysis of the alert u
 
 Role required: sn\_grc\_reg\_change.user and sn\_grc\_comp\_genai.reg\_change\_ai\_user
 
-For more information on related roles and regulatory alerts, see [Types of alerts, user roles, and states of regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/user_roles_and_actions.md).
+For more information on related roles and regulatory alerts, see [Types of alerts, user roles, and states of regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/user_roles_and_actions.md).
 
 ## About this task
 
-Install the ServiceNow Otto for IRM application to generate regulatory alert summaries. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
+Install the ServiceNow Otto for IRM application to generate regulatory alert summaries. For more information, see [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The summary for a regulatory alert is generated based on the prompts set during the configuration of the summarization skill. For example, if you select important dates, regulatory authority, summary of changes, penalties, and fines as key details to capture, the summary includes that information. After the summary is generated, you can directly use the summary and save it in the activity stream of the regulatory alert.
 
@@ -35,7 +35,7 @@ Starting with version 19.0.x, users who have the ServiceNow Otto for IRM applica
 
 **Important:** Be sure to check AI-generated summaries for accuracy. If no information is available, the generated summary displays “**No specific information available for penalty or fines and so on"**.
 
-By default, all skills exist in the global domain. When you use AI in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, AI only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).\)
+By default, all skills exist in the global domain. When you use AI in a domain-separated environment, users are only able to access data in their domain. For example, if a user uses the summarization skill, AI only uses material that exists in the user's domain when generating that summary. Additionally, there is no co-mingling of data for domain-separated instances when using generative AI skills. The data resides only on the instance, and the shared services used for generative AI do not persist any requests \(prompts\) and responses. For more information, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md). \(Note that global domain is not the same as global scope. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-pickers.md).\)
 
 ## Procedure
 
@@ -43,7 +43,7 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
     -   **Workspaces** &gt; **Compliance Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Regulatory alerts**.
     -   **Workspaces** &gt; **Compliance Workspace**, select the Regulatory Change Management dashboard icon \[Omitted image "reg-change-icon.png"\] Alt text:. Then in the Activity overview, Tracking, or Trends section, select any segment or value in an Alerts related widget to open the list of regulatory alerts with that state.
-2.  Select a regulatory alert in any state except Closed or Cancelled.
+2.  Select a regulatory alert.
 
 3.  On the Overview tab, select **Summarize**.
 
@@ -51,23 +51,23 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
 4.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d159132e206">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d161240e206">
 
 Option
 
-</th><th align="left" id="d159132e209">
+</th><th align="left" id="d161240e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d159132e215">
+</th></tr></thead><tbody><tr><td id="d161240e215">
 
-**Share to additional comments**
+**Share to alert summary**
 
 </td><td>
 
-Select the **Share to additional comments** button to launch the Summarized result in an editor window. You can modify or review the summary and make any necessary corrections to improve its accuracy and completeness.
+Select the **Share to alert summary** button to launch the Summarized result in an editor window. You can edit the summary, then select **Save to alert summary** to save your changes on the Overview tab of the regulatory alert.
 
-</td></tr><tr><td id="d159132e230">
+</td></tr><tr><td id="d161240e233">
 
 **View more**
 
@@ -75,7 +75,7 @@ Select the **Share to additional comments** button to launch the Summarized resu
 
 Select this link to expand the summary.
 
-</td></tr><tr><td id="d159132e239">
+</td></tr><tr><td id="d161240e242">
 
 **View less**
 
@@ -83,25 +83,25 @@ Select this link to expand the summary.
 
 Select this link to collapse the summary.
 
-</td></tr><tr><td id="d159132e248">
+</td></tr><tr><td id="d161240e251">
 
 **Provide feedback**
 
 </td><td>
 
-Select the helpful icon \[Omitted image "782b0af82d02a8f89b5683cfe66de267c3a4c0b7.png"\] Alt text: for positive feedback. Select the not helpful icon \[Omitted image "bd21ca617dc78d98ad596e018f504a4959c444eb.png"\] Alt text: if the summary wasn't helpful.
+Select the helpful icon \[Omitted image "0770bcf2ec3103e8b027eeab0eddd1ec0270fc84.png"\] Alt text: for positive feedback. Select the not helpful icon \[Omitted image "008c03a70062904ececacc6eac173689052fb804.png"\] Alt text: if the summary wasn't helpful.
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d159132e274">
+</td></tr><tr><td id="d161240e277">
 
 **Copy the summary**
 
 </td><td>
 
-Select the copy icon \[Omitted image "4a77b72651daa7f80649c76601bbaafcf4b6f999.png"\] Alt text: to copy the summary to the clipboard.
+Select the copy icon \[Omitted image "b4c3211d08fa1fec983aab14a5a10fc78925e5a9.png"\] Alt text: to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d159132e291">
+</td></tr><tr><td id="d161240e294">
 
 **Regenerate the summary**
 

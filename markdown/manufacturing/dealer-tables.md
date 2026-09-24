@@ -1,34 +1,34 @@
 ---
 title: Dealer tables
-description: This section explains the dealer tables in Manufacturing Commercial Operations.
+description: The dealer tables in Manufacturing Commercial Operations store dealer, service organization, and channel partner records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/dealer-tables.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dealer data model, Data model, Reference, Manufacturing Commercial Operations]
 ---
 
 # Dealer tables
 
-This section explains the dealer tables in Manufacturing Commercial Operations.
+The dealer tables in Manufacturing Commercial Operations store dealer, service organization, and channel partner records.
 
-## Dealer plugin
+## Dealer feature
 
 The dealer \[sn\_dealer\_mgmt\] feature adds or modifies the existing tables:
 
 -   Service Organization \[sn\_customer\_service\_organization\]
 -   Business Location \[sn\_csm\_business\_location\]
 -   Internal Business Location \[sn\_csm\_business\_location\_internal\]
--   External Business Location \[sn\_cms\_business\_location\_external\]
--   Service Organization member \[sn\_cms\_service\_organization\_member\]
--   Service Organization External Staff \[sn\_cms\_svc\_org\_member\_responsibility\]
+-   External Business Location \[sn\_csm\_business\_location\_external\]
+-   Service Organization member \[sn\_csm\_service\_organization\_member\]
+-   Service Organization External Staff \[sn\_csm\_svc\_org\_member\_responsibility\]
 -   Channel Partner \[sn\_prm\_channel\_partner\]
 -   Service Organization External Staff \[sn\_csm\_service\_organization\_external\_staff\]
 -   User \[sys\_user\]
 
-The dealer plugin adds the following tables.
+The dealer feature adds the following tables.
 
 <table id="table_ht5_lmw_t2c"><thead><tr><th>
 
@@ -123,7 +123,7 @@ Service Organization Member Responsibility\[sn\_csm\_svc\_org\_member\_responsib
 Configure the responsibilities of the staff working at service organizations or its extended entities.
 
 </td></tr></tbody>
-</table>To learn more about the Service Model Foundation, see [Configuring Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-service.md).
+</table>To learn more about the Service Model Foundation, see .
 
-**Parent Topic:**[Dealer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/dealer-data-model-overview.md)
+**Parent Topic:**[Dealer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/dealer-data-model-overview.md)
 

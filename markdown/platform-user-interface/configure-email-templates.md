@@ -3,9 +3,9 @@ title: Configure an email template
 description: Configure email templates to quickly create emails for common issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-email-templates.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Emails, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

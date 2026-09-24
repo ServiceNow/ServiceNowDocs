@@ -3,11 +3,11 @@ title: Create a non-monetary benefit plan for an epic
 description: Epic benefit plans capture the potential non-financial benefits accrued by the epic when the epic is executed. Create a non-monetary benefit plan to specify the estimated benefit in a category spanning one or more fiscal periods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/create-non-monetary-benefit-plan-safe-epic.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Define an epic in SAFe, SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -281,10 +281,10 @@ Actual benefit value that is rolled up from the actual benefit in the non-moneta
 ## What to do next
 
 -   On the Benefit Plan form, view the benefit breakdown by fiscal period in the Non-monetary Benefit Plan Breakdowns related list.
--   [Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/associate-benefit-plans-safe-epic.md), so that you can capture the potential benefits \(financial and non-financial\) accrued by the epic for the hybrid benefit plans.
+-   [Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/associate-benefit-plans-safe-epic.md), so that you can capture the potential benefits \(financial and non-financial\) accrued by the epic for the hybrid benefit plans.
 
--   **[Update a non-monetary benefit plan breakdown for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/update-non-monetary-benefit-plan-breakdown-safe-epic.md)**  
+-   **[Update a non-monetary benefit plan breakdown for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/update-non-monetary-benefit-plan-breakdown-safe-epic.md)**  
 Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 
-**Parent Topic:**[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
+**Parent Topic:**[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
 

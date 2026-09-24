@@ -3,12 +3,12 @@ title: MID Server parameters
 description: Parameters control the behavior of a particular MID Server and have lower precedence than MID Server properties.Use a MID Server parameter to control the behavior of a particular MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-parameters.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 42
+last_updated: "2026-09-10"
+reading_time_minutes: 40
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -21,11 +21,11 @@ Parameters control the behavior of a particular MID Server and have lower preced
 ![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
-</table>To add a parameter to a MID Server, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
+</table>To add a parameter to a MID Server, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
 
 **Important:** Changes to parameters only take effect when the MID Server is started \(or restarted\).
 
-**Note:** The value of any MID Server parameter in the config.xml file can be encrypted. See [Encrypt or decrypt MID Server configuration file values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-manual-encryption.md) for more information.
+**Note:** The value of any MID Server parameter in the config.xml file can be encrypted. See [Encrypt or decrypt MID Server configuration file values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-manual-encryption.md) for more information.
 
 ## Required parameters
 
@@ -107,7 +107,7 @@ Parameters control the behavior of a particular MID Server and have lower preced
     -   Default value: yyyy-MM-dd HH:mm:ss
 -   **mid.disable\_amb**
 
-    Disables the Asynchronous Message Bus \(AMB\) notifications for new ECC queue output messages. For more information, see the Asynchronous Message Bus section in[Asynchronous Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md). When AMB is enabled the MID Server uses a different default polling interval than when AMB is disabled. See the **mid.poll.time** parameter for more details. If you set a polling interval with the **mid.poll.time** parameter, the MID Server uses that value whether or not the AMB client is enabled.
+    Disables the Asynchronous Message Bus \(AMB\) notifications for new ECC queue output messages. For more information, see the Asynchronous Message Bus section in[Asynchronous Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md). When AMB is enabled the MID Server uses a different default polling interval than when AMB is disabled. See the **mid.poll.time** parameter for more details. If you set a polling interval with the **mid.poll.time** parameter, the MID Server uses that value whether or not the AMB client is enabled.
 
     -   Type: true \| false
     -   Default value: false
@@ -139,15 +139,15 @@ Parameters control the behavior of a particular MID Server and have lower preced
 
     Sets the default MID Server polling interval \(in seconds\). The polling interval is the amount of time the MID Server waits before checking the ECC queue for work when the MID Server is not busy. For more information, see the Asynchronous Message Bus section in.
 
-    When **mid.disable.amb** is set to false \(the default setting\), see the Asynchronous Message Bus section in [Asynchronous Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md) for more information about how **mid.poll.time** is used.
+    When **mid.disable\_amb** is set to false \(the default setting\), see the Asynchronous Message Bus section in [Asynchronous Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md) for more information about how **mid.poll.time** is used.
 
-    When **mid.disable.amb** is set to true, polling occurs on a fixed **mid.poll.time** interval, but polling switches to using **mid.poll.time.standard** \(5 seconds by default\) when the MID Server is busy.
+    When **mid.disable\_amb** is set to true, polling occurs on a fixed **mid.poll.time** interval, but polling switches to using **mid.poll.time.standard** \(5 seconds by default\) when the MID Server is busy.
 
     -   Type: integer \(seconds\)
-    -   Default value: 40 when **mid.disable.amb** is false, or 5 when **mid.disable.amb** is true.
+    -   Default value: 40 when **mid.disable\_amb** is false, or 5 when **mid.disable\_amb** is true.
 -   **mid.probe.wait.resources**
 
-    Indicates whether probe execution is delayed until resources are available. Used to enable [MID Server Resource Reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid_server_resource_reservation.md).
+    Indicates whether probe execution is delayed until resources are available. Used to enable [MID Server Resource Reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid_server_resource_reservation.md).
 
     **Note:** Requires MID Server restart.
 
@@ -163,19 +163,19 @@ Parameters control the behavior of a particular MID Server and have lower preced
     -   Default value: LongRunner
 -   **threads.interactive.max**
 
-    Sets the maximum number of interactive worker threads that can run simultaneously in the interactive thread pool. See [Set MID Server Thread Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetMIDServerThreadUse.md).
+    Sets the maximum number of interactive worker threads that can run simultaneously in the interactive thread pool. See [Set MID Server Thread Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_SetMIDServerThreadUse.md).
 
     -   Type: integer
     -   Default value: 10
 -   **threads.expedited.max**
 
-    Sets the maximum number of expedited worker threads that can run simultaneously in the expedited thread pool. See [Set MID Server Thread Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetMIDServerThreadUse.md).
+    Sets the maximum number of expedited worker threads that can run simultaneously in the expedited thread pool. See [Set MID Server Thread Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_SetMIDServerThreadUse.md).
 
     -   Type: integer
     -   Default value: 20
 -   **threads.max**
 
-    Sets the maximum number of standard worker threads that can run simultaneously in the standard thread pool. This parameter provides direct control over what CPU resources the MID Server consumes on the computer that hosts it. See [Set MID Server Thread Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetMIDServerThreadUse.md).
+    Sets the maximum number of standard worker threads that can run simultaneously in the standard thread pool. This parameter provides direct control over what CPU resources the MID Server consumes on the computer that hosts it. See [Set MID Server Thread Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_SetMIDServerThreadUse.md).
 
     -   Type: integer
     -   Default value: 25
@@ -316,7 +316,7 @@ Parameters control the behavior of a particular MID Server and have lower preced
     -   Default value: false
 -   **mid.probe.use\_legacy\_forward\_dns**
 
-    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_OrchestrationProbes.md) for more information.
+    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/r_OrchestrationProbes.md) for more information.
 
     -   Type: true \| false
     -   Default value: false
@@ -665,12 +665,6 @@ Add these parameters to the `config.xml` file in the `/agent` directory, in the 
 
 ## SNMP configuration parameters
 
--   **mid.snmp.enable\_auto\_public**
-
-    Specifies whether to use the SNMP public community string automatically if no other SNMP credentials were successful.
-
-    -   Type: true \| false
-    -   Default value: true
 -   **mid.snmp.request.timeout**
 
     Specifies the timeout value for the first OID request, in milliseconds. For subsequent requests \(for example, table OIDs\), the **mid.snmp.session.timeout configuration** parameter \(see below\) takes effect.
@@ -695,9 +689,9 @@ Add these parameters to the `config.xml` file in the `/agent` directory, in the 
     -   Default value: True
     GETBULK can also be set at the probe level or globally for all MID servers. Settings are listed in the order of precedence:
 
-    -   [SNMP probe parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_SNMPProbeParameters.md)
+    -   [SNMP probe parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r_SNMPProbeParameters.md)
     -   MID Server configuration parameter
-    -   [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md)
+    -   [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md)
 -   **mid.snmp.use\_snmp4j**
 
     Use the Snmp4j library for SNMP communication. This is a strict requirement for SNMPv3. This parameter should only be set to **false** based on advice from Customer Service and Support.
@@ -706,7 +700,7 @@ Add these parameters to the `config.xml` file in the `/agent` directory, in the 
     -   Default value: true
 -   **mid.snmp.use\_snmp\_v1\_v2c**
 
-    Attempt communication using the SNMPv1 and SNMPv2c protocol versions. It may require configuration of [SNMP community credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md). This parameter is an alternative and**not a strict requirement for SNMPv3.**
+    Attempt communication using the SNMPv1 and SNMPv2c protocol versions. It may require configuration of [SNMP community credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md). This parameter is an alternative and**not a strict requirement for SNMPv3.**
 
     -   Type: true \| false
     -   Default value: true
@@ -792,7 +786,7 @@ By default, the MID Server is configured to search for SSH commands in the follo
     -   **prepend**: Appends the override path to the front of the host path.
 -   **mid.ssh.use\_snc**
 
-    Enables the ServiceNow SSH client \(SNCSSH\) on individual MID Servers. SNCSSH is a ServiceNow implementation of an SSH client and is active by default for all MID Servers on new instances, via a [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md). Enabling the ServiceNow SSH client disables the legacy J2SSH client.
+    Enables the ServiceNow SSH client \(SNCSSH\) on individual MID Servers. SNCSSH is a ServiceNow implementation of an SSH client and is active by default for all MID Servers on new instances, via a [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md). Enabling the ServiceNow SSH client disables the legacy J2SSH client.
 
     **Important:** Mixing SSH client types for MID Servers connected to the same instance is not a good practice.
 
@@ -886,7 +880,7 @@ By default, the MID Server is configured to search for SSH commands in the follo
     -   Default value: 150
 -   **mid.ssh.disable\_privilege\_check**
 
-    This parameter has no effect if the target is using a privileged command other than sudo. For more information, see [MID Server privileged commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_PrivilegedCommandsForMIDServer.md).
+    This parameter has no effect if the target is using a privileged command other than sudo. For more information, see [MID Server privileged commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_PrivilegedCommandsForMIDServer.md).
 
     The remainder of this section only applies to targets which run sudo. When this parameter is set to **true**, the MID Server assumes that the user configured in the credential has the privilege to run the given command using sudo. The MID Server assumes the target user can run any command string following sudo on the target. When this parameter is set to **false**, the MID Server runs "sudo -l" on the target to verify the command which follows sudo has permission to run on the target. Regardless of this parameter's value, the MID Server always validates that sudo by itself can be run on the target.
 
@@ -956,19 +950,13 @@ By default, the MID Server is configured to search for SSH commands in the follo
     **Note:** Setting or changing this parameter requires restarting the MID Server.
 
     -   Type: integer
-    -   Default value: 2
+    -   Default value: 3
 -   **mid.sa.prefer\_powershell**
 
     Enables MID Server to use PowerShell Remoting.
 
     -   Type: true \| false
     -   Default value: false
--   **mid.powershell\_api.wmi.cimsession\_operation\_timeoutsec**
-
-    Sets the duration in seconds that the CIM session waits for a CIM operation to complete. The default value is 0, which means that the default timeout for the server is used.
-
-    -   Type: integer
-    -   Default value: 0
 -   **mid.powershell\_api.winrm.use\_ssl**
 
     Requires the use of SSL certificates for HTTPS connections using WinRM.
@@ -1019,24 +1007,6 @@ By default, the MID Server is configured to search for SSH commands in the follo
 
     -   Type: string \(path\)
     -   Default value: none
--   **mid.powershell.prefer\_7\_plus**
-
-    Set this parameter to true enables auto-detection of local PowerShell installations. To be detected a PowerShell executable must be resolvable from the host's PATH environment variable. The first executable found meeting the version requirement is used.
-
-    -   Type: true \| false
-    -   Default value: false
--   **mid.powershell.prefer\_7\_plus\_remote**
-
-    Discoveries using WMI can attempt to use PowerShell 7 by setting this parameter to true. Setting this parameter to true to enables auto-detection of remote PowerShell installations. To be detected a PowerShell executable must be resolvable from the target's PATH environment variable. The first executable found meeting the version requirement is used.
-
-    If your scripts require access to this executable's path, it can be retrieved from the local PowerShell session global variable: `$global:powershellExecutableRemote`. Test to verify it is present. If present, this path is a plain String and has not been escaped for the presence of spaces or special characters. Callers are expected to handle this for their specific use cases. This variable is only set for WMI discoveries.
-
-    Discoveries using the WinRM protocol can attempt to use PowerShell 7 setting this parameter to true.
-
-    None of the preceding configuration parameters will be heeded if JEA Discovery has been enabled for the MID Server via the `mid.powershell.jea.endpoint`. This parameter supersedes all other sources of ConfigurationName for use in WinRM discoveries.
-
-    -   Type: true \| false
-    -   Default value: false
 -   **mid.powershell.enforce\_utf8**
 
     Enable this parameter to force commands on a target Windows system to return UTF-8 encoded output. Disabling it allows the target system to use its default encoding. This parameter is only valid when PowerShell is enabled.
@@ -1096,7 +1066,7 @@ By default, the MID Server is configured to search for SSH commands in the follo
     -   Type: string
     -   Default value: ""
 
-**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
@@ -1145,7 +1115,7 @@ Role required: admin
 
 3.  Select the **Configuration Parameters** related list.
 
-    This shows all the parameters currently in the MID Server's configuration file. If there are any passwords, they are displayed in asterisks for security reasons. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md) for a list of available parameters.
+    This shows all the parameters currently in the MID Server's configuration file. If there are any passwords, they are displayed in asterisks for security reasons. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-parameters.md) for a list of available parameters.
 
     \[Omitted image "MIDConfig.png"\] Alt text: Defining MID Server configuration parameters
 

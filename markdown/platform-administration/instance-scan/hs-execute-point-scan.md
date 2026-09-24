@@ -3,11 +3,11 @@ title: Execute a point scan
 description: Execute all applicable checks against a single record, update set or an application by selecting Run Point Scan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-execute-point-scan.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Executing a scan, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -59,12 +59,12 @@ For example, if you execute a point scan against a business rule, only the check
 
 A scan of all applicable checks against only a single record is executed.
 
--   **[Execute an update set scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-update-set-scan.md)**  
+-   **[Execute an update set scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-execute-update-set-scan.md)**  
 Use an update set scan to run applicable checks against the current versions of records that have updates in the update set. If a record has been modified since it was added to the update set, the scan reflects those later changes. Issues that exist only in the update set version of a record aren't detected.
--   **[Execute an app scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-app-scan.md)**  
+-   **[Execute an app scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-execute-app-scan.md)**  
 Scan the installed files of an application as well as the application record itself with applicable checks by executing an application scan.
 
-**Parent Topic:**[Executing a scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-scans.md)
+**Parent Topic:**[Executing a scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-execute-scans.md)
 
 **Related topics**  
 

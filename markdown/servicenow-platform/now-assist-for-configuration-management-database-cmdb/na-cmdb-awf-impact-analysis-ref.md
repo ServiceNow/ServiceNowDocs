@@ -1,13 +1,13 @@
 ---
 title: Assess CMDB impact agentic workflow reference
-description: Reference information for the Assess CMDB impact agentic workflow, including input modes, output schema, supported record types, constraints, and system properties.
+description: Reference information for the Impact analysis agentic workflow, including input modes, output schema, supported record types, constraints, and system properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [impact analysis, reference, API, schema, CMDB, ServiceNow Otto for CMDB]
 breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -15,7 +15,7 @@ breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(
 
 # Assess CMDB impact agentic workflow reference
 
-Reference information for the Assess CMDB impact agentic workflow, including input modes, output schema, supported record types, constraints, and system properties.
+Reference information for the Impact analysis agentic workflow, including input modes, output schema, supported record types, constraints, and system properties.
 
 ## Input modes
 
@@ -108,7 +108,7 @@ The workflow builds the dependency topology using a three-phase breadth-first se
 
 ## Limitations
 
-The Assess CMDB impact agentic workflow considers only the semantics of CMDB topology. It does not include data on similar past changes, ongoing incidents, upcoming scheduled changes, or business context.
+The Impact analysis agentic workflow considers only the semantics of CMDB topology. It does not include data on similar past changes, ongoing incidents, upcoming scheduled changes, or business context.
 
 LLM reasoning accuracy depends on the richness and clarity of the change description provided. Short or vague descriptions produce lower-quality impact assessments.
 
@@ -124,7 +124,7 @@ LLM reasoning accuracy depends on the richness and clarity of the change descrip
 
 ## Role requirements
 
-Access to the Assess CMDB impact agentic workflow requires the `itil` role to perform the following actions:
+Access to the Impact analysis agentic workflow requires the `itil` role to perform the following actions:
 
 -   Read CMDB CI records and CI relationship data
 -   Read change request and incident records
@@ -132,12 +132,12 @@ Access to the Assess CMDB impact agentic workflow requires the `itil` role to pe
 
 Additionally, users must have access to open the ServiceNow Otto panel from their workspace or application. Contact your administrator if you can't see the ServiceNow Otto icon.
 
-**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
+**Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
 
 **Related topics**  
 
 
-[Analyzing the impact of a change or incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-using.md)
+[Analyzing the impact of a change or incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-using.md)
 
-[Analyze change and incident impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-use.md)
+[Analyze change and incident impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-use.md)
 

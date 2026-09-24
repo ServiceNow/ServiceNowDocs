@@ -3,9 +3,9 @@ title: Components installed with Engagement Messenger
 description: Several types of components are installed with activation of the Engagement Messenger application, including plugins, tables, and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/installed-with-engagement-messenger.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Customer Service Management]
 ---
@@ -215,6 +215,6 @@ The property contains a comma-separated list of service portal record sys\_ids. 
 </td></tr></tbody>
 </table>## Plugins installed
 
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\)
 

@@ -3,7 +3,7 @@ title: Free storage space in a Salesforce org
 description: How to clear up space in a Salesforce test environment that is near its storage limit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/how\_do\_i\_clear\_up\_storage\_space\_in\_my\_salesforce\_org.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

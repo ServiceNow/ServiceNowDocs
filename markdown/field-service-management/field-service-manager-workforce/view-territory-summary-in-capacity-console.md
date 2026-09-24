@@ -3,11 +3,11 @@ title: View territory and demand channel summary in the contextual side panel
 description: The Capacity Console provides a comprehensive summary of territories and demand channels, enabling capacity planners and managers to make informed decisions about resource allocation and management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/view-territory-summary-in-capacity-console.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Capacity Console, Capacity, Managing workforce, Use, Field Service Management]
 ---
@@ -30,15 +30,15 @@ When you select an event in the calendar or a specific data row, the contextual 
 
 2.  View territory or demand channel summary.
 
-<table id="choicetable_awp_znf_c2c"><thead><tr><th align="left" id="d61842e88">
+<table id="choicetable_awp_znf_c2c"><thead><tr><th align="left" id="d64100e88">
 
 To
 
-</th><th align="left" id="d61842e91">
+</th><th align="left" id="d64100e91">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d61842e97">
+</th></tr></thead><tbody><tr><td id="d64100e97">
 
 **View territory summary grouping by territory**
 
@@ -52,7 +52,7 @@ Do this
 3.  Select an event in the calendar to view the territory summary in the CSP.
 
 
-</td></tr><tr><td id="d61842e137">
+</td></tr><tr><td id="d64100e137">
 
 **View territory summary grouping by demand channel**
 
@@ -62,7 +62,7 @@ Do this
 2.  Select an event under the demand channel associated with the selected territory.
 
 
-</td></tr><tr><td id="d61842e161">
+</td></tr><tr><td id="d64100e161">
 
 **View each demand channel details by territory**
 

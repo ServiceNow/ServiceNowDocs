@@ -3,11 +3,11 @@ title: Digital Product Release
 description: ServiceNow Digital Product Release \(DPR\) is a release management solution that helps release managers, product managers, and program managers manage the release process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-landing-page.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -22,19 +22,19 @@ This video provides an overview of Digital Product Release and its capabilities.
 
 <table id="table_g42_jt4_kyb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how Digital Product Release helps you manage the release process for delivering products and services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how Digital Product Release helps you manage the release process for delivering products and services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your release readiness.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-configuring-digital-product-release.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your release readiness.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-configuring-digital-product-release.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "esg-digital-readiness.svg"\] Alt text:Manage and track the process of delivering digital products and services, from planning to delivery.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
+[Use\[Omitted image "esg-digital-readiness.svg"\] Alt text:Manage and track the process of delivering digital products and services, from planning to delivery.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

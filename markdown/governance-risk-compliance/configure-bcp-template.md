@@ -3,9 +3,9 @@ title: Configure a business continuity plan template
 description: Configure the business continuity plan \(BCP\) template to create and assign business continuity plans with standard object types. The object types can be business processes, applications, employees, hardware, software, and others.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-bcp-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [BCM in the Classic Workspace, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---

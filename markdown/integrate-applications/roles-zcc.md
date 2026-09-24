@@ -3,9 +3,9 @@ title: Zero Copy Connectors roles
 description: Zero Copy Connectors is installed with these roles.Role for creating and managing connections in Zero Copy Connector Hub.Role for creating and managing data fabric tables in Zero Copy Connector Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/roles-zcc.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Reference, Zero Copy Connectors, Workflow Data Fabric]
 
 Zero Copy Connectors is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/reference-zcc.md)
+**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/reference-zcc.md)
 
 ## Connection administrator \[df\_connection\_admin\]
 

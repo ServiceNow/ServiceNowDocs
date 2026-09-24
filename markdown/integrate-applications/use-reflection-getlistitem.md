@@ -3,9 +3,9 @@ title: Use the GetListItem component
 description: Return items from a list by using the GetListItem component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-reflection-getlistitem.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reflection, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetListItem component. For more information about these properties, see [Properties of the Reflection components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-reflection-prop.md).
+You can configure the properties for the GetListItem component. For more information about these properties, see [Properties of the Reflection components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/util-reflection-prop.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ You can configure the properties for the GetListItem component. For more informa
 
     5.  Click **OK**.
 
-4.  To configure the input field, [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+4.  To configure the input field, [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 5.  Connect the data and control ports of the GetListItem component to the corresponding ports of the other components.
 
@@ -54,5 +54,5 @@ You can configure the properties for the GetListItem component. For more informa
 6.  To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[Reflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/reflection-utility.md)
+**Parent Topic:**[Reflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/reflection-utility.md)
 

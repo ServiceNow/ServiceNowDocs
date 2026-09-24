@@ -3,11 +3,11 @@ title: Configuring Model Context Protocol Client
 description: Configure the MCP Client to execute agentic workflows with AI agents and mapped tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-mcp-client.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MCP Client, AI Agent Studio, Enable AI experiences]
+breadcrumb: [MCP Client, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Configuring Model Context Protocol Client

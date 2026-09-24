@@ -3,11 +3,11 @@ title: Indexed Source History form
 description: The Indexed Source History form enables you to review details from the ingestion history for an AI Search indexed source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/indexed-source-history-form-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 The Indexed Source History form enables you to review details from the ingestion history for an AI Search indexed source.
 
-To learn how to review the ingestion history for an indexed source, see [Review ingestion history for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/review-history-indexed-source-ais.md).
+To learn how to review the ingestion history for an indexed source, see [Review ingestion history for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/review-history-indexed-source-ais.md).
 
 <table id="table_nds_jcb_5nb"><thead><tr><th>
 
@@ -147,5 +147,5 @@ Documents Processed per Second \(DPS\)
 Average number of source records and attachments processed per second for the ingestion event.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/reference-ais.md)
 

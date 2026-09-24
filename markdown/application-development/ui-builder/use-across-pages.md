@@ -3,11 +3,11 @@ title: Use pages across experiences
 description: Use pages created in one in experience in another without needing to rebuild the page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/use-across-pages.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -34,10 +34,10 @@ When sharing a page, you must specify all the linked pages associated with it. *
 
 **Note:** Shared pages can only be configured in the ServiceNow® platform currently. However, you can view these pages while in the Experience View of UI Builder.
 
--   **[Enable pages to be used across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/enable-use-across-exp.md)**  
+-   **[Enable pages to be used across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/enable-use-across-exp.md)**  
 Select pages that you want to share across experiences in UI Builder.
--   **[Add shared pages to an experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-shared-pages-to-an-experience.md)**  
+-   **[Add shared pages to an experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-shared-pages-to-an-experience.md)**  
 Add a page from another experience so that users can access shared content without duplicating pages.
 
-**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md)
+**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-pages.md)
 

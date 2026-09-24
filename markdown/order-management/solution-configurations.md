@@ -3,12 +3,12 @@ title: Solution configurations
 description: Solution configurations let you link multiple blueprints together so buyers complete related product configurations in a single, connected session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/solution-configurations.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-26"
 reading_time_minutes: 3
 keywords: [solution configuration, CPQ, blueprints, solution root]
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Solution configurations
@@ -65,11 +65,11 @@ Solution configurations work well when you need to manage complex products as se
 **Related topics**  
 
 
-[Enable solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-solution-configuration.md)
+[Enable solution configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-solution-configuration.md)
 
-[Solution configuration terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Solution configuration terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
-[Solution configuration limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Solution configuration limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
-[Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Field mapping supported field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

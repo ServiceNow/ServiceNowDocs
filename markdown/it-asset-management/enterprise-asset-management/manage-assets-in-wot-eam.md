@@ -3,14 +3,14 @@ title: Manage assets in a work order task
 description: Add, remove, or move enterprise assets across work order tasks to manage the work performed on specific assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/manage-assets-in-wot-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Affected assets, Add assets, Remove assets, Move assets to cloned work order task]
-breadcrumb: [Create a work order for an enterprise asset, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create a work order for an enterprise asset, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Manage assets in a work order task
@@ -44,15 +44,15 @@ Role required: sn\_eam.asset\_manager
 
 5.  Perform the required asset action.
 
-<table id="choicetable_qfw_xxr_33c"><thead><tr><th align="left" id="d296199e141">
+<table id="choicetable_qfw_xxr_33c"><thead><tr><th align="left" id="d298985e141">
 
 Asset action
 
-</th><th align="left" id="d296199e144">
+</th><th align="left" id="d298985e144">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d296199e150">
+</th></tr></thead><tbody><tr><td id="d298985e150">
 
 **Add assets to the work order task**
 
@@ -68,7 +68,7 @@ Steps
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d296199e187">
+</td></tr><tr><td id="d298985e187">
 
 **Remove assets from the work order task**
 
@@ -79,7 +79,7 @@ Steps
 3.  In the Delete dialog box, select **Delete all** to confirm.
 
 
-</td></tr><tr><td id="d296199e214">
+</td></tr><tr><td id="d298985e214">
 
 **Move assets to another work order task**
 

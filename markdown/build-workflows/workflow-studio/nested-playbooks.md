@@ -3,11 +3,11 @@ title: Nested Playbooks
 description: Embed or "nest" a child playbook within a parent playbook to organize your processes and then present the appropriate sequence of steps in the runtime experience. Creating child playbooks that can be used in other parent playbooks enables you to define sets of activities that can be re-used across multiple playbooks to avoid duplication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/nested-playbooks.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -46,6 +46,6 @@ When building child playbooks, they must be of the Standalone execution type. Th
 
 Building nested playbooks is a two-part process:
 
-1.  Build a child playbook that can be nested in a parent playbook. For information about this step, see [Create a nestable child playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-nestable-child-playbook.md).
-2.  Build a parent playbook that can host the child playbook. For more information about this step, see [Create a parent playbook to host a nestable child playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-parent-playbook.md).
+1.  Build a child playbook that can be nested in a parent playbook. For information about this step, see [Create a nestable child playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-nestable-child-playbook.md).
+2.  Build a parent playbook that can host the child playbook. For more information about this step, see [Create a parent playbook to host a nestable child playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-parent-playbook.md).
 

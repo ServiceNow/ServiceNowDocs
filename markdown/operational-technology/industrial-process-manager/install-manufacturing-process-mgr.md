@@ -3,13 +3,13 @@ title: Install the Industrial Process Manager
 description: If you have the required entitlement and the Administrator \[admin\] role, you can install the Industrial Process Manager application and the related plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/install-manufacturing-process-mgr.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # Install the Industrial Process Manager
@@ -31,7 +31,7 @@ The following items are installed with the Industrial Process Manager:
 -   Roles
 -   Tables
 
-For more information on viewing the components that are installed with the Industrial Process Manager application, see [Components installed with Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/components-installed-with-industrial-process-manager.md).
+For more information on viewing the components that are installed with the Industrial Process Manager application, see [Components installed with Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/components-installed-with-industrial-process-manager.md).
 
 **Note:** For Operational Technology Service Management users with no license for Operational Technology Visibility, note the following:
 
@@ -61,5 +61,5 @@ You should upgrade to the latest versions so you have access to the Operational 
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

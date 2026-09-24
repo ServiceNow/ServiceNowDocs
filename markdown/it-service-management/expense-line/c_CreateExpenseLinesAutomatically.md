@@ -3,11 +3,11 @@ title: Automatic expense line creation
 description: You can automatically create expense lines to facilitate the accurate reporting of expenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/c\_CreateExpenseLinesAutomatically.html
-release: australia
+release: brazil
 product: Expense Line
 classification: expense-line
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Expense lines and expense allocations, Expense Line, IT Service Management]
 ---
@@ -24,7 +24,7 @@ If enabled, the following processes generate expense lines automatically.
 
 Expense lines can also be imported from external systems or generated from scripts. To generate an expense from a server-side script, use the ExpenseLine API.
 
-**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
+**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
 
 **Related topics**  
 
@@ -39,5 +39,5 @@ Expense lines can also be imported from external systems or generated from scrip
 
 [Use a scripted allocation]()
 
-[Create or edit a CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIRelationship.md)
+[Create or edit a CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateCIRelationship.md)
 

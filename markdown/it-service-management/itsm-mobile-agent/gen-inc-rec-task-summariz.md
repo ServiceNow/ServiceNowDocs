@@ -3,11 +3,11 @@ title: Generating task summarization for incident records
 description: Generate incident record and task summarization using GenAI task summarization capabilties which help reduce the effort required to draft work notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/gen-inc-rec-task-summariz.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
@@ -34,15 +34,15 @@ After the information summary is generated, you can edit and add the information
 -   Activities such as action taken or existing work notes or comments
 -   Affected CIs and impacted services
 
-You can also customize the information summary \(prompt\) from ServiceNow Otto for ITSM admin console. For more information, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
+You can also customize the information summary \(prompt\) from ServiceNow Otto for ITSM admin console. For more information, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
 
 \[Omitted image "itsm-ma-summarize-worknote.png"\] Alt text: Incident record summarized as work notes
 
-For more information on Now Assist for mobile, see [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-assist-mobile-landing.md).
+For more information on Now Assist for mobile, see [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/now-assist-mobile-landing.md).
 
 ## Activation of incident record summarization skill
 
-To enable the summarization feature in ITSM Mobile Agent application, you must activate or customize the incident summarization skill from the ServiceNow Otto for ITSM admin console. For more information on activating and customizing the incident summarization skill, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
+To enable the summarization feature in ITSM Mobile Agent application, you must activate or customize the incident summarization skill from the ServiceNow Otto for ITSM admin console. For more information on activating and customizing the incident summarization skill, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-skill.md).
 
 If you have already configured the incident summarization skill in the ServiceNow Otto for ITSM application console and then installed ITSM Mobile Agent application, you must do the following actions:
 

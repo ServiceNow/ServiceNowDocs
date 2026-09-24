@@ -3,11 +3,11 @@ title: Entity configurations form
 description: Use the Entity configurations form to configure access to the objects through an entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/entity-configurations-form.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure access to an entity's related records, Manage Entity Based Access, Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -98,5 +98,5 @@ Description
 Description of the entity configuration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure access to an entity's related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-an-entity-access-configuration.md)
+</table>**Parent Topic:**[Configure access to an entity's related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/create-an-entity-access-configuration.md)
 

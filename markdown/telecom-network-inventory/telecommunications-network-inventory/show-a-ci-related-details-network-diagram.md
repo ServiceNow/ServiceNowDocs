@@ -3,11 +3,11 @@ title: View the details of a network diagram
 description: View the details of a connection node and visualize the underlying connection elements of a logical connection by using the network diagram in the Telecommunications Network Inventory. You can understand the detailed overview of the logical connection and how the connection elements are connected to each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/show-a-ci-related-details-network-diagram.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Network diagram, Use, Telecommunications Network Inventory]
 ---
@@ -43,15 +43,15 @@ With the use of a network diagram, you can do the following:
 
     On the network diagram you can do the following actions:
 
-<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d33383e129">
+<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d33347e129">
 
 Option
 
-</th><th align="left" id="d33383e132">
+</th><th align="left" id="d33347e132">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d33383e138">
+</th></tr></thead><tbody><tr><td id="d33347e138">
 
 **Expand the network diagram and view the underlying elements**
 
@@ -61,7 +61,7 @@ Details
 2.  Expand further by selecting the add icon \(\[Omitted image "icon-add-circuit.png"\] Alt text: Add Icon\) of the underlying connection nodes.
  **Note:** When there are underlying connection elements in a logical connection, the connection node appears as a stacked pill shape. After expansion, it transforms into a box shape.
 
-</td></tr><tr><td id="d33383e171">
+</td></tr><tr><td id="d33347e171">
 
 **View the revision of the logical connection**
 
@@ -74,7 +74,7 @@ Details
 2.  Select **Current view** to view the original logical connection.
  You can toggle the view between the original logical connection and revision of the logical connection to compare the differences.
 
-</td></tr><tr><td id="d33383e212">
+</td></tr><tr><td id="d33347e212">
 
 **View the protection path**
 
@@ -84,9 +84,9 @@ Select the protection path icon \(\[Omitted image "icon-protection-path.png"\] A
 
 You can’t expand the underlying connection elements of a protection path. To view the details of the protection path, select the protection path node, and then select **View Details** in the details pane.
 
-To learn more about to create a protection path, see [Create a protection path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-a-protection-path.md).
+To learn more about to create a protection path, see [Create a protection path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-a-protection-path.md).
 
-</td></tr><tr><td id="d33383e252">
+</td></tr><tr><td id="d33347e252">
 
 **View the details of a connection node**
 
@@ -98,7 +98,7 @@ To learn more about to create a protection path, see [Create a protection path](
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
+**Parent Topic:**[Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
 
 **Related topics**  
 
@@ -107,5 +107,5 @@ To learn more about to create a protection path, see [Create a protection path](
 
 [Create a protection path]()
 
-[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
+[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
 

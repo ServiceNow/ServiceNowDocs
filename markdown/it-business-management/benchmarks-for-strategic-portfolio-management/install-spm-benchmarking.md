@@ -3,11 +3,11 @@ title: Install SPM Benchmarks
 description: As an admin, you can install the SPM Benchmarks application \(sn\_spm\_bm\) from the ServiceNow Store.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/benchmarks-for-strategic-portfolio-management/install-spm-benchmarking.html
-release: australia
+release: brazil
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring SPM Benchmarks, SPM Benchmarks, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ The following items are installed with SPM Benchmarks:
 -   Roles
 -   Scheduled jobs
 
-For more information, see [Components installed with SPM Benchmarking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/components-installed-with-spm-benchmarking.md).
+For more information, see [Components installed with SPM Benchmarking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/components-installed-with-spm-benchmarking.md).
 
 ## Procedure
 
@@ -51,5 +51,5 @@ For more information, see [Components installed with SPM Benchmarking](https://r
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/configuring-benchmarks.md)
+**Parent Topic:**[Configuring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/configuring-benchmarks.md)
 

@@ -3,9 +3,9 @@ title: Requested restricted caller access \(RCA\)
 description: You can use a requested RCA to grant store apps access to protected resources in the ServiceNow AI Platform without the need to wait for the next family release. If you have the system admin or application admin role, you can review requested RCAs and approve and deny them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/requested-rca.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

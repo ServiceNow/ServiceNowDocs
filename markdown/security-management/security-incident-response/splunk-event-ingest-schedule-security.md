@@ -3,11 +3,11 @@ title: Schedule and retrieve notable events
 description: For automated notable event ingestion profiles, this step is required in the event profile configuration. During this step, you can verify the default settings for notable event retrieval or modify the scheduling as needed. This step also permits you to retrieve historical notable events using a date range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-schedule-security.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Set up a profile for scheduled notable event ingestion, Create an event profile, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -40,15 +40,15 @@ When the polling schedule is set, the scheduled job pulls both new and updated n
 
 2.  Choose one to schedule how and when notable events are pulled from the Splunk Enterprise Security console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d509276e103">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d509586e103">
 
 Option
 
-</th><th align="left" id="d509276e106">
+</th><th align="left" id="d509586e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d509276e112">
+</th></tr></thead><tbody><tr><td id="d509586e112">
 
 **-   On-going Event Ingestion field selected
 -   One-Time Retrieval field cleared
@@ -58,7 +58,7 @@ Description
 
 On-going EventBased on the default setting, the ServiceNow AI Platform instance pulls from the Splunk Enterprise Security server for new and updated notable events every five minutes. Security incidents are created if notable events are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d509276e139">
+</td></tr><tr><td id="d509586e139">
 
 **-   On-going Notable Event field cleared
 -   One-Time Retrieval field selected

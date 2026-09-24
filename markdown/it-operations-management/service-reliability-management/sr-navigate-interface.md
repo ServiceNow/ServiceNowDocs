@@ -3,11 +3,11 @@ title: SRM interface
 description: The different components on the Service Reliability Management \(SRM\) interface provide easy access to different functions. The features and functions that appear depend on your role and permissions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-navigate-interface.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Get started with Service Reliability Management, Exploring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -78,12 +78,12 @@ If you want to minimize the side panel on forms, by default, navigate to **Prefe
 That action disables it across the Service Operations Workspace, not just SRM.
 
 </td></tr></tbody>
-</table>-   **[Search, filters, lists, forms, and guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-visualize-content.md)**  
+</table>-   **[Search, filters, lists, forms, and guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-visualize-content.md)**  
 An overview of the additional elements in the Service Reliability Management \(SRM\) interface that help you find items, view available forms and lists, and follow setup processes.
--   **[Export list information to a file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-export-to-file.md)**  
+-   **[Export list information to a file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-export-to-file.md)**  
 You can export live information to a file in Service Reliability Management \(SRM\).
--   **[Manually create SRM tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-tags.md)**  
+-   **[Manually create SRM tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-create-tags.md)**  
 Add tags to classify, categorize, and add context to data. Service Reliability Management \(SRM\) imports tags and attaches them to services, alerts, and incidents. You can also manually create tags.
 
-**Parent Topic:**[Get started with Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-get-started.md)
+**Parent Topic:**[Get started with Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-get-started.md)
 

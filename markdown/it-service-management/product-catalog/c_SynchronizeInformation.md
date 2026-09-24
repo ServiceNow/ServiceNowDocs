@@ -3,11 +3,11 @@ title: Synchronize information
 description: Certain information is synchronized between models, product catalog items, and vendor catalog items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/c\_SynchronizeInformation.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Vendor catalog items, Product Catalog, Asset Management common applications, IT Service Management]
 ---
@@ -38,7 +38,7 @@ List of synchronized fields:
 -   Cost
 -   Manufacturer
 
-**Parent Topic:**[Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ManageVendorCatalogItems.md)
+**Parent Topic:**[Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/c_ManageVendorCatalogItems.md)
 
 **Related topics**  
 

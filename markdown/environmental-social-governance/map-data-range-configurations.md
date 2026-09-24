@@ -3,9 +3,9 @@ title: Map data range configurations
 description: Define the criteria for classifying map markers based on their metric data values. You can specify a range of values and assign a corresponding classification and color to markers that fall within that range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/map-data-range-configurations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Sustainable IT, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -40,5 +40,5 @@ Role required: sn\_esg.admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-sustainable-it.md)
+**Parent Topic:**[Configure Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-sustainable-it.md)
 

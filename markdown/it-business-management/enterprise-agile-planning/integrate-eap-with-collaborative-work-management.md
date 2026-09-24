@@ -3,11 +3,11 @@ title: Connecting EAP with Collaborative Work Management
 description: Enhance visibility and streamline planning for your Agile teams by connecting Enterprise Agile Planning \(EAP\) with Collaborative Work Management \(CWM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/integrate-eap-with-collaborative-work-management.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -28,13 +28,13 @@ This connection between the applications reduces context switching and ensures t
 
 ## Workflow of EAP-CWM integration
 
-1.  EAP admin connects an EAP team to CWM. See [Connect an EAP team with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/connect-an-eap-team-with-cwm.md).
+1.  EAP admin connects an EAP team to CWM. See [Connect an EAP team with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/connect-an-eap-team-with-cwm.md).
 2.  A new Space and Board are created for this EAP team in the CWM workspace.
 3.  Existing work items assigned to this EAP team are brought over to the newly created CWM Board through Connected Work filters.
 4.  Sprint planning view is enabled for this CWM Board where the existing work items and sprints are automatically shown.
 5.  Check team's access to CWM and provide the CWM user \[sn\_cwm.cwm\_user\] to all team members.
-6.  EAP team can start creating more work, manage current work, and update progress directly from the CWM Board. See [Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md).
-7.  The team's progress and work status is reflected back on the Team dashboard in the EAP workspace. See [EAP Agile Team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-agile-team-dashboard.md)
+6.  EAP team can start creating more work, manage current work, and update progress directly from the CWM Board. See [Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md).
+7.  The team's progress and work status is reflected back on the Team dashboard in the EAP workspace. See [EAP Agile Team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/eap-agile-team-dashboard.md)
 
 ## Creating or managing sprints for EAP teams in CWM
 
@@ -44,7 +44,7 @@ As the team progresses through assigned work, they can update the work status di
 
 New sprints for the team must be created in EAP. After creating new sprints in EAP, they will sync to CWM, allowing the team to schedule work into these sprints from CWM.
 
-When you change the start date or the end date of an iteration in EAP, the linked sprint in CWM is updated with the new dates. Sprints that don't follow a planning calendar entry sync by using the dates on the iteration record itself. A team on a configuration with a single level of iterations can connect to CWM and keep its own cadence. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
+When you change the start date or the end date of an iteration in EAP, the linked sprint in CWM is updated with the new dates. Sprints that don't follow a planning calendar entry sync by using the dates on the iteration record itself. A team on a configuration with a single level of iterations can connect to CWM and keep its own cadence. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
 
 **Note:** Sprints for EAP teams are not created directly at the Agile team level. Sprints are created automatically when a Planning Interval \(PI\) is defined for the parent Agile Release Train \(ART\) in EAP and sync to CWM automatically. On a configuration that has a single level of iterations, an Agile Team creates its Sprints directly and those Sprints sync in the same way.
 
@@ -54,18 +54,18 @@ When you change the start date or the end date of an iteration in EAP, the linke
 
 The Backlog and Hierarchy tabs in EAP remain available for teams connected to CWM, so you can continue to view and manage the team's work items in EAP.
 
-Because sprints are started and completed from the CWM Board, the **Start Sprint** and **Complete Sprint** options are hidden in the EAP Backlog for these teams. For more information, see [Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md).
+Because sprints are started and completed from the CWM Board, the **Start Sprint** and **Complete Sprint** options are hidden in the EAP Backlog for these teams. For more information, see [Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md).
 
 **Related topics**  
 
 
-[Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-spaces.md)
+[Collaborating with Spaces in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-spaces.md)
 
-[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
+[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
 
-[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
+[Connected work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/unified-boards-for-connected-work-in-cwm.md)
 
-[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
+[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 
-[EAP Agile Team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-agile-team-dashboard.md)
+[EAP Agile Team dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/eap-agile-team-dashboard.md)
 

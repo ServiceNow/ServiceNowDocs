@@ -3,11 +3,11 @@ title: Create a Microsoft PowerPoint template
 description: Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to interact with your instance and fetch the data required to generate and download your status reports. Create your own custom template with the required data to generate a report, based on the reporting needs of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/export-to-powerpoint-for-application-portfolio-management/create-ppt-template.html
-release: australia
+release: brazil
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Export to PowerPoint for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
@@ -44,9 +44,9 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
     Select the data type you want to populate.
 
     -   Text – Text entries from the parent table. Example: Portfolio name, owner name, and so on.
-    -   Table – Table entries mapped using [related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
+    -   Table – Table entries mapped using [related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
     -   Repeater – To populate additional details for each of the selected records.
-    -   Line and Bar chart – Graph entries mapped using [scripted elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
+    -   Line and Bar chart – Graph entries mapped using [scripted elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
     **Note:** While creating a template, you can:
 
     -   Change the font size and color for the token values to reflect the same in your status report.
@@ -61,7 +61,7 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
     |filterQuery|Applies an encoded query to filter the data populated in the template token.|`filterQuery=state=2^priority=1`|
     |maxRows|Limits the maximum number of rows returned for a table or repeater token.|`maxRows=10`|
 
-    Apply these attributes by appending them to the token URL in the template field properties. For details on configuring related tables and scripted elements, see [Manage components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
+    Apply these attributes by appending them to the token URL in the template field properties. For details on configuring related tables and scripted elements, see [Manage components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/manage-components-export-ppt.md).
 
 6.  To populate the Portfolio name on the first slide:
 
@@ -132,5 +132,5 @@ Configure the Export to PowerPoint add-in in your Microsoft PowerPoint to intera
     **Note:** The Export to PowerPoint for Strategic Portfolio Management application comes with default templates which you can use to generate reports and consider as a reference to create templates.
 
 
-**Parent Topic:**[Using Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/using-export-to-ppt.md)
+**Parent Topic:**[Using Export to PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/using-export-to-ppt.md)
 

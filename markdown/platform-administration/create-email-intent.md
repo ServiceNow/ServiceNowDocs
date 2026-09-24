@@ -3,11 +3,11 @@ title: Create email intents
 description: Create and define an email intent for analyzing and identifying the primary purpose for an inbound email. Understanding the email's intent helps guide the tone, context, and call-to-action for effective responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-email-intent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create email intents
@@ -20,7 +20,7 @@ Role required: sn\_notif\_agents.notification\_ai\_admin
 
 ## About this task
 
-Follow the [General guidelines for creating and mapping an intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/guidelines-creating-intent.md)
+Follow the [General guidelines for creating and mapping an intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/guidelines-creating-intent.md)
 
 ## Procedure
 
@@ -44,5 +44,5 @@ Follow the [General guidelines for creating and mapping an intent](https://raw.g
 
 ## What to do next
 
-[Create and associate actions for intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-actions-for-intent.md)
+[Create and associate actions for intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-actions-for-intent.md)
 

@@ -3,9 +3,9 @@ title: Explore Telecommunications Customer 360
 description: Use the Telecommunications Customer 360 application to get a unified view of customer data including account details, interaction history, product inventory, and billing, and resolve issues faster from a single workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -31,5 +31,5 @@ You can access the Telecom Customer 360 page from the CSM/FSM Configurable Works
 
 \[Omitted image "telcom-360-view.jpg"\] Alt text: Telecom 360 view
 
-To start using Telecommunications Customer 360, see [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md).
+To start using Telecommunications Customer 360, see [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-home-page.md).
 

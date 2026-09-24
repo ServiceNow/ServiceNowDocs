@@ -3,11 +3,11 @@ title: Import a Product Catalog item
 description: Import a hardware and software product catalog item from one ServiceNow instance to another ServiceNow instance to include it in the product catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/migrate-product-catalog-item.html
-release: australia
+release: brazil
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [import product catalog item]
 breadcrumb: [Product catalog items, Product Catalog, Asset Management common applications, IT Service Management]
@@ -31,15 +31,15 @@ To import hardware or software product catalog items from one ServiceNow instanc
 
 1.  In the source ServiceNow instance, export the hardware or software product model record XML file.
 
-<table id="choicetable_c1z_jby_3gc"><thead><tr><th align="left" id="d90623e110">
+<table id="choicetable_c1z_jby_3gc"><thead><tr><th align="left" id="d91407e110">
 
 Option
 
-</th><th align="left" id="d90623e113">
+</th><th align="left" id="d91407e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d90623e119">
+</th></tr></thead><tbody><tr><td id="d91407e119">
 
 **To export hardware product model record XML file**
 
@@ -51,7 +51,7 @@ Description
 4.  Save the exported hardware model XML file on your local system.
 
 
-</td></tr><tr><td id="d90623e167">
+</td></tr><tr><td id="d91407e167">
 
 **To export software product model record XML file**
 
@@ -72,36 +72,36 @@ Description
     4.  Save the exported update set XML file on your local system.
 3.  In the target ServiceNow instance, import the hardware or software product model record XML file.
 
-<table id="choicetable_z4t_ldy_3gc"><thead><tr><th align="left" id="d90623e281">
+<table id="choicetable_z4t_ldy_3gc"><thead><tr><th align="left" id="d91407e281">
 
 Option
 
-</th><th align="left" id="d90623e284">
+</th><th align="left" id="d91407e284">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d90623e290">
+</th></tr></thead><tbody><tr><td id="d91407e290">
 
 **To import hardware model record XML file**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Hardware Models**.
-2.  Hover over any column header in the Hardware Models list to display the Column Options \[Omitted image "column-options.png"\] Alt text: Column options icon.
-3.  Select Column options \[Omitted image "column-options.png"\] Alt text: Column optionsicon and then select **Import XML**.
+2.  Hover over any column header in the Hardware Models list to display the Column Options \[Omitted image "image.column-options"\] Alt text: Column options icon.
+3.  Select Column options \[Omitted image "image.column-options"\] Alt text: Column optionsicon and then select **Import XML**.
 4.  Select **Choose File** and select the hardware model record XML file saved previously in Step 1.
 5.  Select **Upload**.
 
 
-</td></tr><tr><td id="d90623e353">
+</td></tr><tr><td id="d91407e353">
 
 **To import software model record XML file**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Software Models**.
-2.  Hover over any column header in the Software Models list to display the Column Options \[Omitted image "column-options.png"\] Alt text: Column options icon.
-3.  Select Column options \[Omitted image "column-options.png"\] Alt text: Column options icon and then select **Import XML**.
+2.  Hover over any column header in the Software Models list to display the Column Options \[Omitted image "image.column-options"\] Alt text: Column options icon.
+3.  Select Column options \[Omitted image "image.column-options"\] Alt text: Column options icon and then select **Import XML**.
 4.  Select **Choose File** and select the software model record XML file saved previously in Step 1.
 5.  Select **Upload**.
 
@@ -134,7 +134,7 @@ The catalog items are imported into the target ServiceNow instance.
 
 Navigate to the Hardware Models or Software Models page in the target ServiceNow instance, View the imported hardware or software model record, along with its catalog items that are published.
 
-**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ManagingProductCatalogItems.md)
+**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/product-catalog/c_ManagingProductCatalogItems.md)
 
 **Related topics**  
 

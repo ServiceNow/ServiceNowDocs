@@ -3,9 +3,9 @@ title: Chief Procurement Officer Dashboard pillars
 description: Organizing insights across these pillars enables procurement leaders to drive cost efficiency, improve operational throughput, strengthen supplier engagements, and maintain contract compliance across the enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/cpro-dashboard-tab.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Chief Procurement Officer \(CPRO\) Dashboard, Executive dashboard overview, Platform Analytics]
 ---

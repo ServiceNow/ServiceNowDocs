@@ -3,11 +3,11 @@ title: Configuring Upgrade Console
 description: Upgrade your production or sub-production instance effortlessly by following our guided steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-configure.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -42,12 +42,12 @@ Implement the following steps to configure Upgrade Console.
 
 Implement the following to experience the guided upgrade for a seamless upgrade on your instance.
 
--   **[Access guided upgrade on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement.md)**  
+-   **[Access guided upgrade on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-guided-tour-implement.md)**  
 Follow the guided upgrade steps to experience the seamless upgrade on your non-production instance.
--   **[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)**  
+-   **[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)**  
 Follow the guided upgrade steps to experience the seamless upgrade on your production instance.
--   **[Bulk application updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um_bulk_app_update_desc.md)**  
+-   **[Bulk application updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um_bulk_app_update_desc.md)**  
 The bulk application update console enables you to review, select, and update multiple applications in a single workflow, improving efficiency compared to updating applications individually through the Application Manager.
 
-**Parent Topic:**[Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-landing-page.md)
+**Parent Topic:**[Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-landing-page.md)
 

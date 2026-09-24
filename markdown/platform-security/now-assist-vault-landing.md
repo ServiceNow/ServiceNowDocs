@@ -3,9 +3,9 @@ title: ServiceNow Otto for Vault
 description: With ServiceNow Otto for Vault, you can generate custom data patterns, check role access for an encrypted column, and schedule data discovery jobs. ServiceNow Otto for Vault can make it easier for you to perform common tasks without going to multiple systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/now-assist-vault-landing.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 ---
 
@@ -17,19 +17,19 @@ With ServiceNow Otto for Vault, you can generate custom data patterns, check rol
 
 <table id="table_dm1_dr1_nhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative and agentic AI skills that are available in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-now-assist-vault.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative and agentic AI skills that are available in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/exploring-now-assist-vault.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the generative and agentic AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-now-assist-vault.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the generative and agentic AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-now-assist-vault.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the generative AI capabilities in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md)
+[Use\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the generative AI capabilities in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/using-now-assist-vault.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-workflow.svg"\] Alt text:Use the agentic AI capabilities in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
+[Use\[Omitted image "bus-workflow.svg"\] Alt text:Use the agentic AI capabilities in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -89,5 +89,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

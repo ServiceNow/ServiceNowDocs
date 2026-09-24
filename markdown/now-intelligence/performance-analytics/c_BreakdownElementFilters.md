@@ -3,11 +3,11 @@ title: Element filters
 description: Element filters enable you to specify or limit the displayed breakdown elements on visualizations.Select the breakdown source and filter conditions to filter breakdown elements from that breakdown source.Element filters can be seen in a Platform Analytics data visualization or on KPI Details. In the Core UI, they can be seen in Performance Analytics widgets or the Analytics Hub. Some restrictions apply.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_BreakdownElementFilters.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -18,18 +18,18 @@ Element filters enable you to specify or limit the displayed breakdown elements 
 
 An elements filter consists of a conditional filter or related list conditions and the breakdown source that the conditions apply to.
 
-**Tip:** Use an elements filter with dynamic conditions to create personalized visuals on a widget. For more information, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/personalized-visuals.md).
+**Tip:** Use an elements filter with dynamic conditions to create personalized visuals on a widget. For more information, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/personalized-visuals.md).
 
-**Parent Topic:**[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
+**Parent Topic:**[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
 
 **Related topics**  
 
 
-[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
+[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 
-[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
+[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details-components.md)
 
-[Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Widgets.md)
+[Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_Widgets.md)
 
 ## Create an elements filter
 
@@ -75,7 +75,7 @@ Filter
 
 CONDITIONS: Specify the filter conditions to limit the available elements. Only elements that meet these conditions are displayed when you apply this element filter.For example, if the breakdown source facts table is User \[sys\_user\], you can add a filter condition to include only users in the HR department. This filter condition is \[Department\]\[is\]\[HR\].
 
- For [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/personalized-visuals.md), the operator in the filter condition must be `[is (dynamic)]`.
+ For [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/personalized-visuals.md), the operator in the filter condition must be `[is (dynamic)]`.
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Select any roles that a user must have to select this element filter on a widget
 </table>
 ### What to do next
 
-Use an element filter with dynamic conditions to create personalized visuals on a widget. For more information, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/personalized-visuals.md).
+Use an element filter with dynamic conditions to create personalized visuals on a widget. For more information, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/personalized-visuals.md).
 
 All widget indicators that use this elements filter and all diagnostic results that mention this elements filter are listed at the bottom of the elements filter record.
 
@@ -116,5 +116,5 @@ In all of these cases, you can select an elements filter only if you first selec
 
 Besides specifying an elements filter on a visualization, you can specify a **Default element filter** on a breakdown record. That elements filter is selected automatically for that breakdown in any visualization. Users that view the breakdown on the Analytics Hub or on KPI Details can change or clear the selected elements filter.
 
-**Note:** It is not possible to change elements filters that are used to personalize visuals when simply viewing the visual on a dashboard or workspace. Only a user with the rights to edit the underlying widget or data visualization can change the elements filter. For more information, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/personalized-visuals.md).
+**Note:** It is not possible to change elements filters that are used to personalize visuals when simply viewing the visual on a dashboard or workspace. Only a user with the rights to edit the underlying widget or data visualization can change the elements filter. For more information, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/personalized-visuals.md).
 

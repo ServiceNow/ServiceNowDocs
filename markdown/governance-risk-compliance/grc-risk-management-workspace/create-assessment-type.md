@@ -3,11 +3,11 @@ title: Create an assessment type
 description: The risk manager can create a set of questions for each risk assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-assessment-type.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assess risks, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -114,5 +114,5 @@ Additional user roles that can view the results and access records associated wi
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
+**Parent Topic:**[Assess risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/assess-risk-old-way.md)
 

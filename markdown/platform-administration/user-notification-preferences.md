@@ -3,9 +3,9 @@ title: Setting notification preferences in Core UI
 description: You can set your own notification preferences, including personal subscriptions and channels for receiving them. All users can set these preferences through the Notifications tab of the System Settings window.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-notification-preferences.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -84,8 +84,8 @@ Notification channels
 </td><td>
 
 List of your channels for receiving notifications. Use this section to:-   Enable or disable a channel by using its toggle switch. If you disable a channel, notifications are not delivered through that channel.
--   [Add channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-channel.md) using the **Create Channel** option.
--   [Modify channel information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/modify-notif-channel.md). Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
+-   [Add channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-channel.md) using the **Create Channel** option.
+-   [Modify channel information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/modify-notif-channel.md). Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
 
 </td></tr><tr id="NotificationsByCategory"><td>
 
@@ -97,22 +97,22 @@ List of notification categories that identify and group related notifications. E
 
  -   Edit settings for a notification:
     -   Enable or disable channels for the selected notification.
-    -   [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/apply-notification-conditions.md), such as schedules and filters, that affect the delivery of the notification.
--   [Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-personal-notifications.md), which are subscriptions to specific notifications that matter to you.
+    -   [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/apply-notification-conditions.md), such as schedules and filters, that affect the delivery of the notification.
+-   [Create personal notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-personal-notifications.md), which are subscriptions to specific notifications that matter to you.
 
 </td></tr></tbody>
 </table>**Note:** Subscription-based notifications are not domain aware and cannot support domain-specific settings.
 
--   **[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md)**  
+-   **[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_SubscriptionBasedNotifications.md)**  
 Subscription-based notifications enable users to proactively subscribe to items that interest them and unsubscribe from messages that are not mandatory.
--   **[Create notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-channel.md)**  
+-   **[Create notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-channel.md)**  
 You can add channels to receive your notifications. A notification channel is an email account or voice message system that you have access to.
--   **[Modify notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/modify-notif-channel.md)**  
+-   **[Modify notification channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/modify-notif-channel.md)**  
 You can update channel information for your notifications.
--   **[Delete a notification channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/delete-notif-channel.md)**  
+-   **[Delete a notification channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/delete-notif-channel.md)**  
 Delete a notification channel so that you no longer receive notifications through the channel.
--   **[Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/apply-notification-conditions.md)**  
+-   **[Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/apply-notification-conditions.md)**  
 Set various conditions and filters to control the notifications you receive. You can also enable or disable an email digest and the delivery of individual notifications by channel.
 
-**Parent Topic:**[Notification Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/preferences-landing.md)
+**Parent Topic:**[Notification Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/preferences-landing.md)
 

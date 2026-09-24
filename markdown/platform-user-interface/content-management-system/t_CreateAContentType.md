@@ -3,11 +3,11 @@ title: Configure a content type
 description: Users with the content\_admin role can create a content type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CreateAContentType.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content types, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -96,5 +96,5 @@ Write an XML script that determines how to display the associated information af
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentTypes.md)
+**Parent Topic:**[Content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentTypes.md)
 

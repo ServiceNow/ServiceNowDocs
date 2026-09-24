@@ -3,11 +3,11 @@ title: Exploring ServiceNow Otto for Zero Copy Connector
 description: With the ServiceNow Otto for Zero Copy Connector application, you can obtain information about ERP systems, software, models, and data products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/exploring-now-assist-for-zero-copy-connector.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 ---
 

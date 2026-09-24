@@ -3,11 +3,11 @@ title: Complete the Receive task for a requested Device as a Service \(DaaS\) as
 description: After you ship the DaaS asset that you prepared for an inbound asset order line, complete the Receive task for it by verifying that the customer received it successfully.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/receive-shipped-daas-asset-inbound-asset-order.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Completing an inbound asset order, Managing inbound asset orders for requested DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
@@ -18,7 +18,7 @@ After you ship the DaaS asset that you prepared for an inbound asset order line,
 
 ## Before you begin
 
-Before you can begin the Receive task, you must complete the preceding Asset ship task by shipping the asset. For detailed instructions, see [Complete the Asset ship task for a requested Device as a Service \(DaaS\) asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ship-prepared-daas-asset-inbound-asset-order.md).
+Before you can begin the Receive task, you must complete the preceding Asset ship task by shipping the asset. For detailed instructions, see [Complete the Asset ship task for a requested Device as a Service \(DaaS\) asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/ship-prepared-daas-asset-inbound-asset-order.md).
 
 Role required: sn\_eam\_provider.provider\_asset\_technician
 
@@ -28,15 +28,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d85373e91">
+<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d85885e91">
 
 Navigation option
 
-</th><th align="left" id="d85373e94">
+</th><th align="left" id="d85885e94">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d85373e100">
+</th></tr></thead><tbody><tr><td id="d85885e100">
 
 **Provider inbound asset order**
 
@@ -52,7 +52,7 @@ Procedure
 5.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d85373e144">
+</td></tr><tr><td id="d85885e144">
 
 **Provider inbound asset order line**
 
@@ -66,7 +66,7 @@ Procedure
 3.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d85373e179">
+</td></tr><tr><td id="d85885e179">
 
 **Provider asset tasks**
 
@@ -101,5 +101,5 @@ From the navigation menu of the Asset operations view, navigate to **Provider** 
 -   The inbound asset order line moves to the Completed stage.
 -   The state of the asset changes to In Transit.
 
-**Parent Topic:**[Completing an inbound asset order for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-inbound-asset-order-daas-assets.md)
+**Parent Topic:**[Completing an inbound asset order for requested Device as a Service \(DaaS\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/completing-inbound-asset-order-daas-assets.md)
 

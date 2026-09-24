@@ -3,9 +3,9 @@ title: Configure an action item with parameters
 description: Parameters determine the information you are passing into the action to ensure you are changing the correct record and to enforce required fields as needed. Create an action item with parameters to define the changes being made to an action and how the changes get made.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-create-action-item-param.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure an action item, Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -36,7 +36,7 @@ Use action items to define what an action function does when a user uses that fu
 
 4.  In the **Action item** area of the form, select **New** and complete the fields for the action item as needed.
 
-    For more information on creating an action item, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
+    For more information on creating an action item, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-create-action-item.md).
 
 5.  In the **Data parameters** area of the Action Item form, select **New**.
 

@@ -3,18 +3,20 @@ title: Components installed with Enterprise Asset Management
 description: Several types of components are installed with activation of the com.sn\_eam plugin, including user roles, plugins, and applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/installed-with-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-06-08"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Components installed with Enterprise Asset Management
 
 Several types of components are installed with activation of the com.sn\_eam plugin, including user roles, plugins, and applications.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Roles installed
 
@@ -32,9 +34,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-Enterprise asset manager
-
- \[sn\_eam.enterprise\_asset\_manager\]
+Enterprise asset manager\[sn\_eam.enterprise\_asset\_manager\]
 
 </td><td>
 
@@ -57,24 +57,25 @@ This role has access to all Enterprise Asset Management features except administ
 
 </td></tr><tr><td>
 
-Enterprise admin
-
- \[sn\_eam.enterprise\_admin\]
+Enterprise admin\[sn\_eam.enterprise\_admin\]
 
 </td><td>
 
-This role has full access to the Enterprise Asset Management application as well as the OT Asset Workspace.
+This role has full access to the Enterprise Asset Management application.
 
 </td><td>
 
 -   inventory\_admin
 -   catalog\_manager
+-   category\_manager
 -   report\_user
 -   sn\_eam.enterprise\_asset\_manager
 -   asset
 -   procurement\_admin
 -   sn\_ent.classification\_manager
--   sn\_otam.ot\_asset\_manager
+-   cmdb\_ot\_isa\_admin
+-   sn\_itam\_common.asset\_audit\_admin
+-   sn\_eam.asset\_import\_users
 
 </td></tr><tr><td>
 
@@ -99,13 +100,11 @@ This role is for users who perform work tasks and update asset records as part o
 
 </td></tr><tr><td>
 
-Enterprise mobile user
-
- \[sn\_eam.enterprise\_mobile\_user\]
+Enterprise mobile user\[sn\_eam.enterprise\_mobile\_user\]
 
 </td><td>
 
-This role has access to scan assets from a mobile application as well as dispose assets from a mobile application.
+This role has access to scan and dispose of assets from a mobile application.
 
 </td><td>
 
@@ -117,11 +116,61 @@ Agent\[wm\_agent\]
 
 </td><td>
 
-This role is for users who perform work on enterprise assets and record details in the corresponding work orders and work order tasks.**Note:** The wm\_agent role must contain an additional role such as enterprise\_asset\_manager, enterprise\_asset\_technician, or any other role to log into the Enterprise Asset Management.
+This role is for users who perform work on enterprise assets and record details in the corresponding work orders and work order tasks.**Note:** The wm\_agent role must contain an additional role such as enterprise\_asset\_manager or enterprise\_asset\_technician, to access the Enterprise Asset Management application.
 
 </td><td>
 
 none
+
+</td></tr><tr><td>
+
+Asset import users\[sn\_eam.asset\_import\_users\]
+
+</td><td>
+
+This role is for users who perform both AI-assisted and manual bulk imports.
+
+</td><td>
+
+-   sn\_ent\_datamap.datamap\_user
+-   sn\_ent\_aia.ent\_aia\_user
+-   lens\_user
+
+</td></tr><tr><td>
+
+Datamap user\[sn\_ent\_datamap.datamap\_user\]
+
+</td><td>
+
+This role has create, read, update, and delete \(CRUD\) access to enterprise data transform tables.
+
+</td><td>
+
+none
+
+</td></tr><tr><td>
+
+AI agents user\[sn\_ent\_aia.ent\_aia\_user\]
+
+</td><td>
+
+This role has access to AI skills related to model categories and classifications.
+
+</td><td>
+
+none
+
+</td></tr><tr><td>
+
+Lens user\[lens\_user\]
+
+</td><td>
+
+This role has access to the ServiceNow AI Lens skill.
+
+</td><td>
+
+sn\_nowassist\_admin.user
 
 </td></tr></tbody>
 </table>## Granular roles installed
@@ -222,7 +271,7 @@ Asset Management\(com.snc.asset\_management\)
 
 </td><td>
 
-Provides functionalities to integrate the physical, technological, contractual, and financial aspects of information technology assets. See [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_AssetManagement.md) for more information on asset management.
+Provides functionalities to integrate the physical, technological, contractual, and financial aspects of information technology assets.For more information on Asset Management, see [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_AssetManagement.md).
 
 </td></tr><tr><td>
 
@@ -230,7 +279,7 @@ Procurement\(com.snc.procurement\)
 
 </td><td>
 
-Provides the capability to source and receive requested assets so that you can fulfill service catalog requests. See [Procuring enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/procuring-assets.md) for more information on procurement.
+Provides the capability to source and receive requested assets so that you can fulfill service catalog requests.For more information on procurement, see [Procuring enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/procuring-assets.md).
 
 </td></tr><tr><td>
 
@@ -238,11 +287,11 @@ Field Service Management \(com.snc.work\_management\)
 
 </td><td>
 
-Provides the capability to manage work orders and related tasks. See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md) for more information on Field Service Management.
+Provides the capability to manage work orders and related tasks.For more information on Field Service Management, see [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-application-landing-page.md).
 
 </td></tr><tr><td>
 
-Enterprise Asset Management Core\(com.sn\_eam\_core\)
+Enterprise Asset Management Core \(com.sn\_eam\_core\)
 
 </td><td>
 
@@ -262,23 +311,7 @@ SM Planned Maintenance\(com.snc.planned\_maintenance\)
 
 </td><td>
 
-Provides the capability to manage regular preventative maintenance of assets. See [Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_SMPlanMaint.md) for more information on Planned Maintenance.
-
-</td></tr><tr><td>
-
-Physical Assets\(com.sn\_phy\_assets\)
-
-</td><td>
-
-Marker that aligns features for physical asset-based applications, including the Hardware Asset Management and Enterprise Asset Management applications.
-
-</td></tr><tr><td>
-
-Indoor Mapping for Assetscom.sn\_ima
-
-</td><td>
-
-Provides the capability to track the location of the assets using indoor maps.
+Provides the capability to manage regular preventative maintenance of assets.For more information on Planned Maintenance, see [Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/c_SMPlanMaint.md).
 
 </td></tr><tr><td>
 
@@ -320,6 +353,14 @@ Cost Management \(com.snc.cost\_management\)
 
 Provides options to plan and control business costs.
 
+</td></tr><tr><td>
+
+Mobile Scripted Screen\(com.glide.sg.scriptedscreen\)
+
+</td><td>
+
+Provides scripted screens for smart assessments on mobile devices.
+
 </td></tr></tbody>
 </table>## Applications installed
 
@@ -333,23 +374,23 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Expanded Model and Asset Classes
+Expanded Model and Asset Classes\(com.sn\_ent\)
 
 </td><td>
 
-Adds enterprise model and asset classes that extend out-of-the-box product model and asset classes within the CMDB class hierarchy. In addition, creates model categories that associate these enterprise model and asset classes with CMDB configuration item \(CI\) classes. See [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md) for more information on this application.
+Adds enterprise model and asset classes that extend out-of-the-box product model and asset classes within the CMDB class hierarchy. In addition, creates model categories that associate these enterprise model and asset classes with CMDB configuration item \(CI\) classes.For more information on the Expanded Model and Asset Classes application, see [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md).
 
 </td></tr><tr><td>
 
-CMDB CI Class Models
+CMDB CI Class Models\(com.sn\_cmdb\_ci\_class\)
 
 </td><td>
 
-Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships. See [CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models.md) for more information on this application.
+Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships.For more information on the CMDB CI Class Models application, see [CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models.md).
 
 </td></tr><tr><td>
 
-Asset Management Common
+Asset Management Common\(com.sn\_itam\_common\)
 
 </td><td>
 
@@ -357,15 +398,31 @@ Provides features that are common to the Hardware Asset Management, Software Ass
 
 </td></tr><tr><td>
 
-GRC: Risk Heatmap
+Physical Assets\(com.sn\_phy\_assets\)
 
 </td><td>
 
-Provides a heatmap component that enables you to visualize the risk posture of your organization. See [Risk heatmap for classic risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/risk-heatmap-classic-risk-assessment.md) or [Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/risk-heatmaps-in-ws.md) for more information on risk heatmaps.
+Marker that aligns features for physical asset-based applications, including the Hardware Asset Management and Enterprise Asset Management applications.
 
 </td></tr><tr><td>
 
-Smart Assessment Core \(com.sn\_smart\_asmt\)
+GRC: Risk Heatmap\(com.sn\_risk\_heatmap\)
+
+</td><td>
+
+Provides a heatmap component that enables you to visualize the risk posture of your organization.For more information on risk heatmaps, see [Risk heatmap for classic risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/risk-heatmap-classic-risk-assessment.md) or [Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/risk-heatmaps-in-ws.md).
+
+</td></tr><tr><td>
+
+Geo Map Component\(com.sn\_geo\_map\)
+
+</td><td>
+
+Provides the capability to track asset locations using indoor maps.
+
+</td></tr><tr><td>
+
+Smart Assessment Core\(com.sn\_smart\_asmt\)
 
 </td><td>
 
@@ -373,7 +430,7 @@ Foundational application that is required for the smart assessment engine to wor
 
 </td></tr><tr><td>
 
-sn-smart-assessment-connected \(com.sn\_smart\_assessment\_connected\)
+sn-smart-assessment-connected\(com.sn\_smart\_assessment\_connected\)
 
 </td><td>
 
@@ -381,7 +438,7 @@ Respond to assessments quickly using the Assessment response component. Its user
 
 </td></tr><tr><td>
 
-sn-smart-assessment-designer \(com.sn\_smart\_assessment\_designer\)
+sn-smart-assessment-designer\(com.sn\_smart\_assessment\_designer\)
 
 </td><td>
 
@@ -389,7 +446,7 @@ Create assessment templates and add instructions, questions, and reference infor
 
 </td></tr><tr><td>
 
-Basic Scoring for Smart Assessments \(com.sn\_smart\_scoring\)
+Basic Scoring for Smart Assessments\(com.sn\_smart\_scoring\)
 
 </td><td>
 
@@ -397,22 +454,54 @@ Scoring in Smart Assessment Engine is a systematic way to evaluate responses to 
 
 </td></tr><tr><td>
 
-Smart Assessment for Mobile \(com.snc.smart\_assessment\_mobile\)
+Smart Assessment for Mobile\(com.snc.smart\_assessment\_mobile\)
 
 </td><td>
 
-Application for smart assessment engine to work on mobiles.
+Enables the smart assessment engine to work on mobile devices.
 
 </td></tr><tr><td>
 
-ISA Equipment Model \(com.sn\_isa\_model\)
+ISA Equipment Model\(com.sn\_isa\_model\)
 
 </td><td>
 
-Data model for ISA-95 Equipment model entities and templates.
+Data model for ISA-95 equipment model entities and templates.
+
+</td></tr><tr><td>
+
+Enterprise Data Transform\(sn\_ent\_datamap\)
+
+</td><td>
+
+Provides access to all enterprise data transform tables.
+
+</td></tr><tr><td>
+
+Enterprise Data Transform Components\(sn\_ent\_datamap\_components\)
+
+</td><td>
+
+Provides access to seismic workspace components.
+
+</td></tr><tr><td>
+
+AI Agents for Enterprise\(sn\_ent\_aia\)
+
+</td><td>
+
+Provides AI skills related to model categories and classifications.
+
+</td></tr><tr><td>
+
+ServiceNow AI Lens\(sn\_ai\_lens\)
+
+</td><td>
+
+Uses generative AI to scan, extract, comprehend, and synthesize data so that you can optimize your workflows.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Create credential store for Password Reset in Service Operations Workspac
 description: Create a password reset credential store record to configure access to your credential store server while a user is changing or resetting a password.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-cred-store-pr-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up Service Desk assisted Password Reset in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -92,7 +92,7 @@ Enable password policy
 
 </td><td>
 
-See [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/enable-password-policies.md)
+See [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/enable-password-policies.md)
 
 </td></tr><tr><td>
 
@@ -133,5 +133,5 @@ Option to ensure that the users don’t reuse passwords. For example, you might 
     You must test the connection to a credential store after you configure a new credential store.
 
 
-**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/setup-password-reset-sow.md)
+**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/setup-password-reset-sow.md)
 

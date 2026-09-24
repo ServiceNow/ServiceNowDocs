@@ -3,9 +3,9 @@ title: Predictive Intelligence for CSM solution definitions
 description: Use your instance records to build Customer Service Management specific solutions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/predictive-intelligence-for-csm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -149,7 +149,7 @@ Similarity
 
 </td><td>
 
-Recommends similar knowledge articles by comparing fields in the Knowledge View database view \[sn\_customerservice\_knowledge\_view\] with the **Short description** of the customer service case. **Note:** This solution definition is used in the Auto-Responder feature. For more information, see [Train the similarity solution for finding Auto-Responder notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/train-sol-defn-auto-responder.md).
+Recommends similar knowledge articles by comparing fields in the Knowledge View database view \[sn\_customerservice\_knowledge\_view\] with the **Short description** of the customer service case. **Note:** This solution definition is used in the Auto-Responder feature. For more information, see [Train the similarity solution for finding Auto-Responder notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/train-sol-defn-auto-responder.md).
 
 </td></tr></tbody>
 </table>## Business rules for classification solutions
@@ -163,7 +163,7 @@ These business rules apply only to the CSM Case Assignment, CSM Case Categorizat
 
 **Upgrade Information**
 
-If your instance is running on the Kingston release and you are upgrading to the Australia release:
+If your instance is running on the Kingston release and you are upgrading to the Brazil release:
 
 -   Use the Default Case Based Prediction business rule template to create a new business rule. This rule includes a Solution variable that gets all active solutions retrieved by the findActiveSolution\(solutionName\) method.
 -   In a global domain environment, use the solutionNames array variable which requires that you explicitly provide the solutions that are called by the business rule.
@@ -177,5 +177,5 @@ You can manage prediction drift by retraining, modifying, or creating solutions 
 **Related topics**  
 
 
-[Similar case/recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-similar-cases.md)
+[Similar case/recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-similar-cases.md)
 

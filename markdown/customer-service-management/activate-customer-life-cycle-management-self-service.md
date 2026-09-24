@@ -3,9 +3,9 @@ title: Activate Customer Life Cycle Management Self-Service
 description: If you have the admin role, you can install the Customer Life Cycle Management Self Service plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-customer-life-cycle-management-self-service.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -26,13 +26,13 @@ Role required: admin
 
 2.  Find the Customer Life Cycle Management Self Service plugin \(sn\_clm\_selfservice\) using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
+    You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
     Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
-    Dependent plugins and applications are listed if they will be installed, are currently installed, or need to be installed. If any plugins or applications need to be installed, you must install them before you can install the Customer Life Cycle Management Self Service plugin \(sn\_clm\_selfservice\).
+    Dependent plugins and applications are listed if they will be installed, are currently installed, or must be installed. If any plugins or applications must be installed, you must install them before you can install the Customer Life Cycle Management Self Service plugin \(sn\_clm\_selfservice\).
 
 4.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
@@ -44,7 +44,7 @@ Role required: admin
 **Related topics**  
 
 
-[View product information from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-info-business-portal.md)
+[View product information from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-product-info-business-portal.md)
 
-[View Product Inventory information on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-inventory-information-on-business-portal.md)
+[View Product Inventory information on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-product-inventory-information-on-business-portal.md)
 

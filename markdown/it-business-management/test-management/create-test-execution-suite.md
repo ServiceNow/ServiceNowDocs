@@ -3,11 +3,11 @@ title: Create a test execution suite in Test Management 2.0
 description: Create a short test plan when the testing effort is minimal. You can also use it when you want to avoid the overhead of creating a test plan and a test cycle for a test execution suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/create-test-execution-suite.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Testing using Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -52,7 +52,7 @@ Role required: sn\_test\_management.test\_manager
 -   To add test sets to the test execution suite, click **Add test sets**. From the **Test Sets** list, select the required test sets, and click **Add to Execution Suite**.
 -   In the **Test execution assignments** related list, select the test and assign it to a user.
 
-**Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/release-readiness-testing.md)
+**Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/release-readiness-testing.md)
 
 **Related topics**  
 

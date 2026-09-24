@@ -3,11 +3,11 @@ title: Extend Cloud Provisioning and Governance resource blocks with an override
 description: You can extend your existing guest interface to create a new operation. You can also create a new guest interface with its own operations, parameters, and inputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/extend-cloud-management-entities.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ You can extend your existing guest interface to create a new operation. You can 
 
 ## Before you begin
 
-Become familiar with resource block input parameters, operations, and steps. See [Configure resource block input parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/manage-resource-block-operations.md) and [Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-operation-steps.md) for instructions.
+Become familiar with resource block input parameters, operations, and steps. See [Configure resource block input parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/manage-resource-block-operations.md) and [Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/add-operation-steps.md) for instructions.
 
 Role required: sn\_cmp.cloud\_admin
 
@@ -66,7 +66,7 @@ The Cloud Provisioning and Governance application is bundled with several useful
 
 11. Navigate to **Cloud Admin Portal** &gt; **Design** &gt; **Blueprints**.
 
-12. Follow the steps in [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md) to add a blueprint.
+12. Follow the steps in [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md) to add a blueprint.
 
 13. Click **Operations** and click the operation to modify in the resource block.
 
@@ -83,5 +83,5 @@ The Cloud Provisioning and Governance application is bundled with several useful
 
 After you add this resource block to a blueprint, the parameters you added are available for you to customize.
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

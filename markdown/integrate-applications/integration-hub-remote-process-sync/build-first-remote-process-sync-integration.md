@@ -3,11 +3,11 @@ title: Build your first Remote Process Sync integration
 description: Step through an example of how to build a Remote Process Sync integration in order to link the automated processes of two ServiceNow instances together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/build-first-remote-process-sync-integration.html
-release: australia
+release: brazil
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 21
 breadcrumb: [Getting started, Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---
@@ -18,9 +18,9 @@ Step through an example of how to build a Remote Process Sync integration in ord
 
 ## Before you begin
 
--   Activate Remote Process Sync on each instance in your integration by purchasing the Integration Hub Enterprise package. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
+-   Activate Remote Process Sync on each instance in your integration by purchasing the Integration Hub Enterprise package. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 -   Activate the explicit roles security feature on each instance in your integration. For more information, see Explicit Role plugin.
--   Learn about how to build and manage an Integration Hub Remote Process Sync integration by checking out [Getting started with Remote Process Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
+-   Learn about how to build and manage an Integration Hub Remote Process Sync integration by checking out [Getting started with Remote Process Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
 -   Confirm the instances that you will link together in the following example are not production instances. It is recommended to test this example on sub-production instances only in order to avoid overwriting any important data on either instance. You might also want to use a [Personal Developer Instance](https://developer.servicenow.com/dev.do#!/guides/sandiego/now-platform/pdi-guide/personal-developer-instance-guide-introduction) for testing this example integration.
 -   Confirm that you do not have any existing business rules, workflows, or Workflow Studio flows whose logic will conflict with the flows we will create in the following example.
 -   Role required: admin
@@ -44,9 +44,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 3.  While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/reset-your-password.md).
+    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/reset-your-password.md).
 
-4.  [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_EnrollInPasswordReset.md) for RPS API User for Instance A.
+4.  [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_EnrollInPasswordReset.md) for RPS API User for Instance A.
 
 5.  Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -73,9 +73,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 7.  While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/reset-your-password.md).
+    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/reset-your-password.md).
 
-8.  [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_EnrollInPasswordReset.md) for RPS Run as User A.
+8.  [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_EnrollInPasswordReset.md) for RPS Run as User A.
 
 9.  Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -106,9 +106,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 12. While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/reset-your-password.md).
+    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/reset-your-password.md).
 
-13. [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_EnrollInPasswordReset.md) for RPS API User for Instance B.
+13. [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_EnrollInPasswordReset.md) for RPS API User for Instance B.
 
 14. Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -135,9 +135,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 16. While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/reset-your-password.md).
+    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/reset-your-password.md).
 
-17. [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_EnrollInPasswordReset.md) for RPS Run as User B from Instance B.
+17. [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_EnrollInPasswordReset.md) for RPS Run as User B from Instance B.
 
 18. Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -419,7 +419,7 @@ To make a copy, follow these steps.
 3.  Filter the **Name** column to locate the `Remote Process Sync Outbound Flow Template - Basic` record and select it.
 4.  In the subflow, select the More Actions menu, then select **Copy subflow**.
 5.  **Publish** the subflow copy.
-This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(\[Omitted image "configure-subflow-icon.png"\] Alt text: Configure Subflow icon\).
+This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(\[Omitted image "configure-subflow-icon.png"\] Alt text: Configure Subflow icon\).
 
 </td></tr><tr><td>
 
@@ -543,7 +543,7 @@ To make a copy, follow these steps.
 3.  Filter the **Name** column to locate the `Remote Process Sync Outbound Flow Template - Basic` record and select it.
 4.  In the subflow, select the More Actions menu, then select **Copy subflow**.
 5.  **Publish** the subflow copy.
-This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(\[Omitted image "configure-subflow-icon.png"\] Alt text: Configure Subflow icon\).
+This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(\[Omitted image "configure-subflow-icon.png"\] Alt text: Configure Subflow icon\).
 
 </td></tr><tr><td>
 
@@ -710,5 +710,5 @@ Then, when a user resolves the correlated Incident record in Instance B:
 
 ## What to do next
 
-Test out your Remote Process Sync integration by creating an Incident record in Instance A with the Hardware assignment group. Then, resolve the correlated Incident record in Instance B. If your correlated records don't sync as expected, check your Inbound API User's credentials and Process Sync Definition configuration in each Instance. If you continue to experience issues with your example integration, refer to [Monitoring and troubleshooting your integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
+Test out your Remote Process Sync integration by creating an Incident record in Instance A with the Hardware assignment group. Then, resolve the correlated Incident record in Instance B. If your correlated records don't sync as expected, check your Inbound API User's credentials and Process Sync Definition configuration in each Instance. If you continue to experience issues with your example integration, refer to [Monitoring and troubleshooting your integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
 

@@ -3,11 +3,11 @@ title: Slack integration - Incident Management
 description: With Slack integration, you can create a dedicated channel for incident responders to collaborate during an incident​ enabling bidirectional integration with slack. You can create and update an incident, view information such as who is on-call for a group or view the list of incidents assigned to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/im-slack-collaboration.html
-release: australia
+release: brazil
 product: Collaboration Services
 classification: collaboration-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaboration services, IT Service Management]
 ---
@@ -37,8 +37,8 @@ The Collaboration Services store app version 2.0.x is compatible with all the re
 
 -   Incident Management \(com.snc.incident\)
 -   Collaboration Services plugin \(sn\_tcm\_collab\_hook\) version 2.0.x
--   [Slack Spoke for ServiceNow IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/slack-spoke.md) plugin \(com.sn.slack.ahv2\) version 1.3.x and the necessary Integration Hub license to use Slack as a collaboration channel.
+-   [Slack Spoke for ServiceNow IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/slack-spoke.md) plugin \(com.sn.slack.ahv2\) version 1.3.x and the necessary Integration Hub license to use Slack as a collaboration channel.
 
-    **Note:** The Slack spoke requires creating a custom app on your Slack account to generate OAuth 2.0 tokens for the Slack spoke. For more information, refer [Set up Slack spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-slack.md).
+    **Note:** The Slack spoke requires creating a custom app on your Slack account to generate OAuth 2.0 tokens for the Slack spoke. For more information, refer [Set up Slack spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-slack.md).
 
 

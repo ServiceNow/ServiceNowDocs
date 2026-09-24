@@ -3,11 +3,11 @@ title: Business rules installed with Contract Management
 description: Business rules are added with Contract Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/r\_BusinessRulesIWContractMgmt.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Components installed with Contract Management, Contract Management, Asset Management common applications, IT Service Management]
 ---
@@ -199,5 +199,5 @@ Contract \[ast\_contract\]
 For contracts with the contract model **Purchase Agreement**, the business rule validates that the **Discount** field does not contain a value less than zero or greater than 99.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/r_ComponentsInstalledWContractMgmt.md)
+</table>**Parent Topic:**[Components installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/r_ComponentsInstalledWContractMgmt.md)
 

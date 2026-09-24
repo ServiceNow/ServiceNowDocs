@@ -3,11 +3,11 @@ title: Customizing UI actions for the Now Mobile Agent application
 description: Make it easier for your end users to get things done faster with the Field Service mobile application by creating custom UI actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-uiaction-fsm-mobile.html
-release: australia
+release: brazil
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
@@ -35,7 +35,7 @@ The system checks these state flow conditions:
 1.  The `SMconfiguration` record to see if the **accept\_reject** UI action is enabled or disabled using this script:
 
     ```
-    (new sn_sm.SMConfiguration()).isEnabled(current, "accept_reject", false)
+    (new global.SMConfigurationHelper()).isEnabled(current, "accept_reject", false)
     ```
 
 2.  If the task has been self-assigned
@@ -46,7 +46,7 @@ To modify the UI action for the corresponding button on your mobile device:
 2.  If this condition:
 
     ```
-    (new sn_sm.SMConfiguration()).isEnabled(current, "accept_reject", false)
+    (new global.SMConfigurationHelper()).isEnabled(current, "accept_reject", false)
     ```
 
     is set to **false**, drop this condition and disable the corresponding mobile UI actions on the mobile application.

@@ -3,9 +3,9 @@ title: Application tables
 description: Application developers create tables and their associated lists and forms for users to add and update records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationDataTables.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -18,7 +18,7 @@ An application owns its tables and determines whether other applications can acc
 
 The system uses standard access controls to manage user access to application data. During application creation, developers can specify an application-specific user role for these access controls. They can also use application access settings to manage runtime and design time access to application tables.
 
-**Note:** Certain ServiceNow AI Platform subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocate-custom-table-subsc-app-v2.md).
+**Note:** Certain ServiceNow AI Platform subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/allocate-custom-table-subsc-app-v2.md).
 
 Be aware of these database limitations:
 
@@ -32,5 +32,5 @@ For more information on database limitations and general questions on tables in 
 **Related topics**  
 
 
-[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md)
+[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationAccessSettings.md)
 

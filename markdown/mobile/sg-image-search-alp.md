@@ -3,9 +3,9 @@ title: Enable photo search on your launcher screen
 description: Enable photo search on your launcher screen record in Mobile App Builder to present the photo search option for your users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-image-search-alp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure photo search, Mobile photo search, Global search, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -39,5 +39,5 @@ Role required: admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Configure photo search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-image-search.md)
+**Parent Topic:**[Configure photo search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-configure-image-search.md)
 

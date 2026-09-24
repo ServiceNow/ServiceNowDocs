@@ -3,11 +3,11 @@ title: Change Management integration with ITOM Visibility
 description: If your organization is subscribed to ITOM Discovery or ITOM Visibility, integration with these ITOM products is automatically enabled. With this integration, any configuration item \(CI\) with an IP address that is part of a change request process can be maintained automatically. Change request fulfillers can also manually request the discovery process for a CI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-mgmt-integ-wth-Discovery.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Change management integrations, Reference, Change Management, IT Service Management]
 ---
@@ -94,7 +94,7 @@ If you have opted to manually initiate the Discovery module, or opted for both m
 
 You can view the changes in the context of application services. Service maps available in Service Mapping show changes to an application service as a whole and to the individual configuration items \(CIs\) comprising the service.
 
-If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see [Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ProposedChanges.md).
+If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see [Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ProposedChanges.md).
 
 The type of change mark depends on the nature of changes that it represents:
 
@@ -115,14 +115,14 @@ The type of change mark depends on the nature of changes that it represents:
     Multiple separate changes that happened a short time from each other.
 
 
-**Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-mgmt-integrations.md)
+**Parent Topic:**[Change management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-mgmt-integrations.md)
 
 **Related topics**  
 
 
-[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-discovery.md)
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r-discovery.md)
 
-[View the change history of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ViewCIChanges.md)
+[View the change history of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ViewCIChanges.md)
 
-[View the change history of application services in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-view-history-app-service.md)
+[View the change history of application services in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/workspace-view-history-app-service.md)
 

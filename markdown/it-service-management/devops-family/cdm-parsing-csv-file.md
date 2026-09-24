@@ -3,11 +3,11 @@ title: Parsing of CSV files in CDM
 description: The CDM CSV parser enables parsing of data in CSV files, so when you upload config data from a Comma-Separated Values \(CSV\) file into CDM, you can easily identify the data format attributes and config data in the CDM editor or list view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-parsing-csv-file.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Uploading your config data, Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Uploading your config data, Configuring DevOps Config, DevOps Confi
 
 The CDM CSV parser enables parsing of data in CSV files, so when you upload config data from a Comma-Separated Values \(CSV\) file into CDM, you can easily identify the data format attributes and config data in the CDM editor or list view.
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 The CDM CSV parser follows the CSV standard RFC 4180. This parsing of data from a CSV file to a JSON format in CDM helps you in the following ways:
 
@@ -157,9 +157,9 @@ To keep the CSV config data in its original format when exporting the config dat
 **Related topics**  
 
 
-[Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-upload-process.md)
+[Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-upload-process.md)
 
-[Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-structure-add-for-upload.md)
+[Add nodes with config data to CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-data-structure-add-for-upload.md)
 
-[Parsing of XML files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-parsing-xml-file.md)
+[Parsing of XML files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-parsing-xml-file.md)
 

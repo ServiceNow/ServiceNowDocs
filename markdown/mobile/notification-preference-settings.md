@@ -3,9 +3,9 @@ title: Enable notification settings for mobile
 description: Enable push notifications on your mobile device to receive information and messages directed to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/notification-preference-settings.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile app settings, Using the mobile apps, Mobile Platform]
 ---

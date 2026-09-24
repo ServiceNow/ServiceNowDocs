@@ -3,11 +3,11 @@ title: Define map events
 description: An event mapping in UI Builder is the process that enables you to map an event's payload or contextual values to the object or handler that acts on that event. The four event types are: component, page, data resource, and declarative action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/event-mapping.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Build
 
 An event mapping in UI Builder is the process that enables you to map an event's payload or contextual values to the object or handler that acts on that event. The four event types are: component, page, data resource, and declarative action.
 
-Event mapping is an important process within UI Builder. When you build pages with components, you need those components to perform [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) for users. For example, if you add a button component to the page, a button-clicked event must be mapped to an event handler. The event handler performs a button-clicked action when it is selected by a user. An example is when you add a data resource, such as a form, and have an event handler notify the user when the form successfully loads.
+Event mapping is an important process within UI Builder. When you build pages with components, you need those components to perform [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) for users. For example, if you add a button component to the page, a button-clicked event must be mapped to an event handler. The event handler performs a button-clicked action when it is selected by a user. An example is when you add a data resource, such as a form, and have an event handler notify the user when the form successfully loads.
 
 ## Event types
 
@@ -38,7 +38,7 @@ Component events
 
 </td><td>
 
-Action that you set up for a component. You set up an event handler to configure that component action. For example, add an event handler to apply an action for a button, such as going to a web page. For more information on binding events to components, see [Bind an event to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-component.md).
+Action that you set up for a component. You set up an event handler to configure that component action. For example, add an event handler to apply an action for a button, such as going to a web page. For more information on binding events to components, see [Bind an event to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/bind-event-component.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Page event that performs an action for the entire page. You can configure the fo
 
  \[Omitted image "page-event-mapping-options.png"\] Alt text: Page-level events pane that shows the page, variant, dispatched, and handled events add options.
 
-For more information on binding an event to a page, see [Bind an event to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-page.md).
+For more information on binding an event to a page, see [Bind an event to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/bind-event-page.md).
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Events that are mapped to data resources to provide notifications about when dat
 
  \[Omitted image "data-resource-event.png"\] Alt text: Event options for a data resource.
 
-For more information on binding an event to a data resource, see [Bind an event to a data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-data-resource.md).
+For more information on binding an event to a data resource, see [Bind an event to a data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/bind-event-data-resource.md).
 
 </td></tr><tr><td>
 
@@ -106,8 +106,8 @@ Bind data elements within UI Builder to add event actions to a declarative actio
 
  You configure a declarative action event mapping in the ServiceNow AI Platform® declarative action assignment table. For an example, navigate to **Filter navigator** &gt; **sys\_declarative\_action\_assignment.list** and then search for and open an existing declarative action.
 
- In UI Builder, you bind an event to the declarative action. For more information on how to use declarative action events, see [Bind an event to a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-declarative-action.md).
+ In UI Builder, you bind an event to the declarative action. For more information on how to use declarative action events, see [Bind an event to a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/bind-event-declarative-action.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md)
+</table>**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-events.md)
 

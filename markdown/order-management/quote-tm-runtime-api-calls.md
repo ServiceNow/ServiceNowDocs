@@ -3,7 +3,7 @@ title: ServiceNow Quote Experience runtime API calls
 description: Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a Postman collection for testing in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-runtime-api-calls.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-05-07"
 reading_time_minutes: 3
@@ -33,7 +33,7 @@ CPQ APIs are divided into two categories: runtime APIs and admin APIs. Runtime A
 
 ## Additional APIs
 
-For details about the API that retrieves metrics for transactions, see [Quote Experience metrics API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-metrics-api.md).
+For details about the API that retrieves metrics for transactions, see [Quote Experience metrics API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-metrics-api.md).
 
 ## Postman collection
 
@@ -165,6 +165,4 @@ The following Postman collection provides ready-to-use API requests for the Serv
   ]
 }
 ```
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

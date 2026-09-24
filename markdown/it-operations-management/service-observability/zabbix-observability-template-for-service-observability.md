@@ -3,11 +3,11 @@ title: Zabbix Observability template for Service Observability
 description: Dashboard and charts on the Zabbix Observability tab of the Service Details page in the SOW.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/zabbix-observability-template-for-service-observability.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Zabbix templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -371,5 +371,5 @@ Amount of outbound network traffic in bytes per second.
 Zabbix
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zabbix templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/zabbix-templates.md)
+</table>**Parent Topic:**[Zabbix templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/zabbix-templates.md)
 

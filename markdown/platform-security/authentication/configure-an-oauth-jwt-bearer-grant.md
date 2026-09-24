@@ -3,13 +3,13 @@ title: Configure an OAuth JSON web token bearer grant
 description: Configuring an OAuth JSON Web Token \(JWT\) bearer grant secures token-based authentication without user interaction. It enhances security with signed JWTs and reduces authentication overhead by eliminating repeated login attempts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-an-oauth-jwt-bearer-grant.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [JWT Grant, Inbound Integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [JWT Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure an OAuth JSON web token bearer grant
@@ -18,7 +18,7 @@ Configuring an OAuth JSON Web Token \(JWT\) bearer grant secures token-based aut
 
 ## Before you begin
 
-Role required: `oauth_admin, mi_admin, oauth_admin`
+Role required: `oauth_admin, mi_admin, admin`
 
 The supported algorithms for JSON Web Token \(JWT\): RS256, RS384, RS512, ES256, ES384, ES512, HS256, HS384, and HS512.
 

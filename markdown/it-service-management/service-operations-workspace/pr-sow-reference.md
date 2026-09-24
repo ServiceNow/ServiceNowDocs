@@ -3,11 +3,11 @@ title: Password Reset in Service Operations Workspace reference
 description: This reference topic provides additional information about the lists and forms that you use to configure and administer Password Reset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/pr-sow-reference.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reset password, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -83,7 +83,7 @@ The user has exhausted all the available password reset attempts. You can reset 
 |Technical error|You must logout and login to work on the password reset ticket.|
 |Maximum verification attempts reached|You have exceeded the maximum number of attempts to verify the identity of the user.|
 
-To reset a password for a user, refer [Reset password using service-desk assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/reset-password-sd-pr-sow.md).
+To reset a password for a user, refer [Reset password using service-desk assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/reset-password-sd-pr-sow.md).
 
-**Parent Topic:**[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/resetting-password-pr-sow.md)
+**Parent Topic:**[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/resetting-password-pr-sow.md)
 

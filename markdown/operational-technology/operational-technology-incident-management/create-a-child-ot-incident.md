@@ -3,11 +3,11 @@ title: Create a child incident
 description: Create a child Operational Technology \(OT\) incident record to capture part of the deviation reported so that it can be worked on separately. Creating child incidents can help you organize multiple incidents related to the same parent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/create-a-child-ot-incident.html
-release: australia
+release: brazil
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Incident Management, Operational Technology]
 ---
@@ -18,7 +18,7 @@ Create a child Operational Technology \(OT\) incident record to capture part of 
 
 ## Before you begin
 
--   Enable the Create child incident feature \(**com.snc.incident.create.child.enable**\) property. For more information, see [Set the system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configure-ot-incident-management-properties.md).
+-   Enable the Create child incident feature \(**com.snc.incident.create.child.enable**\) property. For more information, see [Set the system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/configure-ot-incident-management-properties.md).
 -   Role required: sn\_ot\_incident\_write
 
 ## About this task
@@ -46,5 +46,5 @@ Fields that are copied over to the child incident are configured by using the **
 
 Now, you can view and edit the child incident in the parent incident record.
 
-**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

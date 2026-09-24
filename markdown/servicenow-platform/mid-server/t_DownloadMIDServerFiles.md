@@ -3,13 +3,13 @@ title: Download the MID Server files
 description: Download the MID Server installer package through the instance and make it available for installation on the host. Allow the local network to access the authorized IP addresses to ensure that you can download the installation package and receive automatic upgrades.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_DownloadMIDServerFiles.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Download the MID Server files
@@ -32,15 +32,17 @@ The IP address of the MID Server download site \(`install.service-now.com`\) can
 -   149.96.5.98
 -   149.96.6.98
 
-A maint user can change the MID Server download site URL with the MID Server system property **mid.install\_server.base\_uri**. The MID Server downloads the update files from the new URL instead. Users with closed environments can direct MID Servers to update through hosts in their environment. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) and [\[KB1546609\] Configure Custom MID server Upgrade URL](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1546609) for more information.
+A maint user can change the MID Server download site URL with the MID Server system property **mid.install\_server.base\_uri**. The MID Server downloads the update files from the new URL instead. Users with closed environments can direct MID Servers to update through hosts in their environment. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) and [\[KB1546609\] Configure Custom MID server Upgrade URL](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1546609) for more information.
 
 **Note:** Download the MID Server first and then enable Discovery, Orchestration, or any integration that requires the use of the MID Server.
 
 ## Procedure
 
-1.  On the ServiceNow instance, navigate to **Mid Server** &gt; **Downloads**.
+1.  On the ServiceNow instance, navigate to **All** &gt; **ITOM Infra Services Workspace**.
 
-2.  Select and download the MID Server for the appropriate operating system.
+2.  On the **MID Servers** tab, select the **MID downloads** tab, and then download the MID Server for the appropriate operating system.
+
+    Alternatively, navigate to **All** &gt; **MID Server** &gt; **Downloads**, and then select and download the MID Server.
 
     For the best performance, install the 64-bit MID Server for your operating system.
 
@@ -55,17 +57,17 @@ A maint user can change the MID Server download site URL with the MID Server sys
 
     \[Omitted image "MIDServerDownloadMatrix.png"\] Alt text: MID Server downloads
 
-3.  Save the download file to a temporary file on the local drive.
+3.  Save the downloaded file to a temporary location on your local drive.
 
 4.  Move the file into the designated MID Server folder you create for your operating system and run the installer from that location.
 
 
 ## What to do next
 
-You can manually verify the signature of an installation package with the jarsigner tool to ensure its authenticity. For more information about verifying the signature, see the [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md) section on manual verification.
+You can manually verify the signature of an installation package with the jarsigner tool to ensure its authenticity. For more information about verifying the signature, see the [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md) section on manual verification.
 
 Install the MID Server on the host computer.
 
--   [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md)
--   [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md)
+-   [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md)
+-   [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md)
 

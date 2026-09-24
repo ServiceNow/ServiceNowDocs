@@ -3,9 +3,9 @@ title: Use the Format Text component
 description: Format the text by using variable placeholders and line and tab variables with the Format Text component in RPA Desktop Design Studio. You can update the text and their positions easily by just updating the variable placeholders and the line and tab variables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-format-text.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [General, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -87,7 +87,7 @@ Essential tips to remember when using the Format Text Component to avoid the fol
     -   `{{` represents a literal `{`
     -   `}}` represents a literal `}`
 
-You can configure the properties for the Format Text component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
+You can configure the properties for the Format Text component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/Properties-general-components.md).
 
 ## Procedure
 
@@ -101,7 +101,7 @@ You can configure the properties for the Format Text component. For more informa
 
         A Data In port is added for each variable you add.
 
-    2.  To configure the variable value, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+    2.  To configure the variable value, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
     3.  Repeat the steps to add more variables and values.
 
@@ -183,5 +183,5 @@ No. Connecting the port is optional.
 </table>10. To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/general-component.md)
 

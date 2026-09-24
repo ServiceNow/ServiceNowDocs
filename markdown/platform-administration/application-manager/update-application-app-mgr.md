@@ -3,11 +3,11 @@ title: Update an application or plugin
 description: Update an application or plugin to get the latest features that are compatible with your instance version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/update-application-app-mgr.html
-release: australia
+release: brazil
 product: Application Manager
 classification: application-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Updating apps, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -43,27 +43,27 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 5.  Select a compatibleapplication version or a compatible Now Assist Suite versionfrom the version drop-down menu.
 
-    For additional information about Now Assist Suites, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
+    For additional information about Now Assist Suites, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
 
 6.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
-    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/manage-customizations-store-apps.md).
+    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-customizations-store-apps.md).
 
 7.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
 
-    If any dependencies are categorized as "Needs to be procured from store" or "Installation blocked," procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block updates, see [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/updating-apps-app-manager.md).
+    If any dependencies are categorized as "Needs to be procured from store" or "Installation blocked," procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block updates, see [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager/updating-apps-app-manager.md).
 
 8.  Install the update now or schedule installation for a later time.
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d97893e244">
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d97639e244">
 
 Installation option
 
-</th><th align="left" id="d97893e247">
+</th><th align="left" id="d97639e247">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d97893e253">
+</th></tr></thead><tbody><tr><td id="d97639e253">
 
 **Install now**
 
@@ -73,7 +73,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d97893e277">
+</td></tr><tr><td id="d97639e277">
 
 **Install later**
 
@@ -90,5 +90,5 @@ Procedure
 
 If you choose to install the update now, the application or plugin and its dependencies begin updating immediately. Scheduled updates begin at the chosen date and time.
 
-**Parent Topic:**[Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/updating-apps-app-manager.md)
+**Parent Topic:**[Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager/updating-apps-app-manager.md)
 

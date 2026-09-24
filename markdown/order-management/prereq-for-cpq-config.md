@@ -3,7 +3,7 @@ title: Prerequisites for setting up CPQ
 description: Verify that you have completed the prerequisites before setting up the Configurator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/prereq-for-cpq-config.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 2
@@ -102,5 +102,5 @@ You will receive an email with the CPQ details. Select the **View request** to a
 
 ## What to do next
 
-[Set up CPQ using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-cpq-using-guided-setup.md)
+[Set up CPQ using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-cpq-using-guided-setup.md)
 

@@ -3,9 +3,9 @@ title: Create a UI macro for a formatter
 description: Create a UI macro to define the content that the formatter displays.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAUIMacro.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -60,7 +60,7 @@ Role required: ui\_macro\_admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_Formatters.md)
 
 **Related topics**  
 
@@ -79,5 +79,5 @@ Role required: ui\_macro\_admin
 
 [Override a formatter with macros]()
 
-[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
+[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/r_JellyTags.md)
 

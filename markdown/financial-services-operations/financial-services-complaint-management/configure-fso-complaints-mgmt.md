@@ -3,11 +3,11 @@ title: Configure Financial Services Complaint Management
 description: Review the components that are installed with the Financial Services Complaint Management application and modify as needed for your organization's business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/configure-fso-complaints-mgmt.html
-release: australia
+release: brazil
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -18,7 +18,7 @@ Review the components that are installed with the Financial Services Complaint M
 
 ## Before you begin
 
-Make sure that the Financial Services Complaint Management application is installed. For more information, see [Install Financial Services Complaint Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-complaint-management/install-fso-complaints-management.md).
+Make sure that the Financial Services Complaint Management application is installed. For more information, see [Install Financial Services Complaint Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-complaint-management/install-fso-complaints-management.md).
 
 Role required: sn\_bom\_compl.admin and admin
 
@@ -26,22 +26,22 @@ Role required: sn\_bom\_compl.admin and admin
 
 1.  Import your financial accounts, financial products, financial institutions, and transactions data into ServiceNow tables.
 
-    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/import-financial-accounts-products-institutions.md).
+    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/import-financial-accounts-products-institutions.md).
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
     |Task|Description|
     |----|-----------|
-    |**Configure service definitions**|[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-service-definitions.md) to enable unique flows and views for complaint service cases and tasks.|
-    |**Configure record producers**|[Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/create-modify-record-producers-fso-apps.md) to define request forms.|
-    |**Modify interceptors and workspace record type selectors**|[Modify interceptors and workspace record type selectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-request-types-fso.md) to configure complaint request types.|
-    |**Edit or create flows**|[Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.|
-    |**Configure playbook**|[Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.|
-    |**Configure workspace**|[Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.|
-    |**Define response templates**|[Define response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-complaint-management/configure-response-templates-fso-complaints.md) for complaint service case for a quick and consistent messaging to customers.|
-    |**Configure regulation categories and subcategories**|[Configure regulation categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-complaint-management/configure-regulation-categories-fso-complaint-mgmt.md) to be used in complaint cases that have regulatory impact.|
-    |**Configure Service Level Agreements \(SLAs\)**|[Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for complaint service cases and tasks.|
-    |**Configure user groups**|[Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.|
-    |**Configure assignment rules**|[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.|
+    |**Configure service definitions**|[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-service-definitions.md) to enable unique flows and views for complaint service cases and tasks.|
+    |**Configure record producers**|[Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/create-modify-record-producers-fso-apps.md) to define request forms.|
+    |**Modify interceptors and workspace record type selectors**|[Modify interceptors and workspace record type selectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-request-types-fso.md) to configure complaint request types.|
+    |**Edit or create flows**|[Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.|
+    |**Configure playbook**|[Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.|
+    |**Configure workspace**|[Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.|
+    |**Define response templates**|[Define response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-complaint-management/configure-response-templates-fso-complaints.md) for complaint service case for a quick and consistent messaging to customers.|
+    |**Configure regulation categories and subcategories**|[Configure regulation categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-complaint-management/configure-regulation-categories-fso-complaint-mgmt.md) to be used in complaint cases that have regulatory impact.|
+    |**Configure Service Level Agreements \(SLAs\)**|[Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for complaint service cases and tasks.|
+    |**Configure user groups**|[Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.|
+    |**Configure assignment rules**|[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.|
 
 

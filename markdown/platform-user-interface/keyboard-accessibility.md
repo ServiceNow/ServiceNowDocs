@@ -3,9 +3,9 @@ title: Using accessibility features
 description: Accessibility features include keyboard navigation, color and style settings, using a screen reader, and search methods.Skip links allow users to quickly navigate to the main content on a page, list, or form, bypassing icons, banner text, navigation links, and other elements. Skip links are not visible until you tab to them.There are several color and style changes that make the platform more accessible.Screen elements in the platform have enhancements that make them accessible to screen readers.There are several ways to search for information in the user interface.With accessibility mode enabled, tab through cards in a task board. Use the card details button to view task card details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/keyboard-accessibility.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 6
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Tab-through provides the following options:
 
 -   Use skip links to shift focus to different parts of the page without tabbing through every element.
 -   On edit pages such as forms, the keyboard focus starts at the first editable field on the page.
--   If the **glide.ui.focus\_first\_element** user preference is enabled, page focus starts at the first input field at the top of the page content section. In a table, this field is usually the search option. In a form, the field is the first input field in the form. For more information about disabling initial field focus to improve accessibility, see [Turn off first field focus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_SetUpSect508ComplianceFeature.md).
+-   If the **glide.ui.focus\_first\_element** user preference is enabled, page focus starts at the first input field at the top of the page content section. In a table, this field is usually the search option. In a form, the field is the first input field in the form. For more information about disabling initial field focus to improve accessibility, see [Turn off first field focus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_SetUpSect508ComplianceFeature.md).
 -   Use tab-through and arrow keys to move items around in a slushbucket.
 -   When focused on tabs, use right/left arrow keys to switch tabs.
 -   Arrows keys work within menus to navigate between entries.
@@ -36,7 +36,7 @@ Tab-through provides the following options:
 -   In the application navigator when accessibility is enabled, tabbing moves you through each element for every module, including the **Edit application/module** and **Add to favorites** icons. Use the arrow keys to move through the application navigator without focusing on these additional elements.
 -   If accessibility mode is enabled, a help icon appears with the HTML field. The help icon indicates how to access and escape the HTML field toolbar.
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
 
 ## Use skip links
 
@@ -112,7 +112,7 @@ There are several ways to search for information in the user interface.
 -   List views include a **Go to** search field in the list title bar. Using the \* wildcard character in the search text allows you to perform a **contains** search rather than a **starts with** search. This type of query may take longer to run but can save keystrokes. You can also use several other wildcards with list searches.
 -   The navigation filter in the application navigator filters the applications and modules that appear in the navigator based on the entered text. Tab through or use skip links to navigate directly to the navigation filter. To open a module, click the module name, or press the Down Arrow to highlight the module name, and then press Enter.
 
-See [Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntroductionToSearching.md) for more information about these search methods.
+See [Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_IntroductionToSearching.md) for more information about these search methods.
 
 ## View card details in a Visual Task Board
 
@@ -134,7 +134,7 @@ Role required: none
 
 4.  Press the Tab key to navigate through the card until the Open Card Details button appears.
 
-    \[Omitted image "viewcarddetails.png"\] Alt text: Task board card with the View Card Details button enabled and highlighted
+    \[Omitted image "image.viewcarddetails"\] Alt text: Task board card with the View Card Details button enabled and highlighted
 
 5.  Press **Enter** to open the card.
 

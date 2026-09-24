@@ -3,11 +3,11 @@ title: Managing your AI asset lifecycle
 description: Get a structured view of an AI asset's progression through its operational stages, from initial onboarding to retirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/manage-lifecycle-newexperience.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Managing your AI asset lifecycle
@@ -52,10 +52,10 @@ AI Control Tower supports two types of requests:
     For details, see .
 
 
--   **[Create change requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-asset-change-request-newexperience.md)**  
+-   **[Create change requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-asset-change-request-newexperience.md)**  
 Create a change request to modify the relationships between a deployed AI asset and its related assets.
--   **[Create offboarding requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-asset-offboarding-request-newexperience.md)**  
+-   **[Create offboarding requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-asset-offboarding-request-newexperience.md)**  
 Create an offboarding request to retire AI assets that are no longer needed.
 
-**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-managing-ai-assets.md)
+**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-managing-ai-assets.md)
 

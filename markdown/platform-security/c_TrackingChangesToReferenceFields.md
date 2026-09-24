@@ -3,9 +3,9 @@ title: Tracking changes to reference fields
 description: Administrators can track changes to reference field display values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_TrackingChangesToReferenceFields.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowing about History sets, Auditing]
 ---

@@ -3,11 +3,11 @@ title: Manage milestones
 description: Milestones can be used to track the progress of an engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/Milestones.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---

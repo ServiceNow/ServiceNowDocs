@@ -3,9 +3,9 @@ title: Create an order header task
 description: Create an order header task manually to track and coordinate activities at the order level that are not tied to a specific domain order or fulfillment task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-order-header-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order header tasks, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -26,7 +26,7 @@ Order header tasks remain open until explicitly closed. The order is not marked 
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Open the order for which you want to create a task.
 
@@ -61,7 +61,7 @@ The order header task is created and appears in the **Order Tasks** tab.
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

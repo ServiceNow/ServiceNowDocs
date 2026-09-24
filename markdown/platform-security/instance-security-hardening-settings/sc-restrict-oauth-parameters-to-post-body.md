@@ -1,20 +1,27 @@
 ---
-title: Restrict oauth parameters to POST body \[New in Security Center 1.3\]
-description: Use the glide.oauth.allow.parameters.in.post.body.only property to control the inbound OAuth authentication's acceptance of access tokens. Access tokens are sensitive and should only be accepted when located within a POST request body.
+title: Restrict oauth parameters to POST body
+description: Use the glide.oauth.allow.parameters.in.post.body.only property restricts OAuth credentials to POST request bodies when set to true.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-restrict-oauth-parameters-to-post-body.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data protection, Hardening settings, Platform Security]
 ---
 
-# Restrict oauth parameters to POST body \[New in Security Center 1.3\]
+# Restrict oauth parameters to POST body
 
-Use the **glide.oauth.allow.parameters.in.post.body.only** property to control the inbound OAuth authentication's acceptance of access tokens. Access tokens are sensitive and should only be accepted when located within a POST request body.
+Use the **glide.oauth.allow.parameters.in.post.body.only** property restricts OAuth credentials to POST request bodies when set to `true`.
+
+Use the **glide.oauth.allow.parameters.in.post.body.only** property to control how the OAuth token endpoint \(/oauth\_token.do\) accepts OAuth credentials. When set to `true`, this property restricts OAuth parameters \(such as client\_id, client\_secret, authorization codes, and refresh tokens\) to POST request bodies only. OAuth credentials submitted using HTTP headers continue to be accepted.
+
+To set up this property:
+
+1.  Navigate to `/sys_properties_list.do` on the ServiceNow instance.
+2.  Ensure **glide.oauth.allow.parameters.in.post.body.only** exists and is set to `true`.
 
 ## More information
 
@@ -60,6 +67,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Default value
 
 </td><td>
@@ -72,7 +87,7 @@ Category
 
 </td><td>
 
-[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)
+[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 
 </td></tr><tr><td>
 
@@ -82,7 +97,7 @@ Security risk
 
 -   Severity score: 4.2
 -   CVSS score: Medium
--   Security risk details: If **glide.oauth.allow.parameters.in.post.body.only** isn't set to the recommended value of **true**, access tokens could be present in the GET request parameter. These access tokens could linger in client and infrastructure logs and potentially lead to account takeover if those logs are leaked.
+-   Security risk details: If **glide.oauth.allow.parameters.in.post.body.only** isn't set to the recommended value of **true**, OAuth credentials such as client\_id, client\_secret, authorization codes, and refresh tokens could be present in the URL query string. These credentials could linger in client and infrastructure logs and potentially lead to account takeover if those logs are leaked.
 
 </td></tr><tr><td>
 
@@ -90,7 +105,7 @@ Dependencies and prerequisites
 
 </td><td>
 
-None
+Plugin OAuth 2.0
 
 </td></tr><tr><td>
 
@@ -98,8 +113,8 @@ References
 
 </td><td>
 
--   [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthApplications.md)
--   [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ManageTokens.md)
+-   [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/c_OAuthApplications.md)
+-   [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_ManageTokens.md)
 
 </td></tr><tr><td>
 
@@ -110,5 +125,5 @@ Functional impact
 Ensures that oauth\_token.do processor accepts only POST body parameters as input for all supported grant types.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)
+</table>**Parent Topic:**[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 

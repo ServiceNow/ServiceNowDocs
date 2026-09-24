@@ -3,11 +3,11 @@ title: Create an external assessment template
 description: When defining an assessment template, the third-party risk manager provides scheduling information for the third-party risk assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/create-vendor-risk-assess-temp.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -40,21 +40,21 @@ For existing assessments, the Supports smart assessment option is set automatica
 
 3.  On the form, fill in the fields.
 
-    For more information about the field descriptions, see [Create new external assessment template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-assess-template-form.md).
+    For more information about the field descriptions, see [Create new external assessment template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-assess-template-form.md).
 
 4.  Select **Submit**.
 
 5.  Add a questionnaire or document request template to the assessment template using one of the following methods.
 
-<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d272554e161">
+<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d276494e161">
 
 Option
 
-</th><th align="left" id="d272554e164">
+</th><th align="left" id="d276494e164">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d272554e170">
+</th></tr></thead><tbody><tr><td id="d276494e170">
 
 **Add Questionnaire templates**
 
@@ -67,7 +67,7 @@ In the Vendor Management Workspace, navigate to the Questionnaire templates rela
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d272554e206">
+</td></tr><tr><td id="d276494e206">
 
 **Add Document request templates**
 
@@ -80,7 +80,7 @@ In the Vendor Management Workspace, navigate to the Document request templates r
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d272554e242">
+</td></tr><tr><td id="d276494e242">
 
 **Add SAE Questionnaire templates**
 
@@ -93,7 +93,7 @@ In the Vendor Management Workspace, navigate to the SAE Questionnaire templates 
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d272554e290">
+</td></tr><tr><td id="d276494e290">
 
 **Add SAE Document templates**
 
@@ -113,9 +113,9 @@ In the Vendor Management Workspace, navigate to the SAE Document request templat
 **Related topics**  
 
 
-[Create a questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.md)
+[Create a questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.md)
 
-[Create a questionnaire or document request template using the Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-question-template.md)
+[Create a questionnaire or document request template using the Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-question-template.md)
 
-[Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md)
+[Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md)
 

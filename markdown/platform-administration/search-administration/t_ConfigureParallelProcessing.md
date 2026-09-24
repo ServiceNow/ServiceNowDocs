@@ -3,11 +3,11 @@ title: Configure parallel processing of search groups
 description: To improve performance, only activate search groups and tables that are necessary to meet business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_ConfigureParallelProcessing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set global text search properties, Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -39,7 +39,7 @@ Global text search can render results in parallel to improve performance. To con
 4.  Select **Save**.
 
 
-**Parent Topic:**[Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/set-global-text-search-properties.md)
+**Parent Topic:**[Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/set-global-text-search-properties.md)
 
 **Related topics**  
 

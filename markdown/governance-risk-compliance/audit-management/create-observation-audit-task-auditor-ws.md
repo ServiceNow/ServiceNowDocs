@@ -3,13 +3,13 @@ title: Create an observation for an audit task
 description: Create an observation for an audit task to comply with federal state and local security legal requirements by studying the existing and new security legislation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-observation-audit-task-auditor-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit Workspace for the Auditor, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Workspace for the Auditor, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create an observation for an audit task
@@ -40,7 +40,7 @@ Creating an observation also helps enforce adherence to requirements, thereby ad
 
 5.  Click **New**.
 
-6.  Enter the details in the [Create New Observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/create-observation-audit-ws.md) form.
+6.  Enter the details in the [Create New Observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/create-observation-audit-ws.md) form.
 
 7.  Click **Save**.
 

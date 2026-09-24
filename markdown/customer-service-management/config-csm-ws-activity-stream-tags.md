@@ -1,24 +1,24 @@
 ---
 title: Filter activities in the activity stream
-description: Use tags to filter the items that appear in the activity stream.
+description: Use tags to filter the items that appear in the activity stream in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-activity-stream-tags.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Filter activities in the activity stream
 
-Use tags to filter the items that appear in the activity stream.
+Use tags to filter the items that appear in the activity stream in CRM Workspace.
 
 Tags enable you to filter your activities in the activity stream by dynamic and static states not offered in filter lists. For example, these states can include Workaround or Status checked.
 
 \[Omitted image "filter-activity-stream-tags.png"\] Alt text: Filter the activity stream by selecting tags from the Tags dropdown menu
 
-Tags are enabled and created by your system administrator. To enable and add tags for agents as a system administrator, see [Create tags for the activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tags-activity-stream-admin.md).
+Tags are enabled and created by your system administrator. To enable and add tags for agents as a system administrator, see [Create tags for the activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tags-activity-stream-admin.md).
 
-To use tags to filter activities in the activity stream, see [Filter activities with tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tags-activity-stream-agent.md).
+To use tags to filter activities in the activity stream, see [Filter activities with tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tags-activity-stream-agent.md).
 

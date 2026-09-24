@@ -3,11 +3,11 @@ title: Picklist extensions
 description: Picklist extensions enhance standard picklists by displaying additional option details, enabling automatic filtering, and supporting implicit product rules. Use them to simplify configuration logic and present richer, more informative option selections to users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-picklist-extensions-ples.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Picklist extensions
@@ -26,5 +26,5 @@ Picklist extensions provide three benefits:
 **Related topics**  
 
 
-[Configure picklist extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-picklist-extensions-tutorial.md)
+[Configure picklist extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-picklist-extensions-tutorial.md)
 

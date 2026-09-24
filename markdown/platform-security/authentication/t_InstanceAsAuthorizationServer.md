@@ -3,11 +3,11 @@ title: Authorization code flow example: ServiceNow instance as authorization ser
 description: You can use an instance as an authorization server to issue tokens to a client using authorization code flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_InstanceAsAuthorizationServer.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [OAuth authorization code grant flow, Old Inbound integrations experience, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -22,7 +22,7 @@ Role required: none.
 
 This example uses two instances: one as the authorization server and the other as the client. One instance uses a REST call to request tokens from another instance.
 
-You must [Activate OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ActivateOAuth.md) on both instances.
+You must [Activate OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_ActivateOAuth.md) on both instances.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ You must [Activate OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
 2.  Click **Create an OAuth API endpoint for external clients**.
 
-3.  Fill out the form fields for the OAuth application record as described in [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
+3.  Fill out the form fields for the OAuth application record as described in [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
 
     Completing these steps sets up an authorization server. Follow the next steps to set up the client server.
 

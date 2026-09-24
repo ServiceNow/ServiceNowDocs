@@ -1,24 +1,24 @@
 ---
 title: Status reporting in Project Workspace
-description: A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health across key areas such as cost, resources, milestones, health, and more.
+description: A status report in Project Workspace provides a snapshot of your project health across key areas such as cost, resources, milestones, and schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/status-reporting-in-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-12"
 reading_time_minutes: 3
 breadcrumb: [Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Status reporting in Project Workspace
 
-A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health across key areas such as cost, resources, milestones, health, and more.
+A status report in Project Workspace provides a snapshot of your project health across key areas such as cost, resources, milestones, and schedule.
 
 \[Omitted video\] Description: Status reporting in Project Workspace video.
 
-The Status reports in Project Workspace provide a comprehensive, configurable, and customizable view of the current state of a project by capturing and displaying key project metrics such as overall health, schedule, scope, cost, and resource utilization. Status reports help project teams and stakeholders track progress, identify risks, and manage any project-related issues in real-time.
+The Status reports in Project Workspace provide a comprehensive, configurable, and customizable view of the current state of a project. They capture and display key project metrics such as overall health, schedule, scope, cost, and resource utilization. Status reports help project teams and stakeholders track progress, identify risks, and manage any project-related issues in real-time.
 
 |Metric|Description|
 |------|-----------|
@@ -47,10 +47,10 @@ Status report templates simplify the process of generating project updates by pr
 -   One Page Status Report: This template provides a concise one-page summary of key project metrics, making it ideal for quick updates where a high-level overview is sufficient.
 -   Default Status Report: This template includes a more comprehensive range of data points, covering areas such as milestones, risks, issues, decisions, and change requests. It offers a detailed view of the project's progress and status, similar to a classic status report.
 
--   You can create a status report using one of the existing templates: [Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
--   You can also create your own status report template from scratch: [Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+-   You can create a status report using one of the existing templates: [Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
+-   You can also create your own status report template from scratch: [Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 
-## Now Assist project status reports
+## AI project status reports
 
 AI status reports help project managers create project updates faster by generating health assessments, executive summaries, and supporting rationales based on project data and configured criteria. When enabled, the generate status report action creates a status report draft where AI pre-populates key fields:
 
@@ -61,22 +61,22 @@ AI status reports help project managers create project updates faster by generat
 
 This reduces manual effort and helps stakeholders quickly understand what changed and what needs attention.
 
-## Now Assist project health prediction
+## AI project health prediction
 
-Now Assist health outcomes \(such as red/yellow/green\) are determined by admin-configured criteria. The test plan for the feature specifically validates rules such as:
+ServiceNow Otto health outcomes \(such as red/yellow/green\) are determined by admin-configured criteria. The test plan for the feature specifically validates rules such as:
 
 -   Including all dimensions \(schedule/cost/resource/scope\) in overall health rollups.
 -   Handling missing/incomplete dimension configuration.
 -   Rollup behavior like “overall = red if any dimension is red”.
 
-**Parent Topic:**[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/exploring-project-workspace.md)
+**Parent Topic:**[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/exploring-project-workspace.md)
 
 **Related topics**  
 
 
-[Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-status-report-in-project-workspace.md)
+[Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/view-status-report-in-project-workspace.md)
 
-[Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/import-old-status-reports.md)
+[Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 

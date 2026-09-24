@@ -3,11 +3,11 @@ title: Add and publish best practices to the article
 description: Add your organization's custom best practices to the Catalog Best Practices article and publish them to make them available to the LLM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/add-and-publish-custom-catalog-item-best-practices.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Catalog item standards for catalog item generation, AI Authoring for Catalog Builder reference, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -67,5 +67,5 @@ While editing the article, the previous published version remains active and is 
     Publishing immediately makes the article available to the LLM. The LLM reads only from the latest published version.
 
 
-**Parent Topic:**[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
+**Parent Topic:**[Catalog item standards for catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/guidance-for-catalog-item-creation.md)
 

@@ -3,11 +3,11 @@ title: Add sudo access for the Weblogic - Find config.xml probe
 description: If you are not using the Weblogic pattern, you can add sudo privileges to the Linux, the Weblogic - Find config.xml probe.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/t\_AddSudoforWeblogic.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [WebLogic application server, Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -38,5 +38,5 @@ Role required: admin
 5.  Click **Submit**
 
 
-**Parent Topic:**[WebLogic application server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DataCollDiscoWebLogicServers.md)
+**Parent Topic:**[WebLogic application server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_DataCollDiscoWebLogicServers.md)
 

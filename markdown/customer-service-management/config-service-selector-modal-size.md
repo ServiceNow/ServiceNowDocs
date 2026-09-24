@@ -3,9 +3,9 @@ title: Configure the service selector modal size
 description: The service selector modal displays a list of available services to an agent when they are creating a case. Users with the admin role can configure the size of the service selector modal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-service-selector-modal-size.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring customer service case types, Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Automated Sharing of TAXII Collections
 description: Automated TAXII Collections automatically add intelligence records to TAXII Server Collections for seamless distribution to trusted external partners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-automated-share-taxii.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring TAXII Outbound Server, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -25,7 +25,7 @@ Role required:
 
 ## About this task
 
-The automated flow action adds the record provided in the inputs to TAXII server collections configured in the selected template. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
+The automated flow action adds the record provided in the inputs to TAXII server collections configured in the selected template. For more information, see [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 
 Add record to TAXII Server Collection via automated process:
 
@@ -45,15 +45,15 @@ Add record to TAXII Server Collection via automated process:
 
 5.  Go to **Actions**
 
-<table id="choicetable_ybr_fxh_qfc"><thead><tr><th align="left" id="d321622e137">
+<table id="choicetable_ybr_fxh_qfc"><thead><tr><th align="left" id="d321540e137">
 
 Action
 
-</th><th align="left" id="d321622e140">
+</th><th align="left" id="d321540e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d321622e146">
+</th></tr></thead><tbody><tr><td id="d321540e146">
 
 **Sharing Template\[Outbound Intel Sharing\]**
 
@@ -61,9 +61,9 @@ Description
 
 Select the sharing template.Template with a usage mode of both **Automated addition to TAXII Collections** can be selected for Automated Sharing.
 
- For more information see, [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
+ For more information see, [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 
-</td></tr><tr><td id="d321622e174">
+</td></tr><tr><td id="d321540e174">
 
 **Observable Record \[Observable\]**
 
@@ -71,7 +71,7 @@ Select the sharing template.Template with a usage mode of both **Automated addit
 
 Select the type of observable record to add records to TAXII server collections.
 
-</td></tr><tr><td id="d321622e183">
+</td></tr><tr><td id="d321540e183">
 
 **Indicator Record \[Indicator\]**
 
@@ -79,7 +79,7 @@ Select the type of observable record to add records to TAXII server collections.
 
 Select the type of indicators record to add records to TAXII server collections.
 
-</td></tr><tr><td id="d321622e192">
+</td></tr><tr><td id="d321540e192">
 
 **Object Record \[Object\]**
 
@@ -87,7 +87,7 @@ Select the type of indicators record to add records to TAXII server collections.
 
 Select the type of objects record to add records to TAXII server collections.
 
-</td></tr><tr><td id="d321622e202">
+</td></tr><tr><td id="d321540e202">
 
 **Include Related Records**
 
@@ -103,7 +103,7 @@ Select this check box to add the related records of the selected observables, in
 
 Activate the flow.
 
-**Parent Topic:**[Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md)
+**Parent Topic:**[Exploring TAXII Outbound Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-taxii-outbound-server.md)
 
 **Related topics**  
 
@@ -112,9 +112,9 @@ Activate the flow.
 
 [Viewing TAXII Collection Records]()
 
-[Create TAXII Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-taxii-collection.md)
+[Create TAXII Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-create-taxii-collection.md)
 
-[Configuring Outbound Intel Sharing Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-sharing.md)
+[Configuring Outbound Intel Sharing Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-outbound-sharing.md)
 
-[Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md)
+[Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md)
 

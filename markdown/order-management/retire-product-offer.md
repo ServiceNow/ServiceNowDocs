@@ -3,9 +3,9 @@ title: Retire a remote catalog item
 description: Retire a product offering or service specification used in a remote catalog, which automatically retires the corresponding remote record producer. When the remote record producer is retired, the remote catalog item is removed automatically from the service catalog on the consumer instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/retire-product-offer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---

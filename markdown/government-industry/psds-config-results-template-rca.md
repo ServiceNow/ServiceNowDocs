@@ -3,7 +3,7 @@ title: Configure Restricted Caller Access for a results letter
 description: Once the Grant Program Manager is ready to release the results letters for the applicants, the letters can be configured using Restricted Caller Access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-results-template-rca.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 1
@@ -57,5 +57,5 @@ Verify that the scope is set to **Document Templates**.
     |Operation|Execute API|
 
 
-**Parent Topic:**[Create a Grants Program results letter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-configure-results-template.md)
+**Parent Topic:**[Create a Grants Program results letter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-configure-results-template.md)
 

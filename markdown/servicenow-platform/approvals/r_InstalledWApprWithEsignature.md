@@ -3,11 +3,11 @@ title: Installed with approval with e-signature
 description: Installing approval with e-signature installs certain properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/r\_InstalledWApprWithEsignature.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ Installing approval with e-signature installs certain properties.
 -   UI Page - form\_login\_validate\_dialog
 -   UI Page - login\_validate\_dialog
 -   UI page: saml2\_esignature\_login, the re-authentication page that appears when an approver tries to approve a request.
--   Properties: see [E-signature SAML properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_AddingSupportForESignature.md)
+-   Properties: see [E-signature SAML properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_AddingSupportForESignature.md)
 -   Client Script - Authenticate Approver
 -   Script Include - User
 -   Script Include - UserAuthentication
@@ -31,5 +31,5 @@ Installing approval with e-signature installs certain properties.
 
 Installing the plugin also disables the two out-of-the-box Approve UI Actions on the `sysapproval_approver` table.
 
-**Parent Topic:**[Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/approval-with-e-signature.md)
+**Parent Topic:**[Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/approval-with-e-signature.md)
 

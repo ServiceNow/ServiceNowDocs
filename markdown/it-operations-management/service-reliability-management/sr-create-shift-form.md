@@ -3,11 +3,11 @@ title: Create a shift form in Service Reliability Management
 description: Set up an on-call schedule for your team to ensure that the right person is always available to quickly respond to incidents and critical alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-create-shift-form.html
-release: australia
+release: brazil
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Reliability Management reference, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Set up an on-call schedule for your team to ensure that the right person is alwa
 
 ## Create a shift form
 
-For more information, see [Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md).
+For more information, see [Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md).
 
 <table id="id_gsh_vyw_qzb"><thead><tr><th>
 
@@ -144,5 +144,5 @@ Existing templates for shifts.Choices are:
 -   Workday 9:00 - 5:00
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
+</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

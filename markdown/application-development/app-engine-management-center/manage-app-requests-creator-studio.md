@@ -3,11 +3,11 @@ title: Manage app requests from Creator Studio
 description: View and manage new app requests in App Engine Management Center \(AEMC\) that users with the Creator Studio Restricted role \(sn\_creator\_studio\_restricted\_user\) submit for apps they want to create.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/manage-app-requests-creator-studio.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage requests, Manage app development, Use, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -33,5 +33,5 @@ Role required: sn\_app\_eng\_notify.app\_engine\_admin
     -   If the app is useful to your organization, approve the request.
     -   If you see issues with the app request, reject the request. If an app request is rejected, the original requestor must put in a new request for the app with changes for reconsideration.
 
-**Parent Topic:**[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-aemc-requests.md)
+**Parent Topic:**[Managing requests using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/manage-aemc-requests.md)
 

@@ -3,12 +3,12 @@ title: Configure overview security metrics
 description: If you have external AI agent data you want reflected in the Privileged AI agents metric, set up a Traceloop connection to the external AI server and perform other setup to make sure agent data appears in the metric. Or, set up a static connection for Amazon Web Services \(AWS\) or Azure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-overview.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure overview security metrics
@@ -64,7 +64,7 @@ You can also show AWS Bedrock AI agents in the Privileged AI agents metric. As p
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)
 
 ## Trace-based analysis configuration \(vendor-agnostic\)
 
@@ -83,7 +83,7 @@ There are two ways to establish this connection:
 
 1.  Configure a trace connection for your external AI system.
 
-    For more information, see [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md).
+    For more information, see [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-trace-connections.md).
 
 2.  Generate an API key to authenticate trace data requests from your external AI system.
 
@@ -104,7 +104,7 @@ There are two ways to establish this connection:
         |API Key|\[Your Traceloop API key\]|
         |Credential alias|Locked.|
 
-    For more information, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md).
+    For more information, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/API-key-credential-form.md).
 
 3.  Link the API key to your trace connection.
 
@@ -128,7 +128,7 @@ There are two ways to establish this connection:
 
         The scheduled job will now automatically pull privileged AI agent data from the linked Traceloop environment.
 
-    For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).
+    For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/create-https-connection.md).
 
 4.  Configure the Traceloop SDK in your agent code by adding these ServiceNow attributes when initializing Traceloop.
 
@@ -151,7 +151,7 @@ There are two ways to establish this connection:
 
 5.  Make sure that the AiSP AWS IAM Privileged Policy Checker AI skill is enabled.
 
-    For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+    For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 6.  To add custom roles for Azure Foundry agents, navigate to **All** &gt; **AI Security and Privacy** &gt; **Privileged Role Definitions**.
 

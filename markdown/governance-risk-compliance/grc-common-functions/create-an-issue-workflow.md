@@ -3,11 +3,11 @@ title: Create an issue workflow
 description: Set up a workflow so a specific category of issues, such as vendor risk or compliance issues, follows its own states, layout, and trigger condition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-an-issue-workflow.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-01"
+last_updated: "2026-09-16"
 reading_time_minutes: 1
 breadcrumb: [Issue workflows, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -30,26 +30,26 @@ Creating a workflow is the first step in a guided setup process.
 
 1.  Navigate to **All** &gt; **GRC Issue Administration** &gt; **Issue Workflows**.
 
-2.  Select **New**.
+2.  Start a workflow by selecting **New**.
 
 3.  Enter the workflow details.
 
     |Field|Description|
     |-----|-----------|
-    |**Name**|Enter a name that identifies the issue type and purpose of the workflow.|
-    |**Description**|Optional. Enter a description of the workflow.|
-    |**Table**|Select the table that the workflow applies to. The workflow applies only to issues created on this table.|
+    |**Name**|A name that identifies the issue type and purpose of the workflow.|
+    |**Description**|A description of the workflow. Optional.|
+    |**Table**|The table that the workflow applies to. The workflow applies only to issues created on this table.|
 
 4.  Save the workflow details by selecting **Save and continue**.
 
 
 ## Result
 
-The workflow record is created and its status is set to In Progress. The workflow is not set to active until you complete the remaining configuration steps and activate it.
+The workflow record is created and its status is set to **In Progress**. The workflow is not set to active until you complete the remaining configuration steps and activate it.
 
 ## What to do next
 
-Add the layout, state model, and playbook to the workflow. See [Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md).
+Continue the guided setup by configuring the workflow's components. See [Add the layout, state model, and playbook to a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/add-the-layout-state-model-and-playbook-to-a-workflow.md).
 
-**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
+**Parent Topic:**[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

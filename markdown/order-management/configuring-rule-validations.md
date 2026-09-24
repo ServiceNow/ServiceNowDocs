@@ -3,9 +3,9 @@ title: Configuring matrix validation rules
 description: As a product catalog admin or pricing admin, you can manage the system-defined matrix validation rules that automatically check the mandatory rule inputs or outputs in matrix decision tables. You can also define your own custom validations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-rule-validations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---

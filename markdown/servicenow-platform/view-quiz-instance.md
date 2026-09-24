@@ -3,9 +3,9 @@ title: View a quiz instance
 description: View an instance to verify that quiz instances were created, to check the state of a quiz instance, or to reassign a quiz instance. A quiz instance represents one questionnaire assigned to one user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/view-quiz-instance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -121,10 +121,10 @@ All instance question records that store user response values for each question 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-quizzes.md)
+**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/using-quizzes.md)
 
 **Related topics**  
 
 
-[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduleEvents.md)
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduleEvents.md)
 

@@ -3,11 +3,11 @@ title: Map a risk statement to a question response
 description: Map the risk statements to the responses of the assessment questions to automatically create and apply the respective risks on the processing activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/map-risk-statements-to-pa.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a privacy assessment, Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -43,15 +43,15 @@ You can relate risk statements to an assessment question only if the questions a
 
 3.  Open the question for which you want to add risk statement
 
-<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d329288e110">
+<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d334280e110">
 
 Type of questions
 
-</th><th align="left" id="d329288e113">
+</th><th align="left" id="d334280e113">
 
 Steps to map risk statements
 
-</th></tr></thead><tbody><tr><td id="d329288e119">
+</th></tr></thead><tbody><tr><td id="d334280e119">
 
 **Boolean, Template**
 
@@ -66,7 +66,7 @@ To create and apply risk statements for a response, perform the following steps.
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d329288e154">
+</td></tr><tr><td id="d334280e154">
 
 **Choice, Image scale, Numeric, Ranking**
 
@@ -87,5 +87,5 @@ To create and apply risk statements for a response, perform the following steps.
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
+**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
 

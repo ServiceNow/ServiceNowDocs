@@ -1,17 +1,17 @@
 ---
-title: Install ITOM AIOps apps using ServiceNow Otto for Setup
+title: Install ITOM AIOps apps using Setup Hub
 description: Install two plugins to enable ITOM AIOps functionality: ITOM AIOps and ServiceNow Otto for ITOM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/install-aiops-plugins.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ITOM AIOps, plugin installation, Now Assist, IT Operations Management, apps]
 breadcrumb: [ITOM AIOps, IT Operations Management]
 ---
 
-# Install ITOM AIOps apps using ServiceNow Otto for Setup
+# Install ITOM AIOps apps using Setup Hub
 
 Install two plugins to enable ITOM AIOps functionality: ITOM AIOps and ServiceNow Otto for ITOM.
 

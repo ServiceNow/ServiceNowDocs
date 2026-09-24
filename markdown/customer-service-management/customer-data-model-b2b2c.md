@@ -3,9 +3,9 @@ title: Customer data models for B2B2C
 description: The customer data model for B2B2C supports complex business models with multi-level customer relationships. This model can be used to support employees of a business customer or end consumers of a business customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-data-model-b2b2c.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer service business models, Configure customer data models for B2B2C, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -44,7 +44,7 @@ For details on the advantages of using the B2B2C data model application, see the
 -   Enable service provider to have a complete view of the end consumers where they hold the relationship as direct customers \(B2C\) or through a business customer \(B2B2C\).
 -   Reduce costs by enabling self-service for various relationships \(B2C, B2B2C, B2B2E\).
 
-To get started with this application, see [Configure customer data models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-data-model-b2b2c.md).
+To get started with this application, see [Configure customer data models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-customer-data-model-b2b2c.md).
 
-To use this application, see [Using Customer Data Models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-b2b2c.md).
+To use this application, see [Using Customer Data Models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-b2b2c.md).
 

@@ -3,11 +3,11 @@ title: Agile 2.0 Release Dashboard
 description: Track the progress of your stories and analyze scope changes in the current release using Agile 2.0 Release Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-development-release-dashboard.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -90,7 +90,7 @@ scrum\_user
 
 -   **Percent Completed**
 
-    Indicates the percentage of work \(in story points\) that has been completed in the release. This widget lets you see at a glance how much work has been completed in the release. Together with the adjacent Time Elapsed widget, these widgets let you see whether you are completing work at a rate consistent with achieving the release goal on schedule.
+    Indicates the percentage of work \(in story points\) that has been completed in the release. This widget lets you see at a glance how much work has been completed in the release. Together with the adjacent Time Elapsed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the release goal on schedule.
 
 -   **Scope**
 
@@ -98,7 +98,7 @@ scrum\_user
 
 -   **Time Elapsed**
 
-    Indicates the percentage of time that has elapsed between the start date and planned end date of the release. Together with the adjacent Percent Completed widget, these widgets let you see whether you are completing work at a rate consistent with achieving the Release goal on schedule.
+    Indicates the percentage of time that has elapsed between the start date and planned end date of the release. Together with the adjacent Percent Completed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the Release goal on schedule.
 
 -   **Blocked Work**
 
@@ -118,7 +118,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Release Cumulative Flow Diagram
 -   Story Cycle Time
 
-For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
+For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
 
 <table id="table_enf_b2k_k3b"><thead><tr><th>
 
@@ -237,7 +237,7 @@ Identify the time taken for each story in the release to move from an in-progres
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
 </td></tr></tbody>
-</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/customizing-dashboard-reports.md).
+</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/customizing-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

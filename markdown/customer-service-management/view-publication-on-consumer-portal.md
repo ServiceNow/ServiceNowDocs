@@ -3,9 +3,9 @@ title: View a publication on the Consumer Portal
 description: View publications on the Consumer Portal to read targeted communications and download any associated attachments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-publication-on-consumer-portal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -46,5 +46,5 @@ The **Publications** link on the Consumer Portal displays a list of current publ
 **Related topics**  
 
 
-[Search the Knowledge Base on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchForInfoUsingThe-consumer-Portal.md)
+[Search the Knowledge Base on Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_SearchForInfoUsingThe-consumer-Portal.md)
 

@@ -3,9 +3,9 @@ title: Get started with MITRE-ATT&amp;CK framework
 description: Review the following information before you start setting up your MITRE-ATT&amp;CK framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/get-started-with-mitre.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -37,7 +37,7 @@ The following roles are used across the MITRE-ATT&amp;CK features:-   The admini
 -   sn\_ti.mitre\_analyst - The MITRE analyst role has been introduced to allow cross-navigation for the MITRE features between Security Incident Response and Threat Intelligence Support Common. With this role, you can view both the Threat Intelligence MITRE module and the Security Incident Response module in read-only mode.
 -   sn\_si.read
 
- For more information, see [Setup Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md).
+ For more information, see [Setup Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/c_GetStartedWithThreatIntel.md).
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Verify that the following Security Operations applications are installed and act
 -   Threat Intelligence - Version 12.0 or higher
 -   Security Incident Response - Version 12.0 or higher
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [get entitlement for a Security Operations product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) or application and [activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [get entitlement for a Security Operations product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/entitle-secops-product.md) or application and [activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/activate-entitled-store-app.md).
 
 </td></tr><tr><td>
 
@@ -60,10 +60,10 @@ Domain separation
 
 </td><td>
 
-Verify the [domain separation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-and-mitre-att-ck.md) if you intend to separate data, processes, and administrative tasks.
+Verify the [domain separation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/domain-separation-and-mitre-att-ck.md) if you intend to separate data, processes, and administrative tasks.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+</table>**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

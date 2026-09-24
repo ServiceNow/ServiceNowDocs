@@ -3,11 +3,11 @@ title: Privacy Workspace for the privacy analyst
 description: Privacy analysts manage the privacy compliance posture of the processing activity owned by them. Compliance posture refers to the overall compliance status of an organization, business process, or business application, and so on based on the compliant and non-compliant status of controls across various regulations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-analyst.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -27,5 +27,5 @@ The following image shows the processing activity overview page for the privacy 
 
 \[Omitted image "processing-activity-prm-hr-onboarding-sample.png"\] Alt text: Home page for the Privacy analyst.
 
-**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
+**Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 

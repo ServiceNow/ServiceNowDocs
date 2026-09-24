@@ -3,12 +3,12 @@ title: Configure an agent's profile
 description: Configure shifts, skills, schedules, and schedule attributes for agents in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/configure-an-agent-s-profile.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Users, Set up workforce, Configure, Field Service Management]
 ---
 
@@ -79,7 +79,7 @@ Edit existing skills
     1.  In the **Agent Schedules** related list, do one of the following:
 
         -   To view an agent schedule, select a schedule record.
-        -   To add schedule for the agent, select **New**.
+        -   To add a new schedule for the agent, select **New**.
         -   In the **Agent Work Schedule** form, fill in the fields as needed:
 
             |Field|Description|
@@ -202,9 +202,7 @@ Pre shift max travel time
 
 </td><td>
 
-The maximum travel time allowed before the agent starts the scheduled shift.**Note:**
-
-This duration is applicable for scheduling and assigning tasks with Schedule Optimization.
+The maximum travel time allowed before the agent starts the scheduled shift.
 
 </td></tr><tr><td>
 
@@ -222,9 +220,7 @@ Post shift max travel time
 
 </td><td>
 
-The maximum travel time allowed after the agent ends the scheduled shift.**Note:**
-
-This duration is applicable for scheduling and assigning tasks with Schedule Optimization.
+The maximum travel time allowed after the agent ends the scheduled shift.
 
 </td></tr><tr><td>
 

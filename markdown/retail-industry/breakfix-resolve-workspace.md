@@ -3,9 +3,9 @@ title: Resolve Cases in Workspace through HQ Agents
 description: Review assigned break-fix cases in the CSM/FSM workspace, select a service issue type, and propose resolutions using troubleshooting steps, service incidents, or work orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/breakfix-resolve-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Manage Break-Fix cases, Retail]
 ---
@@ -70,18 +70,18 @@ Case transitions to "Resolution Proposed" state. Requestor receives notification
 
 ## What to do next
 
-If requestor rejects resolution, case reopens to your queue with their reason documented. Propose an alternative resolution. See [Respond to Resolutions \(Portal and Mobile\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-respond-resolution.md) to understand the requestor's actions.
+If requestor rejects resolution, case reopens to your queue with their reason documented. Propose an alternative resolution. See [Respond to Resolutions \(Portal and Mobile\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-respond-resolution.md) to understand the requestor's actions.
 
-**Parent Topic:**[Manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-manage-cases.md)
+**Parent Topic:**[Manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-manage-cases.md)
 
 **Related topics**  
 
 
-[Break-Fix Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-overview.md)
+[Break-Fix Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-overview.md)
 
-[Submit Break-Fix Cases through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-submit-case.md)
+[Submit Break-Fix Cases through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-submit-case.md)
 
-[Respond to resolutions through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-respond-resolution.md)
+[Respond to resolutions through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-respond-resolution.md)
 
-[Components for Break-Fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/breakfix-reference.md)
+[Components for Break-Fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-reference.md)
 

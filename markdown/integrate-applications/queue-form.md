@@ -3,9 +3,9 @@ title: Queue form in RPA Hub
 description: Use the Work Queue form to create a queue. A queue lists the work items that you want the robot to process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/queue-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a queue, Queue implementation, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -108,7 +108,7 @@ Include All Work Items
 
 </td><td>
 
-Successful work items that are considered for the Average Handling Time \(AHT\) calculation.For more information about robot pool, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md).
+Successful work items that are considered for the Average Handling Time \(AHT\) calculation.For more information about robot pool, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robot-pool-rpa.md).
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ The default value is 100.
 
 This field appears only when the value of the **Include All Work Items** option is cleared.
 
-For more information about robot pool, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-pool-rpa.md).
+For more information about robot pool, see [Robot pool in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robot-pool-rpa.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -145,14 +145,14 @@ Additional Comments
 Additional comments related to the work queue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-queue.md)
+</table>**Parent Topic:**[Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-queue.md)
 
 **Related topics**  
 
 
-[Using auto-retry functionality for your failed work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/auto-retry-wqi-rpa.md)
+[Using auto-retry functionality for your failed work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/auto-retry-wqi-rpa.md)
 
-[Work item form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-work-queue-items.md)
+[Work item form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-work-queue-items.md)
 
-[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md)
+[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queues-implement-rpa.md)
 

@@ -3,9 +3,9 @@ title: Restart OT Discovery Collector on a Windows system
 description: Perform manual restart of the OT Discovery Collector when its configuration file has been refreshed, or if it is unstable. You can perform manual restart only on Collectors installed in a Windows environment and for Linux-based agents that use systemd.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/restart-discovery-collector-on-windows.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  On a windows system, navigate to the host where OT Discovery Collector is running.
+1.  On a windows system, navigate to the host where the OT Discovery Collector is running.
 
 2.  Open the Services dialog in Windows.
 
@@ -31,7 +31,7 @@ Role required: admin
 
 ## Result
 
-OT Discovery Collector restart in the Windows environment.
+The OT Discovery Collector restarts in the Windows environment.
 
-**Parent Topic:**[Use the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ot-discovery-collector.md)
+**Parent Topic:**[Use the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/use-ot-discovery-collector.md)
 

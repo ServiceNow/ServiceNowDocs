@@ -3,11 +3,11 @@ title: Tutorial part 5: Clone the application on a different instance
 description: Clone the application from the remote repository to develop it on another instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/tutorial-clone-application-ide.html
-release: australia
+release: brazil
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Getting started: Create your first application in the ServiceNow IDE, Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Clone the application from the remote repository to develop it on another instan
 
 ## Before you begin
 
-Complete [Tutorial part 4: Install and use a third-party library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/tutorial-install-third-party-library-ide.md).
+Complete [Tutorial part 4: Install and use a third-party library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/tutorial-install-third-party-library-ide.md).
 
 Role required: admin
 
@@ -28,7 +28,7 @@ If you have access to another instance, you can install the application from the
 
 **Note:** The instance and your user on the instance must meet the same requirements mentioned at the beginning of this tutorial.
 
-Cloning is intended for developing an application on multiple non-production instances and managing it in a single repository. To publish an application and deploy it to a production instance, use the Application Repository. For more information, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/app-repo.md).
+Cloning is intended for developing an application on multiple non-production instances and managing it in a single repository. To publish an application and deploy it to a production instance, use the Application Repository. For more information, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-repository-self-hosted/app-repo.md).
 
 ## Procedure
 
@@ -97,7 +97,7 @@ The application is added to the instance with the files from the remote reposito
 
 ## What to do next
 
-Continue to [Tutorial part 6: Learn more about the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/tutorial-next-steps-ide.md).
+Continue to [Tutorial part 6: Learn more about the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/tutorial-next-steps-ide.md).
 
-**Parent Topic:**[Getting started: Create your first application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/getting-started-create-application-ide.md)
+**Parent Topic:**[Getting started: Create your first application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/getting-started-create-application-ide.md)
 

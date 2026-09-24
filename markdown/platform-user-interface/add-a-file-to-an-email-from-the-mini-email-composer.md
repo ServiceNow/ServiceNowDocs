@@ -3,9 +3,9 @@ title: Add a file to an email from the mini email composer
 description: Send a file from your computer or related record to a requester or agent from the mini email composer by attaching it to an email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-a-file-to-an-email-from-the-mini-email-composer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mini email composer, Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

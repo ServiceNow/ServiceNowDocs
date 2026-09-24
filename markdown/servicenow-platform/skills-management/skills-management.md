@@ -3,11 +3,11 @@ title: Skills Management
 description: Use Skills Management to associate skills with individual users or groups and assign them to tasks or projects. You can also assess the skills needed for your organization, identify gaps, and implement effective plans for hiring or training of your teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/skills-management.html
-release: australia
+release: brazil
 product: Skills Management
 classification: skills-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,19 +24,19 @@ Use Skills Management to associate skills with individual users or groups and as
 
 <table id="table_czt_xvp_vyb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how you can implement and manage skills for individuals or teams.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/exploring-skills-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how you can implement and manage skills for individuals or teams.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/skills-management/exploring-skills-management.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/configuring-skills-management.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/skills-management/configuring-skills-management.md)
 
 </td></tr><tr><td>
 
-[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Implement skills across your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/using-skills-management.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Implement skills across your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/skills-management/using-skills-management.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about roles and extension points in Skills Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/reference-for-skills-management.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about roles and extension points in Skills Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/skills-management/reference-for-skills-management.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

@@ -3,11 +3,11 @@ title: Integration Hub usage and subscription
 description: Choose a subscription package to build reusable integrations with third-party systems. Review the usage dashboard to determine the number of transactions used within your current subscription, and to view transaction details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/subscription-usage.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request Integration Hub, Configure, Integration Hub, Workflow Data Fabric]
 ---
@@ -28,5 +28,5 @@ Protocols and spokes that are available in the Subscription Product are set fort
 
 We have documented the Spoke entitlements available with the specific Subscription Product in a KB Article on Now Support: [Spoke entitlement per Subscription Product](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1224540).
 
-**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)
+**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/request-ih-overview.md)
 

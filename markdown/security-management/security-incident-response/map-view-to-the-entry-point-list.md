@@ -3,11 +3,11 @@ title: Mapping View of the Associate Info to the entry point list
 description: Map the associated info view to the newly added entry point list using the Map Associated Info View action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/map-view-to-the-entry-point-list.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure SI design time investigation, Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
 3.  Enter the view name containing the associated info related lists in the **Associated Info View** field.
 
-    For information on how to create a view for the associated info related lists, see [Creating View for associated info tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/creating-view-for-associated-info-tables.md).
+    For information on how to create a view for the associated info related lists, see [Creating View for associated info tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/creating-view-for-associated-info-tables.md).
 
     \[Omitted image "entry-point-list-selection.png"\] Alt text: Entry point selection for the associated info view
 
@@ -43,5 +43,5 @@ Role required: admin
     You can also configure the entry point list layout using **Edit Entry Point List Layout** action. Add or remove columns from the slush bucket as desired, and save the form.
 
 
-**Parent Topic:**[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)
+**Parent Topic:**[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)
 

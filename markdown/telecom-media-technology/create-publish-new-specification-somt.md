@@ -3,9 +3,9 @@ title: Create and publish a specification version
 description: Create and publish a version of an existing specification in a Published state so that you can offer an improved version of it to your customers in your product catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-publish-new-specification-somt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Specification versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -100,21 +100,21 @@ You can't change this field.
 
 4.  To reflect the engineering changes that were made to the physical product, update the specification relationships, decomposition rules, quantity mappings, and attribute propagation rules as follows:
 
-    1.  To update the characteristics and characteristic options that are associated with your specification, use the Specification Characteristics related list. To learn more, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-specification-rels.md).
-    2.  To update the specification relationships and accompanying decomposition rules, use the Specification Relationships related list. To learn more, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-specification-rels.md).
+    1.  To update the characteristics and characteristic options that are associated with your specification, use the Specification Characteristics related list. To learn more, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-specification-rels.md).
+    2.  To update the specification relationships and accompanying decomposition rules, use the Specification Relationships related list. To learn more, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-specification-rels.md).
     3.  To update attribute mappings, use the Attribute Mappings related list. To learn more, see .
     4.  To create a product offering from the specification, navigate to the Product Offerings related
 5.  When you finish creating the specification version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d43911e273">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d43962e273">
 
 Action
 
-</th><th align="left" id="d43911e276">
+</th><th align="left" id="d43962e276">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43911e282">
+</th></tr></thead><tbody><tr><td id="d43962e282">
 
 **Publish**
 
@@ -124,7 +124,7 @@ Publish the draft specification so that you can use it in a product catalog as f
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d43911e300">
+</td></tr><tr><td id="d43962e300">
 
 **Update**
 
@@ -132,7 +132,7 @@ Publish the draft specification so that you can use it in a product catalog as f
 
 Update the specification with the new data that you added, but do not publish it for use in a product catalog.
 
-</td></tr><tr><td id="d43911e309">
+</td></tr><tr><td id="d43962e309">
 
 **Copy**
 
@@ -146,7 +146,7 @@ Copy the data in this specification so that you can create a specification from 
 
 
 </td></tr></tbody>
-</table>    **Note:** To learn more about the validations that are performed when you publish a new specification version, and how to resolve any reported errors, see the section about validations in [Create and publish a specification version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-publish-new-specification-somt.md).
+</table>    **Note:** To learn more about the validations that are performed when you publish a new specification version, and how to resolve any reported errors, see the section about validations in [Create and publish a specification version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-publish-new-specification-somt.md).
 
 
 **Related topics**  
@@ -154,7 +154,7 @@ Copy the data in this specification so that you can create a specification from 
 
 [bundle-omgmt.order-mgt-product-data-model]
 
-[Create and publish product specifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-product-specifications.md)
+[Create and publish product specifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-product-specifications.md)
 
-[Create and publish service specifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-service-specification.md)
+[Create and publish service specifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-service-specification.md)
 

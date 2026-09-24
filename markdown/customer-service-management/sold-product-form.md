@@ -3,9 +3,9 @@ title: Sold product form
 description: Descriptions of the fields on the sold product form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/sold-product-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
@@ -37,6 +37,22 @@ Parent Sold Product
 </td><td>
 
 Parent of the sold product, if applicable.
+
+</td></tr><tr><td>
+
+Product
+
+</td><td>
+
+Product model that the sold product belongs to.
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -80,14 +96,6 @@ A Boolean value that indicates whether the sold product’s price is derived fro
 
 </td></tr><tr><td>
 
-Product
-
-</td><td>
-
-Product model that the sold product belongs to.
-
-</td></tr><tr><td>
-
 Household
 
 </td><td>
@@ -101,14 +109,6 @@ Buyer Organization
 </td><td>
 
 Internal or external entity that is involved in providing a service to the customer.**Note:** If you select a buyer organization, the **Household**, **Account**, **Contact**, and **Consumer** fields are hidden. The **Buyer Organization** field is active only when the service organization plugin is installed.
-
-</td></tr><tr><td>
-
-Buyer Organization Member
-
-</td><td>
-
-Reference field pointing to the Business Organization Member \[sn\_csm\_service\_organization\_member\] table. Use this field to associate the sold product with a specific member of the business organization.
 
 </td></tr><tr><td>
 
@@ -173,11 +173,11 @@ The service location of the sold product.
 
 </td></tr><tr><td>
 
-Start and end dates
+Contract start date and Contract end date
 
 </td><td>
 
-The existing Add order to Sold product to create Sold product state is changed to **In Preparation** if the start date &gt;current date. If `current_date >= start_date` and `current_date <= end_date` then the state is changed to **Active**. If `current_date > end_date` then the state is changed to **Expired**.
+The existing Add order to Sold product to create Sold product state is changed to **In Preparation** if the contract start date &gt;current date. If `current_date >= contract_start_date` and `current_date <= contract_end_date` then the state is changed to **Active**. If `current_date > end_date` then the state is changed to **Expired**.
 
 </td></tr><tr><td>
 
@@ -194,6 +194,25 @@ Seller organization
 </td><td>
 
 The organization that sells and supports the products or services owned by the customer.
+
+</td></tr><tr><td>
+
+Deal type
+
+</td><td>
+
+Indicates the type of deal associated with the order.-   Direct : The seller engages directly with the customer, with no intermediary partner involved.
+-   Indirect : The seller engages the customer through an intermediary, such as as reseller, service provider, or distributor.
+
+</td></tr><tr><td>
+
+Route to market
+
+</td><td>
+
+Identifies the exact sales channel used to execute the deal:-   Direct
+-   Reseller
+-   Distributor
 
 </td></tr></tbody>
 </table><table id="table_zjm_kqp_ydc"><thead><tr><th>
@@ -341,4 +360,10 @@ Unit list price
 Allow users to capture the list price of the specific sold product.
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/sold-product.md)
+
+[Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sold-item.md)
+

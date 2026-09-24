@@ -3,11 +3,11 @@ title: Using Agent Chat
 description: Agent Chat enables live agents to have conversations with requesters and for managers to help agents and monitor them.Use shortcuts, known as quick actions, for common activities that are performed frequently.Agents can use Conversation Autopilot to display Virtual Agent topics during Agent Chat conversations. While the requester interacts with the Virtual Agent topics, agents can multitask and work on other items. Conversation Autopilot is not available for HR Service Delivery \(HRSD\).Use emojis in Agent Chat conversations to convey emotions to requesters. This helps requesters feel like they're having a conversation with a friend and builds customer brand loyalty.Use Dynamic Translation for Agent Chat \(DTAC\) to have a chat conversation with a requester who uses a different language.Send a message to a requester even when the requester isn't online while working on issues in Workspace. A long-running conversation between an an agent and a requester who are not online concurrently is called an asynchronous, or async, chat.Use the action bar in chat interaction records to access a range of actions that help manage and respond to records efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ci-agent-chat-using.html
-release: australia
+release: brazil
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 keywords: [Using, Agent Chat, Virtual Agent, live, conversation]
 breadcrumb: [Agent Chat, Conversational Interfaces]
@@ -63,7 +63,7 @@ The following figure shows that, after an agent inserts a quick action to transf
 
 \[Omitted image "queues-parameters.png"\] Alt text: Available queues parameters
 
-To create a quick action that requires a secondary menu, you must define parameters for the quick action. For more information, see [Define a quick action parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
+To create a quick action that requires a secondary menu, you must define parameters for the quick action. For more information, see [Define a quick action parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
 
 ## Automatically displaying topics with Conversation Autopilot
 
@@ -71,7 +71,7 @@ Agents can use Conversation Autopilot to display Virtual Agent topics during Age
 
 While talking to a requester in an Agent Chat conversation, agents can start Conversation Autopilot by using autopilot quick actions to invoke Virtual Agent topics. Depending on the information entered by the requester, agents can search for a specific Virtual Agent topic and display it with parameters. The requester views the topic and responds as needed and Virtual Agent captures the requester’s input.
 
-**Note:** For the best experience, enable the Agent Chat setting that turns on system messages during autopilot. For details, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+**Note:** For the best experience, enable the Agent Chat setting that turns on system messages during autopilot. For details, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 ### Configuring Autopilot
 
@@ -79,7 +79,7 @@ You must have the Glide Virtual Agent plugin and the Agent Chat plugin installed
 
 **Note:** Admins must be able to configure a quick action based on their organization's business need and set it up for agents to use as required.
 
-For information on using quick actions in Agent Chat, see [Using quick actions in Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md).
+For information on using quick actions in Agent Chat, see [Using quick actions in Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md).
 
 ### Using Autopilot
 
@@ -111,7 +111,7 @@ Use emojis in Agent Chat conversations to convey emotions to requesters. This he
 
 ### Before you begin
 
-Emojis must be enabled before agents can use them in Agent Chat. See [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) for instructions on enabling emojis.
+Emojis must be enabled before agents can use them in Agent Chat. See [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md) for instructions on enabling emojis.
 
 Role required: admin
 
@@ -165,7 +165,7 @@ You can navigate to the individual chat message and select the translation-indic
 
 ### Translated chat transcripts
 
-Two chat transcripts are generated at the end of each DTAC chat session. One for the requester to download and save in the requester’s language. The other is the agent’s transcript which contains the text as seen in the agent’s chat window. If an agent used DTAC in part of the chat, the transcript contains both the translated and non-translated text. For more information, see [Chat transcript downloads for requesters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-chat-transcripts.md).
+Two chat transcripts are generated at the end of each DTAC chat session. One for the requester to download and save in the requester’s language. The other is the agent’s transcript which contains the text as seen in the agent’s chat window. If an agent used DTAC in part of the chat, the transcript contains both the translated and non-translated text. For more information, see [Chat transcript downloads for requesters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-chat-transcripts.md).
 
 ### Chat transferred from Virtual Agent
 
@@ -207,9 +207,9 @@ Role required: admin
 **Related topics**  
 
 
-[Asynchronous chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/async-chat.md)
+[Asynchronous chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/async-chat.md)
 
-[Configure asynchronous chat for the web channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-async-web.md)
+[Configure asynchronous chat for the web channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-async-web.md)
 
 ## Using the action bar in chat interaction records
 

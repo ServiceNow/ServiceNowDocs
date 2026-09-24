@@ -3,11 +3,11 @@ title: Reclaiming user subscriptions
 description: You can reclaim unused SaaS and SSO subscriptions to reduce your total software costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/reclaiming-user-subscriptions-saas.html
-release: australia
+release: brazil
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -99,12 +99,12 @@ Closed Canceled
 The user subscription hasn’t been reclaimed by the removal candidate because user activity is detected.
 
 </td></tr></tbody>
-</table>-   **[Reclaim user subscriptions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/reclaim-user-subscription-saas-classic.md)**  
+</table>-   **[Reclaim user subscriptions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/reclaim-user-subscription-saas-classic.md)**  
 Reclaim unused SaaS and SSO subscriptions in the Software Asset Management classic application.
--   **[Reclaim user subscriptions in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/reclaim-user-subscription-saas-workspace.md)**  
+-   **[Reclaim user subscriptions in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/reclaim-user-subscription-saas-workspace.md)**  
 Reclaim unused SaaS and SSO subscriptions in the Software Asset Workspace.
 
-**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
+**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 
@@ -143,5 +143,5 @@ Reclaim unused SaaS and SSO subscriptions in the Software Asset Workspace.
 
 [Subscription exclusions for SaaS and SSO applications]()
 
-[Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reclamation-rules.md)
+[Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/reclamation-rules.md)
 

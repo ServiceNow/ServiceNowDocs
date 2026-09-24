@@ -3,11 +3,11 @@ title: Edit the related devices and equipment model entities in a change record
 description: Add or remove the related Operational Technology \(OT\) devices and equipment model entities directly from an OT change record. You can track the relationship between the change request and its affected items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/edit-devices-and-equipment-model-entities-in-ot-change-record.html
-release: australia
+release: brazil
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Change Management, Operational Technology]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_ot\_change\_write or sn\_ot\_change\_admin
 
 5.  Add or remove a related OT device.
 
-<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d44176e110">
+<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d44300e110">
 
 Action
 
-</th><th align="left" id="d44176e113">
+</th><th align="left" id="d44300e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44176e119">
+</th></tr></thead><tbody><tr><td id="d44300e119">
 
 **Add a related OT device from the change record**
 
@@ -52,7 +52,7 @@ Description
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d44176e149">
+</td></tr><tr><td id="d44300e149">
 
 **Remove a related OT device from the change record**
 
@@ -70,5 +70,5 @@ Description
 6.  Add or remove an equipment model entity from a change record by repeating steps 4 and 5 but in the Impacted Equipment Model Entities related list.
 
 
-**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

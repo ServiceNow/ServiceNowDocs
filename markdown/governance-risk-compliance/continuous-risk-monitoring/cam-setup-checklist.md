@@ -3,11 +3,11 @@ title: Checklist for Continuous Authorization and Monitoring setup
 description: The checklist includes the tasks that you must complete to prepare the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-setup-checklist.html
-release: australia
+release: brazil
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -41,11 +41,11 @@ As a user with the System Administrator role, verify that you have the GRC core 
     -   GRC: Risk Management
     -   GRC: Audit Management
 4.  After the applications have been installed, install the Continuous Authorization and Monitoring core application.
- If any application is not visible in your instance, you can download it from the ServiceNow Store. For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-and-store.md).
+ If any application is not visible in your instance, you can download it from the ServiceNow Store. For more information about getting entitlement, downloading, and installing the GRC core applications, see [GRC and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-and-store.md).
 
 </td></tr><tr><td>
 
-As a user with the CAM Administrator role, assigned users with the required roles as described in [Assign Continuous Authorization and Monitoring roles to users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/assign-cam-roles.md).
+As a user with the CAM Administrator role, assigned users with the required roles as described in [Assign Continuous Authorization and Monitoring roles to users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/assign-cam-roles.md).
 
 </td></tr></tbody>
 </table>

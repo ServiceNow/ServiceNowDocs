@@ -3,11 +3,11 @@ title: Designate role delegators
 description: Designate role delegators to assign roles to users who are in a particular group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_RoleDelegation.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Delegating roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,5 +37,5 @@ Delegators can assign roles that they inherit from a group. They can also assign
     A change request for the role delegator request is created and automatically approved.
 
 
-**Parent Topic:**[Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md)
+**Parent Topic:**[Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_DelegateRoles.md)
 

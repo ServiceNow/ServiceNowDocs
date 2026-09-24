@@ -3,9 +3,9 @@ title: Assignment workbench overview
 description: The assignment workbench enables customer service managers to assign tasks to agents efficiently and intelligently. The workbench uses configurable criteria, such as skills and availability, to evaluate the agents in a selected group and provide an overall ranking. Managers can view these results and click one button to assign a task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-assignment-workbench.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Agent management, Use, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ Use the filter to change the assignment group and to add or remove skills. Chang
 -   Changing the assignment group displays a different list of agents.
 -   Adding or removing skills can change the agent ranking.
 
-If you are using the [mandatory skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-mandatory-skills-feature.md) feature, the agents displayed in the assignment workbench are filtered by the skills in the **Mandatory Skills Added** list and then ranked by the other matching criteria.
+If you are using the [mandatory skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-mandatory-skills-feature.md) feature, the agents displayed in the assignment workbench are filtered by the skills in the **Mandatory Skills Added** list and then ranked by the other matching criteria.
 
 **Note:** Agents cannot add or remove mandatory skills or make a skill not mandatory.
 
@@ -182,5 +182,5 @@ Number of agents per page. \(To get better performance, do not use more than 50 
 </table>**Related topics**  
 
 
-[Configure assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-assignment-workbench.md)
+[Configure assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-assignment-workbench.md)
 

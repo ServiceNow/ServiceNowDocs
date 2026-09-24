@@ -3,12 +3,12 @@ title: New visit form
 description: Use the New visit form to select a purpose, location, date and time for your visit. Additionally, add visitors and optional co-hosts
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/new-visit-form.html
-release: australia
+release: brazil
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
-last_updated: "2026-03-10"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -103,10 +103,32 @@ Private note to receptionist
 Additional requirements or a private note to the receptionist.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
+
+**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 
+
+[Components installed with Workplace Visitor Management]()
+
+[Properties installed with Workplace Visitor Management]()
+
+[Kiosk Check-in Flow Configuration form]()
+
+[Kiosk Check-out Flow Configuration form]()
+
+[Kiosk Page Configuration form]()
+
+[Kiosk Page Customizations]()
+
+[Location Policy form]()
+
+[Additional requirement form]()
+
+[About visit-related tables]()
+
+[Differences between Workplace Visitor Management versions]()
 
 [Components installed with Workplace Visitor Management]()
 

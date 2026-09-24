@@ -3,13 +3,13 @@ title: Set up trusted media domains for secure file upload
 description: Virtual Agent uses trusted media domains to check the URLs of attachment files before uploading them. If a URL is not from a trusted domain, Virtual Agent will not upload the attachment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/ccif-secure-file-upload.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Supported features for custom chat integrations, Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Supported features for custom chat integrations, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Set up trusted media domains for secure file upload
@@ -82,7 +82,7 @@ Comma-separated list of one or more trusted domains for the provider. For exampl
 
 **Note:** Subdomains under a trusted domain are also trusted. You do not need to specify subdomains in this list.
 
- If this field is not visible, you can [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to show it.
+ If this field is not visible, you can [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) to show it.
 
  For security reasons, Virtual Agent checks that the URLs for attachments in conversations are from trusted domains specified here. If the URL is not for a trusted domain, Virtual Agent doesn't upload the attachment.
 
@@ -104,5 +104,5 @@ Description for your channel identifier.
 4.  Create additional channel identifiers using the same procedure.
 
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

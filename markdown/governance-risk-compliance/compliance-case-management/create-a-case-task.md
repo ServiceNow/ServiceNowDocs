@@ -3,11 +3,11 @@ title: Create an action task
 description: Create an action task to investigate, gather evidence, and perform an assessment so that you can analyze and assess a reported case in the GRC: Compliance Case Management application. Each case can have multiple case tasks that you can assign to different owners across multiple teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/create-a-case-task.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Compliance case task workflow, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ After a case is reported to the compliance team, a compliance case analyst can c
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  In the List section, select **All Cases**.
 
@@ -40,7 +40,7 @@ After a case is reported to the compliance team, a compliance case analyst can c
 
 7.  On the form, fill in the fields.
 
-    For a description of the field values on the action task form, see [Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/case-task-form.md).
+    For a description of the field values on the action task form, see [Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/case-task-form.md).
 
 8.  Select **Save**.
 
@@ -63,8 +63,8 @@ After a case is reported to the compliance team, a compliance case analyst can c
     3.  In the Reassign Action task dialog box, select **Reassign**.
 
 
--   **[Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/case-task-form.md)**  
+-   **[Case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/case-task-form.md)**  
 Use the Case Task form in the GRC: Compliance Case Management application to create a case task for a reported compliance case.
 
-**Parent Topic:**[Compliance case task workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/compliance-case-task-workflow.md)
+**Parent Topic:**[Compliance case task workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/compliance-case-task-workflow.md)
 

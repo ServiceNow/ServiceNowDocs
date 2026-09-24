@@ -3,11 +3,11 @@ title: Copy a KPI group to create a new KPI group in Digital Portfolio Managemen
 description: Create a new key performance indicator \(KPI\) group by copying an existing KPI group in Digital Portfolio Management \(DPM\). All the KPI records, supporting KPIs, and mappings of the KPI group are copied as well. After you copy the KPI group, you can modify all aspects of it so the new group best fits your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-copy-kpi-group.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure KPI groups, Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -49,5 +49,5 @@ This procedure uses the KPI groups **Copy** button. To see the **Copy** button o
     -   Select **Delete** while viewing the KPI group \(it's next to **Copy**\).
     -   Select the box next to the KPI group name in the KPI group list, and then navigate to **Actions on selected rows** &gt; **Delete**.
 
-**Parent Topic:**[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)
+**Parent Topic:**[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)
 

@@ -3,11 +3,11 @@ title: Track the progress of an escalation
 description: Use the On-Call Escalation Tracking page for full visibility into the time line of an active or closed escalation as it progresses through its on-call escalation path.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/track-escalation-progress-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Escalations in On-Call Scheduling, Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
@@ -24,8 +24,8 @@ Role required: Any role that enables the user to read incidents.
 
 **Note:**
 
--   Escalation logging must be enabled to view the On-Call Escalation Tracking page. See the **com.snc.on\_call\_rotation.log\_escalations** property in [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
--   An on-call escalation is canceled when the assignment group of the associated task record, for example, an incident, changes to a different group without a matching trigger rule. It ensures that an existing irrelevant escalation workflow is no longer associated with that task record.\[Omitted image "canceled-escalation-oncall.png"\] Alt text: An on-call escalation has been cancelled.
+-   Escalation logging must be enabled to view the On-Call Escalation Tracking page. See the **com.snc.on\_call\_rotation.log\_escalations** property in [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/on-call-properties.md).
+-   An on-call escalation is canceled when the assignment group of the associated task record, for example, an incident, changes to a different group without a matching trigger rule. It ensures that an existing irrelevant escalation workflow is no longer associated with that task record.
 
 ## Procedure
 
@@ -57,12 +57,14 @@ Role required: Any role that enables the user to read incidents.
     -   Red: All escalatees have rejected the escalation.
     **Note:** To enhance the visual differences between dots, use the high-contrast user interface.
 
+    For more information on the delivery status of each mode of contact, see [Delivery status tracking for On-Call Scheduling notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/delivery-status-tracking-oncall.md).
+
 4.  Depending on the contact settings, you can call or send a direct message to the person from the escalatee's **Profile** tab.\[Omitted image "delegator-escalation-tracking-oncall.png"\] Alt text: On-call tracking progress
 
     Click \[Omitted image "icon-information.png"\] Alt text: Info icon to view delegator and delegated user's information.
 
 
-**Parent Topic:**[Escalations in On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/escalations-oncall.md)
+**Parent Topic:**[Escalations in On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/escalations-oncall.md)
 
 **Related topics**  
 
@@ -70,4 +72,6 @@ Role required: Any role that enables the user to read incidents.
 [Designing an escalation process]()
 
 [View details in an escalation log]()
+
+[Delivery status tracking for On-Call Scheduling notifications]()
 

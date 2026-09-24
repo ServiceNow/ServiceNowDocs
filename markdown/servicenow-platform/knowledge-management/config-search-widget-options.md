@@ -3,11 +3,11 @@ title: Configure search widget instance options
 description: Configure widget instance options for the search widgets on the Knowledge Management Service Portal homepage and search results page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-search-widget-options.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management Service Portal widgets, Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,10 +47,10 @@ The homepage uses the Knowledge Homepage Search widget and the search results pa
     |Alternate URL Parameters for Language|Search result page|Alternate parameters that appear in the URL denoting the selected language.|
     |Minimum Number of Characters for Search|Both|The minimum number of characters required to generate a search.|
     |Glyph|Both|An icon that appears in the search bar.|
-    |CSS|Both|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/scss-primer.md).|
+    |CSS|Both|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/scss-primer.md).|
 
 5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

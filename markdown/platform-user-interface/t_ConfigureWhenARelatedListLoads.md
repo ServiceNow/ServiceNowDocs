@@ -3,9 +3,9 @@ title: Configure when a related list loads
 description: If there are many related lists on a form or many records in the related lists, the form may load slowly. You can improve form response times by configuring related lists to load manually, on demand, or automatically, after the rest of the form loads.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfigureWhenARelatedListLoads.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -26,7 +26,7 @@ Role required: none
 
 2.  Select one of the following options from the **Loads related lists in classic forms** menu.
 
-<table id="choicetable_rmk_dk5_1r"><tbody><tr><td id="d87484e86">
+<table id="choicetable_rmk_dk5_1r"><tbody><tr><td id="d87609e86">
 
 **With the Form**
 
@@ -34,7 +34,7 @@ Role required: none
 
 Related lists load when you open the form, which is the default setting. When selected, it sets the value of the glide.ui.related\_list\_timing user preference to `default`.
 
-</td></tr><tr><td id="d87484e101">
+</td></tr><tr><td id="d87609e101">
 
 **After Form Loads**
 
@@ -42,7 +42,7 @@ Related lists load when you open the form, which is the default setting. When se
 
 Related lists load after the rest of the form loads. When selected, it sets the value of the glide.ui.related\_list\_timing user preference to `deferred`.
 
-</td></tr><tr><td id="d87484e116">
+</td></tr><tr><td id="d87609e116">
 
 **On-demand**
 
@@ -54,7 +54,7 @@ Related lists load on demand. When this option is selected, a **Load Related Lis
 </table>3.  Close the display preferences menu.
 
 
-**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 

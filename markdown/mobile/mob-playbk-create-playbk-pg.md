@@ -3,9 +3,9 @@ title: Create a Now Experience Framework page in UI Builder
 description: To configure mobile web screens that use Mobile App Bridge to leverage a playbook on mobile devices, the first step is to create a Now Experience Framework page in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mob-playbk-create-playbk-pg.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure mobile web screens, Mobile App Bridge, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-You must create a Now Experience Framework page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) before you can configure mobile web screens that can leverage a playbook on mobile devices. After you configure the page, you must configure a web screen in Mobile App Builder \(MAB\). For details about configuring mobile web screens that use Mobile App Bridge to leverage platform features on mobile devices, see [Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-playbooks.md).
+You must create a Now Experience Framework page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md) before you can configure mobile web screens that can leverage a playbook on mobile devices. After you configure the page, you must configure a web screen in Mobile App Builder \(MAB\). For details about configuring mobile web screens that use Mobile App Bridge to leverage platform features on mobile devices, see [Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-mobile-playbooks.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ You must create a Now Experience Framework page in [UI Builder](https://raw.gith
 
 5.  Select **Create from scratch instead**.
 
-    For information about working with templates or creating a page from scratch in UI Builder, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-customize-playbook.md).
+    For information about working with templates or creating a page from scratch in UI Builder, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/playbook-customize-playbook.md).
 
 6.  Name the page and select **Continue**.
 
@@ -80,14 +80,14 @@ You must create a Now Experience Framework page in [UI Builder](https://raw.gith
     5.  When you've finished configuring the event handler, select **Add** in the lower right corner of the dialog box.
 14. In the Now Experience Framework editor page, select **Save** in the upper right corner to save the page.
 
-    For information about configuring a playbook, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-customize-playbook.md).
+    For information about configuring a playbook, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/playbook-customize-playbook.md).
 
     **Note:** The getTitle\(\) method in the GlideListProperties API isn't available in Mobile App Bridge to configure Next Experience \(Seismic\) pages.
 
 
 ## What to do next
 
-After you’ve created the Now Experience Framework page, you must create a mobile web screen in MAB. Then you must add the Now Experience Framework page URL to the mobile web screen configuration in MAB. For details on completing this configuration, see Step 2 in [Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-playbooks.md).
+After you’ve created the Now Experience Framework page, you must create a mobile web screen in MAB. Then you must add the Now Experience Framework page URL to the mobile web screen configuration in MAB. For details on completing this configuration, see Step 2 in [Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-mobile-playbooks.md).
 
-**Parent Topic:**[Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-playbooks.md)
+**Parent Topic:**[Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-mobile-playbooks.md)
 

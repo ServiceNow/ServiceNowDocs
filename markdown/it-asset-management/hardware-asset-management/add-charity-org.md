@@ -3,13 +3,13 @@ title: Add a charity organization for donating assets
 description: Add a charity organization to the Charity Organization \[sn\_itam\_common\_charity\_org\] table to make it available for asset donations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/add-charity-org.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Donate assets to charity organizations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Add a charity organization for donating assets
@@ -72,14 +72,5 @@ Domain of the charity organization record.The charity organization record is set
 
 The charity organization record that you added is added to the Charity Organizations list.
 
-**Parent Topic:**[Donate assets to charity organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.md)
-
-**Related topics**  
-
-
-[Create an Asset Donation Order]()
-
-[Approve or reject an Asset Donation Order]()
-
-[Process an Asset Donation Order]()
+**Parent Topic:**[Integrations and advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/integrations-advncd-configs.md)
 

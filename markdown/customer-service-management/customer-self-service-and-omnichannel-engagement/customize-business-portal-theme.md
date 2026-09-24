@@ -3,13 +3,13 @@ title: Setup the theme for Business and Consumer Portals
 description: Customize the theme of the Business and Consumer Portals to add font and theme style sheets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-business-portal-theme.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setup Business and Consumer Portal, Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Setup Business and Consumer Portal, Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Setup the theme for Business and Consumer Portals
@@ -63,5 +63,5 @@ You must customize your theme to add font or theme size-related style sheets.
 **Related topics**  
 
 
-[Portal Polaris Header widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-header-widget.md)
+[Portal Polaris Header widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-header-widget.md)
 

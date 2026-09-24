@@ -1,19 +1,19 @@
 ---
 title: Customize an order summarization skill in ServiceNow Otto for Order Management
-description: Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+description: Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CRM Workspace and Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/customize-order-summarization-skill-now-assist-order-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
 
 # Customize an order summarization skill in ServiceNow Otto for Order Management
 
-Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
+Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CRM Workspace and Business Portal.
 
 ## Before you begin
 
@@ -112,7 +112,7 @@ Description of the base input field value.
 
     Review and test the default prompt provided. The prompt is fixed and can’t be customized directly within this step or from the AI Admin Hub screen.
 
-    To customize or create prompts, select **Edit prompt in AI Skill Kit**. You are redirected to the AI Skill Kit, where you can manage prompt configurations for the skill. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
+    To customize or create prompts, select **Edit prompt in AI Skill Kit**. You are redirected to the AI Skill Kit, where you can manage prompt configurations for the skill. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
 
     1.  For each input template \(Product Order Capture or Service Order Capture\), select a record in the Test output section and test the prompt response output format by selecting **Run Test**.
 
@@ -154,5 +154,5 @@ Description of the base input field value.
     Select **Summarize** in an order to generate the order summary.
 
 
-**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 

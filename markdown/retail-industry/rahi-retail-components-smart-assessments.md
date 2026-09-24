@@ -3,7 +3,7 @@ title: Components installed with Smart Assessments for CSM
 description: Smart Assessment support in Customer Service Management \(CSM\) and Field Service Management \(FSM\) workspaces provides a unified experience for creating, configuring, and viewing assessment templates and instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-smart-assessments.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-06-05"
 reading_time_minutes: 1
@@ -24,5 +24,5 @@ The following enhancements are available in these workspaces:
 -   A dedicated Smart Assessment Instance record page variant is available in CSM and FSM configurable workspaces.
 -   The Smart Assessment Instance record page enables users to view Smart Assessment instance details within the workspace experience.
 
-**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

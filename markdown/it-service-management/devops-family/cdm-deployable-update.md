@@ -3,11 +3,11 @@ title: Update the associations for a deployable
 description: Update the name and description of a deployable as well as its associations with applications and other items. This procedure is optional.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-deployable-update.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [DevOps Config reference, DevOps Config, IT Service Management]
 ---
@@ -18,13 +18,13 @@ Update the name and description of a deployable as well as its associations with
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: cdm\_policy\_editor or cdm\_editor or cdm\_admin
 
 ## About this task
 
-This optional procedure explains how to update the details of a deployable definition. For information on configuring the data in a deployable, see [Create and update a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-deployable-define.md).
+This optional procedure explains how to update the details of a deployable definition. For information on configuring the data in a deployable, see [Create and update a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-deployable-define.md).
 
 **Note:** You cannot change the SDLC environment type \(development, test, or production\) of a deployable because such a change would have significant impact. For example, mapped policies and their inputs might differ significantly between test and production versions of a config dataset.
 
@@ -121,10 +121,10 @@ Text description that helps other users understand the purpose, scope, and inten
 </table>3.  Select **Update**.
 
 
-**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-reference.md)
+**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/devops-config-reference.md)
 
 **Related topics**  
 
 
-[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-variables-crud.md)
+[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-variables-crud.md)
 

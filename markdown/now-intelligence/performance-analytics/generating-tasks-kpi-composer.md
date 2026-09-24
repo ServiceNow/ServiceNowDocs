@@ -3,18 +3,22 @@ title: Generating tasks in KPI Composer
 description: For each KPI Composer artifact in your project, you can generate a task to create an equivalent Performance Analytics element. All tasks are created with one action. The tasks are assigned automatically to the responsible group for implementing analytics.Assign the tasks in a KPI Composer project to a group. By default, tasks are assigned to the Analytics Implementers assignment group. You can add users and groups to this group, or you can select a different assignment group.Generate tasks for all sufficiently defined KPI Composer artifacts with a single action.KPI Composer tasks are defined in Task Definition \[sn\_kpi\_composer\_task\_definition\] records. When you generate tasks, you create these records or update their statuses.KPI Composer tasks utilize flows created with the ServiceNow AI Platform Flow Designer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/generating-tasks-kpi-composer.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Generating tasks in KPI Composer
 
 For each KPI Composer artifact in your project, you can generate a task to create an equivalent Performance Analytics element. All tasks are created with one action. The tasks are assigned automatically to the responsible group for implementing analytics.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Tasks can be generated to create the following Performance Analytics and Reporting elements based on the definitions in your KPI Composer project. The tasks are generated for each type of element in this order:
 
@@ -31,7 +35,7 @@ Tasks can be generated to create the following Performance Analytics and Reporti
 
 \[Omitted image "kpi-comp-required-bkdown-info.png"\] Alt text: Definition of the Priority breakdown showing Name and Facts Table values.
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
 
 ## Assign KPI Composer tasks
 
@@ -39,13 +43,17 @@ Assign the tasks in a KPI Composer project to a group. By default, tasks are ass
 
 ### Before you begin
 
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
 Role required: sn\_kpi\_composer.user, sn\_kpi\_composer.admin, admin
 
 ### About this task
 
 All tasks in a KPI Composer project are assigned to the same assignment group. After you generate tasks, the group handles them through its normal workflow.
 
-By default, tasks are assigned to the Analytics Implementers group, which is provided with KPI Composer. This group includes the pa\_admin role by default. Any users whom you add to this group are granted this role. Access this group from **User administration** &gt; **Groups**, or follow the **Analytics Implementers** link on the Tasks tile in the Review tab. You need the user\_admin role to edit this group. For more information about adding and removing users from this group, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
+By default, tasks are assigned to the Analytics Implementers group, which is provided with KPI Composer. This group includes the pa\_admin role by default. Any users whom you add to this group are granted this role. Access this group from **User administration** &gt; **Groups**, or follow the **Analytics Implementers** link on the Tasks tile in the Review tab. You need the user\_admin role to edit this group. For more information about adding and removing users from this group, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAGroup.md).
 
 To change the assignment group, follow this procedure:
 
@@ -82,6 +90,10 @@ Generate tasks for all sufficiently defined KPI Composer artifacts with a single
 
 ### Before you begin
 
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
 -   Populate the Analytics Implementers group with users.
 -   Complete designing your KPI Composer project. The necessary artifacts should all be defined. However, if you change something later, you can regenerate the tasks. Regenerating tasks is a good way to track their completion.
 
@@ -109,6 +121,10 @@ View the tasks you have created. In the Tasks tile, you have links to active tas
 ## Task Definition records
 
 KPI Composer tasks are defined in Task Definition \[sn\_kpi\_composer\_task\_definition\] records. When you generate tasks, you create these records or update their statuses.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 You can access any existing Task Definition records from links on the Tasks tile of the Review tab. These links take you to a filtered list of records, as follows:
 
@@ -208,6 +224,10 @@ Task generation checks all task definitions, including those with the status OK.
 
 KPI Composer tasks utilize flows created with the ServiceNow AI Platform® Flow Designer.
 
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
 KPI Composer provides two flows to manage the transition between task states:
 
 -   KPI Composer - Analytics Task flow
@@ -224,5 +244,5 @@ The following diagrams summarize the provided flows:
 **Related topics**  
 
 
-[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md)
 

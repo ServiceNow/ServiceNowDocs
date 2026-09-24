@@ -3,11 +3,11 @@ title: Download an import template
 description: Select the list you want to import data to and create an import template from that list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/easy-import/t\_DownloadAnImportTemplate.html
-release: australia
+release: brazil
 product: Easy Import
 classification: easy-import
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Easy import, Imports, Workflow Data Fabric]
 ---
@@ -56,5 +56,5 @@ Open the spreadsheet using your preferred application.
 
 **Note:** Each template contains a Directions tab describing how to use the template.
 
-**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md)
+**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/easy-import/c_EasyImport.md)
 

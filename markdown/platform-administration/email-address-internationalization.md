@@ -3,9 +3,9 @@ title: Email address internationalization
 description: Email address internationalization allows international character support for email addresses for non-English characters when sending and receiving emails. Email addresses can have non American Standard Code for Information Interchange \(ASCII\) characters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-address-internationalization.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,8 +24,8 @@ Enable email address internationalization by setting the **glide.email\_address.
 
 Disable email address internationalization by setting the **glide.email\_address.rfc6530.enabled** system property to `false`.
 
--   **[Customize email address internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-email-int.md)**  
+-   **[Customize email address internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/customize-email-int.md)**  
 Customize email address internationalization to turn off processing of inbound and outbound emails, disable support for inbound emails or to add email address format for decoding international email addresses.
 
-**Parent Topic:**[Configure email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-email-client.md)
+**Parent Topic:**[Configure email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-email-client.md)
 

@@ -3,9 +3,9 @@ title: Query join and complexity size limits
 description: The platform uses a relational database to store data. Retrieving data can involve multiple joins to create a single result set. While these joins are usually simple, in certain cases the system may issue very large joins to bring together large numbers \(&gt;20\) of tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_QueryJoinAndComplexitySizeLimits.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -28,5 +28,5 @@ The system must compensate for the fewer joins by issuing more queries to retrie
 
 **Note:** In the absence of known database issues stemming from large join counts, this parameter should remain unchanged.
 
-**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/p_CoreConfigurationOverview.md)
 

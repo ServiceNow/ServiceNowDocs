@@ -3,11 +3,11 @@ title: Configure the mapping between a dosage characteristic and a dosage detail
 description: Use scripted extension points to decide which dosage characteristics are mapped to the fields on the Dosage details section of a Medication Prescription form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-ext-point-dosage-char-map.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure dosage specifications, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ Use scripted extension points to decide which dosage characteristics are mapped 
 
 ## Before you begin
 
-Set the application scope to Healthcare and Life Sciences Service Management Core using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to Healthcare and Life Sciences Service Management Core using the application picker. For more information, see Application picker.
 
 Role required: admin
 
@@ -69,7 +69,7 @@ Dosage - quantity
 Quantity
 
 </td></tr></tbody>
-</table>Using extension points makes it easier to integrate customizations without actually altering the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+</table>Using extension points makes it easier to integrate customizations without actually altering the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
 
 An implementation is available in the base system for scripted extension points. You can modify the data and add additional fields.
 

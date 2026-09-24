@@ -3,9 +3,9 @@ title: View value stream stage details
 description: You can view the list of all available value streams stages in the Enterprise Architecture Workspace. You can also view and manage the business processes and business capabilities associated with the value stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-value-stream-stages.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage value stream stages, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -41,12 +41,12 @@ Role required: sn\_apm.apm\_user
     **Note:** Select a business capability to view more details.
 
 
-**Parent Topic:**[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-value-stream-stages.md)
+**Parent Topic:**[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-value-stream-stages.md)
 
 **Related topics**  
 
 
-[Add or edit a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-value-stream-stage.md)
+[Add or edit a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-value-stream-stage.md)
 
-[Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-value-stream-stage.md)
+[Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-value-stream-stage.md)
 

@@ -3,11 +3,11 @@ title: Create Vulnerability Assessment from a Vulnerability
 description: Use this feature to conduct a vulnerability assessment for a specific vulnerability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-vul-assess.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access Vulnerability Downstream actions, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -66,5 +66,5 @@ Before you begin, ensure the following:
 
 3.  Link or unlink existing assessments as needed.
 
-**Parent Topic:**[Access Vulnerability Downstream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/downstream-actions-from-the-vulnerability-form-view.md)
+**Parent Topic:**[Access Vulnerability Downstream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/downstream-actions-from-the-vulnerability-form-view.md)
 

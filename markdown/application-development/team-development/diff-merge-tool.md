@@ -3,11 +3,11 @@ title: Merge tool
 description: The Diff Merge tool enables administrative users to compare differences between two versions of a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/diff-merge-tool.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Version records, Versions, Administer, Team Development, Planning your application, Building applications]
 ---
@@ -26,7 +26,7 @@ Administrators can compare field-level changes between two versions, apply chang
 
 ## Accessibility Functions
 
-The platform includes accessibility features that support [Web Content Accessibility Guidelines \(WCAG\) 2.0 level A](https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_customize&levels=aa%2Caaa) and make the interface accessible to users with disabilities. These features improve the user experience when accessing platform functions with [Using accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/keyboard-accessibility.md).
+The platform includes accessibility features that support [Web Content Accessibility Guidelines \(WCAG\) 2.0 level A](https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_customize&levels=aa%2Caaa) and make the interface accessible to users with disabilities. These features improve the user experience when accessing platform functions with [Using accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/keyboard-accessibility.md).
 
 In general, you can use the following set of standard keyboard navigation functions:
 
@@ -46,22 +46,22 @@ To enable accessibility functions, administrators should set these sys\_properti
     -   **mergetool.bg.left** - Left column cell color when version values are the same.
     -   **mergetool.bg.right** - Right column cell color when version values are the same.
 
-**Parent Topic:**[Version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/r_VersionRecords.md)
+**Parent Topic:**[Version records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/team-development/r_VersionRecords.md)
 
 **Related topics**  
 
 
-[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_CompareToCurrentVersion.md)
+[Compare to the current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/team-development/t_CompareToCurrentVersion.md)
 
-[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_ComparePushedVerLocalVer.md)
+[Compare a pushed version to a local version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/team-development/t_ComparePushedVerLocalVer.md)
 
-[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/compare-two-article-versions.md)
+[Compare two versions of an article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/compare-two-article-versions.md)
 
-[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/um-resolve-conflict.md)
+[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/um-resolve-conflict.md)
 
-[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_ResolveACollision.md)
+[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/team-development/t_ResolveACollision.md)
 
-[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_RevertAChange.md)
+[Revert a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/team-development/t_RevertAChange.md)
 
-[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/view-customer-update-records.md)
+[View customizations and compare with current version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/view-customer-update-records.md)
 

@@ -3,9 +3,9 @@ title: Disable migration of single dashboards
 description: Hide the banner on individual dashboards that enables owners to migrate dashboards that they own.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-disable-single-migr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [How to migrate a few dashboards]
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
@@ -29,7 +29,7 @@ Add a system property to prevent users from migrating their own dashboards.
 
 2.  Add the system property **com.glide.par.coreui\_single\_migration.enabled** if it does not already exist.
 
-    For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+    For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 3.  Set **com.glide.par.coreui\_single\_migration.enabled** to `false`.
 

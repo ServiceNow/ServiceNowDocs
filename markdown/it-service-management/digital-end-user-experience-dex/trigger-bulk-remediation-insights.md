@@ -3,13 +3,13 @@ title: Trigger bulk remediation from Insights
 description: Trigger a remedial action on multiple devices simultaneously from the Insights page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/trigger-bulk-remediation-insights.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
+breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage, Digital End-User Experience, IT Service Management]
 ---
 
 # Trigger bulk remediation from Insights

@@ -3,11 +3,11 @@ title: Add attachments to change requests using attachment API
 description: Add test report xmls as attachments to DevOps change requests using the attachment API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/attachment-api-chg.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [DevOps test tool integration, User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [DevOps test tool integration, User created, Integrate, DevOps Chang
 
 Add test report xmls as attachments to DevOps change requests using the attachment API.
 
-For more information about the API, see [Attachment - POST /now/attachment/file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_AttachmentAPI.md).
+For more information about the API, see [Attachment - POST /now/attachment/file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_AttachmentAPI.md).
 
 The attachment API URL is:
 
@@ -30,8 +30,8 @@ The attachment API URL is:
 
 **Prerequisites**
 
--   Create an active user with the option **Web service access only** selected. For information on how to create a user, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md).
--   Assign the role **sn\_change\_write** to the user. For information on how to assign the role, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
+-   Create an active user with the option **Web service access only** selected. For information on how to create a user, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md).
+-   Assign the role **sn\_change\_write** to the user. For information on how to assign the role, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).
 
     \[Omitted image "attachment-api-01.png"\] Alt text: Create user.
 
@@ -179,5 +179,5 @@ pipeline {
 -   The attachment xml file’s text size should be acceptable to the orchestration tool.
 -   For Azure DevOps, **sn\_change\_write** role is needed for authentication of attachment API, to upload the file to the change record.
 
-**Parent Topic:**[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)
+**Parent Topic:**[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)
 

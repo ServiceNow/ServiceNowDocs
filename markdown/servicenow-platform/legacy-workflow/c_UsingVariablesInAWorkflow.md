@@ -3,11 +3,11 @@ title: Using variables in a workflow
 description: Within workflow there are several different types of variables that are available.Activity variables are properties specifically associated with a workflow activity.Workflow variables are external values that are passed into and referenced by a workflow during its execution.After being declared in a workflow, values can be assigned to the variables from where the workflow is kicked off.Store and share string-based variables as name-value pairs between workflow activities.Current is the database GlideRecord that kicked off the workflow, either by association to the table in the Workflow properties table or by being associated with a catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_UsingVariablesInAWorkflow.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Workflow management, Classic Workflow, ServiceNow AI Platform Addit
 
 Within workflow there are several different types of variables that are available.
 
-Some variables define, describe, or compose the pieces of the workflow \(such as [workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md)\). Some variables are available specifically to facilitate the execution of a workflow \(such as scratchpad variables\). Some variables define, describe, or compose the data records being manipulated by the workflow process \(for example, the elements of a Glide Record that are defined in a dictionary.xml file describing a record, such as an incident\).
+Some variables define, describe, or compose the pieces of the workflow \(such as [workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md)\). Some variables are available specifically to facilitate the execution of a workflow \(such as scratchpad variables\). Some variables define, describe, or compose the data records being manipulated by the workflow process \(for example, the elements of a Glide Record that are defined in a dictionary.xml file describing a record, such as an incident\).
 
-**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
+**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
 
 ## Activity variables
 
@@ -42,7 +42,7 @@ To add, view, or modify a variable:
 
 2.  Select a workflow activity, such as **Approval - User**.
 
-3.  In the **Activity Variables** section or tab, add, view, or modify the variables. Activity variables are defined using the same fields as [System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SystemDictionary.md).
+3.  In the **Activity Variables** section or tab, add, view, or modify the variables. Activity variables are defined using the same fields as [System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_SystemDictionary.md).
 
     **Note:** If defining a new activity variable that is dependent on another activity variable, put the prefix "vars." before the name of the parent activity variable. For example, if the child field is dependent on a field named **parent**, put the value `vars.parent` in the **Dependent** field.
 
@@ -67,7 +67,7 @@ Role required: admin
 
 Workflow variables can be declared externally in a script and passed into a main workflow or they can be declared within a main workflow and passed as inputs to a subflow.
 
-**Note:** There is a specific kind of input variable for any workflow that is declared against the table Requested Item \[sc\_request\_item\]. To understand the use of these variables, see [Workflow catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowCatalogVariables.md).
+**Note:** There is a specific kind of input variable for any workflow that is declared against the table Requested Item \[sc\_request\_item\]. To understand the use of these variables, see [Workflow catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/c_WorkflowCatalogVariables.md).
 
 Workflow variables are declared in a form available from the Workflow Editor gear menu.
 
@@ -129,7 +129,7 @@ wf. startFlow (wfId , null , "Workflow Name" , vars ) ;
 
 If a workflow that accepts inputs is called from within another workflow, those input values can be set from the workflow canvas within the UI of the workflow activity. Each input variable declared for a subflow will have a text box input area displayed on the activity. Within these text boxes, the variables can be set with any value either from the scratchpad or from within the current record.
 
-For more information, see [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflows-as-subflows.md).
+For more information, see [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/workflows-as-subflows.md).
 
 ### Reading the Value of a Workflow Input Variable
 

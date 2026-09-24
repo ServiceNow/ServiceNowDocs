@@ -3,11 +3,11 @@ title: Add a filter
 description: Add a new filter to a UI Builder dashboard to enable users to refine data views based on additional fields such as consumer, product, or other custom fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/add-a-new-filter.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
 breadcrumb: [Trending topics dashboard, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -50,7 +50,7 @@ Filters allow users to refine dashboard data by specific fields. This procedure 
 
 3.  Select a **Filter Carousel Item 2** in the component tree.
 
-4.  [Duplicate the component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/duplicate-components.md) from the context menu.
+4.  [Duplicate the component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/duplicate-components.md) from the context menu.
 
     Drag the duplicated filter to reorder it as needed within the carousel.
 
@@ -116,7 +116,7 @@ The new filter appears in the dashboard filter carousel and enables users to fil
 **Related topics**  
 
 
-[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
+[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
 
-[Change insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
+[Change insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
 

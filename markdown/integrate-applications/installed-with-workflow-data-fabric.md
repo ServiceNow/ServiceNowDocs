@@ -3,9 +3,9 @@ title: Workflow Data Fabric Home roles
 description: Several user roles are installed with activation of the ServiceNow WDF Unified Hub plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/installed-with-workflow-data-fabric.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
@@ -116,5 +116,5 @@ Explore the Data Catalog to discover data products, evaluate them for use, reque
 \[sn\_nowassist\_wdf.creator\_admin\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow Data Fabric Home Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric-reference.md)
+</table>**Parent Topic:**[Workflow Data Fabric Home Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/workflow-data-fabric-reference.md)
 

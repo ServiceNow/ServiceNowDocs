@@ -3,9 +3,9 @@ title: Using Opportunity Management
 description: Use the Opportunity Management application to create and manage opportunities, schedule meetings, and track related activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-mgmt-using.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -127,9 +127,9 @@ Add authorized service organizations or partner entities \(for example, referral
 </table>**Related topics**  
 
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md)
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-reference.md)
+[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management-reference.md)
 

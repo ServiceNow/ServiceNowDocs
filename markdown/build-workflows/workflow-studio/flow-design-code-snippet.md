@@ -3,11 +3,11 @@ title: Create code snippets for flows, subflows, and actions
 description: Generate a code snippet to call a specific flow, subflow or action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-design-code-snippet.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API access, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---

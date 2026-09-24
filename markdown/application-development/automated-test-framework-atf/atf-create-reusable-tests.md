@@ -3,11 +3,11 @@ title: Create a reusable test
 description: Create a reusable test to avoid redundancy, ensuring better test maintenance and reliable test execution across the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-create-reusable-tests.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reusable tests, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -88,7 +88,7 @@ Description of the reusable test.**Note:** The description of the reusable test 
 
 \[Omitted image "atf-reusable-test-description.png"\] Alt text: Screenshot showing the reusable test description
 
-See [Reusable Tests category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-reusable-tests-category.md) for more information.
+See [Reusable Tests category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/test-steps-reusable-tests-category.md) for more information.
 
 </td></tr></tbody>
 </table>4.  Select **Save** to create the reusable test.
@@ -98,5 +98,5 @@ See [Reusable Tests category](https://raw.githubusercontent.com/ServiceNow/Servi
     **Note:** Reusable tests can’t run independently. They can run only when it becomes a part of another test. They also can’t be added to a test suite independently. They must be invoked in another test within a test suite.
 
 
-**Parent Topic:**[Reusable tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-reuse-tests.md)
+**Parent Topic:**[Reusable tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-reuse-tests.md)
 

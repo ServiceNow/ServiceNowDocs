@@ -3,9 +3,9 @@ title: Life-cycle stage statuses \(LLCS\) of a robot in RPA Hub
 description: The state transition of a robot guides you through the stages of its life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/lifecycle-stages-robot.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Robots, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -52,5 +52,5 @@ Robot is inactive.After you retire a robot, you cannot change the stage.
 </table>**Related topics**  
 
 
-[Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robots-rpa-hub.md)
+[Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robots-rpa-hub.md)
 

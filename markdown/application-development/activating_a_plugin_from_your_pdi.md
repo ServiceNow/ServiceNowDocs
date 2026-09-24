@@ -3,9 +3,9 @@ title: Activating a plugin from your PDI
 description: One option to get started using an instance is to activate a plugin directly for your PDI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/activating\_a\_plugin\_from\_your\_pdi.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can activate most plugins directly in your PDI. Follow the instructions to [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+You can activate most plugins directly in your PDI. Follow the instructions to [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 ## Procedure
 
@@ -37,5 +37,5 @@ You can activate most plugins directly in your PDI. Follow the instructions to [
 6.  When the installation is complete, click the **Close** button in the **Install** dialog.
 
 
-**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/personal_developer_instance_guide.md)
 

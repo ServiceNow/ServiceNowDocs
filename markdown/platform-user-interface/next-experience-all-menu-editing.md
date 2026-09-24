@@ -3,9 +3,9 @@ title: Next Experience All Menu Editing
 description: Create and edit application menus and modules directly in the Platform All menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-all-menu-editing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -43,10 +43,10 @@ When you select a module, the editor panel updates to show the page preview with
 
 These modules can be created, configured, and edited directly within Next Experience All Menu Editing:
 
--   [Dashboard module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-dashboard-module.md)
--   [List module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-list-module.md)
--   [New record module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-new-record-module.md)
--   [Single record module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-single-record-module.md)
+-   [Dashboard module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-dashboard-module.md)
+-   [List module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-list-module.md)
+-   [New record module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-new-record-module.md)
+-   [Single record module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-single-record-module.md)
 
 ## Classic modules
 
@@ -68,16 +68,16 @@ These modules can be added to an All menu but must be edited using the classic U
 
 Use folders and line separators to create a clear, navigable structure that improves user productivity. Well-organized menus help you find what they need faster by grouping related functionality and visually separating distinct areas of your application.\[Omitted image "neame-folder-line-sep.png"\] Alt text: Next Experience All Menu editor with a line separator and folder in the content tree panel.
 
--   **[Create a Next Experience Menu Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-create-menu-application.md)**  
+-   **[Create a Next Experience Menu Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-create-menu-application.md)**  
 Create and configure application menus and modules directly within the All menu.
--   **[Create a Dashboard Module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-dashboard-module.md)**  
+-   **[Create a Dashboard Module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-dashboard-module.md)**  
 Create custom dashboards for the All menu using the Next Experience All Menu Editor.
--   **[Create a List Module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-list-module.md)**  
+-   **[Create a List Module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-list-module.md)**  
 Create custom lists for the All menu using the Next Experience All Menu Editing.
--   **[Create a New Record module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-new-record-module.md)**  
+-   **[Create a New Record module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-new-record-module.md)**  
 Create custom New Record form for the All menu using the Next Experience All Menu Editing.
--   **[Create a Single Record Module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-single-record-module.md)**  
+-   **[Create a Single Record Module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-single-record-module.md)**  
 Create custom Single Record form for the All menu using the Next Experience All Menu Editing.
 
-**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-ui-admin.md)
 

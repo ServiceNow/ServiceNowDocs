@@ -3,11 +3,11 @@ title: Add an Entity View Action Mapper data resource to a page
 description: Add an Entity View Action Mapper \(EVAM\) data resource to your page in UI Builder so that you can standardize how the data sources in your components are displayed in your cards and lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/evam-working.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Work with the Entity View Action Mapper for UI Builder, Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -26,15 +26,15 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open or create a page.
 
-    For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+    For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-pages.md).
 
 4.  If you do not have any components on your page, add a **Data set** component to your page.
 
-    For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
+    For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-components.md).
 
 5.  In the **Data and scripts** panel, select the **+** icon and then select **Data resource**.
 
@@ -71,7 +71,7 @@ Add an EVAM definition and other information about the data source. -   Type: Co
 -   EVAM Filter Preference: In the **EVAM Filter Preference** field, add the sys\_ids for the EVAM data filter.
  To add an event handler for when that data fetch is initiated, succeeded, or failed, select **Events**.
 
- In the [Now Code Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) section, which is next to the Configuration pane, preview the EVAM definition script.
+ In the [Now Code Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) section, which is next to the Configuration pane, preview the EVAM definition script.
 
  \[Omitted image "EVAM-Data-Resource-Sample.png"\] Alt text: EVAM Data Resource Configuration.
 
@@ -143,5 +143,5 @@ To add an EVAM definition and other information about the data source, select **
     \[Omitted image "EVAM-SampleFinishedState.png"\] Alt text: Finished state of EVAM.
 
 
-**Parent Topic:**[Work with the Entity View Action Mapper for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/evam-ui-builder.md)
+**Parent Topic:**[Work with the Entity View Action Mapper for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/evam-ui-builder.md)
 

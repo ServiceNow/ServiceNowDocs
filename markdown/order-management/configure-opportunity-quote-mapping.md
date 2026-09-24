@@ -3,9 +3,9 @@ title: Configure transaction-to-quote field mapping
 description: When you use Sales CRM capabilities such as opportunity management, advanced approvals, or PDF document generation, CPQ Microservices sync data to the ServiceNow platform. This sync is set up automatically, but custom transaction fields require you to configure the data mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-opportunity-quote-mapping.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -57,7 +57,7 @@ Consider the following when you map transaction fields:
 
 7.  Add a new field on the blueprint.
 
-    For more information, see [Create a transaction field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-field.md).
+    For more information, see [Create a transaction field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-create-field.md).
 
 8.  Open the field properties page for the new field.
 
@@ -71,6 +71,4 @@ Consider the following when you map transaction fields:
 ## Result
 
 The custom transaction field is mapped to the selected ServiceNow table column, and data syncs between the transaction and the quote record.
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

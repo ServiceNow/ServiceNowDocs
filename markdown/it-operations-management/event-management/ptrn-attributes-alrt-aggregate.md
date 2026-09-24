@@ -3,11 +3,11 @@ title: Manage pattern identifier attributes for alert grouping
 description: The Alert Aggregation Learner analyzes alerts and identifies patterns using a defined set of alert and configuration item \(CI\) attributes. By configuring these attributes as pattern identifiers, you can control which characteristics are used to group alerts. This customization creates meaningful alert groups, improving alert management and response times by reducing noise and enabling focus on critical issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -34,7 +34,7 @@ Role required: evt\_mgmt\_admin
 
     The **Configuration Item** attribute is automatically considered as an identifier and should not be added explicitly to the Feature Identifier Attributes section. The pattern is defined as a combination of the configuration item and your selected feature identifier attributes.
 
-4.  Selecting the Lock Feature Identifier Attributes icon \(\[Omitted image "em-lock-feature-identifier.png"\] Alt text: Lock Feature Identifier Attributes icon\).
+4.  Selecting the Lock Feature Identifier Attributes icon \(\[Omitted image "em-lock-feature-identifier.png.png"\] Alt text: Lock Feature Identifier Attributes icon\).
 
 5.  Select **Submit** for a new pattern identifier or **Update** for an existing pattern identifier.
 
@@ -46,5 +46,5 @@ Role required: evt\_mgmt\_admin
 ## What to do next
 
 -   Ensure a corresponding event rule exists: Verify that there is an event rule set up to assign or populate the newly defined pattern identifier attributes to the incoming alerts. Event rules define how attributes are assigned to alerts based on certain conditions.
--   Run the Service Analytics Attribute Populator for Historical Alerts job: After the new event rule is in place, this job retroactively populates the pattern identifier attributes for existing alerts. It ensures that past alerts have the necessary attributes for proper grouping.
+-   Run the Service Analytics Attribute Populator for Historical Alerts job: After the new event rule is in place, this job retroactively populates the pattern identifier attributes for existing alerts that were created before the new attributes were defined. This ensures that past alerts have the necessary attributes for proper grouping.
 

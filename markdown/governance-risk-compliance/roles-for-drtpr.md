@@ -3,9 +3,9 @@ title: Roles installed with Digital resilience third-party registers
 description: Specific roles are installed with Digital resilience third-party registers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/roles-for-drtpr.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digital resilience third-party registers reference, Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -161,5 +161,5 @@ Role to manage third parties, third-party contacts, third-party assessment templ
 -   sn\_vdr\_risk\_asmt.vendor\_assessor
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital resilience third-party registers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/digi-resi-ref.md)
+</table>**Parent Topic:**[Digital resilience third-party registers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/digi-resi-ref.md)
 

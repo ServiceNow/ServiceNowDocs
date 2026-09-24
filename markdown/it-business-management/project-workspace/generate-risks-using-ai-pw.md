@@ -3,11 +3,11 @@ title: Generate, accept, and reject risks
 description: Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, milestones, and work notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-risks-using-ai-pw.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-04-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Role required: it\_project\_manager
 
 -   Install ServiceNow Otto for Strategic Portfolio Management plugin.
 -   Verify risk generation skill is active.
--   The risk generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub]().
+-   The risk generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configuring-na-spm.md).
 
 ## About this task
 
@@ -36,7 +36,7 @@ The AI Identified Risks menu is visible only to project managers when the risk g
 
 1.  Navigate to **Workspaces** &gt; **Project Workspace**.
 
-2.  From Project Workspace, [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md) or open an existing project.
+2.  From Project Workspace, [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md) or open an existing project.
 
 3.  Select **AI-Identified Risks** from the RIDAC menu.
 
@@ -51,10 +51,10 @@ The AI Identified Risks menu is visible only to project managers when the risk g
 
 5.  Select **Generate AI Risks** if no risks are identified for the project.
 
-    \[Omitted image "ai-generated-risks.png"\] Alt text: AI-generated risks for a project.
+    \[Omitted image "image.ai-generated-risks"\] Alt text: AI-generated risks for a project.
 
     You can select any task ID, resource ID, or other reference in the AI Rationale column of AI-identified risks. This navigates directly to the related record without searching for the ID manually.
 
 
-**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/manage-ridac-pw.md)
+**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/manage-ridac-pw.md)
 

@@ -3,11 +3,11 @@ title: Financial Services Payment Operations workflow example
 description: The workflows available with Financial Services Payment Operations connect people, departments, and institutions to quickly initiate, research, and resolve the payment errors and missing payments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/payment-ops-workflow-example.html
-release: australia
+release: brazil
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -48,6 +48,6 @@ All the data and timelines are captured in the case, eliminating the need to man
 </td></tr></tbody>
 </table>For more information on each task in the workflow, see:
 
--   [Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
--   [Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
+-   [Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
+-   [Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
 

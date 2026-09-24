@@ -3,11 +3,11 @@ title: Edge Encryption dictionary attributes
 description: Add dictionary attributes to tables and fields to control how they work with Edge Encryption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/r\_EdgeEncryptionDictAttributes.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configuring Edge Encryption, Edge Encryption, Encryption]
 
 Add dictionary attributes to tables and fields to control how they work with Edge Encryption.
 
-To set a dictionary attribute to true, you must enter `attribute=true` in the **Attributes** field. To add a dictionary attribute to a record, see [Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md).
+To set a dictionary attribute to true, you must enter `attribute=true` in the **Attributes** field. To add a dictionary attribute to a record, see .
 
 -   **Edge Encryption Excluded \[edge\_encryption\_excluded\]**
 
@@ -48,5 +48,5 @@ To set a dictionary attribute to true, you must enter `attribute=true` in the **
     -   Target element: field
     -   Default value: false
 
-**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/edge-config.md)
 

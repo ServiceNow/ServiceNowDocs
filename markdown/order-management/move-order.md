@@ -3,9 +3,9 @@ title: Move order
 description: The move order helps agents to change the location for product inventory at the order line level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/move-order.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing post-fulfillment order changes, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -28,12 +28,12 @@ For all the product inventory records that are in **Activation pending** state a
 
 On successful completion of the order, the old inventory with state **Change pending** becomes **Inactive**. The new inventory with state **Activation pending** becomes **Active**.
 
-**Parent Topic:**[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md)
+**Parent Topic:**[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/managing-orders.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

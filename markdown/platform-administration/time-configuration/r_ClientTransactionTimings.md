@@ -3,11 +3,11 @@ title: Client transaction timings
 description: The Client Transaction Timings plugin enhances the system logs by providing additional information about the durations of transactions taking place between the client and the server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_ClientTransactionTimings.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ The Client Transaction Timings plugin enhances the system logs by providing addi
 
 You can track down performance issues to their source by viewing where the time is being consumed, and how time was spent during a transaction.
 
-This plugin requires the [Response Time Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ResponseTimeIndicator.md) [Response Time Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ResponseTimeIndicator.md) to be enabled, and collects information from the following browsers:
+This plugin requires the [Response Time Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ResponseTimeIndicator.md) [Response Time Indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ResponseTimeIndicator.md) to be enabled, and collects information from the following browsers:
 
 -   Firefox
 -   Internet Explorer
@@ -146,10 +146,10 @@ A more detailed breakdown of the client timings for all Form rendering \(but not
 |Name|Descriptive name of this particular operation|
 |Duration|Number of ms this operation took to complete.|
 
--   **[Components installed with Client Transaction Timings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_InstalledComponents.md)**  
+-   **[Components installed with Client Transaction Timings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_InstalledComponents.md)**  
 The Client Transaction Timings plugin installs several components.
--   **[Timing values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_TimingValues.md)**  
+-   **[Timing values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_TimingValues.md)**  
 Timing values are broken down into several sections.
 
-**Parent Topic:**[Time configuration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/reference-time-configuration.md)
+**Parent Topic:**[Time configuration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/reference-time-configuration.md)
 

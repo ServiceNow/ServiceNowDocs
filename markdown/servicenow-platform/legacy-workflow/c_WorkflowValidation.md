@@ -3,11 +3,11 @@ title: Workflow validation
 description: Workflow validation examines different characteristics of a workflow to locate issues that might prevent the workflow from being published or cause it to fail. The validation report summarizes the results of each separate workflow validation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_WorkflowValidation.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -70,10 +70,10 @@ Validators display three notification levels: CRITICAL, WARN, and INFO. The desi
     The validation message provides a detailed description of the results, including table names, update sets, and other specifics.
 
 
-For the procedure to validate a workflow and generate a validation report, see [Validate a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/work-on-workflows.md)
+For the procedure to validate a workflow and generate a validation report, see [Validate a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/work-on-workflows.md)
 
--   **[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)**  
+-   **[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)**  
 ServiceNow offers several workflow validators for workflow designers to test their workflows.
 
-**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
+**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
 

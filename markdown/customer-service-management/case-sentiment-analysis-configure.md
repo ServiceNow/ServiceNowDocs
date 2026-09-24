@@ -3,9 +3,9 @@ title: Configure Sentiment Analysis
 description: Activate the required plugin, enable the sentiment analysis property, and assign roles to use the sentiment analysis feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-sentiment-analysis-configure.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ Ensure that your instance is set up for Predictive Intelligence \(PI\).
 
 </td><td>
 
-Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md).
+Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -43,7 +43,7 @@ The Task Intelligence for Customer Service application enables customers to leve
  This application automatically activates the following plugins:
 
 -   Predictive Intelligence for Customer Service Management \(com.snc.csm\_ml\)
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Skills Management \(com.snc.skills\_management\)
 -   Dynamic Translation \(com.glide.dynamic\_translation\)
 -   ServiceNow Language Detection Service Spoke \(com.glide.language\_detection\_spoke\)
@@ -70,11 +70,11 @@ The sentiment analysis feature adds the following fields:
 
 </td></tr><tr><td>
 
-Use the [Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-admin-center.md) to create and deploy a sentiment model.
+Use the [Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-task-intel-admin-center.md) to create and deploy a sentiment model.
 
 </td><td>
 
-See [Create a model to predict case sentiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-sentiment-solution.md).
+See [Create a model to predict case sentiment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-task-intel-create-sentiment-solution.md).
 
 </td></tr></tbody>
 </table>## Configure sentiment analysis fields
@@ -87,7 +87,7 @@ The sentiment analysis feature uses the following fields to display sentiment pr
 
 Add the sentiment fields to Case list views and to the Case form for CRM Workspace, CSM Agent Workspace, and Core UI.
 
--   In CRM Workspace, these fields appear as secondary values in the configurable form header. You can configure secondary values to display either below the primary value at the top of the form or in the Record Information tab in the contextual side panel. \(For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-display-header-in-sidebar.md).\)
+-   In CRM Workspace, these fields appear as secondary values in the configurable form header. You can configure secondary values to display either below the primary value at the top of the form or in the Record Information tab in the contextual side panel. \(For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-display-header-in-sidebar.md).\)
 -   In CSM Agent Workspace, these fields appear in the Case form header.
 -   In Core UI, these fields appear on the Case form.
 
@@ -209,5 +209,5 @@ To add the sentiment fields to the Case form:
 **Related topics**  
 
 
-[Sentiment Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-sentiment-analysis.md)
+[Sentiment Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/case-sentiment-analysis.md)
 

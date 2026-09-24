@@ -3,9 +3,9 @@ title: Create source type and multi topics in the LES source table
 description: Consume logs for each source type by creating multiple topics per source type. You can now leverage the option of customized selection of specific topics for different log sources during the debugging process, without impacting the other log tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/les-multi-topics-v2.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a log source configuration, Administer, Log Export Service \(LES\), Platform Security]
 ---
@@ -16,9 +16,19 @@ Consume logs for each source type by creating multiple topics per source type. Y
 
 ## Before you begin
 
-**Note:** If you delete a Log Source, the corresponding topic in the sys\_kafka\_topic table is not deleted. If you create the Log Source again, the existing topic can be reused, ensuring continuity and avoiding unnecessary topic recreation.
+You can create multiple topics only when you select **syslog** as the table, or when you select Table as **sys\_audit** and Filter type as **Log table**.
 
 Role required: admin or sn\_logstoanalytics.admin
+
+## Before you begin
+
+Role required: admin or sn\_logstoanalytics.admin
+
+## About this task
+
+Multiple topics allow you to organize log consumption by source type. Each source type can have its own dedicated topic, enabling you to debug specific log sources without affecting other log tables.
+
+When you delete a log source, the corresponding topic in the sys\_kafka\_topic table is retained. If you recreate the log source, you can reuse the existing topic.
 
 ## Procedure
 
@@ -26,7 +36,7 @@ Role required: admin or sn\_logstoanalytics.admin
 
 2.  Click **New** to create a new source.
 
-    The Source form shows up. Previously, the **Topic** field was auto-filled once the **Source Type** is selected. Starting Yokohama, each source type can create their own topic. It doesn’t populate by default on selecting the **Source Type** or the **Table** name. They can be created either directly from the Kafka topics or from the reference field.
+    The Source form shows up. Previously, the **Topic** field was auto-filled once the **Source Type** was selected. Starting Yokohama, each source type can create their own topic. It doesn’t populate by default on selecting the **Source Type** or the **Table** name. They can be created either directly from the Kafka topics or from the reference field.
 
     **Note:** Since sys\_audit table has multiple log tables, no specific topic is shown in the Topic column of the Sources list. Previously, all the source types had the same topic. Now you can select different topics for different sources.
 
@@ -58,5 +68,5 @@ Role required: admin or sn\_logstoanalytics.admin
     The source type shows up on the Sources list with the selected topic name and other information.
 
 
-**Parent Topic:**[Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-create-source-configuration.md)
+**Parent Topic:**[Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-create-source-configuration.md)
 

@@ -3,13 +3,13 @@ title: Create Microsoft Software Assurance entitlements in workspace
 description: Define license details for Microsoft Software Assurance \(SA\) in the Software Asset Workspace to manage your contracts start and end dates, software upgrades, and related software entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-sa-entitlements-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create entitlements in workspace, Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Create entitlements in workspace, Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create Microsoft Software Assurance entitlements in workspace
@@ -36,7 +36,7 @@ Role required: sam\_user or sam\_admin
 
     You must enter the number of rights to be granted for the SA entitlement in the **Active rights** field.
 
-    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+    For a detailed description of the fields related to all entitlements, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/track-software-rights.md).
 
     **Note:** You can't add user or device allocations for SA entitlements.
 
@@ -85,5 +85,5 @@ Role required: sam\_user or sam\_admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md)
+**Parent Topic:**[Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md)
 

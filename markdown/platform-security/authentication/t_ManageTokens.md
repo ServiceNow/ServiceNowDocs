@@ -3,11 +3,11 @@ title: Manage OAuth tokens
 description: Open OAuth tokens to provide access to restricted resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_ManageTokens.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---

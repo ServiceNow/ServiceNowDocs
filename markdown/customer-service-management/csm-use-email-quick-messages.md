@@ -3,9 +3,9 @@ title: Respond to a case using an email quick message
 description: Use predefined quick email messages to quickly draft replies to customers. Agents can select predefined quick messages to add content into the message body of emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-use-email-quick-messages.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
@@ -26,8 +26,8 @@ You can incorporate icons, business logos, pictures, HTML layout, and rich text 
 
 For more information, see the following topics:
 
--   [Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/quick-message.md)
--   [Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_QuickMessages.md)
+-   [Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/quick-message.md)
+-   [Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_QuickMessages.md)
 
 ## Procedure
 
@@ -47,7 +47,7 @@ For more information, see the following topics:
 **Related topics**  
 
 
-[Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_QuickMessages.md)
+[Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_QuickMessages.md)
 
-[Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/quick-message.md)
+[Composing emails with quick messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/quick-message.md)
 

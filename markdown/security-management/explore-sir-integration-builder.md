@@ -3,9 +3,9 @@ title: Explore SIR Integration Builder
 description: SIR Integration Builder offers a guided experience to efficiently integrate new tools through a simplified workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/explore-sir-integration-builder.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SIR Integration Builder]
 breadcrumb: [LLM-powered SIR integration builder, Security Operations]

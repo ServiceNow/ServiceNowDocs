@@ -1,22 +1,22 @@
 ---
 title: Settings
-description: View the information related to the settings of your ITSM Agent mobile app.
+description: View the information related to the settings of your ITSM Mobile Agent app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/settings-mobile.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, ITSM Mobile Agent, IT Service Management]
 ---
 
 # Settings
 
-View the information related to the settings of your ITSM Agent mobile app.
+View the information related to the settings of your ITSM Mobile Agent app.
 
-You can adjust the settings of the ITSM Agent mobile app. The following information is available in the Settings screen of your app.
+You can adjust the settings of the ITSM Mobile Agent app. The following information is available in the Settings screen of your app.
 
 |Setting|Description|
 |-------|-----------|

@@ -3,7 +3,7 @@ title: Set up the Redox Electronic Health Record Spoke
 description: Integrate your ServiceNow instance and the Redox engine with both inbound and outbound configuration.Enable your ServiceNow instance to connect with the Redox engine by setting up a connection and credential record.Enable the Redox Electronic Health Record Spoke to send data to the external Redox healthcare system by configuring the source and destination IDs of the system in your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/redox-setup.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -35,11 +35,11 @@ This task gives the procedure to set up both the inbound and outbound transactio
 
 ## Procedure
 
-1.  [Create a Redox Electronic Health Record Spoke connection and credential record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/redox-setup.md).
+1.  [Create a Redox Electronic Health Record Spoke connection and credential record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/redox-setup.md).
 
     This procedure enables the outbound transactions.
 
-2.  [Configure the external Redox healthcare system as a source system for the Redox Electronic Health Record Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/redox-setup.md).
+2.  [Configure the external Redox healthcare system as a source system for the Redox Electronic Health Record Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/redox-setup.md).
 
     This procedure enables the inbound transactions.
 
@@ -152,7 +152,7 @@ Role required: admin
 
 -   Configure the Source system \[sn\_hcls\_source\_system\] table to send data to an external Redox healthcare system by using the Redox Inbound Integration application.
 
-    For more information, see [Configure an external Redox healthcare system as a source system for a custom integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-config-source-system.md).
+    For more information, see [Configure an external Redox healthcare system as a source system for a custom integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-config-source-system.md).
 
 -   Specify the destination ID used in the Source system \[sn\_hcls\_source\_system\] table for each spoke action in your flow.
 

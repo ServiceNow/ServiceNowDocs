@@ -3,11 +3,11 @@ title: Configure a residual assessment
 description: Configure and publish a residual assessment in the Advanced Risk application to assess the residual risks in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/configure-residual-assessment.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -32,7 +32,7 @@ Use a residual assessment to identify and assess the risks that exist after any 
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the residual assessment form, see [Residual Assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/residual-assessment-form.md).
+    For a description of the field values on the residual assessment form, see [Residual Assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/residual-assessment-form.md).
 
 4.  If you selected **Factor responses** in the **Calculate based on** field, then select the Factors related list so that you can add factors to the residual assessment.
 
@@ -138,8 +138,8 @@ Risk appetite scale for the risk rating criteria. Appetite scales must be mapped
 
 The assessment type is published.
 
--   **[Residual Assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/residual-assessment-form.md)**  
+-   **[Residual Assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/residual-assessment-form.md)**  
 Use the Residual Assessment form in the Advanced Risk application to assess the residual risks in your organization.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

@@ -3,11 +3,11 @@ title: Prioritization in Strategic Planning
 description: Prioritize work that is relevant for your portfolio using a centralized workspace in Strategic Planning. Review and determine the right work to invest in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/backlog-management-in-alignment-planner-workspace.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, strategic planner, portfolio planner, strategic planning workspace]
 breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -43,7 +43,7 @@ Alternatively, you can also use the Kanban or Hierarchy tab to review and manage
     \[Omitted image "prioritization-lens-switcher.png"\] Alt text: Hierarchy view of the Prioritization view in Strategic Planning and Portfolio Planning Workspace
 
 
-To get started with managing your work pipeline in Strategic Planning, see [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
+To get started with managing your work pipeline in Strategic Planning, see [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
 
-**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
+**Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

@@ -3,7 +3,7 @@ title: Add external reviewer groups in Grants Management
 description: Add the people who will review and score the proposals for this program.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-reviewer-team.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-24"
 reading_time_minutes: 1

@@ -3,11 +3,11 @@ title: Shift-based scheduling for manufacturing standards
 description: Shift-based scheduling enables you to create schedule plans that automatically generate standard tasks aligned with your factory's shift patterns and production day configurations. In shift-based scheduling, you don't have to specify precise start and end date-time values manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/icw-shift-based-scheduling.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Industrial Standards, Explore, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -38,9 +38,9 @@ Shift-based scheduling includes automated task lifecycle management to ensure da
 
 -   Task release: Tasks are released at the start of each selected shift on the scheduled dates, according to the recurrence pattern defined in the schedule plan.
 
-    You can also set an offset on a schedule plan. An offset determines how much time in advance the task is generated in relation to the planned start.
+    You can also set an offset on a schedule plan. An offset determines the how much time in advance the task is generated in relation to planned start.
 
-    The default offset time is 1 hour. For example, a task is planned to start at 20:00. Based on the default offset of 1 hour, the task is generated at 19:00.
+    The default offset time is 1 hour. For example, a task is planned to start at 20:00. Based on the default offset of 1 hour, Task is generated 19:00.
 
 -   Task expiration: Tasks expire according to the expiration setting on the standard in relative to the planned start time.
 -   Duplicate prevention: The system detects and cleans up duplicate events and tasks during schedule updates, ensuring that only valid, non-duplicated tasks are present.
@@ -57,7 +57,7 @@ Shift-based scheduling includes automated task lifecycle management to ensure da
 
 Make sure you have set up the following prerequisites before using shift-based scheduling:
 
--   Industrial shift configurations are defined for the functional location associated with the manufacturing standard. For more information about configuring shifts, see [Define a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/define-shifts.md).
+-   Industrial shift configurations are defined for the functional location associated with the manufacturing standard. For more information about configuring shifts, see [Define a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/define-shifts.md).
 -   The site location record linked to the functional location has a timezone defined.
 -   The manufacturing standard is published and is associated with a functional location that has shift configurations.
 
@@ -73,9 +73,9 @@ With shift-based scheduling, you may be able to complete the same scheduling in 
 4.  Select the morning, afternoon, and night shifts.
 5.  Set the start date to the beginning of the next work week.
 6.  Verify the factory timezone is correctly applied.
-7.  Configure a daily recurrence pattern and save the schedule.
+7.  Configure a daily recurrence pattern and saves the schedule.
 
 The system automatically generates inspection tasks for each shift on each scheduled day. Tasks are released at the start of each shift and expire at the end of the shift window if not completed.
 
-**Parent Topic:**[Exploring Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.md)
+**Parent Topic:**[Exploring Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.md)
 

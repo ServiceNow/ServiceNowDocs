@@ -3,9 +3,9 @@ title: ServiceNow pages in Adobe Experience Manager
 description: Use pages provided on the ServiceNow site in the Adobe Experience Manager \(AEM\) as a reference to organize your AEM-based websites and provide a consistent user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/aem-default-pages.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Adobe Experience Manager, Integrate, Customer Service Management]
 ---

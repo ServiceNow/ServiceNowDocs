@@ -3,11 +3,11 @@ title: Install Healthcare and Life Sciences Service Management Core
 description: You can install the Healthcare and Life Sciences Service Management Core application \(sn\_hcls\) if you have the admin role. The application includes demo data Healthcare and Life Sciences Service Management Core and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-install-serv-mgmt-core.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -34,7 +34,7 @@ The following items are installed with Healthcare and Life Sciences Service Mana
 
 The Healthcare and Life Sciences Service Management Core application is dependent on the Product Catalog Management Core, CIWF UI Components, and Industry Core applications.
 
-For more information, see [Components installed with Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-components-installed-serv-mgmt.md).
+For more information, see [Components installed with Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-components-installed-serv-mgmt.md).
 
 ## Procedure
 

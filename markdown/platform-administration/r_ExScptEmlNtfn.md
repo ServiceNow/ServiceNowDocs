@@ -3,9 +3,9 @@ title: Example scripting for email notifications
 description: Examples of scripting for email notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_ExScptEmlNtfn.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scripting for email notifications, Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -87,18 +87,18 @@ if(!current.watch_list.nil()){
       email.addAddress("cc", user.email, user.getDisplayValue());}}
 ```
 
-**Parent Topic:**[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScriptingForEmailNotifications.md)
+**Parent Topic:**[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScriptingForEmailNotifications.md)
 
 **Related topics**  
 
 
-[Include mail scripts in email notifications]()
+[JavaScript in emails]()
 
 [Mail script variables]()
 
 [Useful attachment scripts]()
 
-[TemplatePrinter API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_TemplatePrinterScopedAPI.md)
+[TemplatePrinter API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_TemplatePrinterScopedAPI.md)
 
-[GlideEmailOutbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideEmailOutboundScopedAPI.md)
+[GlideEmailOutbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideEmailOutboundScopedAPI.md)
 

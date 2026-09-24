@@ -3,11 +3,11 @@ title: Scrum Programs for Agile Development 2.0
 description: Plan and track the work of multiple teams that work together, either toward a common short-term outcome or on an ongoing basis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/scrum-programs-concept.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agile Development, Strategic Portfolio Management]
 ---
@@ -26,16 +26,16 @@ With the centralized Planning page for a scrum program on ServiceNow® Agile Dev
 -   Assign work and compare the workload of multiple teams across sprints.
 -   Set, view, and adjust dependencies between stories across multiple teams.
 
--   **[Components installed with Scrum Programs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/installed-with-scrum-programs.md)**  
+-   **[Components installed with Scrum Programs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/installed-with-scrum-programs.md)**  
 Understand the roles, tables, business rules, and UI macros that are installed when you activate the Scrum Programs plugin.
--   **[Create an epic backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-epic-backlog.md)**  
+-   **[Create an epic backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/create-epic-backlog.md)**  
 Categorize epics into epic backlogs by defining a set of filters according to your preferences. While planning your scrum program, you can use these epic backlogs to plan for only those stories that belong to the epics in this backlog.
--   **[Manage your epic backlogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/manage-epics-agile-board.md)**  
+-   **[Manage your epic backlogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/manage-epics-agile-board.md)**  
 Create, update, and rearrange your epics by using a centralized view of epic backlogs on Agile Board.
--   **[Assign teams to a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/add-teams-to-scrum-program.md)**  
+-   **[Assign teams to a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/add-teams-to-scrum-program.md)**  
 Add teams to your scrum program to assign work and track the progress of the work.
--   **[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/planning-scrum-program-overview.md)**  
+-   **[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/planning-scrum-program-overview.md)**  
 Use a centralized view on Agile Board to plan work for the teams that are working on your scrum program.
 
-**Parent Topic:**[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development.md)
+**Parent Topic:**[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/agile-development.md)
 

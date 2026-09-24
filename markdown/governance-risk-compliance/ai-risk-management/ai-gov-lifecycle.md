@@ -3,11 +3,11 @@ title: AI governance life cycle
 description: Learn more about how organizations can govern AI from initial demand through deployment and ongoing governance monitoring by using the AI Control Tower and AI Risk and Compliance applications together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 keywords: [AI governance, AI life cycle, AI Control Tower, AI Risk and Compliance]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -39,12 +39,12 @@ In summary, you can use each application as follows:
 
 -   AICT manages the AI life cycle and serves as the system of record.
 
-    For more information, see [AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-home-page.md), [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-asset-lifecycle.md), and [Exploring AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-control-tower.md).
+    For more information, see [AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower-home-page.md), [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-asset-lifecycle.md), and [Exploring AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-ai-control-tower.md).
 
 -   AIRC performs independent risk, regulatory, and control governance.
 -   Life cycle progression in AICT depends on risk and compliance decisions made in AIRC.
 
-    For more information about how this information is shown in AICT, see [Risk and compliance tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/risk-compliance-tab-aict.md).
+    For more information about how this information is shown in AICT, see [Risk and compliance tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/risk-compliance-tab-aict.md).
 
 -   Neither application replaces the other; together they support a coordinated governance framework.
 
@@ -64,7 +64,7 @@ AI Risk and Compliance business users \[sn\_grc\_ai\_gov.ai\_risk\_and\_complian
 
 Other governance stakeholders, such as security, legal, privacy, or data governance teams, participate as needed. They contribute expertise during assessment, review, and investigation activities. These stakeholders don't own life cycle decisions.
 
-For more information about roles in AICT and AIRC, see [Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md) and [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
+For more information about roles in AICT and AIRC, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md) and [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
 
 ## AI governance life cycle phases and processes
 
@@ -76,15 +76,15 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     Any team member with the AI asset owners, AI steward, or AIRC business roles can submit intake-related information with an intake request using the Employee Center to determine whether an AI initiative should enter the governed life cycle based on its intent, scope, and organizational alignment. If you have the AI asset owner or AI steward role, you can review and progress intake requests using the AI Control Tower Workspace after they are submitted through the Employee Center.
 
-    For more information about intake requests in AIRC and AICT, see [Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-intake.md), [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md), [Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-model.md), and [Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-dataset.md).
+    For more information about intake requests in AIRC and AICT, see [Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-intake.md), [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md), [Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-model.md), and [Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-dataset.md).
 
     All AI use-case intake, including both in-house and third-party AI use cases, is life cycle-managed in the AI Control Tower application. AI Control Tower is required to register AI systems and use cases that must enter the governed AI life cycle and acts as the system of record for life-cycle tracking and portfolio visibility.
 
     AIRC doesn't own AI use-case intake. If you have AIRC, you can participate after intake by contributing risk and compliance governance context, such as impact assessments and regulatory evaluation, once an AI use case has been registered in AICT.
 
-    Use the Employee Center to request an AI use case for review, or use AICT to add an AI asset directly as part of approved onboarding by a fulfiller. For more information, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md), [Create an AI case in the AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-case-in-the-ai-control-tower.md), [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-model-assets.md), [Create prompt assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-prompt-assets.md), and [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-dataset-assets.md).
+    Use the Employee Center to request an AI use case for review, or use AICT to add an AI asset directly as part of approved onboarding by a fulfiller. For more information, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-system-assets.md), [Create an AI case in the AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-case-in-the-ai-control-tower.md), [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-model-assets.md), [Create prompt assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-prompt-assets.md), and [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-dataset-assets.md).
 
-    Enhancement requests, ideas, and feedback can be submitted and managed if Strategic Portfolio Management is installed. Enhancement requests, ideas, and feedback don’t enter the AI governance life cycle through AICT or AIRC. For more information about Strategic Portfolio Management, see [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md).
+    Enhancement requests, ideas, and feedback can be submitted and managed if Strategic Portfolio Management is installed. Enhancement requests, ideas, and feedback don’t enter the AI governance life cycle through AICT or AIRC. For more information about Strategic Portfolio Management, see [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/r_ITBusinessManagement.md).
 
     **Note:**
 
@@ -100,7 +100,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     **Note:**
 
-    Automated discovery requires configuration of supported integrations. For more information about enterprise AI discovery and automated inventory ingestion, see [AI connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enterprise-ai-discovery.md) and [AI connections setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-discovery-setup.md).
+    Automated discovery requires configuration of supported integrations. For more information about enterprise AI discovery and automated inventory ingestion, see [Enterprise AI discovery: Unlock Visibility, Governance &amp; Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enterprise-ai-discovery.md) and [AI connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-discovery-setup.md).
 
 -   **Build and validate: Assess**
 
@@ -120,7 +120,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     During assessment, the following are created or updated: impact assessment results, risk classification, identified risks, and recommended controls. These outcomes determine whether the AI system can proceed to the next life cycle phase.
 
-    For more information, see [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/playbooks.md), [Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md), and [Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md).
+    For more information, see [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/playbooks.md), [Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md), and [Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md).
 
 -   **Build and validate: Build and test**
 
@@ -138,7 +138,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     During validation, the following records are created or updated: Control attestations, issue records, remediation evidence, and exception records.
 
-    For more information, see [Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md), [Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md), and [Remediate an issue in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/remediate-an-issue-in-airc.md).
+    For more information, see [Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md), [Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md), and [Remediate an issue in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/remediate-an-issue-in-airc.md).
 
 -   **Build and validate: Pre-deployment review**
 
@@ -152,7 +152,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     Governance decisions are made in AIRC, while life cycle state changes are recorded and enforced in AICT.
 
-    For more information, see [Overview tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/overview-tab-in-ai-control-tower.md) and [Risk &amp; compliance tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md).
+    For more information, see [Overview tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/overview-tab-in-ai-control-tower.md) and [Risk &amp; compliance tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md).
 
 -   **Deploy, monitor, and assess value: Monitor**
 
@@ -166,7 +166,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     AIRC managers determine whether changes, reassessments, or intervention are required based on operational or governance signals. Cases and inquiries are a normal part of ongoing AI governance and don’t necessarily indicate failure or non‑compliance.
 
-    For more information, see [AI cases tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-cases-tab-aict.md), [AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md), and [Operations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/operations-tab.md).
+    For more information, see [AI cases tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-cases-tab-aict.md), [AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md), and [Operations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/operations-tab.md).
 
 -   **Deploy, monitor, and assess value: Value**
 
@@ -182,7 +182,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     Governance actions identified during monitoring may result in reassessment, additional controls, or life cycle state updates managed through AICT.
 
-    For more information, see [Value tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-value-tab.md), [Adoption tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-adoption-tab.md), and [AI risk heatmap workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-heatmap-workbench.md).
+    For more information, see [Value tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-value-tab.md), [Adoption tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-adoption-tab.md), and [AI risk heatmap workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-risk-heatmap-workbench.md).
 
 -   **Life cycle closure: Retire and offboard**
 
@@ -194,7 +194,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     During offboarding, the following are created or updated: updated life cycle state, retirement justification, and final governance record.
 
-    For more information, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/complete-ai-asset-lifecycle.md) and [Offboarding AI assets review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-offboarding-ai-assets.md).
+    For more information, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/complete-ai-asset-lifecycle.md) and [Offboarding AI assets review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-offboarding-ai-assets.md).
 
 
 **Note:** Features described in this life cycle may require additional configurations, supporting applications, or content packs. Availability and behavior depend on installed products, assigned roles, and configuration.

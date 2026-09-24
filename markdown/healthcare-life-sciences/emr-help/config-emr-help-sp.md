@@ -3,11 +3,11 @@ title: Configuring the EMR Help service portal
 description: The EMR Help service portal enables users to submit ServiceNow IT service requests from within their EMR system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/config-emr-help-sp.html
-release: australia
+release: brazil
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -20,5 +20,5 @@ As an administrator, you can set up the EMR Help service portal for submitting I
 
 The default home page available within the EMR Help service portal provides the **New** &gt; **Report an Issue** menu option for submitting a Remote Assist Incident from an EMR system. For IT service requests other than incidents, such as for demands or change requests, you must configure the EMR Help service portal to add a new menu for definitions associated with the IT service request. Clinicians can then view the option for submitting the configured IT service request type on their service portals.
 
-For more information about creating a custom interface using service portals, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md).
+For more information about creating a custom interface using service portals, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ServicePortal.md).
 

@@ -3,11 +3,11 @@ title: Create a touchpoint from Technology Account 360 view
 description: Create a touchpoint to capture and support conversations by analyzing the customer account data in the Technology Account 360 view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/create-touchpoint-technology-account-360-view.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review customer or partner accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -49,7 +49,7 @@ Details
 </td><td>
 
 Select this option to schedule a new meeting.1.  Select **Meeting** to schedule a new meeting.
-2.  Fill in the fields. For more information about the fields, see [Touchpoint home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-touchpoint-home.md).
+2.  Fill in the fields. For more information about the fields, see [Touchpoint home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-touchpoint-home.md).
 3.  Select **Select file** to add any attachments.
 4.  Select **Save**.
 
@@ -71,5 +71,5 @@ You can attach a file either from your computer or from the touchpoint record.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
+**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
 

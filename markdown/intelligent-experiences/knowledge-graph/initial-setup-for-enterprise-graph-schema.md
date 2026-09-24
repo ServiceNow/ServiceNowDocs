@@ -3,13 +3,13 @@ title: Enterprise Graph initial setup in production instance
 description: Setup and use Enterprise Graph Schema, a unified Knowledge Graph schema, that captures all the ServiceNow and third-party tables and their connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/initial-setup-for-enterprise-graph-schema.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Enterprise Graph initial setup in production instance
@@ -24,7 +24,7 @@ If you have already completed the setup in sub-production instance, you can impo
 
 Assuming that you have completed the setup in sub-production instance, do the following to complete the initial setup in production instance:
 
--   Create an integration user, in the sub-production instance. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md)
+-   Create an integration user, in the sub-production instance. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md)
 -   Verify if the descriptions are generated in sub-production instance.
 -   Use the following procedure to:
     -   Import the data into production.
@@ -37,21 +37,21 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
 
-    \[Omitted image "connection-and-credntials-page.png"\] Alt text: Connection and credentials navigation
+    \[Omitted image "image.connection-and-credntials-page"\] Alt text: Connection and credentials navigation
 
 2.  Open the record with name **Description\_Connector**.
 
 3.  Select **Create New Connection &amp; Credential** from the related links section.
 
-    \[Omitted image "connection-and-credentials-aliases.png"\] Alt text: Create connection and credentials aliases
+    \[Omitted image "image.connection-and-credentials-aliases"\] Alt text: Create connection and credentials aliases
 
 4.  Enter the required details in the **Create Connection &amp; Credential** form.
 
-    \[Omitted image "create-connection-and-credntials.png"\] Alt text: Create connection and credentials form
+    \[Omitted image "image.create-connection-and-credntials"\] Alt text: Create connection and credentials form
 
 5.  Add the user name and password that was used, while creating the new user.
 
-    See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md) for more information.
+    See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md) for more information.
 
 6.  Navigate to **All** &gt; **System Import Sets** &gt; **Administration** &gt; **Data Sources**.
 
@@ -67,19 +67,19 @@ Role required: admin
 
 8.  Open one of the displayed table and select **Load All Records** from the Related links section.
 
-    Ensure the data is loaded.\[Omitted image "table-picker-kg.png"\] Alt text: KG Table picker
+    Ensure the data is loaded.\[Omitted image "image.table-picker-kg"\] Alt text: KG Table picker
 
 9.  Navigate to **System Import Sets** &gt; **Advanced** &gt; **Import Sets**, once the data is loaded.
 
-    For detailed information, see import set documentation [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/import-sets-landing-page.md)\[Omitted image "import-set-kg.png"\] Alt text: Import set
+    For detailed information, see import set documentation [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/import-sets-landing-page.md)\[Omitted image "image.import-set-kg"\] Alt text: Import set
 
 10. Open the import set and select **Transform** from the Related links section.
 
-    For detailed information, see Transform map documentation [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_CreatingNewTransformMaps.md)
+    For detailed information, see Transform map documentation [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_CreatingNewTransformMaps.md)
 
 11. Select **Transform** to complete the transformation.
 
-    \[Omitted image "transform-page-kg.png"\] Alt text: Transform option
+    \[Omitted image "image.transform-page-kg"\] Alt text: Transform option
 
 12. Navigate to the selected table and verify if the data is loaded.
 

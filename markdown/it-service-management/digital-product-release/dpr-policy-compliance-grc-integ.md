@@ -3,11 +3,11 @@ title: DPR and GRC integration for release compliance
 description: The integration between Digital Product Release \(DPR\) and ServiceNow GRC: Policy and Compliance Management connects your release management processes with the enterprise risk and compliance controls. This integration helps you deliver faster, safer, and reliable releases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-policy-compliance-grc-integ.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Digital Product Release and Integrated Release Management, DPR and GRC integration, Release compliance with GRC compliance framework, Policy and compliance management for DPR releases]
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
@@ -51,7 +51,7 @@ In GRC: Policy and Compliance Management
 
 1. In the Compliance Workspace, the compliance manager maps a control objective and policies from the **PaCE policies** tab in the Control Objective record.**Note:** Only the policies that have the exception enabled can be mapped to a control objective.
 
-For more information, see [Manage control objectives and policies using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-control-obj-policies-ws.md).
+For more information, see [Manage control objectives and policies using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/manage-control-obj-policies-ws.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ For more information, see [Manage control objectives and policies using the Comp
 
 </td><td>
 
-3.b. One or more Controls are created for a combination of release entity and control objective \(CO\).For more information, see [Multiple controls for compliance management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/support-multiple-controls-same-entity-control-objective.md).
+3.b. One or more Controls are created for a combination of release entity and control objective \(CO\).For more information, see [Multiple controls for compliance management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/support-multiple-controls-same-entity-control-objective.md).
 
 The policy execution status is listed in the **PaCE results** tab in the newly created Control records.
 
@@ -93,7 +93,7 @@ The policy execution status is listed in the **PaCE results** tab in the newly c
 
 </td><td>
 
-5. Compliance manager or an authorized user from the Policy and Compliance group reviews and approves the policy exception \(or extension\) request.For more information, see [Review the policy exception and extension request using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/review-policy-ext-and-extension-req-ws.md).
+5. Compliance manager or an authorized user from the Policy and Compliance group reviews and approves the policy exception \(or extension\) request.For more information, see [Review the policy exception and extension request using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/review-policy-ext-and-extension-req-ws.md).
 
 </td></tr><tr><td>
 
@@ -104,5 +104,5 @@ The policy execution status is listed in the **PaCE results** tab in the newly c
 -
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
+</table>**Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 

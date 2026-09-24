@@ -3,11 +3,11 @@ title: Create a custom action to generate an array of strings from a list of rec
 description: Generate an array of strings from a list of User Role records. Learn how to use a Script step to iterate through a list of records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-custom-action-array-strings.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Script support for complex data, Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -39,7 +39,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see [Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-app-creation.md).
+    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see .
 
     For example, create an application called `My Application`.
 
@@ -294,5 +294,5 @@ You have a custom action that looks up the Users who have a given role and conve
 
 Customize this action to use your own logic.
 
-**Parent Topic:**[Script support for complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/script-support-complex-data.md)
+**Parent Topic:**[Script support for complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/script-support-complex-data.md)
 

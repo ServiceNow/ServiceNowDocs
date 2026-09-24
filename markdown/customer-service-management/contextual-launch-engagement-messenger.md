@@ -1,0 +1,29 @@
+---
+title: Deep linking feature in Engagement Messenger
+description: Set a workflow as a default launch screen in Engagement Messenger either using custom code or a parameterized URL.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/contextual-launch-engagement-messenger.html
+release: brazil
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Set up Engagement Messenger, Configure chat, Configure omnichannel, Configure, Customer Service Management]
+---
+
+# Deep linking feature in Engagement Messenger
+
+Set a workflow as a default launch screen in Engagement Messenger either using custom code or a parameterized URL.
+
+The deep linking capability enables you to customize the home page of Engagement Messenger so that you can launch a specified feature every time the messenger is accessed. The feature is launched through variables in a structured URL or in custom code through launch entries that contain substitution variables.
+
+\[Omitted image "Contextual-launch-1.png"\] Alt text: Customizable home page for Engagement Messenger that launches when messenger is accessed.
+
+The deep linking capability supports the launch of View Article, New Case, Case List, Search, Case Search, Catalog Item, New Appointment, New Work Order, Default Home, Work Order, Virtual Agent and Live Agent chat features and display in Engagement Messenger.
+
+**Note:** Beginning with the Brazil release, in Virtual Agent and Live Agent chats, if a user is engaged in an ongoing conversation and tries to contextually open a topic then the following options are shown:
+
+-   Continue chat
+-   New Chat
+
+\[Omitted image "em-switch-chat.png"\] Alt text: Current chat window with an Ongoing conversation pop-up window with options for the user to continue the chat or begin a new chat.
+

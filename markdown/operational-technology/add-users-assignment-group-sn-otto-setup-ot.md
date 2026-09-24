@@ -3,9 +3,9 @@ title: Add an OT group with ServiceNow Otto for Setup
 description: Add an Operational Technology \(OT\) group so you can organize users and assign roles per group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/add-users-assignment-group-sn-otto-setup-ot.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Setup, Operational Technology]
 ---
@@ -38,7 +38,7 @@ Role required: admin
 
     2.  On the form, fill in the fields as needed.
 
-        For more information about the group form, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
+        For more information about the group form, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAGroup.md).
 
     3.  Select **Save**, or **Save &amp; add more** to repeat the process for additional groups.
 
@@ -57,7 +57,7 @@ Role required: admin
 
 ## What to do next
 
-[Assign OT roles to a user or group with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/assign-roles-sn-otto-setup-ot.md)
+[Assign OT roles to a user or group with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/assign-roles-sn-otto-setup-ot.md)
 
-**Parent Topic:**[Use Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ot-setup.md)
+**Parent Topic:**[Use Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/use-ot-setup.md)
 

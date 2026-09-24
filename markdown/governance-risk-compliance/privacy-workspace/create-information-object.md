@@ -3,11 +3,11 @@ title: Create an information object
 description: Create information objects manually to associate the right data subject types with business processes or applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-information-object.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage information objects, Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_privacy.admin
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  In the Privacy Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\]\).
+2.  In the Privacy Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Navigate to **Privacy elements** &gt; **AllInformation objects**.
 
@@ -50,5 +50,5 @@ Role required: sn\_privacy.admin
 
 Once the information object is created, you can see the Processing activities and Information object categories related lists.
 
-**Parent Topic:**[Manage the Privacy Management library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-library-setup.md)
+**Parent Topic:**[Manage the Privacy Management library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-library-setup.md)
 

@@ -3,9 +3,9 @@ title: Configure the contact card variables
 description: Configure the variables in the contact card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-configure-contact-card.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure variables, Setup, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -35,10 +35,10 @@ Role required: sn\_telecom\_c360.admin
     |Show avatar|Controls whether the avatar is displayed.|
 
 
-**Parent Topic:**[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-variables.md)
+**Parent Topic:**[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure-variables.md)
 
 **Related topics**  
 
 
-[Contact card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-contact-card.md)
+[Contact card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-contact-card.md)
 

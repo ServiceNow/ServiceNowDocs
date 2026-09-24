@@ -3,9 +3,9 @@ title: Reset baseline or dismiss signal
 description: When you get a signal that abnormal variation has occurred, either dismiss the signal or recalculate the parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reset-baseline-dismiss-signal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, KPI Signals, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ When you get a signal that abnormal variation has occurred, either dismiss the s
 
 ## Before you begin
 
-Role required: You must be a [responsible user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-signals-responsible-users.md), unless you have the admin, pa\_admin, or pa\_kpi\_signal\_admin role.
+Role required: You must be a [responsible user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-signals-responsible-users.md), unless you have the admin, pa\_admin, or pa\_kpi\_signal\_admin role.
 
 ## About this task
 
@@ -78,5 +78,5 @@ The default number of scores for calculating the baseline depends on the indicat
 
 If you reset the baseline, a message appears that the baseline is reset. You also see whether there is a more recent signal than the one you just handled. You can review the signals that you dismissed and your baseline resets in the **Past** tab.
 
-**Parent Topic:**[Using KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/using-kpi-signals.md)
+**Parent Topic:**[Using KPI Signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/using-kpi-signals.md)
 

@@ -3,11 +3,11 @@ title: Integration of Employee Center and GRC
 description: The integration of GRC tasks with the Employee Center makes it easier for employees to complete the GRC tasks easily and effectively. This integration allows them to report risk events or request policy exceptions and makes GRC more useful in the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/employee-center.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Integrate, Risk Management, Governance, Risk, and Compliance]
 
 The integration of GRC tasks with the Employee Center makes it easier for employees to complete the GRC tasks easily and effectively. This integration allows them to report risk events or request policy exceptions and makes GRC more useful in the organization.
 
-The Employee Center portal is a unified portal that helps connect systems across the enterprise to one destination site that provides a simple and centralized experience for employees with easy to configure options. To learn more about the Employee Center, refer to [Exploring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-emp-center.md).
+The Employee Center portal is a unified portal that helps connect systems across the enterprise to one destination site that provides a simple and centralized experience for employees with easy to configure options. To learn more about the Employee Center, refer to [Exploring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/explore-emp-center.md).
 
 If you integrate GRC with the Employee Center, you can provide all employees an interface to perform the following tasks:
 
--   Quickly [report risk events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-from-employee-center.md).
+-   Quickly [report risk events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-from-employee-center.md).
 -   Report an issue.
 -   Request a policy exception.
 -   Use **My tasks** to get a consolidated view of all your tasks and perform them immediately.

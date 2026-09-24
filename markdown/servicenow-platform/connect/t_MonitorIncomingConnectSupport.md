@@ -3,11 +3,11 @@ title: Monitor incoming Connect Support conversations
 description: In the support tab of the Connect sidebar, you can monitor the queues for which you are an agent and accept incoming conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_MonitorIncomingConnectSupport.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,13 +32,13 @@ Role required: none
 
 2.  Click the support tab of the Connect sidebar, indicated by a headset icon \(\[Omitted image "IconSupport.png"\] Alt text: Support icon\).
 
-    The support tab displays **Queues** to which you belong. It also displays your open support conversations under **Cases**. When a user starts a support conversation or an agent transfers a conversation to a queue, any agent who belongs to the associated queue can accept the conversation. An agent can also request to [transfer a conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_TransferAConnectSupportConvo.md) directly to you.
+    The support tab displays **Queues** to which you belong. It also displays your open support conversations under **Cases**. When a user starts a support conversation or an agent transfers a conversation to a queue, any agent who belongs to the associated queue can accept the conversation. An agent can also request to [transfer a conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/t_TransferAConnectSupportConvo.md) directly to you.
 
     \[Omitted image "ConnectSidebarSupportTab.png"\] Alt text: The support tab of the Connect sidebar displays queues you belong to and support cases
 
 3.  Accept a conversation in one of the following ways.
 
-<table id="choicetable_rtc_4wl_wt"><tbody><tr><td id="d98068e124">
+<table id="choicetable_rtc_4wl_wt"><tbody><tr><td id="d97383e124">
 
 **Accept a conversation from a queue**
 
@@ -46,7 +46,7 @@ Role required: none
 
 Under **Queues**, click **Accept** by the queue.The conversation opens in the conversation pane and an entry appears in the **Cases** section of the sidebar.
 
-</td></tr><tr><td id="d98068e145">
+</td></tr><tr><td id="d97383e145">
 
 **Accept a transfer request**
 
@@ -63,11 +63,11 @@ Under **Cases**, click **Accept** by a transfer request.\[Omitted image "Connect
 
 5.  Initiate a Zoom meeting to help resolve customer issues faster.
 
-    For more information, see [Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-chat-zoom.md).
+    For more information, see [Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/initiate-chat-zoom.md).
 
 
 **Related topics**  
 
 
-[Configure a survey in the Connect chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/take-survey-connect-chat.md)
+[Configure a survey in the Connect chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/take-survey-connect-chat.md)
 

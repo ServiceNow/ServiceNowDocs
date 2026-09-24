@@ -3,9 +3,9 @@ title: View an assessable record
 description: View the Assessable Record form to edit preferences and perform various actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewAnAssessableRecord.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assessable records, Metric types and assessable records, Create an assessment metric for a category, Assessment metrics, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,7 +42,7 @@ Name
 
 </td><td>
 
-\[Read-Only\] Assessable record name based on the [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectTheDisplayValue.md) of the source record. The name appears on assessment questionnaires.
+\[Read-Only\] Assessable record name based on the [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_SelectTheDisplayValue.md) of the source record. The name appears on assessment questionnaires.
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Category
 
 </td><td>
 
-All metric categories associated with the assessable record. An assessable record must be associated to a category to be evaluated. Click **Edit** to add or remove category associations. Note that it is often more efficient to [associate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ManageAssessablRecordAssociation.md) to categories using the Metric Category form.
+All metric categories associated with the assessable record. An assessable record must be associated to a category to be evaluated. Click **Edit** to add or remove category associations. Note that it is often more efficient to [associate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_ManageAssessablRecordAssociation.md) to categories using the Metric Category form.
 
 </td></tr><tr><td>
 
@@ -114,16 +114,16 @@ Category users
 
 </td><td>
 
-All stakeholders who can take assessment questionnaires about this assessable record. Click **Edit** to create and delete stakeholders. For more information about this and other methods of creating stakeholders, see [Stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CategoryUsersAndStakeholders.md). This related list is available only when the associated metric type has the **Scheduled** schedule type.
+All stakeholders who can take assessment questionnaires about this assessable record. Click **Edit** to create and delete stakeholders. For more information about this and other methods of creating stakeholders, see [Stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_CategoryUsersAndStakeholders.md). This related list is available only when the associated metric type has the **Scheduled** schedule type.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_assessable-records.md)
+**Parent Topic:**[Assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_assessable-records.md)
 
-**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 
 **Related topics**  
 
 
-[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
+[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 

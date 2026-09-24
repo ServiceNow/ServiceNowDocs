@@ -3,9 +3,9 @@ title: Reverse Tunnel
 description: Establish secure private connectivity between your private cloud data sources and Workflow Data Fabric without having to open inbound firewall ports by using Reverse Tunnel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/reverse-tunnel.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Reverse Tunnel, private connectivity, Zero Copy Connectors, Workflow Data Fabric]
 breadcrumb: [Workflow Data Fabric]
@@ -19,15 +19,15 @@ Establish secure private connectivity between your private cloud data sources an
 
 <table id="table_xgl_4dy_kjc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the components, users, setup workflow, and benefits of Reverse Tunnel.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-reverse-tunnel.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the components, users, setup workflow, and benefits of Reverse Tunnel.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/exploring-reverse-tunnel.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Reverse Tunnel to establish secure private connectivity between private cloud or on-premises data sources and Workflow Data Fabric.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-reverse-tunnel.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Reverse Tunnel to establish secure private connectivity between private cloud or on-premises data sources and Workflow Data Fabric.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configuring-reverse-tunnel.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-sla.svg"\] Alt text:Monitor the connection health and registration status of private relays registered with Reverse Tunnel.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/using-reverse-tunnel.md)
+[Use\[Omitted image "bus-sla.svg"\] Alt text:Monitor the connection health and registration status of private relays registered with Reverse Tunnel.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/using-reverse-tunnel.md)
 
 </td><td>
 

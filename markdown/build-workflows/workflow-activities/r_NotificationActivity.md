@@ -3,11 +3,11 @@ title: Notification workflow activity
 description: The Notification activity sends an email or SMS message to specified users or groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_NotificationActivity.html
-release: australia
+release: brazil
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow notification activities, Workflow activities reference, Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -95,5 +95,5 @@ The activity state tells the workflow engine what to do with the activity.
 |Finished|The activity finished running. See the result value for the outcome of the activity.|
 |Cancelled|This activity, or the workflow that contains this activity, was canceled.|
 
-**Parent Topic:**[Workflow notification activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_NotificationActivities.md)
+**Parent Topic:**[Workflow notification activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-activities/c_NotificationActivities.md)
 

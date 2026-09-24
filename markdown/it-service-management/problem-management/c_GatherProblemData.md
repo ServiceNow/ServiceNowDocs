@@ -3,11 +3,11 @@ title: Data for problem resolution
 description: The quick resolution of problems requires gathering as much information as possible about the problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/c\_GatherProblemData.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference section for Problem Management, Problem Management, IT Service Management]
 ---
@@ -46,7 +46,7 @@ The map shows the upstream and downstream relationships of the CI. The storage d
 
 ## CMDB baseline history
 
-If a baseline is [generated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_BaselineCMDB.md), planned or unplanned changes are tracked within the system. A common cause of problems is improperly executed changes, and reviewing the history of changes to a CI helps track problems caused by improper changes.
+If a baseline is [generated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_BaselineCMDB.md), planned or unplanned changes are tracked within the system. A common cause of problems is improperly executed changes, and reviewing the history of changes to a CI helps track problems caused by improper changes.
 
 To check the CMDB Baseline, view the CI record and check **Baseline Differences** and **Scheduled Changes**. The administrator can use the form designer to add these formatters.
 
@@ -54,5 +54,5 @@ To check the CMDB Baseline, view the CI record and check **Baseline Differences*
 
 In the example above, the change in RAM is associated with a change request. You can review the change and see what was planned and what was implemented. The removal of QuickTime software was recorded as an unplanned change.
 
-**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
 

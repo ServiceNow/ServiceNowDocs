@@ -3,9 +3,9 @@ title: GRC Choices form
 description: Use the GRC Choices form to set up the rating of the assessment by updating its criticality and the order of the choice in the Important choices module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/important-choices-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Update the Important choices module, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---

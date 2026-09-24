@@ -3,11 +3,11 @@ title: Set up the process for submitting personal information on the Patient Por
 description: You can manage the process of submitting the personal information from your patients on the Patient Portal by using a record producer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-personal-info.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Patient Portal, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ You can manage the process of submitting the personal information from your pati
 
 As a user with the admin role, you can create a record producer to define the fields for the form where patient's can enter their personal information and then embed the form in the Patient Portal.
 
-By default, the **Enter personal Info** record producer is available for submitting key personal information. You can use the default record producer to add more fields or create your own record producer. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md).
+By default, the **Enter personal Info** record producer is available for submitting key personal information. You can use the default record producer to add more fields or create your own record producer. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_RecordProducer.md).
 
-**Note:** When the Vaccine Administration Management application is installed, a different record producer is available for submitting personal information for vaccines. For more information, see [Setting up the process for submitting personal information for vaccines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-config.-personal-info.md).
+**Note:** When the Vaccine Administration Management application is installed, a different record producer is available for submitting personal information for vaccines. For more information, see [Setting up the process for submitting personal information for vaccines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-config.-personal-info.md).
 

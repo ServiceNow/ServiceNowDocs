@@ -3,11 +3,11 @@ title: Synchronizing parent and child incidents
 description: The parent and the child incidents are synchronized such that the state of a child incident changes depending on the state of the parent incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/parent-child-state-sync.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
@@ -131,7 +131,7 @@ NA
 </td></tr></tbody>
 </table>**Note:**
 
-This table applies only to standard incident life cycle states. When a parent incident is proposed or accepted as a major incident, the states of any associated child incidents do not change automatically. For more information, see [Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md).
+This table applies only to standard incident life cycle states. When a parent incident is proposed or accepted as a major incident, the states of any associated child incidents do not change automatically. For more information, see [Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/major-incident-management.md).
 
 When an incident has a child incident, the following actions take place:
 

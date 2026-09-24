@@ -3,13 +3,13 @@ title: Troubleshoot Desktop Assistant notification delivery
 description: Check notification records, queue processing, event handling, logs, and the endpoint client to identify why Desktop Assistant notifications aren't delivered.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/resolve-da-notification-issues.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing Desktop Assistant notifications using API parameters, Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Customizing Desktop Assistant notifications using API parameters, Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Troubleshoot Desktop Assistant notification delivery
@@ -81,7 +81,7 @@ Role required: admin
 
     2.  Review the ACC logs to confirm that the agent is running and communicating with the ServiceNow instance.
 
-        For information about accessing ACC logs, see [View the Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-view-log.md).
+        For information about accessing ACC logs, see [View the Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/acc-view-log.md).
 
     3.  Open the Desktop Assistant \(sn\_dex\_desktop\_assistant\_notification\) table.
 

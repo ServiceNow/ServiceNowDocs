@@ -3,9 +3,9 @@ title: Single sign-on \(SSO\) integration
 description: If you intend to use CPQ for a headless use case \(such as exposing CPQ on a website or eCommerce platform\), please fill out and submit an SSO Setup Request Form that details the identity provider \(IdP\) you are using for single sign-on \(SSO\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-single-sign-on-sso-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -36,7 +36,7 @@ CPQ supports Google for both personal and business single sign-on. If you use Go
 
 To set up an application that supports the Authorization code flow for CPQ, start by following the Okta Developer instructions: [Implement authorization by grant type: set up your app](https://developer.okta.com/docs/guides/implement-grant-type/authcode/main/#set-up-your-app)
 
-For the redirect URL, specify your CPQ URL, append `/login/oauth2/code/`, and then append your `-okta` subdomain. So if your URL is `example.test.cpq`, your redirect URL would be `https://example.test.cpq/login/oauth2/code/example-okta`.
+For the redirect URL, specify your CPQ URL, append `/login/oauth2/code/`, and then append your `-okta` subdomain. So if your URL is `example.test.logik.io`, your redirect URL would be `https://example.test.logik.io/login/oauth2/code/example-okta`.
 
 Note your client ID, client secret, redirect URL, and Okta domain.
 
@@ -54,7 +54,7 @@ Register an app by following the instructions on the following Microsoft Entra d
 
 [Register an application in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app)
 
-In the **Redirect URI** section of the Microsoft Entra registration page, in the **Select a platform** menu, select **Web**. For the redirect URI, enter your tenant-specific URL, append `/login/oauth2/code/`, and then append `<your subdomain>-entra`. For example, if your URL is `example.test.cpq`, your redirect URI is `https://example.test.cpq/login/oauth2/code/example-entra`.
+In the **Redirect URI** section of the Microsoft Entra registration page, in the **Select a platform** menu, select **Web**. For the redirect URI, enter your tenant-specific URL, append `/login/oauth2/code/`, and then append `<your subdomain>-entra`. For example, if your URL is `example.test.logik.io`, your redirect URI is `https://example.test.logik.io/login/oauth2/code/example-entra`.
 
 Make sure to select **ID tokens** on the Authentication tab of your app. For more information about OIDC, see the following Microsoft Entra documentation website: [OpenID Connect on the Microsoft identity platform](https://learn.microsoft.com/en-us/entra/identity-platform/v2-protocols-oidc).
 
@@ -95,7 +95,7 @@ The issuer does not match the expected value. For example, the issue is `sts.mic
 
 </td></tr><tr><td>
 
-Admin is redirected to http://cpq.ai, despite being set up correctly.
+Admin is redirected to http://logik.ai, despite being set up correctly.
 
 </td><td>
 

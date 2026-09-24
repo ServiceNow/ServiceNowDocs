@@ -1,14 +1,14 @@
 ---
 title: Integrating with Microsoft Dynamics 365 and Power Apps
-description: Integrating your ServiceNow instance with the Microsoft Dynamics 365 and Power Apps service enables you to track your software subscriptions and to reclaim unused licenses.Set up Microsoft Azure Active Directory \(AD\).Set the system-level settings for Microsoft Dynamics 365 and Power Apps.Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track your software subscriptions and to reclaim unused licenses.Evaluating the software usage activity of Microsoft Dynamics 365 subscriptions helps you monitor license usage, optimize license allocation, and potentially reduce costs for the assigned licenses. Software usage activity refers to how software products are being used.
+description: Integrating your ServiceNow instance with the Microsoft Dynamics 365 and Power Apps service enables you to track your software subscriptions and to reclaim unused licenses.Set up Microsoft Azure Active Directory \(AD\).Set the system-level settings for Microsoft Dynamics 365 and Power Apps.Create a custom role in the Power Platform admin center that grants only the privileges required by the Microsoft Dynamics 365 and Power Apps integration. You can use this custom role for the minimum permissions instead of using the Dynamics 365 administrator role.Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track your software subscriptions and to reclaim unused licenses.Evaluating the software usage activity of Microsoft Dynamics 365 subscriptions helps you monitor license usage, optimize license allocation, and potentially reduce costs for the assigned licenses. Software usage activity refers to how software products are being used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/integrating-with-microsoft365.html
-release: australia
+release: brazil
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -79,7 +79,7 @@ Pull user activity
 
 </td><td>
 
-Dynamics 365 administrator
+Dynamics 365 administrator, or a custom security roleFor details, see [Create a custom security role for the Microsoft Dynamics 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
 
 </td><td>
 
@@ -213,6 +213,54 @@ Role required: admin
 10. Select **OK**.
 
 
+## Create a custom security role for the Microsoft Dynamics 365 integration
+
+Create a custom role in the Power Platform admin center that grants only the privileges required by the Microsoft Dynamics 365 and Power Apps integration. You can use this custom role for the minimum permissions instead of using the Dynamics 365 administrator role.
+
+### Before you begin
+
+Role required: Global administrator
+
+### About this task
+
+The Microsoft Dynamics 365 and Power Apps integration requires read access to user, activity, and metadata tables to pull user activity data. Rather than assigning the Dynamics 365 administrator role, you can create a custom security role with only these privileges.
+
+### Procedure
+
+1.  Log in to the Power Platform admin center.
+
+2.  Under **Environments**, select the environment that you want to integrate with your ServiceNow instance.
+
+3.  Select **Settings**.
+
+4.  Under **Users + permissions**, select **Security roles**.
+
+5.  Select **New role**.
+
+6.  Enter a name for the security role.
+
+    For example, SaaSIntegrationDynamics.
+
+7.  On the Tables tab, assign the following table privileges.
+
+    |Table|Name|Record ownership|Read|
+    |-----|----|----------------|----|
+    |User|systemuser|Business Unit|Organization|
+    |Activity|activitypointer|User or Team|Organization|
+    |SharePoint Document|sharepointdocument|User or Team|Organization|
+    |Attribute|attribute|None|Organization|
+    |Entity|entity|None|Organization|
+    |Relationship Entity|relationship|None|Organization|
+
+    **Note:** The integration requires read access only, so you set the Create, Write, and Delete privileges to None for all tables.
+
+8.  On the Miscellaneous privileges tab, assign the View Audit Summary privilege \(prvReadAuditSummary\) at the Organization level.
+
+
+### What to do next
+
+Assign the custom security role to the user account with which the Microsoft Dynamics 365 and Power Apps integration authenticates.
+
 ## Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps
 
 Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track your software subscriptions and to reclaim unused licenses.
@@ -221,7 +269,7 @@ Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track yo
 
 Role required: sam\_integrator
 
-**Important:** You must select the **Microsoft Dynamics 365 Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
+**Important:** You must select the **Microsoft Dynamics 365 Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/request-saas-license-management.md).
 
 ### About this task
 
@@ -231,15 +279,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d138671e760">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d139660e1046">
 
 Interface
 
-</th><th align="left" id="d138671e763">
+</th><th align="left" id="d139660e1049">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d138671e769">
+</th></tr></thead><tbody><tr><td id="d139660e1055">
 
 **Core UI**
 
@@ -250,7 +298,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d138671e811">
+</td></tr><tr><td id="d139660e1097">
 
 **Software Asset Workspace**
 
@@ -319,7 +367,7 @@ Tenant ID
 
 </td><td>
 
-The Directory \(tenant\) ID that you copied in [Set up Microsoft Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
+The Directory \(tenant\) ID that you copied in [Set up Microsoft Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
 
 </td></tr><tr><td>
 
@@ -348,7 +396,7 @@ OAuth Redirect URL
 </td></tr></tbody>
 </table>8.  Select **Create and Get OAuth Token**.
 
-    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
+    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
 
 9.  If you’re prompted to log in to your Microsoft 365 account, enter your Microsoft 365 credentials and log in to your account.
 
@@ -368,7 +416,7 @@ OAuth Redirect URL
 
 13. Select **Create and Get OAuth Token**.
 
-    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
+    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
 
 14. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
@@ -398,22 +446,22 @@ After creating an integration profile, view information about the profile in the
 -   Subscription Identifier Exclusion Rule
 -   Subscription User Exclusion Rule
 
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/subscription-exclusions.md).
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/subscription-exclusions.md).
 
-If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-child-alias-saas.md).
+If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
-Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+Review all automatically generated reclamation rules to reclaim user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/track-software-rights.md).
--   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
--   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+-   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 
-Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
+Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 
--   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RunReconciliation.md).
--   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/run-recon-workspace.md).
+-   For more information on running reconciliation in the Software Asset Management classic application, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_RunReconciliation.md).
+-   For more information on running reconciliation in the Software Asset Workspace, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/run-recon-workspace.md).
 
 ## Optimizing Microsoft Dynamics 365 subscriptions
 
@@ -432,10 +480,10 @@ Based on the software usage activity and the incurred cost, Software Asset Manag
     For example, if Dynamics 365 Commerce, Dynamics 365 Finance, and Dynamics 365 Human Resources base license subscriptions are purchased for a user, Software Asset Management recommends using Dynamics 365 Commerce as base license and Dynamics 365 Finance and Dynamics 365 Human Resources as attached licenses to the base license. For more information, you can download the Dynamics 365 Licensing Guide from the [Dynamics 365 pricing overview page](https://www.microsoft.com/en-us/dynamics-365/pricing-overview).
 
 
-After completing the [Integrating with Microsoft Dynamics 365 and Power Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) integration, you can view the usage activity information in the Software Subscription \[samp\_sw\_subscription\] table.
+After completing the [Integrating with Microsoft Dynamics 365 and Power Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) integration, you can view the usage activity information in the Software Subscription \[samp\_sw\_subscription\] table.
 
 **Related topics**  
 
 
-[Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reclamation-rules.md)
+[Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/reclamation-rules.md)
 

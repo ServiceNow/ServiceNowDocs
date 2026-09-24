@@ -3,11 +3,11 @@ title: Getting started with the CrowdStrike Falcon Insight integration
 description: You can activate and set up the CrowdStrike Falcon Insight to interface with your ServiceNow AI Platform instance and Security Incident Response product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-started-with-the-crowdstrike-falcon-insight-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -61,7 +61,7 @@ The ServiceNow Integration Hub Enterprise Pack Installer \[com.glide.hub.integra
 
 </td></tr><tr><td>
 
-[Set up an approval group.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-approval-group.md)
+[Set up an approval group.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-approval-group.md)
 
 </td><td>
 
@@ -91,7 +91,7 @@ This integration uses CrowdStrike's custom scripts for few of the enrichment cap
 
 </td></tr><tr><td>
 
-[Generate API clients and keys in the CrowdStrike Falcon Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-api-clients-and-keys.md)
+[Generate API clients and keys in the CrowdStrike Falcon Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-api-clients-and-keys.md)
 
 </td><td>
 

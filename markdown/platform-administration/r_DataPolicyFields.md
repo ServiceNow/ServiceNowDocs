@@ -3,9 +3,9 @@ title: Data policy fields
 description: These fields appear on the Data Policy form and related forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_DataPolicyFields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a data policy, Data policy, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

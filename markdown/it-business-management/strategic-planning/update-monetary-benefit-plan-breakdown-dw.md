@@ -3,11 +3,11 @@ title: Capture actual monetary benefits for a demand
 description: Capture actual benefits from planned benefits to measure revenue and calculate profits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/update-monetary-benefit-plan-breakdown-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans, Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Capture actual benefits from planned benefits to measure revenue and calculate p
 
 ## Before you begin
 
-A monetary benefit plan must exist. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-monetary-benefit-plans-for-a-demand-dw.md).
+A monetary benefit plan must exist. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-monetary-benefit-plans-for-a-demand-dw.md).
 
 Role required: it\_demand\_manager
 

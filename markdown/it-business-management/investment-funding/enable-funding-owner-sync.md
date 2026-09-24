@@ -1,18 +1,18 @@
 ---
-title: Enable investment and investment entity owner sync
+title: Enable synchronization of investment and investment entity owners
 description: Create a business rule for an investment entity that synchronizes the investment owner with the investment entity owner. If you update the name of the investment entity owner, the owner of the corresponding investment and the Viewable by field for the investment is automatically updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/enable-funding-owner-sync.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an investment entity, Investment Funding administration, Investment Funding, Strategic Portfolio Management]
 ---
 
-# Enable investment and investment entity owner sync
+# Enable synchronization of investment and investment entity owners
 
 Create a business rule for an investment entity that synchronizes the investment owner with the investment entity owner. If you update the name of the investment entity owner, the owner of the corresponding investment and the **Viewable by** field for the investment is automatically updated.
 
@@ -35,5 +35,5 @@ Role required: sn\_invst\_pln\_v2.investment\_admin
 
 A business rule is created for the investment entity that synchronizes the owner of the investment with the associated investment entity owner when you update the investment entity owner.
 
-**Parent Topic:**[Create an investment entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/create-funding-entity.md)
+**Parent Topic:**[Create an investment entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/create-funding-entity.md)
 

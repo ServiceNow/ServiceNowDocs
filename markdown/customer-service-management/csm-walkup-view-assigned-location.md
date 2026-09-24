@@ -3,11 +3,11 @@ title: View assigned Walk-up Experience location
 description: Walk-up Experience technicians can view a list of the walk-up queues they’re assigned to support. Location queues reveal all the information that a technician must know to operate the queue efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-view-assigned-location.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage queues and interactions, Using Walk-up Experience, Customer communication, Use, Customer Service Management]
+breadcrumb: [Manage queues and interactions, Use Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
 
 # View assigned Walk-up Experience location

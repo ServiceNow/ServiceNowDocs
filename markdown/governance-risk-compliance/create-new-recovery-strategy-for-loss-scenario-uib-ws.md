@@ -3,9 +3,9 @@ title: Add recovery strategies for dependencies
 description: Add a recovery strategy for the related asset dependencies and estimate the time to implement the strategy. You can then get the assets up and running quickly in an identified loss scenario.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-recovery-strategy-for-loss-scenario-uib-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
 5.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Create Recovery strategy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-strategy-form.md).
+    For more information on the fields in the form, see [Create Recovery strategy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-recovery-strategy-form.md).
 
 6.  Select **Save**.
 
@@ -46,7 +46,7 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
     The **Recovery tasks** tab is displayed in the Recovery strategy form.
 
-    Starting with the Australia release of the application, the Recovery strategies record has the following related lists:
+    Starting with the Brazil release of the application, the Recovery strategies record has the following related lists:
 
     -   Task template groups
     -   Task templates
@@ -61,10 +61,10 @@ On the recovery strategy **Recovery tasks** tab, select **Add groups** or **Add 
 
 \[Omitted image "recovery-strategy-with-tasks-from-group.png"\] Alt text: Recovery strategy Recovery tasks tab with tasks added from a task template group, each pre-populated with Plan loss scenario and Plan recovery strategy.
 
-For information on creating reusable recovery strategy templates, see [Configure a recovery strategy template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md).
+For information on creating reusable recovery strategy templates, see [Configure a recovery strategy template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-recovery-strategy-template-uib-ws.md).
 
--   **[Create Recovery strategy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-recovery-strategy-form.md)**  
-Use the Create New Recovery strategy form in BCM UIB Workspace to add details about the recovery strategy for the identified loss scenario.
+-   **[Create Recovery strategy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-recovery-strategy-form.md)**  
+Use the Create Recovery strategy form in BCM UIB Workspace to add details about the recovery strategy for the identified loss scenario.
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

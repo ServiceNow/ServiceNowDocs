@@ -1,31 +1,37 @@
 ---
 title: Retail release notes
-description: The ServiceNow retail applications streamline frontline operations and customer experiences. Retail applications were enhanced and updated in the Australia release. The ServiceNow retail applications streamline frontline operations and customer experiences. Retail applications were enhanced and updated in the Australia release.
+description: The ServiceNow retail applications streamline frontline operations and customer experiences. See the following sections for release notes by version.Store associates and managers can view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation without leaving Retail.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/retail-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-15"
+reading_time_minutes: 3
+keywords: [SPM-RO Better Together, OCRR, App SPM Retail]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Retail release notes
 
-The ServiceNow® retail applications streamline frontline operations and customer experiences. Retail applications were enhanced and updated in the Australia release.
+The ServiceNow® retail applications streamline frontline operations and customer experiences. See the following sections for release notes by version.
 
 ## About Retail
 
--   Enable store staff and HQ support agents to report, resolve, and track equipment failures through a structured break-fix workflow.
--   Enable HQ to publish standardized audit plans that automatically generate store audit cases and tasks for field auditors.
--   Enable Moveworks to notify store associates in real time when a break-fix case is assigned, resolved, or needs more information.
--   Enable HQ to create and distribute standardized questionnaires with stores to capture audit results and operational insights.
--   Build smart store task questionnaires for Retail with conditional logic, attachment support, and role-based response visibility.
--   Complete store task questionnaires for Retail directly from the Retail mobile app.
--   Enables real-time tracking and monitoring of published store plans with visibility from overall plan status to individual store tasks.
 -   Enable HQ users and regional managers to create operational store plans involving cases and tasks for multiple stores through a guided, streamlined user experience.
+-   Schedule and manage recurring tasks such as daily store opening procedures with parent cases for store-level tracking.
+-   Fulfillment of store case and task for regional managers and store teams through Retail mobile app.
+-   Let store associates and managers view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation, without leaving the Retail application.
 
-See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-overview.md) for more information.
+See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-operations-overview.md) for more information.
+
+-   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md)**
+
+    The ServiceNow ® Customer Service Management \(CSM\) application provides the foundation for the Retail Core application. Leverage the functionality of CSM applications to provide support to customers as well as retail sites.
+
+-   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-application-landing-page.md)**
+
+    The ServiceNow ® Field Service Management application aligns with Retail Core by providing capabilities such as work orders for use by each retail location that uses the Retail Core application.
+
 
 ## Activation and other requirements
 
@@ -36,33 +42,40 @@ See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austral
     Install the Retail applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
 
-## Australia Early Availability
+## September 2026 store release
 
-The ServiceNow® retail applications streamline frontline operations and customer experiences. Retail applications were enhanced and updated in the Australia release.
+Store associates and managers can view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation without leaving Retail.
 
 ### What's new
 
-This section describes new features and enhancements in this release.
+-   **SPM-RO Better Together**
 
--   ****
+    SPM-RO Better Together surfaces Customer Service Management and Strategic Portfolio Management project data inside Retail. Store personas can browse the store opening, closing, renovation, and relocation \(OCRR\) projects for their store, drill into individual project tasks, and assign, take, or close those tasks.
 
-    Create and publish smart assessment templates for store operations with Smart Assessment support for conditional logic and role-based visibility.
+    The experience is available in the Retail Service Portal and in Retail Mobile. It is a consumption layer over the CSM/SPM project tables — Retail adds no tables, roles, or access control rules of its own, and project visibility remains governed by the CSM/SPM access control layer.
+
+-   **Track Plan dashboard**
+
+    Track the progress of a store plan in a single view from the **Track Plan** tab of a plan. The plan progress summary shows the percentage of store cases closed and the number of open, overdue, closed, and all store cases for the selected occurrence, and you can filter the summary by occurrence. Select a metric to open the matching list of cases.
+
+    The hierarchical list view provides a navigation tree of the cases and tasks in a plan, with **Open**, **Overdue**, **Closed**, and **All** tabs. The tree is plan-type agnostic and adapts to current and future plan types, including the plan types that you configure. The plan progress summary applies to the base-system HQ Communications and Store Audit plan types. Plan types with custom configurations or custom case or task states might require additional configuration.
 
 
--   **[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plans.md)**
+### What's changed
 
-    Store plans provide new capabilities for HQ and regional managers to create operational plans, schedule recurring tasks, and fulfill the tasks through the Retail mobile application.
+-   **Template item column for store plan cases**
+
+    New cases that are created from a store plan or a store audit plan will populate the **Template item** column, while the **Origin** field will no longer be populated for newly created cases.
+
+    **Note:** If you have a custom implementation that relies on the **Origin** field to determine the template item that a case was created from, those use cases will need to be updated accordingly.
 
 
 ### Plugin information
 
 -   **New plugins**
 
-    The following plugins are new in Australia:
+    App SPM Retail \(com.snc.spm\_retail\): Enables the SPM-RO Better Together experience. When this plugin is not active, the OCRR project and task surfaces do not appear in the Retail Service Portal or Retail Mobile, and there is no separate setting to turn the feature on or off.
 
-    -   Smart Assessment for CSM \(com.sn\_smart\_ast\_cs\): Extends Smart Assessment Engine capabilities into Customer Service Management, enabling the creation and use of intelligent assessment templates within CSM workflows. Supports conditional question logic, role-based response visibility, and attachment handling for customer service scenarios.
-    -   Smart Assessment for Field Service \(com.snc.fsm\_smart\_asmt\_questionnaire\): Bridges Field Service Management and Smart Assessment by enabling questionnaires to be embedded directly into work order tasks via task plan templates. Allows administrators to associate Smart Assessment templates with FSM playbook activities, so field agents can complete structured assessments as part of their task workflow.
-    -   Retail Mobile \(com.sn\_retail\_mobile\): Delivers the Now Mobile Agent experience tailored for retail store associates and field agents. Enables store teams to manage work orders, complete questionnaires, and track in-store operations tasks from a mobile device, supporting both online and on-the-go retail workflows.
 

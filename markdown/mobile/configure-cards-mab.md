@@ -3,9 +3,9 @@ title: Configure cards in Mobile App Builder
 description: Use cards to visually display information from different records by mapping data to the UI elements defined in a card template. UI rules can also be used to define conditional styling on cards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-cards-mab.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cards and icons, Mobile app components, Building mobile apps, Mobile Platform]
 ---

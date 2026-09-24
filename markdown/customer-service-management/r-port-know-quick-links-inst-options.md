@@ -3,9 +3,9 @@ title: Portal Knowledge Quick Links widget instance options form
 description: The instance options enable you to configure the Portal Knowledge Quick Links widget on a portal page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r-port-know-quick-links-inst-options.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
@@ -39,7 +39,7 @@ Display Articles
 Displays knowledge articles from the associated knowledge base. The available options are:
 
 -   Manually select: Displays knowledge articles chosen in the **Manually Select Articles** field.
--   Dynamic query: Displays knowledge articles that meet the condition of a query in the Knowledge \[kb\_knowledge\] table defined in the **Dynamic Query** field. If no query is provided, all knowledge articles are displayed in the widget. For more information, see[Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md)
+-   Dynamic query: Displays knowledge articles that meet the condition of a query in the Knowledge \[kb\_knowledge\] table defined in the **Dynamic Query** field. If no query is provided, all knowledge articles are displayed in the widget. For more information, see[Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md)
 -   Criteria based: Displays knowledge article based on the criteria Most viewed, Most useful, and Featured. The criteria is determined by the **View** field in the Knowledge \[kb\_knowledge\] table.
 
 The default selection is Criteria based.
@@ -186,7 +186,7 @@ The article page that opens when the article card is accessed.By default, this f
 </table>**Related topics**  
 
 
-[Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-know-quick-links-widget.md)
+[Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-know-quick-links-widget.md)
 
-[Add and configure the Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-know-quick-links-widget-inst-optns.md)
+[Add and configure the Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-know-quick-links-widget-inst-optns.md)
 

@@ -3,11 +3,11 @@ title: Agentic AI in the Virtual Agent application
 description: Use AI agents in Virtual Agent to autonomously resolve tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/itsm-va-ai-agents.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -19,7 +19,7 @@ Use AI agents in Virtual Agent to autonomously resolve tasks.
 
 ## Platform Requester AI agents
 
-View tickets and make updates to them from ServiceNow Otto for Virtual Agent, the ServiceNow Otto panel, or Microsoft Teams using the Request Status AI agent. For more information, see [Using the request status AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-request-status-agent-ai-agent.md).
+View tickets and make updates to them from ServiceNow Otto for Virtual Agent, the ServiceNow Otto panel, or Microsoft Teams using the Request Status AI agent. For more information, see [Using the request status AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-request-status-agent-ai-agent.md).
 
 ## ITSM AI agents used in Virtual agent
 
@@ -33,7 +33,7 @@ To activate, in the **Select channels and status** screen:
 -   In the **Chat assistants** field, select **ServiceNow Otto in Virtual Agent \(default\)** to use the AI agent from the Virtual Agent.
 -   In the **Activation status** section, enable the **This AI agent is active** button.
 
-\[Omitted image "now-assist-demo-password-reset-agent1.png"\] Alt text: Demo password reset agent- enable Engage via Virtual Agent assistants\[Omitted image "now-assist-demo-password-reset-agent2.png"\] Alt text: Demo password reset agent- enable the agent
+\[Omitted image "image.now-assist-demo-password-reset-agent1"\] Alt text: Demo password reset agent- enable Engage via Virtual Agent assistants\[Omitted image "image.now-assist-demo-password-reset-agent2"\] Alt text: Demo password reset agent- enable the agent
 
-The DEMO Password reset agent uses the ESC Portal Default Search Profile. \[Omitted image "itsm-demo-pw-reset-agent-search-profile.png"\] Alt text: ESC Portal Default Search Profile
+The DEMO Password reset agent uses the ESC Portal Default Search Profile. \[Omitted image "image.itsm-demo-pw-reset-agent-search-profile"\] Alt text: ESC Portal Default Search Profile
 

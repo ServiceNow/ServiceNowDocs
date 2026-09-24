@@ -3,7 +3,7 @@ title: Configure grants program record tabs in Grants Proposal Playbook
 description: You can add or modify the tabs displayed on the Grant Program Record Page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-gmp-gpp-tabs.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-18"
 reading_time_minutes: 1
@@ -24,7 +24,7 @@ Set the application scope in your instance to **Service Applicant Program Manage
 
 1.  Navigate to **All** &gt; **sys\_ux\_app\_route.list**.
 
-2.  In the Extension Point column, select the More Options \[Omitted image "contextual-side-panel-more-options.png"\] Alt text: Activity stream more options menu icon.\) icon, and select **Group by Extension Point**.
+2.  In the Extension Point column, select the More Options \[Omitted image "contextual-side-panel-more-options.png"\] Alt text: more options icon\) icon, and select **Group by Extension Point**.
 
 3.  Select **Grant Program Record Page Collection**.
 

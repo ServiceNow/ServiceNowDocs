@@ -3,9 +3,9 @@ title: Enable Knowledge Graph system properties for the Enterprise Architecture 
 description: Enable the Knowledge Graph system properties to allow the Enterprise Architecture query agent to generate accurate answers based on your Configuration Management Database \(CMDB\) data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/set-kg-system-properties-ea-qna.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure ServiceNow Otto for Enterprise Architecture \(EA\), Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -32,11 +32,11 @@ After enabling the properties, the Knowledge Graph runs scheduled jobs that read
 
 Until Knowledge Graph completes its initial data processing, responses from the Enterprise Architecture query agent that rely on CMDB relationship data may be incomplete or limited. Query results improve progressively as processing continues.
 
-If the Knowledge Graph data processing is in progress, the Knowledge Graph Designer displays a notification. This means that the scheduled jobs required to set up the enterprise graph are still running. The Enterprise Architecture query agent is not available until this process is complete and the notification is no longer displayed. To speed up the process, you can import enterprise graph descriptions from a non-production instance where setup has already completed. For more information, see [Enterprise Graph initial setup in production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/initial-setup-for-enterprise-graph-schema.md).
+If the Knowledge Graph data processing is in progress, the Knowledge Graph Designer displays a notification. This means that the scheduled jobs required to set up the enterprise graph are still running. The Enterprise Architecture query agent is not available until this process is complete and the notification is no longer displayed. To speed up the process, you can import enterprise graph descriptions from a non-production instance where setup has already completed. For more information, see [Enterprise Graph initial setup in production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/initial-setup-for-enterprise-graph-schema.md).
 
 \[Omitted image "ea-qna-kg-setup-banner.png"\] Alt text: Knowledge Graph Designer page showing a setup-in-progress notification banner indicating the Enterprise Graph is not yet available for queries.
 
-For more information on Knowledge Graph configuration, see [Configuration item relationships and Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ci-relationships-knowledge-graph.md) and [Setting up Enterprise graph in sub-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/setting-up-global-graph-in-production-instance.md).
+For more information on Knowledge Graph configuration, see [Configuration item relationships and Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ci-relationships-knowledge-graph.md) and [Setting up Enterprise graph in sub-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/setting-up-global-graph-in-production-instance.md).
 
 ## Procedure
 
@@ -59,18 +59,18 @@ For more information on Knowledge Graph configuration, see [Configuration item r
 
 Knowledge Graph begins processing your CMDB data using scheduled jobs. After initial processing is complete, the Enterprise Architecture query agent uses the relationships and descriptions in your instance to answer questions about your CMDB data.
 
-**Parent Topic:**[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
+**Parent Topic:**[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
 **Related topics**  
 
 
-[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
+[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
 
-[Exploring Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-overview.md)
+[Exploring Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-qna-overview.md)
 
-[Working with Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-use.md)
+[Working with Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-qna-use.md)
 
-[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
+[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
-[Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)
+[Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md)
 

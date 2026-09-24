@@ -3,9 +3,9 @@ title: Add or edit an architectural artifact category
 description: Add  or edit an artifact category. Assign the category to an architectural artifact. Categories enable you to categorize and manage artifacts more efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-edit-arch-art-category.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure architectural artifact categories, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_apm.apm\_admin
     -   To update details of an existing artifact category, select an action, then select **Edit**.
 6.  On the form, fill in the fields.
 
-    For field information, see [Architectural category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/architectural-category-form.md).
+    For field information, see [Architectural category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/architectural-category-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-arch-art-categories.md)
+**Parent Topic:**[Configure architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-arch-art-categories.md)
 
 **Related topics**  
 
 
-[View all architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-arch-art-categories.md)
+[View all architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-arch-art-categories.md)
 

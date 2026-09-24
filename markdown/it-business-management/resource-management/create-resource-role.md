@@ -3,11 +3,11 @@ title: Create a resource role
 description: Define project-specific roles for team members based on their skills and competencies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/create-resource-role.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource allocation, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,12 +28,12 @@ Role required: resource\_manager
 
 3.  On the Resource Role form, fill the fields.
 
-    For a description of the field names, see [Resource Role form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-role-form.md).
+    For a description of the field names, see [Resource Role form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-role-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md)
+**Parent Topic:**[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/r_AllocatingResources.md)
 
 **Related topics**  
 

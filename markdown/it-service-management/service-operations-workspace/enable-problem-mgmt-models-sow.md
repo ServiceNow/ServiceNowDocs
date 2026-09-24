@@ -3,11 +3,11 @@ title: Enable Problem Management models in Service Operations Workspace
 description: Enable the Problem Management models system property so that you can create and use custom models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/enable-problem-mgmt-models-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Problem Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Enable the Problem Management models system property so that you can create and 
 
 ## Before you begin
 
-See considerations for enabling and disabling Problem Management models at [Problem Management models in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/problem-mgmt-models-sow.md).
+See considerations for enabling and disabling Problem Management models at [Problem Management models in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/problem-mgmt-models-sow.md).
 
 Role required: admin
 

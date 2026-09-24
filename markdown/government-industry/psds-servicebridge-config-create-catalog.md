@@ -3,7 +3,7 @@ title: Create remote service catalog items in Service Exchange for Providers for
 description: As a government agency provider, you can create remote catalogs to automate the task fulfillment process for constituents that are using the Government Service Portal. By using remote catalogs, agency providers can maintain the development of shared service catalogs on their instances and provide consumers with native catalog items in their instances remotely.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-servicebridge-config-create-catalog.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -128,7 +128,7 @@ Detailed description for the record producer.
 
 ## Result
 
-The remote catalog item is now created, and will create a provider task in the provider instance. For more information on how to configure remote provider task definitions, see [Create remote task definitions in Service Exchange for Providers in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-servicebridge-config-create-remote-task-def.md).
+The remote catalog item is now created, and will create a provider task in the provider instance. For more information on how to configure remote provider task definitions, see [Create remote task definitions in Service Exchange for Providers in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-servicebridge-config-create-remote-task-def.md).
 
-For more information on record producers in Service Exchange, see [Remote record producers in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-record.md)
+For more information on record producers in Service Exchange, see [Remote record producers in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-remote-record.md)
 

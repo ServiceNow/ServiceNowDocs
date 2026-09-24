@@ -3,11 +3,11 @@ title: Configure AES/AEMC integration properties
 description: Configure the AES/AEMC integration to enforce automated Scan Engine compliance checks on custom app deployment requests from App Engine Studio and ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/aes-aemc-integration-properties.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deployment and synchronization integrations, Configure Scan Engine integrations, Configuring Impact, Impact]
+breadcrumb: [Deployment and synchronization integrations, Configure Scan Engine integrations, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure AES/AEMC integration properties
@@ -58,7 +58,7 @@ Role required: sn\_se.scan\_engine\_admin
     |Scan timeout|10 minutes|
 
 
-**Parent Topic:**[Deployment and synchronization integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/deployment-sync-integrations.md)
+**Parent Topic:**[Deployment and synchronization integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/deployment-sync-integrations.md)
 
 **Related topics**  
 

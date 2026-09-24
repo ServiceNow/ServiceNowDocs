@@ -3,11 +3,11 @@ title: Create or update a configuration in EAP
 description: Define your own Agile configuration or update an existing configuration in Enterprise Agile Planning \(EAP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-eap-configuration.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Define your own Agile configuration or update an existing configuration in Enter
 
 ## Before you begin
 
-[Install Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/install-alignment-planner-workspace.md).
+[Install Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/install-alignment-planner-workspace.md).
 
 Set the Application Scope of your ServiceNow instance to Strategic Planning.
 
@@ -68,7 +68,7 @@ Sync with Agile Development
 
 </td><td>
 
-Select this option to sync iterations such as Planning Intervals and Sprints with Agile Development 2.0. For more information, see [Integration between EAP and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/sync-eap-and-agile-2.md).If your team is of the Kanban type, you can leave this option unselected.
+Select this option to sync iterations such as Planning Intervals and Sprints with Agile Development 2.0. For more information, see [Integration between EAP and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/sync-eap-and-agile-2.md).If your team is of the Kanban type, you can leave this option unselected.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Option to let each team set its own iteration dates.If the configuration has pla
 
 Teams that you add after you select this option receive a unique calendar. Teams that already exist continue to use the default calendar of the configuration. Selecting this option doesn't change the iterations that already exist.
 
-For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
+For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
 
 </td></tr></tbody>
 </table>5.  Select the work item types to be available within this configuration.
@@ -97,7 +97,7 @@ For more information, see [Creating iterations for teams in EAP](https://raw.git
 
     -   **Scrum teams with a regular cadence**
 
-        Planning calendars can be set only for Agile Release Trains \(ARTs\) and Agile Teams and the planning calendar types available by default are **Planning Interval**, **Sprint**, and **Scrum Sprint**. If you want a different calendar, create one. See [Create a planning calendar in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-planning-calendar-type-in-eap.md).
+        Planning calendars can be set only for Agile Release Trains \(ARTs\) and Agile Teams and the planning calendar types available by default are **Planning Interval**, **Sprint**, and **Scrum Sprint**. If you want a different calendar, create one. See [Create a planning calendar in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-planning-calendar-type-in-eap.md).
 
         A configuration holds one planning calendar for each team level. A team level that has no planning calendar, such as Portfolio or Solution Train, doesn't have iterations of its own. In the default configurations, only the ART and Agile Team levels have a planning calendar, which gives you two levels of iterations: Planning Intervals on ARTs and Sprints on Agile Teams.
 
@@ -114,6 +114,6 @@ For more information, see [Creating iterations for teams in EAP](https://raw.git
 
 ## What to do next
 
--   If you have updated the planning calendar selection for any active configuration that has teams associated with it, update the relevant dashboard configuration too. This action ensures that the metrics displayed for those teams are accurate. See [Updating dashboards for planning calendar changes in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/updating-dashboards-for-planning-calendar-changes-in-eap.md).
--   [Activate an EAP configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/activate-eap-configuration.md)
+-   If you have updated the planning calendar selection for any active configuration that has teams associated with it, update the relevant dashboard configuration too. This action ensures that the metrics displayed for those teams are accurate. See [Updating dashboards for planning calendar changes in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/updating-dashboards-for-planning-calendar-changes-in-eap.md).
+-   [Activate an EAP configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/activate-eap-configuration.md)
 

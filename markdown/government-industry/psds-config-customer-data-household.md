@@ -3,9 +3,9 @@ title: Configure households in Public Sector Digital Services
 description: The household entity represents a group of constituents that usually share a common address and use services as a group Service Model Foundation uses the household form to store details about a constituent household, including its members, their relationships, and any cases, entitlements, or contracts associated with them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-customer-data-household.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Customer data, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---

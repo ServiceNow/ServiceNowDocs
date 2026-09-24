@@ -3,11 +3,11 @@ title: Create Calculated model lifecycle templates in the Enterprise Asset Works
 description: Create Calculated model lifecycle templates to manage the complete lifecycle of the models efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-calculated-model-lc-template-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage enterprise model life cycles, Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -60,9 +60,9 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 ## What to do next
 
-Associate the Calculated model lifecycle template with an enterprise model. For details, see [Associate an enterprise model with a Calculated model lifecycle template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/associate-eam-model-calc-template.md).
+Associate the Calculated model lifecycle template with an enterprise model. For details, see [Associate an enterprise model with a Calculated model lifecycle template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/associate-eam-model-calc-template.md).
 
-**Parent Topic:**[Manage the lifecycle of enterprise models with calculated lifecycle templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-eam-lifecycle-temp.md)
+**Parent Topic:**[Manage the lifecycle of enterprise models with calculated lifecycle templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/manage-eam-lifecycle-temp.md)
 
 **Related topics**  
 

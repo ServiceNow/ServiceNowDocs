@@ -3,9 +3,9 @@ title: Use Predictive Intelligence for case management
 description: Agents can use Predictive Intelligence to predict values for configured fields when creating a customer service case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-intelligence-csm-use.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Predictive Intelligence for case management, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---

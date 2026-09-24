@@ -3,9 +3,9 @@ title: Creating data visualizations
 description: See how to create data visualizations using different data sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/creating-data-visualizations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Create visualization, Create data visualization]
 breadcrumb: [Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -17,9 +17,9 @@ See how to create data visualizations using different data sources.
 
 \[Omitted video\] Description: How to create a data visualization in the Visualization Designer.
 
-**Note:** In the Australia release, visualizations are based on Highcharts version 12.3.0.
+**Note:** In the Brazil release, visualizations are based on Highcharts version 12.3.0.
 
-Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
+Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## Creating data visualizations in a dashboard editor
 
@@ -31,46 +31,48 @@ To create data visualizations in the Visualization Designer, navigate to **All**
 
 \[Omitted image "new-dv.png"\] Alt text: Data visualizations selected in filter navigator and New button highlighted
 
-Use the Condition Builder to filter the information displayed in your visualization. For more information, see [Filter data visualizations with the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-dv-condition-builder.md).
+Use the Condition Builder to filter the information displayed in your visualization. For more information, see [Filter data visualizations with the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/filter-dv-condition-builder.md).
 
 ## Instructions for creating data visualizations by type
 
--   **[Overview of data visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-visualization-type-overview.md)**  
+-   **[Overview of data visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/data-visualization-type-overview.md)**  
 When you create a data visualization, you select the type of visualization to display. Each visualization type is suited to show different data.
--   **[Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md)**  
+-   **[Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-sing-sc-ac.md)**  
 Use a single score to show a value as a number or percentage. Visualize how the value compares to a target or benchmark, to track progress, or to identify areas for improvement.
--   **[Create a box plot data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-box-plot.md)**  
+-   **[Create a box plot data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-box-plot.md)**  
 Use a boxplot to show the median and lower and upper quartiles of numeric data along with outliers. You can also compare the distribution of different groups of this data.
--   **[Create a bubble data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-bubble-ac.md)**  
-Use bubble visualizations to show multiple separate metrics on a single visualization and to answer binary questions, such as whether two fields have a relationship, and to highlight patterns.
--   **[Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-dial-ac.md)**  
+-   **[Create a bubble data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-bubble-ac.md)**  
+Use bubble visualizations to show multiple separate metrics on a single visualization, to answer binary questions, such as whether two fields have a relationship, and to highlight patterns.
+-   **[Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-dial-ac.md)**  
 Use a dial visualization to show where a value lies between expected minimum and maximum values. Use the dial visualization to show how a value compares to a target or benchmark, track progress, or to identify areas for improvement.
--   **[Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-gauge-ac.md)**  
+-   **[Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-gauge-ac.md)**  
 A gauge visualization shows where a value lies between expected minimum and maximum values. Use the gauge visualization to follow progress with color-coded value ranges.
--   **[Create a geomap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-geomap-ac.md)**  
+-   **[Create a geomap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-geomap-ac.md)**  
 A geomap visualization shows the geographical distribution of data for a world, country, region, or province/state. Use Geomaps to show table data that contains location information.
--   **[Create a heatmap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-heatmap-ac.md)**  
+-   **[Create a heatmap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-heatmap-ac.md)**  
 Use a heatmap visualization to show the relationship between two table fields or indicator breakdowns. The changes in color as you move along the axes reveal patterns in the value of one or both fields/breakdowns.
--   **[Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-bar-ac.md)**  
+-   **[Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-bar-ac.md)**  
 Use bar visualizations to show information in segments that are proportional to the values they represent. Vertical bar and horizontal bar visualizations compare numeric values that represent either nominal or ordinal data.
--   **[Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-donut-ac.md)**  
+-   **[Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-donut-ac.md)**  
 Use pie, donut, and semi-donut visualizations to compare the size of parts of a data set to the whole. The segments of these visualizations should total to 100%.
--   **[Create a Pareto bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-pareto-vd.md)**  
+-   **[Create a Pareto bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-pareto-vd.md)**  
 Use a Pareto bar visualization to Identify the most important dimension in a large set of dimensions. Pareto bar visualization columns show data in descending order. A line shows the cumulative percentage.
--   **[Create a pivot table data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-pivot-ac.md)**  
+-   **[Create a pivot table data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-pivot-ac.md)**  
 Create a pivot table visualization to summarize large data sets by breaking them down by multiple dimensions in a single table. Cells show each row and column value combination and can also show subtotals.
--   **[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-time-series-ac.md)**  
+-   **[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-time-series-ac.md)**  
 Show changes in data over time. Use different time series visualizations to emphasize different aspects of the data, such as trends or individual values.
--   **[Create a calendar report data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-calendar-ac.md)**  
+-   **[Create a calendar report data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-calendar-ac.md)**  
 Create calendar report visualizations to show and highlight date-driven events.
--   **[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-analytics-list.md)**  
+-   **[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-analytics-list.md)**  
 Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
--   **[Create an Indicator Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-indicator-scorecard.md)**  
+-   **[Create an Indicator Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-indicator-scorecard.md)**  
 The Indicator Scorecard component enables users to visualize and compare data between multiple Performance Analytics indicators. It highlights the information regarding the last score collected, the change from the previous data point, the trend over time, and the value of the target to achieve.​
--   **[Create a data visualization from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-data-viz-from-list.md)**  
+-   **[Create a data visualization from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-data-viz-from-list.md)**  
 You can create a Platform Analytics vertical bar or pie data visualization from inside a Core UI list. If you have a data visualization role, you can save, share, export, or duplicate the visualization.
+-   **[Create Core UI reports on an upgraded instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-core-ui-reports-on-migrated-instance.md)**  
+On upgraded instances, including ones fully migrated to Platform Analytics, you can create Core UI reports from the Platform Analytics Data visualizations library.
 
-**Parent Topic:**[Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md)
+**Parent Topic:**[Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-data-visualizations.md)
 
 **Related topics**  
 

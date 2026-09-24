@@ -3,14 +3,14 @@ title: AI Control Tower \(legacy\)
 description: The AI Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-landing.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Control Tower \(legacy\)
@@ -19,27 +19,25 @@ The AI Control Tower is a platform that connects different parts of an organizat
 
 ## Get started
 
-The following topics describe how to set up and use the legacy AI Control Tower workspace. To get started with the redesigned AI Control Tower experience, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md).
-
 <table id="table_edz_k2y_pcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how you use the AI Control Tower to manage and track all the AI systems, and other AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how you use the AI Control Tower to manage and track all the AI systems, and other AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Configure all the AI Control Tower workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configuring-ai-control-tower-workflows.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Configure all the AI Control Tower workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configuring-ai-control-tower-workflows.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to use AI Control Tower.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to use AI Control Tower.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles and tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/aict-references.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles and tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/aict-references.md)
 
 </td></tr><tr><td>
 
-[Risk and Compliance\[Omitted image "bus-learn.svg"\] Alt text:AI Risk and compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-and-compliance.md)
+[Risk and Compliance\[Omitted image "bus-learn.svg"\] Alt text:AI Risk and compliance application to manage your artificial intelligence \(AI\) capabilities ethically, mitigate AI risks, and ensure compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-and-compliance.md)
 
 </td><td>
 
@@ -63,7 +61,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 **Note:** We have controls in place to enable/disable the data collection and data processing.
 

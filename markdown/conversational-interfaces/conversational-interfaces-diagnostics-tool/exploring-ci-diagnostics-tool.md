@@ -3,14 +3,14 @@ title: Exploring Conversational Interfaces Diagnostic Tool
 description: The Conversational Interfaces Diagnostic Tool lets admins search for, identify, and resolve issues with conversational interfaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/conversational-interfaces-diagnostics-tool/exploring-ci-diagnostics-tool.html
-release: australia
+release: brazil
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [exploring, Diagnostic Tool, Conversational Interfaces]
-breadcrumb: [Conversational Interfaces Diagnostic Tool, Conversational Interfaces]
+breadcrumb: [Conversational Interfaces Diagnostic Tool, Manage people and work, Conversational Interfaces]
 ---
 
 # Exploring Conversational Interfaces Diagnostic Tool
@@ -42,7 +42,7 @@ For example, the diagnostic workflow does the following:
 -   Gives you the option of downloading diagnostic support information.
 -   Lets you select another issue to solve.
 
-The diagnostic workflow and the options and prompts you see correspond to the issue you are trying to diagnose and solve. The diagnostic workflow uses an AI Search filter as part of the diagnosis. For more information about AI Search and how to configure it, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md).
+The diagnostic workflow and the options and prompts you see correspond to the issue you are trying to diagnose and solve. The diagnostic workflow uses an AI Search filter as part of the diagnosis. For more information about AI Search and how to configure it, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-ais.md).
 
 The diagnostic topic block workflow also includes solutions for messaging integrations, such as Microsoft Teams. It also helps with Advanced Work Assignment configuration issues.
 
@@ -54,7 +54,7 @@ In the workflow, the admin describes the issue. The tool runs a health check and
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Diagnose general errors, such as error messages and system property issues.|[Diagnose Conversational Interfaces errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose-general-error.md)|Admins|
-|Identify and solve Microsoft Teams configuration issues.|[Diagnose Microsoft Teams configuration issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose_ci_plugin_issues.md)|Admins|
-|Identify and resolve common Advanced Work Assignment \(AWA\) configuration issues.|[Diagnose Advanced Work Assignment configuration issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose-awa-no-agents-avail.md)|Admins|
+|Diagnose general errors, such as error messages and system property issues.|[Diagnose Conversational Interfaces errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose-general-error.md)|Admins|
+|Identify and solve Microsoft Teams configuration issues.|[Diagnose Microsoft Teams configuration issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose_ci_plugin_issues.md)|Admins|
+|Identify and resolve common Advanced Work Assignment \(AWA\) configuration issues.|[Diagnose Advanced Work Assignment configuration issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose-awa-no-agents-avail.md)|Admins|
 

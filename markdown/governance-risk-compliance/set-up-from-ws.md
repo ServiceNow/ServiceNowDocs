@@ -3,11 +3,11 @@ title: Set up pillars and entity types from Workspace UI
 description: Set up the pillars and entity types from the Operational Resilience Workspace UI. You must activate the pillars first and then activate the entity types. If you prefer the classic experience, you can navigate to the module using the Admin setup in the Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-from-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up pillars, entity types, entity filters, and entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Setting up pillars, entity types, and entities, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Set up pillars and entity types from Workspace UI
@@ -81,7 +81,7 @@ The supporting pillars are listed: -   Application Services
 
     1.  Select the pillar that you want to activate.
 
-        For more information on the fields in the form, see [GRC Choices form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/pillars-reference.md).
+        For more information on the fields in the form, see [GRC Choices form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/pillars-reference.md).
 
     2.  Select the Active check box.
 
@@ -107,7 +107,7 @@ The supporting pillars are listed: -   Application Services
 
     3.  Activate an entity type by selecting and opening its record.
 
-        For more information on the fields in the form, see [Entity type record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/entity-type-reference.md).
+        For more information on the fields in the form, see [Entity type record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/entity-type-reference.md).
 
         The example shows the entity types that are set up in the instance.
 
@@ -154,5 +154,5 @@ The supporting pillars are listed: -   Application Services
 
 ## What to do next
 
-Once pillars and entity types are set up from the Workspace UI, configure the entity filters. For more information, see [Configure the entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-ent-filter.md).
+Once pillars and entity types are set up from the Workspace UI, configure the entity filters. For more information, see [Configure the entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-ent-filter.md).
 

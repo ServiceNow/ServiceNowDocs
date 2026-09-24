@@ -3,11 +3,11 @@ title: Feedback form
 description: Learn about the fields of the feedback form. Use this form to create or edit the details of a feedback record in Feedback.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/feedback-form.html
-release: australia
+release: brazil
 product: Product Feedback
 classification: product-feedback
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Form field information for Feedback application, Reference, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Form field information for Feedback application, Reference, Feedbac
 
 Learn about the fields of the feedback form. Use this form to create or edit the details of a feedback record in Feedback.
 
-**Note:** Operational Sustainability Workspace and Strategic Planning users can’t view the fields that aren’t added to the default/custom form layout in the workspace. Configure the default/custom form layout to view those fields. For information on how to configure the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+**Note:** Operational Sustainability Workspace and Strategic Planning users can’t view the fields that aren’t added to the default/custom form layout in the workspace. Configure the default/custom form layout to view those fields. For information on how to configure the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 <table id="table_xnn_4lp_5xb"><thead><tr><th>
 
@@ -140,14 +140,14 @@ Business application that this feedback is related to.
 </td></tr></tbody>
 </table>The following is the list of related tabs:
 
--   Product ideas tab: Displays all the ideas that are linked with the feedback record. For more information, see [Associate feedback with a product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-product-idea.md).
--   Planning items tab: Displays all the planning items that are linked with the feedback record. For more information, see [Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-planning-item.md).
--   Related items tab: Displays all the non-planning items that are linked with the feedback record. This tab is only available if the non-planning items are linked. For more information, see [Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md).
+-   Product ideas tab: Displays all the ideas that are linked with the feedback record. For more information, see [Associate feedback with a product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/associate-feedback-with-product-idea.md).
+-   Planning items tab: Displays all the planning items that are linked with the feedback record. For more information, see [Associate a feedback or product idea with a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/associate-feedback-with-planning-item.md).
+-   Related items tab: Displays all the non-planning items that are linked with the feedback record. This tab is only available if the non-planning items are linked. For more information, see [Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md).
 
-**Parent Topic:**[Form field information for Feedback application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/form-field-information-for-product-feedback.md)
+**Parent Topic:**[Form field information for Feedback application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/form-field-information-for-product-feedback.md)
 
 **Related topics**  
 
 
-[Create Feedback in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-feedback-in-sp.md)
+[Create Feedback in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/create-feedback-in-sp.md)
 

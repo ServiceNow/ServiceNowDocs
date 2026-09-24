@@ -3,11 +3,11 @@ title: Instance Scan properties
 description: On the properties form, you can set parameters that control how the instance executes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-sys-properties.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Instance Scan references, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -88,7 +88,7 @@ glide.scan.sn\_non\_standard\_scopes\_list
 -   Used to exclude specific non-standard ServiceNow scopes from being classified as ISV/third-party applications during scan classification
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Instance Scan references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-references.md)
+</table>**Parent Topic:**[Instance Scan references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-references.md)
 
 **Related topics**  
 

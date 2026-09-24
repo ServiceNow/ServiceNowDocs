@@ -3,9 +3,9 @@ title: Predefined button functions
 description: Use predefined buttons to quickly add prebuilt functionality to pop-ups in your mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/predefined-button-functions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---

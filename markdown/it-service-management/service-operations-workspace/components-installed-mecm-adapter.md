@@ -3,11 +3,11 @@ title: Components installed with Microsoft Endpoint Configuration Manager for In
 description: Several types of components are installed with activation of the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application, including user roles and ServiceNow Store applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/components-installed-mecm-adapter.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Incident Management in Service Operations Workspace reference, Inci
 
 Several types of components are installed with activation of the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application, including user roles and ServiceNow Store applications.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -98,7 +98,7 @@ Action Configuration\[sn\_mecm\_action\_config\]
 List of action configurations applicable to CI.
 
 </td></tr></tbody>
-</table>**Note:** Deny unless ACLs are added to all the tables. The Deny unless ACLs restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the mentioned applications, such as reading, writing, deleting, creating, or accessing the report view. For more information on Deny-Unless ACLs and enhanced security model adoption features, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-denial-behavior.md) and [Features of enhanced security model adoption for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md).
+</table>**Note:** Deny unless ACLs are added to all the tables. The Deny unless ACLs restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the mentioned applications, such as reading, writing, deleting, creating, or accessing the report view. For more information on Deny-Unless ACLs and enhanced security model adoption features, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/acl-denial-behavior.md) and [Features of enhanced security model adoption for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md).
 
 ## Store applications installed
 
@@ -116,7 +116,7 @@ Metrics and CI Actions Framework \[sn\_cimaf\]
 
 </td><td>
 
-Core framework capabilities and configurations for Microsoft Endpoint Configuration Manager for Investigation application, including API data and CI actions framework. For more information on the roles and tables installed, see [Components installed with Metrics and CI Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-metrics-ci-action-fw.md).
+Core framework capabilities and configurations for Microsoft Endpoint Configuration Manager for Investigation application, including API data and CI actions framework. For more information on the roles and tables installed, see [Components installed with Metrics and CI Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/components-installed-metrics-ci-action-fw.md).
 
 </td></tr><tr><td>
 
@@ -132,8 +132,8 @@ Remedial Actions Framework\[com.snc.sn\_reacf\]
 
 </td><td>
 
-Framework to remediate or resolve the CI related issues. For more information on the roles and tables installed, see [Components installed with Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-with-remediation-fw.md).
+Framework to remediate or resolve the CI related issues. For more information on the roles and tables installed, see [Components installed with Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/components-installed-with-remediation-fw.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Incident Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-im-reference.md)
+</table>**Parent Topic:**[Incident Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-im-reference.md)
 

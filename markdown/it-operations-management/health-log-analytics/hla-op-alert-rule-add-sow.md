@@ -3,11 +3,11 @@ title: Define a custom Log Analytics alert rule in Health Log Analytics
 description: Define a custom Log Analytics alert rule for log data that might not generate alerts automatically. A custom rule enables you to specify the metric, threshold, and alert properties directly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Health Log Analytics, log analytics alert rule, custom alert rules, define alert rule, Log viewer, search queries, alert thresholds, hit count, time period, persistence, alert conditions, log data, automatic alerts, metric alerts, alert properties, query filters, component selection, mathematical operators, time units, alert configuration]
 breadcrumb: [Use custom alert rules, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -19,7 +19,7 @@ Define a custom Log Analytics alert rule for log data that might not generate al
 
 ## Before you begin
 
-For background information, see [Alert rules in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-custom-alert-rules.md).
+For background information, see [Alert rules in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-custom-alert-rules.md).
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
@@ -31,7 +31,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
     -   While viewing log entries for an alert on the **Surrounding logs** tab, select **Log Viewer**.
 2.  Define and run a search.
 
-    For more information, see [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md).
+    For more information, see [Define, save, and share a log data search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md).
 
 3.  When a search returns log data that should generate an alert, select **Save** or **Save as** to save the search.
 
@@ -106,7 +106,7 @@ The component to which this alert rule applies.By default, this is the component
 **Related topics**  
 
 
-[Change a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-defined-alert-modify-sow.md)
+[Change a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-defined-alert-modify-sow.md)
 
-[Delete a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-defined-alert-delete-sow.md)
+[Delete a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-defined-alert-delete-sow.md)
 

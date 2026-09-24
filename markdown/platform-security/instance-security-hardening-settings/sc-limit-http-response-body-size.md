@@ -3,11 +3,11 @@ title: Limit HTTP response body size \[New in Security Center 1.3 and updated in
 description: Configure the glide.http.response.get\_body.limit.enabled and glide.http.response.get\_body.limit properties to protect your instance against OutOfMemoryExceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-limit-http-response-body-size.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [File and resources, Hardening settings, Platform Security]
 ---
@@ -80,7 +80,7 @@ Category
 
 </td><td>
 
-[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -108,5 +108,5 @@ Functional impact
 This property reduces the chances of an OutOfMemoryException due to a customer accidentally loading a large file into memory.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

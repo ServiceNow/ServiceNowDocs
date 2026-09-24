@@ -3,9 +3,9 @@ title: Governing the Data Catalog
 description: Data stewards add business context to catalog assets, making them more discoverable for catalog consumers. Governance tools include glossary terms, tags, domains, and direct asset updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/manage-data-catalog.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Catalog, Workflow Data Fabric]
 ---
@@ -23,12 +23,12 @@ Catalog governance tools include:
 -   Domains to group assets by business area or ownership
 -   Asset record updates to correct or supplement collected metadata
 
--   **[Update a data asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/update-data-asset.md)**  
+-   **[Update a data asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/update-data-asset.md)**  
 Edit catalog asset metadata to add business context, improve discoverability, and provide additional information.
--   **[Create catalog tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-tags-dc.md)**  
+-   **[Create catalog tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-tags-dc.md)**  
 Create tags that can be applied to data assets for classification and categorization.
--   **[Create catalog domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-domains-dc.md)**  
+-   **[Create catalog domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-domains-dc.md)**  
 Organize data assets by creating hierarchical domain structures that represent business areas, departments, or data categories.
 
-**Parent Topic:**[Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)
+**Parent Topic:**[Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-catalog.md)
 

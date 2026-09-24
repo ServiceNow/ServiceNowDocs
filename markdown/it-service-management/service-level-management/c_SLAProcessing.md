@@ -3,11 +3,11 @@ title: Service Level Agreement \(SLA\) processing
 description: The SLA engine performs two passes to evaluate SLA definitions and their conditions based on a task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_SLAProcessing.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -28,8 +28,8 @@ The SLA engine performs the following passes:
     4.  If the SLA is active, the Pause condition is true, and the SLA stage is **In Progress**, the SLA is paused.
     5.  If the SLA is active, the Pause condition is false, and the SLA stage is **Paused**, the SLA changes back to **In Progress**.
 
--   **[Actual and business elapsed times](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/r_ElapsedTimeCounting.md)**  
+-   **[Actual and business elapsed times](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/r_ElapsedTimeCounting.md)**  
 Task SLA records contain two sets of timing information: Actual elapsed and Business elapsed.
 
-**Parent Topic:**[Exploring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/exploring-slm.md)
+**Parent Topic:**[Exploring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/exploring-slm.md)
 

@@ -3,9 +3,9 @@ title: Use Remediation Effort records
 description: When Vulnerability managers and analysts create remediation efforts \(REs\), remediation Tasks \(VUL\) are automatically assigned to IT teams for remediation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-ws-remed-eff-rcd.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -110,16 +110,5 @@ If you mark a remediation effort inactive \(**Active** check box not selected\) 
 
 ## What to do next
 
-If you want to create a remediation task on-demand from a remediation effort, see [Create a remediation task on-demand from Remediation Effort in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-rt-frm-re.md).
-
--   **[Create a remediation effort in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-rev16.md)**  
-A remediation effort record is a static list of records that you create from a watch topic in the Security Exposure Management Workspace.
--   **[Create a remediation task on-demand from Remediation Effort in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-rt-frm-re.md)**  
-Create a remediation task on-demand from a remediation effort. If you create a remediation task on-demand, you choose the records you want to add manually.
--   **[Create a recurring remediation effort in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-recurringRE-steal-VI.md)**  
-You can create and schedule recurring remediation efforts that are generated automatically on the dates and times that you set.
--   **[Transfer records to remediation efforts in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-transfer-VI-to-RE.md)**  
-You can transfer records from existing remediation efforts into new remediation efforts in the Vulnerability Manager Workspace.
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
+If you want to create a remediation task on-demand from a remediation effort, see [Create a remediation task on-demand from Remediation Effort in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-create-rt-frm-re.md).
 

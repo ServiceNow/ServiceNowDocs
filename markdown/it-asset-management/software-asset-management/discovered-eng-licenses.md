@@ -3,13 +3,13 @@ title: Discovered engineering licenses in Software Asset Management classic
 description: View a list of all the discovered and normalized software for your engineering applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/discovered-eng-licenses.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View normalization suggestions in Software Asset Management Core UI, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [View normalization suggestions in Software Asset Management classic, Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Discovered engineering licenses in Software Asset Management classic
@@ -20,5 +20,5 @@ Navigate to **Software Asset** &gt; **Discovery** &gt; **Discovered Engineering 
 
 You can view a list of all the normalized publishers and products for your engineering applications. Additional information such as the version, quantity of licenses, and the type of license is also displayed.
 
-**Parent Topic:**[View normalization suggestions in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-norm-suggestions-sam.md)
+**Parent Topic:**[View normalization suggestions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/view-norm-suggestions-sam.md)
 

@@ -3,9 +3,9 @@ title: Create a case action summary
 description: Create a case action summary for a customer service case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-action-summary.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -55,15 +55,15 @@ After creating a case action summary, the record is added to the Case form in th
 
 7.  Publish the case action summary using one of the following actions.
 
-<table id="choicetable_dzr_w4v_d3b"><thead><tr><th align="left" id="d77870e238">
+<table id="choicetable_dzr_w4v_d3b"><thead><tr><th align="left" id="d79732e238">
 
 Action
 
-</th><th align="left" id="d77870e241">
+</th><th align="left" id="d79732e241">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d77870e247">
+</th></tr></thead><tbody><tr><td id="d79732e247">
 
 **Publish to Case**
 
@@ -73,7 +73,7 @@ Updates the case with the case action summary. -   Information from the customer
 -   Information from the case action summary is added to the **Work notes** field on the Case form.
 
 
-</td></tr><tr><td id="d77870e271">
+</td></tr><tr><td id="d79732e271">
 
 **Publish to Case &amp; Notify**
 

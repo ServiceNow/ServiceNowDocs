@@ -3,9 +3,9 @@ title: Service catalog integration with the Customer and Consumer Service Portal
 description: Users with the customer administrator role \(sn\_customerservice.customer\_admin\) can associate a portal with a service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-catalog-request-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate with Request Management, Overview, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Users with the customer administrator role \(sn\_customerservice.customer\_admin
 
 The following catalog pages and widgets are provided as part of the Customer Service with Request Management integration.
 
-For more information, see [Associate a portal with a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/associate-portal-catalog.md).
+For more information, see [Associate a portal with a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/associate-portal-catalog.md).
 
 ## CSM Catalog page
 

@@ -3,11 +3,11 @@ title: Multi-component models and assets in Enterprise Asset Management
 description: Multi-component models and multi-components assets help you track the maintenance of your enterprise assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complex-models.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Model types, Enterprise Asset Management data model, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -47,7 +47,7 @@ Assets that are associated with pre-assembled and user-assembled multi-component
     If you want to add additional child assets to an existing parent asset, you can use add-on assets. These assets do not have to be defined through the original model components. If you use an add-on asset, the Asset type of the parent asset is automatically updated to Pre-assembled with add-on.
 
 -   User-assembled asset: Assets that are assembled using components from the parent asset stockroom. You can assemble these assets using either of the following methods:
-    -   Manual assembly: Manually select the required components and assemble the asset by using the **Assemble** button in the asset record. For details, see [Select assets for user-assembled asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/assemble-assets-eam.md).
+    -   Manual assembly: Manually select the required components and assemble the asset by using the **Assemble** button in the asset record. For details, see [Select assets for user-assembled asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/assemble-assets-eam.md).
     -   Automatic assembly: Automatically select the required components and assemble the asset by using the **Auto-assemble** button in the asset record. If the required quantity of components is unavailable in your stockrooms, an error appears. You must then assemble the asset manually.
 
 If a parent asset is in one of the following states, you can swap its child assets with any other assets that are created for the same model component:
@@ -57,7 +57,7 @@ If a parent asset is in one of the following states, you can swap its child asse
 -   In Stock Defective
 -   In Stock Pending Repair
 
-**Note:** For more details on swapping assets, see [Swap assets for parent multi-component asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/swap-assets-eam.md).
+**Note:** For more details on swapping assets, see [Swap assets for parent multi-component asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/swap-assets-eam.md).
 
 ## Multiple components for an enterprise model
 
@@ -74,5 +74,5 @@ Since consumable assets don't have asset tags or serial numbers, the **Component
 
 Since serialized assets can have asset tags, component numbers are optional for serialized child assets. You can specify a component number only if you set the **Quantity** field of the Add model components dialog box to `1`. If you set this field to a value greater than one, the component number is generated automatically. If a serialized child asset does not have an asset tag, the component number is propagated as the asset tag. Any asset tag that you later add overrides the component number.
 
-**Parent Topic:**[Model types in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-model-types.md)
+**Parent Topic:**[Model types in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-model-types.md)
 

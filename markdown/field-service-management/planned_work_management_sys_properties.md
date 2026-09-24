@@ -3,9 +3,9 @@ title: Planned Work Management system properties
 description: Planned Work Management uses the following system properties, which are located in the System Properties \[sys\_properties\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/planned\_work\_management\_sys\_properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Planned Work Management components, Components installed with additional plugins, Reference, Field Service Management]
 ---
@@ -79,5 +79,5 @@ Enables the effective date of a work plan to be set in the past. Support for pas
 -   Default value: Advanced
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Planned Work Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/planned-work-components.md)
+</table>**Parent Topic:**[Planned Work Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/planned-work-components.md)
 

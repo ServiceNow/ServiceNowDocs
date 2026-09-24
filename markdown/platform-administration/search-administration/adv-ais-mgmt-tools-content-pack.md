@@ -3,11 +3,11 @@ title: Platform Analytics Solution for Advanced AI Search Management Tools
 description: ServiceNow Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution helps AI Search administrators analyze search query traffic trends, review indexed record and configuration settings, and preview search query results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/adv-ais-mgmt-tools-content-pack.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,5 +28,5 @@ The following roles are associated with this solution:
 **Related topics**  
 
 
-[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/content-packs-in-form-analytics-published.md)
+[Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/content-packs-in-form-analytics-published.md)
 

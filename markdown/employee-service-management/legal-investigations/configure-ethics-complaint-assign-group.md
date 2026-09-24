@@ -3,11 +3,11 @@ title: Configure system properties to update ethics complaint assignment group
 description: As an admin, configure the sn\_lg\_investigate.ethics\_complaints\_assignment\_group system property to use a different assignment group to assign ethics complaints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/configure-ethics-complaint-assign-group.html
-release: australia
+release: brazil
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_admin
 
 `sn_lg_investigate.ethics_complaints_assignment_group` is a configurable system property that is used to configure default assignment group for ethics complaints raised using quick links in Employee Center. The sys\_id of any group that is protected with the Universal Request sensitive role and has fulfillers who can work on ethics complaints is enabled to configure the system property.
 
-Alternatively, configure the property from [Set up Legal Investigations with HR Service Delivery Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/integrate-lsd-hrsd.md).
+Alternatively, configure the property from [Set up Legal Investigations with HR Service Delivery Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-investigations/integrate-lsd-hrsd.md).
 
 ## Procedure
 

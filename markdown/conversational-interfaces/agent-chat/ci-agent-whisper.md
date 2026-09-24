@@ -3,11 +3,11 @@ title: Agent Whisper
 description: Agent Whisper lets agents and chat managers have a conversation without the requester knowing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ci-agent-whisper.html
-release: australia
+release: brazil
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Agent Chat, Conversational Interfaces]
 ---
@@ -22,7 +22,7 @@ For example, if an agent is newly hired, still in training, or unsure about how 
 
 Another scenario is if an agent needs to escalate a customer conversation to a chat manager. Agents can request help and chat managers can join the chat conversations publicly to communicate directly with the customer to help deescalate the situation.
 
-You activate Agent Whisper in Agent Chat settings. For details, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+You activate Agent Whisper in Agent Chat settings. For details, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 ## Using the Help quick action
 
@@ -37,7 +37,7 @@ Chat managers can view the conversations with help requested from different view
     \[Omitted image "agent-whisper-help-list-view.png"\] Alt text: Help Requested selected in Conversation Monitoring options in Lists view.
 
 
-To learn more about Workforce Optimization for CSM, see [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md).
+To learn more about Workforce Optimization for CSM, see .
 
 ## Sending and receiving messages in Private Chat
 
@@ -82,11 +82,11 @@ The public chat transcript does not include private messages and is accessible f
 
 The private chat transcript is shown on the interaction record by default and does include private messages exchanged between agents and managers. Private messages are prefixed with the word \[PRIVATE\] to clearly indicate when a message came through the Private Chat.
 
-To learn more about downloading the chat transcript, see [Chat transcript downloads for requesters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-chat-transcripts.md).
+To learn more about downloading the chat transcript, see [Chat transcript downloads for requesters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-chat-transcripts.md).
 
 \[Omitted image "agent-whisper-download-transcript.png"\] Alt text: Agent Chat Details tab with chat internal transcript highlighted.
 
 ## Custom report
 
-Admins can build a custom report to track the number of help requests, see [Build a report to track the number of help requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-reference.md) for instructions.
+Admins can build a custom report to track the number of help requests, see [Build a report to track the number of help requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-agent-chat-reference.md) for instructions.
 

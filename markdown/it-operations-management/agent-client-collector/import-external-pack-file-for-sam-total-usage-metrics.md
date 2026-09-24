@@ -3,11 +3,11 @@ title: Configure Osqueryd schedule for SAM total usage metrics
 description: SAM total usage metrics works by relying on the Osqueryd service running on the target host. Configure the Osqueryd service to run the required schedule Osquery on the host.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/import-external-pack-file-for-sam-total-usage-metrics.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [Using push-based Discovery and SAM together, ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -50,5 +50,5 @@ Role required: admin
 
 ## Result
 
-You can now [Configure Osquery logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md).
+You can now [Configure Osquery logs for SAM total usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.md).
 

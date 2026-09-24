@@ -3,9 +3,9 @@ title: Prepare to run the Tableau collector
 description: Set up API access, authentication, and permissions before running the collector.Enable the Metadata API on Tableau Server to allow metadata collection.Create a Tableau user with admin permissions and generate a Personal Access Token.Set up a Connected App in Tableau for JWT authenticationCreate a YAML file to map database hostname aliases to canonical names.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-tableau-collector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Tableau metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -26,24 +26,24 @@ The collector uses the Tableau Metadata API to harvest metadata. You must enable
 
 1.  Enable the Metadata API on Tableau Server.
 
-    See [Enable Tableau Metadata API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
+    See [Enable Tableau Metadata API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
 
     **Note:** The Metadata API is enabled by default for Tableau Cloud. This step applies only to Tableau Server.
 
 2.  Configure user permissions and create a Personal Access Token.
 
-    See [Configure Tableau user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
+    See [Configure Tableau user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
 
 3.  Configure JWT authentication using a Connected App.
 
-    See [Configure Tableau JWT authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
+    See [Configure Tableau JWT authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
 
 4.  Configure hostname mapping for database aliases.
 
-    See [Set up a YAML file for hostnames mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
+    See [Set up a YAML file for hostnames mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-tableau-collector.md).
 
 
-**Parent Topic:**[Tableau metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/tableau-metadata-collector.md)
+**Parent Topic:**[Tableau metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/tableau-metadata-collector.md)
 
 ## Enable Tableau Metadata API
 

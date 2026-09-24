@@ -3,11 +3,11 @@ title: Tag category source
 description: The Tag category source setting controls how the Cloud Cost Management application maps cloud resource tags to business entities for cost attribution and reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/tag-category-source.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cost usage tags, Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -40,11 +40,11 @@ The Cloud Cost Management application provides the following tag category source
 **Related topics**  
 
 
-[Select a tag category source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/select-tag-category-source.md)
+[Select a tag category source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/select-tag-category-source.md)
 
-[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
+[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 
-[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
+[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
 
-[List of default tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/default-tag-categories.md)
+[List of default tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/default-tag-categories.md)
 

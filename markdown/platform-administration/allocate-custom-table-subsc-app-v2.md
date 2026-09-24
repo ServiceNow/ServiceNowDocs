@@ -3,9 +3,9 @@ title: Map custom tables to a product subscription in Subscription Management
 description: Maintain accurate entitlement for custom tables in the global scope and stay in compliance by mapping the tables to a product subscription in Subscription Management. Mapping your custom tables keeps your custom table allotment updated and helps you avoid running out of custom table entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/allocate-custom-table-subsc-app-v2.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -28,17 +28,17 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
 3.  Update your entitlements by mapping one or more custom tables to a recommended product or a product of your choice.
 
-    When possible, Subscription Management displays recommendations for product subscriptions with available custom table entitlements in the **Recommended Product** column. Subscription Management can't display product subscription recommendations for some unmapped custom tables, which therefore aren't shown in the **Unmapped custom applications** tab. For more information about mapping missing custom tables to product subscriptions, see [Map a missing custom table to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/map-missing-custom-table-sub-mgt.md)
+    When possible, Subscription Management displays recommendations for product subscriptions with available custom table entitlements in the **Recommended Product** column. Subscription Management can't display product subscription recommendations for some unmapped custom tables, which therefore aren't shown in the **Unmapped custom applications** tab. For more information about mapping missing custom tables to product subscriptions, see [Map a missing custom table to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/map-missing-custom-table-sub-mgt.md)
 
-<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d166502e145">
+<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d166213e145">
 
 Option
 
-</th><th align="left" id="d166502e148">
+</th><th align="left" id="d166213e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166502e154">
+</th></tr></thead><tbody><tr><td id="d166213e154">
 
 **Map to a recommended product**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d166502e181">
+</td></tr><tr><td id="d166213e181">
 
 **Map to a product of your choice**
 
@@ -61,7 +61,7 @@ Description
 4.  Repeat these steps for each remaining unmapped table.
 
 
-</td></tr><tr><td id="d166502e211">
+</td></tr><tr><td id="d166213e211">
 
 **Manually map to a product through the Custom Applications table**
 
@@ -83,5 +83,5 @@ If subscription recommendations shown in the Subscription Management UI aren't c
 
 One or more custom tables are mapped to a product subscription and your custom table entitlement count is updated. If you mapped a custom table to a subscription through the Custom Table Inventory form, Subscription Management is updated the next day.
 
-**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
+**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

@@ -3,11 +3,11 @@ title: Guided Setup
 description: Guided Setup is the product support that organizes configuration activities into categories. Use Guided Setup to step through the initial configuration of any product or application that provides a Guided Setup module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/guided-setup.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adoption services, Configure user experiences]
 ---

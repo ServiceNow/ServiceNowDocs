@@ -3,11 +3,11 @@ title: Legacy: Open Incident State Monitor dashboard
 description: View average age and number of reassignments and breakdown incidents in the New, In Progress, and On Hold states.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/open-incident-state-dashboard.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Legacy: Incident Management Platform Analytics Solutions, Reporting incidents, Incident Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ View average age and number of reassignments and breakdown incidents in the New,
 
 **Important:**
 
-Starting in Xanadu release, the Open Incident State Monitor dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the average age and number of reassignments and breakdown incidents in the New, In Progress, and On Hold states.
+Starting in Xanadu release, the Open Incident State Monitor dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident.md) to view the average age and number of reassignments and breakdown incidents in the New, In Progress, and On Hold states.
 
 \[Omitted image "open-incident-state-monitor.png"\] Alt text: Open Incident State Monitor workbench widget
 
@@ -65,5 +65,5 @@ The following indicators are not shown directly on the dashboard but are used in
 -   Assignment Group
 -   State
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-content-pack.md)
 

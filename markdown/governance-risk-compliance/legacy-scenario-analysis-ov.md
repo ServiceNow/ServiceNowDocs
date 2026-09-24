@@ -3,9 +3,9 @@ title: Legacy scenario analysis
 description: By performing a scenario analysis, you can determine the risks that might impact your business. You can analyze the impact of the scenarios and events on your business services. You can also track the actions and improvements from the scenario analysis in Operational Resilience Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/legacy-scenario-analysis-ov.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ When a plan approver approves the plan approval, it triggers a response task for
 
 As an owner of the scenario analysis, you can verify the status of the services and calculate the possible disruptions. After the response tasks have been completed, you can request an analysis approval for your scenario analysis. When an analysis approver approves the scenario analysis, you can close it and monitor its status in Operational Resilience Workspace.
 
-**Note:** Starting with Operational Resilience, version 22.3.1, the advanced scenario analysis experience is displayed in the Operational Resilience Workspace by default. To enable the legacy scenario analysis entry points, see [Enable the legacy scenario analysis flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/activate-scenario-analysis-legacy-flow.md).
+**Note:** Starting with Operational Resilience, version 22.3.1, the advanced scenario analysis experience is displayed in the Operational Resilience Workspace by default. To enable the legacy scenario analysis entry points, see [Enable the legacy scenario analysis flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/activate-scenario-analysis-legacy-flow.md).
 
 ## Tasks to set up the legacy scenario analysis
 
@@ -195,13 +195,13 @@ As a scenario analysis owner, when you create a scenario event and add a partici
 
 On the **Responses** tab, the details of the response task such as the response task number, name of the assigned participant, and state of the response task are displayed.
 
-The owner of the scenario event can add a service and a dependency to the response task. The assignee of the response task can complete the response task, add their notes about the scenario event, and update the impact duration of the scenario event.
+The owner of the scenario event can add a service and a dependency to the response task. The assignee of the response task can complete the response task and add their notes about the scenario event. The assignee can also update the impact duration of the scenario event as shown in the following example.
 
 \[Omitted image "sce-event-notes.png"\] Alt text: Notes about the scenario event.
 
 ## Known issue for upgrading from Release 15.x.x to Release 16.x.x
 
-When upgrading from Release 15.x.x to 16.x.x, a response task is not created automatically if a scenario analysis is in the **Analyze** state and a participant is already added. This is a known issue.
+When upgrading from Release 15.x.x to Release 16.x.x, a known issue can occur. If a scenario analysis is in the **Analyze** state and a participant is already added, a response task is not created automatically.
 
 As a workaround for this issue, the Operational Resilience manager must remove the participants from the scenario analysis and add them to the same scenario analysis. The Operational Resilience application then automatically creates a response task for the scenario analysis.
 

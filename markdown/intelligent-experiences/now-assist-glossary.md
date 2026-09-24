@@ -1,18 +1,18 @@
 ---
 title: AI glossary
-description: Learn about the terms and concepts used in ServiceNow Otto and AI agents.
+description: Learn about the terms and concepts used on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-glossary.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Implementing AI, Getting started with AI, Enable AI Experiences]
 ---
 
 # AI glossary
 
-Learn about the terms and concepts used in ServiceNow Otto and AI agents.
+Learn about the terms and concepts used on the ServiceNow AI Platform.
 
 ## AI Admin Hub
 
@@ -82,6 +82,8 @@ A feature on the ServiceNow AI Platform that translates user input to English an
 
 ## External Content Connectors
 
+External
+
 External Content Connectors is a ServiceNow® Store application that enables AI Search to index and search content from external repositories like Atlassian Confluence Cloud and Microsoft SharePoint Online. It expands search capabilities to include external content while maintaining original access permissions.
 
 ## generative AI
@@ -135,10 +137,6 @@ Q&amp;A Genius Results in ServiceNow Otto provide users with concise, actionable
 ## Retrieval Augmented Generation
 
 Retrieval Augmented Generation is a generative AI technique that enhances large language model \(LLM\) outputs by retrieving relevant enterprise content, such as knowledge articles or records and using it as context to generate more accurate and actionable responses. Within ServiceNow, RAG is implemented in products like ServiceNow Otto for AI Search, where it powers Genius Results cards by combining AI Search with generative responses. It is also configurable in AI Agent Studio, allowing admins to define RAG based tools that retrieve external or internal data to support autonomous or supervised agentic workflows.
-
-## ServiceNow Otto
-
-ServiceNow Otto refers to generative AI experiences on the ServiceNow AI Platform. With ServiceNow Otto, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
 
 ## ServiceNow Otto context menu
 

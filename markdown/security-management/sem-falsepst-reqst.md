@@ -3,9 +3,9 @@ title: Request a false positive for a vulnerable item or remediate task
 description: Indicate a false positive request for a finding or a remediation task in the Security Exposure Management Workspace. A false positive is a condition where a scanner incorrectly reports that a finding exists in the system due to situations such as an incorrect classification, improper logic, or an algorithm in the scanner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-falsepst-reqst.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -33,10 +33,18 @@ Role required:
 
 3.  Select the remediation task or vulnerable item.
 
+    Use the filter bar or column sort to find a specific finding by ID, severity, asset, or current state. To narrow the list to your own tasks, set the **Assigned to** filter to **Me**.
+
 4.  Select **Mark as False Positive**.
 
 5.  Enter information about the request.
 
+    In the **Mark as False Positive** dialog box, provide the following:
+
+    -   **Reason** — select the false-positive reason from the choice list \(for example, Incorrect classification, Scanner algorithm error, or Mitigating control in place\).
+    -   **Justification** — describe why this finding is not a real vulnerability. Include the scanner version, observed behavior, and any reproduction steps that demonstrate the finding is incorrect.
+    -   **Until** — optional expiry date after which the finding reopens automatically for review.
+    -   **Evidence** — attach screenshots, scan-tool output, or supporting documents that substantiate the false-positive claim.
 6.  Select **Request Approval**.
 
 7.  Provide additional information about your request to the approver and select **Submit**.
@@ -92,8 +100,30 @@ The state of the record does not change.
 
 The state of the remediation task and its records reverts to previous state.
 
+</td></tr><tr><td>
+
+Expired
+
+</td><td>
+
+The approval request has exceeded the configured approval expiry period. The record reverts to its previous state.
+
+</td><td>
+
+The remediation task and its records revert to their previous state when the approval expires.
+
+</td></tr><tr><td>
+
+No Longer Required
+
+</td><td>
+
+The approval is no longer needed \(e.g., the finding was resolved by other means\).
+
+</td><td>
+
+The approval is no longer needed for the remediation task.
+
 </td></tr></tbody>
 </table>In the **Activity stream** of a record or remediation task, you can view the entire workflow of the false positive request.
-
-**Parent Topic:**[Exception Management Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-exception-management-overview.md)
 

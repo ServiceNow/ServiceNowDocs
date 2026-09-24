@@ -3,11 +3,11 @@ title: Add comments to Docs
 description: Add a comment to specific text in a Doc to share feedback or start a discussion without modifying the Doc content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Add a comment to specific text in a Doc to share feedback or start a discussion 
 
 ## Before you begin
 
-[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md).
+[Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -28,7 +28,7 @@ Role required: sn\_cwm.cwm\_user
 
 You can add comments to plain text, hyperlinks, dynamic data, and text inside table cells. Comments are not supported on images, empty table cells, or selections that include multiple table cells. You can mention users using `@` in comments and add text and hyperlinks. You can't mention a table or an image in comments.
 
-Overlapping comments on the same text aren't supported. To add to an existing discussion on already-commented text, reply to the existing thread instead. For more information, see [Manage comments in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/manage-comments-in-cwm-docs.md).
+Overlapping comments on the same text aren't supported. To add to an existing discussion on already-commented text, reply to the existing thread instead. For more information, see [Manage comments in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/manage-comments-in-cwm-docs.md).
 
 **Note:** Users can add and manage comments if they have read-only access to a document.
 
@@ -59,5 +59,5 @@ The selected text is highlighted with a yellow underline, indicating that a comm
 
 \[Omitted image "cwm-comment-highlight.png"\] Alt text: Commented text is highlighted in yellow and underlined.
 
-**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
 

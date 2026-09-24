@@ -3,9 +3,9 @@ title: Create an advanced Map Page
 description: Use advanced configuration to set up Map Pages without scripting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-advanced-map-page.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Map pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -45,14 +45,14 @@ When clicked, lists and forms display for codeless user experience, facilitating
 
 Click the **Create Map Data Item** related link, and complete the form.
 
--   **[Configure map data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-map-data-items.md)**  
+-   **[Configure map data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-map-data-items.md)**  
 Add map data items to render data on your Map Page using the Classic Environment.
--   **[Create a map marker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-map-markers.md)**  
+-   **[Create a map marker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-map-markers.md)**  
 Add a map marker icon and define the click behavior to differentiate between data on your Map Page using the Classic Environmentlis.
--   **[Add a map filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-map-filters.md)**  
+-   **[Add a map filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-up-map-filters.md)**  
 Add a map filter to display filtered map markers. This filter enables you to see only the map markers for the data that you want.
 
-**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
+**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_MapPages.md)
 
 **Related topics**  
 

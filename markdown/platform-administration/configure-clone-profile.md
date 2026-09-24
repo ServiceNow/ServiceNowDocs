@@ -3,9 +3,9 @@ title: Create a custom clone profile
 description: Clone profiles act as reusable clone templates to establish consistent clone outcomes. Clone profiles enable you to set up exclusions, preservers, and cleanup scripts for specific clone scenarios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-clone-profile.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---

@@ -1,20 +1,20 @@
 ---
 title: Engagement Overview
-description: The Engagement Overview provides an executive view into audit results and engagement breakdowns by task. You can identify areas of concern quickly.
+description: The Engagement Overview provides an executive view into audit results and engagement breakdowns by task to quickly identify areas of concern.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/c\_AuditEngagementOverview.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Risk Monitoring &amp; Indicators, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Risk monitoring and indicators, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Engagement Overview
 
-The Engagement Overview provides an executive view into audit results and engagement breakdowns by task. You can identify areas of concern quickly.
+The Engagement Overview provides an executive view into audit results and engagement breakdowns by task to quickly identify areas of concern.
 
 The Engagement Overview module displays audit information that is tailored to the role of the user.
 
@@ -26,7 +26,7 @@ Users with the Audit Administrator, Audit User, and Audit Manager roles view the
 |----|------|-----------|
 |Engagement Results|Column Chart|Displays an overall count of audit engagements conducted for each entity. The chart is stacked to display the overall audit results for each entity.|
 |Entities by Engagement|Donut chart|Displays the total number of entities included in the scope of each audit engagement.|
-|Controls by Engagement|Donut chart|Displays the total number of controls included in scope of each audit engagement.|
+|Controls by Engagement|Donut chart|Displays the total number of controls included in the scope of each audit engagement.|
 |Entity|Drop down list|Select one or many entities to view and compare their audit findings.|
 |Select Engagement|Drop down list|Select one or many engagements to view and compare their audit findings.|
 |Satisfactory Engagements|Single Score|Displays the number of engagements closed with a satisfactory result.|
@@ -37,5 +37,5 @@ Users with the Audit Administrator, Audit User, and Audit Manager roles view the
 |Audit Task Breakdown|Bar Chart|Count of audit tasks grouped by Task Type, Assigned to, Top Task and State. Stacked by Task Type, Assigned to, Top Task, and State.|
 |Overdue Audit Tasks|List|List of open audit tasks that have exceeded the planned end date.|
 
-**Parent Topic:**[Manage GRC key risk and control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/continuous-monitoring.md)
+**Parent Topic:**[Manage GRC key risk and control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/continuous-monitoring.md)
 

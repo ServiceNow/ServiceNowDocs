@@ -3,11 +3,11 @@ title: AI Search in Industrial Connected Workforce Mobile Experience
 description: Access the AI Search for Industrial Connected Workforce Mobile Experience by using the search bar on the home page. The system interprets queries to return the most relevant results across configured record types, such as standards, tasks, and knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/ai-search-icw-mobile-experience.html
-release: australia
+release: brazil
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
@@ -27,7 +27,7 @@ The search returns the following result types.
     **Note:** The task type 'root cause analysis' isn’t supported in AI Search on mobile.
 
 
-To learn more about the AI Search capability, see [Searching in AI Search.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-ais.md).
+To learn more about the AI Search capability, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/use-ais.md).
 
-**Parent Topic:**[Exploring Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/exploring-icw-mobile-experience.md)
+**Parent Topic:**[Exploring Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/exploring-icw-mobile-experience.md)
 

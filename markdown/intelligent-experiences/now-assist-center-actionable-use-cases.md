@@ -3,12 +3,12 @@ title: Activating actionable use cases from AI Admin Center
 description: Actionable use cases are quick-start scenarios that help you rapidly adopt AI capabilities on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-actionable-use-cases.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
+breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
 # Activating actionable use cases from AI Admin Center
@@ -43,7 +43,7 @@ When you navigate to AI Admin Center, the home page displays the use cases most 
 
 -   Select **Activate** to start a guided setup conversation in the ServiceNow Otto panel. The panel describes the solution, confirms the current state, and asks you to confirm before making any change.
 
-    **Important:** ServiceNow Otto panel must be enabled to activate the use cases. Actionable use cases work with the ServiceNow Otto panel to guide you through the setup in a chat conversation. For more information, see [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
+    **Important:** ServiceNow Otto panel must be enabled to activate the use cases. Actionable use cases work with the ServiceNow Otto panel to guide you through the setup in a chat conversation. For more information, see [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
 
 -   Select **Dismiss** to permanently remove a card.
 
@@ -52,10 +52,10 @@ When you navigate to AI Admin Center, the home page displays the use cases most 
 
 After you successfully activate a solution, the card disappears from the home page and a confirmation message appears at the top of the workspace. The activated solution appears in the Recently activated AI section of the home page, where you can monitor its performance.
 
--   **[Install and configure essential AI plugins using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-configure-essential-now-assist-plugins.md)**  
+-   **[Install and configure essential AI plugins using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-configure-essential-now-assist-plugins.md)**  
 Install the plugins required to enable AI solutions on your instance before activating use cases.
--   **[Activate an actionable use case in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-solution-now-assist-center.md)**  
+-   **[Activate an actionable use case in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-solution-now-assist-center.md)**  
 Activate an AI solution from an actionable use case card on the AI Admin Center home page.
 
-**Parent Topic:**[Setting up AI capabilities and configurations in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-admin-center-setting-up-ai.md)
+**Parent Topic:**[Setting up AI capabilities and configurations in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-setting-up-ai.md)
 

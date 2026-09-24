@@ -3,11 +3,11 @@ title: Create change requests for AI assets
 description: Create a change request to modify the relationships between a deployed AI asset and its related assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-ai-asset-change-request-newexperience.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Managing your AI asset lifecycle, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing your AI asset lifecycle, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create change requests for AI assets
@@ -233,5 +233,5 @@ Related dataset card that you want to associate the AI asset with.
 
     -   If you rejected the request, the Status changes to Rejected and the State changes to Completed.
 
-**Parent Topic:**[Managing your AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-lifecycle-newexperience.md)
+**Parent Topic:**[Managing your AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-lifecycle-newexperience.md)
 

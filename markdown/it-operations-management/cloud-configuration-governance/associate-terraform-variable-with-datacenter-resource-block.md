@@ -3,11 +3,11 @@ title: Associate the Terraform environment variable with a resource block
 description: Associate the Terraform environment variable with the Cloud Provisioning and Governance datacenter resource block. After associating the environment variable, you can use it to pass custom inputs parameters during resource deployment through Terraform Enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/associate-terraform-variable-with-datacenter-resource-block.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-To set the Terraform environment variable conditionally, use a scripted expression. For more information, see [Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/expressions-cloud-mgt.md).
+To set the Terraform environment variable conditionally, use a scripted expression. For more information, see [Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/expressions-cloud-mgt.md).
 
 ## Procedure
 
@@ -49,5 +49,5 @@ To set the Terraform environment variable conditionally, use a scripted expressi
 9.  Set the logical datacenter resource block to the **Published** state.
 
 
-**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

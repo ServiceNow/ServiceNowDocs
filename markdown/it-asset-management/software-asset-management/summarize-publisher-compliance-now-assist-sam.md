@@ -3,11 +3,11 @@ title: Generate publisher compliance summaries by using ServiceNow Otto for Soft
 description: Generate a comprehensive summary for a publisher that covers software deployment, license compliance, configuration health, and optimization. The detailed publisher summary helps you to gain insights into the publisher estate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/summarize-publisher-compliance-now-assist-sam.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -48,15 +48,15 @@ ServiceNow Otto for SAM generates the publisher summaries by using reconciliatio
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d296376e185">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d299162e185">
 
 Action
 
-</th><th align="left" id="d296376e188">
+</th><th align="left" id="d299162e188">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d296376e194">
+</th></tr></thead><tbody><tr><td id="d299162e194">
 
 **Copy to clipboard icon**
 
@@ -64,7 +64,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d296376e203">
+</td></tr><tr><td id="d299162e203">
 
 **Refresh icon**
 
@@ -72,7 +72,7 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d296376e212">
+</td></tr><tr><td id="d299162e212">
 
 **Feedback**
 
@@ -82,5 +82,5 @@ If you found that the summary was helpful, select the helpful icon \[Omitted ima
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
 

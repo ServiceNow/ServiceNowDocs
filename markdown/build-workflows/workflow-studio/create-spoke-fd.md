@@ -3,12 +3,12 @@ title: Create spoke and build actions by importing an OpenAPI Specification
 description: Automate an integration and generate reusable actions by importing an OpenAPI Specification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-spoke-fd.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
@@ -38,8 +38,6 @@ Automate an integration and generate reusable actions by importing an OpenAPI Sp
         |-----|-----------|
         |Spoke name|Name to identify the custom spoke.|
         |Description|Description about the custom spoke.|
-        |System|Search and select the external system to integrate.|
-        |Connector type|Select **Spoke** from the list.|
 
         \[Omitted image "spk-gen-new-scope.png"\] Alt text: Create spoke in new scope.
 
@@ -85,24 +83,10 @@ Description
 
 Description about the custom spoke.
 
-</td></tr><tr><td>
-
-System
-
-</td><td>
-
-Search and select the external system to integrate.
-
-</td></tr><tr><td>
-
-Connector type
-
-</td><td>
-
-Select **Spoke** from the list.
-
 </td></tr></tbody>
-</table>4.  Click **Continue**.
+</table>        \[Omitted image "spk-gen-existing-scope.png"\] Alt text: Create spoke in an existin scope.
+
+4.  Click **Continue**.
 
     Based on the provided name and description, if there are any matching spokes on Store, the spoke details are displayed.\[Omitted image "spoke-gen-store-apps.png"\] Alt text: Matching spokes found on Store.
 
@@ -112,7 +96,7 @@ Select **Spoke** from the list.
 
     2.  Install the spoke from the Store.
 
-        For more details, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+        For more details, see [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-apps-app-manager.md).
 
     3.  After installing the spoke, navigate to the Workflow Studio tab.
 
@@ -225,7 +209,7 @@ Required authentication mechanism for this integration. Ensure that the authenti
 
 19. Click **Done: Go to spoke** to go the Spokes page and view the publish status.
 
-    -   Actions with the OpenAPI step are created. For information about the OpenAPI step, see [OpenAPI support in the REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/open-api-integration.md).
+    -   Actions with the OpenAPI step are created. For information about the OpenAPI step, see .
     -   Action inputs and outputs are mapped.
     -   Actions are published and listed in the spoke details page under **Actions** &gt; **Published**.
     You can start using these published actions to create flows and subflows as per your requirement.
@@ -240,7 +224,7 @@ Required authentication mechanism for this integration. Ensure that the authenti
         |**processing**|The operation execution is in progress.|
         |**success**|The operation has been executed successfully.|
 
-    You can create flows and subflows in the spoke details page and use them in your integration. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md) and [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+    You can create flows and subflows in the spoke details page and use them in your integration. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flows.md) and [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/subflows.md).
 
     Along with **Spoke activity log**, you can also view details of the available flows, subflows, and actions in the spoke details page.
 

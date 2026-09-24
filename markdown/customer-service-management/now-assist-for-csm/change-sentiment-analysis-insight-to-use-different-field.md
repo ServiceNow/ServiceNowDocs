@@ -3,11 +3,11 @@ title: Change an insight to use a different field for sentiment analysis
 description: Change a sentiment analysis insight to display sentiment data from a different field. This requires updates to both the UI Builder component and AI Skill Kit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/change-sentiment-analysis-insight-to-use-different-field.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
 breadcrumb: [Sentiment analysis case, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -45,7 +45,7 @@ The Sentiment analysis dashboard includes the following UI Builder components:
 
     For example, open **Sentiment by Channel Insight**. Make a clone if needed.
 
-3.  [Duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/duplicate-components.md) **Sentiment by Channel Insight**
+3.  [Duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/duplicate-components.md) **Sentiment by Channel Insight**
 
 4.  Rename all components to your desired field \(for example, Consumer\) or create a generalized component name.
 
@@ -85,7 +85,7 @@ The Sentiment analysis dashboard includes the following UI Builder components:
 
 18. Select **Save**.
 
-    Now [add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-components.md) the newly created component to any base system dashboard page or your own custom page. Use other nearby insights as reference for the correct event handler and optimization setup.
+    Now [add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-components.md) the newly created component to any base system dashboard page or your own custom page. Use other nearby insights as reference for the correct event handler and optimization setup.
 
     The sentiment analysis insight now uses the specified field to display data and the associated AI skill has been properly configured.
 
@@ -93,7 +93,7 @@ The Sentiment analysis dashboard includes the following UI Builder components:
 **Related topics**  
 
 
-[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
+[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
 
-[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
+[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
 

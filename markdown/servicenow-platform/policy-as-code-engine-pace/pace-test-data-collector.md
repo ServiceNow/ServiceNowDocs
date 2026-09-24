@@ -3,11 +3,11 @@ title: Test a data collector for a policy version
 description: Test a data collector for a policy version in the Test Playground.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-test-data-collector.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Passing parameters to PaCE policies, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Test a data collector for a policy version in the Test Playground.
 
 ## Before you begin
 
-Make sure you created a data collector in the policy. For more information, see [Create a data collector for a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-data-collector.md).
+Make sure you created a data collector in the policy. For more information, see [Create a data collector for a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-data-collector.md).
 
 Role required: sn\_pace.code\_editor
 

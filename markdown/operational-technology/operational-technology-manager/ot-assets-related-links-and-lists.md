@@ -3,11 +3,11 @@ title: OT device related items and related lists
 description: The All OT Devices, All OT Devices by IP Address, and All OT Devices by CI menu options contain several related items and lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Edit or view OT devices after import or discovery, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -222,18 +222,18 @@ Captures the following VLAN information associated with the OT device.-   VLAN I
 -   VLAN Type
 
 </td></tr></tbody>
-</table>-   **[Operational Technology device form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-assets-form.md)**  
+</table>-   **[Operational Technology device form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/ot-assets-form.md)**  
 Use the Operational Technology \(OT\) device form to edit the detailed information for the OT devices in your enterprise.
--   **[Convert an IT hardware device to an OT device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/convert-it-asset-into-ot-asset.md)**  
+-   **[Convert an IT hardware device to an OT device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/convert-it-asset-into-ot-asset.md)**  
 If you've identified IT hardware devices that belong to the OT network, you can convert these IT Configuration Items \(CI\) into OT devices.
--   **[Convert IT hardware to OT devices in a bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/bulk-edit-to-convert-it-records-into-ot-records.md)**  
+-   **[Convert IT hardware to OT devices in a bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/bulk-edit-to-convert-it-records-into-ot-records.md)**  
 Choose multiple IT hardware devices and convert them to OT devices in a bulk edit so that you can edit your records more quickly and efficiently.
--   **[Convert your OT devices to IT hardware devices in a bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/bulk-edit-ot-records.md)**  
+-   **[Convert your OT devices to IT hardware devices in a bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/bulk-edit-ot-records.md)**  
 Bulk edit your Operational Technology \(OT\) devices to remove the OT device details. Then convert your OT devices to IT hardware devices.
--   **[Map IP addresses to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/map-ip-addresses-to-ot-devices.md)**  
+-   **[Map IP addresses to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/map-ip-addresses-to-ot-devices.md)**  
 You can use the `SyncIPAddressToOT` scheduled job to update and synchronize the IP address information for all the available OT devices. The `SyncIPAddressToOT` scheduled job acquires the IP address information from the IP address \(cmdb\_ci\_ip\_address\) table and adds it to the IP address field of the CI.
--   **[View and edit device to device connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/view-device-to-device-connections.md)**  
+-   **[View and edit device to device connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/view-device-to-device-connections.md)**  
 View and edit device-to-device connections for your Operational Technology \(OT\) devices using the Device to Device Connections list in the Industrial Workspace.
 
-**Parent Topic:**[Edit or view OT devices after import or discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/view-ot-assets.md)
+**Parent Topic:**[Edit or view OT devices after import or discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/view-ot-assets.md)
 

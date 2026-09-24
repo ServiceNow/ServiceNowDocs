@@ -3,11 +3,11 @@ title: Add or edit expense lines
 description: Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-expense-line-pp.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ The video is recorded using the Strategic Planning view. Navigate to your portfo
 
 4.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d319269e121">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d320840e121">
 
 Choice
 
-</th><th align="left" id="d319269e124">
+</th><th align="left" id="d320840e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d319269e130">
+</th></tr></thead><tbody><tr><td id="d320840e130">
 
 **Select a cost plan**
 
@@ -56,7 +56,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d319269e151">
+</td></tr><tr><td id="d320840e151">
 
 **Select options**
 
@@ -66,7 +66,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d319269e178">
+</td></tr><tr><td id="d320840e178">
 
 **Select new expense line option**
 
@@ -79,7 +79,7 @@ Select **New expense line** using the More actions option.\[Omitted image "fin-n
 </td></tr></tbody>
 </table>5.  On the Create expense line form, fill the fields.
 
-    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-exp-line-form-pp.md).
+    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-exp-line-form-pp.md).
 
 6.  Select **Save**.
 

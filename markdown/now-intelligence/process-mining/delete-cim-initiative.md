@@ -3,11 +3,11 @@ title: Remove an initiative
 description: Remove an associated improvement initiative from a project once you complete or cancel the relevant task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/delete-cim-initiative.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating and tracking improvement initiatives, Use, Process Mining, Platform Analytics]
 ---
@@ -39,5 +39,5 @@ An improvement initiative can be removed from the main or linked process in whic
 
 The initiative is removed from the refreshed initiatives list.
 
-**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/initiatives-from-process-optimization.md)
+**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/initiatives-from-process-optimization.md)
 

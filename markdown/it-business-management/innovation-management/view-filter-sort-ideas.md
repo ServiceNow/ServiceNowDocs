@@ -3,11 +3,11 @@ title: View, filter, and sort ideas
 description: View ideas submitted by you or all submitted ideas. Filter and sort the ideas based on idea state, category, or date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/view-filter-sort-ideas.html
-release: australia
+release: brazil
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing ideas using Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -47,5 +47,5 @@ You can view the following information for an idea:
     |Sort the ideas based on the most recent ideas, the number of votes, or the date of creation.|Select an option from the Sort by list.|
 
 
-**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/using-innovation-management.md)
+**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/using-innovation-management.md)
 

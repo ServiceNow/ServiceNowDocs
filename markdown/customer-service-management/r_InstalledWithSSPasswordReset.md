@@ -3,9 +3,9 @@ title: Components installed with Self Service Password Reset
 description: Several types of components are installed with Self Service Password Reset.Script includes are added with activation of Self Service Password Reset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_InstalledWithSSPasswordReset.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with additional plugins for Customer Service Management, Reference, Customer Service Management]
 ---

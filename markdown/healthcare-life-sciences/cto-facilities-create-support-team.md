@@ -3,9 +3,9 @@ title: Create healthcare organizations for your healthcare facilities support te
 description: Create a healthcare organization to represent the fulfilling healthcare organization for facilities cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-create-support-team.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Care Team Operations for Facilities, Healthcare Operations, Healthcare and Life Sciences]
 ---

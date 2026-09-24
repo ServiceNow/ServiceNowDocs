@@ -3,11 +3,11 @@ title: Edit security tags for the Microsoft Exchange Online integration
 description: You can edit the names and colors of the security tags in your ServiceNow AI Platform instance for the Microsoft Exchange Online integration. These security tags help you quickly identify when email search either completes or fails. They also identify when requests to delete emails are initiated and when the email items are successfully deleted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-edit-tags.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Microsoft Exchange Online integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -38,15 +38,15 @@ Role required: sn\_si.admin
 
 6.  In the record that is displayed, edit the fields.
 
-<table id="choicetable_ohy_xpv_bgb"><thead><tr><th align="left" id="d175332e156">
+<table id="choicetable_ohy_xpv_bgb"><thead><tr><th align="left" id="d174977e156">
 
 Option
 
-</th><th align="left" id="d175332e159">
+</th><th align="left" id="d174977e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d175332e165">
+</th></tr></thead><tbody><tr><td id="d174977e165">
 
 **Name**
 
@@ -54,7 +54,7 @@ Description
 
 Unique name for the security tag.
 
-</td></tr><tr><td id="d175332e174">
+</td></tr><tr><td id="d174977e174">
 
 **Color**
 
@@ -62,7 +62,7 @@ Unique name for the security tag.
 
 Security tag color. Select a color from the choice list.
 
-</td></tr><tr><td id="d175332e183">
+</td></tr><tr><td id="d174977e183">
 
 **Security Tag Group**
 
@@ -70,7 +70,7 @@ Security tag color. Select a color from the choice list.
 
 Name of the security tag group. Click the information icon to view the available groups. Default is Metatag group.
 
-</td></tr><tr><td id="d175332e192">
+</td></tr><tr><td id="d174977e192">
 
 **Enforce restricted access**
 
@@ -78,7 +78,7 @@ Name of the security tag group. Click the information icon to view the available
 
 Select this option to assign read and write roles needed by users to read or write to records that have this security tag. Default is cleared.
 
-</td></tr><tr><td id="d175332e202">
+</td></tr><tr><td id="d174977e202">
 
 **Order**
 
@@ -86,7 +86,7 @@ Select this option to assign read and write roles needed by users to read or wri
 
 Specify the order the tag appears on forms or within a list. Default is 100.To set the order on the list, enter a value. For example, 100, 200, 300, 400. The tag with the lowest the number is displayed first on the list. The profile with the highest number is displayed last.
 
-</td></tr><tr><td id="d175332e214">
+</td></tr><tr><td id="d174977e214">
 
 **Active**
 
@@ -94,7 +94,7 @@ Specify the order the tag appears on forms or within a list. Default is 100.To s
 
 Turn this tag on or off. Default is selected \(active\)
 
-</td></tr><tr><td id="d175332e223">
+</td></tr><tr><td id="d174977e223">
 
 **Description**
 
@@ -110,9 +110,9 @@ Description for the tag.
     You have now successfully edited the tag record for a security tag.
 
 
-**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
+**Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-exchange-online-lookups.md)
 
-**Previous topic:**[Recover deleted emails on the Microsoft Exchange Online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-recover-deleted-emails.md)
+**Previous topic:**[Recover deleted emails on the Microsoft Exchange Online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-recover-deleted-emails.md)
 
-**Next topic:**[Microsoft Exchange On-Premises integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-exch-on-prem-landing-page.md)
+**Next topic:**[Microsoft Exchange On-Premises integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/ms-exch-on-prem-landing-page.md)
 

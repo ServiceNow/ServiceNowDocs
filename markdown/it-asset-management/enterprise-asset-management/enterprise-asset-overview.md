@@ -3,11 +3,11 @@ title: Enterprise asset overview for Enterprise Asset Workspace
 description: Use the Enterprise asset overview as the landing page for the Enterprise Asset Workspace to get insights into key metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/enterprise-asset-overview.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
@@ -23,7 +23,7 @@ Use the Enterprise asset overview dashboard to perform the following tasks:
 
 \[Omitted image "enterprise-overview.png"\] Alt text: Enterprise asset overview
 
-To access detailed information and take relevant action, select the relevant widget. You can also narrow down your results by using the **Location**, **Stockroom**, **Model category**, and **Classification** filters. For detailed information on the Classification filter, see [Model classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/classification-codes.md).
+To access detailed information and take relevant action, select the relevant widget. You can also narrow down your results by using the **Location**, **Stockroom**, **Model category**, and **Classification** filters. For detailed information on the Classification filter, see [Model classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/classification-codes.md).
 
 |Widget|Description|
 |------|-----------|

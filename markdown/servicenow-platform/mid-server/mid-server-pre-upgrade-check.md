@@ -3,12 +3,12 @@ title: MID Server pre-upgrade check
 description: Prior to an upgrade, the MID Server runs tests to identify issues that could cause the upgrade process to fail or result in a MID Server outage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-pre-upgrade-check.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-04-27"
-reading_time_minutes: 6
+last_updated: "2026-09-21"
+reading_time_minutes: 7
 breadcrumb: [MID Server upgrades, MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -20,7 +20,7 @@ Each MID Server contains an AutoUpgrade monitor that compares the MID Server ver
 
 ## Pre-upgrade tests
 
-The pre-upgrade runs two sets of tests: **Mandatory tests**and **Alert tests**. Every mandatory test is required to pass to start MID Server upgrade. If a mandatory test was not passed, the test is recorded in the agent log and a [MID Server active issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-active-issues.md) is created in the MID Server issue \[ecc\_agent\_issue\] table. These errors are published before the actual MID Server upgrade occurs and must be resolved before the upgrade can continue. MID Server stops the Upgrade process and changes the status based on [MID Server states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md). If any alert test was not passed, a message is added in the agent log and MID Server issue table, but the pre-upgrade check continues and MID Upgrade doesn’t stop.
+The pre-upgrade runs two sets of tests: **Mandatory tests** and **Alert tests**. Every mandatory test is required to pass to start MID Server upgrade. If a mandatory test was not passed, the test is recorded in the agent log and a [MID Server active issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-active-issues.md) is created in the MID Server issue \[ecc\_agent\_issue\] table. These errors are published before the actual MID Server upgrade occurs and must be resolved before the upgrade can continue. MID Server stops the Upgrade process and changes the status based on [MID Server states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md). If any alert test was not passed, a message is added in the agent log and MID Server issue table. However, the pre-upgrade check continues and MID Upgrade doesn’t stop.
 
 Pre-upgrade validation tests check the following mandatory tests:
 
@@ -39,7 +39,24 @@ On Windows MID Servers, the pre-upgrade validation runs the following alert test
 
 -   Any MID Server Upgrade blocker services is running on the host machine
 -   Status of Application Experience on the host machine
--   For security best practice, run the MID Server as a non-administrator user. If the current **Log On As** user account for the MID Server is **LocalSystem** or is a user that is part of the Administrators group, the upgrade does not fail, but this configuration is not recommended.
+-   For security best practice, run the MID Server as a non-administrator user. If the current **Log On As** user account for the MID Server is **LocalSystem** or is a user that is part of the Administrators group, the upgrade does not fail. However, this configuration is not recommended.
+
+## Disk-space checks
+
+The MID Server needs sufficient free disk space to perform upgrades and run reliably. The MID Server monitors available disk space and alerts administrators before low disk space disrupts MID Server operations. The MID Server performs two disk-space checks: an upgrade-blocking threshold and a warning threshold check.
+
+-   **Upgrade-blocking threshold check:**
+
+    If free space is below the **mid.upgrade.min\_disk\_space\_gb** configuration parameter value \(default is 4 GB\) when an upgrade begins, the upgrade aborts. An issue record is created on the instance.
+
+-   **Warning threshold check:**
+
+    A background monitor named `DiskSpaceCheckMonitor` runs at MID Server startup and then every **mid.disk\_space\_check.interval** hours \(default is 12 hours\). Changing this configuration parameter requires a MID Server restart to take effect. If free space is below the **mid.disk\_space\_check.low\_space\_warning\_threshold\_gb** configuration parameter value \(default is 36 GB\), the MID Server logs a warning and creates an issue record. It does this whether or not an upgrade is in progress.
+
+
+The MID Server writes issue records with the same source, `DiskSpaceCheck`, for both checks, so it updates a single issue record. When free space returns above the warning threshold, the MID Server resolves the issue record automatically on the next check. The MID Server creates no issue records when free space stays above the thresholds.
+
+To disable the upgrade-blocking check, set **mid.upgrade.min\_disk\_space\_gb** to 0. To disable the warning threshold check, set **mid.disk\_space\_check.low\_space\_warning\_threshold\_gb** to 0.
 
 ## Errors that block the upgrade
 
@@ -83,7 +100,7 @@ These messages describe failing a mandatory test and are published to the MID Se
 
 -   **Upgrade Failure: Host does not meet the minimum system requirements to upgrade the MID server. Please refer to MID Server product documentation on GlibC library for more information**
 
-    This error can only occur for Linux MID Servers. Refer to [Java version support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) for more information.
+    This error can only occur for Linux MID Servers. Refer to [Java version support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) for more information.
 
 
 ## Non-blocking warnings
@@ -125,5 +142,5 @@ These warnings are displayed in the MID Server Issue \[ecc\_agent\_issue\] table
 
 A MID Server configuration parameter called **mid.upgrade.run\_precheck** is set to **true** by default, which allows the automatic pre-upgrade test to run. To disable these tests for a single MID Server, add this parameter to that MID Server's config.xml file and set it to **false**. To disable these tests for all MID Servers, add a new record to the MID Server Property \[ecc\_agent\_property\] table called **mid.upgrade.run\_precheck**. Set the value of this property to **false** and leave the **MID Server** field blank.
 
-**Parent Topic:**[MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md)
+**Parent Topic:**[MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md)
 

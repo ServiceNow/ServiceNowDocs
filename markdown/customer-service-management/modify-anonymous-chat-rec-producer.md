@@ -3,9 +3,9 @@ title: Modify the anonymous chat record producer
 description: Modify the default anonymous chat record producer to gather the desired information from guest users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/modify-anonymous-chat-rec-producer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Anonymous chat, Administer, Customer Service Management]
 ---
@@ -30,7 +30,7 @@ This record producer requests information from a guest user on the Consumer Serv
 
 3.  Modify the record producer as necessary, including the variables in the **Variables** related list.
 
-    For more information, see [Create a record producer to log incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateARecordProducer.md).
+    For more information, see [Create a record producer to log incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CreateARecordProducer.md).
 
 4.  Click **Update**.
 

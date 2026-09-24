@@ -3,11 +3,11 @@ title: Dynamic outputs
 description: Access action and subflow outputs as dynamically generated data pills during flow design. You can also build data gathering actions to generate complex objects from ServiceNow AI Platform and Integration Hub outputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/dynamic-outputs.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Create an action in Workflow Studio, Build actions, Flows, subflows
 
 Access action and subflow outputs as dynamically generated data pills during flow design. You can also build data gathering actions to generate complex objects from ServiceNow AI Platform and Integration Hub outputs.
 
-**Note:** Dynamic outputs are not available in the base system. To use dynamic outputs in Workflow Studio, you must [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md). Dynamic outputs are part of the ServiceNow Flow Designer - Introspection \[com.glide.hub.flow\_designer\_introspection\] plugin.
+**Note:** Dynamic outputs are not available in the base system. To use dynamic outputs in Workflow Studio, you must Request an Integration Hub plugin. Dynamic outputs are part of the ServiceNow Flow Designer - Introspection \[com.glide.hub.flow\_designer\_introspection\] plugin.
 
 During the flow design, a dynamic output retrieves the complex object's schema values and displays them as data pills in the data panel.
 
-A dynamic output must point to a data gathering action that collects the displayed data. For example, a data gathering action can retrieve values from a third-party system as part of an [Integration Hub spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/spokes-list.md). To use a dynamic output in Workflow Studio:
+A dynamic output must point to a data gathering action that collects the displayed data. For example, a data gathering action can retrieve values from a third-party system as part of an Integration Hub spoke. To use a dynamic output in Workflow Studio:
 
 1.  An action designer creates a data gathering action.
 2.  An action designer creates a parent action with a dynamic output that points to the child data gathering action.
@@ -30,7 +30,7 @@ A dynamic output must point to a data gathering action that collects the display
 
 A data gathering action collects data to be used by other actions. Data gathering actions are intended to be called from dynamic inputs rather than be added directly to a flow. Data gathering actions typically collect data from third-party systems using a REST call. All data gathering actions must meet these requirements and constraints.
 
--   The action has a [script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md) that contains an output variable of type JSON.
+-   The action has a [script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md) that contains an output variable of type JSON.
 -   The action has an output named **output** of type JSON whose value is derived from the script step's JSON output variable.
 
     **Note:** The action can have multiple outputs but can only have one of type JSON.
@@ -47,13 +47,13 @@ A data gathering action collects data to be used by other actions. Data gatherin
 
 ## Dynamic object
 
-A dynamic object is either a complex object or an array of complex objects. Action designers build the object structure dynamically with a data gathering action rather than hard-coding it. For more information on building a dynamic object, see [Create a data gathering action for a dynamic object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-object.md).
+A dynamic object is either a complex object or an array of complex objects. Action designers build the object structure dynamically with a data gathering action rather than hard-coding it. For more information on building a dynamic object, see [Create a data gathering action for a dynamic object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-object.md).
 
 ## General guidelines
 
 -   **Use dynamic outputs for third-party integrations**
 
-    Use dynamic outputs to introspect and fetch data from external systems during the flow design. For example, you can specify service endpoints or call actions that interact with specific endpoint APIs. For more information on setting up third-party integrations with Workflow Studio, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md).
+    Use dynamic outputs to introspect and fetch data from external systems during the flow design. For example, you can specify service endpoints or call actions that interact with specific endpoint APIs. For more information on setting up third-party integrations with Workflow Studio, see IntegrationHub.
 
 -   **Note the time that is required to retrieve large amounts of data**
 
@@ -66,12 +66,12 @@ A dynamic object is either a complex object or an array of complex objects. Acti
     \[Omitted image "warning-dynamic-action-error.png"\] Alt text: Dynamic action error message
 
 
--   **[Get started with dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)**  
+-   **[Get started with dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)**  
 Create a sample action that builds dynamic outputs for use in a flow.
--   **[Create a data gathering action for a dynamic object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-object.md)**  
+-   **[Create a data gathering action for a dynamic object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-data-gathering-action-dynamic-object.md)**  
 Create an action to collect output values. Then, pass the values to a parent action as a dynamic object.
--   **[Dynamic output configuration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-output-options.md)**  
+-   **[Dynamic output configuration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/dynamic-output-options.md)**  
 Use these options to configure your dynamic outputs for a parent action.
 
-**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md)
+**Parent Topic:**[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-action.md)
 

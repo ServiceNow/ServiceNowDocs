@@ -3,11 +3,11 @@ title: Connector Configurations
 description: Configure the Connector Configurations table for loading the occupancy data in the target Space Occupancy Data table \(sn-wsd\_wc\_space\_occupancy\). Connector configuration table retrieves the sensor data from different occupancy data providers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/connector-configuration-occupancy.html
-release: australia
+release: brazil
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Configure the Connector Configurations table for loading the occupancy data in t
 
 ## Before you begin
 
-Ensure that you have the sensor data providers to retrieve and fetch data from an occupancy data provider vendor. For more information, see [Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/providers-occupancy.md)
+Ensure that you have the sensor data providers to retrieve and fetch data from an occupancy data provider vendor. For more information, see [Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/providers-occupancy.md)
 
 **Note:** If you’re using demo data or product data \(seed data\), some fields are pre-filled. In case, if you aren’t using the base system product data, you can configure the connector data. The seed data is available as part of the Metrikus Spoke integration.
 
@@ -46,7 +46,7 @@ Target Table
 
 </td><td>
 
-Option to indicate the target or destination table to store the occupancy data.Select Space Occupancy Data \(sn\_wsd\_wc\_space\_occupancy\) table. For more information, see [Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/space-occupancy-data.md).
+Option to indicate the target or destination table to store the occupancy data.Select Space Occupancy Data \(sn\_wsd\_wc\_space\_occupancy\) table. For more information, see [Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/space-occupancy-data.md).
 
 </td></tr><tr><td>
 
@@ -78,9 +78,15 @@ Option to indicate the time \(in minutes\) beyond which occupancy data is consid
 </table>4.  Select **Submit** to save the connector configuration.
 
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Previous topic:**[Integrate Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/integrate-metrikus-flowdesigner.md)
+**Previous topic:**[Integrate Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/integrate-metrikus-flowdesigner.md)
 
-**Next topic:**[Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md)
+**Next topic:**[Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md)
+
+**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
+
+**Previous topic:**[Integrate Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/integrate-metrikus-flowdesigner.md)
+
+**Next topic:**[Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md)
 

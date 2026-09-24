@@ -3,11 +3,11 @@ title: Create resource assignments
 description: Create resource assignments to request a portion of team or resource capacity for project or demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/create-rsrc-asgnmnts-ppm.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration of resource plans and cost plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,8 +18,8 @@ Create resource assignments to request a portion of team or resource capacity fo
 
 ## Before you begin
 
--   [Migrate resource plans and cost plans to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)
--   Set the resource planning property to true to create work with only resource assignments. For more information, see [Enable attribute-based resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/enable-resource-assignments.md).
+-   [Migrate resource plans and cost plans for projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)
+-   Set the resource planning property to true to create work with only resource assignments. For more information, see [Enable attribute-based resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/enable-resource-assignments.md).
 -   Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_manager, admin
 
 ## Procedure
@@ -32,12 +32,12 @@ Create resource assignments to request a portion of team or resource capacity fo
 
 3.  On the Resource assignment form, fill the fields.
 
-    For a description of the field names, see [Resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/resource-assignment-form.md).
+    For a description of the field names, see [Resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/resource-assignment-form.md).
 
 4.  Select **Submit**.
 
     **Tip:** You can edit the child resource assignments from the list view.
 
 
-**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
+**Parent Topic:**[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
 

@@ -3,11 +3,11 @@ title: Sensitivity bounds properties for Insights Explorer metrics
 description: The following properties can be configured to customize system behavior when detecting sensitive bounds for Insights Explorer metrics. To invoke changes to the default values, navigate to System Properties All Properties and add the indicated properties \(they are not visible by default\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/metric-bounds-properties.html
-release: australia
+release: brazil
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Metric Intelligence reference, Metric Intelligence, IT Operations Management]
 ---
@@ -57,10 +57,10 @@ sa\_metric.sensitive\_bounds\_sensitivity\_factor
 The number of standard deviations \(STDs\) from the mean metric value by which the system tests for sensitive bounds.Default: 2.0
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Metric Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/metric-intelligence-reference.md)
+</table>**Parent Topic:**[Metric Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/metric-intelligence-reference.md)
 
 **Related topics**  
 
 
-[Metric bounds sensitivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/metric-bounds-sensitivity.md)
+[Metric bounds sensitivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/metric-bounds-sensitivity.md)
 

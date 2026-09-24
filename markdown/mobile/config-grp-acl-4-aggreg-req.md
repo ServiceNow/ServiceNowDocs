@@ -3,9 +3,9 @@ title: Configure group ACL for aggregation requests
 description: Use the glide.sg.group\_acl.enabled system property to control the validation of access control lists \(ACL\) during aggregation requests that are related to displaying results from data items that use grouping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-grp-acl-4-aggreg-req.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -45,5 +45,5 @@ When this system property is set to `false`, the system doesn't validate ACLs wh
     **Note:** This system property only affects aggregation requests that are related to displaying results from data items that use grouping. ACL checking remains active for all other operations.
 
 
-**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/additional-mobile-configuration.md)
 

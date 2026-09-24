@@ -3,11 +3,11 @@ title: Team member identification
 description: Identify the team members who assist you with website design, branding, and development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_IdentifyTeamMembers.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content Management design, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,5 +34,5 @@ After you identify the project team members, establish who is responsible to com
 -   Set a page update schedule so owners do not overwrite each other.
 -   Formalize content management processes, including content review and page updates.
 
-**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
+**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
 

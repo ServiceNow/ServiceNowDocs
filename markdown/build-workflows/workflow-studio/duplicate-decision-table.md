@@ -3,13 +3,13 @@ title: Duplicate a decision table
 description: Save time creating similar decision tables by duplicating existing tables in Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/duplicate-decision-table.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Decision tables, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Using decision tables, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Duplicate a decision table
@@ -26,7 +26,7 @@ Role required: admin, decision\_table\_admin, or delegated developer
 
 2.  On the homepage, select **Decision tables**.
 
-3.  Open the decision table to duplicate.
+3.  Open the decision table you want to duplicate.
 
 4.  Select the Decision table menu options icon \(\[Omitted image "dec-table-menu-options.png"\] Alt text:\) and select **Duplicate Decision Table**.
 
@@ -62,7 +62,7 @@ Version to duplicate
 
 </td><td>
 
-Version of the table to duplicate. This field is only available when draft authoring is enabled on the original table and there is a draft and a published version. You can select **Draft** or **Published**.
+Version of the table you want to duplicate. This field is only available when draft authoring is enabled on the original table and there is a draft and a published version. You can select **Draft** or **Published**.
 
 </td></tr><tr><td>
 
@@ -76,5 +76,5 @@ Option to include the decision rows as well as the structure of the original tab
 </table>6.  Select **Duplicate**.
 
 
-**Parent Topic:**[Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

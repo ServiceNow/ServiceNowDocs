@@ -3,11 +3,11 @@ title: Assign a credit card service case
 description: Assign a credit card service case to yourself or to another credit card agent to start working on the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/assign-credit-card-case.html
-release: australia
+release: brazil
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---

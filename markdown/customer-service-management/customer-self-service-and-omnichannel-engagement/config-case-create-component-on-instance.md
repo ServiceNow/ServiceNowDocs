@@ -3,13 +3,13 @@ title: Configure the Case create component instance
 description: Configure the Case create component instance so that your users can embed it within their website to address any issues related to product and services from their website directly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config-case-create-component-on-instance.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
-breadcrumb: [Case create component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Case create component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the Case create component instance
@@ -20,9 +20,9 @@ Configure the Case create component instance so that your users can embed it wit
 
 You must have the following setup to configure the Case create component:
 
--   Enable Web Embeddables in your instance. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
--   [Set up a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-custom-url.md).
--   Authenticate the ServiceNow components using OpenID Connect \(OIDC\) or non OIDC authentication. For more information, see [Authenticate the ServiceNow components using OIDC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/authenticate-sn-webcomponents-oidc.md) and [Non OIDC authentication for ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/auth-sn-webcomponents-non-oidc.md).
+-   Enable Web Embeddables in your instance. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
+-   [Set up a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-custom-url.md).
+-   Authenticate the ServiceNow components using OpenID Connect \(OIDC\) or non OIDC authentication. For more information, see [Authenticate the ServiceNow components using OIDC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/authenticate-sn-webcomponents-oidc.md) and [Non OIDC authentication for ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/auth-sn-webcomponents-non-oidc.md).
 
 Role required: sn\_embeddable\_core.emb\_admin
 
@@ -32,11 +32,11 @@ Role required: sn\_embeddable\_core.emb\_admin
 
 2.  In the homepage, select Create module or use the existing module.
 
-    For more information on creating a new module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.md).
+    For more information on creating a new module, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.md).
 
 3.  On the module page, in the Components tab, add a Case create component instance to an existing or a new group.
 
-    For more information on creating a group and then adding a component instance, see [Create a group and add a component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-create-group-and-add-comp-instance.md).
+    For more information on creating a group and then adding a component instance, see [Create a group and add a component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-create-group-and-add-comp-instance.md).
 
 4.  Toggle the **Show static preview** option to see a visual representation of a component instance when a live preview isn’t available.
 
@@ -45,10 +45,10 @@ Role required: sn\_embeddable\_core.emb\_admin
 5.  Configure the Case create component instance properties.
 
     -   The Preview tab displays real-time data according to choices set in the component properties.
-    -   For a description of the component properties related to the Case create component instance, see [Component properties for the Case create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/comp-properties-case-create.md).
+    -   For a description of the component properties related to the Case create component instance, see [Component properties for the Case create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/comp-properties-case-create.md).
 6.  Select the **CORS rules** tab to configure the CORS rules.
 
-    For more information about configuring CORS rules, see [Configure CORS \(Cross-Origin Resource Sharing\) rules before embedding ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-cors-for-web-components.md).
+    For more information about configuring CORS rules, see [Configure CORS \(Cross-Origin Resource Sharing\) rules before embedding ServiceNow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-cors-for-web-components.md).
 
 7.  Select the **Components** tab.
 
@@ -96,7 +96,7 @@ Role required: sn\_embeddable\_core.emb\_admin
 
 10. In the Component Code tab, slide the **Enable event handler** toggle switch to handle events triggered by the user interactions on the webpage.
 
-    **Note:** Enabling the event handler also modifies the component code. For more information on event handlers in Web Embeddables, see [Event handlers in the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-case-create-event-handlers.md).
+    **Note:** Enabling the event handler also modifies the component code. For more information on event handlers in Web Embeddables, see [Event handlers in the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-case-create-event-handlers.md).
 
 11. In the Component code tab, review the generated code and select the **Copy component code**.
 
@@ -202,14 +202,14 @@ The global and component codes are ready to be shared with the third-party admin
 
 ## What to do next
 
-[Embed the Case create component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-create-component-on-third-party-website.md)
+[Embed the Case create component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-case-create-component-on-third-party-website.md)
 
 **Related topics**  
 
 
-[Component properties for the Case create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/comp-properties-case-create.md)
+[Component properties for the Case create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/comp-properties-case-create.md)
 
-[Event handlers in the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-case-create-event-handlers.md)
+[Event handlers in the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-case-create-event-handlers.md)
 
-[Sample code for the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-create-sample-code.md)
+[Sample code for the Case create component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-create-sample-code.md)
 

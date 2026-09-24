@@ -3,11 +3,11 @@ title: Personal data rights request form
 description: Use the Personal data rights request form in the Personal Data Rights application to initiate a process to access, correct, or delete personal data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/new-pdr-request-form.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create request from PDR Workspace, Use, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -272,5 +272,5 @@ Additional comments \(Customer visible\)
 Additional information about the case that you want to share with the customers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a Personal Data Rights request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-personal-data-rights-request.md)
+</table>**Parent Topic:**[Create a Personal Data Rights request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/create-a-personal-data-rights-request.md)
 

@@ -3,9 +3,9 @@ title: Add and customize a field in a table
 description: Administrators can add new fields to a table to store and display data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreatingNewFields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customize, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** Certain ServiceNow AI Platform subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocate-custom-table-subsc-app-v2.md).
+**Note:** Certain ServiceNow AI Platform subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/allocate-custom-table-subsc-app-v2.md).
 
 Be aware of these database limitations:
 
@@ -39,7 +39,7 @@ For more information on database limitations and general questions on tables in 
 
 3.  In the **Create new field** section, fill in the following fields
 
-<table id="choicetable_qj4_3rw_1r"><tbody><tr><td id="d124915e164">
+<table id="choicetable_qj4_3rw_1r"><tbody><tr><td id="d124024e164">
 
 **Name**
 
@@ -47,7 +47,7 @@ For more information on database limitations and general questions on tables in 
 
 Enter the name of the field as you want it to appear on forms and lists.
 
-</td></tr><tr><td id="d124915e173">
+</td></tr><tr><td id="d124024e173">
 
 **Type**
 
@@ -55,7 +55,7 @@ Enter the name of the field as you want it to appear on forms and lists.
 
 Select a field type.
 
-</td></tr><tr><td id="d124915e182">
+</td></tr><tr><td id="d124024e182">
 
 **Field length**
 
@@ -73,5 +73,5 @@ Select a field length. This field is visible only for certain field types.
     The field now appears on the form in the designated location.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/customize-fields-now-platform-landing.md)
 

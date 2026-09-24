@@ -3,11 +3,11 @@ title: Automation modes
 description: Automation modes in the Information Extraction skill determine whether predictions are accepted automatically or routed to a human agent for review before a document task completes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/automation-modes.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Information Extraction skill, Explore, Content Understanding, Enable AI experiences]
+breadcrumb: [Information Extraction skill, Explore, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Automation modes
@@ -40,8 +40,6 @@ Predictions are accepted directly with no review.
 
  The document task is completed immediately and the integrated workflow continues.
 
- **Note:** If any essential fields lack a prediction, you have an option to halt the extraction process. This functionality enables a Human-in-the-Loop \(HITL\) review to start when crucial predictions are absent, ensuring accuracy and reliability in the data extraction process.
-
 </td><td>
 
 Use this mode when prediction accuracy is consistently high and the risk of errors is low.
@@ -62,7 +60,7 @@ Use this mode when errors could lead to significant costs, or when prediction re
 </table>**Related topics**  
 
 
-[Predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictions.md)
+[Predictions in Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictions.md)
 
-[Turn on full automation mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/turn-on-full-automation.md)
+[Turn on full automation mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/turn-on-full-automation.md)
 

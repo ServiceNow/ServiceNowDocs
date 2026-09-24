@@ -3,11 +3,11 @@ title: Inventory view
 description: Use the Inventory view in the Hardware Asset Workspace to view the inventory functions such as Asset audits and Disposal orders and to take any inventory-related actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/inventory-view.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -30,7 +30,7 @@ Use the following tabs to view the inventory functions and take appropriate acti
 -   **Repair orders**: View the list of repair orders submitted for repair of assets with your stockroom. You can also create repair orders.
 -   **Asset attestations**: Create asset attestations or attestation schedules to perform remote audits for hardware assets.
 
-To create an asset audit for your inventory, select **New asset audit**. For more details, see [Create an audit record in the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-your-inventory.md).
+To create an asset audit for your inventory, select **New asset audit**. For more details, see [Create an audit record in the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/audit-your-inventory.md).
 
 **Note:** You need the asset or inventory\_admin role to access the Inventory view.
 
@@ -63,4 +63,6 @@ You can use the following important action cards related to service locations, d
 -   Unmapped carrier profiles: List of integration profiles that aren’t associated with a carrier.
 
 **Note:** You can view **Stale shipments**, **Carrier integration failures**, and **Unmapped carrier profiles** important action cards with asset, inventory\_admin, or ham\_admin role.
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 

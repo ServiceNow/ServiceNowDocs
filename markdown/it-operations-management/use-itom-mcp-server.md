@@ -3,11 +3,11 @@ title: Using the ITOM MCP Server Console to perform ITOM tasks
 description: Connect an AI-enabled MCP Client application to your ServiceNow environment using the ITOM MCP Server Console. Use the MCP Client to investigate alerts, review configuration item \(CI\) reliability, assess incident impact, and create service level objectives \(SLOs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/use-itom-mcp-server.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI in ITOM, IT Operations Management]
 ---
 
@@ -29,7 +29,7 @@ The ITOM MCP Server Console supports these core capabilities for alert investiga
 -   Reviews the reliability topology of a CI across upstream and downstream dependencies.
 -   Creates a standard availability SLO for a CI that doesn't already have one.
 
-The ITOM MCP Server Console includes AIOps, SRM, and LEAP tools. For details on LEAP tools, see [LEAP MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-mcp-server-overview.md).
+The ITOM MCP Server Console includes AIOps, SRM, and LEAP tools. For details on LEAP tools, see [LEAP MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-mcp-server-overview.md).
 
 ## ITOM MCP Server users
 

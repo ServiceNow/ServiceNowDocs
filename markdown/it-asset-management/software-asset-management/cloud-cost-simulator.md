@@ -3,13 +3,13 @@ title: Cloud cost simulation
 description: Simulate the cost of moving your on-premise resources to the cloud environment before performing the migration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cloud-cost-simulator.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Cloud cost simulation
@@ -32,7 +32,7 @@ Based on the criteria or recommendation, the Software Asset Management applicati
 
 The most optimal matching of resources is conducted and the total cost involved is given to you. Cost for the various cloud providers: AWS and Azure is mentioned along with or without the cost of Bring Your Own License \(BYOL\). Once the decision is made to move to a particular cloud provider, a change request can be created to move forward with the implementation.
 
-For information on comparing and evaluating the estimate cost of migrating your resources to the cloud, see [Cloud simulator dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cloud-simulator-dashboard.md).
+For information on comparing and evaluating the estimate cost of migrating your resources to the cloud, see [Cloud simulator dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cloud-simulator-dashboard.md).
 
 \[Omitted image "mmasset0021824-cloud-cost-simulator.svg"\] Alt text: Cloud cost simulation.
 
@@ -53,5 +53,5 @@ A sam\_manager role can receive recommendations for migrating on-premise resourc
     **Note:** Ensure that you have activated the Cloud Migration Assessment application \(com.sn\_cloud\_migration\) plugin to get data on resource utilization.
 
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

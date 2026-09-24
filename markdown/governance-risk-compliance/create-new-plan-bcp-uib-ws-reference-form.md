@@ -3,10 +3,10 @@ title: Create Plan form
 description: Use the Create Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Create a business continuity plan, Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -48,7 +48,7 @@ Name
 
 </td><td>
 
-Name of the business continuity plan. You can describe the BCP within 255 characters in length.
+Name of the business continuity plan. You can describe the BCP within 255 characters length.
 
 </td></tr><tr><td>
 
@@ -75,6 +75,14 @@ Plan owner
 </td><td>
 
 Owner of the business continuity plan.
+
+</td></tr><tr><td>
+
+Plan owner group
+
+</td><td>
+
+Group that owns the business continuity plan. All members of the selected group can edit the plan. The list is filtered to groups that hold the BCP planner or BCP manager role. Either the owner or the owner group is required.
 
 </td></tr><tr><td>
 
@@ -250,5 +258,5 @@ Template
 Panel to populate the template for the business continuity plan. You can view all or customized templates in this panel.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)
+</table>**Parent Topic:**[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)
 

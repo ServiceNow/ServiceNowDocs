@@ -3,11 +3,11 @@ title: Create Flow Data action
 description: Collect data from agents interacting with a Workspace playbook. Use this data to create reusable activities for process owners using Playbooks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-data-flow-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -100,5 +100,5 @@ Send Email with user input Activity is a subflow that gathers the information ne
 
 The subflow waits until the Create Flow Data record is in the Complete state before sending an email. The Send Email action is configured to use the body variable from the Create Flow Data action as the body of the email.
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

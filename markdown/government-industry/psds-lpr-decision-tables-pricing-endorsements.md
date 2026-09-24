@@ -3,9 +3,9 @@ title: Pricing endorsements in License and Permit Playbook
 description: Pricing endorsements are selections made on an application that affect which fees are charged by a government agency to process and issue a license/permit.Pricing endorsements are selections made on an application that affect which fees are charged by a government agency to process and issue a license/permit. As an admin, you can add one or more pricing endorsements to an existing pricing configuration decision table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-lpr-decision-tables-pricing-endorsements.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a pricing configuration decision table, Configure decision tables, License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---

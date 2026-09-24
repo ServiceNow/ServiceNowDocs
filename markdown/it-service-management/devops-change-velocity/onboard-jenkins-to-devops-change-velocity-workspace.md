@@ -3,11 +3,11 @@ title: Onboard Jenkins to DevOps Change Velocity — Workspace
 description: Connect to your Jenkins instance using the DevOps Change Workspace playbook to discover pipelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-jenkins-to-devops-change-velocity-workspace.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,9 +18,9 @@ Connect to your Jenkins instance using the DevOps Change Workspace playbook to d
 
 ## Before you begin
 
-Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
+Complete the tasks specified in the [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) topic.
 
-Install and enable the **ServiceNow DevOps** plugin for Jenkins. If you've already installed it, update to the latest version. For instructions, see [Configure Jenkins plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md).
+Install and enable the **ServiceNow DevOps** plugin for Jenkins. If you've already installed it, update to the latest version. For instructions, see [Configure Jenkins plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md).
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -30,15 +30,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
     You can connect a tool from an application if you also know which specific pipelines should be associated and tracked under that application to streamline the setup. This will allow you to easily associate and import data from Jenkins as well.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d45242e127">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d45476e127">
 
 Option
 
-</th><th align="left" id="d45242e130">
+</th><th align="left" id="d45476e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d45242e136">
+</th></tr></thead><tbody><tr><td id="d45476e136">
 
 **Homepage**
 
@@ -48,19 +48,19 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Jenkins as an orchestration tool, you'd select Jenkins under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d45242e166">
+</td></tr><tr><td id="d45476e166">
 
 **Applications module**
 
 </td><td>
 
 1.  Select **Applications** \(\[Omitted image "applications-icon.png"\] Alt text: Applications icon.\) from the primary navigation.
-2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
+2.  Select an existing application, or create one. To create an application, see [Create an application - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/app-create-workspace.md).
 3.  From the  Recommended actions  pane, select the  **Connect a tool ** card.
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to Jenkins as an orchestration tool, you'd select Jenkins under the **Orchestration** category.
 
 
-</td></tr><tr><td id="d45242e221">
+</td></tr><tr><td id="d45476e221">
 
 **Tools module**
 
@@ -85,11 +85,11 @@ Steps
 
     2.  Enter the login credentials \(password or access token or API token\) of the Jenkins instance.
 
-        To generate API token, see [Connect to Jenkins using API token authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/authenticate-jenkins-using-api-token.md).
+        To generate API token, see [Connect to Jenkins using API token authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/authenticate-jenkins-using-api-token.md).
 
     3.  If your Jenkins instance is attached to a MID Server, select the MID Server option and enter its details.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md)
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md)
 
 4.  Select **Connect**.
 
@@ -97,7 +97,7 @@ Steps
 
 5.  Permission checks are run on the credentials that you entered.
 
-    Permissions required and permissions that are available are displayed. If you want to enter credentials with better permissions, select **Re-enter credentials**. For detailed information on all the required permissions, see Jenkins permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/tool-req-permission.md).
+    Permissions required and permissions that are available are displayed. If you want to enter credentials with better permissions, select **Re-enter credentials**. For detailed information on all the required permissions, see Jenkins permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/tool-req-permission.md).
 
     You can choose to continue with the tool connection even if you don't have all the required permissions.
 
@@ -126,7 +126,7 @@ Steps
 
 8.  Install the ServiceNow DevOps plugin for Jenkins.
 
-    For more information on the extension, see [Configure Jenkins plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md).
+    For more information on the extension, see [Configure Jenkins plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md).
 
     \[Omitted image "jenkins-workspace-connect-11.png"\] Alt text: Install Jenkins plugin.
 
@@ -134,7 +134,7 @@ Steps
 
     **Important:**
 
-    -   You must first install and enable the **ServiceNow DevOps** plugin for Jenkins. If you've already installed it, update to the latest version. For instructions, see [Configure Jenkins plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md).
+    -   You must first install and enable the **ServiceNow DevOps** plugin for Jenkins. If you've already installed it, update to the latest version. For instructions, see [Configure Jenkins plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md).
 
     -   To configure webhooks automatically, Jenkins admin access is required.
     -   If you choose to automatically configure this tool, then the existing set up for **ServiceNow DevOps Configuration** in Jenkins will be over-written.
@@ -143,9 +143,9 @@ Steps
 
     \[Omitted image "jenkins-plugin.png"\] Alt text: Automatically sets up ServiceNow DevOps configuration in Jenkins
 
-    To configure webhooks manually in Jenkins, see [Configure webhooks manually for Jenkins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md).
+    To configure webhooks manually in Jenkins, see [Configure webhooks manually for Jenkins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md).
 
-    You can also choose to enable nightly polling to retrieve data for any tracked pipelines by selecting the **Enable Polling** property option in the **Administration** module. See [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
+    You can also choose to enable nightly polling to retrieve data for any tracked pipelines by selecting the **Enable Polling** property option in the **Administration** module. See [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
     **Important:**
 
@@ -169,17 +169,17 @@ Steps
 
     \[Omitted image "jenkins-workspace-connect-7.png"\] Alt text: Summary page.
 
-    **Note:** If your tool credential has changed, you must update the credentials in your ServiceNow instance. For more information, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
+    **Note:** If your tool credential has changed, you must update the credentials in your ServiceNow instance. For more information, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
 
 
 ## Result
 
 You’ve successfully onboarded your Jenkins tool to DevOps Change Velocity.
 
-**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
+**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
 
 **Related topics**  
 
 
-[Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md)
+[Configure webhooks from the tool record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/configure-webhooks-from-the-tool-record.md)
 

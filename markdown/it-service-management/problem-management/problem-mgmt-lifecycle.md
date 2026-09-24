@@ -3,11 +3,11 @@ title: Managing Problems
 description: Understand how Problem and Problem task is created, assessed, investigated, and fixed in a Problem or Problem task states.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-mgmt-lifecycle.html
-release: australia
+release: brazil
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Problem Management, IT Service Management]
 ---
@@ -16,30 +16,30 @@ breadcrumb: [Problem Management, IT Service Management]
 
 Understand how Problem and Problem task is created, assessed, investigated, and fixed in a Problem or Problem task states.
 
--   **[Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/create-a-problem-v2.md)**  
+-   **[Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/create-a-problem-v2.md)**  
 A problem is a cause of one or more incidents. Create a problem to identify the root cause of the incidents and try to prevent them from happening again.
--   **[Assess a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/assess-a-problem.md)**  
+-   **[Assess a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/assess-a-problem.md)**  
 Assess a problem to determine whether the problem requires a thorough investigation.
--   **[Add multiple incidents to a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/add-multiple-incidents-to-problem.md)**  
+-   **[Add multiple incidents to a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/add-multiple-incidents-to-problem.md)**  
 Add multiple incidents to a problem to avoid creating multiple problems for incidents that have the same issue.
--   **[Associate CIs with Problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/add-multiple-cis-to-problem.md)**  
+-   **[Associate CIs with Problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/add-multiple-cis-to-problem.md)**  
 Associate multiple affected or impacted configuration items \(CIs\) to a problem to find out all the CIs that are affected by the same problem.
--   **[Investigate root cause of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/investigate-root-cause.md)**  
+-   **[Investigate root cause of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/investigate-root-cause.md)**  
 Identify the root cause of the problem to analyze, track, and resolve recurring incidents permanently.
--   **[Resolve and complete a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/resolve-and-complete-problem.md)**  
+-   **[Resolve and complete a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/resolve-and-complete-problem.md)**  
 Resolve the issue and add detailed note of the resolution for future reference.
--   **[Create change request from a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/fix-a-change.md)**  
+-   **[Create change request from a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/fix-a-change.md)**  
 After you investigate and perform a root cause analysis of the Problem, you can understand whether the Problem can be resolved or you should find a temporary workaround for the Problem. If the Problem can be resolved, implement the fix, or the resolution for the Problem.
--   **[Add multiple change requests to a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/add-multi-change-req-to-prob.md)**  
+-   **[Add multiple change requests to a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/add-multi-change-req-to-prob.md)**  
 Add multiple change requests to a problem to capture all the requests that you need to implement to fix the problem.
--   **[Create a problem task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/create-problem-task.md)**  
+-   **[Create a problem task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/create-problem-task.md)**  
 Problem tasks are how the problem coordinator asks subject matter experts for help with identifying the root cause and proposed fix for a problem. Divide the problem into multiple problem tasks to help with the investigation. You can assign the problem tasks to different assignment groups or users.
--   **[Assess a problem task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/assess-a-problem-task.md)**  
+-   **[Assess a problem task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/assess-a-problem-task.md)**  
 Assess a problem task to determine the feasibility of working on the task.
--   **[Complete a problem task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/complete-a-problem-task.md)**  
+-   **[Complete a problem task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/complete-a-problem-task.md)**  
 Resolve and complete the problem task.
--   **[Resolve related incidents from a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/t_CloseRelatedIncFromAPRB.md)**  
+-   **[Resolve related incidents from a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/t_CloseRelatedIncFromAPRB.md)**  
 After you consider a problem to be resolved, the incidents related to the problem with the state **On Hold** may be resolved using a UI action from the **Problem** form.
 
-**Parent Topic:**[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/c_ProblemManagement.md)
+**Parent Topic:**[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/c_ProblemManagement.md)
 

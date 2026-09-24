@@ -3,11 +3,11 @@ title: Enable personal authentication for policy authoring
 description: Configure the integration type on the Microsoft OneDrive Spoke connection credential to enable policy authoring operations to run under the logged-in user's personal credentials instead of the system account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/enable-personal-auth-connection-credential-alias.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [personal authentication, policy authoring, connection credential alias, integration type, OneDrive Spoke, SharePoint, Google Drive]
 breadcrumb: [Authentication and document access in policy authoring, Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]

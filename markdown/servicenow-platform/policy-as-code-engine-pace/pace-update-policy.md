@@ -3,11 +3,11 @@ title: Edit a PaCE policy
 description: You can update any existing PaCE policies, whether they are activated or deactivated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-update-policy.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage PaCE policies, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_pace.policy\_editor
 
 5.  Click the **Policy builder** tab, create a copy of the version in which you want to make changes, and make the relevant changes in the new version.
 
-    You can select different versions of the policy in the Version drop-down menu. For more information about creating and managing versions, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.md).
+    You can select different versions of the policy in the Version drop-down menu. For more information about creating and managing versions, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.md).
 
     **Note:** You can't update API Variables and Config Parameters for an existing policy version that is Current \(published\) or archived. To modify a Current version, create a copy of that version, as described in the Create a copy of a policy version section.
 
@@ -53,6 +53,6 @@ Role required: sn\_pace.policy\_editor
 
 8.  Click the **Mappings** tab and make the relevant changes.
 
-    For more information about defining caller and mapping inputs, see [Map PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-mapping-inputs.md).
+    For more information about defining caller and mapping inputs, see [Map PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/policy-as-code-engine-pace/pace-mapping-inputs.md).
 
 

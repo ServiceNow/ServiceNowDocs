@@ -3,9 +3,9 @@ title: Using Partner Relationship Management
 description: Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\) to enable admins and channel partners to use the self-service Partner portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-partner-relationship-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Use, Sales Customer Relationship Management]
 ---
@@ -42,9 +42,9 @@ Create
 
 </td><td>
 
-Allows channel partners to create deal registrations, cases, or quotes.To learn more about creating deal registrations, see [Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-a-deal-partner-portal.md).
+Allows channel partners to create deal registrations, cases, or quotes.To learn more about creating deal registrations, see [Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-a-deal-partner-portal.md).
 
-To learn more about creating quotes, see [Create a Quote via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-a-self-service-quote.md).
+To learn more about creating quotes, see [Create a Quote via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-a-self-service-quote.md).
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ General Inquiry
 
 </td><td>
 
-Raise concerns or queries with the enterprise.To learn more about general inquiry, see [Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/raise-an-inquiry-on-partner-portal.md).
+Raise concerns or queries with the enterprise.To learn more about general inquiry, see [Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/raise-an-inquiry-on-partner-portal.md).
 
 </td></tr><tr><td>
 
@@ -155,27 +155,27 @@ Search
 Search for support articles and other requests.Enter a search word or term and select **Search** to view the results.
 
 </td></tr></tbody>
-</table>-   **[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/raise-an-inquiry-on-partner-portal.md)**  
+</table>-   **[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/raise-an-inquiry-on-partner-portal.md)**  
 Raise a query or concern with the enterprise on the Partner Portal.
--   **[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-a-member-on-partner-portal.md)**  
+-   **[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-a-member-on-partner-portal.md)**  
 Register a new partner member or transfer existing staff within a partner organization.
--   **[Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-a-deal-partner-portal.md)**  
+-   **[Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-a-deal-partner-portal.md)**  
 Register a deal on the Partner portal to update its state and trigger the end-to-end life cycle of the deal.
--   **[Register a deal using agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-deal-using-agentic-ai.md)**  
-Use the Deal Registration AI agent to process deal registrations and manage the entire deal registration process.
--   **[Create a Quote via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-a-self-service-quote.md)**  
+-   **[Register a deal using agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-deal-using-agentic-ai.md)**  
+The **Deal Registration Agent** assists users in submitting deal registrations and perform specific actions, such as updating fields, managing products, and retrieving deal details.
+-   **[Create a Quote via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-a-self-service-quote.md)**  
 Use the Quote Self-Service plugin \(com.sn\_quote\_self\_service\) to create and submit a configured quote directly from the Partner portal.
--   **[View opportunity analytics on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-opportunity-analytics-on-partner-portal.md)**  
+-   **[View opportunity analytics on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-opportunity-analytics-on-partner-portal.md)**  
 View detailed analytics related to the opportunities accessible to you on the Partner portal.
--   **[View quote analytics on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-quote-analytics-on-partner-portal.md)**  
+-   **[View quote analytics on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-quote-analytics-on-partner-portal.md)**  
 View detailed analytics related to all the quotes associated to a channel partner on the Partner portal.
 
-**Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-using.md)
+**Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-using.md)
 
 **Related topics**  
 
 
-[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/raise-an-inquiry-on-partner-portal.md)
+[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/raise-an-inquiry-on-partner-portal.md)
 
-[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-a-member-on-partner-portal.md)
+[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-a-member-on-partner-portal.md)
 

@@ -3,9 +3,9 @@ title: Dynamic related records
 description: Display related records in the Contextual side panel in CRM Workspace that dynamically change based on the context of the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-contextual-related-records.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure dynamic related records, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -32,13 +32,13 @@ System administrators can configure the dynamic related records feature and defi
 -   Definitions for each specific type of related record to display, such as SLAs or contracts.
 -   Relationships between context records and their associated definition records.
 
-System administrators can also configure the related record card format. For more information, see [Configuring dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/dynamic-related-records-configure.md).
+System administrators can also configure the related record card format. For more information, see [Configuring dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/dynamic-related-records-configure.md).
 
 ## Using dynamic related records
 
 Agents can search the Related Records list by entering text in the search field or filter the list to display records of a specific type, such as SLAs or active customer contracts. Agents can expand a card to show more a more detailed view or open the list in a sub-tab. If agents have create permission, they can also create new related records of the selected type.
 
-For more information about these agent actions, see [Using the Related Records tab in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-dynamic-related-records.md).
+For more information about these agent actions, see [Using the Related Records tab in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-dynamic-related-records.md).
 
 ## Dynamic related records plugin
 
@@ -53,7 +53,7 @@ This plugin adds the Dynamic Related Record menu and the following modules to th
 -   Related Record Contexts
 -   Related Record Definitions
 
-This plugin also adds several related record definitions. For more information, see [Related record definitions included with the plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/dynamic-related-records-configure.md).
+This plugin also adds several related record definitions. For more information, see [Related record definitions included with the plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/dynamic-related-records-configure.md).
 
 ## Using dynamic related records with Playbooks for Customer Service Management
 
@@ -64,7 +64,7 @@ The Case Playbook for Onboarding, Case Playbook for Complaints, and Case Playboo
 **Related topics**  
 
 
-[Configure dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/dynamic-related-records-configure.md)
+[Configure dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/dynamic-related-records-configure.md)
 
-[Using the Related Records tab in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-dynamic-related-records.md)
+[Using the Related Records tab in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-dynamic-related-records.md)
 

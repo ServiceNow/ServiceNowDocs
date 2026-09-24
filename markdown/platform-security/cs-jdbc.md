@@ -3,9 +3,9 @@ title: Sign the JDBC data source records in the protected instance
 description: Use update sets to sign and validate the JDBC data sources by enabling the code signing in protected and trusted instances.Use update sets to bring mass signing jobs to the protected instance.Use update sets to bring the signed update set to the protected instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-jdbc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Code Signing, Code Signing, Platform Security]
 ---
@@ -21,6 +21,8 @@ Use update sets to sign and validate the JDBC data sources by enabling the code 
 
 -   MID Server doesn't handle the file data sources and hence, these data sources are not code signed.
 -   LDAP data sources can't be code signed.
+
+**Parent Topic:**[Using Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/using-code-signing.md)
 
 ## Sign existing data sources of the JDBC type
 

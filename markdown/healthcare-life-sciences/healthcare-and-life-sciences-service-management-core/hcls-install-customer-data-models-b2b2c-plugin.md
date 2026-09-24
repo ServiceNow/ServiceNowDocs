@@ -3,11 +3,11 @@ title: Install the Customer Data Models for B2B2C plugin for Healthcare and Life
 description: Install the Customer Data Models for B2B2C plugin to enable customer data models for B2B2C with Healthcare and Life Sciences Service Management Core.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-install-customer-data-models-b2b2c-plugin.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up B2B2C, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---

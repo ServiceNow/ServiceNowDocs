@@ -3,11 +3,11 @@ title: Compare versions of CI configuration files
 description: You can compare two versions of tracked CI configuration files to see the actual changes made to them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/compare-configuration-files.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ You can compare two versions of tracked CI configuration files to see the actual
 
 ## Before you begin
 
-If Discovery and Service Mapping don’t track a configuration file you want to track, perform advanced configuration as described in [Modify tracking changes in configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/track-configuration-files.md).
+If Discovery and Service Mapping don’t track a configuration file you want to track, perform advanced configuration as described in [Modify tracking changes in configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/track-configuration-files.md).
 
 Role required: one of the following roles.
 
@@ -35,15 +35,15 @@ Changes to configuration files are associated with CIs to which these files belo
 
 1.  Compare two versions of the CI configuration file from Service Mapping or Discovery.
 
-<table id="choicetable_c2k_pxd_bhc"><thead><tr><th align="left" id="d289399e145">
+<table id="choicetable_c2k_pxd_bhc"><thead><tr><th align="left" id="d291082e145">
 
 Product
 
-</th><th align="left" id="d289399e148">
+</th><th align="left" id="d291082e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d289399e154">
+</th></tr></thead><tbody><tr><td id="d291082e154">
 
 **Service Mapping**
 
@@ -61,7 +61,7 @@ Steps
 
 The Tracked Configuration File Comparison tab opens, displaying the most recent and the previous versions of the configuration file.
 
-</td></tr><tr><td id="d289399e218">
+</td></tr><tr><td id="d291082e218">
 
 **Discovery**
 
@@ -93,5 +93,5 @@ The Tracked Configuration File Comparison tab opens, displaying the configuratio
 **Related topics**  
 
 
-[Tracked Configuration file form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/tracked-configuration-file-form.md)
+[Tracked Configuration file form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/tracked-configuration-file-form.md)
 

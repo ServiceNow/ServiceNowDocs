@@ -3,10 +3,10 @@ title: Planned Work Management
 description: The Planned Work Management application works with Field Service Management to help organizations create and manage the planned work activities with recurring schedules at regular intervals. The planned work activities include, maintenance, inspections, audits or more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/planned-work-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Field Service Management]
 ---
 
@@ -17,6 +17,19 @@ The Planned Work Management application works with Field Service Management to h
 With Planned Work Management, organizations can configure recurring activities based on time intervals, meter readings, or specific conditions, ensuring that critical maintenance work is executed consistently and proactively. The application also provides forecasting capabilities and access to maintenance cycle history, enabling better resource planning and improved operational visibility.
 
 Planned Work Management enhances maintenance operations by supporting dynamic scheduling, multi‑asset maintenance plans, and automated adjustments when exceptions occur.
+
+## Example: Quarterly HVAC Maintenance
+
+An organization needs recurring maintenance, inspections, and audits to run consistently without manual scheduling effort. Planned Work Management generates work orders automatically on defined schedules and adjusts future work orders when exceptions occur.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician or Admin|Creates work plan|
+|2|System|Attaches predefined inspection checklist tasks to work plan|
+|3|System|Schedules automatically|
+|4|Technician|Performs inspection|
+|5|Technician|Updates results|
+|6|Technician|Closes work order|
 
 ## Key benefits
 
@@ -52,11 +65,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 **Related topics**  
 
 
-[Configuring Planned Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configuring-planned-work-management.md)
+[Configuring Planned Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/configuring-planned-work-management.md)
 
-[Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
+[Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
 
-[Work plan example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/example-planned-work.md)
+[Work plan example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/example-planned-work.md)
 
-[Planned Work Management Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/pwm-dashboard.md)
+[Planned Work Management Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/pwm-dashboard.md)
 

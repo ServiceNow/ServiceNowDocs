@@ -3,13 +3,13 @@ title: Configure localization for Portal Banner heading
 description: Configure the portal banner heading instance option to support localization and personalize the portal experience for different users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-localization-for-portal-banner-greetings.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Banner widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Banner widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure localization for Portal Banner heading
@@ -34,7 +34,7 @@ The portal banner widget enables you to customize the heading text displayed to 
 
     3.  In **Heading**, enter the desired text.
 
-        For details on filling the Heading field, see [Portal Banner widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/banner-widget-inst-options.md).
+        For details on filling the Heading field, see [Portal Banner widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/banner-widget-inst-options.md).
 
 2.  Create a translation record \(for localization\).
 

@@ -1,18 +1,18 @@
 ---
-title: Prevent usage of 3DES keys \[New in Security Center 7.0\]
+title: Prevent usage of 3DES keys
 description: Disable the use of 3DES static keys on your instance with a system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-prevent-usage-of-3des-keys.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Stored cryptography, Hardening settings, Platform Security]
 ---
 
-# Prevent usage of 3DES keys \[New in Security Center 7.0\]
+# Prevent usage of 3DES keys
 
 Disable the use of 3DES static keys on your instance with a system property.
 
@@ -84,7 +84,7 @@ Category
 
 </td><td>
 
-[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
+[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
 
 </td></tr><tr><td>
 
@@ -110,10 +110,10 @@ Dependencies and prerequisites
 
 </td><td>
 
-None
+The property **glide.security.3des.removal\_job\_status** acts as a readiness gate. The scheduled job walks through deactivating/rotating out old 3DES static keys, and that job reports its progress via this status property. Until that job reports it's done \(KEYS\_DEACTIVATED or RESUPPLIED\), it's not yet possible to flip **glide.security.3des.static\_keys\_usable** to **false**, because doing so prematurely could break decryption of data still encrypted with those static keys.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
+**Parent Topic:**[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
 

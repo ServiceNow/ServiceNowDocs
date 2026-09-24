@@ -3,11 +3,11 @@ title: Edit a building's spaces using a map
 description: Space planners and administrators can update space attributes and allocation changes using interactive floor maps. Select and edit a single space or update bulk spaces via floor maps. Add, change, or remove space allocations as required. The updated space attributes and association changes are reflected in real-time on a floor map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/edit-space-details-for-buildings.html
-release: australia
+release: brazil
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Map based space administration, Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -88,7 +88,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
         You can also use Related list conditions to apply filtering on related tables. Make sure to set the Greater than or equal to operator value to 1 for accurate results.
 
-        For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+        For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     2.  After the selection, to edit the spaces, on the right pane, select the **Edit Space** option under the **Space details** section.
 
@@ -162,7 +162,7 @@ Select **Remove allocation** from the drop-down list to remove the selected spac
 
     13. Select **New** to add a workplace location and update the required fields.
 
-        For more information, see [Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md).
+        For more information, see [Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md).
 
     14. After performing the changes, select **Save**.
 
@@ -171,10 +171,14 @@ Select **Remove allocation** from the drop-down list to remove the selected spac
     Any changes that you make to space records are applied in real-time and available on the floor Map of the selected space.
 
 
-**Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/map-based-space-administration.md)
+**Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/map-based-space-administration.md)
+
+**Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/map-based-space-administration.md)
 
 **Related topics**  
 
+
+[Move employees on a floor or to a different floor using the map]()
 
 [Move employees on a floor or to a different floor using the map]()
 

@@ -3,11 +3,11 @@ title: Investigation Canvas MITRE Filters
 description: MITRE filters enables you to create and save filters for Tactics, Techniques, and Procedures \(TTPs\) associated with specific adversaries and other MITRE technique attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-mitre-filters.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Investigation canvas and MITRE ATT&amp;CK, Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -182,5 +182,5 @@ The visual representation on the MITRE Framework indicates how techniques and su
 -   **Blue text in bold with blue border:** Techniques or sub-techniques displayed in bold blue text with a blue border indicate those that match the filter criteria and are associated with one or more nodes on the canvas.
 -   **Gray card:** Parent techniques are displayed in gray when they do not directly match the filter criteria \(which means they are not linked to the selected group\) but are shown to represent the parental relationship to linked sub-techniques that match the filter criteria.
 
-**Parent Topic:**[Investigation canvas and MITRE ATT&amp;CK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/investigation-and-mitre.md)
+**Parent Topic:**[Investigation canvas and MITRE ATT&amp;CK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/investigation-and-mitre.md)
 

@@ -3,11 +3,11 @@ title: Configuration Hub
 description: Experience the ability to zoom into an application or a group of applications and view all the relevant tables and records on a single page using the Configuration Hub. As an admin you can access all relevant details related to the selected application\(s\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-configuration-hub.html
-release: australia
+release: brazil
 product: Admin Center
 classification: admin-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -32,10 +32,10 @@ You can search through all the application, console or product names that have b
 
 **Note:** The application name doesn’t populate in the search bar if it’s not yet installed on the instance. The number under the family name shows the number of applications in the selected family have been installed on the instance. If there is a product family that doesn’t have any app installed, it won’t show up on the list.
 
-It can also help you search applications that have been grouped by SN store, taxonomy or product families. When you select a product family, it takes to the product home page. See [Configure the product home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-explore-product-home.md) for more information.\[Omitted image "ac-product-home-page.png"\] Alt text:
+It can also help you search applications that have been grouped by SN store, taxonomy or product families. When you select a product family, it takes to the product home page. See [Configure the product home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-explore-product-home.md) for more information.\[Omitted image "ac-product-home-page.png"\] Alt text:
 
--   **[Configure the product home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-explore-product-home.md)**  
+-   **[Configure the product home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-explore-product-home.md)**  
 Track delta changes, over-allocated subscriptions, customizations, and slow execution on the product home page by selecting a product family
 
-**Parent Topic:**[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/admin-center-intro.md)
+**Parent Topic:**[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/admin-center-intro.md)
 

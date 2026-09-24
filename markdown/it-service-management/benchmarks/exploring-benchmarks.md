@@ -3,12 +3,12 @@ title: Exploring Benchmarks
 description: Use Benchmarks for ITSM to get a comparative insight relative to industry averages of your peers and to the industry top performers. With Benchmarks get a quick visibility into your key performance indicators \(KPIs\) and trends.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/exploring-benchmarks.html
-release: australia
+release: brazil
 product: Benchmarks
 classification: benchmarks
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Benchmarks, IT Service Management]
 ---
 
@@ -49,7 +49,7 @@ Managed Service Providers \(MSPs\) and MSP-managed instances are supported and h
 
 ## Key features
 
--   Available KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations. For more information, see Benchmark KPIs.
+-   Available KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations. For more information, see [Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
 -   Ability to change KPI definitions to match customizations.
 -   Benchmarks dashboard in Service Portal \(mobile friendly\).
 -   Ability to download KPI reports.

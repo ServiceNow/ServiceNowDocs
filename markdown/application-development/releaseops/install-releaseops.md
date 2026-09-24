@@ -3,11 +3,11 @@ title: Install ReleaseOps
 description: Install ReleaseOps from the ServiceNow Store for the first time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/install-releaseops.html
-release: australia
+release: brazil
 product: ReleaseOps
 classification: releaseops
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
 breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
@@ -37,7 +37,7 @@ Because ReleaseOps involves a multi-instance ecosystem, you must complete this p
 
 6.  Run the installation on your instance, and accept all of the plugins.
 
-    For more information about installing a ServiceNow® Store application on your instance, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
+    For more information about installing a ServiceNow® Store application on your instance, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 
 ## Result

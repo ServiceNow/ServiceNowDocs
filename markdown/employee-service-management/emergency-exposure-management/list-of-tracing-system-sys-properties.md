@@ -3,13 +3,13 @@ title: System properties for tracing systems in Emergency Exposure Management
 description: System properties associated with tracing systems that are available in the Emergency Exposure Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.html
-release: australia
+release: brazil
 product: Emergency Exposure Management
 classification: emergency-exposure-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Tracing systems in Emergency Exposure Management, Set up Emergency Exposure Management, Emergency Exposure Management, Emergency Response Management, Employee Service Management]
+breadcrumb: [Tracing systems in Emergency Exposure Management, Set up Emergency Exposure Management, Emergency Exposure Management, Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # System properties for tracing systems in Emergency Exposure Management
@@ -18,11 +18,11 @@ System properties associated with tracing systems that are available in the Emer
 
 To configure the system properties available for a tracing system, navigate to **Emergency Exposure Management** &gt; **Administration** &gt; **Tracing Systems** and open the tracing system record.
 
-For more information on setting up or modifying a tracing system, see [Set up a tracing system for an exposure data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/set-up-tracing-system.md).
+For more information on setting up or modifying a tracing system, see [Set up a tracing system for an exposure data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/emergency-exposure-management/set-up-tracing-system.md).
 
 ## System properties for tracing systems installed with Contact Tracing
 
-For more information, see [Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-contact-tracing.md).
+For more information, see [Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contact-tracing/set-up-contact-tracing.md).
 
 <table id="table_slw_cd1_w4b"><thead><tr><th>
 
@@ -102,7 +102,7 @@ The fields in the CMDB Class \[cmdb\_ci\_computer\] table that identify the Wi-F
 
 </td><td>
 
-The CMDB Class table to look up to identify the device and owner matching the Wi-Fi Bluetooth LE \(BLE\) client in the Wi-Fi access logs. The default value is cmdb\_ci\_wearable.**Note:** The Wearable Technology table \[cmdb\_ci\_wearable\] is installed with the CMDB CI Class Models application available through the ServiceNow Store. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-iot.md).
+The CMDB Class table to look up to identify the device and owner matching the Wi-Fi Bluetooth LE \(BLE\) client in the Wi-Fi access logs. The default value is cmdb\_ci\_wearable.**Note:** The Wearable Technology table \[cmdb\_ci\_wearable\] is installed with the CMDB CI Class Models application available through the ServiceNow Store. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-iot.md).
 
 </td></tr><tr><td>
 

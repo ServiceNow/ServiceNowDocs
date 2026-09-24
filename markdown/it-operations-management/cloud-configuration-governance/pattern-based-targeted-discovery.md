@@ -3,11 +3,11 @@ title: Pattern-based targeted discovery
 description: Automatically discover the newly provisioned cloud resources and store their information in the ServiceNow ServiceNow Configuration Management Database \(CMDB\) by using pattern-based targeted discovery.Define a one-to-one association between the resource type and the single-resource-discovery pattern in the Cloud Resource Types \[sn\_capi\_resource\_type\] table. The pattern-based targeted discovery feature uses this information to invoke the appropriate pattern and discover the provisioned resource.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/pattern-based-targeted-discovery.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -16,13 +16,13 @@ breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administratio
 
 Automatically discover the newly provisioned cloud resources and store their information in the ServiceNow® ServiceNow® Configuration Management Database \(CMDB\) by using pattern-based targeted discovery.
 
-After provisioning the resources mentioned in the resource template, such as Azure Resource Manager \(ARM\) or CloudFormation Template \(CFT\), it sends a response to the Cloud Provisioning and Governance application. The response contains information about the provisioned resources. Cloud Provisioning and Governance uses this information to launch targeted discovery to discover only the newly provisioned or modified resources. Targeted discovery updates the resource attributes in the appropriate CMDB CI class.
+After provisioning the resources mentioned in the resource template, such as Azure Resource Manager \(ARM\) or CloudFormation Template \(CFT\), it sends a response to the Cloud Provisioning and Governance application. The response contains information about the provisioned resources. Cloud Provisioning and Governance uses this information to launch targeted discovery. Targeted discovery discovers only the newly provisioned or modified resources. It updates their attributes in the appropriate CMDB CI class.
 
 The pattern-based targeted discovery offers an easier alternative to the existing CAPI-based approach. Cloud Provisioning and Governance uses single-resource-discovery patterns to discover only the newly provisioned or modified resources. Contrary to the other patterns, the single-resource-discovery pattern doesn’t scan the entire cloud landscape for changes. It only discovers the newly provisioned or modified resource of a given type.
 
-The Cloud Resource Types \[sn\_capi\_resource\_type\] table stores the one-to-one association between the resource type and the single-resource-discovery pattern used to discover the resource. Cloud Provisioning and Governance uses the sn\_capi\_resource\_type table to identify the appropriate pattern for the given resource type. For more information on patterns, see [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
+The Cloud Resource Types \[sn\_capi\_resource\_type\] table stores the one-to-one association between the resource type and the single-resource-discovery pattern used to discover the resource. Cloud Provisioning and Governance uses the sn\_capi\_resource\_type table to identify the appropriate pattern for the given resource type. For more information on patterns, see [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md).
 
-In the base system, Cloud Provisioning and Governance supports pattern-based targeted discovery for a wide variety of resource types. If required, you can use custom patterns that you created to perform targeted discovery. For more information, see [Associate a resource type with a single-resource-discovery pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/pattern-based-targeted-discovery.md).
+In the base system, Cloud Provisioning and Governance supports pattern-based targeted discovery for a wide variety of resource types. If required, you can use custom patterns that you created to perform targeted discovery. For more information, see [Associate a resource type with a single-resource-discovery pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/pattern-based-targeted-discovery.md).
 
 Cloud Provisioning and Governance checks the following conditions to invoke the pattern-based targeted discovery:
 
@@ -30,18 +30,18 @@ Cloud Provisioning and Governance checks the following conditions to invoke the 
 -   The **sn\_cmp.targeted.disco.patterns** system property is set to **True**.
 -   The sn\_capi\_resource\_type table contains a one-to-one association between the resource type and the single-resource-discovery pattern.
 
-For example, if you use CFT to provision an Amazon S3 bucket, Cloud Provisioning and Governance reads the resource type from the cloud response \(AWS::S3::Bucket\). It then identifies the appropriate pattern \(AWS S3\) from the sn\_capi\_resource\_type table. The pattern discovers the newly provisioned Amazon S3 bucket and updates its attributes in the appropriate CMDB CI class \(Cloud Object Storage \[cmbd\_ci\_cloud\_object\_storage\] table\).
+For example, if you use CFT to provision an Amazon S3 bucket, Cloud Provisioning and Governance reads the resource type from the cloud response \(AWS::S3::Bucket\). It then identifies the appropriate pattern \(AWS S3\) from the sn\_capi\_resource\_type table and invokes the pattern to discover the newly provisioned Amazon S3 bucket only. The pattern updates the bucket's attributes in the appropriate CMDB CI class \(Cloud Object Storage \[cmbd\_ci\_cloud\_object\_storage\] table\).
 
 If both CAPI-based targeted discovery and pattern-based targeted discovery are implemented for the resource type, then the system uses CAPI-based targeted discovery.
 
-If both CAPI-based and pattern-based targeted discovery are not implemented for the resource type, the resource type is classified as a generic cloud resource. The system stores it in the Cloud Resources \[cmdb\_ci\_cmp\_resource\] table. In such cases, you can create a single-resource-discovery pattern and associate it with the resource type. For more information, see [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md) and [Associate a resource type with a single-resource-discovery pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/pattern-based-targeted-discovery.md).
+If neither CAPI-based nor pattern-based targeted discovery is implemented for the resource type, the resource type is classified as a generic cloud resource. The resource appears in the Cloud Resources \[cmdb\_ci\_cmp\_resource\] table. In such cases, you can create a single-resource-discovery pattern and associate it with the resource type. For more information, see [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md) and [Associate a resource type with a single-resource-discovery pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/pattern-based-targeted-discovery.md).
 
 **Related topics**  
 
 
-[Configure a response processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-response-processor.md)
+[Configure a response processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-response-processor.md)
 
-[Create or extend a CAPI interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-interface.md)
+[Create or extend a CAPI interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-interface.md)
 
 ## Associate a resource type with a single-resource-discovery pattern
 

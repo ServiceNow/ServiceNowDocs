@@ -3,11 +3,11 @@ title: APIs for IT to OT and OT to IT conversion
 description: There are 2 APIs used for handling refresh workflow scenarios for converting IT to Operational Technology \(OT\) and vice versa with the OT Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/api-for-it-to-ot-and-ot-to-it-conversion.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Operational Technology Manager, Operational Technology]
 ---
@@ -33,9 +33,9 @@ The Convert IT to OT Asset API is used in refresh workflows where an OT configur
 
 The Convert OT to IT Asset API is used if an asset needs to be replaced. The API deletes the OT entity record of the passed CI.
 
-For more information about Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets, see [Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-ci-sync-ot-assets.md).
+For more information about Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets, see [Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-ci-sync-ot-assets.md).
 
-For more information about OT Asset Management, see [OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ot-asset-management.md).
+For more information about OT Asset Management, see [OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/ot-asset-management.md).
 
-**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

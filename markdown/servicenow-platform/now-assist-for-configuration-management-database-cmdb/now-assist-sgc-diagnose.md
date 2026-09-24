@@ -3,11 +3,11 @@ title: Fix SGC import set issues with the ServiceNow Otto SGC diagnosis skill
 description: To reduce debugging and resolution time and effort, the Service Graph Connector diagnosis skill generates summaries of errors and recommendations for resolving processing errors with SGC import sets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-diagnose.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ To reduce debugging and resolution time and effort, the Service Graph Connector 
 
 ## Before you begin
 
-Enable the Service Graph Connector diagnosis skill as described in [Configure the Service Graph Connector diagnosis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+Enable the Service Graph Connector diagnosis skill as described in [Configure the Service Graph Connector diagnosis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
 Role required: cmdb\_inst\_admin and now\_assist\_panel\_user
 
@@ -26,7 +26,7 @@ Role required: cmdb\_inst\_admin and now\_assist\_panel\_user
 
 This procedure describes how you can manually access the skill. In addition, any agentic workflow can use the skill.
 
-When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] appears in the toolbar of the workspace. For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] icon appears in the toolbar of the workspace. For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
@@ -40,15 +40,15 @@ When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted imag
 
     **Note:** If ServiceNow Otto doesn't recognize the entered text, it displays a list of the Service Graph Connectors installed on your instance by their discovery source names, such as `SG-Infoblox`. You can then select a connector for further diagnosis.
 
-<table id="choicetable_x5w_r4d_zcc"><thead><tr><th align="left" id="d210082e206">
+<table id="choicetable_x5w_r4d_zcc"><thead><tr><th align="left" id="d208222e206">
 
 Option
 
-</th><th align="left" id="d210082e209">
+</th><th align="left" id="d208222e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d210082e215">
+</th></tr></thead><tbody><tr><td id="d208222e215">
 
 **Connector name**
 
@@ -60,7 +60,7 @@ After you enter a connector name, you can select a data source that is associate
 
 \[Omitted image "now-assist-sgc-diagnose-connector.png"\] Alt text: Diagnosing a failed import set with a connector name.
 
-</td></tr><tr><td id="d210082e249">
+</td></tr><tr><td id="d208222e249">
 
 **Data source name**
 
@@ -68,7 +68,7 @@ After you enter a connector name, you can select a data source that is associate
 
 Data source name for a connector to diagnose. For example, `SG-AWS-Organization`.After entering a data source that is associated with a connector, you can select a failed import set that is associated with the data source. Based on the inputs, the import set number that was last processed with errors is displayed. Alternatively, you can choose to view other failed import sets. If no failed import sets are available, you can select a different data source for the connector.
 
-</td></tr><tr><td id="d210082e263">
+</td></tr><tr><td id="d208222e263">
 
 **Import set**
 
@@ -90,7 +90,7 @@ For issues related to Identification and Reconciliation engine \(IRE\), the pane
 
 \[Omitted image "now-assist-sgc-diagnose-result.png"\] Alt text: Failed import set diagnosis result.
 
-**Tip:** To restart the conversation, select the New chat icon \(\[Omitted image "na-panel-new-chat-icon.png"\]\). If you reset the conversation, the existing messages are deleted, and a new conversation is started. You won't be able to access the previous messages after you reset the conversation. To learn more about how to use the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+**Tip:** To restart the conversation, select the New chat icon \(\[Omitted image "na-panel-new-chat-icon.png"\]\). If you reset the conversation, the existing messages are deleted, and a new conversation is started. You won't be able to access the previous messages after you reset the conversation. To learn more about how to use the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## What to do next
 
@@ -110,7 +110,7 @@ Provide feedback
 
 </td><td>
 
-If you think that the summary was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that the summary wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you think that the summary was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that the summary wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use 
 </table>**Related topics**  
 
 
-[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
+[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 
 [sg-workspace]
 

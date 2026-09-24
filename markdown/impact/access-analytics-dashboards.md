@@ -3,9 +3,9 @@ title: Accessing Analytics Dashboards
 description: Access the Analytics Dashboards to view detailed information relating to Scan Engine findings, both pending and resolved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/access-analytics-dashboards.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
 ---

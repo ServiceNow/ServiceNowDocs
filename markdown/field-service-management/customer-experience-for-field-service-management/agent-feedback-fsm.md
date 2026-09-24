@@ -3,13 +3,13 @@ title: Collecting agent feedback
 description: Use Field Technician Feedback to collect feedback of field service agents from the customers by sending a survey link through email and SMS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/customer-experience-for-field-service-management/agent-feedback-fsm.html
-release: australia
+release: brazil
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer self service, Use, Field Service Management]
+breadcrumb: [Customer or Consumer Service Portal, Customer self service, Use, Field Service Management]
 ---
 
 # Collecting agent feedback
@@ -25,5 +25,5 @@ The Process agent rating, Daily Data Collection job runs every night to refresh 
 **Related topics**  
 
 
-[Configuring Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Configuring-cust-exp.md)
+[Configuring Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/Configuring-cust-exp.md)
 

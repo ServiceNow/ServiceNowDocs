@@ -3,9 +3,9 @@ title: Customizing the agent card in Dispatcher Workspace with UI Builder
 description: Change or add fields and icons to the agent card that display more information that dispatchers can use to resolve tasks faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/agent-card-ui-builder.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize Dispatcher Workspace with UI Builder, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---

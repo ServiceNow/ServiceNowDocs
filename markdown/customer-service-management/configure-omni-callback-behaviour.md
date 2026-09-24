@@ -3,9 +3,9 @@ title: Configure the callback behavior for Omnichannel Callback for Customer Ser
 description: such as enabling agent-scheduled callbacks, setting the maximum number of retry attempts or defining the expiration time, in Omnichannel Callback for Customer Service Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-omni-callback-behaviour.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Omnichannel Callback, Configure Voice, Configure omnichannel, Configure, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Portal board widget form
 description: Learn about the fields of portal board widget form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/portal-board-widget-form.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -101,7 +101,7 @@ Include by default
 Check box to show an active investment widget by default on:-   new boards
 -   existing boards that do not have widget selection configured
 
-The check box is selected by default.For more information on configuring widgets on an investment board, see [Widget Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/use-investment-portal.md).
+The check box is selected by default.For more information on configuring widgets on an investment board, see [Widget Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/use-investment-portal.md).
 
 </td></tr><tr><td>
 
@@ -164,8 +164,10 @@ function totalProjectCost()
 |Demand table|Table from which demands are being filtered.|
 |Demand filter|Criteria applied to filter demands from the Demand table.|
 
+**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/form-field-information-for-project-management.md)
+
 **Related topics**  
 
 
-[Configure your investment metrics as widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/configure-investment-metrics.md)
+[Configure your investment metrics as widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/configure-investment-metrics.md)
 

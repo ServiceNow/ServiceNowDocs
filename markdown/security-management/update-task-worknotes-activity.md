@@ -3,9 +3,9 @@ title: Update Task Worknotes activity
 description: The Security Common Orchestration - Update Task Worknotes workflow activity updates the Activity section \(work notes\) of a task record. This is useful for logging information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/update-task-worknotes-activity.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common Security Operations integration flows and orchestration activities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -33,5 +33,5 @@ The output variables contain data that can be used in subsequent activities.
 |--------|-----------|
 |result \[string\]|Indicates whether the update was successful.|
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/common-wf-activities.md)
 

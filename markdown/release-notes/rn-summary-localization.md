@@ -1,20 +1,20 @@
 ---
-title: Product localization information in Australia
-description: Cumulative release notes summary on new Australia features and products.
+title: Product localization information in Brazil
+description: Cumulative release notes summary on new Brazil features and products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-localization.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+last_updated: "2026-09-23"
+reading_time_minutes: 1
+breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Product localization information in Australia
+# Product localization information in Brazil
 
-Cumulative release notes summary on new Australia features and products.
+Cumulative release notes summary on new Brazil features and products.
 
-Some products may have specific localization requirements or behavior in Australia.
+Some products may have specific localization requirements or behavior in Brazil.
 
 <table id="rn-summary-localization-table" class="custom-rows"><thead><tr><th class="filter">
 
@@ -26,102 +26,12 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-AI Admin Center
-
-</td><td>
-
-AI Admin Center supports machine translation for Australia. Localization is applicable to AI Admin Center in all languages supported by the ServiceNow AI Platform.
-
-</td></tr><tr><td>
-
-AI Admin Hub
-
-</td><td>
-
-Now Assist supports Dynamic Translation for Australia.
-
-</td></tr><tr><td>
-
-AI Agent Advisor
-
-</td><td>
-
-AI Agent Advisor supports machine translation for Australia. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
-
-</td></tr><tr><td>
-
 AI Agent Studio
 
 </td><td>
 
 AI agents and AI Agent Studio are built on the GPT-4o-based framework and supports localization according to the GPT-4o model.
 
-</td></tr><tr><td>
-
-Accounts Payable Operations
-
-</td><td>
-
-Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. To process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
-
-</td></tr><tr><td>
-
-CPQ
-
-</td><td>
-
-Japanese Localization for CPQ admin UI: The CPQ admin UI supports internationalization for the CPQ Configurator and Transaction Manager. Static user interface elements, including labels, headings, and system text, can be displayed in Japanese. This is part of an initial pilot to support SoftBank onboarding. Administrators can select their preferred language through the ServiceNow platform. If any static content is not translated, the system automatically falls back to English. It also supports Japanese character input across applicable fields and controls. User-generated content remains in the language in which it is entered.
-
-Enhanced localization in CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
-
-</td></tr><tr><td>
-
-Digital End-User Experience
-
-</td><td>
-
-Localization is applicable to DEX in all languages supported by the ServiceNow AI Platform.
-
-</td></tr><tr><td>
-
-Generative AI Controller
-
-</td><td>
-
-Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multilanguage support. You can enable dynamic translation from the AI Admin Hub console. For more information, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
-
-</td></tr><tr><td>
-
-Live Connect
-
-</td><td>
-
-Live Connect operates independently of language settings. Data returned through Live Connect reflects the language settings of the queried tables.
-
-</td></tr><tr><td>
-
-RPA Hub
-
-</td><td>
-
-RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-international-language-support.md).
-
-</td></tr><tr><td>
-
-ServiceNow IDE
-
-</td><td>
-
-The ServiceNow IDE is localized in all supported left-to-right languages and reflects the language preference selected by users for the instance. For information about how to activate a language on an instance, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
-
-</td></tr><tr><td>
-
-Third-party Risk Management
-
-</td><td>
-
-Third-party portal strings are externalized and translated for supported languages. Newly introduced features may have incomplete translations.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/release-notes-summaries.md)
 

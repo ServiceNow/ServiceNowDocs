@@ -3,11 +3,11 @@ title: Automate response
 description: Set up default responses for questions so that assessors can complete assessments quickly and provide quality results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/automate-response.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance,
 Set up default responses for questions so that assessors can complete assessments quickly and provide quality results.
 
 Response automation aims to make the assessment process efficient by reducing manual data entry and providing a static response or script-based approach to automate responses. A template manager can make the responses read-only or editable. You can set up the automated responses with the following:
-
-**Note:** This feature is available starting with Australia Patch 2.
 
 -   **Default Response field**
 
@@ -44,7 +42,7 @@ Response automation aims to make the assessment process efficient by reducing ma
     \[Omitted image "automate-response-script.png"\] Alt text: Setting up a default response for a question using a script.
 
 
-## Set resonse as editable
+## Set response as editable
 
 Under Additional options, the Set response as editable setting controls whether the respondent can modify the automated response and how re-evaluation behaves:
 
@@ -52,12 +50,12 @@ Under Additional options, the Set response as editable setting controls whether 
 
     The respondent can edit the automated response. Response automation conditions are evaluated when the assessment is created and re-evaluated when a dependent question changes. However, if the respondent has manually modified the response, the re-evaluated automated value is not applied and the respondent's manual entry is preserved.
 
--   **Disabled**
+-   **Inactive**
 
-    The response is read-only and the respondent cannot modify it. Response automation conditions are evaluated when the assessment is created and re-evaluated every time a dependent question changes. Because the respondent cannot edit the response, the re-evaluated value always overwrites the current response.
+    The response is read-only and the respondent can't modify it. Response automation conditions are evaluated when the assessment is created and re-evaluated every time a dependent question changes. Because the respondent cannot edit the response, the re-evaluated value always overwrites the current response.
 
 
-**Note:** When Set response as editable is disabled, the Required toggle on the question is automatically turned off, since the system provides the response.
+**Note:** When Set response as editable is inactive, the Required toggle on the question is automatically turned off, since the system provides the response.
 
-When setting up the automated response, you can use if-then conditions to build the required criteria for the response. For more information, see [Configure an automatic response for a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.md).
+When setting up the automated response, you can use if-then conditions to build the required criteria for the response. For more information, see [Configure an automatic response for a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.md).
 

@@ -3,9 +3,9 @@ title: View all business actors
 description: View all business actors in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-business-actors.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business actors, enterprise architecture, portfolio]
 breadcrumb: [Manage business actors, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -34,10 +34,10 @@ Role required: sn\_apm.apm\_user
 
 The business actors list displays with columns for Name, Department, Description, Group, and Location.
 
-**Parent Topic:**[Manage business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-actors.md)
+**Parent Topic:**[Manage business actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-actors.md)
 
 **Related topics**  
 
 
-[Add or edit a business actor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-business-actor.md)
+[Add or edit a business actor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-business-actor.md)
 

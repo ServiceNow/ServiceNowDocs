@@ -3,9 +3,9 @@ title: Security Posture Control use case: Detecting assets missed by vulnerabili
 description: To detect assets missed by vulnerability assessment tools, the following pre-requisites are required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-use-case-2.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Security Posture Control, Security Operations]
 ---
@@ -31,5 +31,5 @@ For each Service Graph Connector in the list, you can see if that connector is r
     3.  Infrastructure Monitoring.
     4.  Application Performance Monitoring .
 
-After you verify you have met these prerequisites, you must activate the following policy, Assets not scanned for vulnerabilities. For more information on policies, please refer to [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-policies-overview.md).
+After you verify you have met these prerequisites, you must activate the following policy, Assets not scanned for vulnerabilities. For more information on policies, please refer to [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-policies-overview.md).
 

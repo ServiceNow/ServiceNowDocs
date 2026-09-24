@@ -3,9 +3,9 @@ title: Block users from downloading or sharing attachments
 description: Set the glide.sg.block\_mobile\_attachments\_sharing system property to true to hide the sharing button in the mobile app native viewer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/block-users-download-shar-attach.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -76,5 +76,5 @@ Enter one of the following values:
 </table>4.  Right-click the banner at the top of the **glide.sg.block\_mobile\_attachments\_sharing** form and select **Save**.
 
 
-**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/additional-mobile-configuration.md)
 

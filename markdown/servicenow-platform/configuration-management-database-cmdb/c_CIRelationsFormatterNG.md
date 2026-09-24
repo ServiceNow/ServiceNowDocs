@@ -3,11 +3,11 @@ title: CI relations formatter
 description: The default CI form includes a CI relations formatter from which you can examine a CI and its relationships in various views. From the CI relations formatter, you can also launch the CI relationship editor for the CI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_CIRelationsFormatterNG.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ The default CI form includes a CI relations formatter from which you can examine
 
 If the domain separation plugin is activated, then only relationships in which the logged on user is authorized to view both CIs, are displayed.
 
-The CI relations formatter contains a list of related CIs and a toolbar with controls for viewing the relationships between the current CI and related CIs. You can configure the controls in this formatter to modify varying aspects of the view. For more information about formatters, see [Create a formatter and add it to the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md).
+The CI relations formatter contains a list of related CIs and a toolbar with controls for viewing the relationships between the current CI and related CIs. You can configure the controls in this formatter to modify varying aspects of the view. For more information about formatters, see [Create a formatter and add it to the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAFormatter.md).
 
 **Note:**
 
@@ -37,7 +37,7 @@ The CI relations formatter contains a list of related CIs and a toolbar with con
 
         CI1 &gt; CI2 &gt; endpoint2 \(appears as level 2 relationship – endpoint1 is hidden and endpoint2 appears as it a child and not a parent in any other relationship\).
 
--   On instances that do not meet the internet browser requirements for the CI relations formatter, the default CI form includes the legacy CI relations formatter instead. For more information, see [Legacy CI relations formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_LegacyCIRelationsFormatter.md).
+-   On instances that do not meet the internet browser requirements for the CI relations formatter, the default CI form includes the legacy CI relations formatter instead. For more information, see [Legacy CI relations formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/r_LegacyCIRelationsFormatter.md).
 -   CIs not extended from the Configuration Item \[cmdb\_ci\] table, are not displayed in Dependency Views maps and in CI relation formatters.
 -   The **Applicative Flow To::Application Flow From** relationship is a special relationship type used only between Service Mapping endpoints. This relationship type is not intended for use in the CMDB as a relationship between CIs and therefore it is not displayed in the relations formatter.
 
@@ -55,7 +55,7 @@ Add CI relationship
 
 </td><td>
 
-Starts the relationship editor to manually create CI relationships. For more information \(including about roles required for the '+' control to appear\), see [Create or edit a CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIRelationship.md).
+Starts the relationship editor to manually create CI relationships. For more information \(including about roles required for the '+' control to appear\), see [Create or edit a CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIRelationship.md).
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Show dependency views
 
 </td><td>
 
-Launches a Dependency Views map in another window or tab. The CI is the central node in the map, with a configurable number of levels above and below that node in the hierarchy. Map indicators next to the nodes indicate the number of tasks, incidents, problems, changes, or outages related to that node. Right-click to expand collapsed nodes or display a list of related tasks or problems. For more information, see [Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/c_NextGenBSMMaps.md).
+Launches a Dependency Views map in another window or tab. The CI is the central node in the map, with a configurable number of levels above and below that node in the hierarchy. Map indicators next to the nodes indicate the number of tasks, incidents, problems, changes, or outages related to that node. Right-click to expand collapsed nodes or display a list of related tasks or problems. For more information, see [Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/dependency-views/c_NextGenBSMMaps.md).
 
 </td></tr><tr><td>
 
@@ -186,16 +186,16 @@ Specifies the maximum number of related CIs to display.
 -   Flat layout reverts to the tree layout view.
 
 </td></tr></tbody>
-</table>-   **[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/domain-separation-relationship-formatter-editor.md)**  
+</table>-   **[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/domain-separation-relationship-formatter-editor.md)**  
 Domain separation is supported in the relations formatter and the CI relationship editor. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Create or edit a relationship filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateRelationshipFilter.md)**  
+-   **[Create or edit a relationship filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateRelationshipFilter.md)**  
 Create a custom relationship filter to display CI relationships from selected tables in the CI relations formatter.
--   **[Exclude relationships from the relations formatter view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/exclude-relationship.md)**  
+-   **[Exclude relationships from the relations formatter view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/exclude-relationship.md)**  
 Create a list of relationships that should not appear in the relations formatter view on CI forms.
--   **[Legacy CI relations formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_LegacyCIRelationsFormatter.md)**  
+-   **[Legacy CI relations formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/r_LegacyCIRelationsFormatter.md)**  
 On instances that do not meet the internet browser requirements for the latest CI relations formatter, the default CI form includes the legacy CI relations formatter instead.
 
-**Parent Topic:**[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
+**Parent Topic:**[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 
 **Related topics**  
 
@@ -214,7 +214,7 @@ On instances that do not meet the internet browser requirements for the latest C
 
 [Create a CI relation rollup]()
 
-[Create a formatter and add it to the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md)
+[Create a formatter and add it to the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAFormatter.md)
 
-[Create or edit a relationship filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateRelationshipFilter.md)
+[Create or edit a relationship filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateRelationshipFilter.md)
 

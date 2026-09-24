@@ -3,9 +3,9 @@ title: Configure input form sections
 description: Input form sections are reusable components consisting of grouped inputs. You can associate these sections with any number of input form pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/parameter-screen-sections-create.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Input form sections are reusable components consisting of grouped inputs. You ca
 
 ## Before you begin
 
-You must create an input form screen that contains inputs before you create sections. For information about creating an input form screen and inputs, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md) and [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-inputs.md).
+You must create an input form screen that contains inputs before you create sections. For information about creating an input form screen and inputs, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md) and [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/param-screen-config-inputs.md).
 
 Role required: admin
 

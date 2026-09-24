@@ -3,12 +3,12 @@ title: Use the portable chat widget to add Virtual Agent to your web page
 description: The portable chat widget can run on third-party web pages, in the service portal, or in UI Builder portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/use-portable-va-web-client.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -23,7 +23,7 @@ The portable chat widget is a new Seismic component that makes it easy to add Vi
 -   Connect to Service Portal Agent Chat
 -   System parameters and context variables work the same as before
 
-    **Note:** Do not use **/$sn-va-web-client-app.do?** or **/sn\_va\_web\_client\_app\_embed.do** as a standalone page configuration. Instead, refer to the information in [Virtual Agent URL parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-sysparm.md) for how to embed the Virtual Agent chat widget successfully.
+    **Note:** Do not use **/$sn-va-web-client-app.do?** or **/sn\_va\_web\_client\_app\_embed.do** as a standalone page configuration. Instead, refer to the information in [Virtual Agent URL parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-sysparm.md) for how to embed the Virtual Agent chat widget successfully.
 
 
 ## Prerequisites for using the portable Virtual Agent chat widget
@@ -32,14 +32,14 @@ The portable chat widget uses an inline frame element \(iframe\). The third-part
 
 Before you begin, do the following:
 
-1.  [Activate the custom URL plugin \(com.snc.customurl\) in your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-custom-url-plugin.md)
-2.  [Add the custom URL \(that you previously purchased and registered\) to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-custom-url.md)
+1.  [Activate the custom URL plugin \(com.snc.customurl\) in your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/activate-custom-url-plugin.md)
+2.  [Add the custom URL \(that you previously purchased and registered\) to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configure-custom-url.md)
 
-**Note:** To learn more about using custom URLs, see [Associating custom URLs to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/custom-url.md).
+**Note:** To learn more about using custom URLs, see [Associating custom URLs to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/custom-url.md).
 
 ## Using SSO authentication with the portable Virtual Agent chat widget
 
-After you embed the Virtual Agent client, you can optionally trigger SSO authentication from the chat widget, but only when your instance is set up to use an external SSO provider. Your hosting site must also use the same SSO provider as your instance. For details on setting SSO providers, see [External single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_MultipleProviderSingleSignOn.md).
+After you embed the Virtual Agent client, you can optionally trigger SSO authentication from the chat widget, but only when your instance is set up to use an external SSO provider. Your hosting site must also use the same SSO provider as your instance. For details on setting SSO providers, see [External single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_MultipleProviderSingleSignOn.md).
 
 To trigger SSO authentication, create a JavaScript script that defines conditions for running authentication and redirects users to a chat widget page that you specify. You also specify the allowed URLs that can be passed in this script, by identifying them in the **com.glide.cs.web\_client\_login\_redirect\_urls** system property. Specify the full redirect URLs or the host part of the URL, such as `https://example.com`.
 
@@ -52,19 +52,10 @@ These properties determine the security policy for the embedded chat widget, nam
 
 **Note:** If you're using the Content Management System \(CMS\) application to create custom interfaces for the ServiceNow AI Platform and ServiceNow® applications, be aware that it does not support Virtual Agent.
 
--   **[Configure the portable Virtual Agent chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-portable-va-web-client.md)**  
-Configure the portable Virtual Agent chat widget to run Virtual Agent on third-party web pages.
--   **[Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-portable-va-client-website.md)**  
-To use the portable chat widget for Virtual Agent on third-party web pages, add the necessary code to your web page.
--   **[Embed the Virtual Agent chat widget in an external web page \(legacy method for standard chat\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-va-standalone-client.md)**  
-Load the Virtual Agent chat widget interface in an external web page by using an inline frame element \(iframe\). You can also optionally enable the single sign-on \(SSO\) authentication process to run automatically for guest users who are using the chat widget and are not logged in.
-
-**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
-
 **Related topics**  
 
 
-[Configure the portable Virtual Agent chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-portable-va-web-client.md)
+[Configure the portable Virtual Agent chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-portable-va-web-client.md)
 
-[Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-portable-va-client-website.md)
+[Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/add-portable-va-client-website.md)
 

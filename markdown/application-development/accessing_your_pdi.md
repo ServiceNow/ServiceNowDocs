@@ -3,9 +3,9 @@ title: Accessing your PDI
 description: Open your PDI and start building in the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/accessing\_your\_pdi.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -38,8 +38,8 @@ Once you have obtained a PDI, you can open the instance from **Account** menu.
 
 5.  If the instance is undergoing maintenance, you will need to wait for maintenance to complete before you can access your PDI.
 
-6.  If you have any issues accessing your PDI, review the [Getting instance assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/getting_instance_assistance.md) section of this guide for steps you can take.
+6.  If you have any issues accessing your PDI, review the [Getting instance assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/getting_instance_assistance.md) section of this guide for steps you can take.
 
 
-**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/personal_developer_instance_guide.md)
 

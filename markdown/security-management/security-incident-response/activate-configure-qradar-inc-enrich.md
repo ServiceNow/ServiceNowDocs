@@ -3,11 +3,11 @@ title: Get started with the IBM QRadar - Incident Enrichment integration
 description: IBM QRadar is an enterprise security information and event management \(SIEM\) product that integrates easily with Security Operations. Before you can use the IBM QRadar - Incident Enrichment integration, you must download it from the ServiceNow Store and add the appropriate API Base URL and API Key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activate-configure-qradar-inc-enrich.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IBM QRadar - Incident Enrichment Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/download-app-first-time.md).
 
 2.  When the installation is complete, access IBM QRadar and obtain the API Base URL and API Key under your IBM QRadar profile.
 
@@ -30,7 +30,7 @@ Role required: sn\_si\_admin
 
     The available security integrations appear as a series of cards.
 
-4.  In the IBM QRadar - Incident Enrichment card, select **New**.
+4.  In the IBM QRadar - Incident Enrichment card, click **New**.
 
 5.  Fill in the fields, as needed.
 
@@ -43,19 +43,19 @@ Role required: sn\_si\_admin
     |API Key|The API key you obtained from the IBM QRadar site.|
     |Max Rows|The maximum number of rows you want to search.|
     |Earliest Result \(days\)|The earliest results you want to see in number of days.|
-    |Include raw data samples in search results|Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the **number of rows of raw data** property in [Security Incident Response properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/installed-with-sir.md).|
+    |Include raw data samples in search results|Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the **number of rows of raw data** property in [Security Incident Response properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/installed-with-sir.md).|
     |MID Server|Select **Any** to use any active MID Server, or select a specific MID Server name.|
 
     **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Workflow Editor**.
 
-6.  Select **Submit**.
+6.  Click **Submit**.
 
     The integration configuration card displays.
 
-7.  When viewing the new configuration card, you can select **Configure** or **Delete** to change or delete the configuration, respectively.
+7.  When viewing the new configuration card, you can click **Configure** or **Delete** to change or delete the configuration, respectively.
 
 8.  To return to the original list of integration configuration cards, select **No** from the **Show Configurations** drop-down list.
 
 
-**Parent Topic:**[IBM QRadar - Incident Enrichment Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/qradar-landing-page.md)
+**Parent Topic:**[IBM QRadar - Incident Enrichment Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/qradar-landing-page.md)
 

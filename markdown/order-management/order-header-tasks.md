@@ -3,9 +3,9 @@ title: Order header tasks
 description: Order header tasks are associated with an order at the header or top order line item level, independent of domain orders or fulfillment tasks. They can be generated automatically or created manually to support validation and coordination activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-header-tasks.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -38,18 +38,18 @@ Order header tasks and top order line item tasks are generated automatically bas
 -   Order header tasks can be triggered by account and order action.
 -   Top order line item tasks can be triggered by product offering and order line item action.
 
-For more information, see [Configure the customer order task policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-task-policy.md).
+For more information, see [Configure the customer order task policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-order-task-policy.md).
 
 ## Manual task creation
 
 Order agents can create order header tasks manually from the CRM Workspace. When an agent creates a task from the Order Tasks tab, the order number is automatically populated and is read-only.
 
-For more information, see [Create an order header task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-order-header-task.md).
+For more information, see [Create an order header task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-order-header-task.md).
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

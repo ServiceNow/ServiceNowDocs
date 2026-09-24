@@ -1,20 +1,20 @@
 ---
 title: Regex preprocessing behavior in Enrich alert automation
-description: Event Management alert automation preprocesses values before applying regex patterns. Matching behavior differs between pre-populated Additional Info JSON fields and free-text sample values. Design regex patterns accordingly for reliable results.
+description: Explains how Event Management alert automation preprocesses values before applying regex patterns. Describes why matching behavior differs between pre-populated Additional Info JSON fields and free-text sample values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/enrich-auto-regex-edge-case.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create Enrich automation, Alert automation in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Regex preprocessing behavior in Enrich alert automation
 
-Event Management alert automation preprocesses values before applying regex patterns. Matching behavior differs between pre-populated **Additional Info JSON** fields and free-text sample values. Design regex patterns accordingly for reliable results.
+Explains how Event Management alert automation preprocesses values before applying regex patterns. Describes why matching behavior differs between pre-populated **Additional Info JSON** fields and free-text sample values.
 
 ## Preprocessing alert fields
 

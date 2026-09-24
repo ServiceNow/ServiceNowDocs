@@ -3,9 +3,9 @@ title: Download a data visualization from a dashboard
 description: As a viewer, download individual data visualizations from a dashboard or the Visualization Designer. Output formats differ between Lists and other data visualizations. The available output formats are CSV, Excel, PNG and JPEG.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/export-data-vis-from-dboard.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -61,5 +61,5 @@ Role required: Anyone viewing a data visualization can export that visualization
 
 The file is saved to the download folder of your browser, unless you are emailing a list.
 
-**Parent Topic:**[View data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-data-visualizations.md)
+**Parent Topic:**[View data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/view-data-visualizations.md)
 

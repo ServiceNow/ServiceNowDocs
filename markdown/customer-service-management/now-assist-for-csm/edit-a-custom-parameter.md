@@ -3,11 +3,11 @@ title: Edit a custom parameter
 description: Modify an existing custom parameter by editing it and resolving naming conflicts if needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/edit-a-custom-parameter.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Automated quality assurance, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -27,7 +27,7 @@ Role required: admin
 
 2.  Edit any field as needed.
 
-    For example, you can edit the **Exclusion criteria**. Parameters are grouped under categories. If the parameter name isn’t unique, you see the error message: 'Parameter name exists. Choose a unique name.'
+    For example, you can edit the **Exclusion criteria**. Parameters are grouped under categories. If the parameter name isn't unique, you see the error message: 'Parameter name exists. Choose a unique name.'
 
 3.  Select **Save**.
 

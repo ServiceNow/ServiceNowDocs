@@ -3,9 +3,9 @@ title: Care Team Portal
 description: Use the Care Team Portal to create requests for supporting service departments and maintain visibility into all requests created by you or your team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-cto-care-team-portal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -24,7 +24,7 @@ The Care Team Portal provides a responsive portal experience that can be used by
 
 \[Omitted image "care-team-portal-overview.png"\] Alt text: Landing page for Care Team Portal.
 
-The Care Team Portal can also be embedded within Epic, with access to all features available in the browser experience. For instructions, see [Embedding Care Team Portal in Epic Hyperspace via Hyperdrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/configure-care-team-portal.md).
+The Care Team Portal can also be embedded within Epic, with access to all features available in the browser experience. For instructions, see [Embedding Care Team Portal in Epic Hyperspace via Hyperdrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/configure-care-team-portal.md).
 
 The following plugins provide preconfigured record producers for use with Care Team Portal:
 
@@ -33,7 +33,7 @@ The following plugins provide preconfigured record producers for use with Care T
 -   Care Team Operations for Facilities
 -   Care Team Operations for Environmental Services
 
-For information on the features available with the Care Team Portal, see [Navigate the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-cto-using-portal.md).
+For information on the features available with the Care Team Portal, see [Navigate the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-using-portal.md).
 
 ## Accessing the Care Team Portal
 
@@ -53,5 +53,5 @@ Virtual Agent can be used to quickly obtain information, decide, and perform com
 
 To interact with Virtual Agent, simply select the chat window icon on the bottom right-hand corner of the screen.
 
-For more information on Virtual Agent, see [Virtual Agent as an application design element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/virtual-agent.md).
+For more information on Virtual Agent, see .
 

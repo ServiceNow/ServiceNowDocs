@@ -1,24 +1,24 @@
 ---
-title: Enable a non-persistent virtual desktop infrastructure \(NPVDI\) agent
+title: Enable a non-persistent virtual desktop infrastructure agent
 description: Configure an agent to enable it to work in a non-persistent virtual desktop infrastructure \(NPVDI\) environment. NPVDI agents are self-sufficient and start running checks immediately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/enable-npvdi-agent.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-08-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Enable a non-persistent virtual desktop infrastructure \(NPVDI\) agent
+# Enable a non-persistent virtual desktop infrastructure agent
 
 Configure an agent to enable it to work in a non-persistent virtual desktop infrastructure \(NPVDI\) environment. NPVDI agents are self-sufficient and start running checks immediately.
 
 ## Before you begin
 
-Ensure that you have set preliminary configurations in your ServiceNow instance, as described in [Prepare for agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md).
+Ensure that you have set preliminary configurations in your ServiceNow instance, as described in [Prepare agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md).
 
 Role required: agent\_client\_collector\_user
 
@@ -42,7 +42,7 @@ NPVDI machines have their file system and storage cleaned after each use. There 
       [HTTPS_PROXY=<proxy-url>]
     ```
 
-    For details on the MSI installation parameters, see [MSI installation parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/msi-installation-parameters.md).
+    For details on the MSI installation parameters, see [MSI installation parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/msi-installation-parameters.md).
 
     The following occurs during installation.
 
@@ -51,5 +51,5 @@ NPVDI machines have their file system and storage cleaned after each use. There 
     3.  The installer registers the agent binary as a Windows group policy \(GPO\) shutdown script.
     4.  The installer marks the agent as non-persistent, making it eligible for a golden image.
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

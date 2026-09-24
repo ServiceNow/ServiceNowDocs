@@ -3,11 +3,11 @@ title: Map Long-term memory category
 description: Map the created long-term memory category to the agents that should use it. Categories must be mapped individually to each agent; they are not applied globally by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/map-ltm-aia-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up long-term memory, AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Set up long-term memory, AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Map Long-term memory category
@@ -32,7 +32,7 @@ The mapping of LTM categories is done directly while creating an AI agent at the
 
 3.  In the manage long-term memory section, select categories that you want to map to your AI agent.
 
-    You will see the list of categories that were created in the AI Agent Memory Categories page. For more information, see [Create long-term memory category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ltm-category.md).
+    You will see the list of categories that were created in the AI Agent Memory Categories page. For more information, see .
 
 4.  Select **Save and continue**.
 

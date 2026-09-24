@@ -3,9 +3,9 @@ title: Add related list conditions
 description: Related list conditions allow you to include a relationship with another table in the filter. Related list conditions are supported in both List v3 and the Report interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-related-list-query.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Filters, Filters and breadcrumbs, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -82,7 +82,7 @@ The breadcrumb displays **Related List condition...**. Open the filter to view t
 
 **Note:** If List v3 is disabled for a list with a related list condition query in the default filter, the filter edit function is disabled. Remove the related list condition to enable list filter editing.
 
-**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md)
+**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_Filters.md)
 
 **Related topics**  
 

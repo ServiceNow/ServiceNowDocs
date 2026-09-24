@@ -3,11 +3,11 @@ title: Cisco Switch Wireless Access Point \(WAP\) discovery
 description: The ServiceNow Discovery application uses the Cisco WAPs extension to find Wireless Access Points \(WAPs\) that are controlled by a Cisco network switch. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/cisco-waps-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 The ServiceNow Discovery application uses the Cisco WAPs extension to find Wireless Access Points \(WAPs\) that are controlled by a Cisco network switch. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-This extension extends the Network Switch discovery pattern. For more information, see [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md).
+This extension extends the Network Switch discovery pattern. For more information, see [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md).
 
 Discovery uses the Cisco WAPs extension to run horizontal discovery.
 
@@ -26,7 +26,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Prerequisites
 
-For prerequisites related to network switch discovery, see [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md).
+For prerequisites related to network switch discovery, see [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md).
 
 In addition, these prerequisites must be in place for the Cisco WAPs extension:
 
@@ -63,5 +63,5 @@ These relationships are created to support Cisco WAPs discovery:
 |---|------------|---|
 |cmdb\_ci\_ip\_switch|Controller for :: Controlled by|cmdb\_ci\_wap\_network|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

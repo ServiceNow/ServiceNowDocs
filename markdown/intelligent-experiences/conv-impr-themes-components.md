@@ -3,11 +3,11 @@ title: Components installed with Conversation Improvement Themes
 description: Several types of components are part of Conversation Improvement Themes, including scheduled jobs, tables, system properties, and flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/conv-impr-themes-components.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Conversation Improvement Themes, Enable AI experiences]
+breadcrumb: [Reference, Conversation Improvement Themes, Analyzing AI effectiveness, Enable AI Experiences]
 ---
 
 # Components installed with Conversation Improvement Themes
@@ -155,5 +155,5 @@ If any of the theme skills are not part of the Azure Open AI provider, the fallb
 |---------------|-----------|
 |themesUtil|Primary utility function for Conversation Evaluator.|
 
-**Parent Topic:**[Reference for Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conv-impr-themes-reference.md)
+**Parent Topic:**[Reference for Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/conv-impr-themes-reference.md)
 

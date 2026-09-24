@@ -3,11 +3,11 @@ title: Bind alerts to CIs using CI identification
 description: Bind alerts to specific applications on hosts using event rules to ensure accurate tracking and to improve issue resolution speed—leading to efficient remediation and better alignment of alerts with the right resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/bind-alerts-CI-app-host-monitoring.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -67,13 +67,13 @@ If a matching Microsoft IIS Web Server CI is found on the identified host, the a
 
 7.  In the **Select an identifier** field, select an identifier for the class.
 
-    An identifier for a class is a set of rules that helps the system recognize and match CIs correctly. Think of it like a fingerprint for each type of CI \(such as a server, router, or application\). The identifier uses key attributes—like a serial number, hostname, or IP address—to make sure that when new data comes in, it gets linked to the right CI instead of creating duplicates. For more information on CI identification rule, see [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
+    An identifier for a class is a set of rules that helps the system recognize and match CIs correctly. Think of it like a fingerprint for each type of CI \(such as a server, router, or application\). The identifier uses key attributes—like a serial number, hostname, or IP address—to make sure that when new data comes in, it gets linked to the right CI instead of creating duplicates. For more information on CI identification rule, see [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
 
 8.  In the **Add value** field, add the exact value or specify the source field from which the value for the field must be populated.
 
     Add or remove fields using the add \(\[Omitted image "em-add-icon.png"\] Alt text: Add icon\) and the delete \(\[Omitted image "em-delete-icon.png"\] Alt text: Delete icon\) icons.
 
-    **Note:** While filling in the CI Class attributes, if you do not find the attribute you need, you can use the **Transform and Compose Alert Output** tab of the event rule to add the necessary key-value pair. For more information, see [Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMComposeOuput.md).
+    **Note:** While filling in the CI Class attributes, if you do not find the attribute you need, you can use the **Transform and Compose Alert Output** tab of the event rule to add the necessary key-value pair. For more information, see [Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMComposeOuput.md).
 
     The event rule transformation and composition is useful when relevant information exists in a different field but needs to be extracted or reassigned for proper alert processing. This is especially important when the required attribute is not directly available and must be manually defined.
 

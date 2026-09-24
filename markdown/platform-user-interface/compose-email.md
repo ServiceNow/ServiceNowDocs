@@ -3,9 +3,9 @@ title: Send emails from the full email composer
 description: Create and send an email from a separate workspace tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/compose-email.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -42,12 +42,12 @@ Role required: email\_composer
 
 7.  Create the email body.
 
-    You can insert a quick message in the email body. For more information, see [Insert a quick message from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-quick-message.md).
+    You can insert a quick message in the email body. For more information, see [Insert a quick message from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/add-quick-message.md).
 
-    You can attach a file to the email. For more information, see [Add a file to an email from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-email-attachment.md)
+    You can attach a file to the email. For more information, see [Add a file to an email from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/add-email-attachment.md)
 
 8.  Select **Send**.
 
-    Drafts save automatically after a set number of seconds. For more information on finding email drafts, see [Review email drafts from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/review-draft-emails.md).
+    Drafts save automatically after a set number of seconds. For more information on finding email drafts, see [Review email drafts from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/review-draft-emails.md).
 
 

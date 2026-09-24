@@ -3,11 +3,11 @@ title: Continual Improvement Workbench
 description: The Continual Improvement Workbench provides a consolidated view to plan, approve, monitor, and review improvements using a flexible user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/continual-improvement-workbench.html
-release: australia
+release: brazil
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overview, Continual Improvement Management, IT Service Management]
 ---
@@ -89,5 +89,5 @@ You can also move items or a group of items from one list to another. Moving imp
 
 **Note:** Only approved items can be moved from the Backlog list to the Implement list.
 
-**Parent Topic:**[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/get-started-cim.md)
+**Parent Topic:**[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/get-started-cim.md)
 

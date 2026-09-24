@@ -3,12 +3,12 @@ title: Benchmark KPIs
 description: You can enable or disable a benchmark KPI, and customize KPI conditions. Integration with Performance Analytics provides daily data collection and drill down capabilities on KPI data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c\_BenchKPIConfig-cf.html
-release: australia
+release: brazil
 product: Benchmarks
 classification: benchmarks
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Reference, Benchmarks, IT Service Management]
 ---
 
@@ -26,7 +26,7 @@ The participating customer count for each cohort bucket in Industry Category, Us
 
 ## Benchmarks KPI categories
 
-Benchmarks supports KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations, Conversational Interfaces, Success Dashboard, and Strategic Portfolio Management. For more information, see Benchmark KPIs.
+Benchmarks supports KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations, Conversational Interfaces, Success Dashboard, and Strategic Portfolio Management. For more information, see [Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
 
 ## ITSM KPIs
 
@@ -40,7 +40,7 @@ Description
 
 </th></tr></thead><tbody><tr><td colspan="2">
 
-**Note:** In some environments, KPIs involving resolved incidents may require further configuration to retrieve resolved incident data.
+**Note:** In some environments, KPIs involving resolved incidents may require further [configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/t_ConfigResIncBenchKPIs.md) to retrieve resolved incident data.
 
 </td></tr><tr><td>
 
@@ -273,7 +273,7 @@ Description
 
 \[The number of incidents and requests created using Virtual Agent \] / \[Total numbers of incidents and requests created\]
 
- The number of times, in percentage, the incident, or request was submitted using Virtual Agent. This is determined by the [deflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/deflections-virtual-agent.md) pattern added in the Virtual Agent topic.
+ The number of times, in percentage, the incident, or request was submitted using Virtual Agent. This is determined by the [deflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/deflections-virtual-agent.md) pattern added in the Virtual Agent topic.
 
 </td></tr><tr><td>
 
@@ -283,7 +283,7 @@ Description
 
 \[The number of incidents auto-resolved by Virtual Agent \] / \[Total number of incidents resolved\]
 
- The number of times, in percentage, incidents were automatically resolved using automated workflows or by [Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/auto-resolution-va.md).
+ The number of times, in percentage, incidents were automatically resolved using automated workflows or by [Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/auto-resolution-va.md).
 
 </td></tr></tbody>
 </table><table id="table_yws_1qy_fbb"><thead><tr><th>
@@ -310,7 +310,7 @@ Average customer satisfaction
 
 **Note:** This KPI uses the base system Customer Satisfaction Survey.
 
-If you're using a different survey to collect user feedback, you can customize the KPI definition.
+If you're using a different survey to collect user feedback, you can [customize the KPI definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/t_CustomBenchKPIConditions.md).
 
 </td></tr><tr><td>
 
@@ -653,11 +653,11 @@ Total number of times the ticket was submitted using the Virtual Agent. This is 
 Total number of tickets \(cases, incidents, requested items and so on\) submitted using the Service Catalog in Service Portal or NOW mobile.
 
 </td></tr></tbody>
-</table>For more information on Success Dashboard KPI definitions and formulas, see [ITSM Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md)
+</table>For more information on Success Dashboard KPI definitions and formulas, see [ITSM Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md)
 
 ## Strategic Portfolio Management KPIs
 
-Benchmarks supports Strategic Portfolio Management KPIs. For more information, see [SPM Benchmarking KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-benchmarking-kpis.md).
+Benchmarks supports Strategic Portfolio Management KPIs. For more information, see [SPM Benchmarking KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spm-benchmarking-kpis.md).
 
 ## Benchmarks data transfer
 

@@ -3,11 +3,11 @@ title: Access page
 description: View essential user login details, including the user name, user type, login type, the timestamp of the last login, and the host. By displaying these crucial pieces of information, users can easily identify themselves, understand their assigned user type and login method, and effectively manage their login information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/user-logins-card.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Device details pages, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -31,7 +31,5 @@ Some of the crucial information that the Access page offers are:
 |SID|Unique alphanumeric identifier used to identify devices.|
 |Loaded|Indicates whether the device's operating system or software is successfully initialized or started.|
 
-To return to the main access page, see [Device details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-workspace-user-details.md).
-
-**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
+**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

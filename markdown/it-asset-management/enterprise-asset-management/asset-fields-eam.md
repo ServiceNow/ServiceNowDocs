@@ -3,11 +3,11 @@ title: Asset fields for enterprise assets
 description: A detailed description of all asset fields in the Enterprise Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/asset-fields-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
 breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
@@ -251,7 +251,7 @@ RFID tag
 
 </td><td>
 
-Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. See [Zebra MotionWorks RFID integration for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-zebra-rfid-integration.md) for more information on RFID tags.**Note:** If this asset is a child of another asset and does not contain its own RFID tag, the **RFID tag** field populates with the RFID tag of the parent asset. If you remove the parent asset, the **RFID tag** field is cleared for this asset.
+Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. See [Zebra MotionWorks RFID integration for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-zebra-rfid-integration.md) for more information on RFID tags.**Note:** If this asset is a child of another asset and does not contain its own RFID tag, the **RFID tag** field populates with the RFID tag of the parent asset. If you remove the parent asset, the **RFID tag** field is cleared for this asset.
 
 </td></tr><tr><td>
 
@@ -517,7 +517,7 @@ RFID tag
 
 </td><td>
 
-Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. For more information on RFID tags, see [Zebra MotionWorks RFID integration for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-zebra-rfid-integration.md).
+Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. For more information on RFID tags, see [Zebra MotionWorks RFID integration for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-zebra-rfid-integration.md).
 
 </td></tr><tr><td>
 
@@ -655,7 +655,7 @@ Status
 
 Status of mapping RFID location data to the asset. If the data is successfully mapped to the asset, this field is set to **Matched**. If the data is not mapped to the asset, this field is set to **Unmatched**.**Important:** RFID location data can be mapped to the asset only if you select the **Active** option in the RFID form section.
 
- **Tip:** You can view and take action on the asset records that have an RFID **Status** of **Unmatched** by using the **Unmatched RFID tags** important action that appears on the **Overview** tab of the Enterprise asset estate view. For more information on the Enterprise asset estate view, see [Enterprise asset estate overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md).
+ **Tip:** You can view and take action on the asset records that have an RFID **Status** of **Unmatched** by using the **Unmatched RFID tags** important action that appears on the **Overview** tab of the Enterprise asset estate view. For more information on the Enterprise asset estate view, see [Enterprise asset estate overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md).
 
 </td></tr></tbody>
 </table><table id="table_ydm_ggh_nrb"><thead><tr><th>
@@ -681,7 +681,7 @@ Work notes are updated for the following cases: -   Updates to **Assigned To**, 
 |DaaS asset|Option that indicates if the given asset is a Device as a Service \(DaaS\) asset.|
 |DaaS account|DaaS account that the asset is leased to.|
 
-**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

@@ -3,12 +3,12 @@ title: General guidelines for agentic AI asset evaluation
 description: Learn about agentic evaluation runs and different recommendations for evaluating your agentic AI assets against datasets to check for completion, performance, and tool execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gg-aia-eval.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [agentic AI evaluation, AI agent testing, evaluation metrics, dataset creation, agentic execution logs]
-breadcrumb: [Explore, Evaluate agentic AI assets, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Execute a run, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # General guidelines for agentic AI asset evaluation
@@ -27,7 +27,7 @@ Run agentic evaluations at key points in your development and maintenance cycle 
 
 -   **Run after you have manually tested basic execution**
 
-    Before running an automated evaluation, manually test the execution of an [AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md) or [agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md). Manual testing helps you identify obvious issues and verify that the basic functionality works before investing time in automated evaluation.
+    Before running an automated evaluation, manually test the execution of an [AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-agent.md) or [agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md). Manual testing helps you identify obvious issues and verify that the basic functionality works before investing time in automated evaluation.
 
 -   **Run agentic evaluations when you make significant changes**
 

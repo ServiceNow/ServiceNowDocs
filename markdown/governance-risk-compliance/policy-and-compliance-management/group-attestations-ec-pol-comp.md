@@ -3,11 +3,11 @@ title: Group similar assessments in Employee Center
 description: Group the assessments that have the same entity or control objective based on metric type, and additionally the same entity, control objective, or category to provide response to similar assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/group-attestations-ec-pol-comp.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage GRC tasks from Employee Center, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -40,7 +40,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
 6.  Select a **Response type** in the Group assessments pop-up.
 
-    For more information on the response types, see [Group attestations using Same Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
+    For more information on the response types, see [Group attestations using Same Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
 
 7.  Select a criterion to group the assessments in the **Group by** list.
 

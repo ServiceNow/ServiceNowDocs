@@ -3,11 +3,11 @@ title: About the tag-based application service form
 description: The tag-based application service form provides a centralized location for viewing detailed information about a selected tag-based service, including its configuration and its associated configuration items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/tag-based-service-form.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tag mapping in the workspace, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---

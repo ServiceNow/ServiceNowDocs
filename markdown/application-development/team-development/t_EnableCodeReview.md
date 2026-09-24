@@ -3,11 +3,11 @@ title: Enable a code review
 description: You can require a code review of all changes pushed to an instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_EnableCodeReview.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Team Development, Planning your application, Building applications]
 ---

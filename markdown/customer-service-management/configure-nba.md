@@ -3,10 +3,10 @@ title: Recommended Actions
 description: Use Recommended Actions to display relevant actions to agents based on a context of a record or recommend a value for a field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-nba.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -74,8 +74,20 @@ A decision tree is a guided flow for agents to follow. A decision tree is a mult
 
 Rina created a case to report that their phone isn’t charging. The agent assigned to the case is recommended to use a decision tree that asks a series of questions to troubleshoot the issue with the phone and provides a guidance in the end.
 
+</td></tr><tr><td>
+
+**Playbook**
+
+</td><td>
+
+A playbook is an interactive, step-by-step guided workflow that helps agents make decisions and resolve issues. Playbooks appear as action cards in the Recommended Actions panel. Agents can launch and execute a playbook inline without switching applications. For more information, see [Playbooks in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-playbooks.md).
+
+</td><td>
+
+An agent handling a complex billing dispute is recommended a playbook that walks through verification steps, escalation options, and resolution actions in the Recommended Actions panel.
+
 </td></tr></tbody>
-</table>Actions of the type **Guidance** and **Guided Decision Tree** are displayed as cards within the contextual side panel.
+</table>Actions of the type **Guidance**, **Guided Decision Tree**, and **Playbook** are displayed as cards within the contextual side panel.
 
 \[Omitted image "ra-guidance-type.png"\] Alt text: Guidance cards recommending the agent to view and attach a knowledge article or attach and add the link in comment as primary action
 
@@ -83,7 +95,7 @@ Actions of the type **Field Recommendation** are auto-filled in the fields or ap
 
 \[Omitted image "ra-field-recommendations-short-desc.png"\] Alt text: Case form showing highlighted field recommendations under the appropriate fields. For example, based on short description, service desk is the recommended field for assignment group.
 
-For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-config-recommendations.md).
+For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-config-recommendations.md).
 
 ## Elements for configuring recommended actions
 
@@ -91,25 +103,25 @@ Configuring a recommended action is a multi-step process that involves:
 
 -   **Context**
 
-    A context enables agents to see recommended actions for a record in that table when certain rules are met. For more information, see [Contexts in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-contexts.md).
+    A context enables agents to see recommended actions for a record in that table when certain rules are met. For more information, see [Contexts in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-contexts.md).
 
 -   **Context input**
 
-    A context input enables you to utilize the entities other than the context table to define rules, recommendations, and resource generators so that recommendations are updated dynamically as the context changes. For more information, see [Context inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-dynamic-context-inputs.md).
+    A context input enables you to utilize the entities other than the context table to define rules, recommendations, and resource generators so that recommendations are updated dynamically as the context changes. For more information, see [Context inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-dynamic-context-inputs.md).
 
 -   **Rule**
 
-    A rule is a set of conditions that applies to a context and determines when a recommended action appears for records in the context table. For more information, see [Rules in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-rules.md).
+    A rule is a set of conditions that applies to a context and determines when a recommended action appears for records in the context table. For more information, see [Rules in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-rules.md).
 
 -   **Recommendation**
 
-    A recommendation is a way to suggest an action to an agent. You can create recommendations with action types of guidance and field recommendation. For more information, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-recommendations.md).
+    A recommendation is a way to suggest an action to an agent. You can create recommendations with action types of guidance, field recommendation, and playbook. For more information, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-recommendations.md).
 
--   **Resource generators**
+-   **Resource generator**
 
-    Resource generators provide helpful information for guidance and field recommendations. The resource generators use decision table, flow, scripts, Predictive Intelligence framework, or AI search capabilities to generate resources. For example, a resource generator can provide a knowledge article link that can then be used as a recommended action for a case. For more information, see [Resource generators in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-resource-generators.md).
+    Resource generators provide helpful information for guidance and field recommendations. The resource generators use decision table, flow, scripts, Predictive Intelligence framework, or AI search capabilities to generate resources. For example, a resource generator can provide a knowledge article link that can then be used as a recommended action for a case. For more information, see [Resource generators in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-resource-generators.md).
 
--   **Arbitration parameters**
+-   **Arbitration parameter**
 
     Arbitration parameters determine the frequency of issues or the priority order of the recommended actions so that agents get the guidance that they must help resolve customer issues.
 

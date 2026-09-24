@@ -3,9 +3,9 @@ title: Configure a parameterized list screen
 description: Configure a list screen to query a user for a parameter, which the screen uses to filter the records that appear on the screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-param-list.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Parametrized list screens, List screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -61,7 +61,7 @@ Creating a parameterized list is similar to creating a standard list. In additio
 
 6.  In the **Icon** section either select an existing icon or create an icon.
 
-    This icon displays in the launcher screen when you add it to your list screen. For more information about creating icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
+    This icon displays in the launcher screen when you add it to your list screen. For more information about creating icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-icon.md).
 
 7.  In the **Screen segments**section, select **New**.
 
@@ -95,7 +95,7 @@ Creating a parameterized list is similar to creating a standard list. In additio
 
 12. Complete the **Properties** and **Data** sections as needed.
 
-    For more information about creating a data item, see [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-data-item.md).
+    For more information about creating a data item, see [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-create-data-item.md).
 
 13. In the **Parameters** section, select **New**.
 
@@ -274,13 +274,13 @@ Determine what specific values you want to pass to this screen.
 
 22. Select **Save**.
 
-23. We have added support for parameterized data item with an input form screen. For more details refer to [Parametrized data item support for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-paramtrzed-data-item-screen.md).
+23. We have added support for parameterized data item with an input form screen. For more details refer to [Parametrized data item support for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-paramtrzed-data-item-screen.md).
 
     These steps will allow you to configure an input form screen that contains the inputs and variables that you want to use as part of the data item query condition. This feature is configured in the web-based UI instead of Mobile App Builder.
 
     **Note:**
 
-    The input form screen can contain only inputs, only variables, or both inputs and variables for use as part of the data item query condition. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
+    The input form screen can contain only inputs, only variables, or both inputs and variables for use as part of the data item query condition. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/parameter-screen-config.md).
 
     1.  Navigate to the target list, For example, if you want to configure a parameterized data item list screen:
 

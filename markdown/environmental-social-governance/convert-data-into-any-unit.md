@@ -3,9 +3,9 @@ title: Convert metric data to a different unit
 description: Convert any metric data into a preferred reporting unit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/convert-data-into-any-unit.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -43,5 +43,5 @@ The preferred reporting unit for any data is specified in a metric definition. W
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-grc-metrics.md)
 

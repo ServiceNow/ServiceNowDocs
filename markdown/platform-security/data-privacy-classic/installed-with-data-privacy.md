@@ -3,11 +3,11 @@ title: Installed with data privacy \(Classic\)
 description: Learn about the components installed with the data privacy plugin \(com.glide.data\_privacy\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/installed-with-data-privacy.html
-release: australia
+release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data privacy \(Classic\), Data Privacy, Platform Privacy]
 ---

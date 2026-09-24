@@ -3,11 +3,11 @@ title: Create operational resource assignments
 description: Create operational resource assignments to allocate a portion of team or resource capacity for operational work such as administration work, meetings, trainings, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/create-op-rsrc-asgnmnts-ppm.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Migration of resource plans and cost plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 2.  On the Resource Assignment form, fill in the fields.
 
-    For a description of the field names, see [Resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/resource-assignment-form.md).
+    For a description of the field names, see [Resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/resource-assignment-form.md).
 
 3.  Select **Submit**.
 
@@ -35,5 +35,5 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 Operational resource assignment is created. You can navigate to **All** &gt; **Resource Assignment** &gt; **Operational Resource Assignments** view the list of operational resource assignments.
 
-**Parent Topic:**[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
+**Parent Topic:**[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
 

@@ -1,104 +1,86 @@
 ---
 title: Continuous Authorization and Monitoring release notes
-description: The ServiceNow Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and walking through the seven stages of the NIST Risk Management Framework. Continuous Authorization and Monitoring was enhanced and updated in the Australia release.The ServiceNow Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and walking through the seven stages of the NIST Risk Management Framework. Continuous Authorization and Monitoring was enhanced and updated in the Australia release.
+description: The ServiceNow Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and completing the seven stages of the NIST Risk Management Framework. Release notes are organized by version.Continuous Authorization and Monitoring streamlines authorization package management with shared document versioning and approvals, AI-powered summarization, OSCAL import/export enhancement, and a dedicated POAM user role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/grc-cam-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+keywords: [continuous authorization, monitoring, NIST RMF, release notes, CAM version 23.0.1, OSCAL, POAM, authorization package]
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Continuous Authorization and Monitoring release notes
 
-The ServiceNow® Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and walking through the seven stages of the NIST Risk Management Framework. Continuous Authorization and Monitoring was enhanced and updated in the Australia release.
+The ServiceNow® Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and completing the seven stages of the NIST Risk Management Framework. Release notes are organized by version.
 
 ## About Continuous Authorization and Monitoring
 
--   Import and export OSCAL data for Assessment Plan \(AP\) and Assessment Results \(AR\) formats to streamline compliance reporting.
--   Skip the attestation stage for all controls in a package and move controls directly to the Monitor step to accelerate package progression.
--   Populate additional control fields when importing and exporting OSCAL data for SSP, AP, and AR formats to capture richer compliance details.
--   Raise control tailoring requests to make incremental changes to control sets in authorized packages without resetting the entire package life cycle.
+-   Applies a standardized approach to automate the NIST Risk Management Framework, a U.S. Federal mandate for information system security.
+-   Defines clear accountability across System Owners, Authorizing Officials, Security Control Assessors, Information System Security Officers, and other roles
+-   Provides continuous monitoring and centralized management of NIST RMF compliance, including control implementation and assessment, authorization boundaries and impact levels, and Plans of Action &amp; Milestones \(POA&amp;M\)
 
-See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-cam-landing-page.md) for more information.
+See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-cam-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
     Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/grc-rn-landing.md)
 
-## Australia
+## September 2026
 
-The ServiceNow® Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and walking through the seven stages of the NIST Risk Management Framework. Continuous Authorization and Monitoring was enhanced and updated in the Australia release.
+Continuous Authorization and Monitoring streamlines authorization package management with shared document versioning and approvals, AI-powered summarization, OSCAL import/export enhancement, and a dedicated POAM user role.
 
 ### What's new
 
--   **[Support for exporting and importing the OSCAL Assessment Results \(AR\) model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/oscal-cam-ws.md)**
+-   **[Document reuse and version control across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/c_cam_document_management_system.md)**
 
-    After upgrading to version 22.3.3, Continuous Authorization and Monitoring supports import and export of OSCAL data for Assessment Results \(AR\) format.
+    Link documents as shared resources across authorization packages, boundaries, and engagements. Set approval workflows to control who reviews and activates documents before they take effect.
 
--   **[Skip attestations configuration for controls within a package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/skip-attestations.md)**
+-   **[Analyze documents with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_use_smart_docs_with_documents.md)**
 
-    After upgrading to version 22.3.3, skip the attestation stage at the package level and move controls directly from Draft to Review without completing the attestation workflow.
+    Summarize documents, generate frequently asked questions with answers, or ask specific questions about document content, all from the Documents side panel in an authorization package, boundary, or engagement.
 
--   **[Control tailoring request enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-control-tailoring.md)**
+-   **[Voice-based document analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_use_smart_docs_with_documents.md)**
 
-    After upgrading to version 22.3.3, control tailoring requests support changes to overlay controls. You can add new overlay controls or modify existing ones within a control tailoring request.
+    Generate spoken audio summaries of documents and conduct voice-based Q&amp;A using the Voice Assist panel, from the Documents side panel in an authorization package, boundary, or engagement.
 
--   **[OSCAL export and import enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/oscal-cam-ws.md)**
+-   **[Connect documents to external cloud storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_connect_documents_to_external_cloud.md)**
 
-    After upgrading to version 22.0.2, OSCAL import and export support additional details for various records, including status, frequency, weighting, implementation statement, control tailoring requests, overlays, and activities.
+    Link documents from Google Drive, OneDrive, or SharePoint and keep them synchronized with authorization packages, boundaries, and engagements. Pull updates from cloud storage or push approved versions back, without manual downloads and uploads.
 
--   **[Support for exporting and importing the OSCAL Assessment Plan \(AP\) model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/oscal-cam-ws.md)**
+-   **[AI-generated authorization package summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_generate_authorization_package_summary.md)**
 
-    After upgrading to version 22.0.2, Continuous Authorization and Monitoring supports import and export of OSCAL data for Assessment Plan \(AP\) format.
+    Using generative AI, the Authorization package summarization skill generates a summary of authorization package records. Each summary consolidates system purpose, impact level, operational status, and open POA&amp;M counts to show the package's current state.
 
--   **[Request control tailoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-control-tailoring.md)**
+-   **[POAM user role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/cam-roles-list.md)**
 
-    After upgrading to version 22.0.2, make incremental changes to control sets while preserving the state of unchanged controls without having to reset the entire package life cycle. Supported modifications include adding new controls, marking controls as not applicable, changing control allocation \(baseline to inherited or hybrid\), and modifying inheritance configurations.
+    Users with the POAM User role can view and update their assigned Plan of Action and Milestones \(POA&amp;Ms\), including viewing and updating tasks, accepting or rejecting acceptance tasks, and completing milestone tasks.
 
--   **[Inherit from multiple providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/inherit-from-multiple-providers.md)**
-
-    After upgrading to version 22.0.2, Controls can inherit individual control requirements from multiple Common Control Providers \(CCPs\) across different authorization packages. Previously, inheritance was limited to a single provider per control, which required creating duplicate inherited controls when requirements came from different sources.
-
--   **[Control grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-controls-in-grid-view.md)**
-
-    After upgrading to version 22.0.2, edit implementation statements and attestation respondents directly in a hierarchical data grid through the Controls tab in an authorization package.
-
--   **[Control tests grid view in Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-control-tests-in-grid-view.md)**
-
-    After upgrading to version 22.0.2, toggle between traditional related list and hierarchical data grid on the Control tests tab. Changes to assessment procedure effectiveness automatically cascade to parent control test effectiveness.
-
-    Package detail forms now use a structured vertical layout instead of the previous horizontal tab arrangement.
-
--   **[CAM workflow configuration enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/cam-workflow-configurator.md)**
-
-    After upgrading to version 22.0.2, configure control button visibility, UI page access, and related list actions across different workflow steps. Previously, related list actions \(such as add or remove buttons for information types or baseline control actions\) required manual scripting to support custom workflows.
-
-    The following new state model attributes have been introduced:
-
-    -   Required Authorization Documents Page
-    -   Required Overlay Page
-    -   Required Information Type Actions
-    -   Required Baseline Actions
-    -   Required Overlay Actions
-    -   Request Control Tailoring
-    -   Generate OSCAL AP
-    -   Generate OSCAL AR
 
 ### What's changed
 
--   **[Properties page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/cam-components-installed.md)**
+-   **[OSCAL enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/oscal-cam-ws.md)**
 
-    The Properties page includes new configuration options:
+    The OSCAL enhancements include:
 
-    -   Use **Homepage Title** to customize the workspace homepage name.
-    -   The **Days Before Next Authorization** property is now available on the UI page.
+    -   Import system-generated authority documents \(SSP, POA&amp;M, SAR, SAP, ATO Letter, Executive Summary reports\) and user-attached files at Authorization Package and Authorization Boundary levels during OSCAL import.
+    -   Control objective IDs include source values during OSCAL import and export.
+    -   Policy fields are included during OSCAL import and export.
+
+### What's deprecated or removed
+
+### Now LLM Service Plugin information
+
+-   **Plugins planned for deprecation**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 

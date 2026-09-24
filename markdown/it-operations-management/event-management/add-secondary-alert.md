@@ -3,11 +3,11 @@ title: Add secondary alert manually to an existing alert group
 description: Add any relevant alert discovered during the review of an automated alert group as a secondary alert to improve the group's completeness and utility for incident troubleshooting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/add-secondary-alert.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manual alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -45,5 +45,5 @@ The alert you select to add to a new group may already be part of another group.
 
 The alert is added as a secondary alert to the selected parent alert.
 
-**Parent Topic:**[Manual alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manual-alert-grouping.md)
+**Parent Topic:**[Manual alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/manual-alert-grouping.md)
 

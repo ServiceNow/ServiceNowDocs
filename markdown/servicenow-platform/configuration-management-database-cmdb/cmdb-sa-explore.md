@@ -3,11 +3,11 @@ title: Exploring CMDB success advisor
 description: Learn about CMDB success advisor and review the benefits it can provide for different users in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-explore.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -126,7 +126,7 @@ For SAM, advisor dashboard scope is defined by software products.
 
 </td><td>
 
-Use-case-driven CMDB configuration. To learn more, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md), [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-config-settings.md), and [CMDB success advisor for SAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-sam-config-settings.md)
+Use-case-driven CMDB configuration. To learn more, see [CMDB success advisor for Data Foundations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.md), [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-ham-config-settings.md), and [CMDB success advisor for SAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-sam-config-settings.md)
 
 </td><td>
 
@@ -142,7 +142,7 @@ For SAM, view software install data quality metrics by software product, publish
 
 </td><td>
 
-Dashboard with consolidated insights and metricsTo learn more, see [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md), [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-dashboard.md), and [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-sam-dashboard.md)
+Dashboard with consolidated insights and metricsTo learn more, see [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md), [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-ham-dashboard.md), and [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-sam-dashboard.md)
 
 </td><td>
 
@@ -160,7 +160,7 @@ For SAM, track KPIs for missing edition, version, cloud license, environment, an
 
 </td><td>
 
-KPI details access from the dashboard for metric monitoring, remediation tracking, and guided resolution stepsTo learn more, see [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md), [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-dashboard.md), and [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-sam-dashboard.md)
+KPI details access from the dashboard for metric monitoring, remediation tracking, and guided resolution stepsTo learn more, see [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md), [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-ham-dashboard.md), and [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-sam-dashboard.md)
 
 </td><td>
 
@@ -178,7 +178,7 @@ For SAM, address stale CIs and installs on duplicate CIs.
 
 </td><td>
 
-Remediation actions panel available for a chart in the dashboardTo learn more, see [Improving CMDB data quality for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.md), [Improving CMDB data quality for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-remediation.md), and [Improving CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-sam-remediation.md)
+Remediation actions panel available for a chart in the dashboardTo learn more, see [Improving CMDB data quality for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.md), [Improving CMDB data quality for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-ham-remediation.md), and [Improving CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-sam-remediation.md)
 
 </td><td>
 
@@ -194,7 +194,7 @@ For HAM, configure synchronization rules, asset creation rules, and status mappi
 
 </td><td>
 
-Settings summary for gap analysis and configuration guidanceTo learn more, see [Analyze CMDB settings for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-analyze-settings.md) and [Analyzing CMDB settings for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-analyze-settings.md)
+Settings summary for gap analysis and configuration guidanceTo learn more, see [Analyze CMDB settings for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-analyze-settings.md) and [Analyzing CMDB settings for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-ham-analyze-settings.md)
 
 </td><td>
 
@@ -208,7 +208,7 @@ For HAM, review SGC and Discovery pattern rankings for hardware model categories
 
 </td><td>
 
-Data integrations summary for reviewing and evaluating integration sourcesTo learn more, see [Analyzing data integrations for improving Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-data-integrations.md) and [Analyzing data integrations for improving HAM data coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-data-integrations.md)
+Data integrations summary for reviewing and evaluating integration sourcesTo learn more, see [Analyzing data integrations for improving Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-data-integrations.md) and [Analyzing data integrations for improving HAM data coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-ham-data-integrations.md)
 
 </td><td>
 
@@ -219,15 +219,15 @@ CMDB administrator
 
 You can use CMDB success advisor for the following business outcomes:
 
--   Data Foundations: Improve data quality across the principal classes your organization relies on for incidents, changes, and problems. Monitor attribute completeness, detect stale and duplicate records, and evaluate integration coverage to verify the right data sources are populating your CMDB. For more information, see [Using CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df.md).
--   HAM: Improve hardware data quality across model categories such as computers, servers, and printers. Identify and resolve missing model IDs, serial numbers, and locations, eliminate duplicate CIs and align asset and CI states to support accurate life cycle tracking and financial reporting. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-ham-use.md).
--   Software Asset Management \(SAM\): Improve software install data quality across selected software products. Identify and resolve installs missing edition, version, or cloud license details, eliminate installs on duplicate CIs, and verify virtual server-to-host CI relationships to support licensing compliance. For more information, see [Using CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cmdb-sa-sam-use.md).
+-   Data Foundations: Improve data quality across the principal classes your organization relies on for incidents, changes, and problems. Monitor attribute completeness, detect stale and duplicate records, and evaluate integration coverage to verify the right data sources are populating your CMDB. For more information, see [Using CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df.md).
+-   HAM: Improve hardware data quality across model categories such as computers, servers, and printers. Identify and resolve missing model IDs, serial numbers, and locations, eliminate duplicate CIs and align asset and CI states to support accurate life cycle tracking and financial reporting. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-ham-use.md).
+-   Software Asset Management \(SAM\): Improve software install data quality across selected software products. Identify and resolve installs missing edition, version, or cloud license details, eliminate installs on duplicate CIs, and verify virtual server-to-host CI relationships to support licensing compliance. For more information, see [Using CMDB success advisor for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-sam-use.md).
 
 ## What to explore next
 
 To learn more about configuring and using CMDB success advisor for supported business outcomes, see:
 
--   [Configuring CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-configuring.md)
--   [Supported business outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-outcomes.md)
--   [CMDB success advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-reference.md)
+-   [Configuring CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-configuring.md)
+-   [Supported business outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-outcomes.md)
+-   [CMDB success advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-reference.md)
 

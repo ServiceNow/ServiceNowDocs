@@ -3,11 +3,11 @@ title: Set up dynamic approval configuration on a policy record
 description: A policy is a set of guidelines and rules established by a business organization to govern its operations. Creating an approval configuration record for a policy enables you to define one or more approval levels and approval rules based on various dynamic conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/dynamic-approval-config-for-a-policy.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
 
 A policy is a set of guidelines and rules established by a business organization to govern its operations. Creating an approval configuration record for a policy enables you to define one or more approval levels and approval rules based on various dynamic conditions.
 
-Beginning with the Australia release, you can set up dynamic approval configuration on a policy record. The policy table consists of the policy records that regulate the status of the policies. Before implementing a policy, it goes through a review and approval process.
+Beginning with the Brazil release, you can set up dynamic approval configuration on a policy record. The policy table consists of the policy records that regulate the status of the policies. Before implementing a policy, it goes through a review and approval process.
 
 Setting up dynamic approval configuration on a policy record enables you to define multiple levels of approvals based on various dynamic conditions such as policy type, state, and owner that are related to the policy fields. When you set up dynamic approval configuration on a policy record, the approvers for a policy are added dynamically to the policy record.
 
@@ -63,13 +63,13 @@ You can set up various approval rules using the Approval Configurator:
 
 To set up approval configuration on a record, see the following sections.
 
-1.  To set up an approval configuration record, see [Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md).
-2.  To assign an approval level for the approval configuration record, see [Assign an approval level for the approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-levels.md).
-3.  To set up an approval rule for the approval level in the approval configuration record, see [Set up an approval rule for the approval level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-rules.md).
+1.  To set up an approval configuration record, see [Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md).
+2.  To assign an approval level for the approval configuration record, see [Assign an approval level for the approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-levels.md).
+3.  To set up an approval rule for the approval level in the approval configuration record, see [Set up an approval rule for the approval level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-rules.md).
 
 **Note:**
 
-For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
+For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
 
 ## Roles required for creating policy approval rules
 

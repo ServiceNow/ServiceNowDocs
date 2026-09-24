@@ -3,11 +3,11 @@ title: Define an SCCM configuration
 description: To create catalog items for SCCM software deployment or to configure your instance to revoke software through SCCM, you must first associate that software with a collection through an SCCM configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_ConfigureSCCMCollections.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring SCCM, Client software distribution from SCCM, Client Software Distribution, Orchestration applications, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
 ## About this task
 
-The SCCM configuration process associates software with SCCM collections. To deploy software from an SCCM server, the user or device must be a member of an SCCM collection associated with an **install** deployment. Client Software Distribution \(CSD\) allows you to [revoke unentitled software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_SCCMSoftwareRevocation.md) using an SCCM server when that software can be removed using an **uninstall** collection. Users requesting revokable software from the Service Catalog also have the ability to define lease start and stop dates and request lease extensions.
+The SCCM configuration process associates software with SCCM collections. To deploy software from an SCCM server, the user or device must be a member of an SCCM collection associated with an **install** deployment. Client Software Distribution \(CSD\) allows you to [revoke unentitled software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_SCCMSoftwareRevocation.md) using an SCCM server when that software can be removed using an **uninstall** collection. Users requesting revokable software from the Service Catalog also have the ability to define lease start and stop dates and request lease extensions.
 
 \[Omitted image "SCCMTableRelationshipsDiagram.png"\] Alt text: SCCM table references
 
@@ -93,5 +93,5 @@ Discovery model that links the unentitled software installation with the SCCM co
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/configuring-sccm.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/configuring-sccm.md)
 

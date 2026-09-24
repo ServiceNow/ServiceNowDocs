@@ -3,11 +3,11 @@ title: Service Mapping commands not requiring a privileged user
 description: Most of commands utilized by Service Mapping for discovery and mapping do not require elevated rights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/r\_NonSudoCommands.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 40
 breadcrumb: [Prerequisites for performing top-down discovery, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -3805,10 +3805,10 @@ This command is used only if you need to discover jobs.
 |`tibemsadmin`|**-server tcp://+\[computer\_system.primaryManagementIP\]:\[port\] -user \[username\] -password \[password\] -script \[script\]**|Connects to the EMS administrator and gets the list of EMS Queue consumers.|
 |`echo`|Various options|\(On Windows only\) Prints strings in the output.|
 
-**Parent Topic:**[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prerequisites-service-mapping.md)
+**Parent Topic:**[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/prerequisites-service-mapping.md)
 
 **Related topics**  
 
 
-[Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md)
+[Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md)
 

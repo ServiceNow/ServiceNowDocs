@@ -3,11 +3,11 @@ title: Iteration goals and work item goals in EAP
 description: Within Enterprise Agile Planning, define PI-level or sprint level objectives or associate work items with enterprise goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/iteration-goals-in-eap.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ During planning interval \(PI\) or sprint planning, create functional goals for 
 
 \[Omitted image "eap-iteration-goals.gif"\] Alt text: Iteration goals in EAP.
 
-To learn how to create iteration goals in EAP, see [Create iteration goals for a PI or sprint in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-iteration-goals-for-a-pi-or-sprint-in-eap.md).
+To learn how to create iteration goals in EAP, see [Create iteration goals for a PI or sprint in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-iteration-goals-for-a-pi-or-sprint-in-eap.md).
 
 ## Work item goals
 

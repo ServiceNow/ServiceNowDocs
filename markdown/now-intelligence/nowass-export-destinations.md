@@ -3,9 +3,9 @@ title: Export destinations
 description: When you export a dashboard or data visualization in the ServiceNow Otto panel, you have to specify the destination.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/nowass-export-destinations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export dashboards and visualizations, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -24,7 +24,7 @@ Specify recipients for an email. If you select scheduled email, also specify the
 
 **Note:** If you select **Download** and the export takes longer than 10 seconds, you receive the export as an email attachment instead of a download. Thus the export completes asynchronously, freeing up the ServiceNow Otto panel.
 
-**Parent Topic:**[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 

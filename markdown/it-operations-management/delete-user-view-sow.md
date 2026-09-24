@@ -3,9 +3,9 @@ title: Delete a user view in Service Operations Workspace
 description: Delete a Service Operations Workspace user view you no longer need. You perform this action from the Event Management menu, outside of Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/delete-user-view-sow.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configure, ITOM AIOps, IT Operations Management]
 ---
@@ -33,5 +33,5 @@ Role required: evt\_mgmt\_admin
     \[Omitted image "sow-delete-view.png"\] Alt text: Option to delete a view
 
 
-**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/workspace-dashboard-use.md)
 

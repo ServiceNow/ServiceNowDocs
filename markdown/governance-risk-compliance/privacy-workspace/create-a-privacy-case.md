@@ -3,11 +3,11 @@ title: Create a privacy case in the Privacy Workspace
 description: Report any privacy breaches and complaints to help reduce and avert losses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-a-privacy-case.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Report a privacy case, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -34,13 +34,13 @@ At times, users can also report a case to the privacy teams using offline modes 
 
 4.  On the form, fill in the fields.
 
-    See the [privacy new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-new-case-form.md) for an explanation of each field.
+    See the [privacy new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-new-case-form.md) for an explanation of each field.
 
 5.  Select **Save**.
 
 
--   **[Privacy new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-new-case-form.md)**  
+-   **[Privacy new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-new-case-form.md)**  
 On the new privacy case form, fill in the fields.
 
-**Parent Topic:**[Reporting a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/reporting-a-privacy-case.md)
+**Parent Topic:**[Reporting a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/reporting-a-privacy-case.md)
 

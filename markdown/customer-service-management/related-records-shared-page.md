@@ -3,9 +3,9 @@ title: Related records shared page
 description: The Related Records shared page enables you to view records that are related to the current record or playbook activity in the contextual side panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/related-records-shared-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic related records, Configure dynamic related records, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---

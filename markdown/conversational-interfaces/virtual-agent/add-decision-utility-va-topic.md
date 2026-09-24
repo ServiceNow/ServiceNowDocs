@@ -3,13 +3,13 @@ title: Branch a Virtual Agent conversation with a Decision utility
 description: Your conversations may need to branch depending on end user input or choices. Use the Decision utility to branch the conversation when certain conditions are met.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-decision-utility-va-topic.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating a Virtual Agent topic, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Creating a Virtual Agent topic, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Branch a Virtual Agent conversation with a Decision utility
@@ -18,7 +18,7 @@ Your conversations may need to branch depending on end user input or choices. Us
 
 ## Before you begin
 
-For more information about the Decision utility, see [Decision utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-decision.md).
+For more information about the Decision utility, see [Decision utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-decision.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -28,7 +28,7 @@ Role required: virtual\_agent\_admin or admin
 
 2.  Select the **Asset library** tab.
 
-3.  In the Asset library, open a topic and view the **Flow** tab.
+3.  Open a topic and view the **Flow** tab.
 
 4.  Drag the **Decision** utility onto the canvas.
 
@@ -66,7 +66,7 @@ Condition
 
 </td><td>
 
-Expression logic to specify a condition for following this branch in the conversation. The condition must evaluate to true.-   **Condition**: Use the [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to add or edit conditions.
+Expression logic to specify a condition for following this branch in the conversation. The condition must evaluate to true.-   **Condition**: Use the [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md) to add or edit conditions.
 -   **Script**: Use the script editor to create or edit a script that contains a condition statement.
 
 
@@ -76,5 +76,5 @@ Expression logic to specify a condition for following this branch in the convers
 9.  When you're finished with the topic, Select **Save** in the topic header bar.
 
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

@@ -3,11 +3,11 @@ title: Kafka Producer step
 description: Create an action that publishes events to a topic in your Kafka environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/kafka-producer-action-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -84,7 +84,7 @@ Schema
 
 </td><td>
 
-Reference to a schema table. Select a schema from the list. For information on schemas, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/schema-management.md).**Note:** The message you're sending in the **Message** field must adhere to the structure of the selected schema.
+Reference to a schema table. Select a schema from the list. For information on schemas, see .**Note:** The message you're sending in the **Message** field must adhere to the structure of the selected schema.
 
 </td></tr><tr><td>
 
@@ -110,5 +110,5 @@ In this example, the step sends a message recording the creation of an incident.
 |Step Status &gt; Code|Integer data pill indicating whether the step produced an error. By default, a value of 1 indicates that the step produced an error. A value of 0 indicates that the step ran successfully. You can't customize these codes.|Integer|
 |Step Status &gt; Message|String data pill containing the error message produced by the step or system operation. You can't customize this message.|String|
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/steps.md)
 

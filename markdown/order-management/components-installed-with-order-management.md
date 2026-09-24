@@ -3,9 +3,9 @@ title: Components installed with Order Management
 description: Several types of components are installed with activation of the Order Management plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-with-order-management.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -502,5 +502,5 @@ Order Line Item
 Represents the individual items in a customer order, including product, pricing, quantity, and shipping details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-reference.md)
 

@@ -3,7 +3,7 @@ title: AWA roles
 description: These roles are available for the application
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/roles-by-product/roles\_awa.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2024-03-11"
 reading_time_minutes: 1
@@ -121,5 +121,5 @@ None.
 None.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/roles-by-product/roles-for-all-products.md)
+</table>**Parent Topic:**[Roles for all products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/roles-by-product/roles-for-all-products.md)
 

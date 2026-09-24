@@ -3,9 +3,9 @@ title: Create and map detection rules
 description: Create detection rules and map them against the tactics and techniques. With this mapping, you can see the coverage for the detection rules in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/create-detection-rules.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -27,7 +27,7 @@ Detection rule mapping enables your organization to see which detection rules ar
 
 The primary purpose of the mapping is to provide visibility if your organization has the necessary detection rules to identify when an alert or event is triggered as a result of an attack by an adversary using a specific technique.
 
-If you do not intend to use the base system SIEM auto-extraction rules, then enable the automatic rollup of MITRE-ATT&amp;CK TTPs based on the detection rule mapping. You can populate the alert or event rule that triggers the security incident in the Alert Rule name field. You can also populate the Alert Rule name field by using SIEM integration, email parsing, manual creation, etc. For more information, see [Rollup MITRE-ATT&amp;CK information from detection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/rollup-mitre-attack-information-detection-rules.md).
+If you do not intend to use the base system SIEM auto-extraction rules, then enable the automatic rollup of MITRE-ATT&amp;CK TTPs based on the detection rule mapping. You can populate the alert or event rule that triggers the security incident in the Alert Rule name field. You can also populate the Alert Rule name field by using SIEM integration, email parsing, manual creation, etc. For more information, see [Rollup MITRE-ATT&amp;CK information from detection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/rollup-mitre-attack-information-detection-rules.md).
 
 **Note:**
 
@@ -95,7 +95,7 @@ The detection rules feature has been updated to include mapping a single tactic 
         The following illustration shows how to upload the spreadsheet, preview the data, review any errors, and complete the detection rule mapping import process.
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 

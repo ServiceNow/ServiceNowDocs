@@ -3,11 +3,11 @@ title: Configure a user registration configuration for external users
 description: Create a user registration configuration record to bootstrap the onboarding process of external users to custom ServiceNow applications. This form guides the external users through the self-registration process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/external-user-configuration.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Self-register to ServiceNow instance, Authentication, Access Management]
 ---
@@ -19,7 +19,7 @@ Create a user registration configuration record to bootstrap the onboarding proc
 ## Before you begin
 
 -   Role required: external\_user\_self\_registration\_admin
--   [Activate External User Self-Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/external-user-registration-plugin.md)
+-   [Activate External User Self-Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/external-user-registration-plugin.md)
 
 ## Procedure
 
@@ -97,7 +97,7 @@ Enable CAPTCHA
 
 </td><td>
 
-Option to add a CAPTCHA to the registration form. The default CAPTCHA provider is Google reCAPTCHA.**Note:** To enable CAPTCHA for user registration, follow the steps in [Configure Google reCAPTCHA for external user self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-recaptcha-sp.md).
+Option to add a CAPTCHA to the registration form. The default CAPTCHA provider is Google reCAPTCHA.**Note:** To enable CAPTCHA for user registration, follow the steps in [Configure Google reCAPTCHA for external user self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-recaptcha-sp.md).
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.
@@ -115,11 +115,11 @@ Option to add a CAPTCHA to the registration form. The default CAPTCHA provider i
     |Mandatory|Set any field you want to make it mandatory as `True`.|
     |Validation only field|Set any field you want to use only for validation. For example, registration code.|
 
-    You can choose to display the default form fields or you can add custom form fields to the Registration Form. For more information, see [Default registration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/default-reg-form-fields.md).
+    You can choose to display the default form fields or you can add custom form fields to the Registration Form. For more information, see [Default registration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/default-reg-form-fields.md).
 
     \[Omitted image "registration\_tab\_EU\_self-registration.png"\] Alt text: Registration tab of User Registration Configuration
 
-    You can also add custom registration form fields. For more information, see [Add a custom registration form field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/add-custom-reg-form-field.md).
+    You can also add custom registration form fields. For more information, see [Add a custom registration form field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/add-custom-reg-form-field.md).
 
 5.  Configure the **Verification** tab to verify the identity of the registered users. When the user verification flow triggers, an activation link is sent to the user's registered email address.
 
@@ -145,7 +145,7 @@ User verification flow
 
 </td><td>
 
-The subflow used to verify the identity of the user. The subflow triggers only when you enable user verification.The **External User Verification** subflow is available by default. You can create a copy of the default subflow in Workflow Studio and modify it according to your requirements. For more information, see[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) .
+The subflow used to verify the identity of the user. The subflow triggers only when you enable user verification.The **External User Verification** subflow is available by default. You can create a copy of the default subflow in Workflow Studio and modify it according to your requirements. For more information, see .
 
  **Note:** To preview the **External User Verification** subflow in a new tab use the following shortcuts:
 
@@ -166,7 +166,7 @@ The number of hours after which an activation link expires. The default value is
 
 6.  Configure the **Transformation** tab to map self-registered users and activated users.
 
-    There are two transformation maps \(u\_reg\_xmap\_\[number\]\) which automatically map the registered users from the User Acti Req \[number\] table to the Self Registered User \[number\] table. You can create a copy of these default transformation maps and modify the map according to your requirements. For more information, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_CreatingNewTransformMaps.md).
+    There are two transformation maps \(u\_reg\_xmap\_\[number\]\) which automatically map the registered users from the User Acti Req \[number\] table to the Self Registered User \[number\] table. You can create a copy of these default transformation maps and modify the map according to your requirements. For more information, see Transform maps.
 
     \[Omitted image "transf\_tab\_eu\_self-reg.png"\] Alt text: Transformation tab of User Registration Configuration
 

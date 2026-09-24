@@ -3,11 +3,11 @@ title: Demand workflow
 description: The demand workflow defines the stages a demand moves through, from initial intake to assessment, approval, and execution. At each stage, you can evaluate the demand, align it with business objectives, and set up the right processes before resources are assigned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/demand-workflow-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---

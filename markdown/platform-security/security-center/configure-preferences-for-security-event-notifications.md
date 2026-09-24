@@ -3,12 +3,12 @@ title: Configure preferences for security event notification policies
 description: Discover how to customize security event notification policies in Security Center to align with your organization's specific needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/configure-preferences-for-security-event-notifications.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Security Event Notifications, Security monitoring console, Security Center, Platform Security]
 ---
 
@@ -72,7 +72,7 @@ The conditional logic and conditions to apply to your policies.
 
 </td><td>
 
-The email body and email recipients:-   **Notification**: Select one of the predefined notification templates. See [Create a custom email for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/create-custom-email-for-security-event-notifications.md) for more information.
+The email body and email recipients:-   **Notification**: Select one of the predefined notification templates. See [Create a custom email for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/create-custom-email-for-security-event-notifications.md) for more information.
 -   **Add Notification**: Select Add Notification.
 -   **Groups**: Select the group who should receive the notification.
 -   **Users**: Select the users who should receive the notification.
@@ -84,8 +84,8 @@ You can remove a notification by selecting **Remove notification**.
 5.  Select **Update** to save your settings.
 
 
--   **[Create a custom email for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/create-custom-email-for-security-event-notifications.md)**  
-Create a custom email for security event notifications to configure triggers, define recipients, and craft email content with dynamic event fields.
+-   **[Create a custom email for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/create-custom-email-for-security-event-notifications.md)**  
+Learn how for creating a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
 
-**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-policies.md)
+**Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-policies.md)
 

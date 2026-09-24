@@ -3,11 +3,11 @@ title: Accept a foundation data sync subscription as a provider
 description: Accept a foundation data sync \(FDS\) subscription to complete the FDS configuration and begin receiving data from the consumer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-fds-accept-sups-provider.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [foundation data sync, FDS subscription, accept subscription, provider inbound, activate sync]
 breadcrumb: [Configure inbound FDS as providers, Configure for providers, Service Exchange for Providers, Service Exchange]
@@ -37,7 +37,7 @@ If the consumer has enabled auto-publish for the subscription, accepting it will
 
 4.  Select **Accept**.
 
-    If you reject the subscription by selecting **Reject**, your consumer needs to resend the sample files. Also, you must reconfigure the subscription items before you can accept the subscription again.
+    If you reject the subscription by selecting **Reject**, your consumer needs to resend the sample files. And you must reconfigure the subscription items before you can accept the subscription again.
 
 
 ## Result
@@ -47,9 +47,9 @@ If the consumer has enabled auto-publish, the subscription automatically moves t
 **Related topics**  
 
 
-[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
+[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
 
-[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
+[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
 
-[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/using-provider-bound-fds-consumer.md)
+[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/using-provider-bound-fds-consumer.md)
 

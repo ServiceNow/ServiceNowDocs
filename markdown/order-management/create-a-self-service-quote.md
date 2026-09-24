@@ -3,9 +3,9 @@ title: Create a Quote via Self-Service for Channel Partners
 description: Use the Quote Self-Service plugin \(com.sn\_quote\_self\_service\) to create and submit a configured quote directly from the Partner portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-a-self-service-quote.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create quote, channel partner, quote self-service plugin, PRM]
 breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
@@ -43,7 +43,7 @@ Role required: sn\_prm\_qm.quote\_partner\_ui along with one of the following ro
     -   \[Omitted image "self-service-quote-line-items.png"\] Alt text: Line items form showing selected products with quantities and pricing
     -   **Review and submit** tab: Review the complete quote details before submission.
     -   \[Omitted image "self-service-quote-review-submit.png"\] Alt text: Review and submit tab showing full quote summary
-    For field descriptions and additional information about the quote creation form, see [Quote creation via Self-Service fields for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-creation-fields.md).
+    For field descriptions and additional information about the quote creation form, see [Quote creation via Self-Service fields for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-creation-fields.md).
 
 4.  On the **Review and Submit** tab, verify the quote details, then select **Review and Submit**.
 
@@ -68,12 +68,12 @@ You can view the list of all quotes, along with quotes in **Draft** and **Submit
 
 The Partner portal displays quotes in the following states: **Draft**, **In review**, **Completed**, and **Accepted**.
 
-**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Quote creation via Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-quote_generic.md)
+[Quote creation via Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/self-service-quote_generic.md)
 
-[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-partner-relationship-management.md)
 

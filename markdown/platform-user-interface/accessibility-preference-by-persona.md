@@ -3,9 +3,9 @@ title: Next Experience accessibility preferences by persona
 description: Learn more about accessibility preferences in Next Experience, organized by persona: visual, physical, cognitive/neurodiverse, and universal design. These settings help reduce barriers and create an inclusive experience for all users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/accessibility-preference-by-persona.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure accessibility preferences, Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,7 +34,7 @@ Visual
 
 </td><td>
 
-[Enable keyboard focus on text that displays tooltip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-keyboard-focus-pref.md)
+[Enable keyboard focus on text that displays tooltip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-keyboard-focus-pref.md)
 
 </td><td>
 
@@ -46,7 +46,7 @@ Visual
 
 </td><td>
 
-[Show date and time formats on forms preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/show-date-time-formats-forms.md)
+[Show date and time formats on forms preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/show-date-time-formats-forms.md)
 
 </td><td>
 
@@ -58,7 +58,7 @@ Visual
 
 </td><td>
 
-[Do not auto-dismiss page alerts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/do-not-auto-dismiss-pref.md)
+[Do not auto-dismiss page alerts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/do-not-auto-dismiss-pref.md)
 
 </td><td>
 
@@ -70,7 +70,7 @@ Visual
 
 </td><td>
 
-[Replace colors with patterns in charts and graphs preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/replace-colors-with-patterns.md)
+[Replace colors with patterns in charts and graphs preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/replace-colors-with-patterns.md)
 
 </td><td>
 
@@ -82,7 +82,7 @@ Visual
 
 </td><td>
 
-[Enable data table for charts and graphs preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-data-table-pref.md)
+[Enable data table for charts and graphs preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-data-table-pref.md)
 
 </td><td>
 
@@ -94,7 +94,7 @@ Visual
 
 </td><td>
 
-[Reduce motion preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/reduce-motion-pref.md)
+[Reduce motion preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/reduce-motion-pref.md)
 
 </td><td>
 
@@ -106,7 +106,7 @@ Visual
 
 </td><td>
 
-[Show all buttons without the need to hover preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/show-all-buttons-pref.md)
+[Show all buttons without the need to hover preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/show-all-buttons-pref.md)
 
 </td><td>
 
@@ -118,7 +118,7 @@ Visual
 
 </td><td>
 
-[Enable keyboard focus on text that displays tooltip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-keyboard-focus-pref.md)
+[Enable keyboard focus on text that displays tooltip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-keyboard-focus-pref.md)
 
 </td><td>
 
@@ -130,7 +130,7 @@ Visual
 
 </td><td>
 
-[Enable auto-focus on page alerts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-auto-focus-on-page-alerts.md)
+[Enable auto-focus on page alerts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-auto-focus-on-page-alerts.md)
 
 </td><td>
 
@@ -142,7 +142,7 @@ Physical
 
 </td><td>
 
-[Enable keyboard shortcuts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-keyboard-shortcuts-pref.md)
+[Enable keyboard shortcuts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-keyboard-shortcuts-pref.md)
 
 </td><td>
 
@@ -154,7 +154,7 @@ Physical
 
 </td><td>
 
-[Show all buttons without the need to hover preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/show-all-buttons-pref.md)
+[Show all buttons without the need to hover preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/show-all-buttons-pref.md)
 
 </td><td>
 
@@ -166,7 +166,7 @@ Physical
 
 </td><td>
 
-[Enable voice input for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-voice-input-pref.md)
+[Enable voice input for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-voice-input-pref.md)
 
 </td><td>
 
@@ -178,7 +178,7 @@ Cognitive/Neurodiverse
 
 </td><td>
 
-[Reduce motion preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/reduce-motion-pref.md)
+[Reduce motion preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/reduce-motion-pref.md)
 
 </td><td>
 
@@ -190,7 +190,7 @@ Cognitive/Neurodiverse
 
 </td><td>
 
-[Show date and time formats on forms preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/show-date-time-formats-forms.md)
+[Show date and time formats on forms preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/show-date-time-formats-forms.md)
 
 </td><td>
 
@@ -202,7 +202,7 @@ Cognitive/Neurodiverse
 
 </td><td>
 
-[Enable data table for charts and graphs preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-data-table-pref.md)
+[Enable data table for charts and graphs preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-data-table-pref.md)
 
 </td><td>
 
@@ -214,7 +214,7 @@ Cognitive/Neurodiverse
 
 </td><td>
 
-[Show all buttons without the need to hover preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/show-all-buttons-pref.md)
+[Show all buttons without the need to hover preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/show-all-buttons-pref.md)
 
 </td><td>
 
@@ -226,7 +226,7 @@ Cognitive/Neurodiverse
 
 </td><td>
 
-[Do not auto-dismiss page alerts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/do-not-auto-dismiss-pref.md)
+[Do not auto-dismiss page alerts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/do-not-auto-dismiss-pref.md)
 
 </td><td>
 
@@ -238,7 +238,7 @@ Universal design
 
 </td><td>
 
-[Enable accessibility in Classic preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-accessibility-in-classic-pref.md)
+[Enable accessibility in Classic preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-accessibility-in-classic-pref.md)
 
 </td><td>
 
@@ -250,7 +250,7 @@ Universal design
 
 </td><td>
 
-[Enable keyboard shortcuts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-keyboard-shortcuts-pref.md)
+[Enable keyboard shortcuts preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-keyboard-shortcuts-pref.md)
 
 </td><td>
 
@@ -262,7 +262,7 @@ Universal design
 
 </td><td>
 
-[Enable data table for charts and graphs preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-data-table-pref.md)
+[Enable data table for charts and graphs preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-data-table-pref.md)
 
 </td><td>
 

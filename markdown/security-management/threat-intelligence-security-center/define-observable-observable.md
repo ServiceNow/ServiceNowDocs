@@ -3,11 +3,11 @@ title: Define observable-observable relationships
 description: Define relationships between observables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/define-observable-observable.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d393143e98">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d393064e98">
 
 Field
 
-</th><th align="left" id="d393143e101">
+</th><th align="left" id="d393064e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d393143e107">
+</th></tr></thead><tbody><tr><td id="d393064e107">
 
 **Source Observable**
 
@@ -48,7 +48,7 @@ Description
 
 Select and define the source object.
 
-</td></tr><tr><td id="d393143e116">
+</td></tr><tr><td id="d393064e116">
 
 **Target Observable**
 
@@ -56,7 +56,7 @@ Select and define the source object.
 
 Select and define the target object.
 
-</td></tr><tr><td id="d393143e125">
+</td></tr><tr><td id="d393064e125">
 
 **Relationship Type**
 
@@ -68,7 +68,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d393143e144">
+</td></tr><tr><td id="d393064e144">
 
 **Basis For Correlation**
 
@@ -80,5 +80,5 @@ Name of the correlation rule based on which the system has identified as the rel
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/relationship-objects.md)
+**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/relationship-objects.md)
 

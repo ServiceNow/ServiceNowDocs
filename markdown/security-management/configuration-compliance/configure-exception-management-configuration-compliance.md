@@ -3,11 +3,11 @@ title: Configure Exception Management for Configuration Compliance
 description: Limit the duration of an exception requested and add a questionnaire to the exception using the Configuration Compliance module. By default, an exception is requested using the ServiceNow Vulnerability Response module. You can also request an exception using the GRC: Policy and Compliance Management integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/configure-exception-management-configuration-compliance.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---

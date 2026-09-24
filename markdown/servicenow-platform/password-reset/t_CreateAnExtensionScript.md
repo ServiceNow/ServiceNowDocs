@@ -3,11 +3,11 @@ title: Create a Password Reset extension script
 description: Create extension scripts only from the Password Reset Extension Script form. Do not create extension scripts in the System Definition Script Includes interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_CreateAnExtensionScript.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Password Reset script includes, Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -56,7 +56,7 @@ Role required: password\_reset\_admin or admin
 **Related topics**  
 
 
-[Password Reset extension script categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/pw-reset-extension-script.md)
+[Password Reset extension script categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/pw-reset-extension-script.md)
 
-[Password Reset script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_InstalledPasswordResetScripts.md)
+[Password Reset script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/c_InstalledPasswordResetScripts.md)
 

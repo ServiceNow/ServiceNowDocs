@@ -3,11 +3,11 @@ title: MID Server privileged commands
 description: To discover certain information on a host server, the MID Server must run SSH commands with higher privileges. The platform provides default privileged commands for the MID Server to use and the ability to add additional commands to the system.Configure J2SSH and ServiceNow SSH to prevent long running commands using sudo from failing when the MID Server disconnects.Add a new privileged command to the Privileged Command \[privileged\_command\] table that is available to your MID Servers.You can configure the MID Server to use specific commands in a defined order.You can create a special configuration for the pbrun privileged command that allows it to run as a profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/c\_PrivilegedCommandsForMIDServer.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,7 +25,7 @@ To discover certain information on a host server, the MID Server must run SSH co
 
 **Important:** You can edit supported privileged commands, but do not delete them.
 
-For a list of possible SSH commands requiring root privileges, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+For a list of possible SSH commands requiring root privileges, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 <table id="table_zgn_3wb_dt"><thead><tr><th>
 
@@ -77,7 +77,7 @@ dzdo
 -   Discovery does not support any other `dzdo –` options, but Discovery supports password authentication for dzdo.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
+</table>**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
@@ -218,5 +218,5 @@ Of all the privileged commands, only the **pbrun** command can be configured to 
 
 ### What to do next
 
-Return to [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
+Return to [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
 

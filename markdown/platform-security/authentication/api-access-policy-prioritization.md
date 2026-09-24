@@ -3,11 +3,11 @@ title: API access policy prioritization
 description: Learn about the policy prioritization logic if there are multiple API access policy configured for your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/api-access-policy-prioritization.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create REST API access policy, REST API access policies, API access policy, Authentication, Access Management]
 ---

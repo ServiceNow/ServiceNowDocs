@@ -3,11 +3,11 @@ title: Define release scope using product enhancements
 description: Define the release scope of products and services by adding features, enhancements, and work items.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-manage-digital-product.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -42,7 +42,7 @@ The mappings between plan versions and software models are stored in the Plan Ve
 
 4.  Add features andenhancements to the product.
 
-    -   [Add a product feature to a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-product-feature.md)
-    -   [Add an enhancement to a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-product-enhancement.md)
-    -   [Add a product enhancement from a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md)
+    -   [Add a product feature to a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-product-feature.md)
+    -   [Add an enhancement to a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-create-product-enhancement.md)
+    -   [Add a product enhancement from a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md)
 

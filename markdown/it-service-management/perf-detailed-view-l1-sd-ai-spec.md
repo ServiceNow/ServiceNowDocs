@@ -3,9 +3,9 @@ title: Detailed view of L1 IT Service Desk AI Specialist performance
 description: The detailed view helps you identify which services or categories need the most attention by showing how the AI specialist resolves incidents, why incidents get reassigned, and how many exchanges are needed for each service or category.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/perf-detailed-view-l1-sd-ai-spec.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [L1 Service Desk AI Specialist, performance analytics, detailed view, incident outcomes]
 breadcrumb: [View the performance, Use, L1 IT Service Desk AI Specialist, IT Service Management]

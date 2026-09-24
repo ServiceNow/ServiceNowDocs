@@ -3,11 +3,11 @@ title: Defining Document Parameters
 description: Before using the Managed Documents application, the user with the document\_management\_admin role needs to set the parameters that define the kinds of documents to be managed through the application. Managed Documents provides both base and custom parameter options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/r\_DefiningDocumentParameters.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Features, Managed Documents, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -51,16 +51,16 @@ The following types are available in the base system.
 
 **Note:** For documents with a **Type** of **Contract**, a **Contracts** related list appears on the document record, listing any contracts the document is associated with.
 
--   **[Defining Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningApprovalRules.md)**  
+-   **[Defining Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningApprovalRules.md)**  
 To define a new approval rule, navigate to **Managed Documents** &gt; **Administration** &gt; **Approval Rules** and click **New**.
--   **[Defining Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningAudiences.md)**  
+-   **[Defining Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningAudiences.md)**  
 To define a new audience, navigate to **Managed Documents** &gt; **Administration** &gt; **Audience** and click **New**.
--   **[Defining Classifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningClassifications.md)**  
+-   **[Defining Classifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningClassifications.md)**  
 Define a new classification on the Classification form.
--   **[Defining Name Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningNameComponents.md)**  
+-   **[Defining Name Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningNameComponents.md)**  
 Name components define the document values used in the name format.
--   **[Defining Name Formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningNameFormats.md)**  
+-   **[Defining Name Formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningNameFormats.md)**  
 The name format automatically generates a name for a document revision by arranging name components in a standard code to match naming conventions.
 
-**Parent Topic:**[Managed Document features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_ManagedDocumentFeatures.md)
+**Parent Topic:**[Managed Document features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_ManagedDocumentFeatures.md)
 

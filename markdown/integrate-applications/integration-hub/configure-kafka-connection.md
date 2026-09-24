@@ -3,11 +3,11 @@ title: Configure a Kafka connection
 description: Configure a connection to your Apache Kafka environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-kafka-connection.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Message replication, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -19,7 +19,7 @@ Configure a connection to your Apache Kafka environment.
 ## Before you begin
 
 -   Role required: connection\_admin or message\_replication\_admin
--   [Create Kafka credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
+-   [Create Kafka credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
 
 ## About this task
 
@@ -28,7 +28,7 @@ Configure connection and credential records for connecting to your local Apache 
 -   The connection record contains the information required for making the connection to your local Kafka. Connection records are stored in the Kafka Connections \[kafka\_connection\] table.
 -   The credential record stores the authentication data required for the connection. Credential records are stored in the Kafka credentials \[kafka\_credentials\] table.
 
-After you've created both the connection record and the credential record, you can [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md), which links your connection information and the credential data under a single name.
+After you've created both the connection record and the credential record, you can [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md), which links your connection information and the credential data under a single name.
 
 ## Procedure
 
@@ -148,7 +148,7 @@ Name of the MID Server or MID Cluster to use.
 
 ## What to do next
 
-[Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md) with a **Connection type** of **Kafka**.
+[Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md) with a **Connection type** of **Kafka**.
 
-**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)
+**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

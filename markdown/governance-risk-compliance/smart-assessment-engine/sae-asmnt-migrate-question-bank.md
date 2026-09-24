@@ -1,20 +1,20 @@
 ---
 title: Migrate a classic question bank or assessment template
-description: Migrate an existing classic question bank or the sections and questions of an assessment template into a new or existing question bank.
+description: Migrate a classic question bank or an existing assessment template into a new or existing Smart Assessment Engine question bank.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-migrate-question-bank.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating an assessment template from legacy assessment metric types, Configure, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Migrate a classic question bank or assessment template
 
-Migrate an existing classic question bank or the sections and questions of an assessment template into a new or existing question bank.
+Migrate a classic question bank or an existing assessment template into a new or existing Smart Assessment Engine question bank.
 
 ## Before you begin
 
@@ -23,8 +23,6 @@ Role required: sn\_smart\_asmt.assessment\_admin
 ## About this task
 
 SAE must be running on the same instance as the classic question bank or the assessment template that you want to migrate.
-
-**Note:** This feature is available starting with Australia Patch 2.
 
 ## Procedure
 
@@ -46,7 +44,7 @@ Number
 
 </td><td>
 
-Unique, system-generated identifier for the migration record.
+Unique number, starting with the text QBMIG, that the system assigns to the migration record for the question bank. You can use the number to search for the record.
 
 </td></tr><tr><td>
 
@@ -130,7 +128,14 @@ Migration status
 
 </td><td>
 
-Current status of the migration, such as Pending, In progress, Complete, or Failed.
+Value that changes as the template migration process proceeds.
+
+-   New: Status of a template migration definition before you start migration.
+-   In progress: Status for after you start the migration process, the process is in progress until it finishes.
+-   Completed: Status of a template migration if all items \(metric type, metric categories, and metrics\) migrate, which means that the template is ready for you to review, update, and eventually publish.
+-   Partially completed: Status when any of the downstream elements like the questions, sections, or metric category haven’t migrated successfully. In this case, you must address the errors and restart the migration process.
+-   Errored: Status when an error occurs during the migration. In this case, you must address the errors and restart the migration process.
+
 
 </td></tr><tr><td>
 
@@ -138,7 +143,7 @@ Error details
 
 </td><td>
 
-Details of any errors encountered during the migration, available when the migration status is Failed.
+Description of an error that occurred during the unsuccessful migration.
 
 </td></tr></tbody>
 </table>3.  Select **Migrate**.
@@ -155,7 +160,7 @@ When the source is an assessment template and an error occurs, the system revert
 **Related topics**  
 
 
-[Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/question-bank.md)
+[Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/question-bank.md)
 
-[Create a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-create.md)
+[Create a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-question-bank-create.md)
 

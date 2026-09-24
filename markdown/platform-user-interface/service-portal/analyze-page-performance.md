@@ -3,11 +3,11 @@ title: Evaluate the performance of a portal page
 description: Evaluate how the widgets on a page perform against performance benchmarks that you specify.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/analyze-page-performance.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -61,15 +61,15 @@ Role required: sp\_admin or admin
 
 6.  Review the benchmark results.
 
-<table id="choicetable_drv_ynr_jdc"><thead><tr><th align="left" id="d64067e237">
+<table id="choicetable_drv_ynr_jdc"><thead><tr><th align="left" id="d64874e237">
 
 Option
 
-</th><th align="left" id="d64067e240">
+</th><th align="left" id="d64874e240">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d64067e246">
+</th></tr></thead><tbody><tr><td id="d64874e246">
 
 **Benchmark details**
 
@@ -79,7 +79,7 @@ From the Benchmark results list, select a widget or AJAX API to view additional 
 
  \[Omitted image "performance-analyzerbenchmark-details.png"\] Alt text: Performance results for each widget on the page from the Benchmark details view
 
-</td></tr><tr><td id="d64067e265">
+</td></tr><tr><td id="d64874e265">
 
 **Preview**
 
@@ -101,5 +101,5 @@ Any widgets on the page that exceed the specified benchmarks are highlighted on 
 
 Consider updating any widgets that don’t meet your performance benchmarks to improve the page performance. For example, if a widget's server script takes too long to load, evaluate if the script can be improved to load faster.
 
-**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/using-portal-analytics.md)
+**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/using-portal-analytics.md)
 

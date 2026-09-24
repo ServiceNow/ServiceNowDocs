@@ -3,11 +3,11 @@ title: Performance Analytics dashboards for risk events and risk hierarchy
 description: Use the Performance Analytics \(PA\) dashboards to view the comprehensive data for risk events and risk hierarchy. Use the Analytics Hub to view data for any time period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/pa-dashboard-risk-events-risk-hierarchy.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -102,5 +102,5 @@ To view the Exposure by Risk Statements dashboard, navigate to **Risk** &gt; **E
 
 **Important:** Starting with version 18.1.0 of the Advanced Risk and Risk Management applications, the Exposure by Entity dashboard is deprecated. If you're on a legacy release or already using the dashboard, you can continue to use it.
 
-**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

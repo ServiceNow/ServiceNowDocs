@@ -3,9 +3,9 @@ title: User criteria form
 description: User criteria enables you to allow access to users based on role, department, group, location, or company. Administrators can control access by creating and applying user criteria. User criteria records define conditions that are evaluated against user records. When user criteria is defined, records are only visible to users who pass the defined conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-criteria-form-notifications.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -111,5 +111,5 @@ Match All
 Option to make every condition required when the user criteria is applied. The conditions are set in the previous fields, such as Companies, Locations, Departments, and so on.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/reference-email-admin.md)
+</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/reference-email-admin.md)
 

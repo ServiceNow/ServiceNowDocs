@@ -3,11 +3,11 @@ title: View your subscription consumption for the Enterprise Asset Management fo
 description: Use the ITAM Licensing Resource Counts \[itam\_licensing\_resource\_counts\] table to gain insight into your subscription consumption for the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/view-subscription-consumption-eam-dcnam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
@@ -67,7 +67,7 @@ The EAM Populate Licensing Data scheduled job runs daily to generate subscriptio
 
 4.  View the following subscription consumption information for the application.
 
-    **Note:** Subscription consumption information is generated and grouped by resource category. For more information on resource categories, see [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-dcnam-licensing.md).
+    **Note:** Subscription consumption information is generated and grouped by resource category. For more information on resource categories, see [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-dcnam-licensing.md).
 
     |Field|Description|
     |-----|-----------|
@@ -79,5 +79,5 @@ The EAM Populate Licensing Data scheduled job runs daily to generate subscriptio
     |Total Subscription Units Consumed|Total number of subscriptions that you have consumed for the given resource category and subcategory. The ITAM licensing module calculates this value by applying the Subscription Unit Ratio to the Resource Total Count.|
 
 
-**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-dcnam.md)
+**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-dcnam.md)
 

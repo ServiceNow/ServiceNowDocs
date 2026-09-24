@@ -3,9 +3,9 @@ title: Configure access for trusting AWS member accounts in trust chain
 description: Configure access for AWS member accounts by using a trust chain from the accessor through the management account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/configure-iam-role-aws-member.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -65,7 +65,7 @@ You can configure access for AWS member accounts by using a trust chain from the
 
     4.  On the form, fill in the remaining fields.
 
-        For a description of the field values, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-aws-service-accounts.md).
+        For a description of the field values, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-aws-service-accounts.md).
 
     5.  Select **Submit**.
 
@@ -118,8 +118,8 @@ Name of the trusting account for which you are providing access using the IAM ro
 
 Configure the trusting management account and the trusted accessor account.
 
--   For information on configuring accessor accounts with AWS credentials, see [Configure temporary credential access for trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-iam-role-aws-account.md).
--   For information on configuring accessor accounts without AWS credentials, see [Configure credential-less access using trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-trusted-credential-less.md).
+-   For information on configuring accessor accounts with AWS credentials, see [Configure temporary credential access for trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-iam-role-aws-account.md).
+-   For information on configuring accessor accounts without AWS credentials, see [Configure credential-less access using trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aws-trusted-credential-less.md).
 
-**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/setup-aws-service-accounts.md)
 

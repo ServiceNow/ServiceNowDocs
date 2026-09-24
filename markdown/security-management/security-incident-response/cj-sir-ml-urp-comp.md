@@ -3,11 +3,11 @@ title: Required components and plugins
 description: To use Predictive Intelligence for User Reported Phishing, you must install the following applications
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/cj-sir-ml-urp-comp.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage Predictive Intelligence for User Reported Phishing, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

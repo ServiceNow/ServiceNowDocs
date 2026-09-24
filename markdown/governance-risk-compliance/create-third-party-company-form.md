@@ -1,18 +1,18 @@
 ---
-title: Create third-party company form
-description: On the Create third-party company form, fill in the fields for the third party.
+title: Create Company form
+description: On the Create Company form, fill in the fields for the third party.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-third-party-company-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a third party and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a third party and enhance digital resilience data, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create third-party company form
+# Create Company form
 
-On the Create third-party company form, fill in the fields for the third party.
+On the Create Company form, fill in the fields for the third party.
 
 <table id="table_cyz_r34_ycc"><thead><tr><th>
 
@@ -95,5 +95,5 @@ Notes
 Additional details of the third-party.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-third-party.md)
+</table>**Parent Topic:**[Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-drtp-reg-third-party.md)
 

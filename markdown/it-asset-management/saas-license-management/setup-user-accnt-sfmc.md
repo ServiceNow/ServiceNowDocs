@@ -3,11 +3,11 @@ title: Setting up an SFTP user account in Salesforce Marketing Cloud
 description: Set up an SSH File Transfer Protocol \(SFTP\) user account to access your Salesforce Marketing Cloud FTP files.Create user accounts for SFTP users in Salesforce Marketing Cloud to access the Contacts Counts report.Set up a file location to connect to an external FTP site when transferring files. The file location contains the site URL, port, and login details that Salesforce Marketing Cloud uses to access your site.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/setup-user-accnt-sfmc.html
-release: australia
+release: brazil
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating with Salesforce Marketing Cloud, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -99,7 +99,7 @@ Role required: admin
 **Related topics**  
 
 
-[Integrate Salesforce Marketing Cloud using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-sfmc-basicauth.md)
+[Integrate Salesforce Marketing Cloud using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrate-sfmc-basicauth.md)
 
-[Integrate Salesforce Marketing Cloud using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-sfmc-oauth.md)
+[Integrate Salesforce Marketing Cloud using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrate-sfmc-oauth.md)
 

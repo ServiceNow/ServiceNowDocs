@@ -3,11 +3,11 @@ title: SNMP probe parameters
 description: This list of parameters may be passed to the SNMP probes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_SNMPProbeParameters.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [SNMP probes, List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [SNMP probes, List of Discovery probes, Discovery probes and sensors
 
 This list of parameters may be passed to the SNMP probes.
 
-For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetProbeParameters.md).
+For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_SetProbeParameters.md).
 
 <table id="table_mmh_pny_5p"><thead><tr><th>
 
@@ -192,8 +192,8 @@ use\_getbulk
 Enables the use of SNMP GETBULK requests to retrieve tabular data from SNMP devices instead of using multiple SNMP GETNEXT requests. For tabular data, GETBULK is more efficient. Regardless of the request type, certain devices may not return any results when they are busy with other tasks. This parameter is used to configure at the probe level. GETBULK can also be set for an individual MID Server or globally for all MID servers. Settings are listed in the order of precedence:
 
 -   SNMP probe parameter
--   [MID Server configuration parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md)
--   [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md)
+-   [MID Server configuration parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-parameters.md)
+-   [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerProperties.md)
 
  The **established\_session\_timeout, request\_interval,** and **request\_delay** parameters are ignored when **use\_getbulk** is set to **true**. Instead, the **retries** parameter is available. The timeout configuration is the same one used by **use\_getscalar**.
 
@@ -238,5 +238,5 @@ The number of additional attempts Discovery makes to complete an individual GETB
 2
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SNMPProbe.md)
+</table>**Parent Topic:**[SNMP probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_SNMPProbe.md)
 

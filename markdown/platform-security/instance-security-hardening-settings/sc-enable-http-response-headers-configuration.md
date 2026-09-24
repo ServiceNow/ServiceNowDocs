@@ -3,11 +3,11 @@ title: Enable HTTP response headers configuration
 description: Reduce the risk of cookie/session-related hijacking of web apps using a system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-http-response-headers-configuration.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configuration, Hardening settings, Platform Security]
 
 Reduce the risk of cookie/session-related hijacking of web apps using a system property.
 
-If the **glide.http.headers\_config.enabled** system property isn't set to **true**, then response header configurations defined in the HTTP Response Headers \[sys\_response\_header\] table aren't used. Security related HTTP response headers include Content Security Policy, which aids in XSS-related protections. For details on HTTP response headers, see [http-response-header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/http-response-header.md).
+If the **glide.http.headers\_config.enabled** system property isn't set to **true**, then response header configurations defined in the HTTP Response Headers \[sys\_response\_header\] table aren't used. Security related HTTP response headers include Content Security Policy, which aids in XSS-related protections. For details on HTTP response headers, see [http-response-header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/http-response-header.md).
 
 Ensure that the property **glide.http.headers\_config.enabled** is set to **true**.
 
@@ -84,7 +84,7 @@ Category
 
 </td><td>
 
-[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -105,5 +105,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

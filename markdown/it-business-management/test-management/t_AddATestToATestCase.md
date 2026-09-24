@@ -3,11 +3,11 @@ title: Add a test to a test case
 description: Create and add a new test to an existing test case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_AddATestToATestCase.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test cases, Setting up the manual testing process, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Create and add a new test to an existing test case.
 
 ## Before you begin
 
--   [Create a test case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateANewTestCase.md).
+-   [Create a test case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_CreateANewTestCase.md).
 -   Role required: tm\_test\_manager or tm\_tester
 
 ## Procedure
@@ -98,5 +98,5 @@ Detailed description of what is being tested.
 
 You can create a copy of this test by using the **Create Duplicate** related link on the test form.
 
-**Parent Topic:**[Test cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_TestCases.md)
+**Parent Topic:**[Test cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/c_TestCases.md)
 

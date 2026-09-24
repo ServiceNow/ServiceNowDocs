@@ -3,9 +3,9 @@ title: Data catalog navigation
 description: Access Connect Hub to manage metadata collectors and the Data Catalog to discover and govern data assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-catalog-navigation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Data Catalog, Workflow Data Fabric]
 ---

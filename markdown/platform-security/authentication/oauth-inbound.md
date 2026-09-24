@@ -3,11 +3,11 @@ title: OAuth Inbound
 description: OAuth Inbound authentication allows trusted external applications to securely access ServiceNow APIs, ensuring controlled and authorized connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/oauth-inbound.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [OAuth authentication, Authentication, Access Management]
 ---
@@ -22,7 +22,7 @@ You must have one of the following roles to configure or manage OAuth integratio
 -   `mi_admin`
 -   `admin`
 
-Inbound authentication enables external applications such as third-party systems or other ServiceNow® instances to connect securely to ServiceNow APIs. Inbound authentication confirms that only trusted clients can access your ServiceNow instance in a controlled and secure manner. ServiceNow supports several OAuth 2.0 grant types, each designed for specific integration scenarios. Use the following information to choose the grant type that best fits your use case:
+Inbound authentication enables external applications such as third-party systems or other ServiceNow instances to connect securely to ServiceNow APIs. Inbound authentication confirms that only trusted clients can access your ServiceNow instance in a controlled and secure manner. ServiceNow supports several OAuth 2.0 grant types, each designed for specific integration scenarios. Use the following information to choose the grant type that best fits your use case:
 
 ## Authorization Code Grant
 
@@ -116,9 +116,9 @@ Legacy Single-page applications \(SPAs\) or browser-based apps that can’t secu
 The user logs in through a browser. The client application receives the access token directly in the URL after login, bypassing the intermediate authorization code step. This flow was originally designed for public clients that run entirely in the browser, where securely storing secrets isn’t possible. While it simplifies implementation, it exposes tokens in the browser, increasing the risk of interception. For stronger security, ServiceNow recommends implementing an authorization code grant with PKCE.
 
 </td></tr></tbody>
-</table>For more information about Implicit grant workflow and configuration, see [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthImplicitGrants.md).
+</table>For more information about Implicit grant workflow and configuration, see [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/c_OAuthImplicitGrants.md).
 
 ## OAuth Scopes
 
-You can scope the OAuth authentication scope support for REST API. OAuth Scope provides access to only the particular REST APIs. For more information, see [REST API Auth Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/rest-api-auth-scope.md).
+You can scope the OAuth authentication scope support for REST API. OAuth Scope provides access to only the particular REST APIs. For more information, see [REST API Auth Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/rest-api-auth-scope.md).
 

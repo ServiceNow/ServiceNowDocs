@@ -3,11 +3,11 @@ title: Control Objective Change Agent
 description: Learn how Control Objective Change Agent automates and streamlines updates to control objectives, ensuring compliance data remains accurate and consistent with user oversight.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/control-objective-change-agent.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -18,9 +18,9 @@ Learn how Control Objective Change Agent automates and streamlines updates to co
 
 When a citation is updated, such as changes in security guidelines or regulatory requirements, associated control objectives must also reflect those changes to maintain compliance accuracy.
 
-Control Objective Change Agent is an AI agent that automates this process. It works with the Control Objective Impact Analyzer skill to identify impacted control objectives and uses the ServiceNow Otto panel analyzes citation changes, suggest updates, accepts feedback from the user, and finalizes changes.
+Control Objective Change Agent is an AI agent that automates this process. It works with the Control Objective Impact Analyzer skill to identify impacted control objectives and uses the Otto panel analyzes citation changes, suggest updates, accepts feedback from the user, and finalizes changes.
 
-This agent supports multiple Large Language Model \(LLM\) providers, such as Azure OpenAI, Google Gemini, and Claude.
+This agent supports multiple Large Language Model \(LLM\) providers, such as Azure OpenAI, Google Gemini, Claude, and LTS.
 
 ## How the AI agent works
 
@@ -31,7 +31,7 @@ Control Objective Change Agent refines control objective details through the fol
     After reviewing the impacted control objectives, users can trigger the Control objective change agent to update descriptions and guidance as required.
 
 2.  Control objective details updater skill: The AI agent monitors these impacted objectives and validates whether updates are truly required. Using the Control objective details updater skill, the agent fetches and applies updated descriptions and supplemental guidance to the relevant control objectives. It intelligently considers all associated citations while filtering out irrelevant details to ensure precise updates.
-3.  User feedback and refinement: An interactive ServiceNow Otto panel provides a feedback loop. Users can review the AI-generated suggestions and:
+3.  User feedback and refinement: An interactive Otto panel provides a feedback loop. Users can review the AI-generated suggestions and:
     -   Accept the proposed updates.
     -   Add or remove specific details.
 

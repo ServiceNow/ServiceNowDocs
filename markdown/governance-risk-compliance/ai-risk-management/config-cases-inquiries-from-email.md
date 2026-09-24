@@ -3,14 +3,14 @@ title: Configure email-based intake for AI Risk and Compliance
 description: Configure email-based intake so that incoming email messages create intake records in AI Risk and Compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/config-cases-inquiries-from-email.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [configure email intake, AI case email, inbound email AI case, email-based intake]
-breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Configure email-based intake for AI Risk and Compliance
@@ -50,5 +50,18 @@ You can submit AI‑related cases or inquiries by sending emails to configured a
 
 Emails sent to the configured group email address and the instance email address create corresponding intake records in AI Risk and Compliance.
 
-For more information, see [Automatic creation of AI cases and inquiries from inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/automatic-creation-cases-inquiries-from-email.md).
+For more information, see [Automatic AI case and inquiry creation from inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/automatic-creation-cases-inquiries-from-email.md).
+
+## What to do next
+
+Test the configuration by sending an email to the configured group email address and confirming that the system creates a corresponding intake record. For more information about how email-based intake works, see [Automatic AI case and inquiry creation from inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/automatic-creation-cases-inquiries-from-email.md).
+
+**Related topics**  
+
+
+[Automatic AI case and inquiry creation from inbound email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/automatic-creation-cases-inquiries-from-email.md)
+
+[AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
+
+[Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc_email_notifications.md)
 

@@ -3,7 +3,7 @@ title: Refine an investigative case narrative using the ServiceNow Otto for PSDS
 description: Review text and surface gaps, inconsistencies, and tone issues before a case narrative is submitted for supervisory review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-na-refine-icm-case-narrative.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

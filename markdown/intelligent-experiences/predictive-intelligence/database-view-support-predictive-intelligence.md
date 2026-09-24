@@ -3,13 +3,13 @@ title: Database View support for Predictive Intelligence
 description: Use database views to join two or more tables as input for your Machine Learning \(ML\) solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/database-view-support-predictive-intelligence.html
-release: australia
+release: brazil
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Database View support for Predictive Intelligence
@@ -20,7 +20,7 @@ Use database views to join two or more tables as input for your Machine Learning
 
 Database views help expand the amount of fields your solution can use for training. By using more than one table in your ML solution definition form, you can access more input data to help enrich the solution outcome.
 
-Database views enable you to join two or more tables into one consolidated view. For this to work in an ML solution you must first create the database view. See [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseViews.md).
+Database views enable you to join two or more tables into one consolidated view. For this to work in an ML solution you must first create the database view. See [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DatabaseViews.md).
 
 Database views are supported in all four of the Predictive Intelligence capability frameworks: classification, similarity, clustering, and regression.
 
@@ -46,5 +46,5 @@ To use a database view in your similarity solution, instead of selecting a table
 
 \[Omitted image "database-view-support-predictive-intelligence4.png"\] Alt text: Your database view configured to your similarity solution
 
-**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
+**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

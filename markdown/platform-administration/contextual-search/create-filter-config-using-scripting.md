@@ -3,11 +3,11 @@ title: Create a filter configuration using scripts
 description: Create filter conditions using script that you can associate with a table configuration. The search result displays results that meet the filter conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/create-filter-config-using-scripting.html
-release: australia
+release: brazil
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Filter configuration for contextual search, Configuring contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -88,5 +88,5 @@ Check box to activate the filter configuration.
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Filter configuration for contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/filter-configuration-for-cxs.md)
+**Parent Topic:**[Filter configuration for contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/filter-configuration-for-cxs.md)
 

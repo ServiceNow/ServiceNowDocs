@@ -3,9 +3,9 @@ title: Feature context parameters supported in Engagement Messenger
 description: Features for contextual launch capability enable you to set the default launch screen in Engagement Messenger.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/contextual-launch-supported-features.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Service Management]
 ---
@@ -290,5 +290,5 @@ None
 </table>**Related topics**  
 
 
-[Launch a feature in Engagement Messenger using custom code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-using-script-engagement-messenger.md)
+[Launch a feature in Engagement Messenger using custom code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/contextual-launch-using-script-engagement-messenger.md)
 

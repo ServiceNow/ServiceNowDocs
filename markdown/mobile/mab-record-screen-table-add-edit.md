@@ -3,9 +3,9 @@ title: Create reference record entries in record screen tables
 description: Create new entries in the record screen tables of the Mobile App Builder. View where the Now Mobile configuration tree displays the new entry in the hierarchy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mab-record-screen-table-add-edit.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the Mobile App Builder, Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Create new entries in the record screen tables of the Mobile App Builder. View w
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## Procedure
 

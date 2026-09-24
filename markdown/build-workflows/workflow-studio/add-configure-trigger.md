@@ -3,11 +3,11 @@ title: Add and configure a trigger in a playbook
 description: Begin building your playbook by adding and configuring the trigger.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-configure-trigger.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Triggers, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ Begin building your playbook by adding and configuring the trigger.
 
 Role required: playbook.admin or pd\_author
 
-Review [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md).
+Review [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md).
 
 ## About this task
 
@@ -62,7 +62,7 @@ Go to **Add trigger** &gt; **Record based** and select when you want the playboo
 -   When record is updated
 -   When record is created or updated
 Specify the following settings and select **Save and close**.1.  If required, specify a different table for the trigger than the parent table.
-2.  Select **Run this trigger on extended tables** if you want the playbook to run on [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension-and-classes.md).
+2.  Select **Run this trigger on extended tables** if you want the playbook to run on [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-extension-and-classes.md).
 3.  Select **Trigger on unique values** if you want the playbook to run only on unique changes of the record values.
 
 If you edit and reactivate an existing playbook, the playbook may run automatically for a fulfilled trigger. To prevent the playbook from running again for the same trigger, select the trigger to run on unique values.
@@ -78,7 +78,7 @@ Scheduled
 
 1.  Select **Add trigger** &gt; **Scheduled**.
 2.  Specify the scheduling details and the conditions for the trigger and select **Save and close**.
-For more information about scheduling a trigger, see [Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)
+For more information about scheduling a trigger, see [Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)
 
 </td></tr></tbody>
 </table>
@@ -88,7 +88,7 @@ The trigger is configured.
 
 ## What to do next
 
-[Add and configure your stages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-stage.md)
+[Add and configure your stages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/add-configure-stage.md)
 
-**Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
+**Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 

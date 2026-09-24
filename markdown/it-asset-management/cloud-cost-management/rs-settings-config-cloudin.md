@@ -3,11 +3,11 @@ title: Configure Rightsizing operations
 description: Configure Rightsizing processes and specify the amount of potential rightsizing savings that triggers notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/rs-settings-config-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Resize resources with Rightsizing, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -92,7 +92,7 @@ Notify users / Notify groups
 
 </td><td>
 
-Users or groups to notify by email when the spend for incorrectly sized resources exceeds the specified percentage of overall cloud spend. For information on configuring the email, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md).
+Users or groups to notify by email when the spend for incorrectly sized resources exceeds the specified percentage of overall cloud spend. For information on configuring the email, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAnEmailTemplate.md).
 
 </td></tr><tr><td>
 
@@ -142,10 +142,10 @@ This field appears only when the **Advanced** check box is selected.
 </table>4.  Select **Save**.
 
 
--   **[Specify rate discounts to enable accurate pricing for Rightsizing recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/discounts-specify-cloudin.md)**  
-To generate an accurate Rightsizing recommendation, the system analyzes usage data for the last 14 days, obtains prices from the price sheet data tables, and then applies appropriate discounts. To enable the calculations, specify the provider's discount rate for each service account.
--   **[Define a metric threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/define-metric-threshold.md)**  
+-   **[Specify rate discounts to enable accurate pricing for Rightsizing recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/discounts-specify-cloudin.md)**  
+Specify the provider's discount rate for each service account to enable Rightsizing calculations. To generate accurate recommendations, the system analyzes 14 days of usage data, applies price sheet rates, and appropriate discounts.
+-   **[Define a metric threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/define-metric-threshold.md)**  
 To enable accurate memory usage data for use in generating Rightsizing recommendations, you first define memory metrics in your account. You then define a custom memory metric in Cloud Cost Management.
 
-**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)
+**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)
 

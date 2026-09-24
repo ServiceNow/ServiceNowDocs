@@ -3,11 +3,11 @@ title: Cisco ThousandEyes templates for Service Observability
 description: Templates used to create Cisco ThousandEyes synthetics dashboard in Service Observability. You can edit this template as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/cisco-thousand-eyes-templates-for-service-observability.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -16,10 +16,10 @@ breadcrumb: [Service Observability templates, Service Observability reference, S
 
 Templates used to create Cisco ThousandEyes synthetics dashboard in Service Observability. You can edit this template as needed.
 
-See [Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md) for more information.
+See [Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md) for more information.
 
--   **[Cisco ThousandEyes Observability tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/cisco-thousand-eyes-observability-tab-for-service-observability.md)**  
+-   **[Cisco ThousandEyes Observability tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/cisco-thousand-eyes-observability-tab-for-service-observability.md)**  
 Dashboard and charts on the Cisco ThousandEyes Observability tab of the Service Details page in the SOW.
 
-**Parent Topic:**[Service Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/observability-templates.md)
+**Parent Topic:**[Service Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/observability-templates.md)
 

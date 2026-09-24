@@ -3,11 +3,11 @@ title: Configure widget instances
 description: Create unique instances of widgets by configuring the options for each instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/c\_ConfigureWidgetInstances.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,15 +18,15 @@ Create unique instances of widgets by configuring the options for each instance.
 
 ## Before you begin
 
-Create or edit a portal page and add widgets to it. You can also configure the existing widget instances on a base system page. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
+Create or edit a portal page and add widgets to it. You can also configure the existing widget instances on a base system page. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md).
 
 Role required: sp\_admin or admin
 
 ## About this task
 
-You can have several instances of the same widget on a page, and each instance of the widget you configure remains unique. For example, each instance of the [Cool Clock widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/cool-clock-widget.md) on a page could use a different time zone.
+You can have several instances of the same widget on a page, and each instance of the widget you configure remains unique. For example, each instance of the [Cool Clock widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/cool-clock-widget.md) on a page could use a different time zone.
 
-Adding a widget to a page creates a record on the Widget Instances \[sp\_instance\] table with the following information:
+Each time you add a widget to a page it creates a record on the Widget Instances \[sp\_instance\] table with the following information:
 
 -   A reference to the widget
 -   A reference to the column of the page where the widget is located
@@ -44,7 +44,7 @@ Adding a widget to a page creates a record on the Widget Instances \[sp\_instanc
 
 4.  In the Service Portal Designer, move to a widget instance and select the Edit icon \(\[Omitted image "WidgetEditIcon.png"\] Alt text: Edit icon\).
 
-5.  In the instance options window, complete the fields to configure the widget instance.
+5.  In the instance options window, fill in the fields to configure the widget instance.
 
     Instance options vary depending on which widget you select.
 
@@ -53,11 +53,11 @@ Adding a widget to a page creates a record on the Widget Instances \[sp\_instanc
 
 ## Configure widget instance options
 
-\[Omitted image "WidgetInstanceOptions.gif"\] Alt text: Gif showing how to access widget instance options from the Service Portal Designer.
+\[Omitted image "WidgetInstanceOptions.gif"\] Alt text: Gif showing how to access widget instance options from the Service Portal Designer
 
 ## What to do next
 
-Advanced users can define what options are available for a widget. For more information, see [Widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_WidgetInstanceOptions.md).
+Advanced users can define what options are available for a widget. For more information, see [Widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/c_WidgetInstanceOptions.md).
 
-**Parent Topic:**[Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
+**Parent Topic:**[Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
 

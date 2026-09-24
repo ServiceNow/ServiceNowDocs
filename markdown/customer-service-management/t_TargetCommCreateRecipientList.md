@@ -3,9 +3,9 @@ title: Create a recipients list
 description: Create and save a list of users to receive targeted communications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommCreateRecipientList.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_publications.author, sn\_publications.admin, sn\_customerserv
 
 ## About this task
 
-A recipient list can include internal users, accounts, contacts, or consumers. Create a recipient list using any of the following methods:
+A recipient list can include internal users, accounts, contacts, consumers, or business organizations. Create a recipient list using any of the following methods:
 
 -   By importing a list of users.
 -   By creating a dynamic list based on selected conditions.
@@ -64,6 +64,7 @@ The type of recipients to include in the list.-   Contacts \(customer\_contacts\
 -   Internal Users \(sys\_user\)
 -   Consumers \(csm\_consumer\)
 -   Accounts \(customer\_account\)
+-   Business Organizations \(business\_organizations\)
 
 
 </td></tr><tr><td>

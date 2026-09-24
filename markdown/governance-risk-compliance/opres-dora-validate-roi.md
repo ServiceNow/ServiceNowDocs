@@ -3,11 +3,11 @@ title: Validation framework for Register of Information in Operational Resilienc
 description: The validation framework helps to verify that RoI packages meet regulatory requirements defined by the DORA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/opres-dora-validate-roi.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Exploring Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Validation framework for Register of Information in Operational Resilience
@@ -20,11 +20,13 @@ The validation framework for the Digital Resilience Third-party Information Regi
 
 -   Level 1 \(Technical checks\): 29 rules validating file encoding, structure, and naming.
 -   Level 2 \(Data package mode technical checks\): 12 rules ensuring template and schema alignment.
--   Level 3 \(Data package model business rules\): 70 rules verifying regulatory logic and field dependencies.
+-   Level 3 \(Data package model business rules\): 70 rules verifying regulatory logic and field dependencies, including referential integrity checks between related reporting sheets.
 
 **Note:** The Data Package Model is used to structure and validate RoI packages.
 
-Operational Resilience administrators can view and maintain validation logic and configuration settings using the DPM business validation rules and the report.json, reportPackage.json, and FrameworkCodeModuleVersion properties. These settings support CSV reporting and automated validation. Operational Resilience administrators can access these properties by navigating to **All** &gt; **Digital Operational Resilience Management** and then selecting **Properties** or **DPM Business Validation Rules**.
+The DPM business validation rules and report.json, reportPackage.json, FrameworkCodeModuleVersion properties are available for configuration. Administrators can view and maintain validation logic and configuration settings for CSV reporting and automated validation.
+
+The administrators can access these properties by navigating to **All** &gt; **Digital Operational Resilience Management** and then selecting **Properties** or **DPM Business Validation Rules**.
 
 The decimalsMonetary property controls decimal precision for monetary values in the generated RoI package. Enter a negative value to round values to the nearest order of magnitude \(for example, "-3" rounds to the nearest thousand\). Enter a positive value to retain that many decimal places instead of rounding \(for example, "2" retains two decimal places\).
 
@@ -86,7 +88,7 @@ Refer to the following guidance to troubleshoot common validation issues when su
 -   Validation report is difficult to interpret: The report lacks context or field labels are unclear. Download the template and use it to cross-reference the row number, sheet name, and record identifier. This helps locate the affected record and understand the validation error in context.
 -   File size or encoding issues: The uploaded ZIP file exceeds the 5 MB limit or uses unsupported encoding. Compress the file to meet the size requirement and ensure all CSV files use UTF-8 encoding. Re-upload the corrected package.
 
-For more information, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-validate-roi.md).
+For more information, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/opres-drtp-validate-roi.md).
 
-**Parent Topic:**[Exploring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/exploring-digi-resi-third-party-registers.md)
+**Parent Topic:**[Exploring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/exploring-digi-resi-third-party-registers.md)
 

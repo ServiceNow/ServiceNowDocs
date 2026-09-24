@@ -3,11 +3,11 @@ title: Explore limit concurrent sessions
 description: You can limit the number of concurrent interactive sessions for a user or role on an instance across all nodes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/explore-lcs.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Limit concurrent sessions, Authentication, Access Management]
 ---

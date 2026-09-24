@@ -1,0 +1,33 @@
+---
+title: Chat streaming responses
+description: Synthesized responses stream in real time for ServiceNow Otto LLM chat conversations instead of waiting for the entire message to render. Streaming enables responses from the LLM to be sent immediately to help improve performance when replying to requests.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/streaming-responses-requestor.html
+release: brazil
+product: Virtual Agent
+classification: virtual-agent
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [Using, ServiceNow Otto, Virtual Agent, AI Search, Streaming, genius results, generative AI]
+breadcrumb: [Using ServiceNow Otto for Virtual Agent, Use, Virtual Agent, Conversational Interfaces]
+---
+
+# Chat streaming responses
+
+Synthesized responses stream in real time for ServiceNow Otto LLM chat conversations instead of waiting for the entire message to render. Streaming enables responses from the LLM to be sent immediately to help improve performance when replying to requests.
+
+LLM response messages stream for synthesized responses as they’re generated instead of appearing all at once to end users. Responses stream in either one letter or one word at a time. After end users enter a question or request into the chat, synthesized responses begin to stream in and stop streaming after the full message has been delivered. While the response is generating, various loading messages \(such as `Generating an answer`\) appear. For more information and examples of loading messages, see [Latency feedback in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/latency-feedback.md). An animated sparkle \[Omitted image "icon-ai-sparkle.png"\] Alt text: Animated AI sparkle icon. icon appears while the response is generating. The animated sparkle \[Omitted image "icon-ai-sparkle.png"\] Alt text: Animated AI sparkle icon. icon changes to the static branded Virtual Agent icon after the response has fully loaded.
+
+**Tip:** If you want to turn off the animated sparkle icon during streaming, set **sn\_nowassist\_va.nass\_animated\_avatar\_enabled** to `false` in the System Property \[sys\_properties\] table. When the animated sparkle icon is off, the loading messages are followed by an animated ellipsis \[Omitted image "ellipsis-horizontal-fill-24.svg"\] Alt text: Animated ellipsis icon. icon. For more information about this system property, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+For standard chat, the **Show more** link appears after six lines of text is streamed. Selecting **Show more** streams the remainder of the message until the full message is delivered.
+
+\[Omitted image "nava-streamed-full-message.png"\] Alt text: Fully streamed response example showing six lines of text before the Show more link and Sources section.
+
+For enhanced chat, streaming is applicable to the synthesized response wherever it applies. When streaming completes, the entire synthesized response displays, rather than a truncated response, in the chat window or enhanced chat. The synthesized response can stream in the chat window or on the portal's search results page, as well as the enhanced chat's **ServiceNow Otto** tab.
+
+To enable streaming, configure your AI assistants to stream responses during the ServiceNow Otto for Virtual Agent guided setup. For more information, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
+
+**Important:** The streaming feature isn’t available when dynamic translation is turned on. To enable streaming, dynamic translation must be turned off.
+

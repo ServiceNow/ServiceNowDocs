@@ -3,9 +3,9 @@ title: Working with Conversations
 description: Learn how to use the various features available in conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/working-with-conversations.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Impact Conversations, Using Impact, Impact]
 ---

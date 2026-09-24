@@ -3,11 +3,11 @@ title: Agent Client Collector File-Based Discovery
 description: Agent Client Collector File-Based Discovery \(FBD\) scans file systems on managed endpoints to discover installed software and track file inventories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/file-based-discovery-overview.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [file-based discovery, FBD, agent client collector, software discovery, file inventory]
 breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -21,9 +21,9 @@ FBD runs as a lightweight background process within the existing Agent Client Co
 
 To activate FBD, navigate to the Discovery Configuration Console \(**All** &gt; **Discovery Definition** &gt; **Configuration Console**\) and in the **File Based Discovery** section, activate the **Enable File Based Discovery** toggle switch.
 
-\[Omitted image "DiscoConfigConsole.png"\] Alt text: Discovery Configuration Console
+\[Omitted image "discovery-configuration-console.png"\] Alt text: Discovery Configuration Console
 
-For details on the FBD configuration and system properties, see [Agent Client Collector File-Based Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/file-based-discovery-configuration-properties.md).
+For details on the FBD configuration and system properties, see [Agent Client Collector File-Based Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/file-based-discovery-configuration-properties.md).
 
 ## Supported platforms
 
@@ -67,14 +67,12 @@ When archive file scanning is enabled, the agent inspects each ZIP or JAR file e
 
 For each file found inside an archive, the agent applies the same filtering rules used for regular files on disk, including SAM allowlist and File Management extension rules. Files that pass the filters are reported alongside other discovered files.
 
-For filtering rules and performance safeguards, see [Archive file scanning filtering rules and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/archive-file-scanning-reference.md).
+For filtering rules and performance safeguards, see [Archive file scanning filtering rules and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/archive-file-scanning-reference.md).
 
--   **[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/running-process-based-discovery.md)**  
+-   **[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/running-process-based-discovery.md)**  
 Running process-based discovery extends File-Based Discovery \(FBD\) with process-based path detection, enabling the Agent Client Collector for Visibility Content agent to detect software running outside of standard configured scan directories.
--   **[License key discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/license-key-discovery.md)**  
-License key discovery in Agent Client Collector for Visibility Content automatically collects software license keys from the Windows registry on managed endpoints.
--   **[Configure a license key discovery rule and write a parser script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-license-key-rule.md)**  
-Enable license key discovery to verify the legitimacy of your software installation. Set up support for a new vendor's license file format by creating a parser script and defining a matching rule.
+-   **[Discovering a license key in a file-based discovery framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/license-key-discovery-fbd.md)**  
+License key discovery across Windows, Linux, and macOS enables ACC to automatically identify and create an inventory of license keys stored in files on managed computers. A license key proves that software installation is legitimate and is being used within the boundaries the vendor agreed to at the time of purchase.
 
-**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

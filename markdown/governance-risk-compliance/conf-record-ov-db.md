@@ -3,9 +3,9 @@ title: Configure a record overview dashboard
 description: Add Platform Analytics reports to the Overview tab of a BCM record page. Only BCM admins can configure record overview dashboards. Reports added to an overview page are automatically pre-filtered to the current record and are visible in read-only mode to all users who can access that record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/conf-record-ov-db.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics dashboards, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

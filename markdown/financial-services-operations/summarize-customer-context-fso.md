@@ -3,9 +3,9 @@ title: Summarize banking customer interaction context with AI
 description: The Customer Interaction Context Summary skill is used in the Interaction page. It automatically generates a structured summary of customer service interactions, helping banking service representatives quickly understand customer context and interaction history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/summarize-customer-context-fso.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -16,7 +16,7 @@ The Customer Interaction Context Summary skill is used in the Interaction page. 
 
 ## Before you begin
 
-This skill uses indexed sources for AI search that requires configuration after install. For more information, see [Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-ai-indexing-fso-contact-center.md).
+This skill uses indexed sources for AI search that requires configuration after install. For more information, see [Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-ai-indexing-fso-contact-center.md).
 
 Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
@@ -25,6 +25,8 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 ## About this task
 
 The customer interaction context summary skill provides a structured, context-aware summary of a customer service interaction in the Interaction page as part of Agentic Contact Center for Banking.
+
+\[Omitted image "agentic-contact-center-interaction-context-summary.png"\] Alt text: Customer context summary panel showing customer information, contact reason, related cases, and related products with balances.
 
 ## Procedure
 
@@ -40,15 +42,15 @@ The customer interaction context summary skill provides a structured, context-aw
 
 3.  After the summary is generated, you can perform additional actions.
 
-<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d55330e137">
+<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d55401e144">
 
 Option
 
-</th><th align="left" id="d55330e140">
+</th><th align="left" id="d55401e147">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d55330e146">
+</th></tr></thead><tbody><tr><td id="d55401e153">
 
 **Provide feedback for the summary**
 
@@ -56,7 +58,7 @@ Procedure
 
 If you think the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text:\). If you think the summary wasn't helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text:\).This feedback improves the generative AI model and can help improve future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d55330e167">
+</td></tr><tr><td id="d55401e174">
 
 **View the information about the case summary**
 
@@ -64,7 +66,7 @@ If you think the summary was helpful, select the helpful icon \(\[Omitted image 
 
 To review details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text:\).
 
-</td></tr><tr><td id="d55330e181">
+</td></tr><tr><td id="d55401e188">
 
 **Expand or collapse the summary**
 
@@ -76,16 +78,16 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text:\) or
 </table>
 ## What to do next
 
-Engage with an AI agent to get further analysis and suggested responses for this interaction. For more information, see [Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/request-ai-agent-interaction-workspace.md).
+Engage with an AI agent to get further analysis and suggested responses for this interaction. For more information, see [Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/request-ai-agent-interaction-workspace.md).
 
-**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
+**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[AI in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
+[AI in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
 
-[AI skills in Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-skills-agentic-contact-center-banking.md)
+[AI skills in Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/ai-skills-agentic-contact-center-banking.md)
 
-[Configure banking customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-customer-contextual-summarization-fso.md)
+[Configure banking customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-customer-contextual-summarization-fso.md)
 

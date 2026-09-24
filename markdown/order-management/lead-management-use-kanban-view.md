@@ -3,9 +3,9 @@ title: Manage leads using Kanban view
 description: Personalize and manage the leads information that is most relevant to you and your stakeholders using the Kanban view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management-use-kanban-view.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -31,14 +31,14 @@ Role required: sales\_agent
     -   To change a lead stage, drag the lead card from one state and drop it into another state.
     -   To view the leads by different categories, such as industry, source, and reason, select **Group by:** drop-down menu on the page.
     -   You can take various actions for your leads, such as creating a lead task, assigning a lead, and composing an email by selecting the three vertical dots \[Omitted image "icon-three-dots.png"\] Alt text: either on a lead card or vertical leads stage header.
-    -   To create a new lead directly from this page, select **New** button. To learn more, see [Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-lead.md).
+    -   To create a new lead directly from this page, select **New** button. To learn more, see [Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-new-lead.md).
 
-**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management-using.md)
 
 **Related topics**  
 
 
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-lead-management.md)
 
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-management.md)
 

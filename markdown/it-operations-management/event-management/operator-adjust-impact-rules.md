@@ -3,11 +3,11 @@ title: Adjust alert impact while triaging an alert
 description: As an Event Management operator, you might need to modify the impact that an alert has on an application service and on the CIs in a service. Adjust the impact when it does not accurately represent your network environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-adjust-impact-rules.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Advanced operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -44,7 +44,7 @@ Before you make any modifications to impact calculations, make sure that you und
 
     \[Omitted image "operator-impact-rules-biz-service.png"\] Alt text: Impact rules
 
-    Notice that the impact on the Web portal itself is red, meaning critical. Only one of the Linux servers that it relies upon has a critical alert. The other Linux Server is not impacted by the alert. Assume for this example that the Linux servers perform different roles for the web service. Even though **PS LinuxApp02** has a critical alert, the **PS LinuxApp01** server can adequately provide all the necessary services to keep the application service operational.
+    Notice that the impact on the Web portal itself is red, meaning critical. This is true even though only one of the Linux servers that it relies upon actually has a critical alert. The other Linux Server is not impacted by the alert. Assume for this example that the Linux servers perform different roles for the web service. Even though **PS LinuxApp02** has a critical alert, the **PS LinuxApp01** server can adequately provide all the necessary services to keep the application service operational.
 
 7.  Click the **PS Apache03** CI, and then click **Impact** to display the impact rules for the CI.
 
@@ -56,15 +56,15 @@ Before you make any modifications to impact calculations, make sure that you und
     -   The **Critical** column shows you that a critical alert \(red\) is inherited as critical alert \(red\).
 8.  Change the **Influence** value to `0` since the web server is still operational.
 
-    Change the **Critical** column to indicate that a critical impact status \(red\) should be inherited as a non-impact \(green\).
+9.  Change the **Critical** column to indicate that a critical impact status \(red\) should be inherited as a non-impact \(green\).
 
-9.  Wait for the dashboard to update automatically, or click **Event Management** &gt; **Service Operations Workspace** and double-click the same application service to get an updated application service map.
+10. Wait for the dashboard to update automatically, or click **Event Management** &gt; **Service Operations Workspace** and double-click the same application service to get an updated application service map.
 
     Notice that the influence on the Apache web server is 0% and the impact status is green. Also notice that the critical alert status \(red\) remains unchanged, even though the impact changed to green.
 
     \[Omitted image "operator-adjust-impact-rules.png"\] Alt text: Impact
 
-10. Navigate back to the Service Operations Workspace dashboard.
+11. Navigate back to the Service Operations Workspace dashboard.
 
     Notice that the application service is now green, indicating that the overall application service is operational. The critical alert still displays at the bottom in the Alerts list, indicating that there is still an issue that you or other operators can address.
 
@@ -73,5 +73,5 @@ Before you make any modifications to impact calculations, make sure that you und
 
 Your administrator might configure additional impact rules that display when you click a CI in the application service map. You can make adjustments to the **Influence** fields on any impact rule to get the most accurate impact tree.
 
-**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-advanced-tasks.md)
+**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-advanced-tasks.md)
 

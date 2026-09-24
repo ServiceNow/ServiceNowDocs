@@ -3,11 +3,11 @@ title: Add custom fields for a planning tool integration
 description: Add custom fields into your planning tool integration to improve configurability and access business-specific information, which facilitates more informed decision-making.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/add-custom-field-for-a-planning-tool-integration.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -84,10 +84,10 @@ You can add custom fields to a planning tool integration by using record transfo
     **Note:** You can add multiple field mappings for an action as per your requirement.
 
 
-**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
+**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 
 **Related topics**  
 
 
-[Transformer - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TransformerScriptedAPI.md)
+[Transformer - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/TransformerScriptedAPI.md)
 

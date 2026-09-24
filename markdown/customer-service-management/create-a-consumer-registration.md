@@ -3,11 +3,11 @@ title: Register for the Consumer Service Portal
 description: Register for the Consumer Service Portal to gain access and create a consumer profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-a-consumer-registration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Register for the Consumer Service Portal
@@ -46,5 +46,5 @@ Your registration is complete. You can now log in to the Consumer Service Portal
 **Related topics**  
 
 
-[Log in to the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/log-in-to-consumer-service-portal.md)
+[Log in to the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/log-in-to-consumer-service-portal.md)
 

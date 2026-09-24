@@ -3,11 +3,11 @@ title: Request a catalog item from Employee Center
 description: Use the SC Catalog Item widget in Employee Center to request a catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-cat-item-ec.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog in Employee Center portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d309772e96">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d308326e96">
 
 **Add attachments**
 
@@ -40,7 +40,7 @@ Role required: requester
 
 To add one or more attachments to the catalog item, select the choose a file link to browse and choose the files or directly drag the files in the **Add attachments** window.
 
-</td></tr><tr><td id="d309772e108">
+</td></tr><tr><td id="d308326e108">
 
 **Add to Cart**
 
@@ -48,7 +48,7 @@ To add one or more attachments to the catalog item, select the choose a file lin
 
 To add the catalog item to the shopping cart, click **Add to Cart**.
 
-</td></tr><tr><td id="d309772e120">
+</td></tr><tr><td id="d308326e120">
 
 **Add to Wish List**
 
@@ -72,5 +72,5 @@ To add the catalog item to the wish list, click the Add to Wish List icon \(\[Om
     The corresponding request is displayed in the My Requests page with the request number, estimated delivery date for the order, price, and the order status.
 
 
-**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 

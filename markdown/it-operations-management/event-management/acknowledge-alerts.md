@@ -3,13 +3,13 @@ title: Acknowledge viewed alerts in Express List
 description: Acknowledge alerts that you’ve viewed to remove clutter in the Express List pane.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/acknowledge-alerts.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage alert states in Express List, Assign and manage alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Acknowledge viewed alerts in Express List
@@ -36,15 +36,15 @@ Use Acknowledge to denote that the alert is known, and can temporarily be ignore
 
     You can acknowledge alerts regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d503598e95">
+<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d506991e95">
 
 Location
 
-</th><th align="left" id="d503598e98">
+</th><th align="left" id="d506991e98">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d503598e104">
+</th></tr></thead><tbody><tr><td id="d506991e104">
 
 **The Express List pane**
 
@@ -61,7 +61,7 @@ To display the individual alerts inside a group, select the chevron icon \(\[Omi
 2.  From the **Close** drop-down list at the top right of the alert list, select **Acknowledge**.
 
 
-</td></tr><tr><td id="d503598e157">
+</td></tr><tr><td id="d506991e157">
 
 **The Express List preview panel for group alerts**
 

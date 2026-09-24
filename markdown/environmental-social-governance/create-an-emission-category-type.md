@@ -3,9 +3,9 @@ title: Create an emission category type
 description: Create emission category types to define the categories for which you want to report scope 3 data that will be displayed on the Scope 3 dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-an-emission-category-type.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Scope 3 dashboard, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -40,7 +40,7 @@ Category type
 
 </td><td>
 
-Type of category for which you're creating the record. The choices are as follows.-   **Supplier category**
+Type of category for which you are creating the record. The choices are as follows.-   **Supplier category**
 -   **Spend category**
 -   **GHG category**
 
@@ -73,5 +73,5 @@ EEIO emission activity associated with the category type. The selection made in 
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
+**Parent Topic:**[Configuring the Scope 3 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-the-scope-3-dashboard.md)
 

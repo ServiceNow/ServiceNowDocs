@@ -3,11 +3,11 @@ title: Set up a JWT key
 description: Configure a JWT key to enable secure authentication for Card Data Security. This is used to sign the authentication tokens that ServiceNow sends to external systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-a-jwt-key.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [set up jwt key, jwt key, json web token key, signing keystore, signing key, key id, system oauth jwt keys, card data security jwt, configure jwt key, x509 certificate signing]
 breadcrumb: [Set up OAuth for Card Data Security, Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -29,8 +29,8 @@ Card network \(Visa, Mastercard\)
 
 </td><td>
 
--   A X.509 certificate created for Card Data Security. See [Create an X.509 Certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-an-x-509-certificate.md) for more information.
--   The key alias that was defined when generating the JKS file for Card Data Security. See [Create a JKS file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-a-jks-file.md) for more information.
+-   A X.509 certificate created for Card Data Security. See [Create an X.509 Certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/create-an-x-509-certificate.md) for more information.
+-   The key alias that was defined when generating the JKS file for Card Data Security. See [Create a JKS file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/create-a-jks-file.md) for more information.
 -   The credentials JSON file obtained from the tokenizer service.
 
 </td></tr><tr><td>
@@ -39,7 +39,7 @@ Verifi
 
 </td><td>
 
-See [Set up Verifi integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-oauth-for-card-data-security.md) for a list of required values.
+See [Set up Verifi integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/set-up-oauth-for-card-data-security.md) for a list of required values.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -75,5 +75,5 @@ A JWT Key record is created.
 
 ## What to do next
 
-[Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-provider.md).
+[Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/set-up-a-jwt-provider.md).
 

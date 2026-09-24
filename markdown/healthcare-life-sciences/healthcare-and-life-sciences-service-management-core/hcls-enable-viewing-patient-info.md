@@ -3,11 +3,11 @@ title: Display patient information on a healthcare case type in Healthcare works
 description: Improve agent efficiency and the quality of patient interactions by enabling healthcare agents to view relevant patient information within a case that extends the healthcare case type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-enable-viewing-patient-info.html
-release: australia
+release: brazil
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up your Healthcare Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Extend the healthcare case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-extend-table.md).
+[Extend the healthcare case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-extend-table.md).
 
 </td><td>
 
@@ -36,7 +36,7 @@ Extend the Healthcare case \[sn\_hcls\_case\] table to create a case type for vi
 
 </td></tr><tr><td>
 
-[Set up the interaction form to create healthcare cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-case-ui-action.md).
+[Set up the interaction form to create healthcare cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-case-ui-action.md).
 
 </td><td>
 
@@ -44,7 +44,7 @@ Add a create case UI action to enable agents to create a healthcare case from an
 
 </td></tr><tr><td>
 
-[Create ACL rules for the extended Healthcare case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-acls.md).
+[Create ACL rules for the extended Healthcare case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-acls.md).
 
 </td><td>
 

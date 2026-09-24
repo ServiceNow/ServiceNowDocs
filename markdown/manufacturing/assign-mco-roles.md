@@ -3,9 +3,9 @@ title: Assigning roles in Manufacturing Commercial Operations
 description: Assign roles to control access to features, capabilities, and data in the Manufacturing Commercial Operations Core application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/assign-mco-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Manufacturing Commercial Operations]
 ---
@@ -16,7 +16,7 @@ Assign roles to control access to features, capabilities, and data in the Manufa
 
 ## Before you begin
 
-Set the application scope to Manufacturing Commercial Operations using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to Manufacturing Commercial Operations using the application picker. For more information, see Application picker.
 
 Role required: admin or sn\_mfg\_cmn.manufacturing\_operations\_admin
 
@@ -381,11 +381,11 @@ Create, view, update, and cancel a non-conformance case. Create a correction act
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
-    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).
+    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md).
 
 **Related topics**  
 
 
-[Set up Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-setup.md)
+[Set up Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-setup.md)
 

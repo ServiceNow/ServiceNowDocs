@@ -3,11 +3,11 @@ title: Create a Data snapshots formula indicator
 description: Create a formula indicator to calculate a score from two or more Data snapshots indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-ds-formula-ind.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data snapshots and multiple breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -21,7 +21,7 @@ Create a formula indicator to calculate a score from two or more Data snapshots 
 Determine whether your use case meets the following requirements:
 
 -   Your license enables you to create indicators.
--   You have Data snapshots enabled on your instance. For more information, see [Activate Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md).
+-   You have Data snapshots enabled on your instance. For more information, see [Activate Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md).
 -   You have suitable Data snapshots automated indicators.
 
 Role required: pa\_power\_user, pa\_admin, or admin
@@ -49,7 +49,7 @@ The fields of a formula indicator are similar to the fields of an automated indi
 
 2.  Follow one of these procedures to start creating a Data snapshots automated indicator:
 
-    -   Create an indicator from the Indicator library, as described in [Create an indicator from the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-indicator-from-library.md).
+    -   Create an indicator from the Indicator library, as described in [Create an indicator from the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-indicator-from-library.md).
     -   Navigate to **All** &gt; **Data Snapshots** &gt; **Indicators** &gt; **Formula Indicators - Data Snapshots** and select **New**.
 3.  If you selected **Create indicator** from the indicator library, select the Formula indicator type and Data snapshots source type.
 
@@ -88,5 +88,5 @@ The fields of a formula indicator are similar to the fields of an automated indi
 10. Select **Submit** or **Update**.
 
 
-**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)
+**Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 

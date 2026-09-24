@@ -3,9 +3,9 @@ title: Task assignees table for crew members or equipment
 description: The task assignees table shows all the crew members or equipment assigned to a given work order task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/task-assignees-table.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Field Service Management]
 ---
@@ -26,5 +26,5 @@ The task assignees table shows all the crew members or equipment assigned to a g
 |Work duration|The total time spent working on the task including any pauses and breaks.|
 |Actual work duration|The total time spent working on the task not including any pauses and breaks.|
 
-**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-reference.md)
 

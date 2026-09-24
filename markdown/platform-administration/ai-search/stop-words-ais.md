@@ -3,11 +3,11 @@ title: Stop words
 description: Stop words remove search query terms that don't produce meaningful results. Improve search precision and relevancy by configuring stop word dictionaries and defining stop words.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/stop-words-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,7 +34,7 @@ To be eligible for removal from a search query's terms, a stop word must satisfy
 
 -   It must be active.
 -   The stop word dictionary that includes it must be published.
--   Its length doesn't exceed the [dictionary term-length limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md).
+-   Its length doesn't exceed the [dictionary term-length limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/stop-words-ais.md).
 
 The system locates eligible stop words in stop word dictionaries as follows:
 
@@ -63,13 +63,13 @@ The search profile specified for the search query doesn't link to a published st
 The system only considers stop words from the default \(English\) stop word dictionary. As an example, suppose a search application's search profile has no linked Spanish stop word dictionary. When a user searches in Spanish in this application, only stop words from the default \(English\) stop word dictionary are eligible for removal from the search query terms.
 
 </td></tr></tbody>
-</table>For more details on language support in stop word dictionaries, see [Language dependence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md).
+</table>For more details on language support in stop word dictionaries, see [Language dependence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/stop-words-ais.md).
 
 ## Dictionary term-length limit
 
 By default, AI Search ignores stop word terms that exceed 256 characters in length. You can override this default limit by adding the **query.maxDictionaryTermLength** system property. The integer value of this system property indicates the maximum allowable character length for stop word and synonym dictionary terms.
 
-For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Warning:** Exercise caution when increasing the dictionary term-length limit beyond its default value. Processing long dictionary terms increases AI Search's memory usage, and in some cases search queries may fail with out-of-memory errors.
 
@@ -108,7 +108,7 @@ Stop word removal is language-dependent. You specify a language for each stop wo
 
 **Note:** If the search profile specified for a search query has no linked stop word dictionary for the search query language, AI Search uses the default \(English\) stop word dictionary as a fallback.
 
-AI Search supports stop word dictionaries for all languages activated in your instance. For the list of languages you can activate, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+AI Search supports stop word dictionaries for all languages activated in your instance. For the list of languages you can activate, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 You can only link one stop word dictionary per language to a given search profile.
 
@@ -126,7 +126,7 @@ Interaction with stop words
 
 </th></tr></thead><tbody><tr><td>
 
-[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-results-ais.md)
+[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/genius-results-ais.md)
 
 </td><td>
 
@@ -134,7 +134,7 @@ If a search query term that matches a Genius Result configuration's Term trigger
 
 </td></tr><tr><td>
 
-[Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/lemma-unicode-normalization-ais.md)
+[Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/lemma-unicode-normalization-ais.md)
 
 </td><td>
 
@@ -142,7 +142,7 @@ If a search query term is defined as a stop word, AI Search removes that term wi
 
 </td></tr><tr><td>
 
-[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)
+[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)
 
 </td><td>
 
@@ -150,7 +150,7 @@ If a search query term that matches a result improvement rule's Query trigger is
 
 </td></tr><tr><td>
 
-[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)
+[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/synonyms-ais.md)
 
 </td><td>
 
@@ -167,7 +167,7 @@ If a synonym definition includes a term defined as a stop word, AI Search retain
 
 </td></tr><tr><td>
 
-[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)
+[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/typo-handling-ais.md)
 
 </td><td>
 
@@ -177,7 +177,7 @@ If a misspelled search query term is defined as a stop word, AI Search auto-corr
 
 </td></tr><tr><td>
 
-[Wildcard operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md)
+[Wildcard operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/use-ais.md)
 
 </td><td>
 
@@ -190,18 +190,18 @@ Publishing a stop word dictionary makes its settings and active stop words take 
 
 Publishing a search profile updates the profile's stop word dictionary links but doesn't update the dictionary's settings or active stop words in AI Search.
 
--   **[Create a stop word dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-stop-word-dict-ais.md)**  
+-   **[Create a stop word dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-stop-word-dict-ais.md)**  
 Define a new stop word dictionary and link it to a search profile.
--   **[Create stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-stop-word-ais.md)**  
+-   **[Create stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-stop-word-ais.md)**  
 Define terms to remove from search queries.
--   **[Clone a stop word dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/clone-stop-word-dictionary-ais.md)**  
+-   **[Clone a stop word dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/clone-stop-word-dictionary-ais.md)**  
 Create a copy of an existing stop word dictionary.
--   **[Link a stop word dictionary to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/link-stop-word-dict-profile-ais.md)**  
+-   **[Link a stop word dictionary to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/link-stop-word-dict-profile-ais.md)**  
 Link an existing stop word dictionary to one or more search profiles.
--   **[Unlink a stop word dictionary from a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/unlink-stop-word-dict-ais.md)**  
+-   **[Unlink a stop word dictionary from a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/unlink-stop-word-dict-ais.md)**  
 Remove a stop word dictionary that isn't linked from any search profile.
--   **[Delete a stop word dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/delete-stop-word-dict-ais.md)**  
+-   **[Delete a stop word dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/delete-stop-word-dict-ais.md)**  
 Remove a stop word dictionary that isn't linked from any search profile.
 
-**Parent Topic:**[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md)
+**Parent Topic:**[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/defining-search-profiles-ais.md)
 

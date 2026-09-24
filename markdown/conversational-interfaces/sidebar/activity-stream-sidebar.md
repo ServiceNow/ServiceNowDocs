@@ -3,11 +3,11 @@ title: Activity stream in Sidebar
 description: If Sidebar is integrated with the activity stream, you can create links to discussions and post discussion messages directly to the related record as an activity stream record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/activity-stream-sidebar.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [sidebar, Virtual Agent, activity stream, Polaris, Core UI, discussion, tile]
 breadcrumb: [Exploring Sidebar, Sidebar, Conversational Interfaces]
@@ -19,7 +19,7 @@ If Sidebar is integrated with the activity stream, you can create links to discu
 
 **Note:** Sidebar and discussion tiles are available only with Next Experience and not in Core UI.
 
-When a Sidebar discussion is created, a corresponding Sidebar discussion tile is automatically added to the activity stream. Users who have access to the record can also access the discussion from the activity stream. Sidebar users can post messages from discussions into the activity stream as Sidebar posted messages. These messages can be posted to the activity stream as editable entries that can be added and removed as necessary. For generalized information about activity streams, see [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_activity-streams.md).
+When a Sidebar discussion is created, a corresponding Sidebar discussion tile is automatically added to the activity stream. Users who have access to the record can also access the discussion from the activity stream. Sidebar users can post messages from discussions into the activity stream as Sidebar posted messages. These messages can be posted to the activity stream as editable entries that can be added and removed as necessary. For generalized information about activity streams, see [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_activity-streams.md).
 
 When you start a Sidebar discussion, a tile corresponding to the discussion is automatically added to the activity stream.
 

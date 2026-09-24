@@ -3,9 +3,9 @@ title: Activate the Financial Services Operations Integration with Socure applic
 description: Activate the Financial Services Operations Integration with Socure \(com.sn\_fso\_intg\_socure\) application so that you can embed the Socure APIs in workflows that are developed with Financial Services Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/install-fso-socure-plugin.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up, Socure, Integrate, Financial Services Operations \(FSO\)]
 ---

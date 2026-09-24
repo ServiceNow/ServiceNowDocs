@@ -3,9 +3,9 @@ title: Install GRC content packs and integrations
 description: All ServiceNow integrations are available on the ServiceNow Store. Core applications, such as Policy and Compliance Management, are visible in the ServiceNow Products tab on the store. Content pack and integration add-ons are visible in the Certified Apps tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/install-non-core-grc-app.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC and the ServiceNow Store, Governance, Risk, and Compliance]
 ---

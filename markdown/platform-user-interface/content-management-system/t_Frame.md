@@ -3,11 +3,11 @@ title: Format a frame
 description: Frames provide a way to manage decorative containers for content blocks and any other elements within the site. For example, one frame can be a container, made of div or span tags, that is styled with rounded corners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_Frame.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Style in Content Management, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -33,10 +33,10 @@ Configuring a new frame is a two-step process.
 2.  Create the frame UI macro to invoke the frame definition.
 
 
--   **[Define a frame in a style sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_DefineTheFrameInAStyleSheet.md)**  
+-   **[Define a frame in a style sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_DefineTheFrameInAStyleSheet.md)**  
 Add style definitions for any custom frame UI macro you create.
--   **[Create a frame UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateANewFrameUIMacro.md)**  
+-   **[Create a frame UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_CreateANewFrameUIMacro.md)**  
 Copy an existing frame UI macro to display content in a custom frame.
 
-**Parent Topic:**[Style in Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_StyleInContentManagement.md)
+**Parent Topic:**[Style in Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_StyleInContentManagement.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Configure the ServiceNow Otto for HRSD Virtual Agent topics
-description: Complete the configuration steps to enable your employees place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HRSD Virtual Agent topics in Employee Center.
+description: Enable employees to place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HRSD Virtual Agent topics in Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/config-va-topics.html
-release: australia
+release: brazil
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Configure the ServiceNow Otto for HRSD Virtual Agent topics
 
-Complete the configuration steps to enable your employees place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HRSD Virtual Agent topics in Employee Center.
+Enable employees to place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HRSD Virtual Agent topics in Employee Center.
 
 ## Before you begin
 
@@ -26,15 +26,15 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 2.  Configure the required ServiceNow spokes or customize spokes to pull data from HCM systems.
 
-3.  Create subflows for provider aligning with Template Integration Gateway.
+3.  Create sub-flows for provider aligning with Template Integration Gateway.
 
-    See [Create a subflow using Template Integration Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-integration-gateway.md).
+    See [Create a subflow using Template Integration Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/configure-integration-gateway.md).
 
     **Note:**
 
-    -   Subflows have been created for Oracle HCM, except for the Request Time off and Add Expense Virtual Agent topics. The Virtual Agent experience has been provided for the Request Time off and Add Expense topics, but without the back-end support through subflows. For more information on the default Virtual Agent topics, see [ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.md).
-    -   The subflows for Oracle HCM can be used as a reference to build subflows for any other HCM systems.
-4.  [Configure Integration Provider Mapping \(Decision table\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-integration-mapping.md) by adding input choices, configuring conditions on input choices and results.
+    -   Sub-flows have been created for Oracle HCM, except for the Request Time off and Add Expense Virtual Agent topics. The Virtual Agent experience has been provided for the Request Time off and Add Expense topics, but without the back-end support through sub-flows. For more information on the default Virtual Agent topics, see [ServiceNow Otto for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.md).
+    -   The subflows for Oracle HCM can be used as a reference to build sub-flows for any other HCM systems.
+4.  [Configure Integration Provider Mapping \(Decision table\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/configure-integration-mapping.md) by adding input choices, configuring conditions on input choices and results.
 
 5.  Create a Virtual Agent topic block:
 
@@ -52,5 +52,5 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 When an Virtual Agent topic invokes the Integration Gateway subflow, the subflow reviews input values in Integration Provider Mapping \(Decision table\) to execute results.
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
+**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

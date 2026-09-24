@@ -3,7 +3,7 @@ title: ICM Entity Management Firearm form
 description: The Firearm form allows you to create a new firearm entity record within an investigative case, and capture as many identifiable details about the firearm as possible. The firearm entity will automatically link to the case, with options to link the entity to another case, or another entity. Not all fields are mandatory, but a minimum amount of information is required for the record to be searchable within ICM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-case-forms-enm-fir.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

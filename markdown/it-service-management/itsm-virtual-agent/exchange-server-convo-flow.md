@@ -3,11 +3,11 @@ title: Microsoft Exchange Server meeting management pre-built topics for ITSM Vi
 description: ITSM Virtual Agent helps you manage meetings in Microsoft Exchange Server. Using the Manage Meetings EXS topic, you can schedule, reschedule, and cancel a meeting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/exchange-server-convo-flow.html
-release: australia
+release: brazil
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using ITSM Virtual Agent pre-built topics, ITSM Virtual Agent, IT Service Management]
 ---
@@ -22,9 +22,9 @@ Natural Language Understanding \(NLU\) is used to identify and trigger the meeti
 
 Requirements:
 
--   [Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/msexchangeserver-spoke.md) \(sn\_exchange\_spoke\)
+-   [Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/msexchangeserver-spoke.md) \(sn\_exchange\_spoke\)
 -   Email addresses for meeting attendees must be configured in the User \[sys\_user\] table to be added to meeting invites
--   Some topics can use the [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zoom-spoke.md) to add meeting links
+-   Some topics can use the [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zoom-spoke.md) to add meeting links
 
 **Note:** If these topics are duplicated in a different scope than ITSM Virtual Agent Conversations, script logic can be affected and cause errors. This topic must be duplicated in the ITSM Virtual Agent Conversations scope.
 
@@ -72,5 +72,5 @@ Basic flow:
 
 \[Omitted image "scheduleEXS3.png"\] Alt text: Manage Meetings EXS topic - Scheduling a meeting.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

@@ -3,11 +3,11 @@ title: Workflow event-specific functions
 description: There are several functions that relate specifically to workflow events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_WorkflowEventSpecificFunctions.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workflow events in the base system, Workflow events, Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,5 +27,5 @@ There are several functions that relate specifically to workflow events.
 |broadcastEvent \(contextId, eventName\)|Function in the workflow environment that sends an event to all currently running Workflow Executing Activity \[wf\_executing\] records in a specified context, regardless of their state.|This is the same as the fireEvent above, except that it accepts an ID and returns the Workflow Executing Activity \[wf\_executing\] record.|The Workflow script include contains the call for this. For example, from inside a **Run Script** activity, a designer can write: `var w = new Workflow(); w.broadcastEvent(contextId, eventName);`|Current thread, current mutex|Workflow script include|
 |broadcastEvent \(eventName\)|Function in the workflow environment that sends an event to all currently running Workflow Executing Activity \[wf\_executing\] records in the current context, regardless of their state.|This should not be confused with broadcastEvent above. This event is only available to current Workflow Executing Activity \[wf\_executing\] records.|This is available only through the global workflow variable of the current context. The following is an example of its use from within an activity definition's script: `workflow.broadcastEvent(eventName)`|Current thread, current mutex|Global variable workflow|
 
-**Parent Topic:**[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)
+**Parent Topic:**[Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md)
 

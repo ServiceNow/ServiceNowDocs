@@ -3,11 +3,11 @@ title: Verifying scoring calculations using the classic assessment engine
 description: You can review scores and risk ratings in your questionnaires to help ensure the accuracy and consistency of risk scoring by verifying the correct application of weights, normalized values, scoring methods, and risk rating scales. Based on the different weights you assign, Third-party Risk Management aggregates these values and produces a composite score.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-verif-q.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Scoring calculations using the classic assessment engine, Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ You can review scores and risk ratings in your questionnaires to help ensure the
 
 ## Verification checklist
 
-The \[sn\_vdr\_risk\_asmt.vendor\_assessor\] or \[sn\_vdr\_risk\_asmt.vendor\_manager\] role is required to perform all related actions by using the Vendor Management Workspace or VRM Classic user interface. For full descriptions of assessment configuration and set up, see [Classic assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ongoing-config.md).
+The \[sn\_vdr\_risk\_asmt.vendor\_assessor\] or \[sn\_vdr\_risk\_asmt.vendor\_manager\] role is required to perform all related actions by using the Vendor Management Workspace or VRM Classic user interface. For full descriptions of assessment configuration and set up, see [Classic assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ongoing-config.md).
 
 Here are some of the configurations that you can check while reviewing scores and risk ratings:
 
@@ -38,7 +38,7 @@ Scoring method
 
 Verify that the correct scoring method has been selected. You can select or update scoring methods for risk area domains, risk area criteria, and component criteria. For example, confirm that Min Risk is used instead of Average Risk if that aligns better with your assessment goals.
 
- For more information, see [Define a third-party risk domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-define.md), [Define third-party risk area criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.md), and [Define component criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.md).
+ For more information, see [Define a third-party risk domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-define.md), [Define third-party risk area criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.md), and [Define component criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.md).
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Verify the accuracy of weights applied to risk areas, risk criteria, risk compon
 
 Weight values for questions must be whole integers. Using decimals results in incorrect scores. For example, use 56 and not 0.56.
 
-For more information on how to assign or update weights, see [Define a third-party risk domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-define.md), [Define third-party risk area criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.md), [Define component criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.md), and [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
+For more information on how to assign or update weights, see [Define a third-party risk domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-define.md), [Define third-party risk area criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-criteria-df.md), [Define component criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-component-criteria-define.md), and [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
 
 </td></tr><tr><td>
 
@@ -58,9 +58,9 @@ Scoring calculations
 
 </td><td>
 
-Verify that calculations, normalized values, and unanswered questions are behaving as expected. For example, confirm that you’re accounting for unanswered questions not being included as part of the scoring calculation. For information on the different formulas used to calculate scores and ratings, see [Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md).
+Verify that calculations, normalized values, and unanswered questions are behaving as expected. For example, confirm that you’re accounting for unanswered questions not being included as part of the scoring calculation. For information on the different formulas used to calculate scores and ratings, see [Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md).
 
-For information on how to use normalized values to calculate assessment scores for Choice or Multiple Selection questions with the scored check box not selected [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
+For information on how to use normalized values to calculate assessment scores for Choice or Multiple Selection questions with the scored check box not selected [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
 
 </td></tr></tbody>
 </table>## How to view risk ratings
@@ -94,5 +94,5 @@ You can view all associated ratings for a questionnaire by navigating to its Ris
 
 \[Omitted image "tprm-calc-q-level.png"\] Alt text: Risk ratings and scores available in questionnaire record.
 
-**Parent Topic:**[Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md)
+**Parent Topic:**[Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md)
 

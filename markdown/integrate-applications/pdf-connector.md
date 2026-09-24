@@ -3,9 +3,9 @@ title: PDF connector
 description: Use the PDF connector to perform all your PDF operations from a single, unified space in RPA Desktop Design Studio. Use this connector to accelerate PDF processing for your document automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/pdf-connector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -21,11 +21,11 @@ The PDF connector is available as a plugin by default in RPA Desktop Design Stud
 -   RPA Desktop Design Studio still supports automation projects that are designed by using the older PDF methods in **Utilities** from Toolbox.
 -   You can't manipulate e-signed PDFs such as performing merge and split. This action corrupts the PDF files.
 
--   To use a connector in RPA Desktop Design Studio, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-connector.md).
--   To understand the various methods in the PDF connector, see [PDF connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/pdf-connector-methods.md).
+-   To use a connector in RPA Desktop Design Studio, see [Use a connector in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-connector.md).
+-   To understand the various methods in the PDF connector, see [PDF connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/pdf-connector-methods.md).
 
--   **[PDF connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/pdf-connector-methods.md)**  
+-   **[PDF connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/pdf-connector-methods.md)**  
 Accelerate PDF processing for your document automation by using the various methods of PDF connector in RPA Desktop Design Studio.
 
-**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connectors.md)
 

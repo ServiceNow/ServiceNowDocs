@@ -3,11 +3,11 @@ title: View the Communities performance dashboard
 description: The Communities dashboard displays up-to-date status on community usage, membership, content type and activity, and trends by forum and by topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/view-communities-dashboard.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Platform Analytics Solutions for Communities, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ The Communities dashboard displays up-to-date status on community usage, members
 ## Before you begin
 
 Role required: pa\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -95,12 +99,12 @@ Heat maps display data for **Number of Posts Moved** and **Featured Content**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Platform Analytics Solutions for Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-content-pack.md)
 
 **Related topics**  
 
 
-[Performance Analytics scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_UsePerformanceAnalyticsScorecards.md)
+[Performance Analytics scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_UsePerformanceAnalyticsScorecards.md)
 
-[Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_Widgets.md)
+[Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_Widgets.md)
 

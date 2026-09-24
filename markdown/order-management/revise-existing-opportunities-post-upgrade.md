@@ -3,9 +3,9 @@ title: Revise existing opportunities after an upgrade
 description: Run a scheduled job to modify older opportunities so they can support parent-child opportunity line items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/revise-existing-opportunities-post-upgrade.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -61,7 +61,7 @@ For open, synced opportunities:
 **Related topics**  
 
 
-[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-mgmt-using.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md)
 

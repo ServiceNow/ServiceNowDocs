@@ -3,11 +3,11 @@ title: Skip errors to continue discovering an application service
 description: If you know what configuration items \(CIs\) and connections make up your service instance, you can enable Service Mapping to continue discovery of the service instance even if there are some errors. You can skip errors to troubleshoot later so you can complete mapping most of the service instance, even if some CIs are missing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/skip-errors-continue-discovery-individual-services.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Fix errors in individual application service maps, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -79,9 +79,9 @@ Select the CI from the list of CIs of the selected CI type.**Note:** To eliminat
 
     If the CI type does not appear in the list, Service Mapping does not allow adding CIs of this type manually. For example, you cannot add an application cluster or an endpoint manually.
 
-6.  Configure attributes of the entry point from which Service Mapping continues discovery by selecting the entry point type and [entering relevant fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_EntryPointsforBizSvcDef.md).
+6.  Configure attributes of the entry point from which Service Mapping continues discovery by selecting the entry point type and [entering relevant fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_EntryPointsforBizSvcDef.md).
 
-    If the required entry point type does not appear in the Select Entry Point Type list, create it as described in [Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md).
+    If the required entry point type does not appear in the Select Entry Point Type list, create it as described in [Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md).
 
 7.  Click **Submit**.
 
@@ -99,7 +99,7 @@ To discover the problematic CI automatically:
 3.  Click **Run discovery**.
 4.  After the discovery process finishes, verify that Service Mapping discovered the CI. If Service Mapping discovered the CI, the map shows the actual CI without the Warning icon \(\[Omitted image "MapWarningIcon.png"\] Alt text: The Warning icon\).
 
-**Parent Topic:**[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
+**Parent Topic:**[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
 
 **Related topics**  
 
@@ -108,9 +108,9 @@ To discover the problematic CI automatically:
 
 [Resolve pattern-related mapping errors]()
 
-[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
+[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-[Enable traffic-based discovery for CI types or specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateATrafficBasedDiscoveryRule.md)
+[Enable traffic-based discovery for CI types or specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_CreateATrafficBasedDiscoveryRule.md)
 
-[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prerequisites-service-mapping.md)
+[Prerequisites for performing top-down discovery using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/prerequisites-service-mapping.md)
 

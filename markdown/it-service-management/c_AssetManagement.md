@@ -1,20 +1,20 @@
 ---
-title: Base Asset Management
+title: Asset Management
 description: The ServiceNow Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/c\_AssetManagement.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Asset Management common applications, IT Service Management]
 ---
 
-# Base Asset Management
+# Asset Management
 
 The ServiceNow® Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets.
 
-**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, we will provide limited support for the Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience. For more information, see [KB1584548](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584548), [Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/exploring-asset-management.md) and [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
+**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, we will provide limited support for the Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience. For more information, see [KB1584548](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584548), [Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/exploring-asset-management.md) and [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md).
 
 Asset management business practices have a common set of goals.
 
@@ -26,12 +26,14 @@ Asset management business practices have a common set of goals.
 -   Improve IT service to end users.
 -   Create standards and processes for managing assets.
 
+Most successful ITAM programs involve various people and departments, including IT, finance, services, and end users.
+
 Asset Management and the Configuration Management Database \(CMDB\) are related, but have different goals. Asset Management focuses on the financial tracking of company property. Configuration management focuses on building and maintaining elements that create an available network of services.
 
-**Parent Topic:**[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management-core.md)
+**Parent Topic:**[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/asset-management-core.md)
 
 **Related topics**  
 
 
-[Domain separation and Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/domain-separation-asset-management.md)
+[Domain separation and Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/domain-separation-asset-management.md)
 

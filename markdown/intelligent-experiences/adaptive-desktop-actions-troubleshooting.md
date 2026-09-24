@@ -3,11 +3,11 @@ title: Known issues and limitations of adaptive desktop actions
 description: Reference known issues, limitations, and resolution steps for AI Desktop Actions on macOS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/adaptive-desktop-actions-troubleshooting.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Example 4: Adaptive desktop action for desktop and web, Execute desktop actions, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Example 4: Adaptive desktop action for desktop and web, Execute desktop actions, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Known issues and limitations of adaptive desktop actions
@@ -149,5 +149,5 @@ The system may use alternate approaches to interact with specific files that dif
 -   After the task is complete, close any alternate applications the AI agent may have opened.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use_ai_desktop_actions_adaptive.md)
+</table>**Parent Topic:**[Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use_ai_desktop_actions_adaptive.md)
 

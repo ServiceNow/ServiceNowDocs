@@ -3,11 +3,11 @@ title: Software Publisher Analytics dashboard for IBM in Software Asset Manageme
 description: View compliance analysis results related to IBM on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/dashboard-ibm.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ Access the Software Publisher Analytics dashboard by navigating to **All** &gt; 
 
 **Note:** The add-on IBM publisher pack \(com.sn\_samp\_ibm\) plugin must be installed to view the IBM dashboard tab.
 
-[IBM License Metric Tool \(ILMT\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/setting-up-ibm-ilmt.md) must be set up to view compliance information.
+[IBM License Metric Tool \(ILMT\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setting-up-ibm-ilmt.md) must be set up to view compliance information.
 
 Results are updated whenever a new reconciliation result is available. You can save charts in PNG or JPG format.
 
@@ -52,7 +52,7 @@ Product Results\[samp\_product\_result\]
 
 </td><td>
 
-Number of products that have at least one software model out of compliance.Select the report to view the results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
+Number of products that have at least one software model out of compliance.Select the report to view the results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -115,5 +115,5 @@ IBM Peak Consumption\[samp\_ilmt\_sw\_install\]
 Peak PVU utilization for the top 10 IBM products.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management publisher pack for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management publisher pack for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/ibm-publisher-pack.md)
 

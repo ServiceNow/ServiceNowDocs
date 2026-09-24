@@ -3,9 +3,9 @@ title: Filter results for Host Status
 description: Filter your query results by Host Status. Verify whether devices were reachable when the query was executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/results-filter-host-status.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Results page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -69,5 +69,5 @@ Raw data is useful for debugging and verification because:
     -   Raw data shows what Nmap actually returned \(good for support/investigations\).
     -   Raw data helps validate scripts when querying/mapping doesn’t show expected information.
 
-**Parent Topic:**[Results page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/results-page-console.md)
+**Parent Topic:**[Results page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/results-page-console.md)
 

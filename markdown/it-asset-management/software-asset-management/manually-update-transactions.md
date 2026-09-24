@@ -1,20 +1,21 @@
 ---
-title: Manually create a spend transaction
-description: Manually create a spend transaction in the Software Asset Workspace to track a software purchase that is not part of a scheduled import.
+title: Create a spend transaction manually
+description: Create spend transactions for one-off software purchases or spend records that are not captured in your accounts payable import file. This allows you to track all software spending in one location.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/manually-update-transactions.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [software spend detection, software asset management software spend detection, spend transaction manual, SAM - Label Spend Transactions, License operations]
 breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Manually create a spend transaction
+# Create a spend transaction manually
 
-Manually create a spend transaction in the Software Asset Workspace to track a software purchase that is not part of a scheduled import.
+Create spend transactions for one-off software purchases or spend records that are not captured in your accounts payable import file. This allows you to track all software spending in one location.
 
 ## Before you begin
 
@@ -22,7 +23,7 @@ Role required: sam\_user
 
 ## About this task
 
-Manual creation is useful for one-off software purchases or spend records that aren't captured in your accounts payable import file. Manually created transactions appear in the All transactions list along with imported transactions.
+The **SAM - Label Spend Transactions** scheduled job processes manual transactions during its next run.
 
 ## Procedure
 
@@ -30,47 +31,33 @@ Manual creation is useful for one-off software purchases or spend records that a
 
 2.  Select **New**.
 
-    The **Create New Software spend transactions** form appears with the **State** field set to **New**.
+3.  On the **Create New Software spend transactions** form, fill in the fields.
 
-3.  Under **Overview**, complete the mandatory fields.
+    For a description of the field values, see [Software spend transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-spend-transaction-fields.md).
 
-    -   **Description**
+4.  If you already know the publisher and product for the transaction, identify it as software on the **Create New Software spend transactions** form.
 
-        Enter a short description of the transaction.
+    Select the **Is software** check box, and then provide values for the **Publisher** and **Product** fields.
 
-    -   **Amount**
-
-        Enter the transaction amount and select the currency.
-
-    -   **Transaction date**
-
-        Enter or select the date of the transaction in YYYY-MM-DD format.
-
-4.  Complete other **Overview** fields as needed.
-
-    Include the vendor name, GL account, source system, and transaction type. If you already know the publisher and product, select the **Is software** check box and populate the **Publisher** and **Product** fields.
-
-5.  Expand the **More details** section and complete any organizational or employee fields.
-
-    You can associate the transaction with a cost center, department, location, or employee record for reporting and tracking purposes.
-
-    To exclude this transaction from being shared with the Software Asset Management Content Library team, select the **Exclude from content service** check box.
+5.  To exclude this transaction from being shared with the Software Asset Management Content Library team, expand the **More details** section and select the **Exclude from content service** check box.
 
 6.  Select **Save**.
 
     The transaction is created with the **State** field set to **New** and appears in the All transactions list. The **SAM - Label Spend Transactions** scheduled job processes the transaction on its next run.
 
-    If you provided the valid values for **Is software**, **Publisher**, or **Product** fields during creation, the state changes to **Manually labeled** after save. For details on state values, see [AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
+    If you provided valid values for the **Is software**, **Publisher**, or **Product** fields during creation, the state changes to **Manually labeled** after save. For details on values of the State field, see [AI-powered software spend detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
 
 
-**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
 
 **Related topics**  
 
 
-[Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-spend-transactions.md)
+[Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/import-spend-transactions.md)
 
-[Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)
+[Managing software spend in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)
 
-[AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md)
+[AI-powered software spend detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md)
+
+[Software spend transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-spend-transaction-fields.md)
 

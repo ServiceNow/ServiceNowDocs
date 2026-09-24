@@ -3,11 +3,11 @@ title: Copy a Spotlight group to domains
 description: You can copy a Spotlight group to other domains, saving the effort of reproducing the group manually for each domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/copy-spotlight-group-domain.html
-release: australia
+release: brazil
 product: Spotlight
 classification: spotlight
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Ranking records with Spotlight, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -34,15 +34,15 @@ When you first create a Spotlight group, it is created in the domain that you ar
 
 3.  In the Copy Spotlight Group dialog, select a value for **Name Preference**.
 
-<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d203489e85">
+<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d206610e85">
 
 Value
 
-</th><th align="left" id="d203489e88">
+</th><th align="left" id="d206610e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d203489e94">
+</th></tr></thead><tbody><tr><td id="d206610e94">
 
 **Do not change the name**
 
@@ -50,7 +50,7 @@ Description
 
 All copies will have the same name as the original Spotlight group.
 
-</td></tr><tr><td id="d203489e103">
+</td></tr><tr><td id="d206610e103">
 
 **Change the name**
 
@@ -58,7 +58,7 @@ All copies will have the same name as the original Spotlight group.
 
 Manually write a new name that will be given to all copies of the Spotlight group.
 
-</td></tr><tr><td id="d203489e112">
+</td></tr><tr><td id="d206610e112">
 
 **Add domain name to new name as prefix**
 
@@ -66,7 +66,7 @@ Manually write a new name that will be given to all copies of the Spotlight grou
 
 For each copy of the Spotlight group, the domain name is added to the beginning of the Spotlight group name. You can keep the base name from the original Spotlight group or specify a new one.The **New Name** field does not show these prefixes.
 
-</td></tr><tr><td id="d203489e127">
+</td></tr><tr><td id="d206610e127">
 
 **Add domain name to new name as suffix**
 
@@ -84,7 +84,7 @@ For each copy of the Spotlight group, the domain name is added to the end of the
 
 5.  Click **OK**.
 
-    The Spotlight group is copied. If copying is successful, a list of the Spotlight groups that you have just created opens. If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
+    The Spotlight group is copied. If copying is successful, a list of the Spotlight groups that you have just created opens. If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
 
 6.  Open each of the Spotlight groups you have just created and perform the following steps:
 
@@ -119,7 +119,7 @@ In this example, the ACME - Incident Spotlight group, which was created in the A
 
 ## What to do next
 
-If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
+If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
 
-**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight.md)
 

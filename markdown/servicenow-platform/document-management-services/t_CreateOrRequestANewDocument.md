@@ -3,11 +3,11 @@ title: Create or request a new document
 description: Once an administrator has set parameters for the Managed Documents application, you can create or request new documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_CreateOrRequestANewDocument.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a document, Managed Documents, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,7 +52,7 @@ Name
 
 </td><td>
 
-A name for the document. Note that the name for the document is combined with other naming components \(as defined by the [name format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningNameFormats.md)\) to create the names for each document revision.
+A name for the document. Note that the name for the document is combined with other naming components \(as defined by the [name format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningNameFormats.md)\) to create the names for each document revision.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Type
 
 </td><td>
 
-The document purpose. This is a choice list derived from the [type parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md).
+The document purpose. This is a choice list derived from the [type parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningDocumentParameters.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Classification
 
 </td><td>
 
-The document classification, based on security, audience, and confidentiality. This is a choice list derived from the [classification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningClassifications.md).**Note:** This does not drive any functionality.
+The document classification, based on security, audience, and confidentiality. This is a choice list derived from the [classification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningClassifications.md).**Note:** This does not drive any functionality.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Audience
 
 </td><td>
 
-The document readers, such as external or internal. This is a choice list derived from the [audience parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningAudiences.md).**Note:** This does not drive any functionality.
+The document readers, such as external or internal. This is a choice list derived from the [audience parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningAudiences.md).**Note:** This does not drive any functionality.
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Name format
 
 </td><td>
 
-The format for the name of each individual revision of the document. For more information, see [name format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/r_DefiningNameFormats.md).
+The format for the name of each individual revision of the document. For more information, see [name format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/r_DefiningNameFormats.md).
 
 </td></tr><tr><td>
 
@@ -224,8 +224,8 @@ A choice list describing how group members can interact with the document. Optio
 
 </td></tr></tbody>
 </table>
--   **[Specify an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/t_SpecifyAnApprover.md)**  
+-   **[Specify an approver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/t_SpecifyAnApprover.md)**  
 You can specify approvers for a document record after you save it.
 
-**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/c_CreateADocument.md)
 

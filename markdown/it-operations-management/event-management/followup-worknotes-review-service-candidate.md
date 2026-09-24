@@ -3,11 +3,11 @@ title: Follow up on work notes and review service candidate
 description: Track and follow up on work notes while reviewing the service candidate to ensure all actions and updates are captured. This helps maintain clarity and continuity in the review process, reducing the chances of missed details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/followup-worknotes-review-service-candidate.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Network traffic based alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---

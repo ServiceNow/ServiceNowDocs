@@ -3,9 +3,9 @@ title: Components installed with AIOps Experience
 description: Several types of components are installed with activation of the AIOps Experience \[sn\_sow\_aiops\] application, including user role and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/components-installed-with-sow-itom.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM AIOps reference, ITOM AIOps, IT Operations Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [ITOM AIOps reference, ITOM AIOps, IT Operations Management]
 
 Several types of components are installed with activation of the AIOps Experience \[sn\_sow\_aiops\] application, including user role and plugins.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
@@ -118,5 +118,5 @@ Performance Analytics - Content Pack - Event Management\[com.snc.pa.premium\]
 Includes core out-of-the-box Key Performance Indicators \(KPIs\). Activating this plugin on production instances may require a separate Performance Analytics license.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-sow-itom-apps.md).
+</table>To return to the procedure, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-sow-itom-apps.md).
 

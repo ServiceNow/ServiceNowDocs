@@ -3,9 +3,9 @@ title: Configure a forecast in a time series data visualization
 description: If a time series visualization is configured to show forecasts, you can configure the forecasts for that visualization.Forecasting uses standard statistical methods. You can select a method or let the system choose one automatically.If you are a statistics expert, you can select a forecast method manually. By default, the instance chooses the best method for you automatically, based on the fit of the method.Forecast periods have a default length that depends on the frequency of the data sources. Not all data sources have the same frequencies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-forecast-ts-viz.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ If a time series visualization is configured to show forecasts, you can configur
 
 ## Before you begin
 
-This procedure assumes you have created a [time series visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-time-series-ac.md) for a non-table data source and you want to configure forecasting for that visualization.
+This procedure assumes you have created a [time series visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-time-series-ac.md) for a non-table data source and you want to configure forecasting for that visualization.
 
 **Note:** Support is not provided for the Hour of day or Day of week aggregations on table data.
 
@@ -54,7 +54,7 @@ Forecast method
 
 </td><td>
 
-The statistical method the system uses to forecast values for this indicator. The default value is Auto, meaning that the system chooses a method that best fits the data. For more information, see [Forecast methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-forecast-ts-viz.md) and [Automatic selection of forecast methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-forecast-ts-viz.md).
+The statistical method the system uses to forecast values for this indicator. The default value is Auto, meaning that the system chooses a method that best fits the data. For more information, see [Forecast methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-forecast-ts-viz.md) and [Automatic selection of forecast methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-forecast-ts-viz.md).
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Period length
 
 </td><td>
 
-The number of data points needed to establish a pattern in the time series. If you select **Use default**, the period length depends on the frequency of the data source. For example, the period length for a time series with a daily frequency is 7 data points by default. For more information, see [Default forecast period lengths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-forecast-ts-viz.md).
+The number of data points needed to establish a pattern in the time series. If you select **Use default**, the period length depends on the frequency of the data source. For example, the period length for a time series with a daily frequency is 7 data points by default. For more information, see [Default forecast period lengths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-forecast-ts-viz.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 </td></tr></tbody>
 </table>5.  Select which data to base the forecast on.
 
-<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d58198e223">
+<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d58784e223">
 
 **Visualization date range**
 
@@ -99,7 +99,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 
 All data within the date range of the visualization
 
-</td></tr><tr><td id="d58198e232">
+</td></tr><tr><td id="d58784e232">
 
 **Previous periods**
 
@@ -107,7 +107,7 @@ All data within the date range of the visualization
 
 The number of data periods before the present to base forecasts on. These data periods are the same length as the ones in **Period length**.If you select Previous periods, also specify the number of periods in the **Number of periods to consider** field.
 
-</td></tr><tr><td id="d58198e249">
+</td></tr><tr><td id="d58784e249">
 
 **Specific starting date**
 
@@ -119,12 +119,12 @@ All scores collected after a start date. If you select Specific starting date, a
 </table>    **Warning:** If there are insufficient data points to generate a forecast, nothing is shown, neither the forecast nor a message.
 
 
-**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-time-series-ac.md)
+**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-time-series-ac.md)
 
 **Related topics**  
 
 
-[Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ForecastingData.md)
+[Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_ForecastingData.md)
 
 ## Forecast methods
 

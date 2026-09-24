@@ -3,9 +3,9 @@ title: Configure the data visualization group variables
 description: Configure the variables in the data visualization card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-configure-data-card.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure variables, Setup, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -32,10 +32,10 @@ Role required: sn\_telecom\_c360.admin
     |PAR visualization filters|Name-value pairs that define the dynamic performance analytics filters used to associate each visualization to the current context record.|
 
 
-**Parent Topic:**[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-variables.md)
+**Parent Topic:**[Configure the Telecommunications Customer 360 variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure-variables.md)
 
 **Related topics**  
 
 
-[Data visualization card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-data-visual-card.md)
+[Data visualization card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-data-visual-card.md)
 

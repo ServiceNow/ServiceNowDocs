@@ -3,11 +3,11 @@ title: Configure a Guided Decision Playbook
 description: Configure a Guided Decision Playbook to walk users through decision-driven questions and actions toward a recommended outcome, delivered as a seamless runtime experience that runs standalone or inside another playbook. The Guided Layout removes the activity and stage pickers and consolidates previous responses into an accordion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-a-guided-decision-playbook.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -41,7 +41,7 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
         |Type|Select **Guided Decision**.|
         |Playbook name|Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.|
         |Now assist input|Enter a short description about your playbook.|
-        |Application|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).|
+        |Application|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.|
         |Execution type|Select **Standalone** if you want to make the Guided Decision Playbook nestable. You can't nest a record-driven playbook inside another playbook.|
         |Allow this playbook to be nestable in another playbook|Select this option to embed this playbook in another playbook.|
 
@@ -55,21 +55,21 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     Guided Decision Playbooks are single-stage playbooks. A typical Guided Decision Playbook is composed of questionnaire activities to gather user input, decisions to branch based on responses, and guidance activities to deliver the recommended outcome at the end of each branch.
 
-    For more information, see [Create a playbook variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-playbook-variant.md) and [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
+    For more information, see [Create a playbook variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-playbook-variant.md) and [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
 3.  Add a decision from the mini-picker on the canvas to branch the flow based on the user's responses.
 
     A decision is what gives a Guided Decision Playbook its guided behavior. At runtime, the Guided Layout bundle renders the decision's branches and the activities that follow each branch as one seamless flow. Containing at least one decision is what distinguishes a Guided Decision Playbook from a standard playbook.
 
-    \[Omitted image "playbook-add-decision.png"\] Alt text: Screenshot showing the mini-picker and the Add a decision option.
+    \[Omitted image "playbook-add-decision.png"\] Alt text: Add a decision option in the playbook.
 
-    For information on adding and configuring a Decision activity, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-a-decision-activity.md).
+    For information on adding and configuring a Decision activity, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-a-decision-activity.md).
 
 4.  Activate the playbook from the playbook's header to publish it so that the Guided Layout bundle in UI Builder can find and render it.
 
     The bundle's playbook property only lists activated playbooks. If you change the playbook after activating, the system saves your changes but deactivates the playbook. Activate the playbook again to publish your changes.
 
-    For information on activation states and what happens when you edit an activated playbook, see [Playbook statuses and activation states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-status-activation-state.md).
+    For information on activation states and what happens when you edit an activated playbook, see [Playbook statuses and activation states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-status-activation-state.md).
 
 5.  Go to UI Builder, and create or open an Experience to host the playbook so end users can access it from the Playbook Experience, and create a page.
 
@@ -89,7 +89,7 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     Unlike the Focused and Stacked layouts, the Guided Layout does not have a matching page template.
 
-    For information on creating a page, see [Create a page from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md) and [create a page from a Standard record template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md).
+    For information on creating a page, see Create a page from scratch and create a page from a Standard record template.
 
     **Note:** All playbooks require a parent table and sysId to be hardcoded on the controller or provided through a URL. You configure these in step 7 when you set up the test URL parameters for the page.
 
@@ -97,7 +97,7 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     The bundle includes the controller and components needed to display the playbook. Adding the bundle wires them together automatically.
 
-    \[Omitted image "playbook-guided-layout.png"\] Alt text: Screenshot showing the Guided Layout bundle.
+    \[Omitted image "playbook-guided-layout.png"\] Alt text: The Guided Layout bundle.
 
     1.  Select **Add content** in the Content panel.
 
@@ -115,21 +115,21 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     6.  Select **Done** to close the dialog and apply the configuration.
 
-    For more information, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/controllers.md).
+    For more information, see .
 
 7.  Configure the Playbook Custom Layout Controller to tell the bundle which playbook to render at runtime.
 
     All playbooks require a parent table and sysId to be hardcoded on the controller or provided through a URL. The configuration depends on the execution type you selected in step 1.
 
-<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d72756e575">
+<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d74032e574">
 
 Type
 
-</th><th align="left" id="d72756e578">
+</th><th align="left" id="d74032e577">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d72756e584">
+</th></tr></thead><tbody><tr><td id="d74032e583">
 
 **Standalone**
 
@@ -140,7 +140,7 @@ Action
 3.  Select the activated playbook you want to render.
 
 
-</td></tr><tr><td id="d72756e611">
+</td></tr><tr><td id="d74032e610">
 
 **Record-driven**
 
@@ -154,9 +154,9 @@ Action
 The sysId=-1 binding is required for record-driven playbooks. Without it, the controller resets the record to negative 1 on every action and the playbook will never start.
 
 </td></tr></tbody>
-</table>    For more information, see [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/controllers.md).
+</table>    For more information, see .
 
-    \[Omitted image "playbook-exp-binding.png"\] Alt text: Screenshot showing where to bind data to parent table.
+    \[Omitted image "playbook-exp-binding.png"\] Alt text: Bind data to parent table.
 
 8.  Preview the page in UI Builder to verify the playbook renders correctly at runtime.
 

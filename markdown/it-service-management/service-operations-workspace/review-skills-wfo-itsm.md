@@ -3,11 +3,11 @@ title: Review skills to add to your skill set
 description: Evaluate the skill proficiency for an existing skill or add a new skill and request approval to update those skills in your skill set. Get notified when your manager requests a skill review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/review-skills-wfo-itsm.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -32,15 +32,15 @@ You will receive a notification when your manager initiates or approves a skill 
 
 3.  Send a request to review an updated skill proficiency or to review a new skill to be added to your skill set.
 
-<table id="choicetable_sz5_hnf_jtb"><thead><tr><th align="left" id="d256651e80">
+<table id="choicetable_sz5_hnf_jtb"><thead><tr><th align="left" id="d261673e80">
 
 To
 
-</th><th align="left" id="d256651e83">
+</th><th align="left" id="d261673e83">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d256651e89">
+</th></tr></thead><tbody><tr><td id="d261673e89">
 
 **Send a request to review an updated skill proficiency**
 
@@ -52,7 +52,7 @@ Do this
 4.  In the **New skill level** field, update the new skill level for a skill based on your proficiency.
 
 
-</td></tr><tr><td id="d256651e128">
+</td></tr><tr><td id="d261673e128">
 
 **Send a request to review a new skill to be add to your profile**
 
@@ -73,5 +73,5 @@ Do this
     When your manager approves or rejects the skill review request and completes it, you will receive a notification.
 
 
-**Parent Topic:**[Workforce Optimization for ITSM in the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/wfo-itsm-service-operations-workspace.md)
+**Parent Topic:**[Workforce Optimization for ITSM in the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/wfo-itsm-service-operations-workspace.md)
 

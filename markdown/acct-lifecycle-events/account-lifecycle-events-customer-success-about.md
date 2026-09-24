@@ -3,9 +3,9 @@ title: Customer success
 description: Learn how your organization can use the customer success solution to engage customers, run success plays to mitigate risks, and identify expansion opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-events-customer-success-about.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Customer Success Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Explore, Customer Success Management]
 # Customer success
 
 Learn how your organization can use the customer success solution to engage customers, run success plays to mitigate risks, and identify expansion opportunities.
-
-**Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
 With the customer success solution, service providers can create a relationship-focused strategy that helps maximize achievements, drives engagements, and delivers actionable results. Customer success managers can define and track success objectives, and use documented success plans to ensure that value is being delivered. By driving achievements in both value and success, customer success teams can:
 
@@ -40,5 +38,5 @@ The customer success workflow includes the following:
 
 The following diagram shows the different stages involved in the customer success journey.
 
-\[Omitted image "0123-MMASSET0022089.svg"\] Alt text: Customer success lifecycle
+\[Omitted image "0123-MMASSET0022089.svg"\] Alt text: Customer success journey
 

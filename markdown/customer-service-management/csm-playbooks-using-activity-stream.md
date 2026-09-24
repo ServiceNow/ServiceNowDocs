@@ -3,11 +3,11 @@ title: Using the activity stream in the contextual side panel
 description: Customer service agents can access the activity stream in the contextual side panel in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbooks-using-activity-stream.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Page components, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Using the activity stream in the contextual side panel
@@ -81,7 +81,7 @@ Expand and collapse posts
 
 </td><td>
 
-Select expand icon \(\[Omitted image "expand-arrow.png"\] Alt text: More options icon.\) to expand posts and collapse icon \[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: collapse icon to collapse posts.
+Select expand icon \(\[Omitted image "expand-arrow.png"\] Alt text: More options icon.\) to expand posts and collapse icon \[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: expand posts and collapse icon to collapse posts.
 
 </td></tr><tr><td>
 
@@ -104,15 +104,15 @@ An email draft opens where you can send an email.
 </table>**Related topics**  
 
 
-[Filter playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-filter-activities.md)
+[Filter playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-filter-activities.md)
 
-[Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)
+[Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)
 
-[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
+[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
 
-[Add an optional activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-customized-playbook-experience-for-customer-service-management.md)
+[Add an optional activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-customized-playbook-experience-for-customer-service-management.md)
 
-[Summarize a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-summarization-in-process-page.md)
+[Summarize a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/case-summarization-in-process-page.md)
 
-[Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-create-record.md)
+[Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-create-record.md)
 

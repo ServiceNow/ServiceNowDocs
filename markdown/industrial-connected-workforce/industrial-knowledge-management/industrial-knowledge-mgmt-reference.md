@@ -3,11 +3,11 @@ title: Industrial Knowledge Management reference
 description: Find additional information about Industrial Knowledge Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-mgmt-reference.html
-release: australia
+release: brazil
 product: Industrial Knowledge Management
 classification: industrial-knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Industrial Knowledge Management, Industrial Connected Workforce]
 ---
@@ -16,10 +16,10 @@ breadcrumb: [Industrial Knowledge Management, Industrial Connected Workforce]
 
 Find additional information about Industrial Knowledge Management.
 
--   **[Industrial Knowledge Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-mgmt-roles.md)**  
+-   **[Industrial Knowledge Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-mgmt-roles.md)**  
 You can assign the Industrial Knowledge Management roles to your users.
--   **[Industrial knowledge article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-article-form.md)**  
+-   **[Industrial knowledge article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-article-form.md)**  
 The following table describes the field values for the Industrial knowledge article form.
 
-**Parent Topic:**[Industrial Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-knowledge-management/icw-knowledge-management-landing-page.md)
+**Parent Topic:**[Industrial Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-knowledge-management/icw-knowledge-management-landing-page.md)
 

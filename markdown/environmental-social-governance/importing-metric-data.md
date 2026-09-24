@@ -3,9 +3,9 @@ title: Importing historical metric data
 description: Import historical metric data by using a pre-defined import template with instructions. This process helps with updating and managing metric data within an organization, helping ensure that all data complies with established business rules and maintains integrity throughout the process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/importing-metric-data.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -32,10 +32,10 @@ The system then performs validations to check for mandatory fields like metric s
 
 To learn more about importing historical data, see:
 
--   **[Download a metric import template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-metric-data-template.md)**  
+-   **[Download a metric import template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-metric-data-template.md)**  
 Download and populate a metric import template that you can use for importing historical metric data and tasks. This template includes directions and is formatted specifically for this type of data import.
--   **[Import historical metric data and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/import-metric-data.md)**  
+-   **[Import historical metric data and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/import-metric-data.md)**  
 Import historical metric data with or without corresponding metric data tasks.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-grc-metrics.md)
 

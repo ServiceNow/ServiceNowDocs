@@ -3,11 +3,11 @@ title: Create a cloud catalog item
 description: Create a cloud catalog item for provisioning, based on a template or an existing blueprint, and publish the catalog item to provide a service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-cloud-catalog-item.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_cmp.cloud\_service\_designer.
 
 ## About this task
 
-While creating a catalog item, you can associate the catalog item with a template. The template can be native to the cloud provider \(for example, CFT, ARM, GDM\) or a Terraform IaC template. After you generate a catalog item, the system automatically generates components such as variable sets, lifecycle operations, rules, and pre- and post-provision operations. You can manage all these components from the Create Catalog Item page.
+While creating a catalog item, you can associate it with a template native to the cloud provider \(for example, CFT, ARM, GDM\) or a Terraform IaC template. After you generate a catalog item, the system automatically generates components such as variable sets, lifecycle operations, rules, and pre- and post-provision operations. You can manage all these components from the Create Catalog Item page.
 
 ## Procedure
 
@@ -154,18 +154,18 @@ Full description of the catalog item. This description appears in the service ca
 
     |Action|Description|
     |------|-----------|
-    |Export Catalog Item|Exports all the components \(such as blueprints, resource blocks, rules\) of the catalog item from one environment to the other. See [Moving Cloud Provisioning and Governance content across environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/move-content-intro.md).|
-    |Item Diagnostic|Identifies possible issues with the catalog item data and configuration. See [Item diagnostic report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ItemDiagnostic.md)|
-    |Manage Attributes|See [Manage operation attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/manage-attributes.md).|
+    |Export Catalog Item|Exports all the components \(such as blueprints, resource blocks, rules\) of the catalog item from one environment to the other. See [Moving Cloud Provisioning and Governance content across environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/move-content-intro.md).|
+    |Item Diagnostic|Identifies possible issues with the catalog item data and configuration. See [Item diagnostic report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ItemDiagnostic.md)|
+    |Manage Attributes|See [Manage operation attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/manage-attributes.md).|
     |Reset Catalog Item|Resets \(to the last change you made\) any customizations that you've made to the catalog item.|
 
 
 ## What to do next
 
-[Create a cloud template-based catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-template.md).
+[Create a cloud template-based catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-cloud-template.md).
 
 **Related topics**  
 
 
-[Create a catalog item from a Terraform template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/catalog-item-terraform-template.md)
+[Create a catalog item from a Terraform template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/catalog-item-terraform-template.md)
 

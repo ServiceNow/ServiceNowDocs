@@ -3,11 +3,11 @@ title: Display or hide update set deployment permissions
 description: Display or hide deployment permissions for update sets from the Manage Developers dialog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/display-or-hide-deployment-permissions.html
-release: australia
+release: brazil
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Delegated Development, Planning your application, Building applications]
 ---
@@ -30,7 +30,7 @@ System properties control the visibility of the **Publish To Update Set** and **
 
     The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
-    **Note:** For details on how to add and enable system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    **Note:** For details on how to add and enable system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 2.  Enable or disable specific deployment permissions by adding or updating the following system properties.
 

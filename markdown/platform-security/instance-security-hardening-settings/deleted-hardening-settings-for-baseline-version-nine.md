@@ -1,0 +1,25 @@
+---
+title: Deleted hardening settings for baseline version 9.0
+description: Some hardening settings have been removed with the release of Security Center baseline version 9.0.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-baseline-version-nine.html
+release: brazil
+product: Instance Security Hardening Settings
+classification: instance-security-hardening-settings
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [deleted settings]
+breadcrumb: [Deleted hardening settings, Baseline versions, Hardening settings, Platform Security]
+---
+
+# Deleted hardening settings for baseline version 9.0
+
+Some hardening settings have been removed with the release of Security Center baseline version 9.0.
+
+-   Restrict access to specific IP ranges plugin
+-   Hide user comments on articles
+-   Disable embedded HTML code
+
+**Parent Topic:**[Deleted hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/hardening-settings-deleted.md)
+

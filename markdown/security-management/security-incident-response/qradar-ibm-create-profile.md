@@ -3,11 +3,11 @@ title: Setup IBM QRadar profile
 description: As a user with the sn\_si.admin role, you create an offense profile in your ServiceNow AI Platform instance and determine which offenses create security incidents. Before ServiceNow AI Platform Security Incident Response \(SIR\) security incidents are created from offenses, the field values from offenses are displayed on a layout of a ServiceNow AI Platform security incident so that you can preview how the actual security incident will be created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm-create-profile.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up instance, IBM QRadar Offense Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

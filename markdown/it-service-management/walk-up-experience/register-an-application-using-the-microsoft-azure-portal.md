@@ -3,11 +3,11 @@ title: Register an application using the Microsoft Azure portal
 description: Grant authorization to the ServiceNow instance by registering an application with Azure AD.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/register-an-application-using-the-microsoft-azure-portal.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up Microsoft Office 365 integration for Walk-up Experience, Integrate Microsoft Office 365 calendar with Walk-up Experience, Configure, Walk-up Experience, IT Service Management]
 ---
@@ -39,5 +39,5 @@ Complete these steps from the Microsoft Azure portal. For instructions on regist
 
 The ServiceNow application is created with Microsoft Azure AD.
 
-**Parent Topic:**[Set up Microsoft Office 365 integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/setup-walkup-msoffice365-cal-integ.md)
+**Parent Topic:**[Set up Microsoft Office 365 integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/setup-walkup-msoffice365-cal-integ.md)
 

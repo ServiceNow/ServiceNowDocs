@@ -3,9 +3,9 @@ title: Managing inflight order for site projects
 description: Manage how your organization receives changes for customer orders, service orders or individual line items that are still being orchestrated and fulfilled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/inflight-offering-somt.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Strategic Portfolio Management integration, Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---

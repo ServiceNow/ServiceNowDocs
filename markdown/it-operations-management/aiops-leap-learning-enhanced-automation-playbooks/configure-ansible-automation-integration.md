@@ -3,7 +3,7 @@ title: Configure Ansible automation integration
 description: Connect LEAP to Ansible Automation Platform so the Ansible Discovery and Execution Agents can automatically identify job templates and launch them during incident remediation.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-ansible-automation-integration.html
-release: australia
+release: brazil
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task

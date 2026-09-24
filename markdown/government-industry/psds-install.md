@@ -3,9 +3,9 @@ title: Install the Performance Analytics and Reporting Solution for Public Secto
 description: Install the content pack for the Public Sector Digital Services Platform Analytics Solution from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-install.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extend capabilities, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -16,7 +16,7 @@ Install the content pack for the Public Sector Digital Services Platform Analyti
 
 ## Before you begin
 
--   Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
+-   Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
 
 -   Install Public Sector Digital Services Core from the ServiceNow Store.
 

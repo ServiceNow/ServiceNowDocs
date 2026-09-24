@@ -3,9 +3,9 @@ title: Add a recipients list to a survey
 description: Send the survey invites to targeted sets of users by adding a recipients list to a survey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/add-recipient-list-survey.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey distribution, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Send the survey invites to targeted sets of users by adding a recipients list to
 
 Role required: admin or survey\_admin
 
-Recipients lists should be pre-defined in the Recipients Lists submodule. For more information on defining recipients lists, see [Define a recipients list for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-recipient-list.md).
+Recipients lists should be pre-defined in the Recipients Lists submodule. For more information on defining recipients lists, see [Define a recipients list for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-recipient-list.md).
 
 ## Procedure
 
@@ -28,15 +28,15 @@ Recipients lists should be pre-defined in the Recipients Lists submodule. For mo
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_jnl_df2_5fb"><thead><tr><th align="left" id="d482049e81">
+<table id="choicetable_jnl_df2_5fb"><thead><tr><th align="left" id="d480326e81">
 
 Option
 
-</th><th align="left" id="d482049e84">
+</th><th align="left" id="d480326e84">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d482049e90">
+</th></tr></thead><tbody><tr><td id="d480326e90">
 
 **From Platform**
 
@@ -47,7 +47,7 @@ Description
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d482049e123">
+</td></tr><tr><td id="d480326e123">
 
 **From Survey Designer**
 
@@ -66,7 +66,7 @@ Description
     -   The **Send Invitations** UI action is available when there is at least one recipients list or survey user for the survey.
     -   If a user is available in the **Survey Users** related list and multiple recipients lists, the survey invite is sent only once to the user.
 
-**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 

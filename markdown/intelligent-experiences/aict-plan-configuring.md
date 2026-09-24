@@ -3,12 +3,12 @@ title: AI Plan configuration
 description: AI plan in AI Control Tower requires no mandatory configuration to get started.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-configuring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [PLACEHOLDER: Add keywords for search]
-breadcrumb: [Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Enable AI experiences]
+breadcrumb: [Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Plan configuration
@@ -26,7 +26,7 @@ Users with the sn\_ai\_governance.ai\_steward role can access the Plan menu to s
 **Related topics**  
 
 
-[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-using.md)
+[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-using.md)
 
-[AI Control Tower plan reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-plan-reference.md)
+[AI Control Tower plan reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-reference.md)
 

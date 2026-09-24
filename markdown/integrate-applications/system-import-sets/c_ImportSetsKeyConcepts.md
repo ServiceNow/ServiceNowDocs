@@ -3,11 +3,11 @@ title: Import sets key concepts
 description: Learn about import sets before importing data to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_ImportSetsKeyConcepts.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Import sets, Imports, Workflow Data Fabric]
 ---
@@ -168,7 +168,7 @@ You can write custom JavaScript to parse input lines into the list of maps.
 |ServiceNow® REST \(Integration Hub\)|REST imports require a valid transform map.|
 |Custom \(Load by Script\)|Custom imports require a valid transform map.|
 
-For more details about the different data sources, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_DataSources.md).
+For more details about the different data sources, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_DataSources.md).
 
 ## Transform maps versus robust import set transformers
 
@@ -184,7 +184,7 @@ By default, the job deletes all import sets that are older than 7 days, as well 
 
 \[Omitted image "import-set-scheduled-cleanup.png"\] Alt text: Import Set Deleter.
 
-For procedures, see [Delete import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/delete-import-sets.md).
+For procedures, see [Delete import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/delete-import-sets.md).
 
 ## Import set table deleter
 
@@ -199,7 +199,7 @@ You can also delete the related transform maps, or you can delete data only and 
 
 \[Omitted image "cleanup-import-set-tables.png"\] Alt text: Import set table deleter.
 
-For procedures, see [Delete import set tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/delete-import-set-tables.md).
+For procedures, see [Delete import set tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/delete-import-set-tables.md).
 
-**Parent Topic:**[Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
+**Parent Topic:**[Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
 

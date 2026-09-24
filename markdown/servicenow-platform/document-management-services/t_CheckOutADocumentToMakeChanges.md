@@ -3,11 +3,11 @@ title: Check out a document to make changes
 description: After a document is added to a managed document record, check the file out to make changes. Checking documents in and out keeps a record of document changes and ensures that only one person at a time is editing the document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_CheckOutADocumentToMakeChanges.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managed Documents, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,5 +43,5 @@ Role required: document\_management\_user
     For example, `Policy_POL_02.txt`.
 
 
-**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
+**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
 

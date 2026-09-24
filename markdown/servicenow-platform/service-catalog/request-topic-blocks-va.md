@@ -3,11 +3,11 @@ title: Service Catalog topic blocks in Virtual Agent powered by NLU
 description: You can design a topic conversation in the Virtual Agent powered by Natural Language Understanding \(NLU\) by including reusable topic blocks to perform request submission tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-topic-blocks-va.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ You can use this topic block to search for a catalog item based on the search cr
 
 |Parameter|Description|
 |---------|-----------|
-|query\_term|Keyword to search for a catalog item. For information on configuring keyword search for a catalog item, see [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/search-catalog-item.md).|
+|query\_term|Keyword to search for a catalog item. For information on configuring keyword search for a catalog item, see [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/search-catalog-item.md).|
 |catalogs|Comma-separated list of catalogs where a catalog item should be searched for.|
 |result\_limit|Number of search results that should be displayed. By default, this number is set to 5.|
 
@@ -66,7 +66,7 @@ You can use this topic block to request for a catalog item.
 |Parameter|Description|
 |---------|-----------|
 |catalog\_item\_id|sys\_id of the catalog item that should be requested.|
-|execute\_contextual\_search|Option to specify if the contextual search should be run for a record producer based on its configuration. For information on defining contextual search for a record producer, see [Define contextual search for record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CntxtSearchRP.md).|
+|execute\_contextual\_search|Option to specify if the contextual search should be run for a record producer based on its configuration. For information on defining contextual search for a record producer, see [Define contextual search for record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CntxtSearchRP.md).|
 |confirm\_catalog\_item|Option to specify whether the user must confirm the catalog item before continuing with the next step. If this is set to `false`, user can answer the catalog items questions by skipping the confirmation.|
 |show\_end\_state\_card|Option to display the end state card information about the generated record to the user.|
 
@@ -115,7 +115,7 @@ A user can submit a request in the conversation mode \(by answering the question
 
 The following conditions must be met when a user requests a catalog item in the conversation mode in Virtual Agent powered by NLU.
 
--   A catalog item cannot have more than the number of questions specified in the **glide.sc.conversational.request.question.limit** property. By default, this number is set to 10. For more information about this property, see [Service Catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ServiceCatalogProperties.md).
+-   A catalog item cannot have more than the number of questions specified in the **glide.sc.conversational.request.question.limit** property. By default, this number is set to 10. For more information about this property, see [Service Catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_ServiceCatalogProperties.md).
 -   A catalog item can have non-scripted catalog UI policies. These UI policies should be defined such that variables are affected sequentially, that is, only a variable with the lower order affects a variable with the higher order.
 -   A catalog item cannot have catalog client scripts that are defined for Now Mobile or Service Portal.
 -   Only the following variables are supported:
@@ -254,13 +254,13 @@ A catalog item is rendered as a window if it is of the following types:
 
 \[Omitted image "va-window-catalog.png"\] Alt text: Virtual Agent rendered as a window
 
--   **[Submit a request topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-submission-va.md)**  
+-   **[Submit a request topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/request-submission-va.md)**  
 Users can submit a request in a Virtual Agent conversation.
 
-**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
 
 **Related topics**  
 
 
-[Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md)
+[Catalog builder preview topic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/catalog-builder-preview-topic.md)
 

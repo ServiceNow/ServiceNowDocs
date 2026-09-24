@@ -3,11 +3,11 @@ title: Limit the class list for new CIs created in a workspace
 description: Limit the selection of classes for a new CI being manually created in your workspace, to only those classes that are relevant to that workspace. When then creating a new CI in the respective workspace, users can only select a class that is authorized as an option.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,8 +26,8 @@ Settings for specific classes available for new CIs are stored in the CI class c
 
 For more information:
 
--   About configuration identifiers, see [Configuration identifiers framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuration-identifiers-framework.md).
--   About the experience of manually creating a new CI in CMDB Workspace, see [Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md).
+-   About configuration identifiers, see [Configuration identifiers framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/configuration-identifiers-framework.md).
+-   About the experience of manually creating a new CI in CMDB Workspace, see [Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md).
 
 ## Before you begin
 
@@ -105,5 +105,5 @@ Include or exclude the **CI class** in the list of classes for a new CI.
 
 When manually creating a new CI in the respective workspace, the specified **CI class** is included in the **Class** drop-down list on the Select class page only if it is set to be available.
 
-**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

@@ -3,9 +3,9 @@ title: Sign new REST and SOAP messages
 description: Sign and validate the new REST and SOAP messages from the trusted instance by enabling the Code Signing in protected and trusted instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-new-rest-soap.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [REST and SOAP Signing, Using Code Signing, Code Signing, Platform Security]
 ---
@@ -60,4 +60,6 @@ Role required: security\_admin
 
         The update set is committed successfully.
 
+
+**Parent Topic:**[Sign the REST and SOAP messages in the production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/cs-rest-soap.md)
 

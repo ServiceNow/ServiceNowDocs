@@ -3,9 +3,9 @@ title: Usage Insights data sources for data visualizations
 description: You can show metrics related to Usage Insights in a data visualization component. The available metrics depend on the visualization type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/uxa-data-sources.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Selecting data sources, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -179,7 +179,7 @@ Time series: Number of active or new users in the date range
     \[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: View Usage Insights funnel in Platform Analytics
 
 
-**Parent Topic:**[Selecting data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/selecting-data-sources.md)
+**Parent Topic:**[Selecting data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/selecting-data-sources.md)
 
 **Related topics**  
 

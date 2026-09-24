@@ -3,11 +3,11 @@ title: MID Server unified key store
 description: The MID Server unified key store allows all products on the MID Server to use common certificates and key pairs. This feature allows applications to use the same secure communication channel to the MID Server that the MID Server uses to connect to the instance.Install custom certificates to unify the security channels for various applications.If the key store becomes corrupted or is accidentally deleted you can restore a backup of the MID Server key store. This is especially useful for key stores with custom key-pairs, because otherwise recreating custom key-pair data can be difficult and time consuming.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-unified-keystore.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -65,7 +65,7 @@ MIIDKzCCAhOgAwIBAgIEPqMQqDANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJV
 -----END CERTIFICATE----- 
 ```
 
-**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
@@ -87,8 +87,6 @@ MIIDKzCCAhOgAwIBAgIEPqMQqDANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJV
 [Rekey a MID Server]()
 
 [Add SSL certificates for the MID Server]()
-
-[Specify an external TrustStore for the MID Server]()
 
 [MID Server SSH cryptographic algorithms]()
 
@@ -273,7 +271,7 @@ The **manage-certificates** has the following functions and the scripts must be 
 **Related topics**  
 
 
-[Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/install-mid-mutual-auth.md)
 
 ## Restore the MID Server key store with a backup
 
@@ -291,7 +289,7 @@ In the backup folder, there is a dedicated backup log file: **keystore\_backup\_
 
 **Note:** For security purposes, the backup key store should have the same attributes as the original key store, such as owner, group, and permissions. Those attributes ensure the MID Server has the same protection at file system level.
 
-The key store backups can be modified with the MID Server properties **mid.keystore.max\_backups**, **mid.keystore.max\_live\_backups**, and **mid.keystore.backup\_overwrite\_timespan**. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
+The key store backups can be modified with the MID Server properties **mid.keystore.max\_backups**, **mid.keystore.max\_live\_backups**, and **mid.keystore.backup\_overwrite\_timespan**. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
 
 ### Procedure
 

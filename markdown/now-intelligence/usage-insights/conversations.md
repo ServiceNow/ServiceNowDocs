@@ -3,11 +3,11 @@ title: Conversations
 description: The conversations view brings ServiceNow Otto chat activity into Usage Insights. It reports engagement metrics such as total chat users and live agent transfers, chat-related events, from starting a conversation to rendering a chat response to selecting a chat action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/conversations.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Conversations in UXA]
 breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
@@ -42,8 +42,8 @@ The **Conversations** view is intended for analysts and product managers who:
     A list of individual conversations. Selecting a conversation ID opens that conversation's activity and all of its chat-related events.
 
 
--   **[Analyze conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/analyze-conversations.md)**  
+-   **[Analyze conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/analyze-conversations.md)**  
 Review conversation metrics and trends in Usage Insights, segment them by dimensions such as country, and examine the sequence of events in an individual conversation.
 
-**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/using-uxa.md)
 

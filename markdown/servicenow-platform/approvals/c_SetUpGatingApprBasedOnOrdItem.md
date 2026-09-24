@@ -3,11 +3,11 @@ title: Set up a gating approval based on the item being ordered
 description: In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/c\_SetUpGatingApprBasedOnOrdItem.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gating approvals, Approval rules, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Gating approvals, Approval rules, Classic approvals, Exploring Serv
 
 In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered. We can, for example, specify that all Blackberrys need to be approved by David Loo.
 
@@ -34,5 +34,5 @@ Notes and limitations:
 1.  As with approval rules, you are protected against duplicate entries. Thus if a person is a member of the hardware group, as well as being a standalone approver, the person will only get one approval request.
 2.  Item-based approved work in addition to rather than instead of approval rules so you can \(and probably will\) use both.
 
-**Parent Topic:**[Gating approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/c_GatingApprovals.md)
+**Parent Topic:**[Gating approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/approvals/c_GatingApprovals.md)
 

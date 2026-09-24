@@ -3,11 +3,11 @@ title: Basic authentication restriction
 description: Basic authentication restriction is a security feature that controls which accounts can use basic authentication on a ServiceNow instance. Administrators can review identified users and assign per-account decisions before enforcement begins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/basic-auth-restriction.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [basic authentication restriction, basic auth, enforcement, snc\_basic\_auth\_api\_access]
 breadcrumb: [Basic authentication, API Authentication, Authentication, Access Management]

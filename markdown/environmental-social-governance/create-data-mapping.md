@@ -3,9 +3,9 @@ title: Create data mapping
 description: Create data mappings to import Watershed data from columns other than the pre-configured columns of the Watershed spreadsheet. By default, data import from three columns is supported.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-data-mapping.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -54,5 +54,5 @@ By default, you can import data related to carbon emissions, renewable energy, a
 
 The new mapping is ready to import data.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-watershed.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrate-esg-with-watershed.md)
 

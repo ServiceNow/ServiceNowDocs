@@ -3,10 +3,10 @@ title: Recommended Actions
 description: Recommended Actions is a context-aware recommendation framework that displays relevant, actionable guidance to users directly within workspaces based on the context of the record they are working on. It acts as a one‑stop experience that combines contextual actions, guided decisions, rule-based and AI-driven recommendations, and AI Search to help users resolve issues faster and more consistently across workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-recommended-actions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-16"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Workspace experience, Customer Relationship Management]
 ---
 
@@ -18,7 +18,7 @@ Recommended Actions is a context-aware recommendation framework that displays re
 
 Recommended Actions is a configurable component that evaluates the active record \(such as a case, incident, or interaction\) against configurable rules and surfaces contextually relevant recommendations automatically in the contextual side panel of supported workspaces to agents. These recommendations can include guidance cards with actions, guided decision trees, field-level suggestions, and AI Search results. It is designed as a horizontal platform capability, meaning it works across multiple products and workflows rather than being limited to a single application.
 
-\[Omitted image "ra-guidance-type.png"\] Alt text: Guidance cards display actions that agents can take. For example, agents can select an action such as create a work order or read a suggested knowledge article.
+\[Omitted image "ra-guidance-type.png"\] Alt text: Guidance cards provide specific guidance that agents can take by selecting the action, such as creating a work order or reading a recommended knowledge article.
 
 The Suggested actions tab in Recommended Actions surfaces context-aware, actionable recommendations that agents can take directly to progress or resolve a record, such as applying resolutions, linking related records, or initiating guided actions. These suggestions are generated based on record context, configured rules, and underlying resource generators, ensuring that only relevant actions appear at the right stage of the agent’s workflow.
 
@@ -79,11 +79,11 @@ Recommended Actions is available across the CRM solution, with each product cont
 **Related topics**  
 
 
-[Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-nba.md)
+[Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-nba.md)
 
-[Configuring the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-recommended-actions.md)
+[Configuring the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-recommended-actions.md)
 
-[Configuring AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search.md)
+[Configuring AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-configuring-ai-search.md)
 
-[Example configurations of recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/recommended-actions-use-case.md)
+[Example configurations of recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/recommended-actions-use-case.md)
 

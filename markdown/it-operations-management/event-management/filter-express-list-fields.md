@@ -3,11 +3,11 @@ title: Filter the Express List display by adding or removing fields
 description: Add fields to or remove fields from the Express List pane filter using the interactive filter panel. Use filtering to create different views of categorized alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/filter-express-list-fields.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Filtering the alert display in the Express List pane, Set up your workspace, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---

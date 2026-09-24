@@ -3,11 +3,11 @@ title: Create condition templates for condition attributes
 description: Create a condition template and associate the template to condition attributes for enterprise models and assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-condition-template-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Asset conditions, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
@@ -53,13 +53,13 @@ Create condition templates before defining condition attributes on enterprise mo
 
 7.  Select **Enable scoring**
 
-    You must enable scoring to make results available for the condition attributes. For more details on scoring, see [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-impact-asmt-template.md).
+    You must enable scoring to make results available for the condition attributes. For more details on scoring, see [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-impact-asmt-template.md).
 
 8.  After entering the details in the **Scoring** tab, select **Save**.
 
 9.  Select the **Questions** tab to create sections and questions.
 
-    You can create sections and questions in this tab and enable scoring for any specific section and for individual questions. For more details on creating questions, sections, and scoring, see [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-impact-asmt-template.md).
+    You can create sections and questions in this tab and enable scoring for any specific section and for individual questions. For more details on creating questions, sections, and scoring, see [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-impact-asmt-template.md).
 
 10. After entering all the details in the **Questions** tab, select **Save**.
 
@@ -70,7 +70,7 @@ Create condition templates before defining condition attributes on enterprise mo
     If you don’t publish the template, the template won’t be available in the condition template picker when creating condition attributes.
 
 
-**Parent Topic:**[Asset conditions in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-conditions-eam.md)
+**Parent Topic:**[Asset conditions in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/asset-conditions-eam.md)
 
 **Related topics**  
 

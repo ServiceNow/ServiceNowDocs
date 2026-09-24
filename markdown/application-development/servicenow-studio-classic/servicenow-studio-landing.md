@@ -1,20 +1,20 @@
 ---
 title: ServiceNow Studio
-description: Use ServiceNow Studio to build, configure, and deploy custom ServiceNow apps from a single development environment. ServiceNow Studio gives admins and developers integrated tools to create app files, edit scoped and global app metadata, and package changes for deployment.
+description: Use ServiceNow Studio to build, manage, and deploy custom, base system, or global applications and global metadata records from a single development environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-landing.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Developing your application, Building applications]
 ---
 
 # ServiceNow Studio
 
-Use ServiceNow Studio to build, configure, and deploy custom ServiceNow apps from a single development environment. ServiceNow Studio gives admins and developers integrated tools to create app files, edit scoped and global app metadata, and package changes for deployment.
+Use ServiceNow Studio to build, manage, and deploy custom, base system, or global applications and global metadata records from a single development environment.
 
 ## What is ServiceNow Studio?
 
@@ -24,19 +24,19 @@ Use ServiceNow Studio to build, configure, and deploy custom ServiceNow apps fro
 
 <table id="table_fr1_5jl_51c" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Studio concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/exploring-servicenow-studio.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Studio concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/exploring-servicenow-studio.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure environments, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure environments, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 
 </td></tr><tr><td>
 
-[Build \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Build applications, flows, and more using ServiceNow Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/using-servicenow-studio.md)
+[Build \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Build applications, flows, and more using ServiceNow Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about ServiceNow Studio components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about ServiceNow Studio components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
 
 </td></tr></tbody>
 </table>## Which app builder should I use?
@@ -57,27 +57,15 @@ Features
 
 </th></tr></thead><tbody><tr><td>
 
-Creator Studio: Build an app without code.
+Build Agent: Build an app using natural language prompts.
 
 </td><td>
 
-Process owners, line of business owners
+Developers of all experience levels \(from low-code to Platform and source code\)
 
 </td><td>
 
-Build request-fulfillment apps without writing code. For example, create an application to request office supplies: a user fills out a form, and an approver accepts or denies the request. For more information, see [Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/exploring-creator-studio.md).
-
-</td></tr><tr><td>
-
-App Engine Studio: Build a range of apps using low-code tools.
-
-</td><td>
-
-Citizen developers
-
-</td><td>
-
-Build a broader range of apps than Creator Studio without writing code.For more information, see [Exploring App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/exploring-aes.md).
+Build full-stack applications via a conversational interface.You can use Build Agent in ServiceNow Studio and the ServiceNow IDE to generate a complete ServiceNow scoped or global application. For more information, see [Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-build-agent.md).
 
 </td></tr><tr><td>
 
@@ -91,24 +79,12 @@ Citizen developers, Platform developers
 
 Build apps in a unified development environment.ServiceNow Studio provides streamlined navigation, integrated low-code tools, and built-in tracking and packaging so you can develop and ship apps faster. Use Build Agent in ServiceNow Studio to create and update apps with a conversational interaction.
 
-For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/exploring-servicenow-studio.md)and [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
-
-</td></tr><tr><td>
-
-ServiceNow IDE and ServiceNow SDK: Build apps in source code.
-
-</td><td>
-
-Source code developers
-
-</td><td>
-
-Develop applications in source code with ServiceNow Fluent, create JavaScript modules, and use third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code. Use Build Agent in ServiceNow IDE to create and update apps in source code with a conversational interaction.The ServiceNow IDE runs Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK runs Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications-source-code.md).
+For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
 
 </td></tr></tbody>
 </table>## Give ServiceNow Studio a try
 
-Ready to give ServiceNow Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md).
+Ready to give ServiceNow Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/personal_developer_instance_guide.md).
 
 <table id="table_f4p_d1v_2dc" class="nav-card"><tbody><tr><td>
 

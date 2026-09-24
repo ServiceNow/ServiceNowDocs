@@ -3,11 +3,11 @@ title: Create Collaboration thread form
 description: Use the Create collaboration thread form in the BCM Configurable Workspace to enable team members to communicate and coordinate responses during an exercise or a crisis event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-collaboration-thread-crisis-event-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a collaboration thread in a crisis event, Creating collaboration threads in exercises and crisis events, Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Create a collaboration thread in a crisis event, Creating collaboration threads in exercises and crisis events, Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create Collaboration thread form
@@ -180,5 +180,5 @@ Source
 Source of the attachment, for example **Inbound Email**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)
+</table>**Parent Topic:**[Create a collaboration thread in a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compose-email-collaboration-thread-crisis.md)
 

@@ -3,11 +3,11 @@ title: Add steps to an automated test
 description: Create a series of steps for an automated test to run in a specified order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-create-step.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a new automated test, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -24,7 +24,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 ## About this task
 
-This procedure lets you add one step at a time. You can also add a batch of steps at once. For more information, see [Add a predefined list of steps \(template\) to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-template.md).
+This procedure lets you add one step at a time. You can also add a batch of steps at once. For more information, see [Add a predefined list of steps \(template\) to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-use-template.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ This procedure lets you add one step at a time. You can also add a batch of step
 
     For example, if selecting a specific test step category, select **Form** for form-related test steps, **Application Navigator** to test application menu or module visibility, or **Server** for tests executed on the server.
 
-    **Note:** When selecting certain types of server tests, you can specify whether a positive or negative test result constitutes a successful test outcome. For more information, see Assert type in [Exploring Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework.md).
+    **Note:** When selecting certain types of server tests, you can specify whether a positive or negative test result constitutes a successful test outcome. For more information, see Assert type in [Exploring Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/automated-test-framework.md).
 
 5.  Click the type of test step you want to select.
 
@@ -56,13 +56,13 @@ This procedure lets you add one step at a time. You can also add a batch of step
 
 9.  In the **Execution Order** field, enter an integer representing the order in which you want the test to execute this step.
 
-    For more information on **Execution Order**, see [Edit automated test step order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-edit-step-order.md).
+    For more information on **Execution Order**, see [Edit automated test step order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-edit-step-order.md).
 
 10. Fill in the fields that apply to this step.
 
-    For instructions, see [Automated Test Framework \(ATF\) test step categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-step-categories.md).
+    For instructions, see [Automated Test Framework \(ATF\) test step categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/test-step-categories.md).
 
-    Some steps return output values that you can pass to the inputs for a subsequent step. For more information, see [Pass values from one automated test step to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-retrieve-value.md).
+    Some steps return output values that you can pass to the inputs for a subsequent step. For more information, see [Pass values from one automated test step to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-retrieve-value.md).
 
 11. Click **Submit**.
 
@@ -73,12 +73,12 @@ This procedure lets you add one step at a time. You can also add a batch of step
 
 ## What to do next
 
-[Run an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-run-test.md).
+[Run an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-run-test.md).
 
-**Parent Topic:**[Create a new automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-create-test.md)
+**Parent Topic:**[Create a new automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-create-test.md)
 
 **Related topics**  
 
 
-[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
+[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
 

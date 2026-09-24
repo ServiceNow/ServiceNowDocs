@@ -3,11 +3,11 @@ title: Components installed with Industrial Guided Tasks
 description: Several types of components are installed with activation of the plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/components-installed-with-industrial-guided-tasks.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Industrial Guided Tasks, Reference, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -86,5 +86,5 @@ User role for the Industrial Guided Tasks application
 -   Industrial Guided Task Standard \[sn\_icw\_igt\_standard\]
 -   Industrial Guided Task \[sn\_icw\_igt\_task\]
 
-**Parent Topic:**[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)
+**Parent Topic:**[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)
 

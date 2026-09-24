@@ -3,9 +3,9 @@ title: Configure playbooks
 description: Review the playbooks that are available with Financial Services Operations applications to check they align to your business processes. You may need to customize them or design new ones as needed. You can still use the playbook activity definitions.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-playbooks-fso-apps.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
@@ -16,7 +16,7 @@ Review the playbooks that are available with Financial Services Operations appli
 
 ## Before you begin
 
-Ensure that the scope is selected for the application for which you are configuring a playbook. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Ensure that the scope is selected for the application for which you are configuring a playbook. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: Based on the application that you are configuring, you need the following roles:
 
@@ -37,9 +37,9 @@ Role required: Based on the application that you are configuring, you need the f
 
 ## About this task
 
-The playbooks are built using ServiceNow Playbooks, so make sure you’re familiar with [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) basics.
+The playbooks are built using ServiceNow Playbooks, so make sure you’re familiar with [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer.md) basics.
 
-For information on playbooks that are installed with Financial Services Operations applications, see [Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/playbooks-fso-apps.md).
+For information on playbooks that are installed with Financial Services Operations applications, see [Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/playbooks-fso-apps.md).
 
 **Note:** The playbooks in Financial Services Operations applications use the **CSM Configurable Workspace Playbook** playbook experience.
 
@@ -51,12 +51,12 @@ For information on playbooks that are installed with Financial Services Operatio
 
     -   To create a playbook, click **New**.
     -   To modify a predefined playbook, open the playbook from the list.
-    For information on how to create or modify playbooks, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-process-definition.md).
+    For information on how to create or modify playbooks, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-process-definition.md).
 
 3.  Click **Save**.
 
 4.  Test your playbook and click **Activate**.
 
-    For more information, see [Test a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-process.md).
+    For more information, see [Test a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/test-process.md).
 
 

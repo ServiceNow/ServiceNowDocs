@@ -3,22 +3,22 @@ title: Software Asset Management Foundation dashboard
 description: View compliance and true-up cost trend charts on the Software Asset Management Foundation dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/c\_SAMDashboardSAMF.html
-release: australia
+release: brazil
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Management Foundation plugin classic, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Using Basic Software Asset Management classic, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Software Asset Management Foundation dashboard
 
 View compliance and true-up cost trend charts on the Software Asset Management Foundation dashboard.
 
-**Note:** The Software Asset Management Foundation dashboard is no longer available for new Australia users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Australia without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia.
+**Note:** The Software Asset Management Foundation dashboard is no longer available for new Brazil users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Brazil without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil.
 
--   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Australia but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
+-   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
 -   If you activated the Software Asset Workspace \(sn\_sam\_workspace\) store application after upgrading to Zurich, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
 
 The Software Asset Management Foundation dashboard is accessed by navigating to **Software Asset** &gt; **Overview**. Click an element within a report to see more information, or add and move widgets as needed.
@@ -36,5 +36,5 @@ The source for overview data is the Product Result \[samp\_product\_result\] tab
 |Total True-up Cost|Cost to be compliant based on the average prices in entitlements for the rights.|
 |Top 10 Products by True-up Cost|Top 10 products graphed in order of true-up cost.|
 
-**Parent Topic:**[Using Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)
+**Parent Topic:**[Using Basic Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)
 

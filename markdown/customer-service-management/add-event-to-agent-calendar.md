@@ -3,9 +3,9 @@ title: Add an event to the agent calendar
 description: Users with the agent schedule user role can add events to their personal calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-event-to-agent-calendar.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use agent calendar, Agent calendar, Schedules and sites, Use, Customer Service Management]
 ---

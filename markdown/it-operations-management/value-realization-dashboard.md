@@ -3,9 +3,9 @@ title: AIOps Value Realization dashboard
 description: The AIOps Value Realization dashboard uses Performance Analytics to offer comprehensive visibility into the business outcomes of alerts, events, and incidents. It features metrics such as noise reduction \(events to alerts compression\), average MTTR for incidents created by Event Management\[var.event-mgmt\], and the most critical services impacted by hours.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/value-realization-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [AIOps Dashboards in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---

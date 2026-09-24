@@ -3,11 +3,11 @@ title: Extend Your AI Search
 description: This Accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/extend-your-ai-search.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -74,5 +74,5 @@ This Impact Accelerator in its entirety or portions of the Impact Accelerator ac
 
 ## Exclusions
 
-ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

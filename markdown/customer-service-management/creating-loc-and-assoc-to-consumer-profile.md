@@ -3,9 +3,9 @@ title: Create and associate a location to a consumer profile
 description: Create a location and associate it with the consumer profile in the Customer Service Management \(CSM\) application. With this functionality, you can create and associate multiple addresses to a consumer profile that serve other purposes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/creating-loc-and-assoc-to-consumer-profile.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Associating locations to consumer profiles, Creating multiple consumer profiles for a user, Configure consumers, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -46,7 +46,7 @@ Here's an example of why a user created and associated a location to the consume
 
     **Note:** If multiple consumer profile location records are associated with the location, you can't delete a location record.
 
-    A new address is created and added to the **Location** field. You can associate this location to the consumer profile. For a description of the field values, see [Consumer Profile Location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/consumer-profile-location-table.md).
+    A new address is created and added to the **Location** field. You can associate this location to the consumer profile. For a description of the field values, see [Consumer Profile Location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/consumer-profile-location-table.md).
 
 7.  Select **Update**.
 
@@ -54,5 +54,5 @@ Here's an example of why a user created and associated a location to the consume
 **Related topics**  
 
 
-[Associate an existing consumer location with a consumer profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/assoc-existing-consumer-loc.md)
+[Associate an existing consumer location with a consumer profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/assoc-existing-consumer-loc.md)
 

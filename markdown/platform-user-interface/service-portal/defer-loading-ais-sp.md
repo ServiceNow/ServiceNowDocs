@@ -3,11 +3,11 @@ title: Deferred loading of AI Search assets in Service Portal
 description: Deferred loading of AI Search on the Service Portal delays the loading of certain AI Search assets until the main page content is loaded. This delay helps the page to load faster, thus improving user experience in the portal. st.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/defer-loading-ais-sp.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure widget loading order in Service Portal, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,5 +20,5 @@ A new system property, **glide.service\_portal.ais\_defer\_load\_enable.list**, 
 
 **Note:** If the web embeddable feature is enabled, loading of the AI Search assets can’t be deferred. Instead, they load along with the other widgets on the portal page.
 
-**Parent Topic:**[Configure widget loading order in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-widget-loading-order.md)
+**Parent Topic:**[Configure widget loading order in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-widget-loading-order.md)
 

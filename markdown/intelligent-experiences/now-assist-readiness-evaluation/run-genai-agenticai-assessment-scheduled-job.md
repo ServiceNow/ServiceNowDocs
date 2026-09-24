@@ -3,14 +3,14 @@ title: Run the GenAI/AgenticAI Assessment scheduled job
 description: Before you can view the agentic AI or generative AI assessment results, you must first run the GenAI/AgenticAI Assessment scheduled job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.html
-release: australia
+release: brazil
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Configure, AI Readiness Evaluation, Enable AI experiences]
+breadcrumb: [Configure, AI Readiness Evaluation, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
 # Run the GenAI/AgenticAI Assessment scheduled job
@@ -40,5 +40,5 @@ Role required: admin
 
 If you must rerun all the scheduled jobs, or specifically, the agentic AI scheduled jobs for ITSM and CSM, repeat these steps.
 
-**Note:** You must complete the additional steps in the AI Readiness Evaluation guided setup if you want to work with the ServiceNow Otto for HRSD product. If you don’t complete the additional guided setup steps for the ServiceNow Otto for HRSD product, the assessment continuously fails. For more information about completing the AI Readiness Evaluation guided setup, see [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
+**Note:** You must complete the additional steps in the AI Readiness Evaluation guided setup if you want to work with the ServiceNow Otto for HRSD product. If you don’t complete the additional guided setup steps for the ServiceNow Otto for HRSD product, the assessment continuously fails. For more information about completing the AI Readiness Evaluation guided setup, see [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
 

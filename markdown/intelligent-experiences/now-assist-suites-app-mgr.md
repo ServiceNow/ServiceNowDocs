@@ -1,18 +1,18 @@
 ---
 title: Now Assist suite versions
-description: The Application Manager uses Now Assist suite versions to verify compatibility between multiple generative AI applications in one instance.Some Now Assist applications are part of multiple Now Assist suites because they're compatible with multiple other Now Assist application versions.
+description: The Application Manager uses Now Assist suite versions to verify compatibility between multiple Now Assist applications in one instance.Some Now Assist applications are part of multiple Now Assist suites because they're compatible with multiple other Now Assist application versions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-suites-app-mgr.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Install plugins for ServiceNow Otto, Configuring AI skills, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Install Now Assist plugins, Configuring Now Assist Admin features, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Now Assist suite versions
 
-The Application Manager uses Now Assist suite versions to verify compatibility between multiple generative AI applications in one instance.
+The Application Manager uses Now Assist suite versions to verify compatibility between multiple Now Assist applications in one instance.
 
 ## Now Assist Suite overview
 

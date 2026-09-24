@@ -3,11 +3,11 @@ title: Audit user roles
 description: Changes to user roles are tracked in the Audit Roles \[sys\_audit\_role\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/audit-user-roles.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,7 @@ Changes to user roles are tracked in the Audit Roles \[sys\_audit\_role\] table.
 
 Role required: admin
 
-**Note:** If the [Prevent duplicate entries with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/Role-Mgmt-V2.md) plugin is installed, you must [Enable role auditing with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/enable-audit-roles.md).
+**Note:** If the [Prevent duplicate entries with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/Role-Mgmt-V2.md) plugin is installed, you must [Enable role auditing with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/enable-audit-roles.md).
 
 ## Procedure
 
@@ -90,5 +90,5 @@ The affected user.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
+**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/ua-creating-roles.md)
 

@@ -3,11 +3,11 @@ title: Configure a MID Server for IPv6
 description: A MID Server configured for IPv6 can connect to ServiceNow and use Discovery over IPv6 for specific addresses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/config-mid-ipv6.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,11 +40,11 @@ When using Discovery over IPv6, the following requirements apply:
 
 -   **Windows Discovery**
 
-    Only WinRM is supported as of the Australia release. The requirements for WinRM over IPv6 are the same as IPv4. WinRM must be running on both the MID Server host and target, and the target must be configured as a trusted host on that MID Server.
+    Only WinRM is supported as of the Brazil release. The requirements for WinRM over IPv6 are the same as IPv4. WinRM must be running on both the MID Server host and target, and the target must be configured as a trusted host on that MID Server.
 
 -   **Unix Discovery**
 
-    Only SNC SSH is supported as of the Australia release. No additional configuration is needed to use SNC SSH over IPv6. J2SSH and Maverick are not supported but, if their protocols are used over IPv6, the command is executed without guaranteeing the correct results. In that case, the following error message is reported in the MID Server logs: `IPv6 is currently not supported for MID Server using Maverick (J2SSH), however the command will be executed.`
+    Only SNC SSH is supported as of the Brazil release. No additional configuration is needed to use SNC SSH over IPv6. J2SSH and Maverick are not supported but, if their protocols are used over IPv6, the command is executed without guaranteeing the correct results. In that case, the following error message is reported in the MID Server logs: `IPv6 is currently not supported for MID Server using Maverick (J2SSH), however the command will be executed.`
 
 
 ## Procedure

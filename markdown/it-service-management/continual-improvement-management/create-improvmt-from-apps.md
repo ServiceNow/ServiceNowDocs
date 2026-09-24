@@ -3,11 +3,11 @@ title: Create improvement initiatives from integrated applications
 description: Create improvement initiatives from applications integrated with Continual Improvement Management to enable planning, implementation, monitoring, and impact assessment of improvements in a centralized framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/create-improvmt-from-apps.html
-release: australia
+release: brazil
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an improvement request, Continual Improvement Management, IT Service Management]
 ---
@@ -34,14 +34,14 @@ Role required: sn\_cim.improvement\_requester
 
 4.  Enter the field values in the Improvement Initiative form.
 
-    For more information, see [Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md).
+    For more information, see [Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md).
 
 5.  Select **Submit**.
 
 
 ## Result
 
-The improvement initiative is created and UI changes display on the source application record and on the initiative record. For more information, see [Updates after improvement initiative creation from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/ui-updates-initiative-from-app.md).
+The improvement initiative is created and UI changes display on the source application record and on the initiative record. For more information, see [Updates after improvement initiative creation from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/ui-updates-initiative-from-app.md).
 
-**Parent Topic:**[Create an improvement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/create-cim-request.md)
+**Parent Topic:**[Create an improvement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/create-cim-request.md)
 

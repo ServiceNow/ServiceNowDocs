@@ -3,9 +3,9 @@ title: Integrate with Customer Project Management using Guided Setup
 description: Use the Customer Service Management Guided Setup to configure Customer Project Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-configuration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating with Customer Project Management, Integrate, Customer Service Management]
 ---

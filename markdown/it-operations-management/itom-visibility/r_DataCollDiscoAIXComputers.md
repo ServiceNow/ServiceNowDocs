@@ -3,11 +3,11 @@ title: AIX server discovery
 description: Discovery identifies and classifies information about AIX servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoAIXComputers.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Discovery identifies and classifies information about AIX servers.
 
 -   **Configure SSH credentials**
 
-    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
 -   **Verify that you're using at least version 7.5.102 of OpenSSH**
 
@@ -28,15 +28,15 @@ Discovery identifies and classifies information about AIX servers.
 
 -   **Verify privileged commands for AIX discovery**
 
-    For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+    For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 -   **Reference the main CI on discovered IP addresses**
 
-    Starting with Discovery and Service Mapping Patterns version 1.35.0, you can populate the **Owned By Configuration Item** field on discovered IP address records with a reference to the main CI by setting the **add.owned.by.attribute** property to true. For more information, see [Reference the main CI on discovered IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-owned-by-field-ip-address.md).
+    Starting with Discovery and Service Mapping Patterns version 1.35.0, you can populate the **Owned By Configuration Item** field on discovered IP address records with a reference to the main CI by setting the **add.owned.by.attribute** property to true. For more information, see [Reference the main CI on discovered IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-owned-by-field-ip-address.md).
 
 -   **Discover only the latest OS patch versions**
 
-    Starting with Visibility Content version 6.35.0, you can collect only the current operating system patch level by setting the **sn\_itom\_pattern.discover\_latest\_os\_patches** MID Server property to true. For more information, see [Discover only the latest operating system patch versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/enable-latest-patch-discovery.md).
+    Starting with Visibility Content version 6.35.0, you can collect only the current operating system patch level by setting the **sn\_itom\_pattern.discover\_latest\_os\_patches** MID Server property to true. For more information, see [Discover only the latest operating system patch versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/enable-latest-patch-discovery.md).
 
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
@@ -84,7 +84,7 @@ AIX server
 
 ^These probes remain active by default, even when Discovery uses pattern discovery.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected
 
@@ -123,5 +123,5 @@ To use patterns, verify that the correct pattern is specified in the horizontal 
 |MAC address|cmdb\_ci\_network\_adapter|mac\_address|ifconfig, netstat|
 |Netmask|cmdb\_ci\_network\_adapter|netmask|ifconfig, netstat|
 
-**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Computers.md)
 

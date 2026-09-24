@@ -3,11 +3,11 @@ title: Manage a task rate card
 description: Task rate cards are rate cards associated with records in a task table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/t\_ManageATaskRateCard.html
-release: australia
+release: brazil
 product: Cost Management
 classification: cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Task and labor rate cards, Cost Management, Strategic Portfolio Management]
 ---
@@ -108,5 +108,5 @@ Defines the default hourly rate to apply to the time worked entries if the worke
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Task and labor rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_TaskAndLaborRateCards.md)
+**Parent Topic:**[Task and labor rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_TaskAndLaborRateCards.md)
 

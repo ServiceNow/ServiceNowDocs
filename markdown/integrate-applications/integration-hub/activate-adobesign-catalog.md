@@ -3,11 +3,11 @@ title: Activate Adobe Sign spoke catalog items
 description: Trigger events in Adobe Sign when an item is requested in Service Catalog. For example, the Adobe Sign - Statement of Work Demo catalog item triggers a sample flow that sends a Adobe Sign document to a designated recipient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/activate-adobesign-catalog.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adobe Sign Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ Trigger events in Adobe Sign when an item is requested in Service Catalog. For e
 
 ## Before you begin
 
--   [Synchronize Adobe Sign group with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-adobe-sign.md)
+-   [Synchronize Adobe Sign group with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-adobe-sign.md)
 -   Role required: admin
 
 ## About this task

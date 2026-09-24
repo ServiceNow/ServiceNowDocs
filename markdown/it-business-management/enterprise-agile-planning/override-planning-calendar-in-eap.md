@@ -3,11 +3,11 @@ title: Override planning calendar in EAP
 description: Flexibly change the planning calendar for your Agile Release Train \(ART\) or Agile Team by overriding the default calendar that is set during configuration of Enterprise Agile Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/override-planning-calendar-in-eap.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---

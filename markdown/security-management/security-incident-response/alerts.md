@@ -3,11 +3,11 @@ title: Single-record Splunk alerts
 description: Within any alert, you can specify security events or security incidents to be created when the alert is fired.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/alerts.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Security Operations add-on for Splunk overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

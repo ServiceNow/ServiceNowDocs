@@ -3,11 +3,11 @@ title: Service creator process
 description: The service creator process involves requesting and publishing a service category, designating editors and service fulfillers, creating and publishing services, and submitting and fulfilling service requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/c\_ServiceCreatorProcess.html
-release: australia
+release: brazil
 product: Service Creator
 classification: service-creator
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Creator, Build workflows]
 ---
@@ -41,5 +41,5 @@ End users can request published services by submitting a service catalog request
 **Related topics**  
 
 
-[Service Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/service-creator/c_ServiceCreator.md)
+[Service Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/service-creator/c_ServiceCreator.md)
 

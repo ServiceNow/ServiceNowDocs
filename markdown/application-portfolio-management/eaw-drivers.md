@@ -3,9 +3,9 @@ title: Exploring drivers
 description: A driver is an external or internal condition that motivates your organization to define goals and implement changes in Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-drivers.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [driver, stakeholder, goal, Enterprise Architecture Workspace]
 breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -27,10 +27,10 @@ You can perform the following tasks:
 
 When you model a driver in a diagram, the default relationship between a driver and a stakeholder, and between a driver and a goal, is **Influences :: Influenced by**.
 
-**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
+**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  
 
 
-[Manage drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-drivers.md)
+[Manage drivers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-drivers.md)
 

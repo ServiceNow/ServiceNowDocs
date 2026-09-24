@@ -3,14 +3,14 @@ title: Video bot response control
 description: Use the Video bot response control in a Virtual Agent topic to include a video in the conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-video-bot-response.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Virtual Agent, Video, bot response, control, node]
-breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Video bot response control
@@ -21,7 +21,7 @@ The Video bot response control includes a navigation button, which gives users t
 
 When users have finished watching the video, they can select the navigation button to continue with the conversation.
 
-**Note:** Topic authors can also use the [Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-card-output.md) to include a video in conversations. However, the Card bot response control doesn't include the navigation button, which gives users time to watch the video.
+**Note:** Topic authors can also use the [Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-card-output.md) to include a video in conversations. However, the Card bot response control doesn't include the navigation button, which gives users time to watch the video.
 
 ## Video bot response control properties
 
@@ -47,7 +47,7 @@ Card type
 
 </td><td>
 
-Type of card. Select **YouTube Video Card**.**Note:** In the Australia release, only YouTube video cards are supported.
+Type of card. Select **YouTube Video Card**.**Note:** In the Brazil release, only YouTube video cards are supported.
 
 </td></tr><tr><td>
 
@@ -131,42 +131,6 @@ Constraints
 
 </th></tr></thead><tbody><tr><td>
 
-Web UI
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Mobile UI
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-ServiceNow Otto panel
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
 Microsoft Teams
 
 </td><td>
@@ -191,43 +155,7 @@ Conversational Integration with Slack version 2.0.0 and later.The video control 
 
 </td></tr><tr><td>
 
-Workplace
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Facebook Messenger
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
 SMS Twilio
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
-LINE
 
 </td><td>
 
@@ -251,27 +179,15 @@ Not applicable
 
 </td></tr><tr><td>
 
-Apple Messages for Business
+Google Chat
 
 </td><td>
 
-Not supported
+Supported
 
 </td><td>
 
-Not applicable
-
-</td></tr><tr><td>
-
-Alexa \(Voice\)
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
+None
 
 </td></tr></tbody>
 </table>## Example Video bot response control
@@ -299,5 +215,5 @@ Card output
 \[Omitted image "va-video-without-nav-button.png"\] Alt text: Video card with the header, "Returning to work using Safe Workplace Suite" and a description.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Configure a tag policy for Tag Governance
+title: Configure tag policies
 description: Configure tag policies that define the criteria for tag audits on discovered cloud resources or CIs. View audit results on tag quality and compliance on the Tag Health dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/configure-tag-governance-policy.html
-release: australia
+release: brazil
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Establish policies, Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure a tag policy for Tag Governance
+# Configure tag policies
 
 Configure tag policies that define the criteria for tag audits on discovered cloud resources or CIs. View audit results on tag quality and compliance on the Tag Health dashboard.
 
@@ -30,7 +30,7 @@ You can specify filters that narrow the scope of an audit, for example, to audit
 
 2.  Select **New** and then fill in the Tag Policies form.
 
-    The form fields are described in [Tag Policies form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/tag-gov-tag-policies-form.md).
+    The form fields are described in [Tag Policies form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-governance/tag-gov-tag-policies-form.md).
 
 3.  Select **Submit**.
 
@@ -41,5 +41,5 @@ You can specify filters that narrow the scope of an audit, for example, to audit
 
 -   Select the **Show Audit Results** related link to view all audit results.
 -   Select the **Run Point Scan** related link to execute all applicable checks against the record.
--   For more information see, [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md) and [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
+-   For more information see, [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md) and [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md).
 

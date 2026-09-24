@@ -3,11 +3,11 @@ title: Configure event collection from SolarWinds monitor
 description: Configure the SolarWinds monitor connector instance to receive events from the SolarWinds monitor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigureSolarwindsConnectorJS.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -28,13 +28,13 @@ Supported versions:
 -   Network Performance Monitor \(NPM\)
 -   SolarWinds Service &amp; Application Monitor \(SAM\)
 
-The SolarWinds monitor connector instance requires a credential that lets the instance access SolarWinds monitor accounts. You can use an existing credential or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-solarwinds.md). The provided user must have access to the SolarWinds API to receive events from the SolarWinds connector.
+The SolarWinds monitor connector instance requires a credential that lets the instance access SolarWinds monitor accounts. You can use an existing credential or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-credentials-solarwinds.md). The provided user must have access to the SolarWinds API to receive events from the SolarWinds connector.
 
 Role required: evt\_mgmt\_admin and evt\_mgmt\_integration
 
 ## About this task
 
-This connector has the **debug** and **logPayloadForDebug** log parameters enabled. The **debug** parameter logs debug messages, such as calls made to the source system to retrieve events. The **logPayloadForDebug** parameter logs event and metric payloads from the source system. Once debugging is complete, set this parameter to **false** to prevent overloading the system. By default, the vRealize\_V2 connector communicates with the vRealize Operations API using JSON. To use the legacy XML format, set the **useXMLResponse** parameter to **true**.
+This connector has the **debug** and **logPayloadForDebug** log parameters enabled. The **debug** parameter logs debug messages, such as calls made to the source system to retrieve events. The **logPayloadForDebug** parameter logs event and metric payloads from the source system. Once debugging is complete, set this parameter to **false** to prevent overloading the system. To use the legacy XML format, set the **useXMLResponse** parameter to **true**.
 
 ## Procedure
 
@@ -50,7 +50,7 @@ This connector has the **debug** and **logPayloadForDebug** log parameters enabl
     |Description|Type a description for the use of the SolarWinds monitor event collection instance.|
     |Connector Definition|Select **Solarwinds\_v2**.|
     |Host IP|Specify the SolarWinds monitor IP address.|
-    |Credential|Select the credential with basic authentication that you created for this connector. For more information, see [Create SolarWinds monitor credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-solarwinds.md).|
+    |Credential|Select the credential with basic authentication that you created for this connector. For more information, see [Create SolarWinds monitor credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-credentials-solarwinds.md).|
     |Event collection last run time|The last run time value of the scheduled job. This field is updated automatically.|
     |Last event collection status|The last event collection status. This field is updated automatically.|
     |Event collection schedule \(seconds\)|The frequency in seconds that the system checks for new events from the SolarWinds monitor server.|
@@ -116,13 +116,13 @@ A boolean toggle that determines the source table for event queries. Setting the
 8.  After a successful test, select the **Active** check box and then click **Update**.
 
 
--   **[Create SolarWinds monitor credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-solarwinds.md)**  
+-   **[Create SolarWinds monitor credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-credentials-solarwinds.md)**  
 Create a Basic Auth credential in ServiceNow to store the SolarWinds user name and password that the SolarWinds monitor connector uses to access the SolarWinds API.
 
-**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 
 **Related topics**  
 
 
-[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
+[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

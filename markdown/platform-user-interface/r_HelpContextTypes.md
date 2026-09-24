@@ -3,9 +3,9 @@ title: Help context types and prioritization
 description: You can create a help context with the type Form, List, or Record, and link it to a particular table in your ServiceNow instance. If you have multiple help contexts, prioritization determines which help contexts apply to what a user views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_HelpContextTypes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Context-sensitive help, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -42,13 +42,13 @@ When a user clicks the help icon, the system analyzes the relevant help contexts
 When there are several matching help context records, the following rules determine which help context is used, in descending order of priority.
 
 1.  A customer-created help context is used instead of a default help context provided in the instance for the same table.
-2.  A help context that matches the user's language setting is used instead of a help context in the default language of the instance. See the **Language** field on the [Help Context form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateANewHelpContext.md).
+2.  A help context that matches the user's language setting is used instead of a help context in the default language of the instance. See the **Language** field on the [Help Context form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreateANewHelpContext.md).
 3.  A help context for a closer table in an extended table hierarchy is used instead of a help context for a further table.
 
     Consider the case of the Linux Server \[cmdb\_ci\_linux\_server\] table, which has the following parentage: cmdbi\_ci &gt; cmdb\_ci\_hardware &gt; cmdb\_ci\_computer &gt; cmdb\_ci\_server &gt; cmdb\_ci\_linux\_server. If help contexts exist for both the cmdb\_ci\_server table and the cmdb\_ci table, the help icon directs to the page specified by the cmdb\_ci\_server help context when you view a record in the cmdb\_ci\_linux\_server table.
 
 
-**Parent Topic:**[Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ContextSensitiveHelp.md)
+**Parent Topic:**[Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ContextSensitiveHelp.md)
 
 **Related topics**  
 

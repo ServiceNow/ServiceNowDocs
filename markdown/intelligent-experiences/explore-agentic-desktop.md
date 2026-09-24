@@ -3,12 +3,12 @@ title: Exploring AI Desktop Actions
 description: Create desktop actions with AI Desktop Actions to automate repetitive tasks on your desktop and web environment using AI agents and agentic workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/explore-agentic-desktop.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-11-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [explore, AI agent, AI agent studio, desktop automations, adaptive desktop action, defined desktop action, adaptive path desktop action, defined path desktop action, deterministic desktop action, probabilistic desktop action]
-breadcrumb: [AI Desktop Actions, Enable AI experiences]
+breadcrumb: [AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Exploring AI Desktop Actions
@@ -28,7 +28,7 @@ Desktop actions are tools used by AI agents—they are not AI agents themselves.
 
 You can use AI Desktop Actions to execute predefined automation sequences on your desktop. Defined path actions provide consistent, repeatable workflows for common desktop tasks. AI Desktop Actions is a client application that is installed on the Windows operating system. The app offers two workspaces, the Design workspace, where you create and configure desktop automations, and the Execution workspace, where those automations run. The Design workspace enables you to automate multi-step processes by recording with AIor manually capturing a fixed sequence of steps. Execution workspace enables AI agents to execute desktop actions in an isolated desktop session.
 
-The Design workspace lets you build multi-step desktop actions by recording or manually capturing steps. The Execution workspace runs desktop actions in an isolated desktop session and is launched automatically when you test a desktop action or trigger an automation from the ServiceNow Otto panel. You don't open the Execution workspace manually. For more information, see [Defined path desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions.md).
+The Design workspace lets you build multi-step desktop actions by recording or manually capturing steps. The Execution workspace runs desktop actions in an isolated desktop session and is launched automatically when you test a desktop action or trigger an automation from the ServiceNow Otto panel. You don't open the Execution workspace manually. For more information, see [Defined path desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/desktop-actions.md).
 
 ## Adaptive desktop actions
 
@@ -41,7 +41,7 @@ The Design workspace lets you build multi-step desktop actions by recording or m
     You can automate web-based tasks that involve adaptive steps using desktop actions. You configure desktop actions in AI Agent Studio as part of a AI agent tool configuration. When a user describes a task in the ServiceNow Otto panel, the AI agent uses the desktop action tool to open a separate browser tab and performs the task. Screenshots of each step appear in the **Web view** tab of the ServiceNow Otto panel enhanced chat so you can monitor progress.
 
 
-For example, opening the application, selecting fields, and completing a workflow. The AI agent checks the state of the page and adjusts the sequence based on the user's goal. Because the steps are adjusted dynamically, results may vary. Review the output for accuracy before accepting it. For more information, see [Adaptive path desktop actions for web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/web-agents-overview.md).
+For example, opening the application, selecting fields, and completing a workflow. The AI agent checks the state of the page and adjusts the sequence based on the user's goal. Because the steps are adjusted dynamically, results may vary. Review the output for accuracy before accepting it. For more information, see [Adaptive path desktop actions for web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/web-agents-overview.md).
 
 ## How it fits into ServiceNow workflows
 
@@ -56,21 +56,21 @@ Build desktop automations by transforming task mining observations into producti
 -   Technical users generate automation blocks \(on-screen and background tasks\) and create desktop actions and associated AI agent in Automation Center.
 -   Authorized users execute the completed automations \(desktop actions\) in AI Desktop Actions using the deployed AI agent.
 
-To learn more about desktop action creation journey from Task Mining, see [Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/creating-desktop-actions-tm-ac.md).
+To learn more about desktop action creation journey from Task Mining, see [Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/better-together/creating-desktop-actions-tm-ac.md).
 
 ## Impersonating users
 
-You can trigger AI agents from the ServiceNow Otto panel while impersonating another user, provided the impersonated user has the required roles. The sn\_aia.admin role is required to use AI Agent Studio, and the now\_assist\_panel\_user role is required to trigger AI agents that execute desktop actions in the Execution workspace. For more information, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ImpersonateAUser.md).
+You can trigger AI agents from the ServiceNow Otto panel while impersonating another user, provided the impersonated user has the required roles. The sn\_aia.admin role is required to use AI Agent Studio, and the now\_assist\_panel\_user role is required to trigger AI agents that execute desktop actions in the Execution workspace. For more information, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ImpersonateAUser.md).
 
 ## What to explore next
 
 To learn more about configuring and using AI Desktop Actions, see:
 
--   [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md)
--   [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
--   [Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
--   [Examples of creating desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/examples-of-agentic-desktop-automation.md)
--   [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
--   [Components installed with AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md)
--   [System requirements and limitations in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sys-req-limitations-ad.md)
+-   [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-agentic-desktop.md)
+-   [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
+-   [Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-agents-ad.md)
+-   [Examples of creating desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/examples-of-agentic-desktop-automation.md)
+-   [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-agentic-desktop.md)
+-   [Components installed with AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md)
+-   [System requirements and limitations in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sys-req-limitations-ad.md)
 

@@ -3,11 +3,11 @@ title: View automated phishing response playbook flow action designer
 description: You can drill down to the Action Designer to view detailed information about the actions being performed for a specific step in the automated phishing response playbook flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/action-phishing-playbook.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Run the automated phishing response playbook flow, Playbook for Automated Phishing, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -38,5 +38,5 @@ This section shows the script used to retrieve observables based on the specifie
 
 **Note:** All actions defined in this flow are reusable and can be modified according to your requirements.
 
-**Parent Topic:**[Run the automated phishing response playbook flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/run-phishing-playbook.md)
+**Parent Topic:**[Run the automated phishing response playbook flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/run-phishing-playbook.md)
 

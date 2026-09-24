@@ -1,18 +1,18 @@
 ---
 title: Assign roles
-description: Assign roles to internal and external users to facilitate proper access to service organizations, business organizations \(formerly business locations\), and households. By assigning required roles, you can enable each user to have the necessary permissions to perform their tasks effectively.
+description: Assign roles to internal and external users to facilitate proper access to service organizations, business locations, and households. By assigning required roles, you can enable each user to have the necessary permissions to perform their tasks effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-data-model-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Assign roles
 
-Assign roles to internal and external users to facilitate proper access to service organizations, business organizations \(formerly business locations\), and households. By assigning required roles, you can enable each user to have the necessary permissions to perform their tasks effectively.
+Assign roles to internal and external users to facilitate proper access to service organizations, business locations, and households. By assigning required roles, you can enable each user to have the necessary permissions to perform their tasks effectively.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 The Service Model Foundation plugins add the following roles to Customer Service Management.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 <table id="table_tls_5tk_2mb"><thead><tr><th>
 
@@ -42,21 +42,23 @@ Location manager contributor\[sn\_customerservice.svc\_location\_manager\_contri
 
 </td><td>
 
-A location manager contributor is employed at the business organization and manages a business location in the location hierarchy along with all its child business organizations.
+A location manager contributor is employed at the business location and manages a business location in the location hierarchy along with all its child business locations.
 
  A location manager contributor performs the following tasks:
 
  -   Manage service organization.
--   Manages staff at the business organizations.
+-   Manages staff at the business locations.
 -   Track products and services at the business locations.
--   Report cases for any account, household, or consumer created at the parent or any child business organizations.
+-   Report cases for any account, household, or consumer created at the parent or any child business locations.
 
 </td><td>
 
--   sn\_customerservice.consumer\_contributor
 -   sn\_customerservice.svc\_location\_manager\_core
 -   sn\_customerservice.service\_organization\_contributor
--   sn\_customerservice.account\_contributor
+-   sn\_bus\_loc.business\_org\_account\_contributor
+-   sn\_bus\_loc.business\_org\_consumer\_contributor
+
+ **Note:** The Location manager contributor reflects the role's containment after the Remove Legacy Roles from Loc Mgr Contrib job has been run. For upgrade customers who haven't run that job yet, this role still contains sn\_customerservice.account\_contributor and sn\_customerservice.consumer\_contributor instead. For more information, see [Enable restricted customer access for Business Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/remove-legacy-contributor-roles-from-loc-mgr-contrib.md).
 
 </td></tr><tr><td>
 
@@ -66,13 +68,13 @@ Location relationship manager\[sn\_bus\_loc.location\_relationship\_manager\]
 
 </td><td>
 
-A location relationship manager is employed by the parent business and acts as a point of contact for one or more external organizations.
+A location relationship manager is employed by the parent business and acts as a point of contact for one or more external business locations.
 
  A location relationship manager performs the following tasks:
 
  -   Manage and monitor all activities related to products and services at an external business location.
 -   Monitor the performance of external business locations.
--   Respond to queries on case status from external organization stakeholders.
+-   Respond to queries on case status from external business location stakeholders.
 
 </td><td>
 
@@ -82,13 +84,13 @@ sn\_customerservice.svc\_location\_manager\_contributor
 
 Location agent\[sn\_customerservice.svc\_location\_agent\]
 
- **Note:** This role only applies to the internal organization.
+ **Note:** This role only applies to the internal business location.
 
 </td><td>
 
 A location agent performs the following tasks:
 
--   View all customer service management \(CSM\) entities.
+ -   View all customer service management \(CSM\) entities.
 -   Create cases for any account, household, consumer, or service organization.
 -   Fulfill cases for any account, household, consumer, or service organization created at the agent’s location.
 
@@ -101,13 +103,13 @@ A location agent performs the following tasks:
 
 Location consumer agent\[sn\_customerservice.svc\_location\_consumer\_agent\]
 
- **Note:** This role only applies to the internal organization.
+ **Note:** This role only applies to the internal business location.
 
 </td><td>
 
 A location consumer agent performs the following tasks:
 
--   View all CSM entities.
+ -   View all CSM entities.
 -   Create cases for any account, household, consumer, or service organization.
 -   Fulfill cases for any account, household, consumer, or service organization created at the service organization or any child service organization.
 -   Assign related staff to any account, household, or consumer.
@@ -121,13 +123,13 @@ A location consumer agent performs the following tasks:
 
 Location manager\[sn\_customerservice.svc\_location\_manager\]
 
- **Note:** This role only applies to the internal organization.
+ **Note:** This role only applies to the internal business locations.
 
 </td><td>
 
 A location manager performs the following tasks:
 
--   View all CSM entities for a related account, household, consumer, or service organization.
+ -   View all CSM entities for a related account, household, consumer, or service organization.
 -   Create, update, and close cases for any related account, household, consumer, or service organization created at the consumer’s location.
 
 </td><td>
@@ -168,7 +170,7 @@ Service Management location agent\[sn\_esm\_location\_agent\]
 
 </td><td>
 
-A service management location agent is an agent for a business organization.
+A service management location agent is an agent for a business location.
 
 </td><td>
 
@@ -194,12 +196,12 @@ Location support agent\[sn\_bus\_loc.svc\_location\_support\_agent\]
 
 </td><td>
 
-A location support agent is a organization member \(formerly service organization member\) who acts as a fulfiller and can perform the following tasks:-   View all CSM entities.
+A location support agent is a service organization member who acts as a fulfiller and can perform the following tasks:-   View all CSM entities.
 -   Create and resolve cases.
 -   Access the CRM Workspace.
--   Use business location 360 to view details of internal and external organizations \(formerly internal and external business locations\) that they support, sold products, location members, install base items, and available services.
+-   Use business location 360 to view details of internal and external business locations that they support, sold products, location members, install base items, and available services.
 
-**Note:** The role of location support agent isn’t supported for external organizations since case fulfillment isn't enabled for these locations.
+**Note:** The role of location support agent isn’t supported for external business locations since case fulfillment isn't enabled for these locations.
 
 </td><td>
 
@@ -207,12 +209,14 @@ A location support agent is a organization member \(formerly service organizatio
 -   sn\_csm\_case\_types.service\_definition\_viewer
 
 </td></tr></tbody>
-</table>**Note:** If contributor users, like relationship contributors, account contributors, or consumer contributors associated with business organizations, have a location contributor \(sn\_customerservice.service\_organization\_contributor\) role, they can access the business organizations.
+</table>**Note:** If contributor users, like relationship contributors, account contributors, or consumer contributors associated with business locations, have a location contributor \(sn\_customerservice.service\_organization\_contributor\) role, they can access the business locations.
+
+For the complete, current list of Service Model Foundation roles, see [Service Model Foundation roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-model-roles.md).
 
 ## Procedure
 
 -   You can assign roles to users using the Service Model Foundation guided setup.
 
--   You can also assign roles to users using the ServiceNow AI Platform user administration feature: [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
+-   You can also assign roles to users using the ServiceNow AI Platform user administration feature: [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 

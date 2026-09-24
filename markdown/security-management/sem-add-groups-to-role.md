@@ -3,9 +3,9 @@ title: Add groups to a role
 description: Assign groups to product-specific roles in the Security Exposure Management Workspace. Only explicit assignments are managed through this interface.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-add-groups-to-role.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [groups, roles, Security exposure Management Workspace, role assignment]
 breadcrumb: [Configure users and groups in Security Exposure Management Workspace, Implement, Unified Security Exposure Management, Security Operations]
@@ -47,6 +47,4 @@ Use this procedure to assign groups to roles for products configured in the Secu
 ## Result
 
 The group count updates automatically when the modal is closed. Only groups explicitly assigned to the role through this interface are displayed and managed here.
-
-**Parent Topic:**[Configure users and groups in Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-users-groups-overview.md)
 

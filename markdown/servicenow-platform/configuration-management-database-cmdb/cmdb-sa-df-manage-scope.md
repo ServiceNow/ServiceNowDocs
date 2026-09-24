@@ -3,11 +3,11 @@ title: Manage principal classes in the Data Foundations advisor
 description: Add or remove CI classes from the Data Foundations advisor scope to keep it aligned with your organization's current goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-manage-scope.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [manage principal classes, Data Foundations advisor scope, add or remove CI classes, Set principal classes dialog box, principal class selection]
 breadcrumb: [Manage advisor scope, Advisor setup, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -42,5 +42,5 @@ Role required: sn\_cmdb\_admin
 
 ## Result
 
-The Data Foundations advisor dashboard updates to reflect the data based on the new principal class selection. Dashboard metrics refresh once daily when the **CMDB Advisor - DF Daily Data Collection** scheduled job runs. The scheduled job invokes the **CMDB success advisor data collection for Data Foundation** Performance Analytics job to recalculate the pre-aggregated indicators used throughout the dashboard. For more information about Performance Analytics jobs, see [Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ClctData.md). Changes to your principal class selection appear in the dashboard metrics after this job's next run, not immediately. For the full list of CMDB success advisor scheduled jobs, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-components-installed.md).
+The Data Foundations advisor dashboard updates to reflect the data based on the new principal class selection. Dashboard metrics refresh once daily when the **CMDB Advisor - DF Daily Data Collection** scheduled job runs. The scheduled job invokes the **CMDB success advisor data collection for Data Foundation** Performance Analytics job to recalculate the pre-aggregated indicators used throughout the dashboard. For more information about Performance Analytics jobs, see [Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_ClctData.md). Changes to your principal class selection appear in the dashboard metrics after this job's next run, not immediately. For the full list of CMDB success advisor scheduled jobs, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-components-installed.md).
 

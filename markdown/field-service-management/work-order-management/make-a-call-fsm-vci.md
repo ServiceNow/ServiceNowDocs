@@ -3,11 +3,11 @@ title: Make a call from ServiceNow Agent
 description: Select a conference bridge option to initiate a conference call from the ServiceNow Agent application to connect virtually with your customer and peer agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/make-a-call-fsm-vci.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Virtual Conferencing, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -41,6 +41,6 @@ The option Make a Call appears only if you have set up both Zoom and Microsoft T
     -   To make a Zoom call, tap Zoom.
     -   To make a Microsoft Teams call, tap Microsoft Teams.
 
-        For more information about making a call, see [Start a Zoom or Microsoft Teams meeting from ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/initiate-zoom-MSTeam-meeting-fsm.md).
+        For more information about making a call, see [Start a Zoom or Microsoft Teams meeting from ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/initiate-zoom-MSTeam-meeting-fsm.md).
 
 

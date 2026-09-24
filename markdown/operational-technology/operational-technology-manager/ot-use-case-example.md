@@ -3,11 +3,11 @@ title: Operational Technology Manager use case
 description: The Operational Technology Manager use cases are described in this section.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/ot-use-case-example.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Implementing the CSDM framework for Operational Technology, Configure, Operational Technology Manager, Operational Technology]
 ---
@@ -20,7 +20,7 @@ The Operational Technology Manager use cases are described in this section.
 
 The Operational Technology Manager application creates the foundational data and relationships that enable your enterprise to use the Operational Technology solution. It supports the use of the Configuration Management Database \(CMDB\), Service Graph Connectors, and Discovery applications in the ServiceNow AI Platform.
 
-The OT Visibility dashboard in the Industrial Workspace summarizes your OT device inventory. For more information about the dashboard, see [Operational Technology Visibility dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/ot-manager-dashboard.md).
+The OT Visibility dashboard in the Industrial Workspace summarizes your OT device inventory. For more information about the dashboard, see [Operational Technology Visibility dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/ot-manager-dashboard.md).
 
 **Key features**
 
@@ -72,7 +72,7 @@ As an OT engineer or OT vulnerability manager, Operational Technology Vulnerabil
 -   How can I prioritize vulnerability remediation using OT specific risk?
 -   What progress are we making toward remediation of OT vulnerabilities?
 
-The OTVR \(PA\) dashboard and the OT Vulnerability Risk Management dashboard in the Industrial Workspace summarize the vulnerabilities in your system. For more information about the OTVR \(PA\) dashboard, see [Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/operational-technology-vulnerability-response-dashboard.md). For more information about the OT Vulnerability Risk Management dashboard, see [Operational Technology Risk Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/otvr-risk-management-dashboard.md).
+The OTVR \(PA\) dashboard and the OT Vulnerability Risk Management dashboard in the Industrial Workspace summarize the vulnerabilities in your system. For more information about the OTVR \(PA\) dashboard, see [Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/operational-technology-vulnerability-response-dashboard.md). For more information about the OT Vulnerability Risk Management dashboard, see [Operational Technology Risk Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/otvr-risk-management-dashboard.md).
 
 ## Operational Technology Incident Management use case
 
@@ -80,7 +80,7 @@ OT incidents occur when there is a disruption in service that is provided by an 
 
 **Key features**
 
-When a user creates an OT incident from the Industrial Workspace, the incident is automatically assigned a Network Type of OT to distinguish an OT incident from an IT incident. The field is not displayed by default.
+When you create an OT incident from the Industrial Workspace, the incident is automatically assigned a Network Type of OT to distinguish an OT incident from an IT incident. The field is not displayed by default.
 
 **Results**
 
@@ -143,5 +143,5 @@ The following examples show how to apply  Operational Technology Request Manag
 -   OT engineers can file and manage OT requests for various OT products and services in a one place.
 -   A plant head or supervisor can engage with the correct team to remediate an incident reported on the factory floor.​
 
-**Parent Topic:**[Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-use-case-product-view.md)
+**Parent Topic:**[Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/ot-use-case-product-view.md)
 

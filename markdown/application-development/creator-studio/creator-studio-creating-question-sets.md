@@ -3,14 +3,14 @@ title: Creating question sets for use in Creator Studio forms
 description: Admins can create pre-configured question sets that can be reused across multiple forms without being changed in Creator Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-creating-question-sets.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create question set, question sets]
-breadcrumb: [Templates and forms, Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Templates and forms, Administer, Creator Studio, Developing your application, Building applications]
 ---
 
 # Creating question sets for use in Creator Studio forms
@@ -21,7 +21,7 @@ Question sets enable admins to create curated, uneditable questions that users c
 
 Additionally, you can create question sets with multiple questions if you want several reusable questions to always be grouped together.
 
-See [Create a variable set and add it to an item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAVariableSet.md) to find out how to create a question set in Service Catalog.
+See [Create a variable set and add it to an item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAVariableSet.md) to find out how to create a question set in Service Catalog.
 
-**Parent Topic:**[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-administering-forms.md)
+**Parent Topic:**[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-administering-forms.md)
 

@@ -3,13 +3,13 @@ title: Creating an integration script include for third-party carrier applicatio
 description: In order to integrate with a ServiceNow instance, a third-party carrier application must have a script include that extends the base class ITAMShipmentIntegration script on its ServiceNow instance to receive the shipment tracking number from the customer's ServiceNow instance and respond with the carrier-related details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/creating-integration-script-include-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure shipment tracking, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Creating an integration script include for third-party carrier applications
@@ -76,26 +76,5 @@ The processResponse function receives the response from the carrier API and upda
 
 You can either use the default processResponse function or define a custom logic to update the shipment records.
 
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
-
-**Related topics**  
-
-
-[Connect your ServiceNow instance with a shipping carrier application]()
-
-[Remove a shipping carrier from an integration profile]()
-
-[Create a carrier integration profile]()
-
-[View the carrier integration profile details]()
-
-[Test the integration with the carrier API]()
-
-[Create a shipping carrier record]()
-
-[View hardware asset shipment details]()
-
-[Stale shipments]()
-
-[Track a hardware asset shipment]()
+**Parent Topic:**[Integration framework configuration for shipment tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-int-frame-shipment.md)
 

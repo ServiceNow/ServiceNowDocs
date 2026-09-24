@@ -3,9 +3,9 @@ title: Customize the email interaction experience
 description: Customize the Email Interaction record page in UI Builder for agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-email-interaction-experience.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
 breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
+For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md).
 
 ## Procedure
 
@@ -37,7 +37,7 @@ For more information on UI Builder, see [UI Builder](https://raw.githubuserconte
 
 6.  Select **Duplicate variant**.
 
-    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md).
+    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-variant.md).
 
 7.  On the Tell us about your variant screen, enter `Custom Email Interaction Page` in the **Name** field.
 

@@ -3,11 +3,11 @@ title: Hermes Settings page
 description: The Hermes Settings page is a centralized interface that enables Hermes administrators and maintenance users to monitor and control the configuration properties that govern the Hermes Messaging Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/c-hermes-settings.html
-release: australia
+release: brazil
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Hermes, Hermes settings, Hermes configuration, hermes\_admin, maint, Kafka integration, system settings, background jobs]
 breadcrumb: [Explore, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
@@ -51,11 +51,11 @@ The Hermes Messaging Service Settings page organizes properties into the categor
 
 Each settings category links to one or more background jobs that operate with the configurable properties. These jobs perform automated maintenance tasks such as heartbeat monitoring, metrics collection, metadata updates, cache cleanup, and IP ACL publishing. Jobs can be enabled, turned off, or have their intervals adjusted through the settings interface where applicable.
 
-For a list of Hermes Messaging Service background jobs, see [Hermes background jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-settings-background-jobs.md).
+For a list of Hermes Messaging Service background jobs, see .
 
 ## Implementation
 
 The Hermes Messaging Service Settings page uses a Static Typed Wrapper approach \(`HermesGlideProperty`\) to define and expose settings. Each property holds its own validator, and validation rules are enforced at the point of change via `setOrThrow()`. This facilitates type safety at compile time, embedded validation, and reliable property management.
 
-For information about viewing and modifying Hermes Messaging Service settings, see [Managing Hermes settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/manage-hermes-settings.md).
+For information about viewing and modifying Hermes Messaging Service settings, see [Managing Hermes settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/multi-instance-framework-hermes/manage-hermes-settings.md).
 

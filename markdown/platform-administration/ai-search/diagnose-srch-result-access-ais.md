@@ -3,11 +3,11 @@ title: Diagnose search result access issues using the Search Preview UI
 description: Use the Search Preview UI and the AI Search High Security administrator elevated privilege role to determine whether filters prevent a search user from viewing a specific search result in the AI Search index.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/diagnose-srch-result-access-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,7 +32,7 @@ Use the Search Preview UI to diagnose filter configurations that prevent a searc
 
 2.  Select the Search Preview UI's Profile tool \[Omitted image "search-preview-new-icon-user.png"\] Alt text: and enter the affected user's name into the **Search as user** field.
 
-    **Note:** For more details on the **Search as user** field, see [Search Preview admin tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-preview-ui-new-admin-tools.md).
+    **Note:** For more details on the **Search as user** field, see [Search Preview admin tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/search-preview-ui-new-admin-tools.md).
 
 3.  In the Preview types list, select **Full visual view**.
 
@@ -98,7 +98,7 @@ In the banner frame, select your name to open the user menu, then select **Eleva
 
 Compare the two search result sets. If the search result in question appears only in the elevated search, a search source or content security filter prevents the affected user from viewing that result. If the search result doesn't appear in either search, it's not present in the AI Search index.
 
-If the search result in question is indexed from an external document, you can debug the external content security access permission filter for the affected user to see whether it prevents access to the search result. For details on this procedure, see [Debug external content security filters for a ServiceNow AI Platform user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/debug-ext-security-perms-user-ais.md).
+If the search result in question is indexed from an external document, you can debug the external content security access permission filter for the affected user to see whether it prevents access to the search result. For details on this procedure, see [Debug external content security filters for a ServiceNow AI Platform user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/debug-ext-security-perms-user-ais.md).
 
-**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/administer-ais.md)
 

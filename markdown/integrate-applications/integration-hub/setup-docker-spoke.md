@@ -3,7 +3,7 @@ title: Set up the Docker spoke
 description: Integrate the ServiceNow instance and Docker spoke by using the Docker Connection and Credential alias to authenticate ServiceNow requests.Add and configure a Docker connection to authenticate ServiceNow requests in Docker spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-docker-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -44,7 +44,7 @@ Role required: admin
 
         \[Omitted image "docker-conn-template.png"\] Alt text: Connection template for Docker spoke
 
-    -   To manage more than one Docker spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Docker spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "config-docker-conn.png"\] Alt text: Configure connection for Docker spoke

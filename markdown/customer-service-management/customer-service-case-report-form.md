@@ -3,9 +3,9 @@ title: Case Report form
 description: The Case Report form includes reporting-related fields that are derived from case records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-case-report-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 
 The Case Report form includes reporting-related fields that are derived from case records.
 
-The Case Report table stores KPIs and metrics for case records and includes the following calculated metrics which are displayed on the [Customer Service Manager dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-manager-dashboard.md).
+The Case Report table \(sn\_customerservice\_case\_report\) extends from the Customer Service Case table \(sn\_customerservice\_case\). This table stores KPIs and metrics for case records and includes the following calculated metrics which are displayed on the [Customer Service Manager dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-manager-dashboard.md).
 
 -   Agent Reassignment Count
 -   First Contact Resolution

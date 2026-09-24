@@ -3,11 +3,11 @@ title: Employee Center privacy case creation form
 description: On the new privacy case form in the Employee Center, fill in the fields as appropriate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-case-form-employee-center.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Report a privacy case from the Employee Center, Report a privacy case, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -154,5 +154,5 @@ Where the case occurred \(Sub-location\)?
 Sub location of the case occurrence. For example, the sub location is **Tokyo**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Report a privacy case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-employee-center.md)
+</table>**Parent Topic:**[Report a privacy case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-employee-center.md)
 

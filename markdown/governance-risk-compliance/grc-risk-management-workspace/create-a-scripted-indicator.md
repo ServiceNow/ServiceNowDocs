@@ -3,11 +3,11 @@ title: Create and run a scripted risk indicator in the Risk Workspace
 description: Create and run a scripted risk indicator to identify the possibility of a future adverse impact on your organization. A scripted indicator enables you to write your own script to run the indicators. Indicators are an early warning system and they enable you to take preventative action on the risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-a-scripted-indicator.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -231,5 +231,5 @@ Previous status of the indicator to show whether the indicator passed or failed.
         Live records always open in the classic user interface and not in the Risk Workspace user interface.
 
 
-**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

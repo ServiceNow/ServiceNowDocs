@@ -3,9 +3,9 @@ title: Set properties to control pricing processing
 description: Activate or deactivate system properties that control how pricing features are processed in Sales Customer Relationship Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-set-pricing-properties.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---

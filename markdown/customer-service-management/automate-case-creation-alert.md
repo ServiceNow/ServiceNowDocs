@@ -3,9 +3,9 @@ title: Activate an alert rule to automatically create a proactive case from an a
 description: Configure an alert rule to automatically create a proactive case when an incident is created from an alert that has one or more affected install base items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/automate-case-creation-alert.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Proactive Customer Service, Extend capabilities, Configure, Customer Service Management]
 ---

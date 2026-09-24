@@ -3,9 +3,9 @@ title: Results page
 description: The Results page provides the results from your queries in the Discovery Console for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/results-page-console.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -30,7 +30,7 @@ Use the filter panel to select which queries display in the results list. To fil
 
 \[Omitted image "filter-on-result-page.png"\] Alt text: Filter panel
 
-See [Filter results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/filtering-results.md) for more information.
+See [Filter results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/filtering-results.md) for more information.
 
 ## Viewing results
 
@@ -57,10 +57,10 @@ The Results page **Action** button lets you export the scan results. You can **E
 
 The RAW data format is useful for debugging and verification.
 
--   **[Filter results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/filtering-results.md)**  
+-   **[Filter results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/filtering-results.md)**  
 The Results page provides a filter to find specific types of queries of information.
--   **[Filter results for Host Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/results-filter-host-status.md)**  
+-   **[Filter results for Host Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/results-filter-host-status.md)**  
 Filter your query results by Host Status. Verify whether devices were reachable when the query was executed.
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/using-discovery-console.md)
 

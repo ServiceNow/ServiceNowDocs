@@ -3,9 +3,9 @@ title: Exploring Unattended Robot
 description: Learn about the Unattended Robot features that enable you to run unattended automations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-unattended-robot.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Unattended Robot, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -29,6 +29,6 @@ The ServiceNow® Unattended Robot Login Agent is a software agent that you insta
 
 To learn more about configuring and using Unattended Robot, see:
 
--   [Configuring Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-runtime-setup.md)
--   [Using Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/using-rpa-runtime.md)
+-   [Configuring Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-runtime-setup.md)
+-   [Using Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/using-rpa-runtime.md)
 

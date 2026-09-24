@@ -3,7 +3,7 @@ title: Legacy: Open Changes Reports dashboard
 description: Use this dashboard to get an overview of the current status of open reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-open-changes-reports-dashboard.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
@@ -18,7 +18,7 @@ Use this dashboard to get an overview of the current status of open reports.
 
 **Important:**
 
-Starting in Xanadu release, the Core UI Open Changes Reports dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change.md) to view, and track the open changes.
+Starting in Xanadu release, the Core UI Open Changes Reports dashboard is deprecated. You can use Platform Analytics [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change.md) to view, and track the open changes.
 
 \[Omitted image "change-open-changes-reports-list.png"\] Alt text: Open Changes List filtered on change category, priority, state, and type
 
@@ -34,5 +34,5 @@ Starting in Xanadu release, the Core UI Open Changes Reports dashboard is deprec
 |PA.Source: Open changes - MPivot - Priority/State/Category|Pivot \[Omitted image "pivot-scorecard-icon.png"\] Alt text: Pivot icon|Report that shows unclosed changes opened on or before the current date. The visualization shows changes by Priority, State, and Category.|
 |PA.Source: Open changes - Heatmap - Priority/Category|Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon|Heatmap report that shows unclosed changes opened on or before the current date. Larger values are highlighted in darker colors.|
 
-**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-content-pack.md)
+**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-content-pack.md)
 

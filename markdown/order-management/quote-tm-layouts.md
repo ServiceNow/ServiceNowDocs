@@ -3,10 +3,10 @@ title: Quote transaction layouts
 description: Layouts define the quote user interface in ServiceNow Quote Experience, controlling which fields, events, and UI effects are visible and how the quote is organized for users in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-layouts.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-05-07"
-reading_time_minutes: 12
+reading_time_minutes: 11
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -92,7 +92,7 @@ Layouts are organized using tiers, columnsets, and a line item grid.
     -   **Line item grid header** — buttons that appear above the grid at runtime.
     -   **Line item grid column** — fields that appear as columns in the grid.
     -   **Line level buttons** — buttons that appear on each individual line in the grid.
-    When pricing is enabled, you can surface pricing in the line item grid. Add the **Reprice** event button to the line item grid header or line-level buttons so users can recalculate pricing. Add the line pricing-state field \(`txn.line.pricing.state`\) as a grid column to show which lines need repricing. For more information about the Reprice event, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-events.md).
+    When pricing is enabled, you can surface pricing in the line item grid: add the **Reprice** event button to the line item grid header or line-level buttons so users can recalculate pricing, and add the line pricing-state field \(`txn.line.pricing.state`\) as a grid column to show which lines need repricing. For more information about the Reprice event, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-events.md).
 
     The following layout properties apply to the line item grid and must be defined in the main YAML editor. Each property is enabled when its value is `true`.
 
@@ -181,7 +181,7 @@ The Product List Search object defines the runtime UI for the add lines and prod
 
 ## UI effects
 
-UI effects add specific functionality to a layout button. Users can customize existing UI effects but cannot create new ones. When a UI effect and an event are both present on the same button, the UI effect runs after the event. For full parameter reference, access conditions, and code examples, see [ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-ui-effects.md).
+UI effects add specific functionality to a layout button. Users can customize existing UI effects but cannot create new ones. When a UI effect and an event are both present on the same button, the UI effect runs after the event. For full parameter reference, access conditions, and code examples, see [ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-ui-effects.md).
 
 The following UI effect types are available.
 
@@ -230,11 +230,11 @@ The following UI effect types are available.
 
 ## Theming
 
-ServiceNow Quote Experience layouts can be customized with themes by setting properties in the layout YAML or JSON. Themes are enabled using the Customize Theme tab. For the full theme property reference, including button, input, label, and header styling, see [ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-ui-effects.md).
+ServiceNow Quote Experience layouts can be customized with themes by setting properties in the layout YAML or JSON. Themes are enabled using the Customize Theme tab. For the full theme property reference, including button, input, label, and header styling, see [ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-ui-effects.md).
 
 ## Stage progress chevron
 
-The Stages Progress Chevron component displays a horizontal chevron bar that shows a transaction's progression through its stages. It can be defined statically using a fixed stage list or dynamically using custom picklist fields, and is configured through the layout YAML or JSON. For configuration options, combination rules, and CSS theming variables, see [Stage progress chevron](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-stage-progress-chevron.md).
+The Stages Progress Chevron component displays a horizontal chevron bar that shows a transaction's progression through its stages. It can be defined statically using a fixed stage list or dynamically using custom picklist fields, and is configured through the layout YAML or JSON. For configuration options, combination rules, and CSS theming variables, see [Stage progress chevron](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-stage-progress-chevron.md).
 
 ## YAML reference snippets
 
@@ -354,21 +354,12 @@ productList:
     - name
 ```
 
--   **[Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-layout.md)**  
-Create a layout in ServiceNow Quote Experience to define the quote interface for a stage in CPQ.
--   **[ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-ui-effects.md)**  
-Reference for UI effect types, parameters, access conditions, and YAML and JSON code examples for configuring button behavior in ServiceNow Quote Experience layouts in CPQ.
--   **[Stage progress chevron](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-stage-progress-chevron.md)**  
-Reference for configuring the Stages Progress Chevron component in ServiceNow Quote Experience layouts, including static and dynamic configuration options, combination rules, and CSS custom property theming in CPQ.
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
-
 **Related topics**  
 
 
-[Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-layout.md)
+[Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-create-layout.md)
 
-[ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-ui-effects.md)
+[ServiceNow Quote Experience layout UI effects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-ui-effects.md)
 
-[Stage progress chevron](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-stage-progress-chevron.md)
+[Stage progress chevron](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-stage-progress-chevron.md)
 

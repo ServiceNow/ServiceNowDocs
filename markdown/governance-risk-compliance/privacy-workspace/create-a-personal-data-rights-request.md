@@ -3,11 +3,11 @@ title: Create a Personal Data Rights request
 description: Create a request regarding your personal data to request access to, correction of, or deletion of personal information held by an organization or entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-a-personal-data-rights-request.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_grc\_pdr.pdr\_requester
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the personal data rights request form, see [Personal data rights request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/new-pdr-request-form.md).
+    For a description of the field values on the personal data rights request form, see [Personal data rights request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/new-pdr-request-form.md).
 
 4.  Select **Save**.
 
@@ -41,8 +41,8 @@ Role required: sn\_grc\_pdr.pdr\_requester
     The state of the task moves from **Draft** to **Assigned**.
 
 
--   **[Personal data rights request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/new-pdr-request-form.md)**  
+-   **[Personal data rights request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/new-pdr-request-form.md)**  
 Use the Personal data rights request form in the Personal Data Rights application to initiate a process to access, correct, or delete personal data.
 
-**Parent Topic:**[Using Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-personal-data-right.md)
+**Parent Topic:**[Using Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-personal-data-right.md)
 

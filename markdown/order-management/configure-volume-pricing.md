@@ -3,9 +3,9 @@ title: Configure volume pricing
 description: Set volume pricing rules by using the Standard Price Adjustment matrix.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-volume-pricing.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,11 +20,11 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 
-3.  In the Pricing Matrices list, select the Standard Price Adjustment matrix and [create a new matrix version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-matrix-versions.md).
+3.  In the Pricing Matrices list, select the Standard Price Adjustment matrix and [create a new matrix version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-matrix-versions.md).
 
 4.  In the Context variables section of the new matrix version, select the Search \[Omitted image "search.png"\] Alt text: icon and in the list of Context variables, select the Quantity variable.
 

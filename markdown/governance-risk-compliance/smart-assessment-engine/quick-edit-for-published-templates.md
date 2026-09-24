@@ -3,11 +3,11 @@ title: Quick edit for published templates
 description: Quick Edit lets template managers make minor corrections to published templates without creating a version, enabling rapid fixes for typos and formatting issues while assessments remain in progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---

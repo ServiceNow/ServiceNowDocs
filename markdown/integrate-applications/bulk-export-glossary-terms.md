@@ -3,9 +3,9 @@ title: Bulk export glossary terms
 description: Download existing glossary terms to an XLSX file for offline review and editing, or download an empty template to create new glossary terms with properly formatted fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/bulk-export-glossary-terms.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [glossary export bulk operations data catalog XLSX]
 breadcrumb: [Managing glossary terms, Data Catalog, Workflow Data Fabric]
@@ -45,7 +45,7 @@ Role required: Data Steward \(df\_data\_steward\)
 
 ## Result
 
-The downloaded XLSX file has a set structure with all the sheets you need to add and edit the business glossary. Before editing the file, read the instructions in the Overview tab carefully. See [Edit glossary spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-glossary-spreadsheet.md) for detailed guidance on editing the spreadsheet.
+The downloaded XLSX file has a set structure with all the sheets you need to add and edit the business glossary. Before editing the file, read the instructions in the Overview tab carefully. See [Edit glossary spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/edit-glossary-spreadsheet.md) for detailed guidance on editing the spreadsheet.
 
-**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-glossary-terms.md)
+**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-glossary-terms.md)
 

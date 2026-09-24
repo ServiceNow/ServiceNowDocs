@@ -3,11 +3,11 @@ title: Using the Sidebar to communicate in Dispatcher Workspace
 description: Dispatchers can use Dispatcher Workspace to quickly and efficiently send messages to Field Service agents through the Microsoft Teams mobile application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/use-sidebar-send-message.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Dispatchers can use Dispatcher Workspace to quickly and efficiently send message
 
 When you send messages to Field Service agents with the Sidebar in Dispatcher Workspace, the agents receive and can reply to the message in the Microsoft Teams application.
 
-Communicating from Dispatcher Workspace is made possible by configuring the Sidebar. For more information, see [Configuring communication from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-messaging.md).
+Communicating from Dispatcher Workspace is made possible by configuring the Sidebar. For more information, see [Configuring communication from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/configuring-messaging.md).
 
 You can use the Sidebar to message agents only in the context of a work order task. Every message is added to the work notes in the work order task.
 

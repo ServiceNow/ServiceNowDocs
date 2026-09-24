@@ -3,11 +3,11 @@ title: Pair business calendars with packages
 description: Pair a business calendar that you created with a package, or functional area, in the ServiceNow AI Platform. When you associate a business calendar with a package, it enables the use of the calendar in that specific functional area. Until you pair a business calendar definition with at least one package, it remains a definition record only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/pair-business-calendars-with-packages.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating business calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Pair a business calendar that you created with a package, or functional area, in
 
 ## Before you begin
 
-Role required: business\_calendar\_admin
+Role required: admin
 
 ## About this task
 
@@ -49,5 +49,5 @@ A package is an application, or generic set of functions, such as HR Service Del
 
 A record is created in the Calendars for Package \(calendars\_for\_package\) table that associates the selected business calendar with a ServiceNow AI Platform package.
 
-**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md)
+**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/business-calendars.md)
 

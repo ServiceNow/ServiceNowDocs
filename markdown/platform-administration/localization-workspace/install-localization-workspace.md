@@ -3,11 +3,11 @@ title: Install Localization Workspace
 description: You can install the Localization Workspace application \(sn\_lw\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application installs related ServiceNow Store applications and plugins if they are not already installed. Demo data isn't available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/install-localization-workspace.html
-release: australia
+release: brazil
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -33,7 +33,7 @@ The following items are installed with Localization Workspace:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-components-installed-with.md).
+For more information, see [Components installed with Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-components-installed-with.md).
 
 ## Procedure
 
@@ -53,12 +53,12 @@ For more information, see [Components installed with Localization Workspace](htt
 
 5.  Select **Install**.
 
-6.  For more information about investigating installed components, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+6.  For more information about investigating installed components, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 ## What to do next
 
-Configure the dependencies including Localization Framework, then configure Localization Workspace. For more information see [Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/configuring-localization-workspace.md).
+Configure the dependencies including Localization Framework, then configure Localization Workspace. For more information see [Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/configuring-localization-workspace.md).
 
-**Parent Topic:**[Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/configuring-localization-workspace.md)
+**Parent Topic:**[Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/configuring-localization-workspace.md)
 

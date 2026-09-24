@@ -3,9 +3,9 @@ title: Filters in Platform Analytics
 description: Filter lists and data visualizations on an inline or technical dashboard. Filter by possible data value or text, by whether the value is true or false, or by date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/interactive-filters-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Platform Analytics experience, Platform Analytics]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Platform Analytics experience, Platform Analytics]
 
 Filter lists and data visualizations on an inline or technical dashboard. Filter by possible data value or text, by whether the value is true or false, or by date.
 
-To find Filters in Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Filters**. You can also navigate to this library from other Platform Analytics library pages. Access to the filter library requires the analytics\_filter\_admin role or higher. For more information on user roles in Filters, see [Filter roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
+To find Filters in Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Filters**. You can also navigate to this library from other Platform Analytics library pages. Access to the filter library requires the analytics\_filter\_admin role or higher. For more information on user roles in Filters, see [Filter roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/platform-analytics-roles.md).
 
 \[Omitted image "pa-filters-lib.png"\] Alt text: Platform Analytics Filters library
 
@@ -22,23 +22,25 @@ To find Filters in Platform Analytics, navigate to **All** &gt; **Platform Analy
 
 This video illustrates how to create a filter, in this case a multi-select filter for table data.
 
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-glossary.md) lists and data visualizations on an inline or technical dashboard.
+
 Technical dashboards are populated in the UI Builder and are more flexible but require considerably more expertise. For example, on a technical dashboard, you have to create custom event handlers for filters to apply to lists or data visualizations.
 
 **Note:** When you enable Usage Insights filters within Platform Analytics dashboards, they operate as global filters. This means they impact all visualizations across the entire dashboard, not just a single visualization.
 
 **Note:** The default maximum number of custom filters you can save for the Usage Insights application is 500. You can modify the number of custom filters in the **uxa.query\_builder.max\_num\_of\_user\_filter** property.
 
-When you edit Core UI filters dashboards migrated in compatibility mode, you do so in the Core UI tools. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/classic-vis-overview.md).
+When you edit Core UI filters dashboards migrated in compatibility mode, you do so in the Core UI tools. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/classic-vis-overview.md).
 
 ## Filters on inline dashboards
 
-For inline dashboards, you can create a filter directly on the dashboard through the inline editor, or add a filter from the filter library. In either case, you can add filters to a specific tab or have them apply to the entire dashboard. To take these actions, you only need the right to edit the dashboard.
+For inline dashboards, you can create a filter directly on the dashboard through the [inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-glossary.md), or add a filter from the filter library. In either case, you can add filters to a specific tab or have them apply to the entire dashboard. To take these actions, you only need the right to edit the dashboard.
 
 If you have the analytics\_filter\_admin role, you can also create a filter for the library through the Filter Designer or copy an existing filter to the library.
 
 The filter applies to those data visualizations and list components that contain a target of the filter.
 
-In a filter group, you configure several filters and apply or clear them with one action, making one database call. A filter group may therefore be more efficient than multiple separate filters.
+In a [filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-glossary.md), you configure several filters and apply or clear them with one action, making one database call. A filter group may therefore be more efficient than multiple separate filters.
 
 When you create a filter, you first specify the filter type. All further configuration options depend on the selected type.
 
@@ -46,11 +48,11 @@ When you create a filter, you first specify the filter type. All further configu
 
 ## Retaining filter values
 
-Filter values are not retained when someone edits the filter configuration. On editing, the filter reverts to its default values for all users on their next login or page refresh. On technical dashboards and pages created in UI Builder, filters don't retain values across user sessions or refreshes. For an exception, see [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-dashboard-to-workspace.md).
+Filter values are not retained when someone edits the filter configuration. On editing, the filter reverts to its default values for all users on their next login or page refresh. On technical dashboards and pages created in UI Builder, filters don't retain values across user sessions or refreshes. For an exception, see [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-dashboard-to-workspace.md).
 
-When you export a dashboard to Microsoft PowerPoint, filter values are applied automatically. When you export a dashboard to PDF, you can choose whether to retain filter values. Filter values are not retained when you export a technical dashboard. For more information, see [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-pae-dashboard-ppt.md).
+When you export a dashboard to Microsoft PowerPoint, filter values are applied automatically. When you export a dashboard to PDF, you can choose whether to retain filter values. Filter values are not retained when you export a technical dashboard. For more information, see [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-pae-dashboard-ppt.md).
 
 ## Domain filters
 
-You can filter visualizations by domain on domain-separated instances. Domain filtering uses a different component. For more information, see [Create a domain filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-domain-filter.md).
+You can filter visualizations by domain on domain-separated instances. Domain filtering uses a different component. For more information, see [Create a domain filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-domain-filter.md).
 

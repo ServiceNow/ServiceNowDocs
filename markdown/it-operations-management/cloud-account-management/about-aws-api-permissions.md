@@ -3,11 +3,11 @@ title: About Amazon Web Services API permissions
 description: Cloud Account Management interacts with Amazon Web Services to create and manage subscription accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/about-aws-api-permissions.html
-release: australia
+release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Amazon Web Services API permissions Cloud Workspace, Amazon Web Services API permissions CW]
 breadcrumb: [Explore, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]

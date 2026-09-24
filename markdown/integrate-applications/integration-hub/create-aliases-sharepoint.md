@@ -3,7 +3,7 @@ title: Create aliases for multiple tenants
 description: Create a connection and credential alias record for each additional tenant site that you want to support. Select the correct alias in the Tenant record to authorize changes in Microsoft SharePoint Online.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-aliases-sharepoint.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

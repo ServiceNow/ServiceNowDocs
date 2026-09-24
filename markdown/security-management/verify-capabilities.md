@@ -3,9 +3,9 @@ title: Verify capabilities in ServiceNow Studio
 description: Verify the capabilities that you have added using ServiceNow Otto for Security Incident Response \(SIR\) integration Toolkit and update the scripts for any required changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/verify-capabilities.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use SIR Integration Builder, LLM-powered SIR integration builder, Security Operations]
 ---

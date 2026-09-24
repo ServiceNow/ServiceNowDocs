@@ -3,11 +3,11 @@ title: Update a roadmap milestone
 description: Update or delete the milestones that you added to your portfolio plan or free-form roadmap so that they reflect any change of plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/update-roadmap-milestone-in-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Add milestones for roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Update or delete the milestones that you added to your portfolio plan or free-fo
 
 ## Before you begin
 
-[Add milestones for roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.md).
+[Add milestones for roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -27,15 +27,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d68401e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d68120e99">
 
 Roadmap type
 
-</th><th align="left" id="d68401e102">
+</th><th align="left" id="d68120e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d68401e108">
+</th></tr></thead><tbody><tr><td id="d68120e108">
 
 **Portfolio plan roadmap**
 
@@ -45,7 +45,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d68401e129">
+</td></tr><tr><td id="d68120e129">
 
 **Free-form roadmap**
 
@@ -68,12 +68,12 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     -   To update, edit the field details and click **Save**.
 
-        For information on the form fields, see [Roadmap configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/roadmap-configuration-form.md).
+        For information on the form fields, see [Roadmap configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/roadmap-configuration-form.md).
 
     -   To delete the milestone, click **Delete.**
 
         Select **OK** to confirm.
 
 
-**Parent Topic:**[Add milestones for roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.md)
+**Parent Topic:**[Add milestones for roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.md)
 

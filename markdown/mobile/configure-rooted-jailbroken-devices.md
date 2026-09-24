@@ -3,9 +3,9 @@ title: Configure the status for rooted and jailbroken devices
 description: Define whether jailbroken \(iOS\) and rooted \(Android\) devices are permitted on your mobile device. The default value is set to false to increase security and to minimize possible disruption to your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-rooted-jailbroken-devices.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -68,5 +68,5 @@ Value
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/additional-mobile-configuration.md)
 

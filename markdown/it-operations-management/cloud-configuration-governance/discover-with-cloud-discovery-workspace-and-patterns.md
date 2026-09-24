@@ -3,11 +3,11 @@ title: Discover using Cloud Operations Workspace and Patterns
 description: You can now schedule and perform discovery using Cloud Discovery Workspace and Discovery and Service Mapping Patterns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/discover-with-cloud-discovery-workspace-and-patterns.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -34,15 +34,15 @@ Cloud Operations Workspace is now known as Cloud Discovery Workspace or CDW.
 
     Follow these scenarios for next steps.
 
-<table id="choicetable_rcg_mjr_bcc"><thead><tr><th align="left" id="d70142e104">
+<table id="choicetable_rcg_mjr_bcc"><thead><tr><th align="left" id="d70420e104">
 
 Scenario
 
-</th><th align="left" id="d70142e107">
+</th><th align="left" id="d70420e107">
 
 Next steps
 
-</th></tr></thead><tbody><tr><td id="d70142e113">
+</th></tr></thead><tbody><tr><td id="d70420e113">
 
 **Cloud Discovery schedules don't display for System Admin login**
 
@@ -52,7 +52,7 @@ Next steps
 -   The page prompts to **Go to Applications Manager** to allow installation
 
 
-</td></tr><tr><td id="d70142e139">
+</td></tr><tr><td id="d70420e139">
 
 **Cloud Discovery schedules don't display for sn\_cmp Cloud Admin login**
 
@@ -62,7 +62,7 @@ Next steps
 -   The page requests to contact the system admin for Cloud Discovery Workspace installation.
 
 
-</td></tr><tr><td id="d70142e165">
+</td></tr><tr><td id="d70420e165">
 
 **Cloud Discovery displays**
 
@@ -84,5 +84,5 @@ Cloud Discovery schedules display in a new tab of your browser.
 
 Install and use the latest Discovery and Service Mapping Patterns, at least version 1.15, as the default mechanism for performing Discovery.
 
-**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-general-setup-day-2.md)
+**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-general-setup-day-2.md)
 

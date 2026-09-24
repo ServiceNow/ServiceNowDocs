@@ -3,11 +3,11 @@ title: Exploring SPWJira integrations
 description: Learn more about integrating Strategic Planning Workspace with Jira and review the benefits it can provide for different users in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/exploring-spw-jira-integrations.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [explore]
 breadcrumb: [SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
@@ -50,6 +50,6 @@ The following infographic shows how the integration between SPW and Jira work in
 
 To learn more about configuring and using SPW Jira Integrations, see:
 
--   [Configuring SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/configuring-spw-jira-integrations.md)
--   [SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
+-   [Configuring SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/configuring-spw-jira-integrations.md)
+-   [SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
 

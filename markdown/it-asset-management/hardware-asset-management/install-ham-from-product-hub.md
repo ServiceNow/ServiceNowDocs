@@ -3,11 +3,11 @@ title: Install Hardware Asset Management from Product Hub
 description: Install the Hardware Asset Management application on your ServiceNow instance from Product Hub based on your subscription tier.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/install-ham-from-product-hub.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Hardware Asset Management on Product Hub, Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -37,7 +37,7 @@ Use this procedure for initial HAM installation. If HAM is already installed, Pr
 
 3.  Select **Start new setup** to install HAM.
 
-    **Note:** If you are moving an existing HAM setup from another ServiceNow instance, select **Upload new batch** instead of **Start new setup**. You may have to configure some instance-specific settings again after the upload. For details, see [Manage update set for ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-update-set.md).
+    **Note:** If you are moving an existing HAM setup from another ServiceNow instance, select **Upload new batch** instead of **Start new setup**. You may have to configure some instance-specific settings again after the upload. For details, see [Manage update set for ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-update-set.md).
 
     The Apps and plugins page opens, displaying the core HAM application for your highest entitled subscription tier in the **Not installed** tab. For example, if you are entitled to Hardware Asset Management Advanced, **Hardware Asset Management - Advanced** appears in the **Not installed** tab.
 
@@ -54,8 +54,13 @@ Use this procedure for initial HAM installation. If HAM is already installed, Pr
 
 ## What to do next
 
--   To install additional HAM applications and plugins for your subscription tier, see [Install additional HAM applications using Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-additional-ham-apps.md).
--   To configure HAM, see [Configure Hardware Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configure-ham-from-console.md).
+-   To install additional HAM applications and plugins for your subscription tier, see [Install additional HAM applications using Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/install-additional-ham-apps.md).
+-   To configure HAM, see [Configure Hardware Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/configure-ham-from-console.md).
 
 **Note:** You can configure the HAM application before installing additional applications.
+
+-   **[Install additional HAM applications using Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/install-additional-ham-apps.md)**  
+Install the HAM applications and plugins included in your subscription tier that are not yet installed in your ServiceNow instance.
+
+**Parent Topic:**[Hardware Asset Management on Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/product-hub-for-ham.md)
 

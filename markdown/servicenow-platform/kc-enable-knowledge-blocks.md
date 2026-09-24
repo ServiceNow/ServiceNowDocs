@@ -3,9 +3,9 @@ title: Enable knowledge blocks in the Knowledge Center
 description: Enable the knowledge blocks feature for each knowledge base where you plan to use the blocks. Once enabled, you can create knowledge blocks to add to knowledge articles within a knowledge base.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-enable-knowledge-blocks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ Enable the knowledge blocks feature for each knowledge base where you plan to us
 
 ## Before you begin
 
-Make sure that the knowledge blocks **\[com.snc.knowledge\_blocks\]** plugin is activated. To activate the plugin see [Activate knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-blocks.md)
+Make sure that the knowledge blocks **\[com.snc.knowledge\_blocks\]** plugin is activated. To activate the plugin see [Activate knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/activate-knowledge-blocks.md)
 
 Role required: knowledge\_admin or knowledge\_manager
 
@@ -42,7 +42,7 @@ Create knowledge blocks to use within the enabled knowledge base.
 **Related topics**  
 
 
-[Knowledge blocks in Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-knowledge-blocks.md)
+[Knowledge blocks in Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/kc-knowledge-blocks.md)
 
-[Create a knowledge block in the Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-create-a-knowledge-block.md)
+[Create a knowledge block in the Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/kc-create-a-knowledge-block.md)
 

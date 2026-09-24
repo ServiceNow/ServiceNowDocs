@@ -3,9 +3,9 @@ title: Enable the Create Request UI action for case types
 description: Enable the Create Request UI action for case type tables that extend the Case \[sn\_customerservice\_case\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-create-request-case-type.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up CSM integration with IT Service Management, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---

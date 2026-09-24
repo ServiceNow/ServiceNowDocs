@@ -3,11 +3,11 @@ title: Enable or disable appointment booking
 description: Turn the Appointment Booking feature on or off for an application and its individual services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/appointment-booking-enable.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -47,5 +47,5 @@ Appointment booking is enabled or disabled based on your configuration settings.
 
 ## What to do next
 
-[Create or modify an application configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appt-booking-create-app-config.md)
+[Create or modify an application configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/appt-booking-create-app-config.md)
 

@@ -3,11 +3,11 @@ title: Translate external-facing Personal Data Rights form labels and values
 description: Add translation values for the configurable fields on the external-facing Personal Data Rights \(PDR\) form, so that text specific to your organization is correctly translated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/translate-pdr-form-text.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-08-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [PDR form translation, translated text, localization]
 breadcrumb: [Configure the external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
@@ -19,9 +19,9 @@ Add translation values for the configurable fields on the external-facing Person
 
 ## Before you begin
 
-Install the language plugins for the languages you want to support. For a list of available plugins and steps to activate one, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md).
+Install the language plugins for the languages you want to support. For a list of available plugins and steps to activate one, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateALanguage.md).
 
-Verify that an active external form configuration record exists. For steps, see [Create a PDR external-facing form configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-pdr-ext-form-record.md).
+Verify that an active external form configuration record exists. For steps, see [Create a PDR external-facing form configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/config-pdr-ext-form-record.md).
 
 Role required: sn\_grc\_pdr.pdr\_admin
 
@@ -95,12 +95,12 @@ Translated text that appears on the external form for the selected field.
 
 When a requester selects the translated language on the external-facing PDR form, the form displays the translated value.
 
-**Parent Topic:**[External-facing Personal Data Rights form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-pdr-ext-form.md)
+**Parent Topic:**[External-facing Personal Data Rights form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-pdr-ext-form.md)
 
 **Related topics**  
 
 
-[Translating individual UI strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TranslateIndFieldLabelsAndValues.md)
+[Translating individual UI strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_TranslateIndFieldLabelsAndValues.md)
 
-[Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_TranslatedText.md)
+[Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_TranslatedText.md)
 

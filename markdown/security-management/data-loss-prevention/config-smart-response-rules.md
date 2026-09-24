@@ -3,11 +3,11 @@ title: Configure Smart Response Rules
 description: Configure the Symantec smart response rule\(s\) to perform response actions on the ingested Symantec DLP Incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/config-smart-response-rules.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Symantec Integration for Data Loss Prevention Incident Response, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -30,11 +30,11 @@ For the fetched smart response rule\(s\), DLP admin can create the Incident Resp
 
 1.  Navigate to **All** &gt; **Symantec DLP Integration** &gt; **Smart Response Rules**.
 
-    You can see all the available smart response options for each configured integration configuration. For more information see, [Install and configure the Symantec DLP integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/install-configure-symantec-dlp-integration.md) and follow the procedure explained configure Symantec integration configuration source if not configured\)
+    You can see all the available smart response options for each configured integration configuration. For more information see, [Install and configure the Symantec DLP integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/install-configure-symantec-dlp-integration.md) and follow the procedure explained configure Symantec integration configuration source if not configured\)
 
 2.  Click on any of the Smart Response Rules to open its form view.
 
-    Follow [Create incident response option rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-end-user-action.md) to create Incident Response Option Rules and Response Option Mappings to display this smart response rule on Respond modal of DLP workspace.
+    Follow [Create incident response option rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/configure-end-user-action.md) to create Incident Response Option Rules and Response Option Mappings to display this smart response rule on Respond modal of DLP workspace.
 
 3.  Create the approval rules for the Smart Response Rule using the **Approval Rules** tab in the related list or by following procedure explained in the Configure Approval Rules section.
 
@@ -47,5 +47,5 @@ For the fetched smart response rule\(s\), DLP admin can create the Incident Resp
     The smart response rules will add, update, or delete automatically each day for every source.
 
 
-**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/symantec-dlp-integration.md)
+**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/symantec-dlp-integration.md)
 

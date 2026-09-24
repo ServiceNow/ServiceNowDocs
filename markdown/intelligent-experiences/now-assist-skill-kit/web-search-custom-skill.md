@@ -3,14 +3,14 @@ title: Web search custom skill
 description: The web search custom skill performs an internet search to answer a query. Web search is used whenever the LLM and AI Search are unable to provide results or whenever web search mode is activated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/web-search-custom-skill.html
-release: australia
+release: brazil
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: reference
-last_updated: "2025-04-18"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Virtual Agent, Web Search, custom skill, AI Search, LLM]
-breadcrumb: [AI Skill Kit reference, AI Skill Kit, Enable AI experiences]
+breadcrumb: [AI Skill Kit reference, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Web search custom skill
@@ -21,7 +21,7 @@ The web search custom skill is based on a prebuilt topic block in Virtual Agent 
 
 \[Omitted image "web-search-custom-skill-01.png"\] Alt text: Virtual Agent Designer topics list showing the web search custom skill, setup topic, and prebuilt topic.
 
-For more information about the web search mode end-user display and functionality, see [Web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/web-search-requestor.md).
+For more information about the web search mode end-user display and functionality, see [Web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/web-search-requestor.md).
 
 Web Search AI choices are available in the OneExtend Definition Configs related list within the **AI Search answers** entry in the OneExtend Capabilities \[sys\_one\_extend\_capability\_list\] table. Select one of the AI definitions there, such as Perplexity, and set its value to `true`. Activate a matching AI credential by navigating to **ALL** &gt; **Connections &amp; credentials** &gt; **Credentials**, and setting the matching API key \(such as **Perplexity API key** active value to `true`\).
 
@@ -29,9 +29,9 @@ Web Search AI choices are available in the OneExtend Definition Configs related 
 
 \[Omitted image "web-search-custom-skill-03.png"\] Alt text: Credentials table showing the Perplexity API key entry, with Active value set to true.
 
-For more information on how to work with the **AI Search answers** OneExtend capability, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md).
+For more information on how to work with the **AI Search answers** OneExtend capability, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md).
 
-For more information on how to add web search as a tool in the AI Skill Kit, see [Add a web search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-web-search.md).
+For more information on how to add web search as a tool in the AI Skill Kit, see [Add a web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/add-web-search.md).
 
-**Parent Topic:**[AI Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
+**Parent Topic:**[AI Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
 

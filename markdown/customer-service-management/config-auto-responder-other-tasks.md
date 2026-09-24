@@ -3,9 +3,9 @@ title: Configure Auto-Responder for tasks other than cases
 description: Configure the Auto-Responder feature to send helpful resources for tasks other than customer service cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-auto-responder-other-tasks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Auto-Responder notifications, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -20,10 +20,10 @@ Role required: admin
 
 Perform the following tasks.
 
--   Activate the Email Notification Script for Contextual Search Results plugin \(com.snc.adv\_cxs\_results\_email\_script\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
--   Set the application scope to the scope of your task table using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
--   Verify that you have defined a search context for your task to include recommended resources in the Auto-Responder email notifications. For more information, see [Define a search context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineSearchContext.md).
--   Verify that you have configured a table for the search context associated with your task. For more information, see [Configure table for a contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineContextualSearchForForm.md).
+-   Activate the Email Notification Script for Contextual Search Results plugin \(com.snc.adv\_cxs\_results\_email\_script\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
+-   Set the application scope to the scope of your task table using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
+-   Verify that you have defined a search context for your task to include recommended resources in the Auto-Responder email notifications. For more information, see [Define a search context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DefineSearchContext.md).
+-   Verify that you have configured a table for the search context associated with your task. For more information, see [Configure table for a contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DefineContextualSearchForForm.md).
 
 ## Procedure
 
@@ -37,7 +37,7 @@ Perform the following tasks.
 
     4.  Verify that notifications aren’t sent if there are no search results by entering the `hasResults()` function in the **Advanced condition** field of the When to send related list.
 
-        The `hasResults()` function checks whether search results exist. You can use the return value of the function to avoid the system from sending an email notification if there are no search results. For more information, see [Advanced conditions for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_OptSpecifyingAdvancedCond.md).
+        The `hasResults()` function checks whether search results exist. You can use the return value of the function to avoid the system from sending an email notification if there are no search results. For more information, see [Advanced conditions for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_OptSpecifyingAdvancedCond.md).
 
         **Tip:** Refer to the Case auto-responder recommendations notification that uses the `hasResults()` function for returning the search results value. To view a notification, navigate to **System Notification** &gt; **Notifications**.
 
@@ -51,7 +51,7 @@ Perform the following tasks.
 
         For the table that you’re configuring, be sure to do the following:
 
-        -   Train the similarity solution for the table. For more information, see [Train the similarity solution for finding Auto-Responder notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/train-sol-defn-auto-responder.md).
+        -   Train the similarity solution for the table. For more information, see [Train the similarity solution for finding Auto-Responder notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/train-sol-defn-auto-responder.md).
         -   Add the similarity solution in the Additional Resource Configurations tab on the Search Context form.
     3.  In the Email Conﬁgurations related list, link your task table configuration with the Notification \[sysevent\_email\_action\] table.
 
@@ -102,10 +102,10 @@ Maximum number of resources you want to include in the Auto-Responder email noti
         -   For an existing configuration, select **Update**.
 3.  Enable contextual search results based on text searches in addition to search results based on Predictive Intelligence to be included in Auto-Responder notifications.
 
-    For more information, see [Enable text search recommendations in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-text-based-auto-responder.md).
+    For more information, see [Enable text search recommendations in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-text-based-auto-responder.md).
 
 4.  Configure a custom portal and include advanced contextual search results in email notifications.
 
-    For more information, see [Include advanced contextual search results in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-extension-point-auto-responder.md).
+    For more information, see [Include advanced contextual search results in Auto-Responder notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-extension-point-auto-responder.md).
 
 

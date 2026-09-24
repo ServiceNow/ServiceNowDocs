@@ -3,11 +3,11 @@ title: Subscription exclusions for SaaS and SSO applications
 description: Define subscription exclusions for your SaaS and SSO applications to optimize your licensing costs by keeping the excluded subscriptions out of license cost calculations.Define exclusions for your subscription identifiers to keep them excluded from the Software Asset Management application's license calculations. Subscription identifiers uniquely identify your SaaS and SSO applications.Define exclusions for certain user subscriptions to keep them excluded from the Software Asset Management application's license calculations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/subscription-exclusions.html
-release: australia
+release: brazil
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ You can keep certain low-value and high-volume user subscriptions from being cha
 
 **Important:** Identifier-based exclusions are specific to individual subscription profile types, whereas User-based exclusions apply across all SaaS integration profiles.
 
-**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
+**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 

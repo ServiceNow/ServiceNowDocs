@@ -3,11 +3,11 @@ title: Associate AI systems with demands
 description: Add and manage AI system associations directly from the AI Associations tab in Demand Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/associate-ai-systems-with-demands.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Add and manage AI system associations directly from the **AI Associations** tab 
 
 ## Before you begin
 
--   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activation-and-installation-of-ai-control-tower.md).
+-   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activation-and-installation-of-ai-control-tower.md).
 -   The investment type of the demand is set to artificial intelligence.
 -   Role required: it\_demand\_user, it\_demand\_manager
 
@@ -47,10 +47,10 @@ You can select the impacted AI systems for the demand. If the required AI system
 
     **Note:** This related link is available for users with the sn\_ai\_steward role.
 
-    For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
+    For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-system-assets.md).
 
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

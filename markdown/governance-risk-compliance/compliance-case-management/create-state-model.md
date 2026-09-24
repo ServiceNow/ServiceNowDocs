@@ -3,11 +3,11 @@ title: Create a compliance state model
 description: Create a state model to define the workflow states and transition conditions for compliance case types and request types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/create-state-model.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -32,13 +32,13 @@ A state model is a list of states that describe the workflow of a record. With a
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the GRC State Model form, see [GRC State Model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/grc-state-model-form.md).
+    For a description of the field values on the GRC State Model form, see [GRC State Model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/grc-state-model-form.md).
 
 4.  Select **Submit**.
 
 
--   **[GRC State Model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/grc-state-model-form.md)**  
+-   **[GRC State Model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/grc-state-model-form.md)**  
 Use the GRC State Model form to define the workflow states and transition conditions in the Compliance Case Management application.
 
-**Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
+**Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
 

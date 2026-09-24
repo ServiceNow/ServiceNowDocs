@@ -1,46 +1,49 @@
 ---
 title: Content pack for ITSM
-description: The ITSM Process Mining Content Pack provides preconfigured Process Mining projects and improvement initiatives for IT Service Management \(ITSM\) processes.
+description: The ITSM Process Mining Content Pack provides templates for IT Service Management \(ITSM\) processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/itsm-proc-opti-content-pack.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate content packs, Activate, Process Mining, Platform Analytics]
+breadcrumb: [Automatic content pack delivery, Activate content packs, Activate, Process Mining, Platform Analytics]
 ---
 
 # Content pack for ITSM
 
-The ITSM Process Mining Content Pack provides preconfigured Process Mining projects and improvement initiatives for IT Service Management \(ITSM\) processes.
+The ITSM Process Mining Content Pack provides templates for IT Service Management \(ITSM\) processes.
 
-## Request apps on the Store
+This content pack loads automatically when ITSM is installed on your instance and the relevant tables are present. For more information, see [Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining-content-pack-delivery.md).
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+## Templates shipped with content pack
 
-The ITSM Process Mining content pack \(sn\_itsm\_po\) adds prebuilt Process Mining project definitions for these ITSM processes:
+|Content pack|Template name|Table|
+|------------|-------------|-----|
+|ITSM|Standard template for Incidents|incident|
+|Standard template for Incidents: State analysis|incident|
+|Standard template for Incidents: Assignment group analysis|incident|
+|Standard template for Problems|problem|
+|Standard template for Change requests|change\_request|
+|Standard template for Requested items|sc\_req\_item|
 
--   Incident Management
--   Problem Management
--   Change Management
--   Request Management
+## What you get with this content pack
 
-The pack also includes the predefined Continual Improvement Management \(CIM\) initiative for incident and change processes. The improvement initiative and Process Mining projects are automatically linked.
+This content pack analyzes your Incident, Problem, Change, and Request Management processes, including related work on requested item and change tasks. It gives you visibility into common process issues, such as:
 
-To enable this content pack, go to the ServiceNow Store. For more detail, see [Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-po-content-pack.md).
+-   Cases that take longer than expected to resolve
+-   Rework, such as incidents that get reopened or bounced back between teams
+-   Deviations from the expected process flow
+-   Work that stalls in a particular state or with a particular team longer than expected
 
-## Dashboards
-
-You can use the default KPI dashboard for projects in the ITSM Process Mining Content Pack. You can also create dashboards and add elements to them according to your requirements.
-
--   **[Cluster analysis configurations for ITSM work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/itsm-cluster-analysis-po.md)**  
+-   **[Cluster analysis configurations for ITSM work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/itsm-cluster-analysis-po.md)**  
 The Process Mining application provides solution definitions for incidents, problems, change requests, and requested items. You can use these definitions to configure cluster analysis for those work items.
--   **[Configure KPIs for ITSM work items in the Process Mining dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/configure-kpi-itsm-po.md)**  
+-   **[Configure KPIs for ITSM work items in the Process Mining dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/configure-kpi-itsm-po.md)**  
 Add the desired Key Performance Indicators \(KPIs\) to monitor the performance of the ITSM work items in the Process Mining Summary and insights page. Remove the indicators that you no longer want to use.
--   **[Configure ITSM insights in the Process Mining dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/configure-insights-itsm-po.md)**  
+-   **[Configure ITSM insights in the Process Mining dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/configure-insights-itsm-po.md)**  
 Configure rule definitions for incidents, problems, change requests, or request items to discover insights in the Summary and insights page.
 
-**Parent Topic:**[Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-po-content-pack.md)
+**Parent Topic:**[Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining-content-pack-delivery.md)
 

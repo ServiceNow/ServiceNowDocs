@@ -3,11 +3,11 @@ title: Event logs
 description: The event log records all system events that occur within the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-events/event-logs-2.html
-release: australia
+release: brazil
 product: System Events
 classification: system-events
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System events reference, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,5 +30,5 @@ This log provides the following information for all events that occur:
 |Processing time|Time taken to process this event, in milliseconds.|
 |Queue|Processor queue name.|
 
-**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/system-events-reference.md)
+**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-events/system-events-reference.md)
 

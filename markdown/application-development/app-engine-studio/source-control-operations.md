@@ -3,13 +3,13 @@ title: Source control operations in App Engine Studio
 description: The source control integration primarily supports operations from App Engine Studio \(AES\), but can also support some operations directly from the Git repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-operations.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use AES with a Git source control repository, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Use AES with a Git source control repository, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Source control operations in App Engine Studio
@@ -34,7 +34,7 @@ Import from source control
 
 </td><td>
 
-Imports an application from the repository to the local instance. For more information, see [Import application or application-customization from source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-import.md).
+Imports an application from the repository to the local instance. For more information, see [Import application or application-customization from source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-import.md).
 
 </td><td>
 
@@ -46,7 +46,7 @@ Link to source control
 
 </td><td>
 
-Allows developers to manage application changes from a Git repository. For more information, see [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md).
+Allows developers to manage application changes from a Git repository. For more information, see [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-link-application.md).
 
 </td><td>
 
@@ -58,7 +58,7 @@ Edit Repository Configuration
 
 </td><td>
 
-Updates the Git repository user credentials. For more information, see [Edit a Git repository configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-edit-repo.md).
+Updates the Git repository user credentials. For more information, see [Edit a Git repository configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-edit-repo.md).
 
 </td><td>
 
@@ -70,7 +70,7 @@ Apply Remote Changes
 
 </td><td>
 
-Updates the local version of the application to match the repository version. For more information, see [Pull changes from a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-apply-changes.md).
+Updates the local version of the application to match the repository version. For more information, see [Pull changes from a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-apply-changes.md).
 
 </td><td>
 
@@ -82,7 +82,7 @@ Commit Changes
 
 </td><td>
 
-Updates the repository version of the application to match the local version. For more information, see [Commit changes to a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-commit-changes.md).
+Updates the repository version of the application to match the local version. For more information, see [Commit changes to a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-commit-changes.md).
 
 </td><td>
 
@@ -94,7 +94,7 @@ Stash Local Changes
 
 </td><td>
 
-Removes and saves local changes for later work. For more information, see [Stash local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-stash-changes.md).
+Removes and saves local changes for later work. For more information, see [Stash local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-stash-changes.md).
 
 </td><td>
 
@@ -106,7 +106,7 @@ Switch Branch
 
 </td><td>
 
-Updates the local version of the application to match the repository branch version. For more information, see [Switch branches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-versions-branches-git.md).
+Updates the local version of the application to match the repository branch version. For more information, see [Switch branches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/create-versions-branches-git.md).
 
 </td><td>
 
@@ -118,7 +118,7 @@ Create Branch
 
 </td><td>
 
-Creates a branch in the repository to save a different version of the application. For more information, see [Create a branch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-versions-branches-git.md).
+Creates a branch in the repository to save a different version of the application. For more information, see [Create a branch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/create-versions-branches-git.md).
 
 </td><td>
 
@@ -131,7 +131,7 @@ Create Tag
 
 </td><td>
 
-Creates a tag in the repository to link to a particular application version. For more information, see [Create a tag to link to a particular application version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-versions-branches-git.md).
+Creates a tag in the repository to link to a particular application version. For more information, see [Create a tag to link to a particular application version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/create-versions-branches-git.md).
 
 </td><td>
 
@@ -144,7 +144,7 @@ Manage Stashes
 
 </td><td>
 
-Allows developers to apply or delete stashed changes. For more information, see [Manage stashes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-manage-stashes.md).
+Allows developers to apply or delete stashed changes. For more information, see [Manage stashes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/source-control-manage-stashes.md).
 
 </td><td>
 
@@ -187,5 +187,5 @@ Provides read and write access to the repository tied to a specific set of crede
 Git repository
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-use.md)
+</table>**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-source-control-use.md)
 

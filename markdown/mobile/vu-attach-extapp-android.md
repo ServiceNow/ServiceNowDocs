@@ -3,9 +3,9 @@ title: Control whether users can view attachments in external applications on An
 description: Set the glide.sg.block\_mobile\_attachments\_external\_viewing system property to true to prevent Android users from opening attachments in third-party applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/vu-attach-extapp-android.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -92,5 +92,5 @@ Enter one of the following values:-   Enter `true` to prevent users from opening
 </table>4.  Right-click the banner at the top of the **glide.sg.block\_mobile\_attachments\_external\_viewing** form and select **Save**.
 
 
-**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/additional-mobile-configuration.md)
 

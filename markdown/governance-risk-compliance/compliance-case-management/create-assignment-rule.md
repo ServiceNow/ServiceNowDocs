@@ -3,11 +3,11 @@ title: Create an assignment rule
 description: Create an assignment rule and apply it to a compliance case type or request type by using the Compliance Case Management application. By using an assignment rule, you can determine the appropriate person or group to handle a compliance case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/create-assignment-rule.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a case type, Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -38,13 +38,13 @@ You can create an assignment rule to assign the case or request to a user or gro
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values on the Assignment Rule form, see [Assignment Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/assignment-rule-form.md).
+    For a description of the field values on the Assignment Rule form, see [Assignment Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/assignment-rule-form.md).
 
 7.  Select **Submit**.
 
 
--   **[Assignment Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/assignment-rule-form.md)**  
+-   **[Assignment Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/assignment-rule-form.md)**  
 Use the Assignment Rule form to define the case assignment rules in the Compliance Case Management application.
 
-**Parent Topic:**[Create a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-case-type.md)
+**Parent Topic:**[Create a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/create-case-type.md)
 

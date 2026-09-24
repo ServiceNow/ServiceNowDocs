@@ -3,11 +3,11 @@ title: Multi-vaccine appointment bookings configuration
 description: Administer multi-vaccine appointment bookings based on auto-selection and manual selection of the vaccine method. You can select your preferred vaccine method based on the eligibility criteria, order of method selection, and inventory availability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/multi-vaccine-appointment-bookings-configuration.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -40,5 +40,5 @@ If the slot selection system property \(**sn\_vaccine\_sm.enable\_appointment\_s
 
 **Note:** For the functionality to run properly, make sure that both the inventory management system property \(**sn\_vaccine\_sm.enable\_inventory\_management**\) and the enable multi-vaccine system property \(**sn\_vaccine\_sm.enable\_multi\_vaccine**\) values are **true**.
 
-**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

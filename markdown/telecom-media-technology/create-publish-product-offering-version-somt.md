@@ -3,9 +3,9 @@ title: Create and publish a product offering version
 description: Create and publish a version of an existing product offering in a Published state so that you can offer an improved version of it in your product catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-publish-product-offering-version-somt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Product offering versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -16,7 +16,7 @@ Create and publish a version of an existing product offering in a Published stat
 
 ## Before you begin
 
-Before you can create a version of a product offering, an initial base version of the product offering must exist and already be published. The type of information that you supply for a new version is the same as what you entered for an initial base version, but with certain differences. To learn more, see [Create and publish your product offerings to a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-product-offerings-somt.md).
+Before you can create a version of a product offering, an initial base version of the product offering must exist and already be published. The type of information that you supply for a new version is the same as what you entered for an initial base version, but with certain differences. To learn more, see [Create and publish your product offerings to a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-product-offerings-somt.md).
 
 Role required: sn\_prd\_pm.product-catalog\_manager
 
@@ -40,15 +40,15 @@ Role required: sn\_prd\_pm.product-catalog\_manager
 
 5.  When you finish creating the product offering version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d29738e138">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d29728e138">
 
 Action
 
-</th><th align="left" id="d29738e141">
+</th><th align="left" id="d29728e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29738e147">
+</th></tr></thead><tbody><tr><td id="d29728e147">
 
 **Publish**
 
@@ -58,7 +58,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d29738e165">
+</td></tr><tr><td id="d29728e165">
 
 **Update**
 
@@ -66,7 +66,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d29738e174">
+</td></tr><tr><td id="d29728e174">
 
 **Copy**
 

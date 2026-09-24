@@ -3,11 +3,11 @@ title: Operational Technology Hardware Vulnerability Assessment
 description: The Operational Technology \(OT\) Hardware Vulnerability Assessment \(HVA\) application enables you to assess the firmware vulnerabilities of the OT devices in inventory and create vulnerable items \(VIT\) against the impacted OT devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Industrial Workspace, Operational Technology]
 ---
@@ -27,7 +27,7 @@ Also, HVA uses the range information provided by NVD to assess vulnerabilities m
 -   In case there’s a version information unavailable for a CPE, the range information available for a specific OT device publisher and model is used to perform a hardware vulnerability assessment.
 -   For versions, a comparison algorithm is used to determine if the input version is in range.
 
-**Important:** If you’re already using HVA, rerun the NVD Integrations to use the range information feature. For more information, see [Run NVD Integrations for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/jobs-hwd-nvd-integration.md).
+**Important:** If you’re already using HVA, rerun the NVD Integrations to use the range information feature. For more information, see [Run NVD Integrations for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/jobs-hwd-nvd-integration.md).
 
 You must activate and schedule the following scheduled jobs to perform hardware vulnerability assessment automatically and periodically:
 
@@ -64,25 +64,25 @@ The HVA menu displays HVA records created for the OT devices. These assessment r
 **Important:**
 
 -   If the property to create automatic VIT is enabled, the **Fully matched assessments** tab doesn’t display any data. You can view this information on the **Vulnerable Items** tab.
--   Enable the Firmware Discovery Model Opt-in feature in Enterprise Asset Management so that OT devices data are available for normalization. For more information, see [Opt-in to the Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/optin-cs-eam.md).
+-   Enable the Firmware Discovery Model Opt-in feature in Enterprise Asset Management so that OT devices data are available for normalization. For more information, see [Opt-in to the Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/optin-cs-eam.md).
 
 ## Additional Resources
 
--   **[Confidence score calculation for hardware vulnerability assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/otvr-hva-confidence-score-sample.md)**  
+-   **[Confidence score calculation for hardware vulnerability assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/otvr-hva-confidence-score-sample.md)**  
 Confidence Score is displayed for partially matched assessments, vulnerable items \(VITs\), and ignored assessments.
--   **[Confidence score reference tables for hardware vulnerability assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/otvr-hva-confidence-score-ref.md)**  
+-   **[Confidence score reference tables for hardware vulnerability assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/otvr-hva-confidence-score-ref.md)**  
 Reference values used to calculate the confidence score.
 
-**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
+**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 
 **Related topics**  
 
 
-[Enterprise Asset Management normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/normalization-eam.md)
+[Enterprise Asset Management normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/normalization-eam.md)
 
-[Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
+[Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
 
-[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
+[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 
-[Use the Hardware Vulnerability Assessment menu in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-hva-tabs-.md)
+[Use the Hardware Vulnerability Assessment menu in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-hva-tabs-.md)
 

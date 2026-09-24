@@ -3,11 +3,11 @@ title: Create a knowledge graph schema
 description: Use the Knowledge Graph \(KG\) to create Knowledge Graph schema.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-create-knowledge-graph.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generate product inventory summary, Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -63,7 +63,7 @@ Role required: sn\_sprb\_mgmt\_admin
     -   Node Description
     \[Omitted image "summary-graph-node-details.png"\] Alt text: service summary graph.
 
-    To manage the nodes in the Knowledge Graph schema, see [Manage nodes in a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-or-delete-nodes-from-a-knowledge-graph-schema.md).
+    To manage the nodes in the Knowledge Graph schema, see [Manage nodes in a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-or-delete-nodes-from-a-knowledge-graph-schema.md).
 
 8.  In the Columns that can be queried section, search for and select the desired columns and select **Save**.
 
@@ -71,8 +71,8 @@ Role required: sn\_sprb\_mgmt\_admin
 
     To edit the Knowledge Graph, you must copy the Knowledge Graph and adjust the settings according to your requirements.
 
-    To edit the Knowledge Graph schema, see [Edit a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/editing-a-knowledge-graph-schema.md).
+    To edit the Knowledge Graph schema, see [Edit a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/editing-a-knowledge-graph-schema.md).
 
 
-**Parent Topic:**[Generate service summary for a product inventory using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-knowledge-graph.md)
+**Parent Topic:**[Generate service summary for a product inventory using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-knowledge-graph.md)
 

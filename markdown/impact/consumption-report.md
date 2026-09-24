@@ -3,9 +3,9 @@ title: Consumption Report in Impact
 description: The Consumption Report provides an overview of Impact features and their usage so you can identify underutilized benefits or benefits you have not yet used to make the most of your plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/consumption-report.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Impact, Impact]
 ---
@@ -70,11 +70,11 @@ See who is available to assist with real-troubleshooting and get timely support 
 
  View additional details about developer support users such as username, access status, locked status, and access permissions by selecting the **View Users** link.
 
-**Note:** Impact developer support users are managed in Impact Delivery Instance. For more information, see [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/developer-support.md).
+**Note:** Impact developer support users are managed in Impact Delivery Instance. For more information, see [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/developer-support.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Request an Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/accelerators.md)
+[Request an Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/accelerators.md)
 

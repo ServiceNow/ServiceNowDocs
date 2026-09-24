@@ -3,11 +3,11 @@ title: MetricBase roles
 description: MetricBase is installed with these roles.Administrative role for time series-related functionality.Lets users query MetricBase plus data.Lets user modify tables in MetricBase plus.MetricBase REST accumulate role.MetricBase REST PUT role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/metricbase-roles.html
-release: australia
+release: brazil
 product: MetricBase
 classification: metricbase
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Reference, MetricBase, Manage instance data sources, Extend Service
 
 MetricBase is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/reference-metricbase.md)
+**Parent Topic:**[MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/reference-metricbase.md)
 
 **Related topics**  
 

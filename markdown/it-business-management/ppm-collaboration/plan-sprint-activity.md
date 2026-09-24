@@ -3,11 +3,11 @@ title: Plan sprints
 description: Streamline your sprint planning and completion activities using the Sprint Planning tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/plan-sprint-activity.html
-release: australia
+release: brazil
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Agile Development 2.0 integration with Project Portfolio Management, Explore Project Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,21 +26,21 @@ Role required: scrum\_admin, scrum\_master, or scrum\_sprint\_planner
 
 2.  Open the desired group.
 
-3.  Click the **Plan Sprints** related link.
+3.  Select the **Plan Sprints** related link.
 
     The Agile Board, **Sprint Planning** tab appears.
 
 4.  Use either of options to view all the active stories assigned to the team, but not assigned to any sprint in the Backlog section.
 
-<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d123232e94">
+<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d123078e94">
 
 Action
 
-</th><th align="left" id="d123232e97">
+</th><th align="left" id="d123078e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d123232e103">
+</th></tr></thead><tbody><tr><td id="d123078e103">
 
 **Using the drag feature**
 
@@ -48,7 +48,7 @@ Description
 
 This option can be used to move stories within the backlog, move stories from the backlog to any sprint, or move stories from one sprint to another. Point to a story in the backlog and drag it to the required location.
 
-</td></tr><tr><td id="d123232e115">
+</td></tr><tr><td id="d123078e115">
 
 **Using the keyboard**
 
@@ -59,20 +59,20 @@ This option can be used to move stories only within a backlog or a sprint.
 </td></tr></tbody>
 </table>    **Note:**
 
-    -   If the backlog contains more than 50 stories, then pagination control appears at the bottom of the list enabling you to navigate to the previous, next, first, or last pages in the list.
+    -   If the backlog contains more than 50 stories, pagination control appears at the bottom of the list. You can navigate to the previous, next, first, or last pages in the list.
     -   Rearranging stories in the backlog changes the ranking of stories. Ranks are stored in the global\_rank column in the Story \[rm\_story\] table. When you move a story within a backlog, its rank changes relative to the stories within the same backlog. Thus, if the story exists in some other backlog, its ranking might change but position in the backlog would remain the same.
-5.  To start a sprint, click **Start** that appears at right-corner of the first or top sprint.
+5.  To start a sprint, select **Start** that appears at right-corner of the first or top sprint.
 
     The**Sprint Tracking** tab appears.
 
-6.  To complete a sprint, click **Complete Sprint** that appears at right-corner of the first or top sprint.
+6.  To complete a sprint, select **Complete Sprint** that appears at right-corner of the first or top sprint.
 
     1.  Move incomplete stories, if any, to the backlog or a future sprint.
 
-    2.  Click **Complete**.
+    2.  Select **Complete**.
 
         The sprint disappears from the **Sprint Planning** tab and appears in the Sprint list as complete.
 
 
-**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)
+**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)
 

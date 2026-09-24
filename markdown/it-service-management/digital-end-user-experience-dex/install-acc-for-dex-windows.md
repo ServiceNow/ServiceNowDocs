@@ -3,12 +3,12 @@ title: Install ACC for DEX on Windows
 description: Install Agent Client Collector \(ACC\) to work with Digital End-User Experience \(DEX\) to monitor and collect data, provide insights into system performance, identify issues, and enable proactive maintenance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [install acc windows, agent client collector windows, acc for dex, install agent client collector, collect dex metrics]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -21,18 +21,32 @@ Install Agent Client Collector \(ACC\) to work with Digital End-User Experience 
 
 Install the ITOM Cloud Services plugin.
 
-Create an agent registration key.
+[Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/create-acc-reg-key.md).
+
+Confirm the following device and network settings before you install the agent:
+
+-   Authentication: Digital End-User Experience uses Mutual Transport Layer Security \(mTLS\) to authenticate devices.
+-   Ports and protocols: communication with the ServiceNow cloud occurs over port 443 using mTLS, with specific certificates and proxy settings.
+-   Firewalls: outbound HTTPS traffic on TCP port 443 is permitted from every device running an ACC agent to the designated ServiceNow cloud FQDNs or IP ranges.
+-   Proxy: if device connectivity to the internet is routed through a proxy network, configure the proxy. For details, see [Configure ACC to use a proxy for all traffic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/configure-acc-to-use-proxy.md).
+-   Populate the **sys\_user** table so that the CI record in production is assigned with the first and last name of the logged-in user of the device.
+-   For enterprise-wide deployments, contact your Microsoft Intune or Microsoft Configuration Manager application administrator.
 
 Role required: agent\_client\_collector\_admin
 
 ## Procedure
 
-1.  Retrieve the publicly accessible gateway URL, based on your location.
+1.  Retrieve the agent registration key:
 
-    -   AMER \(Americas\): `itomcnc-prod-gateway.amer.sncapps.service-now.com:443`
-    -   EMEA \(Europe\): `itomcnc-prod-gateway.emea.sncapps.service-now.com:443`
-    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway.apac.sncapps.service-now.com:443`
-2.  On the Windows server where the agent is installed, enter the following command:
+    1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **Agent Registration Key**.
+    2.  Select the relevant agent registration key.
+    3.  Copy the registration key value and store it in a place where you can easily retrieve it, when needed.
+2.  Retrieve the publicly accessible gateway URL, based on your location.
+
+    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
+    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
+    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
+3.  On the Windows server where the agent is installed, enter the following command:
 
     ```
     msiexec /i <msi_file_path> /quiet /qn /norestart CONNECT_WITHOUT_MID="true" ACC_CNC="<gateway_endpoint>" REGISTRATION_KEY="<registration_key>" INSTANCE_URL="https://<instance_url>"
@@ -96,26 +110,40 @@ ACC\_VALIDATE\_SIG
 
 Optional string. To disable verification of the installer certification validation, set **ACC\_VALIDATE\_SIG=0** that you can add to disable the verification of the installer certification validation. By default, validation is enabled.**Note:** Disable the certification validation only when using non-standard signature validation tools.
 
+</td></tr><tr><td>
+
+LOCALUSERNAME
+
+</td><td>
+
+\[Optional\] Specify **SYSTEM** to run ACC as a local system account user.**Note:** If you specify this parameter, you don't need to complete the procedure [Run ACC as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/run-acc-local-sys-account.md).
+
 </td></tr></tbody>
-</table>3.  Start the Agent Client Collector service using the default ServiceNow user role created during this installation.
+</table>4.  Start the Agent Client Collector service using the default ServiceNow user role created during this installation.
 
     The default ServiceNow user role has the following privileges:
 
     -   Performance Monitor: Viewing all performance counters in the system.
     -   Log on as a service: Starting network services and services that run continuously, even when no one is logged in to the console.
     -   Debug program: Monitoring the installed applications and collecting in-depth metrics and remedial actions, such as restart and stop.
-4.  To collect DEX metrics, restart the ACC service using one of the following methods:
+5.  To collect DEX metrics, restart the ACC service using one of the following methods:
 
     -   Add **Remote Desktop user** to ServiceNow user.
-    -   [Run as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/run-acc-local-sys-account.md).
-    -   [Run as a managed group user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/run-acc-as-managed-group-user.md).
-5.  Restart the Agent Client Collector service.
+    -   [Run as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/run-acc-local-sys-account.md).
+    -   [Run as a managed group user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/run-acc-as-managed-group-user.md).
+6.  Restart the Agent Client Collector service.
+
+7.  Verify that the agent registered with your instance and is collecting host data.
+
+    For details, see [Verify that an Agent Client Collector agent is registered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/verify-acc-agent-registration.md).
 
 
--   **[Run ACC as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/run-acc-local-sys-account.md)**  
-To fetch the complete playbook content data for a Windows device, the Agent Client Collector \(ACC\) must run as a local system account.
--   **[Run ACC as a managed group user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/run-acc-as-managed-group-user.md)**  
-Run Agent Client Collector \(ACC\) from a managed group account to meet your organization's security, manageability, and auditability requirements.
+**Related topics**  
 
-**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
+
+[Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/create-acc-reg-key.md)
+
+[Verify that an Agent Client Collector agent is registered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/verify-acc-agent-registration.md)
+
+[Uninstall the Agent Client Collector agent from a device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/uninstall-acc-agent.md)
 

@@ -3,11 +3,11 @@ title: Require authentication by default for client-callable script includes
 description: By default, client-callable script includes that do not explicitly set visibility, are public. If needed, add the glide.script.ccsi.ispublic property to enable privacy control over all client-callable script includes accessed by public pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-privacy-on-client-callable-script-includes.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 By default, client-callable script includes that do not explicitly set visibility, are public. If needed, add the **glide.script.ccsi.ispublic** property to enable privacy control over all client-callable script includes accessed by public pages.
 
-The **glide.script.ccsi.ispublic** system property makes sure that client-callable script-includes, also known as Ajax script includes, are not automatically made available to non-authenticated users. If **glide.script.ccsi.ispublic** is not set to the recommended value of **false**, then it allows script includes to be run as public scripts and allow unauthenticated users access to instance data.
+The **glide.script.ccsi.ispublic** system property makes sure that client-callable script-includes, also known as Ajax script includes, are not automatically made available to non-authenticated users. If **glide.script.ccsi.ispublic** is not set to the recommended value of **false**, then it allows script includes to be run as public scripts and grant unauthenticated users access to instance data.
 
 Ensure that the property **glide.script.ccsi.ispublic** is set to **false**.
 
@@ -54,7 +54,7 @@ Data type
 
 </td><td>
 
- 
+Boolean
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+false
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Category
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -115,5 +115,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

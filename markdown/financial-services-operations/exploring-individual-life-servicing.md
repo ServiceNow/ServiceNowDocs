@@ -3,9 +3,9 @@ title: Exploring Individual Life Servicing
 description: Contributors, processors, and underwriters can manage individual life and disability insurance policies, creating cases to initiate and complete insurance workflow tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/exploring-individual-life-servicing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---

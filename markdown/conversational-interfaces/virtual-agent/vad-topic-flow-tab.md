@@ -3,14 +3,14 @@ title: Topic Flow tab
 description: Use the topic Flow tab to build the conversation flow. Use the controls for user inputs, bot responses, and utilities to define the flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/vad-topic-flow-tab.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 keywords: [Virtual Agent, Designer, Flow tab, Components, Variables, table view, canvas view]
-breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Topic Flow tab
@@ -19,9 +19,9 @@ Use the topic **Flow** tab to build the conversation flow. Use the controls for 
 
 ## Flow tab \(default view\)
 
-\[Omitted image "DesignerTextNodeCalloutSections-2.png"\] Alt text: View of Virtual Agent Designer topic Flow tab with 10 callouts highlighted. For the text description, see the table that follows.
+\[Omitted image "DesignerTextNodeCalloutSections-2.png"\] Alt text: View of Assistant Designer topic Flow tab with 10 callouts highlighted. For the text description, see the table that follows.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto for Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto for Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/vad-prev-topics-page.md).
 
 <table id="table_njp_rgk_zhb"><thead><tr><th>
 
@@ -47,12 +47,8 @@ Tabs to navigate between your design and the Asset library. You can open and nev
 
 Tabs and design options for your topic: -   Tabs: Each tab provides a different view for working on your conversation.
     -   **Flow**: Displays the canvas for building your conversation flow.
-    -   [Topic NLU Intent tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-nlu-intent-tab.md) \(NLU topics only\)
-    -   [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md)
-    -   [Topic Languages tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-languages-tab.md) \(available if multiple languages are configured for Virtual Agent\).
-
-For more information, see [Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md).
-
+    -   [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md)
+    -   [\(Legacy\) NLU Topic Languages tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/vad-topic-languages-tab.md) \(available if multiple languages are configured for Virtual Agent\).
 -   **Table View**: Option that displays a table view of the nodes in the conversation flow. You can use this option to switch between table view and diagram view as you design your conversation.
 -   **Active/Inactive**: Option that changes the design state so that it's active \(available to users\) or inactive \(in development and not available to users\). Select it to see the following options:
     -   **Included in Topic Discovery**: Option to make the topic discoverable via keywords, NLU, or Now LLM Service. If inactive, the topic is included when performing search fallback.
@@ -60,15 +56,15 @@ For more information, see [Localizing Virtual Agent conversations](https://raw.g
 -   **Save**: Saves the current design.
 -   **Test**: Opens the design in a chat test window so that you can preview and test the conversation. If the ServiceNow Otto panel, Microsoft Teams application, or Slack application is configured for your environment, preview options for those channels are displayed in the Test button list. Select **Preview in Otto panel** or **Preview in Microsoft Teams** in the list to test your topic in those environments.
 -   **Publish**: Activates the design and makes it available to the chat clients. If you're using language-specific NLU models, select **Review and publish** from the Publish list to specify languages.
--   More actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text: More actions icon.
+-   More actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text:
     -   **Duplicate**: Copy the current design to create an unpublished version of the design.
     -   **Delete**: Remove the current and published version of the design.
 
-When updating designs, the header bar displays an `Unpublished Changes` message until you publish the topic.Hover over the message to see a tooltip explaining the unpublished changes. For example, the changes can include your topic's main design or Natural Language Understanding \(NLU\) language mappings.\[Omitted image "vad-flow-tab-unpublished-changes-tooltip.png"\] Alt text: Assistant Designer Asset library flow tab header bar showing Unpublished changes warning message. A tooltip detailing unpublished changes appears when you hover over the message.
+When updating designs, the header bar displays an `Unpublished Changes` message until you publish the topic. Hover over the message to see a tooltip explaining the unpublished changes.
 
-If you close the topic without saving, a **Recover changes** button appears on the header bar. Select this button to recover any unpublished changes that were unsaved before closing. The **Recover changes** button is replaced by the `Unpublished changes` message.\[Omitted image "vad-flow-tab-recover-changes-button.png"\] Alt text: Assistant Designer Asset library flow tab header bar showing Recover changes button after reopening an unsaved topic.
+If you close the topic without saving, a **Recover changes** button appears on the header bar. Select this button to recover any unpublished changes that were unsaved before closing. The **Recover changes** button is replaced by the `Unpublished changes` message.\[Omitted image "vad-flow-tab-recover-changes-button.png"\] Alt text: Virtual Agent Designer flow tab header bar showing Recover changes button after reopening an unsaved topic.
 
-If you add a node, then close the topic before saving or publishing, the node disappears and the button and message appear when you reopen the topic. Select **Recover changes** to restore the node and remove the button.\[Omitted image "vad-flow-tab-unpublished-recover-combined.png"\] Alt text: Assistant Designer Asset library flow tab header bar showing Unpublished changes message and Recover changes button. Both appear after reopening an unsaved topic with a node added.
+If you add a node, then close the topic before saving or publishing, the node disappears and the button and message appear when you reopen the topic. Select **Recover changes** to restore the node and remove the button.\[Omitted image "vad-flow-tab-unpublished-recover-combined.png"\] Alt text: Virtual Agent Designer flow tab header bar showing Unpublished changes message and Recover changes button. Both appear after reopening an unsaved topic with a node added.
 
 </td></tr><tr><td>
 
@@ -78,11 +74,11 @@ If you add a node, then close the topic before saving or publishing, the node di
 
 Collapsible sidebar with Components and Variables tabs.The Components tab shows a list of controls that you can drag onto the canvas to build a conversation. The following types of controls are available:
 
--   [User Input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md): Controls used to prompt and capture information from the user in a conversation. When ServiceNow Otto is enabled and you're working with a large language model \(LLM\) topic, the LLM User Input section indicates which controls are LLM compatible.
--   [Bot Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md): Controls for showing virtual agent responses in a conversation.
--   [Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md): Controls for performing actions within a topic, such as running a script, adding different conversation paths \(branches\) in a topic, or adding topic blocks.
+-   [User Input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md): Controls used to prompt and capture information from the user in a conversation. When ServiceNow OttoAsset library is enabled and you're working with a large language model \(LLM\) topic, the LLM User Input section indicates which controls are LLM compatible.
+-   [Bot Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md): Controls for showing virtual agent responses in a conversation.
+-   [Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-utilities.md): Controls for performing actions within a topic, such as running a script, adding different conversation paths \(branches\) in a topic, or adding topic blocks.
 
-The Variables tab includes inputs and scripts.\[Omitted image "variables-tab.png"\] Alt text: Variables tab showing Input and Scripts in topic being viewed in Assistant Designer Asset library.
+The Variables tab includes inputs and scripts.\[Omitted image "variables-tab.png"\] Alt text: Variables tab showing Input and Scripts in topic being viewed in Virtual Agent Designer.
 
 -   **Input section**
     -   Live Agent variables specified on the topic **Properties** tab to provide contextual information from the virtual agent session to the live agent.
@@ -107,7 +103,7 @@ Area that displays the conversation flow graphically. As you drag a control onto
 
 </td><td>
 
-Option for quickly finding specific nodes in the conversation flow. Select the node search icon \[Omitted image "icon-search.png"\] Alt text: Search icon. to expand the search field and enter the name of the node that you want to find. When a matching node is found, the node is highlighted in the flow. Use the left or right arrows to search for the previous or next node that matches the search node name. \[Omitted image "expanded-node-search.png"\] Alt text: Node search, showing highlighted node in flow and highlighted search bar.
+Option for quickly finding specific nodes in the conversation flow. Select the node search icon \[Omitted image "icon-search.png"\] Alt text: to expand the search field and enter the name of the node that you want to find. When a matching node is found, the node is highlighted in the flow. Use the left or right arrows to search for the previous or next node that matches the search node name. \[Omitted image "expanded-node-search.png"\] Alt text: Node search, showing highlighted node in flow and highlighted search bar.
 
 </td></tr><tr><td>
 
@@ -131,7 +127,7 @@ Input or output item on the canvas created by dragging a control from the Compon
 
 </td><td>
 
-Properties specific to the selected node on the canvas. The list of properties changes based on the node you select. Each node has its own set of properties that you can define, which can include scripts that control the behavior or processing that is performed in the node. If NLU is enabled, the property sheets for Input controls contain additional NLU fields. For further information, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md)
+Properties specific to the selected node on the canvas. The list of properties changes based on the node you select. Each node has its own set of properties that you can define, which can include scripts that control the behavior or processing that is performed in the node. If NLU is enabled, the property sheets for Input controls contain additional NLU fields. For further information, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
 
 </td></tr><tr><td>
 
@@ -147,7 +143,7 @@ A tool for selecting data pills from input variables or script variables to use 
 
 </td><td>
 
-A tool for adding or editing JavaScript scripts used in a property. Provides scripting assistance, including a list of valid elements at the insertion point. Elements include function name, object names, and variable names available for the topic. For more information, see the [JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SyntaxEditor.md).
+A tool for adding or editing JavaScript scripts used in a property. Provides scripting assistance, including a list of valid elements at the insertion point. Elements include function name, object names, and variable names available for the topic. For more information, see the JavaScript syntax editor.
 
 </td></tr><tr><td>
 
@@ -163,7 +159,7 @@ Opens the property sheet view for the currently selected node on the canvas.
 
 </td><td>
 
-Opens the Validation Issues view, showing the number of issues in the topic needing correction before the topic can be published. This tab appears when you try to publish an incomplete topic, and disappears when all issues are resolved. For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
+Opens the Validation Issues view, showing the number of issues in the topic needing correction before the topic can be published. This tab appears when you try to publish an incomplete topic, and disappears when all issues are resolved. For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 </td></tr><tr><td>
 
@@ -178,7 +174,7 @@ Opens the Helpful resources view, containing a link to product documentation. In
 
 Most of the functionality of the Flow tab is the same in Table View. The following figure and table highlight the differences.
 
-\[Omitted image "DesignerTableviewCallouts-2.png"\] Alt text: Table view of Virtual Agent Designer Flow tab with variables, search table, and Table toggle highlighted. For the text description, see the table that follows.
+\[Omitted image "DesignerTableviewCallouts-2.png"\] Alt text: Table view of Assistant Designer Asset library Flow tab with variables, search table, and Table toggle highlighted. For the text description, see the table that follows.
 
 <table id="table_tkl_txp_ckb"><thead><tr><th>
 
@@ -219,7 +215,7 @@ Option for searching nodes in the conversation \(table\).
 </td></tr></tbody>
 </table>## LLM components guided tour
 
-When you create or open a non-read-only LLM topic, a dialog box appears and displays an option to take a guided tour of the LLM components in Virtual Agent Designer. Select the close icon to close the window or **Start guided tour** to be shown the various components. You can also take a tour by selecting **Guided tour for LLM enabled nodes** in the Helpful resources tab.
+When you create or open a non-read-only LLM topic, a dialog box appears and displays an option to take a guided tour of the LLM components in Assistant Designer Asset library . Select the close icon to close the window or **Start guided tour** to be shown the various components. You can also take a tour by selecting **Guided tour for LLM enabled nodes** in the Helpful resources tab.
 
 To stop seeing the dialog box open each time you open an LLM topic, select **Do not show this again** before closing the dialog box or starting the tour. To restore the dialog box, navigate to **All**, then enter `sys_cb_user_preference_list.do`. On the Designer User Preferences page, find the **LLM\_INTRO\_MODAL\_ENABLED** preference. Open its **Value** field and set it to `true`.
 
@@ -227,15 +223,15 @@ To stop seeing the dialog box open each time you open an LLM topic, select **Do 
 
 ## Incomplete property warnings
 
-Controls on the canvas have required properties. If required properties are missing, Virtual Agent Designer displays the total number of missing required properties and the controls that are missing them. All incomplete warnings must be addressed to test or publish the topic.
+Controls on the canvas have required properties. If required properties are missing, Assistant Designer Asset library displays the total number of missing required properties and the controls that are missing them. All incomplete warnings must be addressed to test or publish the topic.
 
 In the following example, the topic is missing two required properties. Two nodes are affected, and each is missing one property. The Text response node is missing the Message response.
 
-\[Omitted image "vad-flow-tab-missing-properties-warnings.png"\] Alt text: Virtual Agent Designer Flow tab view with incomplete properties. Number of incomplete nodes is shown in the canvas. The sidebar and each node show the number of incomplete entries.
+\[Omitted image "vad-flow-tab-missing-properties-warnings.png"\] Alt text: Assistant Designer Asset library Flow tab view with incomplete properties. Number of incomplete nodes is shown in the canvas. The sidebar and each node show the number of incomplete entries.
 
 Point to the incomplete message to see a tooltip that describes what is missing.
 
-\[Omitted image "vad-flow-tab-missing-properties-tooltip.png"\] Alt text: Virtual Agent Designer properties, with incomplete message selected to show missing items in the node.
+\[Omitted image "vad-flow-tab-missing-properties-tooltip.png"\] Alt text: Assistant Designer Asset library properties, with incomplete message selected to show missing items in the node.
 
-**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
 

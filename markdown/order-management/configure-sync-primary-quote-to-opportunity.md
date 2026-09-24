@@ -3,10 +3,10 @@ title: Sync Primary Quote to Opportunity
 description: Designate a quote as primary and sync the quote's lines to the opportunity. When sync is enabled, any changes to the quote's lines are synced to the source opportunity lines. An opportunity can have only one quote marked as primary and enabled for sync.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-sync-primary-quote-to-opportunity.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-07"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -37,8 +37,6 @@ The sync feature uses the following system objects to control the sync between a
 |Integration|Sync to Opportunity|`txn.syncToOpportunity.updateStatus`|
 
 To configure the feature, add a button for each sync event to the layout, configure the event properties, and optionally restrict event access by stage.
-
-The following snapshot helps you understand the event configuration to sync the quote to opportunity.\[Omitted image "cpq-event-access.png"\] Alt text: Configuration to access events.
 
 ## Procedure
 
@@ -72,6 +70,4 @@ The following snapshot helps you understand the event configuration to sync the 
 ## Result
 
 When a user selects **Enable Sync to Opportunity**, the quote's lines sync to the source opportunity lines, and subsequent changes to the quote's lines continue to sync. When a user selects **Disable Sync to Opportunity**, the sync stops.
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

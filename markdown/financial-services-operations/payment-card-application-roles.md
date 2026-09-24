@@ -3,9 +3,9 @@ title: Payment card roles
 description: This section outlines the core roles involved in managing payment cards in the Payment card application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/payment-card-application-roles.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Payment Card, Data Models, Explore, Financial Services Operations \(FSO\)]
 ---
@@ -24,5 +24,5 @@ This section outlines the core roles involved in managing payment cards in the P
 |Credit card reader \[credit\_card\_reader\]|Read access to the Credit Card table.|
 |Debit card reader \[debit\_card\_reader\]|Read access to the Debit Card table.|
 
-**Parent Topic:**[Payment card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/payment-card-application.md)
+**Parent Topic:**[Payment card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/payment-card-application.md)
 

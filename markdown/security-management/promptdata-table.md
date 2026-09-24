@@ -3,9 +3,9 @@ title: Prompt Data table
 description: Use the Prompt Data \(sn\_si\_int\_kit\_prompt\_data\) table to view and modify the prompts for the capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/promptdata-table.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SIR Integration Builder reference, LLM-powered SIR integration builder, Security Operations]
 ---

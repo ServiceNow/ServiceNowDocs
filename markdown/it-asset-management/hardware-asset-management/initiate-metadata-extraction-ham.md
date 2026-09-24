@@ -3,13 +3,13 @@ title: Initiate metadata and obligation extraction from a signed contract in the
 description: Reduce manual effort by using the Manage contract repository agentic workflow to extract key metadata and obligations from an uploaded signed contract and calculate the contract reminder date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/initiate-metadata-extraction-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage contract repository agentic workflow, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage contract repository agentic workflow, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Initiate metadata and obligation extraction from a signed contract in the Hardware Asset Workspace
@@ -22,7 +22,7 @@ For the **Initiate contract extraction** button to appear on the contract form, 
 
 -   The Contract metadata extraction skill or the Contract obligation extraction skill is activated on your ServiceNow instance.
 -   One or both extraction skills have not yet been executed on the contract record.
--   The contract type is warranty, maintenance, lease, or purchase.
+-   The contract type is warranty, maintenance, lease, or purchase agreements.
 
 Role required: contract\_manager, sn\_cm\_gen\_ai.ai\_contract\_fulfiller, and now\_assist\_panel\_user
 
@@ -38,7 +38,7 @@ Use the Manage contract repository agentic workflow to extract metadata and key 
 
 3.  On the Create New Contract form, fill in the required **Contract model** and **Contract number** field values.
 
-    For a description of the field values, see [Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_CreateAContract.md).
+    For a description of the field values, see [Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_CreateAContract.md).
 
 4.  Select **Save**.
 
@@ -67,7 +67,7 @@ After metadata extraction is completed, a confirmation message appears on the co
 
 ## What to do next
 
-Review the extracted metadata, contract reminder date, and obligation records. For more information, see [Review AI-extracted metadata and contract reminder date in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/review-ai-extracted-metadata-ham.md) and [Review AI-extracted obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/review-extracted-obligation-ham.md).
+Review the extracted metadata, contract reminder date, and obligation records. For more information, see [Review AI-extracted metadata and contract reminder date in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/review-ai-extracted-metadata-ham.md) and [Review AI-extracted obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/review-extracted-obligation-ham.md).
 
-**Parent Topic:**[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)
+**Parent Topic:**[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)
 

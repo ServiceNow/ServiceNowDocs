@@ -3,11 +3,11 @@ title: Create a central office code
 description: Created topic for STRY55294083 - DOC1071773Create a central office code to allocate it to an area code of a country by using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create\_a\_central\_office\_code.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create the components of a telephone number, Configure, Telecommunications Network Inventory]
 ---
@@ -72,7 +72,7 @@ Central office code that is also referred to as NXX. The NXX portion of a teleph
 
 ## What to do next
 
-Create a country code. For information, see [Create a country code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_country_code.md).
+Create a country code. For information, see [Create a country code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_country_code.md).
 
-**Parent Topic:**[Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
+**Parent Topic:**[Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
 

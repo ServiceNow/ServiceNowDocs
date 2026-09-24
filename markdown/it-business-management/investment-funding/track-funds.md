@@ -3,11 +3,11 @@ title: Review the use of your funds
 description: Review the flow of your funds from your investment to other investments to make an informed decision when you allocate or request funds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/track-funds.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Investment Funding, Strategic Portfolio Management]
 ---
@@ -51,5 +51,5 @@ Users that the investment owner adds in the **Viewable by** field can also revie
 5.  Click the **Actions** menu and select **View Investment** to navigate to the investment grid.
 
 
-**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/investment-funding-overview.md)
 

@@ -3,9 +3,9 @@ title: Customer success playbooks
 description: Customer success agents can use playbooks to define planned and unplanned activities, success case tasks, and renewal processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-cust-succ-playbook.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer success, Explore, Customer Success Management]
 ---
@@ -23,7 +23,7 @@ Playbooks provide step-by-step guidance and include multiple stages and activiti
 
 The following playbooks are available:
 
--   [Customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-playbook.md)
--   [Internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-internal-playbook.md)
--   [Renewal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-renewal-playbook.md)
+-   [Customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-playbook.md)
+-   [Internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-internal-playbook.md)
+-   [Renewal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-renewal-playbook.md)
 

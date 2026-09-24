@@ -3,11 +3,11 @@ title: Add credentials to an image template
 description: When you add credentials to an image template, the credentials are inherited by all VMs that are provisioned using the template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-credential-to-template-type.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource Profiles, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ When you add credentials to an image template, the credentials are inherited by 
 ## Before you begin
 
 -   Role required: cloud\_admin
--   A set of [basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md) must exist.
+-   A set of [basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md) must exist.
 
 ## Procedure
 

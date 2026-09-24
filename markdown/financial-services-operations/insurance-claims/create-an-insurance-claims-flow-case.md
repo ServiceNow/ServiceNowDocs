@@ -3,11 +3,11 @@ title: Initiate an Insurance claims case
 description: Initiate an Insurance claims case on behalf of a claimant by using the Insurance claims application. When a customer calls in to report a claim, a claim intake specialist follows this procedure to capture important details and initiate a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-an-insurance-claims-flow-case.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -46,15 +46,15 @@ This procedure references service definitions and products that are used in the 
 
 10. In the Add claim participant form, enter the details of the participant, and then select **Save**.
 
-<table id="choicetable_x5k_v1y_tcc"><thead><tr><th align="left" id="d39837e177">
+<table id="choicetable_x5k_v1y_tcc"><thead><tr><th align="left" id="d39866e177">
 
 Reporter status
 
-</th><th align="left" id="d39837e180">
+</th><th align="left" id="d39866e180">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39837e186">
+</th></tr></thead><tbody><tr><td id="d39866e186">
 
 **Is a policy participant**
 
@@ -66,7 +66,7 @@ Steps
 -   Enter how the participant is related to the insured in the **Relationship to insured** field.
 
 
-</td></tr><tr><td id="d39837e225">
+</td></tr><tr><td id="d39866e225">
 
 **Is not a policy participant**
 
@@ -102,5 +102,5 @@ A claim case is created in the New state and the workflow is triggered. The case
 
 ## What to do next
 
-Processors and adjusters assign cases to themselves and start working on them. For more information, see [Process an Insurance claims case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/process-an-insurance-claims-flow-case.md) and [Work on Insurance claims adjuster tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/manage-an-insurance-claims-flow-case.md).
+Processors and adjusters assign cases to themselves and start working on them. For more information, see [Process an Insurance claims case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/insurance-claims/process-an-insurance-claims-flow-case.md) and [Work on Insurance claims adjuster tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/insurance-claims/manage-an-insurance-claims-flow-case.md).
 

@@ -3,11 +3,11 @@ title: Configure document approval workflows
 description: Set up reviewers and approvers for linked documents to establish a formal approval workflow before a document version becomes active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t\_configure\_document\_approval\_workflow.html
-release: australia
+release: brazil
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-08-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [document approval, document versioning, approval workflow, authorization package, reviewer, approver]
 breadcrumb: [Document reuse across records, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
@@ -87,5 +87,5 @@ When you create a new version of the document, the workflow will activate:
 
 Throughout this workflow, all reviewers and approvers can track the document state and provide feedback through the **Tasks** list in the CAM Workspace.
 
-**Parent Topic:**[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)
+**Parent Topic:**[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)
 

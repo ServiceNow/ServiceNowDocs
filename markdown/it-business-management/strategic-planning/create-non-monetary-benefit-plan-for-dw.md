@@ -3,11 +3,11 @@ title: Create a non-monetary benefit plan for a demand
 description: Create a non-monetary benefit plan to specify the estimated non-monetary benefit in a category for a fiscal period. Demand benefit plans capture the potential benefits accrued by the demand when the demand is executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-non-monetary-benefit-plan-for-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -44,12 +44,12 @@ The non-monetary benefit plan breakdown records are automatically created when y
 
 7.  On the Benefit Plan form, fill in the fields.
 
-    For more information on field values, see [Non-monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/non-monetary-benefit-plan-form-dw.md).
+    For more information on field values, see [Non-monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/non-monetary-benefit-plan-form-dw.md).
 
 8.  Select **Save**.
 
 
 ## What to do next
 
-Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the demand for the hybrid benefit plans. For more information, see [Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/associate-benefit-plans-dw.md).
+Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the demand for the hybrid benefit plans. For more information, see [Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/associate-benefit-plans-dw.md).
 

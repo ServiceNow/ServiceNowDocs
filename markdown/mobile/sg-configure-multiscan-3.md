@@ -3,9 +3,9 @@ title: Configure your action item to use your grouped input UI parameters
 description: Configure the action item on your button so that you can use the values that your users scan in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-configure-multiscan-3.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure grouped input, Barcode scanning, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -35,11 +35,11 @@ Role required: admin
     **Note:**
 
     -   The action item type must be set to **Script** to display this **Execution Script** field.
-    -   In the above script example, the addAssetToStockroom\(\) function is a custom function that has been created by the user. For more information, see [Configure an action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-config-action-function.md).
+    -   In the above script example, the addAssetToStockroom\(\) function is a custom function that has been created by the user. For more information, see [Configure an action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-config-action-function.md).
 
 ## What to do next
 
-Your button is configured for multi-scan, and your users can begin creating records. For information on using the mobile scanning interface, see [Multi-scan for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-multi-scan.md).
+Your button is configured for multi-scan, and your users can begin creating records. For information on using the mobile scanning interface, see [Multi-scan for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-multi-scan.md).
 
-**Parent Topic:**[Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-multiscan.md)
+**Parent Topic:**[Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-configure-multiscan.md)
 

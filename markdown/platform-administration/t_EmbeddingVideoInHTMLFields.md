@@ -3,10 +3,10 @@ title: Embed videos in the HTML editor
 description: You can insert videos into HTML fields. You can also add videos to the video library using the HTML Insert/Modify Video form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EmbeddingVideoInHTMLFields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-02"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Extended functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -43,7 +43,7 @@ The larger the file size, the longer it takes to download before the video start
 |Bit rate|320KBPS|
 |Resolution|480\*320|
 
-Internet Explorer and Safari have difficulty streaming videos uploaded to the database. Attach a file rather than embedding if you intend to use one of these browsers or an unsupported file type. For more information on attaching files, see [Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md).
+Internet Explorer and Safari have difficulty streaming videos uploaded to the database. Attach a file rather than embedding if you intend to use one of these browsers or an unsupported file type. For more information on attaching files, see [Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_AddingAnAttachment.md).
 
 **Note:** Administrators and users with the image\_admin role can manage the video library at **System UI** &gt; **Videos**.
 
@@ -51,9 +51,9 @@ Internet Explorer and Safari have difficulty streaming videos uploaded to the da
 
 1.  Open the form that contains the HTML field.
 
-2.  Select the position where the video is to appear, or to modify an existing video, select the video.
+2.  Click the position where the video is to appear, or to modify an existing video, click the video.
 
-3.  Select the insert/edit video icon \(\[Omitted image "TinyMCEV4Video.png"\] Alt text: Insert or edit video\) on the HTML editor toolbar.
+3.  Click the insert/edit video icon \(\[Omitted image "TinyMCEV4Video.png"\] Alt text: Insert or edit video\) on the HTML editor toolbar.
 
 4.  Enter information in each field.
 
@@ -74,7 +74,7 @@ Type
 Select the video type.-   **Video Library**: List of videos stored in the db\_video table. You can reuse it.
 -   **URL**: from an external source
 -   **Attachment**: available in the current record only
- For an attachment or video library file, select a video from the list or select **New**. For an external URL, enter the URL.
+ For an attachment or video library file, select a video from the list or click **New**. For an external URL, enter the URL.
 
 </td></tr><tr><td>
 
@@ -85,15 +85,6 @@ Size
 Enter the **Width** and **Height** of the video in pixels.
 
 </td></tr></tbody>
-</table>5.  Select **OK**.
+</table>5.  Click **OK**.
 
-
-## What to do next
-
-**Note:** You can also add and use an HTML video in portal content, see the following steps for how this works.
-
-1.  Upload a video to db\_video table.
-2.  Create Link content record of type Video with URL with syntax \(Videoname.extension, Example: Escx\_test.mp4\)
-3.  Create the portal video content, choose the newly produced video, and publish it to the desired widget.
-4.  Preview the content you created in the portal widget you published it to.
 

@@ -3,13 +3,12 @@ title: App Engine Management Center
 description: The App Engine Management Center \(AEMC\) provides an innovative experience for you to manage the full life cycle for custom app development. You can use AEMC to handle application intake, configure pipelines, oversee developer productivity, and view insights about custom applications across your development environments, all in one centralized location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/app-engine-management-center.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [App Engine Management Center, AEMC, Custom app governance, Governing app development, Deploy applications]
 breadcrumb: [Governing app development, Building applications]
 ---
 
@@ -23,15 +22,15 @@ The App Engine Management Center \(AEMC\) is a comprehensive tool designed for I
 
 <table id="table_ejv_bk3_sfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about AEMC concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/exploring-aemc.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about AEMC concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/exploring-aemc.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure AEMC, Application Intake, and Pipelines and Deployments.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/configuring-aemc.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure AEMC, Application Intake, and Pipelines and Deployments.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configuring-aemc.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-management-console.svg"\] Alt text:Use AEMC to manage app development and deployments.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/using-aemc.md)
+[Use\[Omitted image "bus-management-console.svg"\] Alt text:Use AEMC to manage app development and deployments.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/using-aemc.md)
 
 </td><td>
 

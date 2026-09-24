@@ -3,11 +3,11 @@ title: Identification rules
 description: The CMDB identification process relies on identification rules to uniquely identify CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_IdentificationRules.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -58,7 +58,7 @@ The steps for identifying dependent CIs can be different from the steps for iden
 
 -   **Dependent identification rule**
 
-    A rule in which identifying a CI requires identifying a dependent CI first. A CI can have dependency on one or more CIs, and a dependent CI can have only a single parent CI with dependency. The relationship types between the CI and its dependent CIs are also included in the identification process. To help with the identification process of dependent CIs, [create dependent relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-dependent-relationship.md) that define the dependency chain within CI types.
+    A rule in which identifying a CI requires identifying a dependent CI first. A CI can have dependency on one or more CIs, and a dependent CI can have only a single parent CI with dependency. The relationship types between the CI and its dependent CIs are also included in the identification process. To help with the identification process of dependent CIs, [create dependent relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-dependent-relationship.md) that define the dependency chain within CI types.
 
     The payload used for identification of a dependent CI, can include a relationship with a qualifier chain. For such relationship, if there is a matching parent/child pair, the system compares the qualifier chain in the payload, with the qualifier chain of the CIs in the database. If there is a difference, the qualifier chain in the database is updated to match the qualifier chain in the payload for that relationship.
 
@@ -91,7 +91,7 @@ There are three types of identifier entries:
 Follow these guidelines when specifying a lookup table in an identifier entry.
 
 1.  Ensure that lookup tables reference the cmdb\_ci table.
-2.  It is preferable to enforce exact count match \(check box **Enforce exact count match \(Lookup\)**\) for a stronger identification rule. During lookup identification, this option enforces matching only on exact lookup records count match. See [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md) for more details.
+2.  It is preferable to enforce exact count match \(check box **Enforce exact count match \(Lookup\)**\) for a stronger identification rule. During lookup identification, this option enforces matching only on exact lookup records count match. See [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md) for more details.
 3.  Do not create conflicting identification rules especially for lookup-based rule.
 
     Example: In a CI Identifier for the Hardware class, you specify a lookup-based rule for the Network Adapter class and you also define a CI Identifier for the Network Adapter class. Duplicates might potentially be created in the Network Adapter table, because there are contradicting rules to identify a unique CI in that table:
@@ -127,17 +127,17 @@ After you select a related table for the rule, the list in **Referenced field** 
 
 A related entry for a class is derived by child classes for which no related entries are specified.
 
--   **[Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md)**  
+-   **[Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md)**  
 Identification rules are used to uniquely identify CIs in the CMDB, as part of Identification and Reconciliation \(IRE\) processes. Each CMDB class can be associated with a single identification rule.
--   **[Create an identification inclusion rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-id-inclusion-rule.md)**  
+-   **[Create an identification inclusion rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/create-id-inclusion-rule.md)**  
 Narrow the scope of CIs that are included in the identification process by creating an identification inclusion rule.
--   **[General guidelines for using CMDB Identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/best-practices-id-reconcile.md)**  
+-   **[General guidelines for using CMDB Identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/best-practices-id-reconcile.md)**  
 Review the following general guidelines for using CMDB Identification effectively.
 
-**Parent Topic:**[Configuring CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-ire.md)
+**Parent Topic:**[Configuring CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-ire.md)
 
 **Related topics**  
 
 
-[Relation qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationQualifier.md)
+[Relation qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationQualifier.md)
 

@@ -3,9 +3,9 @@ title: Configure service definition catalog items for License and Permit Playboo
 description: Create a service definition for use with the License and Permit Playbook in Public Sector Digital Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-create-service-definition-catalog-item.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---

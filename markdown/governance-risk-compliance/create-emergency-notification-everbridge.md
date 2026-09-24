@@ -3,9 +3,9 @@ title: Create an emergency notification and monitor its workflow
 description: Use the Emergency notification tab in the event workspace to create a notification for a crisis event or an exercise event where the exercise method is Functional.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-emergency-notification-everbridge.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating Crisis Management with Everbridge, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, or sn\_bcm.admin
 
 Send an event notification from the workspace that triggers a complete workflow of activities from the **Draft** to **Complete** state in Everbridge. All the activities can be monitored from the workspace.
 
-When you send an emergency notification from the workspace, the action creates an incident. A notification for the incident is created in Everbridge and it is sent to the right contacts and groups.
+When you send an emergency notification from the workspace, the action creates an incident. A notification for the incident in Everbridge to be sent to the right contacts and groups.
 
 ## Procedure
 
@@ -212,8 +212,6 @@ Message sent through SMS.
         Number of contacts who confirmed the receipt of notification after the notification duration had elapsed.
 
     If there are many contacts to whom the notification could not be delivered, then create another notification for the same crisis event. This time, you can send to a team of managers, as the previous notification did not reach many contacts.
-
-    You can close an event in the workspace when a notification is in progress. If the status of the event moves to **Closed Complete** or **Closed Incomplete** in the workspace, then the incident is **Closed** in Everbridge also. However, you have to manually close the notification that is **In Progress** state.
 
     Before you submit an event for approval, all the notifications that are In Progress must be closed.
 

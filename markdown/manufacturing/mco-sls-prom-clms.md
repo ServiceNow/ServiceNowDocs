@@ -3,9 +3,9 @@ title: Sales promotion claims
 description: OEMs create sales promotions and target them to specific criteria or customers. The dealers or channel partners extend these promotions to end customers and submit reimbursement claims to the OEM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-sls-prom-clms.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
 ---
@@ -26,9 +26,9 @@ The sales promotion framework enables OEMs to publish and manage the promotional
 
 To learn more about configuring and using sales promotion, see:
 
--   [Sales promotion campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/sales-promotion-campaign-claims.md)
--   [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/install-manufacturing-commercial-operations-core.md)
--   [Implement a sales promotion setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sales-promotion-setup.md)
--   [Sales promotion for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sales-promotion-dealer.md)
--   [Sales promotion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sales-promotion.md)
+-   [Sales promotion campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/sales-promotion-campaign-claims.md)
+-   [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/install-manufacturing-commercial-operations-core.md)
+-   [Implement a sales promotion setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-sales-promotion-setup.md)
+-   [Sales promotion for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-sales-promotion-dealer.md)
+-   [Sales promotion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-sales-promotion.md)
 

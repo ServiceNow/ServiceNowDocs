@@ -3,11 +3,11 @@ title: Page properties analytics
 description: Page properties are metadata attributes that describe a page, such as the page name, owning team, language, or category. By enriching pages with properties, you can segment usage data by attributes that are meaningful to your organization instead of by page identifier alone.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/page-properties-analytics.html
-release: australia
+release: brazil
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [page properties]
 breadcrumb: [Viewing session analytics, Using Usage Insights, Usage Insights, Platform Analytics]
@@ -77,8 +77,8 @@ Each chart represents one property. The segments show the distinct values record
 
 Usage Insights captures a set of properties for each page by default, including the page identifier and selected system parameters. You can customise additional properties to retrieve more relevant data.
 
--   **[Using page properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-page-properties.md)**  
+-   **[Using page properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/using-page-properties.md)**  
 Filter a page detail page by one or more page properties to see how usage differs across page attributes such as owner, category, or load time.
 
-**Parent Topic:**[Viewing session analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/viewing-sessions.md)
+**Parent Topic:**[Viewing session analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/viewing-sessions.md)
 

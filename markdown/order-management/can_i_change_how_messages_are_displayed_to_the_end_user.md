@@ -3,7 +3,7 @@ title: Change how messages are displayed to the end user
 description: Control how messages appear in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/can\_i\_change\_how\_messages\_are\_displayed\_to\_the\_end\_user.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -24,7 +24,7 @@ However, you can override this behavior, such as to show an icon which can be ho
 
 \[Omitted image "cpq-messages-tooltip.png"\] Alt text: Field showing the tooltip message style
 
-In the layout editor, add `{“messageDisplayType”: “<type>”}` to the raw value in the field properties \(the gear icon\) of the element where you want to add the custom message display type.
+In the layout editor, add `{“messageDisplayType”: “<type>”}` in the field properties \(the gear icon\) of the element where you want to add the custom message display type. Add `{"messageDisplayType": "<type>"}` to the raw value.
 
 Accepted type values are `above`, `below`, `popup`, and `tooltip`. The following table provides more information.
 
@@ -66,7 +66,7 @@ Yes \(Default type\)
 
 </td><td rowspan="3">
 
-Messages are displayed in a summary container above or below the grid, or as a hover tooltip. You can include an optional indicator on the cell. For more information, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layouts-sets.md)
+Messages are displayed in a summary container above or below the grid, or as a hover tooltip. You can include an optional indicator on the cell. For more information, see [Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/layouts-sets.md)
 
 </td><td>
 

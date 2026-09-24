@@ -3,9 +3,9 @@ title: Configure advanced algorithms for Column Level Encryption Enterprise
 description: Create a cryptographic specification to define the algorithm for a cryptographic module. Customize the encryption specifications with advanced options that are available for Column Level Encryption Enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/adv-algorithm-cleent-2.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Column Level Encryption, Column Level Encryption, Encryption]
 ---
@@ -99,7 +99,7 @@ Option to provide Integrity in GCM operation and does not apply for Column Level
 </td></tr></tbody>
 </table>3.  Click **Submit**.
 
-    The following example shows AES CBC-256 encryption. When Column Level Encryption Enterprise is active and the parent module is column\_level\_encryption, only Symmetric Data Encryption/Decryption AES CBC-256 applies as the crypto purpose. See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/cryptographic-purpose.md) for details.
+    The following example shows AES CBC-256 encryption. When Column Level Encryption Enterprise is active and the parent module is column\_level\_encryption, only Symmetric Data Encryption/Decryption AES CBC-256 applies as the crypto purpose. See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/cryptographic-purpose.md) for details.
 
     \[Omitted image "algorithm-definition.png"\] Alt text: Shows the AES-CBC-256 encryption configuration options.
 
@@ -108,11 +108,11 @@ Option to provide Integrity in GCM operation and does not apply for Column Level
 
 Perform one of the following operations:
 
--   Select an entry in the Key Lifecycle table to define key lifecycle behavior. See [Configure key lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/configure-key-lifecycle-states.md) for details to complete the lifecycle definition for the key.
+-   Select an entry in the Key Lifecycle table to define key lifecycle behavior. See [Configure key lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/configure-key-lifecycle-states.md) for details to complete the lifecycle definition for the key.
 -   Select **Next** to create a cryptographic key. See one of the following tasks for key generation:
-    -   [Generate a ServiceNow cryptographic key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/generate_sn_key.md).
-    -   [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/customer-supplied-keys.md).
-    -   [Import the wrapping / unwrapping key pair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/import-key-webservice-1.md).
+    -   [Generate a ServiceNow cryptographic key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/generate_sn_key.md).
+    -   [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/customer-supplied-keys.md).
+    -   [Import the wrapping / unwrapping key pair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/import-key-webservice-1.md).
 
-**Parent Topic:**[Using Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-column-level-encryption-2.md)
+**Parent Topic:**[Using Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/using-column-level-encryption-2.md)
 

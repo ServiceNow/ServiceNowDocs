@@ -3,11 +3,11 @@ title: Identify and resolve log streaming issues
 description: Make sure that your ACC data inputs are streaming data properly by identifying and resolving log streaming issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/accl-verify-log-streaming.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ In the ACC data input record, the Streaming Sources related list shows the strea
 
 For example, if the last event time for a data input's endpoint server is yesterday, the server might be down or configured incorrectly. A streaming issue might also be caused by the data input configuration file not being installed on the endpoint.
 
-**Note:** You can view the streaming data of all data inputs and the MID Servers that receive logs from them in the Streaming Sources page. For more information, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md) in the ServiceNow Health Log Analytics application documentation.
+**Note:** You can view the streaming data of all data inputs and the MID Servers that receive logs from them in the Streaming Sources page. For more information, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md) in the ServiceNow Health Log Analytics application documentation.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ For example, if the last event time for a data input's endpoint server is yester
 
 3.  Review the streaming data of that data input's sources.
 
-    For a description of the filters, see [ACC data input streaming sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accl-streaming-sources-ref.md).
+    For a description of the filters, see [ACC data input streaming sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/accl-streaming-sources-ref.md).
 
 4.  Resolve any data streaming issues.
 
@@ -45,10 +45,10 @@ For example, if the last event time for a data input's endpoint server is yester
 
 ## What to do next
 
-Proceed to the next step in the Health Log Analytics data input setup flow. For more information, see [Set up additional ACC data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accl-data-input-setup.md).
+Proceed to the next step in the Health Log Analytics data input setup flow. For more information, see [Set up additional ACC data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/accl-data-input-setup.md).
 
--   **[ACC data input streaming sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accl-streaming-sources-ref.md)**  
+-   **[ACC data input streaming sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/accl-streaming-sources-ref.md)**  
 In the ACC data input record, the Streaming Sources related list shows the streaming data of that data input's sources.
 
-**Parent Topic:**[Agent Client Collector Log Analytics setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accl-setup.md)
+**Parent Topic:**[Agent Client Collector Log Analytics setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/accl-setup.md)
 

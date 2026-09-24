@@ -3,11 +3,11 @@ title: Add, edit, or delete lexical keywords in Health Log Analytics
 description: Manage the keywords that Health Log Analytics looks for in your log data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-lexical-keywords-admin.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Influence anomaly detection with lexical keywords, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ In log data, terms like "crash" or "failed" are called lexical keywords because 
 
 The application comes with many default global keywords. You can add, edit, and delete global keywords or phrases. These keywords apply to all source types.
 
-**Note:** To add a specified keyword that is associated with a specific source type, see [Configure source type capabilities in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-source-types.md).
+**Note:** To add a specified keyword that is associated with a specific source type, see [Configure source type capabilities in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-source-types.md).
 
 ## Procedure
 
@@ -123,5 +123,5 @@ Source types that are not associated with the keyword. Health Log Analytics does
 **Related topics**  
 
 
-[View the lexical keywords that generate alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-lexical-keywords-manage.md)
+[View the lexical keywords that generate alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-op-lexical-keywords-manage.md)
 

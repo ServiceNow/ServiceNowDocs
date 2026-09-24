@@ -1,22 +1,22 @@
 ---
-title: Enhanced change data model
+title: Enhanced Change data model
 description: The enhanced Change data model supports better categorization, change model linkage, and role-based access to change templates. This new data model does not impact the existing standard change catalog and no migration of existing standard changes is required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-data-model.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
-# Enhanced change data model
+# Enhanced Change data model
 
 The enhanced Change data model supports better categorization, change model linkage, and role-based access to change templates. This new data model does not impact the existing standard change catalog and no migration of existing standard changes is required.
 
-Standard changes are preapproved changes available through the standard change catalog. The catalog properties define the change category and default and required change request values. The existing data model controls the properties of the standard change catalog and the standard change template.
+Standard changes are preapproved changes available through the standard change catalog. The catalog properties define the change category and default and required change request values. The data model controls the properties of the standard change catalog and the standard change template. The data model is coupled with standard change and the properties are defined at the outset.
 
 The enhanced data model adds more customization and precision to the change creation process. It supports a separate template taxonomy, which enables Change managers to organize templates for different types of change models other than standard change catalog categories.
 
@@ -41,12 +41,12 @@ Besides the Change manager, any user who is granted access to create and modify 
 
 To use features included in the new change templates, create a template using the change template feature and select the standard change model. Alternatively, you can continue to create standard change templates using the older data model by using the Propose standard change functionality.
 
-**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md)
+**Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-change-management.md)
 
 **Related topics**  
 
 
-[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md)
+[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-change-model.md)
 
-[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md)
+[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md)
 

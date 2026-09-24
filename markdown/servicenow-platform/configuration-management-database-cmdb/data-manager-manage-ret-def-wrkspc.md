@@ -1,13 +1,13 @@
 ---
 title: Manage retirement definitions for CMDB Data Manager
-description: Use CMDB Workspace to create, delete, edit, or activate retirement definitions in your organization, for a class. Tables that are targeted in CMDB Data Manager life-cycle policies, must be associated with an active retirement definition. Target CIs in Retire policies, are set to match their associated class retirement definitions.Delete a retirement definition that is no longer needed by CMDB Data Manager, in CMDB Workspace.
+description: Use CMDB Workspace to create, delete, edit, or activate retirement definitions in your organization, for a class. Tables that are targeted in CMDB Data Manager life-cycle policies, must be associated with an active retirement definition. Target CIs in Retire policies, are set to match their associated class retirement definitions.Delete a retirement definition that is no longer needed by CMDB Data Manager, in CMDB Workspace or in Service Graph Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,8 +26,8 @@ Some retirement definitions in the base system are inactive and you must activat
 
 When a CMDB Data manager retires a CI, ensure that any of its dependent CIs are also retired and don't remain as orphan CIs, by enabling management of dependent CIs. Orphan CIs can impact the consistency, accuracy, and integrity of the CMDB.
 
--   For information about enabling and managing dependent CIs, especially in the context of cascade-retire, cascade-archive, and cascade-delete, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
--   For details and definitions of independent and dependent CIs, see [CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md).
+-   For information about enabling and managing dependent CIs, especially in the context of cascade-retire, cascade-archive, and cascade-delete, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
+-   For details and definitions of independent and dependent CIs, see [CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md).
 
 **Note:**
 
@@ -37,7 +37,7 @@ When a CMDB Data manager retires a CI, ensure that any of its dependent CIs are 
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager**.
 
 2.  In the Get started area on the Data Manager overview page, select **Manage retirement definitions**.
 
@@ -89,7 +89,7 @@ Condition that reflects on what retirement means in the organization.Target CIs 
 </table>
 ## Delete a CMDB Data Manager retirement definition
 
-Delete a retirement definition that is no longer needed by CMDB Data Manager, in CMDB Workspace.
+Delete a retirement definition that is no longer needed by CMDB Data Manager, in CMDB Workspaceor in Service Graph Workspace.
 
 ### Before you begin
 
@@ -104,8 +104,10 @@ Role required: sn\_cmdb\_admin, data\_manager\_admin
 
 ### Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
+1.  Open either workspace:
 
+    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel, select the Governance icon. Then, in the Governance navigation pane, select **Data Manager overview**.
 2.  In the Get started area on the Data Manager overview page, select **Manage retirement definitions**.
 
 3.  On the Data Manager settings page, in the Retirement definitions tile select the retirement definition that you want to delete.

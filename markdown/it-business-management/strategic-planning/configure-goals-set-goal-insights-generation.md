@@ -3,11 +3,11 @@ title: Configure the goals set for goal insights generation
 description: Configure the filter criteria for the Goal insights generation scheduled job to define the set of goals for which insights are automatically generated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/configure-goals-set-goal-insights-generation.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [goal insights, scheduled job, filter criteria, goals, Strategy and Goals, Now Assist for SPM]
 breadcrumb: [Goal insights generation job, Configure, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]

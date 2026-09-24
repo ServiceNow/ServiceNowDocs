@@ -3,9 +3,9 @@ title: Configure the E.164 format for a consumer phone number
 description: Ensure that all the necessary information for a phone number is included and properly formatted to successfully route an international call over a territory's public telephone network. Provide the E.164-compliant formatting and validation for phone number.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-e614-consumer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up ServiceNow Voice, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,5 +44,5 @@ The E.164 format that does not contain any dashes or spaces and must include the
 
 After this configuration, when entering the consumer phone number in the phone field, select the territory and enter the corresponding phone number. The same format is reflected in Agent Workspace.
 
-**Parent Topic:**[Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-setup.md)
+**Parent Topic:**[Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ccc-setup.md)
 

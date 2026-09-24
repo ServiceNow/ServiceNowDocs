@@ -3,9 +3,9 @@ title: Using the Grants Management Portal in Public Sector Digital Services
 description: As an applicant, you can use the Grants Management Portal to search and view available grant programs. You can apply to grant opportunities and track the progress and status of your application and accept or decline awards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-using-grants-mgmt-portal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---

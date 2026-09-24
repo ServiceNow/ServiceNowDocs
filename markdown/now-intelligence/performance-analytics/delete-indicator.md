@@ -3,11 +3,11 @@ title: Delete an indicator
 description: Delete unwanted or unused indicators from your instance. Deleting indicators is risky, so there are several restrictions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/delete-indicator.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -20,7 +20,7 @@ Delete unwanted or unused indicators from your instance. Deleting indicators is 
 
 Besides roles, check that you meet the following requirements before trying to delete an indicator:
 
--   Your instance has an active entitlement to the subscription version of Performance Analytics. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+-   Your instance has an active entitlement to the subscription version of Performance Analytics. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 -   If your instance is domain-separated, you have visibility into the same domain as the indicator.
 -   The indicator that you want to delete is not being used in a formula indicator. If it is so used, see whether you can delete those formula indicators first.
 -   The indicator is not a benchmark indicator.

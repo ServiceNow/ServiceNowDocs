@@ -3,11 +3,11 @@ title: Analytics Hub for a specific indicator
 description: Use the Analytics Hub to analyze indicator data deeply, such as by aggregating data, comparing scores, or viewing changes over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/view-scorecard.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Analytics Hub, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -25,7 +25,7 @@ To access the Analytics Hub for an indicator, select any of these methods:
     **Note:**
 
     -   From a Platform Analytics dashboard, selecting a value in indicator data accesses KPI Details instead of the Analytics Hub. This is default behavior; a data visualization can be configured with different drilldown behavior.
-    -   When the indicator scores in a breakdown dashboard are aggregated on multiple elements, the Analytics Hub is aggregated on the same elements. For more information, see [Viewing aggregate scores for multiple elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/scorecard-overview-tab.md).
+    -   When the indicator scores in a breakdown dashboard are aggregated on multiple elements, the Analytics Hub is aggregated on the same elements. For more information, see [Viewing aggregate scores for multiple elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/scorecard-overview-tab.md).
     -   Time series aggregations are validated on the Analytics Hub and in KPI Details but not in widgets. Therefore, you might navigate from a working widget to the Analytics Hub and get a warning that the indicator has an invalid aggregation.
 
 ## Limitation
@@ -36,8 +36,8 @@ The Analytics Hub is not optimized for mobile screen sizes. You can access the A
 
 All tabs in the Analytics Hub have a toolbar at the top with the following actions:
 
--   [Targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md)
--   [Thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-threshold.md)
+-   [Targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-targets.md)
+-   [Thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-threshold.md)
 -   Add a comment
 -   Information
 -   Create Improvement Initiative \(Requires the Continual Improvement Management application\)
@@ -68,28 +68,28 @@ The options in this menu depend on the type of indicator and whether it has scor
 
 |Option|Where present|
 |------|-------------|
-|[Edit indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)|All indicators|
-|[Edit scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ManuallyAddingScoresForIndicators.md)|Automated indicators with scores|
+|[Edit indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)|All indicators|
+|[Edit scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_ManuallyAddingScoresForIndicators.md)|Automated indicators with scores|
 |Add to/Remove from favorites|All indicators|
 |Export to PDF|All indicators with scores|
 |Export scores to CSV|All indicators with scores|
 |Save chart as PNG/JPEG|All indicators with scores|
-|[Launch dependency assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/impact-analysis.md)|All indicators|
+|[Launch dependency assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/impact-analysis.md)|All indicators|
 
 Click the context menu a second time to close it without making a choice.
 
 ## Different tabs on the Analytics Hub
 
-The Analytics Hub for a specific indicator has the Overview and Compare tabs, which are described in [View scores and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/scorecard-overview-tab.md) and [Compare scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/scorecard-compare-tab.md), respectively.
+The Analytics Hub for a specific indicator has the Overview and Compare tabs, which are described in [View scores and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/scorecard-overview-tab.md) and [Compare scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/scorecard-compare-tab.md), respectively.
 
 **Related topics**  
 
 
-[Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md)
+[Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_Indicators.md)
 
-[Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md)
+[Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md)
 
-[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/impact-analysis.md)
+[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/impact-analysis.md)
 
-[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-landing-page.md)
+[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cim-landing-page.md)
 

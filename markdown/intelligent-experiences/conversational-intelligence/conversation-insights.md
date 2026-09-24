@@ -3,14 +3,14 @@ title: Conversation Insights
 description: The ServiceNow Conversation Insights application is designed to deliver Inferred customer satisfaction \(CSAT\) scores, with underlying factors that can help improve CSAT actionability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/conversational-intelligence/conversation-insights.html
-release: australia
+release: brazil
 product: Conversational Intelligence
 classification: conversational-intelligence
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [inferred CSAT, CSAT factors, CSAT score, conversation insights]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Analyzing AI effectiveness, Enable AI Experiences]
 ---
 
 # Conversation Insights
@@ -23,15 +23,15 @@ Get started with Conversation Insights to integrate Inferred CSAT scores and fac
 
 <table id="table_u4v_4y5_xfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conversational-intelligence/exploring-conversation-insights.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/conversational-intelligence/exploring-conversation-insights.md)
 
 </td><td>
 
-[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conversational-intelligence/install-conversation-insights.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Install Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/conversational-intelligence/install-conversation-insights.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Additional information about Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/conversational-intelligence/conversation-insights-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Additional information about Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/conversational-intelligence/conversation-insights-reference.md)
 
 </td></tr></tbody>
 </table>## AI limitations
@@ -44,5 +44,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

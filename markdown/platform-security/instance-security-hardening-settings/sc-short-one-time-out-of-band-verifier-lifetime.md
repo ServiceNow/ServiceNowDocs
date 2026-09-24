@@ -3,11 +3,11 @@ title: Minimize one-time out of band verifier lifetime duration \[Updated in Sec
 description: Manage the time duration for out-of-band verifiers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-short-one-time-out-of-band-verifier-lifetime.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Authentication, Hardening settings, Platform Security]
 
 Manage the time duration for out-of-band verifiers.
 
-An out-of-band verifier is an alternative delivery method for one-time code situations. For example, resetting a multi-factor token. If this method is enabled by administrators in the [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-landing.md) plugin, a one-time code is delivered by email. Set one-time out-of-band verifiers to expire after 10 minutes to limit the validity window. A larger time window allows more time for the code to be compromised through illicit means such as phishing, social engineering, or shoulder-surfing attacks.
+An out-of-band verifier is an alternative delivery method for one-time code situations. For example, resetting a multi-factor token. If this method is enabled by administrators in the [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-landing.md) plugin, a one-time code is delivered by email. Set one-time out-of-band verifiers to expire after 10 minutes to limit the validity window. A larger time window allows more time for the code to be compromised through illicit means such as phishing, social engineering, or shoulder-surfing attacks.
 
 ## More information
 
@@ -74,7 +74,7 @@ Category
 
 </td><td>
 
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Dependencies and prerequisites
 
 </td><td>
 
-[Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-landing.md)
+[Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-landing.md)
 
 </td></tr><tr><td>
 
@@ -100,8 +100,8 @@ References
 
 </td><td>
 
-[Multi-factor Authentication criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/multi-factor-authentication-criteria.md)
+[Multi-factor Authentication criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/multi-factor-authentication-criteria.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

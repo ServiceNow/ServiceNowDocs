@@ -3,11 +3,11 @@ title: Create a SCIM ETL definition
 description: Use the SCIM ETL definitions to map the custom attributes with the sys\_user or sys\_user\_group tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/create-scim-etl-definitions.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [SCIM customization, SCIM Provider, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -29,7 +29,7 @@ Role required: scim\_config\_admin
 
 ## Procedure
 
-1.  Follow the instructions in [Create Extract Transform Load \(ETL\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-etl-definitions.md).
+1.  Follow the instructions in Create Extract Transform Load \(ETL\) definitions.
 
 2.  Open the newly created record and view the details.
 
@@ -213,5 +213,5 @@ These ETL definitions and mappings enable you to extract data from a source tabl
 **Related topics**  
 
 
-[Create Extract Transform Load \(ETL\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-etl-definitions.md)
+[bundle-crint.create-etl-definitions]
 

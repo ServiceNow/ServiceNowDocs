@@ -3,11 +3,11 @@ title: Create a signed PDF summary for a work order
 description: Request that customers digitally sign and confirm a closed work order. A PDF summary of the signed work order is then created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-wo-pdf-summary.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -48,5 +48,5 @@ The signed PDF summary is generated and attached to the Work Order form.
 **Related topics**  
 
 
-[Signed PDF summaries for closed work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-order-sign-and-confirm-pdf.md)
+[Signed PDF summaries for closed work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/work-order-sign-and-confirm-pdf.md)
 

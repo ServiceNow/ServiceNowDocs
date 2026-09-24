@@ -3,11 +3,11 @@ title: Change the layout of a page created in Quebec or Rome
 description: Add and modify your layout design to change the way your page looks. Choose how components are displayed on a page through Cascading Style Sheets \(CSS\) web layout technologies, such as Flexbox and CSS Grid.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/change-layout.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Organize components in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -30,23 +30,23 @@ Layouts control what containers and components are available on a page, and wher
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) or open a page.
+3.  [Create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md) or open a page.
 
 4.  Select the **Layout** tab.
 
 5.  Depending on the type of page, do one of the following to select a container to update.
 
-<table id="choicetable_cc5_jsb_dqb"><thead><tr><th align="left" id="d255280e139">
+<table id="choicetable_cc5_jsb_dqb"><thead><tr><th align="left" id="d247974e139">
 
 Type of page
 
-</th><th align="left" id="d255280e142">
+</th><th align="left" id="d247974e142">
 
 Instruction
 
-</th></tr></thead><tbody><tr><td id="d255280e148">
+</th></tr></thead><tbody><tr><td id="d247974e148">
 
 **Existing page**
 
@@ -54,7 +54,7 @@ Instruction
 
 Select the container on your page for which you want to change the layout.**Note:** Alternately, you can select the container in the content tree to the left of the main page area. When the page structure is in the structured tree, you can more easily find the container you want to change. If you have many components and containers in the content tree, use the search bar to find a specific container.
 
-</td></tr><tr><td id="d255280e160">
+</td></tr><tr><td id="d247974e160">
 
 **New page**
 
@@ -93,19 +93,19 @@ In the content tree to the left of the main page area, select the **Body** of yo
 
 7.  Add components to slots.
 
-    You build your page with containers components. See [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md) for more information.
+    You build your page with containers components. See [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md) for more information.
 
     You can add components by using any of the following ways.
 
-<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d255280e310">
+<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d247974e310">
 
 To add a component
 
-</th><th align="left" id="d255280e313">
+</th><th align="left" id="d247974e313">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d255280e319">
+</th></tr></thead><tbody><tr><td id="d247974e319">
 
 **Directly from your page \(option 1\)**
 
@@ -113,7 +113,7 @@ Do the following
 
 Select the add content \(plus\) icon, select the **Components** tab, and then select a component.
 
-</td></tr><tr><td id="d255280e336">
+</td></tr><tr><td id="d247974e336">
 
 **Directly from your page \(option 2\)**
 
@@ -121,7 +121,7 @@ Select the add content \(plus\) icon, select the **Components** tab, and then se
 
 On a column layout or component, select the add before \(plus\) or add after \(plus\) icon, and then select a component.
 
-</td></tr><tr><td id="d255280e348">
+</td></tr><tr><td id="d247974e348">
 
 **From the content tree**
 
@@ -131,7 +131,7 @@ In the content tree, select **+ Add content** and then select a component.
 
  \[Omitted image "component-add-from-content-tree.png"\] Alt text: Black arrow pointing to + add content option in content tree next to the toolbox window with Components tab selected.
 
-</td></tr><tr><td id="d255280e370">
+</td></tr><tr><td id="d247974e370">
 
 **From the floating menu above the page**
 
@@ -142,15 +142,15 @@ On a column layout or component, select the Menu icon, select **Add before** or 
 </td></tr></tbody>
 </table>8.  Modify the layout styling options in any of the following ways.
 
-<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d255280e397">
+<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d247974e397">
 
 Option
 
-</th><th align="left" id="d255280e400">
+</th><th align="left" id="d247974e400">
 
 Instruction
 
-</th></tr></thead><tbody><tr><td id="d255280e406">
+</th></tr></thead><tbody><tr><td id="d247974e406">
 
 **Change the layout styling**
 
@@ -164,10 +164,10 @@ You can click the container in the content tree, or you can click the container 
 
 \[Omitted image "UIB-layout-change.png"\] Alt text: Location of change layout icon on the floating menu.
 
-3.  Choose to display your content as either Flex or Grid. For more information about flex or grid options, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/flexbox-uib.md) or [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/css-grid-uib.md).
+3.  Choose to display your content as either Flex or Grid. For more information about flex or grid options, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/flexbox-uib.md) or [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/css-grid-uib.md).
 
 
-</td></tr><tr><td id="d255280e460">
+</td></tr><tr><td id="d247974e460">
 
 **Choose Flex**
 
@@ -198,7 +198,7 @@ You can click the container in the content tree, or you can click the container 
     -   Padding: Set the padding for each side of your flexbox items.
 \[Omitted image "UIB-flexbox-styling.png"\] Alt text: Flex style options.
 
-</td></tr><tr><td id="d255280e592">
+</td></tr><tr><td id="d247974e592">
 
 **Select Grid**
 
@@ -217,5 +217,5 @@ You can click the container in the content tree, or you can click the container 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md)
+**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-layouts.md)
 

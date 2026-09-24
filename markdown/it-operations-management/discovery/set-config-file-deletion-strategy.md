@@ -3,11 +3,11 @@ title: Set the deletion strategy for tracked configuration files
 description: You can specify what you want to do with tracked configuration file CI records when pattern discovery can no longer find them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/set-config-file-deletion-strategy.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,13 +18,13 @@ You can specify what you want to do with tracked configuration file CI records w
 
 ## Before you begin
 
-A pattern that specifies [tracked configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/track-configuration-files.md).
+A pattern that specifies [tracked configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/track-configuration-files.md).
 
 Role required: discovery\_admin, service\_mapping\_admin, or admin. Starting from Visibility Content version 6.30.0, pd\_admin and pd\_mid are also supported.
 
 ## About this task
 
-You can set a deletion strategy for all discovered CIs, not just configuration file CIs. However the way you access the deletion strategy for standard CIs differs from configuration file CIs. See [Set a deletion strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-deletion-strategy.md) for instructions.
+You can set a deletion strategy for all discovered CIs, not just configuration file CIs. However the way you access the deletion strategy for standard CIs differs from configuration file CIs. See [Set a deletion strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/set-deletion-strategy.md) for instructions.
 
 ## Procedure
 
@@ -93,7 +93,7 @@ Marks the **Status** \[install\_status\] field of the configuration file CI reco
 **Related topics**  
 
 
-[CI deletion strategies for pattern discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/deletion-strategy.md)
+[CI deletion strategies for pattern discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/deletion-strategy.md)
 
-[Set a deletion strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-deletion-strategy.md)
+[Set a deletion strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/set-deletion-strategy.md)
 

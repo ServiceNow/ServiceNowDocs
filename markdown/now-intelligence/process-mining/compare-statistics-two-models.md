@@ -3,11 +3,11 @@ title: Compare statistics and transitions between two projects
 description: Compare records, routes, average case duration, and transitions of two side-by-side projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/compare-statistics-two-models.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Comparing projects, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -41,5 +41,5 @@ Role required: none
 
 When you're finished reviewing from the comparison view, select the Stop comparison view icon \(\[Omitted image "stop-comparison-mode.png"\] Alt text: Stop comparison view\) of the project you want to stop viewing. The remaining project shows as the main view with any filters you've applied.
 
-**Parent Topic:**[Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/comparing-models.md)
+**Parent Topic:**[Comparing projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/comparing-models.md)
 

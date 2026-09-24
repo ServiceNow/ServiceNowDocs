@@ -3,10 +3,10 @@ title: Global domain configurations
 description: Administrators in the global domain can select configuration settings that determine how Field Service Management handles daily operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/t\_ConfigureFieldService.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Plan implementation, Configure, Field Service Management]
 ---
 
@@ -410,24 +410,7 @@ Enable this option to consider agent's schedules, skills, teams, and coaching to
 
 </td><td>
 
-[Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
-
-</td></tr><tr><td>
-
-Enable/disable association of territory resources with demand channels
-
-</td><td>
-
-Enable this option to consider the technician-demand channel association during manual and automatic work order task assignment.
-
-</td><td>
-
--   [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md)
--   Enable **Enable Shift Scheduling for FSM to determine availability** configuration.
--   [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md)
--   [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
--   [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md)
-
+[Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 </td></tr><tr><td>
 

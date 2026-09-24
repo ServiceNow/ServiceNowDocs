@@ -3,11 +3,11 @@ title: View transfer order lines for requested parts
 description: View all transfer order lines for the parts that are requested by you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/source-part-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -33,15 +33,15 @@ Transfer orders move necessary parts between stockrooms or to a location where a
 
 2.  View the transfer orders.
 
-<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d120870e89">
+<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d124170e89">
 
 To
 
-</th><th align="left" id="d120870e92">
+</th><th align="left" id="d124170e92">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d120870e98">
+</th></tr></thead><tbody><tr><td id="d124170e98">
 
 **View transfer order lines for a part requirement**
 
@@ -54,7 +54,7 @@ Do this
 5.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d120870e143">
+</td></tr><tr><td id="d124170e143">
 
 **View transfer order lines related to a work order task**
 
@@ -68,7 +68,7 @@ Do this
 6.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d120870e198">
+</td></tr><tr><td id="d124170e198">
 
 **View transfer order lines for a part request**
 
@@ -84,5 +84,5 @@ Do this
 </table>
 ## What to do next
 
-You can pickup parts from your peer agents for the part request. For more information, see [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/picking-up-parts.md) and [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/picking-up-parts.md).
+You can pickup parts from your peer agents for the part request. For more information, see [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/picking-up-parts.md) and [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/picking-up-parts.md).
 

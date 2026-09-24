@@ -3,9 +3,9 @@ title: Care Team Operations for Healthcare IT case table
 description: The Care Team Operations for Healthcare IT Case \[sn\_cto\_hcit\_case\] enables streamlined support for operational healthcare IT use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-it-data-model-tables.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model, Reference, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---

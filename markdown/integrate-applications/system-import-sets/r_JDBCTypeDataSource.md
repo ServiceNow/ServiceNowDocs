@@ -3,11 +3,11 @@ title: JDBC type data source
 description: A JDBC data source retrieves its data via a JDBC driver, usually type 4 network.Extend the available JDBC driver options by creating a new choice list entry to specify the JDBC driver Java package name.Extend the available JDBC driver options by activating the Sybase or DB2 choices.You can install a new JDBC driver JAR file to a MID server to access database formats that are not supported by default.Add a JDBC data source by defining a data source record.Create an import connection alias for the JDBC type data source records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_JDBCTypeDataSource.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -189,7 +189,7 @@ Add a JDBC data source by defining a data source record.
 ### Before you begin
 
 -   Role required: import\_admin
--   This procedure covers how to create a JDBC data source for an unsupported database format. For general information on creating a JDBC data source, including a detailed description of form fields, see [Create a JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-jdbc-type-data-source.md).
+-   This procedure covers how to create a JDBC data source for an unsupported database format. For general information on creating a JDBC data source, including a detailed description of form fields, see [Create a JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/create-jdbc-type-data-source.md).
 
 ### Procedure
 
@@ -201,7 +201,7 @@ Add a JDBC data source by defining a data source record.
 
     \[Omitted image "JDBCDataSource.png"\] Alt text: JDBC Data Source
 
-4.  [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) and add the **Connection URL** field.
+4.  [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) and add the **Connection URL** field.
 
 5.  Provide the connection URL to the JDBC data source, and then click **Submit**.
 
@@ -302,7 +302,7 @@ Use integrated authentication
 
 </td><td>
 
-Selected to enable the JDBC connection to use the ID of the user configured for the Windows MID Server service for SQL Server authentication. For additional details, see [JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).
+Selected to enable the JDBC connection to use the ID of the user configured for the Windows MID Server service for SQL Server authentication. For additional details, see [JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).
 
 </td></tr><tr><td>
 

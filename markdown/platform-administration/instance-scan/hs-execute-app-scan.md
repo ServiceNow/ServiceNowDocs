@@ -3,11 +3,11 @@ title: Execute an app scan
 description: Scan the installed files of an application as well as the application record itself with applicable checks by executing an application scan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-execute-app-scan.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Execute a point scan, Executing a scan, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -39,5 +39,5 @@ For example, if the application installs a business rule, checks that are releva
 4.  Select **Scan Application** to run app scan.
 
 
-**Parent Topic:**[Execute a point scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-point-scan.md)
+**Parent Topic:**[Execute a point scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-execute-point-scan.md)
 

@@ -3,11 +3,11 @@ title: Add a workspace
 description: Create a workspace using Workspace Builder in ServiceNow Studio or App Engine Studio \(AES\). Workspaces provide agents, case managers, help desk professionals, and managers with tools to help answer customer questions and resolve customer problems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/workspace-builder-add-workspace.html
-release: australia
+release: brazil
 product: Workspace Builder
 classification: workspace-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Building applications]
 ---
@@ -21,7 +21,7 @@ Create a workspace using Workspace Builder in ServiceNow Studio or App Engine St
 Role required:
 
 -   admin or Guided Application Creator for ServiceNow Studio.
--   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -88,7 +88,7 @@ Roles
 
 User roles to limit who can access the workspace. -   You must specify at least one role to grant access to the workspace.
 -   To use a custom role for your workspace, you must create one in **Security** first.
- For more information, see [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md).
+ For more information, see [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-security.md).
 
 </td></tr></tbody>
 </table>3.  Select **Continue** to define data for your workspace.
@@ -122,13 +122,13 @@ User roles to limit who can access the workspace. -   You must specify at least 
 
     2.  If the workspace is missing an Access Control List \(ACL\), enter the roles that should have access in the Add user roles to continue modal and select the **Add roles** button.
 
-        For more information, see [Configure workspace settings in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/configure-workspace-settings.md) and [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
+        For more information, see [Configure workspace settings in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder/configure-workspace-settings.md) and [Access Control Lists \(ACLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control-rules.md).
 
     3.  Adjust the home page elements and widgets by resizing, reorganizing, or reconfiguring them.
 
-        Editing your workspace home page works similarly to editing a dashboard on your workspace. For more information, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
+        Editing your workspace home page works similarly to editing a dashboard on your workspace. For more information, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md).
 
-        **Note:** If the workspace was created before Tokyo, you must edit it in UI Builder. See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) for more information.
+        **Note:** If the workspace was created before Tokyo, you must edit it in UI Builder. See [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-overview.md) for more information.
 
         If you created the workspace that contains a technical dashboard, Workspace Builder prompts you to **Open in UI Builder** when you try to edit the workspace.
 
@@ -136,7 +136,7 @@ User roles to limit who can access the workspace. -   You must specify at least 
 
     5.  Select **Exit Editing Mode** to stop editing in the In-line editor.
 
-8.  Edit the workspace in Workspace Builder. For more information, see [Edit a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/configure-workspace-builder.md).
+8.  Edit the workspace in Workspace Builder. For more information, see [Edit a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder/configure-workspace-builder.md).
 
     You can also add more record pages to the workspace, if needed.
 
@@ -145,5 +145,5 @@ User roles to limit who can access the workspace. -   You must specify at least 
 
 ## What to do next
 
-For more information on using Workspace Builder to customize your workspace, see [Using Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/using-workspace-builder.md).
+For more information on using Workspace Builder to customize your workspace, see [Using Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder/using-workspace-builder.md).
 

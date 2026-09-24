@@ -3,11 +3,11 @@ title: Resolve pattern-related mapping errors
 description: You can troubleshoot mapping errors caused by patterns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_TBSMapProcess.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Fix errors in individual application service maps, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -83,7 +83,7 @@ You can identify problematic steps in your pattern and fix them without reviewin
 16. Verify that the CI is discovered and mapped correctly.
 
 
-**Parent Topic:**[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
+**Parent Topic:**[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
 
 **Related topics**  
 

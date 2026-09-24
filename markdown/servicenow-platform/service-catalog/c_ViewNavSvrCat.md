@@ -3,11 +3,11 @@ title: Service Catalog home page
 description: The home page for a service catalog lists the goods and services available to order from that catalog.If your organization has multiple service catalogs, you can search for the required catalogs using the Search field. The search results list items in active categories along with their short description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ViewNavSvrCat.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Catalog for managers and end users, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Click a category name to see a list of all subcategories and items in the catego
 
 \[Omitted image "ServiceCatalogCategoriesItems.png"\] Alt text: Hardware category items
 
-**Parent Topic:**[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
+**Parent Topic:**[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
 
 ## Searching a service catalog
 
@@ -57,5 +57,5 @@ If a search returns multiple results, obtain details about a specific catalog it
 **Related topics**  
 
 
-[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
+[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
 

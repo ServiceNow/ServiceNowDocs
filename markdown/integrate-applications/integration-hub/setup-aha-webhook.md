@@ -3,7 +3,7 @@ title: Set up a bi-directional webhook for the Aha! spoke
 description: Configure a webhook to subscribe to events in the Aha! account with a ServiceNow callback URL.Create a token that will be embedded in the callback URL to Aha!.Register an Aha! webhook in to notify the app when certain events occur in Aha!.Register the webhook callback URL to the Aha! account.Create a webhook routing policy and subflow as per your requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-aha-webhook.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -67,7 +67,7 @@ Role required: admin
     |-----|-----------|
     |Name|Option to uniquely identify the record.|
     |Path|Option to provide the webhook path. Enter `api/sn_aha_spoke/aha_webhook`.|
-    |Token|Option to specify the token you had created. See [Create a Token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-aha-webhook.md).|
+    |Token|Option to specify the token you had created. See [Create a Token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-aha-webhook.md).|
 
 4.  Right-click the form header and click **Save**.
 
@@ -116,7 +116,7 @@ Role required: admin
 
 ### About this task
 
-The default routing policy in the Aha Webhook Decision Policy module triggers the Process Aha webhooks subflow and notifies the ServiceNow app when certain events occur in Aha!. See [Aha! Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/aha-spoke.md) for information about the fields that the default routing policy and subflows support. To use any other fields in your custom subflow and customize conditions in the routing policy, perform these steps.
+The default routing policy in the Aha Webhook Decision Policy module triggers the Process Aha webhooks subflow and notifies the ServiceNow app when certain events occur in Aha!. See [Aha! Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/aha-spoke.md) for information about the fields that the default routing policy and subflows support. To use any other fields in your custom subflow and customize conditions in the routing policy, perform these steps.
 
 ### Procedure
 

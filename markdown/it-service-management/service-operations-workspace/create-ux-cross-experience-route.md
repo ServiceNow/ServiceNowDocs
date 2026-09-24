@@ -3,11 +3,11 @@ title: Create a UX cross-experience route
 description: Create a UX cross-experience route to share a record page from one workspace so it opens automatically when the same record type is viewed in another workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-ux-cross-experience-route.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [UX cross-experience route, sys\_ux\_interoperable\_route]
 breadcrumb: [Sharing record pages from Service Operations Workspace across workspaces, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
@@ -46,5 +46,5 @@ Role required: admin.
 
 This configuration is also visible in UI Builder.
 
-**Parent Topic:**[Sharing record pages from Service Operations Workspace across workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-share-record-pages-other-workspaces.md)
+**Parent Topic:**[Sharing record pages from Service Operations Workspace across workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-share-record-pages-other-workspaces.md)
 

@@ -3,11 +3,11 @@ title: Create a data source similar to Telecom core data source
 description: Set up a schema-compliant data source in the connector's application scope to simulate telecom data. Test the Telecom Discovery Builder framework ETL before integrating with live device data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/create-a-data-source-similar-to-tsom-core-data-source.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Telecom Discovery Builder, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -56,7 +56,7 @@ The following screenshot can help you understand to fill the field values while 
 
 5.  On the form, fill in the fields
 
-    For more information, see [Create a Custom \(Load by Script\) type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-custom-type-data-source.md).
+    For more information, see [Create a Custom \(Load by Script\) type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-custom-type-data-source.md).
 
 6.  In the **Type** field, select **Custom \(Load by Script\)**.
 
@@ -87,7 +87,7 @@ After the data source is created and tested:
 **Related topics**  
 
 
-[Standardized JSON data set for service graph connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/overview-of-standardized-json-common-data-set.md)
+[Standardized JSON data set for service graph connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/overview-of-standardized-json-common-data-set.md)
 
-[Duplicate the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/duplicate-the-generic-etl-to-use-a-specific-connector.md)
+[Duplicate the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/duplicate-the-generic-etl-to-use-a-specific-connector.md)
 

@@ -3,9 +3,9 @@ title: Create a state flow
 description: Creating State Flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateAStateFlow.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use state flows, State flows, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -80,7 +80,7 @@ Event
 
 </td><td>
 
-Name of an existing event to trigger when this transition occurs. See [evernts triggered on state changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md) for more information.
+Name of an existing event to trigger when this transition occurs. See [evernts triggered on state changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_StateFlows.md) for more information.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Dictionary override
 
 </td><td>
 
-Sets the starting value for the State field on all new records for the table named in the state flow record. See [dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md) for configuration procedures.
+Sets the starting value for the State field on all new records for the table named in the state flow record. See [dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_StateFlows.md) for configuration procedures.
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Work notes
 
 </td><td>
 
-Noteworthy comments about this state flow transition. For details about how these notes are used, see [Work Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_WorkNotes.md).
+Noteworthy comments about this state flow transition. For details about how these notes are used, see [Work Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_WorkNotes.md).
 
 </td></tr><tr><td>
 
@@ -215,7 +215,7 @@ Name of the business rule created for this transition. Two conditions must be sa
 
 </td></tr><tr><td colspan="2">
 
-Field Controls \(Determines [field properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md) when a record transitions between states or reaches a specific end state.\)
+Field Controls \(Determines [field properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_StateFlows.md) when a record transitions between states or reaches a specific end state.\)
 
 </td></tr><tr><td>
 
@@ -269,16 +269,16 @@ Hides the selected fields when this transition occurs, or when the end state is 
 </table>3.  Determine if you want the state transition method to be manual or automatic and open the appropriate section on the form.
 
     -   Manual: Click **Create UI Action** to create a button on the task form that enables users to execute the transition manually. The system uses the value in the Name field as the label for the UI action. The UI action executes the script in the Manual Script field when the conditions are true. For example, a manual transition can create an **Activate** button when an incident is in the New state that enables a user to mark the incident as active.
-    -   Automatic: Click **Create Business Rule** to create the business rule. The business rule executes the script in the Automatic Script field when the conditions are true. For example, a business rule created by the system can set an incident state to Assigned when theAssigned to field is populated. Business rules are automatically deleted when the state flow record is deleted. For more information, see [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
+    -   Automatic: Click **Create Business Rule** to create the business rule. The business rule executes the script in the Automatic Script field when the conditions are true. For example, a business rule created by the system can set an incident state to Assigned when theAssigned to field is populated. Business rules are automatically deleted when the state flow record is deleted. For more information, see [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_BusinessRules.md).
 4.  Click **Create Client Script** to create the script that limits the values offered in a task record's State field to valid states for that transition.
 
 5.  Configure the fields in the Field Controls section to control how specific fields display when a task record changes states.
 
 
-**Parent Topic:**[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UseStateFlows.md)
+**Parent Topic:**[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_UseStateFlows.md)
 
 **Related topics**  
 
 
-[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_UseStateFlows.md)
+[Use state flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_UseStateFlows.md)
 

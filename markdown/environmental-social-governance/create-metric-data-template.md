@@ -3,9 +3,9 @@ title: Download a metric import template
 description: Download and populate a metric import template that you can use for importing historical metric data and tasks. This template includes directions and is formatted specifically for this type of data import.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-metric-data-template.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing historical metric data, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -37,7 +37,7 @@ The metric import template must be used for importing historical metric data and
 
 ## What to do next
 
-Upload the complete metric import template as part of an metric import job. For more information, see [Import historical metric data and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/import-metric-data.md).
+Upload the complete metric import template as part of an metric import job. For more information, see [Import historical metric data and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/import-metric-data.md).
 
-**Parent Topic:**[Importing historical metric data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/importing-metric-data.md)
+**Parent Topic:**[Importing historical metric data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/importing-metric-data.md)
 

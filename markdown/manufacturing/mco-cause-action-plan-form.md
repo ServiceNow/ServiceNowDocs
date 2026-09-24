@@ -3,9 +3,9 @@ title: Cause action plan form
 description: The Cause action plan form enables you to add the cause action details for a remediation plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-cause-action-plan-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
@@ -21,5 +21,5 @@ The Cause action plan form enables you to add the cause action details for a rem
 |Short description|Brief description of the issue cause.|
 |Description|Detailed description of the issue cause.|
 
-**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-qim-form.md)
 

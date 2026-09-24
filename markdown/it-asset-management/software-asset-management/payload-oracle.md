@@ -3,13 +3,13 @@ title: Sample payload for Oracle software install records
 description: A sample payload for Oracle publisher pack that populates the Oracle Instance \[cmdb\_ci\_db\_ora\_instance\] table with software install records from third-party discovery sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/payload-oracle.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Sample payload for Oracle software install records
@@ -102,5 +102,5 @@ The following is a sample payload to create software install records for Oracle 
 |className|cmdb\_ci\_linux\_server|Name of the related Linux Server table.|
 |mac address|4653XYZAA|MAC address of the interface in the Linux server.|
 
-**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/references.md)
 

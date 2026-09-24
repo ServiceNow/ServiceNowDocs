@@ -1,24 +1,24 @@
 ---
 title: Create cases as a proxy contact
-description: The proxy contact role enables employees to create cases for customer accounts and contacts. Employees can also be proxy case contacts on behalf of customers.
+description: The proxy contact role \(Customer Proxy Contacts, sn\_csm\_proxy\_cont\) enables employees to create cases for customer accounts and contacts. Employees can also be proxy case contacts on behalf of customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/employee-create-case-for-customer.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create cases as a proxy contact
 
-The proxy contact role enables employees to create cases for customer accounts and contacts. Employees can also be proxy case contacts on behalf of customers.
+The proxy contact role \(Customer Proxy Contacts, sn\_csm\_proxy\_cont\) enables employees to create cases for customer accounts and contacts. Employees can also be proxy case contacts on behalf of customers.
 
-Assign the proxy contact role \(sn\_customerservice.proxy\_contact\) to employees in your company who are not fulfillers or do not have other CSM-specific roles.
+Assign the proxy contact role \(sn\_csm\_proxy\_cont\) to employees in your company who are not fulfillers or do not have other CSM-specific roles.
 
-**Note:** This role requires licensing for access to CSM applications. The proxy contact cannot co-exist with the contributor roles.
+**Note:** This role requires licensing for access to CSM applications. The proxy contact can't co-exist with the contributor roles.
 
-Install the [CSM Extension for Proxy Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-extension-for-proxy-contacts.md) to use this functionality.
+Install the [Customer Proxy Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-extension-for-proxy-contacts.md) to use this functionality.
 
 Employees with the proxy contact role can do the following:
 
@@ -38,21 +38,21 @@ From the Customer Service Portal, employees can do the following for the cases w
 
 Customer service agents can create cases and designate an employee with the proxy contact role as the internal contact.
 
--   From Agent Workspace, agents can create cases for employees from interaction records.
+-   From CRM Workspace, agents can create cases for employees from interaction records.
 -   From connect chat sessions with employees, agents can create cases that add the employee to the **Internal contact** field on the Case form.
 
 ## Plugin information
 
-Activate the CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\) plugin to enable this feature. This plugin adds the following to Customer Service Management:
+Activate the Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\) plugin to enable this feature. This plugin adds the following to Customer Service Management:
 
--   The sn\_customerservice.proxy\_contact role.
+-   The Customer Proxy Contacts \(sn\_csm\_proxy\_cont\) role.
 -   The ProxyContactHelper script include.
 -   The **Internal contact** field on the Case form.
 -   The **Opened for** field on the Interaction form.
 
 **Note:** You need to configure the Interaction form to display the **Opened for** field and the Case form to display the **Internal contact** field.
 
-## Configure the Customer 360 ribbon component in Agent Workspace
+## Configure the Customer 360 ribbon component in CRM Workspace
 
 With the workspace administrator role \(workspace\_admin\), you can configure the Customer 360 ribbon component to display the internal contact for a case.
 
@@ -62,11 +62,11 @@ With the workspace administrator role \(workspace\_admin\), you can configure th
 
 ## Internal contact field on Case form
 
-When an employee with the sn\_customerservice.proxy\_contact role creates a case for a customer account, the **Internal contact** field on the Case form is populated with the employee's name. This field determines case visibility for the employee. From the Customer Service Portal, employees can see cases that they have created and are identified as the internal contact.
+When an employee with the sn\_csm\_proxy\_cont role creates a case for a customer account, the **Internal contact** field on the Case form is populated with the employee's name. This field determines case visibility for the employee. From the Customer Service Portal, employees can see cases that they have created and are identified as the internal contact.
 
-**Note:** This field appears on the Case form in both the platform interface and Agent Workspace.
+**Note:** This field appears on the Case form in both the Core UI and CRM Workspace.
 
-When an agent creates a case, they can select an employee with the sn\_customerservice.proxy\_contact role in the **Internal contact** field.
+When an agent creates a case, they can select an employee with the sn\_csm\_proxy\_cont role in the **Internal contact** field.
 
 ## Creating a case from the Customer Service Portal
 
@@ -97,8 +97,8 @@ Employees can create a case by sending an email to the inbound email address. Wh
 
 Employees with the proxy contact role can initiate a chat with an agent directly from the Customer Service Portal or using Virtual Agent. This creates a chat request card with the employee's name in the agent's inbox.
 
--   **Agent Workspace**: when the agent accepts the chat, the interaction record displays the employee name in the **Opened for** field.
--   **Platform**: when the agent accepts the chat and creates a case a case from the chat session, the employee name is added to the Case form in the **Internal contact** field.
+-   **CRM Workspace**: when the agent accepts the chat, the interaction record displays the employee name in the **Opened for** field.
+-   **Core UI**: when the agent accepts the chat and creates a case a case from the chat session, the employee name is added to the Case form in the **Internal contact** field.
 
 ## Check the status of a case using Virtual Agent
 
@@ -108,7 +108,7 @@ After logging in to the Customer Service Portal and initiating Virtual Agent, us
 
 ## Viewing work orders
 
-From the Customer Service Portal, employees with the sn\_customerservice.proxy\_contact role can see work orders for the cases where they are the internal contact. Employees can also add attachments to the work orders.
+From the Customer Service Portal, employees with the sn\_csm\_proxy\_cont role can see work orders for the cases where they are the internal contact. Employees can also add attachments to the work orders.
 
 In the portal header, click **Support** &gt; **Work Orders**.
 

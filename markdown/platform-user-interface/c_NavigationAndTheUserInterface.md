@@ -3,10 +3,10 @@ title: Configure user experiences
 description: Interact with ServiceNow AI Platform applications and data in the way that works best for you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_NavigationAndTheUserInterface.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 ---
 
 # Configure user experiences
@@ -19,11 +19,15 @@ Click any of the tiles below to learn more about the variety of customizations, 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure UIs and Portals \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Build user interfaces and create custom user experiences with this versatile suite of tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-uis-and-portals.md)
+[Configure UIs and Portals \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Build user interfaces and create custom user experiences with this versatile suite of tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-uis-and-portals.md)
 
 </td><td>
 
-[Provide user assistance \[Omitted image "bus-documentation.svg"\] Alt text: Give users assistance on the ServiceNow AI Platform with knowledge articles, step-by-step tutorials, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md)
+[Provide user assistance \[Omitted image "bus-documentation.svg"\] Alt text: Give users assistance on the ServiceNow AI Platform with knowledge articles, step-by-step tutorials, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/adoption-services.md)
+
+</td><td>
+
+[Personalize your experience \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Create visual timelines and task tracking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/personalize-your-experience.md)
 
 </td></tr></tbody>
 </table>## Configure UIs and portals
@@ -34,11 +38,15 @@ Improve workflow and data retrieval using Workspace and Core UI apps. Take user 
 
 Inform, educate, and assist your users with a full set of guidance and knowledge apps on the ServiceNow AI Platform. Help users get familiar with the ServiceNow AI Platform using the Onboarding Experience, and give Guided Tours of the UI. Provide further assistance with step-by-step instructions from Guided Setup, and on-demand knowledge with In-Product Help.
 
+## Personalize your experience
+
+Get a graphical breakdown of workflows and give users customized views in your enterprise on the ServiceNow AI Platform. Visual Task Boards and Timeline Visualization help you manage projects, lists, and other aspects of your business, in two- or three-dimensional views. A further host of settings for users is available in Homepage administration, to fine-tune page rendering, user access, dashboards, and other options.
+
 ## Access data on any device through a configurable web-based interface
 
 Access workspaces, Core UI, applications, history, and favorites through the single pane Next Experience UI.
 
-For highlights, see the [Next Experience UI landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
+For highlights, see the [Next Experience UI landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md).
 
 ## Provide just the data that you need
 
@@ -66,11 +74,12 @@ Solve issues faster with a workspace that is built to facilitate resolutions. Ag
 
 ## Applications and features
 
--   [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md)
--   [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)
--   [Working in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-in-ui16-and-ui15.md)
--   [Content Management System \(CMS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
--   [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
--   [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md)
--   [Visual Task Boards \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
+-   [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md)
+-   [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/workspace-landing-page.md)
+-   [Working in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/working-in-ui16-and-ui15.md)
+-   [Content Management System \(CMS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+-   [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
+-   [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/adoption-services/adoption-services.md)
+-   [Visual Task Boards \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
+-   [Timeline Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_TimelineVisualizations.md)
 

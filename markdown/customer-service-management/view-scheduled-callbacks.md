@@ -3,9 +3,9 @@ title: View scheduled callbacks
 description: View all scheduled callbacks in a list view and access individual callback records to reschedule or cancel them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-scheduled-callbacks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Callback requests by agents, Use omnichannel callback, Customer communication, Use, Customer Service Management]
 ---

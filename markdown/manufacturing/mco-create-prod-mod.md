@@ -3,9 +3,9 @@ title: Modify product model
 description: Modify a product record that your company sells and supports. The product record maintains all the product information used across customer issue management, quality investigations, service requests, warranty claims, and dealer collaboration workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-prod-mod.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up MCO, Configure, Manufacturing Commercial Operations]
 ---
@@ -26,7 +26,7 @@ Product models provide dealers and manufacturers with a detail of the products b
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace.**
 
 2.  Select the List icon.
 
@@ -46,5 +46,5 @@ The product model is updated with the latest information.
 **Related topics**  
 
 
-[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/product-data.md)
+[bundle-csm.product-data]
 

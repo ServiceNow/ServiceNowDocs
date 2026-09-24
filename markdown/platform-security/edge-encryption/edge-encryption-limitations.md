@@ -3,11 +3,11 @@ title: Edge Encryption limitations
 description: Edge Encryption impacts system functions. Carefully evaluate the impact of encrypting a field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/edge-encryption-limitations.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Planning for Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -47,7 +47,7 @@ Additional restrictions:
 -   Encrypted fields aren’t available in **Go to** and header filter boxes.
 -   When encrypting fields used as an index, you can use only order-preserving and equality-preserving encryption types. Indexed fields can’t be encrypted using the standard encryption type.
 
-For more information, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+For more information, see Field types.
 
 ## Filtering and searching restrictions
 
@@ -129,5 +129,5 @@ Impact of using Edge Encryption on the instance:
 -   Edge Encryption can’t be used with Data Archiving.
 -   Edge Encryption proxies cannot encrypt requests that use the batch REST request API. If you are using Edge Encryption proxies, disable REST batching by setting the `glide.uxf.disable_rest_batching` system property to true.
 
-**Parent Topic:**[Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
+**Parent Topic:**[Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
 

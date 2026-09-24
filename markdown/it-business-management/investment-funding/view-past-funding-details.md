@@ -3,11 +3,11 @@ title: View past funding details
 description: View the past funding details of your investments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/view-past-funding-details.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Investment Funding, Strategic Portfolio Management]
 ---
@@ -37,5 +37,5 @@ Role required: sn\_invst\_pln\_v2.investment\_user
     The graph displays the comparison between the total funds received and the total actuals for the fiscal periods in the past one year.
 
 
-**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/investment-funding-overview.md)
 

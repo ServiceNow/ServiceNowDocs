@@ -3,11 +3,11 @@ title: Configure report styling for TISC Case reports
 description: Configure the appearance of AI-generated threat intelligence case reports by setting colors, fonts, and organizational details in the report styling record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/configure-report-styling-tisc.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
@@ -36,7 +36,7 @@ Configure the report styling to define the visual appearance of the generated re
 
 5.  Complete the fields on the report styling record.
 
-    For field descriptions, see [AI Report Styling Configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/ai-report-styling-fields-tisc.md).
+    For field descriptions, see [AI Report Styling Configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/ai-report-styling-fields-tisc.md).
 
     The **Live Preview** section reflects your styling changes.
 

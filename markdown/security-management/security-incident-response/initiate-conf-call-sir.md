@@ -3,11 +3,11 @@ title: Start a conference call in Security Incident Response
 description: Using conference call, security analysts can collaborate with other analysts and affected users in real-time. These calls facilitate the exchange of information to help resolve incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/initiate-conf-call-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborate using conference call or chat in Security Incident Response, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -46,7 +46,7 @@ Role required: sn\_si.analyst or sn\_si.manager
 
 6.  Add or remove call participants in **Add participants**.
 
-    **Note:** Based on the configuration in Conference Call settings, a pre-populated list of participants is added to **Add participants** or a **Recommendations** list of participants is available. For more information, see [Manage Conference Call users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/config-conference-call.md).
+    **Note:** Based on the configuration in Conference Call settings, a pre-populated list of participants is added to **Add participants** or a **Recommendations** list of participants is available. For more information, see [Manage Conference Call users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/config-conference-call.md).
 
 7.  Provide a brief description for starting the conference call.
 
@@ -65,5 +65,5 @@ Role required: sn\_si.analyst or sn\_si.manager
 12. To restart a conference call, navigate to the **Completed** section and select the **Reinitiate** option of the required conference call.
 
 
-**Parent Topic:**[Collaborate using conference call or chat in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/collab-sir-call-chat.md)
+**Parent Topic:**[Collaborate using conference call or chat in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/collab-sir-call-chat.md)
 

@@ -3,11 +3,11 @@ title: UI interactions
 description: Trigger UI interactions directly from events in UI Builder, allowing you to link event-driven behavior to reusable interaction logic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/uib-ui-interactions.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -91,20 +91,20 @@ The toolbox provides all building blocks available inside the UI interaction edi
 
 \[Omitted image "uib-uii-toolbox.png"\] Alt text: UI interactions toolbox.
 
--   **[Create a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-ui-interaction-show-alert.md)**  
+-   **[Create a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-ui-interaction-show-alert.md)**  
 Create a UI interaction and attach it to a component event in UI Builder. UI interactions are reusable flows that combine UI, logic, and scripts into a single unit, including custom UI built with Component Builder, and can be triggered from any component event on a page.
--   **[Edit an existing UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-ui-interaction.md)**  
+-   **[Edit an existing UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/edit-ui-interaction.md)**  
 Edit or modify an existing UI interaction by inserting new steps, swapping or deleting events, removing steps, or updating step configurations in the diagram editor.
--   **[Duplicate a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/duplicate-ui-interaction.md)**  
+-   **[Duplicate a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/duplicate-ui-interaction.md)**  
 Create an independent copy of an existing UI interaction to use as a starting point for a new interaction or to safely experiment with changes.
--   **[Trigger a UI interaction from a page event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/trigger-ui-interaction-from-page-event.md)**  
+-   **[Trigger a UI interaction from a page event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/trigger-ui-interaction-from-page-event.md)**  
 Attach a UI interaction to a UI Builder page event so the interaction runs when a user performs an action on a component.
--   **[Delete a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/delete-ui-interaction.md)**  
+-   **[Delete a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/delete-ui-interaction.md)**  
 Delete a UI interaction when it’s no longer needed or when you must replace it with a new version. Although UI interactions can be edited after creation, some foundational properties are intentionally locked to avoid data and runtime errors. In those cases, deletion might be required.
--   **[UI interaction toolbox steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interaction-steps.md)**  
+-   **[UI interaction toolbox steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/uib-ui-interaction-steps.md)**  
 Find details about UI interaction toolbox steps, organized by interaction type, with step descriptions and any available outgoing events. Steps are added to a UI interaction using the toolbox in the UI interaction editor. The available steps depend on the type you selected when you created the UI interaction, whether Generic, Form, or List.
--   **[Working with UI interaction demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/working-with-demo-interactions.md)**  
-Demo UI interactions give you simple, ready‑made examples that demonstrate common UI interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
+-   **[Working with UI interaction demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/working-with-demo-interactions.md)**  
+Demo UI interactions give you simple, ready‑made examples that demonstrate common UI Interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
 
-**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-events.md)
 

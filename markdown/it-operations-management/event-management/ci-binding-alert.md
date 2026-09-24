@@ -3,11 +3,11 @@ title: Binding alerts to CIs
 description: CI binding or linking is the process of finding and connecting a Configuration Item \(CI\) from the Configuration Management Database \(CMDB\) to an alert, using the logic defined in event rules. This helps ensure alerts are tied to the right IT components for better visibility and faster issue resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ci-binding-alert.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -68,10 +68,10 @@ Result: The alert now shows that MailServer-01 is the affected system.
 
 This direct link helps streamline troubleshooting by pointing to the exact problem source.
 
-To enrich alerts by identifying the CI or extracting, composing, or tagging alert fields, you can also create an enrich automation in Service Operations Workspace. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
+To enrich alerts by identifying the CI or extracting, composing, or tagging alert fields, you can also create an enrich automation in Service Operations Workspace. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 **Related topics**  
 
 
-[Simulate event processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/simulate-event-processing.md)
+[Simulate event processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/simulate-event-processing.md)
 

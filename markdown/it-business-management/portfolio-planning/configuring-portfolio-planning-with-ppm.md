@@ -3,11 +3,11 @@ title: Configuring Portfolio Planning with PPM
 description: Understand the process required to set up Portfolio Planning to work with ServiceNow Project Portfolio Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Configure, Portfolio Planning, Strategic Portfolio Management]
@@ -21,9 +21,9 @@ Understand the process required to set up Portfolio Planning to work with Servic
 
 Use the following steps as guidelines for your Portfolio Planning with Project Portfolio Management \(PPM\) setup process. Some of these steps require the admin role \(sn\_align\_core.apw\_admin\) and some require the user role \(sn\_align\_core.apw\_user\).
 
-1.  [Create an alignment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-alignment-integration-ppw.md).
-2.  [Generate default mapping configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/generate-mapping-configurations-ppw.md).
-3.  [Create custom mapping configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/generate-custom-mapping-configurations-ppw.md).
+1.  [Create an alignment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-alignment-integration-ppw.md).
+2.  [Generate default mapping configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/generate-mapping-configurations-ppw.md).
+3.  [Create custom mapping configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/generate-custom-mapping-configurations-ppw.md).
 
 ## Guided Setup
 

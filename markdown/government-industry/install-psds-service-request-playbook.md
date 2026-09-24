@@ -3,9 +3,9 @@ title: Install Service Request Playbook for Public Sector Digital Services
 description: If you have the admin role, you can install the Service Request Playbook application \(sn\_gsm\_srvc\_req\).If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs any related ServiceNow Store applications and plugins that aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/install-psds-service-request-playbook.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---

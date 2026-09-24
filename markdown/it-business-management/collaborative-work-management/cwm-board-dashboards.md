@@ -3,11 +3,11 @@ title: Monitor and track work using dashboards in CWM Boards
 description: The Dashboard view displays a collection of widgets that visualize CWM Board data, giving teams an at-a-glance summary of task progress, priorities, and assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-board-dashboards.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Dashboard view, CWM, board dashboards, widgets, empty state]
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -23,11 +23,11 @@ The Dashboard view is one of the views available on a CWM Board, alongside List,
 
 Every Board is provisioned with two predefined shared dashboards with a set of predefined widgets configured for each.
 
--   Team progress dashboard. See [Team progress dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-progress-dashboard.md).
+-   Team progress dashboard. See [Team progress dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-team-progress-dashboard.md).
 
     \[Omitted image "cwm-team-progress-dashboard.png"\] Alt text: Team progress dashboard.
 
--   Team sprint tracker dashboard. See [Team sprint tracker dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-sprint-tracker-dashboard.md).
+-   Team sprint tracker dashboard. See [Team sprint tracker dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-team-sprint-tracker-dashboard.md).
 
     \[Omitted image "cwm-team-sprint-tracker-dashboard.png"\] Alt text: Team sprint tracker dashboard.
 
@@ -88,22 +88,22 @@ Users without access can request access directly from the link. If the Dashboard
 
 \[Omitted image "cwm-dashboard-copy-link.png"\] Alt text: The Copy Link option under Dashboard options.
 
--   **[Team progress dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-progress-dashboard.md)**  
+-   **[Team progress dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-team-progress-dashboard.md)**  
 The Team progress dashboard supports waterfall use cases and includes widgets that visualize task completion and workload for the whole Board.
--   **[Team sprint tracker dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-sprint-tracker-dashboard.md)**  
+-   **[Team sprint tracker dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-team-sprint-tracker-dashboard.md)**  
 The Team sprint tracker dashboard supports agile use cases with widgets that visualize sprint progress, workload, and trend data for agile teams.
--   **[Create a dashboard for a CWM Board in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.md)**  
+-   **[Create a dashboard for a CWM Board in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/creating-dashboards-in-cwm.md)**  
 Create a dashboard for a CWM Board to visualize work data using predefined or custom widgets. Track progress and spot issues without reviewing individual tasks or stories.
--   **[Add widgets to a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-a-widget-to-cwm-dashboard.md)**  
+-   **[Add widgets to a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/add-a-widget-to-cwm-dashboard.md)**  
 Add predefined or custom widgets to an empty state or existing dashboard on a CWM Board to visualize task and sprint data.
--   **[Rename a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/rename-a-dashboard-in-cwm.md)**  
+-   **[Rename a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/rename-a-dashboard-in-cwm.md)**  
 Rename a dashboard in a CWM Board so your team can easily identify it among shared dashboards for any specific requirement.
--   **[Duplicate a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/duplicate-a-dashboard-in-cwm.md)**  
+-   **[Duplicate a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/duplicate-a-dashboard-in-cwm.md)**  
 Duplicate a dashboard in a CWM Board to reuse an existing set of widgets in a new dashboard. This avoids rebuilding the same layout from scratch.
--   **[Remove widgets from a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/remove-a-widget-from-a-dashboard.md)**  
+-   **[Remove widgets from a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/remove-a-widget-from-a-dashboard.md)**  
 Remove widgets from a dashboard in a CWM Board to keep the dashboard focused on the metrics that still matter.
--   **[Delete a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/delete-a-dashboard-in-cwm.md)**  
+-   **[Delete a dashboard in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/delete-a-dashboard-in-cwm.md)**  
 Delete a dashboard in a CWM Board when your team no longer needs it.
 
-**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
 

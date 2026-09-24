@@ -3,9 +3,9 @@ title: Enterprise Architecture Workspace access roles
 description: The following roles help you to configure and use the Enterprise Architecture Workspace application. After access has been granted to a role, all the groups or users assigned to the role are granted access. Roles can contain other roles, and any access granted to a role is granted to any other role that includes it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-access-roles.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
 keywords: [access roles, permissions, role capabilities, enterprise architect, application portfolio, business architecture, technology portfolio, data certification, modeling, AI systems]
 breadcrumb: [Install Enterprise Architecture Workspace, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -24,11 +24,9 @@ The following roles are available in Enterprise Architecture Workspace. After ac
 |sn\_apm.apm\_admin|Full administrative access to configure and manage Enterprise Architecture Workspace settings, including Setup page configuration for all functional areas. Includes all permissions of sn\_apm.apm\_analyst.|EA administrator, IT architect lead|
 |sn\_apm.apm\_analyst|Create and manage key portfolio records such as business applications and digital integrations. Approve or reject requests when assigned to the Enterprise Architect group. Includes all permissions of sn\_apm.apm\_user.|Enterprise architect, solution architect|
 |sn\_apm.apm\_user|Create and update portfolio data across business architecture, information portfolio, technology portfolio, modeling, and data certification. Includes all permissions of sn\_apm.apm\_read.|Application owner, business analyst, portfolio manager|
-|sn\_apm.apm\_read|Read-only access to all pages and records in Enterprise Architecture Workspace. Cannot create or update data. For more information, see [Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-stakeholder-role.md).|Business stakeholder, executive, auditor|
+|sn\_apm.apm\_read|Read-only access to all pages and records in Enterprise Architecture Workspace. Cannot create or update data. For more information, see [Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-business-stakeholder-role.md).|Business stakeholder, executive, auditor|
 
-Users with Enterprise Architecture Workspace roles and certain platform roles, such as ITIL and other CMDB related roles, may be able to create or edit Business Application records by default.
-
-**Note:** The global admin role continues to function through role inheritance. However, Enterprise Architecture now uses feature-specific granular admin roles. Use sn\_apm.apm\_admin instead of admin for application-level administration wherever possible. For more information, see [Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gran-admin-role-changes.md).
+**Note:** The global admin role continues to function through role inheritance. However, Enterprise Architecture now uses feature-specific granular admin roles. Use sn\_apm.apm\_admin instead of admin for application-level administration wherever possible. For more information, see [Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-gran-admin-role-changes.md).
 
 ## Enterprise Architect group
 
@@ -302,6 +300,34 @@ Activate the Read only roles for Enterprise Architecture plugin
 </td><td>
 
  
+
+</td></tr><tr><td>
+
+Run the scheduled job to sync TRM product names with linked ServiceNow Otto for SAM software product names
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Requires the admin role. Run on demand from **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
 </td></tr></tbody>
 </table>## Setup page
@@ -2320,34 +2346,6 @@ View TRM products, categories, phases, technical debt, and lifecycle timelines
 </td><td>
 
  
-
-</td></tr><tr><td>
-
-Run the scheduled job to sync TRM product names with linked ServiceNow Otto for SAM software product names
-
-</td><td align="center">
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td align="center">
-
- 
-
-</td><td align="center">
-
- 
-
-</td><td align="center">
-
- 
-
-</td><td align="center">
-
- 
-
-</td><td>
-
-Requires the admin role. Run on demand from **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
 </td></tr></tbody>
 </table>## Enterprise modeling and visualization
@@ -4719,12 +4717,16 @@ View your assigned entities
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/install-ea-workspace.md)
+</table>**Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/install-ea-workspace.md)
 
 **Related topics**  
 
 
-[Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-stakeholder-role.md)
+[Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-business-stakeholder-role.md)
 
-[Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gran-admin-role-changes.md)
+[Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-gran-admin-role-changes.md)
+
+[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/install-ea-workspace.md)
+
+[Components installed with Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-installed-with-eaw.md)
 

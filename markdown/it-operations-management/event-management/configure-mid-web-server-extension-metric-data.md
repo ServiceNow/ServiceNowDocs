@@ -3,11 +3,11 @@ title: Configure key-based MID Web Server authentication
 description: Provide added security to your MID Web Server extension by using key-based authentication. Generate an authentication token to be sent in the Authorization header of incoming client requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,10 +18,10 @@ Provide added security to your MID Web Server extension by using key-based authe
 
 ## Before you begin
 
-**Note:** This procedure is only for compatibility with releases prior to Australia. For details on the procedure in the Australia release for configuring the MID Web Server, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
+**Note:** This procedure is only for compatibility with releases prior to Brazil. For details on the procedure in the Brazil release for configuring the MID Web Server, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 -   Deploy and start a MID Server.
--   Configure a MID Web Server extension and select Keybased as the authentication type. For details, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
+-   Configure a MID Web Server extension and select Keybased as the authentication type. For details, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 Role required: agent\_admin
 

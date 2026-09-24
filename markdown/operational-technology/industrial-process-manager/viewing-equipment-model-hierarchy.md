@@ -3,11 +3,11 @@ title: View the equipment model hierarchy
 description: View a graphical representation of the hierarchical structure of the selected equipment model entity, and its relationships to other entities in the production process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/viewing-equipment-model-hierarchy.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Review and update the equipment model details, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
@@ -22,7 +22,7 @@ Role required: cmdb\_ot\_isa\_editor, cmdb\_ot\_isa\_admin.
 
 ## About this task
 
-Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with assigned cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_viewer roles can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
+Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entities for any site. However, users with assigned cmdb\_ot\_isa\_editor or cmdb\_ot\_isa\_viewer roles can only access those sites that an administrator has granted access to for specific users. To learn more about granting site access, see [Manage equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md).
 
 ## Procedure
 
@@ -32,18 +32,16 @@ Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entiti
 
     You can search for a site by typing in the site name or its short code.
 
-3.  In the selector pane, click the equipment model entity you want to view a graphical representation of its hierarchy and relationship to other entities.
+3.  In the selector pane, select the equipment model entity you want to view a graphical representation of its hierarchy and relationship to other entities.
 
-    For example, click the top-level site entity to view a representation of the entire site.
+    For example, select the top-level site entity to view a representation of the entire site.
 
-4.  To view the hierarchical structure for the equipment model entity, click **View hierarchy**.
+4.  To view the hierarchical structure for the equipment model entity, select **View hierarchy**.
 
 
 ## Result
 
-The following graphical representation appears For the selected equipment model entity. The currently selected equipment model appears as the parent entity in the hierarchy.
+The following graphical representation appears for the selected equipment model entity. The currently selected equipment model appears as the parent entity in the hierarchy.
 
-\[Omitted image "equipment-model-entity-view-hierarchy.png"\] Alt text: Equipment model entity hierarchy
-
-**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
+**Parent Topic:**[Review and update the equipment model details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/equipment-model-workspace.md)
 

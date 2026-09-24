@@ -3,9 +3,9 @@ title: Activate push notifications
 description: Several plugins must be activated to use push notifications. If you have the Mobile UI \(com.glide.ui.m\) plugin active, push notification plugins are automatically activated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ActivatePushNotifications.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -88,7 +88,7 @@ Information that would be helpful for the ServiceNow personnel who are activatin
 </table>7.  Select **Submit**.
 
 
-**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md)
+**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_PushNotifications.md)
 
 **Related topics**  
 

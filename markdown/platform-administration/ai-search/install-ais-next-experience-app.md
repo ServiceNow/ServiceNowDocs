@@ -3,11 +3,11 @@ title: Install AI Search for Next Experience
 description: Install the AI Search for Next Experience application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/install-ais-next-experience-app.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Install the AI Search for Next Experience application from the ServiceNow® Stor
 
 ## Before you begin
 
-If your instance was zBooted in Australia, the AI Search for Next Experience application is already installed. You only need to install the application if you upgraded your instance from Tokyo or a previous release.
+If your instance was zBooted in Brazil, the AI Search for Next Experience application is already installed. You only need to install the application if you upgraded your instance from Tokyo or a previous release.
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
@@ -39,7 +39,7 @@ Role required: admin
 
 ## What to do next
 
-With the plugin installed, you can walk through Guided Setup tasks to enable AI Search as the search engine for the Unified Navigation search field in Next Experience. To get started with Guided Setup, see [Verify that your instance meets the prerequisites for AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/verify-ais-next-exp-prereqs.md).
+With the plugin installed, you can walk through Guided Setup tasks to enable AI Search as the search engine for the Unified Navigation search field in Next Experience. To get started with Guided Setup, see [Verify that your instance meets the prerequisites for AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/verify-ais-next-exp-prereqs.md).
 
-**Parent Topic:**[AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ais-next-experience-app.md)
+**Parent Topic:**[AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/ais-next-experience-app.md)
 

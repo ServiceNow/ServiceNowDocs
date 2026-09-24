@@ -3,13 +3,13 @@ title: Cancel an asset attestation
 description: Cancel an asset attestation when you no longer have to validate the ownership of the serialized assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cancel-asset-attestation-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Audit your hardware assets by using Asset Attestation, Attestation and conformance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Cancel an asset attestation
@@ -44,5 +44,5 @@ An asset attestation that's in the In progress state can only be canceled.
 -   The state of the asset attestation changes to Canceled.
 -   The status of the assets in the asset attestation that aren't confirmed by the employees' changes from Open to Canceled.
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

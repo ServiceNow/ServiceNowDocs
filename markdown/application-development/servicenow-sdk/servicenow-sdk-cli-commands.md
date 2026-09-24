@@ -3,11 +3,11 @@ title: ServiceNow SDK CLI
 description: Use the ServiceNow SDK command-line interface \(CLI\) to manage changes between a local application and the application on an instance.Authenticate to an instance and store, update, or view user credentials for accessing an instance on your system.Create an application or convert an existing application to support development in source code. The application is added in the current directory.Compile source files and output build artifacts. Third-party library dependencies are converted into XML files that can be installed with the application.Package the build artifacts and install or update an application on an instance. Before using the install command, you must use the build command to generate an installable package.Download application dependencies and TypeScript definitions from an instance to enable IntelliSense and code validation for an application.Download application metadata \(XML\) from the instance and transform the metadata into ServiceNow Fluent source code to synchronize the application changes on the instance into your local application.Transform application metadata \(XML\) in the global scope from an instance into ServiceNow Fluent source code in a local global application.Download all application metadata \(XML\) from an application on an instance to compare with the metadata in your local application.Remove the build artifacts that were output with the previous build.Package the build artifacts that were output with the previous build into an installable ZIP file.View documentation and examples for a ServiceNow Fluent API.Runs a read-only REST Table API query on an instance to return a filtered list of records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/servicenow-sdk-cli-commands.html
-release: australia
+release: brazil
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 18
 breadcrumb: [Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -30,15 +30,15 @@ The CLI includes the following commands and global options:
 |--help, -h|Return information about commands, sub-commands, and parameters.|
 |--debug, -d|Return the debug logs generated with a command.|
 
-**Parent Topic:**[ServiceNow SDK reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-reference.md)
+**Parent Topic:**[ServiceNow SDK reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-sdk-reference.md)
 
 ## auth
 
 Authenticate to an instance and store, update, or view user credentials for accessing an instance on your system.
 
-The `auth` command has parameters for adding credentials, deleting credentials, listing credentials, and setting credentials to use by default. To use non-interactive authentication in CI/CD pipelines, see the [install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md) command.
+The `auth` command has parameters for adding credentials, deleting credentials, listing credentials, and setting credentials to use by default. To use non-interactive authentication in CI/CD pipelines, see the [install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md) command.
 
-For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
+For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
 
 ### add
 
@@ -292,7 +292,7 @@ String
 
 </td><td>
 
-The scope of the application. The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_NamespaceIdentifier.md).
+The scope of the application. The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_NamespaceIdentifier.md).
 
 </td><td>
 
@@ -343,7 +343,7 @@ A template for the default structure of the application.-   base: An application
 npx @servicenow/sdk init --from dbce0f6a3b3fda107b45b5d355e45af6 --appName Example App --packageName example-app --scopeName x_snc_example --auth devuser1 --template base
 ```
 
-For more information, see [Create an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/create-application-now-sdk.md) or [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/convert-application-now-sdk.md).
+For more information, see [Create an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/create-application-now-sdk.md) or [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/convert-application-now-sdk.md).
 
 ## build
 
@@ -442,7 +442,7 @@ false
 now-sdk build /path/to/package --frozenKeys true --errorOnConflict true --skipClean true
 ```
 
-For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
+For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
 ## install
 
@@ -599,7 +599,7 @@ false
 now-sdk install --source /path/to/package --reinstall false --auth devuser1 --open-browser true --info true --demoData false --skip-flow-activation true
 ```
 
-For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
+For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
 ## dependencies
 
@@ -774,7 +774,7 @@ The application scope from which to download dependencies. This parameter is req
 now-sdk dependencies --directory /path/to/package --auth devuser1 --add sys\_ui\_view fa776f6d97700100f309124eda2975bc --scope global
 ```
 
-For more information, see [Downloading dependencies with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/downloading-dependencies-now-sdk.md).
+For more information, see [Downloading dependencies with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/downloading-dependencies-now-sdk.md).
 
 ## transform
 
@@ -891,7 +891,7 @@ A comma-separated list of table names to transform to ServiceNow Fluent, includi
 now-sdk transform --from metadata/update --directory /path/to/package --auth devuser1 --format true --table sys\_security\_acl
 ```
 
-For more information, see [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/convert-application-now-sdk.md) or [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
+For more information, see [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/convert-application-now-sdk.md) or [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
 ## move
 
@@ -1271,5 +1271,5 @@ For example:
 now-sdk query incident --query 'active=true^priority<=2' --limit 50 --fields 'number,short_description,priority' --auth devuser1 --output json
 ```
 
-For more information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md).
+For more information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_TableAPI.md).
 

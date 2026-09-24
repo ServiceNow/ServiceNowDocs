@@ -3,9 +3,9 @@ title: Configure Change Advisory Board for Simplified Change Management
 description: Set up your Change Advisory Board \(CAB\) in the setup wizard to define who reviews and approves significant changes before they are implemented.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-cab-change-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Change Advisory Board, CAB, Change Management, guided setup, CAB configuration, CAB members, CAB schedule, approval policy]
 breadcrumb: [Configuring Simplified Change Management, Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
@@ -82,10 +82,10 @@ Role required: sn\_itsm\_chg\_admin.cab\_config and sn\_ia\_config.ia\_user
 
 The CAB is configured with members, a manager, a recurring meeting schedule, and change routing conditions. The CAB Setup step is marked as complete, and your configured groups are available for selection in the per-risk approval policy configuration step.
 
-**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
+**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
 
 **Related topics**  
 
 
-[Create a CAB definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/define-your-cab.md)
+[Create a CAB definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/define-your-cab.md)
 

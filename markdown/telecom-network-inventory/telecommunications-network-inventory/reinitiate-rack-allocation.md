@@ -3,11 +3,11 @@ title: Re-initiate rack allocation
 description: Re-initiate the Find Allocation action on a change request to find new racks to reserve when your requirements change or when the initial allocation needs to be revised.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/reinitiate-rack-allocation.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Data center infrastructure rack allocation, Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
@@ -52,10 +52,10 @@ When you re-initiate the Find Allocation action, slots reserved from the previou
     Reserved slots display the change request number. Select the number to view change request details without leaving the rack view. \[Omitted image "rack-allocation.png"\] Alt text: Reserved slots in the rack view showing the change request number
 
 
-**Parent Topic:**[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)
+**Parent Topic:**[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)
 
 **Related topics**  
 
 
-[Reserve a rack using data center infrastructure allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/reserve-a-rack-using-data-center-infra-allocation.md)
+[Reserve a rack using data center infrastructure allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/reserve-a-rack-using-data-center-infra-allocation.md)
 

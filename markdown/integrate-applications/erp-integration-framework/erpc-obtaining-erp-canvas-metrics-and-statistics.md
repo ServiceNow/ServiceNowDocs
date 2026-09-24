@@ -3,14 +3,14 @@ title: Obtaining Zero Copy Connector for ERP metrics and statistics
 description: Use the Zero Copy Connector for ERP \(Enterprise Resource Planning\) home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-obtaining-erp-canvas-metrics-and-statistics.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, metrics, statistic, kpi, dashboard, log]
-breadcrumb: [Exploring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Obtaining Zero Copy Connector for ERP metrics and statistics
@@ -44,4 +44,6 @@ The **Historical overview** tab contains all information.
 |Asynchronous transactions by entity type|Bar|Asynchronous transactions organized by entity type \(for example, read\).|
 |Synchronous transactions by entity type|Bar|Synchronous transactions organized by entity type \(for example, read\).|
 |Users grouped by role \(available on the **Recent overview** tab for users with the sn\_erp\_mining.erp\_admin role\)|Donut|Users who have initiated a job, organized by role.|
+
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

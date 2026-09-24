@@ -3,9 +3,9 @@ title: Configure an activity stream screen for a record screen
 description: Configure an activity stream screen on your form to give your users access to comments, work notes, and attachments relating to the record they are viewing. In addition, use activity stream segments when you want to show the history of updates for a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-activity-stream.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -130,7 +130,7 @@ Hidden attachment sources
 
 </td><td>
 
-Choose values where you don’t want images sourced from. Select either one or more of the following sources: **Camera**, **Files**, and **Gallery**. For more information, see [Define attachment sources available to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/attachment-source-define.md).
+Choose values where you don’t want images sourced from. Select either one or more of the following sources: **Camera**, **Files**, and **Gallery**. For more information, see [Define attachment sources available to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/attachment-source-define.md).
 
 </td></tr><tr><td>
 

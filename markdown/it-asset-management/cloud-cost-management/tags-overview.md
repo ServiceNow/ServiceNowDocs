@@ -3,11 +3,11 @@ title: Cost usage tags
 description: Cost usage tags in the Cloud Cost Management application are the tag key-value pairs that cloud providers attach to billing line items when resources are deployed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/tags-overview.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---

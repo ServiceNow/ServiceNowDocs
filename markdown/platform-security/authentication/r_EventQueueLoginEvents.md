@@ -3,11 +3,11 @@ title: Event queue login events
 description: The SAML 2.0 integration creates events for login activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/r\_EventQueueLoginEvents.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAML 2.0 troubleshooting, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

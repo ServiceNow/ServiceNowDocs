@@ -3,11 +3,11 @@ title: Strategic Planning diagnostics
 description: Run diagnostic scans to identify and fix errors in the configuration and other common settings for Strategic Planning before your planning managers prioritize and roadmap work for their portfolio plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/strategic-planning-diagnostics.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -47,7 +47,7 @@ Validate Rank configuration for the high-level planning entities
 
 Verifies that entities enabled for high-level planning have a Rank configuration.
 
- If this test fails, see [Create rank configuration for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-rank-configuration-enable-high-level-planning.md) to fix failure.
+ If this test fails, see [Create rank configuration for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-rank-configuration-enable-high-level-planning.md) to fix failure.
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ Verifies that all the lens entities that are enabled for high-level planning hav
 
  If this scan fails, the result displays the Form section views that are missing for certain entities that are enabled for high-level planning.
 
- To learn how to fix these, see [Create form views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-form-views-for-planning-item-tables-in-apw.md).
+ To learn how to fix these, see [Create form views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-form-views-for-planning-item-tables-in-apw.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Verifies that all the lens entities that are enabled for high-level planning hav
 
  If this scan fails, the result displays the Related List views that are missing for certain entities that are enabled for high-level planning.
 
- To learn how to fix these, see [Create related list views for planning item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-related-list-views-new-planning-item-types-strategic-planning.md).
+ To learn how to fix these, see [Create related list views for planning item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-related-list-views-new-planning-item-types-strategic-planning.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Verifies that all the lens entities that are enabled for high-level planning hav
 
  If this scan fails, the result displays the List views that are missing for certain planning item tables.
 
- To learn how to fix these, see [Create list views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-list-views-for-new-planning-item-tables-in-strategic-planning.md).
+ To learn how to fix these, see [Create list views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-list-views-for-new-planning-item-tables-in-strategic-planning.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ Verifies that all the planning items that can be added to portfolio plans have t
 
  If this scan fails, the result displays the List views that are missing for certain planning item tables.
 
- To learn how to fix these, see [Create list views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-list-views-for-new-planning-item-tables-in-strategic-planning.md).
+ To learn how to fix these, see [Create list views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-list-views-for-new-planning-item-tables-in-strategic-planning.md).
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ Verifies that all the planning items that can be added to portfolio plans have t
 
  If this scan fails, the result displays the Form section views that are missing for certain planning item tables.
 
- To learn how to fix these, see [Create form views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-form-views-for-planning-item-tables-in-apw.md).
+ To learn how to fix these, see [Create form views for planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-form-views-for-planning-item-tables-in-apw.md).
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ Verifies that all the planning items that are allowed on portfolio plans have th
 
  If this scan fails, the result displays the Related list views that are missing for certain planning item tables.
 
- To learn how to fix these, see [Create related list views for planning item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-related-list-views-new-planning-item-types-strategic-planning.md).
+ To learn how to fix these, see [Create related list views for planning item types in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-related-list-views-new-planning-item-types-strategic-planning.md).
 
 </td></tr><tr><td>
 
@@ -174,7 +174,7 @@ Verifies that all the planning items that are allowed on portfolio plans have th
 
  If this scan fails, the result displays the Default view rule is missing for certain planning item tables.
 
- To learn how to fix these, see [Create workspace view rules for planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md).
+ To learn how to fix these, see [Create workspace view rules for planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md).
 
 </td></tr><tr><td>
 
@@ -184,7 +184,7 @@ Validate the goal relationships for assigned entities
 
 Identifies if there are any m2m goal relationships defined for assigned entities.
 
- If this scan fails, the result displays the goals that do have m2m goal relationships any assigned entity table. You can run the **Migrate goal relationships for assigned entities** scheduled job to migrate the existing goal relationship data from the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table to the Goals table. For more information, see [Migrate goal relationships for assigned entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/migrate-goal-relationships-for-assigned-entities-egm.md).
+ If this scan fails, the result displays the goals that do have m2m goal relationships any assigned entity table. You can run the **Migrate goal relationships for assigned entities** scheduled job to migrate the existing goal relationship data from the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table to the Goals table. For more information, see [Migrate goal relationships for assigned entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/migrate-goal-relationships-for-assigned-entities-egm.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +196,7 @@ Verifies that all the planning items that are allowed on portfolio plans have th
 
  If this scan fails, the result displays the APW Default view rule is missing for certain planning item tables.
 
- To learn how to fix these, see [Create workspace view rules for planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md).
+ To learn how to fix these, see [Create workspace view rules for planning item forms in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-workspace-view-rules-for-planning-item-tables.md).
 
 </td></tr><tr><td>
 

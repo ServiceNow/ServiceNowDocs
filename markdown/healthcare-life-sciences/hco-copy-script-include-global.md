@@ -3,9 +3,9 @@ title: Copy HCLS Script Includes to Global Scope
 description: Copy the MultiSSO\_OIDC\_CTO and OAuthUtilEpic script includes to the global scope so they are available for later configuration steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-copy-script-include-global.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Embed Care Team Portal in Epic, Configure, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---

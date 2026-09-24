@@ -1,20 +1,21 @@
 ---
-title: New hierarchy relationship forms in Privacy Management
-description: When creating a new hierarchy relationship in Privacy Management, you first define how a node is related to another. Then, you provide details for each related node.
+title: Hierarchy relationship forms in Privacy Management
+description: When you create a new hierarchy relationship in Privacy Management, you first define how a node is related to another, and then provide details for each related node.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/new-relationship-forms.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [hierarchy relationships, privacy management, processing activities, data transfers]
 breadcrumb: [Create a hierarchy relationship, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# New hierarchy relationship forms in Privacy Management
+# Hierarchy relationship forms in Privacy Management
 
-When creating a new hierarchy relationship in Privacy Management, you first define how a node is related to another. Then, you provide details for each related node.
+When you create a new hierarchy relationship in Privacy Management, you first define how a node is related to another, and then provide details for each related node.
 
 ## Define relationships form
 
@@ -32,7 +33,7 @@ Primary record
 
 </td><td>
 
-Processing activity you're currently working on. Pre-filled and can't be changed.
+Processing activity you are currently working on. This field is automatically populated and cannot be changed.
 
 </td></tr><tr><td>
 
@@ -40,7 +41,7 @@ Primary node
 
 </td><td>
 
-Node for which you're creating the relationship. By default, this field is pre-filled with the current processing activity. You can change it to another node that is already linked to the processing activity.
+Node for which you are creating the relationship. By default, this field is automatically populated with the current processing activity. You can change it to another node that is already linked to the processing activity.
 
 </td></tr><tr><td>
 
@@ -50,9 +51,9 @@ Primary node location
 
 Location of the primary node.
 
- It is auto-populated from the location set on the node. If node location isn't specified, the associated entity location is used. If that isn't specified either, the associated CMDB record location is used.
+ This field is automatically populated from the location set on the node. If the node location is not specified, the associated entity location is used. If that is not specified either, the associated CMDB record location is used.
 
- You can edit this field to change the auto-populated value.
+ You can edit this field to change the value.
 
 </td></tr><tr><td>
 
@@ -60,9 +61,9 @@ Relationship type
 
 </td><td>
 
-Relationship between the primary node and the related node. The built-in relationship types are:-   **Depends on**: Primary node can’t function without the related node.
+Relationship between the primary node and the related node. The built-in relationship types are:-   **Depends on**: Primary node cannot function without the related node.
 
-For example, a customer onboarding processing activity depends on an identity verification application because onboarding can't proceed without verifying a customer's identity.
+For example, a customer onboarding processing activity depends on an identity verification application because onboarding cannot proceed without verifying a customer's identity.
 
 -   **Contains**: Primary node is the parent activity that includes the related node as a sub-activity.
 
@@ -82,10 +83,10 @@ For example, an HR platform in the EU receives personal data about employees fro
 
 -   **Used by**: Primary node is a shared resource consumed by one or more related nodes, without any data flowing between them.
 
-For example, a customer database could be used by multiple marketing campaign activities to look up customer segments.
+For example, a customer database can be used by multiple marketing campaign activities to look up customer segments.
 
 
-**Note:** Use **Sends data to** and **Received data from** when personal data moves between two nodes to capture data transfers. For more information, see [Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md).
+**Note:** Use **Sends data to** and **Received data from** when personal data moves between two nodes to capture data transfers. For more information, see [Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +94,7 @@ Related node type
 
 </td><td>
 
-Type of record you're connecting to the primary node. The available related nodes are filtered based on the selected type. The built-in related node types are:-   Business Application
+Type of record you are connecting to the primary node. The available related nodes are filtered based on the selected type. The built-in related node types are:-   Business Application
 -   Business Process
 -   Business Service
 -   Company
@@ -101,7 +102,7 @@ Type of record you're connecting to the primary node. The available related node
 -   Processing Activity
 -   Vendor
 
-For example, if you select `Business Application`, only business applications are available to select as related nodes.
+For example, if you select `Business Application`, only business applications are available as related nodes.
 
 </td></tr></tbody>
 </table>## Relationship details form
@@ -128,11 +129,11 @@ Related node locations
 
 </td><td>
 
-Locations of the related nodes.
+Location of the related node.
 
- It is auto-populated from the location set on the node. If node location isn't specified, the associated entity location is used. If that isn't specified either, the associated CMDB record location is used.
+ This field is automatically populated from the location set on the node. If the node location is not specified, the associated entity location is used. If that is not specified either, the associated CMDB record location is used.
 
- You can edit this field to change the auto-populated value.
+ You can edit this field to change the value.
 
 </td></tr><tr><td>
 
@@ -150,13 +151,13 @@ Select data subject types involved
 
 Details of the data subject types whose personal data is involved.For each data subject type, update the respective cells in the following columns:
 
-1.  Involved: Mark `Yes or No` to indicate if their personal data is being transferred from the primary node to the related node.
+1.  Involved: Mark `Yes` or `No` to indicate whether their personal data is being transferred from the primary node to the related node.
 2.  Location: Specify all the locations that process personal data of this data subject type.
 3.  Volume: Specify the number of impacted data subjects.
-4.  Data elements: Specify which personal data elements are impacted. For example, `home address, salary, work assignments.`
+4.  Data elements: Specify which personal data elements are impacted. For example, `home address, salary, work assignments`.
 
-By default, this field appears only when the relationship type is **Sends data to** or **Received data from**. However, a privacy admin can extend this behavior to a custom relationship type. For steps, see [Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md).
+By default, this field appears only when the selected relationship type is **Sends data to** or **Received data from**. However, a privacy admin can extend this behavior to a custom relationship type. For steps, see [Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)
+</table>**Parent Topic:**[Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)
 

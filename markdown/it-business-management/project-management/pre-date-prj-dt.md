@@ -1,20 +1,20 @@
 ---
 title: Pre-date a project task
-description: Move the planned start date of a task prior to the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
+description: Move the planned start date of a task before the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/pre-date-prj-dt.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-07"
 reading_time_minutes: 1
 breadcrumb: [Change the planned start date of a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Pre-date a project task
 
-Move the planned start date of a task prior to the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
+Move the planned start date of a task before the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Before pre-dating a project task, note the following conditions:
 
 -   The property project.rollup\_project\_start\_date should be set to true.
 -   Pre-dating a task's planned start date also moves the project's planned start date.
--   The start date of a child task cannot be moved prior to the parent task's start date. For example, if a parent task with Start no earlier than constraint starts on 20th and the child task starts on 30th, the start date of the child task can only be moved up to 20th.
+-   The start date of a child task can't be moved before the parent task's start date. For example, a parent task with Start no earlier than constraint starts on the 20th and the child task starts on the 30th. The start date of the child task can only be moved up to the 20th.
 
 ## Procedure
 
@@ -38,15 +38,15 @@ Before pre-dating a project task, note the following conditions:
 
 3.  On the Project form, update the planned start date for a project task using either of the following options.
 
-<table id="choicetable_h1v_kq4_nlb"><thead><tr><th align="left" id="d140550e96">
+<table id="choicetable_h1v_kq4_nlb"><thead><tr><th align="left" id="d140787e96">
 
 Option
 
-</th><th align="left" id="d140550e99">
+</th><th align="left" id="d140787e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d140550e105">
+</th></tr></thead><tbody><tr><td id="d140787e105">
 
 **From the Project Task form**
 
@@ -56,7 +56,7 @@ Steps
 2.  On the Project Task form, select the **Dates** tab and update the **Planned start date** for the task.
 
 
-</td></tr><tr><td id="d140550e129">
+</td></tr><tr><td id="d140787e129">
 
 **From the Planning Console**
 
@@ -70,10 +70,10 @@ Steps
 </table>4.  In the Move date dialog box, select **OK**.
 
 
-**Parent Topic:**[Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-planned-start-date-of-project.md)
+**Parent Topic:**[Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/change-planned-start-date-of-project.md)
 
 **Related topics**  
 
 
-[Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-planned-start-date-of-project.md)
+[Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/change-planned-start-date-of-project.md)
 

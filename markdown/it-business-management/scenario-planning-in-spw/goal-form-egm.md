@@ -3,11 +3,11 @@ title: Goal form
 description: Use the Goal form to create goals for your organizational strategic priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/goal-form-egm.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio
 
 Use the Goal form to create goals for your organizational strategic priorities.
 
-**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields \(that are not added to the default or your custom form view\) on the form in the workspace, configure the default/custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields \(that are not added to the default or your custom form view\) on the form in the workspace, configure the default/custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 <table id="table_demand_benefit_plan_form"><thead><tr><th>
 
@@ -76,7 +76,7 @@ Progress
 
 </td><td>
 
-Percentage complete for the goal. The progress value is calculated automatically if the goal has sub-goals or/and targets.For more information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.md).
+Percentage complete for the goal. The progress value is calculated automatically if the goal has sub-goals or/and targets.For more information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.md).
 
 </td></tr><tr><td>
 
@@ -181,10 +181,10 @@ Users who contribute to the achievement of the goal.
 |Team|Assignment group responsible for different activities in achieving the goal.|
 |Classification|Goal classification type. The available options are **Environmental**, **Social**, and **Governance**. This field is applicable only for the Operational Sustainability Workspace users.|
 
-**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 
 **Related topics**  
 
 
-[Iteration goals and work item goals in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/iteration-goals-in-eap.md)
+[Iteration goals and work item goals in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/iteration-goals-in-eap.md)
 

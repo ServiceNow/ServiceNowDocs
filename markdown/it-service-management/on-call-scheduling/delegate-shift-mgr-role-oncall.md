@@ -3,11 +3,11 @@ title: Delegate the shift manager \[rota\_admin\] role
 description: As a shift manager, you can delegate your role to a member of shift.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/delegate-shift-mgr-role-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing schedules and shifts, On-Call Scheduling, IT Service Management]
 ---
@@ -24,17 +24,17 @@ Role required: rota\_manager or admin
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Delegate Roles in Group**.
 
-2.  Follow the instructions to [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DelegateRoles.md) the shift manager role to a member of your shift.
+2.  Follow the instructions to [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DelegateRoles.md) the shift manager role to a member of your shift.
 
     **Note:** Ensure that you select the shift group where you want to delegate the shift manager role.
 
 3.  Submit the role delegation request.
 
 
-**Parent Topic:**[Managing schedules and shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/manage-schedules-and-shifts.md)
+**Parent Topic:**[Managing schedules and shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/manage-schedules-and-shifts.md)
 
 **Related topics**  
 
 
-[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
+[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
 

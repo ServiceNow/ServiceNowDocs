@@ -3,9 +3,9 @@ title: Advanced configurations
 description: Describes the customization extension model for separating default functionality from custom scripts using read-only SNC and exposed includes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/customizations.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Script includes installed, Components installed, Reference, Field Service Management]
 ---
@@ -33,5 +33,5 @@ The following KB article covers:
 
 For detailed information, see [https://support.servicenow.com/kb?sys\_kb\_id=ffed91cd93ff2690f538fb2d6cba1047&amp;id=kb\_article\_view](https://support.servicenow.com/kb?sys_kb_id=ffed91cd93ff2690f538fb2d6cba1047&id=kb_article_view).
 
-**Parent Topic:**[Script includes installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_ScriptIncInstWFieldSrvMgmnt.md)
+**Parent Topic:**[Script includes installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_ScriptIncInstWFieldSrvMgmnt.md)
 

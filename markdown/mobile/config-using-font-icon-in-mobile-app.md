@@ -3,9 +3,9 @@ title: Add a font icon in a mobile app
 description: Use Mobile App Builder to configure mobile apps that use a font family icon.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-using-font-icon-in-mobile-app.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile icons, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-For a list of font icon names and descriptions, see the [Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md).
+For a list of font icon names and descriptions, see the [Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-icon-reference.md).
 
 ## Procedure
 

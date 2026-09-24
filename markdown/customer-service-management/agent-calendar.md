@@ -3,9 +3,9 @@ title: Managing agent calendar
 description: Customer service agents and field service technicians can use the agent calendar to see work schedules and assignments and also add personal events such as meetings or appointments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-calendar.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Schedules and sites, Use, Customer Service Management]
 ---
@@ -23,7 +23,7 @@ The agent calendar administrator has access to the Agent Schedule menu in the ap
 -   **Event Configuration**: create a configuration for each type of event or task displayed on the agent calendar.
 -   **Work Schedule**: create one or more work schedules for each calendar user.
 -   **Agent Personal Events**: create personal schedules for each agent and add events to those schedules.
--   **Schedule**: create or modify schedules. For more information, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseSchedules.md).
+-   **Schedule**: create or modify schedules. For more information, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UseSchedules.md).
 
 ## Viewing the calendar
 
@@ -138,7 +138,7 @@ Allows customer service agents and field service technicians to access and updat
 </table>**Related topics**  
 
 
-[Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseSchedules.md)
+[Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UseSchedules.md)
 
-[Configuring an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-agent-calendar.md)
+[Configuring an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-agent-calendar.md)
 

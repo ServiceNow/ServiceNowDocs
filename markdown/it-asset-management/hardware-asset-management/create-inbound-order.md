@@ -3,11 +3,11 @@ title: Create an inbound asset order
 description: Create an inbound asset order to associate a customer request to an asset order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-inbound-order.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing inbound asset orders for DaaS assets, Device as a Service, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -114,5 +114,5 @@ Estimated delivery date of the asset that's being sent to the specified delivery
 
 ## What to do next
 
-[Create an inbound asset order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-inbound-order-line.md)
+[Create an inbound asset order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-inbound-order-line.md)
 

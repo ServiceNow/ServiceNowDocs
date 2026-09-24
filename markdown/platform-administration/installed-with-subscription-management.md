@@ -3,9 +3,9 @@ title: Components installed with Subscription Management
 description: Several components are installed with activation of the Subscription Management plugin \(com.glide.subscription\_management\), including user roles and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/installed-with-subscription-management.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -55,16 +55,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Subscribed Groups
-
- \[sn\_sub\_man\_st\_subscribed\_groups\]
-
-</td><td>
-
-\[Remote table\] Groups that you add to a product subscription
-
-</td></tr><tr><td>
-
 Subscription Insights definition
 
  \[sn\_sub\_man\_st\_subscription\_insights\]
@@ -83,16 +73,6 @@ Subscription license detail definition
 
 \[Remote table\] Subscription allocation metrics and history
 
-</td></tr><tr><td>
-
-Unallocated Group Recommendations
-
- \[sn\_sub\_man\_st\_unallocated\_group\_recommendation\]
-
-</td><td>
-
-\[Remote table\] Product recommendations for unallocated groups
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-reference-v2.md)
+</table>**Parent Topic:**[Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/subscription-management-reference-v2.md)
 

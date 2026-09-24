@@ -3,11 +3,11 @@ title: Deactivating entity-based access configuration
 description: Deactivating entity-based access \(EBA\) not only disables the configuration but also streamlines admin workflows by automating record-level access evaluation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/deactivating-entity-based-access.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -26,5 +26,5 @@ If other active configurations exist, the system retains EBA restrictions and re
 -   Enhances consistency in releasing record-level access restrictions where applicable.
 -   Minimizes the risk of unintentional data exposure or access gaps during configuration changes.
 
-**Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md)
+**Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md)
 

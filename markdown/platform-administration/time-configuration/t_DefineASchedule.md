@@ -3,11 +3,11 @@ title: Define a schedule
 description: Configure schedules using schedule and schedule entry records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_DefineASchedule.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Schedules, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -25,7 +25,7 @@ Role required: schedule\_admin or admin
 -   Schedule records specify a time zone and a type of schedule and use one or more schedule entries. Schedule records are saved in the Schedule \[`cmn_schedule`\] table.
 -   Schedule entry records specify the time periods that are included or excluded from a schedule. Schedule entries are saved in the Schedule Entry \[`cmn_schedule_span`\] table.
 
-Alternately, you can also use the Business Calendar functions to create schedules. To learn more about creating business calendars and schedules, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md).
+Alternately, you can also use the Business Calendar functions to create schedules. To learn more about creating business calendars and schedules, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/business-calendars.md).
 
 **Warning:** If you’re using Performance Analytics, use caution when changing time spans. Any change you make to the time span on a business or fiscal calendar can invalidate the Performance Analytics data. Consult with a Performance Analytics administrator before making such changes.
 
@@ -35,7 +35,7 @@ Alternately, you can also use the Business Calendar functions to create schedule
 
 2.  Select **New**, enter a unique and meaningful **Name** and **Description** and then fill in the form.
 
-    For detailed information on Schedule form fields, see [Schedule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleFields.md).
+    For detailed information on Schedule form fields, see [Schedule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_ScheduleFields.md).
 
     **Note:** If there are no active entries defined for the current schedule, a warning message appears in the Schedule form. If your schedule is a child schedule that contains only exclusions, ignore the message because exclusions are non-active entries.
 
@@ -43,22 +43,22 @@ Alternately, you can also use the Business Calendar functions to create schedule
 
     **Note:**
 
-    -   In the Related link, select **Show Schedule** to view the schedule in the calendar using the Next Experience user interface. For more information on this framework, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md). To create schedule entries in the [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md), refer to [Create schedule entries in the Schedule calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/create-events-next-experience-ui.md).
+    -   In the Related link, select **Show Schedule** to view the schedule in the calendar using the Next Experience user interface. For more information on this framework, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md). To create schedule entries in the [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md), refer to [Create schedule entries in the Schedule calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/create-events-next-experience-ui.md).
 
-        To use the [classic schedule calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/schedule-calendar.md), you can add the **glide.schedule.enable\_classic\_calendar** property and set it to **true**. For information on how to add a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+        To use the [classic schedule calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/schedule-calendar.md), you can add the **glide.schedule.enable\_classic\_calendar** property and set it to **true**. For information on how to add a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     -   If you create a schedule of type **maintenance** and save the record, a UI policy hides the **Type** field from the form. To view or change the **Type** value, use the list of schedules instead of the schedule form. Add the **Type** column if necessary. You can click the cell for the value in the **Type** column and modify the value in the list view.
 4.  Configure one or more schedule entries.
 
-    For detailed information on Schedule Entry form fields, see [Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md).
+    For detailed information on Schedule Entry form fields, see [Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md).
 
 
--   **[Schedule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleFields.md)**  
+-   **[Schedule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_ScheduleFields.md)**  
 The Schedule form contains the following fields.
--   **[Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md)**  
+-   **[Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md)**  
 You can only associate a schedule entry with one schedule. The **Schedule Entries** related list contains the definitions of the time periods you want to include in or exclude from the schedule.
 
-**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
 **Related topics**  
 
@@ -79,5 +79,5 @@ You can only associate a schedule entry with one schedule. The **Schedule Entrie
 
 [Domain support and schedules]()
 
-[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 

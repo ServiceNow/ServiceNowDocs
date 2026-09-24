@@ -3,11 +3,11 @@ title: Modify an AI agent
 description: Modify an AI agent in AI Agent Studio to suit your changing business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/modify-ai-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Modify an AI agent
@@ -28,15 +28,15 @@ Role required: sn\_aia.admin
 
     The guided setup is the same as the one for creating an AI agent:
 
-    -   [Define the AI agent's specialty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-specialty.md).
-    -   [Define the AI agent security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
-    -   [\(Optional\) Add a trigger to automatically invoke your AI agent if a specified event occurs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md).
-    -   [Determine whether you want to use the ServiceNow Otto in Virtual Agent chat assistants and/or as UI action, set the processing messages, and activate your AI agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia.md).
-    **Note:** Some fields aren't editable if the agent is associated with an application. If you want to make more modifications, [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) and make changes to the duplicate.
+    -   [Define the AI agent's specialty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-specialty.md).
+    -   [Define the AI agent security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aia.md).
+    -   [\(Optional\) Add a trigger to automatically invoke your AI agent if a specified event occurs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aia.md).
+    -   [Determine whether you want to use the ServiceNow Otto in Virtual Agent chat assistants and/or as UI action, set the processing messages, and activate your AI agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aia.md).
+    **Note:** Some fields aren't editable if the agent is associated with an application. If you want to make more modifications, [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md) and make changes to the duplicate.
 
-    -   For the **List of steps** field in the **Define specialty** step, you can create multiple versions of the same AI agent without losing previous versions. Creating versions enables you to test different instructions to evaluate performance. See [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/version-control.md) for more information.
-    -   For more guidance on creating effective instructions, see the [general guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
-    -   For the access control lists \(ACLs\), you can edit the security fields and define who can access the AI agent and edit the entity to run the AI agent as a dynamic user or an AI user. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+    -   For the **List of steps** field in the **Define specialty** step, you can create multiple versions of the same AI agent without losing previous versions. Creating versions enables you to test different instructions to evaluate performance. See [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/version-control.md) for more information.
+    -   For more guidance on creating effective instructions, see the [general guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gg-creating-aia.md).
+    -   For the access control lists \(ACLs\), you can edit the security fields and define who can access the AI agent and edit the entity to run the AI agent as a dynamic user or an AI user. For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md).
     You can navigate through the steps of the Guided Setup with the **Continue** and **Back** buttons.
 
 4.  Navigate to the last step and select **Test** to save your changes and begin testing your modified agent.
@@ -48,5 +48,5 @@ Your agent is modified and ready to test.
 
 ## What to do next
 
-You can [test an execution of your AI agent manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md) or [test the user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-access.md). Once you've determined that the AI agent has the basic functionality you expect, you can [evaluate the AI agent using automated tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md).
+You can [test an execution of your AI agent manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-agent.md) or [test the user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-access.md). Once you've determined that the AI agent has the basic functionality you expect, you can [evaluate the AI agent using automated tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md).
 

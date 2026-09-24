@@ -3,11 +3,11 @@ title: General properties for activity designer templates
 description: The following General Property fields are common to all activity designer templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/General-Flds-Templates.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -62,7 +62,7 @@ Application
 
 </td><td>
 
-Current [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) set on the instance. To view the scope, click the gear icon on the right side of the title bar in any record or list and look at the value in the **Application** field. The activity runs in this scope within a workflow. You cannot view or change the scope for the instance in the Workflow Editor.
+Current [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md) set on the instance. To view the scope, click the gear icon on the right side of the title bar in any record or list and look at the value in the **Application** field. The activity runs in this scope within a workflow. You cannot view or change the scope for the instance in the Workflow Editor.
 
 </td></tr><tr><td>
 
@@ -90,5 +90,5 @@ Description
 Detailed description of the activity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md)
+</table>**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/create-custom-activities.md)
 

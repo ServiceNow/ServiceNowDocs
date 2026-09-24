@@ -3,9 +3,9 @@ title: Create application files to include sample data
 description: Include sample records from an application data table when sharing a custom application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/t\_IncludeApplicationData.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -20,7 +20,7 @@ Role required: admin, or delegated\_developer
 
 ## About this task
 
-The system can export selected records as application files that are included as part of the application update set when you share it. Including application files in an update set is not intended for the export and import of large numbers of records between instances. If you are trying to move data between instances, see [Import from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_ImportingFromAnotherSNInstance.md) instead.
+The system can export selected records as application files that are included as part of the application update set when you share it. Including application files in an update set is not intended for the export and import of large numbers of records between instances. If you are trying to move data between instances, see [Import from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_ImportingFromAnotherSNInstance.md) instead.
 
 The application data only includes the version of the records that existed when the records were shared. The system does not update this snapshot of the application data when the records change. Application designers can include data on a table by table basis.
 
@@ -39,7 +39,7 @@ The application data only includes the version of the records that existed when 
 
 4.  For **Load When**, select when the application record includes application data.
 
-<table id="choicetable_amy_wdd_br"><tbody><tr><td id="d51900e133">
+<table id="choicetable_amy_wdd_br"><tbody><tr><td id="d51363e133">
 
 **__New Install and Upgrades__**
 
@@ -47,7 +47,7 @@ The application data only includes the version of the records that existed when 
 
 Includes application data whenever the application is installed or upgraded.
 
-</td></tr><tr><td id="d51900e145">
+</td></tr><tr><td id="d51363e145">
 
 **__New Install__**
 
@@ -55,7 +55,7 @@ Includes application data whenever the application is installed or upgraded.
 
 Includes application data only when the application is installed.
 
-</td></tr><tr><td id="d51900e157">
+</td></tr><tr><td id="d51363e157">
 
 **__New Install with Demo Data__**
 
@@ -73,5 +73,5 @@ Includes application data only when the application is installed with demo data.
 6.  Repeat steps 1–5 for each application data table you want to include.
 
 
-**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md)
+**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_SharingApplications.md)
 

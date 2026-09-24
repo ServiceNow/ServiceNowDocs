@@ -3,9 +3,9 @@ title: Customize the Next Experience login background illustration
 description: Customize and change the background illustration applied to your Next Experience login page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/customize-login-background.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -67,5 +67,5 @@ The background illustration that you upload automatically scales to fit the scre
 
 Log out of your experience to view the new login page background.
 
-**Parent Topic:**[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
+**Parent Topic:**[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md)
 

@@ -3,11 +3,11 @@ title: Repair flow to fix defective hardware assets within a stockroom
 description: Use the Repair flow to get the defective hardware assets in your stockroom fixed so that the repaired assets can be used in different Hardware Asset Management workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/requesting-hardware-asset-repair.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -18,7 +18,7 @@ Use the Repair flow to get the defective hardware assets in your stockroom fixed
 
 By using the Repair flow, your organization can internally fix the assets that are damaged or out of the warranty period. The repaired assets can be put back to use after validation. There's no external vendor involved in the repair of defective assets.
 
-As an asset manager, you can request repair of assets that are either defective or pending repair in your stockroom by submitting repair orders. For more details, see [Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md). The repair flow is triggered when you submit a repair order. A repair order has repair order lines that are associated with repair tasks for the assets. The asset technician completes the repair tasks in the Hardware Asset Workspace or by using the Mobile Agent application. The repair flow completes after the repaired asset is evaluated. For details, see [Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-repair-of-defective-ham-assets.md) and [Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md).
+As an asset manager, you can request repair of assets that are either defective or pending repair in your stockroom by submitting repair orders. For more details, see [Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md). The repair flow is triggered when you submit a repair order. A repair order has repair order lines that are associated with repair tasks for the assets. The asset technician completes the repair tasks in the Hardware Asset Workspace or by using the Mobile Agent application. The repair flow completes after the repaired asset is evaluated. For details, see [Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-repair-of-defective-ham-assets.md) and [Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md).
 
 ## Stages in the Repair flow
 
@@ -34,4 +34,6 @@ As an asset manager, you can request repair of assets that are either defective 
     The repair flow proceeds to the next stage only if the asset is repaired. Otherwise the repair order is marked as Complete.
 
 3.  Evaluate: Stage to perform a quality control check of the repaired asset. Based on the evaluation results, the asset is either redeployed or disposed of. The Repair flow is completed after asset evaluation.
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/exploring-ham.md)
 

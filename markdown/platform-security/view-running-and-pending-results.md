@@ -3,9 +3,9 @@ title: View running and pending results
 description: You can view running and pending audits to see their status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/view-running-and-pending-results.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Domain Separation Center, Domain separation for service providers, Access Management]
 ---

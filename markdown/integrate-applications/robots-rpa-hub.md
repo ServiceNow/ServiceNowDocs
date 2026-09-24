@@ -3,9 +3,9 @@ title: Robots in RPA Hub
 description: Mimic human actions to perform repetitive, rule-based tasks using robots in RPA Hub. These robots interact with user interfaces and automate tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/robots-rpa-hub.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -34,11 +34,11 @@ These two types of robots serve different purposes and are designed to automate 
 **Related topics**  
 
 
-[Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-unattended-robot.md)
+[Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-unattended-robot.md)
 
-[Create an attended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-attended-robot.md)
+[Create an attended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-attended-robot.md)
 
-[Add assigned studio users to an unattended robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assigned-studio-users-rpa.md)
+[Add assigned studio users to an unattended robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assigned-studio-users-rpa.md)
 
-[High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/high-density-robots-rpa-hub.md)
+[High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/high-density-robots-rpa-hub.md)
 

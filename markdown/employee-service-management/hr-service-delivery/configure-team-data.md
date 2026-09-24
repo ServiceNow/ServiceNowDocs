@@ -1,20 +1,20 @@
 ---
 title: Configure team data
-description: Configure team data that you want to display on employee cards and modal in the Team members tab in Your team menu. Team data configurations are required to support column configurations and filter configurations.
+description: Configure team data that you want to display on employee cards and modal in the Team members tab in Your team menu in in Employee Center. Team data configurations are required to support column configurations and filter configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-team-data.html
-release: australia
+release: brazil
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure team data
 
-Configure team data that you want to display on employee cards and modal in the Team members tab in Your team menu. Team data configurations are required to support column configurations and filter configurations.
+Configure team data that you want to display on employee cards and modal in the Team members tab in Your team menu in in Employee Center. Team data configurations are required to support column configurations and filter configurations.
 
 ## Before you begin
 
@@ -112,7 +112,7 @@ Option to add a script to retrieve the preferred records. This option allows you
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 

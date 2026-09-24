@@ -3,9 +3,9 @@ title: Install Customer Project Management
 description: You can install the Customer Project Management application \(com.snc.csm\_ppm\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-customer-project-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Customer Project Management, Integrate, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ You can install the Customer Project Management application \(com.snc.csm\_ppm\)
 
 ## Before you begin
 
-This plugin requires the Customer Service plugin \(com.sn\_customerservice\) and the PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
+This plugin requires the Case Management Core plugin \(com.sn\_customerservice\) and the PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
 
 The Customer Project Management application adds the **Customer Service** &gt; **Projects** module to the application navigator. Users with the customer project manager role can access this module.
 

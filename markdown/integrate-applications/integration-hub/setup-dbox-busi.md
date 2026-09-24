@@ -3,7 +3,7 @@ title: Set up Dropbox Business spoke
 description: Set up an outbound integration between a ServiceNow instance and a Dropbox Business application by setting up the connection and credential records.Set up an OAuth 2.0 authentication between the Dropbox Business application and the ServiceNow instance by setting up a custom Dropbox Business application.Create connection records to a Dropbox Business account. A connection alias resolves your Dropbox connection and credential at runtime. Only one connection is active per Connection Alias at a time.Create connection records to a Dropbox Business account for the DropboxBusinessFileAccess alias. Connection aliases resolve your Dropbox connection and credential at runtime. Only one connection is active per Connection Alias at a time.Create connection records to a Dropbox Business account for the DropboxBusinessContent alias. Connection aliases resolve your Dropbox connection and credential at runtime. Only one connection is active per Connection Alias at a time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-dbox-busi.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -84,7 +84,7 @@ This procedure creates a custom application on the Dropbox Business account. The
 
 ### What to do next
 
-[Create Connection and Credential records for the Dropbox Business Team Management alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dbox-busi.md)
+[Create Connection and Credential records for the Dropbox Business Team Management alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-dbox-busi.md)
 
 ## Create Connection and Credential records for the Dropbox Business Team Management alias
 
@@ -162,7 +162,7 @@ OAuth Client ID
 
 </td><td>
 
-The client ID that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
+The client ID that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
 
 </td></tr><tr><td>
 
@@ -170,7 +170,7 @@ OAuth Client Secret
 
 </td><td>
 
-The client secret that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
+The client secret that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
 
 </td></tr><tr><td>
 
@@ -188,7 +188,7 @@ The redirect URI that you had provided in the Dropbox business application.
 
 ### What to do next
 
-[Create Connection and Credential records for the Dropbox Business File Access alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dbox-busi.md)
+[Create Connection and Credential records for the Dropbox Business File Access alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-dbox-busi.md)
 
 ## Create Connection and Credential records for the Dropbox Business File Access alias
 
@@ -266,7 +266,7 @@ OAuth Client ID
 
 </td><td>
 
-The client ID that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
+The client ID that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
 
 </td></tr><tr><td>
 
@@ -274,7 +274,7 @@ OAuth Client Secret
 
 </td><td>
 
-The client secret that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
+The client secret that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
 
 </td></tr><tr><td>
 
@@ -292,7 +292,7 @@ The redirect URI that you had provided in the Dropbox business application.
 
 ### What to do next
 
-[Create Connection and Credential records for the Dropbox Content alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dbox-busi.md)
+[Create Connection and Credential records for the Dropbox Content alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-dbox-busi.md)
 
 ## Create Connection and Credential records for the Dropbox Content alias
 
@@ -370,7 +370,7 @@ OAuth Client ID
 
 </td><td>
 
-The client ID that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
+The client ID that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
 
 </td></tr><tr><td>
 
@@ -378,7 +378,7 @@ OAuth Client Secret
 
 </td><td>
 
-The client secret that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
+The client secret that you generated in the custom Dropbox Business application. To learn how to generate, see [Set up OAuth 2.0 authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-dbox-busi.md).
 
 </td></tr><tr><td>
 

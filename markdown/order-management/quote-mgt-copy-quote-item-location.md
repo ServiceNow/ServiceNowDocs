@@ -3,9 +3,9 @@ title: Copy locations for quote line items
 description: Use the copy location function to change the location of multiple quote line items in Quote Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-mgt-copy-quote-item-location.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -32,15 +32,15 @@ Role required: sales\_agent
 
 6.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d123213e143">
+<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d124128e143">
 
 Option
 
-</th><th align="left" id="d123213e148">
+</th><th align="left" id="d124128e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d123213e156">
+</th></tr></thead><tbody><tr><td id="d124128e156">
 
 **Keep original location**
 
@@ -48,7 +48,7 @@ Description
 
 Line items for the selected quote are created and the source location is retained.
 
-</td></tr><tr><td id="d123213e165">
+</td></tr><tr><td id="d124128e165">
 
 **Choose new location**
 
@@ -64,5 +64,5 @@ This action copies the quote line items to a new location.In the **Service locat
 7.  Select **Copy**.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

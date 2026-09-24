@@ -3,9 +3,9 @@ title: Examples of how to modify the banner
 description: There are various ways that you can modify the banner on your instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_ExamplesOfHowToModifyTheBanner.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a company profile, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Create a company profile, User interface configuration, Working in 
 
 There are various ways that you can modify the banner on your instances.
 
-**Note:** From the San Diego release on, configure banner announcements instead of updating **glide.product.description**. For more information, see [Configure Next Experience banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-banner-announcements.md).
+**Note:** From the San Diego release on, configure banner announcements instead of updating **glide.product.description**. For more information, see [Configure Next Experience banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-banner-announcements.md).
 
 ## Label multiple instances differently
 
@@ -66,7 +66,7 @@ background-repeat: ${banner.background.repeat};}
 
 **Note:** The banner image and banner text associated with the primary company or specific companies may be used instead of the **glide.product.image** and **glide.product.description** properties to get the same effect.
 
-**Parent Topic:**[Create a company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateACompanyProfile.md)
+**Parent Topic:**[Create a company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreateACompanyProfile.md)
 
 **Related topics**  
 

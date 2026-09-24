@@ -3,11 +3,11 @@ title: Extend or reduce duration of an assignment
 description: Extend or reduce the duration of an assignment from the grid view in the Resource Management Workspace when the work duration shifts. The system updates the assignment dates and recalculates the allocated effort across the new date range based on the effort redistribution property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/extend-reduce-assignment-time-rmw.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [extend assignment, reduce assignment, resource assignment dates, resource management workspace]
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Extend or reduce the duration of an assignment from the grid view in the Resourc
 
 ## Before you begin
 
--   Enable the com.snc.resource\_management.redistribute\_effort\_on\_extend\_reduce property from system properties. For more information, see [Resource Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_ResourceProperties.md).
+-   Enable the com.snc.resource\_management.redistribute\_effort\_on\_extend\_reduce property from system properties. For more information, see [Resource Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/r_ResourceProperties.md).
 -   Captured actual efforts aren't affected.
 -   Role required: it\_project\_manager or resource\_manager
 
@@ -44,5 +44,5 @@ Extend or reduce the duration of an assignment from the grid view in the Resourc
 
 Once the dates are updated, the initial effort is recalculated for the entire assignment duration including the new date range.
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/using-rmw.md)
 

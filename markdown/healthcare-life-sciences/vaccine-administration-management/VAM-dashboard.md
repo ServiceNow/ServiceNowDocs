@@ -3,11 +3,11 @@ title: Vaccine Administration Management dashboard
 description: Use the Vaccine Administration Management dashboard to view vaccine appointments by day, week, and month. You can view scheduled, completed, and no-show appointments, as well as filter appointments by the vaccine center, date, method, and clinician.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/VAM-dashboard.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -220,5 +220,5 @@ Select Multiple Input
 Filter the report results based on the selected clinician.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/using-vaccine-administration-management.md)
+</table>**Parent Topic:**[Using Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/using-vaccine-administration-management.md)
 

@@ -3,11 +3,11 @@ title: Software Publisher Analytics dashboard for VMware in Software Asset Manag
 description: View compliance analysis results related to VMware on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/dashboard-vmware.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Software Asset Management publisher pack for VMware, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -26,7 +26,7 @@ The dashboard is updated whenever a new reconciliation result is available. You 
 
 Information from VMware vCenter software is discovered and used for VMware reconciliation. Discovery uses these probes and populates these tables:
 
--   [vCenter probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/vcenter-probes.md) VMware — vCenter ESX Hosts License
+-   [vCenter probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/vcenter-probes.md) VMware — vCenter ESX Hosts License
 -   VMware Discovered License Key \[samp\_vmware\_license\_key\] and VMware Discovered License Key Consumption \[samp\_vmware\_license\_key\_usage\] tables
 
 **Note:** The add-on VMware publisher pack \(com.sn\_samp\_vmware\) plugin must be installed to view the VMware dashboard tab.
@@ -55,7 +55,7 @@ Product Results
 
 </td><td>
 
-Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
+Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -144,5 +144,5 @@ Number of products in each software lifecycle phase, including End of Extended S
 </td></tr></tbody>
 </table>The **vSphere Deployment** related link shows the VMware Discovered License Key Consumptions list.
 
-**Parent Topic:**[Software Asset Management publisher pack for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/vmware-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/vmware-publisher-pack.md)
 

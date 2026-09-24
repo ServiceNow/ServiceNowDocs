@@ -3,11 +3,11 @@ title: Edit an incident prediction model in Task Intelligence for ITSM
 description: Edit either the Similar Incidents or Incident Categorization model that has already been trained and deployed. Change the model configurations, view the updated training results, and redeploy the model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/edit-your-model.html
-release: australia
+release: brazil
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [incident prediction model, Similar Incidents, Incident Categorization, Task Intelligence for ITSM, retrain model, redeploy model, prediction preferences, training results, machine learning, model configuration, edit prediction model, compare model results]
 audience: administrator
@@ -20,7 +20,7 @@ Edit either the Similar Incidents or Incident Categorization model that has alre
 
 ## Before you begin
 
-A prediction model must already be created, trained, and deployed. For more information on how to create a model, see [Managing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md).
+A prediction model must already be created, trained, and deployed. For more information on how to create a model, see [Managing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md).
 
 Role required: sn\_ti\_admin.tia\_admin or sn\_itsm\_ml\_task.ti\_admin
 
@@ -34,7 +34,7 @@ Resetting your prediction preferences enables you to change how visible the pred
 
 While you can retest your prediction model, it doesn’t change the prediction skills. Edit your prediction model to reset your prediction preferences. Edit your prediction models to retrain the models with new data, predict different fields, or change the prediction preferences.
 
-When you edit a model, select **View the current training results** to review how the model performs without retraining it. Reviewing results this way doesn't change the model's predictions. To change what the model predicts, select the retrain option, choose new data or fields, train, and then redeploy the model. For more information on reviewing results, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
+When you edit a model, select **View the current training results** to review how the model performs without retraining it. Reviewing results this way doesn't change the model's predictions. To change what the model predicts, select the retrain option, choose new data or fields, train, and then redeploy the model. For more information on reviewing results, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
 
 Changes aren’t saved until you redeploy the model. The updated model replaces the previous model.
 
@@ -75,5 +75,5 @@ Changes aren’t saved until you redeploy the model. The updated model replaces 
 
 Your updated model is deployed.
 
-**Parent Topic:**[Managing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md)
+**Parent Topic:**[Managing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md)
 

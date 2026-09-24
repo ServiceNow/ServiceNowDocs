@@ -3,9 +3,9 @@ title: Configure the edit option
 description: You can configure the edit option that allows users to add records to related lists in forms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfigureTheEditOption.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -35,7 +35,7 @@ The **Edit** button is available for related lists that represent many-to-many a
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_qwf_wjx_5t"><tbody><tr><td id="d116221e126">
+<table id="choicetable_qwf_wjx_5t"><tbody><tr><td id="d116965e126">
 
 **Show the Edit option**
 
@@ -43,7 +43,7 @@ The **Edit** button is available for related lists that represent many-to-many a
 
 Clear the **Omit edit button** check box.
 
-</td></tr><tr><td id="d116221e138">
+</td></tr><tr><td id="d116965e138">
 
 **Hide the Edit option**
 
@@ -51,7 +51,7 @@ Clear the **Omit edit button** check box.
 
 Select the **Omit edit button** check box.
 
-</td></tr><tr><td id="d116221e150">
+</td></tr><tr><td id="d116965e150">
 
 **Show the Edit option if the check box is cleared and the button does not appear.**
 
@@ -75,7 +75,7 @@ Click **Enable Edit**.
 5.  Click **Update**.
 
 
-**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 

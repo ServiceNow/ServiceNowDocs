@@ -3,9 +3,9 @@ title: Users page
 description: The Users page shows the lists of both active and inactive users in your Discovery Console for OT system. You can access the Discovery Console for OT through user accounts available in the system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/users-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -59,18 +59,18 @@ When creating user accounts, you can assign the following roles.
 |Reader|Can view the Discovery Console for OT with read-only permissions.|
 |User|Can access the Discovery Console for OT with limited permissions.|
 
-**Note:** For more information, see [Set up a Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-entra-id-setup.md) next.
+**Note:** For more information, see [Set up a Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/users-entra-id-setup.md) next.
 
--   **[Set up a Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/users-entra-id-setup.md)**  
+-   **[Set up a Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/users-entra-id-setup.md)**  
 This section describes how a Discovery Console for OT user can set up an **Microsoft Entra ID** integration.
--   **[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-user-ot-console.md)**  
+-   **[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/create-user-ot-console.md)**  
 Create a user account that can access the Discovery Console for OT.
--   **[Edit a user's information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-user-information.md)**  
+-   **[Edit a user's information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/edit-user-information.md)**  
 Edit a User's information and keep the user account up to date.
--   **[Force a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/reset-users-password.md)**  
+-   **[Force a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/reset-users-password.md)**  
 Force a user to reset their password.
--   **[Deactivate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/remove-user.md)**  
+-   **[Deactivate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/remove-user.md)**  
 Deactivating a user verifies that they can't access the Discovery Console for OT.
 
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-discovery-console.md)
+**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/using-discovery-console.md)
 

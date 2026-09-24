@@ -3,11 +3,11 @@ title: Summarize a dispute or claims case with case summarization
 description: Generate a summary from the defined fields on the case record and quickly understand the case context by using the case summarization skill in the ServiceNow Otto for Financial Services Operations \(FSO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/summarize-case-using-now-assist-fso.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [generative AI for financial services operations generate summary, generative AI for FSO generate summary]
 breadcrumb: [Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -50,21 +50,23 @@ If there’s enough data, the Case summary component displays the **Summarize** 
 
 2.  In the Case Summary component, select **Summarize**.
 
+    \[Omitted image "now-assist-fso-summarize-dispute.png"\] Alt text: Selecting Summarize generates a case summary for the dispute or claims case.
+
     The Case Summary component appears next to the claim details panel or case information panel. The component is collapsed by default and expands to display the summary. For longer summaries that don't fit the window, select **View more** and use the scroll bar to view the rest of the content.
 
     **Note:** Generating and displaying the summary may take several seconds.
 
 3.  When you're finished summarizing a case, you can perform additional actions.
 
-<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d35199e231">
+<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d35225e238">
 
 Option
 
-</th><th align="left" id="d35199e234">
+</th><th align="left" id="d35225e241">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d35199e240">
+</th></tr></thead><tbody><tr><td id="d35225e247">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -75,7 +77,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d35199e267">
+</td></tr><tr><td id="d35225e274">
 
 **Expand or collapse the summary**
 
@@ -83,7 +85,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d35199e288">
+</td></tr><tr><td id="d35225e295">
 
 **Provide feedback for the summary**
 
@@ -91,7 +93,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d35199e311">
+</td></tr><tr><td id="d35225e318">
 
 **Copy the case summary**
 
@@ -99,7 +101,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d35199e327">
+</td></tr><tr><td id="d35225e334">
 
 **Refresh the case summary**
 
@@ -107,7 +109,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 Select the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon.\) to reload the case summary with any new information that was added to the case.
 
-</td></tr><tr><td id="d35199e342">
+</td></tr><tr><td id="d35225e349">
 
 **View the information about the case summary**
 
@@ -117,5 +119,5 @@ If you want to check some details about the summary, select the more info icon \
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-disputes.md)
+**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/managing-disputes.md)
 

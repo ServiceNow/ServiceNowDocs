@@ -3,11 +3,11 @@ title: Create table
 description: Create an attribute pack table with the attributes that you define in the Telecommunications Network Inventory application so that you can use these attributes in the CI record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-pack-table.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Attribute pack table, Configure, Telecommunications Network Inventory]
 ---
@@ -58,9 +58,9 @@ The pack table is created with a set of attributes.
 
 ## What to do next
 
-To use the pack table in inventory forms, you must configure it to map with the inventory objects. To learn more, see [Configure an attribute pack table against a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-packs-for-a-ci-form.md).
+To use the pack table in inventory forms, you must configure it to map with the inventory objects. To learn more, see [Configure an attribute pack table against a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-packs-for-a-ci-form.md).
 
-**Parent Topic:**[Configuring an attribute pack table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-pack-table.md)
+**Parent Topic:**[Configuring an attribute pack table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-pack-table.md)
 
 **Related topics**  
 

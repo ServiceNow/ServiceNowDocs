@@ -3,11 +3,11 @@ title: Requested item state mapping
 description: Map your requested items states to the universal request \(UR\) states to provide a better user experience during the requested item state transition and to track the progress of the request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/req-item-state-mapping.html
-release: australia
+release: brazil
 product: Request Management
 classification: request-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request Management integration with Universal Request, Configure, Request Management, IT Service Management]
 ---
@@ -54,8 +54,8 @@ If you change the state of the request to Close Incomplete, Closed Skipped, or C
 
 3.  On the form, fill in the fields.
 
-    For more information, see [State mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/ur-state-mapping-form.md).
+    For more information, see [State mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/ur-state-mapping-form.md).
 
 
-**Parent Topic:**[Request Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-mgmt-integration-ur.md)
+**Parent Topic:**[Request Management integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-management/request-mgmt-integration-ur.md)
 

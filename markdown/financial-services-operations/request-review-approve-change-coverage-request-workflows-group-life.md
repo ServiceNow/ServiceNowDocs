@@ -3,9 +3,9 @@ title: Request, review, and approve change membership request workflows
 description: Learn how agents, using the change member info workflows, resolve service requests for requesting, reviewing, and approving group life insurance member change requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/request-review-approve-change-coverage-request-workflows-group-life.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---

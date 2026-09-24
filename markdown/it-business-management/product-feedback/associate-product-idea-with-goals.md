@@ -3,11 +3,11 @@ title: Associate a product idea with a goal
 description: Create a goal relationship by associating one or more product ideas with goals. Focus and target on product ideas by defining specific goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/associate-product-idea-with-goals.html
-release: australia
+release: brazil
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ Role required: pf\_user or apw\_user or goal\_user
 
 2.  Select **Feedback**.
 
-3.  Select **Product idea** and then [Create product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-product-idea-in-sp.md).
+3.  Select **Product idea** and then [Create product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/create-product-idea-in-sp.md).
 
 4.  From the Product ideas List, select one or multiple ideas to associate.
 
@@ -34,7 +34,7 @@ Role required: pf\_user or apw\_user or goal\_user
 
 6.  From the Goal list, select a goal.
 
-    For more information on goals, see [Align a planning item with goals or targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.md).
+    For more information on goals, see [Align a planning item with goals or targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.md).
 
 7.  If you want to set a goal as primary goal, then select the **Primary goal** check box.
 

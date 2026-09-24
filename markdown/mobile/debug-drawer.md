@@ -3,9 +3,9 @@ title: Display mobile screen performance data
 description: Display performance-related data, like SQL counts, business rules, and REST API responses in a debug drawer at the bottom of the screen. This data enables administrators to measure the performance of each mobile screen and to identify any performance issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/debug-drawer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile app settings, Using the mobile apps, Mobile Platform]
 ---
@@ -49,15 +49,15 @@ Debug drawer displayed with screen data
 
 3.  Choose from the following option to either enable or disable the debug drawer option.
 
-<table id="choicetable_oh3_m3c_z4b"><thead><tr><th align="left" id="d115480e122">
+<table id="choicetable_oh3_m3c_z4b"><thead><tr><th align="left" id="d115906e122">
 
 Option
 
-</th><th align="left" id="d115480e125">
+</th><th align="left" id="d115906e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d115480e131">
+</th></tr></thead><tbody><tr><td id="d115906e131">
 
 **Enable debug drawer**
 
@@ -70,7 +70,7 @@ The **Debug Drawer** option displays in the settings page.
 2.  Enable **Debug Drawer**, to display the debug drawer on each screen.
 
 
-</td></tr><tr><td id="d115480e160">
+</td></tr><tr><td id="d115906e160">
 
 **Disable debug drawer**
 

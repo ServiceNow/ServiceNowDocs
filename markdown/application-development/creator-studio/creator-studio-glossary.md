@@ -3,20 +3,20 @@ title: Creator Studio glossary
 description: Learn about the terms and concepts used in Creator Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-glossary.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reference, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, Creator Studio, Developing your application, Building applications]
 ---
 
 # Creator Studio glossary
 
 Learn about the terms and concepts used in Creator Studio.
 
-**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-reference.md)
+**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-reference.md)
 
 ## activity
 
@@ -106,7 +106,7 @@ Someone requesting something, like a piece of equipment or permission to do some
 
 ## target table
 
-The table where apps created in Creator Studio store their requests. Admininstrators can change the table that an app saves its data to. For more information, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-admin-app-table.md).
+The table where apps created in Creator Studio store their requests. Admininstrators can change the table that an app saves its data to. For more information, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-admin-app-table.md).
 
 ## trigger
 

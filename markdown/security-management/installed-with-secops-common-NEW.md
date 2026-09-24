@@ -3,9 +3,9 @@ title: View components installed with Security Support Common
 description: Several types of components are installed when you activate the Security Support Common plugin including but not limited to tables, user roles, and modules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/installed-with-secops-common-NEW.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with Security Support Common, Security Operations common functionality, Security Operations]
 ---
@@ -16,7 +16,7 @@ Several types of components are installed when you activate the Security Support
 
 ## Locating components
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 If you want to limit the list of installed components to roles, scheduled jobs, and tables for the Security Support Common application, follow these steps:
 
@@ -31,5 +31,5 @@ Filter the Applications Files table so that only the roles, scheduled jobs, and 
 
 The results for the class you selected are displayed in a filtered list.
 
-**Parent Topic:**[Components installed with Security Support Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-with-sec-sup-common.md)
+**Parent Topic:**[Components installed with Security Support Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-with-sec-sup-common.md)
 

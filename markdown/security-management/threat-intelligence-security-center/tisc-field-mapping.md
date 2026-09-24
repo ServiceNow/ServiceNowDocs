@@ -3,11 +3,11 @@ title: Configure Custom Field Mapping
 description: Field Mapping allows you to configure how each field in a data feed such as Text, CSV or JSON is interpreted and assigned to the corresponding observable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-field-mapping.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -30,11 +30,11 @@ Role required: sn\_sec\_tisc.admin
 
 4.  Fill in the text feed form details as required.
 
-    For more information see, [Configure a new threat intelligence feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-new-data-source.md).
+    For more information see, [Configure a new threat intelligence feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-new-data-source.md).
 
 5.  On the new form view, drill down to **Data Parsing Mechanism** field under the **Configuration** section.
 
-    For more information on Data Parsing Mechanism, see [Configure a new threat intelligence feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-new-data-source.md).
+    For more information on Data Parsing Mechanism, see [Configure a new threat intelligence feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-new-data-source.md).
 
 6.  Select **Custom Field Mapping** option.
 
@@ -134,5 +134,5 @@ Role required: sn\_sec\_tisc.admin
     Always verify the sample data after changes to ensure correct parsing before running the integration.
 
 
-**Parent Topic:**[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)
+**Parent Topic:**[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)
 

@@ -3,9 +3,9 @@ title: ActionSet actions properties
 description: The ActionSet component performs multiple actions and each action has distinct properties. You can update the properties to modify the behavior of the actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/actionset-actions-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Actions \(UI\), Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -264,5 +264,5 @@ Option to specify the location of the green plus icon \(\[Omitted image "green-p
 |X|Option to specify the location of the green plus icon \(\[Omitted image "green-plus-icon.png"\] Alt text: Green plus icon.\) along the X-axis relative to the anchor.|
 |Y|Option to specify the location of the green plus icon \(\[Omitted image "green-plus-icon.png"\] Alt text: Green plus icon.\) along the Y-axis relative to the anchor.|
 
-**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actions-ui.md)
+**Parent Topic:**[Actions \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/actions-ui.md)
 

@@ -3,11 +3,11 @@ title: Bookmark apps and app files in ServiceNow Studio
 description: Bookmark apps and app files in ServiceNow Studio so you can access them quickly from the Bookmarks tab in the Navigator panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/bookmark-apps-and-app-files.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -26,36 +26,36 @@ Role required: admin or delegated\_developer
 
 2.  Select the Add to bookmarks icon from one of the following locations in ServiceNow Studio.
 
-<table id="choicetable_i33_ry1_qcc"><thead><tr><th align="left" id="d42811e114">
+<table id="choicetable_i33_ry1_qcc"><thead><tr><th align="left" id="d42363e114">
 
 Location in ServiceNow Studio
 
-</th><th align="left" id="d42811e119">
+</th><th align="left" id="d42363e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42811e125">
+</th></tr></thead><tbody><tr><td id="d42363e125">
 
 **Home page**
 
 </td><td>
 
 1.  Under **Recently opened files** or **Recently opened apps**, locate the app or file you want to bookmark.
-2.  Select the Add to bookmarks icon \[Omitted image "sn-studio-bookmark-icon.png"\] Alt text: on the app or file card.
+2.  Select the Add to Collections icon \[Omitted image "sn-studio-collections-icon.png"\] Alt text: on the app or file card.
  \[Omitted image "sn-studio-recently-opened.png"\] Alt text: Bookmark apps and files from the Recently opened section on the home page.
 
-</td></tr><tr><td id="d42811e161">
+</td></tr><tr><td id="d42363e161">
 
 **Navigator panel**
 
 </td><td>
 
-1.  Select the Apps icon \[Omitted image "sn-studio-app-nav-icon.png"\] Alt text: to display all apps, or select the File Categories icon to display all files.
+1.  Select the Apps icon \[Omitted image "sn-studio-apps-icon.png"\] Alt text: to display all apps, or select the File Categories icon to display all files.
 2.  Hover over the app or file you want to bookmark.
-3.  Select the Add to bookmarks icon \[Omitted image "sn-studio-bookmark-icon.png"\] Alt text:.
- \[Omitted image "sn-studio-bookmark-file.png"\] Alt text: Bookmark a file directly from the Navigator panel.
+3.  Select the Add to Collections icon \[Omitted image "sn-studio-collections-icon.png"\] Alt text:.
 
-</td></tr><tr><td id="d42811e199">
+
+</td></tr><tr><td id="d42363e192">
 
 **Open tab**
 
@@ -65,10 +65,10 @@ Steps
 
 **Note:** If the app you want to bookmark is open in a separate tab, select the tab to bring it into focus in the canvas.
 
-2.  Select the Add to bookmarks icon \[Omitted image "sn-studio-bookmark-icon.png"\] Alt text: next to the application name.
- \[Omitted image "sn-studio-bookmark-app.png"\] Alt text: Bookmark an app by opening it in the canvas and selecting Add to bookmarks.
+2.  Select the Add to Collections icon \[Omitted image "sn-studio-collections-icon.png"\] Alt text: next to the application name.
+ \[Omitted image "sn-studio-bookmark-app-bs1.png"\] Alt text: Bookmark an app by opening it in the canvas and selecting Add to Collections, then selecting the bookmarks collection.
 
-</td></tr><tr><td id="d42811e231">
+</td></tr><tr><td id="d42363e224">
 
 **App details page**
 
@@ -80,10 +80,10 @@ Steps
 \[Omitted image "sn-studio-bm-from-app-details.png"\] Alt text: Bookmark a file from the App details page for quick access.
 
 </td></tr></tbody>
-</table>3.  To view your bookmarked apps and files, select the Bookmarks icon \[Omitted image "sn-studio-bookmark-icon.png"\] Alt text: in the Navigator panel.
+</table>3.  To view your bookmarked apps and files, select the Collections icon \[Omitted image "sn-studio-collections-icon.png"\] Alt text: in the Navigator panel.
 
-    Your bookmarked apps and files appear in the Bookmarks tab, organized by file type.
+    Your bookmarked apps and files appear in the Collections tab in the Bookmarks collection, organized by file type.
 
 
-**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
+**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
 

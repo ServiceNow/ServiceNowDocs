@@ -3,9 +3,9 @@ title: Enable a quiz retake
 description: You can configure a quiz to allow recipients to resubmit their answers as many times as they like, until the quiz's due date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_EnableAQuizRetake.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quiz designer, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,15 +30,15 @@ Results are not calculated until the quiz's configured duration has elapsed. The
 
 3.  Open the quiz.
 
-4.  In the [Assessment Metric Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md) form, select the **Allow retake** check box and save the record.
+4.  In the [Assessment Metric Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md) form, select the **Allow retake** check box and save the record.
 
 
-**Parent Topic:**[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
+**Parent Topic:**[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_QuizDesigner.md)
 
 **Related topics**  
 
 
-[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
+[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_QuizDesigner.md)
 
-[Publish a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PublishaQuiz.md)
+[Publish a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_PublishaQuiz.md)
 

@@ -3,11 +3,11 @@ title: Matrix Loader
 description: Learn how the Matrix Loader accelerates configuration management by simplifying large-scale data creation, updates, and migrations across your CPQ environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/matrix\_loader\_table\_of\_contents.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Matrix Loader
@@ -75,11 +75,11 @@ The Matrix Loader performs uploads in a controlled sequence to maintain relation
 **Related topics**  
 
 
-[Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using-the-matrix-loader.md)
+[Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-using-the-matrix-loader.md)
 
-[Matrix Loader CSV fields and field options upload and export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-matrix-loader-csv-fields-and-field-options-upload-and-export.md)
+[Matrix Loader CSV fields and field options upload and export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-matrix-loader-csv-fields-and-field-options-upload-and-export.md)
 
-[Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/matrix_loader_csv_rules_upload.md)
+[Matrix Loader: CSV rules upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/matrix_loader_csv_rules_upload.md)
 
-[Matrix Loader: CSV table upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-matrix-loader-csv-table-upload.md)
+[Matrix Loader: CSV table upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-matrix-loader-csv-table-upload.md)
 

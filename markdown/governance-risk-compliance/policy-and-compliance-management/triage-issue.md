@@ -3,11 +3,11 @@ title: Triage a self-identified issue
 description: After an issue has been identified and submitted by employees or business users via the Service Portal, the issue triage process begins. The actual problem is identified and assigned to the appropriate owner for prioritization and resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/triage-issue.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Report self-identified issues, Manage issues, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -175,5 +175,5 @@ Ability to resolve the reportable issue assigned to them
     One significant change on the **Issue** form is the addition of an **Issue Triages** related list. Opening the triage record provides the analyst with the details of the triage that resulted in the creation of this issue.
 
 
-**Parent Topic:**[Report self-identified issues via the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/create-self-identified-issues.md)
+**Parent Topic:**[Report self-identified issues via the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/create-self-identified-issues.md)
 

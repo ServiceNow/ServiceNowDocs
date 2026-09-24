@@ -3,14 +3,14 @@ title: Guided tours in Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP guided tours are interactive walkthroughs that show you how to use product features, such as configuring a connection or working with models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/guided-tours-in-erp-canvas.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-05"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, learn, practice, guide, tour, adoption]
-breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Guided tours in Zero Copy Connector for ERP
@@ -21,7 +21,7 @@ Zero Copy Connector for ERP guided tours are interactive walkthroughs that show 
 
 Guided tours are part of the default ServiceNow platform. Some guided tours are available to take, and you can use the Guided Tours application to create custom tours in your own instances.
 
-Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/exploring-guided-tours.md).
+Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/exploring-guided-tours.md).
 
 ## Accessing and using Zero Copy Connector for ERP guided tours
 
@@ -138,4 +138,5 @@ Zero Copy Connector for ERP models list page
 Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home** and select the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text:.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
+

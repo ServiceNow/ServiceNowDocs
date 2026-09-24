@@ -3,9 +3,9 @@ title: Configure the Edge status configurations
 description: Configure the Edge status configurations for the selected Nexus map configuration. You can customize the display of connectors that meet specific conditions by assigning them distinct colors and connector types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-edge-status-configurations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Edge configurations, Configure the Main node configurations, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_oper\_res.admin
 
     \[Omitted image "edge-status-new-config.png"\] Alt text: Edge status configuration.\[Omitted image "edge-status-config-example.png"\] Alt text: Edge status configuration example.
 
-    For more information on the fields, see [Edge status configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/edge-status-configuration-form.md).
+    For more information on the fields, see [Edge status configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/edge-status-configuration-form.md).
 
     The Edge status configuration record is displayed in which the **Edge configuration** and **Relationship table** are auto-populated.
 

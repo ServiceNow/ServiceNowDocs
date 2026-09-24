@@ -1,24 +1,24 @@
 ---
-title: Add staff members to a business organization in the Business Organization Support Portal
-description: Add users as staff members to a business organization \(formerly business location\) to support accounts, contacts, consumers, and households.
+title: Add staff members to a business organization in the Business Location Service Portal
+description: Add users as staff members to a business organization to support accounts, contacts, consumers, and households.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-staff-memers-to-biz-location.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using the Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Location Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Add staff members to a business organization in the Business Organization Support Portal
+# Add staff members to a business organization in the Business Location Service Portal
 
-Add users as staff members to a business organization \(formerly business location\) to support accounts, contacts, consumers, and households.
+Add users as staff members to a business organization to support accounts, contacts, consumers, and households.
 
 ## Before you begin
 
 Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_location\_manager, sn\_customerservice.svc\_location\_manager\_contributor, and sn\_bus\_loc.location\_relationship\_manager
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 ## About this task
 
@@ -31,7 +31,7 @@ Add internal and external members to a business organization. You can add both i
 
 ## Procedure
 
-1.  Navigate to **Home** &gt; **Busines Location Support** &gt; **Services**.
+1.  Navigate to **Home** &gt; **Support** &gt; **Services**.
 
 2.  Select **Register Member at External Organization** to open the Register Member at External Organization record.
 
@@ -130,17 +130,16 @@ Once a staff member is added to a business organization, the following details c
 
 -   Cases Requested
 -   Members
--   Available Services
 -   Accounts
 -   Consumers
--   Households
--   Child Business Locations
+-   Products
+-   Install Base
 -   Projects
 
 **Related topics**  
 
 
-[Create cases for a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/report-cases-on-behalf-of-biz-location.md)
+[Create cases for a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/report-cases-on-behalf-of-biz-location.md)
 
-[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-cases-for-blsp-portal.md)
+[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-cases-for-blsp-portal.md)
 

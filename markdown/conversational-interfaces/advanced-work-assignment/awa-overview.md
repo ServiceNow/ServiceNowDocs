@@ -3,11 +3,11 @@ title: Exploring Advanced Work Assignment
 description: Use Advanced Work Assignment \(AWA\) to automatically assign work items to your agents, based on their availability, capacity, and optionally, skills. AWA pushes work to qualified agents using work item queues, routing conditions, and assignment criteria that you define. Agents see their assignments in their Agent Workspace inbox.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-overview.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -32,7 +32,7 @@ See the following diagram to learn more about the Advanced Work Assignment proce
 
 \[Omitted image "awa-overview-flow.png"\] Alt text: Diagram that shows the main components in Advanced Work Assignment: work items in service channels, routing work items to queues, and assigning work items to agents.
 
-Navigate to [**Advanced Work Assignment** &gt; **Home**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-admin-console-home.md) to start exploring AWA features.
+Navigate to [**Advanced Work Assignment** &gt; **Home**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-admin-console-home.md) to start exploring AWA features.
 
 ## Benefits
 
@@ -56,7 +56,7 @@ By automating the assignment of work tasks, AWA eliminates manual efforts involv
 
 </td><td>
 
-[Work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-assignment.md)
+[Work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-assignment.md)
 
 </td><td>
 
@@ -68,7 +68,7 @@ AWA helps organizations make the best use of available resources by matching the
 
 </td><td>
 
-[Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md)
+[Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md)
 
 </td><td>
 
@@ -80,7 +80,7 @@ AWA ensures a fair and balanced distribution of work tasks among resources. It t
 
 </td><td>
 
-[Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/agent-experience.md)
+[Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/agent-experience.md)
 
 </td><td>
 
@@ -89,35 +89,35 @@ awa\_admin or admin
 </td></tr></tbody>
 </table>## Advanced Work Assignment components
 
--   **[Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-service-channels.md)**
+-   **[Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-service-channels.md)**
 
     A means of providing customer service. AWA offers base system channels for chats, cases, incidents, and walk-up centers. For each channel, you can set attributes such as agent capacity and utilization conditions to control the work handled in the channel.
 
--   **[Work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-work-items.md)**
+-   **[Work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-work-items.md)**
 
     A single piece of work handled by an agent from start to completion. For example, one chat or one case is an object that is routed and assigned to agents.
 
--   **[Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-queues.md)**
+-   **[Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-queues.md)**
 
     A queue stores a specific type of work item for a service channel. AWA admins can create queues that focus on certain types of support within the channel, such as VIP customers or critical cases. AWA routes work items to queues based on specific conditions or requirements that you define, such as customer status, or region. Groups assigned to each queue handle the incoming work items. After work items are placed in a queue, AWA can then assign items to available agents based on assignment rules and agent availability and capacity.
 
--   **[Assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-groups.md)**
+-   **[Assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-groups.md)**
 
     Agents belong to specific groups organized by the type of work assigned to them. You provide details about an assignment group including the name and description, manager, and group email. You can also set up roles, groups and group members, queues, and agent capacity overrides for agents in an assignment group.
 
--   **[Assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md)**
+-   **[Assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md)**
 
     Criteria that determines how work items are pushed to the appropriate agent within a qualified assignment group.
 
--   **[Agent capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-agent-presence.md)**
+-   **[Agent capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-agent-presence.md)**
 
-    The maximum number of work items on a particular service channel that an agent may actively work on at one time. If you want to set a maximum capacity for an agent across all service channels, define the maximum universal capacity for that agent. For information on configuring the maximum universal capacity, see [Configure an agent's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-universal-capacity.md). Messaging Interactions in an On Hold state aren’t calculated as part of an agent's capacity.
+    The maximum number of work items on a particular service channel that an agent may actively work on at one time. If you want to set a maximum capacity for an agent across all service channels, define the maximum universal capacity for that agent. For information on configuring the maximum universal capacity, see [Configure an agent's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-universal-capacity.md). Messaging Interactions in an On Hold state aren’t calculated as part of an agent's capacity.
 
--   **[Agent availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-agent-presence.md)**
+-   **[Agent availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-agent-presence.md)**
 
     States that indicate agent presence and whether the agent is available for work or is busy or offline. AWA uses the agent availability state to determine if an agent is able to receive work.
 
--   **[Inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md)**
+-   **[Inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md)**
 
     A configuration tied to a service channel that defines which fields of a record representing a work item are shown in agent inboxes. A layout defines what the agent sees in Agent Workspace.
 

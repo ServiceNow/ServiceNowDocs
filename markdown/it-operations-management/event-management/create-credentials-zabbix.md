@@ -3,11 +3,11 @@ title: Create Zabbix server credentials
 description: Create credentials to access Zabbix server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-credentials-zabbix.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure event collection from Zabbix server, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -45,10 +45,10 @@ Role required: evt\_mgmt\_admin
 
 The Basic Auth credential for use with the Zabbix server connector is created.
 
-**Parent Topic:**[Configure event collection from Zabbix server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureZabbixConnector.md)
+**Parent Topic:**[Configure event collection from Zabbix server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureZabbixConnector.md)
 
 **Related topics**  
 
 
-[Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md)
+[Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r-credentials.md)
 

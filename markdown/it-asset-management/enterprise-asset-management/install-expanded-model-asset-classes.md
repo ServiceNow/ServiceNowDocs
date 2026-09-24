@@ -3,11 +3,11 @@ title: Install Expanded Model and Asset Classes
 description: You can install the Expanded Model and Asset Classes application \(sn\_ent\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-expanded-model-asset-classes.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Expanded Model and Asset Classes, Enterprise Asset Management, Asset Management]
 ---

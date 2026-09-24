@@ -3,9 +3,9 @@ title: Add sites to the always cancel list
 description: You can add UI pages or other links to the always cancel list so that users can cancel actions on these pages by navigating to another module or link.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_AddSitesAlwaysCancelWhiteList.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Navigation action cancellation, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -35,7 +35,7 @@ User actions can always cancel items on the list. You should only add items to t
 5.  Select **Update**.
 
 
-**Parent Topic:**[Navigation action cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CancelingNavigationActions.md)
+**Parent Topic:**[Navigation action cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_CancelingNavigationActions.md)
 
 **Related topics**  
 

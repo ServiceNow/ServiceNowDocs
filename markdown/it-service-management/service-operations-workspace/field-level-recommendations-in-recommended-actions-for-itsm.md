@@ -3,11 +3,11 @@ title: Field level recommendations in Recommended Actions for ITSM
 description: ITSM base system includes the following field level recommendations for incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/field-level-recommendations-in-recommended-actions-for-itsm.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommended Actions for ITSM reference, Recommended Actions for ITSM in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -23,5 +23,5 @@ ITSM base system includes the following field level recommendations for incident
 |Configuration item \(Classification\)|Returns Predictive Intelligence based field predictions in the Configuration item field of the current incident.|
 |Incident Fields value prediction \(TI\)|Returns Task Intelligence for ITSM based field predictions in the Service Assignment Group, Configuration item fields of the current incident.|
 
-**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
+**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
 

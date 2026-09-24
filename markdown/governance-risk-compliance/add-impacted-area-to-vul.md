@@ -3,9 +3,9 @@ title: Add the impacted area
 description: Add an impacted area or an object to the operational vulnerability record in the Operational Resilience Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-impacted-area-to-vul.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Beginning with Release 20.1.x, the Operational Resilience application supports t
 
 4.  On the Impacted area form, fill in the fields.
 
-    To view more information on the fields, see the [Impacted area form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/impacted-area-form.md).
+    To view more information on the fields, see the [Impacted area form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/impacted-area-form.md).
 
 5.  Select **Save**.
 

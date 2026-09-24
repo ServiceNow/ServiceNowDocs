@@ -3,11 +3,11 @@ title: Search Suggestions tables
 description: Search Suggestions uses tables to generate and track relevant search suggestions. You can review data from these tables to gain insight into search suggestions offered in your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-suggestions/understanding-search-suggestion-tables.html
-release: australia
+release: brazil
 product: Search Suggestions
 classification: search-suggestions
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Installed with Search Suggestions, Search Suggestions reference, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Installed with Search Suggestions, Search Suggestions reference, Se
 
 Search Suggestions uses tables to generate and track relevant search suggestions. You can review data from these tables to gain insight into search suggestions offered in your system.
 
-**Note:** Because the Search Suggestions tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see [Reporting on system tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ReportOnSystemTables.md).
+**Note:** Because the Search Suggestions tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see [Reporting on system tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_ReportOnSystemTables.md).
 
 ## Search Event table
 

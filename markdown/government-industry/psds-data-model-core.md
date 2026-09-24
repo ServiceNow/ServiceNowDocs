@@ -3,9 +3,9 @@ title: Public Sector Digital Services Core Data Model
 description: Public Sector Digital Services Core application provides a framework to enable institutions to organize and manage their data effectively to meet their business needs. This section introduces Public Sector Digital Services Core and explains its purpose and key data design components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-core.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -20,8 +20,8 @@ The following logical diagram shows the tables and their relationships that buil
 
 \[Omitted image "psds-datamodel-core-q3-2026.png"\] Alt text: Public Sector Digital Services Core Data Model
 
--   **[Tables and Flows installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-core-tables.md)**  
+-   **[Tables and Flows installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-core-tables.md)**  
 This section describes the tables and flows installed with the Public Sector Digital Services Core application and shows how they store and manage information.
 
-**Parent Topic:**[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services-data-model.md)
+**Parent Topic:**[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/public-sector-digital-services-data-model.md)
 

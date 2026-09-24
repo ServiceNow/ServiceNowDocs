@@ -3,13 +3,13 @@ title: Creator Studio form settings
 description: You can edit the settings for an app's form in Creator Studio at any time. For example, to change who can access it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-form-settings.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reference, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, Creator Studio, Developing your application, Building applications]
 ---
 
 # Creator Studio form settings
@@ -70,7 +70,7 @@ Option to have the form available outside of the app, for example, in the specif
 
  You can edit this option only for forms that have been published.
 
- **Note:** You can also specify whether the form is visible after deployment when you're ready to deploy your app. Find out how in [Request deployment for your app from Creator Studio to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-deploy-app-to-prod.md).
+ **Note:** You can also specify whether the form is visible after deployment when you're ready to deploy your app. Find out how in [Request deployment for your app from Creator Studio to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-deploy-app-to-prod.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Hide attachment option
 
 </td><td>
 
-Option to prevent users from adding attachments to the form.**Note:** You can hide the attachment option for the whole form and instead add an attachment question that appears when users provide a specific answer to a question. For more information, see [Available question types in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-elements-ref.md).
+Option to prevent users from adding attachments to the form.**Note:** You can hide the attachment option for the whole form and instead add an attachment question that appears when users provide a specific answer to a question. For more information, see [Available question types in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-form-elements-ref.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Location settings define where the form appears in a catalog, how it's categoriz
 
 Select the catalog that represents the business area the app will use. For example, you could select a service catalog that contains software and laptop cables for an IT fulfillment app. Expand the caret for each catalog to see its sub-catalogs. Then select as many items in the catalogs as you need.
 
-If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-taxonomy.md).
+If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/config-taxonomy.md).
 
 ## User access form settings
 
@@ -116,5 +116,5 @@ Select the edit icon \[Omitted image "cs-edit-form-location.png"\] Alt text: Edi
 -   **Available for**: Search for and select roles and groups that can access the form.
 -   **Not available for**: Search for and select roles and groups that can't access the form.
 
-**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-reference.md)
+**Parent Topic:**[Creator Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-reference.md)
 

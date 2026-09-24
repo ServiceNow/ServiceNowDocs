@@ -3,11 +3,11 @@ title: Install Financial Services Business Lifecycle
 description: You can install the Financial Services Business Lifecycle application \(sn\_bom\_clo\_b2b\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/install-business-lifecycle.html
-release: australia
+release: brazil
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -31,7 +31,7 @@ The following items are installed with Financial Services Business Lifecycle:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Financial Services Business Lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/installed-with-business-lifecycle.md).
+For more information, see [Components installed with Financial Services Business Lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/installed-with-business-lifecycle.md).
 
 ## Procedure
 
@@ -54,5 +54,5 @@ For more information, see [Components installed with Financial Services Business
 5.  Select **Install**.
 
 
-**Parent Topic:**[Install Financial Services Customer Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/set-up-customer-lifecycle-ops.md)
+**Parent Topic:**[Install Financial Services Customer Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-customer-lifecycle-operations/set-up-customer-lifecycle-ops.md)
 

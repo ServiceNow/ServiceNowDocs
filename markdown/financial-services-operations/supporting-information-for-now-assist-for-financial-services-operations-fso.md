@@ -3,9 +3,9 @@ title: Supporting information for ServiceNow Otto for Financial Services Operati
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Financial Services Operations \(FSO\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/supporting-information-for-now-assist-for-financial-services-operations-fso.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI for financial services operations versions, generative AI for financial services operations licensing, generative AI for financial services operations dependencies, generative AI for financial services operations activation]
 breadcrumb: [AI in FSO, Explore, Financial Services Operations \(FSO\)]
@@ -75,7 +75,7 @@ Disputes intake via Virtual Agent
 
 The FSO AI agent collection \(`sn_fso_ai_agents`\) provides a shared library of AI agents for Financial Services Operations. The agents understand user-defined goals, formulate strategic plans, help human agents resolve cases, and autonomously execute tasks.
 
-For a list of AI agents included in the collection, see [AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-capabilities-in-fso.md).
+For a list of AI agents included in the collection, see [AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/ai-capabilities-in-fso.md).
 
 ## Query Orchestrator
 
@@ -111,7 +111,7 @@ Query Orchestrator provides the following capabilities:
 **Related topics**  
 
 
-[AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/ai-capabilities-in-fso.md)
+[AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/ai-capabilities-in-fso.md)
 
-[Enable AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/enable-ai-capabilities-in-fso.md)
+[Enable AI capabilities in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/enable-ai-capabilities-in-fso.md)
 

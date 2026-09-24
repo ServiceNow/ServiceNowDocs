@@ -3,11 +3,11 @@ title: Complete the test plan sign-off
 description: Review and sign off the test plan so that you can record the approval of the test plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_CompleteTheTestPlanSignOffForm.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test plan sign-off, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---

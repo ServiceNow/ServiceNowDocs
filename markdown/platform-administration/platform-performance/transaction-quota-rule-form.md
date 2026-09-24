@@ -3,11 +3,11 @@ title: Transaction quota rule form
 description: A description of the fields on the Transaction Quota Rule form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/transaction-quota-rule-form.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -32,5 +32,5 @@ A description of the fields on the Transaction Quota Rule form.
 |Maximum Outbound Request Duration|The number of seconds for an outbound HTTP request.|
 |Description|A description of the transaction quota rule.|
 
-**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
+**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/platform-performance-references.md)
 

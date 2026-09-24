@@ -3,11 +3,11 @@ title: Inventory Model form - Information
 description: The Information section of the Inventory Model form enables you to create, review, and modify the network asset details of a model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-information.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Inventory Model forms, Reference, Telecommunications Network Inventory]
 ---
@@ -138,7 +138,7 @@ Slot naming pattern
 
 </td><td>
 
-Name patterns that are used to define the names that are generated for the slots and interfaces that are on the equipment or card. Because these name patterns are at the model level, they’re applied by default to every template of that model. These name patterns are editable for the different instances of the same model. To learn more about the naming convention, see [Naming convention for associated templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.md).
+Name patterns that are used to define the names that are generated for the slots and interfaces that are on the equipment or card. Because these name patterns are at the model level, they’re applied by default to every template of that model. These name patterns are editable for the different instances of the same model. To learn more about the naming convention, see [Naming convention for associated templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.md).
 
  Although the names are generated automatically, you can manually edit the names of the templates.
 
@@ -158,7 +158,7 @@ Interface naming pattern
 
 </td><td>
 
-Name patterns that are used to define the names that are generated for the slot and Interfaces on the equipment or card. Because these name patterns are at the model level, they’re applied by default to every template of that model. These name patterns are editable for the different instances of the same model. To learn more about the naming convention, see [Naming convention for associated templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.md).
+Name patterns that are used to define the names that are generated for the slot and Interfaces on the equipment or card. Because these name patterns are at the model level, they’re applied by default to every template of that model. These name patterns are editable for the different instances of the same model. To learn more about the naming convention, see [Naming convention for associated templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.md).
 
  Although the names are generated automatically, you can manually edit the names of the templates.
 
@@ -450,10 +450,10 @@ Select any one of the following type
 **Note:** This field is applicable only if the selected **Model categories** is **Equipment rack**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Inventory Model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-forms.md)
+</table>**Parent Topic:**[Inventory Model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-forms.md)
 
 **Related topics**  
 
 
-[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
+[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 

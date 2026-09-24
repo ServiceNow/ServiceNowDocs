@@ -1,18 +1,18 @@
 ---
 title: Table functions in HTML field editor
-description: TinyMCE version 6.8.2 uses menus and menu selections to create and edit tables.
+description: TinyMCE version 8.3.0 uses menus and menu selections to create and edit tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_TinyMCEVersion4Editor.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Table functions in HTML field editor
 
-TinyMCE version 6.8.2 uses menus and menu selections to create and edit tables.
+TinyMCE version 8.3.0 uses menus and menu selections to create and edit tables.
 
 <table id="table_asy_cwf_vq"><thead><tr><th>
 
@@ -24,11 +24,11 @@ Action
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "TinyMCEV6-tablemenu.png"\] Alt text: TinyMCE v6.8.2 Table menu
+\[Omitted image "TinyMCEV6-tablemenu.png"\] Alt text: TinyMCE v8.3.0 Table menu
 
 </td><td>
 
-Select the table icon \(\[Omitted image "TinyMCEV6-table\_icon.png"\] Alt text: TinyMCE v6.8.3 Table\) to access the TinyMCE version 6.8.3 table menu. Use the table menu to:-   Insert or delete a table
+Select the table icon \(\[Omitted image "TinyMCEV6-table\_icon.png"\] Alt text: TinyMCE v6.8.3 Table\) to access the TinyMCE version 8.3.0 table menu. Use the table menu to:-   Insert or delete a table
 -   Modify table properties
 -   Add, move, or delete rows and columns
 -   Modify row and column properties
@@ -36,7 +36,7 @@ Select the table icon \(\[Omitted image "TinyMCEV6-table\_icon.png"\] Alt text: 
 
 </td></tr><tr><td>
 
-\[Omitted image "TinyMCEV6-insert-table-grid.png"\] Alt text: TinyMCE v6.8.2 Table insert grid
+\[Omitted image "TinyMCEV6-insert-table-grid.png"\] Alt text: TinyMCE v8.3.0 Table insert grid
 
 </td><td>
 
@@ -46,7 +46,7 @@ To insert a table in the HTML field, select **Insert table** and highlight squar
 
 </td></tr><tr><td>
 
-\[Omitted image "TinyMCEV6-tableofcontents\_icon.png"\] Alt text: TinyMCE v6.8.2 Table of contents
+\[Omitted image "TinyMCEV6-tableofcontents\_icon.png"\] Alt text: TinyMCE v8.3.0 Table of contents
 
 </td><td>
 
@@ -54,7 +54,7 @@ The Table of Contents plugin generates a basic table of contents \(ToC\) and ins
 
 </td></tr><tr><td>
 
-\[Omitted image "TinyMCEV6-tableprops.png"\] Alt text: TinyMCE v6.8.2 Table properties
+\[Omitted image "TinyMCEV6-tableprops.png"\] Alt text: TinyMCE v8.3.0 Table properties
 
 </td><td>
 
@@ -70,7 +70,7 @@ From the table menu, select the **Table properties** button to open the Table pr
 
 </td></tr><tr><td>
 
-\[Omitted image "TinyMCEV6-cellprops.png"\] Alt text: TinyMCE v6.8.2 Cell properties menu
+\[Omitted image "TinyMCEV6-cellprops.png"\] Alt text: TinyMCE v8.3.0 Cell properties menu
 
 </td><td>
 
@@ -85,7 +85,7 @@ With the cursor in the desired table cell, open the table menu and select **Cell
 
 </td></tr><tr><td>
 
-\[Omitted image "TinyMCEV6-rowprops.png"\] Alt text: TinyMCE v6.8.2 Row properties menu
+\[Omitted image "TinyMCEV6-rowprops.png"\] Alt text: TinyMCE v8.3.0 Row properties menu
 
 </td><td>
 

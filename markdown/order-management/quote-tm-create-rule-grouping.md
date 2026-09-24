@@ -3,7 +3,7 @@ title: Create a transaction rule grouping
 description: Create a rule grouping to bundle rules together for assignment to stages and events in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-create-rule-grouping.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 2
@@ -16,15 +16,15 @@ Create a rule grouping to bundle rules together for assignment to stages and eve
 
 ## Before you begin
 
-The rules to include in the grouping must exist before you create the rule grouping. For more information, see [Create a transaction rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-rule.md).
+The rules to include in the grouping must exist before you create the rule grouping. For more information, see [Create a transaction rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-create-rule.md).
 
 Role required: admin
 
 ## About this task
 
-Rule groupings bundle transaction-level and transaction line-level rules together so they execute as a unit. A rule grouping can contain rules of both levels. Once created, rule groupings are assigned to stages and events — the grouping executes when the stage is entered or the event fires, running all rules within it that meet their conditions.
+Rule groupings bundle transaction-level and transaction line-level rules together so they execute as a unit. A rule grouping can contain rules of both levels. Once created, rule groupings are assigned to stages and events. The grouping executes when the stage is entered or the event fires, running all rules within it that meet their conditions.
 
-For a conceptual overview of how rule groupings relate to stages and events, see [Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-rules-and-rule-groups.md).
+For a conceptual overview of how rule groupings relate to stages and events, see [Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-rules-and-rule-groups.md).
 
 ## Procedure
 
@@ -61,10 +61,8 @@ The rule grouping appears in the Rule Groupings list and is available to assign 
 
 ## What to do next
 
-Assign the rule grouping to a stage or event so that its rules execute during the quote lifecycle.
+Assign the rule grouping to a stage or event so that its rules execute during the quote life cycle.
 
--   To assign to a stage, see [Create a quote transaction stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-stage.md).
--   To assign to an event, see [Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-custom-event.md).
-
-**Parent Topic:**[Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-rules-and-rule-groups.md)
+-   To assign to a stage, see [Create a quote transaction stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-create-stage.md).
+-   To assign to an event, see [Create an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-create-custom-event.md).
 

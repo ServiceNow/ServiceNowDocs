@@ -3,11 +3,11 @@ title: Configure response option for your DLP incidents
 description: Use this feature to configure the type of response that an end user or analyst should perform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-response-option-mapping.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -130,12 +130,12 @@ Select the required MID Server Capability from the drop down list.
 
 4.  Click **Submit**.
 
-    **Note:** If you are creating an **Advanced** type of response option, then the **Approval Rules** related list will be populated for you to configure the approval rule for that new response option. For more information, see [Create Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-approval-rules.md).
+    **Note:** If you are creating an **Advanced** type of response option, then the **Approval Rules** related list will be populated for you to configure the approval rule for that new response option. For more information, see [Create Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/configure-approval-rules.md).
 
     \[Omitted image "dlp-msft-default-response-option.png"\] Alt text: Configure Response Option
 
 
-**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
@@ -170,7 +170,7 @@ Select the required MID Server Capability from the drop down list.
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

@@ -3,11 +3,11 @@ title: Configure File Explorer repository drive
 description: Configure the File Explorer repository drive to establish a connection between your MSIM workspace and Microsoft SharePoint, enabling team members to manage incident documents centrally.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/file-explorer-repository-config.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure File Explorer Component, Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -76,7 +76,7 @@ Graph Connection
 
 </td><td>
 
-Select the File Explorer Graph tenant record. For more information on the tenant connection configuration, see [Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sharepoint-online-spoke.md).
+Select the File Explorer Graph tenant record. For more information on the tenant connection configuration, see [Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/sharepoint-online-spoke.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Rest Connection
 
 </td><td>
 
-Select the File Explorer REST tenant record. For more information on the tenant connection configuration, see [Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sharepoint-online-spoke.md).
+Select the File Explorer REST tenant record. For more information on the tenant connection configuration, see [Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/sharepoint-online-spoke.md).
 
 </td></tr></tbody>
 </table>3.  Select **Save**.
@@ -105,5 +105,5 @@ Select the File Explorer REST tenant record. For more information on the tenant 
     **Note:** Using the **Test Connection** button, either MSI Administrator or MSI Manager can only validate the file repository configuration.
 
 
-**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)
+**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/file-explorer.md)
 

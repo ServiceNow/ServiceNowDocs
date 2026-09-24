@@ -3,11 +3,11 @@ title: Adding dependencies of impacted assets
 description: You can add the dependencies of the impacted assets in the events and exercises based on the source data and relationships in the CMDB, BIAs, and plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/import-event-dep-updates.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Adding dependencies of impacted assets
@@ -20,7 +20,7 @@ The BCM administrators can configure the sources to get the event dependencies i
 
 The Event dependency source configuration module is shown in the example.\[Omitted image "event-dep-update-config.png"\] Alt text: Updating the Event dependencies.
 
-The BCM administrators can update the target records, filter conditions, and sources to fetch the event dependency.
+When the BCM administrators can update the target records, filter condition for the records, and sources to fetch the event dependency.
 
 Dependencies are added in the events only when the user selects the **Update dependencies** UI action. Dependencies are fetched from these sources for the events:
 
@@ -34,7 +34,7 @@ Dependencies are added in the events only when the user selects the **Update dep
 
 Setting up the Event dependency source configuration module is a one-time activity. Once the sources are configured in the Event dependency source configuration module, the updates are synchronized in the events.
 
-For more information on setting up the Event dependency source configuration module, see [Configure Event dependency source configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-event-dep-source-confi-module.md).
+For more information on setting up the Event dependency source configuration module, see [Configure Event dependency source configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-event-dep-source-confi-module.md).
 
 ## Roles associated with event dependency updates
 
@@ -55,16 +55,16 @@ The BCM application executes a workflow to update the impacted assets in the eve
 2.  The BCM planner selects the **Update dependencies** UI action to add the assets manually.
 3.  The application checks if the event record matches any configuration filter.
 
-4.  If the event record matches any configuration filter, the system retrieves asset dependencies in real time based on sources defined in the Event dependency source configuration.
+4.  If the event record matches any configuration filter, the system gets the dependencies of the added assets in real time according to the defined sources.
 5.  If the event record does not match any configuration filter, the events workflow then continues for the next steps.
 
-For more information on updating the event dependencies manually, see [Update the event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-event-dep-manually.md).
+For more information on updating the event dependencies manually, see [Update the event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/update-event-dep-manually.md).
 
 ## Data Relationships Framework
 
-Beginning with the Australia release, the Data Relationships Framework \(com.sn\_app\_grc\_relationship\_config\) provides the framework to add impacted asset dependencies in events and exercises. The Data Relationships Framework application is installed with the BCM application by default.
+The Data Relationships Framework \(com.sn\_app\_grc\_relationship\_config\) application supports the BCM application with the underlying framework to add the dependencies of the impacted assets in the events and exercises. The Data Relationships Framework application is installed with the BCM application by default.
 
-For more information on the Data Relationships Framework, see [Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-relationship-framework.md).
+For more information on the Data Relationships Framework, see [Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/data-relationship-framework.md).
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

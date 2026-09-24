@@ -3,9 +3,9 @@ title: Configure Telecommunications Customer 360
 description: Setup and configure the Telecommunications Customer 360 application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-configure.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -14,16 +14,18 @@ breadcrumb: [Telecommunications Customer 360, Telecommunications, Media, and Tec
 
 Setup and configure the Telecommunications Customer 360 application.
 
--   **[Activate Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-activate.md)**  
+-   **[Activate Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-activate.md)**  
 If you have an admin role, you can activate the Telecommunications Customer 360 application. The Telecommunications Customer 360 \(com.sn\_telecom\_c360\) plugin is available as a separate subscription. The application includes the demo data and installations that are related to ServiceNow® Store applications and plugins.
--   **[Setup Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecom-cust-360-landing.md)**  
+-   **[Setup Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/telecom-cust-360-landing.md)**  
 Use the Telecom Customer 360 guided setup to configure the unified customer view for your organization. Complete the three setup tasks to define your cards and configure their data and settings. Verify the page layout before customer service agents use it.
--   **[Extension points in Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-use-extension-point.md)**  
+-   **[Extend the Telecommunications Customer 360 Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-extending-skills.md)**  
+Extend the Telecommunications Customer 360 summary card by registering a new ServiceNow Otto skill with the orchestrator quick action and adding it to the merge order.
+-   **[Extension points in Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-use-extension-point.md)**  
 Use scripted extension points to configure the display of the cards on the Telecommunications Customer 360 consumer page.
--   **[Add the Customer 360 tab to a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-c360.md)**  
+-   **[Add the Customer 360 tab to a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure-c360.md)**  
 Add the Customer 360 tab to any record page using either the page collection approach or the manual component approach, depending on your page type and required features.
--   **[Configure the Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-prc.md)**  
+-   **[Configure the Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure-prc.md)**  
 Configure node settings to control which fields appear on the entity node cards in the Party Relationship Center.
 
-**Parent Topic:**[Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-land-page.md)
+**Parent Topic:**[Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-land-page.md)
 

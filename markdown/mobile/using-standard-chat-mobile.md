@@ -3,9 +3,9 @@ title: Using standard chat on mobile
 description: Standard chat on mobile delivers an intuitive, text-based support experience within a static chat window, enhanced by AI-powered responses and integrated knowledge resources. You can interact with a Virtual Agent to resolve issues, access knowledge articles, and request catalog items all in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/using-standard-chat-mobile.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI, Virtual Agent]
 breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
@@ -35,7 +35,7 @@ If your request is unclear or ambiguous, the agent will prompt you with clarifyi
 
 Suggested actions provide you with next steps you can take related to your Virtual Agent conversation. After completing a chat topic or request, these suggestions appear under a **Here's what you can do next** header. Selecting a suggested action initiates it directly in the same conversation, carrying over any relevant details such as your name.
 
-For more information on configuration, see [ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md)
+For more information on configuration, see [ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-sys-props.md)
 
 ## Knowledge base citations
 
@@ -56,7 +56,7 @@ If external search sources have been configured by your organization, you can se
 -   ServiceNow documentation
 -   Slack
 
-Sources display with icons that indicate the type of record type each source is, such as a table, PDF, incident report, and so on For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
+Sources display with icons that indicate the type of record type each source is, such as a table, PDF, incident report, and so on For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ext-cont-connectors-landing-page.md).
 
 ## Doc QnA
 
@@ -74,7 +74,7 @@ ServiceNow AI Lens leverages generative AI to scan, extract, and interpret data 
 
 When you start a new Virtual Agent chat, select **Show all my options** to view the option to open ServiceNow AI Lens. Now Assist then gives you the option to choose an existing image or open your camera app to take a new photo. Once an image is selected, Now Assist allows you to input additional directions for how the image should be analyzed.
 
-For more information, see [ServiceNow AI Lens for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/servicenow-lens-mobile.md).
+For more information, see [ServiceNow AI Lens for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/servicenow-lens-mobile.md).
 
 ## Web search mode
 
@@ -82,7 +82,7 @@ For more information, see [ServiceNow AI Lens for mobile](https://raw.githubuser
 
 Web search mode in Now Assist enables you to search the internet directly from within your chat, displaying external results rather than internal company information. Select the Start web search mode icon \(\[Omitted image "na-web-search-icon.png"\] Alt text:\) to enter web search mode.
 
-While active, all user queries are answered using internet search results, and a banner shows that web search mode is enabled. The identifying banner disappears once web search mode is ended. For additional information, see [Using Now Assist web search on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-na-web-search-mobile.md).
+While active, all user queries are answered using internet search results, and a banner shows that web search mode is enabled. The identifying banner disappears once web search mode is ended. For additional information, see [Using Now Assist web search on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/using-na-web-search-mobile.md).
 
 ## Feedback and additional support
 
@@ -104,9 +104,9 @@ You can find information about people in your organization if you have Knowledge
 
 ## Additional resources
 
-For more detailed information on all of standard chat’s specific skills, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-standard-chat.md).
+For more detailed information on all of standard chat’s specific skills, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-standard-chat.md).
 
-For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+For information on configuring Virtual Agent, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
-**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
+**Parent Topic:**[Using ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/using-now-assist-mobile.md)
 

@@ -3,11 +3,11 @@ title: Create a phase part allocation
 description: Create an allocation entry for a required part.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-phase-part-allocations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Recall a campaign phase, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall a campaign phase, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a phase part allocation
@@ -22,7 +22,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Recall Campaign Phases**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Recall Campaign Phases**.
 
 2.  Select a leaf phase.
 
@@ -42,4 +42,6 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 6.  Select **Save**.
 
+
+**Parent Topic:**[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-recall-campaign-phases.md)
 

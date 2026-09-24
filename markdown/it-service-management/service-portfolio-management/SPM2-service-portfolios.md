@@ -3,11 +3,11 @@ title: Service Portfolio Management portfolios
 description: A service portfolio presents an overall top-level view of your currently available services, possible future services, and services that existed in the past. Evaluate the impact that services have on your business and manage them in a single portfolio or multiple portfolios with unique taxonomy structures, owners, and market scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-service-portfolios.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Service Portfolio Management, IT Service Management]
 ---
@@ -69,7 +69,7 @@ Don't opt in — keep legacy service portfolios
 -   Average Availability \[ServiceOffering.MetricData.Availability.Daily\]
 -   Average Request Activity \[ServiceOffering.MetricData.Activity.Daily\]
 
-Therefore, if you have the Vendor Management Workspace application integrated with Service Portfolio Management, and if you are upgrading to the Service Portfolio Management standard portfolio, the metric data from the legacy indicators are no longer available.
+Therefore, if you have the Vendor Management Workspace application integrated with Service Portfolio Management, and if you are upgrading to the Service Portfolio Management standard portfolio, the metric data from the legacy indicators are no longer available. For information on vendor scores, see .
 
 ## Portfolio administration
 
@@ -82,5 +82,5 @@ As a portfolio\_admin user, you can create a single service portfolio or multipl
 -   Update services and service offerings \(the service\_editor role also has access\).
 -   Reparent services \(the service\_editor role also has access\).
 
-**Parent Topic:**[Exploring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
+**Parent Topic:**[Exploring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
 

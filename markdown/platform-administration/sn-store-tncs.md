@@ -3,9 +3,9 @@ title: Terms and conditions in the ServiceNow Store
 description: Learn about when terms and conditions must be accepted in the ServiceNow Store. Unaccepted terms and conditions block procurement and installations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/sn-store-tncs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Getting apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---

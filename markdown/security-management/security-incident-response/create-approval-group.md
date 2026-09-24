@@ -3,11 +3,11 @@ title: Create an approval group
 description: Create an approval group for the CrowdStrike Falcon Insight for Security Operations integration that can approve requests for isolating host machines, restoring them to the network, and initiating sightings searches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-approval-group.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Create an approval group for the CrowdStrike Falcon Insight for Security Operati
 
 You can't reassign the approval authority to a group, unless an approval group is available in your instance.
 
-**Note:** The approvals option in the [profile configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-profiles-and-security-incidents-for-the-crowdstrike-falcon-insight-integration.md) appears only for Isolate Host and Remove Host Isolation capabilities.
+**Note:** The approvals option in the [profile configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-profiles-and-security-incidents-for-the-crowdstrike-falcon-insight-integration.md) appears only for Isolate Host and Remove Host Isolation capabilities.
 
 Role required: admin
 
@@ -53,5 +53,5 @@ Role required: admin
 
 ## What to do next
 
-The next step is to [install and configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-configure-crowdstrike-falcon-insight.md) the CrowdStrike Falcon Insight application from the ServiceNow Store.
+The next step is to [install and configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/install-and-configure-crowdstrike-falcon-insight.md) the CrowdStrike Falcon Insight application from the ServiceNow Store.
 

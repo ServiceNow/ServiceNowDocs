@@ -3,11 +3,11 @@ title: Installed with SM Planned Maintenance
 description: The SM Planned Maintenance core plugin also includes demo data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/planned-maintenance-family/r\_InstallWServMgmtPlanMaint.html
-release: australia
+release: brazil
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Planned Maintenance, Planned Maintenance, Service Management]
 ---
@@ -264,5 +264,5 @@ Updates the business rule for applying a plan to new records whenever the **Appl
 |--------------|-----------|
 |Planned Maintenance Nightly Run|Builds maintenance requests based on active maintenance plans.|
 
-**Parent Topic:**[Activate Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/t_ActivatePlanMaint.md)
+**Parent Topic:**[Activate Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/planned-maintenance-family/t_ActivatePlanMaint.md)
 

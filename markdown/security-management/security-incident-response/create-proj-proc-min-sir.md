@@ -3,11 +3,11 @@ title: Create process mining project for security incidents
 description: Create a project in Process Mining Workspace using the pre-build process models definitions from the content pack to scan through audit logs of security incident records and identify inefficiencies in your security incident life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-proj-proc-min-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Process Mining Workspace for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -46,7 +46,7 @@ Role required: sn\_process\_optimization\_analyst and sn\_si\_read
 
 9.  Select **Select improvement opportunities** and configure the improvements for your security incidents.
 
-    A list of improvement opportunities displays. For information about configuring improvement opportunities, see [Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/working-with-imp-opp.md).
+    A list of improvement opportunities displays. For information about configuring improvement opportunities, see [Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/working-with-imp-opp.md).
 
 10. Select **Review and mine** and then select **Mine project**.
 

@@ -3,11 +3,11 @@ title: Generate ATO artifacts
 description: From the Authorization package overview record page, generate Authority to Operate \(ATO\) artifacts in Microsoft Word format. This action enables you to download your ATO artifacts from CAM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-steps-cam-ws.html
-release: australia
+release: brazil
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ATO artifacts for an authorization package, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -30,11 +30,11 @@ Role required:
 
 -   Set up the ServiceNow Document designer for Word plugin before you create a Microsoft Word template and generate the ATO artifacts reports.
 
-    For more information, see [Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md).
+    For more information, see [Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md).
 
 -   Verify using which report type you want to generate the respective ATO artifacts.
 
-    For more information, see [Continuous Authorization and Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md).
+    For more information, see [Continuous Authorization and Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md).
 
 
 ## Procedure
@@ -65,8 +65,8 @@ Implement, Assess, Authorize, or Monitor
 -   POA&amp;M
  **Note:**
 
--   The repetition property "com.snc.word\_doc\_api.max\_repetitions" in the Document designer plugin must be set to 200 to generate an SSP report successfully. For more information, see [Reference information for Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/properties-for-document-designer.md).
--   For authorization packages with medium or high data limits, increase the number of records to 200 in the template configuration to generate the SSP report successfully. For more information, see [Create content configurations for CAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-create-content-configurations.md).
+-   The repetition property "com.snc.word\_doc\_api.max\_repetitions" in the Document designer plugin must be set to 200 to generate an SSP report successfully. For more information, see [Reference information for Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/properties-for-document-designer.md).
+-   For authorization packages with medium or high data limits, increase the number of records to 200 in the template configuration to generate the SSP report successfully. For more information, see [Create content configurations for CAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-create-content-configurations.md).
 
 
 </td></tr><tr><td>
@@ -122,5 +122,5 @@ Authorize or Monitor
     To use the functionality of Generate ATO artifacts for an authorization package using the HTML template, see the [Configurations Required to Enable Report Generation for Authorization Package in CAM Workspace \[KB1649486\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1649486) article in the Now Support knowledge base.
 
 
-**Parent Topic:**[ATO artifacts for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-cam-ws.md)
+**Parent Topic:**[ATO artifacts for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-cam-ws.md)
 

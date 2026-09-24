@@ -3,11 +3,11 @@ title: XML parser step
 description: Identify structured data from an XML payload without having to write script. Map incoming XML elements to a complex object output that you can use in other steps or actions. At runtime, values from an XML payload populate the complex object output.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/xml-parser-step-action-designer.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integration steps, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Integration steps, Build integrations, Integration Hub, Workflow Da
 
 Identify structured data from an XML payload without having to write script. Map incoming XML elements to a complex object output that you can use in other steps or actions. At runtime, values from an XML payload populate the complex object output.
 
-To learn more about complex objects, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/complex-data.md).
+To learn more about complex objects, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/complex-data.md).
 
 **Note:** This step requires an Integration Hub subscription. For more information, see [Legal schedules - Integration Hub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf). After the required plugin is activated, the step is visible under Integrations.
 
@@ -26,7 +26,7 @@ Available as an Workflow Studio action step. Users with the action\_designer rol
 
 ## Payload size limit
 
-At runtime, XML parser step supports payloads up to 10 MB. For larger payloads, create a Data Stream action. For more information, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md).
+At runtime, XML parser step supports payloads up to 10 MB. For larger payloads, create a Data Stream action. For more information, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/data-stream-actions.md).
 
 At design time, XML parser step supports sample payloads up to 64,000 characters.
 

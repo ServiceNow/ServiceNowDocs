@@ -3,11 +3,11 @@ title: Configure CMS sites to use single sign-on \(SSO\)
 description: To configure CMS to use SSO, make the view\_content page private.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CMSSitesAndSingleSignOn.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content sites, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -31,5 +31,5 @@ Because public pages do not require login, and CMS sites are public by default, 
 2.  For the view\_content page, set **Active** to **false**.
 
 
-**Parent Topic:**[Content sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentSite.md)
+**Parent Topic:**[Content sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentSite.md)
 

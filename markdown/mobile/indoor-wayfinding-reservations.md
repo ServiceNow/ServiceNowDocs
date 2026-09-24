@@ -3,9 +3,9 @@ title: Indoor Wayfinding and reservations
 description: Use your ServiceNow mobile app to locate indoor resources at your site. You can also use this feature to get step-by-step directions to the office or to other resource locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/indoor-wayfinding-reservations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---

@@ -3,11 +3,11 @@ title: Custom content PDF export limitations
 description: When you create custom content to be placed as widgets on dashboards and home pages, you must perform extra tests before you export the content to PDF.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/custom-content-pdf-export-limitations.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---

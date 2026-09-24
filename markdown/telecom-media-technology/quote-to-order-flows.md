@@ -3,9 +3,9 @@ title: Quote to order flows
 description: Quote to order \(Q2O\) automates the customer lifecycle from lead capture through contract acceptance to order fulfillment, reducing manual handoffs and order failures across sales and operations teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/quote-to-order-flows.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---

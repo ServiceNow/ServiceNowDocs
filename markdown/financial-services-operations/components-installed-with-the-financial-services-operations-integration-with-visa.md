@@ -3,9 +3,9 @@ title: Financial Services Operations Integration with Visa subflows
 description: You can use the following Financial Services Operations Integration with Visa application subflows to handle the card dispute management process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-18"
 reading_time_minutes: 4
 breadcrumb: [Components installed, Reference, Visa, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -48,8 +48,6 @@ You can use the following Financial Services Operations Integration with Visa ap
 
 Financial Services Operations Integration with Visa subflows use batch queue APIs to process the dispute data on a set schedule that run at predefined time intervals, not based on user actions. You can set up and manage when batch queue API subflows run with the**Visa Queue Scheduler Flow**. By default, the Visa Queue Scheduler Flow is turned off. To start using it, activate the flow and choose how often you want the batch queue API subflows to run.
 
-All four following batch queue subflows call the same RTSI operation \(SIGetBatchQueueRequest\). The BatchQueueType parameter in the request body determines which queue is polled. Once processed, SIMarkBatchQueueItemAsReadRequest \(/rsrv\_rolsi/api/SIMarkBatchQueueItemAsRead\) is called to remove items from the queue.
-
 |**Batch Queue Subflow**|**Description**|**BatchQueueType Parameter**|**API Endpoint**|
 |-----------------------|---------------|----------------------------|----------------|
 |Process Awaiting Action Disputes Batch Queue|The acquirer provides a dispute response, which places the Visa case in this queue. Processing this batch queue alerts the FSO case with the received response.|`AWAITING_ACTION_BQ_DISPUTE`|`/rsrv_rolsi/api/SIGetBatchQueue`|
@@ -57,5 +55,8 @@ All four following batch queue subflows call the same RTSI operation \(SIGetBatc
 |Process Incoming Arbitration Batch Queue|The acquirer initiates an arbitration request, or the issuer submits an arbitration and receives an acknowledgment or decision from Visa, which places the case in this queue.|`INCOMING_BQ_ARBITRATIONS`|`/rsrv_rolsi/api/SIGetBatchQueue`|
 |Processes Incoming Recall Batch Queue|The acquirer processes recalls at various stages, including dispute response, pre-arbitration, and pre-arbitration response, which places the Visa case in this queue. Processing this batch queue alerts the FSO case with the received response.|`INCOMING_BQ_RECALLS`|`/rsrv_rolsi/api/SIGetBatchQueue`|
 
-**Parent Topic:**[Components installed with Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-operations-integration-with-visa-reference.md)
+-   **[Visa batch queue processing and scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/visa-batch-queue-processing-and-scheduling.md)**  
+Financial Services Operations Integration with Visa subflows use VROL RTSI batch queue APIs to process incoming dispute data on a scheduled basis. Unlike real-time subflows that execute in response to user actions, batch queue processing runs on a predefined schedule to poll VROL for new incoming items across the dispute lifecycle.
+
+**Parent Topic:**[Components installed with Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-operations-integration-with-visa-reference.md)
 

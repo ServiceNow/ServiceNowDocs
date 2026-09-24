@@ -3,9 +3,9 @@ title: Emission factor library
 description: An emission factor library consists of emission factors, emission activities and emission activity sources. It is crucial to set up your emission factor library to calculate your emissions accurately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/emission-factor-library.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -52,10 +52,10 @@ Emission activity sources provide data and methodologies to estimate greenhouse 
 -   Environmentally extended input-output models \(EEIO\)
 -   Emissions and generation resource integrated database \(eGRID\)
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-new-explore.md)
 
 **Related topics**  
 
 
-[Set up the emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-the-emission-factor-library.md)
+[Set up the emission factor library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/set-up-the-emission-factor-library.md)
 

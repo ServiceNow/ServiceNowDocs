@@ -3,11 +3,11 @@ title: Source document import tasks
 description: The Regulatory Change Management application processes external alerts that may include citation titles, citation numbers, and references to legislative or regulatory materials relevant to compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/source-document-import-tasks.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Regulatory process flow and tasks, Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -41,5 +41,5 @@ Starting with version 19.0.x, a source document task progresses through the foll
 -   Awaiting Approval- All implementation activities are complete, and the task is pending review and approval from the appropriate stakeholders or compliance team.
 -   Closed- The task has been reviewed, approved, and all required actions are completed. No further work is needed.
 
-**Parent Topic:**[Regulatory process flow and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-workflow-swimlane.md)
+**Parent Topic:**[Regulatory process flow and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-workflow-swimlane.md)
 

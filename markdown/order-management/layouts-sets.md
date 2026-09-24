@@ -3,7 +3,7 @@ title: Using sets in layouts
 description: Learn about the various ways sets can be displayed and about their settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/layouts-sets.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -173,7 +173,7 @@ The variable name for aggregates have the following syntax: `set.{set variable n
 **Related topics**  
 
 
-[How sets interact with the rest of a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/how_sets_interact_with_the_rest_of_the_blueprint.md)
+[How sets interact with the rest of a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/how_sets_interact_with_the_rest_of_the_blueprint.md)
 
-[Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating_set_aggregates.md)
+[Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating_set_aggregates.md)
 

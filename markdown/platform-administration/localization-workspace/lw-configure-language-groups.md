@@ -3,11 +3,11 @@ title: Configure language groups
 description: After setting up individual language providers, you can define one or more language groups. Configuring language groups is an optional way to streamline the creation of translation requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-configure-language-groups.html
-release: australia
+release: brazil
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Language setup in Localization Workspace, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ After setting up individual language providers, you can define one or more langu
 
 ## Before you begin
 
--   Configure all individual language providers. The localization\_admin role is required to create a language provider. See [Configure a language provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-configure-translation-provider.md).
+-   Configure all individual language providers. The localization\_admin role is required to create a language provider. See [Configure a language provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-configure-translation-provider.md).
 -   Role required: sn\_lw.user. The sn\_lw.user role can create a language group by selecting from existing language providers.
 
 ## About this task
@@ -27,7 +27,7 @@ From version 2.0.2: When your users create translation requests, they can select
 
 Individual languages may be included in more than one language group. If a language is included multiple times in one translation request, Localization Workspace clears out the preconfigured value for translation service provider. Then the translation requester must manually select the desired translation service provider.
 
-**Note:** From version 3.0.0, a Guided Tour is available to assist localization admins and localization requesters \(localization\_admin and localization\_requestor\) with the setup of a language group. Access the guided tour by selecting the Help Center icon \[Omitted image "Banner\_HelpIcon.png"\] on the [Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-status-synchronization.md) screen.
+**Note:** From version 3.0.0, a Guided Tour is available to assist localization admins and localization requesters \(localization\_admin and localization\_requestor\) with the setup of a language group. Access the guided tour by selecting the Help Center icon \[Omitted image "Banner\_HelpIcon.png"\] on the [Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-status-synchronization.md) screen.
 
 ## Procedure
 
@@ -76,5 +76,5 @@ You can edit a group as follows.
 
 \[Omitted image "lw-configure-language-groups-edit-modal.png"\] Alt text: In the edit modal window of Language Groups, three language rows have add and delete icons along with drop-down lists. The Edit button is highlighted.
 
-**Parent Topic:**[Language setup in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-setup.md)
+**Parent Topic:**[Language setup in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/lw-language-setup.md)
 

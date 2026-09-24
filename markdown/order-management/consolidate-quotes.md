@@ -3,9 +3,9 @@ title: Consolidate quotes
 description: Consolidate renewal quotes to merge multiple quotes for the same account into a single unified quote.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/consolidate-quotes.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_manager and sn\_sales\_common.sales\_agent.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace.**.
+1.  Navigate to **All** &gt; **CRM Workspace.**.
 
 2.  In the List view, navigate to **Accounts** and select the required account.
 
@@ -39,5 +39,5 @@ Role required: sn\_customerservice\_manager and sn\_sales\_common.sales\_agent.
     The selected quotes are merged into the target quote. A confirmation message appears with a link to the consolidated quote. The target quote displays a **Consolidation History** related list that shows all source quotes that were merged into it.
 
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

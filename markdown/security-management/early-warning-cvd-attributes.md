@@ -3,10 +3,10 @@ title: Early Warning CVD Attributes field reference
 description: The Early Warning CVD Attributes table stores vulnerability intelligence signals for vulnerabilities. Each attribute represents a threat indicator ingested from the Early Warning feed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/early-warning-cvd-attributes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-23"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [Early Warning, CVD attributes, field reference, threat intelligence, schema]
 breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
@@ -148,5 +148,4 @@ External Note
 Structured free-text field containing sub-categories of intelligence detail: Intel Source, Honeypot, Research, Detection, Vulnerable, Malware hash, Analyst note, Intel note, and Admiralty score. Values are reported as `NA` when no data is available for a sub-category.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)
-
+</table>

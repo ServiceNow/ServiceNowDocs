@@ -3,13 +3,13 @@ title: View SAP users in workspace
 description: View all the discovered users pulled from the SAP systems in the Software Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-sapusers-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View SAP users in workspace
@@ -21,6 +21,14 @@ View all the discovered users pulled from the SAP systems in the Software Asset 
 The Discovered Users \[samp\_discovered\_user\] table maps the discovered SAP users to system user records in the Users \[sys\_user\] table.
 
 Role required: sam\_admin or sam\_user
+
+## About this task
+
+Starting with the Brazil release, the SAP users list includes a Deployment type column that displays whether each SAP system user belongs to an on-premises or private cloud. The deployment type value is collected from the SAP system during data collection.
+
+For SAP S/4HANA Cloud, Private Edition deployment type users, each SAP system user record also includes a license type. The license type identifies the FUE \(Full Usage Equivalent\) Named User Type — Developer \(GA\), Advanced \(GB\), Core \(GC\), or Self-Service \(GD\). These values appear in the License classification column, which was previously called Named user type.
+
+On software model records with the Product field set to SAP S/4HANA, you can view SAP system users in the related tab.
 
 ## Procedure
 
@@ -35,5 +43,5 @@ Role required: sam\_admin or sam\_user
     -   SAP User Activity \[samp\_sap\_user\_activity\]: Data related to a user’s activity on a SAP client, such as the amount of time spent on a SAP system or the number of database records created or updated.
     -   SAP Web Activity \[samp\_sap\_web\_activity\]: Data related to web activity or RFC connections performed on the SAP client, such as the number of calls or amount of data received or sent by each connection.
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

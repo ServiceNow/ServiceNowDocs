@@ -1,0 +1,69 @@
+---
+title: \(Legacy\) Add NLU to an existing keyword topic
+description: Create and map an NLU model group and intent for the topic from Assistant Designer.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/add-nlu-existing-keyword-topic.html
+release: brazil
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create an NLU topic, Build and deploy NLU conversations, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+---
+
+# \(Legacy\) Add NLU to an existing keyword topic
+
+Create and map an NLU model group and intent for the topic from Assistant Designer.
+
+## Before you begin
+
+[Configure NLU on the instance in Virtual Agent General Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-nlu-settings.md).
+
+Role required: virtual\_agent\_admin or admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+
+2.  Set the discovery type toggle switch to **NLU/Keyword**.
+
+3.  Open an existing topic.
+
+4.  Select the **Properties** tab.
+
+5.  In the **NLU Model** field, do one of the following:
+
+    **Note:** If the **NLU model** field does not appear and you have Now Assist enabled, ensure that you haven't selected an LLM topic. Navigate back to the Topics page and select a topic that has the **Model Type** set to **NLU/Keywords**.
+
+    -   Choose an existing model.
+    -   Select **Create Model** to create a new model group.
+
+        1.  In the **Model Name** field, enter a name for the new model group.
+        2.  In the **Intent name** field, accept the default value or enter a name for the new intent.
+        **Note:** New models are created in **Draft** state.
+
+6.  In the **Associated Intent** field, do one of the following:
+
+    -   Choose an existing intent.
+    -   Select **Create intent** to create a new intent.
+
+        In the **Intent Name** field, accept the default value or enter a name for the new intent.
+
+7.  In the **Keywords** field, enter key phrases or terms that users enter to initiate the conversation with the Virtual Agent.
+
+    Press **Enter** after each phrase. Keywords are also used for languages that are currently not available in NLU.
+
+8.  Select the **NLU Intent** tab, and then add utterances and associate entities with them.
+
+    For more information about adding utterances, see [Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-nlu-intent.md). For more information about defining entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/entities.md).
+
+9.  Make any other changes on the **Flow** tab, such as associating entities with a node or adding entities as input variables for the topic.
+
+10. When you're finished with the topic, select **Save** in the topic header bar.
+
+
+## Result
+
+The modified topic is in the inactive state until you publish it.
+
+**Parent Topic:**[\(Legacy\) Creating a Virtual Agent NLU topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/create-virtual-agent-topic-nlu.md)
+

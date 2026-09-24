@@ -3,11 +3,11 @@ title: Data privacy roles
 description: Data privacy adds these roles.The data privacy administrator roles is an admin role used to create data privacy techniques and policies.Data privacy auditor is a read-only role used to view data privacy records.Users with the Data privacy clone processor role can create and execute data-class data privacy jobs.Users with the Data privacy processor role create and execute data privacy jobs on the user \[sys\_user\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/data-privacy-roles.html
-release: australia
+release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Privacy, Platform Privacy]
 ---

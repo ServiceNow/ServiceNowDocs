@@ -3,9 +3,9 @@ title: Computer Telephony Integration Workflows
 description: Computer Telephony Integration \(CTI\) enables customer service agents to place and receive phone calls in ServiceNow applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cti-workflows.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -36,7 +36,7 @@ The following workflow describes the logical sequence of actions when an incomin
 
 ## CTI call interactions operations
 
-CTI integration with IMS and OF uses the `OpenframeInteractionUtility` script. You can use the`createOrUpdateInteractionForOpenframe` method from the utility script to create an interaction. For more information about creating interaction using APIs, see Interaction Management API.
+CTI integration with IMS and OF uses the `OpenframeInteractionUtility` script. You can use the`createOrUpdateInteractionForOpenframe` method from the utility script to create an interaction. For more information about creating interaction using APIs, see [Interaction Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/interaction-management-api.md).
 
 \[Omitted image "cti-legend.png"\] Alt text: FMS and CTI integration legend.
 

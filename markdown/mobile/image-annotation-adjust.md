@@ -3,9 +3,9 @@ title: Turn off image annotation option
 description: By default users can edit and annotate images including actions like adding text, drawing, and highlighting areas. This feature is supported for all attachment locations, including: activity stream, functions with type “attachments,” and input form screens with field type “attachment."
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/image-annotation-adjust.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with images and attachments, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -43,5 +43,5 @@ Role required: admin
     |\[Omitted image "image-annotation-ios.png"\] Alt text: Image annotation button and panel for iOS devices.|\[Omitted image "image-annotation-android.png"\] Alt text: Image annotation button and panel for Android devices.|
 
 
-**Parent Topic:**[Working with images and attachments in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/images-and-attachments.md)
+**Parent Topic:**[Working with images and attachments in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/images-and-attachments.md)
 

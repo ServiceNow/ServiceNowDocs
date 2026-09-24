@@ -3,11 +3,11 @@ title: Configure scripted extension points for the manage order operations AI ag
 description: Configure scripted extension points so that the manage order operations chat assistant can check product availability, validate order exception requests for delivery, quantity, and shipping location, and evaluate quote thresholds against your external inventory, ERP, or pricing systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-atp-api-call.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring the Manage Order Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
@@ -46,7 +46,7 @@ To enable real-world functionality such as querying on-hand quantities, delivery
 
 6.  On the Script Include form for your chosen extension point, fill in the fields.
 
-    For a description of the Script Include form fields, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+    For a description of the Script Include form fields, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
 7.  Edit the function in your extension-point implementation to apply your own logic, using the following function signatures.
 
@@ -128,15 +128,15 @@ To enable real-world functionality such as querying on-hand quantities, delivery
 
 9.  Validate your implementation by requesting order changes from the Business Portal using the ServiceNow Otto Virtual Agent.
 
-    For more information, see [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/request-order-changes-now-assist.md).
+    For more information, see [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/request-order-changes-now-assist.md).
 
 
-**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-manage-order-operations.md)
+**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-manage-order-operations.md)
 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
+[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/extension-points.md)
 
-[Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md)
+[Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md)
 

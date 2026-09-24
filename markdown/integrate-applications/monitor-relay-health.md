@@ -3,9 +3,9 @@ title: Monitor relay connection health
 description: View the heartbeat status of a private relay to verify connectivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/monitor-relay-health.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [relay health, tunnel status, relay monitoring, Reverse Tunnel]
 breadcrumb: [Use, Reverse Tunnel, Workflow Data Fabric]

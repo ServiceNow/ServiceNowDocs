@@ -3,9 +3,9 @@ title: Configure button emphasis according to function location
 description: Configure button emphasis in different locations within your mobile app to help users identify the type of functions they can activate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/button-emphasis-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Button emphasis, Legacy theming, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -18,11 +18,11 @@ Configure button emphasis in different locations within your mobile app to help 
 
 Role required: admin
 
-**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
+**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/explore-ne-theming.md).
 
 ## About this task
 
-Button emphasis configuration is performed in web-based UI. For more information, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md). Starting from San Diego additional colors are included in the release, and button emphasis is supported in additional locations. These colors are configured in the web-based UI for the listed screen locations.
+Button emphasis configuration is performed in web-based UI. For more information, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-button-instances.md). Starting from San Diego additional colors are included in the release, and button emphasis is supported in additional locations. These colors are configured in the web-based UI for the listed screen locations.
 
 ## Procedure
 
@@ -34,15 +34,15 @@ Button emphasis configuration is performed in web-based UI. For more information
 
 4.  Select a button emphasis for the chosen function location type.
 
-<table id="choicetable_gy3_yrp_3sb"><thead><tr><th align="left" id="d110721e119">
+<table id="choicetable_gy3_yrp_3sb"><thead><tr><th align="left" id="d111416e119">
 
 Function location
 
-</th><th align="left" id="d110721e122">
+</th><th align="left" id="d111416e122">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d110721e128">
+</th></tr></thead><tbody><tr><td id="d111416e128">
 
 **Swipe action**
 
@@ -57,7 +57,7 @@ Action
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d110721e178">
+</td></tr><tr><td id="d111416e178">
 
 **Top menu action or Quick action function**
 
@@ -72,7 +72,7 @@ Action
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d110721e227">
+</td></tr><tr><td id="d111416e227">
 
 **Footer function or Media section**
 

@@ -3,11 +3,11 @@ title: Install EMR Help
 description: You can install the EMR Help application \(sn\_ind\_rmt\_help\) if you have the admin role. The application includes demo data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/install-emr-help.html
-release: australia
+release: brazil
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -32,7 +32,7 @@ The following items are installed with EMR Help:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/components-installed-emr-help.md).
+For more information, see [Components installed with EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/emr-help/components-installed-emr-help.md).
 
 ## Procedure
 

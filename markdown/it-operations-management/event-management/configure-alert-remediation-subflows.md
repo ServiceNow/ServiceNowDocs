@@ -3,11 +3,11 @@ title: Configure alert remediation actions
 description: Run commands to perform alert remediation on remote Linux and Windows CIs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-alert-remediation-subflows.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -39,16 +39,12 @@ Add credentials to the credential aliases that come with the base system:
 
 Role required: evt\_mgmt\_admin or flow\_designer
 
-## About this task
-
-To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
-
 ## Procedure
 
 1.  Access remediation actions in one of the following ways:
 
-    -   Quick actions in an alert, as described in [Apply a quick response in an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/apply-quick-response-in-alert.md).
-    -   The Playbook tab in Service Operations Workspace, as described in [Run actions to resolve alert issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/run-alert-remediation.md) .
+    -   Quick actions in an alert, as described in [Apply a quick response in an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/apply-quick-response-in-alert.md).
+    -   The Playbook tab in Service Operations Workspace, as described in [Run actions to resolve alert issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/run-alert-remediation.md) .
 2.  Configure additional input in the alert's **Additional Information** field, using this format:
 
     `{"remediation_action_resource":"<mandatory input>"}`
@@ -79,7 +75,7 @@ To automate alert responses with an easier interface, you can also create a resp
 
 After executing an alert action, the results are noted in the **Work Notes** field of the alert.
 
-**Parent Topic:**[Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-management-rule.md)
+**Parent Topic:**[Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-management-rule.md)
 
 **Related topics**  
 

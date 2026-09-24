@@ -3,10 +3,10 @@ title: Understand scan results and findings
 description: After a scan runs, you can monitor its progress in real-time, review the completed results, and then work with the findings to resolve issues in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/understand-scan-engine-results-findings.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-01"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [scan results, scan findings, platform health]
 breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
 ---
@@ -17,8 +17,8 @@ After a scan runs, you can monitor its progress in real-time, review the complet
 
 Reviewing scan results and acting on findings is a two-phase process.
 
-1.  View scan results: Monitor an active scan or open a completed scan record to see its status, duration, and batch progress. See [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/viewing-scan-results-scan-engine.md).
-2.  Work with findings: Open individual findings from the scan record to understand their enforcement level and impact, then apply fixes or submit exceptions for review. See [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/real-time-prevention-monitoring.md).
+1.  View scan results: Monitor an active scan or open a completed scan record to see its status, duration, and batch progress. See [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/viewing-scan-results-scan-engine.md).
+2.  Work with findings: Open individual findings from the scan record to understand their enforcement level and impact, then apply fixes or submit exceptions for review. See [Use Real-time prevention monitoring while coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/real-time-prevention-monitoring.md).
 
 ## How findings are evaluated
 
@@ -90,7 +90,7 @@ High severity issues that may degrade performance, stability, or security. Excep
 </td><td>
 
 -   The record can't be saved until the issue is resolved or and exception reason is provided formal approval.
--   For more information, refer to [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/submitting-exception-reasons-scan-engine.md).
+-   For more information, refer to [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/submitting-exception-reasons-scan-engine.md).
 
 </td></tr><tr><td>
 
@@ -140,8 +140,89 @@ These two metrics work together to help teams balance enforcement and risk prior
 -   ACT level finding with impact to instance of 9: Critical and must be fixed immediately before proceeding. No exceptions.
 -   SUGGEST level with impact to instance of 8: High-risk but does not block development. Should still be prioritized for remediation.
 
-**Related topics**  
+## Finding record fields
+
+When you open a finding record from a scan result, the record displays several key fields that provide context and tracking information about the finding.
+
+**Note:** To view the actual findings, navigate to **ALL &gt; Impact &gt; Platform Health &gt; Open Findings**.
+
+\[Omitted image "remediation-dev-open-findings.png"\] Alt text: Findings table.
+
+|Column|Description|
+|------|-----------|
+|Application|The application scope containing the scanned record where the finding was detected.|
+|Description|The scan definition violation that was detected.|
+|Category|The category of the finding, such as Performance or Security. See [Customize Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/view-modify-scan-engine-properties.md) for details.|
+|Finding counts|The number of times this finding was detected across scanned records in the application.|
+|Impact to instance|A color-coded severity indicator showing the potential impact level. Higher numbers indicate greater severity.|
+|Total technical debt \(time\)|The estimated time required to resolve the finding.|
+|Fix status|The current remediation state of the finding. Values include Not requested, Not applicable, Ready for review, Reviewed, Revised, Processing, and Error.|
+
+<table id="table_finding_fields"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Scanned Record URL/Application
+
+</td><td>
+
+-   A direct link to the record in your instance that triggered this finding during the scan.
+-   Select to navigate directly to the record and review the code, configuration, or content that generated the finding.
+-   Essential for explaing the context of the issue.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+The description of the definition that triggered the finding
+
+</td></tr><tr><td>
+
+Introduced by
+
+</td><td>
+
+-   The user, system process, or update set that created or last modified the record being scanned.
+-   Use to track ownership and identify patterns in findings across your team. Helps with root-cause analysis and accountability.
+
+</td></tr><tr><td>
+
+Exception Reason
+
+</td><td>
+
+-   When an exception is submitted for a RECOMMEND level finding, this field captures the business justification or context for the exception request.
+-   Visible only when an exception is in progress or has been approved. Provides transparency to approvers and team members reviewing the exception.
+
+</td></tr><tr><td>
+
+Assigned group
+
+</td><td>
+
+-   The team group to which the finding was automatically assigned when detected. Use to identify which team is responsible for remediating this finding.
+-   The assigned group is set automatically at detection time by the assignment rule engine and cannot be changed by editing this field directly.
+
+</td></tr><tr><td>
+
+Assignment source
+
+</td><td>
+
+-   Records which rule or fallback tier resolved the assignment for this finding, including the rule name and a timestamp.
+-   Use to audit why a finding was routed to a specific group. The value identifies the Decision Table rule that fired, or the fallback tier that resolved the assignment when no rule matched.
+
+</td></tr></tbody>
+</table>**Related topics**  
 
 
-[View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/viewing-scan-results-scan-engine.md)
+[View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/viewing-scan-results-scan-engine.md)
 

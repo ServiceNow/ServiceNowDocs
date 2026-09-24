@@ -3,11 +3,11 @@ title: Add work items to Sprint planning Backlog in CWM
 description: Create and add new work items to the Backlog directly from the Sprint planning view of Collaborative Work Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/add-work-items-to-sprint-planning-backlog-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plan sprints, Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_cwm.cwm\_user
 
 5.  Select the work item type from the **Item type** drop-down list.
 
-    The default work item type available is Task. You can enable other types such as Story or create a custom type. See [Create and manage custom work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-custom-work-item-types-in-cwm.md).
+    The default work item type available is Task. You can enable other types such as Story or create a custom type. See [Create and manage custom work item types in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-custom-work-item-types-in-cwm.md).
 
 6.  On the form, fill in the details for the item such as short description, start and end dates, story points, and others.
 
@@ -47,7 +47,7 @@ The newly created work item is added to the Backlog.
 
 ## What to do next
 
-You can plan this item into one of the active sprints by dragging and dropping it into the Sprint section. See [Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md).
+You can plan this item into one of the active sprints by dragging and dropping it into the Sprint section. See [Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md).
 
-**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
+**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 

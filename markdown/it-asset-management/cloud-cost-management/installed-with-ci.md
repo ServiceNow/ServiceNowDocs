@@ -3,13 +3,13 @@ title: Components installed with Cloud Cost Management
 description: Several types of components are installed with activation of the Cloud Cost Management application, including tables, user roles, and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/installed-with-ci.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Reference, Cloud Cost Management, IT Asset Management, Asset Management]
+breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Components installed with Cloud Cost Management
@@ -1722,5 +1722,5 @@ Spend Report Monthly Tag Agg Cost
  sn\_cld\_spend\_core\_monthly\_tag\_agg\_cost
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
+</table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 

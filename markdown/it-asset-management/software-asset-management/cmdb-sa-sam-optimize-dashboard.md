@@ -3,7 +3,7 @@ title: Manage SAM advisor scope in CMDB success advisor
 description: Manage the scope of your advisor for Software Asset Management \(SAM\) by editing the software products in CMDB success advisor to support your targeted SAM outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cmdb-sa-sam-optimize-dashboard.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
@@ -46,5 +46,5 @@ Control which software products are included in the SAM advisor dashboard in CMD
 
 ## Result
 
-The SAM dashboard in CMDB success advisor is updated to reflect the data based on the software product selection. A confirmation message summarizes the software products added or removed. Dashboard metrics refresh once daily when the **CMDB Advisor - SAM Daily Data Collection** scheduled job runs. The scheduled job invokes the **CMDB success advisor data collection for SAM** Performance Analytics job to recalculate the pre-aggregated indicators used throughout the dashboard. For more information about Performance Analytics jobs, see [Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ClctData.md). Changes to your software product selection appear in the dashboard metrics after this job's next run, not immediately. For the full list of CMDB success advisor scheduled jobs, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-components-installed.md).
+The SAM dashboard in CMDB success advisor is updated to reflect the data based on the software product selection. A confirmation message summarizes the software products added or removed. Dashboard metrics refresh once daily when the **CMDB Advisor - SAM Daily Data Collection** scheduled job runs. The scheduled job invokes the **CMDB success advisor data collection for SAM** Performance Analytics job to recalculate the pre-aggregated indicators used throughout the dashboard. For more information about Performance Analytics jobs, see [Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_ClctData.md). Changes to your software product selection appear in the dashboard metrics after this job's next run, not immediately. For the full list of CMDB success advisor scheduled jobs, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-components-installed.md).
 

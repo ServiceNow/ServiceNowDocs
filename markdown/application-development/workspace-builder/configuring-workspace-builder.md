@@ -3,11 +3,11 @@ title: Configuring Workspace Builder
 description: Install and configure Workspace Builder to enable users to build custom workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/configuring-workspace-builder.html
-release: australia
+release: brazil
 product: Workspace Builder
 classification: workspace-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workspace Builder, Builder library, Developing your application, Building applications]
 ---

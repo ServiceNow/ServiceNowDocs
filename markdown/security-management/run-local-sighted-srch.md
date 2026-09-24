@@ -3,9 +3,9 @@ title: Run a sightings search on observables in a case
 description: You can search for observables using the Sighting Search feature to determine how often they occur. Each occurrence is considered a sighting. You can limit the search to the number of sightings within a selected number of days or within a date range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/run-local-sighted-srch.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IoCs and observables in cases, Case creation from security artifacts, Security Case Management, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -45,7 +45,7 @@ Role required: sn\_ti.case\_user\_write
 8.  Click **Search**.
 
 
-**Parent Topic:**[IoCs and observables in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cases-in-threat.md)
+**Parent Topic:**[IoCs and observables in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/cases-in-threat.md)
 
 **Related topics**  
 

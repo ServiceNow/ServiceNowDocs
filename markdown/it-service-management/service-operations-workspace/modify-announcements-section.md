@@ -3,11 +3,11 @@ title: Configure the Announcements section on the landing page
 description: Customize an existing announcement or add an announcement for additional tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/modify-announcements-section.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Landing page configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -38,23 +38,23 @@ You can add announcements for additional tables by defining additional data sour
 
 3.  On the Landing Page form, under **Tier 1** or **Tier 2** sections, select **Configure** next to the **Announcements** option.
 
-    The SOW - Announcements EVAM definition is displayed. For information on EVAM definition, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-composite-dataset.md).
+    The SOW - Announcements EVAM definition is displayed. For information on EVAM definition, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-composite-dataset.md).
 
 4.  Navigate to **All** &gt; **Entity View Action Mapper \(EVAM\)** &gt; **EVAM Definitions**.
 
 5.  To edit the data source of an announcement, navigate to the EVAM Datasource M2Ms related list and edit the required data source.
 
-    For information on data source, see [Define a datasource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-datasource.md).
+    For information on data source, see [Define a datasource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-evam-datasource.md).
 
 6.  To create an announcement for an additional table, add a data source for that table.
 
-    For information on data source, see Define a data source. For information on defining a data source, see [Define a datasource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-datasource.md).
+    For information on data source, see Define a data source. For information on defining a data source, see [Define a datasource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-evam-datasource.md).
 
 7.  To source custom announcements into the **Announcements** section, create an additional banner announcement configuration for the Banner Announcement \[sys\_ux\_banner\_announcement\] table by performing the following steps.
 
     1.  Create a banner announcement configuration and the corresponding banner announcements.
 
-        For information on creating a banner announcement configuration, see [Next Experience banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-banner-announcements.md).
+        For information on creating a banner announcement configuration, see [Next Experience banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-banner-announcements.md).
 
     2.  Associate the banner announcement configuration with the **sn\_sow.banner\_announcements\_config\_id** property.
 
@@ -71,10 +71,10 @@ You can add announcements for additional tables by defining additional data sour
 
     4.  On the View Template form, edit the **Template** field.
 
-        For information on editing a template, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-template.md).
+        For information on editing a template, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-evam-template.md).
 
     5.  Select **Update**.
 
 
-**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
+**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
 

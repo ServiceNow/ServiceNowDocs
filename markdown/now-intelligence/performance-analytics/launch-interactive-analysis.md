@@ -3,11 +3,11 @@ title: Launch Interactive Analysis
 description: Launch Interactive Analysis from any list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/launch-interactive-analysis.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Interactive Analysis, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -39,5 +39,5 @@ You must have access to the list of records that you want to analyze.
 5.  Drill down into a subset of the data by clicking a visualization, such as a bar in the bar chart or a cell in the heatmap.
 
 
-**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
+**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
 

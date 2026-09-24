@@ -3,7 +3,7 @@ title: Set up the GitLab spoke
 description: Integrate your ServiceNow instance and the GitLab by creating a custom OAuth application in the GitLab.Add GitLab token to authenticate requests from your ServiceNow instance.Create a custom OAuth application from your GitLab account to enable OAuth 2.0 authentication with the GitLab spoke.Add and configure a GitLab connection to authenticate ServiceNow requests in GitLab spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gitlab-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

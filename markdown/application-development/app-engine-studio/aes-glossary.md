@@ -3,13 +3,13 @@ title: AES glossary
 description: Learn about terms and concepts that are unique to App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-glossary.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, App Engine Studio, Developing your application, Building applications]
 ---
 
 # AES glossary
@@ -20,7 +20,7 @@ Learn about terms and concepts that are unique to App Engine Studio \(AES\).
 
     Provides predefined data, experience, logic and automation, and security to support a certain use case. For example, the Travel Request template provides application content for submitting and approving employee travel requests.
 
-    For more information on the available templates, see [Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md).
+    For more information on the available templates, see [Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/template-library.md).
 
 -   **Logic and automation**
 
@@ -40,7 +40,7 @@ Learn about terms and concepts that are unique to App Engine Studio \(AES\).
 
 -   **Experience**
 
-    Graphical interface that your users interact with. For example, you can create a portal where users find information, submit requests, or complete business tasks. For more information on the available application experiences, see [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md).
+    Graphical interface that your users interact with. For example, you can create a portal where users find information, submit requests, or complete business tasks. For more information on the available application experiences, see [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-experience.md).
 
 -   **Pipeline**
 
@@ -51,5 +51,5 @@ Learn about terms and concepts that are unique to App Engine Studio \(AES\).
     Roles and access controls to limit who can use your application.
 
 
-**Parent Topic:**[App Engine Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-reference.md)
+**Parent Topic:**[App Engine Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-reference.md)
 

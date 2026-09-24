@@ -3,9 +3,9 @@ title: View Task Intelligence Analytics
 description: View the Task Intelligence for CSM Analytics dashboard to monitor the model performance over time, track the business value, and see what predictions your agents did or didn't use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-case-monitoring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use Task Intelligence, Automate and optimize, Use, Customer Service Management]
 ---

@@ -3,11 +3,11 @@ title: Create Extract Transform Load \(ETL\) definitions
 description: Create ETL definitions to extract data from a source table, transform the data as desired, and load the data into multiple target tables. ETL definitions also support nested data structures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/create-etl-definitions.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Robust Import Set Transformers, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -120,17 +120,17 @@ In the onAfter script, the source and target data are both written to the import
 
 **Note:**
 
--   For creating these definitions and mapping using a guided or step-by-step experience, refer to [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md).
--   If your target table or application is related to CMDB, use the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrationhub-etl.md) guided experience.
+-   For creating these definitions and mapping using a guided or step-by-step experience, refer to [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/integrationhub-imports.md).
+-   If your target table or application is related to CMDB, use the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integrationhub-etl.md) guided experience.
 
 **Related topics**  
 
 
-[Define ETL entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/define-etl-entities.md)
+[Define ETL entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/define-etl-entities.md)
 
-[Define ETL entity mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/define-etl-mappings.md)
+[Define ETL entity mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/define-etl-mappings.md)
 
-[Create ETL entity field definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-etl-field-definitions.md)
+[Create ETL entity field definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/create-etl-field-definitions.md)
 
-[Define Robust Transform Engine operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/define-rte-operations.md)
+[Define Robust Transform Engine operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/define-rte-operations.md)
 

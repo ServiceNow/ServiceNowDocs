@@ -3,7 +3,7 @@ title: Collapse parent or child BOM lines
 description: You can configure child products to hide under their parent products unless expanded.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/collapse\_parentchild\_bom\_lines.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

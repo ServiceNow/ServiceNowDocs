@@ -3,9 +3,9 @@ title: Configure Flow Designer to manage the integration
 description: On your instance, use Workflow Studio to manage an integration between your local network and your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-6.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform Security]
 ---
@@ -75,5 +75,5 @@ In these steps, you create a Workflow Studio workflow to create a text file on y
 12. Select the **Save** button to save the workflow.
 
 
-**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-secret-landing.md)
 

@@ -3,9 +3,9 @@ title: Configure request types
 description: You can review the available request types and configure the ones that you need so that your agents can create cases for these request types from both the Platform and Workspace UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-request-types-fso.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
@@ -22,6 +22,6 @@ When an agent creates a case for a request type, the Financial Services Operatio
 
 -   Product Service select version of the case type selector for creating a case from the Workspace UI.
 
-    In the Workspace UI, agents can use the Product Service select version of the case type selector to choose the suitable case type or service when creating a case. By selecting from a list of available case types or services, agents can efficiently create the appropriate case for a contact or consumer. For more information on how the case type selector empowers customer service agents, see [Product Service select version of the case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals-product-service.md).
+    In the Workspace UI, agents can use the Product Service select version of the case type selector to choose the suitable case type or service when creating a case. By selecting from a list of available case types or services, agents can efficiently create the appropriate case for a contact or consumer. For more information on how the case type selector empowers customer service agents, see [Product Service select version of the case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-type-select-modals-product-service.md).
 
 

@@ -3,11 +3,11 @@ title: Submit an acknowledgement request
 description: After you have created an acknowledgement campaign, you can submit the acknowledgement request to the defined audience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/submit-ack-request.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Acknowledge policy, Manage, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -119,5 +119,5 @@ This tab shows details and requirements from the policy, as well as the **Refere
 11. You can also identify any audience members who have exceeded the acknowledgement time line by navigating to **Policy and Compliance** &gt; **Policy Acknowledgement** &gt; **Overdue Acknowledgements**.
 
 
-**Parent Topic:**[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)
+**Parent Topic:**[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)
 

@@ -3,9 +3,9 @@ title: Approve or reject model assessment and validation tasks
 description: Approve or reject the model assessment and validation tasks either from the Employee Center or Model Risk Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/approve-or-reject-model-assessment-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Model Risk Management, Governance, Risk, and Compliance]
 ---
@@ -49,5 +49,5 @@ Role required: sn\_model\_risk\_mgmt.task\_approver
         This action terminates the current workflow and initiates it again from the beginning.
 
 
-**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-mrm.md)
 

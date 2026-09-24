@@ -3,11 +3,11 @@ title: Set up AI Agent Studio
 description: The default \(base system\) AI agents provide preconfigured agentic workflows that address common business challenges across ServiceNow applications. Before activating the default AI agents, you must verify that your instance meets the prerequisites and complete the required configuration steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/set-up-aia-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Set up AI Agent Studio
@@ -24,7 +24,7 @@ Role required: sn\_aia\_admin
 
 -   **Platform version:**
     -   Minimum: Yokohama Patch 1+ or Xanadu Patch 7+
-    -   Recommended: Yokohama Patch 11or Zurich Patch 5
+    -   Recommended: Yokohama Patch 11 or Zurich Patch 5
 -   **Required plugins and store Apps**
 
     -   Now Assist AI agents store app \(version 6.0.17 or later as of December 2025\)

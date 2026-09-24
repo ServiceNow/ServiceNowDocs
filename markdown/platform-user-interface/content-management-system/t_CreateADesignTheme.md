@@ -3,11 +3,11 @@ title: Customize a design theme
 description: A theme is a collection of one or more style sheets \(CSS files\) that define a consistent look for a set of pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CreateADesignTheme.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Design themes, Style in Content Management, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -43,5 +43,5 @@ Themes can be invoked in any of the following ways.
 5.  Use the **Style Sheet** related list to add style sheets to the theme.
 
 
-**Parent Topic:**[Design themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_DesignThemes.md)
+**Parent Topic:**[Design themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_DesignThemes.md)
 

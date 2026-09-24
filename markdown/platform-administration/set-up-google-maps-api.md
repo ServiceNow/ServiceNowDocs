@@ -3,9 +3,9 @@ title: Set up Google Maps API
 description: You enable the geolocation feature using the appropriate entries from a Google Maps API for Business license, or a Google Maps JavaScript API Key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/set-up-google-maps-api.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,15 +32,15 @@ Update your configuration to authenticate using an API key only \(that is, set *
 
     **Note:** You are required to use your own Google Maps JavaScript API Key from Google and not use any ServiceNow AI Platform® generated key.
 
-<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d113909e112">
+<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d113196e112">
 
 Existing Google Maps API for Business license available?
 
-</th><th align="left" id="d113909e118">
+</th><th align="left" id="d113196e118">
 
 Tasks
 
-</th></tr></thead><tbody><tr><td id="d113909e124">
+</th></tr></thead><tbody><tr><td id="d113196e124">
 
 **Existing license available**
 
@@ -55,7 +55,7 @@ Tasks
 
 The Google Maps Client ID–based configuration is being deprecated. Client ID authentication will not be supported starting May 2026, and configurations relying on it will no longer work.
 
-</td></tr><tr><td id="d113909e198">
+</td></tr><tr><td id="d113196e198">
 
 **No license available**
 
@@ -291,5 +291,5 @@ Maximum number of records in a table that can be processed using the scheduled j
     5.  Click **Save**.
 
 
-**Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ServiceNowProvidedintegrations.md)
+**Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ServiceNowProvidedintegrations.md)
 

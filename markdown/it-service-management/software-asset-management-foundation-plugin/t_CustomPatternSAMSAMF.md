@@ -1,20 +1,20 @@
 ---
-title: Customize a Discovery pattern for Software Asset Management Foundation plugin
-description: Software Asset Management Foundation plugin automatically leverages SQL Server, Exchange, and Oracle Database Discovery patterns, but you can perform steps for Software Asset Management Foundation plugin to utilize additional Discovery patterns, if needed.
+title: Customize a Discovery pattern for Basic Software Asset Management
+description: Basic Software Asset Management automatically leverages SQL Server, Exchange, and Oracle Database Discovery patterns, but you can perform steps for Basic Software Asset Management to utilize additional Discovery patterns, if needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/t\_CustomPatternSAMSAMF.html
-release: australia
+release: brazil
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Setting up Basic Software Asset Management plugin, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Customize a Discovery pattern for Software Asset Management Foundation plugin
+# Customize a Discovery pattern for Basic Software Asset Management
 
-Software Asset Management Foundation plugin automatically leverages SQL Server, Exchange, and Oracle Database Discovery patterns, but you can perform steps for Software Asset Management Foundation plugin to utilize additional Discovery patterns, if needed.
+Basic Software Asset Management automatically leverages SQL Server, Exchange, and Oracle Database Discovery patterns, but you can perform steps for Basic Software Asset Management to utilize additional Discovery patterns, if needed.
 
 ## Before you begin
 
@@ -22,11 +22,11 @@ Role required: sam\_admin
 
 ## About this task
 
-Discovery uses a series of scripts and operations \(probes, sensors, and patterns\) with the base system to collect data, process it, and update the CMDB. Although Software Asset Management Foundation plugin is already set up to utilize three common patterns \([MSSQL server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/mssql-data-collected-pattern.md), [Exchange MailBox discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-ExchangeMailBox.md), and [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_OracleDatabaseDiscovery.md)\), you can perform a configuration procedure to include additional patterns.
+Discovery uses a series of scripts and operations \(probes, sensors, and patterns\) with the base system to collect data, process it, and update the CMDB. Although Basic Software Asset Management is already set up to utilize three common patterns \([MSSQL server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/mssql-data-collected-pattern.md), [Exchange MailBox discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r-ExchangeMailBox.md), and [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_OracleDatabaseDiscovery.md)\), you can perform a configuration procedure to include additional patterns.
 
-This customization automatically copies the records from the discovered pattern to the Software Installation \[cmdb\_sam\_sw\_install\] table so Software Asset Management Foundation plugin can utilize this data for reconciliation.
+This customization automatically copies the records from the discovered pattern to the Software Installation \[cmdb\_sam\_sw\_install\] table so Basic Software Asset Management can utilize this data for reconciliation.
 
-For more information on pattern customization, see [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_MappingPatternsCustomization.md).
+For more information on pattern customization, see [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_MappingPatternsCustomization.md).
 
 ## Procedure
 
@@ -94,7 +94,7 @@ Product name \(for example, MySQL\).
 
 ## What to do next
 
-If the software product has an edition that is not being discovered, [Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md) so the software can be successfully reconciled.
+If the software product has an edition that is not being discovered, [Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md) so the software can be successfully reconciled.
 
-**Parent Topic:**[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
+**Parent Topic:**[Setting up Basic Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
 

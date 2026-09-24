@@ -3,11 +3,11 @@ title: Exploring Service Operations Workspace for ITSM
 description: Service Operations Workspace provides agents with a unified view of incidents, alerts, and tasks so they can investigate and resolve service issues from a single interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/explore-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Service Operations Workspace for ITSM is a configurable workspace that provides 
 
 ## Accessing Service Operations Workspace for ITSM
 
-For information about accessing Service Operations Workspace for ITSM, see [Access Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/access-sow-itsm.md).
+For information about accessing Service Operations Workspace for ITSM, see [Access Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/access-sow-itsm.md).
 
 ## Service Operations Workspace for ITSM users
 
@@ -73,18 +73,18 @@ User who implements and sets up Service Operations Workspace for ITSM.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Tailored landing page for tier 1 and tier 2 agents. It provides an overview of outages, service announcements, and assignments to efficiently prioritize the work. Tier 1 agents can view and manage their performance and learning tasks assigned by their manager. |[Service Operations Workspace for ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
-|Agents can manage incidents effectively with contextual information and targeted actions. Streamline investigations and accelerate incident resolution with the metrics data collected from Agent Client Collector \(ACC\).|[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md)|Tier 1 and Tier 2 agents|
-|Agents can use information from similar incidents and knowledge articles to accelerate incident resolution.|[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)|Tier 1 and Tier 2 agents|
-|Agents can reach out to experts on-call for high-priority tasks. |[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)|Tier 1 and Tier 2 agents|
-|Agents can collaborate with the requester and peers from the task using Microsoft Teams chat. |[ServiceNow integrations with Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/msteams-sow.md)|Tier 1 and Tier 2 agents|
-| Agents can create requests from incidents and interactions. Agents can also manage the entire life cycle of requests. |[Request Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/request-sow.md)|Tier 1 and Tier 2 agents|
-|Agents and administrators can review and manage walk-up interactions, appointments, stockrooms, and kiosks at the walk-up service location.  |[Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/walkup-sow.md)|Tier 1 and Tier 2 agents|
-|All logged-in users can view key features to get started with Service Operations Workspace for ITSM.|[Service Operations Workspace for ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
-|Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|[Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md)|Administrator|
-|Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|[Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/service-operations.md)|Tier 1 agent, Tier 2 agent, and IT operator|
+|Tailored landing page for tier 1 and tier 2 agents. It provides an overview of outages, service announcements, and assignments to efficiently prioritize the work. Tier 1 agents can view and manage their performance and learning tasks assigned by their manager. |[Service Operations Workspace for ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
+|Agents can manage incidents effectively with contextual information and targeted actions. Streamline investigations and accelerate incident resolution with the metrics data collected from Agent Client Collector \(ACC\).|[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/incident-sow.md)|Tier 1 and Tier 2 agents|
+|Agents can use information from similar incidents and knowledge articles to accelerate incident resolution.|[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)|Tier 1 and Tier 2 agents|
+|Agents can reach out to experts on-call for high-priority tasks. |[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)|Tier 1 and Tier 2 agents|
+|Agents can collaborate with the requester and peers from the task using Microsoft Teams chat. |[ServiceNow integrations with Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/msteams-sow.md)|Tier 1 and Tier 2 agents|
+| Agents can create requests from incidents and interactions. Agents can also manage the entire life cycle of requests. |[Request Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/request-sow.md)|Tier 1 and Tier 2 agents|
+|Agents and administrators can review and manage walk-up interactions, appointments, stockrooms, and kiosks at the walk-up service location.  |[Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/walkup-sow.md)|Tier 1 and Tier 2 agents|
+|All logged-in users can view key features to get started with Service Operations Workspace for ITSM.|[Service Operations Workspace for ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
+|Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|[Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/guided-setup.md)|Administrator|
+|Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|[Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/better-together/service-operations.md)|Tier 1 agent, Tier 2 agent, and IT operator|
 
-For information about key features in Service Operations Workspace for ITOM, see Exploring Service Operations Workspace for ITOM.
+For information about key features in Service Operations Workspace for ITOM, see [Exploring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/sow-landing-page-itom.md).
 
 ## Service Operations Workspace for ITSM workflow for an agent
 
@@ -99,41 +99,41 @@ For information about key features in Service Operations Workspace for ITOM, see
 
 ## Using guided tours to learn about Service Operations Workspace for ITSM
 
-Use a guided tour that is sequence of interactive steps to guide an agent through a specific process or task within Service Operations Workspace for ITSM. To access guided tours, select the Show help icon in the navigation bar and scroll down to find the **Take a Tour** or **Select a Tour** option. For more information about playing a guided tour, see [Play a guided tour in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/play-guided-tour-sow.md).
+Use a guided tour that is sequence of interactive steps to guide an agent through a specific process or task within Service Operations Workspace for ITSM. To access guided tours, select the Show help icon in the navigation bar and scroll down to find the **Take a Tour** or **Select a Tour** option. For more information about playing a guided tour, see [Play a guided tour in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/play-guided-tour-sow.md).
 
 **Important:**
 
--   A guided tour might break if you customize any of its associated UI elements in your instance, so ensure that you update your guided tours as well accordingly. For information on how to update guided tours, see [Edit Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-guided-tour.md).
+-   A guided tour might break if you customize any of its associated UI elements in your instance, so ensure that you update your guided tours as well accordingly. For information on how to update guided tours, see [Edit Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/edit-guided-tour.md).
 -   The **Take a Tour** or **Select a Tour** option is available only when a guided tour is available for that UI page.
 
 ## Using guided setup to implement Service Operations Workspace for ITSM
 
-Service Operations Workspace for ITSM guided setup provides a sequence of tasks that help an administrator configure Service Operations Workspace for ITSM on your ServiceNow instance. To open Service Operations Workspace for ITSM guided setup, navigate to **All** &gt; **Adoption Services** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
+Service Operations Workspace for ITSM guided setup provides a sequence of tasks that help an administrator configure Service Operations Workspace for ITSM on your ServiceNow instance. To open Service Operations Workspace for ITSM guided setup, navigate to **All** &gt; **Adoption Services** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/guided-setup.md).
 
 ## What to explore next
 
 To learn more about configuring and using Service Operations Workspace for ITSM, see:
 
--   [Configuring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-sow.md)
--   [Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
--   [Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
--   [Optimizing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/optimizing-services-operations-in-organization.md)
+-   [Configuring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-sow.md)
+-   [Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
+-   [Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
+-   [Optimizing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/optimizing-services-operations-in-organization.md)
 
--   **[Access Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/access-sow-itsm.md)**  
+-   **[Access Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/access-sow-itsm.md)**  
 Experience a unified and seamless experience when managing the life cycle of task records such as incidents and requests.
--   **[Service Operations Workspace for ITSM user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/service-operations-workspace-ui.md)**  
+-   **[Service Operations Workspace for ITSM user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/service-operations-workspace-ui.md)**  
 You can navigate through the Service Operations Workspace to get an overview of how an agent can prioritize tasks and provide resolution.
--   **[Service Operations Workspace for ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-ui-landing-page.md)**  
+-   **[Service Operations Workspace for ITSM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-ui-landing-page.md)**  
 An agent can get quick visibility into the work assigned, view announcements, and view upcoming tasks.
--   **[Exploring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md)**  
+-   **[Exploring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md)**  
 Recommended Actions for ITSM lets you set up and apply real-time actionable recommendations for speeding up the triaging process. You can resolve issues quickly across various records in the Service Operations Workspace, including Incident, Incident task, Problem, Problem task, Change request, Change task, Interaction, and Request.
--   **[Exploring On-call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-service-operations-workspace.md)**  
+-   **[Exploring On-call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-service-operations-workspace.md)**  
 On-Call Scheduling ensures that dedicated support team members are always available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation.
 
-**Parent Topic:**[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-landing-page.md)
+**Parent Topic:**[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-landing-page.md)
 
 **Related topics**  
 
 
-[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md)
+[List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/list-of-workspaces.md)
 

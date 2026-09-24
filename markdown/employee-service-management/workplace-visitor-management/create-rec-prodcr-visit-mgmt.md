@@ -3,12 +3,12 @@ title: Create a record producer for visitor management
 description: Make visitor-related services available to employees as a self-service option. Create a record producer to display these services as catalog items in the Workplace Services catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/create-rec-prodcr-visit-mgmt.html
-release: australia
+release: brazil
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -108,7 +108,7 @@ Select this option to enable users to expand help for all questions.
 
     Variables collect information from the user, and are used to ask questions and map answers to fields.
 
-    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_VariableTypes.md).
+    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_VariableTypes.md).
 
 7.  Click **Submit**.
 
@@ -117,7 +117,9 @@ Select this option to enable users to expand help for all questions.
 
 The record producer is created.
 
-**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 
@@ -137,4 +139,18 @@ The record producer is created.
 [Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 
 [Quick start test for Workplace Visitor Management]()
+
+[Install Workplace Visitor Management]()
+
+[Create a visitor policy]()
+
+[Configure a visitor type]()
+
+[Configure visit requirements]()
+
+[Create a visitor badge template]()
+
+[Configure the frequency of email notifications]()
+
+[Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 

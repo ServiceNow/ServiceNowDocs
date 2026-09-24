@@ -3,11 +3,11 @@ title: On-Call Scheduling capabilities
 description: The key features and capabilities of On-Call Scheduling can be used by the various user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/on-call-scheduling-capabilities.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring On-Call Scheduling, On-Call Scheduling, IT Service Management]
 ---
@@ -44,5 +44,5 @@ On-Call Scheduling supports the Members of the roster \(itil role\), Shift Manag
 -   Create shift and group templates.
 -   Design the entire escalation process.
 
-**Parent Topic:**[Exploring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/exploring-on-call-scheduling.md)
+**Parent Topic:**[Exploring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/exploring-on-call-scheduling.md)
 

@@ -3,9 +3,9 @@ title: Create and activate custom policies for Security Posture Control
 description: Create your own custom policies to monitor assets for tool coverage and other high-risk combinations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-create-policy.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use the workspace, Security Posture Control, Security Operations]
 ---
@@ -16,9 +16,9 @@ Create your own custom policies to monitor assets for tool coverage and other hi
 
 ## Before you begin
 
-To help you understand the steps required to create a policy with more details, refer to [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-policy-examples.md). The examples walk you through the steps required to create a base policy, use the base policy to create a child policy, and clone a policy.
+To help you understand the steps required to create a policy with more details, refer to [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-policy-examples.md). The examples walk you through the steps required to create a base policy, use the base policy to create a child policy, and clone a policy.
 
-For example policies, see [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-policy-examples.md).
+For example policies, see [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-policy-examples.md).
 
 Roles required: SPC Admin Group or SPC Analyst Group
 
@@ -85,7 +85,7 @@ A unique description for your policy. 
 
 7.  Select one from the list for the Connection field.
 
-    The target Entity field is auto populated based on your choice. A new Criteria field is displayed along with Property, Operator, and Value fields. For more information about asset types and the schema for relationships, see [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-policies-overview.md).
+    The target Entity field is auto populated based on your choice. A new Criteria field is displayed along with Property, Operator, and Value fields. For more information about asset types and the schema for relationships, see [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/spc-policies-overview.md).
 
 8.  Select one from the list for Property.
 

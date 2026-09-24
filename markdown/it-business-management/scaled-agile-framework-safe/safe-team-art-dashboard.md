@@ -3,11 +3,11 @@ title: SAFe Team Dashboard
 description: Visually analyze how a team is progressing on stories over a given period. Gain insight on the overall velocity of the team and helps you plan the team's capacity for the upcoming sprints and program increments \(PIs\). In addition, this dashboard provides details of all the team members.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/safe-team-art-dashboard.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -56,7 +56,7 @@ The Team Dashboard visualizations are segregated into the following tabs:
 -   Sprint Performance: Reports of Velocity History and Sprint Variance
 -   Team Members: List of all the members of the team
 
-    **Note:** For existing customers who upgrade to the latest version, the list of the team members appears in both the Work item progress and Team Members tabs but only one of these locations would display the accurate information. You can remove this widget from the Work item progress tab to avoid this issue. For more information on how to remove a widget, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_EditADashboard.md).
+    **Note:** For existing customers who upgrade to the latest version, the list of the team members appears in both the Work item progress and Team Members tabs but only one of these locations would display the accurate information. You can remove this widget from the Work item progress tab to avoid this issue. For more information on how to remove a widget, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_EditADashboard.md).
 
 -   Cycle Time: Report of the story cycle for the team.
 -   Program Predictability: Report of the team's historical performance in meeting the PI objectives.
@@ -68,7 +68,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Sprint Variance
 -   Story Cycle Time
 
-For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
+For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
 
 <table id="table_xvt_hl4_2fb"><thead><tr><th>
 
@@ -176,7 +176,7 @@ Analyze the way your team's velocity changes over time and compare the team's st
 
  Data displayed in this report is of the past 10 sprints with the earliest sprint on the left.
 
- **Note:** This report is not available by default. You can add it from Scrum custom charts to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_EditADashboard.md).
+ **Note:** This report is not available by default. You can add it from Scrum custom charts to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_EditADashboard.md).
 
 </td></tr><tr><td>
 
@@ -295,7 +295,7 @@ Track the historical performance of the team on achieving their PI objectives.
 
  The horizontal axis shows the completed PIs and the vertical axis shows the range of business value achieved in percentage \(%\).
 
- Each series is the representation of the business value achieved, which is calculated from the planned and actual business values of the PI objectives. For more information, see [SAFe PI objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-pi-objectives.md).
+ Each series is the representation of the business value achieved, which is calculated from the planned and actual business values of the PI objectives. For more information, see [SAFe PI objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/safe-pi-objectives.md).
 
  From the chart, you can if the team is consistently achieving between 80% and 100% of the set PI objectives, which is the ideal range according to SAFe.
 
@@ -313,5 +313,5 @@ The objectives shown in this list are only for the selected team.
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
+</table>**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

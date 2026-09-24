@@ -3,11 +3,11 @@ title: Data Stream action design considerations
 description: Follow these considerations when creating a Data Stream action and when adding a Data Stream action to a flow to prevent errors and performance issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/data-stream-design.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Data Stream actions and pagination, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -46,7 +46,7 @@ Create Data Stream actions with these considerations in mind.
 
 -   **Consider the size of each page returned**
 
-    When configuring pagination options, try to ensure that the size of each page returned is under one GB. This ensures that flow designers who use the action won't encounter size limit issues when retrieving data from a MID Server. If the action returns more than one GB of data per page, the flow designer may need to increase the attachment size limit. For more information, see [MID Server support for Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/dsa-on-mid.md).
+    When configuring pagination options, try to ensure that the size of each page returned is under one GB. This ensures that flow designers who use the action won't encounter size limit issues when retrieving data from a MID Server. If the action returns more than one GB of data per page, the flow designer may need to increase the attachment size limit. For more information, see [MID Server support for Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/dsa-on-mid.md).
 
 
 **Note:**
@@ -143,8 +143,8 @@ SOAP step
 </td></tr></tbody>
 </table>-   **Turn off reporting when consuming a large number of records in the For Each logic block**
 
-    Iterating over a large number of records can be resource intensive, especially when the For Each logic block includes complex actions for each iteration. To avoid performance issues, turn off reporting using the **com.snc.process\_flow.reporting.level** system property. For more information, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-system-properties.md).
+    Iterating over a large number of records can be resource intensive, especially when the For Each logic block includes complex actions for each iteration. To avoid performance issues, turn off reporting using the **com.snc.process\_flow.reporting.level** system property. For more information, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-designer-system-properties.md).
 
 
-**Parent Topic:**[Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md)
+**Parent Topic:**[Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/data-stream-actions.md)
 

@@ -1,24 +1,24 @@
 ---
-title: AI governance email notifications
+title: Email notifications
 description: Email notifications are sent automatically when specific events occur across AI governance workflows, including AI Control Tower, AI Risk and Compliance, and inherited Risk Management processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc\_email\_notifications.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
-# AI governance email notifications
+# Email notifications
 
 Email notifications are sent automatically when specific events occur across AI governance workflows, including AI Control Tower, AI Risk and Compliance, and inherited Risk Management processes.
 
 Email notifications are sent automatically when specific events occur across AI governance workflows. These notifications help ensure timely awareness, review, and action across governance, risk, and compliance activities.
 
-These notifications are part of the base system. Availability and behavior may vary depending on configuration and inherited Risk Management workflows. To customize notification content or recipients, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+These notifications are part of the base system. Availability and behavior may vary depending on configuration and inherited Risk Management workflows. To customize notification content or recipients, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md).
 
 ## AI Asset Approval Request
 
@@ -73,7 +73,7 @@ The following notifications are sent as Policy Exception records progress throug
 |Watchlist notified – BU approval pending|State changes to Awaiting Approval.|Watchlist|
 |Requester notified – more info needed|State is Analyze and Substate changes to Awaiting Requester Information.|Opened By, Watchlist|
 
-## Smart Control Attestation
+## Control Attestation powered by Smart Assessment
 
 The following notification is sent when a Smart Control Attestation is assigned.
 
@@ -137,5 +137,5 @@ The following notifications are sent when approvals are requested for individual
 |Approver notified – bulk risk approval|An Approval record is created requesting sign-off on a Bulk Risk Assessment.|Approver|
 |Approver notified – risk assessment approval|An Approval record is created requesting sign-off on an individual Risk Assessment.|Approver|
 
-**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
+**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 

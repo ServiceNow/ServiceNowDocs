@@ -3,11 +3,11 @@ title: View data collection usage
 description: To view statistics about data collection jobs, click Data Collection Overview in the Usage tile on the Performance Analytics Admin Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/view-data-collection-usage-statistics.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data collection, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -41,5 +41,5 @@ The following widgets are displayed:
 
 By default, weekly statistics are shown in an Analytics Hub, broken down by data collector. You can select different visualizations and breakdowns in the widget.
 
-**Parent Topic:**[Data collection process and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/data-collection-process-logging.md)
+**Parent Topic:**[Data collection process and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/data-collection-process-logging.md)
 

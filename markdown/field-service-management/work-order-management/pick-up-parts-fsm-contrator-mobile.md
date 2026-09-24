@@ -3,11 +3,11 @@ title: Pick up parts using the Field Service Contractor for mobile application
 description: Pick up the part by transferring it from an available stockroom when you are at a task site and need a missing part to complete your job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/pick-up-parts-fsm-contrator-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---

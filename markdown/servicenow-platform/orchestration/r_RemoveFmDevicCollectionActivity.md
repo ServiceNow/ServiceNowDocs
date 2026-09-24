@@ -3,11 +3,11 @@ title: Remove from Device Collection activity
 description: The Remove from Device Collection activity removes a device from a Microsoft System Center Configuration Manager \(SCCM\) device collection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_RemoveFmDevicCollectionActivity.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SCCM activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [SCCM activity pack, Orchestration activity packs, Classic Orchestra
 
 The Remove from Device Collection activity removes a device from a Microsoft System Center Configuration Manager \(SCCM\) device collection.
 
-The Remove from Device Collection activity uses the [Powershell activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAPowershellActivity.md) to remove a device from a device collection on a Microsoft SCCM server. The activity is configured to use a MID Server with Powershell capabilites and to run a MID Server script called RemoveFromUserCollection.ps1 to edit the collection.
+The Remove from Device Collection activity uses the [Powershell activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateAPowershellActivity.md) to remove a device from a device collection on a Microsoft SCCM server. The activity is configured to use a MID Server with Powershell capabilites and to run a MID Server script called RemoveFromUserCollection.ps1 to edit the collection.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **System Center Configuration Manager \(SCCM\)**.
 
@@ -42,5 +42,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Success|Activity successfully removed the device from the SCCM device collection.|
 |Failure|Activity failed to remove the device from the SCCM device collection.|
 
-**Parent Topic:**[SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md)
+**Parent Topic:**[SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md)
 

@@ -3,11 +3,11 @@ title: Enable e-signature for Service Portal
 description: You can configure e-signature in Service Portal to require re-authentication from approving users.Open a new window for SSO authentication when using e-Signature for approvals.Paste the spEsignatureCustom script in the sys\_ui\_script.list script field.Paste the spAuthCustom script in the sys\_ui\_script.list script field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-esignature-sp.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -33,9 +33,9 @@ Role required: admin
 
 ## Result
 
-With e-signature enabled, approvers are required to provide a password to approve or reject any requests. Authentication with touch ID works in the mobile app. On the mobile web, approvers are still required to enter a password. For more information on configuring e-signature, see .
+With e-signature enabled, approvers are required to provide a password to approve or reject any requests. Authentication with touch ID works in the mobile app. On the mobile web, approvers are still required to enter a password. For more information on configuring e-signature, see [Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/approval-with-e-signature.md).
 
-**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/portal-security.md)
+**Parent Topic:**[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/portal-security.md)
 
 ## Enable SSO login in a new window
 
@@ -61,7 +61,7 @@ Role required: admin
 
     4.  In the UI Type field, select **Mobile/Service Portal**.
 
-    5.  Paste the [spEsignatureCustom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-esignature-sp.md) in the **Script** field.
+    5.  Paste the [spEsignatureCustom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-esignature-sp.md) in the **Script** field.
 
     6.  Select **Submit**.
 
@@ -73,7 +73,7 @@ Role required: admin
 
     3.  In the UI Type field, select **Mobile/Service Portal**.
 
-    4.  Paste the [spAuthCustom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-esignature-sp.md) in the **Script** field.
+    4.  Paste the [spAuthCustom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-esignature-sp.md) in the **Script** field.
 
     5.  Select **Submit**.
 

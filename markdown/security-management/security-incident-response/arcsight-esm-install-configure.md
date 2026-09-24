@@ -3,11 +3,11 @@ title: Install and configure the ServiceNow application for the ArcSight ESM Eve
 description: Before you run the integration on your ServiceNow AI Platform instance, complete these installation and configuration steps so the application properly integrates with the Security Incident Response and Security Operations products on your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-install-configure.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set up instance, ArcSight ESM Event Ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.admin
 
 ## Procedure
 
-1.  If you have not installed the ArcSight ESM application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the ArcSight ESM application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After you have successfully installed the application, navigate to **Integrations** &gt; **Integrations Configurations** and locate the ArcSight ESM tile.
 
@@ -32,15 +32,15 @@ Role required: sn\_si.admin
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d360329e142">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d359993e142">
 
 Field
 
-</th><th align="left" id="d360329e145">
+</th><th align="left" id="d359993e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d360329e151">
+</th></tr></thead><tbody><tr><td id="d359993e151">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Unique name for the ArcSight ESM Manager that will be used in the integration profile configuration to distinguish amongnst multiple ArcSight ESM Manager sources if required.Spaces are supported for names, but parentheses are not supported.
 
-</td></tr><tr><td id="d360329e169">
+</td></tr><tr><td id="d359993e169">
 
 **ArcSight API Endpoint URL**
 
@@ -56,7 +56,7 @@ Unique name for the ArcSight ESM Manager that will be used in the integration pr
 
 URL for your ArcSight ESM Manager server. Note that the URL should include the API port, for example: `https://arcsight-esm.com:8443`
 
-</td></tr><tr><td id="d360329e184">
+</td></tr><tr><td id="d359993e184">
 
 **API Account User Name**
 
@@ -64,7 +64,7 @@ URL for your ArcSight ESM Manager server. Note that the URL should include the A
 
 User name that you created for your API user account in the ArcSight ESM Manager console.
 
-</td></tr><tr><td id="d360329e196">
+</td></tr><tr><td id="d359993e196">
 
 **API Password**
 
@@ -72,7 +72,7 @@ User name that you created for your API user account in the ArcSight ESM Manager
 
 Password that you created for your API user account in the ArcSight ESM Manager console.
 
-</td></tr><tr><td id="d360329e209">
+</td></tr><tr><td id="d359993e209">
 
 **On Premises Deployment**
 
@@ -82,7 +82,7 @@ Default is unchecked. If you are using the cloud-based version of ArcSight ESM t
 
  For an on-premises deployment, select this check box and specify the MID Server Application.
 
-</td></tr><tr><td id="d360329e227">
+</td></tr><tr><td id="d359993e227">
 
 **MID Server Application**
 

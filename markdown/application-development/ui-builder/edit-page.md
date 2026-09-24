@@ -3,11 +3,11 @@ title: Edit a page
 description: Edit a page to change the page name, path, type, and parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/edit-page.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -48,7 +48,7 @@ Edit page settings to change the name, path, and type of your page. This is usef
 
         \[Omitted image "required-parameter-settings.png"\] Alt text: Required parameters in page settings.
 
-        For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+        For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-pages.md).
 
 6.  Add optional pieces of data that you want to add to the URL of your page.
 
@@ -60,10 +60,10 @@ Edit page settings to change the name, path, and type of your page. This is usef
 
         \[Omitted image "optional-parameter-settings.png"\] Alt text: Optional parameters in page settings.
 
-        For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+        For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-pages.md).
 
 7.  Click **Save**.
 
 
-**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md)
+**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-pages.md)
 

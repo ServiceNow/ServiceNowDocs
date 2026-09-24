@@ -3,11 +3,11 @@ title: Event Management configuration preferences
 description: Preferred settings of properties and general configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/r\_EMBestPractice.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Use the [Known Error Portal](https://support.servicenow.com/kb?id=kb_article_vie
 
 ## General preferences
 
--   **[Self-health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/self-monitoring.md)**
+-   **[Self-health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/self-monitoring.md)**
 
     By default, the self-health monitoring feature is not enabled. To enable it, navigate to **Event Management** &gt; **Settings** &gt; **Properties** and select **Yes** for the **Enable Event Management self-health monitoring** \(evt\_mgmt.self\_health\_active\) property. Use this feature to monitor and track many Event Management features.
 
@@ -167,7 +167,7 @@ Populate the **Resource** and **Metric Name** fields. **Note:** If CI is also bo
 
         Do not add columns to the event \[em\_event\] table.
 
-    For information about how to include additional fields in events, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/populate-custom-alert-fields.md).
+    For information about how to include additional fields in events, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/populate-custom-alert-fields.md).
 
     -   **De-Duplication**
 
@@ -212,11 +212,11 @@ Populate the **Resource** and **Metric Name** fields. **Note:** If CI is also bo
 -   Do not create alerts in `OK` state. In some monitoring systems `OK` denotes that an issue has been resolved, while in other monitoring systems `OK` is used to denote events that are not of operational significance. For the former case, use `Clear` instead of `OK` using a Mapping Rule. For the latter case, have an Ignore rule, unless the events are of specific value.
 
 -   **Alert management rules**
-    -   Use alert management rules to define automated responses to alerts, such as opening incidents, running subflows, and launching applications or URLs. For more information, see [Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-management-rule.md).
-    -   Use alert filters to specify which alerts the rule applies to. For more information, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-alert-management-rule.md).
-    -   Use the **Order** field to control which alert management rule runs first when rules have similar conditions. For more information, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-alert-management-rule.md).
-    -   Use subflows to customize alert handling. For example, you can resolve alerts or notify teams. For more information, see [Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-custom-create-incident-subflow.md).
-    -   A scheduled job applies alert management rules to new or updated alerts every 11 seconds. If an alert management rule does not start immediately, allow 10–15 seconds before you start troubleshooting. For more information, see [Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-management-rule.md).
+    -   Use alert management rules to define automated responses to alerts, such as opening incidents, running subflows, and launching applications or URLs. For more information, see [Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-management-rule.md).
+    -   Use alert filters to specify which alerts the rule applies to. For more information, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-alert-management-rule.md).
+    -   Use the **Order** field to control which alert management rule runs first when rules have similar conditions. For more information, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-alert-management-rule.md).
+    -   Use subflows to customize alert handling. For example, you can resolve alerts or notify teams. For more information, see [Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-custom-create-incident-subflow.md).
+    -   A scheduled job applies alert management rules to new or updated alerts every 11 seconds. If an alert management rule does not start immediately, allow 10–15 seconds before you start troubleshooting. For more information, see [Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-management-rule.md).
 
 ## Business rules
 
@@ -251,5 +251,5 @@ Metric Intelligence performance numbers are available in the Performance Statist
 **Related topics**  
 
 
-[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/rotate-tables-purge-data.md)
+[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/rotate-tables-purge-data.md)
 

@@ -3,11 +3,11 @@ title: Execute response processor for subflow
 description: Execute a response processor for a subflow to get the subflow data back into a configuration item \(CI\). The response processor picks up the data, sends the data to the CMDB, which in turn puts the data in a CI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-response-processor.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure a response processor, Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -27,7 +27,7 @@ Before you execute a response processor for a subflow, you must create a subflow
 ```
 
  flow_type           : 'sys_flow_context'
- flow_correlation_id : flowcorrelationid (This variable must be present in the Resource Block as mentioned here [Add a resource operation step to invoke a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-resource-op-step-subflow.md).
+ flow_correlation_id : flowcorrelationid (This variable must be present in the Resource Block as mentioned here [Add a resource operation step to invoke a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/add-resource-op-step-subflow.md).
  flow_output         : String that will be processed by Response Processor
  flow_error          : Error string if there is any error
  error_detail        : Error detail string if there is any error
@@ -45,7 +45,7 @@ Before you execute a response processor for a subflow, you must create a subflow
 
 4.  Add a workflow operation step.
 
-    See [Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-operation-steps.md).
+    See [Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/add-operation-steps.md).
 
     The workflow operation step gets attached to the resource block and appears on the page. Any input parameters associated with the workflow appear on the **Input** tab.
 
@@ -68,5 +68,5 @@ Before you execute a response processor for a subflow, you must create a subflow
     The script appears in the **Response Processor** tab. You can open the script and modify the script.
 
 
-**Parent Topic:**[Configure a response processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-response-processor.md)
+**Parent Topic:**[Configure a response processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-response-processor.md)
 

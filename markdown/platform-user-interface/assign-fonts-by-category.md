@@ -3,9 +3,9 @@ title: Assign fonts by component category
 description: Assign fonts to specific component categories to create a clearer visual hierarchy and ensure consistent typography across related UI elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/assign-fonts-by-category.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,11 +18,11 @@ Assign fonts to specific component categories to create a clearer visual hierarc
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 
-Font assignments at the category level override broader defaults. Font size is managed separately in the **Sizes** tab and isn’t changed when assigning fonts by category. For information on editing font size, see [Edit font size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-font-size.md).
+Font assignments at the category level override broader defaults. Font size is managed separately in the **Sizes** tab and isn’t changed when assigning fonts by category. For information on editing font size, see [Edit font size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/edit-font-size.md).
 
 **Note:** Changing the font at the category level does not affect individual components that have their own font settings.
 
@@ -54,7 +54,7 @@ Font assignments at the category level override broader defaults. Font size is m
 
 6.  For the selected category, choose a font family.
 
-    Select from available platform fonts or previously uploaded custom fonts. You can also [Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-custom-font.md) directly from the font selector.
+    Select from available platform fonts or previously uploaded custom fonts. You can also [Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/upload-custom-font.md) directly from the font selector.
 
 7.  Select **Save**.
 
@@ -73,7 +73,7 @@ Font assignments at the category level override broader defaults. Font size is m
 
 Theme Builder automatically saves your theme record.
 
-If your theme is published, your font edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your font edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)
+**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/working-with-global-styles.md)
 

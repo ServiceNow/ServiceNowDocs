@@ -3,11 +3,11 @@ title: Field map script variables
 description: Several predefined variables are available in the Source script field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_FieldMapScriptVars.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing data using import sets, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -101,5 +101,5 @@ String
 Contains either the value **insert** or **update**, depending on whether the current target row will be created or updated.**Note:** The *action* variable is available only when the **Coalesce** field is **false**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
+</table>**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

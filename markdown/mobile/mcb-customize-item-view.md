@@ -3,9 +3,9 @@ title: Customize a screen using Mobile Card Builder
 description: Use Mobile Card Builder to modify the cards for your screens.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mcb-customize-item-view.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile Card Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Use Mobile Card Builder to modify the cards for your screens.
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## Procedure
 
@@ -43,7 +43,7 @@ For more information about the delegated developer role, see [Delegated developm
 
 ## What to do next
 
-To change the layout of the elements of your mobile card, see [Mobile Card Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-stage-ui.md).
+To change the layout of the elements of your mobile card, see [Mobile Card Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mcb-stage-ui.md).
 
-When you are happy with the appearance of your card, and want to add values from your records, see [Assign field values to your mobile card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-assign-fields.md).
+When you are happy with the appearance of your card, and want to add values from your records, see [Assign field values to your mobile card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mcb-assign-fields.md).
 

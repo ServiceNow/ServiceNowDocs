@@ -3,13 +3,13 @@ title: Create a prompt
 description: After you create a custom skill, create a prompt. Creating a prompt enables you to choose what skill inputs to use, as well as the type of tool.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/create-prompt-template.html
-release: australia
+release: brazil
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Create a prompt
@@ -26,13 +26,13 @@ Role required: sn\_skill\_builder.admin
 
 2.  Select the skill that you want to create a prompt for.
 
-3.  In the **Prompt** window, create your prompt.
+3.  Select the edit icon \(\[Omitted image "icon-edit-pencil.png"\] Alt text: AI Skill Kit Edit icon.\) and name the prompt.
 
-    For guidance on creating prompts, see [Developing the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/developing-the-prompt.md).
+4.  Write the prompt.
 
-4.  In the **Skill contents** sidebar, select the plus \(+\) icon next to **Skill Inputs**.
+5.  Select **Skill Inputs**.
 
-5.  In the **Add skill input** window, update the fields as needed.
+    \[Omitted image "nask-add-skill-input.png"\] Alt text: Add skill input modal in AI Skill Kit.
 
 <table id="table_vmq_tgh_lcc"><thead><tr><th>
 
@@ -48,7 +48,7 @@ Datatype
 
 </td><td>
 
-Select a data type of the input.-   Record
+-   Record
 -   String
 -   Numeric
 -   Boolean
@@ -99,7 +99,7 @@ Table name
 
 </td><td>
 
-Select a table.
+A name for the table.
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Choose test record
 
 </td><td>
 
-The record that is used to test the prompt, and is the default value for the input.
+The record that is used to test the prompt.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -119,34 +119,32 @@ Test values
 
 </td><td>
 
-Default values that are used when the skill runs. You can override this at run time.
+The values that are used to test the prompt.
 
 </td></tr></tbody>
 </table>6.  Select **Add skill input**.
 
-7.  In the **Prompt** window, position your cursor in the prompt text where you want to insert an input reference, then select **+ Inputs and tools**.
+7.  Select **Insert inputs**.
 
-    A search panel appears listing your available skill inputs. Select an input to insert a `{{variablename}}` reference at the cursor position. When the skill runs, the reference is replaced with the actual input value.
+    The input options change depending on what kind of data type you choose.
 
-    For record inputs, you can reference specific fields on the record using dot notation, for example `{{incident.short_description}}`, `{{incident.priority}}`.
+8.  Search for the inputs that you want to use for the prompt.
 
-8.  If you're not ready to finalize the prompt and publish the skill, select **Save** or **Save as**.
+    For example, you can search for the incident short description or priority.
 
-    **Tip:** A skill can have multiple prompts. The prompt without usage conditions acts as the default — it runs when no other prompt's conditions are met. To add usage conditions to a prompt, select **Manage prompt** and then **Usage conditions**. Usage conditions are built from your skill inputs, so you must have at least one input defined before you can configure them. To learn more about prompt settings and usage conditions, see [Configure a skill prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-prompt.md).
+9.  If you're not ready to finalize the prompt and publish the skill, select **Save** or **Save as**.
+
+    **Note:** Skills can have multiple prompts. Usage conditions determine which prompt is executed. If no conditions are met, the default prompt is executed. To configure prompt usage conditions, see [Configure a skill prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-prompt.md).
 
 
 ## What to do next
 
-After you have created a prompt, you must test it. To learn more about testing your prompt, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
+After you have created a prompt, you must test it. To learn more about testing your prompt, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
 
--   **[Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-a-tool.md)**  
-Add and configure tools in the AI Skill Kit tool canvas to gather data and context before a prompt runs. Tools can be chained sequentially, run in parallel, or branched conditionally using decision nodes.
--   **[Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-retriever.md)**  
-Add a retriever to your prompt to augment and add context to your prompts with AI search results.
--   **[Add a web search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-web-search.md)**  
-Add a web search tool to your skill to retrieve web content and include it as context in your prompt.
+-   **[Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/add-a-tool.md)**  
+Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that need to be met for a tool to run. If no conditions are met, the default branch's step is executed.
 
-**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 

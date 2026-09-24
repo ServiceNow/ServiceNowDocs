@@ -3,11 +3,11 @@ title: Generate recommended actions for products by using ServiceNow Otto for So
 description: Generate a list of recommended actions to manage software license compliance and optimize licensing spend. The recommended actions help you to take appropriate steps to fix any configuration, maintenance, and optimization issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/recommended-actions-now-assist-sam.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -61,15 +61,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 7.  You can perform the following actions on the generated recommended actions.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d295786e191">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d298466e191">
 
 Action
 
-</th><th align="left" id="d295786e194">
+</th><th align="left" id="d298466e194">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d295786e200">
+</th></tr></thead><tbody><tr><td id="d298466e200">
 
 **Regenerate icon**
 
@@ -79,7 +79,7 @@ Regenerates the list of recommended actions.
 
  You can find this icon in the top right corner of the Recommended actions box.
 
-</td></tr><tr><td id="d295786e215">
+</td></tr><tr><td id="d298466e215">
 
 **Feedback**
 
@@ -97,5 +97,5 @@ If you found that the recommended actions was helpful, select the helpful icon. 
     Once you have dismissed all the actions, a message appears mentioning that all recommendations have been dismissed.
 
 
-**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
 

@@ -3,11 +3,11 @@ title: Discovery Operations Monitor dashboard
 description: The Discovery Operations Monitor dashboard displays performance metrics for your Discovery environment. Use this dashboard to monitor discovery health and identify issues across your IT landscape.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/disco-operations-monitor.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -29,16 +29,16 @@ To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Works
 ## Prerequisites
 
 -   **Verify that you have the required setup**
-    -   The ServiceNow AI Platform must be running the Australia, Zurich, or Yokohama release.
+    -   The ServiceNow AI Platform must be running the Brazil, Australia, Zurich, or Yokohama release.
     -   Discovery Admin Workspace, starting with v1.15.0, must be installed.
 
 ## Key features
 
 The Discovery Operations Monitor dashboard displays visuals for discovery performance data.
 
-**Note:** Metrics are collected for the most recently completed 15-minute window. Data may not reflect activity from the current interval until collection has run. For more information, see [Configure the time interval for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-interval-disco-op-mon.md).
+**Note:** Metrics are collected for the most recently completed 15-minute window. Data may not reflect activity from the current interval until collection has run. For more information, see [Configure the time interval for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-interval-disco-op-mon.md).
 
-Select the info icon \(\[Omitted image "daw-info-icon.png"\]\) to view dashboard details, such as the owner and usage. Select the **More Actions** icon \(\[Omitted image "more-options.png"\]\) to duplicate, share, export, schedule, or print the dashboard. Select **Edit** to access editing mode, where you can update the data source and visualization settings. For more information about editing dashboards, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md).
+Select the info icon \(\[Omitted image "daw-info-icon.png"\]\) to view dashboard details, such as the owner and usage. Select the **More Actions** icon \(\[Omitted image "more-options.png"\]\) to duplicate, share, export, schedule, or print the dashboard. Select **Edit** to access editing mode, where you can update the data source and visualization settings. For more information about editing dashboards, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dashboard-tasks.md).
 
 Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\) on a visualization to export it in CSV, JPEG, PNG, or Excel format.
 
@@ -50,5 +50,5 @@ Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\) on a 
 |MID Server Average Probe Time|Line chart|Displays the average ECC probe processing time in seconds over time. Select a record to view the related ECC queue records.|
 |Discovery Event Load|Bar chart|Displays the volume of discovery events over time. The chart tracks four event types: discovery.error, discovery.device.complete, discovery.complete, and discovery.canceled. Select a record to view related events.|
 
-**Note:** The dashboard displays data from the last 7 days by default. Data is retained for 30 days. For more information, see [Configure the date range for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-time-frame-disco-op-mon.md).
+**Note:** The dashboard displays data from the last 7 days by default. Data is retained for 30 days. For more information, see [Configure the date range for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-time-frame-disco-op-mon.md).
 

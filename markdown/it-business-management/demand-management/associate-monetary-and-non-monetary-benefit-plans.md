@@ -3,11 +3,11 @@ title: Associate monetary and non-monetary benefit plans
 description: Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/associate-monetary-and-non-monetary-benefit-plans.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ You can associate a monetary benefit plan with a non-monetary benefit plan and v
 
 5.  Associate a monetary or non-monetary benefit plan.
 
-<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d226136e99">
+<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d226774e99">
 
 Option
 
-</th><th align="left" id="d226136e102">
+</th><th align="left" id="d226774e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d226136e108">
+</th></tr></thead><tbody><tr><td id="d226774e108">
 
 **Associate an existing benefit plan**
 
@@ -54,14 +54,14 @@ Action
 
 On the Benefit Plan form, fill in the **Associated benefit** field with the benefit plan that you want to associate.
 
-</td></tr><tr><td id="d226136e120">
+</td></tr><tr><td id="d226774e120">
 
 **Associate a new benefit plan**
 
 </td><td>
 
 1.  On the Benefit Plan form, select **Associate new benefit**.
-2.  On the form, fill in the fields. For details, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-benefit-plan.md) and [Create a non-monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-a-non-monetary-benefit-plan-for-a-demand.md).
+2.  On the form, fill in the fields. For details, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/create-demand-benefit-plan.md) and [Create a non-monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/create-a-non-monetary-benefit-plan-for-a-demand.md).
 
 
 </td></tr></tbody>
@@ -76,5 +76,5 @@ The selected benefit plan is associated with another plan.
 
 Select the **View Associated benefit plan** related link to view the associated benefit plan.
 
-**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/t_CreatingDemands.md)
 

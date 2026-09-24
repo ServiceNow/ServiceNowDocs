@@ -3,11 +3,11 @@ title: Assign a CI to an incident to view live CI data
 description: Retrieve live CI data to help troubleshoot the issues that caused an incident by assigning the problematic CI to its incident. An incident typically is associated with the CI that caused the incident, but if this was omitted during the incident creation, you can assign the CI manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-live-ci-view-assign-ci.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View live CI data with ACC, Agent Client Collector, IT Operations Management]
 ---

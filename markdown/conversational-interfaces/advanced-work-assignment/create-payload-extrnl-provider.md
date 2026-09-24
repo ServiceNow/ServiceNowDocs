@@ -3,11 +3,11 @@ title: Create a payload for external third-party providers
 description: Create a payload for external third-party providers to send your work items to the external queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/create-payload-extrnl-provider.html
-release: australia
+release: brazil
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -26,11 +26,11 @@ Role required: admin
 
 2.  Create a queue enabling External Routing.
 
-    For more information about creating a queue with external routing, see [Enable external routing for queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/enable-awa-external-routing.md).
+    For more information about creating a queue with external routing, see [Enable external routing for queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/enable-awa-external-routing.md).
 
 3.  Open the provider record, select the subflow that you created, and select **Save**.
 
-    For more information about creating a subflow, see [Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/create-subflow-extrnl-route.md).\[Omitted image "subflow-extrnl-routing.png"\] Alt text: Select subflow for external routing of the AWA queue item.
+    For more information about creating a subflow, see [Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/create-subflow-extrnl-route.md).\[Omitted image "subflow-extrnl-routing.png"\] Alt text: Select subflow for external routing of the AWA queue item.
 
 4.  In the External Event definition section, create a definition form or modify the existing demo data records by changing the provider name you created.
 

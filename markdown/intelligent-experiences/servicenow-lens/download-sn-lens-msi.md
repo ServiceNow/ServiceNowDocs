@@ -3,13 +3,13 @@ title: Download ServiceNow AI Lens and set launch preference
 description: Download the ServiceNow AI Lens installer for your operating system and set your preferred way to launch ServiceNow AI Lens — from your browser or the desktop application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/download-sn-lens-msi.html
-release: australia
+release: brazil
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Download ServiceNow AI Lens and set launch preference
@@ -50,5 +50,5 @@ Role required: admin
 
 ## What to do next
 
-Use ServiceNow AI Lens to capture screens, extract and comprehend data, and take further actions. For more information, see [Using ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-use.md).
+Use ServiceNow AI Lens to capture screens, extract and comprehend data, and take further actions. For more information, see [Using ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-use.md).
 

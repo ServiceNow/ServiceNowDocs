@@ -3,11 +3,11 @@ title: Use Agent assist to view associated claims
 description: Use the Agent assist contextual search to view associated claims and relevant knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/use-agent-assist-to-view-associated-claims-personal.html
-release: australia
+release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_pers.fnol\_representative, sn\_ins\_claim\_pers.a
 
 3.  Open the task from the case playbook or the Personal auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d73721e85">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d73986e85">
 
 Option
 
-</th><th align="left" id="d73721e88">
+</th><th align="left" id="d73986e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73721e94">
+</th></tr></thead><tbody><tr><td id="d73986e94">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d73721e118">
+</td></tr><tr><td id="d73986e118">
 
 **From the Personal auto claim adjuster tasks list**
 
@@ -59,6 +59,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon to use the feature.
 
-    For more detailed information about Agent assist, refer to [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
+    For more detailed information about Agent assist, refer to [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
 
 

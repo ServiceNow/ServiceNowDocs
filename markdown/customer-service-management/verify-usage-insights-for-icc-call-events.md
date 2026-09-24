@@ -3,9 +3,9 @@ title: Verify usage insights for Interaction Controls Component \(ICC\) enabled 
 description: After you configure Usage Insights, confirm that call events are captured for the enabled agents and that event payloads appear as expected in the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/verify-usage-insights-for-icc-call-events.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Usage insights for ICC call events, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ After you configure **Usage Insights**, confirm that call events are captured fo
 
 Role required: admin
 
-Complete the configuration steps in [Enable Usage insights for Interaction Controls Component \(ICC\) enabled call events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-usage-insights-for-icc-call-events.md) before you verify the setup. The enabled agents must have logged in and performed call actions for events to appear.
+Complete the configuration steps in [Enable Usage insights for Interaction Controls Component \(ICC\) enabled call events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-usage-insights-for-icc-call-events.md) before you verify the setup. The enabled agents must have logged in and performed call actions for events to appear.
 
 ## About this task
 

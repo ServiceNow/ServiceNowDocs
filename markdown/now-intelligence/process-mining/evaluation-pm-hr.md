@@ -3,11 +3,11 @@ title: Process Mining evaluation project for Human Resources
 description: Process Mining evaluation project for Human Resources \(HR\) enables you to familiarize with improving your process with Process Mining capability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/evaluation-pm-hr.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Evaluation projects, Explore, Process Mining, Platform Analytics]
 ---
@@ -25,7 +25,7 @@ This evaluation project works on the data that you have stored in your productio
 -   Allows you to access a preconfigured Process Mining project configuration limited to up to 3600 records that were closed in the last seven days. If there are more than 3600 records closed in the last seven days, the evaluation is restricted to the first 3600 records.
 -   The default activity definitions are: State and Assignment group \(so you can analyze State and Assignment group\).
 -   Includes multiple automated improvement opportunities such as ping-pong, rework, and others.
--   Includes a rule-based finding that flags cases that take longer to route than to resolve.
+-   Includes a rule-based finding that flags incidents that take longer to route than to resolve.
 -   Includes introduction videos, FAQs, Academy sessions, and use cases.
 -   Auto-retire is set to false.
 
@@ -39,16 +39,16 @@ If you have the following required roles, you will have the Process Mining for H
 -   sn\_hr\_pa.admin
 -   sn\_piwb\_hr\_content.admin
 
-The promin.pa\_integration\_required\_roles is already available that would enable you to run the project. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/components-installed.md).
+The promin.pa\_integration\_required\_roles is already available that would enable you to run the project. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/components-installed.md).
 
-For more information, see [Run the Process Mining evaluation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/run-evaluation-project.md).
+For more information, see [Run the Process Mining evaluation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/run-evaluation-project.md).
 
-**Parent Topic:**[Evaluation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/evaluate-pm.md)
+**Parent Topic:**[Evaluation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/evaluate-pm.md)
 
 **Related topics**  
 
 
-[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md)
+[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md)
 
-[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
+[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 

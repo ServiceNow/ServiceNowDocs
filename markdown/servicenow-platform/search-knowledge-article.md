@@ -3,9 +3,9 @@ title: Search knowledge article
 description: Use the search function to find articles you want to work on and then filter and sort your results as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/search-knowledge-article.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

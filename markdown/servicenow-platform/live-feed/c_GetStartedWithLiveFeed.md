@@ -3,11 +3,11 @@ title: Live Feed Core UI
 description: Live Feed is a social IT application that provides a place to post and share content in a ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_GetStartedWithLiveFeed.html
-release: australia
+release: brazil
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Live Feed is a social IT application that provides a place to post and share con
 
 **Important:**
 
-Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
+Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
 
 While Live Feed has been discontinued, we are always exploring new ways to enhance our services. Stay tuned for future updates and improvements.
 
@@ -26,23 +26,23 @@ While Live Feed has been discontinued, we are always exploring new ways to enhan
 
 <table id="table_ev3_ndm_v4bxsku" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Live Feed concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/exploring-live-feed.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Live Feed concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/exploring-live-feed.md)
 
 </td><td>
 
-[Activate\[Omitted image "bus-manage.svg"\] Alt text: Activate Live Feed on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_ActivateLiveFeed.md)
+[Activate\[Omitted image "bus-manage.svg"\] Alt text: Activate Live Feed on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_ActivateLiveFeed.md)
 
 </td><td>
 
-[Administer\[Omitted image "bus-optimize-manage.svg"\] Alt text:Administer document feeds, record feeds, and notifications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
+[Administer\[Omitted image "bus-optimize-manage.svg"\] Alt text:Administer document feeds, record feeds, and notifications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-person.svg"\] Alt text:Post in Live Feed and use feeds, teams, hashtags, and records.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseLiveFeed.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Post in Live Feed and use feeds, teams, hashtags, and records.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/c_UseLiveFeed.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about domain separation and components, such as tables, user roles, business rules, and script includes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/live-feed-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about domain separation and components, such as tables, user roles, business rules, and script includes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/live-feed-reference.md)
 
 </td><td>
 

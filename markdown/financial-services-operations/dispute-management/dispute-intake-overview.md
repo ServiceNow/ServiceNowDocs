@@ -3,11 +3,11 @@ title: About dispute intake
 description: The dispute intake process is designed to capture the relevant information required for capturing dispute details. This can be through the customer or consumer service portal, agent workspace, or via Disputes intake via Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/dispute-intake-overview.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,7 @@ The dispute intake process is designed to capture the relevant information requi
 
 The dispute intake form is designed to gather all necessary information before submitting a claim to the card network or processing an ACH dispute. The field questionnaire includes a variety of questions that help identify the dispute reason code based on the case type and responses to specific questions such as "Did you authorize this transaction?".
 
-The Event Inquiry application provides a comprehensive overview of the events that led to the dispute. To understand how the Event Inquiry application works and how to customize the dispute intake form, see [Configure intake questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-additional-questions-for-dispute-intake.md).
+The Event Inquiry application provides a comprehensive overview of the events that led to the dispute. To understand how the Event Inquiry application works and how to customize the dispute intake form, see [Configure intake questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/configuring-additional-questions-for-dispute-intake.md).
 
 The intake process simplifies data collection, making it easier for dispute agents to complete the intake and assess chargeback eligibility. This streamlined approach ensures that all relevant information is captured efficiently, enhancing the overall dispute resolution process.
 
@@ -61,16 +61,16 @@ A generic questionnaire design:
 
 ## Disputes intake via Virtual Agent
 
-Disputes intake via Virtual Agent is an AI skill that enhances the customer experience by performing dispute intake with a chat bot. The skill infers answers and fills out dispute forms automatically based on the customer's responses in chat. This can streamline the card dispute submission process for customers, and reduce workloads for live agents. For more information, see [Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md).
+Disputes intake via Virtual Agent is an AI skill that enhances the customer experience by performing dispute intake with a chat bot. The skill infers answers and fills out dispute forms automatically based on the customer's responses in chat. This can streamline the card dispute submission process for customers, and reduce workloads for live agents. For more information, see [Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md).
 
--   **[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)**  
+-   **[Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/disputes-intake-via-virtual-agent-fso.md)**  
 Disputes intake via Virtual Agent is an AI skill that uses a chat bot to collect card dispute information from customers. This streamlines the submission process and reduces workloads for live agents by using AI to infer answers and fill out dispute forms automatically.
--   **[Create a dispute case with Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.md)**  
+-   **[Create a dispute case with Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.md)**  
 Whether you're a contact or a consumer, you can create a dispute case with a step-by-step guidance for the case flow process in either the Customer Service Portal or Consumer Service Portal, respectively.
--   **[Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md)**  
+-   **[Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md)**  
 Create a dispute case and initiate the dispute for a transaction associated with an account. You can enter dispute information, fill out the dispute questionnaire, upload supporting documentation, and submit the case for investigation.
--   **[Create a card disputes case request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.md)**  
+-   **[Create a card disputes case request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.md)**  
 Create a card disputes case request from the Customer or Consumer Service Portals by navigating to the service catalog.
 
-**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-card-disputes.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/managing-card-disputes.md)
 

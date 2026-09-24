@@ -3,9 +3,9 @@ title: Create a business impact analysis
 description: Create a business impact analysis \(BIA\) to get the necessary information for a plan. Use the BIA to identify the recovery time objective for an item and prioritize assets that have most and least critical dependencies. Use the information to establish their recovery strategies during the planning phase.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-business-impact-analysis.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -40,7 +40,7 @@ Name
 
 </td><td>
 
-Name of the business impact analysis. Describe the BIA within 255 characters in length.
+Name of the business impact analysis. Describe the BIA within 255 characters length.
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Person who owns and is responsible for completing the BIA. BCM lead can review t
 
     -   **Archived**
 
-        When the BIA is archived, it becomes read only. All the underlying tables are set to read only. You can no longer edit the information in these tabs. In this state, you can also generate a PDF of the BIA.
+        When the BIA is archived, it becomes read only. All the underlying tables like impact dependency groups, impact category results, and dependencies become read only. The BIA retrieves data from these tables to populate the impact assessment and dependency assessment tabs. You can no longer edit the information in these tabs. In this state, you can also generate a PDF of the BIA.
 
     **Note:** A scheduled job runs weekly to move the BIAs that have expired to **Archived** state.
 

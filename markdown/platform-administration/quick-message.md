@@ -3,9 +3,9 @@ title: Composing emails with quick messages
 description: Insert predefined content into the message body of emails that you send from the email client.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/quick-message.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -53,10 +53,10 @@ When you define a quick message, you can limit the availability of the quick mes
 
 For example, if you designate Beth Anglin as the user for a certain quick message, the quick message is available in the email client only for Beth Anglin.
 
-If you associate a quick message to the Incident \[incident\] table, the quick message is available in the email client only after you launch from an incident record. If you specify a target record from the Incident table for the quick message, the quick message is set to available in the email client only for matching incident records.
+If you associate a quick message to the Incident \[incident\] table, the quick message is available in the email client only after you launch from an incident record. If you specify a target record from the Incident table for the quick message, the quick message becomes available in the email client only for matching incident records.
 
--   **[Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_QuickMessages.md)**  
+-   **[Define a quick message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_QuickMessages.md)**  
 Create predefined content to add in the email client so that users can write emails consistently and efficiently.
 
-**Parent Topic:**[Configure email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-email-client.md)
+**Parent Topic:**[Configure email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-email-client.md)
 

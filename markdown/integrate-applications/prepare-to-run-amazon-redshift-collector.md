@@ -3,9 +3,9 @@ title: Prepare to run the Amazon Redshift collector
 description: Create a Redshift user and configure permissions before running the collector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-amazon-redshift-collector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Amazon Redshift metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -48,5 +48,5 @@ Run the following SQL statements to set up a new user with appropriate permissio
     ```
 
 
-**Parent Topic:**[Amazon Redshift metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/amazon-redshift-metadata-collector.md)
+**Parent Topic:**[Amazon Redshift metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/amazon-redshift-metadata-collector.md)
 

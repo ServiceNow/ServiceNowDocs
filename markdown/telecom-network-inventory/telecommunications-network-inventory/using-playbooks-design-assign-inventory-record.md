@@ -3,11 +3,11 @@ title: Design and Assign function
 description: Use the Design and Assign function for a network service in the Telecommunications Network Inventory application. The inventory agents can use the playbook to complete the guided tasks to design and assign a network inventory record and its associated Configuration Items \(CI\) records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Telecommunications Network Inventory]
 ---
@@ -23,13 +23,13 @@ A Design and Assign function includes multiple activities for an agent to fulfil
 -   Mark an activity as complete and move to the next activity.
 -   Complete the activities necessary to design and assign an inventory record.
 
--   **[Create a logical connection record using the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-design-assign-playbook.md)**  
+-   **[Create a logical connection record using the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-design-assign-playbook.md)**  
 Use the Design and Assign function to create a logical connection in the Telecommunications Network Inventory application. By creating a logical connection, you can fulfill the design request for a network service.
 
-**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
+**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
 
 **Related topics**  
 
 
-[Design and assign your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/design-assign-playbook.md)
+[Design and assign your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/design-assign-playbook.md)
 

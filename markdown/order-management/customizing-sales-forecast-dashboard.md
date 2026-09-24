@@ -3,7 +3,7 @@ title: Customizing Sales Forecast dashboard
 description: Customize the columns that are displayed on your Sales Forecast dashboard and set your preferred column order to match your workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/customizing-sales-forecast-dashboard.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 2
@@ -20,7 +20,7 @@ Role required: sn\_sales\_forecast.forecast\_viewer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -49,14 +49,14 @@ Role required: sn\_sales\_forecast.forecast\_viewer
     The dashboard displays your selected columns in the order that you set and saves it for your forecast model.
 
 
-**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 
 **Related topics**  
 
 
-[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 
-[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-forecasting.md)
+[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-sales-forecasting.md)
 
-[Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting-terminology.md)
+[Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-forecasting-terminology.md)
 

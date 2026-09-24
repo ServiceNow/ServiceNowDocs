@@ -3,7 +3,7 @@ title: API overview and resources
 description: Learn about the APIs that are available in CPQ to manage configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/api\_overview\_and\_resources.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -36,22 +36,22 @@ For interactive and explorable API documentation with code examples for both run
 
 Runtime API calls are authenticated using runtime client tokens defined in CPQ Admin. For more information about runtime API calls and runtime client tokens, see:
 
-[Intro to runtime API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/intro_to_runtime_api_calls.md)
+[Intro to runtime API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/intro_to_runtime_api_calls.md)
 
 Administrative API calls are authenticated with admin API tokens that are also set up in CPQ Admin. For more information about admin API tokens and permissions, see:
 
-[Intro to admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-api-keys.md)
+[Intro to admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-admin-api-keys.md)
 
 **Related topics**  
 
 
-[Runtime APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io_runtime_apis.md)
+[Runtime APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/logik_io_runtime_apis.md)
 
-[Authenticating CPQ API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-authenticating-api-calls.md)
+[Authenticating CPQ API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-authenticating-api-calls.md)
 
-[Additional configuration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/logik_io_additional_configuration_apis.md)
+[Additional configuration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/logik_io_additional_configuration_apis.md)
 
-[Admin APIs: Blueprint import and export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-apis-blueprint-import-and-export.md)
+[Admin APIs: Blueprint import and export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-admin-apis-blueprint-import-and-export.md)
 
-[Admin APIs: Managed tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/admin_apis_managed_tables.md)
+[Admin APIs: Managed tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/admin_apis_managed_tables.md)
 

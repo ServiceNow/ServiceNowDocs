@@ -3,11 +3,11 @@ title: Scheduled data import scripting options
 description: Multiple JavaScript objects are available in the Scheduled Data Import Pre script and Post script fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_DataImportScriptingOptions.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Schedule a data import, Importing data using import sets, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -75,5 +75,5 @@ data_source.update();
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md)
+</table>**Parent Topic:**[Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md)
 

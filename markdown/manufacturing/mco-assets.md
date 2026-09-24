@@ -3,9 +3,9 @@ title: Viewing assets for Manufacturing Commercial Operations
 description: An asset is a specific product or instance that is supported for a Manufacturing Commercial Operations to manage the asset details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-assets.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up MCO, Configure, Manufacturing Commercial Operations]
 ---
@@ -31,5 +31,5 @@ Select the filter icon or menu. Select **Advanced view**.
 
 Select any field from the root table that you want to filter the data by.
 
-To learn how to configure assets, see [Configure assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-assets.md).
+To learn how to configure assets, see .
 

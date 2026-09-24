@@ -3,11 +3,11 @@ title: Create a standard change task template
 description: You can create a change task template to add to a standard change proposal. If the standard change proposal is approved, the related change tasks are created when the standard change request is created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-a-standard-change-task-template.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Standard change catalog, Configure, Change Management, IT Service Management]
 ---
@@ -86,10 +86,10 @@ Field values that are populated on the change task created as part of the standa
     **Note:** Standard change catalog templates are not supported on Service Portal.
 
 
--   **[Propose a standard change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/propose-standard-chg-template.md)**  
+-   **[Propose a standard change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/propose-standard-chg-template.md)**  
 Propose a new standard change template when you identify a need while creating a change request.
 
-**Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
+**Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Rate limit configuration in Microsoft Defender for Endpoint integration
 description: Configure the rate limit of the API and timeout for the rate limit for Microsoft Defender for Endpoint integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/rate-limit-configuration-ms-defender-endpoint.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

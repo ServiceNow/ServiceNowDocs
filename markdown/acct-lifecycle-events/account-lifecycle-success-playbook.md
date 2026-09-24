@@ -3,9 +3,9 @@ title: Customer play
 description: Use the customer play as the starting point to define the customer play processes in your organization. This playbook can contain one or more success case tasks with predefined activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-playbook.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbooks, Customer success, Explore, Customer Success Management]
 ---
@@ -22,5 +22,5 @@ The customer play consists of three stages:
 
 \[Omitted image "success-playbook.jpg"\] Alt text: customer play playbook
 
-For instructions on how to create the customer play playbook, see [Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md).
+For instructions on how to create the customer play playbook, see [Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md).
 

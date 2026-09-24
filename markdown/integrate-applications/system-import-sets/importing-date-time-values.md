@@ -3,11 +3,11 @@ title: Importing date/time values
 description: Considerations when importing data containing date/time values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/importing-date-time-values.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Importing data using import sets, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -24,5 +24,5 @@ Considerations when importing data containing date/time values.
     1.  Click the user drop-down in the banner and select **Profile**.
     2.  Change the **Time zone** field value to the timezone of the date/time values in the import file and click **Update**.
 
-**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

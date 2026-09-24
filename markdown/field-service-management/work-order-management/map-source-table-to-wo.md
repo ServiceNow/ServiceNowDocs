@@ -3,11 +3,11 @@ title: Create field mapping from a source table to a work order
 description: Create a table map to configure the fields that are copied from a source table to the work order fields. The source of a work order can be a case, change, incident, or others.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/map-source-table-to-wo.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure data mapping, Template Management, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---

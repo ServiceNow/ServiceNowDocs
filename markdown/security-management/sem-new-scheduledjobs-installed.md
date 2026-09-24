@@ -3,9 +3,9 @@ title: Security Exposure Management Workspace Scheduled Jobs
 description: The following are the scheduled jobs installed with Security Exposure Management. These jobs automate Security Exposure Management operations to ensure that exposure data is kept current and accurate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-new-scheduledjobs-installed.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Exposure Management Workspace Components, Reference, Unified Security Exposure Management, Security Operations]
 ---
@@ -20,5 +20,5 @@ The following are the scheduled jobs installed with Security Exposure Management
 |Security Exposure Management|Create OOTB Findings View Dashboard|Creates the default out-of-the-box dashboard for findings.|
 |Security Exposure Management|Refresh RO page related results|Refreshes results for remediation owner–related pages.|
 
-**Parent Topic:**[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-components-installed.md)
+**Parent Topic:**[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-components-installed.md)
 

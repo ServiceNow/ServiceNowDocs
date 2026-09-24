@@ -3,9 +3,9 @@ title: Access limitations for external location agents
 description: Explore the limitations that an external location agent faces when using various platform modules during case resolution. You can use this topic to get a comprehensive overview of the modules that are supported and unsupported with the external location agent persona.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/access-limitations-for-ext-loc-agent.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [External Organization as a fulfiller, Cases, Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [External Organization as a fulfiller, Cases, Overview, Configure Se
 
 Explore the limitations that an external location agent faces when using various platform modules during case resolution. You can use this topic to get a comprehensive overview of the modules that are supported and unsupported with the external location agent persona.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 ## Supported and unsupported modules
 

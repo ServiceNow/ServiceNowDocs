@@ -3,13 +3,13 @@ title: Place a request
 description: Use ServiceNow's web-based interface for ordering predefined goods and services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/t\_PlaceARequest.html
-release: australia
+release: brazil
 product: Self-service
 classification: self-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service catalog requests, Self-Service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service catalog requests, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Place a request
@@ -53,5 +53,5 @@ Role required: admin
     ServiceNow automatically notifies the approvers if approval is required and creates work orders to fulfill the order according to your organization's process. For example, if you order a new notebook computer, the purchasing group might receive a work order to order the computer, and the desktop services group might receive a work order to configure the new computer and deliver it to your office after it arrives.
 
 
-**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
+**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 

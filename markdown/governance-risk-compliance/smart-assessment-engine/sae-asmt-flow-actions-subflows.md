@@ -3,11 +3,11 @@ title: Trigger Smart Assessment flow action
 description: Use the Trigger Smart Assessment flow action in Workflow Studio to generate and assign assessments from a published Smart Assessment Engine template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmt-flow-actions-subflows.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -34,15 +34,15 @@ Trigger Smart Assessment
 
 Flow action that generates and assigns assessment instances from a published assessment template. The flow action takes the assessment template, assessors, scope items, and optional settings such as due date, duration, duplicate handling, and assessment group as input and creates one or more assessment instances. Each scope item specifies a table and record that the assessment is applied to.
 
- For details on the input fields, see [Trigger Smart Assessment action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-smart-asmnt-action-form.md).
+ For details on the input fields, see [Trigger Smart Assessment action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-smart-asmnt-action-form.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
+[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md)
 
-[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md)
+[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md)
 
-[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md)
+[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md)
 

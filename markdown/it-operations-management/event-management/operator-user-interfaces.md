@@ -3,11 +3,11 @@ title: Event Management operator environment
 description: As an Event Management operator, your primary work environment is the Service Operations Workspace dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-user-interfaces.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Lesson 1
 
 </td><td>
 
-[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-events-alerts.md)
+[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-events-alerts.md)
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Lesson 2
 
 </td><td>
 
-[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-application-services.md)
+[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-application-services.md)
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Lesson 4
 
 </td><td>
 
-[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md)
+[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-process.md)
 
 </td></tr></tbody>
 </table>## The Service Operations Workspace dashboard
@@ -111,7 +111,7 @@ Click a tile to show a summary of alerts associated with the application service
 
 <table id="table_zkt_jlr_hdb"><tbody><tr><td>
 
-You can filter or sort the list to find an alert. Sort by any alert details, such as the **Priority**, which considers multiple factors for how serious the alert is. You can also sort by the **Severity**, which is the value provided by the event monitoring tool.
+You can filter or sort the list to find an alert. Sort by any alert details, such as the **Priority**, which considers multiple factors for how serious the alert is. You can also sort by the **Severity**, which is a value provided by the event monitoring tool.
 
  \[Omitted image "sort-by-severity.png"\] Alt text: Sort icon
 
@@ -180,7 +180,7 @@ Open any alert from the **Alerts** list at the bottom by clicking the number.
 </table>
 ## Continue the tutorial
 
-Proceed to the next lesson: [What Event Management operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md).
+Proceed to the next lesson: [What Event Management operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-process.md).
 
-**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-guide-em.md)
+**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/operator-guide-em.md)
 

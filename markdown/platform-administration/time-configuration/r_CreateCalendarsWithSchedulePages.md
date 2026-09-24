@@ -3,11 +3,11 @@ title: Using schedules and calendars
 description: Specific applications within the ServiceNow AI Platform generate graphical calendar displays based on schedule pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_CreateCalendarsWithSchedulePages.html
-release: australia
+release: brazil
 product: Time Configuration
 classification: time-configuration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Schedules, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -80,7 +80,7 @@ Choice
 </td><td>
 
 Each view type displays different field combinations. There are two options available:-   **Calendars**
--   [Schedule Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SchedulePages.md)
+-   [Schedule Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_SchedulePages.md)
 
 </td></tr><tr><td>
 
@@ -149,12 +149,12 @@ String
 The Server AJAX processor is specific to calendar type schedule pages that is used to return a set of schedule items and spans that display.
 
 </td></tr></tbody>
-</table>-   **[Invoke the Schedule page and view a calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_GenCalViewsFromSchedPages.md)**  
+</table>-   **[Invoke the Schedule page and view a calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_GenCalViewsFromSchedPages.md)**  
 You can use the URL from arguments module, a field decoration \(dictionary attribute `ref_contributions`\), or a UI Action linking to `show_schedule.do` to invoke the Schedule page.
--   **[Schedule calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/schedule-calendar.md)**  
+-   **[Schedule calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/schedule-calendar.md)**  
 Use the Schedule calendar to create, view, and edit events.
 
-**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
 **Related topics**  
 

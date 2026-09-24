@@ -3,11 +3,11 @@ title: Data mapping for Service Graph Connector for Dynatrace SaaS
 description: Data from the Dynatrace data sources is mapped and transformed into the ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-data-mapping-dynatrace-saas.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Observability - Dynatrace SaaS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -48,7 +48,7 @@ SGO-Dynatrace SaaS Frontend \[sn\_dynatrace\_saas\_sgo\_dynatrace\_saas\_fronten
 
 </td><td>
 
-[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
 </td><td>
 
@@ -64,18 +64,18 @@ SGO-Dynatrace SaaS Host \[sn\_dynatrace\_saas\_sgo\_dynatrace\_saas\_host\]
 
 </td><td>
 
-[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md) [IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+[Computer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md) [IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
-[Serial Number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+[Serial Number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
-[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
 When the Software Asset Management \(SAM\) application isn't installed:
 
--   [Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
--   [Software Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+-   [Software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+-   [Software Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
-When the SAM application is installed: [Software Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+When the SAM application is installed: [Software Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
 </td><td>
 
@@ -91,11 +91,11 @@ SGO-Dynatrace SaaS Processes \[sn\_dynatrace\_saas\_sgo\_dynatrace\_saas\_proces
 
 </td><td>
 
-[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
 </td><td>
 
-The target table is populated using Application Dependency Mapping \(ADM\). ADM classifies the processes based on the attributes in the Process Classification \[discovery\_classy\_proc\] table. To learn about process classification, see [Discovery classifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-classifiers.md).
+The target table is populated using Application Dependency Mapping \(ADM\). ADM classifies the processes based on the attributes in the Process Classification \[discovery\_classy\_proc\] table. To learn about process classification, see [Discovery classifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-classifiers.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ SGO-Dynatrace SaaS Service \[sn\_dynatrace\_saas\_sgo\_dynatrace\_saas\_service\
 
 </td><td>
 
-[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+[Calculated Application Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
 </td><td>
 
@@ -123,11 +123,11 @@ SGO-Dynatrace Classic Migration Cleanup \[sn\_dynatrace\_saas\_sgo\_dynatrace\_c
 
 </td><td>
 
-[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
 </td><td>
 
-One-time cleanup of stale process CIs \(after migration\) originally ingested by the Dynatrace Classic connector \(SGO-Dynatrace\).​ See [dynatrace\_classic\_connection\_alias\_sys\_id connection property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-properties.md).
+One-time cleanup of stale process CIs \(after migration\) originally ingested by the Dynatrace Classic connector \(SGO-Dynatrace\).​ See [dynatrace\_classic\_connection\_alias\_sys\_id connection property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-properties.md).
 
 </td></tr><tr><td>
 
@@ -139,12 +139,12 @@ SGO-Dynatrace SaaS CI Retirement \[sn\_dynatrace\_saas\_sgo\_dynatrace\_saas\_ci
 
 </td><td>
 
-[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
 </td><td>
 
-Automatically retire stale CIs that aren't seen for a configurable threshold. See [ci\_retirement\_threshold\_days connection property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-properties.md).
+Automatically retire stale CIs that aren't seen for a configurable threshold. See [ci\_retirement\_threshold\_days connection property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-properties.md).
 
 </td></tr></tbody>
-</table>You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
+</table>You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 

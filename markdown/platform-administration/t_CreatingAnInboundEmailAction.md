@@ -3,9 +3,9 @@ title: Create an inbound email action
 description: Create inbound email actions to define the actions that the system takes when an email is received.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreatingAnInboundEmailAction.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -173,8 +173,8 @@ Enter the script that the action runs. Typically, this script uses the validator
  The following objects are available:
 
 -   **current**: access the record referred to by the inbound email. For example, `current.assigned_to` accesses the person assigned to the task.
--   **event**: access one of the parameters of the originating event. For example, `event.parm1` accesses the first parameter of the event or `event.parm2` for the second parameter. See [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/events.md) for more information.
--   **email**: access the inbound current email record. For example, `email.subject` accesses the content in the subject line of the email. See [Accessing email object variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AccessingEmailObjsWithVars.md) for more information.
+-   **event**: access one of the parameters of the originating event. For example, `event.parm1` accesses the first parameter of the event or `event.parm2` for the second parameter. See [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/events.md) for more information.
+-   **email**: access the inbound current email record. For example, `email.subject` accesses the content in the subject line of the email. See [Accessing email object variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AccessingEmailObjsWithVars.md) for more information.
 -   **logger**: add a message to the log file with the source set to `email.<Sys ID of incoming email>`. For example: `logger.log ("Some information")`
 
 
@@ -204,5 +204,5 @@ Enter a number to define the order in which this email action should be processe
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-inbound-email-action.md)
+**Parent Topic:**[Use Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/use-inbound-email-action.md)
 

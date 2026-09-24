@@ -3,11 +3,11 @@ title: Authentication errors
 description: This section describes some common authentication errors and how they can be resolved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunkes-auth-errors-security.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install and configure, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ This section describes some common authentication errors and how they can be res
 
 If an error occurs during authentication, you may see the following screen:\[Omitted image "authentication-errors.png"\] Alt text: Invalid certificate error
 
-If you have verified that your API account credentials and the Splunk Base URL information are correct, this error may be due to an issue with the Splunk certificate for the port 8089 communication. ServiceNow® instance requires a valid certificate with a common name that matches the server host name to establish secure connections. For more information, see [Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_Certificates.md). If you see this error, you can verify that the issue is due to a certificate problem by viewing the system logs.
+If you have verified that your API account credentials and the Splunk Base URL information are correct, this error may be due to an issue with the Splunk certificate for the port 8089 communication. ServiceNow® instance requires a valid certificate with a common name that matches the server host name to establish secure connections. For more information, see [Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_Certificates.md). If you see this error, you can verify that the issue is due to a certificate problem by viewing the system logs.
 
 An error condition similar to the following will likely appear: \[Omitted image "splunk\_es\_auth\_error1.png"\] Alt text: Certificate error
 

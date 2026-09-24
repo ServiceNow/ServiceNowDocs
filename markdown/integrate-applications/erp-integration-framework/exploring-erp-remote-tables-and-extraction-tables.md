@@ -3,7 +3,7 @@ title: Exploring Zero Copy Connector for ERP remote tables and extraction tables
 description: Configure remote tables and extraction tables to work with data from the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/exploring-erp-remote-tables-and-extraction-tables.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
@@ -25,13 +25,13 @@ You configure both table types within Zero Copy Connector for ERP and link them 
 
 Remote tables get their records from running an associated script against an external data source. Remote tables describe the schema for the data that you need to retrieve from an ERP system. Use remote tables to connect to third-party sources, or to another instance, so that you can retrieve external data and optionally cache it in memory. You can view external data in lists or forms and process it with standard Glide scripts. You can also group, sort, aggregate, and filter the data just like you would for standard internal tables.
 
-\[Omitted image "erp-canvas-explore-remote-tables.png"\] Alt text: Remote table record showing information including name, module, model, and remote table link.
+\[Omitted image "image.erp-canvas-explore-remote-tables"\] Alt text: Remote table record showing information including name, module, model, and remote table link.
 
 ## Extraction tables
 
 Extraction tables are ETL \(extract, transform, and load\) data sources designed for large volumes of data. Instead of querying the ERP system in real time, extraction tables run on a scheduled basis, such as once per day. Extraction tables pull batches of data from the ERP system, save it to a temporary transform table, and then load it into a Glide table using import sets. The data is then available as a persistent, queryable table. Multiple extraction tables can map to the same ERP model, and you can create as many as needed.
 
-\[Omitted image "erp-canvas-explore-extraction-tables.png"\] Alt text: Extraction table record showing information including name, table transform map, target table link, and model.
+\[Omitted image "image.erp-canvas-explore-extraction-tables"\] Alt text: Extraction table record showing information including name, table transform map, target table link, and model.
 
 ## Key benefits
 
@@ -50,4 +50,6 @@ A company wants to build a Source-to-Pay workspace that gives procurement teams 
 A developer creates an extraction table linked to the Purchase Orders model. They configure a scheduled extraction to run every day, pulling all open POs for the current month from SAP and loading them into a Glide table. The procurement workspace is built on top of that Glide table, giving users fast, filterable access to PO data without hitting SAP on every page load.
 
 For instant needs, such as obtaining the current status of a PO for a supplier, the developer also configures a remote table pointing to the same model. When a procurement team member opens a PO record and needs live data, the remote table queries SAP directly and returns the current value on demand.
+
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
 

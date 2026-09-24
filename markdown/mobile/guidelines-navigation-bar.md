@@ -3,9 +3,9 @@ title: General guidelines for a navigation bar
 description: When creating a navigation bar, keep these general guidelines in mind for usability and a good user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/guidelines-navigation-bar.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Navigation bar, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -22,7 +22,7 @@ When creating a navigation bar, keep these general guidelines in mind for usabil
     -   Rather than removing the Setting and Notification tabs, consider changing the order in which they appear in the navigation bar.
     -   The Settings, Notifications, and Saved tabs navigate to specific pages, so only one of each tab is required. You can use multiple screen and launcher screen tabs, however it's suggested that you use no more than five tabs.
 -   **Display specific tabs to specified users**
-    -   Apply user criteria permissions, so users only view tabs relevant to their work. For more information, see [User criteria permissions in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/user-criteria-permissions.md).
+    -   Apply user criteria permissions, so users only view tabs relevant to their work. For more information, see [User criteria permissions in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/user-criteria-permissions.md).
     -   You should have the Settings and Navigation tabs available to users.
 -   **Tab names**
     -   Give your navigation tabs a descriptive name that provides context. Avoid generic names like Home or Apps.

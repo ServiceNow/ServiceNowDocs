@@ -3,11 +3,11 @@ title: Update settings for authorized users
 description: As a provider, you can configure the settings for Authorized Users who have been created on the consumer's instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-configure-settings.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
@@ -38,5 +38,5 @@ Role required: admin
     **Note:** You can view the settings defined in the Remote Record Producers and Remote Task Definitions tabs but cannot modify them.
 
 
-**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-administer.md)
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-administer.md)
 

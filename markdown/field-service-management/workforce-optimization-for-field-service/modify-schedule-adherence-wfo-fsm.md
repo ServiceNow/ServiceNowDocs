@@ -3,11 +3,11 @@ title: Modify schedule adherence and conformance formulas by using extension poi
 description: Configure and adjust the schedule adherence and conformance formulas using scripted extension points so that you can customize their calculations for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/modify-schedule-adherence-wfo-fsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up scheduling, Workforce Optimization, Set up workforce, Configure, Field Service Management]
 ---

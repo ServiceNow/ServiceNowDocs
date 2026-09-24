@@ -3,9 +3,9 @@ title: Constituent Service dashboard
 description: Use this dashboard to monitor the health of citizen services, gain insights on how efficiently government cases are handled, and assess the overall performance of services offered.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/constituent-services-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Analytics and Reporting, Public Sector Digital Services \(PSDS\)]
 ---
@@ -287,5 +287,5 @@ Government Service Case \[sn\_gsm\_government\_service\_case\]
 Distribution of unassigned government cases by priority.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and Reporting Solutions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-content-pack.md)
+</table>**Parent Topic:**[Analytics and Reporting Solutions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-content-pack.md)
 

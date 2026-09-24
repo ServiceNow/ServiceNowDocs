@@ -3,11 +3,11 @@ title: Risk Event Response Template form
 description: Use the Risk Event Response Template form to define assignment rules. Rules automatically assign owners, approvers, issues, and Root Cause Analysis \(RCA\) tasks to risk events based on entity, event type, category, and impact thresholds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-event-response-template-form.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Create a risk event response template, Use Risk Events, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -270,5 +270,5 @@ Priority of the event. The options are as follows: -   **Critical**
 **Note:** This field appears only when **Automatically create RCA task** is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a risk event response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-response-template.md)
+</table>**Parent Topic:**[Create a risk event response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-event-response-template.md)
 

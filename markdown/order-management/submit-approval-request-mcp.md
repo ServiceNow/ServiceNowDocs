@@ -3,9 +3,9 @@ title: Submit an approval request in an MCP client
 description: Submit an entity such as a quote for approval or resubmit an entity that currently has no active approval request by using natural language in an MCP client.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/submit-approval-request-mcp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Approval Management AI, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -45,5 +45,5 @@ Enter a natural language request in your MCP client to run the tool.
     The MCP client submits the approval request for the quote and creates the approval request record. Notifications to approvers and requesters are generated, informing them of the approval request.
 
 
-**Parent Topic:**[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-advanced-approval-mgmt-ai.md)
+**Parent Topic:**[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-advanced-approval-mgmt-ai.md)
 

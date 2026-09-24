@@ -3,9 +3,9 @@ title: Use the Parallel component
 description: Execute multiple components in a sequence to perform multiple actions. The Parallel component exposes multiple threads that can execute multiple components as part of a Robotic Process Automation in the RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-parallel.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [General, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -22,7 +22,7 @@ Role required: none
 
 For example, you can set two threads. In thread 1, the component launches the Google Chrome window with the START APP component and in thread 2, the component uses the Send Keys component to enter a URL.
 
-You can configure the properties for the Parallel component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
+You can configure the properties for the Parallel component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/Properties-general-components.md).
 
 ## Procedure
 
@@ -56,5 +56,5 @@ You can configure the properties for the Parallel component. For more informatio
     **Note:** The Send Keys and the Mouse components under the Utilities category don't work with the Parallel component.
 
 
-**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/general-component.md)
 

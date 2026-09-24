@@ -3,11 +3,11 @@ title: Create and compare financial baselines for a demand
 description: Create and compare financial baselines to get a snapshot of the demand expenses and compare the planned costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-financial-baselines-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -41,15 +41,15 @@ To create financial baselines, you can also use:
 
 5.  Create or compare financial baselines.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d103465e126">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d102834e126">
 
 Option
 
-</th><th align="left" id="d103465e129">
+</th><th align="left" id="d102834e129">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d103465e135">
+</th></tr></thead><tbody><tr><td id="d102834e135">
 
 **Create a baseline**
 
@@ -65,7 +65,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 3.  Select **Save**.
  A baseline is created capturing the planned costs.
 
-</td></tr><tr><td id="d103465e173">
+</td></tr><tr><td id="d102834e173">
 
 **Compare baselines**
 
@@ -73,9 +73,9 @@ Create financial baseline window appears with the Name field is auto-populated w
 
 1.  Select the **Baselines comparison** tab to view the list of baselines.
 2.  Select any two baselines and select the **Compare baselines** button.
- Comparison view of the selected baselines is displayed. For more details, see [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-financials-for-demands-ppw.md).
+ Comparison view of the selected baselines is displayed. For more details, see [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/managing-financials-for-demands-ppw.md).
 
 </td></tr></tbody>
-</table>    **Tip:** You can migrate existing financials baselines of your demands from Classic UI to Financials in Next Experience. For more information, see [Migrate financial baselines of demands to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/migrate-fin-baselines-demands.md).
+</table>    **Tip:** You can migrate existing financials baselines of your demands from Classic UI to Financials in Next Experience. For more information, see [Migrate financial baselines of demands to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/migrate-fin-baselines-demands.md).
 
 

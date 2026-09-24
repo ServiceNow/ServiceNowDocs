@@ -3,9 +3,9 @@ title: Outbound email configuration
 description: The Outbound Email Configuration section of the Email Properties page contains properties for sending email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_OutboundMailConfiguration.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Email properties, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -147,7 +147,7 @@ Specifies the number of entries from a journal field, such as Additional comment
 -   Learn More:Restrict the Number of Entries Sent in a Notification
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailProperties.md)
+</table>**Parent Topic:**[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailProperties.md)
 
 **Related topics**  
 

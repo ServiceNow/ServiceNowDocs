@@ -3,13 +3,13 @@ title: Learning plan for getting started with App Engine Studio
 description: ServiceNow provides citizen developers with several quick training modules for getting started building low-code apps in App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-getting-started-courses.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Learning plan for getting started with App Engine Studio
@@ -33,5 +33,5 @@ Use the following learning modules to quickly explore ways to build apps.
 |Learn more about application development|
 |----------------------------------------|
 |You can learn about [How citizen developers cook up innovation](https://www.servicenow.com/blogs/2023/how-citizen-developers-cook-up-innovation.html) on the ServiceNow blog.|
-|For more information about defining cross-scope access to an application resource and approving or denying requests, see [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/set-RCA-level.md).|
+|For more information about defining cross-scope access to an application resource and approving or denying requests, see [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/set-RCA-level.md).|
 

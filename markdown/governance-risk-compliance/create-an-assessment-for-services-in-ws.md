@@ -3,9 +3,9 @@ title: Create an Importance and impact tolerance assessment
 description: Determine the importance and impact tolerance of a business service by conducting an assessment using either Smart Assessment or Legacy assessment. The assessment questionnaire helps you to measure the service's importance and its impact on customers based on their responses. By evaluating the feedback, you can effectively gauge the significance of your business service and understand its effects on your customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-an-assessment-for-services-in-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Performing Importance and impact tolerance assessment, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -42,15 +42,15 @@ Operational Resilience Managers \(sn\_oper\_res.manager\) have the Smart Assessm
 
     -   Smart Assessment: You can add multiple smart assessment templates for the `Assessment type: Smart assessment` in the **Smart assessment templates** field.
     -   Legacy Assessment: You can add a single assessment template for the `Assessment type: Legacy assessment` in the **Assessment template** field.
-<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d320576e176">
+<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d325148e176">
 
 Choice
 
-</th><th align="left" id="d320576e179">
+</th><th align="left" id="d325148e179">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d320576e185">
+</th></tr></thead><tbody><tr><td id="d325148e185">
 
 **Select __Smart assessment__.**
 
@@ -62,7 +62,7 @@ Smart Assessment method for performing the importance and impact tolerance asses
 
 -   **Importance assessment template**: Use this template to measure the importance of a service.
 -   **Impact tolerance assessment template**: Use this template to measure the impact tolerance of a service.
--   **Importance and impact tolerance assessment template**: Use this template to importance and assess the impact tolerance of a service.
+-   **Importance and impact tolerance assessment template**: Use this template to measure the importance and impact tolerance of a service.
 **Note:** Templates are provided as demo data only. You can modify the existing templates or use them to create new templates for your specific requirements.
 
  You can select multiple templates and assign them to different users, enabling for separate assessments. For example, one user can work on the importance assessment and another user can work on the impact tolerance assessment.
@@ -78,9 +78,9 @@ Only when these conditions are met, the template is available for selection in t
 
  Operational Resilience administrators can edit or create Smart Assessment templates in the base version and update their automation logic to suit the business needs.
 
- **Note:** For information on setting up Smart Assessment templates, see [Create a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sm-asmt-temp-as-ws.md) and [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+ **Note:** For information on setting up Smart Assessment templates, see [Create a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-sm-asmt-temp-as-ws.md) and [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
-</td></tr><tr><td id="d320576e324">
+</td></tr><tr><td id="d325148e324">
 
 **Select __Legacy assessment__.**
 
@@ -95,7 +95,7 @@ Legacy assessment method for performing the importance and impact tolerance asse
 
     **Note:** The approver must be a user other than the owner and assessor.
 
-    For a description of the field values on the Importance and impact tolerance assessment form, see [Create Importance and impact tolerance assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/importance-and-impact-tolerance-assessment-reference-in-ws.md).
+    For a description of the field values on the Importance and impact tolerance assessment form, see [Create Importance and impact tolerance assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/importance-and-impact-tolerance-assessment-reference-in-ws.md).
 
 6.  In the **Assessment due date** field under the Milestones panel, select the due date for the assessment.
 
@@ -124,5 +124,5 @@ Legacy assessment method for performing the importance and impact tolerance asse
 
 ## What to do next
 
-Add scope for the assessment. For more information, see [Define the scope and begin the assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/submit-an-assessment-in-ws.md).
+Add scope for the assessment. For more information, see [Define the scope and begin the assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/submit-an-assessment-in-ws.md).
 

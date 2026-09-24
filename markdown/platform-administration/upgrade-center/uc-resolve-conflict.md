@@ -3,11 +3,11 @@ title: Resolve conflicts for an individual record
 description: Reconcile differences between your customized record and the changes associated with the upgrade.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-resolve-conflict.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling and monitoring an upgrade, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -22,9 +22,9 @@ Role required: admin
 
 ## Procedure
 
-1.  From the [Upgrade Details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-upgrade-details-form.md) for the record you are reconciling, click **Resolve Conflicts**.
+1.  From the [Upgrade Details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-upgrade-details-form.md) for the record you are reconciling, click **Resolve Conflicts**.
 
-    The system displays the [Resolve Conflicts form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-resolve-conflicts-form.md), which highlights differences between the two versions of the record. The form displays information about the base system record on the left and the customized record on the right.
+    The system displays the [Resolve Conflicts form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-resolve-conflicts-form.md), which highlights differences between the two versions of the record. The form displays information about the base system record on the left and the customized record on the right.
 
     **Note:** The system creates a new customer update record when you click **Resolve Conflicts**.
 

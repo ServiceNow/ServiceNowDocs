@@ -3,13 +3,13 @@ title: Close an asset reclamation request
 description: Efficiently reclaim hardware assets when an employee leaves an organization or moves to a different role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/close-asset-reclamation-request.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reclaim hardware assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Reclaim hardware assets, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Close an asset reclamation request
@@ -195,5 +195,5 @@ Any additional information that you want to mention.
     **Note:** When the stage of all Hardware Asset Reclamation Lines has changed to Closed Complete, the state of the Asset Reclamation Request also changes to Complete.
 
 
-**Parent Topic:**[Reclaim hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-reclaim.md)
+**Parent Topic:**[Reclaim hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-asset-reclaim.md)
 

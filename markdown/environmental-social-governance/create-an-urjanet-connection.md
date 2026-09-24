@@ -3,9 +3,9 @@ title: Create an Urjanet connection
 description: Create an Urjanet account connection with valid credentials to establish a connection between Urjanet and ServiceNow. Only one connection can be active for each domain for the integration. You can separate the imported data into logically defined domains. Data access is restricted among the domains.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-an-urjanet-connection.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -86,5 +86,5 @@ Urjanet account password.
 </table>4.  Select **Create**.
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

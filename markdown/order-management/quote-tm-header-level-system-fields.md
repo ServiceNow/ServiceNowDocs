@@ -3,10 +3,10 @@ title: Transaction-level system fields
 description: Reference for the system-provided fields at the transaction \(header\) level in Quote Experience, including variable names, descriptions, who can modify each field, and default values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-header-level-system-fields.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-05-07"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [Fields, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -21,7 +21,7 @@ Quote Experience uses a consistent prefix convention for field variable names.
 -   System-generated header-level fields use the prefix `txn.` followed by the field name — for example, `txn.id`.
 -   Custom header-level fields created by administrators use the prefix `txn.custom.` followed by the field name — for example, `txn.custom.quoteName`.
 
-For line-level field naming conventions, see [Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-line-level-system-fields.md).
+For line-level field naming conventions, see [Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-line-level-system-fields.md).
 
 ## Modifiable by
 
@@ -148,14 +148,12 @@ The following field is installed when ServiceNow Sync Quote to Opportunity is en
 |-------------|-----------|-------------|
 |`txn.opportunity.isSynced`|Indicates whether the quote is synced to the source opportunity.|Empty. Modifiable by: System|
 
-**Parent Topic:**[Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-fields.md)
-
 **Related topics**  
 
 
-[Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-fields.md)
+[Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-fields.md)
 
-[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-line-level-system-fields.md)
+[Transaction line-level system fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-line-level-system-fields.md)
 
-[Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-date-time-field-behavior.md)
+[Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-date-time-field-behavior.md)
 

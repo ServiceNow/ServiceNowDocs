@@ -3,11 +3,11 @@ title: Model Context Protocol Client reference
 description: Find more information about user roles, tables, and the different properties that are installed with the Model Context Protocol Client application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-reference-new.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Model Context Protocol Client, MCP Client, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configuring Model Context Protocol Client, MCP Client, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Model Context Protocol Client reference

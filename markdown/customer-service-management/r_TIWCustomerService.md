@@ -3,9 +3,9 @@ title: Tables installed with Customer Service Management
 description: Tables are added to your instance with the activation of the Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_TIWCustomerService.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
@@ -205,7 +205,7 @@ Case Entitlement\[sn\_customerservice\_case\_entitlement\]
 
 </td><td>
 
-Stores the entitlements associated with case records.Associated entitlements are available in the Entitlements related list on the case record. The [sn\_customerservice.advanced\_entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_PropInstallWcustServ.md) system property controls the display of this related list.
+Stores the entitlements associated with case records.Associated entitlements are available in the Entitlements related list on the case record. The [sn\_customerservice.advanced\_entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_PropInstallWcustServ.md) system property controls the display of this related list.
 
 </td></tr><tr><td>
 
@@ -320,5 +320,5 @@ Responsibility Access Configuration\[sn\_customerservice\_responsibility\_access
 Stores the metadata of the responsibility access configuration, which specifies the level of access and the entities that can be accessed by a particular responsibility.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_InstalledWithCustomerService.md)
+</table>**Parent Topic:**[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_InstalledWithCustomerService.md)
 

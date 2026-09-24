@@ -3,11 +3,11 @@ title: Set up the AI Search spoke
 description: Configure the AI Search spoke to index content from a third-party application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ais-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AI Search Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ Configure the AI Search spoke to index content from a third-party application.
 
 1.  Create an external content schema table.
 
-    To learn more about external content schema tables, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/external-content-ais.md).
+    To learn more about external content schema tables, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/external-content-ais.md).
 
     1.  Navigate to **AI Search** &gt; **Create Schema**.
 
@@ -38,7 +38,7 @@ Configure the AI Search spoke to index content from a third-party application.
 
 2.  Create an indexed source for content from your third-party application.
 
-    To learn more about indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/indexed-sources-ais.md).
+    To learn more about indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/indexed-sources-ais.md).
 
     1.  Navigate to **AI Search** &gt; **Indexed Sources**.
 
@@ -73,7 +73,7 @@ Configure the AI Search spoke to index content from a third-party application.
 
 4.  Create a search source for your new indexed source.
 
-    To learn more about search sources, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md).
+    To learn more about search sources, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-sources-ais.md).
 
     1.  Navigate to **AI Search** &gt; **Search Experience** &gt; **Search Sources**.
 
@@ -92,7 +92,7 @@ Configure the AI Search spoke to index content from a third-party application.
 
 5.  Create a search profile that includes your new search source.
 
-    For more information about configuring and publishing search profiles, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-profiles-ais.md).
+    For more information about configuring and publishing search profiles, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/defining-search-profiles-ais.md).
 
     1.  Navigate to **AI Search** &gt; **Search Experience** &gt; **Search Profiles**.
 
@@ -119,5 +119,5 @@ Configure the AI Search spoke to index content from a third-party application.
 
 You can now use the AI Search spoke actions to indexed content from the third-party application. To view the indexed content, you can use the Search Preview UI from the Advanced AI Search Management Tools application.
 
-For details on the Search Preview UI, see [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search-preview.md). To learn more about the Advanced AI Search Management Tools application, see [Analytics and Reporting Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/adv-ais-mgmt-tools-content-pack.md).
+For details on the Search Preview UI, see [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search-preview.md). To learn more about the Advanced AI Search Management Tools application, see [Analytics and Reporting Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/adv-ais-mgmt-tools-content-pack.md).
 

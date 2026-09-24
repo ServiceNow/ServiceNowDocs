@@ -3,9 +3,9 @@ title: View attachments with Document Viewer
 description: View documents within the platform using Document Viewer rather than having to download them to your own file system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/view-attachment-doc-viewer.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document Viewer, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,13 +16,13 @@ View documents within the platform using Document Viewer rather than having to d
 
 ## Before you begin
 
-Make sure that Document Viewer is enabled for the table containing the record. For more information, see [Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-document-viewer.md).
+Make sure that Document Viewer is enabled for the table containing the record. For more information, see [Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-document-viewer.md).
 
 Role required: none
 
 ## About this task
 
-Document Viewer supports inline viewing of certain [document types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/Documentviewer.md) within the platform.
+Document Viewer supports inline viewing of certain [document types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/Documentviewer.md) within the platform.
 
 ## Procedure
 
@@ -40,10 +40,10 @@ Document Viewer supports inline viewing of certain [document types](https://raw.
     Click **Download Document** to view the document in the relevant external application.
 
 
-**Parent Topic:**[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/Documentviewer.md)
+**Parent Topic:**[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/Documentviewer.md)
 
 **Related topics**  
 
 
-[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-document-viewer.md)
+[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-document-viewer.md)
 

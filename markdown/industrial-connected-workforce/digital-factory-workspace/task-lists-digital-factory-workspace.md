@@ -3,11 +3,11 @@ title: Task lists in the Digital Factory Workspace
 description: Use the task lists in the Digital Factory Workspace to access and manage all types of tasks for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/task-lists-digital-factory-workspace.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -113,5 +113,5 @@ Within an individual task record, excluding guided tasks, two tabs provide acces
 -   The **Tasks** tab displays all child tasks created from the current task. All child tasks must be completed before you can complete the parent task.
 -   The **Related** tab displays all follow-up tasks that originate from the current task. You can complete the current task without completing its related tasks.
 
-**Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
+**Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
 

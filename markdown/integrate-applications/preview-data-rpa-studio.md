@@ -3,9 +3,9 @@ title: Preview the data of a data port in RPA Desktop Design Studio
 description: Preview the data of a Data port in RPA Desktop Design Studio to view and verify if the result of a port is correct and is as expected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/preview-data-rpa-studio.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Preview the data of a Data port in RPA Desktop Design Studio to view and verify 
 
 ## Before you begin
 
-Ensure that the component for which you want to view the data for is executed. For more information, see [Run an automation in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-automation-rpa-studio.md).
+Ensure that the component for which you want to view the data for is executed. For more information, see [Run an automation in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/run-automation-rpa-studio.md).
 
 Role required: none
 
@@ -41,5 +41,5 @@ Role required: none
     You can view the name of the port, the data type, and the data in this dialog box.
 
 
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-studio-use.md)
 

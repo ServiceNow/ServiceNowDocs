@@ -3,11 +3,11 @@ title: Security Incident Response Other Records
 description: This section displays the other records such as IT related records and email records. Under IT records, Incident, Change Request, Problem and Outages are displayed.Create an incident within a security incident.Link related multiple IT Service Management \(ITSM\) incidents, problems or change requests to a security incident.Create a problem task.Create a change request.Crete an outage from an incident to track the down time of a configuration item.As an analyst, you can compose emails directly from security incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-response-other-records.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Under Email, Draft, Sent Emails and Received Emails are displayed.
 
 \[Omitted image "other-records.png"\] Alt text: Other Records tab
 
-**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 

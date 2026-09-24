@@ -3,11 +3,11 @@ title: Operational Technology Catalog Item form
 description: When creating a new catalog item for the Operational Technology \(OT\) Service Catalog, fill out the following form fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-request-management/catalog-item-form-ot-request.html
-release: australia
+release: brazil
 product: Operational Technology Request Management
 classification: operational-technology-request-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Operational Technology Request Management, Operational Technology]
 ---
@@ -258,5 +258,5 @@ Workflow that defines how the item request is fulfilled.
 **Note:** This field is only visible if you select **Workflow** in the **Process engine** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Technology Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/operational-technology-request-management-reference.md)
+</table>**Parent Topic:**[Operational Technology Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-request-management/operational-technology-request-management-reference.md)
 

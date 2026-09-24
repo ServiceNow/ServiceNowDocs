@@ -3,7 +3,7 @@ title: Configuring Grants Management
 description: Install the Grants Management application, which enables users to submit and track grants management requests and provides government agents with a predefined process for handling and resolving these requests. You can then configure the features available for submitting requests and routing requests to agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/configuring-grants-management-playbook.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
@@ -14,7 +14,7 @@ breadcrumb: [Playbooks and Solutions, Configure agent workspaces, Configure, Pub
 
 Install the Grants Management application, which enables users to submit and track grants management requests and provides government agents with a predefined process for handling and resolving these requests. You can then configure the features available for submitting requests and routing requests to agents.
 
-As a user with the admin role, complete the following configuration tasks to set up Grants Management, after you install the [Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/install-public-sector-digital-services-core.md) application.
+As a user with the admin role, complete the following configuration tasks to set up Grants Management, after you install the [Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/install-public-sector-digital-services-core.md) application.
 
 <table id="table_cmk_mdm_fwb"><thead><tr><th>
 
@@ -26,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Install Grants Management for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-install-grants-management.md)
+[Install Grants Management for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-install-grants-management.md)
 
 </td><td>
 
@@ -34,7 +34,7 @@ Install Grants Management from the ServiceNow® Store.
 
 </td></tr><tr><td>
 
-[Configure scripted extension points in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.md)
+[Configure scripted extension points in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.md)
 
 </td><td>
 
@@ -42,7 +42,7 @@ Enable publishing of grant programs, as well as authorized representative activi
 
 </td></tr><tr><td>
 
-[Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)
+[Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)
 
 </td><td>
 
@@ -50,7 +50,7 @@ Allow secure, controlled access for generating results letters.
 
 </td></tr><tr><td>
 
-[Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)
+[Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)
 
 </td><td>
 
@@ -58,7 +58,7 @@ Assign roles to members of your grants organization Grants Management applicatio
 
 </td></tr><tr><td>
 
-[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-pace.md)
+[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-pace.md)
 
 </td><td>
 
@@ -66,7 +66,7 @@ Configure the eligibility framework engine, powered by PaCE, to allow agents to 
 
 </td></tr><tr><td>
 
-[Configure the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-reviewer-service-portal.md)
+[Configure the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-reviewer-service-portal.md)
 
 </td><td>
 
@@ -74,7 +74,7 @@ Configure the Grants Management Reviewer Service Portal for merit reviewers to t
 
 </td></tr><tr><td>
 
-[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-grant-pgr.md)
+[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-grant-pgr.md)
 
 </td><td>
 
@@ -82,7 +82,7 @@ Set up and configure the details of a new grant program using Grants Management.
 
 </td></tr><tr><td>
 
-[Create a test grant program and grant proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
+[Create a test grant program and grant proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-grants-management-playbook.md)
 
 </td><td>
 
@@ -94,9 +94,9 @@ Verify the newly-configured grant program setup and grant proposal playbooks are
 The main ServiceNow capabilities that are leveraged to support the Grants Management workflows are:
 
 -   Document Processor​: Manage internal docs with version control, security, &amp; workflow integration. Request and verify docs from applicants​.
--   [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/playbooks-psds-exploring.md)​: Provide a visual, step-by-step guide for applicants and agents to complete key processes.​
--   [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-managing-policies.md): Streamline the creation, maintenance, and use of screening criteria with a low-code rules engine.
+-   [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/playbooks-psds-exploring.md)​: Provide a visual, step-by-step guide for applicants and agents to complete key processes.​
+-   [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/pace-managing-policies.md): Streamline the creation, maintenance, and use of screening criteria with a low-code rules engine.
 -   Configurable Portal Widgets: Use pre-built UI components for easy portal set up and modification.
--   [Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-smart-assessment-engine.md): Improve the creation and maintenance of application questions.
--   [Decision Trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-config-pre-eligibility.md): Provide a structured, step-by-step approach for pre-screening potential applicants.​​​
+-   [Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-smart-assessment-engine.md): Improve the creation and maintenance of application questions.
+-   [Decision Trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-config-pre-eligibility.md): Provide a structured, step-by-step approach for pre-screening potential applicants.​​​
 

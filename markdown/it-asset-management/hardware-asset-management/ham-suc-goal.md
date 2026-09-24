@@ -3,11 +3,11 @@ title: HAM Success Goal Details
 description: Fields on the HAM Success Goal Details form help you create success goals for tracking the success of the Hardware Asset Management application in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/ham-suc-goal.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -177,5 +177,5 @@ Achievement Description
 A description of how the success goal was achieved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

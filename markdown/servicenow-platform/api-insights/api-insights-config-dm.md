@@ -3,11 +3,11 @@ title: Configure data model recommendations for API clustering in API Insights
 description: Set recommendations for clustering API components to align the organization's data with the desired data model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-config-dm.html
-release: australia
+release: brazil
 product: API Insights
 classification: api-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB administrator tasks, Configure, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

@@ -3,11 +3,11 @@ title: Connect to external systems
 description: Connect Hub is a unified workspace for discovering, building, and managing integrations between ServiceNow and external systems. It consolidates discovery, configuration, and management into a single interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connect-to-external-systems.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Workflow Data Fabric]
+breadcrumb: [Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Connect to external systems
@@ -20,7 +20,7 @@ Connect Hub provides a consolidated interface to accomplish key integration task
 
 -   **Discover external systems and integration opportunities**
 
-    Explore available [external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connecthub-create-external-systems.md) and identify connection methods for over 200 third-party systems like MS Teams, Jira, and Snowflake.
+    Explore available [external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connecthub-create-external-systems.md) and identify connection methods for over 200 third-party systems like MS Teams, Jira, and Snowflake.
 
 -   **Build and manage connectors**
 

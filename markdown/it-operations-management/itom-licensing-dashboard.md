@@ -3,9 +3,9 @@ title: ITOM/OT SU Licensing dashboard
 description: Use the ITOM Licensing dashboard to review the statistics of the resource consumption and status against your purchased subscriptions. This dashboard contains reports for each ITOM application. The reports offer visualization of the daily usage count and of the average consumption of subscription units for 90 days.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-licensing-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -77,12 +77,12 @@ ITOM Licensing CI Counts \[itom\_lu\_ci\_counts\] and UsageAnalytics Counts for 
 
 The first area displays the daily raw resource counts that include all the detected resources before sorting them into specific CIs. Hover over the bars to see the table of resource types. Each type is shown with an absolute number of resources and a share that it takes among others.
 
-The second area displays bars that represent Subscription units counts for different licensable categories for the last 120 days per ITOM application. The dashboard also displays the brown line that represents the Usage Analytics counts table. This count is based on average consumption of subscription units for the last 90 days using SU ratios.
+The second area displays bars that represent Subscription units counts for different licensable categories for the last 120 days per ITOM application. The dashboard also displays the brown line that represents the Usage Analytics counts table. This count is based on average consumption of subscription units for the last 90 days. SU ratios are one server, three PaaS resources, three containers, or one unresolved monitored object equal 1 SU.
 
 Hover over the vertical bar in the Subscription units area for the desired day to open the Available CIs list. The table shows each CI category included in the daily CI count, along with the absolute number of resources and the share that it takes among others.
 
 The third area shows which version of the ITOM Licensing is used on the instance each day. It helps explain spikes in count every time the new version is installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-su-licensing-reference.md)
+</table>**Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-su-licensing-reference.md)
 

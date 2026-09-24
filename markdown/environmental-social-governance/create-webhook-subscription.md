@@ -3,9 +3,9 @@ title: Create a webhook subscription
 description: Webhooks are used to simplify communication between two applications. Create a webhook subscription to connect to Concur through webhook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-webhook-subscription.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a SAP Concur webhook registry, Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -43,5 +43,5 @@ Role required: sys\_admin
     4.  Select **Run Test**.
 
 
-**Parent Topic:**[Create a SAP Concur webhook registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-concur-webhook-registry.md)
+**Parent Topic:**[Create a SAP Concur webhook registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-concur-webhook-registry.md)
 

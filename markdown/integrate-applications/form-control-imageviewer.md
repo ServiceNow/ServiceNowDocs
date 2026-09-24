@@ -3,9 +3,9 @@ title: Methods and events of the ImageViewer element
 description: The ImageViewer element in RPA Desktop Design Studio enables you to open and view image files including JPEG, GIF, WMF, and other image formats in a form. You can also stretch and shrink images, rotate the images at different angles through all axis, and save them in different formats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/form-control-imageviewer.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Methods and events of elements, Reference, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -98,5 +98,5 @@ The methods and events of the ImageViewer element are displayed in the Object Ex
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-methods-events.md)
 

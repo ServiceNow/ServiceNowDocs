@@ -3,11 +3,11 @@ title: Components installed with MCP Server Console
 description: Several types of components are installed with activation of the MCP Server Console application, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/installed-mcp-server-console.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, MCP Server Console, Enable AI experiences]
+breadcrumb: [Reference, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Components installed with MCP Server Console
@@ -157,5 +157,5 @@ Tool Input
 Inputs defined for use by MCP server tools.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
+</table>**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mcp-server-console-reference.md)
 

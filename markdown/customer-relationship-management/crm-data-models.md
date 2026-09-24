@@ -3,11 +3,11 @@ title: Data models
 description: The CRM portfolio is built on a layered data architecture where each tier inherits from the one following it. This topic explains the four layers, ServiceNow AI Platform, CRM Foundation, Customer Workflows, and Industry Workflows, and the objects that connect them. Understanding this architecture is essential for configuring, extending, and troubleshooting CRM implementations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-data-models.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Data management, Customer Relationship Management]
+breadcrumb: [Data foundations, Customer Relationship Management]
 ---
 
 # Data models
@@ -150,13 +150,13 @@ This structural connection is what makes the sell, fulfill, and service story co
 **Related topics**  
 
 
-[Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-data.md)
+[Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-data.md)
 
-[User management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/user-management.md)
+[User management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/user-management.md)
 
-[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/product-data.md)
+[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/product-data.md)
 
-[Data models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-models.md)
+[Data models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/data-models.md)
 
-[Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md)
+[Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-industry-data-model.md)
 

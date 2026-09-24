@@ -3,11 +3,11 @@ title: Create a remediation catalog item
 description: Create a custom remediation catalog item in Cloud Configuration Governance for the remediations that require additional input parameters to execute.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-create-remediation-catalog-item.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Remediation, Use, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -96,7 +96,7 @@ Status of the catalog item.The copied catalog item is active by default.
 
     2.  On the form, fill in the fields.
 
-        For more information on catalog variables, see [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariables.md).
+        For more information on catalog variables, see [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogVariables.md).
 
     3.  Save the form.
 
@@ -122,13 +122,13 @@ Status of the catalog item.The copied catalog item is active by default.
 
     4.  Refer to the cloud provider documentation and implement the &lt;Catalog item name&gt;\_Action per the business needs of your organization.
 
-        For more information on building Integration Hub actions, see [Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/actions.md).
+        For more information on building Integration Hub actions, see [Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/actions.md).
 
     5.  Save the updated &lt;Catalog item name&gt;\_Action.
 
     6.  Test the &lt;Catalog item name&gt;\_Action.
 
-        For more information, see Test an action.
+        For more information, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/test-action.md).
 
     7.  Publish the &lt;Catalog item name&gt;\_Action.
 
@@ -159,5 +159,5 @@ Status of the catalog item.The copied catalog item is active by default.
 
 ## What to do next
 
-Run the remediation action to fix the identified violation. For more information, see [Run remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-run-remediation.md).
+Run the remediation action to fix the identified violation. For more information, see [Run remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-cloud-accelerate/ccg-run-remediation.md).
 

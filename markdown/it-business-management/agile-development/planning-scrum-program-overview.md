@@ -3,11 +3,11 @@ title: Scrum program planning board
 description: Use a centralized view on Agile Board to plan work for the teams that are working on your scrum program.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/planning-scrum-program-overview.html
-release: australia
+release: brazil
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -48,11 +48,11 @@ Agile Board has a program planning board where you can plan, schedule, and revie
         -   Red: The dependent story is scheduled in a sprint first. Then, the prerequisite story is scheduled in a later sprint. Review the dependency and reschedule the story as required.
         If none of the stories have a prerequisite or dependent story that is associated with them, the dependencies option is not visible.
 
-        For information on how to add story dependencies, see [Add dependencies for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/Add-dependencies-to-stories.md).
+        For information on how to add story dependencies, see [Add dependencies for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/Add-dependencies-to-stories.md).
 
 -   **Epic Backlog pane**
 
-    Enables you to see a list of all the epics that are based on the filter criteria in the epic backlog definition. For more information, see [Create an epic backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-epic-backlog.md).
+    Enables you to see a list of all the epics that are based on the filter criteria in the epic backlog definition. For more information, see [Create an epic backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/create-epic-backlog.md).
 
     In the backlog pane, you can do the following actions for an epic:
 
@@ -66,7 +66,7 @@ Agile Board has a program planning board where you can plan, schedule, and revie
 
     You can update a team's information, such as the team members, group capacity, or description, by clicking the team's name.
 
-    If your teams do not have sprints added to them, or if you want to add more sprints, you can [Add sprints from the program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/add-sprints-from-planning-page.md) directly.
+    If your teams do not have sprints added to them, or if you want to add more sprints, you can [Add sprints from the program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/add-sprints-from-planning-page.md) directly.
 
 -   **Team backlog lane**
 
@@ -111,10 +111,10 @@ Agile Board has a program planning board where you can plan, schedule, and revie
     View a list of all stories of the program using the standard list view icon \(\[Omitted image "standard-list-icon.png"\] Alt text: Standard list view icon.\).
 
 
--   **[Plan a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/plan-scrum-program.md)**  
+-   **[Plan a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/plan-scrum-program.md)**  
 Plan work for sprints, using a centralized view on Agile Board, of multiple scrum teams that are working together on a scrum program.
--   **[Add sprints from the program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/add-sprints-from-planning-page.md)**  
+-   **[Add sprints from the program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/add-sprints-from-planning-page.md)**  
 Add sprints to your scrum teams directly from the scrum program planning board without having to navigate to another module.
 
-**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/scrum-programs-concept.md)
+**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/agile-development/scrum-programs-concept.md)
 

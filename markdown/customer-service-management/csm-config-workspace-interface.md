@@ -3,9 +3,9 @@ title: CRM Workspace interface
 description: The CRM Workspace interface provides agents with the tools and information they need to resolve interactions and cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-interface.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, C
 
 The CRM Workspace interface provides agents with the tools and information they need to resolve interactions and cases.
 
-\[Omitted image "csm-config-workspace-interface.png"\] Alt text: The CSM Configurable Workspace interface provides information such as record details, the activity stream, and tools in the contextual side panel such as recommended actions and templates.
+\[Omitted image "csm-config-workspace-interface.png"\] Alt text: The CRM Workspace interface provides information such as record details, the activity stream, and tools in the contextual side panel such as recommended actions and templates.
 
 ## Multi-tab interface
 
@@ -42,14 +42,14 @@ Agents get a complete view of a customer's history, including interactions, prod
 
 In CRM Workspace, each case or interaction record includes information about the customer or consumer, the product or service, and a short description of the issue being addressed. It can also include information about the record priority, state, and agent assignment.
 
-Depending on the record page configuration, record details can be found in the Details tab or in a case or interaction details component. For example, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md) includes a case details component with the following collapsible sections:
+Depending on the record page configuration, record details can be found in the Details tab or in a case or interaction details component. For example, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-front-line-case-page.md) includes a case details component with the following collapsible sections:
 
 -   Case
 -   Notes
 -   Closure Information
 -   Related Records
 
-The [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-default-record-page.md) includes a Details tab as the first record sub-tab.
+The [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-default-record-page.md) includes a Details tab as the first record sub-tab.
 
 ## Contextual side panel
 
@@ -63,7 +63,7 @@ The contextual side panel component includes different tools that agents can use
 -   Email Templates
 -   Related Lists
 
-For more information, see [CSM Configurable Workspace contextual side panel components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-side-panel-components.md).
+For more information, see [CRM Workspace contextual side panel components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-ws-side-panel-components.md).
 
 ## Agent inbox
 
@@ -71,7 +71,7 @@ Agents see their assignments in their CRM Workspace inbox. Work assignments appe
 
 For more information about the agent inbox, see the following topics:
 
--   [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md)
--   [Inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-inbox-layout.md)
--   [Agent inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md)
+-   [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-overview.md)
+-   [Inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-inbox-layout.md)
+-   [Agent inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-experience.md)
 

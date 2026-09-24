@@ -3,11 +3,11 @@ title: Examples for Configuration Compliance risk score calculation
 description: Starting with v13.0 of Configuration Compliance, you can customize the criteria for the default risk rule. Use risk scores provided by third-party vendors like Qualys and Tenable for risk score calculations.Use scores based on criticality provided by third-party vendors to compute risk scores.Specify a criticality value to business services and use the business criticality to compute the risk scores.Use custom conditions to the risk rule for risk score calculation.Determine the risk score calculators to generate risk scores that use the test and asset data specific to your organization.The following example demonstrates how scores for risk rollup calculators are determined.The following example demonstrates how scores for risk rollup calculators are determined.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/config-compliance-risk-calculator-example.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Configuration Compliance calculators and calculator rules, Create a Configuration Compliance calculator group, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -183,7 +183,7 @@ Assuming that your organization has multiple configuration items \(CIs\), of whi
 **Related topics**  
 
 
-[Configuration Compliance calculator groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-calc-groups.md)
+[Configuration Compliance calculator groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/vuln-config-compl-calc-groups.md)
 
 ## Risk score calculation example for Configuration Compliance
 
@@ -500,7 +500,7 @@ Where, the weights are as follows:
 -   Average risk score: 5
 -   Factor: 15
 
-The default weight of the Average risk score is 0. For more information on how to set the weights, see [Edit risk rollup calculators for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/v11create-rollup-calc.md).
+The default weight of the Average risk score is 0. For more information on how to set the weights, see [Edit risk rollup calculators for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/v11create-rollup-calc.md).
 
 The factor in the previous equation is determined by the number of test results as shown in the following table.
 

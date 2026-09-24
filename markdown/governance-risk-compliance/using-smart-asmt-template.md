@@ -3,10 +3,10 @@ title: Using latest assessment template for conducting BIAs
 description: Beginning with the Yokohama release, you can use the latest assessment template for conducting a Business Impact Analysis \(BIA\). The BIA template is now integrated with the Smart Assessment Engine, enabling you to use the Smart Assessment along with the legacy assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/using-smart-asmt-template.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -16,9 +16,21 @@ Beginning with the Yokohama release, you can use the latest assessment template 
 
 ## Integrating BIA with the Smart Assessment Engine
 
-Integrating business impact analysis \(BIA\) with the Smart Assessment Engine allows you to configure impact assessments with various question types and set up multiple templates. You can calculate metrics such as Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), Recovery Tier \(RT\), and Maximum Tolerable Period of Disruption \(MTPD\) based on user responses.
+Integrating business impact analysis \(BIA\) with the Smart Assessment Engine allows you to configure impact analysis assessments with various question types. You can set up multiple impact assessment templates for a single BIA. You can calculate metrics such as Recovery Time Objective \(RTO\), Recovery Point Objective \(RPO\), Recovery Tier \(RT\), and Maximum tolerable period of disruption \(MTPD\) based on user responses.
 
-A BIA created with the Smart Assessment template includes Smart Assessment instances in the assessment section. The assessment template introduced with the Smart Assessment Engine allows you to create various question types. You can automate responses from existing data sources. BCM users can complete the assessment. Upon submission, the BCM administrator-configured automation updates impact analysis data, including RTO, RPO, recovery tier, and maximum tolerable downtime, based on the defined configuration.
+A BIA created with the Smart Assessment template includes Smart Assessment instances in the assessment section. The assessment template introduced with the Smart Assessment Engine allows you to create various question types. You can automate responses from existing data sources. BCM users can complete the assessment. Upon submission, the automation set up by BCM administrators updates impact analysis data based on the defined configuration. This data includes recovery time objective \(RTO\), recovery point objective \(RPO\), recovery tier, or maximum tolerable downtime.
+
+## Synchronizing collaborators linked to SAE records in BIA
+
+Starting with BCM core version 12.x.x, when you create a business impact analysis \(BIA\) that uses the Smart Assessment Engine, the BIA owner and contributors are automatically synchronized with the linked Smart Assessment instance.
+
+-   The BIA owner is set as the **Assigned to** user on the Smart Assessment. If you change the BIA owner, the **Assigned to** user on the assessment is updated accordingly.
+-   Contributors that you add to the BIA are added to the Smart Assessment contributor list. A contributor who holds an appropriate BIA role can open and complete the assessment.
+-   If you remove a contributor from the BIA, that contributor is also removed from the Smart Assessment.
+
+**Note:** Synchronization of the contributor list requires the Smart Assessment Collaboration \(sn\_smart\_collab\) plugin. If the plugin isn't installed, contributors aren't synchronized and can't open the assessment.
+
+When a BIA is owned by a group only and has no individual owner, the Smart Assessment is assigned to the manager of the owner group. If the group has no manager, the assessment is assigned to the first member of the group. If the group has no members, the Smart Assessment isn't created.
 
 ## Components used for the integration
 
@@ -42,7 +54,7 @@ The workflow for integrating BIA with the Smart Assessment Engine is shown in th
 
 ## Configuring BIA templates
 
-You can configure the BIA template with the legacy or Smart Assessment. The legacy assessment shows only drop-down questions. The Smart Assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire. For more information, see [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-admin-tasks.md).
+You can configure the BIA template with the legacy or Smart Assessment. The legacy assessment shows only drop-down questions. The Smart Assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire. For more information, see [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcm-admin-tasks.md).
 
 ## Managing life cycle of Smart Assessment templates in BIAs
 
@@ -70,7 +82,7 @@ BIAs that use Smart Assessment templates inherit the template life cycle control
 
     Every quick edit is logged at the template level, time-stamped, and user-attributed, making all changes fully traceable for audit and governance purposes. Template managers are accountable for ensuring that quick edits preserve the original context and intent of the question. Quick edit is optional and can be enabled or disabled at the template category level.
 
-    For more information, see [Quick edit for published templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.md).
+    For more information, see [Quick edit for published templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.md).
 
 -   **When to use quick edit vs. versioning**
 
@@ -248,5 +260,5 @@ The UI page containing only the Smart Assessment component is created in the BCM
 -   The **Open assessment** action opens the Smart Assessment page for you to read the responses.
 -   The **Edit assessment** action opens the Smart Assessment page for you to edit the responses.
 
-**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

@@ -3,9 +3,9 @@ title: Change the number of bubbles displayed on the bubble chart
 description: Customize the sn\_apm\_ws.appRationalizationMaximumBubbles system property to change the number of bubbles displayed on the application rationalization bubble chart page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-update-sys-prop-change-number-of-bubbles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -41,5 +41,5 @@ By default, the bubble chart page displays a maximum of 500 bubbles. If you have
 
 The bubble chart page displays bubbles up to the number that you have defined in the **Value** field.
 
-**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
+**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
 

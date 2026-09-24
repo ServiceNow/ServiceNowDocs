@@ -3,11 +3,11 @@ title: Create a profile for Symantec DLP integration
 description: Create an incident profile in your  ServiceNow AI Platform instance. Determine the  Symantec DLP incidents that are suitable for creating DLP incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-profile-symantec-dlp.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Symantec Integration for Data Loss Prevention Incident Response, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -104,18 +104,18 @@ Unique description for this profile.
 
 To move to the Filtering section,  click **Continue**.
 
--   **[Define filters to apply for the Incident creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/define-filters-symantec.md)**  
+-   **[Define filters to apply for the Incident creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/define-filters-symantec.md)**  
 Define and set filter conditions to drill down the incoming  Symantec DLP  incidents. Determine the incidents that should be created as DLP incidents in ServiceNow®.
--   **[Configure evidence file storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/config-evidence-file.md)**  
+-   **[Configure evidence file storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/config-evidence-file.md)**  
 Configure evidence file storage to securely store the evidence file for the DLP Incidents.
--   **[Download evidence files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/download-evidence-files.md)**  
+-   **[Download evidence files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/download-evidence-files.md)**  
 Download DLP incident evidence files that violate the DLP policy on Symantec.
--   **[Preview evidence files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/preview-file-symantec.md)**  
+-   **[Preview evidence files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/preview-file-symantec.md)**  
 Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.
--   **[Schedule the Symantec DLP Incident Retrieval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/schedule-dlp-incident-retrieval.md)**  
+-   **[Schedule the Symantec DLP Incident Retrieval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/schedule-dlp-incident-retrieval.md)**  
 Set a schedule to retrieve the incident data and ingest Symantec DLP incidents that match the criteria in the profile. Configure the schedule to define how and when you pull incidents from Symantec.
--   **[Mapping Symantec DLP incident statuses with ServiceNow incident Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/map-symantec-dlp.md)**  
+-   **[Mapping Symantec DLP incident statuses with ServiceNow incident Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/map-symantec-dlp.md)**  
 Synchronize the status of the DLP incidents ingested on the ServiceNow with the DLP incidents of the Symantec. Map the **ServiceNow Incident Status** field with the **Symantec Incident Status** field.
 
-**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/symantec-dlp-integration.md)
+**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/symantec-dlp-integration.md)
 

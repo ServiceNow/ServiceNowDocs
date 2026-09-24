@@ -3,11 +3,11 @@ title: Create new connections in Card Data Security
 description: Configure settings in our tokenizer service and your ServiceNow instance to set up new tokenized connections, routes, and methods in Card Data Security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/creating-new-connections-in-card-data-security.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create new connection card data security, add tokenized connection, third-party system integration, tokenizer service configuration, card data security routes, workflow studio subflow, decision table entry, rest message function, tokenizer resource configuration entry, enable card data security subflow]
 breadcrumb: [Administer, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
@@ -45,7 +45,7 @@ Tokenizer service
 
 </td></tr><tr><td>
 
-[Set up integration with the Third-Party System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integrate-other-applications.md)
+[Set up integration with the Third-Party System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-integrate-other-applications.md)
 
 </td><td>
 
@@ -83,7 +83,7 @@ ServiceNow
 
 </td></tr><tr><td>
 
-[Add a decision table entry with API path and subflow mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md)
+[Add a decision table entry with API path and subflow mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/using-decision-builder.md)
 
 </td><td>
 
@@ -95,7 +95,7 @@ ServiceNow
 
 </td></tr><tr><td>
 
-[Create a REST message function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-rest-message-function.md)
+[Create a REST message function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/set-up-a-rest-message-function.md)
 
 </td><td>
 
@@ -107,7 +107,7 @@ ServiceNow
 
 </td></tr><tr><td>
 
-[Define a REST message HTTP method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_DefineAnHTTPMethod.md)
+[Define a REST message HTTP method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_DefineAnHTTPMethod.md)
 
 </td><td>
 
@@ -119,7 +119,7 @@ ServiceNow
 
 </td></tr><tr><td>
 
-[Add a mapping configuration record for each REST message function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-tokenizer-resource-configurations.md)
+[Add a mapping configuration record for each REST message function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/manage-tokenizer-resource-configurations.md)
 
 </td><td>
 
@@ -130,5 +130,5 @@ In the Tokenizer Resource Configurations table, add an entry for each message fu
 ServiceNow
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-card-data-security.md)
+</table>**Parent Topic:**[Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/managing-card-data-security.md)
 

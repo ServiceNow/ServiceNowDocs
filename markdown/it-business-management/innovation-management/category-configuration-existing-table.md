@@ -3,11 +3,11 @@ title: Configure idea categories
 description: Map an idea category table with an Idea module to specify the category options listed on the Idea Portal and the create an idea form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/category-configuration-existing-table.html
-release: australia
+release: brazil
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -35,12 +35,12 @@ Use your existing product or department table to define dynamic idea categories.
 
 2.  On the form, fill in the fields.
 
-    For more information, see [Idea Category Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-category-configurations-form.md).
+    For more information, see [Idea Category Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/idea-category-configurations-form.md).
 
 3.  Create filter conditions to determine the idea categories to be listed on the Idea Portal.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/configuring-innovation-management.md)
+**Parent Topic:**[Configuring Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/innovation-management/configuring-innovation-management.md)
 

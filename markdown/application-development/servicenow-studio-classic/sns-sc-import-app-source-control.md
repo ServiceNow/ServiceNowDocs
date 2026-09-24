@@ -3,11 +3,11 @@ title: Import an app from source control in ServiceNow Studio
 description: Import an application from a Git repository into ServiceNow Studio to create a local copy of the app on your non-production instance. The repository must contain a valid ServiceNow application, and your credentials must have read access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-import-app-source-control.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -21,7 +21,7 @@ Import an application from a Git repository into ServiceNow Studio to create a l
 -   Verify that the non-production instance has network access to the Git repository.
 -   Verify that the repository contains a valid application.
 -   Ensure that each user adds the email address they use in their Git commits to their Users table \[sys\_user\] record.
--   Review [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md) before importing a customization.
+-   Review [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md) before importing a customization.
 -   Role required: admin
 
 ## About this task
@@ -80,7 +80,7 @@ Connect with a MID Server
 
 Select whether to use an existing MID Server to connect to a Git repository behind a corporate firewall.**Note:** Use a separate MID Server to prevent conflicts with Discovery activities.
 
-For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
 </td></tr><tr><td>
 
@@ -96,7 +96,7 @@ Credential
 
 </td><td>
 
-The credential to use for your Git repository. For more information, see [Getting started with Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).**Note:** For SSH protocol, enter a valid credential of the **SSH Private Key** type. For HTTPS protocol, enter a valid credential of the **Basic Auth Credentials** type.
+The credential to use for your Git repository. For more information, see [Getting started with Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md).**Note:** For SSH protocol, enter a valid credential of the **SSH Private Key** type. For HTTPS protocol, enter a valid credential of the **Basic Auth Credentials** type.
 
 </td></tr></tbody>
 </table>    **Note:** All application developers on the instance share the credentials used to link a Git repository to an application.
@@ -115,5 +115,5 @@ The credential to use for your Git repository. For more information, see [Gettin
 -   Review the upgrade logs for any sanitization applied to application files during the import.
 -   Select the imported application to open and edit it.
 
-**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
+**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 

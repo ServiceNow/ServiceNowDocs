@@ -3,11 +3,11 @@ title: Manage inventory in Field Service Management
 description: Get the parts you need to complete the tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/sourcing-parts.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -27,5 +27,5 @@ Qualifiers, dispatchers, and agents can create, source part requirements and req
 **Related topics**  
 
 
-[Setting up inventory and asset management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/setting-up-inventory-and-asset-management.md)
+[Setting up inventory and asset management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/asset-management-for-field-service/setting-up-inventory-and-asset-management.md)
 

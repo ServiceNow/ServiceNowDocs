@@ -3,11 +3,11 @@ title: Get started with Microsoft Azure Sentinel integration
 description: Activate and set up the Microsoft Azure Sentinel - Incident Ingestion for Security Operation plug-in to interface with your ServiceNow AI Platform instance and Security Incident Response product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-started-with-microsoft-azure-sentinel-integration.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Azure Sentinel integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -79,7 +79,7 @@ The ServiceNow Integration Hub Starter Pack Installer \[com.glide.hub.integratio
 
 </td></tr><tr><td>
 
-[Register and configure your application in the Microsoft Azure portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-microsoft-azure-portal.md)
+[Register and configure your application in the Microsoft Azure portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-microsoft-azure-portal.md)
 
 </td><td>
 

@@ -3,11 +3,11 @@ title: Playbook generation from text prompt or image
 description: Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-assist.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -24,7 +24,7 @@ Playbook generation is a skill that is installed with the ServiceNow Otto for Cr
 
 ## Supported user interfaces
 
-Access the Playbook generation skill when you’re creating a playbook in Workflow Studio.
+Access the Playbook generation skill when you're creating a playbook in Workflow Studio.
 
 \[Omitted image "new-playbook-otto.png"\] Alt text: Build a new playbook using AI.
 
@@ -141,13 +141,13 @@ The following examples can help you to generate playbook outlines:
     ```
 
 
--   **[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md)**  
+-   **[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md)**  
 Generate a playbook using AI by providing text directions or an image.
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
 
 **Related topics**  
 
 
-[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md)
+[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md)
 

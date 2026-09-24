@@ -3,11 +3,11 @@ title: Policy logic condition fields
 description: Policy logic is a set of conditions that is used for determining whether a policy is compliant or non-compliant. You can use the condition builder to specify conditions for the policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.html
-release: australia
+release: brazil
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create PaCE policy version in low-code, Create PaCE policy versions, Manage PaCE policy versions, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---

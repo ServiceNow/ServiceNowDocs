@@ -3,9 +3,9 @@ title: Knowledge Center Article Optimization
 description: Article Optimization is an automated system that improves the quality and health of knowledge articles by providing actionable feedback to authors and managers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-center-article-optimization.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ Article Optimization is an automated system that improves the quality and health
 
 The Article Optimization tool scans your knowledge articles and provides instant, actionable feedback. It helps you quickly address issues, resulting in high-quality content that is more accessible and discoverable. By streamlining improvements, the tool helps confirm that your articles meet accessibility and searchability standards, saving time and improving the user experience.
 
-**Note:** Your administrator or manager can configure the Article Optimization features to enable and customize a range of operations. For more information, see [Configuring custom script based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+**Note:** Your administrator or manager can configure the Article Optimization features to enable and customize a range of operations. For more information, see [Configuring custom script based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
 The Article Optimization tool performs the following operations:
 
@@ -27,4 +27,5 @@ The Article Optimization tool performs the following operations:
 -   Managers can see aggregated findings on the home page, such as number of flagged articles and types of issues. Authors can see findings at the individual article level.
 -   Use the article length scan, a script-based, non-AI scan, to evaluate articles against two length-based criteria: minimum length for search engine optimization, and maximum length for AI search. Articles with fewer than 300 words are flagged for search engine optimization and don't appear in search results. Articles exceeding 10,000 words are flagged for AI search indexation and don't appear in AI-powered search results.
 -   The Reading Ease scan flags readability issues in articles. Review and resolve the findings to improve articles that score below the threshold.
+-   Review articles notified as stale or expiring and, update or retire them as needed.
 

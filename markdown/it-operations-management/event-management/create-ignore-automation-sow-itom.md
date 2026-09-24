@@ -3,11 +3,11 @@ title: Create Ignore automation
 description: Ignore automation streamlines the process of disregarding irrelevant or false-positive alerts from monitoring systems, efficiently managing alert fatigue by filtering out unnecessary notifications. As a result, teams can prioritize and resolve critical issues more effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-ignore-automation-sow-itom.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Alert automation in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -88,5 +88,5 @@ For users familiar with the classic Event Management experience, ignore automati
 
 ## What to do next
 
-You can transform raw events into an understandable format by creating [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
+You can transform raw events into an understandable format by creating [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 

@@ -3,11 +3,11 @@ title: Ribbons migration from ITSM Agent Workspace to Service Operations Workspa
 description: Migration of the ribbons from ITSM Agent Workspace to Service Operations Workspace for ITSM includes identifying the required tables, identifying ribbons records for migration, and the migration process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/ribbons-migration-itsm-aw-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure and customize the migration to SOW, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -46,10 +46,10 @@ The Service Operations Workspace migration utility uses the following sequence t
 
 3.  Creates a mapping between filtered ribbon settings and Service Operations Workspace ribbon configuration in the Ribbon Configuration Setting \[sys\_ux\_ribbon\_config\_setting\] table.
 
--   **[Perform post-migration tasks for ribbons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/verify-migration-status-ribbons.md)**  
+-   **[Perform post-migration tasks for ribbons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/verify-migration-status-ribbons.md)**  
 Verify that the ribbons in Service Operations Workspace \(SOW\) are consistent with the ribbons in ITSM Agent Workspace and the ribbons are ready for use in SOW. You can update the migrated ribbon settings in SOW based on your requirements.
 
-**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
+**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
 
 **Related topics**  
 

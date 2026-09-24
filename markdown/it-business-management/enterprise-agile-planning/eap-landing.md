@@ -3,11 +3,11 @@ title: Enterprise Agile Planning in Strategic Planning
 description: ServiceNow Enterprise Agile Planning helps streamline communication and collaboration between teams, and drive coordination with diverse teams. Using an intuitive workspace, scale your Agile framework across the organization with flexible work and team structure configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/eap-landing.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 ---
@@ -24,19 +24,19 @@ Enterprise Agile Planning \(EAP\) is available when you install the Strategic Pl
 
 <table id="table_is2_hh1_dzb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Enterprise Agile Planning features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/exploring-eap.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Enterprise Agile Planning features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/exploring-eap.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Agile configurations, team levels, and work types.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configuring-eap.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Agile configurations, team levels, and work types.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/configuring-eap.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-manage.svg"\] Alt text:Build a backlog, plan program increments, and evaluate progress of assigned work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
+[Use\[Omitted image "bus-manage.svg"\] Alt text:Build a backlog, plan program increments, and evaluate progress of assigned work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about EAP components like roles, tables, properties, forms, and lists.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about EAP components like roles, tables, properties, forms, and lists.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

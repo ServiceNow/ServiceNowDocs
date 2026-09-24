@@ -3,11 +3,11 @@ title: Connect Chat administration
 description: Administrators can configure various performance settings and features of Connect Chat.The email notification interval determines how long the system waits before sending a Connect Chat email notification to an inactive user.Record conversations are enabled for all tables that extend Task \[task\] by default. You can configure record conversations for additional tables that extend Task.Users can follow records in Connect for any table that extends Task \[task\] by default. You can disable this functionality for all tables.Users can follow records in Connect for any table that extends Task \[task\] by default. You can disable this functionality for a specific table.You can disable Connect Chat to prevent users from being able to chat within the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/c\_CollaborationAdministration.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Connect Chat, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Connect Chat, Connect, ServiceNow AI Platform Additional Capabiliti
 
 Administrators can configure various performance settings and features of Connect Chat.
 
-**Note:** There are also settings that apply to both Connect Chat and Connect Support. For more information, see [Connect administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectAdministration.md).
+**Note:** There are also settings that apply to both Connect Chat and Connect Support. For more information, see [Connect administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/c_ConnectAdministration.md).
 
 ## Configure the email notification interval
 
@@ -64,15 +64,15 @@ To create record conversations, users must have access to the **Follow** button 
 
 2.  Perform the appropriate action for the list version.
 
-<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d554015e267">
+<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d552005e267">
 
 Version
 
-</th><th align="left" id="d554015e270">
+</th><th align="left" id="d552005e270">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d554015e276">
+</th></tr></thead><tbody><tr><td id="d552005e276">
 
 **List v3**
 
@@ -82,7 +82,7 @@ Action
 2.  In the Configure window, click **Dictionary**.
 
 
-</td></tr><tr><td id="d554015e300">
+</td></tr><tr><td id="d552005e300">
 
 **List v2**
 
@@ -119,7 +119,7 @@ Right-click any column header and select **Configure** &gt; **Dictionary**.
 **Related topics**  
 
 
-[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md)
+[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DictionaryAttributes.md)
 
 ## Prevent users from following records in Connect for all tables
 
@@ -181,7 +181,7 @@ To disable record conversations for a specific table, prevent the **Follow** but
 **Related topics**  
 
 
-[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md)
+[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DictionaryAttributes.md)
 
 ## Disable Connect Chat
 

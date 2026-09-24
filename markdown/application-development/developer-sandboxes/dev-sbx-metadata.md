@@ -3,11 +3,11 @@ title: Developer Sandboxes and metadata
 description: Each sandbox provisioned with Developer Sandboxes is an isolated environment within an instance. Developers can build and test in parallel without affecting other work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dev-sbx-metadata.html
-release: australia
+release: brazil
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
 ---
@@ -57,11 +57,11 @@ To view the current table configurations, view `sys_dsb_table_config`. Table con
 
 Records created in a sandbox on a Shared table are immediately available on the base instance and any other sandbox that shares that table. For isolated tables \(Full Copy, Zero Copy, or Partial Copy\), record changes remain isolated to that sandbox. Making a schema change also isolates the table, and any records added after that point are isolated.
 
-To generate synthetic test data, use AI Data Kit. For more information, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit-landing.md).
+To generate synthetic test data, use AI Data Kit. For more information, see [AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit-landing.md).
 
 ## Developer Sandboxes and business rules
 
 Business rules are metadata inherited from the base instance. You can see business rules on a sandbox by navigating to **All** &gt; **Administration** &gt; **Business rules**.
 
-Business rules are copied, but isolated. For more information on Business rules, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
+Business rules are copied, but isolated. For more information on Business rules, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_BusinessRules.md).
 

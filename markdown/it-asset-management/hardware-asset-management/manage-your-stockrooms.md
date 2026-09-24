@@ -1,122 +1,71 @@
 ---
-title: Manage stockrooms
-description: Manage the assets in the stockroom by using appropriate stock rules, service locations, and distribution channels.
+title: Inventory and stockroom operations
+description: Manage hardware asset inventory and stockroom operations, from receiving and storing assets to monitoring stock levels, conducting audits, and tracking asset location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/manage-your-stockrooms.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Manage stockrooms
+# Inventory and stockroom operations
 
-Manage the assets in the stockroom by using appropriate stock rules, service locations, and distribution channels.
+Manage hardware asset inventory and stockroom operations, from receiving and storing assets to monitoring stock levels, conducting audits, and tracking asset location.
 
-For details, see [Stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_Stockrooms.md) and [Stock rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_StockRules.md).
+Perform these tasks as needed to manage day-to-day inventory and stockroom operations in HAM.
 
--   **[Create a stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-create-stockroom.md)**  
-Create stockrooms to assign places to assets.
--   **[Delete a stockroom with assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/t_DeleteAStockroomWithAssets.md)**  
-You can delete a stockroom. If the stock room has assets, you must remove the assets from the stockroom first.
--   **[Delete a stockroom with no assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/t_DeleteAStockroomWithNoAssets.md)**  
-You can delete a stockroom that has no assets.
--   **[Create a new stockroom type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/t_CreateANewStockroomType.md)**  
-If you need stockroom types that are not included in the base system, you can create a custom stockroom type.
--   **[View stockroom details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-stockroom-details-ham.md)**  
-View detailed information about the stockrooms where your hardware, consumables, bundles, pallets, loaner, enterprise, and other assets are located.
--   **[Associate a stockroom with service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-service-locations.md)**  
-Manage sourcing requests that consume from local stockrooms effectively by associating your stockroom with multiple service locations. Optimize your loaner asset workflow and automated asset tasks by serving multiple locations using a single stockroom.
--   **[Remove service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/remove-service-locations.md)**  
-Remove service locations when the associated stockroom doesn't support those locations.
--   **[Exclude a stockroom from service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/exclude-stockroom-from-service-locations.md)**  
-Exclude a stockroom from service locations so that the stockroom isn't shown in the Stockrooms missing service locations important actions card in the Inventory view.
--   **[Link stockrooms into a distribution channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/associate-stockroom-with-distribution-channels.md)**  
-Link two geographically related stockrooms to create a distribution channel and make the distribution of assets more efficient. You can assign a preference order for each channel to source assets to the stockroom.
--   **[Exclude a stockroom from distribution channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/exclude-stockroom-from-distribution-channel.md)**  
-Exclude a stockroom from distribution channels so that the stockroom isn't shown in the Stockrooms missing distribution channels important actions card in the Inventory view.
--   **[Create a stock rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/t_CreateAStockRule.md)**  
-Create a stock rule to control what happens when the inventory of a particular asset in a particular stockroom reaches a specified threshold.
--   **[Configure a stockroom for automated sourcing by AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configure-stockroom-auto-sourcing.md)**  
-Configure a stockroom to enable AI agents in the Manage hardware asset requests agentic workflow to source hardware assets automatically.
--   **[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-stockroom-receive-hws.md)**  
+|Task|Description|
+|----|-----------|
+|[Receive assets in a stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-stockroom-receive-hws.md)|Receive incoming hardware assets into a stockroom and update asset records to reflect the new inventory.|
+|[Pick assets for deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-asset-picking-stockroom-ham-ws.md)|Pick hardware assets from stockroom inventory to fulfill deployment requests and transfer orders.|
+|[Put away assets in a stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-asset-putaway-stockroom-hardware-asset-workspace.md)|Store returned or newly received hardware assets in designated stockroom locations and update inventory records.|
+|[Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-inventory-audit.md)|Conduct a physical inventory audit to reconcile stockroom records with actual hardware asset counts.|
+|[View RFID information of assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/view-rfid-info.md)|Locate your assets using the RFID.|
+|[Track asset location using indoor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/track-asset-location-using-indoor-maps.md)|Use indoor maps to view the physical location of hardware assets within a facility in near-real time.|
+|[Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md)|Group hardware assets on pallets to streamline bulk receiving, storage, and transfer operations in your stockroom.|
+|[View stockroom details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/view-stockroom-details-ham.md)|Get an overview of your stockrooms.|
+
+-   **[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-stockroom-receive-hws.md)**  
 Receive hardware and consumable assets at stockrooms from any workflow at a centralized location on the stockroom form in the Hardware Asset Workspace.
--   **[Manage stockrooms with inventory reports in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-stockroom-inventory-report-ham.md)**  
-Track and manage stockrooms efficiently by evaluating the inventory reports in the Hardware Asset Workspace.
+-   **[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-asset-picking-stockroom-ham-ws.md)**  
+Enable the Asset pick task explicitly for your stockroom and provide granular location details of the asset to facilitate asset picking within your stockroom.
+-   **[Manage asset put away using the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-asset-putaway-stockroom-hardware-asset-workspace.md)**  
+Enable the Asset put away task explicitly for your stockroom to put away the assets from the receiving bay in the designated aisle-space. View the open Asset put away task and close it after specifying the aisle-space value to move the asset in the stockroom.
+-   **[Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-inventory-audit.md)**  
+Perform scheduled or blind audits of stockrooms and other locations, such as offices or datacenters, to confirm accurate inventory information.
+-   **[View RFID information of assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/view-rfid-info.md)**  
+View the Radio Frequency Identification \(RFID\) information of assets to manage and locate important assets easily.
+-   **[Track asset location using indoor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/track-asset-location-using-indoor-maps.md)**  
+Locate and track the consumables and hardware, bundle, and pallet assets in your organization by using indoor maps. Indoor maps provide an interactive interface that enables you to visualize the location of your assets within your campuses, buildings, floors, and places.
+-   **[Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md)**  
+Manage your inventory effectively using pallet assets.
+-   **[View stockroom details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/view-stockroom-details-ham.md)**  
+View detailed information about the stockrooms where your hardware, consumables, bundles, pallets, loaner, enterprise, and other assets are located.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
+[Procurement and fulfillment]()
 
-[Work with hardware normalization]()
+[Repair and maintenance]()
 
-[Manage asset bundles from your inventory]()
+[Asset lifecycle and disposal]()
 
-[Manage your inventory through pallet assets]()
+[Attestation and conformance]()
 
-[Manage loaner assets]()
+[Reporting and performance]()
 
-[Donate assets to charity organizations]()
-
-[Use Advanced Shipment Notification]()
-
-[Manage RMA requests]()
-
-[Create an inventory stock order request]()
-
-[Create a disposal order]()
-
-[Fulfilling hardware asset requests]()
-
-[Audit hardware asset inventory]()
-
-[Request a Hardware Asset Refresh]()
-
-[Manage your expiring contracts for leased hardware assets]()
-
-[Reclaim hardware assets]()
-
-[View RFID information of assets]()
-
-[Manage the lifecycle of hardware models with calculated lifecycle templates]()
-
-[Create an internal lifecycle in the Hardware Asset Workspace]()
-
-[Receive asset warranty details from Lenovo]()
-
-[Track shipments using the integration framework]()
-
-[Track asset location using indoor maps]()
-
-[Assess performance of Hardware Asset Management]()
-
-[Manage refresh of assets using Zero Touch Refresh]()
-
-[Configure the Total Cost of Ownership of assets]()
-
-[Manage Hardware Asset Management subscriptions]()
-
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
-
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
+[Employee self-service]()
 
 [Manage hardware asset tasks using the Mobile Agent application]()
 
-[Manage asset put away using the Hardware Asset Workspace]()
+[Stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/c_Stockrooms.md)
 
-[Audit your hardware assets by using Asset Attestation]()
-
-[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
-
-[Manage obligations in the Hardware Asset Workspace]()
-
-[Acknowledge receipt of assets on the Employee Center portal]()
-
-[Update associated Decision tables for HAM flows]()
+[Stock rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/c_StockRules.md)
 

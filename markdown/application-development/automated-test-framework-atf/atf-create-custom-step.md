@@ -3,11 +3,11 @@ title: Create custom step configuration
 description: Create a custom step configuration that can form the basis of new steps that run on the server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-create-custom-step.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Creating custom test step configurations, Administering the Automated Test Framework \(ATF\), Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -44,7 +44,7 @@ The Automated Test Framework includes specific types of steps such as Open Form,
 
 6.  In the **Category** field, select the category to which you want to assign this step.
 
-    Categories are used for filtering the step list in the Add Step dialog. For more information, see [Category field example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md).
+    Categories are used for filtering the step list in the Add Step dialog. For more information, see [Category field example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md).
 
 7.  In the **Batch Order Constraint** field, choose one of the following values.
 
@@ -54,25 +54,25 @@ The Automated Test Framework includes specific types of steps such as Open Form,
     -   **Stop Execution**: If a test includes a batch with this step, this step must be the last step in the batch.
 8.  In the **Order** field, enter an integer specifying where steps with this configuration appear in the step list on the Add Test Step dialog.
 
-    For more information, see the example using the **Order** field in [Order field example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md).
+    For more information, see the example using the **Order** field in [Order field example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md).
 
 9.  In the **Template reminder** field, enter the instructions you want to appear when this step is included in a test as part of a template.
 
-    For more information, see the [example of using the Template reminder field.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md)
+    For more information, see the [example of using the Template reminder field.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md)
 
 10. In the **HTML description** field, enter the text you want to appear when the cursor highlights this step on the Create New Step dialog.
 
-    For more information, see the example using the HTML description field in [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md)
+    For more information, see the example using the HTML description field in [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md)
 
     **Note:** The next two steps involve writing scripts, which you should wait to complete until you have added input and output variables.
 
 11. In the **Description generation script** field, add code to the provided template to generate the description assigned to a Test Step record when a step of this type is included in a test.
 
-    For more information about writing this script, see [Step description generation script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-config-desc-script.md). To see an example of where the system displays this description, see [Description generation script example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md).
+    For more information about writing this script, see [Step description generation script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-config-desc-script.md). To see an example of where the system displays this description, see [Description generation script example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-step-config-xmpls.md).
 
 12. In the **Step Execution Script** field, add code to the provided template to define the script that executes when a step of this type runs.
 
-    The script template provides instructions and examples for working with step inputs, outputs, and step results. For more details on the step execution script, see [Step execution scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-config-script.md).
+    The script template provides instructions and examples for working with step inputs, outputs, and step results. For more details on the step execution script, see [Step execution scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-config-script.md).
 
 13. Click **Submit**.
 
@@ -103,16 +103,16 @@ The Automated Test Framework includes specific types of steps such as Open Form,
     4.  Repeat these steps until you have added all the output variables needed.
 
 
-**Parent Topic:**[Creating custom test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-custom-step-types.md)
+**Parent Topic:**[Creating custom test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-custom-step-types.md)
 
 **Related topics**  
 
 
-[Step execution scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-config-script.md)
+[Step execution scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-config-script.md)
 
-[Step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/step-configurations-module.md)
+[Step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/step-configurations-module.md)
 
-[Automated Test Framework Step Config record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-step-config-record.md)
+[Automated Test Framework Step Config record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-step-config-record.md)
 
-[Add a predefined list of steps \(template\) to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-template.md)
+[Add a predefined list of steps \(template\) to an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-use-template.md)
 

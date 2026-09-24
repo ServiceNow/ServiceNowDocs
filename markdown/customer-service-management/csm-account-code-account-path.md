@@ -3,9 +3,9 @@ title: Account codes and account paths
 description: An account code is a unique identifier for an account, while an account path establishes the account hierarchy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-account-code-account-path.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Import accounts and contacts with guided setup, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

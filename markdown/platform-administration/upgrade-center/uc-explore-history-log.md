@@ -3,11 +3,11 @@ title: Explore upgrade history log
 description: Reduce processing time by extracting all upgrade related logs into a separate file named database-upgrade\_&lt;timestamp&gt;.log. You can also zip the file and attach it to upgrade history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-explore-history-log.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reviewing upgrade history, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---

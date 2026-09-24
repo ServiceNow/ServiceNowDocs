@@ -3,11 +3,11 @@ title: Communication channel definition
 description: You can define a communication channel for each communication task. The communication channel determines which mode of communication to use for the task when a plan is attached to an incident. The modes of communication available are: email, SMS, conference, and Slack.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/communication-channel-definition.html
-release: australia
+release: brazil
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Incident Communications, Incident Communications Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Managing Incident Communications, Incident Communications Managemen
 
 You can define a communication channel for each communication task. The communication channel determines which mode of communication to use for the task when a plan is attached to an incident. The modes of communication available are: email, SMS, conference, and Slack.
 
-For information on how to create a communication channel definition, refer to [Create communication channel definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-comm-channel-definition.md) .
+For information on how to create a communication channel definition, refer to [Create communication channel definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-comm-channel-definition.md) .
 
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

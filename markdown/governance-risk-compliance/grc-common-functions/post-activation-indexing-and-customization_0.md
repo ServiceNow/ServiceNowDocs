@@ -3,14 +3,14 @@ title: Post activation indexing and customization
 description: After activating the report for a GRC issue AI agent, the system performs indexing to ensure optimal functionality. Users can also choose to customize the issue definition, enabling the AI agent to provide more tailored suggestions and align with organizational standards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/post-activation-indexing-and-customization\_0.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [issue submission AI agent, report a GRC issue, AI agent studio, indexing, customization, issue definition, post activation, generative AI, Now Assist]
-breadcrumb: [Activate the Report a GRC issue AI agent, Configure, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Activate the Report a GRC issue AI agent, Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Post activation indexing and customization
@@ -37,7 +37,7 @@ The sn\_grc\_context\_definition table holds definitions for all GRC terms, incl
 **Related topics**  
 
 
-[Activate the Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/activate-the-issue-submission-ai-agent.md)
+[Activate the Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/activate-the-issue-submission-ai-agent.md)
 
-[Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/report-a-grc-issue.md)
+[Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/report-a-grc-issue.md)
 

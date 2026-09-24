@@ -3,11 +3,11 @@ title: Turn on the flow generation with images skill
 description: Turn on the flow generation with images skill to use generative AI to create flows and subflows from an image.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-the-flow-generation-with-images-skill.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flow generation with images, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -44,5 +44,5 @@ Turn on the flow generation with images skill to use generative AI to create flo
 
 Grant the now.assist.creator and flow\_designer roles to each user who will use the flow generation with images skill.
 
-**Parent Topic:**[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-generation-with-images-landing.md)
+**Parent Topic:**[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-generation-with-images-landing.md)
 

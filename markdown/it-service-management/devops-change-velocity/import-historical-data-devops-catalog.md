@@ -3,11 +3,11 @@ title: Importing historical data for DevOps tools
 description: Use the service catalog to onboard a new app and import historical DevOps data for that app. Enable polling to import data that is mapped to associated plans, repositories and pipelines on a scheduled frequency.Enable polling to import DevOps data on a scheduled frequency to apps that have imported historical data, and are mapped to associated plans, repositories, and pipelines.After you have integrated Azure DevOps with DevOps, you can import up to 90 days of existing Azure DevOps pipeline, repository, and plan data. You can then use DevOps dashboards to view and manage Azure DevOps data.After you have integrated GitLab with DevOps, you can import up to 90 days of existing GitLab pipeline and repository data. You can then use DevOps dashboards to view and manage GitLab data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/import-historical-data-devops-catalog.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Onboarding tools and apps, Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -57,7 +57,7 @@ For example, if the Plan import request failed \(after all retries\), we will pr
 -   Specify the count of retries to auto-attempt, in case the import request page fails in the **Maximum retries per page, while importing** field. If after all the automatic retries, page does not succeed, the import request will process the remaining pages. The overall status of the import request reflects as errored.
 -   You can manually retry attempting a failed import by clicking the **Retry import** button, on the failed import request page,
 
-**Parent Topic:**[Onboarding DevOps tools and apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/onboard-tools-self-service-catalog.md)
+**Parent Topic:**[Onboarding DevOps tools and apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/onboard-tools-self-service-catalog.md)
 
 ## Polling schedule and configuration
 
@@ -73,7 +73,7 @@ Turning this property flag on, enables the base system *DevOpsImportPolling* sch
 
 The default frequency of the job is set to run daily at midnight using the system time zone. To change the frequency of scheduled job you need the ServiceNow ServiceNow AI Platform Administrator \(admin\) role.
 
-Navigate to **System Definition** &gt; **Scheduled Jobs** &gt; **DevOpsImportPolling** and modify the **Run** frequency, **Time zone**, and **Time** field values, as needed. For more information, see [Schedule Jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md)
+Navigate to **System Definition** &gt; **Scheduled Jobs** &gt; **DevOpsImportPolling** and modify the **Run** frequency, **Time zone**, and **Time** field values, as needed. For more information, see [Schedule Jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduledJobs.md)
 
 **Note:**
 

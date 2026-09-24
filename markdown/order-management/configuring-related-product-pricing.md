@@ -3,10 +3,10 @@ title: Configuring derived pricing
 description: Automatically set the pricing for a product by deriving its pricing from other products or pricing sources such as transactional values in quotes or orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-related-product-pricing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [derived pricing, price list line, product offering source, product offering target, Derived Pricing Matrix]
 audience: administrator
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
@@ -105,6 +105,42 @@ Formulas \(SUM, MIN, MAX, AVG\) used to determine a single derived product price
 
 Derived pricing applies to both quotes and orders. When you configure rules in the Derived Pricing Matrix, the system automatically applies those rules to derived line items in both transaction types. The system handles all line-level changes \(adds, updates, and removals\) without requiring manual edits from agents.
 
+## Automatic generation of derived pricing lines
+
+The pricing engine generates the derived product lines for a transaction and aligns their dates to the source lines that fund them. Sellers add the source products and the derived product to the transaction; they don't work out how many derived lines are needed or what dates each line carries. Automatic generation is enabled by default. To turn it off, see [Disable auto-generation of derived pricing lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-derived-pricing-auto-generation.md).
+
+Before automatic generation was available, sellers added each account-scope derived line themselves with start and end dates that matched the sources, recalculated those dates whenever a source changed, and split derived lines manually when a source split. A derived line whose dates didn't align with its sources was excluded from the price calculation without warning, so a date entered incorrectly produced an undervalued quote.
+
+The following table describes how the pricing engine responds to the source products.
+
+|Source condition|Result for the derived product|
+|----------------|------------------------------|
+|A source is ramped across multiple date ranges.|The pricing engine creates one derived line for each date range. When several sources are ramped, it segments the derived product on the most granular set of non-overlapping date ranges.|
+|A ramp is added, changed, or removed.|The pricing engine adds, updates, or removes derived lines so that they match the new set of date ranges.|
+|A seller adds a derived line whose dates don't align with the sources.|The pricing engine changes the dates on that line and creates additional derived lines to cover the remaining date ranges.|
+|The derived product sits inside a bundle.|The pricing engine takes the most recent configuration of the derived product from the account's sold product records, then adds both the bundle line and the derived line to the transaction.|
+
+When derived lines already exist for the product, the pricing engine uses one of them as the reference line and copies its priced characteristics and context variables to every line it creates. On a new transaction, the reference line is the derived line that the seller added. On an amendment or a renewal, it's the most recent derived line in the account's sold product records.
+
+The Derived Pricing Matrix v2 supports auto-generation of derived pricing lines.
+
+## Date segments with term-aware pricing
+
+ServiceNow uses the stateless date-segments approach to generate derived pricing. For subscriptions, this method performs the following steps:
+
+1.  Analyzes all source product start and end dates to identify time boundaries
+2.  Creates one non-overlapping target segment for each distinct time interval
+3.  Calculates cumulative net price for active sources, accounting for monthly recurring price and months in each segment
+4.  Applies a fixed percentage \(for example, 10%\) to derive the target product price
+5.  Optionally applies a manual discount to the target product
+6.  Marks all system-generated target lines with a SYSTEM\_GEN flag to prevent manual edits
+
+## System-generated derived pricing lines
+
+Derived lines that the pricing engine creates have the **System generated** \[**system\_generated**\] field set to true. Derived lines that a seller adds keep this field set to false. Use the field to tell the two apart in reports, integrations, and downstream business logic.
+
+On a system-generated line, a seller can change the start date of the first date segment. The pricing engine applies that change and recalculates the remaining segments from it. The pricing engine manages the quantity, the dates on later segments, and the priced characteristics that it copied from the reference line.
+
 ## Limitations for derived pricing
 
 Derived pricing does not work for quotes of type sales agreements.
@@ -127,7 +163,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Enable related \(derived\) pricing for a price list line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-price-list-line.md)
+[Enable related \(derived\) pricing for a price list line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-price-list-line.md)
 
 </td><td>
 
@@ -139,7 +175,7 @@ Pricing admin or manager
 
 </td></tr><tr><td>
 
-[Create rules for derived product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-derived-pricing-source.md)
+[Create rules for derived product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-derived-pricing-source.md)
 
 </td><td>
 

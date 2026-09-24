@@ -3,13 +3,13 @@ title: Create product install conditions
 description: Create product install conditions in the Software Asset Workspace that apply across all software models of a product during reconciliation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-product-install-condition.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create product install conditions
@@ -20,7 +20,7 @@ Create product install conditions in the Software Asset Workspace that apply acr
 
 Installs that do not meet the required product install conditions will be included in the reconciliation process; however, they are likely to be flagged as unlicensed.
 
-To create product install conditions, you must request and activate the Software Asset Workspace \(sn\_sam\_workspace\) store application. For details on requesting and activating the Software Asset Workspace \(sn\_sam\_workspace\) store application, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
+To create product install conditions, you must request and activate the Software Asset Workspace \(sn\_sam\_workspace\) store application. For details on requesting and activating the Software Asset Workspace \(sn\_sam\_workspace\) store application, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 Role required: sam\_admin
 
@@ -28,7 +28,7 @@ Role required: sam\_admin
 
 Install conditions define where a software product can be installed. Product install conditions account for all the software model installations of a product during reconciliation.
 
-**Note:** If you want to set up install conditions for specific software models and not the entire software product suite, you can choose to add software install conditions. For details on adding software install conditions, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-swmodels-workspace.md).
+**Note:** If you want to set up install conditions for specific software models and not the entire software product suite, you can choose to add software install conditions. For details on adding software install conditions, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-swmodels-workspace.md).
 
 ## Procedure
 
@@ -56,5 +56,5 @@ Install conditions define where a software product can be installed. Product ins
     The install conditions are added for the complete suite of the software product. You can view the install conditions you have created on the Product install condition landing page.
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

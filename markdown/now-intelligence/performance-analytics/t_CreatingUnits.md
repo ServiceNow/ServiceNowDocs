@@ -3,11 +3,11 @@ title: Create a unit
 description: You can define units in which Performance Analytics indicator scores are shown. Units can be numbers, percentages, currencies, quantities of time, or any other entity you define. The most commonly used units are provided by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreatingUnits.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---

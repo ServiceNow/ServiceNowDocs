@@ -3,13 +3,13 @@ title: Configure monday.com for external content indexing
 description: Obtain an API token for a monday.com user account with admin privileges to allow the monday.com external content connector to access searchable content and metadata from your monday.com source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-monday-com-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [monday.com external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -67,11 +67,11 @@ To allow the connector to access your monday.com source system via the monday.co
 Provide the following items to your connector administrator:
 
 -   The URL for the monday.com API endpoint. This is typically `https://api.monday.com/v2`. To find the current API endpoint URL, see [https://developer.monday.com/api-reference/docs/introduction-to-graphql](https://developer.monday.com/api-reference/docs/introduction-to-graphql).
--   The API token that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-monday-com-external-content-indexing.md) or step [3.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-monday-com-external-content-indexing.md).
+-   The API token that you copied in step [2.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-monday-com-external-content-indexing.md) or step [3.e](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-monday-com-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a monday.com external content connector to retrieve searchable content and metadata from workspaces, boards, board items, workdocs, and security principals found in your monday.com source system.
 
-For details on creating and configuring a monday.com external content connector, see [Create a monday.com external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-monday-com.md).
+For details on creating and configuring a monday.com external content connector, see [Create a monday.com external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-monday-com.md).
 
-**Parent Topic:**[monday.com external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/monday-com-external-content-connector.md)
+**Parent Topic:**[monday.com external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/monday-com-external-content-connector.md)
 

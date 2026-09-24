@@ -3,13 +3,13 @@ title: Create an engagement milestone
 description: Create milestones for an engagement to track the progress of an engagement. You can also add audit tasks to a milestone.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-milestones.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit Milestone Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit milestone management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create an engagement milestone
@@ -126,7 +126,7 @@ Auto complete and close
 
 </td><td>
 
-Option to mark the milestone as close complete when all the associated audit tasks are completed and closed. If this option enabled, then the percent complete is automatically updated as per the number of tasks marked as closed complete.
+Option to mark the milestone as close complete when all the associated audit tasks are completed and closed. If this option is enabled, then the percent complete is automatically updated as per the number of tasks marked as closed complete.
 
 </td></tr><tr><td>
 

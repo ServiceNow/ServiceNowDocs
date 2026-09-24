@@ -3,7 +3,7 @@ title: Track a store case from an HQ case
 description: Track a store case from an HQ case to view the status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/track-store-case-hq-case.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-04-07"
 reading_time_minutes: 1
@@ -33,5 +33,5 @@ Role required: admin
     |**Tasks**|Displays the associated store tasks.|
 
 
-**Parent Topic:**[Track and monitor store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/track-monitor-store-plans.md)
+**Parent Topic:**[Track and monitor store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/track-monitor-store-plans.md)
 

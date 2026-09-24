@@ -3,12 +3,12 @@ title: Closing work orders and next steps
 description: In Field Service Management, work orders are closed automatically depending on the states of the associated work order tasks. Work orders are closed when all the tasks reach the closed state. It's helpful to understand what happens after an agent closes a work order task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_CloseAWorkOrder.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
@@ -29,6 +29,18 @@ After an order has been assigned to an agent, that agent can complete and close 
 
 -   When the **Request lifecycle is task driven** configuration option is enabled, all states of the work order are driven by the task. The agent can click the **Close Complete** button on the Work Order Task form to close any tasks that need to be closed manually. After all of the work order's tasks are closed, the work order is closed automatically.
 -   When the **Request lifecycle is request driven** configuration option is set and all of the work order's tasks are closed, the agent to whom the work order is assigned can click the **Close Complete** button on the Request form to close and complete the order.
+
+## Example: Job Blocked – Part Unavailable
+
+A service technician cannot complete a repair because a required part is unavailable. Field Service Management allows technicians to close a work order task as incomplete, provide a reason, and creates a follow-on task to track the outstanding work. The dispatcher reschedules the job once the part is sourced, and the technician completes the task through the standard workflow.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician|Identifies missing part|
+|2|Technician|Closes work order task as Incomplete|
+|3|Technician|Creates follow-up task|
+|4|Dispatcher|Reschedules task|
+|5|Dispatcher|Sources required part|
 
 ## Example: AI-Generated Work Order Closure Summary
 

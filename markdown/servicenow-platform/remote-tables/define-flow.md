@@ -3,11 +3,11 @@ title: Define a flow logic
 description: Set the triggers and actions to define a remote table flow logic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/remote-tables/define-flow.html
-release: australia
+release: brazil
 product: Remote Tables
 classification: remote-tables
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create flow definition for remote table, Remote tables, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -65,5 +65,5 @@ Role required: admin
     3.  Select **Done** to create logs for the set condition.
 
 
-**Parent Topic:**[Create a flow definition for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/create-remote-table-flow.md)
+**Parent Topic:**[Create a flow definition for a remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/create-remote-table-flow.md)
 

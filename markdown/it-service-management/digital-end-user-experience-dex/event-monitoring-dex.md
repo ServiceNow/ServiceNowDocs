@@ -3,13 +3,13 @@ title: Event monitoring with DEX
 description: DEX collects and analyzes system events from managed devices so that you can detect issues, set alert thresholds, and investigate incidents faster. You can monitor system-level events across endpoints and take action before issues impact employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/event-monitoring-dex.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Managing alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Event monitoring with DEX
@@ -28,7 +28,7 @@ You can configure up to 25 events for each OS type.
 
 DEX supports event monitoring on both Windows and macOS. On Windows, events are identified by a numeric Event ID from the Windows Event Log. On macOS, you define events using a regular expression that matches the system log entry of interest. For each platform, you specify the event name, Event ID or regular expression, a description, and the target operating system.
 
-You can configure up to 25 events for each operating system type. See [Add an event to monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/add-event-to-monitor.md) to create a custom event rule.
+You can configure up to 25 events for each operating system type. See [Add an event to monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/add-event-to-monitor.md) to create a custom event rule.
 
-DEX also installs a set of base system event log monitoring configurations that are active by default and count toward this limit. For the full list, see [Event log monitoring configurations installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/event-log-monitoring-configs-installed-with-dex.md).
+DEX also installs a set of base system event log monitoring configurations that are active by default and count toward this limit. For the full list, see [Event log monitoring configurations installed with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/event-log-monitoring-configs-installed-with-dex.md).
 

@@ -3,11 +3,11 @@ title: Content Management templates
 description: Templates are content pages that are reused to provide a consistent look and feel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_ContentManagementTemplates.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -43,14 +43,14 @@ Provide a functional reference for editors on the site project
 Having the template as a reference ensures that pages continue to conform to the style guide.
 
 </td></tr></tbody>
-</table>-   **[Page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_PageTemplates.md)**  
+</table>-   **[Page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/r_PageTemplates.md)**  
 Every page that is part of the site needs a template.
--   **[Configure a base template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_BuildAMasterTemplateStepByStep.md)**  
+-   **[Configure a base template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_BuildAMasterTemplateStepByStep.md)**  
 An easy way to create a base template is to copy the existing ESS sample site and customize it to suit your own needs. You can also configure a base template from scratch.
--   **[Customize a copy of a page template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CopyESS.md)**  
+-   **[Customize a copy of a page template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_CopyESS.md)**  
 One good source for templates is the base system sample site. It is easy to copy pages and restyle them into new page templates to meet different business requirements.
 
-**Parent Topic:**[Configure Content Management sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateASite.md)
+**Parent Topic:**[Configure Content Management sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_CreateASite.md)
 
 **Related topics**  
 

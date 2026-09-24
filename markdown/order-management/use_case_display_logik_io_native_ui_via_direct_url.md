@@ -3,7 +3,7 @@ title: Use case: Displaying the CPQ native UI via direct URL
 description: Learn how to initialize a configuration UI using a URL instead of an external library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_display\_logik\_io\_native\_ui\_via\_direct\_url.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -16,7 +16,7 @@ Learn how to initialize a configuration UI using a URL instead of an external li
 
 This article provides an outline of how a CPQ Configuration UI can be initialized using a configuration URL rather than relying on an external library \(such as easyXDM\).
 
-The base configuration URL is in the format `https://{tenant}.cpq/ui/configure/{configurableProductId}`, where:
+The base configuration URL is in the format `https://{tenant}.logik.io/ui/configure/{configurableProductId}`, where:
 
 -   \{tenant\} is the CPQ tenant that you are using, which can be found in Salesforce or if using CPQ headless, the base URL of the Admin experience
 -   \{configurableProductId\} is the Product ID of the CPQ Configurable Product to use for the configuration
@@ -290,9 +290,11 @@ Currency ISO Code
  
 
 </td></tr></tbody>
-</table>**Note:** When using the runtime token \(rt\) parameter, it is highly recommended to also include the rta as well to ensure that all of the requests can be authenticated when using the Firefox or Safari browsers.
+</table>**Note:** When using the runtime token \(rt\) parameter, it is highly recommended to also include the rta as well to ensure that all of the requests can be authentica
 
-If you are not accessing the configuration URL where you have already authenticated \(via Salesforce or directly\), the runtime token will be required to authenticate. If you are accessing the configuration URL before authenticating through the associated SFDC environment or accessing the configuration URL for a headless environment, the CPQ tenant URL needs to be listed as an origin for the leveraged runtime client. For example, `https://<yourCPQUrl>.test.cpq`.
+If you are not accessing the configuration URL where you have already authenticated \(via Salesforce or directly\), you will need the runtime token to authenticate. If you are accessing the configuration URL before authenticating through the associated SFDC environment or accessing the configuration URL for a headless environment, the CPQ tenant URL must be listed as an origin for the leveraged runtime client. For example, `https://<tenant>.test.logik.io`.
+
+Example, `https://<tenant>.test.logik.io`.
 
 If the version parameter is not included, the UI will not load, and you will receive the following error: "Error: A version must be specified."
 
@@ -320,7 +322,7 @@ The result of the saved Configuration can be accessed by using the GET API to re
 
 [Postman Collection with Config API URL](https://drive.google.com/file/d/1uHyPsUROr7JI84RZ0Ac2ogqcl7-kxL8J/view?usp=share_link)
 
-The result can be sent to a downstream system via Webhook. See [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-webhooks.md).
+The result can be sent to a downstream system via Webhook. See [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-webhooks.md).
 
-**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-cases.md)
 

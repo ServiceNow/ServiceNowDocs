@@ -3,11 +3,11 @@ title: Catalog Builder
 description: You can create or edit a catalog item \(catalog item or record producer\) using a visual and guided experience along with specified restrictions. The Catalog Builder experience enables you to delegate the creation and maintenance of the catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-builder.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -80,7 +80,7 @@ When a new item is submitted, the item finally moves to the Published state. Thi
 
 Catalog Builder is designed to support the most common and simple use cases so that it can easily be used by business users, while the complex functionality can be added to the item in ServiceNow AI Platform by catalog administrators.
 
-When creating a record producer in a specific scope, you can select tables in that scope and tables in other scope if the objects from the other application scope are given read and create access for selecting a record submission table. For more information on making a table accessible to other applications, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_TableApplicationAccessFields.md).
+When creating a record producer in a specific scope, you can select tables in that scope and tables in other scope if the objects from the other application scope are given read and create access for selecting a record submission table. For more information on making a table accessible to other applications, see [Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/r_TableApplicationAccessFields.md).
 
 Catalog Builder does not allow creation and editing of the following entities, but they can be set in ServiceNow AI Platform either for a draft item or a published item that has not been checked out.
 
@@ -131,15 +131,15 @@ Catalog Builder does not allow creation and editing of the following entities, b
 -   Catalog client scripts
 -   Data lookup rules
 
--   **[Setting up the Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/set-up-cat-builder.md)**  
+-   **[Setting up the Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/set-up-cat-builder.md)**  
 Set up the catalog item building process.
--   **[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)**  
+-   **[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)**  
 Pre-specify values or provide restrictions for attributes such as catalogs, categories, variable types, and portal settings, which are applicable during the catalog item creation or editing process. You can create a template for a catalog item or record producer.
 
-**Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)
+**Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/service-catalog.md)
 
 **Related topics**  
 
 
-[Set up a service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_SetUpAServiceCatalog.md)
+[Set up a service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_SetUpAServiceCatalog.md)
 

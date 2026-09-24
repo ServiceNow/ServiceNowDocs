@@ -3,11 +3,11 @@ title: Clone a request
 description: You can clone a request for up to 10 users on the notification list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_UsingBulkRequests.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog for managers and end users, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ You can clone a request for up to 10 users on the notification list.
 
 ## Before you begin
 
-Your admin must enable cloning of requests before you can clone a request. For more information, see [Clone requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_EnablingBulkRequests.md).
+Your admin must enable cloning of requests before you can clone a request. For more information, see [Clone requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_EnablingBulkRequests.md).
 
 Role required: admin
 
@@ -37,5 +37,5 @@ When you clone a request that contains a multi-row variable set, the information
 3.  Click **Order Now**.
 
 
-**Parent Topic:**[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
+**Parent Topic:**[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
 

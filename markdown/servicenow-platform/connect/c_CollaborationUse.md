@@ -3,11 +3,11 @@ title: Connect Chat use
 description: All users have access to Connect Chat, a convenient way to stay updated on all the people and documents you work with in a familiar chat interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/c\_CollaborationUse.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Chat, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---

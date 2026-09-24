@@ -3,11 +3,11 @@ title: Configure a blueprint rule
 description: Configure a rule that contains actions the system can take on blueprint attributes.Configure the condition on a blueprint form event rule that determines when the actions in the rule can run. Conditions are optional.Configure actions that the system runs when blueprint form attribute actions or event actions are triggered. You can configure actions like making a field mandatory, showing or hiding a field, or automatically populating a field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Build a Cloud Provisioning blueprint, Cloud Provisioning Blueprints, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -70,9 +70,9 @@ This example rule is based on the **CloudAccount** property and contains an acti
 
 ## What to do next
 
-Configure an optional [condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md) and a mandatory [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md).
+Configure an optional [condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md) and a mandatory [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md).
 
-**Parent Topic:**[Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
+**Parent Topic:**[Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
 
 **Related topics**  
 
@@ -93,7 +93,7 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 ### Procedure
 
-1.  Open a [rule for a variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md) on a blueprint.
+1.  Open a [rule for a variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md) on a blueprint.
 
 2.  On the Conditions related list, click **New**.
 
@@ -171,7 +171,7 @@ This example condition applies when the user selects the AWS Datacenter for the 
 
 ### What to do next
 
-[Configure a blueprint action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md).
+[Configure a blueprint action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md).
 
 ## Configure a blueprint action
 
@@ -237,7 +237,7 @@ Target Field
 
 </td><td>
 
-Enter the name of the field on the form that the action applies to. For example, if you selected **TriggerChangeEvent** for the action type, the value of the field changes when something changes on the form, as specified in the [blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md).
+Enter the name of the field on the form that the action applies to. For example, if you selected **TriggerChangeEvent** for the action type, the value of the field changes when something changes on the form, as specified in the [blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md).
 
 </td></tr><tr><td>
 
@@ -267,11 +267,11 @@ Enter a number that tells the system which record to evaluate first in relation 
 
 ### Example
 
-This example action applies to the [blueprint rule example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md), which is based on the CloudAccount attribute. The action tells the system to update the list of locations when the user changes the cloud account.
+This example action applies to the [blueprint rule example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md), which is based on the CloudAccount attribute. The action tells the system to update the list of locations when the user changes the cloud account.
 
 \[Omitted image "blueprint-action.png"\] Alt text: Configuring a blueprint action
 
 ### What to do next
 
-[Publish a blueprint as a cloud catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/catalog-item-from-blueprint-cmp.md).
+[Publish a blueprint as a cloud catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/catalog-item-from-blueprint-cmp.md).
 

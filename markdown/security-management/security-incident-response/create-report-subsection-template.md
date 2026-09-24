@@ -3,11 +3,11 @@ title: Create a Report Subsection Template
 description: Use the report subsection to further organize the section into multiple subsections and configure their alignment and position using the available types such as Text side panel, Primary, and Secondary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-report-subsection-template.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Major Security Incident status reports, Manage MSIM status reports, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -38,15 +38,15 @@ Role required: sn\_msi.workspace\_manager
 
 6.  On the Report subsection form, fill in the fields.
 
-<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d168857e128">
+<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d168507e128">
 
 Field
 
-</th><th align="left" id="d168857e131">
+</th><th align="left" id="d168507e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168857e137">
+</th></tr></thead><tbody><tr><td id="d168507e137">
 
 **Name**
 
@@ -59,7 +59,7 @@ Name of the Report template subsection. For example, Scope.**Note:** The existin
 -   **Progress**: Displays the visualization elements within the report such as the Linked Security Incidents Graphs, Response Tasks Graph, and Collaboration Graphs.
 
 
-</td></tr><tr><td id="d168857e166">
+</td></tr><tr><td id="d168507e166">
 
 **Type**
 
@@ -70,7 +70,7 @@ The report subsection type. The available types are:-   **Primary**: This subsec
 -   **Text side panel**: This subsection accompanies the secondary panel and only supports the text.
 
 
-</td></tr><tr><td id="d168857e193">
+</td></tr><tr><td id="d168507e193">
 
 **Table**
 
@@ -78,7 +78,7 @@ The report subsection type. The available types are:-   **Primary**: This subsec
 
 Name of the report template table.
 
-</td></tr><tr><td id="d168857e202">
+</td></tr><tr><td id="d168507e202">
 
 **MSI report section template**
 
@@ -86,7 +86,7 @@ Name of the report template table.
 
 The MSI Report Template name for which you’re dividing the report into sections.
 
-</td></tr><tr><td id="d168857e212">
+</td></tr><tr><td id="d168507e212">
 
 **Order**
 
@@ -94,7 +94,7 @@ The MSI Report Template name for which you’re dividing the report into section
 
 The order in which the report subsections will be rendered.
 
-</td></tr><tr><td id="d168857e221">
+</td></tr><tr><td id="d168507e221">
 
 **Icon**
 
@@ -102,7 +102,7 @@ The order in which the report subsections will be rendered.
 
 Use the icon to indicate or highlight the section container on the report runtime configuration form.
 
-</td></tr><tr><td id="d168857e230">
+</td></tr><tr><td id="d168507e230">
 
 **Active**
 
@@ -110,7 +110,7 @@ Use the icon to indicate or highlight the section container on the report runtim
 
 Select the check box to create a report subsection for the selected template in the MSIM workspace.**Note:** If the check box is unselected, the MSI Manager can’t create a report subsection for this template in the MSIM workspace.
 
-</td></tr><tr><td id="d168857e242">
+</td></tr><tr><td id="d168507e242">
 
 **Editor - Content**
 
@@ -122,7 +122,7 @@ Define the template subsection content.
 </table>7.  Save and **Submit** the new report template section.
 
 
-**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
+**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 
 **Related topics**  
 

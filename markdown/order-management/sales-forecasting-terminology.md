@@ -3,9 +3,9 @@ title: Sales Forecasting terminology
 description: Use the following list of terms to gain an understanding of Sales Forecasting concepts, components, and configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/sales-forecasting-terminology.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Sales Forecasting, Sales automation, Explore, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Use the following list of terms to gain an understanding of Sales Forecasting co
 
 ## Forecast Model
 
-The Forecast Model is a framework or method used to predict future sales based on historical data, current sales activities, and other relevant factors. It helps businesses estimate the expected sales figures over a specific period, such as a quarter or year. Only one forecast model, Opportunity Amount Forecast is available to the users. You can forecast the sales for the current opportunities in the system. The **Submission Required** option is enabled by default. From the **Submission Frequency** list, select weekly, monthly, or configure a customized time period to submit your final forecasts. For more info, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md). By default, Sales Team is selected in the Forecast Hierarchy Type list and the Sales Forecasting dashboard displays the forecasts based on sales teams. To view forecasts by regions or territories, select **Territory** from the **Forecast Hierarchy Type** list. To configure a territory see, [Configuring the Territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-territories.md). For more info, see [Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md).
+The Forecast Model is a framework or method used to predict future sales based on historical data, current sales activities, and other relevant factors. It helps businesses estimate the expected sales figures over a specific period, such as a quarter or year. Only one forecast model, Opportunity Amount Forecast is available to the users. You can forecast the sales for the current opportunities in the system. The **Submission Required** option is enabled by default. From the **Submission Frequency** list, select weekly, monthly, or configure a customized time period to submit your final forecasts. For more info, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/business-calendars.md). By default, Sales Team is selected in the Forecast Hierarchy Type list and the Sales Forecasting dashboard displays the forecasts based on sales teams. To view forecasts by regions or territories, select **Territory** from the **Forecast Hierarchy Type** list. To configure a territory see, [Configuring the Territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-territories.md). For more info, see [Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-sales-territory-management.md).
 
 ## Forecast Category
 
@@ -63,6 +63,6 @@ You can assign sales quota targets to sales representatives and managers based o
 
 ## What to explore next
 
--   [Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-forecasting.md)
--   [Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+-   [Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-sales-forecasting.md)
+-   [Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-sales-forecasting.md)
 

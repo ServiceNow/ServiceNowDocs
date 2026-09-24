@@ -3,11 +3,11 @@ title: Summarize a case
 description: Enable your agents to summarize the case details and to display this information on the case record by using the ServiceNow Otto for CSM case summarization skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-summarization-in-process-page.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Summarize a case

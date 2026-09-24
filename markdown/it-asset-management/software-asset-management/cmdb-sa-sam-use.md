@@ -3,11 +3,11 @@ title: Using CMDB success advisor for SAM
 description: As a CMDB administrator, you can use the Software Asset Management \(SAM\) dashboard in CMDB success advisor to keep software asset data accurate and aligned with data quality guidelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cmdb-sa-sam-use.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [use]
 breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
@@ -17,17 +17,17 @@ breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 
 As a CMDB administrator, you can use the Software Asset Management \(SAM\) dashboard in CMDB success advisor to keep software asset data accurate and aligned with data quality guidelines.
 
-The ServiceNow® CMDB success advisor is a scoped application that drives business outcomes for targeted business products. To learn more, see [CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa.md).
+The ServiceNow® CMDB success advisor is a scoped application that drives business outcomes for targeted business products. To learn more, see [CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa.md).
 
-1.  [CMDB success advisor for SAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-config-settings.md).
+1.  [CMDB success advisor for SAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-config-settings.md).
 
     Set up the CMDB success advisor for Software Asset Management \(SAM\).
 
-2.  [Monitor CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.md).
+2.  [Monitor CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard.md).
 
     Identify and address data quality issues specific to SAM in the CMDB.
 
-3.  [Improve CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-remediation.md).
+3.  [Improve CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-remediation.md).
 
     Use the Remediation actions panel available for a data card in the advisor dashboard for SAM to improve the overall quality of your CMDB.
 
@@ -35,9 +35,9 @@ The ServiceNow® CMDB success advisor is a scoped application that drives busine
 **Related topics**  
 
 
-[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
+[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 
-[Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-access.md)
+[Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-access.md)
 
-[Supported business outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-outcomes.md)
+[Supported business outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-outcomes.md)
 

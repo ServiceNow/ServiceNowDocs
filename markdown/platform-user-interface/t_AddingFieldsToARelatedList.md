@@ -3,9 +3,9 @@ title: Add fields to selections in a related list
 description: When you click Edit in a related list and select an item, information about the item appears below the list. You can expand the fields that appear for the item to provide more information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_AddingFieldsToARelatedList.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -41,7 +41,7 @@ To add fields to selections in a related list, record the exact field name, or e
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 

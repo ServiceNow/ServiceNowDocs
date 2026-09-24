@@ -3,9 +3,9 @@ title: Portal Header notification, approval, and survey form
 description: Notifications, approval, and, survey forms fields for portal header.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/portalheader-notification-approval-survey-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
@@ -47,5 +47,5 @@ Notifications, approval, and, survey forms fields for portal header.
 **Related topics**  
 
 
-[Configure notification, approval, and survey for your portal header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-notification-approval-surveys.md)
+[Configure notification, approval, and survey for your portal header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-notification-approval-surveys.md)
 

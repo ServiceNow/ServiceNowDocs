@@ -3,9 +3,9 @@ title: Test the end-to-end client-side encrypted secrets integration
 description: Test your integration, and review the execution details to confirm your configuration is working.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-7.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform Security]
 ---
@@ -41,5 +41,5 @@ Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.crypt
 7.  After seeing this message in Workflow Studio, verify that your text file has been created in your local system.
 
 
-**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-access-secret-landing.md)
 

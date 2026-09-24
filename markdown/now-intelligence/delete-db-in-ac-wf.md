@@ -3,9 +3,9 @@ title: Configure dashboard deletion actions in the Workflow Studio
 description: Using the Workflow Studio, you can add actions to the dashboard deletion process. Actions may include sending an email to the dashboard's users or generating an approval request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/delete-db-in-ac-wf.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Delete a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ Using the Workflow Studio, you can add actions to the dashboard deletion process
 
 Prior to invoking the flow, the instance checks that the dashboard exists and that the initiating user has the correct role.
 
-Role required: You can delete any dashboard that you created. Users with the admin role can delete all dashboards. Administrators can grant and deny access to the Workflow Studio based on user roles. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
+Role required: You can delete any dashboard that you created. Users with the admin role can delete all dashboards. Administrators can grant and deny access to the Workflow Studio based on user roles. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/user-access-flow-designer.md).
 
 ## Procedure
 
@@ -30,7 +30,7 @@ Role required: You can delete any dashboard that you created. Users with the adm
 
 4.  Select **Add an Action, Flow Logic, or Subflow**.
 
-    For more information about the available possibilities, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
+    For more information about the available possibilities, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/flow-designer.md).
 
 5.  Use the handle next to the action number to reorder the action.
 
@@ -38,7 +38,7 @@ Role required: You can delete any dashboard that you created. Users with the adm
 
 6.  Test the flow with the actions that you added.
 
-    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-test.md).
+    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-test.md).
 
 7.  Save the flow.
 
@@ -60,7 +60,7 @@ There are three possible outputs:
     Output code 3. Indicates that the deletion process has started, but that intermediate steps such as an approval are not complete.
 
 
-For more information, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-error-evaluation.md).
+For more information, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/action-error-evaluation.md).
 
-**Parent Topic:**[Delete a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/delete-db-in-ac.md)
+**Parent Topic:**[Delete a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/delete-db-in-ac.md)
 

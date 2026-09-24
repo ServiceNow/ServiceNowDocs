@@ -3,11 +3,11 @@ title: Activate Field Service Contractor Management
 description: Activate the Field Service Contractor Management plugin \(com.snc.fsm\_contractor\_management\) to use the Contractor Management application. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/activate-contractor-management-plugin.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contractor Management, Contractor capabilities, Set up workforce, Configure, Field Service Management]
 ---
@@ -28,7 +28,7 @@ The Field Service Contractor Management plugin is available only for customers w
 
 Roles are installed with Field Service Contractor Management.
 
-For more information, see [Contractor Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/contractor-management-components.md).
+For more information, see [Contractor Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/contractor-management-components.md).
 
 ## Procedure
 

@@ -3,9 +3,9 @@ title: Configure action items and action steps in offline mode
 description: Configure action items to execute actions like create, edit and delete records while in offline mode. For an action item to perform multiple processes you must define separate action steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-action-item-offline.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Action items/action steps, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -48,12 +48,12 @@ For an action item to work in ofﬂine mode, you must deﬁne the action item ty
 
 11. Select the associated attachments to current record field and choose the relevant attachment inputs.
 
-    Attachments added in the input form are linked to the record when the write-back action step is triggered by a Save or Submit action. For more information, see [Associate input form attachments to the activity stream in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/input-form-attach-activity-stream.md).
+    Attachments added in the input form are linked to the record when the write-back action step is triggered by a Save or Submit action. For more information, see [Associate input form attachments to the activity stream in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/input-form-attach-activity-stream.md).
 
 12. Complete the rest of the form as required.
 
 13. Select **Submit**.
 
 
-**Parent Topic:**[Using action items and action item steps in ofﬂine mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-action-item-steps.md)
+**Parent Topic:**[Using action items and action item steps in ofﬂine mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/offline-action-item-steps.md)
 

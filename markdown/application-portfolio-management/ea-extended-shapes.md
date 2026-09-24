@@ -3,9 +3,9 @@ title: Enterprise Architecture \(EA\) extended shapes
 description: Use the Enterprise Architecture shapes to model current and future-state architectures in Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/ea-extended-shapes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -31,5 +31,5 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 |Product Capability \[Omitted image "modeling-ea-ext-prod-cap.png"\] Alt text: Product capability icon|Represents a specific functional capability offered by a product, and supporting business or technical needs. Helps architects map product features to business capabilities. Enables capability-based planning and product portfolio analysis.|
 |TRM Product \[Omitted image "modeling-ea-ext-trm-prod.png"\] Alt text: TRM product icon|A Technology Reference Model \(TRM\) Product represents a standardized technology component or product category defined in the TRM framework. Provides a reference for technology standardization and conformance. Supports technology lifecycle and roadmap planning.|
 
-**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-shapes.md)
+**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-modeling-shapes.md)
 

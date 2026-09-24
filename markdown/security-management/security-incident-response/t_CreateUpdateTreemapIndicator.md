@@ -3,11 +3,11 @@ title: Create or update a treemap indicator
 description: You can modify the predefined indicators for a treemap category or create new indicators. For each indicator, you can configure its data source and specify how lists of security incidents are opened from treemaps that are viewed with the indicator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_CreateUpdateTreemapIndicator.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security incident treemaps, Security Incident Response Overview dashboard, Visual representation of Security Incident Response reporting, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -128,15 +128,15 @@ The order the indicator appears in the **Indicators** list above the treemap.
 </td></tr></tbody>
 </table>5.  Click the **Data Source Configuration** tab and configure one of the following data source options for the indicator.
 
-<table id="choicetable_x2q_twj_bt"><thead><tr><th align="left" id="d201723e287">
+<table id="choicetable_x2q_twj_bt"><thead><tr><th align="left" id="d201260e287">
 
 Option
 
-</th><th align="left" id="d201723e290">
+</th><th align="left" id="d201260e290">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d201723e296">
+</th></tr></thead><tbody><tr><td id="d201260e296">
 
 **Performance analytics**
 
@@ -146,7 +146,7 @@ Select **Performance Analytics** from the **Data source** field, then make the f
 -   **Default breakdown:** The default breakdown used to break the selected PA indicator into multiple parts.
 
 
-</td></tr><tr><td id="d201723e324">
+</td></tr><tr><td id="d201260e324">
 
 **Custom script**
 
@@ -154,7 +154,7 @@ Select **Performance Analytics** from the **Data source** field, then make the f
 
 Select **Custom Script** from the **Data Source** field. Then use the HTML editor to customize the script as needed. The result of running the script must be an array in order for the information to display in the treemap.
 
-</td></tr><tr><td id="d201723e339">
+</td></tr><tr><td id="d201260e339">
 
 **Query conditions**
 
@@ -176,5 +176,5 @@ Select **Query Condition** from the **Data Source** field, and then make the fol
 7.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Security incident treemaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_ConfigureTreemaps.md)
+**Parent Topic:**[Security incident treemaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/c_ConfigureTreemaps.md)
 

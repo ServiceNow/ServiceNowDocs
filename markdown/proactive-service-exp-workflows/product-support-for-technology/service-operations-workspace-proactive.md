@@ -3,11 +3,11 @@ title: Proactive Service Experience Workflows and Incident Management within the
 description: You can use the Service Operations Workspace application to get an overview of how a network agent can prioritize tasks and resolve incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/service-operations-workspace-proactive.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -59,5 +59,5 @@ The following example demonstrates how Proactive Service Experience Workflows is
     The resolution information is copied down to each case record, while the Major Issue Manager resolves the major case record and any associated cases.
 
 
-**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
+**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 

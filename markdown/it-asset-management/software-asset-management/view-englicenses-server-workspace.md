@@ -3,13 +3,13 @@ title: View engineering license servers in workspace
 description: View the list of license management servers that OpenLM or Open iT connect with to get data into your ServiceNow instance in the Software Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-englicenses-server-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View engineering license servers in workspace
@@ -20,7 +20,7 @@ View the list of license management servers that OpenLM or Open iT connect with 
 
 Information such as the name and type of the server, its current status, whether it's currently active, and the last connection time is displayed.
 
-**Note:** Engineering license servers only appear if the Software Asset Management Professional for Engineering Applications \(com.sn\_samp\_eng\_app\) [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) is activated.
+**Note:** Engineering license servers only appear if the Software Asset Management Professional for Engineering Applications \(com.sn\_samp\_eng\_app\) [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) is activated.
 
 Role required: sam\_admin or sam\_user
 
@@ -31,5 +31,5 @@ Role required: sam\_admin or sam\_user
 2.  Select a license server record to view its details.
 
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

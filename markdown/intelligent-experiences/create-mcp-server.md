@@ -3,11 +3,11 @@ title: Create a Model Context Protocol server
 description: Create a Model Context Protocol \(MCP\) server and configure which tools it exposes to MCP clients.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-mcp-server.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
+breadcrumb: [Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Create a Model Context Protocol server
@@ -89,7 +89,7 @@ The tools that the server exposes.
 
     2.  Search for tools from the list and select the tools to expose.
 
-        The tool must be in the same application scope as the server. If you need to create a tool, select **Create tool**. For more information, see [Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md).
+        The tool must be in the same application scope as the server. If you need to create a tool, select **Create tool**. For more information, see [Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/creating-tools-mcp-server.md).
 
     3.  Select **Add**.
 
@@ -104,7 +104,7 @@ The tools that the server exposes.
 
 ## What to do next
 
-Configure clients to connect to the server. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md).
+Configure clients to connect to the server. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
 
-**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
+**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-mcp-server-console.md)
 

@@ -3,11 +3,11 @@ title: Components installed with ITSM Roles - Change Management
 description: Several user roles are installed with the activation of the ITSM Roles — Change Management plugin \(com.snc.itsm.roles.change\_management\). Security ACLs to support the security model for Change Management and related functionality are also installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/installed-with-cm-itsm-roles.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Request ITSM Roles- Change Management, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Several user roles are installed with the activation of the ITSM Roles — Chang
 
 When you install the ITSM Roles — Change Management plugin \(com.snc.itsm.roles.change\_management\), the plugin updates the Security Access Control Lists \(ACLs\), integrating revised scripts, and other files to overhaul the security model for these applications.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -209,5 +209,5 @@ Enables gathering, and verifying information, as well as delivering quick resolu
 -   now\_assist\_panel\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request ITSM Roles- Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/request-itsm-roles-cm.md)
+</table>**Parent Topic:**[Request ITSM Roles- Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/request-itsm-roles-cm.md)
 

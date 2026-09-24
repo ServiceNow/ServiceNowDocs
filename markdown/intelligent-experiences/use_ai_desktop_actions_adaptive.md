@@ -3,12 +3,12 @@ title: Execute adaptive desktop actions for desktop and web
 description: Use AI Desktop Actions to automate desktop or web-based tasks. Describe your task to the AI agent, review and approve the execution plan, and monitor real-time progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/use\_ai\_desktop\_actions\_adaptive.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [use AI Desktop Actions, automate desktop task, execute agent action, request automation, adaptive desktop actions, probabilistic desktop actions]
-breadcrumb: [Execute desktop actions, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Execute desktop actions, AI Desktop Actions, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Execute adaptive desktop actions for desktop and web
@@ -17,8 +17,8 @@ Use AI Desktop Actions to automate desktop or web-based tasks. Describe your tas
 
 ## Before you begin
 
--   Confirm that AI Desktop Actions is enabled on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
--   Confirm that the AI Desktop Actions installer is installed to automate repetitive tasks across applications and desktop. For more information, see [Download AI Desktop Actions installer for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer-adaptive.md).
+-   Confirm that AI Desktop Actions is enabled on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-agentic-desktop.md).
+-   Confirm that the AI Desktop Actions installer is installed to automate repetitive tasks across applications and desktop. For more information, see [Download AI Desktop Actions installer for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/download-agentic-desktop-installer-adaptive.md).
 -   Confirm that the following system requirements are met:
 
     -   macOS machine is used.
@@ -92,15 +92,15 @@ AI Desktop Actions maintains context of the task until it is completed or failed
     -   **Cancel**: Select this option if you want to modify the plan and resubmit with more specific instructions.
 10. Depending on the security policy evaluation result, do one of the following.
 
-<table id="choicetable_tlm_zjb_jkc"><thead><tr><th align="left" id="d198566e358">
+<table id="choicetable_tlm_zjb_jkc"><thead><tr><th align="left" id="d183697e358">
 
 Resource access
 
-</th><th align="left" id="d198566e361">
+</th><th align="left" id="d183697e361">
 
 Description and action
 
-</th></tr></thead><tbody><tr><td id="d198566e367">
+</th></tr></thead><tbody><tr><td id="d183697e367">
 
 **Denied**
 
@@ -110,7 +110,7 @@ Description and action
 -   Application: The AI agent tries an alternative approach to open the application.
 
 
-</td></tr><tr><td id="d198566e385">
+</td></tr><tr><td id="d183697e385">
 
 **Allowed**
 
@@ -118,7 +118,7 @@ Description and action
 
 The AI agent continues with the task automatically.
 
-</td></tr><tr><td id="d198566e394">
+</td></tr><tr><td id="d183697e394">
 
 **Neither allowed nor denied**
 
@@ -135,15 +135,15 @@ No policy rule exists for this resource, so the AI agent prompts you to allow ac
 
 12. Monitor the execution status to track the AI agent's progress.
 
-    For more information about execution statuses, see [Execution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai_desktop_actions_reference_adaptive.md).
+    For more information about execution statuses, see [Execution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai_desktop_actions_reference_adaptive.md).
 
 13. If the AI agent paused execution and needs your inputs or encounters an issue, do one of the following.
 
     -   Provide the requested information or clarify your instructions in the chat. The AI agent resumes automatically.
-    -   Take control of execution, manually complete the blocked step yourself, and then return control to the AI agent. For more information, see [Take control of AI Desktop Actions execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/control_ai_desktop_actions_execution_adaptive.md).
+    -   Take control of execution, manually complete the blocked step yourself, and then return control to the AI agent. For more information, see [Take control of AI Desktop Actions execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/control_ai_desktop_actions_execution_adaptive.md).
 14. If the AI agent is not executing steps according to your expectations, select **Take control** and manually perform the step.
 
-    For more information, see [Take control of AI Desktop Actions execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/control_ai_desktop_actions_execution_adaptive.md).
+    For more information, see [Take control of AI Desktop Actions execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/control_ai_desktop_actions_execution_adaptive.md).
 
 
 ## Result
@@ -153,19 +153,19 @@ After the AI agent completes all planned steps, verify that the results match yo
 -   If the results are correct, the task is complete. Any data collected, files created, or changes made are available for your review.
 -   If adjustments are needed, you can start a new task or manually edit any changes the AI agent made.
 
--   **[Take control of AI Desktop Actions execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/control_ai_desktop_actions_execution_adaptive.md)**  
+-   **[Take control of AI Desktop Actions execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/control_ai_desktop_actions_execution_adaptive.md)**  
 Take control and pause the execution that AI agent is running. Make manual changes to your desktop, and then resume execution by providing handoff notes to the AI agent.
--   **[Known issues and limitations of adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/adaptive-desktop-actions-troubleshooting.md)**  
+-   **[Known issues and limitations of adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/adaptive-desktop-actions-troubleshooting.md)**  
 Reference known issues, limitations, and resolution steps for AI Desktop Actions on macOS.
 
-**Parent Topic:**[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
+**Parent Topic:**[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-agentic-desktop.md)
 
 **Related topics**  
 
 
-[Adaptive desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai_desktop_actions_adaptive.md)
+[Adaptive desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai_desktop_actions_adaptive.md)
 
-[Take control of AI Desktop Actions execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/control_ai_desktop_actions_execution_adaptive.md)
+[Take control of AI Desktop Actions execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/control_ai_desktop_actions_execution_adaptive.md)
 
-[Known issues and limitations of adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/adaptive-desktop-actions-troubleshooting.md)
+[Known issues and limitations of adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/adaptive-desktop-actions-troubleshooting.md)
 

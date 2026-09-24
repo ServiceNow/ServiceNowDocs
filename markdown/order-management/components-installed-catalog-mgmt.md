@@ -3,10 +3,10 @@ title: Components installed with Product Catalog Management
 description: Several types of components are installed with activation of the Product Catalog Management plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-catalog-mgmt.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-13"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Product Catalog Management reference, Lead-to-cash foundation, Reference, Sales Customer Relationship Management]
 ---
 
@@ -160,6 +160,25 @@ Granular role for viewing records in the Product Model Characteristics table.
 </td><td>
 
 None
+
+</td></tr></tbody>
+</table>## Scheduled jobs installed
+
+<table id="table_scheduled_jobs_pcm"><thead><tr><th>
+
+Scheduled job
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Channel availability sweep for product offerings
+
+</td><td>
+
+Recomputes which sales channels a published product offering is available on, based on its channel-specific release dates. Runs nightly and can also be run on demand.
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -341,6 +360,16 @@ Product Offering Category Relationship
 </td><td>
 
 Stores relationships between product offering categories.
+
+</td></tr><tr><td>
+
+Product Offering Channel Override
+
+ \[sn\_prd\_pm\_product\_offering\_channel\_override\]
+
+</td><td>
+
+Stores the channel-specific release date for a published product offering. One row overrides one channel.
 
 </td></tr><tr><td>
 
@@ -552,6 +581,26 @@ Product Visuals
 
 Stores visual asset records for products.
 
+</td></tr><tr><td>
+
+Product Offering Translation
+
+ \[sn\_prd\_pm\_product\_offering\_translation\]
+
+</td><td>
+
+Stores the locale-specific product offering Configuration JSONs.
+
+</td></tr><tr><td>
+
+Product Offering Catalog Translation
+
+ \[sn\_prd\_pm\_product\_offering\_catalog\_translation\]
+
+</td><td>
+
+Stores locale-specific product catalog hierarchy Configuration JSONs.
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Product Catalog Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-management-reference.md)
+</table>**Parent Topic:**[Product Catalog Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-management-reference.md)
 

@@ -3,9 +3,9 @@ title: Explore data products
 description: Data products package data interfaces with metadata and governance to provide reusable, discoverable data for workflows, AI agents, and analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-data-products.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Data Products, Workflow Data Fabric]
 ---
@@ -75,7 +75,7 @@ Security Administrators validate that parent role configuration includes appropr
 
 To learn more about data products, see:
 
--   [Data products use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-products-use-cases.md)
--   [Managing data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-products-wdf.md)
--   [Data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-interfaces.md)
+-   [Data products use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-products-use-cases.md)
+-   [Managing data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-data-products-wdf.md)
+-   [Data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-interfaces.md)
 

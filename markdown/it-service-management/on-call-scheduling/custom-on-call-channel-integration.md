@@ -3,11 +3,11 @@ title: Setting up custom providers as communication channel
 description: You can define and integrate a custom channel to send on-call escalation notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/custom-on-call-channel-integration.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring On-Call Scheduling, On-Call Scheduling, IT Service Management]
 ---
@@ -29,5 +29,5 @@ Besides the on-call notification channels available in the base system, you can 
 
 To define, configure and integrate a custom channel in On-Call Scheduling for sending on-call escalation notification, refer to the [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB2299454](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2299454).
 
-**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/configuration.md)
+**Parent Topic:**[Configuring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/configuration.md)
 

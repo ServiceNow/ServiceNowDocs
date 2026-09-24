@@ -3,11 +3,11 @@ title: Configure email notifications for service severity changes
 description: Configure an email notification to notify users when there is an application service severity change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMCreateEmailNotificationBusinessService.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -75,8 +75,8 @@ Configure an email notification to notify users when there is an application ser
 6.  Click **Submit**.
 
 
--   **[Configure contextual colors and icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-contextual-colors-icons.md)**  
+-   **[Configure contextual colors and icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-contextual-colors-icons.md)**  
 Use the **Contextual colors and icons** form to configure color, text, and icons to have different default or custom contexts, identified by a context ID.
 
-**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/application-service-event-management.md)
+**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/application-service-event-management.md)
 

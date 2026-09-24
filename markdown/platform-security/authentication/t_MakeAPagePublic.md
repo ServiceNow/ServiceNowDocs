@@ -3,11 +3,11 @@ title: Make UI pages public or private
 description: You can make pages public if you want your users to see the pages without logging in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_MakeAPagePublic.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define login scenarios, Local authentication, Authentication, Access Management]
 ---

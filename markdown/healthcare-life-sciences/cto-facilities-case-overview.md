@@ -3,9 +3,9 @@ title: Healthcare Facilities case overview
 description: Use the Healthcare Facilities case \[sn\_cto\_facilities\_case\] to create case types for facilities support requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-case-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Care Team Operations for Facilities, Healthcare Operations, Healthcare and Life Sciences]
 ---

@@ -3,11 +3,11 @@ title: Cloud Cost Management Workspace
 description: Use the Cloud Cost Management Workspace, the intuitive and streamlined user interface of the Cloud Cost Management application, to analyze the full range of costs that are associated with cloud resources. You can identify and act on opportunities to save money and optimize operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/ci-workspace.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -18,15 +18,15 @@ Use the Cloud Cost Management Workspace, the intuitive and streamlined user inte
 
 The Cloud Cost Management Workspace is a unified medium with multiple views. The views help you analyze costs, spend, budget of your cloud resources, and provide insight into how IT supports business application and services through various dashboards.
 
-**Note:** You can view the reports and data based on your role. For more information, see [Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-roles.md).
+**Note:** You can view the reports and data based on your role. For more information, see [Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/cloud-insights-roles.md).
 
 The Cloud Cost Management Workspace contains the following views:
 
--   [Cloud cost overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/ccm-ws-overview.md): Use the Cloud Cost Management Workspace through this simplified overview page and get insights into your cloud resources.
--   [Spend view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/spend-view-ccm-ws.md): Analyze and understand the spend on your cloud resources using spend analytics.
--   [Optimization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/optimization-view-ccm-ws.md): View your total savings by recommendation type and the number of recommendations to review, which are grouped by their state.
--   [Budget view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/budget-view-ws.md): Reduce cloud spend by proactively understanding the budget compliance of your cloud resources.
--   [Business Insights view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/business-insights-ccm-ws.md): Calculate and view the total cost of ownership \(TCO\) for your business applications by combining cloud spend with non-cloud costs such as hardware, software licensing, and labor.
--   [Operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/operation-view-ccm-ws.md): View and manage your preferences, cost usage tags, and admin-related operations.
--   [Admin view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/guided-setup-view-ccm-ws.md): Install, set up, and configure Cloud Cost Management through a guided experience.
+-   [Cloud cost overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/ccm-ws-overview.md): Use the Cloud Cost Management Workspace through this simplified overview page and get insights into your cloud resources.
+-   [Spend view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/spend-view-ccm-ws.md): Analyze and understand the spend on your cloud resources using spend analytics.
+-   [Optimization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/optimization-view-ccm-ws.md): View your total savings by recommendation type and the number of recommendations to review, which are grouped by their state.
+-   [Budget view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/budget-view-ws.md): Reduce cloud spend by proactively understanding the budget compliance of your cloud resources.
+-   [Business Insights view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/business-insights-ccm-ws.md): Calculate and view the total cost of ownership \(TCO\) for your business applications by combining cloud spend with non-cloud costs such as hardware, software licensing, and labor.
+-   [Operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/operation-view-ccm-ws.md): View and manage your preferences, cost usage tags, and admin-related operations.
+-   [Admin view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/guided-setup-view-ccm-ws.md): Install, set up, and configure Cloud Cost Management through a guided experience.
 

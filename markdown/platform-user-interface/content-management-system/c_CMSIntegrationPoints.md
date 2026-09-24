@@ -3,11 +3,11 @@ title: Content Management integration points
 description: Integration points use content blocks in CMS to link different applications together using static and dynamic methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_CMSIntegrationPoints.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -23,20 +23,20 @@ Generating lists from the ServiceNow platform is straightforward, especially if 
 -   Summary template: defines the list
 -   Detail template: defines the detail as it is rendered in a page.
 
-The templates work together to pass data attributes or [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md) \(sysid\) into a single detail page that manages the data. Any attribute variations use the URL sent to the page.
+The templates work together to pass data attributes or [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UniqueRecordIdentifier.md) \(sysid\) into a single detail page that manages the data. Any attribute variations use the URL sent to the page.
 
 Understanding how content types work can mean the difference between a site with 20 pages versus a site with 200 pages. There is a time for both types of data calls. Depending on the task, there are appropriate times to use static content and times for dynamic methods.
 
--   **[View links between system elements and URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_LinkToContent.md)**  
+-   **[View links between system elements and URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_LinkToContent.md)**  
 You can view the links between your system elements and their URLs to render more specific content within your site.
--   **[Static methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_StaticMethods.md)**  
+-   **[Static methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_StaticMethods.md)**  
 Static methods in the CMS application were created for ease of use.
--   **[Dynamic methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_DynamicMethods.md)**  
+-   **[Dynamic methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_DynamicMethods.md)**  
 While static methods are a powerful navigational tool, you have more control over data rendering using the dynamic methods.
--   **[Example integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_IntegrationPointsExample.md)**  
+-   **[Example integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_IntegrationPointsExample.md)**  
 Each element on the page links to a specific URL point.
 
-**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 **Related topics**  
 

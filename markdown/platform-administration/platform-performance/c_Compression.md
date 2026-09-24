@@ -3,11 +3,11 @@ title: Browser settings and performance
 description: Enable data compression through your web browser to avoid slow performance on pages with large data sets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/c\_Compression.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---

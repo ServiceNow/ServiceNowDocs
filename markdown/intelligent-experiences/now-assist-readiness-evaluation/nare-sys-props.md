@@ -3,14 +3,14 @@ title: AI Readiness Evaluation system properties
 description: Use system properties to customize your readiness assessment results. Access these properties from the System Property \[sys\_properties\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.html
-release: australia
+release: brazil
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Reference, AI Readiness Evaluation, Enable AI experiences]
+breadcrumb: [Reference, AI Readiness Evaluation, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
 # AI Readiness Evaluation system properties

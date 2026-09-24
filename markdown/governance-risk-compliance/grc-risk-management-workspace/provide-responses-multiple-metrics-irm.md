@@ -3,11 +3,11 @@ title: Provide responses for multiple metrics
 description: Use the metric tasks module to provide responses for multiple metrics in an easy-to-use format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/provide-responses-multiple-metrics-irm.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -42,7 +42,7 @@ As a data owner, you have to provide data or responses for multiple metric data 
 
     Perform this step for each cell for which you want to provide data. You can scroll the cells to provide responses for all the tasks.
 
-    **Note:** You have the option to select a choice or enter HTML depending on how the related metric definition has been set up. These formats are available when the manual metric definition **Category** field is set to **Qualitative**. For more information, see [Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_create-manual-metric-definition.md) and [Create New Metric Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manual-md-reuse-irm.md).
+    **Note:** You have the option to select a choice or enter HTML depending on how the related metric definition has been set up. These formats are available when the manual metric definition **Category** field is set to **Qualitative**. For more information, see [Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/t_create-manual-metric-definition.md) and [Create New Metric Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/manual-md-reuse-irm.md).
 
 7.  Select the tasks for which you want to submit the responses.
 
@@ -53,15 +53,15 @@ As a data owner, you have to provide data or responses for multiple metric data 
 
 8.  To provide any evidence for the data that you’ve entered, select the **Attachments and links** tab on the Contextual side panel and add the links and attachments as required.
 
-<table id="choicetable_erk_rkh_pdc"><thead><tr><th align="left" id="d37605e194">
+<table id="choicetable_erk_rkh_pdc"><thead><tr><th align="left" id="d37874e194">
 
 Operating system
 
-</th><th align="left" id="d37605e197">
+</th><th align="left" id="d37874e197">
 
 Keys
 
-</th></tr></thead><tbody><tr><td id="d37605e203">
+</th></tr></thead><tbody><tr><td id="d37874e203">
 
 **After selecting the cell, press the Control key and then and then the I key to open the side panel.
 
@@ -75,7 +75,7 @@ After selecting the cell, press the Command key and then the I key to open the s
 
  Press the Escape key to close the side panel.
 
-</td></tr><tr><td id="d37605e224">
+</td></tr><tr><td id="d37874e224">
 
 **If you’re a Windows user**
 
@@ -90,15 +90,15 @@ After selecting the cell, press the Command key and then the I key to open the s
 
 10. Select the check boxes that you want and then select **Submit**.
 
-<table id="choicetable_swd_hjh_pdc"><thead><tr><th align="left" id="d37605e263">
+<table id="choicetable_swd_hjh_pdc"><thead><tr><th align="left" id="d37874e263">
 
 Operating system
 
-</th><th align="left" id="d37605e266">
+</th><th align="left" id="d37874e266">
 
 Keys
 
-</th></tr></thead><tbody><tr><td id="d37605e272">
+</th></tr></thead><tbody><tr><td id="d37874e272">
 
 **If you’re a macOS user**
 
@@ -108,7 +108,7 @@ Press the Tab key to get the focus on to the select all check box. Press the Ent
 
  If you don’t want to use the select all check box, press the Tab key again to get focus on to the table body. After getting focus on to the body, you can use the arrow keys to navigate between the cells. Press enter to select each check box.
 
-</td></tr><tr><td id="d37605e290">
+</td></tr><tr><td id="d37874e290">
 
 **If you’re a Windows user**
 
@@ -120,5 +120,5 @@ Press the Tab key to get the focus on to the select all check box. Press the Ent
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-metrics-irm.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-metrics-irm.md)
 

@@ -1,19 +1,19 @@
 ---
-title: Generate process configuration using AI
+title: Generate process configuration with AI
 description: Use AI to generate a suggestion for the process configuration fields for a table, instead of selecting each field manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/gen\_process\_config\_ai.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [process mining, process configuration, ai, now assist]
 breadcrumb: [Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
 
-# Generate process configuration using AI
+# Generate process configuration with AI
 
 Use AI to generate a suggestion for the process configuration fields for a table, instead of selecting each field manually.
 
@@ -28,9 +28,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## About this task
 
-AI analyzes your table's fields and how frequently they change, then suggests which fields to use for your control flow \(state\), team, and agent definitions, along with suggested breakdown, work notes, and root-cause-analysis fields.
-
-**Note:** AI recommendation for clustering and intent and activity analysis is not supported.
+AI generation analyzes your table's fields and how frequently they change, then suggests which fields to use for your control flow \(state\), team, and agent definitions, along with suggested breakdown, transition work notes, clustering, and root-cause-analysis fields.
 
 ## Procedure
 
@@ -73,5 +71,5 @@ AI analyzes your table's fields and how frequently they change, then suggests wh
 
 The fields you confirmed are applied to your process configuration.
 
-**Parent Topic:**[Creating process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/creating-process-config.md)
+**Parent Topic:**[Creating process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/creating-process-config.md)
 

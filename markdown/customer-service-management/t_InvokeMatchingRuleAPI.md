@@ -3,9 +3,9 @@ title: Invoke the MatchingRuleProcessor API
 description: After you create one or more matching rules, you can invoke the MatchingRuleProcessor API and run the rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_InvokeMatchingRuleAPI.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

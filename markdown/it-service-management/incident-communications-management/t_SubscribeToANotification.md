@@ -1,20 +1,20 @@
 ---
 title: Subscribe to incident communication notifications
-description: Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans. The timely incident communication notification or incident alerts \(IA\) helps address issues within the defined SLA.
+description: Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/t\_SubscribeToANotification.html
-release: australia
+release: brazil
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Incident Communications, Incident Communications Management, IT Service Management]
 ---
 
 # Subscribe to incident communication notifications
 
-Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans. The timely incident communication notification or incident alerts \(IA\) helps address issues within the defined SLA.
+Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans.
 
 ## Before you begin
 
@@ -51,5 +51,5 @@ Role required: itil, ia\_admin, or admin
     You are subscribed to incident communication notification.
 
 
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

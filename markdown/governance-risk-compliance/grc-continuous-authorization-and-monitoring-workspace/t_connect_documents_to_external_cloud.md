@@ -3,11 +3,11 @@ title: Connect documents to external cloud storage
 description: Link documents to external cloud storage such as Google Drive, OneDrive, or SharePoint to keep your documents synchronized across platforms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/t\_connect\_documents\_to\_external\_cloud.html
-release: australia
+release: brazil
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [external cloud, cloud storage, document sync, Google Drive, OneDrive, SharePoint, cloud integration]
 breadcrumb: [Document reuse across records, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
@@ -73,5 +73,5 @@ External cloud integration keeps documents synchronized between your ServiceNow 
 
 Success notifications confirm that the document is synced or added. Error notifications alert you to any issues that occurred during the sync.
 
-**Parent Topic:**[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)
+**Parent Topic:**[Document reuse across records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/c_cam_document_management_system.md)
 

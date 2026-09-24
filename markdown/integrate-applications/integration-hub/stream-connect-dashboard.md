@@ -3,11 +3,11 @@ title: Using the Stream Connect Dashboard
 description: View detailed statistics for your Stream Connect integrations. Manage producers and consumers, view data usage, and create or edit topics and replicators with the ServiceNow Stream Connect dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-dashboard.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -88,7 +88,7 @@ The Data usage tab has these components.
 
     Use the **Kafka Cluster** list to select data for either **Hermes usage** or **Direct Kafka usage**.
 
-    **Note:** The **Kafka Cluster** list only appears if the plugins for both Hermes and Direct Kafka are installed. If only one plugin is installed, the **Kafka Cluster** list is hidden and the dashboard displays data for either Hermes or Direct Kafka, depending on the plugin. For more information about plugins, see [Integration Hub plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ih-plugins.md).
+    **Note:** The **Kafka Cluster** list only appears if the plugins for both Hermes and Direct Kafka are installed. If only one plugin is installed, the **Kafka Cluster** list is hidden and the dashboard displays data for either Hermes or Direct Kafka, depending on the plugin. For more information about plugins, see [Integration Hub plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/ih-plugins.md).
 
     Select a start month and end month to view data usage over time. Data usage history is available for the last 12 complete months plus the current month.
 
@@ -177,9 +177,9 @@ The Consumers page has the following components.
 
 -   **12. Create button**
 
-    To **Create** a new consumer, select this button, then select the type of consumer you want to create, then fill in the fields on the consumer's form. For form field descriptions, see the [ETL consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-etl-consumer.md), [Transform Map consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-transform-map-consumer.md), or [Script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-script-consumer.md) page.
+    To **Create** a new consumer, select this button, then select the type of consumer you want to create, then fill in the fields on the consumer's form. For form field descriptions, see the [ETL consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-etl-consumer.md), [Transform Map consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-transform-map-consumer.md), or [Script consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-script-consumer.md) page.
 
-    **Note:** If you're creating a Flow Trigger consumer, there isn't a form to fill out. Instead, the dashboard opens Workflow Studio so you can build your flow trigger there. For a detailed guide, see [Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-kafka.md).
+    **Note:** If you're creating a Flow Trigger consumer, there isn't a form to fill out. Instead, the dashboard opens Workflow Studio so you can build your flow trigger there. For a detailed guide, see [Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow-kafka.md).
 
 
 You can select a consumer from the list to view detailed information for that consumer.
@@ -214,7 +214,7 @@ Each individual consumer page has the following components.
     Displays partition groups with each one's number, first and last partition, and poll time.
 
 
-For a detailed explanation of consumer data and statistics, including log, and partition group information, see [Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/kafka-subscriptions-statistics.md).
+For a detailed explanation of consumer data and statistics, including log, and partition group information, see [Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/kafka-subscriptions-statistics.md).
 
 ## Producers
 
@@ -250,17 +250,17 @@ Each individual consumer page has the following components.
     -   Topics writing to: The total number of topics the producer is writing to.
     -   Messages produced rate: The average number of messages produced per second.
     -   Bytes produced rate: The average number of bytes produced per second.
-    -   Undelivered messages: The total number of undelivered messages for the producer.
+    -   Undelivered messages: The total number of undelivered messages for the producer. If you're viewing data for a Stream Producer, this shows Pending messages instead of Undelivered messages. Pending messages refers to the messages in the staging table for this producer that are waiting to be produced.
     -   Messages produced: Shows the number of messages produced over the last seven days.
     -   Bytes Produced: Shows the number of bytes produced over the last seven days.
     This data is updated every hour. The Messages produced and Bytes produced charts can be filtered to display data for the **Last 2 days**, **Last 24 hours**, **Last 7 days**, or a **Custom range**.
 
 -   **22. Statistics**
 
-    Displays producer statistics, including the date, number of produced messages and bytes, topic alias, and domain.
+    Displays producer statistics, including the date, number of produced messages and bytes, topic alias, and domain. If you're viewing data for a Stream Producer, this section also shows the Stream Producer CDC Statistics.
 
 
-For a detailed description of Producer data and statistics, see [Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/producer-statistics.md).
+For a detailed description of Producer data and statistics, see [Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/producer-statistics.md).
 
 ## Message Replications
 
@@ -278,8 +278,8 @@ The Message Replications page has the following components.
 
     Contains several buttons that you can use to perform different tasks. Refresh the list of message replications, edit the list columns or reset the column widths, and view or edit the list filters. There are also buttons to **Edit** a message replication, **Export** a message replication, and create a **New** message replication.
 
-    -   To edit a message replication, select the replication from the list, select the **Edit** button, then fill in the fields on the Edit [Message Replication form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-message-topic-reps-sc.md).
-    -   To create a new message replication, select **New**, then fill in the fields on the Create New [Message Replication form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-message-topic-reps-sc.md).
+    -   To edit a message replication, select the replication from the list, select the **Edit** button, then fill in the fields on the Edit [Message Replication form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-message-topic-reps-sc.md).
+    -   To create a new message replication, select **New**, then fill in the fields on the Create New [Message Replication form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-message-topic-reps-sc.md).
 
 You can select a message replication to view the replication's name, messaging service connection, status, error message \(if any\), and if it's active. You can also see any associated Kafka Topic Replications.
 
@@ -299,10 +299,10 @@ The Topic Replications page has the following components.
 
     Contains several buttons that you can use to refresh the list of topic replications, edit the list columns or reset the column widths, and view or edit the list filters. There are also buttons to **Edit** a topic replication, **Export** a topic replication, and create a **New** topic replication.
 
-    -   To edit a topic replication, select the replication from the list, select the **Edit** button, then fill in the fields on the Edit [Topic Replication form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-message-topic-reps-sc.md).
-    -   To create a new topic replication, select **New**, then fill in the fields on the Create New [Topic Replication form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-message-topic-reps-sc.md).
+    -   To edit a topic replication, select the replication from the list, select the **Edit** button, then fill in the fields on the Edit [Topic Replication form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-message-topic-reps-sc.md).
+    -   To create a new topic replication, select **New**, then fill in the fields on the Create New [Topic Replication form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/configure-message-topic-reps-sc.md).
 
-You can select a topic replication to view its name, direction, replication, topic name, ServiceNow topic, status, error message \(if any\), if it's active, and if it's being tracked in the current update set. You can also see any associated [Message Replication statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-rep-stats.md).
+You can select a topic replication to view its name, direction, replication, topic name, ServiceNow topic, status, error message \(if any\), if it's active, and if it's being tracked in the current update set. You can also see any associated [Message Replication statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/stream-connect-message-rep-stats.md).
 
 ## Alerts
 
@@ -318,7 +318,7 @@ The Alerts page has the following components.
 
 -   **28. Alert settings**
 
-    Opens the [Alerting Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sc-alert-properties.md) page where you can specify alert properties and how alerts are managed.
+    Opens the [Alerting Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/sc-alert-properties.md) page where you can specify alert properties and how alerts are managed.
 
 -   **29. Alerts list**
 
@@ -340,5 +340,5 @@ Each individual alert page has the following components.
     Displays the alert's log information. Each entry shows when the log was created, its level, and the log message.
 
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

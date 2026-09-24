@@ -3,12 +3,12 @@ title: Exploring policies in AI Control Tower
 description: Learn how policies let you automatically respond to detected AI threats or block AI usage outright, and where policies are enforced across AI Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-exploring.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, explore]
-breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore]
+breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Exploring policies in AI Control Tower
@@ -38,11 +38,11 @@ Policies come in two types, each suited to a different governance need.
 
 -   **Threat Response**
 
-    Watches for a specific threat category, such as sensitive data disclosure or prompt injection, crossing a threshold you define \(for example, more than 50 detections in 10 minutes\). When triggered, deactivates the affected agent, and can create a ticket for a team or notify a group. The affected agent stays offline until it's reinstated. For details, see [Threat Response policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-threat-response.md).
+    Watches for a specific threat category, such as sensitive data disclosure or prompt injection, crossing a threshold you define \(for example, more than 50 detections in 10 minutes\). When triggered, deactivates the affected agent, and can create a ticket for a team or notify a group. The affected agent stays offline until it's reinstated. For details, see [Threat Response policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-threat-response.md).
 
 -   **Explicit Block**
 
-    Stops a group, user, or everyone from using a specific AI agent, model, or domain. Once initiated, the block stays in effect until the policy is deactivated. For details, see [Explicit Block policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-explicit-block.md).
+    Stops a group, user, or everyone from using a specific AI agent, model, or domain. Once initiated, the block stays in effect until the policy is deactivated. For details, see [Explicit Block policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-explicit-block.md).
 
 
 ## Policy enforcement points
@@ -66,7 +66,7 @@ Policies are evaluated and enforced at points throughout your organization.
     Blocks and unblocks AI agents hosted by ServiceNow.
 
 
-For a complete list, see [Control enforcement points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-enforcement-points.md).
+For a complete list, see [Control enforcement points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-enforcement-points.md).
 
 ## Policies workflow
 
@@ -86,16 +86,16 @@ In this workflow:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Respond automatically to a detected threat before it spreads further.|[Create a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-create-threat-response-policy.md)|AI steward|
-|Stop specific AI usage outright, without writing a flow.|[Create an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-create-explicit-block-policy.md)|AI steward|
-|Confirm a policy is working as expected.|[Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)|AI steward|
+|Respond automatically to a detected threat before it spreads further.|[Create a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-create-threat-response-policy.md)|AI steward|
+|Stop specific AI usage outright, without writing a flow.|[Create an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-create-explicit-block-policy.md)|AI steward|
+|Confirm a policy is working as expected.|[Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)|AI steward|
 
 ## What to explore next
 
 To learn more about configuring and using Policies, see:
 
--   [Configuring policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-configuring.md)
--   [Managing policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-managing-policies.md)
--   [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
--   [AI Control Tower policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-reference.md)
+-   [Configuring policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-configuring.md)
+-   [Managing policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-policies.md)
+-   [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
+-   [AI Control Tower policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reference.md)
 

@@ -3,11 +3,11 @@ title: Add a test case to a test suite
 description: Create and add test case to an existing test suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_AddANewTestCaseToATestSuite.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Test suites, Setting up the manual testing process, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Create and add test case to an existing test suite.
 
 ## Before you begin
 
--   [Create a test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATestSuite.md).
+-   [Create a test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_CreateATestSuite.md).
 -   Role required: tm\_test\_manager or tm\_tester
 
 ## Procedure
@@ -42,5 +42,5 @@ Create and add test case to an existing test suite.
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_TestSuites.md)
+**Parent Topic:**[Test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/c_TestSuites.md)
 

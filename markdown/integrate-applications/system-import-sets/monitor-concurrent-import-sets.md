@@ -3,11 +3,11 @@ title: Monitor concurrent import sets
 description: Monitor concurrent import sets to check the status of import sets and import set jobs, resume or reprocess import sets, and view transform history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/monitor-concurrent-import-sets.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Importing data using import sets, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -34,7 +34,7 @@ When a scheduled concurrent import runs, each concurrent import creates a concur
 
 3.  Reprocess or continue import sets, check the status of import sets or concurrent import set jobs, view transform history, or display a list of executions records by clicking one of the following related links.
 
-<table id="choicetable_m23_bsg_wfb"><tbody><tr><td id="d256256e85">
+<table id="choicetable_m23_bsg_wfb"><tbody><tr><td id="d254309e85">
 
 **Reprocess**
 
@@ -42,7 +42,7 @@ When a scheduled concurrent import runs, each concurrent import creates a concur
 
 Start another scheduled import to reprocess the records.
 
-</td></tr><tr><td id="d256256e94">
+</td></tr><tr><td id="d254309e94">
 
 **Continue**
 
@@ -50,7 +50,7 @@ Start another scheduled import to reprocess the records.
 
 Restart a scheduled import that is not complete.
 
-</td></tr><tr><td id="d256256e103">
+</td></tr><tr><td id="d254309e103">
 
 **Import Sets**
 
@@ -64,7 +64,7 @@ State of import sets.**State**
 -   **Error** if the import set processing failed.
  Select an import set to see processing details for Import Set Runs and Import Set Rows for the import set.
 
-</td></tr><tr><td id="d256256e142">
+</td></tr><tr><td id="d254309e142">
 
 **Concurrent Import Set Jobs**
 
@@ -81,7 +81,7 @@ Type and state of concurrent import set jobs:-   **Type**
     -   **Error** if the import set processing failed.
  Select an import set job to see processing details for Import Set Runs and Import Set Rows for the import set job.
 
-</td></tr><tr><td id="d256256e212">
+</td></tr><tr><td id="d254309e212">
 
 **Transform Histories**
 
@@ -89,7 +89,7 @@ Type and state of concurrent import set jobs:-   **Type**
 
 Check statistics in the transform histories for the scheduled import.Select a start time to see Import Set Row Errors \(including error codes and messages\) and the Import Log for the scheduled import.
 
-</td></tr><tr><td id="d256256e225">
+</td></tr><tr><td id="d254309e225">
 
 **Executions**
 
@@ -104,5 +104,5 @@ Executions contexts-   The parent import scheduled data import record.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

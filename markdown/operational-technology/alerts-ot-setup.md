@@ -3,9 +3,9 @@ title: Role assignment alerts for Operational Technology Setup
 description: If there are errors during the role assignment process for Operational Technology \(OT\) Setup, an error message appears that describes the cause.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/alerts-ot-setup.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Operational Technology Setup, Operational Technology]
 ---

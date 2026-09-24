@@ -3,11 +3,11 @@ title: Homepage migration status table
 description: Use the Homepage migration status table to address homepage retirement and conversion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/homepage-migration-status-table.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Homepage deprecation, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Homepage deprecation, Administering dashboards, Responsive dashboar
 
 Use the Homepage migration status table to address homepage retirement and conversion.
 
-The homepage migration status table lists the homepages on your instance that are not associated with dashboards or dashboard tabs. It also shows the decisions made by an administrator about the status of each one. You can access the homepage migration status table from most of the visualizations on the Overview tab or you can navigate to **All** &gt; **Homepage deprecation help tool** &gt; **Homepage migration status**. For more information, see [Homepage deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/homepage-deprecation-help-tool.md).
+The homepage migration status table lists the homepages on your instance that are not associated with dashboards or dashboard tabs. It also shows the decisions made by an administrator about the status of each one. You can access the homepage migration status table from most of the visualizations on the Overview tab or you can navigate to **All** &gt; **Homepage deprecation help tool** &gt; **Homepage migration status**. For more information, see [Homepage deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/homepage-deprecation-help-tool.md).
 
 The table contains the following columns.
 
@@ -91,7 +91,7 @@ Decision
 
 </td><td>
 
-[Converted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/hpm-convert-homepages.md), [Retired](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/hpm-retire-homepages.md), or [Restored](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/hpm-restore-homepages.md)
+[Converted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/hpm-convert-homepages.md), [Retired](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/hpm-retire-homepages.md), or [Restored](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/hpm-restore-homepages.md)
 
 </td></tr></tbody>
 </table>

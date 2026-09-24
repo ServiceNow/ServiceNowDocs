@@ -3,9 +3,9 @@ title: View plan details in scorecards
 description: Use the Overview tab to gain a quick understanding of how robust your business continuity and emergency plans are. This tab gives an overview of the scores of important plan elements, each as a scorecard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-bcp-scorecard.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -40,20 +40,20 @@ Your emergency action plan must be customized to your workplace and include info
 
     In the **Overview** tab, you can see the scorecards that are graphical representations of the progress of the plan for making it complete towards its goal.
 
-    The different scorecards that are available to view in the **Overview** tab depend on the value that has been selected in the **Plan authoring type** field of the [Configure a business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bcp-template.md) used in this plan.
+    The different scorecards that are available to view in the **Overview** tab depends on the value that has been selected in the **Plan authoring type** field of the [Configure a business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-bcp-template.md) used in this plan.
 
-    **Note:** If your plan is in **Approved** state, then you can view the **Plan Usage and Results** section. However, you can view all the details of a plan in the **Plan Details** section irrespective of the plan being in any state. For more information, see [Plan overview scorecards for plan usage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/plan-overview-scorecards.md).
+    **Note:** If your plan is in **Approved** state, then you can view the **Plan Usage and Results** section. However, you can view all the details of a plan in the **Plan Details** section irrespective of the plan being in any state. For more information, see [Plan overview scorecards for plan usage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/plan-overview-scorecards.md).
 
-5.  To complete pending documentation sections, identify teams and individuals for the unassigned recovery teams.
+5.  In the scorecard widget, click the go to section icon \(\[Omitted image "GoToSectionIcon.png"\] Alt text: Go to section icon\) to complete sections in **Pending** state.
 
-6.  Assign groups to carry out specific plan activities, select go to section icon \(\[Omitted image "GoToSectionIcon.png"\] Alt text: Go to section icon\) in the respective scorecard widget and set the plan to complete.
+    You can identify teams and individuals for unassigned recovery teams or assign groups to carry out specific plan activities.
 
-7.  To add contributors to the plan, click the **Contributors** field to select the users.
+6.  To add contributors to the plan, click the **Contributors** field to select the users.
 
     \[Omitted image "PlanContributorsCard.png"\] Alt text: Contributors card in the Overview tab
 
     To make a business continuity plan complete and robust, you need inputs from people who can assist and contribute information on the plan. These contributors can also be users to whom you can assign specific tasks. You can add as many contributors as the plan requires.
 
-8.  To remove a contributor from the plan if no longer required, click the **Remove** button next to the name of the contributor.
+7.  To remove a contributor from the plan if no longer required, click the **Remove** button next to the name of the contributor.
 
 

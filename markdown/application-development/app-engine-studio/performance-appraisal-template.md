@@ -3,13 +3,13 @@ title: Performance Review template
 description: Build an application in App Engine Studio \(AES\) using the Performance Review template to automate scheduling, notifications, and feedback for performance reviews.The following tables, experiences, automated workflows, and roles are included in the Performance Review template for App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/performance-appraisal-template.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Performance Review template
@@ -40,9 +40,9 @@ You can improve this template by incorporating the following features:
 -   Add performance improvement plan \(PIP\) process/individual development plans
 -   Include compensation info/annual performance review \(APR\)
 
-For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md).
+For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/template-library.md)
 
 ## Performance Review template contents
 

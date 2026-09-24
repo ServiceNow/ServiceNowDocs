@@ -3,11 +3,11 @@ title: Run a mass Agent Client Collector upgrade using a background script
 description: Trigger an immediate upgrade of all eligible Agent Client Collector agents without waiting for the next scheduled job run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/run-agent-mass-upgrade-script.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ACC mass upgrade, background script upgrade, AgentUpgradeUtil]
 breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -19,7 +19,7 @@ Trigger an immediate upgrade of all eligible Agent Client Collector agents witho
 
 ## Before you begin
 
-Configure the required upgrade properties before running the script. For details, see [Agent Client Collector upgrade properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-properties.md).
+Configure the required upgrade properties before running the script. For details, see [Configure Agent Client Collector upgrade properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/configure-agent-upgrade-properties.md).
 
 Role required: agent\_client\_collector\_admin
 
@@ -52,5 +52,5 @@ The system queries all agents that are **Up**, not duplicated, have a valid MID 
     The system begins upgrading eligible agents immediately, adhering to the rate limits set in the upgrade properties.
 
 
-**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
+**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 

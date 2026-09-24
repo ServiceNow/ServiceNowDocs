@@ -3,9 +3,9 @@ title: DCE Insights tables
 description: DCE Insights is a feature of the Data Context Engine that enhances how users view and interact with data directly on record pages and includes the following tables
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-dce-insights-table.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure DCE Visualizations, Data context engine, Customer success, Configure, Customer Success Management]
 ---
@@ -16,7 +16,7 @@ DCE Insights is a feature of the Data Context Engine that enhances how users vie
 
 ## DCE Visualization
 
-DCE Visualization enables users to configure data sources, define baselines and targets, and apply aggregation rules. It also supports the setup of conditional logic, allowing visualizations to be tailored to specific scenarios, for example, displaying customer-specific data based on defined conditions. See [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md) for detailed descriptions of all the fields in this table.
+DCE Visualization enables users to configure data sources, define baselines and targets, and apply aggregation rules. It also supports the setup of conditional logic, allowing visualizations to be tailored to specific scenarios, for example, displaying customer-specific data based on defined conditions. See [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md) for detailed descriptions of all the fields in this table.
 
 ## DCE Insights
 

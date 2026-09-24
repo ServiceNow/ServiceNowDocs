@@ -3,11 +3,11 @@ title: View, edit, and reassign security incidents using Security Incident Respo
 description: As a security incident analyst, view, edit, and reassign Security Incident Response \(SIR\) incidents that are assigned to you. View related lists and the audit trail of work notes for more details about incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mobile-sir-my-incidents.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Reassign an open security incident to another analyst in your group from the lis
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
 
 2.  With the Security Incidents landing screen displayed, tap **My Incidents**.
 
@@ -34,23 +34,23 @@ Reassign an open security incident to another analyst in your group from the lis
 
     The My Incidents screen is displayed with a list of open security incident records that are assigned to you.
 
-3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-search.md) to search for security incidents that match specific criteria.
+3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sir-search.md) to search for security incidents that match specific criteria.
 
-    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
+    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 
 4.  To reassign an incident directly from the list, with the list of open security incident records displayed, swipe left on a record to open the menu.
 
 5.  Edit the Assignment group or the Assigned to fields from the menu that is displayed.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d498376e156">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d498578e156">
 
 Option
 
-</th><th align="left" id="d498376e159">
+</th><th align="left" id="d498578e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d498376e165">
+</th></tr></thead><tbody><tr><td id="d498578e165">
 
 **Reassign**
 
@@ -69,15 +69,15 @@ To reassign the assignment group:1.  Tap **Assignment group**.
 
 7.  On the open record that is displayed, choose one option from the following table to continue.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d498376e223">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d498578e223">
 
 Option
 
-</th><th align="left" id="d498376e226">
+</th><th align="left" id="d498578e226">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d498376e232">
+</th></tr></thead><tbody><tr><td id="d498578e232">
 
 **Menu icon**
 
@@ -87,7 +87,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 -   To reassign the incident, tap **Reassign**. Follow the instructions described in the previous table.
  After you complete your edits, tap **Submit** to save your changes and update the security incident.
 
-</td></tr><tr><td id="d498376e262">
+</td></tr><tr><td id="d498578e262">
 
 **Activity Stream tab**
 
@@ -95,7 +95,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 
 With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon to add a work note or attach a file.
 
-</td></tr><tr><td id="d498376e274">
+</td></tr><tr><td id="d498578e274">
 
 **Related List tab**
 
@@ -105,7 +105,7 @@ With the Related List tab selected, view the items on any Related Lists that are
 
  Tap an item on the list that is displayed to view the details for a related list. From the lists of items that are displayed, tap an item to continue to view the activity streams and related lists associated with the parent security incident.
 
-</td></tr><tr><td id="d498376e289">
+</td></tr><tr><td id="d498578e289">
 
 **Screen icons at the bottom of the screen.**
 

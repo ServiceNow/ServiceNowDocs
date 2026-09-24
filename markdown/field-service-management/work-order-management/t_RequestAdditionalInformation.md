@@ -3,11 +3,11 @@ title: Request additional information to qualify a work order
 description: Transfer orders move necessary parts to the location where the agent can receive them. If there is not enough information to create a transfer order, the dispatcher can request more details from the qualifier.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_RequestAdditionalInformation.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Qualify a work order, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
@@ -30,6 +30,6 @@ Role required: wm\_dispatcher or wm\_admin
 
 4.  Click **Request more information**.
 
-    The task state changes to **Draft** and the work order state changes to **Awaiting Qualification**. If Field Service Management is configured for [automatic qualification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_QualifyWorkOrders.md), the work order state remains at **Qualified**.
+    The task state changes to **Draft** and the work order state changes to **Awaiting Qualification**. If Field Service Management is configured for [automatic qualification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/c_QualifyWorkOrders.md), the work order state remains at **Qualified**.
 
 

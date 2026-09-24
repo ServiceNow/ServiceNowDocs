@@ -3,9 +3,9 @@ title: Submit a quote for advanced approval
 description: Submit a quote for advanced approval to route it to required approvers before sharing it with a customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/submit-a-quote-for-approval.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ If your administrator has configured reminder schedules, approvers receive autom
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List Icon.
 
@@ -49,5 +49,5 @@ If your administrator has configured reminder schedules, approvers receive autom
 
 The quote is submitted for approval and enters the In Review state. Approval requests are generated based on configured approval rules and sequencing.
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

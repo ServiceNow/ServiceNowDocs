@@ -3,9 +3,9 @@ title: Create a business contact account from license or permit application data
 description: Use the contact information for related parties entered on a license or permit application to create business contact accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-multi-party-create-business-contact.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Create a business contact account from license or permit application data, Create a business contact account]
 breadcrumb: [Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]

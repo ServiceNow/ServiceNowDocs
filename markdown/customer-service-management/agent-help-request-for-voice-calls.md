@@ -3,9 +3,9 @@ title: Agent help request for voice calls
 description: Agents can request supervisor assistance during active customer calls by submitting help requests with context and reason. They receive real-time notifications when supervisors coach or barge in to help them resolve customer issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-help-request-for-voice-calls.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Monitoring calls, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -36,7 +36,7 @@ Enable the following capabilities to view and use the call monitoring features i
 -   Enable the call monitoring capability when integrating with the native call controls via Interaction Controls Component \(ICC\) and OpenFrame.
 -   Engage in an active call.
 -   Configure the integration with the CCaaS platform for voice controls and supervisor actions.
--   Enable real time UI update capability.
+-   Enable real-time UI update capability.
 -   Configure a reporting infrastructure to capture help request metrics.
 
 Persona:
@@ -49,8 +49,6 @@ Persona:
 
     Responds to help requests and performs coaching or barge in actions with appropriate permissions.
 
-
-See [Help Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/help-request-api.md)
 
 Review the following scenarios to understand how the feature works.
 

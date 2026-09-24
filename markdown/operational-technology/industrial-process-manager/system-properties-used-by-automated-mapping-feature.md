@@ -3,11 +3,11 @@ title: System properties used by the OT subnet mapping feature
 description: An Amazing Admin can view and configure the system properties that support the OT subnet mapping feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/system-properties-used-by-automated-mapping-feature.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 ---
@@ -59,5 +59,5 @@ Automatically assigns all OT control modules to equipment model entities based o
 Override location of an OT device with subnet's location. If checked, the location of the subnet takes precedence over OT device's location when it's mapped with the subnet. Default is Yes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
+</table>**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
 

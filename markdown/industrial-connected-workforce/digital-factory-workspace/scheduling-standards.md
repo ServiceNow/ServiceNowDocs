@@ -3,11 +3,11 @@ title: Scheduling standards
 description: Scheduling of standards and tasks enables a proactive planning approach in manufacturing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/scheduling-standards.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Industrial Standards, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -40,10 +40,10 @@ Shift-based scheduling provides a simplified approach to scheduling manufacturin
 -   Tasks that are not completed within the designated shift window are automatically expired and removed, keeping operator dashboards clean.
 -   Duplicate events and tasks are detected and cleaned up during schedule updates, maintaining data integrity.
 
--   **[Scheduling calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/calendar-view-scheduling.md)**  
+-   **[Scheduling calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/calendar-view-scheduling.md)**  
 The calendar view provides a visual interface for scheduling manufacturing tasks. It helps operators and line leaders plan, view, and manage task schedules more easily by showing occurrences, overlaps, and exceptions in a familiar calendar format.
--   **[Create a standard schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-events-based-on-schedules.md)**  
+-   **[Create a standard schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/create-events-based-on-schedules.md)**  
 Create a plan for the scheduled creation of standard tasks.
 
-**Parent Topic:**[Using Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.md)
+**Parent Topic:**[Using Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.md)
 

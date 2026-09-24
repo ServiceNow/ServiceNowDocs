@@ -3,9 +3,9 @@ title: Set a default view for Items Received in the Public Sector Digital Servic
 description: Customize the default view in the Public Sector Digital Services platform workspace so that the Items Received related list is displayed under a business, constituent, or agency record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/set-a-default-view-in-psds.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optional configuration steps, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---

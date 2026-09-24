@@ -3,11 +3,11 @@ title: External-facing form configuration fields
 description: An external facing Personal Data Rights \(PDR\) form configuration record holds the form-wide content that the requester sees across regions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/pdr-ext-form-new-record-form.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create form configuration record, Configure the external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -27,5 +27,5 @@ An external facing Personal Data Rights \(PDR\) form configuration record holds 
 |Legal terms URL|Default link to your organization's legal terms.|
 |Terms of service URL|Default link to your organization's terms of service.|
 
-**Parent Topic:**[Create a PDR external-facing form configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-pdr-ext-form-record.md)
+**Parent Topic:**[Create a PDR external-facing form configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/config-pdr-ext-form-record.md)
 

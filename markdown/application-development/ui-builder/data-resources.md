@@ -3,11 +3,11 @@ title: Dynamically expose data in UI Builder pages \(advanced feature\)
 description: Sync data between ServiceNow tables and data with the pages you build with UI Builder. Pages display synced data in real time and update data/tables when a user inputs information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/data-resources.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Sync data between ServiceNow tables and data with the pages you build with UI Bu
 
 ## Learning about data resources in UI Builder
 
-UI Builder syncs ServiceNow tables/data using [data resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md). A data resource fetches the data that UI Builder uses to display information in a [component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md). UI Builder components use data resources to sync data across different experiences. Data resources make the data in components dynamic, which means that you don't have to recreate data for every page.
+UI Builder syncs ServiceNow tables/data using [data resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md). A data resource fetches the data that UI Builder uses to display information in a [component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md). UI Builder components use data resources to sync data across different experiences. Data resources make the data in components dynamic, which means that you don't have to recreate data for every page.
 
 Data resources are found in the data resource drawer. The data resource drawer is where you can add and configure a data resource for your page. After you configure the data resource, you can sync the data between components on your page and ServiceNow tables/data.
 
@@ -32,13 +32,13 @@ The data resource drawer contains three sections:
 
 You can bind the configuration properties for components, other data resources, client scripts, client state, and events to these data resources.
 
-Set conditions for a filter in your data resource. For more information, see [Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data.md).
+Set conditions for a filter in your data resource. For more information, see [Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/connect-data.md).
 
 ## How data resources work in UI Builder
 
 Data resources fetch data from Glide, GraphQL, and REST APIs, then transform it for use in a component on a UI Builder page.
 
-Components use both inherited and local data resource instances. Inherited data resources are automatically loaded into a UI Builder page, and local data resource instances can be added and configured. Data resources are evaluated based on specified input values to make sure the right data is retrieved. For more information about inherited and local data resources, see [Inherited versus local data resources in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md).
+Components use both inherited and local data resource instances. Inherited data resources are automatically loaded into a UI Builder page, and local data resource instances can be added and configured. Data resources are evaluated based on specified input values to make sure the right data is retrieved. For more information about inherited and local data resources, see [Inherited versus local data resources in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/data-resources.md).
 
 ## Local data resources in UI Builder
 
@@ -133,24 +133,24 @@ After adding a data resource, you can choose to load it either eagerly or explic
 
 Data resource scripts are special instructions you give UI Builder to return specific pieces of data. For example, if you're dealing with a list of products, a script could tell a data resource to show only products that are available in stock or to arrange them in a particular order. Data resource scripts enable you to customize how UI Builder treats the information, such as adding extra rules or actions.
 
--   **[Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-data-resources.md)**  
+-   **[Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-data-resources.md)**  
 Add data resources to dynamically expose data from tables, records, or other elements on your page in UI Builder.
--   **[Add Now Assist skills to your page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-skill.md)**  
+-   **[Add Now Assist skills to your page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/add-skill.md)**  
 Add skills to enhance your UI Builder page with Now Assist's generative AI capabilities.
--   **[Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md)**  
+-   **[Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/controllers.md)**  
 Controllers simplify the linking of data and event logic to enable component presets in UI Builder.
--   **[Create custom controllers \(Advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controller-builder.md)**  
+-   **[Create custom controllers \(Advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/controller-builder.md)**  
 Build custom controllers to use across experiences. Easily connect reusable data, scripts, and events to your page and set up inputs, outputs, and events.
--   **[Connect data components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data-components.md)**  
+-   **[Connect data components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/connect-data-components.md)**  
 Use the data binding modal to associate data exposed by local data resources to components on your UI Builder page.
--   **[Client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/client-state-parameters.md)**  
+-   **[Client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/client-state-parameters.md)**  
 Use client state parameters to bind values to component configurations. When the client state parameter's value changes, the component updates to use the new value.
--   **[Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/define-client-scripts.md)**  
+-   **[Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/define-client-scripts.md)**  
 Add and edit client scripts in UI Builder so that you can update the client state through events. You can bind these scripts to any component by using an event handler.
--   **[Multi-table data configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/multi-source-data-configuration.md)**  
+-   **[Multi-table data configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/multi-source-data-configuration.md)**  
 Present data from multiple tables using components and control the layout and styling.
--   **[Work with the Entity View Action Mapper for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/evam-ui-builder.md)**  
+-   **[Work with the Entity View Action Mapper for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/evam-ui-builder.md)**  
 With UI Builder, you can use the Entity View Action Mapper \(EVAM\) application to standardize how the data sources in your components are displayed in your cards and lists.
 
-**Parent Topic:**[Advanced UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/advanced-uib.md)
+**Parent Topic:**[Advanced UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/advanced-uib.md)
 

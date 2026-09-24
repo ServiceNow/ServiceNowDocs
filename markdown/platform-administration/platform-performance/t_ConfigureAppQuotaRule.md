@@ -3,11 +3,11 @@ title: Configure an application quota rule
 description: Configure an application quota rule to limit the number of events or jobs that can run in an application's scope within a specified time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/t\_ConfigureAppQuotaRule.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application quotas, Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -32,14 +32,14 @@ You must be in the application scope of the application for which you want to cr
 
 3.  On the Application Quota Rule form, fill in the fields.
 
-    For a description of the field values, see [Application quota rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/application-quota-rule-form.md).
+    For a description of the field values, see [Application quota rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/application-quota-rule-form.md).
 
 4.  Set a condition to specify when the application quota rule should take effect.
 
-    The application quota rule condition builder displays conditions that are only applicable to transactions. For a description of the condition builder options, see [Application quota condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/application-quota-condition-builder.md).
+    The application quota rule condition builder displays conditions that are only applicable to transactions. For a description of the condition builder options, see [Application quota condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/application-quota-condition-builder.md).
 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/maintain-monitor-now-platform.md)
+**Parent Topic:**[Maintaining and monitoring the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/maintain-monitor-now-platform.md)
 

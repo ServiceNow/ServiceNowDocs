@@ -3,9 +3,9 @@ title: Working on an enrollment case in Workspace
 description: Use the playbook available with the Patient Support Services application to manage enrollment cases and complete requests for patient support services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-playbook.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage enrollment requests, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -36,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-playbook.md)
+[Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-playbook.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Complete the initial enrollment application review activities.
 
 </td></tr><tr><td>
 
-[Benefit investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-playbook.md)
+[Benefit investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-playbook.md)
 
 </td><td>
 
@@ -54,7 +54,7 @@ Capture or review the benefits investigation preference opted by the patient and
 
 </td></tr><tr><td>
 
-[Prescription details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-playbook.md)
+[Prescription details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-playbook.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ Place a prescription order.
 
 </td></tr><tr><td>
 
-[Program services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-playbook.md)
+[Program services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-playbook.md)
 
 </td><td>
 
@@ -70,14 +70,14 @@ Review and fulfill the program services that the patient has been enrolled into.
 
 </td></tr><tr><td>
 
-[Resolve and close](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-playbook.md)
+[Resolve and close](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-playbook.md)
 
 </td><td>
 
 Close the enrollment request.
 
 </td></tr></tbody>
-</table>**Note:** The state of the enrollment case progresses as you complete a stage in the playbook. For more information, see [Life cycle of an enrollment case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-enrollment-life-cycle.md).
+</table>**Note:** The state of the enrollment case progresses as you complete a stage in the playbook. For more information, see [Life cycle of an enrollment case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-enrollment-life-cycle.md).
 
 ## Completing the initial review activities
 
@@ -90,7 +90,7 @@ In the **Intake** stage of the playbook, complete the following activities:
 
 3.  **Review prescription**: Capture or review the prescription ordered for a patient. You can add a new prescription record to include the prescription details. If there is no prescription available to you, contact the prescriber to enter the prescription details.
 
-    To add a new prescription, click **Add new**, fill in the details of the prescription in the Medication Prescription form, and click **Save**. For more information, see [Medication Prescription form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-med-prescription-form.md).
+    To add a new prescription, click **Add new**, fill in the details of the prescription in the Medication Prescription form, and click **Save**. For more information, see [Medication Prescription form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-med-prescription-form.md).
 
     **Note:** If there is no medication product associated with the program, the **Review prescription** activity doesn't appear in the playbook.
 
@@ -103,7 +103,7 @@ In the **Benefit investigation** stage of the playbook, complete the following a
 
 1.  **Review patient preference**: Review the benefits investigation preference opted by the patient.
 2.  **Review specialty pharmacy details**: Review the specialty pharmacy details as provided by the patient. The **Review specialty pharmacy details** activity appears only when the patient has selected specialty pharmacy in the enrollment request form.
-3.  **Review pre-authorization**: Review and verify if pre-authorization is required for the program. If pre-authorization is required, click **Add new**, fill in the details of pre-authorization details provided by a payer organization in the Pre-authorization request form, and click **Save**. For more information, see [Pre-authorization request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pre-auth-form.md).
+3.  **Review pre-authorization**: Review and verify if pre-authorization is required for the program. If pre-authorization is required, click **Add new**, fill in the details of pre-authorization details provided by a payer organization in the Pre-authorization request form, and click **Save**. For more information, see [Pre-authorization request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pre-auth-form.md).
 
     **Note:** If pre-authorization is not required for the medication prescription, you can skip this activity.
 

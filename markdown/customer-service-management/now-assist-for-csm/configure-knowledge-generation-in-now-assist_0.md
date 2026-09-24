@@ -3,11 +3,11 @@ title: Configure knowledge generation
 description: Configure the Knowledge Generation skill to draft knowledge articles on resolving case tasks for agents to review and edit before publishing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-knowledge-generation-in-now-assist\_0.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Configure the Knowledge Generation skill to draft knowledge articles on resolvin
 
 ## Before you begin
 
-Ensure that the following is set up before you activate the skill:
+Verify that the following is set up before you activate the skill:
 
 1.  Install the Required Plugin- ServiceNow Otto for CSM plugin.
 2.  Enable KCS system properties: The visibility of the **Create Knowledge** action in CRM Workspace depends on specific system properties and differs from its implementation in the Core UI UI.
@@ -31,7 +31,7 @@ Ensure that the following is set up before you activate the skill:
     -   sn\_customerservice.kcs.enable\_template\_on\_case\_workspace
         -   If this property is false, the button is a UI Action and clicking it does not open a template selector.
         -   If this property is true, the button is a Declarative Action and clicking it opens a template selector modal.
-    If either property is disabled, the action will not appear in CRM Workspace—even if it is visible in Core UI.
+    If either property is turned off, the action will not appear in CRM Workspace—even if it is visible in Core UI.
 
 3.  Activate the KCS template.
     1.  Navigate to **All** &gt; **Knowledge** &gt; **Administration** &gt; **Article Template**.
@@ -53,9 +53,11 @@ The knowledge generation skill incorporates information that you enter in the fo
 -   Work Notes
 -   Comments
 
-Any modifications to the names or labels of these fields can quality the generation and quality of knowledge generation articles.
+Any modifications to the names or labels of these fields can affect the generation and quality of knowledge generation articles. So, don't change field names or labels after you select them as the skill won't recognize the changes.
 
-**Note:** It is recommended to revert to the default field name and field label for the affected fields. To remove incompatible fields from generation, confirm a copy of the skill has been created, as not all fields are removable/configurable. Additionally, confirm that the Knowledge Management advanced installer plugin is enabled and the following system properties are set to TRUE:
+**Note:**
+
+It is preferable to revert to the default field name and field label for the affected fields. To remove incompatible fields from generation, confirm a copy of the skill has been created, as not all fields are removable/configurable. Additionally, confirm that the Knowledge Management advanced installer plugin is enabled and the following system properties are set to TRUE:
 
 -   sn\_customerservice.enable\_knowledge\_kcs
 -   kcs.enable\_template\_on\_case\_workspace
@@ -117,7 +119,7 @@ Input fields
     Default and Custom Roles:
 
     -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
+    -   If custom roles were added before the upgrade, they are updated automatically by a script.
     -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.

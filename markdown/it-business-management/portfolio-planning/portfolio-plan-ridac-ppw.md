@@ -1,24 +1,24 @@
 ---
 title: Portfolio plan RIDACs
-description: Portfolio plan RIDAC provides a unified view of all risks, issues, decisions, actions, and changes that belong to a specific portfolio plan. Access portfolio governance items directly within the portfolio plan without navigating to separate RIDAC records.
+description: Portfolio plan RIDAC \(Risks, Issues, Decision, Actions, and Change requests\) provides a unified view of all risks, issues, decisions, actions, and changes for a portfolio plan. Access portfolio governance items directly without navigating to separate RIDAC records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/portfolio-plan-ridac-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Portfolio plan RIDACs
 
-Portfolio plan RIDAC provides a unified view of all risks, issues, decisions, actions, and changes that belong to a specific portfolio plan. Access portfolio governance items directly within the portfolio plan without navigating to separate RIDAC records.
+Portfolio plan RIDAC \(Risks, Issues, Decision, Actions, and Change requests\) provides a unified view of all risks, issues, decisions, actions, and changes for a portfolio plan. Access portfolio governance items directly without navigating to separate RIDAC records.
 
-## What is portfolio plan RIDAC?
+## What is portfolio plan RIDAC
 
-Portfolio plan RIDAC displays all risks, issues, decisions, actions, and changes that belong to a specific portfolio plan in a unified, holistic view. This consolidated interface helps portfolio managers, program managers, and team leads identify and manage governance items across all planning items and goals within the portfolio plan—without navigating between multiple records or menus.
+Portfolio plan RIDAC displays all risks, issues, decisions, actions, and changes that belong to a specific portfolio plan in a unified, holistic view. Portfolio managers, program managers, and team leads can identify and manage governance items across all planning items and goals within the portfolio plan. No navigation between multiple records or menus is required.
 
 Portfolio plan RIDAC includes:
 
@@ -32,18 +32,18 @@ Portfolio plan RIDAC includes:
 
 Portfolio plan RIDAC displays RIDAC items created on planning items and goals that belong to or are associated with the portfolio plan. These include:
 
-|Planning Item Type|Description|
+|Planning Item type|Description|
 |------------------|-----------|
 |Demands|RIDAC items created directly on demands within the portfolio plan|
 |Projects|RIDAC items created on projects that are part of the portfolio|
 
-## Portfolio manager uses for RIDAC
+## RIDAC use cases for portfolio managers
 
 Portfolio managers use portfolio plan RIDAC to:
 
--   Understand all risks, issues, decisions, actions, and changes across the entire portfolio
+-   Understand risks, issues, decisions, actions, and changes across the entire portfolio
 -   Monitor rolled-up RIDAC records from projects and programs to identify cross-project risks and dependencies
--   Validate portfolio-level decisions and ensure alignment between operational activities and strategic objectives
+-   Validate portfolio-level decisions and maintain alignment between operational activities and strategic objectives
 -   Track governance items without context-switching between multiple menus
 -   Assess portfolio health and progress at a glance
 
@@ -58,7 +58,12 @@ Portfolio managers use portfolio plan RIDAC to:
 
 ## Accessing portfolio plan RIDAC
 
-Access the portfolio plan RIDAC page from within a portfolio plan to view all governance items associated with that portfolio. The RIDAC page displays items that belong to planning items within the portfolio plan, giving you a complete governance picture without navigating to separate risk, issue, decision, action, or change management menus.
+Access the portfolio plan RIDAC page from within a portfolio plan to view all governance items associated with that portfolio. The RIDAC page displays items that belong to planning items within the portfolio plan. This gives you a complete governance picture without navigating to separate risk, issue, decision, action, or change management menus.
 
-**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
+
+**Related topics**  
+
+
+[Create RIDAC item for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-ridac-for-planning-item-ppw.md)
 

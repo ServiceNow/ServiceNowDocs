@@ -3,9 +3,9 @@ title: Review resource usage against allocated subscription units
 description: Review statistics for the resources that can be managed by ITOM products. Compare this data to the average number of allocated subscription units.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/view-resource-usage-licenses.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Review statistics for the resources that can be managed by ITOM products. Compar
 
 Role required: sn\_itom\_license.reader
 
-See ITOM detailed licensing data over time with the ITOM Licensing Dashboard. View daily CI counts or average of the last 90 daily counts. Domain-specific information and specific CI listings for each daily count enable you to monitor and analyze resource usage. You can generate a list of currently countable CIs for each of the ITOM applications as described in [View CIs consuming ITOM subscription units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-licensing-count.md).
+See ITOM detailed licensing data over time with the ITOM Licensing Dashboard. View daily CI counts or average of the last 90 daily counts. Domain-specific information and specific CI listings for each daily count enable you to monitor and analyze resource usage. You can generate a list of currently countable CIs for each of the ITOM applications as described in [View CIs consuming ITOM subscription units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-licensing-count.md).
 
 ## Procedure
 
@@ -34,6 +34,6 @@ See ITOM detailed licensing data over time with the ITOM Licensing Dashboard. Vi
 
 4.  Select the bar to view a list of the counted CIs.
 
-5.  Review the dashboard described in [ITOM/OT SU Licensing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-licensing-dashboard.md).
+5.  Review the dashboard described in [ITOM/OT SU Licensing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-licensing-dashboard.md).
 
 

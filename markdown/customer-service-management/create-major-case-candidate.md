@@ -3,9 +3,9 @@ title: Create a major case candidate
 description: Users with the customer service agent role can create a major case candidate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-major-case-candidate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Major issue management overview, Manage cases, Use, Customer Service Management]
 ---

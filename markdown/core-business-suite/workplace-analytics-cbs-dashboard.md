@@ -3,9 +3,9 @@ title: Workplace Services analytics on the CBS dashboard
 description: The Workplace Services tab on the Core Business Suite Analytics dashboard tracks open case volume and resolution trends for workplace service requests, helping managers monitor facility demand and staffing coverage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/core-business-suite/workplace-analytics-cbs-dashboard.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Workplace Services analytics, CBS Analytics, Core Business Suite dashboard, workplace cases, performance trends]
 breadcrumb: [CBS Analytics overview, View Core Business Suite Analytics, Use, Core Business Suite]
@@ -91,5 +91,5 @@ A chart showing case volume, broken down by workplace service case type. Case ty
 -   Workplace neighborhood assignment
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-analytics-overview.md)
+</table>**Parent Topic:**[Core Business Suite Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-analytics-overview.md)
 

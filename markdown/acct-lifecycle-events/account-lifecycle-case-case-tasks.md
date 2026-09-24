@@ -3,9 +3,9 @@ title: Onboarding case and case tasks
 description: The onboarding case is a central record that manages new customer account setup, activation, and subsequent updates like product additions, account modifications, and data maintenance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-case-case-tasks.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Account onboarding, Explore, Customer Success Management]
 ---
@@ -24,7 +24,7 @@ Customer success managers can use the onboarding case record to:
 -   Help transition the account to the next stage in the customer success journey.
 -   Manage new products and services.
 
-Onboarding case tasks are used to capture and track specific tasks associated with the customer account during each stage of the onboarding process. Customer success managers can track task progress across accounts and verify that important items haven’t been missed. See [Create an account onboarding case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-case.md) for more details.
+Onboarding case tasks are used to capture and track specific tasks associated with the customer account during each stage of the onboarding process. Customer success managers can track task progress across accounts and verify that important items haven’t been missed. See [Create an account onboarding case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-case.md) for more details.
 
-**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-playbook-overview.md)
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-playbook-overview.md)
 

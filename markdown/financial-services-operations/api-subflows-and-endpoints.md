@@ -3,9 +3,9 @@ title: API Subflows and Endpoints
 description: The application is built on four sequentially orchestrated subflows. Each maps to a specific Verifi REST endpoint and triggers at a defined point in the dispute workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/api-subflows-and-endpoints.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Verifi, Integrate, Financial Services Operations \(FSO\)]
 ---
@@ -115,5 +115,5 @@ PATCH
 Runs once when EXPORTING status is received and the merchant response is stored. Sends \{"status": "CLOSED"\} as the mandatory issuer acknowledgment handshake. Case is excluded from further polling.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Operations Integration with Verifi reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/referring-financial-services-operations-integration-with-verifi-cdrn.md)
+</table>**Parent Topic:**[Financial Services Operations Integration with Verifi reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/referring-financial-services-operations-integration-with-verifi-cdrn.md)
 

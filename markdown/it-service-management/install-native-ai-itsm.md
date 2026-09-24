@@ -3,9 +3,9 @@ title: Install IT Service Management
 description: Set up and get started with IT Service Management \(ITSM\) on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/install-native-ai-itsm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure and integrate, Simplified IT Service Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Set up and get started with IT Service Management \(ITSM\) on your instance.
 
 Role required: admin
 
--   Request for the entitlement of the ServiceNow Otto for Setup application \(sn\_ia\) from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install it. See [Set up ServiceNow Otto with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md) and [Understand the Configuration page flow in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md).
+-   Request for the entitlement of the ServiceNow Otto for Setup application \(sn\_ia\) from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install it. See [Set up ServiceNow Otto with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-setup-now-assist.md) and [Understand the Configuration page flow in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-configure-il.md).
 -   If none of the following ITSM applications are auto-installed, request for an entitlement from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) based on your subscription.
     -   IT Service Management \(sn\_ai\_itsm\_cont\)
     -   IT Service Management Advanced \(sn\_itsm\_adv\_cont\)
@@ -27,8 +27,8 @@ Role required: admin
 
 Post installation, the following capabilities are available:
 
--   AI agents and agentic workflows simplifying ITSM workflows, supporting a simplified Employee Center portal, and a simplified administrator, employee, and fulfiller experience. For information on AI agents, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
--   Commonly requested catalog items. For information on catalog items, see [Catalog items installed with Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/catalog-items-base-system.md).
+-   AI agents and agentic workflows simplifying ITSM workflows, supporting a simplified Employee Center portal, and a simplified administrator, employee, and fulfiller experience. For information on AI agents, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/agents-ai-native-it-service-desk.md).
+-   Commonly requested catalog items. For information on catalog items, see [Catalog items installed with Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/catalog-items-base-system.md).
 
 ## Procedure
 
@@ -73,5 +73,5 @@ Post installation, the following capabilities are available:
         \[Omitted image "ai-naive-install-get-started.png"\] Alt text: getting started with configurations
 
 
-**Parent Topic:**[Configuring Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-ai-native-itsm.md)
+**Parent Topic:**[Configuring Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-ai-native-itsm.md)
 

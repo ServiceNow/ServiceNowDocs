@@ -3,11 +3,11 @@ title: Capture actual monetary benefits
 description: Capture the actual benefit from the planned benefits to measure revenue and calculate the profits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/fin-manage-actual-monetary-benefit-pws.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans for your projects in Project Workspace, Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 ## Before you begin
 
--   [Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
+-   [Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -27,15 +27,15 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 2.  Capture actual monetary benefits using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d250267e86">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d251281e86">
 
 Option
 
-</th><th align="left" id="d250267e89">
+</th><th align="left" id="d251281e89">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d250267e95">
+</th></tr></thead><tbody><tr><td id="d251281e95">
 
 **Using Monetary benefit plan related list**
 
@@ -46,7 +46,7 @@ Procedure
 3.  Select the value from the **Entered benefit** field.
 
 
-</td></tr><tr><td id="d250267e125">
+</td></tr><tr><td id="d251281e125">
 
 **Using finanicals record page**
 
@@ -64,5 +64,5 @@ Monetary Benefit Plan Breakdown side-panel is displayed.
 4.  Enter the actuals benefits resulted from the work execution in the **Actual benefit** field and select **Save**.
 
 
-**Parent Topic:**[Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
+**Parent Topic:**[Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)
 

@@ -3,11 +3,11 @@ title: Wait for a duration flow logic
 description: Use this flow logic to give your users time to act during automated processes or to wait for a specific date and time to complete actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -67,7 +67,7 @@ During the following schedule
 
 </td><td>
 
-Select the schedule used to calculate the **Scheduled End date/time** value from the selected wait duration. For example, waiting for a 10-hour duration as part of an 8-5 weekdays schedule causes the flow to wait for one or more business days. If you leave this field blank, the timer runs without a schedule. For information on creating schedules, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineASchedule.md).
+Select the schedule used to calculate the **Scheduled End date/time** value from the selected wait duration. For example, waiting for a 10-hour duration as part of an 8-5 weekdays schedule causes the flow to wait for one or more business days. If you leave this field blank, the timer runs without a schedule. For information on creating schedules, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DefineASchedule.md).
 
 </td></tr></tbody>
 </table>## Outputs
@@ -126,7 +126,7 @@ The timer waits for the next instance of a selected schedule. For example, if yo
 
 2.  The Configuration Details section shows details about the variables that are used by the flow, including the type, configuration, and runtime values for each variable.
 
-**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 

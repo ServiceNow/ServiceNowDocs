@@ -3,11 +3,11 @@ title: Use AI Search for global search and configurable workspace search in Next
 description: AI Search is the default search engine for Unified Navigation searches in Next Experience, including global search and configurable workspace search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/explore-ais-nextexp-app.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,9 +18,9 @@ AI Search is the default search engine for Unified Navigation searches in Next E
 
 Search administrators can configure global search and configurable workspace search settings using the AI Search for Next Experience application.
 
-**Note:** The AI Search for Next Experience application is automatically installed and enabled in new Australia instances. If you upgrade to Australia from a previous release, your administrators can manually install and enable the application.
+**Note:** The AI Search for Next Experience application is automatically installed and enabled in new Brazil instances. If you upgrade to Brazil from a previous release, your administrators can manually install and enable the application.
 
-For details on AI Search for Next Experience, including configuration steps and a usage guide, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ais-next-experience-app.md).
+For details on AI Search for Next Experience, including configuration steps and a usage guide, see [AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/ais-next-experience-app.md).
 
-**Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-ais.md)
+**Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/explore-ais.md)
 

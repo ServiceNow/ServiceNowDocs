@@ -3,9 +3,9 @@ title: Manage instance data sources
 description: Data management is critical to success in all aspects of your business. Platform tools give you full control over your data, whether in instances, databases, or third-party applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/manage-data-sources.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,23 +16,23 @@ Data management is critical to success in all aspects of your business. Platform
 
 <table id="table_pg4_pjh_hvb" class="nav-card"><tbody><tr><td>
 
-[Instance Data Replication IDR \[Omitted image "bus-database.svg"\] Alt text: Synchronize data between instances in one-to-one or one-to-many database relationships.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md)
+[Instance Data Replication IDR \[Omitted image "bus-database.svg"\] Alt text: Synchronize data between instances in one-to-one or one-to-many database relationships.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md)
 
 </td><td>
 
-[MetricBase \[Omitted image "bus-management-console.svg"\] Alt text: Simplify working with large amounts of data and create time-based analyses.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase.md)
+[MetricBase \[Omitted image "bus-management-console.svg"\] Alt text: Simplify working with large amounts of data and create time-based analyses.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/metricbase/metricbase.md)
 
 </td><td>
 
-[MID Server \[Omitted image "bus-server.svg"\] Alt text: Communicate and transmit data between ServiceNow instances and external applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
+[MID Server \[Omitted image "bus-server.svg"\] Alt text: Communicate and transmit data between ServiceNow instances and external applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-landing.md)
 
 </td></tr><tr><td>
 
-[Financial Services Remote Tables \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Connect your instance on the ServiceNow AI Platform to third-party sources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md)
+[Financial Services Remote Tables \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Connect your instance on the ServiceNow AI Platform to third-party sources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/remote-tables/remote-tables.md)
 
 </td><td>
 
-[Entity View Action Mapper \(EVAM\) \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Standardize and chart out all data from multiple sources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/entity-view-action-mapper.md)
+[Entity View Action Mapper \(EVAM\) \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Standardize and chart out all data from multiple sources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/entity-view-action-mapper-evam/entity-view-action-mapper.md)
 
 </td><td>
 

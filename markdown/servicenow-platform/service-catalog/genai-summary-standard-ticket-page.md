@@ -3,11 +3,11 @@ title: Generative AI summarization on the standard ticket page
 description: On the standard ticket page, requesters can quickly access a generative AI summary of the ticket and its recent activity at the top. To display this summary, make sure the Summary fields is set up on the Ticket configuration page and that the ServiceNow Otto in Standard Ticket Page skill is enabled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/genai-summary-standard-ticket-page.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Standard ticket page for a requested item, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,12 +22,12 @@ The **Summarize** button appears when at least one field is configured. If no fi
 
 Each summary uses a set structure for consistency, making information easy to understand and improving communication in the ticketing process.
 
-**Parent Topic:**[Standard ticket page for a requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/stpage-req-item.md)
+**Parent Topic:**[Standard ticket page for a requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/stpage-req-item.md)
 
 **Related topics**  
 
 
-[Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
+[Now Assist in Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
 
-[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-st-page.md)
+[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-st-page.md)
 

@@ -3,11 +3,11 @@ title: Debug UI customizations for a Service Catalog page
 description: Perform the health check of a Service Catalog page. The UI Page Customization Diagnostics window displays the UI macros applicable for the Service Catalog page and their corresponding states. For issues on a Service Catalog page due to customized UI macros, you can identify the source of broken functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/debug-ui-customization-catalog-page.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Debugging Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -116,12 +116,12 @@ data-sn-macro-sys-id="${jvar_macro_sys_id}"
 4.  To minimize the UI Page Customization Diagnostics window, click \[Omitted image "MinimizeDebugUI.png"\] Alt text: Icon to minimize the window.
 
 
-**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
 
 **Related topics**  
 
 
-[UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md)
+[UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_UIMacros.md)
 
 [bundle-platadm.c_UpgradeHistory]
 

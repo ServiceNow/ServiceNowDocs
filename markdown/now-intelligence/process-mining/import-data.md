@@ -3,11 +3,11 @@ title: Import data into the audit table
 description: Import external dataset into the audit table to start working with the data in Process Mining.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/import-data.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
@@ -18,13 +18,13 @@ Import external dataset into the audit table to start working with the data in P
 
 ## Before you begin
 
--   [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-table.md)
+-   [Create an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/create-table.md)
 
 You can import using ServiceNow Integration Hub or any other application. This section describes how to import data using ServiceNow Integration Hub.
 
 Role required: sn\_process\_mining\_admin
 
-**Note:** If an import takes more than 24 hours, it gets automatically cancelled. This is managed by the sn\_po\_extdata.cancel\_job\_after\_seconds system property. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/components-installed.md).
+**Note:** If an import takes more than 24 hours, it gets automatically cancelled. This is managed by the sn\_po\_extdata.cancel\_job\_after\_seconds system property. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/components-installed.md).
 
 ## Procedure
 
@@ -64,6 +64,6 @@ Role required: sn\_process\_mining\_admin
 
 8.  Schedule your imports.
 
-    For detailed information, see [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub-imports.md).
+    For detailed information, see [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integrationhub-imports.md).
 
 

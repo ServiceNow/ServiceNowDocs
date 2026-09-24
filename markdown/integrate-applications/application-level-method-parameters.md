@@ -3,9 +3,9 @@ title: Application level method parameters
 description: These parameters pass custom specifications to the various applications such as Java, Google Chrome , Windows , and Mainframe. Based on the specifications, the applications return an output. The process is a part of a Robotic Process Automation .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/application-level-method-parameters.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -45,5 +45,5 @@ These parameters pass custom specifications to the various applications such as 
 |Field \(String\)|Returns the data in the form or text field.|Not applicable|
 |MatchAllChildren|Option to indicate whether the method will match all elements of the application while the terminal session executes.|No|
 
-**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors.md)
+**Parent Topic:**[Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connectors.md)
 

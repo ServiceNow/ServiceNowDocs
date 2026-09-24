@@ -3,9 +3,9 @@ title: Create a recommendation with guidance as an action type
 description: Create a recommendation to select the Guidance as an action type for linking a major case to the current case record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-create-recommendation-guidance.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example: Link the similar major case to the current case, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---

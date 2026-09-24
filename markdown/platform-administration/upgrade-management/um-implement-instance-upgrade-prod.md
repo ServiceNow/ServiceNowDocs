@@ -3,11 +3,11 @@ title: Implement instance upgrade activities on a prod instance
 description: Implement the instance upgrade tasks for a successful upgrade on your prod instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-implement-instance-upgrade-prod.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access guided upgrade on a production instance, Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -49,5 +49,5 @@ Role required: upgrade\_admin
 2.  Select **Mark as complete** when the upgrade process completes.
 
 
-**Parent Topic:**[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)
+**Parent Topic:**[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)
 

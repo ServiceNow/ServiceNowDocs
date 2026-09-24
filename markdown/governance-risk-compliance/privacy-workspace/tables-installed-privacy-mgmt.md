@@ -3,11 +3,11 @@ title: Tables installed with Privacy Management
 description: Tables are added with activation of GRC: Privacy Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/tables-installed-privacy-mgmt.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -104,6 +104,26 @@ Processing activity hierarchy
 
 Personal data can be moved from one processing activity to another processing activity. This table stores the upstream and downstream processing activities information for each processing activity.
 
+</td></tr><tr><td>
+
+Data transfers
+
+ \[sn\_privacy\_data\_transfer\]
+
+</td><td>
+
+Stores data transfer records that capture the movement of personal data between nodes in a hierarchy relationship.
+
+</td></tr><tr><td>
+
+Transfer mechanisms
+
+ \[sn\_privacy\_transfer\_mechanism\]
+
+</td><td>
+
+Stores the legal safeguards that permit data transfers, such as Standard Contractual Clauses \(SCCs\), Binding Corporate Rules \(BCRs\), and adequacy decisions.
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
+</table>**Parent Topic:**[Privacy Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-reference.md)
 

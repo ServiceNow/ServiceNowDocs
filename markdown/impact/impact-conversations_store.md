@@ -3,9 +3,9 @@ title: Impact Conversations
 description: Help Impact customers and squads to collaborate in the context of outcomes, accelerators, initiatives, platform health and other Impact entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-conversations\_store.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Using Impact, Impact]
 ---
@@ -34,7 +34,7 @@ This channel gives users direct access to expert guidance on platform health, bu
 **Related topics**  
 
 
-[Start a conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/start-conversation-store.md)
+[Start a conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/start-conversation-store.md)
 
-[Working with Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/working-with-conversations.md)
+[Working with Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/working-with-conversations.md)
 

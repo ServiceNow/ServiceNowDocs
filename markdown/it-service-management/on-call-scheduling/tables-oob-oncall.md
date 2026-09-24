@@ -3,11 +3,11 @@ title: Tables installed with On-Call Scheduling
 description: On-Call Scheduling adds the following tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/tables-oob-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Components installed with On-call scheduling, Reference for on-call scheduling, On-Call Scheduling, IT Service Management]
 ---
@@ -49,5 +49,5 @@ On-Call Scheduling adds the following tables.
 |On-Call Remove Member \[on\_call\_remove\_member\]|Table that records the member details for removing a member from the roster.|
 |On-Call Move Member \[on\_call\_swap\_member\]|Table that records the member details for swapping the order of a member with the target member or moving the order of a member after the target member in the roster.|
 
-**Parent Topic:**[Components installed with On-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/components-installed-with-on-call-scheduling.md)
+**Parent Topic:**[Components installed with On-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/components-installed-with-on-call-scheduling.md)
 

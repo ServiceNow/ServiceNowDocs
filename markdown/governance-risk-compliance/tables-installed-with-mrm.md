@@ -3,9 +3,9 @@ title: Tables installed with Model Risk Management
 description: Tables are added with the activation of the Model Risk Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/tables-installed-with-mrm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Model Risk Management, Governance, Risk, and Compliance]
 ---
@@ -115,5 +115,5 @@ Model risk score
 Stores the scores calculated by the execution of model risk scoring configurations whenever a Smart Assessment is submitted and the assessment task is completed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/mrm-reference.md)
+</table>**Parent Topic:**[Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/mrm-reference.md)
 

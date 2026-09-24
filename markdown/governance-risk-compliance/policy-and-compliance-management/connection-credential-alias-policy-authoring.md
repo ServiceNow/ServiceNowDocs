@@ -3,11 +3,11 @@ title: Connection and credential alias record fields
 description: The Microsoft OneDrive Spoke connection and credential alias controls how policy authoring operations authenticate with Microsoft SharePoint and Google Drive. Understanding the alias structure helps you configure and switch between system and personal authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/connection-credential-alias-policy-authoring.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: reference
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [connection credential alias, sn\_onedrive\_spoke.OneDrive, child alias, Microsoft System LES, integration type, policy authoring]
 breadcrumb: [Authentication and document access in policy authoring, Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]

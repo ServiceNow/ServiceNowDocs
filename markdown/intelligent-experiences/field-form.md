@@ -3,12 +3,12 @@ title: Field form fields
 description: The field form defines the information to extract from a document, including the field name, type, and target table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/field-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Forms, Reference, Content Understanding, Enable AI experiences]
+breadcrumb: [Forms, Reference, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Field form fields
@@ -62,7 +62,7 @@ Field Type
 
 </td><td>
 
-Type of field, such as text or date. For more information, see [Field types in Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/field-types.md). Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/data-normalization.md).
+Type of field, such as text or date. For more information, see [Field types in Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/field-types.md). Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/data-normalization.md).
 
 </td></tr><tr><td>
 
@@ -97,5 +97,5 @@ Create multiple single fields
 Keeps the form open after saving. Select this option when adding more than one field to the use case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Content Understanding forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-forms.md)
+</table>**Parent Topic:**[Content Understanding forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-forms.md)
 

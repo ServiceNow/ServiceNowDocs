@@ -3,13 +3,13 @@ title: Create a checklist template for Visual Task Board tasks
 description: A template saves time by creating checklist items automatically. You can add, edit, or remove checklist items without impacting the template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/create-checklist-template.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Visual Task Board checklists, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Visual Task Board checklists, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Create a checklist template for Visual Task Board tasks
@@ -18,7 +18,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 ## Before you begin
 
-[Activate Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ActivateVisualTaskBoards.md).
+[Activate Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/t_ActivateVisualTaskBoards.md).
 
 Role required: none
 
@@ -59,7 +59,7 @@ There are two ways that you can create a checklist template:
 
 12. Configure the fields for your new checklist template.
 
-<table id="choicetable_dtf_dxh_j1c"><tbody><tr><td id="d58787e200">
+<table id="choicetable_dtf_dxh_j1c"><tbody><tr><td id="d59635e200">
 
 **Group**
 
@@ -67,7 +67,7 @@ There are two ways that you can create a checklist template:
 
 You can use this field to limit the group of users that are allowed to use this checklist template.
 
-</td></tr><tr><td id="d58787e209">
+</td></tr><tr><td id="d59635e209">
 
 **Template**
 
@@ -99,7 +99,7 @@ The name of a checklist item.
 
 The order in which a checklist item appears in the checklist.
 
-</td></tr><tr><td id="d58787e277">
+</td></tr><tr><td id="d59635e277">
 
 **Name**
 
@@ -107,7 +107,7 @@ The order in which a checklist item appears in the checklist.
 
 The name of the checklist template.
 
-</td></tr><tr><td id="d58787e286">
+</td></tr><tr><td id="d59635e286">
 
 **User**
 
@@ -127,5 +127,5 @@ Your checklist template is created.
 
 Create a checklist from a checklist template by selecting the template from the more icon.
 
-**Parent Topic:**[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
+**Parent Topic:**[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
 

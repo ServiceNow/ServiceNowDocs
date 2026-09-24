@@ -3,9 +3,9 @@ title: Use AI filter assist
 description: AI filter assist enables you to convert everyday language into an AI-generated encoded query.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-ai-filter-assist.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ AI filter assist enables you to convert everyday language into an AI-generated e
 
 ## Before you begin
 
-**Important:** The AI filter assist feature is available with ServiceNow® Pro Plus licensing. Discuss licensing with your ServiceNow® account representative for information specific to your contract.
+**Important:** Check your entitlements to determine whether you have access to the AI filter assist feature. Discuss licensing with your ServiceNow® account representative for information specific to your contract.
 
 Role required: workspace\_user
 
@@ -32,8 +32,8 @@ Role required: workspace\_user
 
 3.  Select one of the following options from the menu.
 
-    -   Select **Add to current filters** to add additional conditions onto the filter that's currently applied.
-    -   Select **Edit current filters** to refine the filter that's currently applied.
+    -   Select **Add to existing filters** to add additional conditions onto the filter that's currently applied.
+    -   Select **Edit existing filters** to refine the filter that's currently applied.
     -   Select **Start new** to generate a new filter.
 4.  Create a query with everyday language using one of the following options.
 

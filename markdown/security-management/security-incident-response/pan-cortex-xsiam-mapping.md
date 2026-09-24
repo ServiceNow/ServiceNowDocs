@@ -3,11 +3,11 @@ title: Map incident fields
 description: Map Cortex XSIAM Incident, Alert, and Event Fields to SIR Incident Target Fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/pan-cortex-xsiam-mapping.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -133,5 +133,5 @@ Use this ingestion method to load the field values of a specific XSIAM case. Ent
 
 Define and set filter conditions to specify which incidents should create security incidents. You can use the same field values \(defined in the Mapping section\) in the incident Generation Conditions builder. Use these values to define additional criteria that an incoming incident must satisfy to create a security incident.
 
-For more information, see [Define filter and aggregation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/xsiam-filtering-and-aggregation.md).
+For more information, see [Define filter and aggregation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/xsiam-filtering-and-aggregation.md).
 

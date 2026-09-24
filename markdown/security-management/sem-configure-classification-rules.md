@@ -1,11 +1,11 @@
 ---
 title: Configuring classification rules
-description: By configuring classification rules, you can ensure consistent categorization and processing of vulnerabilities, discovered items and other finding related entities based on key attributes. This helps the system route findings to the correct tables, apply the appropriate grouping, assignment, and remediation rules, enhance reporting accuracy, and determine which business logic to use \(such as prioritization and remediation targets\).Create groups so that the underlying rules of this group can classify the entities or records in a specified table based on the conditions. The rules can be used to select any field in the corresponding table.Create rules to classify entities or records in the specified table into choice of classifications for use in downstream process or rules.Rerun all active rules on all the findings when you modify a classification rule. You can also update existing vulnerabilities by applying the new classification rules.Deactivate or delete a classification rule if it is no longer needed or relevant.
+description: By configuring classification rules, you can ensure consistent categorization and processing of vulnerabilities, discovered items and other finding related entities based on key attributes. This helps the system route findings to the correct tables, apply the appropriate grouping, assignment, and remediation rules, enhance reporting accuracy, and determine which business logic to use \(such as prioritization and remediation targets\).Create groups so that the underlying rules of this group can classify the entities or records in a specified table based on the conditions. The rules can be used to select any field in the corresponding table.Create rules to classify entities or records in the specified table into choice of classifications for use in downstream process or rules. .Rerun all active rules on all the findings when you modify a classification rule. You can also update existing vulnerabilities by applying the new classification rules.Deactivate or delete a classification rule if it is no longer needed or relevant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-classification-rules.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [configure classification rules]
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
@@ -17,12 +17,10 @@ By configuring classification rules, you can ensure consistent categorization an
 
 Configuration of classification rules includes the following steps.
 
-**Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-rules-manage-findings.md)
-
 **Related topics**  
 
 
-[Categorizing findings and discovered items using classification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-categorizing-findings-discovered-items.md)
+[Categorizing findings and discovered items using classification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-categorizing-findings-discovered-items.md)
 
 ## Create and edit a classification group
 
@@ -30,7 +28,7 @@ Create groups so that the underlying rules of this group can classify the entiti
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-acls-for-admin-rules.md)
 
 ### Procedure
 
@@ -94,11 +92,11 @@ Description of the new classification group.
 
 ## Create or edit classification rules
 
-Create rules to classify entities or records in the specified table into choice of classifications for use in downstream process or rules.
+Create rules to classify entities or records in the specified table into choice of classifications for use in downstream process or rules. .
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-acls-for-admin-rules.md)
 
 ### Procedure
 
@@ -187,7 +185,7 @@ Filter group
 
 </td><td>
 
-Group of filters. The group is defined when a set of conditions is used repeatedly in multiple places. Select the lookup using the lookup list icon to select the filter group. For more information, see [Create and define filter groups in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-filter-group.md). This field appears only when **Filter group** is selected from the **Condition type** field.
+Group of filters. The group is defined when a set of conditions is used repeatedly in multiple places. Select the lookup using the list icon \(\[Omitted image "lookup\_list\_icon.png"\] Alt text: Lookup list icon\) to select the filter group. For more information, see [Create and define filter groups in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/create-filter-group.md). This field appears only when **Filter group** is selected from the **Condition type** field.
 
 </td></tr><tr><td>
 
@@ -257,7 +255,7 @@ Rerun all active rules on all the findings when you modify a classification rule
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-acls-for-admin-rules.md)
 
 ### Procedure
 
@@ -280,7 +278,7 @@ Deactivate or delete a classification rule if it is no longer needed or relevant
 
 ### Before you begin
 
-Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-acls-for-admin-rules.md)
+Role required: See [Access control lists \(ACLs\) for administration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-acls-for-admin-rules.md)
 
 ### About this task
 

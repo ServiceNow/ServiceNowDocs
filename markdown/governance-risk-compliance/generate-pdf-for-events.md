@@ -3,11 +3,11 @@ title: Generate event reports in PDF or Microsoft Word
 description: Generate the PDF or Microsoft Word copy of an exercise or a crisis event in the BCM Configurable Workspace and save it for a future reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/generate-pdf-for-events.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-17"
-reading_time_minutes: 2
-breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Generate event reports in PDF or Microsoft Word
@@ -20,7 +20,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 
-To format the PDF for your business needs, see [Format PDF templates for BIAs, BCPs, and Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.md).
+To format the PDF for your business needs, see [Format PDF templates for BIAs, BCPs, and Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.md).
 
 Beginning with the Xanadu release, the content in PDFs of Business Impact Analyses, Plans, and Events is improved by implementing a new layout:
 
@@ -29,7 +29,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 -   Display a table that outlines the dependencies of the plan assets.
 -   Mark the date of the PDF creation on the front page.
 
-Starting with BCM Core version 12.x.x and later, the generated PDF also includes a **Collaboration Threads** section listing each collaboration thread's recovery team, impacted assets, and state.
+Starting with BCM Core version 12.x.x and later, the **General Information** section of the PDF includes the event's **Level** field, and the generated PDF also includes a numbered **Collaboration Threads** section. Each numbered thread block, sorted by creation date, lists its **Created** date, description, impacted assets, recovery teams, and state, followed by any action items linked to that thread.
 
 ## Procedure
 
@@ -55,18 +55,18 @@ Starting with BCM Core version 12.x.x and later, the generated PDF also includes
 
     You can save the PDF for a future reference.
 
-6.  To format the Events PDF template, follow the instructions in [Format PDF templates for BIAs, BCPs, and Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.md).
+6.  To format the Events PDF template, follow the instructions in [Format PDF templates for BIAs, BCPs, and Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.md).
 
 7.  To create the event report in Microsoft Word, select **Generate MS Word**.
 
     Generate a report of the event or crisis record in Microsoft Word format. The Microsoft Word copy of the BIA record is successfully generated that you can download.
 
-    For more information on generating reports in Microsoft Word format using Document designer, see [Generating reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/integrating-document-designer-with-bcm.md).
+    For more information on generating reports in Microsoft Word format using Document designer, see [Generating reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/integrating-document-designer-with-bcm.md).
 
-    For instructions on customizing a collaboration section into a formatted block, see [Update the Word template with a collaboration block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-collaboration-block-docudesigner.md).
+    For instructions on customizing a collaboration section into a formatted block, see [Add a collaboration block to the Word template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/add-collaboration-block-docudesigner.md).
 
 8.  To print the report, open the saved PDF or Microsoft Word copy and select **Print**.
 
 
-**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

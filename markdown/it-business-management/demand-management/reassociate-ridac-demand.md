@@ -3,11 +3,11 @@ title: Associate existing RIDAC records for a demand
 description: Link existing RIDAC records \(risks, issues, actions, decisions, and request changes\) to one another for your demand. Associating RIDAC records with each other enables you to keep a record of risks or issues and their outcome for analysis at demand closure and planning. It also helps to track the risks and issues throughout the demand life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/reassociate-ridac-demand.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -45,5 +45,5 @@ You can associate one record with multiple different records. For example, you c
 7.  Select **OK**.
 
 
-**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
+**Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
 

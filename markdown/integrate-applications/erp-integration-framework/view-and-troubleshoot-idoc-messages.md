@@ -3,14 +3,14 @@ title: View and troubleshoot IDoc messages
 description: When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, outbound, message, details, information, troubleshoot]
-breadcrumb: [IDoc, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [IDoc, Adding an entity to a model, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View and troubleshoot IDoc messages
@@ -38,16 +38,18 @@ Role required: sn\_erp\_integration.erp\_admin
     For example:
 
     -   Check the **Status** field to see if the message was successful.
-    -   Check the **IDoc payload** field if the message was not successful and you need to troubleshoot. Also, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md) for detailed information and examples using the API.
+    -   Check the **IDoc payload** field if the message was not successful and you need to troubleshoot. Also, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md) for detailed information and examples using the API.
     -   The **IDoc number** can also be useful.
-    For a detailed description of the field values, see [Outbound message transaction details tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-transaction-details-tab-fields.md).
+    For a detailed description of the field values, see [Outbound message transaction details tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-transaction-details-tab-fields.md).
 
 7.  Select the **Errors** tab to view information about any message errors that have occurred.
 
-    For a detailed description of the field values, see [Outbound message errors tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-errors-tab-columns.md).
+    For a detailed description of the field values, see [Outbound message errors tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-errors-tab-columns.md).
 
 8.  Select the **IDoc status for IDoc log** tab for technical information about the message.
 
-    For a detailed description of the column values, see [Outbound message IDoc status for IDoc log tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-idoc-status-for-idoc-log-tab-columns.md).
+    For a detailed description of the column values, see [Outbound message IDoc status for IDoc log tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-idoc-status-for-idoc-log-tab-columns.md).
 
+
+**Parent Topic:**[Creating and changing SAP business entities with IDoc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)
 

@@ -3,9 +3,9 @@ title: Define object-indicator relationships
 description: Define relationships between the indicator object and other SDOs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/define-object-indicator.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Relationships, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -39,5 +39,5 @@ Role required: sn\_ti.admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/stix-relationships.md)
+**Parent Topic:**[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/stix-relationships.md)
 

@@ -3,9 +3,9 @@ title: Configure Windows connector
 description: Configure the Windows connector to access its methods and build automation on a Windows application. It provides methods at different levels and you must first configure it to expose methods at all levels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-windows-connector.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Windows connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Configure the Windows connector to access its methods and build automation on a 
 
 ## Before you begin
 
-Add the Windows plugin from the Plugins Manager before using the connector. For more information about adding the SSH plugin, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
+Add the Windows plugin from the Plugins Manager before using the connector. For more information about adding the SSH plugin, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-plugins-rpa-studio.md).
 
 Ensure at least one Windows application is open or active.
 
@@ -44,10 +44,10 @@ Role required: none
 
 9.  Use the context dialog to capture elements.
 
-    To use the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-context-dialog.md).
+    To use the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-context-dialog.md).
 
     **Important:** If the language of your Microsoft Windows machine is non-english, then an unhandled exception error message is displayed when you click the Target Objects Preview pane. Click **Ok** on the error message box to proceed configuring the connector.
 
 
-**Parent Topic:**[Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/windows-connector.md)
+**Parent Topic:**[Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/windows-connector.md)
 

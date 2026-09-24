@@ -3,11 +3,11 @@ title: Featured content
 description: Using featured content, administrators can highlight important resources, articles, and catalog items prominently for employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/featured-content.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
@@ -26,6 +26,6 @@ Mark the most important content as featured content so that employees can quickl
 -   Highlight the items at the top of topic pages to improve discoverability.
 -   Ensure employees see high-impact information first.
 -   Personalize user content experience on widgets.For more information, see
-    -   [Associate featured content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/associate-featured-content-to-topic.md)
-    -   [Featured Content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/featured-content-form.md)
+    -   [Associate featured content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/associate-featured-content-to-topic.md)
+    -   [Featured Content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/featured-content-form.md)
 

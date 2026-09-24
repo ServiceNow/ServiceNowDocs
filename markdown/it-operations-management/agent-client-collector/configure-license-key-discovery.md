@@ -3,11 +3,11 @@ title: Configure license key discovery
 description: Enable license key discovery and define the registry paths and values you want the Agent Client Collector for Visibility Content Windows agent to collect from managed endpoints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-license-key-discovery.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [license key discovery, ACC-VC, Windows registry, software license, agent client collector]
 breadcrumb: [License key discovery, ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
@@ -39,7 +39,7 @@ Role required: agent\_client\_collector\_admin or discovery\_admin
 
 5.  Navigate to the **License Registry Configuration** \[sn\_acc\_vis\_content\_license\_registry\_config\] table and create a record for each registry entry you want to collect.
 
-    Enter the appropriate values in the fields for each record. For details about the fields, see the [License Registry Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/license-key-discovery-reference.md) table.
+    Enter the appropriate values in the fields for each record. For details about the fields, see the [License Registry Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/license-key-discovery-reference.md) table.
 
 6.  Select **Submit** to save the configuration record.
 
@@ -52,5 +52,5 @@ Role required: agent\_client\_collector\_admin or discovery\_admin
 
 The **Refresh License Key Config File** scheduled job reads all active configuration records and publishes them to the agent as `LicenseKeyConfig.json`. On the next agent run, the Windows agent queries the defined registry paths on each managed endpoint and sends the collected key values to your instance. Discovered keys are stored in the **License Keys** \[sn\_acc\_vis\_content\_license\_keys\] table, linked to the device CI, the associated SAM product, and the user assigned to the CI. If a key that was previously detected is no longer found, it is marked as **Absent**.
 
-**Parent Topic:**[License key discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/license-key-discovery.md)
+**Parent Topic:**[License key discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/license-key-discovery.md)
 

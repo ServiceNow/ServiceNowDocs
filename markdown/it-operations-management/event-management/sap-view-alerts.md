@@ -3,11 +3,11 @@ title: View alerts in the SAP Solution Manager inbox
 description: You can view alerts generated in SAP Solution Manager to see any pressing issues. All alerts also forward to Event Management automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/sap-view-alerts.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAP Solution Manager setup configurations, Enable SAP connector configurations, Configure SAP Solution Manager connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -79,5 +79,5 @@ Here’s how the alert is mapped in Event Management:
 |Rating|Red|
 |Mandant|100|
 
-**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-solman-configurations.md)
+**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/sap-solman-configurations.md)
 

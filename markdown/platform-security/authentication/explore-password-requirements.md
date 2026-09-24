@@ -3,11 +3,11 @@ title: Explore Password complexity requirements
 description: Passwords in your ServiceNow instance must meet complexity requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/explore-password-requirements.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Password complexity requirements, Local authentication, Authentication, Access Management]
 ---

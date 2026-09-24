@@ -3,10 +3,10 @@ title: Service Model Foundation roles
 description: Roles that are included with the plugins that enable the Service Model Foundation feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-model-roles.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up y
 
 Roles that are included with the plugins that enable the Service Model Foundation feature.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 The following table describes the roles that the administrator can assign to the internal users.
 
@@ -44,15 +44,47 @@ Organization Hierarchy Contributor
 
 </td><td>
 
-Create and track cases on behalf of their organization hierarchy.
+Create and track cases on behalf of location hierarchy and for customer supported by those locations
 
 </td><td>
 
-sn\_customerservice.service\_organization\_contributor
+ 
 
 </td></tr><tr><td>
 
-Business Organization Self Contributor\[sn\_bus\_loc.business\_org\_self\_contributor\] or \[business\_org\_self\_contributor\]
+Organization Hierarchy Agent\[org\_hierarchy\_agent\]
+
+</td><td>
+
+Organization Hierarchy Agent
+
+</td><td>
+
+Resolves account cases associated with their location hierarchy
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Organization Hierarchy Consumer Agent\[org\_hierarchy\_consumer\_agent\]
+
+</td><td>
+
+Organization Hierarchy Consumer Agent
+
+</td><td>
+
+Resolves consumer cases associated with their location hierarchy
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Business Organization Self Contributor\[sn\_bus\_loc.business\_org\_self\_contributor\]
 
 </td><td>
 
@@ -60,10 +92,7 @@ Business Organization Self Contributor
 
 </td><td>
 
-Enables self-service case reporting for frontline, field, and location-based workers within business organizations. With this role, you can:
-
--   Create and track cases for sold products and install base items assigned to you at a business organization \(formerly business location\).
--   View your own member details and responsibility at that location, along with the assignment group mapped to it.
+Create and track service cases for their assigned sold products and install base items at a business location, without any involvement. Can only access cases for sold products and install base items assigned at the respective business location
 
 </td><td>
 
@@ -79,7 +108,7 @@ Location agent
 
 </td><td>
 
-Create and fulfill cases for the accounts and contacts in the agent's business organization .
+Create and fulfill cases for the accounts and contacts in the agent's business location
 
 </td><td>
 
@@ -96,7 +125,7 @@ Location consumer agent
 
 </td><td>
 
-Create and fulfill cases for the consumers and households in the agent's business organization .
+Create and fulfill cases for the consumers and households in the agent's business location.
 
 </td><td>
 
@@ -113,7 +142,7 @@ Location Manager Fulfiller
 
 </td><td>
 
-Create and update cases for accounts, contacts, consumers, and households that work with the business organizations within their location hierarchy.
+Create and update cases for accounts, contacts, consumers, and households that work with the business locations within their location hierarchy.
 
 </td><td>
 
@@ -142,8 +171,42 @@ Manage service organizations and create cases for accounts, households, or consu
 
 -   sn\_customerservice.service\_organization\_contributor
 -   sn\_customerservice.svc\_location\_manager\_core
--   sn\_customerservice.consumer\_contributor
--   sn\_customerservice.account\_contributor
+-   sn\_bus\_loc.business\_org\_account\_contributor
+-   sn\_bus\_loc.business\_org\_consumer\_contributor
+
+ **Note:** The Location manager contributor reflects the role's containment after the **Remove Legacy Roles from Loc Mgr Contrib** job has been run. For upgrade customers who haven't run this job yet, this role still contains sn\_customerservice.account\_contributor and sn\_customerservice.consumer\_contributor instead. For more information, see [Enable restricted customer access for Business Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/remove-legacy-contributor-roles-from-loc-mgr-contrib.md).
+
+</td></tr><tr><td>
+
+Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contributor\]
+
+</td><td>
+
+Business Org Account Contributor
+
+</td><td>
+
+Creates cases for accounts associated with their business organization using organization criteria-based restricted customer access. Tracks and manages cases created by them for the accounts associated with their business organization.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contributor\]
+
+</td><td>
+
+Business Org Consumer Contributor
+
+</td><td>
+
+Creates cases for consumers and households associated with their business organization using organization criteria-based restricted customer access. Tracks and manages cases created by them for the consumers or households associated with their business organization.
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 
@@ -157,9 +220,11 @@ None
 
 </td><td>
 
-Views project details and project tasks of their respective business organization.
+Views project details and project tasks of their respective business location.
 
  Marks customer visible project tasks as complete.
+
+ Assigns business organization project tasks to other location staff, project stakeholders, and assignment group.
 
 </td><td>
 
@@ -177,9 +242,11 @@ None
 
 </td><td>
 
-Views project details and project tasks of their respective business organization \(formerly business location\) and child business organizations .
+Views project details and project tasks of their respective business location and child business locations.
 
  Marks customer visible project tasks as complete.
+
+ Assigns business organization project tasks to other location staff, project stakeholders, and assignment group.
 
 </td><td>
 
@@ -195,7 +262,7 @@ None
 
 </td><td>
 
-Views all external organization \(formerly external business location\) details and location staff
+Views all external business location details and location staff
 
 </td><td>
 
@@ -211,7 +278,7 @@ None
 
 </td><td>
 
-Views all internal organization \(formerly internal business location\) details and location staff.
+Views all internal business location details and location staff.
 
 </td><td>
 
@@ -278,7 +345,7 @@ None
 
 </td><td>
 
-A service management agent role for a business organization \(formerly business location\)
+A service management agent role for a business location
 
 </td><td>
 
@@ -308,7 +375,7 @@ Location Support Agent
 
 This role resolves the cases originated from other business organizations, ensuring access to required information and other details, and facilitating efficient coordination with store personnel
 
-**Note:** This role only applies to the internal organization \(formerly internal business location\).
+**Note:** This role only applies to the internal business location.
 
 </td><td>
 
@@ -327,9 +394,9 @@ Location Contributor
 This user:-   works with accounts and contacts, consumers, and households
 -   uses the Customer or Consumer Service Portal to assist customers
 -   search knowledge articles and catalog items.
--   create cases on behalf of their business organization \(formerly business location\), including cases for catalog items \(requests\), and follow up on those cases.
+-   create cases on behalf of their business location, including cases for catalog items \(requests\), and follow up on those cases.
 -   create cases from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
--   view and follow up on other cases created for the user's business organization \(formerly business location\).
+-   view and follow up on other cases created for the user's business location.
 
 If also an internal user on a case, this user can:
 
@@ -344,6 +411,38 @@ If also an internal user on a case, this user can:
 -   sn\_customerservice.case\_contributor\_creator
 -   sn\_service\_org.service\_criteria\_read
 -   sn\_service\_org.customer\_criteria\_read
+
+</td></tr><tr><td>
+
+Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contributor\]
+
+</td><td>
+
+Business Org Account Contributor
+
+</td><td>
+
+Creates cases for accounts supported by their business organization. Tracks and manages cases created by them for the accounts associated with their business organization.
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contributor\]
+
+</td><td>
+
+Business Org Consumer Contributor
+
+</td><td>
+
+Creates cases for consumers or households supported by their business organization. Tracks and manages cases created by them for the consumers or households associated with their business organization.
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Granular roles
@@ -370,7 +469,7 @@ sn\_service\_org.service\_org\_delete
 
 </td><td>
 
-Provides delete access to organization core, business organization, internal organization, and external organization
+Provides delete access to service organization, business location, internal business location, and external business location
 
 </td><td>
 
@@ -386,7 +485,7 @@ sn\_service\_org.service\_org\_external\_staff\_create
 
 </td><td>
 
-Provides create access to external organization staff \(formerly service organization external staff\)
+Provides create access to service organization external staff
 
 </td><td>
 
@@ -402,7 +501,7 @@ sn\_service\_org.service\_org\_external\_staff\_read
 
 </td><td>
 
-Provides read access to external organization staff
+Provides read access to service organization external staff
 
 </td><td>
 
@@ -418,7 +517,7 @@ sn\_service\_org.service\_org\_external\_staff\_write
 
 </td><td>
 
-Provides write access to external organization staff
+Provides write access to service organization external staff
 
 </td><td>
 
@@ -434,7 +533,7 @@ sn\_service\_org.service\_org\_external\_staff\_delete
 
 </td><td>
 
-Provides delete access to external organization staff
+Provides delete access to service organization external staff
 
 </td><td>
 
@@ -450,7 +549,7 @@ sn\_service\_org.service\_org\_assignment\_group\_create
 
 </td><td>
 
-Provides create access to organization assignment groups \(formerly service organization assignment groups\)
+Provides create access to service organization assignment groups
 
 </td><td>
 
@@ -466,7 +565,7 @@ sn\_service\_org.service\_org\_assignment\_group\_read
 
 </td><td>
 
-Provides read access to organization assignment groups
+Provides read access to service organization assignment groups
 
 </td><td>
 
@@ -482,7 +581,7 @@ sn\_service\_org.service\_org\_assignment\_group\_write
 
 </td><td>
 
-Provides write access to organization assignment groups
+Provides write access to service organization assignment groups
 
 </td><td>
 
@@ -498,7 +597,7 @@ sn\_service\_org.service\_org\_assignment\_group\_delete
 
 </td><td>
 
-Provides delete access to organization assignment groups
+Provides delete access to service organization assignment groups
 
 </td><td>
 
@@ -863,5 +962,5 @@ No
 </table>**Related topics**  
 
 
-[Service Model Foundation Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/granular-admin-roles.md)
+[Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/granular-admin-roles.md)
 

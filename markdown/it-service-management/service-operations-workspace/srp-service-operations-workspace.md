@@ -3,11 +3,11 @@ title: Configuring Standard Record Page in Service Operations Workspace
 description: Configure individual record pages to display information and help them to update the customization easily.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/srp-service-operations-workspace.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring record pages in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -28,14 +28,14 @@ Service Operations Workspace contains incidents, cases, and tasks that an agent 
 -   If you are on a version prior to 4.0, you can change the Incident record page using **Record SNC** in the UI Builder.
 -   ServiceNow doesn’t recommend customizing the Incident record page using methods such as **Record SNC** or **SRP Record**. So, no support is provided for record page customizations.
 
--   **[Add declarative actions on the standard record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-srp-sow.md)**  
+-   **[Add declarative actions on the standard record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-srp-sow.md)**  
 Add declarative actions on the Incident page and its tabs Service Operations Workspace using the Standard Record Page \(SRP\) to customize list actions, related list actions, and field decorators.
--   **[Custom Modal Migration in Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/custom-modal-migration-srp.md)**  
+-   **[Custom Modal Migration in Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/custom-modal-migration-srp.md)**  
 Modify the modal containers inside a record page in the Service Operations Workspace.
--   **[Modify the Record Page in the Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-record-page-order-sow.md)**  
+-   **[Modify the Record Page in the Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-record-page-order-sow.md)**  
 Configure the order number and screen conditions of a record page using the Standard Record Page \(SRP\) in the Service Operations Workspace.
--   **[Configure the Agent Assist tab in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-agent-assist-tab-sow-srp.md)**  
+-   **[Configure the Agent Assist tab in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-agent-assist-tab-sow-srp.md)**  
 Enable or disable the Agent Assist tab in the contextual side panel for the required record type using the Standard Record Page \(SRP\) in Service Operations Workspace.
 
-**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.md)
+**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.md)
 

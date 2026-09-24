@@ -3,9 +3,9 @@ title: Redact sensitive data from documents using AI
 description: Use AI to identify and redact sensitive information in documents. It suggests redaction codes based on compliance requirements, to help protect confidential data before documents are shared.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/redact-sensitive-data-using-AI.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [redaction, sensitive data, document security, compliance, AI]
 breadcrumb: [Use, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
@@ -17,11 +17,11 @@ Use AI to identify and redact sensitive information in documents. It suggests re
 
 ## Before you begin
 
-The Smart document skill must be configured and activated on the target table. For more information see, [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
+The Smart document skill must be configured and activated on the target table. For more information see, [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-skill-smart-documents.md).
 
-Add or remove data patterns to customize what the Smart Docs Agent suggests during redaction. For more information see, [Add or remove data patterns for sensitive content detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-regex-patterns.md).
+Add or remove data patterns to customize what the Smart Docs Agent suggests during redaction. For more information see, [Add or remove data patterns for sensitive content detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-regex-patterns.md).
 
-Redaction codes can be customized by your organizations' admin to match compliance requirements. See [Add or modify redaction codes for sensitive data redaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-or-modify-redaction-codes.md).
+Redaction codes can be customized by your organizations' admin to match compliance requirements. See [Add or modify redaction codes for sensitive data redaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/add-or-modify-redaction-codes.md).
 
 Role required: write access on the parent record
 

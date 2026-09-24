@@ -3,9 +3,9 @@ title: Enable OAuth 2.0 for email
 description: Setting up OAuth 2.0 for email requires you to obtain access and refresh tokens from your email provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SetUpOAuth2ForEmail.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [OAuth email authentication, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -39,7 +39,7 @@ Setting up OAuth 2.0 for email requires you to obtain access and refresh tokens 
 
 6.  Use the information you obtained from your third-party email account to fill in the fields on the form.
 
-    See [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md) for instructions.
+    See [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md) for instructions.
 
 7.  Create the OAuth application registry record and its associated OAuth Entity Profile and OAuth Entity Scope records.
 
@@ -80,5 +80,5 @@ Setting up OAuth 2.0 for email requires you to obtain access and refresh tokens 
     Use the same **Authentication** and **OAuth profile** settings as the OAuth SMTP email account.
 
 
-**Parent Topic:**[OAuth email authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_OAuthEmailAuthentication.md)
+**Parent Topic:**[OAuth email authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_OAuthEmailAuthentication.md)
 

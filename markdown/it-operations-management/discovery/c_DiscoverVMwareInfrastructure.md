@@ -3,11 +3,11 @@ title: Discovery for VMware virtualization
 description: A Discovery schedule for VMware virtualization discovers vCenter and ESX hosts and individual ESXi hosts that manage VMs and related components without a vCenter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoverVMwareInfrastructure.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [VMware virtualization, VMware infrastructure, VMware Discovery]
 breadcrumb: [Discovery for data-center virtualization, Discovery, ITOM Visibility, IT Operations Management]
@@ -19,8 +19,8 @@ A Discovery schedule for VMware virtualization discovers vCenter and ESX hosts a
 
 The following options are available for discovering VMware vCenter data:
 
--   Discovery runs the [VMware - vCenter Datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md) probe when it identifies a VMware vCenter process running on a Windows machine or detects activity with the vmapp port probe.
--   [Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r-orchestration.md) runs any of the vCenter probes from a workflow.
+-   Discovery runs the [VMware - vCenter Datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md) probe when it identifies a VMware vCenter process running on a Windows machine or detects activity with the vmapp port probe.
+-   [Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/r-orchestration.md) runs any of the vCenter probes from a workflow.
 
 Use standalone ESXi discovery to discover VMware data without a vCenter.
 

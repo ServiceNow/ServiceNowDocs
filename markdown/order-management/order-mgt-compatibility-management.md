@@ -3,9 +3,9 @@ title: Configuring compatibility rules for horizontal relationships
 description: As a provider, you can use compatibility rules to establish horizontal relationships between the specifications of multiple products, services, or resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-compatibility-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
 ---
@@ -25,12 +25,12 @@ While you're creating a compatibility rule, you can establish the horizontal rel
 
 Before you can capture a new customer order that has a horizontal relationship, you must configure the compatibility rules by defining the source and target specifications.
 
-**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
 **Related topics**  
 
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 
-[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-order-management.md)
 

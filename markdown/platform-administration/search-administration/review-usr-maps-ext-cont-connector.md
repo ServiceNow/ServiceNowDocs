@@ -3,13 +3,13 @@ title: Review user permissions for an external content connector
 description: View user and group access permissions retrieved by an external content connector, and see how the connector maps those permissions to your ServiceNow AI Platform instance's users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/review-usr-maps-ext-cont-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Review, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -97,5 +97,5 @@ In the banner frame, select your name to open the user menu, then select **Eleva
     Each entry shows a single ServiceNow AI Platform user along with the external user mapped to them and any external group memberships associated with that external user. You can sort and filter the list to locate entries of interest.
 
 
-**Parent Topic:**[Reviewing external content connector crawl results and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/reviewing-external-content-connector-results-and-analytics.md)
+**Parent Topic:**[Reviewing external content connector crawl results and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/reviewing-external-content-connector-results-and-analytics.md)
 

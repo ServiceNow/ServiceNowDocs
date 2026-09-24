@@ -3,11 +3,11 @@ title: Migrate and synchronize existing data to the CSDM framework
 description: You complete several tasks to confirm that your existing application data migrates successfully to the required tables in the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/migrate.html
-release: australia
+release: brazil
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 -   Some CSDM tables have been introduced recently so you might not be familiar with them. See the documentation for your product to learn about unfamiliar tables.
 -   You can continue to use customized or non-conforming CMDB tables. If you do so, however, you might not get the full benefit of your products.
--   Be sure to use the migration tools that are described in [Assistance with the CSDM life-cycle synchronization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.md).
+-   Be sure to use the migration tools that are described in [Assistance with the CSDM life-cycle synchronization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.md).
 
 **Manage the attributes that you're using.** Rationalize your custom attributes. Use the following guidelines to decide whether you really must keep all customizations:
 
@@ -90,10 +90,10 @@ After running the scripts and evaluating the data, you will have a better idea o
 
 You have successfully migrated your application to the CSDM framework, and your data is in the required CMDB locations.
 
--   **[Assistance with the CSDM life-cycle synchronization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.md)**  
-Several features help you to promote accuracy and completeness for the process of syncing legacy data with life-cycle data in the CSDM framework.
--   **[Legacy status values that are auto-updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-status-auto-updated.md)**  
+-   **[Assistance with the CSDM life-cycle synchronization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.md)**  
+Several features help you to promote accuracy and completeness for the process of synchronizing legacy data with life-cycle data in the CSDM framework.
+-   **[Legacy status values that are auto-updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-status-auto-updated.md)**  
 Several legacy statuses are automatically mapped to the **Life Cycle Stage** and **Life Cycle Stage Status** fields.
 
-**Parent Topic:**[Configuring CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/configure-csdm.md)
+**Parent Topic:**[Configuring CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/configure-csdm.md)
 

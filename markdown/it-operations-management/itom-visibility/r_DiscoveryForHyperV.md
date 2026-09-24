@@ -3,11 +3,11 @@ title: Hyper-V discovery
 description: The ServiceNow Discovery application finds Microsoft Hyper-V hypervisors in your environment.When importing \(cloning\) Hyper-V virtual machines, make sure each virtual machine has a unique ID. Discovery identifies virtual machines with duplicate IDs as the same machine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DiscoveryForHyperV.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -159,7 +159,7 @@ The parent Windows Servers table reflects the physical cores, while the Hyper-V 
 </td></tr></tbody>
 </table>## Credentials
 
-Configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) with Domain administrator rights. You should also [Enable PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md) for the MID Server used to discover Hyper-V servers and instances.
+Configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md) with Domain administrator rights. You should also [Enable PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md) for the MID Server used to discover Hyper-V servers and instances.
 
 ## Classifier, probes, and pattern
 
@@ -188,7 +188,7 @@ Hyper-V ServerThe classification applies to standalone Hyper-V servers only \(se
 -   Hyper-V - Resource Pools\*
 -   Hyper-V - Virtual Machines\*
 -   Hyper-V - Virtual Networks\*
--   Several other [Windows probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md) also run, such as Windows - Identity, Windows - software, and so on.\*
+-   Several other [Windows probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md) also run, such as Windows - Identity, Windows - software, and so on.\*
 
 </td><td>
 
@@ -199,7 +199,7 @@ Hyper-V Server
 
 ^These probes remain active by default, even when Discovery uses pattern discovery.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -502,7 +502,7 @@ Contains data about various objects associated with a Hyper-V server, such as pa
 |Windows Servers \[cmdb\_ci\_win\_server\]|Instantiates::Instantiated by|Hyper-V Virtual Machine Instance \[cmdb\_ci\_hyper\_v\_instance\]|
 |Windows Servers \[cmdb\_ci\_win\_server\]|Virtualized by::Virtualizes|Hyper-V Server \[cmdb\_ci\_hyper\_v\_server\]|
 
-**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Computers.md)
 
 ## Clone Hyper-V virtual machines
 

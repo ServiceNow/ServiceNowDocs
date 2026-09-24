@@ -3,11 +3,11 @@ title: Embed a playbook in ServiceNow mobile
 description: Embed a playbook in ServiceNow mobile by creating a screen in Mobile App Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/embed-playbook-mobile.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a playbook for ServiceNow mobile, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ Embed a playbook in ServiceNow® mobile by creating a screen in Mobile App Build
 
 Role required: admin
 
-If you haven't configured your playbook for ServiceNow® mobile in UI Builder yet, see [Configure a playbook for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-playbook-mobile.md).
+If you haven't configured your playbook for ServiceNow® mobile in UI Builder yet, see [Configure a playbook for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-playbook-mobile.md).
 
 ## Procedure
 
@@ -57,7 +57,7 @@ If you haven't configured your playbook for ServiceNow® mobile in UI Builder ye
 
     /now/playbook-mobile/playbook/interaction/-1/params/view/stages​​​​​​​?web\_controller\_spinner=on
 
-10. If you have any roles you want to limit this screen to, or any other configurations you would like to learn more about, see [Configure a mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-url-screen.md).
+10. If you have any roles you want to limit this screen to, or any other configurations you would like to learn more about, see [Configure a mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-configure-url-screen.md).
 
 11. **Save** the screen.
 

@@ -3,11 +3,11 @@ title: Active Directory automation example
 description: A set of six Orchestration Active Directory activities enables organizations to automate their on-boarding/off-boarding processes with auditable, self-documenting workflows that save time and eliminate mistakes.An organization plans to make their ServiceNow instance the single system of record for user account data and wants to update Active Directory with the latest changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/c\_OrchExmplActiveDirUserMgmt.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Orchestration examples, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Orchestration examples, Classic Orchestration, Workflow Data Fabric
 
 A set of six Orchestration Active Directory activities enables organizations to automate their on-boarding/off-boarding processes with auditable, self-documenting workflows that save time and eliminate mistakes.
 
-The activities in the [Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OrchActiveDirectoryActivities.md) are designed to manage user accounts and reset user passwords. The following activities cover the most common use cases administrators encounter when managing Active Directory user accounts:
+The activities in the [Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_OrchActiveDirectoryActivities.md) are designed to manage user accounts and reset user passwords. The following activities cover the most common use cases administrators encounter when managing Active Directory user accounts:
 
 -   Create AD User Account
 -   Update AD User Account
@@ -27,7 +27,7 @@ The activities in the [Active Directory activity pack](https://raw.githubusercon
 
 These activities share a common design, have complementary functionality, and share a common set of parameters. They can be used singly or together to create consistent workflows for provisioning and de-provisioning user accounts.
 
-**Parent Topic:**[Orchestration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationExamples.md)
+**Parent Topic:**[Orchestration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_OrchestrationExamples.md)
 
 ## Update Active Directory with Orchestration
 
@@ -133,7 +133,7 @@ Updates the user's account in Active Directory, if the user exists. In this exam
 
     At this point, the workflow takes a ServiceNow user record as input and updates the First Name, Last Name, and Title of the corresponding Active Directory account. If the account does not exist in Active Directory, the workflow fails.
 
-    **Note:** In a normal workflow, some type of alternate action is desirable upon failure. For example, you might send an [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md) if the workflow failed to update the record.
+    **Note:** In a normal workflow, some type of alternate action is desirable upon failure. For example, you might send an [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailNotifications.md) if the workflow failed to update the record.
 
 12. To prevent the workflow from failing, add a Create AD Object activity to the transition lines between Begin and the Update AD Object activity.
 
@@ -214,7 +214,7 @@ An LDAP filter string that defines the search parameters. Use any valid LDAP fil
 
     \[Omitted image "WorkflowExample3.png"\] Alt text: Querying AD for user accounts
 
-    The Query AD activity returns its results as a JSON string in the workflow [data bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationDatabus.md). This JSON string is always an array of objects. Each object corresponds to an Active Directory entry that matched the query. Our workflow should branch, whether that array is empty or not.
+    The Query AD activity returns its results as a JSON string in the workflow [data bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_OrchestrationDatabus.md). This JSON string is always an array of objects. Each object corresponds to an Active Directory entry that matched the query. Our workflow should branch, whether that array is empty or not.
 
 21. Drag a standard If activity from the Conditions folder in the **Core** tab and drop it onto the transition between Query AD and Update AD Object.
 

@@ -3,7 +3,7 @@ title: AI Skills in Feedback application in Strategic Planning
 description: Use AI skills and agents to transform Strategic Portfolio Management into a continuous value engine. Embed intelligence across every stage to optimize resources and investments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/ai-skills-in-feedback-spw.html
-release: australia
+release: brazil
 product: Product Feedback
 classification: product-feedback
 topic_type: concept
@@ -23,9 +23,9 @@ Provides product managers with a concise and informative summary of the lengthy 
 **Related topics**  
 
 
-[Summarize the feedback by using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/feedback-summary-sentiment-topics-pf.md)
+[Summarize the feedback by using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/feedback-summary-sentiment-topics-pf.md)
 
-[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configuring-na-spm.md)
+[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configuring-na-spm.md)
 
-[Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-na-admin-spm.md)
+[Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/using-na-admin-spm.md)
 

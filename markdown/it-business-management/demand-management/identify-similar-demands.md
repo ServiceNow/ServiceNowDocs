@@ -3,11 +3,11 @@ title: Identify similar records using AI
 description: Use the identify similar records skill to find demand records with similar names, descriptions, or business case content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/identify-similar-demands.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI skill, ServiceNow Otto, Gen AI, Generative AI, SPM, Strategic Portfolio Management, Identify similar demand records]
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
@@ -19,7 +19,7 @@ Use the identify similar records skill to find demand records with similar names
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access.
 
@@ -47,7 +47,7 @@ Role required: it\_demand\_user
 
 To view full details of a similar demand record, select the demand number link from the Similar Demands related list.
 
-**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 

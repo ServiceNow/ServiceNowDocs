@@ -3,9 +3,9 @@ title: Signature Verification in Code Signing
 description: Signature verification helps confirm that records, scripts, and other signed content originate from trusted sources and remain unaltered.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/signature-verification-in-code-signing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [signature verification, multiple signatures]
 breadcrumb: [Using Code Signing, Code Signing, Platform Security]
@@ -24,4 +24,6 @@ Signature verification is a core part of Code Signing. When the MID Server proce
 With the Australia release, there's enhanced support for verifying multiple signatures on a single record. A record might collect signatures over time from different certificates, such as customer-owned certificates and ServiceNow® build certificates. To provide more accurate verification, the system now groups signatures by certificate and evaluates the most recent signature in each group. Compared to the previous model, which evaluated only the most recent signature on the record, this approach provides a more reliable verification process.
 
 Verification succeeds if any certificate group contains a valid latest signature. This improvement ensures that a valid signature from one certificate isn’t overlooked simply because a newer signature from another certificate is invalid. This approach helps avoid failures after upgrades and helps recognize all valid signatures from any trusted source.
+
+**Parent Topic:**[Using Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/using-code-signing.md)
 

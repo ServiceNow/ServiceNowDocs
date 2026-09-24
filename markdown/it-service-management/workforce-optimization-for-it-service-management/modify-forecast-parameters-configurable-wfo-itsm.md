@@ -3,11 +3,11 @@ title: Modify forecast parameters to visualize forecast data
 description: Configure and tweak forecast parameters to see how the forecast behaves when you vary the period length, periods to forecast, or algorithm. You can view the modified forecast on the time-series visualization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/modify-forecast-parameters-configurable-wfo-itsm.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up, Demand Forecast, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -26,7 +26,7 @@ The user with these roles must also be a manager of the assignment group that is
 
 ## About this task
 
-You can define the start and end dates for which you want to visualize the forecast data. The start date for a forecast configuration is based on the number of historical days you want to consider for data visualization. This is set using the **sn\_agent\_forecast.number\_of\_historical\_days\_in\_timeseries\_chart** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md).
+You can define the start and end dates for which you want to visualize the forecast data. The start date for a forecast configuration is based on the number of historical days you want to consider for data visualization. This is set using the **sn\_agent\_forecast.number\_of\_historical\_days\_in\_timeseries\_chart** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md).
 
 The default start date is set to 90 days ago starting from the day before the current day. The end date is calculated based on the period length and the periods to forecast represented in days. For example, if the period length is 7 days and the periods to forecast is 5, then the end date is 35 days including the current day.
 
@@ -57,7 +57,7 @@ The default start date is set to 90 days ago starting from the day before the cu
 
 8.  To preview a forecast before publishing it, click **Preview**.
 
-    The forecast is calculated using the algorithm and parameters configured in the forecast parameter. When you [create a manual adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-manual-adjustment-configurable-wfo-itsm.md) to predict future resources, Demand Forecast overlays the adjustment in the time-series chart.
+    The forecast is calculated using the algorithm and parameters configured in the forecast parameter. When you [create a manual adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/create-manual-adjustment-configurable-wfo-itsm.md) to predict future resources, Demand Forecast overlays the adjustment in the time-series chart.
 
     |When you|Then the forecast|
     |--------|-----------------|
@@ -79,7 +79,7 @@ The default start date is set to 90 days ago starting from the day before the cu
 
 ## What to do next
 
-[Create a manual adjustment for a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-manual-adjustment-configurable-wfo-itsm.md)
+[Create a manual adjustment for a forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/create-manual-adjustment-configurable-wfo-itsm.md)
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setting-up-demand-forecast-configurable-wfo-itsm.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/setting-up-demand-forecast-configurable-wfo-itsm.md)
 

@@ -3,11 +3,11 @@ title: Industrial knowledge article form
 description: The following table describes the field values for the Industrial knowledge article form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-article-form.html
-release: australia
+release: brazil
 product: Industrial Knowledge Management
 classification: industrial-knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Industrial Knowledge Management, Industrial Connected Workforce]
 ---
@@ -45,5 +45,5 @@ The following related lists are available on the Industrial knowledge article fo
 |Functional Locations|Displays functional locations associated with the knowledge article. Select **New** to link a functional location to the article. The list is filtered to show records of the Equipment Model Entity class. The **Knowledge article** field is automatically populated when you create a new association.|
 |Equipment|Displays equipment records associated with the knowledge article. Select **New** to link an equipment record to the article. The list is filtered to show records of the Operational Equipment class. The **Knowledge article** field is automatically populated when you create a new association.|
 
-**Parent Topic:**[Industrial Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-mgmt-reference.md)
+**Parent Topic:**[Industrial Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-mgmt-reference.md)
 

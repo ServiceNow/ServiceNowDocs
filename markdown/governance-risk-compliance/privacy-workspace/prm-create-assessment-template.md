@@ -3,11 +3,11 @@ title: Create a privacy case assessment template
 description: Create an assessment and send those assessments to the privacy case task owners to collect their responses. The responses help the privacy case analysts to determine the breaches that have occurred due to the privacy case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/prm-create-assessment-template.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -32,17 +32,17 @@ Instead of using the default template, you can create a questionnaire template f
 
 3.  On the Assessment Metric Type form, fill in the fields.
 
-    For a description of the field values on the Assessment Metric Type form, see [Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-assessment-metric-form.md).
+    For a description of the field values on the Assessment Metric Type form, see [Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/prm-assessment-metric-form.md).
 
 4.  Select **Submit**.
 
 
 ## What to do next
 
-You can revise the assessment template from the **Assessment workspace**. All new assessments use the revised version once published. In-progress assessments based on the retired version finish against the questionnaire they started with. See [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
+You can revise the assessment template from the **Assessment workspace**. All new assessments use the revised version once published. In-progress assessments based on the retired version finish against the questionnaire they started with. See [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
--   **[Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-assessment-metric-form.md)**  
+-   **[Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/prm-assessment-metric-form.md)**  
 Use the Assessment Metric Type form to create an assessment questionnaire template instead of using the default template.
 
-**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
+**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
 

@@ -3,11 +3,11 @@ title: ServiceNow Otto for Software Asset Management \(SAM\) AI agent collection
 description: Use the Evaluate software removal candidate agentic workflow to assess installed or subscription-based software for potential removal by analyzing their usage over a specified period and determining the total number eligible for removal. After user confirmation, the workflow initiates the eligible removal candidate for reclamation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/now-assist-sam-evaluate-removal-candidate-workflow.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use agentic workflows, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -60,5 +60,5 @@ To initiate the agentic workflow, perform the following steps:
 |--------|-------------|
 |Software removal candidate evaluation AI agent.|Identifies or proposes users for removal from a software product by assessing their usage within a set time frame and ensuring that the total number of eligible candidates for reclamation is notified to the user, while excluding any VIP users.|
 
-**Parent Topic:**[Using agentic workflows in ServiceNow Otto for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-now-assist-sam-ai-agents-usecases.md)
+**Parent Topic:**[Using agentic workflows in ServiceNow Otto for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-now-assist-sam-ai-agents-usecases.md)
 

@@ -3,9 +3,9 @@ title: Refresh the engagement insights
 description: Request a new AI-generated brief for an engagement to reflect signals that occurred since the brief was last generated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-exec-insight-refresh.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [refresh engagement brief, Executive Insight Generator, engagement updates]
 breadcrumb: [Engagement brief, Engagement home page, Manage engagements, Customer success, Use, Customer Success Management]
@@ -25,7 +25,7 @@ The brief is generated when you first open the engagement record page. The same 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the **List** menu, navigate to **Customer Success** &gt; **All Engagements**, and open an engagement record.
 
@@ -36,12 +36,12 @@ The brief is generated when you first open the engagement record page. The same 
 
 A new brief is generated based on signals from the last 7 days and replaces the previous cached brief. The **Last updated** timestamp updates to reflect the current date and time. The **Recommendations** panel also refreshes to reflect the updated brief.
 
-**Parent Topic:**[Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)
+**Parent Topic:**[Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)
 
 **Related topics**  
 
 
-[Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)
+[Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)
 
-[bundle-telmt.now-assist-tmt-exec-insight-gen]
+[Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-exec-insight-gen.md)
 

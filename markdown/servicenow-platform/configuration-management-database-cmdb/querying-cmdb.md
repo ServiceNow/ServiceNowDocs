@@ -3,11 +3,11 @@ title: Exploring CMDB Query Builder
 description: The CMDB Query Builder enables you to build complex infrastructure and service queries that span multiple CMDB classes, non-CMDB tables, and that involve many CIs that are connected by different relationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,13 +34,13 @@ For a webinar, see [CMDB Query Builder Queries and Reporting - Platform Analytic
 
 ## Intelligent Search for CMDB integration
 
-By default, [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md) functionality is integrated into the CMDB Query Builder. When opening the Query Builder, you can use the Intelligent Search search box which appears above the Query Builder canvas. Intelligent Search lets you use everyday natural language query \(NLQ\) to build a query. Intelligent Search parses, resolves any ambiguities in table names and relationship types, and then converts your search string into a valid query. The query appears fully constructed on the Query Builder canvas where you can run or continue and develop the query.
+By default, [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md) functionality is integrated into the CMDB Query Builder. When opening the Query Builder, you can use the Intelligent Search search box which appears above the Query Builder canvas. Intelligent Search lets you use everyday natural language query \(NLQ\) to build a query. Intelligent Search parses, resolves any ambiguities in table names and relationship types, and then converts your search string into a valid query. The query appears fully constructed on the Query Builder canvas where you can run or continue and develop the query.
 
 The integration of Intelligent Search for CMDB with the CMDB Query Builder is controlled by the system property **glide.cmdb.query.nlq.activated**, which is set to **true** by default. If you set the property to **false**, Intelligent Search for CMDB will not be available within the Query Builder.
 
 ## AI Search and CMDB
 
-NLQ Genius Results for [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md) use natural language queries to find CMDB tables that match your search without leaving a portal or workspace. For more information, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-result-nlq-ais.md).
+NLQ Genius Results for [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/overview-ais.md) use natural language queries to find CMDB tables that match your search without leaving a portal or workspace. For more information, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/genius-result-nlq-ais.md).
 
 **Note:** AI Search is a complementary search experience that allows you to surface CMDB records in your normal flow of work, without having to access the CMDB Query Builder. It doesn't replace intelligent Search for CMDB, which is purpose-built and integrated into CMDB Query Builder.
 
@@ -52,13 +52,13 @@ There are several types of CMDB queries:
 
     A query type that queries the infrastructure for CI classes and the relationships and references that connect them. You can optionally add the context of non-CMDB tables to a CMDB query.
 
-    You can include [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md) in a CMDB query, to find, for example:
+    You can include [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md) in a CMDB query, to find, for example:
 
     -   All critical application services in your database.
     -   All infrastructure in a particular application service.
     -   All incidents for a particular CI in an application service, or all incidents for all the CIs of an application service.
     -   All application services with a pattern of a service connected to a database, and where the database has incidents.
-    The list of available non-CMDB tables includes a subset of tables within the system, which have a reference to the Configuration Item \[cmdb\_ci\] class or its children. The list of non-CMDB tables, includes tables such as Asset, Task, and Problem. You can use the system property [glide.cmdb.query.non\_cmdb.black\_listed\_tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) to narrow down the list of non-CMDB tables to choose from.
+    The list of available non-CMDB tables includes a subset of tables within the system, which have a reference to the Configuration Item \[cmdb\_ci\] class or its children. The list of non-CMDB tables, includes tables such as Asset, Task, and Problem. You can use the system property [glide.cmdb.query.non\_cmdb.black\_listed\_tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) to narrow down the list of non-CMDB tables to choose from.
 
 -   **Service Mapping Query**
 
@@ -72,5 +72,5 @@ There are several types of CMDB queries:
 **Related topics**  
 
 
-[CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md)
+[CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md)
 

@@ -3,12 +3,12 @@ title: Review scores for an AI system
 description: Determine whether a specific AI system is meeting quality and safety targets by reviewing its scores, identifying which metrics are affecting performance, and checking for regressions over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-review-ai-system-scores.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Review scores for an AI system
@@ -36,17 +36,17 @@ When a specific AI system needs attention, determine which metrics are affecting
 
     All score cards, trends, and session data on the page update to reflect the selected range.
 
-3.  Assess overall quality performance by reviewing the **Average overall quality score** card.
+3.  Assess overall quality performance by reviewing the **Average overall Quality score** card.
 
     For example, if the quality score is 88%, the data sources table might show that Task completion \(weight 40%\) scored 88% while Answer completeness \(weight 35%\) scored 86%. A low score on a heavily weighted metric has a larger impact on the composite.
 
-4.  Assess overall safety performance by reviewing the **Average overall safety score** card.
+4.  Assess overall safety performance by reviewing the **Average overall Safety score** card.
 
     For example, if the Instruction adherence score is lower than Secrets detection or Sexism detection, the agent may be handling sensitive data and language correctly but still straying from its approved response guidance. Reviewing the traces where Instruction adherence dipped lowest will show which specific exchanges the judge flagged and why.
 
 5.  Confirm which metrics are scoring this AI system by reviewing the **Metrics evaluated** card.
 
-    This card lists every metric currently scoring this AI system, whether the metric comes from your organization's global metric configuration or was added specifically for this system. To change which metrics are evaluated, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
+    This card lists every metric currently scoring this AI system, whether the metric comes from your organization's global metric configuration or was added specifically for this system. To change which metrics are evaluated, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
 
 6.  View the full scoring formula by selecting the side panel icon on a score card.
 
@@ -64,17 +64,13 @@ When a specific AI system needs attention, determine which metrics are affecting
 
     Each card shows its change from the prior period. For the **Avg latency per session** card, select the expand icon to open a chart of total latency by day, summed across all sessions evaluated that day.
 
-8.  Check for regressions over time by reviewing the **Monitor agent activity** trend chart.
+8.  Check performance over time by reviewing the **Monitor agent activity** trend chart.
 
-    1.  Choose which metrics to display by selecting **All metric categories**, **Quality metrics**, or **Safety metrics** from the list.
-
-    2.  Point to a data point on the chart to see the exact score for that date.
-
-    Solid lines represent metrics that contribute to this AI system's overall quality or safety score. Dotted lines represent metrics that are collected but don't contribute to those scores.
+    Solid lines represent metrics that contribute to this AI system's overall quality or safety score. Dotted lines represent metrics that are collected but don't contribute to those scores. You can point to a data point on the chart to see the exact score for that date.
 
     For example, a gradual decline in Task completion from 90% to 72% over three weeks indicates a quality regression for this AI system that warrants session-level investigation.
 
-    To add a dotted-line metric to your scoring formula, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md).
+    To add a dotted-line metric to your scoring formula, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md).
 
 9.  Identify sessions that need investigation by reviewing the **Recent evaluated sessions** table.
 
@@ -82,8 +78,8 @@ When a specific AI system needs attention, determine which metrics are affecting
 
     2.  Select a session name to open the session detail page and begin investigating its traces and spans.
 
-    For example, a session with a red safety score \(below 50%\) warrants immediate investigation. For details on investigating sessions, see [Investigate a low-scoring session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-investigate-session-task.md).
+    For example, a session with a red safety score \(below 50%\) warrants immediate investigation. For details on investigating sessions, see [Investigate a low-scoring session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-investigate-session-task.md).
 
 
-**Parent Topic:**[Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-asset-monitor.md)
+**Parent Topic:**[Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-asset-monitor.md)
 

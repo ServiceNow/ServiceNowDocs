@@ -3,11 +3,11 @@ title: Components installed with Localization Workspace
 description: Several types of components are installed with activation of the Localization Workspace plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-components-installed-with.html
-release: australia
+release: brazil
 product: Localization Workspace
 classification: localization-workspace
 topic_type: reference
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,11 +18,11 @@ Several types of components are installed with activation of the Localization Wo
 
 ## Components from Localization Framework used in Localization Workspace
 
-Localization Workspace builds on functionality from Localization Framework, including tables and roles. Installing Localization Workspace also installs Localization Framework if it isn't already activated. For detailed information see [Components installed with Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/components-installed-with-lf.md).
+Localization Workspace builds on functionality from Localization Framework, including tables and roles. Installing Localization Workspace also installs Localization Framework if it isn't already activated. For detailed information see [Components installed with Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/components-installed-with-lf.md).
 
 ## Roles installed
 
-For detailed information about roles installed see [Localization Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace-roles.md).
+For detailed information about roles installed see [Localization Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/localization-workspace-roles.md).
 
 ## Scheduled jobs installed
 
@@ -97,11 +97,27 @@ Glossary Info \(from version 3.0.0\)
 
 </td></tr><tr><td>
 
+Glossary Items \(from version 4.0\)
+
+</td><td>
+
+\[sn\_lw\_glossary\_item\]
+
+</td></tr><tr><td>
+
 Glossary Translation \(from version 3.0.0\)
 
 </td><td>
 
 \[sn\_lw\_glossary\_translation\]
+
+</td></tr><tr><td>
+
+KB Cache \(from version 4.0\)
+
+</td><td>
+
+\[sn\_lw\_kb\_cache\]
 
 </td></tr><tr><td>
 
@@ -176,10 +192,10 @@ Translation Target Group Info \(from version 2.0.2\)
 \[sn\_lw\_target\_group\_info\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace-reference.md)
+</table>**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/localization-workspace-reference.md)
 
 **Related topics**  
 
 
-[Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md)
+[Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md)
 

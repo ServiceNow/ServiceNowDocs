@@ -3,9 +3,9 @@ title: Related list for an install base item
 description: In the Customer Service Management application, you can use the Install base related list to track information that is related to the install base hierarchy, cases, entitlements, and other entities. By using these tables, you can understand your customers' purchases and provide efficient post-sales support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-base-related-list.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create an install base item, Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a child install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/child-install-base-item.md)
+[Create a child install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/child-install-base-item.md)
 
 </td><td>
 
@@ -36,7 +36,7 @@ Sold Products
 
 </td><td>
 
-List of all the products or services sold to a customer. For more information on how to create a sold product, see [Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sold-item.md).
+List of all the products or services sold to a customer. For more information on how to create a sold product, see [Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sold-item.md).
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Cases
 
 </td><td>
 
-List of all the cases associated to the current install base item. The list of cases enables customer service agents to access all the cases and issues that are related to an install base in one place. For more information on cases and case access, see [Service Model Foundation cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/industry-data-model-cases.md).
+List of all the cases associated to the current install base item. The list of cases enables customer service agents to access all the cases and issues that are related to an install base in one place. For more information on cases and case access, see [Service Model Foundation cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/industry-data-model-cases.md).
 
 </td></tr><tr><td>
 
@@ -56,15 +56,15 @@ List of all the child cases associated to the parent install base item. **Note:*
 
 </td></tr><tr><td>
 
-[Create an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-entitlement.md)
+[Create an entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-entitlement.md)
 
 </td><td>
 
-List of the existing cases for an account, product, or service contract that defines the type of support that a customer receives. For more information on entitlements, see [Configure entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-entitlements.md).
+List of the existing cases for an account, product, or service contract that defines the type of support that a customer receives. For more information on entitlements, see [Configure entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-csm-entitlements.md).
 
 </td></tr><tr><td>
 
-[Edit a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/edit-contract.md)
+[Edit a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/edit-contract.md)
 
 </td><td>
 
@@ -76,9 +76,9 @@ Install Base Related Parties
 
 </td><td>
 
-List of all the additional parties that have access to an install base item. You can add related parties only to the root install base item. For more information to the list of related parties and default responsibilities, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md).
+List of all the additional parties that have access to an install base item. You can add related parties only to the root install base item. For more information to the list of related parties and default responsibilities, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/adding-related-party-config-to-case.md).
 
- To add a related party to an install base, see [Add related parties to an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-related-party-install-base.md).
+ To add a related party to an install base, see [Add related parties to an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-related-party-install-base.md).
 
 </td></tr></tbody>
 </table>

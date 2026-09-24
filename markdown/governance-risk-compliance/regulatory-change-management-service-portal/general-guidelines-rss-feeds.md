@@ -3,11 +3,11 @@ title: General guidelines for RSS feeds
 description: When an RSS feed isn't working, common errors or issues often stem from improper formatting, server issues, or misconfiguration. An RCM administrator can remediate some of the common errors that users may encounter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/general-guidelines-rss-feeds.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Overview of RSS feeds, Integrate, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -40,7 +40,7 @@ RSS issues often arise from invalid XML syntax, incorrect URLs, server or authen
 
 -   **Response size exceeds limit**
 
-    This happens when the response from REST step is more than what is allowed. You can try increasing the limit by updating the value of property “glide.pf.rest.response\_payload\_max\_size". Refer to [https://www.servicenow.com/docs/bundle/xanadu-build-workflows/page/administer/flow-designer/reference/rest-request-action-designer.html](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/rest-request-action-designer.md) for more information.
+    This happens when the response from REST step is more than what is allowed. You can try increasing the limit by updating the value of property “glide.pf.rest.response\_payload\_max\_size". Refer to [https://www.servicenow.com/docs/bundle/xanadu-build-workflows/page/administer/flow-designer/reference/rest-request-action-designer.html](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/rest-request-action-designer.md) for more information.
 
 -   **Response status is 404**
 
@@ -51,5 +51,5 @@ RSS issues often arise from invalid XML syntax, incorrect URLs, server or authen
     Upgrade your instance and debug by looking at the execution logs for the flow titled **Pull RSS feed into regulatory change**.
 
 
-**Parent Topic:**[RSS feeds overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rss-feeds.md)
+**Parent Topic:**[RSS feeds overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rss-feeds.md)
 

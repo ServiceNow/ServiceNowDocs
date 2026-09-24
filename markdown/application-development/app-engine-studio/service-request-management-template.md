@@ -3,13 +3,13 @@ title: Service Request Management template
 description: Build an application in App Engine Studio \(AES\) using the Service Request Management template to create, track, and manage service requests in your organization.The following tables, experiences, automated workflows, and roles are included in the Service Request Management template for App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/service-request-management-template.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Service Request Management template
@@ -67,9 +67,9 @@ This template contains several important roles that correspond to individuals or
 
 ## Related concepts
 
-For information about how to set up a service for your Service Request Management application, see [Service catalog setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/p_ServiceCatalogs.md).
+For information about how to set up a service for your Service Request Management application, see [Service catalog setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/p_ServiceCatalogs.md).
 
-**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/template-library.md)
 
 ## Service Request Management template contents
 

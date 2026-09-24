@@ -3,9 +3,9 @@ title: Using auto-retry functionality for your failed work items in RPA Hub
 description: You can use auto-retry functionality in RPA Hub to retry the failed items automatically in your work queue. The retry functionality is based on the Application exception type only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/auto-retry-wqi-rpa.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Work items, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -30,21 +30,21 @@ In the Work Item form, if the value of the **Exception Type** field is **Applica
 
 ## Queue fields and system property configuration
 
-To enable auto-retry functionality, you must define the values in the **sn\_rpa\_fdn.queue.maximum\_attempts\_max\_value** system property. For more information about these values, see [Configure RPA Hub properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpahub-sys-properties.md).
+To enable auto-retry functionality, you must define the values in the **sn\_rpa\_fdn.queue.maximum\_attempts\_max\_value** system property. For more information about these values, see [Configure RPA Hub properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpahub-sys-properties.md).
 
 You can enable auto-retry functionality by configuring the following fields on the Queue form:
 
 -   **Maximum Attempts**
 -   **Attempt Delay \(mins\)**
 
-In the **Maximum Attempts** field, you define the number of attempts for the failed work items. In the **Attempt Delay \(mins\)**, you define the maximum delay, in minutes, before the work item is attempted again. For more information about these fields, see [Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-form.md) and [Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-queue.md).
+In the **Maximum Attempts** field, you define the number of attempts for the failed work items. In the **Attempt Delay \(mins\)**, you define the maximum delay, in minutes, before the work item is attempted again. For more information about these fields, see [Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-form.md) and [Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-queue.md).
 
 You can view the following fields that are related to the auto-retry functionality on the Work Item form:
 
 -   **Exception Type**
 -   **Attempts Count**
 
-Based on the value in the **Exception Type** field, the auto retry functionality retries the work items. In the **Attempts Count** field, you can view the number of times the work item is picked for auto retry. For more information about these fields, see [Work item form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-work-queue-items.md).
+Based on the value in the **Exception Type** field, the auto retry functionality retries the work items. In the **Attempts Count** field, you can view the number of times the work item is picked for auto retry. For more information about these fields, see [Work item form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-work-queue-items.md).
 
 ## Auto-retry workflow
 
@@ -96,12 +96,12 @@ The following table shows the auto-retry workflow when the **Failed** status is 
 |Business|Yes|&lt;No condition&gt;|Failed|Business|
 |&lt;empty&gt;|Yes|&lt;No condition&gt;|Failed|&lt;No update&gt;|
 
-**Note:** The value in the **Deferred Till** field is obtained from the component. This field always takes precedence over the **Attempt Delay \(mins\)** field. The **Deferred Till** field is a read-only field on the work item form. For more information, see [Work item form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-work-queue-items.md).
+**Note:** The value in the **Deferred Till** field is obtained from the component. This field always takes precedence over the **Attempt Delay \(mins\)** field. The **Deferred Till** field is a read-only field on the work item form. For more information, see [Work item form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-work-queue-items.md).
 
-**Parent Topic:**[Work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/work-items-rpa-hub.md)
+**Parent Topic:**[Work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/work-items-rpa-hub.md)
 
 **Related topics**  
 
 
-[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md)
+[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queues-implement-rpa.md)
 

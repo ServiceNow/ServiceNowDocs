@@ -3,11 +3,11 @@ title: Add or edit expense lines
 description: Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-expense-line.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ For unplanned expense lines not associated to any cost plan, the system creates 
 
 4.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d153394e113">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d153684e113">
 
 Choice
 
-</th><th align="left" id="d153394e116">
+</th><th align="left" id="d153684e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153394e122">
+</th></tr></thead><tbody><tr><td id="d153684e122">
 
 **Select a cost plan**
 
@@ -56,7 +56,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d153394e143">
+</td></tr><tr><td id="d153684e143">
 
 **Select options**
 
@@ -66,7 +66,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d153394e170">
+</td></tr><tr><td id="d153684e170">
 
 **Select new expense line option**
 
@@ -79,7 +79,7 @@ Select **New expense line** using the More actions option.\[Omitted image "fin-n
 </td></tr></tbody>
 </table>5.  On the Create expense line form, fill the fields.
 
-    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-exp-line-form-spw.md).
+    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-exp-line-form-spw.md).
 
 6.  Select **Save**.
 

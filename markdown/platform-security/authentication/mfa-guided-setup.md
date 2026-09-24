@@ -3,11 +3,11 @@ title: MFA Guided Setup
 description: Use the MFA Guided Setup to step through the initial configuration of the MFA module and understand the requirements for MFA enforcements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-guided-setup.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MFA Dashboard, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -33,5 +33,5 @@ Complete the following task to become familiar with the MFA configurations:
 -   User Communication and Onboarding
 -   Monitoring
 
-To know more about how to use the Guided Setup, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
+To know more about how to use the Guided Setup, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/guided-setup.md).
 

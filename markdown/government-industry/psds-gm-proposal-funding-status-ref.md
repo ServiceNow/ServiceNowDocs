@@ -3,9 +3,9 @@ title: Grant Proposal funding statuses
 description: Status values a grant proposal can hold during the Funding Allocation workflow, including the trigger, the responsible role, and whether the status is terminal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gm-proposal-funding-status-ref.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Grants Management reference, Reference, Public Sector Digital Services \(PSDS\)]
 ---

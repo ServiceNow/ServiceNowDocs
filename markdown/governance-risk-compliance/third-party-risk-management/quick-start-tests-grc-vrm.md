@@ -3,11 +3,11 @@ title: Run the Quick Start tests for Third-party Risk Management
 description: Verify that TPRM still works after you make configuration changes such as applying an upgrade or developing an application. Copy and customize the quick-start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/quick-start-tests-grc-vrm.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -17,12 +17,6 @@ breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compl
 Verify that TPRM still works after you make configuration changes such as applying an upgrade or developing an application. Copy and customize the quick-start tests to pass when using your instance-specific data.
 
 GRC: Vendor Manager Workspace and Third-party Risk Management quick start tests require activating the Vendor Manager Workspace and Third-party Risk Management plugin \(com.sn\_vdr\_risk\_asmt\) and loading demo data.
-
-**Important:**
-
-The Vendor Management Workspace for ITSM \(sn\_itsm\_vendor\) is deprecated as of the Australia release. It is hidden and no longer available for activation for new customers.
-
-The GRC: Vendor Management Workspace quick start tests listed below require this plugin and are not applicable if your instance does not have it activated. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 |Test|Description|
 |----|-----------|
@@ -36,5 +30,5 @@ The GRC: Vendor Management Workspace quick start tests listed below require this
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/quick-start-tests.md)
 

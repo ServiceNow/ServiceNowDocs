@@ -3,11 +3,11 @@ title: Assign outsourced work order tasks
 description: Managers of contractor companies can assign outsourced work order tasks to be performed at the customer location to their agents or to themselves.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/assign-wot-ext-agent.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work order tasks \(WOTs\), Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---

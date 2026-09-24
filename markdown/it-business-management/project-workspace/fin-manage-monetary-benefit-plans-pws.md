@@ -3,11 +3,11 @@ title: Create monetary benefit plans for your projects in Project Workspace
 description: Create and manage monetary benefit plans to capture the potential benefits while executing your projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 ## Before you begin
 
--   [Enable monetary benefit plans for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/enable-benefitplans-pws-fin.md)
+-   [Enable monetary benefit plans for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/enable-benefitplans-pws-fin.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## About this task
@@ -31,15 +31,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 2.  Create a monetary benefit plan using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d345832e102">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d346595e102">
 
 Option
 
-</th><th align="left" id="d345832e105">
+</th><th align="left" id="d346595e105">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d345832e111">
+</th></tr></thead><tbody><tr><td id="d346595e111">
 
 **Using Monetary benefit plan related list**
 
@@ -50,7 +50,7 @@ Procedure
 
 \[Omitted image "fin-slct-monetary-benefit-plan-gif.gif"\] Alt text: GIF showing selection of Monetary Benefit Plans related link.
 
-</td></tr><tr><td id="d345832e141">
+</td></tr><tr><td id="d346595e141">
 
 **Using finanicals record page**
 
@@ -63,15 +63,15 @@ Procedure
 </td></tr></tbody>
 </table>3.  On the Benefit Plan form, fill the fields.
 
-    For a description of the field names, see [Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/benefit-plan-form-project-management.md).
+    For a description of the field names, see [Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/benefit-plan-form-project-management.md).
 
 4.  Select **Save**.
 
 
--   **[Edit monetary benefit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/fin-edit-monetary-benefit-plan-pws.md)**  
+-   **[Edit monetary benefit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/fin-edit-monetary-benefit-plan-pws.md)**  
 Edit a planned monetary benefit plan to revise the benefits, dates, offset, and so on, to maintain the updated financial records as your work progresses.
--   **[Capture actual monetary benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/fin-manage-actual-monetary-benefit-pws.md)**  
+-   **[Capture actual monetary benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/fin-manage-actual-monetary-benefit-pws.md)**  
 Capture the actual benefit from the planned benefits to measure revenue and calculate the profits.
 
-**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

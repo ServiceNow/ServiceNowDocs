@@ -3,11 +3,11 @@ title: Components installed with Atlassian Jira integration for Agile Developmen
 description: Several types of components are installed with activation of the Atlassian Jira integration for Agile Development application, including tables, user roles, and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/components-installed-with-atlassian-jira-integration-for-agile-development.html
-release: australia
+release: brazil
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Atlassian Jira Integration for Agile Development, Strategic Portfol
 
 Several types of components are installed with activation of the Atlassian Jira integration for Agile Development application, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -79,7 +79,7 @@ Import Jira Issue
 
 Imports issues and sprints from Jira automatically at a scheduled time.This job is inactive by default.
 
- For more information, see [Schedule a job to auto-import issues from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/schedule-jobs-to-import-issue-from-jira.md).
+ For more information, see [Schedule a job to auto-import issues from Jira to Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/schedule-jobs-to-import-issue-from-jira.md).
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -221,5 +221,5 @@ Webhook Registry\[sn\_int\_common\_webhook\_registry\]
 Stores details of the registry callback path for webhooks registered in Jira to receive event updates.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Atlassian Jira Integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-overview.md)
+</table>**Parent Topic:**[Atlassian Jira Integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-overview.md)
 

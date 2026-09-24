@@ -3,9 +3,9 @@ title: Update the BIA dependencies
 description: Update the business impact analysis \(BIA\) dependencies manually from the snapshot if the scheduled job is not activated in the Impact analysis dependency update configuration module. You can update the dependencies in an active BIA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/imp-analysis-dep-update-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scheduling an auto-update of dependencies, Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -50,5 +50,5 @@ Role required: sn\_bcm.program\_manager, sn\_bcm.planner, sn\_bcm.admin
     The BIA owners and approvers can update the dependencies by saving the changes to the BIA.
 
 
-**Parent Topic:**[Scheduling an auto-update of dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-impactanalysis-dep-based-on-cmdb-changes.md)
+**Parent Topic:**[Scheduling an auto-update of dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/update-impactanalysis-dep-based-on-cmdb-changes.md)
 

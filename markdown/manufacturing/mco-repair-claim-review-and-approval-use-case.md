@@ -3,9 +3,9 @@ title: Repair claim review and approval use case
 description: Use case scenarios demonstrate when and how to use the repair claim application to review and approve the claims. It provides practical examples of common repair or warranty management situations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-repair-claim-review-and-approval-use-case.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [repair claim review and approval, warranty claim adjudication, line-level claim approval]
 breadcrumb: [Repair claim, MCO core, Explore, Manufacturing Commercial Operations]

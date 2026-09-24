@@ -3,11 +3,11 @@ title: Use manual registration to establish the connection to the provider insta
 description: The named contact administrator will establish a secure connection to the Impact Delivery Instance \(provider instance\) to transmit data with the Impact Store Application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/connect-instance-impact-store-app.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use manual registration to configure the Impact Store Application, Impact reference, Impact]
+breadcrumb: [Use manual registration to configure the Impact Store Application, Data synchronization reference, Impact reference, Impact]
 ---
 
 # Use manual registration to establish the connection to the provider instance
@@ -16,7 +16,7 @@ The named contact administrator will establish a secure connection to the Impact
 
 ## Before you begin
 
--   Confirm [Initiate the connection to Impact data with manual registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-the-connection-impact-delivery-instance.md) is completed.
+-   Confirm [Initiate the connection to Impact data with manual registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-the-connection-impact-delivery-instance.md) is completed.
 -   A registration email with a direct link to the IDI provider connection form is sent to the named contact administrator in order during the initial connection to IDI.
 
 Role required: Any Impact Store App role, IDI admin
@@ -126,11 +126,11 @@ Inbound status \(read-only\)
 
 ## What to do next
 
-[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/verify-impact-data-connection.md).
+[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/verify-impact-data-connection.md).
 
-**Parent Topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/use_manual_registration_configure_impact_store_application.md)
+**Parent Topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/use_manual_registration_configure_impact_store_application.md)
 
-**Previous topic:**[Initiate the connection to Impact data with manual registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-the-connection-impact-delivery-instance.md)
+**Previous topic:**[Initiate the connection to Impact data with manual registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-the-connection-impact-delivery-instance.md)
 
-**Next topic:**[Secure data transfer using Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/service-bridge-overview.md)
+**Next topic:**[Secure data transfer using Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/service-bridge-overview.md)
 

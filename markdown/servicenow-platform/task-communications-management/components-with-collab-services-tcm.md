@@ -3,11 +3,11 @@ title: Components installed with Collaboration Services for Task Communications 
 description: Several types of components are installed with the Collaboration Services for Task Communications Management \(sn\_tcm\_collab\_hook\) plugin, including tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/components-with-collab-services-tcm.html
-release: australia
+release: brazil
 product: Task Communications Management
 classification: task-communications-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install Collaboration Services for Task Communications Management, Task Communications Management plugins, Task Communications Management, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Install Collaboration Services for Task Communications Management, 
 
 Several types of components are installed with the Collaboration Services for Task Communications Management \(sn\_tcm\_collab\_hook\) plugin, including tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Tables installed
 
@@ -56,5 +56,5 @@ Stores Collaboration Service related data.
 </table>**Related topics**  
 
 
-[Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-slack-workspace.md)
+[Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-slack-workspace.md)
 

@@ -3,9 +3,9 @@ title: Notification example: notify task assignees
 description: Notify users who are assigned a Task \[task\] record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_NotificationExAssignmentNotif.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -52,5 +52,5 @@ Set up your email as a test email address. Navigate to **System Properties** &gt
     2.  Check your email for assignment notifications.
 
 
-**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md)
 

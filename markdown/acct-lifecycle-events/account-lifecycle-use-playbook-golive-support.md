@@ -3,9 +3,9 @@ title: Go-live and post support
 description: This phase addresses issues that arise at go-live and coordinates resolution across the relevant teams to complete the account onboarding process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-use-playbook-golive-support.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [go-live support, post go-live, account onboarding, onboarding case, account lifecycle]
 breadcrumb: [Account onboarding playbook, Manage account onboarding cases, Account onboarding, Use, Customer Success Management]
@@ -51,11 +51,11 @@ Creates the main support case related to any onboarding issues that result from 
 </table>After you create the account onboarding case, you can perform the following activities:
 
 -   Select **Discuss** to start a sidebar discussion about the onboarding case. In the pop-up window, select the participants for the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this onboarding case. Select **Open record** to open the record and start the discussion. After the discussion is complete, the details appear in the Activity stream.
--   Select **Create success play** to create automated actions to perform during an engagement lifecycle. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md) for details.
+-   Select **Create success play** to create automated actions to perform during an engagement lifecycle. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md) for details.
 -   Open the Activity stream and select **Email** from the **More** list. Enter the required details and select **Send email**.
 
     **Note:** You can send emails only to team members associated with the account.
 
 
-**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
+**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
 

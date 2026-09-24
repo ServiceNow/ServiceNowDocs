@@ -3,9 +3,9 @@ title: Managing plans with BCM mobile application
 description: Business continuity plan \(BCP\) managers and viewers can manage and view plans using the Business Continuity Management \(BCM\) application on Android or iOS mobile devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/mobile-bcm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

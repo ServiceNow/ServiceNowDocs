@@ -3,13 +3,13 @@ title: Create Knowledge Graph tag
 description: Create Knowledge Graph tags for Now Assist Virtual Agent, AI agent or Now Assist panel Enterprise Graph using Knowledge Graph Designer to improve accuracy of natural language queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2025-11-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Tagging in Knowledge Graph Designer, Using Enterprise graph schema, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Tagging in Knowledge Graph Designer, Using Enterprise graph schema, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Create Knowledge Graph tag
@@ -57,14 +57,14 @@ Role required: admin
     -   Edge \(relationship\)
     Each instruction can optionally be marked as **Always Include**, ensuring critical business logic applies unconditionally across all queries. For example, excluding retired assets or closed tickets by default unless explicitly requested.
 
-    For best results, write instructions as generalized, context-driven guidance rather than hard-coded references to specific table values. See [Improving Natural Language Queries with Tag configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/ai-instructiona-and-examples.md) to see detailed examples.
+    For best results, write instructions as generalized, context-driven guidance rather than hard-coded references to specific table values. See [Improving Natural Language Queries with Tag configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/ai-instructiona-and-examples.md) to see detailed examples.
 
 5.  Add alternative names in the **Table synonyms** field and select **Add**.
 
     -   Use the commonly used table names as synonyms to help AI recognize it in natural language queries.
     -   Example: you can add Tickets as a synonym for the Incident table.
     -   You can add up to five synonyms only.
-6.  To delete a synonym, select \[Omitted image "icon-docintel-delete-grid-line.png"\] icon next to the synonym.
+6.  To delete a synonym, select \[Omitted image "image.icon-docintel-delete-grid-line"\] icon next to the synonym.
 
 7.  Add AI Instructions in the Table Configurations section and select **Add**.
 

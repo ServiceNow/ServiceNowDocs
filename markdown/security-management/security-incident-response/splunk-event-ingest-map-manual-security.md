@@ -3,11 +3,11 @@ title: Create mappings for Splunk ES notable event incident review and contribut
 description: During the notable event field mapping step, you map individual event fields from notable events to fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-map-manual-security.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up a profile for manual event forwarding, Create an event profile, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -64,6 +64,6 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
         The value pairs for the fields that you exported for the event are displayed on the left side of the mapping form.
 
-3.  Follow steps 5 to 10 in the [Map notable events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-map-alerts-security.md) section.
+3.  Follow steps 5 to 10 in the [Map notable events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-map-alerts-security.md) section.
 
 

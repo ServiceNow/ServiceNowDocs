@@ -3,9 +3,9 @@ title: Use the While component
 description: Execute a code until a specified condition is true using the While component in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-loops-while.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Loops, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -124,5 +124,5 @@ When you run this automation, the value 1 is incremented to 2 and shows in the o
 
 \[Omitted image "while-loop-example-rpa.png"\] Alt text: While component with Variable, Expression, and MessageBox components showing an automation.
 
-**Parent Topic:**[Loops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/loops.md)
+**Parent Topic:**[Loops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/loops.md)
 

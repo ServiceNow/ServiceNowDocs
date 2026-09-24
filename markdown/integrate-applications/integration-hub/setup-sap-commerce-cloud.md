@@ -3,7 +3,7 @@ title: Set up the SAP Commerce Cloud spoke
 description: Integrate your ServiceNow instance with the SAP Commerce Cloud to automate various actions on the SAP Commerce Cloud. For example, you can set up a flow that looks up a shopping cart at a specified time every day.Generate the credentials that you use to create the connection record for the SAP Commerce Cloud spoke. Your ServiceNow instance uses the connection record connect with the SAP Commerce Cloud.Create a connection record that enables your ServiceNow instance to connect with the SAP Commerce Cloud record. The connection record has the underlying connection information required to integrate with SAP Commerce Cloud.Integrate the ServiceNow instance and SAP Commerce Cloud spoke by creating a custom OAuth application in SAP Commerce Cloud to authenticate ServiceNow requests.Create a connection record for your SAP Commerce Cloud account. The SAP Commerce Cloud connection and credential aliases use these connections to perform actions in SAP Commerce Cloud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sap-commerce-cloud.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

@@ -3,9 +3,9 @@ title: Activate database rotation
 description: Learn how to activate database rotation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ActivateDatabaseRotation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Applying database rotation techniques, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ There are two database rotation plugins.
     **Note:** Deployment of this plugin should be executed in partnership with a ServiceNow representative.
 
 
-For new instances, database rotation is active by default. If you're upgrading from a previous version, users with the admin role can activate the Database Rotations \(com.snc.db.rotation\) plugin if it isn't already active.
+For new instances, database rotation is active by default. If you are upgrading from a previous version, users with the admin role can activate the Database Rotations \(com.snc.db.rotation\) plugin if it isn't already active.
 
 ## Procedure
 
@@ -42,14 +42,14 @@ For new instances, database rotation is active by default. If you're upgrading f
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 ## What to do next
 
 Do not activate the Database Rotations Default Tables \(com.snc.db.rotation\_default\_tables\) plugin. Instead, specify the tables manually, after consulting a ServiceNow representative.
 
-**Parent Topic:**[Applying database rotation techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseRotation.md)
+**Parent Topic:**[Applying database rotation techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DatabaseRotation.md)
 
 **Related topics**  
 

@@ -3,7 +3,7 @@ title: Learn how to deploy Event Management to production
 description: Understand the process and considerations for deploying Event Management configurations from development to production environments using update sets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/learn-deploy-to-production.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
@@ -25,7 +25,7 @@ Before deploying to production, verify that all configurations work correctly in
 
 ## Update set process
 
-[Update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md) capture configuration changes made in your development environment and allow you to transfer them to production. This includes Event Management automation rules, user roles, integration settings, and custom configurations.
+[Update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets.md) capture configuration changes made in your development environment and allow you to transfer them to production. This includes Event Management automation rules, user roles, integration settings, and custom configurations.
 
 The deployment process automatically records changes as update sets, so you don't need to create them manually. To deploy, export the recorded update set and import it into your production environment. Always review the update set contents before deployment.
 

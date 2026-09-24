@@ -3,11 +3,11 @@ title: Canceled-transaction logging to a table
 description: The system logs canceled transactions to a table in addition to the transaction log.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/c\_CanTranLogTbl.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Transaction cancellation, Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -42,8 +42,8 @@ Indicates whether canceled transactions are to be logged to the Transaction Canc
 
  Default value: true
 
- Location: [Add to the System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) \[sys\_properties\] table
+ Location: [Add to the System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Transaction cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/transaction-cancellation.md)
+</table>**Parent Topic:**[Transaction cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/transaction-cancellation.md)
 

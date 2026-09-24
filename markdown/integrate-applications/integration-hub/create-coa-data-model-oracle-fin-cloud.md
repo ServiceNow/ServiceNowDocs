@@ -3,7 +3,7 @@ title: Create the data model for the Oracle Financial Cloud spoke
 description: Configure a chart of accounts structure data model in Oracle Financial Cloud so the Look up chart of accounts action in the Oracle Financial Cloud spoke can retrieve chart of accounts data.Create a BI Publisher report from the chart of accounts data model so the Look up chart of accounts action has a runnable report to call for chart of accounts structure data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-coa-data-model-oracle-fin-cloud.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

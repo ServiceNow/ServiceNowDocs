@@ -3,11 +3,11 @@ title: Add milestones for roadmap
 description: Track key dates of your plan's timeline by creating milestones and displaying them on the roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -29,15 +29,15 @@ For the timeline of your portfolio plan or free-form roadmap, create milestones 
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d217943e96">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d218592e96">
 
 Roadmap type
 
-</th><th align="left" id="d217943e99">
+</th><th align="left" id="d218592e99">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d217943e105">
+</th></tr></thead><tbody><tr><td id="d218592e105">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d217943e126">
+</td></tr><tr><td id="d218592e126">
 
 **Free-form roadmap**
 
@@ -62,7 +62,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Roadmap milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/roadmap-milestone-form.md).
+    For field information, see [Roadmap milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/roadmap-milestone-form.md).
 
 4.  Select **Submit**.
 
@@ -85,8 +85,8 @@ If multiple milestones are scheduled close to each other, they might appear grou
 
 \[Omitted image "milestone-group.gif"\] Alt text: milestone group
 
--   **[Update a roadmap milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-roadmap-milestone-in-portfolio-planning.md)**  
+-   **[Update a roadmap milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/update-roadmap-milestone-in-portfolio-planning.md)**  
 Update or delete the milestones that you added to your portfolio plan or free-form roadmap so that they reflect any change of plans.
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

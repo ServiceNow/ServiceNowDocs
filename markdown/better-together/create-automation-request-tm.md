@@ -3,9 +3,9 @@ title: Create an automation request in Task Mining
 description: As a business analyst, review the task timeline for identifying task optimization opportunities and automation candidates. Then, submit an automation request from Task Mining to create an automation in Automation Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/better-together/create-automation-request-tm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [create agent, decomposed automations, automations blocks, desktop actions, automation center, UI block, non UI block, deterministic desktop actions]
 breadcrumb: [Building desktop automations from Task Mining data, Solutions]
@@ -17,10 +17,10 @@ As a business analyst, review the task timeline for identifying task optimizatio
 
 ## Before you begin
 
--   [Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-task-mining-projects.md) in Task Mining.
--   Confirm that you select **Capture screenshots to create desktop actions** option while defining the scope for the task. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/mine-data.md).
+-   [Create a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-task-mining-projects.md) in Task Mining.
+-   Confirm that you select **Capture screenshots to create desktop actions** option while defining the scope for the task. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/mine-data.md).
 -   Enable workstation users to capture desktop activity data that includes desktop interactions and sequence of steps using the Task Mining agent.
--   Run a mining job on a Task Mining project to generate an analysis of the collected project data. For more information, see [Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/mine-project-data.md).
+-   Run a mining job on a Task Mining project to generate an analysis of the collected project data. For more information, see [Run a mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/mine-project-data.md).
 -   Verify that Automation Center is installed to initiate an automation request.
 -   Verify that ServiceNow Otto for Platform is installed and the User Task Step Summarization skill is activated to use the AI features in the integration.
 
@@ -50,13 +50,13 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 5.  Edit any of these steps if you want to change task details.
 
-    1.  Select the Duplicate step icon \[Omitted image "task-mining-duplicate-step.png"\] next to the step to make a copy of the step.
+    1.  Select the Duplicate step icon \[Omitted image "image.task-mining-duplicate-step"\] next to the step to make a copy of the step.
 
         The new task step is created. The **Interaction** column of the duplicated step is empty.
 
-    2.  Select the Delete step icon \[Omitted image "tm-delete-step-icon.png"\] next to the step to remove a step from the task.
+    2.  Select the Delete step icon \[Omitted image "image.tm-delete-step-icon"\] next to the step to remove a step from the task.
 
-    3.  Select the Reorder step icon \[Omitted image "tm-reorder-icon.png"\] next to the step to drag the step to a different order.
+    3.  Select the Reorder step icon \[Omitted image "image.tm-reorder-icon"\] next to the step to drag the step to a different order.
 
     4.  Double-click a task field \(or use the keyboard shortcut\) to edit details, enter the new text, and select **Apply**.
 
@@ -66,15 +66,15 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 7.  Select the task improvement action that you want to take, and select **Continue**.
 
-<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d23095e288">
+<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d22989e288">
 
 Option
 
-</th><th align="left" id="d23095e291">
+</th><th align="left" id="d22989e291">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23095e297">
+</th></tr></thead><tbody><tr><td id="d22989e297">
 
 **Generate with AI**
 
@@ -82,7 +82,7 @@ Description
 
 Open an Automation Center request based on the improvement opportunity. Populate the **Description** and **Detailed sequence of steps** fields with data from the tasks. For more information, see step 8.
 
-</td></tr><tr><td id="d23095e315">
+</td></tr><tr><td id="d22989e315">
 
 **Complete manually**
 
@@ -91,7 +91,7 @@ Open an Automation Center request based on the improvement opportunity. Populate
 Fill in the Automation Center request form with details of the improvement opportunity, and submit the request.**Note:** If an automation request has already been made for this task, a message with a link to the existing automation request is provided.
 
 </td></tr></tbody>
-</table>    \[Omitted image "tm-io-generate-ai.png"\] Alt text: Screenshot showing the UI option to generate details with AI.
+</table>    \[Omitted image "image.tm-io-generate-ai"\] Alt text: Screenshot showing the UI option to generate details with AI.
 
 8.  Select **Generate details** to populate the **Description** and **Detailed sequence of steps** fields with data from the tasks again.
 
@@ -120,5 +120,5 @@ In this example, an HR analyst captures the employee onboarding workflow:
 
 ## What to do next
 
-In Automation Center, generate automations to create automation blocks from user task patterns captured using Task Mining. For more information, see [Create automation blocks from the automation request in Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/generate-automations-tm.md).
+In Automation Center, generate automations to create automation blocks from user task patterns captured using Task Mining. For more information, see [Create automation blocks from the automation request in Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/better-together/generate-automations-tm.md).
 

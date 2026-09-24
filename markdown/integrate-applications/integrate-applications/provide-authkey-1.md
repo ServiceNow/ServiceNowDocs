@@ -2,7 +2,7 @@
 title: Provide authorization key for webhook
 description: Authorise requests from Jenkins by providing authorization key for webhook in your ServiceNow instance.
 locale: en-US
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -26,7 +26,7 @@ Role required: admin
 
     |Field|Description|
     |-----|-----------|
-    |Authorization Key|Authorization key you had generated. See [Create authorization key for the Jenkins v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/receive-jenkins-upd.md) for more information.|
+    |Authorization Key|Authorization key you had generated. See [Create authorization key for the Jenkins v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/receive-jenkins-upd.md) for more information.|
     |Name|Name to identify the webhook client record.|
 
 4.  Click **Submit**.

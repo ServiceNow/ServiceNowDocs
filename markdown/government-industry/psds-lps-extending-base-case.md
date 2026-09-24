@@ -3,9 +3,9 @@ title: Extend the License and Permit Base Case
 description: As an admin, you can further extend the License and Permit install base case to define specific license/permit items received classes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-lps-extending-base-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---

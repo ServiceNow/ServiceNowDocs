@@ -3,11 +3,11 @@ title: Choice data
 description: Store choice list values for a specific choice field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/choice-data.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Input and output data variables, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -84,8 +84,8 @@ Choices
 
 </td><td>
 
-Specify the choices available to select. Use the add button \(\[Omitted image "green-add-button.png"\] Alt text: Add button\) to create a choice. Each choice must have a **Name**, **Value**, and **Order**. See [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md) for more information about choice lists.
+Specify the choices available to select. Use the add button \(\[Omitted image "green-add-button.png"\] Alt text: Add button\) to create a choice. Each choice must have a **Name**, **Value**, and **Order**. See [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ChoiceLists.md) for more information about choice lists.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
+</table>**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
 

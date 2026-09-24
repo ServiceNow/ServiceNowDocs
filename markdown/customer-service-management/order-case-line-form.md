@@ -3,9 +3,9 @@ title: Order case line item form
 description: The order case line item form displays details about an order case line on a case record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/order-case-line-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order Operations Case Management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

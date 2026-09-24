@@ -3,11 +3,11 @@ title: Manage default related items list
 description: You can add or remove items from the default list of related items which is used in duplicate CI remediation for all de-duplication tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/manage-related-items-list.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_cmdb\_admin or itil\_admin
 
 The default related items list is used by the Duplicate CI Remediator, appearing on the **Merge Relationships and Related Items** tab. You can modify the list for only a specific task in the Duplicate CI Remediator without affecting the default global list.
 
-The default related items list is also used by the [De-duplication Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md) in CMDB Workspaceand in Service Graph Workspace for remediation.
+The default related items list is also used by the [De-duplication Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md) in CMDB Workspaceand in Service Graph Workspace for remediation.
 
 Globally modifying the list affects the remediation of all de-duplication tasks in the Duplicate CI Remediator and in the De-duplication Dashboard in CMDB Workspaceand in Service Graph Workspace.
 
@@ -39,5 +39,5 @@ Globally modifying the list affects the remediation of all de-duplication tasks 
 3.  Click **Save**.
 
 
-**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
+**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 

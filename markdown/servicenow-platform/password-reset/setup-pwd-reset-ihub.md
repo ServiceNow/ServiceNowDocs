@@ -3,11 +3,11 @@ title: Customize password reset processes and integrate third-party credential s
 description: To customize password reset processes or to integrate them with third-party credential services such as Okta or Microsoft Entra ID, use Integration Hub capabilities. Use Workflow Studio to create or modify actions like user unlock, change password, and get user status. Use Workflow Studio to create or modify subflows that perform the actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/setup-pwd-reset-ihub.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,11 +31,11 @@ Role required: admin, password\_reset\_admin, or password\_reset\_credential\_ma
 
 1.  Use Workflow Studio to create password reset actions like user unlock, change password, and get user status.
 
-    For more information about Workflow Studio, see [Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/actions.md).
+    For more information about Workflow Studio, see [Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/actions.md).
 
 2.  Use Workflow Studio to create the following subflows.
 
-    Use the specified names, inputs, and outputs for the subflows. For more information about the subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md).
+    Use the specified names, inputs, and outputs for the subflows. For more information about the subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md).
 
 <table id="table_en2_pll_b3b"><thead><tr><th>
 
@@ -230,17 +230,17 @@ Status
 Choice
 
 </td></tr></tbody>
-</table>3.  For third party providers, [create a credential store type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateACredentialStoreType.md).
+</table>3.  For third party providers, [create a credential store type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_CreateACredentialStoreType.md).
 
     1.  Select the **Use Flow** check box.
 
     2.  Select the password reset subflows that you created for the provider.
 
-    See [Password Reset application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-landing-page.md) for more information.
+    See [Password Reset application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/password-reset-landing-page.md) for more information.
 
-4.  [Create password reset credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_CredentialStores.md).
+4.  [Create password reset credential store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/c_CredentialStores.md).
 
-5.  [Create a password reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
+5.  [Create a password reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
 
 6.  Select the credential store type created for the provider.
 
@@ -249,5 +249,5 @@ Choice
 
 The password reset mechanism for the required third-party application is set up.
 
-**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
+**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
 

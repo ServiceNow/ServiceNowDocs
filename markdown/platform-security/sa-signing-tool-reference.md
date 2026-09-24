@@ -3,9 +3,9 @@ title: Signing Tool arguments
 description: Learn about the available arguments for the Signing Tool.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/sa-signing-tool-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Standalone Signing Tool, Using Code Signing, Code Signing, Platform Security]
 ---
@@ -25,4 +25,6 @@ Learn about the available arguments for the Signing Tool.
 |-p|No|Password to access the keystore if it has a password. You can also enter this password when prompted instead of within the argument.|
 |-w|No|Wipe all existing signature record files.|
 |-h|No|Show this help message and exit.|
+
+**Parent Topic:**[Standalone signing tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sa-code-signing-tool.md)
 

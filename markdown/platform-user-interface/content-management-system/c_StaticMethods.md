@@ -3,11 +3,11 @@ title: Static methods
 description: Static methods in the CMS application were created for ease of use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_StaticMethods.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content Management integration points, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,11 +22,11 @@ Form-based menu management and WYSYWIG code editing can be useful to both advanc
 
 -   **Navigation Menu Links**
 
-    Use base system templates to group similar links for placement on the page. Though the terminology is different \(menu sections and menu items\), this type of linking behaves the same way as content links. For more information on creating a navigation menu block, see [Create a navigation menu block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateNavigationMenuBlock.md).
+    Use base system templates to group similar links for placement on the page. Though the terminology is different \(menu sections and menu items\), this type of linking behaves the same way as content links. For more information on creating a navigation menu block, see [Create a navigation menu block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_CreateNavigationMenuBlock.md).
 
 -   **Static HTML Details**
 
-    Content blocks that are useful for areas administered by developers unfamiliar with HTML or markup. Anyone familiar with markup can use dynamic blocks because they are extendable. For more information on static HTML, see [Using Content Blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_StaticHTMLBlock.md).
+    Content blocks that are useful for areas administered by developers unfamiliar with HTML or markup. Anyone familiar with markup can use dynamic blocks because they are extendable. For more information on static HTML, see [Using Content Blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_StaticHTMLBlock.md).
 
 -   **Content Links**
 
@@ -34,8 +34,8 @@ Form-based menu management and WYSYWIG code editing can be useful to both advanc
 
 -   **iFrame Details**
 
-    Used both dynamically and statically throughout the system. Using them is an easy way to bring any form or list into your CMS pages. For more information on iFrame methods, see [Using Content Blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_IFrameMethods.md).
+    Used both dynamically and statically throughout the system. Using them is an easy way to bring any form or list into your CMS pages. For more information on iFrame methods, see [Using Content Blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_IFrameMethods.md).
 
 
-**Parent Topic:**[Content Management integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSIntegrationPoints.md)
+**Parent Topic:**[Content Management integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/c_CMSIntegrationPoints.md)
 

@@ -3,11 +3,11 @@ title: Compare two snapshots of a deployable
 description: Use the Config Data Analyzer tool to find changes between two snapshots of a deployable of an application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-cda-snapshots-compare-changes.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Use the Config Data Analyzer tool to find changes between two snapshots of a dep
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 There must be more than one snapshot available in a deployable to compare and the target snapshot must not be the first snapshot in the deployable.
 
@@ -26,7 +26,7 @@ Role required: cdm\_viewer, cdm\_editor, or cdm\_admin
 
 ## About this task
 
-To compare snapshots from different deployables or applications, see [Compare snapshots from the same or different applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-cda-snapshots-compare.md).
+To compare snapshots from different deployables or applications, see [Compare snapshots from the same or different applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-cda-snapshots-compare.md).
 
 ## Procedure
 

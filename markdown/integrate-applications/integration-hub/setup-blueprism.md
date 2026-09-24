@@ -3,7 +3,7 @@ title: Set up the Blue Prism spoke
 description: Integrate your ServiceNow instance with the Blue Prism server to have the requests from your ServiceNow instance authenticated.Configure the Dispatch Framework and Process info utilities in your Blue Prism environment to enable integration with ServiceNow.Create a connection and credential record to enable your ServiceNow instance to connect to the Blue Prism ProcessInfo utility. The record is a single form that contains all the information needed to connect to the Blue Prism ProcessInfo utility every time.Create a connection and credential record to enable your instance to connect to the Blue Prism Process Dispatcher utility. The record is a single form that contains all the information needed to connect to the Blue Prism ProcessInfo utility every time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-blueprism.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -92,7 +92,7 @@ Role required: admin.
 
     \[Omitted image "select-mid-server-option-blue-prism.png"\] Alt text: Mid server option in Blue Prism connection and credential record.
 
-    To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+    To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 
 
 ## Create Connection and Credential record for Blue Prism Process Dispatcher
@@ -132,6 +132,6 @@ Role required: admin.
 
 7.  Enable the **Use MID server** option.
 
-    To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+    To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 
 

@@ -3,9 +3,9 @@ title: Filtering and sorting results in mobile
 description: Use mobile filter capabilities within list, map, and calendar screens to help you search for specific data and streamline your results. Sorting lets you define how to view the filtered results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/filter-sort-results-using.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---
@@ -82,6 +82,6 @@ Select **Apply**, after you define your filtering and sorting options.
 \[Omitted image "mobile-filters-5.png"\] Alt text: Filter with selected conditions
 
 </td></tr></tbody>
-</table>3.  Bookmark your filter and sorting selections for easy access. See, [Mobile saved views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/saved-views-mobile.md).
+</table>3.  Bookmark your filter and sorting selections for easy access. See, [Mobile saved views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/saved-views-mobile.md).
 
 

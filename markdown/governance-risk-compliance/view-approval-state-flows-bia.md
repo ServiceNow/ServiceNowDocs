@@ -3,9 +3,9 @@ title: View approval state flows for a business impact analysis
 description: View approval state transitions and approver details at each level as you direct the business impact analysis through the approval process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-approval-state-flows-bia.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, sn\_bcm.viewer
 
 2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
-    You can view approval records for a business impact analysis \(BIA\) that is in any state except **Draft** and **In Review**.
+    You can view approval records for a business impact analysis \(BIA\) that is any state except **Draft** and **In Review** states.
 
 3.  Click the link to the business impact analysis record in the **Name** column.
 
@@ -40,7 +40,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, sn\_bcm.viewer
 
 6.  To view the approval history of the impact analysis, click the **Details** tab.
 
-    1.  Click the Approval History related list.
+    1.  Click the Approval History related item.
 
         You can view the complete approval history of the approvers and the details as to when it was created.
 

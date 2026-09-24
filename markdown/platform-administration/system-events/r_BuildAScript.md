@@ -3,11 +3,11 @@ title: The incident events business rule
 description: The incident events business rule comes with the system and defines a number of events that can be triggered by different actions in the Incident table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-events/r\_BuildAScript.html
-release: australia
+release: brazil
 product: System Events
 classification: system-events
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [System events reference, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -55,5 +55,5 @@ The gs.eventQueue function takes the following parameters:
 
 **Note:** The gs.EventQueue function works directly with the backend and therefore business rules that are called by gs.EventQueue\(\) are not invoked.
 
-**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/system-events-reference.md)
+**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-events/system-events-reference.md)
 

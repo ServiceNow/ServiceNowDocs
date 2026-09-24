@@ -3,9 +3,9 @@ title: Bulk edit for false positive in the Security Exposure Management Workspac
 description: Mark one or more records \(VITs, AVITs, CVITs, or TRs\) as false positive concurrently using the bulk edit feature from the Security Exposure Management Workspace instead of manually selecting each item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-bulk-edit-request-false-positive.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -46,8 +46,8 @@ When you raise a false positive request for one or more records from the Bulk ed
     -   Configuration Test Results
 3.  Perform one of the following:
 
-    -   Select the check box next to each item if you want to use the Only Selected Items option in the [**Record selection**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md) field.
-    -   Apply filters if you want to use the All records that match filter option in the [**Record selection**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md) field.
+    -   Select the check box next to each item if you want to use the Only Selected Items option in the [**Record selection**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md) field.
+    -   Apply filters if you want to use the All records that match filter option in the [**Record selection**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md) field.
 4.  Select the **Bulk Edit** button.
 
 5.  On the form, fill in the fields to request false positive for multiple records.
@@ -136,7 +136,7 @@ Text that you enter to describe the changes.
 
     A remediation task is created with the selected records. Your request is submitted for approval and the State of the remediation task changes to  In Review.
 
-    **Note:** The **Take Questionnaire** modal appears only when the questionnaire is enabled for false positive requests in the Exception Management form. For more information on configuring a questionnaire for false positive requests, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/configure-exception-management-settings.md), [Configure Exception Management for Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/configure-exception-management-application-vulnerability-response.md), and [Configure Exception Management for Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/configure-exception-management-for-container-vulnerability-response.md).
+    **Note:** The **Take Questionnaire** modal appears only when the questionnaire is enabled for false positive requests in the Exception Management form. For more information on configuring a questionnaire for false positive requests, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/configure-exception-management-settings.md), [Configure Exception Management for Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/application-vulnerability-response/configure-exception-management-application-vulnerability-response.md), and [Configure Exception Management for Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/container-vulnerability-response/configure-exception-management-for-container-vulnerability-response.md).
 
     The approver receives an email notification about your request.
 
@@ -151,6 +151,4 @@ In the Security Exposure Management Workspace, on the List page, navigate to **E
 |Rejected|The state of the Remediation Task and its records doesn’t change.|
 
 In the **Activity stream** of a record or remediation task, you can view the entire workflow of your request.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)
 

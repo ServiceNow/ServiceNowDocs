@@ -3,11 +3,11 @@ title: Set the system properties for the Operational Technology Action-Oriented 
 description: Set the system properties for the Operational Technology \(OT\) Action-Oriented Landing Page so that you can enable the properties as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/set-the-system-properties-ot-action-oriented-landing-page.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the Action-Oriented Landing Page, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -34,5 +34,5 @@ Role required: configure\_industrial\_workspace
 3.  Select **Save**.
 
 
-**Parent Topic:**[Setting up the Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-task-oriented-landing-page.md)
+**Parent Topic:**[Setting up the Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/setting-up-the-ot-task-oriented-landing-page.md)
 

@@ -3,9 +3,9 @@ title: Generating a server certificate
 description: You can use keytool to generate a new Java keystore file, create a certificate signing request \(CSR\), and import the private key, public certificate pair, and signed certificates into the keystore.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_GenerateAServerCertificate.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generating an LDAP client certificate, Certificates, Encryption]
 ---
@@ -63,7 +63,7 @@ Enter these commands in a command line interface:
 
 ## What to do next
 
-[Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md)
+[Uploading a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_UploadACertificateToAnInstance.md)
 
-**Parent Topic:**[Generating an LDAP client certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_GenerateAnLDAPClientCertificate.md)
+**Parent Topic:**[Generating an LDAP client certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_GenerateAnLDAPClientCertificate.md)
 

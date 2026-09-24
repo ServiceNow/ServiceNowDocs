@@ -3,11 +3,11 @@ title: NLQ Genius Results used in the Industrial Workspace
 description: The Industrial Workspace leverages Natural Language Query \(NLQ\) Genius Results for each search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/nlq-genius-results-industrial-workspace.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -20,7 +20,7 @@ The Industrial Workspace leverages Natural Language Query \(NLQ\) Genius Results
 
 Configuration Management Database \(CMDB\) tables cannot be indexed by AI Search. The Industrial Workspace search is configured to show NLQ Genius Results for each search, which can be used to search CMDB tables. NLQ Genius Results use NLQ processing to surface relevant results from tables that match your search query.
 
-For more information about NLQ Genius Results, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/genius-result-nlq-ais.md).
+For more information about NLQ Genius Results, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/genius-result-nlq-ais.md).
 
 ## Searching OT CIs
 
@@ -35,5 +35,5 @@ The following table contains examples for searching different information for a 
 |Searching for a PLC by description|`PLC Description <insert description>`|
 |Searching for a PLC by manufacturer|`PLC Manufacturer <insert manufacturer>`|
 
-**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

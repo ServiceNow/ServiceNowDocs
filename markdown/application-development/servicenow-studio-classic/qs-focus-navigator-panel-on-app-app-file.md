@@ -3,11 +3,11 @@ title: Focus the Navigator panel on an app or app file
 description: Focus the Navigator panel on any open app or app file in ServiceNow Studio so the Navigator panel reflects your current work context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-focus-navigator-panel-on-app-app-file.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -30,15 +30,15 @@ Watch a short video on how to focus the Navigator panel on an app or app file.
 
 2.  Open several files from different applications in the Navigator panel.
 
-3.  Select and hold \(or right-click\) the tab of the file you want to focus on, then select **Show in File Navigator**.
+3.  Select and hold \(or right-click\) the tab of the file you want to focus on, then select **Show in Navigator**.
 
-    In this example, the file open in the canvas and the Navigator panel are both from the Dining Pass Share application.
+    In this example, the file open in the canvas and the Navigator panel are both from the Event Management application. Focus the Navigator panel on the Welcome flow from the College Asset Tracking application.
 
     \[Omitted image "sn-studio-focus-navigator.png"\] Alt text: Several files are open, and you can select Show in File Navigator to focus the Navigator panel on that file.
 
 4.  Verify that the Navigator panel now shows the selected file.
 
-    The Navigator panel displays the selected file's location — for example, the **Vendor** table from the Equip Inventory Suite application — even with other application files still open.
+    The Navigator panel displays the selected file's location — for example, the **Welcome flow** from the College Asset Tracking application — even with other application files still open.
 
     **Note:** The file open in the canvas stays the same until you select a different tab.
 

@@ -3,11 +3,11 @@ title: Select option for Recommended Actions application
 description: There are two options for the Recommended Actions application: String-based and ML-based. These options decide the kind of data that you get for your search. It displays data about automations in all states except the Published state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/select-option.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Recommended Actions, Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -18,7 +18,7 @@ There are two options for the Recommended Actions application: String-based and 
 
 ## Before you begin
 
-Install the Recommended Actions application. For more information, see [Install Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/install-ra.md).
+Install the Recommended Actions application. For more information, see [Install Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/install-ra.md).
 
 Recommended Actions searches for matching string in **Process name**, **Description**, and **Applications used** fields of the Automation requests form, and **Automation name**, **Description**, and **Source** in the Automation Attribute table.
 
@@ -49,5 +49,5 @@ Role required: sn\_ac.automation\_technical\_user and sn\_nb\_action.next\_best\
     After selecting **Update &amp; Retrain**, the training will start in the scheduler. After it’s complete, it displays **Solution complete**.
 
 
-**Parent Topic:**[Configuring the Recommended Actions application with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-ra.md)
+**Parent Topic:**[Configuring the Recommended Actions application with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/config-ra.md)
 

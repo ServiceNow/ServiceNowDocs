@@ -3,9 +3,9 @@ title: Use the SaveFileDialog component
 description: Save a file to a folder using the SaveFileDialog component in the RPA Desktop Design Studio. By default, the component opens the last file dialog you had opened.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-dialogs-savefiledialog.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dialogs, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-There are properties that you configure for the SaveFileDialog component. For more information, see [Dialog component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/dialog-component-properties.md).
+There are properties that you configure for the SaveFileDialog component. For more information, see [Dialog component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/dialog-component-properties.md).
 
 ## Procedure
 
@@ -50,5 +50,5 @@ There are properties that you configure for the SaveFileDialog component. For mo
 8.  To test the component, click **Run** under the **DESIGN** tab.
 
 
-**Parent Topic:**[Dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/dialogs.md)
+**Parent Topic:**[Dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/dialogs.md)
 

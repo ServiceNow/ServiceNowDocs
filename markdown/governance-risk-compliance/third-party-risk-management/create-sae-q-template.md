@@ -3,11 +3,11 @@ title: Create a TPRM SAE questionnaire or document request template
 description: Create a TPRM SAE questionnaire or document request template that supports SAE for risk identification. After integrating SAE, new users must create SAE templates, and existing users can create additional templates after migrating their existing ones.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/create-sae-q-template.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Smart Assessment Engine assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ You must set the Smart Assessment Engine enabled \[sn\_vdr\_risk\_asmt.sae\_enab
 
 **Warning:** After this option is enabled, this selection can’t be reversed.
 
-For more information, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md) and [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md).
+For more information, see [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md) and [Migrating from Classic Assessment Engine to Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.md).
 
 ## About this task
 
@@ -38,15 +38,15 @@ To add Third-party Risk Management \(TPRM\) specific information such as third-p
 
 2.  Complete one of the following options to create a new template or copy an existing template and customize.
 
-<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d67409e169">
+<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d68773e169">
 
 Option
 
-</th><th align="left" id="d67409e172">
+</th><th align="left" id="d68773e172">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d67409e178">
+</th></tr></thead><tbody><tr><td id="d68773e178">
 
 **Create a new template**
 
@@ -55,12 +55,12 @@ Description
 1.  Select **New**.
 2.  On the **Create New TPRM questionnaire template form**, fill in the fields.
 
-For more information about the field descriptions, see [Create New TPRM SAE questionnaire template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information about the field descriptions, see [Create New TPRM SAE questionnaire template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
 3.  Select Save.
  **Note:** For Issue-generation rules to work as expected when applied to an SAE assessment template, at least one question with Enable preferred response must be set to true.
 
-</td></tr><tr><td id="d67409e232">
+</td></tr><tr><td id="d68773e232">
 
 **Copy and customize an existing template**
 
@@ -72,7 +72,7 @@ Select the copy icon \[Omitted image "copy-icon.png"\] Alt text: and make any ne
 </table>
 ## What to do next
 
--   If you chose to create a new template the system generates an empty template. Navigate to each corresponding tab to define the overall instructions, questions, optional guidance for responding to a question, sections that group the related questions, and scoring. For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md), [Add reference information to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-add-reference.md), [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md), and [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md).
+-   If you chose to create a new template the system generates an empty template. Navigate to each corresponding tab to define the overall instructions, questions, optional guidance for responding to a question, sections that group the related questions, and scoring. For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md), [Add reference information to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-add-reference.md), [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md), and [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md).
 -   If you chose to copy an existing template, the system generates a template including all questions, sections, instructions, and configurations of the existing template. You can now customize it as necessary.
 
 **Note:** Not all question types are supported. Percentage, ranking, image scale, and custom metric aren’t supported. For the percentage and image scale question types, customers can use the Number type and Radio button type, respectively. Ranking and custom metric question types aren't supported. You must either convert these question types to supported formats before migration or create questions in the template designer after migration.
@@ -80,5 +80,5 @@ Select the copy icon \[Omitted image "copy-icon.png"\] Alt text: and make any ne
 **Related topics**  
 
 
-[Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)
+[Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)
 

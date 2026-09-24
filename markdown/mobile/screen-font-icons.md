@@ -3,9 +3,9 @@ title: Screen font icons
 description: Use screen font icons for lists or section destinations. You can use them to represent a work flow or a screen that you want users to navigate to. Screen font icons are in the now-mobile-icons font family.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/screen-font-icons.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Mobile icon reference, Mobile icons, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -146,6 +146,10 @@ Use screen font icons for lists or section destinations. You can use them to rep
 |Icons added in the Australia release|
 |Document-Checklist-Search|e920|Australia|\[Omitted image "mab-icon-screen-doc-check-search.png"\] Alt text: Document-Checklist-Search example| |
 |Rectangle-Search|e921|Australia|\[Omitted image "mab-icon-screen-rect-search.png"\] Alt text: Rectange-Search example| |
+|Icons added in Brazil release|
+|Serverbox|e93e|Brazil|\[Omitted image "mab-icon-screen-sbox.png"\] Alt text: Serverbox example| |
+|SN-Sparkmoji-Logo|e922|Brazil|\[Omitted image "mab-icon-image-sparkmoji.png"\] Alt text: Otto logo example| |
+|Microphone-AI-Spark-Outline|e923|Brazil|\[Omitted image "mab-icon-action-mic-ai-sparkle-out.png"\] Alt text: Microphone AI Sparkle outline example| |
 
-**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md)
+**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-icon-reference.md)
 

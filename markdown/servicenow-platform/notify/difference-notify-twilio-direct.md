@@ -3,11 +3,11 @@ title: Differences between Notify-Twilio and Notify-Twilio Direct
 description: Describes the differences between the Notify-Twilio and Notify-Twilio Direct drivers, including architecture, workflows, Twilio support, and task-initiated conference calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/difference-notify-twilio-direct.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,5 +23,5 @@ Describes the differences between the Notify-Twilio and Notify-Twilio Direct dri
 |NA|Adds support for various advanced SMS features such as Co-pilot messaging, Twilio Notify bulk SMS.|
 |NA|Adds support for various functionalities in conference calls such as view the participant who is speaking on the conference call, disable beep when someone enters/exits a conference, advanced call features like machine detection and so on.|
 
-**Parent Topic:**[Notify reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-reference-section.md)
+**Parent Topic:**[Notify reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/notify-reference-section.md)
 

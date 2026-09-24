@@ -3,11 +3,11 @@ title: Tagging records with functional domain
 description: Functional domain tagging is a mechanism that allows you to classify risk records based on the specific business function, process, or use case they support. A functional domain represents a logical grouping, such as Cybersecurity and risk, IT risk and compliance, Compliance, Third-Party Risk, or Operational Risk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/tagging-records-with-functional-domain.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -57,10 +57,10 @@ The following is a list of supported record types:
 -   Entity Type
 -   Risk Statement
 
--   **[Functional domain bulk update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/functional-domain-bulk-update.md)**  
+-   **[Functional domain bulk update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/functional-domain-bulk-update.md)**  
 The functional domain feature enables users to efficiently filter and sort records within a workspace based on domain-specific tags. For instance, when working in the Privacy Workspace, users can exclude records that are not tagged with privacy, allowing for a more focused view and reducing potential confusion.
--   **[Bulk update functional domain for multiple records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/bulk-update-functional-domain-for-multiple-records.md)**  
+-   **[Bulk update functional domain for multiple records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/bulk-update-functional-domain-for-multiple-records.md)**  
 Update the functional domain for multiple records at once to save time and ensure efficiency.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

@@ -3,9 +3,9 @@ title: Encoded query strings
 description: An encoded query string represents a complex filter on a list of records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_EncodedQueryStrings.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Filters and breadcrumbs, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,11 +14,11 @@ breadcrumb: [Filters and breadcrumbs, Lists in the classic environment, Working 
 
 An encoded query string represents a complex filter on a list of records.
 
-Use encoded query strings to include a filter as part of a URL parameter, such as the [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/navigate-using-url.md), or as a [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md) to restrict the data that is selectable for a reference field.
+Use encoded query strings to include a filter as part of a URL parameter, such as the [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/navigate-using-url.md), or as a [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ReferenceQualifiers.md) to restrict the data that is selectable for a reference field.
 
-To construct an encoded query string, generate a list query and then [copy it from the list filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md). This is the preferred method because the alternative is to create the string manually.
+To construct an encoded query string, generate a list query and then [copy it from the list filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md). This is the preferred method because the alternative is to create the string manually.
 
-In order to create an encoded query string manually, you need to know the relevant table and field names and [operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+In order to create an encoded query string manually, you need to know the relevant table and field names and [operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 <table id="table_hkc_kvp_pq"><thead><tr><th>
 
@@ -60,11 +60,11 @@ Referring to choice list values
 
 </td><td>
 
-To create a query string that refers to a [choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md) option, use the value of the choice list, not the label, with this syntax: choice list field=value. For example, to return configuration items \(CIs\) with the status **Installed**, which has a value of 1 in the choice list, use:```
+To create a query string that refers to a [choice list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ChoiceLists.md) option, use the value of the choice list, not the label, with this syntax: choice list field=value. For example, to return configuration items \(CIs\) with the status **Installed**, which has a value of 1 in the choice list, use:```
 install_status=1
 ```
 
- See [Values to associate with choice labels for scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DetermValsAssocWChoicesScripting.md) to find the options for the values.
+ See [Values to associate with choice labels for scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DetermValsAssocWChoicesScripting.md) to find the options for the values.
 
 </td></tr><tr><td>
 
@@ -161,8 +161,8 @@ To include a text index group in a query, use the 123TEXTINDEXGROUP321 reserved 
 ```
 
 </td></tr></tbody>
-</table>-   **[Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md)**  
+</table>-   **[Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_GenEncodQueryStringFilter.md)**  
 You can generate an encoded query string through a filter on any list and paste the string into a URL query or a reference qualifier.
 
-**Parent Topic:**[Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md)
+**Parent Topic:**[Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md)
 

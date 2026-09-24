@@ -3,11 +3,11 @@ title: Monitor my tasks in the Tasks page in the workspace
 description: Configure and monitor the tasks that are related to an assigned user in the workspace. Configure the landing pages and the widgets that are displayed in the workspaces using the Landing Page Configurations module. The configurations performed using the Landing Page Configurations module help you to filter the data that is displayed in different workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-my-tasks-in-ws.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [My tasks in the workspace, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -53,5 +53,5 @@ Navigate to the individual workspaces to view the tasks, items, and watchlist fo
     **Note:** When a user or user group does not have any pending or associated tasks, a message displays under the respective tab that `All your tasks are done`.
 
 
-**Parent Topic:**[My tasks in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configuration-of-tasks.md)
+**Parent Topic:**[My tasks in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/configuration-of-tasks.md)
 

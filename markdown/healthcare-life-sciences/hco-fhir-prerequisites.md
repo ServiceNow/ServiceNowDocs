@@ -3,9 +3,9 @@ title: Prerequisites for the FHIR integration
 description: Before you activate the EMR Provider Directory Sync, confirm that its dependent applications are installed and that the HL7 FHIR Spoke connection to your FHIR server is configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-prerequisites.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [prerequisites, dependencies, FHIR spoke]
 breadcrumb: [EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]
@@ -37,12 +37,12 @@ The EMR Provider Directory Sync writes to tables owned by several Healthcare Ope
     -   Customer Service Management \(`sn_customerservice`\) — owns the related-party configuration used for the care-team-member responsibility.
 3.  Confirm that the HL7 FHIR Spoke's `HL7 FHIR` Connection &amp; Credential Alias is configured with valid credentials for your FHIR server.
 
-    See [Configure the HL7 FHIR connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/fhir-spoke-activate.md).
+    See [Configure the HL7 FHIR connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/fhir-spoke-activate.md).
 
 4.  Confirm that the administrator who will operate the sync has the `sn_hco.admin` role, which grants the `sn_hco_intg_fhir.admin` role through inheritance.
 
 
 ## Result
 
-With the prerequisites in place, you can activate the sync schedule. See [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-fhir-activate.md).
+With the prerequisites in place, you can activate the sync schedule. See [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-activate.md).
 

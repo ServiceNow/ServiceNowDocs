@@ -1,14 +1,14 @@
 ---
 title: Set up the Jira spoke for Jira Server
-description: Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.Integrate the ServiceNow instance and Jira Server using API Token to authenticate ServiceNow requests.Generate a personal access token from the Jira Server instance.Create an API key credential record to authenticate the requests from ServiceNow.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
+description: Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-jira-server.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 2
 breadcrumb: [Jira Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -103,122 +103,5 @@ Role required: admin
 6.  Click **Submit**.
 
     The Jira spoke is configured to use Basic Auth credentials.
-
-
-## Option 2: Using API Token \(does not comply with Atlassian security requirements\)
-
-Integrate the ServiceNow instance and Jira Server using API Token to authenticate ServiceNow requests.
-
-### Before you begin
-
-**Important:** Apps that collect or store API tokens don't comply with Atlassian security requirements for cloud apps and Atlassian acceptable use policy.
-
-Role required: admin
-
-### Generate a personal access token
-
-Generate a personal access token from the Jira Server instance.
-
-#### Before you begin
-
--   Access to Jira Server instance.
--   Role required: admin
-
-#### Procedure
-
-1.  Log in to the Jira Server instance as an admin.
-
-2.  Click the user profile icon and click **Profile**.
-
-3.  Under **Personal Access Tokens**, click **Create token**.\[Omitted image "jira-spoke-server-api-token.png"\] Alt text: Create a personal access token.
-
-4.  On the Create a personal access token form, fill in the required values.\[Omitted image "jira-spoke-server-api-token1.png"\] Alt text: Fill in the values to create a personal access token.
-
-    The value of personal access token is generated and displayed. Copy this value for later use.\[Omitted image "jira-spoke-server-api-token2.png"\] Alt text: Copy the value of the generated token.
-
-
-### Create a credential record for the Jira spoke
-
-Create an API key credential record to authenticate the requests from ServiceNow.
-
-#### Before you begin
-
-Role required: admin
-
-#### Procedure
-
-1.  Navigate to **All** &gt; **Integration Hub** &gt; **Connection &amp; Credential Aliases** &gt; **Credentials**.
-
-2.  Click **New**.
-
-    The system displays the message, `What type of Credentials would you like to create?`
-
-3.  Select **API Key Credentials**.
-
-4.  On the form, fill these values.
-
-<table id="table_h4b_lr3_bzb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Name to identify the credential record. For example, `Jira Server API Token Cred`.
-
-</td></tr><tr><td>
-
-API Key
-
-</td><td>
-
-Enter value in this format: `Bearer <Personal Access Token>`.`<Personal Access Token>` is the value of personal access token you had created in the Jira system dashboard.
-
-</td></tr></tbody>
-</table>5.  Click **Submit**.
-
-
-### Create a connection record for the Jira spoke
-
-Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
-
-#### Before you begin
-
-Role required: admin
-
-#### Procedure
-
-1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
-
-2.  Open the alias record for **Jira** that shipped with the spoke.
-
-3.  On the **Connections** tab, click **New**.
-
-    The system displays a blank HTTP\(s\) Connection form.
-
-4.  Enter these values and click **Submit**.
-
-    |Field|Value required|
-    |-----|--------------|
-    |Name|Enter any name to uniquely identify the connection record. For example, enter `Jira Server API Token Connection`.|
-    |Credential|Select the Credential record created for Jira. For example, select **Jira Server API Token Cred**.|
-    |Connection URL|Enter the URL of your Jira Server instance.|
-
-5.  In the Attributes related list, provide these values.
-
-    1.  Enter the value `2` for **api\_version**.
-
-    2.  Enter the value `server` for **server\_type**.
-
-    \[Omitted image "jira-spoke-attribute-server.png"\] Alt text: Set the value of server\_type to server.
-
-6.  Click **Submit**.
 
 

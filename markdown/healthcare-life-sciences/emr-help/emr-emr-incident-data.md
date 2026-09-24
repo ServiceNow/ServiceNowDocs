@@ -3,11 +3,11 @@ title: EMR Request Data table
 description: The EMR Request Data \[sn\_ind\_rmt\_help\_incident\_data\] table stores the captured parameter data associated with a task record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-emr-incident-data.html
-release: australia
+release: brazil
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model tables, Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -114,5 +114,5 @@ Workstation
 String
 
 </td></tr></tbody>
-</table>**Parent Topic:**[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)
+</table>**Parent Topic:**[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)
 

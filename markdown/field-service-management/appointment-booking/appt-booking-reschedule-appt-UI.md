@@ -3,11 +3,11 @@ title: Reschedule an appointment as a customer
 description: Reschedule a service appointment from either the Customer or the Consumer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/appt-booking-reschedule-appt-UI.html
-release: australia
+release: brazil
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing appointments as a customer, Managing appointments, Use, Field Service Management]
 ---
@@ -20,7 +20,7 @@ Reschedule a service appointment from either the Customer or the Consumer Servic
 
 Role required: appointment\_booking\_user
 
-Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appointment-booking-administer.md).
+Setup the **Field Service Order Configuration** to book an appointment for work orders and **Field Service Task Configuration** to book an appointment for work order tasks. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 
 ## About this task
 

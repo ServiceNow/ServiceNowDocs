@@ -3,11 +3,11 @@ title: Example Activity Definition: Send email
 description: The following is an example of Send email activity definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/example-activity-definition-send-email.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Activity Definitions, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,7 +32,7 @@ All the input fields are shown within the automation plan section. Each input fi
 
 -   **Admin visibility only**: when set to admin, only admin can view it.
 -   **Include in standard model**: when set to view in the standard modal, it appears only in the properties modal.
--   **Include in standard model and configuration panel**: when set to view in the standard modal and the configuration panel, it appears in the PAD configuration panel as well as in the properties modal. For more information, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/activity-definitions.md)
+-   **Include in standard model and configuration panel**: when set to view in the standard modal and the configuration panel, it appears in the PAD configuration panel as well as in the properties modal. For more information, see [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/activity-definitions.md)
 
 You can define the input fields at the time of activity definition itself, provided you don't have any need to change these values at the time of configuration. This helps the business process owner save time while configuring an activity within a process.
 
@@ -183,8 +183,8 @@ To add a new action to the activity card, you must create a record in the **Play
 2.  Select existing activity action against Action Assignment field.
 3.  Select **SIR Playbook Experience** against Playbook Experience field.
 
--   **[Create an Activity Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/steps-to-create-an-activity-action.md)**  
+-   **[Create an Activity Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/steps-to-create-an-activity-action.md)**  
 Following is procedure to create an activity action.
 
-**Parent Topic:**[Activity Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/build-activities.md)
+**Parent Topic:**[Activity Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/build-activities.md)
 

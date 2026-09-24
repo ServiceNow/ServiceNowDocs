@@ -3,11 +3,11 @@ title: Simple List widget
 description: The Simple List widget can be used to display any list in the system within Service Portal. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/simple-list-widget.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -42,7 +42,7 @@ Filter
 
 </td><td>
 
-Conditions that are applied to the list. To edit the filter, in the widget instance options context menu, select **Open in platform**. Use the Table &amp; Filter tab to apply conditions to the simple list. For more information, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md).
+Conditions that are applied to the list. To edit the filter, in the widget instance options context menu, select **Open in platform**. Use the Table &amp; Filter tab to apply conditions to the simple list. For more information, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreatingFilters.md).
 
 </td></tr><tr><td>
 
@@ -173,7 +173,7 @@ Hide footer
 Show or hide the widget footer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
+</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 

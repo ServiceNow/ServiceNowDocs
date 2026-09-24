@@ -3,9 +3,9 @@ title: Register for the Consumer Portal
 description: Create a consumer account on the Consumer Portal to access self-service features, submit cases, and manage your profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/consumer-portal-registration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -104,5 +104,5 @@ Your registration is complete. You can log in to the Consumer Portal.
 **Related topics**  
 
 
-[Log in to the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/log-in-to-consumer-portal.md)
+[Log in to the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/log-in-to-consumer-portal.md)
 

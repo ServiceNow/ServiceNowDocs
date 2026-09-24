@@ -3,11 +3,11 @@ title: Create a composite geography
 description: Create a composite geography by combining different geographies into a single, powerful view for efficient planning. You can streamline tasks and optimize resources using a composite geography.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/create-a-composite-geography.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create geographies, Territory Planning, Set up workforce, Configure, Field Service Management]
 ---
@@ -32,15 +32,15 @@ Composite Geography combines smaller geographies into a bigger, more impactful o
     -   Navigate to **All** &gt; **Field Service** &gt; **Territory Planning** &gt; **Territory Planning Console**.
 2.  Do either of the following.
 
-<table id="choicetable_jbt_4fz_szb"><thead><tr><th align="left" id="d150436e102">
+<table id="choicetable_jbt_4fz_szb"><thead><tr><th align="left" id="d153523e102">
 
 To create composite geography
 
-</th><th align="left" id="d150436e105">
+</th><th align="left" id="d153523e105">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d150436e111">
+</th></tr></thead><tbody><tr><td id="d153523e111">
 
 **From Platform**
 
@@ -48,7 +48,7 @@ Do this
 
 In the Territory Geographies page, select **New**.
 
-</td></tr><tr><td id="d150436e123">
+</td></tr><tr><td id="d153523e123">
 
 **From Territory Planning console**
 
@@ -105,5 +105,5 @@ The composite geography encompasses all the latitude, longitude, and geo points 
 
 ## What to do next
 
-Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
+Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
 

@@ -3,11 +3,11 @@ title: TISC Data archival and cleanup
 description: Data grows rapidly in tables with increased adoption of the platform. Some tables come within the base system with various data management policies, but other users are needed to implemented by themselves.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/data-archival-process.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Threat Intelligence Security Center, Security Operations]
 ---

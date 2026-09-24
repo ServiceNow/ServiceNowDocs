@@ -3,11 +3,11 @@ title: Issues in the Workspace
 description: You can track all your issues or one specific issue from the Workspace. Issues are listed under the Issues module in the list view of the Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/issues-in-workspace.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage issues, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -91,8 +91,8 @@ As shown in the figure, recommended actions for remediation tasks are shown in t
 
 As shown in the figure, system-generated recommendations are shown for the **Assigned to** field. You can see the top three predictions \(John Retak, James Vittolo, and Jerrod Bennett\) above the list of alphabetized users.
 
--   **[Configuring an issue relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-relationship-configuration.md)**  
+-   **[Configuring an issue relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/issue-relationship-configuration.md)**  
 If an issue isn't reusable and you know that multiple similar issues were created for different controls, risk statements, or control objectives, you can still configure the issue relationship to reuse the issue in the GRC application.
 
-**Parent Topic:**[Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/manage-issues-common-core.md)
+**Parent Topic:**[Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/manage-issues-common-core.md)
 

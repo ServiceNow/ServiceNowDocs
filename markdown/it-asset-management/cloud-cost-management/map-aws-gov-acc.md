@@ -3,11 +3,11 @@ title: Create AWS Gov accounts mapping
 description: Create an AWS GovCloud account mapping with an associated standard AWS account to enable Cloud Cost Management to consolidate usage data and provide accurate cost recommendations across your government cloud environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/map-aws-gov-acc.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---

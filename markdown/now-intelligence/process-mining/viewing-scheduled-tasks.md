@@ -3,11 +3,11 @@ title: Viewing scheduled tasks
 description: From the Scheduled Tasks panel, view statuses and access the results of on-demand scheduled mining tasks, such as a requested cluster analysis or applied filter view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/viewing-scheduled-tasks.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
@@ -31,5 +31,5 @@ You can further access their results or views from the **Scheduled Tasks** panel
 -   \[Omitted image "icon-c.png"\] Alt text: Label for section C: \(Search field\) Use this field to search for specific schedules tasks.
 -   \[Omitted image "icon-d.png"\] Alt text: Label for section D: \(Rename icon\) Select this icon to rename the scheduled task from the default name. The name can have a maximum of 100 characters.
 
-**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/use-process-mining.md)
 

@@ -3,11 +3,11 @@ title: KPI groups in Digital Portfolio Management
 description: Define and configure the key performance indicator \(KPI\) groups in DPM that matter most to you. When you associate KPI groups with your services and applications, you can analyze their performance in a centralized area.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-configure-kpi.html
-release: australia
+release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 
 Define and configure the key performance indicator \(KPI\) groups in DPM that matter most to you. When you associate KPI groups with your services and applications, you can analyze their performance in a centralized area.
 
-\[Omitted video\] Description: Configure KPI Groups
+\[Omitted video\] Description: Use KPI groups.
 
 With KPI groups, you can analyze the performance of each solution in several ways:
 
@@ -32,7 +32,7 @@ With KPI groups, you can analyze the performance of each solution in several way
     -   Last collected scores for all values in each KPI breakdown grid.
     -   Last 30 days of scores for trends and time series visualizations. You can set different time rangers per KPI.
     -   The date the score was collected \(shows on each KPI indicator card\).
-    **Note:** Starting with the June 2024 release of DPM, the latest score system property is set to true for new and zBoot customers. If not applicable, then the DPM admin can enable the latest score system property by navigating to **All** &gt; **Digital Portfolio Management** &gt; **Administration** &gt; **KPI groups properties**. For more admin information, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
+    **Note:** Starting with the June 2024 release of DPM, the latest score system property is set to true for new and zBoot customers. If not applicable, then the DPM admin can enable the latest score system property by navigating to **All** &gt; **Digital Portfolio Management** &gt; **Administration** &gt; **KPI groups properties**. For more admin information, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 
     When you access KPI drill down information in DPM, the system adds a timestamp at the end of the URL in the browser address field. The timestamp is in milliseconds and is based off epoch time.
 
@@ -51,7 +51,7 @@ Two KPI groups enable flexible reporting on solutions in enterprise portfolios.
 
     The business application KPI group type \[**Business application performance**\] enables you to track the number of incidents, problems, and changes for a business application. You can see these performance metrics in the **Run** tab of a business application on the DPM Workspace.
 
-    **Important:** You must map the business application performance KPI group to your business applications to show the data on the **Run** tab. For more information, see [Create KPI groups and mappings in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md).
+    **Important:** You must map the business application performance KPI group to your business applications to show the data on the **Run** tab. For more information, see [Create KPI groups and mappings in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md).
 
 
 **Note:** The business application performance KPI group replaces the metrics used prior to the Utah release. Since you can create and edit KPI groups and map them to business applications, it provides more flexibility to configure your reporting. You don't need to edit the page in UIB to change the metrics.
@@ -65,18 +65,18 @@ KPI groups aren’t inherited for service instances, but you can do the followin
 -   View availability commitments and commitment performance on the Run tab of your service instance.
 -   View all commitments listed on the Info tab of the service instance.
 
-**Parent Topic:**[Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-explore-cfw.md)
+**Parent Topic:**[Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-explore-cfw.md)
 
 **Related topics**  
 
 
-[Update KPIs in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-kpi-descriptions.md)
+[Update KPIs in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-kpi-descriptions.md)
 
-[Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md)
+[Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md)
 
-[KPI groups installed with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-kpi-groups-oob.md)
+[KPI groups installed with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-kpi-groups-oob.md)
 
-[Create KPI groups and mappings in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md)
+[Create KPI groups and mappings in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md)
 
-[Configure KPIs in Digital Portfolio Management with service availability example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-availability.md)
+[Configure KPIs in Digital Portfolio Management with service availability example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-availability.md)
 

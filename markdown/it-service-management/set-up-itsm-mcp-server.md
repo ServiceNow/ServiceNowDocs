@@ -3,9 +3,9 @@ title: Activate the ITSM MCP Server
 description: Activate the ITSM MCP Server to enable AI-driven incident management, change management, or employee experience on your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/set-up-itsm-mcp-server.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [MCP Server, ITSM, Integration, OAuth, Incident Management, change management, AI integration, Model Context Protocol]
 breadcrumb: [ITSM MCP Server, IT Service Management]
@@ -61,14 +61,14 @@ Role required: sn\_mcp\_server.admin or admin
 
         \[Omitted image "itsm-mcp-server-setup-oauth.png"\] Alt text: OAuth authorization code grant configuration form in Machine Identity Console showing fields for Name, Provider name, Redirect URLs, Client ID, and Client secret.
 
-    -   If you're setting up your own OAuth connection, the oauth\_admin or admin role is required to configure your OAuth client entry. See the [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md) to set up the OAuth and connect to the ITSM MCP Server.
+    -   If you're setting up your own OAuth connection, the oauth\_admin or admin role is required to configure your OAuth client entry. See the [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md) to set up the OAuth and connect to the ITSM MCP Server.
 
 **Related topics**  
 
 
-[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
+[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-mcp-server-console.md)
 
-[Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
+[Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md)
 
-[Install Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-mcp-client.md)
+[Install Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-mcp-client.md)
 

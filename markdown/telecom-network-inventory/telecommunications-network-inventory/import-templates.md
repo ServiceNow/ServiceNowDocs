@@ -1,20 +1,20 @@
 ---
 title: Import templates
-description: Import Template enables you to capture all required inventory details in a prescribed, predefined Excel format and upload them in bulk to the system. Create an import template request to import your inventory templates, enforce data formatting, and streamline the process using the Telecommunications Network Inventory application.
+description: Create an import template request to import your inventory templates, enforce data formatting, and streamline the process using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/import-templates.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Import models and templates, Use, Telecommunications Network Inventory]
+breadcrumb: [Import Models and Templates, Use, Telecommunications Network Inventory]
 ---
 
 # Import templates
 
-Import Template enables you to capture all required inventory details in a prescribed, predefined Excel format and upload them in bulk to the system. Create an import template request to import your inventory templates, enforce data formatting, and streamline the process using the Telecommunications Network Inventory application.
+Create an import template request to import your inventory templates, enforce data formatting, and streamline the process using the Telecommunications Network Inventory application.
 
 ## Before you begin
 
@@ -60,7 +60,7 @@ The **Import Results** tab appears next to the Details tab where you can view, a
 ## What to do next
 
 -   Redirect to the generated inventory template from the **Import Results** tab.
--   Delete a record. To learn more, see [Delete a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/delete-inventory-record.md).
+-   Delete a record. To learn more, see [Delete a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/delete-inventory-record.md).
 
-**Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
+**Parent Topic:**[Import Models and Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 

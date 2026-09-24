@@ -3,11 +3,11 @@ title: Configure chat summarization
 description: Configure Chat Summarization to generate condensed summaries of conversations between agents or with a Virtual Agent, highlighting key points for quick reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-chat-summarization-in-now-assist\_0.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---

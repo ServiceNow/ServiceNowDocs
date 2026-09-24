@@ -3,11 +3,11 @@ title: Create a custom PowerShell probe
 description: You can create your own PowerShell probe and configure probe parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_CreateACustomPowershellProbe.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [PowerShell probe, List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -40,5 +40,5 @@ Role required: admin
 7.  Click **Submit**.
 
 
-**Parent Topic:**[PowerShell probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_PowershellProbe.md)
+**Parent Topic:**[PowerShell probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_PowershellProbe.md)
 

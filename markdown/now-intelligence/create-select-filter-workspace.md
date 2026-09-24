@@ -3,10 +3,10 @@ title: Configure a Single/Multiple select or cascading filter
 description: Let users filter a dashboard tab on one or more values from a set of choices, such as incident priority. You can have a single or multiple select filter follow another filter in a cascade.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-select-filter-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -16,7 +16,7 @@ Let users filter a dashboard tab on one or more values from a set of choices, su
 
 ## Before you begin
 
-**Important:** This procedure assumes you’ve created a filter in the Filter designer or added a filter to your dashboard with the Single select or Multiple select filter type. See [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md), [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md), or [Create a filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-filter-group.md).
+**Important:** This procedure assumes you’ve created a filter in the Filter designer or added a filter to your dashboard with the Single select or Multiple select filter type. See [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-workspace-filter-type.md), [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-filter-library.md), or [Create a filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-filter-group.md).
 
 Role required: In the inline dashboard editor: dashboard\_admin, or you must be the dashboard owner or have had editing rights shared with you.
 
@@ -38,7 +38,7 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
 ## Procedure
 
-1.  Create a filter and select the Single or Multiple Select filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md).
+1.  Create a filter and select the Single or Multiple Select filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-filter-library.md).
 
 2.  In **Filter source type**, select a Table, an Indicator breakdown, or a Usage Insights source.
 
@@ -64,6 +64,8 @@ A Multiple select filter lets users select multiple values of a field or breakdo
         -   You can only select a breakdown that is used by at least one indicator.
         -   Scripted breakdowns on data visualizations are not supported.
         -   Only two levels of breakdown can be applied to an indicator at the same time. On a dashboard, this could be two filters or one filter and a breakdown specified in the data visualization.
+        If you create a multiple select filter, you can select multiple elements of a breakdown. The effect of such a filter on what a data visualization shows depends on whether a breakdown has been specified in that data visualization's **Group by** section. If no breakdown is specified in the visualization configuration, the visualization shows an aggregate score of all selected elements. If a breakdown is specified in the visualization configuration, the visualization shows each element separately. If you then select elements in the filter, only those elements are shown. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).
+
     -   If you selected a Usage Insights filter, select a UX Analytics property.
 4.  If you selected a Table source and a user hierarchy is defined for the table, you have the option of creating a filter on that hierarchy.
 
@@ -87,13 +89,13 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
     Some data to filter is chosen automatically depending on the filter source. For example, if you select the Category indicator breakdown from the Incident.Category breakdown source, the filter automatically filters the Category field on the Incident table and any indicators with the Category breakdown. You can edit the automatic data selection or add more data to filter.
 
-    **Note:** Your selection of filter source can impact which data you can filter. For more information, see Step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md).
+    **Note:** Your selection of filter source can impact which data you can filter. For more information, see Step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-select-filter-workspace.md).
 
 8.  Under **Other filters to follow**, if the conditions are met, you can select another filter for the current filter to follow in a hierarchy, creating a cascade.
 
     **Note:** You can only set **Other filters to follow** when you're configuring filters on a dashboard, not from the filter designer.
 
-    When you set the filter to follow another filter, the choices available in the following filter are limited by the choices made in the followed filter. For more information, see the example [Cascading filters for Manager and Assignment Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md).
+    When you set the filter to follow another filter, the choices available in the following filter are limited by the choices made in the followed filter. For more information, see the example [Cascading filters for Manager and Assignment Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-select-filter-workspace.md).
 
     Conditions:
 
@@ -102,13 +104,13 @@ A Multiple select filter lets users select multiple values of a field or breakdo
     -   The filter to be followed must filter data on the same table as the filter source of the following filter.
     **Note:**
 
-    -   Some filters have a many-to-many relationship, where values on both filters can match multiple values on the other filter. One such filter can follow another only through a connecting table. Only admins can set up these cascading filters. For more information, see [Set a filter to follow another filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/set-filter-to-follow-filter.md).
-    -   Two filters can follow each other, but there are additional requirements. For more information, see [Conditions for two filters to follow each other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filters-follow-each-other.md).
+    -   Some filters have a many-to-many relationship, where values on both filters can match multiple values on the other filter. One such filter can follow another only through a connecting table. Only admins can set up these cascading filters. For more information, see [Set a filter to follow another filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/set-filter-to-follow-filter.md).
+    -   Two filters can follow each other, but there are additional requirements. For more information, see [Conditions for two filters to follow each other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/filters-follow-each-other.md).
 9.  Select the **Sort direction**.
 
     If you select **Ascending**, the lowest filtered values are shown first. If you select **Descending**, the highest values are shown first. The user can change this value.
 
-10. To let users clear the values they selected for the filter, enable **Allow filter clearance**.
+10. To let users clear the values they selected for the filter, enable **Allow user to clear filter**.
 
 11. Set the maximum number of elements that are loaded initially and at each page refresh.
 
@@ -170,14 +172,14 @@ Later, a dashboard viewer selects Beth Anglin in the Manager filter. Then, when 
 
 ## What to do next
 
-If you have the required roles, add the filter to the filter library. You can also reconfigure, delete, or duplicate the filter. For more information, see [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md).
+If you have the required roles, add the filter to the filter library. You can also reconfigure, delete, or duplicate the filter. For more information, see [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-filters-configurable-workspaces.md).
 
 **Related topics**  
 
 
-[Applying filters to Process Mining maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/applying-filters-to-process-optimization-maps.md)
+[Applying filters to Process Mining maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/applying-filters-to-process-optimization-maps.md)
 
-[Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md)
+[Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-filters-configurable-workspaces.md)
 
-[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-dv-follow-filters-or-not.md)
+[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-dv-follow-filters-or-not.md)
 

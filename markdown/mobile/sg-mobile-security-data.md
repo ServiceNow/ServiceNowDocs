@@ -3,9 +3,9 @@ title: Data security for ServiceNow mobile apps
 description: ServiceNow mobile apps use SSL/TLS for Over-the-Air \(OTA\) communication encryption for data security. The OAuth authorization endpoints are HTTPS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-security-data.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Device security, Mobile security, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -63,7 +63,7 @@ Offline data is protected by local-auth and the app PIN that can be optionally e
 
 ## Disabling mobile attachments
 
-You can disable attachments for mobile apps by using access control rules. For more details on this process see [Disable attachments in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-disable-mobile-attach.md).
+You can disable attachments for mobile apps by using access control rules. For more details on this process see [Disable attachments in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-disable-mobile-attach.md).
 
-**Parent Topic:**[Device security for ServiceNow Mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-security.md)
+**Parent Topic:**[Device security for ServiceNow Mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-security.md)
 

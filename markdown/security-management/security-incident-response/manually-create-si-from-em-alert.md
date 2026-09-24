@@ -3,11 +3,11 @@ title: Create a security incident from an Event Management alert
 description: When Event Management is activated, you can manually create security incidents from the Alert form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manually-create-si-from-em-alert.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security incident manual creation, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

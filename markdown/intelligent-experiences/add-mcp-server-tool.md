@@ -1,18 +1,18 @@
 ---
-title: Add an MCP server tool to an AI agent
-description: Add an MCP tool to an AI agent in the AI Agent Studio so that your users can access the MCP server.
+title: Add a Model Context Protocol to an AI agent
+description: Add a Model Context Protocol tool to an AI agent in the AI Agent Studio so that your users can access the MCP Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-mcp-server-tool.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client Legacy, AI Agent Studio \(legacy\), Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
-# Add an MCP server tool to an AI agent
+# Add a Model Context Protocol to an AI agent
 
-Add an MCP tool to an AI agent in the AI Agent Studio so that your users can access the MCP server.
+Add a Model Context Protocol tool to an AI agent in the AI Agent Studio so that your users can access the MCP Server.
 
 ## Before you begin
 
@@ -84,44 +84,29 @@ Display output
 
 </td><td>
 
-Permission to display the output of the execution in the ServiceNow Otto panel or in Virtual Agent:-   **Yes**
+Permission to display the output of the execution in the Now Assist panel or in Virtual Agent:-   **Yes**
 -   **No**
-If you want the AI agent to work in Off Glide architecture with Premium Chat experience, you must turn-on the **Display output** toggle. When the toggle is turned-on, you can add widgets that can be used in assistants built with Premium Chat experiences. The widget configuration includes:
 
--   **Widget**: Defines the display output to render the content in a better user experience. You can select the widget from the drop-down.
--   **Require widget transformation**: An additional LLM call is required to transform the raw tool. If you choose to skip this transformation step, the tool output will be directly mapped to the widget.
-    -   **Yes**
-    -   **No**
--   **Display refined widget message**: Refines the widget message when configured.
-    -   **Yes**
-    -   **No**
-**Note:** The display output as a toggle is exclusively available for the Premium Chat experience when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard display output options.
-
-</td></tr><tr><td colspan="2">
-
-Advanced settings
 
 </td></tr><tr><td>
 
-Select an output transformation format
+Processing message
 
 </td><td>
 
-Style for the LLM to present the results as it passes information between tools and to other agents. Out transformation formats:-   None
+Message to display to users when the tool is running.
+
+</td></tr><tr><td>
+
+Output transformation strategy
+
+</td><td>
+
+Style for the LLM to present the results. -   None
 -   Concise
 -   Paragraph
--   Summary
+-   Verbose
 -   Custom
-
-
-</td></tr><tr><td>
-
-Write processing messages for users
-
-</td><td>
-
-Message to display to users during tool execution.-   In-progress message: Write an in-progress message to be displayed to end-users while the tool is running.
--   Completion message: Write a completion message to be displayed to end-users once the tool finishes running.
 
 
 </td></tr></tbody>

@@ -3,13 +3,13 @@ title: Microsoft 365 license optimization
 description: Find Software Asset Management optimization recommendations for Microsoft 365 based on usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/m365-lic-opt.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Microsoft 365 license optimization
@@ -78,7 +78,7 @@ Potential savings by optimizing licenses
 
 Potential cost savings for licenses on your physical hosts and clusters that are based on recommended license optimizations.**Note:** This report is available only for Microsoft Windows Server licenses.
 
-Select the report to view details about the recommended license optimizations and associated cost savings for each host or cluster. License optimizations include the recommended license, recommended rights, and recommended spending.For more information on license optimization, see [License optimization for Microsoft subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/o365-usage-activity.md).
+Select the report to view details about the recommended license optimizations and associated cost savings for each host or cluster. License optimizations include the recommended license, recommended rights, and recommended spending.For more information on license optimization, see [License optimization for Microsoft subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/o365-usage-activity.md).
 
 </td></tr><tr><td>
 

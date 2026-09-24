@@ -3,11 +3,11 @@ title: How trigger conditions work with a configuration item for a profile
 description: You can configure the profile settings so that a profile runs only when a set of specific conditions is met or you can set up a profile to search for specific field values on a security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/define-trigger-conditions.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

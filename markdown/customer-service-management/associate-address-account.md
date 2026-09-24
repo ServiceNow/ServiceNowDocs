@@ -3,9 +3,9 @@ title: Associate an address to an account
 description: You can associate addresses to an account using the Account Address related list on the account form or the location form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-address-account.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -40,6 +40,6 @@ Role required: One of the following roles:
 
 4.  Fill the details in account address form and select **Submit**.
 
-    For more information about the table fields, see [Account Address table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/account-address-table.md).
+    For more information about the table fields, see [Account Address table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/account-address-table.md).
 
 

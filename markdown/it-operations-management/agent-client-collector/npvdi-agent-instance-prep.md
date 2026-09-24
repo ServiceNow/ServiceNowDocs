@@ -1,18 +1,18 @@
 ---
-title: Prepare for agent deployment on a non-persistent virtual desktop infrastructure machine
+title: Prepare agent deployment on a non-persistent virtual desktop infrastructure machine
 description: Configure the preliminary settings on an instance to enable using the agent with a non-persistent virtual desktop infrastructure machine \(NPVDI\) machine. NPVDI agents gather data more quickly than traditional agents not enabled for a VPVDI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-08-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Prepare for agent deployment on a non-persistent virtual desktop infrastructure machine
+# Prepare agent deployment on a non-persistent virtual desktop infrastructure machine
 
 Configure the preliminary settings on an instance to enable using the agent with a non-persistent virtual desktop infrastructure machine \(NPVDI\) machine. NPVDI agents gather data more quickly than traditional agents not enabled for a VPVDI.
 
@@ -69,7 +69,7 @@ Configurations are set on a ServiceNow instance.
 
 ## What to do next
 
-Enable an agent to run as an NPVDI agent, as described in [Enable a non-persistent virtual desktop infrastructure \(NPVDI\) agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/enable-npvdi-agent.md).
+Enable an agent to run as an NPVDI agent, as described in [Enable a non-persistent virtual desktop infrastructure agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/enable-npvdi-agent.md).
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

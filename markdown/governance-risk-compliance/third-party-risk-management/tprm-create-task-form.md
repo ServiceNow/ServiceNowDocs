@@ -3,11 +3,11 @@ title: Create new third-party risk task form
 description: Use the third-party risk task form to capture the information needed to create a task in the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an internal or external task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Third-party \(external\) risk assessment management, Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -38,7 +38,15 @@ Number
 
 </td><td>
 
-For each task, the system auto-assigns a unique ID number that starts with the text VRT.The unique ID is used in all references to the item. You can use the ID to search or filter for the item that you want to work on.
+For each task, the system auto-assigns a unique ID number that starts with the text VRIT or VRT.The unique ID is used in all references to the item. You can use the ID to search or filter for the item that you want to work on.
+
+</td></tr><tr><td>
+
+Task type
+
+</td><td>
+
+Type of work the task is used for, such as **Element collection task**.
 
 </td></tr><tr><td>
 
@@ -208,14 +216,14 @@ Created / Updated
 Dates that the task was saved and date of the latest change.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
+</table>**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
 
 **Related topics**  
 
 
-[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
+[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
 
-[Create a task for an internal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-internal-tasks.md)
+[Create a task for an internal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-internal-tasks.md)
 
-[Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md)
+[Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md)
 

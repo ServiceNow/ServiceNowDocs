@@ -1,101 +1,56 @@
 ---
 title: AI Service Graph Connector for Microsoft
-description: The AI Service Graph Connector for Microsoft enables you to discover and import AI assets from Azure AI Foundry and Copilot Studio environments into ServiceNow AI Control Tower.
+description: Use the  AI Service Graph Connector for Microsoft  plugin to create AI connections for Azure Foundry and Copilot to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/microsoft.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Service Graph Connector for Microsoft
 
-The AI Service Graph Connector for Microsoft enables you to discover and import AI assets from Azure AI Foundry and Copilot Studio environments into ServiceNow AI Control Tower.
-
-The connector creates separate AI connections for each Microsoft platform, cataloging AI agents, models, and prompts. The usage information is consumed by the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
-
-Key capabilities:
-
--   Discovery of Azure AI Foundry agents across ML Services, AI Services, and New Foundry variants.
--   Discovery of Microsoft Copilot agents across single or multiple Power Platform environments.
--   AI asset lineage and dependency tracking through sub-component relationships.
--   Usage and execution of metrics aggregated by agent, date, and session.
--   Support for tenant-wide discovery or filtered discovery by resource and region \(Azure Foundry\).
--   Multi-environment discovery using a single Copilot connection.
+Use the  AI Service Graph Connector for Microsoft  plugin to create AI connections for Azure Foundry and Copilot to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 
 ## Download apps from the store
 
-Visit the  ServiceNow store website to download the [AI Service Graph Connector for Microsoft](https://store.servicenow.com/store/app/4bb87ac7874fb250a6c6fc48cebb357b)  application.
+Visit the  [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to download the AI Service Graph Connector for Microsoft app.
 
 ## Supported ServiceNow versions
 
-|Release|Status|
-|-------|------|
-|Australia|Supported|
-|Zurich|Supported|
-|Yokohama Patch 11|Supported|
+-   Australia
+-   Zurich patch 7
+-   Yokohama patch 11
 
-## User Roles
+## User roles
 
-You must have one of the following roles assigned to complete the configuration task.
+Roles required in the ServiceNow environment:
 
-<table><tbody><tr><td>
+-   sn\_ai\_disc.discovery\_admin
+-   sn\_cmdb\_int\_util.sgc\_admin
 
-Required Role
+## Prerequisites from Azure Foundry environment
 
-</td></tr><tr><td>
+**Setting up Azure Foundry:**
 
-sn\_ai\_disc.discovery\_admin
+-   To get the OAuth credentials, refer to the [Azure documentation](https://learn.microsoft.com/en-us/rest/api/azure/#register-your-client-application-with-azure-ad).
+-   The Azure client application needs at least 'User. Contributor' role on AI Hub \(ML services\) API. Refer [documentation for Azure Hub roles.](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/hub-rbac-foundry?view=foundry-classic#default-roles-for-the-hub) It also requires a workspace to be created.
+-   The Azure client application needs at least an 'Azure AI User' role on the Azure Foundry \(Cognitive Services\) API. Refer [documentation for Azure Foundry roles.](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-foundry?view=foundry&preserve-view=true#built-in-roles) It also requires an account \(resource name\) to be created.
+-   Enable both Discovery and Execution import schedules to discover agents and retrieve execution data.
 
-</td></tr><tr><td>
+## Prerequisites from Copilot environment
 
-sn\_cmdb\_int\_util.sgc\_admin
+**Setting up Copilot**
 
-</td></tr></tbody>
-</table>## ServiceNow Prerequisites
+-   Register an application in Microsoft Entra ID and [Register](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app) to obtain the Client ID and Client secret.
+-   Open the Power Platform Admin Center, select your Copilot environment, then go to Settings &gt; Users+permissions &gt; Application users, add a new app user using the Client ID and assign Basic user and System administrator roles.
+-   Find the Organization ID, Tenant ID under Settings &gt; Session details.
+-   Usage is tracked only in non-developer environments.
+-   Enable both Discovery and Executions to discover agents and retrieve execution data.
 
-Complete the following setup steps once when configuring the connector for the first time.
-
-**Note:** Updating data source access and clear cache is a prerequisite that needs to be completed only once, when setting up a new instance for the first time.
-
-Update Data Source Access:
-
-The connector requires write permissions to the Data Source table to create data sources.
-
-To enable data source creation:
-
-1.  Select **Global** from the application picker.
-2.  Navigate to **Application Access**.
-3.  Select the **Can create**, **Can update**, and **Can delete** check boxes.
-4.  Select **Update**.
-5.  Switch to the connector application scope.
-
-Clear the cached data for the Data Source and Tables.
-
-To clear the cache:
-
-1.  Navigate to **System Definition** &gt; **Background Scripts**.
-2.  Enter the following script in the **Run Script** text box:
-
-    ```
-    GlideTableManager.invalidateTable('sys_data_source');
-    GlideCacheManager.flushTable('sys_data_source');
-    GlideTableManager.invalidateTable('sys_db_object');
-    GlideCacheManager.flushTable('sys_db_object');
-    
-    ```
-
-3.  Select **Run Script**.
-
-    **Note:** The script might take several minutes to complete. After completion, switch to the connector application scope.
-
-
--   Enter multiple environment IDs as comma-separated values in the Environment ID field \(eg: env-id-1, env-id-2, env-id-3\).
--   The same OAuth credentials \(Client ID and Client Secret\) are used for all environments.
--   Verify the application user is configured in each environment with the required security roles.
--   Each environment will be tested and discovered separately during the import process.
+**Note:** For Microsoft, OAuth authentication is supported.
 

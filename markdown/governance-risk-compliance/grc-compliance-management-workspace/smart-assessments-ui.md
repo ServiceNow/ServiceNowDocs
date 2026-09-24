@@ -3,11 +3,11 @@ title: User interface changes for assessments based on GRC attestation
 description: The Lists pane of the Compliance Workspace is updated with assessments link to navigate to the assessments. The attestation and classic attestation widgets are displayed in the home pages of the compliance manager, compliance analyst, and the IT compliance manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/smart-assessments-ui.html
-release: australia
+release: brazil
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create control objective, Manage control objectives and policies, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---

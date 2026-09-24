@@ -3,11 +3,11 @@ title: Phase 3 - Verify your upgrade configurations and schedule the development
 description: Check the configuration of the Check distribution for possible upgrade scheduled job to view how often and when it runs. Review information about timing your upgrade in coordination with the Check distribution for possible upgrade scheduled job. Then, schedule your upgrade in Now Support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-phase-3.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Upgrade to the Australia release, Australia release notes]
+breadcrumb: [Upgrade to the Brazil release, Brazil release notes]
 ---
 
 # Phase 3 - Verify your upgrade configurations and schedule the development instance upgrade in Now Support
@@ -59,9 +59,9 @@ Now Support keeps records of what version you should be running, and your instan
 
 |Action|Result|
 |------|------|
-|You schedule an upgrade to Australia Patch 8 to take place on June 10 at 3:00pm.|Now Support changes its records to reflect that you should be on Australia Patch 8 on June 10 at 3:00pm.|
+|You schedule an upgrade to Brazil Patch 8 to take place on June 10 at 3:00pm.|Now Support changes its records to reflect that you should be on Brazil Patch 8 on June 10 at 3:00pm.|
 |Now Support waits to get pinged by your instance after the scheduled time on June 10.|Your instance continues to operate on its current release version, and it periodically pings Now Support.|
-|After the scheduled time on June 10, Now Support receives a ping from your instance.|Now Support tells your instance that it should be on Australia Patch 8.|
+|After the scheduled time on June 10, Now Support receives a ping from your instance.|Now Support tells your instance that it should be on Brazil Patch 8.|
 |Your instance receives a Now Support notification that it should be running a different version.|Your instance starts the upgrade.|
 
 You can browse the Now Support service catalog to request and self-service tasks such as scheduling an upgrade.

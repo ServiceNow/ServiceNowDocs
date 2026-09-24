@@ -3,9 +3,9 @@ title: Send an email from a touchpoint
 description: Send emails to customers and stakeholders directly from a touchpoint record without having to leave the workspace. Emails are stored in the CRM system so other agents, managers, and customer success managers have full context about interactions with the customer or account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/compose-send-emails-crm-touchpoint.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -16,13 +16,13 @@ Send emails to customers and stakeholders directly from a touchpoint record with
 
 ## Before you begin
 
-The User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) must be installed on your ServiceNow instance to enable agents to send emails from the touchpoint record. For setup instructions, see [Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/personal-corporate-mailbox.md).
+The User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) must be installed on your ServiceNow instance to enable agents to send emails from the touchpoint record. For setup instructions, see [Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/personal-corporate-mailbox.md).
 
 Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -61,12 +61,12 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
         The email is sent to the recipients and can be viewed from the touchpoint's **Emails** tab.
 
 
-**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-activity-management.md)
 
 **Related topics**  
 
 
-[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
+[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-activity-management.md)
 
-[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-activity-management.md)
 

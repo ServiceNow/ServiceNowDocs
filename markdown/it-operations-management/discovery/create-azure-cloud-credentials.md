@@ -3,11 +3,11 @@ title: Create Azure cloud credentials
 description: If your cloud resources are in an Azure cloud, create credentials that can access the Azure account. This procedure requires configuration in your Azure account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-azure-cloud-credentials.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Discovery for Microsoft Azure, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -94,15 +94,15 @@ Expiration for the key.**Note:** Your organization may apply policies to restric
 
     -   Management group: Use this option to grant Reader access to all subscriptions under the management group
     -   Individual subscription: Use this option to grant Reader access to a specific subscription only
-<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d632436e355">
+<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d637947e355">
 
 Option
 
-</th><th align="left" id="d632436e358">
+</th><th align="left" id="d637947e358">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d632436e364">
+</th></tr></thead><tbody><tr><td id="d637947e364">
 
 **Management group**
 
@@ -120,7 +120,7 @@ Steps
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d632436e436">
+</td></tr><tr><td id="d637947e436">
 
 **Individual subscription**
 

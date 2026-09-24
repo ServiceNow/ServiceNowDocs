@@ -3,11 +3,11 @@ title: Ranking records with Spotlight
 description: Use Spotlight to identify and rank records of interest based on multiple weighted criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/spotlight.html
-release: australia
+release: brazil
 product: Spotlight
 classification: spotlight
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -28,26 +28,26 @@ The following diagram demonstrates scoring in Spotlight. The large circle repres
 
 **Note:** To use Spotlight, an administrator must activate the Spotlight plugin.
 
--   **[Setting up Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/setting-up-spotlight.md)**  
+-   **[Setting up Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/setting-up-spotlight.md)**  
 Set up Spotlight for each set of table records that you want to evaluate and rank by importance. The records must be associated with an indicator.
--   **[See Spotlight score details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/view-details-of-a-spotlight.md)**  
+-   **[See Spotlight score details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/view-details-of-a-spotlight.md)**  
 To see the criteria whose weights contributed to a Spotlight score, view the details of the Spotlight record.
--   **[Spotlight interactive analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-interactive-analysis.md)**  
+-   **[Spotlight interactive analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight-interactive-analysis.md)**  
 Spotlight interactive analysis shows the key results of a Spotlight job. Access the analysis from a Spotlight Group record.
--   **[Spotlights on Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlights-configurable-workspaces.md)**  
+-   **[Spotlights on Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlights-configurable-workspaces.md)**  
 You can list Spotlights and show them in a dashboard on a configurable workspace.
--   **[Spotlight job logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-logs.md)**  
+-   **[Spotlight job logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight-logs.md)**  
 The steps of Spotlight jobs are recorded in logs. Use these logs to debug any issues.
--   **[Domain separation with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/domain-separation-spotlight.md)**  
+-   **[Domain separation with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/domain-separation-spotlight.md)**  
 If you have domain separation enabled, Spotlight applies it during Spotlight jobs.
--   **[Copy a Spotlight group to domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/copy-spotlight-group-domain.md)**  
+-   **[Copy a Spotlight group to domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/copy-spotlight-group-domain.md)**  
 You can copy a Spotlight group to other domains, saving the effort of reproducing the group manually for each domain.
--   **[Copy a Spotlight group to breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/copy-spotlight-group-element.md)**  
+-   **[Copy a Spotlight group to breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/copy-spotlight-group-element.md)**  
 You can copy a Spotlight group across multiple elements of a single breakdown.
--   **[Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md)**  
+-   **[Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight-copy-logs.md)**  
 When a Spotlight group is copied, the steps of the copying process are recorded in logs. Use these logs to debug any issues.
--   **[Administering Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/administering-spotlight.md)**  
+-   **[Administering Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/administering-spotlight.md)**  
 Users with the admin role can access lower-level components of Spotlight.
 
-**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 

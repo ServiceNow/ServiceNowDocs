@@ -3,9 +3,9 @@ title: Complete a customer service satisfaction survey
 description: After accepting a proposed solution for a case, complete a customer service satisfaction survey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ComACustServSatSurvey.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ After accepting a proposed solution for a case, complete a customer service sati
 
 Role required: none
 
-When a customer accepts a proposed solution for a case by clicking **Accept Solution** on the case form, a satisfaction survey is displayed in the portal. The customer has the option of completing or skipping the survey. Either choice returns the customer to the list of cases on the self-service portal.
+When a customer accepts a proposed solution for a case by selecting **Accept Solution** on the case form, a satisfaction survey is displayed in the portal. The customer has the option of completing or skipping the survey. Either choice returns the customer to the list of cases on the self-service portal.
 
 To complete the survey:
 
@@ -26,11 +26,11 @@ To complete the survey:
 
 1.  Answer each of the survey questions.
 
-2.  Click **Submit**.
+2.  Select **Submit**.
 
 
 **Related topics**  
 
 
-[Close a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-close-case-from-portal.md)
+[Close a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-close-case-from-portal.md)
 

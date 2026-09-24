@@ -3,7 +3,7 @@ title: Databricks Spoke
 description: Retrieves details of warehouses, tables, schemas, and catalogs, and executes SQL statements in Databricks from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/databricks-spke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept

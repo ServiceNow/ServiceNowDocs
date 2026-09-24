@@ -3,13 +3,13 @@ title: Complete the remediation task for asset attestation in the Hardware Asset
 description: As an asset manager or inventory administrator, complete the open remediation task that was created when your employee denied ownership of the assigned serialized hardware asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/complete-attestation-remediation-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Audit your hardware assets by using Asset Attestation, Attestation and conformance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Complete the remediation task for asset attestation in the Hardware Asset Workspace
@@ -24,15 +24,15 @@ Role required: asset or inventory\_admin
 
 1.  View the list of asset attestations.
 
-<table id="choicetable_z4q_vfz_rfc"><thead><tr><th align="left" id="d328455e62">
+<table id="choicetable_z4q_vfz_rfc"><thead><tr><th align="left" id="d332000e56">
 
 UI option
 
-</th><th align="left" id="d328455e65">
+</th><th align="left" id="d332000e59">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d328455e71">
+</th></tr></thead><tbody><tr><td id="d332000e65">
 
 **Inventory view**
 
@@ -42,7 +42,7 @@ Action
 2.  Select the **Asset attestations** tab.
 
 
-</td></tr><tr><td id="d328455e104">
+</td></tr><tr><td id="d332000e98">
 
 **Asset operations view**
 
@@ -69,5 +69,5 @@ Action
 -   The State of the asset changes from **In use** to **Missing**.
 -   The **Assigned to** field on the asset record is empty.
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

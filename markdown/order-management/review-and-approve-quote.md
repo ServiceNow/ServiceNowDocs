@@ -3,9 +3,9 @@ title: Review and approve a submitted quote
 description: As an approver, review the details of a submitted quote and approve the request when it meets your organization's requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/review-and-approve-quote.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [approvals, quote, approve, review]
 breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
@@ -50,7 +50,7 @@ Approval requests may be configured to work in different ways:
     You can access approval requests from:
 
     -   Email notification from the approval system
-    -   Approval section in your CSM/FSM Configurable Workspace
+    -   Approval section in your CRM Workspace
     -   Dedicated approval dashboard or approval center
     -   Directly on the quote record by clicking **View Approval**
 2.  Click on the approval request to open the quote details.
@@ -104,5 +104,5 @@ After approving a quote:
 
 **Tip:** If you cannot complete the approval within your assigned timeframe, contact your administrator about delegation or escalation options.
 
-**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-advanced-approval-management.md)
+**Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-advanced-approval-management.md)
 

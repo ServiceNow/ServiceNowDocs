@@ -3,13 +3,13 @@ title: Create entitlements in workspace
 description: Create entitlements in the Software Asset Workspace to enter your license details and allocate purchased software rights to users or devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-entitlements-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create entitlements in workspace
@@ -18,15 +18,15 @@ Create entitlements in the Software Asset Workspace to enter your license detail
 
 ## Before you begin
 
-These instructions are for using the standard form for creating software entitlements one at a time. You can also use the step by step approach of a [guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md) for creating entitlements. If you already have software entitlement details entered in a spreadsheet, you can also [import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-entitlements-workspace.md) them using the bulk import functionality.
+These instructions are for using the standard form for creating software entitlements one at a time. You can also use the step by step approach of a [guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/guidedwalk-workspace.md) for creating entitlements. If you already have software entitlement details entered in a spreadsheet, you can also [import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/import-entitlements-workspace.md) them using the bulk import functionality.
 
 When you start creating the entitlement it is in the **build** status. Once you publish the entitlement, the status changes to **in use** and makes the entitlement eligible to be included in the reconciliation process.
 
 If you installed SaaS License Management, a software model is generated automatically after you create an integration profile. Create an entitlement for the software model to track software used against software owned.
 
-if you installed the SAP publisher pack, see [Create entitlements for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlement-sap.md).
+if you installed the SAP publisher pack, see [Create entitlements for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-entitlement-sap.md).
 
-You can also create entitlements for RHEL and Citrix publisher packs. For details on the entitlement form fields for RHEL, see [Software Entitlement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/rhel-entitlements.md).
+You can also create entitlements for RHEL and Citrix publisher packs. For details on the entitlement form fields for RHEL, see [Software Entitlement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/rhel-entitlements.md).
 
 Role required: sam\_admin or sam\_user
 
@@ -44,7 +44,7 @@ Role required: sam\_admin or sam\_user
 
 4.  In the Create New Software Entitlement page, fill in the fields.
 
-    For a detailed description of the fields, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+    For a detailed description of the fields, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
 5.  Select **Save**.
 
@@ -54,20 +54,20 @@ Role required: sam\_admin or sam\_user
 
     The entitlement is created and state of the entitlement is changed to **in use** from **build**. The entitlement is ready to be picked up for the reconciliation process.
 
-    You can perform additional configuration on the new entitlement by entering details in the other tabs such as Contracts, Downgrade Rights, Expense Lines, Entitlement History. For a detailed description of the fields in these tabs, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+    You can perform additional configuration on the new entitlement by entering details in the other tabs such as Contracts, Downgrade Rights, Expense Lines, Entitlement History. For a detailed description of the fields in these tabs, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
 
 
--   **[Create maintenance entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-maint-entitlements-workspace.md)**  
+-   **[Create maintenance entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-maint-entitlements-workspace.md)**  
 Define license details, for all publishers other than Microsoft in the Software Asset Workspace. Create maintenance entitlements to manage all your software license maintenance needs such as start and end dates of your contracts and software upgrades.
--   **[Create Microsoft Software Assurance entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-sa-entitlements-workspace.md)**  
+-   **[Create Microsoft Software Assurance entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-sa-entitlements-workspace.md)**  
 Define license details for Microsoft Software Assurance \(SA\) in the Software Asset Workspace to manage your contracts start and end dates, software upgrades, and related software entitlements.
 
-**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 
 **Related topics**  
 
 
-[Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md)
+[Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md)
 
-[Create device allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-device-allocation.md)
+[Create device allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-device-allocation.md)
 

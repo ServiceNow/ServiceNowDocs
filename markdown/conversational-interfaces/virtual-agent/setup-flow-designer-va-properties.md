@@ -3,14 +3,14 @@ title: Add actions or subflows to Virtual Agent topics
 description: Use the Action utility to integrate ServiceNow Workflow Studio workflows in Virtual Agent topics. The Action utility node triggers the required Workflow Studio workflows used in the Virtual Agent conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/setup-flow-designer-va-properties.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Virtual Agent, Designer, Actions, Subflows, Workflow Studio, conversation, topic, utilities, conversational]
-breadcrumb: [Integrating Virtual Agent with Workflow Studio workflows, Exploring other Virtual Agent features, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating Virtual Agent with Workflow Studio workflows, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Add actions or subflows to Virtual Agent topics
@@ -19,14 +19,14 @@ Use the Action utility to integrate ServiceNow Workflow Studio workflows in Virt
 
 ## Before you begin
 
-If you don't already have a Virtual Agent topic, create one. For more information, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+If you don't already have a Virtual Agent topic, create one. For more information, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
 Become familiar with the following features:
 
--   Workflow Studio concepts and tasks. For more information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md).
--   Assistant Designer Asset library utilities, such as the Lookup utility, and the Script Action utility.
+-   Workflow Studio concepts and tasks. For more information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio.md).
+-   Assistant Designer utilities, such as the Lookup utility, and the Script Action utility.
 
-    Use these utilities to control the actions within the Virtual Agent conversation. For more information about these utilities, see [Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md).
+    Use these utilities to control the actions within the Virtual Agent conversation. For more information about these utilities, see [Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-utilities.md).
 
 -   Virtual Agent controls. You may be asked to enter any of the following:
 
@@ -34,10 +34,10 @@ Become familiar with the following features:
     -   Data pills
     -   Strings with embedded data pills
     -   Scripts that return strings
-    For more information, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
+    For more information, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
 
 
-**Note:** If you have turned on and set up ServiceNow Otto in Virtual Agent, you can work with conversational actions and subflows from the Assistant Designer Asset library. For more information on conversational actions and subflows, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md) and [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-subflows.md). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics via Assistant Designer Asset library. The following content is only relevant to actions or subflows that can't be made conversational in Workflow Studio.
+**Note:** If you have turned on and set up ServiceNow Otto for Virtual Agent, you can work with conversational actions and subflows from the home page. For more information on conversational actions and subflows, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/conversational-actions.md) and [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/conversational-subflows.md). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics via Assistant Designer Asset library. The following content is only relevant to actions or subflows that can't be made conversational in Workflow Studio.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -47,11 +47,13 @@ Role required: virtual\_agent\_admin or admin
 
 2.  Select the **Asset library** tab.
 
-3.  From the Utilities section of the palette, drag the Action utility icon \[Omitted image "action-icon.png"\] Alt text: onto the canvas at the appropriate location on the conversation flow.
+3.  In the Asset library, select the topic that you want to use.
+
+4.  In the **Flow** tab, drag the Action utility icon \[Omitted image "action-icon.png"\] Alt text: from the Utilities section of the palette onto the canvas at the appropriate location on the conversation flow.
 
     The Action utility is now a node in the conversation flow, and the Action utility properties panel appears.
 
-4.  On the properties sheet, fill in the fields.
+5.  On the properties sheet, fill in the fields.
 
 <table id="action-utility-properties-sheet-table"><thead><tr><th>
 
@@ -89,7 +91,7 @@ Spoke
 
 Name of the scoped application that contains Workflow Studio content that is dedicated to a particular application or record type.
 
- For a list of default spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spokes.md).
+ For a list of default spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/spokes.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +119,7 @@ Input mapping
 
 Specifies the variables to be used as input to the selected action. The contents of this area change according to the action that you selected. Options may include string input, referenced records, scripts, and so on. For options that require a password, enable the **Include a password input** toggle switch to prompt the user for a password. Secure inputs must use the password2 data type. Input is securely masked and not viewable by others.
 
- **Note:** The **Array.Reference** input data type in Virtual Agent Designer corresponds to the **List.\[Table\]** input data type in Workflow Studio. For more information, see [Action input and output data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+ **Note:** The **Array.Reference** input data type in Assistant Designer corresponds to the **List.\[Table\]** input data type in Workflow Studio. For more information, see [Action input and output data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/action-inputs-outputs.md).
 
 </td></tr><tr><td>
 
@@ -160,8 +162,8 @@ Conditionally show this node if
 No-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
 
-**Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
+**Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
 

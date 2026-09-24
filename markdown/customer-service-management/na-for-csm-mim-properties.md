@@ -1,16 +1,16 @@
 ---
-title: ServiceNow Otto for CSM Major Issue Management Properties
+title: Now Assist for CSM Major Issue Management Properties
 description: The ServiceNow Otto for CSM Major Issue Management application is configured through the NowAssistMajorIssueExtPoint extension point and the trigger conditions on the Major case agentic workflow flow. This reference describes every configurable property, the valid values, the default, and the impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/na-for-csm-mim-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure ServiceNow Otto for CSM Major Issue Management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# ServiceNow Otto for CSM Major Issue Management Properties
+# Now Assist for CSM Major Issue Management Properties
 
 The ServiceNow Otto for CSM Major Issue Management application is configured through the `NowAssistMajorIssueExtPoint` extension point and the trigger conditions on the **Major case agentic workflow** flow. This reference describes every configurable property, the valid values, the default, and the impact.
 

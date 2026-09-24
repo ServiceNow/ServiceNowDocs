@@ -3,9 +3,9 @@ title: Success initiative roadmap
 description: The success initiative roadmap displays success initiatives and their outcomes over time in a visual timeline. Use it to track initiative progress, filter by status, and adjust the view by timescale or grouping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-roadmap.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
@@ -37,5 +37,5 @@ The list of outcomes is displayed in the left panel. Select an outcome from the 
 
 **Note:** By default, you can view the roadmap for a ten year period. You can modify this value in the sn\_acct\_lc.RoadmapTimelineYears.list property.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

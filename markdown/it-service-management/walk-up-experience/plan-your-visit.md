@@ -3,11 +3,11 @@ title: Plan your walk-up experience visit with Employee Center
 description: Schedule a single or multiple appointments to visit the walk-up lounge or the support lounge Walk-up Experience Employee Center. You can also get remote help.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/plan-your-visit.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Walk-up Experience, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: itil
 
 ## About this task
 
-Employee Center portal enables users to easily scale their service solutions across departments, such as IT, HR, Workplace, Legal, and Procurement with digital workflows. This unified portal goes beyond the basic service delivery to provide a platform for communications, engagement, and content experiences. For more information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-center-landing-page.md).
+Employee Center portal enables users to easily scale their service solutions across departments, such as IT, HR, Workplace, Legal, and Procurement with digital workflows. This unified portal goes beyond the basic service delivery to provide a platform for communications, engagement, and content experiences. For more information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-center-landing-page.md).
 
 -   Use Employee Center to schedule a walk-up appointment to get help, such as to request for new hardware, update software, or upgrade your system.
 -   You can make an appointment, request for the next open appointment, or see your upcoming appointments.

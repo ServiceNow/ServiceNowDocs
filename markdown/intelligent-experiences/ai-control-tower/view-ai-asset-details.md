@@ -1,25 +1,24 @@
 ---
-title: View AI asset record details
-description: View the AI asset governance details to track the lifecycle status, phase, and the install status.
+title: View AI asset details
+description: View the AI asset governance details to track the lifecycle's status, phase, and the install status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/view-ai-asset-details.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-keywords: [generative AI]
-breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# View AI asset record details
+# View AI asset details
 
-View the AI asset governance details to track the lifecycle status, phase, and the install status.
+View the AI asset governance details to track the lifecycle's status, phase, and the install status.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
+Role required: AI steward
 
 ## Procedure
 
@@ -29,83 +28,50 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 3.  From the navigation menu of the AI assets view, under AI asset inventory, select an AI asset.
 
-    The AI asset details page is displayed.
+    AI asset details page is displayed.
 
 4.  On the page, review the AI asset details.
 
-<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d196119e90">
+<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d182107e84">
 
 Field
 
-</th><th align="left" id="d196119e93">
+</th><th align="left" id="d182107e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d196119e99">
-
-**Asset tag**
-
-</td><td>
-
-The asset tag contains the unique ID assigned to every asset. Each asset tag consists of a type prefix followed by a 20-digit number.
-
-</td></tr><tr><td id="d196119e108">
-
-**Name**
-
-</td><td>
-
-The name of the AI asset. Identifies the asset in lists, searches, and records.
-
-</td></tr><tr><td id="d196119e117">
-
-**Description**
-
-</td><td>
-
-A brief summary of what the AI asset does. Explains the asset's purpose without opening the full record.
-
-</td></tr><tr><td id="d196119e126">
-
-**Managed status**
-
-</td><td>
-
-Indicates whether the asset is actively governed. Values typically include Managed and Unmanaged.
-
-</td></tr><tr><td id="d196119e139">
+</th></tr></thead><tbody><tr><td id="d182107e93">
 
 **Version**
 
 </td><td>
 
-The Version number of the asset.
+Version number of the asset
 
-</td></tr><tr><td id="d196119e148">
+</td></tr><tr><td id="d182107e102">
 
 **Asset type**
 
 </td><td>
 
-Categorizes the AI asset by its type.-   generative AI
--   agentic AI
+Type of assets:-   Generative AI
+-   Agentic AI
 -   Classical AI
 -   AI model
 -   AI system
 -   AI prompts
 -   AI datasets
--   MCP servers
 
 
-</td></tr><tr><td id="d196119e184">
+</td></tr><tr><td id="d182107e135">
 
 **Provider**
 
 </td><td>
 
-The vendor or team that built or supplies the AI asset.
+who has built the asset
 
-</td></tr><tr><td id="d196119e193">
+</td></tr><tr><td id="d182107e144">
 
 **Vendor**
 
@@ -113,7 +79,7 @@ The vendor or team that built or supplies the AI asset.
 
 Who has sold the Asset
 
-</td></tr><tr><td id="d196119e202">
+</td></tr><tr><td id="d182107e154">
 
 **Department**
 
@@ -121,7 +87,7 @@ Who has sold the Asset
 
 Department where the asset is allocated
 
-</td></tr><tr><td id="d196119e211">
+</td></tr><tr><td id="d182107e163">
 
 **Managed by**
 
@@ -129,7 +95,7 @@ Department where the asset is allocated
 
 Managed by the user who owns the asset
 
-</td></tr><tr><td id="d196119e221">
+</td></tr><tr><td id="d182107e172">
 
 **License details**
 
@@ -137,55 +103,49 @@ Managed by the user who owns the asset
 
 License details of the asset
 
-</td></tr><tr><td id="d196119e230">
+</td></tr><tr><td id="d182107e181">
 
 **Supported locations**
 
 </td><td>
 
-The geographic regions or environments where the asset is approved to operate, relevant for data residency and compliance purposes.
+Shows the locations supported for the AI asset.
 
-</td></tr><tr><td id="d196119e239">
-
-**Source system**
-
-</td><td>
-
-The system from which the asset record originated, such as an import script or an external discovery tool.
-
-</td></tr><tr><td id="d196119e248">
-
-**State**
-
-</td><td>
-
-The operational state of the asset.-   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
-
-
-</td></tr><tr><td id="d196119e274">
+</td></tr><tr><td id="d182107e193">
 
 **Lifecycle phase**
 
 </td><td>
 
-The current phase of the asset-   New
+Shows the asset's lifecycle phase.
+
+-   New
 -   Assess
 -   Build and test
 -   Deploy
 -   Offboarding
 
 
-</td></tr><tr><td id="d196119e300">
+</td></tr><tr><td id="d182107e222">
+
+**State**
+
+</td><td>
+
+The state of the asset.-   Deployed
+-   Retired
+-   Development
+-   Unknown
+-   N/A
+
+
+</td></tr><tr><td id="d182107e249">
 
 **Lifecycle status**
 
 </td><td>
 
-The current status within the lifecycle phase of the asset.-   In Review
+The lifecycle status of the asset.-   In review
 -   Approved
 -   Rejected
 -   Deployed
@@ -196,7 +156,7 @@ The current status within the lifecycle phase of the asset.-   In Review
 -   Canceled
 
 
-</td></tr><tr><td id="d196119e340">
+</td></tr><tr><td id="d182107e288">
 
 **Risk classification**
 
@@ -204,7 +164,7 @@ The current status within the lifecycle phase of the asset.-   In Review
 
 Risk classification of the asset
 
-</td></tr><tr><td id="d196119e349">
+</td></tr><tr><td id="d182107e297">
 
 **Created**
 
@@ -212,33 +172,13 @@ Risk classification of the asset
 
 Creation date
 
-</td></tr><tr><td id="d196119e358">
+</td></tr><tr><td id="d182107e306">
 
 **Updated**
 
 </td><td>
 
 Updated date
-
-</td></tr><tr><td id="d196119e367">
-
-**Documentation**
-
-</td><td>
-
-A free-text or rich-text field for attaching additional reference material, links, or notes about the asset.
-
-</td></tr><tr><td id="d196119e376">
-
-**Aggregated risk score**
-
-</td><td>
-
-Inherent rating — The risk level of the asset before any controls are applied. Reflects the raw risk based on the asset's nature and use.
-
- Control effectiveness — A measure of how well the existing controls mitigate the identified risks.
-
- Residual rating — The remaining risk level after controls are applied. A lower residual rating indicates effective risk mitigation.
 
 </td></tr></tbody>
 </table>

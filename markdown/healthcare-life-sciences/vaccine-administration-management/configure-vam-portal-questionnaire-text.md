@@ -3,11 +3,11 @@ title: Configure the questionnaire text for the user and clinician portals
 description: Configure the questionnaire text that is displayed in the user and clinician portals for Vaccine Administration Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/configure-vam-portal-questionnaire-text.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -99,15 +99,15 @@ Your demographic info
 age\_group
 
 </td></tr></tbody>
-</table>    For details on how to configure a variable, see [Service Catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariables.md).
+</table>    For details on how to configure a variable, see [Service Catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogVariables.md).
 
     **Important:**
 
     -   Updating the questionnaire text updates that text in both the user and clinician portals.
     -   If you deactivate a variable, then the question will be hidden in both the user and clinician portals.
-    -   If you're creating a question, the new question isn’t displayed in the clinician portal by default. You must also update the pre-vaccine\_questionnaire widget by navigating to **All** &gt; **Service Portal** &gt; **Widgets**. For details on how to configure a widget, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md).
+    -   If you're creating a question, the new question isn’t displayed in the clinician portal by default. You must also update the pre-vaccine\_questionnaire widget by navigating to **All** &gt; **Service Portal** &gt; **Widgets**. For details on how to configure a widget, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal-widgets.md).
 4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

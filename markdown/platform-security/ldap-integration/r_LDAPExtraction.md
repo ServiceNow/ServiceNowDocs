@@ -3,11 +3,11 @@ title: LDAP extraction
 description: Implement an LDAP extraction process to detect inactive users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_LDAPExtraction.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: reference
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LDAP record synchronization, LDAP integration, Authentication, Access Management]
 ---
@@ -36,5 +36,5 @@ Drawbacks to this method include:
 
 ## Alternative method
 
-[LDAP refresh filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/r_LDAPRefreshFilters.md) use multiple import jobs to divide different types of user records, segregating records for separate processing.
+[LDAP refresh filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/r_LDAPRefreshFilters.md) use multiple import jobs to divide different types of user records, segregating records for separate processing.
 

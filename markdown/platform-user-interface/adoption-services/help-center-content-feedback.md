@@ -1,30 +1,30 @@
 ---
 title: Help Center content thumbs up and down feedback
-description: Help Center content includes a thumb up or thumbs down feedback option for each Help center article in your instance.
+description: Help center content includes a thumb up or thumbs down feedback option for each Help center article in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/help-center-content-feedback.html
-release: australia
+release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Help Center, Help Center, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Help Center content thumbs up and down feedback
 
-Help Center content includes a thumb up or thumbs down feedback option for each Help center article in your instance.
+Help center content includes a thumb up or thumbs down feedback option for each Help center article in your instance.
 
 ## Help Center content feedback
 
 \[Omitted image "help-center-content-feedback.png"\] Alt text: Help center content feedback.
 
-When viewing Help Center content, after an article is selected, a thumb up or thumbs down feedback option is included for each Help center article in your instance. A feedback helps to notify whether the article is helpful or if improvements can be made.
+When viewing Help center content, after an article is selected, a thumb up or thumbs down feedback option is included for each Help center article in your instance. Feedback helps to notify whether the article is helpful or if improvements can be made.
 
 ## Feedback analytics
 
-To view the feedback analytics, navigate to **All** &gt; **User Experience Analytics** &gt; **Dashboard**.
+To view the feedback analytics, navigate to **All** &gt; **Usage Insights** &gt; **Dashboard**.
 
 \[Omitted image "analytics-events.png"\] Alt text: analytics events dashboard.
 

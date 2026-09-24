@@ -3,11 +3,11 @@ title: Mark an update set complete
 description: When you have completed the customizations and compared local update sets to resolve conflicts, mark the update set as Complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/t\_CompleteUpdateSets.html
-release: australia
+release: brazil
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with update sets, System update sets, Deploying applications, Building applications]
 ---
@@ -33,5 +33,5 @@ Mark an update set as Complete only when it is ready to transfer. Once an update
     The update set is available for other instances to retrieve and additional customizations aren't tracked in the update set.
 
 
-**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/using-system-update-sets.md)
 

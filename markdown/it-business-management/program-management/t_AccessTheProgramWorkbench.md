@@ -3,11 +3,11 @@ title: Access the program workbench
 description: When you access the program workbench, it displays a list of all the programs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/program-management/t\_AccessTheProgramWorkbench.html
-release: australia
+release: brazil
 product: Program Management
 classification: program-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Program workbench, Program Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -41,5 +41,5 @@ You can access the program workbench in one of the following ways.
     -   All programs are available in the workbench using the navigation menu option.
     -   Only the associated program displays using the program form.
 
-**Parent Topic:**[Program workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/c_ProgramWorkbench.md)
+**Parent Topic:**[Program workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/c_ProgramWorkbench.md)
 

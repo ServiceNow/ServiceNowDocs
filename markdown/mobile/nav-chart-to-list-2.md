@@ -3,9 +3,9 @@ title: Create a navigation function for your chart screen
 description: Create a navigation function to direct your users from the chart screen to a parametrized list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/nav-chart-to-list-2.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure a navigation from a chart to a list screen, Chart screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -106,7 +106,7 @@ Condition type
 
 The conditions applied to the chart screen.
 
--   **Declarative:** Adds a conditional builder to the form. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+-   **Declarative:** Adds a conditional builder to the form. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 -   **Script:** Adds a script condition field to the form.
 **Note:** Displays only if **Context** is set to **Record**.
 
@@ -135,7 +135,7 @@ Button attributes
 Specifies an additional attribute for a button. Select **New** to configure this option. You can select from the following button attributes:
 
  -   **alerts\_require\_dismissal**: The button attribute when set to true enables the banner messages to persist until the user dismisses it. By default, banner messages are automatically dismissed.
--   **used\_for\_deeplink**: The button attribute when set to true determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
+-   **used\_for\_deeplink**: The button attribute when set to true determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/deep-link-mobile.md).
 -   **trigger\_offline\_cache\_download**: The button attribute when set to true triggers offline cache generation. After the cache is successfully generated, a download of it is triggered.
 -   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected and set to true, any field in the URL string, is checked against the ACL \(access control list\). For example, a string like `{{meeting_id}}`. If a field does not pass this check, the field value is not included in the URL. By default, the URL parameter field is checked against the ACL for backward compatibility. To opt-out of the check, mark the parameter as false.
 
@@ -156,7 +156,7 @@ Determine which user roles can access this function. If you have selected no rol
 
 ## What to do next
 
-Assign your navigation function to your chart screen. For more information, see [Assign the navigation function to the chart screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/nav-chart-to-list-3.md).
+Assign your navigation function to your chart screen. For more information, see [Assign the navigation function to the chart screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/nav-chart-to-list-3.md).
 
-**Parent Topic:**[Configure a navigation from a chart to a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/nav-chart-to-list.md)
+**Parent Topic:**[Configure a navigation from a chart to a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/nav-chart-to-list.md)
 

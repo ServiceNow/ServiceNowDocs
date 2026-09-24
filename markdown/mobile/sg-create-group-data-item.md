@@ -3,9 +3,9 @@ title: Configure a group by data item
 description: Configure a data item for a grouped list screen. You group items in a data item to get a count. For example, you can group a list according to priority and then on a grouped list screen see a count of how many high, medium, and low items exist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-create-group-data-item.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data items, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -53,7 +53,7 @@ Role required: admin
 **Related topics**  
 
 
-[Grouped list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/grouped-list-screen.md)
+[Grouped list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/grouped-list-screen.md)
 
-[Configure a group list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-config-grouped-list.md)
+[Configure a group list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-config-grouped-list.md)
 

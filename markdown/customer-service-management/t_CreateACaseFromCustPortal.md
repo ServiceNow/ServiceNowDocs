@@ -3,9 +3,9 @@ title: Create a product case from the Customer Service Portal
 description: Create a case about a question or issue on a product from the Customer Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateACaseFromCustPortal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.partner, sn\_cu
 
 1.  Go to the Customer Service Portal by accessing your instance URL and adding a /csm suffix.
 
-2.  Right-click in the form header and select **Case** &gt; **Create Product Case**.
+2.  Right-click in the form header and choose **Case** &gt; **Create Product Case**.
 
 3.  On the form, fill in the fields.
 
@@ -117,7 +117,7 @@ The case is created, assigned a case number, and added to the creator's case lis
 **Related topics**  
 
 
-[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
 
-[Chat with an agent from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_StartAChatWithAnAgent.md)
+[Chat with an agent from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_StartAChatWithAnAgent.md)
 

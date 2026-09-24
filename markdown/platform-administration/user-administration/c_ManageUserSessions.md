@@ -3,11 +3,11 @@ title: Managing user sessions
 description: The ServiceNow AI Platform provides the ability to view and terminate individual user sessions, lock out users from the system, and make users inactive.Secure your instance by enforcing a maximum time for sessions regardless of user activity.Specify when to time out user sessions after a period of inactivity.Configure how much time users have to extend a session before it times out due to inactivity.Lock out a user when you don’t want the user to access the instance.You can mark a user inactive so the user doesn't show up in any fields that reference active users on the User table.You can terminate a user session, for example, if you’re going to perform system maintenance and users are still logged in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/c\_ManageUserSessions.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Monitoring user activity, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Regardless of the number of windows you have open in a browser, it’s considere
 -   Locking a user out of the system means they can no longer log in or generate any actions from any email messages that they send to the instance. Locking users out also terminates their sessions.
 -   Making a user inactive means they don't show up in any fields that reference active users on the **User** table.
 
-**Parent Topic:**[Monitoring user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/user-admin-tools-landing.md)
+**Parent Topic:**[Monitoring user activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/user-admin-tools-landing.md)
 
 ## Configure a maximum active time for user sessions
 
@@ -54,7 +54,7 @@ By default, sessions expire only after a period of inactivity. Enforcing a maxim
 **Related topics**  
 
 
-[Configure a maximum active time for integration sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-integration-sessions.md)
+[Configure a maximum active time for integration sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-integration-sessions.md)
 
 ## Modify user session timeout after inactivity
 
@@ -95,7 +95,7 @@ By default, after 30 minutes of inactivity in the application, the platform logs
 Administrators may also want to add the following properties to the System Properties table.
 
 -   **glide.security.csrf.handle.ajax.timeout**: Handles errors for timed out Ajax requests when set to **true**.
--   **glide.security.auto.resubmit.ajax**: Automatically resubmits timed-out Ajax requests when set to **true** and the [Log in to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_LoggingIn.md) check box is selected or [Change the default value of the Remember me check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ChSetRemMeChkbxCookie.md). A pop-up appears to users asking them to continue.
+-   **glide.security.auto.resubmit.ajax**: Automatically resubmits timed-out Ajax requests when set to **true** and the [Log in to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_LoggingIn.md) check box is selected or [Change the default value of the Remember me check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_ChSetRemMeChkbxCookie.md). A pop-up appears to users asking them to continue.
 -   **glide.ui.auto\_req.extend.session**: When set to **true**, the system automatically extends a user's session by the value they select for the homepage refresh time. If there’s no homepage refresh time, the standard timeout value applies. Tablet and mobile devices don’t support this property. When set to **false**, user sessions time out when the **Remember me** check box is clear. The timeout is based on whether there’s a homepage refresh time. When there’s no homepage refresh time, the standard timeout value applies. When there’s a homepage refresh time, the user session times out after the timeout value plus one interval of the homepage refresh time. For example, if a user selects a refresh interval of five minutes, then that session expires after the timeout value plus five minutes.
 
     **Note:** Users who select the **Remember me** check box are unaffected by session timeout properties.
@@ -109,7 +109,7 @@ Administrators can also add the following properties to configure additional tim
 **Related topics**  
 
 
-[Modify integration session timeout after inactivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-integration-sessions.md)
+[Modify integration session timeout after inactivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/managing-integration-sessions.md)
 
 ## Prompting users to extend a session
 

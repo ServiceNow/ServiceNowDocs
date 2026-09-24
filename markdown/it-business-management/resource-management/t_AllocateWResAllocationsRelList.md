@@ -3,11 +3,11 @@ title: Create allocations
 description: Resource managers can create allocations using the Resource Allocations related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_AllocateWResAllocationsRelList.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource allocation, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Role required: resource\_manager
 
 4.  On the Resource Allocation form, fill the fields.
 
-    For a description of the field values, see [Resource Allocation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-allocation-form.md).
+    For a description of the field values, see [Resource Allocation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-allocation-form.md).
 
 5.  Select **Submit** to save the record and return to the resource plan.
 
@@ -39,7 +39,7 @@ Role required: resource\_manager
 
 In the resource plan form, select **Confirm** or **Confirm and Allocate** to move the resource to the **Confirmed** or **Allocated** state.
 
-**Parent Topic:**[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md)
+**Parent Topic:**[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/r_AllocatingResources.md)
 
 **Related topics**  
 

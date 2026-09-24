@@ -3,11 +3,11 @@ title: File-based Discovery issue resolution
 description: If you have any issues while setting up or running File-based Discovery, follow the actions listed here to help resolve them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/file-based-discovery-troubleshooting.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [File-based Discovery references, File-based Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -78,5 +78,5 @@ PowerShell errors
 </table>**Related topics**  
 
 
-[File-based Discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/file-based-discovery-references.md)
+[File-based Discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/file-based-discovery-references.md)
 

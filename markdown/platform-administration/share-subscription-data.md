@@ -3,9 +3,9 @@ title: Share subscription data from another instance
 description: View subscription data from another instance by enabling data sharing on that instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/share-subscription-data.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
 By default, data sharing is restricted between production instances, which means you can't see subscription data for other production instances in Subscription Management. To view subscription data from another production instance, modify the trust configuration settings on that instance.
 
-For more information about modifying the trust configuration for an instance, see [Basic trust configuration for data sync applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/grant-access-other-instances.md).
+For more information about modifying the trust configuration for an instance, see [Basic trust configuration for data sync applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/grant-access-other-instances.md).
 
 **Note:** Subscription data from a non-production instance is only viewable from a production instance.
 

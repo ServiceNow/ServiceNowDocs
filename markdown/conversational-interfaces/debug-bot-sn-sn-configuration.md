@@ -1,0 +1,82 @@
+---
+title: Debug Virtual Agent Bot Interconnect with a ServiceNow Virtual Agent secondary bot
+description: Debug Workflow Studio executions of your Virtual Agent Bot Interconnect and Virtual Agent secondary bot integration.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/debug-bot-sn-sn-configuration.html
+release: brazil
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [Debug, Virtual Agent, Bot interconnect, Workflow studio, integration]
+breadcrumb: [Using ServiceNow Virtual Agent as a secondary bot, Virtual Agent Bot Interconnect, Conversational Interfaces]
+---
+
+# Debug Virtual Agent Bot Interconnect with a ServiceNow Virtual Agent secondary bot
+
+Debug Workflow Studio executions of your Virtual Agent Bot Interconnect and Virtual Agent secondary bot integration.
+
+## Before you begin
+
+Enable the following system properties:
+
+-   **sn\_va\_bot\_ic.bot\_interconnect.enable.logging** = true
+-   **glide.outbound\_http\_log.override** = true
+-   **glide.outbound\_http\_log.override.level** = all
+
+For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+
+Role required: admin
+
+## Procedure
+
+1.  In the Bot Interconnect instance, modify the shell topic you created in Virtual Agent:
+
+    1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
+
+    2.  Select the **Asset library** tab.
+
+    3.  In the Asset library, open the shell topic you created in a previous step.
+
+    4.  On the **Flow** tab, select the Bot Interconnect Topic Block.
+
+    5.  In the **Additional Params \(String\)** field, select the Script icon \[Omitted image "icon-script.png"\] Alt text: Script icon., and then add the following code:
+
+        ```
+        (function execute() {
+          return JSON.stringify({quick: false}); 
+        })()
+        ```
+
+    6.  Select Save.
+
+    7.  Save the topic.
+
+2.  Enable execution context debugging in Workflow Studio.
+
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Process Automation Designer** &gt; **Flow Administration** &gt; **Settings**.
+
+    2.  On the Settings page, select **New**.
+
+    3.  In the **Flow/Subflow/Action** field, select the Search icon \[Omitted image "icon-search.png"\] Alt text: Search icon..
+
+    4.  On the Select the document form, fill in the fields.
+
+        Add the following Flow Designer document settings if your secondary bot is in synchronous mode.
+
+        \[Omitted image "debug-sn-sn-select-document-primary.png"\] Alt text: Document setting for the primary bot in Workflow Studio if secondary bot is synchronous. Table name is Flow, and Document is VA API Bot Interconnect Integration Handler. \[Omitted image "debug-sn-sn-select-document-secondary.png"\] Alt text: Document setting for the primary bot in Workflow Studio if secondary bot is synchronous. Table name is Action Type, and Document is Bot Interconnect Sync Integration Handler.
+
+        Add the following Flow Designer document settings if your secondary bot is in asynchronous mode.
+
+        \[Omitted image "Document-setting-secondary-bot-async1.png"\] Alt text: Document setting for the primary bot in Workflow Studio if secondary bot is synchronous. Table name is Flow, and Document is VA API Bot Interconnect Integration Handler. \[Omitted image "Document-setting-secondary-bot-async2.png"\] Alt text: Document setting for the primary bot in Workflow Studio if secondary bot is asynchronous. \[Omitted image "Document-setting-secondary-bot-async3.png"\] Alt text: Document setting for the primary bot in Workflow Studio if secondary bot is synchronous. Table name is Action Type, and Document is Bot Interconnect Sync Integration Handler.
+
+    5.  Select **Ok**.
+
+    6.  In the **Reporting** field, select **Developer Trace**.
+
+    7.  Select **Submit**.
+
+
+## Result
+
+You can view additional logs and Workflow Studio executions for debugging purposes.
+

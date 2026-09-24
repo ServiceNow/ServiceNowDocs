@@ -3,11 +3,11 @@ title: Add a custom layout bundle to a UI Builder page
 description: Add playbook custom layout bundles to a new or existing UI Builder page that you've created from scratch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-custom-layout-bundle-uib-page.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize Playbook Experience, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -28,7 +28,7 @@ Templates are page level, they are meant to be used when you create a completely
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder** and select **Playbook Experience Builder**.
 
-    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-experiences.md).
+    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see .
 
 2.  Select **+** next to **Pages and variants** to create a new page.
 

@@ -3,18 +3,18 @@ title: Configuring Contracts and Entitlement Workflows
 description: Configure the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\) to generate and modify contracts using order management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configure-cont-ent-workflows-csm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Contracts and Entitlements, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure Customer Contracts and Entitlements, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring Contracts and Entitlement Workflows
 
 Configure the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\) to generate and modify contracts using order management.
 
-As an admin, you can activate the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+As an admin, you can activate the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 The following plugins are prerequisites for activating the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\):
 

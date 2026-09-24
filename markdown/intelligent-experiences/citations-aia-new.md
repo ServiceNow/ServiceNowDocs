@@ -3,11 +3,11 @@ title: Citations in Now Assist AI agents
 description: Citations appear on the ServiceNow Otto panel when AI agents and agentic workflows provide summaries for similar incidents and knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/citations-aia-new.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Citations in Now Assist AI agents
@@ -28,5 +28,5 @@ Generating citations:
 
 Citations with similar incidents and relevant knowledge articles appear in the Sources section of the AI Agent Studio Chat and on the Now Assist panel. Clickable links direct you to the incident or knowledge article.
 
-You can hide citations for specific agentic workflows or AI agents where it’s necessary or confidential. For more information, see [Disable citations in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-hide-citations.md).
+You can hide citations for specific agentic workflows or AI agents where it’s necessary or confidential. For more information, see [Disable citations in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-hide-citations.md).
 

@@ -3,13 +3,13 @@ title: Manage stashes
 description: App developers can apply or delete stashed changes from App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-manage-stashes.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Stash changes, Use AES with a Git source control repository, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Stash changes, Use AES with a Git source control repository, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Manage stashes
@@ -34,7 +34,7 @@ App developers can apply or delete stashed changes from App Engine Studio \(AES\
 
 4.  Select the action next to the stash you want to manage.
 
-<table id="choicetable_vkd_kx5_lv"><tbody><tr><td id="d199452e109">
+<table id="choicetable_vkd_kx5_lv"><tbody><tr><td id="d192687e109">
 
 **Apply**
 
@@ -42,7 +42,7 @@ App developers can apply or delete stashed changes from App Engine Studio \(AES\
 
 Commits the stashed changes to the application and checks for conflicts.
 
-</td></tr><tr><td id="d199452e118">
+</td></tr><tr><td id="d192687e118">
 
 **Delete**
 
@@ -52,5 +52,5 @@ Removes the stashed changes.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Stash changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/stash-changes.md)
+**Parent Topic:**[Stash changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/stash-changes.md)
 

@@ -3,9 +3,9 @@ title: BIA template form for the legacy assessment
 description: Use the BIA template form to configure the business impact analysis with the legacy template. You can add details such as name, description, elements, impact categories, and so on in the form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bia-template-new-record-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure BIA templates, Setup for a BIA, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -88,8 +88,8 @@ Option to include Confidentiality, Integrity, and Availability to BIA. Available
 -   **Yes**: Set the flag as **Yes**, if the primary element that is being analyzed has critical data and whether it must include Confidentiality, Integrity, and Availability information in the analysis.
 -   **No**: Set the flag as **No**, if the primary element that is being analyzed does not have critical data.
 
- The field appears only if the elements selected for the **Primary Element Assessed** field in the same form require data backup.
+ The field appears only if the elements that selected for the **Primary Element Assessed** field in the same form require data backup.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure BIA templates with legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bia-template-uib-ws.md)
+</table>**Parent Topic:**[Configure BIA templates with legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configure-bia-template-uib-ws.md)
 

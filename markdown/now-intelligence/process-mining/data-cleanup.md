@@ -1,13 +1,13 @@
 ---
 title: Process Mining properties
-description: The Process Mining properties page provides configuration options for Process Mining.Set properties that determine how long Process Mining projects are maintained before being deleted by the scheduled cleanup job.Schedule a job to delete older backup versions and clean up cluster analysis records by executing the scheduled script ProminVersionCleanup.Set properties that determine the thresholds for root cause analysis.Set properties that determine the kind of data you want to view in Analyst workbench.Set the property to enable or disable activity field recommendation when creating a project.Set properties that determine when the work notes analysis will be available.Select the tables that you do not want to be used for projects in Process Mining.Set properties that determine how you can export a project to playbook.Set properties that set the number of highlights generated per page for improvement opportunities.Set properties that determine who can access Process Mining from Platform Analytics Dashboard.Set properties that specify the functioning of intent and activity analysis.
+description: The Process Mining properties page provides configuration options for Process Mining.Set properties that determine how long Process Mining projects are maintained before being deleted by the scheduled cleanup job.Schedule a job to delete older backup versions and clean up cluster analysis records by executing the scheduled script ProminVersionCleanup.Set properties that determine the thresholds for root cause analysis.Set properties that determine the kind of data you want to view in Analyst workbench.Set the property to enable or disable activity field recommendation when creating a project.Set properties that determine when the work notes analysis will be available.Select the tables that you do not want to be used for projects in Process Mining.Set properties that set the number of highlights generated per page for improvement opportunities.Set properties that determine how you can export a project to playbook.Set properties that determine who can access Process Mining from Platform Analytics Dashboard.Set properties that specify the functioning of intent and activity analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/data-cleanup.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Configure, Process Mining, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configure, Process Mining, Platform Analytics]
 
 The Process Mining properties page provides configuration options for Process Mining.
 
-**Parent Topic:**[Configuring Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/setting-up-process-mining.md)
+**Parent Topic:**[Configuring Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/setting-up-process-mining.md)
 
 ## Data cleanup properties
 
@@ -257,7 +257,7 @@ Minimum number of eligible work notes **promin.work\_notes.min\_eligible\_record
 
 </td><td>
 
-Set the limit for minimum eligible work notes. Work notes are eligible when they meet the criteria that is set when creating process configuration \(such as, time range for work notes, length range of work notes analysis, and so on\). For more information, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/investigative-features.md).
+Set the limit for minimum eligible work notes. Work notes are eligible when they meet the criteria that is set when creating process configuration \(such as, time range for work notes, length range of work notes analysis, and so on\). For more information, see [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/investigative-features.md).
 
  -   Type: integer
 -   Default value: 25
@@ -287,29 +287,6 @@ Provide the tables that must be blocked from being used in Process Mining.-   Ty
 -   Location: Process Mining &gt; **System** &gt; **Properties**
 
 </td></tr></tbody>
-</table>## Playbook generation properties
-
-Set properties that determine how you can export a project to playbook.
-
-<table id="table_tnq_pv5_zfc"><thead><tr><th>
-
-Property
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Set the maximum number of variants to generate playbook **promin.playbook.max\_variants**
-
-</td><td>
-
-Set the maximum number of variants to generate playbook.-   Type: Integer
--   Default value: 10
--   Location: Process Mining &gt; **System** &gt; **Properties**
-
-</td></tr></tbody>
 </table>## Improvement opportunities highlights properties
 
 Set properties that set the number of highlights generated per page for improvement opportunities.
@@ -330,6 +307,29 @@ Description
 
 Enables you to set the number of highlights generated per page for improvement opportunities.-   Type: Integer
 -   Default value: 5
+-   Location: Process Mining &gt; **System** &gt; **Properties**
+
+</td></tr></tbody>
+</table>## Playbook generation properties
+
+Set properties that determine how you can export a project to playbook.
+
+<table id="table_tnq_pv5_zfc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Set the maximum number of variants to generate playbook **promin.playbook.max\_variants**
+
+</td><td>
+
+Set the maximum number of variants to generate playbook.-   Type: Integer
+-   Default value: 10
 -   Location: Process Mining &gt; **System** &gt; **Properties**
 
 </td></tr></tbody>

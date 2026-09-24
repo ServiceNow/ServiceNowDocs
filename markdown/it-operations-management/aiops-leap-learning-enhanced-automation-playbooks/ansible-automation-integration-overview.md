@@ -3,7 +3,7 @@ title: Ansible automation integration
 description: The Ansible automation integration connects LEAP with Ansible Automation Platform to enable AI-driven discovery of relevant job templates and automated incident remediation from the Service Operations Workspace.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/ansible-automation-integration-overview.html
-release: australia
+release: brazil
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept

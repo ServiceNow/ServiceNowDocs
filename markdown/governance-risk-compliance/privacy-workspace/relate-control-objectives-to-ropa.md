@@ -3,11 +3,11 @@ title: Map a control objective to a question response
 description: Map the control objectives to the responses of the assessment questions to automatically create and apply the respective controls on the processing activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/relate-control-objectives-to-ropa.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a privacy assessment, Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -41,15 +41,15 @@ You can relate control objectives to an assessment question only if the question
 
 2.  Click and open the required assessment template.
 
-<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d58943e110">
+<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d60090e110">
 
 Type of questions
 
-</th><th align="left" id="d58943e113">
+</th><th align="left" id="d60090e113">
 
 Steps to map controls
 
-</th></tr></thead><tbody><tr><td id="d58943e119">
+</th></tr></thead><tbody><tr><td id="d60090e119">
 
 **Boolean, Template**
 
@@ -64,7 +64,7 @@ To create and apply controls for a response, perform the following steps.1.  Sel
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d58943e154">
+</td></tr><tr><td id="d60090e154">
 
 **Choice, Image scale, Numeric, Ranking**
 
@@ -89,5 +89,5 @@ To create and apply controls for a response, perform the following steps.1.  In 
 
 The control objectives are related to the processing activity.
 
-**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
+**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
 

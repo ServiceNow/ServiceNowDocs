@@ -1,123 +1,63 @@
 ---
-title: AI Service Graph Connector for GCP Vertex AI
-description: The AI Service Graph Connector for GCP Vertex AI enables you to discover and import AI assets from your Google Cloud environment into ServiceNow AI Control Tower.
+title: AI Service Graph Connector for Google Cloud Platform \(GCP\) Vertex AI
+description: Use the  AI Service Graph Connector for GCP Vertex AI plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/gcp-vertex-ai.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# AI Service Graph Connector for GCP Vertex AI
+# AI Service Graph Connector for Google Cloud Platform \(GCP\) Vertex AI
 
-The AI Service Graph Connector for GCP Vertex AI enables you to discover and import AI assets from your Google Cloud environment into ServiceNow AI Control Tower.
-
-The connector integrates with your Google Cloud Platform account to catalog AI systems, agents, models, and prompts. Usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
+Use the  AI Service Graph Connector for GCP Vertex AI plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 
 ## Download apps from the Store
 
-Visit the  ServiceNow store website to download the [AI Service Graph Connector for GCP Vertex AI](https://store.servicenow.com/store/app/5b3cfb8a87e7fa14a6c6fc48cebb3512) application.
+Visit the  [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to download the AI Service Graph Connector for GCP Vertex AI app.
 
 ## Supported ServiceNow versions
 
-This connector is supported on the following ServiceNow releases:
+-   Australia
+-   Zurich patch 7
+-   Yokohama patch 11
 
-|Release|Status|
-|-------|------|
-|Australia|Supported|
-|Zurich|Supported|
-|Yokohama|Supported|
+## User roles
 
-## User Roles
+Roles required in the ServiceNow environment:
 
-You must have one of the following roles assigned.
+-   sn\_ai\_disc.discovery\_admin
+-   sn\_cmdb\_int\_util.sgc\_admin
 
-|Required Roles|
-|--------------|
-|sn\_ai\_disc.discovery\_admin|
-|sn\_cmdb\_int\_util.sgc\_admin|
+## Prerequisites from GCP Vertex
 
-## ServiceNow Prerequisites
+**Prerequisites:**
 
-Complete the following setup steps once when configuring the connector for the first time.
-
-**Note:** Updating data source access and clear cache is a prerequisite that needs to be completed only once, when setting up a new instance for the first time.
-
-Update Data Source Access:
-
-The connector requires write permissions to the Data Source table to create data sources.
-
-To enable data source creation:
-
-1.  Select **Global** from the application picker.
-2.  Navigate to **Application Access**.
-3.  Select the **Can create**, **Can update**, and **Can delete** check boxes.
-4.  Select **Update**.
-5.  Switch to the connector application scope.
-
-Clear the cached data for the Data Source and Tables.
-
-To clear the cache:
-
-1.  Navigate to **System Definition** &gt; **Background Scripts**.
-2.  Enter the following script in the **Run Script** text box:
-
-    ```
-    GlideTableManager.invalidateTable('sys_data_source');
-    GlideCacheManager.flushTable('sys_data_source');
-    GlideTableManager.invalidateTable('sys_db_object');
-    GlideCacheManager.flushTable('sys_db_object');
-    
-    ```
-
-3.  Select **Run Script**.
-
-    **Note:** The script might take several minutes to complete. After completion, switch to the connector application scope.
-
-
-## GCP Vertex AI Prerequisites
-
-Follow the setup instructions to create a service account, assign roles, bind roles to the service account, and enable APIs. To create a JKS file, a JSON file is required. If a JSON file is available, skip the JKS file creation step. After completing setup, register the connector in your ServiceNow instance. For setup instructions and API details, see the [Service Graph connector for GCP Vertex AI- Setup Instructions \[KB2731256\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB2731256) KB article.
-
-**Note:** If Cloud trace service is not turned on, you will only be able to view the reasoning engine name, which is the top-level agent.
-
-Cloud trace service is required to capture details like prompts, tools, models, and sub-agents. These are discovered only after they have been executed at least once.
-
-If Cloud trace service is not enabled. You must enable cloud trace service and redeploy the agents to properly discover AI agents, tools, models, prompts and sub-agents.
-
-## Service Account and Role Configuration
-
-Create a dedicated GCP service account with least-privilege access. The connector requires permissions to query Vertex AI agents and observability data.
-
-The service account requires the following:
-
--   A service account created in your GCP project with the appropriate Vertex AI roles.
--   Roles bound to the service account at the project or organization level.
--   Required APIs are enabled in your GCP project.
+Review the setup instructions to create a service account, assign roles, bind roles to the service account, enable APIs, create a JKS file, and register it in your ServiceNow instance. For setup instructions and used APIs, see the [Service Graph connector for GCP Vertex AI- Setup Instructions \[KB2731256\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB2731256)
 
 ## Data Mapping
 
 The following table lists the data sources, the staging tables, and the target tables  CMDB CI classes and non-CMDB classes where data is stored for a  GCP Vertex AI  project.
 
-<table id="table_pps_vnk_m3c"><thead><tr><th>
+<table id="table_pps_vnk_m3c"><tbody><tr><td>
 
-Data source
+**Data source**
 
-</th><th>
+</td><td>
 
-Staging table
+**Staging table**
 
-</th><th>
+</td><td>
 
-Target tables
+**Target tables**
 
-</th></tr></thead><tbody><tr><td>
+</td></tr><tr><td>
 
-SG-GCPVertexAI-Execution
+SG-GCPVertexAI- Execution
 
 </td><td>
 
@@ -137,7 +77,9 @@ sn\_ai\_disc\_gcp\_sgc\_sg\_gcp\_ai\_system
 
 </td><td>
 
-cmdb\_ai\_system\_component\_product\_model alm\_ai\_system\_digital\_asset
+cmdb\_ai\_system\_component\_product\_model
+
+ alm\_ai\_system\_digital\_asset
 
  cmdb\_ci\_function\_ai
 
@@ -145,7 +87,7 @@ cmdb\_ai\_system\_component\_product\_model alm\_ai\_system\_digital\_asset
 
 </td></tr><tr><td>
 
-SG-GCPVertexAI-Model
+SG-GCPVertexAI- Mode
 
 </td><td>
 
@@ -153,11 +95,13 @@ sn\_ai\_disc\_gcp\_sgc\_sg\_gcp\_ai\_model
 
 </td><td>
 
-cmdb\_ai\_model\_product\_model alm\_ai\_model\_digital\_asset
+cmdb\_ai\_model\_product\_model
+
+ alm\_ai\_model\_digital\_asset
 
 </td></tr><tr><td>
 
-SG-GCPVertexAI-Tool
+SG-GCPVertexAI- Tool
 
 </td><td>
 
@@ -169,7 +113,7 @@ sn\_ent\_ai\_tool
 
 </td></tr><tr><td>
 
-SG-GCPVertexAI-Prompt
+SG-GCPVertexAI- Prompt
 
 </td><td>
 
@@ -177,11 +121,13 @@ sn\_ai\_disc\_gcp\_sgc\_sg\_gcp\_ai\_prompt
 
 </td><td>
 
-cmdb\_ai\_prompt\_product\_model alm\_ai\_prompt\_digital\_asset
+cmdb\_ai\_prompt\_product\_model
+
+ alm\_ai\_prompt\_digital\_asset
 
 </td></tr><tr><td>
 
-SG-GCPVertexAI-System Subcomponent M2M
+SG-GCPVertexAI- System Subcomponent M2M
 
 </td><td>
 

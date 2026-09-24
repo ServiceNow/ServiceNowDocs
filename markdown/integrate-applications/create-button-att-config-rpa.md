@@ -3,9 +3,9 @@ title: Invoke Embedded Task Automation via API in RPA Hub
 description: Invoke an attended bot process \(attended automation\) from the UI experiences by creating an action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-button-att-config-rpa.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Embedded Task Automation \(ETA\), Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Invoke an attended bot process \(attended automation\) from the UI experiences b
 
 The limitation to trigger the attended bot process \(attended automation\) from other UI experiences such as playbook can be resolved by performing the following customisation. By default, the UI action is created for classic or workspace experience to trigger the attended bot process \(attended automation\) when attended configuration is activated.
 
-To create a UI action or edit an existing one, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
+To create a UI action or edit an existing one, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_EditingAUIAction.md).
 
 In the corresponding action, verify that the action visibility is `new sn_rpa_fdn.RPAInstanceFormHooks().canTriggerAutomation(current,’<attended_config_sys_id>`.
 
@@ -44,12 +44,12 @@ top.window.open(result.url);​
 });​
 ```
 
-**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md)
+**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/embedded-task-auto-rpa.md)
 
 **Related topics**  
 
 
-[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md)
+[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/embedded-task-auto-rpa.md)
 
-[Conditions for the visibility of UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/visibility-cond-button-rpa.md)
+[Conditions for the visibility of UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/visibility-cond-button-rpa.md)
 

@@ -3,11 +3,11 @@ title: Setting up communication templates and plans in Major Incident Management
 description: Set up the communication templates and plans in Major Incident Management to help reduce the efforts and time spent in creating and composing communication at the various stages of a major incident. Effective communications with stakeholders help resolve major incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/setup-comm-templates-plans-mim-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---

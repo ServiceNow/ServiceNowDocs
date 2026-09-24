@@ -3,11 +3,11 @@ title: Schedule the export and distribution of an indicator
 description: Schedule an indicator to automate its distribution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/schedule-scorecard-pdf.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -18,7 +18,7 @@ Schedule an indicator to automate its distribution.
 
 ## Before you begin
 
-This feature requires the licensed version of [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+This feature requires the licensed version of [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
 **Note:** This feature currently does not support Data snapshots indicators.
 

@@ -3,14 +3,14 @@ title: Create AI system assets
 description: Create AI assets to track and manage the life cycles of your AI systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-system-assets.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Now Assist, generative AI]
-breadcrumb: [Creating AI assets, Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Creating AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI system assets
@@ -178,10 +178,10 @@ Locations in which the AI system is supported.
             1.  Select the Add from inventory drop-down menu on the header of the corresponding asset list.
             2.  Select **Create**.
             3.  Create the AI asset.
-                -   If you are creating an AI system asset, return to [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-ai-system-assets.md).
-                -   If you are creating an AI model asset, follow the proceeding steps in [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-ai-model-assets.md).
-                -   If you are creating a prompt asset, follow the proceeding steps in [Create prompt assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-prompt-assets.md).
-                -   If you are creating a dataset asset, follow the proceeding steps in [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-dataset-assets.md).
+                -   If you are creating an AI system asset, return to [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/create-ai-system-assets.md).
+                -   If you are creating an AI model asset, follow the proceeding steps in [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/create-ai-model-assets.md).
+                -   If you are creating a prompt asset, follow the proceeding steps in [Create prompt assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/create-prompt-assets.md).
+                -   If you are creating a dataset asset, follow the proceeding steps in [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/create-dataset-assets.md).
             The new AI asset appears in the corresponding asset list.
 
 8.  Select **Next**.
@@ -323,9 +323,7 @@ Additional use and purpose details
 Additional information or context that helps clarify the specific use and purpose of the AI system.
 
 </td></tr></tbody>
-</table>    For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-ai-system.md).
-
-10. Select **Submit for review**.
+</table>10. Select **Submit for review**.
 
     **Note:** If you aren’t ready to submit the AI system for review, select **Save** instead. You can then edit it and submit it for review later by navigating to **AI assets** &gt; **Lifecycle** &gt; **Onboard** and then selecting the AI system from the list. When the AI asset record opens, continue editing the AI system details.
 
@@ -336,7 +334,7 @@ The AI system is added to your AI asset inventory. It automatically enters the o
 
 ## What to do next
 
-Users who are assigned the AI steward \(sn\_ai\_governance.ai\_steward\) role can start the review process to begin tracking and managing the life cycle of the AI system. For detailed instructions, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md).
+Users who are assigned the AI steward \(sn\_ai\_governance.ai\_steward\) role can start the review process to begin tracking and managing the life cycle of the AI system. For detailed instructions, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md).
 
-**Parent Topic:**[Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/creating-ai-assets.md)
+**Parent Topic:**[Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/creating-ai-assets.md)
 

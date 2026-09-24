@@ -1,0 +1,63 @@
+---
+title: Create a JavaScript function in Microsoft Azure using Visual Studio Code
+description: To use Power Virtual Agents with Virtual Agent Bot Interconnect, you must create a JavaScript function in Microsoft Azure using the sample code files in Bot Interconnect.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/create-js-function-azure-mspv-sec-bot.html
+release: brazil
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Using Microsoft Power Virtual Agents as a secondary bot, Virtual Agent Bot Interconnect, Conversational Interfaces]
+---
+
+# Create a JavaScript function in Microsoft Azure using Visual Studio Code
+
+To use Power Virtual Agents with Virtual Agent Bot Interconnect, you must create a JavaScript function in Microsoft Azure using the sample code files in Bot Interconnect.
+
+## Before you begin
+
+You will need a Microsoft Azure account.
+
+Role required: admin
+
+## Procedure
+
+1.  Sign into Microsoft Azure and create a JavaScript function.
+
+    This involves configuring your environment and creating a local project. Refer to the [Microsoft documentation](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-node) for details.
+
+2.  Go to [Create an Azure Function for Microsoft Power Virtual Agents as Secondary bot with ServiceNow Bot Interconnect setup \(KB1112368\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1112368), and then do the following:
+
+    1.  Copy the code in the attached `index.txt` file into the `index.js` file in your Azure project.
+
+    2.  Copy the code in the attached `function.txt` file into the `function.json` file in your Azure project.
+
+    3.  Save both files.
+
+3.  Install the **request-promise** libraries.
+
+    1.  In a command line window, change directories to the folder where you created the Azure project.
+
+        For example, enter `cd DemoAzureFunction`.
+
+    2.  At the prompt, enter: `npm install --save request`
+
+    3.  At the prompt, enter: `npm install --save request-promise`
+
+    The dependencies are added to the `package.json` file in your project.
+
+    \[Omitted image "va-api-azure-libs-package-json.png"\] Alt text: The request and request-promise libraries are included as dependencies in your project, as "request" and "request-promise."
+
+4.  Deploy the project to Azure as described in the [Microsoft documentation](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-node).
+
+5.  From the Azure portal, navigate to **All Resources**.
+
+6.  Select the name of the function app that you've created.
+
+7.  On the Overview page, select the function you've created in the Functions tab, and copy the function URL from the Get function URL option.
+
+    The Azure function URL will be used as the secondary bot endpoint in your ServiceNow instance.
+
+    \[Omitted image "va-api-azure-app-url.png"\] Alt text: Copy the function URL in the Get Function URL subtab of the selected function. The example reads, "https://appname.azurewebsites.net."
+
+

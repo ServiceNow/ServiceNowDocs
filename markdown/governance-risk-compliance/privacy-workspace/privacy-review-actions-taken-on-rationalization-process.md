@@ -3,11 +3,11 @@ title: Review actions taken on rationalization process
 description: After acting on the recommendations, the owner sends it for review to the configured reviewers. The reviewers then analyze the actions taken and either approve or reject them, providing proper justification for their decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-review-actions-taken-on-rationalization-process.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Recommendation of similar control objectives skill, ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---

@@ -3,13 +3,13 @@ title: Overview tab in AI Control Tower
 description: Explore the overview tab in AI Control Tower and the widgets available on the tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/overview-tab-in-ai-control-tower.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Overview tab in AI Control Tower
@@ -36,7 +36,7 @@ The following widgets are available, showing various metrics. You can view the d
     -   Assess
     -   Build and test
     -   Deploy
-    For more information about the AI asset lifecycle stages, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
+    For more information about the AI asset lifecycle stages, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
 
 -   **AI systems by type**
 
@@ -57,7 +57,7 @@ The following widgets are available, showing various metrics. You can view the d
 
     This section shows the number of AI systems, categorized by the providers.
 
-    **Note:** The AI system by provider donut chart doesn’t display the Other category when there are more than five providers, which can cause a mismatch between the number of metric labels and the items shown in the list when selecting a metric label.
+    **Note:** The AI system by provider donut chart doesn’t display the **Other** category when there are more than five providers, which can cause a mismatch between the number of metric labels and the items shown in the list when selecting a metric label.
 
 -   **Compliance**
 

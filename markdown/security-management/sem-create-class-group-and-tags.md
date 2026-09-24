@@ -3,9 +3,9 @@ title: Set up security tag groups and tags
 description: You can assign tags to security incidents, response tasks, vulnerable items, observables, IoCs, and security cases to create metadata on the responding record and define who should have access to specific types of security content. The tags can be added to security groups to organize them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-class-group-and-tags.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -116,9 +116,4 @@ Brief description of this group.
 
     **Note:** You can also create tags by selecting **New** button on the list view. The procedure is the same.
 
-
--   **[Create security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-security-tag-rules.md)**  
-Security tag rules provide filtering for security tag access.
--   **[Import security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-import-security-tag-rules.md)**  
-You can import security tag rules from other tables in your deployment.
 

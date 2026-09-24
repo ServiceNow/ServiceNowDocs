@@ -3,11 +3,11 @@ title: Assign a role to a group
 description: You can assign a role to a group to grant access to applications and modules to group members.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_AssignRoleToGroup.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a role, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: user\_admin or admin
 
 ## About this task
 
-When you assign roles to groups rather than to individual users, members of the group inherit the role. When a user switches groups, the new group role is assigned automatically. For information about the Service Mapping roles, see [Control user access to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/control-user-access-to-business-services.md).
+When you assign roles to groups rather than to individual users, members of the group inherit the role. When a user switches groups, the new group role is assigned automatically. For information about the Service Mapping roles, see [Control user access to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/control-user-access-to-business-services.md).
 
 ## Procedure
 
@@ -37,5 +37,5 @@ When you assign roles to groups rather than to individual users, members of the 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md)
+**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_CreateARole.md)
 

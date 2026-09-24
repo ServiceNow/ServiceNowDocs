@@ -3,9 +3,9 @@ title: Diagnose and resolve an order task
 description: As a customer service agent, review, diagnose, and resolve, and close an order task for the service-related issue experienced by the customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/diagnose-resolve-order-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Order Management diagnostics capability, Integrate, Sales Customer Relationship Management]
 ---
@@ -28,7 +28,7 @@ The order task progresses through several stages from start to closure. It begin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon.
 
@@ -44,7 +44,7 @@ The order task progresses through several stages from start to closure. It begin
 
 6.  Diagnose the order task to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/decision-table.md).
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 

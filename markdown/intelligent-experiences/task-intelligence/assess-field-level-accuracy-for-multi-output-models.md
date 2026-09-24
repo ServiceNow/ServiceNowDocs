@@ -3,13 +3,13 @@ title: Assess field-level accuracy for multi-output models
 description: Evaluate the performance of your model by field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/assess-field-level-accuracy-for-multi-output-models.html
-release: australia
+release: brazil
 product: Task Intelligence
 classification: task-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assess a Task Intelligence model, Manage machine learning models with Task Intelligence, Task Intelligence, Enable AI experiences]
+breadcrumb: [Assess a Task Intelligence model, Manage machine learning models with Task Intelligence, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Assess field-level accuracy for multi-output models
@@ -24,9 +24,9 @@ Role required: admin
 
 After you have created and tested your model, assess its performance to evaluate how well it's predicting what you want it to predict. For multi-output models that predict multiple fields, you may want to assess the performance of each field individually.
 
-If you have not already created a model, see either [Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-cat-solution.md) or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-incident-prediction-model.md) to make one.
+If you have not already created a model, see either [Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-task-intel-create-cat-solution.md) or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-incident-prediction-model.md) to make one.
 
-Your model must be in Monitoring mode. You can set Monitoring mode on the Assess Your Model screen. For more details, see the Set your preferences step in [Create a case field prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-cat-solution.md) or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-incident-prediction-model.md) model.
+Your model must be in Monitoring mode. You can set Monitoring mode on the Assess Your Model screen. For more details, see the Set your preferences step in [Create a case field prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-task-intel-create-cat-solution.md) or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-incident-prediction-model.md) model.
 
 ## Procedure
 
@@ -61,5 +61,5 @@ Your model must be in Monitoring mode. You can set Monitoring mode on the Assess
 
 ## What to do next
 
-If the accuracy of each field is acceptable, transition your model from monitoring mode to real-time predictions and deploy. If the accuracy of a specific field is not acceptable, you can remove that output field from your model, retrain, and deploy. See [Edit a Task Intelligence model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/edit-a-task-intelligence-model.md) for more information on editing your model.
+If the accuracy of each field is acceptable, transition your model from monitoring mode to real-time predictions and deploy. If the accuracy of a specific field is not acceptable, you can remove that output field from your model, retrain, and deploy. See [Edit a Task Intelligence model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/task-intelligence/edit-a-task-intelligence-model.md) for more information on editing your model.
 

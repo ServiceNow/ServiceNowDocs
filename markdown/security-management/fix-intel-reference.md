@@ -3,9 +3,9 @@ title: Fix Intelligence for SEM reference
 description: Reference information about the roles, tables, and other components installed with Fix Intelligence for Security Exposure Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/fix-intel-reference.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [reference]
 breadcrumb: [Fix Intelligence for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
@@ -15,10 +15,8 @@ breadcrumb: [Fix Intelligence for Security Exposure Management, Integrate, Unifi
 
 Reference information about the roles, tables, and other components installed with Fix Intelligence for Security Exposure Management.
 
--   **[Components installed with Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/fix-intel-components-installed.md)**  
+-   **[Components installed with Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/fix-intel-components-installed.md)**  
 Activating the Fix Intelligence for Security Exposure Management plugin \(`sn_vul_fix`\) installs the following tables, role, scripts, automation, and integration components.
--   **[Understanding Fix records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/understanding-fix-records.md)**  
+-   **[Understanding Fix records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/understanding-fix-records.md)**  
 A Fix record represents a single remediation action that resolves one or more findings.
-
-**Parent Topic:**[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/fix-intel-for-usem-landing.md)
 

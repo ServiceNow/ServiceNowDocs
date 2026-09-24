@@ -3,9 +3,9 @@ title: Application picker
 description: The application picker enables application developers to view and select the application scope where their changes apply.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationPicker.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -22,7 +22,7 @@ When your application scope is set to a non-Global scope, the picker icon displa
 
 ## Resources
 
-The application picker is part of the Next Experience picker. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).
+The application picker is part of the Next Experience picker. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-pickers.md).
 
-For more information about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
+For more information about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md).
 

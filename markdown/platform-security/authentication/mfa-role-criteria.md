@@ -3,11 +3,11 @@ title: Configure role-based multi-factor criteria
 description: Use role based multi-factor criteria to enforce Multi-factor authentication for all users assigned to specific roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-role-criteria.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MFA criteria, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
@@ -28,7 +28,7 @@ Role required: adaptive\_auth\_admin
 
 3.  Use the **Multi-factor Roles** list to add or remove roles.
 
-<table id="choicetable_w45_gnx_bpb"><tbody><tr><td id="d32921e85">
+<table id="choicetable_w45_gnx_bpb"><tbody><tr><td id="d34613e85">
 
 **Add a role**
 
@@ -36,7 +36,7 @@ Role required: adaptive\_auth\_admin
 
 Double-click **Insert a new row...** and enter or select a role name. Click the **Save Icon** \(\[Omitted image "save-icon.png"\] Alt text: Save icon\) to save the entry.
 
-</td></tr><tr><td id="d32921e106">
+</td></tr><tr><td id="d34613e106">
 
 **Remove a role**
 

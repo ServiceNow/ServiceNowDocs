@@ -3,9 +3,9 @@ title: Tables installed with Social Benefits Playbook
 description: This section describes the tables installed with the Social Benefits Playbook application and shows how they store and manage information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-sb-playbook-tables.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Social Benefits, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
@@ -137,5 +137,5 @@ Tracks individual social benefit items received by constituents, noting benefit 
 Install Base Item \(sn\_install\_base\_item\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Social Benefits Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-sb-playbook.md)
+</table>**Parent Topic:**[Public Sector Digital Services Social Benefits Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-sb-playbook.md)
 

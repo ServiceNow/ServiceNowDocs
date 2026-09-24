@@ -3,11 +3,11 @@ title: Create consumer users
 description: Clinicians and vaccine agents can create consumer records using the Vaccine Administration Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-create-consumer-user.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage user appointments as a clinician or a vaccine agent, Use Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -37,5 +37,5 @@ Role required: sn\_vaccine\_sm.clinician
     A new information record for the consumer user is created and links to a corresponding patient record, if one exists for the user. The vaccination can be scheduled on behalf of the user. If a patient record doesn’t exist for the user, a new patient record is created and links to the user's information and consumer record.
 
 
-**Parent Topic:**[Manage user appointments as a clinician or a vaccine agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/user-appt-mngt-clinicans-agents.md)
+**Parent Topic:**[Manage user appointments as a clinician or a vaccine agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/user-appt-mngt-clinicans-agents.md)
 

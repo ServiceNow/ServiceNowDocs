@@ -3,11 +3,11 @@ title: RMF step 3 - Implement controls
 description: After you have selected controls for implementation and performed any of the possible actions on them, you can implement the controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/implement-controls.html
-release: australia
+release: brazil
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -34,9 +34,9 @@ The **Controls** related list contains all of the controls created from the cont
 
     For details, see the following:
 
-    -   [Manage controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md)
-    -   [Manage control attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md)
-    -   [Manage control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-indicators-policy-comp.md)
+    -   [Manage controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md)
+    -   [Manage control attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md)
+    -   [Manage control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/manage-indicators-policy-comp.md)
 3.  The **Percentage of controls implemented** field keeps track of your progress while you implement the controls.
 
 4.  After you have completed the implementation process for all controls, select **Assess** to transition the package to the **Assess** state.

@@ -3,11 +3,11 @@ title: Configure the product home page
 description: Track delta changes, over-allocated subscriptions, customizations, and slow execution on the product home page by selecting a product family
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-explore-product-home.html
-release: australia
+release: brazil
 product: Admin Center
 classification: admin-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuration Hub, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -64,5 +64,5 @@ Role required: admin
 
     -   You can make edits in the records directly within Configuration Hub. You don't have to open the records in a conventional way to make edits in them.
 
-**Parent Topic:**[Configuration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-configuration-hub.md)
+**Parent Topic:**[Configuration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-configuration-hub.md)
 

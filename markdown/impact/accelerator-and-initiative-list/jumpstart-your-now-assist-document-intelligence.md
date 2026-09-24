@@ -1,24 +1,24 @@
 ---
-title: Jumpstart Your Now Assist in Document Intelligence
-description: This Accelerator provides a demonstration of the possibilities and capabilities of Now Assist in Document Intelligence.
+title: Jumpstart Your ServiceNow Otto for Document Intelligence
+description: This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow Otto for Document Intelligence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-now-assist-document-intelligence.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# Jumpstart Your Now Assist in Document Intelligence
+# Jumpstart Your ServiceNow Otto for Document Intelligence
 
-This Accelerator provides a demonstration of the possibilities and capabilities of Now Assist in Document Intelligence.
+This Accelerator provides a demonstration of the possibilities and capabilities of ServiceNow Otto for Document Intelligence.
 
 ## Accelerator Overview
 
-Jumpstart Your Now Assist in Document Intelligence \(DocIntel\) provides Impact customers with an overview and applied demonstration of Now Assist in DocIntel functionality. This offering helps customers understand a capability that is central to both AI Agents and Now Assist Skills. It also serves as a valuable resource for developers building custom workflows that involve documents. Additionally, this accelerator includes key resources and leading practice guides to help customers get started.
+Jumpstart Your ServiceNow Otto for Document Intelligence \(DocIntel\) provides Impact customers with an overview and applied demonstration of ServiceNow Otto for DocIntel functionality. This offering helps customers understand a capability that is central to both AI Agents and ServiceNow Otto Skills. It also serves as a valuable resource for developers building custom workflows that involve documents. Additionally, this accelerator includes key resources and leading practice guides to help customers get started.
 
 ## Package Availability
 
@@ -34,17 +34,19 @@ Jumpstart Your Now Assist in Document Intelligence \(DocIntel\) provides Impact 
 
     Includes the following:
 
-    -   Overview of the benefits and impact of Now Assist in DocIntel
+    -   Overview of the benefits and impact of ServiceNow Otto for DocIntel
     -   End-user experience walk-through
     -   Technical demonstration
         -   Configuration overview
         -   Setup
     -   Monitoring results with the Analytics Dashboard
-    -   Temporary instance with 30 days provided access
--   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 60 min\)**
+-   **Customer Coaching Session \#2 \(Optional up on Customer request – up to 60 min\)**
 
-    Opportunity for Q&amp;A related to Now Assist in DocIntel.
+    Opportunity for Q&amp;A related to ServiceNow Otto for DocIntel.
 
+-   **Outputs**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested customer resources
 
@@ -56,15 +58,11 @@ Jumpstart Your Now Assist in Document Intelligence \(DocIntel\) provides Impact 
 |**Developer\(s\)***- Recommended*|Writes code for the ServiceNow platform.| |✓|
 |**Trusted Service Partners***- Recommended*|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
 
-## Requested information/access
+## Requested Information/Access
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/upgrade-schedules.html](https://www.servicenow.com/upgrade-schedules.html)
-
-## Exclusions
-
-This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments or to self-hosted customers.
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
 
-ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

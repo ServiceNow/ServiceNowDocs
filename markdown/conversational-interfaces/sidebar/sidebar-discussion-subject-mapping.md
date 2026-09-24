@@ -3,11 +3,11 @@ title: Sidebar discussion subject mapping
 description: Create a requester mapping to customize what displays in the subject field of a Sidebar conversation. The subject field defaults to the short description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-discussion-subject-mapping.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Sidebar, Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
@@ -89,6 +89,4 @@ Domain
 Domain for the record.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
-
-
+</table>

@@ -3,12 +3,12 @@ title: Create community Terms and Conditions
 description: Community members must follow the community rules of conduct. Create community Terms and Conditions and them share to build a successful community. Every community user must review and accept the Terms and Conditions before contributing to a community.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-terms-conditions.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
 
@@ -19,6 +19,10 @@ Community members must follow the community rules of conduct. Create community T
 ## Before you begin
 
 Role required: sn\_communities.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -38,15 +42,15 @@ You can disable Terms and Conditions using the **sn\_communities.disable\_terms\
 
 2.  Complete one of the following actions to save the Terms and Conditions.
 
-<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d69492e154">
+<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d70890e173">
 
 To
 
-</th><th align="left" id="d69492e157">
+</th><th align="left" id="d70890e176">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d69492e163">
+</th></tr></thead><tbody><tr><td id="d70890e182">
 
 **Submit**
 
@@ -54,7 +58,7 @@ Do this
 
 Click **Submit** to save your Terms and Conditions.
 
-</td></tr><tr><td id="d69492e175">
+</td></tr><tr><td id="d70890e194">
 
 **Activate**
 
@@ -70,7 +74,7 @@ Click **Submit** to save your Terms and Conditions.
 </table>    You can view which community users have accepted the Terms and Conditions and when. Navigate to **Community** &gt; **User Profile** &gt; **Community Profiles**. View or add, if necessary, the **Accepted TC**, **Accepted TC Date**, and **Accepted TC Number** fields.
 
 
-**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 

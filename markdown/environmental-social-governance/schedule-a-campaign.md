@@ -3,7 +3,7 @@ title: Schedule a campaign
 description: Set the schedule for a campaign to control when data collection starts, when the next cycle begins, and when submissions are due.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/schedule-a-campaign.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 1
@@ -17,7 +17,7 @@ Set the schedule for a campaign to control when data collection starts, when the
 
 ## Before you begin
 
--   The campaign must exist. For more information, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-campaign.md).
+-   The campaign must exist. For more information, see [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-campaign.md).
 -   Role required: sn\_grc\_metric.manager
 
 ## Procedure
@@ -48,5 +48,5 @@ Set the schedule for a campaign to control when data collection starts, when the
 
 Each campaign cycle generated for the campaign uses these schedule settings. Changes to **Due date offset** apply to cycles generated after the change.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-grc-metrics.md)
 

@@ -3,11 +3,11 @@ title: Non-Interactive activities
 description: A non-interactive activity runs entirely behind-the-scenes on the ServiceNow AI Platform and doesn't require any user input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/non-interactive-activities.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -24,5 +24,5 @@ When non-interactive activities run, they automatically proceed to completion or
 
 Non-interactive activities turn into activity cards that are collapsed and marked complete in a playbook. The playbook continues running without any input from the playbook agent.
 
-To learn how to design a playbook with non-interactive activities, see [design an automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-automated-process.md).
+To learn how to design a playbook with non-interactive activities, see [design an automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/design-automated-process.md).
 

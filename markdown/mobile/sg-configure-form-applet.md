@@ -3,9 +3,9 @@ title: Configure a record screen for use with a list screen
 description: Use a record screen as part of a list so that your users can see the details of a record from their mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-configure-form-applet.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [List screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -86,7 +86,7 @@ Settings that determine when data is loaded in your screens. Select from the fol
 -   **Background**: The app makes a background network request to load embedded screens or record screen segments.
 -   **Dynamic prefetch**: Screens for the first 10 rows load as described for the **Prefetch** fetch type. After the 10 first rows load, additional rows of screens load with the **On-demand** fetch type.
 -   **On-demand**: The app sends a network request to load the app only when end users navigate to it.
- For more information about fetch types, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/applet-fetch-types.md).
+ For more information about fetch types, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/applet-fetch-types.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ View using \(Legacy Card/Card\)
 
 </td><td>
 
-A Card used for the header section of the record screen. Use the Mobile Card Builder to change the appearance of your mobile card or the fields displayed on the card. For more detail on using the Mobile Card Builder, see [Configure a record screen for use with a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-form-applet.md).The best practice is using **Card**.
+A Card used for the header section of the record screen. Use the Mobile Card Builder to change the appearance of your mobile card or the fields displayed on the card. For more detail on using the Mobile Card Builder, see [Configure a record screen for use with a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-configure-form-applet.md).The best practice is using **Card**.
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ UI parameters
 
 </td><td>
 
-UI parameters are variables that affect how a field or UI element behaves. Use UI parameters to determine how a value can be entered or whether it is automatically populated for the UI element based on the end user's action. Select an existing UI parameter or select **New** to add one. For more information about adding a UI parameter, see [Configure a parameterized record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-param-form-applet.md).
+UI parameters are variables that affect how a field or UI element behaves. Use UI parameters to determine how a value can be entered or whether it is automatically populated for the UI element based on the end user's action. Select an existing UI parameter or select **New** to add one. For more information about adding a UI parameter, see [Configure a parameterized record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-param-form-applet.md).
 
 </td></tr><tr><td>
 
@@ -219,7 +219,7 @@ Allows you to create an element and map it to a UI parameter. Use it to pass a v
 
 11. Under **Card template**, either select **Choose** to use an existing card template, or select **New** to create a new one.
 
-    Card templates can be customized further in Mobile Card Builder. For more information see [Customize a screen using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-customize-item-view.md).
+    Card templates can be customized further in Mobile Card Builder. For more information see [Customize a screen using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mcb-customize-item-view.md).
 
     **Note:**
 
@@ -227,7 +227,7 @@ Allows you to create an element and map it to a UI parameter. Use it to pass a v
 
 12. Configure an activity stream screen for your record.
 
-    For details on adding an activity stream, see [Configure an activity stream screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-activity-stream.md).
+    For details on adding an activity stream, see [Configure an activity stream screen for a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-activity-stream.md).
 
 13. Select **Save**.
 

@@ -3,14 +3,14 @@ title: Manage alerts autonomously agentic workflow
 description: Enhance IT operations with AI-driven, autonomous alert management using the manage alerts autonomously agentic workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/itom-autonomous-operator-workflow.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Manage alerts autonomously agentic workflow
@@ -26,11 +26,11 @@ The manage alerts autonomously workflow introduces a unified AI-driven process t
 -   Root cause investigation of IT alerts
 -   Generates reports, summarizes key insights and possible next steps
 
-For information on how to review key insights and data derived from the workflow in Express List, see [Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/use-ai-insights-express-list.md).
+For information on how to review key insights and data derived from the workflow in Express List, see [Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/use-ai-insights-express-list.md).
 
-For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md).
+For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md).
 
-Use the information on this page to learn about the actions related to the manage alerts autonomously agentic workflow. To modify the workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
+Use the information on this page to learn about the actions related to the manage alerts autonomously agentic workflow. To modify the workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -68,8 +68,8 @@ The manage alerts autonomously agentic workflow performs several actions in the 
     -   Generates a final summary
     -   Saves the summaries in the alert record, such as
         -   reasoning, evidence, and confidence level behind AI-driven investigation of alert significance and automatic closure of insignificant alerts, and
-        -   summaries of Service Observability dashboards to provide health analysis of each service associated with an alert. For more information see, [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/analyze-service-health-in-service-observability.md).
+        -   summaries of Service Observability dashboards to provide health analysis of each service associated with an alert. For more information see, [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/analyze-service-health-in-service-observability.md).
     -   Provides clear, actionable insights
 
-**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 

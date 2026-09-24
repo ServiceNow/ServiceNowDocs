@@ -3,11 +3,11 @@ title: Property value for digital signature using CAC or PIV smart cards
 description: Specify the method that will be used to identify and validate the user who has signed the PDF using the com.snc.pdfsigning.validation.method property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/property-value-cac-piv-signing.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a document template for signing documents, Digital signature for PDF documents using CAC or PIV smart cards, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,5 +25,5 @@ The property value **com.snc.pdfsigning.validation.method** is used for identify
 |any \(default value\)|Utilizes both of the above validation methods to resolve a user.|
 |ignore|No user validation is performed on the signing fields.|
 
-**Parent Topic:**[Set up a document template for signing documents using a CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-document-template.md)
+**Parent Topic:**[Set up a document template for signing documents using a CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/create-document-template.md)
 

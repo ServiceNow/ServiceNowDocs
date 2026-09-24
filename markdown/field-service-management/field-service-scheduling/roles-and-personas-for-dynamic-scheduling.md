@@ -3,11 +3,11 @@ title: Roles and personas required for Dynamic Scheduling
 description: Key responsibilities of individuals involved in optimizing task assignments and resource management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/roles-and-personas-for-dynamic-scheduling.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -27,5 +27,5 @@ The following personas and roles can implement and control access to dynamic sch
 **Related topics**  
 
 
-[Set up Dynamic Scheduling as scheduling mechanism](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dynamic-sched-config-field-service.md)
+[Set up Dynamic Scheduling as scheduling mechanism](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/dynamic-sched-config-field-service.md)
 

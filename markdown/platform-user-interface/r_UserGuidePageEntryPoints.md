@@ -3,9 +3,9 @@ title: User guide help URLs
 description: You can create entry points in your instance for help generated with the system user guide by providing the correct address parameters in the target URL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_UserGuidePageEntryPoints.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System user guide, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [System user guide, User interface configuration, Working in Core UI
 
 You can create entry points in your instance for help generated with the system user guide by providing the correct address parameters in the target URL.
 
-Help pages generated with the user guide can be displayed to end users from configurable entry points in the system, including application modules and [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md). To create these entry points, you must express a target URL using these parameters:
+Help pages generated with the user guide can be displayed to end users from configurable entry points in the system, including application modules and [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UIActions.md). To create these entry points, you must express a target URL using these parameters:
 
 |Parameter|Provides|
 |---------|--------|
@@ -23,5 +23,5 @@ Help pages generated with the user guide can be displayed to end users from conf
 |$h.do?sysparm\_id=basics|Displays the basic help page included with the system. To create a target for a custom user guide, replace **id=basic** with the ID for your custom page, such as **id=surveys**. An example of this would be `https://myinstance.service-now.com/$h.do?sysparm_id=surveys`.|
 |$h.do?sysparm\_doc=&lt;document number&gt;|Displays help for a specific document. This URL displays the help document in the basic page that provides instructions for using ServiceNow forms: `https://myinstance.service-now.com/$h.do?sysparm_doc=DOC0010005`.|
 
-**Parent Topic:**[System user guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_SystemUserGuide.md)
+**Parent Topic:**[System user guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_SystemUserGuide.md)
 

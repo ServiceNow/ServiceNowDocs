@@ -3,11 +3,11 @@ title: Create MID Server profiles
 description: Create a MID Server profile to configure MID Server settings, such as JVM memory, from your ServiceNow instance. MID Server profiles are available starting with the Zurich release and apply to all MID Server types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/create-mid-server-profiles.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create MID Server profile, MID Server profiles, MID Server configuration]
 breadcrumb: [MID Server profiles, Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
@@ -48,7 +48,7 @@ Role required: agent\_admin
 
     **Tip:** To verify the JVM memory change was applied, check the `wrapper.log` file on the MID Server host and verify the `-Xmx` value matches your configured parameter.
 
-    For more information on the tables available for configuration, see [MID Server profile configuration data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-profile-configuration-data.md).
+    For more information on the tables available for configuration, see [MID Server profile configuration data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-profile-configuration-data.md).
 
 8.  Select **Submit**.
 
@@ -61,5 +61,5 @@ Role required: agent\_admin
 
 ## What to do next
 
-After creating the profile and setting its parameters, configure the MID Servers to use it. See [Configure MID Servers using profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/configure-mid-server-profile.md).
+After creating the profile and setting its parameters, configure the MID Servers to use it. See [Configure MID Servers using profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/configure-mid-server-profile.md).
 

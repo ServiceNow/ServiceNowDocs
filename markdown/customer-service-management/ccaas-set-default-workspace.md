@@ -3,9 +3,9 @@ title: Set default workspace for CCaaS
 description: Configure and set a default workspace for contact center agents to let them navigate back to a workspace integrated with Interaction Controls Component \(ICC\), from any other unsupported workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ccaas-set-default-workspace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure Voice, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -23,8 +23,6 @@ Promote the Interaction Controls Component \(ICC\) plugin \(com.app\_interaction
 Role required: **admin**
 
 Configure the default workspace via OpenFrame within your ServiceNow instance as follows.
-
-**Note:** Prerequisite for CCaaS callbacks: Verify that agents are configured through their contact center integration to receive callbacks and access the ServiceNow Workspace. Agent profiles are synced automatically when agents log in through the contact center connector in OpenFrame. For example, an agent must be able to log in to both the contact center and ServiceNow workspace. The agent presence state must match between both systems, as callbacks only route to available agents. In some cases, the state "available" might be labeled differently in the contact center, such as "on queue." Presence mismatches can prevent agents from receiving callbacks.
 
 ## Procedure
 

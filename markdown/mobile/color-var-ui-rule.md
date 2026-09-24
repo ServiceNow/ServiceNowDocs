@@ -3,9 +3,9 @@ title: Color variable support for UI rules
 description: Learn how to use color variables to change theming in your mobile UI rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-ui-rule.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Color theme considerations, Configure theming, Next Experience theming, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -25,7 +25,7 @@ Use the following color variables in the **Value** field of your UI rules with t
 
  `{“BackgroundColorVariable”: “--now-color-secondary-3", “BackgroundColor”: “#3f2c11”}`
 
- For details on creating these UI rule actions, see [Create a mobile UI rule action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mobile-ui-rule-action.md).
+ For details on creating these UI rule actions, see [Create a mobile UI rule action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/create-mobile-ui-rule-action.md).
 
 </td><td>
 

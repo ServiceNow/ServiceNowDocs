@@ -3,11 +3,11 @@ title: Assign a moderation task to your assignment group
 description: Change the assignment group to assign a moderation task to your assignment group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/assign-moderation-task-assignment-group.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Moderate a community, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Change the assignment group to assign a moderation task to your assignment group
 ## Before you begin
 
 Role required: assignment\_rule\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -35,5 +39,5 @@ A moderation task is generated when a community user reports inappropriate conte
 4.  Select **Update**.
 
 
-**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/moderate-communities.md)
 

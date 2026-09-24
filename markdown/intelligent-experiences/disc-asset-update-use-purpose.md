@@ -3,12 +3,12 @@ title: Update the use and purpose of an AI asset
 description: Update the use and purpose values for an AI asset when its operating characteristics or business outcome change so that risk classifications and governance controls continue to reflect how the asset behaves.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/disc-asset-update-use-purpose.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI asset, use and purpose, system autonomy, human involvement, interaction type, intended outcome]
-breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Update the use and purpose of an AI asset
@@ -37,7 +37,7 @@ Use and purpose values describe how an AI system operates and what outcome it pr
 
     For example, an AI system that previously required user approval before acting has been reconfigured to act on its own. In this case, change **System autonomy level** from **Semi-Automated \(acts with confirmation\)** to **Fully Automated Execution**, and change **Level of human involvement** from **AI-Initiated with User Approval** to **Fully Automated Workflow**.
 
-    For a description of the fields and their values, see [Use and purpose fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-asset-use-purpose-fields.md).
+    For a description of the fields and their values, see [Use and purpose fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-asset-use-purpose-fields.md).
 
 5.  Select the check icon to save your changes.
 
@@ -50,5 +50,5 @@ The updated values appear in the **Use and purpose** section and are referenced 
 
 If the change affects how the asset operates, review the controls and governance assignments that depend on these values to confirm they still apply.
 
-**Parent Topic:**[Managing AI asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-ai-asset-details.md)
+**Parent Topic:**[Managing AI asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-ai-asset-details.md)
 

@@ -3,11 +3,11 @@ title: Certificate Inventory and Management roles and responsibilities
 description: Dedicated users with specialized roles are assigned to optimize the monitoring and tracking of requests for new and renewing certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-inventory-mgmt-user-roles.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---

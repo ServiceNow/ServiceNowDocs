@@ -3,11 +3,11 @@ title: Use the Script Execution History module to roll back a Scripts-Background
 description: You can roll back the database actions of a script executed using the Scripts-Background module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/background-script-recovery.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Roll back and delete recovery, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -35,5 +35,5 @@ If you are still in the **Scripts-Background** module after executing a script, 
 3.  In the **Related Links**, click **Rollback Script Execution**.
 
 
-**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
+**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
 

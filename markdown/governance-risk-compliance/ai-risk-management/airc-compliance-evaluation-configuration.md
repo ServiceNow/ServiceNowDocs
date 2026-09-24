@@ -3,13 +3,13 @@ title: Create a compliance evaluation configuration
 description: Create a compliance evaluation configuration that defines which AI systems, control objectives, metrics, and schedule a compliance evaluation applies to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-compliance-evaluation-configuration.html
-release: australia
+release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-07-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Create a compliance evaluation configuration
@@ -210,5 +210,5 @@ The metric, operator, and threshold value that determine when a control is evalu
 
 ## What to do next
 
-The compliance evaluation configuration is ready to be mapped to one or more AI systems. For information on mapping an evaluation configuration to AI systems, see [Use a compliance evaluation on an AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-use-compliance-evaluation-ai-system.md).
+The compliance evaluation configuration is ready to be mapped to one or more AI systems. For information on mapping an evaluation configuration to AI systems, see [Use a compliance evaluation on an AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-use-compliance-evaluation-ai-system.md).
 

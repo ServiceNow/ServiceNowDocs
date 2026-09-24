@@ -3,11 +3,11 @@ title: Domain separation and Health Log Analytics
 description: Domain separation is supported for Health Log Analytics. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-domain-separation.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -26,7 +26,7 @@ Domain separation is supported for Health Log Analytics. Domain separation enabl
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Domain separation and Health Log Analytics overview
 
@@ -34,7 +34,11 @@ Domain separation is present in all aspects of the Health Log Analytics applicat
 
 ## How domain separation works in Health Log Analytics
 
-When data is domain separated using a single Health Log Analytics server, each Managed Service Provider \(MSP\) can see log data only in its own domain or child domains. Users can view alerts that Health Log Analytics generates only in their own domain. Actions to remediate the alerts apply only for the scope of that domain. By default, all users and records are set to the parent domain. The admin can assign them to a specific domain.
+When data is domain separated using a single Health Log Analytics server, each Managed Service Provider \(MSP\) can see log data only in its own domain. MSPs can also see data in child domains below their domain.
+
+Each MSP can view alerts that Health Log Analytics generates only in their domain. Actions to remediate the alerts apply only for the scope of that domain.
+
+By default, all users and records are set to the parent domain. The admin can assign them to a specific domain.
 
 The Health Log Analytics Domain Separation plugin must be installed before you configure your data inputs in the Health Log Analytics application. There is no setup procedure for the plugin. Install the plugin with the Health Log Analytics application Version 21.0.1 - September 2021, and then activate it. Make sure that you map your data into logical silos and configure rules and entities.
 
@@ -55,10 +59,10 @@ Using domain separation in your instance is transparent to Health Log Analytics.
 -   An operator in a tenant organization wants to provide feedback for alerts only in their own domain​.
 -   An MSP Admin wants to view log data from all of their organization's tenant domains.
 
-**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

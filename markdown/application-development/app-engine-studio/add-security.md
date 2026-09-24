@@ -3,13 +3,13 @@ title: Add application security
 description: Control who is permitted to use or edit your application by configuring roles in App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-security.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Add application security
@@ -55,14 +55,14 @@ App Engine Studio includes default roles that you can use for your application.
 \[Omitted image "bus-application-developer.svg"\] Alt text: [Elevating Privileges - ServiceNow Developers site](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_aescreateappfromscratch_vancouver_create_an_app_from_scratch_with_app_engine_studio/app_store_learnv2_aescreateappfromscratch_vancouver_secure_apps_and_data/app_store_learnv2_aescreateappfromscratch_vancouver_elevating_privileges)
 
 </td></tr></tbody>
-</table>-   **[Build a new role for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-create-role.md)**  
+</table>-   **[Build a new role for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-create-role.md)**  
 Create a custom role for your application in App Engine Studio \(AES\).
--   **[Use an existing role for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-existing-role.md)**  
+-   **[Use an existing role for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-existing-role.md)**  
 Use a previously created role for your application in App Engine Studio \(AES\).
--   **[Change access settings for a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-role.md)**  
+-   **[Change access settings for a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/edit-role.md)**  
 Control the application permissions for a role in App Engine Studio \(AES\).
--   **[Delete a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/delete-role.md)**  
+-   **[Delete a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/delete-role.md)**  
 Delete a role that you no longer need in App Engine Studio \(AES\).
 
-**Parent Topic:**[Enhance your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/customize-application.md)
+**Parent Topic:**[Enhance your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/customize-application.md)
 

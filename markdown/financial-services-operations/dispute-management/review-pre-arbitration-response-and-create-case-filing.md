@@ -3,11 +3,11 @@ title: Review the pre-arbitration response and create a case filing
 description: Review the merchant’s response to the pre-arbitration and create a case filing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-pre-arbitration-response-and-create-case-filing.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -48,19 +48,19 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
     You can also view the merchant response as an attachment in the activity stream.
 
-    **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+    **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 8.  In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d127410e218">
+<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d129154e218">
 
 Selection
 
-</th><th align="left" id="d127410e221">
+</th><th align="left" id="d129154e221">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d127410e227">
+</th></tr></thead><tbody><tr><td id="d129154e227">
 
 **Unresolved**
 
@@ -73,7 +73,7 @@ the field **Do you want to create case filing?** is displayed.1.  Create a case 
 5.  Select **Submit dispute filing**.
 
 
-</td></tr><tr><td id="d127410e273">
+</td></tr><tr><td id="d129154e273">
 
 **Resolved**
 
@@ -94,5 +94,5 @@ Retrieve the letter by selecting `Get acknowledgement letter`. The letter can be
 1.  After a decision by Visa is available, you can access it by selecting **Get case filing response**.
 2.  The task is automatically closed and the **Review case filing response** task and appeal are available.
 
-**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

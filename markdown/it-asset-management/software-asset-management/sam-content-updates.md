@@ -3,13 +3,13 @@ title: Content updates for Software Asset Management
 description: The Software Asset Management Content Service provides content updates to your instance twice every week that you can use to normalize your data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-content-updates.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management Content Service, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management Content Service, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Content updates for Software Asset Management
@@ -50,7 +50,7 @@ To see the changes that have been made to the software library, review the SAM C
 
 **Note:** Content updates don't have an impact on any custom products or custom discovery maps.
 
-For more information on how to send your content to ServiceNow, see [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_EnableSAMContentService.md).
+For more information on how to send your content to ServiceNow, see [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_EnableSAMContentService.md).
 
-**Parent Topic:**[Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMContentService.md)
+**Parent Topic:**[Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMContentService.md)
 

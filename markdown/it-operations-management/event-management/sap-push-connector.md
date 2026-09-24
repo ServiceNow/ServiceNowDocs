@@ -3,11 +3,11 @@ title: Use the SAP Solution Manager Push connector
 description: The MID Server web service Event Collector enables you to collect alerts sent from the SAP Solution Manager through event stream notification capabilities. The interface runs both a Push and a Pull interface to interact directly with the SAP Solution Manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/sap-push-connector.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enable SAP connector configurations, Configure SAP Solution Manager connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Role required: evt\_mgmt\_admin
 
 SAP Solution Manager sends JSON formatted event messages to the MID Server. The MID Server parses the collected alert messages and transforms them using the SAP Solman Transform \[**TransformEvents\_SAPSolman**\] script.
 
-JSON formatted messages are collected using basic authentication. For details on other supported authentication methods, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
+JSON formatted messages are collected using basic authentication. For details on other supported authentication methods, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 ## Procedure
 
@@ -45,16 +45,16 @@ JSON formatted messages are collected using basic authentication. For details on
 
 ## What to do next
 
-Create an Remote Function Call \(RFC\) in the SAP Solution Manager and install a transport, as described in [Configure RFC in SAP Solution Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-sap-solution-mgr.md).
+Create an Remote Function Call \(RFC\) in the SAP Solution Manager and install a transport, as described in [Configure RFC in SAP Solution Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-sap-solution-mgr.md).
 
-**Parent Topic:**[SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-manager-connector.md)
+**Parent Topic:**[SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/sap-manager-connector.md)
 
 **Related topics**  
 
 
-[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerConfiguration.md)
+[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerConfiguration.md)
 
-[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
+[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
 
-[Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-em-context-extension.md)
+[Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-em-context-extension.md)
 

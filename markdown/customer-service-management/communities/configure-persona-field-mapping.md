@@ -3,11 +3,11 @@ title: Configure persona field mapping for the community profile
 description: Configure which fields appear in the community profile and manage the settings associated with those fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/configure-persona-field-mapping.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the community profile, Configuring communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Configure which fields appear in the community profile and manage the settings a
 ## Before you begin
 
 Role required: sn\_communities.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -108,5 +112,5 @@ Privacy default setting for the field. It shows the field for the selected group
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Configure the community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-community-profile.md)
+**Parent Topic:**[Configure the community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/configure-community-profile.md)
 

@@ -3,11 +3,11 @@ title: List and Related List
 description: Validate the functionality and visibility of records and UI actions in lists and related lists.Validate the visibility of the selected related lists on a form.Apply a filter to a list to find the required record.Validate the presence of a record in a list. A valid form must be open and the list containing the record must be visible to proceed.Open a specific record in a list.Validate that a UI action is visible in a list. If you're impersonating a user, the visibility of a UI action can change depending on the user being impersonated.Select a list UI action in a list on a form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-list-related-list.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Te
 
 Validate the functionality and visibility of records and UI actions in lists and related lists.
 
-Test Agent can now generate ATF tests that use List and Related List test steps, extending test coverage beyond form interactions to include list view operations such as validating visibility and applying filters. See [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-landing-page.md) for more information.
+Test Agent can now generate ATF tests that use List and Related List test steps, extending test coverage beyond form interactions to include list view operations such as validating visibility and applying filters. See [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-landing-page.md) for more information.
 
 Consider the following while creating the tests:
 

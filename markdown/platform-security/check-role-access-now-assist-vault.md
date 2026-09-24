@@ -3,9 +3,9 @@ title: Check role access for an encrypted column with ServiceNow Otto for Vault
 description: Use the check role access for encrypted column skill to identify user roles that have access to encryption and decryption keys in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/check-role-access-now-assist-vault.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use generative AI skills, ServiceNow Vault]
 ---
@@ -16,10 +16,12 @@ Use the check role access for encrypted column skill to identify user roles that
 
 ## Before you begin
 
--   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-servicenow-vault.md).
--   Ensure that the check role access for encrypted column skill is active. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+-   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-servicenow-vault.md).
+-   Ensure that the check role access for encrypted column skill is active. For more information, see .
 
-Role required: sn\_vault\_console.vault\_console\_admin
+Roles required: sn\_vault\_console.vault\_console\_admin and security\_admin
+
+**Note:** The `security_admin` role isn't included in the `sn_vault_console.vault_console_admin` role composition and doesn't appear in the Elevate role list. A user with the admin role must assign it through the standard user-administration process. If the skill reports that you don't have the `security_admin` role, or that the role isn't active for your session, contact your admin. For more information, see [ServiceNow Vault roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-roles.md).
 
 ## Procedure
 
@@ -30,5 +32,5 @@ Role required: sn\_vault\_console.vault\_console\_admin
     Example prompt: `Which roles have decryption key access to an encrypted column? Access includes read access.`
 
 
-**Parent Topic:**[Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md)
+**Parent Topic:**[Use generative AI skills in ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/using-now-assist-vault.md)
 

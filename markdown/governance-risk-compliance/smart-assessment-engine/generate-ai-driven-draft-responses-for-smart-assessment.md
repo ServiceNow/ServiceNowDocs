@@ -3,11 +3,11 @@ title: Generate AI-driven draft responses for smart assessment
 description: In Smart Assessment Engine, use generative AI to create draft responses for assessment questions by analyzing context and using previously answered similar questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/generate-ai-driven-draft-responses-for-smart-assessment.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use generative AI skills, ServiceNow Otto for SAE, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ In Smart Assessment Engine, use generative AI to create draft responses for asse
 
 Role required: sn\_smart\_asmt.actor
 
-The **Is AI response enabled** option must be selected on the template category that the assessment is created from. For configuration details, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+The **Is AI response enabled** option must be selected on the template category that the assessment is created from. For configuration details, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
 ## About this task
 
@@ -58,7 +58,7 @@ When you’re assigned to a task to respond to an assessment, you submit your re
 
     -   To use a document that is not in the list, upload it as an attachment to the assessment and it will appear as an available option.
     -   You can select up to 5 documents per assessment. Each document must be in PDF, DOCX, JPEG, or PNG format and can be up to 20 MB and 200 pages.
-    -   For supported document types and file size limits, see [Limitations in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-document-intelligence-limitations.md).
+    -   For supported document types and file size limits, see the Now Assist Document Intelligence limitations documentation.
     -   The sources you select are final. After you generate draft responses, you can't change the selected sources or run the AI feature again for this assessment. Review your selections carefully before continuing.
 5.  Review the AI‑generated suggestions and select **View sources** to view the source details
 

@@ -3,14 +3,14 @@ title: Define document sharing permissions
 description: Controls who can view, edit, or manage a document using the Document Management system in Third-party Risk Management \(TPRM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-doc-share-permissions.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [TPRM, document permissions, sharing permissions, access control]
-breadcrumb: [DMS system, Third-party Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Use the Document Management System, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Define document sharing permissions

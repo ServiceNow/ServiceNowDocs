@@ -3,11 +3,11 @@ title: Data Discovery policies
 description: Use Data Discovery policies to scan specific tables and enable column based jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/data-discovery-policies.html
-release: australia
+release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
@@ -20,5 +20,5 @@ Data Discovery policies allow you to have fine-grained control over defining spe
 
 **Note:** If no columns are selected for a policy, all columns of the target table will be scanned
 
-See [Create a Data Discovery policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/create-a-data-discovery-policy.md) to learn how to create a Data Discovery policy.
+See [Create a Data Discovery policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-discovery/create-a-data-discovery-policy.md) to learn how to create a Data Discovery policy.
 

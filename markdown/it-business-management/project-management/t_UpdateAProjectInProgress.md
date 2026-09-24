@@ -3,11 +3,11 @@ title: Update a project
 description: Update the project and make adjustments in fields to handle scope, cost, and schedule. While a project is underway, keep actual values as current as possible. Continue to measure actual values, analyze the impact of any potential project risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_UpdateAProjectInProgress.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -44,10 +44,10 @@ Role required: it\_project\_manager
 3.  Select **Update** to save the record.
 
 
--   **[Track project comments and collaborate with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_TrackProjCommentsCollabStake.md)**  
+-   **[Track project comments and collaborate with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_TrackProjCommentsCollabStake.md)**  
 When a project is in progress, you can take advantage of two platform features that help project participants interact and collaborate: journal fields and live feed. Two useful journal fields are Comments and Work notes.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -69,6 +69,10 @@ When a project is in progress, you can take advantage of two platform features t
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Copy a project]()
 
@@ -96,5 +100,5 @@ When a project is in progress, you can take advantage of two platform features t
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Track project comments and collaborate with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_TrackProjCommentsCollabStake.md)
+[Track project comments and collaborate with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_TrackProjCommentsCollabStake.md)
 

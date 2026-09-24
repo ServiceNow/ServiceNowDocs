@@ -3,11 +3,11 @@ title: Roll up of MITRE technique associations
 description: Roll up of MITRE technique associations from observables, indicators, objects, and security incidents which are linked or unlinked from a case record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-mitre-roll-up.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating cases using Threat Analyst Workbench, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_sec\_tisc.analyst
 
 -   Whenever any entity such as an observable or indicator is linked to any case, then all the MITRE technique associations that are present for that entity are automatically rolled up to the case.
 -   Whenever any entity such as an observable or indicator is unlinked and removed from the case, then all the MITRE technique associations which are rolled up from the case that are present for that entity will be removed automatically and rolled up to the case.
--   Only the technique associations that come from tactic and technique pairs that MITRE currently maps are rolled up. A pair that MITRE has stopped mapping is excluded from the roll-up, so the technique count on the case reflects only the mappings that MITRE currently publishes. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
+-   Only the technique associations that come from tactic and technique pairs that MITRE currently maps are rolled up. A pair that MITRE has stopped mapping is excluded from the roll-up, so the technique count on the case reflects only the mappings that MITRE currently publishes. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
 
 ## Procedure
 
@@ -61,5 +61,5 @@ Role required: sn\_sec\_tisc.analyst
     After you unlink the observables to a case then the MITRE techniques associated for that particular observable are automatically removed and the MITRE techniques list count under the artifacts section is automatically updated.
 
 
-**Parent Topic:**[Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md)
+**Parent Topic:**[Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md)
 

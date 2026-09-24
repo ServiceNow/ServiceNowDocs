@@ -3,9 +3,9 @@ title: Import logs
 description: The import log displays information in a verbose format about any data import activity within the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_ImportLogs.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System logs, Logs, Platform Security]
 ---

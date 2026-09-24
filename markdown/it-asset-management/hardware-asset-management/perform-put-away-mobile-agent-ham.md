@@ -3,11 +3,11 @@ title: Put away assets using the ServiceNow Agent application
 description: Scan available assets in the inventory and perform an asset put away task in the designated scanned drop-off location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/perform-put-away-mobile-agent-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [asset put away task, put away asset]
 breadcrumb: [Manage asset put away using the ServiceNow Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
@@ -53,5 +53,5 @@ The inventory user can scan the available assets in the inventory and put them a
 
 A confirmation message appears on the mobile screen showing the number of put away tasks closed.
 
-**Parent Topic:**[Manage asset put away using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.md)
+**Parent Topic:**[Manage asset put away using the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-hardware-asset-put-away-ham-mobile-agent.md)
 

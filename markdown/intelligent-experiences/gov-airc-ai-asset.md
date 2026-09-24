@@ -3,11 +3,11 @@ title: Governing AI asset risk and compliance
 description: Get a consolidated view of your AI asset's regulatory risk classification, compliance posture, control effectiveness metrics, and governance artifacts from the Risk &amp; compliance tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-ai-asset.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Governing AI asset risk and compliance
@@ -16,7 +16,7 @@ Get a consolidated view of your AI asset's regulatory risk classification, compl
 
 When you open an AI asset record, the Risk &amp; compliance tab provides a consolidated view of regulatory risk classification, compliance posture, control effectiveness metrics, and associated governance tasks.
 
-\[Omitted image "aict-govern-asset-page-risk-compliance.png"\] Alt text: Risk and Compliance tab showing regulatory risk classification, compliance posture, aggregated risk rating, risk heat map, and governance sections.
+\[Omitted image "image.aict-govern-asset-page-risk-compliance"\] Alt text: Risk and Compliance tab showing regulatory risk classification, compliance posture, aggregated risk rating, risk heat map, and governance sections.
 
 The following table describes each section of the Risk &amp; Compliance Asset page.
 
@@ -42,7 +42,7 @@ Regulatory risk classification
 
 </td><td>
 
-Regulatory risk classification of the asset in the portfolio. For more information, see [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-regulatory-status.md)
+Regulatory risk classification of the asset in the portfolio. For more information, see [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-regulatory-status.md)
 
 </td><td>
 
@@ -82,7 +82,7 @@ Compliance posture for priority frameworks
 -   Compliance scores for AI assets compared to adopted frameworks and policies.
 -   Compliance status for priority frameworks showing the number of compliant and non-compliant controls associated with the AI asset. The progress indicator shows compliant and non-compliant controls and displays an alert badge for high priority issues. Toggle between Authority documents and Policies to view detailed information.
 
-For more information, see [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-regulatory-status.md)
+For more information, see [Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-regulatory-status.md)
 
 </td><td>
 
@@ -153,7 +153,7 @@ Governance
 
 </td><td>
 
-Risk assessments, controls, compliance tasks, and related governance artifacts for the AI asset. Governance-related items are organized into categories with expandable subsections. Select an artifact to open it in the AI Control Tower workspace. For more information, see[Governing AI asset risk and compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-airc-ai-asset.md).
+Risk assessments, controls, compliance tasks, and related governance artifacts for the AI asset. Governance-related items are organized into categories with expandable subsections. Select an artifact to open it in the AI Control Tower workspace. For more information, see[Governing AI asset risk and compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-ai-asset.md).
 
 </td><td>
 
@@ -164,5 +164,5 @@ NA
 sn\_ai\_governance.ai\_steward
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/disc-managing-ai-assets.md)
+</table>**Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-managing-ai-assets.md)
 

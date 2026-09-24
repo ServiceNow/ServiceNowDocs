@@ -3,9 +3,9 @@ title: Application menu options for BCM users
 description: The table lists the application menu options that are available for the main users of the business continuity management application to view and navigate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/app-menu-views-bcm-viewers.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup by system administrators, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,11 +16,11 @@ The table lists the application menu options that are available for the main use
 
 ## BCM application menu options
 
-For detailed information on user roles, see [Roles installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/installed-with-bcm.md) table.
+For detailed information on user roles, see [Roles installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/installed-with-bcm.md) table.
 
 <table id="table_tnn_nvs_kmb"><tbody><tr><td>
 
-
+\[Omitted image "BCMSysAdmin.png"\] Alt text: BCM administrator
 
 </td><td>
 
@@ -38,7 +38,7 @@ As a BCM administrator, you can access all menu options from the Business Contin
 
 </td></tr><tr><td>
 
- 
+\[Omitted image "ProgramManager.png"\] Alt text: BCM program manager
 
 </td><td>
 
@@ -53,7 +53,7 @@ As a BCM program manager you can view and access the menu options:-   Business C
 
 </td></tr><tr><td>
 
- 
+\[Omitted image "BCMPlanner.png"\] Alt text: BCM planner
 
 </td><td>
 
@@ -68,7 +68,7 @@ As a BCM planner you can view and access the menu options:-   Business Continuit
 
 </td></tr><tr><td>
 
- 
+\[Omitted image "Viewer.png"\] Alt text: BCM viewer
 
 </td><td>
 
@@ -79,5 +79,5 @@ BCM viewer
 To view the workspace: **Business Continuity** &gt; **Business Continuity Workspace**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)
+</table>**Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)
 

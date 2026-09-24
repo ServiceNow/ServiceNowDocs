@@ -3,11 +3,11 @@ title: Configure event collection for SNMP traps
 description: The SNMP listener runs on the MID Server, which acts as a collection endpoint for SNMP traps. The MID Server sends the traps to the ServiceNow instance for further processing as an event by Event Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMSNMPTrapEvent.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -39,15 +39,15 @@ Use the **MID SNMP Trap Listeners** to listen for SNMP traps. In this configurat
 
 3.  Complete the SNMP Trap Collector Context form.
 
-<table><thead><tr><th align="left" id="d475408e126">
+<table><thead><tr><th align="left" id="d477887e126">
 
 Option
 
-</th><th align="left" id="d475408e129">
+</th><th align="left" id="d477887e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d475408e135">
+</th></tr></thead><tbody><tr><td id="d477887e135">
 
 **Name**
 
@@ -55,7 +55,7 @@ Description
 
 Unique name for the SNMP Trap Collector.
 
-</td></tr><tr><td id="d475408e144">
+</td></tr><tr><td id="d477887e144">
 
 **Short description**
 
@@ -63,7 +63,7 @@ Unique name for the SNMP Trap Collector.
 
 Short description of the MID Server extension execution context.
 
-</td></tr><tr><td id="d475408e153">
+</td></tr><tr><td id="d477887e153">
 
 **SNMP version**
 
@@ -73,7 +73,7 @@ Specify the SNMP version:-   v1 and v2c
 -   v3
 
 
-</td></tr><tr><td id="d475408e171">
+</td></tr><tr><td id="d477887e171">
 
 **Minimum Security Level**
 
@@ -85,7 +85,7 @@ The valid security level values are: -   None - No security level value set.
 -   authPriv - Communication with authentication and privacy.
  **Note:** This field appears only when `v3` is selected in the **SNMP version** field.
 
-</td></tr><tr><td id="d475408e205">
+</td></tr><tr><td id="d477887e205">
 
 **UDP Port**
 
@@ -93,7 +93,7 @@ The valid security level values are: -   None - No security level value set.
 
 UDP port for SNMP Trap Collector to receive SNMP Traps. The default value is **1,162**. However, if the port is already in use, you can use any other free port instead.
 
-</td></tr><tr><td id="d475408e217">
+</td></tr><tr><td id="d477887e217">
 
 **Status**
 
@@ -107,7 +107,7 @@ The status of the trap listener. This field is blank until the listener is run. 
 -   **Error:** The listener failed with an error.
 
 
-</td></tr><tr><td id="d475408e252">
+</td></tr><tr><td id="d477887e252">
 
 **Execute on**
 
@@ -115,7 +115,7 @@ The status of the trap listener. This field is blank until the listener is run. 
 
 The MID Server location for running this listener. Select from specific MID Server. The recommended setting is **Specific MID Server**. Network hardware typically has to be configured to send to a specific IP address.
 
-</td></tr><tr><td id="d475408e264">
+</td></tr><tr><td id="d477887e264">
 
 **MID Server**
 
@@ -123,7 +123,7 @@ The MID Server location for running this listener. Select from specific MID Serv
 
 Specify the name of the designated MID Server when you select **Specific MID Server** in the **Execute on** field.
 
-</td></tr><tr><td id="d475408e279">
+</td></tr><tr><td id="d477887e279">
 
 **EngineID**
 
@@ -135,7 +135,7 @@ Displays only when **SNMP version=v3**.
 -   When sending an SNMP Trap message, include a value other than the default value of this field in the message.
 
 
-</td></tr><tr><td id="d475408e306">
+</td></tr><tr><td id="d477887e306">
 
 **Executing on**
 
@@ -175,19 +175,19 @@ In **Related Links**, these actions may be run against the SNMP traps listener:
 
 **Note:** Updates to the SNMP trap listener take effect only after clicking **Restart** or **Update parameters**.
 
--   **[Configure the SNMP traps listener to receive OEM traps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-snmp-trap-listener.md)**  
+-   **[Configure the SNMP traps listener to receive OEM traps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-snmp-trap-listener.md)**  
 Configure the SNMP trap listener to receive traps from Oracle Enterprise Manager \(OEM\).
--   **[Configure SNMP Trap collection for high availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMSNMPtrapHA.md)**  
+-   **[Configure SNMP Trap collection for high availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMSNMPtrapHA.md)**  
 For SNMP traps, the MID Server requires failover configuration for the trap listener.
--   **[Configure message keys to spread SNMP object identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-snmp-trapkeyfilter.md)**  
+-   **[Configure message keys to spread SNMP object identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-snmp-trapkeyfilter.md)**  
 By default, most SNMP trap events are processed by a single Event Management processing job. This can negatively effect event processing. Configure message keys on the MID Server to ensure that more than one processing job is invoked, ensuring optimal SNMP trap performance.
 
-**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connectors-and-listeners.md)
+**Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/connectors-and-listeners.md)
 
 **Related topics**  
 
 
-[SNMP probe MIB modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_SNMPProbeMIBModules.md)
+[SNMP probe MIB modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_SNMPProbeMIBModules.md)
 
-[Configure the SNMP traps listener to receive OEM traps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-snmp-trap-listener.md)
+[Configure the SNMP traps listener to receive OEM traps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-snmp-trap-listener.md)
 

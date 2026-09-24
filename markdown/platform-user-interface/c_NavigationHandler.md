@@ -3,9 +3,9 @@ title: Navigation handler
 description: A navigation handler is a scripted view rule and runs each time data from the specified table is requested in the form view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_NavigationHandler.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View management, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -57,5 +57,5 @@ if (gr.get(g_url.get('sys_id'))) {
 } 
 ```
 
-**Parent Topic:**[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md)
+**Parent Topic:**[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/view-management-overview.md)
 

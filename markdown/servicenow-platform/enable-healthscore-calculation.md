@@ -3,9 +3,9 @@ title: Enable article health score calculation
 description: Activate article health score calculation so Knowledge Management assesses and displays quality scores for knowledge articles. Enabling this property activates the health score calculation engine, without which health scores aren't computed or displayed for knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/enable-healthscore-calculation.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [article health score, knowledge management properties, knowledge center properties, health score calculation]
 breadcrumb: [Configuring Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
@@ -17,7 +17,7 @@ Activate article health score calculation so Knowledge Management assesses and d
 
 ## Before you begin
 
-Enable Article Optimization skill as a prerequisite for health score. For more information see, [Activate the Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
+Enable Article Optimization skill as a prerequisite for health score. For more information see, [Activate the Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
 
 Role required: admin
 
@@ -33,5 +33,5 @@ Role required: admin
 **Related topics**  
 
 
-[Knowledge Health score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-health-score.md)
+[Knowledge Health score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-health-score.md)
 

@@ -3,11 +3,11 @@ title: Define an EVAM view configuration
 description: Create a view configuration to combine conditions, database fields, and declarative actions with an associated view template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/define-csm-evam-view-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize dynamic related records, Configure templates and pages, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Customize dynamic related records, Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Define an EVAM view configuration
@@ -22,7 +22,7 @@ Role required: admin or evam\_admin
 
 Entity View Action Mapper \(EVAM\) is an application that standardizes how different data sources display in cards and lists.
 
-A view configuration combines conditions, database fields, and declarative actions with an associated view template. For more information, see [View configurations, view templates, and configuration bundles for EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-configuration-bundle.md).
+A view configuration combines conditions, database fields, and declarative actions with an associated view template. For more information, see [View configurations, view templates, and configuration bundles for EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/use-configuration-bundle.md).
 
 ## Procedure
 
@@ -117,13 +117,13 @@ Custom fields to display on the EVAM view configuration. This is a comma-separat
 
 5.  Create an M2M action assignment or select **Link Existing** and then select the Declarative Action **navigation**.
 
-    For more details, see, [View configurations, view templates, and configuration bundles for EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-configuration-bundle.md).
+    For more details, see, [View configurations, view templates, and configuration bundles for EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/use-configuration-bundle.md).
 
 
 **Related topics**  
 
 
-[Configure dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/dynamic-related-records-configure.md)
+[Configure dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/dynamic-related-records-configure.md)
 
-[Configure related record definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-related-record-definitions.md)
+[Configure related record definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-related-record-definitions.md)
 

@@ -3,9 +3,9 @@ title: Configure a text command
 description: Configure a text command that can be applied by a keyboard shortcut for emails, journal input fields, and HTML fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-journal-fields-keyboard-shortcuts.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

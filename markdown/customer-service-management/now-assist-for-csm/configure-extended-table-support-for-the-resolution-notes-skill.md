@@ -3,11 +3,11 @@ title: Configure extended tables
 description: Create a child skill variant of the resolution notes generation skill to create concise summaries of case resolutions, helping agents to quickly understand resolution details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-extended-table-support-for-the-resolution-notes-skill.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Resolution notes generation, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---

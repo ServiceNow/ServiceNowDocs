@@ -3,9 +3,9 @@ title: Set up PDF document templates
 description: Sales operation specialists can set up templates for PDF documents in Quote Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-mgt-setup-pdf-document-templates.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [PDF template for Quotes, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -30,11 +30,9 @@ Role required: sales\_operation\_specialist
 
     |Link|Description|
     |----|-----------|
-    |[Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/document-templates-overview.md)|Explanation of document templates and how the work in ServiceNow.|
-    |[Configuring Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/set-up-doc-temp.md)|Steps to configure documents templates.|
-    |[Reference for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/reference-doc-templates.md)|Additional information about document templates.|
-    |[Using Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/using-doc-templates.md)|How to use document templates.|
+    |[Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/document-templates-overview.md)|Explanation of document templates and how the work in ServiceNow.|
+    |[Configuring Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/set-up-doc-temp.md)|Steps to configure documents templates.|
+    |[Reference for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/reference-doc-templates.md)|Additional information about document templates.|
+    |[Using Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/using-doc-templates.md)|How to use document templates.|
 
-
-**Parent Topic:**[Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-configure-pdf-documents.md)
 

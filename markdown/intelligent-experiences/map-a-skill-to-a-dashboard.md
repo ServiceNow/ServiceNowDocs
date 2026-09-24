@@ -3,12 +3,12 @@ title: Map a skill to a dashboard
 description: Map an AI skill to a dashboard to view skill performance indicators and skill details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/map-a-skill-to-a-dashboard.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, map, skill, dashboard, performance indicator, sn\_na\_analytics\_admin, sn\_na\_analytics\_configuration, genAI, Generative AI]
-breadcrumb: [Configuring AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Map a skill to a dashboard
@@ -21,7 +21,7 @@ Be sure to map a dashboard with a skill in the same domain.
 
 **Note:** You can only map a skill to a dashboard. Mapping a feature \(that consists of multiple skills\) is currently not supported.
 
-If you're mapping a skill to a custom dashboard, be sure to share appropriate access to the dashboard. See [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-in-ac.md) for more information.
+If you're mapping a skill to a custom dashboard, be sure to share appropriate access to the dashboard. See [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-db-in-ac.md) for more information.
 
 Roles required: sn\_na\_analytics.admin and sn\_nowassist\_admin.nsa\_admin
 

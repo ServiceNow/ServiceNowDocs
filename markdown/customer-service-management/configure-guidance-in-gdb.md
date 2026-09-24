@@ -3,9 +3,9 @@ title: Provide actions to agents in a decision tree
 description: Configure a guidance node in Decision Tree Builder so agents can view a recommendation on what to do next.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-guidance-in-gdb.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring decision trees in Decision Tree Builder, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Configure a guidance node in Decision Tree Builder so agents can view a recommen
 
 ## Before you begin
 
-Verify that the guidances you want to use exist or create them. For more information, see [Create a guidance in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-guidances.md).
+Verify that the guidances you want to use exist or create them. For more information, see [Create a guidance in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-guidances.md).
 
 Role required: admin, sn\_gd\_core.decision\_tree\_author
 
@@ -61,5 +61,5 @@ You can select a guidance from the list of available guidances to link to your g
 
 ## What to do next
 
-[Add a next node that is a question node after a guidance node.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-start-node-gdb.md)
+[Add a next node that is a question node after a guidance node.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-start-node-gdb.md)
 

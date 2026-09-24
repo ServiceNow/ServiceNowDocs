@@ -3,11 +3,11 @@ title: Assess a trainee
 description: Use a coaching assessment to review the work of a trainee and to provide training and feedback.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-assess-trainee.html
-release: australia
+release: brazil
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Coaching your trainee, Training agents using Coaching with Learning, Coaching, IT Service Management]
 ---
@@ -26,9 +26,9 @@ A trainee can view any field on the coaching assessment form and add comments to
 
 When an assessment is generated, all users in the Coach group receive a notification. Assessments are generated automatically \(as the result of a coaching opportunity\) or created manually. You can provide feedback for your trainees using a survey at any time during the coaching assessment.
 
-You can create a coaching assessment from incidents, problems, change requests, or any other table that extends the [task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TaskTable.md). Enable the display of the **Create Coaching Assessment** button and create your assessments using that button.To enable display of the button:
+You can create a coaching assessment from incidents, problems, change requests, or any other table that extends the [task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_TaskTable.md). Enable the display of the **Create Coaching Assessment** button and create your assessments using that button.To enable display of the button:
 
--   Configure the [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md) on the record.
+-   Configure the [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UIActions.md) on the record.
 -   In the sn\_coaching.CoachingExtensionPoint extension point, make sure the getCreateAssessmentUITables method is implemented to return the name of the tables.
 
 ## Procedure
@@ -47,7 +47,7 @@ You can create a coaching assessment from incidents, problems, change requests, 
 
     3.  In the **Due Date** field, enter the date when the assessment is due.
 
-    The coaching assessment is set to **Closed Incomplete** state after the due date. Use system properties to set due dates to complete training. For more information, refer to [Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-reference.md). You can disable automatic closure behavior by deactivating the **Close assessments after expiration** scheduled job.
+    The coaching assessment is set to **Closed Incomplete** state after the due date. Use system properties to set due dates to complete training. For more information, refer to [Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-coaching-reference.md). You can disable automatic closure behavior by deactivating the **Close assessments after expiration** scheduled job.
 
 3.  Fill in the fields in the **Notes** tab.
 
@@ -67,9 +67,9 @@ You can create a coaching assessment from incidents, problems, change requests, 
 
 6.  Review the skills applicable to the trainee in the **Trainee Skillset** related list.
 
-    See [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md) for more information.
+    See [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/skills-management.md) for more information.
 
-7.  Add [assigned training content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-identify-learning-content.md) in the **Assigned course items** related list.
+7.  Add [assigned training content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-identify-learning-content.md) in the **Assigned course items** related list.
 
 8.  Review survey feedback for the trainee in the **Survey Results** related list.
 
@@ -157,13 +157,13 @@ Summary
 Trainee showed great interest in learning the trainings and finished them ahead of due date.
 
 </td></tr></tbody>
-</table>-   **[Assign skills after completing an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-assign-skills-assessment.md)**  
+</table>-   **[Assign skills after completing an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-assign-skills-assessment.md)**  
 Automatically assign skills to trainees for specific skill levels based on the course items they have completed. For example, if a trainee completes the course items for learning Japanese at an expert level, then the skill level 'expert' can be assigned to the trainee.
 
-**Parent Topic:**[Coaching your trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-your-trainee.md)
+**Parent Topic:**[Coaching your trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-coaching-your-trainee.md)
 
 **Related topics**  
 
 
-[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-field-descriptions.md)
+[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-coaching-field-descriptions.md)
 

@@ -3,9 +3,9 @@ title: Delete an asset profile in Security Posture Control
 description: You can delete asset profiles. You delete asset profiles if they are associated to policies so the asset profile's conditions are not included in the next policy audit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-delele-asset-profile.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an asset profile, Use the workspace, Security Posture Control, Security Operations]
 ---

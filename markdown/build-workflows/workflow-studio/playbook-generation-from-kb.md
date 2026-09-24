@@ -3,13 +3,13 @@ title: Playbook generation from a knowledge base article
 description: Generate a playbook directly from an existing knowledge base article to using AI reduce manual effort when creating playbooks for documented processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-generation-from-kb.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -33,13 +33,13 @@ The KB article content takes priority over user-provided instructions. AI genera
 -   The feature supports knowledge base articles up to 13,000 characters. For articles that exceed this limit, AI uses only the main process-relevant portions of the content.
 -   Only knowledge base articles that are accessible to the logged-in user are available for selection.
 
--   **[Generate a playbook from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-playbook-from-kb.md)**  
+-   **[Generate a playbook from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/generate-playbook-from-kb.md)**  
 Use an existing knowledge base article to generate a playbook using AI. The stages and activities are automatically populated based on the article content.
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
 
 **Related topics**  
 
 
-[Generate a playbook from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-playbook-from-kb.md)
+[Generate a playbook from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/generate-playbook-from-kb.md)
 

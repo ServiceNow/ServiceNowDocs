@@ -3,11 +3,11 @@ title: On-Call Assign by Acknowledgement workflow
 description: The On-Call: Assign by Acknowledgement workflow is provided with Notify.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/c\_OnCallAssignByAckWorkflow.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Controlling the on-call communication channel with Notify, Using Notify with On-Call Scheduling, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,5 +20,5 @@ The workflow uses data from the escalation settings, including overlapping shift
 
 When you install both On-Call Scheduling and Notify, the message\_number column is added to the Notify Messages \[notify\_messages\] table to track responses to on-call assignment requests. This column indicates if the contacted user accepted or rejected the assignment. Before you can send notifications, you must define trigger rules. Trigger rules determine the conditions that must be met before a notification is sent and what action must be taken.
 
-**Parent Topic:**[Controlling the on-call communication channel with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_OnCallNotifyForceCommChannel.md)
+**Parent Topic:**[Controlling the on-call communication channel with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_OnCallNotifyForceCommChannel.md)
 

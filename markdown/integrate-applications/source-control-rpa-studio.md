@@ -3,9 +3,9 @@ title: Resolve conflicts when merging changes from multiple sources of the same 
 description: Resolve conflicts when merging changes from multiple sources of the same activity by using the Source Control option in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/source-control-rpa-studio.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,9 +16,9 @@ Resolve conflicts when merging changes from multiple sources of the same activit
 
 ## Before you begin
 
-If you're not connected to a ServiceNow instance, click the Connection Manager icon under the **Design** tab to connect to an existing instance. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-studio.md).
+If you're not connected to a ServiceNow instance, click the Connection Manager icon under the **Design** tab to connect to an existing instance. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-rpa-studio.md).
 
-Create an activity. For more information, see [Create an activity manually in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-activity-rpa-studio.md).
+Create an activity. For more information, see [Create an activity manually in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-activity-rpa-studio.md).
 
 Role required: none
 
@@ -32,15 +32,15 @@ Role required: none
 
 4.  In the COMPARE PROCESSES dialog box, under the Remote section, select any of the following source types to open the automation project from the **Source** field.
 
-<table id="choicetable_kpm_xyv_prb"><thead><tr><th align="left" id="d356757e134">
+<table id="choicetable_kpm_xyv_prb"><thead><tr><th align="left" id="d353977e134">
 
 Option
 
-</th><th align="left" id="d356757e137">
+</th><th align="left" id="d353977e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d356757e143">
+</th></tr></thead><tbody><tr><td id="d353977e143">
 
 **Remote**
 
@@ -53,7 +53,7 @@ Action
 5.  From the Select a Document version list, select a package version.
 
 
-</td></tr><tr><td id="d356757e182">
+</td></tr><tr><td id="d353977e182">
 
 **Local**
 
@@ -78,5 +78,5 @@ Action
 7.  Click **Merge with current**.
 
 
-**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-studio-use.md)
 

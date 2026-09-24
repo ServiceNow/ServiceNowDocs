@@ -3,11 +3,11 @@ title: Upgrade Summary Report
 description: The Upgrade Summary report summarizes the actions taken, provides tools to resolve conflicts between customizations and changes that are part of the upgrade, and provides information to help estimate time for upgrades to other instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-complete-summary.html
-release: australia
+release: brazil
 product: Upgrade Center
 classification: upgrade-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Monitor an upgrade to an instance, Scheduling and monitoring an upgrade, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -71,7 +71,7 @@ Total record changes
 
 </td><td>
 
-Total number of records that have changed since the previous upgrade version.**Review changes**: List of records that have changed can be reviewed. See [System Upgrade form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-system-upgrades-form.md) for more details.
+Total number of records that have changed since the previous upgrade version.**Review changes**: List of records that have changed can be reviewed. See [System Upgrade form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-system-upgrades-form.md) for more details.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Skipped records code changed/code unchanged
 Skipped records are sorted depending on if there are changes in the code or not.
 
 </td></tr></tbody>
-</table>**Note:** You can click **Skipped Record VTB** to view the resolution status of the current upgrade with skipped records using the visual task board \(VTB\) view. See [Skipped Records visual task board \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-vtb-history.md) for more information.
+</table>**Note:** You can click **Skipped Record VTB** to view the resolution status of the current upgrade with skipped records using the visual task board \(VTB\) view. See [Skipped Records visual task board \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-vtb-history.md) for more information.
 
 ## Node Upgrades
 
@@ -158,5 +158,5 @@ The Top 10 Schema Changes by Duration helps you understand which schema changes 
 
 \[Omitted image ""\] Alt text:
 
-The Top 10 Plugins by Duration helps you see the plugins that required the most time. Click **View all plugin duration** to see the **System Upgrade Metrics** list filtered by current sys upgrade history log and sorted by duration. See [View loaded files for a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-view-loaded-files-plugin.md) for more information.
+The Top 10 Plugins by Duration helps you see the plugins that required the most time. Click **View all plugin duration** to see the **System Upgrade Metrics** list filtered by current sys upgrade history log and sorted by duration. See [View loaded files for a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-center/uc-view-loaded-files-plugin.md) for more information.
 

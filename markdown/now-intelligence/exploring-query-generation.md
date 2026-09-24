@@ -3,9 +3,9 @@ title: Exploring Query Generation
 description: Query Generation is an AI-powered service that translates user questions into an executable query and returns the results. An executable query contains the data source, filter, aggregation, and visualization instructions that best answer the user's question. The results include a textual summary, a data visualization, and suggestions for follow-up.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/exploring-query-generation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -19,11 +19,11 @@ Query Generation is an AI-powered service that translates user questions into an
 Query Generation supports the following data sources:
 
 -   Tables
--   Performance Analytics [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) \(excluding Data Snapshots\)
+-   Performance Analytics [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) \(excluding Data Snapshots\)
 
-Table data is queried through a [semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md). The semantic data layer is a flat representation of tables and table columns. Query Generation uses the semantic data layer to find the actual [facts tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) and columns related to a user [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md). Specifically, facts tables are represented by [Entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) records and their columns by [Dimension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) records.
+Table data is queried through a [semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md). The semantic data layer is a flat representation of tables and table columns. Query Generation uses the semantic data layer to find the actual [facts tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) and columns related to a user [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md). Specifically, facts tables are represented by [Entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) records and their columns by [Dimension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) records.
 
-Not all facts tables are included in Query Generation, as this would overload an instance. To see which facts tables are included, open the Semantic Tables Configurations list \[sn\_query\_gen\_table\_config\_list\], and note which tables are present and have Enable Semantic Generation = true. You can add more tables to the list, but be careful of possible performance impacts. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
+Not all facts tables are included in Query Generation, as this would overload an instance. To see which facts tables are included, open the Semantic Tables Configurations list \[sn\_query\_gen\_table\_config\_list\], and note which tables are present and have Enable Semantic Generation = true. You can add more tables to the list, but be careful of possible performance impacts. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-table-semantic-layer.md).
 
 Indicator data is searched through the Indicator \[pa\_indicators\] table. Indicators are not represented in the semantic data layer. The 12 indicators that most closely match the user's query are passed to the LLM.
 
@@ -44,12 +44,12 @@ The filter first checks the query contents for information about whether to use 
 
 ## Filtering table data
 
-Before Query Generation can call the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md), it has to filter the instance schema down to only the relevant entities and dimensions needed to answer the user's question. This filtration serves two critical purposes:
+Before Query Generation can call the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md), it has to filter the instance schema down to only the relevant entities and dimensions needed to answer the user's question. This filtration serves two critical purposes:
 
 -   It provides the LLM with precise grounds for truth about available tables and columns, preventing hallucination of non-existent data structures.
 -   It maintains a focused context window, which improves LLM performance and accuracy compared to processing the entire schema.
 
-Query Generation uses a semantic filter to narrow the entities \(facts tables\) to the 12 closest matches to the user's question. Then from those entities, it narrows the dimensions \(columns\) to the 150 most similar to the user's question. Query Generation passes these results to the LLM, which generates a semantic query. A constitutor takes this semantic query and translates it into an [executable query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md).
+Query Generation uses a semantic filter to narrow the entities \(facts tables\) to the 12 closest matches to the user's question. Then from those entities, it narrows the dimensions \(columns\) to the 150 most similar to the user's question. Query Generation passes these results to the LLM, which generates a semantic query. A constitutor takes this semantic query and translates it into an [executable query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md).
 
 ## Query Generation users
 
@@ -62,6 +62,6 @@ Query Generation uses a semantic filter to narrow the entities \(facts tables\) 
 
 To learn more about configuring and using Query Generation, see:
 
--   [Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-query-generation.md)
--   [Query Generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation-reference.md)
+-   [Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configuring-query-generation.md)
+-   [Query Generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/query-generation-reference.md)
 

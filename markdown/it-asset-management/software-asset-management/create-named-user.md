@@ -3,11 +3,11 @@ title: Create a custom SAP named user type
 description: Create a custom SAP named user type so that you can track and manage your SAP licenses based on the named user type that is specific to your SAP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-named-user.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ Create a custom SAP named user type so that you can track and manage your SAP li
 
 Role required: sam\_admin
 
-**Important:** You can create custom SAP named user types in both the Software Asset Management classic application and the Software Asset Workspace. Use the following steps to create custom named SAP user types in the Software Asset Management classic application. For details on how to create custom named user types in the Software Asset Workspace, see [Create a custom named user type in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-named-usertypes-workspace.md).
+**Important:** You can create custom SAP named user types in both the Software Asset Management classic application and the Software Asset Workspace. Use the following steps to create custom named SAP user types in the Software Asset Management classic application. For details on how to create custom named user types in the Software Asset Workspace, see [Create a custom named user type in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sap-named-usertypes-workspace.md).
 
 ## About this task
 
@@ -60,10 +60,12 @@ The named user type is added to the Named User Types \[samp\_named\_user\_type\]
 
 After you have added the custom named user, create a software model designating the custom named user in the form.
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
+
+[SAP publisher pack integration architecture]()
 
 [Tables installed with the SAP publisher pack]()
 
@@ -73,9 +75,9 @@ After you have added the custom named user, create a software model designating 
 
 [Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP]()
-
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Map a role to a named user type]()
 

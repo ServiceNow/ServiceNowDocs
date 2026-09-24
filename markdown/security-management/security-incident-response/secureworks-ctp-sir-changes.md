@@ -3,11 +3,11 @@ title: Security Incident Response form changes after ticket ingestion
 description: After a Secureworks CTP ticket has been ingested, a security incident is created and the corresponding updates are made to the security incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secureworks-ctp-sir-changes.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Secureworks CTP Ticket Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

@@ -3,11 +3,11 @@ title: Workflow of a processing activity
 description: A processing activity workflow helps the privacy analysts to manage the life cycle of a processing activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/stages-pa.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Uses of a processing activity, Reference, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -66,5 +66,5 @@ This is a state to track the processing activity for continuous monitoring​. T
 
 This is a state to retire the processing activity when the respective business application or business process is no longer used in the organization. When moved to this state, all the controls associated with the processing activity are retired. The privacy team cannot make any updates to a processing activity in the retired state. When an entity gets inactivated, the related processing activity is also automatically moved to the Retired state.
 
-**Parent Topic:**[Uses of a processing activity in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/states-of-pa.md)
+**Parent Topic:**[Uses of a processing activity in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/states-of-pa.md)
 

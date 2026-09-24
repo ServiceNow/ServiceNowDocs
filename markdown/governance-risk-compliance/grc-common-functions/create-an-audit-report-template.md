@@ -3,11 +3,11 @@ title: Create an audit report template using ServiceNow Document Designer
 description: Use the template configurations to create placeholders for an audit report template tailored to your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-an-audit-report-template.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure document templates using Document Designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -18,11 +18,11 @@ Use the template configurations to create placeholders for an audit report templ
 
 ## Before you begin
 
-Install and activate the ServiceNow Document Designer with Word \(sn\_grc\_doc\_design\) plugin. For more information, see [Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/install-document-designer.md).
+Install and activate the ServiceNow Document Designer with Word \(sn\_grc\_doc\_design\) plugin. For more information, see [Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/install-document-designer.md).
 
-Confirm that you have the templates configured. For more information, see [Configure templates for Document Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-template-for-document-designer.md).
+Confirm that you have the templates configured. For more information, see [Configure templates for Document Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/configure-template-for-document-designer.md).
 
-If you want to insert and update reporting content, set up Microsoft 365 reporting. For more information see, [Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-o365-reporting-configs.md) and [Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-additional-reporting-filters.md).
+If you want to insert and update reporting content, set up Microsoft 365 reporting. For more information see, [Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-o365-reporting-configs.md) and [Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-additional-reporting-filters.md).
 
 Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 
@@ -30,7 +30,7 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 
 1.  Navigate to the Microsoft Word document that you want to use for template creation.
 
-2.  To create placeholders, select **Design template** on the ribbon.
+2.  To create placeholders, select **Design template** On the ribbon.
 
 3.  To log in to your ServiceNow instance, select **Log in** using the audit manager credentials.
 
@@ -76,7 +76,7 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 
     7.  Select **Add**.
 
-6.  To insert reporting content, select **Add content** on the ribbon.
+6.  To insert reporting content, select **Insert content** on the ribbon.
 
     1.  Select the **Data** tab.
 
@@ -120,7 +120,7 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 
         The chart is inserted in to the template. The inserted chart can be modified according to your preferences. For example, you can change the colors, the type of chart and so on.
 
-7.  To update reporting content, select **Manage content**.
+7.  To update reporting content, select **Update content**.
 
     1.  Select the field that you would like to get the updated data for and select **View and refresh links**.
 
@@ -135,16 +135,16 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
     -   Don't add a content block within another content block.
     -   Don't add more than 10 images.
     -   Don't add more than one table inside a content block.
-    -   Don't add more than five content blocks.
+    -   Don't add more than two content blocks.
 8.  Save the template.
 
 
 **Related topics**  
 
 
-[Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-o365-reporting-configs.md)
+[Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-o365-reporting-configs.md)
 
-[Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-additional-reporting-filters.md)
+[Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-additional-reporting-filters.md)
 
-[Add related fields to a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-related-fields-0365.md)
+[Add related fields to a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/add-related-fields-0365.md)
 

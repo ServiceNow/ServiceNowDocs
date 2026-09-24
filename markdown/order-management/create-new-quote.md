@@ -3,9 +3,9 @@ title: Create a quote
 description: Create a quote in Quote Management to start the quote building process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-quote.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -33,15 +33,15 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 3.  On the **Create new quote** form, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d166801e114">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d170260e114">
 
 To
 
-</th><th align="left" id="d166801e117">
+</th><th align="left" id="d170260e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166801e123">
+</th></tr></thead><tbody><tr><td id="d170260e123">
 
 **Create quote for an account**
 
@@ -60,7 +60,7 @@ Select the **Account** and enter the following:-   Expiration date: Date and tim
 -   Short description: Brief description of the quote for this account.
 
 
-</td></tr><tr><td id="d166801e175">
+</td></tr><tr><td id="d170260e175">
 
 **Create quote for a consumer**
 
@@ -90,7 +90,7 @@ Select the **Consumer** name and enter the following:-   Deal type: Indicates th
 
 ## What to do next
 
-[Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-details-tab.md).
+[Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-details-tab.md).
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

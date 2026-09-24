@@ -3,9 +3,9 @@ title: Adding related parties to a sold product
 description: Add related parties to a sold product to help provide the access level to the related parties, such as contacts, consumers, or accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-related-parties-to-sp.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using customer access management, Customer management, Use, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ With Customer access management, you can add multiple related parties and provid
 
 |Task|Description|
 |----|-----------|
-|[Add additional consumers for the sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-additional-consumers-soldproduct.md)|Add additional consumers for sold product and the related entities by defining the type and responsibility of additional consumers.|
-|[Add additional contacts for the sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-additional-contacts-soldproduct.md)|Add additional contacts for sold product and the related entities by defining the type and responsibility of additional contacts.|
-|[Add additional accounts for the sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-additional-accounts-for-sp-relatedparties.md)|Add additional contacts for sold product and the related entities by defining the type and responsibility of additional accounts or contacts.|
+|[Add additional consumers for the sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/adding-additional-consumers-soldproduct.md)|Add additional consumers for sold product and the related entities by defining the type and responsibility of additional consumers.|
+|[Add additional contacts for the sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/adding-additional-contacts-soldproduct.md)|Add additional contacts for sold product and the related entities by defining the type and responsibility of additional contacts.|
+|[Add additional accounts for the sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-additional-accounts-for-sp-relatedparties.md)|Add additional contacts for sold product and the related entities by defining the type and responsibility of additional accounts or contacts.|
 

@@ -3,11 +3,11 @@ title: Navigate the UI Builder application
 description: Learn how to navigate through UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/nav-uib.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -82,7 +82,7 @@ UI Builder is separated into the following areas.
 
     \[Omitted image "nav-page-config-panel.png"\] Alt text: Configuration panel in UI Builder.
 
--   Data resources: Bind data to your components using data resources to dynamically expose your data from tables, records, or other elements on your page. Data resources enable you to reuse your components. See [Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data.md) for more information.
+-   Data resources: Bind data to your components using data resources to dynamically expose your data from tables, records, or other elements on your page. Data resources enable you to reuse your components. See [Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/connect-data.md) for more information.
 
     \[Omitted image "nav-data-resources.png"\] Alt text: Data resource panel displaying a Look Up Multiple Records
 
@@ -95,12 +95,12 @@ UI Builder is separated into the following areas.
     \[Omitted image "nav-client-scripts.png"\] Alt text: List of client scripts.
 
 
--   **[UI Builder Learning Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-learning-center.md)**  
+-   **[UI Builder Learning Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-learning-center.md)**  
 Explore the UI Builder Learning Center for articles, videos, courses, and guided tours to help you get started and build knowledge. The Learning Center is a one-stop shop for learning fundamental features and basic guidelines in UI Builder.
--   **[Guided tours in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/guided-tours-in-ui-builder.md)**  
+-   **[Guided tours in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/guided-tours-in-ui-builder.md)**  
 Learn about UI Builder guided tours, including how to use them to build your knowledge and practice using UI Builder.
--   **[Dark theme in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/dark-theme-ui-builder.md)**  
+-   **[Dark theme in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/dark-theme-ui-builder.md)**  
 Learn how to switch to the dark theme in UI Builder.
 
-**Parent Topic:**[Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib.md)
+**Parent Topic:**[Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/learning-uib.md)
 

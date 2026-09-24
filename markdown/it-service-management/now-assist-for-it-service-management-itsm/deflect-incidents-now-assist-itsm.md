@@ -3,11 +3,11 @@ title: Use self-service to deflect incidents in a ServiceNow portal using Servic
 description: Designed to reduce the number of incidents to be resolved by deflecting issues with self-service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/deflect-incidents-now-assist-itsm.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -33,15 +33,15 @@ Role required: none
 
 4.  Resolve the issue or track it with an incident.
 
-<table id="choicetable_awv_vsq_4dc"><thead><tr><th align="left" id="d282879e111">
+<table id="choicetable_awv_vsq_4dc"><thead><tr><th align="left" id="d288830e111">
 
 To
 
-</th><th align="left" id="d282879e114">
+</th><th align="left" id="d288830e114">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d282879e120">
+</th></tr></thead><tbody><tr><td id="d288830e120">
 
 **Track the issue with an incident**
 
@@ -59,7 +59,7 @@ You can also select the Add attachments icon and add files related to the issue.
 
 The incident is created and automatically assigned to you. If you aren’t ready to create the incident, select **Save as Draft** to submit it later.
 
-</td></tr><tr><td id="d282879e162">
+</td></tr><tr><td id="d288830e162">
 
 **Resolve the issue**
 

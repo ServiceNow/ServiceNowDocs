@@ -3,13 +3,13 @@ title: Import a model
 description: Added topic as per STRY57071973 - DOC1093556Create an import model request to import your collection of models, and streamline the workflow using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/import-models.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Import models and templates, Use, Telecommunications Network Inventory]
+breadcrumb: [Import Models and Templates, Use, Telecommunications Network Inventory]
 ---
 
 # Import a model
@@ -75,7 +75,9 @@ Select **Attach File** to attach the import model file.**Note:**
 
 
 </td></tr></tbody>
-</table>6.  Download the demo data and model template by selecting **Create Excel Template**.\[Omitted image "Import\_template.png"\] Alt text: Downloaded excel template to import models.
+</table>6.  Download the demo data and model template by selecting **Create Excel Template**.
+
+    \[Omitted image "Import\_template.png"\] Alt text: Downloaded excel template to import models.
 
     -   The excel template is created based on the Import model template \[sn\_ni\_adv\_import\_model\_template\] table. An admin can customize the template and update it as required.
     -   The following relationship types are supported for import models.
@@ -88,12 +90,12 @@ Select **Attach File** to attach the import model file.**Note:**
 7.  Select **Import**.
 
     -   During the data import procedure:
-        -   Integration Commons for CMDB: The plugin is automatically activated and by default. To learn more, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-commons-for-cmdb.md).
+        -   Integration Commons for CMDB: The plugin is automatically activated and by default. To learn more, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-commons-for-cmdb.md).
         -   Normalization Data Service Client \(Optional\): If installed and configured, the following normalization rules are applied.
             -   Removes special characters from the **Manufacturer** name.
             -   The new value is replaced if it matches with five characters of the existing value.
             -   Downloads standard and variant company names.
-            -   Replaces company names with their standard equivalents. To learn more, see [Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_NormalizationOverview.md). To customize the normalization rules, see [Normalized company names table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_NormalizedCompanyNames.md).
+            -   Replaces company names with their standard equivalents. To learn more, see [Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_NormalizationOverview.md). To customize the normalization rules, see [Normalized company names table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_NormalizedCompanyNames.md).
     -   The generation of a record triggers its automatic addition to the **Import Results**. From this tab, you can see the import status and can select the generated model.
     -   A dedicated inventory template is generated for every rack/cabinet equipment holders, equipment models, and card models. Moreover, the related templates are generated based on the defined model relationship.
 
@@ -104,7 +106,7 @@ The **Import Results** tab appears next to the **Details** tab where you can vie
 ## What to do next
 
 -   Redirect to the generated model from **Import Results** tab.
--   Delete a record. To learn more, see [Delete a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/delete-inventory-record.md).
+-   Delete a record. To learn more, see [Delete a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/delete-inventory-record.md).
 
-**Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
+**Parent Topic:**[Import Models and Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 

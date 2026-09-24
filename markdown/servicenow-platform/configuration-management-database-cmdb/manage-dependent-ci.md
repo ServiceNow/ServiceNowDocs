@@ -3,11 +3,11 @@ title: Dependent CIs management
 description: A life cycle update for a CI affects its dependent CIs. For example, when the CI that a dependent CI depends on is deleted, the dependent CI becomes orphan with no further use. To maintain the integrity and health of the CMDB, the system applies cascade-cleanup processes to dependent CIs that are affected by a life cycle update.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,14 +16,14 @@ breadcrumb: [CMDB classifications and class dependency, Configuration Management
 
 A life cycle update for a CI affects its dependent CIs. For example, when the CI that a dependent CI depends on is deleted, the dependent CI becomes orphan with no further use. To maintain the integrity and health of the CMDB, the system applies cascade-cleanup processes to dependent CIs that are affected by a life cycle update.
 
-For information about independent and dependent CIs, see [CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md).
+For information about independent and dependent CIs, see [CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md).
 
 To ensure that dependent CIs are properly managed after deleting or archiving CIs, you must:
 
 1.  Enable dependent CIs management as described on this page.
-2.  Manually approve the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) tasks that dependent CIs management generates, or configure those tasks to not require a review or an approval.
+2.  Manually approve the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) tasks that dependent CIs management generates, or configure those tasks to not require a review or an approval.
 
-**Note:** An Orphan dependent CI in the context of Data Manager is different from an orphan CI in the context of CMDB Health. An orphan dependent CI within the context of Data Manager belongs to a dependent class, and is missing the dependent relationship. The definition of an orphan CI in the context of CMDB Health is broader, and includes any CI that matches CMDB Health orphan rules. For more information about orphan CIs in CMDB Health, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
+**Note:** An Orphan dependent CI in the context of Data Manager is different from an orphan CI in the context of CMDB Health. An orphan dependent CI within the context of Data Manager belongs to a dependent class, and is missing the dependent relationship. The definition of an orphan CI in the context of CMDB Health is broader, and includes any CI that matches CMDB Health orphan rules. For more information about orphan CIs in CMDB Health, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
 
 Examples of dependent CIs needing cascade-cleanup:
 
@@ -35,11 +35,11 @@ Examples of dependent CIs needing cascade-cleanup:
 
 To enable dependent CIs management:
 
--   Configure your environment for CMDB Data Manager. For details about how to configure the environment for CMDB Data Manager and the CMDB Data Manager own prerequisites, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
--   Ensure that the **cmdb.dependent.ci.cascade.op.enabled** system property is set to **true** \(true by default\). This property enables cascade operations and doesn't exist in the base system. Therefore, to view or modify the property value, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   To enable cascade-retirement processes, ensure that the system property **cmdb.dependent.ci.cascade.retire.enabled**, which is used to manage cascade-retirement of CIs, is set to true \(false by default\). The business rule **After BR: Track “Retired” CIs**, that checks for downstream CI dependencies, runs only if this property is set to true. This property doesn't exist in the base system and to view or modify it, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   Configure your environment for CMDB Data Manager. For details about how to configure the environment for CMDB Data Manager and the CMDB Data Manager own prerequisites, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
+-   Ensure that the **cmdb.dependent.ci.cascade.op.enabled** system property is set to **true** \(true by default\). This property enables task creation and cascade operations. This property doesn't exist in the base system. Therefore, to view or modify the property value, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   To enable cascade-retirement processes, ensure that the system property **cmdb.dependent.ci.cascade.retire.enabled**, which is used to manage cascade-retirement of CIs, is set to true \(false by default\). The business rule **After BR: Track “Retired” CIs**, that checks for downstream CI dependencies, runs only if this property is set to true. This property doesn't exist in the base system and to view or modify it, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
-Cascade-cleanup operations apply only from when you enable the dependent CIs management feature. To apply cascade-cleanup to orphan dependent CIs that already existed in the CMDB before enabling the feature, see [Cascade-cleanup existing orphan dependent CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
+Cascade-cleanup operations apply only from when you enable the dependent CIs management feature. To apply cascade-cleanup to orphan dependent CIs that already existed in the CMDB before enabling the feature, see [Cascade-cleanup existing orphan dependent CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
 To turn off the dependent CIs management feature:
 
@@ -48,7 +48,7 @@ To turn off the dependent CIs management feature:
 
 ## Use of CMDB Data Manager to perform cascade-cleanup operations
 
-Dependent CIs management processes use the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) to process the life cycle updates for the dependent CIs in the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table in the following ways:
+Dependent CIs management processes use the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) to process the life cycle updates for the dependent CIs in the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table in the following ways:
 
 1.  Requesting and getting approvals from users for the life cycle updates for the CIs.
 2.  Performing the actual delete, archive, or retire CI updates after these operations are approved.
@@ -68,9 +68,9 @@ When a CI is set to retire, dependent CIs management data processes attempt to c
 
 3.  For each CI in the CMDB CI End Of Life Ledger \[cmdb\_ci\_end\_of\_life\_ledger\] table, the scheduled job **CMDB Cascade Retire Dependent CIs** checks the CI’s relationships in the CI Relationship \[cmdb\_rel\_ci\] table. If there is a dependent relationship with a dependent CI, then that dependent CI is added to the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table with the **Retire** action.
 
-    For more information about dependent relationship rules, see [CMDB dependent relationship rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md).
+    For more information about dependent relationship rules, see [CMDB dependent relationship rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_ServiceRulesMetadata.md).
 
-4.  Scheduled Job **CMDB DependentCI Policy Processor** runs \(if the system property **cmdb.dependent.ci.cascade.retire.enabled** is true\) to process the CIs in the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table. Those CIs are set as being ready to retire upon approval using the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md). A task is created in the CMDB Data Manager against the Dependent CI Retire policy to actually retire the CIs.
+4.  Scheduled Job **CMDB DependentCI Policy Processor** runs \(if the system property **cmdb.dependent.ci.cascade.retire.enabled** is true\) to process the CIs in the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table. Those CIs are set as being ready to retire upon approval using the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md). A task is created in the CMDB Data Manager against the Dependent CI Retire policy to actually retire the CIs.
 
 ## Cascade-archive dependent CIs
 
@@ -82,7 +82,7 @@ Orphan dependent CIs are not immediately archived. When a CI is archived, all th
 -   The CI has multiple parent CIs.
 -   The CI belongs to an excluded class. Excluded classes are stored in the CMDB Dependent CI Class Exclusion \[cmdb\_dependent\_ci\_class\_exclusion\] table. In the base system, that table is pre-populated with some classes such as **cmdb\_ci\_vm**, **cmdb\_ci\_vmware\_instance**, and other VMware-related classes. You can manage the set of classes that are exempt from management of orphan dependent CIs, by adding or removing records to that table.
 
-Eventually, only those CIs that these conditions do not apply to are added to the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table. Those CIs are set as being ready for archival using the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md), upon approval.
+Eventually, only those CIs that these conditions do not apply to are added to the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table. Those CIs are set as being ready for archival using the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md), upon approval.
 
 ## Cascade-delete dependent CIs
 
@@ -103,19 +103,19 @@ Orphan dependent CIs aren't immediately deleted. Prior to deleting each of the C
 -   The CI has multiple parent CIs.
 -   The CI belongs to an excluded class. Excluded classes are stored in the CMDB Dependent CI Class Exclusion \[cmdb\_dependent\_ci\_class\_exclusion\] table. In the base system, that table is pre-populated with some classes such as **cmdb\_ci\_vm**, **cmdb\_ci\_vmware\_instance**, and other VMware-related classes. You can manage the set of classes that are exempt from management of orphan dependent CIs, by adding or removing records to that table.
 
-Eventually, only those CIs that these conditions don't apply to are added to the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table. Those CIs are set as being ready for deletion using the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md), upon approval.
+Eventually, only those CIs that these conditions don't apply to are added to the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table. Those CIs are set as being ready for deletion using the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md), upon approval.
 
 ## Extraneous relationships
 
 For the delete and archive operations, the system also tracks CIs' extraneous relationships in the Dependent CI Relations Evaluation Config \[cmdb\_dependent\_ci\_extra\_rels\_config\] table. Extraneous relationships are those relationships that aren't in the CI’s chain of dependency and deleting or archiving them depends on the value of the **cmdb.dependent.ci.extra.rel.check** system property. This property is set to **true** by default, in which case extraneous relationships aren'tt deleted or archived. You can set the property to **false** to delete and archive extraneous relationships.
 
-The **cmdb.dependent.ci.extra.rel.check** property doesn't exist in the base system and to view or modify the property value, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+The **cmdb.dependent.ci.extra.rel.check** property doesn't exist in the base system and to view or modify the property value, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 ## Cascade-cleanup existing orphan dependent CIs
 
 When enabling the dependent CIs management feature, the cascade-cleanup operations apply only from when the feature is enabled. However, it might be necessary to apply a similar cascade-cleanup operation to orphan dependent CIs that already existed in the CMDB before the feature was enabled.
 
-[Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/activate-sj-mh.md) the Cleanup Orphan CIs scheduled job to perform a one-time cascade-cleanup of orphan dependent CIs across the CMDB. The Cleanup Orphan CIs scheduled job checks throughout the entire CMDB to identify any orphan dependent CIs. These CIs are then processed in the same manner that CIs that are cascade-deleted are processed. CIs that are ready to be deleted are added to the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table. The CMDB Data Manager is then leveraged as described in the [Use of CMDB Data Manager to perform cascade-cleanup operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md) section.
+[Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/activate-sj-mh.md) the Cleanup Orphan CIs scheduled job to perform a one-time cascade-cleanup of orphan dependent CIs across the CMDB. The Cleanup Orphan CIs scheduled job checks throughout the entire CMDB to identify any orphan dependent CIs. These CIs are then processed in the same manner that CIs that are cascade-deleted are processed. CIs that are ready to be deleted are added to the CMDB Dependent CI Ledger \[cmdb\_dependent\_ci\_ledger\] table. The CMDB Data Manager is then leveraged as described in the [Use of CMDB Data Manager to perform cascade-cleanup operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md) section.
 
 The Cleanup Orphan CIs scheduled job is intended to run only once, after which the job deactivates itself. Depending on the size of the CMDB, it might take the Cleanup Orphan CIs scheduled job several days to complete.
 
@@ -171,7 +171,7 @@ For monitoring purposes, check the system logs for cleanup activity. Log message
 6.  Wait for the scheduled job **CMDB DependentCI Policy processor** to run, or run it manually. This scheduled job creates a task against the OOB Dependent CI Retire policy, targeting the CIs in the cmdb\_dependenct\_ci\_ledger table.
 7.  In the Data Manager overview page, select the Open task card and approve the task described with “Dependent CI – Retire..”.
 
-**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
+**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
 
 **Related topics**  
 
@@ -180,13 +180,13 @@ For monitoring purposes, check the system logs for cleanup activity. Log message
 
 [Related Lists of CI components]()
 
+[Principal Class]()
+
 [Create a CI class]()
+
+[View and edit class definitions and metadata]()
 
 [Reclassify a CI]()
 
 [Delete CIs]()
-
-[View and edit class definitions and metadata]()
-
-[Principal Class]()
 

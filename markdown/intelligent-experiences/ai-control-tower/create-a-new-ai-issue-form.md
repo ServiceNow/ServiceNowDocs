@@ -3,13 +3,13 @@ title: Create new AI issue form
 description: Use the Create New Issue form to identify and manage issues related to the impacted areas for the reported AI case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-a-new-ai-issue-form.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create an AI issue in the AI Control Tower, Use, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Create an AI issue in the AI Control Tower, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create new AI issue form
@@ -106,7 +106,7 @@ Workflow state of the issue. This field is automatically set to **Review**. The 
 -   **Closed Complete**
 -   **Closed Incomplete**
 
- For more information on Issue management workflow and life cycle, see [View AI assets by life-cycle stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/view-ai-assets-lifecycle-stage.md).
+ For more information on Issue management workflow and life cycle, see [View AI assets by life-cycle stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/view-ai-assets-lifecycle-stage.md).
 
 </td></tr><tr><td>
 

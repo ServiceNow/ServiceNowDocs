@@ -3,7 +3,7 @@ title: Admin APIs: Managed tables
 description: Information about APIs that interact with managed tables
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/admin\_apis\_managed\_tables.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -14,7 +14,7 @@ breadcrumb: [API overview and resources, CPQ Configurator, Configure, price, quo
 
 Information about APIs that interact with managed tables
 
-Use [Admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-admin-api-keys.md) to interact with the CPQ APIs for managed tables. Bulk-level permissions are necessary for your admin API key to authenticate calls related to managed tables. For more information on these APIs, see the full API documentation:
+Use [Admin API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-admin-api-keys.md) to interact with the CPQ APIs for managed tables. Bulk-level permissions are necessary for your admin API key to authenticate calls related to managed tables. For more information on these APIs, see the full API documentation:
 
 [CPQ API documentation](https://api-docs.logik.io/#introduction)
 
@@ -42,5 +42,5 @@ The following operations are demonstrated in this collection:
 
 All calls use JWT authorization. The bearer token is stored in the global variable `{{logik_admin_BearerToken}}`. For instructions for generating JWT, see:
 
-[Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md)
+[Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md)
 

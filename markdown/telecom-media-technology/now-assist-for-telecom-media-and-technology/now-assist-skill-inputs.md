@@ -3,11 +3,11 @@ title: Skill inputs for ServiceNow Otto for Telecommunications, Media, and Techn
 description: Use inputs for each skill to configure how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Configure, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -24,9 +24,9 @@ Domain separation allows users to separate data, processes, and administrative t
 
 Domain separation is possible at the skill level and at the individual configuration level.
 
-Enable security for ServiceNow Otto skills and flows through access control lists \(ACLs\) and user identities. For more information, see [Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+Enable security for ServiceNow Otto skills and flows through access control lists \(ACLs\) and user identities. For more information, see [Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md).
 
-To understand more about the ServiceNow domain separation, see [Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md).
+To understand more about the ServiceNow domain separation, see [Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparation.md).
 
 ## Service Problem Case sentiment analysis skill
 
@@ -196,11 +196,11 @@ The customer service summary skill helps user to get information on the customer
 -   General details
 -   Graph questionnaire
 
-    To add or modify the queries, see [Configure the graph questionnaire ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.md).
+    To add or modify the queries, see [Configure the graph questionnaire ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.md).
 
 -   Customize prompt
 
-    To customize the prompt, see [Customize a skill in ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.md).
+    To customize the prompt, see [Customize a skill in ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.md).
 
 -   Define access
 -   Select display
@@ -1142,36 +1142,6 @@ Input fields
 
 -   Meeting summary
 -   Meeting overview
-
-</td></tr></tbody>
-</table>## Event-Context Candidate Recommender skill
-
-<table id="table_pt5_bvk_lkc"><thead><tr><th>
-
-Input
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Input table
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-Input fields
-
-</td><td>
-
--   matchingGuidance
--   recommendationMode
--   candidatePool
--   eventRecommendationContextPayload
 
 </td></tr></tbody>
 </table>## Executive Insight Generator skill

@@ -3,11 +3,11 @@ title: Preview an app file in ServiceNow Studio
 description: Preview app files in ServiceNow Studio before publishing to confirm that the file looks and functions as expected. Only files with a user interface support preview.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/preview-app-file.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -24,7 +24,7 @@ Role required: admin or delegated\_developer
 
 Use preview to verify how an app file looks and behaves before it reaches end users. Files with preview capabilities open directly in preview mode in ServiceNow Studio, bypassing the record view.
 
-Begin or continue a conversation with Build Agent to edit previewed files through a conversational interaction. For more information, see [Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md).
+Begin or continue a conversation with Build Agent to edit previewed files through a conversational interaction. For more information, see [Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-build-agent.md).
 
 ## Procedure
 
@@ -32,15 +32,15 @@ Begin or continue a conversation with Build Agent to edit previewed files throug
 
 2.  Preview files from the App details page or from within an open file.
 
-<table id="choicetable_e2q_c5z_tfc"><thead><tr><th align="left" id="d325821e136">
+<table id="choicetable_e2q_c5z_tfc"><thead><tr><th align="left" id="d315863e136">
 
 Option
 
-</th><th align="left" id="d325821e139">
+</th><th align="left" id="d315863e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d325821e145">
+</th></tr></thead><tbody><tr><td id="d315863e145">
 
 **Preview from App details**
 
@@ -51,7 +51,7 @@ Description
 
 \[Omitted image "sn-studio-preview-app-details.png"\] Alt text: Select the Preview button.
 
-</td></tr><tr><td id="d325821e177">
+</td></tr><tr><td id="d315863e177">
 
 **Preview from an open file**
 
@@ -65,5 +65,5 @@ Files with preview capabilities automatically open in preview mode. After you cl
 
 Review the file for layout, functionality, and content errors. Return to the canvas to make corrections, then reopen the preview to verify changes.
 
-**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
+**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
 

@@ -3,11 +3,11 @@ title: Define an allocation unit
 description: Allocation unit records define the capacity and usage of a business service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/t\_DefineAnAllocationUnit.html
-release: australia
+release: brazil
 product: Cost Management
 classification: cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use business services with expenses, Cost Management, Strategic Portfolio Management]
 ---
@@ -38,5 +38,5 @@ Role required: financial\_mgmt\_admin
     |Unit Type \(added by configuring the form\)|Used to record what the units represent \(e.g. seats, licenses, Gigabytes, and so on\).|
 
 
-**Parent Topic:**[Use business services with expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_UseBusinessServicesWithExpenses.md)
+**Parent Topic:**[Use business services with expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_UseBusinessServicesWithExpenses.md)
 

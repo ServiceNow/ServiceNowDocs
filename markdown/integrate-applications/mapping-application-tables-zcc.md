@@ -3,9 +3,9 @@ title: Accessing real-time data in applications
 description: Fetch real-time data using a data fabric table instead of using the physical table included with an application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mapping-application-tables-zcc.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -39,10 +39,10 @@ In this workflow:
 4.  The data steward selects a source table and maps source columns to the existing columns in the data fabric table.
 5.  Users access the application, and interact with flows retrieving data from the external source in real-time.
 
--   **[Connect a predefined data fabric table to an external data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/map-application-table-external-zcc.md)**  
+-   **[Connect a predefined data fabric table to an external data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/map-application-table-external-zcc.md)**  
 Connect a data fabric table included with an application to an external data source.
--   **[Connect a predefined data fabric table to a local table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/map-application-table-internal-zcc.md)**  
+-   **[Connect a predefined data fabric table to a local table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/map-application-table-internal-zcc.md)**  
 Connect a data fabric table included with an application to a local table on your instance.
 
-**Parent Topic:**[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md)
+**Parent Topic:**[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connectors.md)
 

@@ -3,11 +3,11 @@ title: Cloud Migration Assessment
 description: This application is no longer deployed, enhanced, or supported.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/cloud-migration-landing-page.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
 ---

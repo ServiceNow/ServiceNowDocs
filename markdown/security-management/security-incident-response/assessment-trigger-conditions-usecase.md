@@ -3,11 +3,11 @@ title: Assessment trigger conditions examples
 description: The following examples provide different scenarios on how mandatory and optional assessment trigger conditions are generated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/assessment-trigger-conditions-usecase.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure an assessment trigger condition, Manage post incident activities, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

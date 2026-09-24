@@ -3,9 +3,9 @@ title: Properties installed with Digital Operational Resilience Management
 description: When you install the Digital Operational Resilience Management application, several system properties are added to your instance. You can access the properties by navigating to All &gt; Digital Operational Resilience Management &gt; Properties .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/properties-dora.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Digital resilience third-party registers reference, Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -63,7 +63,7 @@ Controls whether records are saved when LEI validation fails against the GLEIF d
 
  **Note:**
 
-This property governs the Excel upload path only. It does not affect whether records are saved when a GLEIF validation failure occurs on a UI form save. \(UI form saves always allow the record to be saved regardless of this property; the client script displays a warning independently\). LEI format and checksum errors always block saving regardless of this property value, because those failures never reach the GLEIF API. When the GLEIF API is unreachable \(timeout or HTTP error\), saving is always allowed regardless of this property value.
+This property governs the Excel upload path only. It does not affect UI form saves. UI form saves always allow the record to be saved regardless of this property. The client script displays a warning independently. LEI format and checksum errors always block saving regardless of this property value, because those failures never reach the GLEIF API. When the GLEIF API is unreachable \(timeout or HTTP error\), saving is always allowed regardless of this property value.
 
 </td></tr><tr><td>
 
@@ -88,6 +88,8 @@ Decimal places for monetary values.
  Enter `2` to keep monetary values to 2 decimal places on download. When the value is greater than 0, the system formats the downloaded value to that many decimal places instead of rounding to a whole number.
 
  The default value is 0. This property applies to the Excel Master Template download and CSV download only. It does not apply to UI display, upload or validation, individual table downloads, or database storage.
+
+ Supported values are `2`, `0`, `-3`, and `-6`, as defined in EBA XBRL Filing Rules v4.3 Rule 2.18. The system applies a value of 0 if you enter an unsupported value.
 
 </td></tr><tr><td>
 
@@ -130,5 +132,5 @@ Configuration for preparing the DORA plain-CSV reporting package. Framework code
 |GLEIF API unavailable|Row saved \(always\)|Row saved \(always\)|
 |Name or country mismatch \(UI\)|Warning shown, save OK|Row blocked \(error\)|
 
-**Parent Topic:**[Digital resilience third-party registers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/digi-resi-ref.md)
+**Parent Topic:**[Digital resilience third-party registers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/digi-resi-ref.md)
 

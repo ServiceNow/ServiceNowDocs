@@ -3,11 +3,11 @@ title: Create a custom list in My lists
 description: Create a custom list of records from any table in your ServiceNow AI Platform instance to access a saved, filtered view of records from the Lists panel in Collaborative Work Management \(CWM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-a-list-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create list, My lists, Collaborative Work Management]
 breadcrumb: [Manage lists in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -35,15 +35,15 @@ Role required: sn\_cwm.cwm\_user
 
 5.  Create a version of an existing list or define a new list.
 
-<table id="choicetable_vn1_4m3_jkc"><thead><tr><th align="left" id="d322404e130">
+<table id="choicetable_vn1_4m3_jkc"><thead><tr><th align="left" id="d324124e130">
 
 Goal
 
-</th><th align="left" id="d322404e133">
+</th><th align="left" id="d324124e133">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d322404e139">
+</th></tr></thead><tbody><tr><td id="d324124e139">
 
 **Create a version of an existing list**
 
@@ -55,7 +55,7 @@ Action
 4.  Add filter conditions that determine which records appear in the list.
 
 
-</td></tr><tr><td id="d322404e163">
+</td></tr><tr><td id="d324124e163">
 
 **Define a new list**
 
@@ -84,9 +84,9 @@ The list appears under the **My lists** tab for quick access. You can return to 
 
 After creating a custom list, you can:
 
--   Add a record to the custom list. The record is added to the source table directly from the list view. For more information, see [Add a record to a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-a-record-to-a-list-in-cwm.md)
--   Edit a record from the custom list to update record details without leaving the list view. For more information, see [Edit a record from a list in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/edit-a-record-from-a-list-in-cwm.md).
--   Export a list to download or share the list records in Excel, CSV, JSON, or PDF format. For more information, see [Export a list in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/export-a-list-in-cwm.md).
+-   Add a record to the custom list. The record is added to the source table directly from the list view. For more information, see [Add a record to a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/add-a-record-to-a-list-in-cwm.md)
+-   Edit a record from the custom list to update record details without leaving the list view. For more information, see [Edit a record from a list in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/edit-a-record-from-a-list-in-cwm.md).
+-   Export a list to download or share the list records in Excel, CSV, JSON, or PDF format. For more information, see [Export a list in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/export-a-list-in-cwm.md).
 
-**Parent Topic:**[Manage lists in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-lists.md)
+**Parent Topic:**[Manage lists in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-lists.md)
 

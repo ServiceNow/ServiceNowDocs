@@ -3,11 +3,11 @@ title: View relationships health
 description: View health scores for relationship health such as orphan, stale, and duplicate relationships, in the Relationship Health Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_ViewRelationshipsHealth.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -49,11 +49,11 @@ In addition, the following relationship compliance reports with breakdown by rel
 
 -   **Relationships not compliant with all relationship rules**
 
-    Relationships that do not comply with any [relationship governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/relationship-governance.md) rule, including suggested relationships and dependent relationship rules.
+    Relationships that do not comply with any [relationship governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/relationship-governance.md) rule, including suggested relationships and dependent relationship rules.
 
 -   **Relationships not compliant with suggested relationships**
 
-    [Suggested CI relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md) are used as rules to test if relationships comply with specified suggested relationships.
+    [Suggested CI relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md) are used as rules to test if relationships comply with specified suggested relationships.
 
 -   **Relationships not compliant with containment rules**
 
@@ -84,7 +84,7 @@ For each of the compliance reports, testing a relationship requires a rule \(sug
 
 For troubleshooting information, see the [How to identify and delete duplicate CMDB CI Relationship records, or ones that have orphan or missing parent/child relationships \[KB0780988\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0780988) knowledge base article.
 
-**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
+**Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
 
 **Related topics**  
 
@@ -103,5 +103,5 @@ For troubleshooting information, see the [How to identify and delete duplicate C
 
 [CMDB Health reference]()
 
-[Enable and configure a CMDB Health Dashboard job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md)
+[Enable and configure a CMDB Health Dashboard job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md)
 

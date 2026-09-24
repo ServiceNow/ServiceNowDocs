@@ -3,11 +3,11 @@ title: Enabling duplicate company names in extension tables
 description: You can create records with duplicate company names in extension tables, such as Customer Account \[customer\_account\] table, without causing normalization conflicts in Normalization Data Services.Configure the Normalization Data Services feature to enable records with duplicate company names across core company's extension tables, such as Customer Account \[customer\_account\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/enhanced-nds-for-duplicate-records.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Normalization data services, Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -27,7 +27,7 @@ Enable this property if you are upgrading from Zurich or an earlier release. You
 -   ITSM Software Asset Management
 -   Hardware Asset Management
 
-**Parent Topic:**[Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NormalizationOverview.md)
+**Parent Topic:**[Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_NormalizationOverview.md)
 
 ## Configure Normalization Data Services to create duplicate company name in extension table
 
@@ -35,7 +35,7 @@ Configure the Normalization Data Services feature to enable records with duplica
 
 ### Before you begin
 
-Role required: nds\_admin
+Role required: admin
 
 ### About this task
 
@@ -63,7 +63,7 @@ Role required: nds\_admin
 
 5.  Add the **glide.cmdb.canonical.use\_base\_core\_company\_only** system property and set its value to **True**.
 
-    For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 6.  Normalize data in the CMDB table.
 
@@ -83,7 +83,7 @@ Role required: nds\_admin
 
     3.  On the form, fill in the fields.
 
-        For a description of the field values, see [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-account-form.md).
+        For a description of the field values, see [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-account-form.md).
 
     4.  Select **Submit**.
 

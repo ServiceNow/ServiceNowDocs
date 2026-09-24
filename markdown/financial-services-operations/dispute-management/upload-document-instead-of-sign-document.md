@@ -3,11 +3,11 @@ title: Upload Document button appears instead of Sign Document button in the WSU
 description: This reference topic provides troubleshooting steps to resolve a customer or contact seeing the Upload Document button instead of the Sign Document button in the Customer signature required playbook activity. This activity is for the Written Statement for Unauthorized Debit \(WSUD\) document verification task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/upload-document-instead-of-sign-document.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: topic
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [WSUD Troubleshooting, Reference, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -33,5 +33,5 @@ The Document Templates plugin \(sn\_doc\) is not installed.
 2.  Once the template is installed, refresh the playbook activity page.
 
 
-**Parent Topic:**[Written Statement for Unauthorized Debit \(WSUD\) Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/wsud-troubleshooting-reference.md)
+**Parent Topic:**[Written Statement for Unauthorized Debit \(WSUD\) Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/wsud-troubleshooting-reference.md)
 

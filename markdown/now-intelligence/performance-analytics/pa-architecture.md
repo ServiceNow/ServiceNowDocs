@@ -3,11 +3,11 @@ title: Performance Analytics architecture
 description: Before using Performance Analytics, familiarize yourself with how the layers of architecture take you from raw database entries to insightful visuals on dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-architecture.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Implement Performance Analytics, Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -118,5 +118,5 @@ Performance Analytics Technical Expert, with at least the pa\_data\_collector ro
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/implementing-pa.md)
+</table>**Parent Topic:**[Implement Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/implementing-pa.md)
 

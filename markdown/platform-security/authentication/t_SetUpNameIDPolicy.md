@@ -3,11 +3,11 @@ title: Set up a NameID policy for SAML
 description: Set up a NameID policy for SAML. SAML 2.0 requires the IdP to exchange a NameID token with the service provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SetUpNameIDPolicy.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

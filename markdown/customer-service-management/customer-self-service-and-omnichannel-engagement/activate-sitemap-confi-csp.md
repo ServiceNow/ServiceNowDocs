@@ -3,13 +3,13 @@ title: Activate the sitemap configuration and definition records for the Consume
 description: Include knowledge articles and catalogs in your sitemap by activating the sitemap configuration and definition records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-sitemap-confi-csp.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Activate the sitemap configuration and definition records for the Consumer Service Portal
@@ -18,7 +18,7 @@ Include knowledge articles and catalogs in your sitemap by activating the sitema
 
 ## Before you begin
 
--   [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/activate-sitemap-generator.md)
+-   [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/activate-sitemap-generator.md)
 -   Verify that an unauthenticated user can access the knowledge base article and catalogs by accessing it as a guest user.
 -   Verify that the Public option is selected on the Knowledge Article form or Service Catalog page form.
 
@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-Beginning with the Australia release, the Sitemap Generator configuration is available with the base system and is inactive by default.
+Beginning with the Brazil release, the Sitemap Generator configuration is available with the base system and is inactive by default.
 
 ## Procedure
 
@@ -52,5 +52,5 @@ All active sitemaps regenerate once in a day and include content from any of the
 **Related topics**  
 
 
-[Sitemap generator for the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/sitemap-generator-csp.md)
+[Sitemap generator for the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/sitemap-generator-csp.md)
 

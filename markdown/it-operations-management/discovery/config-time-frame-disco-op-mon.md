@@ -3,11 +3,11 @@ title: Configure the date range for a visualization
 description: Update the data time frame for individual visualizations on the Discovery Operations Monitor dashboard. By default, each visualization displays data from the last 7 days. You can extend the time frame up to 30 days, which is the maximum data retention period for this dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/config-time-frame-disco-op-mon.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Discovery Operations Monitor dashboard, Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -52,9 +52,9 @@ Role required: discovery\_admin
 **Related topics**  
 
 
-[Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-operations-monitor.md)
+[Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/disco-operations-monitor.md)
 
-[Configure the time interval for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-interval-disco-op-mon.md)
+[Configure the time interval for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-interval-disco-op-mon.md)
 
-[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
+[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dashboard-tasks.md)
 

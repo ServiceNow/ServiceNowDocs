@@ -3,11 +3,11 @@ title: Configure MID Web Server API key authentication
 description: Authenticate incoming requests from clients to the MID Web Server extension using API key authentication. API authentication is a secure and simple way to authenticate your request. You can create or modify a MID Web Server API key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/mid-web-server-api-key-authentication.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Authenticate incoming requests from clients to the MID Web Server extension usin
 
 ## Before you begin
 
-Create a MID Web Server extension to use API Key authentication, as described in [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md). Ensure that you select **API Key** in the extension's **Authentication Type** field.
+Create a MID Web Server extension to use API Key authentication, as described in [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md). Ensure that you select **API Key** in the extension's **Authentication Type** field.
 
 Role required: event\_mgmt\_admin
 
@@ -30,7 +30,7 @@ When working in the global domain while Domain Separation is enabled, API keys a
 
 You can configure API keys to expire on a specified date.
 
-When you create or update an extension to use API key authentication, the system checks for an available API key. If none exists, the system creates one.
+When creating or updating an extension to use API key authentication, the system checks for an available API key. If none is available, the system creates one.
 
 ## Procedure
 
@@ -93,7 +93,7 @@ Option for setting an expiration date for the API key.Expired, deactivated, or d
         3.  In the **Related Links** section, select **View API Key**.
         4.  Copy the API key that appears in the MID Web Server dialog box.
 
-            When connecting to a MID Web Server extension configured with API Key authentication, place an API key in the Authorization header. The API key must be one that the extension has access to, in the following format:
+            When connecting to a MID Web Server extension configured with API Key authentication, place an API key in the Authorization header. The API key must be one that the extension has access to. Use the following format:
 
             `Key <API_KEY>`
 

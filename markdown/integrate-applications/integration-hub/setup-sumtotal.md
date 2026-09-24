@@ -3,7 +3,7 @@ title: Set up the SumTotal spoke
 description: Integrate your ServiceNow instance with the SumTotal application host so the SumTotal spoke can perform actions on the SumTotal server.Integrate your ServiceNow instance with the SumTotal host by setting up the connection and credential record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sumtotal.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

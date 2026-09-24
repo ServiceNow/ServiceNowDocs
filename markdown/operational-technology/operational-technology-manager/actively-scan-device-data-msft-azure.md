@@ -3,11 +3,11 @@ title: Import OT devices using the Standard mode of discovery
 description: Use the Service Graph Connector for Microsoft Defender for IoT \(Azure\) to import Operational Technology \(OT\) devices discovered through the Standard mode of discovery from Microsoft Defender for IoT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/actively-scan-device-data-msft-azure.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Graph Connector for Microsoft Defender for IoT \(Azure\), Integrate, Operational Technology Manager, Operational Technology]
 ---
@@ -59,7 +59,7 @@ The **Site Mappings** table allows the admin to perform site mappings between th
 
 Once the Site Mappings record is created and you perform the device import, devices are imported through the sensor and active scan. The devices are then assigned to an ISA entity \[cmdb\_ci\_ot\_isa\_entity\] site in ServiceNow.
 
-**Note:** The metadata information from the site record, such as Assigned to and Owned by, are copied to the imported devices using the Service Graph Connector's system properties. For more information about the system properties for the Service Graph Connector for Microsoft Defender for IoT \(Azure\), see [Configure guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-azure.md).
+**Note:** The metadata information from the site record, such as Assigned to and Owned by, are copied to the imported devices using the Service Graph Connector's system properties. For more information about the system properties for the Service Graph Connector for Microsoft Defender for IoT \(Azure\), see [Configure guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-azure.md).
 
-**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-azure.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-azure.md)
 

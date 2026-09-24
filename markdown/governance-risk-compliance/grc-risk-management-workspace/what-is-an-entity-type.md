@@ -3,11 +3,11 @@ title: Entity types in GRC
 description: Entity types enable you to find and create entities that match a set of filter conditions. Entity types also enable you to create risks and controls for each entity without spending much time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/what-is-an-entity-type.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring the entities, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,10 +24,10 @@ Grouping entities also helps in rolling up and aggregating the risk scores after
 
 \[Omitted image "entity-types-in-grc.png"\] Alt text: Graphical representation of the given example
 
-**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manage-entities.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/manage-entities.md)
 
 **Related topics**  
 
 
-[Entity classes in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/entity-class.md)
+[Entity classes in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/entity-class.md)
 

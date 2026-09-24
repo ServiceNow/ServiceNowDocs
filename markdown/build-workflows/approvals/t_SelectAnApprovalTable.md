@@ -3,11 +3,11 @@ title: Select an approval table
 description: By default, activating the Approval with E-signature plugin enables e-signature for all tables for which an approval exists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/t\_SelectAnApprovalTable.html
-release: australia
+release: brazil
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Build workflows]
 ---

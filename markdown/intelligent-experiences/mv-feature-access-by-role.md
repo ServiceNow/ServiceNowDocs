@@ -3,11 +3,11 @@ title: Feature access by role
 description: Access to features varies by role. The value, engagement, and cost features differ between AI stewards and product owners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-feature-access-by-role.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Reference, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reference, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Feature access by role

@@ -3,14 +3,14 @@ title: Create an IDoc outbound message configuration in Zero Copy Connector for 
 description: Use IDoc outbound message configurations to create and change certain SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/create-an-idoc-outbound-message-configuration.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-08-07"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, outbound, message]
-breadcrumb: [IDoc, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [IDoc, Adding an entity to a model, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create an IDoc outbound message configuration in Zero Copy Connector for ERP
@@ -41,8 +41,10 @@ Role required: sn\_erp\_integration.erp\_admin
 
     \[Omitted image "erp-create-idoc-outbound-message1.png"\] Alt text: New outbound message configuration record with fields completed.
 
-    For a detailed description of the field values, see [Outbound message configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-new-outbound-message-configuration-fields.md).
+    For a detailed description of the field values, see [Outbound message configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-new-outbound-message-configuration-fields.md).
 
 9.  Select **Save**.
 
+
+**Parent Topic:**[Creating and changing SAP business entities with IDoc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)
 

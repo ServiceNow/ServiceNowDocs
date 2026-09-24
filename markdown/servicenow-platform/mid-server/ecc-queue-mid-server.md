@@ -3,11 +3,11 @@ title: MID Server ECC Queue
 description: The External Communication Channel \(ECC\) Queue is a connection point between an instance and the MID Server. Jobs that the MID Server needs to perform are saved in this queue until the MID Server is ready to handle them.The ECC Queue allows you to create ECC Queue messages, access MID Server log entries, and retrieve statistics from an individual MID Server record.The ECC queue is a connection point between an instance and the MID Server. Because the ECC queue processes commands and scripts in managed environments, it is essential to understand the security boundaries and shared responsibilities for secure deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/ecc-queue-mid-server.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 keywords: [ECC queue, MID Server security, security considerations]
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
@@ -32,7 +32,7 @@ The MID Server polls the ECC queue at the maximum regular interval defined in th
 
 \[Omitted image "MIDServerPollingArchitectureDiagram.png"\] Alt text: MID Server ECC queue polling process
 
-**Note:** The AMB client on the MID Server does not work in all environments and might need to be disabled to avoid performance issues. To disable AMB in your environment, set the **mid.disable\_amb** parameter to **true**. When you disable AMB, the MID Server no longer receives notifications for each new ECC queue output record. See  **mid.poll.time** in  [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md) for more information.
+**Note:** The AMB client on the MID Server does not work in all environments and might need to be disabled to avoid performance issues. To disable AMB in your environment, set the **mid.disable\_amb** parameter to **true**. When you disable AMB, the MID Server no longer receives notifications for each new ECC queue output record. See  **mid.poll.time** in  [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-parameters.md) for more information.
 
 ## ECC Queue information
 
@@ -67,7 +67,7 @@ Topic
 
 </td><td>
 
-The name of the probe the MID server ran. If you are using a pattern for discovery, the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-HorizontalPatternProbe.md) [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-HorizontalPatternProbe.md) appears.
+The name of the probe the MID server ran. If you are using a pattern for discovery, the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r-HorizontalPatternProbe.md) [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r-HorizontalPatternProbe.md) appears.
 
 </td></tr><tr><td>
 
@@ -233,7 +233,7 @@ Harden the environment where the MID Server is deployed. Hardening measures incl
 -   OS-level controls: On Linux, use kernel security modules such as seccomp or AppArmor to restrict what resources the MID Server can access locally and remotely.
 -   Network controls: Limit the outbound network access of the MID Server to only what its discovery and integration workflows require.
 
-For more information, see [Operating system security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/operating-system-security.md) and [Virtual infrastructure security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/virtual-infrastructure-security.md).
+For more information, see Operating system security and Virtual infrastructure security.
 
 ### Server-side request forgery via HTTP probe
 

@@ -3,11 +3,11 @@ title: Use Clinician Portal to find and manage vaccination appointments for user
 description: As a user with the sn\_vaccine\_sm.clinician role, you can find vaccination appointments for users, view all of their upcoming appointments for a particular location, view, and work on a vaccination record, mark an appointment as a no-show, cancel an appointment, and more, all from within a single portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-vam-clinician-experience.html
-release: australia
+release: brazil
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -75,5 +75,5 @@ If there are multiple vaccines booked under the same appointment and if the clin
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/using-vaccine-administration-management.md)
+</table>**Parent Topic:**[Using Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/vaccine-administration-management/using-vaccine-administration-management.md)
 

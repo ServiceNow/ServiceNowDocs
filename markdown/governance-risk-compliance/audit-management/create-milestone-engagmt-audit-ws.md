@@ -3,13 +3,13 @@ title: Create a milestone for an engagement
 description: Create a milestone for an engagement to track the progress of an engagement. You can also add audit tasks to a milestone.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-milestone-engagmt-audit-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit Supervisor Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a milestone for an engagement
@@ -28,7 +28,7 @@ After you create milestones for an engagement, you can also add audit tasks to t
 
 You can assign a milestone to a user who is responsible for the milestone. The assigned user must have the sn\_audit.user role. The assigned user then receives a notification about the assignment.
 
-If an engagement moves to the Follow Up state, and if there are no open audit tasks, open milestones, or open observations, then the engagement moves to the **Closed** state.
+If an engagement moves to the Follow Up state, it can automatically close. The engagement moves to the **Closed** state when there are no open audit tasks, open milestones, or open observations.
 
 ## Procedure
 

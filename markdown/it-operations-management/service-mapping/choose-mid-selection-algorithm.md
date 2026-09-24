@@ -3,11 +3,11 @@ title: Choose MID Server selection algorithm
 description: Service Mapping supports the new and the legacy algorithms for selecting a MID Server for a discovery request. Depending on your organization needs, you can choose which algorithm to enable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/choose-mid-selection-algorithm.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [MID Server configuration for Service Mapping, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -50,16 +50,16 @@ By default, Service Mapping uses the legacy algorithm in all deployments upgrade
 
     2.  Click **Save**.
 
-    3.  Configure MID Server selection criteria as described in [MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md).
+    3.  Configure MID Server selection criteria as described in [MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md).
 
-3.  To enable the legacy algorithm for the Australia deployment:
+3.  To enable the legacy algorithm for the Brazil deployment:
 
     1.  Select the **Enable Legacy MID selection algorithm** check box.
 
     2.  Click **Save**.
 
-    3.  Configure MID Server selection criteria as described in [MID Server configuration for Service Mapping in upgraded deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/MID-selection-criteria-upgrade.md).
+    3.  Configure MID Server selection criteria as described in [MID Server configuration for Service Mapping in upgraded deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/MID-selection-criteria-upgrade.md).
 
 
-**Parent Topic:**[MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md)
+**Parent Topic:**[MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md)
 

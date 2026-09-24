@@ -3,11 +3,11 @@ title: Create a JDBC activity
 description: Create a custom JDBC activity to automate SQL commands and stored procedure calls to relational databases from workflow.The JDBC Connection \[jdbc\_connection\] table provides the information custom JDBC Orchestration activities use to connect to various target databases.The ServiceNow activity designer allows you to map parameter values in a JDBC test payload to variables in the Outputs tab automatically.You can use Orchestration to run a stored procedure on MySQL, Oracle DB, and MS-SQL databases.You can test the input parameters of a custom JDBC activity during its development without having to run the activity in a workflow context.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_CreateAJDBCActivity.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -22,29 +22,29 @@ Role required: activity\_admin, activity\_creator
 
 ## About this task
 
-The JDBC activity template allows you to execute ANSI SQL statements or stored procedures on a target database. Support for stored procedures with IN, OUT, and INOUT parameters are available in Australia. To learn how to set up these parameters, see [JDBC stored procedure parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md).
+The JDBC activity template allows you to execute ANSI SQL statements or stored procedures on a target database. Support for stored procedures with IN, OUT, and INOUT parameters are available in Brazil. To learn how to set up these parameters, see [JDBC stored procedure parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md).
 
-**Note:** If you are transferring bulk data into a ServiceNow instance from an external data source, use [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md). The JDBC activities allow you to transfer data between external data sources and ServiceNow within a workflow. It is not intended to replace the bulk import features of data sources.
+**Note:** If you are transferring bulk data into a ServiceNow instance from an external data source, use [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md). The JDBC activities allow you to transfer data between external data sources and ServiceNow within a workflow. It is not intended to replace the bulk import features of data sources.
 
 ## Procedure
 
-1.  Create or verify your [JDBC credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_JDBCCredentialsForm.md).
+1.  Create or verify your [JDBC credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_JDBCCredentialsForm.md).
 
     Your JDBC credentials must have permission for the target database and proper configuration for the corresponding JDBC connection. Credentials must be set up before you can create a JDBC activity.
 
-2.  Create or verify your [JDBC connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md).
+2.  Create or verify your [JDBC connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md).
 
     Your JDBC connection must be configured with valid JDBC credentials set up before you can create a JDBC activity.
 
-3.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md).
+3.  Create a [custom activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/create-custom-activities.md).
 
     This action creates a custom activity using a template.
 
-4.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md), configure the JDBC Execution Command.
+4.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/CreateInputVariables.md), configure the JDBC Execution Command.
 
-<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d600576e163">
+<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d593431e163">
 
-**[JDBC Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md)**
+**[JDBC Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md)**
 
 </td><td>
 
@@ -54,7 +54,7 @@ Configure or reference the appropriate JDBC Connection for the database. The con
 -   Database instance name
 
 
-</td></tr><tr><td id="d600576e194">
+</td></tr><tr><td id="d593431e194">
 
 **Credential**
 
@@ -62,7 +62,7 @@ Configure or reference the appropriate JDBC Connection for the database. The con
 
 JDBC credential to use for your JDBC connection.
 
-</td></tr><tr><td id="d600576e203">
+</td></tr><tr><td id="d593431e203">
 
 **SQL statement**
 
@@ -70,7 +70,7 @@ JDBC credential to use for your JDBC connection.
 
 Input the ANSI SQL to execute on the JDBC target database. **Note:** This field is hidden when the Stored Procedure check box is selected.
 
- You can [map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md) you created to configure the SQL statements. By default, you can run the following SQL statements. -   select
+ You can [map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/CreateInputVariables.md) you created to configure the SQL statements. By default, you can run the following SQL statements. -   select
 -   insert
 -   update
 -   delete
@@ -79,7 +79,7 @@ Input the ANSI SQL to execute on the JDBC target database. **Note:** This field 
 -   describe
 For added security measure, a MID Server property controls the operations that this JDBCOrchestrationProbe executes, which restricts the SQL commands used. This property protects against potentially destructive commands, such as drop database. The mid.property.jdbc\_operations contains the MID Server property controls.**Note:** You cannot run multiple statements of different types. For example, you cannot run a select statement and an update statement together, but you can run two insert statements. However, you cannot run multiple select statements in this activity.
 
-</td></tr><tr><td id="d600576e250">
+</td></tr><tr><td id="d593431e250">
 
 **Maximum rows**
 
@@ -87,7 +87,7 @@ For added security measure, a MID Server property controls the operations that t
 
 Maximum number of records to retrieve from database. The default is 1000.
 
-</td></tr><tr><td id="d600576e259">
+</td></tr><tr><td id="d593431e259">
 
 **Maximum payload size \(KB\)**
 
@@ -95,7 +95,7 @@ Maximum number of records to retrieve from database. The default is 1000.
 
 You can set a limit on the maximum payload size of data retrieved from the database. The default is 64 kilobytes.
 
-</td></tr><tr><td id="d600576e269">
+</td></tr><tr><td id="d593431e269">
 
 **Connection timeout**
 
@@ -103,7 +103,7 @@ You can set a limit on the maximum payload size of data retrieved from the datab
 
 How long the activity waits to make the connection. This field is populated automatically from the data source, but can be changed for this activity.
 
-</td></tr><tr><td id="d600576e278">
+</td></tr><tr><td id="d593431e278">
 
 **Query timeout**
 
@@ -111,7 +111,7 @@ How long the activity waits to make the connection. This field is populated auto
 
 Elapsed time to wait after running the query until the data is returned. This field is populated automatically from the data source, but can be changed for this activity.
 
-</td></tr><tr><td id="d600576e287">
+</td></tr><tr><td id="d593431e287">
 
 **Required MID Server capabilities**
 
@@ -119,30 +119,30 @@ Elapsed time to wait after running the query until the data is returned. This fi
 
 MID Server to use for querying JDBC, by capabilities. By default, the system selects a MID Server that has JDBC capability.
 
-</td></tr><tr><td id="d600576e296">
+</td></tr><tr><td id="d593431e296">
 
 **Use stored procedure**
 
 </td><td>
 
-If checked, you can run a stored procedure on MySQL, Oracle, or SQL Server databases by entering the procedure name and parameters. See [JDBC stored procedure parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md).
+If checked, you can run a stored procedure on MySQL, Oracle, or SQL Server databases by entering the procedure name and parameters. See [JDBC stored procedure parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md).
 
 </td></tr></tbody>
-</table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/automap-output-variable-inputs.md).
+</table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/automap-output-variable-inputs.md).
 
 
 ## What to do next
 
--   [Test JDBC activity inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md)
--   Use [auto-mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/automap-output-variable-inputs.md) to generate outputs and parsing rules \(recommended for JDBC\)
--   If you do not use auto-mapping, you can manually [create output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAnOutputVariable.md) and [create parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md)
+-   [Test JDBC activity inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md)
+-   Use [auto-mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/automap-output-variable-inputs.md) to generate outputs and parsing rules \(recommended for JDBC\)
+-   If you do not use auto-mapping, you can manually [create output variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAnOutputVariable.md) and [create parsing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md)
 
-**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ActivityDesignerComponents.md)
+**Parent Topic:**[Orchestration custom activity templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/c_ActivityDesignerComponents.md)
 
 **Related topics**  
 
 
-[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md)
+[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/create-custom-activities.md)
 
 ## Create a JDBC connection for an Orchestration activity
 
@@ -158,7 +158,7 @@ Role required: activity\_admin, activity\_creator
 
 ### About this task
 
-[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_JDBCCredentialsForm.md) [JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_JDBCCredentialsForm.md) are retrieved separately by the activity designer template and support external credential storage, such as [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_CyberArkCredStorageIntegrate.md).
+[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_JDBCCredentialsForm.md) [JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_JDBCCredentialsForm.md) are retrieved separately by the activity designer template and support external credential storage, such as [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_CyberArkCredStorageIntegrate.md).
 
 ### Procedure
 
@@ -361,7 +361,7 @@ The JDBC driver to use for this connection when it is not a default database. **
 **Related topics**  
 
 
-[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_JDBCCredentialsForm.md)
+[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_JDBCCredentialsForm.md)
 
 ## Auto-map JDBC activity output variables
 
@@ -417,7 +417,7 @@ There is support of multiple data types, with the following limitations:
 -   ResultSet is the first result set coming back from database server.
 -   MS-SQL does not support INOUT parameters. If you use INOUT parameters, the Activity Template transparently maps them to OUT parameters.
 
-**Note:** If you do not want to do a validation of data types in stored procedure parameters, like the legacy behavior, you set the glide.stored\_proc.data\_type.validation as false. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) for more information.
+**Note:** If you do not want to do a validation of data types in stored procedure parameters, like the legacy behavior, you set the glide.stored\_proc.data\_type.validation as false. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerProperties.md) for more information.
 
 <table id="table_vry_jqc_cz"><thead><tr><th>
 
@@ -524,7 +524,7 @@ This test executes only the input parameters against an endpoint and not the pre
 
     \[Omitted image "TestDesignerJDBCInputsResponse.png"\] Alt text: Response payload from inputs test
 
-5.  To map appropriate parameter values in the payload to variables in the **Outputs** stage automatically, select an [auto-mapping option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md).
+5.  To map appropriate parameter values in the payload to variables in the **Outputs** stage automatically, select an [auto-mapping option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/orchestration/t_CreateAJDBCActivity.md).
 
 6.  Click the **X** in the upper right corner of the window to close it.
 

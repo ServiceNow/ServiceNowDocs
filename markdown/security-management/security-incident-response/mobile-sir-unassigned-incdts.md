@@ -3,11 +3,11 @@ title: View, edit and assign unassigned security incidents with the Security Inc
 description: From your mobile device, view, edit, and assign unassigned Security Incident Response \(SIR\) incidents. View related lists and the audit trail of work notes for more details about incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mobile-sir-unassigned-incdts.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ From the list of records, assign an open, unassigned security incident to yourse
 
 ## Procedure
 
-1.  If you aren't logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
+1.  If you aren't logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
 
 2.  With the Security Incidents landing screen displayed, tap **Unassigned Incidents**.
 
@@ -34,23 +34,23 @@ From the list of records, assign an open, unassigned security incident to yourse
 
     The Unassigned Incidents screen is displayed with a list of unassigned security incident records.
 
-3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-search.md) to search for security incidents that match specific criteria.
+3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sir-search.md) to search for security incidents that match specific criteria.
 
-    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon.\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
+    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon.\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 
 4.  To assign or reassign an open security incident record directly from the list, with the list of open unassigned security incident records displayed, swipe left on a record to open the menu.
 
 5.  Choose one from the menu to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d233959e156">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d233479e156">
 
 Option
 
-</th><th align="left" id="d233959e159">
+</th><th align="left" id="d233479e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d233959e165">
+</th></tr></thead><tbody><tr><td id="d233479e165">
 
 **Assign to Me**
 
@@ -58,7 +58,7 @@ Description
 
 Assign the security incident to yourself. If the security incident is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d233959e174">
+</td></tr><tr><td id="d233479e174">
 
 **Reassign**
 
@@ -77,15 +77,15 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**.
 
 7.  On the open record that is displayed, choose one option from the following table to continue.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d233959e232">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d233479e232">
 
 Option
 
-</th><th align="left" id="d233959e235">
+</th><th align="left" id="d233479e235">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d233959e241">
+</th></tr></thead><tbody><tr><td id="d233479e241">
 
 **Menu icon**
 
@@ -95,7 +95,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 -   To assign or reassign the incident, tap **Reassign** or **Assign to Me**. Follow the instructions described in the previous table.
  After you complete your edits, tap **Submit** to save your changes and update the security incident.
 
-</td></tr><tr><td id="d233959e274">
+</td></tr><tr><td id="d233479e274">
 
 **Activity Stream tab**
 
@@ -103,7 +103,7 @@ From the menu that is displayed, choose from the following options.-   Tap **Edi
 
 With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon to add a work note or attach a file.
 
-</td></tr><tr><td id="d233959e286">
+</td></tr><tr><td id="d233479e286">
 
 **Related List tab**
 
@@ -113,7 +113,7 @@ With the Related List tab selected, view the items on any of the Related Lists t
 
  Tap an item on the list that is displayed to view the details for a related list. From the lists of items that are displayed, tap an item to continue to view the activity streams and related lists associated with the parent security incident.
 
-</td></tr><tr><td id="d233959e301">
+</td></tr><tr><td id="d233479e301">
 
 **Screen icons at the bottom of the screen.**
 

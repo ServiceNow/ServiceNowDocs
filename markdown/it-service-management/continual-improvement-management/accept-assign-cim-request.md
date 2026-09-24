@@ -3,11 +3,11 @@ title: Accept an improvement
 description: Accept and assign a new improvement request so it can be assessed for approval. You can reject the improvement request if it does not align with company strategic objectives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/accept-assign-cim-request.html
-release: australia
+release: brazil
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing improvements, Continual Improvement Management, IT Service Management]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
     1.  On the Improvement Initiative form, unlock the **Strategies** field to access your company strategic objectives, then select the lookup list.
 
-    2.  Select the [enterprise strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/overview-business-planning.md) aligned with the improvement request.
+    2.  Select the [enterprise strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/overview-business-planning.md) aligned with the improvement request.
 
         **Note:** Only the Improvement Manager can create a strategy.
 
@@ -101,10 +101,10 @@ As part of the acceptance process, the Improvement Manager determined that KPI p
 |Additional comments \(Customer visible\)|--|
 |Work notes|--|
 
-**Parent Topic:**[Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
+**Parent Topic:**[Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
 
 **Related topics**  
 
 
-[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
+[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
 

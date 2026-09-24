@@ -3,11 +3,11 @@ title: ValidateLowestCommonTable
 description: The ValidateLowestCommonTable validator reports the lowest table in the Glide hierarchy that the workflow uses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/r\_VldtLowestCommonTable.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow validator, Workflow validation, Workflow management, Classic Workflow, Build workflows]
 ---
@@ -31,7 +31,7 @@ For example, the Requested Item \[sc\_req\_item\] table is the lowest table in a
 -   Suggested Action: None
 -   Publishable: Yes
 -   Runnable: Yes
--   Related Information: [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_WorkflowActivities.md)
+-   Related Information: [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-activities/c_WorkflowActivities.md)
 
-**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/legacy-workflow/r_WorkflowValidator.md)
 

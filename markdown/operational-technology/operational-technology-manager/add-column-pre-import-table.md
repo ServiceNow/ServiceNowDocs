@@ -3,11 +3,11 @@ title: Add a matching column to the pre-import table
 description: Add a column to the SG-OT Excel Pre Import table that matches the custom column on the staging table, giving the imported value a source field for mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/add-column-pre-import-table.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [pre-import table, custom column, dictionary entry]
 breadcrumb: [Add a custom column to the staging table, Configuring the Service Graph Connector for Microsoft Excel, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
@@ -19,7 +19,7 @@ Add a column to the SG-OT Excel Pre Import table that matches the custom column 
 
 ## Before you begin
 
-A custom column must be added to the staging table before completing this task. For more information, see [Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md).
+A custom column must be added to the staging table before completing this task. For more information, see [Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md).
 
 Role required: ot\_excel\_import\_user
 
@@ -44,7 +44,7 @@ Role required: ot\_excel\_import\_user
 
 ## What to do next
 
-Map the source field on the pre-import table to the target field on the staging table in the table transform map. For more information, see [Map the custom field in the transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/map-custom-field-transform.md).
+Map the source field on the pre-import table to the target field on the staging table in the table transform map. For more information, see [Map the custom field in the transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/map-custom-field-transform.md).
 
-**Parent Topic:**[Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)
+**Parent Topic:**[Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)
 

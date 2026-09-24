@@ -1,13 +1,13 @@
 ---
 title: Using conversational search in ServiceNow Otto panel
-description: Get common case-related information from the KBs within the case record by asking questions in the panel.
+description: Get common case-related information from the KBs within the case record by asking questions in the Now Assist panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/using-conversational-search-in-now-assist-panel.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Manage
 
 # Using conversational search in ServiceNow Otto panel
 
-Get common case-related information from the KBs within the case record by asking questions in the panel.
+Get common case-related information from the KBs within the case record by asking questions in the Now Assist panel.
 
 This video shows how to get common case-related information from your Knowledge Bases directly within the case record by asking questions in the ServiceNow Otto panel.
 
@@ -36,7 +36,7 @@ To use the feature, do the following:
 2.  From the header menu, select the AI icon to open the panel.
 3.  In the panel, type in a question related to a case.
 
-To get started with configuring the ServiceNow Otto Q&amp;A Skill, see the [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md) instructions.
+To get started with configuring the ServiceNow Otto Q&amp;A Skill, see the [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md) instructions.
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

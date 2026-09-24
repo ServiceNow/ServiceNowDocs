@@ -1,71 +1,613 @@
 ---
-title: CPQ and Salesforce base package overview
-description: The CPQ and Salesforce base package lets the user use Salesforce Product2 records as configurable products in CPQ, launch the CPQ Admin from Salesforce, and integrate the two applications in other useful ways.
+title: Runtime APIs
+description: CPQ provides a set of APIs for building front-end applications and manipulating configurations. These are the buyside or runtime APIs. Customers or end users can use these APIs to create, update, and save CPQ configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik\_io-salesforce\_base\_package\_overview.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 7
+keywords: [Runtime APIs]
 breadcrumb: [Capturing data from a configuration when amending a subscription contract, CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# CPQ and Salesforce base package overview
+# Runtime APIs
 
-The CPQ and Salesforce base package lets the user use Salesforce Product2 records as configurable products in CPQ, launch the CPQ Admin from Salesforce, and integrate the two applications in other useful ways.
+CPQ provides a set of APIs for building front-end applications and manipulating configurations. These are the buyside or runtime APIs. Customers or end users can use these APIs to create, update, and save CPQ configurations.
 
-The base package provides the minimum components and configuration for CPQ interacting with Salesforce. This package allows the user to:
+Runtime APIs support the standard create, read, update, and delete functions for CPQ configurations, along with the ability to retrieve bill of materials \(BOM\) data from CPQ.
 
--   Enable Salesforce Product2 records to be a CPQ configurable product through custom fields added to the Product2 record. For detailed steps, see [Configurable products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configurable-products-explore.md).
--   Launch the CPQ Admin from Salesforce, from enabled Product2 records
--   Embed the CPQ configuration UI in other Salesforce pages or applications outside CPQ using Visualforce. See [Use case: Embed CPQ UI in a Salesforce VisualForce page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use_case_embed_logik_io_ui_in_salesforce_visualforce_page.md).
--   Access CPQ admin APIs using Salesforce tokens. For detailed steps, see [Admin APIs: Authentication using a Salesforce-connected app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/admin-apis-authentication-via-salesforce-connected-app.md).
+To provide accessible CPQ runtime APIs and a quick start to end developers, see the open source repositories for API collections that can easily be imported and tested.
 
-## Product2 integration
+## Runtime API setup
 
-The base package includes the CPQ Enabled checkbox and a link View CPQ Setup that will be populated with a link to the CPQ Admin page when the CPQ Enabled checkbox is checked.
+The base URL format for all runtime API calls is `https://<tenant>.<sector>.<cpq>/api/`. The `<tenant>` is the listed tenant name and `<sector>` is the appropriate sector that the environment is located on \(usually `test` or `prod`\).
 
-## Configuration line item field mapper
+In Salesforce, find the CPQ tenant URL by going to **Setup**, searching for **Custom Settings** in the **Quick Find** box, and then selecting **Manage** next to CPQ Tenant.
 
-A flow is available that checks for user-created custom fields on the configuration line item \(LGK\_ConfigurationLineItem\_c\), and compares it to data in the Extended Information and Pricing Information fields on the record. If there are name matches, write the data from the Extended Information or Pricing Information to the custom fields.
+Runtime API calls are authenticated through a combination of a bearer token and the defined origin in the runtime client. The origins of the runtime application are set when a runtime client is created in the CPQ **Admin** settings.
 
-Name comparisons ignore case sensitivity, and the "\_c" suffix on field names is optional. For example, both "StartDate" and "startDate\_c" in Extended Information or Pricing Information will be considered a match for a Salesforce field named "StartDate\_c". If the map contains the same name both with and without the "\_c" suffix, the Salesforce will save the value of the field with the suffix.
+To authorize these API calls, add two headers to each request
 
-If the same field names exist in both Extended Information and Pricing Information, the value in Extended Information is written to the custom field.
+|Header|Key|Value|
+|------|---|-----|
+|Origin Header|origin|&lt;runtimeClientOrigin&gt;|
+|Authorization Header|authorization|Bearer &lt;runtimeToken&gt;|
 
-## Configuration line items
+Sample headers:
 
-LGK\_\_ConfigurationLineItem\_\_c stores the product data \(bill of materials\) that comes out of a configuration. \(See below for a complete list of fields.\)
+-   origin: localhost
+-   authorization: Bearer vEqzz4BVkb15Le11En8axEuN71FA6Vt\_cw
 
-The record stores the unique CPQ configuration ID that ties the data back to a specific CPQ configuration session and can be referenced in other flows or triggers in Salesforce.
+## Create a configuration
 
-Quote line fields can be populated with information from a CPQ configuration using records of this object. For additional information, see the following video: [Populate Quote Line Custom Fields](https://drive.google.com/file/d/1aojT9Pv0BceH2fLbUtEDmBmesn40YSto/view?usp=share_link)
+To create a configuration using the APIs, the create configuration call passes the ID of the configurable product and receives in response a CPQ configuration ID that can be used to specify this configuration in later calls.
 
-CPQ writes the configuration line item objects when a CPQ configuration is saved. The setting in CPQ Admin must be enabled.
+<table id="table_mtd_mls_mhc"><tbody><tr><td>
 
-**Note:** CPQ writes these records into Salesforce, but does not read them. Any changes made to these records will not affect a CPQ configuration.
+HTTP method
 
-\[Omitted image "cpq-fields-and-relationships-1.png"\] Alt text: Configuration line items
+</td><td>
 
-## Configuration field data
+POST
 
-LGK\_\_ConfigurationFieldData\_\_c stores the field values set in a configuration and contains the unique CPQ configuration ID. \(See below for a complete list of fields.\)
+</td></tr><tr><td>
 
-Creates records for every field from a configuration, even if it has a blank or null value.
+URL
 
-Writes the configuration Field Data objects when a CPQ configuration is saved. The setting in CPQ Admin also needs to be enabled.
+</td><td>
 
-**Note:** CPQ writes these records into Salesforce, but does not read them. Any changes made to these records will not affect a CPQ configuration.
+https://&lt;tenant&gt;.&lt;sector&gt;.logik.io/api/
 
-\[Omitted image "cpq-fields-and-relationships-2.png"\] Alt text: Configuration line items
+</td></tr><tr><td>
 
-## Configuration tenant
+Path parameters
 
-LGK\_\_ConfigurationTenant\_\_c controls aspects of the CPQ integration with Salesforce.
+</td><td>
 
-\[Omitted image "cpq-logik-tenant.png"\] Alt text: Tenant screen
+N/A
 
-A single record for org-wide defaults should be created and populated with the Administration URL and Runtime Configuration URL values of your CPQ instance.
+</td></tr><tr><td>
 
-For security reasons, the Runtime Client Token field is deprecated. The Skip CPQ Post Install Script checkbox disables product updates that run while installing CPQ's CPQ extension package.
+Query parameters
+
+</td><td>
+
+N/A
+
+</td></tr></tbody>
+</table>The two key pieces of the payload are:
+
+-   The ID of a CPQ enabled product, with a blueprint that is deployed
+-   The CPQ configuration UUID that is being reconfigured
+
+Sample URL:
+
+`https://dev1.test.cpq/api/`
+
+Sample payload:
+
+```
+{
+  "sessionContext": 
+  { 
+    "stateful": true
+  },
+  "partnerData": 
+  { 
+    "product":
+    {
+      "configuredProductId": "<Id of a Logik.io Enabled Product>", 
+    }
+  },
+  "fields": []
+}
+```
+
+**Note:** The configuration can also be initialized by passing field values to the fields array in the following format:
+
+```
+{
+  "variableName": "<Field Name>", "value": "<Field Value>"
+}
+```
+
+Sample response:
+
+```
+{
+  "fields": [<ARRAY OF FIELD OBJECTS>],
+  "uuid": "[BANK_ACCOUNT: [BANK_ACCOUNT: 08176434]]-9b1e-4fc8-b2c4-8aba2c35fda3", 
+  "revision": 0,
+  "relatedChanges": 
+  [
+    {
+      "key": "products",
+      "type": "PRODUCT"
+    }
+  ],
+  "valid": true, 
+  "messages": [], 
+  "productChange": true,
+  "products": [<ARRAY OF PRODUCTS IN CONFIGURATION>],
+  "total": 30,
+  "layouts": [<ARRAY OF LAYOUTS>]
+}
+```
+
+## Reconfigure a configuration
+
+The reconfigure API call is similar to the create configuration call. The reconfigure call passes the ID of the configurable product and an existing CPQ configuration ID. In return, it receives a new Configuration ID with the same field data as the prior configuration but allowing for changes to be made.
+
+**Note:** The **UUID** field in the response payload contains the new CPQ configuration ID. The new configuration ID should be used for all operations going forward in the reconfiguration process, including update, save, and retrieve BOM.
+
+<table id="table_vtd_mls_mhc"><tbody><tr><td>
+
+HTTP method
+
+</td><td>
+
+POST
+
+</td></tr><tr><td>
+
+URL
+
+</td><td>
+
+https://&lt;tenant&gt;.&lt;sector&gt;.logik.io/api/
+
+</td></tr><tr><td>
+
+Path parameters
+
+</td><td>
+
+N/A
+
+</td></tr><tr><td>
+
+Query parameters
+
+</td><td>
+
+N/A
+
+</td></tr></tbody>
+</table>The two key pieces of the payload are:
+
+-   The ID of a CPQ enabled product, with a blueprint that is deployed
+-   The CPQ configuration UUID that is being reconfigured
+
+Sample URL:
+
+`https://dev1.test.Logik/api/`
+
+Sample payload:
+
+```
+{
+  "sessionContext": 
+  { 
+    "stateful": true
+  },
+  "partnerData": 
+  { 
+    "product": 
+    {
+      "configuredProductId": "<Id of a Logik.io Enabled Product>", 
+      "configurationAttributes": 
+      {
+        "LGK__ConfigurationId__c": "<uuid>"
+      }
+    }
+  },
+  "fields": []
+}
+```
+
+Sample response:
+
+```
+{
+  "fields": [<ARRAY OF FIELD OBJECTS>],
+  "uuid": "d98d60cd-9379-4b7b-86fd-de828c340f80", 
+  "revision": 0,
+  "relatedChanges": 
+  [
+    {
+      "key": "products",
+      "type": "PRODUCT"
+    }
+  ],
+  "valid": true, 
+  "messages": [], 
+  "productChange": true,
+  "products": [<ARRAY OF PRODUCTS IN CONFIGURATION>],
+  "total": 30,
+  "layouts": [<ARRAY OF LAYOUTS>]
+}
+```
+
+## Update a configuration
+
+Updating a configuration requires a configuration to be loaded using either the create configuration or reconfigure API calls. The Update Configuration call passes a CPQ Configuration ID and any desired field values, and in response, receives the updated configuration from CPQ.
+
+<table id="table_pwh_rts_mhc"><tbody><tr><td>
+
+HTTP method
+
+</td><td colspan="4">
+
+PATCH
+
+</td></tr><tr><td>
+
+URL
+
+</td><td colspan="4">
+
+https://&lt;tenant&gt;.&lt;sector&gt;.cpq/api/
+
+</td></tr><tr><td>
+
+Path parameters
+
+</td><td colspan="4">
+
+N/A
+
+</td></tr><tr><td rowspan="3">
+
+Query Parameters
+
+</td><td>
+
+Name
+
+</td><td>
+
+Allowed Value
+
+</td><td>
+
+Required?
+
+</td><td>
+
+Default if not specified
+
+</td></tr><tr><td>
+
+delta
+
+</td><td>
+
+true \| false
+
+</td><td>
+
+optional
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+save
+
+</td><td>
+
+true \| false
+
+</td><td>
+
+optional
+
+</td><td>
+
+false
+
+</td></tr></tbody>
+</table>Query parameters:
+
+**delta**
+
+If delta=true, CPQ sends back only data that has changed based on the update that was sent. This is the default behavior.
+
+If delta=false, CPQ sends back the entire configuration and BOM data in response.
+
+**save**
+
+If save=true, CPQ saves this configuration and \(depending on the settings\) performs additional actions such as sending the data to a webhook or writing the data into custom objects in Salesforce. This is the behavior of the save configuration call.
+
+If save=false, CPQ updates this configuration and sends the updated data back in the response. This is the default behavior, and this is the behavior of the update call.
+
+Sample URL:
+
+`https://dev1.test.logik.io/api/fbc3d32c-7f86-4461-b144-986a0e8a5768`
+
+Sample payload:
+
+```
+{
+  "fields": 
+  [
+    {
+      "variableName": "orderQty", 
+      "value": 3
+    }
+  ]
+}
+```
+
+Sample response:
+
+```
+{
+  "fields": [],
+  "uuid": "fbc3d32c-7f86-4461-b144-986a0e8a5768", 
+  "revision": 0,
+  "relatedChanges": 
+  [
+    {
+      "key": "products",
+      "type": "PRODUCT"
+    }
+  ],
+  "valid": true, 
+  "messages": [], 
+  "productChange": true, 
+  "products": null
+}
+```
+
+## Save a configuration
+
+Saving a configuration is a subset of the update configuration. It requires a configuration to be loaded using either the create configuration or reconfigure API calls. The save configuration call passes a CPQ configuration ID and any desired field values, and in response, receives the updated configuration from CPQ.
+
+**Note:** The only difference between a normal update call and a save call is the addition of the query parameter **save=true** in the URL. If set to false or excluded, this is a normal update call.
+
+If you are using Salesforce as a backend, when the save API is called, CPQ asynchronously creates and populates the CPQ custom objects Configuration Field Data Sets and Configuration Line Items with the appropriate data.
+
+If your CPQ instance has a webhook configured, when the save API is called, the data is sent to the endpoint specified in the webhook setting. See [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-webhooks.md).
+
+**Note:** This ends the configuration session. Further edits or updates to the configuration must be started from the create configuration or reconfigure API calls.
+
+<table id="table_mrm_2ss_mhc"><tbody><tr><td>
+
+HTTP method
+
+</td><td colspan="4">
+
+PATCH
+
+</td></tr><tr><td>
+
+URL
+
+</td><td colspan="4">
+
+https://&lt;tenant&gt;.&lt;sector&gt;.cpq/api/
+
+</td></tr><tr><td>
+
+Path parameters
+
+</td><td colspan="4">
+
+N/A
+
+</td></tr><tr><td rowspan="3">
+
+Query Parameters
+
+</td><td>
+
+Name
+
+</td><td>
+
+Allowed Value
+
+</td><td>
+
+Required?
+
+</td><td>
+
+Default if not specified
+
+</td></tr><tr><td>
+
+delta
+
+</td><td>
+
+true \| false
+
+</td><td>
+
+optional
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+save
+
+</td><td>
+
+true \| false
+
+</td><td>
+
+optional
+
+</td><td>
+
+false
+
+</td></tr></tbody>
+</table>Query parameters:
+
+**delta**
+
+If delta=true, CPQ sends back only data that has changed based on the update that was sent. This is the default behavior.
+
+If delta=false, CPQ sends back the entire configuration and BOM data in response.
+
+**save**
+
+If save=true, CPQ saves this configuration and \(depending on the settings\) performs additional actions such as sending the data to a webhook or writing the data into custom objects in Salesforce.
+
+If save=false, CPQ updates this configuration and sends the updated data back in the response. This is the behavior of the update call.
+
+Sample cURL request:
+
+```
+curl --location --request PATCH 'https://mpanigrahi-demo.demo01.logik.io/api/6d0ef6fd-4c88-44f3-a296-b03421c369c6' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'Origin: https://mpanigrahi-demo.demo01.logik.io' \
+--header 'Authorization: <<RUNTIME TOKEN>>' \
+--header 'Cookie: LGKSESSION=NDA5OWJmNmEtNDhhOS00YTc4LTk3ODktZTg0OGYyOGIwMjZk' \
+--data '{"fields":[{"variableName":"name_d1","value":"megha","dataType":"text"}],"responseState":{"setPagination":{"collections":{"pageSize":10,"pageNumber":0},"fields":{"pageSize":10,"pageNumber":0},"componentTypes":{"pageSize":10,"pageNumber":0}},"defaultPagination":{"pageSize":10,"pageNumber":0},"searchValues":{}}}'
+```
+
+Sample response:
+
+```
+{
+"fields": [<ARRAY OF FIELD OBJECTS>],
+"uuid": "8817655d-7a11-41ef-a9fd-59c2855a3e4b", 
+"revision": 1,
+"valid": true, 
+"messages": [], 
+"productChange": false,
+"products": [<ARRAY OF PRODUCTS IN CONFIGURATION>],
+"total": 0
+}
+```
+
+## BOM APIs
+
+The BOM APIs are useful for retrieving the final output of configuration. The BOM APIs can be used to retrieve the entire BOM, or specific subsets, such as sales or manufacturing BOMs.
+
+The Get BOM call passes a CPQ Configuration ID and in return receives the current BOM generated by the current state of the configuration. There are 3 built in BOM types: "all", "sales" and "manufacturing". Additional BOM types can be dynamically added by setting the **bomType** field on the product.
+
+**Note:** If the BOM type is not included, the API returns the entire BOM.
+
+<table id="table_dvd_mls_mhc"><tbody><tr><td>
+
+HTTP method
+
+</td><td colspan="3">
+
+GET
+
+</td></tr><tr><td>
+
+URL
+
+</td><td colspan="3">
+
+https://&lt;tenant&gt;.&lt;sector&gt;.cpq/api/&lt;uuid&gt;/bom/&lt;bomType&gt;
+
+</td></tr><tr><td rowspan="3">
+
+Path Parameters
+
+</td><td>
+
+Name
+
+</td><td>
+
+Allowed Value
+
+</td><td>
+
+Required?
+
+</td></tr><tr><td>
+
+&lt;uuid&gt;
+
+</td><td>
+
+32 character CPQ configuration UUID
+
+</td><td>
+
+required
+
+</td></tr><tr><td>
+
+&lt;bomType&gt;
+
+</td><td>
+
+name of the BOM to retrieve
+
+</td><td>
+
+optional
+
+</td></tr><tr><td>
+
+Query parameters
+
+</td><td colspan="3">
+
+N/A
+
+</td></tr></tbody>
+</table>Sample response:
+
+```
+{"products": [
+        {
+            "id": "01t5f000006QKysAAG",
+            "quantity": 1,
+            "bomType": "Sales",
+            "orderNumber": 10,
+            "type": "accessory",
+            "name": "Amend Flow Bundle Sub",
+            "partnerId": "01t5f000006QKysAAG",
+            "productCode": "AFBC-SC",
+            "externalId": "",
+            "productFamily": "Miscellaneous",
+            "description": "",
+            "uom": "",
+            "price": 5,
+            "extPrice": 5,
+            "level": 0,
+            "rollUpPrice": 5
+        },
+        {
+            "id": "01t5f000006QKz2AAG",
+            "quantity": 1,
+            "bomType": "Sales",
+            "orderNumber": 20,
+            "type": "accessory",
+            "name": "Amend Flow Bundle Asset",
+            "partnerId": "01t5f000006QKz2AAG",
+            "productCode": "AFBC2-SC",
+            "externalId": "",
+            "productFamily": "Miscellaneous",
+            "description": "",
+            "uom": "",
+            "price": 25,
+            "extPrice": 25,
+            "level": 0,
+            "rollUpPrice": 25
+        }
+    ]}
+```
+
+For information about additional configuration APIs and sample scenarios, see [Additional configuration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/logik_io_additional_configuration_apis.md).
 

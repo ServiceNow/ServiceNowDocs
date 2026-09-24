@@ -3,11 +3,11 @@ title: Configuring Dynamic Translation for Agent Chat
 description: Activate Dynamic Translation for Agent Chat \(DTAC\) so chat conversations can be translated from one language to another.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/configure-dtac.html
-release: australia
+release: brazil
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
@@ -22,9 +22,9 @@ Activate Dynamic Translation for Agent Chat \(DTAC\) so chat conversations can b
 
 These tasks must be completed prior to activating DTAC:
 
--   [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/integrate-translation-service-provider.md)
--   [Migrate to version v3 of a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/migrate-v3-dynamic-translation.md)
--   [Translate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/translate-knowledge-article.md)
+-   [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/integrate-translation-service-provider.md)
+-   [Migrate to version v3 of a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/migrate-v3-dynamic-translation.md)
+-   [Translate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/translate-knowledge-article.md)
 
 ## Activating DTAC
 
@@ -32,9 +32,9 @@ DTAC translates chat conversations from one language to another. The preferred l
 
 DTAC is inactive by default. Before activating DTAC, the following requirements must be completed:
 
--   [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md)
--   [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md)
--   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateALanguage.md)
+-   [Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation.md)
+-   [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md)
+-   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateALanguage.md)
 
 Activate the Dynamic Translation for Agent Chat plugin \(com.glide.cs.dynamic.translation.agent.chat\).
 
@@ -53,7 +53,7 @@ and these system properties:
 
 Once an agent accepts a chat, they can see the chat history between the Virtual Agent and requester in their preferred language for more context.
 
-Virtual Agent topics must be set up in the desired languages prior to using DTAC. To learn more about how to set up topics, see [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+Virtual Agent topics must be set up in the desired languages prior to using DTAC. To learn more about how to set up topics, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 \[Omitted image "transfer-va-live-agent.png"\] Alt text: Transferring from virtual agent to live agent
 
@@ -92,7 +92,7 @@ DTAC does not support record card labels. For this functionality to operate, sys
 
 You can generate a report that counts the number of DTAC chats, to assess how many conversations use the DTAC option.
 
-Monitor the number of true values in the Translated column in the Interaction table. For more information, see the ServiceNow® product documentation on Interaction records in Workspace Interaction records in Agent Workspace.
+Monitor the number of true values in the Translated column in the Interaction table.
 
-**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
+**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

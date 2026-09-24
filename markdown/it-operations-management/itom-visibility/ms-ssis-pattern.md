@@ -3,11 +3,11 @@ title: Microsoft SQL Server Integration Services \(SSIS\) discovery
 description: The Discovery and Service Mapping application uses the SSIS pattern to find SQL Server Integration Services \(SSIS\) on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/ms-ssis-pattern.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Pattern, Discovery, SSIS, SQL, Server, Integration, Services]
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -33,7 +33,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of credentials**
 
-    On the ServiceNow AI Platform®, verify the configuration of the Windows credentials. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)
+    On the ServiceNow AI Platform®, verify the configuration of the Windows credentials. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_WindowsCredentialsForm.md)
 
 
 ## Data collected during horizontal discovery
@@ -51,5 +51,5 @@ Discovery populates the following data when running the SSIS pattern.
 |Installation directory|install\_directory|The SSIS install directory|
 |Instance Name|instance|The SSIS instance name|
 
-**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_Software.md)
 

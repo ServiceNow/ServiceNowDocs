@@ -3,11 +3,11 @@ title: Software Asset Management publisher pack for Oracle
 description: Use the Software Asset Management publisher pack for Oracle to track and optimize licensing for your Oracle products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/oracle-publisher-pack.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -66,9 +66,9 @@ Metric group
 Oracle
 
 </td></tr></tbody>
-</table>**Important:** The Software Asset Management application supports Bring Your Own License \(BYOL\) for Oracle Database and WebLogic Server across hybrid infrastructures. With BYOL support, you can track licenses for your Oracle Database and WebLogic Server in both on-premise and public cloud environments. For more information about Oracle BYOL support, see [Bring your own license or subscription to the public cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/byol-concepts.md).
+</table>**Important:** The Software Asset Management application supports Bring Your Own License \(BYOL\) for Oracle Database and WebLogic Server across hybrid infrastructures. With BYOL support, you can track licenses for your Oracle Database and WebLogic Server in both on-premise and public cloud environments. For more information about Oracle BYOL support, see [Bring your own license or subscription to the public cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/byol-concepts.md).
 
-Additionally, you can use the Oracle Global License Advisory Services \(GLAS\) to manage licensing of your deployed Oracle software products. For more information, see [Oracle GLAS data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/oracle-glas-discovery.md).
+Additionally, you can use the Oracle Global License Advisory Services \(GLAS\) to manage licensing of your deployed Oracle software products. For more information, see [Oracle GLAS data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-glas-discovery.md).
 
 ## Oracle license metrics
 
@@ -84,7 +84,7 @@ The Software Asset Management application supports the following license metrics
     -   Oracle WebLogic Server
     If a user operates a device that accesses any of these Oracle products, the NUP license metric licenses both the user and the device. Use this license metric in environments where users and devices are easily identifiable and countable.
 
-    **Important:** To use this license metric, you must create a corresponding client access record. Client access records enable you to track and manage the users or devices that are accessing a particular version of your software. The Software Asset Management application can then use the information in these client access records to reconcile your software. For more information on client access records, see [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) or [Add a software client access record in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md).
+    **Important:** To use this license metric, you must create a corresponding client access record. Client access records enable you to track and manage the users or devices that are accessing a particular version of your software. The Software Asset Management application can then use the information in these client access records to reconcile your software. For more information on client access records, see [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) or [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md).
 
     The NUP license metric implements different licensing minimums based on the Oracle Database or Oracle WebLogic Server edition that your users and devices are accessing.
 
@@ -125,19 +125,19 @@ The Software Asset Management application supports the following license metrics
 
     When you allocate rights for a database using the NUP or Per Processor license metric, Software Asset Management automatically allocates rights for the associated Database options and management packs using the same license metric.
 
-    If you create a [Client Access License](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) \(CAL\) record to specify the number of users or devices that can access an Oracle Database or WebLogic Server, the Software Asset Management application licenses users and devices using only the NUP license metric. Software Asset Management doesn’t use the Per Processor license metric even if Per Processor licenses are available.
+    If you create a [Client Access License](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) \(CAL\) record to specify the number of users or devices that can access an Oracle Database or WebLogic Server, the Software Asset Management application licenses users and devices using only the NUP license metric. Software Asset Management doesn’t use the Per Processor license metric even if Per Processor licenses are available.
 
 -   **Employee**
 
     The Employee license metric licenses the total number of full-time, part-time, and temporary employees, including those employed directly and indirectly through agents, contractors, and consultants, according to Oracle's definition of internal business operations.
 
-    The Employee license metric calculates the number of licenses that are required by the total number of employees and not the number of employees that use the Oracle Java SE Universal. The licensing cost is calculated using a tier-based pricing model defined by Oracle. The pricing model is stored in the Price tier \[samp\_price\_tier\] table. For more details, see [Pricing model for Oracle Java SE Universal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-price-tiers.md).
+    The Employee license metric calculates the number of licenses that are required by the total number of employees and not the number of employees that use the Oracle Java SE Universal. The licensing cost is calculated using a tier-based pricing model defined by Oracle. The pricing model is stored in the Price tier \[samp\_price\_tier\] table. For more details, see [Pricing model for Oracle Java SE Universal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-price-tiers.md).
 
     Additionally, for the Employee license metric, the true-up cost is shown for a subscription period of one year.
 
-    When you run reconciliation for a software model that has one or more entitlements with the Employee license metric, a right is consumed for each employee recorded in the resource value records. You can create a resource value record for the Java SE software model keeping the value of units consumed the same as the number of employees consuming the licenses. For details, see [Create a resource value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-resource-value-record.md).
+    When you run reconciliation for a software model that has one or more entitlements with the Employee license metric, a right is consumed for each employee recorded in the resource value records. You can create a resource value record for the Java SE software model keeping the value of units consumed the same as the number of employees consuming the licenses. For details, see [Create a resource value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-resource-value-record.md).
 
-    When you're using a custom tier table, you can update the override license cost records associated with the Java SE software model. For details, see [Create or update an override license cost record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-edit-override-license-cost.md).
+    When you're using a custom tier table, you can update the override license cost records associated with the Java SE software model. For details, see [Create or update an override license cost record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-edit-override-license-cost.md).
 
 
 ## Oracle verified third-party vendor tool
@@ -148,30 +148,30 @@ During contract renewals and audits, Oracle requires you to provide specific usa
 
 The ServiceNow Discovery application uses Oracle-verified Discovery patterns and reporting to collect the same data that is provided in the script output. You can collect this data regularly to track your compliance and minimize unexpected audit results.
 
-For more information on Oracle discovery, see [Oracle Global License Advisory Services \(GLAS\) data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/oracle-glas-discovery.md).
+For more information on Oracle discovery, see [Oracle Global License Advisory Services \(GLAS\) data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/oracle-glas-discovery.md).
 
-**Note:** To access all the benefits of ServiceNow Discovery, request and install the CMDB CI Class Models application from the ServiceNow Store. See [CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models.md) for more information on this application.
+**Note:** To access all the benefits of ServiceNow Discovery, request and install the CMDB CI Class Models application from the ServiceNow Store. See [CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models.md) for more information on this application.
 
--   **[Oracle Database and WebLogic Server licensing in partitioned environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-licensing-partitioned-environments.md)**  
+-   **[Oracle Database and WebLogic Server licensing in partitioned environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-licensing-partitioned-environments.md)**  
 The Software Asset Management application supports Oracle licensing rules for Oracle Database and WebLogic Server in both soft- and hard-partitioned environments. You can use partitioning to help reduce the number of licenses that are required for your installations.
--   **[Oracle licensing in cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-licensing-cloud-environments.md)**  
+-   **[Oracle licensing in cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-licensing-cloud-environments.md)**  
 The Software Asset Management application supports licensing rules for Oracle Database and WebLogic Server \(Standard, Enterprise, and Suite Editions\) in cloud environments.
--   **[Oracle Database licensing in multitenant architectures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-licensing-multitenant-architectures.md)**  
+-   **[Oracle Database licensing in multitenant architectures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-licensing-multitenant-architectures.md)**  
 The Software Asset Management application supports licensing rules for Oracle databases in multitenant architectures.
--   **[Oracle Database licensing for Standard Editions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-db-licensing-std-edition.md)**  
+-   **[Oracle Database licensing for Standard Editions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-db-licensing-std-edition.md)**  
 Oracle Database Standard Editions are licensed on servers having a value less than the maximum capacity of sockets to help ensure risk-free license compliance.
--   **[Oracle Database options and management packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-options.md)**  
+-   **[Oracle Database options and management packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-options.md)**  
 You can use the Software Asset Management publisher pack for Oracle to track licensing positions for your Oracle Database options and management packs. The Licensable Oracle Options \[samp\_oracle\_option\_set\] table provides the complete list of database options and management packs that you can create software models for.
--   **[Oracle reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-recon.md)**  
+-   **[Oracle reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-recon.md)**  
 Oracle reconciliation keeps your Oracle license positions accurate and up-to-date without requiring manual calculations. Reconciliation runs weekly or on-demand.
--   **[Oracle Infrastructure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-infrastructure-report.md)**  
+-   **[Oracle Infrastructure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-infrastructure-report.md)**  
 You can use the Oracle Infrastructure report to gain visibility into your Oracle infrastructure. This report includes information about the Oracle databases and WebLogic Server editions that you’re running and the configuration items that are supporting them.
--   **[Oracle DB Server Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-server-agreement.md)**  
+-   **[Oracle DB Server Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-server-agreement.md)**  
 You can use the Oracle DB Server Deployments per Agreement report to gain visibility into your Oracle Database server deployments across hybrid infrastructures, based on the agreement type.
--   **[Software Publisher Analytics dashboard for Oracle in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/dashboard-oracle.md)**  
+-   **[Software Publisher Analytics dashboard for Oracle in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/dashboard-oracle.md)**  
 View compliance analysis results related to Oracle on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
--   **[Publisher overview for Oracle in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/publisher-overview-oracle.md)**  
+-   **[Publisher overview for Oracle in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/publisher-overview-oracle.md)**  
 View license usage information related to Oracle in the publisher overview for Oracle in the Software Asset Workspace.
 
-**Parent Topic:**[Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-publisher-packs.md)
+**Parent Topic:**[Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sam-publisher-packs.md)
 

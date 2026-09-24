@@ -3,11 +3,11 @@ title: Cancel a contract
 description: You can cancel a contract when the State is Active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_CancelAContract.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adjust a contract, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
@@ -43,5 +43,5 @@ After a contract is canceled, the following process occurs.
 4.  Click **Yes** to confirm the contract cancellation.
 
 
-**Parent Topic:**[Adjust a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_AdjustAContract.md)
+**Parent Topic:**[Adjust a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/contract-management/t_AdjustAContract.md)
 

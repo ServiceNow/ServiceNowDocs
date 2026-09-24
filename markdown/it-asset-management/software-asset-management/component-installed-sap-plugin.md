@@ -3,11 +3,11 @@ title: Tables installed with the SAP publisher pack
 description: Tables are installed with the Software Asset Management Professional for SAP plugin. The tables store data pulled from the SAP systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/component-installed-sap-plugin.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Software Asset Management publisher pack for SAP, Supported softwar
 
 Tables are installed with the Software Asset Management Professional for SAP plugin. The tables store data pulled from the SAP systems.
 
-**Note:** Use the Application Files table to see all components installed with the SAP publisher pack. For more information, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** Use the Application Files table to see all components installed with the SAP publisher pack. For more information, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for the SAP publisher pack.
 
@@ -194,10 +194,12 @@ SAP Digital Access\[samp\_sap\_digital\_access\]
 |/NOW/USMM\_DATA|SAP USMM Rules \[samp\_sap\_usmm\_rule\]|
 |/NOW/DIGITAL\_ACC|SAP Digital Access \[samp\_sap\_digital\_access\]|
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
+
+[SAP publisher pack integration architecture]()
 
 [Set up SAP integration to establish a connection with SAP]()
 
@@ -205,9 +207,9 @@ SAP Digital Access\[samp\_sap\_digital\_access\]
 
 [Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP]()
-
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

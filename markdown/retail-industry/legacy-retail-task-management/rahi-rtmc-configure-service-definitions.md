@@ -3,11 +3,11 @@ title: Configure service definitions for multi-store case creation for Retail Ta
 description: Configure service definitions to include the Multiple case creation configuration field to create multi-store cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-rtmc-configure-service-definitions.html
-release: australia
+release: brazil
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail Task Management, Retail]
 ---

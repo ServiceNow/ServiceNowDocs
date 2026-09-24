@@ -3,9 +3,9 @@ title: Configure ServiceNow Otto button in search
 description: Add a conversational chat button to standard catalog search results in mobile. The chat button redirects users to a new Virtual Agent conversation for eligible catalog items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-now-assist-button-search.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Add a conversational chat button to standard catalog search results in mobile. T
 
 Role required: admin
 
-Verify that ServiceNow Otto for AI Search and Otto Self Service Enhanced Chat are enabled for the catalog items you want to display the chat button on. See [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md) and [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md) for more information.
+Verify that ServiceNow Otto for AI Search and Otto Self Service Enhanced Chat are enabled for the catalog items you want to display the chat button on. See [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-ais.md) and [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/display-assistant-portal-channel.md) for more information.
 
 ## Procedure
 
@@ -149,5 +149,5 @@ Verify that ServiceNow Otto for AI Search and Otto Self Service Enhanced Chat ar
     |Attribute 3|`TextColorVariable`|`menu_01_TextColorVariable`|`--now-color--primary-1`|
 
 
-**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configuring-now-assist-mobile.md)
 

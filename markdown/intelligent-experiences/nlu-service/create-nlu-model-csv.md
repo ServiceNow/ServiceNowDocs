@@ -1,18 +1,18 @@
 ---
-title: Create an NLU model from a CSV file
+title: \(Legacy\) Create an NLU model from a CSV file
 description: Upload a CSV or XLSX \(Excel Workbook\) file containing utterances and their intents to create a Natural Language Understanding \(NLU\) model. Use this method to quickly create models from your data or other exported models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-nlu-model-csv.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating models, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Creating models, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create an NLU model from a CSV file
+# \(Legacy\) Create an NLU model from a CSV file
 
 Upload a CSV or XLSX \(Excel Workbook\) file containing utterances and their intents to create a Natural Language Understanding \(NLU\) model. Use this method to quickly create models from your data or other exported models.
 
@@ -84,7 +84,7 @@ Note the following for creating NLU models by CSV import:
 
 ## What to do next
 
-Add intents and training utterances to continue building the model. Add entities and vocabulary to help the model understand inputs from your users. For more information, see [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
+Add intents and training utterances to continue building the model. Add entities and vocabulary to help the model understand inputs from your users. For more information, see [\(Legacy\) Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
 
-Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
+Add test utterances and intents to build the model's default test set. For more information, see [\(Legacy\) Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 

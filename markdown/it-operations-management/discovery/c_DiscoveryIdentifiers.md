@@ -3,11 +3,11 @@ title: Discovery identifiers
 description: After Discovery classifies a configuration item \(CI\), it uses identifiers to determine if the device already exists in the Configuration Management Database \(CMDB\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryIdentifiers.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -31,7 +31,7 @@ The identity probe in the base Discovery system can be configured to ask the dev
 
 ## Identifier rules
 
-The default Discovery system contains these identifier rules. Each rule is associated with a specific CI type \(the **sys\_class\_name** field on the CI record\) or the table in the **Applies to** field, and contains the appropriate attributes for discovering CIs from that table. Where necessary, tables from related lists \(**Search on** tables\) are included in the rule. For more information, see [Create or edit a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
+The default Discovery system contains these identifier rules. Each rule is associated with a specific CI type \(the **sys\_class\_name** field on the CI record\) or the table in the **Applies to** field, and contains the appropriate attributes for discovering CIs from that table. Where necessary, tables from related lists \(**Search on** tables\) are included in the rule. For more information, see [Create or edit a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
 
 <table id="table_r2p_1ql_lt"><thead><tr><th>
 
@@ -133,7 +133,7 @@ Custom identifiers must have different Order values than those of the default id
 
 ## Properties for processing duplicate CIs
 
-You can control how Discovery handles duplicate CIs with properties installed with Identification and Reconciliation. Use the `glide.identification_engine.skip_duplicates` and `glide.identification_engine.skip_duplicates.threshold` properties. For more information, see [Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/properties-id-reconciliation.md).
+You can control how Discovery handles duplicate CIs with properties installed with Identification and Reconciliation. Use the `glide.identification_engine.skip_duplicates` and `glide.identification_engine.skip_duplicates.threshold` properties. For more information, see [Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/properties-id-reconciliation.md).
 
 ## Properties that control identifier versions
 
@@ -141,14 +141,14 @@ All instances use identifiers from the CMDB Identification and Reconciliation fr
 
 **Note:** When Service Mapping is active, the new identifiers from the CMDB Identification and Reconciliation framework are always used regardless of the property value.
 
--   **[How Discovery identifiers work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_HowDiscoveryIdentifiersWork.md)**  
+-   **[How Discovery identifiers work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_HowDiscoveryIdentifiersWork.md)**  
 When Discovery has determined the device's class, it launches an identity probe that is configured to run one or more commands with a single authentication.
--   **[Configure Discovery identity probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureDiscoveryIdentityProbes.md)**  
+-   **[Configure Discovery identity probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_ConfigureDiscoveryIdentityProbes.md)**  
 Identity probes are multi-probes, which contain one or more simple probes configured to extract specific information from manageable devices. You can create your own identity multi-probe to identify CIs that Discovery does not already identify.
--   **[Configure Discovery identity sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigDiscoIdentSens.md)**  
+-   **[Configure Discovery identity sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_ConfigDiscoIdentSens.md)**  
 If you customize an identify multi-probe, you can also configure a multi-sensor for it.
--   **[Serial number types for identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_SerialNumberTypes.md)**  
+-   **[Serial number types for identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_SerialNumberTypes.md)**  
 As Discovery finds CIs, their serial numbers are listed in the Serial Number \[cmdb\_serial\_number\] table so they are easy to identify. Serial number types vary depending on the CI, as described in the following examples.
 
-**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryConfiguration.md)
+**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryConfiguration.md)
 

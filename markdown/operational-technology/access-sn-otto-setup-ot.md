@@ -3,9 +3,9 @@ title: Access ServiceNow Otto for Setup \(OT\)
 description: Use the Admin Home to access the Operational Technology \(OT\) card, and start setting up your organization's OT environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/access-sn-otto-setup-ot.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Setup, Operational Technology]
 ---
@@ -34,8 +34,8 @@ Role required: admin
 
 5.  Complete the configuration items listed under **Operational Data**.
 
-    For more information about the OT configuration items, see [Operational Technology Setup configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-modules-in-sn-otto-setup.md).
+    For more information about the OT configuration items, see [Operational Technology Setup configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-modules-in-sn-otto-setup.md).
 
 
-**Parent Topic:**[Configure Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ot-setup.md)
+**Parent Topic:**[Configure Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/configure-ot-setup.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Enforce device encryption and passcode requirements \[New in Security Center 1.3\]
-description: The glide.sg.device\_encryption\_enabled property enforces the Federal Information Processing Standard \(FIPS 140-2\) Encryption. Mobile device encryption and passcode ensure that an unauthorized user cannot access the content of a device even if the device is physically obtained.
+description: The glide.sg.device\_encryption\_enabled property enforces the Federal Information Processing Standard \(FIPS 140-2\) Encryption. Mobile device encryption and passcode ensure that an unauthorized user can't access the content of a device even if the device is physically obtained.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enforce-device-encryption-and-passcode-requirements.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
 # Enforce device encryption and passcode requirements \[New in Security Center 1.3\]
 
-The **glide.sg.device\_encryption\_enabled** property enforces the Federal Information Processing Standard \(FIPS 140-2\) Encryption. Mobile device encryption and passcode ensure that an unauthorized user cannot access the content of a device even if the device is physically obtained.
+The **glide.sg.device\_encryption\_enabled** property enforces the Federal Information Processing Standard \(FIPS 140-2\) Encryption. Mobile device encryption and passcode ensure that an unauthorized user can't access the content of a device even if the device is physically obtained.
 
 When the **glide.sg.device\_encryption\_enabled** system property is set to **true**, the ServiceNow mobile app checks that device encryption is enabled and that device passcode is enabled. If encryption or passcode is not enabled, the user will not be allowed to log into the instance on mobile. This property enforces FIPS 140-2 Encryption. Mobile device encryption and passcode are important security features for ensuring an unauthorized user cannot access the content of the device even if the device is physically obtained.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-false
+FALSE
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Category
 
 </td><td>
 
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -112,5 +112,5 @@ You need a passcode in order to use this instance on this device. Go to your dev
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

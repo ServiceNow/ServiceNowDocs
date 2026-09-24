@@ -3,9 +3,9 @@ title: Investigate alerts using an MCP Client
 description: Use the ITOM MCP Server Console to investigate alerts through an MCP Client application, such as Moveworks or AWS Claude.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/review-alerts-using-itom-mcp-server.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ITOM MCP Server, natural language prompts, AI workflow]
 breadcrumb: [Alert investigation, Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]

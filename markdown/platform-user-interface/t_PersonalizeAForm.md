@@ -3,9 +3,9 @@ title: Personalize a form
 description: When the form personalization feature is activated, users can personalize fields to appear on a specific form view according to individual preferences. Form personalization is available in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_PersonalizeAForm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -28,7 +28,7 @@ In contrast to configuring a form, personalizing a form does not enable users to
 -   Add fields that are not configured to appear on the form.
 -   Hide mandatory fields.
 
-**Note:** Personalizing a form in this way modifies the form for you only. To make changes to a form that are visible to all users, you must [configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+**Note:** Personalizing a form in this way modifies the form for you only. To make changes to a form that are visible to all users, you must [configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 ## Procedure
 
@@ -55,10 +55,10 @@ In contrast to configuring a form, personalizing a form does not enable users to
 5.  To restore the default form view, personalize the form and click **Reset**.
 
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingForms.md)
 
 **Related topics**  
 
 
-[Administering form personalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FormPersonalizationAdmin.md)
+[Administering form personalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_FormPersonalizationAdmin.md)
 

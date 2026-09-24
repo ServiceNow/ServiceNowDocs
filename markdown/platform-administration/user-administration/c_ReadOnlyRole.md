@@ -3,18 +3,18 @@ title: Read-only role
 description: The read-only role \(snc\_read\_only\) restricts a user or a group of users to read-only access on the tables to which the user already has access.If it isn’t already active, an administrator can activate the Read-Only User Role \(com.snc.read\_only.role\) plugin.These system properties control the snc\_read\_only role. The following default values are used for the properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/c\_ReadOnlyRole.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Base system roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Read-only role
 
-The read-only role \(snc\_read\_only\) restricts a user or a group of users to read-only access on the tables to which the user already has access.
+The read-only role \(**snc\_read\_only**\) restricts a user or a group of users to read-only access on the tables to which the user already has access.
 
 This role is designed to complement other roles a user possesses. Its purpose is to restrict actions like the insert, update, or delete operations on the tables accessible through their existing roles.
 
@@ -36,7 +36,7 @@ Users with the **snc\_read\_only** role have the following restrictions regardle
 
 ## Exempt tables from the read-only restriction
 
-Three system properties control which tables users with the **snc\_read\_only** role can still create, update, or delete records on. These properties are not created on instances by default. To use them, manually add each property to the System Properties \[sys\_properties\] table and set the value to a comma-separated list of table names. See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Three system properties control which tables users with the **snc\_read\_only** role can still create, update, or delete records on. These properties are not created on instances by default. To use them, manually add each property to the System Properties \[sys\_properties\] table and set the value to a comma-separated list of table names. See [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 |Property|Description|
 |--------|-----------|
@@ -44,7 +44,7 @@ Three system properties control which tables users with the **snc\_read\_only** 
 |**glide.security.snc\_read\_only\_role.tables.exempt\_write**|Comma-separated list of tables on which users with the **snc\_read\_only** role can update records.|
 |**glide.security.snc\_read\_only\_role.tables.exempt\_delete**|Comma-separated list of tables on which users with the **snc\_read\_only** role can delete records.|
 
-**Parent Topic:**[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
+**Parent Topic:**[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
 
 ## Activate the read-only role
 
@@ -66,7 +66,7 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 ## Read-only role properties

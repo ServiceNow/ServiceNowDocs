@@ -3,11 +3,11 @@ title: Scripts
 description: Learn how scripting extends CPQ beyond simple rules—understand where scripts run, what they return, and how to use them to model advanced configuration logic safely and efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/scripts.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Scripts
@@ -154,5 +154,5 @@ The scripting interface includes built-in tools:
 **Related topics**  
 
 
-[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/scripting.md)
+[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/scripting.md)
 

@@ -3,13 +3,13 @@ title: Enable Dynamic Translation for capabilities in Generative AI Controller
 description: Use Dynamic Translation to add multiple language support for generative AI capabilities to support users who speak languages other than English.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/enable-dynamic-translation-for-generative-ai-capabilities.html
-release: australia
+release: brazil
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Enable Dynamic Translation for capabilities in Generative AI Controller
@@ -18,7 +18,7 @@ Use Dynamic Translation to add multiple language support for generative AI capab
 
 ## Before you begin
 
-You must have the Dynamic Translation and Conversational Dynamic Translation plugins installed and enabled on your instance. For more information on setting up Dynamic Translation, see [Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-dynamic-translation.md).
+You must have the Dynamic Translation and Conversational Dynamic Translation plugins installed and enabled on your instance. For more information on setting up Dynamic Translation, see [Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-dynamic-translation.md).
 
 You must have a default Translation Configuration set in the Translation Configuration table \(sn\_dt\_translator\_configuration\).
 
@@ -51,5 +51,5 @@ Dynamic Translation is installed for your generative AI capability on the attrib
 
 ## What to do next
 
-Configure generative AI skills in the AI Admin Hub console to use this capability. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+Configure generative AI skills in the AI Admin Hub console to use this capability. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

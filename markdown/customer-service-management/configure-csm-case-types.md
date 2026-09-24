@@ -3,9 +3,9 @@ title: Configuring customer service case types
 description: Configure case types to handle different types of customer issues. A case type identifies the processes and the data needed to resolve a specific type of issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-case-types.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -146,7 +146,7 @@ The Case Type table extends the Application File table \(sys\_metadata\). This t
 -   Email templates
 -   Quick messages
 -   Reports
-For more information, see [Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-csm-case-types.md).
+For more information, see [Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-csm-case-types.md).
 
 **Note:** These related lists only display information for the new case type. They do not include information for the base case.
 
@@ -222,11 +222,11 @@ Navigate to **Contextual Search** &gt; **Table Configuration** and create a tabl
 
 </td></tr><tr><td>
 
-Set Up Agent Workspace for Case Types
+Set Up CRM Workspace for Case Types
 
 </td><td>
 
-To configure Agent Workspace differently for each case type, follow the Agent Workspace Guided Setup. You can configure the following features specific to each case type:-   Workspace lists
+To configure CRM Workspace differently for each case type, follow the CRM Workspace Guided Setup. You can configure the following features specific to each case type:-   Workspace lists
 -   Notifications
 -   Highlighted values
 -   Ribbon settings
@@ -240,7 +240,7 @@ Set Up Portal View for Case Types
 
 </td><td>
 
-Configure the fields that a customer can see when they view a case on the Customer or Consumer Service Portals. Create a new record to configure the fields for each case type.For more information about the Ticket Configuration form, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-st-page.md).
+Configure the fields that a customer can see when they view a case on the Customer or Consumer Service Portals. Create a new record to configure the fields for each case type.For more information about the Ticket Configuration form, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-st-page.md).
 
 </td></tr></tbody>
 </table>4.  To perform a task, click **Configure**.
@@ -251,7 +251,7 @@ Configure the fields that a customer can see when they view a case on the Custom
 **Related topics**  
 
 
-[Enable the case type single select property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-case-type-single-select-prop.md)
+[Enable the case type single select property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-case-type-single-select-prop.md)
 
-[Create a configuration for case type single-select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-type-single-selection.md)
+[Create a configuration for case type single-select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-case-type-single-selection.md)
 

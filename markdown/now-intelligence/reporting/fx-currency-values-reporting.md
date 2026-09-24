@@ -3,11 +3,11 @@ title: FX Currency values in reporting
 description: Manage projects in multiple currencies with FX \(Foreign Exchange\) Currency. You can report on the projects in currency values entered by the user, a reference currency, or both.When you report on FX Currency fields, there are certain limitations that may generate errors. These errors are associated with aggregation.When you report on FX Currency tables, some combinations of group and aggregation type are not possible to calculate. These combinations return the message 'Cannot generate the report. There are mismatched currency codes. Change your aggregation source or filter conditions.'
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/fx-currency-values-reporting.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [FX Currency, Cannot generate report mismatched currency codes.]
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
@@ -27,20 +27,20 @@ When you aggregate by **Average** or **Sum** on an FX currency field, you choose
 
 -   **Use FX currency configuration**
 
-    Calculates the values based on the FX Currency Configuration table. For more information, see [Setting up and operating FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/fx-currency.md).
+    Calculates the values based on the FX Currency Configuration table. For more information, see [Setting up and operating FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/fx-currency.md).
 
 -   **As entered values**
 
     Calculate values based on currency values entered by the user.
 
-    **Note:** If you select this option, you may experience situations where amounts entered in different currencies can't be properly aggregated. For example, if there are currency amounts in US Dollars, Yen, and Euros. It is only possible to aggregate values on one currency at a time. If you aggregate records in different currencies, this error displays: 'Cannot generate the report. There are mismatched currency codes.' See [Mismatched currency example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/fx-currency-values-reporting.md).
+    **Note:** If you select this option, you may experience situations where amounts entered in different currencies can't be properly aggregated. For example, if there are currency amounts in US Dollars, Yen, and Euros. It is only possible to aggregate values on one currency at a time. If you aggregate records in different currencies, this error displays: 'Cannot generate the report. There are mismatched currency codes.' See [Mismatched currency example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/fx-currency-values-reporting.md).
 
 -   **Reference values**
 
     Calculates the values based on the reference currency.
 
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Report on FX currency fields
 
@@ -56,11 +56,11 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 2.  On the **Data** tab, name the report, choose the source table with FX currency fields, and then click **Next**.
 
-    The source must have FX Currency fields. See [Setting up and operating FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/fx-currency.md).
+    The source must have FX Currency fields. See [Setting up and operating FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/fx-currency.md).
 
 3.  On the **Type** tab, choose the visualization type that you want to use.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 4.  On the **Configure** tab, choose how you want to group, stack, and aggregate the report.
 
@@ -87,6 +87,6 @@ When you try to aggregate costs in multiple currencies by sum or average, there 
 
 -   **Aggregation Source is Reference values**
 
-    In this case, the values are converted to the reference value before calculation and the report is generated. For more information, see [Understanding FX Currency values in forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/fx-currency-values-forms.md).
+    In this case, the values are converted to the reference value before calculation and the report is generated. For more information, see [Understanding FX Currency values in forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/fx-currency-values-forms.md).
 
 

@@ -3,11 +3,11 @@ title: Posting a CSV file - Perl and Java examples
 description: An example using Perl to post a CSV file with basic auth credentials and Java Apache HttpClient class to post a CSV file with basic auth credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_PerlExample.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post CSV or Excel files directly to an import set, Importing data using import sets, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Post CSV or Excel files directly to an import set, Importing data u
 
 An example using Perl to post a CSV file with basic auth credentials and Java Apache HttpClient class to post a CSV file with basic auth credentials.
 
-For more information, see [Post CSV or Excel files directly to an import set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_PostCSVOrExcelFilesToImportSet.md).
+For more information, see [Post CSV or Excel files directly to an import set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/t_PostCSVOrExcelFilesToImportSet.md).
 
 ## Perl example
 
@@ -114,5 +114,5 @@ try {
 }
 ```
 
-**Parent Topic:**[Post CSV or Excel files directly to an import set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_PostCSVOrExcelFilesToImportSet.md)
+**Parent Topic:**[Post CSV or Excel files directly to an import set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/t_PostCSVOrExcelFilesToImportSet.md)
 

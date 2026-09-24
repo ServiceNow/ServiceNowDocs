@@ -3,11 +3,11 @@ title: Enable Walk-up Experience appointment booking
 description: Enable or disable the appointment booking feature for Walk-up Experience as well as for the individual walk-up service locations available to requesters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/enable-walkup-appointment-booking.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Walk-up Experience appointment booking administration, Book Walk-up Experience appointments, Configure, Walk-up Experience, IT Service Management]
 ---
@@ -47,5 +47,5 @@ When appointment booking is enabled, the **Schedule an appointment** tab appears
 6.  Select **Update**.
 
 
-**Parent Topic:**[Walk-up Experience appointment booking administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-appointment-administration.md)
+**Parent Topic:**[Walk-up Experience appointment booking administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/walkup-appointment-administration.md)
 

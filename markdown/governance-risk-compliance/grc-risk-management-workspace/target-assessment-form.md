@@ -3,11 +3,11 @@ title: Target assessment form
 description: Use the Target Assessment form in the Advanced Risk application to assess the desired future risk level in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/target-assessment-form.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure a target assessment, Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -193,6 +193,14 @@ Option to make the target assessment either always required or conditionally req
 **Note:** Only users with the sn\_grc.developer role can write or modify scripts.
 
 
+</td></tr><tr><td>
+
+Comments required to complete this assessment type
+
+</td><td>
+
+Option to make comments mandatory before an assessor can complete the target assessment.
+
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Heatmap Configuration
@@ -207,7 +215,7 @@ Factor for X-axis
 
 </td><td>
 
-Factor that appears on the X-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or factors with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
+Factor that appears on the X-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or factors with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
 
 </td></tr><tr><td>
 
@@ -215,8 +223,8 @@ Factor for Y-axis
 
 </td><td>
 
-Factor that appears on the Y-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
+Factor that appears on the Y-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure a target assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-target-assessment.md)
+</table>**Parent Topic:**[Configure a target assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-target-assessment.md)
 

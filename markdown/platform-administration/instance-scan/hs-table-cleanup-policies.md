@@ -3,11 +3,11 @@ title: Instance Scan table cleanup policies
 description: Instance Scan offers table cleanup policies to erase previous scan results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-table-cleanup-policies.html
-release: australia
+release: brazil
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -23,5 +23,5 @@ The cleanup policies are based on the time that the scans are created. The timer
     -   The **Scan type** is **Test Scan**.
     -   The records are older than 14 days, and **Age in seconds** is equal to or greater than **1,209,600** seconds.
 
-You can also modify these policies by entering any customized time period. See [Customize table cleanup policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-customize-table-cleanup-policies.md) for more information.
+You can also modify these policies by entering any customized time period. See [Customize table cleanup policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/instance-scan/hs-customize-table-cleanup-policies.md) for more information.
 

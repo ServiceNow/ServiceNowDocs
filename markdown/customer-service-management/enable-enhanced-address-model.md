@@ -3,9 +3,9 @@ title: Enable enhanced address model for accounts
 description: Use the Account Address table in the enhanced address data model feature to link a location with multiple accounts without creating duplicate location records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-enhanced-address-model.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_crm\_foundation\_admin, script\_include\_admin, and script\_f
 
     -   **Type**
     -   **primary**
-    These relationship fields are created in the Account Address \[account\_address\_relationship\] table. For more information on creating fields within a table, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
+    These relationship fields are created in the Account Address \[account\_address\_relationship\] table. For more information on creating fields within a table, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreatingNewFields.md).
 
 3.  Update the custom code that references the Account Address table.
 

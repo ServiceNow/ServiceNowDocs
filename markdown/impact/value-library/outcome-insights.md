@@ -3,11 +3,11 @@ title: Business KPIs tracking with Outcomes Insights
 description: The Outcome Insights page provides a cross-product view of all the outcomes you are currently tracking, using standard outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/outcome-insights.html
-release: australia
+release: brazil
 product: Value Library
 classification: value-library
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Value management, Using Impact, Impact]
 ---

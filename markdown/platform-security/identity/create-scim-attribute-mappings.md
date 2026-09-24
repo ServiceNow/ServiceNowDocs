@@ -3,11 +3,11 @@ title: Create a SCIM attribute mapping
 description: Create a SCIM attribute mapping and use it as a single source of resource to the ServiceNow table fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/create-scim-attribute-mappings.html
-release: australia
+release: brazil
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a SCIM Provider Resource Mapping, SCIM Client, System for Cross-domain Identity Management \(SCIM\), Identity]
 ---
@@ -81,7 +81,7 @@ Attribute
 
 </td><td>
 
-[Attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/attribute-mapping-references.md) for which the mapping must be defined. For example, **userName**.
+[Attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/attribute-mapping-references.md) for which the mapping must be defined. For example, **userName**.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Sub-Attribute
 
 </td><td>
 
-[Sub-Attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/attribute-mapping-references.md) \(if any\) for which the mapping must be defined.
+[Sub-Attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/attribute-mapping-references.md) \(if any\) for which the mapping must be defined.
 
  For example, if there is a complex type attribute like **name.familyName**, then the attribute is **name** and the sub-attribute is **familyName**.
 
@@ -121,7 +121,7 @@ Filter Condition
 
 </td><td>
 
-Some multi-valued attributes can have additional information that can be specified by using a [Filter Condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/attribute-mapping-references.md). The choices of filter condition are populated using the schemas defined by the SCIM Provider.
+Some multi-valued attributes can have additional information that can be specified by using a [Filter Condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/attribute-mapping-references.md). The choices of filter condition are populated using the schemas defined by the SCIM Provider.
 
  For example, the **phoneNumbers** attribute has multiple types like work, mobile, home, and so on
 
@@ -149,7 +149,7 @@ Database Field Name
 
 </td><td>
 
-The[Database Field Name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/attribute-mapping-references.md) field maps the SCIM attribute to the ServiceNow field name to be mapped with the SCIM Attribute. If you choose direct attribute mapping, you must define this field.
+The[Database Field Name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/attribute-mapping-references.md) field maps the SCIM attribute to the ServiceNow field name to be mapped with the SCIM Attribute. If you choose direct attribute mapping, you must define this field.
 
  For example, the **username** SCIM Attribute can be mapped to the **User ID** field in the **Database Field Name** field.
 
@@ -159,7 +159,7 @@ Default Value
 
 </td><td>
 
-Details about the [default value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/attribute-mapping-references.md) that is passed to the SCIM Provider.
+Details about the [default value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/attribute-mapping-references.md) that is passed to the SCIM Provider.
 
  Can be used if the direct attribute mapping of the field returns null, or if the default can be used to return a hard-coded value.
 
@@ -181,7 +181,7 @@ Option to fetch the value of the attribute via script.
 
 </td></tr><tr><td>
 
-[Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/attribute-mapping-references.md)
+[Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/attribute-mapping-references.md)
 
 </td><td>
 

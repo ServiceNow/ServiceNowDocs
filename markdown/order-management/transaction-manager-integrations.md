@@ -3,7 +3,7 @@ title: ServiceNow Quote Experience Integrations
 description: Use integrations to exchange data with third-party sources, including Salesforce.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-integrations.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4

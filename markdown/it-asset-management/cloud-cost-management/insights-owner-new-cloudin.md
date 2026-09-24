@@ -3,11 +3,11 @@ title: Assign service accounts to an insights\_owner
 description: Assign ownership of one or more service accounts and, optionally, the related CIs to users that have the insights\_owner role. An insights\_owner can define jobs and policies and can view data for owned service accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/insights-owner-new-cloudin.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -18,13 +18,13 @@ Assign ownership of one or more service accounts and, optionally, the related CI
 
 ## Before you begin
 
-Before you assign service accounts, you might want to view the list of current insights\_owner and their owned accounts. For more information, see [View the service accounts owned by an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/insights-owners-view-list-cloudin.md).
+Before you assign service accounts, you might want to view the list of current insights\_owner and their owned accounts. For more information, see [View the service accounts owned by an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/insights-owners-view-list-cloudin.md).
 
 Role required: insights\_admin \[sn\_clin\_core.insights\_admin\]
 
 ## About this task
 
-The insights\_owner role spreads responsibility for Cloud Cost Management activities to persons who have good knowledge of operations in the service accounts. For more information about the insights\_owner role, see [Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-roles.md).
+The insights\_owner role spreads responsibility for Cloud Cost Management activities to persons who have good knowledge of operations in the service accounts. For more information about the insights\_owner role, see [Cloud Cost Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/cloud-insights-roles.md).
 
 A service account is a secure record on your instance that holds the credential and access information for your provider account. Discovery uses the information to access your provider account to get data on each resource in each specified datacenter.
 
@@ -73,7 +73,7 @@ Change template to use to create the change request for this task.The system use
 </td></tr></tbody>
 </table>4.  Specify how to populate the **Owner** field for CIs in service accounts.
 
-<table id="choicetable_ihs_dpm_rkb"><tbody><tr><td id="d359088e202">
+<table id="choicetable_ihs_dpm_rkb"><tbody><tr><td id="d364703e197">
 
 **Assign insights\_owners only to CIs with no owner**
 
@@ -83,7 +83,7 @@ For newly created CIs and for CIs in the service accounts that have no value for
 
  **Note:** A daily scheduled job sets the **Owner** field of each newly discovered CI to the Owner setting for the associated service account.
 
-</td></tr><tr><td id="d359088e223">
+</td></tr><tr><td id="d364703e218">
 
 **Assign insights\_owners to all CIs**
 
@@ -91,7 +91,7 @@ For newly created CIs and for CIs in the service accounts that have no value for
 
 For the **Owner** property of every CI in the specified service accounts, assign the new insights\_owner.**Note:** A daily scheduled job sets the **Owner** field of each newly discovered CI to the Owner setting for the associated service account.
 
-</td></tr><tr><td id="d359088e241">
+</td></tr><tr><td id="d364703e236">
 
 **Do not update any CIs**
 
@@ -108,10 +108,10 @@ Make no changes to CIs in the specified service accounts.
 6.  Select **Submit**.
 
 
--   **[Update or reassign insights\_owner privileges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/insights-owner-update-cloudin.md)**  
+-   **[Update or reassign insights\_owner privileges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/insights-owner-update-cloudin.md)**  
 Assign ownership of one or more service accounts and, optionally, the related CIs to users that have the insights\_owner role. An insights\_owner can define jobs and policies and can view data for owned service accounts.
--   **[View the service accounts owned by an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/insights-owners-view-list-cloudin.md)**  
+-   **[View the service accounts owned by an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/insights-owners-view-list-cloudin.md)**  
 View the list of users that have the insights\_owner role and the service accounts that each owner owns.
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

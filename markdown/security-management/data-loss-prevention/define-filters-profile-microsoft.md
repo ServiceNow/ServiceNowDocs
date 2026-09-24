@@ -3,11 +3,11 @@ title: Define filters to apply for the Incident creation
 description: Define and set filter conditions to filter the incoming  Microsoft DLP  events. Control which of these events should be created as DLP IR incidents on your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/define-filters-profile-microsoft.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a new incident profile for Microsoft DLP integration, Data Loss Prevention Incident Response with Microsoft, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -47,5 +47,5 @@ This type of filtering helps you to isolate Microsoft DLP  events to limit the
     Earlier, UserID was mapped only to the Source User field but, the UserID field is currently available as a lookup attribute for all Purview events, including Endpoint events.
 
 
-**Parent Topic:**[Create a new incident profile for Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/create-profile-microsoft-dlp-integration.md)
+**Parent Topic:**[Create a new incident profile for Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/create-profile-microsoft-dlp-integration.md)
 

@@ -3,9 +3,9 @@ title: Add a service to Operational Resilience reporting
 description: Manage services, business services, service offerings, business processes, and application services from the CSDM modules in the Operational Resilience Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-csdm-modules.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -44,7 +44,7 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     **Note:** You must have the itil user role to create a service. If you do not have the itil user role, the **New** button for creating a service is not displayed.
 
-    For a description of the field values on the Service form, see [Create Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/service-form-lists-ws-reference.md).
+    For a description of the field values on the Service form, see [Create Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/service-form-lists-ws-reference.md).
 
     The Create New Service form is displayed.
 
@@ -52,7 +52,7 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     A sample **Details** tab is shown in the following example.
 
-    \[Omitted image "create-new-service-form-ws.png"\] Alt text: Details tab in the Create Service form.
+    \[Omitted image "create-new-service-form-ws.png"\] Alt text: Details tab in the Create New Service form.
 
 4.  To save details of the service, select **Save**.
 

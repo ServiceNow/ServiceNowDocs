@@ -3,9 +3,9 @@ title: Configure the Node status configurations
 description: Configure the Node status conditions and parameters for the selected node configuration table. You can then customize the map display by assigning specific colors and icons to the nodes that meet certain conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-node-status-configurations.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Node configurations, Configure the Main node configurations, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_oper\_res.admin
 
     You can customize the map display such as assigning specific colors and icons to nodes that meet certain conditions by configuring the Node status configuration record.
 
-    For more information on the fields, see [Node status configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/node-status-configuration-form.md).
+    For more information on the fields, see [Node status configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/node-status-configuration-form.md).
 
     The Node status configuration record is displayed in which the **Node configuration** and **Table** are auto-populated.
 

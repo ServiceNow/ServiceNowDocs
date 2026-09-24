@@ -3,9 +3,9 @@ title: Monitor cleanup script execution
 description: Monitor the execution status of cleanup scripts after a clone and retry any scripts that encountered errors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/monitor-cleanup-script-execution.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [cleanup script, clone, execution, monitoring]
 breadcrumb: [Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
@@ -31,7 +31,7 @@ You can also view the execution status on the target instance.
 
 1.  Enable Multi-Instance View on the source instance to view cleanup script execution across linked instances.
 
-    For information about enabling Multi-Instance View, see [Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-configurations-tab.md).
+    For information about enabling Multi-Instance View, see [Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-configurations-tab.md).
 
     Alternatively, log in to the target instance and navigate to **Cleanup Script Execution**.
 
@@ -41,7 +41,7 @@ You can also view the execution status on the target instance.
 
 3.  Review the **State** column for each script.
 
-    For a description of each state, see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-states.md).
+    For a description of each state, see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-states.md).
 
 4.  If one or more scripts show a state of **Error**, select **Resume all remaining scripts** to re-run all failed scripts and continue with any remaining scripts.
 
@@ -60,5 +60,5 @@ Cleanup scripts resume execution. Monitor the **State** column to confirm script
 
 ## What to do next
 
-To persist fixes for future clones, update the cleanup script on the source instance where it is defined. See [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-cleanup-script.md).
+To persist fixes for future clones, update the cleanup script on the source instance where it is defined. See .
 

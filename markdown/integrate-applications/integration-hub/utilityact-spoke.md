@@ -3,7 +3,7 @@ title: Utility Actions Spoke
 description: Create file attachments and zip attachments in your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/utilityact-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -30,7 +30,7 @@ Utility Actions spoke v1.4.1 is the latest version. For version history of the s
 
 ## Supported versions
 
-This spoke is compatible with ServiceNow instance of Australia and later versions.
+This spoke is compatible with ServiceNow instance of Brazil and later versions.
 
 ## Spoke dependencies
 
@@ -249,20 +249,20 @@ Auto Flush data retention policies are available for the File and File Set table
 -   When the file records in the File table are deleted, the corresponding file line records in the File Line table are also deleted.
 -   When the file set records in the File Set table are deleted, the corresponding file mapping records in the File Mapping table are also deleted.
 
-To modify the data retention policy, change the value of **Age in seconds** in the Auto Flush form of the required table. For more information, see [Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-auto-flush.md).
+To modify the data retention policy, change the value of **Age in seconds** in the Auto Flush form of the required table. For more information, see [Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/atf-auto-flush.md).
 
 ## Connection and credential alias requirements
 
-This spoke doesn't require configuration of connection and credential alias. For information about setting up the spoke, see [Create schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-schema.md).
+This spoke doesn't require configuration of connection and credential alias. For information about setting up the spoke, see [Create schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/create-schema.md).
 
 ## MID Server requirements
 
-These actions use REST calls that can run either on an instance or, optionally, through a MID Server. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+These actions use REST calls that can run either on an instance or, optionally, through a MID Server. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
 **Note:**
 
 -   The Build Zip action in the spoke requires at least one MID Server with the capability IntegrationHub Utilities or ALL. To set up and configure the MID Server, user must have the role sn\_utility\_spoke.utility\_actions\_admin role.
--   [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md) with **Value** as `*.service-now.com`.
+-   [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerProperties.md) with **Value** as `*.service-now.com`.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

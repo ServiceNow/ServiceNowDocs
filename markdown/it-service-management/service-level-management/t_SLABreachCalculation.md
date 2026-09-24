@@ -3,11 +3,11 @@ title: Use exact times in SLA calculations
 description: When business percentages are used for SLA calculations, they are rounded up to two decimal places.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_SLABreachCalculation.html
-release: australia
+release: brazil
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SLA calculation, Using Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -37,5 +37,5 @@ For more accurate SLA calculations, enable the SLA engine property for using the
 3.  Click **Save**.
 
 
-**Parent Topic:**[SLA calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/r_SLAAutomation.md)
+**Parent Topic:**[SLA calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/r_SLAAutomation.md)
 

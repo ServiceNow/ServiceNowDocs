@@ -3,11 +3,11 @@ title: Tree view navigation
 description: To navigate the admin console tree view effectively, it's good to know what the various icons and other visual data in the tree view indicate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/admin-console-tree-view-nav.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [\(Legacy\) Dependency Assessment, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -69,7 +69,7 @@ Context menu actions
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "admin-console-treeview-dashboard-group.png"\] Alt text:
+\[Omitted image "admin-console-treeview-dashboard-group.png"\] Alt text: tree view dashboard group
 
 </td><td>
 
@@ -81,7 +81,7 @@ Edit
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-dashboard.png"\] Alt text:
+\[Omitted image "admin-console-treeview-dashboard.png"\] Alt text: tree view dashboard
 
 </td><td>
 
@@ -96,12 +96,12 @@ When you select View Dashboard, the dashboard is shown in a pop-up over the tree
 
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-tab.png"\] Alt text:
+\[Omitted image "admin-console-treeview-tab.png"\] Alt text: tree view tab
 
 </td><td>
 
@@ -112,12 +112,12 @@ Dashboard tab
 -   Edit
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-report.png"\] Alt text:
+\[Omitted image "admin-console-treeview-report.png"\] Alt text: tree view report
 
 </td><td>
 
@@ -131,12 +131,12 @@ Opens the report in the Report Designer in a pop-up window. When you close the p
 
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-report-source.png"\] Alt text: t
+\[Omitted image "admin-console-treeview-report-source.png"\] Alt text: tree view report source
 
 </td><td>
 
@@ -147,7 +147,7 @@ Report source
 -   Edit
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
@@ -163,7 +163,7 @@ Interactive Filter
 -   Edit
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
@@ -183,12 +183,12 @@ Select **Preview Widget** to show the widget in a pop-up window.
 
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-widget.png"\] Alt text:
+\[Omitted image "admin-console-treeview-widget.png"\] Alt text: tree view other widget icon
 
 </td><td>
 
@@ -212,7 +212,7 @@ Formula Indicator
 -   Show Analytics Hub
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
@@ -230,7 +230,7 @@ Automated Indicator
 -   Show Scores
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
@@ -299,7 +299,7 @@ Indicator source
 -   Show Schema Map
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
@@ -327,7 +327,7 @@ Breakdown
 -   Edit
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
@@ -344,7 +344,7 @@ Breakdown Source
 -   Show Schema Map
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
@@ -363,7 +363,7 @@ Job
 -   View Last executed Log
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
@@ -392,7 +392,7 @@ Table
 -   Show Schema Map
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr><tr><td>
@@ -412,7 +412,7 @@ Select **Preview Widget** to show the widget in a pop-up window.
 
 -   Show Used By
 
-Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
+Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/dependency-assessment-show-used-by.md) which shows all entities that use this entity.
 
 
 </td></tr></tbody>
@@ -420,18 +420,18 @@ Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/
 
 Each node has one or more of these icons. Point to the upper right corner of the node to show them.
 
--   **Info button \[\[Omitted image "admin-console-treeview-info.png"\] Alt text:\]**
+-   **Info button \[\[Omitted image "admin-console-treeview-info.png"\] Alt text: Admin console tree view info button\]**
 
-    Select the info button to reveal further details about the node. A node's information panel shows different information depending on the type of node, but all information panels have an **Open Record** button. Select **Open Record** to open the record for editing.
+    Click the info button to reveal further details about the node. A node's information panel shows different information depending on the type of node, but all information panels have an **Open Record** button. Click **Open Record** to open the record for editing.
 
--   **Context menu \[\[Omitted image "admin-console-treeview-menu.png"\] Alt text:\]**
+-   **Context menu \[\[Omitted image "admin-console-treeview-menu.png"\] Alt text: Admin console tree view context menu button\]**
 
     Click the context menu icon to perform further actions on the node's source.
 
--   **Error indicators \[\[Omitted image "admin-console-treeview-error.png"\] Alt text:\]**
+-   **Error indicators \[\[Omitted image "admin-console-treeview-error.png"\] Alt text: Admin console tree view error indicator\]**
 
     Open the element the node refers to so that you can correct any issues.
 
 
-**Parent Topic:**[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/impact-analysis.md)
+**Parent Topic:**[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/impact-analysis.md)
 

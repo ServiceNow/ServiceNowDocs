@@ -3,12 +3,12 @@ title: Configuring DaaS
 description: Plan and configure the Device as a Service \(DaaS\) features and functionalities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/configuring-daas.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Device as a Service, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -42,7 +42,7 @@ Get the Hardware Asset Management application from the [ServiceNow Store](https:
 
 </td><td>
 
-[Install Hardware Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-ham.md)
+[Install Hardware Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/install-ham.md)
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Get the Hardware Asset Management for DaaS application from the [ServiceNow Stor
 
 </td><td>
 
-[Install Hardware Asset Management for DaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-daas.md)
+[Install Hardware Asset Management for DaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/install-daas.md)
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Mark your assets as DaaS assets on the Hardware Asset Details form.
 
 </td><td>
 
-[Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-record-fields.md)
+[Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-record-fields.md)
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Explore the intuitive DaaS provider view in Hardware Asset Workspace to manage t
 
 </td><td>
 
-[DaaS provider view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/daas-workspace.md)
+[DaaS provider view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/daas-workspace.md)
 
 </td></tr><tr><td>
 
@@ -90,8 +90,12 @@ Use Hardware Asset Management for DaaS to offer assets and asset management serv
 
 </td><td>
 
--   [Managing inbound asset orders for DaaS assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-inbound-orders.md)
--   [Managing RMA response orders for DaaS assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-rma-orders.md)
+-   [Managing inbound asset orders for DaaS assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-inbound-orders.md)
+-   [Managing RMA response orders for DaaS assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-rma-orders.md)
 
 </td></tr></tbody>
-</table>
+</table>-   **[Install Hardware Asset Management for DaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/install-daas.md)**  
+You can install the Hardware Asset Management for DaaS application \(com.sn\_daas\_ham\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
+
+**Parent Topic:**[Device as a Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/exploring-daas.md)
+

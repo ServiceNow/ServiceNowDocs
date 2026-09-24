@@ -3,9 +3,9 @@ title: KB article tab
 description: See which articles are retrieved, cited in responses, or left unused. Identify which content is driving successful resolutions and where gaps exist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/perf-kbarticle.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View the performance, Use, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

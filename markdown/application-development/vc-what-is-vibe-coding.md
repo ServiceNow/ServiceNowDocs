@@ -3,9 +3,9 @@ title: What is agentic development
 description: Agentic development uses AI to turn a natural language description of the outcome you want into applications using prompts in a conversation. Autonomous app development is agentic development on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vc-what-is-vibe-coding.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [vibe coding, AI-assisted development, artificial intelligence, application development, natural language, prompts, autonomous app development, code generation, development tools]
 breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]

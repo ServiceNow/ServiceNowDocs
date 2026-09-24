@@ -3,13 +3,13 @@ title: Configure a record producer
 description: Configure the record producer so that it contains the necessary questions for employee travel requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-configure-record-producer.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Creating user experiences, App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Creating user experiences, App creation tutorial, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Configure a record producer
@@ -34,7 +34,7 @@ Phase 1
 
 </td><td>
 
-[Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-add-record-producer.md)
+[Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-add-record-producer.md)
 
 </td></tr><tr><td>
 
@@ -46,10 +46,10 @@ Phase 2
 
 </td><td>
 
-[Configure a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-configure-record-producer.md)
+[Configure a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-configure-record-producer.md)
 
 </td></tr></tbody>
-</table>This procedure covers the second part of the task demonstrated in the tutorial video. The first part of the procedure is outlined in the previous topic [Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-add-record-producer.md).
+</table>This procedure covers the second part of the task demonstrated in the tutorial video. The first part of the procedure is outlined in the previous topic [Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-add-record-producer.md).
 
 Follow along to configure the record producer for the employee travel request application.
 
@@ -86,7 +86,7 @@ Follow along to configure the record producer for the employee travel request ap
 
 5.  Select **Continue to location** to specify the location of your record producer.
 
-    **Note:** Location determines where users can find the record producer. You can locate your record producer in a catalog, such as the Service Catalog, which is a set of business and technical products, services, and offerings that users can order. You can also locate your record producer with a topic, such as a knowledge base article. For more information about locations for record producers, see [Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-cat-item-template-cat-builder.md).
+    **Note:** Location determines where users can find the record producer. You can locate your record producer in a catalog, such as the Service Catalog, which is a set of business and technical products, services, and offerings that users can order. You can also locate your record producer with a topic, such as a knowledge base article. For more information about locations for record producers, see [Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-cat-item-template-cat-builder.md).
 
     In our tutorial, we locate our record producer in the Service Catalog, so that employees can access the employee travel request form easily.
 
@@ -118,11 +118,11 @@ Follow along to configure the record producer for the employee travel request ap
 
 11. Add a question to the form.
 
-    **Note:** You can build different types of questions for your record producer. To see the full list of available question types in Catalog Builder, see [Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-question-cat-builder.md).
+    **Note:** You can build different types of questions for your record producer. To see the full list of available question types in Catalog Builder, see [Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-question-cat-builder.md).
 
     In our tutorial, we create several questions to collect details about employees' travel requests.
 
-    1.  In the correct question container, hover over the plus icon \(\[Omitted image "plus-icon.png"\] Alt text:\), then select **+ Insert**.
+    1.  In the correct question container, hover over the plus icon \(\[Omitted image "plus-icon.png"\] Alt text: Add icon\), then select **+ Insert**.
 
         In our tutorial, we insert this question in the General Information container.
 
@@ -136,7 +136,7 @@ Follow along to configure the record producer for the employee travel request ap
 
     4.  Select **Continue to Choices** to complete additional configurations for the question.
 
-    5.  In the **Available choices** section, hover over the plus icon \(\[Omitted image "plus-icon.png"\] Alt text:\), then select **+ Insert**.
+    5.  In the **Available choices** section, hover over the plus icon \(\[Omitted image "plus-icon.png"\] Alt text: Add icon\), then select **+ Insert**.
 
     6.  In the **Display name** field, enter `Customer meeting`.
 
@@ -214,5 +214,5 @@ Your record producer is configured and ready for testing.
 
 ## What to do next
 
-Continue building the employee travel request application by proceeding to the next step: [Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md).
+Continue building the employee travel request application by proceeding to the next step: [Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md).
 

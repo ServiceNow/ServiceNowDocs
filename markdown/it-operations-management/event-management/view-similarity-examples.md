@@ -3,11 +3,11 @@ title: Review Event Management similarity examples
 description: Review the similarity examples and scores that the system provides during solution training to see how the selected alert record compares to existing alert records. For example, you can modify the similarity score threshold to increase the accuracy of your similarity recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-similarity-examples.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Alert similarity, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Review the similarity examples and scores that the system provides during soluti
 
 ## Before you begin
 
-Train a similarity solution in a ServiceNow datacenter. For more information, see [Create an Event Management similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-solution-similarity.md).
+Train a similarity solution in a ServiceNow datacenter. For more information, see [Create an Event Management similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-solution-similarity.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -54,12 +54,12 @@ Adjust the current threshold to provide useful results. For example, a low simil
 
 10. In the Solution Statistics tab, enter a new value in the **Similarity Score Threshold** field.
 
-    For example, suppose that the current score is 80. Based on your similarity example review, you might want to update the field by entering a higher score of 90. This returns fewer results but ones that are more similar to the alert record under review. A lower similarity score has more coverage but less precision.
+    For example, suppose that the current score is 80. Based on your similarity example review, you might want to enter a higher score of 90. This returns fewer results but ones that are more similar to the alert record under review. A lower similarity score has more coverage but less precision.
 
 11. Right-click in the form header and click **Save**.
 
     Your solution uses the new similarity threshold value. In the example, the solution returns similar results that have a score higher than 90.
 
 
-**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-similarity.md)
 

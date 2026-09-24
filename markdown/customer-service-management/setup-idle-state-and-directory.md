@@ -3,9 +3,9 @@ title: Setting idle state
 description: An agent in the idle state is available to receive or initiate work. Customize this state by configuring call controls such as the phone keypad for outbound calls, directory access, and the logout feature to manage the CCaaS platform session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-idle-state-and-directory.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
 4.  Use the **Edit** icon to update entries.
 
-    By default, the **Outbound call**, **Logout**, and **Phone directory** options are enabled. You can clear any options as needed. See [Configuring Transfer capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-transfer-capability.md).
+    By default, the **Outbound call**, **Logout**, and **Phone directory** options are enabled. You can clear any options as needed. See [Configuring Transfer capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-transfer-capability.md).
 
     When you have the **Outbound call** feature enabled in the simulator, a system notification displays stating that outbound calls create new Interactions.
 
@@ -51,5 +51,5 @@ Role required: admin
 
 ## What to do next
 
-If you enable **Transfer**, the simulator guides you through the transfer capabilities setup. If you choose not to select the **Transfer** capability, select **Continue** to proceed to adding participants. See [Configuring Transfer capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-transfer-capability.md).
+If you enable **Transfer**, the simulator guides you through the transfer capabilities setup. If you choose not to select the **Transfer** capability, select **Continue** to proceed to adding participants. See [Configuring Transfer capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-transfer-capability.md).
 

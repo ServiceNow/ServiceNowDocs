@@ -3,9 +3,9 @@ title: Integrate with Field Service Management
 description: Manufacturing Commercial Operations provides an integration with the Field Service Management application. This integration enables you to view work order and work order task information from a report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-integrate-with-fsm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [FSM integration, Integrate, Manufacturing Commercial Operations]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 3.  Select **Install**.
 
-    For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+    For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 
 
 ## Result
@@ -36,5 +36,5 @@ After the plugin is installed, Field Service Management application is integrate
 **Related topics**  
 
 
-[Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-work-order.md)
+[Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-create-work-order.md)
 

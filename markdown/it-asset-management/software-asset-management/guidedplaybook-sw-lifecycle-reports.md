@@ -3,13 +3,13 @@ title: Guided Experience for Lifecycle Reporting
 description: Use a guided walk-through playbook to achieve audit readiness and regulatory compliance through accurate lifecycle reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/guidedplaybook-sw-lifecycle-reports.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Guided Experience for Lifecycle Reporting
@@ -38,7 +38,7 @@ The playbook guides you through every step of the lifecycle reporting process:
 
 ## Accessing the Guided Experience for Lifecycle playbook
 
-You can access the playbook by navigating to **Workspaces** &gt; **Software Asset Workspace** &gt; **Software asset analytics** &gt; **Lifecycle management**. For more details, see [Create a comprehensive lifecycle report using a guided experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-lifecyclereporting-guidedexperience.md).
+You can access the playbook by navigating to **Workspaces** &gt; **Software Asset Workspace** &gt; **Software asset analytics** &gt; **Lifecycle management**. For more details, see [Create a comprehensive lifecycle report using a guided experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-lifecyclereporting-guidedexperience.md).
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

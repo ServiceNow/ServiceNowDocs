@@ -3,9 +3,9 @@ title: Add or remove an approver
 description: Facilitate approval process by adding or removing approvers from your publication workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommAddAnApprover.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_publications.admin
 
 3.  To add an approver, click **Edit Approvers** next to the **Approvers** field and select an approver from the Users list.
 
-    This list includes users with the sn\_publications.approver role. The selected user is added to the **Approvers** field. Approvals on workflows is a platform functionality. For more information, see [Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_ApprovalAndRollbackActivities.md).
+    This list includes users with the sn\_publications.approver role. The selected user is added to the **Approvers** field. Approvals on workflows is a platform functionality. For more information, see [Approval and rollback workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/c_ApprovalAndRollbackActivities.md).
 
 4.  To remove an approver, click **Edit Approvers** next to the **Approvers** field, select the approver's name, and then click **Remove**.
 

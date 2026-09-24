@@ -3,11 +3,11 @@ title: Review the breakdown sources
 description: Breakdown sources represent the elements that you use to examine a KPI in more detail. Modify the breakdown source to limit the element list to only those items that are meaningful for the data analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/review-breakdown-sources.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Platform Analytics Solutions, Platform Analytics solutions, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -27,7 +27,7 @@ For example, the Assignment Group automated breakdown uses the Groups breakdown 
 Restricting the number of elements that a breakdown source returns has the following benefits:
 
 -   Smaller element lists make it easier for consumers to find the data they need. Sorting through a list of 25 groups associated with a particular process is easier than trying to sort through thousands of groups.
--   Smaller element lists lead to less data collection and more efficient use of data. Instead of the [data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) crunching through 1,000 different groups, the data collector can analyze the 25 groups that are meaningful to the process.
+-   Smaller element lists lead to less data collection and more efficient use of data. Instead of the [data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) crunching through 1,000 different groups, the data collector can analyze the 25 groups that are meaningful to the process.
 
 **Note:** You probably do not need to change the breakdown sources in Platform Analytics Solutions. However, you may find it helpful to review and understand exactly what is being measured in your processes.
 
@@ -60,16 +60,16 @@ Restricting the number of elements that a breakdown source returns has the follo
 
 ## What to do next
 
-You are now ready to collect data, as described in [Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md).
+You are now ready to collect data, as described in [Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md).
 
-**Parent Topic:**[Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/configure-nowintel-solutions.md)
+**Parent Topic:**[Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/configure-nowintel-solutions.md)
 
-**Previous topic:**[Update Performance Analytics scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/update-pa-scripts.md)
+**Previous topic:**[Update Performance Analytics scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/update-pa-scripts.md)
 
-**Next topic:**[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)
+**Next topic:**[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)
 
 **Related topics**  
 
 
-[Define a breakdown source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_DefiningABreakdownSource.md)
+[Define a breakdown source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_DefiningABreakdownSource.md)
 

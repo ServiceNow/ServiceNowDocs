@@ -3,11 +3,11 @@ title: Define a project in classic Project Workspace
 description: Define important aspects of the selected project such as duration, estimated cost, and the net value to the organization in classic Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/define-project-in-project-workspace.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,16 +26,16 @@ Role required: it\_project\_user
 
 ## About this task
 
-The **Details** tab in project workspace displays the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md) for the selected project.
+The **Details** tab in project workspace displays the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md) for the selected project.
 
 ## Procedure
 
-1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-the-project-workspace.md) the required project in Project Workspace.
+1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/access-the-project-workspace.md) the required project in Project Workspace.
 
 2.  Click the **Details** tab to display the project form.
 
 3.  Edit the project record as required.
 
 
-**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-workspace-classic.md)
 

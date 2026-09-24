@@ -3,11 +3,11 @@ title: Configure a websocket endpoint
 description: Configure a websocket to enable the endpoint to provide web access from the MID Server to the Agent Client Collector \(ACC\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-configure-websocket-endpoint.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring ACC with a MID Server, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -46,5 +46,5 @@ For added security, ensure that MID Servers deployed for the Agent Client Collec
 6.  In the **Related Links** section, select **Start** to activate the websocket endpoint.
 
 
-**Parent Topic:**[Configuring Agent Client Collector with a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configuring-with-mid.md)
+**Parent Topic:**[Configuring Agent Client Collector with a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-configuring-with-mid.md)
 

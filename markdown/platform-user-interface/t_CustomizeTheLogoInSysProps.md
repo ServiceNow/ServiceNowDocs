@@ -3,9 +3,9 @@ title: Customize the banner logo in Core UI
 description: Use the glide.product.image and glide.product.description properties to change the banner logo and description in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CustomizeTheLogoInSysProps.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a company profile, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -49,7 +49,7 @@ To update the banner image in the **System Properties** &gt; **System** page, yo
     **Note:** The system limits banner images to 50px.
 
 
-**Parent Topic:**[Create a company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateACompanyProfile.md)
+**Parent Topic:**[Create a company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreateACompanyProfile.md)
 
 **Related topics**  
 

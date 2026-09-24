@@ -3,11 +3,11 @@ title: Components installed with Automation Center
 description: Several types of components are installed with the activation of Automation Center, including tables, user roles, and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/components-installed-with-automation-center.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
@@ -16,13 +16,13 @@ breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 
 Several types of components are installed with the activation of Automation Center, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 Demo data is available for this plugin.
 
 ## Roles installed
 
-**Note:** To view the Robotic Process Automation \(RPA\) data, RPA roles are required. For more information about RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-rpa-hub.md) .
+**Note:** To view the Robotic Process Automation \(RPA\) data, RPA roles are required. For more information about RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/installed-with-rpa-hub.md) .
 
 <table id="table_ddp_3pg_wtb"><thead><tr><th>
 
@@ -218,5 +218,5 @@ Automation Import \[sn\_ac\_rpa\_import\]
 Temporarily stores data that is imported from the REST API.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-reference.md)
 

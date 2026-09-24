@@ -3,11 +3,11 @@ title: Create an SLA definition for a CI or application service
 description: You can create SLA definitions for CIs and application services just as you can for other task records in the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMCreateSLADefForCI\_BS.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SLAs for application services and CIs, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Role required: evt\_mgmt\_admin
 
 3.  Fill out the fields on the SLA Definition form.
 
-    For a description of each field, see [Create an SLA definition for a CI or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateSLADefForCI_BS.md).
+    For a description of each field, see [Create an SLA definition for a CI or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateSLADefForCI_BS.md).
 
 4.  For the **Table** field, select **Event Management SLA \[em\_ci\_severity\_task\]**.
 
@@ -96,5 +96,5 @@ For a specific service, such as Email, when the **Severity** is **Critical**
 7.  Click **Submit**.
 
 
-**Parent Topic:**[SLAs for application services and CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMSLAsForBSAndCIs.md)
+**Parent Topic:**[SLAs for application services and CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EMSLAsForBSAndCIs.md)
 

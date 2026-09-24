@@ -3,9 +3,9 @@ title: Add products or services to an order in Order Management
 description: Add order lines for products or service orders using the product catalog and product configurator in Order Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-add-products-services-to-orders.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ When the  product configurator opens you can select from the available options
 -   The option selection displays any available options for the product, service, order lines, and order tasks.
 -   The Current Selection displays the selected products options and the pricing.
 
-Depending on your configuration, you'd either see a CPQ Configurator or product configurator. To learn more about these, see [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-servicenowcpq.md) and [Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-som-product-configurator.md).
+Depending on your configuration, you'd either see a CPQ Configurator or product configurator. To learn more about these, see [Using the CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-servicenowcpq.md) and [Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-som-product-configurator.md).
 
 As you configure your product, use the following options:
 
@@ -50,7 +50,7 @@ Reprice
 
 </td><td>
 
-Resets the pricing and updates the total price when you make changes.If cascading pricing is enabled, pricing information is cascaded from parent to child line items. See [Control cascading quantity values in child product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-activate-cascade-quantity.md) for more information.
+Resets the pricing and updates the total price when you make changes.If cascading pricing is enabled, pricing information is cascaded from parent to child line items. See [Control cascading quantity values in child product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-activate-cascade-quantity.md) for more information.
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Adds the product to the order after you've configured it.
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -93,7 +93,7 @@ Adds the product to the order after you've configured it.
 **Related topics**  
 
 
-[Filter product catalog by location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-filter-catalog-by-location.md)
+[Filter product catalog by location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-filter-catalog-by-location.md)
 
-[Set up and review order lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-om-setup-product-order-lines.md)
+[Set up and review order lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-om-setup-product-order-lines.md)
 

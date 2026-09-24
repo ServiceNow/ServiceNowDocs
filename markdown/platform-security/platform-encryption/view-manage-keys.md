@@ -3,11 +3,11 @@ title: View and manage keys
 description: Review the status of any key to determine further key action, such as when to renew, rotate, suspend, deactivate, or destroy a current key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/view-manage-keys.html
-release: australia
+release: brazil
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Key management actions, Key Management Framework, Encryption]
 ---
@@ -57,5 +57,5 @@ Role required: sn\_kmf.cryptographic\_manager
     -   **Suspend Key**: Select to deactivate the current key.
     -   **Resume Key**: Select to mark a suspended key as the active key. This option is only available after the active key has been suspended.
 
-**Parent Topic:**[Key management actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/key-management-actions.md)
+**Parent Topic:**[Key management actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/key-management-actions.md)
 

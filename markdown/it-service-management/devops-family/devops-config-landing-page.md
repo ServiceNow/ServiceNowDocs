@@ -3,11 +3,11 @@ title: DevOps Config
 description: The ServiceNow DevOps Config application validates and manages the configuration data of your enterprise applications across every stage of the DevOps pipeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-landing-page.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -28,27 +28,27 @@ Watch this short video for an introduction to the DevOps Config application.
 
 <table id="table_kcg_td4_vtb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about how DevOps engineers and developers use DevOps Config.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-getting-started.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about how DevOps engineers and developers use DevOps Config.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/devops-config-getting-started.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/setting-up-devops-config-validation.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/setting-up-devops-config-validation.md)
 
 </td><td>
 
-[Integrate \[Omitted image "icon-integration.png"\] Alt text: Integrate Extend DevOps Config capabilities by integrating your pipeline.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-integrations.md)
+[Integrate \[Omitted image "icon-integration.png"\] Alt text: Integrate Extend DevOps Config capabilities by integrating your pipeline.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/devops-config-integrations.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "icon-workspace.png"\] Alt text: Use Use DevOps Config to validate and manage your configuration data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-using.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use Use DevOps Config to validate and manage your configuration data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/devops-config-using.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions \[Omitted image "icon-report.png"\] Alt text: Analytics and reporting Coordinate work and improve processes with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-insights-dashboard.md)
+[Analytics and Reporting Solutions \[Omitted image "icon-report.png"\] Alt text: Analytics and reporting Coordinate work and improve processes with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/devops-config-insights-dashboard.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Get details about supported configuration data, CDM APIs, and PaCE policies.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-reference.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Get details about supported configuration data, CDM APIs, and PaCE policies.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/devops-config-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -59,5 +59,5 @@ Watch this short video for an introduction to the DevOps Config application.
 
 ## Related ServiceNow applications and features
 
-[DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-landing-page.md) application.
+[DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-landing-page.md) application.
 

@@ -3,9 +3,9 @@ title: Modify terms and conditions for the sales cart
 description: Add order checkout terms and conditions in the CartTermsAndCo document template block for your Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/modify-terms-conditions-sales-cart.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Sales Cart for Business Portal, Business Portal, Configure, Sales Customer Relationship Management]
 ---
@@ -40,7 +40,7 @@ The CartTermsAndCo document template block in the Sales Cart Demo Template and S
 **Related topics**  
 
 
-[Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/document-templates-overview.md)
+[Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/document-templates-overview.md)
 
-[Create block content in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-doc-blc-cnt.md)
+[Create block content in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/create-doc-blc-cnt.md)
 

@@ -3,11 +3,11 @@ title: Search Log fields and description
 description: The knowledge search log stores the history of all knowledge searches performed by the users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/km-search-logs.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View knowledge logs, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -89,7 +89,7 @@ Session Id
 Unique identifier for the user session.
 
 </td></tr></tbody>
-</table>For information about finding the source used for searching a knowledge article, see [View the source of a knowledge article search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/find-knowledge-search-source.md).
+</table>For information about finding the source used for searching a knowledge article, see [View the source of a knowledge article search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/find-knowledge-search-source.md).
 
-**Parent Topic:**[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-knowledge-logs.md)
+**Parent Topic:**[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/view-knowledge-logs.md)
 

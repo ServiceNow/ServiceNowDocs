@@ -3,11 +3,11 @@ title: Create a child alias to set up multiple Jira integration profiles
 description: Create a child alias to set up multiple Jira integration profiles with unique connections and manage different configurations for each integration profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-child-alias-jira.html
-release: australia
+release: brazil
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [child alias, child alias for jira]
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
@@ -25,7 +25,7 @@ Role required: sam\_integrator
 
 1.  Create a Jira integration profile.
 
-    For more information about creating an integration profile, see [Integrating with Jira Software Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-jira.md).
+    For more information about creating an integration profile, see [Integrating with Jira Software Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrate-with-jira.md).
 
 2.  Open the connection &amp; credential record set on the integration profile.
 
@@ -63,7 +63,7 @@ Role required: sam\_integrator
 14. Select **Save** and publish the integration profile.
 
 
-**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
+**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 

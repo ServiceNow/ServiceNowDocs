@@ -3,11 +3,11 @@ title: Telecom Customer Enterprise Graph
 description: The Telecom Customer Enterprise Graph connects telecom customer and service data to provide context for AI agents in the Smart Actions for Telecom agentic workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-telecom-customer-enterprise-graph.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [telecom customer enterprise graph, knowledge graph, enterprise graph tag, AI agent context, customer service data]
 breadcrumb: [Smart Actions for Telecom, Use agentic workflows, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
@@ -23,7 +23,7 @@ The Telecom Customer Enterprise Graph is an enterprise graph tag available in th
 
 The Smart Actions for Telecom agentic workflow uses this graph to enrich customer context at runtime. When the workflow runs, it queries the graph to retrieve service-related data such as service problem cases and sold product details.
 
-You can use the Telecom Customer Enterprise Graph as a starting point for your own knowledge graph. To add tables, modify paths, or create a custom graph tag based on this one, see [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-knowledge-graph-designer.md).
+You can use the Telecom Customer Enterprise Graph as a starting point for your own knowledge graph. To add tables, modify paths, or create a custom graph tag based on this one, see [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/using-knowledge-graph-designer.md).
 
 ## Tables tagged in the Telecom Customer Enterprise Graph
 
@@ -45,5 +45,5 @@ You can use the Telecom Customer Enterprise Graph as a starting point for your o
 **Related topics**  
 
 
-[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Smart Actions for Telecom agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-smart-actions-agentic-workflow.md)
+[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Smart Actions for Telecom agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-smart-actions-agentic-workflow.md)
 

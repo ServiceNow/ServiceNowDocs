@@ -3,11 +3,11 @@ title: Summarize test for a technology product support case using ServiceNow Ott
 description: Generate the test run summary for a technology product support case record to understand the context of test outcomes and the root cause of the problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-tech-support-case.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -24,16 +24,16 @@ Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agen
 
 The test summarization skill provides you with a concise summary of the test executed for a technology product support case. The summary includes the test outcome, test interpretation, and other parameters configured for the specific test definition. You can use this skill to analyze the root cause of the problem.
 
-The test summarization skill is available in CSM/FSM Configurable Workspace and in Core UI.
+The test summarization skill is available in CRM Workspace and in Core UI.
 
--   In CSM/FSM Configurable Workspace, you use the Test Run summary by ServiceNow Otto component to generate a summary. This component appears in the test results record.
+-   In CRM Workspace, you use the Test Run summary by ServiceNow Otto component to generate a summary. This component appears in the test results record.
 -   In Core UI, you select the **Summarize** button on the test result record to generate a summary.
 
 The test summarization skill checks the test results record to determine if there’s enough information available to create a summary. If there’s enough data, the Test summary component displays the **Summarize** button. If there isn’t enough data to generate a summary, the system displays a message in the Test summary component field.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Technology Product Support Case**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Technology Product Support Case**.
 
 2.  Open a technology product support case.
 
@@ -55,15 +55,15 @@ The test summarization skill checks the test results record to determine if ther
 
 6.  After you're finished summarizing the test for the technology product support case, manage the results.
 
-<table id="choicetable_ebh_5tm_vdc"><thead><tr><th align="left" id="d51583e198">
+<table id="choicetable_ebh_5tm_vdc"><thead><tr><th align="left" id="d51742e198">
 
 Option
 
-</th><th align="left" id="d51583e201">
+</th><th align="left" id="d51742e201">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d51583e207">
+</th></tr></thead><tbody><tr><td id="d51742e207">
 
 **Expand or collapse the summary**
 
@@ -73,7 +73,7 @@ Procedure
 -   See fewer summary details by selecting the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d51583e237">
+</td></tr><tr><td id="d51742e237">
 
 **Provide feedback for the summary**
 
@@ -83,7 +83,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d51583e270">
+</td></tr><tr><td id="d51742e270">
 
 **Copy the test summary**
 
@@ -91,7 +91,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d51583e285">
+</td></tr><tr><td id="d51742e285">
 
 **Refresh the test summary**
 
@@ -107,5 +107,5 @@ Fetch the latest test run summary by selecting the refresh icon \(\[Omitted imag
     -   To set the results, select **Save**.
     -   To go back to the test results list, select **Cancel**.
 
-**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

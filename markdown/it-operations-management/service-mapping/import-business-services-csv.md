@@ -3,11 +3,11 @@ title: Map multiple application services from a CSV file using classic Service M
 description: This method suits you if your organization has performed cross-organization mapping and analysis and collected some information about planned service instances. If so, you can organize the collected information in a specific order and save it as a CSV file. Service Mapping extracts information from this file and creates potential service instances referred to as service candidates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/import-business-services-csv.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ This method suits you if your organization has performed cross-organization mapp
 
 ## Before you begin
 
-Perform the procedure described in [Prepare a CSV file for mapping your candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prepare-csv-file.md).
+Perform the procedure described in [Prepare a CSV file for mapping your candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/prepare-csv-file.md).
 
 Role required: service\_mapping\_admin
 
@@ -59,14 +59,14 @@ After Service Mapping discovers configuration items \(CIs\) belonging to your se
 
 ## What to do next
 
--   Review the list of created application services. If Service Mapping did not create some application services during bulk mapping as you expected, create them manually as described in [Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md).
--   Fix application services discovered with errors. For more information, see [Fix application service errors in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-bus-serv-errors-by-category.md).
--   Send application services discovered without errors to their respective owners for approval. For more information, see [Send application service maps for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/send-business-service-for-review.md).
+-   Review the list of created application services. If Service Mapping did not create some application services during bulk mapping as you expected, create them manually as described in [Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md).
+-   Fix application services discovered with errors. For more information, see [Fix application service errors in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/fix-bus-serv-errors-by-category.md).
+-   Send application services discovered without errors to their respective owners for approval. For more information, see [Send application service maps for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/send-business-service-for-review.md).
 
--   **[Prepare a CSV file for mapping your candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prepare-csv-file.md)**  
+-   **[Prepare a CSV file for mapping your candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/prepare-csv-file.md)**  
 Organize information about potential application services \(candidates\) in your organization and save it in a CSV file.
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 
 **Related topics**  
 

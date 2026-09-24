@@ -3,11 +3,11 @@ title: Create or update cost centers
 description: Define a new cost center or update the details of the existing cost centers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/c\_ManageCostCenters.html
-release: australia
+release: brazil
 product: Cost Management
 classification: cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Budgets and cost centers, Cost Management, Strategic Portfolio Management]
 ---
@@ -44,12 +44,12 @@ Role required: financial\_mgmt\_admin
 
 ## What to do next
 
-Review the related lists for this cost center and update them as necessary. See [Cost centers related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_CostCentersRelatedRecords.md).
+Review the related lists for this cost center and update them as necessary. See [Cost centers related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_CostCentersRelatedRecords.md).
 
-**Parent Topic:**[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
+**Parent Topic:**[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
 
 **Related topics**  
 
 
-[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
+[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
 

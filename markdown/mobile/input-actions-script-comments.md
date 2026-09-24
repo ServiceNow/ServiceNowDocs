@@ -3,9 +3,9 @@ title: Script code for comment type and updates for input actions
 description: Use the following script to determine where user comments entered in an input form are stored. The script also records comment deletion, updates, insertions of new text, and tracking the timestamp of changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/input-actions-script-comments.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure input form actions, Input form actions, Input actions and input sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---

@@ -3,11 +3,11 @@ title: Request funds for an investment
 description: Request funds from a funding source for your investment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/request-funds-for-investment.html
-release: australia
+release: brazil
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Investment Funding, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ You cannot request funds for a generic investment from any other generic investm
 
 You can request funds only from generic source investments that have allocated funds to your investment in the past.
 
-You can request funds only in the funding frequency configured in the [Investment Funding Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/set-funding-preferences.md).
+You can request funds only in the funding frequency configured in the [Investment Funding Preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/set-funding-preferences.md).
 
 You can request funds from only those entities that were added in the **Fundable entities** field while creating the entity.
 
@@ -70,5 +70,5 @@ You can withdraw funding requests that are in the requested and planning state a
 -   Funds are requested from the source investments sources for the specified period.
 -   The state of the fund request record changes to Requested.
 
-**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/investment-funding/investment-funding-overview.md)
 

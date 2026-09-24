@@ -3,14 +3,14 @@ title: Manage HAM advisor scope in CMDB success advisor
 description: Manage the scope of your advisor for Hardware Asset Management \(HAM\) by editing model categories in CMDB success advisor to support your targeted HAM outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cmdb-sa-ham-optimize-dashboard.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [manage HAM advisor scope, edit model categories, HAM advisor scope management]
-breadcrumb: [Set up advisor, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Set up advisor, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage HAM advisor scope in CMDB success advisor
@@ -44,5 +44,5 @@ Control which resource and model categories are included in the HAM advisor dash
 
 ## Result
 
-The HAM dashboard in CMDB success advisor is updated to reflect the data based on the model category selection. Dashboard metrics refresh once daily when the **CMDB Advisor - HAM Daily Data Collection** scheduled job runs. The scheduled job invokes the **CMDB success advisor data collection for HAM** Performance Analytics job to recalculate the pre-aggregated indicators used throughout the dashboard. For more information about Performance Analytics jobs, see [Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ClctData.md). Changes to your model category selection appear in the dashboard metrics after this job's next run, not immediately. For the full list of CMDB success advisor scheduled jobs, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-components-installed.md).
+The HAM dashboard in CMDB success advisor is updated to reflect the data based on the model category selection. Dashboard metrics refresh once daily when the **CMDB Advisor - HAM Daily Data Collection** scheduled job runs. The scheduled job invokes the **CMDB success advisor data collection for HAM** Performance Analytics job to recalculate the pre-aggregated indicators used throughout the dashboard. For more information about Performance Analytics jobs, see [Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_ClctData.md). Changes to your model category selection appear in the dashboard metrics after this job's next run, not immediately. For the full list of CMDB success advisor scheduled jobs, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sa-components-installed.md).
 

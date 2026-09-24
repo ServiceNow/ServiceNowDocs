@@ -3,11 +3,11 @@ title: Manual client registration
 description: Connect to an MCP connector in Connect Hub by providing OAuth 2.1 credentials from the third-party provider, for connectors such as GitHub and Figma that require a registered OAuth application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mcp-mcr-a.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric]
+breadcrumb: [Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Manual client registration
@@ -17,7 +17,7 @@ Connect to an MCP connector in Connect Hub by providing OAuth 2.1 credentials fr
 ## Before you begin
 
 -   Note the **Client ID** and **Client secret** generated for your OAuth application. You must provide these values during the connection setup.
--   Some connectors may require additional configurations. See [Additional connector configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/additional-configs-mcr.md) for the list of supported connectors that require additional configurations. If your connector is listed, perform the required configurations before registering the client manually.
+-   Some connectors may require additional configurations. See [Additional connector configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/additional-configs-mcr.md) for the list of supported connectors that require additional configurations. If your connector is listed, perform the required configurations before registering the client manually.
 -   Role required: wdf\_builder or admin.
 
 ## About this task

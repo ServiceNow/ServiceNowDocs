@@ -3,11 +3,11 @@ title: Analyze sentiments in ServiceNow Otto for Customer Service Management \(C
 description: Make informed decisions on cases and email interactions based on requester's sentiment and the reasoning behind it in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/analyze-sentiments-in-now-assist-for-csm.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -43,11 +43,15 @@ Navigate in Core UI
 
 The case list view appears.
 
+\[Omitted image "sentiment-analysis-coreui-case-list-view.png"\] Alt text: Sentiment analysis Core UI list view
+
 You can analyze the Sentiment and Sentiment trend for the case list.
 
 2.  Select a case.
 
 The case form view appears.
+
+\[Omitted image "sentiment-analysis-coreui-form-view.png"\] Alt text: Sentiment analysis Core UI form view that displays the reasons for the sentiment
 
 3.  In the Sentiment field, select the information icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: icon for seeing information about sentiment when you select to see the reasons for the sentiment.
 
@@ -58,15 +62,19 @@ Navigate in CRM Workspace
 
 </td><td>
 
-1.  Go to **Workspaces** &gt; **CSM Configurable Workspace**
+1.  Go to **Workspaces** &gt; **CRM Workspace**
 2.  Select the List icon \[Omitted image "List\_MenuIcon.png"\] Alt text: icon for seeing the list of cases.
 3.  Go to **Cases** &gt; **Open**
 
 The CRM Workspace list view appears.
 
+\[Omitted image "sentiment-analysis-case-list-view-configurable-workspace.png"\] Alt text: Sentiment analysis case list view
+
 4.  Select a case.
 
 The CRM Workspace form view appears.
+
+\[Omitted image "sentiment-analysis-form-view-configurable-workspace.png"\] Alt text: Sentiment analysis case form view that displays the reasons for the sentiment
 
 5.  Select the information icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned to see the reasons for the sentiment.
 
@@ -94,6 +102,8 @@ The interactions list view appears.
 
     -   Remove the default **My Interactions** filter to see all interactions
     -   Apply filter for **Email** interaction type to view interactions with sentiment analysis
+\[Omitted image "core-ui-list-view-interaction.png"\] Alt text: Interactions list view filtered to Email type, displaying sentiment analysis columns including Sentiment and Sentiment Trend.
+
 You can analyze the Sentiment and Sentiment trend for the interaction list.
 
 **Important:** By default, sentiment and sentiment trend values aren't displayed in the list view, even when the skill is enabled. You must manually personalize the list view to add these columns. To add sentiment columns do the following:
@@ -106,6 +116,8 @@ You can analyze the Sentiment and Sentiment trend for the interaction list.
 
 The interaction form view appears.
 
+\[Omitted image "core-ui-form-view-interaction.png"\] Alt text: Interaction form for an email record in New state, showing a Positive sentiment and Improving sentiment trend.
+
 3.  In the Sentiment field, select the information icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: icon for seeing more details about sentiment. to see the reasons for the sentiment.
 
 **Important:** By default, sentiment and sentiment trend values aren't displayed in the form view, even when the skill is enabled. You must manually personalize the form view to add these columns. To add sentiment columns do the following:
@@ -113,7 +125,7 @@ The interaction form view appears.
     1.  Open an interaction record.
     2.  Select and hold the form header and select **Configure** &gt; **Form Layout**.
 
-**Tip:** You must select and hold the list header and select **Configure** &gt; **Form Layout** &gt; **.**.
+**Tip:** You must select and hold the list header and select **Configure** &gt; **Form Layout**.
 
     3.  In the form layout editor, locate the Sentiment section.
     4.  Expand Sentiment\(sn\_ai\_sentiment\)+.
@@ -132,15 +144,19 @@ Navigate in CRM Workspace
 
 </td><td>
 
-1.  Go to **Workspaces** &gt; **CSM Configurable Workspace**
+1.  Go to **Workspaces** &gt; **CRM Workspace**
 2.  Select the List icon \[Omitted image "List\_MenuIcon.png"\] Alt text: icon for seeing the list of interactions.
 3.  Go to **Interactions** &gt; **My interactions**
 
 The CRM Workspace list view for interactions appears.
 
+\[Omitted image "csm-configurable-workspace-list-view-interaction.png"\] Alt text: CRM Workspace showing the interactions- My Interactions list view with a positive sentiment and improving sentiment trend,
+
 4.  Select an interaction.
 
 The CRM Workspace form view appears.
+
+\[Omitted image "csm-configurable-workspace-form-view-interaction.png"\] Alt text: CRM Workspace form view for an interaction,showing a Closed Complete chat with a negative sentiment badge
 
 5.  Select the information icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned to see the reasons for the sentiment.
 
@@ -158,7 +174,7 @@ The CRM Workspace form view appears.
 
 
 </td></tr></tbody>
-</table>5.  In Core UI or CRM Workspace list view, you can sort the cases and interactions based on the sentiment scale \(Very Positive, Positive, Neutral, Negative, or Very Negative\) and the sentiment trend.
+</table>5.  In Core UI or CRM Workspace list view, sort cases and interactions by sentiment scale \(Very Positive, Positive, Neutral, Negative, or Very Negative\) and sentiment trend.
 
 6.  Manually refresh a sentiment.
 
@@ -166,19 +182,17 @@ The CRM Workspace form view appears.
 
     2.  A red dot appears on the information icon\[Omitted image "circle-info-outline-24.svg"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned next to the sentiment.
 
-        The red dot appears in the CRM Workspace interface.
-
-    3.  Select the information icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned.
+    3.  Select the information icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: The information icon provides an explanation for why a particular sentiment has been assigned to view the explanation.
 
     4.  Select the refresh icon \[Omitted image "refresh-sync-new.png"\] Alt text: Refreshes content to see the updated sentiment scale \(Very Positive, Positive, Neutral, Negative, or Very Negative\)and sentiment trend.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
+**Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 
 
 [Enable and configure the Sentiment Analysis](https://support.servicenow.com/kb?sys_kb_id=ec531aab47a48794b6d8aa25126d4322&id=kb_article_view)
 
-[Sentiment analysis for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/sentiment-analysis-interaction.md)
+[Sentiment analysis for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/sentiment-analysis-interaction.md)
 

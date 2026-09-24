@@ -3,9 +3,9 @@ title: Add a business capability to a goal
 description: Add existing business capabilities to goals, or create business capabilities directly from goal records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-business-capability-to-goal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business capability, goal, enterprise architecture]
 breadcrumb: [Manage goals, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -45,18 +45,18 @@ A goal is mapped to a business capability using the relationship type **Realizes
         1.  Select **Add**.
         2.  In the Add business capability window, select the business capability. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
-    -   To create a business capability, select **New** and complete the fields on the form. For field descriptions, see [Create business capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-cap-form.md).
+    -   To create a business capability, select **New** and complete the fields on the form. For field descriptions, see [Create business capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-cap-form.md).
 
 ## Result
 
 The business capability appears in the **Business capabilities** related list for the goal.
 
-**Parent Topic:**[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-goals.md)
+**Parent Topic:**[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-goals.md)
 
 **Related topics**  
 
 
-[Remove a business capability from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-capability-from-goal.md)
+[Remove a business capability from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-remove-business-capability-from-goal.md)
 
-[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-goals.md)
+[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-goals.md)
 

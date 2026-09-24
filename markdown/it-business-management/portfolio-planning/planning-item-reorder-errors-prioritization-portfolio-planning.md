@@ -3,11 +3,11 @@ title: Planning item reorder errors in Portfolio Planning
 description: Review the scenarios when the reordering of items can fail in the List view of Prioritization in Portfolio Planning Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/planning-item-reorder-errors-prioritization-portfolio-planning.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -31,10 +31,10 @@ To update the rank of the planning items in the work pipeline of your portfolio 
     Check if the planning item before or after your target position to reorder has a global rank. If not, contact your system admin to generate a global rank for them.
 
 
-**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
+**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
 
 **Related topics**  
 
 
-[Rank planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/rank-and-prioritize-work-portfolio-planning-workspace.md)
+[Rank planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/rank-and-prioritize-work-portfolio-planning-workspace.md)
 

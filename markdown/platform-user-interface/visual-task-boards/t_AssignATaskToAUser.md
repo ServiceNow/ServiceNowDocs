@@ -3,13 +3,13 @@ title: Assign a Visual Task Board card to a user
 description: Assignees represent ownership of task cards and the associated records. Each task card can have one primary assignee and multiple additional assignees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_AssignATaskToAUser.html
-release: australia
+release: brazil
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
 
 # Assign a Visual Task Board card to a user
@@ -36,7 +36,7 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 
 1.  Do one of the following actions.
 
-<table id="choicetable_l4n_x4d_pt"><tbody><tr><td id="d63627e91">
+<table id="choicetable_l4n_x4d_pt"><tbody><tr><td id="d64434e91">
 
 **Add an assignee from the quick panel**
 
@@ -46,7 +46,7 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 2.  Drop the avatar in the **Primary** or **Additional** drop zone.
 
 
-</td></tr><tr><td id="d63627e115">
+</td></tr><tr><td id="d64434e115">
 
 **Add an assignee from the card details**
 
@@ -63,5 +63,5 @@ For flexible and guided boards, the primary assignee corresponds to the underlyi
 </table>    The system sends an email notification to inform the new assignee of the change.
 
 
-**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

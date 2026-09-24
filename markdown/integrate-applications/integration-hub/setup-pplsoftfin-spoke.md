@@ -3,7 +3,7 @@ title: Set up the Oracle Peoplesoft Financial spoke
 description: Integrate the Oracle Peoplesoft Financial and ServiceNow instances, and authenticate the requests using the basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-pplsoftfin-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

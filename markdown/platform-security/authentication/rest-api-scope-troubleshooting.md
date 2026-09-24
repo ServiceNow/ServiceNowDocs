@@ -3,11 +3,11 @@ title: REST API scope troubleshooting
 description: Troubleshooting actions can help resolve common issues when setting up or running the REST API scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/rest-api-scope-troubleshooting.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [REST API Auth Scope, REST API access policies, API access policy, Authentication, Access Management]
 ---

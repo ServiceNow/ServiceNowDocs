@@ -3,9 +3,9 @@ title: Upload your Code Signing configuration file to your protected instance
 description: Upload the configuration file generated on your trusted instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/cse-upload-cs-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
@@ -22,11 +22,11 @@ Roles required:
 -   security\_admin
 -   codesigning\_admin
 
-    **Note:** The codesigning\_admin role can be assigned using the process detailed in [Assign the Code Signing Administrator Role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cse-assign-roles.md).
+    **Note:** The codesigning\_admin role can be assigned using the process detailed in [Assign the Code Signing Administrator Role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/cse-assign-roles.md).
 
 -   sn\_kmf.cryptographic\_manager
 
-You also need the configuration file generated in the steps detailed in [Configure Code Signing Enterprise on your trusted instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cse-turn-on-cse.md).
+You also need the configuration file generated in the steps detailed in [Configure Code Signing Enterprise on your trusted instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/cse-turn-on-cse.md).
 
 ## Procedure
 
@@ -48,4 +48,6 @@ You also need the configuration file generated in the steps detailed in [Configu
 
 7.  After resolving any conflicts, select **Commit Update Set Batch**.
 
+
+**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/config-code-signing.md)
 

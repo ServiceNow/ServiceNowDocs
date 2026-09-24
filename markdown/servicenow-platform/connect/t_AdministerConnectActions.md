@@ -3,11 +3,11 @@ title: Administer Connect actions
 description: You can create or modify Connect actions to provide custom functionality in Connect Chat or Connect Support conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_AdministerConnectActions.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect administration, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ You can create or modify Connect actions to provide custom functionality in Conn
 
 **Important:**
 
-Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
+Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
 
 If you want to customize the icon for a Connect action, navigate to **Collaborate** &gt; **Administration** &gt; **Action Icons** to view the available icons and their class names. Note the class name of the icon you want to use.
 
@@ -52,7 +52,7 @@ Condition
 
 </td><td>
 
-JavaScript condition statement that must return true for the action to be available in a conversation. For example, to show the action in Connect Support conversations only, enter `conversation.type === "support"` or `conversation.table === 'chat_queue_entry'`.For information about the conversation object, see the [GlideConversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideConversationAPI.md) API reference documentation.
+JavaScript condition statement that must return true for the action to be available in a conversation. For example, to show the action in Connect Support conversations only, enter `conversation.type === "support"` or `conversation.table === 'chat_queue_entry'`.For information about the conversation object, see the [GlideConversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_GlideConversationAPI.md) API reference documentation.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ response.newRecord("incident",{
 });
 ```
 
-For information about the response object, see the [ConnectActionResponse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_ConnectActionResponseAPI.md) API reference documentation.**Note:** You can only create a Connect action that is based on a task table.
+For information about the response object, see the [ConnectActionResponse](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/c_ConnectActionResponseAPI.md) API reference documentation.**Note:** You can only create a Connect action that is based on a task table.
 
 </td></tr><tr><td>
 

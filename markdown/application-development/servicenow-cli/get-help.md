@@ -3,13 +3,13 @@ title: Get help with ServiceNow CLI
 description: See available commands, command options, and examples, or generate debug logging output.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/get-help.html
-release: australia
+release: brazil
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow CLI, Developing your application, Building applications]
 ---
 
 # Get help with ServiceNow CLI
@@ -18,8 +18,8 @@ See available commands, command options, and examples, or generate debug logging
 
 ## Before you begin
 
--   [Install the ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/download-cli.md)
--   [Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/configure-profile.md)
+-   [Install the ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/download-cli.md)
+-   [Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/configure-profile.md)
 -   Role required: none
 
 ## About this task
@@ -142,5 +142,5 @@ In addition to the debug logging output option, the CLI logs all command executi
     The CLI generates debug logging output when executing the command.
 
 
-**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cli/servicenow-cli.md)
 

@@ -3,9 +3,9 @@ title: Managing different fiscal years
 description: Many global organizations have operations in different countries and each country could follow their own fiscal calendars instead of following the standard Gregorian calendar. When you create fiscal calendars, you enable the entities in other locations to collect data according to their own fiscal calendars.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/managing-different-fiscal-years.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -25,12 +25,12 @@ There are four data collection frequencies that are supported for the fiscal yea
 -   Semi-annually
 -   Annually
 
-After you create fiscal calendars, you must map the calendars to specify which is your target calendar and your source calendar. You can then use these calendars in metric definitions and metrics. The calendar specified on the metric is used for data collection and the calendar specified on the metric definition is used for data aggregation. This means that if the metric definition has **Global calendar** specified, and the metric has **US calendar** specified, then the Global calendar will be used for data aggregation. For more information on mapping calendars, see [Map target and source calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/map-target-and-source-calendars.md).
+After you create fiscal calendars, you must map the calendars to specify which is your target calendar and your source calendar. You can then use these calendars in metric definitions and metrics. The calendar specified on the metric is used for data collection and the calendar specified on the metric definition is used for data aggregation. This means that if the metric definition has **Global calendar** specified, and the metric has **US calendar** specified, then the Global calendar will be used for data aggregation. For more information on mapping calendars, see [Map target and source calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/map-target-and-source-calendars.md).
 
 **Note:** The calendars must begin on the first of every month.
 
 **Related topics**  
 
 
-[Create fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/enable-custom-fiscal-year.md)
+[Create fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/enable-custom-fiscal-year.md)
 

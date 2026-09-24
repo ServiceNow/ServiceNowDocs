@@ -3,11 +3,11 @@ title: Add fields to a form layout in Table Builder
 description: Visually add and arrange fields within a form layout to create a form that matches your requirements using Table Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/add-form-fields.html
-release: australia
+release: brazil
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
 ---
@@ -18,13 +18,13 @@ Visually add and arrange fields within a form layout to create a form that match
 
 ## Before you begin
 
--   Launch Table Builder. For more information, see [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md).
--   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
--   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
+-   Launch Table Builder. For more information, see [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md).
+-   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
+-   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-**Note:** To understand how to approach customizing your forms, review [Table Builder workflow and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-workflow.md).
+**Note:** To understand how to approach customizing your forms, review [Table Builder workflow and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-builder-workflow.md).
 
-Role required: personalize\_form or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_form or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -34,7 +34,7 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 2.  Choose a view to work with.
 
-    For detailed information on how to choose a view for a form, see [Choose a form view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/manage-form-views.md).
+    For detailed information on how to choose a view for a form, see [Choose a form view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/manage-form-views.md).
 
 3.  To display a list of the existing fields for the selected table, in the add form elements panel, select **Fields**.
 
@@ -44,15 +44,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
     **Note:** Certain field types are only supported in Core UI. Fields are flagged with an exclamation icon \(!\) to indicate an unsupported type.
 
-<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d250658e200">
+<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d243578e200">
 
 Option
 
-</th><th align="left" id="d250658e203">
+</th><th align="left" id="d243578e203">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d250658e209">
+</th></tr></thead><tbody><tr><td id="d243578e209">
 
 **Add an existing field to a form**
 
@@ -65,7 +65,7 @@ Action
 2.  In the form editor, drag one or more selected fields to the desired location and then move them around as necessary.
 
 
-</td></tr><tr><td id="d250658e229">
+</td></tr><tr><td id="d243578e229">
 
 **Add a new field to a form**
 
@@ -76,15 +76,15 @@ Action
 3.  In the **Column name** field, enter the internal name for the field.
 4.  Select the type of field from the **Type** list.
 
-To set additional properties for the field that you are creating, click **Advanced settings**. For information on field types and advanced settings, see [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/field-parameters.md).
+To set additional properties for the field that you are creating, click **Advanced settings**. For information on field types and advanced settings, see [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/field-parameters.md).
 
-5.  To add the field to the table, select **Add**.
+5.  To add the new field to the table, click **Add**.
 
-A confirmation dialog displays. Select **Done** to close it, or select **Add another one** to add more fields.
+A confirmation dialog displays. You can click **Done** to close it or click **Add another one** to add more fields to the table.
 
-The field appears at the top of the Fields list and can be dragged onto the form editor.
+The new field is displayed at the top of the Fields list and can be dragged onto the form editor.
 
-</td></tr><tr><td id="d250658e296">
+</td></tr><tr><td id="d243578e295">
 
 **Remove field from form**
 
@@ -98,5 +98,5 @@ The field appears at the top of the Fields list and can be dragged onto the form
 </table>5.  Select **Save**.
 
 
-**Parent Topic:**[Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md)
+**Parent Topic:**[Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md)
 

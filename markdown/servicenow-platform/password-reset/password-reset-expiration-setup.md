@@ -3,11 +3,11 @@ title: Configure password expiration reminder
 description: You can configure the password reset expiration reminder feature to send notifications to change or reset a user’s password whenever it is going to expire.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-reset-expiration-setup.html
-release: australia
+release: brazil
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ You can configure the password reset expiration reminder feature to send notific
 
 You must enable the **pwd\_reset.enable.password\_expiration\_reminder** property to configure password expiration reminder. By default, this property is turned off.
 
-Role required: password\_reset\_admin
+Role required: admin
 
 ## About this task
 
@@ -42,7 +42,7 @@ After configuring password expiration reminder, notifications are sent to users 
 
 5.  On the form, fill in the fields.
 
-    For information about the fields on the Password Expiration Configuration form, see [Password Expiration Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-expiration-configuration-form.md).
+    For information about the fields on the Password Expiration Configuration form, see [Password Expiration Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/password-expiration-configuration-form.md).
 
 6.  Save the form.
 
@@ -53,12 +53,12 @@ After configuring password expiration reminder, notifications are sent to users 
     **Note:** After you select **Sync Expiration data**, the scheduled job runs after an hour. The **Sync Expiration data** button appears only for those processes that are active and the processes for which the **Send expiration reminder** option is selected.
 
 
--   **[View scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/view-scheduled-jobs.md)**  
+-   **[View scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/view-scheduled-jobs.md)**  
 You can view scheduled jobs for the process that you configured password expiration for. When you configure password expiration for a process, two scheduled jobs are created automatically.
--   **[View a password expiration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/view-pwd-exp-table.md)**  
+-   **[View a password expiration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/view-pwd-exp-table.md)**  
 You can view a password expiration table and validate whether a record is created in it.
 
-**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 
@@ -83,5 +83,5 @@ You can view a password expiration table and validate whether a record is create
 
 [Configure Google reCAPTCHA for the password reset process]()
 
-[System properties for password expiration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-expiration-system-properties.md)
+[System properties for password expiration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset/password-expiration-system-properties.md)
 

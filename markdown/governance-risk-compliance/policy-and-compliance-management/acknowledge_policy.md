@@ -3,11 +3,11 @@ title: Respond to an acknowledgement request
 description: After you have been identified as a member of an audience to provide a policy acknowledgement, you must open and review the record, and then acknowledge it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/acknowledge\_policy.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Acknowledge policy, Manage, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -55,8 +55,8 @@ Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite
 
     -   **Request Exception**
 
-        If, for any reason, you do not want to respond, and the request is configured in such a way that you can opt out, click [**Request Exception**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/request-policy-exception-ws.md).
+        If, for any reason, you do not want to respond, and the request is configured in such a way that you can opt out, click [**Request Exception**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/request-policy-exception-ws.md).
 
 
-**Parent Topic:**[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)
+**Parent Topic:**[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)
 

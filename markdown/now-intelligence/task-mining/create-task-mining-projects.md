@@ -3,11 +3,11 @@ title: Create a Task Mining project
 description: Create a Task Mining project to analyze data for a specific purpose, and define how long project data is collected for.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/create-task-mining-projects.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Defining the scope of projects, Use, Task Mining, Platform Analytics]
 ---
@@ -43,7 +43,7 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
     -   **Task activity**
 
-        View the time spent and frequency of activities and applications workstation users use during tasks you grouped, such as resolving incidents. Workstation user actions are grouped as tasks to provide the data. For more information about defining tasks, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md).
+        View the time spent and frequency of activities and applications workstation users use during tasks you grouped, such as resolving incidents. Workstation user actions are grouped as tasks to provide the data. For more information about defining tasks, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/mine-data.md).
 
     -   **Overall activity**
 
@@ -51,7 +51,7 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
     -   **Task timeline**
 
-        Provides a detailed view of collected task activities. These tasks are the bases for taking task improvement actions, that is opening automation requests or sharing details of the task. Workstation user actions must be grouped as a task that can be logged to provide data for a Task timeline analysis. For more information about defining tasks, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md).
+        Provides a detailed view of collected task activities. These tasks are the bases for taking task improvement actions, that is opening automation requests or sharing details of the task. Workstation user actions must be grouped as a task that can be logged to provide data for a Task timeline analysis. For more information about defining tasks, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/mine-data.md).
 
     \[Omitted image "tm-project-goal.png"\] Alt text: Screenshot showing Task Mining goal options.
 
@@ -74,7 +74,7 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
 ## What to do next
 
-Group actions as a task for a Task activity or Task timeline analysis. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md).
+Group actions as a task for a Task activity or Task timeline analysis. For more information, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/mine-data.md).
 
-Select workstation users you want to collect activity data from and create data requests. For more information, see [Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/add-users-to-task-mining-project.md).
+Select workstation users you want to collect activity data from and create data requests. For more information, see [Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/add-users-to-task-mining-project.md).
 

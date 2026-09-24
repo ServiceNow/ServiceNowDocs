@@ -3,11 +3,11 @@ title: Implement Customer Actions
 description: Learn how to implement Customer Actions on your instance to increase its security posture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/implement-steps-for-critical-updates.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Customer Actions, Security configuration console, Security Center, Platform Security]
 ---
@@ -51,5 +51,5 @@ Customer Actions provides you step by step instructions for how to implement the
     The Customer Action should appear in the **Complete** tab.
 
 
-**Parent Topic:**[Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/critical-updates.md)
+**Parent Topic:**[Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/critical-updates.md)
 

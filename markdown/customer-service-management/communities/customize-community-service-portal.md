@@ -3,11 +3,11 @@ title: Customize Community Service Portal
 description: Customize community service portal according to your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/customize-community-service-portal.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Community Service Portal, Configuring communities, Communities, Customer Service Management]
 ---
@@ -20,6 +20,10 @@ Customize community service portal according to your needs.
 
 Role required: sp\_admin
 
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Procedure
 
 1.  Navigate to **Service Portal** &gt; **Portals**.
@@ -27,5 +31,5 @@ Role required: sp\_admin
 2.  Select **Community**.
 
 
-**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-service-portal.md)
+**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/community-service-portal.md)
 

@@ -3,9 +3,9 @@ title: Email templates
 description: Email templates enable administrators to create reusable content for the subject line and message body of email notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_EmailTemplates.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -23,18 +23,18 @@ Email templates are created in rich HTML format, and administrators have the opt
 -   Mail scripts are condensed into a single, easy-to-read line that can be reused in multiple email notifications.
 -   To prevent broken links, images linked using URLs relative to a particular instance are converted to absolute links.
 
--   **[Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md)**  
+-   **[Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAnEmailTemplate.md)**  
 You can create an email template with rich HTML formatting, rather than plain text.
--   **[Apply a template to an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ApplyATemplateToAnEmailNotif.md)**  
+-   **[Apply a template to an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ApplyATemplateToAnEmailNotif.md)**  
 After you create an email template, you can apply it to a notification.
--   **[Convert an email template to rich HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConvertAnEmailTemplateToHTML.md)**  
+-   **[Convert an email template to rich HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConvertAnEmailTemplateToHTML.md)**  
 If you have an email template created prior to the Eureka release, you can convert it to rich HTML.
--   **[Construct an email message with a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConstructAnEmailMessage.md)**  
+-   **[Construct an email message with a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ConstructAnEmailMessage.md)**  
 Email templates provide a list of the fields from database tables that are available for constructing an email message.
--   **[Calendar integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_CalendarIntegration.md)**  
+-   **[Calendar integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_CalendarIntegration.md)**  
 With email notifications, you can use import export maps to leverage information about records and integrate with Outlook or another calendar.
 
-**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 

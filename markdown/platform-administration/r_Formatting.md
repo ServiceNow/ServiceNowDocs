@@ -3,9 +3,9 @@ title: Formatting functions in HTML field editors
 description: The formatting table displays how to control the way text appears.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_Formatting.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

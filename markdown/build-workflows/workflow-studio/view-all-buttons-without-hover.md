@@ -3,11 +3,11 @@ title: Configure accessibility preferences
 description: View all buttons in a playbook diagram by default, without the need to hover or select any element.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/view-all-buttons-without-hover.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [accessibility, accessibility settings in playbook]
 breadcrumb: [Configure, Playbooks, Workflow Studio, Build workflows]
@@ -33,8 +33,8 @@ When you hover over or select an element in the playbook diagram, buttons such a
 
 2.  Enable the option **Show all buttons without the need to hover**.
 
-    To learn more about how you can make the UI most accessible for you, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md)
+    To learn more about how you can make the UI most accessible for you, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-accessibility-preferences.md)
 
 
-**Parent Topic:**[Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
+**Parent Topic:**[Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
 

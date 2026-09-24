@@ -3,11 +3,11 @@ title: Self-declare SAP engine license usage in the Software Asset Management cl
 description: Use the Software Asset Management classic application to self-declare the license usage for any SAP engines that cannot be measured by the automated SAP engine measurement process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/self-declare-sap-products.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Self-declaring SAP engine license usage, Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -30,7 +30,7 @@ To determine if you must self-declare the license usage for a given engine, see 
 
 1.  Create a software model for the SAP engine.
 
-    Refer to [Create software models for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-software-model-sap.md) for detailed instructions.
+    Refer to [Create software models for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/add-software-model-sap.md) for detailed instructions.
 
     **Note:**
 
@@ -40,9 +40,9 @@ To determine if you must self-declare the license usage for a given engine, see 
 
 2.  Create entitlements for your software model.
 
-    Refer to [Create entitlements for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlement-sap.md) for detailed instructions.
+    Refer to [Create entitlements for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-entitlement-sap.md) for detailed instructions.
 
-    **Note:** On the Software Entitlement form, you must set the **Software model** field to the same software model that you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/self-declare-sap-products.md).
+    **Note:** On the Software Entitlement form, you must set the **Software model** field to the same software model that you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/self-declare-sap-products.md).
 
 3.  Create a client access record to specify the license usage of the SAP engine.
 
@@ -58,7 +58,7 @@ To determine if you must self-declare the license usage for a given engine, see 
 
     5.  Select the Lookup using list icon \[Omitted image "search-icon.png"\] next in the **Software model** field to locate and select the software model for the SAP engine.
 
-        **Note:** Select the same software model that you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/self-declare-sap-products.md).
+        **Note:** Select the same software model that you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/self-declare-sap-products.md).
 
     6.  Enter an engine license usage value in the **Usage** field.
 
@@ -73,5 +73,5 @@ To determine if you must self-declare the license usage for a given engine, see 
 
 After you self-declare the license usage for the SAP engine, it is automatically included in the next SAP reconciliation that runs on your ServiceNow instance. Reconciliation runs weekly or on-demand.
 
-**Parent Topic:**[Self-declaring SAP engine license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/self-declaring-sap-engine-usage.md)
+**Parent Topic:**[Self-declaring SAP engine license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/self-declaring-sap-engine-usage.md)
 

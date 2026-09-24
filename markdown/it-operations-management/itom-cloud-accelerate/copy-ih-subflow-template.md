@@ -3,11 +3,11 @@ title: Copy an Integration Hub subflow template
 description: Copy an Integration Hub subflow template to create subflows for the Cloud Configuration Governance application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/copy-ih-subflow-template.html
-release: australia
+release: brazil
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Configuration Governance policies, Use, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

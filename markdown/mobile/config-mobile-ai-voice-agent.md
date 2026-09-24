@@ -1,25 +1,25 @@
 ---
 title: Configure Mobile AI Voice Agent
-description: Follow these steps to enable the Mobile AI Voice Agent feature for your mobile app users. The AI Voice Agent can also be configured for a custom app.
+description: Follow these steps to enable the Mobile AI Voice Agent feature for your mobile app users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-mobile-ai-voice-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Configure Mobile AI Voice Agent
 
-Follow these steps to enable the Mobile AI Voice Agent feature for your mobile app users. The AI Voice Agent can also be configured for a custom app.
+Follow these steps to enable the Mobile AI Voice Agent feature for your mobile app users.
 
 ## Before you begin
 
 Role required: admin
 
--   Make sure that Now Assist is enabled in the instance. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
--   Ensure you have the appropriate permissions and licensing for AI voice capabilities, and that you have a Now Assist Voice assistant created in Assistant Designer. For more information, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-an-ai-voice-service.md).
+-   Make sure that Now Assist is enabled in the instance. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
+-   Ensure you have the appropriate permissions and licensing for AI voice capabilities, and that you have a Now Assist Voice assistant created in Assistant Designer. For more information, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-an-ai-voice-service.md).
 
 ## Procedure
 
@@ -49,8 +49,8 @@ Role required: admin
 
 13. Navigate to Assistant Designer to assign your voice function instance to a Now Assist voice assistant.
 
-    For steps on how to configure your function with a voice assistant, see [Integrate voice assistant with mobile app launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
+    For steps on how to configure your function with a voice assistant, see [Integrate voice assistant with mobile app launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
 
 
-**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configuring-now-assist-mobile.md)
 

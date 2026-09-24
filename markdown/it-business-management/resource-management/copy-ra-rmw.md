@@ -3,11 +3,11 @@ title: Copy a resource assignment
 description: Copy an existing resource assignment to create one with inherited values, then adjust the fields before submitting. This reduces repetitive data entry when similar assignments recur across plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/copy-ra-rmw.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [copy resource assignment, duplicate resource assignment, resource assignment, resource management workspace]
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
@@ -54,5 +54,5 @@ Copy is not a substitute for split or reassign. Copying creates an independent n
 
 A new resource assignment is created. The source assignment is unchanged.
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/using-rmw.md)
 

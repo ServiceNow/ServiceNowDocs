@@ -3,11 +3,11 @@ title: Palo Alto Networks firewall discovery
 description: The ServiceNow Discovery application uses the Next-Generation Palo Alto Firewall pattern to find Palo Alto Networks firewalls. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/palo-alto-fw-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -33,12 +33,12 @@ The Next-Generation Palo Alto Firewall pattern introduces the following CI class
 ## Prerequisites
 
 -   Ensure that your network firewall device has SNMP access.
--   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+-   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_SNMPCredentials.md).
 -   Add the SNMP system OID record for the Palo Alto Networks device to the ServiceNow instance. Update the following:
     -   Classifier: Palo Alto Firewall
     -   Class: Palo Alto Firewall Device
 -   Deploy the pattern as follows:
-    1.  Download and install [Firewall extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-fw.md) from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
+    1.  Download and install [Firewall extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-fw.md) from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
     2.  Download and install the discovery pattern from the ServiceNow Store.
     3.  Sync the pattern with the appropriate MID Server.
 
@@ -97,5 +97,5 @@ The Next-Generation Palo Alto Firewall pattern creates the following relationshi
 |Router Interface \[dscy\_router\_interface\]|Configuration Item \[cmdb\_ci\]|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|
 |IP Address \[cmdb\_ci\_ip\_address\]|Nic \[nic\]|Network Adapter \[cmdb\_ci\_network\_adapter\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

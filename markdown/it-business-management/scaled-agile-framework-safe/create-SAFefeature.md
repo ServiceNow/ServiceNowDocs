@@ -3,11 +3,11 @@ title: Define a feature in SAFe
 description: Create a feature in SAFe and break it down into smaller user stories for implementation and delivery by SAFe teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/create-SAFefeature.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: safe\_art\_user or safe\_admin
 
 1.  Create a feature using any of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d81824e64">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d81359e64">
 
 Option
 
-</th><th align="left" id="d81824e67">
+</th><th align="left" id="d81359e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d81824e73">
+</th></tr></thead><tbody><tr><td id="d81359e73">
 
 **From the Backlog tab**
 
@@ -44,7 +44,7 @@ Steps
 4.  From the Create list, select **Create Feature**. The feature is displayed in the **Backlog** tab with the state as **Backlog**.
 
 
-</td></tr><tr><td id="d81824e121">
+</td></tr><tr><td id="d81359e121">
 
 **From the Feature module**
 
@@ -54,7 +54,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d81824e151">
+</td></tr><tr><td id="d81359e151">
 
 **From the Epics module**
 
@@ -65,7 +65,7 @@ Steps
 3.  In the SAFE Features related list, click **New**.
 
 
-</td></tr><tr><td id="d81824e184">
+</td></tr><tr><td id="d81359e184">
 
 **From the Agile Release Trains module**
 
@@ -77,7 +77,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>    You can also convert an active SAFe story into a SAFe feature. For details, see [Related links and lists for a SAFe story](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/related-links-and-lists-of-a-safe-story.md).
+</table>    You can also convert an active SAFe story into a SAFe feature. For details, see [Related links and lists for a SAFe story](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/related-links-and-lists-of-a-safe-story.md).
 
 2.  On the form, fill in the fields.
 
@@ -245,13 +245,13 @@ Estimated duration for completion of the job.
 
 Use the SAFe stories related list to view and add stories to the feature.
 
--   **[Split a SAFe feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/split-a-safe-feature.md)**  
+-   **[Split a SAFe feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/split-a-safe-feature.md)**  
 Split a SAFe feature into two separate features so that you can track complete and incomplete stories. Move the feature with the incomplete stories to your backlog or to a future program increment \(PI\). This maintains accurate metrics of the previous sprints and PIs.
 
-**Parent Topic:**[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)
+**Parent Topic:**[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)
 
 **Related topics**  
 
 
-[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)
+[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)
 

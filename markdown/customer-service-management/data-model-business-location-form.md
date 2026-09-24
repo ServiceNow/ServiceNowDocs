@@ -1,20 +1,20 @@
 ---
-title: Internal Organization form
-description: In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the Internal Organization \(formerly Internal Business Location\) form to store information about an internal business organization. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
+title: Internal Business Location form
+description: In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the Internal Business Location \(IBL\) form to store information about an internal business location. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/data-model-business-location-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
 
-# Internal Organization form
+# Internal Business Location form
 
-In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the Internal Organization \(formerly Internal Business Location\) form to store information about an internal business organization. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
+In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the Internal Business Location \(IBL\) form to store information about an internal business location. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 <table id="table_fyv_dtr_bs"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Number
 
 </td><td>
 
-Automatically generated number of the internal organization. By default, the location numbers start with the prefix IBL.
+Automatically generated number of the internal business location. By default, the location numbers start with the prefix IBL.
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ Name
 
 </td><td>
 
-Name of the internal organization.
+Name of the internal business location.
 
 </td></tr><tr><td>
 
@@ -56,8 +56,8 @@ Business function
 </td><td>
 
 Type of functions offered at a business location. Select the following business function:-   Service: Select this type if a business location provides service-related functions, such as providing support, or resolving cases for accounts, consumers, or other business locations.
--   Sales: Select this type if a business location provides sales-related activities, such as creating or managing orders, generating quotes, handling opportunities or leads, managing pricing, offering product recommendations, or supporting account-based selling for accounts, consumers, or other business organizations.
--   Service and Sales: Select both service and sales if the business organization is providing both service-related and sales-related activities.
+-   Sales: Select this type if a business location provides sales-related activities, such as creating or managing orders, generating quotes, handling opportunities or leads, managing pricing, offering product recommendations, or supporting account-based selling for accounts, consumers, or other business locations.
+-   Service and Sales: Select both service and sales if the business location is providing both service-related and sales-related activities.
 
 **Note:** You can create and manage orders and cases by selecting both types of business functions.
 
@@ -68,15 +68,15 @@ Manager
 
 </td><td>
 
-Manager of the internal organization.**Note:** Only internal users can be added as managers for the internal organizations .
+Manager of the internal business location.**Note:** Only internal users can be added as managers for the internal business locations.
 
 </td></tr><tr><td>
 
-Parent Internal Organization \(formerly Parent Internal Business Location\)
+Parent Internal Business Location
 
 </td><td>
 
-Parent of the business organization. Use this field to create a parent-child hierarchy.
+Parent of the business location. Use this field to create a parent-child hierarchy.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Street
 
 </td><td>
 
-Street address of the internal organization .
+Street address of the internal business location.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ City
 
 </td><td>
 
-City where the internal organization is located.
+City where the internal business location is located.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ State/Province
 
 </td><td>
 
-State or province where the internal organization is located.
+State or province where the internal business location is located.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ ZIP/Postal code
 
 </td><td>
 
-ZIP code or postal code for the internal organization.
+ZIP code or postal code for the internal business location.
 
 </td></tr><tr><td>
 
@@ -124,20 +124,11 @@ Associate a channel partner to add roles in the Service Organization tab.
 
 </td></tr><tr><td>
 
-Business organizations served
+Excluded from hierarchy overrides
 
 </td><td>
 
-Types of business organizations that are served at a business location. -   **Criteria based**: Enables staff members within a organization to create and resolve cases for organizations that meet with specific criteria.
--   **Hierarchy based**: Enables staff members within a organizations to create and resolve cases for organizations that are linked to the organization cores through hierarchical relationships.
-
-</td></tr><tr><td>
-
-Restricted
-
-</td><td>
-
-Restrict all organization hierarchy contributors and agents from accessing this organization
+Enabling this, the hierarchy agents can't view the location or its details.
 
 </td></tr><tr><td>
 
@@ -145,7 +136,7 @@ Website
 
 </td><td>
 
-Web address for the internal organization.
+Web address for the internal business location.
 
 </td></tr><tr><td>
 
@@ -153,7 +144,7 @@ Email
 
 </td><td>
 
-Email ID used by the internal organization.
+Email ID used by the internal business location.
 
 </td></tr><tr><td>
 
@@ -161,7 +152,7 @@ Phone
 
 </td><td>
 
-Phone number for the internal organization.
+Phone number for the internal business location.
 
 </td></tr><tr><td>
 
@@ -169,7 +160,7 @@ Open date
 
 </td><td>
 
-Date on which the business organization becomes operational and available for customers.
+Date on which the business location becomes operational and available for customers.
 
 </td></tr><tr><td>
 
@@ -177,7 +168,7 @@ Close date
 
 </td><td>
 
-Date on which the business organization becomes non-operational and unavailable for customers.**Note:** The closed date must not be earlier than the open date.
+Date on which the business location becomes non-operational and unavailable for customers.**Note:** The closed date must not be earlier than the open date.
 
 </td></tr><tr><td>
 
@@ -185,7 +176,7 @@ Status
 
 </td><td>
 
-Current status of the business organization whether In progress, Operational, non-operational, or closed.
+Current status of the business location whether In progress, Operational, non-operational, or closed.
 
 </td></tr><tr><td>
 
@@ -193,12 +184,12 @@ Description
 
 </td><td>
 
-Description of the business organization .
+Description of the business location.
 
 </td></tr></tbody>
-</table>## Internal Organization related lists
+</table>## Internal business location related lists
 
-The Internal Organization form includes the following related lists.
+The Internal Business Location form includes the following related lists.
 
 <table id="table_wts_433_gmb"><thead><tr><th>
 
@@ -214,26 +205,26 @@ Members
 
 </td><td>
 
-Internal users \(users with the snc\_internal role\) who have been added as staff members at this business organization. -   Staff members can create cases for customers at their business locations.
+Internal users \(users with the snc\_internal role\) who have been added as staff members at this business location. -   Staff members can create cases for customers at their business locations.
 -   Staff members can access customer cases and information where the **Service Organization** field on the Case form matches their business locations.
 
-For more information, see [Add staff members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-staff-members-biz-loc.md).
+For more information, see [Add staff members to a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-staff-members-biz-loc.md).
 
 </td></tr><tr><td>
 
-Child Internal Organizations \(formerly Child Internal Business Locations\)
+Child Internal Business Locations
 
 </td><td>
 
-List of internal organizations \(formerly internal business location\) of the current parent business location.For more information, see [Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-internal-business-location.md).
+List of internal business location of the current parent business location.For more information, see [Create an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-internal-business-location.md).
 
 </td></tr><tr><td>
 
-Child External Organizations \(formerly Child External Business Locations\)
+Child External Business Locations
 
 </td><td>
 
-List of external organizations \(formerly external business locations\) of the current parent business location.For more information, see [Create an external organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-external-business-location.md).
+List of external business location of the current parent business location.For more information, see [Create an external business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-external-business-location.md).
 
 </td></tr><tr><td>
 
@@ -241,7 +232,7 @@ Assignment Groups
 
 </td><td>
 
-List of all associated assigned groups of the internal business location.For more information, see [Setting up assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-assignment-groups.md).
+List of all associated assigned groups of the internal business location.For more information, see [Setting up assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-up-assignment-groups.md).
 
 </td></tr><tr><td>
 
@@ -249,7 +240,7 @@ Available Services
 
 </td><td>
 
-List of services supported by the business location.For more information, see [Setting up products and available services at a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/products-services-at-bus-loc.md).
+List of services supported by the business location.For more information, see [Setting up products and available services at a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/products-services-at-bus-loc.md).
 
 </td></tr><tr><td>
 
@@ -257,7 +248,7 @@ Organization Customer Criteria
 
 </td><td>
 
-List of customers that are supported by an internal business location.For more information, see [Define the configuration type for customers or business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-customer-criteria-to-service-organization.md).
+List of customers that are supported by an internal business location.For more information, see [Define the configuration type for customers or business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-customer-criteria-to-service-organization.md).
 
 </td></tr><tr><td>
 
@@ -267,12 +258,12 @@ Customer Projects
 
 List of all projects assigned to the business location. Select a project to see **Project Tasks**, **Sub Projects**, and **Cases** assigned to the project.**Note:**
 
--   A location contributor manager or location relationship manager can see projects of their respective and child business locations. To learn more about roles, see [Service Model Foundation roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-roles.md).
+-   A location contributor manager or location relationship manager can see projects of their respective and child business locations. To learn more about roles, see [Service Model Foundation roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-model-roles.md).
 -   A list of project tasks under the customer project tab is visible only if the **Visible to Customer** field is selected during project task creation.
 
-To learn more about project creation, see [Create customer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-customer-projects.md).
+To learn more about project creation, see [Create customer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-customer-projects.md).
 
-To learn more about project task creation, see [Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateATaskFromAProject.md).
+To learn more about project task creation, see [Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_CreateATaskFromAProject.md).
 
 </td></tr><tr><td>
 
@@ -280,7 +271,7 @@ Cases Requested by Location
 
 </td><td>
 
-List of all cases requested by the internal business location to work.For more information, see [Create and manage cases for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-business-location-cases.md)
+List of all cases requested by the internal business location to work.For more information, see [Create and manage cases for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-business-location-cases.md)
 
 </td></tr><tr><td>
 
@@ -288,7 +279,7 @@ Cases Assigned to Location
 
 </td><td>
 
-Cases that have been created and assigned to this location. For more information, see [Create and manage cases for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-business-location-cases.md).
+Cases that have been created and assigned to this location. For more information, see [Create and manage cases for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-business-location-cases.md).
 
 **Note:** This tab appears only if the business function is set as Service.
 
@@ -300,7 +291,7 @@ Account Staff Relationships
 
 Relationships that have been created between staff members and accounts at this location. Create account staff relationships by using the Account Manager responsibility.
 
-For more information, see [Create an account staff relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-staff-account-relationship.md).
+For more information, see [Create an account staff relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-staff-account-relationship.md).
 
 </td></tr><tr><td>
 
@@ -310,7 +301,7 @@ Consumer Staff Relationships
 
 Relationships that have been created between staff members and consumers at this location. Create consumer staff relationships by using the Relationship Manager responsibility.
 
-For more information, see [Create a consumer staff relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-staff-consumer-relationship.md).
+For more information, see [Create a consumer staff relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-staff-consumer-relationship.md).
 
 </td></tr><tr><td>
 
@@ -320,7 +311,7 @@ Household Staff Relationships
 
 Relationships that have been created between staff members and households at this location. Create household staff relationships by using the Relationship Manager responsibility.
 
-For more information, see [Create a household staff relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-staff-household-relationship.md).
+For more information, see [Create a household staff relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-staff-household-relationship.md).
 
 </td></tr><tr><td>
 
@@ -328,7 +319,7 @@ Sold Products
 
 </td><td>
 
-Sold products that have been created for customers at this location.For more information, see [Create and manage sold products for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sp-for-business-location.md).
+Sold products that have been created for customers at this location.For more information, see [Create and manage sold products for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sp-for-business-location.md).
 
 </td></tr><tr><td>
 
@@ -336,13 +327,13 @@ Install Base Items
 
 </td><td>
 
-Install base items that have been created for customers at this location.For more information, see [Create and manage install base items for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-ib-items-for-business-locations.md).
+Install base items that have been created for customers at this location.For more information, see [Create and manage install base items for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-ib-items-for-business-locations.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-internal-business-location.md)
+[Create an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-internal-business-location.md)
 
-[Service Model Foundation relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-relationships.md)
+[Service Model Foundation relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-model-relationships.md)
 

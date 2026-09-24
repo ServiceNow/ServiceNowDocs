@@ -1,19 +1,19 @@
 ---
-title: Troubleshoot an AI skill
-description: Run diagnostics for a skill on AI Admin Hub and get information about the status of your skill configuration with AI Troubleshooting.
+title: Troubleshoot a Now Assist skill
+description: Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/troubleshoot-a-now-assist-skill.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-18"
 reading_time_minutes: 1
 keywords: [Now Assist, skill, troubleshoot, diagnostic, nsa\_admin, Generative AI, GenAI]
-breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Now Assist reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Troubleshoot an AI skill
+# Troubleshoot a Now Assist skill
 
-Run diagnostics for a skill on AI Admin Hub and get information about the status of your skill configuration with AI Troubleshooting.
+Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration.
 
 ## Before you begin
 
@@ -21,21 +21,21 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-Certain skills have diagnostic scripts that you can run from the AI Admin Hub. These diagnostic scripts check for successful skill execution and setup of the underlying [capability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md). If you've created a copy of a skill, you will not be able to run diagnostics on the skill copy.
+Certain skills have diagnostic scripts that you can run from the AI Admin Hub console. These diagnostic scripts check for successful skill execution and setup of the underlying [capability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md). If you've made a copy of a skill, you will not be able to run diagnostics on the skill copy.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-    If you’re already in the AI Admin Hub, select the **AI Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **AI Skills** tab.
 
 2.  In the navigation pane, select the workflow of the skill that you want to troubleshoot, such as **Technology** or **Customer**.
 
-3.  On the feature card that contains the skill you want to troubleshoot, select **View details**.
+3.  In the All skills or Active skills section, locate the feature card for the skill you want to troubleshoot.
 
-4.  In the All available skills or Active skills section, select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. next to the skill that you want to make a copy of and select **Run diagnostics**.
+4.  Select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. for the skill, then select **Run diagnostics**.
 
-    **Run diagnostics** option is not applicable for skills where this option is not available or applicable.
+    **Note:** **Run diagnostics** is grayed out or not visible when this option is unavailable.
 
 5.  After the diagnostics are complete, review the results of each test.
 
@@ -44,9 +44,9 @@ Certain skills have diagnostic scripts that you can run from the AI Admin Hub. T
 
 ## What to do next
 
-If you have identified any problems with your skill configuration, you can [edit the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md) from the AI Admin Hub console.
+If you have identified any problems with your skill configuration, you can [edit the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md) from the AI Admin Hub console.
 
 If editing the skill does not solve the issue, you can [contact ServiceNow Support](http://www.servicenow.com/support/contact-support.html) for additional help.
 
-**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
 

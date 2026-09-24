@@ -3,11 +3,11 @@ title: Exploring Service Mapping
 description: Service Mapping discovers all service instances in your organization and builds a comprehensive map of all devices, applications, and configuration profiles used in these service instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/service-mapping-get-started.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -34,13 +34,13 @@ Service instance maps show infrastructure objects and semantic connections betwe
 
 ## How does Service Mapping work
 
-Service Mapping can deploy different methods for creating application services. The main method of Service Mapping discovering and mapping devices and applications is using patterns. A pattern is a sequence of operations whose purpose is to detect attributes of devices and applications and their outbound connections. If your organization uses tags for asset management, you can use these tags to map service instances. Service Mapping can also discover devices and applications by following traffic connections between them. This method is referred to as traffic-based mapping. For more information, see [Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md).
+Service Mapping can deploy different methods for creating application services. The main method of Service Mapping discovering and mapping devices and applications is using patterns. A pattern is a sequence of operations whose purpose is to detect attributes of devices and applications and their outbound connections. If your organization uses tags for asset management, you can use these tags to map service instances. Service Mapping can also discover devices and applications by following traffic connections between them. This method is referred to as traffic-based mapping. For more information, see [Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/choose-mapping-method.md).
 
 ## What to know before you begin
 
 You can use Service Mapping only if the Discovery product is activated and set up.
 
-You must define users and configure credentials to allow Service Mapping and Discovery access to applications and devices inside your organization network. For more information, see [Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-setup.md).
+You must define users and configure credentials to allow Service Mapping and Discovery access to applications and devices inside your organization network. For more information, see [Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-setup.md).
 
 ## Service Mapping on the ServiceNow AI Platform
 
@@ -50,27 +50,27 @@ Data collected and organized by Service Mapping is visible in Event Management, 
 
 Service Mapping supports domain separation. If your ServiceNow AI Platform uses domain separation, administrators and users can only see and manage application services belonging to their own domain.
 
-To view a list of Service Mapping plugin dependencies, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md).
+To view a list of Service Mapping plugin dependencies, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md).
 
--   **[Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/choose-mapping-method.md)**  
+-   **[Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/choose-mapping-method.md)**  
 Service Mapping deploys different methods for collecting information about configuration items \(CIs\) and organizing them into application services. The available mapping methods are: pattern-based, tag-based, traffic-based, and discovery based on Predictive Intelligence. Learn about the mapping methods to use the ones that best suit the needs of your organization.
--   **[Discovery of application services on cloud using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/cloud-discovery-service-mapping.md)**  
+-   **[Discovery of application services on cloud using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/cloud-discovery-service-mapping.md)**  
 Service Mapping in cloud environments provides critical visibility into application dependencies and connections. By identifying how different application components interact within IaaS and PaaS environments, your organization can gain better insight into its application services and improve overall service management.
--   **[Service Mapping flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-flow.md)**  
+-   **[Service Mapping flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-flow.md)**  
 Learn about high-level tasks users having different roles perform in Service Mapping.
--   **[Traversal rules in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traversal-rules-service-mapping.md)**  
+-   **[Traversal rules in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/traversal-rules-service-mapping.md)**  
 Traversal rules identify and map relationships between configuration items to create comprehensive application service maps. They connect relevant configuration items based on predefined relationships, promoting accurate service mapping and visualization.
 
-**Parent Topic:**[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
+**Parent Topic:**[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 
 **Related topics**  
 
 
-[Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md)
+[Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/application-services.md)
 
-[Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md)
+[Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/application-services.md)
 
-[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md)
+[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_EM.md)
 
-[Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_BusinesssServiceManagementMaps.md)
+[Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_BusinesssServiceManagementMaps.md)
 

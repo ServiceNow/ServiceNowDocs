@@ -3,11 +3,11 @@ title: View the Cybersecurity Controls module
 description: View the Cybersecurity Controls module for a list of the Authority documents, Controls, Control Objectives, and CIS Indicator Templates mapped to specific CIS controls classified by domain, implementation group, and ISO controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/view-cybersecurity-controls.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technology Controls Monitoring Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -29,7 +29,7 @@ Role required: admin or sn\_compliance.reader
 -   Control objectives - Source is CIS or CIS v8 or CSA CCM v4.
 -   Indicator templates - Source is CIS or CIS v8.
 
-Beginning with the Australia release, Technology Controls Monitoring Accelerator provides pre-packaged CIS v8 controls and indicator templates.
+Beginning with the Brazil release, Technology Controls Monitoring Accelerator provides pre-packaged CIS v8 controls and indicator templates.
 
 ## Procedure
 
@@ -82,5 +82,5 @@ Beginning with the Australia release, Technology Controls Monitoring Accelerator
     The CIS Indicator Templates are displayed in the instance.
 
 
-**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
+**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
 

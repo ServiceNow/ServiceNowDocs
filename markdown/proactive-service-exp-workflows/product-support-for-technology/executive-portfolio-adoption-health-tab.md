@@ -3,11 +3,11 @@ title: Executive Portfolio Adoption and health tab
 description: View the account health trends, feature adoption gaps, product usage, and customer satisfaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-adoption-health-tab.html
-release: australia
+release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2026-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
 ---
@@ -29,10 +29,10 @@ View the account health trends, feature adoption gaps, product usage, and custom
 |Total cases opened by month|Number of support cases raised per month. A lower number indicates smoother product experience and better self-service adoption. Higher volumes may signal adoption challenges, product issues, or training gaps.|
 |Response time|Average time for the support team to send the first response after a case is raised. Measured across all cases opened in the current period.|
 
-**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 
 
-[Executive Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-page.md)
+[Executive Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-page.md)
 

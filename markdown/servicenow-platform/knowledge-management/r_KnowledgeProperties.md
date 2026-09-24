@@ -3,11 +3,11 @@ title: Knowledge Management properties
 description: As an administrator, you can configure the look and functionality of many knowledge base features with Knowledge Management properties.Knowledge portal properties control the look and functionality of the legacy portal page. This portal page lists recent knowledge articles and their publishing dates, organized by topic.Knowledge search properties give you control over the search options available to users and the presentation of search results.Article view properties give you control over the meta data and rating options that appear with articles. They also enable you to grant access to individual feedback options based on user role.Knowledge homepage properties control the featured content on the knowledge homepage.Other knowledge properties let you control general knowledge management features.The knowledge administrator can set knowledge properties that enable users to edit specific fields on published articles without creating new versions.The knowledge administrator can set configuration properties that enable users to subscribe to knowledge bases and knowledge articles.The knowledge administrator can set the pass score for AQI reviews using the knowledge properties page.Administrators can configure the properties to add allowed content types and change the UI label for the external content integration feature.The Knowledge administrator can set configuration properties that would create actionable feedback tasks.The knowledge administrator can set group ownership properties that enable the use of ownership groups for knowledge articles and decide who can edit and approve a published knowledge article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/r\_KnowledgeProperties.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 33
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ As an administrator, you can configure the look and functionality of many knowle
 
 You can access Knowledge Management properties by navigating to **Knowledge** &gt; **Administration** &gt; **Properties**.
 
-**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management-reference.md)
+**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-management-reference.md)
 
 ## Knowledge portal properties
 
@@ -232,7 +232,7 @@ This property contains the bots' name patterns, which are used to determine whet
 
 Knowledge search properties give you control over the search options available to users and the presentation of search results.
 
-**Note:** Knowledge search properties is only applicable to Zing search. To configure AI search implementation, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md).
+**Note:** Knowledge search properties is only applicable to Zing search. To configure AI search implementation, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-ais.md).
 
 <table id="table_cr4_tb3_54"><thead><tr><th>
 
@@ -355,7 +355,7 @@ Show average rating from knowledge search results \(**glide.knowman.search.show\
 
 </td><td>
 
-Select the check box to display the average star ratings for knowledge base articles.This property is applicable to the search results for knowledge articles that appear on the Knowledge Management Service Portal search results page and service portal widgets such as Knowledge Featured Articles and Knowledge Most Viewed Articles. For more information, see [Using search in Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-search.md) and [Configure the home page widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/config-homepage-widget-options.md).
+Select the check box to display the average star ratings for knowledge base articles.This property is applicable to the search results for knowledge articles that appear on the Knowledge Management Service Portal search results page and service portal widgets such as Knowledge Featured Articles and Knowledge Most Viewed Articles. For more information, see [Using search in Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-search.md) and [Configure the home page widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/config-homepage-widget-options.md).
 
 </td></tr><tr><td>
 
@@ -496,7 +496,7 @@ Show five-star rating option \(**glide.knowman.show\_star\_rating**\)
 
 </td><td>
 
-Select the check box to display the five-star rating to users with roles set in the associated property. This appears only if the **Show article rating section** property is selected. This property is applicable to the knowledge article view page in the Knowledge Management Service Portal. For more information, see [Knowledge Management Service Portal article view page features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-view.md).
+Select the check box to display the five-star rating to users with roles set in the associated property. This appears only if the **Show article rating section** property is selected. This property is applicable to the knowledge article view page in the Knowledge Management Service Portal. For more information, see [Knowledge Management Service Portal article view page features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-view.md).
 
 </td></tr><tr><td>
 
@@ -612,7 +612,7 @@ Displays a read-only article view page when articles are viewed from contextual 
 Displays a read-only article view page when knowledge articles are viewed from contextual search.-   Type: true\|false
 -   Default value: true
 
- **Note:** The **glide.knowman.contextual\_search.show\_read\_only\_article** property is activated by default. If the property isn’t available, add it manually and set its value to **true** to display read-only knowledge articles accessed from the contextual search. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+ **Note:** The **glide.knowman.contextual\_search.show\_read\_only\_article** property is activated by default. If the property isn’t available, add it manually and set its value to **true** to display read-only knowledge articles accessed from the contextual search. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 </td></tr><tr><td>
 
@@ -740,7 +740,7 @@ Send email notifications on the first day of each month for articles expiring in
 
 </td><td>
 
-Enter the value as `true` to send email notifications to a list of recipients about articles expiring next month on the first day of each month. The recipients list depends on the ownership group and article versioning features. For more information, see [Knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-subscriptions.md).-   Type: true \| false
+Enter the value as `true` to send email notifications to a list of recipients about articles expiring next month on the first day of each month. The recipients list depends on the ownership group and article versioning features. For more information, see [Knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-article-subscriptions.md).-   Type: true \| false
 -   Default value: false
 -   Location: System Properties
 
@@ -754,7 +754,7 @@ Enter the value as `true` to apply knowledge ACLs on knowledge article search re
 -   Default value: true
 -   Location: System Properties
 
- **Note:** If the **glide.knowman.search.apply\_acls** is set to true, a knowledge base without any articles present in the search results might appear in the Knowledge Field Facet when filtering by knowledge base. For more information, see [Configure filter facet widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/config-search-results-filter-facets.md).
+ **Note:** If the **glide.knowman.search.apply\_acls** is set to true, a knowledge base without any articles present in the search results might appear in the Knowledge Field Facet when filtering by knowledge base. For more information, see [Configure filter facet widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/config-search-results-filter-facets.md).
 
 </td></tr><tr><td>
 
@@ -856,29 +856,29 @@ Enables you to set the recommended file size \(in megabytes\) while importing a 
 </table>**Related topics**  
 
 
-[Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 
-[Knowledge portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Knowledge portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 
-[Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 
-[Knowledge article view properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Knowledge article view properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 
-[Knowledge homepage properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Knowledge homepage properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 
-[Article quality index properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Article quality index properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 
-[Knowledge subscription properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Knowledge subscription properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 
-[External Content Integration Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[External Content Integration Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 
-[Other knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Other knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 
 ## Article versioning properties
 
 The knowledge administrator can set knowledge properties that enable users to edit specific fields on published articles without creating new versions.
 
-The article versioning feature requires the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\). For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md) and [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md).
+The article versioning feature requires the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\). For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md) and [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/article-versioning.md).
 
 <table id="table_jzs_2kx_kt"><thead><tr><th>
 

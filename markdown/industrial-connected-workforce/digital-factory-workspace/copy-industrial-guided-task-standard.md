@@ -3,11 +3,11 @@ title: Copy an Industrial Guided Task standard
 description: Copy an Industrial Guided Task \(IGT\) standard to reuse it as a template, without having to draft the entire standard from the start.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/copy-industrial-guided-task-standard.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Industrial Guided Tasks, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -43,5 +43,5 @@ The standard can be in any state when it’s copied. The entire content of the s
 
 The tile for the newly created copy of the standard appears in the Standards hub in the Draft state.
 
-**Parent Topic:**[Using Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.md)
+**Parent Topic:**[Using Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.md)
 

@@ -3,11 +3,11 @@ title: Entity based record access update utility
 description: The entity based record access update utility is a guided assistance, designed to simplify the application of enabling or disabling access restrictions across large volumes of records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/entity-based-access-playbook.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -37,5 +37,5 @@ The following image shows the entity-based record access update utility screen:
 
 \[Omitted image "entity-based-record-access-update-utility.png"\] Alt text: Guided-experience for entity-based record access update utility.
 
-**Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md)
+**Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md)
 

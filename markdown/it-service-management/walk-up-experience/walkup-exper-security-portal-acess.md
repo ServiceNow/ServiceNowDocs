@@ -3,11 +3,11 @@ title: Walk-up Experience portal security and access
 description: Security is built into the application to prevent end-user facing devices at the Walk-up Experience on-site portal from offering elevated role privileges to users. The Walk-up Experience on-site portal is accessed by an account containing only the sn\_walkup.walkup\_login role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/walkup-exper-security-portal-acess.html
-release: australia
+release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Walk-up Experience, IT Service Management]
 ---
@@ -22,23 +22,23 @@ Activate the Explicit Role \(com.glide.explicit\_roles\) plugin to assign users 
 
 When upgrading Walk-up Experience installations prior to Rome, the Walk-up Experience user is assigned snc\_internal instead of snc\_external. This is because the Explicit Role plugin assigns all users, including Walk-up Experience users, to snc\_internal. Walk-up Experience cannot remove snc\_internal during upgrade. For new installations of Walk-up Experience, this process works automatically.
 
-**Note:** Refer to [Explicit roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explicit-roles-plugin.md) for details about the plugin and [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md) for more information about this upgrade process.
+**Note:** Refer to [Explicit roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/explicit-roles-plugin.md) for details about the plugin and [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explicit-roles.md) for more information about this upgrade process.
 
 ## Access to Walk-up Experience
 
 Agents opening up the on-site Walk-up location for business, or joining the support team during operation hours, access the user record account with sn\_walkup.walkup\_login role to log into the Walk-up Experience portal. Internal and external users can access the on-site Walk-up Experience portal via a check-in device, typically a tablet, to enter a queue. Internal, authenticated users can also access an online queue check-in via desktop or mobile device.
 
-## Important information for upgrading Walk-up Experience to Australia
+## Important information for upgrading Walk-up Experience to Brazil
 
-The Explicit Role \(com.glide.explicit\_roles\) plugin was introduced in the ServiceNow AI Platform Paris release. When installed, users are assigned security roles, either snc\_internal or snc\_external. With the Australia, release Walk-up Experience has added a dependency on this plugin to explicitly set the Walk-up Experience user as an external user.
+The Explicit Role \(com.glide.explicit\_roles\) plugin was introduced in the ServiceNow AI Platform Paris release. When installed, users are assigned security roles, either snc\_internal or snc\_external. With the Brazil, release Walk-up Experience has added a dependency on this plugin to explicitly set the Walk-up Experience user as an external user.
 
-When upgrading Walk-up Experience to Australia, the Walk-up Experience user is assigned snc\_internal instead of snc\_external. This is because the Explicit Role plugin assigns all users, including the Walk-up Experience user, to snc\_internal. Walk-up Experience cannot remove snc\_internal during upgrade. For new installs of Walk-up Experience, this process works without issue because the Explicit Role plugin installs first, assigns all users to snc\_internal, then the Walk-up Experience user account is created with the snc\_external role already assigned.
+When upgrading Walk-up Experience to Brazil, the Walk-up Experience user is assigned snc\_internal instead of snc\_external. This is because the Explicit Role plugin assigns all users, including the Walk-up Experience user, to snc\_internal. Walk-up Experience cannot remove snc\_internal during upgrade. For new installs of Walk-up Experience, this process works without issue because the Explicit Role plugin installs first, assigns all users to snc\_internal, then the Walk-up Experience user account is created with the snc\_external role already assigned.
 
-**Note:** Refer to [Explicit roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explicit-roles-plugin.md) for complete details about the plugin and ServiceNow AI Platform explicit roles.
+**Note:** Refer to [Explicit roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/explicit-roles-plugin.md) for complete details about the plugin and ServiceNow AI Platform explicit roles.
 
-After upgrading to Australia, you need to remove the snc\_internal role from the Walk-up Experience user account, or any users created to log into the Walk-up Experience kiosk. Then you need to add the snc\_external role to the users. This process is not necessary for upgrades after Australia.
+After upgrading to Brazil, you need to remove the snc\_internal role from the Walk-up Experience user account, or any users created to log into the Walk-up Experience kiosk. Then you need to add the snc\_external role to the users. This process is not necessary for upgrades after Brazil.
 
-**Note:** Refer to [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md) for complete details about this process.
+**Note:** Refer to [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explicit-roles.md) for complete details about this process.
 
-**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

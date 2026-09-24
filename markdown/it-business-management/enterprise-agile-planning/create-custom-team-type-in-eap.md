@@ -3,11 +3,11 @@ title: Create a custom team type in EAP
 description: Create a custom team type to include in the Agile configurations for Enterprise Agile Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-custom-team-type-in-eap.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Team type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/team-type-form-in-eap.md).
+    For field information, see [Team type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/team-type-form-in-eap.md).
 
 4.  Deselect the **Create module** check box.
 

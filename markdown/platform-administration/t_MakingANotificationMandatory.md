@@ -3,9 +3,9 @@ title: Make a notification mandatory
 description: To prevent users from turning off or deleting a subscription to a notification, make the notification mandatory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_MakingANotificationMandatory.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Subscription-based notifications, Preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -42,12 +42,12 @@ Users receive mandatory notifications even if they disable notifications.
 
     3.  Select **Save**.
 
-        For more information about configuring the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+        For more information about configuring the form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 4.  Select the **Mandatory** check box.
 
     When a user checks their notification preferences, the control button for the mandatory notification is on and is read only.
 
 
-**Parent Topic:**[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md)
+**Parent Topic:**[Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_SubscriptionBasedNotifications.md)
 

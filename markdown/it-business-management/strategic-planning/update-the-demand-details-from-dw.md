@@ -3,11 +3,11 @@ title: Update demand details
 description: Update the details of a demand record in Next Experience for Demand Management to reflect any changes in scope, priority, or capacity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/update-the-demand-details-from-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [demand details, demand update, scope, priority, capacity]
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
@@ -33,7 +33,7 @@ Role required: it\_demand\_user, it\_demand\_manager
 
 5.  Make the required changes.
 
-    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/demand-form-dw.md).
+    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/demand-form-dw.md).
 
 6.  Select **Save**.
 

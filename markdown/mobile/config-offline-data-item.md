@@ -3,9 +3,9 @@ title: Configure data items in offline mode
 description: Define a separate data item for offline mode, giving you the flexibility to define the amount of data to display when a user is offline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/config-offline-data-item.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Supported screens, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -26,7 +26,7 @@ Use data items to confirm the offline cache reflects only what users need, such 
 
 **Note:** Offline mode for data configuration is intended to support brief periods without connectivity; the cache isn’t designed for long-term data retention.
 
-Use the Mobile Ofﬂine properties area to specify the type and amount of information to display to a user when they are in ofﬂine mode. For example, you can display a month’s worth of tasks in online mode and only three days’ worth in ofﬂine mode. In both online and ofﬂine modes, the data item type is always the same, and the information is extracted from the same table. For more information, see [Data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-data-item.md).
+Use the Mobile Ofﬂine properties area to specify the type and amount of information to display to a user when they are in ofﬂine mode. For example, you can display a month’s worth of tasks in online mode and only three days’ worth in ofﬂine mode. In both online and ofﬂine modes, the data item type is always the same, and the information is extracted from the same table. For more information, see [Data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-data-item.md).
 
 **Note:** If a data item is not created for offline mode, then the standard data item is used for both offline and online modes.
 
@@ -46,17 +46,17 @@ Use the Mobile Ofﬂine properties area to specify the type and amount of inform
 
 5.  In the Offline Properties area, define offline mode query conditions for the data item to conform to.
 
-    Create conditions using the [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    Create conditions using the [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ConditionBuilder.md).
 
     **Note:** **Declarative** and **Scripts** are supported conditional types.
 
-    Scripted data item conditions are evaluated only when the offline cache is generated. Once the data is downloaded and the user is offline, the script no longer runs. Instead, the app uses the pre-generated query string to filter the data as it was prepared at download time. For more information, see [Mobile experience components available in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-capabilities.md).
+    Scripted data item conditions are evaluated only when the offline cache is generated. Once the data is downloaded and the user is offline, the script no longer runs. Instead, the app uses the pre-generated query string to filter the data as it was prepared at download time. For more information, see [Mobile experience components available in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/offline-capabilities.md).
 
 6.  Select **Save**.
 
 
--   **[General guidelines for working with data items in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/offline-data-items-general-guidelines.md)**  
+-   **[General guidelines for working with data items in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/offline-data-items-general-guidelines.md)**  
 When working with data items keep these general guidelines in mind for usability and a good user experience.
 
-**Parent Topic:**[Supported screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/screens-offline.md)
+**Parent Topic:**[Supported screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/screens-offline.md)
 

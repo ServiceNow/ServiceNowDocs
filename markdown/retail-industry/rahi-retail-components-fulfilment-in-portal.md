@@ -3,7 +3,7 @@ title: Components installed with Store Plans - Fulfilment in Portal
 description: Certain roles, plugin dependencies, and fields must be considered when fulfilling Store Cases and Store Tasks from the Retail Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-fulfilment-in-portal.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-07-14"
 reading_time_minutes: 3
@@ -16,7 +16,7 @@ Certain roles, plugin dependencies, and fields must be considered when fulfillin
 
 ## Plugins used by Fulfilment in Portal
 
-Fulfilment in Portal introduces no new plugin. It extends the existing Retail In-store Operations plugin so that Store Cases and Store Tasks generated from store plans can also be viewed and fulfilled from the Retail Portal, in addition to Retail Mobile and Workspace. The embedded questionnaire reuses the existing Smart Assessment components; see [Components installed with Smart Assessments for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-smart-assessments.md).
+Fulfilment in Portal introduces no new plugin. It extends the existing Retail In-store Operations plugin so that Store Cases and Store Tasks generated from store plans can also be viewed and fulfilled from the Retail Portal, in addition to Retail Mobile and Workspace. The embedded questionnaire reuses the existing Smart Assessment components; see [Components installed with Smart Assessments for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-smart-assessments.md).
 
 <table id="table_plugins-fulfilment-in-portal"><thead><tr><th>
 
@@ -121,18 +121,18 @@ All associate capabilities, plus: can close a case or task on behalf of the assi
 |Supporting retail org|Read-only|Solana San Diego|
 |Requesting retail org|Read-only|Solana California|
 
-**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
+**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
 
 **Related topics**  
 
 
-[Fulfill In-store operations cases and tasks on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-portal.md)
+[Fulfill In-store operations cases and tasks on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-portal.md)
 
-[Work on a Store Case on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-work-in-store-operations-case-portal.md)
+[Work on a Store Case on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-work-in-store-operations-case-portal.md)
 
-[Work on a Store Task on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-in-store-task-portal.md)
+[Work on a Store Task on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-in-store-task-portal.md)
 
-[Complete a questionnaire for a Store Task on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-complete-questionnaire-portal.md)
+[Complete a questionnaire for a Store Task on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-complete-questionnaire-portal.md)
 
-[Components installed with Retail In-store Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-in-store-operations.md)
+[Components installed with Retail In-store Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-in-store-operations.md)
 

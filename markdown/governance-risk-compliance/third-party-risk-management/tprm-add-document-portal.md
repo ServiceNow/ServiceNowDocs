@@ -3,11 +3,11 @@ title: Upload and manage documents in the third-party portal
 description: Use the third-party portal to upload and manage documents for assessments, engagements, issues, and tasks in Third-Party Risk Management \(TPRM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-add-document-portal.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [TPRM, third-party portal, upload document, manage document, vendor documents]
 breadcrumb: [Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -33,7 +33,7 @@ Third parties and engagement owners can upload and manage documents directly in 
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create new document form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-document-form.md).
+    For descriptions of all these fields, see [Create new document form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-document-form.md).
 
 4.  Attach the document file.
 
@@ -43,15 +43,15 @@ Third parties and engagement owners can upload and manage documents directly in 
 
 6.  When managing documents, you have the following actions available.
 
-<table id="choicetable_r3q_vkw_3hc"><thead><tr><th align="left" id="d170136e137">
+<table id="choicetable_r3q_vkw_3hc"><thead><tr><th align="left" id="d172257e137">
 
 Action
 
-</th><th align="left" id="d170136e140">
+</th><th align="left" id="d172257e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d170136e146">
+</th></tr></thead><tbody><tr><td id="d172257e146">
 
 **Add or edit details**
 
@@ -59,7 +59,7 @@ Description
 
 Select the **Details** tab to review and update the document details.
 
-</td></tr><tr><td id="d170136e158">
+</td></tr><tr><td id="d172257e158">
 
 **Add version**
 
@@ -67,7 +67,7 @@ Select the **Details** tab to review and update the document details.
 
 Select the **Version history** tab to review existing versions of the document.Select **Add version** upload a new version of the document.
 
-</td></tr><tr><td id="d170136e175">
+</td></tr><tr><td id="d172257e175">
 
 **Add references**
 
@@ -75,7 +75,7 @@ Select the **Version history** tab to review existing versions of the document.S
 
 Select the **References** section to review existing references. You can add or remove tasks, issues, engagements, or assessment references. For example, navigate to **Tasks** and select **Add tasks**.
 
-</td></tr><tr><td id="d170136e193">
+</td></tr><tr><td id="d172257e193">
 
 **Update permissions**
 
@@ -83,7 +83,7 @@ Select the **References** section to review existing references. You can add or 
 
 Select the **Permissions** tab to review existing permissions. The primary contact can update and remove read and write access.
 
-</td></tr><tr><td id="d170136e206">
+</td></tr><tr><td id="d172257e206">
 
 **Download latest attachment**
 
@@ -91,7 +91,7 @@ Select the **Permissions** tab to review existing permissions. The primary conta
 
 Select **Download latest attachment** to download the latest version of the document. This option isn’t available for documents provided as a URL.
 
-</td></tr><tr><td id="d170136e218">
+</td></tr><tr><td id="d172257e218">
 
 **Save**
 
@@ -104,11 +104,13 @@ Select **Save** to save all changes made to every section of the document.
 **Related topics**  
 
 
-[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
 
-[Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms.md)
+[Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md)
 
-[Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-document.md)
+[Document Management system in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-dms.md)
 
-[Create new document form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-document-form.md)
+[Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-document.md)
+
+[Create new document form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-document-form.md)
 

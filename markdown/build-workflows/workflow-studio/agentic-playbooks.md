@@ -3,13 +3,13 @@ title: Exploring Agentic Playbooks
 description: Integrate AI agents into your workflows, and enable automation, adaptability, and transparency across your business processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/agentic-playbooks.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agentic Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Agentic Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Exploring Agentic Playbooks
@@ -33,7 +33,7 @@ Agentic Playbooks bring the following benefits:
 
 ## AI agents and their skills
 
-Agentic Playbooks are powered by the **Playbook Activity Assist** agentic workflow \(See: [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)\). The workflow contains a range of AI agents designed to enhance user experience and productivity. These agents are categorized based on their functionality and the tasks they perform.
+Agentic Playbooks are powered by the **Playbook Activity Assist** agentic workflow \(See: [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-aia-use-cases-list.md)\). The workflow contains a range of AI agents designed to enhance user experience and productivity. These agents are categorized based on their functionality and the tasks they perform.
 
 -   **Playbook data gathering agent**
 
@@ -53,7 +53,7 @@ Knowledge Graph TextToResult API Crawler
 
 </td><td>
 
-Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-knowledge-graph.md)
+Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-knowledge-graph.md)
 
 </td></tr><tr><td>
 
@@ -110,11 +110,11 @@ Uses web search tools to assist users in resolving issues by analyzing problems 
     |Playbook slot filling script|Fetches the relevant schema required to understand and execute the playbook based on the playbook activity context ID and saves the agent response back to the activity context using the activity context ID. It also consolidates activity form fields and UI visible fields under the schema.|
 
 
-For more information about Now Assist AI agents and their capabilities, refer to [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
+For more information about Now Assist AI agents and their capabilities, refer to [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-agents.md).
 
 ## User personas
 
-If you're a playbook author and want to configure activities to be performed by AI agents, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md).
+If you're a playbook author and want to configure activities to be performed by AI agents, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md).
 
-If you're an agent running a playbook, see [Using Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/running-agentic-activities.md).
+If you're an agent running a playbook, see [Using Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/running-agentic-activities.md).
 

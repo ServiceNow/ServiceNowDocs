@@ -3,11 +3,11 @@ title: Breakdown analysis form
 description: The following table describes the fields for the Breakdown analysis form. Most questions require a written response rather than selecting from predefined options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/breakdown-analysis-form.html
-release: australia
+release: brazil
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -40,5 +40,5 @@ The following table describes the fields for the Breakdown analysis form. Most q
 |Have all questions been answered accurately?|Option to verify completeness and correctness of the form.|
 |Was standard maintenance procedure updated?|Option to indicate if maintenance protocols were revised after the breakdown.|
 
-**Parent Topic:**[Digital Factory Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/digital-factory-workspace-reference.md)
+**Parent Topic:**[Digital Factory Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/digital-factory-workspace/digital-factory-workspace-reference.md)
 

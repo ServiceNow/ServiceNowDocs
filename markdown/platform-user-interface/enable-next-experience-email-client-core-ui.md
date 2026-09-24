@@ -3,9 +3,9 @@ title: Set up the Next Experience email client in the Core UI
 description: Access email features from the Next Experience in the Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-next-experience-email-client-core-ui.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -47,12 +47,12 @@ These Core UI email client features aren’t available after enabling the Next E
 
 2.  Add a system property named **glide.ui.load\_seismic\_email\_client**.
 
-    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set the Value field to **true**.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingForms.md)
 

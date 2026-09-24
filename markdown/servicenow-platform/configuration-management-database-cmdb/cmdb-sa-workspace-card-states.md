@@ -3,7 +3,7 @@ title: Product highlight card states in CMDB Workspace
 description: Each of the three ServiceNow CMDB success advisor cards in CMDB Workspace shows different content depending on setup and entitlement status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-workspace-card-states.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
@@ -22,7 +22,7 @@ In the Home view of CMDB Workspace, the Product highlights section shows a separ
 -   If the advisor scope for the product is already configured, **Remediate** opens the advisor dashboard for that product.
 -   If the advisor scope for the product isn't configured yet, **Remediate** opens the CMDB success advisor landing page and starts the setup for that product.
 
-A card may also show an **Auto-setup** tag. For more information, see [Automatic dashboard setup for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-auto-setup.md).
+A card may also show an **Auto-setup** tag. For more information, see [Automatic dashboard setup for Data Foundations in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-auto-setup.md).
 
 ## Card content by state
 

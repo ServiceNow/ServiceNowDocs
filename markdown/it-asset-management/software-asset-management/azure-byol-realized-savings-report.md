@@ -3,13 +3,13 @@ title: Microsoft Windows and SQL Server infrastructure details reports
 description: You can use the Microsoft Windows and SQL Server infrastructure details reports to gain visibility into the SQL Server and Windows Server deployments and infrastructure for different cloud providers including Microsoft Azure, AWS, and GCP.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/azure-byol-realized-savings-report.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Bring your own license or subscription to the public cloud, Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Bring your own license or subscription to the public cloud, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Microsoft Windows and SQL Server infrastructure details reports
@@ -26,7 +26,7 @@ You can use the Microsoft Windows and SQL Server infrastructure details reports 
 
 You can use the Azure BYOL Realized Savings report to gain visibility into the potential and actual cost savings for your Microsoft SQL Server and Microsoft Windows Server deployments on Microsoft Azure when using Azure Hybrid Benefit, which is the bring your own license \(BYOL\) licensing model for Microsoft Azure.
 
-The Azure BYOL Realized Savings report is generated only if you have requested and installed the ServiceNow® Cloud Cost Management application from the ServiceNow Store. See [Cloud Cost Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md) for more information on Cloud Cost Management.
+The Azure BYOL Realized Savings report is generated only if you have requested and installed the ServiceNow® Cloud Cost Management application from the ServiceNow Store. See [Cloud Cost Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md) for more information on Cloud Cost Management.
 
 **Note:** This report is available only in the Software Asset Workspace. This report isn’t available in the Software Asset Management classic application.
 
@@ -50,5 +50,5 @@ To view this report, launch the Software Asset Workspace by navigating to **Soft
 |Actual price per month with AHB|Actual VM cost per month when Azure Hybrid Benefit is enabled. This value is based on the actual number of hours that the VM was running for within a month.|
 |Actual Savings Realized|Actual VM cost saved per month by using Azure Hybrid Benefit. This value is based on the actual number of hours that the VM was running for within a month.|
 
-**Parent Topic:**[Bring your own license or subscription to the public cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/byol-concepts.md)
+**Parent Topic:**[Bring your own license or subscription to the public cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/byol-concepts.md)
 

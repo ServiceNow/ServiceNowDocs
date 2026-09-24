@@ -3,11 +3,11 @@ title: Review integration and configuration health
 description: Review your events to ensure alerts are created as intended. Start this process by checking the health status of your integration. This provides useful statistics to highlight where you can make improvements. You can enrich alerts with relevant business context, group them for better noise reduction, escalate critical alerts promptly, and notify your team for swift response and resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/review-integration-config-health.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 6
-breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Review integration and configuration health
@@ -66,9 +66,9 @@ If the message key is not defined, the default message key will be &lt;Source + 
 
 If the source event does not provide values for these fields, ensure they are populated using transform rules. This action, which does not impact event processing, is essential for de-duplication. Populate as many of these fields as possible before sending the event to the instance. Doing so enhances the distribution of events across processor workers, resulting in improved throughput and scalability.
 
-To learn more about de-duplication, see [Event Management configuration preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/r_EMBestPractice.md). To set the message key in your custom connector integration, see [Configure an event custom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/custom-connector.md).
+To learn more about de-duplication, see [Event Management configuration preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_EMBestPractice.md). To set the message key in your custom connector integration, see [Configure an event custom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/custom-connector.md).
 
--   Ignore alert event rules: Filter out low-quality alerts by creating an [ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md).
+-   Ignore alert event rules: Filter out low-quality alerts by creating an [ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md).
 
 
 </td></tr><tr><td>
@@ -79,7 +79,7 @@ Alert compression rate
 
 When you group alerts, a high compression rate is desirable because it means fewer alerts remain for your operations team to review and act on. This can lead to improved team efficiency. The compression rate is calculated as 1 – \(the number of alert groups + the number of ungrouped alerts\) / total alerts.
 
- To learn about alert aggregation, see [Alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_ServiceAnalyticsOverview.md). One way to improve your alert compression rate is by defining a new grouping automation.
+ To learn about alert aggregation, see [Alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_ServiceAnalyticsOverview.md). One way to improve your alert compression rate is by defining a new grouping automation.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ CI Binding
 
 The percentage of alerts successfully bound to a Configuration Item \(CI\) in your CMDB is crucial. Aim for this number to be at or near 100% to enhance alert grouping, root cause analysis, assignment, and more.
 
- To bind a host, machine, or any device with an IP, populate the **Node** field with a unique hostname, FQDN, IP, or MAC address. This can be done within the integration itself or by creating an enrich automation. For more complex scenarios, you can override node-based binding using event rules. For more information on CI binding, see [Binding alerts to CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-binding-alert.md).
+ To bind a host, machine, or any device with an IP, populate the **Node** field with a unique hostname, FQDN, IP, or MAC address. This can be done within the integration itself or by creating an enrich automation. For more complex scenarios, you can override node-based binding using event rules. For more information on CI binding, see [Binding alerts to CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/ci-binding-alert.md).
 
 </td></tr><tr><td>
 
@@ -97,7 +97,7 @@ Metric name configured
 
 </td><td>
 
-Shows the percentage of alerts that have a metric name defined. It's crucial to aim for near 100% because it's used by default in our automated correlation algorithm. This can be achieved within the integration itself or by creating an [enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
+Shows the percentage of alerts that have a metric name defined. It's crucial to aim for near 100% because it's used by default in our automated correlation algorithm. This can be achieved within the integration itself or by creating an [enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 </td></tr><tr><td>
 
@@ -114,10 +114,10 @@ Provides suggested alert tags based on the integration payload. Alert tags are s
 
     Verify that alert fields and tags are populated correctly to make the alerts easier to read and filter in Express List. Confirm that severity values align with your operations team's expectations and that fields and tags follow a standardized format across sources for easier grouping.
 
-    By verifying alert generation, you can be confident that your system is properly configured to detect and notify you of noteworthy occurrences. For information on the fields in the Events section, see [Integration and configuration health event fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integration-config-health-event-fields.md).
+    By verifying alert generation, you can be confident that your system is properly configured to detect and notify you of noteworthy occurrences. For information on the fields in the Events section, see [Integration and configuration health event fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/integration-config-health-event-fields.md).
 
 
 ## What to do next
 
-Now that you've confirmed alerts from the events, you can initiate the alert automation process by selecting **Add automation**. This takes you to the ignore automation step, where you can disregard irrelevant or false-positive alerts. Following that, proceed to enrich, group, and automate responses. This process involves transforming raw alerts into a format understandable by ServiceNow and grouping the alerts. You can then escalate an alert to ensure an immediate response from the appropriate team or individual. For more information on alert automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sow-itom-alert-automation.md).
+Now that you've confirmed alerts from the events, you can initiate the alert automation process by selecting **Add automation**. This takes you to the ignore automation step, where you can disregard irrelevant or false-positive alerts. Following that, proceed to enrich, group, and automate responses. This process involves transforming raw alerts into a format understandable by ServiceNow, grouping the alerts, and escalating an alert. This ensures an immediate response from the appropriate team or individual. For more information on alert automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/sow-itom-alert-automation.md).
 

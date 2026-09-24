@@ -3,11 +3,11 @@ title: Comment on a blog or a video in the community
 description: Comment on a blog or a video or comment on another comment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/comment-blog.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
@@ -21,6 +21,10 @@ Comment on a blog or a video or comment on another comment.
 You can only comment in a forum or sub forum if you have been assigned the correct permissions in the parent forum.
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -67,5 +71,5 @@ If you create a comment, you can edit or delete it. If you created the blog or v
     -   Comment authors and community administrators receive a notification that an attachment is infected.
     -   Click **Edit** to remove the infected file and upload the attachment again. You cannot add any more attachments until the infected file is removed.
 
-**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/post-respond-content.md)
+**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/post-respond-content.md)
 

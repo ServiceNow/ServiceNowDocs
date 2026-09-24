@@ -3,11 +3,11 @@ title: View affected CIs in the dependency views map
 description: A configuration item \(CI\) can result in an incident. Use dependency view to identify other configuration items \(CIs\) that are affected by the CI that resulted in the incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_UsingTheBSMMapToLocateAffectedCIs.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
@@ -30,15 +30,15 @@ Use the **Configuration Item** field when a single CI is the cause of the incide
 
 1.  On the Incident form, associate the CIs.
 
-<table id="choicetable_crl_z1k_yy"><thead><tr><th align="left" id="d283274e71">
+<table id="choicetable_crl_z1k_yy"><thead><tr><th align="left" id="d289225e71">
 
 From where
 
-</th><th align="left" id="d283274e74">
+</th><th align="left" id="d289225e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d283274e80">
+</th></tr></thead><tbody><tr><td id="d289225e80">
 
 **Configuration item field**
 
@@ -46,7 +46,7 @@ Action
 
 Select the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: The Look up icon\) beside the field and select the CI.
 
-</td></tr><tr><td id="d283274e95">
+</td></tr><tr><td id="d289225e95">
 
 **Affected CIs related list**
 
@@ -73,5 +73,5 @@ Select the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: The Look
 **Related topics**  
 
 
-[Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_NextGenBSMMaps.md)
+[Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_NextGenBSMMaps.md)
 

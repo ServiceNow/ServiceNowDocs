@@ -3,13 +3,13 @@ title: Create a flow
 description: Automate the workflow for the employee travel request application by creating a flow.Request approvals for any record by adding the Ask for Approval action to your flow.Use If flow logic to direct your flow to perform actions based on specific conditions.Integrate decision tables into your flow using Make a decision flow logic.For actions that repeat within your flow, save time by duplicating the actions and adjusting their values as needed.Automate record updates in a flow using the Update Record action.In flows with If flow logic, add Else flow logic to create alternate paths when conditions aren’t met.Automate sending email notifications using the Send Email action.Add End Flow flow logic to stop running the current flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-create-a-flow.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 20
-breadcrumb: [Adding logic and automation, App creation tutorial, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 21
+breadcrumb: [Adding logic and automation, App creation tutorial, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Create a flow
@@ -34,7 +34,7 @@ Phase 1
 
 </td><td>
 
-[Build a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-decision-table.md)
+[Build a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-decision-table.md)
 
 </td></tr><tr><td>
 
@@ -46,10 +46,10 @@ Phase 2
 
 </td><td>
 
-[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md)
+[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md)
 
 </td></tr></tbody>
-</table>For more information about flows, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md).
+</table>For more information about flows, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flows.md).
 
 Use the following tutorial to create a flow for the employee travel request application.
 
@@ -62,14 +62,14 @@ Use the following tutorial to create a flow for the employee travel request appl
 |0:17|Enter a unique name and description for the flow.|
 |0:22|Continue setting up your flow.|
 |0:25|Create a trigger.|
-|0:41|[Add an Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
-|1:09|[Add If flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
-|1:25|[Integrate decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
-|1:48|[Duplicate repeating actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
-|2:17|[Add an Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
-|2:38|[Add Else flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
-|2:50|[Add a Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
-|4:14|[Add End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
+|0:41|[Add an Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
+|1:09|[Add If flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
+|1:25|[Integrate decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
+|1:48|[Duplicate repeating actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
+|2:17|[Add an Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
+|2:38|[Add Else flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
+|2:50|[Add a Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
+|4:14|[Add End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).|
 |4:19|View your flow as a diagram.|
 |4:22|Save your changes.|
 
@@ -85,7 +85,7 @@ Use the following tutorial to create a flow for the employee travel request appl
 
 5.  Select **Build your flow from scratch**.
 
-    You can also choose to build your flow with Now Assist. For more information, see [Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-now-assist.md).
+    You can also choose to build your flow with Now Assist. For more information, see [Create a flow with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow-now-assist.md).
 
 6.  Define the properties of the flow.
 
@@ -107,7 +107,7 @@ Use the following tutorial to create a flow for the employee travel request appl
 
     2.  In the **Trigger** field, select **Record** &gt; **Created**.
 
-        For more information about trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-triggers.md).
+        For more information about trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-triggers.md).
 
     3.  In the **Table** field, enter the name of the travel request table and select it from the list.
 
@@ -115,7 +115,7 @@ Use the following tutorial to create a flow for the employee travel request appl
 
 9.  Add actions, flow logic, and sublows to the flow.
 
-    **Note:** You can add [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-actions.md), [flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-logic.md), and [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/subflows.md) to enable your flow to perform desired actions. For example, you can create an action that enables your application to send emails automatically.
+    **Note:** You can add [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-actions.md), [flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-logic.md), and [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/subflows.md) to enable your flow to perform desired actions. For example, you can create an action that enables your application to send emails automatically.
 
     Instructions for adding the actions and flow logic demonstrated in the tutorial are outlined in the following topics.
 
@@ -130,7 +130,7 @@ You have created a flow that will automate the end-to-end workflow for the emplo
 
 ## What to do next
 
-Continue building the flow for the employee travel request application. Proceed to the next step: [Add an Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+Continue building the flow for the employee travel request application. Proceed to the next step: [Add an Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 ## Add an Ask for Approval action
 
@@ -144,15 +144,15 @@ Role required: admin or flow\_designer
 
 The Ask for Approval action is a ServiceNow Core action template that enables you to request approvals easily. You can specify which records require approval and assign users to approve or reject the record.
 
-In our tutorial, we use the Ask for Approval action to request approvals from both managers and regional head for employee travel requests. This procedure outlines the Ask for Approval action that routes to the manager. The procedure for creating the Ask for Approval action that routes to the regional head is outlined in [Duplicate repeating actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+In our tutorial, we use the Ask for Approval action to request approvals from both managers and regional head for employee travel requests. This procedure outlines the Ask for Approval action that routes to the manager. The procedure for creating the Ask for Approval action that routes to the regional head is outlined in [Duplicate repeating actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
-For more information about the Ask for Approval action, see [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md).
+For more information about the Ask for Approval action, see [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ask-approval-flow-designer.md).
 
 ### Procedure
 
 1.  At the correct location in your flow, select **+ Add an Action, Flow Logic, or Subflow**.
 
-    In our tutorial, the Ask for Approval action that routes to the manager occurs just after the trigger. To see where the Ask for Approval action occurs in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+    In our tutorial, the Ask for Approval action that routes to the manager occurs just after the trigger. To see where the Ask for Approval action occurs in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 2.  Select **Action**.
 
@@ -170,7 +170,7 @@ For more information about the Ask for Approval action, see [Ask for Approval ac
 
 5.  Set the rules for the action.
 
-    **Note:** Rules determine which users can approve or reject requests, and what happens after approval or rejection. For more information about the rules available for the Ask for Approval action, see [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md).
+    **Note:** Rules determine which users can approve or reject requests, and what happens after approval or rejection. For more information about the rules available for the Ask for Approval action, see [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ask-approval-flow-designer.md).
 
     In our tutorial, we configure the rules for the Ask for Approval action to send travel requests to the manager of the user who submitted the request. The manager can then approve or deny the request.
 
@@ -178,13 +178,13 @@ For more information about the Ask for Approval action, see [Ask for Approval ac
 
     2.  Select the **-Choose approval rule** field, then select **All users approve or reject**.
 
-    3.  Choose which users or groups can complete the approval actions using the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text:\), the add user icon \(\[Omitted image "app-tutorial-add-user-icon.png"\] Alt text:\), add group icon \(\[Omitted image "app-tutorial-add-group-icon.png"\] Alt text:\), the add manual approvers icon \(\[Omitted image "manual-users-icon.png"\] Alt text:\), or by dragging data pills from the **Data** panel into the field.
+    3.  Choose which users or groups can complete the approval actions using the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\), the add user icon \(\[Omitted image "app-tutorial-add-user-icon.png"\] Alt text: Add user icon\), add group icon \(\[Omitted image "app-tutorial-add-group-icon.png"\] Alt text: Add group icon\), the add manual approvers icon \(\[Omitted image "manual-users-icon.png"\] Alt text: Manual approvers icon\), or by dragging data pills from the **Data** panel into the field.
 
         In our tutorial, we want the Ask for Approval action to route to the manager of the user who submitted the travel request. So we select **Trigger - Record Created** &gt; **Travel request Record** &gt; **Opened by** &gt; **Manager**.
 
         \[Omitted image "app-tutorial-add-manager-approval.png"\] Alt text: You can select which users can approve records using the Data pill picker button, then selecting the value that stores the correct user data.
 
-        The second Ask for Approval action, which you create in [Duplicate repeating actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md), routes the approval to the regional head.
+        The second Ask for Approval action, which you create in [Duplicate repeating actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md), routes the approval to the regional head.
 
 6.  Select **Done**.
 
@@ -193,7 +193,7 @@ For more information about the Ask for Approval action, see [Ask for Approval ac
 
 ### What to do next
 
-Proceed to the next step: [Add If flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+Proceed to the next step: [Add If flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 ## Add If flow logic
 
@@ -211,13 +211,13 @@ In our tutorial, we use If flow logic to define what the application does if a t
 
 There are two instances of If flow logic in the flow in the app creation tutorial: One that represents manager approval and another that represents regional head approval. This procedure covers creating the branch that represents manager approval. You can use this procedure to create the branch that represents the regional head approval and adjust the **Column label** and **Condition** field values accordingly.
 
-For more information about using If flow logic, see [If flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-logic-if.md).
+For more information about using If flow logic, see [If flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-logic-if.md).
 
 ### Procedure
 
 1.  At the correct location in your flow, select **+ Add an Action, Flow Logic, or Subflow**.
 
-    The If flow logic that represents manager approval occurs just after the first Ask for Approval action. To see where If flow logic occurs in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+    The If flow logic that represents manager approval occurs just after the first Ask for Approval action. To see where If flow logic occurs in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 2.  Select **Flow Logic**.
 
@@ -252,7 +252,7 @@ By default, If flow logic has no output. It simply evaluates whether a condition
 
 ### What to do next
 
-Proceed to the next step: [Integrate decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+Proceed to the next step: [Integrate decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 ## Integrate decision tables
 
@@ -268,13 +268,13 @@ Make a decision flow logic enables you to integrate decision tables within flows
 
 In our tutorial, employee travel requests are sent to the regional heads after receiving manager approval. We use Make a decision flow logic to connect the flow to the regional head decision table and retrieve the correct regional information.
 
-For more information about Make a decision flow logic, see [Make a decision flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-logic-make-decision.md).
+For more information about Make a decision flow logic, see [Make a decision flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-logic-make-decision.md).
 
 ### Procedure
 
 1.  At the correct location in your flow, select **+ Add an Action, Flow Logic, or Subflow**.
 
-    We add Make a decision flow logic beneath the branch of If flow logic that represents manager approval. To see where we add Make a decision flow logic in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+    We add Make a decision flow logic beneath the branch of If flow logic that represents manager approval. To see where we add Make a decision flow logic in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 2.  Select **Flow logic**.
 
@@ -305,7 +305,7 @@ The Make a decision flow logic generates results from the decision table, which 
 
 ### What to do next
 
-Proceed to the next step: [Duplicate repeating actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+Proceed to the next step: [Duplicate repeating actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 ## Duplicate repeating actions
 
@@ -345,15 +345,15 @@ This procedure outlines duplicating the Ask for Approval action to request regio
 
     1.  Select the duplicated action to open the action dialog.
 
-    2.  Select the remove icon \(\[Omitted image "fb-delete-icon.png"\] Alt text:\) to remove any field values that you must change.
+    2.  Select the remove icon \(\[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element.\) to remove any field values that you must change.
 
-        In our tutorial, we must change the user that the Ask for Approval routes to. So we select the remove icon \( \[Omitted image "fb-delete-icon.png"\] Alt text:\) in the data pill that contains the manager user information.
+        In our tutorial, we must change the user that the Ask for Approval routes to. So we select the remove icon \( \[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element.\) in the data pill that contains the manager user information.
 
-    3.  Provide the correct field values by selecting the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text:\) or by dragging data pills from the **Data** panel into the fields.
+    3.  Provide the correct field values by selecting the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\) or by dragging data pills from the **Data** panel into the fields.
 
         To route the Ask for Approval action to the correct regional head, we must add the data pill that contains the regional head information.
 
-        -   Using the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text:\), we select **Make a decision** &gt; **Decision Table Multiple Result Record** &gt; **Result elements** &gt; **Regional heads**.
+        -   Using the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\), we select **Make a decision** &gt; **Decision Table Multiple Result Record** &gt; **Result elements** &gt; **Regional heads**.
         -   Using the **Data** panel, we select and drag the regional heads data pill into the field.
 
             \[Omitted image "app-tutorial-make-a-decision-data-pill.png"\] Alt text: The regional heads data pill appears in the Data panel in the Make a decision section.
@@ -367,7 +367,7 @@ This procedure outlines duplicating the Ask for Approval action to request regio
 
 ### What to do next
 
-Proceed to the next step: [Add an Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+Proceed to the next step: [Add an Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 ## Add an Update Record action
 
@@ -383,19 +383,19 @@ The Update Record action is a ServiceNow Core action template that you can add t
 
 In our tutorial, we use the Update Record action to update the travel request record after it has been approved or rejected. This procedure outlines creating the Update Record action if a travel request has been approved by the manager and regional head. You can use this procedure to create the other Update Record actions and change the fields and field values as needed.
 
-For more information about the Update Record action, see [Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/update-record-flow-designer.md).
+For more information about the Update Record action, see [Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/update-record-flow-designer.md).
 
 ### Procedure
 
 1.  At the correct location in your flow, select **+ Add an Action, Flow Logic, or Subflow**.
 
-    We add the Update Record action that represents manager and regional head approvals beneath the If flow logic branch for regional head approval. To see where we add the Update Record action in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+    We add the Update Record action that represents manager and regional head approvals beneath the If flow logic branch for regional head approval. To see where we add the Update Record action in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 2.  Select **Action**.
 
 3.  From the **ServiceNow Core** options, select **Update Record**.
 
-4.  Select the record that you want to update by selecting the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text:\) or by dragging the data pill from the **Data** panel into the **Record** field.
+4.  Select the record that you want to update by selecting the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\) or by dragging the data pill from the **Data** panel into the **Record** field.
 
     In our tutorial, we want to update the travel request record, so we add the travel request trigger to the **Record** field.
 
@@ -423,7 +423,7 @@ For more information about the Update Record action, see [Update Record action](
 
 ### What to do next
 
-Proceed to the next step: [Add Else flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+Proceed to the next step: [Add Else flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 ## Add Else flow logic
 
@@ -443,7 +443,7 @@ In our tutorial, we add Else flow logic to specify what happens when a travel re
 
 1.  At the correct location in your flow, select **+ Add an Action, Flow Logic, or Subflow**.
 
-    We add Else flow logic at two places in the flow: One beneath the branch of the flow that represents manager approval and another beneath the branch that represents regional head approval. To see where we add Else flow logic in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+    We add Else flow logic at two places in the flow: One beneath the branch of the flow that represents manager approval and another beneath the branch that represents regional head approval. To see where we add Else flow logic in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 2.  Select **Flow logic**.
 
@@ -458,7 +458,7 @@ By default, Else flow logic has no output. It just creates a branch for the flow
 
 ### What to do next
 
-Proceed to the next step: [Add a Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+Proceed to the next step: [Add a Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 ## Add a Send Email action
 
@@ -474,25 +474,25 @@ The Send Email action is a ServiceNow Core action template that you can add to y
 
 In our tutorial, we add Send Email actions to notify employees that their travel requests have been rejected. This procedure covers the Send Email action that notifies employees that their travel request has been rejected by the regional head. You can use this procedure to create the other Send Email action for the manager rejection and adjust the field values accordingly.
 
-For more information about the Send Email action, see [Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/send-email-flow-designer.md).
+For more information about the Send Email action, see [Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/send-email-flow-designer.md).
 
 ### Procedure
 
 1.  At the correct location in your flow, select **+ Add an Action, Flow Logic, or Subflow**.
 
-    We add the Send Email action beneath the Else flow logic that represents regional head rejection. To see where we add Send Email actions in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+    We add the Send Email action beneath the Else flow logic that represents regional head rejection. To see where we add Send Email actions in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 2.  Select **Action**.
 
 3.  From the **ServiceNow Core** options, select **Send Email**.
 
-4.  Add the record that the email is associated with to the **Target Record** field using the Data pill picker \(a\[Omitted image "data\_pill\_picker.png"\] Alt text:\), or by dragging the data pill from the **Data** panel.
+4.  Add the record that the email is associated with to the **Target Record** field using the Data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\), or by dragging the data pill from the **Data** panel.
 
-    In this tutorial, we want the email to be associated with the travel request record in the trigger.
+    In our tutorial, we want the email to be associated with the travel request record in our trigger.
 
-5.  Add recipients for the email in the **To** field using the Data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text:\), or by dragging the data pill from the **Data** panel.
+5.  Add recipients for the email in the **To** field using the Data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon\), or by dragging the data pill from the **Data** panel.
 
-    In this tutorial, we want the user who created the travel request to receive the email. The user information is stored under **Trigger - Record Created** &gt; **Travel request Record** &gt; **Opened by**.
+    In our tutorial, we want the user who created the travel request to receive the email. The user information is stored under **Trigger - Record Created** &gt; **Travel request Record** &gt; **Opened by**.
 
 6.  Add additional recipients to the email in the **CC** and **BCC** fields.
 
@@ -515,7 +515,7 @@ For more information about the Send Email action, see [Send Email action](https:
 
 ### What to do next
 
-Proceed to the next step: [Add End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+Proceed to the next step: [Add End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 ## Add End Flow flow logic
 
@@ -531,13 +531,13 @@ If you want your flow to end when certain conditions are met, you can add End Fl
 
 In our tutorial, we add End Flow flow logic to end the flow if a travel request has been rejected.
 
-For more information about End Flow flow logic, see [End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-logic-end-action.md).
+For more information about End Flow flow logic, see [End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-logic-end-action.md).
 
 ### Procedure
 
 1.  At the correct location in your flow, select **+ Add an Action, Flow Logic, or Subflow**.
 
-    We add End Flow flow logic in the branch that represents manager rejection of a travel request. To see where we add End Flow logic in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
+    We add End Flow flow logic in the branch that represents manager rejection of a travel request. To see where we add End Flow logic in the tutorial flow, see the diagram in [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
 2.  Select **Flow Logic**.
 
@@ -548,5 +548,5 @@ For more information about End Flow flow logic, see [End Flow flow logic](https:
 
 ### What to do next
 
-The logic and automation for the employee travel request application are complete. Proceed to the final step in the app creation tutorial: [Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-test-app.md).
+The logic and automation for the employee travel request application are complete. Proceed to the final step in the app creation tutorial: [Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/app-tutorial-test-app.md).
 

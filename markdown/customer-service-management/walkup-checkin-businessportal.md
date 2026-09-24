@@ -3,11 +3,11 @@ title: Walk-up Check-in on Business Portal
 description: Schedule an in-person walk-up appointment at a service center from the Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/walkup-checkin-businessportal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Walk-up Check-in on Business Portal
@@ -34,13 +34,13 @@ Walk-up check-in enables business users to schedule appointments for in-person s
 
 3.  Schedule an appointment.
 
-    For details, see [Schedule appointments or join a queue from the Self Service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-walkup-checkin-online.md).
+    For details, see [Schedule appointments or join a queue from the Self Service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-walkup-checkin-online.md).
 
 
 **Related topics**  
 
 
-[Schedule appointments or join a queue from the Self Service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-walkup-checkin-online.md)
+[Schedule appointments or join a queue from the Self Service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-walkup-checkin-online.md)
 
-[Using Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-walkup-experiencce.md)
+[Using Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-walkup-experiencce.md)
 

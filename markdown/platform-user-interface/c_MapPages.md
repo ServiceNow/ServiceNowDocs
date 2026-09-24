@@ -3,9 +3,9 @@ title: Map pages
 description: Map pages display ServiceNow data graphically on a Google map page based on location data that you provide.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_MapPages.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ Map pages display ServiceNow data graphically on a Google map page based on loca
 
 You can create as many map pages as required to define the types of data to display, the links to show, and the appearance of the map. After creating the map pages, you can create modules to display the map pages.
 
-**Note:** Map pages are subject to the non-production access limitations. See [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md) for details.
+**Note:** Map pages are subject to the non-production access limitations. See [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-up-google-maps-api.md) for details.
 
 ## Map locations
 
@@ -24,7 +24,7 @@ Locations are used by various applications to locate users, facilities, or confi
 
 Each level of this hierarchy contains a separate location record, with the next higher level specified as a parent.
 
-The location is also used to generate a full identifier in the **Full name** field, which is available by configuring the form. For more information, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+The location is also used to generate a full identifier in the **Full name** field, which is available by configuring the form. For more information, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 \[Omitted image "LocationFullName.png"\] Alt text: The Full name field on the Location form
 
@@ -185,20 +185,20 @@ After the latitude and longitude are populated, Map Pages can be defined that di
 
 **Note:** Latitude and longitude are expressed as a floating point data type. Previous releases expressed this information as a string. During an upgrade, the system converts the data where possible.
 
--   **[Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md)**  
+-   **[Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-up-google-maps-api.md)**  
 You enable the geolocation feature using the appropriate entries from a Google Maps API for Business license, or a Google Maps JavaScript API Key.
--   **[Create a map page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAMapPage.md)**  
+-   **[Create a map page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreateAMapPage.md)**  
 Your ServiceNow instance provides several default map pages. You can also create custom map pages with the script examples described in this page.
--   **[Create a map page module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-map-page-module.md)**  
+-   **[Create a map page module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-map-page-module.md)**  
 You can create a new application module for desktop or smartphone users to display a Google map page.
--   **[Create an advanced Map Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-advanced-map-page.md)**  
+-   **[Create an advanced Map Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-advanced-map-page.md)**  
 Use advanced configuration to set up Map Pages without scripting.
--   **[Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-map-application-scope.md)**  
+-   **[Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-map-application-scope.md)**  
 Enable map application scope to specify which application can modify your Map Page configuration.
--   **[Create a smartphone map page module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateASmartphoneMapPageModule.md)**  
+-   **[Create a smartphone map page module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreateASmartphoneMapPageModule.md)**  
 You can create a custom smartphone module that links directly to a map page.
--   **[Scripting for map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/scripting-for-map-pages.md)**  
+-   **[Scripting for map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/scripting-for-map-pages.md)**  
 The Script field on the Map Page form allows the use of attributes or custom code to define map characteristics, such as marker appearance, display information, and more.
 
-**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

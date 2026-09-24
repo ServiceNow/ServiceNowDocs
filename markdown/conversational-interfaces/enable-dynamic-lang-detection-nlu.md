@@ -1,0 +1,67 @@
+---
+title: \(Legacy\) Enable Dynamic Translation for languages in Virtual Agent for NLU
+description: Enable Dynamic Translation for one or more languages in Chat Settings for Virtual Agent.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/enable-dynamic-lang-detection-nlu.html
+release: brazil
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Localization options for NLU conversations, Build and deploy NLU conversations, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+---
+
+# \(Legacy\) Enable Dynamic Translation for languages in Virtual Agent for NLU
+
+Enable Dynamic Translation for one or more languages in Chat Settings for Virtual Agent.
+
+## Before you begin
+
+Install and configure the plugins for Dynamic Translation, as described in [Prerequisites for using Dynamic Translation in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/prereq-using-dt-va.md). If these prerequisites aren’t completed, the Multi language support card described in the following steps doesn’t appear.
+
+Role required: virtual\_agent\_admin or admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
+
+2.  Select **Virtual Agent**.
+
+3.  On the Multi language support card, do the following:
+
+    1.  Turn on the **Language Detection** toggle switch to enable it.
+
+    2.  Turn on the **Dynamic language translation** toggle switch to enable it.
+
+    3.  Select **View All**.
+
+    The Multi-language support page opens. All languages that are installed on the instance are listed.
+
+4.  In the **Dynamic Translation Enabled** column, select **false** for the language you want to enable.
+
+    \[Omitted image "dtac-language-flag.png"\] Alt text: Virtual Agent Multi-language support page with highlighted false value under Dynamic Translation Enabled.
+
+    1.  If prompted, select **Edit record**.
+
+        \[Omitted image "edit-language-record-link.png"\] Alt text: Banner message with Edit record option highlighted.
+
+    2.  Select **Dynamic Translation Enabled**.
+
+    3.  Select **Update**.
+
+    4.  Return to the Multi-language support page and repeat these steps for any other language you want to enable.
+
+5.  Enable language detection for guest users.
+
+    If this system property is set to **off**, Dynamic Translation will not work for guest users.
+
+    1.  Navigate to **All**, and then enter `sys_properties.list` in the filter.
+
+    2.  In the **Name** field, search for **com.glide.cs.guest\_session\_resumable**.
+
+    3.  In the **Value** column, change the setting to `true`.
+
+        \[Omitted image "sysproperties-dt-guest-session-resumable.png"\] Alt text: System Properties page with com.glide.cs.guest\_session\_resumable value set to true.
+
+
+**Parent Topic:**[\(Legacy\) Localization options for Virtual Agent for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/multi-language-options-va.md)
+

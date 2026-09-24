@@ -3,11 +3,11 @@ title: AI voice agents in CSM
 description: Use the AI voice agents to create cases and check case status through natural, conversational voice calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/voice-ai-agent.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-02-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
@@ -58,12 +58,12 @@ AI voice agents are managed through AI Agent Studio. To configure a new agent:
 2.  Open the **Add** drop-down list.
 3.  Select an AI voice agent to create a voice-enabled agent for case management.
 
-This interface enables admins to [create a AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-voice-enabled-ai-agent.md), connect to [supported contact center providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md), and deploy fully functional AI voice agents for case management. For deployment and configuration info, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
+This interface enables admins to [create a AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-voice-enabled-ai-agent.md), connect to [supported contact center providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md), and deploy fully functional AI voice agents for case management. For deployment and configuration info, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
 
 **Note:**
 
 -   To enable customer access and use of AI voice agents, an admin must install the plugin Customer Service Management AI agent collection
--   To modify the AI voice agents, duplicate it, and adjust the settings according to your requirements. For more info see, [Configure and customize the AI Voice Agent for ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-and-customize-the-ai-voice-agent-for-csm.md).
+-   To modify the AI voice agents, duplicate it, and adjust the settings according to your requirements. For more info see, [Configure and customize the AI Voice Agent for ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/configure-and-customize-the-ai-voice-agent-for-csm.md).
 
 **Important:**
 

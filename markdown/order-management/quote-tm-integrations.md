@@ -3,7 +3,7 @@ title: Quote transaction integrations
 description: Integrations connect ServiceNow Quote Experience to external data sources, enabling the exchange of data between quotes and third-party systems such as Salesforce in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-integrations.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 2
@@ -82,11 +82,4 @@ The transformation template defines the mapping between third-party data and CPQ
 ```
 
 Use the **Sample Return Data** and **Transformation Result** areas to test and troubleshoot an integration. Paste the query response from a tool such as Postman into the Sample Return Data area and select **Run Transformation** to verify that the mapping produces the expected output.
-
--   **[Create a connection for ServiceNow Quote Experience calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-a-connection.md)**  
-Add a connection in CPQ to define the host, path, and authentication credentials used when ServiceNow Quote Experience calls an external system during a transaction.
--   **[Create a ServiceNow Quote Experience integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-integration.md)**  
-Create an integration in ServiceNow Quote Experience to define the connection, settings, and field mapping that exchanges data between a quote and an external system in CPQ.
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

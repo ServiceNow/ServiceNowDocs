@@ -3,13 +3,13 @@ title: ERP Semantic Mining snapshot field descriptions
 description: In ERP Semantic Mining, the Configuration page Snapshots tab displays information about import and export snapshots.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-snapshot-field-descriptions.html
-release: australia
+release: brazil
 product: ERP Customization Mining
 classification: erp-customization-mining
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ERP Semantic Mining field descriptions, Reference, ERP Semantic Mining overview, Workflow Data Fabric]
+breadcrumb: [ERP Semantic Mining field descriptions, Reference, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # ERP Semantic Mining snapshot field descriptions
@@ -18,7 +18,7 @@ In ERP Semantic Mining, the **Configuration** page **Snapshots** tab displays in
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-For process details, see [Create a snapshot to share and save data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md).
+For process details, see [Create a snapshot to share and save data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md).
 
 |Column|Definition|
 |------|----------|
@@ -29,5 +29,5 @@ For process details, see [Create a snapshot to share and save data in ERP Semant
 |Created by|User that created the snapshot.|
 |Updated|Date and time the snapshot was most recently updated.|
 
-**Parent Topic:**[ERP Semantic Mining field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-field-description-reference-landing.md)
+**Parent Topic:**[ERP Semantic Mining field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

@@ -3,11 +3,11 @@ title: E-signature reference
 description: Activating the e-signature plugin installs additional roles and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/e-signature/esignature-reference.html
-release: australia
+release: brazil
 product: e-Signature
 classification: e-signature
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [E-signature, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,8 +16,8 @@ breadcrumb: [E-signature, Manage people and work capabilities, Extend ServiceNow
 
 Activating the e-signature plugin installs additional roles and tables.
 
--   **[Components installed with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/components-installed-with-e-signature.md)**  
+-   **[Components installed with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/e-signature/components-installed-with-e-signature.md)**  
 Several types of components are installed with activation of e-signature, including tables and user roles.
 
-**Parent Topic:**[E-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/e-signature.md)
+**Parent Topic:**[E-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/e-signature/e-signature.md)
 

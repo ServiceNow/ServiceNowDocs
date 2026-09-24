@@ -3,12 +3,12 @@ title: ServiceNow Lux Lab for VS Code release notes
 description: The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/servicenow-ai-experience-lab-for-vs-code-rn.html
-release: australia
+release: brazil
 topic_type: topic
-last_updated: "2026-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow AI Experience Lab for VS Code, ServiceNow AI Experience Lab for VS Code release notes, AI Experience Framework, Extend ServiceNow experiences]
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # ServiceNow Lux Lab for VS Code release notes
@@ -24,7 +24,7 @@ The ServiceNow Lux Lab for VS Code extension transforms how you build on the Ser
 -   Access relevant experiences, pages, and widgets from your instance.
 -   Develop tailored experiences with AI tools.
 
-See [ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
+See [ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -110,12 +110,9 @@ ServiceNow instance
 
 </td><td>
 
-[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md)
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-prepare-landing-page.md)
 
 </td></tr></tbody>
 </table>
--   **[Version 1.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-lux-lab-for-vs-code-rn-2026-09.md)**  
-The ServiceNow AI Experience Lab for VS Code is now named ServiceNow Lux Lab for VS Code.
-
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
 

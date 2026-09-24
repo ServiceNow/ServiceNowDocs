@@ -3,11 +3,11 @@ title: Change default values of copied project
 description: Reset or change the default values for copied fields in the new copied partial or complete project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ModifyTheCopyProjectUIPage.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Copy a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -71,10 +71,10 @@ Child tasks are defined with the same relationships, each lasting for the same d
 4.  Select **Update**.
 
 
-**Parent Topic:**[Copy a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CopyAProject.md)
+**Parent Topic:**[Copy a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CopyAProject.md)
 
 **Related topics**  
 
 
-[Copy a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CopyAProject.md)
+[Copy a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CopyAProject.md)
 

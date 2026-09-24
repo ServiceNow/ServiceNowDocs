@@ -3,11 +3,11 @@ title: Manage Conference Call users and groups
 description: The Admin can configure conference call settings to display a predefined list of users and groups to add to a call.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/config-conference-call.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response conference call integration, Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -92,5 +92,5 @@ Option to add default users for adding to a call.
 </table>5.  Select **Save** to save the conference call configuration.
 
 
-**Parent Topic:**[Security Incident Response conference call integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-conf-call-capability.md)
+**Parent Topic:**[Security Incident Response conference call integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-conf-call-capability.md)
 

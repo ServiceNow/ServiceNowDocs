@@ -3,9 +3,9 @@ title: Before deploying OT Discovery
 description: To discover assets in your OT environment, the Operational Technology Discovery solution provides the ServiceNow platform, the Discovery Console for OT, the Discovery Sensor for OT, and the OT Discovery Collector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/before-ot-deployment.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -48,7 +48,7 @@ With OT Discovery, you can add layers of capabilities over time such as:
 
 ## Adding locations over time
 
-On a site-by-site level, you can add locations over time, such as deploying the Discovery Console for OT and the Discovery Sensor for OT at a pilot site. For more information, see the [Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sites-page.md).
+On a site-by-site level, you can add locations over time, such as deploying the Discovery Console for OT and the Discovery Sensor for OT at a pilot site. For more information, see the [Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/sites-page.md).
 
-**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deploy-ot-discovery-devices-landing.md)
+**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/deploy-ot-discovery-devices-landing.md)
 

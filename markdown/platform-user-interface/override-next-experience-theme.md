@@ -3,9 +3,9 @@ title: Override the Next Experience default theme
 description: Override the Next Experience theme with your custom theme.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/override-next-experience-theme.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Next Experience themes, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,9 +16,9 @@ Override the Next Experience theme with your custom theme.
 
 ## Before you begin
 
-Prior to the Xanadu release, overriding the Next Experience theme using the `glide.ui.polaris.theme.custom` system property was the primary way to apply a custom look globally. As of Xanadu, you are able to publish multiple themes and select a theme for the Next Experience. The `glide.ui.polaris.theme.custom` system property is only considered if the UX Parent App Themes table is empty. For more information, see [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-presentation-order-of-themes.md). Use override only if you need to enforce a single theme across your instance.
+Prior to the Xanadu release, overriding the Next Experience theme using the `glide.ui.polaris.theme.custom` system property was the primary way to apply a custom look globally. As of Xanadu, you are able to publish multiple themes and select a theme for the Next Experience. The `glide.ui.polaris.theme.custom` system property is only considered if the UX Parent App Themes table is empty. For more information, see [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-presentation-order-of-themes.md). Use override only if you need to enforce a single theme across your instance.
 
-Starting in Zurich, Coral is the default theme for new instances. You can enable Coral or other themes using Theme Builder or by adding them to the UX Parent App Theme table following [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-presentation-order-of-themes.md).
+Starting in Zurich, Coral is the default theme for new instances. You can enable Coral or other themes using Theme Builder or by adding them to the UX Parent App Theme table following [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-presentation-order-of-themes.md).
 
 Role required: admin
 
@@ -55,5 +55,5 @@ Override the default Next Experience theme while keeping the Next Experience UI.
     **Note:** If, for any reason, you decide to revert back to the Polaris theme, repeat steps 4 through 7, replacing the sys\_id in the **Value** field with the sys\_id of the Polaris theme.
 
 
-**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
+**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
 

@@ -1,24 +1,24 @@
 ---
 title: Choose and configure metrics to monitor
-description: Metric Intelligence uses data sources that can monitor hundreds of metrics for all CIs. Choose which details are important for each data source type and CI. Activate or deactivate the respective monitor type to control the amount of data that is processed.
+description: Metric Intelligence uses data sources that can monitor hundreds of metrics for all CIs. Choose which details are important for each data source type and CI, then activate or deactivate the respective monitor type to control data processing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-metric-monitors.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Choose and configure metrics to monitor
 
-Metric Intelligence uses data sources that can monitor hundreds of metrics for all CIs. Choose which details are important for each data source type and CI. Activate or deactivate the respective monitor type to control the amount of data that is processed.
+Metric Intelligence uses data sources that can monitor hundreds of metrics for all CIs. Choose which details are important for each data source type and CI, then activate or deactivate the respective monitor type to control data processing.
 
 ## Before you begin
 
-See [Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/get-started-metrics.md) for the high level steps of setting up Metric Intelligence.
+See [Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/get-started-metrics.md) for the high level steps of setting up Metric Intelligence.
 
 Role required: evt\_mgmt\_admin
 
@@ -26,7 +26,7 @@ Role required: evt\_mgmt\_admin
 
 The SCOM data source, available by default, collects about 400 metric types from discovered devices such as '% Available Memory' and '% of Free Space'. Processing data from all metric types can overload the system and impact performance. It might be necessary to deactivate selected metric types for selected CIs to reduce that load.
 
-The overall number of metrics that can be processed, depends on the number of MID Servers and their hardware configuration. For details about hardware requirements and metrics scalability, see [MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md).
+The overall number of metrics that can be processed, depends on the number of MID Servers and their hardware configuration. For details about hardware requirements and metrics scalability, see [MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md).
 
 **Note:** The **Active** setting \(true or false\) for a metric in the Monitoring System Metric Types \[sa\_source\_metric\_type\] table takes precedence over the setting for the corresponding metric in the Metric To CI Mappings \[sa\_metric\_map\] table. If a metric type in the Monitoring System Metric Types \[sa\_source\_metric\_type\] table is disabled, all records related to the corresponding metrics are removed from the Metric To CI Mappings \[sa\_metric\_map\] table.
 
@@ -101,5 +101,5 @@ Unit type that is associated with the source metric type, displayed in the Metri
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

@@ -1,16 +1,16 @@
 ---
-title: Associate Amazon Connect queues with CSM
+title: Associate Amazon Connect queues for CSM to a ServiceNow instance
 description: Set up phone queues for Amazon Connect to gain visibility into the queues using Workforce Optimization for Customer Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setup-amazonconnect-configurable-csm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Voice, Using Channel Management, Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
+breadcrumb: [Using Voice with Workforce Optimization for Customer Service, Using Channel Management, Channel Management, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Associate Amazon Connect queues with CSM
+# Associate Amazon Connect queues for CSM to a ServiceNow instance
 
 Set up phone queues for Amazon Connect to gain visibility into the queues using Workforce Optimization for Customer Service.
 
@@ -18,7 +18,7 @@ Set up phone queues for Amazon Connect to gain visibility into the queues using 
 
 Enable the Advanced Work Assignment plugin \(com.glide.awa\) to create the Amazon Connect queues. You must activate this plugin before you activate the Cloud Call Center Core \(sn\_cti\_core\) plugin so that you can successfully integrate the two applications.
 
-After you [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md), when you enable the Advanced Work Assignment plugin \(com.glide.awa\), the Amazon Connect \(phone\) service channel appears in the Workforce Optimization for Customer Service.
+After you [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/install-ccc-apps.md), when you enable the Advanced Work Assignment plugin \(com.glide.awa\), the Amazon Connect \(phone\) service channel appears in the Workforce Optimization for Customer Service.
 
 Role required: sn\_csm\_wfo\_workspa.admin and sn\_cti\_amzn\_cct.admin
 
@@ -53,7 +53,7 @@ A routing profile links queues to agents. Every agent must have a routing profil
 
 1.  Create placeholder queues for an Amazon Connect \(phone\) service channel if you need additional queues.
 
-    For more information on creating the queue, refer to [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md).
+    For more information on creating the queue, refer to [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-create-queue.md).
 
     **Note:** Do not add work item routing conditions when you create the placeholder queues.
 
@@ -78,5 +78,5 @@ A routing profile links queues to agents. Every agent must have a routing profil
     5.  In the **Order** field, select the order number for the assignment group. This is the order of assignment group priority in which the incoming calls are handled.
     6.  Click **Submit**.
 
-**Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-servicenow-voice-cs.md)
+**Parent Topic:**[Using Voice with Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configurable-servicenow-voice-cs.md)
 

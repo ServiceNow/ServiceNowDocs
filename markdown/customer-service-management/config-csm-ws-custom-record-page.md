@@ -3,9 +3,9 @@ title: Customize a record page
 description: To customize a record page, you first create a variant, or copy, of the page and then make changes to the variant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-custom-record-page.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the CRM Workspace experience.
 
 3.  Select the desired page in the **Page** list.
 
@@ -30,7 +30,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 4.  Select the desired default record page from the Variants list.
 
-    For example, select **CSM default record page**.
+    For example, select CSM default record page.
 
 5.  Select the additional actions menu for this page and then select **Duplicate** to create a copy of the page variant.
 
@@ -48,9 +48,9 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
     For more information, see the following UI Builder topics:
 
-    -   [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md)
-    -   [Work with components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md)
-    -   [Layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-layouts.md)
+    -   [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-pages.md)
+    -   [Work with components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-components.md)
+    -   [Layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-layouts.md)
 8.  To delete a page variant:
 
     1.  Locate the page variant to be deleted in the **Pages and variants** list.

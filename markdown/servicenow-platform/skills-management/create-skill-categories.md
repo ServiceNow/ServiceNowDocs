@@ -3,11 +3,11 @@ title: Define the skill taxonomy
 description: Organize related skills into categories and subcategories so that you can manage skills and create reports quickly and efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/create-skill-categories.html
-release: australia
+release: brazil
 product: Skills Management
 classification: skills-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,15 +44,15 @@ You can build your skill taxonomy from scratch or use the sample data provided w
 
 6.  Add sub-categories or skills.
 
-<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d506506e132">
+<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d505117e132">
 
 To add
 
-</th><th align="left" id="d506506e135">
+</th><th align="left" id="d505117e135">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d506506e141">
+</th></tr></thead><tbody><tr><td id="d505117e141">
 
 **Sub-categories**
 
@@ -62,7 +62,7 @@ Do this
 -   In the **Name** field, enter a unique name for the category.
 
 
-</td></tr><tr><td id="d506506e168">
+</td></tr><tr><td id="d505117e168">
 
 **Skills**
 

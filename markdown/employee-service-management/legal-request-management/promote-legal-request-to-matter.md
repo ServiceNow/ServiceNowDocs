@@ -3,11 +3,11 @@ title: Promote a legal request to a legal matter
 description: Promote a legal request to a legal matter when the request needs additional investigation and cross-departmental collaboration that might take more time to resolve.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/promote-legal-request-to-matter.html
-release: australia
+release: brazil
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work on a legal request, Managing legal requests, Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Promote a legal request to a legal matter when the request needs additional inve
 
 ## Before you begin
 
-Ensure you have the Legal Matter Management app installed and the record producer type in the associated intake form set to **Request and Matter**. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md).
+Ensure you have the Legal Matter Management app installed and the record producer type in the associated intake form set to **Request and Matter**. For more information, see [Add an intake form to a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md).
 
 Role required: sn\_lg\_ops.legal\_fulfiller
 
@@ -34,15 +34,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d67540e112">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d67454e112">
 
 Option
 
-</th><th align="left" id="d67540e115">
+</th><th align="left" id="d67454e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d67540e121">
+</th></tr></thead><tbody><tr><td id="d67454e121">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d67540e150">
+</td></tr><tr><td id="d67454e150">
 
 **As a collaborator**
 
@@ -67,15 +67,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 </td></tr></tbody>
 </table>4.  Promote a legal request to a legal matter by creating a new matter or adding it to an existing matter.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d67540e180">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d67454e180">
 
 Option
 
-</th><th align="left" id="d67540e183">
+</th><th align="left" id="d67454e183">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d67540e189">
+</th></tr></thead><tbody><tr><td id="d67454e189">
 
 **Create a new matter**
 
@@ -87,7 +87,7 @@ Steps
     -   To create a legal matter record without any predefined data, leave the Matter template field empty and select **OK**.
 
 
-</td></tr><tr><td id="d67540e224">
+</td></tr><tr><td id="d67454e224">
 
 **Add to an existing matter**
 
@@ -107,10 +107,10 @@ Steps
 -   When legal request is promoted by adding to an existing matter, the Privileged and Confidential status of the existing matter is retained irrespective of the Privileged and Confidential status of the request.
 -   You \(a legal fulfiller or a collaborator\) will be added in the **Watch list** of the legal matter to access it.
 -   If you selected a matter template, then the matter has predefined phases, tasks, and attributes from the template.
--   If the external storage option is enabled, the documents attached to the legal request and stored in the configured external storage are listed under the **Documents** tab of the [legal matter's Artifact record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md).
+-   If the external storage option is enabled, the documents attached to the legal request and stored in the configured external storage are listed under the **Documents** tab of the [legal matter's Artifact record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md).
 
     **Note:** Since the documents in the artifact created from the requests are shared, the addition or deletion of any documents in this shared artifact is reflected in both request and matter. Also, the document permission for this shared artifact is managed at the legal request level and not at the legal matter level.
 
 
-**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
+**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
 

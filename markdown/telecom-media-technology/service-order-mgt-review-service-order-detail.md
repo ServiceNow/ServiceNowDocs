@@ -3,9 +3,9 @@ title: Select, review, revise, or request cancellation of a service order
 description: Review the account, contact, pricing, and date details on a telecommunications service order to make sure that it is correct and complete. You can also revise or request a cancellation of the service order. OM revamp project - This topic has been removed from the SOM bundle on Oct 14, 2025.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/service-order-mgt-review-service-order-detail.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service orders for fulfillment, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_ind\_tmt\_orm.service\_order\_agent, sn\_ind\_tmt\_orm.servic
 
     **Workspace Experience** &gt; **Workspaces** &gt; **Agent Workspace Home**.
 
-    To learn more about migrating to configurable workspaces, see [Migrate to Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migrate-to-configurable-workspace.md).
+    To learn more about migrating to configurable workspaces, see [Migrate to Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/migrate-to-configurable-workspace.md).
 
     If you have an assigned Service Order Manager or Service Order Agent role, the Service Order Management workspace appears. If the Service Order Management workspace doesn't appear, do the following actions:
 
@@ -35,7 +35,7 @@ Role required: sn\_ind\_tmt\_orm.service\_order\_agent, sn\_ind\_tmt\_orm.servic
 
         -   To view all service orders, click **All**.
         -   To view only open, unfulfilled service orders, click **Open**.
-        **Note:** To learn more about creating or updating service order details, see [Creating orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-orders-som.md).
+        **Note:** To learn more about creating or updating service order details, see [Creating orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating-orders-som.md).
 
     3.  Select the service order that you want to review, verify, and approve:
         -   To refresh the form, click the refresh icon \[Omitted image "form-refresh.png"\] Alt text:.
@@ -46,15 +46,15 @@ Role required: sn\_ind\_tmt\_orm.service\_order\_agent, sn\_ind\_tmt\_orm.servic
 
 4.  To revise or request cancellation of the service order, perform one of the following actions.
 
-<table id="choicetable_vdb_2cb_fqb"><thead><tr><th align="left" id="d49024e179">
+<table id="choicetable_vdb_2cb_fqb"><thead><tr><th align="left" id="d49183e179">
 
 Action
 
-</th><th align="left" id="d49024e182">
+</th><th align="left" id="d49183e182">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d49024e188">
+</th></tr></thead><tbody><tr><td id="d49183e188">
 
 **Revise a customer or service order**
 
@@ -73,7 +73,7 @@ When you revise an order, the following actions take place:
 -   If there are any associated order tasks, their state fields change to On Hold.
 
 
-</td></tr><tr><td id="d49024e252">
+</td></tr><tr><td id="d49183e252">
 
 **Revise a customer or service order line item**
 
@@ -93,7 +93,7 @@ When you revise an order line item, the following actions take place:
 -   If there are any associated order tasks, their state fields change to On Hold.
 
 
-</td></tr><tr><td id="d49024e322">
+</td></tr><tr><td id="d49183e322">
 
 **Request cancellation of an entire customer or service order**
 
@@ -111,7 +111,7 @@ When you request an order cancellation, the following actions take place:
 -   Notification messages appear if there are any conditions that are preventing cancellation of the order. A designated manager must approve the order cancellation.
 **Note:** To cancel an individual order line item, in the Order Line Item form, change the **State** field to Assess Cancellation.
 
-</td></tr><tr><td id="d49024e389">
+</td></tr><tr><td id="d49183e389">
 
 **Request cancellation of individual customer or service order line items**
 

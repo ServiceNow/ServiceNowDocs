@@ -3,10 +3,10 @@ title: Remove assignments for host vulnerable items in bulk
 description: Remove yourself or your groups from the  Assigned to  and  Assignment group  fields on the findings if you determine that the records aren’t within your scope for remediation, or if you think that records have been incorrectly assigned to you or to your groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-bulk-edit-unassign.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -35,8 +35,8 @@ The  unassign  feature is applicable for records in any state other than Clo
 
 3.  Perform one of the following:
 
-    -   Select the check box next to each item if you want to use the **Only Selected Items** option in the [Record Selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md) field.
-    -   Apply filters if you want to use the **All Vulnerable Items that match filter** option in the [Record Selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md) field.
+    -   Select the check box next to each item if you want to use the **Only Selected Items** option in the [Record Selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md) field.
+    -   Apply filters if you want to use the **All Vulnerable Items that match filter** option in the [Record Selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md) field.
 4.  Select the **Bulk Edit** button.
 
 5.  On the form, fill in the fields to remove assignments in bulk.
@@ -113,6 +113,4 @@ In the Security Exposure Management Workspace, on the List page, navigate to **E
 |Rejected|The **Assigned to** and  **Assignment group** fields of all the host vulnerable items are not updated.|
 
 In the **Activity stream** of a record or remediation task, you can view the entire workflow of your request.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)
 

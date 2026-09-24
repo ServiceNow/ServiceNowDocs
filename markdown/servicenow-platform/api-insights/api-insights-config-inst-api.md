@@ -3,11 +3,11 @@ title: Configure instance API import settings in API Insights
 description: Set options to import custom and ServiceNow APIs from your instance into the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-config-inst-api.html
-release: australia
+release: brazil
 product: API Insights
 classification: api-insights
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CMDB administrator tasks, Configure, API Insights, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Set options to import custom and ServiceNow APIs from your instance into the CMD
 
 ## Before you begin
 
-Configure the **Import ServiceNow API to API Insights** scheduled job to automatically import configured APIs from your ServiceNow instance into the API Insights workspace at regular intervals. For more information, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
+Configure the **Import ServiceNow API to API Insights** scheduled job to automatically import configured APIs from your ServiceNow instance into the API Insights workspace at regular intervals. For more information, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduledJobs.md).
 
 Role required: sn\_cmdb\_admin
 
@@ -39,8 +39,8 @@ Configure API import options to bring custom and ServiceNow APIs from your Servi
     |Option|Description|
     |------|-----------|
     |All custom APIs|Imports all custom-developed APIs within the instance.|
-    |ServiceNow APIs|Imports predefined ServiceNow APIs within the instance. [Learn more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-config-inst-api.md).|
-    |Active in last|Imports only APIs based on recent activity, available for scripted APIs only. [Learn more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-config-inst-api.md).|
+    |ServiceNow APIs|Imports predefined ServiceNow APIs within the instance. [Learn more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/api-insights/api-insights-config-inst-api.md).|
+    |Active in last|Imports only APIs based on recent activity, available for scripted APIs only. [Learn more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/api-insights/api-insights-config-inst-api.md).|
 
     -   If you select the **ServiceNow APIs** option, select **Select APIs** and then manage the APIs to import.
 

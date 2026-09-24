@@ -3,9 +3,9 @@ title: Security data filters
 description: Security data filters restrict access to records based on role, or security-attribute related assertions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-data-filters.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Access Management]
 ---
@@ -18,9 +18,9 @@ Security data filters restrict access to records based on role, or security-attr
 
 Security data filters enable access restriction to records based on a users' role, or other security attribute related assertions. Security data filters ensure only authorized users can view records regardless of how data is accessed.
 
-Security data filters are applied before a query is executed so restricted data never leaves the database. In contrast [conditional ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) filter data after a query is executed possibly leaking data.
+Security data filters are applied before a query is executed so restricted data never leaves the database. In contrast [conditional ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/access-control-rules.md) filter data after a query is executed possibly leaking data.
 
-**Note:** Pair security data filters with [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md) to ensure consistent security
+**Note:** Pair security data filters with [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control/acl-denial-behavior.md) to ensure consistent security
 
 ## Features of security data filters
 
@@ -28,12 +28,12 @@ The key features of security data filters are:
 
 -   Security data filters are applied in-query.
 -   Security data filter conditions `AND` to the query on the target table and with each other.
--   Security data filters are not checked by `canRead`. See [When to use security data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-data-filters.md) for more details
+-   Security data filters are not checked by `canRead`. See [When to use security data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-data-filters.md) for more details
 -   Data filter scoping rules are based on the scope of the table, data filters do not follow ScopeMaster or sys\_scope scope rules
 
 ## Security data filter application and enforcement
 
-Generally security data filters are applied after absolute ACLs \(also called table-level ACLs\), and after row ACLs. Security data filters are applied by default, and impact system behavior if not used carefully. See [Default security filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/default-security-filters.md) for a list of the default security data filters.
+Generally security data filters are applied after absolute ACLs \(also called table-level ACLs\), and after row ACLs. Security data filters are applied by default, and impact system behavior if not used carefully. See [Default security filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/default-security-filters.md) for a list of the default security data filters.
 
 Security data filters are applied only to GlideRecordSecure, GlideRecordSandbox and GlideAggregateSandbox queries by default. There are two new GlideRecord APIs `enableSecurityFeature` and `disableSecurityFeature` that can be used in both Java and server-side scripts to enable or disable data filters for a specific query.
 

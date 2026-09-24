@@ -3,11 +3,11 @@ title: Create and configure a profile for sightings search with the Microsoft De
 description: Create and configure the sightings search profile automatically using the Microsoft Defender for Endpoint.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-and-configure-profile-sightings-search-with-ms-defender.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

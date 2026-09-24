@@ -1,20 +1,20 @@
 ---
 title: Configure SAP to forward alerts to your BADI
-description: Configure SAP to forward alerts to the BADI \(Business Add-in\) you create for the SAP integration.
+description: Configure SAP to forward alerts to the BADI \(Business Add-in\) you create for the integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-sap-fwd-alerts-badi.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAP Solution Manager setup configurations, Enable SAP connector configurations, Configure SAP Solution Manager connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure SAP to forward alerts to your BADI
 
-Configure SAP to forward alerts to the BADI \(Business Add-in\) you create for the SAP integration.
+Configure SAP to forward alerts to the BADI \(Business Add-in\) you create for the integration.
 
 ## Before you begin
 
@@ -71,7 +71,7 @@ Third-party alerts get forwarded globally. You can configure the alert reaction 
 
 ## What to do next
 
-View alerts generated in SAP Solution Manager to see any pressing issues, as described in [View alerts in the SAP Solution Manager inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-view-alerts.md).
+View alerts generated in SAP Solution Manager to see any pressing issues, as described in [View alerts in the SAP Solution Manager inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/sap-view-alerts.md).
 
-**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-solman-configurations.md)
+**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/sap-solman-configurations.md)
 

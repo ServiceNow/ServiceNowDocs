@@ -3,9 +3,9 @@ title: Amazon Redshift metadata collector
 description: Amazon Redshift metadata collector provides read-only access to metadata from an Amazon Redshift database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/amazon-redshift-metadata-collector.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -86,10 +86,10 @@ The collector identifies: -   The associated column in an upstream view or table
 
 The collector supports username and password authentication to Redshift.
 
--   **[Prepare to run the Amazon Redshift collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-amazon-redshift-collector.md)**  
+-   **[Prepare to run the Amazon Redshift collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-amazon-redshift-collector.md)**  
 Create a Redshift user and configure permissions before running the collector.
--   **[Create an Amazon Redshift metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-amazon-redshift-metadata-collector.md)**  
+-   **[Create an Amazon Redshift metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-amazon-redshift-metadata-collector.md)**  
 Create a collector to import metadata from Amazon Redshift.
 
-**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

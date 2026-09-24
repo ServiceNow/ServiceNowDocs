@@ -3,11 +3,11 @@ title: Reduce resource cost with Commitments
 description: View the Reserved Instances \(RI\) report, implement recommendations, and configure processes to convert on-demand payment plans to reservation plans, and save the cost of your resources.Configure Commitments processes and specify the amount of potential savings that triggers notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/reserve-plan-using.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -80,9 +80,9 @@ Accept
 
 Google Cloud recommendations are updated periodically and might not show the latest suggestions until the console is manually refreshed. In contrast, Cloud Cost Management fetches recommendations via API, ensuring it has the most current data. This difference can sometimes cause Google Cloud RI recommendations in Cloud Cost Management to diverge from what's shown in the Google Cloud console. A manual refresh is required to see the latest recommendations.
 
-[Configure Commitments operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reserve-plan-using.md) by selecting **Settings**.
+[Configure Commitments operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/reserve-plan-using.md) by selecting **Settings**.
 
-**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 
 ## Configure Commitments operations
 
@@ -142,7 +142,7 @@ Do not recommend if savings are below threshold
 
 Minimum cost, as calculated over the Lookback period, to use when deciding whether to recommend a Commitment for a resource.
 
- For example, a setting of ¥100 means that the app should ignore any Commitments recommendation that would result in less than ¥100 in savings.
+ For example, a setting of ¥100 means that the app should ignore any Reservation/Saving plan recommendation that would result in less than ¥100 in savings.
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ Notify groups/Notify users
 
 </td><td>
 
-Users or groups to notify by email when the spend for potential reserved instance savings exceed the specified percentage of overall cloud spend. For information on configuring the email, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md).
+Users or groups to notify by email when the spend for potential reserved instance savings exceed the specified percentage of overall cloud spend. For information on configuring the email, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAnEmailTemplate.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

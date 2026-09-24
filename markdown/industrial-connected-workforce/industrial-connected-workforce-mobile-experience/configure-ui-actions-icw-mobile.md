@@ -3,11 +3,11 @@ title: Configure UI actions in the Now Mobile Agent application
 description: Enable or disable the desired UI actions to reduce the load on mobile devices. In some factory areas, the internet connection can be slow or unstable. To keep the app working smoothly, you can set it up to load only the most important information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-ui-actions-icw-mobile.html
-release: australia
+release: brazil
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Now Mobile Agent application, Set up the Industrial Connected Workforce Mobile Agent, Configure, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
@@ -31,5 +31,5 @@ Role required: sn\_icw.application\_admin
 4.  Set the **Active** field to false for the buttons that you want to disable in the Industrial Connected Workforce Mobile Experience mobile interface.
 
 
-**Parent Topic:**[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-now-mobile-agent-application-icw-mobile.md)
+**Parent Topic:**[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-now-mobile-agent-application-icw-mobile.md)
 

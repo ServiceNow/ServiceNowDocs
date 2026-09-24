@@ -3,9 +3,9 @@ title: Enable mobile universal linking
 description: Enable the universal linking option if you want a web banner displayed on specified pages of the ServiceNow platform website. By default the mobile universal linking option is not available in the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/universal-linking-enable.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Universal linking, Mobile URLs, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -45,7 +45,7 @@ Role required: admin
 
 After you have enabled the mobile universal linking feature, you can perform the following configuration:
 
-Define specific ServiceNow platform website pages to display the web banner, where the user does not have a specific mobile app installed. See, [Mobile universal linking for supported URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-linking-support-urls.md).
+Define specific ServiceNow platform website pages to display the web banner, where the user does not have a specific mobile app installed. See, [Mobile universal linking for supported URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/universal-linking-support-urls.md).
 
-**Parent Topic:**[Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/universal-links-mobile.md)
+**Parent Topic:**[Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/universal-links-mobile.md)
 

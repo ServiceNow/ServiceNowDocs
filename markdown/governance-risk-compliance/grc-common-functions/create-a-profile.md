@@ -3,11 +3,11 @@ title: Create independent entities
 description: Entities can be created manually, rather than generating them from the entity types. Entities can also be created without needing to refer to an existing ServiceNow table, like assets, applications, business services, or processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-a-profile.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Entity scoping, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -33,7 +33,7 @@ Role required:
     -   **Audit** &gt; **Scoping** &gt; **All Entities**.
 2.  Do one of the following actions
 
-<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d428181e123">
+<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d436100e123">
 
 **To create a new entity**
 
@@ -41,7 +41,7 @@ Role required:
 
 Click **New**.
 
-</td></tr><tr><td id="d428181e135">
+</td></tr><tr><td id="d436100e135">
 
 **To edit an entity**
 
@@ -219,5 +219,5 @@ The corresponding score for the calculated ALE:-   Low
 8.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Entity scoping in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/c_Scoping.md)
+**Parent Topic:**[Entity scoping in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/c_Scoping.md)
 

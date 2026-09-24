@@ -3,9 +3,9 @@ title: Set up Windows Server machine for high density robots
 description: Set up the environment for high density robots on a Windows Server machine by installing a Remote Desktop Session Host. Then, add robot user names who can connect to the machine. It enables them to establish Remote Desktop Protocol \(RDP\) connection to the Windows Server machine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/setup-windows-server-hdr.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Unattended Robot, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,11 +16,11 @@ Set up the environment for high density robots on a Windows Server machine by in
 
 ## Before you begin
 
-Familiarize yourself with high density robots concepts. For more information, see [High density robots in Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/high-density-robots-uat.md) and [High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/high-density-robots-rpa-hub.md).
+Familiarize yourself with high density robots concepts. For more information, see [High density robots in Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/high-density-robots-uat.md) and [High density robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/high-density-robots-rpa-hub.md).
 
 The Remote Desktop Session Host service requires a valid license.
 
-Ensure that you follow the hardware and software requirements. For more information, see [Requirements for Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/requirements-unattended-robot.md).
+Ensure that you follow the hardware and software requirements. For more information, see [Requirements for Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/requirements-unattended-robot.md).
 
 Role required: admin
 
@@ -69,9 +69,9 @@ Role required: admin
 
 Restart the Windows Server machine after the installation is complete.
 
-Enable the high density robot option in RPA Hub. For more information, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-unattended-robot.md).
+Enable the high density robot option in RPA Hub. For more information, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-unattended-robot.md).
 
-[Install Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-rpa-runtime.md).
+[Install Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-rpa-runtime.md).
 
-Add user profiles in the Unattended Robot application, so that multiple robots can execute jobs concurrently. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-runtime.md)
+Add user profiles in the Unattended Robot application, so that multiple robots can execute jobs concurrently. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-rpa-runtime.md)
 

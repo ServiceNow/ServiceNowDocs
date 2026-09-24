@@ -3,11 +3,11 @@ title: Domain separation in Request Management
 description: This is an overview of domain separation in Request Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/domain-sep-req-management.html
-release: australia
+release: brazil
 product: Request Management
 classification: request-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Request Management, IT Service Management]
 ---
@@ -25,15 +25,15 @@ This is an overview of domain separation in Request Management. Domain separatio
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Activation information
 
-The Domain Support - Domain Extensions Installer plugin \(com.glide.domain.msp\_extensions.installer\) should be activated to enable domain separation for Request Management. For information on how you can request for this plugin activation, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
+The Domain Support - Domain Extensions Installer plugin \(com.glide.domain.msp\_extensions.installer\) should be activated to enable domain separation for Request Management. For information on how you can request for this plugin activation, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ActivateDomainSeparation.md).
 
 ## How domain separation works in Request Management
 
-Fulfillers see only requests, requested items, and catalog tasks that have been created within the \(tenant\) domain for which the fulfiller has the visibility. For information on visibility in domain hierarchies, see [Visibility domains and Contains domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainVisibility.md).
+Fulfillers see only requests, requested items, and catalog tasks that have been created within the \(tenant\) domain for which the fulfiller has the visibility. For information on visibility in domain hierarchies, see [Visibility domains and Contains domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainVisibility.md).
 
 ## Domain separated tables
 
@@ -48,10 +48,10 @@ Fulfillers see only requests, requested items, and catalog tasks that have been 
 -   A fulfiller belonging to a specific domain can create requests only on behalf of the domains that they have access to.
 -   If a user has access to multiple domains, the domain specified on the current record drives the functionality of that record and reference fields.
 
-**Parent Topic:**[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-management-reference.md)
+**Parent Topic:**[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/request-management/request-management-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

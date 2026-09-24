@@ -3,9 +3,9 @@ title: Life-cycle stage statuses \(LLCS\) of a bot process in RPA Hub
 description: The State transition of a bot process guides you through the stages of its life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/lifecycle-stages-botprocess.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring a bot process record, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -55,10 +55,10 @@ Retired
 Bot process is inactive. After you retire a bot process, you cannot change the stage.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md)
+</table>**Parent Topic:**[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md)
 
 **Related topics**  
 
 
-[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md)
+[Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-botprocess.md)
 

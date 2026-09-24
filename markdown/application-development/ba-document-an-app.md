@@ -3,11 +3,11 @@ title: Document an application using Build Agent
 description: Generate documentation for the structure, tables, and UI components of an application. Build Agent reads the codebase and creates a README file describing the application architecture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ba-document-an-app.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Build Agent, document application, README, ServiceNow IDE, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [Build Agent, document application, README, ServiceNow IDE, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -46,5 +46,5 @@ Build Agent processes the application's codebase and produces a README file summ
 
 The README file is available in the File Explorer for review and distribution.
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-build-agent.md)
 

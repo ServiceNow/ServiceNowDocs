@@ -3,9 +3,9 @@ title: Set up work order synchronization in Care Team Operations for Facilities
 description: The Field Service Management \[com.snc.work\_management\] plugin is required for work order synchronization to function with Care Team Operations for Facilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-fsm-plugin.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Care Team Operations for Facilities, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ For Care Team Operations for Facilities to create work orders from Healthcare Fa
 
 This plugin provides all roles and features needed for the healthcare facilities case to synchronize with work orders.
 
-For information on fulfilling work orders, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_ManageWorkOrders.md).
+For information on fulfilling work orders, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/c_ManageWorkOrders.md).
 
 **If the Field Service Management \[com.snc.work\_management\] plugin isn’t installed:**
 

@@ -3,9 +3,9 @@ title: Collaborate with stakeholders by using the sidebar
 description: Initiate a discussion with internal and external stakeholders, such as sales agents, solution consultants, and subject matter experts using sidebar integration with Microsoft Teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-sidebars-teams.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -18,7 +18,7 @@ Initiate a discussion with internal and external stakeholders, such as sales age
 
 Role required: sales\_agent or sales\_manager
 
-Before using the sidebar integration, you must first complete configuring the sidebar integration with your opportunity. To learn more, see [Configuring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-sidebar.md).
+Before using the sidebar integration, you must first complete configuring the sidebar integration with your opportunity. To learn more, see [Configuring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-sidebar.md).
 
 ## Procedure
 
@@ -49,7 +49,7 @@ Make your collaboration more effective by sharing emojis, messages, and attachme
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md)
 

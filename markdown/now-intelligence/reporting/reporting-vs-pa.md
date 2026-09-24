@@ -3,11 +3,11 @@ title: Reporting compared to Performance Analytics
 description: Reporting and Performance Analytics are two distinct applications. They address different use cases and are complementary to each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/reporting-vs-pa.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -28,5 +28,5 @@ In addition to calculating trends from snapshots, Performance Analytics is able 
 -   Compare performance at different points in time.
 -   Accelerate time to value with best practice metrics.
 
-For more information on using Performance Analytics, see [Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_GetStartedwithPA.md).
+For more information on using Performance Analytics, see [Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_GetStartedwithPA.md).
 

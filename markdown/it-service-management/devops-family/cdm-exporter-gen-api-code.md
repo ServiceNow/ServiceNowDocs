@@ -3,11 +3,11 @@ title: Generate API invocation code for an exporter
 description: Generate sample code of an API invocation for an exporter. The code can invoke the exporter. Select from several commonly used languages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-exporter-gen-api-code.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Export a snapshot, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,13 +18,13 @@ Generate sample code of an API invocation for an exporter. The code can invoke t
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: cdm\_exporter\_editor or cdm\_editor or cdm\_admin
 
 ## Procedure
 
-1.  Prepare an exporter for execution as described in [Test an exporter and export a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-exporter-update-n-test.md).
+1.  Prepare an exporter for execution as described in [Test an exporter and export a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-exporter-update-n-test.md).
 
     **Tip:** Test the exporter to verify its operation.
 

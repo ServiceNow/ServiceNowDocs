@@ -3,9 +3,9 @@ title: Configure CRM Workspace
 description: Review the CRM Workspace available with Financial Services Operations applications to see if it meets your business needs. You can customize its components, if needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-csm-workspace-fso-apps.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
@@ -16,7 +16,7 @@ Review the CRM Workspace available with Financial Services Operations applicatio
 
 ## Before you begin
 
-Ensure that the scope is selected for the application that you are configuring for. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Ensure that the scope is selected for the application that you are configuring for. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
 
 Role required: Based on the application that you are configuring, you need the following roles:
 
@@ -35,6 +35,6 @@ Role required: Based on the application that you are configuring, you need the f
 
 -   Configure the CRM Workspace as per your requirements.
 
-    For more information on what you can configure, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-set-up.md).
+    For more information on what you can configure, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-set-up.md).
 
 

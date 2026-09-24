@@ -1,26 +1,26 @@
 ---
-title: Create a project using Agentic AI
-description: Create a project using Agentic AI data to understand any bottlenecks and inefficiencies caused when using agentic AI in your processes.
+title: Create a project using agentic AI
+description: Create a project using agentic AI data to understand any bottlenecks and inefficiencies caused when using agentic AI in your processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/project-agentic-ai.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
 
-# Create a project using Agentic AI
+# Create a project using agentic AI
 
-Create a project using Agentic AI data to understand any bottlenecks and inefficiencies caused when using agentic AI in your processes.
+Create a project using agentic AI data to understand any bottlenecks and inefficiencies caused when using agentic AI in your processes.
 
 ## Before you begin
 
 Role required: sn.aia.viewer, sn.aia.admin
 
-You must have the Agentic AI plugin installed.
+You must have the agentic AI plugin installed.
 
 ## Procedure
 
@@ -34,15 +34,15 @@ You must have the Agentic AI plugin installed.
 
 3.  Provide details on the Set objectives tab.
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d66813e100">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d67629e100">
 
 Field
 
-</th><th align="left" id="d66813e103">
+</th><th align="left" id="d67629e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d66813e109">
+</th></tr></thead><tbody><tr><td id="d67629e109">
 
 **Select type**
 
@@ -50,7 +50,7 @@ Description
 
 Select `Project`.
 
-</td></tr><tr><td id="d66813e121">
+</td></tr><tr><td id="d67629e121">
 
 **Name**
 
@@ -58,7 +58,7 @@ Select `Project`.
 
 Provide an intuitive name for the project that you’re creating.
 
-</td></tr><tr><td id="d66813e130">
+</td></tr><tr><td id="d67629e130">
 
 **Short description**
 
@@ -66,7 +66,7 @@ Provide an intuitive name for the project that you’re creating.
 
 Provide a short description for the project you’re creating.
 
-</td></tr><tr><td id="d66813e139">
+</td></tr><tr><td id="d67629e139">
 
 **Source Type**
 
@@ -74,7 +74,7 @@ Provide a short description for the project you’re creating.
 
 Select `Agentic AI data` from the list.
 
-</td></tr><tr><td id="d66813e152">
+</td></tr><tr><td id="d67629e152">
 
 **Table**
 
@@ -82,7 +82,7 @@ Select `Agentic AI data` from the list.
 
 This is auto-populated \(Execution Plan\).
 
-</td></tr><tr><td id="d66813e161">
+</td></tr><tr><td id="d67629e161">
 
 **Mark as restricted**
 
@@ -92,7 +92,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d66813e174">
+</td></tr><tr><td id="d67629e174">
 
 **Auto retire**
 
@@ -102,13 +102,13 @@ This field is available only if you choose the type as **Project**.
 
  Select the **Auto Retire** check box if you want to retire the project automatically based on inactivity for a specified number of days \(Default: 90 days\).
 
- You can extend the retirement by moving it back to published or draft state before the versions get cleaned in another 90 Days \(default\).
-
  If you don’t change the retired status within the specified days, the mined versions are permanently deleted. However, the project definition isn’t deleted. You can opt out of auto retirement by clearing this check box.
 
- The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
+ The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/data-cleanup.md).
 
-</td></tr><tr><td id="d66813e214">
+ **Note:** If a project has been automatically retired, you can remine it directly. Remining a retired project automatically sets its state to Draft if the project wasn't shared earlier, or to Published if it was shared. Previously, you had to open the project and manually change its state to Draft or Published before you could remine it.
+
+</td></tr><tr><td id="d67629e214">
 
 **Add a KPI dashboard**
 
@@ -116,13 +116,13 @@ This field is available only if you choose the type as **Project**.
 
 Select the check box if you want to add a KPI dashboard. You must then select a dashboard. If you want to create a dashboard, select the **New Dashboard** button. It automatically takes you to the Performance Analytics workspace.
 
-</td></tr><tr><td id="d66813e229">
+</td></tr><tr><td id="d67629e229">
 
 **Quick start**
 
 </td><td>
 
-The template for Agentic AI project is auto-selected.
+The template for agentic AI project is auto-selected.
 
 </td></tr></tbody>
 </table>4.  Select **Create project**.
@@ -131,12 +131,12 @@ The template for Agentic AI project is auto-selected.
 
     You will be taken to the **Review and mine** tab.
 
-    **Note:** You can go to any of the tabs and edit any information you want. No improvement opportunities are added by default. You can add if required. The touchpoint and idle-time metrics are grayed out for Agentic AI projects.
+    **Note:** You can go to any of the tabs and edit any information you want. No improvement opportunities are added by default. You can add if required. The touchpoint and idle-time metrics are grayed out for agentic AI projects.
 
-    After you mine your project, you cannot use the some analysis such as root cause analysis, work notes analysis, and clustering. Task mining is also not available for Agentic AI projects.
+    After you mine your project, you can't use the some analysis such as root cause analysis, work notes analysis, and clustering. Task Mining is also not available for agentic AI projects.
 
     \[Omitted image "agentic-ai-project.png"\] Alt text: Agentic AI project
 
 
-**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/use-process-mining.md)
 

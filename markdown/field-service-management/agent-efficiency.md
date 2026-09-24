@@ -3,9 +3,9 @@ title: Field Service Agent Efficiency
 description: Field Service Agent Efficiency helps optimize task assignment and scheduling for work order tasks by accurately calculating the work duration for a work order task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/agent-efficiency.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -31,7 +31,7 @@ Field Service Agent Efficiency provides the following benefits:
 **Related topics**  
 
 
-[Configuring Field Service Agent Efficiency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-agent-efficiency.md)
+[Configuring Field Service Agent Efficiency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configuring-agent-efficiency.md)
 
-[Field Service Agent Efficiency components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-agent-efficiency-components.md)
+[Field Service Agent Efficiency components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-agent-efficiency-components.md)
 

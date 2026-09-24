@@ -3,11 +3,11 @@ title: Add actions for a demand
 description: Add actions required to resolve an issue or risk for a demand based on your analysis of the risk or issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-actions-for-a-demand.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -38,7 +38,7 @@ Role required: it\_demand\_manager
 
 7.  On the Action form, fill in the fields.
 
-    For a description of the field values, see [Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/action-form-dw.md).
+    For a description of the field values, see [Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/action-form-dw.md).
 
 8.  Select **Save**.
 

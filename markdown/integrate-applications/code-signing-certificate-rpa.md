@@ -3,9 +3,9 @@ title: Obtaining client authentication and code signing certificates for RPA Hub
 description: Use mTLS authentication for client authentication and verify authenticity of the automation packages by generating a code signing certificate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/code-signing-certificate-rpa.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -27,14 +27,14 @@ Use mTLS authentication for client authentication and verify authenticity of the
     The code signing certificate is validated during the Unattended Robot and Attended Robot executions.
 
 
-If you set the **sn\_rpa\_fdn.code\_signing\_required** system property to true in the RPA Hub scoped application, a code signing certificate is required while publishing an automation project. For more information, see [Configure RPA Hub properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpahub-sys-properties.md) and [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-automation-project.md).
+If you set the **sn\_rpa\_fdn.code\_signing\_required** system property to true in the RPA Hub scoped application, a code signing certificate is required while publishing an automation project. For more information, see [Configure RPA Hub properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpahub-sys-properties.md) and [Publish an automation project in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/publish-automation-project.md).
 
 Explore the following topics to generate a client authentication and a code signing certificate.
 
--   **[Generating and installing user certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-user-certificates-rpa.md)**  
+-   **[Generating and installing user certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-user-certificates-rpa.md)**  
 You can generate and install a user certificate for client authentication and code signing in your Windows machine, if you have the admin role.
--   **[Exporting Microsoft Active Directory certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/export-certificates-rpa.md)**  
+-   **[Exporting Microsoft Active Directory certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/export-certificates-rpa.md)**  
 You can export Microsoft Active Directory certificates, such as root, intermediate, and a client authentication certificate, for authentication purposes. You then register the exported root and intermediate certificate in the ServiceNow instance and map the exported client authentication certificate to the user.
 
-**Parent Topic:**[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-main-landing-page.md)
+**Parent Topic:**[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-main-landing-page.md)
 

@@ -3,13 +3,13 @@ title: Search result disparities between AI Search and ServiceNow Otto search fe
 description: The ServiceNow AI Platform offers a variety of search tools, which may return different answers for the same or similar searches. This disparity in results is expected. It occurs because each tool uses a different approach and architecture to find results and generate answers that match your search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/search-disparities-ai-search-now-assist.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -39,7 +39,7 @@ The ServiceNow Otto Genius Result configurations offered in ServiceNow Otto for 
 
 The most relevant matching results are merged into a prompt that's sent to a large language model \(LLM\) for answer generation. Because LLMs aren't deterministic, they don't always produce the same output even when given the same input. As a result of the non-deterministic behavior of the LLM, ServiceNow Otto Genius Results are likely to return varying results for the same search, even when submitted at the same time.
 
-**Note:** For more information on how LLMs introduce variations into their results, see [Discrepancies when using different AI search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aisearch-differences.md).
+**Note:** For more information on how LLMs introduce variations into their results, see [Discrepancies when using different AI search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aisearch-differences.md).
 
 Between the non-deterministic LLM behavior and the difference in search matching modes, ServiceNow Otto Genius Result answers can be expected to vary significantly from results returned by AI Search for the same search terms, even when using the same search configuration in both tools. This variance is expected because the two search tools take such different approaches when finding and generating answers for your search.
 
@@ -51,7 +51,7 @@ Unlike those Genius Result configurations, however, ServiceNow Otto for Virtual 
 
 Because of this architectural difference, results from ServiceNow Otto for Virtual Agent searches can vary from those returned by ServiceNow Otto Genius Results, even when processing the same search and using the same search configuration. Similarly, ServiceNow Otto for Virtual Agent results may vary from the results returned by AI Search keyword searches.
 
-**Note:** If you're seeing different results for the same search in ServiceNow Otto for Virtual Agent than you are in AI Search and ServiceNow Otto Genius Results, it's worth checking that your ServiceNow Otto for Virtual Agent chat assistant uses the same search configuration as your portal's search field does. For details on copying an existing search configuration to a chat assistant, see [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/add-info-sources-assistant.md).
+**Note:** If you're seeing different results for the same search in ServiceNow Otto for Virtual Agent than you are in AI Search and ServiceNow Otto Genius Results, it's worth checking that your ServiceNow Otto for Virtual Agent chat assistant uses the same search configuration as your portal's search field does. For details on copying an existing search configuration to a chat assistant, see [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/add-info-sources-assistant.md).
 
 As previously described, using the same search configuration in the portal and your chat assistant doesn't guarantee that you will see exactly the same search results in ServiceNow Otto for Virtual Agent as you see in the portal using AI Search, but it does remove one possible source of difference.
 
@@ -65,30 +65,30 @@ The following table summarizes some of the key differences between AI Search, Se
 |ServiceNow Otto Genius Results|Hybrid \(blend of keyword and semantic vector\) search|Query-based \(search field\)|Most relevant search results sent to LLM in a single prompt for answer generation|
 |ServiceNow Otto for Virtual Agent|Hybrid \(blend of keyword and semantic vector\) search|Conversation-based \(chat\)|Agentic AI which maintains conversational context when submitting prompts to LLM|
 
-**Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-ais.md)
+**Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/explore-ais.md)
 
 **Related topics**  
 
 
-[Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/lemma-unicode-normalization-ais.md)
+[Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/lemma-unicode-normalization-ais.md)
 
-[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)
+[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/synonyms-ais.md)
 
-[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)
+[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/stop-words-ais.md)
 
-[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)
+[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/typo-handling-ais.md)
 
-[Machine learning relevancy in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/machine-learning-relevancy-ais.md)
+[Machine learning relevancy in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/machine-learning-relevancy-ais.md)
 
-[Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-search-ais.md)
+[Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/semantic-search-ais.md)
 
-[Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/hybrid-search-ais.md)
+[Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/hybrid-search-ais.md)
 
-[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)
+[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)
 
-[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
+[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
 
-[Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)
+[Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)
 
-[ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-va-landing.md)
+[bundle-convint.now-assist-in-va-landing]
 

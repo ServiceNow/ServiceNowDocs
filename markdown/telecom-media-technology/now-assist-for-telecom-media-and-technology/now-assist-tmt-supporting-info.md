@@ -3,11 +3,11 @@ title: Supporting information for ServiceNow Otto for Telecommunications, Media,
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-supporting-info.html
-release: australia
+release: brazil
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -34,7 +34,7 @@ ServiceNow Otto for TMT application includes the skills that are listed in the f
 
 </th></tr></thead><tbody><tr><td>
 
-CSM/FSM Configurable Workspace
+CRM Workspace
 
 </td><td>
 
@@ -87,5 +87,5 @@ Activate the applications in the following order:
 1.  Customer Service Problem Management
 2.  ServiceNow Otto for TMT
 
-For more information, see [Configuring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.md).
+For more information, see [Configuring ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.md).
 

@@ -3,11 +3,11 @@ title: Remove a badge from a user
 description: Remove a gamification badge from a community user if it is no longer relevant for that user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-remove-user-badge.html
-release: australia
+release: brazil
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Moderate gamification, Gamification, Using communities, Communities, Customer Service Management]
 ---
@@ -19,6 +19,10 @@ Remove a gamification badge from a community user if it is no longer relevant fo
 ## Before you begin
 
 Role required: sn\_gamification.moderator, sn\_gamification.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -33,5 +37,5 @@ Role required: sn\_gamification.moderator, sn\_gamification.admin
     The badge is removed for that user and is no longer visible on the community portal.
 
 
-**Parent Topic:**[Moderate gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-moderate.md)
+**Parent Topic:**[Moderate gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/communities/communities-gamification-moderate.md)
 

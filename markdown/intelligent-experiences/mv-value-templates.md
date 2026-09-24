@@ -3,11 +3,11 @@ title: Value templates
 description: Value templates define how the AI Control Tower calculates the productivity value of an AI system. Each template captures a persona, usage indicators, a time value type, and a quality score.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-value-templates.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
-breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Value templates
@@ -54,7 +54,7 @@ Two out-of-the-box indicators calculate time saved: one captures the read and wr
 
 When the time value type uses the quality score, the AI Control Tower reads the score from observability. Observability runs a performance evaluation for each AI agent and AI system against production data.
 
-The template elements combine into the productivity value using the following formula: **Productivity = Usage × Time Saved per invocation × Acceptance Rate**. The acceptance rate is the percentage of AI-generated outputs that end users accept, and it corresponds to the quality-score factor. It can be a constant, such as 50 percent, or a Performance Analytics \(PA\) indicator. For the full formula, the metric definitions, and a worked example, see [Value calculation formula and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mv-value-calculation-formula-metrics.md).
+The template elements combine into the productivity value using the following formula: **Productivity = Usage × Time Saved per invocation × Acceptance Rate**. The acceptance rate is the percentage of AI-generated outputs that end users accept, and it corresponds to the quality-score factor. It can be a constant, such as 50 percent, or a Performance Analytics \(PA\) indicator. For the full formula, the metric definitions, and a worked example, see [Value calculation formula and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mv-value-calculation-formula-metrics.md).
 
 ## The three metrics at a glance
 

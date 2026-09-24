@@ -3,11 +3,11 @@ title: Rubrik Cluster discovery
 description: Discovery uses multiple patterns to find all Rubrik cluster data. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/rubrik-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 18
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -35,7 +35,7 @@ Take note of the following limitations:
     -   Visibility Content
 -   **Configure Basic Auth permissions**
 
-    Configure Basic Auth credentials for a user with Read-Only Administrator role in Rubrik, and create a credential alias. For more information, see [Create a basic authentication credential alias for Rubrik discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-rubrik.md).
+    Configure Basic Auth credentials for a user with Read-Only Administrator role in Rubrik, and create a credential alias. For more information, see [Create a basic authentication credential alias for Rubrik discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-rubrik.md).
 
 -   **Verify MID Server can access target**
 
@@ -43,7 +43,7 @@ Take note of the following limitations:
 
 -   **Create a serverless discovery schedule**
 
-    Create a serverless discovery schedule to perform targeted discovery of Rubrik cluster resources. For more information, see [Create a serverless discovery schedule for Rubrik cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-rubrik.md).
+    Create a serverless discovery schedule to perform targeted discovery of Rubrik cluster resources. For more information, see [Create a serverless discovery schedule for Rubrik cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-rubrik.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -571,10 +571,10 @@ Take note of the following limitations:
     |Windows Server \[cmdb\_ci\_win\_server\]|Managed by::Manages|Rubrik Cluster \[cmdb\_ci\_rubrik\_cluster\]|
 
 
--   **[Create a basic authentication credential alias for Rubrik discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-rubrik.md)**  
+-   **[Create a basic authentication credential alias for Rubrik discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-rubrik.md)**  
 Create an alias and add it to a basic authentication credential to discover Rubrik clusters.
--   **[Create a serverless discovery schedule for Rubrik cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-rubrik.md)**  
+-   **[Create a serverless discovery schedule for Rubrik cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-rubrik.md)**  
 Set up a dedicated discovery schedule for each Rubrik cluster \(Brik\) to identify cluster resources using a serverless pattern and credential alias.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

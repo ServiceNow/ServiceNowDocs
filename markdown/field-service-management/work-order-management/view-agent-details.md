@@ -3,11 +3,11 @@ title: View an agent profile on the Field Service Contractor Portal
 description: As a manager of a contractor company, you can view the profile information of all the agents in your teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-agent-details.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---

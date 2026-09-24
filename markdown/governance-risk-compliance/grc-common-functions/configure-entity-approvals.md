@@ -3,11 +3,11 @@ title: Configure entity approvals
 description: Specify which types of entity changes require review before they take effect.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-entity-approvals.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity lifecycle management, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -47,5 +47,5 @@ Entity approvals can be configured for new, updated, or retired entities. When a
 
 Entity approvals are configured for the selected change types. When an entity change meets the configured condition, the system creates a change task on the **Impact approvals** page. Changes that don't meet the condition take effect without a change task.
 
-**Parent Topic:**[Entity lifecycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-change-management.md)
+**Parent Topic:**[Entity lifecycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entity-change-management.md)
 

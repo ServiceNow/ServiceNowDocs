@@ -3,11 +3,11 @@ title: Configure attribute value discrepancy in CMDB 360
 description: Configure attribute comparison settings in CMDB 360 to detect data inconsistencies across multiple discovery sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-attribute-value-discrepancy-in-cmdb-360.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Discrepancy and Reconciliation, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -52,7 +52,7 @@ You can use the configured attributes in the CMDB 360 query.
 **Related topics**  
 
 
-[Control CI attribute updates using Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/control-ci-attribute-updates-using-reconciliation-rules.md)
+[Control CI attribute updates using Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/control-ci-attribute-updates-using-reconciliation-rules.md)
 
-[Generate reports for attribute value discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/use-attribute-value-discrepancy-in-cmdb-360.md)
+[Generate reports for attribute value discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/use-attribute-value-discrepancy-in-cmdb-360.md)
 

@@ -3,9 +3,9 @@ title: ServiceNow Otto for Setup \(SPM\)
 description: ServiceNow Otto for Setup \(SPM\) centralizes administration of your Strategic Portfolio Management applications in one workspace. The console brings together setup items for Common configuration, Financials, Project and Demand Management, Strategic Planning and Portfolio Planning, and Enterprise-Wide Deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/spm-config-console-landing.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Strategic Portfolio Management]
 ---
@@ -18,15 +18,15 @@ ServiceNow Otto for Setup \(SPM\) centralizes administration of your Strategic P
 
 <table id="table_spm-config-console-landing-nav" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for Setup \(SPM\) and how it enables your SPM rollout.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for Setup \(SPM\) and how it enables your SPM rollout.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spm-config-console-explore.md)
 
 </td><td>
 
-[Access\[Omitted image "bus-sdlc.svg"\] Alt text:Open the console from the Admin Home page to start configuring SPM apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-access.md)
+[Access\[Omitted image "bus-sdlc.svg"\] Alt text:Open the console from the Admin Home page to start configuring SPM apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spm-config-console-access.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn the configuration modules the console provides for the per-application setup tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/spm-config-console-modules.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn the configuration modules the console provides for the per-application setup tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spm-config-console-modules.md)
 
 </td></tr></tbody>
 </table>## Helpful resources
@@ -56,7 +56,7 @@ Some ServiceNow resources that can provide helpful information:
 **Related topics**  
 
 
-[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)
+[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-landing.md)
 
-[Explore ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)
+[Explore ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-explore.md)
 

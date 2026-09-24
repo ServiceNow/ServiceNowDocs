@@ -3,13 +3,13 @@ title: Manage the status of your direct reports in Now Mobile
 description: Use the Now Mobile app to view the health status of your direct reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-for-mobile/mobile-view-health-status.html
-release: australia
+release: brazil
 product: Safe Workplace for mobile
 classification: safe-workplace-for-mobile
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Mobile experience for Emergency Response Management, Safe Workplace, Health and Safety, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Safe Workplace for mobile, Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
 # Manage the status of your direct reports in Now Mobile
@@ -18,7 +18,7 @@ Use the Now Mobile app to view the health status of your direct reports.
 
 ## Before you begin
 
-To access this content, you must have the [Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app. Your instance must have the [Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/emergency-self-report.md) application installed.
+To access this content, you must have the [Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app. Your instance must have the [Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/emergency-self-report/emergency-self-report.md) application installed.
 
 Role required: none
 
@@ -62,7 +62,11 @@ The employee record screen displays the following information:-   Use the contac
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 
-**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
+
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
+
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 

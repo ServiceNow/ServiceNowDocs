@@ -3,11 +3,11 @@ title: Unassigned incidents
 description: Use the Unassigned incidents applet to assign, reassign, edit or promote to a major incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/process-unassigned-incident.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing teams and incidents using My Team applet, ITSM Mobile Agent, IT Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: group manager
 
     The **Unassigned Incidents** screen opens with a list of incidents.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Unassigned incidents** screen with the list of incidents, swipe left on an incident to open the menu.
 
@@ -46,28 +46,28 @@ Role required: group manager
 
     \[Omitted image "unassigned-process.png"\] Alt text: Unassigned incident process
 
-<table id="choicetable_jl2_m2v_5jb"><thead><tr><th align="left" id="d473576e196">
+<table id="choicetable_jl2_m2v_5jb"><thead><tr><th align="left" id="d484830e196">
 
 Option
 
-</th><th align="left" id="d473576e199">
+</th><th align="left" id="d484830e199">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d473576e205">
+</th></tr></thead><tbody><tr><td id="d484830e205">
 
 **Details tab**
 
 </td><td>
 
 Choose one to continue. -   View the fields for details about the incident. The fields with an arrow have additional information.
--   At the top right of the screen, tap the menu icon \[Omitted image "mobile-top-menu.png"\] Alt text: mobile top menu to reassign, assign, edit or propose the incident as a major incident.
+-   At the top right of the screen, tap the menu icon \[Omitted image "mobile-top-menu.png"\] Alt text: mobile top menu icon to reassign, assign, edit or propose the incident as a major incident.
 -   Add any additional comments using the **Add comments** button.
--   Use the **Assign to me**button to assign the incident to yourself.
+-   Use the **Assign to me** button to assign the incident to yourself.
 -   Once assigned to you, resolve the incident after adding a resolution code and notes using the **Resolve** button.
 
 
-</td></tr><tr><td id="d473576e247">
+</td></tr><tr><td id="d484830e247">
 
 **Activity tab**
 
@@ -84,7 +84,7 @@ View the activity on the incident like field changes or assignment changes. Tap 
 6.  **Add Work Notes**: Add your work notes on the incident.
 
 
-</td></tr><tr><td id="d473576e301">
+</td></tr><tr><td id="d484830e301">
 
 **Related tab**
 
@@ -92,7 +92,7 @@ View the activity on the incident like field changes or assignment changes. Tap 
 
 View the related lists of the incident, such as, child incidents, task SLAs, impacted services and affected CIs. Tap on the arrow to view more details of these related items.
 
-</td></tr><tr><td id="d473576e310">
+</td></tr><tr><td id="d484830e310">
 
 **Calls**
 

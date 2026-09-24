@@ -3,11 +3,11 @@ title: Send SMS action
 description: Send an email-based SMS text message to specified users or groups using your instance email server. Recipients must have an SMS device configured to receive the message.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/send-sms-action.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -92,5 +92,5 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 |`No active SMS device was found for users(s) with sys_id(s): %s`|Appears when no SMS device is configured and found for one or more recipients.|
 |`Email sending is currently disabled. Please enable it via the property to send SMS using email gateway`|Appears when email sending is disabled.|
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

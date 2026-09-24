@@ -1,23 +1,23 @@
 ---
-title: Mobile Experience for Workforce Optimization for Customer Service
+title: Mobile experience for Workforce Optimization for Customer Service
 description: Manage customer service cases from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/wfo-configurable-mobile-interface.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Mobile Experience for Workforce Optimization for Customer Service
+# Mobile experience for Workforce Optimization for Customer Service
 
 Manage customer service cases from your mobile device with the Now Mobile Agent application. You can stay connected and access information in real time so that you can complete your tasks quickly.
 
-If you're an agent \(sn\_customerservice\_agent​\) or a manager \(sn\_wfo\_csm.manager\), you both can use real-time notifications from the application to take action on an issue. ​Before you can do so, you must activate the Customer Service Mobile Plugin \(com.sn\_csm\_mobile\). For more information about the Now Mobile for Customer Service Management, see [Mobile experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-mobile-interface.md)
+If you're an agent \(sn\_customerservice\_agent​\) or a manager \(sn\_wfo\_csm.manager\), you both can use real-time notifications from the application to take action on an issue. ​Before you can do so, you must activate the Customer Service Mobile Plugin \(com.sn\_csm\_mobile\). For more information about the Now Mobile for Customer Service Management, see [Mobile experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-mobile-interface.md)
 
--   To get started with this application, follow the instructions in [Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-customer-service-mobile-app.md).
--   You can learn about the agent and manager tasks that you can perform in [Use the mobile application to perform agent and manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-mobile-agent-mgr-task.md). Additionally, you can also perform the following tasks for Workforce Optimization for Customer Service.
+-   To get started with this application, follow the instructions in [Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/install-customer-service-mobile-app.md).
+-   You can learn about the agent and manager tasks that you can perform in [Use the mobile application to perform agent and manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-mobile-agent-mgr-task.md). Additionally, you can also perform the following tasks for Workforce Optimization for Customer Service.
 
 <table id="table_mnd_gzg_zlb"><thead><tr><th>
 
@@ -96,5 +96,5 @@ Tap the notification. The case record appears.
 Review the case record and take appropriate action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-configurable-wfo-cs.md)
+</table>**Parent Topic:**[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-configurable-wfo-cs.md)
 

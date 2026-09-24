@@ -3,9 +3,9 @@ title: Enable domain selection menus in Core UI
 description: Displaying the domain picker in Core UI enables the domain selector by default. After enabling the domain selector, you can add a system property to enable the domain reference picker.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_EnableDomainReferencePickerProperty.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use domain selection menus, Advanced administration, Setup and administration, Domain separation for service providers, Access Management]
 ---
@@ -43,7 +43,7 @@ Role required: admin
     The domain reference picker appears in Core UI header.
 
 
-**Parent Topic:**[Use domain selection menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DisplayingDomainSelectionMenus.md)
+**Parent Topic:**[Use domain selection menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DisplayingDomainSelectionMenus.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Advanced email properties
 description: Use advanced email properties to fine-tune the way your instance sends or receives email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_AdditionalProperties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Email properties, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -55,7 +55,7 @@ Add these properties to the System Property \[sys\_properties\] table before the
     -   Default value: false
 -   **__glide.email.append.timezone__**
 
-    Appends the user time zone to all date and time values in outbound email messages \(for example, 2018-07-02 04:01:14 PST\). The time zone does not show if the system property **glide.sys.time\_format** does not have a "z" value. For more information on configuring the time zone in email notifications, see [Time zone for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SpecifyingTheTimeZone.md).
+    Appends the user time zone to all date and time values in outbound email messages \(for example, 2018-07-02 04:01:14 PST\). The time zone does not show if the system property **glide.sys.time\_format** does not have a "z" value. For more information on configuring the time zone in email notifications, see [Time zone for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_SpecifyingTheTimeZone.md).
 
     -   Type: true \| false
     -   Default: false
@@ -84,7 +84,7 @@ Add these properties to the System Property \[sys\_properties\] table before the
 
     Prevents users from downloading and using virus-infected files that are attached to inbound emails.
 
-    The system detects infected files in an email by checking the ServiceNow virus header. If there are multiple email attachments, the system scans the files via [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/antivirus-protection.md). All attachments that are found to be infected are made unavailable for use.
+    The system detects infected files in an email by checking the ServiceNow virus header. If there are multiple email attachments, the system scans the files via [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/antivirus-protection.md). All attachments that are found to be infected are made unavailable for use.
 
     -   Type: true \| false
     -   Default value: true
@@ -156,7 +156,7 @@ Add these properties to the System Property \[sys\_properties\] table before the
 
     Prevents users from sending emails that contain virus-infected files.
 
-    If an outbound email contains an attachment that was previously marked as infected via [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/antivirus-protection.md), then the system doesn't send the email. An event is created to indicate that the email attachment is not available for use.
+    If an outbound email contains an attachment that was previously marked as infected via [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/antivirus-protection.md), then the system doesn't send the email. An event is created to indicate that the email attachment is not available for use.
 
     -   Type: true \| false
     -   Default value: true
@@ -425,7 +425,7 @@ Add these properties to the System Property \[sys\_properties\] table before the
     -   Type: true \| false
     -   Default value: false
 
-**Parent Topic:**[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailProperties.md)
+**Parent Topic:**[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailProperties.md)
 
 **Related topics**  
 

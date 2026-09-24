@@ -3,11 +3,11 @@ title: Creating or editing catalog item template
 description: Pre-specify values or provide restrictions for attributes such as catalogs, categories, variable types, and portal settings, which are applicable during the catalog item creation or editing process. You can create a template for a catalog item or record producer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -165,18 +165,18 @@ Review the template information and submit it.
     **Note:** You can’t delete a catalog item template in the catalog builder, but it can be deleted in ServiceNow AI Platform. After a template is deleted, it’s disassociated from all catalog items using the template and the restrictions no longer apply to those items.
 
 
--   **[Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md)**  
+-   **[Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md)**  
 Make an item available in service catalog for catalog item requests.
--   **[Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md)**  
+-   **[Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md)**  
 Specify a question that the requester should answer before submitting the catalog item.
--   **[Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-question-cat-builder.md)**  
+-   **[Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/edit-question-cat-builder.md)**  
 Edit an existing question if you want to improve it by adding UI policies.
--   **[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)**  
+-   **[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)**  
 Make changes to an existing catalog item if you have permissions to edit the item.
--   **[Transfer catalog items using update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/transfer-catalog-items-using-update-sets.md)**  
+-   **[Transfer catalog items using update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/transfer-catalog-items-using-update-sets.md)**  
 Transfer catalog items published through Catalog Builder from one instance to another easily by using update sets automatically created for the catalog item. For example, you can transfer catalog items created by a business user from a non-production to production instance.
--   **[Localization Framework integration with Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c-CB-LF-translation.md)**  
+-   **[Localization Framework integration with Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c-CB-LF-translation.md)**  
 The **Translation Status** tab in the Catalog items tab on the Catalog Builder dashboard enables you to view the translation status of catalog items, and translate catalog items on the fly using manual or machine translation methods.
 
-**Parent Topic:**[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder.md)
+**Parent Topic:**[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/catalog-builder.md)
 

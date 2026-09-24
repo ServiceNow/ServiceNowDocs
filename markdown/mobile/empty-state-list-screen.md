@@ -3,9 +3,9 @@ title: Configure an empty state for a list screen
 description: Configure an empty state to display on empty list screens, to provide information to further direct users. These features are configured in the web-based UI instead of in the Mobile App Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/empty-state-list-screen.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [List screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -16,7 +16,7 @@ Configure an empty state to display on empty list screens, to provide informatio
 
 ## Before you begin
 
-You should already have an empty state configured for list screens that do not contain any data. For more information, see [Configure an empty state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/empty-state-default.md).
+You should already have an empty state configured for list screens that do not contain any data. For more information, see [Configure an empty state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/empty-state-default.md).
 
 Role required: admin
 

@@ -1,18 +1,18 @@
 ---
-title: Create resource assignments in Resource Management Workspace
+title: Create resource assignments and operation resource assignments in Resource Management Workspace
 description: Create and assign resource assignments and operation resource assignments from Resource Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/create-ra-rmw.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create resource assignments in Resource Management Workspace
+# Create resource assignments and operation resource assignments in Resource Management Workspace
 
 Create and assign resource assignments and operation resource assignments from Resource Management Workspace.
 
@@ -28,15 +28,15 @@ Role required: resource\_user, resource\_manager, It\_project\_manager
 
 3.  Create resource assignments using one of the following options.
 
-<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d244306e98">
+<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d245304e98">
 
 Option
 
-</th><th align="left" id="d244306e101">
+</th><th align="left" id="d245304e101">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d244306e107">
+</th></tr></thead><tbody><tr><td id="d245304e107">
 
 **Create a resource assignment**
 
@@ -45,9 +45,9 @@ Procedure
 1.  Select **New** or select **New Resource Assignment** from the more actions list.
 2.  On the New Resource Assignment form, fill in the fields.
 
-For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-form-rmw.md).
+For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/create-ra-form-rmw.md).
 
-</td></tr><tr><td id="d244306e143">
+</td></tr><tr><td id="d245304e143">
 
 **Create operational resource assignment**
 
@@ -56,7 +56,7 @@ For a description of the field names, see [New Resource Assignment form](https:/
 1.  Select **New operational Assignment** from the more actions list.
 2.  On the New Operational Assignment form, fill in the fields.
 
-For a description of the field names, see [New Operational Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-op-ra-form-rmw.md).
+For a description of the field names, see [New Operational Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/create-op-ra-form-rmw.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -68,5 +68,5 @@ Resource assignment is created. You can filter and view this assignment in the l
 
 An assignment made for a resource from the resource board must be within the selected date range. If so, it shows up nested under the selected resource in real-time.
 
-**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/using-rmw.md)
 

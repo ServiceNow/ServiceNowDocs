@@ -3,13 +3,13 @@ title: View discovery models in workspace
 description: View a list of all the discovered software for your engineering applications in the Software Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/view-discovery-models-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [License Operation view for Software Asset Management Foundation plugin, Using Software Asset Management Foundation plugin workspace, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [License Operation view for Basic Software Asset Management, Using Basic Software Asset Management workspace, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # View discovery models in workspace
@@ -31,5 +31,5 @@ Role required: sam\_admin or sam\_user
     Clicking a record takes you to the Company page in the classic view.
 
 
-**Parent Topic:**[License Operation view for Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/license-operation-view-samf.md)
+**Parent Topic:**[License Operation view for Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/license-operation-view-samf.md)
 

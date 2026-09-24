@@ -3,11 +3,11 @@ title: Infoblox DDI activity pack
 description: This activity pack supports Infoblox DDI management through ServiceNow Orchestration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/c\_InfobloxDDIActivityPack.html
-release: australia
+release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,22 +27,22 @@ Supported for Infoblox:
 -   WAPI version 2.0 for REST messages
 -   NIOS appliance version 7.0
 
-**Note:** To use the Infoblox DDI activities and workflow, you must [request activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ActivateAnActivityPack.md) of the Orchestration - Infoblox DDI Activty Pack plugin.
+**Note:** To use the Infoblox DDI activities and workflow, you must [request activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_ActivateAnActivityPack.md) of the Orchestration - Infoblox DDI Activty Pack plugin.
 
--   **[Create a REST credential for Infoblox activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateRESTCredRecInfoBloxAct.md)**  
+-   **[Create a REST credential for Infoblox activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/t_CreateRESTCredRecInfoBloxAct.md)**  
 All Infoblox activities require a REST credential to manage IP addresses from the Infoblox DDI server.
--   **[Infoblox workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_InfobloxWorkflows.md)**  
+-   **[Infoblox workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/r_InfobloxWorkflows.md)**  
 The Infobox DDI activity pack includes two default workflows, one that reserves and registers IP addresses and another that releases IP addresses.
--   **[Infoblox roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/infoblox-roles-permissions.md)**  
+-   **[Infoblox roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/infoblox-roles-permissions.md)**  
 Define the roles and permissions that the Infoblox activities need to access the various resources on the Infoblox server.
--   **[Infoblox DHCP activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_InfobloxDHCPActivities.md)**  
+-   **[Infoblox DHCP activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_InfobloxDHCPActivities.md)**  
 The Infoblox DHCP activities manage the IP addresses reserved for DHCP in your network.
--   **[Infoblox DNS activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_InfobloxDNSActivities.md)**  
+-   **[Infoblox DNS activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_InfobloxDNSActivities.md)**  
 The Infoblox DNS activities manage DNS records in your network using an Infoblox DDI Grid Server.
--   **[Infoblox IPAM activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_InfobloxIPAMActivities.md)**  
+-   **[Infoblox IPAM activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_InfobloxIPAMActivities.md)**  
 The Infoblox IPAM activities manage IP addresses in your network using an Infoblox DDI Grid Server.
--   **[Infoblox network activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_InfobloxNetworkActivities.md)**  
+-   **[Infoblox network activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_InfobloxNetworkActivities.md)**  
 The Infoblox network activities manage networks using an Infoblox DDI Grid Server.
 
-**Parent Topic:**[Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md)
+**Parent Topic:**[Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md)
 

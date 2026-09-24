@@ -3,11 +3,11 @@ title: Use Playbook in Next Experience for Demand Management
 description: Use the default playbook or configure a custom one to capture required information for a demand and support governance processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/use-playbooks-in-dw.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ Role required: it\_demand\_user or it\_demand\_manager.
 
 A playbook defines the standard stages of a demand \(for example, Initiation, Planning, Execution, Monitoring, and Closure\) and includes activities or action items to complete at each stage.
 
-**Note:** This task describes how to use a playbook to manage demand information in a guided, stage-based workflow. To find out how to update demand information on the Details page of the demand record, see [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/update-the-demand-details-from-dw.md).
+**Note:** This task describes how to use a playbook to manage demand information in a guided, stage-based workflow. To find out how to update demand information on the Details page of the demand record, see [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/update-the-demand-details-from-dw.md).
 
 ## Procedure
 
@@ -56,9 +56,7 @@ A playbook defines the standard stages of a demand \(for example, Initiation, Pl
 **Related topics**  
 
 
-[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-agents-and-fulfillers.md)
+[bundle-crworkflow.playbook-agents-and-fulfillers]
 
-[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-reference.md)
-
-[Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/playbooks-in-demand-workspace.md)
+[Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/playbooks-in-demand-workspace.md)
 

@@ -3,11 +3,11 @@ title: Configuration Compliance calculators and calculator rules
 description: Configuration Compliance automate calculating initial values for the fields on test results. The condition for each calculator is evaluated in order, and the first matching calculator is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/config-compliance-calculator-rules.html
-release: australia
+release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [calculator rules for test results]
 breadcrumb: [Create a Configuration Compliance calculator group, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
@@ -47,7 +47,7 @@ By default, a base system **Default Risk Calculator** is provided. If you want t
 
 You can adjust the values to use in the Default Risk Rule and how much weight to give each of these values. Weights are used to adjust how much each element counts when setting the base Risk Score.
 
-Starting with Configuration Compliance version 13.0, you can customize the criteria for the default risk rule. For more information, see [Define fields and weights for the risk rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/define-fields-weights-risk-rule.md).
+Starting with Configuration Compliance version 13.0, you can customize the criteria for the default risk rule. For more information, see [Define fields and weights for the risk rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/configuration-compliance/define-fields-weights-risk-rule.md).
 
 ## Assigning a weightage percentage
 

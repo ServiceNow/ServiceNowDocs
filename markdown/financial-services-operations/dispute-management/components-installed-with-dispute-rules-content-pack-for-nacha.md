@@ -3,11 +3,11 @@ title: Components installed with Dispute Rules Content Pack for Nacha
 description: Several types of components are installed with Dispute Rules Content Pack for Nacha.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispute Rules Content Pack for Nacha reference, Dispute Rules Content Pack for Nacha, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -58,5 +58,5 @@ Dispute Rules Content Pack for Nacha includes 10 reason codes and the predefined
 |R37|Source Document Presented|60 days|Yes|
 |R39|Improper Source Document|2 banking days|No|
 
-**Parent Topic:**[Dispute Rules Content Pack for Nacha reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-reference.md)
+**Parent Topic:**[Dispute Rules Content Pack for Nacha reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-reference.md)
 

@@ -3,7 +3,7 @@ title: Assign user personas, roles, groups, and responsibilities in Investigativ
 description: By default, Investigative Case Management comes with roles, personas, and responsibilities that can be assigned to existing users on the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-icm-assign-user-roles-responsibilities.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-13"
 reading_time_minutes: 5
@@ -20,7 +20,7 @@ Assign roles to members of your investigative organization Investigative Case Ma
 
 There are a few guidelines for assigning roles to users:
 
--   Determine who will be working on the investigative cases for the organization, and what actions each user would be taking on the case. For more information on the roles available in Investigative Case Management and to determine which makes sense for each user, see [Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md) and [Investigative Case Management Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-icm-personas.md)
+-   Determine who will be working on the investigative cases for the organization, and what actions each user would be taking on the case. For more information on the roles available in Investigative Case Management and to determine which makes sense for each user, see [Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/roles-installed-with-public-sector-digital-services.md) and [Investigative Case Management Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-icm-personas.md)
 -   Create as many users as needed in your organization.
 
 Role required: admin
@@ -54,17 +54,17 @@ To delegate access to cases and create organizational teams, you can create assi
 8.  Add the desired roles to the group.
 9.  Select **Save**.
 
-For more information on the roles available in Investigative Case Management and to determine which makes sense for each user, see [Investigative Case Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md) and [Investigative Case Management Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-icm-personas.md)
+For more information on the roles available in Investigative Case Management and to determine which makes sense for each user, see [Investigative Case Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/roles-installed-with-public-sector-digital-services.md) and [Investigative Case Management Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-icm-personas.md)
 
 ## Responsibilities
 
-The following is a list of all responsibilities that are provided with the Investigative Case Management application by default. Responsibility definitions can be used to build teams of users in the Teams tab within the Investigative Case Management workspace. You can assign these using the dropdown menus on the Teams tab. For information on creating case teams, see [Create a case team for an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-create-case-team.md)
+The following is a list of all responsibilities that are provided with the Investigative Case Management application by default. Responsibility definitions can be used to build teams of users in the Teams tab within the Investigative Case Management workspace. You can assign these using the dropdown menus on the Teams tab. For information on creating case teams, see [Create a case team for an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-icm-create-case-team.md)
 
 Responsibilities are different than user roles; responsibilities are tied to the case only and determined at the case level. These can only be assigned once a case has been created. A user can have multiple responsibilities across cases, per case, and a user's responsibility within a case does not affect a user role.
 
 \[Omitted image "psds\_create\_team\_tab.png"\] Alt text: teams tab
 
-The following is a list of all responsibility definitions that are provided with the Investigative Case Management application by default. Responsibility definitions can be added and removed as needed using the responsibility definition table. For information on how to configure responsibility definitions, see [Configuring Investigative Case Management responsibility definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-create-responsibilities.md).
+The following is a list of all responsibility definitions that are provided with the Investigative Case Management application by default. Responsibility definitions can be added and removed as needed using the responsibility definition table. For information on how to configure responsibility definitions, see [Configuring Investigative Case Management responsibility definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-icm-create-responsibilities.md).
 
 |Responsibility| |
 |--------------|---|

@@ -3,9 +3,9 @@ title: Configure a record UI section
 description: Use the record UI section type to display records from a selected list as cards with important information. These cards enable users to access your record screens. Select how you want to represent this option visually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-ui-section-config-item.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Launcher screen UI sections, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -58,5 +58,5 @@ Role required: admin
 
 ## What to do next
 
-After creating record UI sections, you must add the UI sections to a launcher screen so they're displayed. For more information, see [Add a UI section to the launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/ui-section-to-launcher-screen.md).
+After creating record UI sections, you must add the UI sections to a launcher screen so they're displayed. For more information, see [Add a UI section to the launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/ui-section-to-launcher-screen.md).
 

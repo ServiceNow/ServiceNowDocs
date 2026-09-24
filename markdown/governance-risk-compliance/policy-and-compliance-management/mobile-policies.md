@@ -3,11 +3,11 @@ title: Process pending Policy and Compliance Management approval requests with t
 description: Approve or reject pending policy approval requests that are submitted to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/mobile-policies.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ Approve or reject a pending Policy and Compliance Management request from the li
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-login-P-C-app.md).
 
 2.  With the Policy and Compliance landing screen displayed, tap **Policies**.
 
@@ -38,7 +38,7 @@ Approve or reject a pending Policy and Compliance Management request from the li
 
     \[Omitted image "mobile-policy-list.png"\] Alt text: Policies list.
 
-3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
+3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
@@ -59,15 +59,15 @@ Approve or reject a pending Policy and Compliance Management request from the li
 
     \[Omitted image "mobile-policy-compl-policy-rcd.png"\] Alt text: Policy record details.
 
-<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d144141e242">
+<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d146055e242">
 
 Option
 
-</th><th align="left" id="d144141e245">
+</th><th align="left" id="d146055e245">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d144141e251">
+</th></tr></thead><tbody><tr><td id="d146055e251">
 
 **Details tab**
 
@@ -79,7 +79,7 @@ Choose one to continue.
 -   At the top right of the screen, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\) to approve or reject the policy approval request. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d144141e278">
+</td></tr><tr><td id="d146055e278">
 
 **Related List tab**
 
@@ -88,11 +88,11 @@ Choose one to continue.
 View the related lists.
 
  1.  Tap **Control Objectives** to view the items on the Control Objectives related list.
-2.  On the list that is displayed, tap an item to open the record and view more details. If there are multiple records, use the filter to [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md).
+2.  On the list that is displayed, tap an item to open the record and view more details. If there are multiple records, use the filter to [Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md).
 3.  After you review the details, navigate back to the Policy screen and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon\) to approve or reject the policy approval request. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d144141e321">
+</td></tr><tr><td id="d146055e321">
 
 **Screen icons at the bottom of the screen.**
 
@@ -107,5 +107,5 @@ On the bottom of the screen, choose one to continue.-   Tap the Policy and Compl
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
+**Parent Topic:**[Managing mobile experience for GRC Policy and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/mobile-policy_compliance-ovrvw.md)
 

@@ -3,9 +3,9 @@ title: Browser support
 description: Browser support varies for each version of the user interface \(UI\). Some features have additional browser requirements, which are noted in the appropriate documentation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/browser-support.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -122,19 +122,19 @@ Safari
 
 </td><td>
 
-Safari 17.5 and up
+Safari 18.2 and up
 
 </td><td>
 
-Safari 17.5 and up
+Safari 18.2 and up
 
 </td><td>
 
-Safari 17.5 and up
+Safari 18.2 and up
 
 </td><td>
 
-Safari 17.5 and up
+Safari 18.2 and up
 
 </td></tr><tr><td>
 
@@ -177,7 +177,7 @@ Not supported
 Latest version of iOS and SafariLatest version of Android and Chrome
 
 </td></tr></tbody>
-</table>\*Mobile phone browsers do not support the desktop version of the UI. Instead, mobile browsers use the [mobile UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-access-options.md).
+</table>\*Mobile phone browsers do not support the desktop version of the UI. Instead, mobile browsers use the [mobile UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-access-options.md).
 
 ## Firefox
 

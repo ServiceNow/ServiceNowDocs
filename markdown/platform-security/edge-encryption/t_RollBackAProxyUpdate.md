@@ -3,11 +3,11 @@ title: Roll back an Edge Encryption proxy server upgrade
 description: If a proxy upgrade is unsuccessful, you can go back to the earlier version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/t\_RollBackAProxyUpdate.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrading Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-If an upgrade fails when using the scheduled upgrade feature in the Australia release, the proxy server will automatically roll back to the old version. The old proxy server is stored unmodified in a backup directory.
+If an upgrade fails when using the scheduled upgrade feature in the Brazil release, the proxy server will automatically roll back to the old version. The old proxy server is stored unmodified in a backup directory.
 
 If you would like to roll back a manual upgrade, you can follow these steps.
 
@@ -41,5 +41,5 @@ If you would like to roll back a manual upgrade, you can follow these steps.
 5.  Check the proxy log and the instance to verify that the proxy is online.
 
 
-**Parent Topic:**[Upgrading Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_UpdateEdgeEncryptionProxy.md)
+**Parent Topic:**[Upgrading Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_UpdateEdgeEncryptionProxy.md)
 

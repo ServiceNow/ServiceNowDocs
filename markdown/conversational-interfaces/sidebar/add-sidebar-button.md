@@ -3,11 +3,11 @@ title: Adding the Discuss button
 description: To use Sidebar, you must add the Discuss button to assets that do not have it automatically installed and to custom workspaces where you must enable Sidebar on an asset. After you add the Discuss button, you can create Sidebar discussions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/add-sidebar-button.html
-release: australia
+release: brazil
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
@@ -91,7 +91,7 @@ You don’t need to add the **Discuss** button to these workspaces because it’
 
 ## What to do next
 
-If you want to enable Sidebar for non-task tables and add the Discuss button to the layout, see [Adding the Discuss button for non-task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/add-sidebar-button-advanced.md).
+If you want to enable Sidebar for non-task tables and add the Discuss button to the layout, see [Adding the Discuss button for non-task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/sidebar/add-sidebar-button-advanced.md).
 
-After you add the **Discuss** button, you must configure the activity stream. For more information, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/activity-stream-sidebar.md).
+After you add the **Discuss** button, you must configure the activity stream. For more information, see [Activity stream in Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/sidebar/activity-stream-sidebar.md).
 

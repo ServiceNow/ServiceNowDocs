@@ -3,20 +3,20 @@ title: Software Asset Management Guided Experiences
 description: The Software Asset Management Guided Experiences application provides step-by-step guidance for completing tasks in your daily software management activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management Guided Experiences
 
 The Software Asset Management Guided Experiences application provides step-by-step guidance for completing tasks in your daily software management activities.
 
-## Playbook overview
+## Entitlement Playbook overview
 
 A playbook takes a workflow and breaks it into multiple lanes. Each lane includes:
 
@@ -38,7 +38,7 @@ A playbook is divided into three parts:
 
 You can use the guided walk-through playbook for setting up entitlements. The guided walk-through playbook takes you step by step through each stage of the entitlement creation process, from initiation to completion.
 
-To access the Software Asset Management playbook, you must install it from the ServiceNow Store and then access the playbook from the landing page on the Software Asset Workspace.
+To access the Entitlement playbook, you must install it from the ServiceNow Store and then access the playbook from the landing page on the Software Asset Workspace.
 
 ## Using Guided Setup
 
@@ -72,7 +72,7 @@ Guided Setup provides a sequence of tasks that help you configure the following 
 
 **Microsoft 365 Guided Setup**
 
-Navigate to the [Microsoft 365 Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/integrate-with-microsoft.md) by either of the following ways:
+Navigate to the [Microsoft 365 Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/integrate-with-microsoft.md) by either of the following ways:
 
 -   Option 1
     1.  Navigate to **Workspaces** &gt; **Software Asset Workspace** &gt; **Success portal** &gt; **Product Setups**.
@@ -88,7 +88,7 @@ Navigate to the [Microsoft 365 Guided Setup](https://raw.githubusercontent.com/S
 
 **Adobe Cloud Guided Setup**
 
-You can use the Adobe Cloud Guided Setup to integrate your Software Asset Management application with Adobe Cloud to manage license compliance and optimization. For details, see [Adobe Cloud Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/adobe-cloud-integration.md).
+You can use the Adobe Cloud Guided Setup to integrate your Software Asset Management application with Adobe Cloud to manage license compliance and optimization. For details, see [Adobe Cloud Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/adobe-cloud-integration.md).
 
 Navigate to the Adobe Cloud Guided Setup using either of the following ways:
 
@@ -107,14 +107,14 @@ Navigate to the Adobe Cloud Guided Setup using either of the following ways:
         **Important:** You must complete the required tasks in the Guided Setup to move to the next task.
 
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 
 **Related topics**  
 
 
-[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
+[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
 
-[Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-integration-profile.md)
+[Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/create-integration-profile.md)
 
-[Software Asset Management publisher pack for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/adobe-publisher-pack.md)
+[Software Asset Management publisher pack for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/adobe-publisher-pack.md)
 

@@ -3,9 +3,9 @@ title: PostgreSQL connection security configuration fields
 description: Fields that appear under Connection security configurations on the New PostgreSQL Connection form when SSL is set to Enabled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/postgresql-connection-security-fields-zcc.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [PostgreSQL, SSL, connection security configurations, zero copy connector]
 breadcrumb: [Reference, Zero Copy Connectors, Workflow Data Fabric]
@@ -37,10 +37,10 @@ Fields that appear under Connection security configurations on the New PostgreSQ
 |Server Certificate Source: Custom CA|Truststore|File containing the certificate\(s\) used to verify the PostgreSQL server's identity. Required.|
 |Server Certificate Source: Custom CA|Truststore password|Password for the truststore file. Required when Store type is JKS or PKCS12; not required when Store type is PEM.|
 
-**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/reference-zcc.md)
+**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/reference-zcc.md)
 
 **Related topics**  
 
 
-[Create a PostgreSQL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-postgresql-connection-zcc.md)
+[Create a PostgreSQL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-postgresql-connection-zcc.md)
 

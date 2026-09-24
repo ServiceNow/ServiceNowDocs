@@ -3,9 +3,9 @@ title: Activate and configure third-party integrations
 description: You can activate the plugins for third-party integrations and configure them for use from the same screen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/install-config-3rd-party-integs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration Configurations, ServiceNow Security Operations integration development guidelines, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -36,14 +36,14 @@ Role required: sn\_sec\_cmn.admin
 
 3.  Select **Configure**.
 
-    **Note:** If you are configuring the Qualys Vulnerability Integration, see [Installation of Vulnerability Response and supported applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/cj-vr-setup.md).
+    **Note:** If you are configuring the Qualys Vulnerability Integration, see [Installation of Vulnerability Response and supported applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/cj-vr-setup.md).
 
 4.  Enter the **API Key**.
 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Security Operations Integration Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/third-party-integrations.md)
+**Parent Topic:**[Security Operations Integration Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/third-party-integrations.md)
 
 **Related topics**  
 

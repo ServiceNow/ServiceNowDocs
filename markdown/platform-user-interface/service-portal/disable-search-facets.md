@@ -3,11 +3,11 @@ title: Disable facets for a search source
 description: Disable facets for one or more search sources by adding a system property. Once disabled, the search source does not display search facets in the Faceted Search widget on the sp\_search page. You can disable facets for simple or advanced search sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/disable-search-facets.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -39,5 +39,5 @@ Role required: admin or sp\_admin
 
 Facets do not display when the defined search source is selected in the sp\_search page.
 
-**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
+**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
 

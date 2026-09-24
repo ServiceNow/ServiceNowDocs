@@ -3,9 +3,9 @@ title: Create a Work scheduler card using the Next Experience UI Builder
 description: Create a work scheduler card and add the components that you want to display based on your needs in the Work Scheduler application in manager workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-workscheduler-card-wfo-cs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up Work scheduler, Optimize workforce operations, Extend capabilities, Configure, Customer Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Setting up Work scheduler, Optimize workforce operations, Extend ca
 Create a work scheduler card and add the components that you want to display based on your needs in the Work Scheduler application in manager workspace.
 
 ## Before you begin
+
+**Important:**
+
+Starting with the Brazil release, Work scheduler is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
@@ -42,36 +46,36 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
     A new card is created.
 
-    **Important:** After you create the work scheduler card, you must select the name of this card in the **UX app route** field in the work configuration you have created. For information on setting up a work configuration, see [Set up a work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/setup-work-scheduler.md).
+    **Important:** After you create the work scheduler card, you must select the name of this card in the **UX app route** field in the work configuration you have created. For information on setting up a work configuration, see [Set up a work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/setup-work-scheduler.md).
 
 10. Select **Done**.
 
     Follow the steps listed in each of the topics below in the given sequence to customize Work scheduler.
 
 
--   **[Create a client state parameter for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-create-client-state-params-wfo-cs.md)**  
+-   **[Create a client state parameter for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-sched-create-client-state-params-wfo-cs.md)**  
 Add custom client state parameter values to add properties to the card components.
--   **[Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-create-page-scripts-wfo-cs.md)**  
+-   **[Create page scripts for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-sched-create-page-scripts-wfo-cs.md)**  
 Add custom page scripts for the Work scheduler so that you can update the client state through events or update transform workItem object to properties.
--   **[Define the workItem property in the Work scheduler page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-create-page-properties-wfo-cs.md)**  
+-   **[Define the workItem property in the Work scheduler page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-sched-create-page-properties-wfo-cs.md)**  
 Add the **workItem** property to the Work scheduler page configuration to receive the **workItem** object provided by the work queue.
--   **[Define event mappings for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-event-mapping-wfo-cs.md)**  
+-   **[Define event mappings for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-sched-event-mapping-wfo-cs.md)**  
 Add event mappings required for card interactions and for the card properties transformation to the page configurations in Work scheduler.
--   **[Configure container components for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-card-based-container-wfo-cs.md)**  
+-   **[Configure container components for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-sched-card-based-container-wfo-cs.md)**  
 Present information in an intuitive format using the Card Base Container component.
--   **[Configure a Work scheduler card heading component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-card-based-header-wfo-cs.md)**  
+-   **[Configure a Work scheduler card heading component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-sched-card-based-header-wfo-cs.md)**  
 Customize the Work scheduler heading component to display the title based on your needs.
--   **[Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-stacked-component-wfo-cs.md)**  
+-   **[Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-sched-stacked-component-wfo-cs.md)**  
 Add the **Label value stacked** display work item fields within the card.
--   **[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/work-sched-avatar-component-wfo-cs.md)**  
+-   **[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/work-sched-avatar-component-wfo-cs.md)**  
 Use the **Container** component to add an avatar and the user name of the work item assignee.
--   **[Associate a work scheduler card to the work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-card-config-wfo-cs.md)**  
+-   **[Associate a work scheduler card to the work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-card-config-wfo-cs.md)**  
 Associate the work scheduler card that you've created to the work configuration to display the card in the Work scheduler sidebar.
 
-**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
+**Parent Topic:**[Setting up Work scheduler in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-up-work-scheduler-wfo-cs.md)
 
 **Related topics**  
 
 
-[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md)
+[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-page.md)
 

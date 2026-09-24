@@ -3,13 +3,13 @@ title: Configure crawl settings for an Amazon S3 external content connector
 description: Define inclusion and exclusion filters to specify the buckets and file types you want your Amazon S3 external content connector to retrieve when running content crawls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-crawl-settings-amazon-s3-external-content-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ Define inclusion and exclusion filters to specify the buckets and file types you
 
 ## Before you begin
 
-A connector administrator must have already created the Amazon S3 external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-amazon-s3.md).
+A connector administrator must have already created the Amazon S3 external content connector that you want to configure crawl settings for. To learn about this procedure, see [Create an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-amazon-s3.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -57,7 +57,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
         As an example, you might enter `https://s3.amazonaws.com/published` to only include searchable content from a bucket with name `published`.
 
-    -   To crawl all but a specified set of buckets from the source system, select **Exclude only these user boxes**, then use the **Add S3 bucket URLs to exclude** field and **Add** button to enter URLs for buckets you want the connector to exclude when crawling.
+    -   To crawl all but a specified set of buckets from the source system, select **Exclude only these buckets**, then use the **Add S3 bucket URLs to exclude** field and **Add** button to enter URLs for buckets you want the connector to exclude when crawling.
 
         As an example, you might enter `https://s3.amazonaws.com/legacy_bucket` to exclude searchable content from a bucket with name `legacy_bucket`.
 
@@ -72,7 +72,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
         As an example, you might enter `.csv` to exclude attachments with the Comma-Separated Values \(CSV\) file format.
 
-    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
+    For details on the supported attachment file extensions, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
 
 6.  If you want AI Search to automatically generate captions for content in attachments and files retrieved by the connector, select the **Multimodal captions** option.
 
@@ -80,8 +80,8 @@ If one of your connectors reaches the content indexing limit, you can update its
 
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
-    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+    -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 7.  Select **Save and validate**.
 
 
@@ -93,7 +93,7 @@ The Amazon S3 external content connector is updated with your modified crawl set
 
 ## What to do next
 
-To retrieve content from your Amazon S3 source system using your modified crawl settings, create and run a one-time content crawl for your Amazon S3 external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
+To retrieve content from your Amazon S3 source system using your modified crawl settings, create and run a one-time content crawl for your Amazon S3 external content connector. To learn about creating and running one-time content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
 
-**Parent Topic:**[Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/amazon-s3-external-content-connector.md)
+**Parent Topic:**[Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/amazon-s3-external-content-connector.md)
 

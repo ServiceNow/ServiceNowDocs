@@ -3,11 +3,11 @@ title: Assign project risks to stakeholders for assessment
 description: Assign the project risks to the relevant stakeholder for assessment. You must manually assign the risks to the stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/assess-project-risk-using-ara.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project Risk Assessment using Advanced Risk Assessment, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ If the Project Risk integration Configuration form has **Stakeholders** selected
 
 2.  Select the project for risk assessment.
 
-    Ensure that risks for this project are present. See [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/add-risks-for-project.md).
+    Ensure that risks for this project are present. See [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/add-risks-for-project.md).
 
 3.  Click the Risks related list.
 
@@ -49,10 +49,10 @@ If the Project Risk integration Configuration form has **Stakeholders** selected
 
 The risk moves to the risk assessor's workflow.
 
-**Parent Topic:**[Project Risk Assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-and-ppm-better-together.md)
+**Parent Topic:**[Project Risk Assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-and-ppm-better-together.md)
 
 **Related topics**  
 
 
-[Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/specify-approvers-for-proj-risks.md)
+[Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/specify-approvers-for-proj-risks.md)
 

@@ -3,11 +3,11 @@ title: Generate labor costs
 description: Generate labor costs based on the planning attributes configured for financials in the planning attributes page for the resource assignments in a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/gen-cost-pln-prj-wrkspc.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,26 +18,26 @@ Generate labor costs based on the planning attributes configured for financials 
 
 ## Before you begin
 
--   Review the planning attributes enabled for financials. For more information, see [Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/planning-attributes.md).
+-   Review the planning attributes enabled for financials. For more information, see [Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/planning-attributes.md).
 -   Role required: it\_project\_manager
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **All** and select the required project.
 
-    Make sure that the resource assignments are finalized to generate cost plans. If there are no resource assignments for the project, migrate the resource plans to resource assignments. For more information, see [Migrate resource plans and cost plans to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md).
+    Make sure that the resource assignments are finalized to generate cost plans. If there are no resource assignments for the project, migrate the resource plans to resource assignments. For more information, see [Migrate resource plans and cost plans for projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md).
 
 2.  Generate labor costs using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d61396e108">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d60764e103">
 
 Choice
 
-</th><th align="left" id="d61396e111">
+</th><th align="left" id="d60764e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61396e117">
+</th></tr></thead><tbody><tr><td id="d60764e112">
 
 **Using link from Financials Summary view**
 
@@ -48,7 +48,7 @@ Description
 3.  Select **Generate Labor Costs**.
 
 
-</td></tr><tr><td id="d61396e150">
+</td></tr><tr><td id="d60764e145">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 
 Select the **Generate Labor Costs** related link.
 
-</td></tr><tr><td id="d61396e162">
+</td></tr><tr><td id="d60764e157">
 
 **Activate a scheduled job**
 
@@ -66,7 +66,7 @@ Select the **Generate Labor Costs** related link.
 2.  Filter the Name field to locate the **Generate labor costs for demands and projects** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
@@ -79,10 +79,10 @@ For a description of the field names, see [Scheduled Script Execution Form](http
 
 Attribute-based labor costs are created for the unique combination of attributes that are reflected as the name of the cost plans.
 
--   **[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)**  
+-   **[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)**  
 Activate and trigger a scheduled job to generate attribute-based labor costs for all the projects and demands at a required cadence.
 
-**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
@@ -104,6 +104,10 @@ Activate and trigger a scheduled job to generate attribute-based labor costs for
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 
@@ -131,7 +135,7 @@ Activate and trigger a scheduled job to generate attribute-based labor costs for
 
 [Migrate financial baselines of projects to Next Experience]()
 
-[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)
+[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)
 
-[Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md)
+[Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/scheduled-script-execution-form.md)
 

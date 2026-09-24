@@ -3,11 +3,11 @@ title: Change the default LLM for playbook generation
 description: Choose either the NowLLM/Mixtral model or OpenAI's GPT-4o as the default LLM to generate your playbooks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/change-default-llm-playbook-generation.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -42,5 +42,5 @@ Choose either the NowLLM/Mixtral model or OpenAI's GPT-4o as the default LLM to 
 
 Your default LLM has been changed.
 
-**Parent Topic:**[Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
+**Parent Topic:**[Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
 

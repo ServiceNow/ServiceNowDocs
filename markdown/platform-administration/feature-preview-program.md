@@ -3,9 +3,9 @@ title: Feature Preview Program
 description: The Feature Preview Program provides access to pre-release capabilities on your instance. You can activate, test, and provide feedback on individual features before they are generally available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/feature-preview-program.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -58,10 +58,10 @@ Feedback is an important part of the Feature Preview Program. When you test pre-
 
 You can activate or deactivate pre-release features from this page. After activating and testing a feature, provide feedback to the product team.
 
--   **[Activate a pre-release feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-prerelease-feature.md)**  
-Activate a pre-release feature on the instance so your users can try it out and provide feedback to the product team.
--   **[Deactivate a pre-release feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deactivate-prerelease-feature.md)**  
+-   **[Activate a pre-release feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/activate-prerelease-feature.md)**  
+ Activate a pre-release feature on the instance so your users can try it out and provide feedback to the product team.
+-   **[Deactivate a pre-release feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/deactivate-prerelease-feature.md)**  
 Deactivate a pre-release feature if it is not working as expected or if you no longer need the feature.
 
-**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/p_CoreConfigurationOverview.md)
 

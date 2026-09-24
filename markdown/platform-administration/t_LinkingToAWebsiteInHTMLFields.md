@@ -3,9 +3,9 @@ title: Link a website in HTML editor
 description: You can insert a link to a website in an HTML field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_LinkingToAWebsiteInHTMLFields.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Extended functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: the role necessary to update the record that contains the HTML fi
 
 1.  Move the cursor to the position where the link is to appear.
 
-2.  Select the insert/edit link icon in the HTML toolbar.
+2.  Select the insert/edit link icon \(\[Omitted image "TinyMCEV4Link.png"\] Alt text: Insert or edit link icon\) in the HTML toolbar.
 
 3.  Enter information in each field.
 

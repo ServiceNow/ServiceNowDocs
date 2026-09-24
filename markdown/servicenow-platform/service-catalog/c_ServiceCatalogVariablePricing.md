@@ -3,11 +3,11 @@ title: Using variables for price setup
 description: You can define a price for every service catalog item. The price or recurring price of a catalog item can be modified with variables, increasing the base price for that item.A reference variable includes a Pricing implications field.A lookup select box variable is more powerful than a reference variable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ServiceCatalogVariablePricing.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ You can define a price for every service catalog item. The price or recurring pr
 
 This pricing is useful if you want the price or recurring price dynamically calculated based on how a user completes the ordering form. For example, the cost of an item can be increased based on options the user selects, such as extra memory in a PC.
 
-The following [variable types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) can be configured to modify the total cost of an item:
+The following [variable types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) can be configured to modify the total cost of an item:
 
 -   Check box
 -   Multiple choice
@@ -31,7 +31,7 @@ The following [variable types](https://raw.githubusercontent.com/ServiceNow/Serv
 
 A check box variable helps to set the price or recurring price of the item being ordered.
 
-You can [Create a check box variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md) and set the price of the item. Use the **Price if checked** or **Recurring price if checked** field to specify the price or recurring price difference for that variable when the option is selected.
+You can [Create a check box variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md) and set the price of the item. Use the **Price if checked** or **Recurring price if checked** field to specify the price or recurring price difference for that variable when the option is selected.
 
 Under the **Type Specifications** tab, you can specify the price in different currency types. Also, you can configure the price in the following pricing models:
 
@@ -39,7 +39,7 @@ Under the **Type Specifications** tab, you can specify the price in different cu
 -   Fixed
 -   Multiple
 
-For information on the pricing models, see [Price fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/price-fields.md) .
+For information on the pricing models, see [Price fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/price-fields.md) .
 
 ## Multiple choice
 
@@ -50,7 +50,7 @@ For a multiple choice variable, there are two options for pricing.
 
 **Note:** Select boxes operate the same as multiple choice variables but are displayed as select boxes.
 
-**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 
 ## Reference
 
@@ -73,7 +73,7 @@ When ordering a computer, if **Phoenix** is selected as the location for this va
 
 A lookup select box variable is more powerful than a reference variable.
 
-Specify the following when [creating a lookup select box variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md):
+Specify the following when [creating a lookup select box variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md):
 
 -   **Lookup from table**: the table from which values are queried.
 -   **Lookup value field**: the field on the lookup table whose value is used as the value of the variable \(typically sys\_id\).

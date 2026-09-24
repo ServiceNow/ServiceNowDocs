@@ -3,11 +3,11 @@ title: Components installed with Feedback application
 description: Learn about several types of components installed with Feedback application in Strategic Planning such as user roles, tables, and, system properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/components-installed-with-product-feedback.html
-release: australia
+release: brazil
 product: Product Feedback
 classification: product-feedback
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Feedback in Strategic Planning, Strategic Planning, Stra
 
 Learn about several types of components installed with Feedback application in Strategic Planning such as user roles, tables, and, system properties.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Roles installed
 
@@ -135,7 +135,7 @@ sn\_apw\_advanced.product\_feedback\_allowed\_non\_planning\_items\_for\_link\_i
 
 </td><td>
 
-Specifies the non-planning items that can be linked to feedback or product idea. With the **sn\_apw\_advanced.product\_feedback\_allowed\_non\_planning\_items\_for\_link\_item** system property, you can link non-planning items such as incident, scrum tasks, agile stories, or items from safe application, agile development, PPM standard, or any global or scoped application tables to your feedback or product idea.
+Specifies the non-planning items that can be linked to feedback or a product idea. Use the **sn\_apw\_advanced.product\_feedback\_allowed\_non\_planning\_items\_for\_link\_item** system property to link items such as incidents, scrum tasks, and agile stories. You can also link items from safe application, agile development, PPM standard, or any global or scoped application tables.
 
 </td></tr><tr><td>
 
@@ -198,7 +198,7 @@ Specifies the maximum number of records displayed in the feedback or product ide
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>For more information on components installed with Strategic Planning, see [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md).
+</table>For more information on components installed with Strategic Planning, see [Components installed with Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/components-installed-with-alignment-planner-workspace.md).
 
-**Parent Topic:**[Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-feedback-reference.md)
+**Parent Topic:**[Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/product-feedback/product-feedback-reference.md)
 

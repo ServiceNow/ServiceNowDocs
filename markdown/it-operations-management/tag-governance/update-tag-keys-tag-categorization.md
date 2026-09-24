@@ -3,11 +3,11 @@ title: Add or delete tag keys for Tag Categorization
 description: Tag keys define the values available within a tag category. Add or delete tag keys to keep your tag categorization structure current as data management and classification requirements change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/update-tag-keys-tag-categorization.html
-release: australia
+release: brazil
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Tag keys define the values available within a tag category. Add or delete tag ke
 
 ## Before you begin
 
-Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
+Verify that you have installed version 1.16.3 of Service Mapping Plus to access to the CI tag category and CI tag key tables. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
 Role required: tag\_governance\_admin
 
@@ -36,15 +36,15 @@ Role required: tag\_governance\_admin
 
 4.  Under **CI tag keys**, either add a tag key or delete an existing tag key.
 
-<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d684366e139">
+<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d690133e139">
 
 Action
 
-</th><th align="left" id="d684366e142">
+</th><th align="left" id="d690133e142">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d684366e148">
+</th></tr></thead><tbody><tr><td id="d690133e148">
 
 **Add a tag key**
 
@@ -52,12 +52,12 @@ Steps
 
 1.  Double-click the empty row under **Tag key**, where you see **Insert a new row**.
 2.  In the field, add a key name.
-3.  Select the check mark icon \(\[Omitted image "icon-check-mark.png"\] Alt text: Check mark\) to save the tag key.
+3.  Select the check mark icon \(\[Omitted image "icon-check-mark.png"\]\) to save the tag key.
 4.  Repeat the previous steps to add more tag keys.
 5.  Select **Update** to save your changes.
 
 
-</td></tr><tr><td id="d684366e188">
+</td></tr><tr><td id="d690133e186">
 
 **Delete a tag key**
 

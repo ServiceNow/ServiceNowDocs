@@ -3,11 +3,11 @@ title: Create run level toggle mapping
 description: Create run level toggle mapping so that you can associate the system run level to the toggle level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/create-run-level-toggle-mapping.html
-release: australia
+release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational toggles, Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  On the Run Level Mapping form, fill in the fields.
 
-    For a description of the field values, see [Run level toggle mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/run-level-toggle-mapping-form.md).
+    For a description of the field values, see [Run level toggle mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/run-level-toggle-mapping-form.md).
 
 4.  Select **Submit**.
 

@@ -3,11 +3,11 @@ title: Configure a custom authentication algorithm
 description: Generate the custom data needed to authenticate to a web service by running script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/configure-a-custom-authentication-algorithm.html
-release: australia
+release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authentication Algorithms, Connections and Credentials, Access Management]
 ---

@@ -3,12 +3,12 @@ title: Additional resources for AI products and solutions
 description: If you’re looking for AI best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-additional-resources.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Additional resources, AI features, AI products, resource type, solutions, Now Assist, GenAI, Generative AI]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Enable AI Experiences]
 ---
 
 # Additional resources for AI products and solutions
@@ -37,7 +37,7 @@ Release Notes
 
 </td><td>
 
-[Now Assist AI Agents Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-ai-agents-rn.md).
+Now Assist AI Agents Release Notes.
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Glossary
 
 </td><td>
 
-[AI glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-glossary.md)
+[AI glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-glossary.md)
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Release notes
 
 </td><td>
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-control-tower-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-control-tower-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-control-tower-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-control-tower-rn.md)
 
 </td></tr><tr><td>
 
@@ -135,7 +135,7 @@ Release notes
 
 </td><td>
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/document-intelligence-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/document-intelligence-rn.md)
+
 
 </td></tr><tr><td>
 
@@ -277,7 +277,7 @@ Training
 
 </td></tr><tr><td>
 
-ServiceNow Otto
+Now Assist
 
 </td><td>
 
@@ -285,19 +285,33 @@ Release notes
 
 </td><td>
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn.md)
 
- [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-control-tower-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/ai-control-tower-rn.md)
 
- [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/content-understanding-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/content-understanding-rn.md)
+ 
 
- [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/generative-ai-controller-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/generative-ai-controller-rn.md)
+ 
 
- [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-creator-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-creator-rn.md)
+ 
+
+ 
+
+ 
+
+ [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-assist-for-itsm-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-assist-for-itsm-rn.md)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 
 </td></tr><tr><td>
 
-ServiceNow AI Platform and ServiceNow Otto
+Now Assist
 
 </td><td>
 
@@ -325,7 +339,7 @@ Getting started
 
 </td></tr><tr><td>
 
-ServiceNow AI Platform and ServiceNow Otto
+Now Assist
 
 </td><td>
 
@@ -339,7 +353,7 @@ Best practices
 
 </td></tr><tr><td>
 
-ServiceNow AI Platform and ServiceNow Otto
+Now Assist
 
 </td><td>
 
@@ -353,7 +367,7 @@ Tips and examples
 
 </td></tr><tr><td>
 
-ServiceNow AI Platform and ServiceNow Otto
+Now Assist
 
 </td><td>
 
@@ -369,7 +383,7 @@ FAQs
 
 </td></tr><tr><td>
 
-ServiceNow AI Platform and ServiceNow Otto
+Now Assist
 
 </td><td>
 
@@ -411,7 +425,7 @@ Release notes
 
 </td><td>
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/predictive-intelligence-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/predictive-intelligence-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/predictive-intelligence-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/predictive-intelligence-rn.md)
 
 </td></tr><tr><td>
 

@@ -3,11 +3,11 @@ title: Define or update a component
 description: Define or update a component while working in a changeset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-component-define.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Viewing and editing config data, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Define or update a component while working in a changeset.
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: cdm\_editor or cdm\_admin
 
@@ -36,15 +36,15 @@ Role required: cdm\_editor or cdm\_admin
 
 2.  To perform other actions, select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for a component and select the action, as follows.
 
-<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d454590e117">
+<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d464653e116">
 
 Selection
 
-</th><th align="left" id="d454590e120">
+</th><th align="left" id="d464653e119">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d454590e126">
+</th></tr></thead><tbody><tr><td id="d464653e125">
 
 **Create component**
 
@@ -52,7 +52,7 @@ Action
 
 Add a component as described above.
 
-</td></tr><tr><td id="d454590e135">
+</td></tr><tr><td id="d464653e134">
 
 **Create CDI**
 
@@ -65,7 +65,7 @@ Add an individual config data item \(CDI\) and value to the collection. See the 
 -   Overlay: A CDI that does not appear in any included component.
 
 
-</td></tr><tr><td id="d454590e162">
+</td></tr><tr><td id="d464653e161">
 
 **Include in collections**
 
@@ -75,7 +75,7 @@ Include the selected component in specified collections.In the Include in collec
 
  **Note:** Only collections that do not already include the component appear in the list.Inclusion of a node takes precedence over inheritance. If a node is both included and inherited, it is instead considered included.
 
-</td></tr><tr><td id="d454590e182">
+</td></tr><tr><td id="d464653e181">
 
 **Add file**
 
@@ -83,9 +83,9 @@ Include the selected component in specified collections.In the Include in collec
 
 Add a file as a file node.You can attach a MIME-type file with a maximum file size of 5 MB.
 
-For more information on adding files, see [Manage files using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md).
+For more information on adding files, see [Manage files using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md).
 
-</td></tr><tr><td id="d454590e206">
+</td></tr><tr><td id="d464653e205">
 
 **Exclude from inheritance**
 
@@ -95,7 +95,7 @@ Removes the inherited node and all child objects from the current collection.You
 
 Select **Include in inheritance** from the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) to stop excluding the node and re-add it to the changeset.
 
-</td></tr><tr><td id="d454590e237">
+</td></tr><tr><td id="d464653e236">
 
 **Rename**
 
@@ -103,7 +103,7 @@ Select **Include in inheritance** from the more actions icon \(\[Omitted image "
 
 Rename the selected component.
 
-</td></tr><tr><td id="d454590e246">
+</td></tr><tr><td id="d464653e245">
 
 **Delete**
 
@@ -111,7 +111,7 @@ Rename the selected component.
 
 Delete the selected component.
 
-</td></tr><tr><td id="d454590e255">
+</td></tr><tr><td id="d464653e254">
 
 **View relationships**
 
@@ -192,13 +192,13 @@ Option to specify that the value of the CDI should be encrypted. This option app
 **Related topics**  
 
 
-[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-variables-crud.md)
+[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-variables-crud.md)
 
-[Manage files using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md)
+[Manage files using file nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-manage-file-config-data-file-node.md)
 
-[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-model.md)
+[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-data-model.md)
 
-[Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-editing-config-data-changesets.md)
+[Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-editing-config-data-changesets.md)
 
-[How encrypted data is handled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-secrets-managing.md)
+[How encrypted data is handled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-secrets-managing.md)
 

@@ -3,11 +3,11 @@ title: Install the LDAP X.509 SSL certificate
 description: You can install an X.509 certificate for your LDAP integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_UploadTheX509SSLCertificate.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LDAP integration setup, LDAP integration, Authentication, Access Management]
 ---

@@ -3,11 +3,11 @@ title: Create a security incident from a TISC case
 description: Create security incidents and associate observables to the security incidents from a TISC case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-si-case.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -71,7 +71,7 @@ Role required: sn\_si\_basic
     -   A work notes is posted on the activity stream indicating that the security incident was successfully created from TISC case. This work notes also includes a link to the TISC case confirming that the selected observables have been associated with the security incident.
     -   In addition, you can also verify this by accessing the **Related Records** tab of the Security Incident Response Workspace and reviewing the observables entries under **Threat Intel** &gt; **Associated Observables**. From there, you can also view the associated observables under the **TISC Context** section. You may notice that the these observables have been directly associated from TISC.
 
-**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 

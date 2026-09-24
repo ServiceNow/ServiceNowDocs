@@ -3,11 +3,11 @@ title: Optimize a task route
 description: Get optimal routes to your task locations and use the task map to navigate to the location. You can view the location of tasks assigned to you for the current week and use the app to choose the optimal route to execute the tasks for the current day.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/optimize-task-route-mobile.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---

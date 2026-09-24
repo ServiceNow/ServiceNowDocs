@@ -3,9 +3,9 @@ title: Governing app development
 description: To deliver the most value with your custom applications, you must have the right governance in place. The ServiceNow App Engine Management Center and related features empower you to govern app development easily and efficiently in one centralized location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/governing-app-development.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Building applications]
 ---
@@ -79,5 +79,5 @@ Portfolio governance establishes the process for application intake and requests
 
 Once the relevant teams and stakeholders have determined an app governance model for your organization, you can use the App Engine Management Center to seamlessly implement your governance model at scale. The App Engine Management Center provides everything that you need to ensure that app development complies with your organization’s governance model. From managing intake requests for new applications, to testing and deploying custom applications across your enterprise environment, the App Engine Management Center enables scalable, efficient, and compliant custom app development within your organization.
 
-To learn more about the App Engine Management Center and start implementing your organization's governance model, see [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/app-engine-management-center.md).
+To learn more about the App Engine Management Center and start implementing your organization's governance model, see [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/app-engine-management-center.md).
 

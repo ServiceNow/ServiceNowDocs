@@ -3,11 +3,11 @@ title: Configure an optional activity for a playbook
 description: Configure optional playbook activities so that agents and fulfillers can insert activities during a playbook run. For example, a customer may want to schedule an optional activity such as making an appointment to visit a location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-optional-activity-for-a-case-type-playbook.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activities, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure Playbooks for Customer Service Management, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure an optional activity for a playbook
@@ -56,7 +56,7 @@ Although you can insert global optional activities anywhere in the playbook, you
 
     The values for the starting and ending states are derived from the value field of the sys\_choice table.
 
-    To create a custom state flow, see [Create a state flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAStateFlow.md). Ensure that the class of the state flow is “Customer Service Case Flow." You can also configure more declarative actions for the optional activity. For more information, see [Creating new declarative action assignments](https://www.servicenow.com/community/next-experience-articles/creating-new-declarative-action-assignments-in-the-sys/ta-p/2394930).
+    To create a custom state flow, see [Create a state flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAStateFlow.md). Ensure that the class of the state flow is “Customer Service Case Flow." You can also configure more declarative actions for the optional activity. For more information, see [Creating new declarative action assignments](https://www.servicenow.com/community/next-experience-articles/creating-new-declarative-action-assignments-in-the-sys/ta-p/2394930).
 
 12. Select **Done**.
 

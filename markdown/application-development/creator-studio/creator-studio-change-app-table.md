@@ -3,13 +3,13 @@ title: Change a Creator Studio app's table
 description: Change the table associated with an app if you want one that differs from the default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-change-app-table.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [An app's table, Administer, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [An app's table, Administer, Creator Studio, Developing your application, Building applications]
 ---
 
 # Change a Creator Studio app's table
@@ -18,7 +18,7 @@ Change the table associated with an app if you want one that differs from the de
 
 ## Before you begin
 
-**Note:** You should perform this task only if you did not change the table during Guided Setup. For more information, see [Configure the table for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/config-creator-studio-guided-setup.md).
+**Note:** You should perform this task only if you did not change the table during Guided Setup. For more information, see [Configure the table for Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/config-creator-studio-guided-setup.md).
 
 The app must already be created before you can change the table for it.
 
@@ -32,9 +32,9 @@ Some general guidelines for changing the table are:
 -   The request\_type field for the new table should have the label **Request type**, and it should be a reference to the Record Producer table.
 -   If the new table isn’t in the same scope as the app, the scope of the table must allow updates from other scopes.
 
-See [Changing the table for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-admin-app-table-about.md) for more information.
+See [Changing the table for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-admin-app-table-about.md) for more information.
 
-Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/granular-admin-roles.md).
 
 ## About this task
 
@@ -58,16 +58,16 @@ To ensure that forms and automations work, a general guideline is to change the 
 
     -   Selecting the **here** in the message "To edit the record click here."
     -   Selecting the application scope icon \[Omitted image "icon-scope-changed.png"\] and choosing the appropriate scope.
-    For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
+    For more information on scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md).
 
 5.  Enter the name of the table you want the app to write to in the **Request table** field.
 
-    The table should extend the Request Task table and have the **request\_type** field. For more details on what table you can use, see [Requirements for changing the table for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-admin-app-table-about.md).
+    The table should extend the Request Task table and have the **request\_type** field. For more details on what table you can use, see [Requirements for changing the table for an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-admin-app-table-about.md).
 
     \[Omitted image "crs-change-app-table2.png"\] Alt text: Request App Config form with Color field showing dropdown list of table options.
 
 6.  Select **Update** to save your changes.
 
 
-**Parent Topic:**[Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-admin-app-table.md)
+**Parent Topic:**[Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-admin-app-table.md)
 

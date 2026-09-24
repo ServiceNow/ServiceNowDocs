@@ -3,11 +3,11 @@ title: Working on callback records
 description: Use Workspace to work on callback records originating from Omnichannel Callback.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/omnichannel-callback/using-omnichannel-callback.html
-release: australia
+release: brazil
 product: Omnichannel Callback
 classification: omnichannel-callback
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Omnichannel Callback, Manage people and work, Conversational Interfaces]
 ---

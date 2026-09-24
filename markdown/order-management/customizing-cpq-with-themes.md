@@ -3,7 +3,7 @@ title: Customizing CPQ with themes
 description: Custom themes let you customize your layout. You can enable custom themes by submitting a feature enablement request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/customizing-cpq-with-themes.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

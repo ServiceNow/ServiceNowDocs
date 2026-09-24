@@ -3,11 +3,11 @@ title: Work on a debit approval case to complete a refund
 description: Work with your internal customer or bank to get the debit amount approved so that you can complete the claim refund.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/work-debit-approval-case-internal-refund.html
-release: australia
+release: brazil
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work on a claim with an internal refund, Managing payment claims and debit approvals, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -26,8 +26,8 @@ Role required: sn\_bom\_payment.claim\_agent or sn\_bom\_payment.claim\_agent\_c
 
 If there's a Customer or Consumer Service Portal available for customers, they get notification for the debit approval case on the portal from where they can choose to accept or reject the requested debit amount. If the debit customer accepts the debit amount, the debit approval case state automatically changes to Closed. For more information, see:
 
--   [View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-consumer-portal.md)
--   [Accept or reject a case solution from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resolve-cases-consumer-portal.md)
+-   [View a case from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-cases-consumer-portal.md)
+-   [Accept or reject a case solution from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/resolve-cases-consumer-portal.md)
 
 **Note:** To use the Consumer Service Portal, activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 
@@ -39,15 +39,15 @@ If there's a Customer or Consumer Service Portal available for customers, they g
 
 3.  Open the debit approval payment service case from a claim case or from the Debit Approvals list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d132786e110">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d135458e110">
 
 Option
 
-</th><th align="left" id="d132786e113">
+</th><th align="left" id="d135458e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d132786e119">
+</th></tr></thead><tbody><tr><td id="d135458e119">
 
 **From a claim case**
 
@@ -58,7 +58,7 @@ Steps
 3.  In the **Debit approval** field on the claim form, click the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon\) next to the debit approval case number.
 
 
-</td></tr><tr><td id="d132786e158">
+</td></tr><tr><td id="d135458e158">
 
 **From the Debit Approvals list**
 
@@ -89,7 +89,7 @@ Steps
 
 ## What to do next
 
-Update the claim case fields as required and [close the claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/close-claim-case.md).
+Update the claim case fields as required and [close the claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/close-claim-case.md).
 
-**Parent Topic:**[Work on a claim with an internal refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/work-claim-with-internal-refund.md)
+**Parent Topic:**[Work on a claim with an internal refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-payment-operations/work-claim-with-internal-refund.md)
 

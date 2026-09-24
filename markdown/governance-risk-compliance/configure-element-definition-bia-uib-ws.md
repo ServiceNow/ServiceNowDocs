@@ -3,9 +3,9 @@ title: Configure element definition
 description: Configure element definitions to identify the configuration item that has to be assessed in a business impact analysis and recovered in a business continuity plan. Use the Element Definitions module in the Business Continuity Management application navigator to configure an element definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-element-definition-bia-uib-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -22,13 +22,13 @@ Role required: sn\_bcm.admin
 
 Avoid creating overlapping element definitions where one asset could fit into multiple categories. Each element definition should be unique and not overlap with another. For instance, do not define both server and Linux server as separate element definitions since a Linux server is inherently a server. The BCM application is structured to use only one of these definitions, not both, ensuring that an element definition appears in only one category.
 
-To define Server and Linux Server as distinct element definitions without overlap, apply a filter to the Server element definition specifying that class is not Linux. This approach maintains mutual exclusivity between the two definitions.
+To define Server and Linux Server as distinct element definitions without overlap, apply a filter to the Server element definition. Specify that the class is not Linux. This approach maintains mutual exclusivity between the two definitions.
 
 If you select the Servers asset type as shown in the example and select **Add**, the configuration shows all the servers including Solaris, ESX, Windows, and so on.
 
 \[Omitted image "ele-def-server-type.png"\] Alt text: Server type.
 
-If you define the server element as a generic bucket, you can select any of the server types as shown in the example. The Servers asset type has a Linux server as a child item. However, a separate asset type called Linux server is available in the Asset types list.
+If you define the server element as a generic bucket, you can select any of the server types as shown in the example. The Servers asset type has a Linux server as a child item. However, a separate asset type called as Linux server is available in the Asset types list.
 
 \[Omitted image "ele-def-servers-allocation.png"\] Alt text: Servers list.
 
@@ -48,7 +48,7 @@ Starting with the Xanadu release, the element definition filter for the Hardware
 
 \[Omitted image "ele-def-hardware.png"\] Alt text: Hardware element definition.
 
-However, you can now add a Windows server asset in the Windows Server element definition or a Linux server asset in the Linux Server element definition.
+However, you can now add a Windows server asset in the Windows Server element definition. You can also add a Linux server asset in the Linux Server element definition.
 
 \[Omitted image "ele-def-linux-server-for-hardware.png"\] Alt text: Linux server element definition.\[Omitted image "ele-def-windows-server-for-hardware.png"\] Alt text: Windows server element definition.
 
@@ -66,13 +66,13 @@ However, you can now add a Windows server asset in the Windows Server element de
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/element-definition-record-form.md).
+    For more information on the fields in the form, see [Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/element-definition-record-form.md).
 
 4.  Select **Submit**.
 
 
--   **[Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/element-definition-record-form.md)**  
+-   **[Element definition record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/element-definition-record-form.md)**  
 Use the Element definition record form to configure a recovery tier with a set of business applications by using BCM UIB Workspace.
 
-**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

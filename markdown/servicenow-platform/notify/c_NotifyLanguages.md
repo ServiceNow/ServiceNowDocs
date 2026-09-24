@@ -3,11 +3,11 @@ title: Notify languages
 description: Notify supports multiple languages when using text-to-speech.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/c\_NotifyLanguages.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Notify workflow activities, Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,5 +20,5 @@ For example, when using the **input** or **say** workflow activities, you can sp
 
 The list of available languages is stored on the Notify Languages \[notify\_language\] table. By default, languages supported by all Notify telephony providers are available. You can add additional languages if they are supported by your specific telephony provider.
 
-**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyActivities.md)
+**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifyActivities.md)
 

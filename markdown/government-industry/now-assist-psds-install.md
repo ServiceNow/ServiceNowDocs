@@ -3,7 +3,7 @@ title: Install ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Install required plugins and enable ServiceNow Otto for Public Sector Digital Services \(PSDS\) to configure and use generative AI skills in Configurable Workspace, Playbooks, and Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-install.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -32,11 +32,11 @@ The following plug-ins and store apps are required for use of ServiceNow Otto fo
 
 Now LLM Service is currently the only provider for this application's skills.
 
-To get started with ServiceNow Otto, you must install at least one ServiceNow Otto application on your instance. The AI Admin Hub can guide your implementation, starting with installation. Use the AI Admin Hub console to configure ServiceNow Otto for Public Sector Digital Services \(PSDS\). This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md), and the [ServiceNow Otto Journey Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+To get started with ServiceNow Otto, you must install at least one ServiceNow Otto application on your instance. The AI Admin Hub can guide your implementation, starting with installation. Use the AI Admin Hub console to configure ServiceNow Otto for Public Sector Digital Services \(PSDS\). This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md), and the [ServiceNow Otto Journey Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
 
-For information about CRM Workspace, see . For information about AI agents, see [Install AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+For information about CRM Workspace, see [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-set-up.md). For information about AI agents, see [Install AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
-To access AI agents in the ServiceNow Otto panel, you must [turn on the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md) and ensure that case summarization is active.
+To access AI agents in the ServiceNow Otto panel, you must [turn on the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md) and ensure that case summarization is active.
 
 To install the ServiceNow Otto for PSDS plugin \(sn\_psds\_gen\_ai\), follow the procedure:
 
@@ -64,7 +64,7 @@ To install the ServiceNow Otto for PSDS plugin \(sn\_psds\_gen\_ai\), follow the
 
 8.  In the dialog box, select **Refresh**.
 
-    For more detailed information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more detailed information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
 ## Result
@@ -73,5 +73,5 @@ Your AI Admin Hub console is successfully configured with the necessary plug-ins
 
 ## What to do next
 
-[Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)or [Activate a ServiceNow Otto Skill.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configure-skill.md)
+[Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md)or [Activate a ServiceNow Otto Skill.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-configure-skill.md)
 

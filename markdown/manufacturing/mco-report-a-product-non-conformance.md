@@ -3,9 +3,9 @@ title: Report a product non-conformance
 description: The report a product non-conformance form enables you to add the issue details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-report-a-product-non-conformance.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
@@ -156,5 +156,5 @@ Additional comments and changes
 Additional notes, it any.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-qim-form.md)
 

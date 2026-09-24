@@ -3,7 +3,7 @@ title: Run remediation actions
 description: Run remediation actions automatically or trigger them manually from the Express List to speed up alert investigation and resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/run-remediation-actions.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
@@ -38,7 +38,7 @@ Role required: evt\_mgmt\_admin or evt\_team\_operator
 
 4.  Select **+Create automation**.
 
-5.  Follow the steps in [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
+5.  Follow the steps in [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 6.  To complete the setup, select **Mark as configured**.
 

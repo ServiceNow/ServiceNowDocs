@@ -3,11 +3,11 @@ title: Update a compliance case assessment template
 description: Publish a new version of an assessment template in Compliance Case Management to revise its questionnaire and response options.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/update-ccm-asmt-template.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [template versioning, publish template, smart assessment, Smart Assessment Engine, retire template]
 breadcrumb: [Configure, Compliance Case Management, Governance, Risk, and Compliance]
@@ -43,7 +43,7 @@ Only one version can be **Published** at a time, so all new assessments use the 
 
 6.  Edit the template.
 
-    For details about the template, see [Assessment Metric Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/assessment-metric-type-form.md).
+    For details about the template, see [Assessment Metric Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/assessment-metric-type-form.md).
 
 7.  Select **Save**.
 
@@ -60,10 +60,10 @@ Only one version can be **Published** at a time, so all new assessments use the 
 
 Any new assessment sent to the assessor uses the latest published version of the template.
 
-**Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
+**Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
 
 **Related topics**  
 
 
-[Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/ccm-create-assessment-template.md)
+[Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/ccm-create-assessment-template.md)
 

@@ -3,13 +3,13 @@ title: Review AI-extracted obligations in the Hardware Asset Workspace
 description: Use the contract playbook to review, edit, approve, or reject obligations automatically extracted from contract documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/review-extracted-obligation-ham.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-08-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage contract repository agentic workflow, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage contract repository agentic workflow, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Review AI-extracted obligations in the Hardware Asset Workspace
@@ -54,13 +54,13 @@ The Manage contract repository agentic workflow uses AI agents to extract key co
 
         **Note:** Complete all required fields before saving the changes or approving the obligation.
 
-        For a description of the field values, see [Obligation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-obligation-form.md).
+        For a description of the field values, see [Obligation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cncore-obligation-form.md).
 
     -   To save the changes, select **Save**.
     -   To approve the extracted obligation and add it as a record in the contract repository, select **Approve**.
     -   To reject the extracted obligation, select **Reject**.
 
-        After an obligation is rejected, it’s deactivated and can’t be reactivated again. To add an obligation later, you must create an obligation record manually. For more information, see [Create an obligation record in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-obligation-records-ham.md).
+        After an obligation is rejected, it’s deactivated and can’t be reactivated again. To add an obligation later, you must create an obligation record manually. For more information, see [Create an obligation record in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-obligation-records-ham.md).
 
 10. Repeat step 9 for all the extracted information.
 
@@ -77,7 +77,7 @@ The Manage contract repository agentic workflow uses AI agents to extract key co
 
 ## What to do next
 
-For obligations with an ad hoc schedule, create obligation tasks manually. For more information, see [Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
+For obligations with an ad hoc schedule, create obligation tasks manually. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
 
-**Parent Topic:**[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)
+**Parent Topic:**[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)
 

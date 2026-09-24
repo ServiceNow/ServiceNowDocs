@@ -3,9 +3,9 @@ title: Using UI policies
 description: UI policies dynamically change the behavior of information on a form and control custom process flows for tasks.Create a UI policy to define custom process flows for tasks.Create a UI policy to implement controls in the Incident form when the state changes to Resolved.Any scripts you create for UI policies run on the client side.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAUIPolicy.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -118,7 +118,7 @@ View \[Advanced view\]
 
 </td><td>
 
-Option for indicating which form view the UI policy applies to. This field is visible only if **Global** is not selected. If Global is not selected and the View field is left blank, the script applies the default view. For more information on form views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
+Option for indicating which form view the UI policy applies to. This field is visible only if **Global** is not selected. If Global is not selected and the View field is left blank, the script applies the default view. For more information on form views, see [View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/view-management-overview.md).
 
 </td></tr><tr><td>
 
@@ -271,7 +271,7 @@ Changes the form view to the default or advanced view. The fields change based o
 **Related topics**  
 
 
-[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md)
+[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/client-scripts.md)
 
 ## Example: creating a UI policy
 
@@ -339,5 +339,5 @@ alert('You changed the "Incident state" to Resolved. Please enter your comments 
 }
 ```
 
-Service catalog UI policies control the behavior of catalog item forms. Service catalog UI policies can be applied to a catalog item or a variable set. For more information about using UI policies for service catalog items, see [Service catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogUIPolicy.md)
+Service catalog UI policies control the behavior of catalog item forms. Service catalog UI policies can be applied to a catalog item or a variable set. For more information about using UI policies for service catalog items, see [Service catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogUIPolicy.md)
 

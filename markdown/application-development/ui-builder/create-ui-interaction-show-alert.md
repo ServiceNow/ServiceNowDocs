@@ -3,11 +3,11 @@ title: Create a UI interaction
 description: Create a UI interaction and attach it to a component event in UI Builder. UI interactions are reusable flows that combine UI, logic, and scripts into a single unit, including custom UI built with Component Builder, and can be triggered from any component event on a page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/create-ui-interaction-show-alert.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [UI interactions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -66,7 +66,7 @@ In this task, you create a UI interaction and define its behavior using the diag
 
 10. Repeat steps 7–9 to build out your interaction.
 
-    Steps execute in sequence. To run steps in parallel, select the **And** step to create parallel branches. Each branch represents a separate path of steps and executes in order from top to bottom. To create conditional paths, add an **If/Else** step from the toolbox. This step creates branches that run when conditions are met. For more information, see [Edit an existing UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-ui-interaction.md).
+    Steps execute in sequence. To run steps in parallel, select the **And** step to create parallel branches. Each branch represents a separate path of steps and executes in order from top to bottom. To create conditional paths, add an **If/Else** step from the toolbox. This step creates branches that run when conditions are met. For more information, see [Edit an existing UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/edit-ui-interaction.md).
 
 11. Use the Inputs pill to add any data your interaction needs at runtime.
 
@@ -77,9 +77,9 @@ In this task, you create a UI interaction and define its behavior using the diag
 
 ## Result
 
-The UI interaction is created and ready to be attached to a component or page event. Once attached, it runs its configured steps whenever the specified event occurs. See [Trigger a UI interaction from a page event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/trigger-ui-interaction-from-page-event.md).
+The UI interaction is created and ready to be attached to a component or page event. Once attached, it runs its configured steps whenever the specified event occurs. See [Trigger a UI interaction from a page event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/trigger-ui-interaction-from-page-event.md).
 
-To trigger this UI interaction from a form or list button using a declarative action, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md).
+To trigger this UI interaction from a form or list button using a declarative action, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-da-ui-interactions.md).
 
-**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md)
+**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/uib-ui-interactions.md)
 

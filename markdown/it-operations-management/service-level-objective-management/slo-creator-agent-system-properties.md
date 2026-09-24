@@ -3,13 +3,13 @@ title: SLO creator agent system properties
 description: Configure how the SLO creator agent generates and activates SLOs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/slo-creator-agent-system-properties.html
-release: australia
+release: brazil
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -17,7 +17,7 @@ breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM 
 
 Configure how the SLO creator agent generates and activates SLOs.
 
-To turn automatic SLO generation on or off and manage email notifications for generated SLOs, see [Manage SLO creator agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-manage-generated-slos.md).
+To turn automatic SLO generation on or off and manage email notifications for generated SLOs, see [Manage SLO creator agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/now-assist-itom-manage-generated-slos.md).
 
 **Note:** Property changes apply only to newly generated SLOs. Existing SLOs aren't recalculated.
 
@@ -121,5 +121,5 @@ To turn automatic SLO generation on or off and manage email notifications for ge
     Use a shorter window to focus on recent conditions. Use a longer window to account for severe incidents that occur less frequently.
 
 
-**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
+**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

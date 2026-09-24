@@ -3,11 +3,11 @@ title: Assign groups to a persona
 description: Assign one or more groups to a persona so that all group members can access the remote catalog items linked to that persona. When group membership changes, access is updated automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/se-assign-groups-persona.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personas for consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---

@@ -3,11 +3,11 @@ title: MPN Formula Engine processing
 description: The Formula Engine processes raw KPI formulas and stores the result in the Formatted KPI Formula field when a record is inserted or updated in the MPN Formulas \[sn\_tsom\_em\_conns\_kpi\_definitions\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formula-engine.html
-release: australia
+release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Performance management: Metric collection, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
@@ -33,5 +33,5 @@ The resulting value is written to the **Formatted KPI Formula** field and is the
 **Related topics**  
 
 
-[MPN Formulas table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formulas-table.md)
+[MPN Formulas table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/nokia-mpn-formulas-table.md)
 

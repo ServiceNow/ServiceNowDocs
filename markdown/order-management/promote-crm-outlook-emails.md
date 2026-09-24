@@ -3,9 +3,9 @@ title: Configure email promotion rules for Activity Management
 description: Configure email promotion rules to automatically process staged emails for manual association through the ServiceNow CRM for Outlook add-in or to trigger AI-powered auto-association with existing sales entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/promote-crm-outlook-emails.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -161,7 +161,7 @@ Staged emails that meet the specified conditions are processed according to the 
 **Related topics**  
 
 
-[Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md)
+[Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_BusinessRules.md)
 
-[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md)
+[Track emails linked from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/view-associated-emails-crm.md)
 

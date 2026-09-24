@@ -3,11 +3,11 @@ title: Create a test
 description: Create a test to see if your features are working correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_CreateATest.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tests, Setting up the manual testing process, Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Create a test to see if your features are working correctly.
 
 ## Before you begin
 
--   [Create a test case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateANewTestCase.md).
+-   [Create a test case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_CreateANewTestCase.md).
 -   Role required: tm\_test\_manager or tm\_tester
 
 ## Procedure
@@ -96,7 +96,7 @@ Description of what is being tested.
 
 ## What to do next
 
-You can create a copy of this test by clicking the **Create Duplicate** related link. For more information, see [Create a copy of an existing test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CopyATest.md).
+You can create a copy of this test by clicking the **Create Duplicate** related link. For more information, see [Create a copy of an existing test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/t_CopyATest.md).
 
-**Parent Topic:**[Tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_Tests.md)
+**Parent Topic:**[Tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/test-management/c_Tests.md)
 

@@ -3,9 +3,9 @@ title: Related records list widget
 description: When viewing a case on the Customer or Consumer Service Portal, external users can see other records associated with the case in the Related Records list widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-related-records-list-widget.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable external customers to access problem, change, and request records, Setting up CSM integration with IT Service Management, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---

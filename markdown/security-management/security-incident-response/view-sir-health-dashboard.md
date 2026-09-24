@@ -3,11 +3,11 @@ title: View Security Incident Response Health dashboard
 description: Security Incident Response Health dashboard feature provides a centralized view of critical aspects related to incident response process implementation, issues/errors encountered, and performance metrics. It serves as a vital tool for monitoring and optimizing the effectiveness of an organization's security incident response capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-sir-health-dashboard.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [View SIR Workspace Dashboards, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

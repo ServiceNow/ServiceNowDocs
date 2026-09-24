@@ -3,11 +3,11 @@ title: Retire a sandbox
 description: Retire sandboxes that are outdated or no longer needed to make room for new Developer Sandboxes in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/retire-sandboxes.html
-release: australia
+release: brazil
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administering, Developer Sandboxes, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Retire sandboxes that are outdated or no longer needed to make room for new Deve
 
 ## Before you begin
 
-Save your work, for example commit it to source control or export update sets.
+Save your work, for example commit it to source control or export update sets. For more information, see [Update sets transfer between sandboxes and base instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-update-sets.md).
 
 Role required: admin or sandbox\_manager
 
@@ -45,5 +45,7 @@ You should manually retire sandboxes when your work is complete to maintain a he
 
 ## Result
 
-After it's retired, the sandbox is no longer available for use. However, you can allocate new sandboxes as needed. For more information, see [Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/allocating-sandboxes.md).
+After it's retired, the sandbox is no longer available for use. However, you can allocate new sandboxes as needed. For more information, see [Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/allocating-sandboxes.md).
+
+The update set sources associated with the sandbox are automatically removed during retirement. The source on the base instance pointing to the sandbox is deleted, and the source on the sandbox is dropped along with the rest of the sandbox data. No manual cleanup is needed.
 

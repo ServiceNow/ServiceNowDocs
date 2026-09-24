@@ -3,11 +3,11 @@ title: Managing Network Intrusion Detection System appliances
 description: If you have the cmdb\_nids\_admin or admin role, you can assign metadata attributes to Network Intrusion Detection System \(NIDS\) class records from the NIDS menu in the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/managing\_network\_intrusion\_detection\_system\_nids\_appliances.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Operational Technology Manager, Operational Technology]
 ---
@@ -20,7 +20,7 @@ A Network Intrusion Detection System helps manage the import of IT and OT device
 
 **Note:** Manual creation for an NIDS record in the table is restricted from the list view or the form view of the records.
 
-For more information about the NIDS class records, see [Network Intrusion Detection System \(NIDS\) CI extension class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-network-ids-nids-ci-extension-class.md).
+For more information about the NIDS class records, see [Network Intrusion Detection System \(NIDS\) CI extension class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-network-ids-nids-ci-extension-class.md).
 
 If a NIDS record has the Validated field set to true, then when any of the following attributes of the NIDS are changed on the NIDS form, a warning message is displayed.
 
@@ -34,7 +34,7 @@ You can use the Network Intrusion Detection Systems \(NIDS\) Guided Setup to lea
 
 -   Configuring users and roles for users that do not already have an account in an instance
 -   Importing NIDS records from Operational Technology \(OT\) Certified Service Graph Connectors to designate if NIDS appliances are running on OT or IT networks
--   Validating NIDS so that detected devices can be imported. For more information about validating NIDS, see [Validate the NIDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/validate-nids.md).
+-   Validating NIDS so that detected devices can be imported. For more information about validating NIDS, see [Validate the NIDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/validate-nids.md).
 
 To access the NIDS Guided Setup, navigate to **Network Intrusion Detection Systems \(NIDS\)** &gt; **NIDS Guided Setup**.
 
@@ -43,19 +43,19 @@ To assign an appliance as a manager for NIDS sensors that detect devices, naviga
 -   Review the Sensors list to ensure that there is not currently a device assigned as manager.
 -   For any devices that do not function as sensors, change **is manager** to **True**.
 
-For information about the `NIDSUtils` script include that copies NIDS-assigned meta data to detected devices, see [Script includes installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/script_includes_installed_with_operational_technology_manager.md).
+For information about the `NIDSUtils` script include that copies NIDS-assigned meta data to detected devices, see [Script includes installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/script_includes_installed_with_operational_technology_manager.md).
 
--   **[Validate the NIDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/validate-nids.md)**  
+-   **[Validate the NIDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/validate-nids.md)**  
 Validate the NIDS to import the devices from the ETL that were detected by the sensor. The sensors can only pass the validation if they aren't in learning mode as such sensors aren't eligible for device import.
--   **[Validate multiple NIDS sensors at once](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/bulk-validation-nids.md)**  
+-   **[Validate multiple NIDS sensors at once](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/bulk-validation-nids.md)**  
 Validate multiple NIDS sensors at once through a bulk validation so that you can edit your records more quickly and efficiently.
 
-**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 
 **Related topics**  
 
 
-[Network Intrusion Detection System \(NIDS\) CI extension class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-network-ids-nids-ci-extension-class.md)
+[Network Intrusion Detection System \(NIDS\) CI extension class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-network-ids-nids-ci-extension-class.md)
 
-[Script includes installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/script_includes_installed_with_operational_technology_manager.md)
+[Script includes installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/script_includes_installed_with_operational_technology_manager.md)
 

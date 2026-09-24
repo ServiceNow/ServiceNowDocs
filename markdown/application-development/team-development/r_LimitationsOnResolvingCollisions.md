@@ -3,11 +3,11 @@ title: Limitations on updating records
 description: There are some types of records that you cannot merge while resolving differences on the Compare to Current and Resolve Collision pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/r\_LimitationsOnResolvingCollisions.html
-release: australia
+release: brazil
 product: Team Development
 classification: team-development
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Team Development, Planning your application, Building applications]
 ---
@@ -124,5 +124,5 @@ The following field types do not support individual merging between versions or 
 **Related topics**  
 
 
-[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_ResolveACollision.md)
+[Resolve a collision in Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/team-development/t_ResolveACollision.md)
 

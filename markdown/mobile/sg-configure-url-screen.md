@@ -3,9 +3,9 @@ title: Configure a mobile web screen
 description: Use a mobile web screen to open a URL from within a ServiceNow mobile application. You can configure relative URLs to open pages within the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-configure-url-screen.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile web screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 Starting with the Zurich release, end-users whose mobile web screen session expires due to session timeouts, device locking, or app backgrounding are automatically logged back into their session when they return to the web screen in their mobile app.
 
-This feature works by default for all service portal pages but requires configuration for UXF pages. To enable this feature on UXF pages, admins must add the mobile app bridge as a data source to the page in UI Builder. For more information on how to do this, please refer to Steps 1-4 in [Add a button to your mobile web screen that launches Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobwebscreen-add-button-virtagent.md).
+This feature works by default for all service portal pages but requires configuration for UXF pages. To enable this feature on UXF pages, admins must add the mobile app bridge as a data source to the page in UI Builder. For more information on how to do this, please refer to Steps 1-4 in [Add a button to your mobile web screen that launches Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobwebscreen-add-button-virtagent.md).
 
 ## Procedure
 
@@ -78,7 +78,7 @@ Fetch type
 
 </td><td>
 
-Fetch type settings determine when data is loaded in screens. Change your fetch type to optimize load time performance for your screens.Select either `Prefetch`, `On-demand`, `Background`, or `Dynamic prefetch` as required according to your setup. For more information about these options, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/applet-fetch-types.md).
+Fetch type settings determine when data is loaded in screens. Change your fetch type to optimize load time performance for your screens.Select either `Prefetch`, `On-demand`, `Background`, or `Dynamic prefetch` as required according to your setup. For more information about these options, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/applet-fetch-types.md).
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ URL
 
 The URL you want to send the user to.
 
- **Note:** To add the URL for a Now Experience Framework page, which leverages the Mobile App Bridge for playbooks, see [Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-playbooks.md).
+ **Note:** To add the URL for a Now Experience Framework page, which leverages the Mobile App Bridge for playbooks, see [Configure mobile web screens with Mobile App Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/configure-mobile-playbooks.md).
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Determine which user roles can access this screen. If you have selected no roles
 
 ## What to do next
 
-If you want to further customize your mobile web screen, see [Add a button to your mobile web screen that launches Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobwebscreen-add-button-virtagent.md).
+If you want to further customize your mobile web screen, see [Add a button to your mobile web screen that launches Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobwebscreen-add-button-virtagent.md).
 
-**Parent Topic:**[Mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/url-screen.md)
+**Parent Topic:**[Mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/url-screen.md)
 

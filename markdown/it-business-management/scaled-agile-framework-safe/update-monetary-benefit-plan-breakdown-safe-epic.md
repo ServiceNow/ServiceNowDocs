@@ -3,11 +3,11 @@ title: Update a monetary benefit plan breakdown for an epic
 description: Update a monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/update-monetary-benefit-plan-breakdown-safe-epic.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a monetary benefit plan for an epic, Define an epic in SAFe, SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ Role required: safe\_product\_owner, safe\_scrum\_master, or safe\_admin
 
 8.  On the Monetary Benefit Plan Breakdown form, view and update the enabled fields.
 
-<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d278030e125">
+<table id="choicetable_os3_4p1_dcb"><thead><tr><th align="left" id="d279151e125">
 
 Field
 
-</th><th align="left" id="d278030e128">
+</th><th align="left" id="d279151e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d278030e134">
+</th></tr></thead><tbody><tr><td id="d279151e134">
 
 **Task**
 
@@ -54,7 +54,7 @@ Description
 
 Task to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d278030e143">
+</td></tr><tr><td id="d279151e143">
 
 **Portfolio**
 
@@ -62,7 +62,7 @@ Task to which the benefit plan breakdown belongs.
 
 Portfolio to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d278030e152">
+</td></tr><tr><td id="d279151e152">
 
 **Entered currency**
 
@@ -70,7 +70,7 @@ Portfolio to which the benefit plan breakdown belongs.
 
 Currency specified in the benefit plan.
 
-</td></tr><tr><td id="d278030e161">
+</td></tr><tr><td id="d279151e161">
 
 **Exchange rate**
 
@@ -78,7 +78,7 @@ Currency specified in the benefit plan.
 
 Rate in effect for the period corresponding to the benefit plan breakdown. When the period corresponding to the benefit plan break down has multiple rates, the rate in effect on the first date of that period is used. Exchange rate is used to convert the entered benefit into the functional benefit. It is obtained from the itfm\_fx\_rate \[budget\_reference\_rates\] table.
 
-</td></tr><tr><td id="d278030e174">
+</td></tr><tr><td id="d279151e174">
 
 **Actual benefit**
 
@@ -86,7 +86,7 @@ Rate in effect for the period corresponding to the benefit plan breakdown. When 
 
 Actual benefit that is incurred from the epic.
 
-</td></tr><tr><td id="d278030e183">
+</td></tr><tr><td id="d279151e183">
 
 **Benefit plan**
 
@@ -94,15 +94,15 @@ Actual benefit that is incurred from the epic.
 
 Benefit plan to which the benefit plan breakdown belongs.
 
-</td></tr><tr><td id="d278030e192">
+</td></tr><tr><td id="d279151e192">
 
 **Fiscal period**
 
 </td><td>
 
-Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FiscalCalendar.md).
+Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_FiscalCalendar.md).
 
-</td></tr><tr><td id="d278030e205">
+</td></tr><tr><td id="d279151e205">
 
 **Entered benefit**
 
@@ -110,7 +110,7 @@ Fiscals generated at the period level. For information on periods, see [fiscal c
 
 Benefit in entered currency.
 
-</td></tr><tr><td id="d278030e214">
+</td></tr><tr><td id="d279151e214">
 
 **Functional benefit**
 
@@ -118,7 +118,7 @@ Benefit in entered currency.
 
 Functional benefit obtained by multiplying the exchange rate with the entered benefit.
 
-</td></tr><tr><td id="d278030e223">
+</td></tr><tr><td id="d279151e223">
 
 **Exchange rate date**
 
@@ -130,5 +130,5 @@ First date of the fiscal period corresponding to the benefit plan breakdown.
 </table>9.  Click **Update**.
 
 
-**Parent Topic:**[Create a monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-monetary-benefit-plan-safe-epic.md)
+**Parent Topic:**[Create a monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-monetary-benefit-plan-safe-epic.md)
 

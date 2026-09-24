@@ -3,11 +3,11 @@ title: Service Graph Connector for Splunk add-on
 description: Import more detailed asset data with the Service Graph Connector for Splunk with an add-on developed by ServiceNow engineering. The add-on permits you to import data about your Windows and Linux assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-splunk-add-on.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Splunk, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

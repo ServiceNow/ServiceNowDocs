@@ -3,9 +3,9 @@ title: Configuring Transfer capabilities
 description: This step in the simulator doesn't display if you didn't select Transfer capability. Any value configured in the Phone directory, in the Set Idle State capabilities step, reflects in the Transfer list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-transfer-capability.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
@@ -39,7 +39,7 @@ This step lets you set up transfer options for agents, queues, external numbers,
 
 ## What to do next
 
-Select the phone icon in the header to view your configured voice control features in the Global call and Active call windows. See [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md) for call control feature definitions.
+Select the phone icon in the header to view your configured voice control features in the Global call and Active call windows. See [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md) for call control feature definitions.
 
-Continue to the final step in the simulation to [Adding participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-participants.md).
+Continue to the final step in the simulation to [Adding participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/adding-participants.md).
 

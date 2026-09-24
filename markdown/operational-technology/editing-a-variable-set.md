@@ -3,9 +3,9 @@ title: Edit a Variable set
 description: Edit a Variable set for an Auto Query scan created in the Discovery Console for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/editing-a-variable-set.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Variables page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -49,5 +49,5 @@ Role required: admin
     \[Omitted image "encrypted-passwords.png"\] Alt text: Encrypted values
 
 
-**Parent Topic:**[Variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/variables.md)
+**Parent Topic:**[Variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/variables.md)
 

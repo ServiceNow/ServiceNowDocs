@@ -3,11 +3,11 @@ title: View Capacity Usages information
 description: View Capacity Usages information to track the capacity used by groups and agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/capacity-usage.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Capacity, Managing workforce, Use, Field Service Management]
 ---
@@ -87,5 +87,5 @@ Date until which the capacity definition and reservations should applied.
 **Related topics**  
 
 
-[Configuring Field Service Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-capacity-management.md)
+[Configuring Field Service Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configuring-capacity-management.md)
 

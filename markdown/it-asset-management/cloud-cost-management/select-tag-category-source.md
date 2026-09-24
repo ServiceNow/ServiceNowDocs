@@ -3,11 +3,11 @@ title: Select a tag category source
 description: Select a tag category source to control how the Cloud Cost Management application maps cloud resource tags to business entities for cost attribution and reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/select-tag-category-source.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create and update a tag category, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -30,15 +30,15 @@ The tag category source determines how spend tags are derived during billing dow
 
 2.  In the **Tag source category** field, select the tag category source that matches your environment.
 
-<table><thead><tr><th align="left" id="d190390e84">
+<table><thead><tr><th align="left" id="d192459e84">
 
 Tag category source
 
-</th><th align="left" id="d190390e87">
+</th><th align="left" id="d192459e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d190390e93">
+</th></tr></thead><tbody><tr><td id="d192459e93">
 
 **Cloud provider tags**
 
@@ -46,7 +46,7 @@ Description
 
 Uses native cloud provider resource tags that are defined and managed in the Cloud Cost Management application.
 
-</td></tr><tr><td id="d190390e105">
+</td></tr><tr><td id="d192459e105">
 
 **CMDB-driven cloud mapping**
 
@@ -61,7 +61,7 @@ Maps billing data to CMDB CI entities for cost attribution. You must take the fo
 -   **Select tags**: The tag name to look for in each billing line item. When this tag name is found, the Cloud Cost Management application looks up the matching entity in the selected table and column and associates it with the spend record.
 
 
-</td></tr><tr><td id="d190390e174">
+</td></tr><tr><td id="d192459e174">
 
 **ServiceNow-managed dimensions**
 
@@ -77,12 +77,12 @@ Uses ServiceNow-managed dimension tags for cost attribution. You must verify tha
     The Cloud Cost Management application saves the tag category source and triggers a billing data repopulation. All billing data is reprocessed to reflect the updated taxonomy.
 
 
-**Parent Topic:**[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
+**Parent Topic:**[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 
 **Related topics**  
 
 
-[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
+[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
 
-[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
+[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 

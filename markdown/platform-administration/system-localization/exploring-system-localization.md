@@ -3,11 +3,11 @@ title: Exploring System Localization
 description: Learn about support for localizing ServiceNow instances as part of your globalization strategy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/exploring-system-localization.html
-release: australia
+release: brazil
 product: System Localization
 classification: system-localization
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -53,8 +53,8 @@ Display translations of base system UI string content.
 
 </td><td>
 
--   [Language internationalization support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_LangInternationalizationSupport.md)
--   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md)
+-   [Language internationalization support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/c_LangInternationalizationSupport.md)
+-   [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/t_ActivateALanguage.md)
 
 </td><td rowspan="3">
 
@@ -66,7 +66,7 @@ Display dates, times, and currencies in an instance based on users' locations.
 
 </td><td>
 
-[Configuring locales](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_DefineLocales.md)
+[Configuring locales](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/c_DefineLocales.md)
 
 </td></tr><tr><td>
 
@@ -74,20 +74,20 @@ Translate UI string content that you create or modify.
 
 </td><td>
 
-[Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translating-applications.md)
+[Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/translating-applications.md)
 
 </td></tr></tbody>
 </table>## Related applications
 
--   **[Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md)**
+-   **[Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/localization-framework-landing.md)**
 
-    Using the Localization Framework application is recommend for translating to an unsupported language or translating large amounts of custom UI string content in a supported language. Localization Framework also supports using [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) for live translation of form fields, translating knowledge articles, and integrating with third-party translation services.
+    Using the Localization Framework application is recommend for translating to an unsupported language or translating large amounts of custom UI string content in a supported language. Localization Framework also supports using [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md) for live translation of form fields, translating knowledge articles, and integrating with third-party translation services.
 
--   **[Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace.md)**
+-   **[Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace/localization-workspace.md)**
 
     Localization Workspace is a targeted translation management experience for content owners and translation fulfillers. With Localization Workspace you can manage and deliver multilingual content at scale.
 
--   **[Translation management for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/translation-management.md)**
+-   **[Translation management for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/translation-management.md)**
 
     Knowledge article translation uses a separate system that relies on the I18N: Knowledge Management Internationalization plugin. If this plugin isn’t activated, knowledge article translation falls back on System Localization, with translations kept in the Translated Text \[sys\_translated\_text\] table.
 

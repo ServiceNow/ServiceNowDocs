@@ -3,9 +3,9 @@ title: Configure Power BI report image harvesting
 description: Enable report image harvesting to collect preview images from Power BI reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prep-to-run-powerbi-collector-report-image-harvest.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prepare to run the PowerBI collector, PowerBI metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -39,5 +39,5 @@ Enable report image harvesting to collect preview images from Power BI reports f
     Confirm that the reports to be exported are located in a workspace with Premium, Embedded, or Fabric capacity. For details, see the [Power BI documentation](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-what-is).
 
 
-**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-powerbi-collector.md)
+**Parent Topic:**[Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-powerbi-collector.md)
 

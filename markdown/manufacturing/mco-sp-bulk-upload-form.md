@@ -3,9 +3,9 @@ title: Sales promotion bulk upload form
 description: Bulk sales promotion upload form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-sp-bulk-upload-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales promotion form, Reference, Manufacturing Commercial Operations]
 ---
@@ -24,5 +24,5 @@ Bulk sales promotion upload form.
 |Promotion value|Discount given for a promotion.|
 |Sold product serial number|Serial number of the sold product.|
 
-**Parent Topic:**[Sales promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/sales-promotion-form.md)
+**Parent Topic:**[Sales promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/sales-promotion-form.md)
 

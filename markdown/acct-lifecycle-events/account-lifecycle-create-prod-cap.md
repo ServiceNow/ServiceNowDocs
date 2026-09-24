@@ -3,9 +3,9 @@ title: Create a product capability record
 description: Create a product capability record and associate it with one or more capability usage records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-prod-cap.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product capabilities, Customer success, Configure, Customer Success Management]
 ---
@@ -21,7 +21,7 @@ A product capability is the higher-level ability of a product to solve a problem
 ## Before you begin
 
 -   Role required: sn\_acct\_lc.customer\_success\_application\_admin
--   Product and capability usage records must already be present. See [Product and capability usage records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-prod-usage-data-model.md).
+-   Product and capability usage records must already be present. See [Product and capability usage records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-prod-usage-data-model.md).
 
 ## Procedure
 
@@ -144,11 +144,11 @@ The availability date for this capability.
 
 7.  Select **Submit**.
 
-    You can view the product and capability usage scores in the Engagement home page. See [View product usage and capability data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-prod-cap-usage.md)
+    You can view the product and capability usage scores in the Engagement home page. See [View product usage and capability data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-prod-cap-usage.md)
 
 
--   **[Product and capability usage records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-prod-usage-data-model.md)**  
+-   **[Product and capability usage records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-prod-usage-data-model.md)**  
 The product and capability usage records are automatically created and updated when changes occur in sold product configurations, capability mappings, or in the data context engine.
 
-**Parent Topic:**[Configure product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-prod-cap.md)
+**Parent Topic:**[Configure product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-setup-prod-cap.md)
 

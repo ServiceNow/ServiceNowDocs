@@ -3,12 +3,12 @@ title: Automatic status calculation for targets
 description: Automatically determine status for targets consequently rolling up to goals based on achievement percentages. Status is calculated when you enter actual values and achievement of actuals compared to the planned target against predefined thresholds \(Green, Yellow, Red\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/automatic-status-calculation-targets.html
-release: australia
+release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: concept
-last_updated: "2026-09-01"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Explore, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -23,7 +23,7 @@ When you enter actual values for a target period or a target breakdown, the syst
 Key benefits:
 
 -   Eliminates manual status selection for every target entry
--   Ensures consistent status assignment across the portfolio
+-   Ensures consistent status assignment across the goal hierarchy
 -   Reduces subjective judgment and data entry mistakes
 -   Provides real-time status updates as actual values are entered
 -   Supports better portfolio visibility and decision-making
@@ -69,7 +69,7 @@ Administrators can customize threshold percentages to align with organizational 
 {"enabled": true, "thresholds": {"green": 90, "yellow": 75}}
 ```
 
-For instructions on system property configuration, see [Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/configure-automatic-status-calculation.md).
+For instructions on system property configuration, see [Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/configure-automatic-status-calculation.md).
 
 ## Status calculation scenarios
 
@@ -79,18 +79,16 @@ Status calculation applies to three target configurations:
 -   **Targets with breakdowns \(check-ins\):** Status is calculated for each check-in period \(weekly, monthly, quarterly\) based on that period's achievement
 -   **Targets without check-in frequency:** Status is calculated based on direct actuals without period-based accumulation
 
-In all scenarios, the same achievement formula and thresholds apply. The difference is in how actual values are entered and aggregated across time periods. For more details on how the status is calculated for different scenarios, see [Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-status-calculation-examples.md).
+In all scenarios, the same achievement formula and thresholds apply. The difference is in how actual values are entered and aggregated across time periods. For more details on how the status is calculated for different scenarios, see [Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/target-status-calculation-examples.md).
 
 ## Milestone targets
 
-Milestone targets track qualitative progress against defined maturity levels \(e.g., Planning, Execution, Delivery, Launch\) instead of using numeric formulas. Status is assigned manually based on whether current progress matches the defined milestone stage. Examples: project readiness, capability maturity, process implementation.
+Milestone targets track qualitative progress against defined as Yes/No status assignment instead of using numeric formulas. You determine whether the milestone has been achieved:
 
-Milestone targets support only two status values:
+-   **Green:** If the target is achieved, status is set to **Yes**, resulting in Green status
+-   **Red:** If the target is not achieved, status is set to **No**, resulting in Red status
 
--   **Green:** Current progress matches or exceeds the defined milestone stage
--   **Red:** Current progress lags behind or does not match the defined milestone stage
-
-Yellow status is not available for milestone targets. Though not automatically calculated, milestone targets still roll up through the portfolio hierarchy using worst-wins logic and contribute to overall portfolio health.
+Yellow status is not available for milestone targets. Examples include project readiness gates, regulatory approvals, or capability certifications where achievement is binary \(complete or not complete\). Though not automatically calculated, milestone targets roll up from the target to its goal, and from the goal to parent goals if any, using worst-wins logic.
 
 ## Manual override
 
@@ -104,15 +102,15 @@ Manual override provides flexibility while maintaining the ability to recalculat
 
 ## Automatic status rollup
 
-Status automatically rolls up through three layers of the portfolio hierarchy:
+Status automatically rolls up through three hierarchical layers:
 
-1.  **Breakdown → Target:** Status rolls up from individual check-ins to the target level. The rollup logic depends on the breakdown type:
+1.  **Breakdown → Target:** Status rolls up from individual check-ins to the target level. When a target has period-based breakdowns \(such as quarterly check-ins\), each breakdown period receives its own status calculation. The target's overall status is then determined by aggregating these individual breakdown statuses. How this aggregation works depends on the breakdown type — whether the target is configured as cumulative or non-cumulative:
     -   **Cumulative breakdowns:** Status uses *latest-wins* logic. The most recent period's status determines the target status.
-    -   **Non-cumulative breakdowns:** Status uses *worst-wins* logic. The lowest-performing period's status determines the target status.
+    -   **Non-cumulative breakdowns:** Target's overall status is determined by aggregating all breakdown periods into a cumulative window. The target status is determined by the cumulative performance across all reported breakdown periods.
 2.  **Target → Goal:** Status rolls up from targets to goals using a *worst-wins* logic. The lowest-performing target status determines the goal status.
 3.  **Goal → Parent goal:** Status rolls up from goals through parent goals using *worst-wins* logic.
 
-This three-layer cascade ensures portfolio leaders see a true picture of execution health. A red target immediately propagates as a red signal at the portfolio level, prioritizing attention on at-risk initiatives.
+This three-layer cascade ensures portfolio leaders see a true picture of execution health. A red target immediately propagates as a red signal at the parent goal level, prioritizing attention on at-risk initiatives.
 
 ## Custom status values
 
@@ -121,7 +119,7 @@ In addition to automatic Green/Yellow/Red status, target owners can apply custom
 **Related topics**  
 
 
-[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/configure-automatic-status-calculation.md)
+[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/configure-automatic-status-calculation.md)
 
-[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-status-calculation-examples.md)
+[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/target-status-calculation-examples.md)
 

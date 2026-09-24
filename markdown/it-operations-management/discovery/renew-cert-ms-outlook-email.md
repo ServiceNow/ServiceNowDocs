@@ -3,7 +3,7 @@ title: Renew certificates via email
 description: Certificate renewal notifications are sent to users configured in the Certificate notification policy table via email 60 days before a certificate expires or after a certificate expires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/renew-cert-ms-outlook-email.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
@@ -52,5 +52,5 @@ Certificate renewal notifications are sent to users configured in the **Certific
 
 The certificate renewal is complete.
 
-**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
+**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
 

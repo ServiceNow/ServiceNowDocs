@@ -3,11 +3,11 @@ title: Certificate Inventory and Management tables
 description: This framework supports security, compliance, and streamlined operations. Certificate Inventory and Management tables provide a centralized system to track and manage digital certificates. They capture key details, including discovered certificates, installation locations, historical data, and associated tasks such as renewals and requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-invt-mgmt-tables.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ Unique Certificate \[cmdb\_ci\_certificate\]
 
 </td><td>
 
-The Fingerprint column is unique for every server certificate. **Note:** You can also view the entire certificate chain using the related list in the Unique Certificate table.
+The Fingerprint column is unique for every server certificate. **Note:** You can also view the entire certificate chain using the related list in the Unique Certificate table. The State field records the life cycle state of the certificate and doesn't include an Expired value. Expired certificates are denoted as Issued. Use the Valid to field to identify certificates that have expired.
 
 </td></tr><tr><td>
 
@@ -191,5 +191,5 @@ Certificate Notification Policysn\_disco\_certmgmt\_notification\_policy
 Stores the Microsoft Teams channel notification settings for certificate events.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

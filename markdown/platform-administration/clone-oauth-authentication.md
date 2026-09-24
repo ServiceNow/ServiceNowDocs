@@ -3,9 +3,9 @@ title: OAuth 2.0 authentication for clone targets
 description: OAuth 2.0 authenticates clone requests to target instances without requiring a local admin account, enabling you to use your existing login credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-oauth-authentication.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -52,5 +52,5 @@ Basic Auth is available only as a fallback when the OAuth flow fails. Because of
 
 OAuth setup is required once per target instance. No re-registration is required for routine clone requests. If a token expires, the system prompts you to select **Authorize** on the target instance before you can place a clone request.
 
-For more information, see [Set up OAuth authentication for a clone target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/setup-clone-oauth.md).
+For more information, see [Set up OAuth authentication for a clone target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/setup-clone-oauth.md).
 

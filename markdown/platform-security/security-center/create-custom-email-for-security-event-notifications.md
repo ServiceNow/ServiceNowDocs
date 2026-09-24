@@ -1,20 +1,20 @@
 ---
 title: Create a custom email for security event notifications
-description: Create a custom email for security event notifications to configure triggers, define recipients, and craft email content with dynamic event fields.
+description: Learn how for creating a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/create-custom-email-for-security-event-notifications.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure policy preferences, Security Event Notifications, Security monitoring console, Security Center, Platform Security]
 ---
 
 # Create a custom email for security event notifications
 
-Create a custom email for security event notifications to configure triggers, define recipients, and craft email content with dynamic event fields.
+Learn how for creating a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
 
 ## Before you begin
 
@@ -66,7 +66,7 @@ Select the field next to **Send when** label and select **Triggered**.
 
 </td><td>
 
-Create an email template.See [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnEmailTemplate.md) for more information.
+Create an email template.See  for more information.
 
 Enter fields of the event into **Message HTML**. This can be done by using the `${event_id.FIELD_NAME}`. Here's an example:
 
@@ -91,5 +91,5 @@ Security Center Notification: ${execution.policy.name}
     3.  Enter the name of the custom notification you created in the **Notification** field.
 
 
-**Parent Topic:**[Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/configure-preferences-for-security-event-notifications.md)
+**Parent Topic:**[Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/configure-preferences-for-security-event-notifications.md)
 

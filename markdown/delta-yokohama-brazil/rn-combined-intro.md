@@ -1,0 +1,848 @@
+---
+title: Products combined by family
+description: Find consoldiated release notes information by product.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/rn-combined-intro.html
+release: brazil
+topic_type: concept
+last_updated: "2025-06-02"
+reading_time_minutes: 56
+---
+
+# Products combined by family
+
+Find consoldiated release notes information by product.
+
+-   **[Combined Access Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-accessmanagement-release-notes.md)**  
+Consolidated page of all release notes for Access Management from Yokohama to Brazil.
+-   **[Combined Accounts Payable Operations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-accountspayableoperations-release-notes.md)**  
+Consolidated page of all release notes for Accounts Payable Operations from Yokohama to Brazil.
+-   **[Combined Activity Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-activitymanagement-release-notes.md)**  
+Consolidated page of all release notes for Activity Management from Yokohama to Brazil.
+-   **[Combined Adoption Services release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-adoptionservices-release-notes.md)**  
+Consolidated page of all release notes for Adoption Services from Yokohama to Brazil.
+-   **[Combined Advanced AI Search Management Tools release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-advancedaisearchmanagementtools-release-notes.md)**  
+Consolidated page of all release notes for Advanced AI Search Management Tools from Yokohama to Brazil.
+-   **[Combined Advanced Approval Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-advancedapprovalmanagement-release-notes.md)**  
+Consolidated page of all release notes for Advanced Approval Management from Yokohama to Brazil.
+-   **[Combined Advanced Approval Management AI release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-advancedapprovalmanagementai-release-notes.md)**  
+Consolidated page of all release notes for Advanced Approval Management AI from Yokohama to Brazil.
+-   **[Combined Advanced Risk release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-advancedrisk-release-notes.md)**  
+Consolidated page of all release notes for Advanced Risk from Yokohama to Brazil.
+-   **[Combined Advanced Work Assignment release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-advancedworkassignment-release-notes.md)**  
+Consolidated page of all release notes for Advanced Work Assignment from Yokohama to Brazil.
+-   **[Combined Advanced Work Assignment \(AWA\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-advancedworkassignmentawa-release-notes.md)**  
+Consolidated page of all release notes for Advanced Work Assignment \(AWA\) from Yokohama to Brazil.
+-   **[Combined Agent Chat release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-agentchat-release-notes.md)**  
+Consolidated page of all release notes for Agent Chat from Yokohama to Brazil.
+-   **[Combined Agent Client Collector release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-agentclientcollector-release-notes.md)**  
+Consolidated page of all release notes for Agent Client Collector from Yokohama to Brazil.
+-   **[Combined Agent experience for CSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-agentexperienceforcsm-release-notes.md)**  
+Consolidated page of all release notes for Agent experience for CSM from Yokohama to Brazil.
+-   **[Combined Agentic Contact Center for Banking release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-agenticcontactcenterforbanking-release-notes.md)**  
+Consolidated page of all release notes for Agentic Contact Center for Banking from Yokohama to Brazil.
+-   **[Combined Agentic Contact Center for Insurance release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-agenticcontactcenterforinsurance-release-notes.md)**  
+Consolidated page of all release notes for Agentic Contact Center for Insurance from Yokohama to Brazil.
+-   **[Combined Agent Workspace for HR Case Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-agentworkspaceforhrcasemanagement-release-notes.md)**  
+Consolidated page of all release notes for Agent Workspace for HR Case Management from Yokohama to Brazil.
+-   **[Combined AI Admin Center release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-aiadmincenter-release-notes.md)**  
+Consolidated page of all release notes for AI Admin Center from Yokohama to Brazil.
+-   **[Combined AI Admin Hub release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-aiadminhub-release-notes.md)**  
+Consolidated page of all release notes for AI Admin Hub from Yokohama to Brazil.
+-   **[Combined AI Agent Advisor release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-aiagentadvisor-release-notes.md)**  
+Consolidated page of all release notes for AI Agent Advisor from Yokohama to Brazil.
+-   **[Combined AI Agent Studio release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-aiagentstudio-release-notes.md)**  
+Consolidated page of all release notes for AI Agent Studio from Yokohama to Brazil.
+-   **[Combined AI Analytics release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-aianalytics-release-notes.md)**  
+Consolidated page of all release notes for AI Analytics from Yokohama to Brazil.
+-   **[Combined AI Control Tower release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-aicontroltower-release-notes.md)**  
+Consolidated page of all release notes for AI Control Tower from Yokohama to Brazil.
+-   **[Combined AI Desktop Actions release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-aidesktopactions-release-notes.md)**  
+Consolidated page of all release notes for AI Desktop Actions from Yokohama to Brazil.
+-   **[Combined AIOps LEAP release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-aiopsleap-release-notes.md)**  
+Consolidated page of all release notes for AIOps LEAP from Yokohama to Brazil.
+-   **[Combined AI Risk and Compliance release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-airiskandcompliance-release-notes.md)**  
+Consolidated page of all release notes for AI Risk and Compliance from Yokohama to Brazil.
+-   **[Combined AI Search release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-aisearch-release-notes.md)**  
+Consolidated page of all release notes for AI Search from Yokohama to Brazil.
+-   **[Combined AI Skill Kit release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-aiskillkit-release-notes.md)**  
+Consolidated page of all release notes for AI Skill Kit from Yokohama to Brazil.
+-   **[Combined Alumni Center release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-alumnicenter-release-notes.md)**  
+Consolidated page of all release notes for Alumni Center from Yokohama to Brazil.
+-   **[Combined API release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-api-release-notes.md)**  
+Consolidated page of all release notes for API from Yokohama to Brazil.
+-   **[Combined App Engine ERP Rapid Deployment Packs release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-appengineerprapiddeploymentpacks-release-notes.md)**  
+Consolidated page of all release notes for App Engine ERP Rapid Deployment Packs from Yokohama to Brazil.
+-   **[Combined App Engine Management Center release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-appenginemanagementcenter-release-notes.md)**  
+Consolidated page of all release notes for App Engine Management Center from Yokohama to Brazil.
+-   **[Combined App Engine Studio release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-appenginestudio-release-notes.md)**  
+Consolidated page of all release notes for App Engine Studio from Yokohama to Brazil.
+-   **[Combined Applicant Center release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-applicantcenter-release-notes.md)**  
+Consolidated page of all release notes for Applicant Center from Yokohama to Brazil.
+-   **[Combined Application Manager release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-applicationmanager-release-notes.md)**  
+Consolidated page of all release notes for Application Manager from Yokohama to Brazil.
+-   **[Combined Application Vulnerability Response release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-applicationvulnerabilityresponse-release-notes.md)**  
+Consolidated page of all release notes for Application Vulnerability Response from Yokohama to Brazil.
+-   **[Combined Asset Audit Response release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-assetauditresponse-release-notes.md)**  
+Consolidated page of all release notes for Asset Audit Response from Yokohama to Brazil.
+-   **[Combined Audit Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-auditmanagement-release-notes.md)**  
+Consolidated page of all release notes for Audit Management from Yokohama to Brazil.
+-   **[Combined Authentication release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-authentication-release-notes.md)**  
+Consolidated page of all release notes for Authentication from Yokohama to Brazil.
+-   **[Combined Automated Test Framework release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-automatedtestframework-release-notes.md)**  
+Consolidated page of all release notes for Automated Test Framework from Yokohama to Brazil.
+-   **[Combined Automation Discovery release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-automationdiscovery-release-notes.md)**  
+Consolidated page of all release notes for Automation Discovery from Yokohama to Brazil.
+-   **[Combined Autonomous Workforce release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-autonomousworkforce-release-notes.md)**  
+Consolidated page of all release notes for Autonomous Workforce from Yokohama to Brazil.
+-   **[Combined Benchmarks release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-benchmarks-release-notes.md)**  
+Consolidated page of all release notes for Benchmarks from Yokohama to Brazil.
+-   **[Combined Build Agent release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-buildagent-release-notes.md)**  
+Consolidated page of all release notes for Build Agent from Yokohama to Brazil.
+-   **[Combined Build Agent and Autonomous Engineer release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-buildagentandautonomousengineer-release-notes.md)**  
+Consolidated page of all release notes for Build Agent and Autonomous Engineer from Yokohama to Brazil.
+-   **[Combined Business Continuity Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-businesscontinuitymanagement-release-notes.md)**  
+Consolidated page of all release notes for Business Continuity Management from Yokohama to Brazil.
+-   **[Combined Buying Group release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-buyinggroup-release-notes.md)**  
+Consolidated page of all release notes for Buying Group from Yokohama to Brazil.
+-   **[Combined Card Data Security release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-carddatasecurity-release-notes.md)**  
+Consolidated page of all release notes for Card Data Security from Yokohama to Brazil.
+-   **[Combined Career Conversations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-careerconversations-release-notes.md)**  
+Consolidated page of all release notes for Career Conversations from Yokohama to Brazil.
+-   **[Combined Care Team Mobile release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-careteammobile-release-notes.md)**  
+Consolidated page of all release notes for Care Team Mobile from Yokohama to Brazil.
+-   **[Combined Care Team Operations for Biomed release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-careteamoperationsforbiomed-release-notes.md)**  
+Consolidated page of all release notes for Care Team Operations for Biomed from Yokohama to Brazil.
+-   **[Combined Care Team Operations for Environmental Services release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-careteamoperationsforenvironmentalservices-release-notes.md)**  
+Consolidated page of all release notes for Care Team Operations for Environmental Services from Yokohama to Brazil.
+-   **[Combined Care Team Operations for Facilities release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-careteamoperationsforfacilities-release-notes.md)**  
+Consolidated page of all release notes for Care Team Operations for Facilities from Yokohama to Brazil.
+-   **[Combined Care Team Operations for Healthcare IT release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-careteamoperationsforhealthcareit-release-notes.md)**  
+Consolidated page of all release notes for Care Team Operations for Healthcare IT from Yokohama to Brazil.
+-   **[Combined Care Team Work Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-careteamworkmanagement-release-notes.md)**  
+Consolidated page of all release notes for Care Team Work Management from Yokohama to Brazil.
+-   **[Combined Case and Knowledge Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-caseandknowledgemanagement-release-notes.md)**  
+Consolidated page of all release notes for Case and Knowledge Management from Yokohama to Brazil.
+-   **[Combined Case management for CSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-casemanagementforcsm-release-notes.md)**  
+Consolidated page of all release notes for Case management for CSM from Yokohama to Brazil.
+-   **[Combined Certificate Inventory and Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-certificateinventoryandmanagement-release-notes.md)**  
+Consolidated page of all release notes for Certificate Inventory and Management from Yokohama to Brazil.
+-   **[Combined Change Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-changemanagement-release-notes.md)**  
+Consolidated page of all release notes for Change Management from Yokohama to Brazil.
+-   **[Combined Classic Workflow release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-classicworkflow-release-notes.md)**  
+Consolidated page of all release notes for Classic Workflow from Yokohama to Brazil.
+-   **[Combined Clone Admin Console release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-cloneadminconsole-release-notes.md)**  
+Consolidated page of all release notes for Clone Admin Console from Yokohama to Brazil.
+-   **[Combined Cloud Account Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-cloudaccountmanagement-release-notes.md)**  
+Consolidated page of all release notes for Cloud Account Management from Yokohama to Brazil.
+-   **[Combined Cloud Cost Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-cloudcostmanagement-release-notes.md)**  
+Consolidated page of all release notes for Cloud Cost Management from Yokohama to Brazil.
+-   **[Combined Cloud Exposure View release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-cloudexposureview-release-notes.md)**  
+Consolidated page of all release notes for Cloud Exposure View from Yokohama to Brazil.
+-   **[Combined Code Signing release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-codesigning-release-notes.md)**  
+Consolidated page of all release notes for Code Signing from Yokohama to Brazil.
+-   **[Combined Collaborative Work Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-collaborativeworkmanagement-release-notes.md)**  
+Consolidated page of all release notes for Collaborative Work Management from Yokohama to Brazil.
+-   **[Combined Collaborative Work Management \(CWM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-collaborativeworkmanagementcwm-release-notes.md)**  
+Consolidated page of all release notes for Collaborative Work Management \(CWM\) from Yokohama to Brazil.
+-   **[Combined Common Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-commoncore-release-notes.md)**  
+Consolidated page of all release notes for Common Core from Yokohama to Brazil.
+-   **[Combined Common Governance, Risk, and Compliance feature release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-commongovernanceriskandcompliancefeature-release-notes.md)**  
+Consolidated page of all release notes for Common Governance, Risk, and Compliance feature from Yokohama to Brazil.
+-   **[Combined Common Governance, Risk, and Compliance features release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-commongovernanceriskandcompliancefeatures-release-notes.md)**  
+Consolidated page of all release notes for Common Governance, Risk, and Compliance features from Yokohama to Brazil.
+-   **[Combined Compliance Case Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-compliancecasemanagement-release-notes.md)**  
+Consolidated page of all release notes for Compliance Case Management from Yokohama to Brazil.
+-   **[Combined Configurable Workspace release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-configurableworkspace-release-notes.md)**  
+Consolidated page of all release notes for Configurable Workspace from Yokohama to Brazil.
+-   **[Combined Configuration Compliance release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-configurationcompliance-release-notes.md)**  
+Consolidated page of all release notes for Configuration Compliance from Yokohama to Brazil.
+-   **[Combined Configuration Management Database \(CMDB\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-configurationmanagementdatabasecmdb-release-notes.md)**  
+Consolidated page of all release notes for Configuration Management Database \(CMDB\) from Yokohama to Brazil.
+-   **[Combined Container Vulnerability Response release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-containervulnerabilityresponse-release-notes.md)**  
+Consolidated page of all release notes for Container Vulnerability Response from Yokohama to Brazil.
+-   **[Combined Content Understanding release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-contentunderstanding-release-notes.md)**  
+Consolidated page of all release notes for Content Understanding from Yokohama to Brazil.
+-   **[Combined Continual Improvement Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-continualimprovementmanagement-release-notes.md)**  
+Consolidated page of all release notes for Continual Improvement Management from Yokohama to Brazil.
+-   **[Combined Continuous Authorization and Monitoring release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-continuousauthorizationandmonitoring-release-notes.md)**  
+Consolidated page of all release notes for Continuous Authorization and Monitoring from Yokohama to Brazil.
+-   **[Combined Contract Management Pro release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-contractmanagementpro-release-notes.md)**  
+Consolidated page of all release notes for Contract Management Pro from Yokohama to Brazil.
+-   **[Combined Contract Management Pro for Legal Service Delivery release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-contractmanagementproforlegalservicedelivery-release-notes.md)**  
+Consolidated page of all release notes for Contract Management Pro for Legal Service Delivery from Yokohama to Brazil.
+-   **[Combined Contract Management Pro MCP Server release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-contractmanagementpromcpserver-release-notes.md)**  
+Consolidated page of all release notes for Contract Management Pro MCP Server from Yokohama to Brazil.
+-   **[Combined Conversation Improvement Themes release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-conversationimprovementthemes-release-notes.md)**  
+Consolidated page of all release notes for Conversation Improvement Themes from Yokohama to Brazil.
+-   **[Combined Conversation Insights release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-conversationinsights-release-notes.md)**  
+Consolidated page of all release notes for Conversation Insights from Yokohama to Brazil.
+-   **[Combined Core Business Suite release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-corebusinesssuite-release-notes.md)**  
+Consolidated page of all release notes for Core Business Suite from Yokohama to Brazil.
+-   **[Combined CPQ release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-cpq-release-notes.md)**  
+Consolidated page of all release notes for CPQ from Yokohama to Brazil.
+-   **[Combined CPQ Configurator release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-cpqconfigurator-release-notes.md)**  
+Consolidated page of all release notes for CPQ Configurator from Yokohama to Brazil.
+-   **[Combined Creator Studio release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-creatorstudio-release-notes.md)**  
+Consolidated page of all release notes for Creator Studio from Yokohama to Brazil.
+-   **[Combined CRM API Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-crmapicore-release-notes.md)**  
+Consolidated page of all release notes for CRM API Core from Yokohama to Brazil.
+-   **[Combined CRM Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-crmcore-release-notes.md)**  
+Consolidated page of all release notes for CRM Core from Yokohama to Brazil.
+-   **[Combined CRM Outlook Add-in release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-crmoutlookaddin-release-notes.md)**  
+Consolidated page of all release notes for CRM Outlook Add-in from Yokohama to Brazil.
+-   **[Combined Customer Contracts and Entitlements release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-customercontractsandentitlements-release-notes.md)**  
+Consolidated page of all release notes for Customer Contracts and Entitlements from Yokohama to Brazil.
+-   **[Combined Customer Engagement Sequences release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-customerengagementsequences-release-notes.md)**  
+Consolidated page of all release notes for Customer Engagement Sequences from Yokohama to Brazil.
+-   **[Combined Customer self-service for Sales Customer Relationship Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-customerselfserviceforsalescustomerrelationshipmanagement-release-notes.md)**  
+Consolidated page of all release notes for Customer self-service for Sales Customer Relationship Management from Yokohama to Brazil.
+-   **[Combined Customer Service Problem Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-customerserviceproblemmanagement-release-notes.md)**  
+Consolidated page of all release notes for Customer Service Problem Management from Yokohama to Brazil.
+-   **[Combined Customer Success Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-customersuccessmanagement-release-notes.md)**  
+Consolidated page of all release notes for Customer Success Management from Yokohama to Brazil.
+-   **[Combined Data Catalog release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-datacatalog-release-notes.md)**  
+Consolidated page of all release notes for Data Catalog from Yokohama to Brazil.
+-   **[Combined Data Center and Network Asset Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-datacenterandnetworkassetmanagement-release-notes.md)**  
+Consolidated page of all release notes for Data Center and Network Asset Management from Yokohama to Brazil.
+-   **[Combined Data Loss Prevention Incident Response release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-datalosspreventionincidentresponse-release-notes.md)**  
+Consolidated page of all release notes for Data Loss Prevention Incident Response from Yokohama to Brazil.
+-   **[Combined Data Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-datamanagement-release-notes.md)**  
+Consolidated page of all release notes for Data Management from Yokohama to Brazil.
+-   **[Combined Data Management for CSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-datamanagementforcsm-release-notes.md)**  
+Consolidated page of all release notes for Data Management for CSM from Yokohama to Brazil.
+-   **[Combined Data Privacy release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-dataprivacy-release-notes.md)**  
+Consolidated page of all release notes for Data Privacy from Yokohama to Brazil.
+-   **[Combined Data products release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-dataproducts-release-notes.md)**  
+Consolidated page of all release notes for Data products from Yokohama to Brazil.
+-   **[Combined Data Separation release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-dataseparation-release-notes.md)**  
+Consolidated page of all release notes for Data Separation from Yokohama to Brazil.
+-   **[Combined Decision Builder in Workflow Studio release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-decisionbuilderinworkflowstudio-release-notes.md)**  
+Consolidated page of all release notes for Decision Builder in Workflow Studio from Yokohama to Brazil.
+-   **[Combined Developer Sandboxes release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-developersandboxes-release-notes.md)**  
+Consolidated page of all release notes for Developer Sandboxes from Yokohama to Brazil.
+-   **[Combined DevOps Change Velocity release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-devopschangevelocity-release-notes.md)**  
+Consolidated page of all release notes for DevOps Change Velocity from Yokohama to Brazil.
+-   **[Combined Digital End-User Experience release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-digitalenduserexperience-release-notes.md)**  
+Consolidated page of all release notes for Digital End-User Experience from Yokohama to Brazil.
+-   **[Combined Digital Portfolio Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-digitalportfoliomanagement-release-notes.md)**  
+Consolidated page of all release notes for Digital Portfolio Management from Yokohama to Brazil.
+-   **[Combined Digital Portfolio Management \(DPM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-digitalportfoliomanagementdpm-release-notes.md)**  
+Consolidated page of all release notes for Digital Portfolio Management \(DPM\) from Yokohama to Brazil.
+-   **[Combined Discovery release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-discovery-release-notes.md)**  
+Consolidated page of all release notes for Discovery from Yokohama to Brazil.
+-   **[Combined Discovery store applications release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-discoverystoreapplications-release-notes.md)**  
+Consolidated page of all release notes for Discovery store applications from Yokohama to Brazil.
+-   **[Combined Dispute Content Pack for US Regulations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-disputecontentpackforusregulations-release-notes.md)**  
+Consolidated page of all release notes for Dispute Content Pack for US Regulations from Yokohama to Brazil.
+-   **[Combined Dispute Rules Content Pack for Mastercard release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-disputerulescontentpackformastercard-release-notes.md)**  
+Consolidated page of all release notes for Dispute Rules Content Pack for Mastercard from Yokohama to Brazil.
+-   **[Combined Dispute Rules Content Pack for Nacha release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-disputerulescontentpackfornacha-release-notes.md)**  
+Consolidated page of all release notes for Dispute Rules Content Pack for Nacha from Yokohama to Brazil.
+-   **[Combined Dispute Rules Content Pack for Visa release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-disputerulescontentpackforvisa-release-notes.md)**  
+Consolidated page of all release notes for Dispute Rules Content Pack for Visa from Yokohama to Brazil.
+-   **[Combined Document Intelligence release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-documentintelligence-release-notes.md)**  
+Consolidated page of all release notes for Document Intelligence from Yokohama to Brazil.
+-   **[Combined Document Services release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-documentservices-release-notes.md)**  
+Consolidated page of all release notes for Document Services from Yokohama to Brazil.
+-   **[Combined Domain Separation release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-domainseparation-release-notes.md)**  
+Consolidated page of all release notes for Domain Separation from Yokohama to Brazil.
+-   **[Combined Dynamic Translation release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-dynamictranslation-release-notes.md)**  
+Consolidated page of all release notes for Dynamic Translation from Yokohama to Brazil.
+-   **[Combined Employee Center release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-employeecenter-release-notes.md)**  
+Consolidated page of all release notes for Employee Center from Yokohama to Brazil.
+-   **[Combined Employee Center Pro release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-employeecenterpro-release-notes.md)**  
+Consolidated page of all release notes for Employee Center Pro from Yokohama to Brazil.
+-   **[Combined Employee Slate release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-employeeslate-release-notes.md)**  
+Consolidated page of all release notes for Employee Slate from Yokohama to Brazil.
+-   **[Combined Employee Slate for ITSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-employeeslateforitsm-release-notes.md)**  
+Consolidated page of all release notes for Employee Slate for ITSM from Yokohama to Brazil.
+-   **[Combined EMR Provider Directory Sync Sync release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-emrproviderdirectorysyncsync-release-notes.md)**  
+Consolidated page of all release notes for EMR Provider Directory Sync Sync from Yokohama to Brazil.
+-   **[Combined Encryption release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-encryption-release-notes.md)**  
+Consolidated page of all release notes for Encryption from Yokohama to Brazil.
+-   **[Combined Encryption Key Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-encryptionkeymanagement-release-notes.md)**  
+Consolidated page of all release notes for Encryption Key Management from Yokohama to Brazil.
+-   **[Combined Enterprise Architecture release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-enterprisearchitecture-release-notes.md)**  
+Consolidated page of all release notes for Enterprise Architecture from Yokohama to Brazil.
+-   **[Combined Enterprise Architecture \(formerly Application Portfolio Management\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-enterprisearchitectureformerlyapplicationportfoliomanagement-release-notes.md)**  
+Consolidated page of all release notes for Enterprise Architecture \(formerly Application Portfolio Management\) from Yokohama to Brazil.
+-   **[Combined Enterprise Asset Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-enterpriseassetmanagement-release-notes.md)**  
+Consolidated page of all release notes for Enterprise Asset Management from Yokohama to Brazil.
+-   **[Combined Enterprise Service Management Foundation release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-enterpriseservicemanagementfoundation-release-notes.md)**  
+Consolidated page of all release notes for Enterprise Service Management Foundation from Yokohama to Brazil.
+-   **[Combined ERP Semantic Mining release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-erpsemanticmining-release-notes.md)**  
+Consolidated page of all release notes for ERP Semantic Mining from Yokohama to Brazil.
+-   **[Combined Event Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-eventmanagement-release-notes.md)**  
+Consolidated page of all release notes for Event Management from Yokohama to Brazil.
+-   **[Combined Extended Security for Enterprise-Wide Deployment release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-extendedsecurityforenterprisewidedeployment-release-notes.md)**  
+Consolidated page of all release notes for Extended Security for Enterprise-Wide Deployment from Yokohama to Brazil.
+-   **[Combined External Content Connectors release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-externalcontentconnectors-release-notes.md)**  
+Consolidated page of all release notes for External Content Connectors from Yokohama to Brazil.
+-   **[Combined Field Service Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-fieldservicemanagement-release-notes.md)**  
+Consolidated page of all release notes for Field Service Management from Yokohama to Brazil.
+-   **[Combined Field Service Management for Telecommunication release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-fieldservicemanagementfortelecommunication-release-notes.md)**  
+Consolidated page of all release notes for Field Service Management for Telecommunication from Yokohama to Brazil.
+-   **[Combined Financial Services Card Operations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-financialservicescardoperations-release-notes.md)**  
+Consolidated page of all release notes for Financial Services Card Operations from Yokohama to Brazil.
+-   **[Combined Financial Services Operations Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-financialservicesoperationscore-release-notes.md)**  
+Consolidated page of all release notes for Financial Services Operations Core from Yokohama to Brazil.
+-   **[Combined Financial Services Operations Integration with Mastercard release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-financialservicesoperationsintegrationwithmastercard-release-notes.md)**  
+Consolidated page of all release notes for Financial Services Operations Integration with Mastercard from Yokohama to Brazil.
+-   **[Combined Financial Services Operations Integration with Verifi release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-financialservicesoperationsintegrationwithverifi-release-notes.md)**  
+Consolidated page of all release notes for Financial Services Operations Integration with Verifi from Yokohama to Brazil.
+-   **[Combined Financial Services Operations Integration with Visa release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-financialservicesoperationsintegrationwithvisa-release-notes.md)**  
+Consolidated page of all release notes for Financial Services Operations Integration with Visa from Yokohama to Brazil.
+-   **[Combined Firewall Audits and Reporting release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-firewallauditsandreporting-release-notes.md)**  
+Consolidated page of all release notes for Firewall Audits and Reporting from Yokohama to Brazil.
+-   **[Combined Flows, subflows, and actions release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-flowssubflowsandactions-release-notes.md)**  
+Consolidated page of all release notes for Flows, subflows, and actions from Yokohama to Brazil.
+-   **[Combined Flows, subflows, and actions in Workflow Studio release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-flowssubflowsandactionsinworkflowstudio-release-notes.md)**  
+Consolidated page of all release notes for Flows, subflows, and actions in Workflow Studio from Yokohama to Brazil.
+-   **[Combined Generative AI Controller release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-generativeaicontroller-release-notes.md)**  
+Consolidated page of all release notes for Generative AI Controller from Yokohama to Brazil.
+-   **[Combined Goal Framework release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-goalframework-release-notes.md)**  
+Consolidated page of all release notes for Goal Framework from Yokohama to Brazil.
+-   **[Combined Goal Framework for SPM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-goalframeworkforspm-release-notes.md)**  
+Consolidated page of all release notes for Goal Framework for SPM from Yokohama to Brazil.
+-   **[Combined Hardware Asset Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-hardwareassetmanagement-release-notes.md)**  
+Consolidated page of all release notes for Hardware Asset Management from Yokohama to Brazil.
+-   **[Combined Healthcare and Life Sciences Service Management Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-healthcareandlifesciencesservicemanagementcore-release-notes.md)**  
+Consolidated page of all release notes for Healthcare and Life Sciences Service Management Core from Yokohama to Brazil.
+-   **[Combined Healthcare Operations Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-healthcareoperationscore-release-notes.md)**  
+Consolidated page of all release notes for Healthcare Operations Core from Yokohama to Brazil.
+-   **[Combined Health Log Analytics release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-healthloganalytics-release-notes.md)**  
+Consolidated page of all release notes for Health Log Analytics from Yokohama to Brazil.
+-   **[Combined Hermes Messaging Service release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-hermesmessagingservice-release-notes.md)**  
+Consolidated page of all release notes for Hermes Messaging Service from Yokohama to Brazil.
+-   **[Combined Hiring release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-hiring-release-notes.md)**  
+Consolidated page of all release notes for Hiring from Yokohama to Brazil.
+-   **[Combined HL7 FHIR Spoke release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-hl7fhirspoke-release-notes.md)**  
+Consolidated page of all release notes for HL7 FHIR Spoke from Yokohama to Brazil.
+-   **[Combined HL7 v2.x Integration release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-hl7v2xintegration-release-notes.md)**  
+Consolidated page of all release notes for HL7 v2.x Integration from Yokohama to Brazil.
+-   **[Combined HR Multi Instance Integration release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-hrmultiinstanceintegration-release-notes.md)**  
+Consolidated page of all release notes for HR Multi Instance Integration from Yokohama to Brazil.
+-   **[Combined HR Service Delivery integration with Accurate Background service release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-hrservicedeliveryintegrationwithaccuratebackgroundservice-release-notes.md)**  
+Consolidated page of all release notes for HR Service Delivery integration with Accurate Background service from Yokohama to Brazil.
+-   **[Combined HR Service Delivery integration with First Advantage service release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-hrservicedeliveryintegrationwithfirstadvantageservice-release-notes.md)**  
+Consolidated page of all release notes for HR Service Delivery integration with First Advantage service from Yokohama to Brazil.
+-   **[Combined HR Service Delivery integration with Sterling Talent Solutions service release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-hrservicedeliveryintegrationwithsterlingtalentsolutionsservice-release-notes.md)**  
+Consolidated page of all release notes for HR Service Delivery integration with Sterling Talent Solutions service from Yokohama to Brazil.
+-   **[Combined Identity release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-identity-release-notes.md)**  
+Consolidated page of all release notes for Identity from Yokohama to Brazil.
+-   **[Combined Impact release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-impact-release-notes.md)**  
+Consolidated page of all release notes for Impact from Yokohama to Brazil.
+-   **[Combined Import and Export release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-importandexport-release-notes.md)**  
+Consolidated page of all release notes for Import and Export from Yokohama to Brazil.
+-   **[Combined Incident Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-incidentmanagement-release-notes.md)**  
+Consolidated page of all release notes for Incident Management from Yokohama to Brazil.
+-   **[Combined Industrial Connected Workforce Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-industrialconnectedworkforcecore-release-notes.md)**  
+Consolidated page of all release notes for Industrial Connected Workforce Core from Yokohama to Brazil.
+-   **[Combined Industrial Connected Workforce Mobile Experience release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-industrialconnectedworkforcemobileexperience-release-notes.md)**  
+Consolidated page of all release notes for Industrial Connected Workforce Mobile Experience from Yokohama to Brazil.
+-   **[Combined Industrial Guided Tasks release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-industrialguidedtasks-release-notes.md)**  
+Consolidated page of all release notes for Industrial Guided Tasks from Yokohama to Brazil.
+-   **[Combined Industrial Process Manager release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-industrialprocessmanager-release-notes.md)**  
+Consolidated page of all release notes for Industrial Process Manager from Yokohama to Brazil.
+-   **[Combined Industrial Standards release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-industrialstandards-release-notes.md)**  
+Consolidated page of all release notes for Industrial Standards from Yokohama to Brazil.
+-   **[Combined Instance Data Replication release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-instancedatareplication-release-notes.md)**  
+Consolidated page of all release notes for Instance Data Replication from Yokohama to Brazil.
+-   **[Combined Instance Scan release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-instancescan-release-notes.md)**  
+Consolidated page of all release notes for Instance Scan from Yokohama to Brazil.
+-   **[Combined Insurance Claims Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-insuranceclaimscore-release-notes.md)**  
+Consolidated page of all release notes for Insurance Claims Core from Yokohama to Brazil.
+-   **[Combined Integration Hub release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-integrationhub-release-notes.md)**  
+Consolidated page of all release notes for Integration Hub from Yokohama to Brazil.
+-   **[Combined Intelligence for CSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-intelligenceforcsm-release-notes.md)**  
+Consolidated page of all release notes for Intelligence for CSM from Yokohama to Brazil.
+-   **[Combined Intelligent approvals release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-intelligentapprovals-release-notes.md)**  
+Consolidated page of all release notes for Intelligent approvals from Yokohama to Brazil.
+-   **[Combined Interview management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-interviewmanagement-release-notes.md)**  
+Consolidated page of all release notes for Interview management from Yokohama to Brazil.
+-   **[Combined ITOM AIOps release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-itomaiops-release-notes.md)**  
+Consolidated page of all release notes for ITOM AIOps from Yokohama to Brazil.
+-   **[Combined ITOM Cloud Accelerate release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-itomcloudaccelerate-release-notes.md)**  
+Consolidated page of all release notes for ITOM Cloud Accelerate from Yokohama to Brazil.
+-   **[Combined ITOM MCP Server Console release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-itommcpserverconsole-release-notes.md)**  
+Consolidated page of all release notes for ITOM MCP Server Console from Yokohama to Brazil.
+-   **[Combined ITOM Optimization release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-itomoptimization-release-notes.md)**  
+Consolidated page of all release notes for ITOM Optimization from Yokohama to Brazil.
+-   **[Combined ITOM Visibility release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-itomvisibility-release-notes.md)**  
+Consolidated page of all release notes for ITOM Visibility from Yokohama to Brazil.
+-   **[Combined ITSM Employee Slate for Moveworks release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-itsmemployeeslateformoveworks-release-notes.md)**  
+Consolidated page of all release notes for ITSM Employee Slate for Moveworks from Yokohama to Brazil.
+-   **[Combined ITSM MCP Server release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-itsmmcpserver-release-notes.md)**  
+Consolidated page of all release notes for ITSM MCP Server from Yokohama to Brazil.
+-   **[Combined ITSM Mobile Agent release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-itsmmobileagent-release-notes.md)**  
+Consolidated page of all release notes for ITSM Mobile Agent from Yokohama to Brazil.
+-   **[Combined ITSM Predictive Intelligence Workbench release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-itsmpredictiveintelligenceworkbench-release-notes.md)**  
+Consolidated page of all release notes for ITSM Predictive Intelligence Workbench from Yokohama to Brazil.
+-   **[Combined ITSM Success Dashboard release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-itsmsuccessdashboard-release-notes.md)**  
+Consolidated page of all release notes for ITSM Success Dashboard from Yokohama to Brazil.
+-   **[Combined Journey designer release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-journeydesigner-release-notes.md)**  
+Consolidated page of all release notes for Journey designer from Yokohama to Brazil.
+-   **[Combined Key Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-keymanagement-release-notes.md)**  
+Consolidated page of all release notes for Key Management from Yokohama to Brazil.
+-   **[Combined Knowledge Center release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-knowledgecenter-release-notes.md)**  
+Consolidated page of all release notes for Knowledge Center from Yokohama to Brazil.
+-   **[Combined Knowledge Graph release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-knowledgegraph-release-notes.md)**  
+Consolidated page of all release notes for Knowledge Graph from Yokohama to Brazil.
+-   **[Combined Knowledge Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-knowledgemanagement-release-notes.md)**  
+Consolidated page of all release notes for Knowledge Management from Yokohama to Brazil.
+-   **[Combined Kubernetes Visibility Agent \(KVA\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-kubernetesvisibilityagentkva-release-notes.md)**  
+Consolidated page of all release notes for Kubernetes Visibility Agent \(KVA\) from Yokohama to Brazil.
+-   **[Combined L1 IT Service Desk AI Specialist release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-l1itservicedeskaispecialist-release-notes.md)**  
+Consolidated page of all release notes for L1 IT Service Desk AI Specialist from Yokohama to Brazil.
+-   **[Combined Lead Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-leadmanagement-release-notes.md)**  
+Consolidated page of all release notes for Lead Management from Yokohama to Brazil.
+-   **[Combined Lead-to-Cash Process Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-leadtocashprocessmanagement-release-notes.md)**  
+Consolidated page of all release notes for Lead-to-Cash Process Management from Yokohama to Brazil.
+-   **[Combined LEAP release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-leap-release-notes.md)**  
+Consolidated page of all release notes for LEAP from Yokohama to Brazil.
+-   **[Combined Learning Posts release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-learningposts-release-notes.md)**  
+Consolidated page of all release notes for Learning Posts from Yokohama to Brazil.
+-   **[Combined Legacy Application Manager release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-legacyapplicationmanager-release-notes.md)**  
+Consolidated page of all release notes for Legacy Application Manager from Yokohama to Brazil.
+-   **[Combined Legacy Studio release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-legacystudio-release-notes.md)**  
+Consolidated page of all release notes for Legacy Studio from Yokohama to Brazil.
+-   **[Combined Legal Conflict of Interest release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-legalconflictofinterest-release-notes.md)**  
+Consolidated page of all release notes for Legal Conflict of Interest from Yokohama to Brazil.
+-   **[Combined Legal Hold Notification release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-legalholdnotification-release-notes.md)**  
+Consolidated page of all release notes for Legal Hold Notification from Yokohama to Brazil.
+-   **[Combined Legal Matter Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-legalmattermanagement-release-notes.md)**  
+Consolidated page of all release notes for Legal Matter Management from Yokohama to Brazil.
+-   **[Combined Legal Request Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-legalrequestmanagement-release-notes.md)**  
+Consolidated page of all release notes for Legal Request Management from Yokohama to Brazil.
+-   **[Combined Lifecycle Events release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-lifecycleevents-release-notes.md)**  
+Consolidated page of all release notes for Lifecycle Events from Yokohama to Brazil.
+-   **[Combined Listening Posts release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-listeningposts-release-notes.md)**  
+Consolidated page of all release notes for Listening Posts from Yokohama to Brazil.
+-   **[Combined Live Connect release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-liveconnect-release-notes.md)**  
+Consolidated page of all release notes for Live Connect from Yokohama to Brazil.
+-   **[Combined Localization Workspace release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-localizationworkspace-release-notes.md)**  
+Consolidated page of all release notes for Localization Workspace from Yokohama to Brazil.
+-   **[Combined Manager Hub release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-managerhub-release-notes.md)**  
+Consolidated page of all release notes for Manager Hub from Yokohama to Brazil.
+-   **[Combined Manufacturing Commercial Operations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-manufacturingcommercialoperations-release-notes.md)**  
+Consolidated page of all release notes for Manufacturing Commercial Operations from Yokohama to Brazil.
+-   **[Combined Mastercard Spoke release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-mastercardspoke-release-notes.md)**  
+Consolidated page of all release notes for Mastercard Spoke from Yokohama to Brazil.
+-   **[Combined MCP for Strategic Portfolio Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-mcpforstrategicportfoliomanagement-release-notes.md)**  
+Consolidated page of all release notes for MCP for Strategic Portfolio Management from Yokohama to Brazil.
+-   **[Combined MCP Server Console release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-mcpserverconsole-release-notes.md)**  
+Consolidated page of all release notes for MCP Server Console from Yokohama to Brazil.
+-   **[Combined Mentoring release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-mentoring-release-notes.md)**  
+Consolidated page of all release notes for Mentoring from Yokohama to Brazil.
+-   **[Combined MID Server release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-midserver-release-notes.md)**  
+Consolidated page of all release notes for MID Server from Yokohama to Brazil.
+-   **[Combined Mobile Platform release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-mobileplatform-release-notes.md)**  
+Consolidated page of all release notes for Mobile Platform from Yokohama to Brazil.
+-   **[Combined Model Risk Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-modelriskmanagement-release-notes.md)**  
+Consolidated page of all release notes for Model Risk Management from Yokohama to Brazil.
+-   **[Combined Next Experience release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nextexperience-release-notes.md)**  
+Consolidated page of all release notes for Next Experience from Yokohama to Brazil.
+-   **[Combined Next Experience Components release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nextexperiencecomponents-release-notes.md)**  
+Consolidated page of all release notes for Next Experience Components from Yokohama to Brazil.
+-   **[Combined Next Experience Developer \(NED\) Tools release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nextexperiencedevelopernedtools-release-notes.md)**  
+Consolidated page of all release notes for Next Experience Developer \(NED\) Tools from Yokohama to Brazil.
+-   **[Combined Notifications release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-notifications-release-notes.md)**  
+Consolidated page of all release notes for Notifications from Yokohama to Brazil.
+-   **[Combined Notify release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-notify-release-notes.md)**  
+Consolidated page of all release notes for Notify from Yokohama to Brazil.
+-   **[Combined Now Assist release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassist-release-notes.md)**  
+Consolidated page of all release notes for Now Assist from Yokohama to Brazil.
+-   **[Combined Now Assist AI agents release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistaiagents-release-notes.md)**  
+Consolidated page of all release notes for Now Assist AI agents from Yokohama to Brazil.
+-   **[Combined Now Assist for Employee Center Pro release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistforemployeecenterpro-release-notes.md)**  
+Consolidated page of all release notes for Now Assist for Employee Center Pro from Yokohama to Brazil.
+-   **[Combined Now Assist for IT Operations Management \(ITOM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistforitoperationsmanagementitom-release-notes.md)**  
+Consolidated page of all release notes for Now Assist for IT Operations Management \(ITOM\) from Yokohama to Brazil.
+-   **[Combined Now Assist for Sales CRM for Telecommunications release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistforsalescrmfortelecommunications-release-notes.md)**  
+Consolidated page of all release notes for Now Assist for Sales CRM for Telecommunications from Yokohama to Brazil.
+-   **[Combined Now Assist for Source-to-Pay Operations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistforsourcetopayoperations-release-notes.md)**  
+Consolidated page of all release notes for Now Assist for Source-to-Pay Operations from Yokohama to Brazil.
+-   **[Combined Now Assist for Vulnerability Response release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistforvulnerabilityresponse-release-notes.md)**  
+Consolidated page of all release notes for Now Assist for Vulnerability Response from Yokohama to Brazil.
+-   **[Combined Now Assist in AI Search release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistinaisearch-release-notes.md)**  
+Consolidated page of all release notes for Now Assist in AI Search from Yokohama to Brazil.
+-   **[Combined Now Assist in Contract Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistincontractmanagement-release-notes.md)**  
+Consolidated page of all release notes for Now Assist in Contract Management from Yokohama to Brazil.
+-   **[Combined Now Assist in Document Intelligence release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistindocumentintelligence-release-notes.md)**  
+Consolidated page of all release notes for Now Assist in Document Intelligence from Yokohama to Brazil.
+-   **[Combined Now Assist in Platform Analytics release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistinplatformanalytics-release-notes.md)**  
+Consolidated page of all release notes for Now Assist in Platform Analytics from Yokohama to Brazil.
+-   **[Combined Now Assist in Virtual Agent release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowassistinvirtualagent-release-notes.md)**  
+Consolidated page of all release notes for Now Assist in Virtual Agent from Yokohama to Brazil.
+-   **[Combined Now Mobile release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-nowmobile-release-notes.md)**  
+Consolidated page of all release notes for Now Mobile from Yokohama to Brazil.
+-   **[Combined On-Call Scheduling release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-oncallscheduling-release-notes.md)**  
+Consolidated page of all release notes for On-Call Scheduling from Yokohama to Brazil.
+-   **[Combined Operational Resilience release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-operationalresilience-release-notes.md)**  
+Consolidated page of all release notes for Operational Resilience from Yokohama to Brazil.
+-   **[Combined Operational Sustainability Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-operationalsustainabilitymanagement-release-notes.md)**  
+Consolidated page of all release notes for Operational Sustainability Management from Yokohama to Brazil.
+-   **[Combined Operational Sustainability Management \(formerly Environmental, Social, and Governance\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-operationalsustainabilitymanagementformerlyenvironmentalsocialandgovernance-release-notes.md)**  
+Consolidated page of all release notes for Operational Sustainability Management \(formerly Environmental, Social, and Governance\) from Yokohama to Brazil.
+-   **[Combined Operational Technology Change Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-operationaltechnologychangemanagement-release-notes.md)**  
+Consolidated page of all release notes for Operational Technology Change Management from Yokohama to Brazil.
+-   **[Combined Operational Technology Discovery release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-operationaltechnologydiscovery-release-notes.md)**  
+Consolidated page of all release notes for Operational Technology Discovery from Yokohama to Brazil.
+-   **[Combined Operational Technology Incident Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-operationaltechnologyincidentmanagement-release-notes.md)**  
+Consolidated page of all release notes for Operational Technology Incident Management from Yokohama to Brazil.
+-   **[Combined Operational Technology Manager release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-operationaltechnologymanager-release-notes.md)**  
+Consolidated page of all release notes for Operational Technology Manager from Yokohama to Brazil.
+-   **[Combined Operational Technology \(OT\) Manager Foundation release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-operationaltechnologyotmanagerfoundation-release-notes.md)**  
+Consolidated page of all release notes for Operational Technology \(OT\) Manager Foundation from Yokohama to Brazil.
+-   **[Combined Operational Technology Setup release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-operationaltechnologysetup-release-notes.md)**  
+Consolidated page of all release notes for Operational Technology Setup from Yokohama to Brazil.
+-   **[Combined Operational Technology Vulnerability Response release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-operationaltechnologyvulnerabilityresponse-release-notes.md)**  
+Consolidated page of all release notes for Operational Technology Vulnerability Response from Yokohama to Brazil.
+-   **[Combined Opportunity Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-opportunitymanagement-release-notes.md)**  
+Consolidated page of all release notes for Opportunity Management from Yokohama to Brazil.
+-   **[Combined Opportunity Marketplace release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-opportunitymarketplace-release-notes.md)**  
+Consolidated page of all release notes for Opportunity Marketplace from Yokohama to Brazil.
+-   **[Combined Order Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-ordermanagement-release-notes.md)**  
+Consolidated page of all release notes for Order Management from Yokohama to Brazil.
+-   **[Combined Partner Relationship Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-partnerrelationshipmanagement-release-notes.md)**  
+Consolidated page of all release notes for Partner Relationship Management from Yokohama to Brazil.
+-   **[Combined Password Reset release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-passwordreset-release-notes.md)**  
+Consolidated page of all release notes for Password Reset from Yokohama to Brazil.
+-   **[Combined Patient Support Services release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-patientsupportservices-release-notes.md)**  
+Consolidated page of all release notes for Patient Support Services from Yokohama to Brazil.
+-   **[Combined Performance Analytics release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-performanceanalytics-release-notes.md)**  
+Consolidated page of all release notes for Performance Analytics from Yokohama to Brazil.
+-   **[Combined Performance Analyzer release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-performanceanalyzer-release-notes.md)**  
+Consolidated page of all release notes for Performance Analyzer from Yokohama to Brazil.
+-   **[Combined Platform Analytics experience release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-platformanalyticsexperience-release-notes.md)**  
+Consolidated page of all release notes for Platform Analytics experience from Yokohama to Brazil.
+-   **[Combined Playbook release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-playbook-release-notes.md)**  
+Consolidated page of all release notes for Playbook from Yokohama to Brazil.
+-   **[Combined Playbooks in Workflow Studio release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-playbooksinworkflowstudio-release-notes.md)**  
+Consolidated page of all release notes for Playbooks in Workflow Studio from Yokohama to Brazil.
+-   **[Combined Policy and Compliance Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-policyandcompliancemanagement-release-notes.md)**  
+Consolidated page of all release notes for Policy and Compliance Management from Yokohama to Brazil.
+-   **[Combined Portfolio Planning release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-portfolioplanning-release-notes.md)**  
+Consolidated page of all release notes for Portfolio Planning from Yokohama to Brazil.
+-   **[Combined Predictive AI for CSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-predictiveaiforcsm-release-notes.md)**  
+Consolidated page of all release notes for Predictive AI for CSM from Yokohama to Brazil.
+-   **[Combined Predictive Intelligence release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-predictiveintelligence-release-notes.md)**  
+Consolidated page of all release notes for Predictive Intelligence from Yokohama to Brazil. Predictive Intelligence was previously called Agent Intelligence.
+-   **[Combined Pre-Visit Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-previsitmanagement-release-notes.md)**  
+Consolidated page of all release notes for Pre-Visit Management from Yokohama to Brazil.
+-   **[Combined Pricing Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-pricingmanagement-release-notes.md)**  
+Consolidated page of all release notes for Pricing Management from Yokohama to Brazil.
+-   **[Combined Privacy Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-privacymanagement-release-notes.md)**  
+Consolidated page of all release notes for Privacy Management from Yokohama to Brazil.
+-   **[Combined Proactive Service Experience Workflows release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-proactiveserviceexperienceworkflows-release-notes.md)**  
+Consolidated page of all release notes for Proactive Service Experience Workflows from Yokohama to Brazil.
+-   **[Combined Problem Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-problemmanagement-release-notes.md)**  
+Consolidated page of all release notes for Problem Management from Yokohama to Brazil.
+-   **[Combined Process Mining release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-processmining-release-notes.md)**  
+Consolidated page of all release notes for Process Mining from Yokohama to Brazil.
+-   **[Combined Process Mining for ITSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-processminingforitsm-release-notes.md)**  
+Consolidated page of all release notes for Process Mining for ITSM from Yokohama to Brazil.
+-   **[Combined Product Catalog Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-productcatalogmanagement-release-notes.md)**  
+Consolidated page of all release notes for Product Catalog Management from Yokohama to Brazil.
+-   **[Combined Product Catalog Management and Pricing Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-productcatalogmanagementandpricingmanagement-release-notes.md)**  
+Consolidated page of all release notes for Product Catalog Management and Pricing Management from Yokohama to Brazil.
+-   **[Combined Product Support for Technology release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-productsupportfortechnology-release-notes.md)**  
+Consolidated page of all release notes for Product Support for Technology from Yokohama to Brazil.
+-   **[Combined Project Portfolio Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-projectportfoliomanagement-release-notes.md)**  
+Consolidated page of all release notes for Project Portfolio Management from Yokohama to Brazil.
+-   **[Combined Project Workspace release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-projectworkspace-release-notes.md)**  
+Consolidated page of all release notes for Project Workspace from Yokohama to Brazil.
+-   **[Combined Public Sector Digital Services release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-publicsectordigitalservices-release-notes.md)**  
+Consolidated page of all release notes for Public Sector Digital Services from Yokohama to Brazil.
+-   **[Combined Purchase Order Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-purchaseordermanagement-release-notes.md)**  
+Consolidated page of all release notes for Purchase Order Management from Yokohama to Brazil.
+-   **[Combined Quote Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-quotemanagement-release-notes.md)**  
+Consolidated page of all release notes for Quote Management from Yokohama to Brazil.
+-   **[Combined Recommended Actions for HRSD release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-recommendedactionsforhrsd-release-notes.md)**  
+Consolidated page of all release notes for Recommended Actions for HRSD from Yokohama to Brazil.
+-   **[Combined Recommended Actions for Operational Technology Service Management \(OTSM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-recommendedactionsforoperationaltechnologyservicemanagementotsm-release-notes.md)**  
+Consolidated page of all release notes for Recommended Actions for Operational Technology Service Management \(OTSM\) from Yokohama to Brazil.
+-   **[Combined Recruitment workspace release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-recruitmentworkspace-release-notes.md)**  
+Consolidated page of all release notes for Recruitment workspace from Yokohama to Brazil.
+-   **[Combined Redox Inbound Integration release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-redoxinboundintegration-release-notes.md)**  
+Consolidated page of all release notes for Redox Inbound Integration from Yokohama to Brazil.
+-   **[Combined Regulatory Change Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-regulatorychangemanagement-release-notes.md)**  
+Consolidated page of all release notes for Regulatory Change Management from Yokohama to Brazil.
+-   **[Combined ReleaseOps release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-releaseops-release-notes.md)**  
+Consolidated page of all release notes for ReleaseOps from Yokohama to Brazil.
+-   **[Combined Request Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-requestmanagement-release-notes.md)**  
+Consolidated page of all release notes for Request Management from Yokohama to Brazil.
+-   **[Combined Resource Management Workspace release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-resourcemanagementworkspace-release-notes.md)**  
+Consolidated page of all release notes for Resource Management Workspace from Yokohama to Brazil.
+-   **[Combined Retail release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-retail-release-notes.md)**  
+Consolidated page of all release notes for Retail from Yokohama to Brazil.
+-   **[Combined Retail applications release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-retailapplications-release-notes.md)**  
+Consolidated page of all release notes for Retail applications from Yokohama to Brazil.
+-   **[Combined Retail Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-retailcore-release-notes.md)**  
+Consolidated page of all release notes for Retail Core from Yokohama to Brazil.
+-   **[Combined Retail Strategic Portfolio Management Suite release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-retailstrategicportfoliomanagementsuite-release-notes.md)**  
+Consolidated page of all release notes for Retail Strategic Portfolio Management Suite from Yokohama to Brazil.
+-   **[Combined Retail Task Management Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-retailtaskmanagementcore-release-notes.md)**  
+Consolidated page of all release notes for Retail Task Management Core from Yokohama to Brazil.
+-   **[Combined Return Merchandise Authorization release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-returnmerchandiseauthorization-release-notes.md)**  
+Consolidated page of all release notes for Return Merchandise Authorization from Yokohama to Brazil.
+-   **[Combined Reverse Tunnel release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-reversetunnel-release-notes.md)**  
+Consolidated page of all release notes for Reverse Tunnel from Yokohama to Brazil.
+-   **[Combined RPA Hub release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-rpahub-release-notes.md)**  
+Consolidated page of all release notes for RPA Hub from Yokohama to Brazil.
+-   **[Combined Sales Agreement release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-salesagreement-release-notes.md)**  
+Consolidated page of all release notes for Sales Agreement from Yokohama to Brazil.
+-   **[Combined Sales Agreement Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-salesagreementmanagement-release-notes.md)**  
+Consolidated page of all release notes for Sales Agreement Management from Yokohama to Brazil.
+-   **[Combined Sales CRM for Telecommunications release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-salescrmfortelecommunications-release-notes.md)**  
+Consolidated page of all release notes for Sales CRM for Telecommunications from Yokohama to Brazil.
+-   **[Combined Sales CRM Mobile release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-salescrmmobile-release-notes.md)**  
+Consolidated page of all release notes for Sales CRM Mobile from Yokohama to Brazil.
+-   **[Combined Sales Forecasting release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-salesforecasting-release-notes.md)**  
+Consolidated page of all release notes for Sales Forecasting from Yokohama to Brazil.
+-   **[Combined Sales Territory Management​ release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-salesterritorymanagement-release-notes.md)**  
+Consolidated page of all release notes for Sales Territory Management​ from Yokohama to Brazil.
+-   **[Combined Security Center release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-securitycenter-release-notes.md)**  
+Consolidated page of all release notes for Security Center from Yokohama to Brazil.
+-   **[Combined Security Incident Response release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-securityincidentresponse-release-notes.md)**  
+Consolidated page of all release notes for Security Incident Response from Yokohama to Brazil.
+-   **[Combined Security Posture Control release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-securityposturecontrol-release-notes.md)**  
+Consolidated page of all release notes for Security Posture Control from Yokohama to Brazil.
+-   **[Combined Self-service and omnichannel engagement for CSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-selfserviceandomnichannelengagementforcsm-release-notes.md)**  
+Consolidated page of all release notes for Self-service and omnichannel engagement for CSM from Yokohama to Brazil.
+-   **[Combined Service Catalog release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicecatalog-release-notes.md)**  
+Consolidated page of all release notes for Service Catalog from Yokohama to Brazil.
+-   **[Combined Service Creator release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicecreator-release-notes.md)**  
+Consolidated page of all release notes for Service Creator from Yokohama to Brazil.
+-   **[Combined Service Exchange release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-serviceexchange-release-notes.md)**  
+Consolidated page of all release notes for Service Exchange from Yokohama to Brazil.
+-   **[Combined Service Exchange \(formerly Service Bridge\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-serviceexchangeformerlyservicebridge-release-notes.md)**  
+Consolidated page of all release notes for Service Exchange \(formerly Service Bridge\) from Yokohama to Brazil.
+-   **[Combined Service Graph Connector for Microsoft Defender for IoT \(Azure\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicegraphconnectorformicrosoftdefenderforiotazure-release-notes.md)**  
+Consolidated page of all release notes for Service Graph Connector for Microsoft Defender for IoT \(Azure\) from Yokohama to Brazil.
+-   **[Combined Service Graph Connector Integration for Claroty CTD release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicegraphconnectorintegrationforclarotyctd-release-notes.md)**  
+Consolidated page of all release notes for Service Graph Connector Integration for Claroty CTD from Yokohama to Brazil.
+-   **[Combined Service Level Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicelevelmanagement-release-notes.md)**  
+Consolidated page of all release notes for Service Level Management from Yokohama to Brazil.
+-   **[Combined Service Mapping release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicemapping-release-notes.md)**  
+Consolidated page of all release notes for Service Mapping from Yokohama to Brazil.
+-   **[Combined ServiceNow Add-in for Microsoft 365 release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowaddinformicrosoft365-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Add-in for Microsoft 365 from Yokohama to Brazil.
+-   **[Combined ServiceNow AI Lens release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowailens-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow AI Lens from Yokohama to Brazil.
+-   **[Combined ServiceNow AI Platform core feature release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowaiplatformcorefeature-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow AI Platform core feature from Yokohama to Brazil.
+-   **[Combined ServiceNow CLI release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowcli-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow CLI from Yokohama to Brazil.
+-   **[Combined ServiceNow IDE release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowide-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow IDE from Yokohama to Brazil.
+-   **[Combined ServiceNow Lux Lab for VS Code release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowluxlabforvscode-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Lux Lab for VS Code from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowotto-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for App Engine release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforappengine-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for App Engine from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Care Team Operations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforcareteamoperations-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Care Team Operations from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for CMDB release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforcmdb-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for CMDB from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Collaborative Work Management \(CWM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforcollaborativeworkmanagementcwm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Collaborative Work Management \(CWM\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforcollaborativeworkmanagementcwmcwm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Configuration Management Database \(CMDB\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforconfigurationmanagementdatabasecmdb-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Configuration Management Database \(CMDB\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Configure, Price, Quote \(CPQ\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforconfigurepricequotecpq-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Configure, Price, Quote \(CPQ\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Contract Management Pro release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforcontractmanagementpro-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Contract Management Pro from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Creator release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforcreator-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Creator from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Customer Service Management \(CSM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforcustomerservicemanagementcsm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Customer Service Management \(CSM\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Enterprise Architecture \(EA\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforenterprisearchitectureea-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Enterprise Architecture \(EA\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Field Service Management \(FSM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforfieldservicemanagementfsm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Field Service Management \(FSM\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Financial Services Operations \(FSO\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforfinancialservicesoperationsfso-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Financial Services Operations \(FSO\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for FSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforfsm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for FSM from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Hardware Asset Management \(HAM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforhardwareassetmanagementham-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Hardware Asset Management \(HAM\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for HR Service Delivery \(HRSD\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforhrservicedeliveryhrsd-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for HR Service Delivery \(HRSD\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for IT Operations Management \(ITOM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforitoperationsmanagementitom-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for IT Operations Management \(ITOM\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for IT Service Management \(ITSM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforitservicemanagementitsm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for IT Service Management \(ITSM\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Legal Service Delivery \(LSD\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforlegalservicedeliverylsd-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Legal Service Delivery \(LSD\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoformanufacturingcommercialoperationsmco-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Operational Sustainability Management Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforoperationalsustainabilitymanagementmanagement-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Operational Sustainability Management Management from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Operational Technology \(OT\) Service Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforoperationaltechnologyotservicemanagement-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Operational Technology \(OT\) Service Management from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Order Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforordermanagement-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Order Management from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Platform Analytics release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforplatformanalytics-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Platform Analytics from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Retail Service Management \(RSM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforretailservicemanagementrsm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Retail Service Management \(RSM\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Sales Automation release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforsalesautomation-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Sales Automation from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Sales Customer Relationship Management for Telecommunications release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforsalescustomerrelationshipmanagementfortelecommunications-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Sales Customer Relationship Management for Telecommunications from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Security Incident Response \(SIR\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforsecurityincidentresponsesir-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Security Incident Response \(SIR\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforsecurityincidentresponsesirsir-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Setup release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforsetup-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Setup from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Software Asset Management \(SAM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforsoftwareassetmanagementsam-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Software Asset Management \(SAM\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Source-to-Pay Operations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforsourcetopayoperations-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Source-to-Pay Operations from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Strategic Portfolio Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforstrategicportfoliomanagement-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Strategic Portfolio Management from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottofortelecommunicationsmediaandtechnologytmt-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforthirdpartyriskmanagementtprm-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Third-party Risk Management \(TPRM\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Unified Security Exposure Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforunifiedsecurityexposuremanagement-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Unified Security Exposure Management from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Vault release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforvault-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Vault from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Virtual Agent release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforvirtualagent-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Virtual Agent from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Workplace Service Delivery \(WSD\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforworkplaceservicedeliverywsd-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Workplace Service Delivery \(WSD\) from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto for Zero Copy Connector release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoforzerocopyconnector-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Zero Copy Connector from Yokohama to Brazil.
+-   **[Combined ServiceNow Otto in Platform Analytics release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowottoinplatformanalytics-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto in Platform Analytics from Yokohama to Brazil.
+-   **[Combined ServiceNow Quote Experience release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowquoteexperience-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Quote Experience from Yokohama to Brazil.
+-   **[Combined ServiceNow SDK release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowsdk-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow SDK from Yokohama to Brazil.
+-   **[Combined ServiceNow Studio release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowstudio-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Studio from Yokohama to Brazil.
+-   **[Combined ServiceNow Vault release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicenowvault-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Vault from Yokohama to Brazil.
+-   **[Combined Service Observability release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-serviceobservability-release-notes.md)**  
+Consolidated page of all release notes for Service Observability from Yokohama to Brazil.
+-   **[Combined Service Operations Workspace for ITSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-serviceoperationsworkspaceforitsm-release-notes.md)**  
+Consolidated page of all release notes for Service Operations Workspace for ITSM from Yokohama to Brazil.
+-   **[Combined Service Portal release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-serviceportal-release-notes.md)**  
+Consolidated page of all release notes for Service Portal from Yokohama to Brazil.
+-   **[Combined Service Portfolio Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-serviceportfoliomanagement-release-notes.md)**  
+Consolidated page of all release notes for Service Portfolio Management from Yokohama to Brazil.
+-   **[Combined Service Reliability Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-servicereliabilitymanagement-release-notes.md)**  
+Consolidated page of all release notes for Service Reliability Management from Yokohama to Brazil.
+-   **[Combined Sidebar release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-sidebar-release-notes.md)**  
+Consolidated page of all release notes for Sidebar from Yokohama to Brazil.
+-   **[Combined Simplified IT Service Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-simplifieditservicemanagement-release-notes.md)**  
+Consolidated page of all release notes for Simplified IT Service Management from Yokohama to Brazil.
+-   **[Combined Site Reliability Operations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-sitereliabilityoperations-release-notes.md)**  
+Consolidated page of all release notes for Site Reliability Operations from Yokohama to Brazil.
+-   **[Combined Skills Foundation release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-skillsfoundation-release-notes.md)**  
+Consolidated page of all release notes for Skills Foundation from Yokohama to Brazil.
+-   **[Combined Smart Assessment Engine release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-smartassessmentengine-release-notes.md)**  
+Consolidated page of all release notes for Smart Assessment Engine from Yokohama to Brazil.
+-   **[Combined Software Asset Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-softwareassetmanagement-release-notes.md)**  
+Consolidated page of all release notes for Software Asset Management from Yokohama to Brazil.
+-   **[Combined Source-to-Pay Operations Integrations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-sourcetopayoperationsintegrations-release-notes.md)**  
+Consolidated page of all release notes for Source-to-Pay Operations Integrations from Yokohama to Brazil.
+-   **[Combined Sourcing and Procurement Operations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-sourcingandprocurementoperations-release-notes.md)**  
+Consolidated page of all release notes for Sourcing and Procurement Operations from Yokohama to Brazil.
+-   **[Combined SPM Enterprise-Wide Deployment release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-spmenterprisewidedeployment-release-notes.md)**  
+Consolidated page of all release notes for SPM Enterprise-Wide Deployment from Yokohama to Brazil.
+-   **[Combined SQL API release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-sqlapi-release-notes.md)**  
+Consolidated page of all release notes for SQL API from Yokohama to Brazil.
+-   **[Combined Strategic Planning release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-strategicplanning-release-notes.md)**  
+Consolidated page of all release notes for Strategic Planning from Yokohama to Brazil.
+-   **[Combined Strategic Portfolio Management for Telecom release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-strategicportfoliomanagementfortelecom-release-notes.md)**  
+Consolidated page of all release notes for Strategic Portfolio Management for Telecom from Yokohama to Brazil.
+-   **[Combined Strategic Spend Tracking for PPM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-strategicspendtrackingforppm-release-notes.md)**  
+Consolidated page of all release notes for Strategic Spend Tracking for PPM from Yokohama to Brazil.
+-   **[Combined Stream Connect release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-streamconnect-release-notes.md)**  
+Consolidated page of all release notes for Stream Connect from Yokohama to Brazil.
+-   **[Combined Subscription Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-subscriptionmanagement-release-notes.md)**  
+Consolidated page of all release notes for Subscription Management from Yokohama to Brazil.
+-   **[Combined Supplier Lifecycle Operations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-supplierlifecycleoperations-release-notes.md)**  
+Consolidated page of all release notes for Supplier Lifecycle Operations from Yokohama to Brazil.
+-   **[Combined Synthetic monitoring release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-syntheticmonitoring-release-notes.md)**  
+Consolidated page of all release notes for Synthetic monitoring from Yokohama to Brazil.
+-   **[Combined System Localization release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-systemlocalization-release-notes.md)**  
+Consolidated page of all release notes for System Localization from Yokohama to Brazil.
+-   **[Combined System Update Sets release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-systemupdatesets-release-notes.md)**  
+Consolidated page of all release notes for System Update Sets from Yokohama to Brazil.
+-   **[Combined Table Builder release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-tablebuilder-release-notes.md)**  
+Consolidated page of all release notes for Table Builder from Yokohama to Brazil.
+-   **[Combined Talent Development Core release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-talentdevelopmentcore-release-notes.md)**  
+Consolidated page of all release notes for Talent Development Core from Yokohama to Brazil.
+-   **[Combined Talent Feedback release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-talentfeedback-release-notes.md)**  
+Consolidated page of all release notes for Talent Feedback from Yokohama to Brazil.
+-   **[Combined Talent profile release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-talentprofile-release-notes.md)**  
+Consolidated page of all release notes for Talent profile from Yokohama to Brazil.
+-   **[Combined Telecommunication Network Inventory release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-telecommunicationnetworkinventory-release-notes.md)**  
+Consolidated page of all release notes for Telecommunication Network Inventory from Yokohama to Brazil.
+-   **[Combined Telecommunications Customer 360 release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-telecommunicationscustomer360-release-notes.md)**  
+Consolidated page of all release notes for Telecommunications Customer 360 from Yokohama to Brazil.
+-   **[Combined Telecommunications Network Inventory release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-telecommunicationsnetworkinventory-release-notes.md)**  
+Consolidated page of all release notes for Telecommunications Network Inventory from Yokohama to Brazil.
+-   **[Combined Telecommunications Service Operations Management \(TSOM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-telecommunicationsserviceoperationsmanagementtsom-release-notes.md)**  
+Consolidated page of all release notes for Telecommunications Service Operations Management \(TSOM\) from Yokohama to Brazil.
+-   **[Combined Theme Builder release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-themebuilder-release-notes.md)**  
+Consolidated page of all release notes for Theme Builder from Yokohama to Brazil.
+-   **[Combined Third-party Risk Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-thirdpartyriskmanagement-release-notes.md)**  
+Consolidated page of all release notes for Third-party Risk Management from Yokohama to Brazil.
+-   **[Combined Threat Intelligence Security Center release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-threatintelligencesecuritycenter-release-notes.md)**  
+Consolidated page of all release notes for Threat Intelligence Security Center from Yokohama to Brazil.
+-   **[Combined UI Builder release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-uibuilder-release-notes.md)**  
+Consolidated page of all release notes for UI Builder from Yokohama to Brazil.
+-   **[Combined Unified Security Exposure Management release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-unifiedsecurityexposuremanagement-release-notes.md)**  
+Consolidated page of all release notes for Unified Security Exposure Management from Yokohama to Brazil.
+-   **[Combined Unified Security Exposure Management \(USEM\) release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-unifiedsecurityexposuremanagementusem-release-notes.md)**  
+Consolidated page of all release notes for Unified Security Exposure Management \(USEM\) from Yokohama to Brazil.
+-   **[Combined Universal Request release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-universalrequest-release-notes.md)**  
+Consolidated page of all release notes for Universal Request from Yokohama to Brazil.
+-   **[Combined Upgrade Center release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-upgradecenter-release-notes.md)**  
+Consolidated page of all release notes for Upgrade Center from Yokohama to Brazil.
+-   **[Combined Upgrade Console release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-upgradeconsole-release-notes.md)**  
+Consolidated page of all release notes for Upgrade Console from Yokohama to Brazil.
+-   **[Combined Usage Insights release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-usageinsights-release-notes.md)**  
+Consolidated page of all release notes for Usage Insights from Yokohama to Brazil.
+-   **[Combined Vendor Management Workspace release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-vendormanagementworkspace-release-notes.md)**  
+Consolidated page of all release notes for Vendor Management Workspace from Yokohama to Brazil.
+-   **[Combined Virtual Agent release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-virtualagent-release-notes.md)**  
+Consolidated page of all release notes for Virtual Agent from Yokohama to Brazil.
+-   **[Combined Visa Spoke release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-visaspoke-release-notes.md)**  
+Consolidated page of all release notes for Visa Spoke from Yokohama to Brazil.
+-   **[Combined Vulnerability Response release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-vulnerabilityresponse-release-notes.md)**  
+Consolidated page of all release notes for Vulnerability Response from Yokohama to Brazil.
+-   **[Combined Vulnerability Response integrations release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-vulnerabilityresponseintegrations-release-notes.md)**  
+Consolidated page of all release notes for Vulnerability Response integrations from Yokohama to Brazil.
+-   **[Combined Vulnerability Response Integration with Claroty CTD release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-vulnerabilityresponseintegrationwithclarotyctd-release-notes.md)**  
+Consolidated page of all release notes for Vulnerability Response Integration with Claroty CTD from Yokohama to Brazil.
+-   **[Combined Walk-up Experience release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-walkupexperience-release-notes.md)**  
+Consolidated page of all release notes for Walk-up Experience from Yokohama to Brazil.
+-   **[Combined Workforce Optimization for CSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-workforceoptimizationforcsm-release-notes.md)**  
+Consolidated page of all release notes for Workforce Optimization for CSM from Yokohama to Brazil.
+-   **[Combined Workforce Optimization for Customer Service CSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-workforceoptimizationforcustomerservicecsm-release-notes.md)**  
+Consolidated page of all release notes for Workforce Optimization for Customer Service CSM from Yokohama to Brazil.
+-   **[Combined Workforce Optimization for ITSM release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-workforceoptimizationforitsm-release-notes.md)**  
+Consolidated page of all release notes for Workforce Optimization for ITSM from Yokohama to Brazil.
+-   **[Combined Workspace release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-workspace-release-notes.md)**  
+Consolidated page of all release notes for Workspace from Yokohama to Brazil.
+-   **[Combined Zero Copy Connector for ERP release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-zerocopyconnectorforerp-release-notes.md)**  
+Consolidated page of all release notes for Zero Copy Connector for ERP from Yokohama to Brazil.
+-   **[Combined Zero Copy Connector Hub release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-zerocopyconnectorhub-release-notes.md)**  
+Consolidated page of all release notes for Zero Copy Connector Hub from Yokohama to Brazil.
+-   **[Combined Zero Copy Connectors release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-zerocopyconnectors-release-notes.md)**  
+Consolidated page of all release notes for Zero Copy Connectors from Yokohama to Brazil.
+-   **[Combined Zing text indexing and search engine release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/brazil-yokohama-zingtextindexingandsearchengine-release-notes.md)**  
+Consolidated page of all release notes for Zing text indexing and search engine from Yokohama to Brazil.
+

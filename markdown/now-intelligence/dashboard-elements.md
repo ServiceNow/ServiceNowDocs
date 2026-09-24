@@ -3,9 +3,9 @@ title: Dashboard elements
 description: Elements refer to the visual objects you can place on a dashboard, including filters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboard-elements.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -14,23 +14,23 @@ breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analyt
 
 Elements refer to the visual objects you can place on a dashboard, including filters.
 
-Dashboards contain a combination of visual elements or funnels to show data. Available elements include Data visualization, Divider, Filter, Filter Group, Heading, Image, List, ServiceNow Otto context menu, Process Mining - Map, Rich Text, Workbench, and Usage Insights funnel.
+Dashboards contain a combination of visual [elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-glossary.md) or funnels to show data. Available elements include Data visualization, Divider, Filter, Filter Group, Heading, Image, List, Process Mining - Map, Rich Text, Workbench, and Usage Insights funnel.
 
-\[Omitted image "add-new-element-menu.png"\] Alt text: Add new element menu showing filter group, heading, image, list, ServiceNow Otto context menu, Process Mining Map, Rich text, and Usage Insights Funnel. Not shown: Data visualization, divider, Filter, Workbench
+\[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: Untitled dashboard with the Add new element menu expanded to show elements you can add to the dashboard
 
--   **[Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md)**
+-   **[Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/analytics-center-data-visualizations.md)**
 
     Data visualizations enable you to present a visual representation of current instance data or temporary data that you’ve imported. Data visualizations include visualizations that you create in the dashboard designer and data visualizations from the library.
 
     **Important:** You cannot place reports or Performance Analytics widgets on a Platform Analytics dashboard. You must create data visualizations instead.
 
--   **[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md)**
+-   **[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/interactive-filters-workspace.md)**
 
     Filters enable users to filter the visualizations on a dashboard based on specified criteria. You can put filters either on the individual tabs or above the tabs so that the filter applies to elements every tab. Filters include both data filters and domain filters. You can create filters in the dashboard designer or select them from the library.
 
--   **[Filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-filter-group.md)**
+-   **[Filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-filter-group.md)**
 
-    A set of filters that you can apply simultaneously. Use when you have multiple filters that can apply to multiple visualizations.
+    A set of [filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-glossary.md) that you can apply simultaneously. Use when you have multiple filters that can apply to multiple visualizations.
 
 -   **[Heading](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/now-components/now-heading/usage)**
 
@@ -42,21 +42,19 @@ Dashboards contain a combination of visual elements or funnels to show data. Ava
 
     Image elements hold static or animated images on the dashboard.
 
--   **[Process Mining - Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-po-map.md)**
+-   **[Process Mining - Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-po-map.md)**
 
     Map the different states that are part of your process and the transitions between those states. See which states the objects of the process are in and the speed with which they change state. Requires an existing Process Mining project.
 
--   **[List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-analytics-list.md)**
+-   **[List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-analytics-list.md)**
 
     Lists show table records. They support Platform Analytics filters and drilling down from data visualizations by default.
-
--   **ServiceNow Otto context menu**
-
-    The ServiceNow Otto context menu enables viewers of the dashboard to create AI-generated summaries or insights based on the data in the dashboards or tabs.
 
 -   **Rich text**
 
     Rich text elements hold text that you can format either as text or as HTML, including font selection, text size, highlighting, and hyperlinks. Note that to edit in HTML markup, you open the HTML editor in the Configuration panel, and select the code tag icon &lt; &gt;.
+
+    Select **Allow translation** to add the content of a rich text element to the platform translation pipeline. Users will see the element in their session language if a translation record exists.
 
 -   **Workbench**
 
@@ -64,7 +62,7 @@ Dashboards contain a combination of visual elements or funnels to show data. Ava
 
 -   **Funnel**
 
-    Dashboards can display [funnels that you created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/create-funnel.md) in Usage Insights. Funnels can show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
+    Dashboards can display [funnels that you created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/create-funnel.md) in Usage Insights. Funnels can show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
 
 
 ## Default element dimensions
@@ -84,10 +82,10 @@ Each element has a default height and width when you place it on the stage to co
     11 columns by 11 rows
 
 
-**Parent Topic:**[Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ac-elements.md)
+**Parent Topic:**[Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ac-elements.md)
 
 **Related topics**  
 
 
-[Add visual elements to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-elements-to-a-dashboard.md)
+[Add visual elements to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-elements-to-a-dashboard.md)
 

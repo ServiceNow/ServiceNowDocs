@@ -3,9 +3,9 @@ title: Mobile App Builder record screen
 description: Use the Mobile App Builder record screen as the workspace where you perform all your mobile configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mab-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---

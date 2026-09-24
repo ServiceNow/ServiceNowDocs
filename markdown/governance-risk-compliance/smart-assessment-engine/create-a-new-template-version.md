@@ -1,30 +1,30 @@
 ---
 title: Create a template version
-description: In Smart Assessment Engine, create a new template version when you must update the questions, instructions, or structure of a published template without disrupting assessments that are already in progress. Existing assessments continue to use the version they were triggered from, and new assessments triggered after you publish the new version use the new template.
+description: Create a new template version when you must update the questions, instructions, or structure of a published template without disrupting assessments that are already in progress. Existing assessments continue to use the version they were triggered from, and new assessments triggered after you publish the new version use the new template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/create-a-new-template-version.html
-release: australia
+release: brazil
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Template versioning, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Create a template version
 
-In Smart Assessment Engine, create a new template version when you must update the questions, instructions, or structure of a published template without disrupting assessments that are already in progress. Existing assessments continue to use the version they were triggered from, and new assessments triggered after you publish the new version use the new template.
+Create a new template version when you must update the questions, instructions, or structure of a published template without disrupting assessments that are already in progress. Existing assessments continue to use the version they were triggered from, and new assessments triggered after you publish the new version use the new template.
 
 ## Before you begin
 
-The template must be in the **Published** or **Retired** state and must have at least one assessment triggered from it. You can't create a new version from a draft template or from a published template that has no assessments yet.
-
 Role required: sn\_smart\_asmt.template\_manager
+
+The template must be in the **Published** or **Retired** state and must have at least one assessment triggered from it. You can't create a new version from a draft template or from a published template that has no assessments yet.
 
 ## About this task
 
-Trigger points configured against the template don't require updates. For an overview of how versioning interacts with copy response, reporting, and post-assessment actions, see [Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md).
+Trigger points configured against the template don't require updates. For an overview of how versioning interacts with copy response, reporting, and post-assessment actions, see [Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md).
 
 ## Procedure
 
@@ -44,15 +44,15 @@ Trigger points configured against the template don't require updates. For an ove
 
 5.  Edit the new version as needed.
 
-    You can change any element that is editable on a draft template, including question text, question type, option sets, sections, and instructions. For details on populating a template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+    You can change any element that is editable on a draft template, including question text, question type, option sets, sections, and instructions. For details on populating a template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
 6.  Review the post-assessment actions that were carried over from the previous version.
 
     When you create a new version, all post-assessment actions from the previous version are copied to the new version and set to **Draft**. You can't configure or publish post-assessment actions while the template is in draft state. Make a note of any actions that depend on questions you modified so that you can update them after publishing the new version.
 
-7.  Publish the new version.
+7.  When you have finished editing, publish the new version.
 
-    On publish, the system moves the previously published version to the **Retired** state and uses the new version as the source for all subsequent assessments. Assessments that were already triggered from the previous version continue to use that version. For more information on this policy, see [Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md).
+    On publish, the system moves the previously published version to the **Retired** state and uses the new version as the source for all subsequent assessments. Assessments that were already triggered from the previous version continue to use that version. For more information on this policy, see [Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md).
 
 
 ## Result
@@ -61,5 +61,5 @@ The new template version is published and is now the source for all subsequent a
 
 ## What to do next
 
-After you publish the new version, open the carried-over post-assessment actions, update any actions that depend on questions you modified in the new version, and publish them. For information about configuring post-assessment actions, see [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
+After you publish the new version, open the carried-over post-assessment actions, update any actions that depend on questions you modified in the new version, and publish them. For information about configuring post-assessment actions, see [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
 

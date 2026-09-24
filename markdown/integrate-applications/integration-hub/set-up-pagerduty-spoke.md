@@ -3,7 +3,7 @@ title: Set up PagerDuty spoke
 description: Set up an outbound integration between your ServiceNow instance and the PagerDuty server with a connection and credential record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-pagerduty-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

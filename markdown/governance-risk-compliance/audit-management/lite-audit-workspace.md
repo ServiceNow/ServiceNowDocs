@@ -3,13 +3,13 @@ title: Audit Workspace limited
 description: The Lite Audit workspace is a simplified version of the Audit Management workspace. In this workspace, you can access engagements, add existing entities to an engagement, and create activities. If the advanced core store app is installed, evidence\(s\) can also be associated with the engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/lite-audit-workspace.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Audit Workspace limited
@@ -60,9 +60,9 @@ Scoping an entity in an engagement identifies which entities are involved in the
 
 ## Activity Audit task
 
-Audit activities involve collecting and documenting evidence to show that the organization complies with external regulations and internal policies. For more information, see [Create an audit task activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnActivity.md).
+Audit activities involve collecting and documenting evidence to show that the organization complies with external regulations and internal policies. For more information, see [Create an audit task activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/t_CreateAnActivity.md).
 
 ## Evidence request
 
-Audit evidence refers to all information used by auditors to form their audit opinion. This includes data from accounting records, financial statements, and other relevant sources. Evidence is cumulative and may come from current audit procedures as well as prior audits. For more information, see [Request evidence for audit using two-step process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/request-evidence.md).
+Audit evidence refers to all information used by auditors to form their audit opinion. This includes data from accounting records, financial statements, and other relevant sources. Evidence is cumulative and may come from current audit procedures as well as prior audits. For more information, see [Request evidence for audit using two-step process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/request-evidence.md).
 

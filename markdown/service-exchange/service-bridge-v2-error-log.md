@@ -3,11 +3,11 @@ title: Service Exchange error log
 description: Track errors on recent transactions, provide connection status, run health checks, and provide recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-error-log.html
-release: australia
+release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Service Exchange]
 ---
@@ -18,7 +18,7 @@ Track errors on recent transactions, provide connection status, run health check
 
 ## About this task
 
-**Note:** The Australia release, includes a framework to capture Service Exchange errors. Currently, the table displays the following known errors:
+**Note:** The Brazil release, includes a framework to capture Service Exchange errors. Currently, the table displays the following known errors:
 
 1.  Global Script Include check: Checks if this script has been installed and if it is the latest version.
 2.  During registration for provider: Captures errors from the creation of the registration task through closed complete. An email notification with the list of errors captured in the last one hour along with the cause and solution is sent to the Service Exchange administrator.

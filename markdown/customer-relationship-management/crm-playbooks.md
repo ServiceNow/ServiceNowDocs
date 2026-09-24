@@ -3,9 +3,9 @@ title: Playbooks
 description: Playbooks are structured workflows that guide users, agents, and technicians step-by-step through the activities required to complete a business process. They are available as discrete applications for Sales CRM, Customer Service Management \(CSM\), Field Service Management \(FSM\), and individual industry solutions, and are installed separately from the core CRM products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-playbooks.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Workspace experience, Customer Relationship Management]
 ---
@@ -57,15 +57,15 @@ Playbooks ensure that the correct process is applied consistently across every r
 
     FSO includes a broad set of predefined playbooks covering card operations, complaint management, onboarding, loan and deposit operations, and insurance servicing.
 
--   **Public Sector Digital Services: government service delivery**
-
-    A government agency configures playbooks for benefit applications, license renewals, and non-emergency service requests, each reflecting the stages and activities agents need to complete for that case type. Guided decision activities branch based on constituent responses to recommend the correct next action. Administrators can also configure optional activities that agents can insert during a playbook run when a case requires it. For example, scheduling a follow-up appointment or requesting additional documentation from a constituent. The corresponding playbook appears automatically in the workspace when an agent creates a case, or when a constituent submits a request through the Government Service Portal.
-
-    Public Sector Digital Services includes predefined playbooks for social benefits, license and permit, information request, and service request cases.
-
 -   **Healthcare and Life Sciences: medical device management**
 
-    A healthcare organization configures playbooks to guide clinical engineers through the review and processing of AEM requests for medical devices, from initial request capture through assessment, regulatory review, and final approval. At each stage, configured activities ensure the required documentation and sign-offs are completed before the process can advance.
+    A healthcare organization configures playbooks to guide clinical engineers through the review and processing of AEM requests for medical devices, from initial request capture through assessment, regulatory review, and final approval. At each stage, configured activities ensure the required documentation and sign-offs are completed before the process can advance. Healthcare and Life Sciences includes predefined playbooks for enrollment cases and medical device workflows in the Patient Support Services and Healthcare CMMS applications.
+
+-   **Public Sector Digital Services: government service delivery**
+
+    A government agency configures playbooks for benefit applications, license renewals, and non-emergency service requests, each reflecting the stages and activities agents need to complete for that case type. Guided decision activities branch based on constituent responses to recommend the correct next action.
+
+    Administrators can also configure optional activities that agents can insert during a playbook run when a case requires it. For example, scheduling a follow-up appointment or requesting additional documentation from a constituent. The corresponding playbook appears automatically in the workspace when an agent creates a case, or when a constituent submits a request through the Government Service Portal. Public Sector Digital Services includes predefined playbooks for social benefits, license and permit, information request, and service request cases.
 
 
 **Note:** Playbook applications must be installed separately from the core CSM and FSM products. They are available from the ServiceNow Store. Some applications have dependencies on additional plugins. For example, Case Playbooks for Onboarding and Complaints require the Customer Service Case Types plugin \(com.snc.csm\_case\_types\) and the Customer Service Case Action Status plugin \(com.snc.csm\_action\_status\). Review the application listing in the Store for full dependency and licensing information before installation.
@@ -73,13 +73,13 @@ Playbooks ensure that the correct process is applied consistently across every r
 **Related topics**  
 
 
-[Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/playbooks.md)
+[Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/playbooks.md)
 
-[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/playbooks-fso-apps.md)
+[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/playbooks-fso-apps.md)
 
-[Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/playbooks-psds-exploring.md)
+[Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/playbooks-psds-exploring.md)
 
-[Configuring playbooks for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-config-playbook.md)
+[Configuring playbooks for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-config-playbook.md)
 
-[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-customer-engagement-sequences.md)
 

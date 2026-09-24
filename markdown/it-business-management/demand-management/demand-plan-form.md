@@ -3,11 +3,11 @@ title: Cost plan form
 description: Use the cost plan form to capture the costs of demands.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/demand-plan-form.html
-release: australia
+release: brazil
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -79,7 +79,7 @@ Entered currency
 
 </td><td>
 
-Currency for the cost plan.If the selected currency is different from the default currency configured in the Financial Management application, the [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the cost of the demand.
+Currency for the cost plan.If the selected currency is different from the default currency configured in the Financial Management application, the [budget reference rate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-collaboration/c_BudgetReferenceRates.md) is used to calculate the cost of the demand.
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Cost type
 
 </td><td>
 
-Cost type of the plan. See [Create a cost type definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAResourceTypeDefinition.md).
+Cost type of the plan. See [Create a cost type definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAResourceTypeDefinition.md).
 
 </td></tr><tr><td>
 
@@ -174,5 +174,5 @@ Total actual cost
 Total actual costs of the cost plan. This value is rolled up from cost breakdown.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/demand-management-forms.md)
 

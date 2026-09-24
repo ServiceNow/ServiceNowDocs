@@ -3,13 +3,13 @@ title: Matrix relationship form
 description: The table gives a description of the field values for the Matrix relationship form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/matrix-rel-audit-report-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure matrix report registry to set up base table for audit matrix report, Matrix report in Audit Workspace, Audit Workspace for the Auditor, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure matrix report registry base table, Matrix report in Audit Workspace, Audit Workspace for the Auditor, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Matrix relationship form

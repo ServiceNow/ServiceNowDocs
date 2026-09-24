@@ -3,9 +3,9 @@ title: Service qualification requests
 description: Use the Technical Service Qualification API to evaluate a service request for feasibility and availability before you submit an order for fulfillment in the Order Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-tsq-about.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2025-10-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -37,7 +37,7 @@ The Technical Service Qualification process enables the service order managers t
 
 ## Qualification process
 
-Customer orders that have the fulfillment type as **Qualify** are captured from third-party customer order management systems through the [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-reference.md). You can use this API, which is a ServiceNow implementation of the TMF645 API, to request the qualification of services for:
+Customer orders that have the fulfillment type as **Qualify** are captured from third-party customer order management systems through the [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-reference.md). You can use this API, which is a ServiceNow implementation of the TMF645 API, to request the qualification of services for:
 
 -   One or more service specifications with characteristics.
 
@@ -63,21 +63,21 @@ Order fulfillment managers can review customer orders that are captured through 
 2.  The system decomposes the order line items into resource facing domain orders \(RFS\) based on catalog definition.
 3.  The Order Management system coordinates and processes the technical service qualification request and returns the response to the external inventory system.
 
--   **[Review and approve service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-approve.md)**  
+-   **[Review and approve service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-tsq-approve.md)**  
 Review and approve customer orders captured through the Technical Service Qualification API.
--   **[Process Qualification Request subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-subflow.md)**  
+-   **[Process Qualification Request subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-tsq-subflow.md)**  
 The Process Qualification Request subflow generates a qualification request based on the customer order, sends the request to the third party inventory system, and executes the integration request.
--   **[Edit the Order Qualification Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/edit-order-mgt-tsq-spoke.md)**  
+-   **[Edit the Order Qualification Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/edit-order-mgt-tsq-spoke.md)**  
 Use the Order Qualification Request integration request type in the Order Management for Telecommunications application to process the customer order qualification requests and retrieve the results from the external inventory systems.
--   **[Alternate proposal for service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-alternate.md)**  
+-   **[Alternate proposal for service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-tsq-alternate.md)**  
 Learn how you can provide alternate proposals if a service qualification isn't met.
 
-**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-service-orders.md)
+**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/managing-service-orders.md)
 
 **Related topics**  
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-configuring.md)
 
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md)
 

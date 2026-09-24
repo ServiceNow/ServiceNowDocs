@@ -3,11 +3,11 @@ title: Bind data to UI Builder pages using controllers \(advanced feature\)
 description: Controllers simplify the linking of data and event logic to enable component presets in UI Builder.Add a data controller to your page to use component presets.Configure a controller to pull data from a table.Delete a controller that you no longer need in UI Builder.The controller public API defines the output data that a controller provides to a preset. This includes the property values and handled events used by a component when a preset is selected. Property and event information is available to view in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/controllers.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Dynamically expose data in UI Builder pages \(advanced feature\), A
 
 Controllers simplify the linking of data and event logic to enable component presets in UI Builder.
 
-Controllers enable page builders to easily connect data and scripts to their pages in UI Builder. A controller is a type of data resource that [component presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) use to bind data to components. Controllers differ from other data resources in that they contain data and event logic that enables presets for components. A controller brings data from the server to a component, and it brings updated data back to the server based on interactions with the component. For more information about component presets, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/presets.md).
+Controllers enable page builders to easily connect data and scripts to their pages in UI Builder. A controller is a type of data resource that [component presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/ui-builder-glossary.md) use to bind data to components. Controllers differ from other data resources in that they contain data and event logic that enables presets for components. A controller brings data from the server to a component, and it brings updated data back to the server based on interactions with the component. For more information about component presets, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/presets.md).
 
 Controllers are added by default when you use a UI Builder page template. You can add controllers to UI Builder pages without a controller within the data resources drawer or by selecting a component preset after adding a component to a page. You can view which controllers are configured on your page by opening the data resources drawer.
 
@@ -41,7 +41,7 @@ Not all components work with controllers, but you can easily see which ones do i
 
 \[Omitted image "presets-highlighted-components.png"\] Alt text: Highlighted components with preset label.
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/data-resources.md)
 
 ## Add a controller
 
@@ -53,7 +53,7 @@ Role required: admin
 
 ### About this task
 
-The record controller is the only controller that you can add to a page in Australia.
+The record controller is the only controller that you can add to a page in Brazil.
 
 ### Procedure
 
@@ -61,11 +61,11 @@ The record controller is the only controller that you can add to a page in Austr
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select the **+** icon in the data resource drawer.
 
@@ -106,11 +106,11 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Create or open a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select the controller that you want to edit in the **Data and scripts** drawer.
 
@@ -147,7 +147,7 @@ Controllers cannot be deleted from pages created with a page template.
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Open the page with the controller you want to delete.
 
@@ -172,7 +172,7 @@ The component property values in a preset can be static values or paths to contr
 
 You can view preset properties in the UIB data inspector. Knowing the available values helps you understand how a component will behave in your design and helps you identify any properties in the preset you might want to override.
 
-This procedure assumes that you have placed a component with a preset on the page and have configured a controller. For instructions, see [Add a controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md).
+This procedure assumes that you have placed a component with a preset on the page and have configured a controller. For instructions, see [Add a controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/controllers.md).
 
 The configuration tab displays preset property values as a path to the controller output. The base data path is expressed as `@data.<controller_name>`. The remainder of the path is built using the contents of the categories within the controller data hierarchy. You can use this path to view the current values for the record for which the controller has been configured.
 

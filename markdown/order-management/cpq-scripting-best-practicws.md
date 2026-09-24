@@ -3,9 +3,9 @@ title: General guidelines for scripting
 description: Write efficient scripts using a JavaScript-like language. Follow these general guidelines for naming, variables, and table access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-scripting-best-practicws.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up enrichments and rules scripting, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -121,7 +121,7 @@ Choose names that are meaningful and describe the purpose of the variable or fun
 
 ## Name variables consistently
 
-Consistent naming conventions enhance code readability and maintainability. Choose either camelCase or snake\_case and stick to it. CPQ field variable names use camelCase, so most organizations stay with this convention for readability.
+Consistent naming conventions enhance code readability and maintainability. Choose either camelCase or snake\_case and stick to it. Logik field variable names use camelCase, so most organizations stay with this convention for readability.
 
 ```
 1 // camelCase
@@ -173,12 +173,12 @@ Choose variable declaration based on scope and mutability requirements. Use `con
 
 Excessive table queries can impact performance. Minimize queries by fetching necessary data once and storing it in variables.
 
-To learn about general guideliines for using the `lookup` function, see [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/table_queries.md).
+To learn about general guideliines for using the `lookup` function, see [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/table_queries.md).
 
 **Related topics**  
 
 
-[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/scripting.md)
+[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/scripting.md)
 
-[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-logik-io-scripting-language-reference.md)
 

@@ -3,11 +3,11 @@ title: Configuring additional columns for Prioritization in Strategic Planning
 description: Customize the default column configuration for the Prioritization page of your portfolio plan so that your planning managers can select the appropriate data points they need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/customizing-the-default-backlog-view-in-alignment-planner-workspace.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -27,9 +27,9 @@ Add extra columns as choices to this side panel or remove any of the default col
 -   If the portfolio plan has multiple item types associated to it, update the view configuration of the Planning Item \[sn\_align\_core\_planning\_item\] table.
 -   If the portfolio plan has a single item type associated to it, update the view configuration of the relevant table.
 
-From the form view of the identified table, change the view to **APW Prioritization**, and update the list layout. For the detailed procedure of updating the layout configuration for a list, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheListLayout.md).
+From the form view of the identified table, change the view to **APW Prioritization**, and update the list layout. For the detailed procedure of updating the layout configuration for a list, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfigureTheListLayout.md).
 
 **Note:** List v3 is no longer available for new deployments. If you are already using list v3, you may continue to do so, but in this case some of the functionalities might not be available.
 
-**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
+**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
 

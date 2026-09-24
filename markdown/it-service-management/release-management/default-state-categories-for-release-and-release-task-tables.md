@@ -3,11 +3,11 @@ title: Default state categories for Release and Release task tables
 description: Understand how the different states of the Release \[rm\_release\] and Release Task \[rm\_task\] tables are configured by default. Use this information to customize the states according to your organizational release processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/default-state-categories-for-release-and-release-task-tables.html
-release: australia
+release: brazil
 product: Release Management
 classification: release-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Release Management concepts, Release Management, IT Service Management]
 ---
@@ -44,5 +44,5 @@ Understand how the different states of the Release \[rm\_release\] and Release T
 |work\_in\_progress\_states|2|
 |skipped\_states|4, 7|
 
-**Parent Topic:**[Release Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_ReleaseManagementConcepts.md)
+**Parent Topic:**[Release Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/release-management/c_ReleaseManagementConcepts.md)
 

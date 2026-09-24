@@ -3,11 +3,11 @@ title: Create an application in ServiceNow Studio
 description: Create a custom application in ServiceNow Studio, then add data, automation, or other app files using integrated development tools and builders.Add a file to your application immediately after creating it in ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -24,15 +24,15 @@ Role required: adminor Guided Application Creator roles
 
 ## About this task
 
-Use the following steps to create an app manually, or use Build Agent to create your app through conversational interaction. For more information, see [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
+Use the following steps to create an app manually, or use Build Agent to create your app through conversational interaction. For more information, see [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Select either the create icon \[Omitted image "sn-studio-add-icon.png"\] Alt text: next to the Navigator panel or the **Create** button.
+2.  Select either the create icon \[Omitted image "sn-studio-create-icon.png"\] Alt text: next to the Navigator panel or select **Create an app** under the Build Agent chat panel.
 
-    \[Omitted image "sn-studio-create-button-as2.png"\] Alt text: There are two create buttons, one on either side of the screen. Select either Create button to start developing an app.
+    \[Omitted image "sn-studio-create-button-bs1.png"\] Alt text: Select Create in the activity bar to create an app manually, or start a conversation with Build Agent to create it using AI.
 
 3.  Select **App** from the options that appear.
 
@@ -42,15 +42,15 @@ Use the following steps to create an app manually, or use Build Agent to create 
 
     **Note:** To browse completed apps for reference, select **Explore the App Gallery**. After signing in with your ServiceNow credentials, you can access a library of apps and app files.
 
-<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d296862e192">
+<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d287612e195">
 
 How to create
 
-</th><th align="left" id="d296862e195">
+</th><th align="left" id="d287612e198">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d296862e201">
+</th></tr></thead><tbody><tr><td id="d287612e204">
 
 **On your own**
 
@@ -58,7 +58,7 @@ Description
 
 Create the application independently, adding content and files of your choosing.Select **On your own** &gt; **Continue** and continue with step 5 in this procedure.
 
-</td></tr><tr><td id="d296862e221">
+</td></tr><tr><td id="d287612e224">
 
 **With ServiceNow Otto, which opens Build Agent**
 
@@ -66,9 +66,9 @@ Create the application independently, adding content and files of your choosing.
 
 Begin a conversation with Build Agent to create your application.Select **With ServiceNow Otto** &gt; **Start a chat**. The Build Agent chat panel opens. Select **Create an application** or describe what you want to build.
 
-For more information, see [Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-a-new-application-using-build-agent.md).
+For more information, see [Create an application using Build Agent default mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-a-new-application-using-build-agent.md).
 
-</td></tr><tr><td id="d296862e270">
+</td></tr><tr><td id="d287612e273">
 
 **With Creator Studio**
 
@@ -76,7 +76,7 @@ For more information, see [Create an application using Build Agent](https://raw.
 
 Use Creator Studio to create a simple request and fulfill application.Select **With Creator Studio** &gt; **Continue in Creator Studio** to begin creating your application.
 
-For more information, see [Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/building-apps-with-creator-studio.md).
+For more information, see [Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/building-apps-with-creator-studio.md).
 
 </td></tr></tbody>
 </table>5.  Enter the basic information for the app.
@@ -91,13 +91,13 @@ For more information, see [Building apps with Creator Studio](https://raw.github
 
         -   **Scoped**: The app does not interact with other data on the instance by default. The app can access and change its own tables and business logic, but other apps cannot unless you grant them explicit permission.
         -   **Global**: All tables and business logic on the instance can interact with the app.
-        For more information about working with scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
+        For more information about working with scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md).
 
     4.  Select **Continue**.
 
 6.  Define user access to the app by adding roles.
 
-    ServiceNow Studio automatically defines default admin and user roles. Remove the predefined roles or add more roles as needed. For more information about roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
+    ServiceNow Studio automatically defines default admin and user roles. Remove the predefined roles or add more roles as needed. For more information about roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-roles.md).
 
     1.  Select **Add a role**.
 
@@ -122,7 +122,7 @@ For more information, see [Building apps with Creator Studio](https://raw.github
 
 Add application files, dependencies, and cross-scope privileges to your new application.
 
-**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
+**Parent Topic:**[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)
 
 ## Add a file to your app in ServiceNow Studio
 
@@ -134,7 +134,7 @@ Role required: admin or delegated\_developer
 
 ### About this task
 
-Use this procedure to add files immediately after creating an app. To create files from anywhere else in ServiceNow Studio, see [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-create-app-file.md).
+Use this procedure to add files immediately after creating an app. To create files from anywhere else in ServiceNow Studio, see [Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sn-studio-create-app-file.md).
 
 ### Procedure
 
@@ -146,7 +146,7 @@ Use this procedure to add files immediately after creating an app. To create fil
 
     **Note:** Available file types depend on your permissions. If you do not see a file type you expect, contact your administrator.
 
-    For more information about each available file type and category, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md).
+    For more information about each available file type and category, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md).
 
 3.  Select **Continue**.
 

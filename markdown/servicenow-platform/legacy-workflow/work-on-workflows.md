@@ -3,11 +3,11 @@ title: Work on workflows
 description: To complete a workflow, you add workflow activities, validate the workflow, and publish it.Activities determine the functionality of the workflow.You can manually validate a workflow from the Workflow Editor. You can generate a workflow validation report from the Workflow Version form.When a workflow is complete, publish the workflow so that it is available to all users.A workflow can run only if a checked out version is available to the user who has it checked out, and a valid, published version is available for all users with permission to run it.You can edit a published workflow after you check it out.Application scoping protects applications by identifying and restricting access to application files and data. You can copy a workflow created in one application scope \(for example, Test\) to another \(Production\) as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/work-on-workflows.html
-release: australia
+release: brazil
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-07-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Workflow management, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ To complete a workflow, you add workflow activities, validate the workflow, and 
 
 Role required: snc\_required\_script\_writer\_permission and either workflow\_creator or workflow\_admin.
 
-**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
+**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
 
 ## Add a workflow activity
 
@@ -34,7 +34,7 @@ Role required: snc\_required\_script\_writer\_permission and workflow\_admin, wo
 
 When they are created, all workflows contain **Start** and **End** activities.
 
-For more information, see [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md).
+For more information, see [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md).
 
 ### Procedure
 
@@ -42,7 +42,7 @@ For more information, see [Workflow activities](https://raw.githubusercontent.co
 
 2.  Check out the workflow.
 
-3.  [Drag a workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/t_AddAnActivityToAWorkflow.md) from the Activities menu into the workflow body.
+3.  [Drag a workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/workflow-activities/t_AddAnActivityToAWorkflow.md) from the Activities menu into the workflow body.
 
 4.  Populate the Workflow Activity form that appears.
 
@@ -84,7 +84,7 @@ When a workflow is complete, publish the workflow so that it is available to all
 
 ### Before you begin
 
-Before you publish a workflow, validate it to test it for issues that might cause it to fail, such as missing subflows or disconnected transitions. For more information, see [Workflow validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowValidation.md).
+Before you publish a workflow, validate it to test it for issues that might cause it to fail, such as missing subflows or disconnected transitions. For more information, see [Workflow validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/c_WorkflowValidation.md).
 
 Role required: snc\_required\_script\_writer and workflow\_admin, workflow\_creator, workflow\_publisher, or admin
 
@@ -103,7 +103,7 @@ To publish a workflow:
 
 ### Result
 
-If you published a new version of workflow, the changes are not applied to running [workflow contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_AdministeringWorkflowContexts.md). Any currently running workflow context continues using the workflow version that was available when the workflow started. The next time the workflow runs, it uses the new version.
+If you published a new version of workflow, the changes are not applied to running [workflow contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/r_AdministeringWorkflowContexts.md). Any currently running workflow context continues using the workflow version that was available when the workflow started. The next time the workflow runs, it uses the new version.
 
 ## Determine whether a workflow can run
 
@@ -156,9 +156,9 @@ To check out a workflow:
 
 3.  In the title bar, click the menu icon and select **Checkout**.
 
-    A new [version of the workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowVersions.md) is created and assigned to you.
+    A new [version of the workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/c_WorkflowVersions.md) is created and assigned to you.
 
-    If you are in a different domain than the published workflow, the new workflow version is [created in your domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowsAndDomainSeparation.md).
+    If you are in a different domain than the published workflow, the new workflow version is [created in your domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/c_WorkflowsAndDomainSeparation.md).
 
 
 ### What to do next
@@ -185,7 +185,7 @@ Role required: snc\_required\_script\_writer and admin
 
 5.  Create a workflow in the Workflow Editor.
 
-    For more details, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflow.md).
+    For more details, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflow.md).
 
 6.  In the Workflow Editor, click \[Omitted image "WorkflowPropertiesIcon.png"\] Alt text: Information icon.
 

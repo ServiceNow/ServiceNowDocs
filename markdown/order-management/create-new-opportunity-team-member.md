@@ -3,9 +3,9 @@ title: Add a new opportunity team member
 description: Create an opportunity team member for a structured collaboration among multiple users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-opportunity-team-member.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -63,7 +63,7 @@ Opportunity Role
 Role of the team member. Following member roles \(Related party types\) and responsibility are shipped by default: -   Account Executive
 -   Solution Sales Executive
 -   Price Band Approver
-However, more roles can be configured. Depending on the responsibility, access to the opportunity is provided to the opportunity team members. For more information, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-related-party-config-to-case.md).
+However, more roles can be configured. Depending on the responsibility, access to the opportunity is provided to the opportunity team members. For more information, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/adding-related-party-config-to-case.md).
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Enter work notes for reference.
 **Related topics**  
 
 
-[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-opportunity-mgmt.md)
 
-[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/opportunity-management.md)
 

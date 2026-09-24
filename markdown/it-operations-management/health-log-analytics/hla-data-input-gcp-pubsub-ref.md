@@ -3,11 +3,11 @@ title: GCP PubSub data input configuration fields
 description: Description of the fields on the GCP PubSub data input configuration form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -84,7 +84,7 @@ The MID Server cluster to which the log data is pulled. This field is required.T
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   The default maximum number of data inputs or integrations streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs or integrations running on it. This is true even when that MID Server is down.
 
-For more information about MID Server clusters, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
+For more information about MID Server clusters, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
 
 </td></tr></tbody>
 </table>The fields in the following table show read-only information.
@@ -135,9 +135,9 @@ GCP Credential Alias
 
 </td><td>
 
-The credential alias to be used. Select the magnifying glass icon to specify a GCP credential alias. Select an existing credential alias from the **Connection &amp; Credential Aliases** list, or select **New** to create a new record. The default is sn\_occ.HLA\_Credential\_Alias.
+The credential alias to be used. Specify one GCP credential alias by selecting the magnifying glass icon. Select an existing credential alias from the **Connection &amp; Credential Aliases** list, or select **New** to create a new record. The default is sn\_occ.HLA\_Credential\_Alias.
 
- For information about creating a credential alias, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
+ For information about creating a credential alias, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md).
 
 </td></tr><tr><td>
 
@@ -161,5 +161,5 @@ The subscription Health Log Analytics uses to receive log data that is published
 |Rate limit|The maximum number of events per second that this data input processes.|-1|
 |Drop if queue is full|Option to discard logs if many processes are waiting in the queue to access the MID Server.|Clear|
 
-**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

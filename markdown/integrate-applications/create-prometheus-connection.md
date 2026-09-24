@@ -3,11 +3,11 @@ title: Create a Prometheus connection
 description: Establish a zero copy connection to a Prometheus system in Zero Copy Connector Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-prometheus-connection.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Prometheus, Community connectors, Zero Copy Connectors, Workflow Data Fabric]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Prometheus, Community connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a Prometheus connection
@@ -20,7 +20,7 @@ Role required: df\_connection\_admin
 
 ## About this task
 
-Work with your data source admin to create a connection to Prometheus. For additional information about connecting, refer to the [Prometheus connector documentation](https://prometheus.io/docs/introduction/overview/).
+Work with your data source admin to create a connection to Prometheus. For additional information about connecting, refer to the [Prometheus connector documentation](https://trino.io/docs/current/connector/prometheus.html).
 
 **Note:** This connector was developed by the open-source community and made available through the ServiceNow AI Platform for general use. Functionality can vary and might not cover all use cases supported by primary connectors.
 
@@ -100,7 +100,7 @@ Username
 
 </td><td>
 
-Username for basic authentication. This field appears only when Basic Authentication is selected from Authentication Method.
+Username for basic authentication.
 
 </td></tr><tr><td>
 
@@ -108,22 +108,39 @@ Password
 
 </td><td>
 
-Password associated with the username. This field appears only when Basic Authentication is selected from Authentication Method.
+Password associated with the username.
 
 </td></tr></tbody>
-</table>4.  Configure the connection security method.
+</table>4.  Configure connection security.
 
-    -   If you want to use Java security CA certificates to establish a secure connection with the data source, select **Default**.
+<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d503989e253">
 
-        This option uses public certificates already available in the Java security truststore.
+Option
 
-    -   If your data source requires one-way SSL and uses its own certificates, select **TLS**.
+</th><th align="left" id="d503989e256">
 
-        Only one-way TLS \(server validation\) is supported. mTLS isn't supported.
+Description
 
-5.  If you selected TLS, attach the Base64-encoded truststore PEM file.
+</th></tr></thead><tbody><tr><td id="d503989e262">
 
-<table id="choicetable_iqc_pl2_h3c"><tbody><tr><td id="d510570e278">
+**Default**
+
+</td><td>
+
+Select this option to use Java security CA certificates to establish a secure connection with the data source.This option uses public certificates that are already available in the Java security truststore.
+
+</td></tr><tr><td id="d503989e273">
+
+**TLS**
+
+</td><td>
+
+Select this option if your data source requires one-way SSL and uses its own certificates.
+
+</td></tr></tbody>
+</table>5.  If you selected TLS, attach the Base64-encoded truststore PEM file using one of the following options.
+
+<table id="choicetable_iqc_pl2_h3c"><tbody><tr><td id="d503989e291">
 
 **Attach TrustStore file**
 
@@ -131,13 +148,13 @@ Password associated with the username. This field appears only when Basic Authen
 
 Upload the PEM file by selecting **Attach PEM file** and selecting the file.
 
-</td></tr><tr><td id="d510570e290">
+</td></tr><tr><td id="d503989e303">
 
 **Enter TrustStore file contents**
 
 </td><td>
 
-Copy and paste the contents of the truststore file, verifying the content begins with: ```
+Copy and paste the contents of the truststore file, ensuring the content begins with: ```
 -----BEGIN CERTIFICATE-----
 ```
 
@@ -148,14 +165,6 @@ Copy and paste the contents of the truststore file, verifying the content begins
 </td></tr></tbody>
 </table>6.  Select **Connect**.
 
-7.  In the DataFabric Connector Properties \[sn\_df\_connector\_properties\] table, set properties for queries that retrieve data from Prometheus.
-
-    1.  Enter `sn_df_connector_properties.LIST` in the navigation filter.
-
-    2.  Set the following properties.
-
-        -   **prometheus.max.query.range.duration** — Defines the maximum span of time series data that the Prometheus connector can retrieve in a single query.
-        -   **prometheus.query.chunk.size.duration** — Specifies the duration of each time chunk when splitting a query range into smaller intervals. Accepts standard duration notation \(for example, 1y, 1w, 1d, 1h, 30m\). The connector executes one query per chunk, reducing the risk of timeouts and improving performance on the Prometheus server. For more information, see [Range Vector Selectors](https://prometheus.io/docs/prometheus/1.8/querying/basics/#range-vector-selectors).
 
 ## Result
 

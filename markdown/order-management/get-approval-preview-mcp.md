@@ -3,9 +3,9 @@ title: Preview approval routing in an MCP client
 description: View the approval routing to be triggered for a quote that has not been submitted for approval by using natural language in a Model Context Protocol \(MCP\) client. You can view the approval rules to be applied and the assigned approvers in the routing sequence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/get-approval-preview-mcp.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [MCP tools, approval preview, Get Approval Preview, approval routing, quote approval, Advanced Approval Management AI]
 breadcrumb: [Advanced Approval Management AI, Configure, price, quote apps, Use, Sales Customer Relationship Management]
@@ -60,5 +60,5 @@ You don't invoke the tool directly. Instead, enter a conversational request in y
     -   If you want to make further changes to your quote, enter `Update quote`. The client asks if you like to review quote details. You can review the details. Next, if needed, update the quote, perhaps to make pricing adjustments to the quote in your ServiceNow instance.
 
 
-**Parent Topic:**[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-advanced-approval-mgmt-ai.md)
+**Parent Topic:**[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-advanced-approval-mgmt-ai.md)
 

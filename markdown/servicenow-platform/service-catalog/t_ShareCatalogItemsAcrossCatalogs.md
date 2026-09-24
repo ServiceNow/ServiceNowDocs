@@ -3,11 +3,11 @@ title: Share catalog items across catalogs
 description: You can share a catalog item, enabling users to order that item from different catalogs. For example, you can share a Password Reset item across catalogs serving different teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ShareCatalogItemsAcrossCatalogs.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add a catalog item, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,5 +37,5 @@ To share a catalog item across several catalogs:
     The shared item then appears in the Catalog Items related list for each catalog selected.
 
 
-**Parent Topic:**[Add a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_AssignItemToAddlCatalogsCategory.md)
+**Parent Topic:**[Add a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_AssignItemToAddlCatalogsCategory.md)
 

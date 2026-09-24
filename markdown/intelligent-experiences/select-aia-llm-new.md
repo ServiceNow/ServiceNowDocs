@@ -3,12 +3,12 @@ title: Select the LLM for AI agents and agentic workflows
 description: Choose the large language model \(LLM\) service provider for Now Assist AI agents in AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/select-aia-llm-new.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [global LLM, AI agent LLM, use case LLM, agentic workflow LLM, GPT-4, GPT-4o, GPT4, GPT4o]
-breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Select the LLM for AI agents and agentic workflows
@@ -35,7 +35,7 @@ Depending on your region, you may have to consent to using a different service p
 
     You're directed to the AI Admin Hub Edit model provider page.
 
-    For more information about managing a editing and customizing a model provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
+    For more information about managing a editing and customizing a model provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-model-providers.md).
 
 3.  In the **Choose a default model provider** field, select from the following choices.
 

@@ -3,11 +3,11 @@ title: Supporting information for ServiceNow Otto for IT Service Management \(IT
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Explore, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -26,12 +26,12 @@ Get a quick overview of the important information that is related to the Service
 
 **Important:**
 
--   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+-   **[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
-    Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Role masking for ServiceNow Otto for ITSM agentic workflows, AI agents, and skills
 
@@ -41,7 +41,7 @@ Mask roles to restrict user access to agentic workflows, standalone AI Agents, a
 
 Consider a scenario where a user is given roles A, B, and C and each role can access only a specific set of data. Using Access Control Lists \(ACLs\), the user can access any data or functions that roles A, B, and C could access. When role masking is applied, the user can only access data specific to that role.
 
-**Role masking considerations for the ServiceNow Otto for ITSM skills**
+**Role masking considerations for the Now Assist in ITSM skills**
 
 When an ITSM skill is executed, access to its features is initially governed by ACL permissions. This ensures that users can only access the data and functions for which they are authorized. If the skill uses a Large Language Model \(LLM\) to perform its function, an additional layer of access control, which is role masking, is applied to the output generated by the LLM.
 
@@ -58,13 +58,13 @@ Consider a user who has been assigned multiple roles: A, B, and C, each with dis
 
 By applying both ACL permissions and role masking, the system ensures a secure and granular access control mechanism for ITSM skills, protecting sensitive information while providing users with the insights they need to perform their tasks effectively.
 
-For information on role masking, see [Role masking in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md).
+For information on role masking, see [Role masking in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md).
 
 ## Supported user interfaces
 
 The ServiceNow Otto for ITSM application includes the skills that are listed in the following table.
 
-**Note:** Next Experience must be enabled to use the Otto panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
+**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 <table id="table_rnv_mfg_qyb"><thead><tr><th>
 
@@ -83,7 +83,7 @@ Service Operations Workspace for ITSM
 -   Incident summarization
 -   Resolution notes generation
 -   Chat summarization
--   Otto panel
+-   Now Assist panel
 -   Knowledge article generation
 -   Sidebar discussion summarization
 -   Change request summarization
@@ -101,7 +101,7 @@ Core UI
 
 -   Incident summarization
 -   Resolution notes generation
--   Otto panel
+-   Now Assist panel
 -   Knowledge article generation
 -   Sidebar discussion summarization
 -   Change request summarization
@@ -110,5 +110,5 @@ Core UI
 -   Email reply recommendation
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/exploring-now-assist-itsm.md)
+</table>**Parent Topic:**[Exploring ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/exploring-now-assist-itsm.md)
 

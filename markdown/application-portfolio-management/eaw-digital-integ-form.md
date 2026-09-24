@@ -3,11 +3,11 @@ title: Digital integration form \(easy form\) in EA Workspace
 description: The digital integration represents the integration between two business applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-digital-integ-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Digital integration form \(easy form\) in EA Workspace
@@ -30,7 +30,7 @@ Subscriber Business Application
 
 </td><td>
 
-Name of the business application that uses the provided interface to consume, exchange, or ingest data to support a business capability. The subscriber business application is affected by the changes or an outage, causing connection or data loss.**Note:** The provider and subscriber roles define interface ownership, not data flow direction. The provider owns the digital interface; the subscriber consumes it. Data flow direction—whether incoming, outgoing, or bidirectional—is set separately using the **Data Flow Direction** field and reflects which application initiates the connection. For example, the provider can receive data \(incoming\) if the subscriber initiates the connection. For more information, see [Example: Provider and subscriber with data flow directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/example-prov-n-subsc-roles-with-data-flow.md).
+Name of the business application that uses the provided interface to consume, exchange, or ingest data to support a business capability. Therefore it’s affected by the changes or an outage face connection or data loss.**Note:** Being a provider or subscriber business application, it doesn’t refer to the data flow direction \(incoming, outgoing, bidirectional\). It’s managed by the Data Flow Direction attribute.
 
 </td></tr><tr><td>
 
@@ -46,9 +46,7 @@ Provider Business Application
 
 </td><td>
 
-Name of the business application that provides the digital interface that enables other applications to consume or ingest data. Changes, ownership, and responsibilities of the interface are often connected to the provider.**Note:** The provider and subscriber roles define interface ownership, not data flow direction. The provider owns the digital interface; the subscriber consumes it. Data flow direction—whether incoming, outgoing, or bidirectional—is set separately using the **Data Flow Direction** field and reflects which application initiates the connection. For example, the provider can receive data \(incoming\) if the subscriber initiates the connection. For more information, see [Example: Provider and subscriber with data flow directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/example-prov-n-subsc-roles-with-data-flow.md).
-
-This field is automatically generated and can't be edited.
+Name of the business application that provides the digital interface and enables to consume or ingest data. Changes, ownership, and responsibilities of the interface are often connected to the provider.**Note:** Being a provider or subscriber business application, it doesn’t refer to the data flow direction \(incoming, outgoing, bidirectional\). It’s managed by the Data Flow Direction attribute.
 
 </td></tr><tr><td>
 
@@ -147,7 +145,7 @@ Frequency to trigger the integration.Options for the interval are as follows:
 -   Quarters
 -   Years
 -   On Demand
--   Real Time
+-   Real Time.
 
 </td></tr><tr><td>
 
@@ -158,12 +156,12 @@ Description
 Description about the digital integration. Describe why the integration is being created between two business applications or between an external service and a business application. Describe the business value it adds.
 
 </td></tr></tbody>
-</table>Additional fields appear after the digital integration is created. For details on the additional fields, see [Digital integration form in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-digital-integration-form.md).
+</table>Additional fields appear after the digital integration is created. For details on the additional fields, see [Digital integration form in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-digital-integration-form.md).
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-digital-integ.md)
+[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-digital-integ.md)
 

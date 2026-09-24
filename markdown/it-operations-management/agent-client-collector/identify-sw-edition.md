@@ -3,11 +3,11 @@ title: Identify software editions on Windows devices
 description: Determine which edition of software is in use on Windows devices in your environment, to maintain an accurate software inventory. Software products commonly support multiple editions, making it difficult to identify which edition is in use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/identify-sw-edition.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Role required: agent\_client\_collector\_admin
 
 2.  Select **New** to set edition configuration for a Windows device.
 
-    The **Software Edition Configuration - New record** page appears. For details on the fields displayed on the page, see [Software edition configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/software-edition-configuration.md).
+    The **Software Edition Configuration - New record** page appears. For details on the fields displayed on the page, see [Software edition configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/software-edition-configuration.md).
 
 3.  Select **Submit**.
 
@@ -43,5 +43,5 @@ Role required: agent\_client\_collector\_admin
     The edition appears only after the **Software Installed** or **SAM Discovery** policy runs. By default, these policies runs once daily.
 
 
-**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

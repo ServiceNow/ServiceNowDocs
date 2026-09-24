@@ -1,20 +1,20 @@
 ---
 title: Activate the rationalization skill for control objective
-description: Activate this skill to generate recommendations that are similar to the selected control objective.
+description: Activate and then configure the recommendation for a similar control objective skill under rationalization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/activate-the-rationalization-skill-for-control-objective.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Activate the rationalization skill for control objective
 
-Activate this skill to generate recommendations that are similar to the selected control objective.
+Activate and then configure the recommendation for a similar control objective skill under rationalization.
 
 ## Before you begin
 

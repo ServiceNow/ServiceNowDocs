@@ -3,9 +3,9 @@ title: Configure a service definition for Playbooks in Public Sector Digital Ser
 description: Create a service definition for use with Playbooks in Public Sector Digital Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-create-new-service-definition.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---

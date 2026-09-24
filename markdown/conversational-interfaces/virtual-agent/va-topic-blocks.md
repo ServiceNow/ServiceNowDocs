@@ -3,14 +3,14 @@ title: Topic Block utility
 description: Use a Topic Block in a Virtual Agent conversation to perform a specific function or subflow that runs certain steps in a calling topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-topic-blocks.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Virtual Agent, topic block, utility]
-breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Topic Block utility
@@ -19,7 +19,7 @@ Use a Topic Block in a Virtual Agent conversation to perform a specific function
 
 ## Topic Block utility properties
 
-For more information, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).
+For more information, see [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).
 
 <table id="table_nff_y1b_3db"><thead><tr><th>
 
@@ -65,7 +65,7 @@ The variables to be used as input to the selected topic block. In this example, 
 
  The contents of this area change according to the topic block you selected. Options may include string input, referenced records, scripts, and so forth.
 
- With **Use dynamic Topic Block** active, you add all input mappings manually instead by selecting the Manage inputs to define icon \[Omitted image "manage-inputs-outputs.png"\] Alt text: Manage inputs to define icon.. Inputs are handled similarly to the Input Parameters dialog box in the Start segment of a [reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-topic-blocks.md).
+ With **Use dynamic Topic Block** active, you add all input mappings manually instead by selecting the Manage inputs to define icon \[Omitted image "manage-inputs-outputs.png"\] Alt text: Manage inputs to define icon.. Inputs are handled similarly to the Input Parameters dialog box in the Start segment of a [reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-topic-blocks.md).
 
 </td></tr><tr><td>
 
@@ -140,5 +140,5 @@ You can create two separate Topic Block invocations to handle the password-reset
 
 The script in the dynamic Topic Block expression returns a value based on your input. In this example, if you input `Ford` or `Toyota`, the Virtual Agent will call for the appropriate troubleshooting topic. If you input any other value, the Virtual Agent returns a general troubleshooting topic instead.
 
-**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
 

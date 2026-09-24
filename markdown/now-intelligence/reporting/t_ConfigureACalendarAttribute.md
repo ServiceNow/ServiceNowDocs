@@ -3,11 +3,11 @@ title: Configure how calendar entries look
 description: To configure how calendar entries appear for a table, add calendar\_elements attributes to the System Dictionary entry for that table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_ConfigureACalendarAttribute.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize calendar reports, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -59,7 +59,7 @@ The calendar entries display the attributes you have added for the selected tabl
 
 \[Omitted image "calendar-attribute-change-result-rd.png"\] Alt text: Calendar entry with number, short description, and added state attribute
 
-**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CustomizeCalendarReports.md)
+**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_CustomizeCalendarReports.md)
 
 **Related topics**  
 

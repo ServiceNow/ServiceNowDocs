@@ -3,7 +3,7 @@ title: Set up the Google Chat spoke
 description: Integrate the ServiceNow instance and Google Chat by creating a custom OAuth application in Google Cloud console to authenticate ServiceNow requests.Create credentials in Google Cloud console account to enable OAuth 2.0 authentication with the Google Chat spoke.Add and configure a Docker connection to authenticate ServiceNow requests in Docker spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-google-chat.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

@@ -3,9 +3,9 @@ title: Create an OAuth API script
 description: Create and duplicate an OAuth API script for application registry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-oauth-api-script-cred-flow.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SMTP OAuth2 to use certificates, Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,9 +16,9 @@ Create and duplicate an OAuth API script for application registry.
 
 ## Before you begin
 
-Generate an SHA-1 thumbprint. For more information, see [Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/generate-thumbprint.md).
+Generate an SHA-1 thumbprint. For more information, see [Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/generate-thumbprint.md).
 
-Generate a sys\_id when you configure a JWT provider. For more information, see [Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-jwt-credential-flow.md).
+Generate a sys\_id when you configure a JWT provider. For more information, see [Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/config-jwt-credential-flow.md).
 
 Role required: admin
 
@@ -41,7 +41,7 @@ Role required: admin
 
 ## What to do next
 
-[Register an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-oauth-cred-flow.md).
+[Register an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/register-oauth-cred-flow.md).
 
-**Parent Topic:**[Configure client credential flow for SMTP OAuth2 using certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-credential-flow-certificate.md)
+**Parent Topic:**[Configure client credential flow for SMTP OAuth2 using certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/config-credential-flow-certificate.md)
 

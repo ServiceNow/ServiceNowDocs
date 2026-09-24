@@ -3,9 +3,9 @@ title: Make saved views unavailable on specific pages
 description: You might want to remove the option for users to save specific views and screens for security or privacy reasons.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/saved-view-deny-screen.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Bookmark screens &amp; web pages, Configuring the Mobile Platform, Mobile Platform]
 ---

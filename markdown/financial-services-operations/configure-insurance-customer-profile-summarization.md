@@ -3,9 +3,9 @@ title: Configure insurance customer profile summarization in ServiceNow Otto for
 description: Configure the Insurance Customer Profile Summarization skill in ServiceNow Otto for FSO to enable AI-powered summaries of insurance customer information in the Customer 360 page of Agentic Contact Center for Insurance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-insurance-customer-profile-summarization.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -18,10 +18,10 @@ Configure the Insurance Customer Profile Summarization skill in ServiceNow Otto 
 
 Verify the ServiceNow Otto for Financial Services Operations \(FSO\) plugin \(`sn_fso_now_assist`\) and the Agentic Contact Center for Insurance plugin \(`com.sn_ins_csr`\) are installed.
 
--   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
--   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-fso-now-assist-skills.md).
+-   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-fso-now-assist-skills.md).
 
-**Note:** This skill is dependent on the Agentic Contact Center for Insurance application. Activate the **Insurance interaction context summary** skill after completing this task. For more information, see [Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md).
+**Note:** This skill is dependent on the Agentic Contact Center for Insurance application. Activate the **Insurance interaction context summary** skill after completing this task. For more information, see [Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md).
 
 Role required: admin
 
@@ -33,7 +33,7 @@ When the skill is not activated, the **Customer summary** section is not display
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **Admin** &gt; **** &gt; **AI Skills**.
 
 2.  Select the **Customer** &gt; **FSO** workflow group.
 
@@ -62,5 +62,5 @@ The skill is activated. The **Customer summary** section is displayed on the Cus
 
 ## What to do next
 
-You can choose which service provider to use for this skill in ServiceNow Otto Admin. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
+You can choose which service provider to use for this skill in ServiceNow Otto Admin. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-large-language-models.md).
 

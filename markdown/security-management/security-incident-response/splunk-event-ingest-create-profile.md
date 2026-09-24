@@ -3,11 +3,11 @@ title: Create and name an event profile
 description: Create an event profile in your ServiceNow AI Platform instance and determine which Splunk alerts create security incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-create-profile.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,7 +30,7 @@ From an integration perspective using available APIs, Splunk events are forwarde
 
 These alerts are ingested based on the profiles that you configure in the Security Operations environment of your instance. All alerts are initially ingested for a configured alert type in a profile. Ingested alerts can then be further filtered to specify which alerts create security incidents. For example, you may prefer filters that create security incidents only for alerts that are identified as high-risk. Before a profile is activated, and it creates security incidents from ingested alerts, individual field values on the filtered alerts are mapped to corresponding fields on a layout of security incident for a preview.
 
-Alert names for event profiles in your ServiceNow AI Platform instance must be unique and can only be mapped to one active event profile at any given time. These are the triggered alert names that you configured in your Splunk service as part of the setup for the integration. For more information about configuring alerts in your Splunk Enterprise environment, see [Save searches in your Splunk Enterprise console for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest_save_search.md).
+Alert names for event profiles in your ServiceNow AI Platform instance must be unique and can only be mapped to one active event profile at any given time. These are the triggered alert names that you configured in your Splunk service as part of the setup for the integration. For more information about configuring alerts in your Splunk Enterprise environment, see [Save searches in your Splunk Enterprise console for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest_save_search.md).
 
 The ServiceNow AI Platform ingests specific alerts using the workflows of the integration. All alerts that meet the selection criteria in your Splunk enterprise console are initially ingested into your ServiceNow AI Platform instance.
 
@@ -276,20 +276,20 @@ You have successfully completed the steps to create profiles for both scheduled 
 
 For profiles for scheduled alerts, the next step is to select alerts for automatic ingestion.
 
--   **[Select scheduled alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-alert-selection.md)**  
+-   **[Select scheduled alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-alert-selection.md)**  
 After you have created a profile for a scheduled alert, select a Splunk alert for this profile that you want to map to a ServiceNow AI Platform Security Incident Response security incident.
--   **[Mapping alerts and events for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-mapping.md)**  
+-   **[Mapping alerts and events for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-mapping.md)**  
 After you identify the sources for scheduled alert ingestion or manual event forwarding, the next step is to map individual event fields to the fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
--   **[Map alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-map-alerts.md)**  
+-   **[Map alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-map-alerts.md)**  
 During the event field-mapping step, you map individual event fields from triggered alerts or imported event data to fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
--   **[Preview security incident for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-preview.md)**  
+-   **[Preview security incident for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-preview.md)**  
 After you complete the mapping step, preview the values that you mapped in a ServiceNow AI Platform® Security Incident Response \(SIR\) security incident. This preview step permits you to verify that you have mapped all the alert fields that you want displayed on the security incident.
--   **[Schedule and retrieve alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-schedule.md)**  
+-   **[Schedule and retrieve alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-schedule.md)**  
 For automated alert ingestion profiles, this step is final step of the event profile configuration. During this step, you can verify the default settings for alert retrieval or modify the scheduling as needed. This step permits you to filter your alert retrieval based on a date range.
 
-**Parent Topic:**[Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-overview.md)
+**Parent Topic:**[Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-overview.md)
 
-**Previous topic:**[Configure Splunk Enterprise Event Ingestion settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-splunk-enterprise-event-ingestion-settings.md)
+**Previous topic:**[Configure Splunk Enterprise Event Ingestion settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-splunk-enterprise-event-ingestion-settings.md)
 
-**Next topic:**[Select scheduled alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-alert-selection.md)
+**Next topic:**[Select scheduled alerts for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/splunk-event-ingest-alert-selection.md)
 

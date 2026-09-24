@@ -3,11 +3,11 @@ title: Enable the My Requests menu for an upgrade scenario
 description: Enable the My Requests menu that uses the My Requests \(my-requests-v2\) widget for an upgrade scenario.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-requests-menu.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [My Requests widget, Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The My Requests menu that is based on the My Requests \(my-requests-v2\) widget is available by default for zBoot users. For more information about this widget, refer to [My Requests widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/my-request-widget-portal.md).
+The My Requests menu that is based on the My Requests \(my-requests-v2\) widget is available by default for zBoot users. For more information about this widget, refer to [My Requests widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/my-request-widget-portal.md).
 
 ## Procedure
 
@@ -45,5 +45,5 @@ The My Requests menu that is based on the My Requests \(my-requests-v2\) widget 
 7.  Click **Update**.
 
 
-**Parent Topic:**[My Requests widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/my-request-widget-portal.md)
+**Parent Topic:**[My Requests widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/my-request-widget-portal.md)
 

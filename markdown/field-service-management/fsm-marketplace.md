@@ -3,9 +3,9 @@ title: Field Service Marketplace
 description: Field Service Marketplace optimizes contractor management, improves communication, and streamlines task allocation processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/fsm-marketplace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Contractor Management, Explore, Field Service Management]
 ---
@@ -21,5 +21,5 @@ With features like push notifications, task acceptance/rejection, bid withdrawal
 **Related topics**  
 
 
-[Configuring Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-contractor-marketplace.md)
+[Configuring Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configuring-contractor-marketplace.md)
 

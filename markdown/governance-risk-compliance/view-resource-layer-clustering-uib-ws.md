@@ -3,9 +3,9 @@ title: Select resource layer clustering
 description: Select resource layer clustering in the Crisis map within the BCM Configurable Workspace to view assets or resources on the map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-resource-layer-clustering-uib-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for Crisis map, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_bcm.admin or sn\_bcm.program\_manager
 
     For example, when you select a datacenter icon without a count indicator, a popover displays the information configured in the Resource Configuration table \[sn\_fam\_resource\_config\].
 
-    Configuring the **Power** and **Power consumption** fields from datacenter table \[cmdb\_co\_datacenter\] as display fields, the popover shows the datacenter's power consumption details and location coordinates.
+    You can configure the **Power** and **Power consumption** fields from the datacenter table \[cmdb\_co\_datacenter\] as display fields in the Resource Configuration form. The popover then shows the datacenter's power consumption details and location coordinates.
 
 5.  Select the **Asset** icon with a number next to it.
 
@@ -47,5 +47,5 @@ Role required: sn\_bcm.admin or sn\_bcm.program\_manager
 6.  Select the **Reset** icon in the map to clear the search results on the map.
 
 
-**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-collective-tasks.md)
+**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/crisis-map-collective-tasks.md)
 

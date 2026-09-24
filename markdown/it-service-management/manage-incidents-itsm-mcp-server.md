@@ -3,10 +3,10 @@ title: Manage incidents using the ITSM MCP Server
 description: Use the ITSM MCP Server to retrieve and update incident details, find similar incidents, and look up assignment groups. Ask complex multi-hop questions through an MCP client application such as Moveworks or Claude.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/manage-incidents-itsm-mcp-server.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-07"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [ITSM MCP Server, incident management, incidents, incident investigation, knowledge graph, SLA analysis, multi-hop queries, natural language prompts, AI workflow]
 breadcrumb: [Activate the ITSM MCP Server, ITSM MCP Server, IT Service Management]
 ---
@@ -15,30 +15,9 @@ breadcrumb: [Activate the ITSM MCP Server, ITSM MCP Server, IT Service Managemen
 
 Use the ITSM MCP Server to retrieve and update incident details, find similar incidents, and look up assignment groups. Ask complex multi-hop questions through an MCP client application such as Moveworks or Claude.
 
-## Before you begin
-
-Role required: itil, incident\_read, incident\_write
-
-**Note:** The following roles determine which incident management tools a user can access:
-
--   itil - Access to all incident management tools.
--   sn\_incident\_read - Access to tools used for searching or viewing incident and KB details:
-    -   incident.get\_details
-    -   incident.search\_similar
-    -   incident.search\_similar\_kb
-    -   incident.get\_kb\_details
-    -   lookup\_assignment\_groups
-    -   lookup\_users
--   sn\_incident\_write - Access to all tools available to sn\_incident\_read, including the following tools for modifying incidents and attaching KB articles:
-
-    -   incident.modify
-    -   incident.attach\_kb
-    Use the sn\_incident\_read role for read-only access to incident and KB data. Use sn\_incident\_write when users need to modify incidents or attach KB articles.
-
-
 ## About this task
 
-For information on tools, see [ITSM MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mcp-server-tools-reference.md).
+For information on tools, see [ITSM MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mcp-server-tools-reference.md).
 
 ## Procedure
 
@@ -59,7 +38,7 @@ For information on tools, see [ITSM MCP Server tools reference](https://raw.gith
         -   "Get me up to speed on INC1359964."
         -   "What's going on with INC1359964?"
         -   "Show me the full details of INC1359964."
-    -   **2.__incident.modify__: Update fields on an incident, including work notes, comments, assignee, and assignment group.**
+    -   **2.__incident.modify__: Update fields on an incident, including work notes, comments, assignee, assignment group and escalate incidents, and mark incidents as resolved.**
 
         Example prompts:
 

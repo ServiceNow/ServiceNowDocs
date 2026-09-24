@@ -3,12 +3,12 @@ title: Change flows
 description: The Change Management Change flows provide a library of reusable actions and end-to-end implementations of the Change models provided in the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-flows.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Workflow Editor, Workflow, Flow]
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---
@@ -25,7 +25,9 @@ You can use ServiceNow® Workflow Studio to create, operate, and troubleshoot fl
 -   Runtime information.
 -   Consolidated configuration.
 
-You can deactivate an out-of-box change flow directly after you copy it, without logging a support case. To activate the change flows in the base system, contact Support to request activation. For more information on the plugin activation, see
+The provided flows are read-only to confirm that they can be upgraded. To change the behaviour of these flows, copy the read-only flow and then deactivate it. You do not need to contact Support to deactivate an out-of-box change flow. Deactivating the read-only flow ensures that only the copied flow is triggered.
+
+You can deactivate an out-of-box change flow directly after you copy it, without logging a support case. To activate the change flows in the base system, contact Support to request activation. For more information on the plugin activation, see [Activate Change Management - Change Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/activate-change-flows.md)
 
 .
 
@@ -46,8 +48,8 @@ By default, these Change flows are provided:
 |Change - Unauthorized - Authorize|Process an unauthorized change for approvals.|
 |Change - Unauthorized - Review|Review an unauthorized change.|
 
--   **[Change Management Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-flow-actions.md)**  
+-   **[Change Management Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-flow-actions.md)**  
 Use Workflow Studio actions as building blocks to handle the Change models and types. The flow actions are available under the ITSM spoke in Workflow Studio.
 
-**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/reference-change-management.md)
+**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/reference-change-management.md)
 

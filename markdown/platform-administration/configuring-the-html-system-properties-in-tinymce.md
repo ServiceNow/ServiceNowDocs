@@ -3,9 +3,9 @@ title: Configuring system properties for TinyMCE HTML editor
 description: There are multiple system properties that are used to configure the behaviour of the HTML editor field type. Learn about the system properties available in the TinyMCE rich text editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/configuring-the-html-system-properties-in-tinymce.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -214,9 +214,7 @@ String
 
 </td><td>
 
-Client-side HTML editor has its own context menu, overriding the browser's. Holding Ctrl while right-clicking bypasses the editor's context menu to show the native context menu.
-
- This property specifies which context menu options are available. Default value is "link image table" \(without quotes\). A value of "false" \(without quotes\) disables the editor's context menu.
+Controls the context menu options available in the HTML editor. The default value is `false`, which displays the browser context menu when you press Ctrl and right- click. To display the HTML editor context menu, set the value to `link image table`.
 
 </td></tr><tr><td>
 
@@ -240,11 +238,23 @@ glide.ui.html.editor.default\_link\_target
 
 </td><td>
 
- 
+Choice list
 
 </td><td>
 
 This system property is used to set link\_default\_target.
+
+</td></tr><tr><td>
+
+glide.ui.html.editor.textpatterns
+
+</td><td>
+
+String
+
+</td><td>
+
+Takes an array of objects used to configure text patterns for HTML editor on forms. Use this property to enable or disable text patterns for formatting, text replacement, or command execution in HTML editor. For more information, see [TinyMCE text patterns documentation](https://www.tiny.cloud/docs/tinymce/latest/content-behavior-options/#text_patterns).
 
 </td></tr></tbody>
 </table>

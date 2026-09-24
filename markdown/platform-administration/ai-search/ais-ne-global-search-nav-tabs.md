@@ -3,11 +3,11 @@ title: AI Search for Next Experience default source facet buckets for global sea
 description: List of source facet buckets that appear by default in AI Search for Next Experience global search results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/ais-ne-global-search-nav-tabs.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AI Search for Next Experience reference, AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -174,9 +174,9 @@ Global search results from the People - Companies search source.-   Indexed sour
 -   Source table: Company \[core\_company\]
 
 </td></tr></tbody>
-</table>You can change the search sources linked to the Next Experience Search Configuration search profile. To learn more about creating search sources and linking them to search profiles, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md).
+</table>You can change the search sources linked to the Next Experience Search Configuration search profile. To learn more about creating search sources and linking them to search profiles, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/search-sources-ais.md).
 
-For details on configuring labels and display order for source facet buckets, see [Configure source facet buckets in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/config-nav-tabs-ais.md).
+For details on configuring labels and display order for source facet buckets, see [Configure source facet buckets in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/config-nav-tabs-ais.md).
 
-**Parent Topic:**[AI Search for Next Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais-next-experience-app.md)
+**Parent Topic:**[AI Search for Next Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/reference-ais-next-experience-app.md)
 

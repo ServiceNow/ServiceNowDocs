@@ -3,9 +3,9 @@ title: Assign roles to Care Team Operations for Healthcare IT users
 description: Ensure that the correct roles are assigned to users of Care Team Operations for Healthcare IT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-it-set-up-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up roles and responsibilities in Care Team Operations for Healthcare IT, Configure, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---

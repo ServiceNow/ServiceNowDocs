@@ -3,11 +3,11 @@ title: View CI attribute descriptions on CI forms
 description: ServiceNow Otto answers your questions on CI classes and attributes to help you work in CI forms, dashboards, home pages, and other views on the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-ci-form-help.html
-release: australia
+release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: cmdb\_inst\_admin
 
 ## About this task
 
-This procedure describes how to dig deeply into the details of CI information on any form while creating, viewing, or updating a CI record. In addition, you can view the information while working in the Explore CI view, as described in [View CI details on the Explore CI view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-ci-form-help-explore.md).
+This procedure describes how to dig deeply into the details of CI information on any form while creating, viewing, or updating a CI record. In addition, you can view the information while working in the Explore CI view, as described in [View CI details on the Explore CI view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-ci-form-help-explore.md).
 
 ## Procedure
 
@@ -34,19 +34,19 @@ This procedure describes how to dig deeply into the details of CI information on
 
 2.  Select **Ask a follow-up** to learn more about the attribute.
 
-    The ServiceNow Otto panel opens. Select one of the suggested questions or enter a different question about any field or section of the form. ServiceNow Otto responds to your follow-up question. For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+    The ServiceNow Otto panel opens. Select one of the suggested questions or enter a different question about any field or section of the form. ServiceNow Otto responds to your follow-up question. For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d325763e145">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d323541e145">
 
 Option
 
-</th><th align="left" id="d325763e148">
+</th><th align="left" id="d323541e148">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d325763e154">
+</th></tr></thead><tbody><tr><td id="d323541e154">
 
 **Provide feedback for the summary**
 
@@ -54,7 +54,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d325763e169">
+</td></tr><tr><td id="d323541e169">
 
 **Copy the summary**
 
@@ -62,7 +62,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d325763e180">
+</td></tr><tr><td id="d323541e180">
 
 **Refresh the summary**
 
@@ -75,7 +75,7 @@ If you think that data might have changed after you viewed the response, select 
 **Related topics**  
 
 
-[View CI details on the Explore CI view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-ci-form-help-explore.md)
+[View CI details on the Explore CI view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-ci-form-help-explore.md)
 
 [na-cmdb-skill-form-sense-config]
 

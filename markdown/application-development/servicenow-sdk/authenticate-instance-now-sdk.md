@@ -3,11 +3,11 @@ title: Authenticating to a ServiceNow instance with the ServiceNow SDK
 description: Authenticate to a ServiceNow instance and store user credentials for accessing the instance on your system with the ServiceNow SDK.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/authenticate-instance-now-sdk.html
-release: australia
+release: brazil
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
@@ -16,14 +16,14 @@ breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-
 
 Authenticate to a ServiceNow instance and store user credentials for accessing the instance on your system with the ServiceNow SDK.
 
-You can use basic or OAuth 2.0 credentials to authenticate to an instance. To use OAuth 2.0 authentication, your instance must have ServiceNow IDE \(version 1.1 or later\) installed or have the required XML configuration imported. By default, instances on the Australia release include ServiceNow IDE version 1.1.4 and support using OAuth 2.0 authentication with the ServiceNow SDK.
+You can use basic or OAuth 2.0 credentials to authenticate to an instance. To use OAuth 2.0 authentication, your instance must have ServiceNow IDE \(version 1.1 or later\) installed or have the required XML configuration imported. By default, instances on the Brazil release include ServiceNow IDE version 1.1.4 and support using OAuth 2.0 authentication with the ServiceNow SDK.
 
 After authenticating to an instance with the ServiceNow SDK command-line interface \(CLI\), you can begin developing applications and installing them on your instance. A non-production instance should be used for application development.
 
--   **[Authenticate to a ServiceNow instance using basic authentication with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/authenticate-instance-basic-auth.md)**  
+-   **[Authenticate to a ServiceNow instance using basic authentication with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/authenticate-instance-basic-auth.md)**  
 Use basic authentication to connect to a ServiceNow instance with the ServiceNow SDK.
--   **[Authenticate to a ServiceNow instance using OAuth 2.0 with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/authenticate-instance-oauth.md)**  
+-   **[Authenticate to a ServiceNow instance using OAuth 2.0 with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/authenticate-instance-oauth.md)**  
 Use OAuth 2.0 authentication to connect to a ServiceNow instance with the ServiceNow SDK.
 
-**Parent Topic:**[ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md)
+**Parent Topic:**[ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md)
 

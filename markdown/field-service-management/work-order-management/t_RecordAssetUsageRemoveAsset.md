@@ -3,11 +3,11 @@ title: Track the removal of an asset from a task location
 description: Track the status of an asset that you removed in a work order. You can track the status as you're doing the task from the task location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_RecordAssetUsageRemoveAsset.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View asset usage, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -42,7 +42,7 @@ Role required: wm\_agent
     -   If the model is non-consumable, select the asset that is listed in the **Asset** field.
 6.  In the **Drop off stockroom** field, select the drop-off location where you want to drop-off the asset.
 
-    To learn more about the drop-off list, see [Using drop off lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_UseDropOffLists.md).
+    To learn more about the drop-off list, see [Using drop off lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/c_UseDropOffLists.md).
 
 7.  In the **Removed part status** field, select the status of the part that you want to remove.
 

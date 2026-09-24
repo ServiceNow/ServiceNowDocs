@@ -3,9 +3,9 @@ title: Retire a robot in RPA Hub
 description: Retire a robot to turn it off. It is one of the life-cycle stages of a robot. After you retire a robot, it cannot be used further.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/retire-robot.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Robots, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Retire a robot to turn it off. It is one of the life-cycle stages of a robot. Af
 
 ## Before you begin
 
-Create a robot. For more information, see [Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robots-rpa-hub.md).
+Create a robot. For more information, see [Robots in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robots-rpa-hub.md).
 
 Verify that the robot is not assigned to any bot process or robot pool.
 

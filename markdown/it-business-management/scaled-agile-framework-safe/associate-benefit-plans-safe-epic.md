@@ -3,11 +3,11 @@ title: Associate monetary and non-monetary benefit plans
 description: Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the epic for the hybrid benefit plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/associate-benefit-plans-safe-epic.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define an epic in SAFe, SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -42,15 +42,15 @@ You can associate a monetary benefit plan with a non-monetary benefit plan and v
 
 7.  Associate a monetary or non-monetary benefit plan.
 
-<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d323418e128">
+<table id="choicetable_CreateAnEpic"><thead><tr><th align="left" id="d325141e128">
 
 Option
 
-</th><th align="left" id="d323418e131">
+</th><th align="left" id="d325141e131">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d323418e137">
+</th></tr></thead><tbody><tr><td id="d325141e137">
 
 **Associate an existing benefit plan**
 
@@ -58,14 +58,14 @@ Action
 
 On the Benefit Plan form, fill in the **Associated benefit** field with the benefit plan that you want to associate.
 
-</td></tr><tr><td id="d323418e149">
+</td></tr><tr><td id="d325141e149">
 
 **Associate a new benefit plan**
 
 </td><td>
 
 1.  On the Benefit Plan form, click **Associate new benefit**.
-2.  On the form, fill in the fields. For details, see [Create a monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-monetary-benefit-plan-safe-epic.md) and [Create a non-monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-non-monetary-benefit-plan-safe-epic.md).
+2.  On the form, fill in the fields. For details, see [Create a monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-monetary-benefit-plan-safe-epic.md) and [Create a non-monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-non-monetary-benefit-plan-safe-epic.md).
 
 
 </td></tr></tbody>
@@ -80,5 +80,5 @@ The selected benefit plan is associated with another plan.
 
 Click the **View Associated benefit plan** related link to view the associated benefit plan.
 
-**Parent Topic:**[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
+**Parent Topic:**[Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
 

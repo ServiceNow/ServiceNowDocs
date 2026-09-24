@@ -3,13 +3,13 @@ title: Manage work items from a capability linked to a Product Adoption Roadmap 
 description: Convert a capability linked to a product adoption roadmap to an SPM entity either from the Impact home page or from the Product Adoption Roadmaps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/manage-work-items-from-a-product-adoption-roadmap-in-the-impact-store-app.html
-release: australia
+release: brazil
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Entitlements and usage, Product adoption, Using Impact, Impact]
+breadcrumb: [Entitlements and usage using capabilities, Product adoption, Using Impact, Impact]
 ---
 
 # Manage work items from a capability linked to a Product Adoption Roadmap in the Impact Store App

@@ -3,11 +3,11 @@ title: Call a user from the WebRTC UI
 description: Make outbound calls and receive a voice call in the browser through the WebRTC interface from On-Call Schedules landing page, Roster and Escalation Details dialog box and on-call calendar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_CallfromWEBRTCUI.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Notify with On-Call Scheduling, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,7 +31,7 @@ Role required: notify\_view, or itil
     \[Omitted image "WebRTC2.png"\] Alt text: Screen for WebRTC UI
 
 
-**Parent Topic:**[Using Notify with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyWithOnCall.md)
+**Parent Topic:**[Using Notify with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifyWithOnCall.md)
 
 **Related topics**  
 

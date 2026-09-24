@@ -3,9 +3,9 @@ title: Sign the flows, subflows, and actions in the protected instance
 description: Use update sets to sign and validate the flows, subflows, and actions by enabling the Code Signing in protected and trusted instances.Sign and validate the existing flow, subflows, and actions by enabling the code signing in production and trusted instances.Sign and validate new flow, subflows, and actions by enabling the Code Signing in protected and trusted instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-fdih.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Code Signing, Code Signing, Platform Security]
 ---
@@ -16,6 +16,8 @@ Use update sets to sign and validate the flows, subflows, and actions by enablin
 
 -   Establish Circle of Trust between the protected and trusted instances.
 -   Role required: security\_admin
+
+**Parent Topic:**[Using Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/using-code-signing.md)
 
 ## Sign the existing flow, subflows, and actions
 

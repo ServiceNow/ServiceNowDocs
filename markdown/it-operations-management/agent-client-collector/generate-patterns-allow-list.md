@@ -3,11 +3,11 @@ title: Generate a Pattern allowlist
 description: Generate an allowlist for a selection of patterns, to configure the patterns permitted to run on an agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/generate-patterns-allow-list.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -53,8 +53,8 @@ Role required: discovery\_admin or agent\_client\_collector\_admin
     **Note:** To generate allowlist for commands nested within EVAL\(\) in a pattern step, ensure the Pattern Designer Enhancements plugin is v3.9.1 or above.
 
 
--   **[Define temporary variables for a pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/define-temp-variables.md)**  
+-   **[Define temporary variables for a pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/define-temp-variables.md)**  
 Define temporary variables by assigning values such as executable paths, config file paths, and so forth. Defining temporary variables ensures that runtime commands are successful.
 
-**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

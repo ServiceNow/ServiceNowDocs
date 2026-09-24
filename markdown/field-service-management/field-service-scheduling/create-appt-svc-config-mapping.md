@@ -3,11 +3,11 @@ title: Create an Appointment service configuration mapping
 description: An appointment service configuration mapping contains the service configuration, service configuration rule, and territory for use in an appointment schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-appt-svc-config-mapping.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Appointment service configuration mapping, Appointment schedule]
 breadcrumb: [Configure Advanced Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
@@ -21,9 +21,9 @@ An appointment service configuration mapping contains the service configuration,
 
 Role required: appointment\_booking\_admin
 
-Ensure that the Advanced Appointment Booking plugin is active. For more information, see [Activate Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-adv-appt-booking.md).
+Ensure that the Advanced Appointment Booking plugin is active. For more information, see [Activate Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/activate-adv-appt-booking.md).
 
-Ensure you have already created a **Service Configuration**. For more information see, [Create or modify service configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appt-booking-create-service-config.md).
+Ensure you have already created a **Service Configuration**. For more information see, [Create or modify service configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/appt-booking-create-service-config.md).
 
 ## About this task
 
@@ -69,7 +69,7 @@ Service configuration rule
 
 </td><td>
 
-The name of the service configuration rule to apply for this mapping. For more information, see [Create service configuration rules for a service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.md).
+The name of the service configuration rule to apply for this mapping. For more information, see [Create service configuration rules for a service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Demand channel
 
 </td><td>
 
-The demand channel for which the configuration applies. For more information, see [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md). **Note:** Applies only if territory plugin is installed.
+The demand channel for which the configuration applies. For more information, see [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md). **Note:** Applies only if territory plugin is installed.
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ The schedule that defines which days are considered as holidays and excluded fro
 
 ## What to do next
 
-Both a service configuration mapping and an appointment window configuration are required to create an Appointment schedule. For more information on appointment window configurations, see [Create an Appointment window configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-window-config.md).
+Both a service configuration mapping and an appointment window configuration are required to create an Appointment schedule. For more information on appointment window configurations, see [Create an Appointment window configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-appt-window-config.md).
 
-If a service configuration mapping already exists, see [Create an Appointment schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-sched.md).
+If a service configuration mapping already exists, see [Create an Appointment schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-appt-sched.md).
 

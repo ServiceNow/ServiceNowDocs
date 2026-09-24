@@ -3,11 +3,11 @@ title: Log in to your ServiceNow instance for authoring knowledge articles in Mi
 description: Author and collaborate on knowledge articles in Microsoft Word by logging in to your ServiceNow instance from the Word Online application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/authenticate-article-word.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authoring a knowledge article in Microsoft Word, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Author and collaborate on knowledge articles in Microsoft Word by logging in to 
 
 You must have contribute access to the knowledge base within which you want to create the knowledge article.
 
-The system administrator and Office 365 administrator have configured the Knowledge Management - Add-in for Microsoft Word. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-km-add-in-word.md).\)
+The system administrator and Office 365 administrator have configured the Knowledge Management - Add-in for Microsoft Word. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configure-km-add-in-word.md).\)
 
 Role required: agent
 

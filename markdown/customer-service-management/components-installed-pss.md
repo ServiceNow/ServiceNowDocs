@@ -3,11 +3,11 @@ title: Components installed with Customer Contracts and Entitlements
 description: Several types of components are installed with the Customer Contracts and Entitlements application, including tables and roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/components-installed-pss.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Contracts and Entitlements, Product data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Configure Customer Contracts and Entitlements, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Components installed with Customer Contracts and Entitlements
@@ -152,8 +152,8 @@ Stores the runtime contract lines like a service plan.
 </td></tr></tbody>
 </table>You can assign roles to users and groups using the ServiceNow AI Platform user administration features. For more information, see:
 
--   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md)
--   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md)
+-   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md)
+-   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md)
 
 The default view on customer contracts and entitlements in Customer Service Management workspace is Service Contract Workspace view. It can be changed by an administrator.
 

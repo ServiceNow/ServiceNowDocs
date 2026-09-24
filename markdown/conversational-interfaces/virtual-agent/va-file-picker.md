@@ -3,14 +3,14 @@ title: File Picker user input control
 description: Use the File Picker user input control in a Virtual Agent topic to prompt a user to upload an image or any file type. After the user uploads an image file, the image appears immediately in the Virtual Agent client.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-file-picker.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Virtual Agent, file picker, user input]
-breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # File Picker user input control
@@ -31,7 +31,7 @@ The live agent picker scenario:
 
 When a file upload is in progress, you can't upload or enter text for the file picker control. The uploaded files go through a virus scan and validation.
 
-You can link an uploaded file to a case you create using the Record Action utility. For more information, see [Record Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-record-action-util.md).
+You can link an uploaded file to a case you create using the Record Action utility. For more information, see [Record Action utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-record-action-util.md).
 
 The following table lists the details about the properties of the File Picker.
 
@@ -226,182 +226,13 @@ File Picker prompt
 
 The following table lists the details about the channel support for the File Picker user input control.
 
-<table id="table_kwp_dyq_rsb"><thead><tr><th>
-
-Channel
-
-</th><th>
-
-Support
-
-</th><th>
-
-Constraints
-
-</th></tr></thead><tbody><tr><td>
-
-Web UI
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Mobile UI
-
-</td><td>
-
-Supported
-
-</td><td>
-
-Prompt that users see asking for permission for the app to access a camera or file system if the user has not already given the permission.
-
- \[Omitted image "camera-access-prompt.png"\] Alt text: Prompt that reads, "Mobile" Would Like to Access the Camera. The choices are "Don't Allow" and "OK."
-
-</td></tr><tr><td>
-
-ServiceNow Otto panel
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Microsoft Teams
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Google Chat
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Slack
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Workplace
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Facebook Messenger
-
-</td><td>
-
-Supported
-
-</td><td>
-
-Supported file types are JPG, PNG, BMP, and MP4. The files have a maximum size limit based on the file type:
-
--   For images, the maximum size limit is 10 MB.
--   For videos, the maximum size limit is 200 MB.
-
-</td></tr><tr><td>
-
-SMS Twilio
-
-</td><td>
-
-Partial support
-
-</td><td>
-
-Image files only
-
-</td></tr><tr><td>
-
-LINE
-
-</td><td>
-
-Supported
-
-</td><td>
-
-Supported file types are JPG, PNG, BMP, and MP4. The files have a maximum size limit based on the file type:
-
--   For images, the maximum size limit is 10 MB.
--   For videos, the maximum size limit is 200 MB.
-
-</td></tr><tr><td>
-
-WhatsApp
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Apple Messages for Business
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Alexa \(Voice\)
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
+|Channel|Support|Constraints|
+|-------|-------|-----------|
+|Microsoft Teams|Supported|None|
+|Slack|Supported|None|
+|SMS Twilio|Partial support|Image files only|
+|WhatsApp|Supported|None|
+|Google Chat|Supported|None|
+
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

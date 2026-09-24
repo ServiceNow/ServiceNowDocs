@@ -3,7 +3,7 @@ title: Set up the Plivo spoke
 description: Integrate the ServiceNow instance and Plivo account by using the basic authentication to authenticate ServiceNow requests.Add and configure a Plivo connection to authenticate ServiceNow requests in Plivo spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/plivo-setup.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -45,7 +45,7 @@ Add and configure a Plivo connection to authenticate ServiceNow requests in Pliv
 
         \[Omitted image "plivo-connection.png"\] Alt text: Connection for Plivo spoke.
 
-    -   To manage more than one Plivo spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Plivo spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "plivo-conf-connection.png"\] Alt text: First-time connection configuration of the Plivo spoke.

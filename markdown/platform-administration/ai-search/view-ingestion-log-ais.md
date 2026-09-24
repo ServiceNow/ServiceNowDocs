@@ -3,11 +3,11 @@ title: View AI Search ingestion log messages
 description: Review AI Search ingestion and indexing events by viewing log messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/view-ingestion-log-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [AI Search logging and debugging, Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -29,5 +29,5 @@ Role required: admin
 2.  Use the list search, sort, filter, and group functions to locate messages of interest.
 
 
-**Parent Topic:**[AI Search logging and debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/logging-debugging-ais.md)
+**Parent Topic:**[AI Search logging and debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/logging-debugging-ais.md)
 

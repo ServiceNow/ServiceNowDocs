@@ -3,9 +3,9 @@ title: Initiate risk assessments on material topics
 description: Assess the risks to your material topics by initiating a risk assessment and sending it to the owner of the material topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/initiate-a-risk-assessment-on-a-mt.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -31,5 +31,5 @@ Role required: sn\_esg.program.manager
 
 The risk assessment is sent to the owner of the material topic. The assessor then responds to the assessment.
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-risk-management.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-risk-management.md)
 

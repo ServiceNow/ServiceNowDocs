@@ -3,9 +3,9 @@ title: Exploring Model Risk Management
 description: Learn how you can use the Model Risk Management application to identify, assess, and mitigate risks related to the quantitative models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/exploring-mrm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [explore]
 breadcrumb: [Model Risk Management, Governance, Risk, and Compliance]
@@ -100,7 +100,7 @@ Model Risk Assessment
 
 </td><td>
 
-Helps quickly identify and prioritize high-risk models so resources focus where they matter most. To perform a model risk assessment and evaluate the risks associated with a quantitative model, refer to [Perform model risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-model-risk-assessment.md).
+Helps quickly identify and prioritize high-risk models so resources focus where they matter most. To perform a model risk assessment and evaluate the risks associated with a quantitative model, refer to [Perform model risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/perform-model-risk-assessment.md).
 
 </td><td>
 
@@ -113,7 +113,7 @@ Model Validation
 
 </td><td>
 
-Builds confidence in model reliability through independent checks that reduce errors and regulatory concerns.To perform model validation, refer to [Perform model validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-model-risk-validation.md).
+Builds confidence in model reliability through independent checks that reduce errors and regulatory concerns.To perform model validation, refer to [Perform model validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/perform-model-risk-validation.md).
 
 </td><td>
 
@@ -125,7 +125,7 @@ Model Documentation
 
 </td><td>
 
-Makes it easy to maintain clear, audit-ready documentation that streamlines reviews and improves transparency.To link documents from your repository to a model record, refer to [Link existing documents to a model record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/link-existing-documents-model-record.md).
+Makes it easy to maintain clear, audit-ready documentation that streamlines reviews and improves transparency.To link documents from your repository to a model record, refer to [Link existing documents to a model record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/link-existing-documents-model-record.md).
 
 </td><td>
 
@@ -139,7 +139,7 @@ Model Issue &amp; Remediation
 
 </td><td>
 
-Enables timely detection and resolution of model issues, minimizing business disruption and confirming continuous compliance.To report an issue, refer to [Create an issue for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-an-issue-for-model-risk.md).
+Enables timely detection and resolution of model issues, minimizing business disruption and confirming continuous compliance.To report an issue, refer to [Create an issue for model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-an-issue-for-model-risk.md).
 
 </td><td>
 
@@ -152,8 +152,8 @@ Enables timely detection and resolution of model issues, minimizing business dis
 
 To learn more about configuring and using Model Risk Management, see:
 
--   [Configuring Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configuring-mrm.md)
+-   [Configuring Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-mrm.md)
 -   [Configure scoring logic for model risk assessments](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2287605)
--   [Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
--   [Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/mrm-reference.md)
+-   [Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-mrm.md)
+-   [Model Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/mrm-reference.md)
 

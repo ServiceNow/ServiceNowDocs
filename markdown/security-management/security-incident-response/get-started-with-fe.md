@@ -3,11 +3,11 @@ title: Get Started with File Explorer
 description: Review the following information before you start working with File Explorer Component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-started-with-fe.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure File Explorer Component, Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -67,5 +67,5 @@ Use **sn\_fe\_sharepoint** plugin ID to search and install Microsoft SharePoint 
 Installing this plugin will manage the Microsoft SharePoint Files/Folders using File Explorer.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)
+</table>**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/file-explorer.md)
 

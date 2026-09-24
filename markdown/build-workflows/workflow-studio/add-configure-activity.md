@@ -3,11 +3,11 @@ title: Add and configure an activity in a playbook
 description: Add and configure an activity in your playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-configure-activity.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,21 +20,21 @@ Add and configure an activity in your playbook.
 
 Role required: playbook.admin or pd\_author
 
-Review [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
+Review [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
 ## Procedure
 
 1.  Add an activity.
 
-<table id="choicetable_e2d_3mv_21c"><thead><tr><th align="left" id="d184773e77">
+<table id="choicetable_e2d_3mv_21c"><thead><tr><th align="left" id="d186427e77">
 
 View
 
-</th><th align="left" id="d184773e80">
+</th><th align="left" id="d186427e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d184773e86">
+</th></tr></thead><tbody><tr><td id="d186427e86">
 
 **Diagram**
 
@@ -46,7 +46,7 @@ Steps
 
 **Note:** Select the application first, and then the activity from the resulting list.
 
-</td></tr><tr><td id="d184773e118">
+</td></tr><tr><td id="d186427e118">
 
 **Board**
 
@@ -91,11 +91,11 @@ Choose when you want your activity to start running. Options include:-   **When 
 
 
 </td></tr></tbody>
-</table>    1.  **Show additional options** the activity for [even more granular control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/advanced-instruction-activity.md).
+</table>    1.  **Show additional options** the activity for [even more granular control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/advanced-instruction-activity.md).
 
         **Warning:** Changing the advanced property fields of an activity can potentially break your automation. Make sure you understand how the playbook and its activities flow before you make changes.
 
-<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d184773e274">
+<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d186427e274">
 
 **Display order**
 
@@ -103,7 +103,7 @@ Choose when you want your activity to start running. Options include:-   **When 
 
 Define the order in which this activity will appear during a playbook run.
 
-</td></tr><tr><td id="d184773e286">
+</td></tr><tr><td id="d186427e286">
 
 **Run condition**
 
@@ -111,15 +111,15 @@ Define the order in which this activity will appear during a playbook run.
 
 After the activity starts, the activity runs only if specific conditions are met.
 
-</td></tr><tr><td id="d184773e295">
+</td></tr><tr><td id="d186427e295">
 
 **Start with delay**
 
 </td><td>
 
-Specify a duration of time to wait before running an activity whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
+Specify a duration of time to wait before running an activity whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
 
-</td></tr><tr><td id="d184773e315">
+</td></tr><tr><td id="d186427e315">
 
 **Restart rules**
 
@@ -128,7 +128,7 @@ Specify a duration of time to wait before running an activity whose start rule a
 Choose what this activity does when a playbook is restarted:-   **Skip on restart**: Skip this activity when the run is due to a restart.
 -   **Run always**: Always run this activity, including first runs.
 -   **Skip on first run**: Skip this activity during the first run.
-For more information, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-define-restart.md).
+For more information, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/enable-define-restart.md).
 
 </td></tr></tbody>
 </table>3.  Open the **Automation** tab.
@@ -149,7 +149,7 @@ For more information, see [Configure restart for Playbooks](https://raw.githubus
 
 4.  Under the **Inputs** section, define the values of the activity's inputs.
 
-    Configure inputs with a hardcoded value, or by [dot-walking to a data pill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md) \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\) to use data from previous activities, the playbook trigger, from the playbook parent table, or from the playbook inputs.
+    Configure inputs with a hardcoded value, or by [dot-walking to a data pill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md) \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\) to use data from previous activities, the playbook trigger, from the playbook parent table, or from the playbook inputs.
 
     **Tip:** You can use both text and multiple pills in any other rich text or HTML input fields.
 
@@ -157,11 +157,11 @@ For more information, see [Configure restart for Playbooks](https://raw.githubus
 
     Depending on the UI Layout associated with the activity, different sections and fields appear under the activity definition's Activity Experience. These sections and fields let you set up the activity data that renders during the runtime Playbook Experience.
 
-    **Note:** All UI Layouts, except for Record generator, display an Associated Record section. For information on how to set up or edit the Associated Record section in an activity definition, see [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
+    **Note:** All UI Layouts, except for Record generator, display an Associated Record section. For information on how to set up or edit the Associated Record section in an activity definition, see [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-activity-definition.md).
 
 6.  Specify if an AI Agent performs the activity, and how.
 
-    To learn more, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md).
+    To learn more, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md).
 
 7.  Click **Save and close** to save the details of your activity.
 
@@ -177,7 +177,7 @@ For more information, see [Configure restart for Playbooks](https://raw.githubus
 
     3.  Fill in the following fields.
 
-<table id="choicetable_cf4_jqb_g5b"><tbody><tr><td id="d184773e558">
+<table id="choicetable_cf4_jqb_g5b"><tbody><tr><td id="d186427e558">
 
 **Label**
 
@@ -185,7 +185,7 @@ For more information, see [Configure restart for Playbooks](https://raw.githubus
 
 Enter a unique, user-facing name for your activity. This name appears to agents and fulfillers during runtime of your playbook.
 
-</td></tr><tr><td id="d184773e570">
+</td></tr><tr><td id="d186427e570">
 
 **Accessible From**
 
@@ -193,7 +193,7 @@ Enter a unique, user-facing name for your activity. This name appears to agents 
 
 Where the activity is accessible from. Make the activity accessible to other applications by setting the **Accessible from** field to **All application scopes**. Restrict access by setting the field to **This Application Scope Only**.
 
-</td></tr><tr><td id="d184773e588">
+</td></tr><tr><td id="d186427e588">
 
 **Table**
 
@@ -201,7 +201,7 @@ Where the activity is accessible from. Make the activity accessible to other app
 
 Optionally, set to the table associated with the activity.
 
-</td></tr><tr><td id="d184773e597">
+</td></tr><tr><td id="d186427e597">
 
 **Application**
 
@@ -209,7 +209,7 @@ Optionally, set to the table associated with the activity.
 
 Read-only field that indicates which applications can use this activity.
 
-</td></tr><tr><td id="d184773e606">
+</td></tr><tr><td id="d186427e606">
 
 **Description**
 
@@ -217,7 +217,7 @@ Read-only field that indicates which applications can use this activity.
 
 Optionally, enter some descriptive details about your activity.
 
-</td></tr><tr><td id="d184773e616">
+</td></tr><tr><td id="d186427e616">
 
 **Automation Plan**
 
@@ -225,7 +225,7 @@ Optionally, enter some descriptive details about your activity.
 
 Select the subflow or action that you want to use to automate your activity.
 
-</td></tr><tr><td id="d184773e625">
+</td></tr><tr><td id="d186427e625">
 
 **Activity Experience**
 
@@ -243,5 +243,5 @@ Optionally, set the activity's experience type, which helps to define how the ac
 
 Set up the Playbook Experience for you agents and fulfillers.
 
-**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

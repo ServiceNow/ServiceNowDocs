@@ -3,12 +3,12 @@ title: Opt out of data sharing for Now Assist
 description: Data sharing improves ServiceNow AI products. You can opt out of data sharing from the Now Assist Admin console Settings page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-01-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Opt out, Now Assist, data sharing, Admin console, settings page, account]
-breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Opt out of data sharing for Now Assist
@@ -19,11 +19,11 @@ Data sharing improves ServiceNow AI products. You can opt out of data sharing fr
 
 **Important:** Data sharing is not available for GCC or self-hosted instances. You don't need to opt out because data sharing is never enabled. If you have any questions, reach out to your account representative.
 
-If you do not have a data steward, see [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assign-data-steward-role.md) documentation.
+If you do not have a data steward, see [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/assign-data-steward-role.md) documentation.
 
 Role required: sn\_generative\_ai.data\_steward
 
-**Note:** The **Opt out** button appears only if you’ve installed at least one Now Assist application or plugin. For a list of all Now Assist applications, see [Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md).
+**Note:** The **Opt out** button appears only if you’ve installed at least one Now Assist application or plugin. For a list of all Now Assist applications, see [Exploring AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-now-assist-platform.md).
 
 ## About this task
 
@@ -56,5 +56,5 @@ Opting out can take up to five business days to process.
 
 Your data sharing preference is saved on the instance. If you want to opt back in to data sharing, you must consult with your account executive.
 
-**Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-sharing-and-processes.md)
+**Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-sharing-and-processes.md)
 

@@ -3,9 +3,9 @@ title: Enterprise Architecture use case
 description: Enterprise Architecture lets you define a single, version-agnostic entity that represents all instances, technologies, and data used for planning and reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/apm-use-case-example.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Enterprise Architecture and CSDM framework, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -18,7 +18,7 @@ Enterprise Architecture lets you define a single, version-agnostic entity that r
 
 Starting with the Xanadu release, most Enterprise Architecture \(formerly Application Portfolio Management\) capabilities are available through the Enterprise Architecture Workspace.
 
-Features such as data certification, application assessments, and total cost of ownership \(TCO\) are now accessed and managed from the Enterprise Architecture Workspace, not from the legacy APM pages. To learn more about Enterprise Architecture Workspace, see [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md).
+Features such as data certification, application assessments, and total cost of ownership \(TCO\) are now accessed and managed from the Enterprise Architecture Workspace, not from the legacy APM pages. To learn more about Enterprise Architecture Workspace, see [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-workspace.md).
 
 ## Enterprise Architecture use case
 
@@ -82,5 +82,5 @@ The following information is used to determine the EOL impact to business applic
     The Software Model Life cycle table is named \[sam\_sw\_model\_lifecycle\].
 
 
-**Parent Topic:**[Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/apm-use-case-product-view.md)
+**Parent Topic:**[Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/apm-use-case-product-view.md)
 

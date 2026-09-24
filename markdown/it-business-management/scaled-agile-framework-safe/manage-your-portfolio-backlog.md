@@ -3,11 +3,11 @@ title: Manage your portfolio backlog
 description: Manage, evaluate, prioritize, and sequence epics in your portfolio backlog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/manage-your-portfolio-backlog.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SAFe Board—Portfolio level, Portfolio SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -48,15 +48,15 @@ Role required: sn\_portfolio\_safe.safe\_portfolio\_user
 
 7.  To arrange epics within the backlog, use either of the following options.
 
-<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d189677e161">
+<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d189991e161">
 
 Action
 
-</th><th align="left" id="d189677e164">
+</th><th align="left" id="d189991e164">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d189677e170">
+</th></tr></thead><tbody><tr><td id="d189991e170">
 
 **Using the drag feature**
 
@@ -64,7 +64,7 @@ Description
 
 Point to an epic and drag it to the required position.
 
-</td></tr><tr><td id="d189677e179">
+</td></tr><tr><td id="d189991e179">
 
 **Using the keyboard**
 
@@ -92,5 +92,5 @@ Point to an epic and drag it to the required position.
     |**Move to bottom**|Epics are placed at the bottom of the backlog section.|
 
 
-**Parent Topic:**[SAFe Board—Portfolio level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/portfolio-tabs.md)
+**Parent Topic:**[SAFe Board—Portfolio level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/portfolio-tabs.md)
 

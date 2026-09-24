@@ -3,13 +3,13 @@ title: Configure Atlassian Jira Cloud for external content indexing
 description: Register an OAuth 2.0 integration in the Atlassian Developer console and create an API key in Atlassian Administration to allow the Atlassian Jira Cloud external content connector to crawl projects and security principals in your Atlassian Jira Cloud source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Atlassian Jira Cloud external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -63,7 +63,7 @@ To allow the connector to access your Atlassian Jira Cloud source system via the
 
 1.  In the Atlassian Developer console, register a new OAuth 2.0 integration for the Atlassian Jira Cloud external content connector.
 
-    1.  Login to the Atlassian Developer console at [https://developer.atlassian.com/console/myapps/](https://developer.atlassian.com/console/myapps/).
+    1.  Log in to the Atlassian Developer console at [https://developer.atlassian.com/console/myapps/](https://developer.atlassian.com/console/myapps/).
 
     2.  In the My apps section, select **Create** &gt; **OAuth 2.0 integration**.
 
@@ -138,7 +138,7 @@ To allow the connector to access your Atlassian Jira Cloud source system via the
 
 2.  In Atlassian Administration, create a new admin API key.
 
-    1.  Login to Atlassian Administration at [https://admin.atlassian.com/](https://admin.atlassian.com/).
+    1.  Log in to Atlassian Administration at [https://admin.atlassian.com/](https://admin.atlassian.com/).
 
     2.  Select **Settings** in the tab list.
 
@@ -170,20 +170,20 @@ To allow the connector to access your Atlassian Jira Cloud source system via the
 
 3.  Configure a technical user in your Atlassian Jira Cloud tenant to allow access by the Atlassian Jira Cloud external content connector.
 
-    For details on this procedure, see [Configure a connector user in Atlassian Jira Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-connector-user-jira-cloud.md).
+    For details on this procedure, see [Configure a connector user in Atlassian Jira Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-connector-user-jira-cloud.md).
 
 
 ## What to do next
 
 Provide the following items to your connector administrator:
 
--   The OAuth 2.0 integration's Client ID and Secret values that you recorded in step [1.j](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.md).
--   The API key's value that you recorded in step [2.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.md).
--   The credentials for the Atlassian Jira Cloud user that you created in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.md).
+-   The OAuth 2.0 integration's Client ID and Secret values that you recorded in step [1.j](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.md).
+-   The API key's value that you recorded in step [2.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.md).
+-   The credentials for the Atlassian Jira Cloud user that you created in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.md).
 
 Your connector administrator needs these items to configure an Atlassian Jira Cloud external content connector to retrieve projects and security principals from your Atlassian Jira Cloud instance.
 
-For details on creating and configuring an Atlassian Jira Cloud external content connector, see [Create an Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-jira.md).
+For details on creating and configuring an Atlassian Jira Cloud external content connector, see [Create an Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-jira.md).
 
-**Parent Topic:**[Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/atlassian-jira-cloud-external-content-connector.md)
+**Parent Topic:**[Atlassian Jira Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/atlassian-jira-cloud-external-content-connector.md)
 

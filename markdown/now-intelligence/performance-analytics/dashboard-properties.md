@@ -3,12 +3,12 @@ title: Responsive dashboard properties
 description: Use properties to fine-tune dashboard behavior and appearance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/dashboard-properties.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-04-22"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -38,7 +38,7 @@ com.glide.par.unified\_analytics.enabled
 
 -   Type: true \| false
 -   Default value: true
--   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 
  When enabled, users see both Platform Analytics and Core UI \(responsive\) dashboards in the library. Users can still drill down to KPI details from responsive dashboard indicator visualizations.
 
@@ -48,9 +48,11 @@ Enable fulfiller creation of Core UI dashboardscom.snc.par.coreui.dashboard\_cre
 
 </td><td>
 
-Allows fulfiller users to create Core UI dashboards after upgrade to Australia. There is a **Create new** button available in the Dashboards library with the option to create Core UI dashboards in the modal.-   Type: true \| false
+Allows any internal user to create Core UI dashboards on an upgraded instance. The instance must not have been net new on Xanadu or later, or Core UI dashboards are not supported and this property has no effect.When the `true` value of this property is in effect, you can create Core UI dashboards through the **Create new** button in the Dashboards library.
+
+-   Type: true \| false
 -   Default value: true
--   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -64,7 +66,7 @@ glide.cms.dashboards.sharing\_with\_secure\_search
 -   Default value: false
 -   Location: **System Properties** &gt; **Dashboard Properties**
 
- When enabled, the list of users, user groups, and roles that are visible in the sharing panel is restricted. The restriction is based on the configuration of the sys\_user, sys\_user\_group, and sys\_user\_role ACLs. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
+ When enabled, the list of users, user groups, and roles that are visible in the sharing panel is restricted. The restriction is based on the configuration of the sys\_user, sys\_user\_group, and sys\_user\_role ACLs. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/access-control-rules.md).
 
  There is a performance penalty associated with enabling this property. Performance degradation may be based on the number and complexity of business rules and ACLs on your instance.
 
@@ -97,7 +99,7 @@ glide.canvas.grid.widget\_performance\_threshold
 -   Default value: none
 -   Location: **System Properties** &gt; **Dashboard Properties**
 
- For more information, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
+ For more information, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +113,7 @@ glide.canvas.grid.widget\_render\_concurrent\_max
 -   Default value: 3
 -   Location: **System Properties** &gt; **Dashboard Properties**
 
- For more information, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
+ For more information, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
 
 </td></tr><tr><td>
 
@@ -135,7 +137,7 @@ glide.cms.dashboards.sharing.search.maxRecords
 
 -   Type: integer
 -   Default value: 100
--   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 
  Setting the value too low can cause the expected results not to be found. The minimum value is 5. Setting the value too high can cause performance issues.
 

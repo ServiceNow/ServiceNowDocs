@@ -3,11 +3,11 @@ title: Request configuration mapping table
 description: The Request configuration mapping \[sn\_ind\_rmt\_help\_defn\_param\_data\_map\] table stores the association between the request parameter and the request definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-request-configuration-mapping.html
-release: australia
+release: brazil
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data model tables, Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ The Request configuration mapping \[sn\_ind\_rmt\_help\_defn\_param\_data\_map\]
 
 The Request configuration mapping \[sn\_ind\_rmt\_help\_defn\_param\_data\_map\] table has the following features:
 
--   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see [Customizations tracked by update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/customizations-tracked-update-sets.md).
+-   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see Customizations tracked by update sets.
 -   For a request definition, maps each active request parameter to a specific column in the corresponding request data table.
 
 Role required to configure the table: sn\_ind\_rmt\_help.admin.
@@ -108,5 +108,5 @@ Reference
 References the remote request parameter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)
+</table>**Parent Topic:**[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)
 

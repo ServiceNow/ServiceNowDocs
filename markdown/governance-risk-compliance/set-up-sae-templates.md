@@ -3,10 +3,10 @@ title: Set up DRI Smart Assessment templates
 description: Set up the Smart Assessment templates in the Assessment Workspace. You can then use them to set up the action task configuration templates in the Regulatory Agency Profile for Digital resilience incident reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-sae-templates.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Configure, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -44,15 +44,15 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
     |Purpose|Purpose or intended use of the template, such as, DRI template category.|
     |Assessment target|Table records that are used for the assessment. For example, Digital Resilience Incident Reporting Case, Action task.|
 
-    For more information on creating templates, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    For more information on creating templates, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
     The assessment template is created and displayed in the Details section of the **General** tab.
 
-    You can now fill in the template with instructions, questions, and optional guidance for responding to a question, and sections that group the related questions. For more information on creating an assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    You can now fill in the template with instructions, questions, and optional guidance for responding to a question, and sections that group the related questions. For more information on creating an assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 4.  Set up the assessment questions in the **Questions** tab.
 
-    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
     The example shows how to set up the assessment questions.
 
@@ -77,6 +77,8 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
     **Note:** You can edit an existing automation only if you have access to it and the corresponding DRI template is published. Otherwise, the automation is available as read-only.
 
     \[Omitted image "dri-regu-report-asmt-automations-tab.png"\] Alt text: Example showing the Automations tab.
+
+    **Note:** Automate response \(auto-fill\) is not currently supported for Reference-type questions in Digital resilience incident reporting templates. Answers to Reference-type questions are not carried forward between the Regulatory reporting assessment of IT incidents, DRI Initial report, DRI Intermediate report, and DRI Final report assessments, and must be entered manually on each report.
 
     Follow these steps to add automations to your assessment template.
 
@@ -118,17 +120,25 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
         \[Omitted image "dri-automation-activated.png"\] Alt text: Activated automation displayed in the list on the Automations tab.
 
-        For more information on automations, see [Automate response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/automate-response.md) and [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
+        User role filtering for contributor and reassign actions: When contributors or reassigners manage an assessment, the system applies role-based filtering to the user list. Only users assigned the DRIR role are available for selection in the Manage contributors and Reassign dialogs.
+
+        The DRIR application uses a user filter extension point integrated with Smart Assessment. When an assessment action task is opened, the filter restricts the available user list to those with the required DRIR role. This filtering applies regardless of which template is used or how the assessment was initiated.
+
+        Administrator responsibility: Verify that users who need to be assigned as contributors or reassigned have the appropriate DRIR role granted in your instance \(typically sn\_dri\_inc\_rptg.digital\_resilience\_incident\_user\). Verify role assignments are active and not suspended or expired.
+
+        For more information on automations, see [Automate response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/automate-response.md) and [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
 
 8.  Configure scoring settings on the **Scoring** tab.
 
-    For more information on assigning scores to the assessments, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md). For more information on the Smart Assessment Engine, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
+    For more information on assigning scores to the assessments, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md). For more information on the Smart Assessment Engine, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
 
 9.  Select **Save**.
 
 10. To copy a published template, select **Copy template**, update the fields, and save your changes.
 
-    **Note:** The shipped DRI Initial report, DRI Intermediate report, DRI Final report, and Regulatory reporting assessment of IT incidents templates are published and may already be associated with existing DRI assessments. As long as the template is associated with one or more assessments, it cannot be moved back to Draft and the question structure cannot be edited. To customize the questionnaire for your organization, use 'Copy template' to create an editable copy, modify the copy, publish it, and update the corresponding Action Task Configuration on the Regulatory Body Management Agency Profile to point to the new template. You also need the sn\_dri\_inc\_rptg.digital\_resilience\_incident\_admin or sn\_oper\_res.admin role to edit DRI templates.
+    The shipped DRI Initial report, DRI Intermediate report, DRI Final report, and Regulatory reporting assessment of IT incidents templates are published. They may already be associated with existing DRI assessments. As long as the template is associated with one or more assessments, it cannot be moved back to Draft and the question structure cannot be edited. To customize the questionnaire for your organization, use **Copy template** to create an editable copy. Modify the copy, publish it, and update the corresponding action task configuration on the Regulatory Body Management Agency Profile to point to the new template. You also need the sn\_dri\_inc\_rptg.digital\_resilience\_incident\_admin or sn\_oper\_res.admin role to edit DRI templates.
+
+    **Note:** Copying a template does not automatically update the "Automate response" scripts on its questions. If the copied template's questions use response automation to auto-fill answers from a prior report, you must update the DriIncRptgConstants and DRIIncRptgResponseAutomation Script Includes, and the corresponding question scripts, to reference the new template before auto-fill works for it. This must be repeated for every new custom template you create. For more information about these Script Includes, see [Script includes installed with Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/script-incl-drir.md).
 
 11. To edit a published template, verify you have the required roles, select **Edit**, update the fields, and save your changes.
 
@@ -144,7 +154,7 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
     The assessment template is now published and available in the Digital resilience incident reporting module.
 
-    **Note:** Starting with Digital Resilience Incident Reporting, version 22.3.0, Smart Assessment templates support version control, and version details are displayed on each template. For information on Smart Assessment Engine documentation, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
+    **Note:** Starting with Digital Resilience Incident Reporting, version 22.3.0, Smart Assessment templates support version control, and version details are displayed on each template. For information on Smart Assessment Engine documentation, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
 
     The examples display pre-configured DRI templates for DORA regulation with version details.
 
@@ -158,6 +168,6 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
     **Note:** After setting up Smart Assessment templates in the Assessment Workspace, you can use them to configure action task templates in the Regulatory Agency Profile table.
 
-    For more information on setting up action task templates, see the [Set up action task templates in Regulatory agency profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-action-task-templates.md) section.
+    For more information on setting up action task templates, see the [Set up action task templates in Regulatory agency profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-action-task-templates.md) section.
 
 

@@ -1,18 +1,18 @@
 ---
 title: Dashboard sharing reference qualifiers
-description: Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared dashboards.
+description: Use reference qualifiers to limit the users, groups, and roles and to provide more information in the recipients field of shared dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/share-db-ref-qualifiers.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Share a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Dashboard sharing reference qualifiers
 
-Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared dashboards.
+Use reference qualifiers to limit the users, groups, and roles and to provide more information in the recipients field of shared dashboards.
 
 ## Before you begin
 
@@ -24,15 +24,17 @@ Role required: admin
 
 2.  Open the **par\_dashboard\_permission** table.
 
-3.  Press Ctrl+Click on the Preview Users button \[Omitted image "InfoIcon.png"\] Alt text: info buttonnext to Users on the **Columns** tab to open the Users dictionary entry.
+3.  Press Ctrl+Click on the Preview Users button \[Omitted image "InfoIcon.png"\] Alt text: info buttonnext to User on the **Columns** tab to open the its dictionary entry.
 
-    Point to the Users Column label to see this button.\[Omitted image "preview-buttons-sched-export.png"\] Alt text: Preview Users and Preview Groups buttons on the Columns list of Par Notification Email Recipients
+    Move to the Users Column label to see this button.
+
+    \[Omitted image "preview-buttons-sched-export.png"\] Alt text: Preview Users and Preview Groups buttons on the Columns list of Par Notification Email Recipients
 
 4.  If you're in the wrong application, select the link to edit the record.
 
     \[Omitted image "app-mismatch-msg-sched-export.png"\] Alt text: Mismatched application message with link to edit the record
 
-5.  On the Reference Specification tab of the dictionary entry, use the condition builder to add filter conditions to the User list.
+5.  On the Reference Specification tab of the dictionary entry, use the condition builder to add filter conditions to the Users, Groups, or Roles list.
 
     For example, configure the reference qualifier condition \[Name\] \[starts with\] \[b\]. Only users whose names start with the letter B will show up in the list of users in the recipients list when sharing a dashboard.
 
@@ -41,7 +43,7 @@ Role required: admin
 
 ## What to do next
 
-Perform the same actions on the Group and Role columns to limit sharing with those categories of recipient.
+[Show more information in the Share Dashboard window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-db-ref-qualifiers-more-info.md)
 
-**Parent Topic:**[Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-in-ac.md)
+**Parent Topic:**[Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-db-in-ac.md)
 

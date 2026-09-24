@@ -3,11 +3,11 @@ title: Search for a time sheet from time sheet lists
 description: Search for a specific time sheet from the time sheet lists by applying filters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/search-timesheet-mobile.html
-release: australia
+release: brazil
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a time sheet from your mobile device, Mobile Time Sheets, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -41,5 +41,5 @@ You can apply filters on the time sheet lists to search for a specific time shee
 7.  Tap **Apply**.
 
 
-**Parent Topic:**[Create a time sheet from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/create-timesheet-mobile.md)
+**Parent Topic:**[Create a time sheet from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/time-card-management/create-timesheet-mobile.md)
 

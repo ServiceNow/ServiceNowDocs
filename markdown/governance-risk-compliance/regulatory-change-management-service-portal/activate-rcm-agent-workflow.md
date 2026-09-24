@@ -3,7 +3,7 @@ title: Activate the get regulatory analysis agentic workflow
 description: Configure and activate the get regulatory analysis agentic workflow that uses AI agents to enrich regulatory alerts with external context, classification, summarization, and recommended potential impacted items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-workflow.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
@@ -21,7 +21,7 @@ Configure and activate the get regulatory analysis agentic workflow that uses AI
 
 Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
 
-The regulatory alert recommendation and summarization skills are required to generate enriched insights and identify impacted areas. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md) and [Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-alert-summarization.md).
+The regulatory alert recommendation and summarization skills are required to generate enriched insights and identify impacted areas. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md) and [Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-alert-summarization.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 
@@ -33,13 +33,13 @@ If you have the RCM user \[sn\_grc\_reg\_change.user\] role and the sn\_grc\_com
 
 This workflow uses web search to enhance alert context, summarizes the alert, and recommends potential impacts on citations, policies, and control objectives to support faster and more accurate compliance decisions. The regulatory alert must be in the New or In Progress state to generate analysis.
 
-**Note:** You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
+**Note:** You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 You can perform the following actions on ServiceNow Otto workflows if you have the sn\_generative\_ai.nsa\_admin role:
 
--   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md)
--   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md)
--   [Delete an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/delete-aia-use-case.md)
+-   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md)
+-   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aia-use-case.md)
+-   [Delete an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/delete-aia-use-case.md)
 
 ## Procedure
 
@@ -186,22 +186,22 @@ Approved role\(s\)
 
     Triggers can include record conditions, schedules, or inbound email.
 
-    For more information, see [Add a trigger to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw.md).
+    For more information, see [Add a trigger to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aw.md).
 
 8.  Define where alerts and summaries are delivered \(for example, the ServiceNow Otto panel or Regulatory alert record\) by selecting **Channels and status**.
 
-    For more information, see [Select channels and access for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw.md).
+    For more information, see [Select channels and access for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aw.md).
 
 9.  Select **Save and test**.
 
 
 ## What to do next
 
-Use the **Testing** playground to [test your new agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md) using example utterances.
+Use the **Testing** playground to [test your new agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md) using example utterances.
 
 Verify that the enriched insights and recommendations are generated. If activation fails, check roles and skill configuration.
 
 After confirming the workflow performs as expected, you can get started by selecting **Get analysis** from the **Ask ServiceNow Otto** action menu on a regulatory alert page or by selecting **Get Regulatory Analysis** from the ServiceNow Otto panel. The regulatory alert must be New or In Progress to generate analysis.
 
-If you have not already set up the ServiceNow Otto panel, for more information see, [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+If you have not already set up the ServiceNow Otto panel, for more information see, [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 

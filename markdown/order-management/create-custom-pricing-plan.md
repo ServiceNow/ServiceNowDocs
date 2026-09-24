@@ -3,9 +3,9 @@ title: Create a configurable pricing plan
 description: Create a configurable pricing plan by copying the default pricing plan provided in Pricing Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-custom-pricing-plan.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configurable pricing plans, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -45,5 +45,5 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 ## What to do next
 
-[Add or change a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-pricing-step.md).
+[Add or change a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/add-pricing-step.md).
 

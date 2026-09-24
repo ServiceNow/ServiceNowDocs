@@ -3,11 +3,11 @@ title: Add ATF and instance scan suites for testing
 description: Add your customized test suites as part of an application deployment in addition to the instance scan and Automated Test Framework \(ATF\) testing suites that are standard in AEMC.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/add-atf-instance-scan-suite-testing.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -18,7 +18,7 @@ Add your customized test suites as part of an application deployment in addition
 
 ## Before you begin
 
-Because the ATF and instance scan suites exist only on testing instances, you must have your pipeline set up to complete this task. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-pipeline-environments.md).
+Because the ATF and instance scan suites exist only on testing instances, you must have your pipeline set up to complete this task. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-pipeline-environments.md).
 
 Role required: admin
 

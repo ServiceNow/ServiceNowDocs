@@ -3,11 +3,11 @@ title: Configuring Dynamic Translation
 description: Activate and configure Dynamic Translation to integrate with a third-party machine translation provider to enable live translation of user-generated content across the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/configuring-dynamic-translation.html
-release: australia
+release: brazil
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,14 +20,14 @@ Activate and configure Dynamic Translation to integrate with a third-party machi
 
 Activate dynamic translation and integrate with your preferred service provider.
 
--   **[Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/activate-dynamic-translation.md)**  
+-   **[Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/activate-dynamic-translation.md)**  
 Activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\) to enable all the required APIs.
--   **[Request for domain separation in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/activate-domainsep-dyn-transl.md)**  
+-   **[Request for domain separation in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/activate-domainsep-dyn-transl.md)**  
 Enable the support for the Dynamic Translation framework in domain-separated instances.
--   **[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)**  
+-   **[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)**  
 Preserve text such as product names or technical terms during machine translation. With Exclusion Framework in Dynamic Translation, you can specify words and patterns that should not be translated.
 
-**Parent Topic:**[ServiceNow AI Platform translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translation-and-localization.md)
+**Parent Topic:**[ServiceNow AI Platform translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/translation-and-localization.md)
 
 **Related topics**  
 

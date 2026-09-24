@@ -3,11 +3,11 @@ title: Map credentials between Cloud Provisioning and Governance and Terraform
 description: Map credential types and service account fields Check for accuracy after IaC provider settings is updated to Credential mappings between Cloud Provisioning and Governance and Terraform using Credential Mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/map-cloud-mgmt-terraform-credentials.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -74,5 +74,5 @@ Use the Credential Mapping module to perform credential and service account mapp
     You have mapped the field values that you added under the Credential Mapping and Service Account Mapping related lists to the Terraform provider.
 
 
-**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

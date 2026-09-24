@@ -3,11 +3,11 @@ title: Sudo banner validation
 description: Sudo banner validation flags missing sudo permissions on managed devices so you know when the DEX agent's capabilities are limited.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/sudo-banner-validation.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -22,8 +22,8 @@ As a DEX administrator, you can control the sudo banner configuration for macOS.
 
 **Note:** Updating exclusion list doesn't change configured sudo permissions on the end-user device.
 
--   **[Configure sudo banner exclusion list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configure-sudo-banner-exclusion-list.md)**  
+-   **[Configure sudo banner exclusion list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/configure-sudo-banner-exclusion-list.md)**  
 Add the appropriate commands to the sudo banner exclusion list so the system doesn't flag it.
 
-**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
+**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
 

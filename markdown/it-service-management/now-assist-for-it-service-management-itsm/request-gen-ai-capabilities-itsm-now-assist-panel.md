@@ -3,11 +3,11 @@ title: Request the generative AI capabilities in ITSM by using the ServiceNow Ot
 description: Use the ServiceNow Otto panel to request the contextual generative AI capabilities in IT Service Management \(ITSM\) such as a chat summary, incident summary, or incident resolution notes in a conversational manner. You can also add comments and work notes. These capabilities provide you with a quick resolution to issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -19,17 +19,17 @@ Use the ServiceNow Otto panel to request the contextual generative AI capabiliti
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For information about enabling Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md). For information about Next Experience, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
+Make sure that Next Experience is enabled in the instance. For information about enabling Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-adoption-paths.md). For information about Next Experience, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-landing-page.md).
 
 Role required: itil
 
 ## About this task
 
-You can access the ServiceNow Otto panel from the Core UI or Service Operations Workspace for ITSM to request generative AI capabilities for ServiceNow Otto for ITSM skills. For information about these skills, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
+You can access the ServiceNow Otto panel from the Core UI or Service Operations Workspace for ITSM to request generative AI capabilities for ServiceNow Otto for ITSM skills. For information about these skills, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
-Using the ServiceNow Otto panel saves time for an agent, for example, the agent can quickly learn the details of an incident by reading the incident summarization. The summarization gives enough details about the associated interaction so that the requester doesn't have to repeat the same information to the agent. For information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+Using the ServiceNow Otto panel saves time for an agent, for example, the agent can quickly learn the details of an incident by reading the incident summarization. The summarization gives enough details about the associated interaction so that the requester doesn't have to repeat the same information to the agent. For information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
-For information about how to activate the ServiceNow Otto panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+For information about how to activate the ServiceNow Otto panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 
@@ -37,17 +37,17 @@ For information about how to activate the ServiceNow Otto panel, see [Activate t
 
 2.  Request generative AI capabilities to summarize a chat for an interaction, summarize a chat for an incident that was created from an interaction, summarize an incident, or generate incident resolution notes.
 
-    \[Omitted image "itsm-now-assist-panel.png"\] Alt text: Now Assist panel for ITSM skills.
+    \[Omitted image "itsm-now-assist-panel.png"\] Alt text: ServiceNow Otto panel for ITSM skills.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d296112e207">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d302171e207">
 
 Option
 
-</th><th align="left" id="d296112e210">
+</th><th align="left" id="d302171e210">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d296112e216">
+</th></tr></thead><tbody><tr><td id="d302171e216">
 
 **Summarize the chat for an interaction**
 
@@ -58,7 +58,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d296112e252">
+</td></tr><tr><td id="d302171e252">
 
 **Summarize the chat for an incident that is created from an interaction**
 
@@ -69,7 +69,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the incident was created is displayed.
 
 
-</td></tr><tr><td id="d296112e288">
+</td></tr><tr><td id="d302171e288">
 
 **Summarize a Sidebar discussion**
 
@@ -80,7 +80,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Sidebar Discussion Summarization**. A summary of the discussion with the live agent is displayed.
 
 
-</td></tr><tr><td id="d296112e327">
+</td></tr><tr><td id="d302171e327">
 
 **Summarize an incident**
 
@@ -91,7 +91,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Summarize a record**. An incident summary that helps you quickly understand the incident context is generated.
 
 
-</td></tr><tr><td id="d296112e364">
+</td></tr><tr><td id="d302171e364">
 
 **Summarize a change request**
 
@@ -102,18 +102,18 @@ Description
 3.  In the ServiceNow Otto panel, select **Summarize a change request**. A change request summary that helps you quickly understand the change request context is generated.
 
 
-</td></tr><tr><td id="d296112e400">
+</td></tr><tr><td id="d302171e400">
 
 **Change risk explanation**
 
 </td><td>
 
 1.  Open the change request.
-2.  From the header menu, select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon.\).
+2.  From the header menu, select the ServiceNow Otto icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon.\).
 3.  In the ServiceNow Otto panel, select **Explain change risk**. An explanation of the change request risk that helps you quickly understand the change request risk rating is generated.
 
 
-</td></tr><tr><td id="d296112e436">
+</td></tr><tr><td id="d302171e436">
 
 **Generate incident resolution notes**
 
@@ -124,7 +124,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Generate resolution notes**. The incident resolution notes that provide a summary of the steps taken to resolve the issue are generated.
 
 
-</td></tr><tr><td id="d296112e472">
+</td></tr><tr><td id="d302171e472">
 
 **Generate a knowledge article**
 
@@ -135,7 +135,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Generate Article**. A Knowledge article is drafted for the incident using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d296112e511">
+</td></tr><tr><td id="d302171e511">
 
 **Generate chat reply recommendation**
 
@@ -146,7 +146,7 @@ Description
 3.  In the ServiceNow Otto panel, select **Generate Chat Reply Recommendation**. The reply that provides a recommendation for the issue in the chat is generated.
 
 
-</td></tr><tr><td id="d296112e547">
+</td></tr><tr><td id="d302171e547">
 
 **Ask questions about an incident**
 
@@ -157,7 +157,7 @@ Description
 3.  In the ServiceNow Otto panel, either type in an incident assist topic question, or select **Answer questions about an incident**, and select an incident assist topic. Information requested about the incident is shown.
 
 
-</td></tr><tr><td id="d296112e584">
+</td></tr><tr><td id="d302171e584">
 
 **Use AI agents to complete tasks**
 
@@ -167,7 +167,7 @@ Description
 2.  Follow the on-screen instructions to complete the task.
 
 
-</td></tr><tr><td id="d296112e602">
+</td></tr><tr><td id="d302171e602">
 
 **Add comments or work notes to a task record**
 
@@ -180,7 +180,7 @@ The conversational flow for adding a comment or work note is triggered.
 2.  Follow the on-screen instructions to complete the task.
 **Note:** You must have the itil role to add work notes.
 
-For more information, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/conversational-actions.md).
+For more information, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/conversational-actions.md).
 
 </td></tr></tbody>
 </table>

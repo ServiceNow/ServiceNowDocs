@@ -3,11 +3,11 @@ title: Assigning work order tasks to agents using dynamic scheduling
 description: Dynamic scheduling increases the efficiency of Field Service Management by automatically assigning tasks to the agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/using-dynamic-scheduling.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -21,7 +21,7 @@ Dynamic scheduling can run in one of two modes: manually or automatically. For m
 **Related topics**  
 
 
-[Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/dynamic-scheduling.md)
+[Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/dynamic-scheduling.md)
 
-[Configuring Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/Configure-dynamic-scheduling.md)
+[Configuring Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/Configure-dynamic-scheduling.md)
 

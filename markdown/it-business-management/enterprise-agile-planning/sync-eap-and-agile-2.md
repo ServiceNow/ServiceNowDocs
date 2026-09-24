@@ -3,11 +3,11 @@ title: Integration between EAP and Agile Development 2.0
 description: While setting up a configuration in Enterprise Agile Planning, you can establish an integration with Agile Development 2.0. Learn more about the tables connected and the way you access the information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/sync-eap-and-agile-2.html
-release: australia
+release: brazil
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: reference
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -49,7 +49,7 @@ Sprint \[rm\_sprint\]
 
         If an iteration doesn't follow a calendar entry, the dates are derived from the start date and the end date on the iteration itself.
 
-    -   Sprints that an Agile Team creates on a configuration with a single level of iterations sync to Agile Development 2.0 even though they don't follow a planning calendar entry. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
+    -   Sprints that an Agile Team creates on a configuration with a single level of iterations sync to Agile Development 2.0 even though they don't follow a planning calendar entry. For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
     -   Updating Sprint details in EAP updates the corresponding Sprint details in Agile Development 2.0.
 
         Changing the start date or the end date of an iteration updates the dates on the corresponding Sprint.
@@ -67,5 +67,5 @@ Sprint \[rm\_sprint\]
 
 **Note:** The Story records for EAP are by default saved in the Story \[rm\_story\] table, which is installed with the Agile Development 2.0 plugin.
 
-**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
+**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
 

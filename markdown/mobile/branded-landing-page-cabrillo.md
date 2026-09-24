@@ -3,9 +3,9 @@ title: Cabrillo JS support within a branded landing page
 description: Use  Cabrillo JS to build custom mobile experiences inside of native mobile apps. Certain Cabrillo JS functions are available for the pre-login branded landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/branded-landing-page-cabrillo.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Branded landing page, Mobile instances, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Branded landing page, Mobile instances, Configuring the Mobile Plat
 
 Use  Cabrillo JS to build custom mobile experiences inside of native mobile apps. Certain Cabrillo JS functions are available for the pre-login branded landing page.
 
-For more information on Cabrillo JS, see [Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-client-mobile.md).
+For more information on Cabrillo JS, see [Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cllent-mobile-api-reference/api-client-mobile.md).
 
 The following table lists supported Cabrillo JS functionality on the pre-login branded landing page.
 
@@ -28,7 +28,7 @@ Supported Cabrillo JS functions for a branded landing page
 
 </th></tr></thead><tbody><tr><td>
 
-[cabrillo.viewLayout - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/cabrillo-viewLayout-namespace.md)
+[cabrillo.viewLayout - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cllent-mobile-api-reference/cabrillo-viewLayout-namespace.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ Supported Cabrillo JS functions for a branded landing page
 
 </td></tr><tr><td>
 
-[cabrillo.message - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/cabrillo-messgage-namespace.md)
+[cabrillo.message - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cllent-mobile-api-reference/cabrillo-messgage-namespace.md)
 
 </td><td>
 
@@ -51,7 +51,7 @@ showMessage
 
 </td></tr><tr><td>
 
-[cabrillo.navigation - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/cabrillo-navigation-namespace.md)
+[cabrillo.navigation - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/cllent-mobile-api-reference/cabrillo-navigation-namespace.md)
 
 </td><td>
 

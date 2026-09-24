@@ -3,9 +3,9 @@ title: Create request tasks
 description: Tasks are created in support of requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_CreateRequestTasks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Request task management, Request Management in a Service Management application, Service Management]
 ---
@@ -140,5 +140,5 @@ Information about the task as it progresses through each state. Work notes are n
 </table>    **Note:** The workflow appears at the top of the form, with the completed states shown in green.
 
 
-**Parent Topic:**[Request task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_RequestTasksMgmt.md)
+**Parent Topic:**[Request task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/c_RequestTasksMgmt.md)
 

@@ -3,9 +3,9 @@ title: Create and add additional recipients
 description: Update the notifications form by adding additional recipients from the Additional Recipients related list to send notifications to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/noti-add-additional-recipients.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Provider notification for all users, Create, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: admin and notifications provider admin
 
 1.  Click Additional Recipients related list on the notification form to add new recipients.
 
-    **Note:** An error message about adding content to the notification shows up. See create common content and [create default content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-default-content.md) to create content for a notification.
+    **Note:** An error message about adding content to the notification shows up. See create common content and [create default content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-default-content.md) to create content for a notification.
 
 2.  Click **New** in the Additional Recipients related list to add additional recipients.
 
@@ -94,5 +94,5 @@ Only one active record can be added for a particular recipient table. If you wan
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Create and update a provider notification for all users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/noti-new-update-notification.md)
+**Parent Topic:**[Create and update a provider notification for all users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/noti-new-update-notification.md)
 

@@ -3,9 +3,9 @@ title: Hide journal fields
 description: Hide journal fields for forms so that work notes and comments only appear in the Activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/hide-work-notes.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

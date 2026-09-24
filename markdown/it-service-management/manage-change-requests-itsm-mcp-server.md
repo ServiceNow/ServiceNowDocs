@@ -3,9 +3,9 @@ title: Manage change requests using the ITSM MCP Server
 description: Use the ITSM MCP Server to query change requests, assess risk and conflicts, evaluate change data quality, find similar past changes, create or update changes, and more. Manage the change lifecycle through an MCP client application such as Moveworks or Claude.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/manage-change-requests-itsm-mcp-server.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ITSM MCP Server, change management, change requests, change summarization, risk explanation, natural language prompts, AI workflow, knowledge graph, similar changes, change scheduling, change conflicts, change lifecycle, change analysis, change query, risk and impact]
 breadcrumb: [Activate the ITSM MCP Server, ITSM MCP Server, IT Service Management]
@@ -45,7 +45,7 @@ Role required: itil
 
 ## About this task
 
-For detailed information on each tool, supported operations, and operation-specific parameters, see [ITSM MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mcp-server-tools-reference.md).
+For detailed information on each tool, supported operations, and operation-specific parameters, see [ITSM MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mcp-server-tools-reference.md).
 
 ## Procedure
 

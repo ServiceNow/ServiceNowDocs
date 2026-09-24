@@ -3,11 +3,11 @@ title: Knowledge Management setup guide for admins
 description: Before users in your organization can start creating knowledge bases and knowledge articles, you must set up Knowledge Management. Work with stakeholders to define requirements for setting up Knowledge Management effectively to meet the needs of users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/setup-knowledge-admin.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -46,23 +46,23 @@ Role required: admin.
 
 -   **Assign knowledge roles to users and groups**
 
-    Determine which [Knowledge Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeRoles.md) are appropriate for each user, and then [assign those roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md) .
+    Determine which [Knowledge Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeRoles.md) are appropriate for each user, and then [assign those roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md) .
 
 -   **Create custom Knowledge workflows**
 
-    If the default [knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for publishing and retiring knowledge articles are not appropriate for your knowledge bases, create custom [workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md) for those knowledge bases.
+    If the default [knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for publishing and retiring knowledge articles are not appropriate for your knowledge bases, create custom [workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/c_WorkflowOverview.md) for those knowledge bases.
 
 -   **Configure Knowledge properties**
 
-    If the default [knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md) do not fulfill the requirements of users, reconfigure the properties as necessary.
+    If the default [knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md) do not fulfill the requirements of users, reconfigure the properties as necessary.
 
 -   **Activate support for other languages besides English**
 
-    If languages other than English must be supported, activate the [Knowledge Management Internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_I18NKMInternational.md) plugins.
+    If languages other than English must be supported, activate the [Knowledge Management Internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/c_I18NKMInternational.md) plugins.
 
 -   **Coordinate with knowledge managers for knowledge base setup**
 
-    Let knowledge managers and administrators know that they can start configuring their knowledge bases. For details, refer them to the [Knowledge base setup guide for knowledge admins and managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/set-up-knowledge-admin-user.md).
+    Let knowledge managers and administrators know that they can start configuring their knowledge bases. For details, refer them to the [Knowledge base setup guide for knowledge admins and managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/set-up-knowledge-admin-user.md).
 
 
 ## Next steps
@@ -73,7 +73,7 @@ Depending on any other requirements for the knowledge bases, you may be asked to
 
 Knowledge Management guided setup provides a sequence of tasks that help you configure Knowledge Management on your instance. To open Knowledge Management guided setup, navigate to **Knowledge** &gt; **Administration** &gt; **Guided Setup**.
 
-For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
+For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/guided-setup.md).
 
-**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

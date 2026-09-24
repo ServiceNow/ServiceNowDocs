@@ -3,9 +3,9 @@ title: Using the dealer portal
 description: The dealer portal enables you to manage the repair, recall, and sales promotion claims.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-use-dealer-portal.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [dealer portal, repair claim, recall campaign, sales promotion claim, product non-conformance, asset lookup]
 breadcrumb: [Use, Manufacturing Commercial Operations]
@@ -17,8 +17,8 @@ The dealer portal enables you to manage the repair, recall, and sales promotion 
 
 |Tasks|Description|
 |-----|-----------|
-|[Look up an asset or claim by its serial number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-lookup.md)|View asset or claim details.|
-|[Repair claim for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-claim-dealer.md)|Submit a repair claim for warranty and recall.|
-|[Sales promotion for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-sales-promotion-dealer.md)|Submit a sales promotion claim.|
-|[Quality issue management for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-for-the-dealer.md)|Submit a product non-conformance issue report.|
+|[Look up an asset or claim by its serial number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-lookup.md)|View asset or claim details.|
+|[Repair claim for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/repair-claim-dealer.md)|Submit a repair claim for warranty and recall.|
+|[Sales promotion for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-sales-promotion-dealer.md)|Submit a sales promotion claim.|
+|[Quality issue management for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-qim-for-the-dealer.md)|Submit a product non-conformance issue report.|
 

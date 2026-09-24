@@ -3,11 +3,11 @@ title: JSON Builder step
 description: Create a JSON payload to use in another step. Enter values or use data pills to produce a dynamic payload. This step supports several data types, including objects and arrays for nested structures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/json-build-step-action-designer.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -83,7 +83,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
 
 
 ## Outputs
@@ -94,7 +94,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
     Data type: **String**
 
-    JSON payload as a string. If you want to use the payload as an object, you can use the [JSON parser step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/json-parser-step-action-designer.md) to parse the string.
+    JSON payload as a string. If you want to use the payload as an object, you can use the JSON parser step to parse the string.
 
 -   **Step Status**
 
@@ -136,5 +136,5 @@ The JSON payload generator doesn’t support the following.
 
 **Note:** Generating a JSON payload overrides any existing structures in the JSON Builder step.
 
-**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/steps.md)
 

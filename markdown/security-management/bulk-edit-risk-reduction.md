@@ -3,9 +3,9 @@ title: Bulk edit risk reduction
 description: Use bulk edit risk reduction to request an adjusted risk rating and apply compensating controls across multiple vulnerable items that share a single vulnerability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/bulk-edit-risk-reduction.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [bulk edit, risk reduction, compensating controls, vulnerable items, Security Exposure Management]
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
@@ -26,6 +26,4 @@ Work notes added during the bulk edit are recorded on the Remediation Task and r
 ## Eligible item states
 
 The bulk edit action applies only to items in an **Open**, **Under Investigation**, or **Awaiting Review** state. Items in other states are excluded from the update regardless of their selection status.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)
 

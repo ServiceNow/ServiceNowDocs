@@ -3,9 +3,9 @@ title: Enable manager notifications
 description: Users with the assessment\_admin role can enable the Notify manager assessment is overdue email notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_EnablingManagerNotifications.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,10 +39,10 @@ This notification sends emails to assessors' managers when assessors do not comp
     **Note:** The assessor's user record must have a manager specified in the **Manager** field to use this notification. You might need to configure the form to use this field.
 
 
--   **[Assessment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AssessmentNotifications.md)**  
+-   **[Assessment notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_AssessmentNotifications.md)**  
 You can configure the system to send email notifications for assessments.
--   **[Assessment notification workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AssessmentNotificationWorkflow.md)**  
+-   **[Assessment notification workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_AssessmentNotificationWorkflow.md)**  
 The system sends assessment notifications according to the Notify assessment user workflow. Users with the workflow\_admin, workflow\_creator, or workflow\_publisher roles can view workflows.
 
-**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentProcess.md)
+**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_AssessmentProcess.md)
 

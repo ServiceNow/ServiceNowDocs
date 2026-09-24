@@ -3,9 +3,9 @@ title: Filter condition attributes
 description: Use these filter condition attributes to customize how your data is filtered for condition types that are set in your mobile apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/filter-condition-attributes.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure a custom filter, Mobile list screen filters, List screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---

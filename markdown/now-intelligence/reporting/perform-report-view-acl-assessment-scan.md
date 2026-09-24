@@ -3,11 +3,11 @@ title: Perform the Report View assessment scan
 description: Scan your instance for reports that users would be unable to view based on existing access control lists \(ACLs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/perform-report-view-acl-assessment-scan.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ACL Assessment for Reports, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -24,13 +24,13 @@ Roles required: admin and security\_admin.
 
 The assessment scan returns a list of affected reports. A report is affected if a user has seen the report who would not be able to see it based on a report\_view ACL or blocking READ ACL, in the case of reports based on tables without report\_view ACLs.
 
-The time the assessment scan takes can vary according to the number of records in the instance. Consider running the assessment over night. Also consider filtering the reports that the assessment applies to. For more information, see [Filter report assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/filter-report-assessment-scans.md).
+The time the assessment scan takes can vary according to the number of records in the instance. Consider running the assessment over night. Also consider filtering the reports that the assessment applies to. For more information, see [Filter report assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/filter-report-assessment-scans.md).
 
 ## Procedure
 
 1.  Elevate your role to security\_admin.
 
-    For more information, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    For more information, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **All** &gt; **Reports** &gt; **ACL Assessment for Reports** &gt; **Report ACL Dashboard**.
 
@@ -54,10 +54,10 @@ The time the assessment scan takes can vary according to the number of records i
 
         This time, the scan shows all the affected reports, not only those reports that have been executed. The second scan often takes longer to run.
 
-5.  Navigate to **All** &gt; **Reports** &gt; **ACL Assessment for Reports** &gt; **Affected Reports List** to [view the list of impacted reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/view-impacted-reports.md).
+5.  Navigate to **All** &gt; **Reports** &gt; **ACL Assessment for Reports** &gt; **Affected Reports List** to [view the list of impacted reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/view-impacted-reports.md).
 
     The Impacted Reports list shows the reports affected by ACLs.
 
 
-**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
+**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
 

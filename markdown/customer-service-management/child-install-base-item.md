@@ -3,9 +3,9 @@ title: Create a child install base item
 description: Create a child install base item in the Customer Service Management application to view a list of all the cases and issues of the parent install base item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/child-install-base-item.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Related list for an install base item, Create an install base item, Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---

@@ -3,7 +3,7 @@ title: Customize Widgets for GOV.UK Design System Service Portal pages
 description: You can use base system widgets as-is in the GDS Service Portal, or you may clone them to suit your needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-govuk-dev-tk-portal-widgets-edit.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-06-02"
 reading_time_minutes: 2
@@ -22,7 +22,7 @@ Role required: admin
 
 By default, the GOV.UK Developer Toolkit provides you with a library of reusable portal widgets that follow UK GDS guidelines. Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets.
 
-**Note:** Cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/widget-dev-guide.md).
+**Note:** Cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. To learn more about cloning or creating widgets, see [Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/widget-dev-guide.md).
 
 ## Procedure
 
@@ -32,7 +32,7 @@ By default, the GOV.UK Developer Toolkit provides you with a library of reusable
 
     For example, select **Error Widget**.
 
-    **Note:** Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from.
+    **Note:** 
 
 3.  From the list menu in the widget header, select **Clone \[Widget Name\]**.
 
@@ -59,5 +59,5 @@ By default, the GOV.UK Developer Toolkit provides you with a library of reusable
 
 ## Result
 
-The cloned widget is created and can be added to any page that has been created in the portal. Adding a widget to a page creates a new Widget Instance that can be modified separately, and changes will appear on that page **only**. For information on how to add portal widgets to page\(s\), see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md).
+The cloned widget is created and can be added to any page that has been created in the portal. Adding a widget to a page creates a new Widget Instance that can be modified separately, and changes will appear on that page **only**. For information on how to add portal widgets to page\(s\), see [Configure the GOV.UK Design System Service Portal Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-govuk-dev-tk-portal-pages.md).
 

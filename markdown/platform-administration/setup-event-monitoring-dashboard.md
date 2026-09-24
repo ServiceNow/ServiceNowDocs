@@ -3,9 +3,9 @@ title: Understand your System Events Dashboard
 description: Use the System Event Processing dashboard to set the filters to display information about events and queues.The Scores and tab shows what's going on in the event processing system.Use the Current Scores section to have a direct check on the sysevent table and shows the current states of the events.Use the Trends section to have a metric-based graphical understanding of the activities in the event processing system.Review the details of an alert set every 15 minutes mostly on an instance level. By default, five alerts are provided along with the application. The alerts are setup based on a set of conditions, including what queue it applies to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/setup-event-monitoring-dashboard.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Monitor System Events and Scheduled Jobs dashboard, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ Use the System Event Processing dashboard to set the filters to display informat
 
 ## Before you begin
 
-Role required: events\_scheduler\_dashboard\_viewer and scheduler\_dasboard\_viewer
+Role required: admin
 
 ## Procedure
 
@@ -174,7 +174,7 @@ Review the details of an alert set every 15 minutes mostly on an instance level.
 
 ### Before you begin
 
-Role required: events\_scheduler\_dashboard\_viewer and scheduler\_dasboard\_viewer
+Role required: admin
 
 ### Procedure
 

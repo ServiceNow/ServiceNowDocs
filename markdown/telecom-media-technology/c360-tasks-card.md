@@ -3,9 +3,9 @@ title: All tasks card
 description: The All tasks card aggregates tasks from multiple configurable tables and displays them in a tabbed layout.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-tasks-card.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Home page, Use, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -29,7 +29,7 @@ You can do the following:
 -   Add filters to the columns to customize the list of records displayed.
 -   Select a link to drill down to the related record page.
 
-You can configure variables such as tables, display fields, and query conditions. See [Configure the all tasks card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-tasks-card.md) for details.
+You can configure variables such as tables, display fields, and query conditions. See [Configure the all tasks card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure-tasks-card.md) for details.
 
-**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md)
+**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-home-page.md)
 

@@ -3,9 +3,9 @@ title: Extended analysis
 description: Generate a deeper level of analysis that can reveal new insights, enabling you to make more informed decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/hidden-insights.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, S
 
 Generate a deeper level of analysis that can reveal new insights, enabling you to make more informed decisions.
 
-Extended analysis requires the analytics hidden insight skill from Query Generation to be active. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md).
+Extended analysis requires the analytics hidden insight skill from Query Generation to be active. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-query-generation.md).
 
 To turn on extended analysis for an exploration, select it in the **Ask a question about data** field. You have the same choice when you launch AI Data Explorer in a data visualization or list.
 
@@ -75,7 +75,7 @@ Breakdowns are returned in the following priority order:
 
 ## Extended analysis of table data
 
-For table data,[Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) involves aggregating the records related to a response in an [exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics-glossary.md). It examines the same columns that you see when you view the list of records for the relevant table. It takes a Count of Choice, Reference, Glide List, and Boolean columns. Therefore, you can influence extended analysis by selecting which fields to view in the relevant tables. The relevant tables include any related tables that Query Generation dot-walks to.
+For table data,[Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) involves aggregating the records related to a response in an [exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md). It examines the same columns that you see when you view the list of records for the relevant table. It takes a Count of Choice, Reference, Glide List, and Boolean columns. Therefore, you can influence extended analysis by selecting which fields to view in the relevant tables. The relevant tables include any related tables that Query Generation dot-walks to.
 
 The number of columns that extended analysis examines is set in the system property **sn\_query\_gen.hidden\_insights.groupby.min\_fields**. The default value is 5. If the number of eligible columns that are visible on the record list is lower than this value, the system searches for more fields on the table. The search stops when the total number of fields from both the list view and the table search reaches the value of the system property. If the system can’t find that many fields, it uses the fields it does find.
 
@@ -139,5 +139,5 @@ If a target is set on the indicator, extended analysis can return the target val
 
 **Tip:** Sometimes making it explicit that you want indicator data including target gap helps make sure that data is in the response.
 
-**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ask-expl-questions.md)
+**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ask-expl-questions.md)
 

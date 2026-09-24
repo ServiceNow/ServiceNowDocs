@@ -3,13 +3,13 @@ title: Notifications for project updates in your collaboration tool
 description: Receive updates related to your project on your Slack channel or Microsoft team. Analyze the delayed and overdue tasks, follow closure of milestones, and monitor changes to risk, issue, decision, action, and change request \(RIDAC\) items of your project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/status-updates-from-collab-channel.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [PPM Collaboration for project teams, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Notifications for project updates in your collaboration tool
@@ -89,10 +89,10 @@ When there is a change in the manager of your project, an update is made to the 
     Whenever a key milestone is closed, you are notified about the closure and the user who closed it, with a direct URL to the milestone task.
 
 
-**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-collab-overview.md)
+[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/ppm-collab-overview.md)
 

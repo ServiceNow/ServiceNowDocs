@@ -3,9 +3,9 @@ title: Assign the Unified Consumer role to a user
 description: Assign the Unified Consumer \(sn\_customerservice.unified\_consumer\) role to the sys\_user to designate them as a consumer in the Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-a-user-role.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up a user as a Unified Consumer, Configuring a user as a Unified Consumer, Configuring a Unified User, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -37,5 +37,5 @@ The sys\_user is assigned to a unified consumer role \(sn\_customerservice.unifi
 
 ## What to do next
 
-Create and associate a Unified Consumer user to a consumer record. For more information, see [Creating and associating a Unified Consumer user to a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associating-users-to-a-consumer-record.md).
+Create and associate a Unified Consumer user to a consumer record. For more information, see [Creating and associating a Unified Consumer user to a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associating-users-to-a-consumer-record.md).
 

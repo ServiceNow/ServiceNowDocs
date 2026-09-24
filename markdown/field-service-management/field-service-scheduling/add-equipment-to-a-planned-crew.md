@@ -3,11 +3,11 @@ title: Assign equipment to a planned crew
 description: Assign equipment to a planned crew to ensure they have tools for their work order tasks. Dispatchers can assign equipment through the ServiceNow AI Platform or Dispatcher Workspace. Crew leaders can assign equipment or modify their crews through the Now Mobile Agent application.Assign equipment to a planned crew through the ServiceNow AI Platform. A planned crew is a predefined group of agents and equipment.Assign equipment to a planned crew through Dispatcher Workspace. A planned crew is a predefined group of agents and equipment.Assign equipment to a planned crew through the Now Mobile Agent application. A planned crew is a predefined group of agents and equipment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/add-equipment-to-a-planned-crew.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scheduling and assigning equipment to tasks and crews, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -51,7 +51,7 @@ Equipment is added to the planned crew. This crew is eligible for tasks with equ
 **Related topics**  
 
 
-[Create crews in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-crews-fsm.md)
+[Create crews in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-crews-fsm.md)
 
 ## Assign equipment to planned crews through Dispatcher Workspace
 
@@ -69,15 +69,15 @@ Role required: wm\_ admin, wm\_dispatcher
 
 3.  Use either the dispatcher calendar or the dispatcher calendar sidebar to add equipment to a crew.
 
-<table id="choicetable_pvs_vdv_dwb"><thead><tr><th align="left" id="d138507e339">
+<table id="choicetable_pvs_vdv_dwb"><thead><tr><th align="left" id="d141554e339">
 
 Method
 
-</th><th align="left" id="d138507e342">
+</th><th align="left" id="d141554e342">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d138507e348">
+</th></tr></thead><tbody><tr><td id="d141554e348">
 
 **Dispatcher calendar**
 
@@ -88,7 +88,7 @@ Action
 3.  Select a crew to add the equipment to.
 
 
-</td></tr><tr><td id="d138507e378">
+</td></tr><tr><td id="d141554e378">
 
 **Dispatcher calendar sidebar**
 
@@ -110,7 +110,7 @@ Equipment is added to the planned crew. This crew is eligible for tasks with equ
 **Related topics**  
 
 
-[Create crews in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-crews-fsm.md)
+[Create crews in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-crews-fsm.md)
 
 ## Assign equipment to planned crews through the Now Mobile app
 

@@ -3,11 +3,11 @@ title: Upload a profile picture
 description: You can upload a profile picture in your Live Feed profile to use as an avatar in Connect Chat and Connect Support conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_UploadAProfilePicture.html
-release: australia
+release: brazil
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -48,5 +48,5 @@ Users who do not have profile pictures are represented by an avatar with their i
 **Related topics**  
 
 
-[Update your Live Feed profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_UpdateYourProfile.md)
+[Update your Live Feed profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/live-feed/t_UpdateYourProfile.md)
 

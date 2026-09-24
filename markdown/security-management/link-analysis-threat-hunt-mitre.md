@@ -3,9 +3,9 @@ title: Perform link analysis and threat hunting using MITRE-ATT&amp;CK specific 
 description: Correlate and perform link analysis of observables, security incidents, and MITRE-ATT&amp;CK related information so that your organization can start hunting for threats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/link-analysis-threat-hunt-mitre.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using MITRE-ATT&amp;CK to detect and analyze threats, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -43,7 +43,7 @@ After you associate the security incidents with MITRE-ATT&amp;CK information, yo
     For example, if you want to review that a configuration item \(CI\) is compromised, you select a CI. You then correlate the CI with techniques that are present by adding a MITRE-ATT&amp;CK Technique ID. You can then continue to build your filter criteria to correlate the information and for threat hunting.
 
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/mitre-att-ck-features.md)
 
 **Related topics**  
 

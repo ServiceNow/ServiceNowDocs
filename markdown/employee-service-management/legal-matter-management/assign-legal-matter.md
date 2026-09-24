@@ -3,11 +3,11 @@ title: Assign a legal matter to a legal group user
 description: Assign a legal matter to yourself or to someone in the assignment group to start working on the matter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/assign-legal-matter.html
-release: australia
+release: brazil
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -54,5 +54,5 @@ The legal matter is assigned to the selected member of the user group. The state
 
 The assigned member can start [working on the legal matter]().
 
-**Parent Topic:**[Using Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-use-landing.md)
+**Parent Topic:**[Using Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-matter-management/lmm-use-landing.md)
 

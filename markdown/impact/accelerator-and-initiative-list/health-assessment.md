@@ -3,11 +3,11 @@ title: Health Assessment
 description: The Health Assessment Accelerators provide insights into your instance health.The Health Assessment – Advanced Accelerator provides guidance to measure and improve your ServiceNow instance health.The Health Assessment - Total Accelerator provides guidance to measure and improve your ServiceNow instance health.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/health-assessment.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -16,8 +16,8 @@ breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and In
 
 The Health Assessment Accelerators provide insights into your instance health.
 
--   [Health Assessment – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/health-assessment.md)
--   [Health Assessment - Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/health-assessment.md)
+-   [Health Assessment – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/health-assessment.md)
+-   [Health Assessment - Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/health-assessment.md)
 
 ## Health Assessment – Advanced
 

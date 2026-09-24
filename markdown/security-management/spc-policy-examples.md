@@ -3,9 +3,9 @@ title: Examples of base, child, and cloned policies for Security Posture Control
 description: You can create your own base policies that have broad sets of conditions that you can use as starting points for more complex policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/spc-policy-examples.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Security Posture Control, Security Operations]
 ---

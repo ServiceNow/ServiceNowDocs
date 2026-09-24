@@ -3,10 +3,10 @@ title: Monitoring and analytics for Field Service Management
 description: Manage, supervise, and monitor various managerial activities involved in Field Service Management, such as managing work order task assignments, approving agent time-off, workload, and others.The Emergency Exposure Management feature in Field Service Management helps identify field service agents and customers who may have visited an affected location. It helps find people who encounter an agent who has been classified as positive for a condition, such as COVID-19.Resolve work orders more efficiently by using Predictive Intelligence for Field Service Management to identify work orders with similar issues. Each group of similar work orders represents a work order trends topic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/monitoring-analytics-fsm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Explore, Field Service Management]
 ---
 
@@ -16,15 +16,15 @@ Manage, supervise, and monitor various managerial activities involved in Field S
 
 Monitoring and analytics for Field Service Management includes at least one of the following activities.
 
--   [Field Service Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-contractor-management.md)
+-   [Field Service Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-contractor-management.md)
 
     The Field Service Contractor Management application enables Field Service managers to outsource work by onboarding contractor companies and their staff, such as external managers and external agents.
 
--   [Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/monitoring-analytics-fsm.md)
+-   [Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/monitoring-analytics-fsm.md)
 
     Help identify Field Service technicians and customers who may have visited an affected location.
 
--   [Predictive analytics: Work order insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/monitoring-analytics-fsm.md)
+-   [Predictive analytics: Work order insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/monitoring-analytics-fsm.md)
 
     Identify work orders with similar issues and proactively solve problems.
 
@@ -59,24 +59,37 @@ The Emergency Exposure Management application enables you to do the following:
 **Related topics**  
 
 
-[Use Emergency Exposure Management for Field Service agent monitoring and assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/use-exposure-management-fsm.md)
+[Use Emergency Exposure Management for Field Service agent monitoring and assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/use-exposure-management-fsm.md)
 
 ## Predictive analytics: Work order insights
 
 Resolve work orders more efficiently by using Predictive Intelligence for Field Service Management to identify work orders with similar issues. Each group of similar work orders represents a work order trends topic.
+
+### Example: Predict Parts and Job Duration
+
+A dispatcher needs to identify required parts and estimate job duration accurately without manually reviewing historical records. Predictive Intelligence analyzes historical work order data and asset history to predict required parts and job duration, giving dispatchers the information needed to schedule jobs accurately.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|System|Creates work order|
+|2|System|Analyzes historical data and asset history|
+|3|System|Identifies required parts and estimated duration|
+|4|Dispatcher|Reviews predictions|
+|5|Dispatcher|Reserves parts|
+|6|Dispatcher|Schedules job with accurate timing|
 
 ### Key benefits
 
 Using work order trends topic has the following benefits:
 
 -   Increase manager productivity: Quickly identify clusters of cases that point to similar underlying issues and act to resolve them.
--   Improve agent experiences: Proactively resolve issues by analyzing other work orders in the topic.​
--   Enhance operational efficiency: Reduce the backlog of work orders by resolving several similar types of work orders at once.​
+-   Improve agent experiences: Proactively resolve issues by analyzing other work orders in the topic.
+-   Enhance operational efficiency: Reduce the backlog of work orders by resolving several similar types of work orders at once.
 
 System administrators train solution definitions to identify and cluster similar type of work orders. Managers use the **Work Order Trends** topic lists to analyze the backlog of work orders.
 
 **Related topics**  
 
 
-[View work order trends topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/view-wo-trends.md)
+[View work order trends topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/view-wo-trends.md)
 

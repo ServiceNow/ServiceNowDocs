@@ -3,9 +3,9 @@ title: Associate and link multiple entities
 description: Add associated entities to each other within a case created in the Investigative Case Management application workspace. All entities available in the ICM master index can be linked together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-icm-associate-entites.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Entity Management, Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -20,7 +20,7 @@ Role required: icm.investigator, supervisory\_agent
 
 With ICM Entity Management, investigators can create and associate multiple entities to each other and to the case, as well as manage all entities and their relationships to the case, all from one workspace.
 
-Before you can link entities, make sure an entity record has been created for it **within** the case. For more information on how to create an entity record for a related person, property, vehicle, or other entity and associate it with the case, see [Add entities to an investigative case using Investigative Case Management Entity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-add-entities.md).
+Before you can link entities, make sure an entity record has been created for it **within** the case. For more information on how to create an entity record for a related person, property, vehicle, or other entity and associate it with the case, see [Add entities to an investigative case using Investigative Case Management Entity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-icm-add-entities.md).
 
 ## Procedure
 

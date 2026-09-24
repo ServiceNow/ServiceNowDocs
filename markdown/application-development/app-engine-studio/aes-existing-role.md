@@ -3,13 +3,13 @@ title: Use an existing role for your application
 description: Use a previously created role for your application in App Engine Studio \(AES\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-existing-role.html
-release: australia
+release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Add application security, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Add application security, Enhance your app, Build, App Engine Studio, Developing your application, Building applications]
 ---
 
 # Use an existing role for your application
@@ -20,14 +20,14 @@ Use a previously created role for your application in App Engine Studio \(AES\).
 
 Your application must contain either data or experiences in order to add an existing role. For more information about adding data or experiences to your application, see the following guidance:
 
--   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md)
--   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
+-   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-data.md)
+-   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-experience.md)
 
 Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 ## About this task
 
-App Engine Studio includes default roles that you can use for your application. For more information on the default roles, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_BaseSystemRoles.md).
+App Engine Studio includes default roles that you can use for your application. For more information on the default roles, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_BaseSystemRoles.md).
 
 ## Procedure
 
@@ -72,5 +72,5 @@ App Engine Studio includes default roles that you can use for your application. 
 9.  Select **Save**.
 
 
-**Parent Topic:**[Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md)
+**Parent Topic:**[Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-security.md)
 

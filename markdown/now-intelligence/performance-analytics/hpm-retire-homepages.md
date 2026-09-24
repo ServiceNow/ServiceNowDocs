@@ -3,11 +3,11 @@ title: Retire a homepage
 description: Use the homepage migration status table to retire homepages. When you retire a homepage, you remove visibility and editing options from all but the admin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/hpm-retire-homepages.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Homepage deprecation, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -24,7 +24,7 @@ Role required: admin or dashboard\_admin.
 
     **Important:** When set to true, this property disables the creation of new homepages and sets the default start page or landing page to Dashboards. Menu items and URLs that open homepages will continue to point to those homepages. Otherwise, homepages are unavailable and should be migrated using this tool.
 
-2.  [Populate the homepage migration status table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/hpm-populate-hp-status-table.md).
+2.  [Populate the homepage migration status table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/hpm-populate-hp-status-table.md).
 
 **Note:**
 
@@ -58,5 +58,5 @@ Changes are made on the homepage migration status table.
 
 ## What to do next
 
-[Restore a homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/hpm-restore-homepages.md)
+[Restore a homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/hpm-restore-homepages.md)
 

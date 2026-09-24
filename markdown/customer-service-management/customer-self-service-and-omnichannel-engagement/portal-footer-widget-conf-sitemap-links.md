@@ -3,13 +3,13 @@ title: Configure sitemap links for the Portal Polaris Footer widget
 description: Display links to various important pages or sections of your website in a sitemap. Sitemaps help users explore the site's content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget-conf-sitemap-links.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Polaris Footer widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Polaris Footer widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure sitemap links for the Portal Polaris Footer widget
@@ -20,7 +20,7 @@ Display links to various important pages or sections of your website in a sitema
 
 The Portal Next Experience theme should have been activated.
 
-The Portal Polaris Footer widget must have been configured. For more information, see [Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.md)
+The Portal Polaris Footer widget must have been configured. For more information, see [Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.md)
 
 Role required: sp\_admin
 
@@ -40,7 +40,7 @@ Role required: sp\_admin
 
 6.  On the Menu item form, fill in the fields.
 
-    For a description of the field values, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/menu-item-form.md).
+    For a description of the field values, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/menu-item-form.md).
 
     If a message appears about the application scope, select **here** to be able to edit the record.
 

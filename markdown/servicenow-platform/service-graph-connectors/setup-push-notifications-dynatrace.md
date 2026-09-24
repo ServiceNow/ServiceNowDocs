@@ -3,11 +3,11 @@ title: Set up push notifications from Dynatrace
 description: Set up push notifications of events from Dynatrace into a ServiceNow instance that has the Service Graph Connector for Observability - Dynatrace installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/setup-push-notifications-dynatrace.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Observability-Dynatrace, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

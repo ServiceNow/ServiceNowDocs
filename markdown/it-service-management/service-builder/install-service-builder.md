@@ -3,11 +3,11 @@ title: Install Service Builder
 description: You can install the Service Builder application \(sn\_service\_builder\) using the admin role. The application installs related plugins that aren’t already installed. It also installs the Service Builder components plugin to enable UI components for the product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-builder/install-service-builder.html
-release: australia
+release: brazil
 product: Service Builder
 classification: service-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Builder, IT Service Management]
 ---

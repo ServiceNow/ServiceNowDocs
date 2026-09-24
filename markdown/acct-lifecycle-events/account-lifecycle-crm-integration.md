@@ -3,9 +3,9 @@ title: Enable integration with Microsoft Dynamics CRM
 description: Integrating your ServiceNow instance with the Microsoft Dynamics CRM platform enables seamless data exchange and process synchronization between the two platforms. This integration is done through the Microsoft Dynamics CRM spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-crm-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Customer success, Configure, Customer Success Management]
 ---
@@ -24,9 +24,9 @@ The following use cases are supported:
 
 To set up the integration, follow these steps:
 
-**Note:** Before you set the integration, you must configured the Recommended Actions application. See [Set up recommended actions for account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-rec-action.md) for details.
+**Note:** Before you set the integration, you must configured the Recommended Actions application. See [Set up recommended actions for account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-setup-rec-action.md) for details.
 
-1.  Set up the Microsoft Dynamics CRM spoke. See [Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md) for details.
+1.  Set up the Microsoft Dynamics CRM spoke. See [Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md) for details.
 2.  On the Microsoft Dynamics CRM platform, you must do the following:
 
     -   Create an account with the same name as the account associated with your internal play task.
@@ -113,13 +113,13 @@ The following examples show how you can create an opportunity or a task in Micro
 
 After you have setup the integration, you can do the following:
 
--   [Create an opportunity in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-crm-opportunity.md)
--   [Create a task in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-crm-task.md)
+-   [Create an opportunity in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-crm-opportunity.md)
+-   [Create a task in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-crm-task.md)
 
--   **[Create an opportunity in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-crm-opportunity.md)**  
+-   **[Create an opportunity in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-crm-opportunity.md)**  
 Create a renewal opportunity in the Microsoft Dynamics CRM platform from your ServiceNow instance.
--   **[Create a task in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-crm-task.md)**  
+-   **[Create a task in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-crm-task.md)**  
 Create a task in the Microsoft Dynamics CRM platform from your ServiceNow instance and receive updates to the task in your ServiceNow instance.
 
-**Parent Topic:**[Configure customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-config-cust-success.md)
+**Parent Topic:**[Configure customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-config-cust-success.md)
 

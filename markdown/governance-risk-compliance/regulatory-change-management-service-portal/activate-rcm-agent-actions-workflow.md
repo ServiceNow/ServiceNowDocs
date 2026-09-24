@@ -3,7 +3,7 @@ title: Activate the Generate regulatory action plan agentic workflow
 description: Configure and activate the Generate regulatory action plan agentic workflow. This workflow uses AI agents to transform regulatory insights into actionable compliance strategies by analyzing impacted areas and historical alerts, then generating structured tasks with clear ownership and timelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/activate-rcm-agent-actions-workflow.html
-release: australia
+release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
@@ -21,7 +21,7 @@ Configure and activate the Generate regulatory action plan agentic workflow. Thi
 
 Install the ServiceNow Otto for IRM plugin \(sn\_irm\_gen\_ai\).
 
-The regulatory alert recommendation skill and a regulatory alert with impacted areas defined are required to generate an action plan. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
+The regulatory alert recommendation skill and a regulatory alert with impacted areas defined are required to generate an action plan. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 
@@ -33,15 +33,15 @@ If you have the RCM user \[sn\_grc\_reg\_change.user\] role and the sn\_grc\_com
 
 This workflow analyzes impacted areas and similar historical alerts to create change tasks and action tasks that help implement regulatory change. The regulatory alert must be in the In Progress state and have impacted areas before generating an action plan.
 
-You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
+You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md).
 
 **Note:**
 
 You can perform the following actions on ServiceNow Otto workflows if you have the sn\_generative\_ai.nsa\_admin role:
 
--   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md)
--   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md)
--   [Delete an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/delete-aia-use-case.md)
+-   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md)
+-   [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aia-use-case.md)
+-   [Delete an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/delete-aia-use-case.md)
 
 ## Procedure
 
@@ -128,22 +128,22 @@ Approved role\(s\)
 
     Triggers can include record conditions, schedules, or inbound email.
 
-    For more information, see [Add a trigger to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw.md).
+    For more information, see [Add a trigger to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aw.md).
 
 8.  Define where alerts and summaries are delivered \(for example, the ServiceNow Otto panel or Regulatory alert record\) by selecting **Channels and status**.
 
-    For more information, see [Select channels and access for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw.md).
+    For more information, see [Select channels and access for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aw.md).
 
 9.  Select **Save and test**.
 
 
 ## What to do next
 
-Use the Testing playground to [test your new agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md) using example utterances.
+Use the Testing playground to [test your new agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md) using example utterances.
 
 Verify that tasks are generated and grouped by impacted areas. If the activation fails, check the roles and skill configuration.
 
 After confirming that the workflow performs as expected, you can get started by selecting **Generate action plan** from the **Ask ServiceNow Otto** action menu on a regulatory alert page or by selecting **Generate Regulatory Action Plan** from the ServiceNow Otto panel. The regulatory alert must be in the In Progress state and have impacted areas before generating an action plan.
 
-If you have not already set up the ServiceNow Otto panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+If you have not already set up the ServiceNow Otto panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 

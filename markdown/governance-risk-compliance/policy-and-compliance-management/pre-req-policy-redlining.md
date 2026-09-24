@@ -3,11 +3,11 @@ title: Pre-requisites to enable policy redlining feature
 description: Certain configurations are required to be set up for policy collaborators to use the policy redlining feature in the Compliance Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/pre-req-policy-redlining.html
-release: australia
+release: brazil
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -45,7 +45,7 @@ Microsoft implies both Microsoft OneDrive and Microsoft SharePoint.
 -   **Establish a connection with cloud hosting services**
     -   **Connection with Microsoft OneDrive**
 
-        You must first set up the Microsoft OneDrive to perform actions in Microsoft OneDrive from ServiceNow. For more information, see [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-ms-onedrive-doc-services.md).
+        You must first set up the Microsoft OneDrive to perform actions in Microsoft OneDrive from ServiceNow. For more information, see [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-ms-onedrive-doc-services.md).
 
         **Note:** To set up connection you require the following delegated Microsoft Azure App permissions:
 
@@ -56,7 +56,7 @@ Microsoft implies both Microsoft OneDrive and Microsoft SharePoint.
         -   User.Read: Allows the application to retrieve the signed-in user’s basic profile details. This is required for assigning or validating file permissions specific to that user during redlining activities.
     -   **Connection with Microsoft SharePoint**
 
-        You must first set up the Microsoft SharePoint to perform actions in Microsoft SharePoint site from ServiceNow. For more information, see [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-ms-onedrive-doc-services.md).
+        You must first set up the Microsoft SharePoint to perform actions in Microsoft SharePoint site from ServiceNow. For more information, see [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-ms-onedrive-doc-services.md).
 
         The Microsoft OneDrive setup configured in ServiceNow is the same as that is done for Microsoft SharePoint as well. However, the Microsoft Azure App permissions are required for Microsoft SharePoint.
 
@@ -73,9 +73,9 @@ Microsoft implies both Microsoft OneDrive and Microsoft SharePoint.
 
         To set up Google Drive as a cloud hosting service and to create or update the policy text document that resides in Google Drive, you must:
 
-        1.  [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-gdrive.md) account.
-        2.  Integrate the Document Services with Google Drive. For more information, see [Document Services Framework for Google Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/google-drive-spoke-document-services.md).
-        3.  To manage documents in Google Docs from your ServiceNow instance, you must integrate the ServiceNow instance with Google docs. For more information, see [Set up the Google Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-gdocs.md).
+        1.  [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-gdrive.md) account.
+        2.  Integrate the Document Services with Google Drive. For more information, see [Document Services Framework for Google Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/google-drive-spoke-document-services.md).
+        3.  To manage documents in Google Docs from your ServiceNow instance, you must integrate the ServiceNow instance with Google docs. For more information, see [Set up the Google Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-gdocs.md).
 
 ## Setting up system properties to connect with cloud hosting services
 
@@ -83,7 +83,7 @@ Microsoft implies both Microsoft OneDrive and Microsoft SharePoint.
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Administration** &gt; **GRC properties**.
         1.  To opt Microsoft OneDrive as your cloud hosting service, select **One drive** in the **Select a file sharing service to host documents and attachments** system property list.
 
-            If you select **None** in the **Select a file sharing service to host documents and attachments** system property list, then you can import the policy text. For more information, see [Import policy text for redlining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/import-policy-text-redlining.md).
+            If you select **None** in the **Select a file sharing service to host documents and attachments** system property list, then you can import the policy text. For more information, see [Import policy text for redlining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/import-policy-text-redlining.md).
 
         2.  To opt Google Drive as your cloud hosting service, select **Google drive** in the **Select a file sharing service to host documents and attachments** system property list.
         3.  To opt Microsoft SharePoint, select **SharePoint** in the **Select a file sharing service to host documents and attachments** system property list.

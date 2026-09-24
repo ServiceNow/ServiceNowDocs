@@ -3,11 +3,11 @@ title: Configure skills in a domain for ServiceNow Otto for Customer Service Man
 description: Activate the skills with different skill configurations in each domain in the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-skills-in-domain-for-now-assist-for-csm.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Domain separation, Configure, ServiceNow Otto for CSM, Customer Service Management]

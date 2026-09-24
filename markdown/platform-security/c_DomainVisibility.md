@@ -3,9 +3,9 @@ title: Visibility domains and Contains domains
 description: Visibility domains control what a specific user or group of users can see. "Contains" domains control what an entire domain of users can see.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_DomainVisibility.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring domain separation, Domain separation for service providers, Access Management]
 ---
@@ -50,7 +50,7 @@ Using domain visibility, if Don Goodliffe is in the Database domain, and Bow Rug
 
 If you set the domain table to the Group \[sys\_user\_group\] table, users can inherit visibility domains based on their group membership.
 
-**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
+**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparation.md)
 
 **Related topics**  
 
@@ -65,7 +65,7 @@ If you set the domain table to the Group \[sys\_user\_group\] table, users can i
 
 [Installed with domain separation]()
 
-[Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-contains-domain-visibility.md)
+[Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-contains-domain-visibility.md)
 
-[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md)
 

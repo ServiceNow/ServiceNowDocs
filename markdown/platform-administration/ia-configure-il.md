@@ -3,9 +3,9 @@ title: Understand the Configuration page flow in ServiceNow Otto for Setup
 description: Implement the following steps to understand the configuration page flow to start the configuration process for either the Platform module or a specific product module on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-configure-il.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2025-12-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -42,7 +42,7 @@ Role required: admin
 
 3.  Select **Get Started** on the modules.
 
-    You are redirected to the first configuration of the selected module. See [Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md) for more information on Platform configuration steps.
+    You are redirected to the first configuration of the selected module. See [Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-config-platform-il.md) for more information on Platform configuration steps.
 
 4.  Find a console item efficiently using the Search configurations search bar on the left navigation.
 
@@ -50,7 +50,7 @@ Role required: admin
 
     **Note:** The configurations that are pre-configured are marked with a checkmark and a magic wand. You can modify the default configurations that are preconfigured and marked with a Magic icon.
 
-6.  Select the Manage Task icon \[Omitted image "ia-manage-task-icon.png"\] Alt text: on a selected console item.
+6.  Select the Manage Task icon \[Omitted image "image.ia-manage-task-icon"\] Alt text: on a selected console item.
 
     You can then either create a new task or open a related task. If you select the Create a task option, the Product Console Task form. Fill up the fields on the form and select **Submit** to create a new task for the console item.
 
@@ -97,7 +97,7 @@ Role required: admin
 
     **Note:** Select How this works link to find more information about the console items. The following modal shows up with these options on selecting the help link.
 
-    \[Omitted image "ia-help-link-modal.png"\] Alt text: Screenshot showing the help link modal
+    \[Omitted image "image.ia-help-link-modal"\] Alt text: Screenshot showing the help link modal
 
 12. Select **Mark as configured** when you complete the configuration process of a configuration.
 
@@ -122,5 +122,5 @@ Role required: admin
 
 After the configuration completes, you can promote the changes to test or production instances by re-running the auto-installation, committing retrieved update sets, and validating ATF tests.
 
-**Parent Topic:**[Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)
+**Parent Topic:**[Configure in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-config-landing.md)
 

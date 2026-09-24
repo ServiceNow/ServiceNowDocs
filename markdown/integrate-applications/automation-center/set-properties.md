@@ -3,11 +3,11 @@ title: Set Automation Center Properties
 description: You must set the properties to define the default settings that are required for Automation Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/set-properties.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Automation Center, Workflow Data Fabric]
 ---
@@ -32,10 +32,10 @@ You must be in the same scope in which the record exists.
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Automation Center properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-properties.md).
+    For a description of the field values, see [Automation Center properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-properties.md).
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-setup.md)
+**Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-setup.md)
 

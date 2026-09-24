@@ -1,18 +1,18 @@
 ---
 title: Recipients lists
-description: Create the recipients list for a targeted communications that can include internal users, customer, accounts, contacts, and consumers. You can create the recipient list using the methods of user import, dynamic lists, or scripting.
+description: Create the recipients list for a targeted communications that can include internal users, customer, accounts, contacts, consumers, and business organizations. You can create the recipient list using the methods of user import, dynamic lists, or scripting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/targeted-comm-dynamic-list.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Recipients lists
 
-Create the recipients list for a targeted communications that can include internal users, customer, accounts, contacts, and consumers. You can create the recipient list using the methods of user import, dynamic lists, or scripting.
+Create the recipients list for a targeted communications that can include internal users, customer, accounts, contacts, consumers, and business organizations. You can create the recipient list using the methods of user import, dynamic lists, or scripting.
 
 When an article is published, the recipients on this list can view the article on the Customer or Consumer Service Portal. Recipients can also receive optional email notifications.
 

@@ -3,11 +3,11 @@ title: Password reset using Integration Hub
 description: Create subflows in Integration Hub to automate and customize the password reset process for users managed by third-party applications such as Okta or Microsoft Entra ID.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/password-reset-ihub.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
 
 Create subflows in Integration Hub to automate and customize the password reset process for users managed by third-party applications such as Okta or Microsoft Entra ID.
 
-Create subflows in Integration Hub to automate password reset processes. Use the [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset-landing-page.md) to enable an end user to use a self-service process to reset or change the password. Alternatively, your organization can implement a process that requires a service desk agent to reset passwords for end users. See [Customize password reset processes and integrate third-party credential services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/setup-pwd-reset-ihub.md) for more information.
+Create subflows in Integration Hub to automate password reset processes. Use the [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset-landing-page.md) to enable an end user to use a self-service process to reset or change the password. Alternatively, your organization can implement a process that requires a service desk agent to reset passwords for end users. See [Customize password reset processes and integrate third-party credential services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/setup-pwd-reset-ihub.md) for more information.
 
 ## Password reset Integration Hubusage overview
 
@@ -24,5 +24,5 @@ Navigate to **Password Reset** &gt; **Usage Overview** view the count of passwor
 
 **Note:** Admin must activate the Password Reset - Orchestration Add-on \(com.glideapp.password\_reset.addon.orchestration\) plugin to view the dashboard.
 
-**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
 

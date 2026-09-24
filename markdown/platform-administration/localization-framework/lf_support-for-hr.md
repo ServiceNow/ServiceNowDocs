@@ -3,11 +3,11 @@ title: Localization Framework support for HR Service Delivery
 description: Localization Framework extends its framework capabilities to Document Templates and Document Template Block Contents in HR Service Delivery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/lf\_support-for-hr.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,14 +20,14 @@ Localization Framework extends its framework capabilities to Document Templates 
 
 The extension of the Localization Framework capabilities to HR Service Delivery enables you to do the following tasks:
 
--   Select multiple languages from the available languages in the instance to configure settings either with the Document Template Block Content or HTML Document Template artifacts. To configure localization settings, see [Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-settings.md).
+-   Select multiple languages from the available languages in the instance to configure settings either with the Document Template Block Content or HTML Document Template artifacts. To configure localization settings, see [Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/localization-settings.md).
 -   Translate the template content manually, through machine translation, or by using export and import.
 
     **Note:** Activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\) to use machine translation in Localization Framework.
 
 -   Publish the translation.
 
-For more information about translating the Document Templates, see [Use Localization Framework for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/doc-lzt-fm.md).
+For more information about translating the Document Templates, see [Use Localization Framework for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/doc-lzt-fm.md).
 
-**Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/exploring-localization-framework.md)
+**Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/exploring-localization-framework.md)
 

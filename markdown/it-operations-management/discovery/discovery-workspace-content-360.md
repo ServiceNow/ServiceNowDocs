@@ -3,11 +3,11 @@ title: Discovery Admin Workspace Content 360
 description: The Content 360 page enables you to discover applications and evaluate application suggestions based on machine learning or crowd-sourced resources. Then, create configuration items with a single click.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-workspace-content-360.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -33,7 +33,7 @@ To access the Discovery Admin Workspace Content 360 page, navigate to **Workspac
     -   Add suggestions to the Configuration Management Database \(CMDB\) the next time Discovery runs.
     The AI-suggested application fingerprints widget doesn't refresh automatically. To verify you're viewing the most up-to-date information, refresh the page manually.
 
-    For more information about discovery based on application fingerprints, see [Discover applications based on fingerprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discover-application-based-process.md) and [Discover applications using application fingerprints or ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discover-application-fingerprints-Cservice.md).
+    For more information about discovery based on application fingerprints, see [Discover applications based on fingerprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discover-application-based-process.md) and [Discover applications using application fingerprints or ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discover-application-fingerprints-Cservice.md).
 
 -   **Application CIs discovered**
 
@@ -49,7 +49,7 @@ To access the Discovery Admin Workspace Content 360 page, navigate to **Workspac
     -   Discovers a higher number of products by using AI capabilities that cluster and classify running application processes.
     On the latest version of Discovery Admin Workspace, starting from Xanadu instances, the Content service suggestions widget refreshes automatically and displays the most up-to-date information. This is indicated by the real time icon \(\[Omitted image "real-time-icon-content-service-suggestions.png"\] Alt text: Real time icon\) that appears next to the widget name.
 
-    To learn more about ITOM Content Service, see [ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/discovery-content-services.md).
+    To learn more about ITOM Content Service, see [ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/discovery-content-services.md).
 
     **Sharing data on ITOM Content Service**
 
@@ -57,7 +57,7 @@ To access the Discovery Admin Workspace Content 360 page, navigate to **Workspac
 
     Starting with ITOM Content Service version 1.6.2 and Discovery Admin Workspace version 1.11.0, you can also opt in to share Service Info data of mapped candidates
 
-    For more information, see [Share data on ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/share-data-itom-content-service.md).
+    For more information, see [Share data on ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/share-data-itom-content-service.md).
 
 
 ## Prerequisites

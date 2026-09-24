@@ -3,11 +3,11 @@ title: Team Integration Settings form
 description: Learn about the fields of Team Integration Settings form that is used to create an association between Jira projects and EAP teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/team-integration-settings-form.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -54,10 +54,10 @@ Jira board for the selected Jira project.
 -   Real-time import and export will apply only to the mapped board for company-managed projects.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
+</table>**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
 
 **Related topics**  
 
 
-[Associate Jira projects with EAP teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-team-integration-settings-for-jira-project-in-spw.md)
+[Associate Jira projects with EAP teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-team-integration-settings-for-jira-project-in-spw.md)
 

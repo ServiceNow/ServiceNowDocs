@@ -3,9 +3,9 @@ title: Create a glossary term
 description: Create glossary terms to define business concepts and provide context for data assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-glossary-term.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [glossary term, business glossary, data catalog]
 breadcrumb: [Managing glossary terms, Data Catalog, Workflow Data Fabric]
@@ -41,8 +41,8 @@ Role required: Data Steward \(df\_data\_steward\)
     -   **Reviewer**: Person responsible for reviewing the glossary term.
 6.  Complete the classification details:
 
-    -   **Domain**: Select from the list of available domains. Domains organize data assets into logical groupings based on business areas, departments, or data types. For details about creating domains, see [Create catalog domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-domains-dc.md).
-    -   **Tags**: Select from the list of available tags. Catalog tags are metadata labels for classifying, categorizing, and discovering data assets. For details about creating tags, see [Create catalog tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-tags-dc.md).
+    -   **Domain**: Select from the list of available domains. Domains organize data assets into logical groupings based on business areas, departments, or data types. For details about creating domains, see [Create catalog domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-domains-dc.md).
+    -   **Tags**: Select from the list of available tags. Catalog tags are metadata labels for classifying, categorizing, and discovering data assets. For details about creating tags, see [Create catalog tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-tags-dc.md).
 7.  Complete the context details:
 
     -   **Related terms**: Other glossary terms connected to this concept.
@@ -53,5 +53,5 @@ Role required: Data Steward \(df\_data\_steward\)
 8.  Select **Save**. \[Omitted image "dc-glossary-create.png"\] Alt text: Create a glossary term
 
 
-**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-glossary-terms.md)
+**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-glossary-terms.md)
 

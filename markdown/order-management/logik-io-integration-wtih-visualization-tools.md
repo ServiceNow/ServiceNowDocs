@@ -3,7 +3,7 @@ title: Integrating CPQ with visualization tools
 description: Learn how CPQ connects to third-party visualization engines—CDS, kBridge, and Threekit—to render 2D/3D product views that respond to configuration inputs in real time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/logik-io-integration-wtih-visualization-tools.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -84,9 +84,9 @@ You can perform the following:
 **Related topics**  
 
 
-[Integrating kBridge visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-kbridge-visualization-integration.md)
+[Integrating kBridge visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-kbridge-visualization-integration.md)
 
-[Integrating CDS or other third-party visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cds_visualization_integration.md)
+[Integrating CDS or other third-party visualization tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cds_visualization_integration.md)
 
-[Integrating Threekit visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/threekit-visualization-integration.md)
+[Integrating Threekit visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/threekit-visualization-integration.md)
 

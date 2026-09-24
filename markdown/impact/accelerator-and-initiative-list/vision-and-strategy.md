@@ -3,11 +3,11 @@ title: Vision and Strategy
 description: Insights into vision and strategy.Guidance on building a ServiceNow vision and strategyGuidance on building a ServiceNow vision and strategy
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/vision-and-strategy.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---

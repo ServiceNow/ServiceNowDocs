@@ -3,11 +3,11 @@ title: Update third-party tool credentials in DevOps Change Velocity
 description: If your tool credential has changed, you must update the credentials in your ServiceNow instance to avoid getting disconnected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_devops.admin
 
 1.  Update your tool credentials using one of the following methods.
 
-<table id="choicetable_bvm_p5l_f5b"><thead><tr><th align="left" id="d46202e66">
+<table id="choicetable_bvm_p5l_f5b"><thead><tr><th align="left" id="d46436e66">
 
 Option
 
-</th><th align="left" id="d46202e69">
+</th><th align="left" id="d46436e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d46202e75">
+</th></tr></thead><tbody><tr><td id="d46436e75">
 
 **From Workspace**
 
@@ -59,7 +59,7 @@ Steps
 8.  Select **Connect** to establish the connection.
 
 
-</td></tr><tr><td id="d46202e153">
+</td></tr><tr><td id="d46436e153">
 
 **From Classic**
 
@@ -74,8 +74,8 @@ Steps
 
 </td></tr></tbody>
 </table>
--   **[Notifications on tool credential expiration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/notifications-for-tool-credential-expiry.md)**  
+-   **[Notifications on tool credential expiration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/notifications-for-tool-credential-expiry.md)**  
 Notifications are sent to tool users on expiration of tool credentials to alert them. Notifications are also sent proactively before the expiration of tool credentials for GitHub tools created with basic authentication. This enables tool users with the sn\_devops.tool\_owner or sn\_devops.admin roles to update the tool credentials and prevent any loss of data.
 
-**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
+**Parent Topic:**[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
 

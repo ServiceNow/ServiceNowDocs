@@ -3,11 +3,11 @@ title: Zoom in or out on the calendar
 description: Adjust the calendar zoom level in Dispatcher Workspace to view task details more clearly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/calendar-zoom-dispatcher.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -20,7 +20,7 @@ Adjust the calendar zoom level in Dispatcher Workspace to view task details more
 
 Role required: wm\_dispatceher
 
-Show zoom controls must be enabled to zoom in or out on the calendar. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
+Show zoom controls must be enabled to zoom in or out on the calendar. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## Procedure
 

@@ -3,9 +3,9 @@ title: MISP event data
 description: You can review the MISP event data so that you can see detailed information about the MISP events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/misp-event-data.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [MISP administration, MISP integration for Security Operations, Threat Intelligence integrations, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

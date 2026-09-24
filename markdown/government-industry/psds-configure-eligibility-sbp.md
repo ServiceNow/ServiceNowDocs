@@ -3,9 +3,9 @@ title: Configure Eligibility Rules Engine in Social Benefits Playbook
 description: The eligibility criteria in Social Benefits Playbook allows an agent to confirm whether an applicant is eligible for the benefit program being requested.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-configure-eligibility-sbp.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Social Benefits Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---

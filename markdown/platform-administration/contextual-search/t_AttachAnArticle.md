@@ -3,11 +3,11 @@ title: Attach a Knowledge article
 description: Attach a Knowledge article to an incident to solve issues quickly by going through the in-depth troubleshooting steps and other detailed information in the article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/t\_AttachAnArticle.html
-release: australia
+release: brazil
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -38,7 +38,7 @@ Role required: none
 
 5.  Select **Attach** in the search result for the Knowledge article that you want to attach to the incident record.
 
-    A note about the Knowledge article is copied or appended to the **Additional comments \(Customer visible\)** field on the incident record. To set a different destination field on the incident record, see [Specify field for attached Knowledge article links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/specify-field-copy-kb-article.md).
+    A note about the Knowledge article is copied or appended to the **Additional comments \(Customer visible\)** field on the incident record. To set a different destination field on the incident record, see [Specify field for attached Knowledge article links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/specify-field-copy-kb-article.md).
 
     **Note:** Attachments from the selected Knowledge article aren't attached to the incident record.
 
@@ -51,8 +51,8 @@ Role required: none
 
 Details of the selected Knowledge article appear in the designated field.
 
--   **[Specify field for attached Knowledge article links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/specify-field-copy-kb-article.md)**  
+-   **[Specify field for attached Knowledge article links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/specify-field-copy-kb-article.md)**  
 Specify which field to add a note to when you attach a Knowledge article to a record.
 
-**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
 

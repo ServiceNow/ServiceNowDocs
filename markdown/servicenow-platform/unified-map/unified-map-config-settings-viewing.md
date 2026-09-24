@@ -3,11 +3,11 @@ title: How configuration settings for Unified Map are stored
 description: General configuration settings that control Unified Map are collected in a configuration identifier. A configuration identifier is a set of properties and table-driven configurations that specify the appearance and content of an instance of a UX application. The CMDB Workspace UX application contains Unified Map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-config-settings-viewing.html
-release: australia
+release: brazil
 product: Unified Map
 classification: unified-map
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,5 +34,5 @@ To create a custom configuration identifier for your workspace, modify the defau
 
 **Note:** When a custom configuration identifier doesn't specify a particular property setting or table entry, the value in the default configuration identifier is used.
 
-**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/unified-map/administer-unified-map.md)
 

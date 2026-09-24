@@ -3,11 +3,11 @@ title: Add CIs to application services using connection rules
 description: Create rules for automatically adding traffic-based connections and the CIs they lead to in discovered service instances. Create rules that add CIs to multiple application services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/add-cis-connection-rules-multiple.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Map multiple application services suggested by classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ Create rules for automatically adding traffic-based connections and the CIs they
 ## Before you begin
 
 -   Analyze the infrastructure you are mapping to identify the most common connections. These common connections are good candidates for connection rules.
--   [Discover applications based on fingerprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discover-application-based-process.md).
+-   [Discover applications based on fingerprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discover-application-based-process.md).
 -   Confirm that discovery based on Predictive Intelligence is enabled. Navigate to the System Property \[sys\_properties\] table and verify that the **sa\_ml.connection\_suggestions.active** property is set to **True**.
 
 Role required: service\_mapping\_admin
@@ -28,9 +28,9 @@ Role required: service\_mapping\_admin
 
 Connection rules enhance the connection suggestions generated using Predictive Intelligence. Each rule contains a condition that describes an aspect of a traffic-based connection. The fields available in conditions come from the Connection Suggestion \[sa\_ml\_connection\_suggestion\] table, which is only populated when you run top-down discovery. You can base your rules directly on the connection suggestions. For example, create a rule for any connection with confidence level High. Alternatively, if you know which CIs must be part of the service instances, you can choose fields that point at these CIs.
 
-For information about Service Mapping evaluating and applying connection rules, see [Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traffic-based-discovery.md).
+For information about Service Mapping evaluating and applying connection rules, see [Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/traffic-based-discovery.md).
 
-In addition to connection rules that add CIs to multiple services, you can [create rules for adding CIs to specific application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-cis-connection-rules-single.md).
+In addition to connection rules that add CIs to multiple services, you can [create rules for adding CIs to specific application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/add-cis-connection-rules-single.md).
 
 ## Procedure
 
@@ -86,10 +86,10 @@ Verify that Service Mapping added CIs as expected by performing the following st
 1.  After the scheduled jobs rediscover the application services, open the maps of the application services where you expected Service Mapping to add CIs.
 2.  Check that CIs are added correctly based on the connection rules.
 
-**Parent Topic:**[Map multiple application services suggested by classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/map-business-services-in-bulk.md)
+**Parent Topic:**[Map multiple application services suggested by classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/map-business-services-in-bulk.md)
 
 **Related topics**  
 
 
-[Discovery based on Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/predictive-intelligence-discovery.md)
+[Discovery based on Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/predictive-intelligence-discovery.md)
 

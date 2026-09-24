@@ -3,9 +3,9 @@ title: Patient Support Services Work ATF \(Automated Test Framework\) tests
 description: The following ATF tests are available in Patient Support Services as a part of the Patient Support Services Workspace ATF test suite.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-pss-atf.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -28,7 +28,7 @@ This test suite for Patient Support Services Enrollment Case ensures that enroll
 2.  PSS - Updating enrollment case: Update enrollment cases after adding additional comments.
 3.  PSS - Close enrollment case: Close enrollment cases after adding resolution details.
 
-For more information on the Automated Test Framework, see [Exploring Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework.md).
+For more information on the Automated Test Framework, see .
 
-**Parent Topic:**[Patient Support Services reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-reference.md)
+**Parent Topic:**[Patient Support Services reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-reference.md)
 

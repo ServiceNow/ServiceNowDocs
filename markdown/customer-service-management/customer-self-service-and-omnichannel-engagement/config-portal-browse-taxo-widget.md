@@ -3,13 +3,13 @@ title: Add and configure the Portal Browse Taxonomy widget
 description: Add the Portal Browse Taxonomy widget to your portal and modify its behavior. The widget displays taxonomy topics along with the articles and catalog items related to them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-browse-taxo-widget.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Browse Taxonomy widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Browse Taxonomy widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add and configure the Portal Browse Taxonomy widget
@@ -18,15 +18,15 @@ Add the Portal Browse Taxonomy widget to your portal and modify its behavior. Th
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
 
 You must have the following setup in order to add, update, and use this widget:
 
--   The page to which you want to add the widget. For more information, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md)
--   A taxonomy to map your content. For more information, see [Create taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-taxonomy-content.md).
--   At least one taxonomy associated with your portal. For more information, see [Add a taxonomy to your portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/add-taxo-to-portal.md).
--   At least one topic associated with the taxonomy. For more information, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-topics-for-taxonomy.md).
--   Topics associated with knowledge categories and catalog categories. For more information, see [Associate content categories to topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/associate-knowledge-categories-to-topics-in-bulk.md) and [Associate content from catalog categories to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/associate-catalog-categories-to-topics-in-bulk.md).
+-   The page to which you want to add the widget. For more information, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md)
+-   A taxonomy to map your content. For more information, see [Create taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/create-taxonomy-content.md).
+-   At least one taxonomy associated with your portal. For more information, see [Add a taxonomy to your portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/add-taxo-to-portal.md).
+-   At least one topic associated with the taxonomy. For more information, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/create-topics-for-taxonomy.md).
+-   Topics associated with knowledge categories and catalog categories. For more information, see [Associate content categories to topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/associate-knowledge-categories-to-topics-in-bulk.md) and [Associate content from catalog categories to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/associate-catalog-categories-to-topics-in-bulk.md).
 
 Role required: sp\_admin
 
@@ -52,6 +52,6 @@ Role required: sp\_admin
 
 10. On the Instance form, fill in the fields.
 
-    For a description of the field values, see [Portal Browse Taxonomy widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/port-browse-taxo-widget-inst-options.md).
+    For a description of the field values, see [Portal Browse Taxonomy widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/port-browse-taxo-widget-inst-options.md).
 
 

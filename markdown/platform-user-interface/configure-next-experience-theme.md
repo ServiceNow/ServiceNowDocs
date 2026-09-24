@@ -3,9 +3,9 @@ title: Configure a Next Experience theme
 description: Add the styles that you have created to your Next Experience theme to modify the look and feel of the user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-next-experience-theme.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Next Experience themes, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -29,7 +29,7 @@ The Next Experience includes two themes, Polaris and Coral. You can reuse or cus
 
 ## About this task
 
-**Note:** If you're customizing a theme that you created with Theme Builder and enter invalid JSON code, you can't save your theme record. While working in the UX theme record, you can navigate to the Editor page by using the **Open in Theme Builder** button. For more information, see [Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md).
+**Note:** If you're customizing a theme that you created with Theme Builder and enter invalid JSON code, you can't save your theme record. While working in the UX theme record, you can navigate to the Editor page by using the **Open in Theme Builder** button. For more information, see [Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-edit-theme.md).
 
 ## Procedure
 
@@ -67,7 +67,7 @@ The Next Experience includes two themes, Polaris and Coral. You can reuse or cus
         -   **Typography:** Specifies the fonts that are used throughout the application.
     -   **Type**
 
-        Specifies two types: Core and Variant. The Core styles include the color, shape and form, typography, and imagery. Variants specify a different version of the theme, such as the different colors that users can select. The most common variant is a dark version of the theme. The Dark theme is the only variant that is shipped with Next Experience. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
+        Specifies two types: Core and Variant. The Core styles include the color, shape and form, typography, and imagery. Variants specify a different version of the theme, such as the different colors that users can select. The most common variant is a dark version of the theme. The Dark theme is the only variant that is shipped with Next Experience. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-theming.md).
 
 6.  Select the **Style** field and select the lookup icon \[Omitted image "ux-style-search.png"\] Alt text:.
 
@@ -115,7 +115,7 @@ Type
 
 -   Core
 -   Variant
- For more information on types, see [Difference between core styles and variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/difference-themes-variants.md).
+ For more information on types, see [Difference between core styles and variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/difference-themes-variants.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Scope of the UX style.
 
 ## What to do next
 
-To publish your custom theme, see [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-presentation-order-of-themes.md).
+To publish your custom theme, see [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-presentation-order-of-themes.md).
 
-**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
+**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
 

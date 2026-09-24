@@ -1,24 +1,24 @@
 ---
 title: Get Interface Summary function
-description: The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and the physical connection of the equipment in the Telecommunications Network Inventory application when you use Workflow Studio.
+description: The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and the physical connection of the equipment in the Telecommunications Network Inventory application. Use this when you use Workflow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/get-interface-summary-action.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # Get Interface Summary function
 
-The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and the physical connection of the equipment in the Telecommunications Network Inventory application when you use Workflow Studio.
+The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and the physical connection of the equipment in the Telecommunications Network Inventory application. Use this when you use Workflow Studio.
 
 The Get Interface Summary function enables you to retrieve the network interface records that are associated with the input such as Site, Rack, or Equipment. You must enter the site, equipment, or rack value to return the output.
 
-If multiple inputs don't match, the action reports an error. For example, let's say that you can see the equipment and site details but because the equipment doesn’t belong to the site, the system reports an error with the conflict information.
+If multiple inputs don’t match, the action reports an error. For example, you may be able to see the equipment and site details. However, if the equipment doesn’t belong to the site, the system reports an error with the conflict information.
 
 You can use this function as a Workflow Studio action in the Telecommunications Network Inventory workflow.
 
@@ -156,7 +156,7 @@ Option to return the type of output when multiple records are found. You can sel
 Choice
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -180,7 +180,7 @@ If the input is passed as Equipment-1 as shown in the following example where Po
 
 If you select **If multiple records are found action** as **Return only the first record**, it returns Port-1, Port-2, and PC-1, respectively.
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Full disk encryption
 description: Full disk encryption \(FDE\) applies encryption to the entire storage system within the database server only, because this is the only customer data-storing component. FDE protects only against physical loss or theft of storage devices. When encrypted disk servers are powered on and providing data, the encryption provides no additional protection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/full-disk-encryption.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Encryption]
 ---
@@ -24,5 +24,5 @@ Commercial environments use full disk encryption \(FDE\) with FIPS 140 validated
 
 For further details on selecting FDE and dedicated hardware options, contact your ServiceNow representative.
 
-**Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md)
+**Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption-landing.md)
 

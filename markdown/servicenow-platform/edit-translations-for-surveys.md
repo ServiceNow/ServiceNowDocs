@@ -3,9 +3,9 @@ title: Edit translations for surveys
 description: Edit the translations for surveys, and after you make the changes, you can publish the translation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/edit-translations-for-surveys.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey responses and results, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ Edit the translations for surveys, and after you make the changes, you can publi
 
 ## Before you begin
 
-You must install the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) before you begin to edit the translations for a survey. To know more, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework-landing.md).
+You must install the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) before you begin to edit the translations for a survey. To know more, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework-landing.md).
 
 Role required: localization\_editor
 
@@ -31,7 +31,7 @@ Role required: localization\_editor
     You can do the following actions while editing translations:
 
     -   Edit translations manually.
-    -   Use machine translation \(if you have configured in Localization Framework settings\) to translate the fields, which are not translated. For more information about machine translation, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-custom-translator.md).
+    -   Use machine translation \(if you have configured in Localization Framework settings\) to translate the fields, which are not translated. For more information about machine translation, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-custom-translator.md).
     -   Export files for translation. To export files, click **Export Source File**, choose the file type, and then click **Export File**.
     -   Import translated files to update the translations. To import files, from the **Export Source File** list, select **Import Translated File**.
 4.  After your changes are completed, click **Publish Translations**.
@@ -39,7 +39,7 @@ Role required: localization\_editor
     After survey translations are published, they are made available to any user who takes a survey.
 
 
-**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md)
+**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyResults.md)
 
 **Related topics**  
 

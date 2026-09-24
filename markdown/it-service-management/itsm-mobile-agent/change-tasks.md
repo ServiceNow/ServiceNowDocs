@@ -1,24 +1,24 @@
 ---
 title: Change tasks
-description: View and work on the change tasks assigned to you. You can view the details, activities, and other related change tasks by a single tap on the ITSM mobile agent app.
+description: View and work on the change tasks assigned to you. You can view the details, activities, and other related change tasks by a single tap on the ITSM Mobile Agent app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/change-tasks.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
 
 # Change tasks
 
-View and work on the change tasks assigned to you. You can view the details, activities, and other related change tasks by a single tap on the ITSM mobile agent app.
+View and work on the change tasks assigned to you. You can view the details, activities, and other related change tasks by a single tap on the ITSM Mobile Agent app.
 
 Tap on the card to access all the change tasks assigned to you.
 
-1.  You can [filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) the list according to your set criteria.
+1.  You can [filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) the list according to your set criteria.
 2.  Swipe left to add comments to the task or close the task.
 3.  On the **Change Tasks** screen, tap on any task to view the details, activity and related change tasks. You can add comments or close a task from this screen.
 

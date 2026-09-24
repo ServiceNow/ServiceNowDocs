@@ -3,11 +3,11 @@ title: Create a legal entity and enhance digital resilience data
 description: Create a legal entity record in Digital resilience third-party registers. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-legal-entity.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a legal entity and enhance digital resilience data
@@ -40,7 +40,7 @@ When you install Digital resilience third-party registers, the **Legal entities*
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Create a company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-legal-entity-form.md).
+    For more information, see [Create Company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-legal-entity-form.md).
 
 4.  Select **Save**.
 
@@ -50,7 +50,7 @@ When you install Digital resilience third-party registers, the **Legal entities*
 
 5.  To create a legal entity record and set up its digital resilience information for DORA regulation, navigate to the **Legal entity** tab and select **New**.
 
-    For information on setting up the digital resilience information for a legal entity, see [Create a legal entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-legal-entity.md).
+    For information on setting up the digital resilience information for a legal entity, see [Create Legal entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-legal-entity.md).
 
     The Create New Legal Entity form is displayed.
 
@@ -82,12 +82,12 @@ When you install Digital resilience third-party registers, the **Legal entities*
 
 ## What to do next
 
-Set up branches for a legal entity. For more information, see [Create a branch and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-branch.md).
+Set up branches for a legal entity. For more information, see [Create a branch and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-drtp-reg-branch.md).
 
--   **[Create a company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-legal-entity-form.md)**  
-On the Create a company form, fill in the fields for the legal entity.
--   **[Create a legal entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-legal-entity.md)**  
-On the Create a legal entity form, fill in the fields to set up the digital resilience information.
+-   **[Create Company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-legal-entity-form.md)**  
+On the Create Company form, fill in the fields for the legal entity.
+-   **[Create Legal entity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-legal-entity.md)**  
+On the Create Legal entity form, fill in the fields to set up the digital resilience information.
 
-**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/using-dg-registers.md)
 

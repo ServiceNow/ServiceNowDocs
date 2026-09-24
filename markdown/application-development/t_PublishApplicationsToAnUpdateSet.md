@@ -3,9 +3,9 @@ title: Publish an application to an Update Set
 description: Publishing an application creates an update set containing the current version of all application configuration records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/t\_PublishApplicationsToAnUpdateSet.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
@@ -24,15 +24,15 @@ You can use this update set as a backup file for auditing purposes or to transfe
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Applications** &gt; **My Company's Applications**.
+1.  Navigate to **All** &gt; **System Applications** &gt; **My Company Applications**.
 
-2.  Click the **In Development** tab.
+2.  Select the **In Development** tab.
 
 3.  Open the application record you want to create an update set for.
 
-4.  Click the **Publish to Update Set** related link.
+4.  Select the **Publish to Update Set** related link.
 
-5.  Fill in the fields, as appropriate \(see table\).
+5.  On the form, fill in the fields.
 
     \[Omitted image "PublishToUpdateSet.png"\] Alt text: Publish to Update Set
 
@@ -82,14 +82,14 @@ Select the check box to include a limited number of data records from each table
 
 Using this feature to migrate large quantities of data records between instances can cause performance issues, as it is not intended for this purpose. To migrate data, use an instance-to-instance import. You can adjust the maximum number of data records to include with an application.
 
-See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_ImportSetsKeyConcepts.md).
+See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_ImportSetsKeyConcepts.md).
 
  -   If your sample data includes tables with record numbering, the current counter value is also transferred. When the update set is applied on another instance, the counter is set to the larger of the sample data or the target instance counter.
 -   For translated fields, only records in English are transferred.
 
 
 </td></tr></tbody>
-</table>6.  Click **Publish**.
+</table>6.  Select **Publish**.
 
     A new update set is created and the latest update of each application file in the application is copied into it. The update set is marked as complete.
 
@@ -100,16 +100,16 @@ See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/au
 8.  Run any fix scripts that are included in the application.
 
 
-**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md)
+**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_SharingApplications.md)
 
 **Related topics**  
 
 
-[Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md)
+[Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md)
 
-[Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)
+[Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)
 
-[Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RunFixScripts.md)
+[Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_RunFixScripts.md)
 
-[Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
+[Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
 

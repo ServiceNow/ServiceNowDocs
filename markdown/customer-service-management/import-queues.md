@@ -3,9 +3,9 @@ title: Import queues
 description: Import queues from your contact center provider to ensure that customer interactions are routed to the appropriate agents based on their skills and availability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-queues.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CCaaS Admin Console, Integrating with contact centers, Integrate, Customer Service Management]
 ---

@@ -3,9 +3,9 @@ title: Define a custom flow to create or update email interactions
 description: Define email-related business processes using Workflow Studio. This tool enables you to manage emails along with your customer service processes through a visual interface without having to design or request complex scripts.Create an interaction record to capture customer details.Modify existing interaction records, verifying that all email communication details are updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/defining-custom-flow-create-update-email-interactions.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Email Interaction for CSM, Email Interaction for CSM, Email Interaction for CSM]
 breadcrumb: [Configure flows for incoming emails, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
@@ -43,7 +43,7 @@ Role required: workspace\_admin, awa\_agent, sn\_customerservice\_consumer\_agen
 
     7.  Select **Show additional properties**.
 
-        To know more about additional properties, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
+        To know more about additional properties, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md).
 
     8.  Select **Build flow**.
 
@@ -94,7 +94,7 @@ Role required: workspace\_admin, awa\_agent, sn\_customerservice\_consumer\_agen
 **Related topics**  
 
 
-[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md)
+[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md)
 
 ## Update an interaction
 
@@ -124,7 +124,7 @@ Role required: admin, workspace\_admin, awa\_agent, sn\_customerservice\_consume
 
     7.  Select **Show additional properties**.
 
-        To know more about additional properties, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
+        To know more about additional properties, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md).
 
     8.  Select **Build flow**.
 
@@ -172,5 +172,5 @@ Role required: admin, workspace\_admin, awa\_agent, sn\_customerservice\_consume
 **Related topics**  
 
 
-[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md)
+[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md)
 

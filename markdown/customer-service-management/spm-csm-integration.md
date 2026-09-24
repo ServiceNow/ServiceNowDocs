@@ -3,9 +3,9 @@ title: Integrate with Service Portfolio Management using Guided Setup
 description: Use the Guided Setup to integrate Customer Service Management with the Service Portfolio Management \(SPM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/spm-csm-integration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with Service Portfolio Management, Integrate, Customer Service Management]
 ---
@@ -44,5 +44,5 @@ To configure the integration with Service Portfolio Management, use the Customer
 **Related topics**  
 
 
-[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ServicePortfolioManagementv2.md)
+[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_ServicePortfolioManagementv2.md)
 

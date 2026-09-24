@@ -3,11 +3,11 @@ title: Score search terms by inverse document frequency \(IDF\)
 description: Enable term frequency–inverse document frequency \(TF-IDF\) to increase the search result scores of search terms that appear more frequently in a document, but less frequently in the whole collection of searchable documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/enable-IDF-scoring.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zing computes document scores using three components, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Enable term frequency–inverse document frequency \(TF-IDF\) to increase the se
 
 ## Before you begin
 
-To enable TF-IDF scoring, a text index must be present for the table. Make sure that text indexing is enabled for the table before changing the query mode. See [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
+To enable TF-IDF scoring, a text index must be present for the table. Make sure that text indexing is enabled for the table before changing the query mode. See [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 Role required: ts\_admin or admin
 
@@ -30,7 +30,7 @@ Administrators can enable TF-IDF scoring on a table to improve search results. T
 
 ## Procedure
 
-1.  Navigate to the [system dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SystemDictionary.md) and open the entry for the desired table.
+1.  Navigate to the [system dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_SystemDictionary.md) and open the entry for the desired table.
 
 2.  In the **Attributes** related list, select **New**.
 
@@ -53,7 +53,7 @@ Administrators can enable TF-IDF scoring on a table to improve search results. T
 9.  Configure the desired notification and select **OK**.
 
 
-**Parent Topic:**[Zing computes document scores using three components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_DocumentScoring.md)
+**Parent Topic:**[Zing computes document scores using three components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_DocumentScoring.md)
 
 **Related topics**  
 

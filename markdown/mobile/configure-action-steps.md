@@ -3,9 +3,9 @@ title: Configure action steps within an action item
 description: For an action item to perform multiple processes you must define separate action steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-action-steps.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure an action item, Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use action steps when you must perform multiple actions after an action item is executed. You can also use action steps when an action must be performed in offline mode. For more information about working in offline mode, see [Configure data items in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-offline-data-item.md).
+Use action steps when you must perform multiple actions after an action item is executed. You can also use action steps when an action must be performed in offline mode. For more information about working in offline mode, see [Configure data items in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-offline-data-item.md).
 
 ## Procedure
 
@@ -145,7 +145,7 @@ The script executed by the action. This field only appears if you select **Scrip
 
  To use a variable from an input form screen in your scripts, use `parm_variable.<VariableName>`
 
- To view an example of an execution script, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
+ To view an example of an execution script, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-create-action-item.md).
 
 </td></tr></tbody>
 </table>4.  Repeat the procedure for any additional action steps that you want to add to the selected action item.

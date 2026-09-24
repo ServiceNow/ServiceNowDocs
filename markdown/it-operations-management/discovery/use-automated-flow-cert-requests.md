@@ -3,11 +3,11 @@ title: Using automated flow for certificate management
 description: Certificate and Management streamlines your TLS certificate processes, offering benefits such as improved efficiency and enhanced security. Automating certificate management ensures timely renewal of certificates, which minimizes the risk of expired certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/use-automated-flow-cert-requests.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Certificate and Management streamlines your TLS certificate processes, offering 
 
 ## Before you begin
 
-To use the Microsoft Certificate Authority automated flow, you must install the **ServiceNow IntegrationHub Action Step - PowerShell** plugin and must have an Integration Hub subscription. See  for more information.
+To use the Microsoft Certificate Authority automated flow, you must install the **ServiceNow IntegrationHub Action Step - PowerShell** plugin and must have an Integration Hub subscription. See [Integration Hub usage and subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/subscription-usage.md) for more information.
 
 Role required: pki\_admin or admin
 
@@ -40,7 +40,7 @@ Role required: pki\_admin or admin
 
 4.  Create the certificate credential and map it to the credential alias.
 
-    Each credential should map using a unique credential alias. For more information, see [Credential alias for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/discovery-credential-alias.md).
+    Each credential should map using a unique credential alias. For more information, see [Credential alias for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md).
 
 5.  Confirm the Certificate and Certificate URL information are in the Certificate Authority \[sn\_disco\_certmgmt\_ca\] and Certificate Authority API URL \[sn\_disco\_certmgmt\_ca\_api\_url\] tables.
 

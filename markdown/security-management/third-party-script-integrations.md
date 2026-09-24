@@ -3,9 +3,9 @@ title: REST APIs for third-party integration with Security Operations
 description: The Security Operations base system includes a series of scripted REST APIs that allow customers and partners to easily integrate with an existing Security Operations deployment. The APIs allow you to gather data from outside of your system \(for example, a Python script is used to receive data from VirusTotal\) and send it back to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/third-party-script-integrations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -20,9 +20,9 @@ The API is solely used to add data that was gathered outside of our system. For 
 
 ## Authentication
 
-All operations within the API definitions use platform authentication provided by the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_CustomWebServices.md) operation feature. To access, navigate to **System Web Services** &gt; **Scripted Web Services** &gt; **Scripted REST APIs** and locate the **SecOps Integration Capabilities** API.
+All operations within the API definitions use platform authentication provided by the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_CustomWebServices.md) operation feature. To access, navigate to **System Web Services** &gt; **Scripted Web Services** &gt; **Scripted REST APIs** and locate the **SecOps Integration Capabilities** API.
 
-The user and the user’s domain are readily available within the context of the API. Records can be tied to a user, an audit path to be established, and domain separation accomplished. Also, since you are authenticated as a specific user, you can use [Using GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md) to prevent any unauthorized access to data.
+The user and the user’s domain are readily available within the context of the API. Records can be tied to a user, an audit path to be established, and domain separation accomplished. Also, since you are authenticated as a specific user, you can use [Using GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/useful-server-side-scripts.md) to prevent any unauthorized access to data.
 
 ## Authorization
 
@@ -71,7 +71,7 @@ Sample request and responses for the observable enrichment use case are shown he
 
 \[Omitted image "ObservableEnrichmentCreateResponse.png"\] Alt text: Observable Enrichment: Create Response
 
-**Note:** In addition to enriching existing records, you can also use [Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrichment-data-mapping.md) to add new records to tables by passing in an **enrichment\_mapping\_id** for an existing enrichment mapping and a corresponding **raw\_data** string that can be parsed by the mapping process.
+**Note:** In addition to enriching existing records, you can also use [Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/enrichment-data-mapping.md) to add new records to tables by passing in an **enrichment\_mapping\_id** for an existing enrichment mapping and a corresponding **raw\_data** string that can be parsed by the mapping process.
 
 ## Threat lookup use case
 
@@ -83,5 +83,5 @@ Sample request and responses for the threat lookup use case are shown here.
 
 \[Omitted image "ThreatLookupCreateResponse.png"\] Alt text: Create-Response for threat lookups
 
-**Parent Topic:**[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-ref.md)
+**Parent Topic:**[Security Operations Integration Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/secops-integ-ref.md)
 

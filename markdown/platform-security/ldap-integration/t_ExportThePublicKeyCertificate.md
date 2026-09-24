@@ -3,11 +3,11 @@ title: Export the public key certificate to trust the LDAP certificate
 description: Export the public key certificate and import it into the application when you configure Microsoft Active Directory for SSL access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_ExportThePublicKeyCertificate.html
-release: australia
+release: brazil
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Microsoft AD for secure LDAPS communication, LDAP integration, Authentication, Access Management]
 ---
@@ -47,5 +47,5 @@ If your Certificate Authority is not a trusted third party vendor, you must expo
 
 After completing this procedure, import the public key certificate into the application.
 
-See [Install the LDAP X.509 SSL certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_UploadTheX509SSLCertificate.md) to upload the certificate into the application.
+See [Install the LDAP X.509 SSL certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ldap-integration/t_UploadTheX509SSLCertificate.md) to upload the certificate into the application.
 

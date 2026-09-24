@@ -3,10 +3,10 @@ title: Explore retail projects
 description: Retail Strategic Portfolio Management Suite enables retail organizations to plan, execute, and track store life cycle projects such as new store openings, closures, refurbishments, relocations, and technology refreshes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/explore-retail-projects-spm-r.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-16"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [SPM Retail]
 breadcrumb: [Explore, Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]
 ---
@@ -21,7 +21,7 @@ Retail Strategic Portfolio Management Suite is a purpose-built extension of the 
 
 Retail projects in Retail Strategic Portfolio Management Suite are structured, template-driven work items that guide teams through store life cycle scenarios.
 
-The Retail Strategic Portfolio Management Suite works as an extension to the existing SPM capabilities such as project templates, project fields, playbooks, and workflows to tailor them specifically for retail store operations. This gives all the personas a connected experience on one platform.
+The Retail Strategic Portfolio Management Suite works as an extension to the existing SPM capabilities such as project templates, project fields, playbooks, and workflows to tailor them specifically for retail store operations giving all the personas a connected experience on one platform.
 
 Retail companies run hundreds of store projects every year. A large grocery chain might be opening 40 new stores, refurbishing 120 others, closing 15, and refreshing technology in 200, all in the same fiscal year. These projects typically have three core problems.
 
@@ -37,6 +37,12 @@ Retail companies run hundreds of store projects every year. A large grocery chai
 When starting a new project, users select a project type such as **New Store Opening** or **Store Closure**. That selection filters the project to a set of predefined project templates containing the right tasks, milestones, dependencies, and durations for that specific scenario. Every new store opening starts from the same foundation. Every closure follows the same sequence.
 
 For example, a New Store Opening template comes preloaded with tasks organized across phases like initiation, design and permitting, procurement, site readiness, construction, IT setup, fixtures, and go-live.
+
+## Make project tasks visible to store teams
+
+Some of the work in a store life cycle project is completed by the store itself rather than by a headquarters team. Set the **Visible to customer** field on a project task to let the assigned store team see that task and act on it in Retail. A project task without this field set remains visible only to headquarters.
+
+Store personas see only the project tasks for the retail organization that they belong to, so a task that is tagged to one store isn't visible to the staff of another store. For information about how store teams work these tasks, see [Project tasks in Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-spm-project-tasks-overview.md).
 
 ## Retail-specific project fields that enable structured tracking
 
@@ -54,7 +60,7 @@ Every project of a given type shares the same fields, templates, and milestones,
 
 ## Life-cycle scenarios offered with the retail suite
 
-Each scenario has its own template, its own set of project fields, and its own guided playbook. These aren't five separate products; they're five configurations of the same underlying framework, all managed within the Workspace. It shares the same reporting infrastructure and is visible in a single portfolio view.
+Each scenario has its own template, its own set of project fields, and its own guided playbook. These aren't five separate products; they're five configurations of the same underlying framework, all managed within the Workspace sharing the same reporting infrastructure and visible in a single portfolio view.
 
 |Scenario|Offerings|Key milestones offered|
 |--------|---------|----------------------|
@@ -77,9 +83,9 @@ Retail Strategic Portfolio Management Suite provides benefits for retail project
 
 To learn more about configuring and using Retail Strategic Portfolio Management Suite, see:
 
--   [Explore Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/explore-spm-retail-suite.md)
--   [Explore playbooks for retail projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/playbooks-spm-retail-suite.md)
--   [Configure Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/config-spm-retail-suite.md)
--   [Using Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/use-spm-retail-suite.md)
--   [Retail Strategic Portfolio Management Suite References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/references-spm-retail-suite.md)
+-   [Explore Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/explore-spm-retail-suite.md)
+-   [Explore playbooks for retail projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/playbooks-spm-retail-suite.md)
+-   [Configure Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/config-spm-retail-suite.md)
+-   [Using Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/use-spm-retail-suite.md)
+-   [Retail Strategic Portfolio Management Suite References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/references-spm-retail-suite.md)
 

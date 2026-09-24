@@ -3,9 +3,9 @@ title: Fulfillment tables
 description: To enable a production instance to enforce entitled usage of your ServiceNow Store App, you configure the tables where only record owners or subscribed app users can make updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/r\_FulfillmentTables.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

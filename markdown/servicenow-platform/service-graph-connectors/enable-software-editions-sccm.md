@@ -3,11 +3,11 @@ title: Enable Software Editions in Service Graph Connector for Microsoft SCCM
 description: Enable software editions so that you can gather edition information for products such as Adobe Acrobat, Microsoft SQL Server, and Windows Exchange Server into the Service Graph Connector for Microsoft SCCM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/enable-software-editions-sccm.html
-release: australia
+release: brazil
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft SCCM, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

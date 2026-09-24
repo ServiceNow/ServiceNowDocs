@@ -3,11 +3,11 @@ title: Look up email attachments action
 description: Look up files that are attached to an email so that you can perform an action on the files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/lookup-email-attachment.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -28,7 +28,7 @@ Available as a Workflow Studio ServiceNow core action. Users with the flow\_desi
 
 ## Output
 
-This action generates a list of Email Attachment \[sys\_email\_attachment\] records, which list the attachments that are associated with a given email record. To perform an action on an attachment, add flow logic that runs for each Attachment pill under the Email Attachment Record pill. For more information, see [For each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-for-each.md).
+This action generates a list of Email Attachment \[sys\_email\_attachment\] records, which list the attachments that are associated with a given email record. To perform an action on an attachment, add flow logic that runs for each Attachment pill under the Email Attachment Record pill. For more information, see [For each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-logic-for-each.md).
 
 ## Example
 
@@ -36,5 +36,5 @@ In the following example, a process owner adds the Look up email attachments act
 
 \[Omitted image "lookup-email-attach-example.png"\] Alt text: Email attachments action in a flow
 
-**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-actions.md)
 

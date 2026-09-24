@@ -3,11 +3,11 @@ title: General guidelines for creating and mapping an intent
 description: By following some general guidelines for creating email intents and mapping actions to intents, you can create clear and effective instructions that help maximize the efficiency and effectiveness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/guidelines-creating-intent.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Email agentic workflow, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email agentic workflow, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # General guidelines for creating and mapping an intent
@@ -70,7 +70,7 @@ The discussion highlights several crucial guidelines for defining and configurin
     -   The overarching principle is to make intents as clear and unambiguous as possible to guide the LLM effectively.
     -   The system is a framework; its effectiveness depends on how wisely intents are configured.
 
-For more general guidelines, see [General guidelines for writing prompts for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
+For more general guidelines, see [General guidelines for writing prompts for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gg-creating-aia.md).
 
 ## Important Considerations
 

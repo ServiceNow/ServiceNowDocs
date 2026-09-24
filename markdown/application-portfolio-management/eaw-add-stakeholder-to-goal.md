@@ -3,9 +3,9 @@ title: Add a stakeholder to a goal
 description: Add existing stakeholders to a goal in the Enterprise Architecture Workspace, or create a stakeholder directly from the goal record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-stakeholder-to-goal.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage goals, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -38,18 +38,18 @@ Role required: sn\_apm.apm\_user
         1.  Select **Add**.
         2.  In the Add stakeholder window, select the stakeholder. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
-    -   To create a stakeholder, select **New** and complete the fields on the form. For field descriptions, see [Create a stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-stakeholder-form.md).
+    -   To create a stakeholder, select **New** and complete the fields on the form. For field descriptions, see [Create a stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-stakeholder-form.md).
 
 ## Result
 
 The stakeholder appears in the **Stakeholders** related list for the goal.
 
-**Parent Topic:**[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-goals.md)
+**Parent Topic:**[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-goals.md)
 
 **Related topics**  
 
 
-[Remove a stakeholder from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-stakeholder-from-goal.md)
+[Remove a stakeholder from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-remove-stakeholder-from-goal.md)
 
-[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-goals.md)
+[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-goals.md)
 

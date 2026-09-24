@@ -1,26 +1,26 @@
 ---
 title: Software reclamation rules
-description: Reclamation rules aggregate usage over time and specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
+description: Reclamation rules aggregate usage over time. These rule also specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sw-reclamation-rules.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software reclamation rules
 
-Reclamation rules aggregate usage over time and specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
+Reclamation rules aggregate usage over time. These rule also specify a minimum number of hours or the latest date that a software unit must be used before the software is flagged for reclamation.
 
 ## Overview of software reclamation rules
 
 You can avoid purchasing more software rights for products by knowing which rights have already been allocated but are being used infrequently, haven't been used recently enough, or aren't being used at all. Reclamation rules reclaim those software rights so that these rights can be freed up and allocated elsewhere. Reclamation rules are configured to specify a period of time, amount of time, or most recent date that a software unit must be used before the software is flagged for reclamation.
 
-When a reclamation rule is created for a suite parent, the usage for the suite parent as well as that of the suite components are automatically pulled into the rule.
+When a reclamation rule is created for a suite parent, the usage for the suite parent and the suite components are automatically pulled into the rule.
 
 When you create a reclamation rule, you can add software products associated to the reclamation rule. When you add a product, which is a suite parent, all the suite components automatically get added and appear in the Software Products related list in the Reclamation rule form. Similarly, the product processes for all the added software suite products and component products also get added and appear in the Product Processes related list.
 
@@ -32,17 +32,17 @@ After a suite parent is added to a reclamation rule, you can't edit or delete an
 
 You can add a filter condition on a suite parent record. The filter condition that you specify for a suite parent is automatically applied to all the suite components of the parent and the filter condition field on the suite component record is no longer editable. You can, however, edit the filter condition on the suite parent record. You can open a suite parent record from the Software Products related list and specify your filter condition in the record.
 
-You can also specify a filter condition at the reclamation rule level. The filter condition that you specify applies to all the products that belong to the reclamation rule. The filter condition can only be applied when the **Applies to** field in the Reclamation rule form has the value **Installed Software** or **Subscription Software**. For details, see [Add a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAReclamationRule.md).
+You can also specify a filter condition at the reclamation rule level. The filter condition that you specify applies to all the products that belong to the reclamation rule. The filter condition can only be applied when the **Applies to** field in the Reclamation rule form has the value **Installed Software** or **Subscription Software**. For details, see [Add a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/t_AddAReclamationRule.md).
 
 ## Reclamation rules for SaaS and SSO applications
 
-When you create a direct integration profile for a SaaS application or connect an SSO application, a reclamation rule is automatically created for the software product. It's important that you review the reclamation rule to verify that it meets your specifications. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+When you create a direct integration profile for a SaaS application or connect an SSO application, a reclamation rule is automatically created for the software product. It's important that you review the reclamation rule to verify that it meets your specifications. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
-For more information about the reclamation rules for each application, see [Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reclamation-rules.md).
+For more information about the reclamation rules for each application, see [Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/reclamation-rules.md).
 
-## Upgrading to Australia
+## Upgrading to Brazil
 
-If you’re upgrading to Australia from any past release, your existing reclamation rules do not automatically take bulk reclamation into account. You must manually set up your existing reclamation rules for bulk reclamation to take effect. For example, in an existing reclamation rule, you have Microsoft Office 365 listed in the Software Installations related list. When you upgrade to Australia, you must delete Microsoft Office 365 from the Software Product related list and re-add it to the same reclamation rule to trigger the automatic addition of suite components and their product processes.
+If you’re upgrading to Brazil from any past release, your existing reclamation rules don't automatically take bulk reclamation into account. You must manually set up your existing reclamation rules for bulk reclamation to take effect. For example, in an existing reclamation rule, you have Microsoft Office 365 listed in the Software Installations related list. When you upgrade to Brazil, you must delete Microsoft Office 365 from the Software Product related list and re-add it to the same reclamation rule to trigger the automatic addition of suite components and their product processes.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

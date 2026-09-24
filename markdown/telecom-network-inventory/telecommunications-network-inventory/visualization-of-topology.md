@@ -3,11 +3,11 @@ title: Network topology
 description: The topology in the Telecommunications Network Inventory application graphically displays how the different elements in a network such as equipment, connections, and interfaces are organized and connected to one another. By using a topology, you get a bird's eye view to the network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/visualization-of-topology.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Visualize network infrastructure, Explore, Telecommunications Network Inventory]
 ---
@@ -18,7 +18,7 @@ The topology in the Telecommunications Network Inventory application graphically
 
 ## Topology visualization overview
 
-The network topology is a visual representation of the network elements such as nodes \(equipment\), edges \(connections\), and termination points \(interfaces\), and how they’re organized and connected to one another. A topology can be a ring, tree, mesh, star, or bus in structure. A topology enables you to plan the network expansions, monitor the network performance, and troubleshoot the faults occurring in the network.
+The network topology is a visual representation of the network elements such as nodes \(equipment\), edges \(connections\), and termination points \(interfaces\). It also shows how these elements are organized and connected to one another. A topology can be a ring, tree, mesh, star, or bus in structure. A topology enables you to plan the network expansions, monitor the network performance, and troubleshoot the faults occurring in the network.
 
 The following example shows a topology in the Telecommunications Network Inventory application.
 
@@ -60,12 +60,12 @@ You can access the network topology in the Telecommunications Network Inventory 
 2.  Select the network visualization icon \(\[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon.\).
 3.  Select the **Topology** tab.
 
-To learn more about how to create and view a topology in the Telecommunications Network Inventory application, see [Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md).
+To learn more about how to create and view a topology in the Telecommunications Network Inventory application, see [Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md).
 
 **Related topics**  
 
 
-[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
+[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
 
-[Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md)
+[Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md)
 

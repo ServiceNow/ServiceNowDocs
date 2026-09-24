@@ -3,11 +3,11 @@ title: Accept or reject a component request
 description: Review a request for adding a component to a component library and approve or reject it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-comp-library-request-approval.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Review a request for adding a component to a component library and approve or re
 
 ## Before you begin
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Someone has requested to add a local component from an application to the component library as a shared component. If there are such requests in a library that need your approval, you see a **Requests** label \(\[Omitted image "cdm-comp-library-request.png"\] Alt text: The Requests label beside the library name in the list.\) beside the library name.
 
@@ -40,15 +40,15 @@ Role required: cdm\_admin or cdm\_editor
 
 5.  As required, click accept or reject the request.
 
-<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d410631e131">
+<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d418410e130">
 
 Approval action
 
-</th><th align="left" id="d410631e134">
+</th><th align="left" id="d418410e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d410631e140">
+</th></tr></thead><tbody><tr><td id="d418410e139">
 
 **Accept a request**
 
@@ -69,7 +69,7 @@ Description
 5.  Click **Accept**.
 
 
-</td></tr><tr><td id="d410631e210">
+</td></tr><tr><td id="d418410e209">
 
 **Reject a request**
 

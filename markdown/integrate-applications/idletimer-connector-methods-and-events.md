@@ -3,9 +3,9 @@ title: IdleTimer connector methods and events
 description: Learn about the IdleTimer connector methods and events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/idletimer-connector-methods-and-events.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IdleTimer connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -34,5 +34,5 @@ Triggers the automation when the Start method is executed.
 
 Stops the automation when the Start method is executed.
 
-**Parent Topic:**[IdleTimer connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/idletimer-connector.md)
+**Parent Topic:**[IdleTimer connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/idletimer-connector.md)
 

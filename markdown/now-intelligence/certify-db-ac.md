@@ -3,9 +3,9 @@ title: Certify a Platform Analytics dashboard
 description: Certify a dashboard to indicate that it is company-approved and recommended for use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/certify-db-ac.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -35,7 +35,7 @@ Role required: admin or dashboard\_admin
 
 ## Result
 
-In the Dashboards library, the dashboard's entry is marked **Certified** in the Certified column.
+In the Dashboards library, the dashboard's entry is marked with a [certification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dashboards-glossary.md) \(**Certified**\) in the Certified column.
 
 \[Omitted image "certified-db-ac.png"\] Alt text: Certified dashboard example
 

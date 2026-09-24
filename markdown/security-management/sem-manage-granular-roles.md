@@ -3,9 +3,9 @@ title: Manage persona and granular roles for Vulnerability Response
 description: After you complete your initial assignment of persona roles using Setup Assistant, manage additional granular role assignments to users or groups from the User Administration module in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-manage-granular-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Assign the Vulnerability Response persona roles using Setup Assistant, Security Exposure Management Workspace personas and granular roles, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,9 +16,9 @@ After you complete your initial assignment of persona roles using Setup Assistan
 
 ## Before you begin
 
-If you have not already completed your initial set up and configuration for Vulnerability Response using Setup Assistant, or assigned persona roles to users and groups, navigate to **Vulnerability Response** &gt; **Administration** &gt; **Setup Assistant**. See [Assign the Vulnerability Response persona roles using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-assign-personas_SA.md).
+If you have not already completed your initial set up and configuration for Vulnerability Response using Setup Assistant, or assigned persona roles to users and groups, navigate to **Vulnerability Response** &gt; **Administration** &gt; **Setup Assistant**. See [Assign the Vulnerability Response persona roles using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-assign-personas_SA.md).
 
-For key terms and an overview of persona roles, see [Vulnerability Response personas and granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-persona-overview.md).
+For key terms and an overview of persona roles, see [Vulnerability Response personas and granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/vr-persona-overview.md).
 
 A persona role is pre-configured role in the application that is made up of multiple granular roles. The persona roles in Setup Assistant, Vulnerability Admin, Vulnerability Analyst, Remediation Owner, Configuration Item Manager, and Exception Manager, are designed to correspond to common job titles for managers, analysts, and service owners in an IT organization or vulnerability remediation group.
 
@@ -30,15 +30,15 @@ Role required: admin
 
 1.  To manage granular roles for users and groups, choose one to continue.
 
-<table id="choicetable_m51_vw5_tlb"><thead><tr><th align="left" id="d48510e101">
+<table id="choicetable_m51_vw5_tlb"><thead><tr><th align="left" id="d48663e101">
 
 Option
 
-</th><th align="left" id="d48510e104">
+</th><th align="left" id="d48663e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48510e110">
+</th></tr></thead><tbody><tr><td id="d48663e110">
 
 **Edit the granular roles for a user or group**
 
@@ -46,7 +46,7 @@ Description
 
 Assign or remove granular roles for users or groups, or edit granular roles so that only select users within a group have expanded or limited permissions.An example follows the table.
 
-</td></tr><tr><td id="d48510e122">
+</td></tr><tr><td id="d48663e122">
 
 **Create a new role**
 
@@ -146,7 +146,7 @@ Create a new role using one or more granular roles from the library for a specif
 
     3.  In the Role record, fill out the fields.
 
-        Create a name, select the application that contains this record, and enter a short description for your new role. For more information about the other fields on the form, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md)
+        Create a name, select the application that contains this record, and enter a short description for your new role. For more information about the other fields on the form, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateARole.md)
 
         **Note:** When creating a name for your new role, you may prefer to use a name that is easily recognized in the roles list and describes the functionality of the role. For this example, you may prefer a title such as, Compliance Auditor - GRC-VR.
 

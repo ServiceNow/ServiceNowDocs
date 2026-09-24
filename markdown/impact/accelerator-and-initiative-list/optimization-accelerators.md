@@ -3,11 +3,11 @@ title: Optimization Accelerators
 description: Optimization Accelerators provide standardized user story design documentation and configuration capabilities to accelerate platform and product adoption in customer sub-production environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/optimization-accelerators.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: concept
-last_updated: "2024-12-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [optimization accelerators, performance optimization, platform capabilities, reference]
 breadcrumb: [Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
@@ -26,7 +26,7 @@ Accelerator outputs and formats have common standardized features, but may diffe
 -   \[Omitted image "blueplus.png"\] Alt text: Blue plus sign icon = Includes additional unique accelerator-specific features
 
 |Accelerator|Guided package|Guided + Platform Optimization|Advanced package|Total package|Integrated Success|On-Demand|
-|:---------:|:------------:|:----------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
-|[Optimization Capability Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-capability-configuration.md)| |✓| |✓|✓| |
-|[Optimization Capability Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/optimization-capability-design.md)| |✓| |✓|✓| |
+|:----------|:------------:|:----------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
+|[Optimization Capability Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/optimization-capability-configuration.md)| |✓| |✓|✓| |
+|[Optimization Capability Design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/optimization-capability-design.md)| |✓| |✓|✓| |
 

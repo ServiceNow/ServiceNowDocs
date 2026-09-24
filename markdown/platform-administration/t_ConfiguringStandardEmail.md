@@ -3,9 +3,9 @@ title: Enable basic email
 description: Enable basic email to use ServiceNow - provided email servers and accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfiguringStandardEmail.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Basic email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,5 +32,5 @@ Role required: admin
     |Inbound Email Configuration|Email receiving enabled|glide.email.read.active|Yes|
 
 
-**Parent Topic:**[Basic email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_StandardEmailConfiguration.md)
+**Parent Topic:**[Basic email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_StandardEmailConfiguration.md)
 

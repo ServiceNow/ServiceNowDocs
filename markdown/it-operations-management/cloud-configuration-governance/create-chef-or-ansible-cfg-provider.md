@@ -3,11 +3,11 @@ title: Create an Ansible configuration management provider and run Discovery
 description: Create an Ansible configuration management provider, and then run Discovery on the provider to find its resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-chef-or-ansible-cfg-provider.html
-release: australia
+release: brazil
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Create an Ansible configuration management provider, and then run Discovery on t
 
 ## Before you begin
 
--   Ensure to have an Ansible server and [Ansible credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md).
+-   Ensure to have an Ansible server and [Ansible credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md).
 -   If you want to use Ansible version 3.6.x or higher, ensure to set the mid.cmp.ansible.api\_version property to V2. You can access this property under the Properties section of the Mid Server module.
 -   Role required: cloud\_admin
 
@@ -96,7 +96,7 @@ Credential
 
 </td><td>
 
-Credentials to access the Ansible server. For more information on creating credential [Ansible credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md)
+Credentials to access the Ansible server. For more information on creating credential [Ansible credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md)
 
 </td></tr><tr><td>
 
@@ -136,5 +136,5 @@ Version of the configuration provider you're creating. **Note:** For Ansible ver
 
 ## What to do next
 
-After a user provisions a resource, the Stack Status indicates how the system runs through the Create node, Bootstrap, and ExecuteConfigPackage steps. You can obtain the IP address of a virtual machine in the User Portal by navigating to **Stacks** &gt; **\{category\}** and selecting the new virtual machine. Open the configuration management provider server to see the newly provisioned resource on the node that the user specified.
+After a user provisions, the Stack, the Stack Status indicates how the system runs through the Create node, Bootstrap, and ExecuteConfigPackage steps. You can obtain the IP address of a virtual machine in the User Portal by navigating to **Stacks** &gt; **\{category\}** and selecting the new virtual machine. Open the configuration management provider server to see the newly provisioned resource on the node that the user specified.
 

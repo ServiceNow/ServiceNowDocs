@@ -3,9 +3,9 @@ title: Install the app collaboration application
 description: Install the app collaboration application so that you can view the collaboration feature in the UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/install-app-collaboration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application collaboration, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

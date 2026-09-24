@@ -3,11 +3,11 @@ title: Initiate chargeback and fill merchant response
 description: This is a part of the allocation dispute workflow for the Chargeback stage. Initiate a chargeback request for the card network issuer to credit the card holder with the card network, and await a response from the merchant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/initiate-chargeback-and-fill-merchant-responseallocation\_0.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Allocation workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -49,8 +49,8 @@ The questionnaire data from the Initiate stage is sent to Visa. The task is set 
 
 ## What to do next
 
-1.  After you initiate the chargeback for the dispute, if the acquirer is not happy, they can initiate pre arbitration. The **Incoming pre arbitration received** field is set to **Yes** or **No** and the next activity [Review and respond to a pre-arbitration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-and-respond-to-pre-arbitration.md) is displayed.
+1.  After you initiate the chargeback for the dispute, if the acquirer is not happy, they can initiate pre arbitration. The **Incoming pre arbitration received** field is set to **Yes** or **No** and the next activity [Review and respond to a pre-arbitration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/review-and-respond-to-pre-arbitration.md) is displayed.
 2.  Select **Close task**.
 
-**Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
+**Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
 

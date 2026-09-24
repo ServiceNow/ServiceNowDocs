@@ -3,11 +3,11 @@ title: Subscribe users to a service offering in Service Portfolio Management
 description: Subscribe users to a service offering so they can order it from the catalog. You can also subscribe offerings for companies, locations, groups, and departments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-subscribe-to-service-offering.html
-release: australia
+release: brazil
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service offerings in Service Portfolio Management, Use, Service Portfolio Management, IT Service Management]
 ---
@@ -43,5 +43,5 @@ The base system counts the number of subscribers per offering and per service. I
 5.  Select **Save**.
 
 
-**Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
+**Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
 

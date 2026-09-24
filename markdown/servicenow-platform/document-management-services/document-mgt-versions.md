@@ -3,11 +3,11 @@ title: Document versions
 description: In the ServiceNow Document Management application, documents display as versions in the record. You view these versions as a related list within the document record. A document can have many versions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/document-mgt-versions.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Document repository, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,12 +37,12 @@ Document owners have the option to:
 
 For multiple document versions, the latest reviewed and approved version gets published and the previous versions are retired.
 
--   **[Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-doc-version.md)**  
+-   **[Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/create-doc-version.md)**  
 Create a document version for each document.
--   **[Compare document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/compare-document-version.md)**  
+-   **[Compare document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/compare-document-version.md)**  
 Document version comparison enables you to view differences between two versions of a document, highlighting changes such as added, removed, or modified content.
 
-**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
+**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
 **Related topics**  
 

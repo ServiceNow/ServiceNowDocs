@@ -3,11 +3,11 @@ title: Compare pattern versions
 description: If you have multiple versions of the same pattern, you can compare them to decide which pattern version to use for discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/compare-pattern-versions.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Choose the pattern version, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -64,5 +64,5 @@ Service Mapping and Discovery use patterns in their discovery process. Every tim
 11. If you copied any steps from the previous version and want to save the change, click **Save Merge**.
 
 
-**Parent Topic:**[Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md)
+**Parent Topic:**[Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md)
 

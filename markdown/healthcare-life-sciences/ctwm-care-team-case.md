@@ -3,9 +3,9 @@ title: Care team cases and tasks
 description: Care team cases group related operational work for a care team, while care team tasks represent the individual, actionable steps that users complete to fulfill that work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-care-team-case.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---

@@ -3,11 +3,11 @@ title: Alerts in Service Operations Workspace
 description: The Service Operations Workspace interface displays an alerts list and details on specific alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-alert-workspace-itom.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -78,4 +78,5 @@ Displays lists of records linked to the alert, grouped into categories: events, 
 \[Omitted image "em-related-record-preview-azure-issue.png"\] Alt text: Azure monitor issue alert
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Express List reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/express-list-reference.md)
+

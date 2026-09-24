@@ -3,9 +3,9 @@ title: Customize threshold colors
 description: Customize the available threshold colors by enabling inactive colors in the Color dictionary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/customize-threshold-colors.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -43,5 +43,5 @@ The Color dictionary includes multiple color options. By default, Amber, Red, an
 
 The selected colors are now available in the **Color** field when creating thresholds for a metric.
 
-**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-grc-metrics.md)
 

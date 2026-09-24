@@ -3,9 +3,9 @@ title: Enhanced address data model for accounts
 description: Define addresses once and reuse them within an account hierarchy, or across account hierarchies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-enable-enhanced-address-data-model.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -21,11 +21,11 @@ The enhanced address data model maintains the relationship between accounts and 
 **Related topics**  
 
 
-[Account Address table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/account-address-table.md)
+[Account Address table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/account-address-table.md)
 
-[Enable enhanced address model for accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-enhanced-address-model.md)
+[Enable enhanced address model for accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-enhanced-address-model.md)
 
-[Associate an address to an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-address-account.md)
+[Associate an address to an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-address-account.md)
 
-[Reusing addresses between multiple accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/reuse-account-addresses.md)
+[Reusing addresses between multiple accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/reuse-account-addresses.md)
 

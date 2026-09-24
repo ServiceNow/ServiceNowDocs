@@ -3,9 +3,9 @@ title: Optimizing Scheduling and Dispatching operations
 description: Explore how dispatchers manage scheduling and dispatching operations to verify tasks are assigned efficiently to field service agents, maximizing resource use and customer satisfaction. Discover the mechanisms behind effective task allocation, verifying that the right task goes to the right agent at the right time for smooth service delivery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/optimizing-scheduling-and-dispatching-operations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -31,7 +31,7 @@ The goal of scheduling is to verify that the right task is assigned to the right
 
     -   Route Optimization reorders tasks post-assignment to minimize driving time.
 -   Automatic: Dynamic scheduling, Schedule Optimization, and Intraday Optimization.
-    -   Dynamic Scheduling auto-assigns incoming tasks based on predefined conditions like skillset or location. This method utilizes predefined rules to assign tasks and is efficient for medium-scale operations, focusing on immediate, individual task assignments. It’s also ideal for tasks with well-defined requirements, such as routine maintenance tasks for a fleet of rental cars. Automatic scheduling can also be triggered from an event, such as when a tech schedules non-available time, tasks are automatically removed and rescheduled. This may be used during vacations or unexpected sick leaves.
+    -   Dynamic Scheduling auto-assigns incoming tasks based on predefined conditions like skillset or location. This method utilizes predefined rules to assign tasks and is efficient for medium-scale operations, focusing on immediate, individual task assignments. It's also ideal for tasks with well-defined requirements, such as routine maintenance tasks for a fleet of rental cars. Automatic scheduling can also be triggered from an event, such as when a tech schedules non-available time, tasks are automatically removed and rescheduled. This may be used during vacations or unexpected sick leaves.
     -   Schedule Optimization: Schedule Optimization enables you to optimize task scheduling, auto-assign tasks, and adapt to changing conditions. By applying policies, you can create the best possible schedule that maximizes task management and minimizes travel time. For example, a cleaning service plans its week ahead for multiple clients. Intraday Optimization reoptimizes schedules in real-time based on changing conditions. Useful when tasks are canceled, delayed, or new tasks come in. For example: a cable service provider deals with last-minute cancellations and new installations.
     -   Intraday Optimization reorganizes schedules in real-time based on changing conditions. It is useful when tasks are canceled, delayed, or new tasks come in. For example, a cable service provider deals with last-minute cancellations and new installations.
 
@@ -79,5 +79,5 @@ Field Service Management provides different types of maps. These maps help field
 **Related topics**  
 
 
-[Setting up a Field Service scheduling method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/setting-up-scheduling-methods.md)
+[Setting up a Field Service scheduling method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/setting-up-scheduling-methods.md)
 

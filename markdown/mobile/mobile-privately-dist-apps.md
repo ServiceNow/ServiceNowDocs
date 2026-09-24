@@ -3,9 +3,9 @@ title: Privately distributed apps
 description: Private or enterprise distribution can be used to distribute Android and iOS branded applications. Private distribution includes all means of distributing apps outside of public app stores.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-privately-dist-apps.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Distribution, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -40,5 +40,5 @@ The following image explains the workflow for privately distributing an app. It 
 
 \[Omitted image "mobile-android-branded-app-process.png"\] Alt text: Private publishing process for Android branded apps
 
-**Parent Topic:**[Distributing your mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-distribution.md)
+**Parent Topic:**[Distributing your mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-distribution.md)
 

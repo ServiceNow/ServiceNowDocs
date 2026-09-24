@@ -3,11 +3,11 @@ title: OT Asset Workspace roles
 description: The following roles help you to manage the OT Asset Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/ot-workspace-roles.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
@@ -21,7 +21,7 @@ Access to the OT Asset Workspace depends on the role assigned to you.
 -   OT asset manager \[sn\_otam.ot\_asset\_manager\]: Provides full access to the OT Asset Workspace.
 -   OT asset technician \[sn\_otam.ot\_asset\_technician\]: Provides limited access to the OT Asset Workspace.
 
-**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 

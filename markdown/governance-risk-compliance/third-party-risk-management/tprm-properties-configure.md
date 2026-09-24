@@ -3,12 +3,12 @@ title: Configure TPRM properties
 description: Configure property settings for a variety of TPRM operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -49,6 +49,8 @@ You can specify the following property settings:
     -   Enter `answer` to enable TPR assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\] to answer questions or modify responses \(default\).
     -   Enter `edit` to enable TPR assessors to modify responses.
     -   Enter `false` to not enable TPR assessors to answer questions or modify responses.
+    **Important:** This property applies only to Classic assessments. If Smart Assessment Engine \(SAE\) is enabled \[`sn_vdr_risk_asmt.sae_enabled`\], this property has no effect, and external assessment responses remain read-only for TPR assessors and TPR managers regardless of this setting. To edit responses for an external SAE assessment, TPR assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\] and TPR managers \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] can use the assessment reassign \[sn\_smart\_asmt.reassign\] role, which is available to both roles by default, to reassign the in-progress assessment to themselves during the review process. Once reassigned, they are granted edit access to the responses. For more information, see [Smart assessments with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-sae-using.md).
+
 -   **Smart Assessment Engine enabled \[`sn_vdr_risk_asmt.sae_enabled`\]**
 
     The option to use Smart Assessment Engine or Assessment Engine.

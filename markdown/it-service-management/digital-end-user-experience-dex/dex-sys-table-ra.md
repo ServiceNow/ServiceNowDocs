@@ -3,13 +3,13 @@ title: DEX system tables for remedial actions
 description: Definitions for any remedial action are predetermined based on the rules and criteria that store configuration settings for remedial actions. Each execution of the remedial action is maintained in the DEX tables to track the progress of remedial action executions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-sys-table-ra.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
 # DEX system tables for remedial actions
@@ -49,7 +49,7 @@ Maps the relationship between tracking and actual execution.
 |dex\_remedial\_action\_execution|Links to UI execution record|
 |remedial\_action\_execution|Links to actual execution record|
 
-**Note:** For more information on the base system remedial actions, see [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
+**Note:** For more information on the base system remedial actions, see [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-diff-ra.md).
 
-**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-remedial-actions.md)
+**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
 

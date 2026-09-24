@@ -3,9 +3,9 @@ title: Configure tags for the Activity stream
 description: Configure custom tags to filter through entries in the Activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tags-activity-stream-admin.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activity stream, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -30,7 +30,7 @@ Tags enable you to filter entries in the Activity stream by dynamic and static s
 
 1.  Open your Configurable Workspace experience in UI Builder.
 
-    For instructions, see [Open experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md).
+    For instructions, see [Open experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md).
 
 2.  Select a page from your experience.
 

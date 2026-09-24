@@ -3,9 +3,9 @@ title: Roles and tables installed with AI Data Explorer
 description: Reference information for roles and tables installed when you activate AI Data Explorer. Use this information to understand permissions and metadata storage for explorations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/tables-now-assist-explorer.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [roles, tables, permissions, explorations, AI canvas, notebook, now assist explorer, semantic data layer, workspaces, metadata]
 audience: administrator
@@ -50,7 +50,7 @@ now\_assist\_explorer\_admin
 
 </td><td>
 
-Can access and manage all explorations on the instance. Can control the visibility of AI Data Explorer in workspaces. Can view logs and manage tables in the semantic data layer \(inherited from sn\_query\_gen\_admin\). For more information, see [Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation-logs.md) and [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
+Can access and manage all explorations on the instance. Can control the visibility of AI Data Explorer in workspaces. Can view logs and manage tables in the semantic data layer \(inherited from sn\_query\_gen\_admin\). For more information, see [Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/query-generation-logs.md) and [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-table-semantic-layer.md).
 
 </td><td>
 
@@ -130,5 +130,5 @@ PAAI Canvas Workspace Config\[paai\_canvas\_workspace\_config\]
 Workspaces/experiences for which links from data visualizations to AI Data Explorer are turned off.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Data Explorer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/aide-reference.md)
+</table>**Parent Topic:**[AI Data Explorer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/aide-reference.md)
 

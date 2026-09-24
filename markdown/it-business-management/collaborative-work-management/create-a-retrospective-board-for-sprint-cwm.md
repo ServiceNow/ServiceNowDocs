@@ -3,11 +3,11 @@ title: Create a retrospective board for a sprint in CWM
 description: When marking a sprint complete, choose to create a sprint retrospective board for your team to collaborate and reflect on the recent sprint in Collaborative Work Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-a-retrospective-board-for-sprint-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Plan sprints, Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -42,7 +42,7 @@ Role required: sn\_cwm.cwm\_user
 
 9.  Select a template to apply to this Board.
 
-    By default, the Agile Retrospective template is applied. If you want to create a different template depending on your requirements, see [Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md).
+    By default, the Agile Retrospective template is applied. If you want to create a different template depending on your requirements, see [Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md).
 
     \[Omitted image "cwm-sprint-retro-board-create.png"\] Alt text: Choose a template to create a retro board for this sprint.
 
@@ -53,5 +53,5 @@ Role required: sn\_cwm.cwm\_user
 
 A new retrospective Board is created for the sprint that is just marked complete within the same Space. You can navigate to the new board from the success message or from the left navigation panel.\[Omitted image "cwm-sprint-retro-sample-board.png"\] Alt text: Sample retro board for a sprint.
 
-**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
+**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 

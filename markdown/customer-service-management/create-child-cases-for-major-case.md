@@ -3,9 +3,9 @@ title: Create child cases for a major case
 description: Users with the customer service manager role can create a child case for each of the customers included in the major case recipients list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-child-cases-for-major-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Major issue management overview, Manage cases, Use, Customer Service Management]
 ---
@@ -20,9 +20,9 @@ Role required: sn\_majorissue\_mgt.major\_issue\_manager, sn\_customerservice\_m
 
 ## About this task
 
-The **Create Child Cases** button on the Major Case form creates a child case for each account or consumer in the recipients list selected in the **Affected Customers** field. If a child case for an account or consumer exists, the system doesn’t create a duplicate child case.
+The **Create Child Cases** button on the Major Case form creates a child case for each account, consumer or business organizations in the recipients list selected in the **Affected Customers** field. If a child case for an account, consumer or business organization exists, the system doesn’t create a duplicate child case.
 
-**Note:** Use caution when selecting the recipients list for a major case. Selecting the wrong recipients list can have a serious impact by creating a large number of cases for incorrect accounts or consumers. Verify that you have selected the correct recipients list before selecting **Create Child Cases**.
+**Note:** Use caution when selecting the recipients list for a major case. Selecting the wrong recipients list can have a serious impact by creating a large number of cases for incorrect accounts, consumers, or business organizations. Verify that you have selected the correct recipients list before selecting **Create Child Cases**.
 
 You can also create child cases for a major case from Agent Workspace.
 
@@ -52,5 +52,5 @@ Creating child cases copies information from the major case to each of the child
 **Related topics**  
 
 
-[Recipients lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-recipient-lists.md)
+[Recipients lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/major-issue-recipient-lists.md)
 

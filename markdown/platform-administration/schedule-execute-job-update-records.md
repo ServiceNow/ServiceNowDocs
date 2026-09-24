@@ -3,9 +3,9 @@ title: Schedule or execute a job to update records
 description: Schedule a date and time to execute an update job or execute the job immediately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/schedule-execute-job-update-records.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Updating records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,15 +30,15 @@ Consider scheduling the update job to run during non-business hours to minimize 
 
 3.  Determine whether to schedule the update job for a later time or run it right away.
 
-<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d266809e88">
+<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d265486e88">
 
 Option
 
-</th><th align="left" id="d266809e91">
+</th><th align="left" id="d265486e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d266809e97">
+</th></tr></thead><tbody><tr><td id="d265486e97">
 
 **Schedule the update job**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Update**. Note that you must select **Update** to successfully schedule the job.
 
 
-</td></tr><tr><td id="d266809e127">
+</td></tr><tr><td id="d265486e127">
 
 **Run the update job now**
 
@@ -65,7 +65,7 @@ Description
 </table>
 ## Result
 
-The records are scheduled for update or updated immediately. If you want to revert the updates to the records, see [Rollback an update job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/rollback-update-job.md).
+The records are scheduled for update or updated immediately. If you want to revert the updates to the records, see [Rollback an update job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/rollback-update-job.md).
 
-**Parent Topic:**[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/updating-records-safely.md)
+**Parent Topic:**[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/updating-records-safely.md)
 

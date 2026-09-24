@@ -3,9 +3,9 @@ title: Telecommunications Service Operations Management
 description: Learn how Telecommunications Service Operations Management \(TSOM\) empowers communication service providers \(CSPs\) to proactively monitor, analyze, and resolve network and service issues before they impact customers. Built on the ServiceNow AI Platform, TSOM delivers a unified operations view across distributed, multi-domain telecom environments, helping teams improve service availability, operational efficiency, and customer satisfaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/telecommunications-service-operations-management.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -18,25 +18,25 @@ Learn how Telecommunications Service Operations Management \(TSOM\) empowers com
 
 <table id="table_acr_hnj_wfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how telecom service providers use Telecommunications Service Operations Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/exploring-tsom.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how telecom service providers use Telecommunications Service Operations Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/exploring-tsom.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your Telecommunications Service Operations Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/configuring-tsom.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your Telecommunications Service Operations Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/configuring-tsom.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Telecommunications Service Operations Management to track comprehensive telecom service operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/using-tsom.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Telecommunications Service Operations Management to track comprehensive telecom service operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/using-tsom.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get Telecommunications Service Operations Management reference information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/components-installed-with-tsom.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get Telecommunications Service Operations Management reference information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/components-installed-with-tsom.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/telecommunications-service-operations-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/telecommunications-service-operations-management-rn.md).
--   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://www.servicenow.com/docs/access?context=tmt-api-reference&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/telecommunications-service-operations-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/telecommunications-service-operations-management-rn.md).
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://www.servicenow.com/docs/access?context=tmt-api-reference&version=latest&pubname=latest-telecom-media-technology&ft:locale=en-US).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Telecommunications Service Operations Management features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/telecommunications-service-management/what-is-servicenow-telecommunications?id=learning_course_prev&course_id=34950e3d53e00b58c2245a01a0490e6d&s=1&ssa=3).
 -   Find useful resources related to your role and explore general guidelines at [ServiceNow Impact](https://www.servicenow.com/success.html).

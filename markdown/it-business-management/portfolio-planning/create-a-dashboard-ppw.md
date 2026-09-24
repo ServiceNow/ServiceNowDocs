@@ -3,11 +3,11 @@ title: Create or manage a dashboard
 description: In the Platform Analytics experience, you can create, duplicate, share, and export dashboards with data visualizations, filters, and other elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-a-dashboard-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Monitor and track demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ The inline editor provides elements for adding widgets, filters, and visualizati
 
 4.  Create, duplicate, share, or export the dashboard.
 
-<table id="choicetable_efx_dxn_bkc"><thead><tr><th align="left" id="d172544e98">
+<table id="choicetable_efx_dxn_bkc"><thead><tr><th align="left" id="d172961e98">
 
 Goal
 
-</th><th align="left" id="d172544e101">
+</th><th align="left" id="d172961e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d172544e107">
+</th></tr></thead><tbody><tr><td id="d172961e107">
 
 **Create a dashboard**
 
@@ -56,7 +56,7 @@ Action
     4.  Select **Create new dashboard**.
 
 
-</td></tr><tr><td id="d172544e151">
+</td></tr><tr><td id="d172961e151">
 
 **Duplicate a dashboard**
 
@@ -69,7 +69,7 @@ Action
 3.  Select **Duplicate**.
  The dashboard may take time to duplicate. Select **Continue in background** to keep using the application in the meantime.
 
-</td></tr><tr><td id="d172544e201">
+</td></tr><tr><td id="d172961e201">
 
 **Share a dashboard**
 
@@ -91,7 +91,7 @@ To manage sharing permissions, select a user, group, or role and enable the **Ca
 3.  Select **Confirm**.
  To update sharing rights, open the Share Dashboard dialog. Under the **Can view** or **Can share** list, select a user, group, or role and adjust permissions.
 
-</td></tr><tr><td id="d172544e272">
+</td></tr><tr><td id="d172961e272">
 
 **Export a dashboard**
 

@@ -3,11 +3,11 @@ title: Create spoke and build actions using the spoke generation skill in Servic
 description: Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-spk-now-spk-gen.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ Automate an integration and generate reusable actions by providing the required 
 
 ## Before you begin
 
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Role required: admin
 -   Create the required action categories for your integration in the Action Category \[sys\_hub\_category\] table.
@@ -65,7 +65,7 @@ Automate an integration and generate reusable actions by providing the required 
 
 6.  Select **With AI** and click **Continue** to generate reusable actions by providing the required third-party API documentation snippet.
 
-    \[Omitted image "now-assist-spk-gen2.png"\] Alt text: Create spoke using Now Assist.
+    \[Omitted image "now-assist-spk-gen2.png"\] Alt text: Create spoke using AI.
 
 7.  On the Generate action screen, paste the required content from the API documentation in **AI Context**.
 

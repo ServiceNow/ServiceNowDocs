@@ -3,11 +3,11 @@ title: Status report form
 description: Learn about the fields on the status report form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/status-report-form-project-management.html
-release: australia
+release: brazil
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -58,8 +58,10 @@ Learn about the fields on the status report form.
 |Scope|Color to signify the status of the scope-related information of the project in the report.|
 |Comments on Scope|Comments related to the project scope.|
 
+**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/form-field-information-for-project-management.md)
+
 **Related topics**  
 
 
-[Create a project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectStatusReport.md)
+[Create a project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProjectStatusReport.md)
 

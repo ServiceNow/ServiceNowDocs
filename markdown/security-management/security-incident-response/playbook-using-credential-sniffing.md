@@ -3,11 +3,11 @@ title: Use the Credential Sniffing playbook
 description: Use this playbook to investigate an incident involving credential sniffing activities performed through the sys\_installation\_exit table in a ServiceNow instance. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Credential Sniffing playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-credential-sniffing.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for Credential Sniffing, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -64,5 +64,5 @@ Role required:
 5.  In Action 11, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Credential Sniffing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-credential-sniffing.md)
+**Parent Topic:**[Playbook for Credential Sniffing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/playbook-credential-sniffing.md)
 

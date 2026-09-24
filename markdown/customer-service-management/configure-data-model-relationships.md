@@ -3,9 +3,9 @@ title: Create relationships
 description: Use relationships to provide internal and external users with additional access to customer data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-data-model-relationships.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -18,7 +18,7 @@ Use relationships to provide internal and external users with additional access 
 
 Role required: admin
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 ## About this task
 
@@ -110,7 +110,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 2.  Select the desired relationship.
 
-<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d117262e275">
+<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d119910e275">
 
 **Account Team Members**
 
@@ -118,7 +118,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 Create a relationship between an internal user and an account.
 
-</td></tr><tr><td id="d117262e284">
+</td></tr><tr><td id="d119910e284">
 
 **Consumer Team Members**
 
@@ -126,7 +126,7 @@ Create a relationship between an internal user and an account.
 
 Create a relationship between an internal user and a consumer.
 
-</td></tr><tr><td id="d117262e293">
+</td></tr><tr><td id="d119910e293">
 
 **Household Team Members**
 
@@ -134,7 +134,7 @@ Create a relationship between an internal user and a consumer.
 
 Create a relationship between an internal user and a household.
 
-</td></tr><tr><td id="d117262e302">
+</td></tr><tr><td id="d119910e302">
 
 **Consumer Relationships**
 
@@ -142,7 +142,7 @@ Create a relationship between an internal user and a household.
 
 Create a relationship between two consumers, regardless of household.
 
-</td></tr><tr><td id="d117262e311">
+</td></tr><tr><td id="d119910e311">
 
 **Household Relationships**
 
@@ -243,7 +243,7 @@ Household Member Relationship
 **Related topics**  
 
 
-[Service Model Foundation responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-responsibilities.md)
+[Service Model Foundation responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-model-responsibilities.md)
 
-[Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md)
+[Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md)
 

@@ -3,11 +3,11 @@ title: Link an event to another page
 description: Add a link to the destination event handler within UI Builder so that an event action can open another page. You can also configure the event handler to follow the App Route to the desired page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/link-component-destination.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Bind an event to a data resource, Bind events to add actions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -26,7 +26,7 @@ Role required: ui\_builder\_admin
 
 To configure an event action to open another page, you must know what page you want to open, what the required and optional parameters are for that page, and what payload values to set on the event handler to pass the required parameters to the destination page.
 
-**Tip:** You may be able to find examples of both the components that you want to link from and the destination pages that you want to link to in the Base Agent Workspace Experience. This Next Experience is provided in the base system. If you create a page from a page template, you should only copy the contents of the template. Do not reference it. For more information about the difference between copying and referencing a page template, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md).
+**Tip:** You may be able to find examples of both the components that you want to link from and the destination pages that you want to link to in the Base Agent Workspace Experience. This Next Experience is provided in the base system. If you create a page from a page template, you should only copy the contents of the template. Do not reference it. For more information about the difference between copying and referencing a page template, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/reuse-page-definitions.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ To configure an event action to open another page, you must know what page you w
 
 2.  If the destination page doesn't exist in your experience, create one.
 
-    For information about creating pages, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md). Make sure that you set the required and optional parameters for the page so that you can use it as a destination. If a particular component in the page is a destination, you must include that component. You also must configure the properties on the component to consume the page parameters with `@context.props.<parameter-name>` values.
+    For information about creating pages, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/create-page.md). Make sure that you set the required and optional parameters for the page so that you can use it as a destination. If a particular component in the page is a destination, you must include that component. You also must configure the properties on the component to consume the page parameters with `@context.props.<parameter-name>` values.
 
     You might consider creating the page from a page template. The Base Agent Workspace Experience has several page templates that are already configured to be destinations for other components. If you create a destination page from a template, the components are already configured with the correct properties. Any necessary state parameters or client scripts are also copied over. You have to add the page parameters. You can copy these parameters from the UX App Routes related list on the Agent app config \[sys\_ux\_app\_config\] record of the experience that contains the page templates.
 
@@ -112,5 +112,5 @@ Now, you return to the Analytics Center page. In the **Report Visualization Clic
 
 After you click **OK** and add `@payload.listTitle` as the **Title**, the event handler is done. You can now delete the**Link to destination Relay** event handler for this event.
 
-**Parent Topic:**[Bind an event to a data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-data-resource.md)
+**Parent Topic:**[Bind an event to a data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/bind-event-data-resource.md)
 

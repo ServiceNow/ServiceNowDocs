@@ -3,11 +3,11 @@ title: Similarity solutions
 description: Similarity solutions enable you to use Machine Learning \(ML\) to compare the text in a resolved alert record to an open alert record to reuse its resolution approach.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/word-collection-similarity-solution.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Alert similarity, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Similarity solutions enable you to use Machine Learning \(ML\) to compare the te
 
 ## Training a similarity solution
 
-To train a similarity solution, you collect words to compile a collection. Machine Learning \(ML\) uses the collection to compare text in the **Short Description**, **Description**, **Source**, **Type**, **Resource**, and **Metric Name** fields in a resolved alert. ML checks whether the words in the set match words in an open alert. The resolved alert, which is similar to an open alert, provides an example to show how the open alert can be resolved.
+To train a similarity solution, you collect words to compile a collection that Machine Learning \(ML\) can use to compare text in alert fields. ML compares text in the **Short Description**, **Description**, **Source**, **Type**, **Resource**, and **Metric Name** fields in a resolved alert to see whether the words match words in an open alert. The resolved alert provides an example to show how the open alert can be resolved.
 
 To train a solution, the filter must return at least one record. If your filter returns no records, update it.
 
@@ -28,7 +28,7 @@ To train a solution, the filter must return at least one record. If your filter 
 -   Do not use hard-coded dates as filters because these filters are not updated when you retrain solutions unless you update them manually before every retraining. Instead, use relative date filters, for example, the last 3 months, last 6 months, or last 12 months.
 -   Perform training as needed until it provides an acceptable similarity solution. This practice provides you time to review and update your solution definition.
 
-For more information on similarity solution concept, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-similarity-solution.md).
+For more information on similarity solution concept, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-similarity-solution.md).
 
 ## Fields to include in the solution
 
@@ -48,7 +48,7 @@ Review similarity examples and their scores using the **Show training progress**
 
 Training times vary based on the number of records and classes within the training set. The more records and classes you use, the longer the training can take. For example, a data set containing 100,000 records and several hundred classes can take around five hours to complete.
 
-To show the training solution progress, the ML solution automatically performs the following activities when you select **Show training progress** on the Solutions page. For more information, see [View solution training progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/view-training-progress.md).
+To show the training solution progress, the ML solution automatically performs the following activities when you select **Show training progress** on the Solutions page. For more information, see [View solution training progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/view-training-progress.md).
 
 |Activity|Description|
 |--------|-----------|
@@ -57,5 +57,5 @@ To show the training solution progress, the ML solution automatically performs t
 |Training the solution.|The training service trains the solution.|
 |Uploading the trained solution.|The training service uploads the solution as attachment records.|
 
-**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-similarity.md)
 

@@ -3,9 +3,9 @@ title: View runtime logs for collector runs
 description: Access execution logs and download detailed log files for metadata collector runs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-runtime-logs-for-collector-runs.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Running metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -109,5 +109,5 @@ Raw collected metadata in N-Triples RDF format containing: -   Collector executi
 
 Use the logs to identify collection issues, verify data asset discovery, and troubleshoot failed runs. Focus on Warning and Error level messages for troubleshooting. Download detailed log files when you need to share diagnostic information with support or perform deep analysis of collection behavior.
 
-**Parent Topic:**[Running metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-metadata-collectors-dc.md)
+**Parent Topic:**[Running metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/run-metadata-collectors-dc.md)
 

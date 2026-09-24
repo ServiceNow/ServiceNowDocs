@@ -3,11 +3,11 @@ title: Customize tabs in the contextual side panel for a playbook page
 description: Add customized tabs in the contextual side panel. Agents can use these tabs to view case information, add attachments, view recommendations, and perform other case-related actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customize-process-tabs-in-side-panel.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure templates and pages, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customize tabs in the contextual side panel for a playbook page
@@ -26,7 +26,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 3.  Select the desired page collection.
 
-    A [page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/page-collections.md) is a group of pages that you can use in multiple experiences.
+    A [page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/page-collections.md) is a group of pages that you can use in multiple experiences.
 
 4.  In the Pages and variants section, select the Create new page icon \(**+**\) to create a new page or add a variant to a page.
 
@@ -50,11 +50,11 @@ The added component gets displayed on the UI. The location depends on where you 
 **Related topics**  
 
 
-[Configure tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-side-panel-tabs.md)
+[Hide tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-ws-side-panel-tabs.md)
 
-[Customize a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-custom-record-page.md)
+[Customize a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-ws-custom-record-page.md)
 
-[Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md)
+[Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-ws-set-record-page-order.md)
 
-[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md)
+[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-components.md)
 

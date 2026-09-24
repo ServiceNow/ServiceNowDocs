@@ -3,9 +3,9 @@ title: Configuring Data Management
 description: Set up and configure Data Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/configuring-data-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
@@ -17,10 +17,12 @@ Set up and configure Data Management.
 
 ## Configuration overview
 
-Data Management is a ServiceNow AI Platform capability that is active by default. You can take advantage of object storage for archive records and attachments by upgrading to RaptorDB Professional V2 and installing Live Archive.
+Data Management is a ServiceNow AI Platform capability that is active by default. You can take advantage of columnar storage for archive records and attachments by upgrading to RaptorDB Professional V2 and installing additional plugins.
 
--   **[Install Live Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-data-archiving-plugin.md)**  
-Install Live Archive to archive data in object storage.
+-   **[Activate columnar storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/activate-columnar-storage.md)**  
+You can activate the Data Archiving – Columnar Storage \(com.glide.db.columnar.archive\) plugin for Data Management if you have the admin role.
+-   **[Activate migration of attachments to columnar storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/activate-columnar-attachments-migration.md)**  
+You can activate the Data Management Columnar Attachments Migration plugin \(com.glide.data\_management.columnar\_attachments\) for Data Management if you have the admin role.
 
-**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataManagement.md)
+**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DataManagement.md)
 

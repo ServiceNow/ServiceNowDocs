@@ -3,9 +3,9 @@ title: Recommendations in Recommended Actions
 description: A recommendation is a way to suggest a helpful action to an agent. A recommendation includes the action and any relevant resources and inputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-recommendations.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -37,7 +37,7 @@ When you create a recommendation, you select an action type and an action. The n
 
 When you create a recommendation, provide this information and save the record. After saving, you can see the Action inputs form section. Inputs are parameters that go into an action and enable agents to complete that action. You can select relevant inputs manually, from the context record, context inputs,or from the resource generator.
 
-You can access the recommendation records by navigating to **All** &gt; **Recommended Actions** &gt; **Recommendations**. New recommendations can be created only inside the rules. For more information, see [Create a recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-recommendations-create.md).
+You can access the recommendation records by navigating to **All** &gt; **Recommended Actions** &gt; **Recommendations**. New recommendations can be created only inside the rules. For more information, see [Create a recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-recommendations-create.md).
 
 <table id="table_ic2_qzz_ztb"><thead><tr><th>
 

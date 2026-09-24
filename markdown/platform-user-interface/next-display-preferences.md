@@ -3,9 +3,9 @@ title: Configure Next Experience display preferences
 description: Configure Next Experience display preferences to achieve the UI that works best for you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-display-preferences.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [display preference, customize display]
 breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]

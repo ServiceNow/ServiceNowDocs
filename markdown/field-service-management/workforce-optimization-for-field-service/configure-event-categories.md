@@ -3,11 +3,11 @@ title: Configure event categories
 description: Configure field settings for event categories. You can create or update field configurations for events and specify if an event category should be excluded from shift coverage calculations for agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/configure-event-categories.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up scheduling, Workforce Optimization, Set up workforce, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Configure field settings for event categories. You can create or update field co
 
 ## Before you begin
 
-**Important:** To access the next generation of the Workforce Optimization for Field Service application, transition to the Workforce Optimization for Field Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Field Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md). For more information see, [Configuring Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-wfo-fsm.md).
+**Important:** To access the next generation of the Workforce Optimization for Field Service application, transition to the Workforce Optimization for Field Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Field Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md). For more information see, [Configuring Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/configuring-wfo-fsm.md).
 
 Role required: sn\_shift\_planning.admin
 

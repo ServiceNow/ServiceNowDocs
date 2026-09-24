@@ -3,9 +3,9 @@ title: AI skills in Agentic Contact Center for Insurance
 description: AI skills in Agentic Contact Center for Insurance generate real-time customer summaries and interaction context for insurance customer service representatives. These skills consolidate customer identity, policy portfolio, and call context into actionable overviews that eliminate manual data searches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/ai-skills-agentic-contact-center-insurance.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -45,7 +45,7 @@ The generated context summary displays in the **Relevant details for this call**
 **Related topics**  
 
 
-[Configure insurance customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-customer-profile-summarization.md)
+[Configure insurance customer profile summarization in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-insurance-customer-profile-summarization.md)
 
-[Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md)
+[Configure insurance customer interaction context summary skill in ServiceNow Otto for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-insurance-interaction-summary-skill.md)
 

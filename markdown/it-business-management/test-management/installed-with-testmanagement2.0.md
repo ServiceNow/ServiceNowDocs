@@ -3,11 +3,11 @@ title: Installed with Test Management 2.0
 description: Several types of components are installed with activation of the Test Management 2.0 plugin \(com.snc.sdlc.test\_management\), including tables, and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/installed-with-testmanagement2.0.html
-release: australia
+release: brazil
 product: Test Management
 classification: test-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---

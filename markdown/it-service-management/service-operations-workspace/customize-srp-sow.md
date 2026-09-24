@@ -3,11 +3,11 @@ title: Add declarative actions on the standard record page
 description: Add declarative actions on the Incident page and its tabs Service Operations Workspace using the Standard Record Page \(SRP\) to customize list actions, related list actions, and field decorators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-srp-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Standard Record Page in Service Operations Workspace, Configuring record pages in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use this procedure to customize UX Add-on Event Mappings for the incident form. To view or update an existing incident, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md). For more information about creating declarative actions and how to use them, see [Declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migration-form-declarative-actions.md).
+Use this procedure to customize UX Add-on Event Mappings for the incident form. To view or update an existing incident, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md). For more information about creating declarative actions and how to use them, see [Declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/migration-form-declarative-actions.md).
 
 Along with the declarative actions customizations, the SRP or Standard Record Page also modifies the add-on events in the Incident records and the tabs inside the records.
 
@@ -51,5 +51,5 @@ Along with the declarative actions customizations, the SRP or Standard Record Pa
     |Target Payload Mapping|The binding of the container and the type of the event|
 
 
-**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)
+**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)
 

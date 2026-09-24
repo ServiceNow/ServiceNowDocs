@@ -3,9 +3,9 @@ title: Form designer for building attended automation forms
 description: Form designer is an Integrated Development Environment \(IDE\) for building attended automation forms in RPA Desktop Design Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/form-designer-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create an attended automation form in RPA Desktop Design Studio, Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -47,7 +47,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-button.md)
+[Button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-button.md)
 
 </td><td>
 
@@ -55,7 +55,7 @@ Helps you to add one or more buttons on the form. Enables the user to click it t
 
 </td></tr><tr><td>
 
-[TextBlock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-textblock.md)
+[TextBlock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-textblock.md)
 
 </td><td>
 
@@ -63,7 +63,7 @@ Helps you to add a label on the form. Enables the user to view a text block as r
 
 </td></tr><tr><td>
 
-[TextBox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-textbox.md)
+[TextBox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-textbox.md)
 
 </td><td>
 
@@ -71,7 +71,7 @@ Helps you to add a text box to the form. Enables the user to provide information
 
 </td></tr><tr><td>
 
-[Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-date.md)
+[Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-date.md)
 
 </td><td>
 
@@ -79,7 +79,7 @@ Helps you to provide a date picker on the form. Enables the user to select a spe
 
 </td></tr><tr><td>
 
-[Time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-time.md)
+[Time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-time.md)
 
 </td><td>
 
@@ -87,7 +87,7 @@ Helps you to provide a time picker on the form. Enables the user to select a spe
 
 </td></tr><tr><td>
 
-[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-datetime.md)
+[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-datetime.md)
 
 </td><td>
 
@@ -95,7 +95,7 @@ Helps you to provide a date and time picker on the form. Enables the user to sel
 
 </td></tr><tr><td>
 
-[CheckBox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-checkbox.md)
+[CheckBox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-checkbox.md)
 
 </td><td>
 
@@ -103,7 +103,7 @@ Helps you to present yes, no, true, or false selections.You can also use the che
 
 </td></tr><tr><td>
 
-[RadioButton](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-radiobutton.md)
+[RadioButton](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-radiobutton.md)
 
 </td><td>
 
@@ -111,7 +111,7 @@ Enables you to select a choice from the group of choices.
 
 </td></tr><tr><td>
 
-[ComboBox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-combobox.md)
+[ComboBox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-combobox.md)
 
 </td><td>
 
@@ -123,7 +123,7 @@ Displays the data in a drop-down combination box. By default, the ComboBox eleme
 
 </td></tr><tr><td>
 
-[ListBox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-listbox.md)
+[ListBox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-listbox.md)
 
 </td><td>
 
@@ -131,7 +131,7 @@ Displays a list of items that you can select one or more Items from.
 
 </td></tr><tr><td>
 
-[DataGrid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-datagrid.md)
+[DataGrid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-datagrid.md)
 
 </td><td>
 
@@ -139,7 +139,7 @@ Enables you to display and manipulate the tabular data.
 
 </td></tr><tr><td>
 
-[PasswordBox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-passwordbox.md)
+[PasswordBox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-passwordbox.md)
 
 </td><td>
 
@@ -147,7 +147,7 @@ Displays placeholder characters while you type a string.
 
 </td></tr><tr><td>
 
-[ImageControl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-imagecontrol.md)
+[ImageControl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-imagecontrol.md)
 
 </td><td>
 
@@ -155,7 +155,7 @@ Displays images in the form.
 
 </td></tr><tr><td>
 
-[ImageViewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-imageviewer.md)
+[ImageViewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-imageviewer.md)
 
 </td><td>
 
@@ -171,7 +171,7 @@ Provides an identifiable grouping for other elements. Typically, you use group b
 
 </td></tr><tr><td>
 
-[TabControl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-tabcontrol.md)
+[TabControl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-tabcontrol.md)
 
 </td><td>
 
@@ -203,7 +203,7 @@ Helps you to split a grid element into multiple parts.
 
 </td></tr><tr><td>
 
-[Web Browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-webbrowser.md)
+[Web Browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-webbrowser.md)
 
 </td><td>
 
@@ -211,7 +211,7 @@ Hosts web pages and provides web browsing capabilities to your application.
 
 </td></tr><tr><td>
 
-[Form Renderer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-formreneder.md)
+[Form Renderer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-formreneder.md)
 
 </td><td>
 
@@ -233,12 +233,12 @@ Border
 Enables you to draw a border, background, or both with the form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-rda-form.md)
+</table>**Parent Topic:**[Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-rda-form.md)
 
 **Related topics**  
 
 
-[Methods and events of an attended automation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-methods-events.md)
+[Methods and events of an attended automation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-methods-events.md)
 
-[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-methods-events.md)
+[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/form-control-methods-events.md)
 

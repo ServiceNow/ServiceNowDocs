@@ -3,13 +3,13 @@ title: Input data types in Virtual Agent topics
 description: You can define inputs of commonly used Glide Virtual Agent \(com.glide.cs.chatbot\) data types in Assistant Designer without writing a script. Define the input data type on the Start node of a custom control or topic block.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-data-types.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Virtual Agent technical reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Virtual Agent technical reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Input data types in Virtual Agent topics
@@ -88,7 +88,7 @@ Sequence of table records by sys\_id. Select a ServiceNow table in the **Table**
 
  To limit the number of records that authors can specify, use the **Max Number of Rows** field.
 
- **Note:** The **Array.Reference** input data type in Virtual Agent Designer corresponds to the **List.\[Table\]** input data type in Workflow Studio. For more information, see [Action input and output data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+ **Note:** The **Array.Reference** input data type in Assistant Designer corresponds to the **List.\[Table\]** input data type in Workflow Studio. For more information, see [Action input and output data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/action-inputs-outputs.md).
 
 </td></tr><tr><td>
 
@@ -107,18 +107,16 @@ This User Name Array.Reference input variable limits the number of records to 5.
 
 \[Omitted image "va-data-type-definition.png"\] Alt text: Edit input window, showing data type definition inAssistant Designer.
 
-**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
+**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 
 **Related topics**  
 
 
-[Domain separation and Virtual Agent]()
-
 [Virtual Agent interaction records]()
 
-[Virtual Agent scripts]()
+[Data management in Conversational Interfaces]()
 
-[NLU system entities]()
+[Virtual Agent scripts]()
 
 [Virtual Agent URL parameters]()
 

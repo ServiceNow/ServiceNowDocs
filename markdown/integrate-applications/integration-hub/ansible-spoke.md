@@ -3,7 +3,7 @@ title: Ansible Spoke
 description: Integrate your ServiceNow instance with Ansible Tower. Automate Ansible Tower tasks when events occur in ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ansible-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -28,7 +28,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 Ansible spoke v2.4.0 is the latest version. For version history of the spoke, see [Ansible spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ansible.html).
 
-**Note:** Ansible spoke supports MID Server from v2.4.0 onwards. If you are using a previous version of the spoke and want to use MID Server, upgrade to the latest version of Ansible spoke, delete the existing connection and credential record, and create a new connection and credential record using authentication template. For more information, see [Set up the Ansible spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ansible.md).
+**Note:** Ansible spoke supports MID Server from v2.4.0 onwards. If you are using a previous version of the spoke and want to use MID Server, upgrade to the latest version of Ansible spoke, delete the existing connection and credential record, and create a new connection and credential record using authentication template. For more information, see [Set up the Ansible spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-ansible.md).
 
 ## Supported version
 
@@ -99,11 +99,11 @@ The Ansible spoke provides actions to automate Ansible Tower tasks when events o
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Ansible spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ansible.md).
+For information about setting up the spoke, see [Set up the Ansible spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-ansible.md).
 
 ## MID Server requirements
 
-This spoke can run either on an instance or, optionally, through a MID Server. Use the connection record associated with the Ansible alias to configure where actions run and, if needed, specify MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+This spoke can run either on an instance or, optionally, through a MID Server. Use the connection record associated with the Ansible alias to configure where actions run and, if needed, specify MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-landing.md).
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

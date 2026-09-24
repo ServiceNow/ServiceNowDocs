@@ -3,11 +3,11 @@ title: Domain separation and Performance Analytics
 description: Domain separation is supported for Performance Analytics. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data. Performance Analytics supports collecting scores from multiple domains and can be configured to enable domain-specific administration. Extended domain configuration functionality is available for customers with complex domains.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_PAWithDomainSeparation.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -24,11 +24,11 @@ Domain separation is supported for Performance Analytics. Domain separation enab
 
 Sample use case: Tenant-customers of a shared environment must be able to modify the impact, urgency, or priority matrix to set priority within their domain.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
 ## Requirements
 
--   A fully enabled, subscription version of Performance Analytics. See [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+-   A fully enabled, subscription version of Performance Analytics. See [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 -   The Domain Support — Domain Extension Installer plugin.
 
 **Warning:** Instances with a large number of domains, as is typical for multiple service providers \(MSPs\), can experience performance degradation when retrieving Performance Analytics scores. For a potential solution, see [KB1516963](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1516963). Access to Now Support is required.
@@ -52,7 +52,7 @@ There are three approaches to domain separation in Performance Analytics:
 
 For more information, see:
 
--   [Approaches to Performance Analytics with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-configurations.md)
+-   [Approaches to Performance Analytics with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-domain-configurations.md)
 -   [Performance Analytics for Managed Service Providers](https://community.servicenow.com/community?id=community_blog&sys_id=e59bf10adbb7d4d04aa5d9d96896197d)
 -   [SPM Project Portfolio Management, Domain Separation and Managed Service Providers](https://community.servicenow.com/community?id=community_article&sys_id=616d706edbb318d066f1d9d9689619c1)
 
@@ -77,19 +77,19 @@ The extended functionality is available in the Performance Analytics — Domain 
 
 Extended functionality supports only the global approach to domain separation.
 
-For more information about this extended functionality, see: [Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
+For more information about this extended functionality, see: [Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
 
--   **[Approaches to Performance Analytics with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-configurations.md)**  
+-   **[Approaches to Performance Analytics with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-domain-configurations.md)**  
 When using Performance Analytics with domain separation, you can collect domain-specific scores. You can use global or domain-specific Performance Analytics table records or even a combination of both.
--   **[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md)**  
+-   **[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md)**  
 Instead of configuring Performance Analytics for the domains of a specific user, create a reusable domain configuration. Select domains that are visible to a group of users, or filter domains directly. Domain configurations let you define hierarchical relationships and aggregate scores across multiple domains.
--   **[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADomainUtils.md)**  
+-   **[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PADomainUtils.md)**  
 The PADomainUtils API enables you to copy Performance Analytics records between different domains on the same instance.
 
-**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
+**Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 

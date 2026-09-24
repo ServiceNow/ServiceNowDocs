@@ -1,18 +1,18 @@
 ---
-title: Prevent Empty ACL Creation
+title: Prevent empty ACL creation
 description: Set the glide.security.empty\_acl.popup\_window.enabled property to the secure value of true to block attempts to create, update, or save an invalid ACL. This setting will also provide a client-side model to configure a role or security attribute for the ACL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Prevent Empty ACL Creation
+# Prevent empty ACL creation
 
 Set the **glide.security.empty\_acl.popup\_window.enabled** property to the secure value of true to block attempts to create, update, or save an invalid ACL. This setting will also provide a client-side model to configure a role or security attribute for the ACL.
 
@@ -22,7 +22,7 @@ When the **glide.security.empty\_acl.popup\_window.enabled** property is set to 
 
 **Important:** This property is case sensitive. A value of "True" \(capital "T"\) will be equivalent to **false**. Additionally, this property will only function when the High Security \(com.glide.high\_security\) plugin is installed and active.
 
-Ensure the that the **glide.security.empty\_acl.popup\_window.enabled** property is set to **true** and ensure that the High Security \(com.glide.high\_security\) plugin is active.
+Ensure the that the **glide.security.empty\_acl.popup\_window.enabled** property is set to **true** and confirm that the High Security \(com.glide.high\_security\) plugin is active.
 
 ## More information
 
@@ -88,7 +88,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Functional impact
 
 </td><td>
 
-This property allows the user to toggle the empty ACL warning popup on and off.
+This property allows the user to toggle the empty ACL warning pop-up on and off.
 
 </td></tr><tr><td>
 
@@ -122,8 +122,8 @@ References
 
 </td><td>
 
-[Prevent Empty ACL Creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.md)
+[Prevent empty ACL creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Activate Change Management - Risk Calculator
-description: The Change Management - Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
+description: The Change Management- Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-change-risk-calculator.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Activate Change Management - Risk Calculator
 
-The Change Management - Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
+The Change Management- Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
 
 ## Before you begin
 
@@ -32,17 +32,17 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 
 ## What to do next
 
-You can [define risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/define-risk-and-impact-conditions.md) for your change records.
+You can [define risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/define-risk-and-impact-conditions.md) for your change records.
 
--   **[Installed with Change Management - Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-change-risk-calc.md)**  
-Several types of components are installed with the Change Management - Risk Calculator.
+-   **[Installed with Change Management- Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/installed-with-change-risk-calc.md)**  
+Several types of components are installed with the Change Management- Risk Calculator.
 
-**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
@@ -89,5 +89,5 @@ Several types of components are installed with the Change Management - Risk Calc
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

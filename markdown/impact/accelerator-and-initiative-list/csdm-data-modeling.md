@@ -3,11 +3,11 @@ title: CSDM Data Modeling
 description: This Accelerator provides a demonstration of the possibilities and capabilities of CSDM Data Modeling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/csdm-data-modeling.html
-release: australia
+release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CSDM, Common Service Data Model, Data Modeling, CMDB, Data Architecture]
 breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
@@ -27,7 +27,7 @@ CSDM Data Modeling helps Impact customers build a solid understanding of the Ser
 
 ## Prerequisites
 
-Customers are strongly encouraged to complete [Jumpstart Your CSDM: Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md), [TuneUp Your CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md), and [CSDM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/csdm-maturity-assessment.md) prior to taking this accelerator to ensure foundational and configuration data population and an understanding of organizational maturity.
+Customers are strongly encouraged to complete [Jumpstart Your CSDM: Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md), [TuneUp Your CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md), and [CSDM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/csdm-maturity-assessment.md) prior to taking this accelerator to ensure foundational and configuration data population and an understanding of organizational maturity.
 
 ## What You Get
 

@@ -3,9 +3,9 @@ title: Resolution information form
 description: This form enables you to add the report closing details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-resolution-information-form.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General form, Reference, Manufacturing Commercial Operations]
 ---
@@ -20,5 +20,5 @@ This form enables you to add the report closing details.
 |Closed|Select the date on which the report is closed.|
 |Close notes|Enter note, if necessary.|
 
-**Parent Topic:**[General form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-general-form.md)
+**Parent Topic:**[General form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-general-form.md)
 

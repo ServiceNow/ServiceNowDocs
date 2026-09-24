@@ -3,13 +3,13 @@ title: Insert a header card in a Static Choice or Dynamic Choice control
 description: When you create a Virtual Agent topic, you can include images and YouTube videos on Static Choice and Dynamic Choice user input controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/insert-header-card-user-input-control.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating a Virtual Agent topic, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Creating a Virtual Agent topic, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Insert a header card in a Static Choice or Dynamic Choice control
@@ -26,7 +26,7 @@ Role required: virtual\_agent\_admin or admin
 
 2.  Select the **Asset library** tab.
 
-3.  Open a topic or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+3.  Open a topic or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
 4.  On the Flow tab, drag a Static Choice or a Dynamic Choice user input control onto the canvas.
 
@@ -57,7 +57,7 @@ Card type
 Type of header card:-   Large image with text
 -   Small image with text
 -   Youtube Video Card
- The fields in the dialog box change according to your choice.
+The fields in the dialog box change according to your choice.
 
 </td></tr><tr><td>
 
@@ -136,5 +136,5 @@ The alphanumeric string at the end of the YouTube URL. For example, in the URL `
 8.  Select **Save**.
 
 
-**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

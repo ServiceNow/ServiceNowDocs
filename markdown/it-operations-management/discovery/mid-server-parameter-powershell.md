@@ -3,11 +3,11 @@ title: MID Server parameters for PowerShell
 description: Parameters control the behavior of a particular MID Server and have lower precedence than MID Server properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/mid-server-parameter-powershell.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [PowerShell for Discovery and Service Mapping, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -124,6 +124,28 @@ Enable this property to utilize Kerberos authentication when employing the WMI p
 -   Default value: False
 
 
+</td></tr><tr><td>
+
+mid.powershell.prefer\_7\_plus
+
+</td><td>
+
+Sets the MID Server to prefer PowerShell 7 or later, if available, when running File-based Discovery and Windows ADME scripts locally on the MID Server host.-   Type: true \| false
+-   Default value: false
+
+For more information, see [Configure MID Server parameters for PowerShell 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-mid-params-ps7.md).
+
+</td></tr><tr><td>
+
+mid.powershell.prefer\_7\_plus\_remote
+
+</td><td>
+
+Sets the MID Server to prefer PowerShell 7 or later, if available, on remote target hosts when running File-based Discovery and Windows ADME.-   Type: true \| false
+-   Default value: false
+
+For more information, see [Configure MID Server parameters for PowerShell 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-mid-params-ps7.md).
+
 </td></tr><tr id="MIDServerPowershell_useCredentials"><td>
 
 mid.powershell.use\_credentials
@@ -236,5 +258,5 @@ Sets the timeout interval for all Windows probes on a specific MID Server. This 
 -   Default value: 600
 
 </td></tr></tbody>
-</table>**Parent Topic:**[PowerShell for Discovery and Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md)
+</table>**Parent Topic:**[PowerShell for Discovery and Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md)
 

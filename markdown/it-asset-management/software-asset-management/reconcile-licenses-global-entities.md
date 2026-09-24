@@ -3,13 +3,13 @@ title: Reconciliation of licenses across global entities
 description: Share entitlements across different entities within your organization by creating consumption rules for entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/reconcile-licenses-global-entities.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reconciliation of licenses across global entities
@@ -81,7 +81,7 @@ Any new allocations that exceed the license pool count will be honored. Any allo
 
 ## Upgrading from Pre Utah releases
 
-If you're upgrading from a Pre Australia release and based on what you have selected in the **com.snc.samp.recon.group** and **com.snc.samp.recon.subgroup** properties \(in the Software Asset Management Properties page\), the following upgrade actions take place:
+If you're upgrading from a Pre Brazil release and based on what you have selected in the **com.snc.samp.recon.group** and **com.snc.samp.recon.subgroup** properties \(in the Software Asset Management Properties page\), the following upgrade actions take place:
 
 -   Grouping: **Company**, **Cost Center**, **Region**, **Department**, or **Country** is selected. A consumption rule is automatically created for the grouping entity selected if the entitlement is in use. For example, if **Department** is selected, and **Company** is selected as the subgroup, then one combined consumption rule is created for both the group, Department and the subgroup, Company. When reconciliation is run, the entitlement usage is restricted to only the Department group and the Company subgroup.
 
@@ -89,5 +89,5 @@ If you're upgrading from a Pre Australia release and based on what you have sele
 
 -   Non-grouping: **None** is selected. No consumption rule is created as reconciliation runs without grouping. The entitlements can be used by any group.
 
-**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

@@ -3,11 +3,11 @@ title: Track or add work order task information on a mobile device
 description: View activities related to your work order task through the Field Service Contractor for mobile application. You can also add documents, images, or work notes to the work order task record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-activity-stream-fsc.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -40,15 +40,15 @@ The Activity Stream screen tracks and shows all the information related to a wor
 
 7.  Add a document, image, or comment.
 
-<table id="choicetable_pqc_s44_lvb"><thead><tr><th align="left" id="d107842e120">
+<table id="choicetable_pqc_s44_lvb"><thead><tr><th align="left" id="d110779e120">
 
 Item to be added
 
-</th><th align="left" id="d107842e123">
+</th><th align="left" id="d110779e123">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d107842e129">
+</th></tr></thead><tbody><tr><td id="d110779e129">
 
 **Attach a document**
 
@@ -58,7 +58,7 @@ Actions
 2.  Select a document to add to your work order task.
 
 
-</td></tr><tr><td id="d107842e153">
+</td></tr><tr><td id="d110779e153">
 
 **Add an image**
 
@@ -68,7 +68,7 @@ Actions
 2.  Select an image to upload.
 
 
-</td></tr><tr><td id="d107842e177">
+</td></tr><tr><td id="d110779e177">
 
 **Add a photo**
 
@@ -78,7 +78,7 @@ Actions
 2.  Capture the image to include in your work order task.
 
 
-</td></tr><tr><td id="d107842e201">
+</td></tr><tr><td id="d110779e201">
 
 **Add a comment**
 

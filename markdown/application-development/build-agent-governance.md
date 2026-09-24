@@ -3,11 +3,11 @@ title: Build Agent governance
 description: Governance controls in Build Agent help with code quality, security, and compliance when generating applications. The Build Agent automated safeguards prevent common development issues and enforce organizational standards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-governance.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-07-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -27,7 +27,7 @@ Build Agent automatically generates Access Control Lists \(ACLs\) that enforce r
 
 Build Agent supports the full set of native ServiceNow security controls, not only ACLs and roles. For example, Build Agent can create Security Attributes for attribute-based access control and Security Data Filters for row-level data restriction.
 
--   Security Attributes control access based on properties assigned to users and resources, instead of role membership alone. For more information on Security Attributes, see [Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-attributes-landing.md).
+-   Security Attributes control access based on properties assigned to users and resources, instead of role membership alone. For more information on Security Attributes, see [Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-attributes-landing.md).
 -   Security Data Filters restrict which rows a user can see on a table, for example, so that managers see only their team's records.
 
 All four security metadata types can be combined in a single application for layered access control.
@@ -54,9 +54,9 @@ The access map visualizes relationships between agents, agentic workflows, and t
 
 If your organization uses AI Risk and Compliance, generated agents can be evaluated against organizational policies and regulatory frameworks. For example, the NIST AI Risk Management Framework and the EU Artificial Intelligence Act. Risk classification and compliance posture are surfaced on the **Risk and Compliance** tab of each AI asset record.
 
-For more information, see [AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md).
+For more information, see [AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower-landing.md).
 
-For more information on governance, agentic development and other ServiceNow development tools, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-governance.md).
+For more information on governance, agentic development and other ServiceNow development tools, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-governance.md).
 
 ## Cross-scope privileges
 
@@ -79,13 +79,13 @@ When Build Agent runs a background script using one of the script tools, several
     After a script runs, Build Agent returns a rollback context you can use to revert the operation. Rollback requires the same approval step as the original run. Only scripts run by Build Agent can be reverted using this mechanism.
 
 
-For more information on using the script tools, see [Build Agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent-tools.md).
+For more information on using the script tools, see [Build Agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-tools.md).
 
 ## Custom skills and rules
 
 Admins can define custom skills and rules to enforce organizational standards and guide Build Agent behavior across sessions. Rules apply automatically to every session at the configured scope. Skills provide on-demand guidance that Build Agent can draw on when needed.
 
-For more information, see [Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-configure-custom-skills-rules.md).
+For more information, see [Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-configure-custom-skills-rules.md).
 
-**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/exploring-build-agent.md)
+**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-build-agent.md)
 

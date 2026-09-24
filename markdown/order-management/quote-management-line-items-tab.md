@@ -3,9 +3,9 @@ title: View and update products using the line items tab
 description: Use the line items tab to review and update products in your quote and to add additional line items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-line-items-tab.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -58,7 +58,7 @@ Role required: sales\_agent
 
 ## What to do next
 
-Add a pricing adjustment to a quote line item. See [View and update manual pricing adjustments in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-pricing-adjustments-tab.md) for more information.
+Add a pricing adjustment to a quote line item. See [View and update manual pricing adjustments in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-pricing-adjustments-tab.md) for more information.
 
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

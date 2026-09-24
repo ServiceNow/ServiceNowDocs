@@ -3,11 +3,11 @@ title: Residual Assessment form
 description: Use the Residual Assessment form in the Advanced Risk application to assess the residual risks in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/residual-assessment-form.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure a residual assessment, Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -42,14 +42,6 @@ Calculate based on
 
 Options for calculating the assessment score:-   **Inherent risk and control effectiveness**: Makes the assessment qualitative. The comparison between inherent and control effectiveness is always qualitative.
 -   **Factor responses**: Bases the residual factors' calculation on responses to manual factors.
-
-</td></tr><tr><td>
-
-Hide assessment not applicable
-
-</td><td>
-
-Option to hide Residual assessment not applicable option on the assessment page.
 
 </td></tr><tr><td>
 
@@ -166,6 +158,18 @@ Option to rename the quantitative score label in the Scoring section of the asse
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
+Other Configurations
+
+</td></tr><tr><td>
+
+Comments required to complete this assessment type
+
+</td><td>
+
+Option to make comments mandatory before an assessor can complete the residual assessment.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
 Heatmap Configuration
 
 </td></tr><tr><td colspan="2">
@@ -178,7 +182,7 @@ Factor for X-axis
 
 </td><td>
 
-Factor that appears on the X-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or factors with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
+Factor that appears on the X-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or factors with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
 
 </td></tr><tr><td>
 
@@ -186,8 +190,8 @@ Factor for Y-axis
 
 </td><td>
 
-Factor that appears on the Y-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
+Factor that appears on the Y-axis of the heatmap. **Note:** Only the qualitative factors of type **Choice** or with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure a residual assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-residual-assessment.md)
+</table>**Parent Topic:**[Configure a residual assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-residual-assessment.md)
 

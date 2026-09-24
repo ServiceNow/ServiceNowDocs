@@ -1,20 +1,20 @@
 ---
 title: Request Service Mapping
-description: Service Mapping is available under the ITOM Visibility subscription and requires activation by ServiceNow personnel.
+description: Service Mapping is available under ITOM Visibility subscription and requires installation and updates on the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes. For details, see Request Service Mapping Service Mapping is available under ITOM Visibility subscription and requires installation and updates on the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes. For details, see Request Service Mapping..
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_ActivateServiceMappingPlugin.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Request Service Mapping
 
-Service Mapping is available under the ITOM Visibility subscription and requires activation by ServiceNow personnel.
+Service Mapping is available under ITOM Visibility subscription and requires installation and updates on the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). For details, see [Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_ActivateServiceMappingPlugin.md).
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ Role required: admin
 
 -   Discovery \(com.snc.discovery\)
 
-    **Note:** If you're activating the Discovery plugin for the first time in the Australia release, install the Discovery \(com.snc.discovery\) plugin first. Then install the Discovery and Service Mapping Patterns \(com.sn\_itom\_pattern\) plugin version 1.0.52 for Cloud Discovery to work. You can then upgrade to Australia.
+    **Note:** If you're activating the Discovery plugin for the first time in the Brazil release, install the Discovery \(com.snc.discovery\) plugin first. Then install the Discovery and Service Mapping Patterns \(com.sn\_itom\_pattern\) plugin. You can then upgrade to Brazil.
 
 -   Pattern Designer \(com.snc.pattern.designer\)
 -   Cloud Provisioning and Governance Core \(com.snc.cloud.core\)
@@ -74,7 +74,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
+ **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
 
 </td></tr><tr id="date-time"><td>
 
@@ -95,5 +95,5 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md)
+[Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md)
 

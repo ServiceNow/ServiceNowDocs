@@ -3,9 +3,9 @@ title: Activate Customer Service Problem Management
 description: Activate the Customer Service Problem Management plugin \(sn\_sprb\_mgmt\) for Customer Service Problem Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and activate related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/install-spm.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -39,7 +39,7 @@ The following items are installed with Customer Service Problem Management:
 -   Tables
 -   Properties
 
-For more information, see [Components installed with Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/spm-components.md) and [Customer Service Problem Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/cspm-properties.md).
+For more information, see [Components installed with Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/spm-components.md) and [Customer Service Problem Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/cspm-properties.md).
 
 ## Procedure
 

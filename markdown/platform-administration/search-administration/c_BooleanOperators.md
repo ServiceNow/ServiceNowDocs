@@ -3,11 +3,11 @@ title: Boolean operators allow conditional search results
 description: Construct complex searches using Boolean AND, OR, and NOT operators in global text searches.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/c\_BooleanOperators.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Available search options, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -67,7 +67,7 @@ Excludes documents that contain the search term after the NOT operator \(a diffe
  You can't use the NOT operator to exclude all terms in your search. For example, the following search returns no results: `NOT "10 minutes"`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_IntroductionToSearching.md)
+</table>**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_IntroductionToSearching.md)
 
 **Related topics**  
 
@@ -82,5 +82,5 @@ Excludes documents that contain the search term after the NOT operator \(a diffe
 
 [Debug Zing]()
 
-[Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeProperties.md)
+[Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_KnowledgeProperties.md)
 

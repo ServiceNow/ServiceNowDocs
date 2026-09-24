@@ -3,13 +3,13 @@ title: Sample code for the Data visualization component
 description: Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-data-viz-sample-code.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data visualization component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Data visualization component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Sample code for the Data visualization component
@@ -55,11 +55,11 @@ console.log(title, type, params, data);
 **Related topics**  
 
 
-[Configure the Data visualization component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-viz-comp.md)
+[Configure the Data visualization component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-viz-comp.md)
 
-[Embed the Data visualization component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-data-viz-comp.md)
+[Embed the Data visualization component instance on the third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-data-viz-comp.md)
 
-[Component properties for the Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-data-viz-comp-prop.md)
+[Component properties for the Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-data-viz-comp-prop.md)
 
-[Event handler in the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-data-viz-event-handler.md)
+[Event handler in the Data visualization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/we-data-viz-event-handler.md)
 

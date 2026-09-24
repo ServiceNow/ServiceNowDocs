@@ -3,9 +3,9 @@ title: Configuring compatibility rules for horizontal relationships
 description: As a provider, you can use compatibility rules to establish horizontal relationships between the specifications of multiple products, services, or resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/configure-compatibility-rules-somt.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -26,6 +26,6 @@ While you're creating a compatibility rule, you can establish the horizontal rel
 Before you can capture a new customer order that has a horizontal relationship, you must configure the compatibility rules by defining the source and target specifications.To learn more, see:
 
 -   
--   [Define the source specifications in the compatibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/order-mgt-define-source-specifications.md)
+-   [Define the source specifications in the compatibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/order-mgt-define-source-specifications.md)
 -   
 

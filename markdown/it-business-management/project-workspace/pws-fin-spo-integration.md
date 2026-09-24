@@ -3,11 +3,11 @@ title: Project financials and Source-to-Pay Operations integration
 description: Request, track, and manage procurement requests of assets for your projects.As a Project Manager, you can directly access the Source-to-Pay Operations shopping hub portal to place a request to meet your project requirements.After the purchase request is placed, you can track the request details such as Purchase line number, Purchased quantity, unit cost, tax, and state from Project Workspace.Once the requested purchase orders are approved and processed, a purchase order line and a cost plan is automatically created. You can view cost plans for the requisition in Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/pws-fin-spo-integration.html
-release: australia
+release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,13 +18,13 @@ Request, track, and manage procurement requests of assets for your projects.
 
 ## Before you begin
 
-Install Sourcing and Procurement Operations
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/install-spo-ai.md)
 
 Role required: it\_project\_manager
 
 ## About this task
 
-Project managers can navigate from Project Workspace to procurement applications and create purchase requests for their projects. The ordered purchase requests are reflected in the Project Workspace. After the purchase request is processed, the purchase line, cost plan, and expense lines are automatically generated. For more information about the integration, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/integration-psm-ppm.md).\[Omitted image "Financials-SPO-better-together.png"\] Alt text: Financials SPO better together workflow diagram.
+Project managers can navigate from Project Workspace to procurement applications and create purchase requests for their projects. The ordered purchase requests are reflected in the Project Workspace. After the purchase request is processed, the purchase line, cost plan, and expense lines are automatically generated. For more information about the integration, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/integration-psm-ppm.md).\[Omitted image "Financials-SPO-better-together.png"\] Alt text: Financials SPO better together workflow diagram.
 
 ## Procedure
 
@@ -33,7 +33,7 @@ Project managers can navigate from Project Workspace to procurement applications
 2.  Open a project and select **Details** from the left menu.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/use-projects-pw.md)
 
 ## Create purchase request
 
@@ -51,7 +51,7 @@ Role required: it\_project\_manager
 
 2.  Place the request for an asset.
 
-    For more details on how to request a product using Source-to-Pay Common Architecture, see [Order a product with quick checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/order-a-product.md).
+    For more details on how to request a product using Source-to-Pay Common Architecture, see [Order a product with quick checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/order-a-product.md).
 
     **Note:** While placing the request for the asset, enter the project number in the **What project is this request for?** field.
 

@@ -3,9 +3,9 @@ title: Regenerate scoring profile indicator scores on-demand in Enterprise Archi
 description: You can update the scoring profile indicator scores on-demand. Updating the scoring profile indicators scores is necessary when the scoring profile is updated with new indicators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-regenerate-scoring-profile-indicator-scores-in-eaw.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure scoring profiles, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -47,5 +47,5 @@ On-demand generation of the indicator scores is more efficient than running sche
     This action doesn’t update the existing capability indicator scores but deletes them and generates new scores.
 
 
-**Parent Topic:**[Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-scroring-prof.md)
+**Parent Topic:**[Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-scroring-prof.md)
 

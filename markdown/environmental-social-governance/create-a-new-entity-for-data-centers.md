@@ -3,9 +3,9 @@ title: Create new entities for data centers
 description: Use the cmdb\_ci\_datacenter table to create entities for all your data centers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-new-entity-for-data-centers.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Methods to set up entities for Sustainable IT, Configure Sustainable IT, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -28,9 +28,9 @@ Role required: sn\_esg.admin
 
 4.  In the **Table** field, select **cmdb\_ci\_datacenter**.
 
-5.  In the **Applies to record** field, select the datacenter you want to add.
+5.  In the **Applies to record** field, select the data center you want to add.
 
-6.  In the **Location** field, select the datacenter location from where you want to collect data.
+6.  In the **Location** field, select the data center location from where you want to collect data.
 
 7.  In the **Class** field, select **Sites**.
 
@@ -41,7 +41,7 @@ Role required: sn\_esg.admin
 
 ## Result
 
-When the metric definition is executed, the metrics for the selected datacenter will be collected and displayed on the Sustainable IT dashboard.
+When the metric definition is executed, the metrics for the selected data center will be collected and displayed on the Sustainable IT dashboard.
 
-**Parent Topic:**[Methods to set up entities for Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/methods-to-set-up-entities.md)
+**Parent Topic:**[Methods to set up entities for Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/methods-to-set-up-entities.md)
 

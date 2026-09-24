@@ -3,11 +3,11 @@ title: Resource Role form
 description: Use the Resource Role form to create roles for project team members.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rsrc-role-form.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -49,5 +49,5 @@ Description
 Detailed description of the resource role.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

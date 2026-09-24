@@ -3,7 +3,7 @@ title: The On BOM Response enrichment
 description: You can use this enrichment to work with ProductList items whenever there is an update to the bill of materials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/enrichments\_on\_bom\_response\_scripts.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3

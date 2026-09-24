@@ -3,9 +3,9 @@ title: Track license and permit requests using License and Permit Playbook
 description: Track all the license and permit requests that are assigned to you or other agents in your government agency by using the License and Permit Playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-lpr-playbook-view-lp-request-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using License and Permit Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---

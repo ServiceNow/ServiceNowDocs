@@ -3,9 +3,9 @@ title: Install Unattended Robot Login Agent
 description: You can install the Unattended Robot Login Agent application in your Windows machine if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-rpa-runtime-login-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Unattended Robot, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -23,7 +23,7 @@ Ensure that you meet the following set up requirements:
 -   If connected via Citrix, the Windows machine or the VM must not go to sleep mode.
 -   Login agent clears the legal notice message if the **sn\_rpa\_fdn.bypass\_legal\_notice** system property is selected.
 
-    For more information about this property, see [Configure RPA Hub properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpahub-sys-properties.md).
+    For more information about this property, see [Configure RPA Hub properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpahub-sys-properties.md).
 
     If you don't want the unattended robot to clear the legal notice, turn off the legal notice by turning off through the Active Directory Organizational \(AD OU\) policy. This ensures that the Unattended Robot Login Agent can log in seamlessly.
 
@@ -31,7 +31,7 @@ Ensure that you meet the following set up requirements:
 -   The idle timeout setting is turned off for the VDI pool.
 -   Communication with the ServiceNow instance host is enabled.
 
-Download and unzip the installation file for the Unattended Robot application. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/download-installer-rpa.md).
+Download and unzip the installation file for the Unattended Robot application. For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/download-installer-rpa.md).
 
 Role required: admin
 
@@ -56,9 +56,9 @@ Unattended Robot Login Agent does not support Multi-Factor Authentication \(MFA\
 
 You can see the following image on your Windows lock screen after installation.
 
-
+\[Omitted image "login-agent-rpa-runtime.png"\] Alt text: Snapshot of the Unattended Robot Login Agent that appears on your Windows lock screen.
 
 ## What to do next
 
-Set up the Unattended Robot application. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-runtime.md).
+Set up the Unattended Robot application. For more information, see [Set up Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-rpa-runtime.md).
 

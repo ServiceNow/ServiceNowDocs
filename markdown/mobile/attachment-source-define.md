@@ -3,9 +3,9 @@ title: Define attachment sources available to users
 description: Control the origin of where images and files are sourced from, including a phone's gallery, camera, or file system. This capability confirms that images can’t be reused and verifies that they aren't AI-generated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/attachment-source-define.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with images and attachments, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -42,15 +42,15 @@ This feature is supported for all attachment locations including: activity strea
 
 3.  Select the attachment location for where you want to control the origin of the attachment source.
 
-<table id="choicetable_odj_n5y_zdc"><thead><tr><th align="left" id="d92402e122">
+<table id="choicetable_odj_n5y_zdc"><thead><tr><th align="left" id="d92760e122">
 
 Attachment location
 
-</th><th align="left" id="d92402e125">
+</th><th align="left" id="d92760e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d92402e131">
+</th></tr></thead><tbody><tr><td id="d92760e131">
 
 **Function**
 
@@ -68,7 +68,7 @@ Values can be `camera`, `files`, or `gallery`, or any combination separated by c
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d92402e209">
+</td></tr><tr><td id="d92760e209">
 
 **Activity stream**
 
@@ -83,7 +83,7 @@ Values can be `camera`, `files`, or `gallery`, or any combination separated by c
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d92402e261">
+</td></tr><tr><td id="d92760e261">
 
 **Input form screen**
 
@@ -106,5 +106,5 @@ Values can be `camera`, `files`, or `gallery`, or any combination separated by c
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Working with images and attachments in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/images-and-attachments.md)
+**Parent Topic:**[Working with images and attachments in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/images-and-attachments.md)
 

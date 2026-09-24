@@ -3,11 +3,11 @@ title: Configure Cloud Discovery for code-signed instances
 description: Configure a system property to disable unsupported script tracking for Cloud Discovery operations on instances with code signing enabled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/config-cloud-disco-code-sign.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -20,12 +20,12 @@ Configure a system property to disable unsupported script tracking for Cloud Dis
 
 Confirm the following:
 
--   You're using the Australia version of the ServiceNow AI Platform.
+-   You're using the Brazil version of the ServiceNow AI Platform.
 -   You're using the following ServiceNow Store applications and versions:
     -   Discovery Admin Workspace v1.13.0.
     -   Visibility Content v6.13.10.
     -   Discovery and Service Mapping Patterns v1.30.2.
--   You have Code Signing enabled with the Circle of Trust established. For more information, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/config-code-signing.md).
+-   You have Code Signing enabled with the Circle of Trust established. For more information, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/config-code-signing.md).
 
 Role required: security\_admin
 
@@ -49,7 +49,7 @@ The **com.glide.codesigning.tracking.unsupported\_script\_tracking.enabled** pro
 **Related topics**  
 
 
-[Discovery on Code Signing instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/code-sign-disco-probes.md)
+[Discovery on Code Signing instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/code-sign-disco-probes.md)
 
-[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
+[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-landing.md)
 

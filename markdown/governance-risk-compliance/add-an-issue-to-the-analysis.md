@@ -3,9 +3,9 @@ title: Link issues and operational vulnerabilities
 description: Link an issue to your scenario analysis by either creating a new issue or adding an existing one. You can also include operational vulnerabilities in the analysis to identify resilience gaps and create a plan to mitigate them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-an-issue-to-the-analysis.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_oper\_res.manager
 
     **Note:** If you’ve associated an open issue with your scenario analysis, you can still request an approval for the scenario analysis. It isn’t required to close the open issues for requesting an approval for the scenario analysis.
 
-<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d217116e89">
+<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d219674e89">
 
 Step
 
-</th><th align="left" id="d217116e92">
+</th><th align="left" id="d219674e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d217116e98">
+</th></tr></thead><tbody><tr><td id="d219674e98">
 
 **Select __Add__.**
 
@@ -44,7 +44,7 @@ Description
 
 Add an existing issue to the analysis. The following example shows how to add an existing issue to the analysis.\[Omitted image "add-issue.png"\] Alt text: Add an existing issue to the analysis.
 
-</td></tr><tr><td id="d217116e122">
+</td></tr><tr><td id="d219674e122">
 
 **Select __New__.**
 
@@ -52,7 +52,7 @@ Add an existing issue to the analysis. The following example shows how to add an
 
 Create an issue that you can add to the scenario analysis. The following example shows how to create an issue that you can add to the scenario analysis.\[Omitted image "create-new-issue-opres.png"\] Alt text: Create an issue that you can add to the scenario analysis.
 
- For the descriptions of the field values on the Create New Issue form, see [Create Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
+ For the descriptions of the field values on the Create New Issue form, see [Create Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
 
 </td></tr></tbody>
 </table>3.  In the Operational vulnerabilities tab, add an operational vulnerability to the scenario analysis.
@@ -63,12 +63,12 @@ Create an issue that you can add to the scenario analysis. The following example
 
     2.  On the form, fill in the fields.
 
-        For more information on the fields, see [Create Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-op-vul-form.md).
+        For more information on the fields, see [Create Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-op-vul-form.md).
 
 4.  Select **Save**.
 
 
 ## What to do next
 
-Request the scenario analysis approval and as the analysis approver, approve the scenario analysis. For information, see [Submit the scenario analysis and receive an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-plan-approval-for-scenario-analysis.md).
+Request the scenario analysis approval and as the analysis approver, approve the scenario analysis. For information, see [Submit the scenario analysis and receive an approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/request-plan-approval-for-scenario-analysis.md).
 

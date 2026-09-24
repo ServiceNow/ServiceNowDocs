@@ -1,13 +1,13 @@
 ---
 title: Spreadsheet view in Table Builder
-description: Use Spreadsheet view in Table Builder to work with your application data records and data structure in a spreadsheet format.Add a data record within Table Builder Spreadsheet view.Edit individual data records within Table Builder Spreadsheet view.Sort your data records by a specific field column within Table Builder Spreadsheet view.Show a filtered list of data records that contain matching data for a selected field within Table Builder Spreadsheet view.Display only the data records you want to see in your list by setting up a conditional query within Table Builder Spreadsheet view.Edit field properties such as the field label, type, attributes, and default values within Table Builder Spreadsheet view.Add field columns to a selected table within Table Builder Spreadsheet view.Duplicate an existing field column within a table shown in Table Builder Spreadsheet view.Change the order in which your columns are displayed within Table Builder Spreadsheet view.Choose whether to hide or show specific field columns within Table Builder Spreadsheet view.Pin specific columns to always display on the left when you scroll to the right in a table with a large number of field columns within Table Builder Spreadsheet view. Pinned columns are saved for each individual user, not globally. The next time a user logs in, any columns they pinned will be shown.Delete a field column for a selected table within Table Builder Spreadsheet view.
+description: Use Spreadsheet view in Table Builder to work with your application data records and data structure in a spreadsheet format.Add a new data record within Table Builder Spreadsheet view.Edit individual data records within Table Builder Spreadsheet view.Sort your data records by a specific field column within Table Builder Spreadsheet view.Show a filtered list of data records that contain matching data for a selected field within Table Builder Spreadsheet view.Display only the data records you want to see in your list by setting up a conditional query within Table Builder Spreadsheet view.Edit field properties such as the field label, type, attributes, and default values within Table Builder Spreadsheet view.Add new field columns to a selected table within Table Builder Spreadsheet view.Duplicate an existing field column within a table shown in Table Builder Spreadsheet view.Change the order in which your columns are displayed within Table Builder Spreadsheet view.Choose whether to hide or show specific field columns within Table Builder Spreadsheet view.Pin specific columns to always display on the left when you scroll to the right in a table with a large number of field columns within Table Builder Spreadsheet view. Pinned columns are saved for each individual user, not globally. The next time a user logs in, any columns they pinned will be shown.Delete a field column for a selected table within Table Builder Spreadsheet view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/tb-sprdsht-view.html
-release: australia
+release: brazil
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Data in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
 ---
@@ -30,15 +30,15 @@ Correct the data in each record individually, or select **Revert record changes*
 
 Use the following procedures to edit table field structure and any imported data records for a selected table using **Spreadsheet** view in Table Builder
 
-**Parent Topic:**[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-builder.md)
+**Parent Topic:**[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/table-builder.md)
 
-## Add a data record
+## Add a new data record
 
-Add a data record within Table Builder **Spreadsheet** view.
+Add a new data record within Table Builder **Spreadsheet** view.
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -48,11 +48,13 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Select the **Add new record** icon \(\[Omitted image "icn-us2-add-data-record.png"\] Alt text: Add new record icon.\).
 
+    \[Omitted image "scr-us2-add-record.png"\] Alt text: Add new record.
+
 3.  Make your changes to the data record.
 
 4.  Select **Save**.
 
-    See [Saving data records in Spreadsheet view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md)for details on troubleshooting errors.
+    See [Saving data records in Spreadsheet view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md)for details on troubleshooting errors.
 
 
 ## Edit individual data records
@@ -61,7 +63,7 @@ Edit individual data records within Table Builder **Spreadsheet** view.
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -71,11 +73,13 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Click into any editable data record field to launch the data for editing.
 
+    \[Omitted image "edit-data-record-tb.png"\] Alt text: Edit a field on the record
+
 3.  Make your changes to the data.
 
 4.  Select **Save**.
 
-    See [Saving data records in Spreadsheet view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md)for details on troubleshooting errors.
+    See [Saving data records in Spreadsheet view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md)for details on troubleshooting errors.
 
 
 ## Sort your data records
@@ -84,7 +88,7 @@ Sort your data records by a specific field column within Table Builder **Spreads
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -98,6 +102,8 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
     -   Sort A to Z or Sort Oldest to Newest \(ascending order\)
     -   Sort Z to A or Sort Newest to Oldest \(descending order\)
+    \[Omitted image "scr-us2-sort-data.png"\] Alt text: Sort by a to z.
+
     The list of records will then display in the order you chose.
 
 
@@ -107,7 +113,7 @@ Show a filtered list of data records that contain matching data for a selected f
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -115,13 +121,13 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
     **Note:** Spreadsheet view displays by default. You can also access Spreadsheet view from the Additional actions menu \(\[Omitted image "tb-data-addl-actions-menu.png"\] Alt text: Additional actions menu.\).
 
-2.  Select and hold \(or right-click\) a data record in a cell to create a filtered list of records with matching data.
+2.  Select and hold \(or right-click\) the data record in a cell to create a filtered list of records that contain the matching data, \(e.g., show all records where **Short description** is "Can't read email".\).
 
-    For example, show all records where **Short description** is "Can't read email".
+    \[Omitted image "scr-vs2-show-matching.png"\] Alt text: Show matching data records.
 
-    A filtered list of records with matching data displays. A filter query is added and accessible when you select the **Filter** button at the top of the grid.
+    A filtered list of records with matching data displays and a new filter query is added and accessible when you click the **Filter** button at the top of the grid.
 
-    **Note:** To remove the filter you added, select the **Filter** button and delete the filter condition from the list. See [Filter your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+    **Note:** To remove the filtering you just added, select the **Filter** button, and then delete the new filter condition from the list. See [Filter your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 
 
 ## Filter your data records
@@ -130,7 +136,7 @@ Display only the data records you want to see in your list by setting up a condi
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -145,6 +151,8 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
     **Note:** When a number appears to the right of the **Filter** button, it means that there are existing filters set for the view.
 
     The Filter window displays \(along with any filter criteria that has already been set\). In this case, an existing filter is set to display records where **Age** is 35.
+
+    \[Omitted image "scr-us2-filter-data.png"\] Alt text: Filter data.
 
 3.  Enter your filtering query to specify which data records you want to display.
 
@@ -162,7 +170,7 @@ Edit field properties such as the field label, type, attributes, and default val
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -176,20 +184,22 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
     The Properties pane displays for the selected field column.
 
+    \[Omitted image "scr-us2-field-properties-pane.png"\] Alt text: Column properties displayed
+
 4.  Edit the desired field property for the column.
 
-    See [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/field-parameters.md) for more information on field properties.
+    See [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/field-parameters.md) for more information on field properties.
 
 5.  Select **Save**.
 
 
-## Add columns
+## Add new columns
 
-Add field columns to a selected table within Table Builder **Spreadsheet** view.
+Add new field columns to a selected table within Table Builder **Spreadsheet** view.
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -199,23 +209,23 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Select the **+ Add field** button.
 
-    **Note:** You can also select the **Additional actions** icon \(\[Omitted image "icn-us2-ellipsis-column.png"\] Alt text: Additional actions icon.\) to launch a column-specific list of actions, and then select **Insert column left** or **Insert column right** to insert the column in a specific place within the table.
+    **Note:** You can also select the **Additional actions** icon \(\[Omitted image "icn-us2-ellipsis-column.png"\] Alt text: Additional actions icon.\) to launch a column-specific list of actions, and then select **Insert column left** or **Insert column right** to insert the new column in a specific place within the table.
 
-    The Add a column window displays.
+    The Add a new column window displays.
 
-    \[Omitted image "scr-us2-add-column.png"\] Alt text: Add column.
+    \[Omitted image "scr-us2-add-column.png"\] Alt text: Add new column.
 
-3.  Enter the following information for your field column.
+3.  Enter the following information for your new field column.
 
-<table id="choicetable_bs2_1yy_5wb"><thead><tr><th align="left" id="d268654e1069">
+<table id="choicetable_bs2_1yy_5wb"><thead><tr><th align="left" id="d260567e1148">
 
 Field
 
-</th><th align="left" id="d268654e1072">
+</th><th align="left" id="d260567e1151">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d268654e1078">
+</th></tr></thead><tbody><tr><td id="d260567e1157">
 
 **Column label**
 
@@ -223,7 +233,7 @@ Description
 
 Unique label for the column.
 
-</td></tr><tr><td id="d268654e1087">
+</td></tr><tr><td id="d260567e1166">
 
 **Column name**
 
@@ -231,7 +241,7 @@ Unique label for the column.
 
 Database name for the column.
 
-</td></tr><tr><td id="d268654e1096">
+</td></tr><tr><td id="d260567e1175">
 
 **Type**
 
@@ -241,20 +251,20 @@ Type of information that the column contains. For example, to contain plain text
 
  Depending on the type that you select, fill in the additional fields to further define the table column. For example, if you select **String**, define the character limit of the string input. Or, if you select **Choice**, define the choices that users can choose from.
 
- See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+ See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md).
 
 </td></tr></tbody>
 </table>4.  Select **Advanced settings** to expand it and enter any additional properties for your new field column.
 
-<table id="choicetable_mjz_hbz_5wb"><thead><tr><th align="left" id="d268654e1139">
+<table id="choicetable_mjz_hbz_5wb"><thead><tr><th align="left" id="d260567e1218">
 
 Field
 
-</th><th align="left" id="d268654e1142">
+</th><th align="left" id="d260567e1221">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d268654e1148">
+</th></tr></thead><tbody><tr><td id="d260567e1227">
 
 **Function field**
 
@@ -262,7 +272,7 @@ Description
 
 A function field generates a value based on simple computations of other fields and constants. The **Function definition** field then displays, where you define a function.
 
-</td></tr><tr><td id="d268654e1163">
+</td></tr><tr><td id="d260567e1242">
 
 **Mandatory**
 
@@ -270,7 +280,7 @@ A function field generates a value based on simple computations of other fields 
 
 Option that you can select so that the data that your users enter in the field is required before they can save their changes to the form.
 
-</td></tr><tr><td id="d268654e1175">
+</td></tr><tr><td id="d260567e1254">
 
 **Read only**
 
@@ -278,7 +288,7 @@ Option that you can select so that the data that your users enter in the field i
 
 Option that you can select so that the field is not editable by the form users.
 
-</td></tr><tr><td id="d268654e1187">
+</td></tr><tr><td id="d260567e1266">
 
 **Default value**
 
@@ -296,7 +306,7 @@ Duplicate an existing field column within a table shown in Table Builder **Sprea
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -306,15 +316,17 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Hover over the header for the column to duplicate, and then select the **Additional actions** icon \(\[Omitted image "icn-us2-ellipsis-column.png"\] Alt text: Additional actions icon.\) to launch a column-specific list of actions.
 
-3.  Select **Duplicate column** from the menu.
+3.  Select **Duplicate column**from the menu.
 
     The text "copy" is automatically appended to the existing column label.
+
+    \[Omitted image "scr-us2-duplicate-column.png"\] Alt text: Duplicate column.
 
 4.  Edit the **Column label** to the desired display name for the duplicated field column.
 
 5.  Edit the **Type** for the field column as desired.
 
-    See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+    See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md).
 
 6.  Select **Duplicate**.
 
@@ -327,7 +339,7 @@ Change the order in which your columns are displayed within Table Builder **Spre
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -336,6 +348,8 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
     **Note:** Spreadsheet view displays by default. You can also access Spreadsheet view from the Additional actions menu \(\[Omitted image "tb-data-addl-actions-menu.png"\] Alt text: Additional actions menu.\).
 
 2.  Click to select the **Column handle** icon \(\[Omitted image "icn-us2-column-handle.png"\] Alt text: Column handle icon.\) for a column and then drag the column to the desired locations in the table.
+
+    \[Omitted image "scr-us2-drag-column.png"\] Alt text: Drag and drop column.
 
     **Note:** If your table contains many table columns, select the **Manage columns** menu to view a compact list of column names, and then visually drag and drop within this list to order your table columns.
 
@@ -346,7 +360,7 @@ Choose whether to hide or show specific field columns within Table Builder **Spr
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -356,15 +370,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Choose one of the following options.
 
-<table id="choicetable_tm2_b3j_twb"><thead><tr><th align="left" id="d268654e1580">
+<table id="choicetable_tm2_b3j_twb"><thead><tr><th align="left" id="d260567e1682">
 
 Action
 
-</th><th align="left" id="d268654e1583">
+</th><th align="left" id="d260567e1685">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d268654e1589">
+</th></tr></thead><tbody><tr><td id="d260567e1691">
 
 **Hide a column**
 
@@ -380,7 +394,7 @@ Using the **Manage columns** button:
 2.  Select **Hide** from the menu to hide the column from view.
 
 
-</td></tr><tr><td id="d268654e1638">
+</td></tr><tr><td id="d260567e1740">
 
 **Unhide a column**
 
@@ -402,7 +416,7 @@ Pin specific columns to always display on the left when you scroll to the right 
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 
@@ -412,15 +426,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Choose one of the following options to pin or unpin a field column.
 
-<table id="choicetable_br1_bkj_twb"><thead><tr><th align="left" id="d268654e1773">
+<table id="choicetable_br1_bkj_twb"><thead><tr><th align="left" id="d260567e1875">
 
 Action
 
-</th><th align="left" id="d268654e1776">
+</th><th align="left" id="d260567e1878">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d268654e1782">
+</th></tr></thead><tbody><tr><td id="d260567e1884">
 
 **Pin a column**
 
@@ -430,7 +444,7 @@ Steps
 2.  Select **Pin** from the menu to pin the column to the left side of your view.
 
 
-</td></tr><tr><td id="d268654e1813">
+</td></tr><tr><td id="d260567e1915">
 
 **Unpin a column**
 
@@ -453,7 +467,7 @@ Delete a field column for a selected table within Table Builder **Spreadsheet** 
 
 ### Before you begin
 
-Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: personalize\_dictionary or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### Procedure
 

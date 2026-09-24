@@ -3,11 +3,11 @@ title: ITSM Virtual Agent pre-built LLM topics
 description: ITSM Virtual Agent includes pre-built Large Language Model \(LLM\) topic conversations designed to help your users complete the common IT-related tasks such as checking and resetting a password.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/itsm-va-prebuilt-topics.html
-release: australia
+release: brazil
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure in Virtual Agent, Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -20,9 +20,7 @@ LLMs are used to identify and trigger the action that a user wants to perform.
 
 ITSM Virtual Agent pre-built LLM topics are read only and have **\(Template\)** as the suffix in their name. To use them, duplicate the topic in the ITSM Virtual Agent conversation scope and rename it according to your company naming conventions.
 
-For ITSM Virtual Agent pre-built Natural Language Understanding \(NLU\) topics, see [Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md).
-
-**Note:** All demo topics will be available with the demo data.
+For ITSM Virtual Agent pre-built Natural Language Understanding \(NLU\) topics, see [Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md).
 
 <table id="table_an3_5t2_4bc"><tbody><tr><td>
 
@@ -42,7 +40,7 @@ Check the status of your IT tickets and support cases.
 -   status = Allowed
 -   source = Script Include: ITSMTopicsHelper
 
-See [Requested restricted caller access \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/requested-rca.md) for more information.
+See [Requested restricted caller access \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/requested-rca.md) for more information.
 
 </td></tr><tr><td>
 
@@ -60,11 +58,11 @@ Check your device's health using Digital End-User Experience \(DEX\)
 
 </td><td>
 
-Use the ServiceNow Otto in Virtual Agent for ITSM to monitor your device's performance and diagnose potential issues. See [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.md) for more information.**Important:** You must install DEX to perform this action. See [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) for more information.
+Use the ServiceNow Otto in ITSM Virtual Agent to monitor your device's performance and diagnose potential issues. See [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/check-your-device-s-health-using-now-assist-for-itsm.md) for more information.**Important:** You must install DEX to perform this action. See [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) for more information.
 
 </td></tr><tr><td>
 
-\(DEMO\) Explain change risk
+\(DEMO\) Explain change riskExplain change risk
 
 </td><td>
 
@@ -75,7 +73,7 @@ Quickly generate the explanation of the calculated risk rating for a change requ
 
 <table id="table_us4_xc3_nbc"><tbody><tr><td>
 
-\(DEMO\) Check IT Ticket Status \(Template\)
+\(DEMO\) Check IT Ticket Status \(Template\)Check IT Ticket Status
 
 </td><td>
 
@@ -97,7 +95,7 @@ Raise the urgency of your IT ticket for a faster resolution. Escalating a ticket
 
 </td></tr><tr><td>
 
-\(DEMO\) Open IT Ticket \(Template\)-LLM
+\(DEMO\) Open IT Ticket \(Template\)-LLMOpen IT Ticket
 
 </td><td>
 
@@ -131,11 +129,11 @@ Requirements:
 
 **Note:** For the password reset process to be available in Virtual Agent, ensure that you selected the **Enabled on Virtual Agent** check box in the Password Reset process configuration page.
 
-For more information about the password reset process, see [Password Reset for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset-for-virtual-agent.md).
+For more information about the password reset process, see [Password Reset for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/password-reset-for-virtual-agent.md).
 
 <table id="table_zc2_s23_nbc"><tbody><tr><td>
 
-\(DEMO\) Change Password \(Template\)-LLM
+Change Password\(DEMO\) Change Password \(Template\)-LLM
 
 </td><td>
 
@@ -145,7 +143,7 @@ Request to change your user password.
 
 </td></tr><tr><td>
 
-\(DEMO\) Reset Password \(Template\) - LLM
+\(DEMO\) Reset Password \(Template\) - LLMReset Password
 
 </td><td>
 
@@ -153,7 +151,7 @@ Request to reset your user password.
 
 </td></tr><tr><td>
 
-\(DEMO\) Unlock Account \(Template\) - LLM
+\(DEMO\) Unlock Account \(Template\) - LLMUnlock Account
 
 </td><td>
 
@@ -168,13 +166,13 @@ Request to verify your locked user account.
 -   Email code verification: User enters the code received via email.
 -   Security question verification: User enters the configured security question answers.
 
-For more information, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAPasswordResetProcess.md).
+For more information, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAPasswordResetProcess.md).
 
 ## Actionable notification topics
 
 ITSM Virtual Agent includes pre-built actionable notifications used to send interactive messages to a user based on pending tasks or alerts, such as RITM and request notifications, task approval notifications, and incident notifications.
 
-**Note:** You must activate notifications in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
+**Note:** You must activate notifications in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 <table id="table_x5c_n1w_bdc"><thead><tr><th>
 
@@ -255,7 +253,7 @@ Actionable notification
 
 </th></tr></thead><tbody><tr><td>
 
-\(DEMO\) Add Comment To Incident-LLM
+\(DEMO\) Add Comment To Incident-LLMAdd Comment To Incident
 
 </td><td>
 
@@ -263,7 +261,7 @@ Notification: Incident on behalf of callerSent to end users whenever an incident
 
 </td></tr><tr><td>
 
-\(DEMO\) Close Incident-LLM
+\(DEMO\) Close Incident-LLMClose Incident
 
 </td><td>
 
@@ -271,7 +269,7 @@ Notification: Incident resolvedSent to end users whenever one of their incidents
 
 </td></tr><tr><td>
 
-\(DEMO\) Mark Incident Unresolved-LLM
+\(DEMO\) Mark Incident Unresolved-LLMMark Incident Unresolved
 
 </td><td>
 
@@ -279,7 +277,7 @@ Notification: Incident resolvedSent to end users whenever one of their incidents
 
 </td></tr><tr><td>
 
-\(DEMO\) View And Add Comments-LLM
+\(DEMO\) View And Add Comments-LLMView Comments
 
 </td><td>
 
@@ -287,7 +285,7 @@ Notification: Incident commentedSent to end users whenever a comment is added to
 
 </td></tr><tr><td>
 
-\(DEMO\) Resolve Incident-LLM
+\(DEMO\) Resolve Incident-LLMResolve Incident
 
 </td><td>
 
@@ -311,7 +309,7 @@ Actionable notification
 
 </th></tr></thead><tbody><tr><td>
 
-Approve Sysapproval Approver
+Approve Sysapproval ApproverApprove Sysapproval Approver
 
 </td><td rowspan="3">
 
@@ -326,7 +324,7 @@ Sent to the approver about a newly created task that needs review and approval.
 
 </td></tr><tr><td>
 
-\(DEMO\) Reject Sysapproval Approver-LLM
+\(DEMO\) Reject Sysapproval Approver-LLMReject Sysapproval Approver
 
 </td></tr><tr><td>
 

@@ -3,11 +3,11 @@ title: Define custom statuses for resource assignments
 description: Define and assign custom statuses for resource assignments to mark the assignments based on your organization requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/define-custom-status-ra.html
-release: australia
+release: brazil
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -45,5 +45,5 @@ Role required: admin
     **Important:** Selecting **Save** or **Update** overwrites the selected resource status in Step 4.
 
 
-**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/configure-rmw.md)
+**Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/configure-rmw.md)
 

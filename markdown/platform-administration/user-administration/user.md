@@ -3,12 +3,12 @@ title: The User record
 description: Learn about user records and their use within the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/user.html
-release: australia
+release: brazil
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Explore, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -32,7 +32,7 @@ User records are associated with records on several other tables to control perm
 
 -   **Roles**
 
-    Roles control access to features and capabilities in applications and modules. For more information on roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
+    Roles control access to features and capabilities in applications and modules. For more information on roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
     **Note:**
 
@@ -40,32 +40,34 @@ User records are associated with records on several other tables to control perm
 
 -   **Groups**
 
-    A group is a set of users who share a common purpose. Users assigned to groups are automatically assigned to all roles associated with that group. For more details, see [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-groups.md) and [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
+    A group is a set of users who share a common purpose. Users assigned to groups are automatically assigned to all roles associated with that group. For more details, see [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/ua-creating-groups.md) and [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
 -   **Delegates**
 
-    In addition to role and group assignments, users can be assigned as delegates, giving them permission to act with the same permissions as a delegator user. See [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md) for more information on delegation.
+    In addition to role and group assignments, users can be assigned as delegates, giving them permission to act with the same permissions as a delegator user. See [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_DelegateRoles.md) for more information on delegation.
 
 -   **Skills**
 
-    Use skill management to associate users with their areas of training and expertise. For more information on skill management, see [Skill Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md).
+    Use skill management to associate users with their areas of training and expertise. For more information on skill management, see [Skill Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/skills-management.md).
 
 -   **Subscriptions**
 
-    Administrators use subscriptions to control which users have access to purchased subscriptions on their instances. Details on subscription management can be found at [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md).
+    Administrators use subscriptions to control which users have access to purchased subscriptions on their instances. Details on subscription management can be found at [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/subscription-management-landing-page-v2.md).
 
 -   **User preferences**
 
-    User accounts are also connected with user preferences. Users can save personalized preferences to configure many UI features, as well as preferences regarding the notifications they receive. Details on administering user preferences are found at [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md).
+    User accounts are also connected with user preferences. Users can save personalized preferences to configure many UI features, as well as preferences regarding the notifications they receive. Details on administering user preferences are found at [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UserPreferences.md).
 
 
 ## Date and time formatting
 
-You can set your preferred date and time formatting through the User record. If you don't specify a preference in these fields, the system applies default formatting.
+**Note:** From the Brazil release, Date format and Time format settings have been relocated from the user profile to the [Language &amp; Region](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-language-preferences.md) section within the user's Preferences. The time zone setting continues to be available in the user profile from the Brazil release.
 
-The Date format field appears in the User record by default and can be modified without specific permissions. However, the Time format field must be added to the User record by revealing additional form fields. For instructions on showing or hiding form fields, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md). If you can't modify form fields, contact your organization's user administrator to update your time format preferences.
+For releases before Brazil, you can set your preferred date and time formatting through the User record. If you don't specify a preference in these fields, the system applies default formatting.
 
-The Date and time format field in **User Menu** &gt; **Preferences** &gt; **Language &amp; Region** extends the options you select in the Date format and Time format fields of your User record. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md). Time zone settings automatically sync between the User record and your preferences.
+Before the Brazil release, the Date format field appears in the User record by default and can be modified without specific permissions. However, the Time format field must be added to the User record by revealing additional form fields. For instructions on showing or hiding form fields, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md). If you can't modify form fields, contact your organization's user administrator to update your time format preferences.
+
+The Date and time format field in **User Menu** &gt; **Preferences** &gt; **Language &amp; Region** extends the options you select in the Date format and Time format fields of your User record. For more information, see [Configure Next Experience language and region preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-language-preferences.md). Time zone settings automatically sync between the User record and your preferences.
 
 ## System and guest users
 
@@ -73,5 +75,5 @@ Some automated processes use the system or guest user to apply and track changes
 
 For example, when a user logs in for the first time in a day, some fields on that user's record are updated by the system user. These fields can include **Last login** and **Last login time**. If a user has a failed login attempt or is locked out, some fields on that user's record are updated by the guest user, such as **Failed Login Attempts** or **Locked Out**.
 
-If a record was last updated by the system or by guest users, you can identify the updated fields by enabling auditing for the table. View the audit history to see the changes. For more information, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md) and [Knowing about History sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md).
+If a record was last updated by the system or by guest users, you can identify the updated fields by enabling auditing for the table. View the audit history to see the changes. For more information, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_EnableAuditingForATable.md) and [Knowing about History sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_HistorySets.md).
 

@@ -3,11 +3,11 @@ title: Deploy Knowledge Management - Add-in for Microsoft Word
 description: Deploy the Knowledge Management - Add-in for Microsoft Word for authoring knowledge articles from within the Microsoft Word.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/deploy-km-word-manifest.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Knowledge Management - Add-in for Microsoft Word, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -50,7 +50,7 @@ Role required: admin, sn\_outlook\_addin.outlook\_addin\_setup
 **Related topics**  
 
 
-[Import a Word document to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/import-word-platform.md)
+[Import a Word document to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/import-word-platform.md)
 
-[Import a Word document to a knowledge base using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_ImportADocument.md)
+[Import a Word document to a knowledge base using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_ImportADocument.md)
 

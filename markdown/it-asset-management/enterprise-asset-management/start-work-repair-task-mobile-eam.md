@@ -3,11 +3,11 @@ title: Start working on a enterprise asset repair task using the Mobile Agent ap
 description: Indicate in the Mobile Agent application when you start work on a repair task assigned to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/start-work-repair-task-mobile-eam.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage enterprise asset repair tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
@@ -51,7 +51,7 @@ You can work on the repair tasks that belong to the following task types:
 
 On the **Details** tab, the **Start work** link changes to **Start timer**, **Record time**, and **Close** automatically.
 
-**Parent Topic:**[Manage enterprise asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/repair-orders-mobile-agent-eam.md)
+**Parent Topic:**[Manage enterprise asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/repair-orders-mobile-agent-eam.md)
 
 **Related topics**  
 

@@ -3,9 +3,9 @@ title: Application context
 description: When application developers create new records, the system automatically assigns the records to the currently selected application in the application picker.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationContext.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---

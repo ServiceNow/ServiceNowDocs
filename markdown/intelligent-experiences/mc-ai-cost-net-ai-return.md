@@ -3,11 +3,11 @@ title: AI cost and net AI return
 description: The AI Control Tower tracks the cost of your AI systems and subtracts it from the productivity value to show the net AI return. Cost is tracked by vendor from token consumption or a direct cost.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mc-ai-cost-net-ai-return.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
-breadcrumb: [Cost, Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
+breadcrumb: [Cost, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI cost and net AI return

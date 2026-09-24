@@ -3,9 +3,9 @@ title: Customer Life Cycle Management Workflows
 description: Manage the life cycle of your sold products by activating the Customer Life Cycle Management Workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-life-cycle-management-workflows.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,11 +16,13 @@ Manage the life cycle of your sold products by activating the Customer Life Cycl
 
 ## Overview of workflows
 
-The Customer Life Cycle Management Workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) application enables you to update the existing configurations, and to modify, suspend, resume, or disconnect the sold products and their complete hierarchy. The workflows are built and composed by using the lead-to-cash transactional operations like Effect, Create Instance, Delta, and Commit Instance. To learn more about the transactional operations of the Lead to Cash Core \(com.snc.l2c\_core\) plugin, see [Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md).
+The Customer Life Cycle Management Workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) application enables you to update the existing configurations, and to modify, suspend, resume, or disconnect the sold products and their complete hierarchy.
+
+The workflows are built and composed by using the lead-to-cash transactional operations like Effect, Create Instance, Delta, and Commit Instance. To learn more about the transactional operations of the Lead to Cash Core \(com.snc.l2c\_core\) plugin, see [CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-to-cash.md).
 
 ## Plugins for the Customer Life Cycle Management Workflows
 
-The following table lists the required plugins for the Life Cycle Management Workflows plugin.
+The following table lists the required plugins for the Life Cycle Management Workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) plugin.
 
 <table id="table_l4p_23q_b1c"><thead><tr><th>
 
@@ -32,11 +34,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service Install Base Management\(com.snc.install\_base\)
+Customer Install Base Management\(com.snc.install\_base\)
 
 </td><td>
 
-Enables customers to capture the current state of a customer's install base and establish the relationship to any downstream entities that might impact their functioning.To learn more about install base management, see [Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-install-base.md).
+Enables customers to capture the current state of a customer's install base and establish the relationship to any downstream entities that might impact their functioning.To learn more about install base management, see [Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-install-base.md).
 
 </td></tr><tr><td>
 
@@ -44,7 +46,7 @@ Product Catalog Management\(com.sn\_prd\_pm\)
 
 </td><td>
 
-Enables companies to define the products and services they market, sell, and deliver to customers.To learn more about product catalogs, see [Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md).
+Enables companies to define the products and services they market, sell, and deliver to customers.To learn more about product catalogs, see [Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md).
 
 </td></tr><tr><td>
 
@@ -52,12 +54,12 @@ Lead to Cash Core\(com.snc.l2c\_core\)
 
 </td><td>
 
-Enables customers to compose and build the workflows for various entities. To learn more about the Lead to Cash Core plugin, see [Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md).
+Enables customers to compose and build the workflows for various entities. To learn more about the Lead to Cash Core plugin, see [CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/lead-to-cash.md).
 
 </td></tr></tbody>
 </table>## Life Cycle workflows and configurations
 
-Perform the **Modify**, **Suspend**, **Resume**, and **Disconnect** declarative actions on the complete hierarchy of the sold products. These actions will transform and maintain their state and characteristics. You can perform these actions on the sold product entities to update the existing products or services. The declarative actions are available on the sold product related list on the account detail page on Configurable Workspace.
+Perform the **Modify**, **Suspend**, **Resume**, and **Disconnect** declarative actions on the complete hierarchy of the sold products. These actions will transform and maintain their state and characteristics. You can perform these actions on the sold product entities to update the existing products or services. The declarative actions are available on the sold product related list on the account detail page on Customer Service Workspace.
 
 **Note:** The declarative actions with the sold product to order flow are available only if the Order Management \(com.sn\_ind\_tmt\_orm\) plugin is installed.
 
@@ -119,7 +121,9 @@ Change order to sold product
 
 </td><td>
 
-After an order is marked completed, this flow triggers and thus entire product hierarchy shows the updated configuration made by the customer, along with the associated pricing adjustments that were processed through the Sold Product to order flow. For more information on pricing management, see [Components installed with Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-with-pricing-management.md).
+After an order is marked completed, this flow triggers and thus entire product hierarchy shows the updated configuration made by the customer, along with the associated pricing adjustments that were processed through the Sold Product to order flow.
+
+ For more information on pricing management, see [Components installed with Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-with-pricing-management.md).
 
  **Note:** The **\[sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management \]**property is set to **False** by default with the Order Management \(com.sn\_ind\_tmt\_orm\) plugin. However, if the Order Management for Telecommunications, Media, and Technology \(com.sn\_om\_tmt\) plugin is installed, the property value is set to **True**.
 
@@ -163,24 +167,24 @@ Configurations are a set of end-to-end flows that enable the data to flow from o
 |Sold product to Order|sn\_l2c-cust\_flows\_sp\_to\_order|Sold product|Order|
 |Order to Sold Product|sn\_l2c\_cust\_flows\_order\_to\_sp|Order|Sold product|
 
-To learn more about the configurations, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/entity-configuration-and-mapping.md).
+To learn more about the configurations, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/entity-configuration-and-mapping.md).
 
 **Related topics**  
 
 
-[Modify a sold product and hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/modify-a-sold-product.md)
+[Modify a sold product and hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/modify-a-sold-product.md)
 
-[Modify a sold product to create a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/modify_a_sold_product_to_create_a_quote.md)
+[Modify a sold product to create a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/modify_a_sold_product_to_create_a_quote.md)
 
-[Resume a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resuming_sold_products.md)
+[Resume a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/resuming_sold_products.md)
 
-[Resume multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resuming_sold_products.md)
+[Resume multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/resuming_sold_products.md)
 
-[Disconnect a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/disconnecting_sold_products.md)
+[Disconnect a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/disconnecting_sold_products.md)
 
-[Disconnect multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/disconnecting_sold_products.md)
+[Disconnect multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/disconnecting_sold_products.md)
 
-[Suspend a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supending_sold_products.md)
+[Suspend a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/supending_sold_products.md)
 
-[Suspend multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supending_sold_products.md)
+[Suspend multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/supending_sold_products.md)
 

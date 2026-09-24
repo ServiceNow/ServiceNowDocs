@@ -3,11 +3,11 @@ title: Add a user or asset to a contract
 description: You can add a user or asset to a contract to generate expense lines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_Step1AddAUserOrAssetToAContract.html
-release: australia
+release: brazil
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generating expense lines based on assets or users, Create a contract rate card, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
@@ -45,9 +45,9 @@ Role required: asset, financial\_mgmt\_user\(core UI and Hardware Asset Workspac
         2.  In the dialog box, select the check box for each asset or user that you want to add to the contract.
         3.  Click **Add**.
 
-**Parent Topic:**[Generating expense lines based on assets or users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_GenExpnsLinOnAssetsUsers.md)
+**Parent Topic:**[Generating expense lines based on assets or users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/t_GenExpnsLinOnAssetsUsers.md)
 
-**Previous topic:**[Generating expense lines based on assets or users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_GenExpnsLinOnAssetsUsers.md)
+**Previous topic:**[Generating expense lines based on assets or users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/t_GenExpnsLinOnAssetsUsers.md)
 
-**Next topic:**[Create a rate card and assign a user or asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_Step2CreatRCAsgnUseAsset.md)
+**Next topic:**[Create a rate card and assign a user or asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/contract-management/t_Step2CreatRCAsgnUseAsset.md)
 

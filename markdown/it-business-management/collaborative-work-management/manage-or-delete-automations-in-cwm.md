@@ -3,11 +3,11 @@ title: Manage or delete automations in CWM
 description: Edit, disable, or delete automations for your Boards in Collaborative Work Management based on the changing conditions of your team's workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/manage-or-delete-automations-in-cwm.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work item automations in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Edit, disable, or delete automations for your Boards in Collaborative Work Manag
 
 ## Before you begin
 
-[Create automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-and-manage-automations-in-cwm.md).
+[Create automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-and-manage-automations-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -48,5 +48,5 @@ Role required: sn\_cwm.cwm\_user
         \[Omitted image "cwm-automations-manage.jpg"\] Alt text: Edit automations.
 
 
-**Parent Topic:**[Work item automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/implementing-automations-in-collaborative-work-management.md)
+**Parent Topic:**[Work item automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/implementing-automations-in-collaborative-work-management.md)
 

@@ -3,9 +3,9 @@ title: SGC Central reference
 description: Reference topics provide additional information about SGC Central components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-reference.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [SGC Central, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -14,10 +14,10 @@ breadcrumb: [SGC Central, Integrating third-party data into CMDB, Configuration 
 
 Reference topics provide additional information about SGC Central components.
 
--   **[Components installed with SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-installed-components.md)**  
+-   **[Components installed with SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-installed-components.md)**  
 Several types of components are installed with activation of the SGC Central \(sn\_sgc\_central\) plugin, including tables, user roles, and scheduled jobs.
--   **[Domain separation and SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-domain-separation.md)**  
+-   **[Domain separation and SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-domain-separation.md)**  
 Domain separation is unsupported for SGC Central. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-landing.md)
+**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-landing.md)
 

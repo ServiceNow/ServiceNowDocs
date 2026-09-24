@@ -3,11 +3,11 @@ title: Automated root cause analysis
 description: Find where and why inefficiencies occur within your processes using automated root cause analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/auto-rca.html
-release: australia
+release: brazil
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
@@ -24,12 +24,12 @@ Run root cause analysis from your Insights or on specific map connections within
 
 Process owners and admins can customize automated root cause analysis to specify which fields are analysed, and optionally configure the analysis to run automatically.
 
--   **[Configure automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/config-finding-def-auto-rca.md)**  
+-   **[Configure automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/config-finding-def-auto-rca.md)**  
 Configure automated root cause analysis from the process configuration record.
--   **[Run automated root cause analysis reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/run-view-arca.md)**  
+-   **[Run automated root cause analysis reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/run-view-arca.md)**  
 Execute automated root cause analysis to optimize your processes.
--   **[Review and interpret automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/review-rca.md)**  
+-   **[Review and interpret automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/review-rca.md)**  
 Review the analysis report and understand the root cause of performance issues. Use this information to optimize your processes.
 
-**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 

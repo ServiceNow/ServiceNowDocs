@@ -3,7 +3,7 @@ title: Quote transaction rules and rule groupings
 description: Rules in ServiceNow Quote Experience evaluate conditions and perform actions on quote fields and layouts. Rule groupings bundle rules together to run at stages and events in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-rules-and-rule-groups.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-05-07"
 reading_time_minutes: 8
@@ -243,12 +243,5 @@ Rule groupings are collections of rules that execute together. A rule grouping c
 
 For rules to execute on a quote, an administrator must associate a rule grouping with a stage or event. Using rule groupings allows the same set of rules to be reused across multiple stages and events without duplicating rule definitions.
 
-For information about creating a rule grouping and associating rules with it, see [Create a transaction rule grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-rule-grouping.md).
-
--   **[Create a transaction rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-rule.md)**  
-Create a rule in ServiceNow Quote Experience to define conditions and actions that control field behavior and layout presentation on a quote in CPQ.
--   **[Create a transaction rule grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-rule-grouping.md)**  
-Create a rule grouping to bundle rules together for assignment to stages and events in CPQ.
-
-**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
+For information about creating a rule grouping and associating rules with it, see [Create a transaction rule grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-create-rule-grouping.md).
 

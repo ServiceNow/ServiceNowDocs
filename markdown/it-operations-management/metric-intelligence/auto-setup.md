@@ -3,11 +3,11 @@ title: Automated Metric Intelligence setup
 description: When you initially set up Metric Intelligence, you can automate many of the setup steps. For example, the automated setup configures a MID Server for Metric Intelligence and creates a MID Server distributed cluster which contains that MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/auto-setup.html
-release: australia
+release: brazil
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -59,5 +59,5 @@ If automatic setup fails, you can create a MID Server distributed cluster manual
 **Related topics**  
 
 
-[MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md)
+[MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md)
 

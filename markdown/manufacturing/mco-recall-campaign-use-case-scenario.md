@@ -3,9 +3,9 @@ title: Recall campaign use case
 description: Use case scenarios demonstrate when and how to use the Recall Campaign application to create a recall campaign. It provides practical examples of common recall management situations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-recall-campaign-use-case-scenario.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Recall campaign, MCO core, Explore, Manufacturing Commercial Operations]
 ---
@@ -36,7 +36,7 @@ Chloe, the Global Recall Manager at Alectri, uses Manufacturing Commercial Opera
 3.  Target: Use asset filters to isolate affected vehicles \(2024 models with defective airbags\) and create regional phases with local owners and timelines.
 4.  Publish and Monitor: Validate phases, publish to dealer portal, and track claims and corrective actions in real-time.
 
-The [Recall management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-management.md) provides real-time visibility into all campaigns, claims, and affected assets throughout the recall life-cycle.
+The [Recall management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-recall-management.md) provides real-time visibility into all campaigns, claims, and affected assets throughout the recall life-cycle.
 
 Benefits
 

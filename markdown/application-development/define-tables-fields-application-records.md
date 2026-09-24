@@ -3,9 +3,9 @@ title: Specify data for your application
 description: In its most basic form, building applications on the ServiceNow AI Platform means you're storing and using data in some way. Defining your application's data model is up to you and is based on the type of application you want to build.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/define-tables-fields-application-records.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Planning your application, Building applications]
 ---
@@ -24,15 +24,15 @@ You can use any combination of the following three methods to define your applic
 
 These concepts are explained in further detail in the App Engine Studio, Table Builder, and Table administration documentation.
 
--   **[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md)**
+-   **[Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/add-data.md)**
 
     Add data to apps that you build in App Engine Studio.
 
--   **[Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md)**
+-   **[Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_TableAdministration.md)**
 
     Table administration currently contains more comprehensive functionality and options for managing tables.
 
--   **[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)**
+-   **[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)**
 
     Table Builder offers an intuitive way to visually build tables and forms in the ServiceNow AI Platform.
 

@@ -3,13 +3,13 @@ title: Value tab in the Evaluation dashboard
 description: The Value tab in the Evaluation dashboard displays the value, efficiency, and time savings of the virtual agent. The information on this tab gives you a transparent and reliable estimation of the value delivered by the virtual agent, focusing on a quality-adjusted calculation of the time saved for users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-eval-value.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Value tab in the Evaluation dashboard
@@ -32,7 +32,7 @@ The following widgets are available:
     -   Large-size conversations: Conversations with more than 10 messages from the user.
     -   Medium-size conversations: Conversations with more than 4 but fewer than 10 messages from the user.
     -   Small-size conversations: Conversations with 4 or fewer messages from the user.
-    **Note:** To change the definition of small, medium, and large conversations, update the property **sn\_na\_conv\_eval.value\_chat\_classifier**. For more information, see [Components installed with the Evaluation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-components.md).
+    **Note:** To change the definition of small, medium, and large conversations, update the property **sn\_na\_conv\_eval.value\_chat\_classifier**. For more information, see [Components installed with the Evaluation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-components.md).
 
     \[Omitted image "ai-eval-value-05.png"\] Alt text: Breakdown by conversation chat sizes.
 
@@ -133,5 +133,5 @@ Role required: admin
 **Related topics**  
 
 
-[Evaluation dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-eval-references.md)
+[Evaluation dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-eval-references.md)
 

@@ -3,11 +3,11 @@ title: ServiceNow Studio and legacy products
 description: If you previously used Guided Application Creator or the legacy Studio product to develop apps, use ServiceNow Studio to continue your app development. ServiceNow Studio replaces both products with a unified development environment on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-and-legacy-products.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -30,7 +30,7 @@ Both Guided Application Creator \(GAC\) and legacy Studio are supported until a 
 
 ServiceNow Studio provides a unified environment where you can find, organize, and edit your work using a consistent navigation structure and metadata taxonomy. Every development tool you need is accessible in one place, so you can switch between tools without leaving ServiceNow Studio. When your app is ready to deploy, manage the deployment using update sets or pipelines. ServiceNow Studio also includes native support for ServiceNow Otto, providing access to generative AI capabilities and low-code development tools.
 
-As of version 29.2.11, ServiceNow IDE capabilities have been integrated into ServiceNow Studio. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
+As of version 29.2.11, ServiceNow IDE capabilities have been integrated into ServiceNow Studio. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
 
 ## ServiceNow Studio and changed functionality
 
@@ -46,5 +46,5 @@ Some features in ServiceNow Studio become available only after you create a scop
 
 To get started, select **Create** and create your scoped app. On the App details page, select **Create** to create metadata files and associate them to your app.
 
-After you create your application, return to the ServiceNow Studio home page and refresh the browser. The Search bar and **Create** &gt; **App/File** options are now available for scoped application development. For more information about roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
+After you create your application, return to the ServiceNow Studio home page and refresh the browser. The Search bar and **Create** &gt; **App/File** options are now available for scoped application development. For more information about roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).
 

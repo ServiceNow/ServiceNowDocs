@@ -3,11 +3,11 @@ title: Build Agent plugins
 description: Plugins are required for Build Agent, and vary by version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-plugins.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -21,19 +21,18 @@ Build Agent is available in both ServiceNow Studio and the ServiceNow IDE.
 
 ## Plugins for Build Agent \(Trial/Free\)
 
-Build Agent is available as a trial app on a freemium model. To install Build Agent \(Trial\), visit the [ServiceNow Store](https://www.servicenow.com/products/vibe-coding.html#benefits).
+Build Agent is available as a trial app on a freemium model, and is automatically installed on all instances.
 
 The following plugins are required:
 
-1.  `sn_glider`: the only required plugin for Build Agent in the Australia EA \(Australia patch 0\) version
-2.  `sn_build_agent`: required for Australia starting with Patch 1
+1.  `sn_glider`
+2.  `sn_build_agent`
 
 ## Plugins for Build Agent \(Premium\)
 
 If you exceed the free interaction limit, you must wait 30 days for a reset, or install the paid version of Build Agent.
 
-1.  For Australia starting with Patch 1, the `sn_now_creator` plugin is required, which contains the `sn_build_agent_pro` plugin.
-2.  For the Australia EA \(Australia patch 0\) version, you must manually update ServiceNow Studio and the Unified Developer Core \(UDC\) in the ServiceNow Store before installing ServiceNow Otto for Creator.
+The `sn_now_creator` plugin is required, which contains the `sn_build_agent_pro` plugin.
 
-**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/configure-build-agent.md)
 

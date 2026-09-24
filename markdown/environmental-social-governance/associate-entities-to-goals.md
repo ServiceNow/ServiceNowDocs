@@ -3,9 +3,9 @@ title: Associate entities to goals
 description: After you create the goals, you must associate those entities, which you want to track, to the goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/associate-entities-to-goals.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an Operational Sustainability Management \(formerly ESG Management\) goal, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -33,5 +33,5 @@ Role required: sn\_esg.program.manager
     2.  Select **Add**.
 
 
-**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-goal.md)
+**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-esg-goal.md)
 

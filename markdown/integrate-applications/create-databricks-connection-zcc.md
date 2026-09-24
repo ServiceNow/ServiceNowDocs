@@ -3,11 +3,11 @@ title: Create a Databricks connection
 description: Establish a zero copy connection to the Databricks data analytics platform in Zero Copy Connector Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-databricks-connection-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Databricks, Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Databricks, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a Databricks connection
@@ -111,15 +111,15 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Databricks.
 
-<table id="choicetable_h3q_4wg_b3c"><thead><tr><th align="left" id="d175715e257">
+<table id="choicetable_h3q_4wg_b3c"><thead><tr><th align="left" id="d174410e257">
 
 Option
 
-</th><th align="left" id="d175715e260">
+</th><th align="left" id="d174410e260">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d175715e266">
+</th></tr></thead><tbody><tr><td id="d174410e266">
 
 **Databricks Service Principal**
 
@@ -133,7 +133,7 @@ Option to use Databricks as the OAuth provider.
 2.  Enter the secret key associated with the client ID.
 
 
-</td></tr><tr><td id="d175715e290">
+</td></tr><tr><td id="d174410e290">
 
 **Azure Service Principal**
 
@@ -148,7 +148,7 @@ Option to use Azure Entra ID as the OAuth provider.
 3.  Enter the secret key associated with the client ID.
 
 
-</td></tr><tr><td id="d175715e317">
+</td></tr><tr><td id="d174410e317">
 
 **Access Token**
 
@@ -158,7 +158,7 @@ Option to use a pre-configured OAuth entity profile.
 
  Select this option if you created a record in the Application Registries \[oauth\_entity\] table with a Databricks or IdP service principal for authentication.
 
- This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
+ This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
 
  Select the OAuth entity profile for your Databricks or IdP service principal.
 
@@ -179,7 +179,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

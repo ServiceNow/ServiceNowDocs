@@ -3,9 +3,9 @@ title: Configure customer data models for B2B2C
 description: Enable business customers to support their end consumers by creating cases and tracking services for products and offerings, using the business-to-business-to-consumer \(B2B2C\) data model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-customer-data-model-b2b2c.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -26,5 +26,5 @@ With the business-to-business-to-consumer \(B2B2C\) model, you can support busin
 **Related topics**  
 
 
-[Customer service business models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-data-models.md)
+[Customer service business models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-data-models.md)
 

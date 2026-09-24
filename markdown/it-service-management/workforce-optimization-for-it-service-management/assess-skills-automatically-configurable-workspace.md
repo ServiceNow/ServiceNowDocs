@@ -3,11 +3,11 @@ title: Assess the quality of your agent's completed tasks
 description: Assess the ability of your agents to resolve incidents or the quality of their completed tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/assess-skills-automatically-configurable-workspace.html
-release: australia
+release: brazil
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Surveys, Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Assess the ability of your agents to resolve incidents or the quality of their c
 
 ## Before you begin
 
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** Starting with the Brazil release, User Surveys in Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 You can create an assessment from an interaction or any task type. When you manually create an assessment, you can add a survey to it. Coaching assessments also get created and assigned to the coach based on the trigger conditions that are defined in coaching opportunities.
 
@@ -26,7 +26,7 @@ Role required: sn\_coaching.coach
 
 ## About this task
 
-If the [coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-create-coaching-opportunity.md) includes a survey, you can opt to take the survey and the assessment. When you use a survey to [assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-assess-trainee.md), the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
+If the [coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-create-coaching-opportunity.md) includes a survey, you can opt to take the survey and the assessment. When you use a survey to [assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-assess-trainee.md), the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
 
 The Coaching Overview screen displays the average quality of the tasks that were completed in the past 30 days for your assignment groups.
 
@@ -40,15 +40,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 2.  Perform adhoc assessments or the ones triggered by coaching opportunities.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d332838e125">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d339465e126">
 
 To
 
-</th><th align="left" id="d332838e128">
+</th><th align="left" id="d339465e129">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d332838e134">
+</th></tr></thead><tbody><tr><td id="d339465e135">
 
 **Perform adhoc assessments**
 
@@ -60,7 +60,7 @@ Do this
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d332838e164">
+</td></tr><tr><td id="d339465e165">
 
 **Use assessments triggered by coaching opportunities**
 
@@ -170,5 +170,5 @@ Training to assign to the trainee.You can also assign learning tasks from course
     -   To complete the adhoc assessment, click **Save**.
     -   To complete assessments creating using coaching opportunities, click **Complete assessment**.
 
-**Parent Topic:**[Surveys in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.md)
+**Parent Topic:**[Surveys in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.md)
 

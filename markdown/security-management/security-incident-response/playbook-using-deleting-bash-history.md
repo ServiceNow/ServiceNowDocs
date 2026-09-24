@@ -3,11 +3,11 @@ title: Use the User Deleting Bash History playbook
 description: Use this playbook to investigate incidents that indicate if someone was trying to remove the bash history file from a Linux server. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the User Deleting the Bash History \(.bash\_history\) playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-deleting-bash-history.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for User Deleting Bash History - Cloud, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -63,5 +63,5 @@ Role required:
 4.  In Action 18, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for User Deleting Bash History - Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-deleting-bash-history.md)
+**Parent Topic:**[Playbook for User Deleting Bash History - Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/playbook-deleting-bash-history.md)
 

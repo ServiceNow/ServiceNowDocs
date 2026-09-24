@@ -3,11 +3,11 @@ title: Create custom labor costs and map them to sys\_id
 description: Create and map custom labor costs to sys\_id to generate labor costs based on the relevant expenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/laborcosts-sysid-mapping-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure financials for Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---

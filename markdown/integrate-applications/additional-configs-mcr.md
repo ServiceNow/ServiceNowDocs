@@ -3,11 +3,11 @@ title: Additional connector configurations
 description: Some connectors may require additional configurations while registering client manually. These connectors and their required configurations are listed here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/additional-configs-mcr.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric]
+breadcrumb: [Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Additional connector configurations

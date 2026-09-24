@@ -3,13 +3,13 @@ title: Configure a wishlist and cart for your portal header
 description: Display a wishlist and cart on your portal header.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-header-wishlist.html
-release: australia
+release: brazil
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Portal Polaris Header widget for your portal, Portal Polaris Header widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure the Portal Polaris Header widget for your portal, Portal Polaris Header widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure a wishlist and cart for your portal header
@@ -32,7 +32,7 @@ Role required: sp\_admin
 
     4.  Select **Open Record** on the Instance with Menu pop-up window.
 
-    5.  On the Instance with Menu page, in the **Additional options, JSON format** field, modify the JSON as shown.
+    5.  On the Portal revamp demo menu page, in the **Additional options, JSON format** field, modify the JSON as shown.
 
         ```
         {

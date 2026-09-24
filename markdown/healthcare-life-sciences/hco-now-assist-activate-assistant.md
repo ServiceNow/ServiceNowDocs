@@ -3,11 +3,11 @@ title: Activate AI Assistant for Care Team Portal
 description: Enable AI Assistant functionality in the Care Team Portal to provide intelligent assistance and support for healthcare workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-activate-assistant.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Activate AI Assistant for Care Team Portal

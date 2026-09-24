@@ -3,11 +3,11 @@ title: Key management for Edge Encryption
 description: You are responsible for providing and managing the encryption keys used by Edge Encryption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/c\_EncryptionKeyManagement.html
-release: australia
+release: brazil
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Exploring Edge Encryption, Edge Encryption, Encryption]
 
 You are responsible for providing and managing the encryption keys used by Edge Encryption.
 
-This topic refers to keys for the Edge Encryption product. If you are looking for information on the Key Management Framework, which can be used with Field Encryption, see [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md).
+This topic refers to keys for the Edge Encryption product. If you are looking for information on the Key Management Framework, which can be used with Field Encryption, see [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/understanding-kmf.md).
 
 When obtaining and creating encryption keys to support the encryption types used by Edge Encryption, consider the following:
 
@@ -50,8 +50,8 @@ The Edge Encryption proxy ships with the Java JCEKS KeyStore file named `keystor
 
 In addition to the encryption keys, the Java JCEKS KeyStore is used to store the RSA key pair for digitally signing the encryption configuration and encryption rules that are stored in the instance, and the digital certificate that the Edge Encryption proxy uses to establish a secure connection with the browsers and any other clients.
 
--   **[SafeNet key versioning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/safenet-key-versioning.md)**  
+-   **[SafeNet key versioning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/safenet-key-versioning.md)**  
 Use SafeNet key versioning to simplify changing keys. Instead of creating an alias for every new key, SafeNet key versioning keeps the same alias and increments the version.
 
-**Parent Topic:**[Exploring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)
+**Parent Topic:**[Exploring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)
 

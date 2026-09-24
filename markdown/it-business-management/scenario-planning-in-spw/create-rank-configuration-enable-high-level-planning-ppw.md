@@ -3,11 +3,11 @@ title: Create RIDAC item for a goal
 description: Create RIDAC items \(Risks, Issues, Decisions, Actions, Changes\) for a goal to track and manage governance across the goal lifecycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-rank-configuration-enable-high-level-planning-ppw.html
-release: australia
+release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---

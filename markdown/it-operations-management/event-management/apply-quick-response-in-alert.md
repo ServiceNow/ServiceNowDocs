@@ -3,11 +3,11 @@ title: Apply a quick response in an alert
 description: In an alert, use the Quick Response feature to apply remediation to the alert or to launch a web application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/apply-quick-response-in-alert.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [View alert information, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 **Quick Response** is a feature that enables you to perform a quick action on the selected alert. The action is to apply remediation or to launch an application. If you have upgraded from Istanbul or earlier, this feature is a combination of the **Remediation** and **Launch an application** features.
 
-If you select a remediation link when invoking a Quick Response, a workflow is executed according to the criteria specified in the alert management rule. Click a launch application link to launch the web application that was configured in the alert management rule. For further information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
+If you select a remediation link when invoking a Quick Response, a workflow is executed according to the criteria specified in the alert management rule. Click a launch application link to launch the web application that was configured in the alert management rule. For further information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ If you select a remediation link when invoking a Quick Response, a workflow is e
 
     If the link that you require is not available, perform one of these actions.
 
-<table id="choicetable_ehj_lwd_lz"><tbody><tr><td id="d713277e125">
+<table id="choicetable_ehj_lwd_lz"><tbody><tr><td id="d719381e125">
 
 **For Remediation, define a remediation task using an Alert rule based on the selected alert**
 
@@ -53,9 +53,9 @@ If you select a remediation link when invoking a Quick Response, a workflow is e
     -   For **Orchestration**, in the workflow settings, select **Remediation Task \[em\_remediation\_task\]** in the **Table** field.
     -   After you finish configuring the orchestration workflow, publish it.
 7.  Click **Update**.
- For further information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
+ For further information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
 
-</td></tr><tr><td id="d713277e204">
+</td></tr><tr><td id="d719381e204">
 
 **For Launch Application, create a web application link using an Alert rule based on the selected alert**
 
@@ -68,18 +68,18 @@ If you select a remediation link when invoking a Quick Response, a workflow is e
 5.  In the **Display Name** field, specify a name for the link.
 6.  In the **URL** field, compose the URL using data from the alert in the format: `${source}.com:${port}/${cmdb_ci.name}`
 7.  Click **Update**.
- For further information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
+ For further information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
-To create a remediation task or web application link, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
+To create a remediation task or web application link, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
 
-**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
+**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewAlert.md)
 
 **Related topics**  
 
 
-[Launch web application from alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMLaunchAnApplication.md)
+[Launch web application from alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMLaunchAnApplication.md)
 

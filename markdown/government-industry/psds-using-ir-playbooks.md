@@ -1,22 +1,22 @@
 ---
-title: Using Information Request Playbook
-description: If you're an information request case agent or manager, you can use the Information Request Playbook for Public Sector Digital Services to manage and resolve requests for information and public records.
+title: Using Information Request Administration
+description: If you're an information request case agent or manager, you can use the Information Request Administration for Public Sector Digital Services to manage and resolve requests for information and public records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-ir-playbooks.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using Information Request Playbook
+# Using Information Request Administration
 
-If you're an information request case agent or manager, you can use the Information Request Playbook for Public Sector Digital Services to manage and resolve requests for information and public records.
+If you're an information request case agent or manager, you can use the Information Request Administration for Public Sector Digital Services to manage and resolve requests for information and public records.
 
 A playbook provides you with step-by-step guidance through the life cycle of an information request case.
 
-The Information Request Playbook automatically appears in the **Playbook** tab when you create an information request case by using the CRM Workspace.
+The Information Request Administration automatically appears in the **Playbook** tab when you create an information request case by using the CRM Workspace.
 
 A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete. When using a playbook, you can:
 
@@ -29,7 +29,7 @@ The workflows for a type of case and the activities that you need to resolve the
 
 ## Playbook stages
 
-The Information Request Playbook stages are listed in the following table.
+The Information Request Administration stages are listed in the following table.
 
 |Task|Description|
 |----|-----------|
@@ -42,7 +42,7 @@ The Information Request Playbook stages are listed in the following table.
 
 A playbook is made up of several areas, including the playbook life cycle, the playbook work area, and the contextual side panel. The activity view determines how the stages and activities appear in the playbook.
 
-The default activity view for the Information Request Playbook is the Process-based experience view. This view, which is shown in the following example, shows constituent or business information and case task information at the forefront of the playbook work area as you work on it.
+The default activity view for the Information Request Administration is the Process-based experience view. This view, which is shown in the following example, shows constituent or business information and case task information at the forefront of the playbook work area as you work on it.
 
 The process-based playbook layout shows the following features:
 
@@ -103,7 +103,7 @@ Contextual side panel
 -   Includes the tabs that you can use to display the following types of information:
     -   Case or case task activity stream.
     -   Ribbon information such as the case overview, customer details, timeline, and service level agreements \(SLAs\).
-    -   Dynamic related records. For more information, see [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-playbook-viewing-rel-records.md).
+    -   Dynamic related records. For more information, see [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-playbook-viewing-rel-records.md).
 
 </td></tr><tr><td>
 

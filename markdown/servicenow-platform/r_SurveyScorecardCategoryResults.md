@@ -3,9 +3,9 @@ title: Survey scorecard category results
 description: The Category Results view is a stacked bar chart showing survey results for all questions in an individual category or all categories by respondent count.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_SurveyScorecardCategoryResults.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View a survey scorecard, Survey responses and results, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ To view details about a specific response, point to the colored bar to display t
 
 \[Omitted image "SurveyScorecardResultDetail.png"\] Alt text: Survey scorecard category results detail
 
-**Parent Topic:**[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAScorecard.md)
+**Parent Topic:**[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_ViewAScorecard.md)
 
 **Related topics**  
 

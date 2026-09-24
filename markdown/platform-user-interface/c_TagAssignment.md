@@ -3,9 +3,9 @@ title: Assigning tags
 description: You can assign tags to records from the form or list view. You can also add tags to a homepage. Tags enable you to group and organize the items.You can assign one or more tags to a record directly from the list view.You can assign one or more tags to a record using the action menu in a list.You can assign one or more tags from the list context menu.You can assign one or more tags to a record using the More options menu in the form header.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_TagAssignment.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Tags, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ The list view provides multiple ways of assigning tags. You can assign tags with
 
 **Note:** Tag names are case-insensitive and must not include punctuation.
 
-**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_Tags.md)
 
 ## Assign a tag from the list view using inline field editing
 
@@ -117,7 +117,7 @@ Role required: none
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_w54_wkq_fs"><tbody><tr><td id="d102046e459">
+<table id="choicetable_w54_wkq_fs"><tbody><tr><td id="d102272e459">
 
 **Assign an existing tag**
 
@@ -125,7 +125,7 @@ Role required: none
 
 Begin typing the tag name and select the tag.
 
-</td></tr><tr><td id="d102046e468">
+</td></tr><tr><td id="d102272e468">
 
 **Create a tag**
 

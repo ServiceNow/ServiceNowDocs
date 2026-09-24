@@ -3,11 +3,11 @@ title: Add a custom field mapping in the staging table for Service Graph Connect
 description: With the Service Graph Connector for Microsoft Excel, add a custom field to the staging table and map the custom field to the configuration item \(CI\) field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/add-new-column-mappings-excel-service-graph.html
-release: australia
+release: brazil
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring the Service Graph Connector for Microsoft Excel, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -18,9 +18,9 @@ With the Service Graph Connector for Microsoft Excel, add a custom field to the 
 
 ## Before you begin
 
-To configure the form layout, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+To configure the form layout, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
-To create a custom field on the staging table, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
+To create a custom field on the staging table, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreatingNewFields.md).
 
 Roles required:
 
@@ -71,6 +71,8 @@ Roles required:
 
 15. From the ETL Transform Map Assistant page, in the Prepare Source Data for Mapping section, select **Preview and prepare data**.
 
+    \[Omitted image "prepare-source-data.png"\] Alt text: Preview and prepare data.
+
     If the column isn’t visible, repeat the steps 11 through 14.
 
 16. Select **Mark as Complete**.
@@ -79,9 +81,9 @@ Roles required:
 
 18. Map the column to the target class and attribute.
 
-    For example, the **Comments** field is present on the Hardware \[cmdb\_ci\_hardware\] class. After the field is mapped, the **Comments** field on Hardware child classes is updated if the value for the Comments column in the staging table for that row isn’t empty.
+    For example, the **Comments** field is present on the Hardware \[cmdb\_ci\_hardware\] class. After the field is mapped, the **Comments** field on Hardware child classes is updated. The update occurs if the value for the Comments column in the staging table for that row isn’t empty.
 
-    If you're adding a mapping for a new field that isn't present, or for a field that isn't specific to the Hardware cmdb\_ci\_hardware class and instead is a field in the Operational Technology \(cmdb\_ci\_ot\) class, you can add the field mapping in the Operational Technology \(OT\) 1 stub.
+    If you're adding a mapping for a new field that isn't present, or for a field that isn't specific to the Hardware cmdb\_ci\_hardware class. Instead it is a field in the Operational Technology \(cmdb\_ci\_ot\) class, you can add the field mapping in the Operational Technology \(OT\) 1 stub.
 
     1.  Add a field mapping to the Hardware 1 class.
 
@@ -100,6 +102,8 @@ Roles required:
     \[Omitted image "map-hardware-1-new-comments-field.png"\] Alt text: New comments field added.
 
 21. From the Data pane, drag the data pill to the Comments **Source Column** field.
+
+    \[Omitted image "map-cmdb.png"\] Alt text: Map to hardware.
 
     You can also select the source column icon \( \[Omitted image "source-column-icon.png"\] Alt text: Source column icon. \) to select the data-mapping field for it.
 
@@ -127,12 +131,16 @@ Roles required:
 
     5.  Select **Mark as Complete**.
 
+        \[Omitted image "test-rollback-integration.png"\] Alt text: After the Test and Rollback Integration Results successfully runs, confirm that the Excel sheet is updated.
+
     6.  Select **Perform Rollback**.
+
+        \[Omitted image "rollback-options-plc.png"\] Alt text: Select Perform Rollback.
 
     7.  If the ETL isn’t activated, select **Activate**.
 
     The new column field mapping is successfully added and verified.
 
 
-**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
+**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

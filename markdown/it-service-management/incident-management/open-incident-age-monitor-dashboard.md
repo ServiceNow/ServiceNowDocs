@@ -3,11 +3,11 @@ title: Legacy: Open Incidents Age Monitor dashboard
 description: View average age and assignment times and breakdown incidents in different age buckets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/open-incident-age-monitor-dashboard.html
-release: australia
+release: brazil
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy: Incident Management Platform Analytics Solutions, Reporting incidents, Incident Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ View average age and assignment times and breakdown incidents in different age b
 
 **Important:**
 
-Starting in Xanadu release, the Open Incidents Age Monitor dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the average age and assignment times and breakdown incidents in different age buckets.
+Starting in Xanadu release, the Open Incidents Age Monitor dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident.md) to view the average age and assignment times and breakdown incidents in different age buckets.
 
 \[Omitted image "open-incidents-age-monitor.png"\] Alt text: Open incidents age monitor workbench widget
 
@@ -60,5 +60,5 @@ The following indicators are not shown directly on the dashboard but are used in
 -   Assignment Group
 -   State
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/incident-content-pack.md)
 

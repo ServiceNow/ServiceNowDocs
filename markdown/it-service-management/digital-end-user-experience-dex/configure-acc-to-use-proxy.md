@@ -3,11 +3,11 @@ title: Configure ACC to use a proxy for all traffic
 description: Configure the Agent Client Collector \(ACC\) to use a proxy for all traffic by setting environment variables. Using a proxy helps you enhance security, monitor and control internet usage, improve performance through caching, protect privacy, and enforce compliance with your organization's policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/configure-acc-to-use-proxy.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure acc proxy, acc proxy settings, proxy traffic, route acc through proxy, agent client collector proxy, proxy authentication]
 breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT Service Management]
@@ -40,15 +40,15 @@ Proxy setup is needed in the following use cases:
 
 1.  Run diagnostics to verify that the endpoint can reach ServiceNow before making changes.
 
-<table id="choicetable_onx_ylc_1fc"><thead><tr><th align="left" id="d367834e126">
+<table id="choicetable_onx_ylc_1fc"><thead><tr><th align="left" id="d375781e126">
 
 Option
 
-</th><th align="left" id="d367834e129">
+</th><th align="left" id="d375781e129">
 
 Command
 
-</th></tr></thead><tbody><tr><td id="d367834e135">
+</th></tr></thead><tbody><tr><td id="d375781e135">
 
 **Windows**
 
@@ -56,7 +56,7 @@ Command
 
 PowerShell: `.\servicenow-net-check.ps1`
 
-</td></tr><tr><td id="d367834e147">
+</td></tr><tr><td id="d375781e147">
 
 **macOS**
 
@@ -128,5 +128,5 @@ curl -i https://install.service-now.com/
 8.  Inspect the output of the cURL to see if the command succeeded using the proxy.
 
 
-**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
+**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
 

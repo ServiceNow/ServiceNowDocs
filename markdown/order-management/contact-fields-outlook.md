@@ -3,9 +3,9 @@ title: Contact form in the ServiceNow CRM for Outlook add-in
 description: Field descriptions for creating a contact record from the ServiceNow CRM for Outlook add-in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/contact-fields-outlook.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [contact fields, ServiceNow CRM for Outlook]
 breadcrumb: [Activity Management reference, Sales automation, Reference, Sales Customer Relationship Management]
@@ -28,10 +28,10 @@ Field descriptions for creating a contact record from the ServiceNow CRM for Out
 |Language|Preferred language of the contact. This field is set to the system setting by default.|
 |Notification|Option to enable notifications for this contact.|
 
-**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)
+**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/activity-management-reference.md)
 
 **Related topics**  
 
 
-[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)
+[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/associate-email-crm-outlook.md)
 

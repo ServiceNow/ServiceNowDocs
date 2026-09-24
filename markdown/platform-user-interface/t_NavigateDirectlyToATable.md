@@ -3,9 +3,9 @@ title: Navigate directly to a table
 description: You can use commands in the navigation filter to navigate directly to the list, form, or configuration view of a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_NavigateDirectlyToATable.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -42,5 +42,5 @@ Commands work only for tables you are permitted to access.
 2.  In Core UI, press the Enter key.
 
 
-**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_CommonUIElements.md)
+**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/p_CommonUIElements.md)
 

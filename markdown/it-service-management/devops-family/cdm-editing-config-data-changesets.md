@@ -3,11 +3,11 @@ title: Viewing and editing config data
 description: You can update the config data of an application by creating or opening a changeset on the Config data tab, where you update the structure and CDIs of the config data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-editing-config-data-changesets.html
-release: australia
+release: brazil
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 
 You can update the config data of an application by creating or opening a changeset on the **Config data** tab, where you update the structure and CDIs of the config data.
 
-**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 ## Tabs on the Application page
 
@@ -64,7 +64,7 @@ After you open a changeset by selecting **Edit config data**, you can edit the c
     -   **Delete Changeset**: Delete the record of the changeset.
     -   **Commit Changeset**:  The system generates a snapshot of each deployable that is affected by the changes.
 
-        **Note:** Because changes in two changesets that are open at the same time can conflict, the system blocks such commits. See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md).
+        **Note:** Because changes in two changesets that are open at the same time can conflict, the system blocks such commits. See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md).
 
 -   **F: Header for the changeset**
 
@@ -117,7 +117,7 @@ State
 
 -   Committed: This draft of the changeset has been committed.
 -   Open: The changeset is being updated and is not committed.
--   Blocked: Other commits conflict with this commit. The changeset cannot be committed. See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md).
+-   Blocked: Other commits conflict with this commit. The changeset cannot be committed. See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md).
 -   Commit in progress: A draft of the changeset that is currently being committed.
 
 </td></tr><tr><td>

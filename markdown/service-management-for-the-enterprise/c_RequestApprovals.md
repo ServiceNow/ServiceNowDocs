@@ -3,9 +3,9 @@ title: Request approvals
 description: Approving a request in an SM application means that the request is ready for task creation and assignment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_RequestApprovals.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request Management in a Service Management application, Service Management]
 ---
@@ -63,5 +63,5 @@ The request is no longer required, because another request has already performed
  **This is a duplicate \[SM application\] request.**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/rm-sm-application.md)
+</table>**Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-management-for-the-enterprise/rm-sm-application.md)
 

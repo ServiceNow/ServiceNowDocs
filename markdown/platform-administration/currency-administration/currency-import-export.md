@@ -3,11 +3,11 @@ title: Default currency values in import and export
 description: In general, currency values crossing the boundaries of the platform are represented in the user’s session currency and formatted in the user’s locale.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/currency-import-export.html
-release: australia
+release: brazil
 product: Currency Administration
 classification: currency-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Standard currency fields, Explore, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -29,10 +29,10 @@ This behavior can be customized in transform map scripts.
 
 Currency values can be exported in several formats, including CSV, XLSX, PDF, and XML. Depending on the export format, currency values are exported in the user’s session currency and formatted in the user’s locale or they're exported in the reference currency value with no formatting.
 
-**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
+**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 
 **Related topics**  
 
 
-[Exporting currency fields to Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ExportingCurrencyFields.md)
+[Exporting currency fields to Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_ExportingCurrencyFields.md)
 

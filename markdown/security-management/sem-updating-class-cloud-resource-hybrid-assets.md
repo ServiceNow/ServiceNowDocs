@@ -3,9 +3,9 @@ title: Updating CI class for unmatched cloud assets
 description: Starting with Vulnerability Response v20.0, you can categorize the unmatched cloud assets from Qualys, Rapid7 and Tenable scanners into Unclassed Hardware by using the sn\_sec\_cmn.unmatched\_cloud\_resource\_enabled system property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-updating-class-cloud-resource-hybrid-assets.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating CIs using the Identification and Reconciliation engine, Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -27,5 +27,5 @@ Starting with Vulnerability Response v20.0, the Asset Type column is added in th
 
 **Note:** If you modify the value of the **sn\_sec\_cmn.unmatched\_cloud\_resource\_enabled** system property, ensure to delete unmatched configuration items on the previously targeted CI class, and reapply the lookup rules. To know more about how to delete the existing CIs and reapply CI lookup rules so that the new CIs are created in the right class, see [KB1533376](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1533376).
 
-**Parent Topic:**[Creating CIs using the Identification and Reconciliation engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ci-creation-using-IRE.md)
+**Parent Topic:**[Creating CIs using the Identification and Reconciliation engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-ci-creation-using-IRE.md)
 

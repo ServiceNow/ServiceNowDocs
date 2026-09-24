@@ -3,11 +3,11 @@ title: Container start, container split, and container end
 description: The container start, container split, and container end variables define a layout for a container that can hold more variables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/contain-start-split-end.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Types of service catalog variables, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Use the container start and container end variables to define the start and end 
 
 A container layout can be split into two or three columns using the container split variable. By default, the split is calculated at the 50% mark.
 
-A container is similar to a [variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md). Unlike a variable set, containers can be used anywhere, including inside a variable set. Containers can also be nested inside each other.
+A container is similar to a [variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md). Unlike a variable set, containers can be used anywhere, including inside a variable set. Containers can also be nested inside each other.
 
 For more help with selecting the appropriate container type, see the [Determining if you are using the correct container variable \[KB0539982\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0539982) article in the HI Knowledge Base.
 
@@ -37,7 +37,7 @@ To reproduce the container shown in the following figure, enter the following se
 
 \[Omitted image "VariableContainerG.png"\] Alt text: A variable container
 
-**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
@@ -50,7 +50,7 @@ To reproduce the container shown in the following figure, enter the following se
 
 [Date, Date and time, and Duration]()
 
-[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/email.md)
 
 [HTML]()
 

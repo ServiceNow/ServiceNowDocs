@@ -3,11 +3,11 @@ title: Create a child log policy
 description: Refine an existing log policy to focus on a subset of CIs or services by creating a child policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/accl-create-child-log-policy.html
-release: australia
+release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [ACC log policies, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
 ---
@@ -52,7 +52,7 @@ The child policy inherits parameters from its parent policy that are modified af
 
 4.  Customize the child policy's parameters.
 
-    For a description of the parameters, see [Create an Agent Client Collector log policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/hla-acc-log-policies.md).
+    For a description of the parameters, see [Create an Agent Client Collector log policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/hla-acc-log-policies.md).
 
 5.  Select **Save** to create the child policy.
 

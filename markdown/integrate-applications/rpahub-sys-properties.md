@@ -3,9 +3,9 @@ title: Configure RPA Hub properties
 description: You can access system properties for RPA Hub by navigating to All Robotic Process Automation Administration Properties .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/rpahub-sys-properties.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -35,7 +35,7 @@ Enable auto assignment of Attended Robot.sn\_rpa\_fdn.allow\_rda\_robot\_auto\_a
 Auto assigns robot licenses to users from the bot process, on a first come first serve basis.-   Type: Yes \| No
 -   Default value: No
 
-For more information, see [Run an automation using Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-rda-robot.md).
+For more information, see [Run an automation using Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/run-rda-robot.md).
 
 </td><td>
 
@@ -49,7 +49,7 @@ Sets the instance and robot machine authentication mechanism.sn\_rpa\_fdn.instan
 
 Select an authentication type:-   **mTLS**: Mutual Transport Layer Security. As a prerequisite, install the user certificate.
 
-For more information about installing a user certificate, if you have the admin role, see [Install the user-generated certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-user-certificates-rpa.md).
+For more information about installing a user certificate, if you have the admin role, see [Install the user-generated certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-user-certificates-rpa.md).
 
 -   **Basic**: Authentication happens based on user name and password.
 
@@ -68,7 +68,7 @@ Restores auto session.-   Type: Yes \| No
 
 If it is set to Yes, then the **Auto Session Restore** check box on a new bot process form is selected by default. There is no impact to the existing bot processes, when this system property value is changed.
 
-For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 If enabled, when the unattended robots log in or unlock the machine to start the automation, then the machine session is restored to the original state \(log off or locked\) after the automation is completed.
 
@@ -218,7 +218,7 @@ When a new bot process is created, the default value you define in this system p
 
 This system property is only applicable only for those bot processes where the **Track Execution Logs** check box is enabled. The logs are saved locally and are synced based on the interval set in this property.
 
-For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 </td><td>
 
@@ -237,7 +237,7 @@ Defines the maximum limit for frequency, in seconds, for execution logs to synch
 
  This system property is only applicable only for those bot processes where the **Track Execution Logs** check box is enabled and the value for the **Storage** field is **Instance**.
 
- For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+ For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 </td><td>
 
@@ -256,7 +256,7 @@ If it is set to Yes, then the **Track Execution Logs** check box on a new bot pr
 
 After you enable the **Track Execution Logs** check box on a bot process form, the logs are captured when an automation is executed by either an attended or an unattended robot. These logs help in understanding the errors and the end-to-end logging of automation execution.
 
-For more information about execution logs, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+For more information about execution logs, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 </td><td>
 
@@ -275,7 +275,7 @@ In a bot process record, process jobs are purged based on this system property.
 
 Based on this system property, the maximum value for the **Job Purging \(days\)** field in a bot process is defined.
 
-For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 </td><td>
 
@@ -294,7 +294,7 @@ In a bot process record, process jobs are purged based on this system property.
 
 When a new bot process is created, the default value you define in this system property appears in the **Job Purging \(days\)** field.
 
-For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 </td><td>
 
@@ -313,7 +313,7 @@ If it is set to Yes, then the **Enable Desktop In Desktop** check box on a new b
 
 If it is set to No, then the **Enable Desktop In Desktop** check box on a new bot process form is not selected by default.
 
-For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 </td><td>
 
@@ -330,7 +330,7 @@ Forces the robot to start. -   Type: Yes \| No
 
 If it is set to Yes, then the **Force Start** check box on a new bot process form is selected by default.
 
-For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 For example, a robot R1 is assigned to multiple bot processes BP1 and BP2, and R1 is currently executing BP1. Then, if BP2, whose **sn\_rpa\_fdn.process.force\_start** system property is set to Yes, is triggered forcefully and BP1 is terminated.
 
@@ -353,7 +353,7 @@ If it is set to Yes, then the **Keep Monitor Active** check box on a new bot pro
 
 If it is set to No, then the robot machine is locked \(based on idle time settings as per the organization\), when the automation doesn't have any foreground actions such as SendKeys or Mouse click.
 
-For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 </td><td>
 
@@ -383,11 +383,11 @@ Defines the expected duration for the bot process to run.-   Type: integer
 
 If a value is defined here, then the same value appears in the **Run Time Threshold \(mins\)** field on a new bot process form.
 
-For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
+For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/select-botprocess.md).
 
 The value in the **Runtime Threshold \(Mins\)** field on the bot process form and the configuration in this system property are used for plotting the event duration in the robot calendar.
 
-For more information about the robot calendar, see [Using the robot calendar for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robot-calendar-rpa.md).
+For more information about the robot calendar, see [Using the robot calendar for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/robot-calendar-rpa.md).
 
 </td><td>
 
@@ -404,7 +404,7 @@ Ensures that the work item name is unique.-   Type: Yes \| No
 
 If it is set to Yes, then the **Is Work Item Name Unique** check box on a new queue form is selected by default. There is no impact to the existing queue records.
 
-For more information about the queue form, see [Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-form.md).
+For more information about the queue form, see [Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/queue-form.md).
 
 </td><td>
 
@@ -532,9 +532,9 @@ Restrict robots in **Assign bot process** section by machine name.-   Type: Yes 
 
 If this value is set to Yes, then you can impersonate as robot from the RPA Desktop Design Studio on that specific robot machine, along with the users added in the Assigned Studio Users tab in the Robot form, if any.
 
-If this value is set to No, then the users added in the Assigned Studio Users tab in the Robot form can impersonate as robot from the RPA Desktop Design Studio. For more information about adding the assigned studio users, see [Add assigned studio users to an unattended robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assigned-studio-users-rpa.md).
+If this value is set to No, then the users added in the Assigned Studio Users tab in the Robot form can impersonate as robot from the RPA Desktop Design Studio. For more information about adding the assigned studio users, see [Add assigned studio users to an unattended robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assigned-studio-users-rpa.md).
 
-For more information about assign bot process to an automation project, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-bot-process.md).
+For more information about assign bot process to an automation project, see [Assign bot process to an automation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/assign-bot-process.md).
 
 </td><td>
 

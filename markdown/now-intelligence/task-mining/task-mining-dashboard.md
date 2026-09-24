@@ -3,11 +3,11 @@ title: Task Mining analyses
 description: Project analyses enable you to gain insights into user activities from your categorized data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/task-mining-dashboard.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Task Mining, Platform Analytics]
 ---
@@ -26,7 +26,7 @@ Use the tabs to navigate between available analyses in your project.
 
 ## Task activity analysis
 
-The Task activity analysis shows the time spent and frequency of task-related activities within tasks that are defined to provide data for this analysis. You can view the average task duration and when and from whom data is collected in the top section of the analysis, along with other project details. Workstation user actions must be grouped as a task that can be logged to provide data for a Task activity analysis. For more information about defining tasks, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md).
+The Task activity analysis shows the time spent and frequency of task-related activities within tasks that are defined to provide data for this analysis. You can view the average task duration and when and from whom data is collected in the top section of the analysis, along with other project details. Workstation user actions must be grouped as a task that can be logged to provide data for a Task activity analysis. For more information about defining tasks, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/mine-data.md).
 
 View the data by date, categories, applications, users, and tasks to analyze task execution details at multiple levels. Use the drop-down selector to adjust the tasks that are shown in the charts as well as dates, categories, activities, and users.
 
@@ -70,11 +70,11 @@ The Overall activity analysis includes the Average time per category and Time by
 
 ## Task timeline analysis
 
-The task timeline analysis provides a detailed view of collected task activities. These tasks are the bases for taking task improvement actions. Improvement actions include opening automation requests or sharing details of the task. Workstation user actions must be grouped as a task that can be logged to provide data for a Task timeline analysis. For more information about defining tasks, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/mine-data.md).
+The task timeline analysis provides a detailed view of collected task activities. These tasks are the bases for taking task improvement actions. Improvement actions include opening automation requests or sharing details of the task. Workstation user actions must be grouped as a task that can be logged to provide data for a Task timeline analysis. For more information about defining tasks, see [Define user actions for task logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/mine-data.md).
 
-You can view the average task duration and when and from whom data is collected in the top section of the analysis, along with other project details. The analysis shows who collected the tasks, duration, the number of steps and applications used, whether the task is user-defined or custom, automation request details, and date created. If an automation request has already been opened for the task, a link to the request is provided. You can only open one automation request per task. For more information about the prerequisites for initiating automation requests, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md).
+You can view the average task duration and when and from whom data is collected in the top section of the analysis, along with other project details. The analysis shows who collected the tasks, duration, the number of steps and applications used, whether the task is user-defined or custom, automation request details, and date created. If an automation request has already been opened for the task, a link to the request is provided. You can only open one automation request per task. For more information about the prerequisites for initiating automation requests, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/integration-with-automation-center.md).
 
 \[Omitted image "tm-task-timeline-analysis.png"\] Alt text: Screenshot showing a task timeline analysis in Task Mining.
 
-Select a task to see details of the steps of the task. The task steps view shows the details of the task at the top. From this view, you can initiate automation requests or share a link to task details. For more information, see [Identify task improvement actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/identify-improvement-opportunities.md).
+Select a task to see details of the steps of the task. The task steps view shows the details of the task at the top. From this view, you can initiate automation requests or share a link to task details. For more information, see [Identify task improvement actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/identify-improvement-opportunities.md).
 

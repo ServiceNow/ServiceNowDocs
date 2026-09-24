@@ -3,11 +3,11 @@ title: Create a CAB meeting
 description: Create a Change Advisory Board \(CAB\) meeting in Service Operations Workspace to review and authorize change requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [CAB in Service Operations Workspace, CAB Workbench in Service Operations Workspace]
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
@@ -196,12 +196,12 @@ Check box to capture agenda decisions automatically on the meeting widget. The a
 6.  Select **Save**.
 
 
--   **[Add an agenda item to a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/cm-add-agenda-cab-meeting-sow.md)**  
+-   **[Add an agenda item to a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/cm-add-agenda-cab-meeting-sow.md)**  
 Add change requests to your CAB meeting agenda for review.
--   **[Manage attendees in a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/cm-manage-attendees-cab-meeting-sow.md)**  
+-   **[Manage attendees in a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/cm-manage-attendees-cab-meeting-sow.md)**  
 Manage attendees of your CAB meeting who will review the change requests during the meeting.
 
-**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/change-sow.md)
+**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/change-sow.md)
 
 **Related topics**  
 

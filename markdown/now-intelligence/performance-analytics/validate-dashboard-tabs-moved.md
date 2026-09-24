@@ -3,11 +3,11 @@ title: Validate that tabs are moved to a target dashboard
 description: When you move a dashboard with an update set, validate that the tabs are moved to the target instance and are populated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/validate-dashboard-tabs-moved.html
-release: australia
+release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Move a Core UI dashboard with an update set, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Role required: admin.
 
 ## About this task
 
-Moving dashboards from one instance to another requires associating the sys\_id values of dashboard tabs with the sys\_id values of the associated portal pages. This task explains how to find these values and map them to each other if there are problems with moving the dashboard. Perform this task after you [Move a Core UI dashboard with an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_MoveDashboardWithUpdateSet.md).
+Moving dashboards from one instance to another requires associating the sys\_id values of dashboard tabs with the sys\_id values of the associated portal pages. This task explains how to find these values and map them to each other if there are problems with moving the dashboard. Perform this task after you [Move a Core UI dashboard with an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_MoveDashboardWithUpdateSet.md).
 
 ## Procedure
 
@@ -74,6 +74,6 @@ Moving dashboards from one instance to another requires associating the sys\_id 
 
     5.  Move the update set to another instance using standard update set functionality.
 
-        For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RetrieveAnUpdateSet.md).
+        For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_RetrieveAnUpdateSet.md).
 
 

@@ -3,11 +3,11 @@ title: Set up the Azure Application Insights spoke
 description: Create a connection alias on your ServiceNow instance. The alias enables your ServiceNow instance to request OAuth tokens from the Microsoft Azure Application Insights and enables the authenticate its requests.Create an OAuth application on Microsoft Azure that authenticates requests for OAuth tokens from your ServiceNow instance.Provide the details in the connection alias form. Your ServiceNow instance uses these details to request OAuth tokens from Microsoft Azure Application Insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-msazure-app-insight.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Microsoft Azure Application Insights Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---

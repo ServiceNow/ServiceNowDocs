@@ -3,11 +3,11 @@ title: Browser recommendations for Automated Test Framework
 description: Configure client test runner browsers to run automated tests and avoid performance degradations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/browser-recommendations-atf.html
-release: australia
+release: brazil
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [UI test steps, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
@@ -59,5 +59,5 @@ Follow these guidelines to avoid issues when running multiple tests in parallel.
     To prevent unwanted rollback of changes, always close client test runners after testing is complete. Closing the browser window ensures that test rollback doesn't revert any legitimate changes made in another browser tab.
 
 
-**Parent Topic:**[UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/ui-test-steps.md)
+**Parent Topic:**[UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/ui-test-steps.md)
 

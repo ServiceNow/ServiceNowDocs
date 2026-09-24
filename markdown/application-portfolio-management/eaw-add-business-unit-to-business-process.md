@@ -3,9 +3,9 @@ title: Add a business unit to a business process
 description: Add an existing business unit to a business process in Enterprise Architecture Workspace, or create a business unit directly from the business process record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-business-unit-to-business-process.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [business unit, business process, enterprise architecture]
 breadcrumb: [Manage business processes, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -39,18 +39,18 @@ Role required: sn\_apm.apm\_user along with cost\_transparency\_admin or cost\_t
         1.  Select **Add**.
         2.  In the Add business unit window, search for and select the business unit.
         3.  Select **Add**.
-    -   To create a business unit, select **New** and complete the fields on the form. For field descriptions, see [Create a business unit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-business-unit-form.md).
+    -   To create a business unit, select **New** and complete the fields on the form. For field descriptions, see [Create a business unit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-create-a-new-business-unit-form.md).
 
 ## Result
 
 The business unit appears in the **Related business units** related list.
 
-**Parent Topic:**[Manage business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-processes.md)
+**Parent Topic:**[Manage business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-business-processes.md)
 
 **Related topics**  
 
 
-[Remove a business unit from a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-remove-business-unit-from-business-process.md)
+[Remove a business unit from a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-remove-business-unit-from-business-process.md)
 
-[View all business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-processes.md)
+[View all business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-business-processes.md)
 

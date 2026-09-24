@@ -3,9 +3,9 @@ title: Configuring the Strategic Portfolio Management integration
 description: Configure the Strategic Portfolio Management integration so that order delivery tasks in Order Management can be tracked as planned project tasks in SPM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-spm-integration.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---
@@ -26,17 +26,17 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_ActivateProjectPortfolioSuiteWithFinancials.md)
+[Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/t_ActivateProjectPortfolioSuiteWithFinancials.md)
 
 </td><td>
 
-Install the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. If you're tracking customer projects, you must also activate the Customer Project Management \(com.snc.csm\_ppm\) plugin. For information on setting up Customer Project Management, see [Integrate with Customer Project Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ppm-configuration.md).
+Install the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. If you're tracking customer projects, you must also activate the Customer Project Management \(com.snc.csm\_ppm\) plugin. For information on setting up Customer Project Management, see [Integrate with Customer Project Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-ppm-configuration.md).
 
 **Note:** If you installed the Order Management application before activating the PPM Standard or Customer Project Management plugins, you must repair the Order Management \(com.sn\_ind\_tmt\_orm\) plugin to get the plugin-dependent updates and demo data for the SPM integration.
 
 </td></tr><tr><td>
 
-[Create project templates and project template tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-project-templates-orders.md)
+[Create project templates and project template tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating-project-templates-orders.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Use the Project Portfolio Management application to create the project templates
 
 </td></tr><tr><td>
 
-[Configure field mapping between orders and projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-project-table-mapping.md)
+[Configure field mapping between orders and projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-project-table-mapping.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Configure the CSM table maps to associate fields in order lines, domain orders, 
 
 </td></tr><tr><td>
 
-[Set up project oversight conditions and decision rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setting-up-project-oversight.md)
+[Set up project oversight conditions and decision rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setting-up-project-oversight.md)
 
 </td><td>
 
@@ -60,7 +60,7 @@ Configure the conditions and decision rules for determining the order lines, dom
 
 </td></tr><tr><td>
 
-[Control the automatic closure of project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/control-auto-closure-proj-tasks.md)
+[Control the automatic closure of project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/control-auto-closure-proj-tasks.md)
 
 </td><td>
 

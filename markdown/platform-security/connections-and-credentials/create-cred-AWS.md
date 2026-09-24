@@ -3,11 +3,11 @@ title: Configure AWS credentials on a CyberArk vault
 description: Configure your CyberArk vault with the AWS credentials to be retrieved for use by your instance.Configure your CyberArk vault with the AWS credentials to be retrieved for use by your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/create-cred-AWS.html
-release: australia
+release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CyberArk integration configuration, CyberArk credential storage integration, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -52,9 +52,9 @@ Store the credentials as an Account on the CyberArk vault. When you configure ac
 
 ## What to do next
 
-If you have not done so already, create a credential identifier on your instance to configure access to the CyberArk vault. For more details, see [Configure access to external credential storage for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/external_cred_storage_configuration.md).
+If you have not done so already, create a credential identifier on your instance to configure access to the CyberArk vault. For more details, see [Configure access to external credential storage for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/external_cred_storage_configuration.md).
 
-**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
+**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
 
 ## Configure AWS Credentials on a CyberArk Vault using Classic UI
 
@@ -91,5 +91,5 @@ CyberArk Password Vault v14.2.1 includes both Accounts View and Accounts View \(
 
 ### What to do next
 
-If you have not done so already, create a credential identifier on your instance to configure access to the CyberArk vault. For more details, see [Configure access to external credential storage for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/external_cred_storage_configuration.md).
+If you have not done so already, create a credential identifier on your instance to configure access to the CyberArk vault. For more details, see [Configure access to external credential storage for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/external_cred_storage_configuration.md).
 

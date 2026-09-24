@@ -3,10 +3,10 @@ title: Create emergency notifications
 description: Create an emergency notification in BCM UIB Workspace. You can then use Everbridge to notify the stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-emergency-notification-uib-ws.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Integrate, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -36,7 +36,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, or sn\_bcm.admin
 
 5.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Create Notification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-notification-form.md).
+    For more information on the fields in the form, see [Create Notification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-notification-form.md).
 
 6.  To save the notification and send it later, select **Save**.
 
@@ -54,8 +54,6 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, or sn\_bcm.admin
 
 9.  Select **Get response status** to retrieve the notification status from Everbridge for contacts in the **Communication status** field.
 
-    You can close an event in the workspace when a notification is in progress. If the status of the event moves to **Closed Complete** or **Closed Incomplete** in Business Continuity Workspace, then the incident is **Closed** in Everbridge also. However, you have to close the notification that is in the **In Progress** state manually.
-
     Before you submit an event for approval, all the notifications that are **In Progress** must be closed.
 
     1.  Select the link to the emergency notification record in the Number column to delete a notification that is in **Draft** or **Error** state.
@@ -69,8 +67,8 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager, or sn\_bcm.admin
     **Note:** Now that the event is closed and the corresponding incident in Everbridge is also closed, you can’t create any more notifications for this event.
 
 
--   **[Create Notification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-notification-form.md)**  
+-   **[Create Notification form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-new-notification-form.md)**  
 Use the Create Notification form in BCM UIB Workspace to add details about an emergency notification.
 
-**Parent Topic:**[Sending notifications with Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ebn-collective-tasks.md)
+**Parent Topic:**[Sending notifications with Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ebn-collective-tasks.md)
 

@@ -3,11 +3,11 @@ title: Configure resolution notes generation
 description: Configure the Resolution Notes skill to create concise summaries of case resolutions, helping agents quickly understand resolution details and support future similar interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-resolution-notes-generation-in-now-assist\_0.html
-release: australia
+release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -105,11 +105,11 @@ Input fields
 
     Skill is activated for agents and a success modal shows up with the option to **Return to CSM** and to **Go to ServiceNow Otto content menu**.
 
-11. Select **Go to ServiceNow Otto context menu** to [configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.md) the activity response generation skill's context menu in AI Experience.
+11. Select **Go to ServiceNow Otto context menu** to [configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.md) the activity response generation skill's context menu in AI Experience.
 
 
 **Related topics**  
 
 
-[Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.md)
+[Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.md)
 

@@ -3,7 +3,7 @@ title: Configure chat summarization skill in ServiceNow Otto for Public Sector D
 description: Activate and configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-customize-chat-summ.html
-release: australia
+release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -65,7 +65,7 @@ In the ServiceNow Otto for PSDS Admin Console, admins can:
     You can select both in-product, ServiceNow Otto panel, or both.
 
     -   **In-product**: When selected, ServiceNow Otto skills are displayed on forms and workspaces.
-    -   **ServiceNow Ottopanel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   **ServiceNow Ottopanel**: When selected, ServiceNow Otto skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
         Select the down arrow to configure the user roles that can access the skill.
 
@@ -82,5 +82,5 @@ Chat summarization is active and customized for the desired workflow.
 
 ## What to do next
 
-Review the performance of the ServiceNow Otto for PSDS chat summarization skill on the AI Admin Hub console. Learn more about tracking your ServiceNow Otto usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
+Review the performance of the ServiceNow Otto for PSDS chat summarization skill on the AI Admin Hub console. Learn more about tracking your ServiceNow Otto usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/monitoring-now-assist-usage.md).
 

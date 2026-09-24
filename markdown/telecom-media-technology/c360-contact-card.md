@@ -3,9 +3,9 @@ title: Contact card
 description: The contact card displays the primary customer identification information for the account, consumer, or contact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-contact-card.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Home page, Use, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -24,7 +24,7 @@ Use the Edit icon to modify any information on the card and select **Save** to s
 
 **Note:** The Edit option is available only for users with the `sn_customerservice_manager` role.
 
-You can configure variables such as tables, display fields, and query conditions. See [Configure the contact card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-configure-contact-card.md) for details.
+You can configure variables such as tables, display fields, and query conditions. See [Configure the contact card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure-contact-card.md) for details.
 
-**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/c360-home-page.md)
+**Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-home-page.md)
 

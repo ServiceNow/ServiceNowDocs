@@ -3,11 +3,11 @@ title: Update KYC workflow
 description: Learn how bank agents, using the Update KYC workflow, proactively contact a customer to update the KYC. The workflow applies to both business and personal CLO service requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/fso-update-kyc-workflow.html
-release: australia
+release: brazil
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflows, Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---

@@ -3,11 +3,11 @@ title: Dispute Rules Content Pack for Visa
 description: The ServiceNow Dispute Rules Content Pack for Visa provides questionnaires for the intake of dispute related information under various dispute categories as per Visa guidelines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/dispute-rules-content-pack-for-visa-landing-page-1.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -25,19 +25,19 @@ Dispute Rules Content Pack for Visa application can help you do the following:
 
 <table id="table_g4t_jnr_szb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits provided by integrating Dispute Rules Content Pack for Visa application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/exploring-the-dispute-rules-content-pack-for-visa.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits provided by integrating Dispute Rules Content Pack for Visa application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/exploring-the-dispute-rules-content-pack-for-visa.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-dispute-rules-content-pack-for-visa-connection-credentials.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/set-up-dispute-rules-content-pack-for-visa-connection-credentials.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:See how agents and issuers can use Dispute Rules Content Pack for Visa to access card network rules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/using-the-dispute-rules-content-pack-for-visa.md)
+[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:See how agents and issuers can use Dispute Rules Content Pack for Visa to access card network rules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/using-the-dispute-rules-content-pack-for-visa.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-visa-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-visa-reference.md)
 
 </td></tr></tbody>
 </table>## Request Dispute Rules Content Pack for Visa on the store

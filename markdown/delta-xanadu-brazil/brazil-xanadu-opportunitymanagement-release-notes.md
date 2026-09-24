@@ -1,0 +1,707 @@
+---
+title: Combined Opportunity Management release notes for upgrades from Xanadu to Brazil
+description: Consolidated page of all release notes for Opportunity Management from Xanadu to Brazil.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-opportunitymanagement-release-notes.html
+release: brazil
+topic_type: reference
+last_updated: "2026-09-24"
+reading_time_minutes: 9
+breadcrumb: [Products combined by family]
+---
+
+# Combined Opportunity Management release notes for upgrades from Xanadu to Brazil
+
+Consolidated page of all release notes for Opportunity Management from Xanadu to Brazil.
+
+## How to use this page
+
+To help you prepare for your upgrade, we have combined the cross-family Opportunity Management release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Brazil.
+
+**Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
+
+## Important information for upgrading Opportunity Management to Brazil
+
+Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## New features
+
+Between your current release family and Brazil, new features were introduced for Opportunity Management.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   **[Use the Sidebar integration with Microsoft Teams](https://www.servicenow.com/docs/access?context=opportunity-management-sidebars-teams&family=xanadu&ft:locale=en-US)**
+
+Collaborate on an opportunity with your sales managers and solution consultants, or product and legal teams by using the sidebar integrated with Microsoft Teams to close the deal or opportunity. Additionally, you can communicate with the stakeholders through messages, emojis, and attachments.
+
+**Note:** To use this feature, you must upgrade your ServiceNow AI Platform to Xanadu. To learn more, see [Upgrade to the Xanadu release](https://www.servicenow.com/docs/access?context=upgrades-overview&family=xanadu&ft:locale=en-US).
+
+-   **[Create quotes from opportunity line items](https://www.servicenow.com/docs/access?context=opportunity-management-create-quote-line-items&family=xanadu&ft:locale=en-US)**
+
+Create quotes by selecting individual line items within an opportunity record.
+
+-   **[Location-based transactions for Opportunity Management](https://www.servicenow.com/docs/access?context=location_based_transactions_for_opportunity&family=xanadu&ft:locale=en-US)**
+    -   Enable agents to specify a customer location in the product catalog and display only the eligible products for that location when they're adding products to opportunities.
+    -   Copy products \(line items\) to other customer locations within the same opportunity.
+-   **[Sync quote and opportunity](https://www.servicenow.com/docs/access?context=synchronise_quote_and_opportunity&family=xanadu&ft:locale=en-US)**
+    -   Establish a synhronisation between quote and opportunity to ensure that values across Opportunity-Quote, and Opportunity Line items-Quote Line items are consistent. This synchronisation allows changes to automatically copy into the opportunity record.
+    -   Track revenue from an opportunity accurately by keeping opportunities and quotes in synchronisation.
+-   **[Subscription revenue metrics](https://www.servicenow.com/docs/access?context=som-subscription-pricing&family=xanadu&ft:locale=en-US)**
+
+Provide system-calculated recurring and one-time revenue amounts for product and service subscriptions for opportunities. These amounts help sales agents and managers to gain visibility into revenue metrics and recurring revenue dynamics.
+
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **[\[Placeholder link text to key bundle-omgmt.opportunity-management-add-product-to-opportunity\]](https://www.servicenow.com/docs/access?context=opportunity-management-add-product-to-opportunity&family=yokohama&ft:locale=en-US)**
+
+Enables the sales representatives to customize the complex product offerings by using the product configurator. This ensures that the sales representatives identify and share the detailed requirements and price to the customer much earlier in the cycle.
+
+-   **[Revise existing opportunities after an upgrade](https://www.servicenow.com/docs/access?context=revise-existing-opportunities-post-upgrade&family=yokohama&ft:locale=en-US)**
+
+Enable the sales representatives to use the scheduled job to modify older opportunities to incorporate the functionality of supporting parent-child opportunity line items.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **[Delta pricing for opportunity](https://www.servicenow.com/docs/access?context=opportunity-management-details-tab&family=zurich&ft:locale=en-US)**
+
+The following new fields added to the Opportunity and Opportunity Line objects improve visibility and provide greater flexibility in managing pricing amendments:
+
+    -   Contract Start/End Dates
+    -   Renewal Amount
+    -   Upsell/Downsell Amounts
+    -   Total Net New Amount
+-   **[Add opportunity associated contact](https://www.servicenow.com/docs/access?context=add-opportunity-associated-contact&family=zurich&ft:locale=en-US)**
+
+Create opportunity associated contacts to associate multiple account contacts, verifying clear identification of all stakeholders and their respective roles.
+
+-   **[Add opportunity team member](https://www.servicenow.com/docs/access?context=create-new-opportunity-team-member&family=zurich&ft:locale=en-US)**
+
+Create a new opportunity team member to associate multiple team members with an opportunity to enable structured collaboration and grant access based on their roles. The ability to grant access is available from Zurich Patch 3 release.
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **[Mandatory reason fields on closed opportunities](https://www.servicenow.com/docs/access?context=configure-guided-selling-exit-criteria&family=australia&ft:locale=en-US)**
+
+Enforce completion of the win or loss reason fields before agents move an opportunity to the Closed Won or Closed Lost stage. Admins enable this enforcement for each outcome using system properties.
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **[ServiceNow Otto support on Opportunity Management](https://www.servicenow.com/docs/access?context=crm-conversational-query&family=brazil&ft:locale=en-US)**
+
+Retrieve, update, and create opportunity records and related CRM data from ServiceNow Otto using natural language.
+
+
+</td></tr></tbody>
+</table>## Changes
+
+Between your current release family and Brazil, some changes were made to existing Opportunity Management features.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Removed
+
+Between your current release family and Brazil, some Opportunity Management features or functionality were removed.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Deprecations
+
+Between your current release family and Brazil, some Opportunity Management features or functionality were deprecated.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+The following fields are deprecated in the **Details** tab on Opportunity record.
+
+-   Total Monthly Recurring Price
+-   Total Annual Recurring Price
+-   ARR
+-   Budget Type
+
+The following fields are depracated in the **Details** tab on Opportunity Line Items record.
+
+    -   Estimated Unit Price
+    -   Estimated Total Price
+    -   Total Recurring Price
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   Removed the **New** Opportunity Line button from the platform and workspace view.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Activation information
+
+Review information on how to activate Opportunity Management.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+Install Opportunity Management by requesting it from ServiceNow Store.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+-   **Activation information**
+
+Install Opportunity Management by requesting it from ServiceNow Store.
+
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   **Activation information**
+
+Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   **Activation information**
+
+Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   **Activation information**
+
+Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+</td></tr></tbody>
+</table>## Additional requirements
+
+If any additional requirements were introduced or changed for Opportunity Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Browser requirements
+
+If any specific browser requirements were introduced or changed for Opportunity Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Accessibility information
+
+Review details on accessibility information for Opportunity Management, such as specific requirements or compliance levels.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Localization information
+
+If there are specific localization considerations for Opportunity Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+No updates for this release.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+No updates for this release.
+
+</td></tr></tbody>
+</table>## Highlight information
+
+If there are specific highlight considerations for Opportunity Management we have noted them here.
+
+<table class="custom-rows"><thead><tr><th class="filter">
+
+Release
+
+</th><th>
+
+Release notes
+
+</th></tr></thead><tbody><tr><td>
+
+Xanadu
+
+</td><td>
+
+-   Collaborate with your internal and external stakeholders by using the sidebar and Microsoft Teams integration on an opportunity.
+-   Create quotes for the selected line items in an opportunity record by using the new UI action.
+
+ See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&family=xanadu&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Yokohama
+
+</td><td>
+
+1.  Enable customers to view the roll-up amount in the Kanban View.
+2.  Enable sales representatives to customize bundled products and products with complex characteristics in the product catalog.
+
+ See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&family=yokohama&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Zurich
+
+</td><td>
+
+-   Enhance visibility and flexibility in pricing amendments for existing contracts or services through Move, Add, Change, Delete \(MACD\) actions on Sold Products \(SP\), Product Instances \(PI\), or Contracts.
+-   Identify multiple stakeholders and accurately qualify opportunities with opportunity associated contacts and their defined roles. This is vital for streamlining sales processes and gaining clarity on how each contact influences the outcome of a deal.
+-   Drive structured collaboration among multiple stakeholders involved in closing a deal using Opportunity Teams. The teams verify collaboration across various roles such as Account Executives, Sales Engineers, Customer Success Managers, and Partner Managers.
+
+ See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-mgmt-using&family=zurich&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Australia
+
+</td><td>
+
+-   Record your planned or completed customer interaction or sales activity associated with an opportunity using a Touchpoint to capture engagement context throughout the sales life cycle.
+-   Associate competitors with opportunity product and product family, capture win/loss reasons, and record contributing factors to report and analyze competitor trends, product‑level competitive pressure, and opportunity outcome patterns.
+-   Split opportunity revenue across multiple contributors using opportunity allocations to ensure accurate attribution, incentive crediting, and forecast reporting for collaborative sales teams.
+-   Capture Direct or Indirect deal types to align opportunities with defined routes to market.
+-   Create touchpoints and schedule meetings directly from an opportunity record for a consolidated view of all customer interactions.
+-   Prioritize deals with an AI-powered probability score, qualitative ratings, and explainable insights integrated into the opportunity workspace.
+-   Create, view, and update opportunity records and related entities using natural language from the MCP client.
+-   Summarize an opportunity with Now Assist for a quick snapshot of status, risks, and recent engagement.
+-   Configure a guided selling playbook to enforce mandatory stage activities, surface stage-specific guidance to sales agents, and consolidate all deal-related actions in a unified opportunity workspace.
+-   Manage opportunity line items, competitor details, and touchpoint information conversationally within the conversational interface without navigating to individual records.
+-   Enforce mandatory win or loss reason capture before agents move an opportunity to a closed stage to keep outcome data complete and reportable.
+-   Track quote tasks for the primary quote directly in the opportunity Action Center, and guide agents with contextual empty states when no actions are pending.
+
+ See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&family=australia&ft:locale=en-US) for more information.
+
+</td></tr><tr><td>
+
+Brazil
+
+</td><td>
+
+-   Evaluate an opportunity's total worth with integrated pricing that computes the combined prices of each product offering, helping teams strategize resource and budget allocation for deals.
+-   Focus your sales team on deals with the highest financial impact by analyzing the potential revenue of each opportunity.
+-   Customize offers that meet customer needs while maintaining profitability, using real-time pricing insights during negotiation.
+-   Generate an AI summary for an opportunity to get information from emails, touchpoints, deal stage, and line items without opening every related record.
+-   Review AI-generated win probability scores and contextual insights to assess deal health, prioritize pipeline opportunities, and identify risks.
+-   Ask questions and issue commands to work on an opportunity in plain language using an MCP client and ServiceNow Otto.
+
+ See [Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&family=brazil&ft:locale=en-US) for more information.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)
+

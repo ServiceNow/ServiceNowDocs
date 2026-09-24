@@ -3,9 +3,9 @@ title: Enhancing the asset procurement experience using IT Asset Management \(IT
 description: Integrating IT Asset Management \(ITAM\) with Sourcing and Procurement Operations \(SPO\) enhances the procurement process for service requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/better-together/use-ham-spo-for-po-creation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Solutions]
 ---
@@ -182,9 +182,9 @@ The following additional plugins are required based on the specific IT Asset Man
 Start procuring assets by accessing the items from the Shopping Hub catalog by completing these tasks:
 
 1.  [Activate Asset Management Integration for Sourcing and Procurement Operations \(sn\_spend\_asset\) plugin](https://store.servicenow.com/store/app/3a2a560a1b8baad02ca2a643604bcb7b).
-2.  Begin sourcing and procuring of the requested items from the IT Asset Management workspaces such as Software Asset Workspace, Hardware Asset Workspace, or Enterprise Asset Workspace. For more information, see [Create Sourcing Request or Purchase Requisition in SPO via IT Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/spo-itam-submit-requests.md).
-3.  Receive the requested assets in a stockroom. For more information, see [Receiving assets in the IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/itam-spo-receiving-assets.md) application.
-4.  Acknowledge the receipt of the assets in the stockroom for asset creation. For more information, see [Asset creation in the IT Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/itam-spo-asset-creation.md).
+2.  Begin sourcing and procuring of the requested items from the IT Asset Management workspaces such as Software Asset Workspace, Hardware Asset Workspace, or Enterprise Asset Workspace. For more information, see [Create Sourcing Request or Purchase Requisition in SPO via IT Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/spo-itam-submit-requests.md).
+3.  Receive the requested assets in a stockroom. For more information, see [Receiving assets in the IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/itam-spo-receiving-assets.md) application.
+4.  Acknowledge the receipt of the assets in the stockroom for asset creation. For more information, see [Asset creation in the IT Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/itam-spo-asset-creation.md).
 
-**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/better-together/solutions-gallery.md)
 

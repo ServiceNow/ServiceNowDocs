@@ -3,13 +3,13 @@ title: Generate a playbook from a knowledge base article
 description: Use an existing knowledge base article to generate a playbook using AI. The stages and activities are automatically populated based on the article content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/generate-playbook-from-kb.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbook generation from a KB article, Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -19,11 +19,11 @@ Use an existing knowledge base article to generate a playbook using AI. The stag
 
 ## Before you begin
 
-Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook Generation with KB** skill is turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
+Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook Generation with KB** skill is turned on. For more information about turning on the AI skills for Playbooks, see [Turn on AI skills for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/turn-on-playbook-generation-skill.md).
 
 **Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
-For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+For information about installing ServiceNow Otto for Creator, see 
 
 Verify that the knowledge base article describes a process with steps. Articles that contain only definitions or reference information can't be used to generate a playbook.
 
@@ -69,7 +69,7 @@ Unique, user-facing name for your playbook. This name also appears to agents and
 
 </td><td>
 
-Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
+Application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.**Important:** You can't change the application scope of a playbook after you've generated a preview for it.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ In case of a record driven playbook, the table where the record resides. This op
 
 </td><td>
 
-Option to allow the playbook to be publicly accessible. Once embedded it is set to available to unauthenticated users, as long as there aren’t additional restrictions preventing the user from accessing the playbook. **Note:** Playbooks must be tied to a public parent table for unauthenticated users to see it in runtime.
+Option to allow the playbook to be publicly accessible. Once embedded it is set to available to unauthenticated users, as long as there aren't additional restrictions preventing the user from accessing the playbook. **Note:** Playbooks must be tied to a public parent table for unauthenticated users to see it in runtime.
 
 </td></tr></tbody>
 </table>    **Tip:**
@@ -147,12 +147,12 @@ Option to allow the playbook to be publicly accessible. Once embedded it is set 
 
 After you generate the playbook, test and activate the playbook from the header.
 
-**Parent Topic:**[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-generation-from-kb.md)
+**Parent Topic:**[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-generation-from-kb.md)
 
 **Related topics**  
 
 
-[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-generation-from-kb.md)
+[Playbook generation from a knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-generation-from-kb.md)
 
-[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md)
+[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/generate-a-playbook-outline.md)
 

@@ -3,9 +3,9 @@ title: Visualize recovery tasks on Gantt chart
 description: Use the Gantt chart component on recovery task pages to provide a visual timeline view of tasks associated with the current plan. Customize the view by adding, removing, or reordering columns as needed. The chart is implemented as a UI page to enable customizations and to support multiple versions without requiring changes to existing page behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-gantt-chart-for-reco-tasks.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -25,6 +25,7 @@ Key behaviors:
 -   The Gantt chart and the related list are displayed together to maintain feature parity.
 -   Data displayed in the chart is scoped to the plan currently being viewed.
 -   Column customization in the Gantt chart works the same way as in the list view.
+-   You can reorder recovery tasks in the Gantt view by linking task dependencies with drag-and-drop actions. An error message is displayed if the linked order is not valid. Planners can reorder tasks for their own plans, and program managers can reorder tasks for all plans.
 
 The Gantt chart bars are drawn from the plan's **Planned start** date and each task's planned duration. Set the **Planned start** field on the plan's **Details** tab before opening the Gantt view; the field is labelled "Used to calculate the planned start time of tasks". The first task in the dependency chain begins at this date and time; each subsequent task begins when its dependencies finish.
 
@@ -79,10 +80,10 @@ The Gantt chart bars are drawn from the plan's **Planned start** date and each t
 
     \[Omitted image "gantt-row-insert-before.jpg"\] Alt text: Create a quick recovery task modal launched from the Insert before row action. The Insert task drop-down is set to "before" and the reference field is pre-populated with Task 2.1.
 
-10. To reorder using quick actions, select the task row’s action menu and choose **Insert task after**, **before**, or **In parallel**.
+10. To reorder using quick actions, select the task row’s action menu and choose Add after, Add before, or Add in parallel.
 
     The chart updates to reflect the new task order.
 
 
-**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

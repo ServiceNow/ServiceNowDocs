@@ -3,9 +3,9 @@ title: Technology Provider Service Management \(TPSM\)
 description: Technology Provider Service Management \(TPSM\) intelligently automates work to reduce contact center volumes, supercharge agent productivity, and maximize customer lifetime value. TPSM embeds continuous AI innovation into workflows, making it easy for technology providers to extend AI to as-a-service business models while accelerating value and reducing costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/tpsm-about.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -23,8 +23,6 @@ Technology providers often operate with fragmented, legacy architectures and sil
 
 These inefficiencies reduce operational performance, increase customer dissatisfaction, and raise churn risk. Addressing these challenges requires an integrated, modern architecture that enables automation, real-time insights, and seamless customer engagement.
 
-\[Omitted image "tpsm-workflow-mmasset0021666.png"\] Alt text: TPSM workflow diagram showing the process flow.
-
 ## TPSM benefits
 
 Streamlining experiences for customers and internal teams helps technology providers reduce contact center volumes, supercharge agent productivity, and maximize customer lifetime value. TPSM automates work for technology providers to:
@@ -39,10 +37,10 @@ TPSM combines purpose-built applications for technology providers with Customer 
 
 |Application|Value|
 |-----------|-----|
-|[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)|Use AI-powered industry workflows to supercharge insights, actions, and self-service experiences.|
-|[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/account-lifecycle-events-landing.md)|Drive adoption, mitigate risk, and maximize customer value with proactive success strategies, real-time health monitoring, and intelligent automation.|
-|[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-service-bridge-both-landing-page.md)|Quickly connect enterprise customers and suppliers running ServiceNow® to optimize work across the value chain.|
-|[Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/assurance-workflows.md)|Proactively notify customers of service disruptions and provide real-time resolution tracking.|
+|[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)|Use AI-powered industry workflows to supercharge insights, actions, and self-service experiences.|
+|[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/account-lifecycle-events-landing.md)|Drive adoption, mitigate risk, and maximize customer value with proactive success strategies, real-time health monitoring, and intelligent automation.|
+|[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/tmt-service-bridge-both-landing-page.md)|Quickly connect enterprise customers and suppliers running ServiceNow® to optimize work across the value chain.|
+|[Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/assurance-workflows.md)|Proactively notify customers of service disruptions and provide real-time resolution tracking.|
 
 ## Additional resources
 
@@ -52,5 +50,5 @@ TPSM combines purpose-built applications for technology providers with Customer 
 **Related topics**  
 
 
-[Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecom-media-tech-landing.md)
+[Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/telecom-media-tech-landing.md)
 

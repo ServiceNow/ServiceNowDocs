@@ -3,11 +3,11 @@ title: Create an industrial knowledge article
 description: Create a knowledge article to record and save information related to industrial processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-knowledge-management/create-industrial-knowledge-article.html
-release: australia
+release: brazil
 product: Industrial Knowledge Management
 classification: industrial-knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Knowledge Management, Industrial Connected Workforce]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_icw.knowledge\_manager or sn\_icw.knowledge\_author
 
 5.  On the Industrial knowledge article form, fill in the fields.
 
-    For a description of the field values, see [Industrial knowledge article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-article-form.md).
+    For a description of the field values, see [Industrial knowledge article form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-article-form.md).
 
 6.  Add attachments to the article if needed.
 
@@ -69,5 +69,5 @@ Role required: sn\_icw.knowledge\_manager or sn\_icw.knowledge\_author
 
 Published articles are displayed and available in the search functionality.
 
-**Parent Topic:**[Using Industrial Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-knowledge-management/using-industrial-knowledge-mgmt.md)
+**Parent Topic:**[Using Industrial Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industrial-connected-workforce/industrial-knowledge-management/using-industrial-knowledge-mgmt.md)
 

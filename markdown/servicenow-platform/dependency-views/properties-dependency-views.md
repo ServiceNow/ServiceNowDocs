@@ -3,11 +3,11 @@ title: Properties for Dependency Views
 description: Use Dependency Views properties to configure how data appears in Dependency Views maps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/properties-dependency-views.html
-release: australia
+release: brazil
 product: Dependency Views
 classification: dependency-views
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

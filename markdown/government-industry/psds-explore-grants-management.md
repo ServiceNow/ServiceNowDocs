@@ -3,7 +3,7 @@ title: Exploring Grants Management for Public Sector Digital Services
 description: The Grants Management solution provides government agencies with a workflow for defining grant programs, screening applications, evaluating proposals, and communicating funding decisions. The solution runs entirely on the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-explore-grants-management.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-06-09"
 reading_time_minutes: 4
@@ -51,7 +51,7 @@ Grants Management supports the complete grant life cycle. Depending on your role
 -   Accept, screen, and evaluate grant proposals submitted by applicants through guided playbook workflows, including eligibility checks powered by the PaCE.
 -   Create and assign merit review tasks to internal review teams, and track scoring and ranking of proposals using configurable scoring frameworks.
 -   Build funding proposals that allocate budgets across selected applicants, and route award decisions to the grants program director for approval.
--   Grant program managers can propose and submit funding decisions for any scored subset of applications at any time. They don't have to wait for the entire proposal portfolio to complete review. For more information, see [Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gm-rolling-grant-approvals-concept.md).
+-   Grant program managers can propose and submit funding decisions for any scored subset of applications at any time. They don't have to wait for the entire proposal portfolio to complete review. For more information, see [Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gm-rolling-grant-approvals-concept.md).
 
 -   Generate results letters to notify applicants of award, rejection \(ineligible\), or rejection \(decline\) outcomes, with the merit review summary where applicable.
 -   Track applicant acknowledgment or decline of awarded grants.
@@ -60,12 +60,12 @@ Grants Management supports the complete grant life cycle. Depending on your role
 
 To get started with Grants Management, see the following topics:
 
--   [Install Grants Management for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-install-grants-management.md)
+-   [Install Grants Management for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-install-grants-management.md)
 
--   [Create a funding program for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-set-up-funding-program-dita.md)
--   [Create a grant program for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-set-up-grants-management-program.md)
--   [Using the Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-grants-mgmt-portal.md)
+-   [Create a funding program for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gmp-using-set-up-funding-program-dita.md)
+-   [Create a grant program for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gmp-using-set-up-grants-management-program.md)
+-   [Using the Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gmp-using-grants-mgmt-portal.md)
 
--   [Using the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-merit-review-portal-agent.md)
+-   [Using the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-gmp-using-merit-review-portal-agent.md)
 
 

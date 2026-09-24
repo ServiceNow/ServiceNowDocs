@@ -3,11 +3,11 @@ title: Notify ServiceNow DevOps change request number to Jenkins pipelines
 description: Send change request numbers to the Jenkins pipeline steps or logs when a change request is created in ServiceNow DevOps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-change-number-notify-jenkins.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional information - Jenkins, Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---

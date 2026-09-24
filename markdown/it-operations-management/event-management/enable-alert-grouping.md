@@ -3,11 +3,11 @@ title: Configure scheduled job-based alert grouping
 description: Set up rules and parameters to group related alerts automatically, streamlining alert management and reducing alert noise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/enable-alert-grouping.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -34,15 +34,12 @@ The scheduled job Service Analytics: Group Alerts Using RCA/Alert Aggregation he
     -   Enable Network Traffic correlation \(**sa\_analytics.agg.query\_network\_traffic\_correlation\_enabled**\).
     -   Enable ML based Automation correlation \(**sa\_analytics.specific\_patterns\_enabled**\).
     -   Enable Text based correlation \(**sa\_analytics.text\_based\_group\_enabled**\).
-    -   Group by property contains a comma-separated list of field names. Alerts can be grouped together when the specified field values match each other. The property can contain alert field names \(such as assignment\_group\), CI field names \(such as alert\_cmdb\_ci.location\), alert additional info field names \(such as additional\_info.state\), or alert tags \(such as t\_data\_center\).
-
-        Property: **sa\_analytics.agg.group\_alert\_with\_same\_group\_by\_fields**.
-
+    -   Group by property, with comma-separated list of field names. Alerts can be grouped together when the specified field values match each other. The property can contain alert field names \(such as assignment\_group\), CI field names \(such as alert\_cmdb\_ci.location\), or alert additional info field names \(such as additional\_info.state\). It can also contain alert tags \(such as t\_data\_center\). Property: **sa\_analytics.agg.group\_alert\_with\_same\_group\_by\_fields**.
     -   Max number of relations between CIs in a topology which form a CMDB group \(**sa\_analytics.agg.query\_cmdb\_graph\_walk\_nodes**\).
     -   Use all CMDB relations for CMDB group correlation \(**evt\_mgmt.related\_cis\_get\_all\_relation\_types**\).
 3.  Select **Save**.
 
-    To group alerts without a CI as Text-based or ML based groups, set **sa\_analytics.enable\_no\_ci\_grouping** to `true`. Ensure the Feature Identifier includes both the node and metric name. For details on configuring the feature identifier, see [Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
+    To group alerts without a CI as Text-based or ML based groups, set **sa\_analytics.enable\_no\_ci\_grouping** to `true`. Ensure the Feature Identifier includes both the node and metric name. For details on configuring the feature identifier, see [Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
 
 4.  Set **evt\_mgmt.alert\_groups\_reasoning.enable\_worknotes** to `none` to prevent group reasoning work note display.
 
@@ -52,11 +49,11 @@ The scheduled job Service Analytics: Group Alerts Using RCA/Alert Aggregation he
 **Related topics**  
 
 
-[Automated alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_SACorrelatedAlertGroups.md)
+[Automated alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/c_SACorrelatedAlertGroups.md)
 
-[CMDB based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/cmdb-alert-groups.md)
+[CMDB based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/cmdb-alert-groups.md)
 
-[Text-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/text-based-alert-groups.md)
+[Text-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/text-based-alert-groups.md)
 
-[Tag cluster alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-tag-definitions-concept.md)
+[Tag cluster alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-clustering-tag-definitions-concept.md)
 

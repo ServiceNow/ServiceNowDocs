@@ -3,13 +3,13 @@ title: APIs used by AI Service Graph Connector for IBM
 description: Explore the IBM APIs used by the AI Service Graph Connector for IBM
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-sgc-ibm-api.html
-release: australia
+release: brazil
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [IBM, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [IBM, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # APIs used by AI Service Graph Connector for IBM

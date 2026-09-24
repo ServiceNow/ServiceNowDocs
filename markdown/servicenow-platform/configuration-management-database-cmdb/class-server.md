@@ -3,20 +3,20 @@ title: Server \[cmdb\_ci\_server\] class
 description: Attributes, identification rule, and other important schema structures for the CMDB Server \[cmdb\_ci\_server\] class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/class-server.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [CMDB schema model, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB schema model, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Server \[cmdb\_ci\_server\] class
 
 Attributes, identification rule, and other important schema structures for the CMDB Server \[cmdb\_ci\_server\] class.
 
-For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
+For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 \[Omitted image "schema-hw-computer-server.png"\] Alt text: Relationships and references between the Hardware, Computer, and Server classes.
 
@@ -142,5 +142,5 @@ The base system contains pre-defined identification rules for the Hardware, Comp
     If both **Serial Number** and **Name** are not available, and only **MAC Address**/**IP Address** are available, use **MAC Address** as the name of the CI. Using the **MAC Address** as the name of the CI ensures that you don't create an empty CI.
 
 
-For more information, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
+For more information, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
 

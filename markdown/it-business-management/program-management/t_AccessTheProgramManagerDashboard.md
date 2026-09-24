@@ -3,11 +3,11 @@ title: Access the Program Dashboard
 description: View different graphical reports for your programs on the PMO Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/program-management/t\_AccessTheProgramManagerDashboard.html
-release: australia
+release: brazil
 product: Program Management
 classification: program-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Program Dashboard, Program Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -27,5 +27,5 @@ Role required: it\_program\_manager
     The PMO Dashboard is displayed.
 
 
-**Parent Topic:**[Program Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/c_ProgramManagerDashboard.md)
+**Parent Topic:**[Program Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/program-management/c_ProgramManagerDashboard.md)
 

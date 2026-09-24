@@ -3,11 +3,11 @@ title: Operational Technology Visibility dashboard
 description: The Operational Technology \(OT\) Visibility dashboard helps you manage your OT device in a centralized location. The OT Visibility dashboard lets you the access your OT device data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/ot-manager-dashboard.html
-release: australia
+release: brazil
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dashboard Library in the Industrial Workspace, Explore, Industrial Workspace, Operational Technology]
 ---
@@ -189,7 +189,7 @@ To access the OT Visibility dashboard, you must have the **cmdb\_ot\_viewer** an
 
 You can use the **Site** filter to search for and select the site that you want to view on the dashboard. To access and use the site filter, you must have the **cmdb\_ot\_isa\_viewer** role with access to the site you want to view.
 
-For more information, see [Use the site filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+For more information, see [Use the site filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
-**Parent Topic:**[Dashboard Library in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/dashboard-library-industrial-workspace.md)
+**Parent Topic:**[Dashboard Library in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-workspace/dashboard-library-industrial-workspace.md)
 

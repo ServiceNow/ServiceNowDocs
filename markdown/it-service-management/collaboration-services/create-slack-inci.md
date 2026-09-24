@@ -3,11 +3,11 @@ title: Create slack channel for an incident
 description: Create a private or a public slack channel to collaborate with support teams or send a communication to keep stakeholders informed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/create-slack-inci.html
-release: australia
+release: brazil
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Slack integration - Incident Management, Collaboration services, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Create a private or a public slack channel to collaborate with support teams or 
 -   Plugins required:
     -   Collaboration Services plugin \(sn\_tcm\_collab\_hook\) version 2.0.x
     -   Slack Spoke for ServiceNow Integration Hub plugin \(com.sn.slack.ahv2\) version 1.3.x
--   Ensure you have set up interactivity and shortcuts for slack. For more information, refer [configure slack app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-slack.md).
+-   Ensure you have set up interactivity and shortcuts for slack. For more information, refer [configure slack app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-slack.md).
 
 ## About this task
 

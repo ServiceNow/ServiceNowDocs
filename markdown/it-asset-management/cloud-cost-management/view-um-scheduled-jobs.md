@@ -3,11 +3,11 @@ title: View or edit scheduled and completed Unused resources jobs
 description: View and manage the upcoming and completed Unused resources jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/view-um-scheduled-jobs.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage unused resources, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -22,7 +22,7 @@ Role required: insights\_admin or insights\_owner
 
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Unused resources**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Unused resources**.
 
 2.  Select the **Scheduled** or **Completed** tab.
 
@@ -104,5 +104,5 @@ Time that the job ran or will run.You can edit the date.
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md)
+**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md)
 

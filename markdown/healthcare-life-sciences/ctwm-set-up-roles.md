@@ -3,9 +3,9 @@ title: Set up roles for Care Team Work Management users
 description: Confirm that the appropriate roles are assigned to users of Care Team Work Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-set-up-roles.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up roles and responsibilities, Configure, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -32,7 +32,7 @@ You can assign roles to individual users or groups. When you apply roles to grou
 2.  **sn\_hco\_orc.loc\_support\_agent** or **sn\_hco\_orc.admin** for access to forms from the Healthcare Orchestration plugin.
 3.  **sn\_hco\_orc.plan\_author** for access to task plan creation, scheduling and the ability to select multiple organizations for playbooks.
 
-For instructions on assigning roles to groups, see [Create a group for all care team members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-create-team-members-group.md).
+For instructions on assigning roles to groups, see [Create a group for all care team members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-create-team-members-group.md).
 
 **Roles included with Care Team Work Management**
 

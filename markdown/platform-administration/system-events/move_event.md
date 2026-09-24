@@ -3,11 +3,11 @@ title: Move an event
 description: Accelerate the execution process by moving high priority events from the default queue to an isolated queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-events/move\_event.html
-release: australia
+release: brazil
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Accelerate the execution process by moving high priority events from the default
 
 ## Before you begin
 
-Role required: events\_admin
+Role required: admin
 
 ## Procedure
 
@@ -41,5 +41,5 @@ Role required: events\_admin
     You can select any slow moving event and change the queue as required. You can also register an event to show up on the event registry list.
 
 
-**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/managing-system-events.md)
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-events/managing-system-events.md)
 

@@ -3,11 +3,11 @@ title: Viewing Health Log Analytics system health alerts on the service map
 description: The ServiceNow Event Management service map includes a model of the Health Log Analytics core components and the system health alerts that affect them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-system-health-service-map.html
-release: australia
+release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [service map, system health alerts, configuration items, core components, self-health checks, alert criticality, colored bars, critical alerts, major alerts, minor alerts, component monitoring, log ingestion process, data inputs, log sources, HLA AI Engine, Metric Base, impact visualization]
 breadcrumb: [Viewing system features and health alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
@@ -27,9 +27,9 @@ For example, the red bar indicates a critical alert on this CI:
 
 \[Omitted image "hla-service-map-alert-red.png"\] Alt text: Red critical alert.
 
-If the alert impacts the parent object, the parent object has a bar of the same color. For more information, see [View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewTopology.md).
+If the alert impacts the parent object, the parent object has a bar of the same color. For more information, see [View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewTopology.md).
 
-You can drill down into an alert to view details about the issue and then address it by performing the action proposed in the notification. For more information, see [Health Log Analytics self-health checks, notifications, and proposed actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-self-health-notifications.md).
+You can drill down into an alert to view details about the issue and then address it by performing the action proposed in the notification. For more information, see [Health Log Analytics self-health checks, notifications, and proposed actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-self-health-notifications.md).
 
 <table id="table_ryf_rjj_zsb"><thead><tr><th>
 
@@ -72,5 +72,5 @@ All elements that affect the log ingestion process.
 </table>**Related topics**  
 
 
-[Identify Health Log Analytics system health issues on the service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-system-health-service-map-view.md)
+[Identify Health Log Analytics system health issues on the service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-system-health-service-map-view.md)
 

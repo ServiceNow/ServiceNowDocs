@@ -3,11 +3,11 @@ title: Administering Admin Home
 description: Take control of your daily administrative tasks with our intuitive dashboard. Quickly access and manage essential tasks and tools to boost productivity.Manage and track your daily administrative work and tools on your instance by quickly accessing the cards on the dashboard. It helps you stay updated on any high priority incidents or problems on the instance that might need immediate attention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-administer-admin-home.html
-release: australia
+release: brazil
 product: Admin Center
 classification: admin-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Admin Center, Get started, Administer the ServiceNow AI Platform]
 
 Take control of your daily administrative tasks with our intuitive dashboard. Quickly access and manage essential tasks and tools to boost productivity.
 
-**Parent Topic:**[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/admin-center-intro.md)
+**Parent Topic:**[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/admin-center-intro.md)
 
 ## Admin Home
 
@@ -34,14 +34,6 @@ Use the advanced Admin Home page to accomplish the following:
 
 \[Omitted image "Admin\_home\_zoomed\_out.png"\] Alt text: The Admin Home page
 
-### Manage your products
-
-\[Omitted image "ia-install.png"\] Alt text: Screenshot showing Manage your products section
-
-The Manage your products section of the Admin Home page provides the names of the applications and plugins that are rendered dynamically based on your admin entitlement status.
-
-**Note:** The Manage your products section is collapsible by default. You can expand it to see all the product family cards.
-
 ### Track important information
 
 \[Omitted image "ac-track\_whats\_important.png"\] Alt text: The Track what's important to you section of the Admin Home page
@@ -56,9 +48,9 @@ The **Track what's important to you** section of the Admin Home page provides in
 
 \[Omitted image "ac-get\_information.png"\] Alt text: The Get information about your instance section of the Admin Home page
 
-The **Get information about your instance** section of the Admin Home page shows information about your instance's current version, violations, and scheduled upgrade. It also shows the status of licensed applications as a list of installed applications on your instance and the applications that need to be updated, as well as a card with easy access to [Adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-achieve-business-objective.md).
+The **Get information about your instance** section of the Admin Home page shows information about your instance's current version, violations, and scheduled upgrade. It also shows the status of licensed applications as a list of installed applications on your instance and the applications that need to be updated, as well as a card with easy access to [Adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/admin-center/ac-achieve-business-objective.md).
 
-If your instance has one or more ServiceNow Otto plugins installed, a card displaying the status of your instance's ServiceNow Otto skills will be shown.
+If your instance has one or more Now Assist plugins installed, a card displaying the status of your instance's Now Assist skills will be shown.
 
 \[Omitted image "Now\_Assist\_Admin\_Card.png"\] Alt text: The Now Assist Admin card with skills information.
 

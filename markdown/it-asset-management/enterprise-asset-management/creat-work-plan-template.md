@@ -3,13 +3,13 @@ title: Create a work order plan template
 description: Create a reusable work order plan template to use when creating work order plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/creat-work-plan-template.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Asset work order plans, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Asset work order plans, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a work order plan template
@@ -100,9 +100,9 @@ The work order plan template is created and appears in the **Work order plan tem
 
 ## What to do next
 
-Use this work order plan template when you [create a work order plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-work-order-plan-eam.md).
+Use this work order plan template when you [create a work order plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-work-order-plan-eam.md).
 
-**Parent Topic:**[Manage asset-centric work tasks using work order plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-work-order-plans.md)
+**Parent Topic:**[Manage asset-centric work tasks using work order plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/manage-work-order-plans.md)
 
 **Related topics**  
 

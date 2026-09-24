@@ -3,11 +3,11 @@ title: Generate OT KB articles agentic workflow
 description: The Generate OT KB articles agentic workflow automatically generates a KB article when an Operational Technology \(OT\) incident is resolved, capturing resolution information for future reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/agent-ot-knowledge-generator.html
-release: australia
+release: brazil
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Agentic AI for Operational Technology Service Management, Use, Operational Technology Incident Management, Operational Technology]
 ---
@@ -51,7 +51,7 @@ With the Generate OT KB articles agentic workflow, you can automatically generat
 
 The article is then automatically published and appears in the Attached Knowledge related list of the OT incident record in the Industrial Workspace. The KB Article Generation process isn't triggered if there's an article already attached to current OT incident.
 
-To change this agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+To change this agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 **Note:** When you modify an agentic workflow, AI agent, or tool, verify that you update all instructions accordingly.
 
@@ -61,7 +61,7 @@ The minimum role needed to duplicate an agentic workflow is the sn\_aia.admin ro
 
 The OT knowledge generator AI agent is used to generate a KB article for a resolved OT incident.
 
-**Important:** This AI agent is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This AI agent is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-**Parent Topic:**[Agentic AI for Operational Technology Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/now-assist-otsm-use-cases.md)
+**Parent Topic:**[Agentic AI for Operational Technology Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/now-assist-otsm-use-cases.md)
 

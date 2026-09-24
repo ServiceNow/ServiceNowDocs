@@ -3,11 +3,11 @@ title: Product pickers
 description: Learn how to create and configure product pickers to add products to a bill of materials \(BOM\) without writing rules. Define product options, subfields, aggregates, and display settings to enhance user interactions, automate data mapping, and present product information directly in layouts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/product\_picker\_overview.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [CPQ Configurator, Configure, price, quote apps, Explore, Sales Customer Relationship Management]
+breadcrumb: [CPQ Configurator, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Product pickers
@@ -87,7 +87,7 @@ Additional subfields can be created and optionally configured to pass additional
 
 ## Aggregates
 
-Aggregates can be created on product pickers, similar to how set aggregates work. For information about set aggregates, see [Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating_set_aggregates.md).
+Aggregates can be created on product pickers, similar to how set aggregates work. For information about set aggregates, see [Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/creating_set_aggregates.md).
 
 ## Setup
 
@@ -201,7 +201,7 @@ A ZIP file containing a product picker can be imported through the Matrix Loader
 **Related topics**  
 
 
-[Product picker bulk actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product_picker_bulk_actions.md)
+[Product picker bulk actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product_picker_bulk_actions.md)
 
-[Referencing a product picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments_how_to_reference_a_product_picker.md)
+[Referencing a product picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enrichments_how_to_reference_a_product_picker.md)
 

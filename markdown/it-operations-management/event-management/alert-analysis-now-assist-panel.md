@@ -3,14 +3,14 @@ title: Launch an alert analysis from the ServiceNow Otto panel
 description: Initiate an alert analysis from the ServiceNow Otto panel. The alert analysis displays directly in the panel for convenient review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-analysis-now-assist-panel.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI for IT Operations Management, Generative AI for ITOM, alert analysis, Now Assist panel]
-breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Launch an alert analysis from the ServiceNow Otto panel
@@ -19,9 +19,9 @@ Initiate an alert analysis from the ServiceNow Otto panel. The alert analysis di
 
 ## Before you begin
 
-Install the ServiceNow Otto for ITOM plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
+Install the ServiceNow Otto for ITOM plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-now-assist-itom.md).
 
-For comprehensive information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+For comprehensive information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 Role required: evt\_mgmt\_operator
 
@@ -35,15 +35,15 @@ Role required: evt\_mgmt\_operator
 
 4.  Initiate an alert analysis from the ServiceNow Otto panel using one of the available methods.
 
-<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d681063e147">
+<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d686829e147">
 
 Launch an alert analysis
 
-</th><th align="left" id="d681063e150">
+</th><th align="left" id="d686829e150">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d681063e156">
+</th></tr></thead><tbody><tr><td id="d686829e156">
 
 **From the list**
 
@@ -59,7 +59,7 @@ The panel displays.
 
 The alert analysis displays in the panel.
 
-</td></tr><tr><td id="d681063e194">
+</td></tr><tr><td id="d686829e194">
 
 **From an alert form**
 

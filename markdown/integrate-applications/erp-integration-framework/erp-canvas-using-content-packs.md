@@ -3,14 +3,14 @@ title: Using Zero Copy Connector for ERP content packs
 description: Learn how to use Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-using-content-packs.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, content, pack, sample, example, model, application]
-breadcrumb: [Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Content packs, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Using Zero Copy Connector for ERP content packs
@@ -23,7 +23,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Follow these steps to create an application in a new application scope and clone a content pack model within that same scope. Using this process packages the application with its own scope and a cloned model that you can edit. Working in a scope creates ownership of the application and cloned model. The owner can give access to others to edit the application and cloned model as needed.
 
-Before completing the procedure, it may be helpful to review the list of [Available Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md) and to [Explore a Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-explore-a-content-pack.md) to review its contents.
+Before completing the procedure, it may be helpful to review the list of [Available Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md) and to [Explore a Zero Copy Connector for ERP content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-explore-a-content-pack.md) to review its contents.
 
 ## Procedure
 
@@ -31,9 +31,9 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
     Use a builder application, such as Creator Studio or ServiceNow Studio, to create an application in a new scope. For detailed information and steps, see:
 
-    -   Create the foundation of an app in Creator Studio
-    -   
-    -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md)
+    -   [Create the foundation of an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-app-creator-studio.md)
+    -   [Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-an-application-in-servicenow-studio.md)
+    -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md)
 2.  Confirm that an update set was created for the new application.
 
     1.  Navigate to **All** &gt; **System update sets** &gt; **Local update sets**.
@@ -42,7 +42,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
         \[Omitted image "erpc-check-update-set-content-pack-model-clone.png"\] Alt text: Update set list with default update set for the new application highlighted.
 
-        If a default update set wasn't created for the new application, follow the instructions in .
+        If a default update set wasn't created for the new application, follow the instructions in [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-select-update-set.md).
 
     3.  In **Name**, enter a unique name for the update set.
 
@@ -80,7 +80,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
         When the clone is complete, a success message is displayed.
 
-        For more information about cloning models, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md).
+        For more information about cloning models, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md).
 
     4.  Select the **Models** tab.
 
@@ -91,5 +91,7 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
 ## What to do next
 
-Explore the new, cloned model and make changes as needed. For example, edit the mappings, inputs, or outputs. For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
+Explore the new, cloned model and make changes as needed. For example, edit the mappings, inputs, or outputs. For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
+
+**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

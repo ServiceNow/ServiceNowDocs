@@ -3,9 +3,9 @@ title: Consumer Profile Location table
 description: The Consumer Profile Location \[sn\_csm\_consumer\_profile\_location\] table stores the relationship between the consumer profiles and locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/consumer-profile-location-table.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating multiple consumer profiles for a user, Configure consumers, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

@@ -3,9 +3,9 @@ title: Steps to help prevent duplicate or orphaned records after running lookup 
 description: Take steps to help prevent duplicate or orphan records resulting from matching \(configuration items \(CIs\) within the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-ci-identifier-rules-impl-test.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Associating finding with a configuration item using lookup rules, Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -65,5 +65,5 @@ There are four options for deleting data from tables:
     **Note:** Never use **truncateTable** in a production environment. Consult you Support representative before executing large deletions in production or shared environments.
 
 
-**Parent Topic:**[Associating finding with a configuration item using lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-associate-finding-configuration-item-using-lookup-rules.md)
+**Parent Topic:**[Associating finding with a configuration item using lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-associate-finding-configuration-item-using-lookup-rules.md)
 

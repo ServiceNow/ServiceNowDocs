@@ -3,13 +3,13 @@ title: Working with published forms
 description: After a form has been published, you can update it, undo changes, and hide it from being visible.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/crs-working-with-published-forms.html
-release: australia
+release: brazil
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Forms in apps, Build apps, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Building applications]
 ---
 
 # Working with published forms
@@ -35,8 +35,8 @@ Hiding a catalog item for your app's form effectively makes the form inactive. H
 You can delete only unpublished forms.
 
 -   If a form is in Draft state, you can just choose not to **Mark as ready**.
--   If you know that you'll never need a Draft form again, you can delete it. For more information, check out [Delete a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/crs-delete-form.md).
--   If the form is in a Published state, you can hide it so it no longer appears in the catalog. See [Hide a form from use in the ServiceNow AI Platform in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-deactivate-form.md) for more information on hiding forms.
+-   If you know that you'll never need a Draft form again, you can delete it. For more information, check out [Delete a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/crs-delete-form.md).
+-   If the form is in a Published state, you can hide it so it no longer appears in the catalog. See [Hide a form from use in the ServiceNow AI Platform in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-deactivate-form.md) for more information on hiding forms.
 
-**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
 

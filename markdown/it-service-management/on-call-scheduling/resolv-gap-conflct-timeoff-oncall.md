@@ -3,11 +3,11 @@ title: Resolve gaps, conflicts, and time-off requests in a shift
 description: Review and resolve gaps and conflicts. Find a replacement on-call member for time-off requests to ensure proper support coverage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/resolv-gap-conflct-timeoff-oncall.html
-release: australia
+release: brazil
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure or update an On-Call shift, Managing schedules and shifts, On-Call Scheduling, IT Service Management]
 ---
@@ -36,9 +36,9 @@ A conflict is possible if a user is assigned as both the primary and secondary p
 
 2.  Click a shift card.
 
-    **Note:** If you are a shift manager or roster member, the schedule view opens. In all other cases, you are redirected to the calendar view. For more information on on-call scheduling calendars, see [Manage shifts from the Calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/customize-calendar-view-oncall.md).
+    **Note:** If you are a shift manager or roster member, the schedule view opens. In all other cases, you are redirected to the calendar view. For more information on on-call scheduling calendars, see [Manage shifts from the Calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/customize-calendar-view-oncall.md).
 
-    -   The On-Call Schedules page open. For more information, see [Updating an On-Call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/update-schedule-oncall.md)
+    -   The On-Call Schedules page open. For more information, see [Updating an On-Call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/update-schedule-oncall.md)
     -   The pending actions for the current shift appear in the **Pending Actions** section.
     .
 
@@ -71,5 +71,5 @@ A conflict is possible if a user is assigned as both the primary and secondary p
     3.  Approve the time-off requests.
 
 
-**Parent Topic:**[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/config-update-shift-oncall.md)
+**Parent Topic:**[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/config-update-shift-oncall.md)
 

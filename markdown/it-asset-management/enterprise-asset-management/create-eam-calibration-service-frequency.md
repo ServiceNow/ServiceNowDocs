@@ -3,11 +3,11 @@ title: Create a service frequency for your enterprise asset calibrations
 description: Create a service frequency to specify how often you must perform an enterprise asset calibration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-calibration-service-frequency.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
@@ -24,17 +24,19 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 You can specify the calibrations that are required for your enterprise assets by using calibration attributes. When you create a calibration attribute, you must specify the frequency at which you need to perform the associated calibrations.
 
-For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
+For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
 
 ## Procedure
 
-1.  From the Enterprise Asset Workspace, open the Admin center view.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  From the left navigation menu of the Admin center view, navigate to **Calibration configuration** &gt; **Service frequency**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  From the navigation panel of the Admin center view, navigate to **Calibration configuration** &gt; **Service frequency**.
 
-4.  On the form, fill in the fields.
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -42,7 +44,7 @@ For more details on calibration attributes, see [Add calibration attributes to a
     |Service frequency|Frequency at which you must perform the calibrations.|
     |Service frequency type|Type of frequency.|
 
-5.  Select **Save**.
+6.  Select **Save**.
 
 
 ## Result

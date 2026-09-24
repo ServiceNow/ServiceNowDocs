@@ -3,9 +3,9 @@ title: Use AI to explore data with AI Data Explorer
 description: AI Data Explorer is your AI-companion for instant insights and deep data explorations. Ask quick questions, receive tailored recommendations, and collaborate with AI and your colleagues to build long-term analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/ai-data-explorer.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -22,19 +22,19 @@ See how to launch AI Data Explorer, ask questions in an exploration, and share t
 
 <table id="table_crq_v4l_w2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Overview of AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Overview of AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ai-data-explorer.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable AI Data Explorer and supplementary skills for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-aide-explorer.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable AI Data Explorer and supplementary skills for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/activate-aide-explorer.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Create data visualizations and share them with collaborators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
+[Use\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Create data visualizations and share them with collaborators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/use-aide.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Roles, tables, and domain separation support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/aide-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Roles, tables, and domain separation support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/aide-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -54,7 +54,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information from tablesand indicators that will be used to generate analytics. For example, information from the Incident tableor the Number of open incidents indicator could be collected for requests for incident data visualizations. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information from tablesand indicators that will be used to generate analytics. For example, information from the Incident tableor the Number of open incidents indicator could be collected for requests for incident data visualizations. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

@@ -3,11 +3,11 @@ title: Send a privacy assessment to multiple entities
 description: Send the privacy screening assessment or the Privacy impact assessment \(PIA\) assessments to multiple entities to understand why and how personal data is being processed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/send-privacy-assessment.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Initiating privacy assessments, Types of privacy assessments, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -45,5 +45,5 @@ Role required: sn\_privacy.manager
 
 The assessment is sent to the entity owners.
 
-**Parent Topic:**[Initiating privacy assessments for an entity or a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/trigger-privacy-assessmt-on-entities.md)
+**Parent Topic:**[Initiating privacy assessments for an entity or a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/trigger-privacy-assessmt-on-entities.md)
 

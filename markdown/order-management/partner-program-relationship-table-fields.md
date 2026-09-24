@@ -3,9 +3,9 @@ title: Partner program relationship table fields
 description: Establish a relationship between channel partners and partner programs with the Partner Program Relationship \[sn\_prm\_partner\_program\_relationship\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/partner-program-relationship-table-fields.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
@@ -87,10 +87,10 @@ Activity
 Updates and information related to the partner program relationship.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/partner-relationship-management-reference.md)
 
 **Related topics**  
 
 
-[Configure Partner Program Relationship table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-program-relationship-table.md)
+[Configure Partner Program Relationship table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-partner-program-relationship-table.md)
 

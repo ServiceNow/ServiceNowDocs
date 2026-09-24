@@ -3,12 +3,12 @@ title: ServiceNow Otto context menu
 description: The ServiceNow Otto context menu uses generative AI to help agents summarize, create, and edit written content, thus streamlining their writing tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-write-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Now Assist, Now Assist context menu, Generative AI, Gen AI, Streamline]
-breadcrumb: [ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # ServiceNow Otto context menu
@@ -25,13 +25,13 @@ The ServiceNow Otto context menu unlocks the power of generative AI and is avail
 -   Strategic Portfolio Management \(SPM\)
 -   IT Operations Management \(ITOM\)
 
-The ServiceNow Otto context menu isn't available for Core UI or in any Service Portal, whether you use custom or built-in skills.
+The ServiceNow Otto context menu isn’t available with Core UI.
 
 ## Using the ServiceNow Otto context menu
 
-The ServiceNow Otto context menu is available on any field where the floating ServiceNow Otto button \(\[Omitted image "icon-otto-outline-24.svg"\] Alt text:\) appears. If you start typing in the field, a menu appears with the available ServiceNow Otto context menu actions. The ServiceNow Otto context menu helps you summarize, create or modify existing documentation.
+The ServiceNow Otto context menu is available on any field where the floating ServiceNow Otto button \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) appears. If you start typing in the field, a menu appears with the available ServiceNow Otto context menu actions. The ServiceNow Otto context menu helps you summarize, create or modify existing documentation.
 
-You can configure the Advanced filter to hide or show the ServiceNow Otto context menu quick actions option using the wwna\_quick\_actions table. To view more variable set configuration options, see [ServiceNow Otto context menu variable set configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nacm-variable-set-description.md).
+You can configure the Advanced filter to hide or show the ServiceNow Otto Context Menu quick actions option using the wwna\_quick\_actions table. To view more variable set configuration options, see [ServiceNow Otto context menu variable set configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nacm-variable-set-description.md).
 
 -   **Chat window using the ServiceNow Otto context menu**
 
@@ -45,23 +45,23 @@ You can configure the Advanced filter to hide or show the ServiceNow Otto contex
 
     The ServiceNow Otto context menu makes the change request risk explanation available on the workspace and on UI16 after assessment and calculation.
 
-    When the risk is assessed, you will see the **Explain risk** button with the ServiceNow Otto \[Omitted image "icon-otto-outline-24.svg"\] Alt text: icon on the workspace showing the risk explanation in a dialogue box in the Record information section.
+    When the risk is assessed and calculated, you’ll see the **Explain risk** button with the ServiceNow Otto \[Omitted image "bus-ai-otto.svg"\] Alt text: icon on the workspace. It shows the risk explanation in a dialogue box on the Record information section.
 
     \[Omitted image "change-risk-explntn-wrkspc-nacm.png"\] Alt text: The change request risk explanation powered by ServiceNow Otto.
 
-    When the risk is assessed and calculated, you’ll see the ServiceNow Otto \[Omitted image "icon-otto-outline-24.svg"\] Alt text: icon against the **Risk** field on UI16, showing the risk explanation in a dialogue box.
+    When the risk is assessed and calculated, you’ll see the ServiceNow Otto \[Omitted image "bus-ai-otto.svg"\] Alt text: icon against the **Risk** field on UI16, showing the risk explanation in a dialogue box.
 
     \[Omitted image "change-risk-explntn-nacm.png"\] Alt text: ServiceNow Otto showing the change risk explanation.
 
     **Note:** The risk explanation that is presented in the dialogue box is assessed and calculated on the change request form.
 
-    For more information about risk assessment and calculation, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_RskAsmtCalc.md).
+    For more information about risk assessment and calculation, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_RskAsmtCalc.md).
 
 -   **Content editing in Knowledge Base articles using the ServiceNow Otto content menu**
 
     The ServiceNow Otto context menu enables generative AI assisted content editing capabilities for Knowledge Base authoring and to provide resolution notes in workspaces and UI16.
 
-    When you open a knowledge article and select the content in it, you’ll see the ServiceNow Otto \[Omitted image "icon-otto-outline-24.svg"\] Alt text: icon pop-up and float along with your mouse device.
+    When you open a knowledge article and select the content in it, you’ll see the ServiceNow Otto \[Omitted image "bus-ai-otto.svg"\] Alt text: icon pop-up and float along with your mouse device.
 
     When you hover over the ServiceNow Otto icon, you’ll see the following menu options to help you edit the content:
 
@@ -73,7 +73,7 @@ You can configure the Advanced filter to hide or show the ServiceNow Otto contex
 
     \[Omitted image "insert-nacm-ai-text.png"\] Alt text: Insert the AI generated text into the Knowledge Base article.
 
-    For more information about generating Knowledge Base articles using the ServiceNow Otto context menu, see [Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/Now-Assist-generate-article-using-context-menu.md).
+    For more information about generating Knowledge Base articles using the ServiceNow Otto context menu, see [Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/Now-Assist-generate-article-using-context-menu.md).
 
 -   **Change Tone using ServiceNow Otto context menu**
 
@@ -85,7 +85,7 @@ You can configure the Advanced filter to hide or show the ServiceNow Otto contex
 
     \[Omitted image "nacm-change-tone.png"\] Alt text: ServiceNow Otto change tone selections.
 
-    **Note:** If you do not see the change tone option for your application or product, reach out to ServiceNow.
+    **Note:** If you don't see the change tone option for your application or product, reach out to ServiceNow.
 
 -   **Limit the number of content refinement calls using the ServiceNow Otto context menu**
 
@@ -110,25 +110,25 @@ You can configure the Advanced filter to hide or show the ServiceNow Otto contex
 
 -   **Create knowledge article with open prompt**
 
-    Use NAcm to create inline knowledge article using open prompts. See [Generate KB article with ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generate-kb-article-with.md).
+    Use ServiceNow Otto context menu to create inline knowledge article using open prompts. See [Generate KB article with ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generate-kb-article-with.md).
 
 -   **Set the minimum word count for the ServiceNow Otto icon**
 
     You can set a minimum word count required for the ServiceNow Otto icon to appear, to control when the icon is displayed based on content length. To set the minimum word count, update the value for the `minSelectedWordCount` property.
 
 
--   **[Email recommendations using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/email-recommendations-nacm.md)**  
-Use the ServiceNow Otto context menu to compose or respond to emails with recommendations from Now Assist with generative AI template suggestions. The ServiceNow Otto context menu enables users to generate email response recommendations in new, forward, reply, or reply all scenarios.
--   **[Summarize records with the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/summarisation-with-now-assist-context-menu.md)**  
-Use the ServiceNow Otto context menu to generate a record summary for the page, using Generative AI application assisted summarization capabilities in workspaces and UI16. The ServiceNow Otto context menu can generate a new summary, expand or collapse the summary card, share the summary to work notes, regenerate, or copy the summary.
--   **[Improve Docs content in Strategic Portfolio Management with ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/answer-queries-with-now-assist-context-menu.md)**  
+-   **[Email recommendations using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/email-recommendations-nacm.md)**  
+Use the ServiceNow Otto context menu to compose or respond to emails with recommendations from ServiceNow Otto with generative AI template suggestions. The ServiceNow Otto context menu enables users to generate email response recommendations in new, forward, reply, or reply all scenarios.
+-   **[Summarize records with the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+Use the ServiceNow Otto context menu to generate a record summary for the page, using Generative AI application assisted summarization capabilities in workspaces and UI16. The Now Assist context menu can generate a new summary, expand or collapse the summary card, share the summary to work notes, regenerate, or copy the summary.
+-   **[Improve Docs content in Strategic Portfolio Management with ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/answer-queries-with-now-assist-context-menu.md)**  
 Use the ServiceNow Otto context menu to start conversations and raise queries, using generative AI capabilities and custom built in skills in Strategic Portfolio Management.
--   **[Generate KB article with ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generate-kb-article-with.md)**  
+-   **[Generate KB article with ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generate-kb-article-with.md)**  
 Use the ServiceNow Otto context menu to generate Knowledge Base articles in Knowledge Management.
--   **[ServiceNow Otto context menu usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-context-menu-dashboard.md)**  
-Use the ServiceNow Otto context menu dashboard to monitor the use of ServiceNow Otto context menu across the different applications.
--   **[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)**  
-Use the ServiceNow Otto context menu to deploy the custom skills created using ServiceNow Otto skill kit.
+-   **[ServiceNow Otto context menu usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-context-menu-dashboard.md)**  
+Use the ServiceNow Otto context menu dashboard to monitor the use of Now Assist context menu across the different applications.
+-   **[Use ServiceNow Otto context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)**  
+Use the ServiceNow Otto context menu to deploy the custom skills created using Now Assist skill kit.
 
-**Parent Topic:**[ServiceNow Otto Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-experiences.md)
+**Parent Topic:**[ServiceNow Otto Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-experiences.md)
 

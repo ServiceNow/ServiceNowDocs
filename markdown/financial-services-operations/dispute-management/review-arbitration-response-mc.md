@@ -3,11 +3,11 @@ title: Review arbitration response
 description: Review the arbitration response received from Mastercard and proceed to resolve the dispute. This step occurs in the Mastercard dispute process when you’ve escalated from pre‑arbitration to arbitration or skipped pre‑arbitration and moved directly into arbitration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-arbitration-response-mc.html
-release: australia
+release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Chargeback, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,7 +20,7 @@ Review the arbitration response received from Mastercard and proceed to resolve 
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector.
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -31,7 +31,7 @@ This task displays during one of the possibilities in the chargeback stage:
 
 Review the ruling from Mastercard and choose whether to resolve the dispute or take further action.
 
-If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 ## Procedure
 
@@ -63,15 +63,15 @@ If Card Data Security is installed and configured, **Attachments** in the contex
 
 11. In the **Response outcome** field, select one of the following options.
 
-<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d43331e289">
+<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d43363e289">
 
 Selection
 
-</th><th align="left" id="d43331e292">
+</th><th align="left" id="d43363e292">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d43331e298">
+</th></tr></thead><tbody><tr><td id="d43363e298">
 
 **Unresolved**
 
@@ -79,9 +79,9 @@ Result
 
 Select this option if you are not happy with the arbitration response from Mastercard. The next task is displayed based on Financial adjustments 2.
 
-For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/financial-adjustments.md).
+For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/financial-adjustments.md).
 
-</td></tr><tr><td id="d43331e323">
+</td></tr><tr><td id="d43363e323">
 
 **Resolved**
 
@@ -92,12 +92,12 @@ Select this option if you’re satisfied with the arbitration response and close
 </td></tr></tbody>
 </table>12. Select **Add file** to attach supporting documents to the task.
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/mastercard-image-and-document-requirements.md).
+    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/mastercard-image-and-document-requirements.md).
 
 
 ## What to do next
 
 The task is marked to closure.
 
-**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
+**Parent Topic:**[Chargeback in Mastercard transaction disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/chargeback-stage-mastercard.md)
 

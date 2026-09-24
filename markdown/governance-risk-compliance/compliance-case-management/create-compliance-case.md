@@ -3,11 +3,11 @@ title: Create a compliance case in the Compliance Workspace
 description: Report any violation of the organization's policies or guidelines by using the Compliance Case Management application. By reporting a case, you reduce and avert the adverse regulatory actions that could impact the company's financials, reputation, and growth.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/create-compliance-case.html
-release: australia
+release: brazil
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Report compliance case, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -34,13 +34,13 @@ Your users can report a case to the compliance teams through phone calls or emai
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the Create a Compliance Case form, see [Compliance Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/compliance-case-form.md).
+    For a description of the field values on the Create a Compliance Case form, see [Compliance Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/compliance-case-form.md).
 
 5.  Select **Save**.
 
 
--   **[Compliance Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/compliance-case-form.md)**  
+-   **[Compliance Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/compliance-case-form.md)**  
 Use the Create Compliance Case form in the GRC: Compliance Case Management application to report a compliance case.
 
-**Parent Topic:**[Reporting a compliance case in GRC: Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/reporting-compliance-case.md)
+**Parent Topic:**[Reporting a compliance case in GRC: Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management/reporting-compliance-case.md)
 

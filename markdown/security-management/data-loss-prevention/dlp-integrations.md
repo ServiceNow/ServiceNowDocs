@@ -3,11 +3,11 @@ title: DLP integrations
 description: The Data Loss Prevention Incident Response base system includes integrations to third-party data loss prevention software packages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/dlp-integrations.html
-release: australia
+release: brazil
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -24,14 +24,14 @@ The base system includes a series of cards for each of the integration implement
 
 Data Loss Prevention Incident Response supports the following third-party data loss prevention software packages:
 
--   **[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/symantec-dlp-integration.md)**  
+-   **[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/symantec-dlp-integration.md)**  
 The Symantec DLP integration supports the ingestion of Data Loss Prevention Incident Response incidents created on the Symantec Data Loss Prevention Incident Response deployment. After ingestion, you can use the incident management functionalities to remediate the DLP incidents.
--   **[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)**  
+-   **[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)**  
 The Proofpoint DLP integration supports the ingestion of Data Loss Prevention incidents created on the Proofpoint Data Loss Prevention deployment. After ingestion, you can use the incident management functionalities to remediate the DLP incidents.
--   **[Data Loss Prevention Incident Response Integration with Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-netskope.md)**  
+-   **[Data Loss Prevention Incident Response Integration with Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-netskope.md)**  
 The Netskope DLP integration supports the ingestion of Data Loss Prevention incidents created on the Netskope Data Loss Prevention deployment. Netskope DLP helps companies to track the usage and movement of sensitive data on various platforms.
--   **[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/icap-dlp-integration.md)**  
+-   **[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/icap-dlp-integration.md)**  
 The Internet Content Adaption Protocol \(ICAP\) DLP integration supports the ingestion of Data Loss Prevention Incident Response alerts, allows the fetching of match content, and evidence files from Amazon S3 created on the ICAP supported Data Loss Prevention Incident Response deployment.
--   **[Data Loss Prevention Incident Response with Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-integration-microsoft.md)**  
+-   **[Data Loss Prevention Incident Response with Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/data-loss-prevention/dlp-integration-microsoft.md)**  
 The Data Loss Prevention Incident Response with Microsoft provides a core framework to import Data Loss Prevention \(DLP\) incidents from multiple sources, such as Microsoft Purview apps, Microsoft Teams, Exchange Online, SharePoint Online, OneDrive for Business, and other event types.
 

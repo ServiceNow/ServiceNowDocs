@@ -3,9 +3,9 @@ title: Format PDF templates for BIAs, BCPs, and Events
 description: Format the PDF templates that are used for generating the PDFs of business impact analyses, business continuity plans, or events. You can format the PDFs according to your organizational requirements and templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -24,9 +24,9 @@ The BCM admin role \(sn\_bcm.admin\) inherits Document Templates roles \(sn\_doc
 
 Verify that you have downloaded the PDF of a business impact analysis, business continuity plan, or event according to the steps mentioned in these topics:
 
--   [Generate BIA reports in PDF or Microsoft Word formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-pdf-for-bia.md)
--   [Generate BCP reports in PDF or Microsoft Word format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-pdf-for-bcp.md)
--   [Generate event reports in PDF or Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/generate-pdf-for-events.md)
+-   [Generate BIA reports in PDF or Microsoft Word formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/generate-pdf-for-bia.md)
+-   [Generate BCP reports in PDF or Microsoft Word format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/generate-pdf-for-bcp.md)
+-   [Generate event reports in PDF or Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/generate-pdf-for-events.md)
 
 ## About this task
 
@@ -63,7 +63,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
         With the BCM administrator \(sn\_bcm.admin\) role, you can navigate to **All Document Templates** in an instance to view the document templates that are provided with the BCM application.
 
-        You can also use an editable and fillable PDF template to format the PDF. For more information on the PDF document template that can be used to customize your PDFs, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-editable-pdf.md).
+        You can also use an editable and fillable PDF template to format the PDF. For more information on the PDF document template that can be used to customize your PDFs, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/configure-editable-pdf.md).
 
 3.  To insert date variables in the PDF, select **Insert Date**.
 
@@ -73,7 +73,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 5.  To add blocks for advanced search, select **Add Blocks**.
 
-<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d226907e247">
+<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d229599e247">
 
 **To add an existing document block to the template**
 
@@ -81,7 +81,7 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
 In Search blocks, type in the name of an existing document block, select the document block, and select **Insert**.
 
-</td></tr><tr><td id="d226907e259">
+</td></tr><tr><td id="d229599e259">
 
 **To add a new document block to the template**
 
@@ -94,7 +94,7 @@ Select **Create New Block**.
 
     Confirm that the template is published so that the PDF is generated with the right attributes.
 
-    For more information on Document Templates, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-editable-pdf.md).
+    For more information on Document Templates, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/configure-editable-pdf.md).
 
 7.  To copy an existing template, select it from the list and select **Copy**.
 

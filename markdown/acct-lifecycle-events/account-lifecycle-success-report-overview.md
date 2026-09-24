@@ -3,9 +3,9 @@ title: Success report dashboard overview
 description: The success report dashboard helps customer success managers manage the overall customer portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-report-overview.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Dashboards, Customer success, Use, Customer Success Management]
 ---
@@ -32,10 +32,10 @@ Based on this structure, each persona can view the following engagements on the 
 -   Manager 2 can view 7 engagements: their own engagement and the engagements of John Smith and Jane Doe.
 -   The director can view all 14 engagements across both teams.
 
-The success report dashboard provides a view of all engagements in the hierarchy and helps customer success managers make data-driven decisions. For more information, see [Success report dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-report.md).
+The success report dashboard provides a view of all engagements in the hierarchy and helps customer success managers make data-driven decisions. For more information, see [Success report dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-report.md).
 
--   **[Success report dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-report.md)**  
+-   **[Success report dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-report.md)**  
 Get an overall view of all your engagement and team status overview, risk indicators, onboarding and adoption insights, and expansion and renewal metrics.
 
-**Parent Topic:**[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-dashboards.md)
+**Parent Topic:**[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-dashboards.md)
 

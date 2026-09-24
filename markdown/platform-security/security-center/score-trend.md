@@ -3,11 +3,11 @@ title: Hardening compliance score trend
 description: View the trends of your hardening compliance score over time in a chart or table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/score-trend.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security hardening, Security configuration console, Security Center, Platform Security]
 ---
@@ -28,15 +28,15 @@ Use the **Chart options** button to specify what information to analyze and how 
 
     -   **Target**
 
-        Goals your organization wants to achieve. See [Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-targets.md).
+        Goals your organization wants to achieve. See .
 
     -   **Threshold**
 
-        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See [Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-threshold.md).
+        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See .
 
     -   **Forecast**
 
-        Describes the ability to forecast future scores based on past behavior. See [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ForecastingData.md).
+        Describes the ability to forecast future scores based on past behavior. See .
 
     -   **Trend**
 
@@ -72,15 +72,15 @@ Use the **Chart options** button to specify what information to analyze and how 
 
 -   **Chart type**
 
-    Select a chart type to control how the information your selected is visualized. See [Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/time-series-visualization-types.md).
+    Select a chart type to control how the information your selected is visualized. See .
 
 
 ## All Records table
 
 The All Records table displays the date on which the compliance scores were collected, the score percentages, and the number of non-compliant settings. You can use this table as another option to analyze the security posture of your instance over time.
 
--   **[Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/increase-hardening-comp-score.md)**  
+-   **[Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/increase-hardening-comp-score.md)**  
 Increase your hardening compliance score by ensuring that the hardening settings are compliant with the system's recommendations.
 
-**Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-hardening.md)
+**Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-hardening.md)
 

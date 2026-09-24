@@ -3,9 +3,9 @@ title: Mobile functions
 description: Configure functions in Mobile App Builder to determine which actions users can perform in the mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-studio-mobile-button-types.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -20,7 +20,7 @@ Configure functions in Mobile App Builder to determine which actions users can p
 
 Actions
 
- Use action functions to change data, such as assigning a task to yourself or adding a comment to a record. Action functions require a write-back action item to operate. Configure your actions with input parameters to include user input in the changes you make. For more detail on this function type, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-actions.md).
+ Use action functions to change data, such as assigning a task to yourself or adding a comment to a record. Action functions require a write-back action item to operate. Configure your actions with input parameters to include user input in the changes you make. For more detail on this function type, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-actions.md).
 
 </td><td>
 
@@ -30,7 +30,7 @@ Actions
 
 Navigations
 
- Use navigation functions to transition from your current screen to another screen or launcher screen. For example, opening a record from a list, or moving from an employee user profile screen to a manager user profile screen. For more detail on this function type, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-nav-functions.md).
+ Use navigation functions to transition from your current screen to another screen or launcher screen. For example, opening a record from a list, or moving from an employee user profile screen to a manager user profile screen. For more detail on this function type, see [Navigation functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-nav-functions.md).
 
 </td><td>
 
@@ -40,7 +40,7 @@ Navigations
 
 Smart buttons
 
- Use smart button functions enable your users to take an action using the native capabilities of their mobile device. These buttons give your users quick access to phone, email, locations or navigate to a specific URL. For more detail on this function type, see [Smart button functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-smart-button.md).
+ Use smart button functions enable your users to take an action using the native capabilities of their mobile device. These buttons give your users quick access to phone, email, locations or navigate to a specific URL. For more detail on this function type, see [Smart button functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mobile-smart-button.md).
 
 </td><td>
 
@@ -50,7 +50,7 @@ Smart buttons
 
 Predefined buttons
 
- Predefined button functions allow you to use prebuilt functions that don’t require any additional configuration. Choose from Cancel, Continue, and Log Out actions. For more detail on this function type, see  [Predefined button functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/predefined-button-functions.md).
+ Predefined button functions allow you to use prebuilt functions that don’t require any additional configuration. Choose from Cancel, Continue, and Log Out actions. For more detail on this function type, see  [Predefined button functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/predefined-button-functions.md).
 
 </td><td>
 
@@ -72,7 +72,7 @@ When you create an action, you must choose whether the function context is **rec
 
 ## Function locations
 
-For each function you create for an application, you must associate it with a specific location. You can associate most functions with a top menu, a swipe, or a specific field. For details on this configuration, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md)
+For each function you create for an application, you must associate it with a specific location. You can associate most functions with a top menu, a swipe, or a specific field. For details on this configuration, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-studio-button-instances.md)
 
 ## Carried parameters
 

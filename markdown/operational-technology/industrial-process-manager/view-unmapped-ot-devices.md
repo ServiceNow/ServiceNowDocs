@@ -3,11 +3,11 @@ title: View unmapped OT devices
 description: View a list of Operational Technology \(OT\) devices with IP addresses that aren't mapped to any equipment model entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/view-unmapped-ot-devices.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated Mapping Across Zone-based IP Network Groups, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
@@ -20,8 +20,8 @@ View a list of Operational Technology \(OT\) devices with IP addresses that aren
 
 The following plugins must be installed:
 
--   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)
--   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
+-   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)
+-   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
 
 Role required: cmdb\_ot\_isa\_editor and cmdb\_ot\_editor
 
@@ -40,7 +40,7 @@ Role required: cmdb\_ot\_isa\_editor and cmdb\_ot\_editor
 
 ## What to do next
 
-Now, you can map the OT devices to equipment model entities. For more information, see [Map an individual OT device to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automatedly-map-ot-assets-to-isa-entities.md).
+Now, you can map the OT devices to equipment model entities. For more information, see [Map an individual OT device to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/automatedly-map-ot-assets-to-isa-entities.md).
 
-**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

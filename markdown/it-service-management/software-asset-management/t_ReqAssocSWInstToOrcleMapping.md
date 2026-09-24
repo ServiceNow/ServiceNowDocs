@@ -3,11 +3,11 @@ title: Validate legacy Oracle Process Pack requirements for associating software
 description: Meet the recommended requirements to ensure that you receive the highest quality results with Oracle mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_ReqAssocSWInstToOrcleMapping.html
-release: australia
+release: brazil
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Legacy Oracle process pack, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
     Check that the added CPU information is correct.
 
-2.  [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_ActivateSWAssetMgmtOraclProcPac.md) the legacy Software Asset Management - Oracle Process Pack \(com.snc.sam.oracle.pp\) plugin.
+2.  [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/t_ActivateSWAssetMgmtOraclProcPac.md) the legacy Software Asset Management - Oracle Process Pack \(com.snc.sam.oracle.pp\) plugin.
 
     This also activates the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin if it is not already active.
 
@@ -34,18 +34,18 @@ Role required: admin
 
 4.  Ensure that the software models that you want to manage with Oracle licensing are set up accurately.
 
-    See [Creating a software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_ManagingSoftwareModels.md).
+    See [Creating a software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/t_ManagingSoftwareModels.md).
 
-5.  [Create a software license](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_CreateAnOracleSoftwareLicense.md) for your Oracle software.
+5.  [Create a software license](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/t_CreateAnOracleSoftwareLicense.md) for your Oracle software.
 
     Ensure that the license is given the correct license metric.
 
     The **License metric** \(metric\_type\) field on the Software License table is a reference field to the License Calculation table.
 
-6.  [Create a software counter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_CreatingAnOracleSoftwareCounter.md) to calculate Oracle licenses with the matching license type.
+6.  [Create a software counter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_CreatingAnOracleSoftwareCounter.md) to calculate Oracle licenses with the matching license type.
 
 7.  Count licenses to determine compliance with Oracle guidelines.
 
 
-**Parent Topic:**[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_OracleProcessPack.md)
+**Parent Topic:**[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management/c_OracleProcessPack.md)
 

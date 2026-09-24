@@ -3,9 +3,9 @@ title: Bookmarking and using mobile saved views
 description: Create bookmarks for mobile views like forms, maps, and charts. Decide how you want to display these saved views, and deselect them when you no longer need them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/saved-views-using.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile saved views, Using the mobile apps, Mobile Platform]
 ---
@@ -34,15 +34,15 @@ Role required: user
 
 5.  Deselect a saved view either from a bookmarked screen or from the Saved items list.
 
-<table id="choicetable_wnc_2b2_4pb"><thead><tr><th align="left" id="d43855e119">
+<table id="choicetable_wnc_2b2_4pb"><thead><tr><th align="left" id="d44021e119">
 
 Option
 
-</th><th align="left" id="d43855e122">
+</th><th align="left" id="d44021e122">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d43855e128">
+</th></tr></thead><tbody><tr><td id="d44021e128">
 
 **From a bookmarked screen**
 
@@ -54,7 +54,7 @@ Procedure
 
 The icon's appearance changes to an unfilled state \(\[Omitted image "saved-view-empty.png"\] Alt text: Saved view icon.\), indicating that the screen is no longer saved.
 
-</td></tr><tr><td id="d43855e172">
+</td></tr><tr><td id="d44021e172">
 
 **From the Saved items list**
 

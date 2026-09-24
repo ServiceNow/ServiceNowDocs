@@ -3,11 +3,11 @@ title: Related Lists of CI components
 description: Related lists in CI records display additional components contained by that CI, such as disk drives on a server and the rules that control the behavior of a network router.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r\_RelatedListsOfCIComponents.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,25 +43,25 @@ Any of the following icons may appear in lists of CI related items.
 
 The system looks five calendar days into the past and seven calendar days into the future when looking at recent outages and changes.
 
--   **[Teams related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/teams-related-list.md)**  
+-   **[Teams related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/teams-related-list.md)**  
 The Teams related list associates a user group to a CI based on group type, providing flexibility in tracking the different types of groups assigned to a CI. The Teams related list appears on CI forms for CIs of the Service \[cmdb\_ci\_service\] class and its descendent classes such as the Service Instance \[cmdb\_ci\_service\_auto\] class.
 
-**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
+**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
 
 **Related topics**  
 
 
-[Dependent CIs management]()
-
 [CMDB record types]()
 
+[Principal Class]()
+
+[Dependent CIs management]()
+
 [Create a CI class]()
+
+[View and edit class definitions and metadata]()
 
 [Reclassify a CI]()
 
 [Delete CIs]()
-
-[View and edit class definitions and metadata]()
-
-[Principal Class]()
 

@@ -3,7 +3,7 @@ title: Review alerts
 description: Access the Express List interface to review and manage alerts in your Event Management system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/review-alerts.html
-release: australia
+release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
@@ -48,7 +48,7 @@ When reviewing alerts, validate the following to ensure your event pipeline is h
 
     Express List opens with a list of active alerts.
 
-    **Note:** To get more information on alerts so you can more efficiently monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents, see [Express List in the Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/express-list.md).
+    **Note:** To get more information on alerts so you can more efficiently monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents, see [Express List in the Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/express-list.md).
 
 5.  To complete the setup, select **Mark as configured**.
 

@@ -3,9 +3,9 @@ title: Assign records to an assignment group in bulk
 description: Assign multiple records findings concurrently to an assignment group using the bulk edit feature in the Security Exposure Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-bulk-edit-assign.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -35,8 +35,8 @@ Role required:
     -   Configuration Test Results
 3.  Perform one of the following:
 
-    -   Select the check box next to each item if you want to use the **Only Selected Items** option in the [Record selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-assign.md) field.
-    -   Apply filters if you want to use the **All records that match filter** option in the [Record selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-assign.md) field.
+    -   Select the check box next to each item if you want to use the **Only Selected Items** option in the [Record selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-assign.md) field.
+    -   Apply filters if you want to use the **All records that match filter** option in the [Record selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-assign.md) field.
 4.  Select the **Bulk Edit** button.
 
 5.  On the form, fill in the fields to assign the records to an assignment group.
@@ -95,6 +95,4 @@ Text that you enter to describe the changes.
 ## Result
 
 Open a record for which you updated the assignment group and navigate to the Overview tab, the user group to which the record is assigned appears in the **Assignment group** field.
-
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)
 

@@ -3,11 +3,11 @@ title: CMDB 360 experience in CMDB Workspace and in Service Graph Workspace
 description: The CMDB 360 view in CMDB Workspace and in Service Graph Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,16 +16,16 @@ breadcrumb: [CMDB 360, Configuration Management Database \(CMDB\), Configuration
 
 The CMDB 360 view in CMDB Workspaceand in Service Graph Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
 
-Use the CMDB 360 view in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or the CMDB 360 insights page in , to access all of the CMDB 360 capabilities. For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+Use the CMDB 360 view in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or the CMDB 360 insights page in , to access all of the CMDB 360 capabilities. For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
-**Note:** Most cards on the CMDB 360 dashboard support non-CMDB tables in their aggregation, or can be configured to provide support. However, the CIs not reported by discovery sources card, for example, doesn't apply to non-CMDB tables. Creating queries for non-CMDB tables is also supported. For information about support for non-CMDB tables, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
+**Note:** Most cards on the CMDB 360 dashboard support non-CMDB tables in their aggregation, or can be configured to provide support. However, the CIs not reported by discovery sources card, for example, doesn't apply to non-CMDB tables. Creating queries for non-CMDB tables is also supported. For information about support for non-CMDB tables, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
 ## Access
 
 Requirements:
 
 -   Role required: sn\_cmdb\_user \(CMDB user\) or any role containing sn\_cmdb\_user
--   Additional requirement: [Enable and configure CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
+-   Additional requirement: [Enable and configure CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
 
 To access the CMDB 360 experience:
 
@@ -38,7 +38,7 @@ Cards on the Potential issues tile show details about CIs with discovery sources
 
 -   **CIs not reported by discovery sources**
 
-    Lists CIs that are discovered by multiple discovery sources, but one or more of the discovery sources has stopped reporting within a specified number of days. The [Number of days since CIs were last discovered by a discovery source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md) dashboard setting is used in the card's aggregation.
+    Lists CIs that are discovered by multiple discovery sources, but one or more of the discovery sources has stopped reporting within a specified number of days. The [Number of days since CIs were last discovered by a discovery source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md) dashboard setting is used in the card's aggregation.
 
     Drill down on this card to see a list view of the CIs for the card and the specific discovery source per CI that is no longer reporting.
 
@@ -53,7 +53,7 @@ Cards on the Potential issues tile show details about CIs with discovery sources
 
     Lists CIs for which different discovery sources are reporting different values. Attributes are considered mismatched when different discovery sources report different values for the attribute. CIs that appear when you drill down on this card can reveal issues with the individual CI, or your reconciliation rules.
 
-    The specific records that appear in the drilled-down list view, depend on the [Data mismatch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md) dashboard settings.
+    The specific records that appear in the drilled-down list view, depend on the [Data mismatch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md) dashboard settings.
 
     In the Data mismatch records list view, select an item in a Source column to access the Multisource Data Preview page with details about all discovery sources with values for the attribute. On the Multisource Data Preview page you can use the Search Attributes box to search for specific attributes and also choose one of the following options:
 
@@ -73,10 +73,10 @@ You can:
 -   Select a query's action icon and then select **Run**.
 -   Select **View All Queries** to see all the Saved queries where you can examine or run a query.
 -   Select **Create Query** to create a query of one of the following types:
-    -   [Get Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-get-records.md): Creates a query that you can use to explore your CMDB 360 data. It queries your CMDB 360 for CIs matching your criteria that are reported by specified discovery sources.
-    -   [Find Gap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.md): Creates a query that you can use to analyze gaps in discovery sources reporting your CMDB 360 data. It queries discovery sources that report CIs against discovery sources that don't report those same CIs.
-    -   [Compare Attribute Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.md): Creates a query that you can use to identify CIs with attribute values that differ across multiple discovery sources or against the CMDB. It queries at least two discovery sources and/or the CMDB for CIs that match your criteria.
--   [Schedule a CMDB 360 query for a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-schedule.md) to run that query on a regular basis. Scheduling a query enables you to create a CMDB 360 report that integrates the query results with the [platform Reporting feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-landing-page.md).
+    -   [Get Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-get-records.md): Creates a query that you can use to explore your CMDB 360 data. It queries your CMDB 360 for CIs matching your criteria that are reported by specified discovery sources.
+    -   [Find Gap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.md): Creates a query that you can use to analyze gaps in discovery sources reporting your CMDB 360 data. It queries discovery sources that report CIs against discovery sources that don't report those same CIs.
+    -   [Compare Attribute Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.md): Creates a query that you can use to identify CIs with attribute values that differ across multiple discovery sources or against the CMDB. It queries at least two discovery sources and/or the CMDB for CIs that match your criteria.
+-   [Schedule a CMDB 360 query for a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-schedule.md) to run that query on a regular basis. Scheduling a query enables you to create a CMDB 360 report that integrates the query results with the [platform Reporting feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting-landing-page.md).
 
 ## Discovery sources
 
@@ -92,7 +92,7 @@ Cards in the Discovery sources tile show aggregated counts for your discovery so
 
 -   **Reconciled CIs**
 
-    The total number of unique CIs created in the CMDB after processing incoming data from all discovery sources, including after reconciling data from multiple discovery sources for the same CIs. For more information, see [CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
+    The total number of unique CIs created in the CMDB after processing incoming data from all discovery sources, including after reconciling data from multiple discovery sources for the same CIs. For more information, see [CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
 
 -   **Discovery source overviewt**
 
@@ -111,12 +111,12 @@ You can use the following options to filter the calculated records in the CMDB 3
 
 -   All \(default\): Includes records from both CMDB and non-CMDB tables.
 -   CMDB CI: Includes records only from CMDB classes.
--   Principal Class: Includes records only from principal classes. For information about defining a class as principal and therefore including that class in the Principal Class filter, see [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIType.md).
+-   Principal Class: Includes records only from principal classes. For information about defining a class as principal and therefore including that class in the Principal Class filter, see [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIType.md).
 
 Various settings apply only to the coverage charts. They determine the scope and type of data that is included in the coverage charts and can greatly affect the performance of the associated calculation job:
 
--   The dashboard Coverage settings determine the mixture of classes for the records in drill-down list views. For information about these settings and their effect, see [Coverage cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
--   The system properties **sn\_cmdb\_ws.ms.calculate\_cmdb\_only** and **glide.identification\_engine.multisource\_non\_cmdb\_ci\_enabled** determine if both CMDB and non-CMDB or CMDB only data, is included in the coverage charts. For more information about these system properties, see [Components related to CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md).
+-   The dashboard Coverage settings determine the mixture of classes for the records in drill-down list views. For information about these settings and their effect, see [Coverage cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   The system properties **sn\_cmdb\_ws.ms.calculate\_cmdb\_only** and **glide.identification\_engine.multisource\_non\_cmdb\_ci\_enabled** determine if both CMDB and non-CMDB or CMDB only data, is included in the coverage charts. For more information about these system properties, see [Components related to CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md).
 
     **Note:** If the **sn\_cmdb\_ws.ms.calculate\_cmdb\_only** is true or **glide.identification\_engine.multisource\_non\_cmdb\_ci\_enabled** is false, then both 'All' and 'CMDB CI' filters show CMDB data only \(non-CMDB data is ignored\).
 
@@ -124,6 +124,6 @@ Various settings apply only to the coverage charts. They determine the scope and
 
     If the record count for a class \(CMDB or non-CMDB\) in the CMDB 360 Data \[cmdb\_multisource\_data\] table exceeds the value set by the **sn\_cmdb\_ws.ms.report\_class\_ci\_count\_max\_threshold** system property, then a record is created in the CMDB 360 Analytics Skipped Class \[sn\_cmdb\_ws\_ms\_skip\_class\] table and by default, the class is skipped in future calculations for the coverage charts. You can include a skipped class in the coverage charts by setting the **Override class CI records population** column of a skipped class in the **sn\_cmdb\_ws\_ms\_skip\_class** table, to 'true'.
 
-    **Note:** Some classes, when included or excluded from the coverage charts, can greatly impact the overall performance of the chart calculations. For more information, see [Components related to CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md).
+    **Note:** Some classes, when included or excluded from the coverage charts, can greatly impact the overall performance of the chart calculations. For more information, see [Components related to CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md).
 
 

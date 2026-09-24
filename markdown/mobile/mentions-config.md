@@ -3,9 +3,9 @@ title: Configure push notifications for mobile activity stream mentions
 description: Enable users to alert their contacts, through the use push notifications, that they are mentioned in a thread. The user enters the @ character followed by the contact's name in a record's activity stream, for their contact to be alerted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/mentions-config.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure activity stream notifications, Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -205,5 +205,5 @@ Message that appears to the user's contacts, informing them they are mentioned.
     3.  Verify that the mobile app you selected to receive notifications is enabled by noting the setting of either the **ServiceNow Mobile Application** or **ServiceNow Request application** field.
 
 
-**Parent Topic:**[Configure notifications for mobile activity stream mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/notification-activity-stream.md)
+**Parent Topic:**[Configure notifications for mobile activity stream mentions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/notification-activity-stream.md)
 

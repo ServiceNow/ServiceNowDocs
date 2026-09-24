@@ -3,9 +3,9 @@ title: Configure a map marker
 description: Configure the items that you want to view on the IT footprint map tab of the Sustainable IT dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-map-markers.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Sustainable IT, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -41,7 +41,7 @@ Role required: sn\_esg.admin
 
 ## What to do next
 
-Define data range configurations. See [Map data range configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/map-data-range-configurations.md).
+Define data range configurations. See [Map data range configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/map-data-range-configurations.md).
 
-**Parent Topic:**[Configure Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-sustainable-it.md)
+**Parent Topic:**[Configure Sustainable IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configure-sustainable-it.md)
 

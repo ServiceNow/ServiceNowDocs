@@ -3,7 +3,7 @@ title: Referencing a product picker
 description: You can reference a product picker in the On BOM, Pricing, and Validation enrichments by modifying your enrichment script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/enrichments\_how\_to\_reference\_a\_product\_picker.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

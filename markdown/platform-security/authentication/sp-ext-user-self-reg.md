@@ -3,11 +3,11 @@ title: Enable external user self-registration for Service Portal
 description: Enable external users to register to a ServiceNow app through Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/sp-ext-user-self-reg.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Self-register to ServiceNow instance, Authentication, Access Management]
 ---

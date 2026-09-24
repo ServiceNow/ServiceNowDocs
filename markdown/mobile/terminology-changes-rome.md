@@ -3,9 +3,9 @@ title: ServiceNow mobile terminology changes
 description: Starting from the Rome version ServiceNow mobile has updated the mobile terminology. The updated wording helps you better understand which items you are configuring within a mobile app, how the configurations affect the on-screen view, and how the items relate to one another.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/terminology-changes-rome.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Building mobile apps, Mobile Platform]
 ---

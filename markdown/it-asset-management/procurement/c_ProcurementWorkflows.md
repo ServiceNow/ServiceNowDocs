@@ -3,11 +3,11 @@ title: Procurement workflows
 description: Procurement uses the following workflows. You can edit the existing flows or create a flow in the graphical Workflow Studio to meet your organization's asset procurement process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/c\_ProcurementWorkflows.html
-release: australia
+release: brazil
 product: Procurement
 classification: procurement
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Procurement, Common applications, Asset Management]
 ---
@@ -29,7 +29,7 @@ Procurement uses the following workflows. You can edit the existing flows or cre
     \[Omitted image "procurement-process-flow-hardware.png"\] Alt text: Procurement process flow-hardware actions
 
 
-**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/c_Procurement.md)
 
 **Related topics**  
 
@@ -48,9 +48,9 @@ Procurement uses the following workflows. You can edit the existing flows or cre
 
 [Domain separation and Procurement]()
 
-[Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md)
+[Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/c_WorkflowOverview.md)
 
-[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_SourcingRequestItems.md)
+[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/c_SourcingRequestItems.md)
 
-[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_UseProcurement.md)
+[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/procurement/c_UseProcurement.md)
 

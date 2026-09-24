@@ -3,11 +3,11 @@ title: Pull changes from a repository
 description: Pull changes from a linked Git repository in ServiceNow Studio to apply remote updates to the local instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-pull-changes-from-repository.html
-release: australia
+release: brazil
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with changes in Git, Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
@@ -18,7 +18,7 @@ Pull changes from a linked Git repository in ServiceNow Studio to apply remote u
 
 ## Before you begin
 
-[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 Role required: admin
 
@@ -34,15 +34,15 @@ Role required: admin
 
 5.  Choose whether to stash or discard local changes before pulling.
 
-<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d174497e152">
+<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d168749e152">
 
 Option
 
-</th><th align="left" id="d174497e155">
+</th><th align="left" id="d168749e155">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d174497e161">
+</th></tr></thead><tbody><tr><td id="d168749e161">
 
 **Stash local changes**
 
@@ -50,7 +50,7 @@ Description
 
 Saves local changes before switching to an alternate branch. You can later merge or discard the saved changes.
 
-</td></tr><tr><td id="d174497e170">
+</td></tr><tr><td id="d168749e170">
 
 **Discard local changes**
 
@@ -76,5 +76,5 @@ If there are conflicts, the system displays the **Resolve Conflicts** window.
 
 Delta loading is enabled by default in sys\_properties so your data is not removed. Disable this feature if you want data automatically deleted.
 
-**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
+**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
 

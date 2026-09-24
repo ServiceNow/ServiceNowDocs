@@ -3,11 +3,11 @@ title: Export questionnaire responses to a spreadsheet
 description: Export received or returned questionnaires to Microsoft Excel spreadsheets. This option enables you to use the spreadsheet environment to review questions and answers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/export-q-and-a-to-excel.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,9 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 ## About this task
 
-You can export only questionnaires in the **Responses received** or **Returned** state. This option is available only when using the Classic assessment engine.
+You can export only questionnaires in the received or returned state.
+
+**Note:** This is available when you’re using the Classic assessment engine.
 
 ## Procedure
 
@@ -45,7 +47,7 @@ You can export only questionnaires in the **Responses received** or **Returned**
         1.  Select **Export All**.
         2.  A pop-up lists the questionnaires to be exported.
         3.  Select **Export**.
-        **Note:** Questionnaires in the **Responses received** or **Returned** state are available for exporting. These are Classic assessment engine states.
+        **Note:** Questionnaires in the received or returned state are available for exporting.
 
     The system generates a compressed file that contains a separate Excel file for each questionnaire. Exported files use the following file naming convention: `<assessmentName> - <questionnaireName>.xlsx`.
 

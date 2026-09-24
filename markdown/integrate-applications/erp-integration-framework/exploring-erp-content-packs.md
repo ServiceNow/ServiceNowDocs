@@ -3,7 +3,7 @@ title: Exploring Zero Copy Connector for ERP content packs
 description: Use Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs to view examples and create an ERP model faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/exploring-erp-content-packs.html
-release: australia
+release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
@@ -39,4 +39,6 @@ A developer must build an application that manages sales order delivery and bill
 Rather than spending days researching, they install the Quote to Cash content pack. They find the CP: Sales Orders model already has Read, Update, and Create operations configured, with input and output parameters mapped to relevant SAP fields. They also find a process extension called Manage Delivery and Billing Block that contains two subflows: one that reads all sales orders with delivery or billing blocks, and one that updates the blocking status for a given order.
 
 The developer clones the model into their own application scope, copies the process extension into Workflow Studio, and wires it to their application. The developer can do this work without needing to know the underlying SAP field names. What might have taken weeks of research is reduced to configuration work.
+
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
 

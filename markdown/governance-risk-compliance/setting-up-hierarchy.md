@@ -3,9 +3,9 @@ title: Setting up pillars, entity types, and entities
 description: This section helps you configure the Operational Resilience application to organize and track your organization's operational data through a structured hierarchy of pillars, entity types, and entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setting-up-hierarchy.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -119,7 +119,7 @@ Activate Pillars -   Navigate to the Pillars module.
 
 </td><td>
 
-[Set up pillars and entity types from Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-from-ws.md)
+[Set up pillars and entity types from Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-from-ws.md)
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Activate entity types -   Navigate to the Entity types module.
 
 </td><td>
 
-[Set up pillars and entity types from Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-from-ws.md)
+[Set up pillars and entity types from Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-from-ws.md)
 
 </td></tr><tr><td>
 
@@ -149,7 +149,7 @@ Configure entity filters -   Within each entity type, configure filters.
 
 </td><td>
 
-[Configure the entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-ent-filter.md), [Activate the entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/activate-ent-fil-directly.md), and [Verify the configuration of entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/verify-ent-fil.md)
+[Configure the entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/conf-ent-filter.md), [Activate the entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/activate-ent-fil-directly.md), and [Verify the configuration of entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/verify-ent-fil.md)
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Generate entities -   Run entity generation process. Entities are created automa
 
 </td><td>
 
-[Generate entities automatically using a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/gen-ent-auto.md)
+[Generate entities automatically using a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/gen-ent-auto.md)
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ Configure Main node \(Post-setup\) -   Set up CMDB integration.
 
 </td><td>
 
-[Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-main-node.md)
+[Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-main-node.md)
 
 </td></tr></tbody>
 </table>

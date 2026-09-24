@@ -3,9 +3,9 @@ title: Lead Management
 description: The Lead Management application enables your sales agents and sales development representatives to create leads and nurture them into opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
@@ -30,5 +30,5 @@ As sales agents move through the lead workflow and recognize interest from custo
 
 ## What to explore next
 
-To learn about setting up Lead Management, see [Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md).
+To learn about setting up Lead Management, see [Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-lead-management.md).
 

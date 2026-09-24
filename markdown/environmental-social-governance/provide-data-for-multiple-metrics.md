@@ -3,9 +3,9 @@ title: Provide responses for multiple metrics
 description: Use the metric tasks module to provide responses for multiple metrics in an easy-to-use format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/provide-data-for-multiple-metrics.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -40,7 +40,7 @@ As a data owner, you have to provide data or responses for multiple metric data 
 
     Perform this step for each cell for which you want to provide data. You can scroll the cells to provide responses for all the tasks.
 
-    **Note:** You have the option to select a choice or enter HTML depending on how the related metric definition has been set up. These formats are available when the manual metric definition **Category** field is set to **Qualitative**. For more information, see [Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-manual-metric-definition.md) and [Manual metric definition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/manual-md-reuse.md).
+    **Note:** You have the option to select a choice or enter HTML depending on how the related metric definition has been set up. These formats are available when the manual metric definition **Category** field is set to **Qualitative**. For more information, see [Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-manual-metric-definition.md) and [Manual metric definition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/manual-md-reuse.md).
 
 7.  Select the tasks for which you want to submit the responses.
 
@@ -51,15 +51,15 @@ As a data owner, you have to provide data or responses for multiple metric data 
 
 8.  To provide any evidence for the data that you’ve entered, select the **Attachments and links** tab on the Contextual side panel and add the links and attachments as required.
 
-<table id="choicetable_erk_rkh_pdc"><thead><tr><th align="left" id="d44157e198">
+<table id="choicetable_erk_rkh_pdc"><thead><tr><th align="left" id="d43946e198">
 
 Operating system
 
-</th><th align="left" id="d44157e201">
+</th><th align="left" id="d43946e201">
 
 Keys
 
-</th></tr></thead><tbody><tr><td id="d44157e207">
+</th></tr></thead><tbody><tr><td id="d43946e207">
 
 **After selecting the cell, press the Control key and then and then the I key to open the side panel.
 
@@ -73,7 +73,7 @@ After selecting the cell, press the Command key and then the I key to open the s
 
  Press the Escape key to close the side panel.
 
-</td></tr><tr><td id="d44157e228">
+</td></tr><tr><td id="d43946e228">
 
 **If you’re a Windows user**
 
@@ -88,15 +88,15 @@ After selecting the cell, press the Command key and then the I key to open the s
 
 10. Select the check boxes that you want and then select **Submit**.
 
-<table id="choicetable_swd_hjh_pdc"><thead><tr><th align="left" id="d44157e267">
+<table id="choicetable_swd_hjh_pdc"><thead><tr><th align="left" id="d43946e267">
 
 Operating system
 
-</th><th align="left" id="d44157e270">
+</th><th align="left" id="d43946e270">
 
 Keys
 
-</th></tr></thead><tbody><tr><td id="d44157e276">
+</th></tr></thead><tbody><tr><td id="d43946e276">
 
 **If you’re a macOS user**
 
@@ -106,7 +106,7 @@ Press the Tab key to get the focus on to the select all check box. Press the Ent
 
  If you don’t want to use the select all check box, press the Tab key again to get focus on to the table body. After getting focus on to the body, you can use the arrow keys to navigate between the cells. Press enter to select each check box.
 
-</td></tr><tr><td id="d44157e294">
+</td></tr><tr><td id="d43946e294">
 
 **If you’re a Windows user**
 
@@ -118,5 +118,5 @@ Press the Tab key to get the focus on to the select all check box. Press the Ent
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/using-grc-metrics.md)
 

@@ -3,12 +3,12 @@ title: Activate the Extract Information from documents skill
 description: Activate the Information Extraction skill, so AI agents can analyze and extract information from documents using generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/activate-info-extraction-skill.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Information Extraction skill, Configure, Content Understanding, Enable AI experiences]
+breadcrumb: [Information Extraction skill, Configure, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Activate the Extract Information from documents skill
@@ -45,5 +45,7 @@ If a skill was previously turned on and then turned off, or if an administrator 
 
 ## What to do next
 
-[Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-use-case.md)
+[Set up a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/set-up-use-case.md)
+
+**Parent Topic:**[Configure Information Extraction skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-configure-information-extraction-skill.md)
 

@@ -3,11 +3,11 @@ title: Export a CWM Board to CSV or Microsoft Excel
 description: Export the list view of Collaborative Work Management \(CWM\) Boards to CSV or Microsoft Excel. Use the data to obtain insights, share with stakeholders, and prepare for analysis or presentations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/export-a-board-in-cwm-to-csv-or-excel.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Export the list view of Collaborative Work Management \(CWM\) Boards to CSV or M
 
 ## Before you begin
 
-[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
 
 Role required: sn\_cwm.cwm\_user
 
@@ -34,15 +34,15 @@ Role required: sn\_cwm.cwm\_user
 
 4.  In the Export dialog, select the Board view that you want to export and the file type.
 
-<table id="choicetable_jqy_k2k_bdc"><thead><tr><th align="left" id="d250818e128">
+<table id="choicetable_jqy_k2k_bdc"><thead><tr><th align="left" id="d251832e128">
 
 Option
 
-</th><th align="left" id="d250818e131">
+</th><th align="left" id="d251832e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d250818e137">
+</th></tr></thead><tbody><tr><td id="d251832e137">
 
 **Current board view**
 
@@ -52,7 +52,7 @@ Description
 -   From the File type drop-down list, select **CSV** or **Excel**.
 
 
-</td></tr><tr><td id="d250818e163">
+</td></tr><tr><td id="d251832e163">
 
 **Complete board view**
 
@@ -74,5 +74,5 @@ Description
 
 The file is downloaded and saved in your local system.
 
-**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
 

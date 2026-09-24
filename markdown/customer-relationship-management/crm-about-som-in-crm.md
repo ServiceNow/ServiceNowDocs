@@ -3,9 +3,9 @@ title: Sales CRM
 description: Sales CRM is the part of the CRM solution that manages the commercial side of the customer relationship, from initial opportunity through to a fulfilled order and ongoing contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-relationship-management/crm-about-som-in-crm.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [About CRM, Customer Relationship Management]
 ---

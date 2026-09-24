@@ -3,11 +3,11 @@ title: Notify activity event handlers
 description: Notify workflow activities provide JavaScript functions that are invoked automatically when your telephony provider broadcasts certain events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/c\_CustomizingNotifyActivities.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Notify workflow activities, Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,12 +20,12 @@ When the telephony provider broadcasts an event related to a Notify call, such a
 
 Not all activities that support an event provide a default event handler implementation. You can provide an implementation for those event handlers when creating custom Notify activities.
 
-**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyActivities.md)
+**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_NotifyActivities.md)
 
 **Related topics**  
 
 
-[Creating Notify activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_CreatingNotifyActivities.md)
+[Creating Notify activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/c_CreatingNotifyActivities.md)
 
-[Available Notify activity event handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/r_NotifyEventHandlerMatrix.md)
+[Available Notify activity event handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/r_NotifyEventHandlerMatrix.md)
 

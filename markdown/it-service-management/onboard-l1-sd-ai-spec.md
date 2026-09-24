@@ -3,9 +3,9 @@ title: Onboard the L1 IT Service Desk AI Specialist
 description: Onboard the L1 IT Service Desk AI Specialist to add to your team or user assignment group and perform the tasks as defined by the L1 IT Service Desk AI Specialist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/onboard-l1-sd-ai-spec.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

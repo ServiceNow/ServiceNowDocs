@@ -3,11 +3,11 @@ title: Create an entity filter
 description: Create an entity filter under an entity type in the workspace view. Entities in entity type are created based on the conditions set in the Entity Filter. The entity filter defines the table from which data is pulled into each entity type for display.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-new-entity-filter-ws.html
-release: australia
+release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Entity filters, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -31,11 +31,11 @@ You can use one of the following filter conditions for the entity type:
 
 1.  Navigate to the desired workspace, go to the List view, and click **Entity types**.
 
-2.  Select an entity type in the list and navigate to the **Entity Filters** tab.
+2.  Click an entity type in the list and navigate to the **Entity Filters** tab.
 
-3.  To create an entity filter, select **New**.
+3.  To create a new entity filter, click **New**.
 
-    The **Create New Entity Filter** page is displayed.
+    The Create New Entity Filter page is displayed.
 
 4.  In the **Details** tab, fill in the fields.
 
@@ -135,5 +135,5 @@ Attachments associated with the entity that are displayed in the side panel.
 </table>5.  To save the entity filter, click **Save**.
 
 
-**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
+**Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Install Intent Discovery
+title: \(Legacy\) Install Intent Discovery
 description: You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/install-intent-discovery.html
-release: australia
+release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Intent Discovery, NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [\(Legacy\) Intent Discovery, \(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Install Intent Discovery
+# \(Legacy\) Install Intent Discovery
 
 You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you have the admin role.
 
@@ -24,20 +24,22 @@ You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you h
     -   **Required ServiceNow plugins**
         -   **Predictive Intelligence \(com.glide.platform\_ml\)**
 
-            Enables various Predictive Intelligence and Machine Learning capabilities for training models. See [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
+            Enables various Predictive Intelligence and Machine Learning capabilities for training models. See [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
 
         -   **NLU Workbench - Core \(com.glide.nlu\)**
 
-            Adds NLU Model capabilities. See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
+            Adds NLU Model capabilities. See [\(Legacy\) Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
 
 Role required: admin
 
 ## About this task
 
+Starting with the Brazil release, Natural Language Understanding is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Tables are installed with Intent Discovery:
 
-For more information, see [Components installed with Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/installed-with-intent-discovery.md).
+For more information, see [\(Legacy\) Components installed with Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nlu-service/installed-with-intent-discovery.md).
 
 ## Procedure
 

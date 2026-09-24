@@ -3,11 +3,11 @@ title: Activate Appointment Booking
 description: Activate the Appointment Booking feature by installing the required plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/activate-plugins-for-appointment-booking.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -32,7 +32,7 @@ Ensure that the following plugins are activated:
 -   **Dynamic Scheduling** \(Optional but recommended\): Enables dynamic scheduling capabilities, bulk task recommendations, and interval-based auto-assignment. It also allows the use of the scripted availability method for advanced scheduling in Appointment Booking configurations.
 -   **Appointment Booking Demo data**: Installs demo data to help you set up and explore the Appointment Booking feature.
 
-For more information on the components installed with Appointment Booking see, [Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking-components.md).
+For more information on the components installed with Appointment Booking see, [Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appointment-booking-components.md).
 
 ## Procedure
 
@@ -46,6 +46,6 @@ For more information on the components installed with Appointment Booking see, [
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 

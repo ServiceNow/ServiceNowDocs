@@ -3,7 +3,7 @@ title: Glossary
 description: A list of terms used in CPQ
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/glossary.html
-release: australia
+release: brazil
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 6
@@ -183,5 +183,5 @@ A list of terms used in CPQ
     Also known as end-user testing, this is a phase near the end of implementation and before going live. A small group of the end-users will run through various scenarios to validate the desired end-user experience and address any issues or bugs before the full launch.
 
 
-**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+**Parent Topic:**[CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 

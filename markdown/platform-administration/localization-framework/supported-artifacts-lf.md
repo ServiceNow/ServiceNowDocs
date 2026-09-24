@@ -3,11 +3,11 @@ title: Supported artifacts in Localization Framework
 description: Localization Framework extends its framework capabilities to certain artifacts and translates the content of the artifact items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/supported-artifacts-lf.html
-release: australia
+release: brazil
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -36,5 +36,5 @@ The following artifacts are available with the installation of artifact-specific
 -   Knowledge Base article - available with the activation of Knowledge Management Advanced plugin \[com.snc.knowledge\_advanced\] and set **glide.knowman.translation.enable\_lf\_article\_translation** property to true.
 -   Email notifications, email templates and email layout - available with the activation of Glide Notification Translation plugin \(com.glide.notification.translation\).
 
-**Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/exploring-localization-framework.md)
+**Parent Topic:**[Explore Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-framework/exploring-localization-framework.md)
 

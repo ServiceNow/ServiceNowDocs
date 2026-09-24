@@ -1,18 +1,16 @@
 ---
-title: Conversational Interfaces Guided Setup
+title: \(Legacy\) Conversational Interfaces Guided Setup
 description: Use the Conversational Interfaces Guided Setup to create a personalized setup process for just the conversational interface features you need. The Conversational Interfaces Guided Setup starts with a survey and creates a personalized task list based on your survey responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ci-guided-setup.html
-release: australia
-product: Conversational Interfaces
-classification: conversational-interfaces
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
+breadcrumb: [Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
 ---
 
-# Conversational Interfaces Guided Setup
+# \(Legacy\) Conversational Interfaces Guided Setup
 
 Use the Conversational Interfaces Guided Setup to create a personalized setup process for just the conversational interface features you need. The Conversational Interfaces Guided Setup starts with a survey and creates a personalized task list based on your survey responses.
 
@@ -50,5 +48,5 @@ After you've completed the setup tasks, you and your topic authors can explore t
 **Related topics**  
 
 
-[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md)
+[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/guided-setup.md)
 

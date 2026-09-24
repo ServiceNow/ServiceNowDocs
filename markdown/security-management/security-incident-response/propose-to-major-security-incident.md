@@ -3,11 +3,11 @@ title: Propose as Major Security Incident
 description: Propose a security incident as a Major Security Incident \(MSI\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/propose-to-major-security-incident.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with MSI Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -41,5 +41,5 @@ Role required: sn\_si.analyst.
     **Note:** Click **Unlink from Major Security Incident** to unlink the incident if you don't wish to propose or doesn't have any critical impact. The incident will be unlinked and lists under the list view to the security analyst for remediation.
 
 
-**Parent Topic:**[Working with MSI Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/working-with-msi-records.md)
+**Parent Topic:**[Working with MSI Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/working-with-msi-records.md)
 

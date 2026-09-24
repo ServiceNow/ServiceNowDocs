@@ -3,11 +3,11 @@ title: Create a Microsoft Azure service principal
 description: Give Cloud Cost Management access to Microsoft Azure billing and usage data by creating a Microsoft Azure service principal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-ms-azure-service-principal.html
-release: australia
+release: brazil
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -165,12 +165,12 @@ Microsoft Partner Agreement \(MPA\)
 </table>
 ## What to do next
 
-[Create a record of Microsoft Azure credentials in Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-azure-credential-record-ccm.md)
+[Create a record of Microsoft Azure credentials in Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/create-azure-credential-record-ccm.md)
 
 **Related topics**  
 
 
-[Add the Enrollment Reader role to the Microsoft Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/add-enrollment-reader-ms-azure.md)
+[Add the Enrollment Reader role to the Microsoft Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/add-enrollment-reader-ms-azure.md)
 
-[Add the Billing Profile Reader role to the Microsoft Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/add-billing-profile-reader-azure.md)
+[Add the Billing Profile Reader role to the Microsoft Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cloud-cost-management/add-billing-profile-reader-azure.md)
 

@@ -3,9 +3,9 @@ title: Monitor assets within the impacted areas
 description: Monitor at-risk assets in the Crisis map within the BCM Configurable Workspace when alert threats appear near your business locations. This functionality enables you to protect resources in impacted areas and help prevent significant losses to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-assets-at-risk-within-impacted-area.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for Crisis map, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -39,7 +39,7 @@ Role required: sn\_bcm.admin or sn\_bcm.program\_manager
 
     The **Assets at risk** lists locations, datacenters, and core companies that lie within the impacted area of the alert. It also displays the count as to how many of these assets are impacted. You can view the impacted area on the map and take any of the suggested actions.
 
-    The boundary of the impacted area for the alert on the map is marked in mauve color. You can view the assets that are at risk within this impacted area on the map. If one of your locations, datacenter, or core company are impacted by the alert, you can edit the impacted zone to include the asset.
+    The boundary of the impacted area for the alert on the map is marked in mauve color. You can view the assets that are at risk within this impacted area on the map. If one of your location, datacenter, or a core company is impacted by the alert, you can edit the impacted zone to include the asset.
 
 4.  Save or bookmark the URL of the alert to open the detailed view of the alert directly anytime.
 
@@ -52,5 +52,5 @@ Role required: sn\_bcm.admin or sn\_bcm.program\_manager
     You can view the complete details of the asset including its latitude and longitude.
 
 
-**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-collective-tasks.md)
+**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/crisis-map-collective-tasks.md)
 

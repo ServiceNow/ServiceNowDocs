@@ -3,11 +3,11 @@ title: Unlink a stop word dictionary from a search profile
 description: Remove a stop word dictionary that isn't linked from any search profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/unlink-stop-word-dict-ais.html
-release: australia
+release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Stop words, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-Unlinking a stop word dictionary from a search profile doesn't delete the dictionary. To delete a stop word dictionary, you must first unlink it from all search profiles. For steps to delete a stop word dictionary, see [Delete a stop word dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/delete-stop-word-dict-ais.md).
+Unlinking a stop word dictionary from a search profile doesn't delete the dictionary. To delete a stop word dictionary, you must first unlink it from all search profiles. For steps to delete a stop word dictionary, see [Delete a stop word dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/delete-stop-word-dict-ais.md).
 
 ## Procedure
 
@@ -41,7 +41,7 @@ The selected stop word dictionary disappears from the search profile's Stop Word
 
 ## What to do next
 
-To make the change in stop word dictionary linking take effect, publish the search profile. For more information on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
+To make the change in stop word dictionary linking take effect, publish the search profile. For more information on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)
+**Parent Topic:**[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/stop-words-ais.md)
 

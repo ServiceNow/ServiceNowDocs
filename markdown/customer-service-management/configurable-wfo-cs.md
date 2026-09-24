@@ -3,10 +3,10 @@ title: Workforce Optimization for Customer Service
 description: Manage and maintain the productivity of your workforce from a single application using Workforce Optimization for Customer Service. With this application, you can efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configurable-wfo-cs.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Explore, Customer Service Management]
 ---
 
@@ -29,17 +29,19 @@ Workforce Optimization for Customer Service enables you to:
 
 Manage and monitor the real-time work being done by your agents across different channels and queues. Provide timely help to your team members to solve cases faster and help with complex customer issues. Coach your teams so that they gain the skills that let you address the demands from your customers. Efficiently schedule your teams to provide better coverage with integrated channel management.
 
+\[Omitted image "manager-wfo-workflow.png"\] Alt text: manager workflow process
+
 As a manager, you can monitor the demand for agents and skills in your organization to resolve issues. Assess agent skills, identify areas where they need improvement, and provide training to enhance their skill set. Track your team's performance and manage the schedule of all agents in your assignment group from a unified location.
 
 As an agent, you can manage your own schedule, access the schedule of your peers, and request time off or shift swaps.
 
 ## Manager workspace landing page
 
-The landing page offers a real-time view of key performance metrics, team updates, and real-time alerts that improve collaboration. View metrics using various score cards, donuts, gauges, line charts, and bar charts with multiple data sets.
+The landing page offers a real-time view of key performance metrics, team updates, and real-time alerts that improve collaboration. View metrics using various score cards, donuts, gauges, line charts, and bar charts with multiple data sets. For more information, see [Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md).
 
 ## Channel management
 
-Manage pending work items from customers, manage the daily work routine of agents, balance the workload between agents adhering to promised SLAs, and automatically route and assign work items to agents based on their availability, capacity, and skills. Monitor your teams in real-time and join their chat conversations to help when there is a need.
+Manage pending work items from customers, manage the daily work routine of agents, and balance the workload between agents adhering to promised SLAs. Automatically route and assign work items to agents based on their availability, capacity, and skills. Monitor your teams in real time and join their chat conversations to help when there is a need.
 
 Using Channel Management, you can also:
 
@@ -48,6 +50,8 @@ Using Channel Management, you can also:
 -   Monitor the actual work being performed by your team members.
 -   Monitor the status of the queues.
 -   Track and change the real-time presence and capacity utilization of your team members.
+
+For more information, see [Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/explore-channels-configurable-wfo-cs.md).
 
 ## Scheduling
 
@@ -58,8 +62,10 @@ Using Scheduling, you can also:
 -   Assign agents to shifts.
 -   Define break time.
 -   Preview and publish team schedule.
--   Approve agent time off or shift-swap requests.
+-   Approve agent time-off or shift-swap requests.
 -   Create on-call shifts and assign primary, secondary rotation groups to handle escalation scenarios.
+
+For more information, see [Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/explore-scheduling-configurable-wfo-cs.md).
 
 ## Schedule Adherence
 
@@ -70,7 +76,9 @@ Using Schedule Adherence, you can also:
 -   Configure and adjust the schedule adherence and conformance formulas and properties so that you can customize them for your organization.
 -   Access the schedule of all of your teams from one location and gain insights on whether your team is complying with published schedules.
 -   Analyze the historical time attendance of your team members.
--   View planned vs. actual historical data for your team and individual agents.
+-   View planned versus actual historical data for your team and individual agents.
+
+For more information, see [Schedule Adherence in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/schedule-adherence-configurable-wfo-cs.md)
 
 ## Demand Forecasting
 
@@ -81,6 +89,8 @@ Using Demand Forecasting, you can also:
 -   View the agent staffing forecast at 15, 30, and 60-minute intervals on the team calendar.
 -   Adjust and prioritize schedules, tasks, breaks, and meetings for agents without impacting service objectives.
 -   Use historical data to forecast contact volumes \(cases and interactions\) at 15-minute intervals.
+
+For more information, see [Demand Forecast in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/explore-demand-forecast-configurable-wfo-cs.md).
 
 ## Teams
 
@@ -94,6 +104,8 @@ Using Teams, you can also:
 -   Access each agent's profile to view details such as their manager, peers, and assignment groups.
 -   Drill down into each agent's skills or suggest them for coaching.
 
+For more information, see [Teams in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/explore-teams-configurable-wfo-cs.md).
+
 ## Coaching and skills assessment
 
 Enhance the quality of work done by your agents using Coaching. Assess agent skills and recommend the skills that they require to resolve issues. Identify coaching opportunities based on the recommendations, set coaching plans to improve their skills, and train agents to acquire those skills.
@@ -105,4 +117,13 @@ Using Coaching, you can also:
 -   Track training assigned to agents based on their assessments.
 -   Analyze the skill gap and recommend training.
 -   Assign courses to agents from third-party learning management systems \(LMS\), such as Udemy, Pluralsight, and Cornerstone OnDemand.
+
+For more information, see: [Coaching in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/explore-coaching-configurable-wfo-cs.md).
+
+**Related topics**  
+
+
+[Optimize workforce operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setup-configurable-wfo-cs.md)
+
+[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-configurable-wfo-cs.md)
 

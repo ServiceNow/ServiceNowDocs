@@ -3,13 +3,13 @@ title: View outages from Desktop Assistant
 description: View outages to identify potential task hazards and plan your work accordingly. Outages can be planned, unplanned, or related to service degradation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/open-outages.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Desktop Assistant, Digital End-User Experience, IT Service Management]
+breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Service Management]
 ---
 
 # View outages from Desktop Assistant
@@ -24,7 +24,7 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
 1.  Log in to Desktop Assistant.
 
-    For more information, see [Open and log in to Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/open-desktop-exp.md).
+    For more information, see [Open and log in to Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/open-desktop-exp.md).
 
 2.  On the Desktop Assistant home page, select **Outages**.
 

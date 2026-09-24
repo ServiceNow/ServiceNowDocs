@@ -3,9 +3,9 @@ title: Use guided setup for ServiceNow Vault
 description: Use guided setup to configure an application with ServiceNow Vault.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/use-vault-guided-setup.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring ServiceNow Vault, ServiceNow Vault]
 ---
@@ -18,7 +18,7 @@ Use guided setup to configure an application with ServiceNow Vault.
 
 Role required: Elevate to sn\_vault\_console.vault\_console\_admin role.
 
-To secure custom apps, install the ServiceNow Otto for Vault application and make sure that all ServiceNow Otto for Vault skills and workflows are enabled. See [Install ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-now-assist-vault.md) for more information.
+To secure custom apps, install the ServiceNow Otto for Vault application and make sure that all ServiceNow Otto for Vault skills and workflows are enabled. See [Install ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/configuring-now-assist-vault.md) for more information.
 
 ## Procedure
 
@@ -26,7 +26,7 @@ To secure custom apps, install the ServiceNow Otto for Vault application and mak
 
 2.  In the Guided vault section, select **Get started** for your application within the **ServiceNow apps** tab.
 
-    To begin the guided setup for your custom applications, go to the **Custom apps** tab. Select the **+ Add custom app** button, choose the app that you want to secure from the drop-down list, and then select **Get started**. Or you can use Ask Now Assist to secure your custom applications through conversational prompts. For example, select **Ask Now Assist**. In the Now Assist panel, start the conversation with `Find and secure my custom apps`. See [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) for more information.
+    To begin the guided setup for your custom applications, go to the **Custom apps** tab. Select the **+ Add custom app** button, choose the app that you want to secure from the drop-down list, and then select **Get started**. Or you can use Ask Now Assist to secure your custom applications through conversational prompts. For example, select **Ask Now Assist**. In the Now Assist panel, start the conversation with `Find and secure my custom apps`. See  for more information.
 
 3.  In **Select app data**, use the table to select the application data to be used with ServiceNow Vault and select **Review selection** when finished.
 
@@ -52,7 +52,7 @@ To secure custom apps, install the ServiceNow Otto for Vault application and mak
 
 5.  In **Classification summary**, review the results of the data classification and select **Next** when finished.
 
-    Use [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/data-classification.md) to review any data that failed to classify.
+    Use [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-classification/data-classification.md) to review any data that failed to classify.
 
 6.  In **Protect existing data**, review the protection policies of the data.
 
@@ -66,7 +66,7 @@ To secure custom apps, install the ServiceNow Otto for Vault application and mak
 
 7.  Begin applying that column's respective application data protection policy by selecting **Available**.
 
-    Review [Vault tools and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-tools.md) for more information.
+    Review [Vault tools and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-tools.md) for more information.
 
 8.  In **Protect real-time data**, review your real-time data protection policies.
 
@@ -83,5 +83,5 @@ To secure custom apps, install the ServiceNow Otto for Vault application and mak
 
 ## Result
 
-The selected application now has classified data and protection policies. It also reports relevant metrics to the [ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-dashboard.md).
+The selected application now has classified data and protection policies. It also reports relevant metrics to the [ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/vault-dashboard.md).
 

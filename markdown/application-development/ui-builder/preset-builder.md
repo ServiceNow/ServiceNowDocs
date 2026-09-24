@@ -3,11 +3,11 @@ title: Create custom presets for components
 description: Create presets to save time and make your component configurations reusable across different experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/preset-builder.html
-release: australia
+release: brazil
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
@@ -53,14 +53,14 @@ Role required: ui\_builder\_admin
 
 9.  Add events to the component.
 
-    For more information, see [Configure an event handler manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/event-handler.md).
+    For more information, see [Configure an event handler manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/event-handler.md).
 
 10. Select **Save**.
 
 
 ## What to do next
 
-Apply the preset you just created by [selecting a preset in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/presets.md).
+Apply the preset you just created by [selecting a preset in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/presets.md).
 
-**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/work-components.md)
 

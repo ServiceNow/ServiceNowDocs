@@ -3,7 +3,7 @@ title: Oracle Financial Cloud Spoke
 description: Manage invoices, ledger, and records in an Oracle Financial Cloud instance from your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/oracle-fin-cloud.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
@@ -108,7 +108,7 @@ The Oracle Financial Cloud spoke provides actions to automate Oracle Financial C
 |General Ledger|Get Code Combinations Details|Retrieves information about the code combinations.|
 |Get Subledger Balances|Retrieves information about the subledger balances.|
 |Import Journals|Imports details about the journals.|
-|Look up Chart of Accounts|Retrieves the chart of accounts structure, including segment definitions and value set details, for the specified ledger.[Create chart of accounts data model in Oracle Financial Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-coa-data-model-oracle-fin-cloud.md),before using this action.|
+|Look up Chart of Accounts|Retrieves the chart of accounts structure, including segment definitions and value set details, for the specified ledger.[Create chart of accounts data model in Oracle Financial Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/create-coa-data-model-oracle-fin-cloud.md),before using this action.|
 |Look up Ledger Balance|Retrieves information about the ledger balances.|
 |Invoice Management|Look up Invoice Payments Status|Retrieves the status of invoice payment for the specified invoice ID from Oracle Financial Cloud.|
 |Update Invoice Payment Status|Updates the status of an existing invoice payment in Oracle Financial Cloud.|
@@ -187,11 +187,11 @@ Displays the journal records. The Import Journals flow imports these records fro
 </td></tr></tbody>
 </table>## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r-credentials.md).
 
-Two connection and credential records are available along with the spoke. You must configure these alias record to use the spoke. See [Set up the Oracle Financial Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-oracle-fin-cloud.md) for more information.
+Two connection and credential records are available along with the spoke. You must configure these alias record to use the spoke. See [Set up the Oracle Financial Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-oracle-fin-cloud.md) for more information.
 
 **Note:** Depending on the Oracle Financial Cloud policies and account settings, you may have to change or refresh the credentials in your credential record periodically.
 
-For information about setting up the spoke, see [Set up the Oracle Financial Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-oracle-fin-cloud.md).
+For information about setting up the spoke, see [Set up the Oracle Financial Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/setup-oracle-fin-cloud.md).
 

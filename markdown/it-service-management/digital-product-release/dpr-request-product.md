@@ -3,11 +3,11 @@ title: Request a new product or service
 description: Request a new product or service to manage features and enhancements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-request-product.html
-release: australia
+release: brazil
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -41,7 +41,7 @@ Role required: sn\_dpr\_model.product\_manager
 
 4.  In the dialog box, fill in the fields.
 
-    For more information on the field descriptions, see [Request new product or service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/request-product-service-form.md).
+    For more information on the field descriptions, see [Request new product or service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/request-product-service-form.md).
 
 5.  Select **Submit**.
 
@@ -58,8 +58,8 @@ Role required: sn\_dpr\_model.product\_manager
 
 ## What to do next
 
--   [Manage product hierarchy using Included products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-included-products.md).
+-   [Manage product hierarchy using Included products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-manage-included-products.md).
 -   Select the product or service name from the list to see details, plan releases, and manage data from external tools.
 
-**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
+**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
 

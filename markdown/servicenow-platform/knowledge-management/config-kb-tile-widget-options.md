@@ -3,11 +3,11 @@ title: Configure knowledge base tile widget instance options
 description: Configure widget instance options for the knowledge base tile widgets on the Knowledge Management Service Portal homepage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-kb-tile-widget-options.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge Management Service Portal widgets, Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,7 +38,7 @@ The homepage uses the Knowledge Bases Browse widget to display knowledge base ti
     |---------------|-----------|
     |Title|The title that appears above the knowledge base tiles. The default is **Explore our Knowledge Bases**.|
     |Bootstrap color|The color of the widget.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/scss-primer.md).|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/scss-primer.md).|
     |Order By|The order in which the knowledge base tiles appear on the homepage. Use any field on the Knowledge table. If this field is empty, tiles are displayed in alphabetical order. Other available options include article\_count.|
     |Reverse Order|Enable this check box to display knowledge base tiles in the reverse order.|
     |Post Question Label|The label on the button used to post a question. The default is **Ask a Question**.|
@@ -49,5 +49,5 @@ The homepage uses the Knowledge Bases Browse widget to display knowledge base ti
 5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

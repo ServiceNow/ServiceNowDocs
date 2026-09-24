@@ -3,11 +3,11 @@ title: Automation Center architecture
 description: Learn about the Automation Center architecture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automation-center-workflow-arch.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Automation Center, Workflow Data Fabric]
 ---
@@ -28,5 +28,5 @@ The following diagram shows the high-level architecture of the Automation Center
 
 \[Omitted image "auto-center-architecture.png"\] Alt text: High level architecture of the Automation Center application
 
-**Parent Topic:**[Exploring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-explore.md)
+**Parent Topic:**[Exploring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-explore.md)
 

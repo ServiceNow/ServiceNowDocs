@@ -3,11 +3,11 @@ title: Create an application registry for Google Sheets on a ServiceNow instance
 description: Register the Google Drive application in your ServiceNow instance to enable OAuth authorization for exporting table records directly to Google Sheets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/configure-app-registry-gsheets.html
-release: australia
+release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exporting your table records to Google Sheets, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -63,7 +63,7 @@ Client ID
 
 </td><td>
 
-Client ID of the Google Drive application that you registered in Google Workspace. You can find the Google Client ID in the downloaded OAuth credentials JSON file. For more information, see [Set up the OAuth application on the Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/set-up-oauth-app-gsheets-api.md).
+Client ID of the Google Drive application that you registered in Google Workspace. You can find the Google Client ID in the downloaded OAuth credentials JSON file. For more information, see [Set up the OAuth application on the Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/set-up-oauth-app-gsheets-api.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Client Secret
 
 </td><td>
 
-Client secret that was generated when you registered the app in Google API Console.You can find the Google client secret in the downloaded OAuth credentials JSON file. For more information, see [Set up the OAuth application on the Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/set-up-oauth-app-gsheets-api.md).
+Client secret that was generated when you registered the app in Google API Console.You can find the Google client secret in the downloaded OAuth credentials JSON file. For more information, see [Set up the OAuth application on the Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/set-up-oauth-app-gsheets-api.md).
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Authorization URL
 
 </td><td>
 
-URL that the OAuth application at Google provides to seek authorization to access the Google resource server. The URL format that you enter includes the tenant ID of your app: `https://accounts.google.com/oauth2/v2.0/{API version}/authorize`.You can find the Authorization URL in the downloaded OAuth credentials JSON file. For more information, see [Set up the OAuth application on the Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/set-up-oauth-app-gsheets-api.md).
+URL that the OAuth application at Google provides to seek authorization to access the Google resource server. The URL format that you enter includes the tenant ID of your app: `https://accounts.google.com/oauth2/v2.0/{API version}/authorize`.You can find the Authorization URL in the downloaded OAuth credentials JSON file. For more information, see [Set up the OAuth application on the Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/set-up-oauth-app-gsheets-api.md).
 
 </td></tr><tr><td>
 
@@ -139,5 +139,5 @@ URL that is provided by the OAuth authorization server that enables a client app
 10. Select **Update**.
 
 
-**Parent Topic:**[Exporting your table records to Google Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/setup-gsheet-export.md)
+**Parent Topic:**[Exporting your table records to Google Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/setup-gsheet-export.md)
 

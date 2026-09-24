@@ -3,11 +3,11 @@ title: Java KeyStore and Windows Certificate Store discovery
 description: Discovery uses the Collect Certificates extension section of the Linux Server and Windows OS – Servers patterns to discover certificates stored in the Java KeyStore or Windows Certificate Store. Discovering the certificate information requires installing and updating Discovery and Service Mapping Patterns and Certificate Inventory and Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/x509-certificates-discovery.html
-release: australia
+release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Certificate Inventory and Management patterns, Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -31,16 +31,16 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of the Java KeyStore credentials**
 
-    In the **Discovery Credentials** module, select **jks credentials**. Make sure you configured the Discovery IP Affinity. In the **Type** field, insert `java_keystore`. For more information, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md)
+    In the **Discovery Credentials** module, select **jks credentials**. Make sure you configured the Discovery IP Affinity. In the **Type** field, insert `java_keystore`. For more information, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md)
 
 -   **Verify the configuration of the Discovery schedule**
 
-    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md)
+    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/running-discoveries.md)
 
 
 ## Data collected by Discovery during horizontal discovery
 
-The **Collect Certificates** extension section of the **Linux Server** and **Windows OS – Servers** patterns support discovery of the following table and fields.
+The **Collect Certificates** extension section of the **Linux Server** and **Windows OS – Servers** patterns support discovery of the following tables and fields.
 
 <table id="table_w2j_l53_2nb"><thead><tr><th>
 
@@ -50,11 +50,7 @@ Field
 
 Description
 
-</th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
-
-Unique Certificates \[cmdb\_ci\_certificate\] ​
-
-</td></tr><tr><td>
+</th></tr></thead><tbody><tr><td>
 
 Fingerprint \[fingerprint\]
 
@@ -210,11 +206,16 @@ Issuer \[issuer\]
 
 In this field, there’s a reference to the certificate record. The issuer is the entity that signed and issued the certificate. The reference is available if the issued certificate is a part of the same payload.
 
-</td></tr><tr><td colspan="2">
+</td></tr></tbody>
+</table><table id="table_installed_certificate"><thead><tr><th>
 
-Installed Certificate \[sn\_disco\_certmgmt\_cmdb\_installed\_certificate\]
+Field
 
-</td></tr><tr><td>
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
 
 Discovery Method \[discovery\_method\]
 
@@ -247,5 +248,5 @@ Root Issuer \[root\_issuer\]
 A reference to the root certificate record. The reference is available if the issued certificate is a part of the same payload.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-patterns.md)
+</table>**Parent Topic:**[Certificate Inventory and Management patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cert-invt-mgmt-patterns.md)
 

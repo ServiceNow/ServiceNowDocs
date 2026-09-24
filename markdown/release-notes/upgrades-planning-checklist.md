@@ -3,11 +3,11 @@ title: Upgrade planning checklist
 description: Plan and track the activities related to your ServiceNow instance upgrade. To help ensure that you complete all the tasks for a successful upgrade, follow the step-by-step instructions in the upgrade planning checklist to track and plan the upgrade.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-planning-checklist.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Prepare your upgrade, Australia release notes]
+breadcrumb: [Prepare your upgrade, Brazil release notes]
 ---
 
 # Upgrade planning checklist
@@ -71,13 +71,13 @@ Phase 1 - Read the release notes and plan your upgrade
 
 </td></tr><tr><td>
 
-[1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-1.md)
+[1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-1.md)
 
 </td><td>
 
-Review the [Australia release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/family-release-notes.md) for the target ServiceNow feature release and patch, in addition to product and release documentation.
+Review the [Brazil release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/family-release-notes.md) for the target ServiceNow feature release and patch, in addition to product and release documentation.
 
- For Australia -specific upgrade considerations, see [Pre- and post-upgrade tasks for various products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade-and-migration-tasks.md).
+ For Brazil -specific upgrade considerations, see [Pre- and post-upgrade tasks for various products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrade-and-migration-tasks.md).
 
 </td><td>
 
@@ -141,7 +141,7 @@ Confirm the instance hosting model. For example, ServiceNow cloud, on-premise, o
 
 </td><td>
 
-Based on the [Australia release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/family-release-notes.md) and other release materials, determine new functionality or notable changes that need to be validated after the upgrade.
+Based on the [Brazil release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/family-release-notes.md) and other release materials, determine new functionality or notable changes that need to be validated after the upgrade.
 
 </td><td>
 
@@ -181,7 +181,7 @@ Confirm plans to enable or disable features introduced in the new product releas
 
 </td><td>
 
-Review the [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md) to determine browser prerequisites. For example, versions and types supported, and additional requirements for new UI versions. Compare these supported browsers to your corporate standard and identify any gaps.
+Review the [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/browser-support.md) to determine browser prerequisites. For example, versions and types supported, and additional requirements for new UI versions. Compare these supported browsers to your corporate standard and identify any gaps.
 
 </td><td>
 
@@ -467,7 +467,7 @@ There may be a service charge and require professional services engagement.
 
 </td></tr><tr><td>
 
-[20](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-2.md)
+[20](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-2.md)
 
 </td><td>
 
@@ -495,7 +495,7 @@ Phase 3 - Verify your upgrade configurations and schedule the development instan
 
 </td></tr><tr><td>
 
-[21](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-3.md)
+[21](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-3.md)
 
 </td><td>
 
@@ -515,7 +515,7 @@ Check the configuration of the **Check distribution for possible upgrade** sched
 
 </td></tr><tr><td>
 
-[22](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-3.md)
+[22](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-3.md)
 
 </td><td>
 
@@ -535,7 +535,7 @@ Verify that the **Check distribution for possible upgrade** sys\_trigger is set 
 
 </td></tr><tr><td>
 
-[23](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-3.md)
+[23](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-3.md)
 
 </td><td>
 
@@ -555,7 +555,7 @@ Verify that the **Check database for possible upgrade** sys\_trigger is set prop
 
 </td></tr><tr><td>
 
-[24](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-3.md)
+[24](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-3.md)
 
 </td><td>
 
@@ -575,7 +575,7 @@ Schedule the upgrade in Now Support.
 
 </td></tr><tr><td>
 
-[25](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-3.md)
+[25](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-3.md)
 
 </td><td>
 
@@ -599,7 +599,7 @@ Phase 4 - Upgrade and validate the development instance
 
 </td></tr><tr><td>
 
-[26](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-4.md)
+[26](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-4.md)
 
 </td><td>
 
@@ -619,11 +619,11 @@ Using the Upgrade Monitor, monitor the upgrade to your instance and validate tha
 
 </td></tr><tr><td>
 
-[27](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-4.md)
+[27](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-4.md)
 
 </td><td>
 
-After the upgrade for your development instance is complete, [process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/uc-process-skipped-records.md) in the Upgrade Monitor.
+After the upgrade for your development instance is complete, [process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/uc-process-skipped-records.md) in the Upgrade Monitor.
 
 </td><td>
 
@@ -639,7 +639,7 @@ After the upgrade for your development instance is complete, [process the skippe
 
 </td></tr><tr><td>
 
-[28](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-4.md)
+[28](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-4.md)
 
 </td><td>
 
@@ -659,7 +659,7 @@ Identify your update sets.
 
 </td></tr><tr><td>
 
-[29](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-4.md)
+[29](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-4.md)
 
 </td><td>
 
@@ -683,7 +683,7 @@ Phase 5 - If applicable: Upgrade and validate your other non-production instance
 
 </td></tr><tr><td>
 
-[30](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-2.md)
+[30](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-2.md)
 
 </td><td>
 
@@ -703,7 +703,7 @@ On your production instance, create a system clone and select your development i
 
 </td></tr><tr><td>
 
-[31](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-5.md)
+[31](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -723,7 +723,7 @@ Schedule the non-production upgrade in Now Support and verify your upgrade confi
 
 </td></tr><tr><td>
 
-[32](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-5.md)
+[32](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -743,7 +743,7 @@ Validate that the upgrade to your non-production instance is complete.
 
 </td></tr><tr><td>
 
-[33](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-5.md)
+[33](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -763,7 +763,7 @@ Install any optional plugins that were installed on your development instance.
 
 </td></tr><tr><td>
 
-[34](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-5.md)
+[34](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -783,7 +783,7 @@ Install any custom applications and post-upgrade fix scripts that you need.
 
 </td></tr><tr><td>
 
-[35](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-5.md)
+[35](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -803,7 +803,7 @@ Install update sets.
 
 </td></tr><tr><td>
 
-[36](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-5.md)
+[36](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-5.md)
 
 </td><td>
 
@@ -981,7 +981,7 @@ Responsible: Customer
 
 </td></tr><tr><td>
 
-[44](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-6.md)
+[44](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-6.md)
 
 </td><td>
 
@@ -1001,7 +1001,7 @@ Profile the performance of your instance before upgrading.
 
 </td></tr><tr><td>
 
-[45](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-6.md)
+[45](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-6.md)
 
 </td><td>
 
@@ -1021,7 +1021,7 @@ Use the ServiceNow Performance homepage to document the performance of your inst
 
 </td></tr><tr><td>
 
-[46](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-6.md)
+[46](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-6.md)
 
 </td><td>
 
@@ -1045,7 +1045,7 @@ Phase 7 - Upgrade the production instance
 
 </td></tr><tr><td>
 
-[47](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-7.md)
+[47](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-7.md)
 
 </td><td>
 
@@ -1065,7 +1065,7 @@ Schedule the upgrade in Now Support.
 
 </td></tr><tr><td>
 
-[48](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-7.md)
+[48](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-7.md)
 
 </td><td>
 
@@ -1085,7 +1085,7 @@ If applicable, request a version entitlement.
 
 </td></tr><tr><td>
 
-[49](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-7.md)
+[49](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-7.md)
 
 </td><td>
 
@@ -1105,7 +1105,7 @@ Monitor the upgrade to your instance and validate that the upgrade to your produ
 
 </td></tr><tr><td>
 
-[50](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-7.md)
+[50](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-7.md)
 
 </td><td>
 
@@ -1125,7 +1125,7 @@ Apply any update sets and post-upgrade fix scripts that you have.
 
 </td></tr><tr><td>
 
-[51](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-7.md)
+[51](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-7.md)
 
 </td><td>
 

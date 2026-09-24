@@ -3,11 +3,11 @@ title: Import the CyberArk JAR file
 description: Import the CyberArk JavaPasswordSDK.jar file into the instance to make it accessible to the MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/t\_ImportTheCyberArkJARFile.html
-release: australia
+release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CyberArk integration configuration, CyberArk credential storage integration, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -56,5 +56,5 @@ Use this process even if the JavaPasswordSDK.jar file already exists on the MID 
     The platform makes the JAR file available to any MID Server configured to communicate with the instance.
 
 
-**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
+**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
 

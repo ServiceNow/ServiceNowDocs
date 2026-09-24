@@ -1,25 +1,25 @@
 ---
-title: Create a new channel for your custom chat integration
+title: Create a channel for your custom chat integration
 description: Create a new channel or update an existing channel for your custom chat integration. Channels are defined in the Messaging Channels \[sys\_cs\_channel\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-channel-va-cccif.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [sys\_channel, conversational custom chat integration, Messaging Channels, Virtual Agent, Agent chat, com.glide.cs.custom.adapter, CCCIF, Integration Hub]
-breadcrumb: [Create conversational custom chat integration, Conversational custom chat integrations, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create conversational custom chat integration, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
-# Create a new channel for your custom chat integration
+# Create a channel for your custom chat integration
 
 Create a new channel or update an existing channel for your custom chat integration. Channels are defined in the Messaging Channels \[sys\_cs\_channel\] table.
 
 ## Before you begin
 
-Activate the [Glide Virtual Agent plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md) \(com.glide.cs.chatbot\) if it's not already activated. This plugin automatically activates the Conversational Custom Chat Integration plugin \(com.glide.cs.custom.adapter\) for custom chat integrations.
+Activate the [Glide Virtual Agent plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/activate-virtual-agent.md) \(com.glide.cs.chatbot\) if it's not already activated. This plugin automatically activates the Conversational Custom Chat Integration plugin \(com.glide.cs.custom.adapter\) for custom chat integrations.
 
 **Note:** The Conversational Custom Chat Integration Framework \(CCCIF\) uses Integration Hub. Transactions count against your Integration Hub quota.
 
@@ -107,7 +107,7 @@ Number of seconds that abandoned Virtual Agent and Agent Chat conversations rema
 
 -   Default idle conversation timeout value, which is 7200 seconds
 -   Idle conversation time-out value set through the **com.glide.cs.conversation\_idle\_timeout** system property to override the default timeout value
-For more information about conversation idle timeouts, see [Closing Virtual Agent and Agent Chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-open-conversations.md).
+For more information about conversation idle timeouts, see [Closing Virtual Agent and Agent Chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-open-conversations.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +139,5 @@ This field should be left empty.
 
 ## What to do next
 
-[Configure a provider for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-provider-va-cccif.md)
-
-**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md)
+[Configure a provider for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-provider-va-cccif.md)
 

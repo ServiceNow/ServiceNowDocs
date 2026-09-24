@@ -3,11 +3,11 @@ title: Nonce process flow
 description: When a customer has implemented the digested token Single Sign-on and wishes to add the security of a nonce, they follow a certain process flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_HighLevelOverview.html
-release: australia
+release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Implement a nonce, Local authentication, Authentication, Access Management]
 ---

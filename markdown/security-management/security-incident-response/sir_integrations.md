@@ -3,11 +3,11 @@ title: Security Incident Response integrations
 description: All the Security Operations core applications and non-core third-party integrations are available from the ServiceNow Store. This section provides instructions for activating the integrations and configuring both ServiceNow and third-party integrations. Also included are some basic guidelines for developing your own integrations, as well as details on specific integrations included in the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir\_integrations.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

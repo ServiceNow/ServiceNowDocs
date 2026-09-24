@@ -3,11 +3,11 @@ title: Zing can include attachments in search results
 description: Search content from attachments on indexed tables. Display attachments for search results from the Knowledge \[kb\_knowledge\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/c\_SearchingForAttachments.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Search content from attachments on indexed tables. Display attachments for searc
 
 \[Omitted image "Km\_search\_filter\_H.png"\] Alt text: Sample Knowledge search including attachments.
 
-By default, search only matches content from attachments on Knowledge \[kb\_knowledge\] records. Administrators can [enable search for attachments on other tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DisablingAttachmentsOnATable.md), but doing so causes the system to re-index the selected table, its parent table, and any children of the parent table.
+By default, search only matches content from attachments on Knowledge \[kb\_knowledge\] records. Administrators can [enable search for attachments on other tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DisablingAttachmentsOnATable.md), but doing so causes the system to re-index the selected table, its parent table, and any children of the parent table.
 
 **Warning:** For large tables, such as the Task table, re-indexing can take several hours and slows down the system until complete. Re-indexing is best performed during non-peak times.
 
@@ -47,10 +47,10 @@ Zing supports indexing and searching these attachment file types.
 -   .xlt
 -   .xltx
 
--   **[Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DisablingAttachmentsOnATable.md)**  
+-   **[Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DisablingAttachmentsOnATable.md)**  
 You can enable attachment indexing for a table so text searches can return matches from the record and its file attachments.
 
-**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 
@@ -77,7 +77,9 @@ You can enable attachment indexing for a table so text searches can return match
 
 [Zing displays search suggestions as users enter search terms]()
 
+[Verify that user roles have access to your searchable tables]()
+
 [Installed with Zing]()
 
-[Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DisablingAttachmentsOnATable.md)
+[Index attachments on a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DisablingAttachmentsOnATable.md)
 

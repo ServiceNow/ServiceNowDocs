@@ -3,9 +3,9 @@ title: Install Partner Relationship Management
 description: Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\), along with the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/install-partner-relationship-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -31,7 +31,7 @@ The following items are installed with Partner Relationship Management:
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Procedure
 
@@ -45,15 +45,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d181425e144">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d185459e144">
 
 Demo data install task
 
-</th><th align="left" id="d181425e147">
+</th><th align="left" id="d185459e147">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d181425e153">
+</th></tr></thead><tbody><tr><td id="d185459e153">
 
 **If demo data is available and you want to install it**
 
@@ -63,7 +63,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d181425e183">
+</td></tr><tr><td id="d185459e183">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -81,12 +81,12 @@ Load the demo data after installing Partner Relationship Management.1.  Install 
 
 You have successfully installed the Partner Relationship Management application.
 
-**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-partner-relationship-management.md)
+[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/roles-and-components-of-partner-relationship-management.md)
 
-[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-partner-relationship-management.md)
+[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/data-model-for-partner-relationship-management.md)
 

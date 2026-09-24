@@ -3,11 +3,11 @@ title: Industrial Process Manager
 description: Use the Industrial Process Manager application to create the ISA-95 Equipment Model data foundation that is required for the ServiceNow Operational Technology solution. The Industrial Process Manager enables you to create your own version of the equipment models in each of your sites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/industrial-process-manager-overview.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology]
 ---
@@ -22,19 +22,29 @@ Watch an overview about the Industrial Process Manager application.\[Omitted vid
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how manufacturers use the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how manufacturers use the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-management-console.svg"\] Alt text:Review Operational Technology devices and equipment model entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/using-manufacturing-process-manager.md)
+[Use\[Omitted image "bus-management-console.svg"\] Alt text:Review Operational Technology devices and equipment model entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/using-manufacturing-process-manager.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about related information and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about related information and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
 
 </td></tr></tbody>
-</table>
+</table>-   **[Explore Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)**  
+Learn more about the common terminology, acronyms, and ISA-95 Equipment Model industry standard used in the Industrial Process Manager.
+-   **[Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)**  
+Configure the Industrial Process Manager application so that you can create the Equipment Model data foundation that is required for the ServiceNow® Operational Technology solution.
+-   **[Using Industrial Process Manager with the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/using-manufacturing-process-manager.md)**  
+After you complete all required set up tasks, including importing equipment models, you can use the Operational Technology Manager and Industrial Process Manager functions on the Industrial Workspace Admin menu. These functions include the Equipment Model Manager and the Industrial Workspace.
+-   **[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)**  
+Reference topics provide additional information about the Industrial Process Manager application.
+
+**Parent Topic:**[Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-overview.md)
+

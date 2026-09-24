@@ -3,11 +3,11 @@ title: Incident categories and subcategories
 description: By categorizing Operational Technology \(OT\) incidents, you can group and narrow the search for specific OT incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/ot-incident-categories-subcategories.html
-release: australia
+release: brazil
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Incident Management, Operational Technology]
 ---
@@ -115,12 +115,12 @@ Software
 -   Operating System
 
 </td></tr></tbody>
-</table>-   **[Edit a category or subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configure-category-or-subcategory.md)**  
+</table>-   **[Edit a category or subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/configure-category-or-subcategory.md)**  
 Edit your existing Operational Technology incident categories and subcategories to classify your incidents.
--   **[Create a category or subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/add-category-or-subcategory.md)**  
+-   **[Create a category or subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/add-category-or-subcategory.md)**  
 Create an Operational Technology incident category or subcategory that you want to use to classify incidents.
--   **[Delete a category or subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/delete-category-or-subcategory.md)**  
+-   **[Delete a category or subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/delete-category-or-subcategory.md)**  
 Delete an Operational Technology incident category or subcategory if your organization no longer uses that category or subcategory.
 
-**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
+**Parent Topic:**[Configuring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/configuring-operational-technology-incident-mgt.md)
 

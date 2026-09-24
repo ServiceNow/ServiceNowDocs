@@ -3,11 +3,11 @@ title: Explore Investigation Canvas
 description: The primary objective of the investigation canvas is to present the necessary security incident data in one common place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/explore-investigation-in-sir-workspace.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Investigation Canvas, SIR Workspace Orchestration, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ The following are a few key entry points that are provisioned for the security a
 -   Associated Phish Emails
 -   Email Search
 
-You can also configure entry points by adding, modifying, or removing the entry points. For more information, see [Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md).
+You can also configure entry points by adding, modifying, or removing the entry points. For more information, see [Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md).
 
 On the **Investigation** tab, the entry point table acts as the parent table. All the tables that hold the results of an orchestration action performed on the parent table are presented as children table within the entry point.
 
@@ -38,7 +38,7 @@ The security analyst can perform all the orchestration actions on the Associated
 
 The **Investigation** tab provides you a work notes field to add any comments and post it. You can also use the **Email** option, to send email to the necessary stakeholders.
 
-The list of children table under an entry point is also configurable. For more information, see [Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md).
+The list of children table under an entry point is also configurable. For more information, see [Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md).
 
 The following is a detailed example of an entry point \(Associated Observable\) that are configured and provisioned within the base system:
 
@@ -59,7 +59,7 @@ The following is a detailed example of an entry point \(Associated Observable\) 
 
     **Note:** You can view the results using filters by results, select either **All results** or **Latest Results**. By default, the latest results are displayed. If there are multiple implementations \(of integrations\), then the latest results according to the implementation are shown.
 
-    In addition, you can filter the results **by associated related lists** which are the children table results. By default, all the configured children table related lists are displayed. For more information, see [Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md). However, you can choose to select only those children tables that are required.
+    In addition, you can filter the results **by associated related lists** which are the children table results. By default, all the configured children table related lists are displayed. For more information, see [Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md). However, you can choose to select only those children tables that are required.
 
     \[Omitted image "sirw-explore-investigation-view-info.png"\] Alt text: View associated info.
 
@@ -87,10 +87,10 @@ The following is a detailed example of an entry point \(Associated Observable\) 
     \[Omitted image "expand-all-info.png"\] Alt text: Entry point expanded view
 
 
-**Parent Topic:**[SIR Workspace Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-response-investigation-canvas.md)
+**Parent Topic:**[SIR Workspace Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/security-incident-response-investigation-canvas.md)
 
 **Related topics**  
 
 
-[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)
+[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)
 

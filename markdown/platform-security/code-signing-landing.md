@@ -3,10 +3,10 @@ title: Code Signing
 description: Use Code Signing to create digital signatures that prevent unauthorized or tampered External Communication Channel \(ECC\) queue records from being processed by MID Servers. This cryptographic verification helps maintain the integrity of integrations between ServiceNow and external systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/code-signing-landing.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Platform Security]
 ---
 
@@ -38,17 +38,17 @@ The Circle of Trust requires an initial trust relationship between trusted and p
 
 <table id="table_mlx_cnb_mzb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-code-signing.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explore-code-signing.md)
 
- [Learn the key features and business value of Code Signing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-code-signing.md)
-
-</td><td>
-
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate and configure Code Signing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/config-code-signing.md)
+ [Learn the key features and business value of Code Signing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explore-code-signing.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-reference.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate and configure Code Signing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/config-code-signing.md)
+
+</td><td>
+
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-reference.md)
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ The Circle of Trust requires an initial trust relationship between trusted and p
 
 </td><td>
 
-[Use\[Omitted image "bus-monitor.svg"\] Alt text:Learn how to use Code Signing to help verify the authenticity and integrity of your data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-code-signing.md)
+[Use\[Omitted image "bus-monitor.svg"\] Alt text:Learn how to use Code Signing to help verify the authenticity and integrity of your data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/using-code-signing.md)
 
 </td><td>
 
@@ -69,12 +69,16 @@ The Circle of Trust requires an initial trust relationship between trusted and p
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
--   **[Exploring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-code-signing.md)**  
+-   **[Exploring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explore-code-signing.md)**  
 Code Signing provides cryptographic verification to ensure that only authorized scripts can execute on MID Servers. Code Signing prevents unauthorized or tampered External Communication Channel \(ECC\) queue records from being processed by MID Servers, maintaining the integrity of integrations between ServiceNow and external systems.
--   **[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-health-and-status-dashboard.md)**  
+-   **[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/config-code-signing.md)**  
+Activate and configure Code Signing to verify the authenticity and integrity of your data.
+-   **[Using Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/using-code-signing.md)**  
+Learn how to sign records, messages, and attachments to help verify the authenticity and integrity of your data.
+-   **[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-health-and-status-dashboard.md)**  
 The Code Signing Health and Status dashboard provides a centralized, user-friendly view of your Code Signing environment's health and configuration. Use it to identify issues, verify configuration accuracy, and support secure, uninterrupted code-signing operations.
--   **[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-reference.md)**  
+-   **[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/code-signing-reference.md)**  
 Reference topics provide additional information to administer and troubleshoot Code Signing.
 
-**Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-sublanding.md)
+**Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platsec-sublanding.md)
 

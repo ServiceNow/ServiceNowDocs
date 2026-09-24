@@ -3,13 +3,13 @@ title: Build a query in Graph Query Builder
 description: Use Graph Query Builder to build a query by selecting the entities and their relationship, apply filters, choose the output columns and run the query.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/build-a-query-in-graph-query-builder.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Graph Query Builder, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Graph Query Builder, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Build a query in Graph Query Builder
@@ -26,11 +26,11 @@ Role required: kg\_admin
 
 2.  Select a graph from the graph drop-down in the **Input query for graph** section.
 
-    \[Omitted image "query\_builder\_tagselection.png"\] Alt text: Query builder tag selection
+    \[Omitted image "query\_builder\_tagselection.png"\] Alt text: Query Builder Tag selection
 
     If you select Enterprise Graph or Enterprise Graph \(small\), you will see an additional tag selection field to scope the available entities to specific tables.
 
-    **Note:** Tags aren't available for custom graphs.
+    **Note:** Tags aren't available for user created graphs.
 
     \[Omitted image "query\_builder\_visual.png"\] Alt text: Graph Query Builder example
 
@@ -69,7 +69,7 @@ Role required: kg\_admin
     -   Restrict results to distinct records
 10. Select **Run Query**.
 
-    \[Omitted image "query\_builder\_result.png"\] Alt text: Query Result\[Omitted image "query\_builder\_json\_output.png"\] Alt text: JSON Query result
+    \[Omitted image "query\_builder\_result.png"\] Alt text: Query builder output\[Omitted image "query\_builder\_json\_output.png"\] Alt text: Query Builder JSON output
 
     Graph Query Builder runs the query and displays the results in table view and as JSON.
 

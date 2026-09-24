@@ -3,12 +3,12 @@ title: Respond using a Microsoft Excel template
 description: Use a Microsoft Excel template to respond to questionnaires by downloading the template, completing it, and importing the final version into the Third-party portal. The Microsoft Excel questionnaire template contains instructions for filling out the template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-excel.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Using a Microsoft Excel spreadsheet template for external questionnaires, Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,7 +22,7 @@ Role required: vendor\_contact
 
 ## About this task
 
-The Microsoft Excel questionnaire template enables third-party and engagement contacts to provide information outside the third-party portal, streamlining the due diligence process. For more information, see [Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md).
+The Microsoft Excel questionnaire template enables third-party and engagement contacts to provide information outside the third-party portal, streamlining the due diligence process. For more information, see [Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md).
 
 ## Procedure
 
@@ -60,4 +60,13 @@ The Microsoft Excel questionnaire template enables third-party and engagement co
 
     The complete questionnaire is now available for review by the requester.
 
+
+**Related topics**  
+
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+
+[Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md)
+
+[Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md)
 

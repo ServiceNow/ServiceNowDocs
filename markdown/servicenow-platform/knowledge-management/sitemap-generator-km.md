@@ -3,11 +3,11 @@ title: Sitemap Generator for the Knowledge Portal
 description: The ServiceNow Sitemap Generator application enables you to efficiently define and automatically generate XML sitemaps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/sitemap-generator-km.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,5 +28,5 @@ The sitemap is generated from a script or static XML. Validating sitemaps isn't 
 
 For information about sitemap requirements for search engine optimization \(SEO\), see [Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap) in the Google documentation.
 
-**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
+**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
 

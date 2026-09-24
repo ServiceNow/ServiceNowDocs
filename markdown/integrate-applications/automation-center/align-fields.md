@@ -3,11 +3,11 @@ title: Align source and destination fields
 description: Align the source and destination fields to ensure that the selected output from the selected action align correctly with ServiceNow tables enabling accurate integration of automation data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/align-fields.html
-release: australia
+release: brazil
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an automation source, Working with Connection Manager, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -20,7 +20,7 @@ Align the source and destination fields to ensure that the selected output from 
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin with ihub\_import
 
-Proceed from the **Verify and test** section. For information on verifying and testing configuration settings, see [Verify and test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/verify-test.md).
+Proceed from the **Verify and test** section. For information on verifying and testing configuration settings, see [Verify and test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/verify-test.md).
 
 ## Procedure
 
@@ -31,5 +31,5 @@ Proceed from the **Verify and test** section. For information on verifying and t
     The **Add source values** sub-section of **Align values** section is displayed.
 
 
-**Parent Topic:**[Create an automation source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-auto-source.md)
+**Parent Topic:**[Create an automation source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-auto-source.md)
 

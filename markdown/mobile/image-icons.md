@@ -3,9 +3,9 @@ title: Image icons
 description: Use image icons on navigation bars and tab bars. Image icons are not font-type icons.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/image-icons.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile icon reference, Mobile icons, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Mobile icon reference, Mobile icons, Mobile styles, Mobile app comp
 
 Use image icons on navigation bars and tab bars. Image icons are not font-type icons.
 
-**Important:** Image icons can also be used in the icon UI section of a launcher screen. For more information, see [Adding images to an icon section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/add-image-icon-section.md).
+**Important:** Image icons can also be used in the icon UI section of a launcher screen. For more information, see [Adding images to an icon section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/add-image-icon-section.md).
 
 ## Usage example
 
@@ -70,6 +70,15 @@ Use image icons on navigation bars and tab bars. Image icons are not font-type i
 |Score-List|Yokohama|\[Omitted image "mab-icon-image-scorlst.png"\] Alt text: Score-List example|\[Omitted image "mab-icon-image-scorlstr2l.png"\] Alt text: Score-List R-to-L example|
 |Icon added in the Zurich release|
 |Building|Zurich|\[Omitted image "mab-icon-image-bldg.png"\] Alt text: Building example| |
+|Icons added in Brazil release|
+|Bot Outline|Brazil|\[Omitted image "mab-icon-image-bot-out.png"\] Alt text: Bot outline example| |
+|Bot Solid|Brazil|\[Omitted image "mab-icon-image-bot-sol.png"\] Alt text: Bot solid example| |
+|Ellipses|Brazil|\[Omitted image "mab-icon-image-elipses.png"\] Alt text: Ellipses example| |
+|SN-Sparkmoji-Logo|Brazil|\[Omitted image "mab-icon-image-sparkmoji.png"\] Alt text: Otto logo example| |
+|Spoke Outline|Brazil|\[Omitted image "mab-icon-image-spoke-out.png"\] Alt text: Spoke outline example| |
+|Spoke Solid|Brazil|\[Omitted image "mab-icon-image-spoke-sol.png"\] Alt text: Spoke solid example| |
+|Microphone-AI-Spark-Solid|Brazil|\[Omitted image "mab-icon-action-mic-ai-sparkle-solid.png"\] Alt text: Microphone-AI-Spark-Solid example| |
+|Microphone-AI-Spark-Outline|Brazil|\[Omitted image "mab-icon-action-mic-ai-sparkle-out.png"\] Alt text: Microphone AI Sparkle outline example| |
 
-**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md)
+**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-icon-reference.md)
 

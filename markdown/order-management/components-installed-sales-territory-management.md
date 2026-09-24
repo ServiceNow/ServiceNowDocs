@@ -3,9 +3,9 @@ title: Components installed with Sales Territory Management​
 description: Several types of components are installed with activation of the Sales Territory Management​ plugin, including user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-sales-territory-management.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales automation, Reference, Sales Customer Relationship Management]
 ---
@@ -124,5 +124,5 @@ Role for viewing the sales territory associated on the CRM entities like Lead, O
 -   sn\_sales\_territory.sales\_territory\_basic
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reference-lead-opportunity-mgt.md)
+</table>**Parent Topic:**[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reference-lead-opportunity-mgt.md)
 

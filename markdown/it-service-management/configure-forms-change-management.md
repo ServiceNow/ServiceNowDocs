@@ -3,9 +3,9 @@ title: Configure forms for Simplified Change Management
 description: Review and configure the change forms that IT fulfiller staff use to create and manage changes. Use the Form Builder to customize form layouts, fields, and sections to match your organization's change processes.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-forms-change-management.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [Change Management, forms configuration, form customization, Change Request, Form Builder]
 breadcrumb: [Configuring Simplified Change Management, Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
@@ -42,7 +42,7 @@ Pre-configured forms are available by default and helps fulfiller staff plan, ap
     -   Log in as an IT fulfiller and navigate to SOW to view your customized form by selecting the **SOW** link.
     -   Log in as an admin to review the form experience and ensure all customizations display correctly by selecting the **SOW** link.
     -   Edit the change form directly in Form Builder by selecting the **Form Builder** link.
-    You're navigated to the AITSM view in Form Builder, where you can make detailed edits to form layout, sections, and fields. For more information on using Form Builder, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-view-configuration.md).
+    You're navigated to the AITSM view in Form Builder, where you can make detailed edits to form layout, sections, and fields. For more information on using Form Builder, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-view-configuration.md).
 
 6.  When you have finished configuring, select **Mark as configured** to save your settings and mark this step as complete.
 
@@ -53,5 +53,5 @@ Pre-configured forms are available by default and helps fulfiller staff plan, ap
 
 You have reviewed and configured the change form experience used by your IT fulfiller staff.
 
-**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
+**Parent Topic:**[Configuring Simplified Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configuring-change-management-experience-in-it-service-management.md)
 

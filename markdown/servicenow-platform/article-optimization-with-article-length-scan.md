@@ -3,9 +3,9 @@ title: Article optimization with article length scan
 description: The article length scan is a script‑based, non‑AI scan that runs in the background while authors work on articles. When the scan detects a length issue, an article length card appears in the Article Optimization panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/article-optimization-with-article-length-scan.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

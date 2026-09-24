@@ -3,9 +3,9 @@ title: Additional resources for Impact
 description: If you’re looking for Impact leading practices, troubleshooting, or other informational guidelines, select a feature or resource type to discover additional ServiceNow resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/additional-resources-impact.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Impact]
 ---

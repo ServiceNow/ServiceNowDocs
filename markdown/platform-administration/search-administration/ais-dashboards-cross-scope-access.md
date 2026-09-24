@@ -3,11 +3,11 @@ title: Create a cross-scope access privilege for the AI Search dashboards
 description: Enable the AI Search dashboards to read records from tables that cannot be accessed from the Advanced AI Search Management Tools application scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-dashboards-cross-scope-access.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced AI Search Management Tools, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Enable the AI Search dashboards to read records from tables that cannot be acces
 
 ## Before you begin
 
-The Platform Analytics Solution for Advanced AI Search Management Tools must be activated on your instance. For details on activating this solution, see [Activate the Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/install-adv-ais-mgmt-tools.md).
+The Platform Analytics Solution for Advanced AI Search Management Tools must be activated on your instance. For details on activating this solution, see [Activate the Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/install-adv-ais-mgmt-tools.md).
 
 Role required: admin
 
@@ -32,11 +32,11 @@ If an indexed source or search source table can't be accessed from this scope, t
 
 To resolve this issue, define a cross-scope table access privilege for the Advanced AI Search Management Tools application.
 
-For more information on cross-scope privileges, see [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_CrossScopePrivilegeRecord.md).
+For more information on cross-scope privileges, see [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_CrossScopePrivilegeRecord.md).
 
 ## Procedure
 
-1.  Set your current application scope context to Advanced AI Search Management Tools using [the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
+1.  Set your current application scope context to Advanced AI Search Management Tools using [the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
 2.  Navigate to **All** &gt; **System Applications** &gt; **Application Cross-Scope Access**.
 

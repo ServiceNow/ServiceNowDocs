@@ -3,7 +3,7 @@ title: Configure Succession Pool report
 description: Configure the Succession Pool report to fetch Succession pool data based on Succession pool and employee.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-succession-pool-report.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

@@ -3,11 +3,11 @@ title: Create cases for a business organization in the Business Organization Sup
 description: As a staff member with the location agent role, create and manage cases for your business organizations \(formerly business locations\) from the Business Organization Support Portal \(formerly Business Location Service Portal\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/report-cases-on-behalf-of-biz-location.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Location Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Create cases for a business organization in the Business Organization Support Portal
@@ -18,7 +18,7 @@ As a staff member with the location agent role, create and manage cases for your
 
 Role required: admin, sn\_customerservice.svc\_location\_agent, and sn\_customerservice.svc\_location\_manager
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 ## About this task
 
@@ -183,5 +183,5 @@ Similarly, you can report cases on behalf of a business location, against sold p
 **Related topics**  
 
 
-[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-cases-for-blsp-portal.md)
+[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-cases-for-blsp-portal.md)
 

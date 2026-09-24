@@ -3,9 +3,9 @@ title: Time Recording for Field Service components
 description: The plugins and roles for the Time Recording for Field Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/components-time-recording-fsm.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
@@ -72,5 +72,5 @@ Time card admintimecard\_admin
 View, approve, and reject time cards and time sheets. Users with the wm\_manager role inherit the timecard\_admin role.**Note:** This role restricts access to the time sheets, time cards, and time worked records created by the agents in the groups assigned to the manager.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/components-inst-additional-plugin.md)
 

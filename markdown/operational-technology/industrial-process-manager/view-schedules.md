@@ -3,13 +3,13 @@ title: View a schedule for the equipment model entity
 description: View a schedule for an existing equipment model entity in the Industrial Process Manager application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/view-schedules.html
-release: australia
+release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Associate a schedule with an equipment model entity, Managing an equipment model entity schedule, Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Associate a schedule with an equipment model entity, Managing an equipment model entity schedule, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # View a schedule for the equipment model entity
@@ -40,5 +40,5 @@ You can view equipment model entity schedules in two places depending on where y
     1.  Navigate to **All** &gt; **Industrial Workspace Admin** &gt; **Industrial Process Manager** &gt; **Planned Downtime**.
     2.  View the association of the schedules and equipment model entities.
 
-**Parent Topic:**[Associate a schedule with an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/associate-schedules-with-equipment-model-entity.md)
+**Parent Topic:**[Associate a schedule with an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/associate-schedules-with-equipment-model-entity.md)
 

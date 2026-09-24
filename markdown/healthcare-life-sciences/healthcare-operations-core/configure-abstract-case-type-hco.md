@@ -3,11 +3,11 @@ title: Configure the abstract case type for Healthcare Operations Core case type
 description: Extend the Healthcare Operations case \[sn\_hco\_case\] to create custom case types for use with Healthcare Operations Core and related plugins by creating a child table from the Healthcare Operations Core case type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/configure-abstract-case-type-hco.html
-release: australia
+release: brazil
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -32,10 +32,10 @@ Role required: admin
 
 4.  Fill in the other fields as needed.
 
-    For information on these fields, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATable.md) in the ServiceNow platform documentation.
+    For information on these fields, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateATable.md) in the ServiceNow platform documentation.
 
 5.  Click **Submit**.
 
-    **Note:**To add a field to the extended child tables, refer to the [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md) in the ServiceNow platform documentation.
+    **Note:**To add a field to the extended child tables, refer to the [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreatingNewFields.md) in the ServiceNow platform documentation.
 
 

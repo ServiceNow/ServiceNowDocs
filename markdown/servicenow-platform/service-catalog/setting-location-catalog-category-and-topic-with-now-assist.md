@@ -3,11 +3,11 @@ title: Location, catalog, category, and topic functions
 description: When creating or editing a catalog item, you can use plain language to assign values for catalog, category, or topic. If the value you provide matches an existing entry, AI automatically applies it to the item. This streamlines the process and reduces manual data entry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/setting-location-catalog-category-and-topic-with-now-assist.html
-release: australia
+release: brazil
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Things to know while creating items using AI, AI Authoring for Catalog Builder reference, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -64,5 +64,5 @@ A catalog item can belong to more than one catalog, category, or topic. AI suppo
     -   Apply the changes to any fields that are allowed to be updated.
     -   Notify you about which fields could not be changed due to template control.
 
-**Parent Topic:**[Things to know while creating items using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/things-to-know-while-creating-items-using-ai.md)
+**Parent Topic:**[Things to know while creating items using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/things-to-know-while-creating-items-using-ai.md)
 

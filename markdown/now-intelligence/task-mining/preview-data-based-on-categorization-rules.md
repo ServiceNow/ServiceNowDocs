@@ -3,11 +3,11 @@ title: Refine the presentation of your data
 description: Improve your Task Mining project's analysis before sharing the project to identify gaps in categorization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/preview-data-based-on-categorization-rules.html
-release: australia
+release: brazil
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generating project analysis, Use, Task Mining, Platform Analytics]
 ---
@@ -45,12 +45,12 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
 ## What to do next
 
-Share the analysis with interested process owners by adding shared users to the project. For more information, see [Share a Task Mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/share-projects.md).
+Share the analysis with interested process owners by adding shared users to the project. For more information, see [Share a Task Mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/share-projects.md).
 
 **Related topics**  
 
 
-[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
+[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
 
-[Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/define-default-categorization-rules.md)
+[Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/define-default-categorization-rules.md)
 

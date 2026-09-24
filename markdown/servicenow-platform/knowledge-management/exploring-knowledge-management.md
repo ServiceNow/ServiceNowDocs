@@ -3,11 +3,11 @@ title: Exploring Knowledge Management
 description: Learn more about Knowledge Management with a sample workflow and review the benefits it can provide for different users in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/exploring-knowledge-management.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,16 +37,16 @@ In this workflow:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Create a consistent structure for knowledge articles|[Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md)|Knowledge manager|
-|Create multiple knowledge bases for different groups within your organization|[Knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/set-up-knowledge-admin-user.md)|Knowledge administrator and manager|
-|Create a category structure for each knowledge base with any number of levels|[Knowledge article categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md)|Knowledge manager|
-|Define permissions per knowledge base|[User criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md), [Scoped knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.md)|Knowledge administrator and manager|
-|Integrate with and search external knowledge sources|[External content integration feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-external-content-integration.md) and [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/external-content-ais.md)|Administrator|
-|Create knowledge articles using generative AI|[ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)|Knowledge contributor|
-|Import Word documents into knowledge articles and/or author knowledge in Word|[Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-authoring-word.md), [Word document importing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_ImportADocument.md)|Knowledge contributor|
-|Subscribe to relevant articles|[Knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-knowledge-subscriptions.md)|Knowledge user|
-|Provide feedback and rate articles|[Feedback and ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeFeedback.md)|Knowledge user|
-|Maintain a high quality of content and enable constant improvement|[Article quality index \(AQI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-article-quality-index.md)|Knowledge administrator \(creates AQI\), knowledge coach or domain expert \(performs AQI reviews\)|
-|Identify knowledge gaps and improve the content of your knowledge base|[Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-demand-insights.md)|Knowledge manager or domain expert|
-|Determine the usage of knowledge content and confirm that the proper processes and procedures are being followed for content creation|[Knowledge Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-content-pack.md)|Knowledge manager|
+|Create a consistent structure for knowledge articles|[Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md)|Knowledge manager|
+|Create multiple knowledge bases for different groups within your organization|[Knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/set-up-knowledge-admin-user.md)|Knowledge administrator and manager|
+|Create a category structure for each knowledge base with any number of levels|[Knowledge article categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md)|Knowledge manager|
+|Define permissions per knowledge base|[User criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md), [Scoped knowledge bases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/scoped-knowledge-base-administration.md)|Knowledge administrator and manager|
+|Integrate with and search external knowledge sources|[External content integration feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-external-content-integration.md) and [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/external-content-ais.md)|Administrator|
+|Create knowledge articles using generative AI|[ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)|Knowledge contributor|
+|Import Word documents into knowledge articles and/or author knowledge in Word|[Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-article-authoring-word.md), [Word document importing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/t_ImportADocument.md)|Knowledge contributor|
+|Subscribe to relevant articles|[Knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/use-knowledge-subscriptions.md)|Knowledge user|
+|Provide feedback and rate articles|[Feedback and ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/r_KnowledgeFeedback.md)|Knowledge user|
+|Maintain a high quality of content and enable constant improvement|[Article quality index \(AQI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/use-article-quality-index.md)|Knowledge administrator \(creates AQI\), knowledge coach or domain expert \(performs AQI reviews\)|
+|Identify knowledge gaps and improve the content of your knowledge base|[Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-demand-insights.md)|Knowledge manager or domain expert|
+|Determine the usage of knowledge content and confirm that the proper processes and procedures are being followed for content creation|[Knowledge Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-content-pack.md)|Knowledge manager|
 

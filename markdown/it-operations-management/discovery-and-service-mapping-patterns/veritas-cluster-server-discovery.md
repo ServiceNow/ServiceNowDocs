@@ -3,11 +3,11 @@ title: Veritas Cluster Server discovery
 description: The ServiceNow Discovery application uses the Unix Cluster – VERITAS Cluster pattern to find Veritas Cluster Server components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/veritas-cluster-server-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -125,5 +125,5 @@ The Unix Cluster – VERITAS Cluster pattern creates the following CI relationsh
 |Unix Cluster resource group \[cmdb\_ci\_unix\_cluster\_resource\_group \]|Contains: Contained by|The Node field on Unix Cluster Node \[cmdb\_ci\_unix\_cluster\_node\]|
 |Unix Cluster resource group \[cmdb\_ci\_unix\_cluster\_resource\_group \]|Contains: Contained by|Unix Cluster resource \[cmdb\_ci\_unix\_cluster\_resource\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

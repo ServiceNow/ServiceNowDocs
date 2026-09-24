@@ -3,12 +3,12 @@ title: Create a task rate card in Enterprise Asset Workspace
 description: Create a task rate card to capture costs per task type in the Enterprise Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-task-rate-card.html
-release: australia
+release: brazil
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configuring asset TCO, Configure, Enterprise Asset Management, Asset Management]
 ---
 
@@ -28,11 +28,15 @@ To use task rate cards, you must activate the ServiceNow® Cost Management \(com
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center** &gt; **TCO configuration** &gt; **Task rate card**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Select **New**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  On the form, fill in the fields.
+3.  From the navigation panel of the Admin center view, navigate to **TCO configuration** &gt; **Task rate card**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_z5c_y1x_4zb"><thead><tr><th>
 
@@ -141,7 +145,7 @@ Description
 Detailed description of the task rate card.
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>6.  Select **Save**.
 
     After a task rate card is created, expense lines are created based on the value in the **Use time worked** field.
 

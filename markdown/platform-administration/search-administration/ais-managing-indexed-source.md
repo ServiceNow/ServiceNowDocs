@@ -3,13 +3,13 @@ title: Managing indexed sources from the AI Search Admin console
 description: If you have the ais\_admin role, you can create, view, or edit indexed sources directly from the AI Search Admin console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/ais-managing-indexed-source.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -19,7 +19,7 @@ If you have the ais\_admin role, you can create, view, or edit indexed sources d
 
 ## Indexed sources overview
 
-Indexed sources are ServiceNow AI Platform® tables and external documents that you want to make searchable. AI Search then adds the content from these sources to its search index. The configuration for the indexed sources is shared by AI Search and other applications. For more information, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md).
+Indexed sources are ServiceNow AI Platform® tables and external documents that you want to make searchable. AI Search then adds the content from these sources to its search index. The configuration for the indexed sources is shared by AI Search and other applications. For more information, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/indexed-sources-ais.md).
 
 The following example shows the indexed sources configuration table in the Shared Configuration tab of the AI Search Admin console. From here, you can view, edit, or create indexed sources.
 
@@ -112,16 +112,16 @@ Semantic fields
 Name of the fields that are configured to index for a semantic vector search.
 
 </td></tr></tbody>
-</table>-   **[Create an indexed source from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-create-indexed-source.md)**  
+</table>-   **[Create an indexed source from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-create-indexed-source.md)**  
 Define an indexed source to make content and metadata from ServiceNow AI Platform table records searchable by using AI Search.
--   **[Define the semantic indexing configuration for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-config-semantic-index.md)**  
+-   **[Define the semantic indexing configuration for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-config-semantic-index.md)**  
 Define the semantic indexing configuration for your indexed sources so that AI Search can analyze and understand your content accurately. By doing this process, you can help to ensure that you get more relevant search results.
--   **[Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-start-content-indexing.md)**  
+-   **[Index the content from an indexed source for searchability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-start-content-indexing.md)**  
 Enable AI Search to index the records from your source tables to make the content searchable.
--   **[Set up a field configuration for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-setup-field-config-indexed-source.md)**  
+-   **[Set up a field configuration for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-setup-field-config-indexed-source.md)**  
 Set up indexed source field configurations to control how AI Search indexes content for a specific field in your source table records.
--   **[Set up an indexed source attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/ais-admin-console-setup-indexed-source-attributes.md)**  
+-   **[Set up an indexed source attribute for indexing the search content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-setup-indexed-source-attributes.md)**  
 Set up an indexed source attribute to control how AI Search indexes content for all records in a source table.
 
-**Parent Topic:**[Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/using-ais-admin-console.md)
+**Parent Topic:**[Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/using-ais-admin-console.md)
 

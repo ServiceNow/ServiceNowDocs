@@ -3,9 +3,9 @@ title: Walk-up feature configuration
 description: Understand the configuration of the Walk-up feature in Engagement Messenger module to configure the field values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/walk-up-feature-configuration.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---
@@ -65,5 +65,5 @@ Enable for authenticated users
 Option for enabling the walk-up feature for users who sign in into the website that hosts the messenger.
 
 </td></tr></tbody>
-</table>3.  Select **Configure walk-up here** to configure details of your customer support centers. For more information, see [Configure Walk-up Experience locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-define-location.md).
+</table>3.  Select **Configure walk-up here** to configure details of your customer support centers. For more information, see [Configure Walk-up Experience locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-define-location.md).
 

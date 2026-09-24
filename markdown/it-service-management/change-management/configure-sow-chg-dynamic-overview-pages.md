@@ -3,11 +3,11 @@ title: Manage the workspace configuration for a Change request in Service Operat
 description: Utilize the new table-based configuration to align with the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.Configure the layout of the overview page for Change Management in Service Operations Workspace.Configure or modify fields for change overview cards containing forms to display the fields that you need in the change request form in Service Operations Workspace.Show the activity stream bar for a for a change request in Service Operations Workspace.Configure the order of the cards that display in the Overview section for a change request in Service Operations Workspace.You can configure if the Work notes or Additional comments sections to display for a change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.html
-release: australia
+release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Utilize the new table-based configuration to align with the Service Operations W
 
 These configuration options allow users to define how the Dynamic Overview pages render throughout the change life cycle. This includes configuration options for overview pages, contextual sidebar and activity stream behavior for each state.
 
-**Note:** To create a custom section, add new change overview cards. For information on modify the layout and formatting of the sections, see [UI Builder tutorial.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/uib-tutorial.md)
+**Note:** To create a custom section, add new change overview cards. For information on modify the layout and formatting of the sections, see [UI Builder tutorial.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/uib-tutorial.md)
 
 With this you can configure the following components in the workspace configuration:
 
@@ -27,7 +27,7 @@ With this you can configure the following components in the workspace configurat
 -   Control the display of activity stream bar in the Overview pages
 -   Configure the journal fields
 
-**Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-management.md)
+**Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/using-change-management.md)
 
 ## Configure change overview container and cards
 
@@ -84,11 +84,11 @@ Overview cards can be reused across various Overview Containers and Overview Con
 
 ### What to do next
 
-To configure the fields for the overview page in change request page in Service Operations Workspace, see [Configure the fields for change overview cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md).
+To configure the fields for the overview page in change request page in Service Operations Workspace, see [Configure the fields for change overview cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md).
 
-For information on how to configure new fields, related lists, and other elements in the Details page, see [Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateCustomField.md).
+For information on how to configure new fields, related lists, and other elements in the Details page, see [Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateCustomField.md).
 
-You can configure contextual side panel or journal fields for the change request form. For more information, see [Manage the workspace configuration for a Change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md).
+You can configure contextual side panel or journal fields for the change request form. For more information, see [Manage the workspace configuration for a Change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md).
 
 ## Configure the fields for change overview cards
 
@@ -96,7 +96,7 @@ Configure or modify fields for change overview cards containing forms to display
 
 ### Before you begin
 
-You can configure which fields are displayed within Service Operations Workspace \(SOW\) by configuring the SOW View of the form. You must create the sections using change overview cards before you can configure the fields. For more information, see [Configure change overview container and cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md).
+You can configure which fields are displayed within Service Operations Workspace \(SOW\) by configuring the SOW View of the form. You must create the sections using change overview cards before you can configure the fields. For more information, see [Configure change overview container and cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.md).
 
 Role required: personalize\_form
 

@@ -3,11 +3,11 @@ title: MetricBase Observability tab for Service Observability
 description: Dashboard and charts on the MetricBase Observability tab of the Service Details page in the SOW.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/metricbase-obserability-tab.html
-release: australia
+release: brazil
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MetricBase templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
@@ -45,5 +45,5 @@ These dashboards display metrics for network devices related to the service.
 |All Router Instances|Information of all routers the service is actively using. Select a router link to view more detailed information.|CMDB|
 |All Switch Instances|Information of all switches the service is actively using. Select a switch link to view more detailed information.|CMDB|
 
-**Parent Topic:**[MetricBase templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/metricbase-templates.md)
+**Parent Topic:**[MetricBase templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-observability/metricbase-templates.md)
 

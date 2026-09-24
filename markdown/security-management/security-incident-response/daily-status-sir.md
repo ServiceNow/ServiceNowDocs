@@ -3,11 +3,11 @@ title: Configure report templates in Security Incident Response
 description: You can create report templates that can be used to generate an incident summary or an executive summary for analysis and sharing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/daily-status-sir.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -27,16 +27,16 @@ The following table explains the report templates that are provisioned within th
 
 **Note:** By default, these reports are in the draft state and are in the read-only mode. You have to reuse these default templates to create and publish report templates.
 
--   **[Create a Report Template in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-report-template-sir.md)**  
+-   **[Create a Report Template in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/create-report-template-sir.md)**  
 Create a new report template for analyst summary or an executive summary for an incident.
--   **[System properties for reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/system-properties-report-sir.md)**  
+-   **[System properties for reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/system-properties-report-sir.md)**  
 The system properties for Security Incident Response reports are explained below.
--   **[Duplicate a report template in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/duplicate-report-sir.md)**  
+-   **[Duplicate a report template in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/duplicate-report-sir.md)**  
 Duplicate a report template to edit or reuse an existing template to create a new template.
--   **[Edit a report template in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/edit-template-sir.md)**  
+-   **[Edit a report template in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/edit-template-sir.md)**  
 Edit a report template to reuse an existing template to create a new template.
 
-**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 

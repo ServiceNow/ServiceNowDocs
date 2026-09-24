@@ -3,9 +3,9 @@ title: Applying database rotation techniques
 description: Manage table size growth, archive data, and boost query performance by configuring database rotation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_DatabaseRotation.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,9 +16,9 @@ Manage table size growth, archive data, and boost query performance by configuri
 
 Instance data grows quickly, and as these tables grow in size they require management. Database rotation preserves instance performance and averts risk associated with querying growing data sets utilizing three techniques. These techniques are based on the concept of managing large quantities of data by separating whole sets into individual tables. After this task is performed, each technique handles data in a different manner:
 
--   Table rotation works by rotating among a small set of tables, and deleting and reusing the old tables for new data.
--   Table extension works by periodically starting a new table and allowing old tables to be easily archived and removed from the system.
--   Table sharding works by enabling records to be grouped in a single table by document ID.
+-   Table Rotation works by rotating among a small set of tables, and deleting and reusing the old tables for new data.
+-   Table Extension works by periodically starting a new table and allowing old tables to be easily archived and removed from the system.
+-   Table Sharding works by enabling records to be grouped in a single table by document ID.
 
 <table id="table_n4k_qbq_z4"><thead><tr><th>
 
@@ -53,12 +53,12 @@ Table Extension
 `sys_email`
 
 </td></tr></tbody>
-</table>-   **[Activate database rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateDatabaseRotation.md)**  
+</table>-   **[Activate database rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateDatabaseRotation.md)**  
 Learn how to activate database rotation.
--   **[Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md)**  
+-   **[Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_TableRotation.md)**  
 Optimize performance and manage data lifecycle by rotating tables, allowing older data to be systematically archived while maintaining system efficiency.
--   **[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-extension.md)**  
+-   **[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-extension.md)**  
 Partition and preserve data sets for extended periods without overwriting.
 
-**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataManagement.md)
+**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_DataManagement.md)
 

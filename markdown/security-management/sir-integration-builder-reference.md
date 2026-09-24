@@ -3,9 +3,9 @@ title: SIR Integration Builder reference
 description: Details of the Prompt Data \(sn\_si\_int\_kit\_prompt\_data\) table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sir-integration-builder-reference.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LLM-powered SIR integration builder, Security Operations]
 ---

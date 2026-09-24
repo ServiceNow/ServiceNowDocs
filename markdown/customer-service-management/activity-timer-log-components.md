@@ -1,18 +1,18 @@
 ---
 title: Activity timer log components
-description: The activity timer log feature is available with the Activity Timer Reporting plugin \(sn\_activity\_timer\_reporting\). This plugin adds user tables, user roles, UIB page properties, a script include, and a scheduled job.
+description: The activity timer log feature is available with the Activity Timer Reporting plugin \(sn\_activity\_timer\_reporting\). This plugin adds user tables, user roles, UI Builder page properties, a script include, and a scheduled job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activity-timer-log-components.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-05-05"
+last_updated: "2026-09-16"
 reading_time_minutes: 2
 breadcrumb: [Activity timer log, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activity timer log components
 
-The activity timer log feature is available with the Activity Timer Reporting plugin \(sn\_activity\_timer\_reporting\). This plugin adds user tables, user roles, UIB page properties, a script include, and a scheduled job.
+The activity timer log feature is available with the Activity Timer Reporting plugin \(sn\_activity\_timer\_reporting\). This plugin adds user tables, user roles, UI Builder page properties, a script include, and a scheduled job.
 
 ## Tables
 
@@ -26,24 +26,83 @@ The activity timer log feature adds the following tables.
 |Field|Description|
 |-----|-----------|
 |Attributes|Attributes for the entry, such as the record state and short description.|
-|Record|Record type and number.|
-|Session|Session ID.|
-|Source| |
+|Record|The record type and number. For example, Case: CS0001008.|
+|Session|The session ID.|
+|Source|The record page that the agent was using in CRM Workspace.|
 |Table|The table that stores the record in the **Record** field.|
-|Timer running|Start and stop times.|
+|Timer running|The start and stop times for the entry.|
 |Timestamp|The timestamp for the start and stop times.|
 |Transaction|The transaction ID for a start/stop pair.|
 |User|The name or role of the user who worked on a record.|
 
-|Field|Description|
-|-----|-----------|
-|User|The name or role of the user who worked on a record. This is a reference to the sys\_user table.|
-|Record|Record number.|
-|Record Type|Record type, such as case or interaction.|
-|Short Description|Short description of the record.|
-|Start Time|Time that the agent started working on the record.|
-|End Time|Time that the agent stopped working on the record.|
-|Total Time Logged|Total time that the user spent working on the record.|
+<table id="table_u5g_d2y_z3c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+User
+
+</td><td>
+
+The name or role of the user who worked on a record. This is a reference to the sys\_user table.
+
+</td></tr><tr><td>
+
+Record
+
+</td><td>
+
+Record number.
+
+</td></tr><tr><td>
+
+Record Type
+
+</td><td>
+
+Record type, such as case or interaction.
+
+</td></tr><tr><td>
+
+Short Description
+
+</td><td>
+
+Short description of the record.
+
+</td></tr><tr><td>
+
+Start Time
+
+</td><td>
+
+Time that the agent started working on the record.
+
+</td></tr><tr><td>
+
+End Time
+
+</td><td>
+
+Time that the agent stopped working on the record.
+
+</td></tr><tr><td>
+
+Total Time Logged
+
+</td><td>
+
+Total time that the user spent working on the record, displayed in the following format:-   In seconds for durations under a minute
+-   In minutes for durations of one hour or less
+-   In hours and minutes for durations of more than one hour
+
+</td></tr></tbody>
+</table>**Note:** Data in the Time Entry Aggregated table is automatically deleted 31 days after it is created.
 
 ## User roles
 
@@ -54,7 +113,7 @@ The activity timer log feature adds the following user roles:
 
 ## Script include
 
-The `ActivityTimerAggregator` script include:
+The `TimeTrackerAggregator` script include:
 
 -   Runs every 24 hours and records all the transactions from the Timer Entries table.
 -   Is invoked by the `Activity Timer Reporting Aggregator` scheduled job.

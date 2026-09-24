@@ -3,11 +3,11 @@ title: Security monitoring console
 description: Supervise security notifications and metrics to stay informed about potential security risks on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-monitor-console.html
-release: australia
+release: brazil
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Center, Platform Security]
 ---
@@ -42,16 +42,16 @@ This section displays a count of available Security Metrics on your instance. Re
 
 ## My Security Tasks
 
-View the most urgent Security Tasks assigned to you. Select a task to view its details, or select **See all Security Tasks** to view a complete list of Security Tasks. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
+View the most urgent Security Tasks assigned to you. Select a task to view its details, or select **See all Security Tasks** to view a complete list of Security Tasks. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md).
 
 ## Additional resources
 
 Use the additional resources section on the edge of the screen to navigate to documentation and videos relevant to learning Security Center as well as information on managing instance security.
 
--   **[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-policies.md)**  
+-   **[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-policies.md)**  
 View, manage, and analyze the default security event notification policies on your ServiceNow instance, as well as access the functionality to create custom policies.
--   **[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md)**  
+-   **[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md)**  
 Monitor over 50 different Security Metrics to identify potential security threats or insecure behaviors. Set thresholds for email notifications, visualize, and analyze the data in multiple ways. Export the data, or create dashboards with the metrics that are most important to your organization.
 
-**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-v2.md)
+**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sec-center-v2.md)
 

@@ -3,11 +3,11 @@ title: Overdue changes
 description: Work on the overdue changes of your team
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/overdue-change-mobile.html
-release: australia
+release: brazil
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [My team dashboard, Managing teams and incidents using My Team applet, ITSM Mobile Agent, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  On the My team dashboard, tap on **Overdue changes** on the applet.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Overdue changes** screen with the list of incidents, swipe left on an incident to open the menu.
 
@@ -32,8 +32,8 @@ Role required: admin
 
     |Action|Description|
     |------|-----------|
-    |Add comments|Add work notes about the change in this field and tap **Submit**.|
-    |Cancel change|Use this action to cancel the change. Provide a reason on the **Reason** field and tap **Submit**.|
+    |Add comments|Add work notes about the change in this field and tap \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: send icon.|
+    |Cancel change|Use this action to cancel the change. Provide a reason on the **Reason** field and tap \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: send icon to submit.|
 
 5.  On the **Overdue changes** screen, tap a record on the list to open it and view more details.
 
@@ -55,7 +55,7 @@ DETAILS tab
 
 Choose one to continue. -   View the fields for details about the incident. The fields with an arrow have additional information.
 -   Add any additional comments using the **Add comments** button.
--   Use this action to cancel the change. Provide a reason on the**Reason** field and tap **Submit**.
+-   Use this action to cancel the change. Provide a reason on the**Reason** field and tap \[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: send icon to submit.
 
 
 </td></tr><tr><td>

@@ -3,9 +3,9 @@ title: Take a quiz
 description: All available quizzes assigned to you appear in your personal assessment and survey queue. When you submit a quiz, the system stores your responses. If a quiz allows retakes, you can resubmit it as many times as you like until its due date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CompleteaQuiz.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -65,5 +65,5 @@ By default, you cannot modify your answers to a quiz after submission. However, 
     You can modify your responses to the quiz until its due date.
 
 
-**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/using-quizzes.md)
+**Parent Topic:**[Using Quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/using-quizzes.md)
 

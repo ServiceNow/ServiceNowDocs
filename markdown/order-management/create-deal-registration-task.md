@@ -3,9 +3,9 @@ title: Create a deal registration task
 description: Create a task linked to a deal registration to organize work and assign actions to team members.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-deal-registration-task.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [deal registration, deal tasks, create task]
 breadcrumb: [Deal registration tasks, Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
@@ -62,5 +62,5 @@ The deal registration task is created and added to the deal's **Deal Registratio
 
 Monitor the task status from the deal record or from the standalone task list view. Update the task status as work progresses.
 
-**Parent Topic:**[Deal registration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-tasks.md)
+**Parent Topic:**[Deal registration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/deal-registration-tasks.md)
 

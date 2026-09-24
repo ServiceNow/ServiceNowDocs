@@ -3,11 +3,11 @@ title: Prevent duplicate entries with Contextual Security: Role Management V2
 description: Roles inherited from other roles are added as individual entries in the User Roles table \[sys\_user\_has\_role\], potentially causing one role to have duplicate entries. Contextual Security: Role Management V2 eliminates these duplicate entries and prevents future duplicates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/Role-Mgmt-V2.html
-release: australia
+release: brazil
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Contextual Security Manager, Access Control Lists \(ACLs\), Access Management]
 ---
@@ -18,7 +18,9 @@ Roles inherited from other roles are added as individual entries in the User Rol
 
 ## Eliminate duplicate entries through inheritance count
 
-Contextual Security: Role Management V2 uses the Inheritance Count \(inh\_count\) column to track the number of times a role is inherited from another role or group. In the User Roles \[sys\_user\_has\_role\] table, a user can inherit a specific role only one time, eliminating duplicate entries. The Inheritance Count \(inh\_count\) column is read-only and calculates the number of times the user inherits a role.
+Contextual Security: Role Management V2 uses the Inheritance Count `inh_count` column to track the number of times a role is inherited from another role or group. In the User Roles `sys_user_has_role` table, a user can inherit a specific role only one time, eliminating duplicate entries. The Inheritance Count `inh_count` column is read-only and calculates the number of times the user inherits a role.
+
+To enable the **UserHasRoleInhCountPatcher**, add the `glide.security.inh_count_patcher.enabled` system property and set its value to `true`.
 
 ## Activation changes
 

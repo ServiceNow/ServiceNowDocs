@@ -1,22 +1,22 @@
 ---
-title: Use automated registration to connect to the Impact Delivery Instance
-description: The automated registration process simplifies the configuration process and connects your Impact Store Application with data from the Impact Delivery Instance.
+title: Use automated registration to IDI
+description: The automated registration process in Guided Setup simplifies the configuration process and connects your Impact Store Application with data from the Impact Delivery Instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/start-automated-registration-IDI.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Impact Guided Setup, Configuring Impact, Impact]
 ---
 
-# Use automated registration to connect to the Impact Delivery Instance
+# Use automated registration to IDI
 
-The automated registration process simplifies the configuration process and connects your Impact Store Application with data from the Impact Delivery Instance.
+The automated registration process in Guided Setup simplifies the configuration process and connects your Impact Store Application with data from the Impact Delivery Instance.
 
 ## Before you begin
 
-[Use Guided Setup to onboard users to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/onboard_users_impact_store_application.md)
+[Onboard users to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/onboard_users_impact_store_application.md)
 
 **Important:** Impact Store Application features that require a connection to the Impact Delivery Instance:
 
@@ -27,7 +27,7 @@ The automated registration process simplifies the configuration process and conn
 -   Product Adoption Roadmaps
 -   Value Management
 
-See [Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md) for additional information.
+See [Impact Delivery Instance overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-delivery-instance-reference.md) for additional information.
 
 Role required: impact app admin and impact admin \(IDI\)
 
@@ -43,7 +43,7 @@ This task automates the secure connection to the provider, the Impact Delivery I
 
 3.  Select **Learn about registering your instance** to read an overview of these steps.
 
-    See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md) for a summary of the configuration steps.
+    See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md) for a summary of the configuration steps.
 
 4.  **Mark as Complete** to continue.
 
@@ -66,7 +66,7 @@ This task automates the secure connection to the provider, the Impact Delivery I
     \[Omitted image "onboarding-failed.png"\] Alt text: Failed validation banner with the link to the Health Dashboard.
 
     1.  Select the **Health Dashboard** link in the error banner to be directed to the Service Exchange health dashboard.
-    2.  View and diagnose the errors. See [Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-se-center.md) for additional information.
+    2.  View and diagnose the errors. See [Service Exchange Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-se-center.md) for additional information.
     3.  Follow the steps provided to resolve the issues.
 
         **Important:** If you are unable to resolve the issues, contact your Customer Service Manager for assistance.
@@ -78,7 +78,12 @@ This task automates the secure connection to the provider, the Impact Delivery I
 
 ## What to do next
 
-[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/verify-impact-data-connection.md)
+[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/verify-impact-data-connection.md)
 
-**Parent Topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
+-   **[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/verify-impact-data-connection.md)**  
+During Impact Guided Setup automated registration, a status is provided to indicate a successful connection. Use the Verify the Connection step to track the progress. If you used manual registration, verify your connection through the Provider Connections page.
+-   **[Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-migration-idi.md)**  
+After the connection is established between your Impact Store Application and the Impact Delivery Instance, next migrate your data.
+
+**Parent Topic:**[Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md)
 

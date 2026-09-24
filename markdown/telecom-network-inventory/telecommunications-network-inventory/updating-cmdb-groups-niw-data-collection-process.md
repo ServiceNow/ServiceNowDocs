@@ -3,11 +3,11 @@ title: Update CMDB groups for use in the data collection process
 description: Add or change the data that you see in a Network Inventory Workspace widget by using the CMDB Groups function. You create CMDB group codes as needed or modify the query conditions for existing ones. By changing the CMDB groups, you affect what data the collection process retrieves for the widgets on the Network Inventory Workspace landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/updating-cmdb-groups-niw-data-collection-process.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workspace widget customization, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -22,7 +22,7 @@ Role required: admin, cmdb\_query\_builder, itil, sn\_cmdb\_editor
 
 ## About this task
 
-You must follow the standard CMDB group naming convention that is used for the Network Inventory Workspace widgets. To learn more, see the section called Standard CMDB groups and naming conventions for the Network Inventory Workspace widget data. To learn more about creating, updating, or naming CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-groups.md).
+You must follow the standard CMDB group naming convention that is used for the Network Inventory Workspace widgets. To learn more, see the section called Standard CMDB groups and naming conventions for the Network Inventory Workspace widget data. To learn more about creating, updating, or naming CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-groups.md).
 
 ## Procedure
 
@@ -70,10 +70,10 @@ You must follow the standard CMDB group naming convention that is used for the N
 
 After the data collection process runs for the Network Inventory Workspace, the new network manufacturer appears in the pie chart in the Network Equipment by manufacturer widget. The new CMDB group includes the network equipment records that are assigned to your new manufacturer.
 
-**Parent Topic:**[Customizing the content in your Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customizing-content-in-your-network-inventory-workspace-widgets.md)
+**Parent Topic:**[Customizing the content in your Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/customizing-content-in-your-network-inventory-workspace-widgets.md)
 
 **Related topics**  
 
 
-[Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-network-inventory-workspace.md)
+[Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-network-inventory-workspace.md)
 

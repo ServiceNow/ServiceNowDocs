@@ -3,11 +3,11 @@ title: Hardware Asset Management system properties
 description: System properties control asset lifecycle, procurement, inventory, reporting, and system configuration for the Hardware Asset Management application. You can view and update these properties from the Properties setup item in the Configuration Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/ham-system-properties.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -235,5 +235,5 @@ Sets the default value of the **Include consumables** field on the Asset Audits 
 |**sn\_hamp.enable\_custom\_category\_licensing**|Enables inclusion of custom category assets in HAM licensing for instances on pre-HAM V4 SKUs.|
 |**sn\_hamp.sn\_ham\_active\_entitlements**|Comma separated list of active entitlements associated with the Hardware Asset Management application|
 
-**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
+**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

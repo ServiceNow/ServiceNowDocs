@@ -3,22 +3,22 @@ title: Carbon calculations using AI agents
 description: Automates the creation of calculated metric definition \(CMD\) records and formulas for Scope 3 carbon emissions categories. Uses AI-powered document analysis and semantic matching to confirm accuracy, reducing manual effort for ESG program managers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/carbon-calulations-agentic-workflow.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Explore, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Carbon calculations using AI agents
 
 Automates the creation of calculated metric definition \(CMD\) records and formulas for Scope 3 carbon emissions categories. Uses AI-powered document analysis and semantic matching to confirm accuracy, reducing manual effort for ESG program managers.
 
-## About carbon calculations AI agents
+## Understanding carbon calculations AI agents
 
 The carbon calculations AI agent enables you to generate calculated metric definitions \(CMDs\) for Scope 3. The carbon calculations AI agent transforms how operational sustainability teams manage carbon emissions data. Rather than relying on manual processes, this workflow introduces automation and intelligence to handle the complexity of Scope 3 emissions. It acts as a co-pilot, applying best-practice methodologies, automating data ingestion, validating emission factors, and delivering actionable insights. This feature helps teams save time, improve accuracy, and scale sustainability reporting and compliance efforts.
 
-The carbon calculations agentic workflow consists of a sequence of AI-driven steps to automate carbon metric processing.
+The carbon calculations agentic workflow consists of a sequence of AI-driven steps designed to automate carbon metric processing.
 
 -   It begins with the Document and Visual Insights AI Agent, which uses docIntel tools to retrieve attachments, answer document-related questions, and summarize content.
 -   Next, the Calculation Operands AI Agent performs data retrieval through RAG-based search tools to fetch metric definitions and emission factors required for carbon calculations.
@@ -47,5 +47,5 @@ The benefits are as follows:
 -   Promotes transparency and traceability by providing step-by-step guidance and workflow audit logs.
 -   Simplifies user experience through an intuitive conversational assistant embedded in the Now Assist Panel.
 
-**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/exploring-now-assist-for-esg.md)
+**Parent Topic:**[Exploring ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/exploring-now-assist-for-esg.md)
 

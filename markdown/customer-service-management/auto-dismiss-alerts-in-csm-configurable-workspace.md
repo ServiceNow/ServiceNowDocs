@@ -1,18 +1,18 @@
 ---
-title: Auto-dismiss alerts in CSM Configurable Workspace
-description: In CSM Configurable Workspace, alerts automatically dismiss after a set time to reduce alert fatigue and help agents stay focused. By default, Info, Low, and Moderate alerts dismiss after 5 seconds, while Critical and High alerts remain persistent until manually dismissed. Admins can customize the auto-dismiss behavior and timer duration for each alert level.
+title: Auto-dismiss alerts in CRM Workspace
+description: In CRM Workspace, alerts automatically dismiss after a set time to reduce alert fatigue and help agents stay focused. By default, Info, Low, and Moderate alerts dismiss after 5 seconds, while Critical and High alerts remain persistent until manually dismissed. Admins can customize the auto-dismiss behavior and timer duration for each alert level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/auto-dismiss-alerts-in-csm-configurable-workspace.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Auto-dismiss alerts in CSM Configurable Workspace
+# Auto-dismiss alerts in CRM Workspace
 
-In CSM Configurable Workspace, alerts automatically dismiss after a set time to reduce alert fatigue and help agents stay focused. By default, Info, Low, and Moderate alerts dismiss after 5 seconds, while Critical and High alerts remain persistent until manually dismissed. Admins can customize the auto-dismiss behavior and timer duration for each alert level.
+In CRM Workspace, alerts automatically dismiss after a set time to reduce alert fatigue and help agents stay focused. By default, Info, Low, and Moderate alerts dismiss after 5 seconds, while Critical and High alerts remain persistent until manually dismissed. Admins can customize the auto-dismiss behavior and timer duration for each alert level.
 
 Admins can configure auto-dismiss alert behavior at the experience level either using UI Builder or UX Page Properties. This configuration provides control over timer duration and display options. Agents view alerts based on the configuration created by the admin.
 
@@ -23,7 +23,7 @@ You can either configure this feature using UI Builder or UX Page Properties, de
 **Configuring using UI Builder**:
 
 1.  Navigate to **All** &gt; **Now Experience Framework ** &gt; **UI Builder**.
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the CRM Workspace experience.
 3.  In the top-right corner, select **View experience settings**.
 4.  Scroll to the Configurable alerts section.
 5.  For each alert level, modify the **Auto-dismiss** check box as needed. Info, Low, and Moderate alerts are enabled by default.
@@ -54,11 +54,11 @@ info
 
 </td><td>
 
-Identifies the alert level as an informational alert. Other levels include:-   critical
--   high
--   moderate
--   warning
--   low
+Identifies the alert level as an informational alert. Other levels include:-   Critical
+-   High
+-   Moderate
+-   Warning
+-   Low
 
 
 </td></tr><tr><td>

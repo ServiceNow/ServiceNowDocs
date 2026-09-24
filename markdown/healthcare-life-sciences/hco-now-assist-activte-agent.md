@@ -3,11 +3,11 @@ title: Activate ServiceNow Otto for Virtual Agent for case intake
 description: Activate Virtual Agent and set it to discoverable to enable case intake within the Request care team assistance agentic workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-activte-agent.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Activate ServiceNow Otto for Virtual Agent for case intake

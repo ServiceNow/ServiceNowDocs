@@ -3,11 +3,11 @@ title: Reassign a work order task to yourself on a mobile device
 description: Reassign a work order task to yourself through the Field Service Contractor for mobile feature of the ServiceNow Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/assign-wot-yourself.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---

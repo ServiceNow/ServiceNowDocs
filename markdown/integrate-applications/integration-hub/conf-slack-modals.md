@@ -3,7 +3,7 @@ title: Configure Slack modals in ServiceNow instance
 description: Create modal and specify fields that should be displayed in your Slack modal. Modal UI can be generated in two ways; automatically using a ServiceNow table and manually using a custom View Payload.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/conf-slack-modals.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task

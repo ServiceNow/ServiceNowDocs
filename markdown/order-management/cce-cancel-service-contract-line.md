@@ -1,18 +1,18 @@
 ---
 title: Cancel a customer contract line
-description: Create an order to cancel a customer contract line and its child customer contract lines on the CSM Configurable Workspace. By canceling a customer contract line, you are canceling or disabling the services and characteristics associated with that customer contract line.
+description: Create an order to cancel a customer contract line and its child customer contract lines on the CRM Workspace. By canceling a customer contract line, you are canceling or disabling the services and characteristics associated with that customer contract line.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cce-cancel-service-contract-line.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cancel, Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Cancel a customer contract line
 
-Create an order to cancel a customer contract line and its child customer contract lines on the CSM Configurable Workspace. By canceling a customer contract line, you are canceling or disabling the services and characteristics associated with that customer contract line.
+Create an order to cancel a customer contract line and its child customer contract lines on the CRM Workspace. By canceling a customer contract line, you are canceling or disabling the services and characteristics associated with that customer contract line.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  In the Contracts and Entitlements list, select **Customer Contracts**.
 

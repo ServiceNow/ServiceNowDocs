@@ -3,9 +3,9 @@ title: Accounts Receivable \(AR\) invoice line table
 description: The AR invoice line \(sn\_otc\_invoice\_line\) table stores the invoice line data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ar-invoice-line.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Case Management for Invoice Operations, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

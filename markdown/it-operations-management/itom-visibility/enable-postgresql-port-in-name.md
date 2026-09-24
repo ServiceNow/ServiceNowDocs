@@ -3,11 +3,11 @@ title: Include the port number in PostgreSQL instance names
 description: You can make multiple PostgreSQL instances on the same host distinguishable by port number by creating the mid.discovery.postgresql.include\_port\_in\_name MID Server property. This property is supported for UNIX hosts only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/enable-postgresql-port-in-name.html
-release: australia
+release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-08-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [PostgreSQL discovery, PostgreSQL instance name, horizontal discovery, cmdb\_ci\_db\_postgresql\_instance, MID Server property]
 breadcrumb: [PostgreSQL, Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -48,10 +48,10 @@ By default, Discovery assigns every PostgreSQL instance the display name **insta
 
 Run Discovery again to apply the change.
 
-**Parent Topic:**[PostgreSQL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DiscoverPostgreSQLInstances.md)
+**Parent Topic:**[PostgreSQL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DiscoverPostgreSQLInstances.md)
 
 **Related topics**  
 
 
-[PostgreSQL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DiscoverPostgreSQLInstances.md)
+[PostgreSQL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DiscoverPostgreSQLInstances.md)
 

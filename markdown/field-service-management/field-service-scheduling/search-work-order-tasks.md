@@ -3,11 +3,11 @@ title: Search work order tasks
 description: Minimize scrolling and filter tasks that show in the task panel. Quickly search by keyword, or see all the tasks assigned to a group or territory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/search-work-order-tasks.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -77,7 +77,7 @@ Assignment group/ Territory task filter
 
 </td><td>
 
-Select the **Turn ON assignment group/ territory-matching task filtering** \(\[Omitted image "assignment-group-matching.png"\] Alt text:\) icon to limit the task panel to only display tasks that belong to your selected assignment groups or territories.
+Select the **Turn ON assignment group/ territory-matching task filtering** \(\[Omitted image "assignment-group-matching.png"\] Alt text:\) icon to limit the task panel to only display tasks that belong to your selected assignment groups.
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ The tasks that meet the search requirements are displayed in the task panel.
 **Related topics**  
 
 
-[Search for appropriate Field Service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/search-agents-tasks.md)
+[Search for appropriate Field Service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/search-agents-tasks.md)
 
-[Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+[Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
 

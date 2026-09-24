@@ -3,11 +3,11 @@ title: Notify Cisco Webex Connector
 description: Notify Cisco Webex Connector enables you to manage and initiate a Webex meeting directly from an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/cisco-webex-notify.html
-release: australia
+release: brazil
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,7 +25,7 @@ Notify Cisco Webex Connector enables you to manage and initiate a Webex meeting 
 
 Install and activate the Notify plugin \(com.snc.notify\) before you install the application.
 
-Install the ServiceNow IntegrationHub Installer \(com.glide.hub.integrations\) plugin to design the integration flows in the Workflow Studio application. For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md).
+Install the ServiceNow IntegrationHub Installer \(com.glide.hub.integrations\) plugin to design the integration flows in the Workflow Studio application. For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/request-ih-overview.md).
 
-**Parent Topic:**[Exploring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/exploring-notify.md)
+**Parent Topic:**[Exploring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/notify/exploring-notify.md)
 

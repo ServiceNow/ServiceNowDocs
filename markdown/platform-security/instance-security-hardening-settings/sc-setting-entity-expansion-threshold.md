@@ -1,22 +1,22 @@
 ---
-title: Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable
+title: Minimize entity expansion threshold for GlideXMLUtil scriptable
 description: Use the glide.xmlutil.max\_entity\_expansion property to change the maximum entity expansion limit to a smaller number.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.html
-release: australia
+release: brazil
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable
+# Minimize entity expansion threshold for GlideXMLUtil scriptable
 
 Use the **glide.xmlutil.max\_entity\_expansion** property to change the maximum entity expansion limit to a smaller number.
 
-The **glide.xmlutil.max\_entity\_expansion** system property controls the maximum amount of entity expansion within an XML Parser. If **glide.xmlutil.max\_entity\_expansion** isn't set to the recommended value of `3000` or less, then the GlideXMLUtil parsing scriptable may be vulnerable to denial of service attacks.
+The **glide.xmlutil.max\_entity\_expansion** system property controls the maximum amount of entity expansion within an XML parser. If **glide.xmlutil.max\_entity\_expansion** isn't set to the recommended value of `3000` or less, then the GlideXMLUtil parsing scriptable may be vulnerable to denial of service attacks.
 
 Ensure that the property **glide.xmlutil.max\_entity\_expansion** is set to `3000` or less.
 
@@ -72,7 +72,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+3000
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

@@ -3,11 +3,11 @@ title: Workforce Optimization for Field Service Manager Workspace dashboard
 description: Monitor your teams' work and organizational performance using Workforce Optimization for Field Service. Stay on top of the status of the tasks your teams are working on at a given time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/wfo-fsm-manager-wrkspc-dashboard.html
-release: australia
+release: brazil
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---

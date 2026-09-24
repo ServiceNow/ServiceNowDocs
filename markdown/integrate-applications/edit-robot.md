@@ -3,9 +3,9 @@ title: Edit an unattended robot in RPA Hub
 description: Edit an existing unattended robot in RPA Hub to modify a few details of the robot, convert the robot to a high density robot, and view the robot state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/edit-robot.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Robots, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -16,7 +16,7 @@ Edit an existing unattended robot in RPA Hub to modify a few details of the robo
 
 ## Before you begin
 
-Create an unattended robot. Ensure to select the **Robot Type** field as **Unattended**. For more information, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-unattended-robot.md).
+Create an unattended robot. Ensure to select the **Robot Type** field as **Unattended**. For more information, see [Create an unattended robot in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-unattended-robot.md).
 
 You cannot edit an attended robot.
 

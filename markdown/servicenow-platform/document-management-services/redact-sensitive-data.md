@@ -3,11 +3,11 @@ title: Redact data from documents
 description: Redact sensitive data from PDF documents by either searching keywords or selecting text.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/redact-sensitive-data.html
-release: australia
+release: brazil
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Redact sensitive data from documents, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,5 +53,5 @@ Role required: none
 11. To discard, select the close icon \[Omitted image "redact-close-icon.png"\] Alt text: icon close in the Redact document pane.
 
 
-**Parent Topic:**[Redact sensitive data from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/data-redaction-documents.md)
+**Parent Topic:**[Redact sensitive data from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/document-management-services/data-redaction-documents.md)
 

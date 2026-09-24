@@ -3,11 +3,11 @@ title: Bulk application updates
 description: The bulk application update console enables you to review, select, and update multiple applications in a single workflow, improving efficiency compared to updating applications individually through the Application Manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um\_bulk\_app\_update\_desc.html
-release: australia
+release: brazil
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -51,10 +51,10 @@ Use Application Manager when:
 -   You want to install new applications or plugins
 -   You need detailed information about an application's features or dependencies
 
--   **[Update multiple applications at once](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-bulk-app-update.md)**  
+-   **[Update multiple applications at once](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-bulk-app-update.md)**  
 Use the bulk application update console to review, select, and update multiple applications in a single workflow instead of updating them individually through the app manager.
 
-**Parent Topic:**[Configuring Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-configure.md)
+**Parent Topic:**[Configuring Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/upgrade-management/um-configure.md)
 
 **Related topics**  
 

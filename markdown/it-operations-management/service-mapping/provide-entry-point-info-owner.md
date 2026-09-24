@@ -3,11 +3,11 @@ title: Provide entry points for mapping an application service
 description: As an application service owner you may receive a request for information about entry points in an email notification. Provide information about entry points to enable administrators to start discovery of an application service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/provide-entry-point-info-owner.html
-release: australia
+release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -57,5 +57,5 @@ If information about service instance entry points is missing, an administrator 
 6.  If there is any other useful information concerning this service instance, enter it in the **Notes** field under **Worknotes** and press Enter to post your comment.
 
 
-**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
+**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 

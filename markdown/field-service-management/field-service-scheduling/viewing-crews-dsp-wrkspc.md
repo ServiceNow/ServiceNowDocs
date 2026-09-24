@@ -3,11 +3,11 @@ title: Viewing crews in the Dispatcher Workspace calendar
 description: You can view the crew's schedule, availability, and tasks that are assigned to the crew or their work in progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/viewing-crews-dsp-wrkspc.html
-release: australia
+release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---

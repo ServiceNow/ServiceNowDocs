@@ -3,11 +3,11 @@ title: Use OAuth to create pipeline credentials
 description: Create credential records on each of your instances to enable OAuth use in your pipeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/use-oauth-to-create-pipeline-credentials.html
-release: australia
+release: brazil
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure OAuth credentials, Configure environment credentials, Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -18,7 +18,7 @@ Create credential records on each of your instances to enable OAuth use in your 
 
 ## Before you begin
 
-Complete the tasks in [Create OAuth API endpoints for external clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/create-oauth-api-endpoints-for-external-clients.md) and [Create third-party OAuth provider records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/create-third-party-oauth-provider-records.md).
+Complete the tasks in [Create OAuth API endpoints for external clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/create-oauth-api-endpoints-for-external-clients.md) and [Create third-party OAuth provider records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/create-third-party-oauth-provider-records.md).
 
 In the top right corner of your instance, make sure you set the application scope to **Global**.
 
@@ -218,5 +218,5 @@ To configure credentials correctly, you must create records for each of your pro
 
 ## What to do next
 
-Now that you've created all of the credential records connecting your instances, you can use those records to configure your pipeline environments. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-pipeline-environments.md).
+Now that you've created all of the credential records connecting your instances, you can use those records to configure your pipeline environments. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-pipeline-environments.md).
 

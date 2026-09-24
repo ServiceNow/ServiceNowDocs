@@ -3,7 +3,7 @@ title: Document generation
 description: You can use third-party document generation software to output configuration data by pushing information from CPQ to Salesforce.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/generating\_documents\_with\_logik\_io\_configuration\_data.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -24,7 +24,7 @@ CPQ does not directly interface with any document generation tools; however, CPQ
 
 ## Using the Salesforce CPQ document generator
 
-In order to display CPQ configuration data in out-of-the-box Salesforce CPQ quote documents, you must first map the data from your Configuration Line Itemsʼ extended info to custom fields on their associated quote lines. This can be accomplished by using the configuration line item to quote line” flow that is included with CPQ. For more information, see [Use case: Configuration line item to quote line flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-case-configuration-line-item-to-quote-line-flow.md)
+In order to display CPQ configuration data in out-of-the-box Salesforce CPQ quote documents, you must first map the data from your Configuration Line Itemsʼ extended info to custom fields on their associated quote lines. This can be accomplished by using the configuration line item to quote line” flow that is included with CPQ. For more information, see [Use case: Configuration line item to quote line flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-case-configuration-line-item-to-quote-line-flow.md)
 
 Once these fields are populating on your quote lines, they can be [used as line columns](https://help.salesforce.com/s/articleView?id=sf.cpq_line_columns.htm&type=5) to be displayed in your CPQ line items template content. These fields can also be utilized in other [CPQ quote template fields](https://help.salesforce.com/s/articleView?id=sf.cpq_quote_template_fields.htm&type=5), such as the group and subgroup fields, to further customize your quote documents.
 
@@ -32,5 +32,5 @@ Once these fields are populating on your quote lines, they can be [used as line 
 
 Third-party document generators include Conga Composer, DocuSign Gen, PDF Butler, and others. Most third-party document generation tools let you use merge fields to pull data directly from any Salesforce object, including the Configuration Field Data and Configuration Line Items objects. This means you can use your document generator's merge fields to display CPQ configuration data in your quote documents directly from those objects instead of mapping all of your data to fields on the Quote Line object. This provides additional layers of flexibility. For example, CPQ configuration data can be displayed in separate tables or used for grouping or organizing your data.
 
-**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using.md)
+**Parent Topic:**[Using CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cpq-using.md)
 

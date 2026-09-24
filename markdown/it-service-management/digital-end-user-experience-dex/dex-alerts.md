@@ -3,14 +3,14 @@ title: DEX Alerts
 description: Digital End-User Experience \(DEX\) Alerts provide details on the active alerts, their severity, impacted services, and the duration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-alerts.html
-release: australia
+release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [dex alert management, active alerts, alert severity, impacted services, impacted devices, impacted users, overview tab, details tab, related records tab, remediate issue on devices, remedial actions, bulk remediation, root cause of alert]
-breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
 ---
 
 # DEX Alerts
@@ -32,7 +32,7 @@ By selecting a specific alert, you can find the details of the alert in differen
 
 View alerts for both your device and its applications in the Alerts section of the Devices page.
 
-**Note:** For details on the active alerts listed see, [Monitor incoming alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_EMUseAlertConsole.md).
+**Note:** For details on the active alerts listed see, [Monitor incoming alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_EMUseAlertConsole.md).
 
 ## The Overview tab
 

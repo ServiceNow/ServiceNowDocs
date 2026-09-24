@@ -3,13 +3,13 @@ title: Manage asset bundles from your inventory
 description: Create asset bundles from existing assets in your inventory to track, reserve, or deploy a group of assets as a single entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-bundled-assets.html
-release: australia
+release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 8
-breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage asset bundles from your inventory
@@ -20,7 +20,7 @@ Create asset bundles from existing assets in your inventory to track, reserve, o
 
 An asset bundle is a grouping of assets and comprises of consumable and hardware assets. Only assets that are in the **In stock** status and **available** substatus are added to an asset bundle. Assets that are part of an asset bundle aren’t available as individual assets.
 
-**Note:** For information on asset bundles, see [Asset bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-bundles-concept.md).
+**Note:** For information on asset bundles, see [Asset bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-bundles-concept.md).
 
 Role required: asset
 
@@ -40,13 +40,13 @@ Role required: asset
 
     -   **Auto-select assets**: Automatically adds assets to the asset bundle. The assets are added from the stockroom specified in the asset bundle.
 
-        **Note:** Assets are allocated only when all the assets that are part of the bundle are available. Excluded assets aren't considered for auto-selection. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
+        **Note:** Assets are allocated only when all the assets that are part of the bundle are available. Excluded assets aren't considered for auto-selection. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 
     -   **Select assets**: Select the assets that you want in your asset bundle and select **Add Assets**.
 
         **Note:**
 
-        You can't select an excluded asset. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md). Assets displayed are confined to the stockroom specified in the asset bundle.
+        You can't select an excluded asset. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md). Assets displayed are confined to the stockroom specified in the asset bundle.
 
     Once the assets are allocated to the bundle, the assets appear in the Assets related list and **Auto-allocate assets** and **Select assets** no longer appear in the Bundle form layout.
 
@@ -87,76 +87,24 @@ Role required: asset
         The asset bundle is deleted.
 
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Asset lifecycle and disposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/asset-lifecycle-disposal-ham.md)
 
 **Related topics**  
 
 
-[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
-
-[Work with hardware normalization]()
-
-[Manage your inventory through pallet assets]()
-
-[Manage loaner assets]()
-
-[Donate assets to charity organizations]()
-
-[Use Advanced Shipment Notification]()
-
-[Manage RMA requests]()
-
-[Create an inventory stock order request]()
-
-[Create a disposal order]()
-
-[Fulfilling hardware asset requests]()
-
-[Audit hardware asset inventory]()
-
 [Request a Hardware Asset Refresh]()
+
+[Manage refresh of assets using Zero Touch Refresh]()
 
 [Manage your expiring contracts for leased hardware assets]()
 
 [Reclaim hardware assets]()
 
-[View RFID information of assets]()
+[Create a disposal order]()
 
-[Manage the lifecycle of hardware models with calculated lifecycle templates]()
-
-[Create an internal lifecycle in the Hardware Asset Workspace]()
-
-[Receive asset warranty details from Lenovo]()
-
-[Manage stockrooms]()
-
-[Track shipments using the integration framework]()
-
-[Track asset location using indoor maps]()
-
-[Assess performance of Hardware Asset Management]()
-
-[Manage refresh of assets using Zero Touch Refresh]()
-
-[Configure the Total Cost of Ownership of assets]()
-
-[Manage Hardware Asset Management subscriptions]()
-
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
-
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
-
-[Manage hardware asset tasks using the Mobile Agent application]()
-
-[Manage asset put away using the Hardware Asset Workspace]()
-
-[Audit your hardware assets by using Asset Attestation]()
-
-[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+[Donate assets to charity organizations]()
 
 [Manage obligations in the Hardware Asset Workspace]()
 
-[Acknowledge receipt of assets on the Employee Center portal]()
-
-[Update associated Decision tables for HAM flows]()
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
 

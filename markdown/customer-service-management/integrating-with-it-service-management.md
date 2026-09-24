@@ -3,9 +3,9 @@ title: Integrating withIT Service Management
 description: Integrate Customer Service Management with IT Service Management that includes the Incident, Problem, Change, and Request Management applications. With this integration, users can create request, incident, problem, and change records from customer service cases and external users can view these records from the Customer and Consumer Service Portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/integrating-with-it-service-management.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate, Customer Service Management]
 ---
@@ -58,18 +58,18 @@ External users
 </td></tr></tbody>
 </table>-   **Integration with Incident Management**
 
-    Integration with the Incident Management application enables customer service agents to create incident records from cases or associate existing incident records to cases. For more information, see [CSM integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-incident.md).
+    Integration with the Incident Management application enables customer service agents to create incident records from cases or associate existing incident records to cases. For more information, see [CSM integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-integration-sm-incident.md).
 
 -   **Integration with Problem Management**
 
-    Integration with the Problem Management application enables customer service agents to create problem records from cases or associate existing problem records to cases. For more information, see [CSM integration with Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-problem.md).
+    Integration with the Problem Management application enables customer service agents to create problem records from cases or associate existing problem records to cases. For more information, see [CSM integration with Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-integration-sm-problem.md).
 
 -   **Integration with Change Management**
 
-    Integration with the Change Management application enables customer service agents to create change records from cases or associate existing change records to cases. For more information, see [CSM integration with Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-change.md).
+    Integration with the Change Management application enables customer service agents to create change records from cases or associate existing change records to cases. For more information, see [CSM integration with Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-integration-sm-change.md).
 
 -   **Integration with Request Management**
 
-    Integration with the Request Management application enables customer service agents to create request records from cases or associate existing request records to cases. It also enables customers to create requests from the Customer and Consumer Service Portals. For more information, see [CSM integration with Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-request.md).
+    Integration with the Request Management application enables customer service agents to create request records from cases or associate existing request records to cases. It also enables customers to create requests from the Customer and Consumer Service Portals. For more information, see [CSM integration with Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-integration-sm-request.md).
 
 

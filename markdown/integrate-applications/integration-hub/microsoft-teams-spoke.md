@@ -3,11 +3,11 @@ title: Microsoft Teams Spoke
 description: The Microsoft Teams spoke provides actions which post messages and ServiceNow incident, problem, and change record details to Microsoft Teams channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/microsoft-teams-spoke.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---

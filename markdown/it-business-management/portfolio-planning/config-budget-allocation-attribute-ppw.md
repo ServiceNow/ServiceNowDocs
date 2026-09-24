@@ -3,11 +3,11 @@ title: Configure budget attribute at instance-level
 description: Configure the budget attribute by expense type or cost type as an instance-level to work on budget allocations for your planning items using Portfolio Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/config-budget-allocation-attribute-ppw.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable financial budget allocation for planning items in Portfolio Planning, Configure financials for Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Configure the budget attribute by expense type or cost type as an instance-level
 
 ## Before you begin
 
--   Enable the budget allocation property to work on budgeting for planning items. For more information, see [Enable financial budget allocation for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-fin-budget-ppw.md).
+-   Enable the budget allocation property to work on budgeting for planning items. For more information, see [Enable financial budget allocation for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/enable-fin-budget-ppw.md).
 -   Role required: admin
 
 **Important:** Existing customers cannot change the budget attribute to cost\_type.

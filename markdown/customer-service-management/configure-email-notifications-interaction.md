@@ -3,9 +3,9 @@ title: Configure email notifications for an interaction
 description: Configure email notification to determine whether they should be sent to the contact, consumer, or guest.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-email-notifications-interaction.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
 breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
@@ -27,7 +27,7 @@ Email notifications that are available by default:
 -   Interaction created for guest
 -   Interaction created for contact
 
-You can customize the existing notification or create a notification. For more information, see [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
+You can customize the existing notification or create a notification. For more information, see [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailNotifications.md).
 
 ## Procedure
 

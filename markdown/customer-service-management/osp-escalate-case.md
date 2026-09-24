@@ -3,9 +3,9 @@ title: Escalate a case
 description: An OSP agent can escalate a case when unable to resolve or fulfil a case for various reasons such as
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-escalate-case.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Outsourced Service Provider agent tasks, Manage cases, Use, Customer Service Management]
 ---

@@ -3,9 +3,9 @@ title: Configure a dynamic screen name for a record screen
 description: Configure a record screen to dynamically inherit a name from a field in a previous record. This setup enables users to view a single specified field as the screen name instead of the screen record name.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/dynamic-screen-name-form.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---

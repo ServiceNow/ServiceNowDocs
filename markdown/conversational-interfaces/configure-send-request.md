@@ -1,0 +1,58 @@
+---
+title: Review the inbound REST endpoint and configure inbound authentication
+description: After you install the Virtual Agent API, navigate to the Scripted REST API resource to review the endpoint and set up authentication.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/configure-send-request.html
+release: brazil
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure, Virtual Agent API, Conversational Interfaces]
+---
+
+# Review the inbound REST endpoint and configure inbound authentication
+
+After you install the Virtual Agent API, navigate to the Scripted REST API resource to review the endpoint and set up authentication.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Web Services** &gt; **Scripted Web Services** &gt; **Scripted REST APIs**.
+
+2.  Select the **VA Bot Integration** record to open it.
+
+3.  In the **Resources** tab, open the **BOT Integration** record.
+
+4.  Review the inbound REST API resource details.
+
+    The format is: https://&lt;customer instance&gt;/api/sn\_va\_as\_service/bot/integration
+
+    \[Omitted image "scripted-rest-api-endpoint.png"\] Alt text: Review the Resource path value for the REST endpoint.
+
+    For a description of the request parameters and an example send request, see Virtual Agent Bot Integration API.
+
+5.  In the **Security** tab on the same page, select the **Requires authentication** check box.
+
+    \[Omitted image "scripted-rest-api-botinteg.png"\] Alt text: Select the Requires authentication check box.
+
+6.  Set up Provider Authentication using any of these methods: Basic, OAuth, Hash, or Static Token.
+
+    **Note:** Guest usage via Basic or OAuth is already supported out-of-box when you select **Requires authentication**. To support user account linking, you must use Static or Hash token-based authentication. You can use token-based authentication \(Static or Hash\) with or without Basic or OAuth authentication. The token can be passed in either the request body or the header. If the token is specified in both places, the one in the header is accepted.
+
+    Do one of the following:
+
+    -   Set up Basic or OAuth authentication.
+
+        To learn more about OAuth authentication and the possible security configurations for scripted REST APIs, see Enable OAuth with inbound REST.
+
+    -   Set up Message Authentication, which involves configuring either Static or Hash tokens, setting up Provider Authentication, and setting the channel identity. For details, see [Configure Message Authentication for inbound communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/set-up-message-auth-va-api.md).
+
+## What to do next
+
+If you are using Message Authentication, [Configure Message Authentication for inbound communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/set-up-message-auth-va-api.md).
+
+.
+

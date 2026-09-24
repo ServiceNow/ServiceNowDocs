@@ -3,11 +3,11 @@ title: Enable Human Readable URLs for the Knowledge Article View page
 description: Update a human readable URL structure in the Knowledge Article View page to improve search ranking and click-through rates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/add-human-readable-keywords-knowledge-pages.html
-release: australia
+release: brazil
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using human readable URLs for the Knowledge article page, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: admin, sp\_admin
 
 ## About this task
 
-If you are upgrading from a release earlier than the Australia release, you must enable the Human Readable URLs feature for the Knowledge Article View page. Beginning with the Australia release, this feature is enabled by default.
+If you are upgrading from a release earlier than the Brazil release, you must enable the Human Readable URLs feature for the Knowledge Article View page. Beginning with the Brazil release, this feature is enabled by default.
 
 **Note:** To disable the Human Readable URLs feature, change the **glide.service\_portal.enable\_human\_readable\_urls** system property value to false.
 
@@ -36,7 +36,7 @@ If you are upgrading from a release earlier than the Australia release, you must
 
 4.  On the Knowledge Article View form, in the **Human readable url structure** field enter the `%short_descr` variable.
 
-    **Note:** You can also create a variable to add information from various data sources. For more information, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-human-readable-keywords-page-urls.md).
+    **Note:** You can also create a variable to add information from various data sources. For more information, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/add-human-readable-keywords-page-urls.md).
 
 5.  Select **Update**.
 
@@ -60,5 +60,5 @@ This article URL contains the field variables, and keywords in the following tab
 |Category|%category|`faq`|
 |Short description|%short\_descr|`What is a cookie?`|
 
-**Parent Topic:**[Using human readable URLs for the Knowledge article page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/human-readable-urls-km.md)
+**Parent Topic:**[Using human readable URLs for the Knowledge article page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/human-readable-urls-km.md)
 

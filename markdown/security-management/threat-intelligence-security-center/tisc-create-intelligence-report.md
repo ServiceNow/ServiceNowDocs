@@ -3,11 +3,11 @@ title: Create an intelligence report
 description: Create an intelligence report from the Reports module in the Threat Intelligence Library by using a published intelligence template and populating it with intelligence from library lists and slash commands, independent of a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-intelligence-report.html
-release: australia
+release: brazil
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Create Intelligence Reports, Generate Intelligence Reports]
 breadcrumb: [Working with Reports in TISC, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
@@ -19,7 +19,7 @@ Create an intelligence report from the **Reports** module in the Threat Intellig
 
 ## Before you begin
 
-The intelligence report template must be published. For more information, see [Configure report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-report-templates.md).
+The intelligence report template must be published. For more information, see [Configure report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-report-templates.md).
 
 Role required: sn\_sec\_tisc.analyst
 
@@ -48,7 +48,7 @@ Intelligence reports use templates that have an **Intelligence** report context.
 6.  Select the **Report Content** tab to build the report content.
 
     -   Select the **Expand** icon to insert additional content — for example, Observables or Indicators — into the report.
-    -   Type `/` to use a slash command and insert dynamic content, such as a record count, a specific record or field, or a system user. For the available slash commands and supported tables, see [Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md).
+    -   Type `/` to use a slash command and insert dynamic content, such as a record count, a specific record or field, or a system user. For the available slash commands and supported tables, see [Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md).
     -   Select **Save Content** to save your changes and enable **Publish**.
     -   Select **Preview** to generate a PDF preview of the current content.
     -   Select **Popout** to view or edit the report in a separate window.
@@ -69,5 +69,5 @@ Intelligence reports use templates that have an **Intelligence** report context.
     -   Select **Download** to download the published PDF.
     -   Select **Share** to share the report by email.
 
-**Parent Topic:**[Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md)
+**Parent Topic:**[Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md)
 

@@ -3,9 +3,9 @@ title: Configure a content UI section
 description: Use the content UI section type to display text, images, and videos as campaign cards at the top of your screen. Use these campaigns to deliver messages and important information to your users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/configure-content-ui-section.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Launcher screen UI sections, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -132,7 +132,7 @@ This option appears when you select **User criteria** for **Access control type*
 
 ## What to do next
 
-The content UI section you created can now contain a mobile campaign. For full instructions, see [Configure mobile campaign components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-campaign-create.md).
+The content UI section you created can now contain a mobile campaign. For full instructions, see [Configure mobile campaign components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-campaign-create.md).
 
-After creating content UI sections, you must associate the UI sections to a launcher screen so they're displayed. For more information, see [Add a UI section to the launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/ui-section-to-launcher-screen.md).
+After creating content UI sections, you must associate the UI sections to a launcher screen so they're displayed. For more information, see [Add a UI section to the launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/ui-section-to-launcher-screen.md).
 

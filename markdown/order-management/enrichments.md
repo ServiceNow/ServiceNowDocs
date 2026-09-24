@@ -3,7 +3,7 @@ title: Setting up enrichments and rules scripting
 description: Learn how to set up enrichments and write rules scripts to control product behavior, automate calculations, and enhance configuration logic in your application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/enrichments.html
-release: australia
+release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

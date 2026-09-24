@@ -3,11 +3,11 @@ title: Determine a card's Terms and Conditions and Disclosures for a customer
 description: Determine a card's terms and conditions and disclosures and update the customer agreement for a customer. This information is shared with the customer before you issue a new credit card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/determine-card-terms-conditions-disclosures.html
-release: australia
+release: brazil
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up a new credit card account, Use, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -20,11 +20,11 @@ Determine a card's terms and conditions and disclosures and update the customer 
 
 Role required: sn\_bom\_credit\_card.agent or sn\_bom\_credit\_card.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
-This credit card task is automatically created for a new credit card case when the document service task to [check the completeness of the customer's supporting documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/check-completeness-supporting-documents.md) completes.
+This credit card task is automatically created for a new credit card case when the document service task to [check the completeness of the customer's supporting documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-card-operations/check-completeness-supporting-documents.md) completes.
 
 ## Procedure
 
@@ -34,15 +34,15 @@ This credit card task is automatically created for a new credit card case when t
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d91037e127">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d92737e127">
 
 Option
 
-</th><th align="left" id="d91037e130">
+</th><th align="left" id="d92737e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d91037e136">
+</th></tr></thead><tbody><tr><td id="d92737e136">
 
 **From a credit card service case**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d91037e169">
+</td></tr><tr><td id="d92737e169">
 
 **From the Credit Card Task list**
 

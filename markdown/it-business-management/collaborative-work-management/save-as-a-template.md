@@ -3,11 +3,11 @@ title: Save a CWM Board or Doc as a template
 description: Save a Board or Doc, which you created or personalized, as a template. This lets you reuse the same structure and format for other Boards and Docs in the future.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/save-as-a-template.html
-release: australia
+release: brazil
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use templates for Boards and Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -18,8 +18,8 @@ Save a Board or Doc, which you created or personalized, as a template. This lets
 
 ## Before you begin
 
--   [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
--   [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
+-   [Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
+-   [Create a Doc in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/create-a-doc-in-cwm.md)
 
 Role required: sn\_cwm.cwm\_user
 
@@ -31,15 +31,15 @@ Role required: sn\_cwm.cwm\_user
 
 3.  You can save a Board, a Doc, or a single Doc page as a template.
 
-<table id="choicetable_mfv_yn1_ddc"><thead><tr><th align="left" id="d276434e108">
+<table id="choicetable_mfv_yn1_ddc"><thead><tr><th align="left" id="d277547e108">
 
 Choice
 
-</th><th align="left" id="d276434e111">
+</th><th align="left" id="d277547e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d276434e117">
+</th></tr></thead><tbody><tr><td id="d277547e117">
 
 **Save a Board as template**
 
@@ -47,7 +47,7 @@ Action
 
 From the Board header, select the More options icon \(\[Omitted image "cwm-icon-board-more-options.png"\] Alt text: More options icon.\) and select **Save as template**.\[Omitted image "cwm-templates-save-board.png"\] Alt text: Option to save Board as a template.
 
-</td></tr><tr><td id="d276434e141">
+</td></tr><tr><td id="d277547e141">
 
 **Save a Doc as template**
 
@@ -55,7 +55,7 @@ From the Board header, select the More options icon \(\[Omitted image "cwm-icon-
 
 From the Doc header, select the More actions icon \(\[Omitted image "cwm-icon-doc-more-actions.png"\] Alt text: More actions icon.\) and select **Save as template**.\[Omitted image "cwm-templates-save-doc.png"\] Alt text: Option to save Doc as a template.
 
-</td></tr><tr><td id="d276434e165">
+</td></tr><tr><td id="d277547e165">
 
 **Save a Doc page as template**
 
@@ -79,5 +79,5 @@ From the page options, select the Page Actions icon \(\[Omitted image "cwm-icon-
 
 The saved template is added to the Template Center.
 
-**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
+**Parent Topic:**[Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md)
 

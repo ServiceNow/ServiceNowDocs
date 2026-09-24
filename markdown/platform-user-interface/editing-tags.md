@@ -3,9 +3,9 @@ title: Editing tags
 description: You can edit tags that you created from the list and form views, the My Tags module, and the Tagged Documents page. You can also merge tags from the My Tags module.In the list view, you can edit tags that you created.From the form view, you can edit tags that you created.From the My Tags module, you can edit the tags you have created.You can edit tags from the Tagged Documents page.You can merge one or more tags with another tag. For example, when you merge Tag A with Tag B, Tag A is deleted and all associated records are reassigned to Tag B.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/editing-tags.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Tags, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ You can edit tags that you created from the list and form views, the **My Tags**
 
 **Note:** Tag names are case-insensitive and must not include punctuation.
 
-**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_Tags.md)
 
 ## Edit tags from the list view
 

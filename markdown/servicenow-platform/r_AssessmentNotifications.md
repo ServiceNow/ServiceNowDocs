@@ -3,9 +3,9 @@ title: Assessment notifications
 description: You can configure the system to send email notifications for assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_AssessmentNotifications.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable manager notifications, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ You can configure the system to send email notifications for assessments.
 
 You can configure any of the following types of notification during the process of generating assessable records:
 
--   Notify assessment user: This messages notifies you of an assigned an assessment and includes the [type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md), the due date, and basic instructions. The message also contains a link to the record where you take the assessment.
+-   Notify assessment user: This messages notifies you of an assigned an assessment and includes the [type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md), the due date, and basic instructions. The message also contains a link to the record where you take the assessment.
 
     **Note:** If a user has a pending assessment, then the system will not generate another instance of the same assessment.
 
@@ -25,12 +25,12 @@ You can configure any of the following types of notification during the process 
 
 **Note:** By default, the system runs a script every 30 days to cancel expired assessment and survey instances that are in the **Work in progress** or **Ready to take** states.
 
-**Parent Topic:**[Enable manager notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_EnablingManagerNotifications.md)
+**Parent Topic:**[Enable manager notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_EnablingManagerNotifications.md)
 
 **Related topics**  
 
 
-[Create metric types and generate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreatMetricTypesAndGenAssessRecs.md)
+[Create metric types and generate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreatMetricTypesAndGenAssessRecs.md)
 
-[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduleEvents.md)
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduleEvents.md)
 

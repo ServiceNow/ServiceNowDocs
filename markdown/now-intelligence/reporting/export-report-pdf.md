@@ -3,11 +3,11 @@ title: Export a report to PDF
 description: Export a report to PDF to use it outside of your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/export-report-pdf.html
-release: australia
+release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -44,7 +44,7 @@ File type
 
 </td><td>
 
-Export data visualizations in one of their supported formats. \(See [Supported export formats for different data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-visualization-vd.md).\) Select **Embedded PNG** or **Embedded LIST** to embed the exported file in the email body instead of sending it as an attached file or ZIP. You can edit the email around the image.
+Export data visualizations in one of their supported formats. \(See [Supported export formats for different data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-visualization-vd.md).\) Select **Embedded PNG** or **Embedded LIST** to embed the exported file in the email body instead of sending it as an attached file or ZIP. You can edit the email around the image.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Page format
 
 </td><td>
 
-For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You cannot set the page format when exporting a List.
+For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You can't set the page format when exporting a List.
 
 </td></tr><tr><td>
 
@@ -75,5 +75,5 @@ Choose Portrait or Landscape. Not available when exporting to Microsoft PowerPoi
 
 When the export is complete, you see either a download link or a message that the export will be delivered to the recipient.
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_DistributeReports.md)
 

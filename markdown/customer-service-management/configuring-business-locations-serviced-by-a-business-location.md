@@ -3,9 +3,9 @@ title: Configuring business organizations serviced by a business organization
 description: You can track the relationship between requesting and fulfilling service organizations. You can set hierarchy or relationship-based support criteria for your business organizations \(formerly business locations\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-business-locations-serviced-by-a-business-location.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up inter-organization support, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Setting up inter-organization support, Configure Service Model Foun
 
 You can track the relationship between requesting and fulfilling service organizations. You can set hierarchy or relationship-based support criteria for your business organizations \(formerly business locations\).
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 <table id="table_lwc_szp_1cc"><thead><tr><th>
 
@@ -26,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Define the configuration type for customers or business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-customer-criteria-to-service-organization.md)
+[Define the configuration type for customers or business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-customer-criteria-to-service-organization.md)
 
 </td><td>
 
@@ -34,7 +34,7 @@ Define the configuration type for the business organization served to provide ac
 
 </td></tr><tr><td>
 
-[Associate customers or business organizations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md)
+[Associate customers or business organizations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md)
 
 </td><td>
 

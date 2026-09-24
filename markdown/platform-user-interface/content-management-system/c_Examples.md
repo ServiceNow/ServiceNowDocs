@@ -3,11 +3,11 @@ title: Element link examples
 description: View examples that show how to create a site pointing to various system data in several different data tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_Examples.html
-release: australia
+release: brazil
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View links between system elements and URLs, Content Management integration points, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -25,5 +25,5 @@ The following examples illustrate setting up access to the following system data
 
 \[Omitted image "CmsIntegrationPoints.png"\] Alt text: Examples include Knowledge, Catalog, Service Portfolio, and Featured reports.
 
-**Parent Topic:**[View links between system elements and URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_LinkToContent.md)
+**Parent Topic:**[View links between system elements and URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/content-management-system/t_LinkToContent.md)
 

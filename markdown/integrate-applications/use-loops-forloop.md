@@ -3,9 +3,9 @@ title: Use the For Loop component
 description: Execute a code recurrently to perform tasks of repetitive nature with the For Loop component in the RPA Desktop Design Studio. The For Loop is a control flow component for specifying iterations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-loops-forloop.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Loops, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -37,7 +37,7 @@ You can configure the properties for the For Loop component.
 
 2.  Drag the For Loop component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the For Loop component to the corresponding ports of the other components as described in the following table.
 
@@ -51,5 +51,5 @@ You can configure the properties for the For Loop component.
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Loops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/loops.md)
+**Parent Topic:**[Loops](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/loops.md)
 

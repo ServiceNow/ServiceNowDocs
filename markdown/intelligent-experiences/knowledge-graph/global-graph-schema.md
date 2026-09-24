@@ -3,13 +3,13 @@ title: Using Enterprise graph schema
 description: Use Enterprise Graph for accurate natural language query responses, across the entire database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/global-graph-schema.html
-release: australia
+release: brazil
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Knowledge Graph, Enable AI experiences]
+breadcrumb: [Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Using Enterprise graph schema
@@ -18,7 +18,7 @@ Use Enterprise Graph for accurate natural language query responses, across the e
 
 Enterprise graph is a pre-configured Knowledge Graph schema that maps all instance tables and their connections, enabling natural language queries for data across all tables.
 
-To see some examples of the Natural Language query responses, refer [Natural language queries use cases and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/natural-language-queries-example-usecases.md).
+To see some examples of the Natural Language query responses, refer [Natural language queries use cases and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/natural-language-queries-example-usecases.md).
 
 Enterprise graph schema simplifies Knowledge Graph setup by providing a preconfigured schema, eliminating the need for custom schema creation in Knowledge Graph designer.
 

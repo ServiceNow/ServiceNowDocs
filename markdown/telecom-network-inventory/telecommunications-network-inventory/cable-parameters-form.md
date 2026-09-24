@@ -3,11 +3,11 @@ title: Cable Parameters form
 description: The Cable Parameters form enables you to define cable parameters for a physical connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/cable-parameters-form.html
-release: australia
+release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Physical Connection form, Reference, Telecommunications Network Inventory]
 ---
@@ -28,10 +28,10 @@ The Cable Parameters form enables you to define cable parameters for a physical 
 |Sparelength Z|Length of the cable that connects to site Z in millimeters \(mm\).|
 |KML Route|Option that designates the fiber route maps in a KML format.|
 
-**Parent Topic:**[Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/physical-connection-forms.md)
+**Parent Topic:**[Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/physical-connection-forms.md)
 
 **Related topics**  
 
 
-[Define the physical connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-physical-connections.md)
+[Define the physical connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-physical-connections.md)
 

@@ -3,9 +3,9 @@ title: Configure 360° relationship registries and views
 description: Configure 360° view configurations with the sn\_bcm.admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-relationship-registries-views.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -80,7 +80,7 @@ Relationship
 
 </td><td>
 
-The relationship table of the selected relationship type. For example, if you are defining relationships for the Entity table and select a many-to-many type, the list shows all applicable many-to-many relationships.
+The relationship table of the selected relationship type. For example, if you are defining relationships for the Entity table and select a many-to-many relationship type, the list shows all applicable many-to-many relationships.
 
 </td></tr><tr><td>
 
@@ -181,7 +181,7 @@ Order
 
 Based on the **Order** value given the position of element in the 360º view will change.
 
- For example, if you change the order value from 0 to 1 for an element, the position will be moved to next in the 360º view.
+ For example, if you change the order value from 0 to 1 for an element, the position will be moved to next in the 360ºview.
 
 </td></tr></tbody>
 </table>9.  Select **Submit**.
@@ -190,6 +190,6 @@ Based on the **Order** value given the position of element in the 360º view wil
 
     \[Omitted image "new-view.png"\] Alt text: Select a new view
 
-    For more information on 360° views configurations, see [Configure 360º views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.md).
+    For more information on 360° views configurations, see [Configure 360º views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.md).
 
 

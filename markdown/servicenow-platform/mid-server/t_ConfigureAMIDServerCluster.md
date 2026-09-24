@@ -3,11 +3,11 @@ title: Configure a MID Server cluster
 description: Group multiple MID Servers to form clusters, then configure clusters for fail-over protection or load balancing. Load-balancing clusters automatically balance work between each MID Server to improve stability and performance, as well as handle fail-over. Fail-over clusters have a configured order used to determine which MID Server to use next if a failure occurs.MID Server clusters enable multiple MID Servers with the appropriate capabilities to be grouped together for load balancing and fail-over protection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_ConfigureAMIDServerCluster.html
-release: australia
+release: brazil
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Group multiple MID Servers to form clusters, then configure clusters for fail-ov
 
 ## Before you begin
 
-Ensure that all MID Servers in the cluster have the same [capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) \(Supported Applications, IP Ranges, and Capabilities\). A MID Server should not belong to more than one cluster.
+Ensure that all MID Servers in the cluster have the same [capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) \(Supported Applications, IP Ranges, and Capabilities\). A MID Server should not belong to more than one cluster.
 
 Role required: admin
 
@@ -46,7 +46,7 @@ Create a new cluster or edit an existing cluster.
 6.  Select appropriate MID Servers for this cluster from the slushbucket.
 
 
-**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 
 ## MID Server clusters
 
@@ -68,7 +68,7 @@ MID Servers in clusters must be able to connect to the instance and to all the d
 
 -   **Load balancing**
 
-    If the cluster business rule determines that a MID Server is part of a load balancing cluster, the application using the MID Server automatically balances the work between the MID Servers in that cluster. It is good practice to put MID Servers with the same [capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) in a load balancing cluster.
+    If the cluster business rule determines that a MID Server is part of a load balancing cluster, the application using the MID Server automatically balances the work between the MID Servers in that cluster. It is good practice to put MID Servers with the same [capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown) in a load balancing cluster.
 
 -   **Fail-over protection**
 
@@ -78,7 +78,7 @@ MID Servers in clusters must be able to connect to the instance and to all the d
 
     Configure a fail-over MID Server with at least the same capabilities as the MID Server it is intended to relieve.
 
-    **Note:** If a MID Server fails while the [Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ConfigureTheShazzamProbe.md) is running and auto-selection is configured, failover is not available. The Shazzam discovery stops. Discovery does not automatically choose another MID Server.
+    **Note:** If a MID Server fails while the [Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ConfigureTheShazzamProbe.md) is running and auto-selection is configured, failover is not available. The Shazzam discovery stops. Discovery does not automatically choose another MID Server.
 
 
 ### MID Server cluster event
@@ -101,7 +101,7 @@ You can specify a specific MID Server cluster for a Discovery schedule. The disc
 
 ### Distributed MID Server clusters for Operational Intelligence
 
-The distributed MID Server cluster type is used exclusively in Operational Intelligence, which analyzes Event Management events and generates anomaly alerts. These MID Servers communicate with one another to distribute and balance the workload. For details, see [MID Server distributed clusters for Operational Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/ops-intelligence-mid-server.md)
+The distributed MID Server cluster type is used exclusively in Operational Intelligence, which analyzes Event Management events and generates anomaly alerts. These MID Servers communicate with one another to distribute and balance the workload. For details, see [MID Server distributed clusters for Operational Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/ops-intelligence-mid-server.md)
 
 ### Smart Workload Manager
 

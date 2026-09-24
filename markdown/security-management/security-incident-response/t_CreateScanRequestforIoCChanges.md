@@ -3,11 +3,11 @@ title: Create Lookup Request for IoC Changes workflow
 description: The Security Incident Response - Create Lookup Request for IoC Changes flow is triggered by the Lookup Security Incident Observables scheduled job to automatically look up IoCs that are added or changed. Malware scans are triggered only when new data is entered and only the new data is scanned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_CreateScanRequestforIoCChanges.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response Orchestration workflows and activities, Understand Security Incident Response Orchestration workflows and workflow templates, Security Incident Response Orchestration, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -31,14 +31,14 @@ The **Security Incident Response - Create Lookup Request for IoC Changes** workf
 The Flow Designer actions include:
 
 -   Audit Log Enrichment
--   [Create IoC Lookup Request activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_CreateMalwareScanRequest.md)
+-   [Create IoC Lookup Request activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/r_CreateMalwareScanRequest.md)
 
 \[Omitted image "ScanRequest4IoChangesWorkflow.png"\] Alt text: Security Incident Response - Create Lookup Request for IoC Changes workflow diagram
 
--   **[Create IoC Lookup Request activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_CreateMalwareScanRequest.md)**  
+-   **[Create IoC Lookup Request activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/r_CreateMalwareScanRequest.md)**  
 The **Create IoC Lookup Request** activity can be used with any workflow to create a malware lookup request for added or modified IoC fields.
 
-**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
+**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
 
 **Related topics**  
 

@@ -3,11 +3,11 @@ title: Map the UXF routes
 description: Create a route for the verification method to map the verification process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/map-uxf-routes-pr-sow.html
-release: australia
+release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure verification methods, Setting up Service Desk assisted Password Reset in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -50,5 +50,5 @@ Role required: admin
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Configure the verification methods for service desk process in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-verification-methods-pr-sow.md)
+**Parent Topic:**[Configure the verification methods for service desk process in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-verification-methods-pr-sow.md)
 

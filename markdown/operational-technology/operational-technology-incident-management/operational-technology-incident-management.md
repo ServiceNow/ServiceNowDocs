@@ -3,11 +3,11 @@ title: Operational Technology Incident Management
 description: Operational Technology Incident Management enables engineers to quickly resolve Operational Technology \(OT\) device and production process issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/operational-technology-incident-management.html
-release: australia
+release: brazil
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Operational Technology Incident Management, Operational Technology]
 ---
@@ -88,5 +88,5 @@ Canceled
 Incident was triaged but found to be a duplicate incident, an unnecessary incident, or not an incident at all.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/exploring-operational-technology-incident-mgt.md)
+</table>**Parent Topic:**[Exploring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-incident-management/exploring-operational-technology-incident-mgt.md)
 

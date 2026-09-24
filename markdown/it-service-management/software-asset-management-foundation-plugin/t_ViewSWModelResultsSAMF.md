@@ -1,18 +1,18 @@
 ---
-title: View Software Asset Management Foundation plugin software model results in classic
+title: View Basic Software Asset Management software model results in classic
 description: View compliance information for software model results from the Product Results list after reconciliation is run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/t\_ViewSWModelResultsSAMF.html
-release: australia
+release: brazil
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Software Asset Management Foundation plugin classic, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Using Basic Software Asset Management classic, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# View Software Asset Management Foundation plugin software model results in classic
+# View Basic Software Asset Management software model results in classic
 
 View compliance information for software model results from the Product Results list after reconciliation is run.
 
@@ -280,8 +280,8 @@ True-up cost
 Estimated cost of remediating non-compliance based on the least number of rights needed.
 
 </td></tr></tbody>
-</table>    The Unlicensed Installs related list contains the [software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_DiscoveryModelsSAMF.md) that are unlicensed.
+</table>    The Unlicensed Installs related list contains the [software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/c_DiscoveryModelsSAMF.md) that are unlicensed.
 
 
-**Parent Topic:**[Using Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)
+**Parent Topic:**[Using Basic Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)
 

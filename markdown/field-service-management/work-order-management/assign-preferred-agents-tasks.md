@@ -3,11 +3,11 @@ title: Set technician preferences for tasks
 description: Specify the technician assignment preference for a task, indicating whether a technician is marked as Preferred, Secondary, Excluded, or Required for the work order task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/assign-preferred-agents-tasks.html
-release: australia
+release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -20,9 +20,9 @@ Specify the technician assignment preference for a task, indicating whether a te
 
 Role required: wm\_dispatcher, wm\_manager, wm\_admin
 
-If you’re using Technician Preferences for Dynamic Scheduling, then you must have the **Prioritize preferred and secondary technicians** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/excluded-preferred-agents.md).
+If you’re using Technician Preferences for Dynamic Scheduling, then you must have the **Prioritize preferred and secondary technicians** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/excluded-preferred-agents.md).
 
-If you're using Technician Preferences for Schedule Optimization then your administrator must [Configure the policy to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-the-policy-to-assign-preferred-technicians-to-tasks.md).
+If you're using Technician Preferences for Schedule Optimization then your administrator must [Configure the policy to assign preferred technicians to tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/configure-the-policy-to-assign-preferred-technicians-to-tasks.md).
 
 ## About this task
 
@@ -56,7 +56,7 @@ Preferred
 
 </td><td>
 
-Specify technician as preferred for task assignment. Optimization prioritizes these technicians when scheduling tasks.
+Specify technician as preferred for task assignment. Optimization prioritizes these technicians when scheduling tasks, but other technicians may still be considered if necessary.
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Excluded
 
 </td><td>
 
-Specify technicians to exclude from task assignment. These technicians will not be considered during Dynamic Scheduling or Schedule Optimization.For more information, see [Exclude Field Service technicians from being assigned work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.md)
+Specify technicians to exclude from task assignment. These technicians will not be considered during Dynamic Scheduling or Schedule Optimization.For more information, see [Exclude Field Service technicians from being assigned work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.md)
 
 </td></tr><tr><td>
 
@@ -87,11 +87,9 @@ Required is only used by Schedule Optimization.
 </td></tr></tbody>
 </table>6.  Select **Submit**.
 
-    For Schedule Optimization, use the [Run Summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md) to view assignment outcomes for tasks with required, preferred, or secondary technician preferences, including tasks that could not be assigned to a required technician.
-
 
 **Related topics**  
 
 
-[Exclude Field Service technicians from being assigned work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.md)
+[Exclude Field Service technicians from being assigned work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.md)
 

@@ -3,11 +3,11 @@ title: Add onBefore scripts to the transform map
 description: Create one onBefore transform map script to copy the sys\_id of new records from the source to the target instance. Create a second onBefore transform map script to identify records on the target instance that have the same unique values but different sys\_id values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_AddOnBeforeScriptToTransformMap.html
-release: australia
+release: brazil
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using XML import sets, Importing from another ServiceNow instance, Import sets, Imports, Workflow Data Fabric]
 ---
@@ -63,9 +63,9 @@ Role required: admin.
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Using XML import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_XMLImportSets.md)
+**Parent Topic:**[Using XML import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/c_XMLImportSets.md)
 
-**Previous topic:**[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md)
+**Previous topic:**[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md)
 
-**Next topic:**[Retrieving data from a CSV formatted file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RetrieveDataFromACSVFormatFile.md)
+**Next topic:**[Retrieving data from a CSV formatted file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/system-import-sets/t_RetrieveDataFromACSVFormatFile.md)
 

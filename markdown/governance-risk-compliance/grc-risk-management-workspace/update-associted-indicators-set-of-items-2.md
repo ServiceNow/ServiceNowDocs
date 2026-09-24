@@ -3,11 +3,11 @@ title: Update associated GRC indicators for a set of items
 description: You can update all the items belonging to a GRC content record so each item is individually related to the PA indicator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/update-associted-indicators-set-of-items-2.html
-release: australia
+release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Monitor risks using GRC Performance Analytics Indicators, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -35,5 +35,5 @@ Role required: sn\_risk.manager or sn\_compliance.manager
     **Note:** To use Performance Analytics indicators for risk statements and risks, the Advanced Risk application and Performance Analytics must be active, and the related indicators must be enabled. Otherwise, the related links don't appear on a risk record.
 
 
-**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.md)
+**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.md)
 

@@ -3,7 +3,7 @@ title: Set up the SAP S4 HANA IDoc spoke
 description: Integrate the ServiceNow instance and SAP S4 HANA IDoc spoke by using the Basic Auth credentials to authenticate ServiceNow requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sap-s4-hana-idoc.html
-release: australia
+release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
@@ -22,7 +22,7 @@ Integrate the ServiceNow instance and SAP S4 HANA IDoc spoke by using the Basic 
 -   Activate the SAP S4 HANA IDoc spoke.
 -   Role required: admin.
 
-**Note:** To retrieve information, use the Execute RFC spoke action in the [SAP S4 HANA RFC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-s4hanarfc-spoke.md).
+**Note:** To retrieve information, use the Execute RFC spoke action in the [SAP S4 HANA RFC Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/sap-s4hanarfc-spoke.md).
 
 ## Procedure
 
@@ -42,7 +42,7 @@ Integrate the ServiceNow instance and SAP S4 HANA IDoc spoke by using the Basic 
 
     4.  Upload the required SAP proprietary files \(JAR, SO, or DLL\) obtained after contacting your SAP S4 HANA IDoc admin.
 
-        For more information, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SynchronizeAJARFiletoMIDServers.md).
+        For more information, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_SynchronizeAJARFiletoMIDServers.md).
 
     **Note:** Ensure that the files are synchronised in the `<MID-Server-root-directory>/agent/extlib` directory. If the files aren't synchronised, restart the MID Server.
 
@@ -106,7 +106,7 @@ Capabilities
 
 </td><td>
 
-Capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities.Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
+Capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities.Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ MID Application
 
 </td><td>
 
-Application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application.To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).
+Application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application.To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_MIDServerSelector.md).
 
 </td></tr></tbody>
 </table>    6.  In the **Attributes** tab, provide these details.

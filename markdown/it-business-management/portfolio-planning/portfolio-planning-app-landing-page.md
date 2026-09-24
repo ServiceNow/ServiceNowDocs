@@ -3,11 +3,11 @@ title: Portfolio Planning
 description: Enhance your traditional product and portfolio management by prioritizing work and visualizing plans with ServiceNow Portfolio Planning. Effectively plan, track, and manage work for projects and demands using a centralized workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/portfolio-planning-app-landing-page.html
-release: australia
+release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Strategic Portfolio Management]
@@ -23,51 +23,51 @@ Portfolio Planning is available for users with a Strategic Portfolio Management 
 
 <table id="table_h4d_x5q_m3c" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and value that Portfolio Planning offers your business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn the key features and value that Portfolio Planning offers your business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up the core configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up the core configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-alignment.svg"\] Alt text: Learn how to plan and align work across your portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
+[Use \[Omitted image "bus-alignment.svg"\] Alt text: Learn how to plan and align work across your portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
 
 </td><td>
 
-[Prioritize \[Omitted image "bus-balance-value.svg"\] Alt text: Rank and prioritize work for your portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.md)
+[Prioritize \[Omitted image "bus-balance-value.svg"\] Alt text: Rank and prioritize work for your portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/prioritizing-work-in-portfolio-planning-workspace.md)
 
 </td></tr><tr><td>
 
-[Roadmap \[Omitted image "bus-customize.svg"\] Alt text: Roadmap work for your portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
+[Roadmap \[Omitted image "bus-customize.svg"\] Alt text: Roadmap work for your portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 
 </td><td>
 
-[Report \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Export portfolio plan and roadmap status report as a PPT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/export-portfolio-plan-status-to-ppt-portfolio-planning-workspace.md)
+[Report \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Export portfolio plan and roadmap status report as a PPT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/export-portfolio-plan-status-to-ppt-portfolio-planning-workspace.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate Portfolio Planning with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-integration-with-execution-applications.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate Portfolio Planning with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/portfolio-planning-integration-with-execution-applications.md)
 
 </td><td>
 
-[Compare \[Omitted image "bus-community.svg"\] Alt text: Compare capabilities of Portfolio Planning with Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
+[Compare \[Omitted image "bus-community.svg"\] Alt text: Compare capabilities of Portfolio Planning with Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 
 </td></tr><tr><td>
 
-[Scenario planning \[Omitted image "bus-learn.svg"\] Alt text: Optimize planning with scenario planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/optimizing-scenarios-in-portfolio-planning.md)
+[Scenario planning \[Omitted image "bus-learn.svg"\] Alt text: Optimize planning with scenario planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/optimizing-scenarios-in-portfolio-planning.md)
 
 </td><td>
 
-[Demands\[Omitted image "bus-demand-management.svg"\] Alt text:Create, evaluate, and prioritize demands throughout the demand life-cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-workspace-ppw.md)
+[Demands\[Omitted image "bus-demand-management.svg"\] Alt text:Create, evaluate, and prioritize demands throughout the demand life-cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/demand-workspace-ppw.md)
 
 </td><td>
 
-[\[Omitted image "bus-actionable-analytics.svg"\] Alt text: View and manage portfolio-wide risks, issues, decisions, actions, and changes across your entire organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/explore-ridac-ppw.md)
+[\[Omitted image "bus-actionable-analytics.svg"\] Alt text: View and manage portfolio-wide risks, issues, decisions, actions, and changes across your entire organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/explore-ridac-ppw.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

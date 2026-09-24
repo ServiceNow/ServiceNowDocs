@@ -3,13 +3,13 @@ title: Using Natural Language Query
 description: With Natural Language Query \(NLQ\), you can query data in your tables by entering requests in natural, everyday language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/using-nlq.html
-release: australia
+release: brazil
 product: Natural Language Query
 classification: natural-language-query
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Natural Language Query, Enable AI experiences]
+breadcrumb: [Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Using Natural Language Query
@@ -50,7 +50,7 @@ Keep the following information in mind when using NLQ.
 
 -   Your requests can contain periods and apostrophes, but not wildcard characters such as asterisks or regex.
 -   To group by a field or column, that column must be visible in the list view. Use the personalize list icon \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: Personalize list icon.\) to hide or display columns.
--   For information about querying CMDB tables, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/querying-cmdb.md).
+-   For information about querying CMDB tables, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/querying-cmdb.md).
 
 ## Tips for improving your queries
 

@@ -3,11 +3,11 @@ title: Accessing control through organizational structure
 description: Access to processing activity records can be restricted by using Entity-Based Access \(EBA\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.html
-release: australia
+release: brazil
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -25,7 +25,7 @@ Entity-Based Access \(EBA\) implements this control by enforcing data segregatio
 -   Dynamic segmentation: Access can be assigned based on the organizational structure, such as legal entity, jurisdiction, business unit, or any defined grouping. So processing activity records are only visible to the appropriate teams.
 -   Regulatory alignment: Access controls can be mapped to organizational structures, helping organizations meet local regulatory requirements and maintain clear audit trails.
 
-For information about configuring access control, see [Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md).
+For information about configuring access control, see [Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md).
 
 ## UI impact
 
@@ -79,8 +79,8 @@ Access records for configured entities and their associated downstream entities
 </td></tr></tbody>
 </table>**Note:** Assigned roles such as assignee, reviewer, and analyst retain access to their assigned records even if those records fall outside the configured entity.
 
--   **[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)**  
+-   **[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)**  
 Configurie Entity-based access control in Privacy Management, including property activation, hierarchy setup, record mapping, user assignment, bulk updates, and activating entity-based record access rules.
 
-**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

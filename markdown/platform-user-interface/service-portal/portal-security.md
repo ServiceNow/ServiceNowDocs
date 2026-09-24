@@ -3,11 +3,11 @@ title: Managing portal access
 description: Control user access to a portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/portal-security.html
-release: australia
+release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -25,24 +25,28 @@ Control who accesses your portal and what they can see in the following ways:
     **Note:** A number of portal pages that are installed by default are marked public. Filter your list of Service Portal pages for Public \[is\] true to identify these pages. Setting the Public value to false will prevent these pages from being publicly available.
 
 -   User criteria: For a more advanced way of limiting user access, create and apply user criteria to pages, widgets, widgets instances, and search sources.
--   Multifactor authentication: If an instance is configured to require multifactor authentication, users are automatically directed to set up multifactor authentication upon initial login. For setup instructions, see [Setup multi-factor authentication upon initial login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_SetUpMultiFactorAuthUponLogin.md). If multifactor authentication is optional, users can still enable or disable authentication from their user profile. For setup instructions, see [Setup multi-factor authentication on your user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mfa-setup-profile.md).
+-   Multifactor authentication: If an instance is configured to require multifactor authentication, users are automatically directed to set up multifactor authentication upon initial login. For setup instructions, see [Setup multi-factor authentication upon initial login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_SetUpMultiFactorAuthUponLogin.md). If multifactor authentication is optional, users can still enable or disable authentication from their user profile. For setup instructions, see [Setup multi-factor authentication on your user profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/mfa-setup-profile.md).
 
--   **[Single sign-on, logins, and URL redirects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_SPSSOLoginAndRedirects.md)**  
+-   **[Single sign-on, logins, and URL redirects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/c_SPSSOLoginAndRedirects.md)**  
 Service Portal uses a combination of system properties and script includes to determine how the system handles URL redirects for users logging in to the portal.
--   **[Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-page-security.md)**  
+-   **[Enable identifier-first login in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/identifier-first-login-service-portal.md)**  
+Service Portal uses an identifier-first login \(IFL\) authentication method where the authentication path is determined by the username or email entered. The path is evaluated against configured IFL policies. IFL takes precedence over any identity provider or local login options configured for the portal.
+-   **[Enable early redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-early-redirection.md)**  
+Enable early redirection to redirect authentication to identifier-first login or a portal identity provider.
+-   **[Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-page-security.md)**  
 Set up pages to be public or filter them by role.
--   **[Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-widget-security.md)**  
+-   **[Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-widget-security.md)**  
 Configure widget security to ensure that your widget is being accessed only by the intended audience.
--   **[User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md)**  
+-   **[User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/user-criteria.md)**  
 User criteria enables you to allow access to users based on role, department, group, location, or company. Administrators can control access to pages, widgets, widget instances, announcements, and search sources in a portal by creating and applying user criteria.
--   **[Enable e-signature for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-esignature-sp.md)**  
+-   **[Enable e-signature for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-esignature-sp.md)**  
 You can configure e-signature in Service Portal to require re-authentication from approving users.
--   **[Enable external user self-registration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-self-registration.md)**  
+-   **[Enable external user self-registration for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/enable-self-registration.md)**  
 Enable external users to register to a ServiceNow app through Service Portal.
--   **[Register your PIV/CAC card for Service Portal login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/piv-cac-login.md)**  
+-   **[Register your PIV/CAC card for Service Portal login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/piv-cac-login.md)**  
 Register your Personal Identity Verification \(PIV\) or Common Access Card \(CAC\) card so that you can log in to your organization's portal without entering a password.
--   **[Deactivate a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/deactivate-portal.md)**  
+-   **[Deactivate a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/deactivate-portal.md)**  
 Turn off access to a portal that you no longer want users to visit and optionally redirect them to another portal.
 
-**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configuring-service-portal.md)
+**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configuring-service-portal.md)
 

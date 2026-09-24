@@ -3,11 +3,11 @@ title: Using Solution Library for Essential SAFe dashboards
 description: Upgrade to the latest layout of Essential SAFe dashboards using Solution Library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.html
-release: australia
+release: brazil
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ For example, if you are upgrading from version 1.0.1 or earlier of the applicati
 -   SAFe Epic Dashboard
 -   SAFe Team Dashboard
 
-**Note:** For users on the Australia release, the **Install** and **Upgrade** buttons are not visible on the Solution Library content form. For information on resolving this issue, see [Allow PA Solution Library for Store apps](https://support.servicenow.com/kb_view.do?sys_kb_id=ce74a4bb1b89d4107a5933f2cd4bcb3f).
+**Note:** For users on the Brazil release, the **Install** and **Upgrade** buttons are not visible on the Solution Library content form. For information on resolving this issue, see [Allow PA Solution Library for Store apps](https://support.servicenow.com/kb_view.do?sys_kb_id=ce74a4bb1b89d4107a5933f2cd4bcb3f).
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

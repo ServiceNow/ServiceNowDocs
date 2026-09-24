@@ -3,11 +3,11 @@ title: Automate DevOps change request creation
 description: Modify your pipeline to automatically create a DevOps change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/automate-devops-change-request.html
-release: australia
+release: brazil
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -18,9 +18,9 @@ Modify your pipeline to automatically create a DevOps change request.
 
 ## About this task
 
-The step 5 in this topic requires you to specify the attributes for the change request. Change attributes can be specified in multiple areas. They can be specified in the pipeline step of DevOps Change Velocity, in the Default Change Handler subflow, in an approval flow, in a template, or passed in the pipeline. If a change model is used, they can also be specified in model presets. For more information, see [DevOps change request attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/apis-for-change-actions-in-devops.md).
+The step 5 in this topic requires you to specify the attributes for the change request. Change attributes can be specified in multiple areas. They can be specified in the pipeline step of DevOps Change Velocity, in the Default Change Handler subflow, in an approval flow, in a template, or passed in the pipeline. If a change model is used, they can also be specified in model presets. For more information, see [DevOps change request attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/apis-for-change-actions-in-devops.md).
 
-If you have used business rules, then you must set the **sn\_devops.change\_request.apply\_attributes\_on\_creation** property to true, so that the change attributes passed in the pipeline are set when the change request is created instead of the attributes being passed after the change request is created. For more information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
+If you have used business rules, then you must set the **sn\_devops.change\_request.apply\_attributes\_on\_creation** property to true, so that the change attributes passed in the pipeline are set when the change request is created instead of the attributes being passed after the change request is created. For more information, see [DevOps Change Velocity properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
 ## Before you begin
 
@@ -52,7 +52,7 @@ Role required: sn\_devops.admin, sn\_devops.tool\_owner, or sn\_devops.app\_owne
 
     **Note:** You can skip the activity of specifying change attributes if you want to manage and specify these attributes in the pipeline instead. However, change receipt can be enabled only from ServiceNow DevOps Change Velocity.
 
-    For more information on configuring change settings, see [Create a Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md).
+    For more information on configuring change settings, see [Create a Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateAChange.md).
 
     You must enable change receipt if you don’t want the pipeline to pause when the change request is created. You can disable the sn\_devops.enable\_change\_receipt\_state\_transition property if you don’t want the state to transition automatically.
 
@@ -69,5 +69,5 @@ Role required: sn\_devops.admin, sn\_devops.tool\_owner, or sn\_devops.app\_owne
 7.  Select **Done**.
 
 
-**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

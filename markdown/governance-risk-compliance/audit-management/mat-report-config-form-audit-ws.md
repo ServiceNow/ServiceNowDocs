@@ -3,13 +3,13 @@ title: Matrix report configuration form
 description: The table gives a description of the field values for the Matrix report configuration form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/mat-report-config-form-audit-ws.html
-release: australia
+release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create matrix report configuration for Audit Workspace, Matrix report in Audit Workspace, Audit Workspace for the Auditor, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Create matrix report configuration for Audit Workspace, Matrix report in Audit Workspace, Audit Workspace for the Auditor, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Matrix report configuration form

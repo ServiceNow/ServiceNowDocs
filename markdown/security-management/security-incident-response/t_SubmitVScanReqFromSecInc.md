@@ -3,11 +3,11 @@ title: Submit a vulnerability scan request from a security incident
 description: If your security incident has one or more configuration items \(servers, computers, and so on\), they can be scanned for vulnerabilities from the Security Incident Response form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_SubmitVScanReqFromSecInc.html
-release: australia
+release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage lookups and scans, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_si.write
 
 ## Procedure
 
-1.  [Create a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/si-manual-creation.md) and include at least one resource.
+1.  [Create a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/si-manual-creation.md) and include at least one resource.
 
     You can also open an existing incident that has configuration items.
 

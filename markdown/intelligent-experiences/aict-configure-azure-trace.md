@@ -3,12 +3,12 @@ title: Add an Azure trace connection
 description: Monitor AI agents running on Microsoft Azure by adding an Azure trace connection. AI Control Tower collects trace data through your Azure credentials and a MID Server, without requiring SDK instrumentation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-azure-trace.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an Azure trace connection
@@ -41,15 +41,15 @@ Role required: sn\_ai\_governance.ai\_steward
     -   **Application Insights** — collects traces from Azure Monitor Application Insights.
 4.  Fill in the credentials for the source system you selected.
 
-<table id="choicetable-azure-credentials"><thead><tr><th align="left" id="d286437e175">
+<table id="choicetable-azure-credentials"><thead><tr><th align="left" id="d266034e175">
 
 Source system
 
-</th><th align="left" id="d286437e178">
+</th><th align="left" id="d266034e178">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d286437e184">
+</th></tr></thead><tbody><tr><td id="d266034e184">
 
 **Classic Foundry**
 
@@ -72,7 +72,7 @@ The MID Server must be active and validated. Select **Go to Mid server installat
 6.  Select **Active** to begin collecting traces when you save. Clear this option to save the connection without starting collection. You can activate the connection later from its record.
 
 
-</td></tr><tr><td id="d286437e236">
+</td></tr><tr><td id="d266034e236">
 
 **New Foundry**
 
@@ -99,7 +99,7 @@ The default is 30. Set a lower value to return results sooner or set a higher va
 7.  Select **Active** to begin collecting traces when you save. Clear it to save the connection without starting collection. You can activate the connection later from its record.
 
 
-</td></tr><tr><td id="d286437e296">
+</td></tr><tr><td id="d266034e296">
 
 **Application Insights**
 
@@ -136,7 +136,7 @@ The trace connection appears on the **Established** sub-tab. If the connection i
 
 ## What to do next
 
-Choose which metrics to include in evaluation scoring. See [Activate evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-monitor-external-ai-system.md).
+Choose which metrics to include in evaluation scoring. See [Activate evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitor-external-ai-system.md).
 
-**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring-trace-connections.md)
+**Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-trace-connections.md)
 

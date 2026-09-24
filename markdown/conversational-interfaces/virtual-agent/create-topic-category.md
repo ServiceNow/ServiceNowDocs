@@ -3,11 +3,11 @@ title: Create or modify custom Virtual Agent categories
 description: Create or change custom categories for organizing and grouping related Virtual Agent assets, such as topics. You can also make category labels visible in the Topic picker menu displayed to end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-topic-category.html
-release: australia
+release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Virtual Agent, Conversational Interfaces]
 ---
@@ -22,13 +22,13 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-Use topic categories to group related conversation topics. When your create or update a topic, you can assign one or more categories to which the topic belongs. You can also view your topics by category in Virtual Agent Designer.
+Use topic categories to group related conversation topics. When your create or update a topic, you can assign one or more categories to which the topic belongs. You can also view your topics by category in the Asset library.
 
 For your end users, you can make the custom category label visible in the Topic picker menu so that associated topics are displayed by category.
 
 Before you create a new category, review the existing categories \(**All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Categories**\) to determine if you need a new category.
 
-**Note:** Pre-built topics have associated, default categories that can't be changed or deleted. Also, you can delete a custom category only when the category does not have any topics assigned to it.
+**Note:** Prebuilt topics have associated, default categories that can't be changed or deleted. Also, you can delete a custom category only when the category does not have any topics assigned to it.
 
 ## Procedure
 
@@ -85,7 +85,7 @@ Option to display the category label in the Topic picker menu for end users. **N
 
     The topic category appears in the following items:
 
-    -   **Category** list collector \(slushbucket\) on the Topic Properties page in Virtual Agent Designer so that you can assign one or more categories to a topic.
+    -   **Category** list collector on the Topic Properties page in Asset library so that you can assign one or more categories to a topic.
     -   **Category** filter on the Topics page, so that you can view topics by category.
     -   Topic cards on the Topics page, for topics that have assigned categories.
     -   Topic picker menu displayed to end users, if you made the category visible. Topics with multiple categories are displayed in the appropriate categories. Topics without categories are listed in the Others category.
@@ -94,8 +94,6 @@ Option to display the category label in the Topic picker menu for end users. **N
 
 4.  To delete a topic category, open the category record and click **Delete**.
 
-    If there are no topics associated with the category, the category is deleted. It is no longer listed in the **Category** field on the Topics Properties page and in the **Category** filter on the Topics page in Virtual Agent Designer.
+    If there are no topics associated with the category, the category is deleted. It is no longer listed in the **Category** field on the Topics Properties page and in the **Category** filter on the Topics page in Assistant Designer.
 
-
-**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

@@ -3,11 +3,11 @@ title: Using agentic AI with ServiceNow Otto for Creator
 description: Use the AI agents and agentic workflows available with ServiceNow Otto for Creator to help you build on the ServiceNow AI Platform more efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/using-agentic-ai-now-assist-for-creator.html
-release: australia
+release: brazil
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Now Assist for Creator, Install Now Assist for Creator, Use agentic AI, agentic AI, AI agents in Now Assist for Creator, agentic workflow Now Assist for Creator, Activate Creator AI agents, Build Agent]
 breadcrumb: [ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
@@ -29,7 +29,7 @@ Application
 
 </th></tr></thead><tbody><tr><td>
 
-[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-troubleshooting-agent-landing-page.md)
+[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)
 
 </td><td>
 
@@ -37,7 +37,7 @@ Automated Test Framework \(ATF\)
 
 </td></tr><tr><td>
 
-[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)
+[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md)
 
 </td><td>
 
@@ -46,7 +46,7 @@ Automated Test Framework \(ATF\)
 
 </td></tr><tr><td>
 
-[Release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md)
+[Release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md)
 
 </td><td>
 
@@ -56,7 +56,7 @@ Automated Test Framework \(ATF\)
 
 </td></tr><tr><td>
 
-[Theme generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-theme-now-assist.md)
+[Theme generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-theme-now-assist.md)
 
 </td><td>
 
@@ -64,12 +64,15 @@ Theme Builder
 
 </td></tr><tr><td>
 
-[UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder-agent.md)
+[UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/using-ui-builder-agent.md)
 
 </td><td>
 
 UI Builder
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
+</table>-   **[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)**  
+Use ATF troubleshooting agent to simplify test failure diagnosis on specific metadata.
+
+**Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
 

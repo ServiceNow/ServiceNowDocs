@@ -3,11 +3,11 @@ title: Turn on the flow recommendations skill
 description: Turn on the flow recommendations skill to get recommendations for the next step of your flow with generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-the-now-assist-recommendations-skill.html
-release: australia
+release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flow recommendations, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -18,7 +18,7 @@ Turn on the flow recommendations skill to get recommendations for the next step 
 
 ## Before you begin
 
--   Install the ServiceNow Otto for Creator application. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+-   Install the ServiceNow Otto for Creator application. See .
 -   Role required: admin
 
 ## About this task
@@ -42,9 +42,9 @@ Turn on the flow recommendations skill to get recommendations for the next step 
 
 ## What to do next
 
-For Flow generation v 28.2 and later releases, grant a flow creation role to each user who will use the Flow recommendations skill. For a list of available flow creation roles, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
+For Flow generation v 28.2 and later releases, grant a flow creation role to each user who will use the Flow recommendations skill. For a list of available flow creation roles, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
 
 For earlier versions of the Flow generation application, grant the now.assist.creator role and a flow creation role to each user who will use the Flow recommendations skill.
 
-**Parent Topic:**[Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-recommendations-landing.md)
+**Parent Topic:**[Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-recommendations-landing.md)
 

@@ -3,9 +3,9 @@ title: Advanced app allowance example script
 description: Users with the admin role can use the example JSON script to configure a scripted extension point. Admins can use these scripted extension points to limit which mobile apps can log in to ServiceNow instances. These scripts can also be used to specify a redirect link to authorized mobile apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/adv-app-allow-sample-script.html
-release: australia
+release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced app allowance, Control app use, Configuring the Mobile Platform, Mobile Platform]
 ---

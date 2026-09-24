@@ -3,11 +3,11 @@ title: Add Service Locations functionality to a work order catalog item in the C
 description: Add Service Locations functionality to a work order or work order task catalog item to enable the ability to add a location on demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/configure-service-location-record-producer.html
-release: australia
+release: brazil
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Service locations]
 breadcrumb: [Service Locations, Set up workforce, Configure, Field Service Management]

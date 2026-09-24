@@ -3,12 +3,12 @@ title: View the activity of an AI specialist in the legacy AI Agent Studio
 description: View the task execution history of an AI specialist in AI Agent Studio to track where and when it plans and attempts executions. You can also give feedback on its performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/view-aiw-activity.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI specialist activity]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, Enable AI experiences]
+breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # View the activity of an AI specialist inthe legacy AI Agent Studio
@@ -57,9 +57,9 @@ For a given execution, you can rate the work of the AI specialist as either help
 
 ## What to do next
 
-If you want to change which records the AI specialist picks up, you can change the capabilities or assignment groups in the AI specialist's profile. See [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-profile.md) for more information.
+If you want to change which records the AI specialist picks up, you can change the capabilities or assignment groups in the AI specialist's profile. See [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aiw-profile.md) for more information.
 
-To learn more about changing the specific tasks that the AI specialist performs on a record, see [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aiw-tasks.md).
+To learn more about changing the specific tasks that the AI specialist performs on a record, see [Edit the tasks of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/modify-aiw-tasks.md).
 
-You can test the AI specialist on a specific record of your choosing by [previewing the AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aiw-ais.md).
+You can test the AI specialist on a specific record of your choosing by [previewing the AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aiw-ais.md).
 

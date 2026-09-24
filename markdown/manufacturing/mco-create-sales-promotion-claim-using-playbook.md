@@ -3,9 +3,9 @@ title: Create a sales promotion claim using playbook
 description: Create the sales promotion claim using the guided playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-sales-promotion-claim-using-playbook.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
@@ -81,4 +81,6 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
     Claim is reviewed and approved.
 
+
+**Parent Topic:**[Sales promotion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-sales-promotion.md)
 

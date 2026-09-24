@@ -3,11 +3,11 @@ title: Financials tab
 description: The Financials tab of the demand dashboard summarizes planned cost, financial benefit, and return on investment \(ROI\) across demands.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/r\_demand\_dashboard\_financials\_widgets.html
-release: australia
+release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [financials tab, demand dashboard widgets, Demand Management]
 breadcrumb: [Explore, Monitor and track demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]

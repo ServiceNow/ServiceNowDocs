@@ -3,11 +3,11 @@ title: Assign content request to content creator
 description: Assign a new content request to a content manager so they can create the content and a publish plan, then send it for approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/assign-content-request.html
-release: australia
+release: brazil
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing content requests, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_cd.content\_admin
 
 You can assign a content request to a user with the sn\_cd.content\_manager or an assignment group.
 
-An assignment group is a group of users that receive the content request. Content Governance includes two assignment groups out of the box: Content Admin and Content Manager, which contain the users with those roles. To configure a new assignment group, see [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ConfigGroupTypesForAssignGroups.md)
+An assignment group is a group of users that receive the content request. Content Governance includes two assignment groups out of the box: Content Admin and Content Manager, which contain the users with those roles. To configure a new assignment group, see [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ConfigGroupTypesForAssignGroups.md)
 
 ## Procedure
 

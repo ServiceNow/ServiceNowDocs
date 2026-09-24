@@ -3,11 +3,11 @@ title: Create or edit approval rules
 description: Create and activate an approval rule by selecting a rule type, choosing the target tables, defining conditions, and configuring approval levels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-approval-rules-list-and-form-view.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-09-15"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
-breadcrumb: [Unified Approval Rules Overview, Use, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
 
 # Create or edit approval rules
@@ -43,6 +43,15 @@ Rule type
 </td><td>
 
 Determines the purpose of the approval \(e.g., false positive, exception\). The available types depend on the selected target tables.
+
+ Available rule types include:
+
+-   **deferral\_requests**: For exception and deferral approval workflows.
+-   **false\_positive**: For false positive approval workflows.
+-   **compensating\_control\_management**: For risk reduction using compensating controls.
+-   **exception\_rules**: For exception rule creation and extension approvals.
+-   **unassign**: For unassignment approval workflows.
+
 
 </td></tr><tr><td>
 
@@ -119,6 +128,4 @@ Indicates whether the rule can be used. Activation requires at least one approva
 
     The rule is active and routed based on the defined levels, tables, and conditions.
 
-
-**Parent Topic:**[Unified Approval Rules Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approval-rules-overiew.md)
 

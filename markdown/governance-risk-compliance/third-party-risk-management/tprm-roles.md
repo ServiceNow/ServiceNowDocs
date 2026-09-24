@@ -3,11 +3,11 @@ title: Roles in Third-party Risk Management
 description: Roles determine permissions and access in TPRM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-roles.html
-release: australia
+release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -114,7 +114,7 @@ TPR assessor \(Third-party risk assessor\)
     -   Enable TPR assessors to answer questions or modify responses in third-party questionnaires \(default\).
     -   Enable TPR assessors to modify responses.
     -   Don't enable TPR assessors to answer questions or modify responses.
-See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
+See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 
 </td><td>
@@ -124,6 +124,7 @@ Contains:-   vendor\_assessment\_reviewer
 -   vendor\_editor
 -   vendor\_reader
 -   sn\_dora\_accel.manager
+-   sn\_smart\_asmt.reassign
 
 </td></tr><tr><td>
 
@@ -160,6 +161,7 @@ Contains:
 
 -   vendor\_assessor
 -   sn\_dora\_accel.manager
+-   sn\_smart\_asmt.reassign
 
 </td></tr><tr><td>
 
@@ -189,6 +191,7 @@ Contains:
 -   sn\_dora\_accel.admin
 -   sn\_smart\_asmt.assessment\_admin
 -   sn\_smart\_imp\_auto.automation\_creator
+-   sn\_smart\_asmt.reassign
 
 </td></tr><tr><td>
 
@@ -200,7 +203,7 @@ Includes all permissions of the TPR assessor role plus:
 
  Users in the legal department can modify contract status and the start and expiration dates.
 
- You can add users with this role to the **Contract risk negotiators** user group. See [Add users to groups based on responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-groups-add-users-to.md).
+ You can add users with this role to the **Contract risk negotiators** user group. See [Add users to groups based on responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-groups-add-users-to.md).
 
 </td><td>
 
@@ -248,7 +251,7 @@ A user with one of the following roles can access the Digital resilience third-p
     The TPR admin contains this role.
 
 
-For more information on DORA related roles, see [Roles installed with Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/roles-for-drtpr.md).
+For more information on DORA related roles, see [Roles installed with Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/roles-for-drtpr.md).
 
 ## Roles required for using Smart Assessment Engine
 
@@ -286,24 +289,26 @@ A user with the TPRM SAE admin \[sn\_smart\_asmt.assessment\_admin\] role can cr
 
 A user with the sn\_smart\_imp\_auto.automation\_creator role can create post assessment impact automation rules. The TPR admin contains this role.
 
+The TPR administrator \[sn\_vdr\_risk\_asmt.vendor\_risk\_admin\], TPR assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\], and TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] roles now include the sn\_smart\_asmt.reassign role. You can reassign Smart Assessment Engine questionnaires to another member of your organization.
+
 **Note:** The Third-party assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role is the minimum role required to view any template that is a member of the TPRM external questionnaire, TPRM external document request, TPRM internal tiering questionnaire, and TPRM internal IRQ purposes.
 
-For more information on SAE related roles, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
+For more information on SAE related roles, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 
 ## Roles required for using ServiceNow Otto for Third-party Risk Management \(TPRM\)
 
 A user with the Third-party Assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role can use the ServiceNow Otto for TPRM skills.
 
-The system automatically grants the TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] after the ServiceNow Otto for TPRM application is installed. For more information about a ServiceNow Otto for TPRM, see [ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/exploring-now-assist-tprm.md).
+The system automatically grants the TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] after the ServiceNow Otto for TPRM application is installed. For more information about a ServiceNow Otto for TPRM, see [ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/exploring-now-assist-tprm.md).
 
-**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
 **Related topics**  
 
 
-[Assign TPRM roles to users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles-assign.md)
+[Assign TPRM roles to users and user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles-assign.md)
 
-[Roles installed with Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/roles-for-drtpr.md)
+[Roles installed with Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/roles-for-drtpr.md)
 
-[Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md)
+[Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md)
 

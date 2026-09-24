@@ -3,9 +3,9 @@ title: External Organization as a fulfiller
 description: External Organization \(formerly External business location \(EBL\)\) as a fulfiller enables partners, external agencies, and franchises to fulfill customer cases. You can use this capability to maintain consistent customer experiences across both internal and external organizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ebl-as-a-fulfiller.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cases, Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Cases, Overview, Configure Service Model Foundation, Data models, S
 
 External Organization \(formerly External business location \(EBL\)\) as a fulfiller enables partners, external agencies, and franchises to fulfill customer cases. You can use this capability to maintain consistent customer experiences across both internal and external organizations.
 
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 ## Overview of external organization
 
@@ -36,5 +36,5 @@ For example, hotels perform various activities, from guest check-in to billing a
 **Related topics**  
 
 
-[Access limitations for external location agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-limitations-for-ext-loc-agent.md)
+[Access limitations for external location agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/access-limitations-for-ext-loc-agent.md)
 

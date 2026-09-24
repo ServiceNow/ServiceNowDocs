@@ -3,11 +3,11 @@ title: AWS application ELB Service discovery with Patterns
 description: Discovery uses the Amazon AWS application ELB Service discovery pattern to show all load balancers in your environment in a map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-application-elb-service-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -33,7 +33,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Prerequisites
 
--   Run a horizontal discovery, using [Cloud API \(CAPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-api.md). This is necessary because this discovery pattern supports top-down discovery only. For Cloud Discovery, you can run the horizontal discovery as usual.
+-   Run a horizontal discovery, using [Cloud API \(CAPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-management-api.md). This is necessary because this discovery pattern supports top-down discovery only. For Cloud Discovery, you can run the horizontal discovery as usual.
 -   When the load balancers data has been stored in the Configuration Management Database \(CMDB\), create an application service for each load balancer.
 -   Set read-only permissions for these REST APIs:
     -   https://elasticloadbalancing.&lt;REGION&gt;.amazonaws.com/?Action=DescribeLoadBalancers&amp;LoadBalancerArns.member.1=&lt;LB\_ARN&gt;&amp;Version=2015-12-01
@@ -43,7 +43,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   https://elasticloadbalancing.&lt;REGION&gt;.amazonaws.com/?Action=DescribeTargetHealth&amp;TargetGroupArn=&lt;TARGET\_GROUP\_ARN&gt;&amp;Version=2015-12-01
     -   https://ec2.&lt;REGION&gt;.amazonaws.com/?Action=DescribeInstances&amp;Version=2016-11-15&amp;Filter.1.Name=instance-state-name&amp;Filter.1.Value=running&amp;Filter.2.Name=instance-id&amp;Filter.2.Value=&lt;INSTANCE\_ID&gt;
 -   For Cloud Discovery, download the Discovery and Service Mapping Patterns from the ServiceNow Store.
--   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) published on the ServiceNow documentation site.
+-   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) published on the ServiceNow documentation site.
 
 ## Verify the REST API Permissions
 
@@ -65,5 +65,5 @@ The discovered data includes the following tables and fields.
 |Object ID \[object\_id\]|Unique identifier of the load balancer.|
 |IP Address \[ip\_address\]|IP address of the FQDN.|
 
-**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

@@ -3,13 +3,13 @@ title: Configure Box for external content indexing
 description: Create and authorize an OAuth 2.0 application in the Box developer console to allow the Box external content connector to access your Box source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-box-external-content-indexing.html
-release: australia
+release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Box external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -21,7 +21,7 @@ Create and authorize an OAuth 2.0 application in the Box developer console to al
 
 You need administrator access to the Box developer console and the Box Admin UI portal.
 
-You must have created a private/public key pair for the Box external content connector and extracted the public key certificate in PEM-encoded \(Base64 ASCII\) X.509 format. For details on creating the public/private key pair and extracting the public key certificate, see [Create a public/private key pair for the Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-key-pair-box-external-content-connector.md).
+You must have created a private/public key pair for the Box external content connector and extracted the public key certificate in PEM-encoded \(Base64 ASCII\) X.509 format. For details on creating the public/private key pair and extracting the public key certificate, see [Create a public/private key pair for the Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-key-pair-box-external-content-connector.md).
 
 Role required: none
 
@@ -29,7 +29,7 @@ Role required: none
 
 The Box external content connector retrieves documents and user permissions from your Box source system using the Box API.
 
-To allow the connector to access your Box source system via the Box API, you must configure and authorize an OAuth 2.0 application in the Box developer console. Your connector administrator can use settings copied from the OAuth 2.0 application and its API key to configure the Box external connector for proper connection to your source system.
+To allow the connector to access your Box source system via the Box API, you must configure and authorize an OAuth 2.0 application in the Box developer console. Your connector administrator can use settings copied from the OAuth 2.0 application and its API key to configure the Box external content connector for proper connection to your source system.
 
 ## Procedure
 
@@ -129,12 +129,12 @@ To allow the connector to access your Box source system via the Box API, you mus
 Provide the following items to your connector administrator:
 
 -   The email address for the Box administrator account that you used to configure the OAuth 2.0 application.
--   The public key ID string that you copied in step [2.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-box-external-content-indexing.md).
--   The JSON-format settings file that you downloaded in step [2.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-box-external-content-indexing.md).
+-   The public key ID string that you copied in step [2.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-box-external-content-indexing.md).
+-   The JSON-format settings file that you downloaded in step [2.g](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-box-external-content-indexing.md).
 
 Your connector administrator needs these items to configure a Box external content connector to retrieve user boxes and security principals from your Box source system.
 
-For details on creating and configuring a Box Cloud external content connector, see [Create a Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-box.md).
+For details on creating and configuring a Box external content connector, see [Create a Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-ext-cont-connector-box.md).
 
-**Parent Topic:**[Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/box-external-content-connector.md)
+**Parent Topic:**[Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/box-external-content-connector.md)
 

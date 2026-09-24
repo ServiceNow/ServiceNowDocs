@@ -3,9 +3,9 @@ title: Connect a predefined data fabric table to a local table
 description: Connect a data fabric table included with an application to a local table on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/map-application-table-internal-zcc.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access real-time data, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -59,5 +59,5 @@ You can connect a data fabric table included with an application to a different 
 
 The data fabric table is connected to the local table that you selected using the ServiceNow local instance connector. Application users can access real-time data from the local table using the data fabric table.
 
-**Parent Topic:**[Accessing real-time data in applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mapping-application-tables-zcc.md)
+**Parent Topic:**[Accessing real-time data in applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mapping-application-tables-zcc.md)
 

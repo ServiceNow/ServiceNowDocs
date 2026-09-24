@@ -3,11 +3,11 @@ title: Manage work orders for telecommunication services
 description: Manage the work orders for the field services to support the installation, activation, and site assessments that are needed for connectivity services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/field-service-management-for-telecommunications/managing-work-order-telecommunication-service.html
-release: australia
+release: brazil
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Field Service Management for Telecommunications, Telecommunications
 
 Manage the work orders for the field services to support the installation, activation, and site assessments that are needed for connectivity services.
 
-With the use of the ServiceNow® Telecommunication Open API `(com.sn_tmf_api)` application, you create and manage work orders from your system for the connectivity-related field services. To learn more about managing work orders in Field Service Management, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_ManageWorkOrders.md).
+With the use of the ServiceNow® Telecommunication Open API `(com.sn_tmf_api)` application, you create and manage work orders from your system for the connectivity-related field services. To learn more about managing work orders in Field Service Management, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/c_ManageWorkOrders.md).
 
 This feature supports the following:
 
@@ -25,5 +25,5 @@ This feature supports the following:
 -   Fetch the details of a work order
 -   Cancel a work order
 
-The Telecommunication Open API application uses the TM Forum 697 Service Order Management API specification to create and manage work orders for the field services. To learn more, see .
+The Telecommunication Open API application uses the TM Forum 697 Service Order Management API specification to create and manage work orders for the field services. To learn more, see [Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/work-order-mgmt-api.md).
 

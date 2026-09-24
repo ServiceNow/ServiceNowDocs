@@ -3,12 +3,12 @@ title: Configure Scan Engine parameters
 description: Configure the primary scanning capabilities and configuration options for scheduled, on-demand, and real-time scans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-scan-engine-properties.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [impact scan engine, scan properties, scheduled scans]
-breadcrumb: [Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Configure Scan Engine parameters
@@ -17,7 +17,7 @@ Configure the primary scanning capabilities and configuration options for schedu
 
 ## Before you begin
 
-Review these properties before you [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md) or to make changes to Scan Engine behavior.
+Review these properties before you [Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md) or to make changes to Scan Engine behavior.
 
 Role required: scan\_engine\_admin and Impact \_admin
 
@@ -216,22 +216,22 @@ Scan Non-Configuration Records
 
 </td></tr></tbody>
 </table>
--   **[Configure scanning properties per persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/teamdev-scanning-properties.md)**  
+-   **[Configure scanning properties per persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/teamdev-scanning-properties.md)**  
 You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to permit users, team leads, and admins to access content.
--   **[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-application-scanning-properties.md)**  
+-   **[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-application-scanning-properties.md)**  
 The Scan Engine provides options to configure application scanning and enhance governance over Team Dev push approval. Configure which applications are scanned, the parameters applications must have to satisfy Team Dev approval, and whether developers can use Suite Scans for faster, focused validation.
--   **[Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/update-set-scanning-properties2.md)**  
+-   **[Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/update-set-scanning-properties2.md)**  
 The Scan Engine provides several options to further configure update set scanning and enhance the governance over update set management. Update set scanning occurs during scheduled instance scans and when developers attempt to mark update sets complete.
--   **[Define My SN Instance environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/add-view-scan-engine-related-lists.md)**  
+-   **[Define My SN Instance environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/add-view-scan-engine-related-lists.md)**  
 Configure instance integration settings to define the different environments for your ServiceNow instances and to take advantage of exception processing, definition syncing, and user story tracking in Impact.
--   **[Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/additional-scan-engine-properties.md)**  
+-   **[Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/additional-scan-engine-properties.md)**  
 You can configure additional capabilities and configuration options for the definition ruleset.
--   **[Configure real-time scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-real-time-scanning-properties.md)**  
+-   **[Configure real-time scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-real-time-scanning-properties.md)**  
 Real-time scanning properties allow control over which users have access to real-time scanning, and how the scan operates within their environment. Perform the following procedure to configure real time scanning properties.
--   **[Configure real-time code resolution with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-ai-code-fix-for-platform-health.md)**  
+-   **[Configure real-time code resolution with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-ai-code-fix-for-platform-health.md)**  
 Follow these steps to configure real-time code resolution with AI suggested fixes for Impact Platform Health.
--   **[Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/exception-reason-properties.md)**  
-When real-time enforcement, `enforce_real_time_validation` is set to `true`, Recommend level findings require an approved exception reason before the form can be saved.
+-   **[Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/exception-reason-properties.md)**  
+When real-time enforcement, `enforce_real_time_validation`, is enabled, exception reasons can be configured for Suggest, Review, Recommend, and Act level findings based on the exception reason scope. Settings determine which finding levels require approval before the form can be saved.
 
-**Parent Topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-initial-scan-engine-settings.md)
+**Parent Topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-initial-scan-engine-settings.md)
 

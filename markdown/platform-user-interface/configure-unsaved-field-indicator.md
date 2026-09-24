@@ -3,9 +3,9 @@ title: Configure the unsaved field indicator
 description: Configure the unsaved field indicator for an entire workspace experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-unsaved-field-indicator.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -69,7 +69,7 @@ Unsaved fields display an indicator across the entire workspace experience.
 
 ## What to do next
 
--   **[Configure a background color for unsaved fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-background-color-unsaved-indicator.md)**
+-   **[Configure a background color for unsaved fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-background-color-unsaved-indicator.md)**
 
     Configure a background color for unsaved fields in addition to the unsaved field indicator.
 

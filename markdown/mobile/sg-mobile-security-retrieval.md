@@ -3,9 +3,9 @@ title: Retrieval
 description: The following describes how data is retrieved from ServiceNow mobile apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-security-retrieval.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile data flow, Device security, Mobile security, Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -31,5 +31,5 @@ When a user requests to download documents from the app, the following steps occ
 2.  The instance receives the request and checks if the Token is valid.
 3.  If valid, the document becomes available to view or take further actions on the device.
 
-**Parent Topic:**[Mobile data flow for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-security-mobile-data-flow.md)
+**Parent Topic:**[Mobile data flow for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-security-mobile-data-flow.md)
 

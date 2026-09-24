@@ -3,9 +3,9 @@ title: Choice list security
 description: You can use the personalize\_choices security role to enable non-administrators modify Choice elements options on all tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_ChoiceListSecurity.html
-release: australia
+release: brazil
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Choice list field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

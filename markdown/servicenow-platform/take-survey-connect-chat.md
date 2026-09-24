@@ -3,9 +3,9 @@ title: Configure a survey in the Connect chat support
 description: Enable a user to take a survey after chatting with a support agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/take-survey-connect-chat.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Survey distribution, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,7 +43,7 @@ Role required: admin or survey\_admin
     **Note:** The survey URL displayed after a connect chat is not a clickable link in the Virtual Agent chat widget. Copy and paste the URL to access the survey.
 
 
-**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 
@@ -66,5 +66,5 @@ Role required: admin or survey\_admin
 
 [Sharing surveys]()
 
-[Monitor incoming Connect Support conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_MonitorIncomingConnectSupport.md)
+[Monitor incoming Connect Support conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/t_MonitorIncomingConnectSupport.md)
 

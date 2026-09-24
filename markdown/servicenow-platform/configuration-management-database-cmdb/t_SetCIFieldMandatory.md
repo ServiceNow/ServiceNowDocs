@@ -3,11 +3,11 @@ title: Set a CI attribute to be mandatory
 description: Configure a CI attribute as mandatory so it is included in the CMDB Health tests for the required metric if enabled. Required is a metric of the CMDB Health completeness KPI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_SetCIFieldMandatory.html
-release: australia
+release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,7 +39,7 @@ When a field is configured as mandatory, then if the **required** metric is enab
 
     The next time the form is opened, a field status indicator appears next to the field label, indicating that a value is mandatory.
 
-    **Note:** Mandatory fields are global. The field is marked as mandatory everywhere it appears on a form. Also, mandatory fields do not appear correctly when using Service Mapping tag-based discovery. For more information, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-based-mapping.md).
+    **Note:** Mandatory fields are global. The field is marked as mandatory everywhere it appears on a form. Also, mandatory fields do not appear correctly when using Service Mapping tag-based discovery. For more information, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/tag-based-mapping.md).
 
 
 **Related topics**  
@@ -47,5 +47,5 @@ When a field is configured as mandatory, then if the **required** metric is enab
 
 [CMDB Health Dashboard for Helsinki \| Overview](https://youtu.be/CvMRT3NExIo)
 
-[Make a field mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingAFieldMandatory.md)
+[Make a field mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_MakingAFieldMandatory.md)
 

@@ -3,9 +3,9 @@ title: Delete an exploration
 description: Authorized users can delete an exploration in several ways.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/delete-an-exploration.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -37,10 +37,10 @@ Role required: now\_assist\_explorer\_user and ownership of the exploration. Use
         \[Omitted image "nowass-del-option.png"\] Alt text: Deletion option in the additional options menu.
 
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-aide.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/use-aide.md)
 
 **Related topics**  
 
 
-[Duplicate, delete, copy, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/nowass-expl-dup-del-question-resp.md)
+[Duplicate, delete, copy, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/nowass-expl-dup-del-question-resp.md)
 

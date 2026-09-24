@@ -3,9 +3,9 @@ title: Create configurable product offerings and associated blueprints
 description: Create a configurable product offering and generate an associated blueprint using the CPQ Configurator. A blueprint contains the product structure and includes product attributes, product relationships, product and pricing rules, and any child products for the offering. Blueprints drive the agent and customer experience for configuring customizable products with the CPQ Configurator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-configurable-prod-offerings.html
-release: australia
+release: brazil
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -34,7 +34,7 @@ A configurable product offering, also called a complex product offering, has mul
         -   To copy an offering, navigate to **Offerings** &gt; **Product Offerings**, select the offering to be copied, and select **Copy**.
     3.  In the Details tab, fill in the fields to create a configurable product or modify the copy to create a product.
 
-        **Note:** For details on creating a product offering, see [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-offering.md). To identify the offering as a configurable product, select the **Configurable** option in the form, even if there are no characteristics or relationships defined. Selecting the **Configurable** option indicates that the product offering is to be configured using the CPQ Configurator.
+        **Note:** For details on creating a product offering, see [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-product-offering.md). To identify the offering as a configurable product, select the **Configurable** option in the form, even if there are no characteristics or relationships defined. Selecting the **Configurable** option indicates that the product offering is to be configured using the CPQ Configurator.
 
     4.  Select **Save**.
 
@@ -68,11 +68,13 @@ A configurable product offering, also called a complex product offering, has mul
 
     Another synchronization occurs, and the product offering is published to the product catalog.
 
+    **Note:** When extended life cycle states are enabled and the CPQ Integration plugin is installed, the synchronization also runs when an offering moves from Draft to In Test. This means the blueprint is updated at the In Test transition, not only at publication. For more information, see [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/extended-product-lifecycle-states.md).
+
 
 **Related topics**  
 
 
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-product-catalog.md)
 
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-managment.md)
 

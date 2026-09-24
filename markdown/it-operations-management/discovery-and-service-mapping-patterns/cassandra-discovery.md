@@ -3,11 +3,11 @@ title: Apache Cassandra database discovery
 description: ServiceNow Discovery finds the Apache and the DataStax Cassandra database on UNIX using the Cassandra Distributed DB pattern. Discovering some of these resources requires installing the Discovery and Service Mapping Patterns from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/cassandra-discovery.html
-release: australia
+release: brazil
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Provide credentials for discovering the host**
 
-    Identify the servers hosting a Cassandra database and provide credentials necessary for horizontal discovery of these servers. For more information, see [Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md).
+    Identify the servers hosting a Cassandra database and provide credentials necessary for horizontal discovery of these servers. For more information, see [Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md).
 
 -   **Verify CMDB CI Class Models store app is up to date**
 
@@ -32,7 +32,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify permissions for Cassandra commands for UNIX**
 
-    For the list of Cassandra commands, see the [Cassandra \(for UNIX\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md) section in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+    For the list of Cassandra commands, see the [Cassandra \(for UNIX\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md) section in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 -   **Verify read access to cassandra.yaml**
 
@@ -110,10 +110,10 @@ For incoming connections, the instance is discovered, as shown in the following 
 
 \[Omitted image "cassandra-discovery-top-down.png"\] Alt text: Cassandra discovery top-down service map
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 
 **Related topics**  
 
 
-[Database Administrator \(DBA\) report discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/dba-report-discovery-pattern.md)
+[Database Administrator \(DBA\) report discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/dba-report-discovery-pattern.md)
 
